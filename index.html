@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zhongwen Explorer - HSK 1-6</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header class="header">
+      <div class="header-hero">
+        <div class="hero-text">
+          <h1><span class="hero-kanji">中文</span> Zhongwen Explorer</h1>
+          <p class="hero-tagline">2516 Hanzi, 4363 Vokabeln, 310 Grammatik — HSK 1 bis 6</p>
+        </div>
+        <div class="header-actions">
+          <span id="item-count" class="badge-count">0</span>
+          <button id="random-btn" class="btn btn-gradient" title="Zufälliger Eintrag">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 4l3 3-3 3"/><path d="M18 20l3-3-3-3"/><path d="M3 7h3a5 5 0 0 1 5 5 5 5 0 0 0 5 5h5"/><path d="M21 7h-5a5 5 0 0 0-5 5 5 5 0 0 1-5 5H3"/></svg>
+            Zufall
+          </button>
+          <button id="sound-toggle" class="btn btn-icon active" title="Sound An/Aus" aria-label="Sound An/Aus">
+            <svg class="icon-on" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+            <svg class="icon-off" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+          </button>
+          <button id="theme-toggle" class="btn btn-icon" title="Theme wechseln" aria-label="Theme wechseln">
+            <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+        </div>
+      </div>
+      <nav class="tab-bar">
+        <button class="tab-btn active" data-tab="pinyin">
+          <span class="tab-icon-kana">拼</span>
+          Pinyin
+        </button>
+        <button class="tab-btn" data-tab="radicals">
+          <span class="tab-icon-kana">部</span>
+          Radikale
+        </button>
+        <button class="tab-btn" data-tab="hanzi">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h8"/></svg>
+          Hanzi
+        </button>
+        <button class="tab-btn" data-tab="vocab">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          Vokabeln
+        </button>
+        <button class="tab-btn" data-tab="onomatopoeia">
+          <span class="tab-icon-kana">声</span>
+          Lautmalerei
+        </button>
+        <button class="tab-btn" data-tab="grammar">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          Grammatik
+        </button>
+        <button class="tab-btn" data-tab="measurewords">
+          <span class="tab-icon-kana">量</span>
+          Zählwörter
+        </button>
+        <button class="tab-btn" data-tab="tones">
+          <span class="tab-icon-kana">调</span>
+          Töne
+        </button>
+        <button class="tab-btn" data-tab="quiz">
+          <span class="tab-icon-kana">试</span>
+          Quiz
+        </button>
+      </nav>
+      <!-- Hanzi Tab Controls -->
+      <div id="hanzi-controls" class="tab-content hidden">
+        <div class="search-bar">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="search-input" placeholder="Suche nach Hanzi, Bedeutung, Pinyin..." autocomplete="off">
+          <button id="clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+        </div>
+        <div class="filters">
+          <div class="level-filters">
+            <button class="filter-btn active" data-level="all">Alle</button>
+            <button class="filter-btn hsk1" data-level="HSK1">HSK 1</button>
+            <button class="filter-btn hsk2" data-level="HSK2">HSK 2</button>
+            <button class="filter-btn hsk3" data-level="HSK3">HSK 3</button>
+            <button class="filter-btn hsk4" data-level="HSK4">HSK 4</button>
+            <button class="filter-btn hsk5" data-level="HSK5">HSK 5</button>
+            <button class="filter-btn hsk6" data-level="HSK6">HSK 6</button>
+          </div>
+          <div class="sort-controls">
+            <select id="sort-select">
+              <option value="hsk">Nach HSK-Level</option>
+              <option value="strokes">Nach Strichzahl</option>
+              <option value="alpha">Alphabetisch (Pinyin)</option>
+            </select>
+          </div>
+        </div>
+        <div id="radical-filter" class="radical-filter hidden">
+          <div class="radical-filter-inner">
+            <span>Radikal-Filter: <strong id="radical-filter-name"></strong></span>
+            <button id="clear-radical-filter" class="btn btn-pill">Filter entfernen</button>
+          </div>
+        </div>
+      </div>
+      <!-- Grammar Tab Controls -->
+      <div id="grammar-controls" class="tab-content hidden">
+        <div class="search-bar">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="grammar-search-input" placeholder="Suche nach Grammatikmuster, Bedeutung..." autocomplete="off">
+          <button id="grammar-clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+        </div>
+        <div class="filters">
+          <div class="level-filters">
+            <button class="filter-btn grammar-level active" data-glevel="all">Alle Level</button>
+            <button class="filter-btn grammar-level hsk1" data-glevel="HSK1">HSK 1</button>
+            <button class="filter-btn grammar-level hsk2" data-glevel="HSK2">HSK 2</button>
+            <button class="filter-btn grammar-level hsk3" data-glevel="HSK3">HSK 3</button>
+            <button class="filter-btn grammar-level hsk4" data-glevel="HSK4">HSK 4</button>
+            <button class="filter-btn grammar-level hsk5" data-glevel="HSK5">HSK 5</button>
+            <button class="filter-btn grammar-level hsk6" data-glevel="HSK6">HSK 6</button>
+          </div>
+          <div class="sort-controls">
+            <select id="grammar-sort-select">
+              <option value="category">Nach Kategorie</option>
+              <option value="level">Nach Level</option>
+              <option value="alpha">Alphabetisch (Muster)</option>
+            </select>
+          </div>
+        </div>
+        <div class="filters">
+          <div class="level-filters">
+            <button class="filter-btn grammar-cat active" data-category="all">Alle Kategorien</button>
+            <button class="filter-btn grammar-cat cat-partikel" data-category="Partikel">Partikel</button>
+            <button class="filter-btn grammar-cat cat-verben" data-category="Verben">Verben</button>
+            <button class="filter-btn grammar-cat cat-adjektive" data-category="Adjektive">Adjektive</button>
+            <button class="filter-btn grammar-cat cat-satzstrukturen" data-category="Satzstrukturen">Satzstrukturen</button>
+          </div>
+        </div>
+      </div>
+      <!-- Vocab Tab Controls -->
+      <div id="vocab-controls" class="tab-content hidden">
+        <div class="search-bar">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="vocab-search-input" placeholder="Suche nach Vokabel, Bedeutung, Pinyin..." autocomplete="off">
+          <button id="vocab-clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+        </div>
+        <div class="filters">
+          <div class="level-filters">
+            <button class="filter-btn vocab-level active" data-vlevel="all">Alle Level</button>
+            <button class="filter-btn vocab-level hsk1" data-vlevel="HSK1">HSK 1</button>
+            <button class="filter-btn vocab-level hsk2" data-vlevel="HSK2">HSK 2</button>
+            <button class="filter-btn vocab-level hsk3" data-vlevel="HSK3">HSK 3</button>
+            <button class="filter-btn vocab-level hsk4" data-vlevel="HSK4">HSK 4</button>
+            <button class="filter-btn vocab-level hsk5" data-vlevel="HSK5">HSK 5</button>
+            <button class="filter-btn vocab-level hsk6" data-vlevel="HSK6">HSK 6</button>
+          </div>
+          <div class="sort-controls">
+            <select id="vocab-sort-select">
+              <option value="level">Nach Level</option>
+              <option value="type">Nach Wortart</option>
+              <option value="category">Nach Kategorie</option>
+              <option value="alpha">Alphabetisch (Pinyin)</option>
+            </select>
+          </div>
+        </div>
+        <div class="filters">
+          <div class="level-filters">
+            <button class="filter-btn vocab-type active" data-vtype="all">Alle Wortarten</button>
+            <button class="filter-btn vocab-type vt-nomen" data-vtype="Nomen">Nomen</button>
+            <button class="filter-btn vocab-type vt-verb" data-vtype="Verb">Verb</button>
+            <button class="filter-btn vocab-type vt-adjektiv" data-vtype="Adjektiv">Adjektiv</button>
+            <button class="filter-btn vocab-type vt-adverb" data-vtype="Adverb">Adverb</button>
+            <button class="filter-btn vocab-type vt-ausdruck" data-vtype="Ausdruck">Ausdruck</button>
+            <button class="filter-btn vocab-type vt-partikel" data-vtype="Partikel">Partikel</button>
+          </div>
+        </div>
+      </div>
+      <!-- Onomatopoeia Tab Controls -->
+      <div id="ono-controls" class="tab-content hidden">
+        <div class="search-bar">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="ono-search-input" placeholder="Suche nach Lautmalerei, Bedeutung, Pinyin..." autocomplete="off">
+          <button id="ono-clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+        </div>
+        <div class="filters">
+          <div class="level-filters">
+            <button class="filter-btn ono-cat active" data-ocat="all">Alle Kategorien</button>
+            <button class="filter-btn ono-cat oc-geraeusche" data-ocat="Geraeusche">Geräusche</button>
+            <button class="filter-btn ono-cat oc-zustaende" data-ocat="Zustaende">Zustände</button>
+            <button class="filter-btn ono-cat oc-gefuehle" data-ocat="Gefuehle">Gefühle</button>
+            <button class="filter-btn ono-cat oc-bewegung" data-ocat="Bewegung">Bewegung</button>
+          </div>
+          <div class="sort-controls">
+            <select id="ono-sort-select">
+              <option value="category">Nach Kategorie</option>
+              <option value="alpha">Alphabetisch (Bedeutung)</option>
+              <option value="pattern">Nach Muster</option>
+            </select>
+          </div>
+        </div>
+        <div class="filters">
+          <div class="level-filters">
+            <button class="filter-btn ono-pat active" data-opat="all">Alle Muster</button>
+            <button class="filter-btn ono-pat" data-opat="AABB">AABB</button>
+            <button class="filter-btn ono-pat" data-opat="ABB">ABB</button>
+            <button class="filter-btn ono-pat" data-opat="ABAB">ABAB</button>
+            <button class="filter-btn ono-pat" data-opat="AA">AA</button>
+            <button class="filter-btn ono-pat" data-opat="Andere">Andere</button>
+          </div>
+        </div>
+      </div>
+      <!-- Measure Words Tab Controls -->
+      <div id="measurewords-controls" class="tab-content hidden">
+        <div class="search-bar">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="mw-search-input" placeholder="Suche nach Zählwort, Bedeutung, Pinyin..." autocomplete="off">
+          <button id="mw-clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+        </div>
+        <div class="filters">
+          <div class="level-filters">
+            <button class="filter-btn mw-cat active" data-mwcat="all">Alle</button>
+            <button class="filter-btn mw-cat cc-allgemein" data-mwcat="Allgemein">Allgemein</button>
+            <button class="filter-btn mw-cat cc-menschen" data-mwcat="Menschen">Menschen</button>
+            <button class="filter-btn mw-cat cc-objekte" data-mwcat="Objekte">Objekte</button>
+            <button class="filter-btn mw-cat cc-tiere" data-mwcat="Tiere">Tiere</button>
+            <button class="filter-btn mw-cat cc-zeit" data-mwcat="Zeit">Zeit</button>
+            <button class="filter-btn mw-cat cc-essen" data-mwcat="Essen">Essen</button>
+            <button class="filter-btn mw-cat cc-natur" data-mwcat="Natur">Natur</button>
+          </div>
+        </div>
+      </div>
+      <!-- Radicals Tab Controls -->
+      <div id="radicals-controls" class="tab-content hidden">
+        <div class="search-bar">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="radicals-search-input" placeholder="Suche nach Radikal, Bedeutung, Pinyin..." autocomplete="off">
+          <button id="radicals-clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+        </div>
+        <div class="filters">
+          <div class="level-filters">
+            <button class="filter-btn radical-stroke active" data-rstrokes="all">Alle</button>
+            <button class="filter-btn radical-stroke" data-rstrokes="1">1</button>
+            <button class="filter-btn radical-stroke" data-rstrokes="2">2</button>
+            <button class="filter-btn radical-stroke" data-rstrokes="3">3</button>
+            <button class="filter-btn radical-stroke" data-rstrokes="4">4</button>
+            <button class="filter-btn radical-stroke" data-rstrokes="5">5</button>
+            <button class="filter-btn radical-stroke" data-rstrokes="6">6</button>
+            <button class="filter-btn radical-stroke" data-rstrokes="7">7</button>
+            <button class="filter-btn radical-stroke" data-rstrokes="8">8</button>
+            <button class="filter-btn radical-stroke" data-rstrokes="9">9+</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hanzi Tab Content -->
+      <div id="hanzi-tab" class="tab-panel hidden">
+        <div id="hanzi-grid" class="kanji-grid"></div>
+        <div id="no-results" class="no-results hidden">
+          <p>Keine Hanzi gefunden.</p>
+        </div>
+        <div id="loading" class="loading">
+          <div class="loading-spinner"></div>
+          <span>Lade Hanzi-Daten...</span>
+        </div>
+      </div>
+      <!-- Grammar Tab Content -->
+      <div id="grammar-tab" class="tab-panel hidden">
+        <div id="grammar-grid" class="grammar-grid"></div>
+        <div id="grammar-no-results" class="no-results hidden">
+          <p>Keine Grammatikpunkte gefunden.</p>
+        </div>
+        <div id="grammar-loading" class="loading hidden">
+          <div class="loading-spinner"></div>
+          <span>Lade Grammatik-Daten...</span>
+        </div>
+      </div>
+      <!-- Vocab Tab Content -->
+      <div id="vocab-tab" class="tab-panel hidden">
+        <div id="vocab-grid" class="vocab-grid"></div>
+        <div id="vocab-no-results" class="no-results hidden">
+          <p>Keine Vokabeln gefunden.</p>
+        </div>
+        <div id="vocab-loading" class="loading hidden">
+          <div class="loading-spinner"></div>
+          <span>Lade Vokabel-Daten...</span>
+        </div>
+      </div>
+      <!-- Onomatopoeia Tab Content -->
+      <div id="onomatopoeia-tab" class="tab-panel hidden">
+        <div id="ono-grid" class="ono-grid"></div>
+        <div id="ono-no-results" class="no-results hidden">
+          <p>Keine Lautmalerei gefunden.</p>
+        </div>
+      </div>
+      <!-- Measure Words Tab Content -->
+      <div id="measurewords-tab" class="tab-panel hidden">
+        <div id="mw-numbers-section"></div>
+        <div id="mw-grid" class="counters-grid"></div>
+        <div id="mw-no-results" class="no-results hidden">
+          <p>Keine Zählwörter gefunden.</p>
+        </div>
+      </div>
+      <!-- Radicals Tab Content -->
+      <div id="radicals-tab" class="tab-panel hidden">
+        <div id="radicals-grid" class="radicals-grid"></div>
+        <div id="radicals-no-results" class="no-results hidden">
+          <p>Keine Radikale gefunden.</p>
+        </div>
+      </div>
+      <!-- Pinyin Tab Content -->
+      <div id="pinyin-tab" class="tab-panel">
+        <div id="pinyin-content" class="kana-content"></div>
+      </div>
+      <!-- Tones Tab Content -->
+      <div id="tones-tab" class="tab-panel hidden">
+        <div id="tones-content" class="tones-content"></div>
+      </div>
+      <!-- Quiz Tab Content -->
+      <div id="quiz-tab" class="tab-panel hidden">
+        <div id="quiz-content" class="quiz-content"></div>
+      </div>
+    </main>
+
+    <div id="detail-overlay" class="detail-overlay hidden">
+      <div class="detail-panel">
+        <button id="close-detail" class="btn-close" title="Schließen">&times;</button>
+        <div class="detail-nav">
+          <button id="prev-kanji" class="btn btn-nav" title="Vorheriges Hanzi">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button id="next-kanji" class="btn btn-nav" title="Nächstes Hanzi">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+        <div class="detail-content">
+          <div class="detail-main">
+            <div class="detail-kanji-display">
+              <span id="detail-kanji" class="detail-kanji"></span>
+              <span id="detail-jlpt" class="detail-jlpt-badge"></span>
+            </div>
+            <div id="detail-meanings" class="detail-meanings"></div>
+            <div id="detail-strokes" class="detail-strokes"></div>
+          </div>
+          <div class="detail-readings">
+            <div class="reading-section">
+              <h3>Pinyin <span class="reading-type">(拼音)</span></h3>
+              <div id="detail-pinyin" class="reading-list"></div>
+            </div>
+            <div class="reading-section">
+              <h3>Ton <span class="reading-type">(声调)</span></h3>
+              <div id="detail-tone" class="reading-list"></div>
+            </div>
+          </div>
+          <div class="detail-section stroke-order-section">
+            <div class="stroke-order-header" id="stroke-order-header">
+              <h3>Strichreihenfolge</h3>
+              <svg class="toggle-icon collapsed" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+            <div class="stroke-order-body collapsed" id="stroke-order-body">
+              <div id="stroke-order-container" class="stroke-order-container"></div>
+            </div>
+          </div>
+          <div class="detail-section">
+            <h3>Komponenten / Radikale</h3>
+            <div id="detail-components" class="component-list"></div>
+          </div>
+          <div class="detail-section">
+            <h3>Beispielwörter</h3>
+            <div id="detail-examples" class="example-list"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="grammar-detail-overlay" class="detail-overlay hidden">
+      <div class="detail-panel grammar-detail-panel">
+        <button id="grammar-close-detail" class="btn-close" title="Schließen">&times;</button>
+        <div class="detail-nav">
+          <button id="prev-grammar" class="btn btn-nav" title="Vorheriger Punkt">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button id="next-grammar" class="btn btn-nav" title="Nächster Punkt">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+        <div class="detail-content">
+          <div class="grammar-detail-header">
+            <span id="grammar-detail-pattern" class="grammar-detail-pattern"></span>
+            <span id="grammar-detail-level" class="detail-jlpt-badge"></span>
+            <span id="grammar-detail-category" class="grammar-category-badge"></span>
+          </div>
+          <div id="grammar-detail-meaning" class="grammar-detail-meaning"></div>
+          <div class="grammar-detail-section">
+            <h3>Bildung</h3>
+            <div id="grammar-detail-formation" class="grammar-formation"></div>
+          </div>
+          <div class="grammar-detail-section">
+            <h3>Erklärung</h3>
+            <div id="grammar-detail-explanation" class="grammar-explanation"></div>
+          </div>
+          <div class="grammar-detail-section">
+            <h3>Beispiele</h3>
+            <div id="grammar-detail-examples" class="grammar-examples"></div>
+          </div>
+          <div id="grammar-detail-notes-section" class="grammar-detail-section">
+            <h3>Hinweise</h3>
+            <div id="grammar-detail-notes" class="grammar-notes"></div>
+          </div>
+          <div id="grammar-detail-related-section" class="grammar-detail-section">
+            <h3>Verwandte Grammatik</h3>
+            <div id="grammar-detail-related" class="grammar-related"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="vocab-detail-overlay" class="detail-overlay hidden">
+      <div class="detail-panel vocab-detail-panel">
+        <button id="vocab-close-detail" class="btn-close" title="Schließen">&times;</button>
+        <div class="detail-nav">
+          <button id="prev-vocab" class="btn btn-nav" title="Vorherige Vokabel">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button id="next-vocab" class="btn btn-nav" title="Nächste Vokabel">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+        <div class="detail-content">
+          <div class="vocab-detail-header">
+            <span id="vocab-detail-word" class="vocab-detail-word"></span>
+            <span id="vocab-detail-level" class="detail-jlpt-badge"></span>
+            <span id="vocab-detail-type" class="vocab-type-badge"></span>
+          </div>
+          <div id="vocab-detail-pinyin" class="vocab-detail-reading"></div>
+          <div id="vocab-detail-meaning" class="vocab-detail-meaning"></div>
+          <div id="vocab-detail-category-line" class="vocab-detail-category-line"></div>
+          <div class="grammar-detail-section">
+            <h3>Beispiele</h3>
+            <div id="vocab-detail-examples" class="grammar-examples"></div>
+          </div>
+          <div id="vocab-detail-hanzi-section" class="grammar-detail-section hidden">
+            <h3>Enthaltene Hanzi</h3>
+            <div id="vocab-detail-hanzi-links" class="component-list"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="ono-detail-overlay" class="detail-overlay hidden">
+      <div class="detail-panel ono-detail-panel">
+        <button id="ono-close-detail" class="btn-close" title="Schließen">&times;</button>
+        <div class="detail-nav">
+          <button id="prev-ono" class="btn btn-nav" title="Vorheriges Wort">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button id="next-ono" class="btn btn-nav" title="Nächstes Wort">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+        <div class="detail-content">
+          <div class="ono-detail-header">
+            <span id="ono-detail-word" class="ono-detail-word"></span>
+            <span id="ono-detail-category" class="ono-category-badge"></span>
+            <span id="ono-detail-pattern" class="ono-pattern-badge"></span>
+          </div>
+          <div id="ono-detail-pinyin" class="ono-detail-reading"></div>
+          <div id="ono-detail-meaning" class="ono-detail-meaning"></div>
+          <div id="ono-detail-usage-line" class="ono-detail-usage-line"></div>
+          <div class="grammar-detail-section">
+            <h3>Erklärung</h3>
+            <div id="ono-detail-explanation" class="grammar-explanation"></div>
+          </div>
+          <div class="grammar-detail-section">
+            <h3>Beispiele</h3>
+            <div id="ono-detail-examples" class="grammar-examples"></div>
+          </div>
+          <div id="ono-detail-related-section" class="grammar-detail-section">
+            <h3>Verwandte Ausdrücke</h3>
+            <div id="ono-detail-related" class="ono-related-tags"></div>
+          </div>
+          <div id="ono-detail-notes-section" class="grammar-detail-section">
+            <h3>Hinweise</h3>
+            <div id="ono-detail-notes" class="grammar-notes"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="mw-detail-overlay" class="detail-overlay hidden">
+      <div class="detail-panel counter-detail-panel">
+        <button id="mw-close-detail" class="btn-close" title="Schließen">&times;</button>
+        <div class="detail-nav">
+          <button id="prev-mw" class="btn btn-nav" title="Vorheriges Zählwort">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button id="next-mw" class="btn btn-nav" title="Nächstes Zählwort">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+        <div class="detail-content">
+          <div class="counter-detail-header">
+            <span id="mw-detail-char" class="counter-detail-kanji"></span>
+            <span id="mw-detail-cat" class="counter-category-badge"></span>
+          </div>
+          <div id="mw-detail-pinyin" class="counter-detail-reading"></div>
+          <div id="mw-detail-meaning" class="counter-detail-meaning"></div>
+          <div id="mw-detail-usage" class="counter-detail-usage"></div>
+          <div class="grammar-detail-section">
+            <h3>Fragewort</h3>
+            <div id="mw-detail-question" class="counter-question-box"></div>
+          </div>
+          <div class="grammar-detail-section">
+            <h3>Zähltabelle (1-10)</h3>
+            <div id="mw-detail-table" class="counter-table-wrap"></div>
+          </div>
+          <div id="mw-detail-special-section" class="grammar-detail-section hidden">
+            <h3>Besondere Formen</h3>
+            <div id="mw-detail-special" class="counter-special-list"></div>
+          </div>
+          <div class="grammar-detail-section">
+            <h3>Beispiele</h3>
+            <div id="mw-detail-examples" class="grammar-examples"></div>
+          </div>
+          <div id="mw-detail-notes-section" class="grammar-detail-section">
+            <h3>Hinweise</h3>
+            <div id="mw-detail-notes" class="grammar-notes"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="radical-detail-overlay" class="detail-overlay hidden">
+      <div class="detail-panel radical-detail-panel">
+        <button id="radical-close-detail" class="btn-close" title="Schließen">&times;</button>
+        <div class="detail-nav">
+          <button id="prev-radical" class="btn btn-nav" title="Vorheriges Radikal">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button id="next-radical" class="btn btn-nav" title="Nächstes Radikal">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+        <div class="detail-content">
+          <div class="radical-detail-header">
+            <span id="radical-detail-char" class="radical-detail-char"></span>
+            <span id="radical-detail-number" class="radical-number-badge"></span>
+          </div>
+          <div id="radical-detail-meaning" class="radical-detail-meaning"></div>
+          <div id="radical-detail-pinyin" class="radical-detail-reading"></div>
+          <div id="radical-detail-strokes" class="detail-strokes"></div>
+          <div id="radical-detail-variants" class="radical-detail-variants"></div>
+          <div id="radical-detail-explanation" class="radical-detail-explanation"></div>
+          <div class="grammar-detail-section">
+            <h3>Hanzi mit diesem Radikal</h3>
+            <div id="radical-detail-hanzi-list" class="component-list"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="hanzi-data.js"></script>
+  <script src="hanzi-hsk2.js"></script>
+  <script src="hanzi-hsk3.js"></script>
+  <script src="hanzi-hsk4.js"></script>
+  <script src="hanzi-hsk5.js"></script>
+  <script src="hanzi-hsk6.js"></script>
+  <script src="hanzi-extra.js"></script>
+  <script src="hanzi-extra2.js"></script>
+  <script src="hanzi-extra3.js"></script>
+  <script src="hanzi-hsk1-extra.js"></script>
+  <script src="hanzi-hsk1-extra2.js"></script>
+  <script src="hanzi-hsk3-extra.js"></script>
+  <script src="hanzi-hsk3-extra2.js"></script>
+  <script src="hanzi-hsk4-extra.js"></script>
+  <script src="hanzi-hsk5-extra.js"></script>
+  <script src="hanzi-hsk5-extra2.js"></script>
+  <script src="hanzi-hsk5-extra3.js"></script>
+  <script src="hanzi-hsk5-extra4.js"></script>
+  <script src="hanzi-hsk6-extra.js"></script>
+  <script src="hanzi-hsk6-extra2.js"></script>
+  <script src="hanzi-hsk6-extra3.js"></script>
+  <script src="grammar-data.js"></script>
+  <script src="grammar-hsk4.js"></script>
+  <script src="grammar-hsk5.js"></script>
+  <script src="grammar-hsk6.js"></script>
+  <script src="grammar-extra.js"></script>
+  <script src="grammar-hsk4-extra.js"></script>
+  <script src="grammar-hsk5-extra.js"></script>
+  <script src="grammar-hsk6-extra.js"></script>
+  <script src="grammar-extra2.js"></script>
+  <script src="grammar-extra3.js"></script>
+  <script src="vocab-hsk1.js"></script>
+  <script src="vocab-hsk1-extra.js"></script>
+  <script src="vocab-hsk1-extra2.js"></script>
+  <script src="vocab-hsk1-extra3.js"></script>
+  <script src="vocab-hsk1-missing.js"></script>
+  <script src="vocab-hsk2.js"></script>
+  <script src="vocab-hsk2-extra.js"></script>
+  <script src="vocab-hsk2-extra2.js"></script>
+  <script src="vocab-hsk2-extra3.js"></script>
+  <script src="vocab-hsk2-missing.js"></script>
+  <script src="vocab-hsk3.js"></script>
+  <script src="vocab-hsk3-extra.js"></script>
+  <script src="vocab-hsk3-extra2.js"></script>
+  <script src="vocab-hsk3-extra3.js"></script>
+  <script src="vocab-hsk3-missing.js"></script>
+  <script src="vocab-hsk4.js"></script>
+  <script src="vocab-hsk4-extra.js"></script>
+  <script src="vocab-hsk4-extra2.js"></script>
+  <script src="vocab-hsk4-extra3.js"></script>
+  <script src="vocab-hsk4-extra4.js"></script>
+  <script src="vocab-hsk4-extra5.js"></script>
+  <script src="vocab-hsk4-extra6.js"></script>
+  <script src="vocab-hsk4-extra7.js"></script>
+  <script src="vocab-hsk4-missing.js"></script>
+  <script src="vocab-hsk5.js"></script>
+  <script src="vocab-hsk5-extra.js"></script>
+  <script src="vocab-hsk5-extra2.js"></script>
+  <script src="vocab-hsk5-extra3.js"></script>
+  <script src="vocab-hsk5-extra4.js"></script>
+  <script src="vocab-hsk5-extra5.js"></script>
+  <script src="vocab-hsk5-extra6.js"></script>
+  <script src="vocab-hsk5-extra7.js"></script>
+  <script src="vocab-hsk5-extra8.js"></script>
+  <script src="vocab-hsk6.js"></script>
+  <script src="vocab-hsk6-extra.js"></script>
+  <script src="vocab-hsk6-extra2.js"></script>
+  <script src="vocab-hsk6-extra3.js"></script>
+  <script src="vocab-hsk6-extra4.js"></script>
+  <script src="vocab-hsk6-extra5.js"></script>
+  <script src="vocab-hsk6-extra6.js"></script>
+  <script src="vocab-hsk6-extra7.js"></script>
+  <script src="vocab-hsk6-extra8.js"></script>
+  <script src="vocab-hsk6-extra9.js"></script>
+  <script src="vocab-hsk6-extra10.js"></script>
+  <script src="vocab-hsk6-extra11.js"></script>
+  <script src="vocab-hsk6-extra12.js"></script>
+  <script src="vocab-hsk6-extra13.js"></script>
+  <script src="pinyin-data.js"></script>
+  <script src="measure-words-data.js"></script>
+  <script src="measure-words-extra.js"></script>
+  <script src="kangxi-radicals-data.js"></script>
+  <script src="kangxi-radicals-extra.js"></script>
+  <script src="onomatopoeia-data.js"></script>
+  <script src="onomatopoeia-extra.js"></script>
+  <script src="tone-practice.js"></script>
+  <script src="section.js"></script>
+  <script src="section-configs.js"></script>
+  <script src="quiz.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
