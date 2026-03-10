@@ -34,7 +34,11 @@
         </div>
       </div>
       <nav class="tab-bar">
-        <button class="tab-btn active" data-tab="pinyin">
+        <button class="tab-btn active" data-tab="tones">
+          <span class="tab-icon-kana">调</span>
+          Töne
+        </button>
+        <button class="tab-btn" data-tab="pinyin">
           <span class="tab-icon-kana">拼</span>
           Pinyin
         </button>
@@ -61,10 +65,6 @@
         <button class="tab-btn" data-tab="measurewords">
           <span class="tab-icon-kana">量</span>
           Zählwörter
-        </button>
-        <button class="tab-btn" data-tab="tones">
-          <span class="tab-icon-kana">调</span>
-          Töne
         </button>
         <button class="tab-btn" data-tab="quiz">
           <span class="tab-icon-kana">试</span>
@@ -134,7 +134,15 @@
             <button class="filter-btn grammar-cat cat-partikel" data-category="Partikel">Partikel</button>
             <button class="filter-btn grammar-cat cat-verben" data-category="Verben">Verben</button>
             <button class="filter-btn grammar-cat cat-adjektive" data-category="Adjektive">Adjektive</button>
+            <button class="filter-btn grammar-cat cat-adverbien" data-category="Adverbien">Adverbien</button>
             <button class="filter-btn grammar-cat cat-satzstrukturen" data-category="Satzstrukturen">Satzstrukturen</button>
+            <button class="filter-btn grammar-cat cat-konjunktionen" data-category="Konjunktionen">Konjunktionen</button>
+            <button class="filter-btn grammar-cat cat-praepositionen" data-category="Präpositionen">Präpositionen</button>
+            <button class="filter-btn grammar-cat cat-fragewoerter" data-category="Fragewörter">Fragewörter</button>
+            <button class="filter-btn grammar-cat cat-vergleiche" data-category="Vergleiche">Vergleiche</button>
+            <button class="filter-btn grammar-cat cat-zeitausdruecke" data-category="Zeitausdrücke">Zeitausdrücke</button>
+            <button class="filter-btn grammar-cat cat-rhetorisch" data-category="Rhetorisch">Rhetorisch</button>
+            <button class="filter-btn grammar-cat cat-literarisch" data-category="Literarisch">Literarisch</button>
           </div>
         </div>
       </div>
@@ -173,6 +181,12 @@
             <button class="filter-btn vocab-type vt-adverb" data-vtype="Adverb">Adverb</button>
             <button class="filter-btn vocab-type vt-ausdruck" data-vtype="Ausdruck">Ausdruck</button>
             <button class="filter-btn vocab-type vt-partikel" data-vtype="Partikel">Partikel</button>
+            <button class="filter-btn vocab-type vt-pronomen" data-vtype="Pronomen">Pronomen</button>
+            <button class="filter-btn vocab-type vt-zahlwort" data-vtype="Zahlwort">Zahlwort</button>
+            <button class="filter-btn vocab-type vt-konjunktion" data-vtype="Konjunktion">Konjunktion</button>
+            <button class="filter-btn vocab-type vt-redewendung" data-vtype="Redewendung">Redewendung</button>
+            <button class="filter-btn vocab-type vt-phrase" data-vtype="Phrase">Phrase</button>
+            <button class="filter-btn vocab-type vt-praeposition" data-vtype="Präposition">Präposition</button>
           </div>
         </div>
       </div>
@@ -311,11 +325,11 @@
         </div>
       </div>
       <!-- Pinyin Tab Content -->
-      <div id="pinyin-tab" class="tab-panel">
+      <div id="pinyin-tab" class="tab-panel hidden">
         <div id="pinyin-content" class="kana-content"></div>
       </div>
       <!-- Tones Tab Content -->
-      <div id="tones-tab" class="tab-panel hidden">
+      <div id="tones-tab" class="tab-panel">
         <div id="tones-content" class="tones-content"></div>
       </div>
       <!-- Quiz Tab Content -->

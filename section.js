@@ -55,6 +55,9 @@ Section.prototype.applyFilters = function () {
   if (window.app && typeof window.app.updateCount === 'function') {
     window.app.updateCount();
   }
+  if (this.config.onAfterFilter) {
+    this.config.onAfterFilter(this);
+  }
 };
 
 Section.prototype.sort = function () {

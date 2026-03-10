@@ -52,37 +52,94 @@
   --accent-hover: #a52f25;
   --gradient: linear-gradient(135deg, #c23a2e 0%, #d4564a 40%, #c4820a 100%);
   /* Grammar categories */
-  --cat-partikel: #2878a8;
-  --cat-partikel-bg: #edf5fa;
-  --cat-partikel-border: #a8cee0;
-  --cat-verben: #2d8f68;
-  --cat-verben-bg: #eef7f2;
-  --cat-verben-border: #a3d9c0;
-  --cat-adjektive: #c4820a;
-  --cat-adjektive-bg: #fdf6e8;
-  --cat-adjektive-border: #e8c96e;
-  --cat-satzstrukturen: #7c4dab;
-  --cat-satzstrukturen-bg: #f5f0fa;
-  --cat-satzstrukturen-border: #c4a8de;
+  --cat-partikel: #0e7878;
+  --cat-partikel-bg: #cceeee;
+  --cat-partikel-border: #70c4c4;
+  --cat-verben: #1a7a52;
+  --cat-verben-bg: #d4f0e2;
+  --cat-verben-border: #7acbaa;
+  --cat-adjektive: #b07000;
+  --cat-adjektive-bg: #fce8c8;
+  --cat-adjektive-border: #e0b850;
+  --cat-satzstrukturen: #6b3fa0;
+  --cat-satzstrukturen-bg: #e8daf5;
+  --cat-satzstrukturen-border: #b088d6;
+  --cat-adverbien: #1a6ba0;
+  --cat-adverbien-bg: #d6eaf5;
+  --cat-adverbien-border: #8cc2e0;
+  --cat-konjunktionen: #4040b0;
+  --cat-konjunktionen-bg: #dcdcf5;
+  --cat-konjunktionen-border: #9898d8;
+  --cat-fragewoerter: #a83d6a;
+  --cat-fragewoerter-bg: #f5d6e4;
+  --cat-fragewoerter-border: #d488aa;
+  --cat-rhetorisch: #b03030;
+  --cat-rhetorisch-bg: #f5d4d4;
+  --cat-rhetorisch-border: #d48888;
+  --cat-literarisch: #8b6040;
+  --cat-literarisch-bg: #f0e0d0;
+  --cat-literarisch-border: #c8a878;
+  --cat-vergleiche: #2090a0;
+  --cat-vergleiche-bg: #d0eef2;
+  --cat-vergleiche-border: #80ccd8;
+  --cat-praepositionen: #688020;
+  --cat-praepositionen-bg: #e8f0d0;
+  --cat-praepositionen-border: #b0c870;
+  --cat-zeitausdruecke: #a08000;
+  --cat-zeitausdruecke-bg: #f8efc8;
+  --cat-zeitausdruecke-border: #d8c858;
+  --cat-verneinung: #506070;
+  --cat-verneinung-bg: #dce2e8;
+  --cat-verneinung-border: #98a8b8;
+  --cat-zeitformen: #2060c0;
+  --cat-zeitformen-bg: #d4e2f8;
+  --cat-zeitformen-border: #88a8d8;
+  --cat-resultativ: #c06020;
+  --cat-resultativ-bg: #f8e0c8;
+  --cat-resultativ-border: #e0a870;
+  --cat-modalausdruecke: #7830a0;
+  --cat-modalausdruecke-bg: #ecd4f5;
+  --cat-modalausdruecke-border: #b888d8;
+  --cat-komplemente: #408060;
+  --cat-komplemente-bg: #d4ece0;
+  --cat-komplemente-border: #88c8a8;
   /* Vocab types */
-  --vt-nomen: #2878a8;
-  --vt-nomen-bg: #edf5fa;
-  --vt-nomen-border: #a8cee0;
-  --vt-verb: #2d8f68;
-  --vt-verb-bg: #eef7f2;
-  --vt-verb-border: #a3d9c0;
-  --vt-adjektiv: #c4820a;
-  --vt-adjektiv-bg: #fdf6e8;
-  --vt-adjektiv-border: #e8c96e;
-  --vt-adverb: #7c4dab;
-  --vt-adverb-bg: #f5f0fa;
-  --vt-adverb-border: #c4a8de;
-  --vt-ausdruck: #b84c7a;
-  --vt-ausdruck-bg: #faf0f4;
-  --vt-ausdruck-border: #dea8c2;
-  --vt-partikel: #2d8f8f;
-  --vt-partikel-bg: #eef7f7;
-  --vt-partikel-border: #a3d9d4;
+  --vt-nomen: #1a6ba0;
+  --vt-nomen-bg: #d6eaf5;
+  --vt-nomen-border: #8cc2e0;
+  --vt-verb: #1a7a52;
+  --vt-verb-bg: #d4f0e2;
+  --vt-verb-border: #7acbaa;
+  --vt-adjektiv: #b07000;
+  --vt-adjektiv-bg: #fce8c8;
+  --vt-adjektiv-border: #e0b850;
+  --vt-adverb: #6b3fa0;
+  --vt-adverb-bg: #e8daf5;
+  --vt-adverb-border: #b088d6;
+  --vt-ausdruck: #a83d6a;
+  --vt-ausdruck-bg: #f5d6e4;
+  --vt-ausdruck-border: #d488aa;
+  --vt-partikel: #0a7878;
+  --vt-partikel-bg: #cceeee;
+  --vt-partikel-border: #70c4c4;
+  --vt-pronomen: #b03030;
+  --vt-pronomen-bg: #f5d4d4;
+  --vt-pronomen-border: #d48888;
+  --vt-zahlwort: #a08000;
+  --vt-zahlwort-bg: #f8efc8;
+  --vt-zahlwort-border: #d8c858;
+  --vt-konjunktion: #4040b0;
+  --vt-konjunktion-bg: #dcdcf5;
+  --vt-konjunktion-border: #9898d8;
+  --vt-redewendung: #c05030;
+  --vt-redewendung-bg: #f8dcd4;
+  --vt-redewendung-border: #e0a090;
+  --vt-phrase: #506878;
+  --vt-phrase-bg: #dce4e8;
+  --vt-phrase-border: #98b0c0;
+  --vt-praeposition: #688020;
+  --vt-praeposition-bg: #e8f0d0;
+  --vt-praeposition-border: #b0c870;
   /* Onomatopoeia categories */
   --oc-geraeusche: #2878a8;
   --oc-geraeusche-bg: #edf5fa;
@@ -144,12 +201,50 @@
   --n2-border: #6b2d2d;
   --n1-bg: #3d2d1a;
   --n1-border: #6b4d2d;
-  --cat-partikel-bg: #1a2d3d;
-  --cat-partikel-border: #2d5580;
+  --cat-partikel-bg: #1a3838;
+  --cat-partikel-border: #2d6060;
+  --cat-adverbien-bg: #1a2d3d;
+  --cat-adverbien-border: #2d5580;
+  --cat-konjunktionen-bg: #1a1a3d;
+  --cat-konjunktionen-border: #2d2d6b;
+  --cat-fragewoerter-bg: #3d1a2d;
+  --cat-fragewoerter-border: #6b2d4d;
+  --cat-rhetorisch-bg: #3d1a1a;
+  --cat-rhetorisch-border: #6b2d2d;
+  --cat-literarisch-bg: #3d2818;
+  --cat-literarisch-border: #6b4828;
+  --cat-vergleiche-bg: #1a3038;
+  --cat-vergleiche-border: #2d5860;
+  --cat-praepositionen-bg: #283010;
+  --cat-praepositionen-border: #486020;
+  --cat-zeitausdruecke-bg: #3d3410;
+  --cat-zeitausdruecke-border: #6b5a20;
+  --cat-verneinung-bg: #202830;
+  --cat-verneinung-border: #384858;
+  --cat-zeitformen-bg: #1a2040;
+  --cat-zeitformen-border: #2d3868;
+  --cat-resultativ-bg: #3d2010;
+  --cat-resultativ-border: #6b3820;
+  --cat-modalausdruecke-bg: #301040;
+  --cat-modalausdruecke-border: #501868;
+  --cat-komplemente-bg: #1a3028;
+  --cat-komplemente-border: #2d5848;
   --vt-ausdruck-bg: #3d1a2d;
   --vt-ausdruck-border: #6b2d4d;
-  --vt-partikel-bg: #1a3d3d;
-  --vt-partikel-border: #2d6b6b;
+  --vt-partikel-bg: #1a3838;
+  --vt-partikel-border: #2d6060;
+  --vt-pronomen-bg: #3d1a1a;
+  --vt-pronomen-border: #6b2d2d;
+  --vt-zahlwort-bg: #3d3410;
+  --vt-zahlwort-border: #6b5a20;
+  --vt-konjunktion-bg: #1a1a3d;
+  --vt-konjunktion-border: #2d2d6b;
+  --vt-redewendung-bg: #3d1a14;
+  --vt-redewendung-border: #6b3028;
+  --vt-phrase-bg: #1a2830;
+  --vt-phrase-border: #2d4858;
+  --vt-praeposition-bg: #283010;
+  --vt-praeposition-border: #486020;
   --oc-geraeusche-bg: #1a2d3d;
   --oc-geraeusche-border: #2d5580;
   --oc-zustaende-bg: #1a3d2d;
@@ -1102,6 +1197,24 @@ main {
   border: 1px solid var(--border);
 }
 
+.example-jp {
+  font-family: var(--font-jp);
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.example-romaji {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-left: 8px;
+}
+
+.example-de {
+  color: var(--text-secondary);
+  margin-left: 8px;
+}
+
 .example-word {
   font-family: var(--font-jp);
   font-weight: 600;
@@ -1372,6 +1485,54 @@ main {
   border-color: var(--cat-satzstrukturen);
 }
 
+.filter-btn.cat-adverbien:hover, .filter-btn.cat-adverbien.active {
+  background: var(--cat-adverbien);
+  color: white;
+  border-color: var(--cat-adverbien);
+}
+
+.filter-btn.cat-konjunktionen:hover, .filter-btn.cat-konjunktionen.active {
+  background: var(--cat-konjunktionen);
+  color: white;
+  border-color: var(--cat-konjunktionen);
+}
+
+.filter-btn.cat-praepositionen:hover, .filter-btn.cat-praepositionen.active {
+  background: var(--cat-praepositionen);
+  color: white;
+  border-color: var(--cat-praepositionen);
+}
+
+.filter-btn.cat-fragewoerter:hover, .filter-btn.cat-fragewoerter.active {
+  background: var(--cat-fragewoerter);
+  color: white;
+  border-color: var(--cat-fragewoerter);
+}
+
+.filter-btn.cat-vergleiche:hover, .filter-btn.cat-vergleiche.active {
+  background: var(--cat-vergleiche);
+  color: white;
+  border-color: var(--cat-vergleiche);
+}
+
+.filter-btn.cat-zeitausdruecke:hover, .filter-btn.cat-zeitausdruecke.active {
+  background: var(--cat-zeitausdruecke);
+  color: white;
+  border-color: var(--cat-zeitausdruecke);
+}
+
+.filter-btn.cat-rhetorisch:hover, .filter-btn.cat-rhetorisch.active {
+  background: var(--cat-rhetorisch);
+  color: white;
+  border-color: var(--cat-rhetorisch);
+}
+
+.filter-btn.cat-literarisch:hover, .filter-btn.cat-literarisch.active {
+  background: var(--cat-literarisch);
+  color: white;
+  border-color: var(--cat-literarisch);
+}
+
 /* === GRAMMAR GRID === */
 .grammar-grid {
   display: grid;
@@ -1418,6 +1579,7 @@ main {
   letter-spacing: 0.03em;
   white-space: nowrap;
   flex-shrink: 0;
+  align-self: flex-start;
 }
 
 .grammar-card-category.Partikel, .grammar-category-badge.Partikel {
@@ -1442,6 +1604,84 @@ main {
   background: var(--cat-satzstrukturen-bg);
   color: var(--cat-satzstrukturen);
   border: 1px solid var(--cat-satzstrukturen-border);
+}
+
+.grammar-card-category.Adverbien, .grammar-category-badge.Adverbien {
+  background: var(--cat-adverbien-bg);
+  color: var(--cat-adverbien);
+  border: 1px solid var(--cat-adverbien-border);
+}
+
+.grammar-card-category.Konjunktionen, .grammar-category-badge.Konjunktionen {
+  background: var(--cat-konjunktionen-bg);
+  color: var(--cat-konjunktionen);
+  border: 1px solid var(--cat-konjunktionen-border);
+}
+
+.grammar-card-category.Fragewörter, .grammar-category-badge.Fragewörter {
+  background: var(--cat-fragewoerter-bg);
+  color: var(--cat-fragewoerter);
+  border: 1px solid var(--cat-fragewoerter-border);
+}
+
+.grammar-card-category.Rhetorisch, .grammar-category-badge.Rhetorisch {
+  background: var(--cat-rhetorisch-bg);
+  color: var(--cat-rhetorisch);
+  border: 1px solid var(--cat-rhetorisch-border);
+}
+
+.grammar-card-category.Literarisch, .grammar-category-badge.Literarisch {
+  background: var(--cat-literarisch-bg);
+  color: var(--cat-literarisch);
+  border: 1px solid var(--cat-literarisch-border);
+}
+
+.grammar-card-category.Vergleiche, .grammar-category-badge.Vergleiche {
+  background: var(--cat-vergleiche-bg);
+  color: var(--cat-vergleiche);
+  border: 1px solid var(--cat-vergleiche-border);
+}
+
+.grammar-card-category.Präpositionen, .grammar-category-badge.Präpositionen {
+  background: var(--cat-praepositionen-bg);
+  color: var(--cat-praepositionen);
+  border: 1px solid var(--cat-praepositionen-border);
+}
+
+.grammar-card-category.Zeitausdrücke, .grammar-category-badge.Zeitausdrücke {
+  background: var(--cat-zeitausdruecke-bg);
+  color: var(--cat-zeitausdruecke);
+  border: 1px solid var(--cat-zeitausdruecke-border);
+}
+
+.grammar-card-category.Verneinung, .grammar-category-badge.Verneinung {
+  background: var(--cat-verneinung-bg);
+  color: var(--cat-verneinung);
+  border: 1px solid var(--cat-verneinung-border);
+}
+
+.grammar-card-category.Zeitformen, .grammar-category-badge.Zeitformen {
+  background: var(--cat-zeitformen-bg);
+  color: var(--cat-zeitformen);
+  border: 1px solid var(--cat-zeitformen-border);
+}
+
+.grammar-card-category.Resultativ, .grammar-category-badge.Resultativ {
+  background: var(--cat-resultativ-bg);
+  color: var(--cat-resultativ);
+  border: 1px solid var(--cat-resultativ-border);
+}
+
+.grammar-card-category.Modalausdrücke, .grammar-category-badge.Modalausdrücke {
+  background: var(--cat-modalausdruecke-bg);
+  color: var(--cat-modalausdruecke);
+  border: 1px solid var(--cat-modalausdruecke-border);
+}
+
+.grammar-card-category.Komplemente, .grammar-category-badge.Komplemente {
+  background: var(--cat-komplemente-bg);
+  color: var(--cat-komplemente);
+  border: 1px solid var(--cat-komplemente-border);
 }
 
 .grammar-card-meaning {
@@ -1630,6 +1870,42 @@ main {
   border-color: var(--vt-partikel);
 }
 
+.filter-btn.vt-pronomen:hover, .filter-btn.vt-pronomen.active {
+  background: var(--vt-pronomen);
+  color: white;
+  border-color: var(--vt-pronomen);
+}
+
+.filter-btn.vt-zahlwort:hover, .filter-btn.vt-zahlwort.active {
+  background: var(--vt-zahlwort);
+  color: white;
+  border-color: var(--vt-zahlwort);
+}
+
+.filter-btn.vt-konjunktion:hover, .filter-btn.vt-konjunktion.active {
+  background: var(--vt-konjunktion);
+  color: white;
+  border-color: var(--vt-konjunktion);
+}
+
+.filter-btn.vt-redewendung:hover, .filter-btn.vt-redewendung.active {
+  background: var(--vt-redewendung);
+  color: white;
+  border-color: var(--vt-redewendung);
+}
+
+.filter-btn.vt-phrase:hover, .filter-btn.vt-phrase.active {
+  background: var(--vt-phrase);
+  color: white;
+  border-color: var(--vt-phrase);
+}
+
+.filter-btn.vt-praeposition:hover, .filter-btn.vt-praeposition.active {
+  background: var(--vt-praeposition);
+  color: white;
+  border-color: var(--vt-praeposition);
+}
+
 /* === VOCAB GRID === */
 .vocab-grid {
   display: grid;
@@ -1689,6 +1965,7 @@ main {
   letter-spacing: 0.03em;
   white-space: nowrap;
   flex-shrink: 0;
+  align-self: flex-start;
 }
 
 .vocab-type-badge.Nomen {
@@ -1725,6 +2002,42 @@ main {
   background: var(--vt-partikel-bg);
   color: var(--vt-partikel);
   border: 1px solid var(--vt-partikel-border);
+}
+
+.vocab-type-badge.Pronomen {
+  background: var(--vt-pronomen-bg);
+  color: var(--vt-pronomen);
+  border: 1px solid var(--vt-pronomen-border);
+}
+
+.vocab-type-badge.Zahlwort {
+  background: var(--vt-zahlwort-bg);
+  color: var(--vt-zahlwort);
+  border: 1px solid var(--vt-zahlwort-border);
+}
+
+.vocab-type-badge.Konjunktion {
+  background: var(--vt-konjunktion-bg);
+  color: var(--vt-konjunktion);
+  border: 1px solid var(--vt-konjunktion-border);
+}
+
+.vocab-type-badge.Redewendung {
+  background: var(--vt-redewendung-bg);
+  color: var(--vt-redewendung);
+  border: 1px solid var(--vt-redewendung-border);
+}
+
+.vocab-type-badge.Phrase {
+  background: var(--vt-phrase-bg);
+  color: var(--vt-phrase);
+  border: 1px solid var(--vt-phrase-border);
+}
+
+.vocab-type-badge.Präposition {
+  background: var(--vt-praeposition-bg);
+  color: var(--vt-praeposition);
+  border: 1px solid var(--vt-praeposition-border);
 }
 
 /* === VOCAB DETAIL === */
@@ -1827,6 +2140,7 @@ main {
   border-radius: var(--radius-pill);
   white-space: nowrap;
   flex-shrink: 0;
+  align-self: flex-start;
 }
 
 .ono-category-badge.Geraeusche {
@@ -1863,6 +2177,7 @@ main {
   background: var(--bg);
   color: var(--text-secondary);
   border: 1px solid var(--border);
+  align-self: flex-start;
 }
 
 /* === FILTER BUTTON CATEGORY COLORS === */
@@ -2132,6 +2447,38 @@ main {
   padding-left: 16px;
 }
 
+.kana-table td {
+  text-align: center;
+  padding: 10px 8px;
+}
+
+.kana-table td:first-child {
+  text-align: left;
+  padding-left: 16px;
+}
+
+/* Compact combination table — no horizontal scroll */
+.combo-table {
+  table-layout: fixed;
+  width: 100%;
+  min-width: 0;
+  font-size: 0.68rem;
+}
+
+.combo-table thead th,
+.combo-table td {
+  padding: 4px 1px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.combo-table thead th:first-child,
+.combo-table td:first-child {
+  width: 36px;
+  text-align: center;
+  padding-left: 2px;
+}
 
 .kana-row-label {
   padding: 8px 12px 8px 16px;

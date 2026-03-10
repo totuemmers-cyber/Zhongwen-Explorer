@@ -3,7 +3,7 @@
 
   // === APP OBJECT ===
   var app = window.app = {
-    activeTab: 'pinyin',
+    activeTab: 'tones',
     activeRadical: null,
     sections: {},
     playTick: playTick,
@@ -178,8 +178,15 @@
       loadingEl.classList.add('hidden');
     }
 
-    // Grammar
+    // Grammar — normalize inconsistent category names
     if (window.GRAMMAR_DATA) {
+      var catMap = {
+        'Satzstruktur': 'Satzstrukturen', 'Partikeln': 'Partikel',
+        'Zeitausdruecke': 'Zeitausdrücke'
+      };
+      window.GRAMMAR_DATA.forEach(function (item) {
+        if (item.category && catMap[item.category]) item.category = catMap[item.category];
+      });
       app.sections.grammar.setItems(window.GRAMMAR_DATA);
     }
 
@@ -193,6 +200,17 @@
       window.VOCAB_HSK6 || []
     ];
     var allVocab = [].concat.apply([], vocabSources);
+    // Normalize inconsistent type names (plurals, ASCII variants)
+    var typeMap = {
+      'Verben': 'Verb', 'Adjektive': 'Adjektiv', 'Adverbien': 'Adverb',
+      'Redewendungen': 'Redewendung', 'Konjunktionen': 'Konjunktion',
+      'Zaehlwort': 'Zahlwort', 'Zählwort': 'Zahlwort',
+      'Praposition': 'Präposition', 'Praeposition': 'Präposition',
+      'Prapositionen': 'Präposition', 'Praefix': 'Präfix'
+    };
+    allVocab.forEach(function (item) {
+      if (item.type && typeMap[item.type]) item.type = typeMap[item.type];
+    });
     if (allVocab.length > 0) {
       app.sections.vocab.setItems(allVocab);
     }
@@ -489,13 +507,12 @@
 
       var comboBody = document.createElement('div');
       comboBody.className = 'kana-table-wrapper';
-      comboBody.style.overflowX = 'auto';
+      comboBody.style.overflowX = 'hidden';
       var cTable = document.createElement('table');
-      cTable.className = 'kana-table';
-      cTable.style.fontSize = '0.8rem';
+      cTable.className = 'kana-table combo-table';
 
       // Header row
-      var cHead = '<thead><tr><th style="position:sticky;left:0;background:var(--bg-card);z-index:1">声母\\韵母</th>';
+      var cHead = '<thead><tr><th style="position:sticky;left:0;background:var(--bg-card);z-index:1"></th>';
       data.combinationColumns.forEach(function (col) {
         cHead += '<th style="white-space:nowrap">' + col + '</th>';
       });
@@ -516,7 +533,10 @@
             td.style.transition = 'background 0.15s, color 0.15s';
             td.addEventListener('mouseenter', function () { td.style.background = 'var(--accent)'; td.style.color = '#fff'; });
             td.addEventListener('mouseleave', function () { td.style.background = ''; td.style.color = ''; });
-            td.addEventListener('click', function () { speakCN(cell); });
+            td.addEventListener('click', function () {
+              var ch = data.pinyinCharMap && data.pinyinCharMap[cell];
+              speakCN(ch || cell);
+            });
           } else {
             td.textContent = '—';
             td.style.color = 'var(--border)';
@@ -582,8 +602,8 @@
         var tr = document.createElement('tr');
         tr.innerHTML =
           '<td><strong>' + rule.rule + '</strong></td>' +
-          '<td>' + (rule.example || '') + '</td>' +
-          '<td>' + rule.explanation + '</td>';
+          '<td>' + (rule.examples ? rule.examples.join(', ') : '') + '</td>' +
+          '<td>' + (rule.description || '') + '</td>';
         spTbody.appendChild(tr);
       });
       spTable.appendChild(spTbody);
@@ -695,7 +715,15 @@
 
   // === INIT ===
   initTheme();
-  loadData();
-  renderPinyinTab();
-  updateCount();
+  try { loadData(); } catch (e) { console.error('loadData error:', e); }
+  try { renderPinyinTab(); } catch (e) { console.error('renderPinyinTab error:', e); }
+  try { renderTonesTab(); } catch (e) { console.error('renderTonesTab error:', e); }
+  switchTab('tones');
+  // Fallback: ensure tones content renders even if initial attempt failed
+  setTimeout(function () {
+    renderTonesTab();
+    if (app.activeTab === 'tones') {
+      document.getElementById('tones-tab').classList.remove('hidden');
+    }
+  }, 50);
 })();

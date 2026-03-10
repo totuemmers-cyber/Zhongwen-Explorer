@@ -290,7 +290,7 @@ SECTION_CONFIGS['grammar'] = {
     return false;
   },
   sortFn: function (items, sortKey) {
-    var catOrder = { 'Partikel': 0, 'Verben': 1, 'Adjektive': 2, 'Satzstrukturen': 3 };
+    var catOrder = { 'Partikel': 0, 'Verben': 1, 'Adjektive': 2, 'Adverbien': 3, 'Satzstrukturen': 4, 'Konjunktionen': 5, 'Präpositionen': 6, 'Fragewörter': 7, 'Vergleiche': 8, 'Zeitausdrücke': 9, 'Zeitformen': 10, 'Verneinung': 11, 'Modalausdrücke': 12, 'Resultativ': 13, 'Rhetorisch': 14, 'Literarisch': 15, 'Komplemente': 16 };
     items.sort(function (a, b) {
       if (sortKey === 'level') {
         var la = LEVEL_ORDER[a.level] !== undefined ? LEVEL_ORDER[a.level] : 99;
@@ -310,11 +310,11 @@ SECTION_CONFIGS['grammar'] = {
     card.className = 'grammar-card';
     card.innerHTML =
       '<div class="grammar-card-header">' +
-        '<span class="grammar-pattern">' + item.pattern + '</span>' +
+        '<span class="grammar-card-pattern">' + item.pattern + '</span>' +
         '<span class="card-level ' + item.level + '">' + (item.level || '').replace('HSK', '') + '</span>' +
       '</div>' +
       '<div class="grammar-card-meaning">' + (item.meaning || '') + '</div>' +
-      '<span class="grammar-category-badge ' + catClass + '">' + (item.category || '') + '</span>';
+      '<span class="grammar-card-category ' + (item.category || '') + '">' + (item.category || '') + '</span>';
     card.addEventListener('click', function () { section.openDetail(index); });
     return card;
   },
@@ -418,13 +418,13 @@ SECTION_CONFIGS['vocab'] = {
     var card = document.createElement('div');
     card.className = 'vocab-card';
     card.innerHTML =
-      '<div class="vocab-card-top">' +
-        '<span class="vocab-word">' + (item.word || '') + '</span>' +
+      '<div class="vocab-card-header">' +
+        '<span class="vocab-card-word">' + (item.word || '') + '</span>' +
         '<span class="card-level ' + item.level + '">' + (item.level || '').replace('HSK', '') + '</span>' +
       '</div>' +
-      '<div class="vocab-reading">' + (item.pinyin || '') + '</div>' +
-      '<div class="vocab-meaning">' + (item.meaning || '') + '</div>' +
-      '<span class="vocab-type-badge ' + typeClass + '">' + (item.type || '') + '</span>';
+      '<div class="vocab-card-reading">' + (item.pinyin || '') + '</div>' +
+      '<div class="vocab-card-meaning">' + (item.meaning || '') + '</div>' +
+      '<span class="vocab-type-badge ' + (item.type || '') + '">' + (item.type || '') + '</span>';
     card.addEventListener('click', function () { section.openDetail(index); });
     return card;
   },
@@ -536,12 +536,12 @@ SECTION_CONFIGS['onomatopoeia'] = {
     var card = document.createElement('div');
     card.className = 'ono-card';
     card.innerHTML =
-      '<div class="ono-card-top">' +
-        '<span class="ono-word">' + item.word + '</span>' +
-        '<span class="ono-category-badge ' + catClass + '">' + (item.type || '') + '</span>' +
+      '<div class="ono-card-header">' +
+        '<span class="ono-card-word">' + item.word + '</span>' +
+        '<span class="ono-category-badge ' + (item.type || '') + '">' + (item.type || '') + '</span>' +
       '</div>' +
-      '<div class="ono-reading">' + (item.pinyin || '') + '</div>' +
-      '<div class="ono-meaning">' + (item.meaning || '') + '</div>' +
+      '<div class="ono-card-reading">' + (item.pinyin || '') + '</div>' +
+      '<div class="ono-card-meaning">' + (item.meaning || '') + '</div>' +
       '<span class="ono-pattern-badge">' + (item.pattern || '') + '</span>';
     card.addEventListener('click', function () { section.openDetail(index); });
     return card;
@@ -617,6 +617,12 @@ SECTION_CONFIGS['measurewords'] = {
   ],
   onTabActivate: function (section) {
     if (window.app) window.app.renderBasicNumbers();
+  },
+  onAfterFilter: function (section) {
+    var el = document.getElementById('mw-numbers-section');
+    if (!el) return;
+    var cat = section.filters.category;
+    el.style.display = (cat === 'all' || cat === 'Allgemein') ? '' : 'none';
   },
   filterFn: function (item, query, filters) {
     if (filters.category !== 'all' && item.category !== filters.category) return false;

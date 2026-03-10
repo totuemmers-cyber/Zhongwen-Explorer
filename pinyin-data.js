@@ -352,7 +352,7 @@ window.PINYIN_DATA = {
         null, null, null, 'ji', null, 'ju',
         null, null, null, null,
         null, null, 'jin', null, 'jun',
-        null, null, 'jing', 'jiong',
+        null, null, 'jing', null,
         'jia', 'jie', 'jiu',
         null, null, 'jue',
         'jian', 'juan', null,
@@ -365,7 +365,7 @@ window.PINYIN_DATA = {
         null, null, null, 'qi', null, 'qu',
         null, null, null, null,
         null, null, 'qin', null, 'qun',
-        null, null, 'qing', 'qiong',
+        null, null, 'qing', null,
         'qia', 'qie', 'qiu',
         null, null, 'que',
         'qian', 'quan', null,
@@ -378,7 +378,7 @@ window.PINYIN_DATA = {
         null, null, null, 'xi', null, 'xu',
         null, null, null, null,
         null, null, 'xin', null, 'xun',
-        null, null, 'xing', 'xiong',
+        null, null, 'xing', null,
         'xia', 'xie', 'xiu',
         null, null, 'xue',
         'xian', 'xuan', null,
@@ -520,6 +520,151 @@ window.PINYIN_DATA = {
       ]
     }
   ],
+
+  // ---------------------------------------------------------------------------
+  // Pinyin → representative character map (for TTS in the combination table)
+  // ---------------------------------------------------------------------------
+  pinyinCharMap: {
+    // Zero initial
+    'a':'啊','o':'哦','e':'鹅','ai':'爱','ei':'诶','ao':'奥','ou':'欧',
+    'an':'安','en':'恩','ang':'昂','eng':'鞥',
+    // b
+    'ba':'八','bo':'波','bi':'笔','bu':'不',
+    'bai':'白','bei':'北','bao':'包',
+    'ban':'班','ben':'本','bin':'宾',
+    'bang':'帮','beng':'蹦','bing':'冰',
+    'bie':'别','bian':'边',
+    // p
+    'pa':'怕','po':'破','pi':'皮','pu':'普',
+    'pai':'拍','pei':'配','pao':'跑','pou':'剖',
+    'pan':'盘','pen':'喷','pin':'拼',
+    'pang':'旁','peng':'朋','ping':'平',
+    'pie':'撇','pian':'片',
+    // m
+    'ma':'妈','mo':'摸','me':'么','mi':'米','mu':'木',
+    'mai':'买','mei':'美','mao':'猫','mou':'某',
+    'man':'慢','men':'门','min':'民',
+    'mang':'忙','meng':'梦','ming':'明',
+    'mie':'灭','miu':'谬','mian':'面',
+    // f
+    'fa':'发','fo':'佛','fu':'福',
+    'fei':'飞','fou':'否',
+    'fan':'饭','fen':'分',
+    'fang':'方','feng':'风',
+    // d
+    'da':'大','de':'的','di':'地','du':'读',
+    'dai':'带','dei':'得','dao':'到','dou':'都',
+    'dan':'但','den':'扽','dun':'顿',
+    'dang':'当','deng':'等','ding':'定','dong':'东',
+    'dia':'嗲','die':'叠','diu':'丢',
+    'duo':'多','dian':'点','duan':'短',
+    // t
+    'ta':'他','te':'特','ti':'提','tu':'图',
+    'tai':'太','tao':'桃','tou':'头',
+    'tan':'谈','tun':'吞',
+    'tang':'汤','teng':'疼','ting':'听','tong':'同',
+    'tie':'铁','tuo':'拖','tian':'天','tuan':'团',
+    // n
+    'na':'那','ne':'呢','ni':'你','nu':'怒','nü':'女',
+    'nai':'奶','nei':'内','nao':'脑','nou':'耨',
+    'nan':'南','nen':'嫩','nin':'您',
+    'nang':'囊','neng':'能','ning':'宁','nong':'农',
+    'nie':'捏','niu':'牛','nuo':'诺','nüe':'虐',
+    'nian':'年','nuan':'暖','niang':'娘',
+    // l
+    'la':'拉','lo':'咯','le':'了','li':'李','lu':'路','lü':'绿',
+    'lai':'来','lei':'累','lao':'老','lou':'楼',
+    'lan':'蓝','lin':'林','lun':'论',
+    'lang':'狼','leng':'冷','ling':'零','long':'龙',
+    'lia':'俩','lie':'列','liu':'六',
+    'luo':'落','lüe':'略','lian':'连','luan':'乱','liang':'亮',
+    // g
+    'ga':'嘎','ge':'个','gu':'古',
+    'gai':'改','gei':'给','gao':'高','gou':'狗',
+    'gan':'干','gen':'根','gun':'滚',
+    'gang':'刚','geng':'更','gong':'工',
+    'gua':'瓜','guo':'国','guan':'关','guang':'光',
+    // k
+    'ka':'卡','ke':'可','ku':'苦',
+    'kai':'开','kei':'克','kao':'考','kou':'口',
+    'kan':'看','ken':'肯','kun':'昆',
+    'kang':'抗','keng':'坑','kong':'空',
+    'kua':'夸','kuo':'扩','kuan':'宽','kuang':'狂',
+    // h
+    'ha':'哈','he':'和','hu':'虎',
+    'hai':'海','hei':'黑','hao':'好','hou':'后',
+    'han':'汉','hen':'很','hun':'混',
+    'hang':'行','heng':'横','hong':'红',
+    'hua':'花','huo':'火','huan':'换','huang':'黄',
+    // j
+    'ji':'几','ju':'举',
+    'jin':'金','jun':'军','jing':'京','jiong':'窘',
+    'jia':'家','jie':'姐','jiu':'九',
+    'jue':'觉','jian':'见','juan':'卷','jiang':'江',
+    // q
+    'qi':'七','qu':'去',
+    'qin':'亲','qun':'群','qing':'青','qiong':'穷',
+    'qia':'恰','qie':'切','qiu':'秋',
+    'que':'确','qian':'千','quan':'全','qiang':'强',
+    // x
+    'xi':'西','xu':'许',
+    'xin':'新','xun':'训','xing':'星','xiong':'熊',
+    'xia':'下','xie':'写','xiu':'修',
+    'xue':'学','xian':'先','xuan':'选','xiang':'想',
+    // zh
+    'zha':'扎','zhe':'这','zhi':'知','zhu':'猪',
+    'zhai':'摘','zhei':'这','zhao':'找','zhou':'周',
+    'zhan':'站','zhen':'真','zhun':'准',
+    'zhang':'张','zheng':'正','zhong':'中',
+    'zhua':'抓','zhuo':'桌','zhuan':'转','zhuang':'装',
+    // ch
+    'cha':'茶','che':'车','chi':'吃','chu':'出',
+    'chai':'拆','chao':'超','chou':'抽',
+    'chan':'产','chen':'陈','chun':'春',
+    'chang':'长','cheng':'成','chong':'重',
+    'chua':'欻','chuo':'戳','chuan':'穿','chuang':'创',
+    // sh
+    'sha':'沙','she':'蛇','shi':'是','shu':'书',
+    'shai':'晒','shei':'谁','shao':'少','shou':'手',
+    'shan':'山','shen':'深','shun':'顺',
+    'shang':'上','sheng':'生',
+    'shua':'刷','shuo':'说','shuan':'栓','shuang':'双',
+    // r
+    're':'热','ri':'日','ru':'如',
+    'rao':'绕','rou':'肉',
+    'ran':'然','ren':'人','run':'润',
+    'rang':'让','reng':'扔','rong':'容',
+    'ruo':'若','ruan':'软',
+    // z
+    'za':'杂','ze':'则','zi':'字','zu':'组',
+    'zai':'在','zei':'贼','zao':'早','zou':'走',
+    'zan':'赞','zen':'怎','zun':'尊',
+    'zang':'脏','zeng':'曾','zong':'总',
+    'zuo':'做','zuan':'钻',
+    // c
+    'ca':'擦','ce':'测','ci':'词','cu':'粗',
+    'cai':'才','cao':'草','cou':'凑',
+    'can':'参','cen':'岑','cun':'村',
+    'cang':'藏','ceng':'层','cong':'从',
+    'cuo':'错','cuan':'窜',
+    // s
+    'sa':'撒','se':'色','si':'四','su':'素',
+    'sai':'赛','sao':'扫','sou':'搜',
+    'san':'三','sen':'森','sun':'孙',
+    'sang':'桑','seng':'僧','song':'送',
+    'suo':'所','suan':'算',
+    // y
+    'ya':'牙','ye':'也','yi':'一','yu':'鱼',
+    'yao':'要','you':'有',
+    'yan':'眼','yin':'音','yun':'云',
+    'yang':'阳','ying':'英','yong':'用',
+    'yue':'月','yuan':'远',
+    // w
+    'wa':'哇','wo':'我','wu':'五',
+    'wai':'外','wei':'为',
+    'wan':'万','wen':'文',
+    'wang':'王','weng':'翁'
+  },
 
   // ---------------------------------------------------------------------------
   // Tone sandhi rules (变调规则)
