@@ -156,7 +156,7 @@
   --kun-color: #2878a8;
   --on-color: #c23a2e;
   --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-jp: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --font-jp: 'Inter', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
   /* HSK levels — Chinese cultural color progression */
   --hsk1: #2d8f68;       /* Jade green 翡翠绿 — fresh start */
   --hsk1-bg: #eef7f2;
