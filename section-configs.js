@@ -605,10 +605,9 @@ SECTION_CONFIGS['vocab'] = {
     badge.textContent = item.level;
     badge.className = 'detail-jlpt-badge ' + item.level;
 
-    var typeClass = 'vt-' + (item.type || '').toLowerCase();
     var typeBadge = document.getElementById('vocab-detail-type');
     typeBadge.textContent = item.type;
-    typeBadge.className = 'vocab-type-badge ' + typeClass;
+    typeBadge.className = 'vocab-type-badge ' + (item.type || '');
 
     document.getElementById('vocab-detail-pinyin').innerHTML = renderToneColoredPinyin(item.pinyin);
     document.getElementById('vocab-detail-meaning').textContent = item.meaning || '';

@@ -1990,6 +1990,11 @@ main {
   align-self: flex-start;
 }
 
+.vocab-detail-header .vocab-type-badge {
+  padding: 4px 10px;
+  align-self: auto;
+}
+
 .vocab-type-badge.Nomen {
   background: var(--vt-nomen-bg);
   color: var(--vt-nomen);
