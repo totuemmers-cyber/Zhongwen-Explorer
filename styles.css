@@ -140,6 +140,12 @@
   --vt-praeposition: #688020;
   --vt-praeposition-bg: #e8f0d0;
   --vt-praeposition-border: #b0c870;
+  --vt-chengyu: #8b4513;
+  --vt-chengyu-bg: #faf0e4;
+  --vt-chengyu-border: #d4a870;
+  --vt-sprichwort: #9b4040;
+  --vt-sprichwort-bg: #f8e8e8;
+  --vt-sprichwort-border: #d09090;
   /* Onomatopoeia categories */
   --oc-geraeusche: #2878a8;
   --oc-geraeusche-bg: #edf5fa;
@@ -245,6 +251,10 @@
   --vt-phrase-border: #2d4858;
   --vt-praeposition-bg: #283010;
   --vt-praeposition-border: #486020;
+  --vt-chengyu-bg: #3d2510;
+  --vt-chengyu-border: #6b4020;
+  --vt-sprichwort-bg: #3d1a1a;
+  --vt-sprichwort-border: #6b2d2d;
   --oc-geraeusche-bg: #1a2d3d;
   --oc-geraeusche-border: #2d5580;
   --oc-zustaende-bg: #1a3d2d;
@@ -1906,6 +1916,18 @@ main {
   border-color: var(--vt-praeposition);
 }
 
+.filter-btn.vt-chengyu:hover, .filter-btn.vt-chengyu.active {
+  background: var(--vt-chengyu);
+  color: white;
+  border-color: var(--vt-chengyu);
+}
+
+.filter-btn.vt-sprichwort:hover, .filter-btn.vt-sprichwort.active {
+  background: var(--vt-sprichwort);
+  color: white;
+  border-color: var(--vt-sprichwort);
+}
+
 /* === VOCAB GRID === */
 .vocab-grid {
   display: grid;
@@ -2038,6 +2060,18 @@ main {
   background: var(--vt-praeposition-bg);
   color: var(--vt-praeposition);
   border: 1px solid var(--vt-praeposition-border);
+}
+
+.vocab-type-badge.Chengyu {
+  background: var(--vt-chengyu-bg);
+  color: var(--vt-chengyu);
+  border: 1px solid var(--vt-chengyu-border);
+}
+
+.vocab-type-badge.Sprichwort {
+  background: var(--vt-sprichwort-bg);
+  color: var(--vt-sprichwort);
+  border: 1px solid var(--vt-sprichwort-border);
 }
 
 /* === VOCAB DETAIL === */
@@ -4085,4 +4119,401 @@ main {
     flex-direction: column;
     gap: 4px;
   }
+}
+
+/* Bookmark System */
+.bm-toggle {
+  position: absolute;
+  right: 36px;
+  top: 50%;
+  transform: translateY(-50%) !important;
+  background: none;
+  border: 2px solid transparent !important;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--text-secondary);
+  opacity: 0.5;
+  padding: 4px;
+  line-height: 1;
+  transition: opacity var(--transition), color var(--transition);
+}
+
+.bm-toggle:hover,
+.bm-toggle.active {
+  opacity: 1;
+  color: #f59e0b;
+  background: none;
+  border-color: transparent !important;
+}
+
+.bookmark-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: var(--text-secondary);
+  opacity: 0.4;
+  transition: opacity var(--transition), color var(--transition);
+  padding: 2px;
+  line-height: 1;
+  z-index: 1;
+}
+
+.bookmark-btn:hover,
+.bookmark-btn.active {
+  opacity: 1;
+  color: #f59e0b;
+}
+
+.kanji-card, .grammar-card, .vocab-card, .ono-card, .counter-card, .radical-card {
+  position: relative;
+}
+
+.detail-bookmark-btn {
+  font-size: 1.3rem;
+  color: var(--text-secondary);
+  transition: color var(--transition);
+}
+
+.detail-bookmark-btn.active {
+  color: #f59e0b;
+}
+
+/* Help Overlay */
+.help-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px 32px;
+  max-width: 400px;
+  width: 90%;
+  position: relative;
+}
+
+.help-panel h2 {
+  margin-bottom: 16px;
+  font-size: 1.2rem;
+}
+
+.help-shortcuts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.help-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.help-row span {
+  margin-left: auto;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+kbd {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-family: var(--font);
+  font-size: 0.85rem;
+  font-weight: 600;
+  min-width: 28px;
+  text-align: center;
+}
+
+/* Tone Badges & Contour */
+.tone-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 1px 5px;
+  border-radius: 3px;
+  color: #fff;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+.tone-badge.tone-1 { background: #ef4444; color: #fff; }
+.tone-badge.tone-2 { background: #f59e0b; color: #fff; }
+.tone-badge.tone-3 { background: #10b981; color: #fff; }
+.tone-badge.tone-4 { background: #3b82f6; color: #fff; }
+.tone-badge.tone-5 { background: #94a3b8; color: #fff; }
+
+.tone-contour {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 12px;
+  vertical-align: middle;
+}
+
+.tone-svg {
+  vertical-align: middle;
+}
+
+.tone-contour-label {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* Grammar Lessons */
+.gl-view-toggle {
+  display: flex;
+  gap: 4px;
+  padding: 6px 0 10px 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 10px;
+}
+
+.gl-view-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition);
+  font-family: var(--font);
+}
+
+.gl-view-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.gl-view-btn.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.gl-count {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.gl-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  animation: fadeIn 0.3s ease;
+}
+
+.gl-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  transition: box-shadow var(--transition);
+}
+
+.gl-card:has(.gl-card-body:not(.collapsed)) {
+  box-shadow: var(--shadow-md);
+}
+
+.gl-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: background var(--transition);
+  user-select: none;
+}
+
+.gl-card-header:hover {
+  background: rgba(99, 102, 241, 0.04);
+}
+
+.gl-card-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--gradient);
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.gl-card-titles {
+  flex: 1;
+  min-width: 0;
+}
+
+.gl-card-title {
+  display: block;
+  font-family: var(--font-jp);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.gl-card-subtitle {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  line-height: 1.3;
+}
+
+.gl-card-level {
+  flex-shrink: 0;
+  position: static;
+}
+
+.gl-card-chevron {
+  flex-shrink: 0;
+  color: var(--text-secondary);
+  transition: transform 0.25s ease;
+}
+
+.gl-card-chevron.open {
+  transform: rotate(180deg);
+}
+
+.gl-card-body {
+  overflow: hidden;
+  transition: max-height 0.35s ease, opacity 0.25s ease;
+  opacity: 1;
+}
+
+.gl-card-body.collapsed {
+  max-height: 0 !important;
+  opacity: 0;
+}
+
+.gl-card-body:not(.collapsed) {
+  max-height: 8000px;
+  border-top: 1px solid var(--border);
+  padding: 20px;
+}
+
+.gl-intro {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--text);
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  background: rgba(99, 102, 241, 0.05);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.gl-section {
+  margin-bottom: 22px;
+}
+
+.gl-section:last-child {
+  margin-bottom: 0;
+}
+
+.gl-section-heading {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--border);
+}
+
+.gl-section-text {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+.gl-section-text strong {
+  color: var(--accent);
+}
+
+.gl-section-text ul.lesson-rules {
+  list-style: none;
+  padding: 0;
+}
+
+.gl-section-text ul.lesson-rules li {
+  padding: 4px 0 4px 20px;
+  position: relative;
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.gl-section-text ul.lesson-rules li::before {
+  content: '\2192';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.gl-examples {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.gl-example {
+  padding: 10px 14px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.gl-example-jp {
+  font-family: var(--font-jp);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 2px;
+}
+
+.gl-example-romaji {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 2px;
+}
+
+.gl-example-de {
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+}
+
+.gl-tip {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 14px;
+  background: rgba(16, 185, 129, 0.06);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  border-radius: var(--radius-sm);
+  font-size: 0.84rem;
+  line-height: 1.6;
+  color: var(--text);
+  margin-top: 8px;
+}
+
+.gl-tip svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: #10b981;
 }

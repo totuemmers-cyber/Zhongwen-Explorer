@@ -48,6 +48,165 @@ function getHanziByRadical() {
   return _hanziByRadical;
 }
 
+// === Bookmark Utilities ===
+
+function getBookmarks(sectionName) {
+  try { return JSON.parse(localStorage.getItem('bookmarks-' + sectionName) || '[]'); }
+  catch (e) { return []; }
+}
+
+function isBookmarked(sectionName, itemId) {
+  return getBookmarks(sectionName).indexOf(itemId) !== -1;
+}
+
+function toggleBookmark(sectionName, itemId) {
+  var bk = getBookmarks(sectionName);
+  var idx = bk.indexOf(itemId);
+  if (idx === -1) bk.push(itemId);
+  else bk.splice(idx, 1);
+  localStorage.setItem('bookmarks-' + sectionName, JSON.stringify(bk));
+  return idx === -1;
+}
+
+// === Shared Card & Detail Utilities ===
+
+function createBaseCard(className, innerHTML, index, section, itemId) {
+  var card = document.createElement('div');
+  card.className = className;
+  card.tabIndex = 0;
+  card.setAttribute('role', 'button');
+  card.innerHTML = innerHTML;
+  function activate() {
+    if (window.app) window.app.playTick();
+    section.openDetail(index);
+  }
+  card.addEventListener('click', activate);
+  card.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
+  });
+
+  if (itemId) {
+    var starred = isBookmarked(section.name, itemId);
+    var star = document.createElement('button');
+    star.className = 'bookmark-btn' + (starred ? ' active' : '');
+    star.innerHTML = starred ? '&#9733;' : '&#9734;';
+    star.title = 'Lesezeichen';
+    star.setAttribute('aria-label', 'Lesezeichen');
+    star.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var nowStarred = toggleBookmark(section.name, itemId);
+      star.innerHTML = nowStarred ? '&#9733;' : '&#9734;';
+      star.classList.toggle('active', nowStarred);
+      if (window.app) window.app.playTick();
+    });
+    card.appendChild(star);
+  }
+
+  return card;
+}
+
+function createDetailBookmark(headerSelector, sectionName, itemId) {
+  var header = document.querySelector(headerSelector);
+  var oldBtn = header.querySelector('.detail-bookmark-btn');
+  if (oldBtn) oldBtn.remove();
+  var starred = isBookmarked(sectionName, itemId);
+  var btn = document.createElement('button');
+  btn.className = 'btn btn-icon detail-bookmark-btn' + (starred ? ' active' : '');
+  btn.innerHTML = starred ? '&#9733;' : '&#9734;';
+  btn.title = 'Lesezeichen';
+  btn.setAttribute('aria-label', 'Lesezeichen');
+  btn.addEventListener('click', function () {
+    var nowStarred = toggleBookmark(sectionName, itemId);
+    btn.innerHTML = nowStarred ? '&#9733;' : '&#9734;';
+    btn.classList.toggle('active', nowStarred);
+    if (window.app) window.app.playTick();
+  });
+  header.appendChild(btn);
+}
+
+// Wire bookmark toggle buttons
+function initBookmarkToggles() {
+  document.querySelectorAll('.bm-toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var isActive = btn.getAttribute('data-bm') === 'starred';
+      btn.setAttribute('data-bm', isActive ? 'all' : 'starred');
+      btn.innerHTML = isActive ? '&#9734;' : '&#9733;';
+      btn.classList.toggle('active', !isActive);
+      var classes = btn.className.split(' ');
+      for (var i = 0; i < classes.length; i++) {
+        var cls = classes[i];
+        if (cls.indexOf('-bm') !== -1 && cls !== 'bm-toggle') {
+          var sectionMap = {
+            'hanzi-bm': 'hanzi', 'grammar-bm': 'grammar', 'vocab-bm': 'vocab',
+            'mw-bm': 'measurewords', 'radical-bm': 'radicals', 'ono-bm': 'onomatopoeia'
+          };
+          var secName = sectionMap[cls];
+          if (secName && window.app && window.app.sections[secName]) {
+            var sec = window.app.sections[secName];
+            sec.filters.bookmarks = isActive ? 'all' : 'starred';
+            sec.applyFilters();
+          }
+          break;
+        }
+      }
+      if (window.app) window.app.playTick();
+    });
+  });
+}
+
+// === Tone Visualization Utilities ===
+
+function getToneColor(toneNum) {
+  var colors = { 1: '#ef4444', 2: '#f59e0b', 3: '#10b981', 4: '#3b82f6', 5: '#94a3b8' };
+  return colors[toneNum] || '#94a3b8';
+}
+
+function renderToneBadge(toneNum) {
+  if (!toneNum || toneNum < 1 || toneNum > 5) return '';
+  return ' <span class="tone-badge tone-' + toneNum + '">' + toneNum + '</span>';
+}
+
+// Render tone contour SVG for detail view
+function renderToneSVG(toneNum) {
+  if (!toneNum || toneNum < 1 || toneNum > 4) return '';
+  var w = 80, h = 50;
+  var contours = {
+    1: 'M10,12 L70,12',                          // flat high
+    2: 'M10,38 Q40,25 70,12',                     // rising
+    3: 'M10,22 Q25,42 40,38 Q55,34 70,22',        // dipping
+    4: 'M10,12 Q40,25 70,42'                       // falling
+  };
+  var labels = { 1: 'hoch', 2: 'steigend', 3: 'fallend-steigend', 4: 'fallend' };
+  return '<div class="tone-contour">' +
+    '<svg class="tone-svg" width="' + w + '" height="' + h + '" viewBox="0 0 ' + w + ' ' + h + '">' +
+    '<path d="' + contours[toneNum] + '" fill="none" stroke="' + getToneColor(toneNum) + '" stroke-width="3" stroke-linecap="round"/>' +
+    '</svg>' +
+    '<span class="tone-contour-label" style="color:' + getToneColor(toneNum) + '">' + labels[toneNum] + '</span>' +
+    '</div>';
+}
+
+// Color each syllable in a pinyin string by its tone
+function renderToneColoredPinyin(pinyin) {
+  if (!pinyin) return '';
+  var toneMarks = {
+    'ā': 1, 'á': 2, 'ǎ': 3, 'à': 4,
+    'ē': 1, 'é': 2, 'ě': 3, 'è': 4,
+    'ī': 1, 'í': 2, 'ǐ': 3, 'ì': 4,
+    'ō': 1, 'ó': 2, 'ǒ': 3, 'ò': 4,
+    'ū': 1, 'ú': 2, 'ǔ': 3, 'ù': 4,
+    'ǖ': 1, 'ǘ': 2, 'ǚ': 3, 'ǜ': 4
+  };
+  // Split pinyin into syllables (space-separated)
+  var syllables = pinyin.split(/\s+/);
+  return syllables.map(function (syl) {
+    var tone = 5; // default neutral
+    for (var i = 0; i < syl.length; i++) {
+      if (toneMarks[syl[i]]) { tone = toneMarks[syl[i]]; break; }
+    }
+    return '<span class="tone-' + tone + '">' + syl + '</span>';
+  }).join(' ');
+}
+
 function renderExamplesOrEmpty(elementId, examples) {
   var el = document.getElementById(elementId);
   if (!el) return;
@@ -120,9 +279,12 @@ SECTION_CONFIGS['hanzi'] = {
     nextBtn: 'next-kanji'
   },
   filterGroups: [
-    { stateKey: 'level', selector: '.filter-btn[data-level]', dataAttr: 'data-level', defaultValue: 'all' }
+    { stateKey: 'level', selector: '.filter-btn[data-level]', dataAttr: 'data-level', defaultValue: 'all' },
+    { stateKey: 'bookmarks', selector: '.filter-btn.hanzi-bm', dataAttr: 'data-bm', defaultValue: 'all' }
   ],
   filterFn: function (item, query, filters) {
+    // Bookmark filter
+    if (filters.bookmarks === 'starred' && !isBookmarked('hanzi', item.hanzi)) return false;
     // Radical filter
     if (window.app && window.app.activeRadical) {
       var hasRad = false;
@@ -155,17 +317,16 @@ SECTION_CONFIGS['hanzi'] = {
     });
   },
   createCard: function (item, index, section) {
-    var card = document.createElement('div');
-    card.className = 'kanji-card';
-    card.innerHTML =
+    var toneNum = item.tone || 0;
+    return createBaseCard('kanji-card',
       '<span class="card-level ' + item.hsk + '">' + item.hsk.replace('HSK', '') + '</span>' +
       '<span class="card-kanji">' + item.hanzi + '</span>' +
-      '<span class="card-reading">' + (item.pinyin || '') + '</span>' +
-      '<span class="card-meaning">' + item.meanings[0] + '</span>';
-    card.addEventListener('click', function () { section.openDetail(index); });
-    return card;
+      '<span class="card-reading">' + (item.pinyin || '') + renderToneBadge(toneNum) + '</span>' +
+      '<span class="card-meaning">' + item.meanings[0] + '</span>',
+      index, section, item.hanzi);
   },
   openDetail: function (item, dom) {
+    createDetailBookmark('.detail-kanji-display', 'hanzi', item.hanzi);
     document.getElementById('detail-kanji').textContent = item.hanzi;
     document.getElementById('detail-kanji').style.cursor = 'pointer';
     document.getElementById('detail-kanji').onclick = function () { speakText(item.hanzi); };
@@ -188,7 +349,7 @@ SECTION_CONFIGS['hanzi'] = {
     var toneEl = document.getElementById('detail-tone');
     var toneNum = item.tone || 0;
     var toneNames = ['', 'Erster Ton (hoch)', 'Zweiter Ton (steigend)', 'Dritter Ton (fallend-steigend)', 'Vierter Ton (fallend)', 'Neutraler Ton'];
-    toneEl.innerHTML = '<span class="reading-tag tone-' + toneNum + '">' + (toneNames[toneNum] || 'Ton ' + toneNum) + '</span>';
+    toneEl.innerHTML = '<span class="reading-tag tone-' + toneNum + '">' + (toneNames[toneNum] || 'Ton ' + toneNum) + '</span>' + renderToneSVG(toneNum);
 
     // Stroke order — reset to collapsed, clear previous
     var soHeader = document.getElementById('stroke-order-header');
@@ -279,9 +440,11 @@ SECTION_CONFIGS['grammar'] = {
   },
   filterGroups: [
     { stateKey: 'level', selector: '.filter-btn.grammar-level', dataAttr: 'data-glevel', defaultValue: 'all' },
-    { stateKey: 'category', selector: '.filter-btn.grammar-cat', dataAttr: 'data-category', defaultValue: 'all' }
+    { stateKey: 'category', selector: '.filter-btn.grammar-cat', dataAttr: 'data-category', defaultValue: 'all' },
+    { stateKey: 'bookmarks', selector: '.filter-btn.grammar-bm', dataAttr: 'data-bm', defaultValue: 'all' }
   ],
   filterFn: function (item, query, filters) {
+    if (filters.bookmarks === 'starred' && !isBookmarked('grammar', item.pattern)) return false;
     if (filters.level !== 'all' && item.level !== filters.level) return false;
     if (filters.category !== 'all' && item.category !== filters.category) return false;
     if (!query) return true;
@@ -305,20 +468,17 @@ SECTION_CONFIGS['grammar'] = {
     });
   },
   createCard: function (item, index, section) {
-    var catClass = 'cat-' + (item.category || '').toLowerCase().replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue');
-    var card = document.createElement('div');
-    card.className = 'grammar-card';
-    card.innerHTML =
+    return createBaseCard('grammar-card',
       '<div class="grammar-card-header">' +
         '<span class="grammar-card-pattern">' + item.pattern + '</span>' +
         '<span class="card-level ' + item.level + '">' + (item.level || '').replace('HSK', '') + '</span>' +
       '</div>' +
       '<div class="grammar-card-meaning">' + (item.meaning || '') + '</div>' +
-      '<span class="grammar-card-category ' + (item.category || '') + '">' + (item.category || '') + '</span>';
-    card.addEventListener('click', function () { section.openDetail(index); });
-    return card;
+      '<span class="grammar-card-category ' + (item.category || '') + '">' + (item.category || '') + '</span>',
+      index, section, item.pattern);
   },
   openDetail: function (item, dom) {
+    createDetailBookmark('.grammar-detail-header', 'grammar', item.pattern);
     var patternEl = document.getElementById('grammar-detail-pattern');
     patternEl.textContent = item.pattern;
     patternEl.style.cursor = 'pointer';
@@ -386,9 +546,11 @@ SECTION_CONFIGS['vocab'] = {
   },
   filterGroups: [
     { stateKey: 'level', selector: '.filter-btn.vocab-level', dataAttr: 'data-vlevel', defaultValue: 'all' },
-    { stateKey: 'type', selector: '.filter-btn.vocab-type', dataAttr: 'data-vtype', defaultValue: 'all' }
+    { stateKey: 'type', selector: '.filter-btn.vocab-type', dataAttr: 'data-vtype', defaultValue: 'all' },
+    { stateKey: 'bookmarks', selector: '.filter-btn.vocab-bm', dataAttr: 'data-bm', defaultValue: 'all' }
   ],
   filterFn: function (item, query, filters) {
+    if (filters.bookmarks === 'starred' && !isBookmarked('vocab', item.word + '|' + (item.pinyin || ''))) return false;
     if (filters.level !== 'all' && item.level !== filters.level) return false;
     if (filters.type !== 'all' && item.type !== filters.type) return false;
     if (!query) return true;
@@ -398,7 +560,7 @@ SECTION_CONFIGS['vocab'] = {
     return false;
   },
   sortFn: function (items, sortKey) {
-    var typeOrder = { 'Nomen': 0, 'Verb': 1, 'Adjektiv': 2, 'Adverb': 3, 'Ausdruck': 4, 'Partikel': 5, 'Pronomen': 6, 'Zahlwort': 7 };
+    var typeOrder = { 'Nomen': 0, 'Verb': 1, 'Adjektiv': 2, 'Adverb': 3, 'Ausdruck': 4, 'Partikel': 5, 'Pronomen': 6, 'Zahlwort': 7, 'Konjunktion': 8, 'Redewendung': 9, 'Chengyu': 10, 'Sprichwort': 11, 'Phrase': 12, 'Präposition': 13, 'Präfix': 14 };
     items.sort(function (a, b) {
       if (sortKey === 'type') {
         var ta = typeOrder[a.type] !== undefined ? typeOrder[a.type] : 99;
@@ -414,21 +576,20 @@ SECTION_CONFIGS['vocab'] = {
     });
   },
   createCard: function (item, index, section) {
-    var typeClass = 'vt-' + (item.type || '').toLowerCase();
-    var card = document.createElement('div');
-    card.className = 'vocab-card';
-    card.innerHTML =
+    var itemId = item.word + '|' + (item.pinyin || '');
+    return createBaseCard('vocab-card',
       '<div class="vocab-card-header">' +
         '<span class="vocab-card-word">' + (item.word || '') + '</span>' +
         '<span class="card-level ' + item.level + '">' + (item.level || '').replace('HSK', '') + '</span>' +
       '</div>' +
-      '<div class="vocab-card-reading">' + (item.pinyin || '') + '</div>' +
+      '<div class="vocab-card-reading">' + renderToneColoredPinyin(item.pinyin) + '</div>' +
       '<div class="vocab-card-meaning">' + (item.meaning || '') + '</div>' +
-      '<span class="vocab-type-badge ' + (item.type || '') + '">' + (item.type || '') + '</span>';
-    card.addEventListener('click', function () { section.openDetail(index); });
-    return card;
+      '<span class="vocab-type-badge ' + (item.type || '') + '">' + (item.type || '') + '</span>',
+      index, section, itemId);
   },
   openDetail: function (item, dom) {
+    var itemId = item.word + '|' + (item.pinyin || '');
+    createDetailBookmark('.vocab-detail-header', 'vocab', itemId);
     var wordEl = document.getElementById('vocab-detail-word');
     wordEl.textContent = item.word;
     wordEl.style.cursor = 'pointer';
@@ -449,7 +610,7 @@ SECTION_CONFIGS['vocab'] = {
     typeBadge.textContent = item.type;
     typeBadge.className = 'vocab-type-badge ' + typeClass;
 
-    document.getElementById('vocab-detail-pinyin').textContent = item.pinyin || '';
+    document.getElementById('vocab-detail-pinyin').innerHTML = renderToneColoredPinyin(item.pinyin);
     document.getElementById('vocab-detail-meaning').textContent = item.meaning || '';
 
     var catLine = document.getElementById('vocab-detail-category-line');
@@ -510,9 +671,11 @@ SECTION_CONFIGS['onomatopoeia'] = {
   },
   filterGroups: [
     { stateKey: 'category', selector: '.filter-btn.ono-cat', dataAttr: 'data-ocat', defaultValue: 'all' },
-    { stateKey: 'pattern', selector: '.filter-btn.ono-pat', dataAttr: 'data-opat', defaultValue: 'all' }
+    { stateKey: 'pattern', selector: '.filter-btn.ono-pat', dataAttr: 'data-opat', defaultValue: 'all' },
+    { stateKey: 'bookmarks', selector: '.filter-btn.ono-bm', dataAttr: 'data-bm', defaultValue: 'all' }
   ],
   filterFn: function (item, query, filters) {
+    if (filters.bookmarks === 'starred' && !isBookmarked('onomatopoeia', item.word)) return false;
     if (filters.category !== 'all' && item.type !== filters.category) return false;
     if (filters.pattern !== 'all' && item.pattern !== filters.pattern) return false;
     if (!query) return true;
@@ -532,21 +695,18 @@ SECTION_CONFIGS['onomatopoeia'] = {
     });
   },
   createCard: function (item, index, section) {
-    var catClass = 'oc-' + (item.type || '').toLowerCase();
-    var card = document.createElement('div');
-    card.className = 'ono-card';
-    card.innerHTML =
+    return createBaseCard('ono-card',
       '<div class="ono-card-header">' +
         '<span class="ono-card-word">' + item.word + '</span>' +
         '<span class="ono-category-badge ' + (item.type || '') + '">' + (item.type || '') + '</span>' +
       '</div>' +
       '<div class="ono-card-reading">' + (item.pinyin || '') + '</div>' +
       '<div class="ono-card-meaning">' + (item.meaning || '') + '</div>' +
-      '<span class="ono-pattern-badge">' + (item.pattern || '') + '</span>';
-    card.addEventListener('click', function () { section.openDetail(index); });
-    return card;
+      '<span class="ono-pattern-badge">' + (item.pattern || '') + '</span>',
+      index, section, item.word);
   },
   openDetail: function (item, dom) {
+    createDetailBookmark('.ono-detail-header', 'onomatopoeia', item.word);
     var wordEl = document.getElementById('ono-detail-word');
     wordEl.textContent = item.word;
     wordEl.style.cursor = 'pointer';
@@ -613,7 +773,8 @@ SECTION_CONFIGS['measurewords'] = {
     nextBtn: 'next-mw'
   },
   filterGroups: [
-    { stateKey: 'category', selector: '.filter-btn.mw-cat', dataAttr: 'data-mwcat', defaultValue: 'all' }
+    { stateKey: 'category', selector: '.filter-btn.mw-cat', dataAttr: 'data-mwcat', defaultValue: 'all' },
+    { stateKey: 'bookmarks', selector: '.filter-btn.mw-bm', dataAttr: 'data-bm', defaultValue: 'all' }
   ],
   onTabActivate: function (section) {
     if (window.app) window.app.renderBasicNumbers();
@@ -625,6 +786,7 @@ SECTION_CONFIGS['measurewords'] = {
     el.style.display = (cat === 'all' || cat === 'Allgemein') ? '' : 'none';
   },
   filterFn: function (item, query, filters) {
+    if (filters.bookmarks === 'starred' && !isBookmarked('measurewords', item.classifier)) return false;
     if (filters.category !== 'all' && item.category !== filters.category) return false;
     if (!query) return true;
     if (item.classifier && item.classifier.indexOf(query) !== -1) return true;
@@ -642,19 +804,17 @@ SECTION_CONFIGS['measurewords'] = {
   },
   createCard: function (item, index, section) {
     var catClass = 'cc-' + (item.category || '').toLowerCase();
-    var card = document.createElement('div');
-    card.className = 'counter-card';
-    card.innerHTML =
+    return createBaseCard('counter-card',
       '<div class="counter-card-top">' +
         '<span class="counter-char">' + item.classifier + '</span>' +
         '<span class="counter-category-badge ' + catClass + '">' + (item.category || '') + '</span>' +
       '</div>' +
       '<div class="counter-reading">' + (item.pinyin || '') + '</div>' +
-      '<div class="counter-meaning">' + (item.meaning || '') + '</div>';
-    card.addEventListener('click', function () { section.openDetail(index); });
-    return card;
+      '<div class="counter-meaning">' + (item.meaning || '') + '</div>',
+      index, section, item.classifier);
   },
   openDetail: function (item, dom) {
+    createDetailBookmark('.counter-detail-header', 'measurewords', item.classifier);
     var charEl = document.getElementById('mw-detail-char');
     charEl.textContent = item.classifier;
     charEl.style.cursor = 'pointer';
@@ -737,9 +897,11 @@ SECTION_CONFIGS['radicals'] = {
     nextBtn: 'next-radical'
   },
   filterGroups: [
-    { stateKey: 'strokes', selector: '.filter-btn.radical-stroke', dataAttr: 'data-rstrokes', defaultValue: 'all' }
+    { stateKey: 'strokes', selector: '.filter-btn.radical-stroke', dataAttr: 'data-rstrokes', defaultValue: 'all' },
+    { stateKey: 'bookmarks', selector: '.filter-btn.radical-bm', dataAttr: 'data-bm', defaultValue: 'all' }
   ],
   filterFn: function (item, query, filters) {
+    if (filters.bookmarks === 'starred' && !isBookmarked('radicals', '' + item.number)) return false;
     if (filters.strokes !== 'all') {
       var s = parseInt(filters.strokes);
       if (s === 9) { if (item.strokes < 9) return false; }
@@ -755,18 +917,16 @@ SECTION_CONFIGS['radicals'] = {
     items.sort(function (a, b) { return (a.number || 0) - (b.number || 0); });
   },
   createCard: function (item, index, section) {
-    var card = document.createElement('div');
-    card.className = 'radical-card';
-    card.innerHTML =
+    return createBaseCard('radical-card',
       '<span class="radical-number-badge">#' + item.number + '</span>' +
       '<span class="radical-char">' + item.radical + '</span>' +
       (item.variants && item.variants.length > 0 ? '<span class="radical-variant">' + item.variants.join(' ') + '</span>' : '') +
       '<span class="radical-meaning">' + item.meaning + '</span>' +
-      '<span class="radical-strokes">' + item.strokes + ' Striche</span>';
-    card.addEventListener('click', function () { section.openDetail(index); });
-    return card;
+      '<span class="radical-strokes">' + item.strokes + ' Striche</span>',
+      index, section, '' + item.number);
   },
   openDetail: function (item, dom) {
+    createDetailBookmark('.radical-detail-header', 'radicals', '' + item.number);
     document.getElementById('radical-detail-char').textContent = item.radical;
     document.getElementById('radical-detail-number').textContent = '#' + item.number;
     document.getElementById('radical-detail-meaning').textContent = item.meaning;
