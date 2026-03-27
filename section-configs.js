@@ -319,7 +319,7 @@ SECTION_CONFIGS['hanzi'] = {
   createCard: function (item, index, section) {
     var toneNum = item.tone || 0;
     return createBaseCard('kanji-card',
-      '<span class="card-level ' + item.hsk + '">' + item.hsk.replace('HSK', '') + '</span>' +
+      '<span class="card-level ' + item.hsk + '">' + (item.hsk || '') + '</span>' +
       '<span class="card-kanji">' + item.hanzi + '</span>' +
       '<span class="card-reading">' + (item.pinyin || '') + renderToneBadge(toneNum) + '</span>' +
       '<span class="card-meaning">' + item.meanings[0] + '</span>',
@@ -469,12 +469,12 @@ SECTION_CONFIGS['grammar'] = {
   },
   createCard: function (item, index, section) {
     return createBaseCard('grammar-card',
+      '<span class="grammar-card-category ' + (item.category || '') + '">' + (item.category || '') + '</span>' +
       '<div class="grammar-card-header">' +
         '<span class="grammar-card-pattern">' + item.pattern + '</span>' +
-        '<span class="card-level ' + item.level + '">' + (item.level || '').replace('HSK', '') + '</span>' +
       '</div>' +
       '<div class="grammar-card-meaning">' + (item.meaning || '') + '</div>' +
-      '<span class="grammar-card-category ' + (item.category || '') + '">' + (item.category || '') + '</span>',
+      '<span class="card-level-inline ' + item.level + '">' + (item.level || '') + '</span>',
       index, section, item.pattern);
   },
   openDetail: function (item, dom) {
@@ -578,13 +578,13 @@ SECTION_CONFIGS['vocab'] = {
   createCard: function (item, index, section) {
     var itemId = item.word + '|' + (item.pinyin || '');
     return createBaseCard('vocab-card',
-      '<div class="vocab-card-header">' +
-        '<span class="vocab-card-word">' + (item.word || '') + '</span>' +
-        '<span class="card-level ' + item.level + '">' + (item.level || '').replace('HSK', '') + '</span>' +
+      '<div class="vocab-card-badges-tr">' +
+        '<span class="vocab-type-badge ' + (item.type || '') + '">' + (item.type || '') + '</span>' +
+        '<span class="card-level-inline ' + item.level + '">' + (item.level || '') + '</span>' +
       '</div>' +
+      '<span class="vocab-card-word">' + (item.word || '') + '</span>' +
       '<div class="vocab-card-reading">' + renderToneColoredPinyin(item.pinyin) + '</div>' +
-      '<div class="vocab-card-meaning">' + (item.meaning || '') + '</div>' +
-      '<span class="vocab-type-badge ' + (item.type || '') + '">' + (item.type || '') + '</span>',
+      '<div class="vocab-card-meaning">' + (item.meaning || '') + '</div>',
       index, section, itemId);
   },
   openDetail: function (item, dom) {

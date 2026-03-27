@@ -722,6 +722,16 @@ main {
   letter-spacing: 0.03em;
 }
 
+.card-level-inline {
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: var(--radius-pill);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  align-self: flex-start;
+}
+
 .card-level.N5, .detail-jlpt-badge.N5 {
   background: var(--n5-bg);
   color: var(--n5);
@@ -753,27 +763,27 @@ main {
 }
 
 /* HSK Level badges */
-.card-level.HSK1, .detail-jlpt-badge.HSK1,
+.card-level.HSK1, .card-level-inline.HSK1, .detail-jlpt-badge.HSK1,
 .quiz-level-badge.hsk1, .quiz-level-pill.hsk1.active {
   background: var(--hsk1-bg); color: var(--hsk1); border: 1px solid var(--hsk1-border);
 }
-.card-level.HSK2, .detail-jlpt-badge.HSK2,
+.card-level.HSK2, .card-level-inline.HSK2, .detail-jlpt-badge.HSK2,
 .quiz-level-badge.hsk2, .quiz-level-pill.hsk2.active {
   background: var(--hsk2-bg); color: var(--hsk2); border: 1px solid var(--hsk2-border);
 }
-.card-level.HSK3, .detail-jlpt-badge.HSK3,
+.card-level.HSK3, .card-level-inline.HSK3, .detail-jlpt-badge.HSK3,
 .quiz-level-badge.hsk3, .quiz-level-pill.hsk3.active {
   background: var(--hsk3-bg); color: var(--hsk3); border: 1px solid var(--hsk3-border);
 }
-.card-level.HSK4, .detail-jlpt-badge.HSK4,
+.card-level.HSK4, .card-level-inline.HSK4, .detail-jlpt-badge.HSK4,
 .quiz-level-badge.hsk4, .quiz-level-pill.hsk4.active {
   background: var(--hsk4-bg); color: var(--hsk4); border: 1px solid var(--hsk4-border);
 }
-.card-level.HSK5, .detail-jlpt-badge.HSK5,
+.card-level.HSK5, .card-level-inline.HSK5, .detail-jlpt-badge.HSK5,
 .quiz-level-badge.hsk5, .quiz-level-pill.hsk5.active {
   background: var(--hsk5-bg); color: var(--hsk5); border: 1px solid var(--hsk5-border);
 }
-.card-level.HSK6, .detail-jlpt-badge.HSK6,
+.card-level.HSK6, .card-level-inline.HSK6, .detail-jlpt-badge.HSK6,
 .quiz-level-badge.hsk6, .quiz-level-pill.hsk6.active {
   background: var(--hsk6-bg); color: var(--hsk6); border: 1px solid var(--hsk6-border);
 }
@@ -1592,6 +1602,12 @@ main {
   align-self: flex-start;
 }
 
+.grammar-card .grammar-card-category {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+
 .grammar-card-category.Partikel, .grammar-category-badge.Partikel {
   background: var(--cat-partikel-bg);
   color: var(--cat-partikel);
@@ -1988,6 +2004,21 @@ main {
   white-space: nowrap;
   flex-shrink: 0;
   align-self: flex-start;
+}
+
+.vocab-card-badges-tr {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.vocab-card-badges-tr .vocab-type-badge,
+.vocab-card-badges-tr .card-level-inline {
+  align-self: auto;
 }
 
 .vocab-detail-header .vocab-type-badge {
@@ -4152,19 +4183,7 @@ main {
 }
 
 .bookmark-btn {
-  position: absolute;
-  top: 6px;
-  right: 6px;
-  background: none;
-  border: none;
-  font-size: 1.1rem;
-  cursor: pointer;
-  color: var(--text-secondary);
-  opacity: 0.4;
-  transition: opacity var(--transition), color var(--transition);
-  padding: 2px;
-  line-height: 1;
-  z-index: 1;
+  display: none;
 }
 
 .bookmark-btn:hover,
