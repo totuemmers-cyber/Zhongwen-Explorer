@@ -199,7 +199,9 @@
       window.VOCAB_HSK5 || [],
       window.VOCAB_HSK6 || []
     ];
-    var allVocab = [].concat.apply([], vocabSources);
+    var allVocab = [].concat.apply([], vocabSources)
+      .concat(window.CHENGYU_DATA || [])
+      .concat(window.REDEWENDUNGEN_DATA || []);
     // Normalize inconsistent type names (plurals, ASCII variants)
     var typeMap = {
       'Verben': 'Verb', 'Adjektive': 'Adjektiv', 'Adverbien': 'Adverb',
@@ -361,10 +363,37 @@
     }
   });
 
+  // === HELP OVERLAY ===
+  var helpOverlay = document.getElementById('help-overlay');
+
+  function toggleHelpOverlay() {
+    if (!helpOverlay) return;
+    var isHidden = helpOverlay.classList.contains('hidden');
+    helpOverlay.classList.toggle('hidden', !isHidden);
+    if (isHidden) playPop();
+  }
+
+  if (helpOverlay) {
+    helpOverlay.addEventListener('click', function (e) {
+      if (e.target === helpOverlay) toggleHelpOverlay();
+    });
+    var helpClose = helpOverlay.querySelector('.btn-close');
+    if (helpClose) helpClose.addEventListener('click', toggleHelpOverlay);
+  }
+
   // === KEYBOARD NAVIGATION ===
+  var tabKeys = ['tones', 'pinyin', 'radicals', 'hanzi', 'vocab', 'onomatopoeia', 'grammar', 'measurewords', 'quiz'];
+
   document.addEventListener('keydown', function (e) {
+    // Help overlay open? Close on Escape
+    if (helpOverlay && !helpOverlay.classList.contains('hidden')) {
+      if (e.key === 'Escape') toggleHelpOverlay();
+      return;
+    }
+
     if (window.QuizModule && window.QuizModule.handleKey(e)) return;
 
+    // Overlay navigation
     for (var i = 0; i < sectionNames.length; i++) {
       var sec = app.sections[sectionNames[i]];
       if (sec.isOverlayOpen()) {
@@ -375,6 +404,32 @@
       }
     }
 
+    // Skip shortcuts when typing in inputs
+    var tag = document.activeElement && document.activeElement.tagName;
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') {
+      if (e.key === 'Escape') document.activeElement.blur();
+      return;
+    }
+
+    // Help overlay
+    if (e.key === '?') { e.preventDefault(); toggleHelpOverlay(); return; }
+
+    // Random entry
+    if (e.key === 'r') {
+      e.preventDefault();
+      randomBtn.click();
+      return;
+    }
+
+    // Tab switching with number keys 1-9
+    var num = parseInt(e.key);
+    if (num >= 1 && num <= 9 && num <= tabKeys.length) {
+      e.preventDefault();
+      switchTab(tabKeys[num - 1]);
+      return;
+    }
+
+    // Search focus
     if (e.key === '/') {
       var tab = app.activeTab;
       if (tab === 'pinyin' || tab === 'tones') return;
@@ -718,6 +773,7 @@
   try { loadData(); } catch (e) { console.error('loadData error:', e); }
   try { renderPinyinTab(); } catch (e) { console.error('renderPinyinTab error:', e); }
   try { renderTonesTab(); } catch (e) { console.error('renderTonesTab error:', e); }
+  if (typeof initBookmarkToggles === 'function') initBookmarkToggles();
   switchTab('tones');
   // Fallback: ensure tones content renders even if initial attempt failed
   setTimeout(function () {
