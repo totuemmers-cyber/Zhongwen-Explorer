@@ -771,11 +771,11 @@
 
   // === INIT ===
   initTheme();
+  if (typeof initSelectFilters === 'function') initSelectFilters();
   try { loadData(); } catch (e) { console.error('loadData error:', e); }
   try { renderPinyinTab(); } catch (e) { console.error('renderPinyinTab error:', e); }
   try { renderTonesTab(); } catch (e) { console.error('renderTonesTab error:', e); }
   if (typeof initBookmarkToggles === 'function') initBookmarkToggles();
-  if (typeof initSelectFilters === 'function') initSelectFilters();
   switchTab('tones');
   // Retry: some browsers may not have tones-content ready on first pass
   setTimeout(function () {
