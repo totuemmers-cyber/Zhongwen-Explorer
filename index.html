@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Zum Inhalt springen</a>
   <div id="app">
     <header class="header">
       <div class="header-hero">
@@ -33,7 +34,7 @@
           </button>
         </div>
       </div>
-      <nav class="tab-bar">
+      <nav class="tab-bar" aria-label="Hauptnavigation">
         <button class="tab-btn active" data-tab="tones">
           <span class="tab-icon-kana">调</span>
           Töne
@@ -123,28 +124,31 @@
             <button class="filter-btn grammar-level hsk6" data-glevel="HSK6">HSK 6</button>
           </div>
           <div class="sort-controls">
+            <select id="grammar-cat-select">
+              <option value="all">Alle Kategorien</option>
+              <option value="Partikel">Partikel</option>
+              <option value="Verben">Verben</option>
+              <option value="Adjektive">Adjektive</option>
+              <option value="Adverbien">Adverbien</option>
+              <option value="Satzstrukturen">Satzstrukturen</option>
+              <option value="Konjunktionen">Konjunktionen</option>
+              <option value="Präpositionen">Präpositionen</option>
+              <option value="Fragewörter">Fragewörter</option>
+              <option value="Vergleiche">Vergleiche</option>
+              <option value="Zeitausdrücke">Zeitausdrücke</option>
+              <option value="Zeitformen">Zeitformen</option>
+              <option value="Verneinung">Verneinung</option>
+              <option value="Modalausdrücke">Modalausdrücke</option>
+              <option value="Resultativ">Resultativ</option>
+              <option value="Komplemente">Komplemente</option>
+              <option value="Rhetorisch">Rhetorisch</option>
+              <option value="Literarisch">Literarisch</option>
+            </select>
             <select id="grammar-sort-select">
               <option value="category">Nach Kategorie</option>
               <option value="level">Nach Level</option>
               <option value="alpha">Alphabetisch (Muster)</option>
             </select>
-          </div>
-        </div>
-        <div class="filters">
-          <div class="level-filters">
-            <button class="filter-btn grammar-cat active" data-category="all">Alle Kategorien</button>
-            <button class="filter-btn grammar-cat cat-partikel" data-category="Partikel">Partikel</button>
-            <button class="filter-btn grammar-cat cat-verben" data-category="Verben">Verben</button>
-            <button class="filter-btn grammar-cat cat-adjektive" data-category="Adjektive">Adjektive</button>
-            <button class="filter-btn grammar-cat cat-adverbien" data-category="Adverbien">Adverbien</button>
-            <button class="filter-btn grammar-cat cat-satzstrukturen" data-category="Satzstrukturen">Satzstrukturen</button>
-            <button class="filter-btn grammar-cat cat-konjunktionen" data-category="Konjunktionen">Konjunktionen</button>
-            <button class="filter-btn grammar-cat cat-praepositionen" data-category="Präpositionen">Präpositionen</button>
-            <button class="filter-btn grammar-cat cat-fragewoerter" data-category="Fragewörter">Fragewörter</button>
-            <button class="filter-btn grammar-cat cat-vergleiche" data-category="Vergleiche">Vergleiche</button>
-            <button class="filter-btn grammar-cat cat-zeitausdruecke" data-category="Zeitausdrücke">Zeitausdrücke</button>
-            <button class="filter-btn grammar-cat cat-rhetorisch" data-category="Rhetorisch">Rhetorisch</button>
-            <button class="filter-btn grammar-cat cat-literarisch" data-category="Literarisch">Literarisch</button>
           </div>
         </div>
       </div>
@@ -167,31 +171,37 @@
             <button class="filter-btn vocab-level hsk6" data-vlevel="HSK6">HSK 6</button>
           </div>
           <div class="sort-controls">
+            <select id="vocab-type-select">
+              <option value="all">Alle Wortarten</option>
+              <option value="Nomen">Nomen</option>
+              <option value="Verb">Verb</option>
+              <option value="Adjektiv">Adjektiv</option>
+              <option value="Adverb">Adverb</option>
+              <option value="Ausdruck">Ausdruck</option>
+              <option value="Partikel">Partikel</option>
+              <option value="Pronomen">Pronomen</option>
+              <option value="Zahlwort">Zahlwort</option>
+              <option value="Konjunktion">Konjunktion</option>
+              <option value="Redewendung">Redewendung</option>
+              <option value="Phrase">Phrase</option>
+              <option value="Präposition">Präposition</option>
+              <option value="Chengyu">Chengyu</option>
+              <option value="Sprichwort">Sprichwort</option>
+            </select>
+            <select id="vocab-tone-select">
+              <option value="all">Alle Töne</option>
+              <option value="1">Ton 1 ā</option>
+              <option value="2">Ton 2 á</option>
+              <option value="3">Ton 3 ǎ</option>
+              <option value="4">Ton 4 à</option>
+              <option value="5">Neutral</option>
+            </select>
             <select id="vocab-sort-select">
               <option value="level">Nach Level</option>
               <option value="type">Nach Wortart</option>
               <option value="category">Nach Kategorie</option>
               <option value="alpha">Alphabetisch (Pinyin)</option>
             </select>
-          </div>
-        </div>
-        <div class="filters">
-          <div class="level-filters">
-            <button class="filter-btn vocab-type active" data-vtype="all">Alle Wortarten</button>
-            <button class="filter-btn vocab-type vt-nomen" data-vtype="Nomen">Nomen</button>
-            <button class="filter-btn vocab-type vt-verb" data-vtype="Verb">Verb</button>
-            <button class="filter-btn vocab-type vt-adjektiv" data-vtype="Adjektiv">Adjektiv</button>
-            <button class="filter-btn vocab-type vt-adverb" data-vtype="Adverb">Adverb</button>
-            <button class="filter-btn vocab-type vt-ausdruck" data-vtype="Ausdruck">Ausdruck</button>
-            <button class="filter-btn vocab-type vt-partikel" data-vtype="Partikel">Partikel</button>
-            <button class="filter-btn vocab-type vt-pronomen" data-vtype="Pronomen">Pronomen</button>
-            <button class="filter-btn vocab-type vt-zahlwort" data-vtype="Zahlwort">Zahlwort</button>
-            <button class="filter-btn vocab-type vt-konjunktion" data-vtype="Konjunktion">Konjunktion</button>
-            <button class="filter-btn vocab-type vt-redewendung" data-vtype="Redewendung">Redewendung</button>
-            <button class="filter-btn vocab-type vt-phrase" data-vtype="Phrase">Phrase</button>
-            <button class="filter-btn vocab-type vt-praeposition" data-vtype="Präposition">Präposition</button>
-            <button class="filter-btn vocab-type vt-chengyu" data-vtype="Chengyu">Chengyu</button>
-            <button class="filter-btn vocab-type vt-sprichwort" data-vtype="Sprichwort">Sprichwort</button>
           </div>
         </div>
       </div>
@@ -212,21 +222,19 @@
             <button class="filter-btn ono-cat oc-bewegung" data-ocat="Bewegung">Bewegung</button>
           </div>
           <div class="sort-controls">
+            <select id="ono-pattern-select">
+              <option value="all">Alle Muster</option>
+              <option value="AABB">AABB</option>
+              <option value="ABB">ABB</option>
+              <option value="ABAB">ABAB</option>
+              <option value="AA">AA</option>
+              <option value="Andere">Andere</option>
+            </select>
             <select id="ono-sort-select">
               <option value="category">Nach Kategorie</option>
               <option value="alpha">Alphabetisch (Bedeutung)</option>
               <option value="pattern">Nach Muster</option>
             </select>
-          </div>
-        </div>
-        <div class="filters">
-          <div class="level-filters">
-            <button class="filter-btn ono-pat active" data-opat="all">Alle Muster</button>
-            <button class="filter-btn ono-pat" data-opat="AABB">AABB</button>
-            <button class="filter-btn ono-pat" data-opat="ABB">ABB</button>
-            <button class="filter-btn ono-pat" data-opat="ABAB">ABAB</button>
-            <button class="filter-btn ono-pat" data-opat="AA">AA</button>
-            <button class="filter-btn ono-pat" data-opat="Andere">Andere</button>
           </div>
         </div>
       </div>
@@ -276,7 +284,7 @@
       </div>
     </header>
 
-    <main>
+    <main id="main-content">
       <!-- Hanzi Tab Content -->
       <div id="hanzi-tab" class="tab-panel hidden">
         <div id="hanzi-grid" class="kanji-grid"></div>
@@ -459,6 +467,10 @@
           <div id="vocab-detail-pinyin" class="vocab-detail-reading"></div>
           <div id="vocab-detail-meaning" class="vocab-detail-meaning"></div>
           <div id="vocab-detail-category-line" class="vocab-detail-category-line"></div>
+          <div id="vocab-detail-chengyu-section" class="grammar-detail-section hidden">
+            <h3>Zeichenanalyse 字义</h3>
+            <div id="vocab-detail-chengyu-breakdown"></div>
+          </div>
           <div class="grammar-detail-section">
             <h3>Beispiele</h3>
             <div id="vocab-detail-examples" class="grammar-examples"></div>

@@ -830,6 +830,34 @@
       (allPassed ? '' : '<div class="overall-note">Mindestens 50% pro Sektion erforderlich</div>');
     results.appendChild(overall);
 
+    // Detail review toggle
+    var detailBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Details ansehen');
+    var detailDiv = el('div', 'quiz-review-detail hidden');
+    detailBtn.addEventListener('click', function () {
+      detailDiv.classList.toggle('hidden');
+      detailBtn.textContent = detailDiv.classList.contains('hidden') ? 'Details ansehen' : 'Details ausblenden';
+    });
+    results.appendChild(detailBtn);
+
+    // Build review
+    testState.sections.forEach(function (sec, sIdx) {
+      var secHeader = el('h3', 'quiz-review-section-header', 'Sektion ' + (sIdx + 1) + ': ' + sec.name);
+      detailDiv.appendChild(secHeader);
+
+      sec.questions.forEach(function (q, qIdx) {
+        var ans = sec.answers[qIdx];
+        var correct = ans && ans.correct;
+        var item = el('div', 'quiz-review-item ' + (correct ? 'correct' : 'wrong'));
+        item.innerHTML =
+          '<span class="review-num">' + (qIdx + 1) + '.</span>' +
+          '<span class="review-prompt">' + q.promptMain + '</span>' +
+          '<span class="review-answer">' + (ans && ans.selected >= 0 ? q.choices[ans.selected] : '—') + '</span>' +
+          (correct ? '' : '<span class="review-correct">' + q.choices[q.correctIndex] + '</span>');
+        detailDiv.appendChild(item);
+      });
+    });
+    results.appendChild(detailDiv);
+
     var actions = el('div', 'quiz-results-actions');
     var newBtn = el('button', 'quiz-btn quiz-btn-next', 'Neue Prüfung');
     newBtn.addEventListener('click', showTestSetup);

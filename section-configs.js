@@ -304,6 +304,14 @@ SECTION_CONFIGS['hanzi'] = {
     for (var m = 0; m < item.meanings.length; m++) {
       if (item.meanings[m].toLowerCase().indexOf(query) !== -1) return true;
     }
+    if (item.examples) {
+      for (var e = 0; e < item.examples.length; e++) {
+        var ex = item.examples[e];
+        if (ex.word && ex.word.indexOf(query) !== -1) return true;
+        if (ex.pinyin && ex.pinyin.toLowerCase().indexOf(query) !== -1) return true;
+        if (ex.meaning && ex.meaning.toLowerCase().indexOf(query) !== -1) return true;
+      }
+    }
     return false;
   },
   sortFn: function (items, sortKey) {
@@ -440,7 +448,6 @@ SECTION_CONFIGS['grammar'] = {
   },
   filterGroups: [
     { stateKey: 'level', selector: '.filter-btn.grammar-level', dataAttr: 'data-glevel', defaultValue: 'all' },
-    { stateKey: 'category', selector: '.filter-btn.grammar-cat', dataAttr: 'data-category', defaultValue: 'all' },
     { stateKey: 'bookmarks', selector: '.filter-btn.grammar-bm', dataAttr: 'data-bm', defaultValue: 'all' }
   ],
   filterFn: function (item, query, filters) {
@@ -450,6 +457,16 @@ SECTION_CONFIGS['grammar'] = {
     if (!query) return true;
     if (item.pattern.toLowerCase().indexOf(query) !== -1) return true;
     if (item.meaning && item.meaning.toLowerCase().indexOf(query) !== -1) return true;
+    if (item.explanation && item.explanation.toLowerCase().indexOf(query) !== -1) return true;
+    if (item.formation && item.formation.toLowerCase().indexOf(query) !== -1) return true;
+    if (item.examples) {
+      for (var i = 0; i < item.examples.length; i++) {
+        var ex = item.examples[i];
+        if (ex.chinese && ex.chinese.toLowerCase().indexOf(query) !== -1) return true;
+        if (ex.german && ex.german.toLowerCase().indexOf(query) !== -1) return true;
+        if (ex.pinyin && ex.pinyin.toLowerCase().indexOf(query) !== -1) return true;
+      }
+    }
     return false;
   },
   sortFn: function (items, sortKey) {
@@ -468,13 +485,21 @@ SECTION_CONFIGS['grammar'] = {
     });
   },
   createCard: function (item, index, section) {
+    var exampleText = '';
+    if (item.examples && item.examples.length > 0) {
+      exampleText = item.examples[0].chinese || '';
+    }
+
     return createBaseCard('grammar-card',
-      '<span class="grammar-card-category ' + (item.category || '') + '">' + (item.category || '') + '</span>' +
       '<div class="grammar-card-header">' +
         '<span class="grammar-card-pattern">' + item.pattern + '</span>' +
+        '<div class="grammar-card-badges">' +
+          '<span class="card-level ' + item.level + '">' + (item.level || '') + '</span>' +
+          '<span class="grammar-card-category ' + (item.category || '') + '">' + (item.category || '') + '</span>' +
+        '</div>' +
       '</div>' +
       '<div class="grammar-card-meaning">' + (item.meaning || '') + '</div>' +
-      '<span class="card-level-inline ' + item.level + '">' + (item.level || '') + '</span>',
+      (exampleText ? '<div class="grammar-card-example">' + exampleText + '</div>' : ''),
       index, section, item.pattern);
   },
   openDetail: function (item, dom) {
@@ -515,8 +540,30 @@ SECTION_CONFIGS['grammar'] = {
     var relatedEl = document.getElementById('grammar-detail-related');
     if (item.relatedPatterns && item.relatedPatterns.length > 0) {
       relatedEl.innerHTML = item.relatedPatterns.map(function (r) {
-        return '<span class="related-tag">' + r + '</span>';
+        var found = section.allItems.some(function (it) { return it.pattern === r; });
+        return '<span class="grammar-related-tag' + (found ? '' : ' disabled') + '" data-pattern="' + r + '">' + r + '</span>';
       }).join('');
+
+      relatedEl.querySelectorAll('.grammar-related-tag:not(.disabled)').forEach(function (tag) {
+        tag.style.cursor = 'pointer';
+        tag.addEventListener('click', function () {
+          var targetPattern = this.getAttribute('data-pattern');
+          var targetIndex = section.filteredItems.findIndex(function (it) { return it.pattern === targetPattern; });
+          if (targetIndex !== -1) {
+            section.openDetail(targetIndex);
+          } else {
+            section.filters.category = 'all';
+            var catSelect = document.getElementById('grammar-cat-select');
+            if (catSelect) catSelect.value = 'all';
+            section.resetFilterGroup('level');
+            section.dom.search.value = '';
+            section.applyFilters();
+            var newIndex = section.filteredItems.findIndex(function (it) { return it.pattern === targetPattern; });
+            if (newIndex !== -1) section.openDetail(newIndex);
+          }
+        });
+      });
+
       relatedSection.classList.remove('hidden');
     } else {
       relatedSection.classList.add('hidden');
@@ -546,17 +593,28 @@ SECTION_CONFIGS['vocab'] = {
   },
   filterGroups: [
     { stateKey: 'level', selector: '.filter-btn.vocab-level', dataAttr: 'data-vlevel', defaultValue: 'all' },
-    { stateKey: 'type', selector: '.filter-btn.vocab-type', dataAttr: 'data-vtype', defaultValue: 'all' },
     { stateKey: 'bookmarks', selector: '.filter-btn.vocab-bm', dataAttr: 'data-bm', defaultValue: 'all' }
   ],
   filterFn: function (item, query, filters) {
     if (filters.bookmarks === 'starred' && !isBookmarked('vocab', item.word + '|' + (item.pinyin || ''))) return false;
     if (filters.level !== 'all' && item.level !== filters.level) return false;
     if (filters.type !== 'all' && item.type !== filters.type) return false;
+    if (filters.tone !== 'all') {
+      var targetTone = parseInt(filters.tone, 10);
+      var syllables = (item.pinyin || '').split(/[\s,]+/);
+      var hasTone = false;
+      for (var t = 0; t < syllables.length; t++) {
+        if (window.ToneUtils && window.ToneUtils.detectTone(syllables[t]) === targetTone) {
+          hasTone = true; break;
+        }
+      }
+      if (!hasTone) return false;
+    }
     if (!query) return true;
     if (item.word && item.word.indexOf(query) !== -1) return true;
     if (item.pinyin && item.pinyin.toLowerCase().indexOf(query) !== -1) return true;
     if (item.meaning && item.meaning.toLowerCase().indexOf(query) !== -1) return true;
+    if (item.category && item.category.toLowerCase().indexOf(query) !== -1) return true;
     return false;
   },
   sortFn: function (items, sortKey) {
@@ -577,6 +635,33 @@ SECTION_CONFIGS['vocab'] = {
   },
   createCard: function (item, index, section) {
     var itemId = item.word + '|' + (item.pinyin || '');
+
+    // Special Chengyu card with 2x2 character grid
+    if (item.type === 'Chengyu' && item.word && item.word.length === 4) {
+      var chars = item.word.split('');
+      var syllables = (item.pinyin || '').split(/\s+/);
+      var charGridHtml = '<div class="chengyu-char-grid">';
+      for (var c = 0; c < 4; c++) {
+        var syl = syllables[c] || '';
+        var tone = window.ToneUtils ? window.ToneUtils.detectTone(syl) : 5;
+        charGridHtml += '<div class="chengyu-char-cell">' +
+          '<span class="chengyu-char">' + chars[c] + '</span>' +
+          '<span class="chengyu-char-pinyin tone-' + tone + '">' + syl + '</span>' +
+          '</div>';
+      }
+      charGridHtml += '</div>';
+
+      return createBaseCard('vocab-card chengyu-card',
+        '<div class="vocab-card-badges-tr">' +
+          '<span class="vocab-type-badge Chengyu">Chengyu</span>' +
+          '<span class="card-level-inline ' + item.level + '">' + (item.level || '') + '</span>' +
+        '</div>' +
+        charGridHtml +
+        (item.category ? '<div class="chengyu-category-line">' + item.category + '</div>' : '') +
+        '<div class="vocab-card-meaning">' + (item.meaning || '') + '</div>',
+        index, section, itemId);
+    }
+
     return createBaseCard('vocab-card',
       '<div class="vocab-card-badges-tr">' +
         '<span class="vocab-type-badge ' + (item.type || '') + '">' + (item.type || '') + '</span>' +
@@ -614,6 +699,31 @@ SECTION_CONFIGS['vocab'] = {
 
     var catLine = document.getElementById('vocab-detail-category-line');
     catLine.textContent = item.category ? 'Kategorie: ' + item.category : '';
+
+    // Chengyu character breakdown
+    var chengyuSection = document.getElementById('vocab-detail-chengyu-section');
+    var chengyuBreakdown = document.getElementById('vocab-detail-chengyu-breakdown');
+    if (item.type === 'Chengyu' && item.word && chengyuSection) {
+      var cChars = item.word.split('');
+      var cSyllables = (item.pinyin || '').split(/\s+/);
+      var cLookup = getHanziByChar();
+      var breakdownHtml = '<div class="chengyu-breakdown">';
+      for (var ci = 0; ci < cChars.length; ci++) {
+        var cSyl = cSyllables[ci] || '';
+        var cTone = window.ToneUtils ? window.ToneUtils.detectTone(cSyl) : 5;
+        var cHz = cLookup[cChars[ci]];
+        breakdownHtml += '<div class="chengyu-breakdown-char">' +
+          '<span class="chengyu-big-char tone-' + cTone + '">' + cChars[ci] + '</span>' +
+          '<span class="chengyu-breakdown-pinyin">' + cSyl + '</span>' +
+          (cHz ? '<span class="chengyu-breakdown-meaning">' + cHz.meanings[0] + '</span>' : '') +
+          '</div>';
+      }
+      breakdownHtml += '</div>';
+      chengyuBreakdown.innerHTML = breakdownHtml;
+      chengyuSection.classList.remove('hidden');
+    } else if (chengyuSection) {
+      chengyuSection.classList.add('hidden');
+    }
 
     renderExamplesOrEmpty('vocab-detail-examples', item.examples);
 
@@ -670,7 +780,6 @@ SECTION_CONFIGS['onomatopoeia'] = {
   },
   filterGroups: [
     { stateKey: 'category', selector: '.filter-btn.ono-cat', dataAttr: 'data-ocat', defaultValue: 'all' },
-    { stateKey: 'pattern', selector: '.filter-btn.ono-pat', dataAttr: 'data-opat', defaultValue: 'all' },
     { stateKey: 'bookmarks', selector: '.filter-btn.ono-bm', dataAttr: 'data-bm', defaultValue: 'all' }
   ],
   filterFn: function (item, query, filters) {
@@ -681,6 +790,15 @@ SECTION_CONFIGS['onomatopoeia'] = {
     if (item.word && item.word.indexOf(query) !== -1) return true;
     if (item.pinyin && item.pinyin.toLowerCase().indexOf(query) !== -1) return true;
     if (item.meaning && item.meaning.toLowerCase().indexOf(query) !== -1) return true;
+    if (item.explanation && item.explanation.toLowerCase().indexOf(query) !== -1) return true;
+    if (item.examples) {
+      for (var i = 0; i < item.examples.length; i++) {
+        var ex = item.examples[i];
+        if (ex.chinese && ex.chinese.toLowerCase().indexOf(query) !== -1) return true;
+        if (ex.german && ex.german.toLowerCase().indexOf(query) !== -1) return true;
+        if (ex.pinyin && ex.pinyin.toLowerCase().indexOf(query) !== -1) return true;
+      }
+    }
     return false;
   },
   sortFn: function (items, sortKey) {
@@ -734,8 +852,30 @@ SECTION_CONFIGS['onomatopoeia'] = {
     var relatedEl = document.getElementById('ono-detail-related');
     if (item.related && item.related.length > 0) {
       relatedEl.innerHTML = item.related.map(function (r) {
-        return '<span class="related-tag">' + r + '</span>';
+        var found = section.allItems.some(function (it) { return it.word === r; });
+        return '<span class="ono-related-tag' + (found ? '' : ' disabled') + '" data-word="' + r + '">' + r + '</span>';
       }).join('');
+
+      relatedEl.querySelectorAll('.ono-related-tag:not(.disabled)').forEach(function (tag) {
+        tag.style.cursor = 'pointer';
+        tag.addEventListener('click', function () {
+          var targetWord = this.getAttribute('data-word');
+          var targetIndex = section.filteredItems.findIndex(function (it) { return it.word === targetWord; });
+          if (targetIndex !== -1) {
+            section.openDetail(targetIndex);
+          } else {
+            section.resetFilterGroup('category');
+            section.filters.pattern = 'all';
+            var patSelect = document.getElementById('ono-pattern-select');
+            if (patSelect) patSelect.value = 'all';
+            section.dom.search.value = '';
+            section.applyFilters();
+            var newIndex = section.filteredItems.findIndex(function (it) { return it.word === targetWord; });
+            if (newIndex !== -1) section.openDetail(newIndex);
+          }
+        });
+      });
+
       relatedSection.classList.remove('hidden');
     } else {
       relatedSection.classList.add('hidden');
@@ -803,13 +943,22 @@ SECTION_CONFIGS['measurewords'] = {
   },
   createCard: function (item, index, section) {
     var catClass = 'cc-' + (item.category || '').toLowerCase();
+    var previewHtml = '';
+    if (item.table && item.table.length > 0) {
+      var previews = item.table.slice(0, 5).map(function (row) {
+        return '<span class="counter-card-preview-item">' + row.chinese + '</span>';
+      });
+      previewHtml = '<div class="counter-card-preview">' + previews.join('') + '</div>';
+    }
+
     return createBaseCard('counter-card',
       '<div class="counter-card-top">' +
         '<span class="counter-char">' + item.classifier + '</span>' +
         '<span class="counter-category-badge ' + catClass + '">' + (item.category || '') + '</span>' +
       '</div>' +
       '<div class="counter-reading">' + (item.pinyin || '') + '</div>' +
-      '<div class="counter-meaning">' + (item.meaning || '') + '</div>',
+      '<div class="counter-meaning">' + (item.meaning || '') + '</div>' +
+      previewHtml,
       index, section, item.classifier);
   },
   openDetail: function (item, dom) {
@@ -910,6 +1059,8 @@ SECTION_CONFIGS['radicals'] = {
     if (item.radical.indexOf(query) !== -1) return true;
     if (item.meaning && item.meaning.toLowerCase().indexOf(query) !== -1) return true;
     if (item.pinyin && item.pinyin.toLowerCase().indexOf(query) !== -1) return true;
+    if (item.number && ('' + item.number).indexOf(query) !== -1) return true;
+    if (item.explanation && item.explanation.toLowerCase().indexOf(query) !== -1) return true;
     return false;
   },
   sortFn: function (items) {
@@ -969,3 +1120,52 @@ SECTION_CONFIGS['radicals'] = {
     }
   }
 };
+
+// ==========================================
+// === SELECT-BASED FILTERS ===
+// ==========================================
+function initSelectFilters() {
+  // Set default filter values for select-based filters
+  if (window.app && window.app.sections.vocab) {
+    window.app.sections.vocab.filters.type = 'all';
+    window.app.sections.vocab.filters.tone = 'all';
+  }
+  if (window.app && window.app.sections.grammar) {
+    window.app.sections.grammar.filters.category = 'all';
+  }
+  if (window.app && window.app.sections.onomatopoeia) {
+    window.app.sections.onomatopoeia.filters.pattern = 'all';
+  }
+
+  var vocabType = document.getElementById('vocab-type-select');
+  if (vocabType) vocabType.addEventListener('change', function () {
+    if (window.app && window.app.sections.vocab) {
+      window.app.sections.vocab.filters.type = this.value;
+      window.app.sections.vocab.applyFilters();
+    }
+  });
+
+  var vocabTone = document.getElementById('vocab-tone-select');
+  if (vocabTone) vocabTone.addEventListener('change', function () {
+    if (window.app && window.app.sections.vocab) {
+      window.app.sections.vocab.filters.tone = this.value;
+      window.app.sections.vocab.applyFilters();
+    }
+  });
+
+  var grammarCat = document.getElementById('grammar-cat-select');
+  if (grammarCat) grammarCat.addEventListener('change', function () {
+    if (window.app && window.app.sections.grammar) {
+      window.app.sections.grammar.filters.category = this.value;
+      window.app.sections.grammar.applyFilters();
+    }
+  });
+
+  var onoPattern = document.getElementById('ono-pattern-select');
+  if (onoPattern) onoPattern.addEventListener('change', function () {
+    if (window.app && window.app.sections.onomatopoeia) {
+      window.app.sections.onomatopoeia.filters.pattern = this.value;
+      window.app.sections.onomatopoeia.applyFilters();
+    }
+  });
+}

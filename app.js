@@ -370,6 +370,7 @@
     if (!helpOverlay) return;
     var isHidden = helpOverlay.classList.contains('hidden');
     helpOverlay.classList.toggle('hidden', !isHidden);
+    document.body.style.overflow = isHidden ? 'hidden' : '';
     if (isHidden) playPop();
   }
 
@@ -774,12 +775,10 @@
   try { renderPinyinTab(); } catch (e) { console.error('renderPinyinTab error:', e); }
   try { renderTonesTab(); } catch (e) { console.error('renderTonesTab error:', e); }
   if (typeof initBookmarkToggles === 'function') initBookmarkToggles();
+  if (typeof initSelectFilters === 'function') initSelectFilters();
   switchTab('tones');
-  // Fallback: ensure tones content renders even if initial attempt failed
+  // Retry: some browsers may not have tones-content ready on first pass
   setTimeout(function () {
     renderTonesTab();
-    if (app.activeTab === 'tones') {
-      document.getElementById('tones-tab').classList.remove('hidden');
-    }
   }, 50);
 })();
