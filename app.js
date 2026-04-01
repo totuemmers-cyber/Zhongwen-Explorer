@@ -217,8 +217,11 @@
       app.sections.vocab.setItems(allVocab);
     }
 
-    // Onomatopoeia
+    // Onomatopoeia — normalize 'category' → 'type' (extra files use wrong key)
     if (window.ONOMATOPOEIA_DATA) {
+      window.ONOMATOPOEIA_DATA.forEach(function (item) {
+        if (item.category && !item.type) { item.type = item.category; delete item.category; }
+      });
       app.sections.onomatopoeia.setItems(window.ONOMATOPOEIA_DATA);
     }
 
