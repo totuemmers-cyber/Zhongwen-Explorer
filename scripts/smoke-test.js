@@ -43,21 +43,27 @@ async function run() {
   });
   const w = dom.window, d = w.document;
   try {
-    await until(() => w.app && w.app.sections && w.app.sections.vocab && w.app.sections.vocab.allItems.length, 'app ready');
+    await until(() => w.app && w.app.workspace && w.history.state && w.history.state.workspace, 'workspace ready');
     const app = w.app;
     const fail = () => errors.length ? errors.map(e => (e && e.stack) || String(e)).join('\n') : '';
+    assert(!app.sections.vocab.isLoaded, 'Vocabulary must load lazily, not at startup');
+    assert(d.querySelector('#tones-content .tone-card'), 'Tones tab did not render at startup');
 
-    // Every tab activates without errors.
+    // Every tab activates (and loads its data) without errors.
     for (const button of d.querySelectorAll('.tab-btn')) {
       button.click();
+      const name = button.dataset.tab;
+      if (app.sections[name] || name === 'quiz') await app.ensureSectionLoaded(name);
       await delay(5);
-      assert.strictEqual(fail(), '', 'Errors after opening tab ' + button.dataset.tab);
+      assert.strictEqual(fail(), '', 'Errors after opening tab ' + name);
+      assert.strictEqual(d.getElementById('page-title').textContent.length > 0, true);
     }
 
     // Every list section has data and opens its first detail view.
     for (const name of ['hanzi', 'grammar', 'vocab', 'onomatopoeia', 'measurewords', 'radicals']) {
       const section = app.sections[name];
       app.switchTab(name);
+      await app.ensureSectionLoaded(name);
       assert(section.allItems.length > 0, name + ' has no items');
       section.openDetail(0);
       assert(section.isOverlayOpen(), name + ' detail did not open');
@@ -113,7 +119,26 @@ async function run() {
     assert(helpIndex !== -1);
     vocab.openDetail(helpIndex);
     assert.strictEqual(d.querySelectorAll('#vocab-detail-pinyin span[class^="tone-"]').length, 2, '帮助 should colour two syllables');
+    // Hanzi data loads with vocabulary, so contained characters are linked.
+    assert(!d.getElementById('vocab-detail-hanzi-section').classList.contains('hidden'), 'Contained hanzi missing');
+    assert(d.getElementById('vocab-detail-hanzi-links').textContent.includes('帮'), '帮 link missing');
     vocab.closeDetail();
+
+    // Radical details list the hanzi that use them; hanzi components open their radical.
+    const radicals = app.sections.radicals;
+    app.switchTab('radicals');
+    await app.ensureSectionLoaded('radicals');
+    radicals.openDetail(radicals.filteredItems.findIndex(r => r.radical === '口'));
+    assert(d.getElementById('radical-detail-hanzi-list').children.length > 10, 'Radical 口 lists too few hanzi');
+    radicals.closeDetail();
+    const hanziSection = app.sections.hanzi;
+    app.switchTab('hanzi');
+    hanziSection.openDetail(hanziSection.filteredItems.findIndex(h => h.hanzi === '好'));
+    const radicalLink = d.querySelector('#detail-components .component-tag.clickable');
+    assert(radicalLink, 'Hanzi component is not linked to its radical');
+    radicalLink.click();
+    await until(() => app.activeTab === 'radicals' && radicals.isOverlayOpen(), 'component opens radical');
+    radicals.closeDetail();
     // No vocabulary card is empty.
     assert(!vocab.allItems.some(item => !item.word), 'Vocabulary entry without word');
     // Former word|pinyin bookmarks now point at the consolidated entries.
@@ -124,6 +149,9 @@ async function run() {
     assert.strictEqual(fail(), '');
     console.log('Smoke test passed: all tabs, every section detail, related entries, examples, measure-word tables, pinyin search, tone colouring.');
   } finally {
+    // Let in-flight section loads settle so their callbacks do not run against a closed window.
+    await Promise.all(Object.values(w.app ? w.app.sections : {}).map(s => s._loadPromise).filter(Boolean)).catch(() => {});
+    await delay(50);
     w.close();
   }
 }

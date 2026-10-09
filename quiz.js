@@ -934,9 +934,27 @@
     if (!testState.active) showHomeScreen();
   }
 
+  // Leaving an active mock exam (tab switch, history navigation) needs confirmation.
+  function requestExit() {
+    if (!testState.active) return true;
+    if (!confirm('Aktives Training beenden? Dein bisheriges Ergebnis wird verworfen.')) return false;
+    stopTimer();
+    testState.active = false;
+    showHomeScreen();
+    return true;
+  }
+
+  window.addEventListener('beforeunload', function (event) {
+    if (!testState.active) return;
+    event.preventDefault();
+    event.returnValue = '';
+  });
+  window.addEventListener('pagehide', stopTimer);
+
   window.QuizModule = {
     onTabActivate: onTabActivate,
     handleKey: handleQuizKey,
+    requestExit: requestExit,
     isTestActive: function () { return testState.active; }
   };
 })();

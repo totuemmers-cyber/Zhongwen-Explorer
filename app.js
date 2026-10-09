@@ -1,9 +1,13 @@
 (function () {
   'use strict';
 
-  // === APP OBJECT ===
+  // Shell ported from Nihongo Explorer; language specifics come from lang-profile.js.
+  var profile = window.LANG_PROFILE;
+  var store = window.APP_STORAGE;
+
+  // === APP OBJECT (shared across sections) ===
   var app = window.app = {
-    activeTab: 'tones',
+    activeTab: profile.defaultTab,
     activeRadical: null,
     sections: {},
     playTick: playTick,
@@ -14,16 +18,20 @@
     setRadicalFilter: setRadicalFilter,
     clearRadicalFilter: clearRadicalFilter,
     openRadicalInTab: openRadicalInTab,
+    ensureSectionLoaded: ensureSectionLoaded,
+    ensureGrammarLessonsLoaded: ensureGrammarLessonsLoaded,
     renderBasicNumbers: renderBasicNumbers,
     speakCN: speakCN
   };
 
-  // === SOUND ENGINE ===
-  var soundEnabled = window.APP_STORAGE.local.get('zhongwen-sound', 'on') !== 'off';
+  // === SOUND ENGINE (Web Audio API) ===
+  var soundEnabled = store.local.get(profile.storagePrefix + 'sound', 'off') === 'on';
   var audioCtx = null;
 
   function getAudioCtx() {
-    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (!audioCtx) {
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
     return audioCtx;
   }
 
@@ -96,12 +104,117 @@
   var soundToggle = document.getElementById('sound-toggle');
   var radicalFilter = document.getElementById('radical-filter');
   var radicalFilterName = document.getElementById('radical-filter-name');
-  var loadingEl = document.getElementById('loading');
+  var loadingEls = {
+    hanzi: document.getElementById('hanzi-loading'),
+    grammar: document.getElementById('grammar-loading'),
+    vocab: document.getElementById('vocab-loading'),
+    onomatopoeia: document.getElementById('ono-loading'),
+    measurewords: document.getElementById('mw-loading'),
+    radicals: document.getElementById('radicals-loading'),
+    quiz: document.getElementById('quiz-loading')
+  };
+  var sectionErrorState = {};
+  var scriptState = { loaded: {}, pending: {} };
+  var quizDataLoaded = false;
+  var quizDataPromise = null;
+  var grammarLessonsPromise = null;
+  var speechVoice = null;
+  var speechInitStarted = false;
+  var speechTimer = null;
+  var speechRequestId = 0;
 
-  var pinyinTab = document.getElementById('pinyin-tab');
+  // Keep saved bookmarks when entries were consolidated into one surviving entry.
+  function migrateLegacyBookmarks(sectionName, items) {
+    var bookmarks = getBookmarks(sectionName);
+    var original = JSON.stringify(bookmarks);
+    items.forEach(function (item) {
+      (item.legacyIds || []).forEach(function (oldId) {
+        if (oldId === item.id || bookmarks.indexOf(oldId) === -1) return;
+        bookmarks = bookmarks.filter(function (id) { return id !== oldId; });
+        if (bookmarks.indexOf(item.id) === -1) bookmarks.push(item.id);
+      });
+    });
+    if (JSON.stringify(bookmarks) !== original) {
+      store.local.setJSON(profile.storagePrefix + 'bookmarks-' + sectionName, bookmarks);
+    }
+  }
+
+  var DATA = profile.dataScripts;
+
+  // Each tab loads its data on first use. dependsOn sections load first (hanzi links in
+  // vocabulary and radical details need the character data).
+  var sectionLoaders = {
+    hanzi: {
+      scripts: DATA.radicals.concat(DATA.hanzi),
+      message: 'Lade Hanzi-Daten...',
+      hydrate: function () {
+        if (window.resetSectionLookups) window.resetSectionLookups();
+        app.sections.hanzi.setItems(window.HANZI_DATA || []);
+        if (!app.sections.radicals.isLoaded && window.KANGXI_RADICALS) {
+          app.sections.radicals.setItems(window.KANGXI_RADICALS);
+        }
+      }
+    },
+    grammar: {
+      scripts: DATA.grammar,
+      message: 'Lade Grammatik-Daten...',
+      hydrate: function () {
+        var items = window.GRAMMAR_DATA || [];
+        migrateLegacyBookmarks('grammar', items);
+        app.sections.grammar.setItems(items);
+      }
+    },
+    vocab: {
+      dependsOn: ['hanzi'],
+      scripts: DATA.vocab,
+      message: 'Lade Vokabel-Daten...',
+      hydrate: function () {
+        var items = [];
+        profile.levels.forEach(function (level) {
+          items = items.concat(window['VOCAB_' + level.replace('-', '_')] || []);
+        });
+        items = items.concat(window.CHENGYU_DATA || [], window.REDEWENDUNGEN_DATA || []);
+        migrateLegacyBookmarks('vocab', items);
+        app.sections.vocab.setItems(items);
+      }
+    },
+    onomatopoeia: {
+      scripts: DATA.onomatopoeia,
+      message: 'Lade Lautmalerei-Daten...',
+      hydrate: function () {
+        var items = window.ONOMATOPOEIA_DATA || [];
+        // The extra files used category instead of type.
+        items.forEach(function (item) {
+          if (item.category && !item.type) { item.type = item.category; delete item.category; }
+        });
+        app.sections.onomatopoeia.setItems(items);
+      }
+    },
+    measurewords: {
+      scripts: DATA.measurewords,
+      message: 'Lade Zählwort-Daten...',
+      hydrate: function () {
+        var data = window.MEASURE_WORDS_DATA;
+        app.sections.measurewords.setItems(data && data.measureWords ? data.measureWords : []);
+      }
+    },
+    radicals: {
+      dependsOn: ['hanzi'],
+      scripts: DATA.radicals,
+      message: 'Lade Radikal-Daten...',
+      hydrate: function () {
+        if (window.resetSectionLookups) window.resetSectionLookups();
+        if (!app.sections.radicals.isLoaded) app.sections.radicals.setItems(window.KANGXI_RADICALS || []);
+      }
+    }
+  };
+
+  // Tab panels and controls that are not section-managed
   var tonesTab = document.getElementById('tones-tab');
+  var pinyinTab = document.getElementById('pinyin-tab');
   var quizTab = document.getElementById('quiz-tab');
 
+  // Section names that have controls + tab panels
   var sectionNames = ['hanzi', 'grammar', 'vocab', 'onomatopoeia', 'measurewords', 'radicals'];
 
   // === INSTANTIATE SECTIONS ===
@@ -109,8 +222,211 @@
     app.sections[name] = new Section(SECTION_CONFIGS[name]);
   });
 
+  function getSectionHost(name) {
+    if (name === 'quiz') return quizTab;
+    return tabPanels[name] || null;
+  }
+
+  function getSectionErrorEl(name) {
+    var host = getSectionHost(name);
+    if (!host) return null;
+
+    var existing = host.querySelector('.section-error');
+    if (existing) return existing;
+
+    var errorEl = document.createElement('div');
+    errorEl.className = 'section-error hidden';
+    errorEl.setAttribute('role', 'alert');
+
+    var textEl = document.createElement('div');
+    textEl.className = 'section-error-text';
+    errorEl.appendChild(textEl);
+
+    var retryBtn = document.createElement('button');
+    retryBtn.className = 'btn btn-pill section-error-retry';
+    retryBtn.type = 'button';
+    retryBtn.textContent = 'Erneut versuchen';
+    errorEl.appendChild(retryBtn);
+
+    host.insertBefore(errorEl, host.firstChild);
+    return errorEl;
+  }
+
+  function clearSectionError(name) {
+    sectionErrorState[name] = null;
+    var errorEl = getSectionErrorEl(name);
+    if (!errorEl) return;
+    errorEl.classList.add('hidden');
+    var retryBtn = errorEl.querySelector('.section-error-retry');
+    if (retryBtn) retryBtn.onclick = null;
+  }
+
+  function showSectionError(name, message, retryFn) {
+    sectionErrorState[name] = { message: message, retry: retryFn };
+    var errorEl = getSectionErrorEl(name);
+    if (!errorEl) return;
+
+    var textEl = errorEl.querySelector('.section-error-text');
+    if (textEl) textEl.textContent = message;
+
+    var retryBtn = errorEl.querySelector('.section-error-retry');
+    if (retryBtn) {
+      retryBtn.onclick = function () {
+        clearSectionError(name);
+        retryFn();
+      };
+    }
+
+    errorEl.classList.remove('hidden');
+  }
+
+  function shouldBlockScriptLoad(src) {
+    var blocklist = window.__APP_TEST_BLOCK_SCRIPTS;
+    return Array.isArray(blocklist) && blocklist.indexOf(src) !== -1;
+  }
+
+  function setLoadingVisible(name, visible, message) {
+    var loadingEl = loadingEls[name];
+    if (!loadingEl) return;
+    loadingEl.setAttribute('role', 'status');
+    if (app.sections[name]) app.sections[name].dom.grid.setAttribute('aria-busy', String(visible));
+    if (message) {
+      var label = loadingEl.querySelector('span');
+      if (label) label.textContent = message;
+    }
+    loadingEl.classList.toggle('hidden', !visible);
+  }
+
+  function loadScript(src) {
+    if (scriptState.loaded[src]) {
+      return Promise.resolve();
+    }
+    if (scriptState.pending[src]) {
+      return scriptState.pending[src];
+    }
+    if (shouldBlockScriptLoad(src)) {
+      return Promise.reject(new Error('Script wurde absichtlich blockiert: ' + src));
+    }
+
+    scriptState.pending[src] = new Promise(function (resolve, reject) {
+      var script = document.createElement('script');
+      script.src = src;
+      script.async = false;
+      script.onload = function () {
+        scriptState.loaded[src] = true;
+        delete scriptState.pending[src];
+        resolve();
+      };
+      script.onerror = function () {
+        delete scriptState.pending[src];
+        reject(new Error('Script konnte nicht geladen werden: ' + src));
+      };
+      document.body.appendChild(script);
+    });
+
+    return scriptState.pending[src];
+  }
+
+  function loadScripts(sources) {
+    // async=false scripts download in parallel but still run in insertion order.
+    return Promise.all(sources.map(loadScript));
+  }
+
+  function ensureSectionLoaded(name) {
+    if (name === 'quiz') return ensureQuizDataLoaded();
+
+    var section = app.sections[name];
+    var loader = sectionLoaders[name];
+    if (!section || !loader) return Promise.resolve();
+    if (section.isLoaded) return Promise.resolve();
+    if (section._loadPromise) return section._loadPromise;
+
+    clearSectionError(name);
+    section.isLoading = true;
+    setLoadingVisible(name, true, loader.message);
+
+    section._loadPromise = Promise.all((loader.dependsOn || []).map(ensureSectionLoaded))
+      .then(function () {
+        return loadScripts(loader.scripts);
+      })
+      .then(function () {
+        loader.hydrate();
+        clearSectionError(name);
+      })
+      .catch(function (err) {
+        section._loadPromise = null;
+        console.error(err);
+        showSectionError(name, loader.message.replace('Lade', 'Fehler beim Laden von').replace('...', '.') + ' Bitte erneut versuchen.', function () {
+          ensureSectionLoaded(name).then(function () {
+            if (app.activeTab === name && app.sections[name] && app.sections[name].config.onTabActivate) {
+              app.sections[name].config.onTabActivate(app.sections[name]);
+            }
+          }).catch(function () {});
+        });
+        throw err;
+      })
+      .finally(function () {
+        section.isLoading = false;
+        setLoadingVisible(name, false);
+      });
+
+    return section._loadPromise;
+  }
+
+  function ensureQuizDataLoaded() {
+    if (quizDataLoaded) return Promise.resolve();
+    if (quizDataPromise) return quizDataPromise;
+
+    setLoadingVisible('quiz', true, 'Lade Quiz-Daten...');
+    quizDataPromise = Promise.all([
+      ensureSectionLoaded('hanzi'),
+      ensureSectionLoaded('grammar'),
+      ensureSectionLoaded('vocab'),
+      ensureSectionLoaded('measurewords')
+    ]).then(function () {
+      quizDataLoaded = true;
+    }).catch(function (err) {
+      quizDataPromise = null;
+      throw err;
+    }).finally(function () {
+      setLoadingVisible('quiz', false);
+    });
+
+    return quizDataPromise;
+  }
+
+  function ensureGrammarLessonsLoaded() {
+    if (window.__grammarLessonsInitialized) {
+      return Promise.resolve();
+    }
+    if (grammarLessonsPromise) {
+      return grammarLessonsPromise;
+    }
+
+    clearSectionError('grammar');
+    setLoadingVisible('grammar', true, 'Lade Grammatik-Lektionen...');
+    grammarLessonsPromise = loadScript('grammar-lessons.js')
+      .then(function () {
+        clearSectionError('grammar');
+      })
+      .catch(function (err) {
+        grammarLessonsPromise = null;
+        console.error(err);
+        showSectionError('grammar', 'Grammatik-Lektionen konnten nicht geladen werden. Bitte erneut versuchen.', function () {
+          ensureGrammarLessonsLoaded().catch(function () {});
+        });
+        throw err;
+      })
+      .finally(function () {
+        setLoadingVisible('grammar', false);
+      });
+
+    return grammarLessonsPromise;
+  }
+
   // === TAB SYSTEM ===
   function switchTab(tab) {
+    if (app.workspace && !app.workspace.beforeSwitch(tab)) return false;
     app.activeTab = tab;
     playSwoosh();
 
@@ -118,29 +434,59 @@
       btn.classList.toggle('active', btn.getAttribute('data-tab') === tab);
     });
 
+    // Toggle controls and tab panels for sections
     sectionNames.forEach(function (name) {
       var sec = app.sections[name];
       if (sec.dom.controls) sec.dom.controls.classList.toggle('hidden', tab !== name);
       if (tabPanels[name]) tabPanels[name].classList.toggle('hidden', tab !== name);
     });
 
-    pinyinTab.classList.toggle('hidden', tab !== 'pinyin');
+    // Tones, pinyin and quiz tabs (no Section instance)
     tonesTab.classList.toggle('hidden', tab !== 'tones');
+    pinyinTab.classList.toggle('hidden', tab !== 'pinyin');
     if (quizTab) quizTab.classList.toggle('hidden', tab !== 'quiz');
 
+    if (app.workspace) app.workspace.afterSwitch(tab);
+
+    // Tab activate hooks
+    if (tab === 'tones') {
+      renderTonesTab();
+      updateCount();
+      return;
+    }
     if (tab === 'pinyin') {
       renderPinyinTab();
-    } else if (tab === 'tones') {
-      renderTonesTab();
-    } else if (tab === 'quiz') {
-      if (window.QuizModule) window.QuizModule.onTabActivate();
-    } else if (app.sections[tab] && app.sections[tab].config.onTabActivate) {
-      app.sections[tab].config.onTabActivate(app.sections[tab]);
+      updateCount();
+      return;
     }
 
+    if (tab === 'quiz') {
+      ensureQuizDataLoaded().then(function () {
+        if (app.activeTab !== 'quiz') return;
+        if (window.QuizModule) window.QuizModule.onTabActivate();
+        updateCount();
+      }).catch(function () {
+        updateCount();
+      });
+      updateCount();
+      return;
+    }
+
+    if (app.sections[tab]) {
+      ensureSectionLoaded(tab).then(function () {
+        if (app.activeTab !== tab) return;
+        if (app.sections[tab].config.onTabActivate) {
+          app.sections[tab].config.onTabActivate(app.sections[tab]);
+        }
+        updateCount();
+      }).catch(function () {
+        updateCount();
+      });
+    }
     updateCount();
   }
 
+  // Cache static DOM collections
   var tabBtns = document.querySelectorAll('.tab-btn');
   var tabPanels = {};
   sectionNames.forEach(function (name) {
@@ -156,90 +502,21 @@
   // === COUNT UPDATE ===
   function updateCount() {
     var tab = app.activeTab;
-    if (tab === 'pinyin') {
-      itemCountEl.textContent = 'Pinyin';
-    } else if (tab === 'tones') {
-      itemCountEl.textContent = 'Töne';
+    randomBtn.hidden = !app.sections[tab] || (app.workspace && app.workspace.isReadingView());
+    if (app.workspace && app.workspace.updateSpecialCount()) return;
+    if (tab === 'tones') {
+      itemCountEl.textContent = '4 Töne + neutraler Ton';
+    } else if (tab === 'pinyin') {
+      itemCountEl.textContent = 'Anlaute, Auslaute & Silbentabelle';
     } else if (tab === 'quiz') {
-      itemCountEl.textContent = 'Quiz';
+      itemCountEl.textContent = quizDataLoaded ? 'Quiz' : 'Lädt…';
     } else if (app.sections[tab]) {
       var sec = app.sections[tab];
-      itemCountEl.textContent = sec.filteredItems.length + sec.config.countLabel;
+      itemCountEl.textContent = sec.isLoaded ? (sec.filteredItems.length + sec.config.countLabel) : (sec.isLoading ? 'Lädt…' : 'Noch nicht geladen');
     }
   }
 
-  // Keep saved bookmarks when entries were consolidated into one surviving entry.
-  function migrateLegacyBookmarks(sectionName, items) {
-    var bookmarks = getBookmarks(sectionName);
-    var original = JSON.stringify(bookmarks);
-    items.forEach(function (item) {
-      (item.legacyIds || []).forEach(function (oldId) {
-        if (oldId === item.id || bookmarks.indexOf(oldId) === -1) return;
-        bookmarks = bookmarks.filter(function (id) { return id !== oldId; });
-        if (bookmarks.indexOf(item.id) === -1) bookmarks.push(item.id);
-      });
-    });
-    if (JSON.stringify(bookmarks) !== original) {
-      window.APP_STORAGE.local.setJSON(window.LANG_PROFILE.storagePrefix + 'bookmarks-' + sectionName, bookmarks);
-    }
-  }
-
-  // === LOAD DATA ===
-  function loadData() {
-    // Hanzi
-    if (window.HANZI_DATA) {
-      loadingEl.classList.add('hidden');
-      app.sections.hanzi.setItems(window.HANZI_DATA);
-    } else {
-      loadingEl.classList.add('hidden');
-    }
-
-    // Grammar: consolidated sources (scripts/consolidate-grammar.cjs), one entry per pattern.
-    if (window.GRAMMAR_DATA) {
-      migrateLegacyBookmarks('grammar', window.GRAMMAR_DATA);
-      app.sections.grammar.setItems(window.GRAMMAR_DATA);
-    }
-
-    // Vocab: consolidated sources (scripts/consolidate-vocab.cjs), one entry per word and reading.
-    var vocabSources = [
-      window.VOCAB_HSK1 || [],
-      window.VOCAB_HSK2 || [],
-      window.VOCAB_HSK3 || [],
-      window.VOCAB_HSK4 || [],
-      window.VOCAB_HSK5 || [],
-      window.VOCAB_HSK6 || [],
-      window.VOCAB_HSK7_9 || []
-    ];
-    var allVocab = [].concat.apply([], vocabSources)
-      .concat(window.CHENGYU_DATA || [])
-      .concat(window.REDEWENDUNGEN_DATA || []);
-    if (allVocab.length > 0) {
-      migrateLegacyBookmarks('vocab', allVocab);
-      app.sections.vocab.setItems(allVocab);
-    }
-
-    // Onomatopoeia — normalize 'category' → 'type' (extra files use wrong key)
-    if (window.ONOMATOPOEIA_DATA) {
-      window.ONOMATOPOEIA_DATA.forEach(function (item) {
-        if (item.category && !item.type) { item.type = item.category; delete item.category; }
-      });
-      app.sections.onomatopoeia.setItems(window.ONOMATOPOEIA_DATA);
-    }
-
-    // Measure Words
-    if (window.MEASURE_WORDS_DATA && window.MEASURE_WORDS_DATA.measureWords) {
-      app.sections.measurewords.setItems(window.MEASURE_WORDS_DATA.measureWords);
-    }
-
-    // Radicals
-    if (window.KANGXI_RADICALS) {
-      app.sections.radicals.setItems(window.KANGXI_RADICALS);
-    }
-
-    updateCount();
-  }
-
-  // === RADICAL FILTER ===
+  // === RADICAL FILTER (hanzi-specific, managed in app) ===
   function setRadicalFilter(radical, meaning) {
     app.activeRadical = radical;
     radicalFilterName.textContent = radical + ' (' + meaning + ')';
@@ -255,21 +532,12 @@
 
   document.getElementById('clear-radical-filter').addEventListener('click', clearRadicalFilter);
 
+  // === OPEN RADICAL IN TAB (cross-section) ===
   function openRadicalInTab(radicalChar) {
-    switchTab('radicals');
-    var radSec = app.sections.radicals;
-    radSec.resetFilterGroup('strokes');
-    radSec.dom.search.value = '';
-    radSec.applyFilters();
-    for (var i = 0; i < radSec.filteredItems.length; i++) {
-      if (radSec.filteredItems[i].radical === radicalChar) {
-        radSec.openDetail(i);
-        break;
-      }
-    }
+    if (app.workspace) app.workspace.openRelated('radicals', function (r) { return r.radical === radicalChar; });
   }
 
-  // === BASIC NUMBERS ===
+  // === BASIC NUMBERS (measure words section) ===
   function renderBasicNumbers() {
     var container = document.getElementById('mw-numbers-section');
     if (!container || container.children.length > 0) return;
@@ -279,9 +547,11 @@
     var section = document.createElement('div');
     section.className = 'counters-numbers-section';
 
-    var header = document.createElement('div');
+    var header = document.createElement('button');
+    header.type = 'button';
+    header.setAttribute('aria-expanded', 'true');
     header.className = 'counters-numbers-header';
-    header.innerHTML = '<span class="tab-icon-kana" style="font-family:var(--font-jp)">\u6570</span> Grundzahlen' +
+    header.innerHTML = '<span class="tab-icon-kana" lang="zh-CN">数</span> Grundzahlen' +
       '<svg class="toggle-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
 
     var body = document.createElement('div');
@@ -289,6 +559,9 @@
 
     var wrapper = document.createElement('div');
     wrapper.className = 'numbers-table-wrapper';
+    wrapper.tabIndex = 0;
+    wrapper.setAttribute('role', 'region');
+    wrapper.setAttribute('aria-label', 'Grundzahlen, horizontal scrollbar');
 
     var table = document.createElement('table');
     table.className = 'numbers-table';
@@ -299,9 +572,9 @@
       var tr = document.createElement('tr');
       tr.innerHTML =
         '<td><strong>' + n.number + '</strong></td>' +
-        '<td class="num-kanji">' + n.hanzi + '</td>' +
+        '<td class="num-kanji" lang="zh-CN">' + n.hanzi + '</td>' +
         '<td class="num-romaji">' + n.pinyin + '</td>' +
-        '<td class="num-notes">' + (n.notes || '\u2014') + '</td>';
+        '<td class="num-notes">' + (n.notes || '—') + '</td>';
       tbody.appendChild(tr);
     });
     table.appendChild(tbody);
@@ -312,6 +585,7 @@
       playTick();
       var icon = header.querySelector('.toggle-icon');
       body.classList.toggle('collapsed');
+      header.setAttribute('aria-expanded', !body.classList.contains('collapsed'));
       icon.classList.toggle('collapsed');
     });
 
@@ -322,7 +596,7 @@
 
   // === THEME ===
   function initTheme() {
-    var saved = window.APP_STORAGE.local.get('zhongwen-theme', null);
+    var saved = store.local.get(profile.storagePrefix + 'theme', null);
     if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
       document.documentElement.setAttribute('data-theme', 'dark');
     }
@@ -332,10 +606,10 @@
     var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
     if (isDark) {
       document.documentElement.removeAttribute('data-theme');
-      window.APP_STORAGE.local.set('zhongwen-theme', 'light');
+      store.local.set(profile.storagePrefix + 'theme', 'light');
     } else {
       document.documentElement.setAttribute('data-theme', 'dark');
-      window.APP_STORAGE.local.set('zhongwen-theme', 'dark');
+      store.local.set(profile.storagePrefix + 'theme', 'dark');
     }
   }
 
@@ -349,115 +623,181 @@
     soundToggle.classList.toggle('active', soundEnabled);
     soundToggle.addEventListener('click', function () {
       soundEnabled = !soundEnabled;
-      window.APP_STORAGE.local.set('zhongwen-sound', soundEnabled ? 'on' : 'off');
+      store.local.set(profile.storagePrefix + 'sound', soundEnabled ? 'on' : 'off');
       soundToggle.classList.toggle('active', soundEnabled);
       if (soundEnabled) playPop();
     });
   }
 
-  // === RANDOM BUTTON ===
+  // === RANDOM BUTTON (data-driven) ===
   randomBtn.addEventListener('click', function () {
     playPop();
     var tab = app.activeTab;
     if (app.sections[tab]) {
       var sec = app.sections[tab];
-      if (sec.filteredItems.length === 0) return;
-      var idx = Math.floor(Math.random() * sec.filteredItems.length);
-      sec.openDetail(idx);
+      ensureSectionLoaded(tab).then(function () {
+        if (app.activeTab !== tab) return;
+        if (sec.filteredItems.length === 0) return;
+        var idx = Math.floor(Math.random() * sec.filteredItems.length);
+        sec.openDetail(idx);
+      }).catch(function () {});
     }
   });
 
-  // === HELP OVERLAY ===
-  var helpOverlay = document.getElementById('help-overlay');
-
-  function toggleHelpOverlay() {
-    if (!helpOverlay) return;
-    var isHidden = helpOverlay.classList.contains('hidden');
-    helpOverlay.classList.toggle('hidden', !isHidden);
-    document.body.style.overflow = isHidden ? 'hidden' : '';
-    if (isHidden) playPop();
-  }
-
-  if (helpOverlay) {
-    helpOverlay.addEventListener('click', function (e) {
-      if (e.target === helpOverlay) toggleHelpOverlay();
-    });
-    var helpClose = helpOverlay.querySelector('.btn-close');
-    if (helpClose) helpClose.addEventListener('click', toggleHelpOverlay);
-  }
-
-  // === KEYBOARD NAVIGATION ===
-  var tabKeys = ['tones', 'pinyin', 'radicals', 'hanzi', 'vocab', 'onomatopoeia', 'grammar', 'measurewords', 'quiz'];
-
+  // === KEYBOARD NAVIGATION (data-driven) ===
   document.addEventListener('keydown', function (e) {
-    // Help overlay open? Close on Escape
-    if (helpOverlay && !helpOverlay.classList.contains('hidden')) {
-      if (e.key === 'Escape') toggleHelpOverlay();
-      return;
+    if (e.defaultPrevented || e.isComposing || e.keyCode === 229 || e.ctrlKey || e.altKey || e.metaKey) return;
+    var focused = document.activeElement;
+    if (focused && (focused.matches('input, select, textarea') || focused.isContentEditable)) {
+      if (e.key !== 'Escape') return;
     }
-
+    // Quiz keyboard handling
     if (window.QuizModule && window.QuizModule.handleKey(e)) return;
 
-    // Overlay navigation
+    // Check if any overlay is open
     for (var i = 0; i < sectionNames.length; i++) {
       var sec = app.sections[sectionNames[i]];
       if (sec.isOverlayOpen()) {
         if (e.key === 'Escape') sec.closeDetail();
-        if (e.key === 'ArrowLeft') sec.navigateDetail(-1);
-        if (e.key === 'ArrowRight') sec.navigateDetail(1);
-        return;
+        if (e.key === 'ArrowLeft' && !focused.matches('button, a, input, select, textarea')) sec.navigateDetail(-1);
+        if (e.key === 'ArrowRight' && !focused.matches('button, a, input, select, textarea')) sec.navigateDetail(1);
+        // A modal detail keeps the keyboard; the wide-screen side pane leaves the global shortcuts active.
+        if (e.key === 'Escape' || e.key === 'ArrowLeft' || e.key === 'ArrowRight' || !sec.dom.overlay.classList.contains('as-pane')) return;
+        break;
       }
     }
 
-    // Skip shortcuts when typing in inputs
-    var tag = document.activeElement && document.activeElement.tagName;
-    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') {
-      if (e.key === 'Escape') document.activeElement.blur();
+    var helpOverlay = document.getElementById('help-overlay');
+    if (helpOverlay && !helpOverlay.classList.contains('hidden')) {
+      if (e.key === 'Escape' || e.key === '?') {
+        e.preventDefault();
+        toggleHelpOverlay();
+      }
       return;
     }
 
-    // Help overlay
-    if (e.key === '?') { e.preventDefault(); toggleHelpOverlay(); return; }
+    // Skip shortcuts when typing in an input
+    var ae = document.activeElement;
+    if (ae && (ae.tagName === 'INPUT' || ae.tagName === 'SELECT' || ae.tagName === 'TEXTAREA')) {
+      if (e.key === 'Escape') { ae.blur(); return; }
+      return;
+    }
 
-    // Random entry
-    if (e.key === 'r') {
+    // Help overlay toggle
+    if (e.key === '?') {
       e.preventDefault();
+      toggleHelpOverlay();
+      return;
+    }
+
+    // Tab switching: 1-9 follow the sidebar order
+    var keyIdx = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'].indexOf(e.key);
+    if (keyIdx !== -1 && tabBtns[keyIdx]) {
+      e.preventDefault();
+      switchTab(tabBtns[keyIdx].getAttribute('data-tab'));
+      return;
+    }
+
+    // Random entry: r
+    if (e.key === 'r' && !randomBtn.hidden) {
       randomBtn.click();
       return;
     }
 
-    // Tab switching with number keys 1-9
-    var num = parseInt(e.key);
-    if (num >= 1 && num <= 9 && num <= tabKeys.length) {
-      e.preventDefault();
-      switchTab(tabKeys[num - 1]);
-      return;
-    }
-
-    // Search focus
+    // Focus search: /
     if (e.key === '/') {
       var tab = app.activeTab;
-      if (tab === 'pinyin' || tab === 'tones') return;
       if (app.sections[tab] && app.sections[tab].dom.search) {
-        var input = app.sections[tab].dom.search;
-        if (document.activeElement !== input) {
-          e.preventDefault();
-          input.focus();
-        }
+        e.preventDefault();
+        app.sections[tab].dom.search.focus();
       }
     }
   });
 
-  // === TEXT-TO-SPEECH ===
+  // === TEXT-TO-SPEECH (mainland Mandarin voice) ===
   function speakCN(text) {
-    if ('speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-      var utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = window.LANG_PROFILE.speechLang;
+    if (!('speechSynthesis' in window) || !text) return;
+
+    var clean = String(text).replace(/[.\-…]/g, '').trim();
+    if (!clean) return;
+
+    ensureSpeechInitialized();
+
+    speechRequestId += 1;
+    var requestId = speechRequestId;
+    var synth = window.speechSynthesis;
+
+    if (speechTimer) {
+      clearTimeout(speechTimer);
+      speechTimer = null;
+    }
+
+    try {
+      synth.cancel();
+    } catch (e) {}
+
+    speechTimer = setTimeout(function () {
+      if (requestId !== speechRequestId) return;
+
+      var utterance = new SpeechSynthesisUtterance(clean);
+      utterance.lang = profile.speechLang;
       utterance.rate = 0.8;
       utterance.volume = 0.8;
-      window.speechSynthesis.speak(utterance);
+
+      var selectedVoice = speechVoice || pickVoice(synth.getVoices ? synth.getVoices() : []);
+      if (selectedVoice) {
+        utterance.voice = selectedVoice;
+        if (selectedVoice.lang) utterance.lang = selectedVoice.lang;
+      }
+
+      try {
+        if (typeof synth.resume === 'function') synth.resume();
+      } catch (e) {}
+
+      try {
+        synth.speak(utterance);
+      } catch (e) {}
+    }, 60);
+  }
+
+  // Prefers zh-CN; other Mandarin voices next; never Cantonese (zh-HK, yue).
+  function pickVoice(voices) {
+    if (!voices || !voices.length) return null;
+    var wanted = profile.speechLang.toLowerCase();
+    var exactMatch = null;
+    var genericMatch = null;
+    for (var i = 0; i < voices.length; i++) {
+      var voice = voices[i];
+      if (!voice || !voice.lang) continue;
+      var lang = String(voice.lang).toLowerCase().replace('_', '-');
+      if (lang.indexOf('zh-hk') === 0 || lang.indexOf('yue') === 0) continue;
+      if (!exactMatch && lang === wanted) exactMatch = voice;
+      if (!genericMatch && (lang.indexOf('zh') === 0 || lang.indexOf('cmn') === 0)) genericMatch = voice;
     }
+    return exactMatch || genericMatch || null;
+  }
+
+  function cacheVoice() {
+    if (!('speechSynthesis' in window) || typeof window.speechSynthesis.getVoices !== 'function') return;
+    var selected = pickVoice(window.speechSynthesis.getVoices());
+    if (selected) speechVoice = selected;
+  }
+
+  function ensureSpeechInitialized() {
+    if (!('speechSynthesis' in window)) return;
+    var synth = window.speechSynthesis;
+
+    if (!speechInitStarted) {
+      speechInitStarted = true;
+      cacheVoice();
+      if ('onvoiceschanged' in synth) {
+        synth.onvoiceschanged = cacheVoice;
+      }
+    }
+
+    try {
+      if (typeof synth.resume === 'function') synth.resume();
+    } catch (e) {}
   }
 
   // === PINYIN TAB ===
@@ -486,10 +826,10 @@
       data.tones.forEach(function (t) {
         var tr = document.createElement('tr');
         tr.innerHTML =
-          '<td><strong style="color:' + t.color + '">' + t.number + '</strong></td>' +
+          '<td><strong style="color:var(--tone-' + t.number + ')">' + t.number + '</strong></td>' +
           '<td>' + t.name + '</td>' +
           '<td style="font-family:var(--font-jp);font-size:1.5rem;cursor:pointer" onclick="window.app.speakCN(\'' + t.example + '\')">' + t.example + '</td>' +
-          '<td style="color:' + t.color + ';font-weight:600">' + t.pinyin + '</td>' +
+          '<td style="color:var(--tone-' + t.number + ');font-weight:600">' + t.pinyin + '</td>' +
           '<td>' + t.description + '</td>';
         tbody.appendChild(tr);
       });
@@ -672,32 +1012,38 @@
       container.appendChild(spellSection);
     }
 
-    // Special Syllables
-    if (data.specialSyllables) {
+    // Special Syllables (整体认读音节: read as a whole, not as initial + final)
+    if (data.specialSyllables && data.specialSyllables.syllables) {
+      var special = data.specialSyllables;
       var specSection = document.createElement('div');
       specSection.className = 'kana-section';
       var specHeader = document.createElement('div');
       specHeader.className = 'kana-section-header';
-      specHeader.innerHTML = '<span class="kana-section-icon">特</span><span>Besondere Silben (特殊音节)</span>';
+      specHeader.innerHTML = '<span class="kana-section-icon">特</span><span>' + special.labelDE + ' (<span lang="zh-CN">' + special.label + '</span>, ' + special.labelPinyin + ')</span>';
       specSection.appendChild(specHeader);
 
       var specBody = document.createElement('div');
       specBody.className = 'kana-table-wrapper';
       var specTable = document.createElement('table');
       specTable.className = 'kana-table';
-      specTable.innerHTML = '<thead><tr><th>Silbe</th><th>Erklärung</th><th>Beispiel</th></tr></thead>';
+      specTable.innerHTML = '<thead><tr><th>Silbe</th><th>Aufbau</th></tr></thead>';
       var specTbody = document.createElement('tbody');
-      data.specialSyllables.forEach(function (s) {
+      special.syllables.forEach(function (s) {
         var tr = document.createElement('tr');
-        tr.innerHTML =
-          '<td><strong>' + s.syllable + '</strong></td>' +
-          '<td>' + s.explanation + '</td>' +
-          '<td style="font-family:var(--font-jp);cursor:pointer">' + (s.example || '') + '</td>';
-        if (s.example) {
-          tr.querySelector('td:nth-child(3)').addEventListener('click', function () {
-            speakCN(s.example);
-          });
-        }
+        var cell = document.createElement('td');
+        var play = document.createElement('button');
+        play.type = 'button';
+        play.className = 'btn btn-pill';
+        play.textContent = s.pinyin;
+        play.setAttribute('aria-label', s.pinyin + ' anhören');
+        play.addEventListener('click', function () {
+          speakCN((data.pinyinCharMap && data.pinyinCharMap[s.pinyin]) || s.pinyin);
+        });
+        cell.appendChild(play);
+        tr.appendChild(cell);
+        var meaning = document.createElement('td');
+        meaning.textContent = s.meaning;
+        tr.appendChild(meaning);
         specTbody.appendChild(tr);
       });
       specTable.appendChild(specTbody);
@@ -731,16 +1077,16 @@
 
       card.innerHTML =
         '<div class="tone-card-header">' +
-          '<div class="tone-number" style="background:' + tone.color + '">' + tone.number + '</div>' +
+          '<div class="tone-number" style="background:var(--tone-' + tone.number + ');color:var(--tone-on)">' + tone.number + '</div>' +
           '<div class="tone-info">' +
             '<h3>' + tone.name + ' (' + tone.chinese + ')</h3>' +
             '<p>' + tone.description + '</p>' +
           '</div>' +
         '</div>' +
         '<div class="tone-example">' +
-          '<span class="tone-example-char" style="color:' + tone.color + '">' + tone.example + '</span>' +
+          '<span class="tone-example-char" style="color:var(--tone-' + tone.number + ')">' + tone.example + '</span>' +
           '<div>' +
-            '<div class="tone-example-pinyin" style="color:' + tone.color + '">' + tone.pinyin + '</div>' +
+            '<div class="tone-example-pinyin" style="color:var(--tone-' + tone.number + ')">' + tone.pinyin + '</div>' +
             '<div class="tone-example-meaning">' + tone.meaning + '</div>' +
           '</div>' +
         '</div>';
@@ -773,16 +1119,53 @@
     container.appendChild(rulesCard);
   }
 
+
+  // === HELP OVERLAY ===
+  function toggleHelpOverlay() {
+    var overlay = document.getElementById('help-overlay');
+    if (!overlay) return;
+    if (app.workspace) { app.workspace.toggleHelp(); return; }
+    var isHidden = overlay.classList.contains('hidden');
+    overlay.classList.toggle('hidden', !isHidden);
+    document.body.style.overflow = isHidden ? 'hidden' : '';
+  }
+
+  var helpOverlay = document.getElementById('help-overlay');
+  if (helpOverlay) {
+    helpOverlay.addEventListener('click', function (e) {
+      if (e.target === helpOverlay) toggleHelpOverlay();
+    });
+    var helpCloseBtn = document.getElementById('help-close');
+    if (helpCloseBtn) helpCloseBtn.addEventListener('click', toggleHelpOverlay);
+  }
+
+  // The lessons engine loads on first use of the "Lektionen" view.
+  var grammarViewToggle = document.getElementById('grammar-view-toggle');
+  if (grammarViewToggle) {
+    grammarViewToggle.addEventListener('click', function (e) {
+      var btn = e.target.closest('.gl-view-btn');
+      if (!btn || btn.getAttribute('data-view') !== 'lessons' || window.__grammarLessonsInitialized) {
+        return;
+      }
+
+      e.preventDefault();
+      e.stopPropagation();
+      if (btn.disabled) return;
+
+      btn.disabled = true;
+      ensureGrammarLessonsLoaded().then(function () {
+        btn.disabled = false;
+        if (window.__grammarLessonsInitialized) btn.click();
+      }).catch(function () {
+        btn.disabled = false;
+      });
+    });
+  }
+
   // === INIT ===
   initTheme();
-  if (typeof initSelectFilters === 'function') initSelectFilters();
-  try { loadData(); } catch (e) { console.error('loadData error:', e); }
-  try { renderPinyinTab(); } catch (e) { console.error('renderPinyinTab error:', e); }
-  try { renderTonesTab(); } catch (e) { console.error('renderTonesTab error:', e); }
+  renderTonesTab();
   if (typeof initBookmarkToggles === 'function') initBookmarkToggles();
-  switchTab('tones');
-  // Retry: some browsers may not have tones-content ready on first pass
-  setTimeout(function () {
-    renderTonesTab();
-  }, 50);
+  if (typeof initSelectFilters === 'function') initSelectFilters();
+  updateCount();
 })();

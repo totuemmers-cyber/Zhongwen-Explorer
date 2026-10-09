@@ -1,24 +1,27 @@
-// Loads every data script in index.html order (as the browser does) and checks the
-// structural invariants the renderers rely on.
+// Loads every data script the app loads (startup data plus the per-section manifest in
+// lang-profile.js, in loader order) and checks the structural invariants the renderers rely on.
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
 const ROOT = path.resolve(__dirname, '..');
 const html = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
-const scripts = [...html.matchAll(/<script src="([^"]+)"><\/script>/g)].map(m => m[1]);
 const DATA_GLOBALS = ['HANZI_DATA', 'GRAMMAR_DATA', 'VOCAB_HSK1', 'VOCAB_HSK2', 'VOCAB_HSK3', 'VOCAB_HSK4', 'VOCAB_HSK5',
   'VOCAB_HSK6', 'VOCAB_HSK7_9', 'CHENGYU_DATA', 'REDEWENDUNGEN_DATA', 'MEASURE_WORDS_DATA', 'ONOMATOPOEIA_DATA', 'KANGXI_RADICALS', 'PINYIN_DATA'];
 
 const errors = [];
 const fail = (message, samples = []) => errors.push(message + (samples.length ? '\n  e.g. ' + samples.slice(0, 5).join('\n  e.g. ') : ''));
 
-// Data files only define globals; application scripts need a DOM and are skipped.
-const APP_SCRIPTS = new Set(['lang-profile.js', 'storage.js', 'zhongwen-migrate.js', 'section.js', 'section-configs.js', 'grammar-lessons.js', 'quiz.js', 'app.js']);
 const context = { console };
 context.window = context;
+vm.runInNewContext(fs.readFileSync(path.join(ROOT, 'lang-profile.js'), 'utf8'), context, { filename: 'lang-profile.js' });
+const manifest = context.LANG_PROFILE.dataScripts;
+// Startup data is listed in index.html; everything else comes from the section manifest.
+const STARTUP_DATA = ['pinyin-data.js'];
+for (const src of STARTUP_DATA) if (!html.includes('<script src="' + src + '"></script>')) fail('index.html does not load ' + src);
+const scripts = [...STARTUP_DATA, ...new Set(Object.keys(manifest).flatMap(name => manifest[name]))];
 for (const src of scripts) {
-  if (APP_SCRIPTS.has(src)) continue;
+  if (!fs.existsSync(path.join(ROOT, src))) { fail('Manifest lists a missing file: ' + src); continue; }
   const text = fs.readFileSync(path.join(ROOT, src), 'utf8');
   try {
     vm.runInNewContext(text, context, { filename: src });

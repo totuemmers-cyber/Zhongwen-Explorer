@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zhongwen Explorer - HSK 1-6</title>
+  <title>Zhongwen Explorer - HSK 1-9</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E4%B8%AD%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
@@ -12,72 +13,50 @@
 <body>
   <a href="#main-content" class="skip-link">Zum Inhalt springen</a>
   <div id="app">
-    <header class="header">
-      <div class="header-hero">
-        <div class="hero-text">
-          <h1><span class="hero-kanji">中文</span> Zhongwen Explorer</h1>
-          <p class="hero-tagline">2556 Hanzi, 11683 Vokabeln, 504 Grammatik, 20 Lektionen — HSK 1 bis 6</p>
-        </div>
-        <div class="header-actions">
-          <span id="item-count" class="badge-count">0</span>
-          <button id="random-btn" class="btn btn-gradient" title="Zufälliger Eintrag">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 4l3 3-3 3"/><path d="M18 20l3-3-3-3"/><path d="M3 7h3a5 5 0 0 1 5 5 5 5 0 0 0 5 5h5"/><path d="M21 7h-5a5 5 0 0 0-5 5 5 5 0 0 1-5 5H3"/></svg>
-            Zufall
-          </button>
-          <button id="sound-toggle" class="btn btn-icon active" title="Sound An/Aus" aria-label="Sound An/Aus">
-            <svg class="icon-on" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
-            <svg class="icon-off" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
-          </button>
-          <button id="theme-toggle" class="btn btn-icon" title="Theme wechseln" aria-label="Theme wechseln">
-            <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-            <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-          </button>
-        </div>
-      </div>
-      <nav class="tab-bar" aria-label="Hauptnavigation">
-        <button class="tab-btn active" data-tab="tones">
-          <span class="tab-icon-kana">调</span>
-          Töne
-        </button>
-        <button class="tab-btn" data-tab="pinyin">
-          <span class="tab-icon-kana">拼</span>
-          Pinyin
-        </button>
-        <button class="tab-btn" data-tab="radicals">
-          <span class="tab-icon-kana">部</span>
-          Radikale
-        </button>
-        <button class="tab-btn" data-tab="hanzi">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h8"/></svg>
-          Hanzi
-        </button>
-        <button class="tab-btn" data-tab="vocab">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-          Vokabeln
-        </button>
-        <button class="tab-btn" data-tab="onomatopoeia">
-          <span class="tab-icon-kana">声</span>
-          Lautmalerei
-        </button>
-        <button class="tab-btn" data-tab="grammar">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-          Grammatik
-        </button>
-        <button class="tab-btn" data-tab="measurewords">
-          <span class="tab-icon-kana">量</span>
-          Zählwörter
-        </button>
-        <button class="tab-btn" data-tab="quiz">
-          <span class="tab-icon-kana">试</span>
-          Quiz
-        </button>
+    <header class="compact-header">
+      <button id="nav-toggle" aria-controls="sidebar" aria-expanded="false">☰ <span>Navigation</span></button>
+      <span>Zhongwen Explorer</span>
+    </header>
+    <div id="nav-backdrop" class="nav-backdrop hidden"></div>
+    <aside id="sidebar" class="sidebar" aria-label="Studiennavigation">
+      <a class="brand" href="#tones"><span class="brand-mark" lang="zh-CN">中</span><span>Zhongwen<br><strong>Explorer</strong></span></a>
+      <p class="sidebar-caption">DEIN CHINESISCH-WORKSPACE</p>
+      <nav aria-label="Hauptnavigation">
+        <p class="nav-group-label">Grundlagen</p>
+        <button class="tab-btn active" data-tab="tones" aria-current="page"><span lang="zh-CN">调</span>Töne</button>
+        <button class="tab-btn" data-tab="pinyin"><span lang="zh-CN">拼</span>Pinyin</button>
+        <button class="tab-btn" data-tab="radicals"><span lang="zh-CN">部</span>Radikale</button>
+        <button class="tab-btn" data-tab="measurewords"><span lang="zh-CN">量</span>Zählwörter</button>
+        <p class="nav-group-label">Nachschlagen</p>
+        <button class="tab-btn" data-tab="hanzi"><span lang="zh-CN">字</span>Hanzi</button>
+        <button class="tab-btn" data-tab="vocab"><span lang="zh-CN">词</span>Vokabeln</button>
+        <button class="tab-btn" data-tab="onomatopoeia"><span lang="zh-CN">声</span>Lautmalerei</button>
+        <button class="tab-btn" data-tab="grammar"><span lang="zh-CN">文</span>Grammatik</button>
+        <p class="nav-group-label">Üben</p>
+        <button class="tab-btn" data-tab="quiz"><span lang="zh-CN">练</span>Quiz</button>
       </nav>
+      <div class="sidebar-footer">
+        <button id="help-open">? <span>Hilfe &amp; Tastenkürzel</span></button>
+        <button id="theme-toggle">◐ <span>Dunkles Design</span></button>
+        <button id="sound-toggle" aria-pressed="false">♪ <span>Interface-Töne</span><span class="sound-state">Aus</span></button>
+        <p>In deinem Tempo. Jeden Tag ein Stück.</p>
+      </div>
+    </aside>
+    <div class="workspace">
+      <header class="page-header">
+        <div><p id="page-eyebrow" class="eyebrow">Grundlagen · 中文</p><h1 id="page-title" tabindex="-1">Töne</h1><p id="page-description">Die vier Töne und den neutralen Ton hören und unterscheiden.</p></div>
+        <button id="random-btn" class="btn" hidden>↗ Zufall</button>
+      </header>
+      <div id="route-message" class="route-message hidden" role="status"></div>
+      <p id="storage-notice" class="route-message" role="status" aria-live="polite" hidden></p>
+      <div class="collection-heading"><span id="item-count" role="status"></span><span class="local-note">HSK 1–9</span></div>
+      <div class="toolbars">
       <!-- Hanzi Tab Controls -->
       <div id="hanzi-controls" class="tab-content hidden">
-        <div class="search-bar">
+        <div class="search-bar"><div class="search-field">
           <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           <input type="text" id="search-input" placeholder="Suche nach Hanzi, Bedeutung, Pinyin..." autocomplete="off">
-          <button id="clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+          <button id="clear-search" class="btn-clear" title="Suche löschen">&times;</button></div>
           <button class="filter-btn hanzi-bm bm-toggle" data-bm="all" title="Lesezeichen">&#9734;</button>
         </div>
         <div class="filters">
@@ -107,15 +86,25 @@
       </div>
       <!-- Grammar Tab Controls -->
       <div id="grammar-controls" class="tab-content hidden">
-        <div class="search-bar">
+        <div id="grammar-view-toggle" class="gl-view-toggle">
+          <button class="gl-view-btn active" data-view="reference">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h8"/></svg>
+            Nachschlagen
+          </button>
+          <button class="gl-view-btn" data-view="lessons">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            Lektionen
+          </button>
+        </div>
+        <div class="search-bar"><div class="search-field">
           <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           <input type="text" id="grammar-search-input" placeholder="Suche nach Grammatikmuster, Bedeutung..." autocomplete="off">
-          <button id="grammar-clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+          <button id="grammar-clear-search" class="btn-clear" title="Suche löschen">&times;</button></div>
           <button class="filter-btn grammar-bm bm-toggle" data-bm="all" title="Lesezeichen">&#9734;</button>
         </div>
         <div class="filters">
           <div class="level-filters">
-            <button class="filter-btn grammar-level active" data-glevel="all">Alle Level</button>
+            <button class="filter-btn grammar-level active" data-glevel="all">Alle</button>
             <button class="filter-btn grammar-level hsk1" data-glevel="HSK1">HSK 1</button>
             <button class="filter-btn grammar-level hsk2" data-glevel="HSK2">HSK 2</button>
             <button class="filter-btn grammar-level hsk3" data-glevel="HSK3">HSK 3</button>
@@ -154,15 +143,15 @@
       </div>
       <!-- Vocab Tab Controls -->
       <div id="vocab-controls" class="tab-content hidden">
-        <div class="search-bar">
+        <div class="search-bar"><div class="search-field">
           <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           <input type="text" id="vocab-search-input" placeholder="Suche nach Vokabel, Bedeutung, Pinyin..." autocomplete="off">
-          <button id="vocab-clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+          <button id="vocab-clear-search" class="btn-clear" title="Suche löschen">&times;</button></div>
           <button class="filter-btn vocab-bm bm-toggle" data-bm="all" title="Lesezeichen">&#9734;</button>
         </div>
         <div class="filters">
           <div class="level-filters">
-            <button class="filter-btn vocab-level active" data-vlevel="all">Alle Level</button>
+            <button class="filter-btn vocab-level active" data-vlevel="all">Alle</button>
             <button class="filter-btn vocab-level hsk1" data-vlevel="HSK1">HSK 1</button>
             <button class="filter-btn vocab-level hsk2" data-vlevel="HSK2">HSK 2</button>
             <button class="filter-btn vocab-level hsk3" data-vlevel="HSK3">HSK 3</button>
@@ -207,15 +196,15 @@
       </div>
       <!-- Onomatopoeia Tab Controls -->
       <div id="ono-controls" class="tab-content hidden">
-        <div class="search-bar">
+        <div class="search-bar"><div class="search-field">
           <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           <input type="text" id="ono-search-input" placeholder="Suche nach Lautmalerei, Bedeutung, Pinyin..." autocomplete="off">
-          <button id="ono-clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+          <button id="ono-clear-search" class="btn-clear" title="Suche löschen">&times;</button></div>
           <button class="filter-btn ono-bm bm-toggle" data-bm="all" title="Lesezeichen">&#9734;</button>
         </div>
         <div class="filters">
           <div class="level-filters">
-            <button class="filter-btn ono-cat active" data-ocat="all">Alle Kategorien</button>
+            <button class="filter-btn ono-cat active" data-ocat="all">Alle</button>
             <button class="filter-btn ono-cat oc-geraeusche" data-ocat="Geraeusche">Geräusche</button>
             <button class="filter-btn ono-cat oc-zustaende" data-ocat="Zustaende">Zustände</button>
             <button class="filter-btn ono-cat oc-gefuehle" data-ocat="Gefuehle">Gefühle</button>
@@ -240,10 +229,10 @@
       </div>
       <!-- Measure Words Tab Controls -->
       <div id="measurewords-controls" class="tab-content hidden">
-        <div class="search-bar">
+        <div class="search-bar"><div class="search-field">
           <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           <input type="text" id="mw-search-input" placeholder="Suche nach Zählwort, Bedeutung, Pinyin..." autocomplete="off">
-          <button id="mw-clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+          <button id="mw-clear-search" class="btn-clear" title="Suche löschen">&times;</button></div>
           <button class="filter-btn mw-bm bm-toggle" data-bm="all" title="Lesezeichen">&#9734;</button>
         </div>
         <div class="filters">
@@ -268,10 +257,10 @@
       </div>
       <!-- Radicals Tab Controls -->
       <div id="radicals-controls" class="tab-content hidden">
-        <div class="search-bar">
+        <div class="search-bar"><div class="search-field">
           <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           <input type="text" id="radicals-search-input" placeholder="Suche nach Radikal, Bedeutung, Pinyin..." autocomplete="off">
-          <button id="radicals-clear-search" class="btn-clear" title="Suche löschen">&times;</button>
+          <button id="radicals-clear-search" class="btn-clear" title="Suche löschen">&times;</button></div>
           <button class="filter-btn radical-bm bm-toggle" data-bm="all" title="Lesezeichen">&#9734;</button>
         </div>
         <div class="filters">
@@ -289,17 +278,16 @@
           </div>
         </div>
       </div>
-    </header>
+      </div>
 
-    <p id="storage-notice" class="storage-notice" role="status" aria-live="polite" hidden></p>
-    <main id="main-content">
+    <main id="main-content" tabindex="-1">
       <!-- Hanzi Tab Content -->
       <div id="hanzi-tab" class="tab-panel hidden">
         <div id="hanzi-grid" class="kanji-grid"></div>
         <div id="no-results" class="no-results hidden">
           <p>Keine Hanzi gefunden.</p>
         </div>
-        <div id="loading" class="loading">
+        <div id="hanzi-loading" class="loading hidden">
           <div class="loading-spinner"></div>
           <span>Lade Hanzi-Daten...</span>
         </div>
@@ -332,6 +320,10 @@
         <div id="ono-no-results" class="no-results hidden">
           <p>Keine Lautmalerei gefunden.</p>
         </div>
+        <div id="ono-loading" class="loading hidden">
+          <div class="loading-spinner"></div>
+          <span>Lade Lautmalerei-Daten...</span>
+        </div>
       </div>
       <!-- Measure Words Tab Content -->
       <div id="measurewords-tab" class="tab-panel hidden">
@@ -340,6 +332,10 @@
         <div id="mw-no-results" class="no-results hidden">
           <p>Keine Zählwörter gefunden.</p>
         </div>
+        <div id="mw-loading" class="loading hidden">
+          <div class="loading-spinner"></div>
+          <span>Lade Zählwort-Daten...</span>
+        </div>
       </div>
       <!-- Radicals Tab Content -->
       <div id="radicals-tab" class="tab-panel hidden">
@@ -347,20 +343,29 @@
         <div id="radicals-no-results" class="no-results hidden">
           <p>Keine Radikale gefunden.</p>
         </div>
-      </div>
-      <!-- Pinyin Tab Content -->
-      <div id="pinyin-tab" class="tab-panel hidden">
-        <div id="pinyin-content" class="kana-content"></div>
+        <div id="radicals-loading" class="loading hidden">
+          <div class="loading-spinner"></div>
+          <span>Lade Radikal-Daten...</span>
+        </div>
       </div>
       <!-- Tones Tab Content -->
       <div id="tones-tab" class="tab-panel">
         <div id="tones-content" class="tones-content"></div>
       </div>
+      <!-- Pinyin Tab Content -->
+      <div id="pinyin-tab" class="tab-panel hidden">
+        <div id="pinyin-content" class="kana-content"></div>
+      </div>
       <!-- Quiz Tab Content -->
       <div id="quiz-tab" class="tab-panel hidden">
         <div id="quiz-content" class="quiz-content"></div>
+        <div id="quiz-loading" class="loading hidden">
+          <div class="loading-spinner"></div>
+          <span>Lade Quiz-Daten...</span>
+        </div>
       </div>
     </main>
+    </div>
 
     <div id="detail-overlay" class="detail-overlay hidden">
       <div class="detail-panel">
@@ -376,7 +381,7 @@
         <div class="detail-content">
           <div class="detail-main">
             <div class="detail-kanji-display">
-              <span id="detail-kanji" class="detail-kanji"></span>
+              <span id="detail-kanji" class="detail-kanji" lang="zh-CN"></span>
               <span id="detail-jlpt" class="detail-jlpt-badge"></span>
             </div>
             <div id="detail-meanings" class="detail-meanings"></div>
@@ -384,11 +389,11 @@
           </div>
           <div class="detail-readings">
             <div class="reading-section">
-              <h3>Pinyin <span class="reading-type">(拼音)</span></h3>
+              <h3>Pinyin <span class="reading-type" lang="zh-CN">(拼音)</span></h3>
               <div id="detail-pinyin" class="reading-list"></div>
             </div>
             <div class="reading-section">
-              <h3>Ton <span class="reading-type">(声调)</span></h3>
+              <h3>Ton <span class="reading-type" lang="zh-CN">(声调)</span></h3>
               <div id="detail-tone" class="reading-list"></div>
             </div>
           </div>
@@ -426,7 +431,7 @@
         </div>
         <div class="detail-content">
           <div class="grammar-detail-header">
-            <span id="grammar-detail-pattern" class="grammar-detail-pattern"></span>
+            <span id="grammar-detail-pattern" class="grammar-detail-pattern" lang="zh-CN"></span>
             <span id="grammar-detail-level" class="detail-jlpt-badge"></span>
             <span id="grammar-detail-category" class="grammar-category-badge"></span>
           </div>
@@ -468,7 +473,7 @@
         </div>
         <div class="detail-content">
           <div class="vocab-detail-header">
-            <span id="vocab-detail-word" class="vocab-detail-word"></span>
+            <span id="vocab-detail-word" class="vocab-detail-word" lang="zh-CN"></span>
             <span id="vocab-detail-level" class="detail-jlpt-badge"></span>
             <span id="vocab-detail-type" class="vocab-type-badge"></span>
           </div>
@@ -476,7 +481,7 @@
           <div id="vocab-detail-meaning" class="vocab-detail-meaning"></div>
           <div id="vocab-detail-category-line" class="vocab-detail-category-line"></div>
           <div id="vocab-detail-chengyu-section" class="grammar-detail-section hidden">
-            <h3>Zeichenanalyse 字义</h3>
+            <h3>Zeichenanalyse <span lang="zh-CN">字义</span></h3>
             <div id="vocab-detail-chengyu-breakdown"></div>
           </div>
           <div class="grammar-detail-section">
@@ -504,7 +509,7 @@
         </div>
         <div class="detail-content">
           <div class="ono-detail-header">
-            <span id="ono-detail-word" class="ono-detail-word"></span>
+            <span id="ono-detail-word" class="ono-detail-word" lang="zh-CN"></span>
             <span id="ono-detail-category" class="ono-category-badge"></span>
             <span id="ono-detail-pattern" class="ono-pattern-badge"></span>
           </div>
@@ -544,7 +549,7 @@
         </div>
         <div class="detail-content">
           <div class="counter-detail-header">
-            <span id="mw-detail-char" class="counter-detail-kanji"></span>
+            <span id="mw-detail-char" class="counter-detail-kanji" lang="zh-CN"></span>
             <span id="mw-detail-cat" class="counter-category-badge"></span>
           </div>
           <div id="mw-detail-pinyin" class="counter-detail-reading"></div>
@@ -552,7 +557,7 @@
           <div id="mw-detail-usage" class="counter-detail-usage"></div>
           <div class="grammar-detail-section">
             <h3>Fragewort</h3>
-            <div id="mw-detail-question" class="counter-question-box"></div>
+            <div id="mw-detail-question" class="counter-question-box" lang="zh-CN"></div>
           </div>
           <div class="grammar-detail-section">
             <h3>Zähltabelle (1-10)</h3>
@@ -587,7 +592,7 @@
         </div>
         <div class="detail-content">
           <div class="radical-detail-header">
-            <span id="radical-detail-char" class="radical-detail-char"></span>
+            <span id="radical-detail-char" class="radical-detail-char" lang="zh-CN"></span>
             <span id="radical-detail-number" class="radical-number-badge"></span>
           </div>
           <div id="radical-detail-meaning" class="radical-detail-meaning"></div>
@@ -603,63 +608,33 @@
       </div>
     </div>
 
-    <!-- Help Overlay -->
-    <div id="help-overlay" class="detail-overlay hidden">
-      <div class="help-panel">
-        <button class="btn-close" title="Schließen">&times;</button>
-        <h2>Tastaturkürzel</h2>
-        <div class="help-shortcuts">
-          <div class="help-row"><kbd>1</kbd>–<kbd>9</kbd> <span>Tab wechseln</span></div>
-          <div class="help-row"><kbd>/</kbd> <span>Suche fokussieren</span></div>
-          <div class="help-row"><kbd>r</kbd> <span>Zufälliger Eintrag</span></div>
-          <div class="help-row"><kbd>?</kbd> <span>Diese Hilfe</span></div>
-          <div class="help-row"><kbd>Esc</kbd> <span>Schließen / Blur</span></div>
-          <div class="help-row"><kbd>←</kbd> <kbd>→</kbd> <span>Detail-Navigation</span></div>
-        </div>
+  <!-- Help Overlay -->
+  <div id="help-overlay" class="detail-overlay hidden">
+    <div class="help-panel">
+      <button id="help-close" class="btn-close" title="Schließen">&times;</button>
+      <h2>Tastenkürzel</h2>
+      <p>Strichdiagramme: <a href="https://github.com/parsimonhi/animCJK" target="_blank" rel="noopener">AnimCJK</a> (FM-SH, abgeleitet von Make Me a Hanzi), Arphic Public License.</p>
+      <div class="help-shortcuts">
+        <div class="help-row"><kbd>1</kbd>–<kbd>9</kbd><span>Bereich wechseln (Reihenfolge der Seitenleiste)</span></div>
+        <div class="help-row"><kbd>/</kbd><span>Suche fokussieren</span></div>
+        <div class="help-row"><kbd>r</kbd><span>Zufälliger Eintrag</span></div>
+        <div class="help-row"><kbd>?</kbd><span>Diese Hilfe anzeigen</span></div>
+        <div class="help-row"><kbd>Esc</kbd><span>Overlay / Suche schließen</span></div>
+        <div class="help-row"><kbd>←</kbd> <kbd>→</kbd><span>Vorheriger / Nächster Eintrag</span></div>
       </div>
     </div>
+  </div>
   </div>
 
   <script src="lang-profile.js"></script>
   <script src="storage.js"></script>
   <script src="zhongwen-migrate.js"></script>
-  <script src="hanzi-hsk1.js"></script>
-  <script src="hanzi-hsk2.js"></script>
-  <script src="hanzi-hsk3.js"></script>
-  <script src="hanzi-hsk4.js"></script>
-  <script src="hanzi-hsk5.js"></script>
-  <script src="hanzi-hsk6.js"></script>
-  <script src="grammar-hsk1.js"></script>
-  <script src="grammar-hsk2.js"></script>
-  <script src="grammar-hsk3.js"></script>
-  <script src="grammar-hsk4.js"></script>
-  <script src="grammar-hsk5.js"></script>
-  <script src="grammar-hsk6.js"></script>
-  <script src="grammar-hsk7-9.js"></script>
-  <script src="vocab-hsk1.js"></script>
-  <script src="vocab-hsk2.js"></script>
-  <script src="vocab-hsk3.js"></script>
-  <script src="vocab-hsk4.js"></script>
-  <script src="vocab-hsk5.js"></script>
-  <script src="vocab-hsk6.js"></script>
-  <script src="vocab-hsk7-9.js"></script>
-  <script src="chengyu-data.js"></script>
-  <script src="redewendungen-data.js"></script>
-  <script src="pinyin-data.js"></script>
-  <script src="measure-words-data.js"></script>
-  <script src="measure-words-extra.js"></script>
-  <script src="measure-words-extra2.js"></script>
-  <script src="kangxi-radicals-data.js"></script>
-  <script src="kangxi-radicals-extra.js"></script>
-  <script src="onomatopoeia-data.js"></script>
-  <script src="onomatopoeia-extra.js"></script>
-  <script src="onomatopoeia-extra2.js"></script>
-  <script src="onomatopoeia-extra3.js"></script>
   <script src="pinyin.js"></script>
+  <script src="pinyin-data.js"></script>
   <script src="section.js"></script>
   <script src="section-configs.js"></script>
-  <script src="grammar-lessons.js"></script>
   <script src="quiz.js"></script>
   <script src="app.js"></script>
+  <script src="workspace.js"></script>
 </body>
 </html>

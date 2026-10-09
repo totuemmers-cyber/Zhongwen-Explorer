@@ -1,4 +1,4 @@
-// Grammar Lessons Module for Zhongwen Explorer (HSK 1–6)
+// Grammar Lessons for Zhongwen Explorer (HSK); engine shared with Nihongo Explorer.
 (function () {
   'use strict';
 
@@ -2352,80 +2352,88 @@
     }
   ];
 
+  // Lessons render in HSK progression; within a level the authored lesson numbers decide.
+  var LEVEL_DISPLAY_ORDER = ['HSK1', 'HSK1/HSK2', 'HSK2', 'HSK2/HSK3', 'HSK3', 'HSK3/HSK4', 'HSK4', 'HSK4/HSK5', 'HSK5', 'HSK5/HSK6', 'HSK6', 'HSK7-9'];
+  LESSONS.forEach(function (lesson, index) { lesson._fileIndex = index; });
+  LESSONS.sort(function (a, b) {
+    var la = LEVEL_DISPLAY_ORDER.indexOf(a.level), lb = LEVEL_DISPLAY_ORDER.indexOf(b.level);
+    if (la !== lb) return (la === -1 ? 99 : la) - (lb === -1 ? 99 : lb);
+    if (a.number !== b.number) return a.number - b.number;
+    return a._fileIndex - b._fileIndex;
+  });
+  LESSONS.forEach(function (lesson, index) { lesson.number = index + 1; });
 
-  var lessonsContainer = null;
-  var currentOpen = null;
-
-  function renderLessonCard(lesson) {
-    var card = document.createElement('div');
-    card.className = 'gl-card';
-    card.setAttribute('data-lesson', lesson.id);
-
-    var header = document.createElement('div');
-    header.className = 'gl-card-header';
-    header.tabIndex = 0;
-    header.setAttribute('role', 'button');
-    header.setAttribute('aria-expanded', 'false');
-
-    header.innerHTML =
-      '<span class="gl-card-number">' + lesson.number + '</span>' +
-      '<div class="gl-card-titles">' +
-        '<span class="gl-card-title">' + lesson.title + '</span>' +
-        '<span class="gl-card-subtitle">' + lesson.subtitle + '</span>' +
-      '</div>' +
-      '<span class="gl-card-level card-level ' + lesson.level.split('/')[0] + '">' + lesson.level + '</span>' +
-      '<svg class="gl-card-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
-
-    var body = document.createElement('div');
-    body.className = 'gl-card-body collapsed';
-    body.innerHTML = renderLessonContent(lesson);
-
-    function toggle() {
-      if (window.app) window.app.playTick();
-      var isOpen = !body.classList.contains('collapsed');
-      if (isOpen) {
-        body.classList.add('collapsed');
-        header.querySelector('.gl-card-chevron').classList.remove('open');
-        header.setAttribute('aria-expanded', 'false');
-        currentOpen = null;
-      } else {
-        if (currentOpen && currentOpen !== body) {
-          currentOpen.classList.add('collapsed');
-          currentOpen.previousElementSibling.querySelector('.gl-card-chevron').classList.remove('open');
-          currentOpen.previousElementSibling.setAttribute('aria-expanded', 'false');
-        }
-        body.classList.remove('collapsed');
-        header.querySelector('.gl-card-chevron').classList.add('open');
-        header.setAttribute('aria-expanded', 'true');
-        currentOpen = body;
-        setTimeout(function () {
-          header.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }, 80);
-      }
-    }
-
-    header.addEventListener('click', toggle);
-    header.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
+  function resolveLessonReferencePlaceholders(text, numberById) {
+    if (!text || typeof text !== 'string') return text;
+    return text.replace(/\[\[lesson:(lesson-\d+)\]\]/g, function (_, lessonId) {
+      var lessonNumber = numberById[lessonId];
+      return lessonNumber ? ('Lektion ' + lessonNumber) : 'dieser Lektion';
     });
-
-    card.appendChild(header);
-    card.appendChild(body);
-    return card;
   }
+
+  var lessonNumberById = {};
+  LESSONS.forEach(function (lesson) {
+    lessonNumberById[lesson.id] = lesson.number;
+  });
+
+  LESSONS.forEach(function (lesson) {
+    lesson.intro = resolveLessonReferencePlaceholders(lesson.intro, lessonNumberById);
+    lesson.subtitle = resolveLessonReferencePlaceholders(lesson.subtitle, lessonNumberById);
+    lesson.sections.forEach(function (section) {
+      section.heading = resolveLessonReferencePlaceholders(section.heading, lessonNumberById);
+      section.text = resolveLessonReferencePlaceholders(section.text, lessonNumberById);
+      section.tip = resolveLessonReferencePlaceholders(section.tip, lessonNumberById);
+    });
+  });
+
+  function buildLessonSearchText(lesson) {
+    var parts = [lesson.title, lesson.subtitle, lesson.intro];
+    lesson.sections.forEach(function (section) {
+      parts.push(section.heading, section.text, section.tip);
+      if (section.examples) {
+        section.examples.forEach(function (example) {
+          parts.push(example.cn, example.pinyin, example.de);
+        });
+      }
+    });
+    return parts.filter(Boolean).join(' ').toLowerCase();
+  }
+
+  LESSONS.forEach(function (lesson) {
+    lesson._searchText = buildLessonSearchText(lesson);
+    // Pinyin in the search text is folded so tone-less or numbered input matches (nihao, ni3hao3).
+    lesson._foldedText = window.Pinyin ? window.Pinyin.fold(lesson._searchText) : lesson._searchText;
+  });
+
+  // =====================================================
+  // === RENDERING & UI LOGIC ===
+  // =====================================================
 
   function renderLessonContent(lesson) {
     var html = '<div class="gl-intro">' + lesson.intro + '</div>';
+    if (lesson.grammarIds && lesson.grammarIds.length) {
+      html += '<div class="gl-section"><h4 class="gl-section-heading">Muster nachschlagen</h4>';
+      lesson.grammarIds.forEach(function (id) {
+        var pattern = (window.GRAMMAR_DATA || []).find(function (g) { return g.id === id; });
+        if (pattern) html += '<button type="button" class="btn btn-pill" data-grammar-reference="' + id + '">' + pattern.pattern + '</button> ';
+      });
+      html += '</div>';
+    }
+
     lesson.sections.forEach(function (sec) {
       html += '<div class="gl-section">';
       html += '<h4 class="gl-section-heading">' + sec.heading + '</h4>';
-      if (sec.text) html += '<div class="gl-section-text">' + sec.text + '</div>';
+      if (sec.text) {
+        html += '<div class="gl-section-text">' + sec.text + '</div>';
+      }
       if (sec.examples && sec.examples.length > 0) {
         html += '<div class="gl-examples">';
         sec.examples.forEach(function (ex) {
           html += '<div class="gl-example">';
-          html += '<div class="gl-example-jp">' + ex.cn + '</div>';
-          if (ex.pinyin) html += '<div class="gl-example-romaji">' + ex.pinyin + '</div>';
+          html += '<div class="gl-example-jp" lang="zh-CN">' + ex.cn + '</div>';
+          if (ex.pinyin) {
+            html += '<div class="gl-example-romaji">' + ex.pinyin + '</div>';
+          }
           html += '<div class="gl-example-de">' + ex.de + '</div>';
           html += '</div>';
         });
@@ -2438,187 +2446,126 @@
       }
       html += '</div>';
     });
+
     return html;
   }
 
-  // Filtering
-  var lessonQuery = '';
-  var lessonLevel = 'all';
-  var lessonSearchTimeout = null;
 
-  function lessonMatchesLevel(lesson, level) {
-    if (level === 'all') return true;
-    return lesson.level.indexOf(level) !== -1;
+  var api = window.Lessons = { view: 'reference', selected: null, count: LESSONS.length };
+  var query = '', level = 'all', indexScroll = 0, readingScroll = {};
+  var controls, index, reader, visible = LESSONS.slice();
+  function persist() { if (window.app.workspace) window.app.workspace.save(); }
+  function commit() { if (window.app.workspace) window.app.workspace.commit(); window.app.updateCount(); }
+  function button(text, action, cls) {
+    var el = document.createElement('button'); el.type = 'button'; el.textContent = text; el.className = cls || ''; el.onclick = action; return el;
   }
-
-  function lessonMatchesQuery(lesson, q) {
-    if (!q) return true;
-    var lower = q.toLowerCase();
-    if (lesson.title.toLowerCase().indexOf(lower) !== -1) return true;
-    if (lesson.subtitle.toLowerCase().indexOf(lower) !== -1) return true;
-    if (lesson.intro.toLowerCase().indexOf(lower) !== -1) return true;
-    for (var i = 0; i < lesson.sections.length; i++) {
-      var sec = lesson.sections[i];
-      if (sec.heading && sec.heading.toLowerCase().indexOf(lower) !== -1) return true;
-      if (sec.text && sec.text.toLowerCase().indexOf(lower) !== -1) return true;
-      if (sec.tip && sec.tip.toLowerCase().indexOf(lower) !== -1) return true;
-      if (sec.examples) {
-        for (var j = 0; j < sec.examples.length; j++) {
-          var ex = sec.examples[j];
-          if (ex.cn && ex.cn.indexOf(q) !== -1) return true;
-          if (ex.pinyin && ex.pinyin.toLowerCase().indexOf(lower) !== -1) return true;
-          if (ex.de && ex.de.toLowerCase().indexOf(lower) !== -1) return true;
-        }
-      }
+  function matchesQuery(lesson) {
+    if (!query) return true;
+    var lower = query.toLowerCase();
+    if (lesson._searchText.indexOf(lower) !== -1) return true;
+    return !!window.Pinyin && lesson._foldedText.indexOf(window.Pinyin.fold(lower)) !== -1;
+  }
+  function filter() {
+    visible = LESSONS.filter(function (lesson) { return (level === 'all' || lesson.level.split('/').indexOf(level) !== -1) && matchesQuery(lesson); });
+    api.count = visible.length;
+    index.querySelectorAll('[data-lesson]').forEach(function (card) { card.classList.toggle('hidden', !visible.some(function (lesson) { return lesson.id === card.dataset.lesson; })); });
+    document.getElementById('gl-no-results').classList.toggle('hidden', !!visible.length);
+    document.getElementById('gl-count').textContent = visible.length + ' Lektionen';
+    controls.querySelectorAll('.gl-level').forEach(function (btn) { var active = btn.dataset.gllevel === level; btn.classList.toggle('active', active); btn.setAttribute('aria-pressed', String(active)); });
+    controls.querySelector('.lesson-filter-summary').textContent = (query ? '„' + query + '“ · ' : '') + (level === 'all' ? 'Alle Level' : level.replace('HSK', 'HSK '));
+    if (api.view === 'lessons') window.app.updateCount();
+    persist();
+  }
+  function showIndex(silent) {
+    if (!silent) { persist(); if (api.selected) readingScroll[api.selected] = window.scrollY; }
+    var previous = api.selected;
+    api.selected = null;
+    reader.classList.add('hidden'); index.classList.remove('hidden');
+    if (!silent) {
+      commit();
+      var card = Array.from(index.querySelectorAll('[data-lesson]')).find(function (el) { return el.dataset.lesson === previous; });
+      if (card) card.querySelector('button').focus({ preventScroll: true });
+      window.scrollTo(0, indexScroll);
     }
-    return false;
   }
-
-  function filterLessons() {
-    if (!lessonsContainer) return;
-    var cards = lessonsContainer.querySelectorAll('.gl-card');
-    var count = 0;
-    for (var i = 0; i < cards.length; i++) {
-      var lesson = LESSONS[i];
-      var show = lessonMatchesLevel(lesson, lessonLevel) && lessonMatchesQuery(lesson, lessonQuery);
-      cards[i].classList.toggle('hidden', !show);
-      if (show) count++;
-    }
-    var countEl = document.getElementById('gl-count');
-    if (countEl) countEl.textContent = count + ' Lektionen';
-    var noResults = document.getElementById('gl-no-results');
-    if (noResults) noResults.classList.toggle('hidden', count > 0);
+  function openLesson(id, silent) {
+    var lesson = LESSONS.find(function (entry) { return entry.id === id; });
+    if (!lesson) { showIndex(true); window.app.workspace.message('Diese Lektion wurde nicht gefunden. Wähle eine Lektion aus der Übersicht.'); return; }
+    if (!silent) { persist(); if (api.selected) readingScroll[api.selected] = window.scrollY; else indexScroll = window.scrollY; }
+    api.selected = id;
+    index.classList.add('hidden'); reader.classList.remove('hidden'); reader.innerHTML = '';
+    var header = document.createElement('header');
+    header.appendChild(button('← Alle Lektionen', function () { showIndex(); }));
+    var heading = document.createElement('h2'); heading.id = 'lesson-title'; heading.tabIndex = -1; heading.textContent = lesson.title; header.appendChild(heading);
+    var sub = document.createElement('p'); sub.className = 'lesson-subtitle'; sub.textContent = lesson.level.replace(/HSK/g, 'HSK ') + ' · ' + lesson.subtitle; header.appendChild(sub); reader.appendChild(header);
+    var body = document.createElement('div'); body.className = 'gl-card-body'; body.innerHTML = renderLessonContent(lesson); reader.appendChild(body);
+    body.querySelectorAll('table').forEach(function (table) {
+      var region = document.createElement('div'); region.className = 'lesson-table-region'; region.tabIndex = 0; region.setAttribute('role', 'region'); region.setAttribute('aria-label', 'Lektionstabelle, horizontal scrollbar'); table.before(region); region.appendChild(table);
+    });
+    body.addEventListener('click', function (event) {
+      var ref = event.target.closest('[data-grammar-reference]');
+      if (ref) window.app.workspace.openRelated('grammar', function (g) { return g.id === ref.dataset.grammarReference; });
+      var link = event.target.closest('[data-lesson-link]');
+      if (link) { event.preventDefault(); openLesson(link.dataset.lessonLink); }
+    });
+    var nav = document.createElement('div'); nav.className = 'lesson-reader-nav';
+    var pos = visible.indexOf(lesson);
+    var prev = button('← Vorherige Lektion', function () { openLesson(visible[pos - 1].id); }); prev.disabled = pos <= 0;
+    var next = button('Nächste Lektion →', function () { openLesson(visible[pos + 1].id); }); next.disabled = pos < 0 || pos >= visible.length - 1;
+    nav.appendChild(prev); nav.appendChild(next); reader.appendChild(nav);
+    if (!silent) { commit(); heading.focus({ preventScroll: true }); window.scrollTo(0, readingScroll[id] || 0); }
   }
-
+  function setView(view, silent) {
+    if (!silent) { persist(); window.app.workspace.dismiss(); }
+    api.view = view;
+    var lessons = view === 'lessons';
+    document.getElementById('grammar-controls').classList.toggle('grammar-lessons-view', lessons);
+    document.getElementById('grammar-grid').classList.toggle('hidden', lessons);
+    document.getElementById('grammar-no-results').classList.toggle('hidden', lessons || !!window.app.sections.grammar.filteredItems.length);
+    controls.classList.toggle('hidden', !lessons);
+    index.classList.toggle('hidden', !lessons || !!api.selected);
+    reader.classList.toggle('hidden', !lessons || !api.selected);
+    document.querySelectorAll('#grammar-view-toggle button').forEach(function (btn) { var active = btn.dataset.view === view; btn.classList.toggle('active', active); btn.setAttribute('aria-pressed', String(active)); });
+    if (!silent) commit();
+  }
   function initLessons() {
-    var grammarControls = document.getElementById('grammar-controls');
-    var grammarGrid = document.getElementById('grammar-grid');
-    var grammarNoResults = document.getElementById('grammar-no-results');
-    var grammarTab = document.getElementById('grammar-tab');
-    if (!grammarControls || !grammarTab) return;
-
-    var toggleRow = document.createElement('div');
-    toggleRow.className = 'gl-view-toggle';
-    toggleRow.innerHTML =
-      '<button class="gl-view-btn active" data-view="reference">' +
-        '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h8"/></svg>' +
-        'Nachschlagen</button>' +
-      '<button class="gl-view-btn" data-view="lessons">' +
-        '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>' +
-        'Lektionen</button>';
-
-    grammarControls.insertBefore(toggleRow, grammarControls.firstChild);
-
-    var origSearchBar = grammarControls.querySelector('.search-bar');
-    if (origSearchBar) origSearchBar.classList.add('grammar-ref-search');
-    grammarControls.querySelectorAll(':scope > .filters').forEach(function (f) {
-      f.classList.add('grammar-ref-filters');
+    if (window.__grammarLessonsInitialized) return;
+    var host = document.getElementById('grammar-tab');
+    document.querySelector('#grammar-controls .search-bar').classList.add('grammar-ref-search');
+    controls = document.createElement('div'); controls.id = 'gl-controls'; controls.className = 'hidden';
+    controls.innerHTML = '<label class="field-label" for="gl-search">Lektionen durchsuchen</label><div class="search-bar"><input id="gl-search" placeholder="Thema, Grammatik oder Erklärung" autocomplete="off"><button id="gl-clear-search" class="btn-clear" aria-label="Suche löschen">×</button></div><div class="filters"><div class="filter-field"><span id="gl-level-label" class="filter-group-label">HSK</span><div class="level-filters" role="group" aria-labelledby="gl-level-label"></div></div><span id="gl-count" class="gl-count" role="status"></span></div><div class="filter-summary"><span class="lesson-filter-summary"></span><button id="gl-reset">Filter zurücksetzen</button></div>';
+    ['all', 'HSK1', 'HSK2', 'HSK3', 'HSK4', 'HSK5', 'HSK6'].forEach(function (value) {
+      var btn = button(value === 'all' ? 'Alle' : value.replace('HSK', 'HSK '), function () { level = value; filter(); }, 'filter-btn gl-level ' + value.toLowerCase()); btn.dataset.gllevel = value; controls.querySelector('.level-filters').appendChild(btn);
     });
-
-    var lessonControls = document.createElement('div');
-    lessonControls.id = 'gl-controls';
-    lessonControls.className = 'hidden';
-    lessonControls.innerHTML =
-      '<div class="search-bar">' +
-        '<svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>' +
-        '<input type="text" id="gl-search" placeholder="Lektion suchen (Thema, Grammatik, Erklärung...)" autocomplete="off">' +
-        '<button id="gl-clear-search" class="btn-clear" title="Suche löschen">&times;</button>' +
-      '</div>' +
-      '<div class="filters">' +
-        '<div class="level-filters">' +
-          '<button class="filter-btn gl-level active" data-gllevel="all">Alle</button>' +
-          '<button class="filter-btn gl-level hsk1" data-gllevel="HSK1">HSK 1</button>' +
-          '<button class="filter-btn gl-level hsk2" data-gllevel="HSK2">HSK 2</button>' +
-          '<button class="filter-btn gl-level hsk3" data-gllevel="HSK3">HSK 3</button>' +
-          '<button class="filter-btn gl-level hsk4" data-gllevel="HSK4">HSK 4</button>' +
-          '<button class="filter-btn gl-level hsk5" data-gllevel="HSK5">HSK 5</button>' +
-          '<button class="filter-btn gl-level hsk6" data-gllevel="HSK6">HSK 6</button>' +
-        '</div>' +
-        '<span id="gl-count" class="gl-count">' + LESSONS.length + ' Lektionen</span>' +
-      '</div>';
-
-    grammarControls.appendChild(lessonControls);
-
-    var glSearch = document.getElementById('gl-search');
-    var glClear = document.getElementById('gl-clear-search');
-
-    glSearch.addEventListener('input', function () {
-      clearTimeout(lessonSearchTimeout);
-      glClear.classList.toggle('visible', glSearch.value.length > 0);
-      lessonSearchTimeout = setTimeout(function () {
-        lessonQuery = glSearch.value.trim();
-        filterLessons();
-      }, 200);
-    });
-
-    glClear.addEventListener('click', function () {
-      glSearch.value = '';
-      glClear.classList.remove('visible');
-      lessonQuery = '';
-      filterLessons();
-      glSearch.focus();
-    });
-
-    lessonControls.querySelectorAll('.gl-level').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        lessonControls.querySelectorAll('.gl-level').forEach(function (b) { b.classList.remove('active'); });
-        btn.classList.add('active');
-        lessonLevel = btn.getAttribute('data-gllevel');
-        filterLessons();
-        if (window.app) window.app.playSwoosh();
-      });
-    });
-
-    lessonsContainer = document.createElement('div');
-    lessonsContainer.id = 'grammar-lessons';
-    lessonsContainer.className = 'gl-container hidden';
-
+    document.getElementById('grammar-controls').appendChild(controls);
+    var search = controls.querySelector('input');
+    search.addEventListener('input', function () { query = search.value.trim(); controls.querySelector('.btn-clear').classList.toggle('visible', !!query); filter(); });
+    controls.querySelector('#gl-clear-search').onclick = function () { search.value = ''; query = ''; filter(); search.focus(); };
+    controls.querySelector('#gl-reset').onclick = function () { search.value = ''; query = ''; level = 'all'; filter(); search.focus(); };
+    index = document.createElement('div'); index.id = 'grammar-lessons'; index.className = 'gl-container hidden';
     LESSONS.forEach(function (lesson) {
-      lessonsContainer.appendChild(renderLessonCard(lesson));
+      var card = document.createElement('div'); card.className = 'gl-card'; card.dataset.lesson = lesson.id;
+      var header = button('', function () { openLesson(lesson.id); }, 'gl-card-header');
+      header.innerHTML = '<span class="gl-card-number">' + lesson.number + '</span><span class="gl-card-titles"><span class="gl-card-title">' + lesson.title + '</span><span class="gl-card-subtitle">' + lesson.subtitle + '</span></span><span class="gl-card-level card-level ' + lesson.level.split('/')[0] + '">' + lesson.level.replace(/HSK/g, 'HSK ') + '</span><span class="gl-card-chevron">→</span>';
+      card.appendChild(header); index.appendChild(card);
     });
-
-    var noRes = document.createElement('div');
-    noRes.id = 'gl-no-results';
-    noRes.className = 'no-results hidden';
-    noRes.innerHTML = '<p>Keine Lektionen gefunden.</p>';
-    lessonsContainer.appendChild(noRes);
-
-    grammarTab.insertBefore(lessonsContainer, grammarGrid);
-
-    var refSearchBar = grammarControls.querySelector('.grammar-ref-search');
-    var refFilterRows = grammarControls.querySelectorAll('.grammar-ref-filters');
-    var viewBtns = toggleRow.querySelectorAll('.gl-view-btn');
-
-    viewBtns.forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        if (window.app) window.app.playTick();
-        var view = this.getAttribute('data-view');
-        viewBtns.forEach(function (b) { b.classList.toggle('active', b === btn); });
-
-        if (view === 'lessons') {
-          refSearchBar.classList.add('hidden');
-          refFilterRows.forEach(function (f) { f.classList.add('hidden'); });
-          grammarGrid.classList.add('hidden');
-          grammarNoResults.classList.add('hidden');
-          lessonControls.classList.remove('hidden');
-          lessonsContainer.classList.remove('hidden');
-        } else {
-          refSearchBar.classList.remove('hidden');
-          refFilterRows.forEach(function (f) { f.classList.remove('hidden'); });
-          grammarGrid.classList.remove('hidden');
-          lessonControls.classList.add('hidden');
-          lessonsContainer.classList.add('hidden');
-          if (window.app && window.app.sections.grammar) {
-            window.app.sections.grammar.applyFilters();
-          }
-        }
-      });
-    });
+    var empty = document.createElement('div'); empty.id = 'gl-no-results'; empty.className = 'no-results hidden'; empty.setAttribute('role', 'status'); empty.textContent = 'Keine Lektionen gefunden. Setze die Filter zurück oder ändere die Suche.'; index.appendChild(empty);
+    reader = document.createElement('article'); reader.id = 'lesson-reader'; reader.className = 'lesson-reader hidden'; reader.setAttribute('aria-labelledby', 'lesson-title');
+    host.prepend(reader); host.prepend(index);
+    document.querySelectorAll('#grammar-view-toggle button').forEach(function (btn) { btn.addEventListener('click', function () { setView(btn.dataset.view); }); });
+    window.__grammarLessonsInitialized = true;
+    filter();
   }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initLessons);
-  } else {
-    initLessons();
-  }
+  api.setView = setView;
+  api.open = openLesson;
+  api.snapshot = function () { return { view: api.view, selected: api.selected, query: query, level: level, indexScroll: indexScroll, readingScroll: Object.assign({}, readingScroll) }; };
+  api.restore = function (state, id) {
+    if (state) { query = state.query || ''; level = state.level || 'all'; indexScroll = state.indexScroll || 0; readingScroll = Object.assign({}, state.readingScroll); }
+    controls.querySelector('input').value = query; filter();
+    setView('lessons', true);
+    if (id || (state && state.selected)) openLesson(id || state.selected, true); else showIndex(true);
+  };
+  window.GRAMMAR_LESSONS = LESSONS;
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initLessons);
+  else initLessons();
 })();

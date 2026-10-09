@@ -8,7 +8,9 @@
     "audit:data": "node scripts/audit-data.cjs",
     "test:pinyin": "node scripts/pinyin-test.cjs",
     "test:storage": "node scripts/storage-test.cjs",
-    "test:smoke": "node scripts/smoke-test.js"
+    "test:smoke": "node scripts/smoke-test.js",
+    "test:ui": "node scripts/ui-test.js",
+    "test:contrast": "node scripts/contrast-test.js"
   },
   "devDependencies": {
     "jsdom": "^26.1.0"

@@ -48,11 +48,22 @@ function getHanziByRadical() {
   return _hanziByRadical;
 }
 
+window.resetSectionLookups = function () {
+  _hanziByChar = null;
+  _radicalSet = null;
+  _hanziByRadical = null;
+};
+
 // === Bookmark Utilities ===
 
-// Prefixed keys: Nihongo Explorer shares this origin and uses bookmarks-<section>.
+// Prefixed keys: Nihongo Explorer shares this origin and uses its own nihongo- keys.
+function bookmarkKey(sectionName) {
+  return window.LANG_PROFILE.storagePrefix + 'bookmarks-' + sectionName;
+}
+
 function getBookmarks(sectionName) {
-  return window.APP_STORAGE.local.getJSON(window.LANG_PROFILE.storagePrefix + 'bookmarks-' + sectionName, [], Array.isArray);
+  var bookmarks = window.APP_STORAGE.local.getJSON(bookmarkKey(sectionName), [], Array.isArray);
+  return bookmarks.filter(function (id, index, all) { return typeof id === 'string' && id.length > 0 && all.indexOf(id) === index; });
 }
 
 function isBookmarked(sectionName, itemId) {
@@ -64,46 +75,70 @@ function toggleBookmark(sectionName, itemId) {
   var idx = bk.indexOf(itemId);
   if (idx === -1) bk.push(itemId);
   else bk.splice(idx, 1);
-  window.APP_STORAGE.local.setJSON(window.LANG_PROFILE.storagePrefix + 'bookmarks-' + sectionName, bk);
+  window.APP_STORAGE.local.setJSON(bookmarkKey(sectionName), bk);
+  document.dispatchEvent(new CustomEvent('bookmarkchange', { detail: { section: sectionName, id: itemId, starred: idx === -1 } }));
   return idx === -1;
+}
+
+function getItemId(item, fallback) {
+  if (item && item.id) return item.id;
+  return fallback;
+}
+
+function appendElement(parent, tagName, className, text) {
+  var el = document.createElement(tagName);
+  if (className) el.className = className;
+  if (text !== undefined && text !== null) el.textContent = text;
+  parent.appendChild(el);
+  return el;
 }
 
 // === Shared Card & Detail Utilities ===
 
-function createBaseCard(className, innerHTML, index, section, itemId) {
+// Cards are a native button (opens the entry) plus a separate bookmark button.
+function createBaseCard(className, content, index, section, itemId) {
   var card = document.createElement('div');
   card.className = className;
-  card.tabIndex = 0;
-  card.setAttribute('role', 'button');
-  card.innerHTML = innerHTML;
-  function activate() {
+  card.tabIndex = -1;
+  card.dataset.itemId = String(itemId);
+  var open = document.createElement('button');
+  open.type = 'button';
+  open.className = 'entry-open';
+  if (typeof content === 'function') content(open);
+  else if (content) open.innerHTML = content;
+  open.addEventListener('click', function () {
     if (window.app) window.app.playTick();
+    section._triggerEl = open;
     section.openDetail(index);
-  }
-  card.addEventListener('click', activate);
-  card.addEventListener('keydown', function (e) {
-    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
   });
-
-  if (itemId) {
-    var starred = isBookmarked(section.name, itemId);
-    var star = document.createElement('button');
-    star.className = 'bookmark-btn' + (starred ? ' active' : '');
-    star.innerHTML = starred ? '&#9733;' : '&#9734;';
-    star.title = 'Lesezeichen';
-    star.setAttribute('aria-label', 'Lesezeichen');
-    star.addEventListener('click', function (e) {
-      e.stopPropagation();
-      var nowStarred = toggleBookmark(section.name, itemId);
-      star.innerHTML = nowStarred ? '&#9733;' : '&#9734;';
-      star.classList.toggle('active', nowStarred);
-      if (window.app) window.app.playTick();
-    });
-    card.appendChild(star);
-  }
-
+  card.appendChild(open);
+  var star = document.createElement('button');
+  star.type = 'button';
+  star.className = 'bookmark-btn';
+  star.dataset.bookmarkSection = section.name;
+  star.dataset.bookmarkId = String(itemId);
+  updateBookmarkButton(star, isBookmarked(section.name, itemId));
+  star.addEventListener('click', function () { toggleBookmark(section.name, itemId); });
+  card.appendChild(star);
   return card;
 }
+
+function updateBookmarkButton(btn, starred) {
+  btn.textContent = starred ? '★' : '☆';
+  btn.classList.toggle('active', starred);
+  btn.setAttribute('aria-pressed', String(starred));
+  btn.setAttribute('aria-label', starred ? 'Lesezeichen entfernen' : 'Lesezeichen setzen');
+  btn.title = btn.getAttribute('aria-label');
+}
+document.addEventListener('bookmarkchange', function (event) {
+  document.querySelectorAll('[data-bookmark-id]').forEach(function (btn) {
+    if (btn.dataset.bookmarkSection === event.detail.section && btn.dataset.bookmarkId === String(event.detail.id)) {
+      updateBookmarkButton(btn, event.detail.starred);
+    }
+  });
+  var sec = window.app && window.app.sections[event.detail.section];
+  if (sec && sec.filters.bookmarks === 'starred') sec.applyFilters();
+});
 
 function createDetailBookmark(headerSelector, sectionName, itemId) {
   var header = document.querySelector(headerSelector);
@@ -112,25 +147,21 @@ function createDetailBookmark(headerSelector, sectionName, itemId) {
   var starred = isBookmarked(sectionName, itemId);
   var btn = document.createElement('button');
   btn.className = 'btn btn-icon detail-bookmark-btn' + (starred ? ' active' : '');
-  btn.innerHTML = starred ? '&#9733;' : '&#9734;';
-  btn.title = 'Lesezeichen';
-  btn.setAttribute('aria-label', 'Lesezeichen');
-  btn.addEventListener('click', function () {
-    var nowStarred = toggleBookmark(sectionName, itemId);
-    btn.innerHTML = nowStarred ? '&#9733;' : '&#9734;';
-    btn.classList.toggle('active', nowStarred);
-    if (window.app) window.app.playTick();
-  });
+  btn.dataset.bookmarkSection = sectionName;
+  btn.dataset.bookmarkId = String(itemId);
+  updateBookmarkButton(btn, starred);
+  btn.addEventListener('click', function () { toggleBookmark(sectionName, itemId); });
   header.appendChild(btn);
 }
 
-// Wire bookmark toggle buttons
+// Wire bookmark toggle buttons (single button that toggles between 'all' and 'starred')
 function initBookmarkToggles() {
   document.querySelectorAll('.bm-toggle').forEach(function (btn) {
     btn.addEventListener('click', function () {
       var isActive = btn.getAttribute('data-bm') === 'starred';
       btn.setAttribute('data-bm', isActive ? 'all' : 'starred');
-      btn.innerHTML = isActive ? '&#9734;' : '&#9733;';
+      btn.textContent = 'Nur Lesezeichen';
+      btn.setAttribute('aria-pressed', String(!isActive));
       btn.classList.toggle('active', !isActive);
       var classes = btn.className.split(' ');
       for (var i = 0; i < classes.length; i++) {
@@ -157,8 +188,8 @@ function initBookmarkToggles() {
 // === Tone Visualization Utilities ===
 
 function getToneColor(toneNum) {
-  var colors = { 1: '#ef4444', 2: '#f59e0b', 3: '#10b981', 4: '#3b82f6', 5: '#94a3b8' };
-  return colors[toneNum] || '#94a3b8';
+  // Theme tokens (styles.css), so tone colours keep their contrast in light and dark mode.
+  return 'var(--tone-' + (toneNum >= 1 && toneNum <= 5 ? toneNum : 5) + ')';
 }
 
 function renderToneBadge(toneNum) {
@@ -179,7 +210,7 @@ function renderToneSVG(toneNum) {
   var labels = { 1: 'hoch', 2: 'steigend', 3: 'fallend-steigend', 4: 'fallend' };
   return '<div class="tone-contour">' +
     '<svg class="tone-svg" width="' + w + '" height="' + h + '" viewBox="0 0 ' + w + ' ' + h + '">' +
-    '<path d="' + contours[toneNum] + '" fill="none" stroke="' + getToneColor(toneNum) + '" stroke-width="3" stroke-linecap="round"/>' +
+    '<path d="' + contours[toneNum] + '" fill="none" style="stroke:' + getToneColor(toneNum) + '" stroke-width="3" stroke-linecap="round"/>' +
     '</svg>' +
     '<span class="tone-contour-label" style="color:' + getToneColor(toneNum) + '">' + labels[toneNum] + '</span>' +
     '</div>';
