@@ -194,15 +194,9 @@
       loadingEl.classList.add('hidden');
     }
 
-    // Grammar — normalize inconsistent category names
+    // Grammar: consolidated sources (scripts/consolidate-grammar.cjs), one entry per pattern.
     if (window.GRAMMAR_DATA) {
-      var catMap = {
-        'Satzstruktur': 'Satzstrukturen', 'Partikeln': 'Partikel',
-        'Zeitausdruecke': 'Zeitausdrücke'
-      };
-      window.GRAMMAR_DATA.forEach(function (item) {
-        if (item.category && catMap[item.category]) item.category = catMap[item.category];
-      });
+      migrateLegacyBookmarks('grammar', window.GRAMMAR_DATA);
       app.sections.grammar.setItems(window.GRAMMAR_DATA);
     }
 

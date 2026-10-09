@@ -58,6 +58,9 @@ for (const point of grammar) {
   }
 }
 if (badExamples.length) fail(badExamples.length + ' grammar examples without chinese/german text', badExamples);
+const grammarIds = grammar.map(point => point.id);
+const badGrammarIds = grammarIds.filter((id, i) => typeof id !== 'string' || !/^g:/.test(id) || grammarIds.indexOf(id) !== i);
+if (badGrammarIds.length) fail(badGrammarIds.length + ' missing or duplicate grammar ids', badGrammarIds.map(String));
 
 const measureWords = (context.MEASURE_WORDS_DATA && context.MEASURE_WORDS_DATA.measureWords) || [];
 const badRows = [];

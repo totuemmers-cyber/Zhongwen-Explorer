@@ -436,7 +436,7 @@ SECTION_CONFIGS['grammar'] = {
     { stateKey: 'bookmarks', selector: '.filter-btn.grammar-bm', dataAttr: 'data-bm', defaultValue: 'all' }
   ],
   filterFn: function (item, query, filters) {
-    if (filters.bookmarks === 'starred' && !isBookmarked('grammar', item.pattern)) return false;
+    if (filters.bookmarks === 'starred' && !isBookmarked('grammar', item.id)) return false;
     if (filters.level !== 'all' && item.level !== filters.level) return false;
     if (filters.category !== 'all' && item.category !== filters.category) return false;
     if (!query) return true;
@@ -485,10 +485,10 @@ SECTION_CONFIGS['grammar'] = {
       '</div>' +
       '<div class="grammar-card-meaning">' + (item.meaning || '') + '</div>' +
       (exampleText ? '<div class="grammar-card-example">' + exampleText + '</div>' : ''),
-      index, section, item.pattern);
+      index, section, item.id);
   },
   openDetail: function (item, dom, section) {
-    createDetailBookmark('.grammar-detail-header', 'grammar', item.pattern);
+    createDetailBookmark('.grammar-detail-header', 'grammar', item.id);
     var patternEl = document.getElementById('grammar-detail-pattern');
     patternEl.textContent = item.pattern;
     patternEl.style.cursor = 'pointer';
