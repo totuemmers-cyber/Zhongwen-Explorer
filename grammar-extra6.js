@@ -15,8 +15,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '他既不喝酒也不抽烟。', pinyin: 'Tā jì bù hē jiǔ yě bù chōuyān.', de: 'Er trinkt weder Alkohol noch raucht er.' },
-      { zh: '这件事既不紧急也不重要。', pinyin: 'Zhè jiàn shì jì bù jǐnjí yě bù zhòngyào.', de: 'Diese Angelegenheit ist weder dringend noch wichtig.' }
+      { chinese: '他既不喝酒也不抽烟。', pinyin: 'Tā jì bù hē jiǔ yě bù chōuyān.', german: 'Er trinkt weder Alkohol noch raucht er.' },
+      { chinese: '这件事既不紧急也不重要。', pinyin: 'Zhè jiàn shì jì bù jǐnjí yě bù zhòngyào.', german: 'Diese Angelegenheit ist weder dringend noch wichtig.' }
     ]
   },
   {
@@ -26,8 +26,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '不到长城非好汉。', pinyin: 'Bú dào Chángchéng fēi hǎohàn.', de: 'Wer die Große Mauer nicht erreicht hat, ist kein Held.' },
-      { zh: '不到最后一刻不放弃。', pinyin: 'Bú dào zuìhòu yí kè bù fàngqì.', de: 'Erst in der allerletzten Sekunde aufgeben (d. h. niemals).' }
+      { chinese: '不到长城非好汉。', pinyin: 'Bú dào Chángchéng fēi hǎohàn.', german: 'Wer die Große Mauer nicht erreicht hat, ist kein Held.' },
+      { chinese: '不到最后一刻不放弃。', pinyin: 'Bú dào zuìhòu yí kè bù fàngqì.', german: 'Erst in der allerletzten Sekunde aufgeben (d. h. niemals).' }
     ]
   },
   {
@@ -37,8 +37,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '非你来才行。', pinyin: 'Fēi nǐ lái cái xíng.', de: 'Nur wenn du kommst, geht es.' },
-      { zh: '非亲眼看到才能相信。', pinyin: 'Fēi qīnyǎn kàn dào cái néng xiāngxìn.', de: 'Erst wenn man es mit eigenen Augen sieht, kann man es glauben.' }
+      { chinese: '非你来才行。', pinyin: 'Fēi nǐ lái cái xíng.', german: 'Nur wenn du kommst, geht es.' },
+      { chinese: '非亲眼看到才能相信。', pinyin: 'Fēi qīnyǎn kàn dào cái néng xiāngxìn.', german: 'Erst wenn man es mit eigenen Augen sieht, kann man es glauben.' }
     ]
   },
   {
@@ -48,8 +48,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Konjunktionen',
     examples: [
-      { zh: '一经发现，便立即处理。', pinyin: 'Yì jīng fāxiàn, biàn lìjí chǔlǐ.', de: 'Sobald es entdeckt wird, wird es sofort behandelt.' },
-      { zh: '申请一经批准，便可入职。', pinyin: 'Shēnqǐng yì jīng pīzhǔn, biàn kě rùzhí.', de: 'Sobald der Antrag genehmigt ist, kann man die Stelle antreten.' }
+      { chinese: '一经发现，便立即处理。', pinyin: 'Yì jīng fāxiàn, biàn lìjí chǔlǐ.', german: 'Sobald es entdeckt wird, wird es sofort behandelt.' },
+      { chinese: '申请一经批准，便可入职。', pinyin: 'Shēnqǐng yì jīng pīzhǔn, biàn kě rùzhí.', german: 'Sobald der Antrag genehmigt ist, kann man die Stelle antreten.' }
     ]
   },
   {
@@ -59,8 +59,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Konjunktionen',
     examples: [
-      { zh: '你要么现在走，要么等到明天。', pinyin: 'Nǐ yàome xiànzài zǒu, yàome děng dào míngtiān.', de: 'Du gehst entweder jetzt oder wartest bis morgen.' },
-      { zh: '要么成功，要么失败，没有第三种选择。', pinyin: 'Yàome chénggōng, yàome shībài, méiyǒu dì sān zhǒng xuǎnzé.', de: 'Entweder Erfolg oder Misserfolg, es gibt keine dritte Option.' }
+      { chinese: '你要么现在走，要么等到明天。', pinyin: 'Nǐ yàome xiànzài zǒu, yàome děng dào míngtiān.', german: 'Du gehst entweder jetzt oder wartest bis morgen.' },
+      { chinese: '要么成功，要么失败，没有第三种选择。', pinyin: 'Yàome chénggōng, yàome shībài, méiyǒu dì sān zhǒng xuǎnzé.', german: 'Entweder Erfolg oder Misserfolg, es gibt keine dritte Option.' }
     ]
   },
   {
@@ -70,8 +70,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '坐车也好，走路也好，都可以。', pinyin: 'Zuò chē yě hǎo, zǒulù yě hǎo, dōu kěyǐ.', de: 'Ob mit dem Auto oder zu Fuß, beides geht.' },
-      { zh: '便宜也好，贵也好，关键是质量好。', pinyin: 'Piányi yě hǎo, guì yě hǎo, guānjiàn shì zhìliàng hǎo.', de: 'Ob billig oder teuer, die Hauptsache ist gute Qualität.' }
+      { chinese: '坐车也好，走路也好，都可以。', pinyin: 'Zuò chē yě hǎo, zǒulù yě hǎo, dōu kěyǐ.', german: 'Ob mit dem Auto oder zu Fuß, beides geht.' },
+      { chinese: '便宜也好，贵也好，关键是质量好。', pinyin: 'Piányi yě hǎo, guì yě hǎo, guānjiàn shì zhìliàng hǎo.', german: 'Ob billig oder teuer, die Hauptsache ist gute Qualität.' }
     ]
   },
   {
@@ -81,8 +81,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '他迟到不说，还忘了带资料。', pinyin: 'Tā chídào bù shuō, hái wàng le dài zīliào.', de: 'Er kam nicht nur zu spät, er vergaß auch noch die Unterlagen.' },
-      { zh: '这家餐厅贵不说，菜还不好吃。', pinyin: 'Zhè jiā cāntīng guì bù shuō, cài hái bù hǎochī.', de: 'Dieses Restaurant ist nicht nur teuer, das Essen schmeckt auch noch schlecht.' }
+      { chinese: '他迟到不说，还忘了带资料。', pinyin: 'Tā chídào bù shuō, hái wàng le dài zīliào.', german: 'Er kam nicht nur zu spät, er vergaß auch noch die Unterlagen.' },
+      { chinese: '这家餐厅贵不说，菜还不好吃。', pinyin: 'Zhè jiā cāntīng guì bù shuō, cài hái bù hǎochī.', german: 'Dieses Restaurant ist nicht nur teuer, das Essen schmeckt auch noch schlecht.' }
     ]
   },
   {
@@ -92,8 +92,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '他是我最好的朋友之一。', pinyin: 'Tā shì wǒ zuì hǎo de péngyou zhī yī.', de: 'Er ist einer meiner besten Freunde.' },
-      { zh: '这是世界上最大的城市之一。', pinyin: 'Zhè shì shìjiè shàng zuìdà de chéngshì zhī yī.', de: 'Dies ist eine der größten Städte der Welt.' }
+      { chinese: '他是我最好的朋友之一。', pinyin: 'Tā shì wǒ zuì hǎo de péngyou zhī yī.', german: 'Er ist einer meiner besten Freunde.' },
+      { chinese: '这是世界上最大的城市之一。', pinyin: 'Zhè shì shìjiè shàng zuìdà de chéngshì zhī yī.', german: 'Dies ist eine der größten Städte der Welt.' }
     ]
   },
   {
@@ -103,8 +103,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Adverbien',
     examples: [
-      { zh: '我就知道他会迟到，果不其然。', pinyin: 'Wǒ jiù zhīdào tā huì chídào, guǒ bù qí rán.', de: 'Ich wusste, dass er zu spät kommen würde, und tatsächlich war es so.' },
-      { zh: '果不其然，第二天就下雨了。', pinyin: 'Guǒ bù qí rán, dì èr tiān jiù xià yǔ le.', de: 'Wie erwartet hat es am nächsten Tag geregnet.' }
+      { chinese: '我就知道他会迟到，果不其然。', pinyin: 'Wǒ jiù zhīdào tā huì chídào, guǒ bù qí rán.', german: 'Ich wusste, dass er zu spät kommen würde, und tatsächlich war es so.' },
+      { chinese: '果不其然，第二天就下雨了。', pinyin: 'Guǒ bù qí rán, dì èr tiān jiù xià yǔ le.', german: 'Wie erwartet hat es am nächsten Tag geregnet.' }
     ]
   },
   {
@@ -114,8 +114,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '说白了，他就是不想帮忙。', pinyin: 'Shuō bái le, tā jiùshì bù xiǎng bāngmáng.', de: 'Im Klartext: Er will einfach nicht helfen.' },
-      { zh: '说白了，这不过是钱的问题。', pinyin: 'Shuō bái le, zhè búguò shì qián de wèntí.', de: 'Offen gesagt ist es nur eine Frage des Geldes.' }
+      { chinese: '说白了，他就是不想帮忙。', pinyin: 'Shuō bái le, tā jiùshì bù xiǎng bāngmáng.', german: 'Im Klartext: Er will einfach nicht helfen.' },
+      { chinese: '说白了，这不过是钱的问题。', pinyin: 'Shuō bái le, zhè búguò shì qián de wèntí.', german: 'Offen gesagt ist es nur eine Frage des Geldes.' }
     ]
   },
 
@@ -128,8 +128,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '他之所以成功，在于他的坚持。', pinyin: 'Tā zhī suǒyǐ chénggōng, zàiyú tā de jiānchí.', de: 'Der Grund für seinen Erfolg liegt in seiner Beharrlichkeit.' },
-      { zh: '这个问题之所以难解决，在于涉及太多利益方。', pinyin: 'Zhège wèntí zhī suǒyǐ nán jiějué, zàiyú shèjí tài duō lìyì fāng.', de: 'Der Grund, warum dieses Problem schwer zu lösen ist, liegt darin, dass zu viele Interessengruppen beteiligt sind.' }
+      { chinese: '他之所以成功，在于他的坚持。', pinyin: 'Tā zhī suǒyǐ chénggōng, zàiyú tā de jiānchí.', german: 'Der Grund für seinen Erfolg liegt in seiner Beharrlichkeit.' },
+      { chinese: '这个问题之所以难解决，在于涉及太多利益方。', pinyin: 'Zhège wèntí zhī suǒyǐ nán jiějué, zàiyú shèjí tài duō lìyì fāng.', german: 'Der Grund, warum dieses Problem schwer zu lösen ist, liegt darin, dass zu viele Interessengruppen beteiligt sind.' }
     ]
   },
   {
@@ -139,8 +139,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '正因为难，所以才有价值。', pinyin: 'Zhèng yīnwèi nán, suǒyǐ cái yǒu jiàzhí.', de: 'Gerade weil es schwer ist, hat es deshalb Wert.' },
-      { zh: '正因为他很努力，所以取得了好成绩。', pinyin: 'Zhèng yīnwèi tā hěn nǔlì, suǒyǐ qǔdé le hǎo chéngjì.', de: 'Gerade weil er so fleißig war, hat er deshalb gute Ergebnisse erzielt.' }
+      { chinese: '正因为难，所以才有价值。', pinyin: 'Zhèng yīnwèi nán, suǒyǐ cái yǒu jiàzhí.', german: 'Gerade weil es schwer ist, hat es deshalb Wert.' },
+      { chinese: '正因为他很努力，所以取得了好成绩。', pinyin: 'Zhèng yīnwèi tā hěn nǔlì, suǒyǐ qǔdé le hǎo chéngjì.', german: 'Gerade weil er so fleißig war, hat er deshalb gute Ergebnisse erzielt.' }
     ]
   },
   {
@@ -150,8 +150,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '与其在这里等，倒不如先去办别的事。', pinyin: 'Yǔqí zài zhèlǐ děng, dào bùrú xiān qù bàn bié de shì.', de: 'Anstatt hier zu warten, wäre es besser, erst andere Dinge zu erledigen.' },
-      { zh: '与其担心，倒不如行动起来。', pinyin: 'Yǔqí dānxīn, dào bùrú xíngdòng qǐlái.', de: 'Anstatt sich Sorgen zu machen, wäre es besser, einfach zu handeln.' }
+      { chinese: '与其在这里等，倒不如先去办别的事。', pinyin: 'Yǔqí zài zhèlǐ děng, dào bùrú xiān qù bàn bié de shì.', german: 'Anstatt hier zu warten, wäre es besser, erst andere Dinge zu erledigen.' },
+      { chinese: '与其担心，倒不如行动起来。', pinyin: 'Yǔqí dānxīn, dào bùrú xíngdòng qǐlái.', german: 'Anstatt sich Sorgen zu machen, wäre es besser, einfach zu handeln.' }
     ]
   },
   {
@@ -161,8 +161,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '既来之，则安之。', pinyin: 'Jì lái zhī, zé ān zhī.', de: 'Wenn man schon da ist, sollte man sich damit abfinden.' },
-      { zh: '既然答应了，就应该做到。', pinyin: 'Jìrán dāying le, jiù yīnggāi zuòdào.', de: 'Wenn man es schon versprochen hat, sollte man es auch einhalten.' }
+      { chinese: '既来之，则安之。', pinyin: 'Jì lái zhī, zé ān zhī.', german: 'Wenn man schon da ist, sollte man sich damit abfinden.' },
+      { chinese: '既然答应了，就应该做到。', pinyin: 'Jìrán dāying le, jiù yīnggāi zuòdào.', german: 'Wenn man es schon versprochen hat, sollte man es auch einhalten.' }
     ]
   },
   {
@@ -172,8 +172,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '今天晚上，要不看电影，要不去散步。', pinyin: 'Jīntiān wǎnshang, yào bù kàn diànyǐng, yào bù qù sànbù.', de: 'Heute Abend entweder ins Kino gehen oder spazieren gehen.' },
-      { zh: '要不你先走，要不我们一起等他。', pinyin: 'Yào bù nǐ xiān zǒu, yào bù wǒmen yìqǐ děng tā.', de: 'Entweder du gehst zuerst, oder wir warten zusammen auf ihn.' }
+      { chinese: '今天晚上，要不看电影，要不去散步。', pinyin: 'Jīntiān wǎnshang, yào bù kàn diànyǐng, yào bù qù sànbù.', german: 'Heute Abend entweder ins Kino gehen oder spazieren gehen.' },
+      { chinese: '要不你先走，要不我们一起等他。', pinyin: 'Yào bù nǐ xiān zǒu, yào bù wǒmen yìqǐ děng tā.', german: 'Entweder du gehst zuerst, oder wir warten zusammen auf ihn.' }
     ]
   },
   {
@@ -183,8 +183,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '别说外国人了，就连中国人也不一定能听懂。', pinyin: 'Bié shuō wàiguórén le, jiù lián Zhōngguórén yě bù yídìng néng tīng dǒng.', de: 'Von Ausländern ganz zu schweigen, sogar Chinesen verstehen es nicht unbedingt.' },
-      { zh: '别说买房了，就连租房都租不起。', pinyin: 'Bié shuō mǎi fáng le, jiù lián zū fáng dōu zū bù qǐ.', de: 'Vom Hauskauf ganz zu schweigen, man kann sich nicht einmal die Miete leisten.' }
+      { chinese: '别说外国人了，就连中国人也不一定能听懂。', pinyin: 'Bié shuō wàiguórén le, jiù lián Zhōngguórén yě bù yídìng néng tīng dǒng.', german: 'Von Ausländern ganz zu schweigen, sogar Chinesen verstehen es nicht unbedingt.' },
+      { chinese: '别说买房了，就连租房都租不起。', pinyin: 'Bié shuō mǎi fáng le, jiù lián zū fáng dōu zū bù qǐ.', german: 'Vom Hauskauf ganz zu schweigen, man kann sich nicht einmal die Miete leisten.' }
     ]
   },
   {
@@ -194,8 +194,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '他不但没生气，反而笑了起来。', pinyin: 'Tā bù dàn méi shēngqì, fǎnér xiào le qǐlái.', de: 'Er wurde nicht nur nicht wütend, sondern fing im Gegenteil an zu lachen.' },
-      { zh: '问题不减反增。', pinyin: 'Wèntí bù jiǎn fǎn zēng.', de: 'Die Probleme nahmen nicht ab, sondern im Gegenteil zu.' }
+      { chinese: '他不但没生气，反而笑了起来。', pinyin: 'Tā bù dàn méi shēngqì, fǎnér xiào le qǐlái.', german: 'Er wurde nicht nur nicht wütend, sondern fing im Gegenteil an zu lachen.' },
+      { chinese: '问题不减反增。', pinyin: 'Wèntí bù jiǎn fǎn zēng.', german: 'Die Probleme nahmen nicht ab, sondern im Gegenteil zu.' }
     ]
   },
   {
@@ -205,8 +205,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '这件事可大可小。', pinyin: 'Zhè jiàn shì kě dà kě xiǎo.', de: 'Diese Sache kann bedeutsam oder unbedeutend sein.' },
-      { zh: '天气可冷可热的，真让人受不了。', pinyin: 'Tiānqì kě lěng kě rè de, zhēn ràng rén shòu bù liǎo.', de: 'Das Wetter ist mal kalt, mal heiß - wirklich unerträglich.' }
+      { chinese: '这件事可大可小。', pinyin: 'Zhè jiàn shì kě dà kě xiǎo.', german: 'Diese Sache kann bedeutsam oder unbedeutend sein.' },
+      { chinese: '天气可冷可热的，真让人受不了。', pinyin: 'Tiānqì kě lěng kě rè de, zhēn ràng rén shòu bù liǎo.', german: 'Das Wetter ist mal kalt, mal heiß - wirklich unerträglich.' }
     ]
   },
   {
@@ -216,8 +216,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '他是有些固执。话说回来，他说的也有道理。', pinyin: 'Tā shì yǒuxiē gùzhi. Huà shuō huílái, tā shuō de yě yǒu dàolǐ.', de: 'Er ist schon etwas stur. Andererseits hat das, was er sagt, auch seine Berechtigung.' },
-      { zh: '加班确实辛苦，话说回来，工资也高。', pinyin: 'Jiābān quèshí xīnkǔ, huà shuō huílái, gōngzī yě gāo.', de: 'Überstunden sind wirklich anstrengend, andererseits ist das Gehalt auch hoch.' }
+      { chinese: '他是有些固执。话说回来，他说的也有道理。', pinyin: 'Tā shì yǒuxiē gùzhi. Huà shuō huílái, tā shuō de yě yǒu dàolǐ.', german: 'Er ist schon etwas stur. Andererseits hat das, was er sagt, auch seine Berechtigung.' },
+      { chinese: '加班确实辛苦，话说回来，工资也高。', pinyin: 'Jiābān quèshí xīnkǔ, huà shuō huílái, gōngzī yě gāo.', german: 'Überstunden sind wirklich anstrengend, andererseits ist das Gehalt auch hoch.' }
     ]
   },
   {
@@ -227,8 +227,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '说到底，还是钱的问题。', pinyin: 'Shuō dào dǐ, háishi qián de wèntí.', de: 'Letzten Endes ist es eine Frage des Geldes.' },
-      { zh: '说到底，成功靠的是坚持。', pinyin: 'Shuō dào dǐ, chénggōng kào de shì jiānchí.', de: 'Im Grunde genommen hängt Erfolg von Beharrlichkeit ab.' }
+      { chinese: '说到底，还是钱的问题。', pinyin: 'Shuō dào dǐ, háishi qián de wèntí.', german: 'Letzten Endes ist es eine Frage des Geldes.' },
+      { chinese: '说到底，成功靠的是坚持。', pinyin: 'Shuō dào dǐ, chénggōng kào de shì jiānchí.', german: 'Im Grunde genommen hängt Erfolg von Beharrlichkeit ab.' }
     ]
   },
   {
@@ -238,8 +238,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Rhetorisch',
     examples: [
-      { zh: '减肥说起来容易做起来难。', pinyin: 'Jiǎnféi shuō qǐlái róngyì zuò qǐlái nán.', de: 'Abnehmen ist leichter gesagt als getan.' },
-      { zh: '改变习惯说起来容易做起来难。', pinyin: 'Gǎibiàn xíguàn shuō qǐlái róngyì zuò qǐlái nán.', de: 'Gewohnheiten zu ändern, ist leichter gesagt als getan.' }
+      { chinese: '减肥说起来容易做起来难。', pinyin: 'Jiǎnféi shuō qǐlái róngyì zuò qǐlái nán.', german: 'Abnehmen ist leichter gesagt als getan.' },
+      { chinese: '改变习惯说起来容易做起来难。', pinyin: 'Gǎibiàn xíguàn shuō qǐlái róngyì zuò qǐlái nán.', german: 'Gewohnheiten zu ändern, ist leichter gesagt als getan.' }
     ]
   },
   {
@@ -249,8 +249,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Rhetorisch',
     examples: [
-      { zh: '可不是嘛，天气越来越冷了。', pinyin: 'Kě bú shì ma, tiānqì yuè lái yuè lěng le.', de: 'Das stimmt allerdings, das Wetter wird immer kälter.' },
-      { zh: '可不是嘛，时间过得真快。', pinyin: 'Kě bú shì ma, shíjiān guò de zhēn kuài.', de: 'Da hast du recht, die Zeit vergeht wirklich schnell.' }
+      { chinese: '可不是嘛，天气越来越冷了。', pinyin: 'Kě bú shì ma, tiānqì yuè lái yuè lěng le.', german: 'Das stimmt allerdings, das Wetter wird immer kälter.' },
+      { chinese: '可不是嘛，时间过得真快。', pinyin: 'Kě bú shì ma, shíjiān guò de zhēn kuài.', german: 'Da hast du recht, die Zeit vergeht wirklich schnell.' }
     ]
   },
   {
@@ -260,8 +260,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Partikeln',
     examples: [
-      { zh: '他不来也罢，我们自己去。', pinyin: 'Tā bù lái yě bà, wǒmen zìjǐ qù.', de: 'Wenn er nicht kommt, auch gut, wir gehen alleine.' },
-      { zh: '成功也罢，失败也罢，至少我尝试过了。', pinyin: 'Chénggōng yě bà, shībài yě bà, zhìshǎo wǒ chángshì guò le.', de: 'Ob Erfolg oder Misserfolg, zumindest habe ich es versucht.' }
+      { chinese: '他不来也罢，我们自己去。', pinyin: 'Tā bù lái yě bà, wǒmen zìjǐ qù.', german: 'Wenn er nicht kommt, auch gut, wir gehen alleine.' },
+      { chinese: '成功也罢，失败也罢，至少我尝试过了。', pinyin: 'Chénggōng yě bà, shībài yě bà, zhìshǎo wǒ chángshì guò le.', german: 'Ob Erfolg oder Misserfolg, zumindest habe ich es versucht.' }
     ]
   },
   {
@@ -271,8 +271,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Rhetorisch',
     examples: [
-      { zh: '迟到也就罢了，还不道歉。', pinyin: 'Chídào yě jiù bà le, hái bù dàoqiàn.', de: 'Zu spät kommen wäre ja noch in Ordnung, aber sich nicht einmal entschuldigen!' },
-      { zh: '不帮忙也就罢了，竟然还添乱。', pinyin: 'Bù bāngmáng yě jiù bà le, jìngrán hái tiānluàn.', de: 'Nicht helfen wäre ja in Ordnung, aber dann auch noch Chaos stiften!' }
+      { chinese: '迟到也就罢了，还不道歉。', pinyin: 'Chídào yě jiù bà le, hái bù dàoqiàn.', german: 'Zu spät kommen wäre ja noch in Ordnung, aber sich nicht einmal entschuldigen!' },
+      { chinese: '不帮忙也就罢了，竟然还添乱。', pinyin: 'Bù bāngmáng yě jiù bà le, jìngrán hái tiānluàn.', german: 'Nicht helfen wäre ja in Ordnung, aber dann auch noch Chaos stiften!' }
     ]
   },
 
@@ -285,8 +285,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Rhetorisch',
     examples: [
-      { zh: '这不是能不能的问题，而是愿不愿意的问题。', pinyin: 'Zhè bú shì néng bù néng de wèntí, ér shì yuàn bú yuànyì de wèntí.', de: 'Es geht nicht darum, ob man kann, sondern ob man will.' },
-      { zh: '不是钱的问题，而是原则的问题。', pinyin: 'Bú shì qián de wèntí, ér shì yuánzé de wèntí.', de: 'Es geht nicht ums Geld, sondern ums Prinzip.' }
+      { chinese: '这不是能不能的问题，而是愿不愿意的问题。', pinyin: 'Zhè bú shì néng bù néng de wèntí, ér shì yuàn bú yuànyì de wèntí.', german: 'Es geht nicht darum, ob man kann, sondern ob man will.' },
+      { chinese: '不是钱的问题，而是原则的问题。', pinyin: 'Bú shì qián de wèntí, ér shì yuánzé de wèntí.', german: 'Es geht nicht ums Geld, sondern ums Prinzip.' }
     ]
   },
   {
@@ -296,8 +296,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Rhetorisch',
     examples: [
-      { zh: '成功不在于聪明，而在于勤奋。', pinyin: 'Chénggōng bú zàiyú cōngmíng, ér zàiyú qínfèn.', de: 'Erfolg liegt nicht an der Intelligenz, sondern am Fleiß.' },
-      { zh: '关键不在于做多少，而在于做得好不好。', pinyin: 'Guānjiàn bú zàiyú zuò duōshǎo, ér zàiyú zuò de hǎo bù hǎo.', de: 'Es kommt nicht darauf an, wie viel man tut, sondern ob man es gut macht.' }
+      { chinese: '成功不在于聪明，而在于勤奋。', pinyin: 'Chénggōng bú zàiyú cōngmíng, ér zàiyú qínfèn.', german: 'Erfolg liegt nicht an der Intelligenz, sondern am Fleiß.' },
+      { chinese: '关键不在于做多少，而在于做得好不好。', pinyin: 'Guānjiàn bú zàiyú zuò duōshǎo, ér zàiyú zuò de hǎo bù hǎo.', german: 'Es kommt nicht darauf an, wie viel man tut, sondern ob man es gut macht.' }
     ]
   },
   {
@@ -307,8 +307,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Rhetorisch',
     examples: [
-      { zh: '招聘人才应该宁缺毋滥。', pinyin: 'Zhāopìn réncái yīnggāi nìng quē wú làn.', de: 'Bei der Rekrutierung von Talenten sollte man lieber auf Qualität als auf Quantität setzen.' },
-      { zh: '交朋友也要宁缺毋滥。', pinyin: 'Jiāo péngyou yě yào nìng quē wú làn.', de: 'Auch bei Freundschaften sollte man auf Qualität statt Quantität setzen.' }
+      { chinese: '招聘人才应该宁缺毋滥。', pinyin: 'Zhāopìn réncái yīnggāi nìng quē wú làn.', german: 'Bei der Rekrutierung von Talenten sollte man lieber auf Qualität als auf Quantität setzen.' },
+      { chinese: '交朋友也要宁缺毋滥。', pinyin: 'Jiāo péngyou yě yào nìng quē wú làn.', german: 'Auch bei Freundschaften sollte man auf Qualität statt Quantität setzen.' }
     ]
   },
   {
@@ -318,8 +318,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '所谓"入乡随俗"就是要尊重当地的风俗习惯。', pinyin: 'Suǒwèi "rùxiāng suísú" jiùshì yào zūnzhòng dāngdì de fēngsú xíguàn.', de: 'Das sogenannte „Wenn man in ein Dorf kommt, folge man den Sitten" bedeutet, die lokalen Bräuche zu respektieren.' },
-      { zh: '所谓成功，就是不断超越自己。', pinyin: 'Suǒwèi chénggōng, jiùshì búduàn chāoyuè zìjǐ.', de: 'Das sogenannte Erfolg bedeutet, sich selbst ständig zu übertreffen.' }
+      { chinese: '所谓"入乡随俗"就是要尊重当地的风俗习惯。', pinyin: 'Suǒwèi "rùxiāng suísú" jiùshì yào zūnzhòng dāngdì de fēngsú xíguàn.', german: 'Das sogenannte „Wenn man in ein Dorf kommt, folge man den Sitten" bedeutet, die lokalen Bräuche zu respektieren.' },
+      { chinese: '所谓成功，就是不断超越自己。', pinyin: 'Suǒwèi chénggōng, jiùshì búduàn chāoyuè zìjǐ.', german: 'Das sogenannte Erfolg bedeutet, sich selbst ständig zu übertreffen.' }
     ]
   },
   {
@@ -329,8 +329,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Literarisch',
     examples: [
-      { zh: '成功之道无他，勤奋而已。', pinyin: 'Chénggōng zhī dào wú tā, qínfèn éryǐ.', de: 'Das Geheimnis des Erfolgs ist nichts anderes als Fleiß.' },
-      { zh: '此事无他，唯手熟尔。', pinyin: 'Cǐ shì wú tā, wéi shǒu shú ěr.', de: 'Es steckt nichts Besonderes dahinter, nur Übung.' }
+      { chinese: '成功之道无他，勤奋而已。', pinyin: 'Chénggōng zhī dào wú tā, qínfèn éryǐ.', german: 'Das Geheimnis des Erfolgs ist nichts anderes als Fleiß.' },
+      { chinese: '此事无他，唯手熟尔。', pinyin: 'Cǐ shì wú tā, wéi shǒu shú ěr.', german: 'Es steckt nichts Besonderes dahinter, nur Übung.' }
     ]
   },
   {
@@ -340,8 +340,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Rhetorisch',
     examples: [
-      { zh: '专家尚且如此，何况普通人呢？', pinyin: 'Zhuānjiā shàngqiě rúcǐ, hékuàng pǔtōngrén ne?', de: 'Wenn es schon Experten so geht, wie erst normale Leute?' },
-      { zh: '平时尚且如此忙碌，何况年底呢？', pinyin: 'Píngshí shàngqiě rúcǐ mánglù, hékuàng niándǐ ne?', de: 'Normalerweise ist man schon so beschäftigt, geschweige denn am Jahresende.' }
+      { chinese: '专家尚且如此，何况普通人呢？', pinyin: 'Zhuānjiā shàngqiě rúcǐ, hékuàng pǔtōngrén ne?', german: 'Wenn es schon Experten so geht, wie erst normale Leute?' },
+      { chinese: '平时尚且如此忙碌，何况年底呢？', pinyin: 'Píngshí shàngqiě rúcǐ mánglù, hékuàng niándǐ ne?', german: 'Normalerweise ist man schon so beschäftigt, geschweige denn am Jahresende.' }
     ]
   },
   {
@@ -351,8 +351,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Rhetorisch',
     examples: [
-      { zh: '与其坐以待毙，不如主动出击。', pinyin: 'Yǔqí zuòyǐdàibì, bùrú zhǔdòng chūjī.', de: 'Anstatt untätig auf das Ende zu warten, sollte man lieber die Initiative ergreifen.' },
-      { zh: '与其坐以待毙，不如放手一搏。', pinyin: 'Yǔqí zuòyǐdàibì, bùrú fàngshǒu yì bó.', de: 'Anstatt untätig auf das Ende zu warten, sollte man es lieber wagen.' }
+      { chinese: '与其坐以待毙，不如主动出击。', pinyin: 'Yǔqí zuòyǐdàibì, bùrú zhǔdòng chūjī.', german: 'Anstatt untätig auf das Ende zu warten, sollte man lieber die Initiative ergreifen.' },
+      { chinese: '与其坐以待毙，不如放手一搏。', pinyin: 'Yǔqí zuòyǐdàibì, bùrú fàngshǒu yì bó.', german: 'Anstatt untätig auf das Ende zu warten, sollte man es lieber wagen.' }
     ]
   },
 
@@ -365,8 +365,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '首先要了解问题，其次要分析原因，最后才能找到解决方案。', pinyin: 'Shǒuxiān yào liǎojiě wèntí, qícì yào fēnxī yuányīn, zuìhòu cái néng zhǎodào jiějué fāngàn.', de: 'Erstens muss man das Problem verstehen, zweitens die Ursachen analysieren, und schließlich kann man eine Lösung finden.' },
-      { zh: '首先感谢大家的到来，其次介绍一下议程，最后进入正题。', pinyin: 'Shǒuxiān gǎnxiè dàjiā de dàolái, qícì jièshào yíxià yìchéng, zuìhòu jìnrù zhèngtí.', de: 'Zunächst danke ich allen fürs Kommen, dann stelle ich die Tagesordnung vor, und zum Schluss kommen wir zum eigentlichen Thema.' }
+      { chinese: '首先要了解问题，其次要分析原因，最后才能找到解决方案。', pinyin: 'Shǒuxiān yào liǎojiě wèntí, qícì yào fēnxī yuányīn, zuìhòu cái néng zhǎodào jiějué fāngàn.', german: 'Erstens muss man das Problem verstehen, zweitens die Ursachen analysieren, und schließlich kann man eine Lösung finden.' },
+      { chinese: '首先感谢大家的到来，其次介绍一下议程，最后进入正题。', pinyin: 'Shǒuxiān gǎnxiè dàjiā de dàolái, qícì jièshào yíxià yìchéng, zuìhòu jìnrù zhèngtí.', german: 'Zunächst danke ich allen fürs Kommen, dann stelle ich die Tagesordnung vor, und zum Schluss kommen wir zum eigentlichen Thema.' }
     ]
   },
   {
@@ -376,8 +376,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '一方面要节约成本，同时也要保证质量。', pinyin: 'Yì fāngmiàn yào jiéyuē chéngběn, tóngshí yě yào bǎozhèng zhìliàng.', de: 'Einerseits müssen die Kosten gespart werden, gleichzeitig muss auch die Qualität gesichert werden.' },
-      { zh: '一方面经济在发展，同时环境也在恶化。', pinyin: 'Yì fāngmiàn jīngjì zài fāzhǎn, tóngshí huánjìng yě zài èhuà.', de: 'Einerseits entwickelt sich die Wirtschaft, gleichzeitig verschlechtert sich auch die Umwelt.' }
+      { chinese: '一方面要节约成本，同时也要保证质量。', pinyin: 'Yì fāngmiàn yào jiéyuē chéngběn, tóngshí yě yào bǎozhèng zhìliàng.', german: 'Einerseits müssen die Kosten gespart werden, gleichzeitig muss auch die Qualität gesichert werden.' },
+      { chinese: '一方面经济在发展，同时环境也在恶化。', pinyin: 'Yì fāngmiàn jīngjì zài fāzhǎn, tóngshí huánjìng yě zài èhuà.', german: 'Einerseits entwickelt sich die Wirtschaft, gleichzeitig verschlechtert sich auch die Umwelt.' }
     ]
   },
   {
@@ -387,8 +387,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '他没通过考试，换句话说，他不能毕业。', pinyin: 'Tā méi tōngguò kǎoshì, huàn jù huà shuō, tā bù néng bìyè.', de: 'Er hat die Prüfung nicht bestanden, mit anderen Worten, er kann nicht abschließen.' },
-      { zh: '换句话说，我们需要更多的时间。', pinyin: 'Huàn jù huà shuō, wǒmen xūyào gèng duō de shíjiān.', de: 'Anders ausgedrückt brauchen wir mehr Zeit.' }
+      { chinese: '他没通过考试，换句话说，他不能毕业。', pinyin: 'Tā méi tōngguò kǎoshì, huàn jù huà shuō, tā bù néng bìyè.', german: 'Er hat die Prüfung nicht bestanden, mit anderen Worten, er kann nicht abschließen.' },
+      { chinese: '换句话说，我们需要更多的时间。', pinyin: 'Huàn jù huà shuō, wǒmen xūyào gèng duō de shíjiān.', german: 'Anders ausgedrückt brauchen wir mehr Zeit.' }
     ]
   },
   {
@@ -398,8 +398,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '严格来说，这不算违规。', pinyin: 'Yángé lái shuō, zhè bú suàn wéiguī.', de: 'Streng genommen ist das kein Verstoß.' },
-      { zh: '严格来说，熊猫不是熊。', pinyin: 'Yángé lái shuō, xióngmāo bú shì xióng.', de: 'Genau genommen ist der Panda kein Bär.' }
+      { chinese: '严格来说，这不算违规。', pinyin: 'Yángé lái shuō, zhè bú suàn wéiguī.', german: 'Streng genommen ist das kein Verstoß.' },
+      { chinese: '严格来说，熊猫不是熊。', pinyin: 'Yángé lái shuō, xióngmāo bú shì xióng.', german: 'Genau genommen ist der Panda kein Bär.' }
     ]
   },
   {
@@ -409,8 +409,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '坦白说，我对这个结果不太满意。', pinyin: 'Tǎnbái shuō, wǒ duì zhège jiéguǒ bú tài mǎnyì.', de: 'Ehrlich gesagt bin ich mit diesem Ergebnis nicht sehr zufrieden.' },
-      { zh: '坦白说，我觉得你的方案需要改进。', pinyin: 'Tǎnbái shuō, wǒ juéde nǐ de fāngàn xūyào gǎijìn.', de: 'Offen gestanden denke ich, dass dein Plan verbessert werden muss.' }
+      { chinese: '坦白说，我对这个结果不太满意。', pinyin: 'Tǎnbái shuō, wǒ duì zhège jiéguǒ bú tài mǎnyì.', german: 'Ehrlich gesagt bin ich mit diesem Ergebnis nicht sehr zufrieden.' },
+      { chinese: '坦白说，我觉得你的方案需要改进。', pinyin: 'Tǎnbái shuō, wǒ juéde nǐ de fāngàn xūyào gǎijìn.', german: 'Offen gestanden denke ich, dass dein Plan verbessert werden muss.' }
     ]
   },
   {
@@ -420,8 +420,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Rhetorisch',
     examples: [
-      { zh: '恕我直言，这个计划根本行不通。', pinyin: 'Shù wǒ zhíyán, zhège jìhuà gēnběn xíng bù tōng.', de: 'Mit Verlaub, dieser Plan funktioniert überhaupt nicht.' },
-      { zh: '恕我直言，你的判断有误。', pinyin: 'Shù wǒ zhíyán, nǐ de pànduàn yǒu wù.', de: 'Gestatten Sie, dass ich offen sage: Ihr Urteil ist falsch.' }
+      { chinese: '恕我直言，这个计划根本行不通。', pinyin: 'Shù wǒ zhíyán, zhège jìhuà gēnběn xíng bù tōng.', german: 'Mit Verlaub, dieser Plan funktioniert überhaupt nicht.' },
+      { chinese: '恕我直言，你的判断有误。', pinyin: 'Shù wǒ zhíyán, nǐ de pànduàn yǒu wù.', german: 'Gestatten Sie, dass ich offen sage: Ihr Urteil ist falsch.' }
     ]
   },
   {
@@ -431,8 +431,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Rhetorisch',
     examples: [
-      { zh: '好了，言归正传，我们来讨论今天的议题。', pinyin: 'Hǎo le, yán guī zhèngzhuàn, wǒmen lái tǎolùn jīntiān de yìtí.', de: 'Gut, zurück zum eigentlichen Thema, lassen Sie uns den heutigen Tagesordnungspunkt besprechen.' },
-      { zh: '闲话少说，言归正传。', pinyin: 'Xiánhuà shǎo shuō, yán guī zhèngzhuàn.', de: 'Genug Geplauder, kommen wir zur Sache.' }
+      { chinese: '好了，言归正传，我们来讨论今天的议题。', pinyin: 'Hǎo le, yán guī zhèngzhuàn, wǒmen lái tǎolùn jīntiān de yìtí.', german: 'Gut, zurück zum eigentlichen Thema, lassen Sie uns den heutigen Tagesordnungspunkt besprechen.' },
+      { chinese: '闲话少说，言归正传。', pinyin: 'Xiánhuà shǎo shuō, yán guī zhèngzhuàn.', german: 'Genug Geplauder, kommen wir zur Sache.' }
     ]
   },
   {
@@ -442,8 +442,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Rhetorisch',
     examples: [
-      { zh: '我们就事论事，不要扯别的。', pinyin: 'Wǒmen jiù shì lùn shì, bú yào chě bié de.', de: 'Bleiben wir bei der Sache und schweifen nicht ab.' },
-      { zh: '就事论事地说，这个方案确实有改进的空间。', pinyin: 'Jiù shì lùn shì de shuō, zhège fāngàn quèshí yǒu gǎijìn de kōngjiān.', de: 'Sachlich betrachtet hat dieser Plan tatsächlich Verbesserungspotenzial.' }
+      { chinese: '我们就事论事，不要扯别的。', pinyin: 'Wǒmen jiù shì lùn shì, bú yào chě bié de.', german: 'Bleiben wir bei der Sache und schweifen nicht ab.' },
+      { chinese: '就事论事地说，这个方案确实有改进的空间。', pinyin: 'Jiù shì lùn shì de shuō, zhège fāngàn quèshí yǒu gǎijìn de kōngjiān.', german: 'Sachlich betrachtet hat dieser Plan tatsächlich Verbesserungspotenzial.' }
     ]
   },
 
@@ -456,8 +456,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '他的病非但没有好转，反而更加严重了。', pinyin: 'Tā de bìng fēidàn méiyǒu hǎozhuǎn, fǎnér gèng jiā yánzhòng le.', de: 'Seine Krankheit hat sich nicht nur nicht gebessert, sondern im Gegenteil verschlimmert.' },
-      { zh: '批评他非但没有效果，反而激起了他的反感。', pinyin: 'Pīpíng tā fēidàn méiyǒu xiàoguǒ, fǎnér jīqǐ le tā de fǎngǎn.', de: 'Die Kritik an ihm hatte nicht nur keine Wirkung, sondern rief im Gegenteil seine Abneigung hervor.' }
+      { chinese: '他的病非但没有好转，反而更加严重了。', pinyin: 'Tā de bìng fēidàn méiyǒu hǎozhuǎn, fǎnér gèng jiā yánzhòng le.', german: 'Seine Krankheit hat sich nicht nur nicht gebessert, sondern im Gegenteil verschlimmert.' },
+      { chinese: '批评他非但没有效果，反而激起了他的反感。', pinyin: 'Pīpíng tā fēidàn méiyǒu xiàoguǒ, fǎnér jīqǐ le tā de fǎngǎn.', german: 'Die Kritik an ihm hatte nicht nur keine Wirkung, sondern rief im Gegenteil seine Abneigung hervor.' }
     ]
   },
   {
@@ -467,8 +467,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '他非但不承认错误，反而指责别人。', pinyin: 'Tā fēidàn bù chéngrèn cuòwù, fǎnér zhǐzé biérén.', de: 'Er gesteht nicht nur seinen Fehler nicht ein, sondern beschuldigt im Gegenteil andere.' },
-      { zh: '价格非但不降，反而上涨了。', pinyin: 'Jiàgé fēidàn bú jiàng, fǎnér shàngzhǎng le.', de: 'Der Preis ist nicht nur nicht gesunken, sondern im Gegenteil gestiegen.' }
+      { chinese: '他非但不承认错误，反而指责别人。', pinyin: 'Tā fēidàn bù chéngrèn cuòwù, fǎnér zhǐzé biérén.', german: 'Er gesteht nicht nur seinen Fehler nicht ein, sondern beschuldigt im Gegenteil andere.' },
+      { chinese: '价格非但不降，反而上涨了。', pinyin: 'Jiàgé fēidàn bú jiàng, fǎnér shàngzhǎng le.', german: 'Der Preis ist nicht nur nicht gesunken, sondern im Gegenteil gestiegen.' }
     ]
   },
   {
@@ -478,8 +478,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Konjunktionen',
     examples: [
-      { zh: '纵使困难重重，我们也要坚持下去。', pinyin: 'Zòngshǐ kùnnan chóngchóng, wǒmen yě yào jiānchí xiàqù.', de: 'Selbst wenn die Schwierigkeiten zahlreich sind, müssen wir durchhalten.' },
-      { zh: '纵使天涯海角，我也要找到你。', pinyin: 'Zòngshǐ tiānyá hǎijiǎo, wǒ yě yào zhǎodào nǐ.', de: 'Selbst wenn du am Ende der Welt wärst, würde ich dich finden.' }
+      { chinese: '纵使困难重重，我们也要坚持下去。', pinyin: 'Zòngshǐ kùnnan chóngchóng, wǒmen yě yào jiānchí xiàqù.', german: 'Selbst wenn die Schwierigkeiten zahlreich sind, müssen wir durchhalten.' },
+      { chinese: '纵使天涯海角，我也要找到你。', pinyin: 'Zòngshǐ tiānyá hǎijiǎo, wǒ yě yào zhǎodào nǐ.', german: 'Selbst wenn du am Ende der Welt wärst, würde ich dich finden.' }
     ]
   },
   {
@@ -489,8 +489,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Konjunktionen',
     examples: [
-      { zh: '倘使有机会，我一定会去中国旅行。', pinyin: 'Tǎngshǐ yǒu jīhuì, wǒ yídìng huì qù Zhōngguó lǚxíng.', de: 'Wenn sich die Gelegenheit ergibt, werde ich auf jeden Fall nach China reisen.' },
-      { zh: '倘使你不同意，可以提出别的方案。', pinyin: 'Tǎngshǐ nǐ bù tóngyì, kěyǐ tíchū bié de fāngàn.', de: 'Falls du nicht einverstanden bist, kannst du einen anderen Vorschlag machen.' }
+      { chinese: '倘使有机会，我一定会去中国旅行。', pinyin: 'Tǎngshǐ yǒu jīhuì, wǒ yídìng huì qù Zhōngguó lǚxíng.', german: 'Wenn sich die Gelegenheit ergibt, werde ich auf jeden Fall nach China reisen.' },
+      { chinese: '倘使你不同意，可以提出别的方案。', pinyin: 'Tǎngshǐ nǐ bù tóngyì, kěyǐ tíchū bié de fāngàn.', german: 'Falls du nicht einverstanden bist, kannst du einen anderen Vorschlag machen.' }
     ]
   },
   {
@@ -500,8 +500,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Konjunktionen',
     examples: [
-      { zh: '设若此事属实，后果将不堪设想。', pinyin: 'Shèruò cǐ shì shǔshí, hòuguǒ jiāng bùkān shèxiǎng.', de: 'Gesetzt den Fall, dass dies der Wahrheit entspricht, wären die Folgen unvorstellbar.' },
-      { zh: '设若没有他的帮助，我们不可能成功。', pinyin: 'Shèruò méiyǒu tā de bāngzhù, wǒmen bù kěnéng chénggōng.', de: 'Angenommen, wir hätten seine Hilfe nicht gehabt, wäre uns der Erfolg nicht möglich gewesen.' }
+      { chinese: '设若此事属实，后果将不堪设想。', pinyin: 'Shèruò cǐ shì shǔshí, hòuguǒ jiāng bùkān shèxiǎng.', german: 'Gesetzt den Fall, dass dies der Wahrheit entspricht, wären die Folgen unvorstellbar.' },
+      { chinese: '设若没有他的帮助，我们不可能成功。', pinyin: 'Shèruò méiyǒu tā de bāngzhù, wǒmen bù kěnéng chénggōng.', german: 'Angenommen, wir hätten seine Hilfe nicht gehabt, wäre uns der Erfolg nicht möglich gewesen.' }
     ]
   },
   {
@@ -511,8 +511,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Rhetorisch',
     examples: [
-      { zh: '且不说其他费用，单是房租就要五千元。', pinyin: 'Qiě bù shuō qítā fèiyòng, dān shì fángzū jiù yào wǔqiān yuán.', de: 'Ganz abgesehen von den anderen Kosten, allein die Miete beträgt schon 5000 Yuan.' },
-      { zh: '且不说味道，单是这道菜的卖相就令人食欲大增。', pinyin: 'Qiě bù shuō wèidào, dān shì zhè dào cài de màixiàng jiù lìng rén shíyù dà zēng.', de: 'Ganz abgesehen vom Geschmack, allein das Aussehen dieses Gerichts regt schon den Appetit an.' }
+      { chinese: '且不说其他费用，单是房租就要五千元。', pinyin: 'Qiě bù shuō qítā fèiyòng, dān shì fángzū jiù yào wǔqiān yuán.', german: 'Ganz abgesehen von den anderen Kosten, allein die Miete beträgt schon 5000 Yuan.' },
+      { chinese: '且不说味道，单是这道菜的卖相就令人食欲大增。', pinyin: 'Qiě bù shuō wèidào, dān shì zhè dào cài de màixiàng jiù lìng rén shíyù dà zēng.', german: 'Ganz abgesehen vom Geschmack, allein das Aussehen dieses Gerichts regt schon den Appetit an.' }
     ]
   },
   {
@@ -522,8 +522,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Rhetorisch',
     examples: [
-      { zh: '他以为自己很聪明，殊不知别人早就看穿了他的把戏。', pinyin: 'Tā yǐwéi zìjǐ hěn cōngmíng, shū bù zhī biérén zǎo jiù kànchuān le tā de bǎxì.', de: 'Er hielt sich für sehr schlau, ohne zu wissen, dass andere seine Tricks längst durchschaut hatten.' },
-      { zh: '她拼命加班挣钱，殊不知健康才是最重要的。', pinyin: 'Tā pīnmìng jiābān zhèngqián, shū bù zhī jiànkāng cái shì zuì zhòngyào de.', de: 'Sie arbeitete wie verrückt Überstunden, um Geld zu verdienen, ohne zu ahnen, dass Gesundheit das Wichtigste ist.' }
+      { chinese: '他以为自己很聪明，殊不知别人早就看穿了他的把戏。', pinyin: 'Tā yǐwéi zìjǐ hěn cōngmíng, shū bù zhī biérén zǎo jiù kànchuān le tā de bǎxì.', german: 'Er hielt sich für sehr schlau, ohne zu wissen, dass andere seine Tricks längst durchschaut hatten.' },
+      { chinese: '她拼命加班挣钱，殊不知健康才是最重要的。', pinyin: 'Tā pīnmìng jiābān zhèngqián, shū bù zhī jiànkāng cái shì zuì zhòngyào de.', german: 'Sie arbeitete wie verrückt Überstunden, um Geld zu verdienen, ohne zu ahnen, dass Gesundheit das Wichtigste ist.' }
     ]
   },
   {
@@ -533,8 +533,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Rhetorisch',
     examples: [
-      { zh: '他以为很简单，孰不知其中大有学问。', pinyin: 'Tā yǐwéi hěn jiǎndān, shú bù zhī qízhōng dà yǒu xuéwèn.', de: 'Er dachte, es sei einfach, wusste aber nicht, dass darin große Gelehrsamkeit steckt.' },
-      { zh: '大家都觉得他过得很好，孰不知他正经历着人生的低谷。', pinyin: 'Dàjiā dōu juéde tā guò de hěn hǎo, shú bù zhī tā zhèng jīnglì zhe rénshēng de dīgǔ.', de: 'Alle dachten, es ginge ihm gut, ahnten aber nicht, dass er gerade den Tiefpunkt seines Lebens durchmachte.' }
+      { chinese: '他以为很简单，孰不知其中大有学问。', pinyin: 'Tā yǐwéi hěn jiǎndān, shú bù zhī qízhōng dà yǒu xuéwèn.', german: 'Er dachte, es sei einfach, wusste aber nicht, dass darin große Gelehrsamkeit steckt.' },
+      { chinese: '大家都觉得他过得很好，孰不知他正经历着人生的低谷。', pinyin: 'Dàjiā dōu juéde tā guò de hěn hǎo, shú bù zhī tā zhèng jīnglì zhe rénshēng de dīgǔ.', german: 'Alle dachten, es ginge ihm gut, ahnten aber nicht, dass er gerade den Tiefpunkt seines Lebens durchmachte.' }
     ]
   },
   {
@@ -544,8 +544,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '知识和智慧不同，前者是信息的积累，后者是对信息的运用。', pinyin: 'Zhīshi hé zhìhuì bùtóng, qiánzhě shì xìnxī de jīlěi, hòuzhě shì duì xìnxī de yùnyòng.', de: 'Wissen und Weisheit sind verschieden; Ersteres ist die Ansammlung von Informationen, Letzteres deren Anwendung.' },
-      { zh: '前者强调过程，后者注重结果。', pinyin: 'Qiánzhě qiángdiào guòchéng, hòuzhě zhùzhòng jiéguǒ.', de: 'Ersteres betont den Prozess, Letzteres legt Wert auf das Ergebnis.' }
+      { chinese: '知识和智慧不同，前者是信息的积累，后者是对信息的运用。', pinyin: 'Zhīshi hé zhìhuì bùtóng, qiánzhě shì xìnxī de jīlěi, hòuzhě shì duì xìnxī de yùnyòng.', german: 'Wissen und Weisheit sind verschieden; Ersteres ist die Ansammlung von Informationen, Letzteres deren Anwendung.' },
+      { chinese: '前者强调过程，后者注重结果。', pinyin: 'Qiánzhě qiángdiào guòchéng, hòuzhě zhùzhòng jiéguǒ.', german: 'Ersteres betont den Prozess, Letzteres legt Wert auf das Ergebnis.' }
     ]
   },
   {
@@ -555,8 +555,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '经济发展固然好，但不能以牺牲环境为代价。', pinyin: 'Jīngjì fāzhǎn gùrán hǎo, dàn bù néng yǐ xīshēng huánjìng wéi dàijià.', de: 'Wirtschaftliche Entwicklung ist zwar gut, aber nicht auf Kosten der Umwelt.' },
-      { zh: '赚钱固然好，但身体健康更重要。', pinyin: 'Zhuànqián gùrán hǎo, dàn shēntǐ jiànkāng gèng zhòngyào.', de: 'Geld verdienen ist zwar gut, aber die Gesundheit ist wichtiger.' }
+      { chinese: '经济发展固然好，但不能以牺牲环境为代价。', pinyin: 'Jīngjì fāzhǎn gùrán hǎo, dàn bù néng yǐ xīshēng huánjìng wéi dàijià.', german: 'Wirtschaftliche Entwicklung ist zwar gut, aber nicht auf Kosten der Umwelt.' },
+      { chinese: '赚钱固然好，但身体健康更重要。', pinyin: 'Zhuànqián gùrán hǎo, dàn shēntǐ jiànkāng gèng zhòngyào.', german: 'Geld verdienen ist zwar gut, aber die Gesundheit ist wichtiger.' }
     ]
   },
   {
@@ -566,8 +566,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Rhetorisch',
     examples: [
-      { zh: '顾名思义，"自行车"就是自己走的车。', pinyin: 'Gù míng sī yì, "zìxíngchē" jiùshì zìjǐ zǒu de chē.', de: 'Wie der Name schon sagt, ist ein „Fahrrad" (自行车 = sich-selbst-bewegendes-Fahrzeug) ein Fahrzeug, das sich selbst bewegt.' },
-      { zh: '顾名思义，"牛津"就是牛过河的渡口。', pinyin: 'Gù míng sī yì, "Niújīn" jiùshì niú guò hé de dùkǒu.', de: 'Wie der Name schon sagt, ist „Oxford" (牛津) eine Furt, durch die Ochsen den Fluss überqueren.' }
+      { chinese: '顾名思义，"自行车"就是自己走的车。', pinyin: 'Gù míng sī yì, "zìxíngchē" jiùshì zìjǐ zǒu de chē.', german: 'Wie der Name schon sagt, ist ein „Fahrrad" (自行车 = sich-selbst-bewegendes-Fahrzeug) ein Fahrzeug, das sich selbst bewegt.' },
+      { chinese: '顾名思义，"牛津"就是牛过河的渡口。', pinyin: 'Gù míng sī yì, "Niújīn" jiùshì niú guò hé de dùkǒu.', german: 'Wie der Name schon sagt, ist „Oxford" (牛津) eine Furt, durch die Ochsen den Fluss überqueren.' }
     ]
   },
   {
@@ -577,8 +577,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Rhetorisch',
     examples: [
-      { zh: '打个比方，学习就像盖房子，基础很重要。', pinyin: 'Dǎ gè bǐfāng, xuéxí jiù xiàng gài fángzi, jīchǔ hěn zhòngyào.', de: 'Um eine Analogie zu ziehen: Lernen ist wie ein Haus bauen, das Fundament ist wichtig.' },
-      { zh: '打个比方，人生就像一场旅行。', pinyin: 'Dǎ gè bǐfāng, rénshēng jiù xiàng yì chǎng lǚxíng.', de: 'Um einen Vergleich zu ziehen: Das Leben ist wie eine Reise.' }
+      { chinese: '打个比方，学习就像盖房子，基础很重要。', pinyin: 'Dǎ gè bǐfāng, xuéxí jiù xiàng gài fángzi, jīchǔ hěn zhòngyào.', german: 'Um eine Analogie zu ziehen: Lernen ist wie ein Haus bauen, das Fundament ist wichtig.' },
+      { chinese: '打个比方，人生就像一场旅行。', pinyin: 'Dǎ gè bǐfāng, rénshēng jiù xiàng yì chǎng lǚxíng.', german: 'Um einen Vergleich zu ziehen: Das Leben ist wie eine Reise.' }
     ]
   },
   {
@@ -588,8 +588,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Konjunktionen',
     examples: [
-      { zh: '不论刮风还是下雨，他都坚持锻炼。', pinyin: 'Bùlùn guā fēng háishi xià yǔ, tā dōu jiānchí duànliàn.', de: 'Egal ob es stürmt oder regnet, er trainiert in jedem Fall.' },
-      { zh: '不论你是学生还是老师，都要遵守规定。', pinyin: 'Bùlùn nǐ shì xuéshēng háishi lǎoshī, dōu yào zūnshǒu guīdìng.', de: 'Egal ob du Schüler oder Lehrer bist, du musst die Regeln befolgen.' }
+      { chinese: '不论刮风还是下雨，他都坚持锻炼。', pinyin: 'Bùlùn guā fēng háishi xià yǔ, tā dōu jiānchí duànliàn.', german: 'Egal ob es stürmt oder regnet, er trainiert in jedem Fall.' },
+      { chinese: '不论你是学生还是老师，都要遵守规定。', pinyin: 'Bùlùn nǐ shì xuéshēng háishi lǎoshī, dōu yào zūnshǒu guīdìng.', german: 'Egal ob du Schüler oder Lehrer bist, du musst die Regeln befolgen.' }
     ]
   },
   {
@@ -599,8 +599,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '据我所知，他已经辞职了。', pinyin: 'Jù wǒ suǒ zhī, tā yǐjīng cízhí le.', de: 'Soweit ich weiß, hat er bereits gekündigt.' },
-      { zh: '据我所知，这家餐厅的菜很好吃。', pinyin: 'Jù wǒ suǒ zhī, zhè jiā cāntīng de cài hěn hǎochī.', de: 'Meines Wissens ist das Essen in diesem Restaurant sehr gut.' }
+      { chinese: '据我所知，他已经辞职了。', pinyin: 'Jù wǒ suǒ zhī, tā yǐjīng cízhí le.', german: 'Soweit ich weiß, hat er bereits gekündigt.' },
+      { chinese: '据我所知，这家餐厅的菜很好吃。', pinyin: 'Jù wǒ suǒ zhī, zhè jiā cāntīng de cài hěn hǎochī.', german: 'Meines Wissens ist das Essen in diesem Restaurant sehr gut.' }
     ]
   },
   {
@@ -610,8 +610,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Konjunktionen',
     examples: [
-      { zh: '有感于此，他决定投身公益事业。', pinyin: 'Yǒu gǎn yú cǐ, tā juédìng tóushēn gōngyì shìyè.', de: 'Davon bewegt entschied er sich, sich sozialen Projekten zu widmen.' },
-      { zh: '有感于此，作者写下了这篇文章。', pinyin: 'Yǒu gǎn yú cǐ, zuòzhě xiě xià le zhè piān wénzhāng.', de: 'Aus dieser Erkenntnis heraus verfasste der Autor diesen Artikel.' }
+      { chinese: '有感于此，他决定投身公益事业。', pinyin: 'Yǒu gǎn yú cǐ, tā juédìng tóushēn gōngyì shìyè.', german: 'Davon bewegt entschied er sich, sich sozialen Projekten zu widmen.' },
+      { chinese: '有感于此，作者写下了这篇文章。', pinyin: 'Yǒu gǎn yú cǐ, zuòzhě xiě xià le zhè piān wénzhāng.', german: 'Aus dieser Erkenntnis heraus verfasste der Autor diesen Artikel.' }
     ]
   },
   {
@@ -621,8 +621,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Vergleiche',
     examples: [
-      { zh: '现在的生活和以前不可同日而语。', pinyin: 'Xiànzài de shēnghuó hé yǐqián bùkě tóng rì ér yǔ.', de: 'Das heutige Leben ist mit dem früheren nicht zu vergleichen.' },
-      { zh: '两家公司的规模不可同日而语。', pinyin: 'Liǎng jiā gōngsī de guīmó bùkě tóng rì ér yǔ.', de: 'Die Größe der beiden Unternehmen ist nicht vergleichbar.' }
+      { chinese: '现在的生活和以前不可同日而语。', pinyin: 'Xiànzài de shēnghuó hé yǐqián bùkě tóng rì ér yǔ.', german: 'Das heutige Leben ist mit dem früheren nicht zu vergleichen.' },
+      { chinese: '两家公司的规模不可同日而语。', pinyin: 'Liǎng jiā gōngsī de guīmó bùkě tóng rì ér yǔ.', german: 'Die Größe der beiden Unternehmen ist nicht vergleichbar.' }
     ]
   },
   {
@@ -632,8 +632,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Satzstrukturen',
     examples: [
-      { zh: '大致说来，这个项目进展顺利。', pinyin: 'Dàzhì shuō lái, zhège xiàngmù jìnzhǎn shùnlì.', de: 'Im Großen und Ganzen verläuft dieses Projekt reibungslos.' },
-      { zh: '大致说来，他的观点是正确的。', pinyin: 'Dàzhì shuō lái, tā de guāndiǎn shì zhèngquè de.', de: 'Grob gesagt ist sein Standpunkt korrekt.' }
+      { chinese: '大致说来，这个项目进展顺利。', pinyin: 'Dàzhì shuō lái, zhège xiàngmù jìnzhǎn shùnlì.', german: 'Im Großen und Ganzen verläuft dieses Projekt reibungslos.' },
+      { chinese: '大致说来，他的观点是正确的。', pinyin: 'Dàzhì shuō lái, tā de guāndiǎn shì zhèngquè de.', german: 'Grob gesagt ist sein Standpunkt korrekt.' }
     ]
   },
   {
@@ -643,8 +643,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Rhetorisch',
     examples: [
-      { zh: '要而言之，我们需要改变策略。', pinyin: 'Yào ér yán zhī, wǒmen xūyào gǎibiàn cèlüè.', de: 'Kurz und knapp: Wir müssen unsere Strategie ändern.' },
-      { zh: '要而言之，教育是国家发展的根本。', pinyin: 'Yào ér yán zhī, jiàoyù shì guójiā fāzhǎn de gēnběn.', de: 'Um das Wesentliche zusammenzufassen: Bildung ist die Grundlage der nationalen Entwicklung.' }
+      { chinese: '要而言之，我们需要改变策略。', pinyin: 'Yào ér yán zhī, wǒmen xūyào gǎibiàn cèlüè.', german: 'Kurz und knapp: Wir müssen unsere Strategie ändern.' },
+      { chinese: '要而言之，教育是国家发展的根本。', pinyin: 'Yào ér yán zhī, jiàoyù shì guójiā fāzhǎn de gēnběn.', german: 'Um das Wesentliche zusammenzufassen: Bildung ist die Grundlage der nationalen Entwicklung.' }
     ]
   },
   {
@@ -654,8 +654,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK5',
     category: 'Adjektive',
     examples: [
-      { zh: '团队合作至关重要。', pinyin: 'Tuánduì hézuò zhìguān zhòngyào.', de: 'Teamarbeit ist von entscheidender Bedeutung.' },
-      { zh: '在这个阶段，保持冷静至关重要。', pinyin: 'Zài zhège jiēduàn, bǎochí lěngjìng zhìguān zhòngyào.', de: 'In dieser Phase ist es äußerst wichtig, einen kühlen Kopf zu bewahren.' }
+      { chinese: '团队合作至关重要。', pinyin: 'Tuánduì hézuò zhìguān zhòngyào.', german: 'Teamarbeit ist von entscheidender Bedeutung.' },
+      { chinese: '在这个阶段，保持冷静至关重要。', pinyin: 'Zài zhège jiēduàn, bǎochí lěngjìng zhìguān zhòngyào.', german: 'In dieser Phase ist es äußerst wichtig, einen kühlen Kopf zu bewahren.' }
     ]
   },
   {
@@ -665,8 +665,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK6',
     category: 'Rhetorisch',
     examples: [
-      { zh: '他的担心不无道理。', pinyin: 'Tā de dānxīn bù wú dàolǐ.', de: 'Seine Sorge hat durchaus ihre Berechtigung.' },
-      { zh: '这种说法不无道理。', pinyin: 'Zhè zhǒng shuōfǎ bù wú dàolǐ.', de: 'Diese Aussage ist nicht ohne Grund.' }
+      { chinese: '他的担心不无道理。', pinyin: 'Tā de dānxīn bù wú dàolǐ.', german: 'Seine Sorge hat durchaus ihre Berechtigung.' },
+      { chinese: '这种说法不无道理。', pinyin: 'Zhè zhǒng shuōfǎ bù wú dàolǐ.', german: 'Diese Aussage ist nicht ohne Grund.' }
     ]
   },
 ]);

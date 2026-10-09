@@ -1,6 +1,7 @@
 window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
   // === WIRTSCHAFT (Economy/Business/Finance) - 50 entries ===
   {
+    word: '股票',
     pinyin: 'gǔpiào',
     meaning: 'Aktie',
     type: 'Nomen',
@@ -9,6 +10,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '他把所有积蓄都投入了股票市场。', pinyin: 'Tā bǎ suǒyǒu jīxù dōu tóurùle gǔpiào shìchǎng.', german: 'Er hat alle Ersparnisse in den Aktienmarkt investiert.' }]
   },
   {
+    word: '利润',
     pinyin: 'lìrùn',
     meaning: 'Gewinn; Profit',
     type: 'Nomen',
@@ -35,6 +37,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '这家超市的营业额每月超过五百万元。', pinyin: 'Zhè jiā chāoshì de yíngyè\'é měi yuè chāoguò wǔbǎi wàn yuán.', german: 'Der Umsatz dieses Supermarkts uebersteigt monatlich fuenf Millionen Yuan.' }]
   },
   {
+    word: '批发',
     pinyin: 'pīfā',
     meaning: 'Grosshandel; im Grosshandel verkaufen',
     type: 'Nomen',
@@ -178,6 +181,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '人民币持续升值给出口企业带来了压力。', pinyin: 'Rénmínbì chíxù shēngzhí gěi chūkǒu qǐyè dàiláile yālì.', german: 'Die anhaltende Aufwertung des Renminbi hat Exportunternehmen unter Druck gesetzt.' }]
   },
   {
+    word: '成本',
     pinyin: 'chéngběn',
     meaning: 'Kosten; Selbstkosten',
     type: 'Nomen',
@@ -303,6 +307,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '良好的现金流是企业生存的关键。', pinyin: 'Liánghǎo de xiànjīnliú shì qǐyè shēngcún de guānjiàn.', german: 'Ein guter Cashflow ist der Schluessel zum Ueberleben eines Unternehmens.' }]
   },
   {
+    word: '货币',
     pinyin: 'huòbì',
     meaning: 'Waehrung; Geld',
     type: 'Nomen',
@@ -347,6 +352,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '中国拥有世界上最大的外汇储备。', pinyin: 'Zhōngguó yōngyǒu shìjiè shàng zuìdà de wàihuì chúbèi.', german: 'China verfuegt ueber die groessten Devisenreserven der Welt.' }]
   },
   {
+    word: '商标',
     pinyin: 'shāngbiāo',
     meaning: 'Marke; Warenzeichen',
     type: 'Nomen',
@@ -382,6 +388,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '她把工资的三分之一存入定期存款。', pinyin: 'Tā bǎ gōngzī de sān fēn zhī yī cúnrù dìngqī cúnkuǎn.', german: 'Sie legt ein Drittel ihres Gehalts als Festgeld an.' }]
   },
   {
+    word: '贷款',
     pinyin: 'dàikuǎn',
     meaning: 'Kredit; Darlehen',
     type: 'Nomen',
@@ -463,6 +470,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '薪资水平与工作经验和学历密切相关。', pinyin: 'Xīnzī shuǐpíng yǔ gōngzuò jīngyàn hé xuélì mìqiè xiāngguān.', german: 'Das Gehaltsniveau haengt eng mit der Berufserfahrung und dem Bildungsabschluss zusammen.' }]
   },
   {
+    word: '简历',
     pinyin: 'jiǎnlì',
     meaning: 'Lebenslauf',
     type: 'Nomen',
@@ -498,6 +506,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '公司决定录用三名新员工。', pinyin: 'Gōngsī juédìng lùyòng sān míng xīn yuángōng.', german: 'Das Unternehmen hat beschlossen, drei neue Mitarbeiter einzustellen.' }]
   },
   {
+    word: '加班',
     pinyin: 'jiābān',
     meaning: 'Ueberstunden machen',
     type: 'Verb',
@@ -506,6 +515,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '为了赶项目进度，整个团队都在加班。', pinyin: 'Wèile gǎn xiàngmù jìndù, zhěnggè tuánduì dōu zài jiābān.', german: 'Um den Projektfortschritt einzuhalten, macht das gesamte Team Ueberstunden.' }]
   },
   {
+    word: '培训',
     pinyin: 'péixùn',
     meaning: 'Schulung; Fortbildung; schulen',
     type: 'Nomen',
@@ -550,6 +560,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '年终考核的结果直接影响奖金发放。', pinyin: 'Niánzhōng kǎohé de jiéguǒ zhíjiē yǐngxiǎng jiǎngjīn fāfàng.', german: 'Das Ergebnis der Jahresendbeurteilung beeinflusst direkt die Bonuszahlung.' }]
   },
   {
+    word: '合同',
     pinyin: 'hétóng',
     meaning: 'Vertrag; Arbeitsvertrag',
     type: 'Nomen',
@@ -558,6 +569,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '双方签订了为期三年的劳动合同。', pinyin: 'Shuāngfāng qiāndìngle wéiqī sān nián de láodòng hétóng.', german: 'Beide Seiten haben einen dreijährigen Arbeitsvertrag unterschrieben.' }]
   },
   {
+    word: '兼职',
     pinyin: 'jiānzhí',
     meaning: 'Teilzeitarbeit; nebenbei arbeiten',
     type: 'Nomen',
@@ -566,6 +578,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '许多大学生课余时间都在做兼职。', pinyin: 'Xǔduō dàxuéshēng kèyú shíjiān dōu zài zuò jiānzhí.', german: 'Viele Studenten arbeiten in ihrer Freizeit in Teilzeit.' }]
   },
   {
+    word: '实习',
     pinyin: 'shíxí',
     meaning: 'Praktikum; ein Praktikum machen',
     type: 'Nomen',
@@ -592,6 +605,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '他评上了高级工程师的职称。', pinyin: 'Tā píngshàngle gāojí gōngchéngshī de zhíchēng.', german: 'Er hat den Titel eines leitenden Ingenieurs erhalten.' }]
   },
   {
+    word: '调动',
     pinyin: 'diàodòng',
     meaning: 'versetzen; Versetzung',
     type: 'Verb',
@@ -654,6 +668,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '一个好的领导要学会倾听下属的意见。', pinyin: 'Yī gè hǎo de lǐngdǎo yào xuéhuì qīngtīng xiàshǔ de yìjiàn.', german: 'Eine gute Fuehrungskraft muss lernen, auf die Meinungen der Untergebenen zu hoeren.' }]
   },
   {
+    word: '同事',
     pinyin: 'tóngshì',
     meaning: 'Kollege/Kollegin',
     type: 'Nomen',
@@ -671,6 +686,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '公司每年会根据绩效进行一次调薪。', pinyin: 'Gōngsī měi nián huì gēnjù jìxiào jìnxíng yī cì tiáoxīn.', german: 'Das Unternehmen fuehrt jedes Jahr eine leistungsbasierte Gehaltsanpassung durch.' }]
   },
   {
+    word: '请假',
     pinyin: 'qǐngjià',
     meaning: 'sich freinehmen; Urlaub beantragen',
     type: 'Verb',
@@ -688,6 +704,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '学校聘任了一位著名教授担任院长。', pinyin: 'Xuéxiào pìnrènle yī wèi zhùmíng jiàoshòu dānrèn yuànzhǎng.', german: 'Die Universitaet hat einen beruehmten Professor zum Dekan ernannt.' }]
   },
   {
+    word: '退休',
     pinyin: 'tuìxiū',
     meaning: 'in Rente gehen; Ruhestand',
     type: 'Verb',
@@ -732,6 +749,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '今晚轮到她在医院值班。', pinyin: 'Jīnwǎn lúndào tā zài yīyuàn zhíbān.', german: 'Heute Abend ist sie an der Reihe, im Krankenhaus Bereitschaftsdienst zu haben.' }]
   },
   {
+    word: '出差',
     pinyin: 'chūchāi',
     meaning: 'auf Dienstreise gehen',
     type: 'Verb',
@@ -749,6 +767,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '他跳槽到了一家薪水更高的公司。', pinyin: 'Tā tiàocáo dàole yī jiā xīnshuǐ gèng gāo de gōngsī.', german: 'Er ist zu einem Unternehmen mit hoeherem Gehalt gewechselt.' }]
   },
   {
+    word: '岗位',
     pinyin: 'gǎngwèi',
     meaning: 'Arbeitsplatz; Posten; Stelle',
     type: 'Nomen',
@@ -821,6 +840,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '他从小就对编程产生了浓厚的兴趣。', pinyin: 'Tā cóngxiǎo jiù duì biānchéng chǎnshēngle nónghòu de xìngqù.', german: 'Er hat sich schon als Kind stark fuer das Programmieren interessiert.' }]
   },
   {
+    word: '软件',
     pinyin: 'ruǎnjiàn',
     meaning: 'Software',
     type: 'Nomen',
@@ -919,6 +939,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '工厂引入自动化生产线大幅提高了产能。', pinyin: 'Gōngchǎng yǐnrù zìdònghuà shēngchǎnxiàn dàfú tígāole chǎnnéng.', german: 'Die Einfuehrung automatisierter Produktionslinien in der Fabrik hat die Kapazitaet erheblich gesteigert.' }]
   },
   {
+    word: '机器人',
     pinyin: 'jīqìrén',
     meaning: 'Roboter',
     type: 'Nomen',
@@ -1026,6 +1047,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '请定期备份重要数据以防丢失。', pinyin: 'Qǐng dìngqī bèifèn zhòngyào shùjù yǐfáng diūshī.', german: 'Bitte sichern Sie regelmaessig wichtige Daten, um Verlust zu vermeiden.' }]
   },
   {
+    word: '黑客',
     pinyin: 'hēikè',
     meaning: 'Hacker',
     type: 'Nomen',
@@ -1188,6 +1210,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '她花了五年时间攻读博士学位。', pinyin: 'Tā huāle wǔ nián shíjiān gōngdú bóshì xuéwèi.', german: 'Sie hat fuenf Jahre lang an ihrer Promotion gearbeitet.' }]
   },
   {
+    word: '论文',
     pinyin: 'lùnwén',
     meaning: 'Abhandlung; wissenschaftliche Arbeit',
     type: 'Nomen',
@@ -1205,6 +1228,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '他治学严谨，深受同行的敬佩。', pinyin: 'Tā zhìxué yánjǐn, shēn shòu tóngháng de jìngpèi.', german: 'Er betreibt seine Forschung mit grosser Sorgfalt und wird von seinen Fachkollegen sehr geschaetzt.' }]
   },
   {
+    word: '奖学金',
     pinyin: 'jiǎngxuéjīn',
     meaning: 'Stipendium',
     type: 'Nomen',
@@ -1249,6 +1273,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '他申请了一个国家级的科研课题。', pinyin: 'Tā shēnqǐngle yī gè guójiājí de kēyán kètí.', german: 'Er hat ein nationales Forschungsprojekt beantragt.' }]
   },
   {
+    word: '学分',
     pinyin: 'xuéfēn',
     meaning: 'Leistungspunkt; Credit',
     type: 'Nomen',
@@ -1365,6 +1390,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '虽然他没有大学文凭，但他的能力得到了认可。', pinyin: 'Suīrán tā méiyǒu dàxué wénpíng, dàn tā de nénglì dédàole rènkě.', german: 'Obwohl er kein Universitaetsdiplom hat, wurden seine Faehigkeiten anerkannt.' }]
   },
   {
+    word: '辅导',
     pinyin: 'fǔdǎo',
     meaning: 'Nachhilfe; Betreuung; betreuen',
     type: 'Verb',
@@ -1526,6 +1552,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '他的博士开题报告已经通过了专家评审。', pinyin: 'Tā de bóshì kāití bàogào yǐjīng tōngguòle zhuānjiā píngshěn.', german: 'Sein Doktor-Exposee hat bereits die Expertenbegutachtung bestanden.' }]
   },
   {
+    word: '留学',
     pinyin: 'liúxué',
     meaning: 'im Ausland studieren',
     type: 'Verb',
@@ -1679,6 +1706,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '他的履历非常丰富，曾在多家跨国公司工作过。', pinyin: 'Tā de lǚlì fēicháng fēngfù, céng zài duō jiā kuàguó gōngsī gōngzuòguò.', german: 'Sein beruflicher Werdegang ist sehr umfangreich; er hat in mehreren multinationalen Unternehmen gearbeitet.' }]
   },
   {
+    word: '数字化',
     pinyin: 'shùzìhuà',
     meaning: 'Digitalisierung',
     type: 'Nomen',
@@ -1696,6 +1724,7 @@ window.VOCAB_HSK6 = window.VOCAB_HSK6.concat([
     examples: [{ chinese: '量子计算有望在密码学领域带来革命性突破。', pinyin: 'Liàngzǐ jìsuàn yǒuwàng zài mìmǎxué lǐngyù dàilái gémìngxìng tūpò.', german: 'Quantencomputing verspricht revolutionaere Durchbrueche im Bereich der Kryptografie.' }]
   },
   {
+    word: '开发',
     pinyin: 'kāifā',
     meaning: 'entwickeln; Entwicklung',
     type: 'Verb',

@@ -13,8 +13,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK1',
     category: 'Adverbien',
     examples: [
-      { zh: '我们都不喜欢。', pinyin: 'Wǒmen dōu bù xǐhuan.', de: 'Wir mögen es alle nicht.' },
-      { zh: '他们都没来。', pinyin: 'Tāmen dōu méi lái.', de: 'Keiner von ihnen ist gekommen.' }
+      { chinese: '我们都不喜欢。', pinyin: 'Wǒmen dōu bù xǐhuan.', german: 'Wir mögen es alle nicht.' },
+      { chinese: '他们都没来。', pinyin: 'Tāmen dōu méi lái.', german: 'Keiner von ihnen ist gekommen.' }
     ]
   },
   {
@@ -24,8 +24,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK1',
     category: 'Adverbien',
     examples: [
-      { zh: '他又迟到了。', pinyin: 'Tā yòu chídào le.', de: 'Er ist schon wieder zu spät gekommen.' },
-      { zh: '你又忘了！', pinyin: 'Nǐ yòu wàng le!', de: 'Du hast es schon wieder vergessen!' }
+      { chinese: '他又迟到了。', pinyin: 'Tā yòu chídào le.', german: 'Er ist schon wieder zu spät gekommen.' },
+      { chinese: '你又忘了！', pinyin: 'Nǐ yòu wàng le!', german: 'Du hast es schon wieder vergessen!' }
     ]
   },
   {
@@ -35,8 +35,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK1',
     category: 'Adverbien',
     examples: [
-      { zh: '请再说一遍。', pinyin: 'Qǐng zài shuō yí biàn.', de: 'Bitte sag es nochmal.' },
-      { zh: '我们明天再见！', pinyin: 'Wǒmen míngtiān zài jiàn!', de: 'Wir sehen uns morgen wieder!' }
+      { chinese: '请再说一遍。', pinyin: 'Qǐng zài shuō yí biàn.', german: 'Bitte sag es nochmal.' },
+      { chinese: '我们明天再见！', pinyin: 'Wǒmen míngtiān zài jiàn!', german: 'Wir sehen uns morgen wieder!' }
     ]
   },
   {
@@ -46,8 +46,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK1',
     category: 'Verneinung',
     examples: [
-      { zh: '他还没来呢。', pinyin: 'Tā hái méi lái ne.', de: 'Er ist noch nicht gekommen.' },
-      { zh: '我还没吃饭呢。', pinyin: 'Wǒ hái méi chī fàn ne.', de: 'Ich habe noch nicht gegessen.' }
+      { chinese: '他还没来呢。', pinyin: 'Tā hái méi lái ne.', german: 'Er ist noch nicht gekommen.' },
+      { chinese: '我还没吃饭呢。', pinyin: 'Wǒ hái méi chī fàn ne.', german: 'Ich habe noch nicht gegessen.' }
     ]
   },
   {
@@ -57,8 +57,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK1',
     category: 'Adverbien',
     examples: [
-      { zh: '多喝水。', pinyin: 'Duō hē shuǐ.', de: 'Trink mehr Wasser.' },
-      { zh: '少吃糖。', pinyin: 'Shǎo chī táng.', de: 'Iss weniger Zucker.' }
+      { chinese: '多喝水。', pinyin: 'Duō hē shuǐ.', german: 'Trink mehr Wasser.' },
+      { chinese: '少吃糖。', pinyin: 'Shǎo chī táng.', german: 'Iss weniger Zucker.' }
     ]
   },
   {
@@ -68,8 +68,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK1',
     category: 'Partikeln',
     examples: [
-      { zh: '太好了啊！', pinyin: 'Tài hǎo le a!', de: 'Das ist ja großartig!' },
-      { zh: '快来啊！', pinyin: 'Kuài lái a!', de: 'Komm schnell!' }
+      { chinese: '太好了啊！', pinyin: 'Tài hǎo le a!', german: 'Das ist ja großartig!' },
+      { chinese: '快来啊！', pinyin: 'Kuài lái a!', german: 'Komm schnell!' }
     ]
   },
   {
@@ -79,8 +79,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK1',
     category: 'Adjektive',
     examples: [
-      { zh: '请快一点儿。', pinyin: 'Qǐng kuài yìdiǎnr.', de: 'Bitte ein bisschen schneller.' },
-      { zh: '说慢一点儿。', pinyin: 'Shuō màn yìdiǎnr.', de: 'Sprich ein bisschen langsamer.' }
+      { chinese: '请快一点儿。', pinyin: 'Qǐng kuài yìdiǎnr.', german: 'Bitte ein bisschen schneller.' },
+      { chinese: '说慢一点儿。', pinyin: 'Shuō màn yìdiǎnr.', german: 'Sprich ein bisschen langsamer.' }
     ]
   },
   {
@@ -90,8 +90,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK1',
     category: 'Adjektive',
     examples: [
-      { zh: '好大啊！', pinyin: 'Hǎo dà a!', de: 'So groß!' },
-      { zh: '今天好冷！', pinyin: 'Jīntiān hǎo lěng!', de: 'Heute ist es wirklich kalt!' }
+      { chinese: '好大啊！', pinyin: 'Hǎo dà a!', german: 'So groß!' },
+      { chinese: '今天好冷！', pinyin: 'Jīntiān hǎo lěng!', german: 'Heute ist es wirklich kalt!' }
     ]
   },
   {
@@ -101,8 +101,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK1',
     category: 'Partikeln',
     examples: [
-      { zh: '我吃了饭了。', pinyin: 'Wǒ chī le fàn le.', de: 'Ich habe (jetzt) gegessen.' },
-      { zh: '他买了三本书了。', pinyin: 'Tā mǎi le sān běn shū le.', de: 'Er hat (inzwischen) drei Bücher gekauft.' }
+      { chinese: '我吃了饭了。', pinyin: 'Wǒ chī le fàn le.', german: 'Ich habe (jetzt) gegessen.' },
+      { chinese: '他买了三本书了。', pinyin: 'Tā mǎi le sān běn shū le.', german: 'Er hat (inzwischen) drei Bücher gekauft.' }
     ]
   },
   {
@@ -112,8 +112,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK1',
     category: 'Fragewörter',
     examples: [
-      { zh: '你是不是中国人？', pinyin: 'Nǐ shì bu shì Zhōngguó rén?', de: 'Bist du Chinese?' },
-      { zh: '这是不是你的？', pinyin: 'Zhè shì bu shì nǐ de?', de: 'Ist das deins?' }
+      { chinese: '你是不是中国人？', pinyin: 'Nǐ shì bu shì Zhōngguó rén?', german: 'Bist du Chinese?' },
+      { chinese: '这是不是你的？', pinyin: 'Zhè shì bu shì nǐ de?', german: 'Ist das deins?' }
     ]
   },
 
@@ -128,8 +128,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK2',
     category: 'Zeitformen',
     examples: [
-      { zh: '要下雨了。', pinyin: 'Yào xià yǔ le.', de: 'Es wird gleich regnen.' },
-      { zh: '火车要开了！', pinyin: 'Huǒchē yào kāi le!', de: 'Der Zug fährt gleich ab!' }
+      { chinese: '要下雨了。', pinyin: 'Yào xià yǔ le.', german: 'Es wird gleich regnen.' },
+      { chinese: '火车要开了！', pinyin: 'Huǒchē yào kāi le!', german: 'Der Zug fährt gleich ab!' }
     ]
   },
   {
@@ -139,8 +139,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK2',
     category: 'Adverbien',
     examples: [
-      { zh: '这里多么漂亮啊！', pinyin: 'Zhèlǐ duōme piàoliang a!', de: 'Wie schön es hier ist!' },
-      { zh: '他多么想回家！', pinyin: 'Tā duōme xiǎng huí jiā!', de: 'Wie sehr er nach Hause will!' }
+      { chinese: '这里多么漂亮啊！', pinyin: 'Zhèlǐ duōme piàoliang a!', german: 'Wie schön es hier ist!' },
+      { chinese: '他多么想回家！', pinyin: 'Tā duōme xiǎng huí jiā!', german: 'Wie sehr er nach Hause will!' }
     ]
   },
   {
@@ -150,8 +150,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK2',
     category: 'Konjunktionen',
     examples: [
-      { zh: '虽然很累，可是很开心。', pinyin: 'Suīrán hěn lèi, kěshì hěn kāixīn.', de: 'Obwohl ich müde bin, bin ich glücklich.' },
-      { zh: '虽然他很小，可是很聪明。', pinyin: 'Suīrán tā hěn xiǎo, kěshì hěn cōngming.', de: 'Obwohl er klein ist, ist er sehr klug.' }
+      { chinese: '虽然很累，可是很开心。', pinyin: 'Suīrán hěn lèi, kěshì hěn kāixīn.', german: 'Obwohl ich müde bin, bin ich glücklich.' },
+      { chinese: '虽然他很小，可是很聪明。', pinyin: 'Suīrán tā hěn xiǎo, kěshì hěn cōngming.', german: 'Obwohl er klein ist, ist er sehr klug.' }
     ]
   },
   {
@@ -161,8 +161,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK2',
     category: 'Verneinung',
     examples: [
-      { zh: '我一点儿也不累。', pinyin: 'Wǒ yìdiǎnr yě bù lèi.', de: 'Ich bin überhaupt nicht müde.' },
-      { zh: '他一点儿也不高兴。', pinyin: 'Tā yìdiǎnr yě bù gāoxìng.', de: 'Er ist kein bisschen froh.' }
+      { chinese: '我一点儿也不累。', pinyin: 'Wǒ yìdiǎnr yě bù lèi.', german: 'Ich bin überhaupt nicht müde.' },
+      { chinese: '他一点儿也不高兴。', pinyin: 'Tā yìdiǎnr yě bù gāoxìng.', german: 'Er ist kein bisschen froh.' }
     ]
   },
   {
@@ -172,8 +172,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK2',
     category: 'Konjunktionen',
     examples: [
-      { zh: '她又唱又跳。', pinyin: 'Tā yòu chàng yòu tiào.', de: 'Sie singt und tanzt zugleich.' },
-      { zh: '孩子们又哭又笑。', pinyin: 'Háizimen yòu kū yòu xiào.', de: 'Die Kinder weinen und lachen gleichzeitig.' }
+      { chinese: '她又唱又跳。', pinyin: 'Tā yòu chàng yòu tiào.', german: 'Sie singt und tanzt zugleich.' },
+      { chinese: '孩子们又哭又笑。', pinyin: 'Háizimen yòu kū yòu xiào.', german: 'Die Kinder weinen und lachen gleichzeitig.' }
     ]
   },
   {
@@ -183,8 +183,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK2',
     category: 'Komplemente',
     examples: [
-      { zh: '她说得很好。', pinyin: 'Tā shuō de hěn hǎo.', de: 'Sie spricht sehr gut.' },
-      { zh: '你写得很漂亮。', pinyin: 'Nǐ xiě de hěn piàoliang.', de: 'Du schreibst sehr schön.' }
+      { chinese: '她说得很好。', pinyin: 'Tā shuō de hěn hǎo.', german: 'Sie spricht sehr gut.' },
+      { chinese: '你写得很漂亮。', pinyin: 'Nǐ xiě de hěn piàoliang.', german: 'Du schreibst sehr schön.' }
     ]
   },
   {
@@ -194,8 +194,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK2',
     category: 'Konjunktionen',
     examples: [
-      { zh: '他不是在看书，就是在睡觉。', pinyin: 'Tā bú shì zài kàn shū, jiù shì zài shuìjiào.', de: 'Er liest entweder oder er schläft.' },
-      { zh: '周末不是下雨，就是太热。', pinyin: 'Zhōumò bú shì xià yǔ, jiù shì tài rè.', de: 'Am Wochenende regnet es entweder oder es ist zu heiß.' }
+      { chinese: '他不是在看书，就是在睡觉。', pinyin: 'Tā bú shì zài kàn shū, jiù shì zài shuìjiào.', german: 'Er liest entweder oder er schläft.' },
+      { chinese: '周末不是下雨，就是太热。', pinyin: 'Zhōumò bú shì xià yǔ, jiù shì tài rè.', german: 'Am Wochenende regnet es entweder oder es ist zu heiß.' }
     ]
   },
   {
@@ -205,8 +205,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK2',
     category: 'Adverbien',
     examples: [
-      { zh: '别那么紧张。', pinyin: 'Bié nàme jǐnzhāng.', de: 'Sei nicht so nervös.' },
-      { zh: '你怎么那么忙？', pinyin: 'Nǐ zěnme nàme máng?', de: 'Warum bist du so beschäftigt?' }
+      { chinese: '别那么紧张。', pinyin: 'Bié nàme jǐnzhāng.', german: 'Sei nicht so nervös.' },
+      { chinese: '你怎么那么忙？', pinyin: 'Nǐ zěnme nàme máng?', german: 'Warum bist du so beschäftigt?' }
     ]
   },
   {
@@ -216,8 +216,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK2',
     category: 'Verneinung',
     examples: [
-      { zh: '他不吃也不喝。', pinyin: 'Tā bù chī yě bù hē.', de: 'Er isst weder noch trinkt er.' },
-      { zh: '这里不大也不小。', pinyin: 'Zhèlǐ bú dà yě bù xiǎo.', de: 'Hier ist es weder groß noch klein.' }
+      { chinese: '他不吃也不喝。', pinyin: 'Tā bù chī yě bù hē.', german: 'Er isst weder noch trinkt er.' },
+      { chinese: '这里不大也不小。', pinyin: 'Zhèlǐ bú dà yě bù xiǎo.', german: 'Hier ist es weder groß noch klein.' }
     ]
   },
   {
@@ -227,8 +227,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK2',
     category: 'Konjunktionen',
     examples: [
-      { zh: '你有时间的话，来找我。', pinyin: 'Nǐ yǒu shíjiān de huà, lái zhǎo wǒ.', de: 'Wenn du Zeit hast, komm mich besuchen.' },
-      { zh: '不想去的话，就别去了。', pinyin: 'Bù xiǎng qù de huà, jiù bié qù le.', de: 'Wenn du nicht gehen willst, dann geh eben nicht.' }
+      { chinese: '你有时间的话，来找我。', pinyin: 'Nǐ yǒu shíjiān de huà, lái zhǎo wǒ.', german: 'Wenn du Zeit hast, komm mich besuchen.' },
+      { chinese: '不想去的话，就别去了。', pinyin: 'Bù xiǎng qù de huà, jiù bié qù le.', german: 'Wenn du nicht gehen willst, dann geh eben nicht.' }
     ]
   },
 
@@ -243,8 +243,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK3',
     category: 'Modalausdrücke',
     examples: [
-      { zh: '看样子要下雨了。', pinyin: 'Kàn yàngzi yào xià yǔ le.', de: 'Es sieht so aus, als ob es regnen wird.' },
-      { zh: '看样子他不太高兴。', pinyin: 'Kàn yàngzi tā bú tài gāoxìng.', de: 'Anscheinend ist er nicht sehr froh.' }
+      { chinese: '看样子要下雨了。', pinyin: 'Kàn yàngzi yào xià yǔ le.', german: 'Es sieht so aus, als ob es regnen wird.' },
+      { chinese: '看样子他不太高兴。', pinyin: 'Kàn yàngzi tā bú tài gāoxìng.', german: 'Anscheinend ist er nicht sehr froh.' }
     ]
   },
   {
@@ -254,8 +254,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK3',
     category: 'Konjunktionen',
     examples: [
-      { zh: '除非你来，我才去。', pinyin: 'Chúfēi nǐ lái, wǒ cái qù.', de: 'Nur wenn du kommst, gehe ich hin.' },
-      { zh: '除非下雨，我们才取消。', pinyin: 'Chúfēi xià yǔ, wǒmen cái qǔxiāo.', de: 'Nur wenn es regnet, sagen wir ab.' }
+      { chinese: '除非你来，我才去。', pinyin: 'Chúfēi nǐ lái, wǒ cái qù.', german: 'Nur wenn du kommst, gehe ich hin.' },
+      { chinese: '除非下雨，我们才取消。', pinyin: 'Chúfēi xià yǔ, wǒmen cái qǔxiāo.', german: 'Nur wenn es regnet, sagen wir ab.' }
     ]
   },
   {
@@ -265,8 +265,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK3',
     category: 'Präpositionen',
     examples: [
-      { zh: '对于我来说，健康最重要。', pinyin: 'Duìyú wǒ lái shuō, jiànkāng zuì zhòngyào.', de: 'Für mich ist Gesundheit am wichtigsten.' },
-      { zh: '对于初学者来说，这很难。', pinyin: 'Duìyú chūxuézhě lái shuō, zhè hěn nán.', de: 'Für Anfänger ist das sehr schwer.' }
+      { chinese: '对于我来说，健康最重要。', pinyin: 'Duìyú wǒ lái shuō, jiànkāng zuì zhòngyào.', german: 'Für mich ist Gesundheit am wichtigsten.' },
+      { chinese: '对于初学者来说，这很难。', pinyin: 'Duìyú chūxuézhě lái shuō, zhè hěn nán.', german: 'Für Anfänger ist das sehr schwer.' }
     ]
   },
   {
@@ -276,8 +276,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK3',
     category: 'Modalausdrücke',
     examples: [
-      { zh: '可不是吗，他每天都迟到！', pinyin: 'Kě bú shì ma, tā měi tiān dōu chídào!', de: 'Nicht wahr, er kommt jeden Tag zu spät!' },
-      { zh: '可不是吗，这个地方真不错。', pinyin: 'Kě bú shì ma, zhège dìfang zhēn búcuò.', de: 'Ja wirklich, dieser Ort ist echt gut.' }
+      { chinese: '可不是吗，他每天都迟到！', pinyin: 'Kě bú shì ma, tā měi tiān dōu chídào!', german: 'Nicht wahr, er kommt jeden Tag zu spät!' },
+      { chinese: '可不是吗，这个地方真不错。', pinyin: 'Kě bú shì ma, zhège dìfang zhēn búcuò.', german: 'Ja wirklich, dieser Ort ist echt gut.' }
     ]
   },
   {
@@ -287,8 +287,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK3',
     category: 'Adverbien',
     examples: [
-      { zh: '他显然不同意。', pinyin: 'Tā xiǎnrán bù tóngyì.', de: 'Er ist offensichtlich nicht einverstanden.' },
-      { zh: '显然，这个方法不行。', pinyin: 'Xiǎnrán, zhège fāngfǎ bù xíng.', de: 'Offensichtlich funktioniert diese Methode nicht.' }
+      { chinese: '他显然不同意。', pinyin: 'Tā xiǎnrán bù tóngyì.', german: 'Er ist offensichtlich nicht einverstanden.' },
+      { chinese: '显然，这个方法不行。', pinyin: 'Xiǎnrán, zhège fāngfǎ bù xíng.', german: 'Offensichtlich funktioniert diese Methode nicht.' }
     ]
   },
   {
@@ -298,8 +298,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK3',
     category: 'Adverbien',
     examples: [
-      { zh: '到处都是人。', pinyin: 'Dàochù dōu shì rén.', de: 'Überall sind Leute.' },
-      { zh: '我到处找你。', pinyin: 'Wǒ dàochù zhǎo nǐ.', de: 'Ich habe dich überall gesucht.' }
+      { chinese: '到处都是人。', pinyin: 'Dàochù dōu shì rén.', german: 'Überall sind Leute.' },
+      { chinese: '我到处找你。', pinyin: 'Wǒ dàochù zhǎo nǐ.', german: 'Ich habe dich überall gesucht.' }
     ]
   },
   {
@@ -309,8 +309,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK3',
     category: 'Adverbien',
     examples: [
-      { zh: '你随便坐。', pinyin: 'Nǐ suíbiàn zuò.', de: 'Setz dich, wohin du willst.' },
-      { zh: '别随便乱说。', pinyin: 'Bié suíbiàn luàn shuō.', de: 'Rede nicht einfach drauflos.' }
+      { chinese: '你随便坐。', pinyin: 'Nǐ suíbiàn zuò.', german: 'Setz dich, wohin du willst.' },
+      { chinese: '别随便乱说。', pinyin: 'Bié suíbiàn luàn shuō.', german: 'Rede nicht einfach drauflos.' }
     ]
   },
   {
@@ -320,8 +320,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK3',
     category: 'Adverbien',
     examples: [
-      { zh: '我差点儿迟到了。', pinyin: 'Wǒ chàdiǎnr chídào le.', de: 'Ich wäre fast zu spät gekommen.' },
-      { zh: '他差点儿摔倒。', pinyin: 'Tā chàdiǎnr shuāidǎo.', de: 'Er wäre fast hingefallen.' }
+      { chinese: '我差点儿迟到了。', pinyin: 'Wǒ chàdiǎnr chídào le.', german: 'Ich wäre fast zu spät gekommen.' },
+      { chinese: '他差点儿摔倒。', pinyin: 'Tā chàdiǎnr shuāidǎo.', german: 'Er wäre fast hingefallen.' }
     ]
   },
   {
@@ -331,8 +331,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK3',
     category: 'Adverbien',
     examples: [
-      { zh: '干脆我们走路去吧。', pinyin: 'Gāncuì wǒmen zǒulù qù ba.', de: 'Gehen wir doch einfach zu Fuß.' },
-      { zh: '你干脆别去了。', pinyin: 'Nǐ gāncuì bié qù le.', de: 'Geh am besten gar nicht erst hin.' }
+      { chinese: '干脆我们走路去吧。', pinyin: 'Gāncuì wǒmen zǒulù qù ba.', german: 'Gehen wir doch einfach zu Fuß.' },
+      { chinese: '你干脆别去了。', pinyin: 'Nǐ gāncuì bié qù le.', german: 'Geh am besten gar nicht erst hin.' }
     ]
   },
   {
@@ -342,8 +342,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK3',
     category: 'Verneinung',
     examples: [
-      { zh: '我再也不想去了。', pinyin: 'Wǒ zài yě bù xiǎng qù le.', de: 'Ich will nie wieder hingehen.' },
-      { zh: '他再也没回来。', pinyin: 'Tā zài yě méi huílai.', de: 'Er ist nie wieder zurückgekommen.' }
+      { chinese: '我再也不想去了。', pinyin: 'Wǒ zài yě bù xiǎng qù le.', german: 'Ich will nie wieder hingehen.' },
+      { chinese: '他再也没回来。', pinyin: 'Tā zài yě méi huílai.', german: 'Er ist nie wieder zurückgekommen.' }
     ]
   },
 
@@ -358,8 +358,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Zeitformen',
     examples: [
-      { zh: '来中国以来，我学了很多。', pinyin: 'Lái Zhōngguó yǐlái, wǒ xué le hěn duō.', de: 'Seitdem ich in China bin, habe ich viel gelernt.' },
-      { zh: '三年以来，他一直在努力。', pinyin: 'Sān nián yǐlái, tā yìzhí zài nǔlì.', de: 'Seit drei Jahren gibt er sich ständig Mühe.' }
+      { chinese: '来中国以来，我学了很多。', pinyin: 'Lái Zhōngguó yǐlái, wǒ xué le hěn duō.', german: 'Seitdem ich in China bin, habe ich viel gelernt.' },
+      { chinese: '三年以来，他一直在努力。', pinyin: 'Sān nián yǐlái, tā yìzhí zài nǔlì.', german: 'Seit drei Jahren gibt er sich ständig Mühe.' }
     ]
   },
   {
@@ -369,8 +369,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Konjunktionen',
     examples: [
-      { zh: '尽管很辛苦，但他从不抱怨。', pinyin: 'Jǐnguǎn hěn xīnkǔ, dàn tā cóng bù bàoyuàn.', de: 'Obwohl es anstrengend ist, beschwert er sich nie.' },
-      { zh: '尽管条件不好，但大家很努力。', pinyin: 'Jǐnguǎn tiáojiàn bù hǎo, dàn dàjiā hěn nǔlì.', de: 'Obwohl die Bedingungen schlecht sind, geben alle ihr Bestes.' }
+      { chinese: '尽管很辛苦，但他从不抱怨。', pinyin: 'Jǐnguǎn hěn xīnkǔ, dàn tā cóng bù bàoyuàn.', german: 'Obwohl es anstrengend ist, beschwert er sich nie.' },
+      { chinese: '尽管条件不好，但大家很努力。', pinyin: 'Jǐnguǎn tiáojiàn bù hǎo, dàn dàjiā hěn nǔlì.', german: 'Obwohl die Bedingungen schlecht sind, geben alle ihr Bestes.' }
     ]
   },
   {
@@ -380,8 +380,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Konjunktionen',
     examples: [
-      { zh: '与其浪费时间，宁可多休息。', pinyin: 'Yǔqí làngfèi shíjiān, nìngkě duō xiūxi.', de: 'Anstatt Zeit zu verschwenden, ruhe ich mich lieber aus.' },
-      { zh: '与其后悔，宁可现在努力。', pinyin: 'Yǔqí hòuhuǐ, nìngkě xiànzài nǔlì.', de: 'Anstatt es zu bereuen, strenge ich mich lieber jetzt an.' }
+      { chinese: '与其浪费时间，宁可多休息。', pinyin: 'Yǔqí làngfèi shíjiān, nìngkě duō xiūxi.', german: 'Anstatt Zeit zu verschwenden, ruhe ich mich lieber aus.' },
+      { chinese: '与其后悔，宁可现在努力。', pinyin: 'Yǔqí hòuhuǐ, nìngkě xiànzài nǔlì.', german: 'Anstatt es zu bereuen, strenge ich mich lieber jetzt an.' }
     ]
   },
   {
@@ -391,8 +391,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Konjunktionen',
     examples: [
-      { zh: '再怎么努力，也来不及了。', pinyin: 'Zài zěnme nǔlì, yě láibùjí le.', de: 'Egal wie sehr man sich anstrengt, es ist zu spät.' },
-      { zh: '再怎么说，他也是你的朋友。', pinyin: 'Zài zěnme shuō, tā yě shì nǐ de péngyou.', de: 'Was man auch sagt, er ist immerhin dein Freund.' }
+      { chinese: '再怎么努力，也来不及了。', pinyin: 'Zài zěnme nǔlì, yě láibùjí le.', german: 'Egal wie sehr man sich anstrengt, es ist zu spät.' },
+      { chinese: '再怎么说，他也是你的朋友。', pinyin: 'Zài zěnme shuō, tā yě shì nǐ de péngyou.', german: 'Was man auch sagt, er ist immerhin dein Freund.' }
     ]
   },
   {
@@ -402,8 +402,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Modalausdrücke',
     examples: [
-      { zh: '难怪他那么累，原来加班到很晚。', pinyin: 'Nánguài tā nàme lèi, yuánlái jiābān dào hěn wǎn.', de: 'Kein Wunder, dass er so müde ist -- er hat bis spät Überstunden gemacht.' },
-      { zh: '难怪你中文说得这么好！', pinyin: 'Nánguài nǐ zhōngwén shuō de zhème hǎo!', de: 'Kein Wunder, dass du so gut Chinesisch sprichst!' }
+      { chinese: '难怪他那么累，原来加班到很晚。', pinyin: 'Nánguài tā nàme lèi, yuánlái jiābān dào hěn wǎn.', german: 'Kein Wunder, dass er so müde ist -- er hat bis spät Überstunden gemacht.' },
+      { chinese: '难怪你中文说得这么好！', pinyin: 'Nánguài nǐ zhōngwén shuō de zhème hǎo!', german: 'Kein Wunder, dass du so gut Chinesisch sprichst!' }
     ]
   },
   {
@@ -413,8 +413,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Adverbien',
     examples: [
-      { zh: '成功往往需要耐心。', pinyin: 'Chénggōng wǎngwǎng xūyào nàixīn.', de: 'Erfolg erfordert in der Regel Geduld.' },
-      { zh: '他往往很晚才回家。', pinyin: 'Tā wǎngwǎng hěn wǎn cái huí jiā.', de: 'Er kommt meistens erst spät nach Hause.' }
+      { chinese: '成功往往需要耐心。', pinyin: 'Chénggōng wǎngwǎng xūyào nàixīn.', german: 'Erfolg erfordert in der Regel Geduld.' },
+      { chinese: '他往往很晚才回家。', pinyin: 'Tā wǎngwǎng hěn wǎn cái huí jiā.', german: 'Er kommt meistens erst spät nach Hause.' }
     ]
   },
   {
@@ -424,8 +424,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Adverbien',
     examples: [
-      { zh: '至少要学三年。', pinyin: 'Zhìshǎo yào xué sān nián.', de: 'Man muss mindestens drei Jahre lernen.' },
-      { zh: '你至少应该告诉我一声。', pinyin: 'Nǐ zhìshǎo yīnggāi gàosu wǒ yì shēng.', de: 'Du hättest mir wenigstens Bescheid sagen sollen.' }
+      { chinese: '至少要学三年。', pinyin: 'Zhìshǎo yào xué sān nián.', german: 'Man muss mindestens drei Jahre lernen.' },
+      { chinese: '你至少应该告诉我一声。', pinyin: 'Nǐ zhìshǎo yīnggāi gàosu wǒ yì shēng.', german: 'Du hättest mir wenigstens Bescheid sagen sollen.' }
     ]
   },
   {
@@ -435,8 +435,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Konjunktionen',
     examples: [
-      { zh: '我宁愿走路，也不坐公交车。', pinyin: 'Wǒ nìngyuàn zǒulù, yě bú zuò gōngjiāochē.', de: 'Ich gehe lieber zu Fuß, als den Bus zu nehmen.' },
-      { zh: '他宁愿饿着，也不吃那个。', pinyin: 'Tā nìngyuàn è zhe, yě bù chī nàge.', de: 'Er hungert lieber, als das zu essen.' }
+      { chinese: '我宁愿走路，也不坐公交车。', pinyin: 'Wǒ nìngyuàn zǒulù, yě bú zuò gōngjiāochē.', german: 'Ich gehe lieber zu Fuß, als den Bus zu nehmen.' },
+      { chinese: '他宁愿饿着，也不吃那个。', pinyin: 'Tā nìngyuàn è zhe, yě bù chī nàge.', german: 'Er hungert lieber, als das zu essen.' }
     ]
   },
   {
@@ -446,8 +446,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Adverbien',
     examples: [
-      { zh: '她动不动就哭。', pinyin: 'Tā dòngbudòng jiù kū.', de: 'Sie weint bei jeder Kleinigkeit.' },
-      { zh: '他动不动就生气。', pinyin: 'Tā dòngbudòng jiù shēngqì.', de: 'Er wird ständig wütend.' }
+      { chinese: '她动不动就哭。', pinyin: 'Tā dòngbudòng jiù kū.', german: 'Sie weint bei jeder Kleinigkeit.' },
+      { chinese: '他动不动就生气。', pinyin: 'Tā dòngbudòng jiù shēngqì.', german: 'Er wird ständig wütend.' }
     ]
   },
   {
@@ -457,8 +457,8 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     level: 'HSK4',
     category: 'Zeitformen',
     examples: [
-      { zh: '毕业之际，他感慨万千。', pinyin: 'Bìyè zhī jì, tā gǎnkǎi wànqiān.', de: 'Zum Zeitpunkt des Abschlusses war er voller Emotionen.' },
-      { zh: '新年之际，祝你一切顺利。', pinyin: 'Xīnnián zhī jì, zhù nǐ yíqiè shùnlì.', de: 'Zum neuen Jahr wünsche ich dir alles Gute.' }
+      { chinese: '毕业之际，他感慨万千。', pinyin: 'Bìyè zhī jì, tā gǎnkǎi wànqiān.', german: 'Zum Zeitpunkt des Abschlusses war er voller Emotionen.' },
+      { chinese: '新年之际，祝你一切顺利。', pinyin: 'Xīnnián zhī jì, zhù nǐ yíqiè shùnlì.', german: 'Zum neuen Jahr wünsche ich dir alles Gute.' }
     ]
   },
 ]);
