@@ -27,9 +27,11 @@ Read the WARN lines too and fix real problems (a pinyin warning usually means a 
   collocations and sentence frames, its measure word, contrast with near-synonyms learners confuse (认识/知道, 会/能/可以,
   二/两, 再/又), register (spoken/written/formal), separability, common mistakes of German speakers.
   Chinese words in characters, followed by pinyin in parentheses at their first mention: 帮忙 (bāngmáng).
-  German glosses in „…“. Accurate — this is teaching content.
+  German glosses in „…“. Accurate — this is teaching content. Avoid absolute claims („nie“, „immer“, „nur“, „falsch“)
+  unless they really hold: colloquial usage often allows what textbooks forbid (这书, 好电影). Prefer „meist“, „üblicher“.
 - `separable` — `true` for separable verbs (离合词: 帮忙, 睡觉, 见面, 游泳, 结婚, 生气 …). Then the note explains the split
-  (帮他的忙, 睡了一个小时的觉) and at least one example uses the split or the aspect-marked form. Omit otherwise.
+  (帮他的忙, 睡了一个小时的觉) and at least one example MUST show the split form (睡了一个好觉, 见过面) — the validator
+  checks this. Omit otherwise.
 - `examples` — 2 or 3 examples `{chinese, pinyin, german}` in clearly DIFFERENT situations; every example contains the word.
   Keep good existing examples verbatim. If an existing example is wrong or unnatural, rewrite it and list its ORIGINAL
   `chinese` string in `changedOriginals`; drop near-duplicates (also list them).
@@ -40,7 +42,7 @@ Read the WARN lines too and fix real problems (a pinyin warning usually means a 
     proper names capitalised, same punctuation as the chinese (，。！？). Neutral tone without mark (māma, xièxie, de, le).
     一 and 不 as spoken, like the HSK syllabus and textbooks (yí ge, yìqǐ, bú shì, bù hǎo); third-tone sandhi is not
     marked (nǐ hǎo). Apostrophe before a vowel-initial syllable inside a word (nǚ'ér, Tiān'ānmén).
-    Exactly one syllable per character.
+    Exactly one syllable per character. Numbers are one word: yìbǎi, sānshí'èr, liǎngwàn, èrlíng'èrwǔ nián.
   - german: natural, idiomatic German (not word-by-word).
 - `changedOriginals` — array (usually []).
 - `flags` — OPTIONAL string for problems you cannot fix with these fields (questionable syllabus reading, wrong measure word,

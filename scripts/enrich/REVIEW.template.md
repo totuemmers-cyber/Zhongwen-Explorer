@@ -14,7 +14,8 @@ per card, same order:
 
 Check every card for:
 1. Meaning: correct for this reading and the official part of speech; main senses present; house style.
-2. Notes: factually correct (collocations, measure word, contrasts, separability), clear German, pinyin after Chinese words.
+2. Notes: factually correct (collocations, measure word, contrasts, separability), clear German, pinyin after Chinese words;
+   no overstated rules („nie“, „immer“, „falsch“) where colloquial usage allows the form.
 3. Examples: natural mainland Mandarin a native speaker would say; the word used in its taught sense; situations distinct;
    beginner vocabulary only (see `exampleVocabulary`); pinyin correct syllable by syllable (tones, neutral tones,
    一/不 as spoken, word spacing); German translation accurate and idiomatic.

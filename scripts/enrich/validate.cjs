@@ -112,6 +112,8 @@ function checkBeginnerVocabulary(chinese, headword, allowed, ctx) {
   function problem(token) {
     // The card's own word, also inside a compound (天 in 今天, 天气), is always allowed.
     if (token.includes(headword)) return null;
+    // So are its parts when a separable verb is split (起不来床, 生什么病).
+    if (token.length === 1 && headword.includes(token)) return null;
     if (allowlist.has(token) || Array.from(token).every(ch => NUMBER_CHARS.has(ch))) return null;
     if (syllabus.has(token)) {
       return syllabus.get(token) <= allowed ? null : token + ' (HSK ' + (syllabus.get(token) === 7 ? '7–9' : syllabus.get(token)) + ')';
@@ -179,6 +181,17 @@ function containsHeadword(example, card, merged) {
   return false;
 }
 
+// True when a two-character separable verb appears split in the sentence (睡了一个好觉, 帮他的忙).
+function showsSplit(example, word) {
+  const text = example.chinese.replace(/[，。！？、；：,.!?;:“”"'（）()s]/g, '');
+  const chars = Array.from(word);
+  for (let a = text.indexOf(chars[0]); a !== -1; a = text.indexOf(chars[0], a + 1)) {
+    const b = text.indexOf(chars[1], a + 1);
+    if (b > a + 1 && b - a <= 7) return true;
+  }
+  return false;
+}
+
 // Validates one card; `card` is the input card, `authored` the merged authored content.
 function checkCard(card, authored, ctx) {
   const errors = [], warnings = [];
@@ -215,6 +228,9 @@ function checkCard(card, authored, ctx) {
       }
     }
   });
+  const separable = authored.separable !== undefined ? authored.separable : card.separable;
+  if (separable === true && Array.from(card.word).length === 2 && Array.isArray(examples) && !examples.some(ex => ex && ex.chinese && showsSplit(ex, card.word)))
+    errors.push('separable verb: at least one example must show the split form (睡了一个好觉, 帮他的忙)');
   const german = [authored.meaning, authored.notes, ...(examples || []).map(e => e && e.german)].filter(Boolean).join(' ');
   const umlaut = german.match(UMLAUT_SUBSTITUTES);
   if (umlaut) warnings.push('write umlauts: "' + umlaut[0] + '"');

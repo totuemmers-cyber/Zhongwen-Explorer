@@ -7404,9 +7404,9 @@ window.VOCAB_HSK1 = [
         "german": "Bist du schon aufgestanden? Es ist schon acht!"
       },
       {
-        "chinese": "他还没有起床。",
-        "pinyin": "Tā hái méiyǒu qǐchuáng.",
-        "german": "Er ist noch nicht aufgestanden."
+        "chinese": "我太累了，起不来床。",
+        "pinyin": "Wǒ tài lèi le, qǐ bu lái chuáng.",
+        "german": "Ich bin so müde, ich komme nicht aus dem Bett."
       }
     ],
     "legacyIds": [
@@ -8407,9 +8407,9 @@ window.VOCAB_HSK1 = [
         "german": "Er ist krank und kann nicht kommen."
       },
       {
-        "chinese": "天冷了，多穿点衣服，别生病。",
-        "pinyin": "Tiān lěng le, duō chuān diǎn yīfu, bié shēngbìng.",
-        "german": "Es ist kalt geworden, zieh dich warm an, damit du nicht krank wirst."
+        "chinese": "他生什么病了？",
+        "pinyin": "Tā shēng shénme bìng le?",
+        "german": "Was hat er denn für eine Krankheit?"
       },
       {
         "chinese": "他身体很好，很少生病。",
