@@ -162,9 +162,9 @@ window.VOCAB_HSK2 = [
       "pos": "动",
       "page": 87
     },
-    "traditional": "幇",
+    "traditional": "幫",
     "evidence": {
-      "cedict": "幇 帮 [bang1]"
+      "cedict": "幫 帮 [bang1]"
     }
   },
   {
@@ -667,9 +667,9 @@ window.VOCAB_HSK2 = [
       "pos": "名",
       "page": 88
     },
-    "traditional": "䛐",
+    "traditional": "詞",
     "evidence": {
-      "cedict": "䛐 词 [ci2]"
+      "cedict": "詞 词 [ci2]"
     },
     "variants": [
       "辞"
@@ -752,9 +752,9 @@ window.VOCAB_HSK2 = [
       "pos": "介、（副）",
       "page": 88
     },
-    "traditional": "从",
+    "traditional": "從",
     "evidence": {
-      "cedict": "从 从 [cong2]"
+      "cedict": "從 从 [cong2]"
     }
   },
   {
@@ -2566,9 +2566,9 @@ window.VOCAB_HSK2 = [
       "page": 89
     },
     "examples": [],
-    "traditional": "攷",
+    "traditional": "考",
     "evidence": {
-      "cedict": "攷 考 [kao3]"
+      "cedict": "考 考 [kao3]"
     },
     "legacyIds": []
   },
@@ -2938,9 +2938,9 @@ window.VOCAB_HSK2 = [
       "pos": "名",
       "page": 89
     },
-    "traditional": "裏面",
+    "traditional": "裡面",
     "evidence": {
-      "cedict": "裏面 里面 [li3 mian4]"
+      "cedict": "裡面 里面 [li3 mian4]"
     }
   },
   {
@@ -3425,9 +3425,9 @@ window.VOCAB_HSK2 = [
       "pos": "动",
       "page": 90
     },
-    "traditional": "㧱",
+    "traditional": "拿",
     "evidence": {
-      "cedict": "㧱 拿 [na2]"
+      "cedict": "拿 拿 [na2]"
     }
   },
   {
@@ -3918,7 +3918,7 @@ window.VOCAB_HSK2 = [
       "page": 90
     },
     "examples": [],
-    "traditional": "毬",
+    "traditional": "球",
     "measureWords": [
       {
         "word": "个",
@@ -3930,7 +3930,7 @@ window.VOCAB_HSK2 = [
       }
     ],
     "evidence": {
-      "cedict": "毬 球 [qiu2]"
+      "cedict": "球 球 [qiu2]"
     },
     "legacyIds": []
   },
@@ -4232,9 +4232,9 @@ window.VOCAB_HSK2 = [
       "page": 90
     },
     "examples": [],
-    "traditional": "旹",
+    "traditional": "時",
     "evidence": {
-      "cedict": "旹 时 [shi2]"
+      "cedict": "時 时 [shi2]"
     },
     "legacyIds": []
   },
@@ -5265,9 +5265,9 @@ window.VOCAB_HSK2 = [
       "pos": "动",
       "page": 91
     },
-    "traditional": "咲",
+    "traditional": "笑",
     "evidence": {
-      "cedict": "咲 笑 [xiao4]"
+      "cedict": "笑 笑 [xiao4]"
     }
   },
   {
@@ -5418,7 +5418,7 @@ window.VOCAB_HSK2 = [
       "pos": "名",
       "page": 91
     },
-    "traditional": "葯",
+    "traditional": "藥",
     "measureWords": [
       {
         "word": "种",
@@ -5434,7 +5434,7 @@ window.VOCAB_HSK2 = [
       }
     ],
     "evidence": {
-      "cedict": "葯 药 [yao4]"
+      "cedict": "藥 药 [yao4]"
     }
   },
   {
@@ -6127,9 +6127,9 @@ window.VOCAB_HSK2 = [
       "pos": "助",
       "page": 92
     },
-    "traditional": "着",
+    "traditional": "著",
     "evidence": {
-      "cedict": "着 着 [zhe5]"
+      "cedict": "著 着 [zhao1]"
     }
   },
   {
@@ -6381,9 +6381,9 @@ window.VOCAB_HSK2 = [
       "pos": "副",
       "page": 92
     },
-    "traditional": "㝡",
+    "traditional": "最",
     "evidence": {
-      "cedict": "㝡 最 [zui4]"
+      "cedict": "最 最 [zui4]"
     }
   },
   {

@@ -11,7 +11,7 @@ const TYPES = ['Nomen', 'Verb', 'Adjektiv', 'Adverb', 'Pronomen', 'Zahlwort', 'Z
 const HAN = /[㐀-鿿豈-﫿]/;
 const NUMBER_CHARS = new Set(Array.from('零一二两三四五六七八九十百千万亿半第'));
 // Frequent ASCII spellings of umlaut words; authors must write ä/ö/ü/ß.
-const UMLAUT_SUBSTITUTES = /\b(fuer|ueber|koennen|kann?st\b|muessen|waehrend|moechte|haeufig|spaeter|frueh|natuerlich|Maedchen|Strasse|schoen|hoeren|aehnlich|zurueck|wuerde|fuenf|Schueler|Buero|oeffnen|Groesse|Gruesse|Kaese|Laender|Aerger|faehrt|laeuft|gefaellt|Gefuehl|gruen|Tuer|Gemuese|Fruehstueck)\b/i;
+const UMLAUT_SUBSTITUTES = /\b(fuer|ueber|koennen|muessen|waehrend|moechte|haeufig|spaeter|frueh|natuerlich|Maedchen|Strasse|schoen|hoeren|aehnlich|zurueck|wuerde|fuenf|Schueler|Buero|oeffnen|Groesse|Gruesse|Kaese|Laender|Aerger|faehrt|laeuft|gefaellt|Gefuehl|gruen|Tuer|Gemuese|Fruehstueck)\b/i;
 
 let shared = null;
 function context() {
@@ -22,7 +22,7 @@ function context() {
   const syllabus = common.syllabusLevels();
   let longest = 1;
   for (const word of cedict.keys()) longest = Math.max(longest, Array.from(word).length);
-  shared = { Pinyin, cedict, allowlist, syllabus, longest: Math.min(longest, 8) };
+  shared = { Pinyin, cedict, allowlist, syllabus, characters: common.characterLevels(), longest: Math.min(longest, 8) };
   return shared;
 }
 
@@ -104,30 +104,46 @@ function checkExampleReading(chinese, pinyin, ctx) {
 
 // Beginner levels: words in examples may come from at most one level above the card.
 function checkBeginnerVocabulary(chinese, headword, allowed, ctx) {
-  const { syllabus, allowlist, cedict, longest } = ctx;
-  const masked = chinese.split(headword).join('\u0000');
+  const { syllabus, allowlist, cedict, longest, characters } = ctx;
   const issues = [];
-  const runs = masked.split(/[^㐀-鿿豈-﫿]+/).filter(Boolean);
+  const runs = chinese.split(/[^㐀-鿿豈-﫿]+/).filter(Boolean);
   const known = word => syllabus.has(word) || allowlist.has(word);
+  // Why a token is not acceptable at this level, or null when it is.
+  function problem(token) {
+    // The card's own word, also inside a compound (天 in 今天, 天气), is always allowed.
+    if (token.includes(headword)) return null;
+    if (allowlist.has(token) || Array.from(token).every(ch => NUMBER_CHARS.has(ch))) return null;
+    if (syllabus.has(token)) {
+      return syllabus.get(token) <= allowed ? null : token + ' (HSK ' + (syllabus.get(token) === 7 ? '7–9' : syllabus.get(token)) + ')';
+    }
+    // A single character that is not a syllabus word (没) counts by the official character list.
+    if (token.length === 1) return characters.has(token) && characters.get(token) <= allowed ? null : token + ' (nicht im HSK-Wortschatz)';
+    return token + ' (nicht im HSK-Wortschatz)';
+  }
+  // The split that explains the sentence best: allowed words cost 1, anything else 10, so
+  // 我不知道 is 我|不|知道 (not 不知|道) and 洗衣服 is 洗|衣服 (not 洗衣|服).
   for (const run of runs) {
     const chars = Array.from(run);
-    for (let i = 0; i < chars.length;) {
-      let len = Math.min(longest, chars.length - i);
-      for (; len > 1; len--) {
-        const word = chars.slice(i, i + len).join('');
-        if (known(word) || cedict.has(word)) break;
+    const n = chars.length;
+    const cost = new Array(n + 1).fill(Infinity), choice = new Array(n + 1);
+    cost[n] = 0;
+    for (let i = n - 1; i >= 0; i--) {
+      for (let len = Math.min(longest, n - i); len >= 1; len--) {
+        const token = chars.slice(i, i + len).join('');
+        // Multi-character tokens are dictionary words or the headword itself (never arbitrary strings).
+        if (len > 1 && !known(token) && !cedict.has(token) && token !== headword) continue;
+        // A character accepted only through the character list costs 6, so two of them never
+        // undercut a real word above the level (复杂 must not pass as 复|杂).
+        const charFallback = len === 1 && !syllabus.has(token) && !allowlist.has(token) && !token.includes(headword);
+        const c = (problem(token) ? 10 : charFallback ? 6 : 1) + cost[i + len];
+        if (c < cost[i]) { cost[i] = c; choice[i] = token; }
       }
-      const token = chars.slice(i, i + len).join('');
-      i += len;
-      if (allowlist.has(token) || Array.from(token).every(ch => NUMBER_CHARS.has(ch))) continue;
-      if (syllabus.has(token)) {
-        if (syllabus.get(token) > allowed) issues.push(token + ' (HSK ' + (syllabus.get(token) === 7 ? '7–9' : syllabus.get(token)) + ')');
-        continue;
-      }
-      // Not a syllabus word: acceptable if it splits into syllabus words within the allowed level.
-      const parts = splitInto(token, syllabus);
-      if (parts && parts.every(p => syllabus.get(p) <= allowed)) continue;
-      issues.push(token + ' (nicht im HSK-Wortschatz)');
+    }
+    for (let i = 0; i < n;) {
+      const token = choice[i];
+      const p = problem(token);
+      if (p) issues.push(p);
+      i += Array.from(token).length;
     }
   }
   return Array.from(new Set(issues));

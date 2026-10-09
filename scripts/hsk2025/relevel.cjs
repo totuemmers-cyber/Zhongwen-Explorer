@@ -85,8 +85,9 @@ function splitsIntoWords(word) {
 }
 // CC-CEDICT capitalises proper names (书 [Shu1] = 书经); common-word readings come first.
 const isProperName = entry => /^[A-Z]/.test(entry.pinyin);
+const entryRank = dict.mainEntryOrder(cedict);
 function cedictReadings(word, key) {
-  const list = (cedict.get(word) || []).slice().sort((a, b) => isProperName(a) - isProperName(b));
+  const list = (cedict.get(word) || []).slice().sort(entryRank);
   const exact = list.filter(e => e.key === key);
   return exact.length ? exact : list.filter(e => sameReading(e.key, key));
 }

@@ -1082,7 +1082,7 @@ window.VOCAB_HSK7_9 = [
       "page": 216
     },
     "examples": [],
-    "traditional": "垻",
+    "traditional": "壩",
     "measureWords": [
       {
         "word": "条",
@@ -1090,7 +1090,7 @@ window.VOCAB_HSK7_9 = [
       }
     ],
     "evidence": {
-      "cedict": "垻 坝 [ba4]"
+      "cedict": "壩 坝 [ba4]"
     },
     "legacyIds": []
   },
@@ -2461,9 +2461,9 @@ window.VOCAB_HSK7_9 = [
       "pos": "动",
       "page": 217
     },
-    "traditional": "包扎",
+    "traditional": "包紮",
     "evidence": {
-      "cedict": "包扎 包扎 [bao1 za1]"
+      "cedict": "包紮 包扎 [bao1 za1]"
     }
   },
   {
@@ -3415,9 +3415,9 @@ window.VOCAB_HSK7_9 = [
       "page": 218
     },
     "examples": [],
-    "traditional": "俻",
+    "traditional": "備",
     "evidence": {
-      "cedict": "俻 备 [bei4]"
+      "cedict": "備 备 [bei4]"
     },
     "legacyIds": []
   },
@@ -4014,9 +4014,9 @@ window.VOCAB_HSK7_9 = [
       "page": 219
     },
     "examples": [],
-    "traditional": "綳",
+    "traditional": "繃",
     "evidence": {
-      "cedict": "綳 绷 [beng1]"
+      "cedict": "繃 绷 [beng1]"
     },
     "legacyIds": []
   },
@@ -10439,9 +10439,9 @@ window.VOCAB_HSK7_9 = [
       "page": 225
     },
     "examples": [],
-    "traditional": "剷",
+    "traditional": "鏟",
     "evidence": {
-      "cedict": "剷 铲 [chan3]"
+      "cedict": "鏟 铲 [chan3]"
     },
     "variants": [
       "刬"
@@ -11437,9 +11437,9 @@ window.VOCAB_HSK7_9 = [
       "pos": "动、名",
       "page": 226
     },
-    "traditional": "沈澱",
+    "traditional": "沉澱",
     "evidence": {
-      "cedict": "沈澱 沉淀 [chen2 dian4]"
+      "cedict": "沉澱 沉淀 [chen2 dian4]"
     }
   },
   {
@@ -15418,9 +15418,9 @@ window.VOCAB_HSK7_9 = [
       "page": 230
     },
     "examples": [],
-    "traditional": "剏",
+    "traditional": "創",
     "evidence": {
-      "cedict": "剏 创 [chuang4]"
+      "cedict": "創 创 [chuang1]"
     },
     "variants": [
       "刱"
@@ -15721,9 +15721,9 @@ window.VOCAB_HSK7_9 = [
       "page": 231
     },
     "examples": [],
-    "traditional": "惷",
+    "traditional": "蠢",
     "evidence": {
-      "cedict": "惷 蠢 [chun3]"
+      "cedict": "蠢 蠢 [chun3]"
     },
     "legacyIds": []
   },
@@ -15791,9 +15791,9 @@ window.VOCAB_HSK7_9 = [
       "page": 231
     },
     "examples": [],
-    "traditional": "辤",
+    "traditional": "辭",
     "evidence": {
-      "cedict": "辤 辞 [ci2]"
+      "cedict": "辭 辞 [ci2]"
     },
     "legacyIds": []
   },
@@ -19058,9 +19058,9 @@ window.VOCAB_HSK7_9 = [
       "pos": "动",
       "page": 234
     },
-    "traditional": "盪漾",
+    "traditional": "蕩漾",
     "evidence": {
-      "cedict": "盪漾 荡漾 [dang4 yang4]"
+      "cedict": "蕩漾 荡漾 [dang4 yang4]"
     }
   },
   {
@@ -21483,9 +21483,9 @@ window.VOCAB_HSK7_9 = [
       "page": 237
     },
     "examples": [],
-    "traditional": "彫",
+    "traditional": "雕",
     "evidence": {
-      "cedict": "彫 雕 [diao1]"
+      "cedict": "雕 雕 [diao1]"
     },
     "legacyIds": []
   },
@@ -21813,9 +21813,9 @@ window.VOCAB_HSK7_9 = [
       "pos": "动",
       "page": 237
     },
-    "traditional": "曡",
+    "traditional": "疊",
     "evidence": {
-      "cedict": "曡 叠 [die2]"
+      "cedict": "疊 叠 [die2]"
     }
   },
   {
@@ -22602,9 +22602,9 @@ window.VOCAB_HSK7_9 = [
       "pos": "动、形",
       "page": 238
     },
-    "traditional": "動盪",
+    "traditional": "動蕩",
     "evidence": {
-      "cedict": "動盪 动荡 [dong4 dang4]"
+      "cedict": "動蕩 动荡 [dong4 dang4]"
     }
   },
   {
@@ -24271,7 +24271,7 @@ window.VOCAB_HSK7_9 = [
       "pos": "名",
       "page": 240
     },
-    "traditional": "䳘",
+    "traditional": "鵝",
     "measureWords": [
       {
         "word": "只",
@@ -24279,7 +24279,7 @@ window.VOCAB_HSK7_9 = [
       }
     ],
     "evidence": {
-      "cedict": "䳘 鹅 [e2]"
+      "cedict": "鵝 鹅 [e2]"
     },
     "variants": [
       "䳗"
@@ -25461,9 +25461,9 @@ window.VOCAB_HSK7_9 = [
       "page": 241
     },
     "examples": [],
-    "traditional": "㠶",
+    "traditional": "帆",
     "evidence": {
-      "cedict": "㠶 帆 [fan1]"
+      "cedict": "帆 帆 [fan1]"
     },
     "legacyIds": []
   },
@@ -30048,9 +30048,9 @@ window.VOCAB_HSK7_9 = [
       "page": 246
     },
     "examples": [],
-    "traditional": "坿",
+    "traditional": "附",
     "evidence": {
-      "cedict": "坿 附 [fu4]"
+      "cedict": "附 附 [fu4]"
     },
     "legacyIds": []
   },
@@ -30382,9 +30382,9 @@ window.VOCAB_HSK7_9 = [
       "page": 246
     },
     "examples": [],
-    "traditional": "復甦",
+    "traditional": "復蘇",
     "evidence": {
-      "cedict": "復甦 复苏 [fu4 su1]"
+      "cedict": "復蘇 复苏 [fu4 su1]"
     },
     "legacyIds": []
   },
@@ -32625,9 +32625,9 @@ window.VOCAB_HSK7_9 = [
       "pos": "动",
       "page": 248
     },
-    "traditional": "畊",
+    "traditional": "耕",
     "evidence": {
-      "cedict": "畊 耕 [geng1]"
+      "cedict": "耕 耕 [geng1]"
     }
   },
   {
@@ -34114,9 +34114,9 @@ window.VOCAB_HSK7_9 = [
       "page": 250
     },
     "examples": [],
-    "traditional": "鈎",
+    "traditional": "鉤",
     "evidence": {
-      "cedict": "鈎 钩 [gou1]"
+      "cedict": "鉤 钩 [gou1]"
     },
     "variants": [
       "勾"
@@ -34904,9 +34904,9 @@ window.VOCAB_HSK7_9 = [
       "pos": "动",
       "page": 251
     },
-    "traditional": "僱",
+    "traditional": "雇",
     "evidence": {
-      "cedict": "僱 雇 [gu4]"
+      "cedict": "雇 雇 [gu4]"
     }
   },
   {
@@ -35077,9 +35077,9 @@ window.VOCAB_HSK7_9 = [
       "pos": "动",
       "page": 251
     },
-    "traditional": "僱傭",
+    "traditional": "雇傭",
     "evidence": {
-      "cedict": "僱傭 雇佣 [gu4 yong1]"
+      "cedict": "雇傭 雇佣 [gu4 yong1]"
     }
   },
   {
@@ -35177,9 +35177,9 @@ window.VOCAB_HSK7_9 = [
       "page": 251
     },
     "examples": [],
-    "traditional": "僱主",
+    "traditional": "雇主",
     "evidence": {
-      "cedict": "僱主 雇主 [gu4 zhu3]"
+      "cedict": "雇主 雇主 [gu4 zhu3]"
     },
     "legacyIds": []
   },
@@ -36896,9 +36896,9 @@ window.VOCAB_HSK7_9 = [
       "pos": "名",
       "page": 253
     },
-    "traditional": "櫃台",
+    "traditional": "櫃檯",
     "evidence": {
-      "cedict": "櫃台 柜台 [gui4 tai2]"
+      "cedict": "櫃檯 柜台 [gui4 tai2]"
     }
   },
   {
@@ -38922,9 +38922,9 @@ window.VOCAB_HSK7_9 = [
       "page": 255
     },
     "examples": [],
-    "traditional": "咊",
+    "traditional": "和",
     "evidence": {
-      "cedict": "咊 和 [he2]"
+      "cedict": "和 和 [he2]"
     },
     "legacyIds": []
   },
@@ -40943,9 +40943,9 @@ window.VOCAB_HSK7_9 = [
       "page": 257
     },
     "examples": [],
-    "traditional": "䊀",
+    "traditional": "糊",
     "evidence": {
-      "cedict": "䊀 糊 [hu2]"
+      "cedict": "糊 糊 [hu1]"
     },
     "legacyIds": []
   },
@@ -42527,9 +42527,9 @@ window.VOCAB_HSK7_9 = [
       "page": 259
     },
     "examples": [],
-    "traditional": "㨪",
+    "traditional": "晃",
     "evidence": {
-      "cedict": "㨪 晃 [huang3]"
+      "cedict": "晃 晃 [huang3]"
     },
     "legacyIds": []
   },
@@ -42714,9 +42714,9 @@ window.VOCAB_HSK7_9 = [
       "page": 259
     },
     "examples": [],
-    "traditional": "回避",
+    "traditional": "迴避",
     "evidence": {
-      "cedict": "回避 回避 [hui2 bi4]"
+      "cedict": "迴避 回避 [hui2 bi4]"
     },
     "legacyIds": []
   },
@@ -44075,9 +44075,9 @@ window.VOCAB_HSK7_9 = [
       "pos": "动",
       "page": 260
     },
-    "traditional": "激盪",
+    "traditional": "激蕩",
     "evidence": {
-      "cedict": "激盪 激荡 [ji1 dang4]"
+      "cedict": "激蕩 激荡 [ji1 dang4]"
     }
   },
   {
@@ -45898,9 +45898,9 @@ window.VOCAB_HSK7_9 = [
       "page": 262
     },
     "examples": [],
-    "traditional": "傢伙",
+    "traditional": "家伙",
     "evidence": {
-      "cedict": "傢伙 家伙 [jia1 huo5]"
+      "cedict": "家伙 家伙 [jia1 huo5]"
     },
     "legacyIds": []
   },
@@ -46802,9 +46802,9 @@ window.VOCAB_HSK7_9 = [
       "page": 263
     },
     "examples": [],
-    "traditional": "艱巨",
+    "traditional": "艱鉅",
     "evidence": {
-      "cedict": "艱巨 艰巨 [jian1 ju4]"
+      "cedict": "艱鉅 艰巨 [jian1 ju4]"
     },
     "legacyIds": []
   },
@@ -47963,9 +47963,9 @@ window.VOCAB_HSK7_9 = [
       "pos": "名",
       "page": 265
     },
-    "traditional": "姜",
+    "traditional": "薑",
     "evidence": {
-      "cedict": "姜 姜 [jiang1]"
+      "cedict": "薑 姜 [jiang1]"
     }
   },
   {
@@ -49676,9 +49676,9 @@ window.VOCAB_HSK7_9 = [
       "page": 267
     },
     "examples": [],
-    "traditional": "刦",
+    "traditional": "劫",
     "evidence": {
-      "cedict": "刦 劫 [jie2]"
+      "cedict": "劫 劫 [jie2]"
     },
     "legacyIds": []
   },
@@ -54327,9 +54327,9 @@ window.VOCAB_HSK7_9 = [
       "page": 272
     },
     "examples": [],
-    "traditional": "㑺",
+    "traditional": "俊",
     "evidence": {
-      "cedict": "㑺 俊 [jun4]"
+      "cedict": "俊 俊 [jun4]"
     },
     "variants": [
       "隽"
@@ -57259,9 +57259,9 @@ window.VOCAB_HSK7_9 = [
       "page": 275
     },
     "examples": [],
-    "traditional": "夸夸其談",
+    "traditional": "誇誇其談",
     "evidence": {
-      "cedict": "夸夸其談 夸夸其谈 [kua1 kua1 qi2 tan2]"
+      "cedict": "誇誇其談 夸夸其谈 [kua1 kua1 qi2 tan2]"
     },
     "legacyIds": []
   },
@@ -64190,9 +64190,9 @@ window.VOCAB_HSK7_9 = [
       "page": 282
     },
     "examples": [],
-    "traditional": "臝",
+    "traditional": "裸",
     "evidence": {
-      "cedict": "臝 裸 [luo3]"
+      "cedict": "裸 裸 [luo3]"
     },
     "variants": [
       "倮"
@@ -64393,7 +64393,7 @@ window.VOCAB_HSK7_9 = [
       "page": 282
     },
     "examples": [],
-    "traditional": "蔴",
+    "traditional": "麻",
     "measureWords": [
       {
         "word": "缕",
@@ -64401,7 +64401,7 @@ window.VOCAB_HSK7_9 = [
       }
     ],
     "evidence": {
-      "cedict": "蔴 麻 [ma2]"
+      "cedict": "麻 麻 [ma2]"
     },
     "legacyIds": []
   },
@@ -64421,7 +64421,7 @@ window.VOCAB_HSK7_9 = [
       "page": 282
     },
     "examples": [],
-    "traditional": "蔴",
+    "traditional": "麻",
     "measureWords": [
       {
         "word": "缕",
@@ -64429,7 +64429,7 @@ window.VOCAB_HSK7_9 = [
       }
     ],
     "evidence": {
-      "cedict": "蔴 麻 [ma2]"
+      "cedict": "麻 麻 [ma2]"
     },
     "legacyIds": []
   },
@@ -65833,9 +65833,9 @@ window.VOCAB_HSK7_9 = [
       "page": 284
     },
     "examples": [],
-    "traditional": "矇",
+    "traditional": "蒙",
     "evidence": {
-      "cedict": "矇 蒙 [meng1]"
+      "cedict": "蒙 蒙 [meng1]"
     },
     "legacyIds": []
   },
@@ -65854,9 +65854,9 @@ window.VOCAB_HSK7_9 = [
       "page": 284
     },
     "examples": [],
-    "traditional": "懞",
+    "traditional": "蒙",
     "evidence": {
-      "cedict": "懞 蒙 [meng2]"
+      "cedict": "蒙 蒙 [meng1]"
     },
     "legacyIds": []
   },
@@ -66370,9 +66370,9 @@ window.VOCAB_HSK7_9 = [
       "page": 285
     },
     "examples": [],
-    "traditional": "祕訣",
+    "traditional": "秘訣",
     "evidence": {
-      "cedict": "祕訣 秘诀 [mi4 jue2]"
+      "cedict": "秘訣 秘诀 [mi4 jue2]"
     },
     "legacyIds": []
   },
@@ -68367,9 +68367,9 @@ window.VOCAB_HSK7_9 = [
       "page": 287
     },
     "examples": [],
-    "traditional": "畂",
+    "traditional": "畝",
     "evidence": {
-      "cedict": "畂 亩 [mu3]"
+      "cedict": "畝 亩 [mu3]"
     },
     "legacyIds": []
   },
@@ -69737,9 +69737,9 @@ window.VOCAB_HSK7_9 = [
       "pos": "动",
       "page": 288
     },
-    "traditional": "儗",
+    "traditional": "擬",
     "evidence": {
-      "cedict": "儗 拟 [ni3]"
+      "cedict": "擬 拟 [ni3]"
     }
   },
   {
@@ -74431,9 +74431,9 @@ window.VOCAB_HSK7_9 = [
       "pos": "形",
       "page": 293
     },
-    "traditional": "悽涼",
+    "traditional": "淒涼",
     "evidence": {
-      "cedict": "悽涼 凄凉 [qi1 liang2]"
+      "cedict": "淒涼 凄凉 [qi1 liang2]"
     }
   },
   {
@@ -74988,9 +74988,9 @@ window.VOCAB_HSK7_9 = [
       "pos": "动",
       "page": 294
     },
-    "traditional": "啟矇",
+    "traditional": "啟蒙",
     "evidence": {
-      "cedict": "啟矇 启蒙 [qi3 meng2]"
+      "cedict": "啟蒙 启蒙 [qi3 meng2]"
     }
   },
   {
@@ -86274,9 +86274,9 @@ window.VOCAB_HSK7_9 = [
       "pos": "名",
       "page": 306
     },
-    "traditional": "溼地",
+    "traditional": "濕地",
     "evidence": {
-      "cedict": "溼地 湿地 [shi1 di4]"
+      "cedict": "濕地 湿地 [shi1 di4]"
     }
   },
   {
@@ -98127,9 +98127,9 @@ window.VOCAB_HSK7_9 = [
       "page": 318
     },
     "examples": [],
-    "traditional": "䭾",
+    "traditional": "馱",
     "evidence": {
-      "cedict": "䭾 驮 [tuo2]"
+      "cedict": "馱 驮 [duo4]"
     },
     "legacyIds": []
   },
@@ -101514,9 +101514,9 @@ window.VOCAB_HSK7_9 = [
       "pos": "动",
       "page": 322
     },
-    "traditional": "污蔑",
+    "traditional": "污衊",
     "evidence": {
-      "cedict": "污蔑 污蔑 [wu1 mie4]"
+      "cedict": "污衊 污蔑 [wu1 mie4]"
     }
   },
   {
@@ -106472,9 +106472,9 @@ window.VOCAB_HSK7_9 = [
       "page": 327
     },
     "examples": [],
-    "traditional": "衺",
+    "traditional": "邪",
     "evidence": {
-      "cedict": "衺 邪 [xie2]"
+      "cedict": "邪 邪 [xie2]"
     },
     "legacyIds": []
   },
@@ -106678,9 +106678,9 @@ window.VOCAB_HSK7_9 = [
       "page": 328
     },
     "examples": [],
-    "traditional": "泄",
+    "traditional": "洩",
     "evidence": {
-      "cedict": "泄 泄 [xie4]"
+      "cedict": "洩 泄 [xie4]"
     },
     "legacyIds": []
   },
@@ -108417,9 +108417,9 @@ window.VOCAB_HSK7_9 = [
       "page": 330
     },
     "examples": [],
-    "traditional": "兇狠",
+    "traditional": "凶狠",
     "evidence": {
-      "cedict": "兇狠 凶狠 [xiong1 hen3]"
+      "cedict": "凶狠 凶狠 [xiong1 hen3]"
     },
     "legacyIds": []
   },
@@ -108844,9 +108844,9 @@ window.VOCAB_HSK7_9 = [
       "page": 330
     },
     "examples": [],
-    "traditional": "綉",
+    "traditional": "繡",
     "evidence": {
-      "cedict": "綉 绣 [xiu4]"
+      "cedict": "繡 绣 [xiu4]"
     },
     "legacyIds": []
   },
@@ -108865,9 +108865,9 @@ window.VOCAB_HSK7_9 = [
       "page": 330
     },
     "examples": [],
-    "traditional": "銹",
+    "traditional": "鏽",
     "evidence": {
-      "cedict": "銹 锈 [xiu4]"
+      "cedict": "鏽 锈 [xiu4]"
     },
     "legacyIds": []
   },
@@ -111876,9 +111876,9 @@ window.VOCAB_HSK7_9 = [
       "page": 333
     },
     "examples": [],
-    "traditional": "咽",
+    "traditional": "嚥",
     "evidence": {
-      "cedict": "咽 咽 [yan4]"
+      "cedict": "嚥 咽 [yan4]"
     },
     "legacyIds": []
   },
@@ -111905,9 +111905,9 @@ window.VOCAB_HSK7_9 = [
       "pos": "动",
       "page": 333
     },
-    "traditional": "騐",
+    "traditional": "驗",
     "evidence": {
-      "cedict": "騐 验 [yan4]"
+      "cedict": "驗 验 [yan4]"
     }
   },
   {
@@ -113290,9 +113290,9 @@ window.VOCAB_HSK7_9 = [
       "page": 335
     },
     "examples": [],
-    "traditional": "一並",
+    "traditional": "一併",
     "evidence": {
-      "cedict": "一並 一并 [yi1 bing4]"
+      "cedict": "一併 一并 [yi1 bing4]"
     },
     "legacyIds": []
   },
@@ -116447,9 +116447,9 @@ window.VOCAB_HSK7_9 = [
       "page": 338
     },
     "examples": [],
-    "traditional": "涌",
+    "traditional": "湧",
     "evidence": {
-      "cedict": "涌 涌 [yong3]"
+      "cedict": "湧 涌 [yong3]"
     },
     "variants": [
       "悀"
@@ -116658,9 +116658,9 @@ window.VOCAB_HSK7_9 = [
       "page": 339
     },
     "examples": [],
-    "traditional": "悠閑",
+    "traditional": "悠閒",
     "evidence": {
-      "cedict": "悠閑 悠闲 [you1 xian2]"
+      "cedict": "悠閒 悠闲 [you1 xian2]"
     },
     "legacyIds": []
   },
@@ -117335,9 +117335,9 @@ window.VOCAB_HSK7_9 = [
       "page": 339
     },
     "examples": [],
-    "traditional": "余",
+    "traditional": "餘",
     "evidence": {
-      "cedict": "余 余 [yu2]"
+      "cedict": "餘 余 [yu2]"
     },
     "variants": [
       "馀"
@@ -119846,9 +119846,9 @@ window.VOCAB_HSK7_9 = [
       "page": 342
     },
     "examples": [],
-    "traditional": "讚不絕口",
+    "traditional": "贊不絕口",
     "evidence": {
-      "cedict": "讚不絕口 赞不绝口 [zan4 bu4 jue2 kou3]"
+      "cedict": "贊不絕口 赞不绝口 [zan4 bu4 jue2 kou3]"
     },
     "legacyIds": []
   },
@@ -120012,9 +120012,9 @@ window.VOCAB_HSK7_9 = [
       "page": 342
     },
     "examples": [],
-    "traditional": "塟",
+    "traditional": "葬",
     "evidence": {
-      "cedict": "塟 葬 [zang4]"
+      "cedict": "葬 葬 [zang4]"
     },
     "legacyIds": []
   },
@@ -120571,9 +120571,9 @@ window.VOCAB_HSK7_9 = [
       "page": 343
     },
     "examples": [],
-    "traditional": "牐",
+    "traditional": "閘",
     "evidence": {
-      "cedict": "牐 闸 [zha2]"
+      "cedict": "閘 闸 [zha2]"
     },
     "legacyIds": []
   },
@@ -120613,9 +120613,9 @@ window.VOCAB_HSK7_9 = [
       "page": 343
     },
     "examples": [],
-    "traditional": "搾",
+    "traditional": "榨",
     "evidence": {
-      "cedict": "搾 榨 [zha4]"
+      "cedict": "榨 榨 [zha4]"
     },
     "legacyIds": []
   },
@@ -122750,9 +122750,9 @@ window.VOCAB_HSK7_9 = [
       "page": 345
     },
     "examples": [],
-    "traditional": "震盪",
+    "traditional": "震蕩",
     "evidence": {
-      "cedict": "震盪 震荡 [zhen4 dang4]"
+      "cedict": "震蕩 震荡 [zhen4 dang4]"
     },
     "legacyIds": []
   },
@@ -124176,9 +124176,9 @@ window.VOCAB_HSK7_9 = [
       "page": 347
     },
     "examples": [],
-    "traditional": "知識份子",
+    "traditional": "知識分子",
     "evidence": {
-      "cedict": "知識份子 知识分子 [zhi1 shi5 fen4 zi3]"
+      "cedict": "知識分子 知识分子 [zhi1 shi5 fen4 zi3]"
     },
     "legacyIds": []
   },
@@ -125084,9 +125084,9 @@ window.VOCAB_HSK7_9 = [
       "page": 348
     },
     "examples": [],
-    "traditional": "緻",
+    "traditional": "致",
     "evidence": {
-      "cedict": "緻 致 [zhi4]"
+      "cedict": "致 致 [zhi4]"
     },
     "legacyIds": []
   },
@@ -125763,9 +125763,9 @@ window.VOCAB_HSK7_9 = [
       "pos": "名",
       "page": 348
     },
-    "traditional": "鍾",
+    "traditional": "鐘",
     "evidence": {
-      "cedict": "鍾 钟 [zhong1]"
+      "cedict": "鐘 钟 [zhong1]"
     }
   },
   {
@@ -127150,9 +127150,9 @@ window.VOCAB_HSK7_9 = [
       "page": 350
     },
     "examples": [],
-    "traditional": "筑",
+    "traditional": "築",
     "evidence": {
-      "cedict": "筑 筑 [zhu4]"
+      "cedict": "築 筑 [zhu4]"
     },
     "legacyIds": []
   },

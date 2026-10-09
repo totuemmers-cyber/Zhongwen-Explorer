@@ -9281,9 +9281,9 @@ window.VOCAB_ZUSATZ = [
     "legacyIds": [
       "腌|yān"
     ],
-    "traditional": "腌",
+    "traditional": "醃",
     "evidence": {
-      "cedict": "腌 腌 [yan1]"
+      "cedict": "醃 腌 [yan1]"
     }
   },
   {
@@ -12135,9 +12135,9 @@ window.VOCAB_ZUSATZ = [
     "legacyIds": [
       "春|chūn"
     ],
-    "traditional": "旾",
+    "traditional": "春",
     "evidence": {
-      "cedict": "旾 春 [chun1]"
+      "cedict": "春 春 [chun1]"
     }
   },
   {
@@ -12303,9 +12303,9 @@ window.VOCAB_ZUSATZ = [
     "legacyIds": [
       "抽烟|chōuyān"
     ],
-    "traditional": "抽煙",
+    "traditional": "抽菸",
     "evidence": {
-      "cedict": "抽煙 抽烟 [chou1 yan1]"
+      "cedict": "抽菸 抽烟 [chou1 yan1]"
     }
   },
   {
@@ -15388,7 +15388,7 @@ window.VOCAB_ZUSATZ = [
     "legacyIds": [
       "广播电台|guǎngbō diàntái"
     ],
-    "traditional": "廣播電台",
+    "traditional": "廣播電臺",
     "measureWords": [
       {
         "word": "个",
@@ -15400,7 +15400,7 @@ window.VOCAB_ZUSATZ = [
       }
     ],
     "evidence": {
-      "cedict": "廣播電台 广播电台 [guang3 bo1 dian4 tai2]"
+      "cedict": "廣播電臺 广播电台 [guang3 bo1 dian4 tai2]"
     }
   },
   {
@@ -23152,9 +23152,9 @@ window.VOCAB_ZUSATZ = [
     "legacyIds": [
       "批复|pīfù"
     ],
-    "traditional": "批復",
+    "traditional": "批覆",
     "evidence": {
-      "cedict": "批復 批复 [pi1 fu4]"
+      "cedict": "批覆 批复 [pi1 fu4]"
     }
   },
   {
@@ -31336,9 +31336,9 @@ window.VOCAB_ZUSATZ = [
     "legacyIds": [
       "豆|dòu"
     ],
-    "traditional": "荳",
+    "traditional": "豆",
     "evidence": {
-      "cedict": "荳 豆 [dou4]"
+      "cedict": "豆 豆 [dou4]"
     }
   },
   {
@@ -32134,9 +32134,9 @@ window.VOCAB_ZUSATZ = [
     "legacyIds": [
       "愧|kuì"
     ],
-    "traditional": "媿",
+    "traditional": "愧",
     "evidence": {
-      "cedict": "媿 愧 [kui4]"
+      "cedict": "愧 愧 [kui4]"
     }
   },
   {
@@ -33677,9 +33677,9 @@ window.VOCAB_ZUSATZ = [
     "legacyIds": [
       "坐标|zuòbiāo"
     ],
-    "traditional": "坐標",
+    "traditional": "座標",
     "evidence": {
-      "cedict": "坐標 坐标 [zuo4 biao1]"
+      "cedict": "座標 坐标 [zuo4 biao1]"
     }
   },
   {
@@ -41874,9 +41874,9 @@ window.VOCAB_ZUSATZ = [
     "legacyIds": [
       "开诚布公|kāi chéng bù gōng"
     ],
-    "traditional": "開誠佈公",
+    "traditional": "開誠布公",
     "evidence": {
-      "cedict": "開誠佈公 开诚布公 [kai1 cheng2 bu4 gong1]"
+      "cedict": "開誠布公 开诚布公 [kai1 cheng2 bu4 gong1]"
     }
   },
   {
@@ -60839,9 +60839,9 @@ window.VOCAB_ZUSATZ = [
     "legacyIds": [
       "沉溺|chénnì"
     ],
-    "traditional": "沈溺",
+    "traditional": "沉溺",
     "evidence": {
-      "cedict": "沈溺 沉溺 [chen2 ni4]"
+      "cedict": "沉溺 沉溺 [chen2 ni4]"
     }
   },
   {
@@ -68788,9 +68788,9 @@ window.VOCAB_ZUSATZ = [
     "legacyIds": [
       "赍|jī"
     ],
-    "traditional": "賫",
+    "traditional": "齎",
     "evidence": {
-      "cedict": "賫 赍 [ji1]"
+      "cedict": "齎 赍 [ji1]"
     }
   },
   {
@@ -74248,9 +74248,9 @@ window.VOCAB_ZUSATZ = [
     "legacyIds": [
       "布道|bùdào"
     ],
-    "traditional": "佈道",
+    "traditional": "布道",
     "evidence": {
-      "cedict": "佈道 布道 [bu4 dao4]"
+      "cedict": "布道 布道 [bu4 dao4]"
     }
   },
   {

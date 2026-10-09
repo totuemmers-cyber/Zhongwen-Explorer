@@ -846,9 +846,9 @@ window.VOCAB_HSK3 = [
       "pos": "量",
       "page": 93
     },
-    "traditional": "徧",
+    "traditional": "遍",
     "evidence": {
-      "cedict": "徧 遍 [bian4]"
+      "cedict": "遍 遍 [bian4]"
     }
   },
   {
@@ -1459,7 +1459,7 @@ window.VOCAB_HSK3 = [
       "pos": "名",
       "page": 93
     },
-    "traditional": "艸",
+    "traditional": "草",
     "measureWords": [
       {
         "word": "棵",
@@ -1479,7 +1479,7 @@ window.VOCAB_HSK3 = [
       }
     ],
     "evidence": {
-      "cedict": "艸 草 [cao3]"
+      "cedict": "草 草 [cao3]"
     }
   },
   {
@@ -2108,7 +2108,7 @@ window.VOCAB_HSK3 = [
       "pos": "名",
       "page": 94
     },
-    "traditional": "舩",
+    "traditional": "船",
     "measureWords": [
       {
         "word": "条",
@@ -2124,7 +2124,7 @@ window.VOCAB_HSK3 = [
       }
     ],
     "evidence": {
-      "cedict": "舩 船 [chuan2]"
+      "cedict": "船 船 [chuan2]"
     }
   },
   {
@@ -11462,9 +11462,9 @@ window.VOCAB_HSK3 = [
       "pos": "量",
       "page": 101
     },
-    "traditional": "双",
+    "traditional": "雙",
     "evidence": {
-      "cedict": "双 双 [shuang1]"
+      "cedict": "雙 双 [shuang1]"
     }
   },
   {
@@ -12275,7 +12275,7 @@ window.VOCAB_HSK3 = [
       "pos": "名",
       "page": 101
     },
-    "traditional": "㼝",
+    "traditional": "碗",
     "measureWords": [
       {
         "word": "只",
@@ -12287,7 +12287,7 @@ window.VOCAB_HSK3 = [
       }
     ],
     "evidence": {
-      "cedict": "㼝 碗 [wan3]"
+      "cedict": "碗 碗 [wan3]"
     },
     "variants": [
       "埦",
@@ -15396,9 +15396,9 @@ window.VOCAB_HSK3 = [
       "page": 104
     },
     "examples": [],
-    "traditional": "炤",
+    "traditional": "照",
     "evidence": {
-      "cedict": "炤 照 [zhao4]"
+      "cedict": "照 照 [zhao4]"
     },
     "legacyIds": []
   },
@@ -15580,9 +15580,9 @@ window.VOCAB_HSK3 = [
       "pos": "名",
       "page": 104
     },
-    "traditional": "帋",
+    "traditional": "紙",
     "evidence": {
-      "cedict": "帋 纸 [zhi3]"
+      "cedict": "紙 纸 [zhi3]"
     }
   },
   {

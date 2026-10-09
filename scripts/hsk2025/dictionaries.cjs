@@ -113,4 +113,16 @@ function loadOpenCC() {
   };
 }
 
-module.exports = { SOURCES, numericKey, loadCedict, loadHandedict, germanGloss, loadOpenCC };
+// Order for picking the main CC-CEDICT entry among several with one reading: common word before
+// proper name, real word before pure variant (旹 "old variant of 時"), then the traditional form
+// used in more CC-CEDICT headwords (後 before 后 "empress", 隻 before 秖, 年 before 秊).
+function mainEntryOrder(cedict) {
+  const charCount = new Map();
+  for (const list of cedict.values()) for (const e of list) for (const ch of new Set(e.traditional)) charCount.set(ch, (charCount.get(ch) || 0) + 1);
+  const usage = e => Array.from(e.traditional).reduce((sum, ch) => sum + (charCount.get(ch) || 0), 0);
+  const isProperName = e => /^[A-Z]/.test(e.pinyin);
+  const isVariantOnly = e => e.senses.every(s => /variant of |^used in |^CL:/.test(s));
+  return (a, b) => isProperName(a) - isProperName(b) || isVariantOnly(a) - isVariantOnly(b) || usage(b) - usage(a);
+}
+
+module.exports = { SOURCES, numericKey, loadCedict, mainEntryOrder, loadHandedict, germanGloss, loadOpenCC };

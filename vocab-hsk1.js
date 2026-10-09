@@ -2678,9 +2678,9 @@ window.VOCAB_HSK1 = [
       "homograph": 1,
       "page": 81
     },
-    "traditional": "咊",
+    "traditional": "和",
     "evidence": {
-      "cedict": "咊 和 [he2]"
+      "cedict": "和 和 [he2]"
     }
   },
   {
@@ -2739,9 +2739,9 @@ window.VOCAB_HSK1 = [
       "pos": "名",
       "page": 81
     },
-    "traditional": "后",
+    "traditional": "後",
     "evidence": {
-      "cedict": "后 后 [hou4]"
+      "cedict": "後 后 [hou4]"
     }
   },
   {
@@ -2987,7 +2987,7 @@ window.VOCAB_HSK1 = [
       "pos": "名、量、（后缀）",
       "page": 82
     },
-    "traditional": "傢",
+    "traditional": "家",
     "measureWords": [
       {
         "word": "个",
@@ -2995,7 +2995,7 @@ window.VOCAB_HSK1 = [
       }
     ],
     "evidence": {
-      "cedict": "傢 家 [jia1]"
+      "cedict": "家 家 [jia1]"
     }
   },
   {
@@ -3750,9 +3750,9 @@ window.VOCAB_HSK1 = [
       "pos": "名",
       "page": 82
     },
-    "traditional": "裏",
+    "traditional": "裡",
     "evidence": {
-      "cedict": "裏 里 [li3]"
+      "cedict": "裡 里 [li3]"
     }
   },
   {
@@ -4512,9 +4512,9 @@ window.VOCAB_HSK1 = [
       "page": 83
     },
     "examples": [],
-    "traditional": "哪裏",
+    "traditional": "哪裡",
     "evidence": {
-      "cedict": "哪裏 哪里 [na3 li3]"
+      "cedict": "哪裡 哪里 [na3 li3]"
     },
     "legacyIds": []
   },
@@ -4665,9 +4665,9 @@ window.VOCAB_HSK1 = [
       "page": 83
     },
     "examples": [],
-    "traditional": "那裏",
+    "traditional": "那裡",
     "evidence": {
-      "cedict": "那裏 那里 [na4 li5]"
+      "cedict": "那裡 那里 [na4 li5]"
     },
     "legacyIds": []
   },
@@ -6613,9 +6613,9 @@ window.VOCAB_HSK1 = [
       "pos": "量",
       "page": 84
     },
-    "traditional": "嵗",
+    "traditional": "歲",
     "evidence": {
-      "cedict": "嵗 岁 [sui4]"
+      "cedict": "歲 岁 [sui4]"
     }
   },
   {
@@ -9224,9 +9224,9 @@ window.VOCAB_HSK1 = [
       "page": 87
     },
     "examples": [],
-    "traditional": "這裏",
+    "traditional": "這裡",
     "evidence": {
-      "cedict": "這裏 这里 [zhe4 li3]"
+      "cedict": "這裡 这里 [zhe4 li3]"
     },
     "legacyIds": []
   },
@@ -9376,9 +9376,9 @@ window.VOCAB_HSK1 = [
       "page": 87
     },
     "examples": [],
-    "traditional": "只",
+    "traditional": "隻",
     "evidence": {
-      "cedict": "只 只 [zhi1]"
+      "cedict": "隻 只 [zhi1]"
     },
     "legacyIds": []
   },
