@@ -28,9 +28,10 @@ International: *中文水平考试 HSK 考试大纲*, released 2025-11, in force
 
 Chinese–English dictionary by MDBG and contributors, licensed
 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-https://www.mdbg.net/chinese/dictionary?page=cc-cedict (downloaded manually; MDBG does not allow
-scripted access). Used for traditional forms, citation pinyin, measure words (classifiers) and
-variants. Data derived from it is shared under the same licence.
+https://www.mdbg.net/chinese/dictionary?page=cc-cedict. MDBG does not allow scripted downloads, so
+the identical data is taken from the Debian archive snapshot `cc-cedict 0.0~repack20260906`
+(CC-CEDICT as of 2026-09-06, 124,988 entries). Used for traditional forms, citation pinyin,
+measure words (classifiers) and variants. Data derived from it is shared under the same licence.
 
 ## HanDeDict
 

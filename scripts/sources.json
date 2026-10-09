@@ -26,11 +26,16 @@
     },
     {
       "id": "cc-cedict",
-      "file": "cedict_1_0_ts_utf-8_mdbg.txt.gz",
-      "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
-      "manual": true,
+      "file": "cc-cedict_0.0~repack20260906.orig.tar.xz",
+      "extract": "cedict_ts.u8",
+      "url": "https://deb.debian.org/debian/pool/main/c/cc-cedict/cc-cedict_0.0~repack20260906.orig.tar.xz",
+      "version": "CC-CEDICT snapshot 2026-09-06 (Debian package cc-cedict 0.0~repack20260906)",
       "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)",
-      "use": "Traditional forms, citation pinyin, classifiers, variants; existence check for Zusatz entries."
+      "use": "Traditional forms, citation pinyin, classifiers, variants; existence check for Zusatz entries.",
+      "note": "MDBG does not allow scripted downloads from mdbg.net; the identical data is taken from the Debian archive snapshot.",
+      "sha256": "747348e2ae2e5b9a87d5d5e8b34cb2ba8e98deb00f2ba9084abc02d3cf26f296",
+      "bytes": 2817172,
+      "retrieved": "2026-10-09"
     },
     {
       "id": "opencc-stphrases",

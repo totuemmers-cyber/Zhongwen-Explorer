@@ -69,12 +69,14 @@
 
   // Splits one letter run into syllables. Returns for each reachable syllable count the
   // segmentation with the fewest erhua r pieces (nǚér is nǚ·ér, not nüe·r), then the one
-  // that prefers long syllables first (deterministic tie-break).
+  // that prefers long syllables first (deterministic tie-break). Pinyin spelling marks a vowel-initial
+  // syllable inside a word with an apostrophe (Xī'ān), so without one dàngāo is dàn·gāo, not dàng·āo;
+  // such splits cost 2, a bare erhua r costs 3 (nǚér, a common misspelling of nǚ'ér, stays nǚ·ér).
   function segmentRun(base) {
     var n = base.length;
-    // best[i]: map count -> { cuts: cut positions for base.slice(i), erhua: number of r pieces }
+    // best[i]: map count -> { cuts: cut positions for base.slice(i), cost: penalty of the split }
     var best = new Array(n + 1);
-    best[n] = { 0: { cuts: [], erhua: 0 } };
+    best[n] = { 0: { cuts: [], cost: 0 } };
     for (var i = n - 1; i >= 0; i--) {
       var options = {};
       for (var len = Math.min(MAX_SYLLABLE, n - i); len >= 1; len--) {
@@ -82,12 +84,13 @@
         var isErhua = !SYLLABLES[piece] && piece === ERHUA && i > 0;
         var valid = SYLLABLES[piece] || isErhua || (INTERJECTIONS[piece] && i === 0 && len === n);
         if (!valid || !best[i + len]) continue;
+        var penalty = (isErhua ? 3 : 0) + (i > 0 && /^[aeo]/.test(piece) ? 2 : 0);
         var tail = best[i + len];
         for (var count in tail) {
           var total = Number(count) + 1;
-          var erhua = tail[count].erhua + (isErhua ? 1 : 0);
-          if (!options[total] || erhua < options[total].erhua) {
-            options[total] = { cuts: [i + len].concat(tail[count].cuts), erhua: erhua };
+          var cost = tail[count].cost + penalty;
+          if (!options[total] || cost < options[total].cost) {
+            options[total] = { cuts: [i + len].concat(tail[count].cuts), cost: cost };
           }
         }
       }

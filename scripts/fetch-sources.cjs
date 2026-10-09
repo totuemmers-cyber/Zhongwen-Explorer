@@ -35,6 +35,10 @@ async function main(args) {
       await download(source.url, target);
       console.log('done');
     }
+    // Archives are unpacked next to themselves (e.g. the CC-CEDICT snapshot from the Debian archive).
+    if (source.extract && !fs.existsSync(path.join(DIR, source.extract))) {
+      require('child_process').execFileSync('tar', ['-xJf', source.file, source.extract], { cwd: DIR });
+    }
     const hash = sha256(target);
     if (pin) {
       source.sha256 = hash;

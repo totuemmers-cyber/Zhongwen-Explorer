@@ -25,6 +25,16 @@ assert.deepStrictEqual(list(P.segment('nǚ\'ér')), ['nǚ', 'ér']);
 // Without the apostrophe, a full syllable beats a bare erhua r (nǚ·ér, not nüe·r).
 assert.deepStrictEqual(list(P.segment('nǚér', '女儿')), ['nǚ', 'ér']);
 assert.deepStrictEqual(list(P.segment('wánr', '玩儿')), ['wán', 'r']);
+// Without an apostrophe a syllable inside a word does not start with a vowel.
+assert.deepStrictEqual(list(P.segment('dàngāo', '蛋糕')), ['dàn', 'gāo']);
+assert.deepStrictEqual(list(P.segment('kěnéng', '可能')), ['kě', 'néng']);
+assert.deepStrictEqual(list(P.segment('yángé', '严格')), ['yán', 'gé']);
+assert.deepStrictEqual(list(P.segment('dàng’àn', '档案')), ['dàng', 'àn']);
+assert.deepStrictEqual(list(P.segment('Xī’ān', '西安')), ['Xī', 'ān']);
+// Syllabus conventions: curly apostrophe, hyphenated idioms, spaced phrases, sandhi tones.
+assert.strictEqual(P.toNumeric('zìlì-gēngshēng', '自力更生'), 'zi4li4geng1sheng1');
+assert.strictEqual(P.toNumeric('bú kèqi', '不客气'), 'bu2ke4qi5');
+assert.strictEqual(P.toNumeric('zǒng’é', '总额'), 'zong3e2');
 
 // Tones, conversions.
 assert.strictEqual(P.toneOf('hǎo'), 3);
