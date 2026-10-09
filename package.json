@@ -10,9 +10,12 @@
     "test:storage": "node scripts/storage-test.cjs",
     "test:smoke": "node scripts/smoke-test.js",
     "test:ui": "node scripts/ui-test.js",
-    "test:contrast": "node scripts/contrast-test.js"
+    "test:contrast": "node scripts/contrast-test.js",
+    "fetch:sources": "node scripts/fetch-sources.cjs",
+    "parse:syllabus": "node scripts/hsk2025/parse-syllabus.cjs && node scripts/hsk2025/parse-characters.cjs"
   },
   "devDependencies": {
-    "jsdom": "^26.1.0"
+    "jsdom": "^26.1.0",
+    "pdfjs-dist": "^4.10.38"
   }
 }

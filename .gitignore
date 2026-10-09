@@ -3,3 +3,4 @@ temp-animcjk/
 .DS_Store
 Thumbs.db
 node_modules/
+.content-cache/

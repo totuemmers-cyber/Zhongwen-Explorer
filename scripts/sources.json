@@ -1,0 +1,90 @@
+{
+  "description": "External sources for the HSK 2025 vocabulary base. Raw files live in the gitignored .content-cache/sources/; run node scripts/fetch-sources.cjs (add --pin once to record hashes).",
+  "sources": [
+    {
+      "id": "hsk2025-syllabus",
+      "file": "hsk2025-syllabus.pdf",
+      "url": "https://hsk.cn-bj.ufileos.com/3.0/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B21219.pdf",
+      "title": "中文水平考试 HSK 考试大纲 (2025-11 发布, 2026-07 实施)",
+      "publisher": "中外语言交流合作中心 (Center for Language Education and Cooperation)",
+      "license": "No licence notice in the document; used with attribution to the publisher.",
+      "use": "Official levels, syllabus pinyin and part of speech (vocabulary, characters, grammar).",
+      "sha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+      "bytes": 4636209,
+      "retrieved": "2026-10-09"
+    },
+    {
+      "id": "hsk2025-crosscheck",
+      "file": "hsk-3.0-all.csv",
+      "url": "https://raw.githubusercontent.com/uranbekanarbaev/hsk-3.0-vocabulary-dataset/6859875bf3ba3b7209dee3b23171f893f7493776/data/hsk-3.0-all.csv",
+      "commit": "6859875bf3ba3b7209dee3b23171f893f7493776",
+      "license": "Repository additions CC BY 4.0 / MIT; syllabus content excluded (credited to CLEC/CTI).",
+      "use": "Cross-check of our own syllabus parse only; nothing is copied into the app.",
+      "sha256": "b0e8b07ca76cd0c42be632b4720ae736c0e1b8398d51347a3283c2ab7b4cce6f",
+      "bytes": 491779,
+      "retrieved": "2026-10-09"
+    },
+    {
+      "id": "cc-cedict",
+      "file": "cedict_1_0_ts_utf-8_mdbg.txt.gz",
+      "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+      "manual": true,
+      "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)",
+      "use": "Traditional forms, citation pinyin, classifiers, variants; existence check for Zusatz entries."
+    },
+    {
+      "id": "opencc-stphrases",
+      "file": "opencc-STPhrases.txt",
+      "url": "https://raw.githubusercontent.com/BYVoid/OpenCC/8cf737a4e193db27d675b2ce9867d84aace33745/data/dictionary/STPhrases.txt",
+      "commit": "8cf737a4e193db27d675b2ce9867d84aace33745",
+      "license": "Apache-2.0",
+      "use": "Simplified to traditional fallback (phrases).",
+      "sha256": "f6eab5e5c6dd7640597878d3dfc6599ee1279d2bc91561eadd8e114194e2925a",
+      "bytes": 1007834,
+      "retrieved": "2026-10-09"
+    },
+    {
+      "id": "opencc-stcharacters",
+      "file": "opencc-STCharacters.txt",
+      "url": "https://raw.githubusercontent.com/BYVoid/OpenCC/8cf737a4e193db27d675b2ce9867d84aace33745/data/dictionary/STCharacters.txt",
+      "commit": "8cf737a4e193db27d675b2ce9867d84aace33745",
+      "license": "Apache-2.0",
+      "use": "Simplified to traditional fallback (characters).",
+      "sha256": "a0ca1601c70648cf48b33c3c6210ccbecc5c7eead4b4c3daf76587ba2c03582b",
+      "bytes": 36026,
+      "retrieved": "2026-10-09"
+    },
+    {
+      "id": "handedict",
+      "file": "handedict.u8",
+      "url": "https://raw.githubusercontent.com/gugray/HanDeDict/046f839540e046e671b2754cb824851e0966ba2b/handedict.u8",
+      "commit": "046f839540e046e671b2754cb824851e0966ba2b",
+      "license": "CC BY-SA (README: 2.0, file header: 3.0); treated as CC BY-SA 3.0 with attribution to HanDeDict / Gábor L Ugray.",
+      "use": "Draft German glosses for new syllabus words (badged as unreviewed).",
+      "sha256": "8060415d30083a5838f323ffc97d2ea2d4a797fc41bbcb1058bc892aae31128a",
+      "bytes": 61578352,
+      "retrieved": "2026-10-09"
+    },
+    {
+      "id": "unihan",
+      "file": "Unihan.zip",
+      "url": "https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip",
+      "license": "Unicode License v3 (https://www.unicode.org/license.txt)",
+      "use": "Character variants and stroke counts (prepared for Phase 4).",
+      "sha256": "4c93ea9c1f636451729a840978f1667a53886af37ba854fdcce109721c63d43e",
+      "bytes": 8340649,
+      "retrieved": "2026-10-09"
+    },
+    {
+      "id": "animcjk-license",
+      "file": "ARPHICPL.TXT",
+      "url": "https://raw.githubusercontent.com/parsimonhi/animCJK/ec5e17cca76c87587790bcbce5ea0b4d4fb753d6/licenses/APL/english/ARPHICPL.TXT",
+      "commit": "ec5e17cca76c87587790bcbce5ea0b4d4fb753d6",
+      "license": "Arphic Public License (applies to the AnimCJK stroke-order SVGs in stroke-order/)",
+      "use": "Licence text shipped with the stroke diagrams.",
+      "sha256": "3a5e90c0957524a89e48203febcd4492ca4393678abaa7e5b4d70f3ff32b386d",
+      "bytes": 6901,
+      "retrieved": "2026-10-09"
+    }
+  ]
+}
