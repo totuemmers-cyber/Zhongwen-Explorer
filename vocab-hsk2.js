@@ -38,7 +38,6 @@ window.VOCAB_HSK2 = [
       "cedict": "啊 啊 [a5]"
     },
     "variants": [
-      "呵",
       "嗄"
     ],
     "notes": "啊 (a) steht am Satzende und macht eine Aussage lebendiger: Bei Ausrufen verstärkt es die Emotion (真好看啊！), bei Fragen und Aufforderungen klingt es weicher oder drängender (你快来啊！). Mit 是啊 (shì a) stimmt man zu: „ja, genau“. Im Redefluss verschmilzt 啊 oft mit dem vorigen Laut und wird dann auch anders geschrieben, etwa 呀 (ya) nach Vokalen oder 哪 (na) nach -n. Es gehört vor allem zur gesprochenen Sprache.",
@@ -994,9 +993,6 @@ window.VOCAB_HSK2 = [
     "evidence": {
       "cedict": "詞 词 [ci2]"
     },
-    "variants": [
-      "辞"
-    ],
     "notes": "词 (cí) ist das Wort als sprachliche Einheit, oft aus zwei Zeichen (字 zì) bestehend: 汉字 sind Schriftzeichen, 词 sind Wörter. Typische Fragen sind 这个词是什么意思？ und 这个词怎么说？. Zusammensetzungen sind 生词 „neue Vokabel“ und 词典 „Wörterbuch“. Deutsche Lernende verwechseln oft 词 und 字 – ein Zeichen ist nicht immer ein ganzes Wort.",
     "review": {
       "batch": "b003",

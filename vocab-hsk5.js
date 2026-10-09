@@ -32435,10 +32435,7 @@ window.VOCAB_HSK5 = [
     "traditional": "貼",
     "evidence": {
       "cedict": "貼 贴 [tie1]"
-    },
-    "variants": [
-      "帖"
-    ]
+    }
   },
   {
     "id": "w:铁路:tie3lu4",
@@ -37693,9 +37690,6 @@ window.VOCAB_HSK5 = [
     "evidence": {
       "cedict": "呀 呀 [ya1]"
     },
-    "variants": [
-      "哑"
-    ],
     "legacyIds": []
   },
   {

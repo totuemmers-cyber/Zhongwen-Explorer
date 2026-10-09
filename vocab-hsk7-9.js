@@ -10321,9 +10321,6 @@ window.VOCAB_HSK7_9 = [
     "evidence": {
       "cedict": "摻 掺 [chan1]"
     },
-    "variants": [
-      "搀"
-    ],
     "legacyIds": []
   },
   {
@@ -15551,9 +15548,6 @@ window.VOCAB_HSK7_9 = [
     "evidence": {
       "cedict": "捶 捶 [chui2]"
     },
-    "variants": [
-      "椎"
-    ],
     "legacyIds": []
   },
   {
@@ -21900,9 +21894,6 @@ window.VOCAB_HSK7_9 = [
     "evidence": {
       "cedict": "盯 盯 [ding1]"
     },
-    "variants": [
-      "钉"
-    ],
     "legacyIds": []
   },
   {
@@ -34118,9 +34109,6 @@ window.VOCAB_HSK7_9 = [
     "evidence": {
       "cedict": "鉤 钩 [gou1]"
     },
-    "variants": [
-      "勾"
-    ],
     "legacyIds": []
   },
   {
@@ -70242,9 +70230,6 @@ window.VOCAB_HSK7_9 = [
     "evidence": {
       "cedict": "尿 尿 [niao4]"
     },
-    "variants": [
-      "溺"
-    ],
     "legacyIds": []
   },
   {
@@ -71266,9 +71251,6 @@ window.VOCAB_HSK7_9 = [
     "evidence": {
       "cedict": "攀 攀 [pan1]"
     },
-    "variants": [
-      "扳"
-    ],
     "legacyIds": []
   },
   {
@@ -102990,10 +102972,7 @@ window.VOCAB_HSK7_9 = [
     "traditional": "稀",
     "evidence": {
       "cedict": "稀 稀 [xi1]"
-    },
-    "variants": [
-      "希"
-    ]
+    }
   },
   {
     "id": "w:溪:xi1",

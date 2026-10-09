@@ -70,6 +70,10 @@ for (const list of cedict.values()) for (const entry of list) for (const target 
   if (!variantsOf.has(target)) variantsOf.set(target, new Set());
   variantsOf.get(target).add(entry.simplified);
 }
+// A single character that is itself an HSK character is a different word, not a variant to show
+// (CC-CEDICT: 囱 "variant of 窗", 化 "variant of 花").
+const hskCharacters = new Set(Object.values(require('./characters.json').reading).flat());
+const isShownVariant = v => !(Array.from(v).length === 1 && hskCharacters.has(v));
 // True when the word splits into at least two CC-CEDICT headwords (single characters allowed).
 function splitsIntoWords(word) {
   const chars = Array.from(word);
@@ -219,7 +223,7 @@ function dictionaryFields(word, key) {
     fields.traditional = toTraditional(word);
     report.traditionalFallback.push(word);
   }
-  const variants = Array.from(variantsOf.get(word) || []).filter(v => !byWord.has(v));
+  const variants = Array.from(variantsOf.get(word) || []).filter(v => !byWord.has(v) && isShownVariant(v));
   if (variants.length) fields.variants = variants;
   return fields;
 }

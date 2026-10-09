@@ -3548,10 +3548,7 @@ window.VOCAB_HSK6 = [
     "traditional": "抄",
     "evidence": {
       "cedict": "抄 抄 [chao1]"
-    },
-    "variants": [
-      "钞"
-    ]
+    }
   },
   {
     "id": "w:超越:chao1yue4",
@@ -26169,9 +26166,6 @@ window.VOCAB_HSK6 = [
     "evidence": {
       "cedict": "鋪 铺 [pu1]"
     },
-    "variants": [
-      "堡"
-    ],
     "legacyIds": []
   },
   {

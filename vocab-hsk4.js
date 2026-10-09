@@ -20,7 +20,6 @@ window.VOCAB_HSK4 = [
       "cedict": "啊 啊 [a1]"
     },
     "variants": [
-      "呵",
       "嗄"
     ],
     "legacyIds": []
@@ -772,10 +771,7 @@ window.VOCAB_HSK4 = [
     "traditional": "笨",
     "evidence": {
       "cedict": "笨 笨 [ben4]"
-    },
-    "variants": [
-      "夯"
-    ]
+    }
   },
   {
     "id": "w:鼻子:bi2zi5",
@@ -2887,10 +2883,7 @@ window.VOCAB_HSK4 = [
     ],
     "evidence": {
       "cedict": "窗 窗 [chuang1]"
-    },
-    "variants": [
-      "囱"
-    ]
+    }
   },
   {
     "id": "w:窗户:chuang1hu5",
