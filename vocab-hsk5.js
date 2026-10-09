@@ -22341,7 +22341,7 @@ window.VOCAB_HSK5 = [
       "page": 149
     },
     "examples": [],
-    "traditional": "面",
+    "traditional": "麵",
     "evidence": {
       "cedict": "面 面 [mian4]"
     },
@@ -22350,7 +22350,8 @@ window.VOCAB_HSK5 = [
       "靣",
       "麫"
     ],
-    "legacyIds": []
+    "legacyIds": [],
+    "category": "Essen"
   },
   {
     "id": "w:面积:mian4ji1",

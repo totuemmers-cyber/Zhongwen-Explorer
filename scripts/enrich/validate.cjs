@@ -57,8 +57,9 @@ function checkExampleReading(chinese, pinyin, ctx) {
       const word = chars.slice(i, i + len).join('');
       const entries = cedict.get(word);
       if (!entries) continue;
-      const ok = entries.some(e => readingMatches(keys.slice(i, i + len), e.key));
-      out.push({ len, word, ok, readings: entries.map(e => e.pinyin) });
+      const matching = entries.filter(e => readingMatches(keys.slice(i, i + len), e.key));
+      // proper: only a name reads this way (上高 Shànggāo), so 上|高中 wins a tie.
+      out.push({ len, word, ok: matching.length > 0, proper: matching.length > 0 && matching.every(e => /^[A-Z]/.test(e.pinyin)), readings: entries.map(e => e.pinyin) });
     }
     return out;
   };
@@ -87,7 +88,8 @@ function checkExampleReading(chinese, pinyin, ctx) {
   if (best[0] !== Infinity) {
     const boundaries = new Set([0]);
     for (let i = 0; i < n;) {
-      const next = options[i].find(c => c.ok && best[i + c.len] === best[i] - 1);
+      const fits = options[i].filter(c => c.ok && best[i + c.len] === best[i] - 1);
+      const next = fits.find(c => !c.proper) || fits[0];
       i += next ? next.len : 1;
       boundaries.add(i);
     }
@@ -95,6 +97,10 @@ function checkExampleReading(chinese, pinyin, ctx) {
       if (!boundaries.has(i)) continue;
       for (const c of options[i]) {
         if (c.len < 2 || c.ok || !boundaries.has(i + c.len)) continue;
+        // A name only (美的 Měidì, the brand) says nothing about the common words 美 + 的.
+        if (c.readings.every(r => /^[A-Z]/.test(r))) continue;
+        // Verb + aspect particle (到了 dào le, not the lexicalised dào liǎo) is the normal reading.
+        if (/[了着过]$/.test(c.word) && /^(le|zhe|guo)5$/.test(keys[i + c.len - 1])) continue;
         warnings.push(c.word + ' written ' + syllables.slice(i, i + c.len).join(' ') + ', CC-CEDICT: ' + c.readings.join(', '));
       }
     }
@@ -103,7 +109,7 @@ function checkExampleReading(chinese, pinyin, ctx) {
 }
 
 // Beginner levels: words in examples may come from at most one level above the card.
-function checkBeginnerVocabulary(chinese, headword, allowed, ctx) {
+function checkBeginnerVocabulary(chinese, headword, allowed, ctx, ownWords = []) {
   const { syllabus, allowlist, cedict, longest, characters } = ctx;
   const issues = [];
   const runs = chinese.split(/[^㐀-鿿豈-﫿]+/).filter(Boolean);
@@ -114,6 +120,8 @@ function checkBeginnerVocabulary(chinese, headword, allowed, ctx) {
     if (token.includes(headword)) return null;
     // So are its parts when a separable verb is split (起不来床, 生什么病).
     if (token.length === 1 && headword.includes(token)) return null;
+    // And the card's own measure words (一支铅笔).
+    if (ownWords.includes(token)) return null;
     if (allowlist.has(token) || Array.from(token).every(ch => NUMBER_CHARS.has(ch))) return null;
     if (syllabus.has(token)) {
       return syllabus.get(token) <= allowed ? null : token + ' (HSK ' + (syllabus.get(token) === 7 ? '7–9' : syllabus.get(token)) + ')';
@@ -172,19 +180,22 @@ function containsHeadword(example, card, merged) {
   if (text.includes(word)) return true;
   if ((card.variants || []).some(v => text.includes(v))) return true;
   // Separable verbs (帮忙 → 帮他的忙): characters in order with a short gap.
-  const chars = Array.from(word);
-  if ((merged.separable || card.type === 'Verb') && chars.length === 2) {
-    const a = text.indexOf(chars[0]);
-    const b = a === -1 ? -1 : text.indexOf(chars[1], a + 1);
-    return b !== -1 && b - a <= 7;
-  }
+  // Every occurrence of the first character counts (上了三个小时的网 after 晚上).
+  if ((merged.separable || card.type === 'Verb') && splitCore(word)) return showsSplit(example, word);
   return false;
+}
+
+// The two characters a separable verb splits into; erhua words split before the 儿 (聊天儿 → 聊…天).
+function splitCore(word) {
+  const chars = Array.from(word.replace(/(?<=..)儿$/, ''));
+  return chars.length === 2 ? chars : null;
 }
 
 // True when a two-character separable verb appears split in the sentence (睡了一个好觉, 帮他的忙).
 function showsSplit(example, word) {
-  const text = example.chinese.replace(/[，。！？、；：,.!?;:“”"'（）()s]/g, '');
-  const chars = Array.from(word);
+  const text = example.chinese.replace(/[，。！？、；：,.!?;:“”"'（）()\s]/g, '');
+  const chars = splitCore(word);
+  if (!chars) return false;
   for (let a = text.indexOf(chars[0]); a !== -1; a = text.indexOf(chars[0], a + 1)) {
     const b = text.indexOf(chars[1], a + 1);
     if (b > a + 1 && b - a <= 7) return true;
@@ -221,7 +232,7 @@ function checkCard(card, authored, ctx) {
     reading.errors.forEach(e => errors.push(label + ' pinyin: ' + e));
     reading.warnings.forEach(w => warnings.push(label + ' pinyin: ' + w));
     if (allowed) {
-      const issues = checkBeginnerVocabulary(ex.chinese, card.word, allowed, ctx);
+      const issues = checkBeginnerVocabulary(ex.chinese, card.word, allowed, ctx, (card.measureWords || []).map(m => m.word || m));
       if (issues.length) {
         const message = label + ': words above HSK ' + allowed + ': ' + issues.join(', ');
         if (allowed <= 3) errors.push(message); else warnings.push(message);
@@ -229,7 +240,7 @@ function checkCard(card, authored, ctx) {
     }
   });
   const separable = authored.separable !== undefined ? authored.separable : card.separable;
-  if (separable === true && Array.from(card.word).length === 2 && Array.isArray(examples) && !examples.some(ex => ex && ex.chinese && showsSplit(ex, card.word)))
+  if (separable === true && splitCore(card.word) && Array.isArray(examples) && !examples.some(ex => ex && ex.chinese && showsSplit(ex, card.word)))
     errors.push('separable verb: at least one example must show the split form (睡了一个好觉, 帮他的忙)');
   const german = [authored.meaning, authored.notes, ...(examples || []).map(e => e && e.german)].filter(Boolean).join(' ');
   const umlaut = german.match(UMLAUT_SUBSTITUTES);

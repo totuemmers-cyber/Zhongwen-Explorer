@@ -62,3 +62,185 @@ Author flags, type changes and reviewer fixes per batch, for follow-up decisions
 - w:这:zhe4 这 (reviewer fix): *这书 marked as ungrammatical; colloquial 这书/这人 is common, so the rule is softened.
 - w:这里:zhe4li3 这里 (reviewer fix): Claim that 里 usually keeps the 3rd tone is wrong (dictionaries give zhè·lǐ, usually neutral in speech); phone frame 这里是 adjusted to announcements.
 - w:知道:zhi1dao4 知道 (reviewer fix): Good existing example 我不知道 was dropped (keep good originals); restored.
+
+## b003 (2026-10-09, author+review)
+- w:白色:bai2se4 白色 (reviewer fix): „Weiß; weiß“ wirkte wie ein Tippfehler; Nomen/Adjektiv-Lesart klarer gemacht.
+- w:班:ban1 班 (reviewer fix): Notiz behauptete, vor 班 stehe meist kein Zählwort; beim Zählen sagt man aber 三个班 – nur der Klassenname 三班 kommt ohne aus.
+- w:别:bie2 别 (reviewer fix): Übersetzung von Beispiel 3 fügte „zu Abend“ hinzu, das im Satz nicht steht.
+- w:长:chang2 长 (reviewer fix): zhǎng-Lesart: 校长 bedeutet „Leiter“, nicht „älter“; Kontrast 很久/很长 präzisiert.
+- w:出:chu1 出 (reviewer fix): „steht selten allein“ widersprach dem folgenden Satz (出问题, 出太阳); überzogene Aussage abgeschwächt.
+- w:出国:chu1guo2 出国 (reviewer fix): Trennbares Verb (出过国), Notiz und Beispiel zeigen die Trennung bereits; Markierung fehlte.
+- w:出门:chu1men2 出门 (reviewer fix): Trennbares Verb (出了门) nicht markiert und ohne Beispiel in getrennter Form; Beispiel mit Trennung ergänzt.
+- w:床:chuang2 床 (reviewer fix): Notiz widersprach sich (上床 „ins Bett gehen“, dann „ins Bett gehen heißt meist 睡觉“); Kontrast klargestellt.
+- w:次:ci4 次 type → Zählwort: 量: verbal measure word (number of times), not a numeral
+- w:从:cong2 从 (reviewer fix): „Der Ausgangspunkt muss ein Ort sein“ widersprach den Zeitangaben im selben Absatz; Regel auf Personen beschränkt.
+- w:地铁:di4tie3 地铁 (reviewer fix): „Linien werden mit 号线 gezählt“ suggerierte ein Zählwort; 号线 benennt die Linie (二号线 = Linie 2).
+- w:公交车:gong1jiao1che1 公交车 (reviewer fix): „Buslinien zählt man mit 路“ irreführend: 三路公交车 ist „Linie 3“, nicht „drei Busse“ (das wäre 三辆).
+- w:过:guo4 过 type → Verb: 动: this card is the verb guò (pass, cross, spend time); the aspect particle is the separate card w:过:guo5
+- w:过去:guo4qu4 过去 type → Verb: 动: this card is the verb guòqù (go over, pass by); the noun „Vergangenheit“ is the separate card w:过去:guo4qu4#2 (HSK3)
+- w:还是:hai2shi5 还是 type → Konjunktion: 副、连: conjunction 'oder' in alternative questions plus adverb uses; not a particle
+- w:还是:hai2shi5 还是 (reviewer fix): Note: confusing "Das zweite shi" (there is only one shi) reworded.
+- w:花:hua1 花 (author): Card is the verb 花 'spend' (syllabusPos 动) but category 'Natur' and the old measure words (朵, 束 …) belong to the noun card 花#2.
+- w:花:hua1 花 type → Verb: 动: this card is the verb 'to spend'; the noun 'Blume' is card 花#2
+- w:间:jian1 间 (author): Variant 閒 is listed, but 閒 is primarily the traditional form of 闲 (xián); as a variant of 间 it is archaic.
+- w:介绍:jie4shao4 介绍 (reviewer fix): Note overstated "Fast immer folgt 一下" (介绍朋友, 介绍工作 without 一下 are common); softened.
+- w:可能:ken3eng2 可能 type → Adjektiv: 形、名、动: syllabus lists adjective, noun and verb, no adverb; adjective 'möglich' comes first
+- w:离:li2 离 type → Verb: 动: official part of speech is verb ('be away from'); it is used coverb-like before distance predicates
+- w:楼:lou2 楼 (reviewer fix): Pinyin: 楼下 is one word (lóuxià), not "lóu xià".
+- w:绿色:lv4se4 绿色 (reviewer fix): Note: it is 戴绿帽子 (wearing the green hat) that means being cuckolded, not 绿帽子 itself; German "das grüne Kleidungsstück" unidiomatic.
+- w:没意思:mei2yi4si5 没意思 (reviewer fix): Note: broken German ("und Gegenteil von") and the sentence about 有什么意思 wrongly implied it contains 没意思.
+- w:门口:men2kou3 门口 (reviewer fix): Old gloss 'Tür' contradicts the note (门口 is the place at the door, the door itself is 门).
+- w:门票:men2piao4 门票 (reviewer fix): Note called 机票 a 'Fahrkarte'; it is a flight ticket.
+- w:面:mian4 面 (author): Card mixes 面 (suffix/face/surface, trad. 面) with 面 'noodles' (trad. 麵); category 'Essen' and the old gloss 'Nudeln' fit only the latter, while the HSK2 syllabus POS is 后缀.
+- w:面:mian4 面 type → Affix: 后缀: auf HSK 2 führt das Syllabus 面 als Suffix (前面, 里面); Nomen/Zählwort/Verb erst auf späteren Stufen
+- w:奶茶:nai3cha2 奶茶 (reviewer fix): Tibetan butter tea is 酥油茶, not 奶茶; the regional salty milk tea is Mongolian/Xinjiang.
+- w:跑:pao3 跑 (reviewer fix): Example 3 was illogical (closing the door after the dog has already run out).
+- w:身体:shen1ti3 身体 (reviewer fix): 'Körperteil' is 身体部位, not 身体的部分; stilted German 'Bist du bei guter Gesundheit?' made idiomatic.
+- w:时:shi2 时 (reviewer fix): Wrong German idiom 'Auf sich allein gestellt' (= left to fend for oneself).
+- w:送:song4 送 (reviewer fix): 去机场送朋友 means seeing a friend off at the airport, not driving him there.
+- w:疼:teng2 疼 type → Adjektiv: 形: adjective at HSK2 (头很疼); the verb use 'liebhaben, verhätscheln' belongs to HSK6
+- w:题:ti2 题 (reviewer fix): Restored the good original 这道题很难 (standard measure word 道, as the note says) instead of the colloquial 这个题 duplicate of example 3.
+- w:条:tiao2 条 type → Zählwort: 量: measure word, not a numeral
+- w:头:tou2 头 (reviewer fix): Example 3: 从头再说一遍 is the natural form and matches 'noch mal'.
+- w:万:wan4 万 (reviewer fix): Overstated rule '两, nicht 二' softened to 'meist'.
+- w:往:wang3 往 (reviewer fix): Gloss '(fahren) nach' was unclear for the verb sense.
+- w:位:wei4 位 type → Zählwort: 量: measure word, not a numeral
+- w:洗:xi3 洗 (reviewer fix): Pinyin word spacing: 吃饭 is one word (chīfàn).
+- w:洗手间:xi3shou3jian1 洗手间 (reviewer fix): 卫生间 is also widely used for public toilets in the mainland; note implied it mainly means the bathroom at home.
+- w:下面:xia4mian4 下面 (reviewer fix): 我住在楼上，他住在下面 is unidiomatic (natural counterpart is 楼下); replaced with a natural spatial example.
+- w:眼睛:yan3jing5 眼睛 (reviewer fix): German translation redundant and added „nicht mehr“ not in the Chinese.
+- w:阴:yin1 阴 (reviewer fix): Meaning/translation „bewölkt“ contradicted the note distinguishing 阴 „bedeckt“ from 多云 „bewölkt“.
+- w:游:you2 游 (reviewer fix): 游戏 was listed as an example of the sense „reisen, umherziehen“; there 游 means „spielen“.
+- w:有时:you3shi2 有时 (reviewer fix): „Häufiger als 有时 ist 常常“ was ambiguous (reads like word frequency); rephrased as frequency scale.
+- w:右边:you4bian1 右边 (reviewer fix): Pinyin yòubiān inconsistent with card reading yòubian (neutral tone) and the other examples.
+- w:远:yuan3 远 (reviewer fix): Note overstated „nicht mit 从“ – 从A到B很远 is common; also more idiomatic German in example 1.
+- w:站:zhan4 站 type → Nomen: 名: noun (station) per syllabus; the verb 站 'stehen' is the separate HSK3 card w:站:zhan4#2
+- w:走:zou3 走 (reviewer fix): Example phrase 这路车走吗？ is unnatural/unclear; replaced with 车走了 / 表不走了.
+- w:足球:zu2qiu2 足球 (reviewer fix): Softened absolute „nicht 玩“ (玩足球 occurs colloquially, e.g. children playing with a ball).
+- w:左边:zuo3bian1 左边 (reviewer fix): Pinyin zuǒbiān inconsistent with card reading zuǒbian (neutral tone) and the other examples.
+- w:阿姨:a1yi2 阿姨 (reviewer fix): Note: German grammar „in Großelternalter“ → „im Großelternalter“.
+- w:安全:an1quan2 安全 type → Adjektiv: 形: adjective (sicher); the noun use „Sicherheit“ is secondary
+- w:把:ba3 把 type → Präposition: 介: coverb of the 把 construction (also 量 measure word); not a particle
+- w:搬:ban1 搬 (reviewer fix): Meaning: „wegräumen“ (tidy away) misleading for 搬, replaced by moving/transporting senses; note: awkward wording „nimmt man mit 拿“ rephrased.
+- w:班级:ban1ji2 班级 (reviewer fix): Meaning: bare plural „Klassen“ replaced; example 3 „我们班级里个子最高“ unnatural (natives say 我们班里, as the note itself says) – replaced.
+- w:办法:ban4fa3 办法 (author): measureWords lists only 条; the usual measure word for 办法 is 个 (一个好办法).
+- w:北方:bei3fang1 北方 (reviewer fix): Note: North/South divide is the Qinling–Huai line, not „Jangtse bzw. Huai“; „nach Norden“ gloss corrected to „Norden“.
+- w:被:bei4 被 type → Präposition: 介: preposition introducing the agent of a passive; not a particle
+- w:比如:bi3ru2 比如 type → Verb: 动: listed as a verb („zum Beispiel nehmen“), not an adverb
+- w:必须:bi4xu1 必须 type → Adverb: 副: adverb before the verb („unbedingt“), not a verb itself
+- w:遍:bian4 遍 type → Zählwort: 量: measure word (verbal classifier), not a numeral
+- w:冰激凌:bing1ji1ling2 冰激凌 (reviewer fix): Example 1 used slang 爽 (HSK 7–9) in an HSK 3 card – replaced with a beginner-level sentence.
+- w:才:cai2 才 (reviewer fix): Example 2 German: stilted „Das Kleidungsstück“ and „super billig“ → idiomatic „Das Teil … superbillig“.
+- w:层:ceng2 层 type → Zählwort: 量: measure word for floors and layers, not a numeral
+- w:层:ceng2 层 (reviewer fix): Note: ambiguous „im dritten Geschoss“ (contradicts the preceding „zweiter Stock“ explanation) reworded.
+
+## b005 (2026-10-09, author+review)
+- w:起:qi3 起 (reviewer fix): Meaning: 'anfangen (ab)' unclear and 'Vorfälle und Fälle' redundant; note overstated that 起 is as common as 起床.
+- w:前年:qian2nian2 前年 (reviewer fix): Note marked 在前年 as ungrammatical (*); it is merely unusual in speech.
+- w:请假:qing3jia4 请假 (reviewer fix): Note starred 请假三天-type forms as wrong although 请假三天 is common; 请病假 is a verb phrase ('sich krankmelden'), not 'Krankmeldung'.
+- w:然后:ran2hou4 然后 type → Konjunktion: 连: officially a conjunction, not an adverb
+- w:热情:re4qing2 热情 (reviewer fix): German 'herzlich geholfen' is unidiomatic.
+- w:认得:ren4de5 认得 (reviewer fix): 认得 is not primarily northern; in the north 认识 dominates, 认得 is more typical of southern/regional speech.
+- w:市:shi4 市 (reviewer fix): 这个市有三百多万人 sounds awkward; 我们市 is the natural administrative usage.
+- w:试:shi4 试 (reviewer fix): Note garbled the 试试看 pattern (claimed 试试 follows other verbs, listing 尝尝/看看); it is the appended 看 that marks trying.
+- w:双:shuang1 双 type → Zählwort: 量: measure word, not a numeral
+- w:双:shuang1 双 (reviewer fix): Note implied gloves take only 副; 一双手套 is equally common.
+- w:跳:tiao4 跳 (reviewer fix): 跳来跳去 is a V来V去 pattern, not a reduplication
+- w:挺:ting3 挺 (reviewer fix): example 2: 挺不错 is "recht/ziemlich gut", not "richtig gut"
+- w:头发:tou2fa5 头发 (reviewer fix): example 2 used 白 (HSK 5 as standalone word); replaced with beginner-level sentence
+- w:突然:tu1ran2 突然 type → Adjektiv: 形: adjective (这件事太突然了); the adverbial use 突然下雨了 is the adjective before a verb
+- w:外语:wai4yu3 外语 (reviewer fix): example 3 German overstated ("braucht unbedingt")
+- w:完成:wan2cheng2 完成 (reviewer fix): 不 in potential complement is neutral tone (bu liǎo)
+- w:网站:wang3zhan4 网站 (reviewer fix): 不 in potential complement is neutral tone (dǎ bu kāi)
+- w:为了:wei4le5 为了 (reviewer fix): meaning "wegen" contradicts the note (cause = 因为); "am Satzende" was inaccurate for 是为了 frame
+- w:西瓜:xi1gua1 西瓜 (author): measureWords lists only 颗; for a whole watermelon mainland usage is mostly 个 (一个西瓜), 颗 is more Taiwanese.
+- w:香蕉:xiang1jiao1 香蕉 (reviewer fix): 一把香蕉 is a bunch (Büschel), not a Staude (plant); example 3 used 猴子 (HSK 5), replaced
+- w:小心:xiao3xin1 小心 (reviewer fix): example 1 used 滑 (HSK 5), replaced with beginner-level warning
+- w:新年:xin1nian2 新年 (reviewer fix): Note claimed 新年 refers only to the Western New Year; 新年好/新年快乐 are also standard greetings at Spring Festival.
+- w:行李:xing2li5 行李 (reviewer fix): German of example 3 was ungrammatical („kannst du mir kurz tragen helfen“).
+- w:选择:xuan3ze2 选择 (reviewer fix): Example 你选择哪个？ is stilted for a casual choice and contradicted the note (which recommends 选 there); replaced with a real decision.
+- w:养:yang3 养 (reviewer fix): Experiential particle 过 is neutral tone (guo), not guò.
+- w:页:ye4 页 type → Zählwort: 量: Zählwort für Seiten, kein Zahlwort
+- w:一块儿:yi1kuai4r5 一块儿 type → Adverb: 名、副: überwiegend adverbial gebraucht (一块儿去); nominal nur in 在一块儿
+- w:以后:yi3hou4 以后 (reviewer fix): Note called the short form 后 (吃饭后) colloquial; it is the terser, rather written variant.
+- w:以上:yi3shang4 以上 (reviewer fix): Example 2 used 度 (HSK 5); replaced with a score example within HSK 1–4.
+- w:以下:yi3xia4 以下 (reviewer fix): Example 2 (气温会到零度以下) was awkward (降到 expected) and used 零度/度 above HSK 4; replaced with a price example.
+- w:邮箱:you2xiang1 邮箱 (reviewer fix): German gloss „an meine Mail schicken“ was unidiomatic.
+- w:有名:you3ming2 有名 (reviewer fix): The written frame is 以……闻名, not 以……有名.
+- w:张:zhang1 张 type → Zählwort: 量: measure word, not a numeral (also used as 动 'öffnen')
+- w:长:zhang3 长 (reviewer fix): Example 3: German translation lost the point of 女老师 and the sentence was awkward; replaced with a simpler, natural 校长 sentence.
+- w:纸:zhi3 纸 (reviewer fix): Example 3: 为了环境 is unidiomatic; natural is 为了保护环境.
+- w:只要:zhi3yao4 只要 (reviewer fix): German of examples 2/3: „Sobald“ is temporal and plain „Wenn“ loses the sufficient-condition sense of 只要.
+- w:种:zhong3 种 type → Zählwort: 量: measure word, not a numeral
+- w:总:zong3 总 (reviewer fix): Example 3: 总觉得 means „das Gefühl nicht loswerden“, not „die ganze Zeit“.
+- w:最后:zui4hou4 最后 type → Nomen: 名: time noun, used adverbially as 'zum Schluss'
+- w:最近:zui4jin4 最近 type → Nomen: 名: time noun, used adverbially
+
+## b004 (2026-10-09, author+review)
+- w:差不多:cha4bu5duo1 差不多 (reviewer fix): Meaning lacked the adjective sense (形) „fast gleich, ähnlich“ that notes and example 3 teach.
+- w:城市:cheng2shi4 城市 (reviewer fix): Note overstated: Städtenamen tragen im Alltag meist kein 市 (cf. example 北京是一个大城市).
+- w:当然:dang1ran2 当然 (reviewer fix): 自然 does not mean „naturbelassen“ (that is 天然); 自然 = „ungezwungen; Natur“.
+- w:得分:de2fen1 得分 (reviewer fix): 离合词 (得了两分), split already explained in notes and shown in example 3, but not marked separable.
+- w:地点:di4dian3 地点 (reviewer fix): „Treffpunkt“ too narrow as gloss; 三楼 = German 2. Stock (Chinese floors count the ground floor as 一楼).
+- w:冬天:dong1tian1 冬天 (reviewer fix): example 2 used 棉衣 (outside HSK 1–4), replaced
+- w:短裤:duan3ku4 短裤 (reviewer fix): German: Shorts is plural (Was kosten diese Shorts?)
+- w:段:duan4 段 type → Zählwort: 量: measure word, not a numeral
+- w:段:duan4 段 (reviewer fix): Note wrongly said 块/根 instead of 段 for cut pieces; 一段绳子 is standard for lengths of long things
+- w:对话:dui4hua4 对话 type → Verb: 动: official part of speech is verb (ein Gespräch führen); the noun use „Dialog“ is just as common
+- w:饿:e4 饿 (reviewer fix): 肚子饿了 is not „der Magen knurrt“ (that is 肚子咕咕叫)
+- w:耳朵:er3duo5 耳朵 (reviewer fix): German added „nicht mehr“ not in the Chinese; examples used 兔子 (HSK 5) and 灵 (HSK 7–9), replaced with beginner vocabulary
+- w:发现:fa1xian4 发现 (reviewer fix): example 3 used 物质 (HSK 5), replaced
+- w:风:feng1 风 (author): variants lists 丰, which is not a variant of 风 (丰 is the simplified form of 豐 'reichlich'); the variant should be removed.
+- w:刚:gang1 刚 (reviewer fix): German of example 3 unidiomatic („Als ich gerade nach Peking gekommen war“)
+- w:刚才:gang1cai2 刚才 type → Nomen: 名: time noun (can precede the subject and take 的: 刚才的事), not an adverb
+- w:高铁:gao1tie3 高铁 (reviewer fix): „Schnellbahnhof“ is not a German word
+- w:公斤:gong1jin1 公斤 type → Zählwort: 量: unit of measurement used as a measure word, not a noun
+- w:刮:gua1 刮 (reviewer fix): Note contrasted with the strawman *风很吹, which no learner would produce; replaced with a useful pattern (刮风了).
+- w:关心:guan1xin1 关心 (reviewer fix): Note marked 对他关心 with an asterisk as if ungrammatical; 对他很关心 is normal Mandarin.
+- w:关于:guan1yu2 关于 (reviewer fix): Note claimed 关于 never stands after the verb while its own example 谈了关于工作的事 does; clarified adverbial vs. attributive position.
+- w:国家:guo2jia1 国家 (reviewer fix): German grammar: „hier passen 国家 nicht“ → „hier passt 国家 nicht“.
+- w:过节:guo4jie2 过节 (reviewer fix): Split example 过了一个快乐的节 is unidiomatic; replaced with the common 过完节.
+- w:号码:hao4ma3 号码 (author): measureWords: 堆 (duī) passt nicht zu 号码 – übliches Zählwort ist 个; 堆 sollte entfernt werden.
+- w:号码:hao4ma3 号码 (reviewer fix): Overstated rule „nicht mit 什么“; 号码是什么 occurs colloquially.
+- w:后来:hou4lai2 后来 type → Nomen: 名: Zeitnomen laut Syllabus (wie 以前), deutsch als Adverb wiedergegeben
+- w:急:ji2 急 (reviewer fix): Pinyin word spacing: 急事 is one word (jíshì), not „jí shì“.
+- w:季:ji4 季 (reviewer fix): Note glossed 第二季 as „zweites Quartal“; the quarter is 季度 (第二季度), 第二季 is a season/Staffel.
+- w:检查:jian3cha2 检查 (reviewer fix): Examples 1 and 2 were near-duplicates (both a doctor examining me); replaced the second with a luggage check.
+- w:检票:jian3piao4 检票 (reviewer fix): „einchecken (am Bahnsteig)“ is misleading in German (check-in); 检票 is the ticket/entry check.
+- w:健康:jian4kang1 健康 type → Adjektiv: 形: adjective in the syllabus (also used as a noun)
+- w:讲:jiang3 讲 (reviewer fix): 讲话 does not mostly mean 'give a speech'; everyday 'talk' sense (上课不要讲话) is equally common.
+- w:角:jiao3 角 (author): Syllabus lists 角 as 量 (money unit), but card category 'Formen' and measure word 个 belong to the noun sense 'Ecke/Winkel'.
+- w:角:jiao3 角 type → Zählwort: 量: measure word / monetary unit (1/10 yuan) in the syllabus
+- w:角:jiao3 角 (reviewer fix): Example 3 '找您三元五角' is unnatural as spoken cashier language (would be 三块五); replaced with a narrative sentence.
+- w:节:jie2 节 type → Zählwort: 量: measure word, not a numeral
+- w:节:jie2 节 (reviewer fix): Example 2 used 小汽车 ('car') for a toy car and 电池 (HSK 5); replaced with a section-counting example and noted that use.
+- w:斤:jin1 斤 (reviewer fix): 'Vor 斤 steht 两, nicht 二' is overstated; 二斤 is common colloquially with traditional weight units.
+- w:句:ju4 句 type → Zählwort: 量: measure word, not a numeral
+- w:句子:ju4zi5 句子 (reviewer fix): Note stated the measure word 个 twice; tightened.
+- w:开心:kai1xin1 开心 (reviewer fix): 拿某人开心 'make fun of sb' is standard usage, not regional.
+- w:可是:ke3shi4 可是 (reviewer fix): 学了三年 without sentence-final 了 does not imply ongoing study; German 'lernt seit drei Jahren' corrected.
+- w:刻:ke4 刻 type → Zählwort: 量: measure word for quarter hours
+- w:客人:ke4ren2 客人 (reviewer fix): 家里来了客人 marks indefinite/new information, not necessarily 'unexpected'.
+- w:哭:ku1 哭 (reviewer fix): 哭得很伤心 expresses manner, not reason; wording corrected and 'intransitiv' softened.
+- w:筷子:kuai4zi5 筷子 (reviewer fix): 用筷子 alone means 'use chopsticks', not 'eat with chopsticks'.
+- w:老人:lao3ren2 老人 (reviewer fix): Honorific 位 for one's own grandparents sounds odd; changed to 个.
+- w:练:lian4 练 (reviewer fix): Note claimed 'einsilbiges Objekt' but listed the two-syllable 练口语
+- w:练习:lian4xi2 练习 type → Verb: 动、名: primarily a verb (üben), the noun sense (Übung) comes second
+- w:凉快:liang2kuai5 凉快 (reviewer fix): 开空调，凉快多了 is clipped (多了 needs a completed change: 开了空调) and the German imperative did not match the Chinese
+- w:聊天儿:liao2tian1r5 聊天儿 (reviewer fix): Separable verb (note even described the split) but not marked separable and no example showed the split form
+- w:留学:liu2xue2 留学 (reviewer fix): Example 2 used 欧洲 (HSK 5), above the beginner vocabulary limit
+- w:留学生:liu2xue2sheng1 留学生 (reviewer fix): German 'Austauschstudent' implies an exchange programme, which 留学生 does not
+- w:马:ma3 马 (reviewer fix): Example 3 used 属 (HSK 6), above the beginner vocabulary limit
+- w:满意:man3yi4 满意 type → Verb: 动: the syllabus lists 满意 as a (psychological) verb that takes 很 and an object
+- w:毛:mao2 毛 type → Zählwort: 量: monetary unit used as a measure word, not a numeral
+- w:米:mi3 米 type → Zählwort: 量: the syllabus lists 米 as a measure word (Meter); Reis is an additional noun sense
+- w:米:mi3 米 (reviewer fix): Example 1 used 宽 (HSK 5), above the beginner vocabulary limit
+- w:名人:ming2ren2 名人 (reviewer fix): Garbled German sentence 'Man wird 名人 durch 成了名人 oder 当名人'
+- w:男人:nan2ren2 男人 (reviewer fix): Note called 老公 "hochsprachlich" (it is colloquial) and did not tie the husband sense to the neutral-tone reading
+- w:男生:nan2sheng1 男生 (reviewer fix): Meaning "Schüler; Student" without "männlich" suggests students in general
+- w:牛:niu2 牛 (reviewer fix): Example 3 used the slang adjective sense ("krass"), which belongs to a later level; stilted German "Jene Kuh" in example 1
+- w:努力:nu3li4 努力 type → Verb: 动、形: listed first as verb (sich anstrengen), adjective use second
+- w:爬:pa2 爬 (reviewer fix): Unidiomatic German "auf den Berg wandern"
+- w:怕:pa4 怕 (reviewer fix): Note equated the later-level adverb sense of 怕 with the separate word 恐怕
+- w:平时:ping2shi2 平时 type → Nomen: 名: time noun („gewöhnliche Zeiten“) that, like 今天, can stand before the verb
+- w:骑:qi2 骑 (reviewer fix): Note said 骑车 is a short form for "das Fahrrad"; it is short for 骑自行车 "Rad fahren"
