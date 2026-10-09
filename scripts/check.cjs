@@ -8,6 +8,7 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const CHECKS = Object.freeze([
   'lint',
+  'test:smoke',
   'test:pinyin',
   'test:storage',
   'audit:data'

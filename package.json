@@ -7,7 +7,8 @@
     "lint": "node scripts/lint.js",
     "audit:data": "node scripts/audit-data.cjs",
     "test:pinyin": "node scripts/pinyin-test.cjs",
-    "test:storage": "node scripts/storage-test.cjs"
+    "test:storage": "node scripts/storage-test.cjs",
+    "test:smoke": "node scripts/smoke-test.js"
   },
   "devDependencies": {
     "jsdom": "^26.1.0"
