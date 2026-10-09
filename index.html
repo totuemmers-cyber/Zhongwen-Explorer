@@ -158,6 +158,8 @@
             <button class="filter-btn vocab-level hsk4" data-vlevel="HSK4">HSK 4</button>
             <button class="filter-btn vocab-level hsk5" data-vlevel="HSK5">HSK 5</button>
             <button class="filter-btn vocab-level hsk6" data-vlevel="HSK6">HSK 6</button>
+            <button class="filter-btn vocab-level hsk7-9" data-vlevel="HSK7-9">HSK 7–9</button>
+            <button class="filter-btn vocab-level zusatz" data-vlevel="Zusatz" title="Wörter außerhalb des HSK-Prüfungsplans 2025">Zusatz</button>
           </div>
           <div class="sort-controls">
             <select id="vocab-type-select">
@@ -174,6 +176,10 @@
               <option value="Redewendung">Redewendung</option>
               <option value="Phrase">Phrase</option>
               <option value="Präposition">Präposition</option>
+              <option value="Zählwort">Zählwort</option>
+              <option value="Interjektion">Interjektion</option>
+              <option value="Lautmalerei">Lautmalerei</option>
+              <option value="Affix">Affix</option>
               <option value="Chengyu">Chengyu</option>
               <option value="Sprichwort">Sprichwort</option>
             </select>
@@ -479,6 +485,8 @@
           </div>
           <div id="vocab-detail-pinyin" class="vocab-detail-reading"></div>
           <div id="vocab-detail-meaning" class="vocab-detail-meaning"></div>
+          <p id="vocab-detail-draft" class="draft-notice hidden" role="note"></p>
+          <dl id="vocab-detail-facts" class="vocab-detail-facts hidden"></dl>
           <div id="vocab-detail-category-line" class="vocab-detail-category-line"></div>
           <div id="vocab-detail-chengyu-section" class="grammar-detail-section hidden">
             <h3>Zeichenanalyse <span lang="zh-CN">字义</span></h3>

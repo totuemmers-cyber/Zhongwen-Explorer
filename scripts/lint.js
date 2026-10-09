@@ -5,7 +5,9 @@ const { spawnSync } = require('child_process');
 const ROOT = path.resolve(__dirname, '..');
 const CHECK_EXTENSIONS = new Set(['.js', '.cjs', '.html', '.css']);
 const IGNORE_DIRS = new Set(['.git', 'node_modules', '.content-cache', 'temp-animcjk']);
-const MOJIBAKE_PATTERN = /(?:\u00C3.|\u00E2.|\u00E3[\u0080-\u00BF]|\u00E6[\u0080-\u00BF]|\u00E5[\u0080-\u00BF])/;
+// Mojibake from UTF-8 read as Latin-1/Windows-1252: \u00C3 + any, \u00E2 + C1 control or \u20AC/\u2122 (\u00E2\u20AC\u2122 for \u2019),
+// and CJK lead bytes. A plain \u00E2 (Ch\u00E2teau) is legitimate text.
+const MOJIBAKE_PATTERN = /(?:\u00C3.|\u00E2[\u0080-\u00BF\u20AC\u2122]|\u00E3[\u0080-\u00BF]|\u00E6[\u0080-\u00BF]|\u00E5[\u0080-\u00BF])/;
 
 function walk(dir, files) {
   const entries = fs.readdirSync(dir, { withFileTypes: true });

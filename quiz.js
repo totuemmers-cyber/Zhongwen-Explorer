@@ -56,15 +56,18 @@
   var LEVELS = ['HSK1', 'HSK2', 'HSK3', 'HSK4', 'HSK5', 'HSK6'];
 
   // === DATA ACCESSORS ===
+  // Draft meanings (not yet reviewed) are never used as quiz answers or distractors.
+  function isQuizReady(v) { return v.meaningStatus !== 'draft'; }
+
   function getVocabByLevel(level) {
     var sec = window.app && window.app.sections.vocab;
     if (!sec) return [];
-    return sec.allItems.filter(function (v) { return v.level === level; });
+    return sec.allItems.filter(function (v) { return v.level === level && isQuizReady(v); });
   }
 
   function getAllVocab() {
     var sec = window.app && window.app.sections.vocab;
-    return sec ? sec.allItems : [];
+    return sec ? sec.allItems.filter(isQuizReady) : [];
   }
 
   function getHanziByLevel(level) {

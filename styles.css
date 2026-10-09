@@ -665,3 +665,16 @@ kbd { font: 12px var(--font); background: var(--bg); border: 1px solid var(--bor
 .gl-section-text ul.lesson-rules li { padding: 4px 0 4px 20px; position: relative; font-size: 0.88rem; line-height: 1.6; }
 .gl-section-text ul.lesson-rules li::before { content: '\2192'; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
 .gl-example-de { font-size: 0.84rem; color: var(--text-secondary); }
+
+/* === HSK 2025: band 7–9, Zusatz entries, draft meanings, dictionary facts === */
+:root { --hsk7-9: #8a3a5c; --hsk7-9-bg: #f8eef2; --zusatz: #535b66; --zusatz-bg: #eef0f2; }
+:root[data-theme='dark'] { --hsk7-9: #e7a6c2; --hsk7-9-bg: #3d1a2a; --zusatz: #c3cad4; --zusatz-bg: #2a2e33; }
+.card-level.HSK7-9, .card-level-inline.HSK7-9, .detail-jlpt-badge.HSK7-9 { background: var(--hsk7-9-bg); color: var(--hsk7-9); border: 1px solid var(--hsk7-9); }
+.card-level.Zusatz, .card-level-inline.Zusatz, .detail-jlpt-badge.Zusatz { background: var(--zusatz-bg); color: var(--zusatz); border: 1px dashed var(--zusatz); }
+.draft-badge { display: inline-block; font-size: 0.7rem; font-weight: 600; padding: 1px 6px; margin-right: 4px; border-radius: var(--radius-pill); background: var(--accent-bg); color: var(--accent); vertical-align: 1px; }
+.draft-notice { margin: 8px 0 12px; padding: 8px 12px; border-left: 3px solid var(--accent); background: var(--bg-subtle); color: var(--text-secondary); font-size: 0.85rem; border-radius: 4px; }
+.vocab-detail-facts { display: grid; grid-template-columns: max-content 1fr; gap: 4px 16px; margin: 8px 0 16px; font-size: 0.9rem; }
+.vocab-detail-facts dt { color: var(--text-secondary); }
+.vocab-detail-facts dd { margin: 0; }
+.vocab-detail-facts [lang="zh-TW"] { font-size: 1.2rem; }
+.btn-link { background: none; border: none; padding: 0; color: var(--accent); text-decoration: underline; cursor: pointer; font: inherit; }

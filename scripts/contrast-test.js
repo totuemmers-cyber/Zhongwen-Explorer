@@ -25,7 +25,7 @@ const pairs = [
   ['text', 'bg'], ['text', 'bg-card'], ['text-secondary', 'bg'], ['text-secondary', 'bg-card'], ['text-secondary', 'bg-subtle'],
   ['accent', 'accent-bg'], ['accent', 'bg-card'], ['bg-card', 'accent'],
   // HSK level badges (text colour on badge background).
-  ...[1, 2, 3, 4, 5, 6].map(n => ['hsk' + n, 'hsk' + n + '-bg']),
+  ...[1, 2, 3, 4, 5, 6, '7-9'].map(n => ['hsk' + n, 'hsk' + n + '-bg']), ['zusatz', 'zusatz-bg'],
   // Tone-coloured pinyin on cards and pages, and filled tone badges.
   ...[1, 2, 3, 4, 5].flatMap(n => [['tone-' + n, 'bg-card'], ['tone-' + n, 'bg'], ['tone-on', 'tone-' + n]])
 ];

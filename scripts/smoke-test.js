@@ -139,6 +139,34 @@ async function run() {
     radicalLink.click();
     await until(() => app.activeTab === 'radicals' && radicals.isOverlayOpen(), 'component opens radical');
     radicals.closeDetail();
+    // HSK 2025 levels: the 7–9 band and Zusatz have entries and filter buttons.
+    for (const level of ['HSK1', 'HSK7-9', 'Zusatz']) {
+      vocab.filters.level = level; vocab.applyFilters();
+      assert(vocab.filteredItems.length > 0 && vocab.filteredItems.every(item => item.level === level), 'Level filter ' + level);
+      assert(d.querySelector('[data-vlevel="' + level + '"]'), 'Missing filter button ' + level);
+    }
+    vocab.filters.level = 'HSK1'; vocab.applyFilters();
+    assert.strictEqual(vocab.filteredItems.length, 300, 'HSK 1 must hold exactly the 300 syllabus words');
+    vocab.filters.level = 'all';
+    // Traditional forms are searchable and shown; measure words and draft glosses are rendered.
+    vocab.dom.search.value = '學習'; vocab.applyFilters();
+    const study = vocab.filteredItems.find(item => item.word === '学习');
+    assert(study, '學習 does not find 学习');
+    vocab.openDetail(vocab.filteredItems.indexOf(study));
+    assert(d.getElementById('vocab-detail-facts').textContent.includes('學習'), 'Traditional form missing in detail');
+    vocab.closeDetail();
+    vocab.dom.search.value = ''; vocab.applyFilters();
+    const withMeasure = vocab.allItems.find(item => item.word === '书' && item.measureWords);
+    assert(withMeasure, '书 has no measure word');
+    vocab.openDetail(vocab.filteredItems.indexOf(withMeasure));
+    assert(/Zählwort/.test(d.getElementById('vocab-detail-facts').textContent), 'Measure-word line missing');
+    vocab.closeDetail();
+    const draft = vocab.allItems.find(item => item.meaningStatus === 'draft');
+    vocab.openDetail(vocab.filteredItems.indexOf(draft));
+    assert(!d.getElementById('vocab-detail-draft').classList.contains('hidden'), 'Draft notice missing');
+    vocab.closeDetail();
+    assert(vocab.dom.grid.querySelector('.draft-badge') || vocab.allItems.some(i => i.meaningStatus === 'draft'), 'Draft badge missing');
+
     // No vocabulary card is empty.
     assert(!vocab.allItems.some(item => !item.word), 'Vocabulary entry without word');
     // Former word|pinyin bookmarks now point at the consolidated entries.

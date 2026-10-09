@@ -73,6 +73,8 @@ function germanGloss(senses, maxSenses = 3) {
     if (/\((?:[^)]*,\s*)?(Eig|Fam)\b[^)]*\)/.test(sense) || /\((Geo|Pers)\)/.test(sense)) continue;
     const text = sense.split(/;\s*Bsp\.:/)[0]
       .replace(/\s*\((?:S|V|Adj|Adv|Int|Pron|Präp|Konj|Num|Zähl|Part|Interj|Onom|Sprichw|Chengyu|Redew|u\.E\.)(?:,[^)]*)?\)/g, '')
+      // HanDeDict's ZEW (Zähleinheitswort) is the learner term Zählwort.
+      .replace(/\bZEW\b/g, 'Zählwort')
       .replace(/\s{2,}/g, ' ')
       .replace(/[;,\s]+$/, '')
       .trim();

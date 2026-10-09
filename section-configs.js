@@ -5,7 +5,7 @@ var SECTION_CONFIGS = {};
 
 // === Shared Constants & Helpers ===
 
-var LEVEL_ORDER = { 'HSK1': 0, 'HSK2': 1, 'HSK3': 2, 'HSK4': 3, 'HSK5': 4, 'HSK6': 5 };
+var LEVEL_ORDER = { 'HSK1': 0, 'HSK2': 1, 'HSK3': 2, 'HSK4': 3, 'HSK5': 4, 'HSK6': 5, 'HSK7-9': 6, 'Zusatz': 7 };
 
 // Lazy-built lookup indexes
 var _hanziByChar = null;
@@ -628,6 +628,9 @@ SECTION_CONFIGS['vocab'] = {
     }
     if (!query) return true;
     if (item.word && item.word.indexOf(query) !== -1) return true;
+    // Traditional forms and variant spellings are searchable (學習 finds 学习).
+    if (item.traditional && item.traditional.indexOf(query) !== -1) return true;
+    if ((item.variants || []).some(function (v) { return v.indexOf(query) !== -1; })) return true;
     if (Pinyin.matchesPinyin(item.pinyin, query)) return true;
     if (Pinyin.matchesText(item.meaning, query)) return true;
     if (Pinyin.matchesText(item.category, query)) return true;
@@ -670,22 +673,22 @@ SECTION_CONFIGS['vocab'] = {
       return createBaseCard('vocab-card chengyu-card',
         '<div class="vocab-card-badges-tr">' +
           '<span class="vocab-type-badge Chengyu">Chengyu</span>' +
-          '<span class="card-level-inline ' + item.level + '">' + (item.level || '') + '</span>' +
+          '<span class="card-level-inline ' + item.level + '">' + levelLabel(item.level) + '</span>' +
         '</div>' +
         charGridHtml +
         (item.category ? '<div class="chengyu-category-line">' + item.category + '</div>' : '') +
-        '<div class="vocab-card-meaning">' + (item.meaning || '') + '</div>',
+        '<div class="vocab-card-meaning">' + draftMarker(item) + escapeHtml(item.meaning || '') + '</div>',
         index, section, itemId);
     }
 
     return createBaseCard('vocab-card',
       '<div class="vocab-card-badges-tr">' +
         '<span class="vocab-type-badge ' + (item.type || '') + '">' + (item.type || '') + '</span>' +
-        '<span class="card-level-inline ' + item.level + '">' + (item.level || '') + '</span>' +
+        '<span class="card-level-inline ' + item.level + '">' + levelLabel(item.level) + '</span>' +
       '</div>' +
       '<span class="vocab-card-word">' + (item.word || '') + '</span>' +
       '<div class="vocab-card-reading">' + renderToneColoredPinyin(item.pinyin, item.word) + '</div>' +
-      '<div class="vocab-card-meaning">' + (item.meaning || '') + '</div>',
+      '<div class="vocab-card-meaning">' + draftMarker(item) + escapeHtml(item.meaning || '') + '</div>',
       index, section, itemId);
   },
   openDetail: function (item, dom) {
@@ -703,7 +706,7 @@ SECTION_CONFIGS['vocab'] = {
     vocabHeader.insertBefore(createSpeakBtn(item.word, false), wordEl.nextSibling);
 
     var badge = document.getElementById('vocab-detail-level');
-    badge.textContent = item.level;
+    badge.textContent = levelLabel(item.level);
     badge.className = 'detail-jlpt-badge ' + item.level;
 
     var typeBadge = document.getElementById('vocab-detail-type');
@@ -712,6 +715,8 @@ SECTION_CONFIGS['vocab'] = {
 
     document.getElementById('vocab-detail-pinyin').innerHTML = renderToneColoredPinyin(item.pinyin, item.word);
     document.getElementById('vocab-detail-meaning').textContent = item.meaning || '';
+    renderDraftNotice(item);
+    renderVocabFacts(item);
 
     var catLine = document.getElementById('vocab-detail-category-line');
     catLine.textContent = item.category ? 'Kategorie: ' + item.category : '';
@@ -757,13 +762,8 @@ SECTION_CONFIGS['vocab'] = {
       hanziLinks.querySelectorAll('.component-tag.clickable').forEach(function (tag) {
         tag.addEventListener('click', function () {
           var hzChar = tag.getAttribute('data-hanzi');
-          if (window.app) {
-            window.app.sections.vocab.closeDetail();
-            window.app.switchTab('hanzi');
-            var hzSec = window.app.sections.hanzi;
-            hzSec.dom.search.value = hzChar;
-            hzSec.applyFilters();
-            if (hzSec.filteredItems.length > 0) hzSec.openDetail(0);
+          if (window.app && window.app.workspace) {
+            window.app.workspace.openRelated('hanzi', function (h) { return h.hanzi === hzChar; });
           }
         });
       });
@@ -773,6 +773,80 @@ SECTION_CONFIGS['vocab'] = {
     }
   }
 };
+
+// === HSK 2025 vocabulary details ===
+
+function levelLabel(level) {
+  if (level === 'HSK7-9') return 'HSK 7–9';
+  return level ? String(level).replace(/^HSK(\d)$/, 'HSK $1') : '';
+}
+
+function escapeHtml(text) {
+  return String(text).replace(/[&<>"]/g, function (ch) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]; });
+}
+
+// Meanings not yet reviewed (Phase 3) are marked on cards and explained in the detail view.
+function draftMarker(item) {
+  return item.meaningStatus === 'draft' ? '<span class="draft-badge" title="Bedeutung noch nicht geprüft">Entwurf</span> ' : '';
+}
+
+function renderDraftNotice(item) {
+  var el = document.getElementById('vocab-detail-draft');
+  if (!el) return;
+  if (item.meaningStatus !== 'draft') { el.classList.add('hidden'); el.textContent = ''; return; }
+  var source = item.meaningSource === 'HanDeDict'
+    ? 'Entwurf aus HanDeDict (CC BY-SA)'
+    : item.meaningSource ? 'Entwurf' : 'Bedeutung folgt';
+  el.textContent = source + ' – noch nicht geprüft. Beispiele und Hinweise folgen.';
+  el.classList.remove('hidden');
+}
+
+// Traditional form, spoken tone sandhi, alternative reading, measure words, later HSK uses, variants.
+function renderVocabFacts(item) {
+  var list = document.getElementById('vocab-detail-facts');
+  if (!list) return;
+  list.textContent = '';
+  function row(label, content) {
+    var dt = appendElement(list, 'dt', '', label);
+    var dd = appendElement(list, 'dd', '');
+    if (typeof content === 'string') dd.textContent = content;
+    else dd.appendChild(content);
+    return dt;
+  }
+  if (item.traditional && item.traditional !== item.word) {
+    var trad = document.createElement('span');
+    trad.lang = 'zh-TW';
+    trad.textContent = item.traditional;
+    row('Traditionell', trad);
+  }
+  if (item.pinyinSpoken) row('Gesprochen', item.pinyinSpoken);
+  if (item.pinyinAlt && item.pinyinAlt.length) row('Auch gelesen', item.pinyinAlt.join(', '));
+  if (item.measureWords && item.measureWords.length) {
+    var words = document.createElement('span');
+    item.measureWords.forEach(function (mw, i) {
+      if (i) words.appendChild(document.createTextNode(', '));
+      var label = mw.word + ' (' + Pinyin.toMarked(mw.pinyin) + ')';
+      var known = window.app && window.app.sections.measurewords && window.app.sections.measurewords.isLoaded
+        ? window.app.sections.measurewords.allItems.some(function (m) { return m.classifier === mw.word; }) : true;
+      if (!known || !window.app || !window.app.workspace) { words.appendChild(document.createTextNode(label)); return; }
+      var link = document.createElement('button');
+      link.type = 'button';
+      link.className = 'btn-link';
+      link.lang = 'zh-CN';
+      link.textContent = label;
+      link.addEventListener('click', function () {
+        window.app.workspace.openRelated('measurewords', function (m) { return m.classifier === mw.word; });
+      });
+      words.appendChild(link);
+    });
+    row('Zählwort', words);
+  }
+  (item.levelUses || []).forEach(function (use) {
+    row('Auch ' + levelLabel(use.level), use.pos && use.pos.length ? use.pos.join(', ') : 'erweiterte Verwendung');
+  });
+  if (item.variants && item.variants.length) row('Varianten', item.variants.join(', '));
+  list.classList.toggle('hidden', !list.children.length);
+}
 
 // ========================================
 // ONOMATOPOEIA SECTION

@@ -1,12 +1,40 @@
-// Zhongwen Explorer vocabulary source (consolidated by scripts/consolidate-vocab.cjs). Redewendungen & Sprichwörter.
+// Zhongwen Explorer vocabulary source (HSK 2025 re-levelling, scripts/hsk2025/relevel.cjs). redewendungen-data.
 window.REDEWENDUNGEN_DATA = [
+  {
+    "id": "w:揠苗助长:ya4miao2zhu4zhang3",
+    "word": "揠苗助长",
+    "pinyin": "yà miáo zhù zhǎng",
+    "meaning": "An den Setzlingen ziehen, damit sie schneller wachsen (durch Ungeduld Schaden anrichten)",
+    "type": "Redewendung",
+    "level": "HSK7-9",
+    "category": "Sprichwort",
+    "examples": [
+      {
+        "chinese": "教育孩子不能揠苗助长，要顺其自然。",
+        "pinyin": "Jiàoyù háizi bù néng yà miáo zhù zhǎng, yào shùn qí zìrán.",
+        "german": "Bei der Kindererziehung darf man nicht durch Ungeduld schaden, man muss der Natur ihren Lauf lassen."
+      }
+    ],
+    "legacyIds": [
+      "揠苗助长|yà miáo zhù zhǎng"
+    ],
+    "syllabus": {
+      "no": 10117,
+      "pos": "",
+      "page": 332
+    },
+    "traditional": "揠苗助長",
+    "evidence": {
+      "cedict": "揠苗助長 揠苗助长 [ya4 miao2 zhu4 zhang3]"
+    }
+  },
   {
     "id": "w:活到老，学到老:huo2dao4lao3xue2dao4lao3",
     "word": "活到老，学到老",
     "pinyin": "huó dào lǎo, xué dào lǎo",
     "meaning": "Man lernt nie aus",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -17,7 +45,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "活到老，学到老|huó dào lǎo, xué dào lǎo"
-    ]
+    ],
+    "traditional": "活到老，學到老",
+    "evidence": {
+      "cedict": "活到老，學到老 活到老，学到老 [huo2 dao4 lao3 , xue2 dao4 lao3]"
+    }
   },
   {
     "id": "w:千里之行，始于足下:qian1li3zhi1xing2shi3yu2zu2xia4",
@@ -25,7 +57,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "qiān lǐ zhī xíng, shǐ yú zú xià",
     "meaning": "Auch der laengste Weg beginnt mit dem ersten Schritt",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -36,7 +68,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "千里之行，始于足下|qiān lǐ zhī xíng, shǐ yú zú xià"
-    ]
+    ],
+    "traditional": "千里之行，始於足下",
+    "evidence": {
+      "cedict": "千里之行，始於足下 千里之行，始于足下 [qian1 li3 zhi1 xing2 , shi3 yu2 zu2 xia4]"
+    }
   },
   {
     "id": "w:塞翁失马，焉知非福:sai4weng1shi1ma3yan1zhi1fei1fu2",
@@ -44,7 +80,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "sài wēng shī mǎ, yān zhī fēi fú",
     "meaning": "Ein Unglueck kann sich als Glueck erweisen",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -55,7 +91,8 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "塞翁失马，焉知非福|sài wēng shī mǎ, yān zhī fēi fú"
-    ]
+    ],
+    "traditional": "塞翁失馬，焉知非福"
   },
   {
     "id": "w:吃一堑，长一智:chi1yi1qian4zhang3yi1zhi4",
@@ -63,7 +100,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "chī yī qiàn, zhǎng yī zhì",
     "meaning": "Aus Schaden wird man klug",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -74,7 +111,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "吃一堑，长一智|chī yī qiàn, zhǎng yī zhì"
-    ]
+    ],
+    "traditional": "吃一塹，長一智",
+    "evidence": {
+      "cedict": "吃一塹，長一智 吃一堑，长一智 [chi1 yi1 qian4 , zhang3 yi1 zhi4]"
+    }
   },
   {
     "id": "w:三人行，必有我师:san1ren2xing2bi4you3wo3shi1",
@@ -82,7 +123,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "sān rén xíng, bì yǒu wǒ shī",
     "meaning": "Unter drei Wanderern ist bestimmt einer, der mein Lehrer sein kann",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -93,7 +134,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "三人行，必有我师|sān rén xíng, bì yǒu wǒ shī"
-    ]
+    ],
+    "traditional": "三人行，必有我師",
+    "evidence": {
+      "cedict": "三人行，必有我師 三人行，必有我师 [san1 ren2 xing2 , bi4 you3 wo3 shi1]"
+    }
   },
   {
     "id": "w:己所不欲，勿施于人:ji3suo3bu4yu4wu4shi1yu2ren2",
@@ -101,7 +146,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "jǐ suǒ bù yù, wù shī yú rén",
     "meaning": "Was du nicht willst, das man dir tu, das fueg auch keinem andern zu",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -112,7 +157,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "己所不欲，勿施于人|jǐ suǒ bù yù, wù shī yú rén"
-    ]
+    ],
+    "traditional": "己所不欲，勿施於人",
+    "evidence": {
+      "cedict": "己所不欲，勿施於人 己所不欲，勿施于人 [ji3 suo3 bu4 yu4 , wu4 shi1 yu2 ren2]"
+    }
   },
   {
     "id": "w:人无完人:ren2wu2wan2ren2",
@@ -120,7 +169,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "rén wú wán rén",
     "meaning": "Niemand ist perfekt",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -131,7 +180,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "人无完人|rén wú wán rén"
-    ]
+    ],
+    "traditional": "人無完人",
+    "evidence": {
+      "cedict": "人無完人 人无完人 [ren2 wu2 wan2 ren2]"
+    }
   },
   {
     "id": "w:金无足赤，人无完人:jin1wu2zu2chi4ren2wu2wan2ren2",
@@ -139,7 +192,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "jīn wú zú chì, rén wú wán rén",
     "meaning": "Kein Gold ist voellig rein, kein Mensch ist voellig vollkommen",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -150,7 +203,8 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "金无足赤，人无完人|jīn wú zú chì, rén wú wán rén"
-    ]
+    ],
+    "traditional": "金無足赤，人無完人"
   },
   {
     "id": "w:路遥知马力，日久见人心:lu4yao2zhi1ma3li4ri4jiu3jian4ren2xin1",
@@ -158,7 +212,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "lù yáo zhī mǎ lì, rì jiǔ jiàn rén xīn",
     "meaning": "Auf langen Wegen erkennt man die Staerke des Pferdes, mit der Zeit das Herz des Menschen",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -169,7 +223,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "路遥知马力，日久见人心|lù yáo zhī mǎ lì, rì jiǔ jiàn rén xīn"
-    ]
+    ],
+    "traditional": "路遙知馬力，日久見人心",
+    "evidence": {
+      "cedict": "路遙知馬力，日久見人心 路遥知马力，日久见人心 [lu4 yao2 zhi1 ma3 li4 , ri4 jiu3 jian4 ren2 xin1]"
+    }
   },
   {
     "id": "w:留得青山在，不怕没柴烧:liu2de5qing1shan1zai4bu4pa4mei2chai2shao1",
@@ -177,7 +235,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "liú de qīngshān zài, bù pà méi chái shāo",
     "meaning": "Solange die gruenen Berge bleiben, braucht man kein Brennholz zu fuerchten (Es gibt immer eine Chance)",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -188,7 +246,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "留得青山在，不怕没柴烧|liú de qīngshān zài, bù pà méi chái shāo"
-    ]
+    ],
+    "traditional": "留得青山在，不怕沒柴燒",
+    "evidence": {
+      "cedict": "留得青山在，不怕沒柴燒 留得青山在，不怕没柴烧 [liu2 de5 qing1 shan1 zai4 , bu4 pa4 mei2 chai2 shao1]"
+    }
   },
   {
     "id": "w:前人栽树，后人乘凉:qian2ren2zai1shu4hou4ren2cheng2liang2",
@@ -196,7 +258,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "qián rén zāi shù, hòu rén chéng liáng",
     "meaning": "Vorfahren pflanzen Baeume, Nachkommen geniessen den Schatten",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -207,7 +269,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "前人栽树，后人乘凉|qián rén zāi shù, hòu rén chéng liáng"
-    ]
+    ],
+    "traditional": "前人栽樹，後人乘涼",
+    "evidence": {
+      "cedict": "前人栽樹，後人乘涼 前人栽树，后人乘凉 [qian2 ren2 zai1 shu4 , hou4 ren2 cheng2 liang2]"
+    }
   },
   {
     "id": "w:当局者迷，旁观者清:dang1ju2zhe3mi2pang2guan1zhe3qing1",
@@ -215,7 +281,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "dāng jú zhě mí, páng guān zhě qīng",
     "meaning": "Der Beteiligte ist verwirrt, der Zuschauer sieht klar",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -226,7 +292,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "当局者迷，旁观者清|dāng jú zhě mí, páng guān zhě qīng"
-    ]
+    ],
+    "traditional": "當局者迷，旁觀者清",
+    "evidence": {
+      "cedict": "當局者迷，旁觀者清 当局者迷，旁观者清 [dang1 ju2 zhe3 mi2 , pang2 guan1 zhe3 qing1]"
+    }
   },
   {
     "id": "w:温故而知新:wen1gu4er2zhi1xin1",
@@ -234,7 +304,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "wēn gù ér zhī xīn",
     "meaning": "Durch Wiederholung des Alten lernt man Neues",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -245,7 +315,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "温故而知新|wēn gù ér zhī xīn"
-    ]
+    ],
+    "traditional": "溫故而知新",
+    "evidence": {
+      "cedict": "溫故而知新 温故而知新 [wen1 gu4 er2 zhi1 xin1]"
+    }
   },
   {
     "id": "w:功夫不负有心人:gong1fu5bu4fu4you3xin1ren2",
@@ -253,7 +327,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "gōngfu bù fù yǒu xīn rén",
     "meaning": "Fleiss wird immer belohnt",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Ermutigung",
     "examples": [
       {
@@ -264,7 +338,9 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "功夫不负有心人|gōngfu bù fù yǒu xīn rén"
-    ]
+    ],
+    "evidenceNote": "compositional",
+    "traditional": "功夫不負有心人"
   },
   {
     "id": "w:不入虎穴，焉得虎子:bu4ru4hu3xue2yan1de2hu3zi3",
@@ -272,7 +348,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "bù rù hǔ xué, yān dé hǔ zǐ",
     "meaning": "Wer nicht wagt, der nicht gewinnt (wortl.: Wer nicht in die Tigerhoehle geht, fängt kein Tigerjunges)",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Ermutigung",
     "examples": [
       {
@@ -283,7 +359,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "不入虎穴，焉得虎子|bù rù hǔ xué, yān dé hǔ zǐ"
-    ]
+    ],
+    "traditional": "不入虎穴，焉得虎子",
+    "evidence": {
+      "cedict": "不入虎穴，焉得虎子 不入虎穴，焉得虎子 [bu4 ru4 hu3 xue2 , yan1 de2 hu3 zi3]"
+    }
   },
   {
     "id": "w:一分耕耘，一分收获:yi1fen1geng1yun2yi1fen1shou1huo4",
@@ -291,7 +371,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "yī fēn gēngyún, yī fēn shōuhuò",
     "meaning": "Wie die Saat, so die Ernte",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Ermutigung",
     "examples": [
       {
@@ -302,7 +382,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "一分耕耘，一分收获|yī fēn gēngyún, yī fēn shōuhuò"
-    ]
+    ],
+    "traditional": "一分耕耘，一分收穫",
+    "evidence": {
+      "cedict": "一分耕耘，一分收穫 一分耕耘，一分收获 [yi1 fen1 geng1 yun2 , yi1 fen1 shou1 huo4]"
+    }
   },
   {
     "id": "w:失败是成功之母:shi1bai4shi4cheng2gong1zhi1mu3",
@@ -310,7 +394,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "shībài shì chénggōng zhī mǔ",
     "meaning": "Misserfolg ist die Mutter des Erfolgs",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Ermutigung",
     "examples": [
       {
@@ -321,7 +405,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "失败是成功之母|shībài shì chénggōng zhī mǔ"
-    ]
+    ],
+    "traditional": "失敗是成功之母",
+    "evidence": {
+      "cedict": "失敗是成功之母 失败是成功之母 [shi1 bai4 shi4 cheng2 gong1 zhi1 mu3]"
+    }
   },
   {
     "id": "w:世上无难事，只怕有心人:shi4shang4wu2nan2shi4zhi3pa4you3xin1ren2",
@@ -329,7 +417,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "shì shàng wú nán shì, zhǐ pà yǒu xīn rén",
     "meaning": "Nichts auf der Welt ist schwierig, wenn man sich Muehe gibt",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Ermutigung",
     "examples": [
       {
@@ -340,7 +428,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "世上无难事，只怕有心人|shì shàng wú nán shì, zhǐ pà yǒu xīn rén"
-    ]
+    ],
+    "traditional": "世上無難事，只怕有心人",
+    "evidence": {
+      "cedict": "世上無難事，只怕有心人 世上无难事，只怕有心人 [shi4 shang4 wu2 nan2 shi4 , zhi3 pa4 you3 xin1 ren2]"
+    }
   },
   {
     "id": "w:天下无难事，只怕有心人:tian1xia4wu2nan2shi4zhi3pa4you3xin1ren2",
@@ -348,7 +440,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "tiān xià wú nán shì, zhǐ pà yǒu xīn rén",
     "meaning": "Unter dem Himmel gibt es nichts Schwieriges fuer den, der den Willen hat",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Ermutigung",
     "examples": [
       {
@@ -359,7 +451,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "天下无难事，只怕有心人|tiān xià wú nán shì, zhǐ pà yǒu xīn rén"
-    ]
+    ],
+    "traditional": "天下無難事，只怕有心人",
+    "evidence": {
+      "cedict": "天下無難事，只怕有心人 天下无难事，只怕有心人 [tian1 xia4 wu2 nan2 shi4 , zhi3 pa4 you3 xin1 ren2]"
+    }
   },
   {
     "id": "w:铁杵磨成针:tie3chu3mo2cheng2zhen1",
@@ -367,7 +463,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "tiě chǔ mó chéng zhēn",
     "meaning": "Auch ein Eisenstab kann zu einer Nadel geschliffen werden (Ausdauer fuehrt zum Ziel)",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Ermutigung",
     "examples": [
       {
@@ -378,7 +474,9 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "铁杵磨成针|tiě chǔ mó chéng zhēn"
-    ]
+    ],
+    "evidenceNote": "compositional",
+    "traditional": "鐵杵磨成針"
   },
   {
     "id": "w:笨鸟先飞:ben4niao3xian1fei1",
@@ -386,7 +484,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "bèn niǎo xiān fēi",
     "meaning": "Der langsame Vogel fliegt zuerst los (Fleiss gleicht Schwaeche aus)",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Ermutigung",
     "examples": [
       {
@@ -397,7 +495,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "笨鸟先飞|bèn niǎo xiān fēi"
-    ]
+    ],
+    "traditional": "笨鳥先飛",
+    "evidence": {
+      "cedict": "笨鳥先飛 笨鸟先飞 [ben4 niao3 xian1 fei1]"
+    }
   },
   {
     "id": "w:只要功夫深，铁杵磨成针:zhi3yao4gong1fu5shen1tie3chu3mo2cheng2zhen1",
@@ -405,7 +507,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "zhǐ yào gōngfu shēn, tiě chǔ mó chéng zhēn",
     "meaning": "Mit genuegend Ausdauer kann selbst ein Eisenstab zur Nadel geschliffen werden",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Ermutigung",
     "examples": [
       {
@@ -416,7 +518,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "只要功夫深，铁杵磨成针|zhǐ yào gōngfu shēn, tiě chǔ mó chéng zhēn"
-    ]
+    ],
+    "traditional": "只要功夫深，鐵杵磨成針",
+    "evidence": {
+      "cedict": "只要功夫深，鐵杵磨成針 只要功夫深，铁杵磨成针 [zhi3 yao4 gong1 fu5 shen1 , tie3 chu3 mo2 cheng2 zhen1]"
+    }
   },
   {
     "id": "w:不经一事，不长一智:bu4jing1yi1shi4bu4zhang3yi1zhi4",
@@ -424,7 +530,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "bù jīng yī shì, bù zhǎng yī zhì",
     "meaning": "Ohne Erfahrung keine Weisheit",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Ermutigung",
     "examples": [
       {
@@ -435,7 +541,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "不经一事，不长一智|bù jīng yī shì, bù zhǎng yī zhì"
-    ]
+    ],
+    "traditional": "不經一事，不長一智",
+    "evidence": {
+      "cedict": "不經一事，不長一智 不经一事，不长一智 [bu4 jing1 yi1 shi4 , bu4 zhang3 yi1 zhi4]"
+    }
   },
   {
     "id": "w:绳锯木断，水滴石穿:sheng2ju4mu4duan4shui3di1shi2chuan1",
@@ -443,7 +553,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "shéng jù mù duàn, shuǐ dī shí chuān",
     "meaning": "Das Seil saegt Holz durch, Wasser hoehlt Stein (Beharrlichkeit fuehrt zum Ziel)",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Ermutigung",
     "examples": [
       {
@@ -454,7 +564,8 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "绳锯木断，水滴石穿|shéng jù mù duàn, shuǐ dī shí chuān"
-    ]
+    ],
+    "traditional": "繩鋸木斷，水滴石穿"
   },
   {
     "id": "w:天生我材必有用:tian1sheng1wo3cai2bi4you3yong4",
@@ -462,7 +573,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "tiān shēng wǒ cái bì yǒu yòng",
     "meaning": "Jeder Mensch hat seinen Nutzen (Der Himmel hat mich mit Talenten geboren, die gebraucht werden)",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Ermutigung",
     "examples": [
       {
@@ -473,7 +584,9 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "天生我材必有用|tiān shēng wǒ cái bì yǒu yòng"
-    ]
+    ],
+    "evidenceNote": "compositional",
+    "traditional": "天生我材必有用"
   },
   {
     "id": "w:宝剑锋从磨砺出，梅花香自苦寒来:bao3jian4feng1cong2mo2li4chu1mei2hua1xiang1zi4ku3han2lai2",
@@ -481,7 +594,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "bǎo jiàn fēng cóng mó lì chū, méi huā xiāng zì kǔ hán lái",
     "meaning": "Die Schaerfe des Schwertes kommt vom Schleifen, der Duft der Pflaumenblüte von der bitteren Kaelte",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Ermutigung",
     "examples": [
       {
@@ -492,7 +605,8 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "宝剑锋从磨砺出，梅花香自苦寒来|bǎo jiàn fēng cóng mó lì chū, méi huā xiāng zì kǔ hán lái"
-    ]
+    ],
+    "traditional": "寶劍鋒從磨礪出，梅花香自苦寒來"
   },
   {
     "id": "w:三个臭皮匠，赛过诸葛亮:san1ge4chou4pi2jiang4sai4guo4zhu1ge3liang4",
@@ -500,7 +614,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "sān gè chòu píjiàng, sài guò Zhūgě Liàng",
     "meaning": "Drei einfache Schuster uebertreffen einen Zhuge Liang (Gemeinsam ist man klueger)",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Warnung",
     "examples": [
       {
@@ -511,7 +625,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "三个臭皮匠，赛过诸葛亮|sān gè chòu píjiàng, sài guò Zhūgě Liàng"
-    ]
+    ],
+    "traditional": "三個臭皮匠，賽過諸葛亮",
+    "evidence": {
+      "cedict": "三個臭皮匠，賽過諸葛亮 三个臭皮匠，赛过诸葛亮 [san1 ge4 chou4 pi2 jiang5 , sai4 guo4 Zhu1 ge3 Liang4]"
+    }
   },
   {
     "id": "w:一失足成千古恨:yi1shi1zu2cheng2qian1gu3hen4",
@@ -519,7 +637,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "yī shī zú chéng qiān gǔ hèn",
     "meaning": "Ein Fehltritt fuehrt zu ewigem Bedauern",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Warnung",
     "examples": [
       {
@@ -530,7 +648,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "一失足成千古恨|yī shī zú chéng qiān gǔ hèn"
-    ]
+    ],
+    "traditional": "一失足成千古恨",
+    "evidence": {
+      "cedict": "一失足成千古恨 一失足成千古恨 [yi1 shi1 zu2 cheng2 qian1 gu3 hen4]"
+    }
   },
   {
     "id": "w:防人之心不可无:fang2ren2zhi1xin1bu4ke3wu2",
@@ -538,7 +660,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "fáng rén zhī xīn bù kě wú",
     "meaning": "Man sollte immer wachsam gegenueber anderen sein",
     "type": "Redewendung",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Warnung",
     "examples": [
       {
@@ -549,7 +671,9 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "防人之心不可无|fáng rén zhī xīn bù kě wú"
-    ]
+    ],
+    "evidenceNote": "compositional",
+    "traditional": "防人之心不可無"
   },
   {
     "id": "w:人不可貌相:ren2bu4ke3mao4xiang4",
@@ -557,7 +681,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "rén bù kě mào xiàng",
     "meaning": "Man soll einen Menschen nicht nach seinem Aeusseren beurteilen",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Warnung",
     "examples": [
       {
@@ -568,7 +692,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "人不可貌相|rén bù kě mào xiàng"
-    ]
+    ],
+    "traditional": "人不可貌相",
+    "evidence": {
+      "cedict": "人不可貌相 人不可貌相 [ren2 bu4 ke3 mao4 xiang4]"
+    }
   },
   {
     "id": "w:纸包不住火:zhi3bao1bu4zhu4huo3",
@@ -576,7 +704,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "zhǐ bāo bù zhù huǒ",
     "meaning": "Papier kann kein Feuer einwickeln (Die Wahrheit kommt immer ans Licht)",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Warnung",
     "examples": [
       {
@@ -587,7 +715,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "纸包不住火|zhǐ bāo bù zhù huǒ"
-    ]
+    ],
+    "traditional": "紙包不住火",
+    "evidence": {
+      "cedict": "紙包不住火 纸包不住火 [zhi3 bao1 bu5 zhu4 huo3]"
+    }
   },
   {
     "id": "w:聪明反被聪明误:cong1ming2fan3bei4cong1ming2wu4",
@@ -595,7 +727,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "cōngmíng fǎn bèi cōngmíng wù",
     "meaning": "Zu viel Klugheit kann einem schaden",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Warnung",
     "examples": [
       {
@@ -606,7 +738,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "聪明反被聪明误|cōngmíng fǎn bèi cōngmíng wù"
-    ]
+    ],
+    "traditional": "聰明反被聰明誤",
+    "evidence": {
+      "cedict": "聰明反被聰明誤 聪明反被聪明误 [cong1 ming2 fan3 bei4 cong1 ming2 wu4]"
+    }
   },
   {
     "id": "w:不听老人言，吃亏在眼前:bu4ting1lao3ren2yan2chi1kui1zai4yan3qian2",
@@ -614,7 +750,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "bù tīng lǎo rén yán, chī kuī zài yǎn qián",
     "meaning": "Wer nicht auf die Aelteren hoert, wird bald den Schaden haben",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Warnung",
     "examples": [
       {
@@ -625,7 +761,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "不听老人言，吃亏在眼前|bù tīng lǎo rén yán, chī kuī zài yǎn qián"
-    ]
+    ],
+    "traditional": "不聽老人言，吃虧在眼前",
+    "evidence": {
+      "cedict": "不聽老人言，吃虧在眼前 不听老人言，吃亏在眼前 [bu4 ting1 lao3 ren2 yan2 , chi1 kui1 zai4 yan3 qian2]"
+    }
   },
   {
     "id": "w:人心隔肚皮:ren2xin1ge2du4pi2",
@@ -633,7 +773,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "rén xīn gé dù pí",
     "meaning": "Das Herz eines Menschen ist durch die Bauchhaut verborgen (Man kann Menschen nicht durchschauen)",
     "type": "Redewendung",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Warnung",
     "examples": [
       {
@@ -644,7 +784,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "人心隔肚皮|rén xīn gé dù pí"
-    ]
+    ],
+    "traditional": "人心隔肚皮",
+    "evidence": {
+      "cedict": "人心隔肚皮 人心隔肚皮 [ren2 xin1 ge2 du4 pi2]"
+    }
   },
   {
     "id": "w:一言既出，驷马难追:yi1yan2ji4chu1si4ma3nan2zhui1",
@@ -652,7 +796,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "yī yán jì chū, sì mǎ nán zhuī",
     "meaning": "Ein gesprochenes Wort kann nicht einmal von vier Pferden eingeholt werden",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Warnung",
     "examples": [
       {
@@ -663,7 +807,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "一言既出，驷马难追|yī yán jì chū, sì mǎ nán zhuī"
-    ]
+    ],
+    "traditional": "一言既出，駟馬難追",
+    "evidence": {
+      "cedict": "一言既出，駟馬難追 一言既出，驷马难追 [yi1 yan2 ji4 chu1 , si4 ma3 nan2 zhui1]"
+    }
   },
   {
     "id": "w:杀鸡儆猴:sha1ji1jing3hou2",
@@ -671,7 +819,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "shā jī jǐng hóu",
     "meaning": "ein Huhn schlachten, um den Affen zu warnen (ein Exempel statuieren)",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Warnung",
     "examples": [
       {
@@ -687,7 +835,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "杀鸡儆猴|shā jī jǐng hóu"
-    ]
+    ],
+    "traditional": "殺雞儆猴",
+    "evidence": {
+      "cedict": "殺雞儆猴 杀鸡儆猴 [sha1 ji1 jing3 hou2]"
+    }
   },
   {
     "id": "w:事实胜于雄辩:shi4shi2sheng4yu2xiong2bian4",
@@ -695,7 +847,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "shìshí shèng yú xióngbiàn",
     "meaning": "Tatsachen sprechen lauter als Worte",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Sprichwort",
     "examples": [
       {
@@ -706,7 +858,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "事实胜于雄辩|shìshí shèng yú xióngbiàn"
-    ]
+    ],
+    "traditional": "事實勝於雄辯",
+    "evidence": {
+      "cedict": "事實勝於雄辯 事实胜于雄辩 [shi4 shi2 sheng4 yu2 xiong2 bian4]"
+    }
   },
   {
     "id": "w:眼见为实，耳听为虚:yan3jian4wei2shi2er3ting1wei2xu1",
@@ -714,7 +870,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "yǎn jiàn wéi shí, ěr tīng wéi xū",
     "meaning": "Was man sieht, ist wahr; was man hoert, ist unsicher",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Sprichwort",
     "examples": [
       {
@@ -725,7 +881,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "眼见为实，耳听为虚|yǎn jiàn wéi shí, ěr tīng wéi xū"
-    ]
+    ],
+    "traditional": "眼見為實，耳聽為虛",
+    "evidence": {
+      "cedict": "眼見為實，耳聽為虛 眼见为实，耳听为虚 [yan3 jian4 wei2 shi2 , er3 ting1 wei2 xu1]"
+    }
   },
   {
     "id": "w:说曹操，曹操到:shuo1cao2cao1cao2cao1dao4",
@@ -733,7 +893,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "shuō Cáo Cāo, Cáo Cāo dào",
     "meaning": "Wenn man vom Teufel spricht (wortl.: Spricht man von Cao Cao, kommt Cao Cao)",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Sprichwort",
     "examples": [
       {
@@ -744,7 +904,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "说曹操，曹操到|shuō Cáo Cāo, Cáo Cāo dào"
-    ]
+    ],
+    "traditional": "說曹操，曹操到",
+    "evidence": {
+      "cedict": "說曹操，曹操到 说曹操，曹操到 [shuo1 Cao2 Cao1 , Cao2 Cao1 dao4]"
+    }
   },
   {
     "id": "w:条条大路通罗马:tiao2tiao2da4lu4tong1luo2ma3",
@@ -752,7 +916,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "tiáo tiáo dà lù tōng Luómǎ",
     "meaning": "Alle Wege fuehren nach Rom",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Sprichwort",
     "examples": [
       {
@@ -763,26 +927,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "条条大路通罗马|tiáo tiáo dà lù tōng Luómǎ"
-    ]
-  },
-  {
-    "id": "w:揠苗助长:ya4miao2zhu4zhang3",
-    "word": "揠苗助长",
-    "pinyin": "yà miáo zhù zhǎng",
-    "meaning": "An den Setzlingen ziehen, damit sie schneller wachsen (durch Ungeduld Schaden anrichten)",
-    "type": "Redewendung",
-    "level": "HSK6",
-    "category": "Sprichwort",
-    "examples": [
-      {
-        "chinese": "教育孩子不能揠苗助长，要顺其自然。",
-        "pinyin": "Jiàoyù háizi bù néng yà miáo zhù zhǎng, yào shùn qí zìrán.",
-        "german": "Bei der Kindererziehung darf man nicht durch Ungeduld schaden, man muss der Natur ihren Lauf lassen."
-      }
     ],
-    "legacyIds": [
-      "揠苗助长|yà miáo zhù zhǎng"
-    ]
+    "traditional": "條條大路通羅馬",
+    "evidence": {
+      "cedict": "條條大路通羅馬 条条大路通罗马 [tiao2 tiao2 da4 lu4 tong1 Luo2 ma3]"
+    }
   },
   {
     "id": "w:滴水穿石:di1shui3chuan1shi2",
@@ -790,7 +939,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "dī shuǐ chuān shí",
     "meaning": "Stetig tropfendes Wasser hoehlt den Stein",
     "type": "Redewendung",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Sprichwort",
     "examples": [
       {
@@ -801,7 +950,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "滴水穿石|dī shuǐ chuān shí"
-    ]
+    ],
+    "traditional": "滴水穿石",
+    "evidence": {
+      "cedict": "滴水穿石 滴水穿石 [di1 shui3 chuan1 shi2]"
+    }
   },
   {
     "id": "w:一年之计在于春:yi1nian2zhi1ji4zai4yu2chun1",
@@ -809,7 +962,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "yī nián zhī jì zài yú chūn",
     "meaning": "Der Plan eines Jahres liegt im Fruehling (Man soll frueh mit der Planung beginnen)",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Natur",
     "examples": [
       {
@@ -820,7 +973,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "一年之计在于春|yī nián zhī jì zài yú chūn"
-    ]
+    ],
+    "traditional": "一年之計在於春",
+    "evidence": {
+      "cedict": "一年之計在於春 一年之计在于春 [yi1 nian2 zhi1 ji4 zai4 yu2 chun1]"
+    }
   },
   {
     "id": "w:春雨贵如油:chun1yu3gui4ru2you2",
@@ -828,7 +985,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "chūn yǔ guì rú yóu",
     "meaning": "Fruehlingsregen ist so kostbar wie Oel",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Natur",
     "examples": [
       {
@@ -839,7 +996,9 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "春雨贵如油|chūn yǔ guì rú yóu"
-    ]
+    ],
+    "evidenceNote": "compositional",
+    "traditional": "春雨貴如油"
   },
   {
     "id": "w:近水楼台先得月:jin4shui3lou2tai2xian1de2yue4",
@@ -847,7 +1006,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "jìn shuǐ lóu tái xiān dé yuè",
     "meaning": "Das Haus am Wasser sieht zuerst den Mond (Naehe verschafft Vorteile)",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Natur",
     "examples": [
       {
@@ -858,7 +1017,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "近水楼台先得月|jìn shuǐ lóu tái xiān dé yuè"
-    ]
+    ],
+    "traditional": "近水樓臺先得月",
+    "evidence": {
+      "cedict": "近水樓臺先得月 近水楼台先得月 [jin4 shui3 lou2 tai2 xian1 de2 yue4]"
+    }
   },
   {
     "id": "w:种瓜得瓜，种豆得豆:zhong4gua1de2gua1zhong4dou4de2dou4",
@@ -866,7 +1029,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "zhòng guā dé guā, zhòng dòu dé dòu",
     "meaning": "Wer Melonen saeht, erntet Melonen; wer Bohnen saeht, erntet Bohnen (Man erntet, was man saet)",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Natur",
     "examples": [
       {
@@ -877,7 +1040,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "种瓜得瓜，种豆得豆|zhòng guā dé guā, zhòng dòu dé dòu"
-    ]
+    ],
+    "traditional": "種瓜得瓜，種豆得豆",
+    "evidence": {
+      "cedict": "種瓜得瓜，種豆得豆 种瓜得瓜，种豆得豆 [zhong4 gua1 de2 gua1 , zhong4 dou4 de2 dou4]"
+    }
   },
   {
     "id": "w:大树底下好乘凉:da4shu4di3xia4hao3cheng2liang2",
@@ -885,7 +1052,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "dà shù dǐ xià hǎo chéng liáng",
     "meaning": "Unter einem grossen Baum laesst es sich gut im Schatten ruhen (Von Maechtigeren profitieren)",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Natur",
     "examples": [
       {
@@ -896,15 +1063,19 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "大树底下好乘凉|dà shù dǐ xià hǎo chéng liáng"
-    ]
+    ],
+    "traditional": "大樹底下好乘涼",
+    "evidence": {
+      "cedict": "大樹底下好乘涼 大树底下好乘凉 [da4 shu4 di3 xia4 hao3 cheng2 liang2]"
+    }
   },
   {
     "id": "w:风水轮流转:feng1shui3lun2liu2zhuan3",
     "word": "风水轮流转",
-    "pinyin": "fēngshuǐ lún liú zhuǎn",
+    "pinyin": "fēngshuǐ lún liú zhuàn",
     "meaning": "Das Glueck dreht sich im Kreis (Jedem laechelt einmal das Glueck)",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Natur",
     "examples": [
       {
@@ -915,7 +1086,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "风水轮流转|fēngshuǐ lún liú zhuǎn"
-    ]
+    ],
+    "traditional": "風水輪流轉",
+    "evidence": {
+      "cedict": "風水輪流轉 风水轮流转 [feng1 shui3 lun2 liu2 zhuan4]"
+    }
   },
   {
     "id": "w:树大招风:shu4da4zhao1feng1",
@@ -923,7 +1098,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "shù dà zhāo fēng",
     "meaning": "Ein grosser Baum zieht den Wind an (Beruemtheit zieht Kritik an)",
     "type": "Redewendung",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Natur",
     "examples": [
       {
@@ -934,7 +1109,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "树大招风|shù dà zhāo fēng"
-    ]
+    ],
+    "traditional": "樹大招風",
+    "evidence": {
+      "cedict": "樹大招風 树大招风 [shu4 da4 zhao1 feng1]"
+    }
   },
   {
     "id": "w:瑞雪兆丰年:rui4xue3zhao4feng1nian2",
@@ -942,7 +1121,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "ruì xuě zhào fēng nián",
     "meaning": "Gluecksschnee kuendigt ein gutes Erntejahr an",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Natur",
     "examples": [
       {
@@ -953,7 +1132,9 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "瑞雪兆丰年|ruì xuě zhào fēng nián"
-    ]
+    ],
+    "evidenceNote": "compositional",
+    "traditional": "瑞雪兆豐年"
   },
   {
     "id": "w:人往高处走，水往低处流:ren2wang3gao1chu4zou3shui3wang3di1chu4liu2",
@@ -961,7 +1142,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "rén wǎng gāo chù zǒu, shuǐ wǎng dī chù liú",
     "meaning": "Der Mensch strebt nach oben, das Wasser fliesst nach unten",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Natur",
     "examples": [
       {
@@ -972,15 +1153,19 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "人往高处走，水往低处流|rén wǎng gāo chù zǒu, shuǐ wǎng dī chù liú"
-    ]
+    ],
+    "traditional": "人往高處走，水往低處流",
+    "evidence": {
+      "cedict": "人往高處走，水往低處流 人往高处走，水往低处流 [ren2 wang3 gao1 chu4 zou3 , shui3 wang3 di1 chu4 liu2]"
+    }
   },
   {
     "id": "w:山不转水转:shan1bu4zhuan3shui3zhuan3",
     "word": "山不转水转",
-    "pinyin": "shān bù zhuǎn shuǐ zhuǎn",
+    "pinyin": "shān bù zhuàn shuǐ zhuàn",
     "meaning": "Wenn der Berg sich nicht dreht, dreht sich das Wasser (Es gibt immer einen Ausweg)",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Natur",
     "examples": [
       {
@@ -991,7 +1176,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "山不转水转|shān bù zhuǎn shuǐ zhuǎn"
-    ]
+    ],
+    "traditional": "山不轉水轉",
+    "evidence": {
+      "cedict": "山不轉水轉 山不转水转 [shan1 bu4 zhuan4 shui3 zhuan4]"
+    }
   },
   {
     "id": "w:花无百日红:hua1wu2bai3ri4hong2",
@@ -999,7 +1188,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "huā wú bǎi rì hóng",
     "meaning": "Keine Blume blueht hundert Tage lang (Nichts waehrt ewig)",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Natur",
     "examples": [
       {
@@ -1010,7 +1199,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "花无百日红|huā wú bǎi rì hóng"
-    ]
+    ],
+    "traditional": "花無百日紅",
+    "evidence": {
+      "cedict": "花無百日紅 花无百日红 [hua1 wu2 bai3 ri4 hong2]"
+    }
   },
   {
     "id": "w:有缘千里来相会:you3yuan2qian1li3lai2xiang1hui4",
@@ -1018,7 +1211,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "yǒu yuán qiān lǐ lái xiāng huì",
     "meaning": "Wenn das Schicksal es will, trifft man sich auch ueber tausend Meilen",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Beziehungen",
     "examples": [
       {
@@ -1029,7 +1222,9 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "有缘千里来相会|yǒu yuán qiān lǐ lái xiāng huì"
-    ]
+    ],
+    "evidenceNote": "compositional",
+    "traditional": "有緣千里來相會"
   },
   {
     "id": "w:一日夫妻百日恩:yi1ri4fu1qi1bai3ri4en1",
@@ -1037,7 +1232,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "yī rì fūqī bǎi rì ēn",
     "meaning": "Ein Tag Ehepaar, hundert Tage Gnade (eheliche Verbundenheit bleibt bestehen)",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Beziehungen",
     "examples": [
       {
@@ -1048,7 +1243,9 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "一日夫妻百日恩|yī rì fūqī bǎi rì ēn"
-    ]
+    ],
+    "evidenceNote": "compositional",
+    "traditional": "一日夫妻百日恩"
   },
   {
     "id": "w:远亲不如近邻:yuan3qin1bu4ru2jin4lin2",
@@ -1056,7 +1253,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "yuǎn qīn bù rú jìn lín",
     "meaning": "Ein ferner Verwandter ist weniger wert als ein naher Nachbar",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Beziehungen",
     "examples": [
       {
@@ -1067,7 +1264,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "远亲不如近邻|yuǎn qīn bù rú jìn lín"
-    ]
+    ],
+    "traditional": "遠親不如近鄰",
+    "evidence": {
+      "cedict": "遠親不如近鄰 远亲不如近邻 [yuan3 qin1 bu4 ru2 jin4 lin2]"
+    }
   },
   {
     "id": "w:患难见真情:huan4nan4jian4zhen1qing2",
@@ -1075,7 +1276,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "huàn nàn jiàn zhēn qíng",
     "meaning": "In der Not erkennt man wahre Freundschaft",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Beziehungen",
     "examples": [
       {
@@ -1086,7 +1287,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "患难见真情|huàn nàn jiàn zhēn qíng"
-    ]
+    ],
+    "traditional": "患難見真情",
+    "evidence": {
+      "cedict": "患難見真情 患难见真情 [huan4 nan4 jian4 zhen1 qing2]"
+    }
   },
   {
     "id": "w:知己知彼，百战百胜:zhi1ji3zhi1bi3bai3zhan4bai3sheng4",
@@ -1094,7 +1299,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "zhī jǐ zhī bǐ, bǎi zhàn bǎi shèng",
     "meaning": "Kenne dich selbst und den Feind, und du wirst hundert Schlachten gewinnen",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Beziehungen",
     "examples": [
       {
@@ -1105,7 +1310,8 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "知己知彼，百战百胜|zhī jǐ zhī bǐ, bǎi zhàn bǎi shèng"
-    ]
+    ],
+    "traditional": "知己知彼，百戰百勝"
   },
   {
     "id": "w:物以类聚，人以群分:wu4yi3lei4ju4ren2yi3qun2fen1",
@@ -1113,7 +1319,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "wù yǐ lèi jù, rén yǐ qún fēn",
     "meaning": "Gleich und gleich gesellt sich gern",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Beziehungen",
     "examples": [
       {
@@ -1124,7 +1330,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "物以类聚，人以群分|wù yǐ lèi jù, rén yǐ qún fēn"
-    ]
+    ],
+    "traditional": "物以類聚，人以群分",
+    "evidence": {
+      "cedict": "物以類聚，人以群分 物以类聚，人以群分 [wu4 yi3 lei4 ju4 , ren2 yi3 qun2 fen1]"
+    }
   },
   {
     "id": "w:酒逢知己千杯少:jiu3feng2zhi1ji3qian1bei1shao3",
@@ -1132,7 +1342,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "jiǔ féng zhījǐ qiān bēi shǎo",
     "meaning": "Beim Trinken mit einem Seelenfreund sind tausend Becher zu wenig",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Beziehungen",
     "examples": [
       {
@@ -1143,7 +1353,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "酒逢知己千杯少|jiǔ féng zhījǐ qiān bēi shǎo"
-    ]
+    ],
+    "traditional": "酒逢知己千杯少",
+    "evidence": {
+      "cedict": "酒逢知己千杯少 酒逢知己千杯少 [jiu3 feng2 zhi1 ji3 qian1 bei1 shao3]"
+    }
   },
   {
     "id": "w:近朱者赤，近墨者黑:jin4zhu1zhe3chi4jin4mo4zhe3hei1",
@@ -1151,7 +1365,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "jìn zhū zhě chì, jìn mò zhě hēi",
     "meaning": "Wer sich Zinnober naehert, wird rot; wer sich Tusche naehert, wird schwarz (Der Umgang praegt den Menschen)",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Beziehungen",
     "examples": [
       {
@@ -1162,7 +1376,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "近朱者赤，近墨者黑|jìn zhū zhě chì, jìn mò zhě hēi"
-    ]
+    ],
+    "traditional": "近朱者赤，近墨者黑",
+    "evidence": {
+      "cedict": "近朱者赤，近墨者黑 近朱者赤，近墨者黑 [jin4 zhu1 zhe3 chi4 , jin4 mo4 zhe3 hei1]"
+    }
   },
   {
     "id": "w:百年修得同船渡:bai3nian2xiu1de2tong2chuan2du4",
@@ -1170,7 +1388,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "bǎi nián xiū dé tóng chuán dù",
     "meaning": "Hundert Jahre Schicksal braucht es, um im selben Boot zu fahren (Jede Begegnung ist vorbestimmt)",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Beziehungen",
     "examples": [
       {
@@ -1181,7 +1399,9 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "百年修得同船渡|bǎi nián xiū dé tóng chuán dù"
-    ]
+    ],
+    "evidenceNote": "compositional",
+    "traditional": "百年修得同船渡"
   },
   {
     "id": "w:君子之交淡如水:jun1zi3zhi1jiao1dan4ru2shui3",
@@ -1189,7 +1409,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "jūnzǐ zhī jiāo dàn rú shuǐ",
     "meaning": "Die Freundschaft edler Menschen ist klar wie Wasser",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Beziehungen",
     "examples": [
       {
@@ -1200,7 +1420,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "君子之交淡如水|jūnzǐ zhī jiāo dàn rú shuǐ"
-    ]
+    ],
+    "traditional": "君子之交淡如水",
+    "evidence": {
+      "cedict": "君子之交淡如水 君子之交淡如水 [jun1 zi3 zhi1 jiao1 dan4 ru2 shui3]"
+    }
   },
   {
     "id": "w:在家靠父母，出门靠朋友:zai4jia1kao4fu4mu3chu1men2kao4peng2you3",
@@ -1208,7 +1432,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "zài jiā kào fùmǔ, chū mén kào péngyǒu",
     "meaning": "Zu Hause verlaesst man sich auf die Eltern, draussen auf die Freunde",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Beziehungen",
     "examples": [
       {
@@ -1219,7 +1443,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "在家靠父母，出门靠朋友|zài jiā kào fùmǔ, chū mén kào péngyǒu"
-    ]
+    ],
+    "traditional": "在家靠父母，出門靠朋友",
+    "evidence": {
+      "cedict": "在家靠父母，出門靠朋友 在家靠父母，出门靠朋友 [zai4 jia1 kao4 fu4 mu3 , chu1 men2 kao4 peng2 you5]"
+    }
   },
   {
     "id": "w:血浓于水:xue4nong2yu2shui3",
@@ -1227,7 +1455,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "xuè nóng yú shuǐ",
     "meaning": "Blut ist dicker als Wasser",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Beziehungen",
     "examples": [
       {
@@ -1238,7 +1466,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "血浓于水|xuè nóng yú shuǐ"
-    ]
+    ],
+    "traditional": "血濃於水",
+    "evidence": {
+      "cedict": "血濃於水 血浓于水 [xue4 nong2 yu2 shui3]"
+    }
   },
   {
     "id": "w:天下没有不散的宴席:tian1xia4mei2you3bu4san4de5yan4xi2",
@@ -1246,7 +1478,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "tiān xià méi yǒu bù sàn de yànxí",
     "meaning": "Kein Fest waehrt ewig (Jeder Abschied ist unvermeidlich)",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Beziehungen",
     "examples": [
       {
@@ -1257,7 +1489,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "天下没有不散的宴席|tiān xià méi yǒu bù sàn de yànxí"
-    ]
+    ],
+    "traditional": "天下沒有不散的宴席",
+    "evidence": {
+      "cedict": "天下沒有不散的宴席 天下没有不散的宴席 [tian1 xia4 mei2 you3 bu4 san4 de5 yan4 xi2]"
+    }
   },
   {
     "id": "w:道不同不相为谋:dao4bu4tong2bu4xiang1wei2mou2",
@@ -1265,7 +1501,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "dào bù tóng bù xiāng wéi móu",
     "meaning": "Wer verschiedene Wege geht, plant nicht gemeinsam",
     "type": "Redewendung",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Beziehungen",
     "examples": [
       {
@@ -1276,7 +1512,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "道不同不相为谋|dào bù tóng bù xiāng wéi móu"
-    ]
+    ],
+    "traditional": "道不同不相為謀",
+    "evidence": {
+      "cedict": "道不同不相為謀 道不同不相为谋 [dao4 bu4 tong2 bu4 xiang1 wei2 mou2]"
+    }
   },
   {
     "id": "w:冤家路窄:yuan1jia1lu4zhai3",
@@ -1284,7 +1524,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "yuānjiā lù zhǎi",
     "meaning": "Der Weg der Feinde ist schmal (Man trifft Feinde immer wieder)",
     "type": "Redewendung",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Beziehungen",
     "examples": [
       {
@@ -1295,7 +1535,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "冤家路窄|yuānjiā lù zhǎi"
-    ]
+    ],
+    "traditional": "冤家路窄",
+    "evidence": {
+      "cedict": "冤家路窄 冤家路窄 [yuan1 jia1 lu4 zhai3]"
+    }
   },
   {
     "id": "w:磨刀不误砍柴工:mo2dao1bu4wu4kan3chai2gong1",
@@ -1303,7 +1547,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "mó dāo bù wù kǎn chái gōng",
     "meaning": "Das Messer zu schaerfen kostet keine Holzfaellerzeit (Gute Vorbereitung spart Zeit)",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Arbeit",
     "examples": [
       {
@@ -1314,7 +1558,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "磨刀不误砍柴工|mó dāo bù wù kǎn chái gōng"
-    ]
+    ],
+    "traditional": "磨刀不誤砍柴工",
+    "evidence": {
+      "cedict": "磨刀不誤砍柴工 磨刀不误砍柴工 [mo2 dao1 bu4 wu4 kan3 chai2 gong1]"
+    }
   },
   {
     "id": "w:行行出状元:hang2hang2chu1zhuang4yuan2",
@@ -1322,7 +1570,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "háng háng chū zhuàngyuán",
     "meaning": "In jedem Beruf gibt es Meister",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Arbeit",
     "examples": [
       {
@@ -1333,7 +1581,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "行行出状元|háng háng chū zhuàngyuán"
-    ]
+    ],
+    "traditional": "行行出狀元",
+    "evidence": {
+      "cedict": "行行出狀元 行行出状元 [hang2 hang2 chu1 zhuang4 yuan2]"
+    }
   },
   {
     "id": "w:三百六十行，行行出状元:san1bai3liu4shi2hang2hang2hang2chu1zhuang4yuan2",
@@ -1341,7 +1593,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "sān bǎi liù shí háng, háng háng chū zhuàngyuán",
     "meaning": "In 360 Berufen gibt es ueberall Meister (Jeder Beruf hat seine Experten)",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Arbeit",
     "examples": [
       {
@@ -1352,7 +1604,8 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "三百六十行，行行出状元|sān bǎi liù shí háng, háng háng chū zhuàngyuán"
-    ]
+    ],
+    "traditional": "三百六十行，行行出狀元"
   },
   {
     "id": "w:隔行如隔山:ge2hang2ru2ge2shan1",
@@ -1360,7 +1613,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "gé háng rú gé shān",
     "meaning": "Ein anderer Beruf ist wie ein anderer Berg (Jede Branche hat ihre Feinheiten)",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Arbeit",
     "examples": [
       {
@@ -1371,7 +1624,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "隔行如隔山|gé háng rú gé shān"
-    ]
+    ],
+    "traditional": "隔行如隔山",
+    "evidence": {
+      "cedict": "隔行如隔山 隔行如隔山 [ge2 hang2 ru2 ge2 shan1]"
+    }
   },
   {
     "id": "w:巧妇难为无米之炊:qiao3fu4nan2wei2wu2mi3zhi1chui1",
@@ -1379,7 +1636,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "qiǎo fù nán wéi wú mǐ zhī chuī",
     "meaning": "Auch eine geschickte Frau kann ohne Reis nicht kochen (Ohne Mittel geht nichts)",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Arbeit",
     "examples": [
       {
@@ -1390,7 +1647,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "巧妇难为无米之炊|qiǎo fù nán wéi wú mǐ zhī chuī"
-    ]
+    ],
+    "traditional": "巧婦難為無米之炊",
+    "evidence": {
+      "cedict": "巧婦難為無米之炊 巧妇难为无米之炊 [qiao3 fu4 nan2 wei2 wu2 mi3 zhi1 chui1]"
+    }
   },
   {
     "id": "w:一寸光阴一寸金:yi1cun4guang1yin1yi1cun4jin1",
@@ -1398,7 +1659,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "yī cùn guāngyīn yī cùn jīn",
     "meaning": "Ein Zoll Zeit ist ein Zoll Gold (Zeit ist kostbar)",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Arbeit",
     "examples": [
       {
@@ -1409,7 +1670,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "一寸光阴一寸金|yī cùn guāngyīn yī cùn jīn"
-    ]
+    ],
+    "traditional": "一寸光陰一寸金",
+    "evidence": {
+      "cedict": "一寸光陰一寸金 一寸光阴一寸金 [yi1 cun4 guang1 yin1 yi1 cun4 jin1]"
+    }
   },
   {
     "id": "w:万事开头难:wan4shi4kai1tou2nan2",
@@ -1417,7 +1682,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "wàn shì kāi tóu nán",
     "meaning": "Aller Anfang ist schwer",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Arbeit",
     "examples": [
       {
@@ -1428,7 +1693,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "万事开头难|wàn shì kāi tóu nán"
-    ]
+    ],
+    "traditional": "萬事開頭難",
+    "evidence": {
+      "cedict": "萬事開頭難 万事开头难 [wan4 shi4 kai1 tou2 nan2]"
+    }
   },
   {
     "id": "w:台上一分钟，台下十年功:tai2shang4yi1fen1zhong1tai2xia4shi2nian2gong1",
@@ -1436,7 +1705,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "tái shàng yī fēn zhōng, tái xià shí nián gōng",
     "meaning": "Eine Minute auf der Buehne, zehn Jahre Uebung hinter der Buehne",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Arbeit",
     "examples": [
       {
@@ -1447,7 +1716,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "台上一分钟，台下十年功|tái shàng yī fēn zhōng, tái xià shí nián gōng"
-    ]
+    ],
+    "traditional": "臺上一分鐘，臺下十年功",
+    "evidence": {
+      "cedict": "臺上一分鐘，臺下十年功 台上一分钟，台下十年功 [tai2 shang4 yi1 fen1 zhong1 , tai2 xia4 shi2 nian2 gong1]"
+    }
   },
   {
     "id": "w:三天打鱼，两天晒网:san1tian1da3yu2liang3tian1shai4wang3",
@@ -1455,7 +1728,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "sān tiān dǎ yú, liǎng tiān shài wǎng",
     "meaning": "Drei Tage fischen, zwei Tage das Netz trocknen (ohne Ausdauer arbeiten)",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Arbeit",
     "examples": [
       {
@@ -1466,7 +1739,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "三天打鱼，两天晒网|sān tiān dǎ yú, liǎng tiān shài wǎng"
-    ]
+    ],
+    "traditional": "三天打魚，兩天曬網",
+    "evidence": {
+      "cedict": "三天打魚，兩天曬網 三天打鱼，两天晒网 [san1 tian1 da3 yu2 , liang3 tian1 shai4 wang3]"
+    }
   },
   {
     "id": "w:千军易得，一将难求:qian1jun1yi4de2yi1jiang4nan2qiu2",
@@ -1474,7 +1751,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "qiān jūn yì dé, yī jiàng nán qiú",
     "meaning": "Tausend Soldaten sind leicht zu bekommen, ein General schwer zu finden",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Arbeit",
     "examples": [
       {
@@ -1485,7 +1762,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "千军易得，一将难求|qiān jūn yì dé, yī jiàng nán qiú"
-    ]
+    ],
+    "traditional": "千軍易得，一將難求",
+    "evidence": {
+      "cedict": "千軍易得，一將難求 千军易得，一将难求 [qian1 jun1 yi4 de2 , yi1 jiang4 nan2 qiu2]"
+    }
   },
   {
     "id": "w:不怕慢，就怕站:bu4pa4man4jiu4pa4zhan4",
@@ -1493,7 +1774,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "bù pà màn, jiù pà zhàn",
     "meaning": "Nicht das Langsamsein ist zu fuerchten, sondern das Stehenbleiben",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Arbeit",
     "examples": [
       {
@@ -1504,7 +1785,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "不怕慢，就怕站|bù pà màn, jiù pà zhàn"
-    ]
+    ],
+    "traditional": "不怕慢，就怕站",
+    "evidence": {
+      "cedict": "不怕慢，就怕站 不怕慢，就怕站 [bu4 pa4 man4 , jiu4 pa4 zhan4]"
+    }
   },
   {
     "id": "w:名师出高徒:ming2shi1chu1gao1tu2",
@@ -1512,7 +1797,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "míng shī chū gāo tú",
     "meaning": "Ein guter Meister bildet gute Schueler aus",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Arbeit",
     "examples": [
       {
@@ -1523,7 +1808,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "名师出高徒|míng shī chū gāo tú"
-    ]
+    ],
+    "traditional": "名師出高徒",
+    "evidence": {
+      "cedict": "名師出高徒 名师出高徒 [ming2 shi1 chu1 gao1 tu2]"
+    }
   },
   {
     "id": "w:工欲善其事，必先利其器:gong1yu4shan4qi2shi4bi4xian1li4qi2qi4",
@@ -1531,7 +1820,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "gōng yù shàn qí shì, bì xiān lì qí qì",
     "meaning": "Wer seine Arbeit gut machen will, muss zuerst seine Werkzeuge schaerfen",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Arbeit",
     "examples": [
       {
@@ -1542,7 +1831,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "工欲善其事，必先利其器|gōng yù shàn qí shì, bì xiān lì qí qì"
-    ]
+    ],
+    "traditional": "工欲善其事，必先利其器",
+    "evidence": {
+      "cedict": "工欲善其事，必先利其器 工欲善其事，必先利其器 [gong1 yu4 shan4 qi2 shi4 , bi4 xian1 li4 qi2 qi4]"
+    }
   },
   {
     "id": "w:少壮不努力，老大徒伤悲:shao4zhuang4bu4nu3li4lao3da4tu2shang1bei1",
@@ -1550,7 +1843,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "shào zhuàng bù nǔlì, lǎo dà tú shāng bēi",
     "meaning": "Wer in der Jugend nicht fleissig ist, wird im Alter vergeblich trauern",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -1561,7 +1854,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "少壮不努力，老大徒伤悲|shào zhuàng bù nǔlì, lǎo dà tú shāng bēi"
-    ]
+    ],
+    "traditional": "少壯不努力，老大徒傷悲",
+    "evidence": {
+      "cedict": "少壯不努力，老大徒傷悲 少壮不努力，老大徒伤悲 [shao4 zhuang4 bu4 nu3 li4 , lao3 da4 tu2 shang1 bei1]"
+    }
   },
   {
     "id": "w:吃得苦中苦，方为人上人:chi1de5ku3zhong1ku3fang1wei2ren2shang4ren2",
@@ -1569,7 +1866,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "chī de kǔ zhōng kǔ, fāng wéi rén shàng rén",
     "meaning": "Nur wer die bittersten Leiden ertraegt, kann ueber anderen stehen",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -1580,7 +1877,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "吃得苦中苦，方为人上人|chī de kǔ zhōng kǔ, fāng wéi rén shàng rén"
-    ]
+    ],
+    "traditional": "吃得苦中苦，方為人上人",
+    "evidence": {
+      "cedict": "吃得苦中苦，方為人上人 吃得苦中苦，方为人上人 [chi1 de2 ku3 zhong1 ku3 , fang1 wei2 ren2 shang4 ren2]"
+    }
   },
   {
     "id": "w:天有不测风云:tian1you3bu4ce4feng1yun2",
@@ -1588,7 +1889,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "tiān yǒu bù cè fēngyún",
     "meaning": "Am Himmel gibt es unvorhersehbare Stuerme (Das Schicksal ist unberechenbar)",
     "type": "Redewendung",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -1599,7 +1900,9 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "天有不测风云|tiān yǒu bù cè fēngyún"
-    ]
+    ],
+    "evidenceNote": "compositional",
+    "traditional": "天有不測風雲"
   },
   {
     "id": "w:船到桥头自然直:chuan2dao4qiao2tou2zi4ran2zhi2",
@@ -1607,7 +1910,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "chuán dào qiáo tóu zìrán zhí",
     "meaning": "Wenn das Boot zur Bruecke kommt, wird es sich von selbst gerade ausrichten (Es wird sich schon alles fuegen)",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -1618,7 +1921,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "船到桥头自然直|chuán dào qiáo tóu zìrán zhí"
-    ]
+    ],
+    "traditional": "船到橋頭自然直",
+    "evidence": {
+      "cedict": "船到橋頭自然直 船到桥头自然直 [chuan2 dao4 qiao2 tou2 zi4 ran2 zhi2]"
+    }
   },
   {
     "id": "w:车到山前必有路:che1dao4shan1qian2bi4you3lu4",
@@ -1626,7 +1933,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "chē dào shān qián bì yǒu lù",
     "meaning": "Wenn der Wagen zum Berg kommt, findet sich ein Weg",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -1637,7 +1944,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "车到山前必有路|chē dào shān qián bì yǒu lù"
-    ]
+    ],
+    "traditional": "車到山前必有路",
+    "evidence": {
+      "cedict": "車到山前必有路 车到山前必有路 [che1 dao4 shan1 qian2 bi4 you3 lu4]"
+    }
   },
   {
     "id": "w:一山不容二虎:yi1shan1bu4rong2er4hu3",
@@ -1645,7 +1956,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "yī shān bù róng èr hǔ",
     "meaning": "Ein Berg duldet keine zwei Tiger (Zwei Starke koennen nicht koexistieren)",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -1656,7 +1967,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "一山不容二虎|yī shān bù róng èr hǔ"
-    ]
+    ],
+    "traditional": "一山不容二虎",
+    "evidence": {
+      "cedict": "一山不容二虎 一山不容二虎 [yi1 shan1 bu4 rong2 er4 hu3]"
+    }
   },
   {
     "id": "w:满招损，谦受益:man3zhao1sun3qian1shou4yi4",
@@ -1664,7 +1979,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "mǎn zhāo sǔn, qiān shòu yì",
     "meaning": "Hochmut bringt Schaden, Bescheidenheit bringt Nutzen",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -1675,7 +1990,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "满招损，谦受益|mǎn zhāo sǔn, qiān shòu yì"
-    ]
+    ],
+    "traditional": "滿招損，謙受益",
+    "evidence": {
+      "cedict": "滿招損，謙受益 满招损，谦受益 [man3 zhao1 sun3 , qian1 shou4 yi4]"
+    }
   },
   {
     "id": "w:不以规矩，不能成方圆:bu4yi3gui1ju3bu4neng2cheng2fang1yuan2",
@@ -1683,7 +2002,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "bù yǐ guījǔ, bù néng chéng fāng yuán",
     "meaning": "Ohne Zirkel und Winkelmass gibt es keine Kreise und Quadrate (Ohne Regeln keine Ordnung)",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -1694,7 +2013,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "不以规矩，不能成方圆|bù yǐ guījǔ, bù néng chéng fāng yuán"
-    ]
+    ],
+    "traditional": "不以規矩，不能成方圓",
+    "evidence": {
+      "cedict": "不以規矩，不能成方圓 不以规矩，不能成方圆 [bu4 yi3 gui1 ju5 , bu4 neng2 cheng2 fang1 yuan2]"
+    }
   },
   {
     "id": "w:良药苦口利于病:liang2yao4ku3kou3li4yu2bing4",
@@ -1702,7 +2025,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "liáng yào kǔ kǒu lì yú bìng",
     "meaning": "Gute Medizin schmeckt bitter (Ehrliche Worte sind schwer zu hoeren, aber nuetzlich)",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -1713,7 +2036,9 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "良药苦口利于病|liáng yào kǔ kǒu lì yú bìng"
-    ]
+    ],
+    "evidenceNote": "compositional",
+    "traditional": "良藥苦口利於病"
   },
   {
     "id": "w:忠言逆耳利于行:zhong1yan2ni4er3li4yu2xing2",
@@ -1721,7 +2046,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "zhōng yán nì ěr lì yú xíng",
     "meaning": "Aufrichtige Worte klingen unangenehm, nuetzen aber dem Handeln",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -1732,7 +2057,9 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "忠言逆耳利于行|zhōng yán nì ěr lì yú xíng"
-    ]
+    ],
+    "evidenceNote": "compositional",
+    "traditional": "忠言逆耳利於行"
   },
   {
     "id": "w:有理走遍天下:you3li3zou3bian4tian1xia4",
@@ -1740,7 +2067,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "yǒu lǐ zǒu biàn tiān xià",
     "meaning": "Wer Recht hat, kommt ueberall durch",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -1751,7 +2078,9 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "有理走遍天下|yǒu lǐ zǒu biàn tiān xià"
-    ]
+    ],
+    "evidenceNote": "compositional",
+    "traditional": "有理走遍天下"
   },
   {
     "id": "w:吃人家的嘴软，拿人家的手短:chi1ren2jia1de5zui3ruan3na2ren2jia1de5shou3duan3",
@@ -1759,7 +2088,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "chī rénjiā de zuǐ ruǎn, ná rénjiā de shǒu duǎn",
     "meaning": "Wer von anderen isst, wird mundweich; wer von anderen nimmt, wird kurzhaendig (Geschenke machen abhaengig)",
     "type": "Redewendung",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Lebensweisheit",
     "examples": [
       {
@@ -1770,7 +2099,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "吃人家的嘴软，拿人家的手短|chī rénjiā de zuǐ ruǎn, ná rénjiā de shǒu duǎn"
-    ]
+    ],
+    "traditional": "吃人家的嘴軟，拿人家的手短",
+    "evidence": {
+      "cedict": "吃人家的嘴軟，拿人家的手短 吃人家的嘴软，拿人家的手短 [chi1 ren2 jia1 de5 zui3 ruan3 , na2 ren2 jia1 de5 shou3 duan3]"
+    }
   },
   {
     "id": "w:明枪易躲，暗箭难防:ming2qiang1yi4duo3an4jian4nan2fang2",
@@ -1778,7 +2111,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "míng qiāng yì duǒ, àn jiàn nán fáng",
     "meaning": "Einem offenen Angriff kann man ausweichen, einem heimlichen Pfeil nur schwer",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Warnung",
     "examples": [
       {
@@ -1789,7 +2122,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "明枪易躲，暗箭难防|míng qiāng yì duǒ, àn jiàn nán fáng"
-    ]
+    ],
+    "traditional": "明槍易躲，暗箭難防",
+    "evidence": {
+      "cedict": "明槍易躲，暗箭難防 明枪易躲，暗箭难防 [ming2 qiang1 yi4 duo3 , an4 jian4 nan2 fang2]"
+    }
   },
   {
     "id": "w:好马不吃回头草:hao3ma3bu4chi1hui2tou2cao3",
@@ -1797,7 +2134,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "hǎo mǎ bù chī huí tóu cǎo",
     "meaning": "Ein gutes Pferd frisst kein Gras, ueber das es schon hinweggegangen ist (Geh nicht zurueck)",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Warnung",
     "examples": [
       {
@@ -1808,7 +2145,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "好马不吃回头草|hǎo mǎ bù chī huí tóu cǎo"
-    ]
+    ],
+    "traditional": "好馬不吃回頭草",
+    "evidence": {
+      "cedict": "好馬不吃回頭草 好马不吃回头草 [hao3 ma3 bu4 chi1 hui2 tou2 cao3]"
+    }
   },
   {
     "id": "w:早知今日，何必当初:zao3zhi1jin1ri4he2bi4dang1chu1",
@@ -1816,7 +2157,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "zǎo zhī jīn rì, hé bì dāng chū",
     "meaning": "Haette man gewusst, wie es heute ist, haette man es damals nicht getan",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Warnung",
     "examples": [
       {
@@ -1827,7 +2168,8 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "早知今日，何必当初|zǎo zhī jīn rì, hé bì dāng chū"
-    ]
+    ],
+    "traditional": "早知今日，何必當初"
   },
   {
     "id": "w:吃水不忘挖井人:chi1shui3bu4wang4wa1jing3ren2",
@@ -1835,7 +2177,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "chī shuǐ bù wàng wā jǐng rén",
     "meaning": "Wer Wasser trinkt, vergisst nicht den, der den Brunnen gegraben hat (Dankbarkeit bewahren)",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Ermutigung",
     "examples": [
       {
@@ -1846,7 +2188,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "吃水不忘挖井人|chī shuǐ bù wàng wā jǐng rén"
-    ]
+    ],
+    "traditional": "吃水不忘挖井人",
+    "evidence": {
+      "cedict": "吃水不忘挖井人 吃水不忘挖井人 [chi1 shui3 bu4 wang4 wa1 jing3 ren2]"
+    }
   },
   {
     "id": "w:书到用时方恨少:shu1dao4yong4shi2fang1hen4shao3",
@@ -1854,7 +2200,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "shū dào yòng shí fāng hèn shǎo",
     "meaning": "Erst wenn man Wissen braucht, bedauert man, zu wenig gelernt zu haben",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Ermutigung",
     "examples": [
       {
@@ -1865,7 +2211,9 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "书到用时方恨少|shū dào yòng shí fāng hèn shǎo"
-    ]
+    ],
+    "evidenceNote": "compositional",
+    "traditional": "書到用時方恨少"
   },
   {
     "id": "w:读万卷书，行万里路:du2wan4juan4shu1xing2wan4li3lu4",
@@ -1873,7 +2221,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "dú wàn juàn shū, xíng wàn lǐ lù",
     "meaning": "Lies zehntausend Buecher und geh zehntausend Meilen (Verbinde Theorie mit Praxis)",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Ermutigung",
     "examples": [
       {
@@ -1884,7 +2232,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "读万卷书，行万里路|dú wàn juàn shū, xíng wàn lǐ lù"
-    ]
+    ],
+    "traditional": "讀萬卷書，行萬里路",
+    "evidence": {
+      "cedict": "讀萬卷書，行萬里路 读万卷书，行万里路 [du2 wan4 juan4 shu1 , xing2 wan4 li3 lu4]"
+    }
   },
   {
     "id": "w:柳暗花明又一村:liu3an4hua1ming2you4yi1cun1",
@@ -1892,7 +2244,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "liǔ àn huā míng yòu yī cūn",
     "meaning": "Hinter dunklen Weiden und bunten Blumen liegt ein neues Dorf (Nach der Dunkelheit kommt das Licht)",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Natur",
     "examples": [
       {
@@ -1903,7 +2255,9 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "柳暗花明又一村|liǔ àn huā míng yòu yī cūn"
-    ]
+    ],
+    "evidenceNote": "compositional",
+    "traditional": "柳暗花明又一村"
   },
   {
     "id": "w:秋后算账:qiu1hou4suan4zhang4",
@@ -1911,7 +2265,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "qiū hòu suàn zhàng",
     "meaning": "Nach dem Herbst die Rechnung machen (Spaeter abrechnen)",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Natur",
     "examples": [
       {
@@ -1922,7 +2276,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "秋后算账|qiū hòu suàn zhàng"
-    ]
+    ],
+    "traditional": "秋後算賬",
+    "evidence": {
+      "cedict": "秋後算賬 秋后算账 [qiu1 hou4 suan4 zhang4]"
+    }
   },
   {
     "id": "w:冰冻三尺，非一日之寒:bing1dong4san1chi3fei1yi1ri4zhi1han2",
@@ -1930,7 +2288,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "bīng dòng sān chǐ, fēi yī rì zhī hán",
     "meaning": "Drei Fuss Eis entstehen nicht an einem einzigen kalten Tag (Probleme entstehen ueber laengere Zeit)",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Natur",
     "examples": [
       {
@@ -1941,7 +2299,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "冰冻三尺，非一日之寒|bīng dòng sān chǐ, fēi yī rì zhī hán"
-    ]
+    ],
+    "traditional": "冰凍三尺，非一日之寒",
+    "evidence": {
+      "cedict": "冰凍三尺，非一日之寒 冰冻三尺，非一日之寒 [bing1 dong4 san1 chi3 , fei1 yi1 ri4 zhi1 han2]"
+    }
   },
   {
     "id": "w:一个巴掌拍不响:yi1ge5ba1zhang5pai1bu4xiang3",
@@ -1949,7 +2311,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "yī ge bāzhang pāi bù xiǎng",
     "meaning": "Mit einer Hand allein kann man nicht klatschen (Es gehoeren immer zwei dazu)",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Beziehungen",
     "examples": [
       {
@@ -1960,7 +2322,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "一个巴掌拍不响|yī ge bāzhang pāi bù xiǎng"
-    ]
+    ],
+    "traditional": "一個巴掌拍不響",
+    "evidence": {
+      "cedict": "一個巴掌拍不響 一个巴掌拍不响 [yi1 ge5 ba1 zhang3 pai1 bu4 xiang3]"
+    }
   },
   {
     "id": "w:家丑不可外扬:jia1chou3bu4ke3wai4yang2",
@@ -1968,7 +2334,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "jiā chǒu bù kě wài yáng",
     "meaning": "Familiengeheimnisse soll man nicht nach draussen tragen",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Beziehungen",
     "examples": [
       {
@@ -1979,7 +2345,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "家丑不可外扬|jiā chǒu bù kě wài yáng"
-    ]
+    ],
+    "traditional": "家醜不可外揚",
+    "evidence": {
+      "cedict": "家醜不可外揚 家丑不可外扬 [jia1 chou3 bu4 ke3 wai4 yang2]"
+    }
   },
   {
     "id": "w:打虎亲兄弟，上阵父子兵:da3hu3qin1xiong1di4shang4zhen4fu4zi3bing1",
@@ -1987,7 +2357,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "dǎ hǔ qīn xiōngdì, shàng zhèn fùzǐ bīng",
     "meaning": "Zum Tigerjaegen braucht man echte Brueder, in die Schlacht zieht man mit Vater und Sohn",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Beziehungen",
     "examples": [
       {
@@ -1998,7 +2368,8 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "打虎亲兄弟，上阵父子兵|dǎ hǔ qīn xiōngdì, shàng zhèn fùzǐ bīng"
-    ]
+    ],
+    "traditional": "打虎親兄弟，上陣父子兵"
   },
   {
     "id": "w:天道酬勤:tian1dao4chou2qin2",
@@ -2006,7 +2377,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "tiān dào chóu qín",
     "meaning": "Der Himmel belohnt den Fleiss",
     "type": "Redewendung",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Arbeit",
     "examples": [
       {
@@ -2017,7 +2388,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "天道酬勤|tiān dào chóu qín"
-    ]
+    ],
+    "traditional": "天道酬勤",
+    "evidence": {
+      "cedict": "天道酬勤 天道酬勤 [tian1 dao4 chou2 qin2]"
+    }
   },
   {
     "id": "w:术业有专攻:shu4ye4you3zhuan1gong1",
@@ -2025,7 +2400,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "shù yè yǒu zhuān gōng",
     "meaning": "Jedes Fachgebiet hat seinen Spezialisten",
     "type": "Redewendung",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Arbeit",
     "examples": [
       {
@@ -2036,7 +2411,9 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "术业有专攻|shù yè yǒu zhuān gōng"
-    ]
+    ],
+    "evidenceNote": "compositional",
+    "traditional": "術業有專攻"
   },
   {
     "id": "w:师傅领进门，修行在个人:shi1fu5ling3jin4men2xiu1xing2zai4ge4ren2",
@@ -2044,7 +2421,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "shīfu lǐng jìn mén, xiūxíng zài gèrén",
     "meaning": "Der Meister fuehrt durch die Tuer, die Uebung liegt beim Einzelnen",
     "type": "Sprichwort",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Arbeit",
     "examples": [
       {
@@ -2055,7 +2432,8 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "师傅领进门，修行在个人|shīfu lǐng jìn mén, xiūxíng zài gèrén"
-    ]
+    ],
+    "traditional": "師傅領進門，修行在個人"
   },
   {
     "id": "w:打铁还需自身硬:da3tie3hai2xu1zi4shen1ying4",
@@ -2063,7 +2441,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "dǎ tiě hái xū zì shēn yìng",
     "meaning": "Wer Eisen schmieden will, muss selbst hart sein (Man braucht eigene Staerke)",
     "type": "Redewendung",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Arbeit",
     "examples": [
       {
@@ -2074,7 +2452,9 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "打铁还需自身硬|dǎ tiě hái xū zì shēn yìng"
-    ]
+    ],
+    "evidenceNote": "compositional",
+    "traditional": "打鐵還需自身硬"
   },
   {
     "id": "w:干一行，爱一行:gan4yi1hang2ai4yi1hang2",
@@ -2082,7 +2462,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "gàn yī háng, ài yī háng",
     "meaning": "Was man tut, soll man lieben (Berufung in jeder Arbeit finden)",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Arbeit",
     "examples": [
       {
@@ -2093,7 +2473,8 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "干一行，爱一行|gàn yī háng, ài yī háng"
-    ]
+    ],
+    "traditional": "幹一行，愛一行"
   },
   {
     "id": "w:骑虎难下:qi2hu3nan2xia4",
@@ -2101,7 +2482,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "qí hǔ nán xià",
     "meaning": "Wer auf dem Tiger reitet, kann schwer absteigen (in einer schwierigen Lage stecken)",
     "type": "Redewendung",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Sprichwort",
     "examples": [
       {
@@ -2112,7 +2493,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "骑虎难下|qí hǔ nán xià"
-    ]
+    ],
+    "traditional": "騎虎難下",
+    "evidence": {
+      "cedict": "騎虎難下 骑虎难下 [qi2 hu3 nan2 xia4]"
+    }
   },
   {
     "id": "w:瓜田不纳履，李下不整冠:gua1tian2bu4na4lv3li3xia4bu4zheng3guan1",
@@ -2120,7 +2505,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "guā tián bù nà lǚ, lǐ xià bù zhěng guān",
     "meaning": "Im Melonenfeld buecke dich nicht, unter dem Pflaumenbaum richte den Hut nicht (Vermeide den Anschein des Boesen)",
     "type": "Sprichwort",
-    "level": "HSK6",
+    "level": "Zusatz",
     "category": "Sprichwort",
     "examples": [
       {
@@ -2131,7 +2516,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "瓜田不纳履，李下不整冠|guā tián bù nà lǚ, lǐ xià bù zhěng guān"
-    ]
+    ],
+    "traditional": "瓜田不納履，李下不整冠",
+    "evidence": {
+      "cedict": "瓜田不納履，李下不整冠 瓜田不纳履，李下不整冠 [gua1 tian2 bu4 na4 lu:3 , li3 xia4 bu4 zheng3 guan1]"
+    }
   },
   {
     "id": "w:鸡蛋里挑骨头:ji1dan4li3tiao1gu3tou5",
@@ -2139,7 +2528,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "jīdàn lǐ tiāo gǔtou",
     "meaning": "Knochen im Ei suchen (ein Haar in der Suppe suchen)",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Sprichwort",
     "examples": [
       {
@@ -2150,7 +2539,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "鸡蛋里挑骨头|jīdàn lǐ tiāo gǔtou"
-    ]
+    ],
+    "traditional": "雞蛋裡挑骨頭",
+    "evidence": {
+      "cedict": "雞蛋裡挑骨頭 鸡蛋里挑骨头 [ji1 dan4 li5 tiao1 gu3 tou5]"
+    }
   },
   {
     "id": "w:有眼不识泰山:you3yan3bu4shi2tai4shan1",
@@ -2158,7 +2551,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "yǒu yǎn bù shí Tài Shān",
     "meaning": "Augen haben und den Berg Tai nicht erkennen (eine wichtige Person nicht erkennen)",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Sprichwort",
     "examples": [
       {
@@ -2169,7 +2562,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "有眼不识泰山|yǒu yǎn bù shí Tài Shān"
-    ]
+    ],
+    "traditional": "有眼不識泰山",
+    "evidence": {
+      "cedict": "有眼不識泰山 有眼不识泰山 [you3 yan3 bu4 shi2 Tai4 Shan1]"
+    }
   },
   {
     "id": "w:虎头蛇尾:hu3tou2she2wei3",
@@ -2177,7 +2574,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "hǔ tóu shé wěi",
     "meaning": "Tigerkopf, Schlangenschwanz (stark anfangen, schwach aufhoeren)",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Sprichwort",
     "examples": [
       {
@@ -2188,7 +2585,11 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "虎头蛇尾|hǔ tóu shé wěi"
-    ]
+    ],
+    "traditional": "虎頭蛇尾",
+    "evidence": {
+      "cedict": "虎頭蛇尾 虎头蛇尾 [hu3 tou2 she2 wei3]"
+    }
   },
   {
     "id": "w:三思而后行:san1si1er2hou4xing2",
@@ -2196,7 +2597,7 @@ window.REDEWENDUNGEN_DATA = [
     "pinyin": "sān sī ér hòu xíng",
     "meaning": "Dreimal nachdenken, bevor man handelt",
     "type": "Redewendung",
-    "level": "HSK5",
+    "level": "Zusatz",
     "category": "Sprichwort",
     "examples": [
       {
@@ -2207,6 +2608,10 @@ window.REDEWENDUNGEN_DATA = [
     ],
     "legacyIds": [
       "三思而后行|sān sī ér hòu xíng"
-    ]
+    ],
+    "traditional": "三思而後行",
+    "evidence": {
+      "cedict": "三思而後行 三思而后行 [san1 si1 er2 hou4 xing2]"
+    }
   }
 ];

@@ -83,13 +83,29 @@ function splitsIntoWords(word) {
   }
   return !!reachable[chars.length];
 }
+// CC-CEDICT capitalises proper names (书 [Shu1] = 书经); common-word readings come first.
+const isProperName = entry => /^[A-Z]/.test(entry.pinyin);
+function cedictReadings(word, key) {
+  const list = (cedict.get(word) || []).slice().sort((a, b) => isProperName(a) - isProperName(b));
+  const exact = list.filter(e => e.key === key);
+  return exact.length ? exact : list.filter(e => sameReading(e.key, key));
+}
 function cedictReading(word, key) {
-  const list = cedict.get(word) || [];
-  return list.find(e => e.key === key) || list.find(e => sameReading(e.key, key)) || null;
+  return cedictReadings(word, key)[0] || null;
+}
+// Measure words of all common-word entries with this reading (书: 本, 册, 部).
+function classifiersFor(word, key) {
+  const seen = new Set(), result = [];
+  for (const entry of cedictReadings(word, key).filter(e => !isProperName(e))) {
+    for (const cl of entry.classifiers) if (!seen.has(cl.word)) { seen.add(cl.word); result.push(cl); }
+  }
+  return result;
 }
 
 // --- Report -------------------------------------------------------------------------------------
-const report = { matched: 0, newWords: [], zusatz: [], retired: [], pinyinChanged: [], cedictDisagrees: [], traditionalFallback: [],
+const GLOSS_FILE = path.join(__dirname, 'draft-glosses.json');
+const authoredGlosses = fs.existsSync(GLOSS_FILE) ? JSON.parse(fs.readFileSync(GLOSS_FILE, 'utf8')) : {};
+const report = { noGlossDetails: [], matched: 0, newWords: [], zusatz: [], retired: [], pinyinChanged: [], cedictDisagrees: [], traditionalFallback: [],
   traditionalMissing: [], noGloss: [], misfiledGrammar: [], homographNew: [] };
 
 // --- Matching -----------------------------------------------------------------------------------
@@ -195,7 +211,8 @@ function dictionaryFields(word, key) {
   const reading = cedictReading(word, key);
   if (reading) {
     fields.traditional = reading.traditional;
-    if (reading.classifiers.length) fields.measureWords = reading.classifiers;
+    const classifiers = classifiersFor(word, key);
+    if (classifiers.length) fields.measureWords = classifiers;
     fields.evidence = { cedict: reading.traditional + ' ' + reading.simplified + ' [' + reading.pinyin + ']' };
   } else {
     fields.traditional = toTraditional(word);
@@ -283,6 +300,13 @@ for (const entry of entries) {
       }
     }
     Object.assign(item, dictionaryFields(item.word, numeric(item.pinyin, item.word)));
+    // The word is in CC-CEDICT under another reading (T恤, 箪食壶浆 sì/shí): keep the dictionary
+    // evidence and its traditional form, and flag the reading for review.
+    if (known && !item.evidence) {
+      const first = readings[0];
+      item.traditional = first.traditional;
+      item.evidence = { cedict: readings.map(e => e.traditional + ' ' + e.simplified + ' [' + e.pinyin + ']').join(' | '), readingDiffers: true };
+    }
     report.zusatz.push(item.word + ' ' + item.pinyin + (known ? '' : ' (' + entry.source + ', not in CC-CEDICT)'));
     push(entry.source === 'level' ? fileForLevel('Zusatz') : entry.file, item);
     continue;
@@ -300,12 +324,20 @@ for (const row of syllabus) {
   let id = 'w:' + row.word + ':' + fields.key;
   if (ids.has(id)) { let n = 2; while (ids.has(id + '#' + n)) n++; id = id + '#' + n; report.homographNew.push(row.word + row.homograph); }
   ids.add(id);
-  const gloss = draftGloss(row.word, fields.key);
-  if (!gloss) report.noGloss.push(row.word + ' ' + row.pinyin);
+  // HanDeDict first; words it lacks get an authored draft gloss (scripts/hsk2025/draft-glosses.json).
+  const glossKey = row.word + '|' + row.pinyin;
+  let gloss = draftGloss(row.word, fields.key), glossSource = 'HanDeDict';
+  if (!gloss && authoredGlosses[glossKey]) { gloss = authoredGlosses[glossKey]; glossSource = 'Entwurf (Claude)'; }
+  if (!gloss) {
+    report.noGloss.push(row.word + ' ' + row.pinyin);
+    const english = (cedict.get(row.word) || []).filter(e => sameReading(e.key, fields.key)).flatMap(e => e.senses).filter(x => !/^CL:/.test(x));
+    report.noGlossDetails.push({ key: glossKey, word: row.word, pinyin: row.pinyin, level: row.level, pos: row.pos, english: english.slice(0, 6) });
+  }
   const item = { id, word: row.word, pinyin: fields.pinyin };
   if (fields.pinyinSpoken) item.pinyinSpoken = fields.pinyinSpoken;
   if (fields.pinyinAlt) item.pinyinAlt = fields.pinyinAlt;
-  Object.assign(item, { meaning: gloss || 'Bedeutung folgt', meaningStatus: 'draft', meaningSource: 'HanDeDict', type: typeFor(row) });
+  Object.assign(item, { meaning: gloss || 'Bedeutung folgt', meaningStatus: 'draft', meaningSource: gloss ? glossSource : null, type: typeFor(row) });
+  if (!item.meaningSource) delete item.meaningSource;
   applySyllabus(item, row);
   item.examples = [];
   Object.assign(item, dictionaryFields(row.word, fields.key));
@@ -342,7 +374,7 @@ const md = [
   '',
   '| | Count |', '|---|---|',
   '| Syllabus rows matched to existing entries | ' + report.matched + ' |',
-  '| New syllabus words (draft gloss from HanDeDict) | ' + report.newWords.length + ' |',
+  '| New syllabus words (draft gloss: HanDeDict or authored) | ' + report.newWords.length + ' |',
   '| Existing entries outside the syllabus → Zusatz | ' + report.zusatz.length + ' |',
   '| Retired entries | ' + report.retired.length + ' |',
   '| Pinyin corrected to the syllabus | ' + report.pinyinChanged.length + ' |',
@@ -368,6 +400,8 @@ const md = [
   '## Traditional form from OpenCC (sample)', sample(report.traditionalFallback), ''
 ].join('\n');
 fs.writeFileSync(path.join(__dirname, 'relevel-report.md'), md);
+fs.mkdirSync(path.join(ROOT, '.content-cache', 'hsk2025'), { recursive: true });
+fs.writeFileSync(path.join(ROOT, '.content-cache', 'hsk2025', 'no-gloss.json'), JSON.stringify(report.noGlossDetails, null, 1));
 
 if (!DRY_RUN) {
   const header = '// Zhongwen Explorer vocabulary source (HSK 2025 re-levelling, scripts/hsk2025/relevel.cjs). ';

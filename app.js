@@ -170,8 +170,8 @@
       message: 'Lade Vokabel-Daten...',
       hydrate: function () {
         var items = [];
-        profile.levels.forEach(function (level) {
-          items = items.concat(window['VOCAB_' + level.replace('-', '_')] || []);
+        profile.levels.concat([profile.extraLevel]).forEach(function (level) {
+          items = items.concat(window['VOCAB_' + level.replace('-', '_').toUpperCase()] || []);
         });
         items = items.concat(window.CHENGYU_DATA || [], window.REDEWENDUNGEN_DATA || []);
         migrateLegacyBookmarks('vocab', items);

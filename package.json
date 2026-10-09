@@ -12,7 +12,8 @@
     "test:ui": "node scripts/ui-test.js",
     "test:contrast": "node scripts/contrast-test.js",
     "fetch:sources": "node scripts/fetch-sources.cjs",
-    "parse:syllabus": "node scripts/hsk2025/parse-syllabus.cjs && node scripts/hsk2025/parse-characters.cjs"
+    "parse:syllabus": "node scripts/hsk2025/parse-syllabus.cjs && node scripts/hsk2025/parse-characters.cjs",
+    "audit:hsk2025": "node scripts/audit-hsk2025.cjs"
   },
   "devDependencies": {
     "jsdom": "^26.1.0",

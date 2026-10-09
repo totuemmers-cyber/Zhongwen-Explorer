@@ -13,7 +13,8 @@ const CHECKS = Object.freeze([
   'test:pinyin',
   'test:storage',
   'test:contrast',
-  'audit:data'
+  'audit:data',
+  'audit:hsk2025'
 ]);
 const FULL_CHECKS = Object.freeze([]);
 const defaultJobs = () => Math.min(3, os.availableParallelism(), os.freemem() < 4 * 1024 ** 3 ? 1 : 3);
