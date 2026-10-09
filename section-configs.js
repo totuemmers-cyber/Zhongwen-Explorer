@@ -185,26 +185,11 @@ function renderToneSVG(toneNum) {
     '</div>';
 }
 
-// Color each syllable in a pinyin string by its tone
-function renderToneColoredPinyin(pinyin) {
+// Color each syllable in a pinyin string by its tone; unspaced words (bāngzhù) are
+// segmented, using the headword's character count to resolve ambiguous runs.
+function renderToneColoredPinyin(pinyin, word) {
   if (!pinyin) return '';
-  var toneMarks = {
-    'ā': 1, 'á': 2, 'ǎ': 3, 'à': 4,
-    'ē': 1, 'é': 2, 'ě': 3, 'è': 4,
-    'ī': 1, 'í': 2, 'ǐ': 3, 'ì': 4,
-    'ō': 1, 'ó': 2, 'ǒ': 3, 'ò': 4,
-    'ū': 1, 'ú': 2, 'ǔ': 3, 'ù': 4,
-    'ǖ': 1, 'ǘ': 2, 'ǚ': 3, 'ǜ': 4
-  };
-  // Split pinyin into syllables (space-separated)
-  var syllables = pinyin.split(/\s+/);
-  return syllables.map(function (syl) {
-    var tone = 5; // default neutral
-    for (var i = 0; i < syl.length; i++) {
-      if (toneMarks[syl[i]]) { tone = toneMarks[syl[i]]; break; }
-    }
-    return '<span class="tone-' + tone + '">' + syl + '</span>';
-  }).join(' ');
+  return Pinyin.colorize(pinyin, word);
 }
 
 function renderExamplesOrEmpty(elementId, examples) {
@@ -300,16 +285,16 @@ SECTION_CONFIGS['hanzi'] = {
     // Search
     if (!query) return true;
     if (item.hanzi.indexOf(query) !== -1) return true;
-    if (item.pinyin && item.pinyin.toLowerCase().indexOf(query) !== -1) return true;
+    if (Pinyin.matchesPinyin(item.pinyin, query)) return true;
     for (var m = 0; m < item.meanings.length; m++) {
-      if (item.meanings[m].toLowerCase().indexOf(query) !== -1) return true;
+      if (Pinyin.matchesText(item.meanings[m], query)) return true;
     }
     if (item.examples) {
       for (var e = 0; e < item.examples.length; e++) {
         var ex = item.examples[e];
         if (ex.word && ex.word.indexOf(query) !== -1) return true;
-        if (ex.pinyin && ex.pinyin.toLowerCase().indexOf(query) !== -1) return true;
-        if (ex.meaning && ex.meaning.toLowerCase().indexOf(query) !== -1) return true;
+        if (Pinyin.matchesPinyin(ex.pinyin, query)) return true;
+        if (Pinyin.matchesText(ex.meaning, query)) return true;
       }
     }
     return false;
@@ -455,16 +440,16 @@ SECTION_CONFIGS['grammar'] = {
     if (filters.level !== 'all' && item.level !== filters.level) return false;
     if (filters.category !== 'all' && item.category !== filters.category) return false;
     if (!query) return true;
-    if (item.pattern.toLowerCase().indexOf(query) !== -1) return true;
-    if (item.meaning && item.meaning.toLowerCase().indexOf(query) !== -1) return true;
-    if (item.explanation && item.explanation.toLowerCase().indexOf(query) !== -1) return true;
-    if (item.formation && item.formation.toLowerCase().indexOf(query) !== -1) return true;
+    if (Pinyin.matchesText(item.pattern, query)) return true;
+    if (Pinyin.matchesText(item.meaning, query)) return true;
+    if (Pinyin.matchesText(item.explanation, query)) return true;
+    if (Pinyin.matchesText(item.formation, query)) return true;
     if (item.examples) {
       for (var i = 0; i < item.examples.length; i++) {
         var ex = item.examples[i];
-        if (ex.chinese && ex.chinese.toLowerCase().indexOf(query) !== -1) return true;
-        if (ex.german && ex.german.toLowerCase().indexOf(query) !== -1) return true;
-        if (ex.pinyin && ex.pinyin.toLowerCase().indexOf(query) !== -1) return true;
+        if (Pinyin.matchesText(ex.chinese, query)) return true;
+        if (Pinyin.matchesText(ex.german, query)) return true;
+        if (Pinyin.matchesPinyin(ex.pinyin, query)) return true;
       }
     }
     return false;
@@ -601,7 +586,7 @@ SECTION_CONFIGS['vocab'] = {
     if (filters.type !== 'all' && item.type !== filters.type) return false;
     if (filters.tone !== 'all') {
       var targetTone = parseInt(filters.tone, 10);
-      var syllables = (item.pinyin || '').split(/[\s,]+/);
+      var syllables = Pinyin.segment(item.pinyin, item.word);
       var hasTone = false;
       for (var t = 0; t < syllables.length; t++) {
         if (window.ToneUtils && window.ToneUtils.detectTone(syllables[t]) === targetTone) {
@@ -612,9 +597,9 @@ SECTION_CONFIGS['vocab'] = {
     }
     if (!query) return true;
     if (item.word && item.word.indexOf(query) !== -1) return true;
-    if (item.pinyin && item.pinyin.toLowerCase().indexOf(query) !== -1) return true;
-    if (item.meaning && item.meaning.toLowerCase().indexOf(query) !== -1) return true;
-    if (item.category && item.category.toLowerCase().indexOf(query) !== -1) return true;
+    if (Pinyin.matchesPinyin(item.pinyin, query)) return true;
+    if (Pinyin.matchesText(item.meaning, query)) return true;
+    if (Pinyin.matchesText(item.category, query)) return true;
     return false;
   },
   sortFn: function (items, sortKey) {
@@ -639,7 +624,7 @@ SECTION_CONFIGS['vocab'] = {
     // Special Chengyu card with 2x2 character grid
     if (item.type === 'Chengyu' && item.word && item.word.length === 4) {
       var chars = item.word.split('');
-      var syllables = (item.pinyin || '').split(/\s+/);
+      var syllables = Pinyin.segment(item.pinyin, item.word);
       var charGridHtml = '<div class="chengyu-char-grid">';
       for (var c = 0; c < 4; c++) {
         var syl = syllables[c] || '';
@@ -668,7 +653,7 @@ SECTION_CONFIGS['vocab'] = {
         '<span class="card-level-inline ' + item.level + '">' + (item.level || '') + '</span>' +
       '</div>' +
       '<span class="vocab-card-word">' + (item.word || '') + '</span>' +
-      '<div class="vocab-card-reading">' + renderToneColoredPinyin(item.pinyin) + '</div>' +
+      '<div class="vocab-card-reading">' + renderToneColoredPinyin(item.pinyin, item.word) + '</div>' +
       '<div class="vocab-card-meaning">' + (item.meaning || '') + '</div>',
       index, section, itemId);
   },
@@ -694,7 +679,7 @@ SECTION_CONFIGS['vocab'] = {
     typeBadge.textContent = item.type;
     typeBadge.className = 'vocab-type-badge ' + (item.type || '');
 
-    document.getElementById('vocab-detail-pinyin').innerHTML = renderToneColoredPinyin(item.pinyin);
+    document.getElementById('vocab-detail-pinyin').innerHTML = renderToneColoredPinyin(item.pinyin, item.word);
     document.getElementById('vocab-detail-meaning').textContent = item.meaning || '';
 
     var catLine = document.getElementById('vocab-detail-category-line');
@@ -705,7 +690,7 @@ SECTION_CONFIGS['vocab'] = {
     var chengyuBreakdown = document.getElementById('vocab-detail-chengyu-breakdown');
     if (item.type === 'Chengyu' && item.word && chengyuSection) {
       var cChars = item.word.split('');
-      var cSyllables = (item.pinyin || '').split(/\s+/);
+      var cSyllables = Pinyin.segment(item.pinyin, item.word);
       var cLookup = getHanziByChar();
       var breakdownHtml = '<div class="chengyu-breakdown">';
       for (var ci = 0; ci < cChars.length; ci++) {
@@ -788,15 +773,15 @@ SECTION_CONFIGS['onomatopoeia'] = {
     if (filters.pattern !== 'all' && item.pattern !== filters.pattern) return false;
     if (!query) return true;
     if (item.word && item.word.indexOf(query) !== -1) return true;
-    if (item.pinyin && item.pinyin.toLowerCase().indexOf(query) !== -1) return true;
-    if (item.meaning && item.meaning.toLowerCase().indexOf(query) !== -1) return true;
-    if (item.explanation && item.explanation.toLowerCase().indexOf(query) !== -1) return true;
+    if (Pinyin.matchesPinyin(item.pinyin, query)) return true;
+    if (Pinyin.matchesText(item.meaning, query)) return true;
+    if (Pinyin.matchesText(item.explanation, query)) return true;
     if (item.examples) {
       for (var i = 0; i < item.examples.length; i++) {
         var ex = item.examples[i];
-        if (ex.chinese && ex.chinese.toLowerCase().indexOf(query) !== -1) return true;
-        if (ex.german && ex.german.toLowerCase().indexOf(query) !== -1) return true;
-        if (ex.pinyin && ex.pinyin.toLowerCase().indexOf(query) !== -1) return true;
+        if (Pinyin.matchesText(ex.chinese, query)) return true;
+        if (Pinyin.matchesText(ex.german, query)) return true;
+        if (Pinyin.matchesPinyin(ex.pinyin, query)) return true;
       }
     }
     return false;
@@ -929,8 +914,8 @@ SECTION_CONFIGS['measurewords'] = {
     if (filters.category !== 'all' && item.category !== filters.category) return false;
     if (!query) return true;
     if (item.classifier && item.classifier.indexOf(query) !== -1) return true;
-    if (item.pinyin && item.pinyin.toLowerCase().indexOf(query) !== -1) return true;
-    if (item.meaning && item.meaning.toLowerCase().indexOf(query) !== -1) return true;
+    if (Pinyin.matchesPinyin(item.pinyin, query)) return true;
+    if (Pinyin.matchesText(item.meaning, query)) return true;
     return false;
   },
   sortFn: function (items) {
@@ -1058,10 +1043,10 @@ SECTION_CONFIGS['radicals'] = {
     }
     if (!query) return true;
     if (item.radical.indexOf(query) !== -1) return true;
-    if (item.meaning && item.meaning.toLowerCase().indexOf(query) !== -1) return true;
-    if (item.pinyin && item.pinyin.toLowerCase().indexOf(query) !== -1) return true;
+    if (Pinyin.matchesText(item.meaning, query)) return true;
+    if (Pinyin.matchesPinyin(item.pinyin, query)) return true;
     if (item.number && ('' + item.number).indexOf(query) !== -1) return true;
-    if (item.explanation && item.explanation.toLowerCase().indexOf(query) !== -1) return true;
+    if (Pinyin.matchesText(item.explanation, query)) return true;
     return false;
   },
   sortFn: function (items) {

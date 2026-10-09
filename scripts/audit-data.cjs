@@ -14,7 +14,7 @@ const errors = [];
 const fail = (message, samples = []) => errors.push(message + (samples.length ? '\n  e.g. ' + samples.slice(0, 5).join('\n  e.g. ') : ''));
 
 // Data files only define globals; application scripts need a DOM and are skipped.
-const APP_SCRIPTS = new Set(['tone-practice.js', 'section.js', 'section-configs.js', 'grammar-lessons.js', 'quiz.js', 'app.js']);
+const APP_SCRIPTS = new Set(['section.js', 'section-configs.js', 'grammar-lessons.js', 'quiz.js', 'app.js']);
 const context = { console };
 context.window = context;
 for (const src of scripts) {
