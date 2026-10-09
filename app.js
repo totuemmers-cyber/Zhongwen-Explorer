@@ -19,7 +19,7 @@
   };
 
   // === SOUND ENGINE ===
-  var soundEnabled = localStorage.getItem('zhongwen-sound') !== 'off';
+  var soundEnabled = window.APP_STORAGE.local.get('zhongwen-sound', 'on') !== 'off';
   var audioCtx = null;
 
   function getAudioCtx() {
@@ -321,7 +321,7 @@
 
   // === THEME ===
   function initTheme() {
-    var saved = localStorage.getItem('zhongwen-theme');
+    var saved = window.APP_STORAGE.local.get('zhongwen-theme', null);
     if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
       document.documentElement.setAttribute('data-theme', 'dark');
     }
@@ -331,10 +331,10 @@
     var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
     if (isDark) {
       document.documentElement.removeAttribute('data-theme');
-      localStorage.setItem('zhongwen-theme', 'light');
+      window.APP_STORAGE.local.set('zhongwen-theme', 'light');
     } else {
       document.documentElement.setAttribute('data-theme', 'dark');
-      localStorage.setItem('zhongwen-theme', 'dark');
+      window.APP_STORAGE.local.set('zhongwen-theme', 'dark');
     }
   }
 
@@ -348,7 +348,7 @@
     soundToggle.classList.toggle('active', soundEnabled);
     soundToggle.addEventListener('click', function () {
       soundEnabled = !soundEnabled;
-      localStorage.setItem('zhongwen-sound', soundEnabled ? 'on' : 'off');
+      window.APP_STORAGE.local.set('zhongwen-sound', soundEnabled ? 'on' : 'off');
       soundToggle.classList.toggle('active', soundEnabled);
       if (soundEnabled) playPop();
     });

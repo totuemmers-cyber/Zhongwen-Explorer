@@ -16,6 +16,17 @@
   top: 0;
 }
 
+.storage-notice {
+  margin: 12px auto 0;
+  max-width: 1200px;
+  padding: 10px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-card);
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;

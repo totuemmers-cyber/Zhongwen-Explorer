@@ -9,6 +9,7 @@ const ROOT = path.resolve(__dirname, '..');
 const CHECKS = Object.freeze([
   'lint',
   'test:pinyin',
+  'test:storage',
   'audit:data'
 ]);
 const FULL_CHECKS = Object.freeze([]);

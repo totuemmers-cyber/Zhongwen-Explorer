@@ -6,7 +6,8 @@
     "check:full": "node scripts/check.cjs --full",
     "lint": "node scripts/lint.js",
     "audit:data": "node scripts/audit-data.cjs",
-    "test:pinyin": "node scripts/pinyin-test.cjs"
+    "test:pinyin": "node scripts/pinyin-test.cjs",
+    "test:storage": "node scripts/storage-test.cjs"
   },
   "devDependencies": {
     "jsdom": "^26.1.0"
