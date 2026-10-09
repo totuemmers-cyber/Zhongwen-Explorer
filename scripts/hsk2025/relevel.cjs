@@ -412,5 +412,6 @@ if (!DRY_RUN) {
     fs.writeFileSync(path.join(ROOT, file), header + file.replace(/\.js$/, '') + '.\nwindow.' + name + ' = ' + JSON.stringify(items, null, 2) + ';\n');
   }
 }
+if (!DRY_RUN) require('../build-vocab-runtime.cjs').writeVocabRuntime();
 console.log((DRY_RUN ? 'Dry run: ' : 'Applied: ') + JSON.stringify({ matched: report.matched, newWords: report.newWords.length, zusatz: report.zusatz.length,
   retired: report.retired.length, pinyinChanged: report.pinyinChanged.length, total: all.length, levels: levelCounts }));

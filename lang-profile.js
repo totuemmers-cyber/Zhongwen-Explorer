@@ -14,7 +14,9 @@ window.LANG_PROFILE = {
   // Vocabulary outside the syllabus (kept when CC-CEDICT confirms it or it is a Chengyu/Redewendung).
   extraLevel: 'Zusatz',
   defaultTab: 'tones',
-  // Data files per section, loaded on first use (app.js) and audited in this order.
+  // Generated vocabulary bundle the browser loads (scripts/build-vocab-runtime.cjs).
+  runtime: { vocab: 'vocab-runtime.js', vocabDetails: 'vocab-runtime-details.js' },
+  // Source data files per section, loaded on first use (app.js) and audited in this order.
   dataScripts: {
     radicals: ['kangxi-radicals-data.js', 'kangxi-radicals-extra.js'],
     hanzi: ['hanzi-hsk1.js', 'hanzi-hsk2.js', 'hanzi-hsk3.js', 'hanzi-hsk4.js', 'hanzi-hsk5.js', 'hanzi-hsk6.js'],

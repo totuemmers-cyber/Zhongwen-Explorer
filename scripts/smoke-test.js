@@ -139,6 +139,17 @@ async function run() {
     radicalLink.click();
     await until(() => app.activeTab === 'radicals' && radicals.isOverlayOpen(), 'component opens radical');
     radicals.closeDetail();
+    // The browser loads the generated runtime, never the per-level sources; examples follow.
+    for (const src of ['vocab-hsk1.js', 'vocab-zusatz.js', 'chengyu-data.js']) {
+      assert(!d.querySelector('script[src="' + src + '"]'), 'Vocabulary tab loaded source file ' + src);
+    }
+    await app.ensureVocabDetailsLoaded();
+    const withExample = vocab.allItems.find(item => item.word === '你好');
+    assert(withExample.examples && withExample.examples.length, 'Examples were not attached from the details file');
+    vocab.openDetail(vocab.filteredItems.indexOf(withExample));
+    assert(d.querySelector('#vocab-detail-examples .grammar-example-item, #vocab-detail-examples .example-item, #vocab-detail-examples div'), 'Examples not rendered');
+    vocab.closeDetail();
+
     // HSK 2025 levels: the 7–9 band and Zusatz have entries and filter buttons.
     for (const level of ['HSK1', 'HSK7-9', 'Zusatz']) {
       vocab.filters.level = level; vocab.applyFilters();

@@ -691,7 +691,7 @@ SECTION_CONFIGS['vocab'] = {
       '<div class="vocab-card-meaning">' + draftMarker(item) + escapeHtml(item.meaning || '') + '</div>',
       index, section, itemId);
   },
-  openDetail: function (item, dom) {
+  openDetail: function (item, dom, section) {
     var itemId = item.id;
     createDetailBookmark('.vocab-detail-header', 'vocab', itemId);
     var wordEl = document.getElementById('vocab-detail-word');
@@ -746,7 +746,24 @@ SECTION_CONFIGS['vocab'] = {
       chengyuSection.classList.add('hidden');
     }
 
-    renderExamplesOrEmpty('vocab-detail-examples', item.examples);
+    // Examples arrive in the background after the list (vocab-runtime-details.js).
+    if (window.app && window.app.ensureVocabDetailsLoaded && !window.app.vocabDetailsLoaded) {
+      var examplesEl = document.getElementById('vocab-detail-examples');
+      examplesEl.textContent = 'Beispiele werden geladen...';
+      window.app.ensureVocabDetailsLoaded().then(function () {
+        if (!section || !section.isOverlayOpen()) return;
+        var current = section.selectedItem || section.filteredItems[section.currentDetailIndex];
+        if (!current || current.id !== item.id) return;
+        renderExamplesOrEmpty('vocab-detail-examples', current.examples);
+      }).catch(function () {
+        examplesEl.textContent = 'Beispiele konnten nicht geladen werden. ';
+        var retry = appendElement(examplesEl, 'button', 'btn btn-pill', 'Erneut versuchen');
+        retry.type = 'button';
+        retry.onclick = function () { section.config.openDetail(item, dom, section); };
+      });
+    } else {
+      renderExamplesOrEmpty('vocab-detail-examples', item.examples);
+    }
 
     // Contained hanzi
     var hanziSection = document.getElementById('vocab-detail-hanzi-section');
