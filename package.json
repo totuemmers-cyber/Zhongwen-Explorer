@@ -15,7 +15,9 @@
     "parse:syllabus": "node scripts/hsk2025/parse-syllabus.cjs && node scripts/hsk2025/parse-characters.cjs",
     "audit:hsk2025": "node scripts/audit-hsk2025.cjs",
     "build:vocab-runtime": "node scripts/build-vocab-runtime.cjs",
-    "audit:vocab-runtime": "node scripts/build-vocab-runtime.cjs --check"
+    "audit:vocab-runtime": "node scripts/build-vocab-runtime.cjs --check",
+    "audit:enrichment": "node scripts/audit-enrichment.cjs",
+    "enrich:status": "node scripts/enrich/status.cjs"
   },
   "devDependencies": {
     "jsdom": "^26.1.0",

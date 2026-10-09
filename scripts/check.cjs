@@ -15,7 +15,8 @@ const CHECKS = Object.freeze([
   'test:contrast',
   'audit:data',
   'audit:hsk2025',
-  'audit:vocab-runtime'
+  'audit:vocab-runtime',
+  'audit:enrichment'
 ]);
 const FULL_CHECKS = Object.freeze([]);
 const defaultJobs = () => Math.min(3, os.availableParallelism(), os.freemem() < 4 * 1024 ** 3 ? 1 : 3);

@@ -750,11 +750,13 @@ SECTION_CONFIGS['vocab'] = {
     if (window.app && window.app.ensureVocabDetailsLoaded && !window.app.vocabDetailsLoaded) {
       var examplesEl = document.getElementById('vocab-detail-examples');
       examplesEl.textContent = 'Beispiele werden geladen...';
+      renderVocabNotes(null);
       window.app.ensureVocabDetailsLoaded().then(function () {
         if (!section || !section.isOverlayOpen()) return;
         var current = section.selectedItem || section.filteredItems[section.currentDetailIndex];
         if (!current || current.id !== item.id) return;
         renderExamplesOrEmpty('vocab-detail-examples', current.examples);
+        renderVocabNotes(current);
       }).catch(function () {
         examplesEl.textContent = 'Beispiele konnten nicht geladen werden. ';
         var retry = appendElement(examplesEl, 'button', 'btn btn-pill', 'Erneut versuchen');
@@ -763,6 +765,7 @@ SECTION_CONFIGS['vocab'] = {
       });
     } else {
       renderExamplesOrEmpty('vocab-detail-examples', item.examples);
+      renderVocabNotes(item);
     }
 
     // Contained hanzi
@@ -818,6 +821,16 @@ function renderDraftNotice(item) {
   el.classList.remove('hidden');
 }
 
+// Usage note ("Verwendung & Unterschiede"); notes arrive with the details file.
+function renderVocabNotes(item) {
+  var sectionEl = document.getElementById('vocab-detail-notes-section');
+  var el = document.getElementById('vocab-detail-notes');
+  if (!sectionEl || !el) return;
+  var text = item && item.notes;
+  el.textContent = text || '';
+  sectionEl.classList.toggle('hidden', !text);
+}
+
 // Traditional form, spoken tone sandhi, alternative reading, measure words, later HSK uses, variants.
 function renderVocabFacts(item) {
   var list = document.getElementById('vocab-detail-facts');
@@ -837,6 +850,7 @@ function renderVocabFacts(item) {
     row('Traditionell', trad);
   }
   if (item.pinyinSpoken) row('Gesprochen', item.pinyinSpoken);
+  if (item.separable) row('Trennbar', 'Ja – Objekt, 了 oder Mengenangaben können zwischen die beiden Teile treten.');
   if (item.pinyinAlt && item.pinyinAlt.length) row('Auch gelesen', item.pinyinAlt.join(', '));
   if (item.measureWords && item.measureWords.length) {
     var words = document.createElement('span');
