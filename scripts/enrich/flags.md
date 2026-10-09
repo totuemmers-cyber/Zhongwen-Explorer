@@ -427,3 +427,62 @@ Author flags, type changes and reviewer fixes per batch, for follow-up decisions
 - w:最终:zui4zhong1 最终 (reviewer fix): Beispiel 3: 最终目标 ist das „Endziel“, nicht das „eigentliche Ziel“.
 - w:座:zuo4 座 type → Zählwort: 量: measure word (also 名 seat), not a numeral
 - w:作为:zuo4wei2 作为 (reviewer fix): Beispiel 3 (作为一个外国人，他的中文说得非常好) widersprach der eigenen Notiz: Subjekt ist 他的中文, nicht die Person, und gemeint war „für einen Ausländer“ (对…来说), nicht „in der Rolle als“. Durch korrektes Beispiel ersetzt.
+
+## b011 (2026-10-09, author)
+- w:地震:di4zhen4 地震 (author): syllabusPos lists only 动, but 地震 is predominantly a noun (发生地震); type kept as Nomen, verb use covered in note and example 3.
+- w:度:du4 度 type → Zählwort: 量 listed first: unit for degrees (temperature, angles, alcohol) and kilowatt-hours; noun, verb and suffix uses are covered in the note
+- w:堆:dui1 堆 type → Zählwort: 动、名、量: measure word (also verb and noun), not a numeral
+- w:吨:dun1 吨 type → Zählwort: 量: measure word (unit of weight), not a numeral
+- w:服装:fu2zhuang1 服装 (author): measureWords lists 身, which is unusual for the collective noun 服装 (一身服装 is rare); 套 would fit better, or no measure word.
+- w:副:fu4 副 type → Zählwort: 量: measure word, not a numeral
+- w:改革:gai3ge2 改革 type → Verb: 动: officially a verb (also used as a noun)
+- w:各自:ge4zi4 各自 type → Pronomen: 代: pronoun (also attributive: 各自的工作), not an adverb
+- w:固定:gu4ding4 固定 type → Verb: 动: verb per syllabus (befestigen, festlegen); the attributive use 固定的 is covered in the note
+- w:过敏:guo4min3 过敏 type → Verb: 动: verb (对……过敏 „allergisch reagieren auf“), not an adjective
+- w:过期:guo4qi1 过期 type → Verb: 动: verb („die Frist überschreiten“), not an adjective
+- w:合同:he2tong5 合同 (author): citation pinyin is hétóng, but the id (tong5) and standard dictionaries give hétong with neutral tone; examples use hétong.
+- w:互动:hu4dong4 互动 type → Verb: 动: verb (和……互动 „interagieren“), noun use is secondary
+- w:划:hua2 划 (author): traditional 划 fits the sense ‚rudern‘ only; for ‚ritzen‘ (划破, 划火柴) the traditional form is 劃.
+
+## b010 (2026-10-09, author)
+- w:哎:ai1 哎 type → Interjektion: 叹: Interjektion, keine Partikel
+- w:不要紧:bu2yao4jin3 不要紧 type → Adjektiv: 形: im Syllabus als Adjektiv („nicht schlimm, unbedenklich“) geführt, nicht als Phrase
+- w:不足:bu4zu2 不足 type → Verb: 动、名: im Syllabus als Verb (nicht ausreichen, weniger als) und Nomen (Mangel) geführt, nicht als Adjektiv
+- w:长途:chang2tu2 长途 type → Adjektiv: 形: attributives Adjektiv (长途汽车, 长途电话), kein Nomen im Syllabus
+- w:朝:chao2 朝 type → Präposition: 介: Präposition „in Richtung“ (朝我笑, 朝前走), daneben 动 „zugewandt sein“; keine Partikel
+- w:冲:chong1 冲 (author): traditional given as 沖 only; this reading also covers the 'rush, charge' sense (衝), traditional should probably be 沖/衝
+- w:刺激:ci4ji1 刺激 type → Verb: 动、名: verb/noun; adjectival 很刺激 is colloquial
+- w:从前:cong2qian2 从前 type → Nomen: 名: time noun (like 以前), used adverbially but not an adverb
+- w:促销:cu4xiao1 促销 type → Verb: 动: verb (den Absatz fördern); 促销活动 is attributive use of the verb
+- w:大力:da4li4 大力 type → Adverb: 名、副: overwhelmingly used adverbially (大力支持, 大力发展); noun use is limited to phrases like 出大力
+- w:当前:dang1qian2 当前 type → Nomen: 动、名: mainly used as time noun/attribute (当前形势); verb use limited to set phrases like 大敌当前
+
+## b013 (2026-10-09, author)
+- w:门诊:men2zhen3 门诊 (author): syllabusPos is 动, but 门诊 is used almost only as a noun (门诊部, 看门诊, 门诊时间); type kept as Nomen.
+- w:偶然:ou3ran2 偶然 type → Adjektiv: 形: adjective (偶然的事, 不是偶然的), also used adverbially before verbs
+- w:培训:pei2xun4 培训 type → Verb: 动: verb (培训员工), also used nominally (参加培训)
+- w:批:pi1 批 type → Zählwort: 量: measure word, not a numeral
+- w:拼音:pin1yin1 拼音 (author): Syllabus lists 拼音 as 动 (Laute zu Silben verbinden); card kept as Nomen because the noun use „Pinyin“ clearly dominates.
+- w:平衡:ping2heng2 平衡 type → Adjektiv: 形、动: adjective/verb (发展不平衡, 平衡收支); 保持平衡 is a nominal use
+- w:期间:qi1jian1 期间 (author): measureWords lists 个, but 期间 is hardly ever counted (这个期间 is rare; 这段期间 uses 段).
+- w:其余:qi2yu2 其余 type → Pronomen: 代: pronoun, not a noun
+- w:如何:ru2he2 如何 type → Pronomen: 代: interrogative pronoun (Fragepronomen), not an adverb
+- w:舍不得:she3bu4de2 舍不得 type → Verb: 动: official part of speech is verb
+- w:摄影:she4ying3 摄影 type → Verb: 动: official part of speech is verb
+
+## b012 (2026-10-09, author)
+- w:黄瓜:huang2gua1 黄瓜 (author): measureWords lists only 条; 根 (gēn) is at least as common for 黄瓜 and could be added.
+- w:建筑:jian4zhu4 建筑 (author): measureWords lists only 个; for 建筑 (building) 座/栋 are the usual measure words.
+- w:讲话:jiang3hua4 讲话 (author): measureWords lists 个; for 讲话 (speech) 次/篇 are more typical.
+- w:结构:jie2gou4 结构 (author): measureWords lists 座 for 结构; this is unusual (结构 rarely takes a measure word; 个/种 at most).
+- w:进步:jin4bu4 进步 type → Verb: 动、形: verb/adjective in the syllabus; noun use (有很大进步) is secondary
+- w:精神:jing1shen2 精神 (author): Card reading is jīngshen (Vitalität, munter), while the id says jing1shen2 and the 名 sense „Geist/Psyche“ belongs to jīngshén – check which reading(s) the syllabus intends.
+- w:惊喜:jing1xi3 惊喜 type → Adjektiv: 形: adjective in the syllabus; noun use (一个惊喜) is also common
+- w:颗:ke1 颗 type → Zählwort: 量: measure word, not a numeral
+- w:科研:ke1yan2 科研 (author): syllabusPos 动 is questionable: 科研 is used as a noun/attributive (从事科研, 科研经费) and takes no object; type kept as Nomen.
+- w:可见:ke3jian4 可见 type → Konjunktion: 连: connective introducing a conclusion (由此可见), not an adverb
+- w:客服:ke4fu2 客服 (author): syllabusPos 形 looks wrong: 客服 is a noun (customer service / service agent); type set to Nomen.
+- w:客服:ke4fu2 客服 type → Nomen: 客服 (customer service / service agent) is a noun; the syllabus tag 形 does not fit any usage
+- w:厘米:li2mi3 厘米 type → Zählwort: 量: unit of measure used as a measure word, not a numeral
+- w:连续:lian2xu4 连续 type → Verb: 动: offizielle Wortart Verb; die adverbiale Stellung vor anderen Verben ändert daran nichts
+- w:满足:man3zu2 满足 type → Verb: 动: offizielle Wortart Verb, nicht Adjektiv

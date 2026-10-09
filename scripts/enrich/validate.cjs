@@ -8,7 +8,7 @@ const dict = require('../hsk2025/dictionaries.cjs');
 
 const TYPES = ['Nomen', 'Verb', 'Adjektiv', 'Adverb', 'Pronomen', 'Zahlwort', 'Zählwort', 'Präposition', 'Konjunktion', 'Partikel',
   'Interjektion', 'Lautmalerei', 'Affix', 'Ausdruck', 'Phrase', 'Chengyu', 'Redewendung', 'Sprichwort'];
-const HAN = /[㐀-鿿豈-﫿]/;
+const HAN = /[〇㐀-鿿豈-﫿]/;
 const NUMBER_CHARS = new Set(Array.from('零一二两三四五六七八九十百千万亿半第'));
 // Frequent ASCII spellings of umlaut words; authors must write ä/ö/ü/ß.
 const UMLAUT_SUBSTITUTES = /\b(fuer|ueber|koennen|muessen|waehrend|moechte|haeufig|spaeter|frueh|natuerlich|Maedchen|Strasse|schoen|hoeren|aehnlich|zurueck|wuerde|fuenf|Schueler|Buero|oeffnen|Groesse|Gruesse|Kaese|Laender|Aerger|faehrt|laeuft|gefaellt|Gefuehl|gruen|Tuer|Gemuese|Fruehstueck)\b/i;
@@ -57,6 +57,10 @@ function checkExampleReading(chinese, pinyin, ctx) {
   const { Pinyin, cedict, syllabusReadings, longest } = ctx;
   // Syllabic nasals of interjections (嗯 ǹg, ńg) have no regular syllable; check them as èn.
   if (chinese.includes('嗯')) pinyin = pinyin.replace(/[ńňǹ]g?/gi, 'èn');
+  // Latin letters and digits in the sentence (维生素C, IT行业) stand as they are in the pinyin, too.
+  for (const token of chinese.match(/[A-Za-z0-9]+/g) || []) {
+    pinyin = pinyin.replace(new RegExp('(^|[^A-Za-z0-9])' + token + '(?![A-Za-z0-9])'), '$1 ');
+  }
   const chars = Array.from(chinese).filter(ch => HAN.test(ch));
   const syllables = Pinyin.segment(pinyin, chars.join(''));
   if (syllables.length !== chars.length) {
@@ -120,6 +124,9 @@ function checkExampleReading(chinese, pinyin, ctx) {
       if (!boundaries.has(i)) continue;
       for (const c of options[i]) {
         if (c.len < 2 || c.ok || !boundaries.has(i + c.len)) continue;
+        // Only learner words are likely intended (银行); rare dictionary words that happen to span the
+        // split (中的 zhòngdì in 传说中的, 球弹 qiúdàn) are coincidences.
+        if (!ctx.syllabus.has(c.word)) continue;
         // A name only (美的 Měidì, the brand) says nothing about the common words 美 + 的.
         if (c.readings.every(r => /^[A-Z]/.test(r))) continue;
         // 都 written dōu is the adverb "all" (都会 dōu huì), not the dū of 都会 dūhuì "metropolis".
@@ -137,7 +144,7 @@ function checkExampleReading(chinese, pinyin, ctx) {
 function checkBeginnerVocabulary(chinese, headword, allowed, ctx, ownWords = []) {
   const { syllabus, allowlist, cedict, longest, characters } = ctx;
   const issues = [];
-  const runs = chinese.split(/[^㐀-鿿豈-﫿]+/).filter(Boolean);
+  const runs = chinese.split(/[^〇㐀-鿿豈-﫿]+/).filter(Boolean);
   const known = word => syllabus.has(word) || allowlist.has(word);
   // Why a token is not acceptable at this level, or null when it is.
   function problem(token) {
