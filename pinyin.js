@@ -67,28 +67,36 @@
     return count;
   }
 
-  // Splits one letter run into syllables. Returns for each reachable syllable count
-  // the segmentation that prefers long syllables first (deterministic tie-break).
+  // Splits one letter run into syllables. Returns for each reachable syllable count the
+  // segmentation with the fewest erhua r pieces (nǚér is nǚ·ér, not nüe·r), then the one
+  // that prefers long syllables first (deterministic tie-break).
   function segmentRun(base) {
     var n = base.length;
-    // best[i]: map count -> array of cut positions for base.slice(i)
+    // best[i]: map count -> { cuts: cut positions for base.slice(i), erhua: number of r pieces }
     var best = new Array(n + 1);
-    best[n] = { 0: [] };
+    best[n] = { 0: { cuts: [], erhua: 0 } };
     for (var i = n - 1; i >= 0; i--) {
       var options = {};
       for (var len = Math.min(MAX_SYLLABLE, n - i); len >= 1; len--) {
         var piece = base.substr(i, len);
-        var valid = SYLLABLES[piece] || (piece === ERHUA && i > 0) || (INTERJECTIONS[piece] && i === 0 && len === n);
+        var isErhua = !SYLLABLES[piece] && piece === ERHUA && i > 0;
+        var valid = SYLLABLES[piece] || isErhua || (INTERJECTIONS[piece] && i === 0 && len === n);
         if (!valid || !best[i + len]) continue;
         var tail = best[i + len];
         for (var count in tail) {
           var total = Number(count) + 1;
-          if (!options[total]) options[total] = [i + len].concat(tail[count]);
+          var erhua = tail[count].erhua + (isErhua ? 1 : 0);
+          if (!options[total] || erhua < options[total].erhua) {
+            options[total] = { cuts: [i + len].concat(tail[count].cuts), erhua: erhua };
+          }
         }
       }
       if (Object.keys(options).length) best[i] = options;
     }
-    return best[0] || null;
+    if (!best[0]) return null;
+    var result = {};
+    Object.keys(best[0]).forEach(function (count) { result[count] = best[0][count].cuts; });
+    return result;
   }
 
   // Tokenizes into runs of pinyin letters; each run keeps its source positions and an

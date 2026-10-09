@@ -36,6 +36,9 @@ async function run() {
       w.SpeechSynthesisUtterance = function (text) { this.text = text; };
       w.speechSynthesis = { getVoices: () => [], cancel() {}, speak: utterance => spoken.push(utterance.text) };
       w.addEventListener('error', event => errors.push(event.error || event.message));
+      // Bookmarks saved under the former word|pinyin ids (before consolidation).
+      w.localStorage.setItem('zhongwen-storage-version', '1');
+      w.localStorage.setItem('zhongwen-bookmarks-vocab', JSON.stringify(['你好|nǐ hǎo', '女儿|nǚér']));
     }
   });
   const w = dom.window, d = w.document;
@@ -113,6 +116,10 @@ async function run() {
     vocab.closeDetail();
     // No vocabulary card is empty.
     assert(!vocab.allItems.some(item => !item.word), 'Vocabulary entry without word');
+    // Former word|pinyin bookmarks now point at the consolidated entries.
+    assert.deepStrictEqual(JSON.parse(w.localStorage.getItem('zhongwen-bookmarks-vocab')), ['w:你好:ni3hao3', 'w:女儿:nv3er2']);
+    assert(w.isBookmarked('vocab', 'w:女儿:nv3er2'));
+    assert.strictEqual(vocab.allItems.filter(item => item.word === '女儿').length, 1, '女儿 should be one entry');
 
     assert.strictEqual(fail(), '');
     console.log('Smoke test passed: all tabs, every section detail, related entries, examples, measure-word tables, pinyin search, tone colouring.');

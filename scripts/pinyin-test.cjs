@@ -22,6 +22,9 @@ assert.deepStrictEqual(list(P.segment('xiān', '先')), ['xiān']);
 // Erhua: 儿 as a trailing r.
 assert.deepStrictEqual(list(P.segment('yīdiǎnr', '一点儿')), ['yī', 'diǎn', 'r']);
 assert.deepStrictEqual(list(P.segment('nǚ\'ér')), ['nǚ', 'ér']);
+// Without the apostrophe, a full syllable beats a bare erhua r (nǚ·ér, not nüe·r).
+assert.deepStrictEqual(list(P.segment('nǚér', '女儿')), ['nǚ', 'ér']);
+assert.deepStrictEqual(list(P.segment('wánr', '玩儿')), ['wán', 'r']);
 
 // Tones, conversions.
 assert.strictEqual(P.toneOf('hǎo'), 3);

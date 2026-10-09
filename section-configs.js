@@ -581,7 +581,7 @@ SECTION_CONFIGS['vocab'] = {
     { stateKey: 'bookmarks', selector: '.filter-btn.vocab-bm', dataAttr: 'data-bm', defaultValue: 'all' }
   ],
   filterFn: function (item, query, filters) {
-    if (filters.bookmarks === 'starred' && !isBookmarked('vocab', item.word + '|' + (item.pinyin || ''))) return false;
+    if (filters.bookmarks === 'starred' && !isBookmarked('vocab', item.id)) return false;
     if (filters.level !== 'all' && item.level !== filters.level) return false;
     if (filters.type !== 'all' && item.type !== filters.type) return false;
     if (filters.tone !== 'all') {
@@ -619,7 +619,7 @@ SECTION_CONFIGS['vocab'] = {
     });
   },
   createCard: function (item, index, section) {
-    var itemId = item.word + '|' + (item.pinyin || '');
+    var itemId = item.id;
 
     // Special Chengyu card with 2x2 character grid
     if (item.type === 'Chengyu' && item.word && item.word.length === 4) {
@@ -658,7 +658,7 @@ SECTION_CONFIGS['vocab'] = {
       index, section, itemId);
   },
   openDetail: function (item, dom) {
-    var itemId = item.word + '|' + (item.pinyin || '');
+    var itemId = item.id;
     createDetailBookmark('.vocab-detail-header', 'vocab', itemId);
     var wordEl = document.getElementById('vocab-detail-word');
     wordEl.textContent = item.word;

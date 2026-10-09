@@ -8,7 +8,7 @@ const ROOT = path.resolve(__dirname, '..');
 const html = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
 const scripts = [...html.matchAll(/<script src="([^"]+)"><\/script>/g)].map(m => m[1]);
 const DATA_GLOBALS = ['HANZI_DATA', 'GRAMMAR_DATA', 'VOCAB_HSK1', 'VOCAB_HSK2', 'VOCAB_HSK3', 'VOCAB_HSK4', 'VOCAB_HSK5',
-  'VOCAB_HSK6', 'CHENGYU_DATA', 'REDEWENDUNGEN_DATA', 'MEASURE_WORDS_DATA', 'ONOMATOPOEIA_DATA', 'KANGXI_RADICALS', 'PINYIN_DATA'];
+  'VOCAB_HSK6', 'VOCAB_HSK7_9', 'CHENGYU_DATA', 'REDEWENDUNGEN_DATA', 'MEASURE_WORDS_DATA', 'ONOMATOPOEIA_DATA', 'KANGXI_RADICALS', 'PINYIN_DATA'];
 
 const errors = [];
 const fail = (message, samples = []) => errors.push(message + (samples.length ? '\n  e.g. ' + samples.slice(0, 5).join('\n  e.g. ') : ''));
@@ -29,10 +29,26 @@ for (const src of scripts) {
 for (const name of DATA_GLOBALS) if (!context[name]) fail('Missing data global ' + name);
 
 const vocab = [];
-for (let level = 1; level <= 6; level++) for (const item of context['VOCAB_HSK' + level] || []) vocab.push(item);
+for (const name of ['VOCAB_HSK1', 'VOCAB_HSK2', 'VOCAB_HSK3', 'VOCAB_HSK4', 'VOCAB_HSK5', 'VOCAB_HSK6', 'VOCAB_HSK7_9']) for (const item of context[name] || []) vocab.push(item);
 for (const item of [...(context.CHENGYU_DATA || []), ...(context.REDEWENDUNGEN_DATA || [])]) vocab.push(item);
 const noWord = vocab.filter(item => !item || typeof item.word !== 'string' || !item.word.trim());
 if (noWord.length) fail(noWord.length + ' vocabulary entries without word', noWord.map(item => JSON.stringify(item).slice(0, 120)));
+
+// Stable ids: unique, and every former bookmark id (legacyIds) resolves to exactly one entry.
+const ids = new Map();
+const legacy = new Map();
+const idProblems = [];
+for (const item of vocab) {
+  if (typeof item.id !== 'string' || !/^w:/.test(item.id)) idProblems.push('missing id: ' + item.word);
+  else if (ids.has(item.id)) idProblems.push('duplicate id: ' + item.id);
+  else ids.set(item.id, item);
+  for (const old of item.legacyIds || []) {
+    if (legacy.has(old) && legacy.get(old) !== item.id) idProblems.push('legacy id ' + old + ' maps to ' + legacy.get(old) + ' and ' + item.id);
+    legacy.set(old, item.id);
+  }
+}
+for (const old of legacy.keys()) if (ids.has(old)) idProblems.push('legacy id equals a current id: ' + old);
+if (idProblems.length) fail(idProblems.length + ' vocabulary id problems', idProblems);
 
 const grammar = context.GRAMMAR_DATA || [];
 const badExamples = [];

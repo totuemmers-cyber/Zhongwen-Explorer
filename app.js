@@ -168,6 +168,22 @@
     }
   }
 
+  // Keep saved bookmarks when entries were consolidated into one surviving entry.
+  function migrateLegacyBookmarks(sectionName, items) {
+    var bookmarks = getBookmarks(sectionName);
+    var original = JSON.stringify(bookmarks);
+    items.forEach(function (item) {
+      (item.legacyIds || []).forEach(function (oldId) {
+        if (oldId === item.id || bookmarks.indexOf(oldId) === -1) return;
+        bookmarks = bookmarks.filter(function (id) { return id !== oldId; });
+        if (bookmarks.indexOf(item.id) === -1) bookmarks.push(item.id);
+      });
+    });
+    if (JSON.stringify(bookmarks) !== original) {
+      window.APP_STORAGE.local.setJSON(window.LANG_PROFILE.storagePrefix + 'bookmarks-' + sectionName, bookmarks);
+    }
+  }
+
   // === LOAD DATA ===
   function loadData() {
     // Hanzi
@@ -190,30 +206,21 @@
       app.sections.grammar.setItems(window.GRAMMAR_DATA);
     }
 
-    // Vocab
+    // Vocab: consolidated sources (scripts/consolidate-vocab.cjs), one entry per word and reading.
     var vocabSources = [
       window.VOCAB_HSK1 || [],
       window.VOCAB_HSK2 || [],
       window.VOCAB_HSK3 || [],
       window.VOCAB_HSK4 || [],
       window.VOCAB_HSK5 || [],
-      window.VOCAB_HSK6 || []
+      window.VOCAB_HSK6 || [],
+      window.VOCAB_HSK7_9 || []
     ];
     var allVocab = [].concat.apply([], vocabSources)
       .concat(window.CHENGYU_DATA || [])
       .concat(window.REDEWENDUNGEN_DATA || []);
-    // Normalize inconsistent type names (plurals, ASCII variants)
-    var typeMap = {
-      'Verben': 'Verb', 'Adjektive': 'Adjektiv', 'Adverbien': 'Adverb',
-      'Redewendungen': 'Redewendung', 'Konjunktionen': 'Konjunktion',
-      'Zaehlwort': 'Zahlwort', 'Zählwort': 'Zahlwort',
-      'Praposition': 'Präposition', 'Praeposition': 'Präposition',
-      'Prapositionen': 'Präposition', 'Praefix': 'Präfix'
-    };
-    allVocab.forEach(function (item) {
-      if (item.type && typeMap[item.type]) item.type = typeMap[item.type];
-    });
     if (allVocab.length > 0) {
+      migrateLegacyBookmarks('vocab', allVocab);
       app.sections.vocab.setItems(allVocab);
     }
 
