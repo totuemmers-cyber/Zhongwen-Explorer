@@ -69,7 +69,7 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     category: 'Satzstruktur',
     examples: [
       { zh: '我二十五岁。', pinyin: 'Wǒ èrshíwǔ suì.', de: 'Ich bin 25 Jahre alt.' },
-      { zh: '她的女儿三岁了。', pinyin: 'Tā de nǚ'ér sān suì le.', de: 'Ihre Tochter ist drei Jahre alt geworden.' }
+      { zh: '她的女儿三岁了。', pinyin: 'Tā de nǚ\'ér sān suì le.', de: 'Ihre Tochter ist drei Jahre alt geworden.' }
     ]
   },
   {
@@ -91,7 +91,7 @@ window.GRAMMAR_DATA = window.GRAMMAR_DATA.concat([
     category: 'Satzstruktur',
     examples: [
       { zh: '这本书十五块钱。', pinyin: 'Zhè běn shū shíwǔ kuài qián.', de: 'Dieses Buch kostet 15 Yuan.' },
-      { zh: '一共三十二元。', pinyin: 'Yígòng sānshí'èr yuán.', de: 'Insgesamt 32 Yuan.' }
+      { zh: '一共三十二元。', pinyin: 'Yígòng sānshí\'èr yuán.', de: 'Insgesamt 32 Yuan.' }
     ]
   },
   {
