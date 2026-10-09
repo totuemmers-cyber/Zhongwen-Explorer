@@ -1,0 +1,13 @@
+{
+  "name": "zhongwen-explorer",
+  "private": true,
+  "scripts": {
+    "check": "node scripts/check.cjs",
+    "check:full": "node scripts/check.cjs --full",
+    "lint": "node scripts/lint.js",
+    "audit:data": "node scripts/audit-data.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0"
+  }
+}
