@@ -1,0 +1,25 @@
+{
+  "source": "HSK 考试大纲 (中外语言交流合作中心, 2025-11 发布, 2026-07 实施), 词汇大纲",
+  "pdfSha256": "ec74ce0439e837bbb15154be13e747ae798903b2fd3a331629df6c3b45504941",
+  "pages": [
+    80,
+    354
+  ],
+  "rows": 11000,
+  "newWordsPerLevel": {
+    "1": 300,
+    "2": 200,
+    "3": 500,
+    "4": 1000,
+    "5": 1600,
+    "6": 1800,
+    "7-9": 5600
+  },
+  "multiLevelRows": 102,
+  "homographRows": 82,
+  "crosscheck": {
+    "dataset": "uranbekanarbaev/hsk-3.0-vocabulary-dataset@6859875",
+    "unexplainedDifferences": 0,
+    "knownDifferences": 1
+  }
+}

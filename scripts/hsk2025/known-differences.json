@@ -1,0 +1,9 @@
+[
+  {
+    "no": 6716,
+    "field": "pos",
+    "ours": "名、形",
+    "theirs": "名、 形",
+    "reason": "The cross-check CSV contains a stray space after the enumeration comma; the PDF shows 名、形."
+  }
+]
