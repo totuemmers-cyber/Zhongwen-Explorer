@@ -502,7 +502,7 @@ SECTION_CONFIGS['grammar'] = {
       (exampleText ? '<div class="grammar-card-example">' + exampleText + '</div>' : ''),
       index, section, item.pattern);
   },
-  openDetail: function (item, dom) {
+  openDetail: function (item, dom, section) {
     createDetailBookmark('.grammar-detail-header', 'grammar', item.pattern);
     var patternEl = document.getElementById('grammar-detail-pattern');
     patternEl.textContent = item.pattern;
@@ -822,7 +822,7 @@ SECTION_CONFIGS['onomatopoeia'] = {
       '<span class="ono-pattern-badge">' + (item.pattern || '') + '</span>',
       index, section, item.word);
   },
-  openDetail: function (item, dom) {
+  openDetail: function (item, dom, section) {
     createDetailBookmark('.ono-detail-header', 'onomatopoeia', item.word);
     var wordEl = document.getElementById('ono-detail-word');
     wordEl.textContent = item.word;
@@ -934,7 +934,8 @@ SECTION_CONFIGS['measurewords'] = {
     return false;
   },
   sortFn: function (items) {
-    var catOrder = { 'Allgemein': 0, 'Menschen': 1, 'Tiere': 2, 'Objekte': 3, 'Essen': 4, 'Natur': 5, 'Transport': 6, 'Zeit': 7, 'Abstrakt': 8 };
+    var catOrder = { 'Allgemein': 0, 'Menschen': 1, 'Tiere': 2, 'Objekte': 3, 'Essen': 4, 'Natur': 5, 'Transport': 6, 'Zeit': 7,
+      'Gebaeude': 8, 'Mengen': 9, 'Handlungen': 10, 'Literatur': 11, 'Medizin': 12, 'Abstrakt': 13 };
     items.sort(function (a, b) {
       var ca = catOrder[a.category] !== undefined ? catOrder[a.category] : 99;
       var cb = catOrder[b.category] !== undefined ? catOrder[b.category] : 99;

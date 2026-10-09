@@ -2862,6 +2862,21 @@ main {
   --cc-abstrakt: #a855f7;
   --cc-abstrakt-bg: #faf5ff;
   --cc-abstrakt-border: #d8b4fe;
+  --cc-gebaeude: #57534e;
+  --cc-gebaeude-bg: #f5f5f4;
+  --cc-gebaeude-border: #d6d3d1;
+  --cc-mengen: #b45309;
+  --cc-mengen-bg: #fffbeb;
+  --cc-mengen-border: #fde68a;
+  --cc-handlungen: #0f766e;
+  --cc-handlungen-bg: #f0fdfa;
+  --cc-handlungen-border: #99f6e4;
+  --cc-literatur: #be185d;
+  --cc-literatur-bg: #fdf2f8;
+  --cc-literatur-border: #fbcfe8;
+  --cc-medizin: #dc2626;
+  --cc-medizin-bg: #fef2f2;
+  --cc-medizin-border: #fecaca;
 }
 
 /* Filter buttons */
@@ -2905,20 +2920,51 @@ main {
   background: var(--cc-abstrakt); color: white; border-color: var(--cc-abstrakt);
 }
 
-.counter-card-badge.Allgemein, .counter-category-badge.Allgemein {
+.counter-category-badge.cc-allgemein {
   background: var(--cc-allgemein-bg); color: var(--cc-allgemein); border: 1px solid var(--cc-allgemein-border);
 }
-.counter-card-badge.Essen, .counter-category-badge.Essen {
+.counter-category-badge.cc-essen {
   background: var(--cc-essen-bg); color: var(--cc-essen); border: 1px solid var(--cc-essen-border);
 }
-.counter-card-badge.Natur, .counter-category-badge.Natur {
+.counter-category-badge.cc-natur {
   background: var(--cc-natur-bg); color: var(--cc-natur); border: 1px solid var(--cc-natur-border);
 }
-.counter-card-badge.Transport, .counter-category-badge.Transport {
+.counter-category-badge.cc-transport {
   background: var(--cc-transport-bg); color: var(--cc-transport); border: 1px solid var(--cc-transport-border);
 }
-.counter-card-badge.Abstrakt, .counter-category-badge.Abstrakt {
+.counter-category-badge.cc-abstrakt {
   background: var(--cc-abstrakt-bg); color: var(--cc-abstrakt); border: 1px solid var(--cc-abstrakt-border);
+}
+
+.filter-btn.cc-gebaeude:hover, .filter-btn.cc-gebaeude.active {
+  background: var(--cc-gebaeude); color: white; border-color: var(--cc-gebaeude);
+}
+.filter-btn.cc-mengen:hover, .filter-btn.cc-mengen.active {
+  background: var(--cc-mengen); color: white; border-color: var(--cc-mengen);
+}
+.filter-btn.cc-handlungen:hover, .filter-btn.cc-handlungen.active {
+  background: var(--cc-handlungen); color: white; border-color: var(--cc-handlungen);
+}
+.filter-btn.cc-literatur:hover, .filter-btn.cc-literatur.active {
+  background: var(--cc-literatur); color: white; border-color: var(--cc-literatur);
+}
+.filter-btn.cc-medizin:hover, .filter-btn.cc-medizin.active {
+  background: var(--cc-medizin); color: white; border-color: var(--cc-medizin);
+}
+.counter-category-badge.cc-gebaeude {
+  background: var(--cc-gebaeude-bg); color: var(--cc-gebaeude); border: 1px solid var(--cc-gebaeude-border);
+}
+.counter-category-badge.cc-mengen {
+  background: var(--cc-mengen-bg); color: var(--cc-mengen); border: 1px solid var(--cc-mengen-border);
+}
+.counter-category-badge.cc-handlungen {
+  background: var(--cc-handlungen-bg); color: var(--cc-handlungen); border: 1px solid var(--cc-handlungen-border);
+}
+.counter-category-badge.cc-literatur {
+  background: var(--cc-literatur-bg); color: var(--cc-literatur); border: 1px solid var(--cc-literatur-border);
+}
+.counter-category-badge.cc-medizin {
+  background: var(--cc-medizin-bg); color: var(--cc-medizin); border: 1px solid var(--cc-medizin-border);
 }
 
 /* Basic numbers section */
@@ -3052,25 +3098,25 @@ main {
   flex-shrink: 0;
 }
 
-.counter-card-badge.Menschen, .counter-category-badge.Menschen {
+.counter-category-badge.cc-menschen {
   background: var(--cc-menschen-bg);
   color: var(--cc-menschen);
   border: 1px solid var(--cc-menschen-border);
 }
 
-.counter-card-badge.Objekte, .counter-category-badge.Objekte {
+.counter-category-badge.cc-objekte {
   background: var(--cc-objekte-bg);
   color: var(--cc-objekte);
   border: 1px solid var(--cc-objekte-border);
 }
 
-.counter-card-badge.Tiere, .counter-category-badge.Tiere {
+.counter-category-badge.cc-tiere {
   background: var(--cc-tiere-bg);
   color: var(--cc-tiere);
   border: 1px solid var(--cc-tiere-border);
 }
 
-.counter-card-badge.Zeit, .counter-category-badge.Zeit {
+.counter-category-badge.cc-zeit {
   background: var(--cc-zeit-bg);
   color: var(--cc-zeit);
   border: 1px solid var(--cc-zeit-border);
