@@ -571,12 +571,6 @@ window.VOCAB_HSK3 = [
       }
     ],
     "traditional": "半天",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "半天 半天 [ban4 tian1]"
     },
@@ -3287,12 +3281,6 @@ window.VOCAB_HSK3 = [
       "page": 94
     },
     "traditional": "打算",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "打算 打算 [da3 suan4]"
     },
@@ -6635,12 +6623,6 @@ window.VOCAB_HSK3 = [
       "page": 96
     },
     "traditional": "根據",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "根據 根据 [gen1 ju4]"
     },
@@ -9965,12 +9947,6 @@ window.VOCAB_HSK3 = [
       "page": 97
     },
     "traditional": "經過",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "經過 经过 [jing1 guo4]"
     },
@@ -11648,12 +11624,6 @@ window.VOCAB_HSK3 = [
       "page": 98
     },
     "traditional": "練習",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "練習 练习 [lian4 xi2]"
     },

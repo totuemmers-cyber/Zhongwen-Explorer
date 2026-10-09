@@ -9751,7 +9751,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:棉袄:mian2ao3",
     "word": "棉袄",
-    "pinyin": "miánǎo",
+    "pinyin": "mián’ǎo",
     "meaning": "Baumwoll-Winterjacke",
     "type": "Nomen",
     "level": "Zusatz",
@@ -11715,7 +11715,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:高尔夫:gao1er3fu1",
     "word": "高尔夫",
-    "pinyin": "gāoěrfū",
+    "pinyin": "gāo’ěrfū",
     "meaning": "Golf",
     "type": "Nomen",
     "level": "Zusatz",
@@ -18221,7 +18221,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:溺爱:ni4ai4",
     "word": "溺爱",
-    "pinyin": "nìài",
+    "pinyin": "nì’ài",
     "meaning": "übermässig verwöhnen, verzärteln",
     "type": "Verb",
     "level": "Zusatz",
@@ -23160,7 +23160,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:备案:bei4an4",
     "word": "备案",
-    "pinyin": "bèiàn",
+    "pinyin": "bèi’àn",
     "meaning": "aktenkundig machen, registrieren",
     "type": "Verb",
     "level": "Zusatz",
@@ -29659,7 +29659,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:市场份额:shi4chang3fen4e2",
     "word": "市场份额",
-    "pinyin": "shìchǎng fèné",
+    "pinyin": "shìchǎng fèn’é",
     "meaning": "Marktanteil",
     "type": "Nomen",
     "level": "Zusatz",
@@ -60893,7 +60893,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:出尔反尔:chu1er3fan3er3",
     "word": "出尔反尔",
-    "pinyin": "chūěr fǎněr",
+    "pinyin": "chū’ěr fǎn’ěr",
     "meaning": "sein Wort brechen, wankelmuetig sein",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -61285,7 +61285,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:方兴未艾:fang1xing1wei4ai4",
     "word": "方兴未艾",
-    "pinyin": "fāngxīng wèiài",
+    "pinyin": "fāngxīng wèi’ài",
     "meaning": "im Aufschwung begriffen, ungebrochen",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -62232,7 +62232,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:桀骜不驯:jie2ao4bu4xun4",
     "word": "桀骜不驯",
-    "pinyin": "jiéào bùxùn",
+    "pinyin": "jié’ào bùxùn",
     "meaning": "widerspenstig, unbezaehmbar",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -62991,7 +62991,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:偏安:pian1an1",
     "word": "偏安",
-    "pinyin": "piānān",
+    "pinyin": "piān’ān",
     "meaning": "sich in einem Winkel verschanzen",
     "type": "Verb",
     "level": "Zusatz",
@@ -63041,7 +63041,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:气宇轩昂:qi4yu3xuan1ang2",
     "word": "气宇轩昂",
-    "pinyin": "qìyǔ xuānáng",
+    "pinyin": "qìyǔ xuān’áng",
     "meaning": "von imposanter Erscheinung",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -64592,7 +64592,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:窒碍:zhi4ai4",
     "word": "窒碍",
-    "pinyin": "zhìài",
+    "pinyin": "zhì’ài",
     "meaning": "behindern, hemmen",
     "type": "Verb",
     "level": "Zusatz",
@@ -64684,7 +64684,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:嵯峨:cuo2e2",
     "word": "嵯峨",
-    "pinyin": "cuóé",
+    "pinyin": "cuó’é",
     "meaning": "schroff und hoch aufragend",
     "type": "Adjektiv",
     "level": "Zusatz",
@@ -66722,7 +66722,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:蹙额:cu4e2",
     "word": "蹙额",
-    "pinyin": "cùé",
+    "pinyin": "cù’é",
     "meaning": "die Stirn runzeln",
     "type": "Verb",
     "level": "Zusatz",

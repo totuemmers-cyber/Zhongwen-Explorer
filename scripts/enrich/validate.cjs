@@ -22,7 +22,16 @@ function context() {
   const syllabus = common.syllabusLevels();
   let longest = 1;
   for (const word of cedict.keys()) longest = Math.max(longest, Array.from(word).length);
-  shared = { Pinyin, cedict, allowlist, syllabus, characters: common.characterLevels(), longest: Math.min(longest, 8) };
+  // Syllabus readings count as well (下载 xiàzài, where CC-CEDICT has xiàzǎi).
+  const syllabusReadings = new Map();
+  for (const row of require('../hsk2025/vocabulary.json')) {
+    for (const p of String(row.pinyin).split('/')) {
+      const key = Pinyin.toNumeric(p.trim(), row.word).toLowerCase().replace(/[^a-z1-5]/g, '');
+      if (!syllabusReadings.has(row.word)) syllabusReadings.set(row.word, []);
+      syllabusReadings.get(row.word).push(key);
+    }
+  }
+  shared = { Pinyin, cedict, allowlist, syllabus, syllabusReadings, characters: common.characterLevels(), longest: Math.min(longest, 8) };
   return shared;
 }
 
@@ -38,12 +47,16 @@ function syllableMatches(written, dictionary) {
 }
 function readingMatches(writtenKeys, cedictKey) {
   const d = syllablesOf(cedictKey);
-  return d.length === writtenKeys.length && d.every((s, i) => syllableMatches(writtenKeys[i], s));
+  // Reduplicated adjectives often take tone 1 on the second syllable in speech (好好 hǎohāo).
+  const redup = (s, i) => i === 1 && d.length === 2 && d[0] === d[1] && writtenKeys[1] === s.slice(0, -1) + '1';
+  return d.length === writtenKeys.length && d.every((s, i) => syllableMatches(writtenKeys[i], s) || redup(s, i));
 }
 
 // Checks one example's pinyin against CC-CEDICT readings of the words in the sentence.
 function checkExampleReading(chinese, pinyin, ctx) {
-  const { Pinyin, cedict, longest } = ctx;
+  const { Pinyin, cedict, syllabusReadings, longest } = ctx;
+  // Syllabic nasals of interjections (嗯 ǹg, ńg) have no regular syllable; check them as èn.
+  if (chinese.includes('嗯')) pinyin = pinyin.replace(/[ńňǹ]g?/gi, 'èn');
   const chars = Array.from(chinese).filter(ch => HAN.test(ch));
   const syllables = Pinyin.segment(pinyin, chars.join(''));
   if (syllables.length !== chars.length) {
@@ -51,13 +64,23 @@ function checkExampleReading(chinese, pinyin, ctx) {
   }
   const keys = syllables.map(s => Pinyin.toNumeric(s).toLowerCase());
   const n = chars.length;
+  // Words never span punctuation (努力了，却 is not 了却): breakBefore[i] when a comma etc. precedes char i.
+  const breakBefore = [];
+  let hanIndex = 0, pending = false;
+  for (const ch of chinese) {
+    if (HAN.test(ch)) { breakBefore[hanIndex++] = pending; pending = false; } else if (/[^\s]/.test(ch)) pending = true;
+  }
+  const spansBreak = (i, len) => breakBefore.slice(i + 1, i + len).some(Boolean);
   const candidates = i => {
     const out = [];
     for (let len = Math.min(longest, n - i); len >= 1; len--) {
+      if (spansBreak(i, len)) continue;
       const word = chars.slice(i, i + len).join('');
       const entries = cedict.get(word);
       if (!entries) continue;
       const matching = entries.filter(e => readingMatches(keys.slice(i, i + len), e.key));
+      const official = (syllabusReadings.get(word) || []).some(k => readingMatches(keys.slice(i, i + len), k));
+      if (official && !matching.length) matching.push({ pinyin: 'syllabus' });
       // proper: only a name reads this way (上高 Shànggāo), so 上|高中 wins a tie.
       out.push({ len, word, ok: matching.length > 0, proper: matching.length > 0 && matching.every(e => /^[A-Z]/.test(e.pinyin)), readings: entries.map(e => e.pinyin) });
     }
@@ -99,6 +122,8 @@ function checkExampleReading(chinese, pinyin, ctx) {
         if (c.len < 2 || c.ok || !boundaries.has(i + c.len)) continue;
         // A name only (美的 Měidì, the brand) says nothing about the common words 美 + 的.
         if (c.readings.every(r => /^[A-Z]/.test(r))) continue;
+        // 都 written dōu is the adverb "all" (都会 dōu huì), not the dū of 都会 dūhuì "metropolis".
+        if (c.word.startsWith('都') && keys[i] === 'dou1') continue;
         // Verb + aspect particle (到了 dào le, not the lexicalised dào liǎo) is the normal reading.
         if (/[了着过]$/.test(c.word) && /^(le|zhe|guo)5$/.test(keys[i + c.len - 1])) continue;
         warnings.push(c.word + ' written ' + syllables.slice(i, i + c.len).join(' ') + ', CC-CEDICT: ' + c.readings.join(', '));
@@ -185,10 +210,11 @@ function containsHeadword(example, card, merged) {
   return false;
 }
 
-// The two characters a separable verb splits into; erhua words split before the 儿 (聊天儿 → 聊…天).
+// The verb and object a separable verb splits into: 睡觉 → 睡…觉; erhua words before the 儿 (聊天儿 →
+// 聊…天); three-character verb-object phrases after the verb (打招呼 → 打个招呼, 开玩笑 → 开他的玩笑).
 function splitCore(word) {
   const chars = Array.from(word.replace(/(?<=..)儿$/, ''));
-  return chars.length === 2 ? chars : null;
+  return chars.length === 2 || chars.length === 3 ? [chars[0], chars.slice(1).join('')] : null;
 }
 
 // True when a two-character separable verb appears split in the sentence (睡了一个好觉, 帮他的忙).

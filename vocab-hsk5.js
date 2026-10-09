@@ -2165,12 +2165,6 @@ window.VOCAB_HSK5 = [
     },
     "pinyinSpoken": "búxìng",
     "traditional": "不幸",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "不幸 不幸 [bu4 xing4]"
     }
@@ -2228,12 +2222,6 @@ window.VOCAB_HSK5 = [
       "page": 131
     },
     "traditional": "補充",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "補充 补充 [bu3 chong1]"
     }
@@ -4755,12 +4743,6 @@ window.VOCAB_HSK5 = [
       "page": 134
     },
     "traditional": "重複",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "重複 重复 [chong2 fu4]"
     }
@@ -5825,7 +5807,7 @@ window.VOCAB_HSK5 = [
   {
     "id": "w:从而:cong2er2",
     "word": "从而",
-    "pinyin": "cóngér",
+    "pinyin": "cóng’ér",
     "meaning": "somit, dadurch",
     "type": "Konjunktion",
     "level": "HSK5",
@@ -6731,10 +6713,6 @@ window.VOCAB_HSK5 = [
         "pinyin": "wei4"
       },
       {
-        "word": "个",
-        "pinyin": "ge4"
-      },
-      {
         "word": "名",
         "pinyin": "ming2"
       }
@@ -6846,12 +6824,6 @@ window.VOCAB_HSK5 = [
     },
     "examples": [],
     "traditional": "單",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "單 单 [dan1]"
     },
@@ -8682,12 +8654,6 @@ window.VOCAB_HSK5 = [
       "page": 137
     },
     "traditional": "對比",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "對比 对比 [dui4 bi3]"
     }
@@ -9153,12 +9119,6 @@ window.VOCAB_HSK5 = [
       "page": 137
     },
     "traditional": "發明",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "發明 发明 [fa1 ming2]"
     }
@@ -9223,12 +9183,6 @@ window.VOCAB_HSK5 = [
       "page": 138
     },
     "traditional": "發言",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "發言 发言 [fa1 yan2]"
     }
@@ -9491,7 +9445,7 @@ window.VOCAB_HSK5 = [
   {
     "id": "w:反而:fan3er2",
     "word": "反而",
-    "pinyin": "fǎnér",
+    "pinyin": "fǎn’ér",
     "meaning": "im Gegenteil, stattdessen",
     "type": "Adverb",
     "level": "HSK5",
@@ -10230,12 +10184,6 @@ window.VOCAB_HSK5 = [
       "page": 138
     },
     "traditional": "分析",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "分析 分析 [fen1 xi1]"
     }
@@ -10979,12 +10927,6 @@ window.VOCAB_HSK5 = [
     },
     "examples": [],
     "traditional": "改正",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "改正 改正 [gai3 zheng4]"
     },
@@ -11687,12 +11629,6 @@ window.VOCAB_HSK5 = [
       "page": 140
     },
     "traditional": "根本",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "根本 根本 [gen1 ben3]"
     }
@@ -29777,10 +29713,6 @@ window.VOCAB_HSK5 = [
       {
         "word": "次",
         "pinyin": "ci4"
-      },
-      {
-        "word": "个",
-        "pinyin": "ge4"
       }
     ],
     "evidence": {
@@ -31453,12 +31385,6 @@ window.VOCAB_HSK5 = [
     },
     "examples": [],
     "traditional": "所",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "所 所 [suo3]"
     },
@@ -32707,12 +32633,6 @@ window.VOCAB_HSK5 = [
       "page": 158
     },
     "traditional": "痛苦",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "痛苦 痛苦 [tong4 ku3]"
     }
@@ -33684,10 +33604,6 @@ window.VOCAB_HSK5 = [
     "traditional": "微笑",
     "measureWords": [
       {
-        "word": "个",
-        "pinyin": "ge4"
-      },
-      {
         "word": "丝",
         "pinyin": "si1"
       }
@@ -34088,12 +34004,6 @@ window.VOCAB_HSK5 = [
     },
     "examples": [],
     "traditional": "未來",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "未來 未来 [wei4 lai2]"
     },
@@ -35438,12 +35348,6 @@ window.VOCAB_HSK5 = [
     },
     "examples": [],
     "traditional": "現代化",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "現代化 现代化 [xian4 dai4 hua4]"
     },
@@ -35575,12 +35479,6 @@ window.VOCAB_HSK5 = [
       "page": 161
     },
     "traditional": "限制",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "限制 限制 [xian4 zhi4]"
     }
@@ -36796,12 +36694,6 @@ window.VOCAB_HSK5 = [
     },
     "examples": [],
     "traditional": "行動",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "行動 行动 [xing2 dong4]"
     },
@@ -37312,12 +37204,6 @@ window.VOCAB_HSK5 = [
       "page": 162
     },
     "traditional": "宣傳",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "宣傳 宣传 [xuan1 chuan2]"
     }
@@ -37639,12 +37525,6 @@ window.VOCAB_HSK5 = [
     },
     "examples": [],
     "traditional": "訓練",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "訓練 训练 [xun4 lian4]"
     },
@@ -39003,7 +38883,7 @@ window.VOCAB_HSK5 = [
   {
     "id": "w:因而:yin1er2",
     "word": "因而",
-    "pinyin": "yīnér",
+    "pinyin": "yīn’ér",
     "meaning": "daher, infolgedessen",
     "type": "Konjunktion",
     "level": "HSK5",
@@ -44051,12 +43931,6 @@ window.VOCAB_HSK5 = [
     },
     "examples": [],
     "traditional": "轉變",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "轉變 转变 [zhuan3 bian4]"
     },
@@ -44943,12 +44817,6 @@ window.VOCAB_HSK5 = [
       "page": 169
     },
     "traditional": "組織",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "組織 组织 [zu3 zhi1]"
     }

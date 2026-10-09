@@ -3748,12 +3748,6 @@ window.VOCAB_HSK2 = [
       "page": 89
     },
     "traditional": "可能",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "可能 可能 [ke3 neng2]"
     },

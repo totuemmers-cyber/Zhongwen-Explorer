@@ -3242,7 +3242,7 @@ window.VOCAB_HSK7_9 = [
   {
     "id": "w:悲哀:bei1ai1",
     "word": "悲哀",
-    "pinyin": "bēiāi",
+    "pinyin": "bēi’āi",
     "meaning": "traurig, Trauer",
     "type": "Adjektiv",
     "level": "HSK7-9",
@@ -9615,7 +9615,7 @@ window.VOCAB_HSK7_9 = [
   {
     "id": "w:草案:cao3an4",
     "word": "草案",
-    "pinyin": "cǎoàn",
+    "pinyin": "cǎo’àn",
     "meaning": "Entwurf, Gesetzesentwurf",
     "type": "Nomen",
     "level": "HSK7-9",
@@ -14648,12 +14648,6 @@ window.VOCAB_HSK7_9 = [
     },
     "examples": [],
     "traditional": "處分",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "處分 处分 [chu3 fen4]"
     },
@@ -38940,7 +38934,7 @@ window.VOCAB_HSK7_9 = [
   {
     "id": "w:和蔼:he2ai3",
     "word": "和蔼",
-    "pinyin": "héǎi",
+    "pinyin": "hé’ǎi",
     "meaning": "freundlich, gutig",
     "type": "Adjektiv",
     "level": "HSK7-9",
@@ -44701,10 +44695,6 @@ window.VOCAB_HSK7_9 = [
     "examples": [],
     "traditional": "集會",
     "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      },
       {
         "word": "次",
         "pinyin": "ci4"
@@ -64382,12 +64372,6 @@ window.VOCAB_HSK7_9 = [
     },
     "examples": [],
     "traditional": "麻",
-    "measureWords": [
-      {
-        "word": "缕",
-        "pinyin": "lv3"
-      }
-    ],
     "evidence": {
       "cedict": "麻 麻 [ma2]"
     },
@@ -72321,12 +72305,6 @@ window.VOCAB_HSK7_9 = [
     },
     "examples": [],
     "traditional": "批判",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "批判 批判 [pi1 pan4]"
     },
@@ -72572,7 +72550,7 @@ window.VOCAB_HSK7_9 = [
   {
     "id": "w:偏爱:pian1ai4",
     "word": "偏爱",
-    "pinyin": "piānài",
+    "pinyin": "piān’ài",
     "meaning": "bevorzugen, Vorliebe",
     "type": "Verb",
     "level": "HSK7-9",
@@ -94054,7 +94032,7 @@ window.VOCAB_HSK7_9 = [
   {
     "id": "w:疼爱:teng2ai4",
     "word": "疼爱",
-    "pinyin": "téngài",
+    "pinyin": "téng’ài",
     "meaning": "jmdn. sehr lieb haben; jmdn. sehr lieben",
     "meaningStatus": "draft",
     "meaningSource": "HanDeDict",
@@ -99268,12 +99246,6 @@ window.VOCAB_HSK7_9 = [
     },
     "examples": [],
     "traditional": "汪洋",
-    "measureWords": [
-      {
-        "word": "片",
-        "pinyin": "pian4"
-      }
-    ],
     "evidence": {
       "cedict": "汪洋 汪洋 [wang1 yang2]"
     },
@@ -105650,12 +105622,6 @@ window.VOCAB_HSK7_9 = [
     },
     "examples": [],
     "traditional": "響應",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "響應 响应 [xiang3 ying4]"
     },
@@ -125093,7 +125059,7 @@ window.VOCAB_HSK7_9 = [
   {
     "id": "w:治安:zhi4an1",
     "word": "治安",
-    "pinyin": "zhìān",
+    "pinyin": "zhì’ān",
     "meaning": "öffentliche Sicherheit und Ordnung",
     "type": "Nomen",
     "level": "HSK7-9",

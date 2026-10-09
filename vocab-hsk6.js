@@ -4358,16 +4358,6 @@ window.VOCAB_HSK6 = [
     },
     "examples": [],
     "traditional": "尺",
-    "measureWords": [
-      {
-        "word": "支",
-        "pinyin": "zhi1"
-      },
-      {
-        "word": "把",
-        "pinyin": "ba3"
-      }
-    ],
     "evidence": {
       "cedict": "尺 尺 [chi3]"
     },
@@ -4649,12 +4639,6 @@ window.VOCAB_HSK6 = [
       "page": 174
     },
     "traditional": "抽象",
-    "measureWords": [
-      {
-        "word": "种",
-        "pinyin": "zhong3"
-      }
-    ],
     "evidence": {
       "cedict": "抽象 抽象 [chou1 xiang4]"
     }
@@ -12153,12 +12137,6 @@ window.VOCAB_HSK6 = [
     },
     "examples": [],
     "traditional": "構造",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "構造 构造 [gou4 zao4]"
     },
@@ -13332,7 +13310,7 @@ window.VOCAB_HSK6 = [
   {
     "id": "w:海岸:hai3an4",
     "word": "海岸",
-    "pinyin": "hǎiàn",
+    "pinyin": "hǎi’àn",
     "meaning": "Küste",
     "type": "Nomen",
     "level": "HSK6",
@@ -13975,7 +13953,7 @@ window.VOCAB_HSK6 = [
   {
     "id": "w:黑暗:hei1an4",
     "word": "黑暗",
-    "pinyin": "hēiàn",
+    "pinyin": "hēi’àn",
     "meaning": "dunkel, Dunkelheit",
     "type": "Adjektiv",
     "level": "HSK6",
@@ -23992,10 +23970,6 @@ window.VOCAB_HSK6 = [
       {
         "word": "道",
         "pinyin": "dao4"
-      },
-      {
-        "word": "个",
-        "pinyin": "ge4"
       }
     ],
     "evidence": {
@@ -32027,12 +32001,6 @@ window.VOCAB_HSK6 = [
       "page": 201
     },
     "traditional": "松",
-    "measureWords": [
-      {
-        "word": "棵",
-        "pinyin": "ke1"
-      }
-    ],
     "evidence": {
       "cedict": "松 松 [song1]"
     }
@@ -32318,12 +32286,6 @@ window.VOCAB_HSK6 = [
     },
     "examples": [],
     "traditional": "所",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "所 所 [suo3]"
     },
@@ -40325,12 +40287,6 @@ window.VOCAB_HSK6 = [
     },
     "examples": [],
     "traditional": "議論",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "議論 议论 [yi4 lun4]"
     },
@@ -43933,12 +43889,6 @@ window.VOCAB_HSK6 = [
       "page": 212
     },
     "traditional": "指揮",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "指揮 指挥 [zhi3 hui1]"
     }
@@ -43959,12 +43909,6 @@ window.VOCAB_HSK6 = [
     },
     "examples": [],
     "traditional": "指示",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "指示 指示 [zhi3 shi4]"
     },
@@ -44898,12 +44842,6 @@ window.VOCAB_HSK6 = [
       "page": 213
     },
     "traditional": "主張",
-    "measureWords": [
-      {
-        "word": "个",
-        "pinyin": "ge4"
-      }
-    ],
     "evidence": {
       "cedict": "主張 主张 [zhu3 zhang1]"
     }
@@ -45976,7 +45914,7 @@ window.VOCAB_HSK6 = [
   {
     "id": "w:阻碍:zu3ai4",
     "word": "阻碍",
-    "pinyin": "zǔài",
+    "pinyin": "zǔ’ài",
     "meaning": "behindern; hindern; Hindernis",
     "type": "Verb",
     "level": "HSK6",

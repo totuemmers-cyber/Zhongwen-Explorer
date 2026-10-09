@@ -244,3 +244,186 @@ Author flags, type changes and reviewer fixes per batch, for follow-up decisions
 - w:怕:pa4 怕 (reviewer fix): Note equated the later-level adverb sense of 怕 with the separate word 恐怕
 - w:平时:ping2shi2 平时 type → Nomen: 名: time noun („gewöhnliche Zeiten“) that, like 今天, can stand before the verb
 - w:骑:qi2 骑 (reviewer fix): Note said 骑车 is a short form for "das Fahrrad"; it is short for 骑自行车 "Rad fahren"
+
+## b008 (2026-10-09, author+review)
+- w:免费:mian3fei4 免费 type → Verb: 动: official part of speech is verb (Gebühr erlassen), also used attributively with 的 and adverbially
+- w:面试:mian4shi4 面试 type → Verb: 动: official part of speech is verb (interviewen / ein Vorstellungsgespräch haben); nominal use is common
+- w:目前:mu4qian2 目前 type → Nomen: 名: time noun (like 现在), used adverbially but also attributively (目前的情况) and after prepositions (到目前为止)
+- w:内容:nei4rong2 内容 (reviewer fix): Note overstated ("sagt man nicht 内容") – softened.
+- w:内心:nei4xin1 内心 (reviewer fix): Example 3 lacked a subject in the main clause (在她内心深处，一直想…) – rephrased.
+- w:能否:neng2fou3 能否 (reviewer fix): Example 3 (比赛能否赢) unnatural word order – rephrased.
+- w:能力:neng2li4 能力 (reviewer fix): Note overstated ("nicht mit 好 / 坏") and missed 高/低 – softened.
+- w:年龄:nian2ling2 年龄 (author): measureWords lists 把 (ba3) — belongs to 年纪 (一把年纪), not to 年龄; 个 is also unusual for 年龄.
+- w:偶尔:ou3er3 偶尔 (author): Card pinyin 'ǒuěr' lacks the apostrophe; standard is ǒu'ěr.
+- w:排:pai2 排 type → Zählwort: 量 (also 动、名): measure word for rows, not a numeral (Zahlwort)
+- w:牌:pai2 牌 (reviewer fix): German of example 1 unidiomatic („spielen wir Freunde zusammen Karten“).
+- w:判断:pan4duan4 判断 (reviewer fix): Example 1 (你怎么判断这件事？) unnatural – one says 你怎么看; replaced.
+- w:篇:pian1 篇 type → Zählwort: 量: Zählwort, kein Zahlwort
+- w:篇:pian1 篇 (reviewer fix): 篇 zählt v. a. kürzere Texte; Romane meist mit 部 – „Romane“ aus der Bedeutung entfernt, Hinweis ergänzt; 论文 ist nicht nur „Abschlussarbeit“.
+- w:片:pian4 片 type → Zählwort: 量: Zählwort, kein Zahlwort
+- w:乒乓球:ping1pang1qiu2 乒乓球 (reviewer fix): Überzogene Regel „nicht mit 玩“ abgeschwächt; Pinyin Zhōngguórén zusammengeschrieben.
+- w:其次:qi2ci4 其次 type → Pronomen: 代: Pronomen laut Syllabus (verweist auf ‚das Nächste, an zweiter Stelle‘), keine Konjunktion
+- w:其中:qi2zhong1 其中 type → Nomen: 名: im Syllabus als (Orts-)Nomen geführt, kein Pronomen
+- w:强:qiang2 强 (author): variants: 犟 ist Variante der Lesung jiàng („stur“), nicht von qiáng „stark“.
+- w:桥:qiao2 桥 (reviewer fix): Übersetzung von Beispiel 3 fügte „immer“ hinzu; 特别堵 = besonders viel Stau.
+- w:琴:qin2 琴 (reviewer fix): Beispiel 3 enthielt nur 钢琴/小提琴, nicht das Wort 琴 selbst – ersetzt.
+- w:青年:qing1nian2 青年 (reviewer fix): „Jugendlicher“ meint im Deutschen Teenager (= eher 少年, wie die Notiz selbst sagt) – Bedeutung angepasst.
+- w:缺:que1 缺 (reviewer fix): Note implied 缺少 is mostly used with abstract objects, contradicting the 缺少 card (缺少盐); only 缺乏 prefers abstract objects.
+- w:缺少:que1shao3 缺少 (reviewer fix): Overstated „fast nur“ for 缺乏 (缺乏资金 etc. are common); softened to „meist“.
+- w:然而:ran2er2 然而 (author): Card pinyin 'ránér' lacks the apostrophe; should be rán'ér.
+- w:人员:ren2yuan2 人员 (reviewer fix): German of example 2 invented an accident scene („Rettungskräfte … am Unfallort“); 医护人员 = medical staff, 现场 = on site.
+- w:仍然:reng2ran2 仍然 (reviewer fix): Absolute „rein schriftsprachlich“ softened (仍 also occurs in formal speech, news); pinyin for 仍 added.
+- w:入学:ru4xue2 入学 (reviewer fix): Confusing claim that the school is „attached with 进“ (进大学 does not contain 入学); rewrote the object explanation.
+- w:散步:san4bu4 散步 (reviewer fix): 走路 does not mean „längere Wanderung“ (it is just „zu Fuß gehen“); corrected the contrast.
+- w:伤心:shang1xin1 伤心 (reviewer fix): 别伤心了 is consolation, not „Ermahnung“; last sentence was ungrammatical German.
+- w:少见:shao3jian4 少见 (reviewer fix): Unidiomatic German gloss „ein seltener starker Schnee“.
+- w:少量:shao3liang4 少量 (reviewer fix): Example 3 had tickets left „im Laden“ (商店), an odd situation; replaced with tickets for a performance.
+- w:甚至:shen4zhi4 甚至 type → Konjunktion: 连: official part of speech is conjunction
+- w:甚至:shen4zhi4 甚至 (reviewer fix): 甚至连…都 was glossed as „nicht einmal“ in general; that only holds with negation.
+- w:生:sheng1 生 (author): Card #1 (动) carried the adjective meaning/examples 'roh' while card #2 (形) carried the verb glosses; meanings and examples swapped to match syllabusPos. The removed 'roh' examples were reused on w:生:sheng1#2.
+- w:生:sheng1 生 type → Verb: 动: verb (gebären, entstehen), not the adjective „roh“
+- w:生命:sheng1ming4 生命 (reviewer fix): 救生命 / 医生救了他的生命 is translationese (natives say 救命, 救了他的命); replaced collocation and example with 失去生命.
+- w:省:sheng3 省 (author): Existing meaning/example used the verb 'sparen' (省钱), but this card is 名 (Provinz); the verb is w:省:sheng3#2 (HSK5). Removed 省钱 example; consider moving it there.
+- w:省:sheng3 省 (reviewer fix): 我是四川省人 is stilted (natives say 四川人); German „Kanton“ outdated for 广州.
+- w:师生:shi1sheng1 师生 (reviewer fix): Deutsche Übersetzung von Beispiel 2 holprig und setzt einen Lehrer mit mehreren Schülern voraus; durch „Lehrer-Schüler-Verhältnis“ ersetzt.
+- w:收听:shou1ting1 收听 (reviewer fix): 不 im Potentialkomplement tonlos: shōutīng bu dào (wie sonst im Korpus).
+- w:受不了:shou4bu4liao3 受不了 type → Verb: 动: verb in potential-complement form, not an idiom
+- w:数:shu4 数 (reviewer fix): Deutsche Übersetzung von Beispiel 2 holprig („eine mehrere hundert Jahre alte Geschichte“).
+- w:说法:shuo1fa3 说法 (author): Reading: 现代汉语词典 gives shuōfa (neutral tone) for the noun 'wording; version' and shuōfǎ only for the verb 'to preach Buddhist doctrine'; the HSK syllabus reading shuōfǎ is kept.
+- w:说明:shuo1ming2 说明 type → Verb: 动、名: primarily a verb ('erklären; zeigen'), noun use secondary
+- w:死:si3 死 (reviewer fix): 记死 ist keine übliche Verbindung für „stur auswendig lernen“ – durch 卡死 bzw. 死记硬背 ersetzt.
+- w:抬头:tai2tou2 抬头 (reviewer fix): Übertragene Bedeutung nicht nur für Unerwünschtes – Aussage abgeschwächt.
+- w:趟:tang4 趟 type → Zählwort: 量: measure word, not a numeral
+- w:讨厌:tao3yan4 讨厌 (reviewer fix): Unklare Formulierung („ein ganzer Satz mit 讨厌 begonnen“) zum alleinstehenden Ausruf präzisiert.
+- w:提前:ti2qian2 提前 type → Verb: 动: verb (to move earlier, to do ahead of time), often used adverbially before another verb
+- w:提醒:ti2xing3 提醒 (reviewer fix): Beispiel 3: „riet ihm eindringlich“ überinterpretiert 提醒 – zu „hat ihn ermahnt“ korrigiert.
+- w:体检:ti3jian3 体检 type → Verb: 动: official part of speech is verb (have a medical check-up); also used as a noun
+- w:听众:ting1zhong4 听众 (reviewer fix): Behauptung „steht ohne Pluralendung“ ist überzogen (听众们 ist üblich) – durch Hinweis auf Zählwort 位 ersetzt.
+
+## b006 (2026-10-09, author+review)
+- w:安检:an1jian3 安检 type → Verb: 动: syllabus lists 安检 as a verb (short for 安全检查), even though it is often used like a noun
+- w:办公:ban4gong1 办公 (reviewer fix): Example 3: for a bank one says 营业时间, not 办公时间; replaced with office hours of an office.
+- w:保护:bao3hu4 保护 (author): measureWords lists 种 (from HanDeDict, for the noun „Schutz“); a measure word is hardly meaningful for this verb card.
+- w:报考:bao4kao3 报考 (reviewer fix): Notes: gloss of 报考公务员 was inaccurate („machen wollen“).
+- w:倍:bei4 倍 type → Zählwort: 量: measure word for multiples, not a numeral
+- w:本科:ben3ke1 本科 (reviewer fix): Notes: 专科/大专 is not equivalent to a German Fachhochschule (which awards Bachelor degrees); described as a three-year vocational short programme.
+- w:笨:ben4 笨 (reviewer fix): Example 2 pinyin: 不 in the potential complement 包不好 is neutral (bāo bu hǎo).
+- w:鼻子:bi2zi5 鼻子 (author): measureWords lists 只 for 鼻子; 只 is not a usual classifier for a nose (个 is).
+- w:表:biao3 表 (author): Traditional form given as 表 only; for the HSK 4 sense „Uhr“ the traditional form is 錶 (表 for table/form/surface).
+- w:饼干:bing3gan1 饼干 (reviewer fix): Example 3 German was ungrammatical („ist ... mitgebracht“).
+- w:并:bing4 并 (author): Traditional form given as 並 only; for the verb sense „zusammenlegen“ the traditional form is 併.
+- w:部:bu4 部 (reviewer fix): Notes: 一部手机 is common on the mainland, not „gehoben“; example 2 pinyin: 销售部 written as one word.
+- w:不如:bu4ru2 不如 type → Verb: 动: verb (A 不如 B), not a conjunction
+- w:差点儿:cha4dian3r5 差点儿 type → Adverb: 形、副: overwhelmingly used as the adverb 'beinahe'; the adjective sense 'etwas schlechter' is secondary
+- w:车位:che1wei4 车位 (reviewer fix): Pinyin: Zahl 二十万 als ein Wort (èrshíwàn).
+- w:成功:cheng2gong1 成功 type → Verb: 动、形: verb/adjective (实验成功了, 很成功); the noun use 'Erfolg' is secondary
+- w:乘客:cheng2ke4 乘客 (reviewer fix): Pinyin: 各位 als ein Wort (gèwèi).
+- w:吃惊:chi1jing1 吃惊 type → Verb: 动: verb (psychological verb, takes 很 like 喜欢), not an adjective
+- w:重:chong2 重 (reviewer fix): Pinyin 重做 einheitlich zusammengeschrieben wie 重写/重来 (chóngzuò); holpriges Deutsch „mit derselben Schreibung“ geglättet.
+- w:出口:chu1kou3 出口 type → Nomen: 名、（动）: noun 'Ausgang' at this level; the verb 'exportieren' belongs to a later level
+- w:粗:cu1 粗 (reviewer fix): Notes overstated „nur bei langen, runden Dingen“ and implied 粗 is never used for people (腿很粗 is normal); softened.
+- w:错误:cuo4wu4 错误 (reviewer fix): Meaning not in house style (comma instead of „; “); added main sense „Irrtum“.
+- w:打招呼:da3zhao1hu5 打招呼 (reviewer fix): Notes describe the split (打个招呼, 打了招呼) but separable was not set and no example showed the split form; marked separable and replaced example 3 with a split form for the „Bescheid sagen“ sense.
+- w:打败:da3bai4 打败 (reviewer fix): Notes cited 打败仗 as intransitive 打败, but it is 打 + 败仗 (VO); replaced with a genuine intransitive use.
+- w:大大:da4da4 大大 (reviewer fix): Example 2: 上班的时间 means working hours, not commute as the German says; changed to 上班路上的时间.
+- w:戴:dai4 戴 (reviewer fix): Notes defined 戴 as „ohne hineinzuschlüpfen“ but then listed Handschuhe, which one slips into; reworded the criterion.
+- w:等:deng3#2 等 (reviewer fix): Pinyin word spacing: 二等座 is one word (èrděngzuò).
+- w:低价:di1jia4 低价 (reviewer fix): Example 2: 用低价买到 is unidiomatic (one would say 以低价); rewritten with attributive 低价机票.
+- w:地球:di4qiu2 地球 (reviewer fix): Pinyin: 大部分 is one word (dàbùfen).
+- w:堵车:du3che1 堵车 (reviewer fix): Pinyin ex1: 路上 is lùshang (one word, neutral tone, as in ex3); unsplit 堵车 written dǔchē.
+- w:肚子:du4zi5 肚子 (reviewer fix): 胃 is the normal everyday word for stomach, not just a medical term.
+- w:对于:dui4yu2 对于 (reviewer fix): Contrast example was a garbled fragment (对于我很好); now the full wrong sentence 他对于我很好.
+- w:队长:dui4zhang3 队长 (reviewer fix): A tour guide is not called 队长 (导游/领队); replaced ex3 and the 'Reiseeinheit' wording in the note.
+- w:顿:dun4 顿 type → Zählwort: 量: measure word, not a numeral
+- w:儿童:er2tong2 儿童 (reviewer fix): Confused age phrase ('Schulalter von zwölf Jahren') and absolute 'nie' softened.
+- w:法:fa3 法 (author): Card is HSK4 名 法 fǎ; the draft gloss mixed in the Buddhist sense (dropped). Standalone 法 is rare in modern usage, so examples rely on compounds (违法, 国法, 做法).
+- w:法律:fa3lv4 法律 (author): measureWords contains " 套" with a leading space; should be "套".
+- w:烦恼:fan2nao3 烦恼 type → Adjektiv: 形: adjective in the syllabus (also used as a noun)
+- w:份:fen4 份 type → Zählwort: 量: measure word, not a numeral
+- w:否则:fou3ze2 否则 (reviewer fix): Potentialkomplement 买不到: 不 neutral (mǎi bu dào), nicht bú
+- w:幅:fu2 幅 type → Zählwort: 量: measure word, not a numeral
+- w:高速:gao1su4 高速 type → Adjektiv: 形: adjective (high-speed), not a noun
+- w:高速:gao1su4 高速 (reviewer fix): 高速铁路/高铁 ist „Hochgeschwindigkeitsbahn“; „Schnellbahn“ wird im Deutschen als S-Bahn verstanden
+
+## b007 (2026-10-09, author+review)
+- w:功夫:gong1fu5 功夫 (reviewer fix): bare 有功夫 usually means „Zeit haben“, not praise of skill; homophone 工夫 lacked pinyin
+- w:公里:gong1li3 公里 type → Zählwort: 量: unit of length used as a measure word, not a noun
+- w:工资:gong1zi1 工资 (reviewer fix): example 3 word order 的工资一半 awkward; natural is 工资的一半
+- w:够:gou4 够 type → Verb: 动、副: verb (to suffice) and adverb, not an adjective
+- w:管理:guan3li3 管理 (author): measureWords lists 个 for the verb 管理; a measure word is hardly meaningful here.
+- w:广告:guang3gao4 广告 (author): measureWords lists 项 for 广告, which is unusual; common are 个, 条, 则.
+- w:规定:gui1ding4 规定 (reviewer fix): note lumped 规则 in with „ungeschriebene Regeln“; 规则 are mostly explicit rules
+- w:寒假:han2jia4 寒假 (reviewer fix): gloss „Winterferien bekommen“ for 放寒假 unidiomatic
+- w:喊:han3 喊 (reviewer fix): pinyin word spacing: 楼下 is one word (lóuxià)
+- w:合格:he2ge2 合格 (reviewer fix): missing the key contrast with 及格 (passing a graded exam); „als Note ausreichend“ was misleading
+- w:厚:hou4 厚 (reviewer fix): 粗 described as for „runde Dinge“ (it is for long/cylindrical ones); vague gloss „stark“ replaced
+- w:环保:huan2bao3 环保 (reviewer fix): 意识 is yìshí (HSK yi4shi2), not yìshi
+- w:回忆:hui2yi4 回忆 type → Verb: 动: official POS is verb (noun use is secondary)
+- w:货:huo4 货 (author): measure word 个 questionable for 货; the usual classifier is 批 (一批货), for single items 件
+- w:积极:ji1ji2 积极 (reviewer fix): last sentence was vague/misleading (positive test = 阳性, not 正面/好); clarified with pinyin
+- w:加油:jia1you2 加油 type → Verb: 动: official POS is verb (tanken; sich anstrengen), the cheer is a use of it
+- w:减:jian3 减 (reviewer fix): 这件衣服减了一百块 is unidiomatic for a price reduction (降价/便宜了); replaced with natural 老板给我减了五十块钱
+- w:健身房:jian4shen1fang2 健身房 (reviewer fix): German gloss „eine Mitgliedskarte abschließen“ unidiomatic
+- w:将:jiang1 将 (reviewer fix): meaning gloss „(Präposition) Objekt voranstellen wie ba“ clumsy, ba without tone
+- w:奖学金:jiang3xue2jin1 奖学金 (reviewer fix): examples 1 and 2 near-duplicates (她获得了…奖学金); replaced the first with a distinct situation
+- w:降价:jiang4jia4 降价 (reviewer fix): „im Preis senken“ needs an object in German; clearer gloss
+- w:教学:jiao4xue2 教学 (reviewer fix): unsupported claim that verb jiāoxué is „meist durch 教书 ersetzt“
+- w:街道:jie1dao4 街道 (reviewer fix): 街道办事处 is the subdistrict office, not a „Straßenkomitee“ (that would be 居委会); note and example 3 German corrected
+- w:接受:jie1shou4 接受 (reviewer fix): 接收 jiēshōu is not a homophone of 接受 jiēshòu (different tone)
+- w:今后:jin1hou4 今后 type → Nomen: 名: time noun (今后的工作), used adverbially like 将来
+- w:进入:jin4ru4 进入 (reviewer fix): „braucht ein Objekt“ contradicted by its own example 不得进入
+- w:竞争:jing4zheng1 竞争 type → Verb: 动: listed as verb in the syllabus; the noun use follows from it
+- w:聚会:ju4hui4 聚会 (reviewer fix): meaning lacked the verb sense (syllabus 动、名) and used commas instead of house-style semicolons
+- w:课程:ke4cheng2 课程 (author): measureWords 堂/节 count single lessons (一节课, 一堂课), not 课程; 门 is the fitting measure word for 课程.
+- w:快餐:kuai4can1 快餐 (reviewer fix): pinyin word spacing: 快餐店 is one word (kuàicāndiàn)
+- w:快速:kuai4su4 快速 (reviewer fix): 快速的生活节奏 is an unnatural collocation (natural: 快节奏的生活 / 生活节奏很快); replaced example 3
+- w:来不及:lai2bu4ji2 来不及 type → Verb: 动: listed as verb in the syllabus
+- w:来得及:lai2de5ji2 来得及 type → Verb: 动: verb with potential complement (来得及/来不及), not a free phrase
+- w:浪漫:lang4man4 浪漫 (reviewer fix): 浪漫 is a phonetic loan (via Japanese rōman), not a „Lehnbildung“ (calque).
+- w:老虎:lao3hu3 老虎 (reviewer fix): Note cited 纸老虎 as an example of the single character 虎; separated it; added missing pinyin.
+- w:老家:lao3jia1 老家 (reviewer fix): Note presented 家乡 as a word for „Heimatland“; it is a near-synonym of 老家 (hometown).
+- w:老年:lao3nian2 老年 (reviewer fix): 给老年人提供免费的公共汽车 reads as 'providing free buses'; rewrote example 2; added pinyin for 童年/青年/中年; softened 老人 comparison.
+- w:理解:li3jie3 理解 (reviewer fix): Unclear phrase „akustisch/inhaltlich verstanden?“ (acoustic understanding is 听懂); clarified and added pinyin.
+- w:例子:li4zi5 例子 (reviewer fix): „nicht 给例子“ overstated; 给个例子 occurs colloquially.
+- w:俩:lia3 俩 (reviewer fix): German of example 2 was awkward („ist von Beruf Lehrer, alle beide“).
+- w:零下:ling2xia4 零下 (reviewer fix): Example 3 had 冬天 as subject of a temperature reading (冬天…在零下二十度以下); added 气温.
+- w:零花钱:ling2hua1qian2 零花钱 (reviewer fix): Claim that 零花钱 is counted with 笔 is misleading; removed.
+- w:流:liu2 流 (reviewer fix): Odd remark on 人流 (also colloquial for abortion) replaced with useful derived words; added pinyin.
+- w:流行:liu2xing2 流行 type → Verb: 动: verb in the syllabus (in Mode sein, sich verbreiten); takes 很 like other state verbs
+- w:旅馆:lv3guan3 旅馆 (reviewer fix): Note glossed 住旅馆 as plain „übernachten“; corrected to „im Hotel übernachten“, added pinyin.
+
+## b009 (2026-10-09, author+review)
+- w:头痛:tou2tong4 头痛 type → Adjektiv: 形: im Syllabus als Adjektiv geführt (Kopfschmerzen haben; lästig sein), nicht als Nomen
+- w:土:tu3 土 (reviewer fix): Beispiel 1 widersprüchlich: nach Regen sind Schuhe voller Schlamm (泥), nicht voller 土 (Staub/trockene Erde); Situation ersetzt.
+- w:袜子:wa4zi5 袜子 (author): measureWords: 对 (duì) ist für 袜子 unüblich; Standard sind 双 (Paar) und 只 (einzelne Socke).
+- w:晚安:wan3an1 晚安 (author): syllabusPos 动 für die Grußformel 晚安 ist fragwürdig; type Ausdruck belassen.
+- w:危险:wei1xian3 危险 (reviewer fix): 脱离危险 heißt allgemein „außer Gefahr sein“, nicht speziell „außer Lebensgefahr“; Lebensgefahr = 生命危险 ergänzt.
+- w:味:wei4 味 (reviewer fix): Pinyin-Worttrennung: 怪味 und 辣味 sind lexikalisierte Wörter (guàiwèi, làwèi), die Notiz nennt 辣味 selbst als Zusammensetzung.
+- w:温度:wen1du4 温度 (reviewer fix): Notiz behauptete fälschlich, im Deutschen sage man „heiß/kalt“ statt „hoch/niedrig“; Fehlerquelle ist 温度很热. „Heute hat es dreißig Grad“ regional → „Heute sind es“.
+- w:无:wu2 无 (reviewer fix): Pinyin-Worttrennung: 有无 ist ein Wort (yǒuwú), wie in der Notiz als feste Wendung genannt.
+- w:相反:xiang1fan3 相反 (reviewer fix): Letzter Satz unvollständig/missverständlich formuliert („Gegenteil von 相同 … ist dagegen“), Satzzeichen „…. “ verunglückt; Notiz sprachlich bereinigt.
+- w:信心:xin4xin1 信心 (author): measureWords lists 个 for 信心; the abstract noun is normally used without a measure word (一个信心 is unusual).
+- w:性:xing4 性 (author): measureWords lists 个 for the suffix 性; a suffix takes no measure word.
+- w:修:xiu1 修 (reviewer fix): „修理 … nur für „reparieren““ überzogen (修理 heißt auch „stutzen“ und umgangssprachlich „jemanden zurechtweisen“, wie die 修理-Karte selbst sagt); Kontrast präziser formuliert.
+- w:学费:xue2fei4 学费 (author): measureWords lists 个 for 学费; a sum of money is usually counted with 笔.
+- w:盐:yan2 盐 (reviewer fix): Pinyin: Lokalisator 里 nach Nomen im Neutralton (Cài li), nicht lǐ.
+- w:严重:yan2zhong4 严重 (reviewer fix): Übersetzung „Das Umweltproblem“ ungenau: 污染问题 ist das Problem der Verschmutzung.
+- w:演出:yan3chu1 演出 type → Verb: 动: official POS is verb (the noun use „Aufführung“ is covered in meaning and note)
+- w:眼镜:yan3jing4 眼镜 (reviewer fix): Holpriger Satz („trägt oder setzt man mit 戴 auf“) umformuliert; fehlende Pinyin bei 穿, 带, 隐形眼镜, 太阳镜 ergänzt.
+- w:阳光:yang2guang1 阳光 (reviewer fix): Verunglückter Satzbau (晒太阳-Einschub) bereinigt, Pinyin ergänzt; 阳光政策 bezeichnet meist die koreanische „Sonnenscheinpolitik“, daher Transparenz-Beispiel durch 阳光政务 ersetzt.
+- w:幽默:you1mo4 幽默 (reviewer fix): Sachfehler: 幽默 ist eine lautliche Entlehnung (Lehnwort), keine Lehnübertragung; fehlende Pinyin ergänzt.
+- w:有效:you3xiao4 有效 type → Verb: 动: official POS is verb (stative „wirksam/gültig sein“, used like an adjective with 很)
+- w:暂时:zan4shi2 暂时 type → Adjektiv: 形: adjective per syllabus (暂时的困难); the frequent adverbial use before verbs is explained in the note
+- w:增长:zeng1zhang3 增长 (reviewer fix): Ex. 3: 增长 with 人 as subject is unnatural; it takes amounts/numbers as subject (人数), as the note itself says.
+- w:招聘:zhao1pin4 招聘 (reviewer fix): Ex. 1 and 2 were near-duplicates (公司正在招聘…); replaced ex. 2 with a 招聘广告 sentence.
+- w:植物:zhi2wu4 植物 (reviewer fix): Note: 养花 glossed as unidiomatic German „Blumen halten“ → „Blumen ziehen; Pflanzen pflegen“; added missing pinyin for 植物园.
+- w:只好:zhi3hao3 只好 (reviewer fix): Deutsche Übersetzungen mit Tempusbruch ("Es gibt keinen Bus mehr, ich musste…", "waren … müssen") und ohne das Notgedrungene von 只好 ("also") geglättet.
+- w:至少:zhi4shao3 至少 (reviewer fix): Beispiel 3: der chinesische Satz ist ein Rat (ohne Vergangenheitsmarker), die Übersetzung "hättest … sollen" war ein irrealer Vorwurf.
+- w:祝贺:zhu4he4 祝贺 (author): measureWords lists 个 for the verb 祝贺 – questionable, probably should be removed.
+- w:著名:zhu4ming2 著名 (reviewer fix): Beispiel 3: 毕业于 heißt "den Abschluss machen an", nicht nur "studiert haben".
+- w:自信:zi4xin4 自信 (reviewer fix): Kontrastwörter 骄傲/自大 ohne Pinyin; 骄傲 wurde nur als „übertriebenes Selbstbewusstsein“ dargestellt, obwohl es oft positiv „stolz“ heißt.
+- w:组:zu3 组 type → Nomen: 名: noun (Gruppe) at HSK 4; 量/动 only at HSK 5 – not a numeral
+- w:组:zu3 组 (reviewer fix): Stufenangabe falsch: laut Syllabus kommt bei HSK 5 das Verb hinzu, nicht das Zählwort („Als Zählwort (ab HSK 5)“).
+- w:最终:zui4zhong1 最终 (reviewer fix): Beispiel 3: 最终目标 ist das „Endziel“, nicht das „eigentliche Ziel“.
+- w:座:zuo4 座 type → Zählwort: 量: measure word (also 名 seat), not a numeral
+- w:作为:zuo4wei2 作为 (reviewer fix): Beispiel 3 (作为一个外国人，他的中文说得非常好) widersprach der eigenen Notiz: Subjekt ist 他的中文, nicht die Person, und gemeint war „für einen Ausländer“ (对…来说), nicht „in der Rolle als“. Durch korrektes Beispiel ersetzt.

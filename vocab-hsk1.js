@@ -2969,10 +2969,6 @@ window.VOCAB_HSK1 = [
     "traditional": "工作",
     "measureWords": [
       {
-        "word": "个",
-        "pinyin": "ge4"
-      },
-      {
         "word": "份",
         "pinyin": "fen4"
       },

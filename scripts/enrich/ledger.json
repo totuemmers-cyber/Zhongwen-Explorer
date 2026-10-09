@@ -4998,5 +4998,5005 @@
   "batch": "b004",
   "policy": "author+review",
   "hash": "2037bc6768fb4c5e"
+ },
+ "w:美好:mei3hao3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "0c352025eb247d74"
+ },
+ "w:美景:mei3jing3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "60f190d011cb787a"
+ },
+ "w:美丽:mei3li4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "c488d3e1c5710acd"
+ },
+ "w:美食:mei3shi2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "641173606e83a3fe"
+ },
+ "w:梦:meng4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "a7d722e9d702a494"
+ },
+ "w:梦想:meng4xiang3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "1d44297c9ed68f00"
+ },
+ "w:密码:mi4ma3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "be84184f05cbfa24"
+ },
+ "w:免费:mian3fei4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "ab15e70cb75437fb"
+ },
+ "w:面对:mian4dui4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "eb00cb7b9d5a62e2"
+ },
+ "w:面试:mian4shi4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "efa47771beb2a035"
+ },
+ "w:秒:miao3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "15f1d6169670583b"
+ },
+ "w:民族:min2zu2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "569a382e69cf5f7c"
+ },
+ "w:末:mo4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "ec16a96d51fdc210"
+ },
+ "w:母女:mu3nv3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "c3e1ff07475880c2"
+ },
+ "w:母亲:mu3qin1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "1a6d82d03c7dbfb2"
+ },
+ "w:母子:mu3zi3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "48fb8bca58db717d"
+ },
+ "w:目标:mu4biao1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "d913abcdd38d7989"
+ },
+ "w:目的:mu4di4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "1fbb677522aa3527"
+ },
+ "w:目的地:mu4di4di4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "2a95438105d58dc9"
+ },
+ "w:目前:mu4qian2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "f5723200e8f9b2ed"
+ },
+ "w:耐心:nai4xin1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "c2e95c64e0d79d8d"
+ },
+ "w:南部:nan2bu4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "2d5f988875cce57b"
+ },
+ "w:难道:nan2dao4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "6738e0b25a902feb"
+ },
+ "w:男士:nan2shi4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "468d3d1509c9fa84"
+ },
+ "w:难受:nan2shou4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "42c13078b0f91be1"
+ },
+ "w:难忘:nan2wang4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "25b8d39a1081412d"
+ },
+ "w:男性:nan2xing4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "fa4c2e8385df85fc"
+ },
+ "w:内:nei4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "ff22be14e240ebd4"
+ },
+ "w:内容:nei4rong2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "0a49df84e1af4b80"
+ },
+ "w:内心:nei4xin1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "919ae05a3d3aea9a"
+ },
+ "w:能否:neng2fou3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "05ca93b6a898f4c5"
+ },
+ "w:能够:neng2gou4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "baa96a5a8ce3875e"
+ },
+ "w:能力:neng2li4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "e55de93c6f29bdd3"
+ },
+ "w:嗯:g5": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "3a01e77e7ade49ad"
+ },
+ "w:年底:nian2di3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "4d1848746b45a6cc"
+ },
+ "w:年龄:nian2ling2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "9f2cb107f59efcdf"
+ },
+ "w:农村:nong2cun1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "07e3fa1fbc967159"
+ },
+ "w:弄:nong4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "5ffe2dd66132a440"
+ },
+ "w:女性:nv3xing4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "06da67df715b13ea"
+ },
+ "w:暖和:nuan3huo5": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "0a33abd53c810931"
+ },
+ "w:偶尔:ou3er3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "31c6a380bfd4f3d4"
+ },
+ "w:拍:pai1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "6dbad74a45697f94"
+ },
+ "w:排:pai2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "393277f56e10b351"
+ },
+ "w:牌:pai2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "bac9701abec488bf"
+ },
+ "w:排队:pai2dui4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "c61b6d356fb88f8a"
+ },
+ "w:排球:pai2qiu2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "64b380572151e5bf"
+ },
+ "w:牌子:pai2zi5": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "814eb969190f5377"
+ },
+ "w:判断:pan4duan4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "cb3967576279a53a"
+ },
+ "w:陪:pei2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "707acaf397fb996a"
+ },
+ "w:批评:pi1ping2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "2b1279a1faa98e08"
+ },
+ "w:皮肤:pi2fu1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "c2ce36db7c7733d0"
+ },
+ "w:脾气:pi2qi5": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "00e18f06bd69a8b5"
+ },
+ "w:皮鞋:pi2xie2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "202b94279a609fef"
+ },
+ "w:篇:pian1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "d13b5c89013e3c2e"
+ },
+ "w:片:pian4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "bb3d7854bfc85bc7"
+ },
+ "w:乒乓球:ping1pang1qiu2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "bf733ecad6d13bde"
+ },
+ "w:平常:ping2chang2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "99c35438a8e26545"
+ },
+ "w:破:po4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "680baceeb27aeeaa"
+ },
+ "w:葡萄:pu2tao5": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "2e145f1f50bb9d1e"
+ },
+ "w:葡萄酒:pu2tao5jiu3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "631583e75a7dd63b"
+ },
+ "w:普遍:pu3bian4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "1665d9aba0ac24cf"
+ },
+ "w:普通:pu3tong1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "a84e8d4e72d37fad"
+ },
+ "w:普通话:pu3tong1hua4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "2dd10b468abcb521"
+ },
+ "w:期:qi1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "1088b7aee8bf37cc"
+ },
+ "w:期末:qi1mo4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "3a946dea916d35b9"
+ },
+ "w:期中:qi1zhong1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "6292cacfcf0f78a8"
+ },
+ "w:其次:qi2ci4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "231fe81c55537f1b"
+ },
+ "w:其中:qi2zhong1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "61cafe0024c99025"
+ },
+ "w:起到:qi3dao4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "bb23605ad4c450b0"
+ },
+ "w:气:qi4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "04257e24f274c79f"
+ },
+ "w:气候:qi4hou4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "928f5390a9724c83"
+ },
+ "w:汽水:qi4shui3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "6010b1e7edc2f6cf"
+ },
+ "w:气温:qi4wen1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "cfc72000a5bea12e"
+ },
+ "w:千克:qian1ke4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "66d79202d9a4a006"
+ },
+ "w:千万:qian1wan4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "5f8ac30c30804971"
+ },
+ "w:签证:qian1zheng4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "76b12dd159016777"
+ },
+ "w:前方:qian2fang1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "838e46ee547570d2"
+ },
+ "w:前后:qian2hou4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "eaa9f49db098ed7b"
+ },
+ "w:强:qiang2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "0454409ffd14b552"
+ },
+ "w:敲:qiao1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "909433595bef898b"
+ },
+ "w:桥:qiao2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "35100cfb9cc6948e"
+ },
+ "w:巧:qiao3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "3ff1773daafa1615"
+ },
+ "w:巧克力:qiao3ke4li4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "51636f0bea4b666f"
+ },
+ "w:亲戚:qin1qi5": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "f5d64804fa1e5e5e"
+ },
+ "w:琴:qin2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "77928130572efd1d"
+ },
+ "w:轻:qing1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "e6812ca804a48be6"
+ },
+ "w:青年:qing1nian2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "0c4c3aa36edadae2"
+ },
+ "w:轻松:qing1song1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "b05b8db7e691e162"
+ },
+ "w:情况:qing2kuang4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "00b2b1eabe2d05a2"
+ },
+ "w:庆祝:qing4zhu4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "db306b9f4269382e"
+ },
+ "w:球队:qiu2dui4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "13e3756aed4fc5e2"
+ },
+ "w:球迷:qiu2mi2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "8676273a5747cead"
+ },
+ "w:区:qu1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "9215e2ecfc354c4f"
+ },
+ "w:区别:qu1bie2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "a69554a45346d00f"
+ },
+ "w:取:qu3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "667408886d2035ef"
+ },
+ "w:取得:qu3de2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "7cd12e2962c3ad2b"
+ },
+ "w:取消:qu3xiao1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "01e17892c7c2bdc1"
+ },
+ "w:全:quan2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "62ae272767c030e9"
+ },
+ "w:全部:quan2bu4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "7de691577532cedc"
+ },
+ "w:全都:quan2dou1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "7acbe15f362ee19c"
+ },
+ "w:全球:quan2qiu2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "d753e050721cb7ff"
+ },
+ "w:全身:quan2shen1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "008ec1b6002d4d5e"
+ },
+ "w:缺:que1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "3ffa47ee2170c8b8"
+ },
+ "w:缺点:que1dian3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "4db5e329f51df1de"
+ },
+ "w:缺少:que1shao3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "c2c448e16b8f4e91"
+ },
+ "w:却:que4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "ab125036ba9cd395"
+ },
+ "w:确实:que4shi2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "c4a142069a31024c"
+ },
+ "w:然而:ran2er2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "0f9cb46bc9d08d29"
+ },
+ "w:热闹:ren4ao5": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "df59c423d1fdbcb9"
+ },
+ "w:人生:ren2sheng1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "831831210f1e9277"
+ },
+ "w:人数:ren2shu4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "de21fc803cd50d89"
+ },
+ "w:人员:ren2yuan2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "a5854c85c100c8b6"
+ },
+ "w:任何:ren4he2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "5d6c54f2b1c03bfc"
+ },
+ "w:任务:ren4wu4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "0720ce7296aa0682"
+ },
+ "w:扔:reng1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "d9f8d14e01a4b4c6"
+ },
+ "w:仍:reng2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "ec73178c70683cad"
+ },
+ "w:仍然:reng2ran2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "2eff1e885798bb69"
+ },
+ "w:日常:ri4chang2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "d3aa614a358b9c1e"
+ },
+ "w:日记:ri4ji4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "d356503575901b2e"
+ },
+ "w:日期:ri4qi1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "9537dac57f54b0ea"
+ },
+ "w:日子:ri4zi5": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "c7a210b750c60700"
+ },
+ "w:入:ru4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "7ed1f4e6802445a4"
+ },
+ "w:入口:ru4kou3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "f0d39eed9e09756f"
+ },
+ "w:入学:ru4xue2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "0775418e50593111"
+ },
+ "w:入住:ru4zhu4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "d77033bbf3e310a0"
+ },
+ "w:散步:san4bu4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "00c563b02a7596e5"
+ },
+ "w:扫码:sao3ma3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "71f8244add5d0ea4"
+ },
+ "w:森林:sen1lin2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "bd335cdf0616a83b"
+ },
+ "w:商量:shang1liang5": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "b5c942382d79d419"
+ },
+ "w:商品:shang1pin3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "d04ef590e73321da"
+ },
+ "w:伤心:shang1xin1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "7f15f1fb7101c46a"
+ },
+ "w:上门:shang4men2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "5ab7cf7d43961266"
+ },
+ "w:稍:shao1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "3381e79cea91f38b"
+ },
+ "w:稍微:shao1wei1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "4a71733def6f400d"
+ },
+ "w:少见:shao3jian4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "8200b927f411d6d2"
+ },
+ "w:少量:shao3liang4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "ea98b33a68d6c147"
+ },
+ "w:少数:shao3shu4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "f3f696bf9f160f9e"
+ },
+ "w:少年:shao4nian2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "7e022844227f35c4"
+ },
+ "w:社会:she4hui4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "b28b359b36aaf8d1"
+ },
+ "w:摄氏度:she4shi4du4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "f16ee6c570824aad"
+ },
+ "w:身:shen1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "6abf72cbe7ff492a"
+ },
+ "w:深:shen1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "837304907cd0f672"
+ },
+ "w:身份证:shen1fen4zheng4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "a16e54c407756564"
+ },
+ "w:申请:shen1qing3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "105514be0e298b98"
+ },
+ "w:甚至:shen4zhi4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "b53c45a6c78cb256"
+ },
+ "w:生:sheng1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "76ca34441e63f619"
+ },
+ "w:生:sheng1#2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "bedc8512a532c90c"
+ },
+ "w:生命:sheng1ming4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "1ce5ebd24c8e0d3c"
+ },
+ "w:生意:sheng1yi5": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "da1feaf86b849d4e"
+ },
+ "w:省:sheng3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "a884d46ee3ae3c02"
+ },
+ "w:剩:sheng4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "84b9b5ba2f4fe973"
+ },
+ "w:失败:shi1bai4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "f50ccef08d9f06ac"
+ },
+ "w:师傅:shi1fu5": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "12b46c82b3451ba1"
+ },
+ "w:失去:shi1qu4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "11faea5cf9198d14"
+ },
+ "w:师生:shi1sheng1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "429887ee0805928e"
+ },
+ "w:失望:shi1wang4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "a7ccc0aa3725e7c5"
+ },
+ "w:十分:shi2fen1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "12d603a30b7b9c11"
+ },
+ "w:实际:shi2ji4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "e3a0df54e2eb7980"
+ },
+ "w:时间表:shi2jian1biao3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "8ce1e1e063a164f0"
+ },
+ "w:实际上:shi2ji4shang4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "0af19a3b2a6b6736"
+ },
+ "w:食品:shi2pin3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "dae1fdb9f18e3e78"
+ },
+ "w:食堂:shi2tang2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "75c1114efdde8981"
+ },
+ "w:食物:shi2wu4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "89f661663ef79cdb"
+ },
+ "w:实在:shi2zai4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "06f9c39c2f17eada"
+ },
+ "w:十字路口:shi2zi4lu4kou3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "40648cb33c561ff3"
+ },
+ "w:使:shi3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "fcc34e213c100d0f"
+ },
+ "w:使馆:shi3guan3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "f83151628cc54a59"
+ },
+ "w:使用:shi3yong4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "8775be7d8c97c522"
+ },
+ "w:市场:shi4chang3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "6ca212fbd7c397f5"
+ },
+ "w:是否:shi4fou3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "fe16ab20ed74f707"
+ },
+ "w:适合:shi4he2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "1c13b8f82919114d"
+ },
+ "w:世纪:shi4ji4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "77d48c0297083735"
+ },
+ "w:视频:shi4pin2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "8d07ee3c87da07ab"
+ },
+ "w:市区:shi4qu1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "f09767afd9c407dd"
+ },
+ "w:试题:shi4ti2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "91db7dc39fbc10e6"
+ },
+ "w:适应:shi4ying4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "5c19a363698499c0"
+ },
+ "w:收费:shou1fei4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "2b5f811148fdcc20"
+ },
+ "w:收入:shou1ru4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "ebc481a059402ac7"
+ },
+ "w:收拾:shou1shi5": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "e280012efe60db40"
+ },
+ "w:收听:shou1ting1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "e40408adc9d390c4"
+ },
+ "w:首:shou3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "1e4d1df805b5b7a9"
+ },
+ "w:首都:shou3du1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "8382957b0d2e3781"
+ },
+ "w:首先:shou3xian1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "b12faed3161cf1b8"
+ },
+ "w:受不了:shou4bu4liao3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "e877b708b15ff099"
+ },
+ "w:售票员:shou4piao4yuan2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "0b3f54f802846245"
+ },
+ "w:受伤:shou4shang1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "f37cb9377a75e98d"
+ },
+ "w:输:shu1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "81d832d58dadbe02"
+ },
+ "w:熟:shu2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "a2a6afa911088df8"
+ },
+ "w:熟悉:shu2xi1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "4245d8efbb9db13a"
+ },
+ "w:暑假:shu3jia4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "9dadd536ba8f4dcc"
+ },
+ "w:数:shu4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "c32b5e07d3f08f6f"
+ },
+ "w:数量:shu4liang4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "c1c3d79d5e74c82f"
+ },
+ "w:树林:shu4lin2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "bad02a0cac1ad177"
+ },
+ "w:数字:shu4zi4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "d9f4e06856c04056"
+ },
+ "w:帅:shuai4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "5c55ae1d416ed0e0"
+ },
+ "w:顺便:shun4bian4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "c1b86ecbf2ce3242"
+ },
+ "w:顺利:shun4li4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "a83472903cb7a12f"
+ },
+ "w:顺序:shun4xu4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "1866af462108d04b"
+ },
+ "w:说法:shuo1fa3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "1ad919083c9523c6"
+ },
+ "w:说明:shuo1ming2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "cb1e071eb5cbbddf"
+ },
+ "w:说明书:shuo1ming2shu1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "c081164e537c9639"
+ },
+ "w:硕士:shuo4shi4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "17ad8f23b125deda"
+ },
+ "w:死:si3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "762c027303407ec9"
+ },
+ "w:速度:su4du4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "974b15fc1cc0cfcf"
+ },
+ "w:塑料:su4liao4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "07d3e8666276d355"
+ },
+ "w:酸:suan1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "ba0d73d16007b97a"
+ },
+ "w:酸奶:suan1nai3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "e5fa8c07b90c7afb"
+ },
+ "w:算:suan4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "15bede0539e1ccbb"
+ },
+ "w:随便:sui2bian4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "a95a6fa91c728410"
+ },
+ "w:随着:sui2zhe5": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "c34fe602665c08fb"
+ },
+ "w:孙女:sun1nv3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "4d1564de476950f9"
+ },
+ "w:孙子:sun1zi5": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "b2f935e2f4b2d900"
+ },
+ "w:所有:suo3you3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "ec79c50c2cd522a0"
+ },
+ "w:台:tai2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "88c64a8ec0ffea21"
+ },
+ "w:抬:tai2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "458333cd3409ab11"
+ },
+ "w:抬头:tai2tou2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "940e1208de53dd5e"
+ },
+ "w:态度:tai4du5": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "fcc96412c4df931c"
+ },
+ "w:弹:tan2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "de1c5cca317ae58f"
+ },
+ "w:谈:tan2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "4e70e0ff79983471"
+ },
+ "w:汤:tang1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "9cef45746f01a28b"
+ },
+ "w:躺:tang3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "2ba0e242386802ba"
+ },
+ "w:趟:tang4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "a872963cefae680b"
+ },
+ "w:讨论:tao3lun4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "753f01a58e2f2875"
+ },
+ "w:讨厌:tao3yan4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "e5af300e40808009"
+ },
+ "w:特点:te4dian3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "8d2dffb4e0b8029a"
+ },
+ "w:提:ti2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "efe53d00762224fb"
+ },
+ "w:提出:ti2chu1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "69e91e58e5b7eee1"
+ },
+ "w:提到:ti2dao4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "9fd4ec053fb927bc"
+ },
+ "w:提供:ti2gong1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "d78133122e751326"
+ },
+ "w:提前:ti2qian2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "c72f08e26c6243f0"
+ },
+ "w:提醒:ti2xing3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "df95f2140ccc3767"
+ },
+ "w:体检:ti3jian3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "eeebdaebfdd8ab3f"
+ },
+ "w:体温:ti3wen1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "4a7f2e6134868107"
+ },
+ "w:体重:ti3zhong4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "5b386057554e3492"
+ },
+ "w:填写:tian2xie3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "c40d3036aebb7a7f"
+ },
+ "w:条件:tiao2jian4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "6e5c5d6d4d33d8e1"
+ },
+ "w:听力:ting1li4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "56610a534c3ceb41"
+ },
+ "w:听众:ting1zhong4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "bd3ced73f4aa68e9"
+ },
+ "w:停:ting2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "b855ebf79861f2d4"
+ },
+ "w:停车:ting2che1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "ba64fc8613bea112"
+ },
+ "w:停车场:ting2che1chang3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "27b395e2d5d31092"
+ },
+ "w:停止:ting2zhi3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "c1a8cac4fd657067"
+ },
+ "w:通:tong1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "2244012a07d60ef6"
+ },
+ "w:通过:tong1guo4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "b950a544212623e4"
+ },
+ "w:通知:tong1zhi1": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "a2834bfe28afd36b"
+ },
+ "w:童年:tong2nian2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "212f28d996aaf906"
+ },
+ "w:同时:tong2shi2": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "2ed1c98f67c088b5"
+ },
+ "w:同样:tong2yang4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "875302f6fe98d252"
+ },
+ "w:桶:tong3": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "defc97d8d6814ae4"
+ },
+ "w:痛:tong4": {
+  "batch": "b008",
+  "policy": "author+review",
+  "hash": "7b91c3321eb7bc40"
+ },
+ "w:啊:a1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "345ad2fab0edef5f"
+ },
+ "w:爱情:ai4qing2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "4c6e7b6d166abfee"
+ },
+ "w:爱心:ai4xin1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "211855c81f5e1a8b"
+ },
+ "w:安检:an1jian3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "6a145639c3d00cca"
+ },
+ "w:安排:an1pai2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "a9b6e0e3c91e1fdb"
+ },
+ "w:按:an4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "3d3da8fb8402ae5b"
+ },
+ "w:按时:an4shi2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "f5884890cb76fa94"
+ },
+ "w:按照:an4zhao4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "471de1940b8629b8"
+ },
+ "w:白酒:bai2jiu3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "faa5a5e577e79c20"
+ },
+ "w:办公:ban4gong1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "f44de4614d2982af"
+ },
+ "w:办理:ban4li3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "848a4327894da9cf"
+ },
+ "w:办事:ban4shi4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "e2eb85e1c2b47c41"
+ },
+ "w:棒:bang4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "7d7509696c592af0"
+ },
+ "w:保护:bao3hu4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "edfa462c7b49666b"
+ },
+ "w:保证:bao3zheng4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "fe9e82e967ce1bba"
+ },
+ "w:抱:bao4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "59d2b6d9fcf95cb4"
+ },
+ "w:报考:bao4kao3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "4f74d17624f9c22a"
+ },
+ "w:报名:bao4ming2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "7841516338d47b9e"
+ },
+ "w:抱歉:bao4qian4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "9f84fd416cac7d2d"
+ },
+ "w:背:bei1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "52bc6c3cb56931fe"
+ },
+ "w:背包:bei1bao1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "1305d8712c3d35cb"
+ },
+ "w:北部:bei3bu4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "acb8d352c8a94de0"
+ },
+ "w:倍:bei4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "948c8e55619c6e04"
+ },
+ "w:本科:ben3ke1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "2129ee88d6d575e4"
+ },
+ "w:本来:ben3lai2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "67cd10f53a577ccf"
+ },
+ "w:笨:ben4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "9015914ea34869e0"
+ },
+ "w:鼻子:bi2zi5": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "0d6b3e41cf606cf8"
+ },
+ "w:笔试:bi3shi4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "b854902cc897a5c8"
+ },
+ "w:毕业:bi4ye4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "c780858ba33b19e9"
+ },
+ "w:毕业生:bi4ye4sheng1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "a0bcef5cf26c32f6"
+ },
+ "w:便于:bian4yu2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "eb6d6953a9e400ec"
+ },
+ "w:标准:biao1zhun3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "c6024e31c43c4960"
+ },
+ "w:表:biao3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "95f99750ca781dd3"
+ },
+ "w:表格:biao3ge2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "9a0b66a5c1686c08"
+ },
+ "w:表示:biao3shi4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "77e626bbf9926a9b"
+ },
+ "w:表现:biao3xian4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "6531b006f00c8e21"
+ },
+ "w:表扬:biao3yang2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "282a234d76dac9d2"
+ },
+ "w:饼干:bing3gan1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "b46e95f8e1de83e3"
+ },
+ "w:并:bing4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "cbf21b8447f30029"
+ },
+ "w:并且:bing4qie3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "72bb06abd374176d"
+ },
+ "w:播放:bo1fang4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "7117b0dbb4dea9a4"
+ },
+ "w:博士:bo2shi4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "13f8e98b076218db"
+ },
+ "w:不必:bu4bi4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "e6be1c2eeb05a719"
+ },
+ "w:不便:bu4bian4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "f824eea4be7e8c89"
+ },
+ "w:不断:bu2duan4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "d42f402eca6e85a7"
+ },
+ "w:不够:bu4gou4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "11b435065cc321a9"
+ },
+ "w:不过:bu2guo4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "9dcdd7d30f660474"
+ },
+ "w:不论:bu4lun4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "c6bf516589c61e40"
+ },
+ "w:步:bu4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "93414e50f3dbb042"
+ },
+ "w:部:bu4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "27f9d15b5b304010"
+ },
+ "w:不得不:bu4de2bu4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "70881ba9d63badfa"
+ },
+ "w:部分:bu4fen5": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "bf87a863b9476f76"
+ },
+ "w:不管:bu4guan3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "e61bbc1a4e48f784"
+ },
+ "w:不光:bu4guang1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "37302c6a2713bafe"
+ },
+ "w:不仅:bu4jin3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "54c89f663934fcbb"
+ },
+ "w:不满:bu4man3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "5d458a6936aeb2eb"
+ },
+ "w:部门:bu4men2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "b1abe5d1c383c3dc"
+ },
+ "w:不如:bu4ru2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "77d5ac636529270e"
+ },
+ "w:擦:ca1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "d732c67da7784a16"
+ },
+ "w:猜:cai1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "d921971bdd00c1bd"
+ },
+ "w:材料:cai2liao4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "8881986b122db8fa"
+ },
+ "w:参观:can1guan1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "c3267ddc6c673d12"
+ },
+ "w:参赛:can1sai4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "6d2a133ee4779703"
+ },
+ "w:餐厅:can1ting1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "7d372a30f88afd3b"
+ },
+ "w:操场:cao1chang3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "f325bbe7a5ebd4df"
+ },
+ "w:厕所:ce4suo3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "41849008e34e8e63"
+ },
+ "w:查看:cha2kan4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "0d60722a6e62d95c"
+ },
+ "w:茶叶:cha2ye4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "d681df619614efe7"
+ },
+ "w:查找:cha2zhao3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "f1c84dc82a1d7034"
+ },
+ "w:差点儿:cha4dian3r5": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "239683733f3e4d0d"
+ },
+ "w:产生:chan3sheng1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "f002149ac5cc8056"
+ },
+ "w:厂:chang3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "62710ca33cd0ccde"
+ },
+ "w:场:chang3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "55aaa16cf5dc0d6e"
+ },
+ "w:超过:chao1guo4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "70bbcec801a0968f"
+ },
+ "w:车速:che1su4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "d7a4ccb8663f8e51"
+ },
+ "w:车位:che1wei4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "3461c380410c809b"
+ },
+ "w:城:cheng2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "b292b461c7be9523"
+ },
+ "w:乘:cheng2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "851080e3aaaef1b4"
+ },
+ "w:成功:cheng2gong1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "600ea2eecc23c205"
+ },
+ "w:乘客:cheng2ke4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "4f1fe8943ed907d9"
+ },
+ "w:诚实:cheng2shi2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "92c2fb81a9a68e53"
+ },
+ "w:成为:cheng2wei2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "f8e5de5081b8a458"
+ },
+ "w:乘坐:cheng2zuo4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "574ec32f5aa5fa22"
+ },
+ "w:吃惊:chi1jing1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "e7f0035bf361d47f"
+ },
+ "w:迟:chi2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "33234adbea1d49d5"
+ },
+ "w:重:chong2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "c1ffbbacef28003f"
+ },
+ "w:重新:chong2xin1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "d2d0f1bbd5c541ea"
+ },
+ "w:出差:chu1chai1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "974b72a33e70a45d"
+ },
+ "w:出口:chu1kou3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "6cf5065b55702a9d"
+ },
+ "w:出现:chu1xian4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "8b36887e485e6f97"
+ },
+ "w:出行:chu1xing2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "e51dfc1e5ac2f6ac"
+ },
+ "w:出租:chu1zu1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "305c6ec7790109cc"
+ },
+ "w:厨房:chu2fang2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "890a3e1f3a6a7a65"
+ },
+ "w:厨师:chu2shi1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "2df2f530843cd780"
+ },
+ "w:窗:chuang1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "3f1fb91947ae285f"
+ },
+ "w:窗户:chuang1hu5": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "5c18dd84dd820d54"
+ },
+ "w:吹:chui1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "3dc86d3ff7603565"
+ },
+ "w:词语:ci2yu3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "912b5254057e7233"
+ },
+ "w:此:ci3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "01286ba986ea0476"
+ },
+ "w:此次:ci3ci4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "ef6f863b40578707"
+ },
+ "w:此外:ci3wai4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "af7c14833a04b581"
+ },
+ "w:从此:cong2ci3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "e107491f56e45c19"
+ },
+ "w:从来:cong2lai2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "583d1e7f639619f1"
+ },
+ "w:从中:cong2zhong1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "b003ddfcfd2b6f8e"
+ },
+ "w:粗:cu1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "ad28259e51ad9aeb"
+ },
+ "w:粗心:cu1xin1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "a6c37808e4a4e73f"
+ },
+ "w:村:cun1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "4aa3b95a6b6406eb"
+ },
+ "w:存:cun2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "dc83ce73de5efd51"
+ },
+ "w:错过:cuo4guo4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "f85baf69f686905b"
+ },
+ "w:错误:cuo4wu4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "ce35bf4ef489a3ba"
+ },
+ "w:答应:da1ying5": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "1446d1f13d2069fe"
+ },
+ "w:答:da2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "05b5b27a7cdbd1c6"
+ },
+ "w:答案:da2an4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "1dd5fdd867ed9014"
+ },
+ "w:达到:da2dao4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "f98decc45a8dfe1f"
+ },
+ "w:打招呼:da3zhao1hu5": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "f18c5c759dc22717"
+ },
+ "w:打败:da3bai4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "a158624aa0827333"
+ },
+ "w:打工:da3gong1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "7cfb07be23f7c940"
+ },
+ "w:打扰:da3rao3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "cf18f0764eae1905"
+ },
+ "w:打印:da3yin4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "9700165c86dccd0d"
+ },
+ "w:打印机:da3yin4ji1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "c469c34d62da5050"
+ },
+ "w:打折:da3zhe2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "64748ff699b74977"
+ },
+ "w:打针:da3zhen1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "fe3e7543602a419f"
+ },
+ "w:大巴:da4ba1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "45b6a02599ef5200"
+ },
+ "w:大大:da4da4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "c341641b5616aba8"
+ },
+ "w:大夫:dai4fu5": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "fa2e8f051bcb3f86"
+ },
+ "w:大量:da4liang4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "bf525a66b15c7f11"
+ },
+ "w:大赛:da4sai4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "68aa04d1332805da"
+ },
+ "w:大厅:da4ting1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "db0c7633d8a4a5e5"
+ },
+ "w:大约:da4yue1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "d6ceacf75f726686"
+ },
+ "w:大自然:da4zi4ran2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "f4cda7ffaaed19de"
+ },
+ "w:待:dai1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "43350837c5a5b85c"
+ },
+ "w:戴:dai4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "777bf020b1b5067a"
+ },
+ "w:袋子:dai4zi5": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "9137889b43ba1ea7"
+ },
+ "w:单位:dan1wei4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "b629c8d1f22bb8fa"
+ },
+ "w:当:dang1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "8a19a766e94d38f8"
+ },
+ "w:当时:dang1shi2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "58cc1eb6d0eaeddd"
+ },
+ "w:刀:dao1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "a25b71c22e710248"
+ },
+ "w:导游:dao3you2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "c9d7ff584fee57b4"
+ },
+ "w:倒:dao4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "8535f1b25dc3fbd3"
+ },
+ "w:道:dao4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "449a80aac184d2a2"
+ },
+ "w:到底:dao4di3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "beec335b69da94c1"
+ },
+ "w:到来:dao4lai2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "93b817410cb5bf14"
+ },
+ "w:道路:dao4lu4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "f40a142265d48983"
+ },
+ "w:道歉:dao4qian4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "64577e0f14757d6e"
+ },
+ "w:得意:de2yi4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "579be1c669e9c2a4"
+ },
+ "w:登机:deng1ji1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "b02b39cf217dc89e"
+ },
+ "w:等:deng3#2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "609f23d1e414674c"
+ },
+ "w:等到:deng3dao4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "a7b23523779b6de0"
+ },
+ "w:低:di1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "c035cb2cc9a34609"
+ },
+ "w:低价:di1jia4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "be2b0cb5e43e9815"
+ },
+ "w:低温:di1wen1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "c18c7a9408ebb88c"
+ },
+ "w:低于:di1yu2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "05244896b9147f87"
+ },
+ "w:底:di3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "24c4ba4801d7c6d0"
+ },
+ "w:底下:di3xia5": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "a2979fece9ce144d"
+ },
+ "w:地球:di4qiu2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "369b95c9e7c4d32f"
+ },
+ "w:地址:di4zhi3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "5a553876a2e5c4fd"
+ },
+ "w:点名:dian3ming2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "5fd7eac28e220da7"
+ },
+ "w:点头:dian3tou2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "950240aa3dd66b98"
+ },
+ "w:电动车:dian4dong4che1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "8a7591d99857746e"
+ },
+ "w:电视剧:dian4shi4ju4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "c62e8fe6e2a23d3c"
+ },
+ "w:掉:diao4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "6b0b0c639f4de1e7"
+ },
+ "w:调查:diao4cha2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "caa27a0fd9bbf85e"
+ },
+ "w:订:ding4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "59268b3da64e289b"
+ },
+ "w:定:ding4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "fbc0c08e5d4ea114"
+ },
+ "w:东部:dong1bu4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "1ab6c726276d2087"
+ },
+ "w:动车:dong4che1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "13d4aec6d7850709"
+ },
+ "w:动作:dong4zuo4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "22e18d910c32e59f"
+ },
+ "w:读者:du2zhe3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "9b93bdfc2741311e"
+ },
+ "w:堵车:du3che1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "4fe36f269dea071f"
+ },
+ "w:度假:du4jia4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "73d8efdbafad3412"
+ },
+ "w:肚子:du4zi5": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "95dbe8da2ffdfd49"
+ },
+ "w:短信:duan3xin4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "399b7f08ef4c7f74"
+ },
+ "w:队:dui4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "47882901ef575437"
+ },
+ "w:对方:dui4fang1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "e656ca4bbe1c21c9"
+ },
+ "w:对面:dui4mian4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "3aac61eff537eb96"
+ },
+ "w:对于:dui4yu2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "6cde501c3a3b0018"
+ },
+ "w:队员:dui4yuan2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "c60a7681d3338a2e"
+ },
+ "w:队长:dui4zhang3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "6e4a4ca4a149deff"
+ },
+ "w:顿:dun4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "2cd4f433e915beb0"
+ },
+ "w:多么:duo1me5": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "b9e66ddfdbd31d56"
+ },
+ "w:多数:duo1shu4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "d7e261eab5bc21df"
+ },
+ "w:多样:duo1yang4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "51ccad30f4eca962"
+ },
+ "w:而:er2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "c7189aa4af072dc9"
+ },
+ "w:儿童:er2tong2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "d0fbc601964427dc"
+ },
+ "w:发出:fa1chu1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "e74398f308a4dcf9"
+ },
+ "w:发送:fa1song4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "a238254609c2f3a8"
+ },
+ "w:法:fa3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "dc7043afabc56cc6"
+ },
+ "w:法律:fa3lv4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "45b12891c83ad4d9"
+ },
+ "w:翻译:fan1yi4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "2e1a0ba992a76eca"
+ },
+ "w:烦:fan2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "9a693a1a82b060a2"
+ },
+ "w:烦恼:fan2nao3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "1f7cea8d5a63a004"
+ },
+ "w:反对:fan3dui4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "5f508a967d422a2d"
+ },
+ "w:方面:fang1mian4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "e6a9495bf873ea05"
+ },
+ "w:方式:fang1shi4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "21f6c2ece029fb22"
+ },
+ "w:房东:fang2dong1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "efcfa76a723f88e4"
+ },
+ "w:房租:fang2zu1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "37a8f8806b9cadf7"
+ },
+ "w:放弃:fang4qi4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "f6a912a92a2b8d94"
+ },
+ "w:放松:fang4song1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "d63fcf3eeec95d69"
+ },
+ "w:费:fei4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "2a19904a4c495f73"
+ },
+ "w:费用:fei4yong4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "4df4d5a2464205e5"
+ },
+ "w:分数:fen1shu4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "46c667e6d9297d02"
+ },
+ "w:分为:fen1wei2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "331455b3533e9f6e"
+ },
+ "w:份:fen4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "723da2f1e1527dd8"
+ },
+ "w:丰富:feng1fu4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "610cdaa5eebbb698"
+ },
+ "w:风景:feng1jing3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "4a850f6da0bb5ad2"
+ },
+ "w:否则:fou3ze2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "33a88ecf2dbaf90d"
+ },
+ "w:幅:fu2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "eb87320444fa324b"
+ },
+ "w:符合:fu2he2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "3c560b9349c64e6b"
+ },
+ "w:付:fu4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "843d56989be17f5b"
+ },
+ "w:父母:fu4mu3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "70c03d87814f212d"
+ },
+ "w:父女:fu4nv3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "12a994bcb92c9f4a"
+ },
+ "w:父亲:fu4qin1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "245b1675096f030f"
+ },
+ "w:复印:fu4yin4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "63c37cbdd5f2225f"
+ },
+ "w:复杂:fu4za2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "4512afcc4ce39691"
+ },
+ "w:负责:fu4ze2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "270bfa85b058d26e"
+ },
+ "w:负责人:fu4ze2ren2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "6797241e9347c9f1"
+ },
+ "w:父子:fu4zi3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "8e7c6ba3b98aaeb7"
+ },
+ "w:改:gai3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "95c6744444deef4e"
+ },
+ "w:改变:gai3bian4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "b6b4e165d9698666"
+ },
+ "w:干:gan1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "eb0f19c8bb3f8a43"
+ },
+ "w:干杯:gan1bei1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "c10297a92a394aca"
+ },
+ "w:赶:gan3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "01d33d94270aca5c"
+ },
+ "w:敢:gan3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "2ce82553972afae2"
+ },
+ "w:感:gan3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "d63e4f1e0cc53fd4"
+ },
+ "w:感动:gan3dong4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "4b5ae336f6cecf3d"
+ },
+ "w:赶紧:gan3jin3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "7654ec2a3839cab8"
+ },
+ "w:感觉:gan3jue2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "99b6f0ea722f61b8"
+ },
+ "w:赶快:gan3kuai4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "3a943cbbf1d3edb9"
+ },
+ "w:感情:gan3qing2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "a5a929c382ede756"
+ },
+ "w:感人:gan3ren2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "dd6623f8f1fce395"
+ },
+ "w:赶上:gan3shang4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "6c51a7dba11d7720"
+ },
+ "w:感受:gan3shou4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "aa68da5cb7ca8574"
+ },
+ "w:感谢:gan3xie4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "de5da3b34c50ac62"
+ },
+ "w:干活儿:gan4huo2r5": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "372ebc303ae289a7"
+ },
+ "w:钢琴:gang1qin2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "2c220cb012cd0ba4"
+ },
+ "w:高价:gao1jia4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "e5ef256e320dc850"
+ },
+ "w:高考:gao1kao3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "ee1d6448956bbbf8"
+ },
+ "w:高速:gao1su4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "00aa2ea3feee1b85"
+ },
+ "w:高温:gao1wen1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "779f56e6a5c5ab47"
+ },
+ "w:高于:gao1yu2": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "6abb87b0874d1d0b"
+ },
+ "w:胳膊:ge1bo5": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "4ae0cd62a560c5f2"
+ },
+ "w:歌声:ge1sheng1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "194ab6f463275bc5"
+ },
+ "w:歌手:ge1shou3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "303384f7ba7d88db"
+ },
+ "w:各:ge4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "d78fef7bbe75aed6"
+ },
+ "w:各地:ge4di4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "de1aafbc0be41f24"
+ },
+ "w:各个:ge4ge4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "1b0f2094ed0442b9"
+ },
+ "w:各位:ge4wei4": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "3b7372f9655bccd9"
+ },
+ "w:各种:ge4zhong3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "c2667d4f0cbe33bc"
+ },
+ "w:更加:geng4jia1": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "91c30d186225c4f7"
+ },
+ "w:工厂:gong1chang3": {
+  "batch": "b006",
+  "policy": "author+review",
+  "hash": "e8c699b521446571"
+ },
+ "w:功夫:gong1fu5": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "16396e36b1a71e7e"
+ },
+ "w:公共:gong1gong4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "6f2fb15fbae576c0"
+ },
+ "w:功课:gong1ke4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "2a808f12174549ab"
+ },
+ "w:公里:gong1li3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "2e713a840d7bf653"
+ },
+ "w:公路:gong1lu4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "062ed442846d81b6"
+ },
+ "w:工人:gong1ren2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "8510134598b22d83"
+ },
+ "w:工资:gong1zi1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "bed45625e607ad41"
+ },
+ "w:共:gong4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "f2773f72613450c6"
+ },
+ "w:共同:gong4tong2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d64057f18c62f1a0"
+ },
+ "w:够:gou4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "7024d7e557842611"
+ },
+ "w:购买:gou4mai3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "1cb2e2e367f54a39"
+ },
+ "w:购物:gou4wu4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "111eee82d7ee256e"
+ },
+ "w:估计:gu1ji4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "b900a3fd01c456f0"
+ },
+ "w:姑娘:gu1niang5": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d92c142fdec9a066"
+ },
+ "w:鼓励:gu3li4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "9c66c80a8563db82"
+ },
+ "w:顾客:gu4ke4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "46487cb2080c1173"
+ },
+ "w:故意:gu4yi4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "99113b42451b24f4"
+ },
+ "w:挂:gua4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "99b5ba9cb940ed2d"
+ },
+ "w:关键:guan1jian4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "0a9f7896f1f2b0b6"
+ },
+ "w:观看:guan1kan4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "1b5ce5b3f44532f9"
+ },
+ "w:观众:guan1zhong4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "b84b9d86d215bd67"
+ },
+ "w:管:guan3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "f4ba349cca4d729f"
+ },
+ "w:管理:guan3li3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d6bc8ae0b69d5d90"
+ },
+ "w:光:guang1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "25e37e4eb256af42"
+ },
+ "w:广播:guang3bo1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "8c506741b561c04d"
+ },
+ "w:广告:guang3gao4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "e077eecb65a75178"
+ },
+ "w:逛:guang4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "a1590cb858619cab"
+ },
+ "w:规定:gui1ding4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d6cbc4df09eda848"
+ },
+ "w:国籍:guo2ji2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "6cc7df8a7db7b5aa"
+ },
+ "w:国际:guo2ji4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "1ff4a07e515ca077"
+ },
+ "w:果汁:guo3zhi1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "50096b53650aff6b"
+ },
+ "w:过程:guo4cheng2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "6f2e858c413f53d4"
+ },
+ "w:海洋:hai3yang2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "7b8b4c6f1e0845ab"
+ },
+ "w:害羞:hai4xiu1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "cf843ec9115fc183"
+ },
+ "w:寒假:han2jia4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "308b2e0925505dae"
+ },
+ "w:寒冷:han2leng3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d6695ef1e36c0760"
+ },
+ "w:喊:han3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "58ec644fc5ed82ed"
+ },
+ "w:汗:han4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "4636eec15a3ca848"
+ },
+ "w:航班:hang2ban1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d5d9f793ebf9793a"
+ },
+ "w:好处:hao3chu4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "f2d57053e30d1e1c"
+ },
+ "w:好好:hao3hao3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "bfe8fcb979dc3ed8"
+ },
+ "w:好笑:hao3xiao4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "e4dd96b3b9fde3ab"
+ },
+ "w:合格:he2ge2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "9f285a39742271e6"
+ },
+ "w:盒子:he2zi5": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "62468d59f6ec8fc9"
+ },
+ "w:红包:hong2bao1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "54e91ac553d5b2e2"
+ },
+ "w:厚:hou4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "896369f70c98c0cd"
+ },
+ "w:后悔:hou4hui3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "befa2fafc9d6b1fa"
+ },
+ "w:忽然:hu1ran2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "6b7aea7082a713d2"
+ },
+ "w:互联网:hu4lian2wang3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "39b217c4ca79ec2d"
+ },
+ "w:护士:hu4shi5": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "4e269aaa0257607f"
+ },
+ "w:互相:hu4xiang1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "86ae376f59ad7ad0"
+ },
+ "w:话剧:hua4ju4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "1fc5c0a6a101618c"
+ },
+ "w:怀疑:huai2yi2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "0277320cb485ed76"
+ },
+ "w:坏处:huai4chu4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d44b79f64111c61a"
+ },
+ "w:环保:huan2bao3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "1bcfe27b395d131f"
+ },
+ "w:换乘:huan4cheng2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "de1d03ee6f9f7beb"
+ },
+ "w:回复:hui2fu4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d043f3accb5ea212"
+ },
+ "w:回信:hui2xin4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "b77aecfbe32f5926"
+ },
+ "w:回忆:hui2yi4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "639925970d355085"
+ },
+ "w:会员:hui4yuan2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d781eb4f833def8e"
+ },
+ "w:活:huo2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "2747d652385b8db6"
+ },
+ "w:活动:huo2dong4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "b33461849f4cf3b7"
+ },
+ "w:活泼:huo2po1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d945a1dd50360220"
+ },
+ "w:火:huo3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "60fccb5968d43cd9"
+ },
+ "w:货:huo4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "4cbd55620aedda98"
+ },
+ "w:获得:huo4de2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "aa1a46d3edd25948"
+ },
+ "w:获奖:huo4jiang3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "727744677bf60427"
+ },
+ "w:获取:huo4qu3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "7edeace89fd8b7a6"
+ },
+ "w:基本:ji1ben3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "7145d1860feab039"
+ },
+ "w:基本上:ji1ben3shang4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "086bf64a0ea1a68e"
+ },
+ "w:基础:ji1chu3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "5c374332d9f8547c"
+ },
+ "w:激动:ji1dong4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "218f0ddf4bf3d262"
+ },
+ "w:积极:ji1ji2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "515f7dda1c6c1265"
+ },
+ "w:积累:ji1lei3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "fd43a07b2a54745d"
+ },
+ "w:及时:ji2shi2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "ebacc1519762104b"
+ },
+ "w:即使:ji2shi3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "090e7d95a6455818"
+ },
+ "w:既:ji4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "270d63b92037f7b7"
+ },
+ "w:寄:ji4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "8494763d56ae9900"
+ },
+ "w:计划:ji4hua4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "ff38eb351c114336"
+ },
+ "w:既然:ji4ran2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "63dd88022d7a110c"
+ },
+ "w:技术:ji4shu4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "251c9ff22b12349f"
+ },
+ "w:继续:ji4xu4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "049496d9760cdd3a"
+ },
+ "w:记者:ji4zhe3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "bfa3423b06925d56"
+ },
+ "w:加班:jia1ban1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "8090eba0024db729"
+ },
+ "w:家具:jia1ju4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "baaa6481d6d3e98e"
+ },
+ "w:加快:jia1kuai4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "28a400400939fcb8"
+ },
+ "w:加强:jia1qiang2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "4709114477415dd0"
+ },
+ "w:加入:jia1ru4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "5dbedaac310a5d08"
+ },
+ "w:加上:jia1shang4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "e03d6ef39595299d"
+ },
+ "w:家庭:jia1ting2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d5e7aaf570079698"
+ },
+ "w:家乡:jia1xiang1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "006dd7b3f0ddc315"
+ },
+ "w:加油:jia1you2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d37b7f7b0b48c737"
+ },
+ "w:加油站:jia1you2zhan4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "8f4fb14a2fa47f8c"
+ },
+ "w:家长:jia1zhang3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "379b1b09f8ea0c13"
+ },
+ "w:假:jia3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "9d35a56847d7333a"
+ },
+ "w:价格:jia4ge2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "6448ed4b43c7007a"
+ },
+ "w:价钱:jia4qian5": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "f618f519569bb074"
+ },
+ "w:假日:jia4ri4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "8c3d8641d192d771"
+ },
+ "w:减:jian3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "9e745bb7a27b0de3"
+ },
+ "w:减轻:jian3qing1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "4c944c2484d36343"
+ },
+ "w:减少:jian3shao3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "32ed21802a319867"
+ },
+ "w:健身:jian4shen1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "20304ff902e41a03"
+ },
+ "w:健身房:jian4shen1fang2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "38768e51f918ad6e"
+ },
+ "w:建议:jian4yi4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "4c0df29a3ebee39f"
+ },
+ "w:江:jiang1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "34b36c0ee44905da"
+ },
+ "w:将:jiang1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "99a9fcb3ee7ccba0"
+ },
+ "w:将来:jiang1lai2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "e572335b17b2ab53"
+ },
+ "w:将要:jiang1yao4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "c3fe03b3c2505ade"
+ },
+ "w:奖:jiang3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "098e92378c1d4967"
+ },
+ "w:奖金:jiang3jin1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "b6a4a642fb8899a5"
+ },
+ "w:奖学金:jiang3xue2jin1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "aaa4043b54168f61"
+ },
+ "w:降:jiang4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d303b487a479069c"
+ },
+ "w:降低:jiang4di1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "4a34b7a5082857b9"
+ },
+ "w:降价:jiang4jia4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "147c81fa5f586a87"
+ },
+ "w:降落:jiang4luo4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "07e953c13a90b8fd"
+ },
+ "w:降温:jiang4wen1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "4733b7ccf37ba571"
+ },
+ "w:交:jiao1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "87b84c295c5622e3"
+ },
+ "w:骄傲:jiao1ao4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "ce64cb149caf2287"
+ },
+ "w:交警:jiao1jing3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "a07578e19070e7a7"
+ },
+ "w:交流:jiao1liu2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "a36c036c4f88ef53"
+ },
+ "w:郊区:jiao1qu1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "25a81e0993de101e"
+ },
+ "w:交通:jiao1tong1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "7139a49bf0b92ed2"
+ },
+ "w:教练:jiao4lian4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "92c2478e2416e558"
+ },
+ "w:教师:jiao4shi1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "63344dc7c3c3ef9f"
+ },
+ "w:教授:jiao4shou4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "f97eb3cf4a3625f4"
+ },
+ "w:教学:jiao4xue2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "7e56be2fd7eb2815"
+ },
+ "w:教育:jiao4yu4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "75756fe14815bdf5"
+ },
+ "w:叫作:jiao4zuo4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "60b0737edfc573c6"
+ },
+ "w:街道:jie1dao4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "8220b930e863c875"
+ },
+ "w:接受:jie1shou4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "67224e1e6158edb4"
+ },
+ "w:接着:jie1zhe5": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "7eb520c0d95a5ff3"
+ },
+ "w:结果:jie2guo3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "97aaa0470beec091"
+ },
+ "w:节假日:jie2jia4ri4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "b32aad0c07f68857"
+ },
+ "w:节约:jie2yue1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "4a19986eb92807f3"
+ },
+ "w:结账:jie2zhang4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "0e76cf3f5c90f56b"
+ },
+ "w:解释:jie3shi4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "38a5b0bef37949ec"
+ },
+ "w:今后:jin1hou4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "6b820b5c732800cf"
+ },
+ "w:仅:jin3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "3db840d2b430a7fa"
+ },
+ "w:尽管:jin3guan3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "c3b247ade12137fd"
+ },
+ "w:仅仅:jin3jin3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "89e42a824394c0bc"
+ },
+ "w:紧张:jin3zhang1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "613afc48259737ec"
+ },
+ "w:进入:jin4ru4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d0c7100c4ade1450"
+ },
+ "w:进行:jin4xing2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "012719e9ec3f3b78"
+ },
+ "w:禁止:jin4zhi3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "e00e63cd79b9dd08"
+ },
+ "w:精彩:jing1cai3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "e9528a8b809e321e"
+ },
+ "w:经济:jing1ji4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d6892efb71841dfc"
+ },
+ "w:京剧:jing1ju4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "3dc20250b699a1ef"
+ },
+ "w:经历:jing1li4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "fd05c84c55e615c8"
+ },
+ "w:经验:jing1yan4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "debcab9625182ce5"
+ },
+ "w:警察:jing3cha2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "b34d093cdd448d75"
+ },
+ "w:景点:jing3dian3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "5a67820cd55709f7"
+ },
+ "w:景区:jing3qu1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "070a13e322e97249"
+ },
+ "w:景色:jing3se4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "3c12c1f0b47fe7c9"
+ },
+ "w:竟然:jing4ran2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "1adb084275ad62be"
+ },
+ "w:竞争:jing4zheng1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "8db0cf79034e0e89"
+ },
+ "w:镜子:jing4zi5": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d4206e53ca0e1f9e"
+ },
+ "w:究竟:jiu1jing4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d061c91294cbbc7f"
+ },
+ "w:就是:jiu4shi4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "2a4a78d83f6e5835"
+ },
+ "w:举:ju3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "04d6c105a0c6f55a"
+ },
+ "w:举办:ju3ban4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "ddfcb65e92a20606"
+ },
+ "w:举例:ju3li4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "3963237e87bd60c3"
+ },
+ "w:举行:ju3xing2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "c09bf8f777eba47f"
+ },
+ "w:聚:ju4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "3d36003ce02b15f5"
+ },
+ "w:聚餐:ju4can1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "09408e998346b991"
+ },
+ "w:聚会:ju4hui4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "0cf0a461561b3ba6"
+ },
+ "w:拒绝:ju4jue2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "ae17549fc9c05fbd"
+ },
+ "w:距离:ju4li2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "dbda9dcfe2c40094"
+ },
+ "w:剧院:ju4yuan4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "a95a72ecca0ec216"
+ },
+ "w:开玩笑:kai1wan2xiao4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "0f4a9f40a1797fbb"
+ },
+ "w:看法:kan4fa3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "524ab0a5a5a3efed"
+ },
+ "w:烤:kao3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "6d69b748be9a4722"
+ },
+ "w:考虑:kao3lv4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "8d1edb5bc3e38895"
+ },
+ "w:考生:kao3sheng1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "7703b9f86765f882"
+ },
+ "w:棵:ke1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "68618ad5e2b5cb58"
+ },
+ "w:科技:ke1ji4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "856dd1ef7e60f229"
+ },
+ "w:科学:ke1xue2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "0ad0d6e7618cf4b8"
+ },
+ "w:咳:ke2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "36b056abc217233c"
+ },
+ "w:咳嗽:ke2sou5": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "a484a8c0826718a5"
+ },
+ "w:可惜:ke3xi1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "f1684a5f0463cc8f"
+ },
+ "w:克:ke4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "a84d07c7e729c424"
+ },
+ "w:课程:ke4cheng2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "3916461cfa215fc2"
+ },
+ "w:客气:ke4qi5": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "cfa9890ceb61923a"
+ },
+ "w:课堂:ke4tang2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "970d8d3afb1d2868"
+ },
+ "w:客厅:ke4ting1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "fb395af0dc399957"
+ },
+ "w:肯定:ken3ding4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "5534d434df666808"
+ },
+ "w:空:kong1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "debece092fef675f"
+ },
+ "w:空气:kong1qi4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "c9265b225e0b2b12"
+ },
+ "w:恐怕:kong3pa4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "b695ad7dff951522"
+ },
+ "w:空:kong4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "656a67e6a47dfe97"
+ },
+ "w:口语:kou3yu3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "b151c8944d2daf1c"
+ },
+ "w:苦:ku3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "9f7a2384e65e9919"
+ },
+ "w:快餐:kuai4can1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "52283f31912cd1f5"
+ },
+ "w:快递:kuai4di4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d9573b0b7d8e26a6"
+ },
+ "w:快速:kuai4su4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "52a1f1a6b95c7abd"
+ },
+ "w:困:kun4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "bb22cb9d333f6b98"
+ },
+ "w:困难:kun4nan5": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "1cc16472969b2c0e"
+ },
+ "w:拉:la1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "7e7affe312c48868"
+ },
+ "w:垃圾:la1ji1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "954a4c70be40cf68"
+ },
+ "w:辣:la4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "63ab1e7b881c17b6"
+ },
+ "w:来不及:lai2bu4ji2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "bcf49a0f2df19216"
+ },
+ "w:来得及:lai2de5ji2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "15b4f622743c8010"
+ },
+ "w:懒:lan3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "541f0b2b67a43b2c"
+ },
+ "w:浪费:lang4fei4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "506ca1fe4a16e516"
+ },
+ "w:浪漫:lang4man4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "4166f43209a4ce6a"
+ },
+ "w:老虎:lao3hu3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "13fe89b85cde5cae"
+ },
+ "w:老家:lao3jia1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d2b7e3085e6b5ebc"
+ },
+ "w:老年:lao3nian2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "bbf0f515ca6d2959"
+ },
+ "w:老是:lao3shi4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "9840623a0df871b0"
+ },
+ "w:冷静:leng3jing4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "57035b4e18a258e6"
+ },
+ "w:理发:li3fa4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "1199af4450b0b2e1"
+ },
+ "w:理解:li3jie3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "0f24e31385515d1e"
+ },
+ "w:礼貌:li3mao4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "9332fefea0236f3a"
+ },
+ "w:理想:li3xiang3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "ff08fc6356bb6c6e"
+ },
+ "w:厉害:li4hai5": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "f3f9c4afedf7b696"
+ },
+ "w:力气:li4qi5": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "efd1e6e77c48c41b"
+ },
+ "w:例如:li4ru2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "9decc38412f2ef11"
+ },
+ "w:例子:li4zi5": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "32181c8676dd7f85"
+ },
+ "w:俩:lia3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "ff1527aa0669ddab"
+ },
+ "w:连:lian2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "b0e10bef751c18d6"
+ },
+ "w:联系:lian2xi4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "6aa3e77391edbe42"
+ },
+ "w:凉:liang2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "dc7d5e4299c0e758"
+ },
+ "w:量:liang2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "726a55261fa48d2d"
+ },
+ "w:两:liang3#2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "b3e2341adcfe679c"
+ },
+ "w:亮:liang4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "398f199043f31481"
+ },
+ "w:列:lie4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "fec07acdb89d3e0f"
+ },
+ "w:零下:ling2xia4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "c77c69b069970b13"
+ },
+ "w:零花钱:ling2hua1qian2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "6549c6e0331f0549"
+ },
+ "w:零钱:ling2qian2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "58f5c79dda7971ee"
+ },
+ "w:零食:ling2shi2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "891cee30c1b554ee"
+ },
+ "w:另:ling4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "33e4e4b0bb0abfcb"
+ },
+ "w:另外:ling4wai4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "fde4e3ad180f95ee"
+ },
+ "w:留:liu2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d6d6b7313a2d7ed8"
+ },
+ "w:流:liu2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "a6816dc871b39e3a"
+ },
+ "w:流利:liu2li4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "9f6e6d71a154821e"
+ },
+ "w:留下:liu2xia5": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "191b8b23c1cab093"
+ },
+ "w:流行:liu2xing2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "d97f11e364a6f411"
+ },
+ "w:路过:lu4guo4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "571c6f644e8ee4f7"
+ },
+ "w:旅馆:lv3guan3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "316ce37b7dfb71f8"
+ },
+ "w:旅客:lv3ke4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "c65146570b608fdf"
+ },
+ "w:旅行:lv3xing2": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "16eb79d807bcf5d3"
+ },
+ "w:律师:lv4shi1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "8b6777fadf957331"
+ },
+ "w:乱:luan4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "a8ce7c9c7977e2aa"
+ },
+ "w:落:luo4": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "582aa87bd2c88983"
+ },
+ "w:麻烦:ma2fan5": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "bfeb8125d7216395"
+ },
+ "w:馒头:man2tou5": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "aa05a3ad8afdcc87"
+ },
+ "w:满:man3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "fa27240846119234"
+ },
+ "w:毛巾:mao2jin1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "652138f12eb01981"
+ },
+ "w:毛衣:mao2yi1": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "a61cd37a267db82f"
+ },
+ "w:帽子:mao4zi5": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "663f20dd640b0224"
+ },
+ "w:美:mei3": {
+  "batch": "b007",
+  "policy": "author+review",
+  "hash": "f20fbbfd844683a1"
+ },
+ "w:头痛:tou2tong4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "2f341646f5af2455"
+ },
+ "w:图:tu2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "3cb06a38fc7f5725"
+ },
+ "w:图片:tu2pian4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "6d8fa1433bf65505"
+ },
+ "w:土:tu3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "e808dce9fc6e51d5"
+ },
+ "w:推:tui1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "3e54182de361f3b2"
+ },
+ "w:推迟:tui1chi2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "c8ec92877dcca148"
+ },
+ "w:推出:tui1chu1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "f7a4e90bc53ce451"
+ },
+ "w:脱:tuo1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "5eaeea53b8e04223"
+ },
+ "w:袜子:wa4zi5": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "8a07cdeb1b9aef7c"
+ },
+ "w:外出:wai4chu1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "405d75501d04a422"
+ },
+ "w:外套:wai4tao4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "b498537b376528d6"
+ },
+ "w:完全:wan2quan2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "f6d724fedbefdaa5"
+ },
+ "w:晚安:wan3an1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "87ac66c01f4e6fbd"
+ },
+ "w:晚餐:wan3can1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "c0ce781b38daa806"
+ },
+ "w:网购:wang3gou4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "3833a01b4e49c383"
+ },
+ "w:往往:wang3wang3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "4527be378627f95b"
+ },
+ "w:网页:wang3ye4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "00471c1a2ebfd85c"
+ },
+ "w:网友:wang3you3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "0d9659d5c126c093"
+ },
+ "w:网址:wang3zhi3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "cb2c2bb2e5163df7"
+ },
+ "w:危险:wei1xian3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "24f10a080c8e7820"
+ },
+ "w:为:wei2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "b270c4b55b14e30a"
+ },
+ "w:味:wei4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "faff8e9f282e9486"
+ },
+ "w:味道:wei4dao5": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "cf384b58dc55d3c5"
+ },
+ "w:卫生:wei4sheng1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "629750cd80a5c005"
+ },
+ "w:温度:wen1du4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "c18a40845d628b31"
+ },
+ "w:闻:wen2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "96c8173d0a32725b"
+ },
+ "w:文件:wen2jian4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "11da4edd3eeee5a4"
+ },
+ "w:文章:wen2zhang1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "323900e0c1bd507d"
+ },
+ "w:文字:wen2zi4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "46403b91f102f554"
+ },
+ "w:污染:wu1ran3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "a398c68291831b27"
+ },
+ "w:无:wu2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "6165f7b40b1ed570"
+ },
+ "w:无法:wu2fa3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "ff4aeb07132b42bd"
+ },
+ "w:无聊:wu2liao2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "9fa5d1967e7474c8"
+ },
+ "w:无论:wu2lun4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "d8e5903beaddf48d"
+ },
+ "w:午餐:wu3can1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "35a2e928feccc04d"
+ },
+ "w:误会:wu4hui4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "4dae50c3af9d2702"
+ },
+ "w:吸:xi1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "73628aa001ea7bfa"
+ },
+ "w:西部:xi1bu4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "c271f4d966a8a1a4"
+ },
+ "w:西红柿:xi1hong2shi4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "534a6916d25140c4"
+ },
+ "w:吸引:xi1yin3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "4ecf3d4a58f17e20"
+ },
+ "w:细:xi4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "2794ceba4f85d571"
+ },
+ "w:细心:xi4xin1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "68c36666231b7b72"
+ },
+ "w:下降:xia4jiang4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "fab74d22aa3c3596"
+ },
+ "w:鲜:xian1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "815ce94e2ae853f7"
+ },
+ "w:鲜花:xian1hua1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "3a6b9217080c3b0d"
+ },
+ "w:咸:xian2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "9700594a62715a13"
+ },
+ "w:现金:xian4jin1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "453af7a91ad6b442"
+ },
+ "w:羡慕:xian4mu4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "051a69f0afc2b65c"
+ },
+ "w:线上:xian4shang4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "2e5af6cb013759aa"
+ },
+ "w:线下:xian4xia4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "20b6f1b67e882f42"
+ },
+ "w:现有:xian4you3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "ae4c931d3b6859f1"
+ },
+ "w:香:xiang1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "8563150f6d19b442"
+ },
+ "w:相比:xiang1bi3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "4a3c005bbf00d351"
+ },
+ "w:相反:xiang1fan3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "bd7e002d19a85c36"
+ },
+ "w:相互:xiang1hu4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "f7cb08b14470d722"
+ },
+ "w:相同:xiang1tong2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "639d7687a16c046a"
+ },
+ "w:详细:xiang2xi4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "0e9806d0d9e41412"
+ },
+ "w:响:xiang3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "a4c8c8b8933b664d"
+ },
+ "w:想法:xiang3fa3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "331f641269e701c2"
+ },
+ "w:项:xiang4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "50ab1aa676365439"
+ },
+ "w:消息:xiao1xi5": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "1066aea657c109be"
+ },
+ "w:小吃:xiao3chi1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "13a67d64616ec536"
+ },
+ "w:小伙子:xiao3huo3zi5": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "10e2868f8b9f1564"
+ },
+ "w:小说:xiao3shuo1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "915bcd8f5cb44307"
+ },
+ "w:小组:xiao3zu3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "8bc3a8770195e22e"
+ },
+ "w:效果:xiao4guo3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "5368e810d3ea0683"
+ },
+ "w:笑话:xiao4hua5": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "156f525497ed24df"
+ },
+ "w:血:xie3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "d7d6056bc46284f0"
+ },
+ "w:心:xin1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "9be5d415dc81c61c"
+ },
+ "w:辛苦:xin1ku3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "63f54f0fcb8eedcd"
+ },
+ "w:心情:xin1qing2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "9ae2d89a1e5ee103"
+ },
+ "w:信号:xin4hao4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "45c54f8e827b3cc8"
+ },
+ "w:信息:xin4xi1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "ad56676c5f100ea6"
+ },
+ "w:信心:xin4xin1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "9d4e588fe56132a5"
+ },
+ "w:兴奋:xing1fen4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "1d3b293f36091e03"
+ },
+ "w:星星:xing1xing5": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "b2ffb134f18679ba"
+ },
+ "w:醒:xing3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "941a70481805749a"
+ },
+ "w:性:xing4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "65a873b799ad5d12"
+ },
+ "w:性别:xing4bie2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "29dea816ba34c896"
+ },
+ "w:幸福:xing4fu2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "e02894a98ceff9b7"
+ },
+ "w:性格:xing4ge2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "f32464177ddbbf02"
+ },
+ "w:兄弟:xiong1di4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "1338d12520dbaaef"
+ },
+ "w:熊:xiong2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "554977e10b44a399"
+ },
+ "w:修:xiu1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "4b1fcb74b86f1bc7"
+ },
+ "w:修理:xiu1li3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "234dc3aa0cf77829"
+ },
+ "w:许多:xu3duo1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "3bee6ea724fff503"
+ },
+ "w:学费:xue2fei4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "df3eb6fd005d47f1"
+ },
+ "w:学院:xue2yuan4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "b081e72c84607467"
+ },
+ "w:压:ya1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "3890032a97ed9b15"
+ },
+ "w:压力:ya1li4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "e33a9868125955bb"
+ },
+ "w:牙膏:ya2gao1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "86adaa744b0c245b"
+ },
+ "w:亚洲:ya4zhou1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "c80af2ad774fef88"
+ },
+ "w:烟:yan1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "58c018cace10825c"
+ },
+ "w:盐:yan2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "024745eafad40266"
+ },
+ "w:严格:yang2e2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "1a2ef9ecc7448926"
+ },
+ "w:研究:yan2jiu1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "530094b93ce3fb91"
+ },
+ "w:研究生:yan2jiu1sheng1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "d180d5dd1b75c2e2"
+ },
+ "w:严重:yan2zhong4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "f4d29972b64f041c"
+ },
+ "w:演:yan3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "54261898ff98f778"
+ },
+ "w:演唱:yan3chang4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "87761a1403e004b5"
+ },
+ "w:演出:yan3chu1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "a943b271c4149f63"
+ },
+ "w:眼镜:yan3jing4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "ae2fce9d4e58f7c8"
+ },
+ "w:眼前:yan3qian2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "fad10254feaa5fe3"
+ },
+ "w:演员:yan3yuan2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "15b832aaeffbb9cc"
+ },
+ "w:阳光:yang2guang1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "cc53040ae6df1996"
+ },
+ "w:养成:yang3cheng2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "47ea96f11b649374"
+ },
+ "w:样子:yang4zi5": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "5a7a9e18e375482b"
+ },
+ "w:邀请:yao1qing3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "26bd3c6c9eba824a"
+ },
+ "w:要是:yao4shi5": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "b40a2578ce254964"
+ },
+ "w:钥匙:yao4shi5": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "7aae367be281319a"
+ },
+ "w:也许:ye3xu3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "379d57b8b1da807a"
+ },
+ "w:夜:ye4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "6d516b6cc1c59a92"
+ },
+ "w:夜晚:ye4wan3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "f4fc803af97f019a"
+ },
+ "w:叶子:ye4zi5": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "285be32ba228e42a"
+ },
+ "w:一切:yi2qie4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "b9118fc5f43a08ed"
+ },
+ "w:已:yi3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "9ea1faa194f34aeb"
+ },
+ "w:以内:yi3nei4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "1b4a34996f085732"
+ },
+ "w:意见:yi4jian4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "d21398efaa3fed22"
+ },
+ "w:一生:yi1sheng1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "e5cb12d7f58749ec"
+ },
+ "w:艺术:yi4shu4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "d67cfc1ed1dcfe84"
+ },
+ "w:因此:yin1ci3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "1861332e4dcd33b4"
+ },
+ "w:引起:yin3qi3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "e4fa0ac0604fb6a6"
+ },
+ "w:印象:yin4xiang4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "af840b60ba8b542f"
+ },
+ "w:赢:ying2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "0f232fa9c6554b72"
+ },
+ "w:赢得:ying2de2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "a4e6130c3f01f7d5"
+ },
+ "w:应聘:ying4pin4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "176c3d24a2483696"
+ },
+ "w:勇敢:yong3gan3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "0e97eae25dc98bdf"
+ },
+ "w:永远:yong3yuan3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "297d210b5448378c"
+ },
+ "w:用来:yong4lai2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "36b9f1da512414c1"
+ },
+ "w:用于:yong4yu2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "b6552d5e9924d90a"
+ },
+ "w:优点:you1dian3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "37804646b44cf8a5"
+ },
+ "w:幽默:you1mo4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "9dbcea1bb394a158"
+ },
+ "w:优秀:you1xiu4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "1b1a7659d1818a4f"
+ },
+ "w:由:you2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "f277ee11542fde78"
+ },
+ "w:油:you2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "d80397a7c545f9c4"
+ },
+ "w:尤其:you2qi2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "f881c0585de8e15c"
+ },
+ "w:游玩:you2wan2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "ffde1f80686019e2"
+ },
+ "w:由于:you2yu2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "eba9d270e6870119"
+ },
+ "w:友好:you3hao3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "0c3d970f5afa1171"
+ },
+ "w:友情:you3qing2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "31225b1fc72bd7fe"
+ },
+ "w:有趣:you3qu4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "5d61b1123808406b"
+ },
+ "w:有效:you3xiao4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "f2c17e5d4a81ccd8"
+ },
+ "w:友谊:you3yi4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "f7fd17bddc1852ef"
+ },
+ "w:有着:you3zhe5": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "19ffb6c348cfb154"
+ },
+ "w:愉快:yu2kuai4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "ba9e77d8d07e0fad"
+ },
+ "w:于是:yu2shi4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "642fc1980324755e"
+ },
+ "w:与:yu3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "e603417ed9509f18"
+ },
+ "w:语法:yu3fa3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "59520b5fc6acd38e"
+ },
+ "w:预习:yu4xi2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "bdaa695d92515c28"
+ },
+ "w:原来:yuan2lai2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "81b18b9f3eff7e90"
+ },
+ "w:原谅:yuan2liang4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "b86cef4a5c3d341e"
+ },
+ "w:原因:yuan2yin1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "a8934c68426d23e0"
+ },
+ "w:远离:yuan3li2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "9b3fee40aa87214a"
+ },
+ "w:院长:yuan4zhang3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "ad6f3367c0e99e91"
+ },
+ "w:院子:yuan4zi5": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "a6bbe05926f6dfcd"
+ },
+ "w:约:yue1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "3c3d360ac13c6f30"
+ },
+ "w:约会:yue1hui4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "92b26c1a3c8c414c"
+ },
+ "w:月饼:yue4bing3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "dff45ff7842b21b9"
+ },
+ "w:阅读:yue4du2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "27888f4e13156e8c"
+ },
+ "w:月份:yue4fen4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "68173e7face811d2"
+ },
+ "w:云:yun2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "aa070499e7945688"
+ },
+ "w:允许:yun3xu3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "1534022b7ef768bd"
+ },
+ "w:杂志:za2zhi4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "1c2bd5701fd344a6"
+ },
+ "w:再次:zai4ci4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "5a483142e42e6973"
+ },
+ "w:再说:zai4shuo1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "55086313eb7be1e5"
+ },
+ "w:暂时:zan4shi2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "3294c2acc4ae628a"
+ },
+ "w:暂停:zan4ting2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "347776c0bfb292ac"
+ },
+ "w:早餐:zao3can1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "a964de4a39f917b5"
+ },
+ "w:早晨:zao3chen5": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "14459257200e4412"
+ },
+ "w:责任:ze2ren4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "dde9c1672c195d3d"
+ },
+ "w:增加:zeng1jia1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "ce7dd2fdd6ea70f0"
+ },
+ "w:增长:zeng1zhang3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "1900d4ffa19efce3"
+ },
+ "w:招聘:zhao1pin4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "d734e1b62933666a"
+ },
+ "w:着:zhao2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "5148030d0d26e156"
+ },
+ "w:着火:zhao2huo3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "b6fdbd7e9917492c"
+ },
+ "w:者:zhe3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "5eabf2bde3cb4d48"
+ },
+ "w:真正:zhen1zheng4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "15635bb60f4f4f06"
+ },
+ "w:整:zheng3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "33d8f8da843632ad"
+ },
+ "w:整个:zheng3ge4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "7cd7c02d65e33ba7"
+ },
+ "w:整理:zheng3li3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "8b69d00fd2606bdf"
+ },
+ "w:证:zheng4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "c693d8757a49ee80"
+ },
+ "w:正常:zheng4chang2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "7154294ee91a4bda"
+ },
+ "w:正好:zheng4hao3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "d0a11c85407d5d7a"
+ },
+ "w:证件:zheng4jian4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "7105aaeee15a88ba"
+ },
+ "w:证明:zheng4ming2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "d18ac7ef83ad861b"
+ },
+ "w:正确:zheng4que4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "f8100c0b1f95b87c"
+ },
+ "w:正式:zheng4shi4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "5dd8457f2e8517de"
+ },
+ "w:之:zhi1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "023acccf5b1887c4"
+ },
+ "w:支持:zhi1chi2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "23d0a58d00ebe8fe"
+ },
+ "w:支付:zhi1fu4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "f4ccfd11194e022d"
+ },
+ "w:之后:zhi1hou4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "28ac893ccec9ac66"
+ },
+ "w:之间:zhi1jian1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "9fce6ae7565c8749"
+ },
+ "w:之前:zhi1qian2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "024a52b3d3ba0634"
+ },
+ "w:知识:zhi1shi5": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "44953f0d4e8702fb"
+ },
+ "w:之中:zhi1zhong1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "4543ca72830289e2"
+ },
+ "w:值:zhi2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "16b05c91a013ad1a"
+ },
+ "w:值得:zhi2de5": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "8f875cac366de904"
+ },
+ "w:直接:zhi2jie1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "3d2ba7d8e68fe195"
+ },
+ "w:植物:zhi2wu4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "126edf452cb9b5c3"
+ },
+ "w:职业:zhi2ye4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "3af0008d98b7c267"
+ },
+ "w:指:zhi3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "e991871f2aa8ee54"
+ },
+ "w:指出:zhi3chu1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "e7f4af9da4ca88f2"
+ },
+ "w:只好:zhi3hao3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "4f6cacc0f448528f"
+ },
+ "w:纸巾:zhi3jin1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "f945f2ad9148e1a9"
+ },
+ "w:质量:zhi4liang4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "3da3edea5edb530e"
+ },
+ "w:至少:zhi4shao3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "6f28808811b7996d"
+ },
+ "w:中餐:zhong1can1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "1430f67315680a35"
+ },
+ "w:中年:zhong1nian2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "e935f62f2e481686"
+ },
+ "w:种:zhong4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "cc39fd423310ac27"
+ },
+ "w:重:zhong4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "72b71248aff2bcd6"
+ },
+ "w:重点:zhong4dian3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "a4df741c29d354f6"
+ },
+ "w:重视:zhong4shi4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "dc04b40544cd9d06"
+ },
+ "w:周围:zhou1wei2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "f74c80b65476a197"
+ },
+ "w:主意:zhu3yi5": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "87f0b34f68f3197a"
+ },
+ "w:祝:zhu4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "7c7b163a2a3ae5c5"
+ },
+ "w:祝贺:zhu4he4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "43abfe450ad292f5"
+ },
+ "w:著名:zhu4ming2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "399905f331aaafea"
+ },
+ "w:专门:zhuan1men2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "5dba22eb5e3dbb73"
+ },
+ "w:专业:zhuan1ye4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "73f6bb4aed0711f9"
+ },
+ "w:转:zhuan3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "9a7490cbd4b4d64e"
+ },
+ "w:转发:zhuan3fa1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "821ece38dcabea4f"
+ },
+ "w:转机:zhuan3ji1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "fd73bbef2ce95d7b"
+ },
+ "w:赚:zhuan4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "dc060d4f79c0a54d"
+ },
+ "w:装:zhuang1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "cd33c54afd933cc8"
+ },
+ "w:准:zhun3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "c0657c6173b17591"
+ },
+ "w:准确:zhun3que4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "d797c93aedf09ed6"
+ },
+ "w:准时:zhun3shi2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "d058c8c13bbee188"
+ },
+ "w:资料:zi1liao4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "71a7e15cc390f617"
+ },
+ "w:仔细:zi3xi4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "8318eb4f79d4cdc2"
+ },
+ "w:自:zi4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "8eb730d44f687f05"
+ },
+ "w:自然:zi4ran2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "4abe1a02530f52a0"
+ },
+ "w:自习:zi4xi2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "0dbfc9d30627ce68"
+ },
+ "w:自信:zi4xin4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "f720f694d51abe49"
+ },
+ "w:自学:zi4xue2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "a24dbfb99e4606de"
+ },
+ "w:总结:zong3jie2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "7030ac9688a5a8cd"
+ },
+ "w:租:zu1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "87c1ed724bf82009"
+ },
+ "w:组:zu3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "a327ce9f807ccc46"
+ },
+ "w:最终:zui4zhong1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "1d16d4e4be50f4bf"
+ },
+ "w:尊重:zun1zhong4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "d47cd5b8aadc82d7"
+ },
+ "w:左右:zuo3you4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "2ab01a47fd22adde"
+ },
+ "w:座:zuo4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "362df18cc4fa8c43"
+ },
+ "w:做法:zuo4fa3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "2320a062a79d565b"
+ },
+ "w:作家:zuo4jia1": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "14a480c9e825ea1d"
+ },
+ "w:做梦:zuo4meng4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "5df0de79ac988283"
+ },
+ "w:作品:zuo4pin3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "30fd454a0cb84b78"
+ },
+ "w:作为:zuo4wei2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "2dbbeafe0cc0f155"
+ },
+ "w:座位:zuo4wei4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "68e53f4a51f37226"
+ },
+ "w:作文:zuo4wen2": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "f9db93dd7efef30f"
+ },
+ "w:作用:zuo4yong4": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "00d6a17c85d17e70"
+ },
+ "w:作者:zuo4zhe3": {
+  "batch": "b009",
+  "policy": "author+review",
+  "hash": "def00c10769ae8c9"
  }
 }
