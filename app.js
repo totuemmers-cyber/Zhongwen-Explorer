@@ -452,7 +452,7 @@
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
       var utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = 'zh-CN';
+      utterance.lang = window.LANG_PROFILE.speechLang;
       utterance.rate = 0.8;
       utterance.volume = 0.8;
       window.speechSynthesis.speak(utterance);

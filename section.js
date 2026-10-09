@@ -16,6 +16,8 @@ function Section(config) {
   this.scrollObserver = null;
   this.searchTimeout = null;
   this.initialized = false;
+  this.isLoaded = false;
+  this.isLoading = false;
 
   // Resolve DOM elements from config.dom (map of key -> element ID)
   this.dom = {};
@@ -39,19 +41,56 @@ function Section(config) {
 
 Section.prototype.setItems = function (items) {
   this.allItems = items;
+  this.isLoaded = true;
+  this.isLoading = false;
   this.applyFilters();
 };
 
 Section.prototype.applyFilters = function () {
   var query = this.dom.search ? this.dom.search.value.trim().toLowerCase() : '';
   var self = this;
-  this.filteredItems = this.allItems.filter(function (item) {
-    return self.config.filterFn(item, query, self.filters, self);
-  });
-  this.sort();
+  this._usingSearchRanking = false;
+  var selectedItem = this.selectedItem;
+
+  if (query && this.config.searchScoreFn) {
+    var scoredItems = [];
+    for (var i = 0; i < this.allItems.length; i++) {
+      var item = this.allItems[i];
+      if (!this.config.filterFn(item, '', this.filters, this)) continue;
+      var match = this.config.searchScoreFn(item, query, this);
+      if (!match) continue;
+      scoredItems.push({ item: item, match: match });
+    }
+
+    var activeItems = scoredItems;
+    var compareFn = this.config.searchCompareFn;
+
+    activeItems.sort(function (a, b) {
+      if (a.match.score !== b.match.score) return b.match.score - a.match.score;
+      if (compareFn) return compareFn(a.item, b.item, self.currentSort);
+      return 0;
+    });
+
+    this.filteredItems = activeItems.map(function (entry) {
+      return entry.item;
+    });
+    this._usingSearchRanking = true;
+  } else {
+    this.filteredItems = this.allItems.filter(function (item) {
+      return self.config.filterFn(item, query, self.filters, self);
+    });
+    this.sort();
+  }
+
+  if (this.scrollObserver) this.scrollObserver.disconnect();
+  this.scrollObserver = null;
+  if (this._searchPager) this._searchPager.remove();
+  this._searchPager = null;
   this.renderedCount = 0;
   if (this.dom.grid) this.dom.grid.innerHTML = '';
   this.render();
+  if (selectedItem) this.currentDetailIndex = this.filteredItems.indexOf(selectedItem);
+  if (window.app && window.app.workspace) window.app.workspace.collectionChanged(this);
   if (window.app && typeof window.app.updateCount === 'function') {
     window.app.updateCount();
   }
@@ -91,8 +130,11 @@ Section.prototype._renderAll = function () {
 Section.prototype.renderBatch = function () {
   if (this.isRendering) return;
   this.isRendering = true;
+  if (this.scrollObserver) this.scrollObserver.disconnect();
+  this.dom.grid.querySelectorAll('.scroll-sentinel').forEach(function (el) { el.remove(); });
 
-  var end = Math.min(this.renderedCount + this.batchSize, this.filteredItems.length);
+  var pageSize = this._usingSearchRanking ? (this.config.searchPageSize || this.batchSize) : this.batchSize;
+  var end = Math.min(this.renderedCount + pageSize, this.filteredItems.length);
   var fragment = document.createDocumentFragment();
 
   for (var i = this.renderedCount; i < end; i++) {
@@ -107,9 +149,36 @@ Section.prototype.renderBatch = function () {
     this.dom.noResults.classList.toggle('hidden', this.filteredItems.length > 0);
   }
 
-  if (this.renderedCount < this.filteredItems.length) {
+  this._updateSearchPager();
+  if (this._usingSearchRanking) {
+  } else if (this.renderedCount < this.filteredItems.length) {
     this._setupScrollObserver();
   }
+};
+
+Section.prototype._updateSearchPager = function () {
+  var self = this;
+  if (!this._searchPager) {
+    this._searchPager = document.createElement('div');
+    this._searchPager.className = 'search-pagination';
+    this._searchStatus = document.createElement('span');
+    this._searchStatus.setAttribute('role', 'status');
+    this._searchPager.appendChild(this._searchStatus);
+    this._searchMore = document.createElement('button');
+    this._searchMore.type = 'button';
+    this._searchMore.className = 'btn btn-pill';
+    this._searchMore.textContent = 'Mehr laden';
+    this._searchMore.addEventListener('click', function () {
+      var firstNewIndex = self.renderedCount;
+      self.renderBatch();
+      var firstNewCard = self.dom.grid.children[firstNewIndex];
+      if (firstNewCard) (firstNewCard.querySelector('.entry-open') || firstNewCard).focus();
+    });
+    this._searchPager.appendChild(this._searchMore);
+    this.dom.grid.insertAdjacentElement('afterend', this._searchPager);
+  }
+  this._searchStatus.textContent = this.renderedCount + ' von ' + this.filteredItems.length + ' Ergebnissen';
+  this._searchMore.hidden = this.renderedCount >= this.filteredItems.length;
 };
 
 Section.prototype._setupScrollObserver = function () {
@@ -121,7 +190,8 @@ Section.prototype._setupScrollObserver = function () {
 
   var self = this;
   this.scrollObserver = new IntersectionObserver(function (entries) {
-    if (entries[0].isIntersecting) {
+    // A queued callback can arrive after a search/filter replaced its sentinel.
+    if (entries[0].isIntersecting && sentinel.isConnected && !self._usingSearchRanking) {
       self.scrollObserver.disconnect();
       sentinel.remove();
       self.renderBatch();
@@ -133,7 +203,8 @@ Section.prototype._setupScrollObserver = function () {
 
 Section.prototype.openDetail = function (index) {
   if (index < 0 || index >= this.filteredItems.length) return;
-  this._triggerEl = document.activeElement;
+  if (window.app && window.app.workspace) return window.app.workspace.present(this, this.filteredItems[index]);
+  if (!this.isOverlayOpen()) this._triggerEl = document.activeElement;
   this.currentDetailIndex = index;
   var item = this.filteredItems[index];
   this.config.openDetail(item, this.dom, this);
@@ -147,6 +218,7 @@ Section.prototype.openDetail = function (index) {
 };
 
 Section.prototype.closeDetail = function () {
+  if (window.app && window.app.workspace) return window.app.workspace.close(this);
   if (this.dom.overlay) this.dom.overlay.classList.add('hidden');
   document.body.style.overflow = '';
   this.currentDetailIndex = -1;
@@ -257,6 +329,7 @@ Section.prototype._initEvents = function () {
 
     // Focus trap: keep Tab within overlay while open
     this.dom.overlay.addEventListener('keydown', function (e) {
+      if (window.app && window.app.workspace) return;
       if (e.key !== 'Tab') return;
       var focusable = self.dom.overlay.querySelectorAll(
         'button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])'

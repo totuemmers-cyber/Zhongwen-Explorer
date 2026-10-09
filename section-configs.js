@@ -52,7 +52,7 @@ function getHanziByRadical() {
 
 // Prefixed keys: Nihongo Explorer shares this origin and uses bookmarks-<section>.
 function getBookmarks(sectionName) {
-  return window.APP_STORAGE.local.getJSON('zhongwen-bookmarks-' + sectionName, [], Array.isArray);
+  return window.APP_STORAGE.local.getJSON(window.LANG_PROFILE.storagePrefix + 'bookmarks-' + sectionName, [], Array.isArray);
 }
 
 function isBookmarked(sectionName, itemId) {
@@ -64,7 +64,7 @@ function toggleBookmark(sectionName, itemId) {
   var idx = bk.indexOf(itemId);
   if (idx === -1) bk.push(itemId);
   else bk.splice(idx, 1);
-  window.APP_STORAGE.local.setJSON('zhongwen-bookmarks-' + sectionName, bk);
+  window.APP_STORAGE.local.setJSON(window.LANG_PROFILE.storagePrefix + 'bookmarks-' + sectionName, bk);
   return idx === -1;
 }
 
