@@ -19,7 +19,8 @@ Check every point for:
 2. Explanation and notes: correct grammar, no overstated rules, pinyin after Chinese words, real umlauts.
 3. Examples: natural Mandarin a native speaker would say, correct pinyin (tones, word spacing, 一/不 sandhi), faithful
    German translation, level-appropriate words.
-4. Quiz: the answer really is the only natural fill (list other correct fills in `accepted`); each distractor is wrong
+4. Quiz: the answer really is the only natural fill (list other correct fills in `accepted`; the quiz shows the German
+   translation, so fills that change the meaning are wrong); each distractor is wrong
    in THIS sentence and its reason says why; distractors are plausible for a learner of this level.
 
 Then run `node scripts/grammar/validate.cjs {{BATCH}} pNN --reviewed` (validates the author content with your fixes

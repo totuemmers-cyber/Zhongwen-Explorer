@@ -53,8 +53,8 @@ function cellText(items) {
 }
 
 // Lines of a content cell join directly (wrapped text, often mid-word: 她/们). Two cells hold two lines that are
-// separate statements or list parts without a separator in the print.
-const LINE_FIXES = [['作状语表示时间', '作状语；表示时间'], ['头、句公斤', '头、句、公斤']];
+// separate statements or list parts without a separator in the print; one has a typo (所处 for 处所).
+const LINE_FIXES = [['作状语表示时间', '作状语；表示时间'], ['头、句公斤', '头、句、公斤'], ['所处+是+名词', '处所+是+名词']];
 function joinLines(text) {
   return LINE_FIXES.reduce((s, [from, to]) => s.replace(from, to), text.join(''));
 }

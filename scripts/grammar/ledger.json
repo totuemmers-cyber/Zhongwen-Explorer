@@ -1,0 +1,487 @@
+{
+ "g:小—": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "16d3a6f2f51620d6"
+ },
+ "g:第—": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "f80e441735611abc"
+ },
+ "g:—们": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "1927626afe23da15"
+ },
+ "g:—边": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "ec3392ce68bff393"
+ },
+ "g:方位名词@HSK1": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "0e92c38c2b8f0209"
+ },
+ "g:会": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "2bf01a6c5cc7c0dc"
+ },
+ "g:能": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "93370d62c4d27180"
+ },
+ "g:想": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "2e79f7b5d87c4178"
+ },
+ "g:要": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "aa1c248b30d96128"
+ },
+ "g:可以": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "d6fb60efadf4c83a"
+ },
+ "g:离合词@HSK1": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "d56228c4de4e8d81"
+ },
+ "g:疑问代词@HSK1": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "82f8c04f2edac4b1"
+ },
+ "g:什么": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "27b05fb4fd8e5eeb"
+ },
+ "g:几": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "b5eae3eb96e9ce96"
+ },
+ "g:谁": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "049598fef341cc54"
+ },
+ "g:哪儿": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "23f338cb2d7089e2"
+ },
+ "g:怎么": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "738426e2c01c0404"
+ },
+ "g:多": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "fab8fd9f4e5a9e2a"
+ },
+ "g:怎么样": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "4885d91cbc421a3d"
+ },
+ "g:人称代词@HSK1": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "d89a95d24d1e7225"
+ },
+ "g:指示代词@HSK1": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "e7ba1d7d5cf4c455"
+ },
+ "g:这": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "0e4cf22ff1854c8f"
+ },
+ "g:数词@HSK1": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "1e9cb438f09b9cd7"
+ },
+ "g:名量词@HSK1": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "0ab694cc49ecc7a1"
+ },
+ "g:杯": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "22f38b734e393f80"
+ },
+ "g:时量词@HSK1": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "d6ba147174c292ab"
+ },
+ "g:程度副词@HSK1": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "a3b4b5ed07d83b27"
+ },
+ "g:很": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "aae7d32d95b54fc1"
+ },
+ "g:太": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "dfcab946e00a92a9"
+ },
+ "g:真": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "5b1b7c98cbf06e40"
+ },
+ "g:非常": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "a923dc04493dd542"
+ },
+ "g:有（一）点儿": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "203934b72d218137"
+ },
+ "g:都¹": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "59fd25b00b4a206e"
+ },
+ "g:在": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "5d216368d961cb74"
+ },
+ "g:正在": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "51631f97eeab5c67"
+ },
+ "g:再¹": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "c26d52e0bd9502f9"
+ },
+ "g:还¹": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "ef7224db4da6a929"
+ },
+ "g:也": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "a5faa035b79e9360"
+ },
+ "g:否定副词@HSK1": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "95ec1d8005ea769f"
+ },
+ "g:不": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "04fef58f26382163"
+ },
+ "g:没（有）": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "e05ced1d544ed0f1"
+ },
+ "g:不要": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "f5160bb1c1d24533"
+ },
+ "g:在（引出时间、处所）": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "f275bc417be1fb81"
+ },
+ "g:和¹": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "b795d8567f5f6861"
+ },
+ "g:对": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "694636b0eaee94af"
+ },
+ "g:和²": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "0a799202ad788fe0"
+ },
+ "g:的¹": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "ee2dd34d78d4a3fb"
+ },
+ "g:了¹": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "8843e695c384a176"
+ },
+ "g:语气助词@HSK1": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "6c36f1f2cf2a9262"
+ },
+ "g:吗": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "d8ba8e9c4c0db05d"
+ },
+ "g:呢²": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "7a930a71457abf46"
+ },
+ "g:吧¹": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "ca0fb8858507f9cd"
+ },
+ "g:了²": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "f850c11a3b157f1f"
+ },
+ "g:喂": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "6e26de367e7f6646"
+ },
+ "g:基本结构类型：联合短语": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "6f3d3b0ece585795"
+ },
+ "g:基本结构类型：偏正短语": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "364d042c96bf88a1"
+ },
+ "g:基本结构类型：动宾短语": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "d688a53574709b8d"
+ },
+ "g:基本结构类型：主谓短语": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "869d364625adfcaf"
+ },
+ "g:其他结构类型：数量短语": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "acf38db0a8e884be"
+ },
+ "g:其他结构类型：介宾短语": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "5d1b3ee35a6ac04d"
+ },
+ "g:其他结构类型：方位短语": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "7df6fdf7fcb13595"
+ },
+ "g:主语：名词、代词或名词性短语作主语": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "29b3ef82cf689b95"
+ },
+ "g:谓语：名词、代词、数词或数量短语作谓语": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "073039b6229fe142"
+ },
+ "g:谓语：动词或动词性短语、形容词或形容词性短语作谓语": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "af3f6a57a9c4874b"
+ },
+ "g:宾语：名词、代词或名词性短语作宾语": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "9ec3c0153c4647d8"
+ },
+ "g:定语：名词性词语、形容词性短语、数量短语作定语": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "a18289b34e47a56d"
+ },
+ "g:状语：副词、形容词作状语；表示时间、处所的词语作状语": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "acc6ee8e4def633e"
+ },
+ "g:动词+动量补语": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "1a8ed7550165d0eb"
+ },
+ "g:主谓句1：动词谓语句": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "5a70c07aa8405148"
+ },
+ "g:主谓句2：形容词谓语句": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "90d51d8faddf57f1"
+ },
+ "g:主谓句3：名词谓语句": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "aa3fb2c69c7033ae"
+ },
+ "g:单句：非主谓句": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "a524e6ff414747c8"
+ },
+ "g:陈述句": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "969799e74179e986"
+ },
+ "g:疑问句：是非问句": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "e111b9347ce88769"
+ },
+ "g:疑问句：特指问句": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "4e1300f469ea618d"
+ },
+ "g:疑问句：正反问句": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "ff31b5d524a98628"
+ },
+ "g:祈使句": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "2b66cc6ebd1e0041"
+ },
+ "g:感叹句": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "cfa7048309cdc050"
+ },
+ "g:“是”字句1：表示等同或类属": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "3b8c75fc6c72c1a9"
+ },
+ "g:“有”字句1：表示领有": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "1636d8d7e1dd0cb9"
+ },
+ "g:处所+有+数量短语+名词": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "68e38dfcac379dea"
+ },
+ "g:连动句1：前后动作先后发生，后一动作是前一动作的目的": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "d7fa95a9784f7500"
+ },
+ "g:连动句1：前一动作是后一动作的方式": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "2bf8cea86a25e282"
+ },
+ "g:主语+动词+宾语1+宾语2": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "a0800cf5cc8019d0"
+ },
+ "g:不用关联词语的复句": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "c330c556360e6106"
+ },
+ "g:……，也……": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "ef72697679e69ea1"
+ },
+ "g:……，还……": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "3c561529c52b3d84"
+ },
+ "g:完成态：用动态助词“了¹”表示": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "ce3a902b17e611ce"
+ },
+ "g:变化态：用动态助词“了²”表示": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "7a5a53e4d28be018"
+ },
+ "g:……在/正在+动词": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "f88cee4fe88e3a26"
+ },
+ "g:……在/正在+动词……+呢": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "81b048195accdf18"
+ },
+ "g:……呢": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "3f9f2713c773e3cb"
+ },
+ "g:钱数表示法": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "ff921cc16fc300cd"
+ },
+ "g:序数表达法1：第+数词": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "1a0ccb7be658d86e"
+ },
+ "g:时间表示法：年、月、日、星期表示法": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "06bd1cb2220fd207"
+ },
+ "g:钟点表示法": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "7b8666eb4ff1c475"
+ },
+ "g:处所+是+名词": {
+  "batch": "g001",
+  "policy": "author+review",
+  "hash": "38437e2237ceea28"
+ }
+}

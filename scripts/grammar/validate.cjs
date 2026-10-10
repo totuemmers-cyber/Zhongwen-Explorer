@@ -88,7 +88,9 @@ function checkCard(card, authored) {
     if (!/[。！？…」”）]$/.test(ex.chinese.trim())) warnings.push(label + ': sentence should end with 。！？');
     if (card.mustUse.length && !showsPattern(ex.chinese, card.mustUse)) errors.push(label + ': does not show the pattern (' + card.mustUse.map(a => a.join('/')).join(' … ') + ')');
     if (card.words) {
-      const hit = card.words.map(w => w.replace(/[¹²³⁴⁵⁶⁷⁸⁹—]/g, '')).filter(w => [w.replace(/（(.*?)）/g, '$1'), w.replace(/（.*?）/g, '')].some(f => f && ex.chinese.includes(f)));
+      // A listed word may have variants (二/两) and optional parts (没（有）).
+      const hit = card.words.map(w => w.replace(/[¹²³⁴⁵⁶⁷⁸⁹—]/g, '')).filter(w => w.split('/')
+        .flatMap(v => [v.replace(/（(.*?)）/g, '$1'), v.replace(/（.*?）/g, '')]).some(f => f && ex.chinese.includes(f)));
       if (!hit.length) errors.push(label + ': uses none of the listed words');
       hit.forEach(w => wordsUsed.add(w));
     }

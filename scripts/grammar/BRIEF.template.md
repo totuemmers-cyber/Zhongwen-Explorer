@@ -45,7 +45,8 @@ Read the WARN lines too and fix real problems.
 - `quiz` — REQUIRED for `pattern`/`word` points whose core words can be blanked (else `noQuiz`): a cloze over one example,
   `{"example": 0, "answer": "否则", "accepted": ["不然"], "distractors": [{"text": "只有", "reason": "…"}, {…}, {…}]}`:
   - `example`: index of the example; `answer`: the span that is blanked — the pattern's key word(s) as written in that
-    sentence, occurring exactly once in it; `accepted` (optional): other fills that are also correct there;
+    sentence, occurring exactly once in it; `accepted` (optional): other fills that are also correct there — the quiz
+    shows the German translation, so a fill that changes the meaning (没 instead of 有) is wrong, not accepted;
   - `distractors`: exactly 3 plausible WRONG fills (similar function words or patterns a learner of this level confuses),
     each with a German `reason` why it does not fit THIS sentence („只有 verlangt 才 im Folgesatz, nicht 否则“).
 - `noQuiz` — instead of `quiz` when no word can be blanked sensibly (陈述句, 名词谓语句, 承前省略): a short German reason.
