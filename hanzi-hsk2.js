@@ -11,14 +11,13 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "ā",
-        "meaning": "Ausrufepartikel"
+        "meaning": "ah!; oh! (Ausruf des Staunens oder Erkennens)"
       },
       {
         "pinyin": "a",
-        "meaning": "(wird am Ende eines Satzes verwendet, um Bewunderung auszudrücken); (wird am Ende eines Satzes verwendet, um Zustimmung, Dringlichkeit usw. auszudrücken); (wird am Ende eines Satzes verwendet, um Zweifel auszudrücken)"
+        "meaning": "Satzendpartikel (Ausruf, Nachdruck, Aufforderung, Nachfrage, freundlicher Ton); Pausenpartikel; Partikel bei Aufzählungen"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 10,
     "primaryRadical": "口",
     "components": [
@@ -30,7 +29,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "阿",
         "role": "phonetic",
-        "meaning": "Vorsilbe"
+        "meaning": "Vorsilbe a- (Laut ā)"
       }
     ],
     "words": [
@@ -49,6 +48,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "001.030:ā 001.060:á 001.070:ǎ 001.080:à 001.090:a | a(1102) ā(404)",
       "etymology": "pictophonetic: mouth",
       "old": "Ausrufepartikel"
+    },
+    "notes": "啊 besteht aus 口 „Mund“ als Bedeutungsträger – typisch für Ausrufe und Partikeln – und 阿 (ā) als Lautträger. Merkhilfe: Der Mund (口) ruft „a!“ (阿). Am Satzende ist 啊 unbetont (a) und macht einen Satz lebhafter oder freundlicher: 好啊 (hǎo a) „gut!“, 你去不去啊 (nǐ qù bu qù a) „Gehst du nun oder nicht?“. Als Ausruf ā wechselt der Ton je nach Gefühl (fragend eher á, erstaunt ǎ, zustimmend à); nach bestimmten Auslauten verschmilzt es in der Aussprache zu 呀 (ya), 哇 (wa) oder 哪 (na).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -60,18 +65,20 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "bāng",
-        "meaning": "helfen"
+        "meaning": "helfen; unterstützen; Gruppe; Bande; Zählwort für Gruppen von Menschen; Seitenteil (z. B. eines Schuhs)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 9,
     "primaryRadical": "巾",
     "components": [
       {
-        "part": "邦"
+        "part": "邦",
+        "role": "phonetic",
+        "meaning": "Staat, Land (Laut bāng)"
       },
       {
         "part": "巾",
+        "role": "semantic",
         "meaning": "Tuch"
       }
     ],
@@ -91,6 +98,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "011.010:bāng | bāng(598)",
       "etymology": "ideographic: A nation's 邦 flag 巾; 邦 also provides the pronunciation",
       "old": "helfen"
+    },
+    "notes": "帮 besteht aus 邦 (bāng) „Staat“ oben als Lautträger – der Klang ist identisch – und 巾 „Tuch“ unten; das Tuch erinnert an die Grundbedeutung „Seitenteil eines Schuhs aus Stoff“ (heute noch in 鞋帮 (xiébāng)). Merkhilfe: Wer helfen will, reicht ein Tuch (巾). Wichtige Wörter: 帮助 (bāngzhù) „helfen; Hilfe“, 帮忙 (bāngmáng) „behilflich sein“ – 帮忙 nimmt kein direktes Objekt, man sagt 帮我 (bāng wǒ) oder 帮我的忙 (bāng wǒ de máng). Als Zählwort: 一帮人 (yì bāng rén) „eine Gruppe Leute“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -102,20 +115,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "bèi",
-        "meaning": "vorbereiten; ausrüsten"
+        "meaning": "vorbereiten; bereithalten; ausrüsten; Ausrüstung; Vorrat; Reserve-; (literarisch) vollständig"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 8,
     "primaryRadical": "夂",
     "components": [
       {
         "part": "夂",
-        "meaning": "gehen"
+        "role": "form",
+        "meaning": "gehen (langsam)"
       },
       {
         "part": "田",
-        "meaning": "Feld, Acker"
+        "role": "form",
+        "meaning": "Feld"
       }
     ],
     "words": [
@@ -135,6 +149,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "014.110:bèi | bèi(784)",
       "etymology": "ideographic: To go 夂 to the farm 田 to prepare for a harvest",
       "old": "vorbereiten; ausrüsten"
+    },
+    "notes": "备 ist die Kurzform von 備; die Langform zeigt links 亻 „Mensch“ und rechts einen Köcher mit Pfeilen – man hat seine Waffen bereit. Die Kurzform 备 mit 夂 über 田 lässt davon nichts mehr erkennen. Merkhilfe: Bevor man aufs Feld (田) geht (夂), muss man sich vorbereiten. Nicht verwechseln mit 各 (gè, „jeder“), das oben ebenfalls 夂 hat, unten aber 口. Wörter: 准备 (zhǔnbèi) „vorbereiten“, 设备 (shèbèi) „Ausrüstung; Gerät“, 备用 (bèiyòng) „in Reserve halten“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -147,16 +167,16 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "bǐ",
-        "meaning": "vergleichen"
+        "meaning": "vergleichen; sich messen; wetteifern; als (beim Vergleich); zu (Spielstand, Verhältnis); gestikulieren; Abk. für Belgien"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 4,
     "primaryRadical": "比",
     "components": [
       {
         "part": "匕",
-        "meaning": "Löffel"
+        "role": "form",
+        "meaning": "Löffel; hier: Mensch (zweimal)"
       }
     ],
     "words": [
@@ -176,6 +196,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "017.130:bǐ | bǐ(1774)",
       "etymology": "ideographic: Two spoons 匕 side-by-side; 匕 also provides the pronunciation",
       "old": "vergleichen"
+    },
+    "notes": "比 zeigt zwei gleiche Figuren nebeneinander, die in dieselbe Richtung schauen; in den ältesten Formen sind es zwei Menschen – Seite an Seite kann man sie vergleichen. Beide Hälften sehen aus wie 匕 „Löffel“, die linke ist leicht abgewandelt. Im Satz: 我比你高 (wǒ bǐ nǐ gāo) „ich bin größer als du“; beim Spielstand: 三比二 (sān bǐ èr) „drei zu zwei“. Nicht verwechseln mit 北 (běi, „Norden“), wo zwei Figuren Rücken an Rücken stehen, und mit 从 (cóng), wo ein Mensch dem anderen folgt.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -187,19 +213,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "bǐ",
-        "meaning": "Stift; Pinsel"
+        "meaning": "Stift; Pinsel; Schreibgerät; Strich (eines Schriftzeichens); Schreibstil; Zählwort für Geldbeträge und Geschäfte"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 10,
     "primaryRadical": "竹",
     "components": [
       {
-        "part": "𥫗"
+        "part": "⺮",
+        "role": "semantic",
+        "meaning": "Bambus"
       },
       {
         "part": "毛",
-        "meaning": "Haar"
+        "role": "semantic",
+        "meaning": "Haar, Fell"
       }
     ],
     "words": [
@@ -219,6 +247,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "018.030:bǐ | bǐ(308)",
       "etymology": "ideographic: A bamboo rod ⺮ tipped with hair 毛",
       "old": "Stift; Pinsel"
+    },
+    "notes": "笔 setzt sich aus ⺮ „Bambus“ und 毛 „Haar“ zusammen: ein Bambusstiel mit Haarspitze – der chinesische Schreibpinsel. Die Langform 筆 hat statt 毛 das Zeichen 聿, eine Hand, die einen Pinsel hält. Merkhilfe: Bambus plus Haar ergibt Pinsel, und von dort aus jeden Stift. Wörter: 铅笔 (qiānbǐ) „Bleistift“, 毛笔 (máobǐ) „Schreibpinsel“, 笔记本 (bǐjìběn) „Notizbuch; Laptop“; als Zählwort für Geld: 一笔钱 (yì bǐ qián) „eine Summe Geld“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -231,18 +265,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "biǎo",
-        "meaning": "Tabelle; ausdruecken"
+        "meaning": "Außenseite; Oberfläche; zeigen; ausdrücken; Tabelle; Formular; Uhr (Armbanduhr); Messgerät; Zähler; Cousin, Cousine (über die weibliche Linie)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 8,
     "primaryRadical": "衣",
     "components": [
       {
-        "part": "龶"
+        "part": "龶",
+        "role": "semantic",
+        "meaning": "umgeformtes 毛: Fell, Haar"
       },
       {
-        "part": "𧘇"
+        "part": "𧘇",
+        "role": "semantic",
+        "meaning": "unterer Teil von 衣: Kleidung"
       }
     ],
     "words": [
@@ -262,6 +299,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "022.210,023.010:biǎo | biǎo(1608)",
       "etymology": "ideographic: Fur 毛 clothing 衣; a shawl or wrap",
       "old": "Tabelle; ausdruecken"
+    },
+    "notes": "表 bestand ursprünglich aus 衣 „Kleidung“ und 毛 „Fell“: ein Pelzgewand, dessen Fell nach außen getragen wird – daher „Außenseite, Oberfläche“ und weiter „zeigen, ausdrücken“. Heute steckt 毛 verformt oben (龶), der untere Teil von 衣 unten. Die Bedeutung „Uhr“ stammt vom früher eigenen Zeichen 錶, das in 表 aufgegangen ist. Merkhilfe: Was außen auf der Kleidung ist, zeigt man her. Wörter: 表示 (biǎoshì) „ausdrücken“, 表演 (biǎoyǎn) „aufführen“, 表格 (biǎogé) „Formular“, 手表 (shǒubiǎo) „Armbanduhr“, 表哥 (biǎogē) „Cousin“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -274,23 +317,25 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "bié",
-        "meaning": "nicht; anders; Unterschied"
+        "meaning": "nicht (in Aufforderungen: tu nicht!); andere; anders; sich trennen; Abschied nehmen; unterscheiden; Unterschied; anstecken; feststecken (mit Nadel)"
       },
       {
         "pinyin": "biè",
-        "meaning": ""
+        "meaning": "(umgangssprachlich) jmdn. umstimmen; von etw. abbringen; in bièniu: unbehaglich; widerspenstig; verstritten"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "刀",
     "radicalForm": "刂",
     "components": [
       {
-        "part": "另"
+        "part": "另",
+        "role": "form",
+        "meaning": "anders (hier ursprünglich ein Knochen)"
       },
       {
         "part": "刂",
+        "role": "semantic",
         "meaning": "Messer"
       }
     ],
@@ -313,6 +358,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "023.120:bié 024.010:biè | bié(2043) biè(14)",
       "etymology": "ideographic: To draw boundaries 刂 between classes 另",
       "old": "nicht; anders; Unterschied"
+    },
+    "notes": "别 besteht aus 刂 „Messer“ als Bedeutungsträger und einem linken Teil, der heute wie 另 (lìng, „anders“) aussieht, ursprünglich aber einen Knochen darstellte: mit dem Messer Fleisch vom Knochen lösen – „trennen, unterscheiden“. Merkhilfe: Mit dem Messer (刂) etwas abtrennen, dann ist es etwas anderes (另). Fast immer liest man bié: 别人 (biéren) „andere Leute“, 特别 (tèbié) „besonders“, 告别 (gàobié) „sich verabschieden“, 别走 (bié zǒu) „geh nicht!“. Die Lesung biè kommt praktisch nur in 别扭 (bièniu) „unbehaglich; widerspenstig“ vor.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -324,19 +375,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "bù",
-        "meaning": "Schritt; gehen"
+        "meaning": "Schritt; Stufe; Etappe; Schritt für Schritt; gehen; zu Fuß gehen"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "止",
     "components": [
       {
         "part": "止",
-        "meaning": "stoppen"
+        "role": "semantic",
+        "meaning": "Fuß (heute: anhalten)"
       },
       {
-        "part": "𣥂"
+        "part": "𣥂",
+        "role": "form",
+        "meaning": "zweiter Fuß (umgedrehtes 止)"
       }
     ],
     "words": [
@@ -356,6 +409,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "029.050:bù | bù(1113)",
       "etymology": "ideographic: Modern form of 歨; putting one foot 止 in front of the other",
       "old": "Schritt; gehen"
+    },
+    "notes": "步 zeigt zwei Fußabdrücke hintereinander: oben 止, ursprünglich das Bild eines Fußes, darunter ein umgedrehter zweiter Fuß – ein Fuß vor den anderen, also „Schritt“. Merkhilfe: Oben ein Fuß, unten der andere, und schon macht man einen Schritt. Häufiger Schreibfehler: Der untere Teil ist kein 少 (shǎo) – rechts fehlt der Punkt, 步 hat insgesamt nur 7 Striche. Wörter: 散步 (sànbù) „spazieren gehen“, 跑步 (pǎobù) „joggen“, 进步 (jìnbù) „Fortschritt“, 一步一步 (yí bù yí bù) „Schritt für Schritt“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -367,10 +426,13 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "chǎng",
-        "meaning": "Platz; Feld"
+        "meaning": "Platz; Gelände; Ort (für einen bestimmten Zweck); Bühne; Szene; Zählwort für Spiele, Vorstellungen und Prüfungen"
+      },
+      {
+        "pinyin": "cháng",
+        "meaning": "Tenne; Dreschplatz; Zählwort für Ereignisse und Vorgänge (Regen, Krankheit, Streit)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 6,
     "primaryRadical": "土",
     "components": [
@@ -380,7 +442,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
         "meaning": "Erde"
       },
       {
-        "part": "𠃓"
+        "part": "𠃓",
+        "role": "phonetic",
+        "meaning": "vereinfachtes 昜 (yáng), Lautträger"
       }
     ],
     "words": [
@@ -400,6 +464,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "038.120:cháng 039.050:chǎng | chǎng(773) cháng(141)",
       "etymology": "pictophonetic: earth",
       "old": "Platz; Feld"
+    },
+    "notes": "场 besteht aus 土 „Erde“ als Bedeutungsträger und rechts der vereinfachten Form von 昜, das in der Langform 場 als Lautträger dient; dieselbe Lautreihe zeigen 肠 (cháng) und 畅 (chàng), ebenso 汤 (tāng) und 杨 (yáng). Merkhilfe: Ein Stück festgestampfte Erde (土) ist ein Platz. Meist chǎng: 机场 (jīchǎng) „Flughafen“, 商场 (shāngchǎng) „Einkaufszentrum“, 一场比赛 (yì chǎng bǐsài) „ein Spiel“. Die Lesung cháng gilt für die Tenne und als Zählwort für Vorgänge wie 一场雨 (yì cháng yǔ) „ein Regenguss“; im Alltag hört man dort aber oft auch chǎng.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -411,10 +481,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "cí",
-        "meaning": "Wort; Vokabel"
+        "meaning": "Wort; Vokabel; Ausdruck; Rede; Liedtext; Ci (Gedichtform der Song-Zeit)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "言",
     "radicalForm": "讠",
@@ -422,12 +491,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "讠",
         "role": "semantic",
-        "meaning": "Sprache"
+        "meaning": "Wort, sprechen"
       },
       {
         "part": "司",
         "role": "phonetic",
-        "meaning": "verwalten"
+        "meaning": "leiten, verwalten (Laut sī)"
       }
     ],
     "words": [
@@ -447,6 +516,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "055.020:cí | cí(72)",
       "etymology": "pictophonetic: words",
       "old": "Wort; Vokabel"
+    },
+    "notes": "词 besteht aus 讠 „sprechen“ als Bedeutungsträger und 司 (sī) als Lautträger – ähnlicher Klang wie bei 祠 (cí) und 饲 (sì). Merkhilfe: Ein Wörterbuch verwaltet (司) die Wörter der Sprache (讠). Wichtig ist der Unterschied zu 字 (zì): 字 ist ein einzelnes Schriftzeichen, 词 ein Wort, das aus einem oder mehreren Zeichen bestehen kann – 汉字 (Hànzì) „chinesisches Schriftzeichen“, aber 生词 (shēngcí) „neue Vokabel“. Weitere Wörter: 词典 (cídiǎn) „Wörterbuch“, 歌词 (gēcí) „Liedtext“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -458,20 +533,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "cì",
-        "meaning": "Mal; Rang"
+        "meaning": "Mal (Zählwort für Wiederholungen); Reihenfolge; nächster; zweiter; zweitrangig; minderwertig"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 6,
     "primaryRadical": "欠",
     "components": [
       {
         "part": "冫",
-        "meaning": "Eis"
+        "role": "form",
+        "meaning": "hier: ursprünglich 二 „zwei“"
       },
       {
         "part": "欠",
-        "meaning": "gähnen, fehlen"
+        "role": "form",
+        "meaning": "Mensch mit offenem Mund; fehlen, schulden"
       }
     ],
     "words": [
@@ -491,6 +567,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "055.180:cì | cì(1715)",
       "etymology": "ideographic: A person 欠 yawning multiple times 冫",
       "old": "Mal; Rang"
+    },
+    "notes": "次 besteht aus 欠, einem Menschen mit weit geöffnetem Mund, und links zwei Strichen, die nach dem alten Wörterbuch Shuowen auf 二 „zwei“ zurückgehen, heute aber wie 冫 „Eis“ geschrieben werden; die genaue Herkunft ist umstritten. Merkhilfe: Die zwei Striche links stehen für „das zweite Mal“, „der Nächste in der Reihe“. Achtung: links zwei Striche (冫), nicht drei (氵). Wörter: 一次 (yí cì) „einmal“, 再次 (zàicì) „erneut“, 其次 (qícì) „zweitens“, 次日 (cìrì) „am nächsten Tag“. 次 ist selbst Lautträger in 资 (zī) und 姿 (zī).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -502,16 +584,16 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "cóng",
-        "meaning": "von; seit"
+        "meaning": "von; aus; seit; ab; durch; folgen; befolgen; gehorchen; Neben- (untergeordnet)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 4,
     "primaryRadical": "人",
     "components": [
       {
         "part": "人",
-        "meaning": "Mensch"
+        "role": "semantic",
+        "meaning": "Mensch (zweimal)"
       }
     ],
     "words": [
@@ -531,6 +613,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "056.140:cóng | cóng(3708) cōng(25)",
       "etymology": "ideographic: One person 人 following another",
       "old": "von; seit"
+    },
+    "notes": "从 zeigt zwei Menschen (人), von denen einer dem anderen folgt – die Grundbedeutung „folgen“; daraus wurde die häufige Präposition „von, aus, seit“. Die Langform 從 fügt noch 彳 und 止 für „gehen“ hinzu. Merkhilfe: Einer geht vor, einer folgt – von hier aus geht es los. Nicht verwechseln: zwei Menschen 从, drei Menschen 众 (zhòng, „Menge“); bei 比 (bǐ) stehen zwei Figuren nebeneinander. Wörter: 从小 (cóngxiǎo) „von klein auf“, 从来 (cónglái) „schon immer; mit 不/没 noch nie“, 从……到…… „von … bis …“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -542,21 +630,22 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "cuò",
-        "meaning": "falsch; Fehler"
+        "meaning": "falsch; Fehler; Irrtum; schlecht (in „nicht schlecht“); verpassen; versetzt; durcheinander; mit Gold oder Silber einlegen"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 13,
     "primaryRadical": "金",
     "radicalForm": "钅",
     "components": [
       {
         "part": "钅",
+        "role": "semantic",
         "meaning": "Metall"
       },
       {
         "part": "昔",
-        "meaning": "frueher"
+        "role": "phonetic",
+        "meaning": "einst, früher (Laut xī)"
       }
     ],
     "words": [
@@ -576,6 +665,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "060.080:cuò | cuò(815)",
       "etymology": "ideographic: Gold 钅 that once was 昔 but is lost",
       "old": "falsch; Fehler"
+    },
+    "notes": "错 besteht aus 钅 „Metall“ als Bedeutungsträger und 昔 (xī, „früher“) als Lautträger; dieselbe Lautreihe zeigt 措 (cuò). Ursprünglich bezeichnete 错 das Einlegen von Gold oder Silber in Metall und einen Schleifstein; die Bedeutung „falsch“ ist später dazugekommen. Merkhilfe: Wer altes (昔) Metall (钅) für neu hält, liegt falsch. Wörter: 不错 (búcuò) „nicht schlecht, ziemlich gut“, 错误 (cuòwù) „Fehler“, 错过 (cuòguò) „verpassen“. Nicht verwechseln mit 借 (jiè, „leihen“, mit 亻) und 醋 (cù, „Essig“, mit 酉).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -587,22 +682,22 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "dàn",
-        "meaning": "aber; jedoch"
+        "meaning": "aber; jedoch; doch; nur; bloß"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "人",
     "radicalForm": "亻",
     "components": [
       {
         "part": "亻",
+        "role": "semantic",
         "meaning": "Mensch"
       },
       {
         "part": "旦",
         "role": "phonetic",
-        "meaning": "Morgengrauen"
+        "meaning": "Morgendämmerung (Laut dàn)"
       }
     ],
     "words": [
@@ -622,6 +717,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "065.080:dàn | dàn(2345)",
       "etymology": "pictophonetic",
       "old": "aber; jedoch"
+    },
+    "notes": "但 besteht aus 亻 „Mensch“ und 旦 (dàn) als Lautträger mit genau gleichem Klang. 旦 selbst zeigt die Sonne (日) über dem Horizont (一) – „Morgen“, wie in 元旦 (Yuándàn) „Neujahr“. Ursprünglich bedeutete 但 „den Oberkörper entblößen“; „aber“ ist eine Entlehnung. Merkhilfe: Der Mensch (亻) möchte am Morgen (旦) weiterschlafen, aber er muss aufstehen. Wörter: 但是 (dànshì) „aber“, 不但 (búdàn) „nicht nur“, 但愿 (dànyuàn) „hoffentlich“. Denselben Lautträger haben 担 (dān) und 胆 (dǎn).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -634,14 +735,13 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "de",
-        "meaning": "Erde; Boden"
+        "meaning": "Strukturpartikel (Adverbial vor Verb oder Adjektiv: -weise; -lich)"
       },
       {
         "pinyin": "dì",
-        "meaning": "Erde; Grund, Boden; Platz, Stelle"
+        "meaning": "Erde; Boden; Land; Feld; Gebiet; Ort; Stelle"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 6,
     "primaryRadical": "土",
     "components": [
@@ -652,7 +752,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       },
       {
         "part": "也",
-        "role": "phonetic"
+        "role": "form",
+        "meaning": "auch (historisch Lautträger)"
       }
     ],
     "words": [
@@ -674,6 +775,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "069.070:de 072.060:dì | de(7394) dì(4976)",
       "etymology": "pictophonetic: earth",
       "old": "Erde; Boden"
+    },
+    "notes": "地 besteht aus 土 „Erde“ als Bedeutungsträger und 也 (yě), das nach dem alten Wörterbuch Shuowen ursprünglich den Laut lieferte, heute aber nicht mehr ähnlich klingt. Merkhilfe: Erde (土) – und auch (也) der Boden darunter. Als dì bedeutet es „Erde, Boden, Ort“: 地方 (dìfang) „Ort“, 地铁 (dìtiě) „U-Bahn“. Unbetont als de ist es eine Strukturpartikel vor dem Verb: 慢慢地走 (mànmàn de zǒu) „langsam gehen“. Unterscheide die drei de: 的 vor Nomen, 地 vor Verben, 得 nach Verben (跑得快 (pǎo de kuài) „schnell laufen“).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -685,19 +792,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "děng",
-        "meaning": "warten; Klasse"
+        "meaning": "warten; abwarten; und so weiter; usw.; Klasse; Rang; Grad; gleich; wenn; sobald"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 12,
     "primaryRadical": "竹",
     "components": [
       {
-        "part": "𥫗"
+        "part": "⺮",
+        "role": "semantic",
+        "meaning": "Bambus"
       },
       {
         "part": "寺",
-        "meaning": "Tempel"
+        "role": "form",
+        "meaning": "Tempel; ursprünglich Amt, Behörde"
       }
     ],
     "words": [
@@ -717,6 +826,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "070.060:děng | děng(2469)",
       "etymology": "ideographic: Bamboo strips ⺮ laid before a court 寺",
       "old": "warten; Klasse"
+    },
+    "notes": "等 besteht aus ⺮ „Bambus“ und 寺, das hier für eine Amtsstelle steht: Nach dem Wörterbuch Shuowen bedeutete es, im Amt Bambusstreifen (Akten) gleichmäßig zu ordnen – daher „Rang, Klasse, gleich“. Merkhilfe: Wer im Amt (寺) auf seine Bambusakten (⺮) wartet, muss sich in die Reihe stellen. Am Ende einer Aufzählung heißt 等 „usw.“. Wörter: 等待 (děngdài) „warten“, 等于 (děngyú) „gleich sein“, 等到 (děngdào) „sobald; bis“. Nicht verwechseln mit 待 (dài, mit 彳) und 特 (tè, mit 牜).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -728,21 +843,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "diàn",
-        "meaning": "Laden; Geschaeft"
+        "meaning": "Laden; Geschäft; Gasthaus; Herberge; Hotel (in Wörtern)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 8,
     "primaryRadical": "广",
     "components": [
       {
         "part": "广",
         "role": "semantic",
-        "meaning": "Dach"
+        "meaning": "Gebäude, offene Halle"
       },
       {
         "part": "占",
-        "role": "phonetic"
+        "role": "phonetic",
+        "meaning": "einnehmen, besetzen (Laut zhàn)"
       }
     ],
     "words": [
@@ -762,6 +877,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "074.080:diàn | diàn(300)",
       "etymology": "pictophonetic: building",
       "old": "Laden; Geschaeft"
+    },
+    "notes": "店 besteht aus 广 „offenes Gebäude, Halle“ als Bedeutungsträger und 占 (zhàn, „einnehmen“) als Lautträger; ähnlichen Klang zeigen 点 (diǎn) und 惦 (diàn). 广 bedeutet hier nicht guǎng „breit“, sondern ist das Gebäude-Radikal. Merkhilfe: Unter einem Dach (广) besetzt (占) jemand einen Platz und verkauft dort etwas. Wörter: 商店 (shāngdiàn) „Geschäft“, 书店 (shūdiàn) „Buchhandlung“, 饭店 (fàndiàn) „Restaurant; Hotel“, 酒店 (jiǔdiàn) „Hotel“. Nicht verwechseln mit 点 (diǎn), das 占 über vier Punkten hat.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -773,10 +894,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "dǒng",
-        "meaning": "verstehen"
+        "meaning": "verstehen; begreifen; sich auskennen (mit)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 15,
     "primaryRadical": "心",
     "radicalForm": "忄",
@@ -789,7 +909,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "董",
         "role": "phonetic",
-        "meaning": "leiten"
+        "meaning": "leiten, Direktor (Laut dǒng)"
       }
     ],
     "words": [
@@ -809,6 +929,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "078.120:dǒng | dǒng(377)",
       "etymology": "pictophonetic: mind",
       "old": "verstehen"
+    },
+    "notes": "懂 besteht aus 忄 „Herz“ als Bedeutungsträger – im Chinesischen ist das Herz auch Sitz des Denkens – und 董 (dǒng) als Lautträger mit gleichem Klang. 董 selbst besteht aus 艹 „Gras“ und 重 (zhòng, „schwer“). Merkhilfe: Was man mit dem Herzen erfasst, hat man verstanden. Häufig als Ergebnis nach einem Verb: 听懂 (tīngdǒng) „verstehen (beim Hören)“, 看懂 (kàndǒng) „verstehen (beim Lesen)“. Weitere Wörter: 懂得 (dǒngde) „verstehen; wissen“, 懂事 (dǒngshì) „vernünftig (bei Kindern)“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -820,15 +946,16 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "dòng",
-        "meaning": "bewegen; Bewegung"
+        "meaning": "sich bewegen; bewegen; rühren; anfassen; handeln; benutzen (Kopf, Hand); bewegt (gerührt); Bewegung"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 6,
     "primaryRadical": "力",
     "components": [
       {
-        "part": "云"
+        "part": "云",
+        "role": "form",
+        "meaning": "Wolke (Ersatzform)"
       },
       {
         "part": "力",
@@ -853,6 +980,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "078.130:dòng | dòng(5030)",
       "etymology": "pictophonetic: strength",
       "old": "bewegen; Bewegung"
+    },
+    "notes": "Die Langform 動 besteht aus 重 (zhòng) als Lautträger und 力 „Kraft“ als Bedeutungsträger; in der Kurzform 动 ersetzt 云 „Wolke“ den Teil 重 und gibt keinen Laut mehr. Merkhilfe: Wolken (云) bewegen sich mit der Kraft (力) des Windes. Praktisch: 运动 (yùndòng) „Sport; Bewegung“ enthält zweimal 云 – bei 运 steht es auf 辶 „gehen“, bei 动 neben 力 „Kraft“. Weitere Wörter: 动物 (dòngwù) „Tier“ (wörtlich „sich bewegendes Ding“), 感动 (gǎndòng) „rühren; gerührt“, 别动 (bié dòng) „nicht bewegen!“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -864,10 +997,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "fēi",
-        "meaning": "Kaffee (Lautzeichen)"
+        "meaning": "nur in Wörtern: Lautsilbe fei in Lehnwörtern (Kaffee; Morphium)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 11,
     "primaryRadical": "口",
     "components": [
@@ -879,7 +1011,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "非",
         "role": "phonetic",
-        "meaning": "nicht"
+        "meaning": "nicht; falsch (Laut fēi)"
       }
     ],
     "words": [
@@ -895,6 +1027,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "094.060:fēi | fēi(9)",
       "etymology": "pictophonetic: mouth",
       "old": "Kaffee (Lautzeichen)"
+    },
+    "notes": "啡 besteht aus 口 „Mund“ und 非 (fēi) als Lautträger mit gleichem Klang. Das 口 kennzeichnet hier ein reines Lautzeichen für Fremdwörter: 啡 hat keine eigene Bedeutung und kommt in 咖啡 (kāfēi) „Kaffee“ vor, wo auch 咖 (kā) mit 口 geschrieben wird, und in 吗啡 (mǎfēi) „Morphium“. Merkhilfe: Was der Mund (口) zum Wachwerden braucht, ist Kaffee – nicht (非) Wasser. Nicht verwechseln mit 排 (pái, mit 扌) und 悲 (bēi, mit 心), die ebenfalls 非 enthalten.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -906,24 +1044,25 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "fū",
-        "meaning": "Mann; Ehemann"
+        "meaning": "Mann; Ehemann; Arbeiter (körperlich arbeitender Mann)"
       },
       {
         "pinyin": "fu",
-        "meaning": ""
+        "meaning": "unbetont in Wörtern wie zhàngfu (Ehemann), dàifu (Arzt) und gōngfu (Kung-Fu; Können; Zeit und Mühe)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 4,
     "primaryRadical": "大",
     "components": [
       {
         "part": "一",
-        "meaning": "eins"
+        "role": "form",
+        "meaning": "Haarnadel (Strich)"
       },
       {
         "part": "大",
-        "meaning": "gross"
+        "role": "semantic",
+        "meaning": "erwachsener Mensch; groß"
       }
     ],
     "words": [
@@ -945,6 +1084,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "099.040:fū | fu(396) fū(102)",
       "etymology": "ideographic: A man 大 wearing a coming-of-age hairpin 一",
       "old": "Mann; Ehemann"
+    },
+    "notes": "夫 zeigt einen erwachsenen Mann (大) mit einer Haarnadel (oberer Strich) im Haarknoten – im alten China trug ein Mann sie ab der Mündigkeit. Merkhilfe: Der Mann mit der Nadel im Haar ist erwachsen und heiratsfähig. Nicht verwechseln mit 天 (tiān, „Himmel“): Bei 夫 ragt der Abstrich (丿) oben über beide Querstriche hinaus, bei 天 nicht; auch 失 (shī) sieht ähnlich aus. Betont fū in 夫妻 (fūqī) „Ehepaar“, unbetont in 丈夫 (zhàngfu) „Ehemann“, 大夫 (dàifu) „Arzt“, 功夫 (gōngfu) „Kung-Fu“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -956,18 +1101,20 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "gào",
-        "meaning": "mitteilen; verkuenden"
+        "meaning": "mitteilen; sagen; verkünden; melden; anklagen; verklagen; um etw. bitten (z. B. Urlaub)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "口",
     "components": [
       {
-        "part": "𠂒"
+        "part": "𠂒",
+        "role": "form",
+        "meaning": "abgewandeltes 牛: Rind"
       },
       {
         "part": "口",
+        "role": "semantic",
         "meaning": "Mund"
       }
     ],
@@ -988,6 +1135,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "109.100:gào | gào(995)",
       "etymology": "ideographic: To speak 口 with the force of an ox 牛",
       "old": "mitteilen; verkuenden"
+    },
+    "notes": "告 besteht aus einer abgewandelten Form von 牛 „Rind“ oben und 口 „Mund“ unten; die ursprüngliche Bildidee ist umstritten. Merkhilfe: Ein Rind (牛) brüllt mit dem Mund (口) – es will etwas mitteilen. Wörter: 告诉 (gàosu) „sagen, mitteilen“, 广告 (guǎnggào) „Werbung“, 报告 (bàogào) „Bericht“, 告别 (gàobié) „sich verabschieden“. Nicht verwechseln mit 吉 (jí, oben 士) und 舌 (shé, oben 千). 告 ist Lautträger in 靠 (kào), 造 (zào) und 酷 (kù).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -999,20 +1152,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "gēn",
-        "meaning": "mit; folgen"
+        "meaning": "Ferse; Absatz (Schuh); folgen; begleiten; mit; und; zu, gegenüber (jmdm. etw. sagen)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 13,
     "primaryRadical": "足",
     "components": [
       {
-        "part": "𧾷"
+        "part": "⻊",
+        "role": "semantic",
+        "meaning": "Fuß"
       },
       {
         "part": "艮",
         "role": "phonetic",
-        "meaning": "stoppen"
+        "meaning": "Trigramm „Berg, Stillstand“ (Laut gèn)"
       }
     ],
     "words": [
@@ -1032,6 +1186,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "112.030:gēn | gēn(1534)",
       "etymology": "pictophonetic: foot",
       "old": "mit; folgen"
+    },
+    "notes": "跟 besteht aus ⻊ „Fuß“ als Bedeutungsträger und 艮 (gèn) als Lautträger; die Grundbedeutung ist „Ferse“, daraus „auf den Fersen folgen“ und schließlich „mit“. Merkhilfe: Wer dir mit dem Fuß (⻊) auf den Fersen bleibt, kommt mit dir. Im Satz: 我跟你去 (wǒ gēn nǐ qù) „ich gehe mit dir“, 跟他说 (gēn tā shuō) „mit ihm reden“. Nicht verwechseln mit 根 (gēn, „Wurzel“, mit 木); 艮 steckt auch in 很 (hěn), 眼 (yǎn) und 银 (yín). Wörter: 高跟鞋 (gāogēnxié) „Stöckelschuhe“, 跟随 (gēnsuí) „folgen“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1043,21 +1203,22 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "guǎn",
-        "meaning": "Gebaeude; Halle"
+        "meaning": "Gebäude für einen bestimmten Zweck; Halle; Gaststätte; Gasthaus; Hotel; Botschaft, Konsulat (in Wörtern)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 11,
     "primaryRadical": "食",
     "radicalForm": "饣",
     "components": [
       {
         "part": "饣",
+        "role": "semantic",
         "meaning": "Essen"
       },
       {
         "part": "官",
-        "meaning": "Beamter"
+        "role": "phonetic",
+        "meaning": "Beamter, amtlich (Laut guān)"
       }
     ],
     "words": [
@@ -1077,6 +1238,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "121.110:guǎn | guǎn(241)",
       "etymology": "ideographic: A public 官 building where food 饣 is served; 官 also provides the pronunciation",
       "old": "Gebaeude; Halle"
+    },
+    "notes": "馆 besteht aus 饣 „Essen“ als Bedeutungsträger und 官 (guān, „Beamter“) als Lautträger; ursprünglich war es ein Gästehaus, in dem Reisende (etwa Beamte) bewirtet wurden. Merkhilfe: Ein öffentliches (官) Haus, in dem es Essen (饣) gibt. Heute steht 馆 für viele öffentliche Gebäude: 图书馆 (túshūguǎn) „Bibliothek“, 博物馆 (bówùguǎn) „Museum“, 大使馆 (dàshǐguǎn) „Botschaft“, 饭馆 (fànguǎn) „Restaurant“, 宾馆 (bīnguǎn) „Hotel“. Nicht verwechseln mit 管 (guǎn, „verwalten; Rohr“, mit ⺮) – gleiche Aussprache, gleicher Lautträger.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1089,10 +1256,13 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "guò",
-        "meaning": "vorbei; verbringen"
+        "meaning": "überqueren; vorbeigehen; vergehen (Zeit); verbringen; feiern (Fest); überschreiten; zu (sehr); Fehler (literarisch)"
+      },
+      {
+        "pinyin": "guo",
+        "meaning": "Aspektpartikel nach Verben: schon einmal getan (Erfahrung); nach Verben: herüber-, hinüber-, vorbei-"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 6,
     "primaryRadical": "辵",
     "radicalForm": "辶",
@@ -1104,7 +1274,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       },
       {
         "part": "寸",
-        "meaning": "Daumenbreit, Zoll"
+        "role": "form",
+        "meaning": "Daumenbreite, Zoll"
       }
     ],
     "words": [
@@ -1124,6 +1295,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "125.170:guō 126.200:guò | guò(5174) guo(1222)",
       "etymology": "pictophonetic: walk",
       "old": "vorbei; verbringen"
+    },
+    "notes": "Die Langform 過 besteht aus 辶 „gehen“ als Bedeutungsträger und 咼 (guō) als Lautträger; in der Kurzform 过 steht dafür einfach 寸 „Zoll“, das keinen Laut mehr gibt. Merkhilfe: Zoll für Zoll (寸) geht (辶) man vorbei. Betont guò heißt es „überqueren, verbringen“: 过马路 (guò mǎlù) „die Straße überqueren“, 过年 (guònián) „Neujahr feiern“, 过去 (guòqù) „Vergangenheit; hinübergehen“. Unbetont guo nach einem Verb zeigt eine Erfahrung: 我去过中国 (wǒ qùguo Zhōngguó) „ich war schon einmal in China“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1135,26 +1312,30 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "hēi",
-        "meaning": "schwarz; dunkel"
+        "meaning": "schwarz; dunkel; finster; illegal; Schwarz- (Schwarzmarkt usw.); geheim; böse; skrupellos; Abk. für Heilongjiang"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 12,
     "primaryRadical": "黑",
     "components": [
       {
         "part": "口",
-        "meaning": "Mund"
+        "role": "form",
+        "meaning": "Rahmen: Rauchabzug, Fenster"
       },
       {
-        "part": "丷"
+        "part": "丷",
+        "role": "form",
+        "meaning": "Rußflecken"
       },
       {
         "part": "土",
-        "meaning": "Erde"
+        "role": "form",
+        "meaning": "Erde (Form)"
       },
       {
         "part": "灬",
+        "role": "semantic",
         "meaning": "Feuer"
       }
     ],
@@ -1175,6 +1356,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "135.210:hēi | hēi(690)",
       "etymology": "ideographic: A man's face blacked by soot from a fire 灬",
       "old": "schwarz; dunkel"
+    },
+    "notes": "黑 hat unten 灬 „Feuer“; darüber liegt ein Rahmen mit zwei Punkten und 土. Das alte Wörterbuch Shuowen deutet das Zeichen als Rauchabzug über dem Feuer: „schwarz“ ist die Farbe, die der Rauch hinterlässt; die frühesten Formen sind allerdings umstritten. Merkhilfe: Über dem Feuer (灬) wird das Fenster vom Ruß schwarz. Wörter: 黑色 (hēisè) „schwarz“, 黑板 (hēibǎn) „Tafel“, 黑客 (hēikè) „Hacker“; übertragen „illegal“: 黑车 (hēichē) „Schwarztaxi“. 黑 steckt in 墨 (mò, „Tusche“) und 默 (mò, „schweigend“).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1186,10 +1373,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "hóng",
-        "meaning": "rot"
+        "meaning": "rot; populär; erfolgreich; Glück verheißend; revolutionär; Gewinnanteil; Bonus"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 6,
     "primaryRadical": "糸",
     "radicalForm": "纟",
@@ -1197,12 +1383,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "纟",
         "role": "semantic",
-        "meaning": "Faden"
+        "meaning": "Seide, Faden"
       },
       {
         "part": "工",
         "role": "phonetic",
-        "meaning": "Arbeit"
+        "meaning": "Arbeit (Laut gōng)"
       }
     ],
     "words": [
@@ -1222,6 +1408,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "137.130:hóng | hóng(839)",
       "etymology": "pictophonetic: silk",
       "old": "rot"
+    },
+    "notes": "红 besteht aus 纟 „Seide“ als Bedeutungsträger – ursprünglich ging es um rötlich gefärbte Seide – und 工 (gōng) als Lautträger; ähnlich klingen 虹 (hóng, „Regenbogen“) und 鸿 (hóng). Merkhilfe: Bei der Arbeit (工) werden Seidenfäden (纟) rot gefärbt. Rot ist in China die Farbe des Glücks: 红包 (hóngbāo) „roter Umschlag mit Geld“. Achtung: 红茶 (hóngchá) ist „Schwarztee“, 红酒 (hóngjiǔ) „Rotwein“; 走红 (zǒuhóng) heißt „populär werden“. Nicht verwechseln mit 江 (jiāng, mit 氵) und 功 (gōng, mit 力).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1233,20 +1425,22 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "huā",
-        "meaning": "Blume; ausgeben"
+        "meaning": "Blume; Blüte; blühen; bunt; gemustert; ausgeben (Geld, Zeit); verschwommen (Sicht); Feuerwerk"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "艸",
     "radicalForm": "艹",
     "components": [
       {
         "part": "艹",
-        "meaning": "Gras"
+        "role": "semantic",
+        "meaning": "Gras, Pflanze"
       },
       {
-        "part": "化"
+        "part": "化",
+        "role": "phonetic",
+        "meaning": "sich verwandeln (Laut huà)"
       }
     ],
     "words": [
@@ -1266,6 +1460,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "142.110:huā | huā(1104) hua(117)",
       "etymology": "ideographic: A flower 艹 in bloom 化; 化 also provides the pronunciation",
       "old": "Blume; ausgeben"
+    },
+    "notes": "花 besteht aus 艹 „Pflanze“ als Bedeutungsträger und 化 (huà, „sich verwandeln“) als Lautträger. Merkhilfe: Eine Pflanze (艹) verwandelt sich (化) in eine Blüte – und Geld verwandelt sich beim Ausgeben in Waren. Als Verb heißt 花 „ausgeben“: 花钱 (huā qián) „Geld ausgeben“, 花时间 (huā shíjiān) „Zeit aufwenden“. Weitere Wörter: 花园 (huāyuán) „Garten“, 开花 (kāihuā) „blühen“, 眼花 (yǎnhuā) „verschwommen sehen“. Nicht verwechseln mit 华 (huá), wo 化 über 十 steht, und 货 (huò, „Ware“), wo 化 über 贝 steht.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1277,24 +1477,26 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "huà",
-        "meaning": "zeichnen; Bild"
+        "meaning": "malen; zeichnen; Bild; Gemälde; Zeichnung; Strich (eines Schriftzeichens); (eine Linie) ziehen"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 8,
     "primaryRadical": "田",
     "components": [
       {
         "part": "一",
-        "meaning": "eins, horizontal"
-      },
-      {
-        "part": "凵",
-        "meaning": "offener Mund, Behälter"
+        "role": "form",
+        "meaning": "Strich, Linie"
       },
       {
         "part": "田",
+        "role": "semantic",
         "meaning": "Feld"
+      },
+      {
+        "part": "凵",
+        "role": "form",
+        "meaning": "Rahmen, Umrandung"
       }
     ],
     "words": [
@@ -1314,6 +1516,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "143.090:huà | huà(493)",
       "etymology": "ideographic: A painting on an easel; compare 畫, which includes the brush",
       "old": "zeichnen; Bild"
+    },
+    "notes": "Die Langform 畫 zeigt oben eine Hand mit Pinsel (聿) über einem Feld (田) mit Begrenzung – ursprünglich „Grenzlinien ziehen“, daraus „zeichnen, malen“. Die Kurzform 画 behält nur 一, 田 und den Rahmen 凵, der zuletzt geschrieben wird. Merkhilfe: Ein Feld (田) in einem Rahmen (凵), oben die Linie (一) – fertig ist das gerahmte Bild. Wörter: 画画 (huà huà) „malen“, 画家 (huàjiā) „Maler“, 动画 (dònghuà) „Zeichentrick“. Nicht verwechseln mit dem gleich klingenden 话 (huà, „Rede“, mit 讠).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1325,10 +1533,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "huài",
-        "meaning": "schlecht; kaputt"
+        "meaning": "schlecht; böse; kaputt; verdorben; kaputtgehen; verderben; schaden; (nach Verb oder Adjektiv) äußerst, total"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "土",
     "components": [
@@ -1339,7 +1546,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       },
       {
         "part": "不",
-        "role": "phonetic",
+        "role": "form",
         "meaning": "nicht"
       }
     ],
@@ -1360,6 +1567,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "144.030:huài | huài(615)",
       "etymology": "pictophonetic: earth",
       "old": "schlecht; kaputt"
+    },
+    "notes": "Die Langform 壞 besteht aus 土 „Erde“ (eine einstürzende Lehmmauer) und 褱 (huái) als Lautträger; die Kurzform 坏 ersetzt 褱 durch 不, das keinen Laut gibt. Merkhilfe: Erde (土), die nicht (不) hält – die Mauer ist kaputt. Wörter: 坏人 (huàirén) „Bösewicht“, 破坏 (pòhuài) „zerstören“; nach einem Verb oder Adjektiv steht 坏 für ein Ergebnis oder ein starkes Maß: 电脑坏了 (diànnǎo huài le) „der Computer ist kaputt“, 累坏了 (lèi huài le) „völlig erschöpft“. Nicht verwechseln mit 怀 (huái, „Brust; im Herzen tragen“, mit 忄) und 还 (hái/huán, mit 辶).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1371,25 +1584,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "jǐ",
-        "meaning": "selbst"
+        "meaning": "selbst; sich; eigen; sechster Himmelsstamm; sechster (in Aufzählungen)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 3,
     "primaryRadical": "己",
-    "components": [
-      {
-        "part": "𠃍"
-      },
-      {
-        "part": "一",
-        "meaning": "eins, horizontal"
-      },
-      {
-        "part": "乚",
-        "meaning": "zweiter Himmelsstamm"
-      }
-    ],
+    "components": [],
     "words": [
       "w:自己:zi4ji3",
       "w:知己:zhi1ji3",
@@ -1407,6 +1607,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "157.010:jǐ | jǐ(2585)",
       "etymology": "pictographic: A loom woven with thread",
       "old": "selbst"
+    },
+    "notes": "己 ist ein einfaches Bildzeichen mit drei Strichen, dessen Ursprung umstritten ist (gedeutet etwa als Schnur oder Faden); die Bedeutung „selbst“ ist entlehnt. Wichtig ist die Unterscheidung von drei ähnlichen Zeichen: Bei 己 (jǐ, „selbst“) bleibt die Öffnung links oben ganz offen, bei 已 (yǐ, „bereits“) reicht der Strich halb hinauf, bei 巳 (sì, sechster Erdzweig) ist das Zeichen geschlossen. Merkhilfe: „Selbst“ ist offen, „bereits“ halb, „sì“ geschlossen. Das häufigste Wort ist 自己 (zìjǐ) „selbst“; 己 ist außerdem Lautträger in 记 (jì), 纪 (jì) und 起 (qǐ).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1418,21 +1624,22 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "jì",
-        "meaning": "sich merken; notieren"
+        "meaning": "sich merken; sich erinnern; aufschreiben; notieren; Aufzeichnung; Notiz; Zeichen; Mal (Fleck); Zählwort für Schläge"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 5,
     "primaryRadical": "言",
     "radicalForm": "讠",
     "components": [
       {
         "part": "讠",
-        "meaning": "Sprache"
+        "role": "semantic",
+        "meaning": "Wort, sprechen"
       },
       {
         "part": "己",
-        "meaning": "selbst"
+        "role": "phonetic",
+        "meaning": "selbst (Laut jǐ)"
       }
     ],
     "words": [
@@ -1452,6 +1659,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "157.130:jì | jì(866) ji(414)",
       "etymology": "ideographic: A private 己 note 讠; 己 also provides the pronunciation",
       "old": "sich merken; notieren"
+    },
+    "notes": "记 besteht aus 讠 „Wort“ als Bedeutungsträger und 己 (jǐ, „selbst“) als Lautträger. Merkhilfe: Worte (讠) für sich selbst (己) aufschreiben, damit man sie sich merkt. Wörter: 记得 (jìde) „sich erinnern“, 忘记 (wàngjì) „vergessen“, 笔记 (bǐjì) „Notizen“, 日记 (rìjì) „Tagebuch“, 记者 (jìzhě) „Journalist“. Nicht verwechseln mit 纪 (jì, mit 纟) in 纪念 (jìniàn) „gedenken“ und 计 (jì, mit 十) in 计划 (jìhuà) „Plan“; rechts steht bei 记 immer 己, nicht 已.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1463,20 +1676,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "jiāo",
-        "meaning": "übergeben; Verkehr"
+        "meaning": "übergeben; abgeben; einreichen; bezahlen (Gebühren); sich kreuzen; Freunde schließen; Umgang haben; Kontakt; gegenseitig"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 6,
     "primaryRadical": "亠",
     "components": [
       {
         "part": "亠",
-        "meaning": "Deckel"
+        "role": "form",
+        "meaning": "Kopf (Deckel)"
       },
       {
         "part": "父",
-        "meaning": "Vater"
+        "role": "form",
+        "meaning": "hier: gekreuzte Beine (sieht aus wie 父 „Vater“)"
       }
     ],
     "words": [
@@ -1496,6 +1710,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "168.070:jiāo | jiāo(642)",
       "etymology": "ideographic: A person with crossed (intersecting) legs",
       "old": "übergeben; Verkehr"
+    },
+    "notes": "交 ist ein Bildzeichen: ein Mensch mit gekreuzten Beinen – oben der Kopf (亠), darunter Arme und überkreuzte Beine, die heute wie 父 „Vater“ aussehen. Daraus „sich kreuzen“ und weiter „austauschen, übergeben, Umgang haben“. Merkhilfe: Wo sich Wege kreuzen, entsteht Verkehr. Wörter: 交通 (jiāotōng) „Verkehr“, 公交车 (gōngjiāochē) „Bus“, 交流 (jiāoliú) „austauschen“, 交朋友 (jiāo péngyou) „Freunde finden“, 交作业 (jiāo zuòyè) „Hausaufgaben abgeben“. 交 ist Lautträger in 校 (xiào), 较 (jiào), 饺 (jiǎo) und 郊 (jiāo).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1507,27 +1727,26 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "jiāo",
-        "meaning": "lehren; unterrichten"
+        "meaning": "lehren; unterrichten; jmdm. etw. beibringen"
       },
       {
         "pinyin": "jiào",
-        "meaning": "Religion, Konfession, Belehrung; lehren, unterrichten"
+        "meaning": "Lehre; Unterricht; Erziehung; Religion; (literarisch) veranlassen, lassen"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 11,
     "primaryRadical": "攴",
     "radicalForm": "攵",
     "components": [
       {
         "part": "孝",
-        "role": "phonetic",
-        "meaning": "Pietaet"
+        "role": "form",
+        "meaning": "Pietät (hier Form; darin 子 „Kind“)"
       },
       {
         "part": "攵",
         "role": "semantic",
-        "meaning": "schlagen"
+        "meaning": "Hand mit Stock, schlagen"
       }
     ],
     "words": [
@@ -1549,6 +1768,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "168.160:jiāo 171.060:jiào | jiào(1326) jiāo(155)",
       "etymology": "pictophonetic: script",
       "old": "lehren; unterrichten"
+    },
+    "notes": "教 besteht rechts aus 攵 „Hand mit Stock“ als Bedeutungsträger; der linke Teil sieht heute aus wie 孝 (xiào, „Pietät“), geht aber auf 爻 (yáo) als alten Lautträger über 子 „Kind“ zurück. Ursprünglich: einem Kind mit dem Stock in der Hand etwas beibringen. Merkhilfe: Der Lehrer mit Stock (攵) neben dem Kind (子). Als Verb liest man jiāo: 教汉语 (jiāo Hànyǔ) „Chinesisch unterrichten“, 他教我 (tā jiāo wǒ) „er bringt es mir bei“; in Wörtern meist jiào: 教室 (jiàoshì) „Klassenzimmer“, 教师 (jiàoshī) „Lehrer“, 教育 (jiàoyù) „Erziehung“, 宗教 (zōngjiào) „Religion“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1560,23 +1785,16 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "jiè",
-        "meaning": "vorstellen; zwischen"
+        "meaning": "zwischen; dazwischen sein; vermitteln; vorstellen (in Wörtern); Panzer; Schale (von Tieren)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 4,
     "primaryRadical": "人",
     "components": [
       {
-        "part": "𠆢"
-      },
-      {
-        "part": "丿",
-        "meaning": "schräger Strich (links)"
-      },
-      {
-        "part": "丨",
-        "meaning": "vertikaler Strich"
+        "part": "𠆢",
+        "role": "semantic",
+        "meaning": "Mensch (als Dach geschrieben)"
       }
     ],
     "words": [
@@ -1596,6 +1814,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "174.060:jiè | jiè(156)",
       "etymology": "ideographic: A border 八 dividing people 人",
       "old": "vorstellen; zwischen"
+    },
+    "notes": "介 zeigt oben einen Menschen (𠆢) und darunter zwei senkrechte Striche; meist wird das als Mensch in einer Rüstung aus zwei Platten gedeutet – daher „Panzer, Schale“ und „dazwischen“. Merkhilfe: Ein Mensch steht zwischen zwei Pfählen und vermittelt zwischen beiden Seiten. Wörter: 介绍 (jièshào) „vorstellen“, 中介 (zhōngjiè) „Makler; Vermittlung“, 介意 (jièyì) „etw. übelnehmen“. Nicht verwechseln mit 今 (jīn), 令 (lìng) und 个 (gè). 介 ist Lautträger in 界 (jiè), 价 (jià) und 芥 (jiè).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1607,10 +1831,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "jìn",
-        "meaning": "eintreten; fortschreiten"
+        "meaning": "eintreten; hineingehen; hereinkommen; vorwärtsgehen; Fortschritte machen; (Waren) einkaufen; nach Verben: hinein-, herein-"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "辵",
     "radicalForm": "辶",
@@ -1623,7 +1846,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "井",
         "role": "phonetic",
-        "meaning": "Brunnen"
+        "meaning": "Brunnen (Laut jǐng)"
       }
     ],
     "words": [
@@ -1643,6 +1866,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "177.010:jìn | jìn(3920)",
       "etymology": "pictophonetic: walk",
       "old": "eintreten; fortschreiten"
+    },
+    "notes": "进 besteht aus 辶 „gehen“ als Bedeutungsträger und 井 (jǐng, „Brunnen“), das in der Kurzform als Lautträger eingesetzt wurde; die Langform 進 hat stattdessen 隹 „Vogel“. Merkhilfe zur Langform: Ein Vogel läuft nur vorwärts. Wörter: 进来 (jìnlái) „hereinkommen“, 进去 (jìnqù) „hineingehen“, 进步 (jìnbù) „Fortschritt“, 进行 (jìnxíng) „durchführen“, 请进 (qǐng jìn) „herein!“. Nicht verwechseln mit dem gleich klingenden 近 (jìn, „nah“), das ebenfalls 辶 hat, aber 斤 statt 井.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1654,10 +1883,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "jìn",
-        "meaning": "nah; in der Nähe"
+        "meaning": "nah; in der Nähe; sich nähern; eng (Beziehung); fast; annähernd; kürzlich"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "辵",
     "radicalForm": "辶",
@@ -1670,7 +1898,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "斤",
         "role": "phonetic",
-        "meaning": "Axt, Pfund"
+        "meaning": "Axt; Pfund (Laut jīn)"
       }
     ],
     "words": [
@@ -1690,6 +1918,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "177.020:jìn | jìn(823)",
       "etymology": "pictophonetic: walk",
       "old": "nah; in der Nähe"
+    },
+    "notes": "近 besteht aus 辶 „gehen“ als Bedeutungsträger und 斤 (jīn) als Lautträger; ähnlich klingen 芹 (qín) und 靳 (jìn). Merkhilfe: Nur so weit gehen (辶), wie man eine Axt (斤) werfen kann – das ist nah. Wörter: 附近 (fùjìn) „in der Nähe“, 最近 (zuìjìn) „in letzter Zeit“, 接近 (jiējìn) „sich nähern“; Entfernungen mit 离 (lí): 我家离学校很近 (wǒ jiā lí xuéxiào hěn jìn) „meine Wohnung ist nah an der Schule“. Nicht verwechseln mit 进 (jìn, „eintreten“), das statt 斤 ein 井 hat.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1701,10 +1935,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "jīng",
-        "meaning": "Erfahrung; bereits"
+        "meaning": "durch; über (via); durchlaufen; erleben; ertragen; leiten; verwalten; Kettfaden; Längengrad; Klassiker; heilige Schrift; regelmäßig; Menstruation"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 8,
     "primaryRadical": "糸",
     "radicalForm": "纟",
@@ -1712,10 +1945,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "纟",
         "role": "semantic",
-        "meaning": "Faden"
+        "meaning": "Faden, Seide"
       },
       {
-        "part": "𢀖"
+        "part": "𢀖",
+        "role": "phonetic",
+        "meaning": "Kettfäden am Webstuhl (Laut jīng)"
       }
     ],
     "words": [
@@ -1735,6 +1970,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "178.110:jīng 180.090:jìng | jīng(2854) jing(1342)",
       "etymology": "pictophonetic: thread",
       "old": "Erfahrung; bereits"
+    },
+    "notes": "经 besteht aus 纟 „Faden“ als Bedeutungsträger und rechts der vereinfachten Form von 巠 (jīng), den Kettfäden am Webstuhl, als Lautträger; derselbe Teil steckt in 轻 (qīng), 径 (jìng) und 劲 (jìn). Die Kettfäden laufen durch den ganzen Stoff – daher „durchlaufen, erleben“ und übertragen „Leitfaden, klassisches Buch“. Merkhilfe: Wer den ganzen Faden durchlaufen hat, hat Erfahrung. Wörter: 已经 (yǐjīng) „schon“, 经常 (jīngcháng) „oft“, 经过 (jīngguò) „vorbeikommen; durch“, 经济 (jīngjì) „Wirtschaft“, 经理 (jīnglǐ) „Manager“, 经验 (jīngyàn) „Erfahrung“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1746,14 +1987,13 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "jīng",
-        "meaning": "Augapfel"
+        "meaning": "Augapfel; Pupille; Auge"
       },
       {
         "pinyin": "jing",
-        "meaning": ""
+        "meaning": "unbetont in yǎnjing (Auge)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 13,
     "primaryRadical": "目",
     "components": [
@@ -1765,7 +2005,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "青",
         "role": "phonetic",
-        "meaning": "gruen/blau"
+        "meaning": "blaugrün; jung (Laut qīng)"
       }
     ],
     "words": [
@@ -1785,6 +2025,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "179.030:jīng | jing(707) jīng(16)",
       "etymology": "pictophonetic: eye",
       "old": "Augapfel"
+    },
+    "notes": "睛 besteht aus 目 „Auge“ als Bedeutungsträger und 青 (qīng) als Lautträger. Merkhilfe: Das klare (青) Auge (目). Im Alltag steht 睛 fast nur in 眼睛 (yǎnjing) „Auge“, dort unbetont; betont jīng in Redewendungen wie 画龙点睛 (huàlóng-diǎnjīng) „dem Drachen die Augen malen – den letzten Schliff geben“. Viele Zeichen haben 青 als Lautträger, die Bedeutung zeigt der linke Teil: 晴 (qíng, mit 日 „sonnig“), 请 (qǐng, mit 讠 „bitten“), 情 (qíng, mit 忄 „Gefühl“), 清 (qīng, mit 氵 „klar“), 精 (jīng, mit 米).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1796,20 +2042,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "jiǔ",
-        "meaning": "Alkohol; Wein"
+        "meaning": "alkoholisches Getränk; Alkohol; Wein; Schnaps"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 10,
     "primaryRadical": "酉",
     "components": [
       {
         "part": "氵",
-        "meaning": "Wasser"
+        "role": "semantic",
+        "meaning": "Wasser, Flüssigkeit"
       },
       {
         "part": "酉",
-        "meaning": "Weinkrug"
+        "role": "semantic",
+        "meaning": "Krug für Wein (Laut yǒu)"
       }
     ],
     "words": [
@@ -1829,6 +2076,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "182.120:jiǔ | jiǔ(262)",
       "etymology": "ideographic: A jar 酉 of wine 氵; 酉 also provides the pronunciation",
       "old": "Alkohol; Wein"
+    },
+    "notes": "酒 besteht aus 氵 „Flüssigkeit“ und 酉 (yǒu), dem Bild eines Weinkrugs; 酉 war früher zugleich Lautträger. Merkhilfe: Die Flüssigkeit (氵) aus dem Krug (酉) ist Alkohol. 酒 ist jedes alkoholische Getränk: 啤酒 (píjiǔ) „Bier“, 白酒 (báijiǔ) „Schnaps“, 红酒 (hóngjiǔ) „Rotwein“, 葡萄酒 (pútaojiǔ) „Wein“; 酒店 (jiǔdiàn) heißt heute meist „Hotel“. 酉 kennzeichnet auch 醉 (zuì, „betrunken“) und 醋 (cù, „Essig“). Nicht verwechseln mit 洒 (sǎ, „sprengen“): Dort steht 西 ohne den inneren Querstrich.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1840,21 +2093,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "jiù",
-        "meaning": "dann; sofort"
+        "meaning": "dann; schon; sofort; gleich; genau; eben; nur; sich nähern; antreten (Stelle); zu (etw. dazu essen)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 12,
     "primaryRadical": "尢",
     "components": [
       {
         "part": "京",
-        "role": "phonetic",
-        "meaning": "Hauptstadt"
+        "role": "form",
+        "meaning": "Hauptstadt; Anhöhe"
       },
       {
         "part": "尤",
-        "role": "semantic"
+        "role": "form",
+        "meaning": "besonders"
       }
     ],
     "words": [
@@ -1874,6 +2127,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "182.210:jiù | jiù(11223)",
       "etymology": "pictophonetic: specialty",
       "old": "dann; sofort"
+    },
+    "notes": "就 besteht aus 京 „Hauptstadt“ (ursprünglich ein Bau auf einer Anhöhe) und 尤 „besonders“; das Wörterbuch Shuowen erklärt es als „sich zu einer hohen Stelle begeben“ – daher „sich nähern, antreten“. Merkhilfe: In die Hauptstadt (京) geht man besonders (尤) gern – und zwar sofort. Als Adverb ist 就 sehr häufig: 我就来 (wǒ jiù lái) „ich komme gleich“, 就是 (jiùshì) „genau; eben“. Gegensatz: 就 betont „früh, schnell, leicht“, 才 (cái) „erst, spät“: 他八点就来了 (tā bā diǎn jiù lái le) „er kam schon um acht“. Wörter: 成就 (chéngjiù) „Leistung“, 就业 (jiùyè) „Arbeit finden“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1885,10 +2144,13 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "kā",
-        "meaning": "Kaffee (Lautzeichen)"
+        "meaning": "nur in Wörtern: Lautsilbe ka (Kaffee); (umgangssprachlich) Typ, Person (Star, Größe)"
+      },
+      {
+        "pinyin": "gā",
+        "meaning": "nur in Wörtern: Lautsilbe ga (Curry)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 8,
     "primaryRadical": "口",
     "components": [
@@ -1900,7 +2162,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "加",
         "role": "phonetic",
-        "meaning": "hinzufuegen"
+        "meaning": "hinzufügen (Laut jiā)"
       }
     ],
     "words": [
@@ -1916,6 +2178,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "104.040:gā 191.020:kā | kā(9)",
       "etymology": "pictophonetic: mouth",
       "old": "Kaffee (Lautzeichen)"
+    },
+    "notes": "咖 besteht aus 口 „Mund“, das hier ein Lautzeichen für Fremdwörter kennzeichnet, und 加 (jiā) als Lautträger. Es kommt fast nur in Lehnwörtern vor: kā in 咖啡 (kāfēi) „Kaffee“ und 咖啡馆 (kāfēiguǎn) „Café“, gā in 咖喱 (gālí) „Curry“. Merkhilfe: Zum Kaffee im Mund (口) fügt man (加) Milch und Zucker hinzu. In der Umgangssprache steht 大咖 (dàkā) für „Star, Größe“. Nicht verwechseln mit 加 (jiā), 架 (jià) und 驾 (jià).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1927,10 +2195,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "kǎo",
-        "meaning": "prüfen; testen"
+        "meaning": "prüfen; testen; eine Prüfung ablegen; untersuchen; überprüfen; (literarisch) verstorbener Vater"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 6,
     "primaryRadical": "老",
     "radicalForm": "耂",
@@ -1942,7 +2209,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       },
       {
         "part": "丂",
-        "role": "phonetic"
+        "role": "phonetic",
+        "meaning": "Laut kǎo"
       }
     ],
     "words": [
@@ -1962,6 +2230,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "194.070:kǎo | kǎo(334)",
       "etymology": "pictophonetic: old",
       "old": "prüfen; testen"
+    },
+    "notes": "考 besteht aus 耂, der verkürzten Form von 老 „alt“, und 丂 (kǎo) als Lautträger mit gleichem Klang. Ursprünglich bedeutete es „alter Mensch“, später „verstorbener Vater“; „prüfen“ ist eine spätere Bedeutung. Merkhilfe: Der Alte (耂) prüft die Jungen. Nicht verwechseln: 老 (lǎo, „alt“) hat unten 匕, 考 hat unten 丂, 孝 (xiào, „Pietät“) hat unten 子. Wörter: 考试 (kǎoshì) „Prüfung“, 高考 (gāokǎo) „Hochschulaufnahmeprüfung“, 考虑 (kǎolǜ) „überlegen“, 参考 (cānkǎo) „sich beziehen auf“; gleich klingt 烤 (kǎo, „rösten“, mit 火).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -1976,7 +2250,6 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
         "meaning": "Hose"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 12,
     "primaryRadical": "衣",
     "radicalForm": "衤",
@@ -1989,7 +2262,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "库",
         "role": "phonetic",
-        "meaning": "Lager"
+        "meaning": "Lager, Speicher (Laut kù)"
       }
     ],
     "words": [
@@ -2008,6 +2281,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "200.020:kù | kù(62)",
       "etymology": "pictophonetic: clothes",
       "old": "Hose"
+    },
+    "notes": "裤 besteht aus 衤 „Kleidung“ als Bedeutungsträger und 库 (kù, „Lager“) als Lautträger mit gleichem Klang; 库 selbst ist 车 „Wagen“ unter 广 „Dach“, also eine Garage. Merkhilfe: Das Kleidungsstück (衤) mit dem „Lager“ (库) für Beine und Taschen ist die Hose. Wörter: 裤子 (kùzi) „Hose“, 短裤 (duǎnkù) „Shorts“, 牛仔裤 (niúzǎikù) „Jeans“, 内裤 (nèikù) „Unterhose“. Achtung: 衤 „Kleidung“ hat 5 Striche (rechts zwei kleine Striche), 礻 „Altar, Geist“ (wie in 视) nur 4 (rechts ein Punkt).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2019,20 +2298,22 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "kuài",
-        "meaning": "schnell"
+        "meaning": "schnell; rasch; bald; gleich; scharf (Messer); froh; angenehm; offen, direkt"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "心",
     "radicalForm": "忄",
     "components": [
       {
         "part": "忄",
+        "role": "semantic",
         "meaning": "Herz"
       },
       {
-        "part": "夬"
+        "part": "夬",
+        "role": "phonetic",
+        "meaning": "entschlossen (Laut guài)"
       }
     ],
     "words": [
@@ -2052,6 +2333,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "200.160:kuài | kuài(1536) kuai(77)",
       "etymology": "ideographic: A decisive 夬 will 忄; 夬 also provides the pronunciation",
       "old": "schnell"
+    },
+    "notes": "快 besteht aus 忄 „Herz“ als Bedeutungsträger und 夬 (guài) als Lautträger; ursprünglich bedeutete es „froh, zufrieden“, wie noch in 快乐 (kuàilè) „fröhlich“. Merkhilfe: Wenn man sich freut, schlägt das Herz (忄) schnell. Mit 了 heißt 快 „bald, gleich“: 快到了 (kuài dào le) „gleich sind wir da“. Weitere Wörter: 凉快 (liángkuai) „angenehm kühl“, 赶快 (gǎnkuài) „schnell“. Nicht verwechseln mit 块 (kuài, mit 土, „Stück; Yuan“) und 筷 (kuài, mit ⺮) in 筷子 (kuàizi) „Essstäbchen“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2063,20 +2350,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "lán",
-        "meaning": "Korb"
+        "meaning": "Korb; Korb (beim Basketball)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 16,
     "primaryRadical": "竹",
     "components": [
       {
-        "part": "𥫗"
+        "part": "⺮",
+        "role": "semantic",
+        "meaning": "Bambus"
       },
       {
         "part": "监",
         "role": "phonetic",
-        "meaning": "ueberwachen"
+        "meaning": "überwachen (Laut jiān)"
       }
     ],
     "words": [
@@ -2094,6 +2382,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "208.150:lán | lán(74)",
       "etymology": "pictophonetic: bamboo",
       "old": "Korb"
+    },
+    "notes": "篮 besteht aus ⺮ „Bambus“ als Bedeutungsträger – Körbe wurden aus Bambus geflochten – und 监 (jiān) als Lautträger; dieselbe Lautreihe zeigen 蓝 (lán), 滥 (làn) und 览 (lǎn). Merkhilfe: Aus Bambus (⺮) flicht man Körbe. Wörter: 篮球 (lánqiú) „Basketball“, 打篮球 (dǎ lánqiú) „Basketball spielen“, 篮子 (lánzi) „Korb“, 摇篮 (yáolán) „Wiege“. Nicht verwechseln mit dem gleich klingenden 蓝 (lán, „blau“), das oben 艹 statt ⺮ hat.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2105,27 +2399,20 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "lè",
-        "meaning": "Musik; Freude"
+        "meaning": "froh; fröhlich; Freude; sich freuen; lachen (umgangssprachlich); gern tun"
       },
       {
         "pinyin": "yuè",
         "meaning": "Musik"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 5,
     "primaryRadical": "丿",
     "components": [
       {
-        "part": "丿",
-        "meaning": "schräger Strich (links)"
-      },
-      {
-        "part": "𠃋"
-      },
-      {
         "part": "小",
-        "meaning": "klein"
+        "role": "form",
+        "meaning": "klein (hier nur Form)"
       }
     ],
     "words": [
@@ -2147,6 +2434,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "212.030:lè 453.020:yuè | lè(283) yuè(54)",
       "etymology": "ideographic: Simplified form of 樂, a musical instrument with wood 木, strings 幺, and a pick 白",
       "old": "Musik; Freude"
+    },
+    "notes": "乐 ist die Kurzform von 樂, das ein Musikinstrument darstellt: Saiten (zweimal 幺) und 白 auf einem Holzgestell (木). Von „Musik“ (yuè) kam die Bedeutung „Freude“ (lè). Die Kurzform ist eine vereinfachte Schreibschriftform; unten erkennt man noch 小. Merkhilfe: Musik (yuè) macht froh (lè). Wörter mit lè: 快乐 (kuàilè) „fröhlich“, 乐观 (lèguān) „optimistisch“, 可乐 (kělè) „Cola“; mit yuè: 音乐 (yīnyuè) „Musik“, 乐器 (yuèqì) „Musikinstrument“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2159,28 +2452,29 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "lèi",
-        "meaning": "muede"
+        "meaning": "müde; erschöpft; ermüden; anstrengen; sich abmühen"
       },
       {
         "pinyin": "lěi",
-        "meaning": "anhäufen, ansammeln"
+        "meaning": "anhäufen; ansammeln; wiederholt; fortlaufend; jmdn. mit hineinziehen"
       },
       {
         "pinyin": "léi",
-        "meaning": "schwerfällig, massiv"
+        "meaning": "nur in Wörtern: Last, lästig (léizhui); in großer Menge (Früchte)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 11,
     "primaryRadical": "糸",
     "components": [
       {
         "part": "田",
-        "meaning": "Feld"
+        "role": "form",
+        "meaning": "Feld (verkürzt aus 畾)"
       },
       {
         "part": "糸",
-        "meaning": "Faden"
+        "role": "semantic",
+        "meaning": "Seidenfaden"
       }
     ],
     "words": [
@@ -2204,6 +2498,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "212.110:léi 213.060,213.070:lěi 213.160:lèi | lèi(111) lěi(54)",
       "etymology": "ideographic: Simplified form of 纍; growing silk 糸 in the fields 畾; 畾 also provides the pronunciation",
       "old": "muede"
+    },
+    "notes": "累 besteht aus 糸 „Faden“ und oben 田, das aus 畾 (léi) verkürzt ist, dem alten Lautträger; die Grundbedeutung ist „Fäden aneinanderreihen, anhäufen“. Merkhilfe: Nach der Arbeit auf dem Feld (田) hängt man da wie ein schlaffer Faden (糸) – müde. Drei Lesungen: lèi „müde“ ist im Alltag die häufigste: 我很累 (wǒ hěn lèi) „ich bin müde“; lěi „anhäufen“ in 积累 (jīlěi) und 累计 (lěijì); léi in 累赘 (léizhui) „lästig“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2215,18 +2515,26 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "lí",
-        "meaning": "verlassen; entfernt"
+        "meaning": "sich trennen; verlassen; weggehen; entfernt sein von; von (bei Entfernungsangaben); ohne etw. auskommen (meist verneint)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 10,
     "primaryRadical": "罒",
     "components": [
       {
-        "part": "㐫"
+        "part": "亠",
+        "role": "form",
+        "meaning": "Deckel, Kopf"
       },
       {
-        "part": "禸"
+        "part": "凶",
+        "role": "form",
+        "meaning": "unheilvoll"
+      },
+      {
+        "part": "禸",
+        "role": "form",
+        "meaning": "Tierspur"
       }
     ],
     "words": [
@@ -2246,6 +2554,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "214.110:lí | lí(790)",
       "etymology": "pictographic: An animal standing straight; 亠 is the head",
       "old": "verlassen; entfernt"
+    },
+    "notes": "离 ist die Kurzform von 離, das aus 离 (lí) als Lautträger und 隹 „Vogel“ besteht und ursprünglich einen Vogel bezeichnete; die Herkunft von 离 selbst ist umstritten. Merkhilfe: Unter dem Deckel (亠) lauert etwas Unheilvolles (凶), darunter Tierspuren (禸) – nichts wie weg! Bei Entfernungen: 我家离学校很远 (wǒ jiā lí xuéxiào hěn yuǎn) „meine Wohnung ist weit von der Schule“. Wörter: 离开 (líkāi) „verlassen“, 距离 (jùlí) „Entfernung“, 离婚 (líhūn) „sich scheiden lassen“, 离不开 (lí bu kāi) „nicht ohne … können“. Nicht verwechseln mit 璃 (lí) in 玻璃 (bōli) „Glas“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2257,19 +2571,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "liú",
-        "meaning": "bleiben, behalten, zurücklassen; hinterlassen; jmdn. zurückhalten, zurückbleiben"
+        "meaning": "bleiben; verweilen; behalten; aufbewahren; zurücklassen; hinterlassen; jmdn. zurückhalten; (Haare, Bart) wachsen lassen; im Ausland studieren (in Wörtern)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 10,
     "primaryRadical": "田",
     "components": [
       {
-        "part": "卯"
+        "part": "卯",
+        "role": "form",
+        "meaning": "vierter Erdzweig (hier abgewandelt)"
       },
       {
         "part": "田",
-        "meaning": "Feld, Acker"
+        "role": "semantic",
+        "meaning": "Feld"
       }
     ],
     "words": [
@@ -2287,6 +2603,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
         "liu2: bleiben, behalten, zurücklassen (V); hinterlassen (V); jmdn. zurückhalten, zurückbleiben (V); Liu (Eig, Fam)"
       ],
       "unihan": "228.040:liú | liú(484)"
+    },
+    "notes": "留 besteht aus 田 „Feld“ und einem oberen Teil, der wie ein abgewandeltes 卯 aussieht; nach dem Wörterbuch Shuowen war er ursprünglich ein Lautträger, dieselbe Reihe zeigen 柳 (liǔ) und 聊 (liáo). Merkhilfe: Wer ein Feld (田) besitzt, bleibt da. Wörter: 留学 (liúxué) „im Ausland studieren“, 留学生 (liúxuéshēng) „Auslandsstudent“, 留下 (liúxià) „hinterlassen; bleiben“, 留言 (liúyán) „Nachricht hinterlassen“, 保留 (bǎoliú) „behalten“. Nicht verwechseln mit 贸 (mào), wo unter dem oberen Teil 贝 statt 田 steht.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2298,21 +2620,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "lóu",
-        "meaning": "Gebaeude; Stockwerk"
+        "meaning": "mehrstöckiges Gebäude; Hochhaus; Stockwerk; Etage; Turm; Pavillon"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 13,
     "primaryRadical": "木",
     "components": [
       {
         "part": "木",
         "role": "semantic",
-        "meaning": "Baum"
+        "meaning": "Holz; Baum"
       },
       {
         "part": "娄",
-        "role": "phonetic"
+        "role": "phonetic",
+        "meaning": "Laut lóu"
       }
     ],
     "words": [
@@ -2332,6 +2654,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "231.090:lóu | lóu(179)",
       "etymology": "pictophonetic: wood",
       "old": "Gebaeude; Stockwerk"
+    },
+    "notes": "楼 besteht aus 木 „Holz“ als Bedeutungsträger und 娄 (lóu) als Lautträger – daher genau der Klang lóu. Merkhilfe: Holzbalken (木), Stockwerk auf Stockwerk gestapelt, ergeben ein mehrstöckiges Haus. 楼 steht für das Gebäude wie für die Etage: 大楼 (dàlóu) „Hochhaus“, 楼上 (lóushàng) „oben im Haus“, 楼下 (lóuxià) „unten“, 楼梯 (lóutī) „Treppe“; „im dritten Stock“ heißt 在三楼 (zài sān lóu). Die Langform lautet 樓.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2343,19 +2671,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "lù",
-        "meaning": "Weg; Strasse"
+        "meaning": "Weg; Straße; Strecke; Route; (Bus-)Linie; Methode; Art und Weise"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 13,
     "primaryRadical": "足",
     "components": [
       {
-        "part": "𧾷"
+        "part": "𧾷",
+        "role": "semantic",
+        "meaning": "Fuß"
       },
       {
         "part": "各",
-        "role": "phonetic"
+        "role": "phonetic",
+        "meaning": "jeder (Laut gè)"
       }
     ],
     "words": [
@@ -2375,6 +2705,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "234.080:lù | lù(1987)",
       "etymology": "pictophonetic: foot",
       "old": "Weg; Strasse"
+    },
+    "notes": "路 verbindet 𧾷 „Fuß“ als Bedeutungsträger mit 各 (gè) als Lautträger. Heute klingt 各 allein anders; dass es aber Laute mit l- angibt, zeigen auch 落 (luò) und 络 (luò). Merkhilfe: Jeder (各) setzt seinen Fuß (𧾷) auf seinen eigenen Weg. Häufige Wörter: 马路 (mǎlù) „Straße“, 路口 (lùkǒu) „Kreuzung“, 走路 (zǒulù) „zu Fuß gehen“, 一路平安 (yílù píng’ān) „gute Reise“; bei Buslinien zählt man mit 路, etwa „Linie 5“ = 五路 (wǔ lù).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2386,18 +2722,26 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "lǚ",
-        "meaning": "reisen"
+        "meaning": "reisen; Reise; Reisende(r) (meist in Wörtern); Brigade (Militär)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 10,
     "primaryRadical": "方",
     "components": [
       {
-        "part": "𭤨"
+        "part": "方",
+        "role": "form",
+        "meaning": "Fahnenstange (sieht aus wie 方 „Richtung“)"
       },
       {
-        "part": "𧘇"
+        "part": "𠂉",
+        "role": "form",
+        "meaning": "Fahnentuch"
+      },
+      {
+        "part": "𧘇",
+        "role": "form",
+        "meaning": "Menschen unter der Fahne (stilisiert)"
       }
     ],
     "words": [
@@ -2417,6 +2761,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "235.100:lǚ | lǚ(139)",
       "etymology": "ideographic: A man 方 traveling with a pack 氏 on his back",
       "old": "reisen"
+    },
+    "notes": "旅 zeigte ursprünglich Menschen, die unter einer Fahne marschieren – eine Truppe; daher noch heute „Brigade“. Aus dem Ziehen der Truppe wurde „unterwegs sein, reisen“. Links und oben steht der Fahnenteil (方 + 𠂉), den auch 旗 (qí) „Fahne“ und 族 (zú) „Volk, Sippe“ enthalten. Merkhilfe: Eine Reisegruppe folgt der Fahne ihres Reiseleiters. Nicht mit 族 verwechseln: dort steht unter der Fahne 矢 „Pfeil“. Wörter: 旅游 (lǚyóu), 旅行 (lǚxíng) „reisen“, 旅馆 (lǚguǎn) „Hotel“, 旅客 (lǚkè) „Fahrgast“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2428,10 +2778,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "lǜ",
-        "meaning": "grün"
+        "meaning": "grün; umweltfreundlich; Grün; (Slang) jemandem Hörner aufsetzen"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 11,
     "primaryRadical": "糸",
     "radicalForm": "纟",
@@ -2439,11 +2788,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "纟",
         "role": "semantic",
-        "meaning": "Seide/Faden"
+        "meaning": "Seide; Faden"
       },
       {
         "part": "录",
-        "role": "phonetic"
+        "role": "phonetic",
+        "meaning": "aufzeichnen (Laut lù)"
       }
     ],
     "words": [
@@ -2463,6 +2813,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "234.040:lù 236.010:lǜ | lǜ(220)",
       "etymology": "pictophonetic: silk",
       "old": "grün"
+    },
+    "notes": "绿 besteht aus 纟 „Seide“ als Bedeutungsträger und 录 (lù) als Lautträger – fast derselbe Klang lǜ. Farbwörter tragen oft 纟, weil sie ursprünglich gefärbte Seide beschrieben, so auch 红 (hóng) „rot“ und 紫 (zǐ) „violett“ (dort unten in der Vollform 糸). Merkhilfe: Seidenfaden, grün gefärbt. Wörter: 绿色 (lǜsè) „grün; umweltfreundlich“, 绿茶 (lǜchá) „grüner Tee“, 红绿灯 (hónglǜdēng) „Ampel“. In wenigen Namen wie 鸭绿江 (Yālù Jiāng) „Yalu-Fluss“ liest man lù. Die Langform lautet 綠.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2474,10 +2830,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "màn",
-        "meaning": "langsam"
+        "meaning": "langsam; nachgehen (Uhr); halt!; Moment! (gehoben, in Wendungen); geringschätzig; hochmütig (in Wörtern)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 14,
     "primaryRadical": "心",
     "radicalForm": "忄",
@@ -2485,12 +2840,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "忄",
         "role": "semantic",
-        "meaning": "Herz"
+        "meaning": "Herz; Gefühl"
       },
       {
         "part": "曼",
         "role": "phonetic",
-        "meaning": "lang"
+        "meaning": "lang gezogen (Laut màn)"
       }
     ],
     "words": [
@@ -2510,6 +2865,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "243.070:màn | màn(417)",
       "etymology": "pictophonetic: heart",
       "old": "langsam"
+    },
+    "notes": "慢 besteht aus 忄 „Herz“ als Bedeutungsträger und 曼 (màn) als Lautträger – derselbe Klang màn. Die ursprüngliche Bedeutung „nachlässig, herablassend“ lebt in 傲慢 (àomàn) „arrogant“ und 怠慢 (dàimàn) „vernachlässigen“ weiter. Merkhilfe: Ein Herz (忄), das sich lang (曼) Zeit lässt, ist langsam. Im Alltag: 慢慢 (mànmàn) „langsam, allmählich“, 慢走 (mànzǒu) „Komm gut heim!“ als Abschiedsgruß. Dasselbe 曼 gibt den Laut in 馒 (mán) wie 馒头 (mántou) und in 漫 (màn).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2521,20 +2882,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "měi",
-        "meaning": "jeder; jede"
+        "meaning": "jeder; jede; jedes; je; jedes Mal"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "母",
     "components": [
       {
-        "part": "𠂉"
+        "part": "𠂉",
+        "role": "form",
+        "meaning": "Kopfschmuck (oben)"
       },
       {
         "part": "母",
         "role": "phonetic",
-        "meaning": "Mutter"
+        "meaning": "Mutter (Laut mǔ)"
       }
     ],
     "words": [
@@ -2551,6 +2913,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "246.130:měi | měi(1245)",
       "etymology": "pictophonetic",
       "old": "jeder; jede"
+    },
+    "notes": "每 setzt einen kleinen Aufsatz (𠂉) auf 母 (mǔ) „Mutter“, das den Laut gibt; alte Formen zeigen eine Frau mit Haarschmuck. Merkhilfe: Die Mutter mit Hut kümmert sich um jedes einzelne Kind. Unten steht 母 mit zwei Punkten, nicht 毋 (wú) mit Querstrich. 每 steht vor Zählwörtern oder Zeitangaben und wird oft mit 都 (dōu) kombiniert: 每天 (měitiān) „jeden Tag“, 每个人 (měi ge rén) „jeder“. Als Lautträger kehrt 每 wieder in 梅 (méi) „Pflaume“, 海 (hǎi) „Meer“ und 悔 (huǐ) „bereuen“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2562,26 +2930,13 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "mén",
-        "meaning": "Tuer; Tor"
+        "meaning": "Tür; Tor; Eingang; Ventil; Schalter; Familie; Schule (Lehrrichtung); Fachgebiet; Zählwort für Fächer, Kurse und Sprachen"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 3,
     "primaryRadical": "門",
     "radicalForm": "门",
-    "components": [
-      {
-        "part": "丶",
-        "meaning": "Punkt"
-      },
-      {
-        "part": "丨",
-        "meaning": "vertikaler Strich"
-      },
-      {
-        "part": "𠃌"
-      }
-    ],
+    "components": [],
     "words": [
       "w:门:men2",
       "w:出门:chu1men2",
@@ -2599,6 +2954,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "247.060:mén | mén(1633) men(20)",
       "etymology": "pictographic: An open doorway or gate",
       "old": "Tuer; Tor"
+    },
+    "notes": "门 ist die vereinfachte Form von 門, das zwei Türflügel nebeneinander zeigt. In der Kurzform blieben ein Punkt, ein senkrechter Strich und ein Rahmen mit Haken übrig – der Umriss einer Tür. Merkhilfe: Der Punkt ist die Türklinke. Als Rahmen steckt 门 in 问 (wèn) „fragen“, 间 (jiān) „Zimmer“ und 闹 (nào) „laut“; in 们 (men) gibt es den Laut – dort steht 亻 „Mensch“ daneben. Wörter: 门口 (ménkǒu) „Eingang“, 出门 (chūmén) „aus dem Haus gehen“, 部门 (bùmén) „Abteilung“; als Zählwort: 一门课 (yì mén kè) „ein Kurs“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2610,17 +2971,16 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "ná",
-        "meaning": "nehmen; halten"
+        "meaning": "nehmen; holen; in der Hand halten; tragen; bekommen (Preis, Note); fassen; mit (Hilfsmittel); was … angeht (in festen Mustern)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 10,
     "primaryRadical": "手",
     "components": [
       {
         "part": "合",
-        "role": "phonetic",
-        "meaning": "zusammen"
+        "role": "semantic",
+        "meaning": "schließen; zusammen"
       },
       {
         "part": "手",
@@ -2645,6 +3005,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "260.030:ná | ná(1125)",
       "etymology": "pictophonetic: hand",
       "old": "nehmen; halten"
+    },
+    "notes": "拿 ist ein Bedeutungszeichen: 合 „schließen, zusammenfügen“ über 手 „Hand“ – die Hand schließt sich um einen Gegenstand. Keiner der Teile gibt den Laut; eine ältere Schreibung ist 拏 mit 奴 (nú) als Lautträger. Merkhilfe: Die Hand (手) klappt zu (合) – schon hat man etwas genommen. Anders als in 打 oder 拉 steht die Hand hier als ganzes 手 unten statt als 扌 links. Wörter: 拿走 (názǒu) „mitnehmen“, 拿到 (nádào) „bekommen“, 拿手 (náshǒu) „gut können“; in 桑拿 (sāngná) „Sauna“ dient es nur dem Klang.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2659,30 +3025,10 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
         "meaning": "Vogel"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 5,
     "primaryRadical": "鳥",
     "radicalForm": "鸟",
-    "components": [
-      {
-        "part": "丿",
-        "meaning": "schräger Strich (links)"
-      },
-      {
-        "part": "𠃌"
-      },
-      {
-        "part": "丶",
-        "meaning": "Punkt"
-      },
-      {
-        "part": "㇉"
-      },
-      {
-        "part": "一",
-        "meaning": "eins, horizontal"
-      }
-    ],
+    "components": [],
     "words": [
       "w:鸟:niao3",
       "w:鸟巢:niao3chao2",
@@ -2699,6 +3045,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "267.010:niǎo | niǎo(190)",
       "etymology": "pictographic: Simplified form of 烏, a bird",
       "old": "Vogel"
+    },
+    "notes": "鸟 ist ein Bildzeichen: ein Vogel mit Kopf, Auge (Punkt), Körper und Schwanzfedern; die vier Punkte unten in der Langform 鳥 (Füße und Schwanzfedern) wurden zu einem Querstrich vereinfacht. Merkhilfe: Der Punkt ist das wache Auge des Vogels. Nicht mit 乌 (wū) „Krähe; schwarz“ verwechseln: Dort fehlt der Punkt – eine verbreitete Merkhilfe sagt, bei der schwarzen Krähe sehe man das Auge nicht. Als Bedeutungsträger steht 鸟 in vielen Vogelnamen: 鸡 (jī) „Huhn“, 鸭 (yā) „Ente“, 鸽 (gē) „Taube“; 小鸟 (xiǎoniǎo) „Vögelchen“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2710,24 +3062,26 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "páng",
-        "meaning": "Seite; neben"
+        "meaning": "Seite; daneben; neben; seitlich; andere(r); Seitenkomponente (eines Schriftzeichens)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 10,
     "primaryRadical": "方",
     "components": [
       {
-        "part": "六"
+        "part": "六",
+        "role": "form",
+        "meaning": "Oberteil (geformt wie 六 „sechs“)"
       },
       {
         "part": "冖",
-        "meaning": "Deckel, Abdeckung"
+        "role": "form",
+        "meaning": "Abdeckung"
       },
       {
         "part": "方",
         "role": "phonetic",
-        "meaning": "Richtung"
+        "meaning": "Richtung; Seite (Laut fāng)"
       }
     ],
     "words": [
@@ -2747,6 +3101,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "276.060:páng | páng(471)",
       "etymology": "pictophonetic: stand",
       "old": "Seite; neben"
+    },
+    "notes": "旁 hat oben einen Aufsatz, der wie 六 aussieht, darunter 冖 und unten 方 (fāng) als Lautträger – derselbe Reim, nur mit p statt f. Merkhilfe: 方 bedeutet auch „Seite, Richtung“ – unter dem Dach geht es zur Seite. Nicht mit 房 (fáng) „Zimmer“ verwechseln: Dort steht 方 unter 户 „Tür“. Wörter: 旁边 (pángbiān) „daneben“, 旁人 (pángrén) „andere Leute“, 偏旁 (piānpáng) „Zeichenkomponente“. 旁 gibt seinerseits den Laut in 傍 (bàng), 榜 (bǎng) und 膀 (bǎng).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2758,19 +3118,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "pǎo",
-        "meaning": "laufen; rennen"
+        "meaning": "laufen; rennen; weglaufen; fliehen; Besorgungen machen; herumlaufen (für etwas); entweichen (Gas, Flüssigkeit)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 12,
     "primaryRadical": "足",
     "components": [
       {
-        "part": "𧾷"
+        "part": "𧾷",
+        "role": "semantic",
+        "meaning": "Fuß"
       },
       {
         "part": "包",
-        "role": "phonetic"
+        "role": "phonetic",
+        "meaning": "einwickeln (Laut bāo)"
       }
     ],
     "words": [
@@ -2790,6 +3152,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "277.060:páo 277.070:pǎo | pǎo(986)",
       "etymology": "pictophonetic: foot",
       "old": "laufen; rennen"
+    },
+    "notes": "跑 verbindet 𧾷 „Fuß“ als Bedeutungsträger mit 包 (bāo) als Lautträger; derselbe Reim -ao steht in 抱 (bào) „umarmen“, 饱 (bǎo) „satt“ und 泡 (pào) „einweichen“ – hier entscheidet die linke Seite über die Bedeutung. Merkhilfe: Die Füße (𧾷) „packen“ (包) die Strecke in Windeseile ein. 跑 heißt „laufen, rennen“, 走 (zǒu) dagegen „gehen“. Wörter: 跑步 (pǎobù) „joggen“, 逃跑 (táopǎo) „fliehen“, 跑道 (pǎodào) „Laufbahn; Startbahn“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2801,20 +3169,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "piào",
-        "meaning": "Ticket; Fahrkarte"
+        "meaning": "Fahrkarte; Ticket; Eintrittskarte; Stimmzettel; Stimme (bei Wahlen); Banknote; Geisel (für Lösegeld)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 11,
     "primaryRadical": "示",
     "components": [
       {
         "part": "覀",
-        "meaning": "Westen, bedecken"
+        "role": "form",
+        "meaning": "Deckel"
       },
       {
         "part": "示",
-        "meaning": "zeigen"
+        "role": "form",
+        "meaning": "Altar; zeigen"
       }
     ],
     "words": [
@@ -2834,6 +3203,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "284.020:piào | piào(175)",
       "etymology": "ideographic: Flames 覀 over an altar 示, referring to a Chinese tradition of burning fake money as an offering",
       "old": "Ticket; Fahrkarte"
+    },
+    "notes": "票 besteht heute aus 覀 oben und 示 unten; beides ist das Ergebnis späterer Umformung. Ursprünglich bedeutete 票 „aufstiebende Funken“, und unten stand 火 „Feuer“. Merkhilfe: Ein Ticket ist ein Zettel, den man vorzeigen (示) muss. Nicht mit 要 (yào) verwechseln, das unter 覀 ein 女 hat. Wörter: 车票 (chēpiào) „Fahrkarte“, 门票 (ménpiào) „Eintrittskarte“, 机票 (jīpiào) „Flugticket“, 投票 (tóupiào) „abstimmen“. Als Lautträger steht 票 in 漂 (piāo) „treiben“ und 飘 (piāo) „wehen“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2845,22 +3220,25 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "qī",
-        "meaning": "Ehefrau"
+        "meaning": "Ehefrau; Gattin (meist in Wörtern)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 8,
     "primaryRadical": "女",
     "components": [
       {
         "part": "一",
-        "meaning": "eins, horizontal"
+        "role": "form",
+        "meaning": "Querstrich (Haarschmuck)"
       },
       {
-        "part": "肀"
+        "part": "肀",
+        "role": "form",
+        "meaning": "Hand"
       },
       {
         "part": "女",
+        "role": "semantic",
         "meaning": "Frau"
       }
     ],
@@ -2879,6 +3257,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "290.030:qī | qī(69)",
       "etymology": "ideographic: A woman 女 holding a broom 十 in her hand 彐",
       "old": "Ehefrau"
+    },
+    "notes": "妻 zeigt unten 女 „Frau“, darüber eine Hand (肀) mit Querstrich. Eine verbreitete Deutung: die Hand steckt der Frau das Haar hoch – so trugen verheiratete Frauen ihr Haar. Merkhilfe: Die Frau (女), die mit eigener Hand ihr Haar hochsteckt, ist eine Ehefrau. Allein steht 妻 selten; man sagt 妻子 (qīzi) „Ehefrau“ und 夫妻 (fūqī) „Ehepaar“. Nicht mit 委 (wěi) verwechseln, wo 禾 über 女 steht. Als Lautträger kehrt 妻 in 凄 (qī) „kalt; trostlos“ wieder.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2890,10 +3274,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "qíng",
-        "meaning": "Gefuehl; Lage"
+        "meaning": "Gefühl; Emotion; Liebe; Zuneigung; Gefälligkeit; Lage; Umstand; Sachverhalt"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 11,
     "primaryRadical": "心",
     "radicalForm": "忄",
@@ -2901,12 +3284,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "忄",
         "role": "semantic",
-        "meaning": "Herz"
+        "meaning": "Herz; Gefühl"
       },
       {
         "part": "青",
         "role": "phonetic",
-        "meaning": "blau/grün, jung"
+        "meaning": "blau, grün; jung (Laut qīng)"
       }
     ],
     "words": [
@@ -2926,6 +3309,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "304.030:qíng | qíng(1700) qing(491)",
       "etymology": "pictophonetic: heart",
       "old": "Gefuehl; Lage"
+    },
+    "notes": "情 besteht aus 忄 „Herz“ als Bedeutungsträger und 青 (qīng) als Lautträger – nur der Ton ändert sich zu qíng. Merkhilfe: Was frisch und jung (青) im Herzen (忄) aufblüht, ist ein Gefühl. 青 gibt den Laut in einer ganzen Familie: 请 (qǐng) „bitten“ mit 讠, 清 (qīng) „klar“ mit 氵, 晴 (qíng) „sonnig“ mit 日 – die linke Seite trennt sie. Wörter: 感情 (gǎnqíng) „Gefühl“, 爱情 (àiqíng) „Liebe“, 心情 (xīnqíng) „Stimmung“, 情况 (qíngkuàng) „Lage“; in 事情 (shìqing) „Sache“ ist die Silbe tonlos.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2937,10 +3326,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "qíng",
-        "meaning": "sonnig; klar"
+        "meaning": "sonnig; heiter; klar (Wetter); aufklaren"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 12,
     "primaryRadical": "日",
     "components": [
@@ -2952,7 +3340,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "青",
         "role": "phonetic",
-        "meaning": "gruen/blau"
+        "meaning": "blau, grün (Laut qīng)"
       }
     ],
     "words": [
@@ -2971,6 +3359,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "304.040:qíng | qíng(61)",
       "etymology": "pictophonetic: sun",
       "old": "sonnig; klar"
+    },
+    "notes": "晴 besteht aus 日 „Sonne“ als Bedeutungsträger und 青 (qīng) als Lautträger; nur der Ton ändert sich. Merkhilfe: Die Sonne (日) am blauen (青) Himmel – heiteres Wetter. Das Gegenteil ist 阴 (yīn) „bewölkt“. Nicht mit 睛 (jīng) in 眼睛 (yǎnjing) „Auge“ verwechseln: Dort steht 目 „Auge“ statt 日. Wörter: 晴天 (qíngtiān) „sonniger Tag“, 晴朗 (qínglǎng) „heiter, wolkenlos“, 天晴了 (tiān qíng le) „es klart auf“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -2982,10 +3376,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "qiú",
-        "meaning": "Ball; Kugel"
+        "meaning": "Ball; Kugel; Ballspiel; Erdkugel; Globus; Himmelskörper"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 11,
     "primaryRadical": "玉",
     "radicalForm": "王",
@@ -2993,12 +3386,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "王",
         "role": "semantic",
-        "meaning": "Koenig"
+        "meaning": "Jade (Radikal 玉, links als 王 geschrieben)"
       },
       {
         "part": "求",
         "role": "phonetic",
-        "meaning": "bitten"
+        "meaning": "bitten; suchen (Laut qiú)"
       }
     ],
     "words": [
@@ -3018,6 +3411,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "306.120:qiú | qiú(458)",
       "etymology": "pictophonetic: jade",
       "old": "Ball; Kugel"
+    },
+    "notes": "球 besteht aus 王, hier die linke Form von 玉 „Jade“ (nicht „König“), als Bedeutungsträger und 求 (qiú) als Lautträger – genau derselbe Klang. Ursprünglich bezeichnete 球 einen schönen, runden Jadestein. Merkhilfe: Jeder will (求) die runde Jadekugel haben. Wörter: 足球 (zúqiú) „Fußball“, 篮球 (lánqiú) „Basketball“, 地球 (dìqiú) „Erde“; 踢球 (tī qiú) „Fußball spielen“, 打球 (dǎ qiú) „Ball spielen“ (mit der Hand oder dem Schläger).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3029,17 +3428,22 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "rán",
-        "meaning": "so; richtig; -artig"
+        "meaning": "so; auf diese Weise; richtig; Suffix für Adjektive und Adverbien; aber (gehoben)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 12,
     "primaryRadical": "火",
     "radicalForm": "灬",
     "components": [
       {
-        "part": "肰",
-        "role": "phonetic"
+        "part": "月",
+        "role": "form",
+        "meaning": "Fleisch (als ⺼)"
+      },
+      {
+        "part": "犬",
+        "role": "form",
+        "meaning": "Hund"
       },
       {
         "part": "灬",
@@ -3064,6 +3468,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "312.020:rán | rán(3549) ran(84)",
       "etymology": "pictophonetic: fire",
       "old": "so; richtig; -artig"
+    },
+    "notes": "然 bedeutete ursprünglich „brennen“: Fleisch (月, hier ⺼) vom Hund (犬) über dem Feuer (灬). 月 und 犬 bilden zusammen 肰 (rán), das zugleich den Laut gibt. Seit 然 vor allem „so“ bedeutet, schreibt man „brennen“ mit zusätzlichem 火: 燃 (rán). Merkhilfe: Fleisch über dem Feuer – so und nicht anders wird gegrillt. Sehr häufig als zweite Silbe: 当然 (dāngrán) „natürlich“, 虽然 (suīrán) „obwohl“, 突然 (tūrán) „plötzlich“, 自然 (zìrán) „Natur“; vorn in 然后 (ránhòu) „danach“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3075,10 +3485,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "ràng",
-        "meaning": "lassen; erlauben"
+        "meaning": "lassen; veranlassen; erlauben; nachgeben; überlassen; abtreten; (Platz, Vortritt) anbieten; von (im Passiv)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 5,
     "primaryRadical": "言",
     "radicalForm": "讠",
@@ -3086,12 +3495,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "讠",
         "role": "semantic",
-        "meaning": "Sprache"
+        "meaning": "Wort; sprechen"
       },
       {
         "part": "上",
         "role": "phonetic",
-        "meaning": "oben"
+        "meaning": "oben (Laut shàng)"
       }
     ],
     "words": [
@@ -3111,6 +3520,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "313.010:ràng | ràng(974)",
       "etymology": "pictophonetic: speech",
       "old": "lassen; erlauben"
+    },
+    "notes": "让 besteht aus 讠 „Wort“ als Bedeutungsträger und 上 (shàng) als Lautträger mit gleichem Reim; die Langform 讓 hatte 襄 (xiāng) rechts, wie 嚷 (rǎng) „schreien“. Merkhilfe: Mit freundlichen Worten (讠) lässt man jemanden nach oben (上) vor – man gibt nach. Im Alltag vor allem „lassen“: 让我看看 (ràng wǒ kànkan) „lass mich mal sehen“; dazu 让座 (ràngzuò) „Platz anbieten“, 让步 (ràngbù) „nachgeben“. Wie 被 (bèi) kann 让 auch ein Passiv einleiten.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3122,19 +3537,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "ròu",
-        "meaning": "Fleisch"
+        "meaning": "Fleisch; Fruchtfleisch; (ugs.) schwammig; träge"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 6,
     "primaryRadical": "肉",
     "components": [
       {
         "part": "冂",
-        "meaning": "Umrandung (oben offen)"
+        "role": "form",
+        "meaning": "Rahmen: Fleischstück"
       },
       {
-        "part": "仌"
+        "part": "人",
+        "role": "form",
+        "meaning": "Fleischfasern (zweimal)"
       }
     ],
     "words": [
@@ -3154,6 +3571,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "316.100:ròu | ròu(278)",
       "etymology": "pictographic: Meat on the ribs of an animal",
       "old": "Fleisch"
+    },
+    "notes": "肉 ist ein Bildzeichen: ein Stück Fleisch (冂) mit Fasern oder Rippen darin, heute als zweimal 人 geschrieben. Merkhilfe: Im Rahmen (冂) liegt ein Stück Fleisch, durchzogen von Fasern. Nicht mit 内 (nèi) „innen“ verwechseln, das nur ein 人 enthält. Als Bedeutungsträger wird 肉 meist zu 月 (⺼) verkürzt, etwa in 肚 (dù) „Bauch“, 脸 (liǎn) „Gesicht“, 胖 (pàng) „dick“. Wörter: 牛肉 (niúròu) „Rindfleisch“, 猪肉 (zhūròu) „Schweinefleisch“, 肌肉 (jīròu) „Muskel“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3165,18 +3588,25 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "sè",
-        "meaning": "Farbe"
+        "meaning": "Farbe; Gesichtsfarbe; Miene; Aussehen; Landschaft; Art; Sorte; Qualität; sexuelle Begierde; erotisch"
+      },
+      {
+        "pinyin": "shǎi",
+        "meaning": "(ugs., nur in Wörtern) Farbe; Würfel"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 6,
     "primaryRadical": "色",
     "components": [
       {
-        "part": "⺈"
+        "part": "⺈",
+        "role": "form",
+        "meaning": "Mensch (abgewandelt)"
       },
       {
-        "part": "巴"
+        "part": "巴",
+        "role": "form",
+        "meaning": "kniender Mensch (wie 巴 geschrieben)"
       }
     ],
     "words": [
@@ -3196,6 +3626,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "321.110:sè 323.100:shǎi | sè(950)",
       "etymology": "ideographic: What a person ⺈ desires 巴",
       "old": "Farbe"
+    },
+    "notes": "色 zeigte ursprünglich einen Menschen (oben, heute ⺈) über einem knienden Menschen (unten, heute wie 巴 geschrieben); daraus entwickelten sich „Gesichtsausdruck“ und „Farbe“. Merkhilfe: Wer vor jemandem kniet, wechselt die Gesichtsfarbe. Wörter: 颜色 (yánsè) „Farbe“, 红色 (hóngsè) „rot“, 脸色 (liǎnsè) „Gesichtsfarbe“, 出色 (chūsè) „hervorragend“, 特色 (tèsè) „Besonderheit“. Umgangssprachlich liest man shǎi, etwa in 掉色 (diàoshǎi) „abfärben“ und 色子 (shǎizi) „Würfel“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3207,10 +3643,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "shào",
-        "meaning": "vorstellen; einfuehren"
+        "meaning": "nur in Wörtern: vorstellen (in „jièshào“); fortsetzen; weiterführen (gehoben); Kurzname für Shaoxing"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 8,
     "primaryRadical": "糸",
     "radicalForm": "纟",
@@ -3218,12 +3653,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "纟",
         "role": "semantic",
-        "meaning": "Faden"
+        "meaning": "Seide; Faden"
       },
       {
         "part": "召",
         "role": "phonetic",
-        "meaning": "rufen"
+        "meaning": "rufen (Laut zhào)"
       }
     ],
     "words": [
@@ -3239,6 +3674,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "328.050:shào | shào(156)",
       "etymology": "pictophonetic: thread",
       "old": "vorstellen; einfuehren"
+    },
+    "notes": "绍 besteht aus 纟 „Faden“ als Bedeutungsträger und 召 (zhào) als Lautträger; derselbe Reim steht in 招 (zhāo), 照 (zhào) und 超 (chāo). Die Grundbedeutung „anknüpfen, fortsetzen“ passt zum Faden. Merkhilfe: Man ruft (召) zwei Leute herbei und knüpft einen Faden (纟) zwischen ihnen – man stellt sie einander vor. Fast nur in 介绍 (jièshào) „vorstellen“; außerdem in der Stadt 绍兴 (Shàoxīng), bekannt für ihren Reiswein.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3250,32 +3691,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "shēn",
-        "meaning": "Körper"
+        "meaning": "Körper; Leib; Rumpf; Leben; selbst; persönlich; Stand; Zählwort für Kleidung (Garnitur)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "身",
-    "components": [
-      {
-        "part": "丿",
-        "meaning": "schräger Strich (links)"
-      },
-      {
-        "part": "丨",
-        "meaning": "vertikaler Strich"
-      },
-      {
-        "part": "𠃌"
-      },
-      {
-        "part": "二",
-        "meaning": "zwei"
-      },
-      {
-        "part": "㇀"
-      }
-    ],
+    "components": [],
     "words": [
       "w:身体:shen1ti3",
       "w:身边:shen1bian1",
@@ -3293,6 +3714,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "330.040:shēn | shēn(2161)",
       "etymology": "pictographic: A pregnant woman",
       "old": "Körper"
+    },
+    "notes": "身 ist ein Bildzeichen: Alte Formen zeigen einen Menschen im Profil mit betontem Bauch – oft als schwangere Frau gedeutet. Merkhilfe: Ein Körper mit rundem Bauch, durch den der lange Strich wie ein Rückgrat läuft. Beim Schreiben kommt der lange Schrägstrich nach links zuletzt. Wörter: 身体 (shēntǐ) „Körper; Gesundheit“, 身边 (shēnbiān) „an der Seite“, 本身 (běnshēn) „selbst“, 健身 (jiànshēn) „Fitness“; als Zählwort: 一身衣服 (yì shēn yīfu) „ein Satz Kleider“. Als Teil steht 身 in 躺 (tǎng) „liegen“ und 射 (shè) „schießen“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3304,10 +3731,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "shǐ",
-        "meaning": "beginnen; Anfang"
+        "meaning": "beginnen; anfangen; Anfang; Ursprung; erst (dann) (gehoben)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 8,
     "primaryRadical": "女",
     "components": [
@@ -3319,7 +3745,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "台",
         "role": "phonetic",
-        "meaning": "Plattform"
+        "meaning": "Plattform (Laut tái, alt yí)"
       }
     ],
     "words": [
@@ -3339,6 +3765,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "336.040:shǐ | shǐ(606)",
       "etymology": "pictophonetic: woman",
       "old": "beginnen; Anfang"
+    },
+    "notes": "始 besteht aus 女 „Frau“ als Bedeutungsträger und 台 als Lautträger; 台 wurde früher auch yí gelesen und gibt den Laut in 治 (zhì), 抬 (tái) und 胎 (tāi) „Embryo“. Merkhilfe: Jedes Leben beginnt bei einer Frau, der Mutter. Wörter: 开始 (kāishǐ) „anfangen“, 始终 (shǐzhōng) „von Anfang bis Ende; stets“, 原始 (yuánshǐ) „ursprünglich“. Nicht mit 治 (zhì) „regieren; behandeln“ verwechseln, das links 氵 hat.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3350,10 +3782,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "shì",
-        "meaning": "versuchen; testen"
+        "meaning": "versuchen; ausprobieren; anprobieren; testen; Prüfung; Test"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 8,
     "primaryRadical": "言",
     "radicalForm": "讠",
@@ -3361,11 +3792,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "讠",
         "role": "semantic",
-        "meaning": "Sprache"
+        "meaning": "Wort; sprechen"
       },
       {
         "part": "式",
-        "role": "phonetic"
+        "role": "phonetic",
+        "meaning": "Form; Art (Laut shì)"
       }
     ],
     "words": [
@@ -3385,6 +3817,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "337.050:shì | shì(374)",
       "etymology": "pictophonetic: speech",
       "old": "versuchen; testen"
+    },
+    "notes": "试 besteht aus 讠 „Wort“ als Bedeutungsträger und 式 (shì) als Lautträger – genau derselbe Klang. Merkhilfe: In der Prüfung muss man seine Worte (讠) in die richtige Form (式) bringen. In 式 steckt 工 unter 弋 – nicht mit 武 (wǔ) verwechseln. Verdoppelt heißt es „mal probieren“: 试试 (shìshi); dazu 考试 (kǎoshì) „Prüfung“, 面试 (miànshì) „Vorstellungsgespräch“, 尝试 (chángshì) „versuchen“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3396,22 +3834,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "shì",
-        "meaning": "Zimmer; Raum"
+        "meaning": "Zimmer; Raum; Büro; Abteilung (in Behörden); Familie (gehoben)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 9,
     "primaryRadical": "宀",
     "components": [
       {
         "part": "宀",
         "role": "semantic",
-        "meaning": "Dach"
+        "meaning": "Dach; Haus"
       },
       {
         "part": "至",
         "role": "phonetic",
-        "meaning": "ankommen"
+        "meaning": "ankommen (Laut zhì)"
       }
     ],
     "words": [
@@ -3431,6 +3868,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "338.010:shì | shì(434)",
       "etymology": "pictophonetic: roof",
       "old": "Zimmer; Raum"
+    },
+    "notes": "室 besteht aus 宀 „Dach“ als Bedeutungsträger und 至 (zhì) als Lautträger; 至 bedeutet zugleich „ankommen“. Merkhilfe: Wo man unter dem Dach (宀) ankommt (至), ist man im Zimmer. Nicht mit 屋 (wū) „Haus, Zimmer“ verwechseln, das ebenfalls 至 enthält, aber 尸 statt 宀 darüber hat. 室 steht meist als zweite Silbe: 教室 (jiàoshì) „Klassenzimmer“, 办公室 (bàngōngshì) „Büro“, 卧室 (wòshì) „Schlafzimmer“, 室内 (shìnèi) „drinnen“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3442,20 +3885,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "shū",
-        "meaning": "entspannen, strecken, entfalten, gemächlich"
+        "meaning": "strecken; ausbreiten; entfalten; entspannen; behaglich; gemächlich"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 12,
     "primaryRadical": "舌",
     "components": [
       {
         "part": "舍",
-        "role": "semantic"
+        "role": "semantic",
+        "meaning": "Unterkunft; Haus"
       },
       {
         "part": "予",
-        "role": "phonetic"
+        "role": "phonetic",
+        "meaning": "geben (Laut yǔ)"
       }
     ],
     "words": [
@@ -3474,6 +3918,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       ],
       "unihan": "340.170:shū | shū(143)",
       "etymology": "pictophonetic: home"
+    },
+    "notes": "舒 verbindet 舍 „Unterkunft, Haus“ mit 予 (yǔ) als Lautträger; denselben Lautträger hat 抒 (shū) „ausdrücken“. Merkhilfe: Im eigenen Haus (舍) gönnt (予) man sich, die Glieder auszustrecken und zu entspannen. Links steht 舍 (shè/shě), nicht nur 舌 (shé) „Zunge“ – oben sitzt noch das Dach 人. Wörter: 舒服 (shūfu) „bequem; sich wohlfühlen“, 舒适 (shūshì) „komfortabel“, 舒展 (shūzhǎn) „sich entfalten“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3485,19 +3935,20 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "sī",
-        "meaning": "denken; Gedanke"
+        "meaning": "denken; nachdenken; überlegen; sich sehnen nach; vermissen; Gedanke; Idee"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 9,
     "primaryRadical": "心",
     "components": [
       {
         "part": "田",
-        "meaning": "Feld"
+        "role": "form",
+        "meaning": "Feld (ursprünglich 囟 „Schädel“)"
       },
       {
         "part": "心",
+        "role": "semantic",
         "meaning": "Herz"
       }
     ],
@@ -3518,6 +3969,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "346.040:sī | sī(1305) si(331)",
       "etymology": "ideographic: Weighing something with your mind 囟 (altered) and heart 心",
       "old": "denken; Gedanke"
+    },
+    "notes": "思 hat unten 心 „Herz“, das im alten China als Sitz des Denkens galt. Das obere 田 sieht nur aus wie „Feld“: Ursprünglich stand dort 囟 (xìn) „Schädel, Fontanelle“. Kopf und Herz zusammen ergeben „denken“. Merkhilfe: Der Bauer denkt mit dem Herzen an sein Feld. Wörter: 思考 (sīkǎo) „nachdenken“, 思想 (sīxiǎng) „Denken; Idee“; in 意思 (yìsi) „Bedeutung“, 有意思 (yǒu yìsi) „interessant“ und 不好意思 (bù hǎoyìsi) „Entschuldigung“ ist die Silbe tonlos. Nicht mit 恩 (ēn) „Gnade“ verwechseln, das 因 über 心 hat.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3529,20 +3986,22 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "sòng",
-        "meaning": "schenken; bringen; begleiten"
+        "meaning": "schenken; bringen; liefern; senden; schicken; begleiten; verabschieden; (Leben) verlieren"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 9,
     "primaryRadical": "辵",
     "radicalForm": "辶",
     "components": [
       {
         "part": "辶",
+        "role": "semantic",
         "meaning": "gehen"
       },
       {
-        "part": "关"
+        "part": "关",
+        "role": "form",
+        "meaning": "sieht aus wie 关 „schließen“ (ursprünglich anderer Teil)"
       }
     ],
     "words": [
@@ -3562,6 +4021,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "348.130:sòng | sòng(818)",
       "etymology": "ideographic: A person waving 关 to someone walking away 辶",
       "old": "schenken; bringen; begleiten"
+    },
+    "notes": "送 besteht aus 辶 „gehen“ als Bedeutungsträger und einem rechten Teil, der heute wie 关 (guān) „schließen“ aussieht; ursprünglich war es ein anderes Element (wohl zwei Hände mit Feuer), mit 关 hat es nichts zu tun. Merkhilfe: Man geht (辶) mit dem Gast bis zum Tor und schließt (关) es hinter ihm – man begleitet ihn hinaus. Wörter: 送给 (sònggěi) „schenken“, 送礼 (sònglǐ) „Geschenke machen“, 发送 (fāsòng) „senden“, 送人 (sòng rén) „jemanden verabschieden“. Nicht mit 迷 (mí) „sich verirren“ verwechseln, wo 米 neben 辶 steht.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3573,24 +4038,26 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "sù",
-        "meaning": "erzählen; klagen"
+        "meaning": "erzählen; mitteilen; klagen; sich beschweren; verklagen; Klage erheben"
       },
       {
         "pinyin": "su",
-        "meaning": ""
+        "meaning": "tonlos in „mitteilen“ (gàosu)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "言",
     "radicalForm": "讠",
     "components": [
       {
         "part": "讠",
-        "meaning": "Sprache"
+        "role": "semantic",
+        "meaning": "Wort; sprechen"
       },
       {
-        "part": "斥"
+        "part": "斥",
+        "role": "semantic",
+        "meaning": "tadeln; zurückweisen"
       }
     ],
     "words": [
@@ -3612,6 +4079,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "350.050:sù | su(552) sù(43)",
       "etymology": "ideographic: Words 讠 of blame 斥; 斥 also provides the pronunciation",
       "old": "erzählen; klagen"
+    },
+    "notes": "诉 verbindet 讠 „Wort“ mit 斥 (chì) „tadeln“ – Worte des Vorwurfs: klagen, sich beschweren; nach alten Wörterbüchern gab 斥 einst auch den Laut. Merkhilfe: Wer mit Worten (讠) tadelt (斥), bringt eine Klage vor. Nicht mit 斤 verwechseln: 斥 hat einen zusätzlichen Punkt unten. Die tonlose Lesung (su) steht in 告诉 (gàosu) „sagen, mitteilen“; sonst sù: 投诉 (tóusù) „sich beschweren“, 起诉 (qǐsù) „verklagen“, 诉苦 (sùkǔ) „sein Leid klagen“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3623,20 +4096,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "suī",
-        "meaning": "obwohl; obgleich"
+        "meaning": "obwohl; zwar; selbst wenn"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 9,
     "primaryRadical": "虫",
     "components": [
       {
         "part": "口",
-        "meaning": "Mund"
+        "role": "form",
+        "meaning": "Mund (Rest des alten Lautträgers 唯 wéi)"
       },
       {
         "part": "虫",
-        "meaning": "Insekt"
+        "role": "form",
+        "meaning": "Insekt; Kriechtier"
       }
     ],
     "words": [
@@ -3653,6 +4127,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       ],
       "unihan": "351.150:suī | suī(543)",
       "old": "obwohl; obgleich"
+    },
+    "notes": "虽 ist die Kurzform von 雖: Dort stand 唯 (wéi) als Lautträger neben 虫 „Kriechtier“ – gemeint war ursprünglich ein eidechsenartiges Tier. Die Bedeutung „obwohl“ ist nur über den Klang entlehnt; die Kurzform ließ 隹 weg. Merkhilfe: Obwohl (虽) das Tierchen (虫) so klein ist, hat es ein großes Maul (口). Fast immer in 虽然 (suīrán) „obwohl“, oft mit folgendem 但是 (dànshì) „aber“; umgangssprachlich auch 虽说 (suīshuō).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3664,19 +4144,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "suǒ",
-        "meaning": "Ort; Partikel"
+        "meaning": "Ort; Stelle; Institut; Amt; Zählwort für Häuser, Schulen, Krankenhäuser; Strukturpartikel vor Verben (das, was …); Passivmarker (gehoben)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 8,
     "primaryRadical": "户",
     "components": [
       {
-        "part": "戶"
+        "part": "户",
+        "role": "form",
+        "meaning": "Tür"
       },
       {
         "part": "斤",
-        "meaning": "Axt, Pfund"
+        "role": "semantic",
+        "meaning": "Axt"
       }
     ],
     "words": [
@@ -3696,6 +4178,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "354.020:suǒ | suǒ(2517)",
       "etymology": "ideographic: An axe 斤 swung at a door 户",
       "old": "Ort; Partikel"
+    },
+    "notes": "所 besteht aus 户 „Tür“ und 斤 „Axt“; laut dem ältesten Zeichenlexikon meinte es ursprünglich das Geräusch beim Holzhacken, später „Ort, Stelle“. Merkhilfe: Wo die Axt (斤) neben der Tür (户) lehnt, ist der Ort, an dem man wohnt. Wichtige Wörter: 所以 (suǒyǐ) „deshalb“, 所有 (suǒyǒu) „alle“, 厕所 (cèsuǒ) „Toilette“, 研究所 (yánjiūsuǒ) „Forschungsinstitut“; Zählwort in 一所学校 (yì suǒ xuéxiào) „eine Schule“. Vor einem Verb bildet 所 ein Objekt: 所说的 (suǒ shuō de) „das Gesagte“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3707,10 +4195,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "téng",
-        "meaning": "schmerzen; lieben"
+        "meaning": "wehtun; schmerzen; Schmerz; innig lieben; verwöhnen"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 10,
     "primaryRadical": "疒",
     "components": [
@@ -3722,7 +4209,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "冬",
         "role": "phonetic",
-        "meaning": "Winter"
+        "meaning": "Winter (Laut dōng)"
       }
     ],
     "words": [
@@ -3742,6 +4229,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "362.150:téng | téng(127)",
       "etymology": "pictophonetic: sickness",
       "old": "schmerzen; lieben"
+    },
+    "notes": "疼 besteht aus 疒 „Krankheit“ als Bedeutungsträger und 冬 (dōng) als Lautträger mit ähnlichem Klang. Merkhilfe: Im Winter (冬) krank im Bett (疒) – da tut alles weh. 疼 ist umgangssprachlicher als 痛 (tòng); beide heißen „schmerzen“: 头疼 (tóuténg) wie 头痛 (tóutòng) „Kopfschmerzen“, 肚子疼 (dùzi téng) „Bauchweh“. Übertragen heißt 疼 „innig lieben“: 疼爱 (téng’ài) „liebevoll umsorgen“, 心疼 (xīnténg) „jemanden lieb haben; einem leidtun“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3753,20 +4246,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "tī",
-        "meaning": "treten; kicken"
+        "meaning": "treten; kicken; (Fußball) spielen"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 15,
     "primaryRadical": "足",
     "components": [
       {
-        "part": "𧾷"
+        "part": "𧾷",
+        "role": "semantic",
+        "meaning": "Fuß"
       },
       {
         "part": "易",
         "role": "phonetic",
-        "meaning": "leicht"
+        "meaning": "leicht; tauschen (Laut yì)"
       }
     ],
     "words": [
@@ -3783,6 +4277,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "363.120:tī | tī(50)",
       "etymology": "pictophonetic: foot",
       "old": "treten; kicken"
+    },
+    "notes": "踢 verbindet 𧾷 „Fuß“ als Bedeutungsträger mit 易 (yì) als Lautträger; 易 führt auch in 剔 (tī) „herauslösen“ und 惕 (tì) „wachsam“ auf den Laut t-. Merkhilfe: Mit dem Fuß (𧾷) ist ein Ball leicht (易) gekickt. Meist in 踢足球 (tī zúqiú) „Fußball spielen“ oder kurz 踢球 (tī qiú). Andere Fuß-Zeichen: 跑 (pǎo) „rennen“, 跳 (tiào) „springen“ – alle haben links 𧾷.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3794,20 +4294,22 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "tǐ",
-        "meaning": "Körper; Gestalt"
+        "meaning": "Körper; Leib; Gestalt; Form; Stil; Schriftart; System; Substanz; selbst erfahren; Aspekt (Grammatik)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "人",
     "radicalForm": "亻",
     "components": [
       {
         "part": "亻",
+        "role": "semantic",
         "meaning": "Mensch"
       },
       {
-        "part": "本"
+        "part": "本",
+        "role": "semantic",
+        "meaning": "Wurzel; Grundlage"
       }
     ],
     "words": [
@@ -3826,6 +4328,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       ],
       "unihan": "363.070:tī 364.100:tǐ | tǐ(1746)",
       "old": "Körper; Gestalt"
+    },
+    "notes": "体 ist die Kurzform von 體 (骨 „Knochen“ + 豊 als Lautträger); die neue Form setzt 亻 „Mensch“ neben 本 „Wurzel, Grundlage“. Merkhilfe: Die Grundlage (本) des Menschen (亻) ist sein Körper. Nicht mit 休 (xiū) „ruhen“ verwechseln: Dort steht nur 木 „Baum“, ohne den kurzen Querstrich unten. Wörter: 身体 (shēntǐ) „Körper; Gesundheit“, 体育 (tǐyù) „Sport“, 具体 (jùtǐ) „konkret“, 体验 (tǐyàn) „erleben“, 字体 (zìtǐ) „Schriftart“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3837,19 +4345,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "tiào",
-        "meaning": "springen; tanzen"
+        "meaning": "springen; hüpfen; schlagen (Herz); überspringen; auslassen"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 13,
     "primaryRadical": "足",
     "components": [
       {
-        "part": "𧾷"
+        "part": "𧾷",
+        "role": "semantic",
+        "meaning": "Fuß"
       },
       {
         "part": "兆",
-        "role": "phonetic"
+        "role": "phonetic",
+        "meaning": "Vorzeichen; Million (Laut zhào)"
       }
     ],
     "words": [
@@ -3869,6 +4379,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "367.040:tiào | tiào(470)",
       "etymology": "pictophonetic: foot",
       "old": "springen; tanzen"
+    },
+    "notes": "跳 verbindet 𧾷 „Fuß“ als Bedeutungsträger mit 兆 (zhào) als Lautträger; 兆 gibt den Reim -ao auch in 桃 (táo) „Pfirsich“, 逃 (táo) „fliehen“ und 挑 (tiāo) „aussuchen“. Merkhilfe: Die Füße (𧾷) heben ab – ein gutes Vorzeichen (兆) für den Sprung. Wörter: 跳舞 (tiàowǔ) „tanzen“, 跳高 (tiàogāo) „Hochsprung“, 心跳 (xīntiào) „Herzschlag“. Nicht mit 踢 (tī) „treten“ und 跑 (pǎo) „rennen“ verwechseln – die rechte Seite entscheidet.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3880,10 +4396,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "tiě",
-        "meaning": "Eisen"
+        "meaning": "Eisen; eisern; hart; fest; unerschütterlich; Waffen (gehoben)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 10,
     "primaryRadical": "金",
     "radicalForm": "钅",
@@ -3896,7 +4411,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "失",
         "role": "phonetic",
-        "meaning": "verlieren"
+        "meaning": "verlieren (Laut shī)"
       }
     ],
     "words": [
@@ -3916,6 +4431,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "367.090:tiě | tiě(734)",
       "etymology": "pictophonetic: metal",
       "old": "Eisen"
+    },
+    "notes": "铁 besteht aus 钅 „Metall“ als Bedeutungsträger und 失 als Lautträger; 失 klingt allein shī, gibt aber in 跌 (diē) „fallen“ und 迭 (dié) „abwechseln“ den Reim -ie. Die Langform 鐵 hatte einen anderen, komplizierten Lautträger. Merkhilfe: Ein Metall (钅), das man nicht verliert (失), weil es so schwer ist – Eisen. Wörter: 地铁 (dìtiě) „U-Bahn“, 高铁 (gāotiě) „Hochgeschwindigkeitszug“, 铁路 (tiělù) „Eisenbahn“. 失 hat links oben einen zusätzlichen kleinen Schrägstrich – anders als 夫 (fū).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3927,19 +4448,24 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "tóu",
-        "meaning": "Kopf"
+        "meaning": "Kopf; Haupt; Haar; Frisur; Spitze; Anfang; Ende; Anführer; Chef; erste(r); Zählwort für Rinder, Schweine u. Ä."
+      },
+      {
+        "pinyin": "tou",
+        "meaning": "tonloses Suffix für Substantive und Ortswörter"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 5,
     "primaryRadical": "大",
     "components": [
       {
-        "part": "⺀"
+        "part": "⺀",
+        "role": "form",
+        "meaning": "zwei Punkte"
       },
       {
         "part": "大",
-        "role": "semantic",
+        "role": "form",
         "meaning": "groß"
       }
     ],
@@ -3960,6 +4486,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "371.020:tóu | tóu(3058) tou(715)",
       "etymology": "pictophonetic: high",
       "old": "Kopf"
+    },
+    "notes": "头 ist die Kurzform von 頭 (页 „Kopf“ + 豆 dòu als Lautträger); geblieben sind zwei Punkte und 大 „groß“. Merkhilfe: Ein großer (大) Mensch, an dessen Kopf zwei Punkte die Augen markieren. Nicht verwechseln mit 买 (mǎi) „kaufen“ (oben 乛) und 实 (shí) „wirklich“ (oben 宀). Betont tóu: 头发 (tóufa) „Haare“, 点头 (diǎntóu) „nicken“, 一头牛 (yì tóu niú) „ein Rind“. Tonlos als Suffix: 石头 (shítou) „Stein“, 里头 (lǐtou) „drinnen“, 馒头 (mántou) „Dampfbrötchen“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -3971,21 +4503,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "wán",
-        "meaning": "fertig; beenden"
+        "meaning": "fertig sein; beenden; zu Ende sein; aufgebraucht; ganz; vollständig; Resultativ: fertig (nach Verben)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "宀",
     "components": [
       {
         "part": "宀",
         "role": "semantic",
-        "meaning": "Dach"
+        "meaning": "Dach; Haus"
       },
       {
         "part": "元",
-        "role": "phonetic"
+        "role": "phonetic",
+        "meaning": "Anfang; Yuan (Laut yuán)"
       }
     ],
     "words": [
@@ -4005,6 +4537,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "378.130:wán | wán(1502)",
       "etymology": "pictophonetic: roof",
       "old": "fertig; beenden"
+    },
+    "notes": "完 besteht aus 宀 „Dach“ als Bedeutungsträger und 元 (yuán) als Lautträger; denselben Reim gibt 元 in 玩 (wán) „spielen“ und 园 (yuán) „Garten“. Ursprünglich hieß 完 „unversehrt, vollständig“. Merkhilfe: Wenn das Dach (宀) drauf ist, ist das Haus fertig. Nach Verben zeigt 完 an, dass etwas abgeschlossen ist: 吃完 (chīwán) „aufessen“, 做完 (zuòwán) „fertig machen“. Wörter: 完成 (wánchéng) „fertigstellen“, 完全 (wánquán) „völlig“. Nicht mit 院 (yuàn) „Hof“ verwechseln, das links 阝 hat.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4016,25 +4554,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "wàn",
-        "meaning": "zehntausend"
+        "meaning": "zehntausend; unzählige; äußerst; unbedingt (in Wörtern)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 3,
     "primaryRadical": "一",
-    "components": [
-      {
-        "part": "一",
-        "meaning": "eins"
-      },
-      {
-        "part": "丿",
-        "meaning": "schräger Strich (links)"
-      },
-      {
-        "part": "𠃌"
-      }
-    ],
+    "components": [],
     "words": [
       "w:万:wan4",
       "w:千万:qian1wan4",
@@ -4051,6 +4576,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       ],
       "unihan": "256.090:mò 379.160:wàn | wàn(1335)",
       "old": "zehntausend"
+    },
+    "notes": "万 ist eine alte Nebenform, die heute 萬 ersetzt; 萬 zeigte einen Skorpion und wurde nur über den Klang für „zehntausend“ entlehnt. 万 selbst besteht nur aus einem Querstrich, einem abknickenden Haken und einem Schrägstrich. Merkhilfe: 万 sieht aus wie 方 (fāng) „Richtung“ ohne den Punkt – zehntausend Richtungen. Chinesisch zählt in Zehntausendern: 十万 (shíwàn) „100 000“, 一百万 (yìbǎi wàn) „eine Million“. Wörter: 千万 (qiānwàn) „unbedingt“, 万一 (wànyī) „falls“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4062,19 +4593,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "wǎng",
-        "meaning": "Netz"
+        "meaning": "Netz; Netzwerk; Internet; online; mit dem Netz fangen"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 6,
     "primaryRadical": "网",
     "components": [
       {
         "part": "冂",
-        "meaning": "Umhüllung"
+        "role": "form",
+        "meaning": "Rahmen"
       },
       {
-        "part": "㐅"
+        "part": "㐅",
+        "role": "form",
+        "meaning": "Maschen (zweimal)"
       }
     ],
     "words": [
@@ -4094,6 +4627,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "380.090:wǎng | wǎng(120)",
       "etymology": "pictographic: A net for catching fish",
       "old": "Netz"
+    },
+    "notes": "网 ist ein Bildzeichen: ein Rahmen (冂) mit zwei Kreuzen (㐅) als Maschen – ein Fischernetz. Die Langform 網 setzte 纟 „Faden“ und 罔 (wǎng) dazu; die Kurzform kehrt zum alten Bild zurück. Merkhilfe: zwei Kreuze im Rahmen – die Knoten eines Netzes. Nicht mit 冈 (gāng) „Hügel“ verwechseln, das nur ein 㐅 enthält. Heute vor allem „Internet“: 上网 (shàngwǎng) „online gehen“, 网站 (wǎngzhàn) „Website“, 网购 (wǎnggòu) „online einkaufen“; dazu 网球 (wǎngqiú) „Tennis“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4105,21 +4644,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "wǎng",
-        "meaning": "in Richtung; frueher"
+        "meaning": "nach; in Richtung; gehen (nach); fahren (nach); vergangen; früher"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 8,
     "primaryRadical": "彳",
     "components": [
       {
         "part": "彳",
         "role": "semantic",
-        "meaning": "Schritt"
+        "meaning": "Schritt; gehen"
       },
       {
         "part": "主",
-        "meaning": "Herr"
+        "role": "form",
+        "meaning": "Herr (umgeformter alter Lautträger)"
       }
     ],
     "words": [
@@ -4139,6 +4678,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "380.120:wǎng | wǎng(856) wàng(427)",
       "etymology": "pictophonetic: step",
       "old": "in Richtung; frueher"
+    },
+    "notes": "往 besteht aus 彳 „Schritt“ als Bedeutungsträger und einem rechten Teil, der heute wie 主 (zhǔ) „Herr“ aussieht; ursprünglich war es ein Lautträger, der wie wang klang. Merkhilfe: Mit Schritten (彳) zum Herrn (主) hingehen. Vorsicht: 住 (zhù) „wohnen“ hat dasselbe 主, aber 亻 „Mensch“ statt 彳. Als Präposition zeigt 往 die Richtung: 往前走 (wǎng qián zǒu) „geradeaus gehen“, 往左拐 (wǎng zuǒ guǎi) „links abbiegen“. Wörter: 往往 (wǎngwǎng) „oft“, 以往 (yǐwǎng) „früher“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4150,17 +4695,16 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "wàng",
-        "meaning": "vergessen"
+        "meaning": "vergessen; übersehen; vernachlässigen"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "心",
     "components": [
       {
         "part": "亡",
         "role": "phonetic",
-        "meaning": "sterben"
+        "meaning": "verloren gehen; sterben (Laut wáng)"
       },
       {
         "part": "心",
@@ -4185,6 +4729,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "381.010:wàng | wàng(312)",
       "etymology": "pictophonetic: heart",
       "old": "vergessen"
+    },
+    "notes": "忘 besteht aus 亡 (wáng) als Lautträger über 心 „Herz“ als Bedeutungsträger; 亡 bedeutet zugleich „verloren gehen“. Merkhilfe: Was dem Herzen (心) verloren geht (亡), ist vergessen. Vorsicht: 忙 (máng) „beschäftigt“ hat dieselben Teile, aber 忄 links neben 亡 – wer zu beschäftigt ist, vergisst. Wörter: 忘记 (wàngjì) „vergessen“, 难忘 (nánwàng) „unvergesslich“; 别忘了 (bié wàng le) „vergiss nicht“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4196,23 +4746,26 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "wàng",
-        "meaning": "hoffen; blicken"
+        "meaning": "in die Ferne blicken; schauen; besuchen; hoffen; erwarten; Ansehen; Ruf; Vollmond"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 11,
     "primaryRadical": "月",
     "components": [
       {
-        "part": "亡"
+        "part": "亡",
+        "role": "phonetic",
+        "meaning": "verloren gehen (Laut wáng)"
       },
       {
         "part": "月",
+        "role": "semantic",
         "meaning": "Mond"
       },
       {
         "part": "王",
-        "meaning": "Koenig"
+        "role": "form",
+        "meaning": "hier: Mensch auf erhöhtem Boden (nicht „König“)"
       }
     ],
     "words": [
@@ -4232,6 +4785,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "381.030:wàng | wàng(1150) wang(29)",
       "etymology": "ideographic: A king 王 gazing at the moon 月; 亡 provides the pronunciation",
       "old": "hoffen; blicken"
+    },
+    "notes": "望 zeigte ursprünglich einen Menschen auf einer Erhebung, der in die Ferne späht; unten steht daher eine Form, die heute wie 王 aussieht, aber nichts mit „König“ zu tun hat. Später kamen 月 „Mond“ (der Vollmond, zu dem man aufblickt) und 亡 (wáng) als Lautträger hinzu. Merkhilfe: Man blickt sehnsüchtig zum Mond (月) und hofft. Wörter: 希望 (xīwàng) „hoffen“, 失望 (shīwàng) „enttäuscht“, 看望 (kànwàng) „besuchen“, 愿望 (yuànwàng) „Wunsch“. Gleich klingend, aber verschieden: 忘 (wàng) „vergessen“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4244,24 +4803,25 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "wèi",
-        "meaning": "für; sein; tun"
+        "meaning": "für; wegen; um … willen; zugunsten von"
       },
       {
         "pinyin": "wéi",
-        "meaning": "fungieren als, verhalten als, auftreten als; sein, betragen"
+        "meaning": "sein; als (etwas) dienen; als (etwas) ansehen; werden; tun; handeln; von (im Passiv, gehoben)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 4,
     "primaryRadical": "丶",
     "components": [
       {
-        "part": "丶",
-        "meaning": "Punkt"
+        "part": "力",
+        "role": "form",
+        "meaning": "Grundform wie 力 „Kraft“"
       },
       {
-        "part": "力",
-        "meaning": "Kraft"
+        "part": "丶",
+        "role": "form",
+        "meaning": "Punkt (zweimal)"
       }
     ],
     "words": [
@@ -4282,6 +4842,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       ],
       "unihan": "381.170:wéi 383.210:wèi | wèi(3962) wéi(2433)",
       "old": "für; sein; tun"
+    },
+    "notes": "为 ist die Kurzform von 爲, das eine Hand zeigte, die einen Elefanten führt – „arbeiten, etwas tun“. Heute sieht es aus wie 力 „Kraft“ mit zwei Punkten. Merkhilfe: Man setzt seine Kraft (力) für (wèi) jemanden ein. Nicht mit 办 (bàn) „erledigen“ verwechseln, wo die Punkte links und rechts von 力 stehen. wèi „für, wegen“: 因为 (yīnwèi) „weil“, 为什么 (wèishénme) „warum“, 为了 (wèile) „um … zu“. wéi „sein, als“: 认为 (rènwéi) „meinen“, 成为 (chéngwéi) „werden“, 以为 (yǐwéi) „(irrtümlich) glauben“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4293,20 +4859,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "wèi",
-        "meaning": "Platz; Zaehlwort (Personen)"
+        "meaning": "Platz; Stelle; Position; Sitz; Rang; Stellung; Stelle (einer Zahl); höfliches Zählwort für Personen"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "人",
     "radicalForm": "亻",
     "components": [
       {
         "part": "亻",
+        "role": "semantic",
         "meaning": "Mensch"
       },
       {
         "part": "立",
+        "role": "semantic",
         "meaning": "stehen"
       }
     ],
@@ -4327,6 +4894,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "384.010:wèi | wèi(1252)",
       "etymology": "ideographic: The place where a person 亻 stands 立",
       "old": "Platz; Zaehlwort (Personen)"
+    },
+    "notes": "位 ist ein Bedeutungszeichen aus 亻 „Mensch“ und 立 „stehen“: der Platz, an dem jemand steht – ursprünglich der Rang eines Beamten bei Hofe. Merkhilfe: Wo ein Mensch (亻) steht (立), ist sein Platz. Als Zählwort ist 位 höflicher als 个: 这位老师 (zhè wèi lǎoshī) „dieser Lehrer“, 几位 (jǐ wèi) „wie viele Personen?“ im Restaurant, 各位 (gèwèi) „meine Damen und Herren“. Weitere Wörter: 座位 (zuòwèi) „Sitzplatz“, 单位 (dānwèi) „Arbeitsstelle; Einheit“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4338,19 +4911,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "wǔ",
-        "meaning": "Tanz; tanzen"
+        "meaning": "tanzen; Tanz; schwingen (Schwert u. Ä.); schwenken"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 14,
     "primaryRadical": "舛",
     "components": [
       {
-        "part": "無"
+        "part": "無",
+        "role": "phonetic",
+        "meaning": "nicht haben (Laut wú; hier ohne die vier Punkte)"
       },
       {
         "part": "舛",
-        "meaning": "gegensaetzlich"
+        "role": "semantic",
+        "meaning": "zwei Füße (gegeneinander)"
       }
     ],
     "words": [
@@ -4370,6 +4945,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "389.210:wǔ | wǔ(204)",
       "etymology": "ideographic: A hand 舛 holding a fan",
       "old": "Tanz; tanzen"
+    },
+    "notes": "舞 und 無 waren ursprünglich ein Zeichen: ein Mensch, der mit Schmuck in den Händen tanzt. Als 無 (wú) für „nicht haben“ entlehnt wurde, bekam „tanzen“ unten 舛, zwei Füße in Bewegung; der obere Teil (無 ohne die vier Punkte) gibt nun den Laut. Merkhilfe: Oben die schwingenden Arme, unten zwei tanzende Füße (舛). Wörter: 跳舞 (tiàowǔ) „tanzen“, 舞台 (wǔtái) „Bühne“, 舞蹈 (wǔdǎo) „Tanz“, 鼓舞 (gǔwǔ) „ermutigen“. Nicht mit 午 (wǔ) „Mittag“ verwechseln.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4381,18 +4962,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "xī",
-        "meaning": "hoffen"
+        "meaning": "hoffen; erhoffen; selten (gehoben)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "巾",
     "components": [
       {
-        "part": "㐅"
+        "part": "㐅",
+        "role": "form",
+        "meaning": "gekreuzte Fäden (Webmuster)"
       },
       {
-        "part": "布"
+        "part": "布",
+        "role": "form",
+        "meaning": "Tuch; Stoff"
       }
     ],
     "words": [
@@ -4407,6 +4991,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       ],
       "unihan": "391.060:xī | xī(321)",
       "old": "hoffen"
+    },
+    "notes": "希 besteht aus 㐅 (gekreuzte Fäden) über 布 „Tuch“. Eine verbreitete Deutung: ein locker gewebtes Tuch – daraus „dünn, selten“ (heute 稀 xī mit 禾) und weiter „ersehnen, was selten ist“. Merkhilfe: Man hofft auf ein Tuch (布) mit feinem Kreuzmuster (㐅). Fast nur in 希望 (xīwàng) „hoffen; Hoffnung“; außerdem lautlich in 希腊 (Xīlà) „Griechenland“. Nicht mit 布 (bù) „Stoff“ verwechseln: Nur 希 hat oben die Kreuzstriche.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4418,10 +5008,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "xǐ",
-        "meaning": "waschen"
+        "meaning": "waschen; spülen; baden; (Fotos) entwickeln; (Karten) mischen; reinwaschen; plündern (in Wörtern)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 9,
     "primaryRadical": "水",
     "radicalForm": "氵",
@@ -4433,7 +5022,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       },
       {
         "part": "先",
-        "role": "phonetic"
+        "role": "phonetic",
+        "meaning": "zuerst (Laut xiān)"
       }
     ],
     "words": [
@@ -4453,6 +5043,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "394.100:xǐ 398.170:xiǎn | xǐ(288)",
       "etymology": "pictophonetic: water",
       "old": "waschen"
+    },
+    "notes": "洗 besteht aus 氵 „Wasser“ als Bedeutungsträger und 先 (xiān) als Lautträger mit gleichem Anlaut. Merkhilfe: Zuerst (先) mit Wasser (氵) waschen – vor dem Essen die Hände. Nicht mit 选 (xuǎn) „wählen“ verwechseln, wo 先 mit 辶 verbunden ist. Wörter: 洗手间 (xǐshǒujiān) „Toilette“, 洗澡 (xǐzǎo) „duschen, baden“, 洗衣机 (xǐyījī) „Waschmaschine“, 洗碗 (xǐ wǎn) „abspülen“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4464,18 +5060,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "xiào",
-        "meaning": "lachen; lächeln"
+        "meaning": "lachen; lächeln; auslachen; sich lustig machen über"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 10,
     "primaryRadical": "竹",
     "components": [
       {
-        "part": "𥫗"
+        "part": "𥫗",
+        "role": "form",
+        "meaning": "Bambus"
       },
       {
-        "part": "夭"
+        "part": "夭",
+        "role": "form",
+        "meaning": "Mensch mit geneigtem Kopf"
       }
     ],
     "words": [
@@ -4495,6 +5094,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "404.080:xiào | xiào(1403)",
       "etymology": "ideographic: A person 夭 with a big grin ⺮",
       "old": "lachen; lächeln"
+    },
+    "notes": "笑 besteht aus 𥫗 „Bambus“ oben und 夭 (yāo), einem Menschen mit geneigtem Kopf. Die Herkunft ist umstritten; eine alte Deutung sieht Bambus, der sich im Wind biegt wie ein Mensch, der sich vor Lachen krümmt. Merkhilfe: Der Bambus raschelt, als würde er kichern. Nicht mit 天 (tiān) „Himmel“ verwechseln: 夭 beginnt mit einem Schrägstrich statt eines Querstrichs. Wörter: 微笑 (wēixiào) „lächeln“, 笑话 (xiàohua) „Witz“, 开玩笑 (kāi wánxiào) „scherzen“, 可笑 (kěxiào) „lächerlich“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4506,10 +5111,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "xìng",
-        "meaning": "Nachname"
+        "meaning": "Familienname; Nachname; mit Familiennamen heißen"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 8,
     "primaryRadical": "女",
     "components": [
@@ -4521,7 +5125,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "生",
         "role": "phonetic",
-        "meaning": "geboren"
+        "meaning": "geboren werden (Laut shēng)"
       }
     ],
     "words": [
@@ -4541,6 +5145,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "409.160:xìng | xìng(232)",
       "etymology": "pictophonetic: woman",
       "old": "Nachname"
+    },
+    "notes": "姓 besteht aus 女 „Frau“ als Bedeutungsträger und 生 (shēng) als Lautträger, das zugleich „geboren werden“ bedeutet: der Name der Sippe, aus der man geboren ist. Mehrere sehr alte Familiennamen enthalten 女, etwa 姜 (Jiāng) und 姬 (Jī). Merkhilfe: Von einer Frau (女) geboren (生) – mit dem Namen der Familie. Satzmuster: 我姓王 (wǒ xìng Wáng) „ich heiße Wang“, 您贵姓 (nín guìxìng) „wie ist Ihr werter Name?“. Nicht mit 性 (xìng) „Geschlecht; Charakter“ verwechseln, das links 忄 hat.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4552,10 +5162,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "yán",
-        "meaning": "Farbe; Gesicht"
+        "meaning": "Farbe; Gesicht; Miene; Ansehen, Ehre (Gesicht wahren); Yan (Familienname)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 15,
     "primaryRadical": "頁",
     "radicalForm": "页",
@@ -4563,12 +5172,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "彦",
         "role": "phonetic",
-        "meaning": "tugendhaft"
+        "meaning": "gebildeter Mann (Laut yàn)"
       },
       {
         "part": "页",
         "role": "semantic",
-        "meaning": "Seite"
+        "meaning": "Kopf (heute meist „Seite“)"
       }
     ],
     "words": [
@@ -4588,6 +5197,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "422.160:yán | yán(132)",
       "etymology": "pictophonetic: head",
       "old": "Farbe; Gesicht"
+    },
+    "notes": "颜 verbindet 彦 (yàn) links als Lautträger mit 页 rechts, das ursprünglich „Kopf“ bedeutet – daher der Bezug zum Gesicht. Aus „Gesicht, Gesichtsfarbe“ entwickelte sich die heute häufigste Bedeutung „Farbe“ in 颜色 (yánsè). Merkhilfe: Am Kopf (页) sieht man jedem die Farbe an – rot vor Scham, blass vor Angst. Im übertragenen Sinn steht 颜 für das „Gesicht“ als Ansehen: 颜面 (yánmiàn) „Gesicht, Ehre“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4599,10 +5214,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "yǎn",
-        "meaning": "Auge"
+        "meaning": "Auge; Blick; kleines Loch; Öffnung; springender Punkt; Zählwort für Brunnen, Höhlenwohnungen u. Ä."
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 11,
     "primaryRadical": "目",
     "components": [
@@ -4614,7 +5228,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "艮",
         "role": "phonetic",
-        "meaning": "hart"
+        "meaning": "hart, widerspenstig (Laut gèn)"
       }
     ],
     "words": [
@@ -4634,6 +5248,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "423.110:yǎn | yǎn(2215)",
       "etymology": "pictophonetic: eye",
       "old": "Auge"
+    },
+    "notes": "眼 besteht aus 目 „Auge“ als Bedeutungsträger und 艮 (gèn) als Lautträger; der Lautbezug stammt aus älterem Chinesisch und ist heute nur noch schwach erkennbar. Merkhilfe: Das Auge (目) schaut starr (艮) geradeaus. Im Alltag sagt man meist 眼睛 (yǎnjing) „Auge“; 眼镜 (yǎnjìng) ist die „Brille“. Dasselbe 艮 steckt in 很 (hěn), 跟 (gēn), 根 (gēn) und 银 (yín) – bei 眼 zeigt das 目 links die Bedeutung.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4645,10 +5265,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "yào",
-        "meaning": "Medizin; Arznei"
+        "meaning": "Arznei; Medikament; Medizin; chemisches Mittel (z. B. Pulver, Gift); vergiften"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 9,
     "primaryRadical": "艸",
     "radicalForm": "艹",
@@ -4656,11 +5275,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "艹",
         "role": "semantic",
-        "meaning": "Gras"
+        "meaning": "Gras, Pflanze"
       },
       {
         "part": "约",
-        "role": "phonetic"
+        "role": "phonetic",
+        "meaning": "verabreden; ungefähr (Laut yuē)"
       }
     ],
     "words": [
@@ -4680,6 +5300,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "428.110:yào | yào(407)",
       "etymology": "pictophonetic: plant",
       "old": "Medizin; Arznei"
+    },
+    "notes": "药 besteht aus 艹 „Pflanze“ als Bedeutungsträger und 约 (yuē) als Lautträger; die Langform 藥 hat stattdessen 樂 (yuè/yào) unter dem Gras. Merkhilfe: Heilmittel waren früher vor allem Kräuter (艹) – und mit dem Arzt hat man einen Termin vereinbart (约). „Medizin nehmen“ heißt 吃药 (chī yào), die Apotheke 药店 (yàodiàn), chinesische Arznei 中药 (zhōngyào). 药 kann auch ein chemisches Mittel sein: 火药 (huǒyào) „Schießpulver“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4691,14 +5317,13 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "yé",
-        "meaning": "Großpapa, Großvater, Opa"
+        "meaning": "Großvater; Opa; Anrede für ältere Männer; Herr (früher Anrede für Beamte und Vornehme)"
       },
       {
         "pinyin": "ye",
-        "meaning": ""
+        "meaning": "neutraler Ton als zweite Silbe von Anreden (Opa; Onkel; Herr)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 6,
     "primaryRadical": "父",
     "components": [
@@ -4709,7 +5334,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       },
       {
         "part": "卩",
-        "meaning": "Siegel"
+        "role": "form",
+        "meaning": "Siegel; kniende Person"
       }
     ],
     "words": [
@@ -4728,6 +5354,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       ],
       "unihan": "429.070:yé | ye(671) yé(281)",
       "etymology": "pictophonetic: father"
+    },
+    "notes": "爷 hat oben 父 „Vater“ als Bedeutungsträger; das 卩 darunter ist eine Vereinfachung – die Langform 爺 hat dort 耶 (yé) als Lautträger. Merkhilfe: Der „Vater“ (父) des Vaters, vor dem man respektvoll das Knie beugt (卩), ist der Großvater. Als zweite Silbe ist der Ton neutral: 爷爷 (yéye) „Opa (väterlicherseits)“, 姥爷 (lǎoye) „Opa (mütterlicherseits)“, 大爷 (dàye) „Onkel“ als Anrede für ältere Männer. Nicht verwechseln mit 斧 (fǔ, „Axt“), das unter 父 ein 斤 hat.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4739,25 +5371,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "yǐ",
-        "meaning": "bereits; schon"
+        "meaning": "bereits; schon; aufhören; enden (gehoben); danach (gehoben)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 3,
     "primaryRadical": "己",
-    "components": [
-      {
-        "part": "乚",
-        "meaning": "zweiter Himmelsstamm"
-      },
-      {
-        "part": "𠃍"
-      },
-      {
-        "part": "一",
-        "meaning": "eins, horizontal"
-      }
-    ],
+    "components": [],
     "words": [
       "w:已经:yi3jing1",
       "w:已:yi3",
@@ -4774,6 +5393,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       ],
       "unihan": "432.180:yǐ | yǐ(2107)",
       "old": "bereits; schon"
+    },
+    "notes": "已 ist ein einfaches Zeichen aus drei Strichen, das sich nicht sinnvoll in Bestandteile zerlegen lässt; die Bedeutung „bereits“ ist entlehnt – das Zeichen wurde für ein gleich klingendes Wort verwendet – und hat keinen bildlichen Bezug. Wichtig ist die Unterscheidung von drei ähnlichen Zeichen: 己 (jǐ, „selbst“) ist oben offen, bei 已 (yǐ) reicht der senkrechte Strich halb hinauf, 巳 (sì, sechster Erdzweig) ist ganz geschlossen. Merkhilfe: „己 offen, 已 halb, 巳 ganz zu“ – was „bereits“ halb geschlossen ist, ist schon im Gang. Häufig in 已经 (yǐjīng) „schon“, 而已 (éryǐ) „nur, weiter nichts“ und 不已 (bùyǐ) „unaufhörlich“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4785,17 +5410,16 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "yì",
-        "meaning": "Bedeutung; Absicht"
+        "meaning": "Bedeutung; Sinn; Gedanke; Idee; Absicht; Wunsch; Gefühl, Stimmung; Italien (Kurzform)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 13,
     "primaryRadical": "心",
     "components": [
       {
         "part": "音",
-        "role": "phonetic",
-        "meaning": "Klang"
+        "role": "semantic",
+        "meaning": "Laut, Stimme"
       },
       {
         "part": "心",
@@ -4820,6 +5444,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "435.110:yì | yì(2098) yi(450)",
       "etymology": "pictophonetic: heart",
       "old": "Bedeutung; Absicht"
+    },
+    "notes": "意 setzt 音 „Laut, Stimme“ (aus 立 und 日) auf 心 „Herz“; traditionell wird es als Bedeutungskombination gedeutet: Aus dem, was jemand sagt, erkennt man, was er im Herzen meint. Merkhilfe: 意 ist die „Stimme des Herzens“ – Gedanke, Absicht, Bedeutung. Sehr häufig in 意思 (yìsi) „Bedeutung“, 有意思 (yǒu yìsi) „interessant“, 注意 (zhùyì) „aufpassen“ und 满意 (mǎnyì) „zufrieden“. Als Abkürzung steht 意 für Italien: 意大利 (Yìdàlì).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4831,20 +5461,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "yīn",
-        "meaning": "Ursache; weil"
+        "meaning": "Ursache; Grund; weil; wegen; aufgrund; folgen, sich stützen auf (gehoben)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 6,
     "primaryRadical": "囗",
     "components": [
       {
         "part": "囗",
-        "meaning": "Umzäunung"
+        "role": "form",
+        "meaning": "Umrandung"
       },
       {
         "part": "大",
-        "meaning": "gross"
+        "role": "form",
+        "meaning": "groß; Mensch mit ausgebreiteten Armen"
       }
     ],
     "words": [
@@ -4863,6 +5494,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       ],
       "unihan": "436.070:yīn | yīn(1919)",
       "old": "Ursache; weil"
+    },
+    "notes": "因 zeigt einen Menschen (大) in einem Rahmen (囗); nach verbreiteter Deutung ist es eine Person, die auf einer Matte liegt – „sich stützen auf“, daraus „Grund, Ursache“. Merkhilfe: Wer groß (大) ist und trotzdem eingesperrt (囗), fragt nach dem Grund. Am häufigsten in 因为 (yīnwèi) „weil“, 原因 (yuányīn) „Ursache“ und 因此 (yīncǐ) „deshalb“. Nicht verwechseln: in 困 (kùn, „müde, in Not“) steckt 木, in 囚 (qiú, „Gefangener“) steckt 人, in 因 steckt 大.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4874,20 +5511,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "yīn",
-        "meaning": "bewölkt; schattig"
+        "meaning": "bewölkt; bedeckt; schattig; Schattenseite; Yin (Gegenprinzip zu Yang); Mond- (z. B. Mondkalender); verborgen; heimtückisch; negativ (Ladung, Test)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 6,
     "primaryRadical": "阜",
     "components": [
       {
         "part": "阝",
+        "role": "semantic",
         "meaning": "Hügel"
       },
       {
         "part": "月",
-        "meaning": "Fleisch"
+        "role": "semantic",
+        "meaning": "Mond"
       }
     ],
     "words": [
@@ -4907,6 +5545,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "436.080:yīn | yīn(148)",
       "etymology": "ideographic: The place 阝 of the moon 月; compare 阳",
       "old": "bewölkt; schattig"
+    },
+    "notes": "阴 verbindet 阝 „Hügel“ (links stehend, aus 阜) mit 月 „Mond“; die Langform 陰 hatte rechts den Lautträger 侌 (yīn), die Kurzform zeigt die Bedeutung direkt. Ursprünglich ist 阴 die schattige Nordseite eines Hügels. Merkhilfe: Wo am Hügel (阝) nur der Mond (月) scheint, ist es schattig und trüb. Das Gegenstück 阳 (yáng) hat 日 „Sonne“: 阴天 (yīntiān) „bewölkter Tag“, 阴历 (yīnlì) „Mondkalender“, 阴谋 (yīnmóu) „Verschwörung“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4918,10 +5562,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "yǒng",
-        "meaning": "schwimmen"
+        "meaning": "schwimmen; Schwimmstil (meist in Wörtern)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 8,
     "primaryRadical": "水",
     "radicalForm": "氵",
@@ -4934,7 +5577,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "永",
         "role": "phonetic",
-        "meaning": "ewig"
+        "meaning": "ewig (Laut yǒng)"
       }
     ],
     "words": [
@@ -4951,6 +5594,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "442.030:yǒng | yǒng(17)",
       "etymology": "pictophonetic: water",
       "old": "schwimmen"
+    },
+    "notes": "泳 besteht aus 氵 „Wasser“ als Bedeutungsträger und 永 (yǒng) als Lautträger – Laut und Ton stimmen genau überein. Merkhilfe: Wer „ewig“ (永) im Wasser (氵) bleiben will, muss schwimmen. 泳 steht fast nur in Wörtern: 游泳 (yóuyǒng) „schwimmen“, 游泳池 (yóuyǒngchí) „Schwimmbecken“, 蛙泳 (wāyǒng) „Brustschwimmen“. Nicht verwechseln: 永 hat oben einen Punkt und unterscheidet sich so von 水 (shuǐ).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -4963,20 +5612,22 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "yóu",
-        "meaning": "schwimmen; reisen"
+        "meaning": "schwimmen; reisen; umherziehen; spazieren gehen; Flussabschnitt (Ober-, Unterlauf); You (Familienname)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 12,
     "primaryRadical": "水",
     "radicalForm": "氵",
     "components": [
       {
         "part": "氵",
+        "role": "semantic",
         "meaning": "Wasser"
       },
       {
-        "part": "斿"
+        "part": "斿",
+        "role": "phonetic",
+        "meaning": "flatternde Fahnenbänder (Laut yóu)"
       }
     ],
     "words": [
@@ -4996,6 +5647,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "443.160:yóu | yóu(364)",
       "etymology": "ideographic: To swim freely 斿 through the seas 氵",
       "old": "schwimmen; reisen"
+    },
+    "notes": "游 besteht aus 氵 „Wasser“ und 斿 (yóu), einer im Wind flatternden Fahne (aus 方, 𠂉 und 子), die den Laut gibt. In Langzeichen unterscheidet man 游 „schwimmen“ und 遊 mit 辶 „reisen, umherziehen“; die Kurzschrift verwendet für beides 游. Merkhilfe: Das Kind (子) unter der Fahne zieht frei umher – im Wasser (氵) schwimmt es, an Land reist es. Häufig in 旅游 (lǚyóu) „reisen“, 游泳 (yóuyǒng) „schwimmen“, 游戏 (yóuxì) „Spiel“ und 游客 (yóukè) „Tourist“; in 上游 (shàngyóu) bedeutet es „Oberlauf“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -5007,18 +5664,20 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "yòu",
-        "meaning": "rechts"
+        "meaning": "rechts; rechte Seite; (Politik) rechts, konservativ; westlich (alt)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 5,
     "primaryRadical": "口",
     "components": [
       {
-        "part": "𠂇"
+        "part": "𠂇",
+        "role": "form",
+        "meaning": "Hand"
       },
       {
         "part": "口",
+        "role": "form",
         "meaning": "Mund"
       }
     ],
@@ -5038,6 +5697,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       ],
       "unihan": "444.180:yòu | yòu(490)",
       "old": "rechts"
+    },
+    "notes": "右 besteht aus einer Hand oben (𠂇, eine Form von 又 „rechte Hand“) und 口 „Mund“ darunter; ursprünglich bedeutete es „helfen“ (heute 佑 yòu), „rechts“ kommt von der rechten Hand. Merkhilfe: Mit der rechten Hand führt man das Essen zum Mund (口). Das Gegenstück 左 (zuǒ, „links“) hat unten 工 statt 口. Achtung Strichfolge: 右 beginnt mit dem Schrägstrich 丿, 左 mit dem Querstrich 一. 左右 (zuǒyòu) heißt auch „ungefähr“; 右边 (yòubian) ist „rechts, rechte Seite“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -5049,24 +5714,27 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "yú",
-        "meaning": "Fisch"
+        "meaning": "Fisch; Name mancher Wassertiere (z. B. Krokodil, Wal); Yu (Familienname)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 8,
     "primaryRadical": "魚",
     "radicalForm": "鱼",
     "components": [
       {
-        "part": "⺈"
+        "part": "⺈",
+        "role": "form",
+        "meaning": "Kopf des Fisches"
       },
       {
         "part": "田",
-        "meaning": "Feld, Acker"
+        "role": "form",
+        "meaning": "Körper mit Schuppen"
       },
       {
         "part": "一",
-        "meaning": "eins, horizontal"
+        "role": "form",
+        "meaning": "Schwanzflosse"
       }
     ],
     "words": [
@@ -5086,6 +5754,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "446.070:yú | yú(538)",
       "etymology": "pictographic: A fish swimming upwards",
       "old": "Fisch"
+    },
+    "notes": "鱼 ist ein Bild: oben der Kopf (⺈), in der Mitte der geschuppte Körper (das „Feld“ 田) und unten der Schwanz; in der Langform 魚 sind es vier Punkte (灬), die nichts mit Feuer zu tun haben. Merkhilfe: Der Fisch schwimmt senkrecht nach oben, das 田 sind seine Schuppen. Als Radikal steht 鱼 in Fischnamen meist links wie in 鲤 (lǐ, „Karpfen“), in 鲨 (shā, „Hai“) dagegen unten; 鳄鱼 (èyú) „Krokodil“ zeigt, dass auch Nicht-Fische so heißen können. Nicht verwechseln mit 渔 (yú, „fischen“) mit 氵, etwa in 渔民 (yúmín) „Fischer“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -5097,10 +5771,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "yuǎn",
-        "meaning": "weit; fern"
+        "meaning": "weit; fern; entfernt; weitläufig (Verwandtschaft); bei Weitem; sich fernhalten von"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "辵",
     "radicalForm": "辶",
@@ -5108,12 +5781,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "辶",
         "role": "semantic",
-        "meaning": "gehen"
+        "meaning": "gehen, Weg"
       },
       {
         "part": "元",
         "role": "phonetic",
-        "meaning": "Ursprung"
+        "meaning": "Ursprung; Yuan (Laut yuán)"
       }
     ],
     "words": [
@@ -5133,6 +5806,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "452.050:yuǎn | yuǎn(1036)",
       "etymology": "pictophonetic: walk",
       "old": "weit; fern"
+    },
+    "notes": "远 besteht aus 辶 „gehen“ als Bedeutungsträger und 元 (yuán) als Lautträger; die Langform 遠 hatte 袁 (yuán), ebenfalls mit dem Laut yuán. Merkhilfe: Ein weiter Weg (辶) kostet viele Yuan (元). Das Gegenteil 近 (jìn, „nah“) hat ebenfalls 辶, aber 斤 (jīn) als Lautträger. Nicht verwechseln mit 运 (yùn): dort steht 云 statt 元. Häufig in 永远 (yǒngyuǎn) „für immer“ und 远离 (yuǎnlí) „sich fernhalten“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -5144,10 +5823,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "yùn",
-        "meaning": "bewegen; transportieren"
+        "meaning": "bewegen; transportieren; befördern; einsetzen, anwenden; Glück; Schicksal"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "辵",
     "radicalForm": "辶",
@@ -5155,12 +5833,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "辶",
         "role": "semantic",
-        "meaning": "gehen"
+        "meaning": "gehen, Bewegung"
       },
       {
         "part": "云",
         "role": "phonetic",
-        "meaning": "Wolke"
+        "meaning": "Wolke (Laut yún)"
       }
     ],
     "words": [
@@ -5180,6 +5858,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "454.260:yùn | yùn(1192)",
       "etymology": "pictophonetic: walk",
       "old": "bewegen; transportieren"
+    },
+    "notes": "运 besteht aus 辶 „gehen, Bewegung“ als Bedeutungsträger und 云 (yún) als Lautträger; die Langform 運 hatte 軍 (jūn). Merkhilfe: Wolken (云) ziehen ständig weiter (辶) – 运 heißt „bewegen, befördern“. Häufig in 运动 (yùndòng) „Sport, Bewegung“ und 运输 (yùnshū) „Transport“; die Bedeutung „Glück, Schicksal“ zeigt sich in 幸运 (xìngyùn) „Glück haben“ und 好运 (hǎoyùn) „viel Glück“. Nicht verwechseln mit 远 (yuǎn): dort steht 元 statt 云.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -5191,10 +5875,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "zhàn",
-        "meaning": "stehen; Station"
+        "meaning": "stehen; stehen bleiben; anhalten; Station; Haltestelle; Bahnhof; Dienststelle; Website (in Wörtern)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 10,
     "primaryRadical": "立",
     "components": [
@@ -5206,7 +5889,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "占",
         "role": "phonetic",
-        "meaning": "besetzen"
+        "meaning": "einnehmen, besetzen (Laut zhàn)"
       }
     ],
     "words": [
@@ -5226,6 +5909,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "465.110:zhàn | zhàn(1100)",
       "etymology": "pictophonetic: stand",
       "old": "stehen; Station"
+    },
+    "notes": "站 besteht aus 立 „stehen“ als Bedeutungsträger und 占 (zhàn) als Lautträger – Laut und Ton stimmen überein. Merkhilfe: Wer einen Platz besetzt (占) und dort steht (立), wartet an der Haltestelle. Als Verb heißt 站 „stehen“: 站起来 (zhàn qǐlai) „aufstehen“; als Nomen „Station“: 车站 (chēzhàn) „Bahnhof, Haltestelle“, 加油站 (jiāyóuzhàn) „Tankstelle“, 网站 (wǎngzhàn) „Website“. Nicht verwechseln mit 战 (zhàn, „Krieg“), das 占 mit 戈 „Hellebarde“ verbindet.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -5238,33 +5927,17 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "cháng",
-        "meaning": "lang"
+        "meaning": "lang; Länge; Stärke, Vorzug; gut sein in"
       },
       {
         "pinyin": "zhǎng",
-        "meaning": "Älteste, Ältester; Leiter, Chef; älter"
+        "meaning": "wachsen; aufwachsen; zunehmen; älter; ältester; Leiter; Chef; Vorsteher"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 4,
     "primaryRadical": "長",
     "radicalForm": "长",
-    "components": [
-      {
-        "part": "丿",
-        "meaning": "schräger Strich (links)"
-      },
-      {
-        "part": "一",
-        "meaning": "eins, horizontal"
-      },
-      {
-        "part": "𠄌"
-      },
-      {
-        "part": "㇏"
-      }
-    ],
+    "components": [],
     "words": [
       "w:长:chang2",
       "w:长:zhang3",
@@ -5284,6 +5957,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "038.110:cháng 466.110:zhǎng | zhǎng(1879) cháng(1179)",
       "etymology": "ideographic: Simplified form of 長; an old man with long hair and a cane",
       "old": "lang"
+    },
+    "notes": "长 ist die Kurzform von 長, das einen alten Mann mit langen Haaren und Stock darstellt; die vier Striche lassen sich nicht sinnvoll in Bestandteile zerlegen. Merkhilfe: Lange (cháng) Haare wachsen (zhǎng) – und wer am längsten gewachsen ist, ist der Älteste und Chef. cháng „lang“ steht in 长城 (Chángchéng) „Große Mauer“ und 长处 (chángchù) „Stärke“; zhǎng „wachsen, älter, Leiter“ in 长大 (zhǎngdà) „aufwachsen“, 校长 (xiàozhǎng) „Schulleiter“ und 家长 (jiāzhǎng) „Eltern“. Als Lautträger steckt 长 in 张 (zhāng) und 帐 (zhàng).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -5295,21 +5974,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "zhàng",
-        "meaning": "Ehemann; Zhang (Mass)"
+        "meaning": "Zhang (altes Längenmaß, 10 Chi ≈ 3,33 m); vermessen; Ehemann (in Wörtern); Anrede für ältere Männer (gehoben)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 3,
     "primaryRadical": "一",
-    "components": [
-      {
-        "part": "一",
-        "meaning": "eins, horizontal"
-      },
-      {
-        "part": "乂"
-      }
-    ],
+    "components": [],
     "words": [
       "w:丈夫:zhang4fu5",
       "w:一落千丈:yi1luo4qian1zhang4"
@@ -5323,6 +5993,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       ],
       "unihan": "466.150:zhàng | zhàng(112)",
       "old": "Ehemann; Zhang (Mass)"
+    },
+    "notes": "丈 besteht nur aus drei Strichen; nach alter Deutung zeigt es eine Hand (又), die ein Maß von zehn (十) Chi hält – daher das Längenmaß zhàng. Merkhilfe: Ein „Mann“ von zehn Fuß Größe – so stellt man sich den Ehemann im Wort 丈夫 (zhàngfu) vor. Bildhaft: 一落千丈 (yīluò-qiānzhàng) „tausend Zhang tief fallen“, also „jäh abstürzen“. Nicht verwechseln mit 文 (wén), das oben einen Punkt trägt, und mit 大 (dà); als Lautträger steckt 丈 in 仗 (zhàng) und 杖 (zhàng).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -5335,18 +6011,26 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "zhōu",
-        "meaning": "Woche; Umkreis"
+        "meaning": "Woche; Kreis; Umkreis; Runde; ringsum; umsichtig, gründlich; Zhou-Dynastie; Zhou (Familienname)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 8,
     "primaryRadical": "口",
     "components": [
       {
-        "part": "⺆"
+        "part": "冂",
+        "role": "form",
+        "meaning": "Umrandung"
       },
       {
-        "part": "𠮷"
+        "part": "土",
+        "role": "form",
+        "meaning": "Erde"
+      },
+      {
+        "part": "口",
+        "role": "form",
+        "meaning": "Mund; Öffnung"
       }
     ],
     "words": [
@@ -5366,6 +6050,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "481.130:zhōu | zhōu(396)",
       "etymology": "ideographic: Border 冂 around land 土 with a well 口",
       "old": "Woche; Umkreis"
+    },
+    "notes": "周 besteht aus einer Umrandung (冂), in der 土 „Erde“ über 口 steht; die Herkunft ist umstritten, oft wird es als eingefasstes, bestelltes Feld gedeutet. Merkhilfe: Um ein umzäuntes Grundstück (冂) mit Erde (土) und Brunnen (口) geht man einmal ringsum – eine Runde, ein Zyklus, eine Woche. In Langzeichen schreibt man „Woche“ meist 週 mit 辶. Häufig in 周末 (zhōumò) „Wochenende“, 周围 (zhōuwéi) „Umgebung“ und 周到 (zhōudào) „umsichtig“. Als Lautträger steckt 周 in 调 (diào/tiáo) und 绸 (chóu).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -5377,27 +6067,28 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "zhe",
-        "meaning": "Aspektpartikel"
+        "meaning": "Aspektpartikel: andauernder Zustand oder begleitende Handlung (nach Verben)"
       },
       {
         "pinyin": "zháo",
-        "meaning": "berühren; Feuer fangen; in Kontakt kommen"
+        "meaning": "berühren; Feuer fangen; sich etw. zuziehen (z. B. Erkältung); einschlafen (in Wörtern); Erreichen des Ziels (nach Verben)"
       },
       {
         "pinyin": "zhuó",
-        "meaning": ""
+        "meaning": "tragen, anziehen (Kleidung, gehoben); berühren, aufsetzen; ansetzen, in Angriff nehmen; Anhaltspunkt (in Wörtern)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 11,
     "primaryRadical": "目",
     "components": [
       {
         "part": "⺶",
-        "meaning": "Schaf, Ziege"
+        "role": "form",
+        "meaning": "Schaf (Form von 羊)"
       },
       {
         "part": "目",
+        "role": "form",
         "meaning": "Auge"
       }
     ],
@@ -5421,6 +6112,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       ],
       "unihan": "467.160:zhāo 467.180:zháo 470.160:zhe 490.070:zhuó | zhe(10643) zháo(545) zhuó(125) zhāo(15)",
       "old": "Aspektpartikel"
+    },
+    "notes": "着 ist eine Nebenform von 著 (艹 + 者) und sieht heute aus wie ein abgewandeltes 羊 „Schaf“ (⺶) über 目 „Auge“; die Teile geben weder Laut noch Bedeutung. Merkhilfe: Das Auge (目) bleibt am Schaf hängen – der Blick „haftet“, der Zustand dauert an. Drei Lesungen: zhe als Partikel nach Verben, etwa 看着 (kànzhe) „beim Anschauen“ und 接着 (jiēzhe) „anschließend“; zháo in 着急 (zháojí) „besorgt, ungeduldig“, 睡着 (shuìzháo) „einschlafen“ und 着火 (zháohuǒ) „Feuer fangen“; zhuó in 着陆 (zhuólù) „landen“ und 沉着 (chénzhuó) „gelassen“. Nicht verwechseln mit 差 (chà), das unter dem Schaf 工 hat, und mit 看 (kàn).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -5433,22 +6130,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "zhǔn",
-        "meaning": "erlauben; genau"
+        "meaning": "erlauben; gestatten; genau; exakt; sicher, bestimmt; Norm, Maßstab; angehend, werdend (Vorsilbe)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 10,
     "primaryRadical": "冫",
     "components": [
       {
         "part": "冫",
-        "role": "semantic",
-        "meaning": "Eis"
+        "role": "form",
+        "meaning": "Eis (hier verkürztes 氵 „Wasser“)"
       },
       {
         "part": "隹",
-        "role": "phonetic",
-        "meaning": "Vogel"
+        "role": "form",
+        "meaning": "kurzschwänziger Vogel (Rest von 隼 sǔn)"
       }
     ],
     "words": [
@@ -5468,6 +6164,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "489.050,489.060:zhǔn | zhǔn(897)",
       "etymology": "pictophonetic: water in a spirit level",
       "old": "erlauben; genau"
+    },
+    "notes": "准 ist eine verkürzte Form von 準 (氵 „Wasser“ + 隼 sǔn), das ursprünglich die Wasserwaage meinte – daher „genau, Maßstab“; die Kurzschrift verwendet 准 heute für alle Bedeutungen. Das 冫 ist hier kein „Eis“, sondern ein verkürztes Wasser; 隹 ist der Rest des alten Lautträgers 隼. Merkhilfe: Die Wasserwaage (冫) zeigt genau, ob der Vogel (隹) gerade sitzt. Häufig in 准备 (zhǔnbèi) „vorbereiten“, 标准 (biāozhǔn) „Standard“, 准确 (zhǔnquè) „genau“ und 准时 (zhǔnshí) „pünktlich“; 不准 (bù zhǔn) heißt „nicht erlaubt“. Nicht verwechseln mit 谁 (shéi), das 讠 statt 冫 hat.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -5479,22 +6181,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "zì",
-        "meaning": "selbst; von"
+        "meaning": "selbst; selber; eigen; von; aus; seit; natürlich, von selbst"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 6,
     "primaryRadical": "自",
-    "components": [
-      {
-        "part": "丿",
-        "meaning": "schräger Strich (links)"
-      },
-      {
-        "part": "目",
-        "meaning": "Auge"
-      }
-    ],
+    "components": [],
     "words": [
       "w:自己:zi4ji3",
       "w:来自:lai2zi4",
@@ -5512,6 +6204,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "492.130:zì | zì(4664)",
       "etymology": "pictographic: A nose; in China, people refer to themselves by pointing to their noses",
       "old": "selbst; von"
+    },
+    "notes": "自 ist ein Bild der Nase: oben ein kurzer Strich, darunter eine Form wie 目; das Zeichen wird nicht weiter zerlegt. Merkhilfe: Wer auf sich selbst zeigt, deutet in China oft auf die eigene Nase – daher „selbst“. Die alte Bedeutung „Nase“ steckt noch in 鼻 (bí), das oben 自 trägt. Häufig in 自己 (zìjǐ) „selbst“, 自行车 (zìxíngchē) „Fahrrad“, 自然 (zìrán) „Natur, natürlich“ und 来自 (láizì) „stammen aus“. Nicht verwechseln mit 目 (mù, „Auge“), 白 (bái, „weiß“) und 百 (bǎi, „hundert“).",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -5523,19 +6221,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "zǒu",
-        "meaning": "gehen; laufen"
+        "meaning": "gehen; laufen; weggehen; abfahren; sich bewegen, fahren; funktionieren, laufen (Uhr); durchsickern; besuchen (Verwandte, Freunde)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "走",
     "components": [
       {
         "part": "土",
-        "meaning": "Erde"
+        "role": "form",
+        "meaning": "Erde (hier umgeformter laufender Mensch)"
       },
       {
-        "part": "龰"
+        "part": "龰",
+        "role": "form",
+        "meaning": "Fuß (Form von 止)"
       }
     ],
     "words": [
@@ -5555,6 +6255,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "494.040:zǒu | zǒu(3176)",
       "etymology": "ideographic: Someone 土 stepping with their foot 止",
       "old": "gehen; laufen"
+    },
+    "notes": "走 zeigte ursprünglich einen Menschen mit schwingenden Armen über einem Fuß (止) – daher die alte Bedeutung „rennen“; der obere Teil hat sich zu 土 verändert. Merkhilfe: Der Fuß (龰) geht über die Erde (土). Im modernen Chinesisch heißt 走 „gehen“ und „weggehen“: 我走了 (wǒ zǒu le) „ich gehe jetzt“, 走路 (zǒu lù) „zu Fuß gehen“. Als Radikal bildet 走 die Grundlage von 起 (qǐ), 超 (chāo) und 越 (yuè). Nicht verwechseln mit 足 (zú, „Fuß“), das oben 口 statt 土 hat.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -5566,19 +6272,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "zú",
-        "meaning": "Fuß; genügen; genug"
+        "meaning": "Fuß; Bein; genügen; genug; ausreichend; voll, ganze (Zeitspanne, Menge); wert sein (gehoben)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "足",
     "components": [
       {
         "part": "口",
-        "meaning": "Mund"
+        "role": "form",
+        "meaning": "Kniescheibe, Bein (kein „Mund“)"
       },
       {
-        "part": "龰"
+        "part": "龰",
+        "role": "form",
+        "meaning": "Fuß (Form von 止)"
       }
     ],
     "words": [
@@ -5597,6 +6305,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       ],
       "unihan": "494.090:zú | zú(310)",
       "etymology": "pictographic: The leg 口 above the foot"
+    },
+    "notes": "足 ist ein Bild des Beins: das 口 oben steht für Knie oder Wade, darunter der Fuß (龰, aus 止). Merkhilfe: Wer zwei Füße hat, hat „genug“, um überallhin zu kommen. Als Radikal links in Bewegungszeichen wird es zu 𧾷: 跑 (pǎo, „rennen“), 跳 (tiào, „springen“), 路 (lù, „Weg“). Häufig in 足球 (zúqiú) „Fußball“, 满足 (mǎnzú) „zufriedenstellen“, 不足 (bùzú) „unzureichend“ und 足够 (zúgòu) „genug“. Nicht verwechseln mit 走 (zǒu), das oben 土 hat.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -5608,18 +6322,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "zuì",
-        "meaning": "am meisten; Superlativ"
+        "meaning": "am meisten; am …-sten (Superlativ); äußerst; Spitze, Nummer eins"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 12,
     "primaryRadical": "冂",
     "components": [
       {
-        "part": "冃"
+        "part": "曰",
+        "role": "form",
+        "meaning": "sagen (hier ursprünglich 冃 „bedecken“)"
       },
       {
-        "part": "取"
+        "part": "取",
+        "role": "semantic",
+        "meaning": "nehmen, holen"
       }
     ],
     "words": [
@@ -5639,6 +6356,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "495.140:zuì | zuì(2100)",
       "etymology": "ideographic: To take place 取 under the sun 日 (that is, everywhere)",
       "old": "am meisten; Superlativ"
+    },
+    "notes": "最 besteht aus einem flachen 曰 oben, das historisch auf 冃 „bedecken“ zurückgeht, und 取 „nehmen“ darunter. Merkhilfe: Wer oben (曰) alles an sich nimmt (取), hat am meisten – 最 ist das Allerbeste. Vor Adjektiven und Verben bildet 最 den Superlativ: 最好 (zuìhǎo) „am besten“, 最大 (zuìdà) „am größten“; dazu 最后 (zuìhòu) „zuletzt“ und 最近 (zuìjìn) „in letzter Zeit“. In 取 steckt 耳 „Ohr“ und 又 „Hand“: Krieger schnitten früher dem Feind ein Ohr ab.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   },
   {
@@ -5650,19 +6373,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "zuǒ",
-        "meaning": "links"
+        "meaning": "links; linke Seite; (Politik) links; östlich (alt); unorthodox, abweichend (gehoben); Zuo (Familienname)"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 5,
     "primaryRadical": "工",
     "components": [
       {
-        "part": "𠂇"
+        "part": "𠂇",
+        "role": "semantic",
+        "meaning": "Hand (linke Hand)"
       },
       {
         "part": "工",
-        "meaning": "Arbeit"
+        "role": "form",
+        "meaning": "Werkzeug; Arbeit"
       }
     ],
     "words": [
@@ -5682,6 +6407,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "496.190:zuǒ | zuǒ(546)",
       "etymology": "pictographic: A left hand; compare 又",
       "old": "links"
+    },
+    "notes": "左 zeigt eine Hand (𠂇) mit einem Werkzeug (工); ursprünglich bedeutete es „helfen, unterstützen“ (heute 佐 zuǒ), „links“ kommt von der linken Hand. Merkhilfe: Die linke Hand hält das Werkzeug (工), die rechte führt das Essen zum Mund – vgl. 右 (yòu) mit 口. Achtung Strichfolge: 左 beginnt mit dem Querstrich 一, 右 mit dem Schrägstrich 丿. 左边 (zuǒbian) heißt „links“, 左右 (zuǒyòu) „links und rechts“ oder „ungefähr“.",
+    "review": {
+      "batch": "h002",
+      "policy": "author+review",
+      "date": "2026-10-10"
     }
   }
 ]);

@@ -9,7 +9,16 @@ const TRADITIONAL = {
   '苹': ['蘋'],        // 苹果 → 蘋果; 苹 itself is a different plant in traditional script
   '钟': ['鐘', '鍾'], // clock/bell and the surname/cup were merged into 钟
   '喂': ['喂', '餵'], // the interjection keeps 喂, "to feed" is 餵
-  '几': ['幾', '几']   // 几 jī "small table" (茶几) is also a traditional character
+  '几': ['幾', '几'], // 几 jī "small table" (茶几) is also a traditional character
+  '须': ['須', '鬚'], // "must" and "beard"
+  '于': ['於', '于'], // 于 is also a traditional character (surname, 于是)
+  '板': ['板', '闆'], // 老闆 "Chef"
+  '才': ['才', '纔'], // 纔 for "erst, gerade erst"
+  '签': ['簽', '籤'], // 籤 for lots, labels, toothpicks
+  '划': ['劃', '划'], // huá "rudern" stays 划
+  '伙': ['夥', '伙'], // 伙 only for 伙食
+  '获': ['獲', '穫'], // 穫 "ernten"
+  '刮': ['刮', '颳']   // 颳 "wehen (Wind)"
 };
 const entries = hanzi.loadHanzi();
 const changes = [];

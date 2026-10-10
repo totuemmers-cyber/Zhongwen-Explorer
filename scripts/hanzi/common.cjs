@@ -50,7 +50,7 @@ function svgStrokeCount(ch) {
 
 // German words written with ae/oe/ue instead of ä/ö/ü (Koenig, Huegel, Gefaess). Real letter sequences stay
 // allowed: aue/eue/que (Frauen, Feuer, Quelle), -uell (aktuell, Duell), and a few loan words and names.
-const UMLAUT_OK = /^(Israel\w*|Michael|Raphael|Aerobic|Poe[st]\w*|Koexist\w*|Oboe\w*|Aloe|Statue\w*|Sequenz\w*|Frequenz\w*|Kongruenz\w*|Influen\w*|Duett\w*|Suez|Manuel\w*|Samuel|[Zz]uerst|[Zz]uerkenn\w*)$/;
+const UMLAUT_OK = /^(Israel\w*|Michael|Raphael|Aerobic|Poe[st]\w*|Koexist\w*|Oboe\w*|Aloe|Statue\w*|Sequenz\w*|Frequenz\w*|Kongruenz\w*|Influen\w*|Duett\w*|Suez|Manuel\w*|Samuel|[Zz]uerst|[Zz]uerkenn\w*|\w*[Bb]arbecue\w*|[Ss]oeben|[Kk]oeffizient\w*)$/;
 function asciiUmlauts(text) {
   return (String(text || '').match(/[A-Za-zÄÖÜäöüß]*(?:ae|oe|ue)[A-Za-zÄÖÜäöüß]*/gi) || []).filter(word => {
     if (UMLAUT_OK.test(word)) return false;
@@ -58,7 +58,7 @@ function asciiUmlauts(text) {
     return pairs.some(pair => {
       const m = pair.match(/(.?)(ae|oe|ue)(.?.?)/i);
       const before = m[1].toLowerCase(), pairText = m[2].toLowerCase(), after = m[3].toLowerCase();
-      if (pairText === 'ue' && (before === 'a' || before === 'e' || before === 'q')) return false;
+      if (pairText === 'ue' && 'aeäqyxj'.includes(before || '-')) return false; // aue, eue, äue, que; pinyin yue, xue, jue
       if (pairText === 'ue' && after.startsWith('ll')) return false;
       if (pairText === 'ae' && before === 'h' && after === 'l') return false; // Michael-like names
       return true;
