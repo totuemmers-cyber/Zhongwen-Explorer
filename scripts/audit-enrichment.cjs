@@ -47,6 +47,13 @@ const grammarIncomplete = grammarReviewed.filter(p => !p.meaning || !p.explanati
 if (grammarIncomplete.length) fail(grammarIncomplete.length + ' reviewed grammar points incomplete, still draft or with a broken quiz record', grammarIncomplete.map(p => p.id));
 const grammarOrphans = Object.keys(grammarLedger).filter(id => !pointById.has(id) || !pointById.get(id).review);
 if (grammarOrphans.length) fail(grammarOrphans.length + ' grammar ledger entries without a reviewed point', grammarOrphans);
+// Every row of the official grammar syllabus has a point, and the points quote their row unchanged.
+const syllabusRows = require('./hsk2025/grammar.json').rows;
+const coveredRows = new Set(points.filter(p => p.syllabus).map(p => p.syllabus.no));
+const uncovered = syllabusRows.filter(r => !coveredRows.has(r.no));
+if (uncovered.length) fail(uncovered.length + ' grammar syllabus rows without a point', uncovered.map(r => '#' + r.no + ' ' + r.content));
+const drifted = points.filter(p => p.syllabus && (!syllabusRows[p.syllabus.no - 1] || syllabusRows[p.syllabus.no - 1].content !== p.syllabus.content));
+if (drifted.length) fail(drifted.length + ' grammar points quote a different syllabus row', drifted.map(p => p.id));
 const danglingRelated = points.flatMap(p => (p.related || []).filter(id => !pointById.has(id)).map(id => p.id + ' → ' + id));
 if (danglingRelated.length) fail(danglingRelated.length + ' related grammar links to unknown points', danglingRelated);
 
