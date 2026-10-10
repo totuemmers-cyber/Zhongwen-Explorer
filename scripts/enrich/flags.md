@@ -707,3 +707,51 @@ Author flags, type changes and reviewer fixes per batch, for follow-up decisions
 - w:根深蒂固:gen1shen1di4gu4 根深蒂固 type → Chengyu: fester vierzeichiger 成语 aus Chengyu-Wörterbüchern, keine freie Wortgruppe
 - w:供不应求:gong1bu4ying4qiu2 供不应求 (author): Citation pinyin is spaced syllable by syllable (gōng bù yìng qiú); pinyinSpoken and the examples write it as one word.
 - w:供不应求:gong1bu4ying4qiu2 供不应求 type → Chengyu: fester vierzeichiger 成语 aus Chengyu-Wörterbüchern, keine freie Wortgruppe
+
+## b030 (2026-10-10, author)
+- w:合资:he2zi1 合资 type → Verb: 动: verb (gemeinsam Kapital einbringen); das Unternehmen selbst heißt 合资企业
+- w:赫然:he4ran2 赫然 type → Adjektiv: 形: adjective per syllabus (meist adverbial vor dem Verb gebraucht)
+- w:后顾之忧:hou4gu4zhi1you1 后顾之忧 type → Chengyu: vierstelliges Idiom (成语), keine freie Phrase
+- w:互补:hu4bu3 互补 type → Verb: 动: Verb „einander ergänzen“, kein Adjektiv
+- w:化险为夷:hua4xian3wei2yi2 化险为夷 type → Chengyu: fester vierteiliger 成语 (chéngyǔ), keine freie Redewendung
+- w:怀旧:huai2jiu4 怀旧 type → Verb: 动: Verb (nostalgisch sein), kein Adjektiv
+- w:焕然一新:huan4ran2yi1xin1 焕然一新 type → Chengyu: fester vierteiliger 成语 (chéngyǔ), keine freie Redewendung
+- w:浑身:hun2shen1 浑身 type → Nomen: 名: noun 'the whole body', used as subject/topic (浑身是汗, 浑身发抖), not an adverb
+
+## b032 (2026-10-10, author)
+- w:精神:jing1shen2#2 精神 (author): measureWords lists 个; for this noun 种 (这种精神) is the usual classifier, 个 is unidiomatic.
+- w:惊心动魄:jing1xin1dong4po4 惊心动魄 type → Chengyu: vierteiliger 成语 (惊心 + 动魄), keine freie Redewendung
+- w:敬而远之:jing4er2yuan3zhi1 敬而远之 type → Chengyu: klassischer vierteiliger 成语 aus den Gesprächen des Konfuzius
+- w:敬业:jing4ye4 敬业 type → Verb: 动: offizielle Wortart Verb (Verb-Objekt 敬 + 业), auch wenn es meist adjektivisch gebraucht wird
+- w:举世瞩目:ju3shi4zhu3mu4 举世瞩目 type → Chengyu: vierteiliges 成语 (举世 + 瞩目), keine freie Wendung
+- w:举足轻重:ju3zu2qing1zhong4 举足轻重 type → Chengyu: vierteiliges 成语 (举足 + 轻重), keine freie Wendung
+- w:侃侃而谈:kan3kan3er2tan2 侃侃而谈 type → Chengyu: four-character 成语 (侃侃 from 论语), listed in chengyu dictionaries
+- w:空前:kong1qian2 空前 (author): Syllabus lists 空前 as 动; card keeps type Adjektiv because it is used attributively/adverbially (空前的成功, 空前高涨) and German learners read it as „beispiellos“.
+- w:恐慌:kong3huang1 恐慌 type → Adjektiv: 形: the syllabus lists 恐慌 as an adjective (感到恐慌, 很恐慌); the nominal use after 引起/引发 is covered in the note.
+
+## b031 (2026-10-10, author)
+- w:继而:ji4er2 继而 type → Konjunktion: 连: conjunction in the syllabus
+- w:纪实:ji4shi2 纪实 type → Nomen: 动、名: listed as verb/noun, not an adjective; mainly used as noun or attributive noun (纪实文学, 纪实作品)
+- w:兼容:jian1rong2 兼容 type → Verb: 动: verb (kompatibel sein), not an adjective
+- w:检察:jian3cha2 检察 type → Verb: 动: verb (staatsanwaltlich prüfen), not a noun
+- w:鉴于:jian4yu2 鉴于 type → Präposition: 介、连: preposition/conjunction ("in view of"), not an adverb
+- w:桨:jiang3 桨 (author): measureWords lists 只; for oars/paddles 把 or 支 (pair: 副) are the usual measure words.
+- w:皆大欢喜:jie1da4huan1xi3 皆大欢喜 type → Chengyu: vierteiliger Chengyu (aus buddhistischen Sutren), keine freie Phrase
+- w:竭尽全力:jie2jin4quan2li4 竭尽全力 type → Chengyu: vierteiliger Chengyu (竭尽 + 全力), in Chengyu-Wörterbüchern verzeichnet
+
+## b033 (2026-10-10, author)
+- w:扣人心弦:kou4ren2xin1xian2 扣人心弦 type → Chengyu: vierstelliges festes Idiom (成语), keine freie Phrase
+- w:枯竭:ku1jie2 枯竭 type → Adjektiv: 形: im Syllabus als Adjektiv geführt
+- w:跨国:kua4guo2 跨国 type → Verb: 动: im Syllabus als Verb (Verb-Objekt-Bildung 跨+国) geführt; meist attributiv gebraucht
+- w:宽容:kuan1rong2 宽容 type → Verb: 动: im Syllabus als Verb geführt (宽容别人), wird aber auch adjektivisch gebraucht
+- w:捆:kun3 捆 type → Verb: 动、名、量: primarily a verb (also noun and measure word); not a numeral
+- w:栏杆:lang2an1 栏杆 (author): Card id encodes the reading as lang2an1 (láng-ān); the correct segmentation is lán-gān (lan2gan1). Pinyin field lángān is fine, only the id derivation is off.
+- w:冷战:leng3zhan4 冷战 (author): variants lists 冷颤, which belongs to the reading lěngzhan („Schauder“), not to lěngzhàn „Kalter Krieg“.
+- w:礼尚往来:li3shang4wang3lai2 礼尚往来 type → Chengyu: four-character idiom from the 礼记 (CEDICT: idiom); not a free phrase
+- w:立法:li4fa3 立法 type → Verb: 动: official part of speech is verb (to legislate); nominal use as in 立法机关 is attributive
+- w:力所能及:li4suo3neng2ji2 力所能及 type → Chengyu: four-character idiom (成语), not a free phrase
+- w:连年:lian2nian2 连年 (author): syllabusPos 动 questionable: 连年 functions adverbially/attributively (连年丰收, 连年的战争); type left as Verb per syllabus.
+- w:两下子:liang3xia4zi5 两下子 type → Nomen: 数量、名: numeral-measure phrase (‘a couple of strokes’) or noun ‘skill’; not a numeral – main modern use is the noun in 有两下子
+- w:谅解:liang4jie3 谅解 type → Verb: 动: verb (请谅解, 谅解他的难处); the noun use is secondary
+- w:临床:lin2chuang2 临床 type → Verb: 动: officially a verb (at the sickbed, practising clinically); 'klinisch' is its attributive use
+- w:零售:ling2shou4 零售 type → Verb: 动: officially a verb (to retail, sell individually); 'Einzelhandel' is its attributive/nominal use

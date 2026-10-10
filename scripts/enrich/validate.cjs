@@ -67,6 +67,15 @@ function checkExampleReading(chinese, pinyin, ctx) {
     return { errors: ['pinyin has ' + syllables.length + ' syllables for ' + chars.length + ' characters (write numbers in characters, one syllable per character)'], warnings: [] };
   }
   const keys = syllables.map(s => Pinyin.toNumeric(s).toLowerCase());
+  // A vowel-initial syllable glued to the previous one needs an apostrophe (fāng'àn, not fāngàn).
+  const glued = [];
+  const lower = pinyin.toLowerCase();
+  for (let i = 0, at = 0; i < syllables.length; i++) {
+    const pos = lower.indexOf(syllables[i].toLowerCase(), at);
+    if (pos === -1) break;
+    if (i > 0 && pos > 0 && /^[aāáǎàeēéěèoōóǒò]/i.test(syllables[i]) && /[a-züÀ-ɏḀ-ỿ]/i.test(pinyin[pos - 1])) glued.push(syllables[i - 1] + syllables[i]);
+    at = pos + syllables[i].length;
+  }
   const n = chars.length;
   // Words never span punctuation (努力了，却 is not 了却): breakBefore[i] when a comma etc. precedes char i.
   const breakBefore = [];
@@ -140,6 +149,7 @@ function checkExampleReading(chinese, pinyin, ctx) {
       }
     }
   }
+  if (glued.length) warnings.push('apostrophe missing: ' + glued.join(', ') + " (write fāng'àn)");
   return { errors, warnings };
 }
 
