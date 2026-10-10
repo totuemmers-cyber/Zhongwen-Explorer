@@ -312,6 +312,24 @@
   function clozeText(g) { return g.pattern.replace(/[\u00B9\u00B2\u00B3\u2074\u2075\u2076\u2077\u2078\u2079]/g, ''); }
 
   function genGrammarCloze(level) {
+    // Reviewed cloze records (enrichment campaign): the blanked span and three wrong fills with reasons.
+    var reviewed = getLevelPool(getGrammarByLevel, level).filter(function (g) { return g.quiz && g.examples && g.examples[g.quiz.example]; });
+    if (reviewed.length) {
+      var point = pickRandom(reviewed);
+      var q = point.quiz;
+      var example = point.examples[q.example];
+      var options = buildChoices(q.answer, q.distractors.map(function (d) { return d.text; }));
+      var reasons = q.distractors.map(function (d) { return d.text + ': ' + d.reason; }).join(' · ');
+      return {
+        type: 'grammarCloze', level: level,
+        prompt: 'Was passt in die Lücke?',
+        promptMain: example.chinese.replace(q.answer, '＿＿＿'),
+        promptSub: example.german,
+        choices: options.choices, correctIndex: options.correctIndex,
+        explanation: point.pattern + ' — ' + example.chinese + (q.accepted && q.accepted.length ? ' (auch: ' + q.accepted.join(', ') + ')' : '') + '. ' + reasons
+      };
+    }
+    // Until a level has reviewed records: blank the pattern itself where an example contains it.
     var pool = getLevelPool(getGrammarByLevel, level).filter(function (g) {
       if (!g.examples || g.examples.length === 0) return false;
       for (var i = 0; i < g.examples.length; i++) {

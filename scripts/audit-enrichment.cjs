@@ -33,9 +33,26 @@ if (hanziIncomplete.length) fail(hanziIncomplete.length + ' reviewed hanzi witho
 const hanziOrphans = Object.keys(hanziLedger).filter(ch => !hanziByChar.has(ch) || !hanziByChar.get(ch).review);
 if (hanziOrphans.length) fail(hanziOrphans.length + ' hanzi ledger entries without a reviewed character', hanziOrphans);
 
+// Grammar (Phase 5): the same invariants with their own ledger; a quiz record must point at an example containing its answer.
+const grammar = require('./grammar/common.cjs');
+const grammarLedgerTools = require('./grammar/apply.cjs');
+const grammarLedger = common.readJson(grammarLedgerTools.LEDGER, {});
+const points = grammar.loadGrammar();
+const pointById = new Map(points.map(p => [p.id, p]));
+const grammarReviewed = points.filter(p => p.review);
+const grammarChanged = grammarReviewed.filter(p => !grammarLedger[p.id] || grammarLedger[p.id].hash !== grammarLedgerTools.contentHash(p));
+if (grammarChanged.length) fail(grammarChanged.length + ' reviewed grammar points changed since validation', grammarChanged.map(p => p.id));
+const grammarIncomplete = grammarReviewed.filter(p => !p.meaning || !p.explanation || p.meaningStatus || !Array.isArray(p.examples) || p.examples.length < 3 ||
+  (p.quiz && !(p.examples[p.quiz.example] && p.examples[p.quiz.example].chinese.includes(p.quiz.answer))));
+if (grammarIncomplete.length) fail(grammarIncomplete.length + ' reviewed grammar points incomplete, still draft or with a broken quiz record', grammarIncomplete.map(p => p.id));
+const grammarOrphans = Object.keys(grammarLedger).filter(id => !pointById.has(id) || !pointById.get(id).review);
+if (grammarOrphans.length) fail(grammarOrphans.length + ' grammar ledger entries without a reviewed point', grammarOrphans);
+const danglingRelated = points.flatMap(p => (p.related || []).filter(id => !pointById.has(id)).map(id => p.id + ' → ' + id));
+if (danglingRelated.length) fail(danglingRelated.length + ' related grammar links to unknown points', danglingRelated);
+
 if (errors.length) {
   console.error(errors.join('\n\n'));
   process.exit(1);
 }
-console.log('Enrichment audit passed: ' + reviewed.length + ' of ' + items.length + ' entries and ' + hanziReviewed.length + ' of ' +
-  characters.length + ' hanzi enriched and unchanged since validation.');
+console.log('Enrichment audit passed: ' + reviewed.length + ' of ' + items.length + ' entries, ' + hanziReviewed.length + ' of ' +
+  characters.length + ' hanzi and ' + grammarReviewed.length + ' of ' + points.length + ' grammar points enriched and unchanged since validation.');
