@@ -11,10 +11,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "lún",
-        "meaning": "krepieren, umkommen; versinken, untergehen, zugrunde gehen"
+        "meaning": "versinken; untergehen; herabsinken (zu); in Feindeshand fallen"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "水",
     "radicalForm": "氵",
@@ -26,7 +25,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       },
       {
         "part": "仑",
-        "role": "phonetic"
+        "role": "phonetic",
+        "meaning": "Ordnung (Laut lún)"
       }
     ],
     "words": [
@@ -44,6 +44,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       ],
       "unihan": "237.110:lún",
       "etymology": "pictophonetic: water"
+    },
+    "notes": "沦 besteht aus 氵 „Wasser“ als Bedeutungsträger und 仑 (lún) als Lautträger – daher die gleiche Aussprache. Merkhilfe: Was ins Wasser fällt, versinkt. Wörter: 沉沦 (chénlún) „versinken, herunterkommen“, 沦落 (lúnluò) „herunterkommen“, 沦为 (lúnwéi) „herabsinken zu“, 沦陷 (lúnxiàn) „in Feindeshand fallen“. Die 仑-Familie unterscheidet sich durch den Radikal: 论 (lùn) „diskutieren“, 轮 (lún) „Rad“, 伦 (lún) „Moral“.",
+    "review": {
+      "batch": "h013",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -55,19 +61,21 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "lì",
-        "meaning": "schleifen"
+        "meaning": "Schleifstein; schleifen; wetzen; (sich) stählen; anspornen"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 10,
     "primaryRadical": "石",
     "components": [
       {
         "part": "石",
+        "role": "semantic",
         "meaning": "Stein"
       },
       {
-        "part": "厉"
+        "part": "厉",
+        "role": "phonetic",
+        "meaning": "streng; scharf (Laut lì)"
       }
     ],
     "words": [
@@ -86,6 +94,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "218.060:lì",
       "etymology": "ideographic: A stone 石 used to hone 厉 blades; 厉 also provides the pronunciation",
       "old": "schleifen"
+    },
+    "notes": "砺 besteht aus 石 „Stein“ und 厉 (lì) „streng, scharf“, das Laut und Bedeutung beisteuert: der Stein, der Klingen scharf macht. Merkhilfe: An einem harten Stein wird man scharf – auch im übertragenen Sinn. Wörter: 磨砺 (mólì) „schleifen; sich stählen“, 砥砺 (dǐlì) „schärfen; sich gegenseitig anspornen“. Nicht verwechseln mit 励 (lì) „ermutigen“ mit 力 „Kraft“, etwa in 鼓励 (gǔlì).",
+    "review": {
+      "batch": "h013",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -97,10 +111,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "chàng",
-        "meaning": "enttaeuscht; betruebt"
+        "meaning": "wehmütig; enttäuscht; betrübt; niedergeschlagen"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 7,
     "primaryRadical": "心",
     "radicalForm": "忄",
@@ -113,7 +126,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "长",
         "role": "phonetic",
-        "meaning": "lang"
+        "meaning": "lang (Laut cháng)"
       }
     ],
     "words": [
@@ -131,6 +144,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "039.110:chàng",
       "etymology": "pictophonetic: heart",
       "old": "enttaeuscht; betruebt"
+    },
+    "notes": "怅 besteht aus 忄 „Herz“ als Bedeutungsträger und 长 (cháng) als Lautträger. Merkhilfe: Ein Herz, das „lange“ (长) einer verlorenen Sache nachhängt, ist wehmütig. Wörter: 惆怅 (chóuchàng) „melancholisch“, 怅然 (chàngrán) „enttäuscht, bedrückt“, 怅惘 (chàngwǎng) „wehmütig, gedankenverloren“. Die 长-Familie unterscheidet sich durch den Radikal: 张 (zhāng), 帐 (zhàng) „Vorhang“, 账 (zhàng) „Rechnung“, 胀 (zhàng) „anschwellen“.",
+    "review": {
+      "batch": "h013",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -142,10 +161,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "jié",
-        "meaning": "knapp; bedraengt"
+        "meaning": "nur in Wörtern: knapp (bei Kasse); bedrängt; entgegenwirken"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 9,
     "primaryRadical": "手",
     "radicalForm": "扌",
@@ -158,7 +176,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "吉",
         "role": "phonetic",
-        "meaning": "Glueck"
+        "meaning": "Glück (Laut jí)"
       }
     ],
     "words": [
@@ -176,6 +194,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "173.050:jié",
       "etymology": "pictophonetic: hand",
       "old": "knapp; bedraengt"
+    },
+    "notes": "拮 besteht aus 扌 „Hand“ als Bedeutungsträger und 吉 (jí) als Lautträger, wie in 结 (jié) und 洁 (jié). Merkhilfe: Die Hand hält das Glück (吉) fest umklammert, weil kaum Geld da ist. 拮 steht fast nur in zwei Wörtern: 拮据 (jiéjū) „knapp bei Kasse“ und, fachsprachlich, 拮抗 (jiékàng) „entgegenwirken, antagonistisch“. Nicht verwechseln mit 桔 (jú) „Mandarine“ mit 木.",
+    "review": {
+      "batch": "h013",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -187,10 +211,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "huì",
-        "meaning": "dunkel"
+        "meaning": "dunkel; trüb; unklar; letzter Tag des Mondmonats; (literarisch) Nacht"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 11,
     "primaryRadical": "日",
     "components": [
@@ -202,7 +225,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "每",
         "role": "phonetic",
-        "meaning": "jeder"
+        "meaning": "jeder (Laut měi)"
       }
     ],
     "words": [
@@ -220,6 +243,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "149.120:huì",
       "etymology": "pictophonetic: sun",
       "old": "dunkel"
+    },
+    "notes": "晦 besteht aus 日 „Sonne“ als Bedeutungsträger und 每 (měi) als Lautträger, wie in 悔 (huǐ) und 诲 (huì). Ursprünglich bezeichnete es den letzten Tag des Mondmonats, an dem kein Mond scheint – daher „dunkel“. Merkhilfe: Wenn nicht jeden (每) Tag die Sonne scheint, wird es düster. Wörter: 晦涩 (huìsè) „schwer verständlich“, 隐晦 (yǐnhuì) „verschleiert“, 晦气 (huìqì) „Pech“, 韬光养晦 (tāoguāng-yǎnghuì) „sich bedeckt halten“. Nicht verwechseln mit 悔 (huǐ) „bereuen“ (忄) und 诲 (huì) „belehren“ (讠).",
+    "review": {
+      "batch": "h013",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -231,10 +260,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "dú",
-        "meaning": "entweihen; Graben"
+        "meaning": "entweihen; respektlos behandeln; (Amtspflicht) verletzen; (literarisch) Graben; Kanal"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 11,
     "primaryRadical": "水",
     "radicalForm": "氵",
@@ -247,7 +275,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "卖",
         "role": "phonetic",
-        "meaning": "verkaufen"
+        "meaning": "verkaufen (hier für alten Lautträger, vgl. 读 dú)"
       }
     ],
     "words": [
@@ -265,6 +293,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "080.140:dú",
       "etymology": "pictophonetic: water",
       "old": "entweihen; Graben"
+    },
+    "notes": "渎 besteht aus 氵 „Wasser“ und 卖, das hier nicht „verkaufen“ meint: In der Langform 瀆 steht ein ähnlich aussehender alter Lautträger, der auch in 读 (dú), 犊 (dú) und 牍 (dú) steckt. Ursprünglich bedeutete 渎 „Graben, Kanal“. Merkhilfe: Wer Heiliges ins schmutzige Grabenwasser zieht, entweiht es. Wörter: 亵渎 (xièdú) „entweihen, lästern“, 渎职 (dúzhí) „Amtspflichten verletzen“. Nicht verwechseln mit 读 (dú) „lesen“ mit 讠.",
+    "review": {
+      "batch": "h013",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -276,10 +310,9 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "rú",
-        "meaning": "befeuchten; durchnaessen"
+        "meaning": "befeuchten; benetzen; durchnässt; (literarisch) zögern"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 17,
     "primaryRadical": "水",
     "radicalForm": "氵",
@@ -292,7 +325,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       {
         "part": "需",
         "role": "phonetic",
-        "meaning": "brauchen"
+        "meaning": "brauchen (Laut xū)"
       }
     ],
     "words": [
@@ -310,6 +343,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "unihan": "316.170:rú",
       "etymology": "pictophonetic: water",
       "old": "befeuchten; durchnaessen"
+    },
+    "notes": "濡 besteht aus 氵 „Wasser“ als Bedeutungsträger und 需 (xū) als Lautträger, wie in 儒 (rú) „Konfuzianer“, 孺 (rú) „Kind“ und 蠕 (rú) „kriechen“. Merkhilfe: Was Wasser „braucht“ (需), wird benetzt. 濡 erscheint vor allem in Redewendungen: 耳濡目染 (ěrrú-mùrǎn) „durch ständiges Hören und Sehen geprägt werden“ und 相濡以沫 (xiāngrú-yǐmò) „einander in der Not beistehen“ – wörtlich: Fische, die sich gegenseitig mit Speichel feucht halten.",
+    "review": {
+      "batch": "h013",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -321,27 +360,22 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "readings": [
       {
         "pinyin": "yān",
-        "meaning": "inwiefern, wie"
+        "meaning": "(literarisch) wo; wie; wie könnte; dort; darin; Satzschlusspartikel"
       }
     ],
-    "meaningStatus": "draft",
     "strokes": 11,
     "primaryRadical": "火",
     "radicalForm": "灬",
     "components": [
       {
-        "part": "正"
-      },
-      {
-        "part": "一",
-        "meaning": "eins, horizontal"
-      },
-      {
-        "part": "㇉"
+        "part": "正",
+        "role": "form",
+        "meaning": "gerade (hier: Kopf des Vogels)"
       },
       {
         "part": "灬",
-        "meaning": "Feuer"
+        "role": "form",
+        "meaning": "vier Punkte (hier: Füße und Schwanz des Vogels)"
       }
     ],
     "words": [
@@ -358,6 +392,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       ],
       "unihan": "421.070:yān",
       "etymology": "ideographic: A bird 鳥 with a strange head"
+    },
+    "notes": "焉 war ursprünglich das Bild eines Vogels und wurde früh als Fragewort und Partikel entlehnt; oben steht eine 正-ähnliche Form, unten die vier Punkte 灬, die hier nicht „Feuer“ bedeuten, sondern wie in 鸟 (Langform 鳥) und 燕 (yàn) „Schwalbe“ zum Vogel gehören. Merkhilfe: Ein Vogel, der fragend den Kopf neigt – „wie? wo?“. Heute begegnet es fast nur in festen Wendungen: 心不在焉 (xīnbùzàiyān) „geistesabwesend“, wörtlich „das Herz ist nicht dabei“, und 焉知非福 (yān zhī fēi fú) „wer weiß, ob es nicht ein Glück ist“.",
+    "review": {
+      "batch": "h013",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {

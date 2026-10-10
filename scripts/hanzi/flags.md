@@ -185,3 +185,92 @@ Author flags and reviewer fixes per batch, for follow-up decisions.
 - 咨 (author): traditional: listed only as 諮; 咨 itself is also a traditional character (e.g. 咨文), 諮 is used for „beraten“ (諮詢).
 - 拜 readings added: bái
 - 臂 readings added: bei
+
+## h011 (2026-10-10, author)
+- 阱 (author): Draft-Bedeutung „Bau, Bohrung“ (HanDeDict) war falsch; korrigiert zu „Fallgrube; Falle“.
+- 峻 (author): HanDeDict-Gloss „einweichen“ ist für 峻 falsch; nicht übernommen.
+- 磕 (author): Draft-Gloss „anschließen, abgreifen“ (HanDeDict) war falsch; ersetzt.
+- 吭 readings added: háng
+- 吭 (author): Draft-Gloss „Kehle“ gehört zur Lesung háng, die auf der Karte fehlte; als addReading háng ergänzt.
+- 廓 (author): Entwurfsbedeutung „schwer, wichtig“ (HanDeDict) ist falsch und wurde ersetzt.
+- 唠 readings added: lào
+- 酪 (author): Entwurfsbedeutungen „Dandy“ und „Smegma“ (HanDeDict) gestrichen; Taiwan-Aussprache luò nur in den Notizen erwähnt.
+- 勒 (author): Rollen im Entwurf vertauscht (革 als Laut, 力 als Bedeutung) – korrigiert nach Shuowen: 革 Bedeutung, 力 Laut.
+- 狸 readings added: lí
+- 狸 (author): Gegebene Lesung ist nur die tonlose Form in 狐狸; Grundlesung lí ergänzt (addReadings).
+- 溜 readings added: liù
+- 隆 readings added: lōng
+- 窿 readings added: lóng
+- 搂 readings added: lōu
+- 脉 readings added: mò
+- 蒙 readings added: měng
+- 磨 readings added: mò
+- 呐 readings added: na
+- 尿 readings added: suī
+- 拧 readings added: nìng
+- 刨 readings added: bào
+- 炮 readings added: páo, bāo
+- 篷 readings added: péng
+- 篷 (author): Listed reading is the neutral-tone "peng" (from 帐篷 zhàngpeng); the character's base reading is péng (added via addReadings). Consider making péng the primary reading.
+- 劈 readings added: pǐ
+- 撇 readings added: piē
+
+## h010 (2026-10-10, author)
+- 叨 readings added: tāo
+- 嘀 readings added: dī
+- 陡 (author): radicalForm ist null, sollte 阝 sein (Radikal 阜 links als 阝 geschrieben).
+- 坊 readings added: fáng
+- 缝 (author): Entwurf hatte „nähen; Naht“ bei fèng und keine Bedeutung bei féng; korrigiert: fèng = Naht/Spalt (Nomen), féng = nähen (Verb).
+- 袱 readings added: fú
+- 袱 (author): Karte hatte nur die unbetonte Lesung fu (aus 包袱) ohne Bedeutung; Wörterbuchlesung fú per addReadings ergänzt.
+- 搁 readings added: gé
+- 勾 readings added: gòu
+- 咕 readings added: gū
+- 菇 readings added: gū
+- 哼 readings added: hng
+- 唬 readings added: hǔ
+- 哗 readings added: huā
+- 贾 readings added: jiǎ
+- 姜 (author): traditional: Für den Familiennamen ist 姜 auch die traditionelle Form; die Liste sollte 姜 und 薑 enthalten, nicht nur 薑.
+- 矫 readings added: jiáo
+
+## h012 (2026-10-10, author)
+- 仆 readings added: pū
+- 仆 (author): traditional nennt nur 僕; das gilt nur für pú „Diener“. Für die ergänzte Lesung pū „vornüberfallen“ ist die Langzeichenform ebenfalls 仆.
+- 曝 readings added: pù
+- 蹊 (author): Wortliste schreibt 蹊跷 als qīqiao (neutraler Ton), CC-CEDICT als qīqiāo; in den Notes qīqiāo verwendet. Ebenso beim Zeichen 跷 (p02).
+- 嚷 readings added: rāng
+- 怂 (author): Umgangssprachliches 怂 „feige“ wird oft sóng gesprochen (vgl. 㞞); nicht als eigene Lesung ergänzt.
+- 嗦 readings added: suō
+- 嗦 (author): suō als Wörterbuchform ergänzt (Unihan/TGHZ); die Bedeutung „saugen, schlürfen“ ist regional/umgangssprachlich – bitte prüfen, ob die Lesung gewünscht ist.
+- 叹 (author): Traditionell neben 嘆 auch 歎 gebräuchlich; nur 嘆 hinterlegt.
+- 屉 readings added: tì
+- 屉 (author): Einzige Lesung ist neutrales ti (nur in 抽屉); Volllesung tì per addReadings ergänzt.
+- 帖 readings added: tiē, tiè
+- 涂 (author): Traditionell nur 塗 hinterlegt; für Familienname/Flussname bleibt 涂 auch traditionell 涂.
+- 驮 readings added: duò
+- 挽 (author): Traditionelle Form: für die Trauerbedeutung (挽歌, 挽联) traditionell 輓, nicht nur 挽.
+- 涡 (author): Entwurfsbedeutung „Turbine“ stammt aus 涡轮; Grundbedeutung ist „Wirbel, Strudel“. Unihan nennt zusätzlich guō (Flussname 涡河), für Lernende nicht nötig.
+
+## h013 (2026-10-10, author)
+- 纤 readings added: qiàn
+- 纤 (author): addReading qiàn (纤夫 qiànfū) ergänzt; dessen traditionelle Form ist 縴, nicht 纖 – das traditional-Feld nennt nur 纖.
+- 巷 readings added: hàng
+- 巷 (author): addReading hàng (巷道 hàngdào „Stollen“) ergänzt.
+- 泄 (author): Wortliste: 泄露 ist als xièlòu angegeben; Standard (Xiandai Hanyu Cidian, CC-CEDICT) ist xièlù, xièlòu nur umgangssprachlich.
+- 芯 readings added: xìn
+- 芯 (author): addReading xìn (芯子 xìnzi „Zündschnur; Schlangenzunge“) ergänzt.
+- 吁 readings added: xū
+- 吁 (author): addReading xū (长吁短叹, 气喘吁吁) ergänzt; die Lesung xū hat die traditionelle Form 吁, nur yù entspricht 籲.
+- 岩 (author): traditional nennt nur 岩; in Taiwan/Hongkong ist für „Fels, Felswand“ auch 巖 gebräuchlich (CC-CEDICT führt 岩 als Variante von 巖) – ggf. 巖 ergänzen.
+- 燕 readings added: yān
+- 殷 readings added: yān
+- 蝇 readings added: yíng
+- 郁 (author): traditional listet nur 鬱; 郁 bleibt auch in Langzeichen als eigenes Zeichen erhalten (duftend, prächtig; Familienname Yu, z. B. 浓郁 traditionell 濃郁) – traditional sollte ["鬱","郁"] sein.
+- 御 (author): traditional listet nur 御; für die Bedeutung „abwehren“ ist das Langzeichen 禦 (防禦, 抵禦) – traditional sollte ["御","禦"] sein.
+- 熨 readings added: yù
+- 攒 readings added: cuán
+- 爪 readings added: zhǎo
+- 帚 readings added: zhǒu
+- 帚 (author): Given reading is neutral-tone zhou (only in 扫帚 sàozhou); citation reading zhǒu (Unihan, 现代汉语词典) added via addReadings – consider making zhǒu the primary reading.
+- 拽 readings added: zhuāi, zhuǎi
