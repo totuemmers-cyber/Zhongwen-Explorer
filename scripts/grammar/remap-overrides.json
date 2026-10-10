@@ -1,0 +1,2915 @@
+{
+ "g:是": {
+  "kind": "row",
+  "row": 52,
+  "alsoRows": [
+   128
+  ],
+  "note": "Kopula = “是”字句1 (等同/类属); 是字句2 (说明/特征) HSK2"
+ },
+ "g:有": {
+  "kind": "row",
+  "row": 53,
+  "alsoRows": [
+   55,
+   129,
+   388
+  ],
+  "note": "有 = 领有; es-gibt-Lesart = 存现句 #55"
+ },
+ "g:在 + Ort": {
+  "kind": "merge",
+  "row": 21,
+  "word": "在",
+  "alsoRows": [
+   54
+  ],
+  "note": "Vollverb 在 (sich befinden) hat keine eigene Zeile; mit Präposition 在 zusammenlegen → g:在 + Ort + Verb"
+ },
+ "g:S-V-O Wortstellung": {
+  "kind": "row",
+  "row": 42,
+  "alsoRows": [
+   30,
+   38
+  ],
+  "note": "Grundwortstellung = 主谓句1 动词谓语句"
+ },
+ "g:从...到...": {
+  "kind": "merge",
+  "row": 91,
+  "word": "从¹",
+  "alsoRows": [
+   93
+  ],
+  "note": "kein eigener 固定格式; Rahmen gehört zur Präposition 从¹ → g:从 + Ort/Zeit"
+ },
+ "g:...的时候": {
+  "kind": "zusatz",
+  "note": "Temporalsatz ……的时候 nicht im 语法大纲 (nur （在）……以前/以后 #198)"
+ },
+ "g:Zählwort + Nomen": {
+  "kind": "row",
+  "row": 32,
+  "alsoRows": [
+   12,
+   39
+  ],
+  "note": "Zahl+Zählwort = 数量短语; als Attribut #39; Zählwortliste #12"
+ },
+ "g:的 (Attributiv)": {
+  "kind": "word",
+  "row": 24,
+  "word": "的¹",
+  "alsoRows": [
+   39
+  ],
+  "note": "的² (语气) ist HSK2 #103"
+ },
+ "g:了 (Abschluss)": {
+  "kind": "word",
+  "row": 25,
+  "word": "了¹",
+  "alsoRows": [
+   62,
+   26
+  ],
+  "note": "Beispiel 吃了饭 = 了¹; 了² separat als g:了 (Zustandsänderung)"
+ },
+ "g:吗": {
+  "kind": "word",
+  "row": 26,
+  "word": "吗",
+  "alsoRows": [
+   47
+  ]
+ },
+ "g:呢": {
+  "kind": "word",
+  "row": 26,
+  "word": "呢²",
+  "alsoRows": [
+   66,
+   103
+  ],
+  "note": "Beispiel 你呢？ = verkürzte Rückfrage, vermutlich 呢² (呢¹ Fragesatz-呢, 呢³ Verlauf, 呢⁴ HSK2); Sinnnummer unsicher"
+ },
+ "g:不": {
+  "kind": "word",
+  "row": 20,
+  "word": "不"
+ },
+ "g:没/没有": {
+  "kind": "word",
+  "row": 20,
+  "word": "没（有）",
+  "alsoRows": [
+   53
+  ],
+  "note": "Beispiel 我没有钱 ist Verneinung von 有 (#53)"
+ },
+ "g:想 + Verb": {
+  "kind": "word",
+  "row": 5,
+  "word": "想"
+ },
+ "g:要 + Verb": {
+  "kind": "word",
+  "row": 5,
+  "word": "要",
+  "alsoRows": [
+   113
+  ],
+  "note": "Zukunfts-要 → 要……了 #113"
+ },
+ "g:会 + Verb": {
+  "kind": "word",
+  "row": 4,
+  "word": "会"
+ },
+ "g:能 + Verb": {
+  "kind": "word",
+  "row": 4,
+  "word": "能"
+ },
+ "g:可以 + Verb": {
+  "kind": "word",
+  "row": 6,
+  "word": "可以"
+ },
+ "g:在 + Verb": {
+  "kind": "word",
+  "row": 17,
+  "word": "在",
+  "alsoRows": [
+   64,
+   65
+  ],
+  "note": "progressives 在 = Zeitadverb, nicht Präposition"
+ },
+ "g:去/来 + Verb": {
+  "kind": "row",
+  "row": 56,
+  "note": "我去买东西 = 连动句1 (Zweck); nicht 趋向补语 #119"
+ },
+ "g:给 + Person + Verb": {
+  "kind": "word",
+  "row": 94,
+  "word": "给",
+  "alsoRows": [
+   58,
+   137
+  ],
+  "note": "Präposition 给; Beispiel 请给我一杯水 ist Vollverb 给 mit Doppelobjekt (#58)"
+ },
+ "g:很 + Adjektiv": {
+  "kind": "word",
+  "row": 15,
+  "word": "很",
+  "alsoRows": [
+   43
+  ]
+ },
+ "g:太...了": {
+  "kind": "word",
+  "row": 15,
+  "word": "太",
+  "note": "Rahmen 太……了 hat keine eigene Zeile; Wortpunkt 太"
+ },
+ "g:真 + Adjektiv": {
+  "kind": "word",
+  "row": 15,
+  "word": "真",
+  "alsoRows": [
+   51
+  ]
+ },
+ "g:什么": {
+  "kind": "word",
+  "row": 8,
+  "word": "什么",
+  "alsoRows": [
+   48
+  ]
+ },
+ "g:几/多少": {
+  "kind": "word",
+  "row": 8,
+  "word": "几",
+  "alsoRows": [
+   146
+  ],
+  "note": "deckt auch 多少 (gleiche Zeile) ab; 几 als Schätzzahl #146"
+ },
+ "g:谁": {
+  "kind": "word",
+  "row": 8,
+  "word": "谁"
+ },
+ "g:哪 / 哪儿": {
+  "kind": "word",
+  "row": 8,
+  "word": "哪儿",
+  "note": "deckt auch 哪 (welcher) ab, gleiche Zeile"
+ },
+ "g:Verb-不-Verb": {
+  "kind": "row",
+  "row": 49,
+  "note": "正反问句"
+ },
+ "g:和 / 跟": {
+  "kind": "word",
+  "row": 23,
+  "word": "和²",
+  "alsoRows": [
+   22,
+   98,
+   96
+  ],
+  "note": "Beispiel 我和你 = Konjunktion 和²; Präposition 和¹ #22; 跟 erst HSK2 (#96/#98)"
+ },
+ "g:也": {
+  "kind": "word",
+  "row": 19,
+  "word": "也",
+  "alsoRows": [
+   60
+  ]
+ },
+ "g:都": {
+  "kind": "word",
+  "row": 16,
+  "word": "都¹",
+  "alsoRows": [
+   90
+  ],
+  "note": "都² (语气) ist HSK2 #90"
+ },
+ "g:还": {
+  "kind": "word",
+  "row": 19,
+  "word": "还¹",
+  "alsoRows": [
+   86,
+   164,
+   257,
+   61
+  ],
+  "note": "你还要什么 = 还¹ (zusätzlich); 还² Zeit, 还³ Grad, 还⁴ Ton"
+ },
+ "g:吧": {
+  "kind": "word",
+  "row": 26,
+  "word": "吧¹",
+  "alsoRows": [
+   103
+  ],
+  "note": "Vermutungs-吧 = 吧² HSK2 #103"
+ },
+ "g:怎么": {
+  "kind": "word",
+  "row": 8,
+  "word": "怎么"
+ },
+ "g:为什么": {
+  "kind": "word",
+  "row": 76,
+  "word": "为什么"
+ },
+ "g:这/那 + Zählwort + Nomen": {
+  "kind": "word",
+  "row": 10,
+  "word": "这",
+  "alsoRows": [
+   32
+  ],
+  "note": "deckt 这/那/这个/那个 ab (gleiche Zeile)"
+ },
+ "g:叫 + Name": {
+  "kind": "remove",
+  "note": "Vollverb 叫 (heißen) + Name = Vokabel; #259 叫 ist das Passiv-Präposition-叫, falsche Bedeutung"
+ },
+ "g:好吗": {
+  "kind": "row",
+  "row": 47,
+  "note": "Nachfrage ……，好吗？ = 是非问句 mit 吗 (enger gefasst); unsicher, alternativ Zusatz"
+ },
+ "g:多少钱": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: feste Wendung/Vokabel; Geldangaben grammatisch in #67 (→ g:块/元)"
+ },
+ "g:了 (Zustandsänderung)": {
+  "kind": "word",
+  "row": 26,
+  "word": "了²",
+  "alsoRows": [
+   63
+  ]
+ },
+ "g:岁": {
+  "kind": "row",
+  "row": 44,
+  "alsoRows": [
+   14,
+   36
+  ],
+  "note": "Altersangabe 我二十五岁 = Musterbeispiel 名词谓语句; 岁 selbst nur Eintrag der 时量词-Liste #14"
+ },
+ "g:什么时候": {
+  "kind": "merge",
+  "row": 8,
+  "word": "什么",
+  "alsoRows": [
+   48
+  ],
+  "note": "Fragewort-Kompositum, keine eigene Zeile → g:什么"
+ },
+ "g:块/元": {
+  "kind": "row",
+  "row": 67,
+  "alsoRows": [
+   12
+  ],
+  "note": "钱数表示法; 块/元 als Zählwörter in #12"
+ },
+ "g:对不起 / 没关系": {
+  "kind": "remove",
+  "note": "Höflichkeitsfloskeln, Vokabel"
+ },
+ "g:让 + Person + Verb": {
+  "kind": "row",
+  "row": 136,
+  "alsoRows": [
+   306
+  ],
+  "note": "兼语句1 使令; nicht Passiv-让 #259"
+ },
+ "g:从 + Ort/Zeit": {
+  "kind": "word",
+  "row": 91,
+  "word": "从¹",
+  "alsoRows": [
+   93
+  ],
+  "note": "从² (Richtung/Weg) #93"
+ },
+ "g:在 + Ort + Verb": {
+  "kind": "word",
+  "row": 21,
+  "word": "在",
+  "alsoRows": [
+   40
+  ],
+  "note": "Präposition 在; nimmt g:在 + Ort auf"
+ },
+ "g:到 + Ort/Zeit": {
+  "kind": "zusatz",
+  "note": "Vollverb/Koverb 到 (ankommen, bis) nicht im 语法大纲; V+到 (#205) ist separater Punkt g:Verb + 到"
+ },
+ "g:先 + Verb₁ + 再 + Verb₂": {
+  "kind": "merge",
+  "row": 230,
+  "note": "Dublette von g:先...再/然后..."
+ },
+ "g:用 + Nomen + Verb": {
+  "kind": "row",
+  "row": 57,
+  "note": "我用筷子吃饭 = 连动句1 (前一动作是后一动作的方式)"
+ },
+ "g:又 + Adj₁ + 又 + Adj₂ (Grundform)": {
+  "kind": "merge",
+  "row": 233,
+  "note": "Dublette von g:又...又..."
+ },
+ "g:多 + Adjektiv": {
+  "kind": "word",
+  "row": 8,
+  "word": "多",
+  "alsoRows": [
+   84
+  ],
+  "note": "多远/多大 = Fragewort 多 (#8); Ausruf 多好啊 = Gradadverb 多 #84"
+ },
+ "g:得 (děi) müssen": {
+  "kind": "word",
+  "row": 152,
+  "word": "得",
+  "note": "能愿动词 得 (děi), nicht Strukturpartikel #100"
+ },
+ "g:不是": {
+  "kind": "merge",
+  "row": 52,
+  "alsoRows": [
+   20
+  ],
+  "note": "Verneinung von 是 gehört zum 是字句 → g:是"
+ },
+ "g:有没有": {
+  "kind": "merge",
+  "row": 49,
+  "alsoRows": [
+   53
+  ],
+  "note": "V没V-Frage = 正反问句 → g:Verb-不-Verb"
+ },
+ "g:每 + Zählwort + Nomen": {
+  "kind": "word",
+  "row": 78,
+  "word": "每"
+ },
+ "g:喜欢 + Verb/Nomen": {
+  "kind": "remove",
+  "note": "Vokabel 喜欢 mit Objekt, kein eigenes Muster"
+ },
+ "g:请 + Verb": {
+  "kind": "row",
+  "row": 50,
+  "alsoRows": [
+   136
+  ],
+  "note": "请坐 = höflicher 祈使句; 请+Person+V = 兼语句 #136"
+ },
+ "g:怎么样": {
+  "kind": "word",
+  "row": 8,
+  "word": "怎么样"
+ },
+ "g:时间词 + Verb": {
+  "kind": "row",
+  "row": 40,
+  "note": "表示时间的词语作状语 (enger gefasst)"
+ },
+ "g:一点儿 + Nomen": {
+  "kind": "row",
+  "row": 39,
+  "alsoRows": [
+   32
+  ],
+  "note": "一点儿水 = 数量短语作定语 (enger gefasst); abgrenzen von 有（一）点儿 #15 und 一点儿也不 #196; unsicher, alternativ Zusatz"
+ },
+ "g:或者": {
+  "kind": "word",
+  "row": 177,
+  "word": "或者",
+  "alsoRows": [
+   231
+  ]
+ },
+ "g:还是 (Frage)": {
+  "kind": "row",
+  "row": 126,
+  "alsoRows": [
+   99,
+   138
+  ],
+  "note": "用“还是”连接的选择问句"
+ },
+ "g:正在 + Verb": {
+  "kind": "word",
+  "row": 17,
+  "word": "正在",
+  "alsoRows": [
+   64,
+   65
+  ]
+ },
+ "g:就 + Verb": {
+  "kind": "word",
+  "row": 89,
+  "word": "就¹",
+  "alsoRows": [
+   90,
+   141,
+   165,
+   170,
+   257
+  ],
+  "note": "马上就来 (unmittelbare Folge) am ehesten 就¹; Sinnnummer unsicher"
+ },
+ "g:都 + 不/没": {
+  "kind": "merge",
+  "row": 16,
+  "word": "都¹",
+  "alsoRows": [
+   195
+  ],
+  "note": "都 + Verneinung ist Teil von 都¹ → g:都"
+ },
+ "g:又 + Verb + 了": {
+  "kind": "word",
+  "row": 167,
+  "word": "又",
+  "note": "Frequenzadverb 又 (HSK3)"
+ },
+ "g:再 + Verb": {
+  "kind": "word",
+  "row": 18,
+  "word": "再¹",
+  "alsoRows": [
+   89
+  ]
+ },
+ "g:还没（有）…呢": {
+  "kind": "word",
+  "row": 86,
+  "word": "还²",
+  "alsoRows": [
+   20,
+   103
+  ],
+  "note": "还 (immer noch) + 没 + 呢; Rahmen ohne eigene Zeile, unter Zeitadverb 还²"
+ },
+ "g:多/少 + Verb": {
+  "kind": "zusatz",
+  "note": "多/少 als Adverbial (多喝水, 少说话) nicht eigens im 语法大纲; illustriert allenfalls #40 形容词作状语"
+ },
+ "g:…啊": {
+  "kind": "word",
+  "row": 103,
+  "word": "啊¹",
+  "alsoRows": [
+   267
+  ],
+  "note": "Interjektion 啊 #267 (HSK4)"
+ },
+ "g:Adj + 一点儿": {
+  "kind": "row",
+  "row": 124,
+  "alsoRows": [
+   132
+  ],
+  "note": "快一点儿 = 形容词+数量补语"
+ },
+ "g:好 + Adjektiv": {
+  "kind": "word",
+  "row": 84,
+  "word": "好"
+ },
+ "g:…了…了": {
+  "kind": "merge",
+  "row": 26,
+  "word": "了²",
+  "alsoRows": [
+   25,
+   62,
+   63
+  ],
+  "note": "了¹+了² kombiniert → g:了 (Zustandsänderung); Vorschlag #528 falsch"
+ },
+ "g:是不是": {
+  "kind": "merge",
+  "row": 49,
+  "alsoRows": [
+   52
+  ],
+  "note": "正反问句 mit 是 → g:Verb-不-Verb"
+ },
+ "g:是...的": {
+  "kind": "row",
+  "row": 135,
+  "alsoRows": [
+   228
+  ],
+  "note": "Betonung Zeit/Ort/Art; 是……的2 (Einstellung) HSK3"
+ },
+ "g:比": {
+  "kind": "word",
+  "row": 95,
+  "word": "比",
+  "alsoRows": [
+   131,
+   132,
+   134
+  ]
+ },
+ "g:跟...一样": {
+  "kind": "row",
+  "row": 223,
+  "alsoRows": [
+   222
+  ],
+  "note": "Beispiel 一样高 = A跟B一样+形容词"
+ },
+ "g:没有...那么": {
+  "kind": "row",
+  "row": 133
+ },
+ "g:一边...一边...": {
+  "kind": "row",
+  "row": 234,
+  "alsoRows": [
+   168
+  ]
+ },
+ "g:虽然...但是...": {
+  "kind": "row",
+  "row": 139,
+  "alsoRows": [
+   236
+  ]
+ },
+ "g:因为...所以...": {
+  "kind": "row",
+  "row": 140
+ },
+ "g:如果...就...": {
+  "kind": "row",
+  "row": 237
+ },
+ "g:越来越...": {
+  "kind": "row",
+  "row": 187
+ },
+ "g:越...越...": {
+  "kind": "row",
+  "row": 197
+ },
+ "g:把-Konstruktion": {
+  "kind": "word",
+  "row": 175,
+  "word": "把",
+  "alsoRows": [
+   217,
+   215,
+   216,
+   299,
+   300,
+   301,
+   302
+  ],
+  "note": "Beispiel 把门关上 = #217 (把+O+V+趋向补语)"
+ },
+ "g:被-Passiv": {
+  "kind": "word",
+  "row": 175,
+  "word": "被",
+  "alsoRows": [
+   218,
+   219
+  ]
+ },
+ "g:得 (Grad-/Artangabe)": {
+  "kind": "word",
+  "row": 100,
+  "word": "得",
+  "alsoRows": [
+   122
+  ],
+  "note": "说得很好 = 状态补语1 #122"
+ },
+ "g:Verb + 完": {
+  "kind": "row",
+  "row": 118
+ },
+ "g:Verb + 到": {
+  "kind": "row",
+  "row": 205
+ },
+ "g:Verb + 好": {
+  "kind": "merge",
+  "row": 118,
+  "note": "动词+好 ist Teil von 结果补语1 → g:Verb + 完; nicht Gradadverb 好 #84"
+ },
+ "g:过": {
+  "kind": "word",
+  "row": 101,
+  "word": "过",
+  "alsoRows": [
+   144
+  ]
+ },
+ "g:又...又...": {
+  "kind": "row",
+  "row": 233
+ },
+ "g:先...再/然后...": {
+  "kind": "row",
+  "row": 230
+ },
+ "g:Verb + 着": {
+  "kind": "word",
+  "row": 102,
+  "word": "着",
+  "alsoRows": [
+   142,
+   143,
+   130,
+   220
+  ]
+ },
+ "g:地 (Adverbpartikel)": {
+  "kind": "word",
+  "row": 100,
+  "word": "地",
+  "alsoRows": [
+   40
+  ]
+ },
+ "g:要是...就...": {
+  "kind": "row",
+  "row": 326
+ },
+ "g:不但...而且...": {
+  "kind": "row",
+  "row": 235
+ },
+ "g:一...就...": {
+  "kind": "row",
+  "row": 141
+ },
+ "g:多 + Verb": {
+  "kind": "merge",
+  "into": "g:多/少 + Verb",
+  "note": "Dublette von g:多/少 + Verb (Zusatz)"
+ },
+ "g:必须 + Verb": {
+  "kind": "word",
+  "row": 169,
+  "word": "必须"
+ },
+ "g:不用 + Verb": {
+  "kind": "word",
+  "row": 171,
+  "word": "不用"
+ },
+ "g:非常 + Adjektiv": {
+  "kind": "word",
+  "row": 15,
+  "word": "非常"
+ },
+ "g:特别 + Adjektiv": {
+  "kind": "word",
+  "row": 164,
+  "word": "特别"
+ },
+ "g:不太 + Adjektiv": {
+  "kind": "zusatz",
+  "note": "abgeschwächte Verneinung 不太 nicht im 语法大纲 (太 nur in #15)"
+ },
+ "g:有一点儿 + Adjektiv": {
+  "kind": "word",
+  "row": 15,
+  "word": "有（一）点儿"
+ },
+ "g:对 + Nomen + 感兴趣": {
+  "kind": "word",
+  "row": 22,
+  "word": "对",
+  "note": "对…感兴趣 is a collocation of the preposition 对 (引出对象); no own syllabus row"
+ },
+ "g:以前": {
+  "kind": "row",
+  "row": 198,
+  "note": "（在）……以前/以后/前/后; standalone time-noun use 'früher' is vocabulary"
+ },
+ "g:以后": {
+  "kind": "merge",
+  "row": 198,
+  "note": "same row as g:以前 （在）……以前/以后/前/后"
+ },
+ "g:从…起/开始": {
+  "kind": "row",
+  "row": 193,
+  "note": "从……起; 从…开始 is the colloquial variant"
+ },
+ "g:Verb + 过来/过去": {
+  "kind": "row",
+  "row": 121,
+  "alsoRows": [
+   384
+  ],
+  "note": "directional meaning = 趋向补语1; extended state meaning (醒过来/晕过去) is HSK5 #384"
+ },
+ "g:Verb + 给 + Person": {
+  "kind": "row",
+  "row": 137,
+  "note": "例 送给你一个礼物 = 双宾语句2 主语+动词+给+宾语1+宾语2, not the preposition 给 (#94)"
+ },
+ "g:向 + Richtung/Person": {
+  "kind": "word",
+  "row": 173,
+  "word": "向²",
+  "alsoRows": [
+   172
+  ],
+  "note": "例 向左走 = direction (向²); 向 + person (向¹ 引出对象) is #172"
+ },
+ "g:一直": {
+  "kind": "word",
+  "row": 166,
+  "word": "一直",
+  "note": "'geradeaus' sense is vocabulary"
+ },
+ "g:需要 + Verb/Nomen": {
+  "kind": "word",
+  "row": 152,
+  "word": "需要"
+ },
+ "g:不但…还…": {
+  "kind": "row",
+  "row": 235,
+  "alsoRows": [
+   317
+  ],
+  "note": "syllabus lists 不但……，而且…… (HSK3); 还 variant also in 不仅/不光……，还/而且…… #317"
+ },
+ "g:动词重叠 (Verb-Verdopplung)": {
+  "kind": "row",
+  "row": 73
+ },
+ "g:一下": {
+  "kind": "row",
+  "row": 41,
+  "alsoRows": [
+   73
+  ],
+  "note": "Verb+一下 is the core 动词+动量补语 (softening 'mal kurz'); functionally parallel to verb reduplication #73"
+ },
+ "g:常常/经常": {
+  "kind": "word",
+  "row": 87,
+  "word": "经常",
+  "alsoRows": [
+   167
+  ],
+  "note": "常、经常 HSK2 #87; 常常 listed HSK3 #167"
+ },
+ "g:不要 + Verb": {
+  "kind": "word",
+  "row": 20,
+  "word": "不要",
+  "alsoRows": [
+   50
+  ],
+  "note": "prohibitive 不要 also illustrates 祈使句 #50"
+ },
+ "g:才 + Verb": {
+  "kind": "word",
+  "row": 166,
+  "word": "才¹",
+  "alsoRows": [
+   170,
+   257
+  ],
+  "note": "例 十点才来 = time adverb 才¹ (late); modal 才²/才³ #170, 才⁴ #257"
+ },
+ "g:应该 + Verb": {
+  "kind": "word",
+  "row": 152,
+  "word": "应该"
+ },
+ "g:已经…了": {
+  "kind": "word",
+  "row": 86,
+  "word": "已经",
+  "alsoRows": [
+   62,
+   63
+  ],
+  "note": "time adverb 已经 (HSK2) with sentence-final 了"
+ },
+ "g:快要…了": {
+  "kind": "row",
+  "row": 113,
+  "note": "要/快要/就要……了; g:要…了 merged here"
+ },
+ "g:刚/刚才": {
+  "kind": "word",
+  "row": 166,
+  "word": "刚",
+  "note": "刚 is a time adverb; 刚才 is a time noun (vocabulary contrast, explain in the point)"
+ },
+ "g:比…更/还…": {
+  "kind": "row",
+  "row": 221
+ },
+ "g:一共": {
+  "kind": "word",
+  "row": 165,
+  "word": "一共"
+ },
+ "g:最 + Adjektiv": {
+  "kind": "word",
+  "row": 84,
+  "word": "最"
+ },
+ "g:觉得": {
+  "kind": "remove",
+  "note": "plain verb 'finden/meinen', no grammatical pattern; vocabulary"
+ },
+ "g:还是…吧": {
+  "kind": "row",
+  "row": 112
+ },
+ "g:要…了": {
+  "kind": "merge",
+  "row": 113,
+  "note": "duplicate of g:快要…了 (row 要/快要/就要……了)"
+ },
+ "g:多么 + Adj": {
+  "kind": "word",
+  "row": 250,
+  "word": "多么",
+  "alsoRows": [
+   51
+  ],
+  "note": "exclamative use also illustrates 感叹句 #51"
+ },
+ "g:虽然…可是…": {
+  "kind": "row",
+  "row": 236
+ },
+ "g:一点儿也不 + Adj": {
+  "kind": "row",
+  "row": 196,
+  "alsoRows": [
+   195
+  ]
+ },
+ "g:又…又… (Verben)": {
+  "kind": "row",
+  "row": 233
+ },
+ "g:Verb + 得 + 很好": {
+  "kind": "row",
+  "row": 122,
+  "alsoRows": [
+   100
+  ],
+  "note": "状态补语1 动词+得+形容词性短语 (old label 'Grad-Komplement' is wrong)"
+ },
+ "g:不是…就是…": {
+  "kind": "row",
+  "row": 320
+ },
+ "g:那么 + Adj/Verb": {
+  "kind": "word",
+  "row": 78,
+  "word": "那么",
+  "alsoRows": [
+   133
+  ]
+ },
+ "g:不…也不…": {
+  "kind": "row",
+  "row": 60,
+  "note": "'weder…noch' = parallel negation with 也 (并列 ……，也……); NOT #336 不……也…… which is concessive/conditional ('even without… still')"
+ },
+ "g:…的话": {
+  "kind": "word",
+  "row": 179,
+  "word": "的话",
+  "alsoRows": [
+   238
+  ]
+ },
+ "g:除了...以外": {
+  "kind": "row",
+  "row": 192
+ },
+ "g:只要...就...": {
+  "kind": "row",
+  "row": 240
+ },
+ "g:只有...才...": {
+  "kind": "row",
+  "row": 239
+ },
+ "g:连...都/也...": {
+  "kind": "row",
+  "row": 319,
+  "alsoRows": [
+   575
+  ],
+  "note": "syllabus has 连 only inside 连……也/都……，……更…… (HSK4) and 连……都……，更不用说……了 (HSK7-9); the basic 连…都/也 frame is taught at #319"
+ },
+ "g:对...来说": {
+  "kind": "row",
+  "row": 194
+ },
+ "g:关于": {
+  "kind": "word",
+  "row": 172,
+  "word": "关于"
+ },
+ "g:Verb + 起来": {
+  "kind": "row",
+  "row": 207,
+  "alsoRows": [
+   121,
+   384,
+   188
+  ],
+  "note": "例 笑了起来 = start of action (趋向补语2); directional #121, state #384, impression 看起来 #188"
+ },
+ "g:Verb + 下去": {
+  "kind": "row",
+  "row": 208,
+  "alsoRows": [
+   121,
+   384
+  ],
+  "note": "例 说下去 = continuation"
+ },
+ "g:Verb + 出来": {
+  "kind": "row",
+  "row": 121,
+  "alsoRows": [
+   206
+  ],
+  "note": "directional 'heraus-' = 趋向补语1; result meaning 看出来 'erkennen' = #206"
+ },
+ "g:Verb + 下来": {
+  "kind": "row",
+  "row": 121,
+  "alsoRows": [
+   206,
+   208,
+   384
+  ],
+  "note": "directional 'herunter-' #121; 记下来 (fixing/result) #206; 坚持下来 #208; 安静下来 'sich beruhigen' #384"
+ },
+ "g:Verb + 得了/不了": {
+  "kind": "row",
+  "row": 296,
+  "note": "可能补语2 动词+得/不+了; proposal (不得了/得了) was wrong"
+ },
+ "g:Verb + 得/不 + Komplement": {
+  "kind": "row",
+  "row": 209,
+  "note": "可能补语1 动词+得/不+动词/形容词; proposal word-rows were wrong"
+ },
+ "g:无论/不管...都...": {
+  "kind": "row",
+  "row": 329,
+  "alsoRows": [
+   328
+  ],
+  "note": "bundles 无论 #329 and 不管 #328; 不管 has its own old point g:不管…都…"
+ },
+ "g:既然...就...": {
+  "kind": "row",
+  "row": 330
+ },
+ "g:不是...而是...": {
+  "kind": "row",
+  "row": 310
+ },
+ "g:一方面...另一方面...": {
+  "kind": "row",
+  "row": 312
+ },
+ "g:尽管...还是...": {
+  "kind": "row",
+  "row": 321,
+  "note": "syllabus 尽管……，但是/可是……; 还是 in the main clause is a common variant"
+ },
+ "g:即使...也...": {
+  "kind": "row",
+  "row": 333
+ },
+ "g:与其...不如...": {
+  "kind": "row",
+  "row": 562,
+  "alsoRows": [
+   307
+  ],
+  "note": "syllabus lists 与其……，宁愿/宁可…… (HSK7-9); 与其…不如 is the common variant of the same preference frame"
+ },
+ "g:把...当作...": {
+  "kind": "merge",
+  "row": 391,
+  "note": "把+宾语1+动词+宾语2 (把X当作Y); same row as g:把…Verb + 成…"
+ },
+ "g:不仅...还/而且...": {
+  "kind": "row",
+  "row": 317
+ },
+ "g:之所以...是因为...": {
+  "kind": "zusatz",
+  "note": "result-first causal frame not in the HSK 2025 syllabus"
+ },
+ "g:由于": {
+  "kind": "word",
+  "row": 260,
+  "word": "由于¹",
+  "alsoRows": [
+   265,
+   331
+  ],
+  "note": "preposition 由于¹ HSK4; conjunction 由于² #265 and (由于)……，因此…… #331"
+ },
+ "g:以为": {
+  "kind": "remove",
+  "note": "lexical verb ('mistakenly think'); not a syllabus item, vocabulary (以为 vs 认为 contrast belongs in vocab notes)"
+ },
+ "g:恐怕": {
+  "kind": "word",
+  "row": 256,
+  "word": "恐怕"
+ },
+ "g:Verb/Adj + 极了": {
+  "kind": "row",
+  "row": 211
+ },
+ "g:再说": {
+  "kind": "zusatz",
+  "note": "discourse connector 'außerdem', not listed in the syllabus"
+ },
+ "g:倒": {
+  "kind": "word",
+  "row": 421,
+  "word": "倒是",
+  "alsoRows": [
+   563
+  ],
+  "note": "modal adverb 倒(是) (contrary to expectation) HSK6; X（倒）是X #563"
+ },
+ "g:反而": {
+  "kind": "word",
+  "row": 350,
+  "word": "反而",
+  "alsoRows": [
+   404
+  ]
+ },
+ "g:毕竟": {
+  "kind": "word",
+  "row": 350,
+  "word": "毕竟"
+ },
+ "g:果然": {
+  "kind": "word",
+  "row": 350,
+  "word": "果然"
+ },
+ "g:居然": {
+  "kind": "word",
+  "row": 350,
+  "word": "居然"
+ },
+ "g:为了 + Ziel": {
+  "kind": "word",
+  "row": 174,
+  "word": "为了",
+  "alsoRows": [
+   241
+  ]
+ },
+ "g:好像…似的": {
+  "kind": "word",
+  "row": 359,
+  "word": "似的",
+  "alsoRows": [
+   169
+  ],
+  "note": "particle 似的 HSK5; 好像 is 情态副词 #169"
+ },
+ "g:不管…都…": {
+  "kind": "row",
+  "row": 328
+ },
+ "g:既…又…": {
+  "kind": "row",
+  "row": 311
+ },
+ "g:宁可…也不…": {
+  "kind": "row",
+  "row": 561
+ },
+ "g:原来": {
+  "kind": "zusatz",
+  "note": "discourse adverb 'it turns out' not listed in the syllabus adverb lists"
+ },
+ "g:据说": {
+  "kind": "word",
+  "row": 355,
+  "word": "据",
+  "note": "据说 = lexicalized 据 + 说 ('according to what is said'); teach under preposition 据 (HSK5)"
+ },
+ "g:可能": {
+  "kind": "word",
+  "row": 74,
+  "word": "可能",
+  "note": "能愿动词 可能 HSK2"
+ },
+ "g:并 + Verneinung": {
+  "kind": "word",
+  "row": 257,
+  "word": "并¹"
+ },
+ "g:好不容易": {
+  "kind": "row",
+  "row": 432
+ },
+ "g:却": {
+  "kind": "word",
+  "row": 255,
+  "word": "却"
+ },
+ "g:总是": {
+  "kind": "word",
+  "row": 167,
+  "word": "总是"
+ },
+ "g:不得不 + Verb": {
+  "kind": "row",
+  "row": 309,
+  "note": "不得不 is the textbook case of 双重否定表示强调; could alternatively be vocab"
+ },
+ "g:只好 + Verb": {
+  "kind": "word",
+  "row": 257,
+  "word": "只好"
+ },
+ "g:根据": {
+  "kind": "word",
+  "row": 176,
+  "word": "根据"
+ },
+ "g:另外": {
+  "kind": "word",
+  "row": 265,
+  "word": "另外"
+ },
+ "g:再…也…": {
+  "kind": "row",
+  "row": 409
+ },
+ "g:看起来": {
+  "kind": "row",
+  "row": 188
+ },
+ "g:难道…吗": {
+  "kind": "row",
+  "row": 297
+ },
+ "g:到底": {
+  "kind": "word",
+  "row": 257,
+  "word": "到底"
+ },
+ "g:越…越… (Selbstbezug)": {
+  "kind": "row",
+  "row": 197
+ },
+ "g:把…Verb + 成…": {
+  "kind": "row",
+  "row": 391,
+  "alsoRows": [
+   217
+  ],
+  "note": "把+宾语1+动词+宾语2 (把X写成/看成/当作Y), HSK5; g:把...当作... merged here"
+ },
+ "g:竟然": {
+  "kind": "word",
+  "row": 257,
+  "word": "竟然"
+ },
+ "g:不如": {
+  "kind": "row",
+  "row": 307,
+  "note": "A不如B（+形容词）; suggestion use '…不如…' is a further use"
+ },
+ "g:尤其": {
+  "kind": "word",
+  "row": 250,
+  "word": "尤其"
+ },
+ "g:万一…就…": {
+  "kind": "row",
+  "row": 399
+ },
+ "g:按照": {
+  "kind": "word",
+  "row": 262,
+  "word": "按照"
+ },
+ "g:看样子": {
+  "kind": "zusatz",
+  "note": "parenthetical like 看来 #185 / 看起来 #188 but not itself listed"
+ },
+ "g:除非…才…": {
+  "kind": "row",
+  "row": 456
+ },
+ "g:对于…来说": {
+  "kind": "merge",
+  "row": 194,
+  "alsoRows": [
+   261
+  ],
+  "note": "variant of g:对...来说 (对……来说) with preposition 对于 (#261)"
+ },
+ "g:可不是吗": {
+  "kind": "row",
+  "row": 509,
+  "note": "话语标记 可不（是嘛）"
+ },
+ "g:显然": {
+  "kind": "remove",
+  "note": "plain adverb 'offensichtlich', no pattern, not in syllabus; vocabulary"
+ },
+ "g:到处": {
+  "kind": "word",
+  "row": 165,
+  "word": "到处"
+ },
+ "g:随便": {
+  "kind": "remove",
+  "note": "plain word 'beliebig/egal', no grammatical pattern; vocabulary"
+ },
+ "g:差点儿 + Verb": {
+  "kind": "word",
+  "row": 257,
+  "word": "差（一）点儿",
+  "note": "listed as 语气副词 HSK4 (proposal 'vocab' was wrong)"
+ },
+ "g:干脆": {
+  "kind": "word",
+  "row": 421,
+  "word": "干脆"
+ },
+ "g:再也不/没 + Verb": {
+  "kind": "row",
+  "row": 281
+ },
+ "g:既...又...": {
+  "kind": "merge",
+  "row": 311,
+  "note": "duplicate of g:既…又…"
+ },
+ "g:不管...都...": {
+  "kind": "merge",
+  "row": 328,
+  "note": "duplicate of g:不管…都…"
+ },
+ "g:宁可...也不...": {
+  "kind": "row",
+  "row": 561,
+  "alsoRows": [
+   476
+  ],
+  "note": "宁可 also listed as 语气副词 in #476"
+ },
+ "g:无论...都...": {
+  "kind": "row",
+  "row": 329,
+  "alsoRows": [
+   566
+  ]
+ },
+ "g:除了...以外，还...": {
+  "kind": "row",
+  "row": 192,
+  "alsoRows": [
+   425
+  ]
+ },
+ "g:先...然后...": {
+  "kind": "row",
+  "row": 230,
+  "alsoRows": [
+   314
+  ]
+ },
+ "g:把": {
+  "kind": "word",
+  "row": 175,
+  "word": "把",
+  "alsoRows": [
+   215,
+   216,
+   217,
+   299,
+   300,
+   301,
+   302,
+   390,
+   391,
+   450,
+   451
+  ],
+  "note": "Ba-construction; individual preposition point in #175, sentence patterns 把字句1-4"
+ },
+ "g:被": {
+  "kind": "word",
+  "row": 175,
+  "word": "被",
+  "alsoRows": [
+   218,
+   219,
+   394
+  ],
+  "note": "passive marker; 被动句 rows 218/219/394"
+ },
+ "g:不仅...还...": {
+  "kind": "row",
+  "row": 317,
+  "alsoRows": [
+   265
+  ]
+ },
+ "g:就算...也...": {
+  "kind": "row",
+  "row": 458
+ },
+ "g:难道...吗？": {
+  "kind": "row",
+  "row": 297,
+  "alsoRows": [
+   257
+  ]
+ },
+ "g:何况": {
+  "kind": "row",
+  "row": 576,
+  "note": "何况 only appears in the frame ……尚且……，（更）何况……"
+ },
+ "g:难免": {
+  "kind": "zusatz",
+  "note": "not in syllabus; modal word close to 不免 (#476) / 免不了 (#462) — borderline vocab"
+ },
+ "g:不得不": {
+  "kind": "row",
+  "row": 309,
+  "note": "classic double negation for emphasis (双重否定句); 不得不 itself not listed"
+ },
+ "g:否则": {
+  "kind": "row",
+  "row": 325,
+  "alsoRows": [
+   327,
+   457,
+   569
+  ]
+ },
+ "g:万一": {
+  "kind": "row",
+  "row": 399
+ },
+ "g:除非…否则…": {
+  "kind": "row",
+  "row": 457,
+  "alsoRows": [
+   456
+  ]
+ },
+ "g:要不然": {
+  "kind": "row",
+  "row": 400
+ },
+ "g:免得": {
+  "kind": "word",
+  "row": 481,
+  "word": "免得"
+ },
+ "g:怪不得": {
+  "kind": "word",
+  "row": 476,
+  "word": "怪不得",
+  "note": "synonym 难怪 is a separate word in the same row"
+ },
+ "g:来不及": {
+  "kind": "row",
+  "row": 272
+ },
+ "g:来得及": {
+  "kind": "merge",
+  "row": 272,
+  "note": "same row as g:来不及 (来得及/来不及)"
+ },
+ "g:显得": {
+  "kind": "remove",
+  "note": "plain verb 'wirken/erscheinen', no grammatical pattern — vocabulary"
+ },
+ "g:究竟": {
+  "kind": "word",
+  "row": 257,
+  "word": "究竟"
+ },
+ "g:幸亏": {
+  "kind": "word",
+  "row": 476,
+  "word": "幸亏",
+  "alsoRows": [
+   569
+  ],
+  "note": "example matches 幸亏/幸好……，不然/否则…… (#569)"
+ },
+ "g:看来": {
+  "kind": "row",
+  "row": 185,
+  "alsoRows": [
+   186
+  ]
+ },
+ "g:似乎": {
+  "kind": "word",
+  "row": 349,
+  "word": "似乎"
+ },
+ "g:并不/并没有": {
+  "kind": "word",
+  "row": 257,
+  "word": "并¹",
+  "note": "并 before negation (emphatic) = 语气副词 并¹; 并² (conjunction) is #263"
+ },
+ "g:既…也…": {
+  "kind": "row",
+  "row": 311
+ },
+ "g:一方面…另一方面…": {
+  "kind": "row",
+  "row": 312
+ },
+ "g:可见": {
+  "kind": "row",
+  "row": 402,
+  "alsoRows": [
+   358
+  ],
+  "note": "example is the 因果复句 ……，可见…… (#402); 可见 also in connector list #358"
+ },
+ "g:以来": {
+  "kind": "row",
+  "row": 368
+ },
+ "g:尽管…但…": {
+  "kind": "row",
+  "row": 321
+ },
+ "g:与其…宁可…": {
+  "kind": "row",
+  "row": 562
+ },
+ "g:再怎么…也…": {
+  "kind": "row",
+  "row": 409,
+  "alsoRows": [
+   282
+  ],
+  "note": "再……也…… 紧缩复句; 怎么都/也 in #282"
+ },
+ "g:难怪": {
+  "kind": "word",
+  "row": 476,
+  "word": "难怪",
+  "note": "synonym 怪不得 is a separate word in the same row"
+ },
+ "g:往往": {
+  "kind": "word",
+  "row": 253,
+  "word": "往往"
+ },
+ "g:至少": {
+  "kind": "word",
+  "row": 251,
+  "word": "至少"
+ },
+ "g:宁愿…也…": {
+  "kind": "merge",
+  "row": 561,
+  "note": "duplicate of g:宁可...也不... (宁可/宁愿……，也不……)"
+ },
+ "g:动不动就…": {
+  "kind": "row",
+  "row": 533
+ },
+ "g:之际": {
+  "kind": "row",
+  "row": 555,
+  "note": "syllabus has the formal frame 值此……之际; old point is the general ……之际"
+ },
+ "g:既不…也不…": {
+  "kind": "merge",
+  "row": 311,
+  "note": "negative variant of g:既…也… (既……，又/也……)"
+ },
+ "g:不到…不…": {
+  "kind": "row",
+  "row": 408,
+  "note": "不……不…… 紧缩复句 (conditional 'not unless'); example 不到长城非好汉 is actually 不…非…"
+ },
+ "g:非…才…": {
+  "kind": "row",
+  "row": 580,
+  "alsoRows": [
+   456
+  ],
+  "note": "非得……才……; 非 without 得 is the same frame"
+ },
+ "g:一经…便…": {
+  "kind": "word",
+  "row": 472,
+  "word": "一经",
+  "alsoRows": [
+   395
+  ],
+  "note": "一经 listed as 时间副词 #472; 便 frame #395"
+ },
+ "g:要么…要么…": {
+  "kind": "row",
+  "row": 453
+ },
+ "g:…也好，…也好": {
+  "kind": "word",
+  "row": 429,
+  "word": "也好",
+  "alsoRows": [
+   529
+  ],
+  "note": "助词 也好 (HSK6); X也好，Y也罢 is #529"
+ },
+ "g:…不说，还…": {
+  "kind": "row",
+  "row": 574
+ },
+ "g:之一": {
+  "kind": "zusatz",
+  "note": "最…之一 not in syllabus (之 only as 助词 in #266); useful construction, keep as extra"
+ },
+ "g:果不其然": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: chengyu/set expression — vocabulary"
+ },
+ "g:说白了": {
+  "kind": "zusatz",
+  "note": "discourse marker not listed (cf. listed markers 老实说 #510, 说真的 #514)"
+ },
+ "g:不论…还是…都…": {
+  "kind": "merge",
+  "row": 329,
+  "alsoRows": [
+   328
+  ],
+  "note": "不论 = 无论; same row as g:无论...都..."
+ },
+ "g:总之": {
+  "kind": "word",
+  "row": 358,
+  "word": "总之"
+ },
+ "g:莫非": {
+  "kind": "word",
+  "row": 476,
+  "word": "莫非"
+ },
+ "g:未免": {
+  "kind": "word",
+  "row": 476,
+  "word": "未免"
+ },
+ "g:以至于": {
+  "kind": "row",
+  "row": 572
+ },
+ "g:以免": {
+  "kind": "zusatz",
+  "note": "connector not listed (related 免得/以防 #481, ……，以…… #579)"
+ },
+ "g:从而": {
+  "kind": "word",
+  "row": 358,
+  "word": "从而"
+ },
+ "g:何必": {
+  "kind": "word",
+  "row": 476,
+  "word": "何必"
+ },
+ "g:尽管": {
+  "kind": "merge",
+  "row": 321,
+  "note": "duplicate of g:尽管…但… (example is concessive 尽管……，还是……)"
+ },
+ "g:不禁": {
+  "kind": "word",
+  "row": 419,
+  "word": "不禁"
+ },
+ "g:并非": {
+  "kind": "word",
+  "row": 462,
+  "word": "并非"
+ },
+ "g:不见得": {
+  "kind": "word",
+  "row": 475,
+  "word": "不见得"
+ },
+ "g:况且": {
+  "kind": "word",
+  "row": 481,
+  "word": "况且"
+ },
+ "g:尽量": {
+  "kind": "word",
+  "row": 347,
+  "word": "尽量"
+ },
+ "g:不得已": {
+  "kind": "remove",
+  "note": "adjective 'notgedrungen', no pattern — vocabulary"
+ },
+ "g:固然": {
+  "kind": "zusatz",
+  "note": "literary concessive connector (固然……，但……), not in syllabus"
+ },
+ "g:以便": {
+  "kind": "row",
+  "row": 459
+ },
+ "g:岂不是": {
+  "kind": "zusatz",
+  "note": "rhetorical question with 岂, not listed (cf. 不是……吗 #214, 反问句 #298)"
+ },
+ "g:不免": {
+  "kind": "word",
+  "row": 476,
+  "word": "不免"
+ },
+ "g:无非": {
+  "kind": "word",
+  "row": 471,
+  "word": "无非",
+  "alsoRows": [
+   547
+  ]
+ },
+ "g:何尝": {
+  "kind": "word",
+  "row": 476,
+  "word": "何尝"
+ },
+ "g:不惜": {
+  "kind": "remove",
+  "note": "plain verb 'nicht scheuen', no grammatical pattern — vocabulary"
+ },
+ "g:但凡": {
+  "kind": "zusatz",
+  "note": "conditional connector not in syllabus"
+ },
+ "g:即便…也…": {
+  "kind": "row",
+  "row": 333,
+  "note": "即便 = 即使; 即使……，也…… (#333)"
+ },
+ "g:未必": {
+  "kind": "word",
+  "row": 420,
+  "word": "未必"
+ },
+ "g:哪怕…也…": {
+  "kind": "row",
+  "row": 403
+ },
+ "g:非…不可": {
+  "kind": "merge",
+  "row": 309,
+  "alsoRows": [
+   580
+  ],
+  "note": "double negation for emphasis, same row as g:不得不; 非得 in #476/#580"
+ },
+ "g:要不是…就…": {
+  "kind": "zusatz",
+  "note": "counterfactual 要不是 not listed (related ……，要不然…… #400)"
+ },
+ "g:何止": {
+  "kind": "zusatz",
+  "note": "literary rhetorical 何止 not listed (何 as 疑问代词 #465)"
+ },
+ "g:由此可见": {
+  "kind": "merge",
+  "row": 402,
+  "note": "fixed form of ……，可见……; same target as g:可见"
+ },
+ "g:不妨": {
+  "kind": "word",
+  "row": 476,
+  "word": "不妨"
+ },
+ "g:反正": {
+  "kind": "word",
+  "row": 350,
+  "word": "反正"
+ },
+ "g:无论如何": {
+  "kind": "row",
+  "row": 516
+ },
+ "g:迫不得已": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: chengyu — vocabulary"
+ },
+ "g:归根到底": {
+  "kind": "row",
+  "row": 504
+ },
+ "g:实际上": {
+  "kind": "remove",
+  "note": "plain adverb (like 其实), no pattern — vocabulary"
+ },
+ "g:与其说…不如说…": {
+  "kind": "zusatz",
+  "note": "not in syllabus; related 与其……，宁愿/宁可…… #562 and A不如B #307"
+ },
+ "g:难道": {
+  "kind": "merge",
+  "row": 297,
+  "alsoRows": [
+   257
+  ],
+  "note": "same content/example as g:难道...吗？; word 难道 also in 语气副词 #257"
+ },
+ "g:总而言之": {
+  "kind": "row",
+  "row": 523
+ },
+ "g:一旦…就…": {
+  "kind": "row",
+  "row": 397,
+  "alsoRows": [
+   348
+  ]
+ },
+ "g:倒不如": {
+  "kind": "zusatz",
+  "note": "not listed; 倒 + 不如 (cf. A不如B #307, 与其 #562)"
+ },
+ "g:不至于": {
+  "kind": "zusatz",
+  "note": "not listed (cf. 何至于…… #537); borderline vocab"
+ },
+ "g:所谓": {
+  "kind": "word",
+  "row": 462,
+  "word": "所谓",
+  "alsoRows": [
+   559
+  ]
+ },
+ "g:之所以…是因为…": {
+  "kind": "zusatz",
+  "note": "effect-cause frame not in syllabus"
+ },
+ "g:有鉴于": {
+  "kind": "word",
+  "row": 480,
+  "word": "鉴于¹",
+  "alsoRows": [
+   481
+  ],
+  "note": "有鉴于 = prepositional 鉴于¹; 鉴于² (conjunction) is #481"
+ },
+ "g:基于": {
+  "kind": "word",
+  "row": 480,
+  "word": "基于"
+ },
+ "g:就此": {
+  "kind": "word",
+  "row": 472,
+  "word": "就此"
+ },
+ "g:为此": {
+  "kind": "word",
+  "row": 246,
+  "word": "此",
+  "note": "此-compounds (为此/对此/由此) explained under demonstrative 此 (#246); not listed on their own"
+ },
+ "g:对此": {
+  "kind": "merge",
+  "row": 246,
+  "word": "此",
+  "note": "same target as g:为此 (demonstrative 此 in prepositional phrase)"
+ },
+ "g:因此": {
+  "kind": "merge",
+  "row": 331,
+  "alsoRows": [
+   265
+  ],
+  "note": "（由于）……，因此…… — same row as g:由于…因此…; 因此 also in connector list #265"
+ },
+ "g:据悉": {
+  "kind": "merge",
+  "row": 355,
+  "word": "据",
+  "note": "fixed formal 据+V; same target as g:据了解"
+ },
+ "g:据了解": {
+  "kind": "word",
+  "row": 355,
+  "word": "据",
+  "note": "preposition 据 (according to) + verb"
+ },
+ "g:由于…因此…": {
+  "kind": "row",
+  "row": 331,
+  "alsoRows": [
+   260
+  ]
+ },
+ "g:之余": {
+  "kind": "row",
+  "row": 554
+ },
+ "g:有所": {
+  "kind": "word",
+  "row": 462,
+  "word": "有所"
+ },
+ "g:加以": {
+  "kind": "zusatz",
+  "note": "formal dummy verb + verbal object, not listed (parallel to 予以 #462)"
+ },
+ "g:予以": {
+  "kind": "word",
+  "row": 462,
+  "word": "予以"
+ },
+ "g:给予": {
+  "kind": "remove",
+  "note": "formal verb 'gewähren'; plain vocabulary, no grammatical pattern"
+ },
+ "g:加之": {
+  "kind": "word",
+  "row": 482,
+  "word": "加之"
+ },
+ "g:进而": {
+  "kind": "zusatz",
+  "note": "literary connector (progression), not in syllabus"
+ },
+ "g:继而": {
+  "kind": "zusatz",
+  "note": "literary connector (sequence), not in syllabus; cf. 承接复句 #315/#395"
+ },
+ "g:随之": {
+  "kind": "zusatz",
+  "note": "literary connective adverbial (随+之), not in syllabus"
+ },
+ "g:与此同时": {
+  "kind": "zusatz",
+  "note": "discourse connector, not in syllabus"
+ },
+ "g:值得一提的是": {
+  "kind": "zusatz",
+  "note": "discourse marker, not in syllabus (cf. 话语标记 #499–523)"
+ },
+ "g:不难看出": {
+  "kind": "zusatz",
+  "note": "discourse marker, not in syllabus"
+ },
+ "g:不可否认": {
+  "kind": "zusatz",
+  "note": "discourse marker, not in syllabus"
+ },
+ "g:众所周知": {
+  "kind": "remove",
+  "note": "chengyu; vocabulary"
+ },
+ "g:显而易见": {
+  "kind": "remove",
+  "note": "chengyu; vocabulary"
+ },
+ "g:理所当然": {
+  "kind": "remove",
+  "note": "chengyu; vocabulary"
+ },
+ "g:就…而言": {
+  "kind": "word",
+  "row": 479,
+  "word": "就⁶",
+  "alsoRows": [
+   194
+  ],
+  "note": "frame built on preposition 就⁶ (引出对象, 'regarding'); 就……而言/来说/来看; cf. 对……来说 #194"
+ },
+ "g:就…来看": {
+  "kind": "merge",
+  "row": 479,
+  "word": "就⁶",
+  "alsoRows": [
+   366
+  ],
+  "note": "same 就⁶ frame as g:就…而言 (就……来看); cf. 从……来看 #366"
+ },
+ "g:在…看来": {
+  "kind": "row",
+  "row": 186
+ },
+ "g:从…角度": {
+  "kind": "row",
+  "row": 366,
+  "note": "从……角度（来看） is the common filled form of 从……来看"
+ },
+ "g:无疑": {
+  "kind": "remove",
+  "note": "adverb/adjective 'zweifellos', not in syllabus; plain vocabulary (like 日益)"
+ },
+ "g:确切地说": {
+  "kind": "zusatz",
+  "note": "discourse marker (X地说), not in syllabus; cf. 老实说 #510"
+ },
+ "g:然而": {
+  "kind": "row",
+  "row": 322
+ },
+ "g:纵观": {
+  "kind": "remove",
+  "note": "verb 'überblicken'; vocabulary"
+ },
+ "g:不仅如此": {
+  "kind": "zusatz",
+  "note": "connector phrase (不仅+如此), not listed; cf. 不仅 #265, 不仅……还 #317, 如此 #341"
+ },
+ "g:有利于": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: verb; vocabulary"
+ },
+ "g:不利于": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: verb; vocabulary"
+ },
+ "g:致使": {
+  "kind": "remove",
+  "note": "causative verb; vocabulary (causative 兼语 pattern is #306 with 使/让)"
+ },
+ "g:促使": {
+  "kind": "remove",
+  "note": "causative verb; vocabulary (cf. #306)"
+ },
+ "g:导致": {
+  "kind": "remove",
+  "note": "verb 'zur Folge haben'; vocabulary"
+ },
+ "g:乃": {
+  "kind": "word",
+  "row": 477,
+  "word": "乃"
+ },
+ "g:其": {
+  "kind": "zusatz",
+  "note": "literary pronoun 其, not listed in syllabus pronoun rows"
+ },
+ "g:之 (Attributpartikel)": {
+  "kind": "word",
+  "row": 266,
+  "word": "之"
+ },
+ "g:所 + Verb": {
+  "kind": "word",
+  "row": 427,
+  "word": "所",
+  "note": "structural particle 所 (HSK6), not the measure word 所 #160"
+ },
+ "g:为…所…": {
+  "kind": "zusatz",
+  "note": "literary passive 为……所……, not listed; uses 所 #427, cf. 被动句 #218"
+ },
+ "g:以…为主": {
+  "kind": "zusatz",
+  "note": "literary frame 以A为B, not in syllabus"
+ },
+ "g:无论…与否": {
+  "kind": "row",
+  "row": 566
+ },
+ "g:凡是…都…": {
+  "kind": "row",
+  "row": 455
+ },
+ "g:总的来说": {
+  "kind": "row",
+  "row": 522
+ },
+ "g:一言以蔽之": {
+  "kind": "zusatz",
+  "note": "classical discourse marker 'in a word', not listed; cf. 简（而）言之 #508, 总而言之 #523"
+ },
+ "g:简而言之": {
+  "kind": "row",
+  "row": 508
+ },
+ "g:换言之": {
+  "kind": "merge",
+  "row": 507,
+  "note": "literary variant of 换句话说; merge with g:换句话说"
+ },
+ "g:也就是说": {
+  "kind": "row",
+  "row": 276,
+  "note": "也就是说 = variant of 就是说/这就是说"
+ },
+ "g:追根溯源": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: chengyu; vocabulary (cf. 归根到底 #504)"
+ },
+ "g:毫无疑问": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: set four-character expression; vocabulary"
+ },
+ "g:不证自明": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: chengyu-like set expression; vocabulary"
+ },
+ "g:一如既往": {
+  "kind": "remove",
+  "note": "chengyu; vocabulary"
+ },
+ "g:言下之意": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: set noun phrase; vocabulary"
+ },
+ "g:话虽如此": {
+  "kind": "row",
+  "row": 505,
+  "note": "literary variant of 话是这么说"
+ },
+ "g:退一步说": {
+  "kind": "row",
+  "row": 515
+ },
+ "g:反过来说": {
+  "kind": "row",
+  "row": 502
+ },
+ "g:此外": {
+  "kind": "word",
+  "row": 264,
+  "word": "此外"
+ },
+ "g:综上所述": {
+  "kind": "row",
+  "row": 521
+ },
+ "g:可想而知": {
+  "kind": "remove",
+  "note": "chengyu; vocabulary"
+ },
+ "g:由此看来": {
+  "kind": "zusatz",
+  "note": "discourse connector, not listed; cf. 看来 #185, ……，可见…… #402"
+ },
+ "g:从…出发": {
+  "kind": "zusatz",
+  "note": "frame 从……出发 'ausgehend von', not in syllabus"
+ },
+ "g:在…基础上": {
+  "kind": "row",
+  "row": 201,
+  "note": "abstract 在……上 frame (在……基础上)"
+ },
+ "g:在…前提下": {
+  "kind": "row",
+  "row": 201,
+  "note": "abstract 在……下 frame (在……前提下)"
+ },
+ "g:在…的情况下": {
+  "kind": "row",
+  "row": 201,
+  "note": "abstract 在……下 frame (在……情况下)"
+ },
+ "g:无外乎": {
+  "kind": "zusatz",
+  "note": "literary 'nichts anderes als', not listed; cf. 无非 #471, #547"
+ },
+ "g:以…为例": {
+  "kind": "zusatz",
+  "note": "literary frame 以A为B; same function as 拿……来说 #280"
+ },
+ "g:之所以…在于…": {
+  "kind": "zusatz",
+  "note": "之所以……（是因为/在于）…… not in syllabus"
+ },
+ "g:正因为…所以…": {
+  "kind": "row",
+  "row": 140,
+  "note": "emphatic 正 + 因为……，所以……"
+ },
+ "g:与其…倒不如…": {
+  "kind": "row",
+  "row": 562,
+  "alsoRows": [
+   307
+  ],
+  "note": "syllabus lists 与其……，宁愿/宁可……; 不如 variant (cf. A不如B #307)"
+ },
+ "g:既…就…": {
+  "kind": "row",
+  "row": 330,
+  "note": "literary 既 = 既然; 既……就/则……"
+ },
+ "g:要不…要不…": {
+  "kind": "row",
+  "row": 453,
+  "note": "colloquial variant of 要么……，要么……"
+ },
+ "g:别说…就连…也…": {
+  "kind": "row",
+  "row": 573,
+  "alsoRows": [
+   319
+  ],
+  "note": "别说……，（就）连……也……"
+ },
+ "g:不…反…": {
+  "kind": "row",
+  "row": 404,
+  "note": "example is 不但没……，反而……"
+ },
+ "g:可…可…": {
+  "kind": "row",
+  "row": 492
+ },
+ "g:话说回来": {
+  "kind": "row",
+  "row": 506
+ },
+ "g:说到底": {
+  "kind": "zusatz",
+  "note": "discourse marker, not listed; same meaning as 归根到底 #504"
+ },
+ "g:说起来容易做起来难": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: set saying; vocabulary"
+ },
+ "g:可不是嘛": {
+  "kind": "row",
+  "row": 509
+ },
+ "g:也罢": {
+  "kind": "word",
+  "row": 483,
+  "word": "也罢",
+  "alsoRows": [
+   529
+  ]
+ },
+ "g:…也就罢了": {
+  "kind": "zusatz",
+  "note": "X也就罢了，还Y not listed; cf. ……不说，还…… #574 and 罢了 #483"
+ },
+ "g:不是…而是…的问题": {
+  "kind": "row",
+  "row": 310,
+  "note": "narrow use of 不是……，而是……"
+ },
+ "g:不在于…而在于…": {
+  "kind": "row",
+  "row": 310,
+  "note": "不在于X而在于Y is a 不是……，而是…… variant"
+ },
+ "g:所谓…就是…": {
+  "kind": "row",
+  "row": 559
+ },
+ "g:首先…其次…最后…": {
+  "kind": "row",
+  "row": 313,
+  "alsoRows": [
+   314
+  ]
+ },
+ "g:一方面…同时…": {
+  "kind": "row",
+  "row": 312,
+  "note": "variant of 一方面……，另一方面……"
+ },
+ "g:换句话说": {
+  "kind": "row",
+  "row": 507
+ },
+ "g:严格来说": {
+  "kind": "zusatz",
+  "note": "discourse marker X来说, not listed; cf. 一般来说 #190"
+ },
+ "g:坦白说": {
+  "kind": "zusatz",
+  "note": "discourse marker, not listed; same meaning as 老实说 #510"
+ },
+ "g:打个比方": {
+  "kind": "zusatz",
+  "note": "discourse marker, not listed"
+ },
+ "g:据我所知": {
+  "kind": "zusatz",
+  "note": "fixed discourse marker, not listed; built on 据 #355 + 所 #427"
+ },
+ "g:大致说来": {
+  "kind": "zusatz",
+  "note": "discourse marker, not listed; cf. 一般来说 #190, 总的来说 #522"
+ },
+ "g:…至关重要": {
+  "kind": "remove",
+  "note": "set expression 'äußerst wichtig'; vocabulary"
+ },
+ "g:以致": {
+  "kind": "row",
+  "row": 572,
+  "note": "以致 (negative result) is the near-synonym of 以至（于）; taught together"
+ },
+ "g:乃至": {
+  "kind": "word",
+  "row": 482,
+  "word": "乃至"
+ },
+ "g:权且": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: adverb not in syllabus, synonym of 姑且 (#472); vocabulary"
+ },
+ "g:姑且": {
+  "kind": "word",
+  "row": 472,
+  "word": "姑且"
+ },
+ "g:得以": {
+  "kind": "remove",
+  "note": "verb 'in die Lage versetzt werden', not in syllabus; vocabulary"
+ },
+ "g:有待": {
+  "kind": "remove",
+  "note": "verb; vocabulary"
+ },
+ "g:与其...不如": {
+  "kind": "merge",
+  "row": 562,
+  "alsoRows": [
+   307
+  ],
+  "note": "duplicate of g:与其…倒不如…"
+ },
+ "g:非...不可": {
+  "kind": "row",
+  "row": 309,
+  "alsoRows": [
+   580,
+   476
+  ],
+  "note": "非……不可 is a classic emphatic double negation; cf. 非得……才…… #580, 非得 #476"
+ },
+ "g:尚且": {
+  "kind": "row",
+  "row": 576
+ },
+ "g:不外乎": {
+  "kind": "merge",
+  "note": "same as g:无外乎 — combine into one Zusatz point",
+  "into": "g:无外乎"
+ },
+ "g:充其量": {
+  "kind": "remove",
+  "note": "adverb; vocabulary"
+ },
+ "g:归根结底": {
+  "kind": "row",
+  "row": 504,
+  "note": "归根结底 = variant of 归根到底"
+ },
+ "g:无从": {
+  "kind": "word",
+  "row": 475,
+  "word": "无从"
+ },
+ "g:有鉴于此": {
+  "kind": "merge",
+  "row": 480,
+  "word": "鉴于¹",
+  "note": "fixed form 有鉴于此; fold into g:鉴于"
+ },
+ "g:就...而言": {
+  "kind": "merge",
+  "row": 479,
+  "word": "就⁶",
+  "alsoRows": [
+   194
+  ],
+  "note": "duplicate of g:就…而言"
+ },
+ "g:莫过于": {
+  "kind": "row",
+  "row": 542
+ },
+ "g:势必": {
+  "kind": "word",
+  "row": 476,
+  "word": "势必"
+ },
+ "g:鉴于": {
+  "kind": "word",
+  "row": 480,
+  "word": "鉴于¹",
+  "alsoRows": [
+   481
+  ],
+  "note": "鉴于¹ preposition; 鉴于² conjunction is #481"
+ },
+ "g:不得而知": {
+  "kind": "remove",
+  "note": "chengyu-like set expression; vocabulary"
+ },
+ "g:何以": {
+  "kind": "word",
+  "row": 465,
+  "word": "何",
+  "note": "literary interrogative 何 in 何以; covered by 何 point"
+ },
+ "g:岂非": {
+  "kind": "zusatz",
+  "note": "literary rhetorical question marker 岂, not listed; cf. 反问句 #298"
+ },
+ "g:无可奈何": {
+  "kind": "remove",
+  "note": "chengyu; vocabulary"
+ },
+ "g:无独有偶": {
+  "kind": "remove",
+  "note": "chengyu; vocabulary"
+ },
+ "g:不言而喻": {
+  "kind": "remove",
+  "note": "chengyu, vocabulary"
+ },
+ "g:概莫能外": {
+  "kind": "remove",
+  "note": "chengyu, vocabulary"
+ },
+ "g:不可或缺": {
+  "kind": "remove",
+  "note": "chengyu, vocabulary"
+ },
+ "g:诚然": {
+  "kind": "zusatz",
+  "note": "literary concessive connector (zwar), not in syllabus"
+ },
+ "g:纵然": {
+  "kind": "merge",
+  "row": 570,
+  "note": "same frame as g:纵使…也… (#570 纵然/纵使……，也……)"
+ },
+ "g:无所谓": {
+  "kind": "remove",
+  "note": "plain verb/set expression, vocabulary"
+ },
+ "g:倘若": {
+  "kind": "word",
+  "row": 481,
+  "word": "倘若"
+ },
+ "g:尽管如此": {
+  "kind": "zusatz",
+  "note": "discourse connector not listed; related to 尽管 #321"
+ },
+ "g:据此": {
+  "kind": "word",
+  "row": 355,
+  "word": "据",
+  "note": "据此 = 据 (#355) + 此 (#246); literary connector use of 据"
+ },
+ "g:唯独": {
+  "kind": "word",
+  "row": 471,
+  "word": "唯独"
+ },
+ "g:索性": {
+  "kind": "word",
+  "row": 476,
+  "word": "索性"
+ },
+ "g:着实": {
+  "kind": "remove",
+  "note": "plain adverb (wirklich), vocabulary like 日益"
+ },
+ "g:反之": {
+  "kind": "zusatz",
+  "note": "literary connector not in syllabus; cf. 反过来（说） #502"
+ },
+ "g:见诸": {
+  "kind": "zusatz",
+  "note": "classical 诸 (= 之于) construction, not in syllabus"
+ },
+ "g:付诸": {
+  "kind": "zusatz",
+  "note": "classical 诸 (= 之于) construction, not in syllabus"
+ },
+ "g:为之": {
+  "kind": "zusatz",
+  "note": "classical pronoun 之 (为之 + emotion verb); not in syllabus (之 #266 is the particle)"
+ },
+ "g:以…为…": {
+  "kind": "zusatz",
+  "note": "以X为Y frame not in syllabus (cf. other old points 以…为主/以…为例)"
+ },
+ "g:适逢": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: literary verb, vocabulary; cf. 值此……之际 #555"
+ },
+ "g:置若罔闻": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: chengyu, vocabulary"
+ },
+ "g:岂": {
+  "kind": "zusatz",
+  "note": "classical rhetorical adverb not listed; rhetorical questions #298"
+ },
+ "g:且": {
+  "kind": "word",
+  "row": 482,
+  "word": "且"
+ },
+ "g:犹": {
+  "kind": "zusatz",
+  "note": "classical adverb/verb (noch, wie), not in syllabus"
+ },
+ "g:皆": {
+  "kind": "word",
+  "row": 471,
+  "word": "皆"
+ },
+ "g:亦": {
+  "kind": "zusatz",
+  "note": "literary 也, not in syllabus"
+ },
+ "g:甚": {
+  "kind": "zusatz",
+  "note": "literary degree adverb, not in #470"
+ },
+ "g:尤": {
+  "kind": "word",
+  "row": 470,
+  "word": "尤为",
+  "alsoRows": [
+   250
+  ],
+  "note": "example is 尤为 (#470); 尤其 is #250; bare 尤 not listed"
+ },
+ "g:则": {
+  "kind": "zusatz",
+  "note": "conjunction 则 not in syllabus; 则 in #467 is only the measure word"
+ },
+ "g:即": {
+  "kind": "word",
+  "row": 472,
+  "word": "即",
+  "note": "syllabus lists 即 only as time adverb (sofort); copular 即 (= 就是) not separately listed"
+ },
+ "g:虽…然…": {
+  "kind": "row",
+  "row": 454,
+  "note": "literary 虽 concessive = #454 虽……，但/可/却/也……; example 虽败犹荣 is an idiom"
+ },
+ "g:何以…为": {
+  "kind": "zusatz",
+  "note": "classical rhetorical frame, not in syllabus"
+ },
+ "g:莫": {
+  "kind": "zusatz",
+  "note": "classical negation/indefinite pronoun not listed (only 莫非 #476, 莫过于 #542)"
+ },
+ "g:而": {
+  "kind": "word",
+  "row": 263,
+  "word": "而¹",
+  "alsoRows": [
+   264,
+   487,
+   551
+  ],
+  "note": "而² (clause connector) is #264"
+ },
+ "g:以": {
+  "kind": "row",
+  "row": 579,
+  "note": "purpose 以 = #579 ……，以……; instrumental 以 (mit/durch) not listed as preposition"
+ },
+ "g:当…之时": {
+  "kind": "word",
+  "row": 258,
+  "word": "当",
+  "note": "formal 当……之时 = preposition 当 + time clause"
+ },
+ "g:自…以来": {
+  "kind": "merge",
+  "row": 368,
+  "note": "duplicate of g:以来 (#368 （自）……以来)"
+ },
+ "g:截至": {
+  "kind": "zusatz",
+  "note": "formal preposition not in syllabus; cf. 到……为止 #438"
+ },
+ "g:迄今为止": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: set expression, vocabulary; cf. 到……为止 #438"
+ },
+ "g:为期": {
+  "kind": "remove",
+  "note": "plain verb, vocabulary"
+ },
+ "g:于": {
+  "kind": "word",
+  "row": 422,
+  "word": "于",
+  "alsoRows": [
+   556
+  ]
+ },
+ "g:该": {
+  "kind": "zusatz",
+  "note": "demonstrative 该 (besagter) not in syllabus; 该 #152 is the modal verb (sollen)"
+ },
+ "g:将": {
+  "kind": "word",
+  "row": 252,
+  "word": "将",
+  "alsoRows": [
+   259
+  ],
+  "note": "future 将 = time adverb #252; 将 = 把 is #259"
+ },
+ "g:系": {
+  "kind": "zusatz",
+  "note": "formal copula 系 not listed; cf. 乃 #477"
+ },
+ "g:业已": {
+  "kind": "zusatz",
+  "note": "formal adverb = 已经/已 (#252), not listed itself"
+ },
+ "g:拟": {
+  "kind": "remove",
+  "note": "plain verb, vocabulary"
+ },
+ "g:兹": {
+  "kind": "word",
+  "row": 464,
+  "word": "兹"
+ },
+ "g:现将…通知如下": {
+  "kind": "zusatz",
+  "note": "official formula (将 = 把 #259 + 如下), not a syllabus row"
+ },
+ "g:经…批准": {
+  "kind": "word",
+  "row": 480,
+  "word": "经",
+  "note": "经 + agent + verb (经…批准/同意)"
+ },
+ "g:应…要求": {
+  "kind": "zusatz",
+  "note": "preposition 应 (auf Verlangen) not in syllabus"
+ },
+ "g:旨在": {
+  "kind": "remove",
+  "note": "plain verb, vocabulary"
+ },
+ "g:着眼于": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: lexicalised V+于 verb, vocabulary; 于 is #422"
+ },
+ "g:立足于": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: lexicalised V+于 verb, vocabulary; 于 is #422"
+ },
+ "g:有赖于": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: lexicalised V+于 verb, vocabulary; 于 is #422"
+ },
+ "g:取决于": {
+  "kind": "remove",
+  "note": "lexicalised V+于 verb, vocabulary; 于 is #422"
+ },
+ "g:归因于": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: lexicalised V+于 verb, vocabulary; 于 is #422"
+ },
+ "g:得益于": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: lexicalised V+于 verb, vocabulary; 于 is #422"
+ },
+ "g:有望": {
+  "kind": "remove",
+  "note": "plain verb, vocabulary"
+ },
+ "g:势在必行": {
+  "kind": "remove",
+  "note": "chengyu, vocabulary"
+ },
+ "g:迫在眉睫": {
+  "kind": "remove",
+  "note": "chengyu, vocabulary"
+ },
+ "g:当务之急": {
+  "kind": "remove",
+  "note": "chengyu, vocabulary"
+ },
+ "g:首当其冲": {
+  "kind": "remove",
+  "note": "chengyu, vocabulary"
+ },
+ "g:堪称": {
+  "kind": "remove",
+  "note": "plain verb, vocabulary; cf. 可谓 #462"
+ },
+ "g:不失为": {
+  "kind": "zusatz",
+  "note": "literary evaluative frame 不失为 + (一+量词+) N, not in syllabus"
+ },
+ "g:有目共睹": {
+  "kind": "remove",
+  "note": "chengyu, vocabulary"
+ },
+ "g:不胜枚举": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: chengyu, vocabulary"
+ },
+ "g:与日俱增": {
+  "kind": "remove",
+  "note": "chengyu, vocabulary"
+ },
+ "g:行之有效": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: chengyu, vocabulary"
+ },
+ "g:无可厚非": {
+  "kind": "remove",
+  "note": "chengyu, vocabulary"
+ },
+ "g:任重道远": {
+  "kind": "remove",
+  "note": "chengyu, vocabulary"
+ },
+ "g:刻不容缓": {
+  "kind": "remove",
+  "note": "chengyu, vocabulary"
+ },
+ "g:不容忽视": {
+  "kind": "zusatz",
+  "note": "keep as productive frame 不容 + V (不容忽视/错过/乐观); not in syllabus"
+ },
+ "g:不容置疑": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: fixed idiom; the 不容 + V frame is kept in g:不容忽视 (Zusatz)"
+ },
+ "g:在所难免": {
+  "kind": "remove",
+  "note": "chengyu, vocabulary"
+ },
+ "g:不为过": {
+  "kind": "zusatz",
+  "note": "frame 说……也不为过, not in syllabus"
+ },
+ "g:断然": {
+  "kind": "word",
+  "row": 474,
+  "word": "断然"
+ },
+ "g:贸然": {
+  "kind": "remove",
+  "note": "plain adverb, vocabulary"
+ },
+ "g:显著": {
+  "kind": "remove",
+  "note": "plain adjective, vocabulary"
+ },
+ "g:日益": {
+  "kind": "remove",
+  "note": "plain adverb, vocabulary"
+ },
+ "g:逐步": {
+  "kind": "remove",
+  "note": "plain adverb, vocabulary"
+ },
+ "g:适当": {
+  "kind": "remove",
+  "note": "plain adjective, vocabulary"
+ },
+ "g:相应": {
+  "kind": "remove",
+  "note": "plain adjective/verb, vocabulary"
+ },
+ "g:亟待": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: plain verb, vocabulary"
+ },
+ "g:继…之后": {
+  "kind": "zusatz",
+  "note": "formal frame not in syllabus; cf. （在）……以后 #198"
+ },
+ "g:无不": {
+  "kind": "row",
+  "row": 309,
+  "alsoRows": [
+   496
+  ],
+  "note": "无不 is a standard literary double negation (#309 双重否定句)"
+ },
+ "g:万万": {
+  "kind": "word",
+  "row": 476,
+  "word": "万万"
+ },
+ "g:宁缺毋滥": {
+  "kind": "remove",
+  "note": "chengyu, vocabulary; cf. 宁可……也不…… #561"
+ },
+ "g:…无他，…而已": {
+  "kind": "row",
+  "row": 547,
+  "note": "classical variant of 无非/不过……而已 (#547)"
+ },
+ "g:…尚且如此，何况…": {
+  "kind": "merge",
+  "row": 576,
+  "note": "duplicate of g:尚且 / g:何况 (#576 ……尚且……，（更）何况……)"
+ },
+ "g:与其坐以待毙，不如…": {
+  "kind": "merge",
+  "row": 562,
+  "note": "duplicate of g:与其...不如... with an idiom filled in; 与其……不如 closest to #562"
+ },
+ "g:恕我直言": {
+  "kind": "zusatz",
+  "note": "discourse marker not listed; cf. 老实说 #510, 不瞒你说 #499"
+ },
+ "g:言归正传": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: chengyu used as discourse marker, vocabulary; cf. 话又说回来 #506"
+ },
+ "g:就事论事": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: chengyu, vocabulary"
+ },
+ "g:非但…反而…": {
+  "kind": "row",
+  "row": 404,
+  "note": "非但 = literary 不但; #404 不但不/不但没有……，反而……"
+ },
+ "g:非但不…反而…": {
+  "kind": "merge",
+  "row": 404,
+  "note": "duplicate of g:非但…反而…"
+ },
+ "g:纵使…也…": {
+  "kind": "row",
+  "row": 570
+ },
+ "g:倘使": {
+  "kind": "zusatz",
+  "note": "literary 'if', not listed; cf. 倘若 #481, 假若/假使 #568"
+ },
+ "g:设若": {
+  "kind": "zusatz",
+  "note": "literary 'if', not listed; cf. 倘若 #481, 假若/假使 #568"
+ },
+ "g:且不说…单是…就…": {
+  "kind": "row",
+  "row": 573,
+  "alsoRows": [
+   574
+  ],
+  "note": "且不说 ≈ 别说 (#573 别说……，都/也……); 'abgesehen von X, allein Y schon'"
+ },
+ "g:殊不知": {
+  "kind": "zusatz",
+  "note": "literary connector not in syllabus"
+ },
+ "g:孰不知": {
+  "kind": "zusatz",
+  "note": "variant (often regarded as erroneous) of 殊不知; fold into g:殊不知"
+ },
+ "g:前者…后者…": {
+  "kind": "zusatz",
+  "note": "contrastive reference frame not in syllabus"
+ },
+ "g:…固然好，但…": {
+  "kind": "zusatz",
+  "note": "same as g:固然 (concessive 固然……，但……, not in syllabus); fold into it"
+ },
+ "g:顾名思义": {
+  "kind": "remove",
+  "note": "chengyu, vocabulary"
+ },
+ "g:有感于此": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: set expression, vocabulary"
+ },
+ "g:不可同日而语": {
+  "kind": "zusatz",
+  "note": "not in the vocabulary, so kept (user rule 2026-10-10); was: idiom, vocabulary"
+ },
+ "g:要而言之": {
+  "kind": "row",
+  "row": 508,
+  "alsoRows": [
+   523
+  ],
+  "note": "variant of 简（而）言之 (#508) / 总而言之 (#523)"
+ },
+ "g:…不无道理": {
+  "kind": "row",
+  "row": 309,
+  "note": "不无 + N = literary double negation (#309)"
+ }
+}
