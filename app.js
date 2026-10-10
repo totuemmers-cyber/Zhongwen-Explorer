@@ -25,7 +25,8 @@
     ensureHanziDetailsLoaded: ensureHanziDetailsLoaded,
     hanziDetailsLoaded: false,
     renderBasicNumbers: renderBasicNumbers,
-    speakCN: speakCN
+    speakCN: speakCN,
+    cancelSpeech: cancelSpeech
   };
 
   // === SOUND ENGINE (Web Audio API) ===
@@ -234,6 +235,7 @@
   var tonesTab = document.getElementById('tones-tab');
   var pinyinTab = document.getElementById('pinyin-tab');
   var quizTab = document.getElementById('quiz-tab');
+  var comprehensionTabs = { reading: document.getElementById('reading-tab'), listening: document.getElementById('listening-tab') };
 
   // Section names that have controls + tab panels
   var sectionNames = ['hanzi', 'grammar', 'vocab', 'onomatopoeia', 'measurewords', 'radicals'];
@@ -526,6 +528,8 @@
     tonesTab.classList.toggle('hidden', tab !== 'tones');
     pinyinTab.classList.toggle('hidden', tab !== 'pinyin');
     if (quizTab) quizTab.classList.toggle('hidden', tab !== 'quiz');
+    // Reading and listening are activated by the workspace (comprehension.js).
+    Object.keys(comprehensionTabs).forEach(function (name) { comprehensionTabs[name].classList.toggle('hidden', tab !== name); });
 
     if (app.workspace) app.workspace.afterSwitch(tab);
 
@@ -771,11 +775,12 @@
       return;
     }
 
-    // Tab switching: 1-9 follow the sidebar order
+    // Tab switching: 1-9 follow the sidebar order (hidden tabs without content are skipped)
     var keyIdx = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'].indexOf(e.key);
-    if (keyIdx !== -1 && tabBtns[keyIdx]) {
+    var shownTabs = Array.prototype.filter.call(tabBtns, function (btn) { return !btn.hidden; });
+    if (keyIdx !== -1 && shownTabs[keyIdx]) {
       e.preventDefault();
-      switchTab(tabBtns[keyIdx].getAttribute('data-tab'));
+      switchTab(shownTabs[keyIdx].getAttribute('data-tab'));
       return;
     }
 
@@ -796,11 +801,15 @@
   });
 
   // === TEXT-TO-SPEECH (mainland Mandarin voice) ===
-  function speakCN(text) {
+  // text may be a list (the sentences of a listening text), spoken one after another; options.rate overrides 0.8.
+  function speakCN(text, options) {
     if (!('speechSynthesis' in window) || !text) return;
 
-    var clean = String(text).replace(/[.\-…]/g, '').trim();
-    if (!clean) return;
+    var parts = (Array.isArray(text) ? text : [text]).map(function (part) {
+      return String(part).replace(/[.\-…]/g, '').trim();
+    }).filter(Boolean);
+    if (!parts.length) return;
+    var rate = options && options.rate || 0.8;
 
     ensureSpeechInitialized();
 
@@ -820,25 +829,38 @@
     speechTimer = setTimeout(function () {
       if (requestId !== speechRequestId) return;
 
-      var utterance = new SpeechSynthesisUtterance(clean);
-      utterance.lang = profile.speechLang;
-      utterance.rate = 0.8;
-      utterance.volume = 0.8;
-
       var selectedVoice = speechVoice || pickVoice(synth.getVoices ? synth.getVoices() : []);
-      if (selectedVoice) {
-        utterance.voice = selectedVoice;
-        if (selectedVoice.lang) utterance.lang = selectedVoice.lang;
-      }
 
       try {
         if (typeof synth.resume === 'function') synth.resume();
       } catch (e) {}
 
-      try {
-        synth.speak(utterance);
-      } catch (e) {}
+      parts.forEach(function (part) {
+        var utterance = new SpeechSynthesisUtterance(part);
+        utterance.lang = profile.speechLang;
+        utterance.rate = rate;
+        utterance.volume = 0.8;
+        if (selectedVoice) {
+          utterance.voice = selectedVoice;
+          if (selectedVoice.lang) utterance.lang = selectedVoice.lang;
+        }
+        try {
+          synth.speak(utterance);
+        } catch (e) {}
+      });
     }, 60);
+  }
+
+  function cancelSpeech() {
+    speechRequestId += 1;
+    if (speechTimer) {
+      clearTimeout(speechTimer);
+      speechTimer = null;
+    }
+    if (!('speechSynthesis' in window)) return;
+    try {
+      window.speechSynthesis.cancel();
+    } catch (e) {}
   }
 
   // Prefers zh-CN; other Mandarin voices next; never Cantonese (zh-HK, yue).

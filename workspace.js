@@ -4,7 +4,7 @@
   var app = window.app;
   var profile = window.LANG_PROFILE;
   var sections = app.sections;
-  var titles = { tones: 'Töne', pinyin: 'Pinyin', radicals: 'Radikale', hanzi: 'Hanzi', vocab: 'Vokabeln', onomatopoeia: 'Lautmalerei', grammar: 'Grammatik', measurewords: 'Zählwörter', quiz: 'Quiz' };
+  var titles = { tones: 'Töne', pinyin: 'Pinyin', radicals: 'Radikale', hanzi: 'Hanzi', vocab: 'Vokabeln', onomatopoeia: 'Lautmalerei', grammar: 'Grammatik', measurewords: 'Zählwörter', quiz: 'Quiz', reading: 'Lesen', listening: 'Hören' };
   var descriptions = {
     tones: 'Die vier Töne und den neutralen Ton hören und unterscheiden.',
     pinyin: 'Anlaute, Auslaute und alle Silben des Mandarin anhören.',
@@ -14,9 +14,12 @@
     onomatopoeia: 'Geräusche, Gefühle und Bewegungen in Worte fassen.',
     grammar: 'Muster nachschlagen oder Schritt für Schritt lernen.',
     measurewords: 'Mengen ausdrücken und das richtige Zählwort wählen.',
-    quiz: 'Wissen festigen, in deinem eigenen Tempo.'
+    quiz: 'Wissen festigen, in deinem eigenen Tempo.',
+    reading: 'Chinesische Texte verstehen, mit gezielter Unterstützung.',
+    listening: 'Zuhören, Zusammenhänge erkennen und Entscheidungen verstehen.'
   };
   var BASICS = ['tones', 'pinyin', 'radicals', 'measurewords'];
+  var PRACTICE = ['quiz', 'reading', 'listening'];
   var workspace = document.querySelector('.workspace');
   var sidebar = document.getElementById('sidebar');
   var current = null;
@@ -55,6 +58,7 @@
   }
   function route() {
     var name = app.activeTab;
+    if (name === 'reading' || name === 'listening') return '#' + name + window.Comprehension.route(name);
     if (current) return '#' + name + '/' + encodeURIComponent(idOf(current, current.selectedItem));
     if (name === 'grammar' && window.Lessons && window.Lessons.view === 'lessons') {
       return '#grammar/lesson' + (window.Lessons.selected ? '/' + encodeURIComponent(window.Lessons.selected) : '');
@@ -73,6 +77,7 @@
         detailScroll: sec.dom.overlay.querySelector('.detail-panel').scrollTop
       };
     });
+    state.comprehension = window.Comprehension.snapshot();
     if (window.Lessons) state.lessons = window.Lessons.snapshot();
     return state;
   }
@@ -309,10 +314,11 @@
   }
   function beforeSwitch(tab) {
     if (!titles[tab]) return false;
-    if (restoring) { hideDetail(); return true; }
+    if (restoring) { window.Comprehension.stop(); hideDetail(); return true; }
     revision++;
     if (app.activeTab === 'quiz' && tab !== 'quiz' && !window.QuizModule.requestExit()) return false;
     save();
+    window.Comprehension.stop();
     savedScroll[app.activeTab] = window.scrollY;
     hideDetail();
     relatedBack = false;
@@ -321,7 +327,7 @@
   function afterSwitch(tab) {
     document.getElementById('page-title').textContent = titles[tab];
     document.getElementById('page-description').textContent = descriptions[tab];
-    document.getElementById('page-eyebrow').textContent = (BASICS.includes(tab) ? 'Grundlagen' : tab === 'quiz' ? 'Üben' : 'Nachschlagen') + ' · 中文';
+    document.getElementById('page-eyebrow').textContent = (BASICS.includes(tab) ? 'Grundlagen' : PRACTICE.includes(tab) ? 'Üben' : 'Nachschlagen') + ' · 中文';
     document.querySelectorAll('.tab-btn').forEach(function (btn) {
       if (btn.dataset.tab === tab) btn.setAttribute('aria-current', 'page');
       else btn.removeAttribute('aria-current');
@@ -329,6 +335,7 @@
     setDrawer(false);
     message('');
     if (!restoring) {
+      if (tab === 'reading' || tab === 'listening') window.Comprehension.activate(tab).catch(function () {});
       var sec = sections[tab];
       if (sec && sec.selectedItem) present(sec, sec.selectedItem, { noFocus: true, skipSave: true });
       commit();
@@ -387,6 +394,10 @@
     try {
       await app.ensureSectionLoaded(tab);
       if (version !== revision) return;
+      if (tab === 'reading' || tab === 'listening') {
+        await window.Comprehension.activate(tab, state && state.comprehension, parts[1] || null);
+        if (version !== revision) return;
+      }
       if (tab === 'grammar' && (parts[1] === 'lesson' || (state && state.back && state.tab === tab && state.lessons && state.lessons.view === 'lessons' && state.sections.grammar.selected === parts[1]))) {
         await app.ensureGrammarLessonsLoaded();
         if (version !== revision) return;
@@ -462,6 +473,13 @@
   function isReadingView() { return app.activeTab === 'grammar' && !!window.Lessons && window.Lessons.view === 'lessons'; }
   function updateSpecialCount() {
     var count = document.getElementById('item-count');
+    if (app.activeTab === 'reading' || app.activeTab === 'listening') {
+      var totals = window.Comprehension.counts(app.activeTab);
+      if (!totals) { count.textContent = 'Lädt…'; return true; }
+      var levels = Object.keys(totals.byLevel).map(function (level) { return totals.byLevel[level]; });
+      count.textContent = !totals.total ? 'Noch keine Einheiten' : totals.total + ' Einheiten' + (levels.every(function (n) { return n === levels[0]; }) ? ' · ' + levels[0] + ' je Niveau' : '');
+      return true;
+    }
     if (app.activeTab === 'grammar' && window.Lessons && window.Lessons.view === 'lessons') { count.textContent = window.Lessons.count + ' Lektionen'; return true; }
     return false;
   }
@@ -577,7 +595,7 @@
     historyIndex = event.state && event.state.index || 0;
     restore(location.hash, event.state && event.state.workspace);
   });
-  window.addEventListener('pagehide', function () { save(); });
+  window.addEventListener('pagehide', function () { save(); window.Comprehension.stop(); });
   var scrollTimer;
   window.addEventListener('scroll', function () { clearTimeout(scrollTimer); scrollTimer = setTimeout(save, 150); }, { passive: true });
   var session = window.APP_STORAGE.session.getJSON(profile.sessionKey, null, function (value) {

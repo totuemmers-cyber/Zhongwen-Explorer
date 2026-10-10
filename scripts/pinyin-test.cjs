@@ -68,4 +68,11 @@ assert.strictEqual(P.colorize('nǐ hǎo'), '<span class="tone-3">nǐ</span> <spa
 assert.strictEqual(P.colorize('bāngzhù', '帮助'), '<span class="tone-1">bāng</span><span class="tone-4">zhù</span>');
 assert.strictEqual(context.ToneUtils.detectTone('zhù'), 4);
 
-console.log('Pinyin tests passed: segmentation, tones, conversions, search folding, colouring.');
+// Ruby alignment: one syllable per Han character; punctuation, Latin letters and digits pass through.
+const ruby = parts => Array.from(parts).map(p => p.pinyin ? p.text + '(' + p.pinyin + ')' : p.text).join('');
+assert.strictEqual(ruby(P.align('你好！我是中国人。', 'Nǐ hǎo! Wǒ shì Zhōngguórén.')), '你(Nǐ)好(hǎo)！我(Wǒ)是(shì)中(Zhōng)国(guó)人(rén)。');
+assert.strictEqual(ruby(P.align('我要买3D打印机', 'wǒ yào mǎi 3D dǎyìnjī')), '我(wǒ)要(yào)买(mǎi)3D打(dǎ)印(yìn)机(jī)');
+assert.strictEqual(ruby(P.align('一点儿', 'yìdiǎnr')), '一(yì)点(diǎn)儿(r)');
+assert.strictEqual(P.align('你好', 'nǐ'), null);
+
+console.log('Pinyin tests passed: segmentation, tones, conversions, search folding, colouring, ruby alignment.');

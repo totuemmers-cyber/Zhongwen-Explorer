@@ -258,6 +258,34 @@
     return !!q && foldGerman(text).indexOf(q) !== -1;
   }
 
+  // Han characters as the reading checks count them (scripts/enrich/validate.cjs), 〇 included.
+  function isHan(ch) {
+    var code = ch.codePointAt(0);
+    return code === 0x3007 || (code >= 0x3400 && code <= 0x9FFF) || (code >= 0xF900 && code <= 0xFAFF);
+  }
+
+  // Pairs each Han character of a text with its syllable for ruby: [{ text: '字', pinyin: 'zì' }, { text: '，' }].
+  // Latin letters and digits (维生素C, 3D) stand in the pinyin as written. Null when the counts differ.
+  function align(text, pinyin) {
+    text = text || '';
+    pinyin = pinyin || '';
+    (text.match(/[A-Za-z0-9]+/g) || []).forEach(function (token) {
+      pinyin = pinyin.replace(new RegExp('(^|[^A-Za-z0-9\\u00C0-\\u024F])' + token + '(?![A-Za-z0-9\\u00C0-\\u024F])'), '$1 ');
+    });
+    var chars = Array.from(text);
+    var han = chars.filter(isHan);
+    var syllables = segment(pinyin, han.join('').replace(/〇/g, '一'));
+    if (syllables.length !== han.length) return null;
+    var parts = [], plainText = '', index = 0;
+    chars.forEach(function (ch) {
+      if (!isHan(ch)) { plainText += ch; return; }
+      if (plainText) { parts.push({ text: plainText }); plainText = ''; }
+      parts.push({ text: ch, pinyin: syllables[index++] });
+    });
+    if (plainText) parts.push({ text: plainText });
+    return parts;
+  }
+
   function escapeHtml(text) {
     return String(text).replace(/[&<>"]/g, function (ch) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch];
@@ -290,7 +318,8 @@
     matchesPinyin: matchesPinyin,
     matchesText: matchesText,
     colorize: colorize,
-    countHan: countHan
+    countHan: countHan,
+    align: align
   };
 
   // Compatibility for callers of the former tone-practice.js.

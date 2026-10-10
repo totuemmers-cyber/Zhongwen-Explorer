@@ -34,6 +34,8 @@
         <button class="tab-btn" data-tab="grammar"><span lang="zh-CN">文</span>Grammatik</button>
         <p class="nav-group-label">Üben</p>
         <button class="tab-btn" data-tab="quiz"><span lang="zh-CN">练</span>Quiz</button>
+        <button class="tab-btn" data-tab="reading" hidden><span lang="zh-CN">读</span>Lesen</button>
+        <button class="tab-btn" data-tab="listening" hidden><span lang="zh-CN">听</span>Hören</button>
       </nav>
       <div class="sidebar-footer">
         <button id="help-open">? <span>Hilfe &amp; Tastenkürzel</span></button>
@@ -378,6 +380,8 @@
           <span>Lade Quiz-Daten...</span>
         </div>
       </div>
+      <section id="reading-tab" class="tab-panel hidden" aria-label="Lesen"></section>
+      <section id="listening-tab" class="tab-panel hidden" aria-label="Hören"></section>
     </main>
     </div>
 
@@ -664,6 +668,7 @@
   <script src="section-configs.js"></script>
   <script src="quiz.js"></script>
   <script src="app.js"></script>
+  <script src="comprehension.js"></script>
   <script src="workspace.js"></script>
 </body>
 </html>
