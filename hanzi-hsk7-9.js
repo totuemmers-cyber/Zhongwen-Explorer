@@ -301,7 +301,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h009",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "暧",
@@ -498,12 +499,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     ],
     "readings": [
       {
-        "pinyin": "ba",
-        "meaning": "nur in Wörtern: Trompete; Hupe; Lautsprecher (in lǎba)"
-      },
-      {
         "pinyin": "bā",
         "meaning": "lautmalerisch: peng; knack (Schuss, Knacken)"
+      },
+      {
+        "pinyin": "ba",
+        "meaning": "nur in Wörtern: Trompete; Hupe; Lautsprecher (in lǎba)"
       }
     ],
     "strokes": 5,
@@ -2069,7 +2070,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h009",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "鄙",
@@ -2119,7 +2121,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h009",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "庇",
@@ -3562,7 +3565,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h009",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "卜",
@@ -3574,12 +3578,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     ],
     "readings": [
       {
-        "pinyin": "bo",
-        "meaning": "nur in Wörtern: Rettich (luóbo); Karotte (húluóbo)"
-      },
-      {
         "pinyin": "bǔ",
         "meaning": "wahrsagen; weissagen; Orakel befragen; voraussagen; Bu (Familienname)"
+      },
+      {
+        "pinyin": "bo",
+        "meaning": "nur in Wörtern: Rettich (luóbo); Karotte (húluóbo)"
       }
     ],
     "strokes": 2,
@@ -4282,7 +4286,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h009",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "岔",
@@ -5224,7 +5229,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h009",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "澄",
@@ -6374,7 +6380,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h009",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "川",
@@ -7486,7 +7493,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h009",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "窜",
@@ -8564,7 +8572,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h010",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "凳",
@@ -8853,7 +8862,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h010",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "嘀",
@@ -10264,7 +10274,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h010",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "赌",
@@ -12554,12 +12565,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     ],
     "readings": [
       {
-        "pinyin": "fu",
-        "meaning": "unbetont in Wörtern: Bündel; Einschlagtuch; Last"
-      },
-      {
         "pinyin": "fú",
         "meaning": "Einschlagtuch; Tuch zum Einwickeln (Wörterbuchlesung)"
+      },
+      {
+        "pinyin": "fu",
+        "meaning": "unbetont in Wörtern: Bündel; Einschlagtuch; Last"
       }
     ],
     "strokes": 11,
@@ -13272,7 +13283,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h010",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "纲",
@@ -14148,12 +14160,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     ],
     "readings": [
       {
-        "pinyin": "gu",
-        "meaning": "tonlos in Wörtern: murmeln; tuscheln"
-      },
-      {
         "pinyin": "gū",
         "meaning": "Lautmalerei: gurren; gluckern; knurren (Magen); in Wörtern: murmeln; brummeln"
+      },
+      {
+        "pinyin": "gu",
+        "meaning": "tonlos in Wörtern: murmeln; tuscheln"
       }
     ],
     "strokes": 8,
@@ -14199,12 +14211,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     ],
     "readings": [
       {
-        "pinyin": "gu",
-        "meaning": "Pilz (tonlos als zweite Silbe in Wörtern)"
-      },
-      {
         "pinyin": "gū",
         "meaning": "Pilz"
+      },
+      {
+        "pinyin": "gu",
+        "meaning": "Pilz (tonlos als zweite Silbe in Wörtern)"
       }
     ],
     "strokes": 11,
@@ -16021,12 +16033,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     ],
     "readings": [
       {
-        "pinyin": "hu",
-        "meaning": "tonlos, nur in Wörtern: erschrecken; einschüchtern (in xiàhu)"
-      },
-      {
         "pinyin": "hǔ",
         "meaning": "bluffen; einschüchtern; Angst einjagen; täuschen"
+      },
+      {
+        "pinyin": "hu",
+        "meaning": "tonlos, nur in Wörtern: erschrecken; einschüchtern (in xiàhu)"
       }
     ],
     "strokes": 11,
@@ -18542,7 +18554,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "level": "HSK7-9",
     "writingLevel": "7-9",
     "traditional": [
-      "薑"
+      "薑",
+      "姜"
     ],
     "readings": [
       {
@@ -18888,7 +18901,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h010",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "礁",
@@ -19682,7 +19696,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h010",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "锦",
@@ -20125,7 +20140,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h011",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "憬",
@@ -22433,7 +22449,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h011",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "筐",
@@ -22481,7 +22498,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h011",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "旷",
@@ -23866,12 +23884,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     ],
     "readings": [
       {
-        "pinyin": "li",
-        "meaning": "nur in Wörtern (tonlos): Fuchs (in húli)"
-      },
-      {
         "pinyin": "lí",
         "meaning": "Wildkatze; Leopardkatze; fuchsähnliches Raubtier (in Wörtern)"
+      },
+      {
+        "pinyin": "li",
+        "meaning": "nur in Wörtern (tonlos): Fuchs (in húli)"
       }
     ],
     "strokes": 10,
@@ -24988,7 +25006,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h011",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "聆",
@@ -25487,7 +25506,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h011",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "窿",
@@ -25497,12 +25517,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     ],
     "readings": [
       {
-        "pinyin": "long",
-        "meaning": "nur in Wörtern: Loch; Höhlung"
-      },
-      {
         "pinyin": "lóng",
         "meaning": "Gewölbe; Kuppel (gehoben, Fachsprache)"
+      },
+      {
+        "pinyin": "long",
+        "meaning": "nur in Wörtern: Loch; Höhlung"
       }
     ],
     "strokes": 16,
@@ -25735,7 +25755,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h011",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "炉",
@@ -30892,7 +30913,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h011",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "帕",
@@ -31782,12 +31804,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     ],
     "readings": [
       {
-        "pinyin": "peng",
-        "meaning": "tonlos in Wörtern: Zelt (zhàngpeng)"
-      },
-      {
         "pinyin": "péng",
         "meaning": "Plane; Verdeck; Sonnendach; Segel"
+      },
+      {
+        "pinyin": "peng",
+        "meaning": "tonlos in Wörtern: Zelt (zhàngpeng)"
       }
     ],
     "strokes": 16,
@@ -31823,7 +31845,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h011",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "膨",
@@ -32649,7 +32672,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "hanzi": "仆",
     "level": "HSK7-9",
     "traditional": [
-      "僕"
+      "僕",
+      "仆"
     ],
     "readings": [
       {
@@ -33145,7 +33169,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h012",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "歧",
@@ -34030,7 +34055,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h012",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "侨",
@@ -39283,7 +39309,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h012",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "邃",
@@ -39441,12 +39468,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     ],
     "readings": [
       {
-        "pinyin": "suo",
-        "meaning": "nur in Wörtern (neutral gesprochen): zittern; schlottern; geschwätzig; umständlich"
-      },
-      {
         "pinyin": "suō",
         "meaning": "Wörterbuchform des Zeichens; saugen; schlürfen (regional, etwa Nudeln)"
+      },
+      {
+        "pinyin": "suo",
+        "meaning": "nur in Wörtern (neutral gesprochen): zittern; schlottern; geschwätzig; umständlich"
       }
     ],
     "strokes": 13,
@@ -39694,7 +39721,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h012",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "胎",
@@ -40200,7 +40228,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "level": "HSK7-9",
     "writingLevel": "7-9",
     "traditional": [
-      "嘆"
+      "嘆",
+      "歎"
     ],
     "readings": [
       {
@@ -40683,7 +40712,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h012",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "腾",
@@ -40848,12 +40878,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     ],
     "readings": [
       {
-        "pinyin": "ti",
-        "meaning": "nur in Wörtern (neutraler Ton): Schublade"
-      },
-      {
         "pinyin": "tì",
         "meaning": "Schublade; Fach; Einsatz eines Dampfkorbs; Zählwort für Lagen im Dampfkorb"
+      },
+      {
+        "pinyin": "ti",
+        "meaning": "nur in Wörtern (neutraler Ton): Schublade"
       }
     ],
     "strokes": 8,
@@ -41565,7 +41595,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "level": "HSK7-9",
     "writingLevel": "7-9",
     "traditional": [
-      "塗"
+      "塗",
+      "涂"
     ],
     "readings": [
       {
@@ -42188,7 +42219,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "level": "HSK7-9",
     "writingLevel": "7-9",
     "traditional": [
-      "挽"
+      "挽",
+      "輓"
     ],
     "readings": [
       {
@@ -44362,7 +44394,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h012",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "虾",
@@ -44812,7 +44845,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "level": "HSK7-9",
     "writingLevel": "7-9",
     "traditional": [
-      "纖"
+      "纖",
+      "縴"
     ],
     "readings": [
       {
@@ -45687,7 +45721,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h013",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "挟",
@@ -46638,7 +46673,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "level": "HSK7-9",
     "writingLevel": "7-9",
     "traditional": [
-      "籲"
+      "籲",
+      "吁"
     ],
     "readings": [
       {
@@ -48083,7 +48119,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "hanzi": "岩",
     "level": "HSK7-9",
     "traditional": [
-      "岩"
+      "岩",
+      "巖"
     ],
     "readings": [
       {
@@ -50173,12 +50210,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     ],
     "readings": [
       {
-        "pinyin": "ying",
-        "meaning": "Fliege (tonlos in cāngying)"
-      },
-      {
         "pinyin": "yíng",
         "meaning": "Fliege"
+      },
+      {
+        "pinyin": "ying",
+        "meaning": "Fliege (tonlos in cāngying)"
       }
     ],
     "strokes": 14,
@@ -50417,7 +50454,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h013",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "佑",
@@ -50913,7 +50951,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "level": "HSK7-9",
     "writingLevel": "7-9",
     "traditional": [
-      "鬱"
+      "鬱",
+      "郁"
     ],
     "readings": [
       {
@@ -50957,7 +50996,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h013",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "狱",
@@ -51018,7 +51058,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "level": "HSK7-9",
     "writingLevel": "7-9",
     "traditional": [
-      "御"
+      "御",
+      "禦"
     ],
     "readings": [
       {
@@ -51535,7 +51576,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h013",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "酝",
@@ -52241,7 +52283,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     "level": "HSK7-9",
     "writingLevel": "7-9",
     "traditional": [
-      "灶"
+      "灶",
+      "竈"
     ],
     "readings": [
       {
@@ -52336,7 +52379,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h013",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "泽",
@@ -53950,7 +53994,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h013",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "蒸",
@@ -54096,7 +54141,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h013",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "芝",
@@ -54834,12 +54880,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     ],
     "readings": [
       {
-        "pinyin": "zhou",
-        "meaning": "nur in Wörtern: Besen (tonlos in sàozhou)"
-      },
-      {
         "pinyin": "zhǒu",
         "meaning": "Besen (Grundlesung)"
+      },
+      {
+        "pinyin": "zhou",
+        "meaning": "nur in Wörtern: Besen (tonlos in sàozhou)"
       }
     ],
     "strokes": 8,

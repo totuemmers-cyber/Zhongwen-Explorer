@@ -1082,7 +1082,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h007",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "残",
@@ -1286,7 +1287,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h007",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "柴",
@@ -2142,7 +2144,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h007",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "储",
@@ -3379,7 +3382,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h007",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "顶",
@@ -3778,7 +3782,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h008",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "夺",
@@ -5802,7 +5807,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h008",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "棍",
@@ -7275,12 +7281,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     ],
     "readings": [
       {
-        "pinyin": "jia",
-        "meaning": "nur in Wörtern (neutraler Ton): Feldfrüchte; Getreide auf dem Halm"
-      },
-      {
         "pinyin": "jià",
         "meaning": "säen; Getreide anbauen; Feldfrüchte (gehoben)"
+      },
+      {
+        "pinyin": "jia",
+        "meaning": "nur in Wörtern (neutraler Ton): Feldfrüchte; Getreide auf dem Halm"
       }
     ],
     "strokes": 15,
@@ -7674,7 +7680,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h008",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "酱",
@@ -10059,7 +10066,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h008",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "露",
@@ -13824,7 +13832,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h008",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "闪",
@@ -14728,7 +14737,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h008",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "汰",
@@ -15316,7 +15326,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h008",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "偷",
@@ -16409,7 +16420,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h009",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "祥",
@@ -18156,7 +18168,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h009",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "英",
@@ -18755,7 +18768,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h009",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "晕",
@@ -19422,7 +19436,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h009",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "枕",
@@ -20606,7 +20621,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h009",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "粽",

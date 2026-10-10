@@ -253,7 +253,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h002",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "表",
@@ -832,7 +833,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h002",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "店",
@@ -1192,7 +1194,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h002",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "馆",
@@ -2388,7 +2391,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h002",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "乐",
@@ -2711,7 +2715,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h002",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "旅",
@@ -3158,7 +3163,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h002",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "票",
@@ -4283,7 +4289,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h002",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "体",
@@ -4385,7 +4392,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h002",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "铁",
@@ -5100,7 +5108,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h002",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "姓",
@@ -5551,7 +5560,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h002",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "泳",

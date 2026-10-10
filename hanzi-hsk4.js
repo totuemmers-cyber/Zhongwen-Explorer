@@ -565,7 +565,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h003",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "鼻",
@@ -936,12 +937,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     ],
     "readings": [
       {
-        "pinyin": "bo",
-        "meaning": "nur in Wörtern: unbetonte zweite Silbe im Wort für Arm"
-      },
-      {
         "pinyin": "bó",
         "meaning": "Oberarm; Schulter; in Wörtern: nackter Oberkörper"
+      },
+      {
+        "pinyin": "bo",
+        "meaning": "nur in Wörtern: unbetonte zweite Silbe im Wort für Arm"
       }
     ],
     "strokes": 14,
@@ -1030,7 +1031,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h003",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "擦",
@@ -3154,7 +3156,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h003",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "顿",
@@ -3763,7 +3766,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h003",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "幅",
@@ -5046,7 +5050,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h004",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "光",
@@ -6543,7 +6548,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h004",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "计",
@@ -6753,7 +6759,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h004",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "济",
@@ -7389,7 +7396,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h004",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "郊",
@@ -7437,7 +7445,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h004",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "骄",
@@ -8509,7 +8518,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h004",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "聚",
@@ -11905,7 +11915,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h004",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "批",
@@ -12103,7 +12114,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h004",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "频",
@@ -12712,7 +12724,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h004",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "歉",
@@ -14774,12 +14787,12 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
     ],
     "readings": [
       {
-        "pinyin": "shi",
-        "meaning": "nur in Wörtern: Schlüssel (yàoshi)"
-      },
-      {
         "pinyin": "chí",
         "meaning": "Löffel (in Wörtern)"
+      },
+      {
+        "pinyin": "shi",
+        "meaning": "nur in Wörtern: Schlüssel (yàoshi)"
       }
     ],
     "strokes": 11,
@@ -15685,7 +15698,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h004",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "孙",
@@ -17614,7 +17628,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h005",
       "policy": "author+review",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "线",

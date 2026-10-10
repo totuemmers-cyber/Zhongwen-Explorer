@@ -3320,7 +3320,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h006",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "敌",
@@ -4277,7 +4278,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h006",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "仿",
@@ -5040,7 +5042,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h006",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "恭",
@@ -7479,7 +7482,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h006",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⻊"
   },
   {
     "hanzi": "浆",
@@ -7636,7 +7640,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h006",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "届",
@@ -8084,7 +8089,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h006",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "㔾"
   },
   {
     "hanzi": "军",
@@ -8884,7 +8890,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h006",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "劳",
@@ -9954,7 +9961,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h006",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "录",
@@ -10812,7 +10820,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h006",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "漠",
@@ -17053,7 +17062,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h007",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "献",
@@ -20514,7 +20524,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h007",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "震",
@@ -21336,7 +21347,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h007",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "⺮"
   },
   {
     "hanzi": "抓",
@@ -21792,7 +21804,8 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "batch": "h007",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "radicalForm": "阝"
   },
   {
     "hanzi": "醉",

@@ -20,6 +20,13 @@ const FIXES = {
   '颤': readings => readings.some(r => r.pinyin === 'zhàn') ? readings
     : readings.concat([{ pinyin: 'zhàn', meaning: 'zittern; beben; schaudern (in Wörtern wie zhànlì und dǎzhàn)' }])
 };
+// The build gave these the toneless syllable of one word (扫帚 sàozhou, 苍蝇 cāngying) as main reading; the
+// dictionary reading goes first and the toneless one stays second. Particles (的 了 呢 …) keep theirs.
+const toned = pinyin => /[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜńňǹḿ]/.test(pinyin);
+for (const ch of '膊匙稼叭卜袱咕菇唬狸窿篷嗦屉蝇帚驼笆猬') {
+  FIXES[ch] = readings => toned(readings[0].pinyin)
+    ? readings : readings.filter(r => toned(r.pinyin)).slice(0, 1).concat(readings.filter((r, i) => i !== readings.findIndex(x => toned(x.pinyin))));
+}
 
 const entries = hanzi.loadHanzi();
 const ledger = enrich.readJson(LEDGER, {});

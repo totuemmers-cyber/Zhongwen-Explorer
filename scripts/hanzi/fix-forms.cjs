@@ -1,5 +1,6 @@
 // Corrections to the built hanzi data that the enrichment authors flagged (2026-10-10): traditional forms the
-// build took from the wrong dictionary entry. The reviewed fields (readings, components, notes) stay untouched.
+// build took from the wrong dictionary entry, and the missing radical form 阝. The reviewed fields (readings,
+// components, notes) stay untouched.
 // Re-runnable.
 // Usage: node scripts/hanzi/fix-forms.cjs [--dry-run]
 const hanzi = require('./common.cjs');
@@ -29,8 +30,29 @@ const TRADITIONAL = {
   '咨': ['諮', '咨'], // 咨 itself in 咨文
   '余': ['餘', '余'], // 余 stays for "ich" and the surname
   '赞': ['贊', '讚'], // 讚 "loben"
-  '占': ['佔', '占']   // 佔 "besetzen", 占 zhān "wahrsagen"
+  '占': ['佔', '占'],  // 佔 "besetzen", 占 zhān "wahrsagen"
+  '仆': ['僕', '仆'], // pū "vornüberfallen" stays 仆
+  '挽': ['挽', '輓'], // 輓 in 輓聯, 輓歌 (mourning)
+  '纤': ['纖', '縴'], // 縴 qiàn "Treidelseil"
+  '吁': ['籲', '吁'], // xū (长吁短叹) stays 吁
+  '岩': ['岩', '巖'],
+  '叹': ['嘆', '歎'],
+  '涂': ['塗', '涂'], // the surname and river name stay 涂
+  '灶': ['灶', '竈'],
+  '郁': ['鬱', '郁'], // 郁 "duftend" (浓郁) and the surname stay 郁
+  '御': ['御', '禦'], // 禦 "abwehren" (防禦, 抵禦)
+  '姜': ['薑', '姜'], // the surname stays 姜
+  '咤': ['咤'],        // 叱咤; 吒 is only a variant
+  '栗': ['栗', '慄'], // 慄 "zittern" (戰慄)
+  '漓': ['漓', '灕'], // 灕 for the river (灕江)
+  '腌': ['醃', '腌']   // ā in 腌臢 stays 腌
 };
+// The build missed radical forms its lookup did not know (阝 is listed only as "阝(links)" / "阝(rechts)",
+// ⺮ ⻊ 礻 忄 耂 …): 阝 and ⺮ always take the short form, other radicals the variant that the reviewed components
+// show (跟 ⻊, but 蹙 keeps 足).
+const RADICAL_FORMS = { '阜': '阝', '邑': '阝', '竹': '⺮' };
+const PART_ALIASES = { '𧾷': '⻊' }; // components write the foot radical as 𧾷, the radical list as ⻊
+const variantsOf = new Map(hanzi.loadRadicals().map(r => [r.radical, (r.variants || []).map(v => v.replace(/\(.*\)/, ''))]));
 const entries = hanzi.loadHanzi();
 const changes = [];
 for (const entry of entries) {
@@ -38,6 +60,13 @@ for (const entry of entries) {
   if (want && JSON.stringify(entry.traditional) !== JSON.stringify(want)) {
     changes.push(entry.hanzi + ': ' + entry.traditional.join('/') + ' → ' + want.join('/'));
     entry.traditional = want;
+  }
+  const variants = variantsOf.get(entry.primaryRadical) || [];
+  const form = RADICAL_FORMS[entry.primaryRadical] ||
+    (!entry.radicalForm && (entry.components || []).map(c => PART_ALIASES[c.part] || c.part).find(part => variants.includes(part)));
+  if (form && entry.hanzi !== entry.primaryRadical && entry.radicalForm !== form) {
+    changes.push(entry.hanzi + ': radical form ' + form);
+    entry.radicalForm = form;
   }
 }
 console.log(changes.length + ' forms corrected' + (DRY ? ' (dry run)' : '') + (changes.length ? ':\n' + changes.join('\n') : ''));

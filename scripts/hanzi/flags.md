@@ -274,3 +274,48 @@ Author flags and reviewer fixes per batch, for follow-up decisions.
 - 帚 readings added: zhǒu
 - 帚 (author): Given reading is neutral-tone zhou (only in 扫帚 sàozhou); citation reading zhǒu (Unihan, 现代汉语词典) added via addReadings – consider making zhǒu the primary reading.
 - 拽 readings added: zhuāi, zhuǎi
+
+## h014 (2026-10-10, author)
+- 隽 readings added: jùn
+- 咤 (author): traditional: 吒 ist nur eine Variante; die übliche Langzeichenform (Taiwan, Hongkong) ist ebenfalls 咤 (叱咤). Vorschlag: traditional = ["咤"] (吒 ggf. als Variante).
+- 沓 readings added: dá
+- 伽 readings added: gā, qié
+- 嘘 readings added: shī
+- 囤 readings added: dùn
+- 娜 readings added: nà
+- 彷 readings added: fǎng
+- 愊 (author): radicalForm fehlt im Input; links steht 忄.
+- 戛 readings added: gā
+- 拗 readings added: niù, ǎo
+- 杞 (author): Input-Bedeutung war leer; neu verfasst.
+
+## h015 (2026-10-10, author)
+- 栗 (author): Traditionelle Form: in der Bedeutung „zittern“ (战栗, 颤栗) traditionell 慄, nicht 栗; Liste nennt nur 栗.
+- 沌 readings added: zhuàn
+- 漓 (author): Für den Flussnamen ist traditionell auch 灕 (灕江) üblich; die Liste nennt nur 漓.
+- 猬 readings added: wèi
+- 猬 (author): Main reading is given toneless (wei); the dictionary/standalone reading is wèi (added via addReadings). Traditional form 蝟 is the usual TW form; 猬 itself is also a valid traditional variant.
+- 眄 (author): Reading: CC-CEDICT/HanDeDict have miǎn, but Unihan kTGHZ2013 (Tongyong Guifan) gives miàn – please check which tone the target dictionary uses.
+- 笆 readings added: bā
+- 笆 (author): Einzige gelistete Lesung ist tonlos (ba, nur in 篱笆 líba); die Grundlesung bā fehlte und ist als addReading ergänzt – evtl. bā zur Hauptlesung machen.
+- 箪 (author): 箪食壶浆: Notiz und Wortliste folgen 现代汉语词典 (dānsì-hújiāng); CC-CEDICT hat shi2.
+- 缪 readings added: miào
+- 腌 readings added: ā
+- 腌 (author): Traditionelle Form 醃 gilt nur für yān „einlegen“; in 腌臜 āzā bleibt auch traditionell 腌.
+- 菲 readings added: fēi
+- 菲 (author): Lesung fēi fehlte (Philippinen, Namen, „duftend“) – ergänzt; sie ist mindestens so häufig wie fěi.
+- 蚌 readings added: bèng
+- 谥 (author): traditional: input lists only 諡; the form that 谥 directly simplifies (言 + 益) is 謚 – both are in use (諡 standard in Taiwan), consider listing 謚 as well.
+- 谩 readings added: mán
+- 趄 readings added: qiè
+
+## h016 (2026-10-10, author)
+- 遂 readings added: suí
+- 颉 readings added: jié
+- 馏 readings added: liù
+- 驼 readings added: tuó
+- 驼 (author): Hauptlesung als tonloses 'tuo' angelegt (nur in 骆驼 luòtuo); Grundlesung tuó per addReadings ergänzt – evtl. Lesungsreihenfolge tauschen (tuó zuerst).
+- 髯 (author): Entwurfsbedeutung „jmdn. ansprechen, mutig entgegentreten“ aus HanDeDict war falsch; entfernt.
+- 鹜 (author): HanDeDict-Gloss „schnelles Untertauchen“ ist falsch; korrekt „Ente“ (CC-CEDICT).
+- 麇 readings added: jūn
+- 龉 (author): Entwurfsbedeutung war englisch („irregular teeth“); ersetzt.

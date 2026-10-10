@@ -46,6 +46,8 @@ for (const entry of entries) {
 
 // Fields.
 const radicalChars = new Set(radicals.map(r => r.radical));
+// Radicals that always appear in their short form inside other characters.
+const SHORT_RADICAL = { '阜': '阝', '邑': '阝', '竹': '⺮' };
 const LEVELS = new Set(hanzi.LEVELS);
 for (const entry of entries) {
   const ch = entry.hanzi;
@@ -54,6 +56,7 @@ for (const entry of entries) {
   if (entry.meaningStatus !== 'draft' && entry.readings.some(r => !r.meaning)) fail(ch + ': reviewed reading without meaning');
   if (!Array.isArray(entry.traditional) || !entry.traditional.length) fail(ch + ': traditional');
   if (!radicalChars.has(entry.primaryRadical)) fail(ch + ': primaryRadical ' + entry.primaryRadical);
+  if (SHORT_RADICAL[entry.primaryRadical] && ch !== entry.primaryRadical && entry.radicalForm !== SHORT_RADICAL[entry.primaryRadical]) fail(ch + ': radicalForm ' + entry.radicalForm + ', expected ' + SHORT_RADICAL[entry.primaryRadical]);
   const diagram = hanzi.svgStrokeCount(ch);
   if (diagram ? entry.noDiagram : !entry.noDiagram || !NO_DIAGRAM.has(ch)) fail(ch + ': stroke diagram ' + (diagram ? 'present but noDiagram' : 'missing'));
   if (diagram && entry.strokes !== diagram) fail(ch + ': strokes ' + entry.strokes + ', diagram draws ' + diagram);
