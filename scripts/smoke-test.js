@@ -172,11 +172,18 @@ async function run() {
     vocab.openDetail(vocab.filteredItems.indexOf(withMeasure));
     assert(/Zählwort/.test(d.getElementById('vocab-detail-facts').textContent), 'Measure-word line missing');
     vocab.closeDetail();
+    // Draft glosses get a notice; once every gloss is reviewed, the notice must stay hidden.
     const draft = vocab.allItems.find(item => item.meaningStatus === 'draft');
-    vocab.openDetail(vocab.filteredItems.indexOf(draft));
-    assert(!d.getElementById('vocab-detail-draft').classList.contains('hidden'), 'Draft notice missing');
-    vocab.closeDetail();
-    assert(vocab.dom.grid.querySelector('.draft-badge') || vocab.allItems.some(i => i.meaningStatus === 'draft'), 'Draft badge missing');
+    if (draft) {
+      vocab.openDetail(vocab.filteredItems.indexOf(draft));
+      assert(!d.getElementById('vocab-detail-draft').classList.contains('hidden'), 'Draft notice missing');
+      vocab.closeDetail();
+    } else {
+      vocab.openDetail(vocab.filteredItems.indexOf(study));
+      assert(d.getElementById('vocab-detail-draft').classList.contains('hidden'), 'Draft notice shown for a reviewed entry');
+      vocab.closeDetail();
+      assert(!vocab.dom.grid.querySelector('.draft-badge'), 'Draft badge shown without draft entries');
+    }
 
     // No vocabulary card is empty.
     assert(!vocab.allItems.some(item => !item.word), 'Vocabulary entry without word');
