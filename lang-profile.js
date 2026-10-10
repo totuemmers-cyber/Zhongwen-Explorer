@@ -18,7 +18,7 @@ window.LANG_PROFILE = {
   runtime: { vocab: 'vocab-runtime.js', vocabDetails: 'vocab-runtime-details.js', hanzi: 'hanzi-runtime.js', hanziDetails: 'hanzi-runtime-details.js' },
   // Guided reading and listening (comprehension.js), bundled by scripts/build-comprehension.cjs, which also writes
   // the unit counts below; a skill's tab stays hidden while it has no units.
-  comprehension: { data: 'comprehension-data.js', reading: 0, listening: 0 },
+  comprehension: { data: 'comprehension-data.js', reading: 10, listening: 6 },
   // Source data files per section, loaded on first use (app.js) and audited in this order.
   dataScripts: {
     radicals: ['kangxi-radicals.js'],
