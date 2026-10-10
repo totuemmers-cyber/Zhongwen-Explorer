@@ -8,7 +8,7 @@ const common = require('../enrich/common.cjs');
 const DRY = process.argv.includes('--dry-run');
 const KEEP_TYPES = new Set(['Nomen', 'Phrase']);
 const mw = (word, pinyin) => ({ word, pinyin });
-// Author flags (Phase 3 batches b006–b009): id → corrected list ([] removes the field).
+// Author flags (Phase 3 batches b006–b017): id → corrected list ([] removes the field).
 const CORRECTIONS = {
   'w:信心:xin4xin1': [],
   'w:学费:xue2fei4': [mw('笔', 'bi3')],
@@ -17,7 +17,26 @@ const CORRECTIONS = {
   'w:鼻子:bi2zi5': [mw('个', 'ge4')],
   'w:广告:guang3gao4': [mw('个', 'ge4'), mw('条', 'tiao2')],
   'w:课程:ke4cheng2': [mw('门', 'men2')],
-  'w:袜子:wa4zi5': [mw('双', 'shuang1'), mw('只', 'zhi1')]
+  'w:袜子:wa4zi5': [mw('双', 'shuang1'), mw('只', 'zhi1')],
+  // Batches b010–b017 (HSK 5/6, added 2026-10-10).
+  'w:期间:qi1jian1': [],
+  'w:黄瓜:huang2gua1': [mw('根', 'gen1'), mw('条', 'tiao2')],
+  'w:建筑:jian4zhu4': [mw('座', 'zuo4'), mw('栋', 'dong4')],
+  'w:讲话:jiang3hua4': [mw('次', 'ci4'), mw('篇', 'pian1')],
+  'w:结构:jie2gou4': [],
+  'w:时刻:shi2ke4': [mw('个', 'ge4')],
+  'w:手指:shou3zhi3': [mw('根', 'gen1')],
+  'w:物价:wu4jia4': [],
+  'w:吸管:xi1guan3': [mw('根', 'gen1'), mw('支', 'zhi1')],
+  'w:学术:xue2shu4': [],
+  'w:总统:zong3tong3': [mw('位', 'wei4'), mw('个', 'ge4')],
+  'w:棒球:bang4qiu2': [mw('个', 'ge4')],
+  'w:部队:bu4dui4': [mw('支', 'zhi1')],
+  'w:才华:cai2hua2': [],
+  'w:成语:cheng2yu3': [mw('个', 'ge4'), mw('句', 'ju4'), mw('条', 'tiao2')],
+  'w:服装:fu2zhuang1': [mw('套', 'tao4')],
+  'w:强度:qiang2du4': [],
+  'w:重量:zhong4liang4': []
 };
 
 const sources = common.loadSources();

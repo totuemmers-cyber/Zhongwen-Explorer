@@ -129,6 +129,8 @@ function checkExampleReading(chinese, pinyin, ctx) {
         if (!ctx.syllabus.has(c.word)) continue;
         // A name only (美的 Měidì, the brand) says nothing about the common words 美 + 的.
         if (c.readings.every(r => /^[A-Z]/.test(r))) continue;
+        // Structural particle de before a word (用力地点头 is 地 de + 点头, not 地点 dìdiǎn).
+        if (/^[的地得]/.test(c.word) && keys[i] === 'de5') continue;
         // 都 written dōu is the adverb "all" (都会 dōu huì), not the dū of 都会 dūhuì "metropolis".
         if (c.word.startsWith('都') && keys[i] === 'dou1') continue;
         // Verb + aspect particle (到了 dào le, not the lexicalised dào liǎo) is the normal reading.

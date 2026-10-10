@@ -486,3 +486,61 @@ Author flags, type changes and reviewer fixes per batch, for follow-up decisions
 - w:厘米:li2mi3 厘米 type → Zählwort: 量: unit of measure used as a measure word, not a numeral
 - w:连续:lian2xu4 连续 type → Verb: 动: offizielle Wortart Verb; die adverbiale Stellung vor anderen Verben ändert daran nichts
 - w:满足:man3zu2 满足 type → Verb: 动: offizielle Wortart Verb, nicht Adjektiv
+
+## b014 (2026-10-09, author)
+- w:胜利:sheng4li4 胜利 type → Verb: 动: official part of speech is verb (also used as a noun: 取得胜利)
+- w:失眠:shi1mian2 失眠 type → Verb: 动: official part of speech is verb (nominal use also common)
+- w:实践:shi2jian4 实践 type → Verb: 动: official part of speech is verb (also used as a noun: 理论和实践)
+- w:时刻:shi2ke4 时刻 (author): measureWords lists 段 for 时刻; 一段时刻 is unidiomatic (段 fits 时间/时期), 个 alone would be correct.
+- w:事先:shi4xian1 事先 type → Nomen: 名: official part of speech is noun (time noun used adverbially, like 以前)
+- w:手指:shou3zhi3 手指 (author): measureWords: 只 is unusual for 手指; the standard measure word 根 is missing (一根手指).
+- w:套:tao4 套 type → Zählwort: 量: measure word, not a numeral (also 名/动)
+- w:统计:tong3ji4 统计 type → Verb: 动: official part of speech is verb (zählen, statistisch erfassen); the noun use is secondary
+- w:团:tuan2 团 type → Zählwort: 量: measure word, not a numeral (also 动/名)
+- w:违法:wei2fa3 违法 type → Verb: 动: verb-object compound 违 + 法 'break the law', also used attributively
+- w:位置:wei4zhi5 位置 (author): pinyin field is wèizhì, but id and CC-CEDICT have the neutral tone wèizhi (wei4zhi5); examples use wèizhi.
+- w:无奈:wu2nai4 无奈 type → Verb: 动、连: officially verb and conjunction, not adjective (adjectival use 很无奈 is covered in the note)
+- w:无效:wu2xiao4 无效 type → Verb: 动: official part of speech is verb (ungültig/unwirksam sein)
+- w:物价:wu4jia4 物价 (author): measureWords lists 个 for 物价; the word is normally not counted with a measure word.
+- w:吸管:xi1guan3 吸管 (author): measureWords lists only 支; 根 (gen1) is the more common measure word for 吸管.
+- w:显然:xian3ran2 显然 type → Adjektiv: 形: official part of speech is adjective; the frequent adverbial use is explained in the note
+
+## b015 (2026-10-09, author)
+- w:学术:xue2shu4 学术 (author): measureWords lists 个 for the abstract noun 学术; 学术 is mostly attributive and is not counted with 个 itself — consider removing the measure word.
+- w:研发:yan2fa1 研发 type → Verb: 动: verb „forschen und entwickeln“ (also used as a noun)
+- w:医疗:yi1liao2 医疗 (author): syllabusPos is 动, but in modern usage 医疗 is practically only attributive/nominal (医疗条件, 医疗保险) and takes no object; type kept as Nomen.
+- w:应用:ying4yong4 应用 type → Verb: 动、形: verb „anwenden“ (adjective „angewandt“); the noun „App“ is a secondary use
+- w:优惠:you1hui4 优惠 type → Adjektiv: 形: adjective „vergünstigt, günstig“; 有优惠 is a secondary nominal use
+- w:犹豫:you2yu4 犹豫 type → Adjektiv: 形: the syllabus lists 犹豫 as an adjective (很犹豫); it is also used verbally
+- w:在线:zai4xian4 在线 type → Verb: 动: the syllabus lists 在线 as a verb (to be online)
+- w:展览:zhan3lan3 展览 type → Verb: 动: syllabus lists it as a verb (ausstellen); the noun use Ausstellung is covered in meaning and notes
+- w:阵:zhen4 阵 type → Zählwort: 量: measure word, not a numeral
+- w:直播:zhi2bo1 直播 type → Verb: 动: syllabus lists it as a verb (live übertragen); the noun use Livestream is covered in meaning and notes
+
+## b016 (2026-10-10, author)
+- w:综合:zong1he2 综合 type → Verb: 动: listed as verb (综合大家的意见, 综合考虑); the attributive use in 综合大学 is secondary
+- w:总统:zong3tong3 总统 (author): measureWords: 名 is unusual for 总统 and 届 counts terms/elections (本届政府), not presidents; the ordinal for presidents is 任 (第四十四任总统). Suggest 位/个 only.
+- w:醉:zui4 醉 type → Verb: 动: listed as verb (醉了, 喝醉, 醉倒); „betrunken“ is the resulting state
+- w:棒球:bang4qiu2 棒球 (author): measureWords 只 fraglich: für den Ball ist 个 üblich, für ein Spiel 场 (棒球比赛).
+- w:保健:bao3jian4 保健 type → Verb: 动: official part of speech is verb
+- w:保修:bao3xiu1 保修 type → Verb: 动: official part of speech is verb
+- w:保障:bao3zhang4 保障 type → Verb: 动、名: primarily a verb (gewährleisten), also used as a noun
+- w:部队:bu4dui4 部队 (author): measureWords lists 个; the standard classifier for 部队 is 支 (一支部队).
+- w:才华:cai2hua2 才华 (author): measureWords lists 份; 才华 is normally not counted with a classifier (一份才华 is unusual).
+
+## b017 (2026-10-10, author)
+- w:承诺:cheng2nuo4 承诺 type → Verb: 动: verb in the syllabus (also used as a noun)
+- w:成语:cheng2yu3 成语 (author): measureWords lists 本, which counts books (一本成语词典), not 成语 itself; suggest removing 本.
+- w:冲突:chong1tu1 冲突 type → Verb: 动: verb in the syllabus (very often used as a noun)
+- w:串:chuan4 串 type → Zählwort: 名、量: measure word (and noun), not a numeral
+- w:垂直:chui2zhi2 垂直 type → Verb: 动: official part of speech is verb (A与B垂直 'A steht senkrecht auf B')
+- w:挫折:cuo4zhe2 挫折 (author): Syllabus lists 挫折 only as 动, but in modern usage it is overwhelmingly a noun (遇到挫折); type left as Nomen.
+- w:待:dai4 待 (author): Draft gloss „sich aufhalten, bleiben“ belonged to the reading dāi (HSK4 card 待 dāi); replaced with the dài meanings.
+- w:代理:dai4li3 代理 type → Verb: 动: verb (vertreten, stellvertretend wahrnehmen); the noun sense lives mainly in compounds like 代理商, 代理人
+- w:当初:dang1chu1 当初 type → Nomen: 名: time noun like 当时; used adverbially, but also after prepositions (比当初, 跟当初一样)
+- w:滴:di1 滴 type → Zählwort: 量、动: measure word for drops (and verb „tropfen“), not a numeral
+- w:多亏:duo1kui1 多亏 type → Verb: 动: verb (多亏 + Nomen/Satz „etwas zu verdanken haben“), not an adverb
+- w:反馈:fan3kui4 反馈 type → Verb: 动: verb in the syllabus (also used as a noun)
+- w:访谈:fang3tan2 访谈 type → Verb: 动: verb in the syllabus (also used as a noun)
+- w:分工:fen1gong1 分工 type → Verb: 动: verb in the syllabus (also used as a noun)
+- w:丰收:feng1shou1 丰收 type → Verb: 动: verb in the syllabus (also used as a noun)
