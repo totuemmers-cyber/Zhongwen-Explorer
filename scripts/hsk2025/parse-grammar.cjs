@@ -152,4 +152,5 @@ async function main() {
   }, null, 0).replace(/\{"no"/g, '\n{"no"').replace(/\]\}$/, '\n]}') + '\n');
 }
 
-main().catch(error => { console.error(error); process.exit(1); });
+if (require.main === module) main().catch(error => { console.error(error); process.exit(1); });
+module.exports = { rules, cellText };
