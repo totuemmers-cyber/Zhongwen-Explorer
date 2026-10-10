@@ -678,3 +678,16 @@ kbd { font: 12px var(--font); background: var(--bg); border: 1px solid var(--bor
 .vocab-detail-facts dd { margin: 0; }
 .vocab-detail-facts [lang="zh-TW"] { font-size: 1.2rem; }
 .btn-link { background: none; border: none; padding: 0; color: var(--accent); text-decoration: underline; cursor: pointer; font: inherit; }
+/* Hanzi detail (Phase 4): reading rows, linked components and example words, radical groups */
+button.component-tag { font: inherit; color: inherit; cursor: pointer; }
+.component-tag.clickable:hover, .component-tag.clickable:focus-visible { border-color: var(--accent); }
+.component-tag [lang="zh-CN"] { font: 20px var(--font-jp); }
+.hanzi-readings { display: flex; flex-direction: column; gap: 8px; }
+.hanzi-reading { display: flex; align-items: baseline; gap: 12px; padding: 10px 12px; border-radius: 8px; background: var(--bg); }
+.hanzi-reading .pinyin-reading { font-size: 18px; min-width: 4.5em; }
+.hanzi-reading-meaning { line-height: 1.5; }
+.hanzi-reading-hint { margin: 4px 0 0; font-size: 13px; color: var(--text-secondary); }
+.hanzi-word-link { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; width: 100%; border: 1px solid transparent; font: inherit; color: inherit; text-align: left; cursor: pointer; }
+.hanzi-word-link:hover, .hanzi-word-link:focus-visible { border-color: var(--accent); }
+.example-list .hanzi-word-link + .hanzi-word-link { margin-top: 8px; }
+.radical-level-group { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; }

@@ -68,8 +68,14 @@
             <button class="filter-btn hsk4" data-level="HSK4">HSK 4</button>
             <button class="filter-btn hsk5" data-level="HSK5">HSK 5</button>
             <button class="filter-btn hsk6" data-level="HSK6">HSK 6</button>
+            <button class="filter-btn hsk7-9" data-level="HSK7-9">HSK 7–9</button>
+            <button class="filter-btn zusatz" data-level="Zusatz" title="Zeichen aus Wörtern außerhalb des HSK-Prüfungsplans 2025">Zusatz</button>
           </div>
           <div class="sort-controls">
+            <select id="hanzi-writing-select" aria-label="Schreibzeichen">
+              <option value="all">Alle Zeichen</option>
+              <option value="writing">Nur Schreibzeichen (书写)</option>
+            </select>
             <select id="sort-select">
               <option value="hsk">Nach HSK-Level</option>
               <option value="strokes">Nach Strichzahl</option>
@@ -393,15 +399,15 @@
             <div id="detail-meanings" class="detail-meanings"></div>
             <div id="detail-strokes" class="detail-strokes"></div>
           </div>
-          <div class="detail-readings">
-            <div class="reading-section">
-              <h3>Pinyin <span class="reading-type" lang="zh-CN">(拼音)</span></h3>
-              <div id="detail-pinyin" class="reading-list"></div>
-            </div>
-            <div class="reading-section">
-              <h3>Ton <span class="reading-type" lang="zh-CN">(声调)</span></h3>
-              <div id="detail-tone" class="reading-list"></div>
-            </div>
+          <p id="detail-hanzi-draft" class="draft-notice hidden" role="note"></p>
+          <dl id="detail-hanzi-facts" class="vocab-detail-facts hidden"></dl>
+          <div class="detail-section">
+            <h3>Lesungen <span class="reading-type" lang="zh-CN">(读音)</span></h3>
+            <div id="detail-readings" class="hanzi-readings"></div>
+          </div>
+          <div id="detail-hanzi-notes-section" class="detail-section hidden">
+            <h3>Aufbau &amp; Merkhilfe</h3>
+            <p id="detail-hanzi-notes" class="vocab-detail-notes"></p>
           </div>
           <div class="detail-section stroke-order-section">
             <div class="stroke-order-header" id="stroke-order-header">
@@ -413,7 +419,7 @@
             </div>
           </div>
           <div class="detail-section">
-            <h3>Komponenten / Radikale</h3>
+            <h3>Komponenten</h3>
             <div id="detail-components" class="component-list"></div>
           </div>
           <div class="detail-section">

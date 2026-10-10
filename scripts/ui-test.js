@@ -79,6 +79,13 @@ async function run() {
   assert(d.getElementById('route-message').textContent.includes('nicht gefunden'));
   await finish(f);
 
+  // Deep link to an HSK 7–9 character (levels of the HSK 2025 reading list).
+  f = await boot('#hanzi/' + encodeURIComponent('饶'));
+  ({ w, d } = f);
+  await until(() => w.app.sections.hanzi.isOverlayOpen() && w.app.sections.hanzi.selectedItem && w.app.sections.hanzi.selectedItem.hanzi === '饶', 'hanzi deep link');
+  assert.equal(d.getElementById('detail-jlpt').textContent, 'HSK 7–9');
+  await finish(f);
+
   // Modal detail below 1280 px: dialog semantics, focus moves in and returns to the card.
   f = await boot('#hanzi', { width: 900 });
   ({ w, d } = f);

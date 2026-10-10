@@ -73,7 +73,7 @@
   function getHanziByLevel(level) {
     var sec = window.app && window.app.sections.hanzi;
     if (!sec) return [];
-    return sec.allItems.filter(function (k) { return k.hsk === level; });
+    return sec.allItems.filter(function (k) { return k.level === level; });
   }
 
   function getAllHanzi() {
@@ -224,12 +224,16 @@
     };
   }
 
+  // Main reading and its gloss of a hanzi (readings[0]).
+  function hanziPinyin(k) { return k.readings && k.readings.length ? k.readings[0].pinyin : ''; }
+  function hanziGloss(k) { return k.readings && k.readings.length ? k.readings[0].meaning || '' : ''; }
+
   function genHanziMeaning(level) {
-    var pool = getLevelPool(getHanziByLevel, level);
+    var pool = getLevelPool(getHanziByLevel, level).filter(function (k) { return isQuizReady(k) && hanziGloss(k); });
     if (pool.length < 4) return null;
     var item = pickRandom(pool);
-    var correctMeaning = item.meanings[0];
-    var distractors = generateDistractors(item, pool, 3, function (k) { return k.meanings[0]; });
+    var correctMeaning = hanziGloss(item);
+    var distractors = generateDistractors(item, pool, 3, hanziGloss);
     if (distractors.length < 3) return null;
     var c = buildChoices(correctMeaning, distractors);
     return {
@@ -238,37 +242,39 @@
       promptMain: item.hanzi,
       promptSub: '',
       choices: c.choices, correctIndex: c.correctIndex,
-      explanation: item.hanzi + ' = ' + item.meanings.join(', ')
+      explanation: item.hanzi + ' = ' + item.readings.map(function (r) { return r.pinyin + ' ' + r.meaning; }).join('; ')
     };
   }
 
   function genHanziPinyin(level) {
-    var pool = getLevelPool(getHanziByLevel, level).filter(function (k) { return k.pinyin; });
+    var pool = getLevelPool(getHanziByLevel, level).filter(hanziPinyin);
     if (pool.length < 4) return null;
     var item = pickRandom(pool);
-    var distractors = generateDistractors(item, pool, 3, function (k) { return k.pinyin; });
+    // No distractor may be another reading of the same character (行 xíng/háng).
+    var readings = item.readings.map(function (r) { return r.pinyin; });
+    var distractors = generateDistractors(item, pool.filter(function (k) { return readings.indexOf(hanziPinyin(k)) === -1; }), 3, hanziPinyin);
     if (distractors.length < 3) return null;
-    var c = buildChoices(item.pinyin, distractors);
+    var c = buildChoices(hanziPinyin(item), distractors);
     return {
       type: 'hanziPinyin', level: level,
       prompt: 'Wie lautet das Pinyin für dieses Hanzi?',
       promptMain: item.hanzi,
-      promptSub: item.meanings[0],
+      promptSub: isQuizReady(item) ? hanziGloss(item) : '',
       choices: c.choices, correctIndex: c.correctIndex,
-      explanation: item.hanzi + ': ' + item.pinyin
+      explanation: item.hanzi + ': ' + readings.join(', ')
     };
   }
 
+  // Asks for the primary (Kangxi) radical the character is listed under.
   function genHanziRadical(level) {
-    var pool = getLevelPool(getHanziByLevel, level).filter(function (k) {
-      return k.components && k.components.length > 0;
-    });
+    var radicals = window.KANGXI_RADICALS || [];
+    var radicalOf = function (k) { return radicals.find(function (r) { return r.radical === k.primaryRadical; }); };
+    var pool = getLevelPool(getHanziByLevel, level).filter(function (k) { return k.primaryRadical !== k.hanzi && radicalOf(k); });
     if (pool.length < 4) return null;
     var item = pickRandom(pool);
-    var comp = item.components[0];
-    var correctAnswer = comp.radical + ' (' + comp.meaning + ')';
-    var radicals = window.KANGXI_RADICALS || [];
-    var distractorPool = radicals.filter(function (r) { return r.radical !== comp.radical; });
+    var radical = radicalOf(item);
+    var correctAnswer = radical.radical + (item.radicalForm ? '/' + item.radicalForm : '') + ' (' + radical.meaning + ')';
+    var distractorPool = radicals.filter(function (r) { return r.radical !== radical.radical; });
     var distrs = shuffle(distractorPool).slice(0, 3).map(function (r) {
       return r.radical + ' (' + r.meaning + ')';
     });
@@ -276,11 +282,11 @@
     var c = buildChoices(correctAnswer, distrs);
     return {
       type: 'hanziRadical', level: level,
-      prompt: 'Welches Radikal ist in diesem Hanzi enthalten?',
+      prompt: 'Unter welchem Radikal steht dieses Hanzi?',
       promptMain: item.hanzi,
-      promptSub: item.meanings[0],
+      promptSub: isQuizReady(item) ? hanziGloss(item) : '',
       choices: c.choices, correctIndex: c.correctIndex,
-      explanation: item.hanzi + ' enthält ' + correctAnswer
+      explanation: item.hanzi + ' steht unter dem Radikal ' + correctAnswer
     };
   }
 

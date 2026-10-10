@@ -1,9356 +1,18375 @@
-window.HANZI_DATA = window.HANZI_DATA.concat([
-  {
-    "hanzi": "哀",
-    "meanings": ["Trauer","klagen"],
-    "pinyin": "āi",
-    "tone": 1,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "衣", "meaning": "Kleidung" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "哀悼", "pinyin": "āidào", "meaning": "trauern" },
-      { "word": "悲哀", "pinyin": "bēiāi", "meaning": "traurig" }
-    ]
-  },
+// Hanzi of the HSK 2025 syllabus (reading list) and further characters of the vocabulary (Zusatz).
+// Built by scripts/hanzi/build-hanzi.cjs; content reviewed by the enrichment campaign. Component data
+// derived from AnimCJK and Make Me a Hanzi (LGPL-3.0, licenses/LGPL-3.0.txt).
+window.HANZI_DATA = (window.HANZI_DATA || []).concat([
   {
     "hanzi": "碍",
-    "meanings": ["hindern","Hindernis"],
-    "pinyin": "ài",
-    "tone": 4,
-    "components": [{ "radical": "石", "meaning": "Stein" }],
-    "hsk": "HSK6",
+    "level": "HSK6",
+    "traditional": [
+      "礙"
+    ],
+    "readings": [
+      {
+        "pinyin": "ài",
+        "meaning": "hindern; Hindernis"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 13,
-    "examples": [
-      { "word": "妨碍", "pinyin": "fángài", "meaning": "behindern" },
-      { "word": "障碍", "pinyin": "zhàngài", "meaning": "Hindernis" }
-    ]
+    "primaryRadical": "石",
+    "components": [
+      {
+        "part": "石",
+        "role": "semantic",
+        "meaning": "Stein"
+      },
+      {
+        "part": "㝵",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:妨碍:fang2ai4",
+      "w:障碍:zhang4ai4",
+      "w:阻碍:zu3ai4",
+      "w:碍事:ai4shi4",
+      "w:窒碍:zhi4ai4"
+    ],
+    "evidence": {
+      "cedict": [
+        "ai4: to hinder; to obstruct; to block"
+      ],
+      "handedict": [
+        "ai4: stören, behindern, hindern, hemmen (V)"
+      ],
+      "unihan": "002.170:ài | ài(72)",
+      "etymology": "pictophonetic: stone",
+      "old": "hindern; Hindernis"
+    }
   },
   {
-    "hanzi": "拔",
-    "meanings": ["herausziehen","auswaehlen"],
-    "pinyin": "bá",
-    "tone": 2,
-    "components": [{ "radical": "扌", "meaning": "Hand" }],
-    "hsk": "HSK6",
+    "hanzi": "岸",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "岸"
+    ],
+    "readings": [
+      {
+        "pinyin": "àn",
+        "meaning": "Ufer; Kueste"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 8,
-    "examples": [
-      { "word": "拔出", "pinyin": "báchū", "meaning": "herausziehen" },
-      { "word": "选拔", "pinyin": "xuǎnbá", "meaning": "auswaehlen" }
-    ]
-  },
-  {
-    "hanzi": "颤",
-    "meanings": ["zittern","beben"],
-    "pinyin": "chàn",
-    "tone": 4,
-    "components": [{ "radical": "亶", "meaning": "aufrichtig" }, { "radical": "页", "meaning": "Seite" }],
-    "hsk": "HSK6",
-    "strokes": 19,
-    "examples": [
-      { "word": "颤抖", "pinyin": "chàndǒu", "meaning": "zittern" },
-      { "word": "颤动", "pinyin": "chàndòng", "meaning": "vibrieren" }
-    ]
-  },
-  {
-    "hanzi": "彻",
-    "meanings": ["gruendlich","durchdringend"],
-    "pinyin": "chè",
-    "tone": 4,
-    "components": [{ "radical": "彳", "meaning": "Schritt" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "彻底", "pinyin": "chèdǐ", "meaning": "gruendlich" },
-      { "word": "透彻", "pinyin": "tòuchè", "meaning": "durchdringend" }
-    ]
-  },
-  {
-    "hanzi": "澄",
-    "meanings": ["klaeren","laeutern"],
-    "pinyin": "chéng",
-    "tone": 2,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "澄清", "pinyin": "chéngqīng", "meaning": "klaerstellen" },
-      { "word": "澄澈", "pinyin": "chéngchè", "meaning": "klar" }
-    ]
-  },
-  {
-    "hanzi": "稠",
-    "meanings": ["dicht","zaehfluessig"],
-    "pinyin": "chóu",
-    "tone": 2,
-    "components": [{ "radical": "禾", "meaning": "Getreide" }, { "radical": "周", "meaning": "Woche" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "稠密", "pinyin": "chóumì", "meaning": "dicht" },
-      { "word": "粘稠", "pinyin": "niánchóu", "meaning": "dickfluessig" }
-    ]
-  },
-  {
-    "hanzi": "酬",
-    "meanings": ["Verguetung","vergelten"],
-    "pinyin": "chóu",
-    "tone": 2,
-    "components": [{ "radical": "酉", "meaning": "Wein" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "报酬", "pinyin": "bàochóu", "meaning": "Verguetung" },
-      { "word": "酬谢", "pinyin": "chóuxiè", "meaning": "danken" }
-    ]
-  },
-  {
-    "hanzi": "锤",
-    "meanings": ["Hammer","haemmern"],
-    "pinyin": "chuí",
-    "tone": 2,
-    "components": [{ "radical": "钅", "meaning": "Metall" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "锤子", "pinyin": "chuízi", "meaning": "Hammer" },
-      { "word": "千锤百炼", "pinyin": "qiānchuí bǎiliàn", "meaning": "vielfach gelaeutert" }
-    ]
-  },
-  {
-    "hanzi": "辞",
-    "meanings": ["Wort","Abschied nehmen"],
-    "pinyin": "cí",
-    "tone": 2,
-    "components": [{ "radical": "舌", "meaning": "Zunge" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "辞职", "pinyin": "cízhí", "meaning": "kuendigen" },
-      { "word": "辞典", "pinyin": "cídiǎn", "meaning": "Woerterbuch" }
-    ]
-  },
-  {
-    "hanzi": "辱",
-    "meanings": ["Schande","beledigen"],
-    "pinyin": "rǔ",
-    "tone": 3,
-    "components": [{ "radical": "辰", "meaning": "Morgen" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "侮辱", "pinyin": "wǔrǔ", "meaning": "beledigen" },
-      { "word": "耻辱", "pinyin": "chǐrǔ", "meaning": "Schande" }
-    ]
-  },
-  {
-    "hanzi": "仆",
-    "meanings": ["Diener"],
-    "pinyin": "pú",
-    "tone": 2,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }],
-    "hsk": "HSK6",
-    "strokes": 4,
-    "examples": [
-      { "word": "仆人", "pinyin": "púrén", "meaning": "Diener" },
-      { "word": "公仆", "pinyin": "gōngpú", "meaning": "oeffentlicher Diener" }
-    ]
-  },
-  {
-    "hanzi": "遵",
-    "meanings": ["befolgen","einhalten"],
-    "pinyin": "zūn",
-    "tone": 1,
-    "components": [{ "radical": "辶", "meaning": "gehen" }, { "radical": "尊", "meaning": "Respekt" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "遵守", "pinyin": "zūnshǒu", "meaning": "befolgen" },
-      { "word": "遵循", "pinyin": "zūnxún", "meaning": "sich richten nach" }
-    ]
-  },
-  {
-    "hanzi": "逮",
-    "meanings": ["festnehmen","ergreifen"],
-    "pinyin": "dài",
-    "tone": 4,
-    "components": [{ "radical": "辶", "meaning": "gehen" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "逮捕", "pinyin": "dàibǔ", "meaning": "verhaften" },
-      { "word": "逮住", "pinyin": "dǎizhù", "meaning": "erwischen" }
-    ]
-  },
-  {
-    "hanzi": "叛",
-    "meanings": ["verraten","Verrat"],
-    "pinyin": "pàn",
-    "tone": 4,
-    "components": [{ "radical": "半", "meaning": "halb" }, { "radical": "反", "meaning": "gegen" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "叛变", "pinyin": "pànbiàn", "meaning": "Verrat" },
-      { "word": "叛逆", "pinyin": "pànnì", "meaning": "rebellisch" }
-    ]
-  },
-  {
-    "hanzi": "陷",
-    "meanings": ["fallen","Falle"],
-    "pinyin": "xiàn",
-    "tone": 4,
-    "components": [{ "radical": "阝", "meaning": "Huegel" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "陷阱", "pinyin": "xiànjǐng", "meaning": "Falle" },
-      { "word": "陷入", "pinyin": "xiànrù", "meaning": "geraten in" }
-    ]
-  },
-  {
-    "hanzi": "贬",
-    "meanings": ["herabsetzen","abwerten"],
-    "pinyin": "biǎn",
-    "tone": 3,
-    "components": [{ "radical": "贝", "meaning": "Muschel" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "贬值", "pinyin": "biǎnzhí", "meaning": "abwerten" },
-      { "word": "贬义", "pinyin": "biǎnyì", "meaning": "abwertende Bedeutung" }
-    ]
-  },
-  {
-    "hanzi": "绊",
-    "meanings": ["stolpern","hindern"],
-    "pinyin": "bàn",
-    "tone": 4,
-    "components": [{ "radical": "纟", "meaning": "Faden" }, { "radical": "半", "meaning": "halb" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "绊倒", "pinyin": "bàndǎo", "meaning": "stolpern" },
-      { "word": "羁绊", "pinyin": "jībàn", "meaning": "Fessel" }
-    ]
-  },
-  {
-    "hanzi": "斑",
-    "meanings": ["Fleck","gefleckt"],
-    "pinyin": "bān",
-    "tone": 1,
-    "components": [{ "radical": "文", "meaning": "Schrift" }, { "radical": "王", "meaning": "Koenig" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "斑点", "pinyin": "bāndiǎn", "meaning": "Fleck" },
-      { "word": "斑马", "pinyin": "bānmǎ", "meaning": "Zebra" }
-    ]
-  },
-  {
-    "hanzi": "颊",
-    "meanings": ["Wange"],
-    "pinyin": "jiá",
-    "tone": 2,
-    "components": [{ "radical": "夹", "meaning": "klemmen" }, { "radical": "页", "meaning": "Seite" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "脸颊", "pinyin": "liǎnjiá", "meaning": "Wange" },
-      { "word": "两颊", "pinyin": "liǎngjiá", "meaning": "beide Wangen" }
-    ]
-  },
-  {
-    "hanzi": "汹",
-    "meanings": ["wogend","stuermisch"],
-    "pinyin": "xiōng",
-    "tone": 1,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "汹涌", "pinyin": "xiōngyǒng", "meaning": "wogend" },
-      { "word": "气势汹汹", "pinyin": "qìshì xiōngxiōng", "meaning": "drohend" }
-    ]
-  },
-  {
-    "hanzi": "罢",
-    "meanings": ["aufhoeren","Streik"],
-    "pinyin": "bà",
-    "tone": 4,
-    "components": [{ "radical": "罒", "meaning": "Netz" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "罢工", "pinyin": "bàgōng", "meaning": "streiken" },
-      { "word": "罢免", "pinyin": "bàmiǎn", "meaning": "absetzen" }
-    ]
-  },
-  {
-    "hanzi": "刊",
-    "meanings": ["Zeitschrift","drucken"],
-    "pinyin": "kān",
-    "tone": 1,
-    "components": [{ "radical": "刂", "meaning": "Messer" }],
-    "hsk": "HSK6",
-    "strokes": 5,
-    "examples": [
-      { "word": "刊物", "pinyin": "kānwù", "meaning": "Publikation" },
-      { "word": "刊登", "pinyin": "kāndēng", "meaning": "veroeffentlichen" }
-    ]
-  },
-  {
-    "hanzi": "宪",
-    "meanings": ["Verfassung"],
-    "pinyin": "xiàn",
-    "tone": 4,
-    "components": [{ "radical": "宀", "meaning": "Dach" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "宪法", "pinyin": "xiànfǎ", "meaning": "Verfassung" },
-      { "word": "立宪", "pinyin": "lìxiàn", "meaning": "Konstitutionalismus" }
-    ]
-  },
-  {
-    "hanzi": "勘",
-    "meanings": ["untersuchen","vermessen"],
-    "pinyin": "kān",
-    "tone": 1,
-    "components": [{ "radical": "甚", "meaning": "sehr" }, { "radical": "力", "meaning": "Kraft" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "勘探", "pinyin": "kāntàn", "meaning": "erkunden" },
-      { "word": "勘察", "pinyin": "kānchá", "meaning": "vermessen" }
-    ]
-  },
-  {
-    "hanzi": "兽",
-    "meanings": ["Tier","Bestie"],
-    "pinyin": "shòu",
-    "tone": 4,
-    "components": [{ "radical": "口", "meaning": "Mund" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "野兽", "pinyin": "yěshòu", "meaning": "wildes Tier" },
-      { "word": "怪兽", "pinyin": "guàishòu", "meaning": "Monster" }
-    ]
-  },
-  {
-    "hanzi": "寂",
-    "meanings": ["einsam","still"],
-    "pinyin": "jì",
-    "tone": 4,
-    "components": [{ "radical": "宀", "meaning": "Dach" }, { "radical": "叔", "meaning": "Onkel" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "寂寞", "pinyin": "jìmò", "meaning": "einsam" },
-      { "word": "寂静", "pinyin": "jìjìng", "meaning": "totenstill" }
-    ]
-  },
-  {
-    "hanzi": "拆",
-    "meanings": ["abreissen","zerlegen"],
-    "pinyin": "chāi",
-    "tone": 1,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "斥", "meaning": "zurueckweisen" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "拆除", "pinyin": "chāichú", "meaning": "abreissen" },
-      { "word": "拆开", "pinyin": "chāikāi", "meaning": "auseinandernehmen" }
-    ]
-  },
-  {
-    "hanzi": "眠",
-    "meanings": ["Schlaf"],
-    "pinyin": "mián",
-    "tone": 2,
-    "components": [{ "radical": "目", "meaning": "Auge" }, { "radical": "民", "meaning": "Volk" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "失眠", "pinyin": "shīmián", "meaning": "Schlaflosigkeit" },
-      { "word": "冬眠", "pinyin": "dōngmián", "meaning": "Winterschlaf" }
-    ]
-  },
-  {
-    "hanzi": "奥",
-    "meanings": ["geheimnisvoll","tiefgruendig"],
-    "pinyin": "ào",
-    "tone": 4,
-    "components": [{ "radical": "大", "meaning": "gross" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "奥秘", "pinyin": "àomì", "meaning": "Geheimnis" },
-      { "word": "奥运会", "pinyin": "Àoyùnhuì", "meaning": "Olympische Spiele" }
-    ]
-  },
-  {
-    "hanzi": "绪",
-    "meanings": ["Faden","Stimmung"],
-    "pinyin": "xù",
-    "tone": 4,
-    "components": [{ "radical": "纟", "meaning": "Faden" }, { "radical": "者", "meaning": "Person" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "情绪", "pinyin": "qíngxù", "meaning": "Stimmung/Emotion" },
-      { "word": "头绪", "pinyin": "tóuxù", "meaning": "Anhaltspunkt" }
-    ]
-  },
-  {
-    "hanzi": "债",
-    "meanings": ["Schulden"],
-    "pinyin": "zhài",
-    "tone": 4,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "责", "meaning": "Pflicht" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "债务", "pinyin": "zhàiwù", "meaning": "Schulden" },
-      { "word": "国债", "pinyin": "guózhài", "meaning": "Staatsanleihe" }
-    ]
-  },
-  {
-    "hanzi": "陶",
-    "meanings": ["Keramik","Ton"],
-    "pinyin": "táo",
-    "tone": 2,
-    "components": [{ "radical": "阝", "meaning": "Huegel" }, { "radical": "缶", "meaning": "Topf" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "陶瓷", "pinyin": "táocí", "meaning": "Keramik" },
-      { "word": "陶醉", "pinyin": "táozuì", "meaning": "berauscht sein" }
-    ]
-  },
-  {
-    "hanzi": "雕",
-    "meanings": ["schnitzen","meisseln"],
-    "pinyin": "diāo",
-    "tone": 1,
-    "components": [{ "radical": "隹", "meaning": "Vogel" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "雕塑", "pinyin": "diāosù", "meaning": "Skulptur" },
-      { "word": "雕刻", "pinyin": "diāokè", "meaning": "schnitzen/gravieren" }
-    ]
-  },
-  {
-    "hanzi": "碑",
-    "meanings": ["Stele","Denkmal"],
-    "pinyin": "bēi",
-    "tone": 1,
-    "components": [{ "radical": "石", "meaning": "Stein" }, { "radical": "卑", "meaning": "niedrig" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "石碑", "pinyin": "shíbēi", "meaning": "Steinstele" },
-      { "word": "纪念碑", "pinyin": "jìniànbēi", "meaning": "Denkmal" }
-    ]
-  },
-  {
-    "hanzi": "誓",
-    "meanings": ["schwoeren","Eid"],
-    "pinyin": "shì",
-    "tone": 4,
-    "components": [{ "radical": "折", "meaning": "brechen" }, { "radical": "言", "meaning": "Wort" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "发誓", "pinyin": "fāshì", "meaning": "schwoeren" },
-      { "word": "誓言", "pinyin": "shìyán", "meaning": "Schwur" }
-    ]
-  },
-  {
-    "hanzi": "叹",
-    "meanings": ["seufzen","bewundern"],
-    "pinyin": "tàn",
-    "tone": 4,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "又", "meaning": "wieder" }],
-    "hsk": "HSK6",
-    "strokes": 5,
-    "examples": [
-      { "word": "叹气", "pinyin": "tànqì", "meaning": "seufzen" },
-      { "word": "感叹", "pinyin": "gǎntàn", "meaning": "bewundern/staunen" }
-    ]
-  },
-  {
-    "hanzi": "朽",
-    "meanings": ["verfault","morsch"],
-    "pinyin": "xiǔ",
-    "tone": 3,
-    "components": [{ "radical": "木", "meaning": "Baum" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "腐朽", "pinyin": "fǔxiǔ", "meaning": "verrottet/dekadent" },
-      { "word": "不朽", "pinyin": "bùxiǔ", "meaning": "unsterblich/unvergaenglich" }
-    ]
-  },
-  {
-    "hanzi": "渗",
-    "meanings": ["durchsickern","einsickern"],
-    "pinyin": "shèn",
-    "tone": 4,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "参", "meaning": "teilnehmen" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "渗透", "pinyin": "shèntòu", "meaning": "durchdringen" },
-      { "word": "渗入", "pinyin": "shènrù", "meaning": "einsickern" }
-    ]
-  },
-  {
-    "hanzi": "疏",
-    "meanings": ["spaerlich","vernachlaessigen"],
-    "pinyin": "shū",
-    "tone": 1,
-    "components": [{ "radical": "疋", "meaning": "Stueck Stoff" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "疏忽", "pinyin": "shūhu", "meaning": "vernachlaessigen" },
-      { "word": "疏远", "pinyin": "shūyuǎn", "meaning": "sich entfremden" }
-    ]
-  },
-  {
-    "hanzi": "策",
-    "meanings": ["Plan","Strategie"],
-    "pinyin": "cè",
-    "tone": 4,
-    "components": [{ "radical": "⺮", "meaning": "Bambus" }, { "radical": "朿", "meaning": "Dorn" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "政策", "pinyin": "zhèngcè", "meaning": "Politik/Strategie" },
-      { "word": "对策", "pinyin": "duìcè", "meaning": "Gegenmassnahme" }
-    ]
-  },
-  {
-    "hanzi": "略",
-    "meanings": ["Strategie","kurz"],
-    "pinyin": "lüè",
-    "tone": 4,
-    "components": [{ "radical": "田", "meaning": "Feld" }, { "radical": "各", "meaning": "jeder" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "战略", "pinyin": "zhànlüè", "meaning": "Strategie" },
-      { "word": "省略", "pinyin": "shěnglüè", "meaning": "auslassen" }
-    ]
-  },
-  {
-    "hanzi": "端",
-    "meanings": ["Ende","Anfang","aufrecht"],
-    "pinyin": "duān",
-    "tone": 1,
-    "components": [{ "radical": "立", "meaning": "stehen" }, { "radical": "山", "meaning": "Berg" }, { "radical": "而", "meaning": "aber" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "极端", "pinyin": "jíduān", "meaning": "extrem" },
-      { "word": "端正", "pinyin": "duānzhèng", "meaning": "aufrecht/korrekt" }
-    ]
-  },
-  {
-    "hanzi": "促",
-    "meanings": ["foerdern","draengen"],
-    "pinyin": "cù",
-    "tone": 4,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "足", "meaning": "Fuss" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "促进", "pinyin": "cùjìn", "meaning": "foerdern" },
-      { "word": "督促", "pinyin": "dūcù", "meaning": "draengen/antreiben" }
-    ]
-  },
-  {
-    "hanzi": "融",
-    "meanings": ["schmelzen","verschmelzen"],
-    "pinyin": "róng",
-    "tone": 2,
-    "components": [{ "radical": "鬲", "meaning": "Kessel" }, { "radical": "虫", "meaning": "Insekt" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "融合", "pinyin": "rónghé", "meaning": "verschmelzen" },
-      { "word": "金融", "pinyin": "jīnróng", "meaning": "Finanzen" }
-    ]
-  },
-  {
-    "hanzi": "妙",
-    "meanings": ["wunderbar","geschickt"],
-    "pinyin": "miào",
-    "tone": 4,
-    "components": [{ "radical": "女", "meaning": "Frau" }, { "radical": "少", "meaning": "wenig" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "美妙", "pinyin": "měimiào", "meaning": "wunderbar" },
-      { "word": "奇妙", "pinyin": "qímiào", "meaning": "wundersam" }
-    ]
-  },
-  {
-    "hanzi": "抛",
-    "meanings": ["werfen","aufgeben"],
-    "pinyin": "pāo",
-    "tone": 1,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "九", "meaning": "neun" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "抛弃", "pinyin": "pāoqì", "meaning": "aufgeben/verlassen" },
-      { "word": "抛开", "pinyin": "pāokāi", "meaning": "beiseiteschieben" }
-    ]
-  },
-  {
-    "hanzi": "趋",
-    "meanings": ["Tendenz","eilen"],
-    "pinyin": "qū",
-    "tone": 1,
-    "components": [{ "radical": "走", "meaning": "gehen" }, { "radical": "刍", "meaning": "Gras maehen" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "趋势", "pinyin": "qūshì", "meaning": "Tendenz/Trend" },
-      { "word": "趋向", "pinyin": "qūxiàng", "meaning": "Richtung/Tendenz" }
-    ]
-  },
-  {
-    "hanzi": "弹",
-    "meanings": ["Kugel","spielen (Instrument)"],
-    "pinyin": "dàn",
-    "tone": 4,
-    "components": [{ "radical": "弓", "meaning": "Bogen" }, { "radical": "单", "meaning": "einzeln" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "弹琴", "pinyin": "tánqín", "meaning": "Klavier spielen" },
-      { "word": "子弹", "pinyin": "zǐdàn", "meaning": "Kugel/Patrone" }
-    ]
-  },
-  {
-    "hanzi": "仰",
-    "meanings": ["aufblicken","bewundern"],
-    "pinyin": "yǎng",
-    "tone": 3,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "卬", "meaning": "aufblicken" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "仰望", "pinyin": "yǎngwàng", "meaning": "emporblicken" },
-      { "word": "信仰", "pinyin": "xìnyǎng", "meaning": "Glaube/Religion" }
-    ]
-  },
-  {
-    "hanzi": "庸",
-    "meanings": ["gewoehnlich","mittelmaeessig"],
-    "pinyin": "yōng",
-    "tone": 1,
-    "components": [{ "radical": "广", "meaning": "Dach" }, { "radical": "用", "meaning": "benutzen" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "平庸", "pinyin": "píngyōng", "meaning": "mittelmaeessig" },
-      { "word": "庸俗", "pinyin": "yōngsú", "meaning": "vulgaer" }
-    ]
-  },
-  {
-    "hanzi": "拨",
-    "meanings": ["waehlen","zuweisen"],
-    "pinyin": "bō",
-    "tone": 1,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "发", "meaning": "senden" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "拨打", "pinyin": "bōdǎ", "meaning": "waehlen (Telefon)" },
-      { "word": "拨款", "pinyin": "bōkuǎn", "meaning": "Mittel zuweisen" }
-    ]
-  },
-  {
-    "hanzi": "悲",
-    "meanings": ["traurig","Trauer"],
-    "pinyin": "bēi",
-    "tone": 1,
-    "components": [{ "radical": "非", "meaning": "nicht" }, { "radical": "心", "meaning": "Herz" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "悲伤", "pinyin": "bēishāng", "meaning": "traurig" },
-      { "word": "悲观", "pinyin": "bēiguān", "meaning": "pessimistisch" }
-    ]
-  },
-  {
-    "hanzi": "慕",
-    "meanings": ["bewundern","sich sehnen"],
-    "pinyin": "mù",
-    "tone": 4,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "莫", "meaning": "nicht" }, { "radical": "心", "meaning": "Herz" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "羡慕", "pinyin": "xiànmù", "meaning": "beneiden" },
-      { "word": "爱慕", "pinyin": "àimù", "meaning": "bewundern/verehren" }
-    ]
-  },
-  {
-    "hanzi": "拂",
-    "meanings": ["wischen","streifen"],
-    "pinyin": "fú",
-    "tone": 2,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "弗", "meaning": "nicht" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "吹拂", "pinyin": "chuīfú", "meaning": "sanft wehen" },
-      { "word": "拂晓", "pinyin": "fúxiǎo", "meaning": "Morgendaemmerung" }
-    ]
-  },
-  {
-    "hanzi": "衰",
-    "meanings": ["verfallen","abnehmen"],
-    "pinyin": "shuāi",
-    "tone": 1,
-    "components": [{ "radical": "衣", "meaning": "Kleidung" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "衰退", "pinyin": "shuāituì", "meaning": "Niedergang" },
-      { "word": "衰老", "pinyin": "shuāilǎo", "meaning": "altern" }
-    ]
-  },
-  {
-    "hanzi": "谱",
-    "meanings": ["Partitur","Spektrum"],
-    "pinyin": "pǔ",
-    "tone": 3,
-    "components": [{ "radical": "讠", "meaning": "Sprache" }, { "radical": "普", "meaning": "allgemein" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "乐谱", "pinyin": "yuèpǔ", "meaning": "Notenblatt" },
-      { "word": "食谱", "pinyin": "shípǔ", "meaning": "Rezept/Kochbuch" }
-    ]
-  },
-  {
-    "hanzi": "舆",
-    "meanings": ["oeffentlich","Wagen"],
-    "pinyin": "yú",
-    "tone": 2,
-    "components": [{ "radical": "车", "meaning": "Wagen" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "舆论", "pinyin": "yúlùn", "meaning": "oeffentliche Meinung" },
-      { "word": "舆情", "pinyin": "yúqíng", "meaning": "oeffentliche Stimmung" }
-    ]
-  },
-  {
-    "hanzi": "泛",
-    "meanings": ["allgemein","ueberfluten"],
-    "pinyin": "fàn",
-    "tone": 4,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "乏", "meaning": "Mangel" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "广泛", "pinyin": "guǎngfàn", "meaning": "weit verbreitet" },
-      { "word": "泛滥", "pinyin": "fànlàn", "meaning": "ueberfluten" }
-    ]
-  },
-  {
-    "hanzi": "奋",
-    "meanings": ["kaempfen","streben"],
-    "pinyin": "fèn",
-    "tone": 4,
-    "components": [{ "radical": "大", "meaning": "gross" }, { "radical": "田", "meaning": "Feld" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "奋斗", "pinyin": "fèndòu", "meaning": "kaempfen/streben" },
-      { "word": "兴奋", "pinyin": "xīngfèn", "meaning": "aufgeregt" }
-    ]
-  },
-  {
-    "hanzi": "丰",
-    "meanings": ["reichlich","ueppig"],
-    "pinyin": "fēng",
-    "tone": 1,
-    "components": [{ "radical": "丰", "meaning": "reichlich" }],
-    "hsk": "HSK6",
-    "strokes": 4,
-    "examples": [
-      { "word": "丰富", "pinyin": "fēngfù", "meaning": "reichhaltig" },
-      { "word": "丰收", "pinyin": "fēngshōu", "meaning": "reiche Ernte" }
-    ]
-  },
-  {
-    "hanzi": "吞",
-    "meanings": ["schlucken","verschlingen"],
-    "pinyin": "tūn",
-    "tone": 1,
-    "components": [{ "radical": "天", "meaning": "Himmel" }, { "radical": "口", "meaning": "Mund" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "吞咽", "pinyin": "tūnyàn", "meaning": "schlucken" },
-      { "word": "吞噬", "pinyin": "tūnshì", "meaning": "verschlingen" }
-    ]
-  },
-  {
-    "hanzi": "陌",
-    "meanings": ["Pfad","fremd"],
-    "pinyin": "mò",
-    "tone": 4,
-    "components": [{ "radical": "阝", "meaning": "Huegel" }, { "radical": "百", "meaning": "hundert" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "陌生", "pinyin": "mòshēng", "meaning": "fremd/unbekannt" },
-      { "word": "陌路", "pinyin": "mòlù", "meaning": "fremder Weg" }
-    ]
-  },
-  {
-    "hanzi": "颈",
-    "meanings": ["Hals","Nacken"],
-    "pinyin": "jǐng",
-    "tone": 3,
-    "components": [{ "radical": "巠", "meaning": "Fluss" }, { "radical": "页", "meaning": "Seite/Kopf" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "瓶颈", "pinyin": "píngjǐng", "meaning": "Flaschenhals/Engpass" },
-      { "word": "颈椎", "pinyin": "jǐngzhuī", "meaning": "Halswirbel" }
-    ]
-  },
-  {
-    "hanzi": "驻",
-    "meanings": ["stationieren","verweilen"],
-    "pinyin": "zhù",
-    "tone": 4,
-    "components": [{ "radical": "马", "meaning": "Pferd" }, { "radical": "主", "meaning": "Herr" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "驻扎", "pinyin": "zhùzhā", "meaning": "stationieren" },
-      { "word": "驻守", "pinyin": "zhùshǒu", "meaning": "Garnison halten" }
-    ]
+    "primaryRadical": "山",
+    "components": [
+      {
+        "part": "山",
+        "meaning": "Berg"
+      },
+      {
+        "part": "厈"
+      }
+    ],
+    "words": [
+      "w:岸:an4",
+      "w:海岸:hai3an4",
+      "w:两岸:liang3an4",
+      "w:对岸:dui4an4",
+      "w:口岸:kou3an4"
+    ],
+    "evidence": {
+      "cedict": [
+        "an4: variant of 岸[an4]; bank; shore; beach; coast"
+      ],
+      "handedict": [
+        "an4: Ufer; Küste (S); Bsp.: 對岸 对岸 -- gegenüberliegendes Ufer; Bsp.: 海岸 海岸 -- Küste; Meeresküste; Bsp.: 河岸 河岸 -- Flussufer; Bsp.: 上岸 上岸 -- an Land gehen; hoch (Adv); Bsp.: 偉岸 伟岸 -- groß und kräftig; imposant; erhaben (Adj); Bsp.: 傲岸 傲岸 -- hochmütig; stolz"
+      ],
+      "unihan": "004.030:àn | àn(343)",
+      "etymology": "ideographic: A mountain 山 cliff 厂; 干 provides the pronunciation",
+      "old": "Ufer; Kueste"
+    }
   },
   {
     "hanzi": "昂",
-    "meanings": ["emporheben","teuer"],
-    "pinyin": "áng",
-    "tone": 2,
-    "components": [{ "radical": "日", "meaning": "Sonne" }, { "radical": "卬", "meaning": "emporheben" }],
-    "hsk": "HSK6",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "昂"
+    ],
+    "readings": [
+      {
+        "pinyin": "áng",
+        "meaning": "emporheben; teuer"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 8,
-    "examples": [
-      { "word": "昂贵", "pinyin": "ángguì", "meaning": "teuer" },
-      { "word": "昂扬", "pinyin": "ángyáng", "meaning": "aufgeregt" }
-    ]
+    "primaryRadical": "日",
+    "components": [
+      {
+        "part": "日",
+        "role": "semantic",
+        "meaning": "Sonne"
+      },
+      {
+        "part": "卬",
+        "role": "phonetic",
+        "meaning": "emporheben"
+      }
+    ],
+    "words": [
+      "w:昂贵:ang2gui4",
+      "w:高昂:gao1ang2",
+      "w:慷慨激昂:kang1kai3ji1ang2",
+      "w:气宇轩昂:qi4yu3xuan1ang2"
+    ],
+    "evidence": {
+      "cedict": [
+        "ang2: to lift; to raise; to raise one's head; high; high spirits"
+      ],
+      "handedict": [
+        "ang2: erheben (V); anheben (V); den Kopf erheben (V); hoch (Adv); gute Laune (S)"
+      ],
+      "unihan": "004.110:áng | áng(44)",
+      "etymology": "pictophonetic: sun",
+      "old": "emporheben; teuer"
+    }
   },
   {
-    "hanzi": "颅",
-    "meanings": ["Schaedel"],
-    "pinyin": "lú",
-    "tone": 2,
-    "components": [{ "radical": "卢", "meaning": "Herd" }, { "radical": "页", "meaning": "Seite" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "头颅", "pinyin": "tóulú", "meaning": "Schaedel" },
-      { "word": "颅骨", "pinyin": "lúgǔ", "meaning": "Schaedelknochen" }
-    ]
-  },
-  {
-    "hanzi": "瞬",
-    "meanings": ["Augenblick","blinzeln"],
-    "pinyin": "shùn",
-    "tone": 4,
-    "components": [{ "radical": "目", "meaning": "Auge" }, { "radical": "舜", "meaning": "Kaiser Shun" }],
-    "hsk": "HSK6",
-    "strokes": 17,
-    "examples": [
-      { "word": "瞬间", "pinyin": "shùnjiān", "meaning": "Augenblick" },
-      { "word": "一瞬", "pinyin": "yīshùn", "meaning": "ein Moment" }
-    ]
-  },
-  {
-    "hanzi": "凑",
-    "meanings": ["zusammenkommen","zusammenfuegen"],
-    "pinyin": "còu",
-    "tone": 4,
-    "components": [{ "radical": "冫", "meaning": "Eis" }, { "radical": "奏", "meaning": "spielen" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "凑合", "pinyin": "còuhe", "meaning": "akzeptabel" },
-      { "word": "凑巧", "pinyin": "còuqiǎo", "meaning": "zufaellig" }
-    ]
-  },
-  {
-    "hanzi": "丧",
-    "meanings": ["Trauer","verlieren"],
-    "pinyin": "sàng",
-    "tone": 4,
-    "components": [{ "radical": "十", "meaning": "zehn" }, { "radical": "衣", "meaning": "Kleidung" }],
-    "hsk": "HSK6",
+    "hanzi": "拔",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "拔"
+    ],
+    "readings": [
+      {
+        "pinyin": "bá",
+        "meaning": "herausziehen; auswaehlen"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 8,
-    "examples": [
-      { "word": "丧失", "pinyin": "sàngshī", "meaning": "verlieren" },
-      { "word": "沮丧", "pinyin": "jǔsàng", "meaning": "niedergeschlagen" }
-    ]
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "role": "semantic",
+        "meaning": "Hand"
+      },
+      {
+        "part": "犮",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:海拔:hai3ba2",
+      "w:选拔:xuan3ba2",
+      "w:拔:ba2",
+      "w:提拔:ti2ba2",
+      "w:挺拔:ting3ba2"
+    ],
+    "evidence": {
+      "cedict": [
+        "ba2: to pull up; to pull out; to draw out by suction; to select; to pick"
+      ],
+      "handedict": [
+        "ba2: ziehen; ausziehen; ausreißen (V); Bsp.: 拔草 拔草 -- Unkraut jäten; Bsp.: 拔牙 拔牙 -- einen Zahn ziehen; aussaugen; ausziehen (V); Bsp.: 拔毒 拔毒 -- Gift aussaugen; auswählen (V); Bsp.: 提拔 提拔 -- befördern; jmdn. im Rang erhöhen; Bsp.: 選拔 选拔 -- auswählen; auslesen; erheben; anheben (V); Bsp.: 拔嗓子 拔嗓子 -- die Stimme erheben; andere übertreffen (V); Bsp.: 出類拔萃 出类拔萃 -- herausragend; exzellent"
+      ],
+      "unihan": "006.160:bá | bá(125) ba(13)",
+      "etymology": "pictophonetic: hand",
+      "old": "herausziehen; auswaehlen"
+    }
   },
   {
-    "hanzi": "酥",
-    "meanings": ["muerbe","knusprig"],
-    "pinyin": "sū",
-    "tone": 1,
-    "components": [{ "radical": "酉", "meaning": "Alkohol" }, { "radical": "禾", "meaning": "Getreide" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "酥脆", "pinyin": "sūcuì", "meaning": "knusprig" },
-      { "word": "酥油", "pinyin": "sūyóu", "meaning": "Butter" }
-    ]
-  },
-  {
-    "hanzi": "拟",
-    "meanings": ["planen","entwerfen"],
-    "pinyin": "nǐ",
-    "tone": 3,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "以", "meaning": "mit" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "拟定", "pinyin": "nǐdìng", "meaning": "entwerfen" },
-      { "word": "模拟", "pinyin": "mónǐ", "meaning": "simulieren" }
-    ]
-  },
-  {
-    "hanzi": "噪",
-    "meanings": ["Laerm"],
-    "pinyin": "zào",
-    "tone": 4,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "喿", "meaning": "trocken" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "噪音", "pinyin": "zàoyīn", "meaning": "Laerm" },
-      { "word": "噪声", "pinyin": "zàoshēng", "meaning": "Geraeusch" }
-    ]
-  },
-  {
-    "hanzi": "奸",
-    "meanings": ["heimtueckisch","Verraeter"],
-    "pinyin": "jiān",
-    "tone": 1,
-    "components": [{ "radical": "女", "meaning": "Frau" }, { "radical": "干", "meaning": "trocken" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "奸诈", "pinyin": "jiānzhà", "meaning": "heimtueckisch" },
-      { "word": "汉奸", "pinyin": "hànjiān", "meaning": "Verraeter" }
-    ]
-  },
-  {
-    "hanzi": "囚",
-    "meanings": ["Gefangener","einsperren"],
-    "pinyin": "qiú",
-    "tone": 2,
-    "components": [{ "radical": "囗", "meaning": "Umzaeunung" }, { "radical": "人", "meaning": "Mensch" }],
-    "hsk": "HSK6",
-    "strokes": 5,
-    "examples": [
-      { "word": "囚犯", "pinyin": "qiúfàn", "meaning": "Gefangener" },
-      { "word": "囚禁", "pinyin": "qiújìn", "meaning": "einsperren" }
-    ]
-  },
-  {
-    "hanzi": "遮",
-    "meanings": ["verdecken","abschirmen"],
-    "pinyin": "zhē",
-    "tone": 1,
-    "components": [{ "radical": "辶", "meaning": "gehen" }, { "radical": "庶", "meaning": "gewoehnlich" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "遮挡", "pinyin": "zhēdǎng", "meaning": "abschirmen" },
-      { "word": "遮盖", "pinyin": "zhēgài", "meaning": "verdecken" }
-    ]
-  },
-  {
-    "hanzi": "膜",
-    "meanings": ["Membran","Folie"],
-    "pinyin": "mó",
-    "tone": 2,
-    "components": [{ "radical": "月", "meaning": "Fleisch" }, { "radical": "莫", "meaning": "nicht" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "薄膜", "pinyin": "bómó", "meaning": "duenne Folie" },
-      { "word": "眼膜", "pinyin": "yǎnmó", "meaning": "Augenhaut" }
-    ]
-  },
-  {
-    "hanzi": "吏",
-    "meanings": ["Beamter"],
-    "pinyin": "lì",
-    "tone": 4,
-    "components": [{ "radical": "一", "meaning": "eins" }, { "radical": "史", "meaning": "Geschichte" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "官吏", "pinyin": "guānlì", "meaning": "Beamter" },
-      { "word": "吏治", "pinyin": "lìzhì", "meaning": "Beamtenverwaltung" }
-    ]
-  },
-  {
-    "hanzi": "嘉",
-    "meanings": ["loben","vortrefflich"],
-    "pinyin": "jiā",
-    "tone": 1,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "加", "meaning": "hinzufuegen" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "嘉奖", "pinyin": "jiājiǎng", "meaning": "auszeichnen" },
-      { "word": "嘉宾", "pinyin": "jiābīn", "meaning": "Ehrengast" }
-    ]
-  },
-  {
-    "hanzi": "摊",
-    "meanings": ["Stand","ausbreiten"],
-    "pinyin": "tān",
-    "tone": 1,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "难", "meaning": "schwierig" }],
-    "hsk": "HSK6",
+    "hanzi": "摆",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "擺"
+    ],
+    "readings": [
+      {
+        "pinyin": "bǎi",
+        "meaning": "Pendel; setzen, stellen, legen"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 13,
-    "examples": [
-      { "word": "摊位", "pinyin": "tānwèi", "meaning": "Marktstand" },
-      { "word": "摊开", "pinyin": "tānkāi", "meaning": "ausbreiten" }
-    ]
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "role": "semantic",
+        "meaning": "Hand"
+      },
+      {
+        "part": "罢",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:摆:bai3",
+      "w:摆放:bai3fang4",
+      "w:摆脱:bai3tuo1",
+      "w:摆动:bai3dong4",
+      "w:摆平:bai3ping2"
+    ],
+    "evidence": {
+      "cedict": [
+        "bai3: to arrange; to exhibit; to move to and fro; a pendulum; hem (at the bottom of a garment)"
+      ],
+      "handedict": [
+        "bai3: Pendel (S, Phys); setzen, stellen, legen (V)"
+      ],
+      "unihan": "008.130,009.010:bǎi | bǎi(275)",
+      "etymology": "pictophonetic: hand"
+    }
   },
   {
-    "hanzi": "缚",
-    "meanings": ["fesseln","binden"],
-    "pinyin": "fù",
-    "tone": 4,
-    "components": [{ "radical": "纟", "meaning": "Faden" }, { "radical": "尃", "meaning": "verbreiten" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "束缚", "pinyin": "shùfù", "meaning": "fesseln" },
-      { "word": "缚住", "pinyin": "fùzhù", "meaning": "festbinden" }
-    ]
-  },
-  {
-    "hanzi": "弦",
-    "meanings": ["Saite","Sehne"],
-    "pinyin": "xián",
-    "tone": 2,
-    "components": [{ "radical": "弓", "meaning": "Bogen" }, { "radical": "玄", "meaning": "mysterioes" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "琴弦", "pinyin": "qínxián", "meaning": "Saite" },
-      { "word": "弦乐", "pinyin": "xiányuè", "meaning": "Streichmusik" }
-    ]
-  },
-  {
-    "hanzi": "瓷",
-    "meanings": ["Porzellan"],
-    "pinyin": "cí",
-    "tone": 2,
-    "components": [{ "radical": "次", "meaning": "naechster" }, { "radical": "瓦", "meaning": "Ziegel" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "瓷器", "pinyin": "cíqì", "meaning": "Porzellan" },
-      { "word": "陶瓷", "pinyin": "táocí", "meaning": "Keramik" }
-    ]
-  },
-  {
-    "hanzi": "尸",
-    "meanings": ["Leiche"],
-    "pinyin": "shī",
-    "tone": 1,
-    "components": [{ "radical": "尸", "meaning": "Leiche" }],
-    "hsk": "HSK6",
-    "strokes": 3,
-    "examples": [
-      { "word": "尸体", "pinyin": "shītǐ", "meaning": "Leiche" },
-      { "word": "尸骨", "pinyin": "shīgǔ", "meaning": "Gebeine" }
-    ]
-  },
-  {
-    "hanzi": "匠",
-    "meanings": ["Handwerker","Meister"],
-    "pinyin": "jiàng",
-    "tone": 4,
-    "components": [{ "radical": "匚", "meaning": "Kasten" }, { "radical": "斤", "meaning": "Axt" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "工匠", "pinyin": "gōngjiàng", "meaning": "Handwerker" },
-      { "word": "匠心", "pinyin": "jiàngxīn", "meaning": "Meisterschaft" }
-    ]
-  },
-  {
-    "hanzi": "僵",
-    "meanings": ["starr","steif"],
-    "pinyin": "jiāng",
-    "tone": 1,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "疆", "meaning": "Grenze" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "僵硬", "pinyin": "jiāngyìng", "meaning": "steif" },
-      { "word": "僵局", "pinyin": "jiāngjú", "meaning": "Sackgasse" }
-    ]
-  },
-  {
-    "hanzi": "窟",
-    "meanings": ["Hoehle","Grotte"],
-    "pinyin": "kū",
-    "tone": 1,
-    "components": [{ "radical": "穴", "meaning": "Hoehle" }, { "radical": "屈", "meaning": "beugen" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "石窟", "pinyin": "shíkū", "meaning": "Steingrotte" },
-      { "word": "窟窿", "pinyin": "kūlong", "meaning": "Loch" }
-    ]
-  },
-  {
-    "hanzi": "崩",
-    "meanings": ["zusammenbrechen"],
-    "pinyin": "bēng",
-    "tone": 1,
-    "components": [{ "radical": "山", "meaning": "Berg" }, { "radical": "朋", "meaning": "Freund" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "崩溃", "pinyin": "bēngkuì", "meaning": "zusammenbrechen" },
-      { "word": "崩塌", "pinyin": "bēngtā", "meaning": "einstuerzen" }
-    ]
-  },
-  {
-    "hanzi": "帝",
-    "meanings": ["Kaiser"],
-    "pinyin": "dì",
-    "tone": 4,
-    "components": [{ "radical": "亠", "meaning": "Deckel" }, { "radical": "巾", "meaning": "Tuch" }],
-    "hsk": "HSK6",
+    "hanzi": "拜",
+    "level": "HSK6",
+    "traditional": [
+      "拜"
+    ],
+    "readings": [
+      {
+        "pinyin": "bài",
+        "meaning": "verehren; besuchen"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 9,
-    "examples": [
-      { "word": "皇帝", "pinyin": "huángdì", "meaning": "Kaiser" },
-      { "word": "帝国", "pinyin": "dìguó", "meaning": "Imperium" }
-    ]
-  },
-  {
-    "hanzi": "峡",
-    "meanings": ["Schlucht"],
-    "pinyin": "xiá",
-    "tone": 2,
-    "components": [{ "radical": "山", "meaning": "Berg" }, { "radical": "夹", "meaning": "klemmen" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "峡谷", "pinyin": "xiágǔ", "meaning": "Schlucht" },
-      { "word": "三峡", "pinyin": "sānxiá", "meaning": "Drei Schluchten" }
-    ]
-  },
-  {
-    "hanzi": "弓",
-    "meanings": ["Bogen"],
-    "pinyin": "gōng",
-    "tone": 1,
-    "components": [{ "radical": "弓", "meaning": "Bogen" }],
-    "hsk": "HSK6",
-    "strokes": 3,
-    "examples": [
-      { "word": "弓箭", "pinyin": "gōngjiàn", "meaning": "Pfeil und Bogen" },
-      { "word": "弹弓", "pinyin": "dàngōng", "meaning": "Schleuder" }
-    ]
-  },
-  {
-    "hanzi": "彭",
-    "meanings": ["Familienname Peng"],
-    "pinyin": "péng",
-    "tone": 2,
-    "components": [{ "radical": "壴", "meaning": "Trommel" }, { "radical": "彡", "meaning": "Streifen" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "彭湃", "pinyin": "péngpài", "meaning": "wogend" },
-      { "word": "彭祖", "pinyin": "péngzǔ", "meaning": "Peng Zu (Legende)" }
-    ]
-  },
-  {
-    "hanzi": "拷",
-    "meanings": ["foltern","kopieren"],
-    "pinyin": "kǎo",
-    "tone": 3,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "考", "meaning": "pruefen" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "拷贝", "pinyin": "kǎobèi", "meaning": "Kopie" },
-      { "word": "拷问", "pinyin": "kǎowèn", "meaning": "verhoeren" }
-    ]
-  },
-  {
-    "hanzi": "歧",
-    "meanings": ["Abzweigung","abweichen"],
-    "pinyin": "qí",
-    "tone": 2,
-    "components": [{ "radical": "止", "meaning": "stoppen" }, { "radical": "支", "meaning": "Zweig" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "歧视", "pinyin": "qíshì", "meaning": "Diskriminierung" },
-      { "word": "分歧", "pinyin": "fēnqí", "meaning": "Meinungsverschiedenheit" }
-    ]
-  },
-  {
-    "hanzi": "酿",
-    "meanings": ["brauen","gaeren"],
-    "pinyin": "niàng",
-    "tone": 4,
-    "components": [{ "radical": "酉", "meaning": "Alkohol" }, { "radical": "良", "meaning": "gut" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "酿酒", "pinyin": "niàngjiǔ", "meaning": "Wein brauen" },
-      { "word": "酿造", "pinyin": "niàngzào", "meaning": "brauen" }
-    ]
-  },
-  {
-    "hanzi": "朴",
-    "meanings": ["schlicht","einfach"],
-    "pinyin": "pǔ",
-    "tone": 3,
-    "components": [{ "radical": "木", "meaning": "Baum" }, { "radical": "卜", "meaning": "wahrsagen" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "朴素", "pinyin": "pǔsù", "meaning": "schlicht" },
-      { "word": "质朴", "pinyin": "zhìpǔ", "meaning": "einfach" }
-    ]
-  },
-  {
-    "hanzi": "裸",
-    "meanings": ["nackt","bloss"],
-    "pinyin": "luǒ",
-    "tone": 3,
-    "components": [{ "radical": "衤", "meaning": "Kleidung" }, { "radical": "果", "meaning": "Frucht" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "裸体", "pinyin": "luǒtǐ", "meaning": "nackt" },
-      { "word": "裸露", "pinyin": "luǒlù", "meaning": "entbloessen" }
-    ]
-  },
-  {
-    "hanzi": "隧",
-    "meanings": ["Tunnel"],
-    "pinyin": "suì",
-    "tone": 4,
-    "components": [{ "radical": "阝", "meaning": "Huegel" }, { "radical": "遂", "meaning": "dann" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "隧道", "pinyin": "suìdào", "meaning": "Tunnel" },
-      { "word": "地道隧", "pinyin": "dìdào suì", "meaning": "unterirdischer Tunnel" }
-    ]
-  },
-  {
-    "hanzi": "棺",
-    "meanings": ["Sarg"],
-    "pinyin": "guān",
-    "tone": 1,
-    "components": [{ "radical": "木", "meaning": "Baum" }, { "radical": "官", "meaning": "Beamter" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "棺材", "pinyin": "guāncai", "meaning": "Sarg" },
-      { "word": "棺木", "pinyin": "guānmù", "meaning": "Sarg" }
-    ]
-  },
-  {
-    "hanzi": "墓",
-    "meanings": ["Grab"],
-    "pinyin": "mù",
-    "tone": 4,
-    "components": [{ "radical": "莫", "meaning": "nicht" }, { "radical": "土", "meaning": "Erde" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "墓地", "pinyin": "mùdì", "meaning": "Friedhof" },
-      { "word": "坟墓", "pinyin": "fénmù", "meaning": "Grab" }
-    ]
-  },
-  {
-    "hanzi": "兢",
-    "meanings": ["vorsichtig","aengstlich"],
-    "pinyin": "jīng",
-    "tone": 1,
-    "components": [{ "radical": "克", "meaning": "ueberwinden" }, { "radical": "克", "meaning": "ueberwinden" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "兢兢业业", "pinyin": "jīngjīng yèyè", "meaning": "gewissenhaft" },
-      { "word": "战战兢兢", "pinyin": "zhànzhàn jīngjīng", "meaning": "zitternd vor Angst" }
-    ]
-  },
-  {
-    "hanzi": "歉",
-    "meanings": ["Entschuldigung","Mangel"],
-    "pinyin": "qiàn",
-    "tone": 4,
-    "components": [{ "radical": "欠", "meaning": "schulden" }, { "radical": "兼", "meaning": "gleichzeitig" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "道歉", "pinyin": "dàoqiàn", "meaning": "sich entschuldigen" },
-      { "word": "歉意", "pinyin": "qiànyì", "meaning": "Bedauern" }
-    ]
-  },
-  {
-    "hanzi": "欺",
-    "meanings": ["betruegen","taeuschen"],
-    "pinyin": "qī",
-    "tone": 1,
-    "components": [{ "radical": "其", "meaning": "sein" }, { "radical": "欠", "meaning": "schulden" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "欺骗", "pinyin": "qīpiàn", "meaning": "betruegen" },
-      { "word": "欺负", "pinyin": "qīfu", "meaning": "schikanieren" }
-    ]
-  },
-  {
-    "hanzi": "讽",
-    "meanings": ["verspotten","satirisch"],
-    "pinyin": "fěng",
-    "tone": 3,
-    "components": [{ "radical": "讠", "meaning": "Sprache" }, { "radical": "风", "meaning": "Wind" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "讽刺", "pinyin": "fěngcì", "meaning": "Satire" },
-      { "word": "嘲讽", "pinyin": "cháofěng", "meaning": "verspotten" }
-    ]
-  },
-  {
-    "hanzi": "沾",
-    "meanings": ["benetzen","beruehren"],
-    "pinyin": "zhān",
-    "tone": 1,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "占", "meaning": "besetzen" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "沾染", "pinyin": "zhānrǎn", "meaning": "beflecken" },
-      { "word": "沾光", "pinyin": "zhānguāng", "meaning": "profitieren von" }
-    ]
-  },
-  {
-    "hanzi": "捕",
-    "meanings": ["fangen","ergreifen"],
-    "pinyin": "bǔ",
-    "tone": 3,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "甫", "meaning": "gerade erst" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "捕捉", "pinyin": "bǔzhuō", "meaning": "fangen" },
-      { "word": "逮捕", "pinyin": "dàibǔ", "meaning": "verhaften" }
-    ]
-  },
-  {
-    "hanzi": "魏",
-    "meanings": ["Wei (Staat)","erhaben"],
-    "pinyin": "wèi",
-    "tone": 4,
-    "components": [{ "radical": "委", "meaning": "anvertrauen" }, { "radical": "鬼", "meaning": "Geist" }],
-    "hsk": "HSK6",
-    "strokes": 17,
-    "examples": [
-      { "word": "魏国", "pinyin": "wèiguó", "meaning": "Staat Wei" },
-      { "word": "巍魏", "pinyin": "wēiwèi", "meaning": "erhaben" }
-    ]
-  },
-  {
-    "hanzi": "饥",
-    "meanings": ["Hunger"],
-    "pinyin": "jī",
-    "tone": 1,
-    "components": [{ "radical": "饣", "meaning": "Essen" }, { "radical": "几", "meaning": "wenige" }],
-    "hsk": "HSK6",
-    "strokes": 5,
-    "examples": [
-      { "word": "饥饿", "pinyin": "jīè", "meaning": "Hunger" },
-      { "word": "饥荒", "pinyin": "jīhuāng", "meaning": "Hungersnot" }
-    ]
-  },
-  {
-    "hanzi": "孤",
-    "meanings": ["einsam","Waise"],
-    "pinyin": "gū",
-    "tone": 1,
-    "components": [{ "radical": "子", "meaning": "Kind" }, { "radical": "瓜", "meaning": "Melone" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "孤独", "pinyin": "gūdú", "meaning": "einsam" },
-      { "word": "孤儿", "pinyin": "gūér", "meaning": "Waise" }
-    ]
-  },
-  {
-    "hanzi": "浩",
-    "meanings": ["gewaltig","weit"],
-    "pinyin": "hào",
-    "tone": 4,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "告", "meaning": "mitteilen" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "浩大", "pinyin": "hàodà", "meaning": "gewaltig" },
-      { "word": "浩瀚", "pinyin": "hàohàn", "meaning": "grenzenlos" }
-    ]
-  },
-  {
-    "hanzi": "茫",
-    "meanings": ["grenzenlos","verschwommen"],
-    "pinyin": "máng",
-    "tone": 2,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "忙", "meaning": "beschaeftigt" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "茫然", "pinyin": "mángrán", "meaning": "ratlos" },
-      { "word": "茫茫", "pinyin": "mángmáng", "meaning": "weit und endlos" }
-    ]
-  },
-  {
-    "hanzi": "蔽",
-    "meanings": ["verbergen","abschirmen"],
-    "pinyin": "bì",
-    "tone": 4,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "敝", "meaning": "abgenutzt" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "隐蔽", "pinyin": "yǐnbì", "meaning": "verbergen" },
-      { "word": "蒙蔽", "pinyin": "méngbì", "meaning": "taeuschen" }
-    ]
-  },
-  {
-    "hanzi": "绸",
-    "meanings": ["Seide","Satin"],
-    "pinyin": "chóu",
-    "tone": 2,
-    "components": [{ "radical": "纟", "meaning": "Faden" }, { "radical": "周", "meaning": "Woche" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "丝绸", "pinyin": "sīchóu", "meaning": "Seide" },
-      { "word": "绸缎", "pinyin": "chóuduàn", "meaning": "Seidenstoff" }
-    ]
-  },
-  {
-    "hanzi": "铭",
-    "meanings": ["Inschrift","einpraegen"],
-    "pinyin": "míng",
-    "tone": 2,
-    "components": [{ "radical": "钅", "meaning": "Metall" }, { "radical": "名", "meaning": "Name" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "铭记", "pinyin": "míngjì", "meaning": "sich einpraegen" },
-      { "word": "座右铭", "pinyin": "zuòyòumíng", "meaning": "Motto" }
-    ]
-  },
-  {
-    "hanzi": "禅",
-    "meanings": ["Zen","Meditation"],
-    "pinyin": "chán",
-    "tone": 2,
-    "components": [{ "radical": "礻", "meaning": "Geist" }, { "radical": "单", "meaning": "einzeln" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "禅宗", "pinyin": "chánzōng", "meaning": "Zen-Buddhismus" },
-      { "word": "坐禅", "pinyin": "zuòchán", "meaning": "meditieren" }
-    ]
-  },
-  {
-    "hanzi": "衫",
-    "meanings": ["Hemd","Oberteil"],
-    "pinyin": "shān",
-    "tone": 1,
-    "components": [{ "radical": "衤", "meaning": "Kleidung" }, { "radical": "彡", "meaning": "Streifen" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "衬衫", "pinyin": "chènshān", "meaning": "Hemd" },
-      { "word": "衣衫", "pinyin": "yīshān", "meaning": "Kleidung" }
-    ]
-  },
-  {
-    "hanzi": "翔",
-    "meanings": ["gleiten","kreisen"],
-    "pinyin": "xiáng",
-    "tone": 2,
-    "components": [{ "radical": "羊", "meaning": "Schaf" }, { "radical": "羽", "meaning": "Feder" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "飞翔", "pinyin": "fēixiáng", "meaning": "fliegen" },
-      { "word": "翱翔", "pinyin": "áoxiáng", "meaning": "gleiten" }
-    ]
-  },
-  {
-    "hanzi": "泣",
-    "meanings": ["schluchzen","weinen"],
-    "pinyin": "qì",
-    "tone": 4,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "立", "meaning": "stehen" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "哭泣", "pinyin": "kūqì", "meaning": "weinen" },
-      { "word": "泣不成声", "pinyin": "qì bù chéng shēng", "meaning": "vor Weinen nicht sprechen koennen" }
-    ]
-  },
-  {
-    "hanzi": "畏",
-    "meanings": ["fuerchten","Ehrfurcht"],
-    "pinyin": "wèi",
-    "tone": 4,
-    "components": [{ "radical": "田", "meaning": "Feld" }, { "radical": "一", "meaning": "eins" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "畏惧", "pinyin": "wèijù", "meaning": "fuerchten" },
-      { "word": "敬畏", "pinyin": "jìngwèi", "meaning": "Ehrfurcht" }
-    ]
-  },
-  {
-    "hanzi": "凄",
-    "meanings": ["traurig","klaglich"],
-    "pinyin": "qī",
-    "tone": 1,
-    "components": [{ "radical": "冫", "meaning": "Eis" }, { "radical": "妻", "meaning": "Ehefrau" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "凄凉", "pinyin": "qīliáng", "meaning": "trostlos" },
-      { "word": "凄惨", "pinyin": "qīcǎn", "meaning": "elendig" }
-    ]
-  },
-  {
-    "hanzi": "剥",
-    "meanings": ["schaelen","abziehen"],
-    "pinyin": "bō",
-    "tone": 1,
-    "components": [{ "radical": "录", "meaning": "aufnehmen" }, { "radical": "刂", "meaning": "Messer" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "剥夺", "pinyin": "bōduó", "meaning": "berauben" },
-      { "word": "剥削", "pinyin": "bōxuē", "meaning": "ausbeuten" }
-    ]
-  },
-  {
-    "hanzi": "侣",
-    "meanings": ["Gefaehrte","Partner"],
-    "pinyin": "lǚ",
-    "tone": 3,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "吕", "meaning": "Familienname" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "伴侣", "pinyin": "bànlǚ", "meaning": "Partner" },
-      { "word": "情侣", "pinyin": "qínglǚ", "meaning": "Liebespaar" }
-    ]
-  },
-  {
-    "hanzi": "氛",
-    "meanings": ["Atmosphaere"],
-    "pinyin": "fēn",
-    "tone": 1,
-    "components": [{ "radical": "气", "meaning": "Luft" }, { "radical": "分", "meaning": "teilen" }],
-    "hsk": "HSK6",
-    "strokes": 4,
-    "examples": [
-      { "word": "气氛", "pinyin": "qìfēn", "meaning": "Atmosphaere" },
-      { "word": "氛围", "pinyin": "fēnwéi", "meaning": "Stimmung" }
-    ]
-  },
-  {
-    "hanzi": "寓",
-    "meanings": ["Wohnung","enthalten"],
-    "pinyin": "yù",
-    "tone": 4,
-    "components": [{ "radical": "宀", "meaning": "Dach" }, { "radical": "禺", "meaning": "Affe" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "公寓", "pinyin": "gōngyù", "meaning": "Wohnung" },
-      { "word": "寓言", "pinyin": "yùyán", "meaning": "Fabel" }
-    ]
-  },
-  {
-    "hanzi": "翁",
-    "meanings": ["alter Mann"],
-    "pinyin": "wēng",
-    "tone": 1,
-    "components": [{ "radical": "公", "meaning": "oeffentlich" }, { "radical": "羽", "meaning": "Feder" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "老翁", "pinyin": "lǎowēng", "meaning": "alter Mann" },
-      { "word": "渔翁", "pinyin": "yúwēng", "meaning": "Fischer" }
-    ]
-  },
-  {
-    "hanzi": "瞒",
-    "meanings": ["verbergen","verheimlichen"],
-    "pinyin": "mán",
-    "tone": 2,
-    "components": [{ "radical": "目", "meaning": "Auge" }, { "radical": "满", "meaning": "voll" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "隐瞒", "pinyin": "yǐnmán", "meaning": "verheimlichen" },
-      { "word": "欺瞒", "pinyin": "qīmán", "meaning": "betruegen" }
-    ]
-  },
-  {
-    "hanzi": "绅",
-    "meanings": ["Gentleman","Adliger"],
-    "pinyin": "shēn",
-    "tone": 1,
-    "components": [{ "radical": "纟", "meaning": "Faden" }, { "radical": "申", "meaning": "erklaeren" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "绅士", "pinyin": "shēnshì", "meaning": "Gentleman" },
-      { "word": "乡绅", "pinyin": "xiāngshēn", "meaning": "Landadliger" }
-    ]
-  },
-  {
-    "hanzi": "拄",
-    "meanings": ["stuetzen","sich lehnen"],
-    "pinyin": "zhǔ",
-    "tone": 3,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "主", "meaning": "Herr" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "拄拐", "pinyin": "zhǔguǎi", "meaning": "sich auf Stock stuetzen" },
-      { "word": "拄杖", "pinyin": "zhǔzhàng", "meaning": "auf Stab stuetzen" }
-    ]
-  },
-  {
-    "hanzi": "枕",
-    "meanings": ["Kopfkissen"],
-    "pinyin": "zhěn",
-    "tone": 3,
-    "components": [{ "radical": "木", "meaning": "Baum" }, { "radical": "冘", "meaning": "wandern" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "枕头", "pinyin": "zhěntou", "meaning": "Kopfkissen" },
-      { "word": "枕边", "pinyin": "zhěnbiān", "meaning": "am Kopfkissen" }
-    ]
-  },
-  {
-    "hanzi": "呈",
-    "meanings": ["darreichen","zeigen"],
-    "pinyin": "chéng",
-    "tone": 2,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "王", "meaning": "Koenig" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "呈现", "pinyin": "chéngxiàn", "meaning": "zeigen" },
-      { "word": "呈报", "pinyin": "chéngbào", "meaning": "unterbreiten" }
-    ]
-  },
-  {
-    "hanzi": "缝",
-    "meanings": ["naehen","Naht"],
-    "pinyin": "féng",
-    "tone": 2,
-    "components": [{ "radical": "纟", "meaning": "Faden" }, { "radical": "逢", "meaning": "treffen" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "缝合", "pinyin": "fénghé", "meaning": "zunaehen" },
-      { "word": "裂缝", "pinyin": "lièfèng", "meaning": "Riss" }
-    ]
-  },
-  {
-    "hanzi": "鼠",
-    "meanings": ["Maus","Ratte"],
-    "pinyin": "shǔ",
-    "tone": 3,
-    "components": [{ "radical": "鼠", "meaning": "Maus" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "老鼠", "pinyin": "lǎoshǔ", "meaning": "Maus" },
-      { "word": "鼠标", "pinyin": "shǔbiāo", "meaning": "Mauszeiger" }
-    ]
-  },
-  {
-    "hanzi": "仇",
-    "meanings": ["Feind","Hass"],
-    "pinyin": "chóu",
-    "tone": 2,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "九", "meaning": "neun" }],
-    "hsk": "HSK6",
-    "strokes": 4,
-    "examples": [
-      { "word": "仇恨", "pinyin": "chóuhèn", "meaning": "Hass" },
-      { "word": "报仇", "pinyin": "bàochóu", "meaning": "Rache ueben" }
-    ]
-  },
-  {
-    "hanzi": "瘟",
-    "meanings": ["Seuche","Pest"],
-    "pinyin": "wēn",
-    "tone": 1,
-    "components": [{ "radical": "疒", "meaning": "Krankheit" }, { "radical": "温", "meaning": "warm" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "瘟疫", "pinyin": "wēnyì", "meaning": "Seuche" },
-      { "word": "瘟神", "pinyin": "wēnshén", "meaning": "Pestgott" }
-    ]
-  },
-  {
-    "hanzi": "豁",
-    "meanings": ["oeffnen","grosszuegig"],
-    "pinyin": "huō",
-    "tone": 1,
-    "components": [{ "radical": "害", "meaning": "Schaden" }, { "radical": "谷", "meaning": "Tal" }],
-    "hsk": "HSK6",
-    "strokes": 17,
-    "examples": [
-      { "word": "豁达", "pinyin": "huòdá", "meaning": "grosszuegig" },
-      { "word": "豁免", "pinyin": "huòmiǎn", "meaning": "befreien" }
-    ]
-  },
-  {
-    "hanzi": "弛",
-    "meanings": ["lockern","nachlassen"],
-    "pinyin": "chí",
-    "tone": 2,
-    "components": [{ "radical": "弓", "meaning": "Bogen" }, { "radical": "也", "meaning": "auch" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "松弛", "pinyin": "sōngchí", "meaning": "entspannen" },
-      { "word": "弛缓", "pinyin": "chíhuǎn", "meaning": "nachlassen" }
-    ]
-  },
-  {
-    "hanzi": "渠",
-    "meanings": ["Kanal","Graben"],
-    "pinyin": "qú",
-    "tone": 2,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "거", "meaning": "gross" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "渠道", "pinyin": "qúdào", "meaning": "Kanal" },
-      { "word": "水渠", "pinyin": "shuǐqú", "meaning": "Wassergraben" }
-    ]
-  },
-  {
-    "hanzi": "惶",
-    "meanings": ["aengstlich","beunruhigt"],
-    "pinyin": "huáng",
-    "tone": 2,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "皇", "meaning": "Kaiser" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "惶恐", "pinyin": "huángkǒng", "meaning": "aengstlich" },
-      { "word": "惊惶", "pinyin": "jīnghuáng", "meaning": "erschrocken" }
-    ]
-  },
-  {
-    "hanzi": "骸",
-    "meanings": ["Skelett","Gebeine"],
-    "pinyin": "hái",
-    "tone": 2,
-    "components": [{ "radical": "骨", "meaning": "Knochen" }, { "radical": "亥", "meaning": "zwoelfter Zweig" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "骸骨", "pinyin": "háigǔ", "meaning": "Gebeine" },
-      { "word": "残骸", "pinyin": "cánhái", "meaning": "Ueberreste" }
-    ]
-  },
-  {
-    "hanzi": "竭",
-    "meanings": ["erschoepfen"],
-    "pinyin": "jié",
-    "tone": 2,
-    "components": [{ "radical": "立", "meaning": "stehen" }, { "radical": "曷", "meaning": "warum" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "竭力", "pinyin": "jiélì", "meaning": "sich anstrengen" },
-      { "word": "枯竭", "pinyin": "kūjié", "meaning": "versiegen" }
-    ]
-  },
-  {
-    "hanzi": "舱",
-    "meanings": ["Kabine","Laderaum"],
-    "pinyin": "cāng",
-    "tone": 1,
-    "components": [{ "radical": "舟", "meaning": "Boot" }, { "radical": "仓", "meaning": "Lager" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "船舱", "pinyin": "chuáncāng", "meaning": "Schiffskabine" },
-      { "word": "机舱", "pinyin": "jīcāng", "meaning": "Flugzeugkabine" }
-    ]
-  },
-  {
-    "hanzi": "砖",
-    "meanings": ["Ziegel","Backstein"],
-    "pinyin": "zhuān",
-    "tone": 1,
-    "components": [{ "radical": "石", "meaning": "Stein" }, { "radical": "专", "meaning": "speziell" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "砖头", "pinyin": "zhuāntou", "meaning": "Ziegelstein" },
-      { "word": "砖瓦", "pinyin": "zhuānwǎ", "meaning": "Ziegel" }
-    ]
-  },
-  {
-    "hanzi": "琴",
-    "meanings": ["Zither","Musikinstrument"],
-    "pinyin": "qín",
-    "tone": 2,
-    "components": [{ "radical": "王", "meaning": "Koenig" }, { "radical": "今", "meaning": "jetzt" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "钢琴", "pinyin": "gāngqín", "meaning": "Klavier" },
-      { "word": "小提琴", "pinyin": "xiǎotíqín", "meaning": "Geige" }
-    ]
-  },
-  {
-    "hanzi": "戒",
-    "meanings": ["sich enthalten","warnen"],
-    "pinyin": "jiè",
-    "tone": 4,
-    "components": [{ "radical": "戈", "meaning": "Hellebarde" }, { "radical": "廾", "meaning": "Haende" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "戒烟", "pinyin": "jièyān", "meaning": "aufhoeren zu rauchen" },
-      { "word": "戒指", "pinyin": "jièzhi", "meaning": "Ring" }
-    ]
-  },
-  {
-    "hanzi": "溶",
-    "meanings": ["aufloesen","schmelzen"],
-    "pinyin": "róng",
-    "tone": 2,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "容", "meaning": "enthalten" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "溶解", "pinyin": "róngjiě", "meaning": "aufloesen" },
-      { "word": "溶液", "pinyin": "róngyè", "meaning": "Loesung" }
-    ]
-  },
-  {
-    "hanzi": "迹",
-    "meanings": ["Spur","Ueberrest"],
-    "pinyin": "jì",
-    "tone": 4,
-    "components": [{ "radical": "辶", "meaning": "gehen" }, { "radical": "亦", "meaning": "auch" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "痕迹", "pinyin": "hénjì", "meaning": "Spur" },
-      { "word": "奇迹", "pinyin": "qíjì", "meaning": "Wunder" }
-    ]
-  },
-  {
-    "hanzi": "仕",
-    "meanings": ["Beamter","dienen"],
-    "pinyin": "shì",
-    "tone": 4,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "士", "meaning": "Gelehrter" }],
-    "hsk": "HSK6",
-    "strokes": 5,
-    "examples": [
-      { "word": "仕途", "pinyin": "shìtú", "meaning": "Beamtenlaufbahn" },
-      { "word": "出仕", "pinyin": "chūshì", "meaning": "in den Staatsdienst treten" }
-    ]
-  },
-  {
-    "hanzi": "屈",
-    "meanings": ["beugen","Unrecht"],
-    "pinyin": "qū",
-    "tone": 1,
-    "components": [{ "radical": "尸", "meaning": "Leiche" }, { "radical": "出", "meaning": "herausgehen" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "屈服", "pinyin": "qūfú", "meaning": "sich unterwerfen" },
-      { "word": "委屈", "pinyin": "wěiqu", "meaning": "Unrecht" }
-    ]
-  },
-  {
-    "hanzi": "窃",
-    "meanings": ["stehlen","heimlich"],
-    "pinyin": "qiè",
-    "tone": 4,
-    "components": [{ "radical": "穴", "meaning": "Hoehle" }, { "radical": "切", "meaning": "schneiden" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "窃取", "pinyin": "qièqǔ", "meaning": "stehlen" },
-      { "word": "盗窃", "pinyin": "dàoqiè", "meaning": "Diebstahl" }
-    ]
-  },
-  {
-    "hanzi": "肤",
-    "meanings": ["Haut"],
-    "pinyin": "fū",
-    "tone": 1,
-    "components": [{ "radical": "月", "meaning": "Fleisch" }, { "radical": "夫", "meaning": "Mann" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "皮肤", "pinyin": "pífū", "meaning": "Haut" },
-      { "word": "肤浅", "pinyin": "fūqiǎn", "meaning": "oberflaechlich" }
-    ]
-  },
-  {
-    "hanzi": "掠",
-    "meanings": ["pluendern","streifen"],
-    "pinyin": "lüè",
-    "tone": 4,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "京", "meaning": "Hauptstadt" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "掠夺", "pinyin": "lüèduó", "meaning": "pluendern" },
-      { "word": "掠过", "pinyin": "lüèguò", "meaning": "streifen" }
-    ]
-  },
-  {
-    "hanzi": "柄",
-    "meanings": ["Griff","Stiel"],
-    "pinyin": "bǐng",
-    "tone": 3,
-    "components": [{ "radical": "木", "meaning": "Baum" }, { "radical": "丙", "meaning": "dritter" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "把柄", "pinyin": "bǎbǐng", "meaning": "Griff/Angriffspunkt" },
-      { "word": "刀柄", "pinyin": "dāobǐng", "meaning": "Messergriff" }
-    ]
-  },
-  {
-    "hanzi": "膀",
-    "meanings": ["Schulter","Oberarm"],
-    "pinyin": "bǎng",
-    "tone": 3,
-    "components": [{ "radical": "月", "meaning": "Fleisch" }, { "radical": "旁", "meaning": "Seite" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "肩膀", "pinyin": "jiānbǎng", "meaning": "Schulter" },
-      { "word": "臂膀", "pinyin": "bìbǎng", "meaning": "Arm" }
-    ]
-  },
-  {
-    "hanzi": "颐",
-    "meanings": ["Wange","naehren"],
-    "pinyin": "yí",
-    "tone": 2,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "页", "meaning": "Seite" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "颐和园", "pinyin": "yíhéyuán", "meaning": "Sommerpalast" },
-      { "word": "颐养", "pinyin": "yíyǎng", "meaning": "pflegen" }
-    ]
-  },
-  {
-    "hanzi": "邪",
-    "meanings": ["boese","schief"],
-    "pinyin": "xié",
-    "tone": 2,
-    "components": [{ "radical": "牙", "meaning": "Zahn" }, { "radical": "阝", "meaning": "Stadt" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "邪恶", "pinyin": "xiéè", "meaning": "boese" },
-      { "word": "邪教", "pinyin": "xiéjiào", "meaning": "Sekte" }
-    ]
-  },
-  {
-    "hanzi": "隶",
-    "meanings": ["untergeordnet","Schreibstil"],
-    "pinyin": "lì",
-    "tone": 4,
-    "components": [{ "radical": "隶", "meaning": "Diener" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "隶属", "pinyin": "lìshǔ", "meaning": "untergeordnet sein" },
-      { "word": "隶书", "pinyin": "lìshū", "meaning": "Kanzleischrift" }
-    ]
-  },
-  {
-    "hanzi": "蓄",
-    "meanings": ["ansammeln","aufbewahren"],
-    "pinyin": "xù",
-    "tone": 4,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "畜", "meaning": "Vieh" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "积蓄", "pinyin": "jīxù", "meaning": "Ersparnisse" },
-      { "word": "蓄意", "pinyin": "xùyì", "meaning": "vorsaetzlich" }
-    ]
-  },
-  {
-    "hanzi": "斋",
-    "meanings": ["Fasten","Studierzimmer"],
-    "pinyin": "zhāi",
-    "tone": 1,
-    "components": [{ "radical": "文", "meaning": "Schrift" }, { "radical": "示", "meaning": "zeigen" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "书斋", "pinyin": "shūzhāi", "meaning": "Studierzimmer" },
-      { "word": "斋戒", "pinyin": "zhāijiè", "meaning": "fasten" }
-    ]
-  },
-  {
-    "hanzi": "霞",
-    "meanings": ["Morgenrot","Abendrot"],
-    "pinyin": "xiá",
-    "tone": 2,
-    "components": [{ "radical": "雨", "meaning": "Regen" }, { "radical": "叚", "meaning": "falsch" }],
-    "hsk": "HSK6",
-    "strokes": 17,
-    "examples": [
-      { "word": "朝霞", "pinyin": "zhāoxiá", "meaning": "Morgenrot" },
-      { "word": "晚霞", "pinyin": "wǎnxiá", "meaning": "Abendrot" }
-    ]
-  },
-  {
-    "hanzi": "厄",
-    "meanings": ["Unglueck","Not"],
-    "pinyin": "è",
-    "tone": 4,
-    "components": [{ "radical": "厂", "meaning": "Klippe" }, { "radical": "㔾", "meaning": "Knoten" }],
-    "hsk": "HSK6",
-    "strokes": 4,
-    "examples": [
-      { "word": "厄运", "pinyin": "èyùn", "meaning": "Unglueck" },
-      { "word": "困厄", "pinyin": "kùnè", "meaning": "Not" }
-    ]
-  },
-  {
-    "hanzi": "渺",
-    "meanings": ["winzig","unendlich weit"],
-    "pinyin": "miǎo",
-    "tone": 3,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "眇", "meaning": "winzig" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "渺小", "pinyin": "miǎoxiǎo", "meaning": "winzig" },
-      { "word": "渺茫", "pinyin": "miǎománg", "meaning": "vage" }
-    ]
-  },
-  {
-    "hanzi": "丞",
-    "meanings": ["Kanzler","Assistent"],
-    "pinyin": "chéng",
-    "tone": 2,
-    "components": [{ "radical": "一", "meaning": "eins" }, { "radical": "了", "meaning": "beenden" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "丞相", "pinyin": "chéngxiàng", "meaning": "Kanzler" },
-      { "word": "县丞", "pinyin": "xiànchéng", "meaning": "stellvertretender Landrat" }
-    ]
-  },
-  {
-    "hanzi": "亢",
-    "meanings": ["uebertrieben","hoch"],
-    "pinyin": "kàng",
-    "tone": 4,
-    "components": [{ "radical": "亠", "meaning": "Deckel" }, { "radical": "几", "meaning": "Tisch" }],
-    "hsk": "HSK6",
-    "strokes": 4,
-    "examples": [
-      { "word": "高亢", "pinyin": "gāokàng", "meaning": "laut und klar" },
-      { "word": "亢奋", "pinyin": "kàngfèn", "meaning": "ueberregt" }
-    ]
-  },
-  {
-    "hanzi": "亭",
-    "meanings": ["Pavillon"],
-    "pinyin": "tíng",
-    "tone": 2,
-    "components": [{ "radical": "亠", "meaning": "Deckel" }, { "radical": "丁", "meaning": "Nagel" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "凉亭", "pinyin": "liángtíng", "meaning": "Pavillon" },
-      { "word": "亭子", "pinyin": "tíngzi", "meaning": "Pavillon" }
-    ]
-  },
-  {
-    "hanzi": "仗",
-    "meanings": ["Schlacht","sich stuetzen auf"],
-    "pinyin": "zhàng",
-    "tone": 4,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "丈", "meaning": "Klafter" }],
-    "hsk": "HSK6",
-    "strokes": 5,
-    "examples": [
-      { "word": "打仗", "pinyin": "dǎzhàng", "meaning": "kaempfen" },
-      { "word": "仗义", "pinyin": "zhàngyì", "meaning": "gerecht" }
-    ]
-  },
-  {
-    "hanzi": "伏",
-    "meanings": ["sich ducken","verborgen"],
-    "pinyin": "fú",
-    "tone": 2,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "犬", "meaning": "Hund" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "伏击", "pinyin": "fújī", "meaning": "Hinterhalt" },
-      { "word": "埋伏", "pinyin": "máifú", "meaning": "Hinterhalt legen" }
-    ]
-  },
-  {
-    "hanzi": "侍",
-    "meanings": ["bedienen","aufwarten"],
-    "pinyin": "shì",
-    "tone": 4,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "寺", "meaning": "Tempel" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "侍候", "pinyin": "shìhòu", "meaning": "bedienen" },
-      { "word": "侍卫", "pinyin": "shìwèi", "meaning": "Leibwaechter" }
-    ]
-  },
-  {
-    "hanzi": "侮",
-    "meanings": ["beledigen","verhoehnen"],
-    "pinyin": "wǔ",
-    "tone": 3,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "每", "meaning": "jeder" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "侮辱", "pinyin": "wǔrǔ", "meaning": "beledigen" },
-      { "word": "欺侮", "pinyin": "qīwǔ", "meaning": "schikanieren" }
-    ]
-  },
-  {
-    "hanzi": "俗",
-    "meanings": ["vulgaer","Brauch"],
-    "pinyin": "sú",
-    "tone": 2,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "谷", "meaning": "Tal" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "风俗", "pinyin": "fēngsú", "meaning": "Sitte" },
-      { "word": "通俗", "pinyin": "tōngsú", "meaning": "volkstuehmlich" }
-    ]
-  },
-  {
-    "hanzi": "兮",
-    "meanings": ["Partikel (klassisch)"],
-    "pinyin": "xī",
-    "tone": 1,
-    "components": [{ "radical": "八", "meaning": "acht" }, { "radical": "丂", "meaning": "biegen" }],
-    "hsk": "HSK6",
-    "strokes": 4,
-    "examples": [
-      { "word": "巧笑倩兮", "pinyin": "qiǎoxiào qiànxī", "meaning": "anmutig laechelnd" },
-      { "word": "路漫漫兮", "pinyin": "lù mànmàn xī", "meaning": "der Weg ist lang" }
-    ]
-  },
-  {
-    "hanzi": "凌",
-    "meanings": ["uebertreffen","Eis"],
-    "pinyin": "líng",
-    "tone": 2,
-    "components": [{ "radical": "冫", "meaning": "Eis" }, { "radical": "夌", "meaning": "ueberschreiten" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "凌晨", "pinyin": "língchén", "meaning": "fruehe Morgenstunden" },
-      { "word": "凌辱", "pinyin": "língrǔ", "meaning": "demuetigen" }
-    ]
-  },
-  {
-    "hanzi": "剔",
-    "meanings": ["entfernen","herausschneiden"],
-    "pinyin": "tī",
-    "tone": 1,
-    "components": [{ "radical": "易", "meaning": "leicht" }, { "radical": "刂", "meaning": "Messer" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "剔除", "pinyin": "tīchú", "meaning": "beseitigen" },
-      { "word": "挑剔", "pinyin": "tiāotī", "meaning": "waehlerisch" }
-    ]
-  },
-  {
-    "hanzi": "匹",
-    "meanings": ["Stueck (Zahlwort)","vergleichen"],
-    "pinyin": "pǐ",
-    "tone": 3,
-    "components": [{ "radical": "匚", "meaning": "Kasten" }, { "radical": "儿", "meaning": "Kind" }],
-    "hsk": "HSK6",
-    "strokes": 4,
-    "examples": [
-      { "word": "匹配", "pinyin": "pǐpèi", "meaning": "zusammenpassen" },
-      { "word": "一匹马", "pinyin": "yī pǐ mǎ", "meaning": "ein Pferd" }
-    ]
-  },
-  {
-    "hanzi": "卑",
-    "meanings": ["niedrig","bescheiden"],
-    "pinyin": "bēi",
-    "tone": 1,
-    "components": [{ "radical": "白", "meaning": "weiss" }, { "radical": "十", "meaning": "zehn" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "卑鄙", "pinyin": "bēibǐ", "meaning": "niedertraechtig" },
-      { "word": "自卑", "pinyin": "zìbēi", "meaning": "minderwertig fuehlen" }
-    ]
-  },
-  {
-    "hanzi": "卸",
-    "meanings": ["abladen","entladen"],
-    "pinyin": "xiè",
-    "tone": 4,
-    "components": [{ "radical": "止", "meaning": "anhalten" }, { "radical": "卩", "meaning": "Siegel" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "卸货", "pinyin": "xièhuò", "meaning": "abladen" },
-      { "word": "推卸", "pinyin": "tuīxiè", "meaning": "abschieben" }
-    ]
-  },
-  {
-    "hanzi": "叭",
-    "meanings": ["Knall","Trompete"],
-    "pinyin": "bā",
-    "tone": 1,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "八", "meaning": "acht" }],
-    "hsk": "HSK6",
-    "strokes": 5,
-    "examples": [
-      { "word": "喇叭", "pinyin": "lǎba", "meaning": "Trompete" },
-      { "word": "叭叭", "pinyin": "bābā", "meaning": "knallend" }
-    ]
-  },
-  {
-    "hanzi": "吆",
-    "meanings": ["rufen","schreien"],
-    "pinyin": "yāo",
-    "tone": 1,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "幺", "meaning": "klein" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "吆喝", "pinyin": "yāohe", "meaning": "ausrufen" },
-      { "word": "吆喊", "pinyin": "yāohǎn", "meaning": "schreien" }
-    ]
-  },
-  {
-    "hanzi": "呐",
-    "meanings": ["schreien","rufen"],
-    "pinyin": "nà",
-    "tone": 4,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "内", "meaning": "innen" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "呐喊", "pinyin": "nàhǎn", "meaning": "schreien" },
-      { "word": "呐喊助威", "pinyin": "nàhǎn zhùwēi", "meaning": "anfeuern" }
-    ]
-  },
-  {
-    "hanzi": "哄",
-    "meanings": ["beschwichtigen","betruegen"],
-    "pinyin": "hǒng",
-    "tone": 3,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "共", "meaning": "gemeinsam" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "哄骗", "pinyin": "hǒngpiàn", "meaning": "taeuschen" },
-      { "word": "哄孩子", "pinyin": "hǒng háizi", "meaning": "Kind beruhigen" }
-    ]
-  },
-  {
-    "hanzi": "啸",
-    "meanings": ["pfeifen","heulen"],
-    "pinyin": "xiào",
-    "tone": 4,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "肃", "meaning": "feierlich" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "呼啸", "pinyin": "hūxiào", "meaning": "pfeifen" },
-      { "word": "海啸", "pinyin": "hǎixiào", "meaning": "Tsunami" }
-    ]
-  },
-  {
-    "hanzi": "嚣",
-    "meanings": ["laermend","arrogant"],
-    "pinyin": "xiāo",
-    "tone": 1,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "页", "meaning": "Seite" }],
-    "hsk": "HSK6",
-    "strokes": 18,
-    "examples": [
-      { "word": "喧嚣", "pinyin": "xuānxiāo", "meaning": "laermend" },
-      { "word": "嚣张", "pinyin": "xiāozhāng", "meaning": "arrogant" }
-    ]
-  },
-  {
-    "hanzi": "坊",
-    "meanings": ["Werkstatt","Viertel"],
-    "pinyin": "fāng",
-    "tone": 1,
-    "components": [{ "radical": "土", "meaning": "Erde" }, { "radical": "方", "meaning": "Richtung" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "作坊", "pinyin": "zuōfāng", "meaning": "Werkstatt" },
-      { "word": "坊间", "pinyin": "fāngjiān", "meaning": "unter den Leuten" }
-    ]
-  },
-  {
-    "hanzi": "垄",
-    "meanings": ["Monopol","Huegel"],
-    "pinyin": "lǒng",
-    "tone": 3,
-    "components": [{ "radical": "龙", "meaning": "Drache" }, { "radical": "土", "meaning": "Erde" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "垄断", "pinyin": "lǒngduàn", "meaning": "monopolisieren" },
-      { "word": "垄沟", "pinyin": "lǒnggōu", "meaning": "Furche" }
-    ]
-  },
-  {
-    "hanzi": "壁",
-    "meanings": ["Wand","Mauer"],
-    "pinyin": "bì",
-    "tone": 4,
-    "components": [{ "radical": "辟", "meaning": "oeffnen" }, { "radical": "土", "meaning": "Erde" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "墙壁", "pinyin": "qiángbì", "meaning": "Wand" },
-      { "word": "壁画", "pinyin": "bìhuà", "meaning": "Wandmalerei" }
-    ]
-  },
-  {
-    "hanzi": "壮",
-    "meanings": ["stark","kraeftig"],
-    "pinyin": "zhuàng",
-    "tone": 4,
-    "components": [{ "radical": "丬", "meaning": "Bett" }, { "radical": "士", "meaning": "Soldat" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "壮大", "pinyin": "zhuàngdà", "meaning": "staerken" },
-      { "word": "壮观", "pinyin": "zhuàngguān", "meaning": "grossartig" }
-    ]
-  },
-  {
-    "hanzi": "奔",
-    "meanings": ["rennen","eilen"],
-    "pinyin": "bēn",
-    "tone": 1,
-    "components": [{ "radical": "大", "meaning": "gross" }, { "radical": "卉", "meaning": "Pflanze" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "奔跑", "pinyin": "bēnpǎo", "meaning": "rennen" },
-      { "word": "奔波", "pinyin": "bēnbō", "meaning": "umherreisen" }
-    ]
-  },
-  {
-    "hanzi": "妒",
-    "meanings": ["eifersuechtign","neidisch"],
-    "pinyin": "dù",
-    "tone": 4,
-    "components": [{ "radical": "女", "meaning": "Frau" }, { "radical": "户", "meaning": "Tuer" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "嫉妒", "pinyin": "jídù", "meaning": "eifersuechtign" },
-      { "word": "妒忌", "pinyin": "dùjì", "meaning": "neidisch" }
-    ]
-  },
-  {
-    "hanzi": "婴",
-    "meanings": ["Saeugling","Baby"],
-    "pinyin": "yīng",
-    "tone": 1,
-    "components": [{ "radical": "贝", "meaning": "Muschel" }, { "radical": "女", "meaning": "Frau" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "婴儿", "pinyin": "yīngér", "meaning": "Baby" },
-      { "word": "婴幼儿", "pinyin": "yīngyòuér", "meaning": "Kleinkind" }
-    ]
-  },
-  {
-    "hanzi": "嫩",
-    "meanings": ["zart","jung"],
-    "pinyin": "nèn",
-    "tone": 4,
-    "components": [{ "radical": "女", "meaning": "Frau" }, { "radical": "敕", "meaning": "Erlass" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "嫩绿", "pinyin": "nènlǜ", "meaning": "zartgruen" },
-      { "word": "鲜嫩", "pinyin": "xiānnèn", "meaning": "frisch und zart" }
-    ]
-  },
-  {
-    "hanzi": "宰",
-    "meanings": ["schlachten","regieren"],
-    "pinyin": "zǎi",
-    "tone": 3,
-    "components": [{ "radical": "宀", "meaning": "Dach" }, { "radical": "辛", "meaning": "bitter" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "宰相", "pinyin": "zǎixiàng", "meaning": "Premierminister" },
-      { "word": "屠宰", "pinyin": "túzǎi", "meaning": "schlachten" }
-    ]
-  },
-  {
-    "hanzi": "寝",
-    "meanings": ["Schlafgemach","schlafen"],
-    "pinyin": "qǐn",
-    "tone": 3,
-    "components": [{ "radical": "宀", "meaning": "Dach" }, { "radical": "侵", "meaning": "eindringen" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "寝室", "pinyin": "qǐnshì", "meaning": "Schlafzimmer" },
-      { "word": "废寝忘食", "pinyin": "fèiqǐn wàngshí", "meaning": "unaufhoerlich arbeiten" }
-    ]
-  },
-  {
-    "hanzi": "尉",
-    "meanings": ["Offizier","Hauptmann"],
-    "pinyin": "wèi",
-    "tone": 4,
-    "components": [{ "radical": "尸", "meaning": "Koerper" }, { "radical": "寸", "meaning": "Zoll" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "上尉", "pinyin": "shàngwèi", "meaning": "Hauptmann" },
-      { "word": "尉官", "pinyin": "wèiguān", "meaning": "Offizier" }
-    ]
-  },
-  {
-    "hanzi": "崖",
-    "meanings": ["Klippe","Felswand"],
-    "pinyin": "yá",
-    "tone": 2,
-    "components": [{ "radical": "山", "meaning": "Berg" }, { "radical": "厓", "meaning": "Klippe" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "悬崖", "pinyin": "xuányá", "meaning": "Klippe" },
-      { "word": "山崖", "pinyin": "shānyá", "meaning": "Felswand" }
-    ]
-  },
-  {
-    "hanzi": "巡",
-    "meanings": ["patrouillieren","inspizieren"],
-    "pinyin": "xún",
-    "tone": 2,
-    "components": [{ "radical": "巛", "meaning": "Fluss" }, { "radical": "辶", "meaning": "gehen" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "巡逻", "pinyin": "xúnluó", "meaning": "patrouillieren" },
-      { "word": "巡视", "pinyin": "xúnshì", "meaning": "inspizieren" }
-    ]
-  },
-  {
-    "hanzi": "庙",
-    "meanings": ["Tempel"],
-    "pinyin": "miào",
-    "tone": 4,
-    "components": [{ "radical": "广", "meaning": "breit" }, { "radical": "朝", "meaning": "Dynastie" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "寺庙", "pinyin": "sìmiào", "meaning": "Tempel" },
-      { "word": "庙会", "pinyin": "miàohuì", "meaning": "Tempelfest" }
-    ]
-  },
-  {
-    "hanzi": "弈",
-    "meanings": ["Schach spielen"],
-    "pinyin": "yì",
-    "tone": 4,
-    "components": [{ "radical": "亦", "meaning": "auch" }, { "radical": "廾", "meaning": "Haende" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "博弈", "pinyin": "bóyì", "meaning": "Spieltheorie" },
-      { "word": "对弈", "pinyin": "duìyì", "meaning": "Schach spielen" }
-    ]
-  },
-  {
-    "hanzi": "彪",
-    "meanings": ["Tiger","maechtig"],
-    "pinyin": "biāo",
-    "tone": 1,
-    "components": [{ "radical": "虎", "meaning": "Tiger" }, { "radical": "彡", "meaning": "Haare" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "彪悍", "pinyin": "biāohàn", "meaning": "kuhn" },
-      { "word": "彪形大汉", "pinyin": "biāoxíng dàhàn", "meaning": "grosser starker Mann" }
-    ]
-  },
-  {
-    "hanzi": "悦",
-    "meanings": ["erfreut","froh"],
-    "pinyin": "yuè",
-    "tone": 4,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "兑", "meaning": "einloesen" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "喜悦", "pinyin": "xǐyuè", "meaning": "Freude" },
-      { "word": "愉悦", "pinyin": "yúyuè", "meaning": "angenehm" }
-    ]
-  },
-  {
-    "hanzi": "惫",
-    "meanings": ["erschoepft","muede"],
-    "pinyin": "bèi",
-    "tone": 4,
-    "components": [{ "radical": "备", "meaning": "vorbereiten" }, { "radical": "心", "meaning": "Herz" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "疲惫", "pinyin": "píbèi", "meaning": "erschoepft" },
-      { "word": "惫懒", "pinyin": "bèilǎn", "meaning": "traege" }
-    ]
-  },
-  {
-    "hanzi": "愤",
-    "meanings": ["empoert","wuetend"],
-    "pinyin": "fèn",
-    "tone": 4,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "贲", "meaning": "fliessen" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "愤怒", "pinyin": "fènnù", "meaning": "wuetend" },
-      { "word": "气愤", "pinyin": "qìfèn", "meaning": "empoert" }
-    ]
-  },
-  {
-    "hanzi": "慈",
-    "meanings": ["guetig","barmherzig"],
-    "pinyin": "cí",
-    "tone": 2,
-    "components": [{ "radical": "兹", "meaning": "dies" }, { "radical": "心", "meaning": "Herz" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "慈善", "pinyin": "císhàn", "meaning": "wohltaetig" },
-      { "word": "慈祥", "pinyin": "cíxiáng", "meaning": "guetig" }
-    ]
-  },
-  {
-    "hanzi": "懿",
-    "meanings": ["tugendhaft","schoen"],
-    "pinyin": "yì",
-    "tone": 4,
-    "components": [{ "radical": "壹", "meaning": "eins" }, { "radical": "心", "meaning": "Herz" }],
-    "hsk": "HSK6",
-    "strokes": 22,
-    "examples": [
-      { "word": "懿德", "pinyin": "yìdé", "meaning": "edle Tugend" },
-      { "word": "嘉言懿行", "pinyin": "jiāyán yìxíng", "meaning": "edle Worte und Taten" }
-    ]
-  },
-  {
-    "hanzi": "扳",
-    "meanings": ["ziehen","umdrehen"],
-    "pinyin": "bān",
-    "tone": 1,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "反", "meaning": "umkehren" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "扳手", "pinyin": "bānshǒu", "meaning": "Schraubenschluessel" },
-      { "word": "扳回", "pinyin": "bānhuí", "meaning": "zurueckgewinnen" }
-    ]
-  },
-  {
-    "hanzi": "抄",
-    "meanings": ["abschreiben","kopieren"],
-    "pinyin": "chāo",
-    "tone": 1,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "少", "meaning": "wenig" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "抄写", "pinyin": "chāoxiě", "meaning": "abschreiben" },
-      { "word": "抄袭", "pinyin": "chāoxí", "meaning": "plagiieren" }
-    ]
-  },
-  {
-    "hanzi": "挫",
-    "meanings": ["besiegen","Rueckschlag"],
-    "pinyin": "cuò",
-    "tone": 4,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "坐", "meaning": "sitzen" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "挫折", "pinyin": "cuòzhé", "meaning": "Rueckschlag" },
-      { "word": "受挫", "pinyin": "shòucuò", "meaning": "einen Rueckschlag erleiden" }
-    ]
-  },
-  {
-    "hanzi": "搁",
-    "meanings": ["abstellen","aufschieben"],
-    "pinyin": "gē",
-    "tone": 1,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "阁", "meaning": "Pavillon" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "搁置", "pinyin": "gēzhì", "meaning": "aufschieben" },
-      { "word": "耽搁", "pinyin": "dāngē", "meaning": "verzoegern" }
-    ]
-  },
-  {
-    "hanzi": "摘",
-    "meanings": ["pfluecken","auswahlen"],
-    "pinyin": "zhāi",
-    "tone": 1,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "啻", "meaning": "nur" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "摘要", "pinyin": "zhāiyào", "meaning": "Zusammenfassung" },
-      { "word": "采摘", "pinyin": "cǎizhāi", "meaning": "pfluecken" }
-    ]
-  },
-  {
-    "hanzi": "撕",
-    "meanings": ["zerreissen"],
-    "pinyin": "sī",
-    "tone": 1,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "斯", "meaning": "dies" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "撕裂", "pinyin": "sīliè", "meaning": "zerreissen" },
-      { "word": "撕碎", "pinyin": "sīsuì", "meaning": "in Stuecke reissen" }
-    ]
-  },
-  {
-    "hanzi": "斩",
-    "meanings": ["enthaupten","abschneiden"],
-    "pinyin": "zhǎn",
-    "tone": 3,
-    "components": [{ "radical": "车", "meaning": "Wagen" }, { "radical": "斤", "meaning": "Axt" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "斩断", "pinyin": "zhǎnduàn", "meaning": "abschneiden" },
-      { "word": "斩首", "pinyin": "zhǎnshǒu", "meaning": "enthaupten" }
-    ]
-  },
-  {
-    "hanzi": "旺",
-    "meanings": ["bluehend","lebhaft"],
-    "pinyin": "wàng",
-    "tone": 4,
-    "components": [{ "radical": "日", "meaning": "Sonne" }, { "radical": "王", "meaning": "Koenig" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "兴旺", "pinyin": "xīngwàng", "meaning": "bluehend" },
-      { "word": "旺盛", "pinyin": "wàngshèng", "meaning": "ueppig" }
-    ]
-  },
-  {
-    "hanzi": "昆",
-    "meanings": ["aelterer Bruder","Nachkomme"],
-    "pinyin": "kūn",
-    "tone": 1,
-    "components": [{ "radical": "日", "meaning": "Sonne" }, { "radical": "比", "meaning": "vergleichen" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "昆虫", "pinyin": "kūnchóng", "meaning": "Insekt" },
-      { "word": "昆明", "pinyin": "kūnmíng", "meaning": "Kunming" }
-    ]
-  },
-  {
-    "hanzi": "晃",
-    "meanings": ["schimmern","schwanken"],
-    "pinyin": "huàng",
-    "tone": 4,
-    "components": [{ "radical": "日", "meaning": "Sonne" }, { "radical": "光", "meaning": "Licht" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "晃动", "pinyin": "huàngdòng", "meaning": "schwanken" },
-      { "word": "摇晃", "pinyin": "yáohuàng", "meaning": "schaukeln" }
-    ]
-  },
-  {
-    "hanzi": "枣",
-    "meanings": ["Jujube","Dattel"],
-    "pinyin": "zǎo",
-    "tone": 3,
-    "components": [{ "radical": "木", "meaning": "Holz" }, { "radical": "刺", "meaning": "stechen" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "红枣", "pinyin": "hóngzǎo", "meaning": "rote Dattel" },
-      { "word": "枣树", "pinyin": "zǎoshù", "meaning": "Dattelbaum" }
-    ]
-  },
-  {
-    "hanzi": "柜",
-    "meanings": ["Schrank","Theke"],
-    "pinyin": "guì",
-    "tone": 4,
-    "components": [{ "radical": "木", "meaning": "Holz" }, { "radical": "巨", "meaning": "riesig" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "柜子", "pinyin": "guìzi", "meaning": "Schrank" },
-      { "word": "柜台", "pinyin": "guìtái", "meaning": "Theke" }
-    ]
-  },
-  {
-    "hanzi": "栏",
-    "meanings": ["Gelaender","Spalte"],
-    "pinyin": "lán",
-    "tone": 2,
-    "components": [{ "radical": "木", "meaning": "Holz" }, { "radical": "兰", "meaning": "Orchidee" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "栏杆", "pinyin": "lángān", "meaning": "Gelaender" },
-      { "word": "专栏", "pinyin": "zhuānlán", "meaning": "Kolumne" }
-    ]
-  },
-  {
-    "hanzi": "桩",
-    "meanings": ["Pfahl","Fall"],
-    "pinyin": "zhuāng",
-    "tone": 1,
-    "components": [{ "radical": "木", "meaning": "Holz" }, { "radical": "庄", "meaning": "Dorf" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "木桩", "pinyin": "mùzhuāng", "meaning": "Holzpfahl" },
-      { "word": "一桩事", "pinyin": "yī zhuāng shì", "meaning": "eine Angelegenheit" }
-    ]
-  },
-  {
-    "hanzi": "棠",
-    "meanings": ["Zierapfel","Birne"],
-    "pinyin": "táng",
-    "tone": 2,
-    "components": [{ "radical": "尚", "meaning": "noch" }, { "radical": "木", "meaning": "Holz" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "海棠", "pinyin": "hǎitáng", "meaning": "Zierapfel" },
-      { "word": "棠梨", "pinyin": "tánglí", "meaning": "wilde Birne" }
-    ]
+    "primaryRadical": "手",
+    "components": [
+      {
+        "part": "手",
+        "meaning": "Hand"
+      }
+    ],
+    "words": [
+      "w:拜访:bai4fang3",
+      "w:拜年:bai4nian2",
+      "w:崇拜:chong2bai4",
+      "w:拜会:bai4hui4",
+      "w:拜见:bai4jian4"
+    ],
+    "evidence": {
+      "cedict": [
+        "bai4: to bow to; to pay one's respects; (bound form) to extend greetings (on a specific occasion); to make a courtesy call; (bound form) (of a monarch) to appoint sb to (a position) by performing a ceremony; to acknowledge sb as one's (master, godfather etc)"
+      ],
+      "handedict": [
+        "bai4: beten (V, Rel); anbeten, bewundern, verehren (V); beglückwünschen (V); Respekt zollen (V)"
+      ],
+      "unihan": "008.070:bái 009.030:bài | bài(27)",
+      "etymology": "ideographic: Two hands 手 put together in respect",
+      "old": "verehren; besuchen"
+    }
   },
   {
     "hanzi": "榜",
-    "meanings": ["Liste","Rangliste"],
-    "pinyin": "bǎng",
-    "tone": 3,
-    "components": [{ "radical": "木", "meaning": "Holz" }, { "radical": "旁", "meaning": "Seite" }],
-    "hsk": "HSK6",
+    "level": "HSK6",
+    "traditional": [
+      "榜"
+    ],
+    "readings": [
+      {
+        "pinyin": "bǎng",
+        "meaning": "Liste; Rangliste"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 14,
-    "examples": [
-      { "word": "榜样", "pinyin": "bǎngyàng", "meaning": "Vorbild" },
-      { "word": "排行榜", "pinyin": "páihángbǎng", "meaning": "Rangliste" }
-    ]
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "meaning": "Holz"
+      },
+      {
+        "part": "旁",
+        "meaning": "Seite"
+      }
+    ],
+    "words": [
+      "w:榜样:bang3yang4",
+      "w:标榜:biao1bang3",
+      "w:排行榜:pai2hang2bang3"
+    ],
+    "evidence": {
+      "cedict": [
+        "bang3: notice or announcement; list of names; public roll of successful examinees; variant of 榜[bang3]"
+      ],
+      "handedict": [
+        "bang3: Hinweis oder Ankündigung (S); Namensliste (S); Veröffentlichung der Namen der erfolgreichen Prüflinge (S); Variante von 榜[bang3] (X)"
+      ],
+      "unihan": "011.060:bǎng | bǎng(20)",
+      "etymology": "ideographic: A sign posted 旁 on a tree 木; 旁 also provides the pronunciation",
+      "old": "Liste; Rangliste"
+    }
   },
   {
-    "hanzi": "殃",
-    "meanings": ["Unglueck","Katastrophe"],
-    "pinyin": "yāng",
-    "tone": 1,
-    "components": [{ "radical": "歹", "meaning": "schlecht" }, { "radical": "央", "meaning": "Mitte" }],
-    "hsk": "HSK6",
+    "hanzi": "胞",
+    "level": "HSK6",
+    "traditional": [
+      "胞"
+    ],
+    "readings": [
+      {
+        "pinyin": "bāo",
+        "meaning": "Plazenta; Spore; leiblich"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 9,
-    "examples": [
-      { "word": "遭殃", "pinyin": "zāoyāng", "meaning": "Unglueck erleiden" },
-      { "word": "殃及", "pinyin": "yāngjí", "meaning": "in Mitleidenschaft ziehen" }
-    ]
+    "primaryRadical": "肉",
+    "radicalForm": "月",
+    "components": [
+      {
+        "part": "月",
+        "meaning": "Fleisch"
+      },
+      {
+        "part": "包",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:细胞:xi4bao1",
+      "w:同胞:tong2bao1",
+      "w:双胞胎:shuang1bao1tai1",
+      "w:干细胞:gan4xi4bao1"
+    ],
+    "evidence": {
+      "cedict": [
+        "bao1: placenta; womb; born of the same parents"
+      ],
+      "handedict": [
+        "bao1: Plazenta (S, Anat); Spore (S, Bio); leiblich (Adj)"
+      ],
+      "unihan": "012.040:bāo | bāo(116)",
+      "etymology": "pictophonetic: flesh"
+    }
   },
   {
-    "hanzi": "殊",
-    "meanings": ["besonders","verschieden"],
-    "pinyin": "shū",
-    "tone": 1,
-    "components": [{ "radical": "歹", "meaning": "schlecht" }, { "radical": "朱", "meaning": "rot" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "特殊", "pinyin": "tèshū", "meaning": "besonders" },
-      { "word": "殊荣", "pinyin": "shūróng", "meaning": "besondere Ehre" }
-    ]
-  },
-  {
-    "hanzi": "沐",
-    "meanings": ["waschen","baden"],
-    "pinyin": "mù",
-    "tone": 4,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "木", "meaning": "Holz" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "沐浴", "pinyin": "mùyù", "meaning": "baden" },
-      { "word": "沐恩", "pinyin": "mùēn", "meaning": "Gnade empfangen" }
-    ]
-  },
-  {
-    "hanzi": "泌",
-    "meanings": ["absondern","ausscheiden"],
-    "pinyin": "mì",
-    "tone": 4,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "必", "meaning": "muessen" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "分泌", "pinyin": "fēnmì", "meaning": "absondern" },
-      { "word": "泌尿", "pinyin": "mìniào", "meaning": "Harnwege" }
-    ]
-  },
-  {
-    "hanzi": "泥",
-    "meanings": ["Schlamm","Lehm"],
-    "pinyin": "ní",
-    "tone": 2,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "尼", "meaning": "Nonne" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "泥土", "pinyin": "nítǔ", "meaning": "Erde" },
-      { "word": "水泥", "pinyin": "shuǐní", "meaning": "Zement" }
-    ]
-  },
-  {
-    "hanzi": "洽",
-    "meanings": ["verhandeln","harmonisch"],
-    "pinyin": "qià",
-    "tone": 4,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "合", "meaning": "vereinen" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "融洽", "pinyin": "róngqià", "meaning": "harmonisch" },
-      { "word": "洽谈", "pinyin": "qiàtán", "meaning": "verhandeln" }
-    ]
-  },
-  {
-    "hanzi": "涉",
-    "meanings": ["durchwaten","betreffen"],
-    "pinyin": "shè",
-    "tone": 4,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "步", "meaning": "Schritt" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "涉及", "pinyin": "shèjí", "meaning": "betreffen" },
-      { "word": "涉嫌", "pinyin": "shèxián", "meaning": "verdaechtigt werden" }
-    ]
-  },
-  {
-    "hanzi": "涛",
-    "meanings": ["grosse Welle"],
-    "pinyin": "tāo",
-    "tone": 1,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "寿", "meaning": "Langlebigkeit" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "波涛", "pinyin": "bōtāo", "meaning": "grosse Wellen" },
-      { "word": "惊涛骇浪", "pinyin": "jīngtāo hàilàng", "meaning": "stuermische See" }
-    ]
-  },
-  {
-    "hanzi": "渲",
-    "meanings": ["faerben","uebertreiben"],
-    "pinyin": "xuàn",
-    "tone": 4,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "宣", "meaning": "verkuenden" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "渲染", "pinyin": "xuànrǎn", "meaning": "uebertreiben" },
-      { "word": "渲泄", "pinyin": "xuànxiè", "meaning": "auslassen" }
-    ]
-  },
-  {
-    "hanzi": "焰",
-    "meanings": ["Flamme"],
-    "pinyin": "yàn",
-    "tone": 4,
-    "components": [{ "radical": "火", "meaning": "Feuer" }, { "radical": "焱", "meaning": "Flamme" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "火焰", "pinyin": "huǒyàn", "meaning": "Flamme" },
-      { "word": "气焰", "pinyin": "qìyàn", "meaning": "Arroganz" }
-    ]
-  },
-  {
-    "hanzi": "琢",
-    "meanings": ["schnitzen","gruebeln"],
-    "pinyin": "zhuó",
-    "tone": 2,
-    "components": [{ "radical": "王", "meaning": "Koenig" }, { "radical": "豖", "meaning": "Schwein" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "琢磨", "pinyin": "zhuómó", "meaning": "gruebeln" },
-      { "word": "雕琢", "pinyin": "diāozhuó", "meaning": "schnitzen" }
-    ]
-  },
-  {
-    "hanzi": "瘾",
-    "meanings": ["Sucht"],
-    "pinyin": "yǐn",
-    "tone": 3,
-    "components": [{ "radical": "疒", "meaning": "Krankheit" }, { "radical": "隐", "meaning": "verbergen" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "上瘾", "pinyin": "shàngyǐn", "meaning": "suechtig werden" },
-      { "word": "烟瘾", "pinyin": "yānyǐn", "meaning": "Nikotinsucht" }
-    ]
-  },
-  {
-    "hanzi": "皱",
-    "meanings": ["Falte","runzeln"],
-    "pinyin": "zhòu",
-    "tone": 4,
-    "components": [{ "radical": "刍", "meaning": "Gras" }, { "radical": "皮", "meaning": "Haut" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "皱纹", "pinyin": "zhòuwén", "meaning": "Falte" },
-      { "word": "皱眉", "pinyin": "zhòuméi", "meaning": "die Stirn runzeln" }
-    ]
-  },
-  {
-    "hanzi": "盔",
-    "meanings": ["Helm"],
-    "pinyin": "kuī",
-    "tone": 1,
-    "components": [{ "radical": "灰", "meaning": "Asche" }, { "radical": "皿", "meaning": "Gefaess" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "头盔", "pinyin": "tóukuī", "meaning": "Helm" },
-      { "word": "盔甲", "pinyin": "kuījiǎ", "meaning": "Ruestung" }
-    ]
-  },
-  {
-    "hanzi": "窜",
-    "meanings": ["fliehen","abaendern"],
-    "pinyin": "cuàn",
-    "tone": 4,
-    "components": [{ "radical": "穴", "meaning": "Hoehle" }, { "radical": "串", "meaning": "Schnur" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "逃窜", "pinyin": "táocuàn", "meaning": "fliehen" },
-      { "word": "窜改", "pinyin": "cuàngǎi", "meaning": "faelschen" }
-    ]
-  },
-  {
-    "hanzi": "粮",
-    "meanings": ["Getreide","Nahrung"],
-    "pinyin": "liáng",
-    "tone": 2,
-    "components": [{ "radical": "米", "meaning": "Reis" }, { "radical": "良", "meaning": "gut" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "粮食", "pinyin": "liángshí", "meaning": "Getreide" },
-      { "word": "军粮", "pinyin": "jūnliáng", "meaning": "Militaerproviant" }
-    ]
-  },
-  {
-    "hanzi": "纬",
-    "meanings": ["Breitengrad","Schuss (Weben)"],
-    "pinyin": "wěi",
-    "tone": 3,
-    "components": [{ "radical": "纟", "meaning": "Faden" }, { "radical": "韦", "meaning": "Leder" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "纬度", "pinyin": "wěidù", "meaning": "Breitengrad" },
-      { "word": "经纬", "pinyin": "jīngwěi", "meaning": "Laengen- und Breitengrad" }
-    ]
-  },
-  {
-    "hanzi": "绷",
-    "meanings": ["spannen","straff"],
-    "pinyin": "bēng",
-    "tone": 1,
-    "components": [{ "radical": "纟", "meaning": "Faden" }, { "radical": "朋", "meaning": "Freund" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "绷带", "pinyin": "bēngdài", "meaning": "Verband" },
-      { "word": "绷紧", "pinyin": "bēngjǐn", "meaning": "straffen" }
-    ]
-  },
-  {
-    "hanzi": "翘",
-    "meanings": ["hochbiegen","herausragen"],
-    "pinyin": "qiào",
-    "tone": 4,
-    "components": [{ "radical": "尧", "meaning": "Yao" }, { "radical": "羽", "meaning": "Feder" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "翘首", "pinyin": "qiáoshǒu", "meaning": "den Hals recken" },
-      { "word": "翘楚", "pinyin": "qiáochǔ", "meaning": "Herausragender" }
-    ]
-  },
-  {
-    "hanzi": "舵",
-    "meanings": ["Ruder","Steuer"],
-    "pinyin": "duò",
-    "tone": 4,
-    "components": [{ "radical": "舟", "meaning": "Boot" }, { "radical": "它", "meaning": "es" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "掌舵", "pinyin": "zhǎngduò", "meaning": "steuern" },
-      { "word": "舵手", "pinyin": "duòshǒu", "meaning": "Steuermann" }
-    ]
-  },
-  {
-    "hanzi": "蔓",
-    "meanings": ["Ranke","sich ausbreiten"],
-    "pinyin": "màn",
-    "tone": 4,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "曼", "meaning": "lang" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "蔓延", "pinyin": "mànyán", "meaning": "sich ausbreiten" },
-      { "word": "藤蔓", "pinyin": "téngmàn", "meaning": "Ranke" }
-    ]
-  },
-  {
-    "hanzi": "蜡",
-    "meanings": ["Wachs"],
-    "pinyin": "là",
-    "tone": 4,
-    "components": [{ "radical": "虫", "meaning": "Insekt" }, { "radical": "昔", "meaning": "frueher" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "蜡烛", "pinyin": "làzhú", "meaning": "Kerze" },
-      { "word": "蜡笔", "pinyin": "làbǐ", "meaning": "Wachsmalstift" }
-    ]
-  },
-  {
-    "hanzi": "蠢",
-    "meanings": ["dumm","toericht"],
-    "pinyin": "chǔn",
-    "tone": 3,
-    "components": [{ "radical": "春", "meaning": "Fruehling" }, { "radical": "虫", "meaning": "Insekt" }],
-    "hsk": "HSK6",
-    "strokes": 21,
-    "examples": [
-      { "word": "愚蠢", "pinyin": "yúchǔn", "meaning": "dumm" },
-      { "word": "蠢货", "pinyin": "chǔnhuò", "meaning": "Dummkopf" }
-    ]
-  },
-  {
-    "hanzi": "裹",
-    "meanings": ["einwickeln","umhuellen"],
-    "pinyin": "guǒ",
-    "tone": 3,
-    "components": [{ "radical": "衣", "meaning": "Kleidung" }, { "radical": "果", "meaning": "Frucht" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "包裹", "pinyin": "bāoguǒ", "meaning": "Paket" },
-      { "word": "裹挟", "pinyin": "guǒxié", "meaning": "mitreissen" }
-    ]
-  },
-  {
-    "hanzi": "诅",
-    "meanings": ["verfluchen"],
-    "pinyin": "zǔ",
-    "tone": 3,
-    "components": [{ "radical": "讠", "meaning": "Sprache" }, { "radical": "且", "meaning": "und" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "诅咒", "pinyin": "zǔzhòu", "meaning": "verfluchen" },
-      { "word": "诅骂", "pinyin": "zǔmà", "meaning": "verwuenschen" }
-    ]
-  },
-  {
-    "hanzi": "谐",
-    "meanings": ["harmonisch","humorvoll"],
-    "pinyin": "xié",
-    "tone": 2,
-    "components": [{ "radical": "讠", "meaning": "Sprache" }, { "radical": "皆", "meaning": "alle" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "和谐", "pinyin": "héxié", "meaning": "harmonisch" },
-      { "word": "诙谐", "pinyin": "huīxié", "meaning": "humorvoll" }
-    ]
-  },
-  {
-    "hanzi": "豪",
-    "meanings": ["heldenhaft","grosszuegig"],
-    "pinyin": "háo",
-    "tone": 2,
-    "components": [{ "radical": "豕", "meaning": "Schwein" }, { "radical": "高", "meaning": "hoch" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "豪华", "pinyin": "háohuá", "meaning": "luxurioes" },
-      { "word": "英豪", "pinyin": "yīngháo", "meaning": "Held" }
-    ]
-  },
-  {
-    "hanzi": "赐",
-    "meanings": ["gewaehren","schenken"],
-    "pinyin": "cì",
-    "tone": 4,
-    "components": [{ "radical": "贝", "meaning": "Muschel" }, { "radical": "易", "meaning": "leicht" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "赐予", "pinyin": "cìyǔ", "meaning": "gewaehren" },
-      { "word": "恩赐", "pinyin": "ēncì", "meaning": "Gnade" }
-    ]
-  },
-  {
-    "hanzi": "蹲",
-    "meanings": ["hocken","kauern"],
-    "pinyin": "dūn",
-    "tone": 1,
-    "components": [{ "radical": "足", "meaning": "Fuss" }, { "radical": "尊", "meaning": "verehren" }],
-    "hsk": "HSK6",
+    "hanzi": "爆",
+    "level": "HSK6",
+    "traditional": [
+      "爆"
+    ],
+    "readings": [
+      {
+        "pinyin": "bào",
+        "meaning": "explodieren oder bersten; schnell frittieren oder kochen"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 19,
-    "examples": [
-      { "word": "蹲下", "pinyin": "dūnxià", "meaning": "sich hinhocken" },
-      { "word": "蹲守", "pinyin": "dūnshǒu", "meaning": "lauern" }
-    ]
+    "primaryRadical": "火",
+    "components": [
+      {
+        "part": "火",
+        "meaning": "Feuer"
+      },
+      {
+        "part": "暴"
+      }
+    ],
+    "words": [
+      "w:爆:bao4",
+      "w:爆发:bao4fa1",
+      "w:爆炸:bao4zha4",
+      "w:爆满:bao4man3",
+      "w:爆竹:bao4zhu2"
+    ],
+    "evidence": {
+      "cedict": [
+        "bao4: to explode; to burst; to stir-fry briefly; to quick-boil"
+      ],
+      "handedict": [
+        "bao4: explodieren oder bersten (V); schnell frittieren oder kochen (V)"
+      ],
+      "unihan": "013.130:bào | bào(189)",
+      "etymology": "ideographic: A violent 暴 flame 火; 暴 also provides the pronunciation"
+    }
   },
   {
-    "hanzi": "辙",
-    "meanings": ["Wagenspur","Radspur"],
-    "pinyin": "zhé",
-    "tone": 2,
-    "components": [{ "radical": "车", "meaning": "Wagen" }, { "radical": "撤", "meaning": "zurueckziehen" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "车辙", "pinyin": "chēzhé", "meaning": "Wagenspur" },
-      { "word": "重蹈覆辙", "pinyin": "chóngdǎo fùzhé", "meaning": "denselben Fehler wiederholen" }
-    ]
-  },
-  {
-    "hanzi": "酝",
-    "meanings": ["brauen","gaeren"],
-    "pinyin": "yùn",
-    "tone": 4,
-    "components": [{ "radical": "酉", "meaning": "Alkohol" }, { "radical": "云", "meaning": "Wolke" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "酝酿", "pinyin": "yùnniàng", "meaning": "brauen" },
-      { "word": "酝酿中", "pinyin": "yùnniàng zhōng", "meaning": "im Entstehen" }
-    ]
-  },
-  {
-    "hanzi": "铲",
-    "meanings": ["Schaufel","schaufeln"],
-    "pinyin": "chǎn",
-    "tone": 3,
-    "components": [{ "radical": "钅", "meaning": "Metall" }, { "radical": "产", "meaning": "produzieren" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "铲子", "pinyin": "chǎnzi", "meaning": "Schaufel" },
-      { "word": "铲除", "pinyin": "chǎnchú", "meaning": "beseitigen" }
-    ]
-  },
-  {
-    "hanzi": "锈",
-    "meanings": ["Rost","rosten"],
-    "pinyin": "xiù",
-    "tone": 4,
-    "components": [{ "radical": "钅", "meaning": "Metall" }, { "radical": "秀", "meaning": "elegant" }],
-    "hsk": "HSK6",
+    "hanzi": "悲",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "悲"
+    ],
+    "readings": [
+      {
+        "pinyin": "bēi",
+        "meaning": "traurig; Trauer"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 12,
-    "examples": [
-      { "word": "生锈", "pinyin": "shēngxiù", "meaning": "rosten" },
-      { "word": "铁锈", "pinyin": "tiěxiù", "meaning": "Rost" }
-    ]
+    "primaryRadical": "心",
+    "components": [
+      {
+        "part": "非",
+        "role": "phonetic",
+        "meaning": "nicht"
+      },
+      {
+        "part": "心",
+        "role": "semantic",
+        "meaning": "Herz"
+      }
+    ],
+    "words": [
+      "w:悲观:bei1guan1",
+      "w:悲剧:bei1ju4",
+      "w:悲伤:bei1shang1",
+      "w:悲哀:bei1ai1",
+      "w:悲惨:bei1can3"
+    ],
+    "evidence": {
+      "cedict": [
+        "bei1: sad; sadness; sorrow; grief"
+      ],
+      "handedict": [
+        "bei1: schwermütig (Adj); traurig (Adj)"
+      ],
+      "unihan": "014.020:bēi | bēi(127)",
+      "etymology": "pictophonetic: heart",
+      "old": "traurig; Trauer"
+    }
   },
   {
-    "hanzi": "陡",
-    "meanings": ["steil","ploetzlich"],
-    "pinyin": "dǒu",
-    "tone": 3,
-    "components": [{ "radical": "阝", "meaning": "Huegel" }, { "radical": "走", "meaning": "gehen" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "陡峭", "pinyin": "dǒuqiào", "meaning": "steil" },
-      { "word": "陡然", "pinyin": "dǒurán", "meaning": "ploetzlich" }
-    ]
+    "hanzi": "辈",
+    "level": "HSK6",
+    "traditional": [
+      "輩"
+    ],
+    "readings": [
+      {
+        "pinyin": "bèi",
+        "meaning": "Generation"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "車",
+    "radicalForm": "车",
+    "components": [
+      {
+        "part": "非",
+        "role": "phonetic",
+        "meaning": "nicht"
+      },
+      {
+        "part": "车",
+        "role": "semantic",
+        "meaning": "Wagen"
+      }
+    ],
+    "words": [
+      "w:长辈:zhang3bei4",
+      "w:一辈子:yi1bei4zi5",
+      "w:前辈:qian2bei4",
+      "w:晚辈:wan3bei4",
+      "w:辈子:bei4zi5"
+    ],
+    "evidence": {
+      "cedict": [
+        "bei4: lifetime; generation; group of people; class; classifier for generations"
+      ],
+      "handedict": [
+        "bei4: Generation (S); Lebenszeit (S); zeitgenössisch (Adj)"
+      ],
+      "unihan": "015.030:bèi | bèi(87)",
+      "etymology": "pictophonetic: wheel",
+      "old": "Generation"
+    }
   },
   {
-    "hanzi": "霆",
-    "meanings": ["Donner","Blitz"],
-    "pinyin": "tíng",
-    "tone": 2,
-    "components": [{ "radical": "雨", "meaning": "Regen" }, { "radical": "廷", "meaning": "Hof" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "雷霆", "pinyin": "léitíng", "meaning": "Donner" },
-      { "word": "大发雷霆", "pinyin": "dàfā léitíng", "meaning": "in Wut geraten" }
-    ]
-  },
-  {
-    "hanzi": "靴",
-    "meanings": ["Stiefel"],
-    "pinyin": "xuē",
-    "tone": 1,
-    "components": [{ "radical": "革", "meaning": "Leder" }, { "radical": "化", "meaning": "aendern" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "靴子", "pinyin": "xuēzi", "meaning": "Stiefel" },
-      { "word": "马靴", "pinyin": "mǎxuē", "meaning": "Reitstiefel" }
-    ]
-  },
-  {
-    "hanzi": "鞭",
-    "meanings": ["Peitsche","peitschen"],
-    "pinyin": "biān",
-    "tone": 1,
-    "components": [{ "radical": "革", "meaning": "Leder" }, { "radical": "便", "meaning": "bequem" }],
-    "hsk": "HSK6",
-    "strokes": 18,
-    "examples": [
-      { "word": "鞭策", "pinyin": "biāncè", "meaning": "anspornen" },
-      { "word": "鞭炮", "pinyin": "biānpào", "meaning": "Boeller" }
-    ]
-  },
-  {
-    "hanzi": "丕",
-    "meanings": ["gross","erhaben"],
-    "pinyin": "pī",
-    "tone": 1,
-    "components": [{ "radical": "一", "meaning": "eins" }, { "radical": "不", "meaning": "nicht" }],
-    "hsk": "HSK6",
-    "strokes": 5,
-    "examples": [
-      { "word": "丕变", "pinyin": "pībiàn", "meaning": "grosser Wandel" },
-      { "word": "丕显", "pinyin": "pīxiǎn", "meaning": "erhaben" }
-    ]
-  },
-  {
-    "hanzi": "亟",
-    "meanings": ["dringend","eilig"],
-    "pinyin": "jí",
-    "tone": 2,
-    "components": [{ "radical": "一", "meaning": "eins" }, { "radical": "口", "meaning": "Mund" }],
-    "hsk": "HSK6",
+    "hanzi": "奔",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "奔"
+    ],
+    "readings": [
+      {
+        "pinyin": "bèn",
+        "meaning": "rennen; eilen"
+      },
+      {
+        "pinyin": "bēn",
+        "meaning": "schnell laufen, rennen"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 8,
-    "examples": [
-      { "word": "亟待", "pinyin": "jídài", "meaning": "dringend benoetigen" },
-      { "word": "亟需", "pinyin": "jíxū", "meaning": "dringend brauchen" }
-    ]
+    "primaryRadical": "大",
+    "components": [
+      {
+        "part": "大",
+        "meaning": "gross"
+      },
+      {
+        "part": "卉",
+        "meaning": "Pflanze"
+      }
+    ],
+    "words": [
+      "w:奔:ben4",
+      "w:奔跑:ben1pao3",
+      "w:奔波:ben1bo1",
+      "w:奔驰:ben1chi2",
+      "w:奔赴:ben1fu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "ben4: to go to; to head for; towards; Taiwan pr. [ben1]; variant of 奔[ben4]",
+        "ben1: to hurry; to rush; to run quickly; to elope; variant of 奔[ben1]"
+      ],
+      "handedict": [
+        "ben4: ",
+        "ben1: schnell laufen, rennen (V)"
+      ],
+      "unihan": "015.150:bēn 016.040:bèn | bēn(135) bèn(19)",
+      "etymology": "ideographic: A man 大 running through a field of grass 卉",
+      "old": "rennen; eilen"
+    }
   },
   {
-    "hanzi": "仄",
-    "meanings": ["schraeg","eng"],
-    "pinyin": "zè",
-    "tone": 4,
-    "components": [{ "radical": "人", "meaning": "Mensch" }, { "radical": "一", "meaning": "eins" }],
-    "hsk": "HSK6",
+    "hanzi": "逼",
+    "level": "HSK6",
+    "traditional": [
+      "逼"
+    ],
+    "readings": [
+      {
+        "pinyin": "bī",
+        "meaning": "zwingen, nötigen, bedrohen, Druck ausüben"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "辵",
+    "radicalForm": "辶",
+    "components": [
+      {
+        "part": "辶",
+        "role": "semantic",
+        "meaning": "gehen, Weg"
+      },
+      {
+        "part": "畐",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:逼:bi1",
+      "w:逼近:bi1jin4",
+      "w:逼迫:bi1po4",
+      "w:逼真:bi1zhen1",
+      "w:咄咄逼人:duo1duo1bi1ren2"
+    ],
+    "evidence": {
+      "cedict": [
+        "bi1: variant of 逼[bi1]; to compel; to pressure; to force (sb to do sth); to compel"
+      ],
+      "handedict": [
+        "bi1: zwingen, nötigen, bedrohen, Druck ausüben (V)"
+      ],
+      "unihan": "017.080:bī | bī(89)",
+      "etymology": "pictophonetic: walk"
+    }
+  },
+  {
+    "hanzi": "壁",
+    "level": "HSK6",
+    "traditional": [
+      "壁"
+    ],
+    "readings": [
+      {
+        "pinyin": "bì",
+        "meaning": "Wand; Mauer"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 16,
+    "primaryRadical": "土",
+    "components": [
+      {
+        "part": "辟",
+        "role": "phonetic",
+        "meaning": "oeffnen"
+      },
+      {
+        "part": "土",
+        "role": "semantic",
+        "meaning": "Erde"
+      }
+    ],
+    "words": [
+      "w:隔壁:ge2bi4",
+      "w:墙壁:qiang2bi4",
+      "w:壁画:bi4hua4",
+      "w:壁垒:bi4lei3",
+      "w:戈壁:ge1bi4"
+    ],
+    "evidence": {
+      "cedict": [
+        "bi4: wall; rampart"
+      ],
+      "handedict": [
+        "bi4: Mauer, Wand, Felswand (S); Wandung (S, Tech)"
+      ],
+      "unihan": "020.060:bì | bì(149)",
+      "etymology": "pictophonetic: earth",
+      "old": "Wand; Mauer"
+    }
+  },
+  {
+    "hanzi": "臂",
+    "level": "HSK6",
+    "traditional": [
+      "臂"
+    ],
+    "readings": [
+      {
+        "pinyin": "bì",
+        "meaning": "Arm"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 17,
+    "primaryRadical": "肉",
+    "radicalForm": "月",
+    "components": [
+      {
+        "part": "辟",
+        "role": "phonetic",
+        "meaning": "oeffnen"
+      },
+      {
+        "part": "月",
+        "meaning": "Fleisch"
+      }
+    ],
+    "words": [
+      "w:手臂:shou3bi4"
+    ],
+    "evidence": {
+      "cedict": [
+        "bi4: arm"
+      ],
+      "handedict": [
+        "bi4: Arm, Oberarm (S, Anat)"
+      ],
+      "unihan": "015.140:bei 020.110:bì | bì(66) bei(20)",
+      "etymology": "pictophonetic: flesh",
+      "old": "Arm"
+    }
+  },
+  {
+    "hanzi": "编",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "編"
+    ],
+    "readings": [
+      {
+        "pinyin": "biān",
+        "meaning": "flechten; zusammenstellen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "糸",
+    "radicalForm": "纟",
+    "components": [
+      {
+        "part": "纟",
+        "role": "semantic",
+        "meaning": "Faden"
+      },
+      {
+        "part": "扁",
+        "role": "phonetic",
+        "meaning": "flach"
+      }
+    ],
+    "words": [
+      "w:编:bian1",
+      "w:编辑:bian1ji2",
+      "w:编写:bian1xie3",
+      "w:改编:gai3bian1",
+      "w:编程:bian1cheng2"
+    ],
+    "evidence": {
+      "cedict": [
+        "bian1: to weave; to plait; to organize; to group; to arrange"
+      ],
+      "handedict": [
+        "bian1: flechten (V); verfassen (V); komponieren (V, Mus)"
+      ],
+      "unihan": "020.180:biān | biān(215)",
+      "etymology": "pictophonetic: thread",
+      "old": "flechten; zusammenstellen"
+    }
+  },
+  {
+    "hanzi": "兵",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "兵"
+    ],
+    "readings": [
+      {
+        "pinyin": "bīng",
+        "meaning": "Soldat"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "八",
+    "components": [
+      {
+        "part": "丘"
+      },
+      {
+        "part": "八",
+        "meaning": "acht, teilen"
+      }
+    ],
+    "words": [
+      "w:兵:bing1",
+      "w:士兵:shi4bing1",
+      "w:官兵:guan1bing1",
+      "w:纸上谈兵:zhi3shang4tan2bing1",
+      "w:兵力:bing1li4"
+    ],
+    "evidence": {
+      "cedict": [
+        "bing1: soldiers; a force; an army; weapons; arms"
+      ],
+      "handedict": [
+        "bing1: Soldat (S, Mil)"
+      ],
+      "unihan": "025.010:bīng | bīng(536)",
+      "etymology": "ideographic: Two hands 八 holding an axe 丘"
+    }
+  },
+  {
+    "hanzi": "脖",
+    "level": "HSK6",
+    "traditional": [
+      "脖"
+    ],
+    "readings": [
+      {
+        "pinyin": "bó",
+        "meaning": "Hals"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "肉",
+    "radicalForm": "月",
+    "components": [
+      {
+        "part": "月",
+        "meaning": "Fleisch"
+      },
+      {
+        "part": "孛",
+        "role": "phonetic",
+        "meaning": "aufsteigen"
+      }
+    ],
+    "words": [
+      "w:脖子:bo2zi5"
+    ],
+    "evidence": {
+      "cedict": [
+        "bo2: neck"
+      ],
+      "handedict": [
+        "bo2: Genick, Hals, Nacken (S, Anat)"
+      ],
+      "unihan": "027.090:bó | bó(73)",
+      "etymology": "pictophonetic: flesh",
+      "old": "Hals"
+    }
+  },
+  {
+    "hanzi": "捕",
+    "level": "HSK6",
+    "traditional": [
+      "捕"
+    ],
+    "readings": [
+      {
+        "pinyin": "bǔ",
+        "meaning": "fangen; ergreifen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "role": "semantic",
+        "meaning": "Hand"
+      },
+      {
+        "part": "甫",
+        "role": "phonetic",
+        "meaning": "gerade erst"
+      }
+    ],
+    "words": [
+      "w:捕:bu3",
+      "w:捕获:bu3huo4",
+      "w:捕食:bu3shi2",
+      "w:捕捉:bu3zhuo1",
+      "w:逮捕:dai4bu3"
+    ],
+    "evidence": {
+      "cedict": [
+        "bu3: to catch; to seize; to capture"
+      ],
+      "handedict": [
+        "bu3: einfangen (V); kapern; packen (V); erbeuten; gefangen nehmen (V)"
+      ],
+      "unihan": "028.160:bǔ | bǔ(103)",
+      "etymology": "pictophonetic: hand",
+      "old": "fangen; ergreifen"
+    }
+  },
+  {
+    "hanzi": "财",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "財"
+    ],
+    "readings": [
+      {
+        "pinyin": "cái",
+        "meaning": "Reichtum, Vermögen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "貝",
+    "radicalForm": "贝",
+    "components": [
+      {
+        "part": "贝",
+        "role": "semantic",
+        "meaning": "Muschel, Geld"
+      },
+      {
+        "part": "才",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:财产:cai2chan3",
+      "w:财富:cai2fu4",
+      "w:财务:cai2wu4",
+      "w:财物:cai2wu4",
+      "w:理财:li3cai2"
+    ],
+    "evidence": {
+      "cedict": [
+        "cai2: money; wealth; riches; property; valuables"
+      ],
+      "handedict": [
+        "cai2: Reichtum, Vermögen (S)"
+      ],
+      "unihan": "030.080:cái | cái(166)",
+      "etymology": "pictophonetic: money"
+    }
+  },
+  {
+    "hanzi": "踩",
+    "level": "HSK6",
+    "traditional": [
+      "踩"
+    ],
+    "readings": [
+      {
+        "pinyin": "cǎi",
+        "meaning": "treten; drauftreten"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "足",
+    "components": [
+      {
+        "part": "𧾷"
+      },
+      {
+        "part": "采",
+        "role": "phonetic",
+        "meaning": "pfluecken"
+      }
+    ],
+    "words": [
+      "w:踩:cai3"
+    ],
+    "evidence": {
+      "cedict": [
+        "cai3: variant of 踩[cai3]; to step on; to tread; to stamp; to press a pedal"
+      ],
+      "handedict": [
+        "cai3: den Fuß auf etw. setzen, niedertrampeln (V); zertrampeln, mit dem Fuß auf etw. treten (V)"
+      ],
+      "unihan": "031.020:cǎi | cǎi(64)",
+      "etymology": "pictophonetic: foot",
+      "old": "treten; drauftreten"
+    }
+  },
+  {
+    "hanzi": "残",
+    "level": "HSK6",
+    "traditional": [
+      "殘"
+    ],
+    "readings": [
+      {
+        "pinyin": "cán",
+        "meaning": "zerstören, vernichten; brutal; grausam"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "歹",
+    "components": [
+      {
+        "part": "歹",
+        "role": "semantic",
+        "meaning": "schlecht, Tod"
+      },
+      {
+        "part": "戋",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:残疾:can2ji2",
+      "w:残:can2",
+      "w:残酷:can2ku4",
+      "w:残留:can2liu2",
+      "w:残缺:can2que1"
+    ],
+    "evidence": {
+      "cedict": [
+        "can2: to destroy; to spoil; to ruin; to injure; cruel"
+      ],
+      "handedict": [
+        "can2: zerstören, vernichten (V); brutal (Adj); grausam (Adj)"
+      ],
+      "unihan": "031.090:cán | cán(108)",
+      "etymology": "pictophonetic: death"
+    }
+  },
+  {
+    "hanzi": "仓",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "倉"
+    ],
+    "readings": [
+      {
+        "pinyin": "cāng",
+        "meaning": "Lager; Speicher"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 4,
-    "examples": [
-      { "word": "仄声", "pinyin": "zèshēng", "meaning": "schraeger Ton" },
-      { "word": "逼仄", "pinyin": "bīzè", "meaning": "eng" }
-    ]
+    "primaryRadical": "人",
+    "components": [
+      {
+        "part": "𠆢"
+      },
+      {
+        "part": "㔾",
+        "meaning": "Siegel"
+      }
+    ],
+    "words": [
+      "w:仓库:cang1ku4",
+      "w:仓促:cang1cu4",
+      "w:仓鼠:cang1shu3",
+      "w:仓储:cang1chu3",
+      "w:清仓:qing1cang1"
+    ],
+    "evidence": {
+      "cedict": [
+        "cang1: barn; granary; storehouse; cabin; hold (in ship)"
+      ],
+      "handedict": [
+        "cang1: Laden, Kaufhaus (S, Wirtsch); Bsp.: 倉庫 仓库 -- Warenhaus; Getreidespeicher, Kabine (S)"
+      ],
+      "unihan": "032.010:cāng | cāng(47)",
+      "etymology": "ideographic: Simplified form of 倉; grains 食 kept in storage 口",
+      "old": "Lager; Speicher"
+    }
   },
   {
-    "hanzi": "伫",
-    "meanings": ["stehen","verweilen"],
-    "pinyin": "zhù",
-    "tone": 4,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "宁", "meaning": "ruhig" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "伫立", "pinyin": "zhùlì", "meaning": "stehen bleiben" },
-      { "word": "伫望", "pinyin": "zhùwàng", "meaning": "sehnsuechtiger Blick" }
-    ]
-  },
-  {
-    "hanzi": "侈",
-    "meanings": ["verschwenderisch","ueppig"],
-    "pinyin": "chǐ",
-    "tone": 3,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "多", "meaning": "viel" }],
-    "hsk": "HSK6",
+    "hanzi": "侧",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "側"
+    ],
+    "readings": [
+      {
+        "pinyin": "cè",
+        "meaning": "Seite; seitlich, seitwärts; an der Seite"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 8,
-    "examples": [
-      { "word": "奢侈", "pinyin": "shēchǐ", "meaning": "verschwenderisch" },
-      { "word": "侈靡", "pinyin": "chǐmí", "meaning": "ueppig" }
-    ]
+    "primaryRadical": "人",
+    "radicalForm": "亻",
+    "components": [
+      {
+        "part": "亻",
+        "role": "semantic",
+        "meaning": "Mensch"
+      },
+      {
+        "part": "则",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:侧:ce4",
+      "w:侧面:ce4mian4",
+      "w:侧重:ce4zhong4"
+    ],
+    "evidence": {
+      "cedict": [
+        "ce4: the side; to incline towards; to lean; inclined; lateral"
+      ],
+      "handedict": [
+        "ce4: Seite (S, Math); seitlich (Adj), seitwärts (Adv); an der Seite (S); sich seitlich neigen (V)"
+      ],
+      "unihan": "033.030:cè | cè(125)",
+      "etymology": "pictophonetic: person"
+    }
   },
   {
-    "hanzi": "僭",
-    "meanings": ["anmassend","uebergriffig"],
-    "pinyin": "jiàn",
-    "tone": 4,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "朁", "meaning": "uebersteigen" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "僭越", "pinyin": "jiànyuè", "meaning": "anmassend" },
-      { "word": "僭位", "pinyin": "jiànwèi", "meaning": "unrechtmaessig herrschen" }
-    ]
+    "hanzi": "策",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "策"
+    ],
+    "readings": [
+      {
+        "pinyin": "cè",
+        "meaning": "Plan; Strategie"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "竹",
+    "components": [
+      {
+        "part": "𥫗"
+      },
+      {
+        "part": "朿",
+        "role": "phonetic",
+        "meaning": "Dorn"
+      }
+    ],
+    "words": [
+      "w:策划:ce4hua4",
+      "w:策略:ce4lve4",
+      "w:决策:jue2ce4",
+      "w:政策:zheng4ce4",
+      "w:鞭策:bian1ce4"
+    ],
+    "evidence": {
+      "cedict": [
+        "ce4: surname Ce; policy; plan; scheme; bamboo slip for writing (old)"
+      ],
+      "handedict": [
+        "ce4: Taktik, Mittel, Trick, Kunstgriff, List (S); Sporn, Stachel, Dorn (S); anstacheln, anspornen (V)"
+      ],
+      "unihan": "033.060:cè | cè(259)",
+      "etymology": "pictophonetic: bamboo",
+      "old": "Plan; Strategie"
+    }
   },
   {
-    "hanzi": "冥",
-    "meanings": ["dunkel","Unterwelt"],
-    "pinyin": "míng",
-    "tone": 2,
-    "components": [{ "radical": "冖", "meaning": "Deckel" }, { "radical": "日", "meaning": "Sonne" }],
-    "hsk": "HSK6",
+    "hanzi": "柴",
+    "level": "HSK6",
+    "traditional": [
+      "柴"
+    ],
+    "readings": [
+      {
+        "pinyin": "chái",
+        "meaning": "Feuerholz; mager (Fleisch); dünn (Person)"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 10,
-    "examples": [
-      { "word": "冥想", "pinyin": "míngxiǎng", "meaning": "meditieren" },
-      { "word": "冥冥", "pinyin": "míngmíng", "meaning": "dunkel" }
-    ]
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "此",
+        "role": "phonetic"
+      },
+      {
+        "part": "木",
+        "role": "semantic",
+        "meaning": "Baum, Holz"
+      }
+    ],
+    "words": [
+      "w:火柴:huo3chai2",
+      "w:柴油:chai2you2",
+      "w:柴米油盐:chai2mi3you2yan2",
+      "w:磨刀不误砍柴工:mo2dao1bu4wu4kan3chai2gong1",
+      "w:留得青山在，不怕没柴烧:liu2de5qing1shan1zai4bu4pa4mei2chai2shao1"
+    ],
+    "evidence": {
+      "cedict": [
+        "chai2: surname Chai; firewood; lean (of meat); thin (of a person)"
+      ],
+      "handedict": [
+        "chai2: Feuerholz (S); mager (Fleisch) (Adj); dünn (Person) (Adj); Chai (Eig, Fam)"
+      ],
+      "unihan": "036.030:chái | chái(156)",
+      "etymology": "pictophonetic: wood"
+    }
   },
   {
-    "hanzi": "刍",
-    "meanings": ["Gras","maehen"],
-    "pinyin": "chú",
-    "tone": 2,
-    "components": [{ "radical": "刀", "meaning": "Messer" }, { "radical": "彐", "meaning": "Schweinekopf" }],
-    "hsk": "HSK6",
-    "strokes": 5,
-    "examples": [
-      { "word": "刍议", "pinyin": "chúyì", "meaning": "bescheidener Vorschlag" },
-      { "word": "反刍", "pinyin": "fǎnchú", "meaning": "wiederkaeuen" }
-    ]
-  },
-  {
-    "hanzi": "刹",
-    "meanings": ["Tempel","bremsen"],
-    "pinyin": "chà",
-    "tone": 4,
-    "components": [{ "radical": "刂", "meaning": "Messer" }, { "radical": "杀", "meaning": "toeten" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "刹那", "pinyin": "chànà", "meaning": "Augenblick" },
-      { "word": "刹车", "pinyin": "shāchē", "meaning": "bremsen" }
-    ]
-  },
-  {
-    "hanzi": "勖",
-    "meanings": ["ermutigen","anspornen"],
-    "pinyin": "xù",
-    "tone": 4,
-    "components": [{ "radical": "力", "meaning": "Kraft" }, { "radical": "冒", "meaning": "wagen" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "勖勉", "pinyin": "xùmiǎn", "meaning": "ermutigen" },
-      { "word": "勖励", "pinyin": "xùlì", "meaning": "anspornen" }
-    ]
-  },
-  {
-    "hanzi": "叱",
-    "meanings": ["anschreien","schelten"],
-    "pinyin": "chì",
-    "tone": 4,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "七", "meaning": "sieben" }],
-    "hsk": "HSK6",
-    "strokes": 5,
-    "examples": [
-      { "word": "叱责", "pinyin": "chìzé", "meaning": "schelten" },
-      { "word": "叱咤", "pinyin": "chìzhà", "meaning": "donnern" }
-    ]
-  },
-  {
-    "hanzi": "咤",
-    "meanings": ["donnern","bruellen"],
-    "pinyin": "zhà",
-    "tone": 4,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "乍", "meaning": "ploetzlich" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "叱咤", "pinyin": "chìzhà", "meaning": "donnern" },
-      { "word": "叱咤风云", "pinyin": "chìzhàfēngyún", "meaning": "die Welt erschuettern" }
-    ]
-  },
-  {
-    "hanzi": "哝",
-    "meanings": ["murmeln","brummen"],
-    "pinyin": "nóng",
-    "tone": 2,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "农", "meaning": "Bauer" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "咕哝", "pinyin": "gūnóng", "meaning": "murmeln" },
-      { "word": "哝哝", "pinyin": "nóngnóng", "meaning": "brummend" }
-    ]
-  },
-  {
-    "hanzi": "唏",
-    "meanings": ["seufzen","schluechzen"],
-    "pinyin": "xī",
-    "tone": 1,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "希", "meaning": "hoffen" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "唏嘘", "pinyin": "xīxū", "meaning": "seufzen" },
-      { "word": "唏唏", "pinyin": "xīxī", "meaning": "weinend" }
-    ]
-  },
-  {
-    "hanzi": "嘘",
-    "meanings": ["seufzen","ausatmen"],
-    "pinyin": "xū",
-    "tone": 1,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "虚", "meaning": "leer" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "唏嘘", "pinyin": "xīxū", "meaning": "seufzen" },
-      { "word": "嘘寒问暖", "pinyin": "xūhánwènnuǎn", "meaning": "fuersorglich fragen" }
-    ]
-  },
-  {
-    "hanzi": "嚎",
-    "meanings": ["heulen","bruellen"],
-    "pinyin": "háo",
-    "tone": 2,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "豪", "meaning": "heldenhaft" }],
-    "hsk": "HSK6",
-    "strokes": 17,
-    "examples": [
-      { "word": "嚎叫", "pinyin": "háojiào", "meaning": "heulen" },
-      { "word": "嚎啕", "pinyin": "háotáo", "meaning": "laut weinen" }
-    ]
-  },
-  {
-    "hanzi": "囤",
-    "meanings": ["horten","lagern"],
-    "pinyin": "dùn",
-    "tone": 4,
-    "components": [{ "radical": "囗", "meaning": "Umzaeunung" }, { "radical": "屯", "meaning": "lagern" }],
-    "hsk": "HSK6",
+    "hanzi": "肠",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "腸"
+    ],
+    "readings": [
+      {
+        "pinyin": "cháng",
+        "meaning": "Darm (lat: Intestinum)"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 7,
-    "examples": [
-      { "word": "囤积", "pinyin": "dùnjī", "meaning": "horten" },
-      { "word": "囤货", "pinyin": "dùnhuò", "meaning": "Waren horten" }
-    ]
+    "primaryRadical": "肉",
+    "radicalForm": "月",
+    "components": [
+      {
+        "part": "月",
+        "meaning": "Fleisch"
+      },
+      {
+        "part": "𠃓"
+      }
+    ],
+    "words": [
+      "w:肠:chang2",
+      "w:香肠:xiang1chang2",
+      "w:心肠:xin1chang2",
+      "w:荡气回肠:dang4qi4hui2chang2"
+    ],
+    "evidence": {
+      "cedict": [
+        "chang2: intestines; old variant of 腸|肠[chang2]"
+      ],
+      "handedict": [
+        "chang2: Darm (lat: Intestinum) (S, Anat)"
+      ],
+      "unihan": "038.140:cháng | cháng(82)",
+      "etymology": "pictophonetic: flesh"
+    }
   },
   {
-    "hanzi": "坷",
-    "meanings": ["uneben","holprig"],
-    "pinyin": "kě",
-    "tone": 3,
-    "components": [{ "radical": "土", "meaning": "Erde" }, { "radical": "可", "meaning": "koennen" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "坎坷", "pinyin": "kǎnkě", "meaning": "holprig" },
-      { "word": "坷垃", "pinyin": "kělā", "meaning": "Erdklumpen" }
-    ]
-  },
-  {
-    "hanzi": "垠",
-    "meanings": ["Grenze","Rand"],
-    "pinyin": "yín",
-    "tone": 2,
-    "components": [{ "radical": "土", "meaning": "Erde" }, { "radical": "艮", "meaning": "Berg" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "一望无垠", "pinyin": "yīwàngwúyín", "meaning": "grenzenlos" },
-      { "word": "无垠", "pinyin": "wúyín", "meaning": "unendlich" }
-    ]
-  },
-  {
-    "hanzi": "埃",
-    "meanings": ["Staub","Partikel"],
-    "pinyin": "āi",
-    "tone": 1,
-    "components": [{ "radical": "土", "meaning": "Erde" }, { "radical": "矣", "meaning": "Partikel" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "尘埃", "pinyin": "chénāi", "meaning": "Staub" },
-      { "word": "埃及", "pinyin": "āijí", "meaning": "Aegypten" }
-    ]
-  },
-  {
-    "hanzi": "堑",
-    "meanings": ["Graben","Warnung"],
-    "pinyin": "qiàn",
-    "tone": 4,
-    "components": [{ "radical": "斩", "meaning": "abschneiden" }, { "radical": "土", "meaning": "Erde" }],
-    "hsk": "HSK6",
+    "hanzi": "偿",
+    "level": "HSK6",
+    "traditional": [
+      "償"
+    ],
+    "readings": [
+      {
+        "pinyin": "cháng",
+        "meaning": "erstatten; kompensieren"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 11,
-    "examples": [
-      { "word": "天堑", "pinyin": "tiānqiàn", "meaning": "natuerliche Barriere" },
-      { "word": "吃一堑长一智", "pinyin": "chīyīqiànzhǎngyīzhì", "meaning": "aus Fehlern lernen" }
-    ]
+    "primaryRadical": "人",
+    "radicalForm": "亻",
+    "components": [
+      {
+        "part": "亻",
+        "role": "semantic",
+        "meaning": "Mensch"
+      },
+      {
+        "part": "尝",
+        "role": "phonetic",
+        "meaning": "kosten"
+      }
+    ],
+    "words": [
+      "w:补偿:bu3chang2",
+      "w:赔偿:pei2chang2",
+      "w:偿还:chang2huan2",
+      "w:无偿:wu2chang2",
+      "w:如愿以偿:ru2yuan4yi3chang2"
+    ],
+    "evidence": {
+      "cedict": [
+        "chang2: to repay; to compensate for; to recompense; to fulfill (hopes etc)"
+      ],
+      "handedict": [
+        "chang2: jmd. entschädigen, büßen (V); erstatten (V); zurückzahlen, zurückerstatten (V)"
+      ],
+      "unihan": "038.170:cháng | cháng(11)",
+      "etymology": "pictophonetic: person",
+      "old": "erstatten; kompensieren"
+    }
   },
   {
-    "hanzi": "塾",
-    "meanings": ["Privatschule"],
-    "pinyin": "shú",
-    "tone": 2,
-    "components": [{ "radical": "土", "meaning": "Erde" }, { "radical": "孰", "meaning": "wer" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "私塾", "pinyin": "sīshú", "meaning": "Privatschule" },
-      { "word": "家塾", "pinyin": "jiāshú", "meaning": "Hausschule" }
-    ]
-  },
-  {
-    "hanzi": "壑",
-    "meanings": ["Schlucht","Tal"],
-    "pinyin": "hè",
-    "tone": 4,
-    "components": [{ "radical": "土", "meaning": "Erde" }, { "radical": "谷", "meaning": "Tal" }],
-    "hsk": "HSK6",
-    "strokes": 17,
-    "examples": [
-      { "word": "沟壑", "pinyin": "gōuhè", "meaning": "Schlucht" },
-      { "word": "丘壑", "pinyin": "qiūhè", "meaning": "Huegel und Taeler" }
-    ]
-  },
-  {
-    "hanzi": "夙",
-    "meanings": ["frueh","seit langem"],
-    "pinyin": "sù",
-    "tone": 4,
-    "components": [{ "radical": "几", "meaning": "Tisch" }, { "radical": "歹", "meaning": "schlecht" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "夙愿", "pinyin": "sùyuàn", "meaning": "langgehegter Wunsch" },
-      { "word": "夙夜", "pinyin": "sùyè", "meaning": "Tag und Nacht" }
-    ]
-  },
-  {
-    "hanzi": "奄",
-    "meanings": ["ploetzlich","bedecken"],
-    "pinyin": "yǎn",
-    "tone": 3,
-    "components": [{ "radical": "大", "meaning": "gross" }, { "radical": "电", "meaning": "Blitz" }],
-    "hsk": "HSK6",
+    "hanzi": "畅",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "暢"
+    ],
+    "readings": [
+      {
+        "pinyin": "chàng",
+        "meaning": "ungehindert, frei, ausgelassen; fließend, glatt"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 8,
-    "examples": [
-      { "word": "奄奄一息", "pinyin": "yǎnyǎnyīxī", "meaning": "im Sterben liegen" },
-      { "word": "奄然", "pinyin": "yǎnrán", "meaning": "ploetzlich" }
-    ]
+    "primaryRadical": "田",
+    "components": [
+      {
+        "part": "申",
+        "role": "semantic"
+      },
+      {
+        "part": "𠃓"
+      }
+    ],
+    "words": [
+      "w:畅通:chang4tong1",
+      "w:畅销:chang4xiao1",
+      "w:畅谈:chang4tan2",
+      "w:酣畅:han1chang4",
+      "w:流畅:liu2chang4"
+    ],
+    "evidence": {
+      "cedict": [
+        "chang4: free; unimpeded; smooth; at ease; free from worry"
+      ],
+      "handedict": [
+        "chang4: ungehindert, frei, ausgelassen (Adj); fließend, glatt (Adj)"
+      ],
+      "unihan": "039.120:chàng | chàng(18)",
+      "etymology": "pictophonetic: open"
+    }
   },
   {
-    "hanzi": "妖",
-    "meanings": ["Daemon","unheimlich"],
-    "pinyin": "yāo",
-    "tone": 1,
-    "components": [{ "radical": "女", "meaning": "Frau" }, { "radical": "夭", "meaning": "jung sterben" }],
-    "hsk": "HSK6",
+    "hanzi": "抄",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "抄"
+    ],
+    "readings": [
+      {
+        "pinyin": "chāo",
+        "meaning": "abschreiben; kopieren"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 7,
-    "examples": [
-      { "word": "妖怪", "pinyin": "yāoguài", "meaning": "Daemon" },
-      { "word": "妖精", "pinyin": "yāojing", "meaning": "Geist" }
-    ]
-  },
-  {
-    "hanzi": "娟",
-    "meanings": ["schoen","anmutig"],
-    "pinyin": "juān",
-    "tone": 1,
-    "components": [{ "radical": "女", "meaning": "Frau" }, { "radical": "肙", "meaning": "Insekt" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "婵娟", "pinyin": "chánjuān", "meaning": "Mond" },
-      { "word": "娟秀", "pinyin": "juānxiù", "meaning": "anmutig" }
-    ]
-  },
-  {
-    "hanzi": "嫡",
-    "meanings": ["legitim","Hauptfrau"],
-    "pinyin": "dí",
-    "tone": 2,
-    "components": [{ "radical": "女", "meaning": "Frau" }, { "radical": "啇", "meaning": "Grundlage" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "嫡系", "pinyin": "díxì", "meaning": "Hauptlinie" },
-      { "word": "嫡传", "pinyin": "díchuan", "meaning": "direkte Ueberlieferung" }
-    ]
-  },
-  {
-    "hanzi": "嬗",
-    "meanings": ["sich wandeln","uebergehen"],
-    "pinyin": "shàn",
-    "tone": 4,
-    "components": [{ "radical": "女", "meaning": "Frau" }, { "radical": "亶", "meaning": "wirklich" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "嬗变", "pinyin": "shànbiàn", "meaning": "Wandel" },
-      { "word": "嬗递", "pinyin": "shàndì", "meaning": "Uebergang" }
-    ]
-  },
-  {
-    "hanzi": "孺",
-    "meanings": ["Kind","jung"],
-    "pinyin": "rú",
-    "tone": 2,
-    "components": [{ "radical": "子", "meaning": "Kind" }, { "radical": "需", "meaning": "brauchen" }],
-    "hsk": "HSK6",
-    "strokes": 17,
-    "examples": [
-      { "word": "孺子", "pinyin": "rúzǐ", "meaning": "Kind" },
-      { "word": "妇孺", "pinyin": "fùrú", "meaning": "Frauen und Kinder" }
-    ]
-  },
-  {
-    "hanzi": "宕",
-    "meanings": ["aufschieben","uebertreiben"],
-    "pinyin": "dàng",
-    "tone": 4,
-    "components": [{ "radical": "宀", "meaning": "Dach" }, { "radical": "石", "meaning": "Stein" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "跌宕", "pinyin": "diēdàng", "meaning": "wechselhaft" },
-      { "word": "宕机", "pinyin": "dàngjī", "meaning": "Absturz" }
-    ]
-  },
-  {
-    "hanzi": "寰",
-    "meanings": ["Welt","Universum"],
-    "pinyin": "huán",
-    "tone": 2,
-    "components": [{ "radical": "宀", "meaning": "Dach" }, { "radical": "睘", "meaning": "blicken" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "寰宇", "pinyin": "huányǔ", "meaning": "Universum" },
-      { "word": "寰球", "pinyin": "huánqiú", "meaning": "Erdball" }
-    ]
-  },
-  {
-    "hanzi": "峥",
-    "meanings": ["steil","ueberragend"],
-    "pinyin": "zhēng",
-    "tone": 1,
-    "components": [{ "radical": "山", "meaning": "Berg" }, { "radical": "争", "meaning": "streiten" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "峥嵘", "pinyin": "zhēngróng", "meaning": "ueberragend" },
-      { "word": "峥嵘岁月", "pinyin": "zhēngróngsùiyuè", "meaning": "denkwuerdige Jahre" }
-    ]
-  },
-  {
-    "hanzi": "嵘",
-    "meanings": ["hoch","majestaetisch"],
-    "pinyin": "róng",
-    "tone": 2,
-    "components": [{ "radical": "山", "meaning": "Berg" }, { "radical": "荣", "meaning": "Ruhm" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "峥嵘", "pinyin": "zhēngróng", "meaning": "ueberragend" },
-      { "word": "嵘然", "pinyin": "róngrán", "meaning": "erhaben" }
-    ]
-  },
-  {
-    "hanzi": "帷",
-    "meanings": ["Vorhang","Zeltplane"],
-    "pinyin": "wéi",
-    "tone": 2,
-    "components": [{ "radical": "巾", "meaning": "Tuch" }, { "radical": "韦", "meaning": "Leder" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "帷幕", "pinyin": "wéimù", "meaning": "Vorhang" },
-      { "word": "运筹帷幄", "pinyin": "yùnchóuwéiwò", "meaning": "Strategie planen" }
-    ]
-  },
-  {
-    "hanzi": "幄",
-    "meanings": ["Zelt","Baldachin"],
-    "pinyin": "wò",
-    "tone": 4,
-    "components": [{ "radical": "巾", "meaning": "Tuch" }, { "radical": "屋", "meaning": "Haus" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "帷幄", "pinyin": "wéiwò", "meaning": "Stabszelt" },
-      { "word": "运筹帷幄", "pinyin": "yùnchóuwéiwò", "meaning": "Strategie planen" }
-    ]
-  },
-  {
-    "hanzi": "庑",
-    "meanings": ["Galerie","Seitengebaeude"],
-    "pinyin": "wǔ",
-    "tone": 3,
-    "components": [{ "radical": "广", "meaning": "Gebaeude" }, { "radical": "无", "meaning": "ohne" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "庑殿", "pinyin": "wǔdiàn", "meaning": "Dachform" },
-      { "word": "廊庑", "pinyin": "lángwǔ", "meaning": "Galerie" }
-    ]
-  },
-  {
-    "hanzi": "弢",
-    "meanings": ["Bogenkocher","verbergen"],
-    "pinyin": "tāo",
-    "tone": 1,
-    "components": [{ "radical": "弓", "meaning": "Bogen" }, { "radical": "玄", "meaning": "dunkel" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "弢迹", "pinyin": "tāojì", "meaning": "verbergen" },
-      { "word": "弢光", "pinyin": "tāoguāng", "meaning": "Licht verhuellen" }
-    ]
-  },
-  {
-    "hanzi": "弩",
-    "meanings": ["Armbrust"],
-    "pinyin": "nǔ",
-    "tone": 3,
-    "components": [{ "radical": "弓", "meaning": "Bogen" }, { "radical": "奴", "meaning": "Sklave" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "弩箭", "pinyin": "nǔjiàn", "meaning": "Armbrustbolzen" },
-      { "word": "强弩", "pinyin": "qiángnǔ", "meaning": "starke Armbrust" }
-    ]
-  },
-  {
-    "hanzi": "彝",
-    "meanings": ["Opfergefaess","Yi-Volk"],
-    "pinyin": "yí",
-    "tone": 2,
-    "components": [{ "radical": "彑", "meaning": "Schweinekopf" }, { "radical": "米", "meaning": "Reis" }],
-    "hsk": "HSK6",
-    "strokes": 18,
-    "examples": [
-      { "word": "彝族", "pinyin": "yízú", "meaning": "Yi-Volk" },
-      { "word": "彝器", "pinyin": "yíqì", "meaning": "Opfergefaess" }
-    ]
-  },
-  {
-    "hanzi": "徜",
-    "meanings": ["umherschlendern"],
-    "pinyin": "cháng",
-    "tone": 2,
-    "components": [{ "radical": "彳", "meaning": "Schritt" }, { "radical": "尚", "meaning": "noch" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "徜徉", "pinyin": "chángyáng", "meaning": "umherschlendern" },
-      { "word": "徜佯", "pinyin": "chángyáng", "meaning": "muessig wandern" }
-    ]
-  },
-  {
-    "hanzi": "徉",
-    "meanings": ["schlendern","wandern"],
-    "pinyin": "yáng",
-    "tone": 2,
-    "components": [{ "radical": "彳", "meaning": "Schritt" }, { "radical": "羊", "meaning": "Schaf" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "徜徉", "pinyin": "chángyáng", "meaning": "umherschlendern" },
-      { "word": "彷徉", "pinyin": "pángyáng", "meaning": "umherstreifen" }
-    ]
-  },
-  {
-    "hanzi": "忿",
-    "meanings": ["zornig","wuetend"],
-    "pinyin": "fèn",
-    "tone": 4,
-    "components": [{ "radical": "分", "meaning": "teilen" }, { "radical": "心", "meaning": "Herz" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "忿怒", "pinyin": "fènnù", "meaning": "zornig" },
-      { "word": "忿忿", "pinyin": "fènfèn", "meaning": "aufgebracht" }
-    ]
-  },
-  {
-    "hanzi": "悯",
-    "meanings": ["bemitleiden","mitfuehlen"],
-    "pinyin": "mǐn",
-    "tone": 3,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "闵", "meaning": "traurig" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "怜悯", "pinyin": "liánmǐn", "meaning": "Mitleid" },
-      { "word": "悯恤", "pinyin": "mǐnxù", "meaning": "Mitgefuehl" }
-    ]
-  },
-  {
-    "hanzi": "惘",
-    "meanings": ["ratlos","bestuerzt"],
-    "pinyin": "wǎng",
-    "tone": 3,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "罔", "meaning": "taeuschen" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "怅惘", "pinyin": "chàngwǎng", "meaning": "ratlos" },
-      { "word": "惘然", "pinyin": "wǎngrán", "meaning": "verloren" }
-    ]
-  },
-  {
-    "hanzi": "愫",
-    "meanings": ["aufrichtig","tief"],
-    "pinyin": "sù",
-    "tone": 4,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "素", "meaning": "schlicht" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "情愫", "pinyin": "qíngsù", "meaning": "Gefuehle" },
-      { "word": "真情实愫", "pinyin": "zhēnqíngshísù", "meaning": "wahre Gefuehle" }
-    ]
-  },
-  {
-    "hanzi": "戍",
-    "meanings": ["Grenze bewachen"],
-    "pinyin": "shù",
-    "tone": 4,
-    "components": [{ "radical": "戈", "meaning": "Hellebarde" }, { "radical": "丿", "meaning": "Strich" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "戍边", "pinyin": "shùbiān", "meaning": "Grenze bewachen" },
-      { "word": "卫戍", "pinyin": "wèishù", "meaning": "Garnison" }
-    ]
-  },
-  {
-    "hanzi": "扈",
-    "meanings": ["begleiten","Gefolge"],
-    "pinyin": "hù",
-    "tone": 4,
-    "components": [{ "radical": "户", "meaning": "Tuer" }, { "radical": "邑", "meaning": "Stadt" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "扈从", "pinyin": "hùcóng", "meaning": "Gefolge" },
-      { "word": "跋扈", "pinyin": "báhù", "meaning": "tyrannisch" }
-    ]
-  },
-  {
-    "hanzi": "抡",
-    "meanings": ["schwingen","kreisen"],
-    "pinyin": "lún",
-    "tone": 2,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "仑", "meaning": "Reihenfolge" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "抡起", "pinyin": "lúnqǐ", "meaning": "hochschwingen" },
-      { "word": "抡锤", "pinyin": "lúnchuí", "meaning": "Hammer schwingen" }
-    ]
-  },
-  {
-    "hanzi": "捻",
-    "meanings": ["drehen","rollen"],
-    "pinyin": "niǎn",
-    "tone": 3,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "念", "meaning": "denken" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "捻线", "pinyin": "niǎnxiàn", "meaning": "Faden drehen" },
-      { "word": "捻搓", "pinyin": "niǎncuō", "meaning": "rollen" }
-    ]
-  },
-  {
-    "hanzi": "掣",
-    "meanings": ["ziehen","hemmen"],
-    "pinyin": "chè",
-    "tone": 4,
-    "components": [{ "radical": "制", "meaning": "herstellen" }, { "radical": "手", "meaning": "Hand" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "掣肘", "pinyin": "chèzhǒu", "meaning": "behindern" },
-      { "word": "风驰电掣", "pinyin": "fēngchídiànchè", "meaning": "blitzschnell" }
-    ]
-  },
-  {
-    "hanzi": "揆",
-    "meanings": ["abschaetzen","einschaetzen"],
-    "pinyin": "kuí",
-    "tone": 2,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "癸", "meaning": "zehnter Stamm" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "揆度", "pinyin": "kuíduó", "meaning": "abschaetzen" },
-      { "word": "揆情", "pinyin": "kuíqíng", "meaning": "Lage einschaetzen" }
-    ]
-  },
-  {
-    "hanzi": "摒",
-    "meanings": ["ablehnen","beiseiteschieben"],
-    "pinyin": "bìng",
-    "tone": 4,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "屏", "meaning": "Wandschirm" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "摒弃", "pinyin": "bìngqì", "meaning": "verwerfen" },
-      { "word": "摒除", "pinyin": "bìngchú", "meaning": "beseitigen" }
-    ]
-  },
-  {
-    "hanzi": "攸",
-    "meanings": ["schnell","eilig"],
-    "pinyin": "yōu",
-    "tone": 1,
-    "components": [{ "radical": "人", "meaning": "Mensch" }, { "radical": "攵", "meaning": "schlagen" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "性命攸关", "pinyin": "xìngmìngyōuguān", "meaning": "lebenswichtig" },
-      { "word": "攸关", "pinyin": "yōuguān", "meaning": "betreffen" }
-    ]
-  },
-  {
-    "hanzi": "斡",
-    "meanings": ["drehen","vermitteln"],
-    "pinyin": "wò",
-    "tone": 4,
-    "components": [{ "radical": "斗", "meaning": "Scheffel" }, { "radical": "倝", "meaning": "Morgen" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "斡旋", "pinyin": "wòxuán", "meaning": "vermitteln" },
-      { "word": "斡转", "pinyin": "wòzhuǎn", "meaning": "wenden" }
-    ]
-  },
-  {
-    "hanzi": "旌",
-    "meanings": ["Banner","Fahne"],
-    "pinyin": "jīng",
-    "tone": 1,
-    "components": [{ "radical": "方", "meaning": "Richtung" }, { "radical": "生", "meaning": "Leben" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "旌旗", "pinyin": "jīngqí", "meaning": "Banner" },
-      { "word": "旌表", "pinyin": "jīngbiǎo", "meaning": "ehren" }
-    ]
-  },
-  {
-    "hanzi": "昶",
-    "meanings": ["heller Tag","lang"],
-    "pinyin": "chǎng",
-    "tone": 3,
-    "components": [{ "radical": "日", "meaning": "Sonne" }, { "radical": "永", "meaning": "ewig" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "昶明", "pinyin": "chǎngmíng", "meaning": "hell" },
-      { "word": "昶衍", "pinyin": "chǎngyǎn", "meaning": "lang" }
-    ]
-  },
-  {
-    "hanzi": "晖",
-    "meanings": ["Sonnenschein","Glanz"],
-    "pinyin": "huī",
-    "tone": 1,
-    "components": [{ "radical": "日", "meaning": "Sonne" }, { "radical": "军", "meaning": "Armee" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "春晖", "pinyin": "chūnhuī", "meaning": "Fruehlingssonnenschein" },
-      { "word": "晖映", "pinyin": "huīyìng", "meaning": "strahlen" }
-    ]
-  },
-  {
-    "hanzi": "暝",
-    "meanings": ["Abenddaemmerung","dunkel"],
-    "pinyin": "míng",
-    "tone": 2,
-    "components": [{ "radical": "日", "meaning": "Sonne" }, { "radical": "冥", "meaning": "dunkel" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "暝色", "pinyin": "míngsè", "meaning": "Daemmerung" },
-      { "word": "暝暝", "pinyin": "míngmíng", "meaning": "duester" }
-    ]
-  },
-  {
-    "hanzi": "枳",
-    "meanings": ["Bitterorange"],
-    "pinyin": "zhǐ",
-    "tone": 3,
-    "components": [{ "radical": "木", "meaning": "Baum" }, { "radical": "只", "meaning": "nur" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "枳壳", "pinyin": "zhǐké", "meaning": "Bitterorangenschale" },
-      { "word": "枳实", "pinyin": "zhǐshí", "meaning": "unreife Bitterorange" }
-    ]
-  },
-  {
-    "hanzi": "桢",
-    "meanings": ["Stamm","Grundlage"],
-    "pinyin": "zhēn",
-    "tone": 1,
-    "components": [{ "radical": "木", "meaning": "Baum" }, { "radical": "贞", "meaning": "treu" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "桢干", "pinyin": "zhēngàn", "meaning": "Grundpfeiler" },
-      { "word": "桢楠", "pinyin": "zhēnnán", "meaning": "Phoebe-Baum" }
-    ]
-  },
-  {
-    "hanzi": "榫",
-    "meanings": ["Zapfen","Holzverbindung"],
-    "pinyin": "sǔn",
-    "tone": 3,
-    "components": [{ "radical": "木", "meaning": "Baum" }, { "radical": "隼", "meaning": "Falke" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "榫头", "pinyin": "sǔntou", "meaning": "Zapfen" },
-      { "word": "榫卯", "pinyin": "sǔnmǎo", "meaning": "Holzverbindung" }
-    ]
-  },
-  {
-    "hanzi": "槲",
-    "meanings": ["Eiche"],
-    "pinyin": "hú",
-    "tone": 2,
-    "components": [{ "radical": "木", "meaning": "Baum" }, { "radical": "斛", "meaning": "Hohlmass" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "槲树", "pinyin": "húshù", "meaning": "Eiche" },
-      { "word": "槲栎", "pinyin": "húlì", "meaning": "Zerreiche" }
-    ]
-  },
-  {
-    "hanzi": "殄",
-    "meanings": ["ausrotten","vernichten"],
-    "pinyin": "tiǎn",
-    "tone": 3,
-    "components": [{ "radical": "歹", "meaning": "schlecht" }, { "radical": "㐱", "meaning": "haarig" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "暴殄", "pinyin": "bàotiǎn", "meaning": "verschwenden" },
-      { "word": "殄灭", "pinyin": "tiǎnmiè", "meaning": "vernichten" }
-    ]
-  },
-  {
-    "hanzi": "殚",
-    "meanings": ["erschoepfen","aufbrauchen"],
-    "pinyin": "dān",
-    "tone": 1,
-    "components": [{ "radical": "歹", "meaning": "schlecht" }, { "radical": "单", "meaning": "einzeln" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "殚精竭虑", "pinyin": "dānjīngjiélǜ", "meaning": "alle Kraft aufwenden" },
-      { "word": "殚尽", "pinyin": "dānjìn", "meaning": "erschoepft" }
-    ]
-  },
-  {
-    "hanzi": "毓",
-    "meanings": ["aufziehen","gebaeren"],
-    "pinyin": "yù",
-    "tone": 4,
-    "components": [{ "radical": "每", "meaning": "jede" }, { "radical": "流", "meaning": "fliessen" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "钟灵毓秀", "pinyin": "zhōnglíngyùxiù", "meaning": "begabt" },
-      { "word": "毓秀", "pinyin": "yùxiù", "meaning": "Talente hervorbringen" }
-    ]
-  },
-  {
-    "hanzi": "汨",
-    "meanings": ["schnell fliessen"],
-    "pinyin": "mì",
-    "tone": 4,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "日", "meaning": "Sonne" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "汨罗", "pinyin": "mìluó", "meaning": "Miluo-Fluss" },
-      { "word": "汨没", "pinyin": "mìmò", "meaning": "untertauchen" }
-    ]
-  },
-  {
-    "hanzi": "泠",
-    "meanings": ["klar","kuehler Klang"],
-    "pinyin": "líng",
-    "tone": 2,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "令", "meaning": "Befehl" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "泠泠", "pinyin": "línglíng", "meaning": "klar klingend" },
-      { "word": "泠然", "pinyin": "língrán", "meaning": "kuehl" }
-    ]
-  },
-  {
-    "hanzi": "洄",
-    "meanings": ["Strudel","zurueckfliessen"],
-    "pinyin": "huí",
-    "tone": 2,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "回", "meaning": "zurueck" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "洄游", "pinyin": "huíyóu", "meaning": "stromaufwaerts wandern" },
-      { "word": "洄水", "pinyin": "huíshuǐ", "meaning": "Strudel" }
-    ]
-  },
-  {
-    "hanzi": "浃",
-    "meanings": ["durchdringen","durchnaessen"],
-    "pinyin": "jiā",
-    "tone": 1,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "夹", "meaning": "klemmen" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "汗流浃背", "pinyin": "hànliújiābèi", "meaning": "schweissgebadet" },
-      { "word": "浃洽", "pinyin": "jiāqià", "meaning": "harmonisch" }
-    ]
-  },
-  {
-    "hanzi": "涣",
-    "meanings": ["zerstreuen","aufloesen"],
-    "pinyin": "huàn",
-    "tone": 4,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "奂", "meaning": "glaenzend" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "涣散", "pinyin": "huànsàn", "meaning": "sich aufloesen" },
-      { "word": "焕然", "pinyin": "huànrán", "meaning": "glaenzend" }
-    ]
-  },
-  {
-    "hanzi": "淬",
-    "meanings": ["haerten","abschrecken"],
-    "pinyin": "cuì",
-    "tone": 4,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "卒", "meaning": "Soldat" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "淬火", "pinyin": "cuìhuǒ", "meaning": "abhaerten" },
-      { "word": "淬炼", "pinyin": "cuìliàn", "meaning": "laeutern" }
-    ]
-  },
-  {
-    "hanzi": "淞",
-    "meanings": ["Name eines Flusses"],
-    "pinyin": "sōng",
-    "tone": 1,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "松", "meaning": "Kiefer" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "淞江", "pinyin": "sōngjiāng", "meaning": "Songjiang" },
-      { "word": "吴淞", "pinyin": "wúsōng", "meaning": "Wusong" }
-    ]
-  },
-  {
-    "hanzi": "湍",
-    "meanings": ["reissende Stroemung"],
-    "pinyin": "tuān",
-    "tone": 1,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "端", "meaning": "Ende" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "湍急", "pinyin": "tuānjí", "meaning": "reissend" },
-      { "word": "湍流", "pinyin": "tuānliú", "meaning": "Turbulenz" }
-    ]
-  },
-  {
-    "hanzi": "溯",
-    "meanings": ["zurueckverfolgen","stromaufwaerts"],
-    "pinyin": "sù",
-    "tone": 4,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "朔", "meaning": "Neumond" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "追溯", "pinyin": "zhuīsù", "meaning": "zurueckverfolgen" },
-      { "word": "溯源", "pinyin": "sùyuán", "meaning": "Ursprung erforschen" }
-    ]
-  },
-  {
-    "hanzi": "滂",
-    "meanings": ["stroemen","heftig"],
-    "pinyin": "pāng",
-    "tone": 1,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "旁", "meaning": "Seite" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "滂沱", "pinyin": "pāngtuó", "meaning": "stroemend" },
-      { "word": "滂沛", "pinyin": "pāngpèi", "meaning": "reichlich" }
-    ]
-  },
-  {
-    "hanzi": "漕",
-    "meanings": ["Getreidetransport per Schiff"],
-    "pinyin": "cáo",
-    "tone": 2,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "曹", "meaning": "Abteilung" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "漕运", "pinyin": "cáoyùn", "meaning": "Getreidetransport" },
-      { "word": "漕粮", "pinyin": "cáoliáng", "meaning": "Tributgetreide" }
-    ]
-  },
-  {
-    "hanzi": "潺",
-    "meanings": ["murmelndes Wasser"],
-    "pinyin": "chán",
-    "tone": 2,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "孱", "meaning": "schwach" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "潺潺", "pinyin": "chánchán", "meaning": "murmelnd" },
-      { "word": "潺湲", "pinyin": "chányuán", "meaning": "sanft fliessend" }
-    ]
-  },
-  {
-    "hanzi": "澧",
-    "meanings": ["Name eines Flusses"],
-    "pinyin": "lǐ",
-    "tone": 3,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "豊", "meaning": "reichlich" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "澧水", "pinyin": "lǐshuǐ", "meaning": "Li-Fluss" },
-      { "word": "澧县", "pinyin": "lǐxiàn", "meaning": "Kreis Li" }
-    ]
-  },
-  {
-    "hanzi": "瀚",
-    "meanings": ["weit","grenzenlos"],
-    "pinyin": "hàn",
-    "tone": 4,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "翰", "meaning": "Schreibfeder" }],
-    "hsk": "HSK6",
-    "strokes": 19,
-    "examples": [
-      { "word": "浩瀚", "pinyin": "hàohàn", "meaning": "grenzenlos" },
-      { "word": "瀚海", "pinyin": "hànhǎi", "meaning": "Wueste" }
-    ]
-  },
-  {
-    "hanzi": "煜",
-    "meanings": ["leuchtend","strahlend"],
-    "pinyin": "yù",
-    "tone": 4,
-    "components": [{ "radical": "火", "meaning": "Feuer" }, { "radical": "昱", "meaning": "Sonnenschein" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "煜煜", "pinyin": "yùyù", "meaning": "leuchtend" },
-      { "word": "煜耀", "pinyin": "yùyào", "meaning": "strahlend" }
-    ]
-  },
-  {
-    "hanzi": "狡",
-    "meanings": ["listig","verschlagen"],
-    "pinyin": "jiǎo",
-    "tone": 3,
-    "components": [{ "radical": "犭", "meaning": "Hund" }, { "radical": "交", "meaning": "kreuzen" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "狡猾", "pinyin": "jiǎohuá", "meaning": "listig" },
-      { "word": "狡辩", "pinyin": "jiǎobiàn", "meaning": "sich herausreden" }
-    ]
-  },
-  {
-    "hanzi": "狸",
-    "meanings": ["Luchs","Wildkatze"],
-    "pinyin": "lí",
-    "tone": 2,
-    "components": [{ "radical": "犭", "meaning": "Hund" }, { "radical": "里", "meaning": "Dorf" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "狐狸", "pinyin": "húli", "meaning": "Fuchs" },
-      { "word": "狸猫", "pinyin": "límāo", "meaning": "Wildkatze" }
-    ]
-  },
-  {
-    "hanzi": "珀",
-    "meanings": ["Bernstein"],
-    "pinyin": "pò",
-    "tone": 4,
-    "components": [{ "radical": "王", "meaning": "Jade" }, { "radical": "白", "meaning": "weiss" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "琥珀", "pinyin": "hǔpò", "meaning": "Bernstein" },
-      { "word": "珀色", "pinyin": "pòsè", "meaning": "bernsteinfarben" }
-    ]
-  },
-  {
-    "hanzi": "璞",
-    "meanings": ["roher Jade"],
-    "pinyin": "pú",
-    "tone": 2,
-    "components": [{ "radical": "王", "meaning": "Jade" }, { "radical": "菐", "meaning": "vielbeschaeftigt" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "璞玉", "pinyin": "púyù", "meaning": "ungeschliffener Jade" },
-      { "word": "返璞归真", "pinyin": "fǎnpúguīzhēn", "meaning": "zur Einfachheit" }
-    ]
-  },
-  {
-    "hanzi": "瓯",
-    "meanings": ["Tasse","Becher"],
-    "pinyin": "ōu",
-    "tone": 1,
-    "components": [{ "radical": "瓦", "meaning": "Ziegel" }, { "radical": "区", "meaning": "Bezirk" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "瓯江", "pinyin": "ōujiāng", "meaning": "Ou-Fluss" },
-      { "word": "瓯窑", "pinyin": "ōuyáo", "meaning": "Ou-Keramik" }
-    ]
-  },
-  {
-    "hanzi": "瘴",
-    "meanings": ["Malaria","Miasma"],
-    "pinyin": "zhàng",
-    "tone": 4,
-    "components": [{ "radical": "疒", "meaning": "Krankheit" }, { "radical": "章", "meaning": "Kapitel" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "瘴气", "pinyin": "zhàngqì", "meaning": "Miasma" },
-      { "word": "瘴疠", "pinyin": "zhànglì", "meaning": "Tropenkrankheit" }
-    ]
-  },
-  {
-    "hanzi": "睿",
-    "meanings": ["weise","scharfsinnig"],
-    "pinyin": "ruì",
-    "tone": 4,
-    "components": [{ "radical": "目", "meaning": "Auge" }, { "radical": "叡", "meaning": "weise" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "睿智", "pinyin": "ruìzhì", "meaning": "weise" },
-      { "word": "睿见", "pinyin": "ruìjiàn", "meaning": "scharfsinnige Einsicht" }
-    ]
-  },
-  {
-    "hanzi": "砥",
-    "meanings": ["Schleifstein","verfeinern"],
-    "pinyin": "dǐ",
-    "tone": 3,
-    "components": [{ "radical": "石", "meaning": "Stein" }, { "radical": "氐", "meaning": "Grundlage" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "砥砺", "pinyin": "dǐlì", "meaning": "sich haerten" },
-      { "word": "砥柱", "pinyin": "dǐzhù", "meaning": "Stuetze" }
-    ]
-  },
-  {
-    "hanzi": "磐",
-    "meanings": ["grosser Fels"],
-    "pinyin": "pán",
-    "tone": 2,
-    "components": [{ "radical": "石", "meaning": "Stein" }, { "radical": "般", "meaning": "allgemein" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "磐石", "pinyin": "pánshí", "meaning": "Fels" },
-      { "word": "坚如磐石", "pinyin": "jiānrúpánshí", "meaning": "felsenfest" }
-    ]
-  },
-  {
-    "hanzi": "祗",
-    "meanings": ["ehrfuerchtig","respektvoll"],
-    "pinyin": "zhī",
-    "tone": 1,
-    "components": [{ "radical": "礻", "meaning": "zeigen" }, { "radical": "氐", "meaning": "Grundlage" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "祗候", "pinyin": "zhīhòu", "meaning": "ehrfuerchtig warten" },
-      { "word": "祗敬", "pinyin": "zhījìng", "meaning": "ehrfuerchtig" }
-    ]
-  },
-  {
-    "hanzi": "禊",
-    "meanings": ["Reinigungszeremonie"],
-    "pinyin": "xì",
-    "tone": 4,
-    "components": [{ "radical": "礻", "meaning": "zeigen" }, { "radical": "契", "meaning": "Vertrag" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "修禊", "pinyin": "xiūxì", "meaning": "Reinigungszeremonie" },
-      { "word": "禊祓", "pinyin": "xìfú", "meaning": "rituelles Waschen" }
-    ]
-  },
-  {
-    "hanzi": "秾",
-    "meanings": ["ueppig","voll bluehend"],
-    "pinyin": "nóng",
-    "tone": 2,
-    "components": [{ "radical": "禾", "meaning": "Getreide" }, { "radical": "农", "meaning": "Bauer" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "秾丽", "pinyin": "nónglì", "meaning": "ueppig und schoen" },
-      { "word": "秾艳", "pinyin": "nóngyàn", "meaning": "farbenpraechtig" }
-    ]
-  },
-  {
-    "hanzi": "笺",
-    "meanings": ["Briefpapier","Anmerkung"],
-    "pinyin": "jiān",
-    "tone": 1,
-    "components": [{ "radical": "竹", "meaning": "Bambus" }, { "radical": "戋", "meaning": "schmal" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "笺注", "pinyin": "jiānzhù", "meaning": "kommentieren" },
-      { "word": "信笺", "pinyin": "xìnjiān", "meaning": "Briefpapier" }
-    ]
-  },
-  {
-    "hanzi": "箴",
-    "meanings": ["Ermahnung","warnen"],
-    "pinyin": "zhēn",
-    "tone": 1,
-    "components": [{ "radical": "竹", "meaning": "Bambus" }, { "radical": "咸", "meaning": "alle" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "箴言", "pinyin": "zhēnyán", "meaning": "Sprichwort" },
-      { "word": "箴规", "pinyin": "zhēnguī", "meaning": "ermahnen" }
-    ]
-  },
-  {
-    "hanzi": "粟",
-    "meanings": ["Hirse","Getreide"],
-    "pinyin": "sù",
-    "tone": 4,
-    "components": [{ "radical": "西", "meaning": "Westen" }, { "radical": "米", "meaning": "Reis" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "粟米", "pinyin": "sùmǐ", "meaning": "Hirse" },
-      { "word": "一粟", "pinyin": "yīsù", "meaning": "ein Korn" }
-    ]
-  },
-  {
-    "hanzi": "纨",
-    "meanings": ["feines Seidengewebe"],
-    "pinyin": "wán",
-    "tone": 2,
-    "components": [{ "radical": "纟", "meaning": "Faden" }, { "radical": "丸", "meaning": "Kugel" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "纨绔", "pinyin": "wánkù", "meaning": "verwoehnt" },
-      { "word": "纨扇", "pinyin": "wánshàn", "meaning": "Seidenfaecher" }
-    ]
-  },
-  {
-    "hanzi": "绛",
-    "meanings": ["dunkelrot","purpur"],
-    "pinyin": "jiàng",
-    "tone": 4,
-    "components": [{ "radical": "纟", "meaning": "Faden" }, { "radical": "降", "meaning": "sinken" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "绛色", "pinyin": "jiàngsè", "meaning": "dunkelrot" },
-      { "word": "绛紫", "pinyin": "jiàngzǐ", "meaning": "purpurrot" }
-    ]
-  },
-  {
-    "hanzi": "绾",
-    "meanings": ["zusammenbinden"],
-    "pinyin": "wǎn",
-    "tone": 3,
-    "components": [{ "radical": "纟", "meaning": "Faden" }, { "radical": "官", "meaning": "Beamter" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "绾发", "pinyin": "wǎnfà", "meaning": "Haar zusammenbinden" },
-      { "word": "绾结", "pinyin": "wǎnjié", "meaning": "verknuepfen" }
-    ]
-  },
-  {
-    "hanzi": "缬",
-    "meanings": ["gemustertes Tuch"],
-    "pinyin": "xié",
-    "tone": 2,
-    "components": [{ "radical": "纟", "meaning": "Faden" }, { "radical": "颉", "meaning": "abholen" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "缬纹", "pinyin": "xiéwén", "meaning": "Muster" },
-      { "word": "夹缬", "pinyin": "jiāxié", "meaning": "Batik" }
-    ]
-  },
-  {
-    "hanzi": "罹",
-    "meanings": ["leiden","befallen werden"],
-    "pinyin": "lí",
-    "tone": 2,
-    "components": [{ "radical": "罒", "meaning": "Netz" }, { "radical": "维", "meaning": "beibehalten" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "罹难", "pinyin": "línàn", "meaning": "ums Leben kommen" },
-      { "word": "罹病", "pinyin": "líbìng", "meaning": "erkranken" }
-    ]
-  },
-  {
-    "hanzi": "翕",
-    "meanings": ["zusammenziehen","harmonisch"],
-    "pinyin": "xī",
-    "tone": 1,
-    "components": [{ "radical": "合", "meaning": "zusammen" }, { "radical": "羽", "meaning": "Feder" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "翕动", "pinyin": "xīdòng", "meaning": "zucken" },
-      { "word": "翕然", "pinyin": "xīrán", "meaning": "harmonisch" }
-    ]
-  },
-  {
-    "hanzi": "聿",
-    "meanings": ["Schreibpinsel"],
-    "pinyin": "yù",
-    "tone": 4,
-    "components": [{ "radical": "肀", "meaning": "Pinsel" }, { "radical": "一", "meaning": "eins" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "聿修", "pinyin": "yùxiū", "meaning": "kultivieren" },
-      { "word": "不聿", "pinyin": "bùyù", "meaning": "unruhig" }
-    ]
-  },
-  {
-    "hanzi": "芮",
-    "meanings": ["klein","Flussufer"],
-    "pinyin": "ruì",
-    "tone": 4,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "内", "meaning": "innen" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "芮城", "pinyin": "ruìchéng", "meaning": "Ruicheng" },
-      { "word": "芮芮", "pinyin": "ruìruì", "meaning": "ueppig wachsend" }
-    ]
-  },
-  {
-    "hanzi": "茗",
-    "meanings": ["junger Tee","Tee"],
-    "pinyin": "míng",
-    "tone": 2,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "名", "meaning": "Name" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "品茗", "pinyin": "pǐnmíng", "meaning": "Tee degustieren" },
-      { "word": "茗茶", "pinyin": "míngchá", "meaning": "feiner Tee" }
-    ]
-  },
-  {
-    "hanzi": "荟",
-    "meanings": ["versammeln","Ansammlung"],
-    "pinyin": "huì",
-    "tone": 4,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "会", "meaning": "treffen" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "荟萃", "pinyin": "huìcuì", "meaning": "sich versammeln" },
-      { "word": "人才荟萃", "pinyin": "réncáihuìcuì", "meaning": "Talentversammlung" }
-    ]
-  },
-  {
-    "hanzi": "莅",
-    "meanings": ["ankommen","anwesend sein"],
-    "pinyin": "lì",
-    "tone": 4,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "位", "meaning": "Position" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "莅临", "pinyin": "lìlín", "meaning": "beehren" },
-      { "word": "莅会", "pinyin": "lìhuì", "meaning": "an Sitzung teilnehmen" }
-    ]
-  },
-  {
-    "hanzi": "萃",
-    "meanings": ["sammeln","Essenz"],
-    "pinyin": "cuì",
-    "tone": 4,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "卒", "meaning": "Soldat" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "荟萃", "pinyin": "huìcuì", "meaning": "sich versammeln" },
-      { "word": "萃取", "pinyin": "cuìqǔ", "meaning": "extrahieren" }
-    ]
-  },
-  {
-    "hanzi": "蒹",
-    "meanings": ["Schilf","Rohr"],
-    "pinyin": "jiān",
-    "tone": 1,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "兼", "meaning": "zugleich" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "蒹葭", "pinyin": "jiānjiā", "meaning": "Schilf" },
-      { "word": "蒹葭苍苍", "pinyin": "jiānjiācāngcāng", "meaning": "dichtes Schilf" }
-    ]
-  },
-  {
-    "hanzi": "蓦",
-    "meanings": ["ploetzlich","unerwartet"],
-    "pinyin": "mò",
-    "tone": 4,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "莫", "meaning": "nicht" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "蓦然", "pinyin": "mòrán", "meaning": "ploetzlich" },
-      { "word": "蓦地", "pinyin": "mòdì", "meaning": "ueberraschend" }
-    ]
-  },
-  {
-    "hanzi": "蛰",
-    "meanings": ["Winterschlaf halten"],
-    "pinyin": "zhé",
-    "tone": 2,
-    "components": [{ "radical": "执", "meaning": "halten" }, { "radical": "虫", "meaning": "Insekt" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "蛰伏", "pinyin": "zhéfú", "meaning": "sich verborgen halten" },
-      { "word": "惊蛰", "pinyin": "jīngzhé", "meaning": "Erwachen der Insekten" }
-    ]
-  },
-  {
-    "hanzi": "裴",
-    "meanings": ["Eigenname","lang"],
-    "pinyin": "péi",
-    "tone": 2,
-    "components": [{ "radical": "非", "meaning": "nicht" }, { "radical": "衣", "meaning": "Kleidung" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "裴回", "pinyin": "péihuí", "meaning": "umherwandern" },
-      { "word": "裴然", "pinyin": "péirán", "meaning": "ueppig" }
-    ]
-  },
-  {
-    "hanzi": "谧",
-    "meanings": ["ruhig","still"],
-    "pinyin": "mì",
-    "tone": 4,
-    "components": [{ "radical": "讠", "meaning": "Sprache" }, { "radical": "宓", "meaning": "ruhig" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "静谧", "pinyin": "jìngmì", "meaning": "ruhig" },
-      { "word": "安谧", "pinyin": "ānmì", "meaning": "friedlich" }
-    ]
-  },
-  {
-    "hanzi": "豫",
-    "meanings": ["vorher","freudig"],
-    "pinyin": "yù",
-    "tone": 4,
-    "components": [{ "radical": "予", "meaning": "geben" }, { "radical": "象", "meaning": "Elefant" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "犹豫", "pinyin": "yóuyù", "meaning": "zoegern" },
-      { "word": "豫备", "pinyin": "yùbèi", "meaning": "vorbereiten" }
-    ]
-  },
-  {
-    "hanzi": "赟",
-    "meanings": ["schoen","elegant"],
-    "pinyin": "yūn",
-    "tone": 1,
-    "components": [{ "radical": "文", "meaning": "Kultur" }, { "radical": "武", "meaning": "Kampf" }, { "radical": "贝", "meaning": "Muschel" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "赟赟", "pinyin": "yūnyūn", "meaning": "schoen" },
-      { "word": "赟然", "pinyin": "yūnrán", "meaning": "elegant" }
-    ]
-  },
-  {
-    "hanzi": "蹊",
-    "meanings": ["Pfad","Fussweg"],
-    "pinyin": "xī",
-    "tone": 1,
-    "components": [{ "radical": "足", "meaning": "Fuss" }, { "radical": "奚", "meaning": "warum" }],
-    "hsk": "HSK6",
-    "strokes": 17,
-    "examples": [
-      { "word": "蹊跷", "pinyin": "qīqiāo", "meaning": "seltsam" },
-      { "word": "蹊径", "pinyin": "xījìng", "meaning": "Pfad" }
-    ]
-  },
-  {
-    "hanzi": "辄",
-    "meanings": ["sofort","jedes Mal"],
-    "pinyin": "zhé",
-    "tone": 2,
-    "components": [{ "radical": "车", "meaning": "Wagen" }, { "radical": "耳", "meaning": "Ohr" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "动辄", "pinyin": "dòngzhé", "meaning": "bei jeder Gelegenheit" },
-      { "word": "辄止", "pinyin": "zhézhǐ", "meaning": "sofort aufhoeren" }
-    ]
-  },
-  {
-    "hanzi": "遒",
-    "meanings": ["kraftvoll","stark"],
-    "pinyin": "qiú",
-    "tone": 2,
-    "components": [{ "radical": "辶", "meaning": "gehen" }, { "radical": "酋", "meaning": "Stammeshaeuptling" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "遒劲", "pinyin": "qiújìng", "meaning": "kraftvoll" },
-      { "word": "遒健", "pinyin": "qiújiàn", "meaning": "kraeftig" }
-    ]
-  },
-  {
-    "hanzi": "邂",
-    "meanings": ["zufaellig treffen"],
-    "pinyin": "xiè",
-    "tone": 4,
-    "components": [{ "radical": "辶", "meaning": "gehen" }, { "radical": "解", "meaning": "loesen" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "邂逅", "pinyin": "xièhòu", "meaning": "zufaellige Begegnung" },
-      { "word": "邂逅相遇", "pinyin": "xièhòuxiāngyù", "meaning": "zufaellig treffen" }
-    ]
-  },
-  {
-    "hanzi": "铠",
-    "meanings": ["Ruestung","Panzer"],
-    "pinyin": "kǎi",
-    "tone": 3,
-    "components": [{ "radical": "钅", "meaning": "Metall" }, { "radical": "岂", "meaning": "etwa" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "铠甲", "pinyin": "kǎijiǎ", "meaning": "Ruestung" },
-      { "word": "披铠", "pinyin": "pīkǎi", "meaning": "Ruestung anlegen" }
-    ]
-  },
-  {
-    "hanzi": "霁",
-    "meanings": ["nach dem Regen aufklaren"],
-    "pinyin": "jì",
-    "tone": 4,
-    "components": [{ "radical": "雨", "meaning": "Regen" }, { "radical": "齐", "meaning": "gleich" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "雪霁", "pinyin": "xuějì", "meaning": "nach dem Schneefall" },
-      { "word": "霁月", "pinyin": "jìyuè", "meaning": "klarer Mond" }
-    ]
-  },
-  {
-    "hanzi": "韬",
-    "meanings": ["Schwertscheide","verbergen"],
-    "pinyin": "tāo",
-    "tone": 1,
-    "components": [{ "radical": "韦", "meaning": "Leder" }, { "radical": "舀", "meaning": "schoepfen" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "韬略", "pinyin": "tāolüè", "meaning": "Strategie" },
-      { "word": "韬光养晦", "pinyin": "tāoguāngyǎnghuì", "meaning": "sich bedeckt halten" }
-    ]
-  },
-  {
-    "hanzi": "骋",
-    "meanings": ["galoppieren","frei laufen"],
-    "pinyin": "chěng",
-    "tone": 3,
-    "components": [{ "radical": "马", "meaning": "Pferd" }, { "radical": "聘", "meaning": "einstellen" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "驰骋", "pinyin": "chíchěng", "meaning": "galoppieren" },
-      { "word": "骋目", "pinyin": "chěngmù", "meaning": "den Blick schweifen lassen" }
-    ]
-  },
-  {
-    "hanzi": "鸠",
-    "meanings": ["Turteltaube"],
-    "pinyin": "jiū",
-    "tone": 1,
-    "components": [{ "radical": "九", "meaning": "neun" }, { "radical": "鸟", "meaning": "Vogel" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "鸠占鹊巢", "pinyin": "jiūzhànquècháo", "meaning": "fremdes Nest besetzen" },
-      { "word": "斑鸠", "pinyin": "bānjiū", "meaning": "Turteltaube" }
-    ]
-  },
-  {
-    "hanzi": "隽",
-    "meanings": ["elegant","praegnant"],
-    "pinyin": "juàn",
-    "tone": 4,
-    "components": [{ "radical": "隹", "meaning": "Vogel" }, { "radical": "弓", "meaning": "Bogen" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "隽永", "pinyin": "juànyǒng", "meaning": "sinnreich" },
-      { "word": "隽秀", "pinyin": "juànxiù", "meaning": "elegant" }
-    ]
-  },
-  {
-    "hanzi": "颠",
-    "meanings": ["Gipfel","umstuerzen"],
-    "pinyin": "diān",
-    "tone": 1,
-    "components": [{ "radical": "真", "meaning": "wahr" }, { "radical": "页", "meaning": "Seite/Kopf" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "颠倒", "pinyin": "diāndǎo", "meaning": "umkehren" },
-      { "word": "颠覆", "pinyin": "diānfù", "meaning": "umstuerzend" }
-    ]
-  },
-  {
-    "hanzi": "藐",
-    "meanings": ["verachten","geringschaetzen"],
-    "pinyin": "miǎo",
-    "tone": 3,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "貌", "meaning": "Aussehen" }],
-    "hsk": "HSK6",
-    "strokes": 17,
-    "examples": [
-      { "word": "藐视", "pinyin": "miǎoshì", "meaning": "verachten" },
-      { "word": "藐小", "pinyin": "miǎoxiǎo", "meaning": "winzig" }
-    ]
-  },
-  {
-    "hanzi": "惰",
-    "meanings": ["traege","faul"],
-    "pinyin": "duò",
-    "tone": 4,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "隋", "meaning": "Sui-Dynastie" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "懒惰", "pinyin": "lǎnduò", "meaning": "faul" },
-      { "word": "惰性", "pinyin": "duòxìng", "meaning": "Traegheit" }
-    ]
-  },
-  {
-    "hanzi": "沮",
-    "meanings": ["entmutigt"],
-    "pinyin": "jǔ",
-    "tone": 3,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "且", "meaning": "ausserdem" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "沮丧", "pinyin": "jǔsàng", "meaning": "niedergeschlagen" },
-      { "word": "沮遏", "pinyin": "jǔè", "meaning": "verhindern" }
-    ]
-  },
-  {
-    "hanzi": "窘",
-    "meanings": ["verlegen","bedraengt"],
-    "pinyin": "jiǒng",
-    "tone": 3,
-    "components": [{ "radical": "穴", "meaning": "Hoehle" }, { "radical": "君", "meaning": "Herrscher" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "窘迫", "pinyin": "jiǒngpò", "meaning": "bedraengt" },
-      { "word": "窘境", "pinyin": "jiǒngjìng", "meaning": "Notlage" }
-    ]
-  },
-  {
-    "hanzi": "赘",
-    "meanings": ["ueberfluessig"],
-    "pinyin": "zhuì",
-    "tone": 4,
-    "components": [{ "radical": "敖", "meaning": "umherstreifen" }, { "radical": "贝", "meaning": "Muschel" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "累赘", "pinyin": "léizhuì", "meaning": "Last" },
-      { "word": "赘述", "pinyin": "zhuìshù", "meaning": "weitschweifig erzaehlen" }
-    ]
-  },
-  {
-    "hanzi": "矗",
-    "meanings": ["hoch aufragend"],
-    "pinyin": "chù",
-    "tone": 4,
-    "components": [{ "radical": "直", "meaning": "gerade" }],
-    "hsk": "HSK6",
-    "strokes": 24,
-    "examples": [
-      { "word": "矗立", "pinyin": "chùlì", "meaning": "hoch aufragen" },
-      { "word": "矗然", "pinyin": "chùrán", "meaning": "hoch emporragend" }
-    ]
-  },
-  {
-    "hanzi": "踌",
-    "meanings": ["zoegern"],
-    "pinyin": "chóu",
-    "tone": 2,
-    "components": [{ "radical": "足", "meaning": "Fuss" }, { "radical": "寿", "meaning": "Langlebigkeit" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "踌躇", "pinyin": "chóuchú", "meaning": "zoegern" },
-      { "word": "踌躇满志", "pinyin": "chóuchú mǎnzhì", "meaning": "selbstzufrieden" }
-    ]
-  },
-  {
-    "hanzi": "躇",
-    "meanings": ["zoegern","unentschlossen"],
-    "pinyin": "chú",
-    "tone": 2,
-    "components": [{ "radical": "足", "meaning": "Fuss" }, { "radical": "著", "meaning": "deutlich" }],
-    "hsk": "HSK6",
-    "strokes": 18,
-    "examples": [
-      { "word": "踌躇", "pinyin": "chóuchú", "meaning": "zoegern" },
-      { "word": "踟躇", "pinyin": "chíchú", "meaning": "hin und her gehen" }
-    ]
-  },
-  {
-    "hanzi": "翡",
-    "meanings": ["Jadeit"],
-    "pinyin": "fěi",
-    "tone": 3,
-    "components": [{ "radical": "非", "meaning": "nicht" }, { "radical": "羽", "meaning": "Feder" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "翡翠", "pinyin": "fěicuì", "meaning": "Jade" },
-      { "word": "翡翠绿", "pinyin": "fěicuìlǜ", "meaning": "Jadegruen" }
-    ]
-  },
-  {
-    "hanzi": "翠",
-    "meanings": ["smaragdgruen"],
-    "pinyin": "cuì",
-    "tone": 4,
-    "components": [{ "radical": "羽", "meaning": "Feder" }, { "radical": "卒", "meaning": "Soldat" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "翡翠", "pinyin": "fěicuì", "meaning": "Jade" },
-      { "word": "翠绿", "pinyin": "cuìlǜ", "meaning": "smaragdgruen" }
-    ]
-  },
-  {
-    "hanzi": "嗦",
-    "meanings": ["weitschweifig"],
-    "pinyin": "suō",
-    "tone": 1,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "索", "meaning": "Seil" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "啰嗦", "pinyin": "luōsuō", "meaning": "weitschweifig" },
-      { "word": "哆嗦", "pinyin": "duōsuō", "meaning": "zittern" }
-    ]
-  },
-  {
-    "hanzi": "淆",
-    "meanings": ["vermischen","verwirren"],
-    "pinyin": "xiáo",
-    "tone": 2,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "肴", "meaning": "Speise" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "混淆", "pinyin": "hùnxiáo", "meaning": "verwechseln" },
-      { "word": "淆乱", "pinyin": "xiáoluàn", "meaning": "Verwirrung stiften" }
-    ]
-  },
-  {
-    "hanzi": "渎",
-    "meanings": ["entweihen","Graben"],
-    "pinyin": "dú",
-    "tone": 2,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "卖", "meaning": "verkaufen" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "亵渎", "pinyin": "xièdú", "meaning": "entweihen" },
-      { "word": "渎职", "pinyin": "dúzhí", "meaning": "Pflichtverletzung" }
-    ]
-  },
-  {
-    "hanzi": "诬",
-    "meanings": ["faelschlich beschuldigen"],
-    "pinyin": "wū",
-    "tone": 1,
-    "components": [{ "radical": "讠", "meaning": "Sprache" }, { "radical": "巫", "meaning": "Hexe" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "诬陷", "pinyin": "wūxiàn", "meaning": "verleumden" },
-      { "word": "诬告", "pinyin": "wūgào", "meaning": "falsch anklagen" }
-    ]
-  },
-  {
-    "hanzi": "诫",
-    "meanings": ["ermahnen","warnen"],
-    "pinyin": "jiè",
-    "tone": 4,
-    "components": [{ "radical": "讠", "meaning": "Sprache" }, { "radical": "戒", "meaning": "sich hueten" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "告诫", "pinyin": "gàojiè", "meaning": "ermahnen" },
-      { "word": "训诫", "pinyin": "xùnjiè", "meaning": "zurechweisen" }
-    ]
-  },
-  {
-    "hanzi": "谴",
-    "meanings": ["verurteilen","tadeln"],
-    "pinyin": "qiǎn",
-    "tone": 3,
-    "components": [{ "radical": "讠", "meaning": "Sprache" }, { "radical": "遣", "meaning": "entsenden" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "谴责", "pinyin": "qiǎnzé", "meaning": "verurteilen" },
-      { "word": "谴怒", "pinyin": "qiǎnnù", "meaning": "zornig tadeln" }
-    ]
-  },
-  {
-    "hanzi": "庇",
-    "meanings": ["beschuetzen","Schutz gewaehren"],
-    "pinyin": "bì",
-    "tone": 4,
-    "components": [{ "radical": "广", "meaning": "Dach" }, { "radical": "比", "meaning": "vergleichen" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "庇护", "pinyin": "bìhù", "meaning": "Schutz gewaehren" },
-      { "word": "庇荫", "pinyin": "bìyìn", "meaning": "beschirmen" }
-    ]
-  },
-  {
-    "hanzi": "隘",
-    "meanings": ["eng","Engpass"],
-    "pinyin": "ài",
-    "tone": 4,
-    "components": [{ "radical": "阝", "meaning": "Huegel" }, { "radical": "益", "meaning": "Nutzen" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "狭隘", "pinyin": "xiáài", "meaning": "engherzig" },
-      { "word": "关隘", "pinyin": "guānài", "meaning": "Gebirgspass" }
-    ]
-  },
-  {
-    "hanzi": "粲",
-    "meanings": ["strahlend","glaenzend"],
-    "pinyin": "càn",
-    "tone": 4,
-    "components": [{ "radical": "米", "meaning": "Reis" }, { "radical": "残", "meaning": "grausam" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "粲然", "pinyin": "cànrán", "meaning": "strahlend" },
-      { "word": "粲笑", "pinyin": "cànxiào", "meaning": "strahlendes Laecheln" }
-    ]
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "role": "semantic",
+        "meaning": "Hand"
+      },
+      {
+        "part": "少",
+        "role": "phonetic",
+        "meaning": "wenig"
+      }
+    ],
+    "words": [
+      "w:抄:chao1",
+      "w:抄袭:chao1xi2",
+      "w:抄送:chao1song4"
+    ],
+    "evidence": {
+      "cedict": [
+        "chao1: to make a copy; to plagiarize; to search and seize; to raid; to grab"
+      ],
+      "handedict": [
+        "chao1: kopieren, abschreiben, plagiieren (V); durchsuchen und beschlagnahmen (V); ergreifen, erfassen (V)"
+      ],
+      "unihan": "039.160:chāo | chāo(70)",
+      "etymology": "pictophonetic: hand",
+      "old": "abschreiben; kopieren"
+    }
   },
   {
     "hanzi": "嘲",
-    "meanings": ["verspotten"],
-    "pinyin": "cháo",
-    "tone": 2,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "朝", "meaning": "Morgen" }],
-    "hsk": "HSK6",
+    "level": "HSK6",
+    "traditional": [
+      "嘲"
+    ],
+    "readings": [
+      {
+        "pinyin": "cháo",
+        "meaning": "verspotten"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 15,
-    "examples": [
-      { "word": "嘲笑", "pinyin": "cháoxiào", "meaning": "verspotten" },
-      { "word": "嘲讽", "pinyin": "cháofěng", "meaning": "verhoehnen" }
-    ]
+    "primaryRadical": "口",
+    "components": [
+      {
+        "part": "口",
+        "role": "semantic",
+        "meaning": "Mund"
+      },
+      {
+        "part": "朝",
+        "role": "phonetic",
+        "meaning": "Morgen"
+      }
+    ],
+    "words": [
+      "w:嘲笑:chao2xiao4",
+      "w:嘲弄:chao2nong4",
+      "w:嘲讽:chao2feng3",
+      "w:冷嘲热讽:leng3chao2re4feng3"
+    ],
+    "evidence": {
+      "cedict": [
+        "chao2: to ridicule; to mock"
+      ],
+      "handedict": [
+        "chao2: verspotten, lächerlich machen, verhöhnen (V)"
+      ],
+      "unihan": "040.090:cháo | cháo(28)",
+      "etymology": "pictophonetic: mouth",
+      "old": "verspotten"
+    }
   },
   {
-    "hanzi": "憧",
-    "meanings": ["sich sehnen"],
-    "pinyin": "chōng",
-    "tone": 1,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "童", "meaning": "Kind" }],
-    "hsk": "HSK6",
+    "hanzi": "潮",
+    "level": "HSK6",
+    "traditional": [
+      "潮"
+    ],
+    "readings": [
+      {
+        "pinyin": "cháo",
+        "meaning": "Gezeiten; Trend"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 15,
-    "examples": [
-      { "word": "憧憬", "pinyin": "chōngjǐng", "meaning": "sich sehnen nach" },
-      { "word": "憧憧", "pinyin": "chōngchōng", "meaning": "hin und her schwebend" }
-    ]
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "朝",
+        "role": "phonetic",
+        "meaning": "Dynastie"
+      }
+    ],
+    "words": [
+      "w:潮流:chao2liu2",
+      "w:潮湿:chao2shi1",
+      "w:潮:chao2",
+      "w:潮水:chao2shui3",
+      "w:高潮:gao1chao2"
+    ],
+    "evidence": {
+      "cedict": [
+        "chao2: tide; damp; moist; humid; fashionable; trendy; (coll.) inferior; substandard"
+      ],
+      "handedict": [
+        "chao2: Flut, Gezeiten, Ebbe und Flut (S, Geo); frech (Adj)"
+      ],
+      "unihan": "040.100:cháo | cháo(151)",
+      "etymology": "pictophonetic: water",
+      "old": "Gezeiten; Trend"
+    }
   },
   {
-    "hanzi": "憬",
-    "meanings": ["erwachen","sich bewusst werden"],
-    "pinyin": "jǐng",
-    "tone": 3,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "景", "meaning": "Landschaft" }],
-    "hsk": "HSK6",
+    "hanzi": "撤",
+    "level": "HSK6",
+    "traditional": [
+      "撤"
+    ],
+    "readings": [
+      {
+        "pinyin": "chè",
+        "meaning": "zurueckziehen; abziehen"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 15,
-    "examples": [
-      { "word": "憧憬", "pinyin": "chōngjǐng", "meaning": "Sehnsucht" },
-      { "word": "憬悟", "pinyin": "jǐngwù", "meaning": "ploetzlich begreifen" }
-    ]
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "meaning": "Hand"
+      },
+      {
+        "part": "育",
+        "meaning": "erziehen"
+      },
+      {
+        "part": "攵",
+        "meaning": "schlagen, klopfen"
+      }
+    ],
+    "words": [
+      "w:撤回:che4hui2",
+      "w:撤销:che4xiao1",
+      "w:撤:che4",
+      "w:撤离:che4li2",
+      "w:撤退:che4tui4"
+    ],
+    "evidence": {
+      "cedict": [
+        "che4: to remove; to take away"
+      ],
+      "handedict": [
+        "che4: entfernen, wegnehmen, zurücktreten (V)"
+      ],
+      "unihan": "041.060:chè | chè(82)",
+      "old": "zurueckziehen; abziehen"
+    }
   },
   {
-    "hanzi": "蹒",
-    "meanings": ["humpeln","watscheln"],
-    "pinyin": "pán",
-    "tone": 2,
-    "components": [{ "radical": "足", "meaning": "Fuss" }, { "radical": "满", "meaning": "voll" }],
-    "hsk": "HSK6",
-    "strokes": 17,
-    "examples": [
-      { "word": "蹒跚", "pinyin": "pánshān", "meaning": "watscheln" },
-      { "word": "蹒跚学步", "pinyin": "pánshān xuébù", "meaning": "erste Gehversuche" }
-    ]
-  },
-  {
-    "hanzi": "跚",
-    "meanings": ["schleppend gehen"],
-    "pinyin": "shān",
-    "tone": 1,
-    "components": [{ "radical": "足", "meaning": "Fuss" }, { "radical": "册", "meaning": "Band/Buch" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "蹒跚", "pinyin": "pánshān", "meaning": "watscheln" },
-      { "word": "跚跚", "pinyin": "shānshān", "meaning": "muehsam gehend" }
-    ]
-  },
-  {
-    "hanzi": "赡",
-    "meanings": ["unterstuetzen","ernaehren"],
-    "pinyin": "shàn",
-    "tone": 4,
-    "components": [{ "radical": "贝", "meaning": "Muschel" }, { "radical": "詹", "meaning": "ausfuehrlich" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "赡养", "pinyin": "shànyǎng", "meaning": "unterhalten (Eltern)" },
-      { "word": "赡养费", "pinyin": "shànyǎngfèi", "meaning": "Unterhaltsgeld" }
-    ]
-  },
-  {
-    "hanzi": "阐",
-    "meanings": ["erlaeutern","darlegen"],
-    "pinyin": "chǎn",
-    "tone": 3,
-    "components": [{ "radical": "门", "meaning": "Tor" }, { "radical": "单", "meaning": "einzeln" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "阐述", "pinyin": "chǎnshù", "meaning": "darlegen" },
-      { "word": "阐明", "pinyin": "chǎnmíng", "meaning": "klar erlaeutern" }
-    ]
-  },
-  {
-    "hanzi": "阔",
-    "meanings": ["breit","weit"],
-    "pinyin": "kuò",
-    "tone": 4,
-    "components": [{ "radical": "门", "meaning": "Tor" }, { "radical": "活", "meaning": "leben" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "辽阔", "pinyin": "liáokuò", "meaning": "weitlaeufig" },
-      { "word": "广阔", "pinyin": "guǎngkuò", "meaning": "weitraeumig" }
-    ]
-  },
-  {
-    "hanzi": "蕴",
-    "meanings": ["enthalten","bergen"],
-    "pinyin": "yùn",
-    "tone": 4,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "温", "meaning": "warm" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "蕴含", "pinyin": "yùnhán", "meaning": "in sich bergen" },
-      { "word": "底蕴", "pinyin": "dǐyùn", "meaning": "innere Substanz" }
-    ]
-  },
-  {
-    "hanzi": "缔",
-    "meanings": ["schliessen","gruenden"],
-    "pinyin": "dì",
-    "tone": 4,
-    "components": [{ "radical": "纟", "meaning": "Seide" }, { "radical": "帝", "meaning": "Kaiser" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "缔造", "pinyin": "dìzào", "meaning": "gruenden" },
-      { "word": "缔结", "pinyin": "dìjié", "meaning": "abschliessen (Vertrag)" }
-    ]
-  },
-  {
-    "hanzi": "缰",
-    "meanings": ["Zuegel"],
-    "pinyin": "jiāng",
-    "tone": 1,
-    "components": [{ "radical": "纟", "meaning": "Seide" }, { "radical": "畺", "meaning": "Grenze" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "缰绳", "pinyin": "jiāngshéng", "meaning": "Zuegel" },
-      { "word": "脱缰", "pinyin": "tuōjiāng", "meaning": "sich losreissen" }
-    ]
-  },
-  {
-    "hanzi": "绮",
-    "meanings": ["bunt gewebt","prachtvoll"],
-    "pinyin": "qǐ",
-    "tone": 3,
-    "components": [{ "radical": "纟", "meaning": "Seide" }, { "radical": "奇", "meaning": "seltsam" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "绮丽", "pinyin": "qǐlì", "meaning": "farbenpraechtigt" },
-      { "word": "绮罗", "pinyin": "qǐluó", "meaning": "feine Seide" }
-    ]
-  },
-  {
-    "hanzi": "恤",
-    "meanings": ["Mitleid haben","Hilfe"],
-    "pinyin": "xù",
-    "tone": 4,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "血", "meaning": "Blut" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "体恤", "pinyin": "tǐxù", "meaning": "Mitgefuehl zeigen" },
-      { "word": "抚恤", "pinyin": "fǔxù", "meaning": "Hinterbliebenenrente" }
-    ]
-  },
-  {
-    "hanzi": "怯",
-    "meanings": ["furchtsam","schuechtern"],
-    "pinyin": "qiè",
-    "tone": 4,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "去", "meaning": "gehen" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "胆怯", "pinyin": "dǎnqiè", "meaning": "furchtsam" },
-      { "word": "怯懦", "pinyin": "qiènuò", "meaning": "feige" }
-    ]
-  },
-  {
-    "hanzi": "拮",
-    "meanings": ["knapp","bedraengt"],
-    "pinyin": "jié",
-    "tone": 2,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "吉", "meaning": "Glueck" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "拮据", "pinyin": "jiéjū", "meaning": "in Geldnot" },
-      { "word": "拮抗", "pinyin": "jiékàng", "meaning": "antagonistisch" }
-    ]
-  },
-  {
-    "hanzi": "斟",
-    "meanings": ["einschenken","erwaegen"],
-    "pinyin": "zhēn",
-    "tone": 1,
-    "components": [{ "radical": "斗", "meaning": "Scheffel" }, { "radical": "甚", "meaning": "sehr" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "斟酌", "pinyin": "zhēnzhuó", "meaning": "sorgfaeltig abwaegen" },
-      { "word": "斟茶", "pinyin": "zhēnchá", "meaning": "Tee einschenken" }
-    ]
-  },
-  {
-    "hanzi": "懈",
-    "meanings": ["nachlassen","erschlaffen"],
-    "pinyin": "xiè",
-    "tone": 4,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "解", "meaning": "loesen" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "懈怠", "pinyin": "xièdài", "meaning": "nachlaessig" },
-      { "word": "不懈", "pinyin": "búxiè", "meaning": "unablaessig" }
-    ]
-  },
-  {
-    "hanzi": "懊",
-    "meanings": ["reuig","aergerlich"],
-    "pinyin": "ào",
-    "tone": 4,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "奥", "meaning": "tief/geheimnisvoll" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "懊悔", "pinyin": "àohuǐ", "meaning": "bereuen" },
-      { "word": "懊恼", "pinyin": "àonǎo", "meaning": "sich aergern" }
-    ]
-  },
-  {
-    "hanzi": "璀",
-    "meanings": ["funkelnd","glaenzend"],
-    "pinyin": "cuǐ",
-    "tone": 3,
-    "components": [{ "radical": "王", "meaning": "Jade/Koenig" }, { "radical": "崔", "meaning": "hoch" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "璀璨", "pinyin": "cuǐcàn", "meaning": "funkelnd" },
-      { "word": "璀璨夺目", "pinyin": "cuǐcàn duómù", "meaning": "blendend" }
-    ]
-  },
-  {
-    "hanzi": "璨",
-    "meanings": ["strahlend","glaenzend"],
-    "pinyin": "càn",
-    "tone": 4,
-    "components": [{ "radical": "王", "meaning": "Jade/Koenig" }, { "radical": "粲", "meaning": "glaenzend" }],
-    "hsk": "HSK6",
-    "strokes": 17,
-    "examples": [
-      { "word": "璀璨", "pinyin": "cuǐcàn", "meaning": "funkelnd" },
-      { "word": "灿璨", "pinyin": "càncàn", "meaning": "glaenzend" }
-    ]
-  },
-  {
-    "hanzi": "鼎",
-    "meanings": ["Dreifusskessel","Ding"],
-    "pinyin": "dǐng",
-    "tone": 3,
-    "components": [{ "radical": "目", "meaning": "Auge" }, { "radical": "鼎", "meaning": "Dreifuss" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "鼎盛", "pinyin": "dǐngshèng", "meaning": "Bluetezeit" },
-      { "word": "鼎力", "pinyin": "dǐnglì", "meaning": "kraeftige Unterstuetzung" }
-    ]
-  },
-  {
-    "hanzi": "铿",
-    "meanings": ["klingend","metallisch toenend"],
-    "pinyin": "kēng",
-    "tone": 1,
-    "components": [{ "radical": "钅", "meaning": "Metall" }, { "radical": "坚", "meaning": "fest" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "铿锵", "pinyin": "kēngqiāng", "meaning": "klangvoll" },
-      { "word": "铿然", "pinyin": "kēngrán", "meaning": "metallisch klingend" }
-    ]
-  },
-  {
-    "hanzi": "锵",
-    "meanings": ["klingend","schallend"],
-    "pinyin": "qiāng",
-    "tone": 1,
-    "components": [{ "radical": "钅", "meaning": "Metall" }, { "radical": "将", "meaning": "werden" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "铿锵", "pinyin": "kēngqiāng", "meaning": "klangvoll" },
-      { "word": "锵锵", "pinyin": "qiāngqiāng", "meaning": "klirrend" }
-    ]
-  },
-  {
-    "hanzi": "暧",
-    "meanings": ["daemmerig","zweideutig"],
-    "pinyin": "ài",
-    "tone": 4,
-    "components": [{ "radical": "日", "meaning": "Sonne" }, { "radical": "爱", "meaning": "Liebe" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "暧昧", "pinyin": "àimèi", "meaning": "zweideutig" },
-      { "word": "暧然", "pinyin": "àirán", "meaning": "daemmernd" }
-    ]
-  },
-  {
-    "hanzi": "昧",
-    "meanings": ["dunkel","unwissend"],
-    "pinyin": "mèi",
-    "tone": 4,
-    "components": [{ "radical": "日", "meaning": "Sonne" }, { "radical": "未", "meaning": "noch nicht" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "暧昧", "pinyin": "àimèi", "meaning": "zweideutig" },
-      { "word": "愚昧", "pinyin": "yúmèi", "meaning": "unwissend" }
-    ]
-  },
-  {
-    "hanzi": "馈",
-    "meanings": ["schenken","beschenken"],
-    "pinyin": "kuì",
-    "tone": 4,
-    "components": [{ "radical": "饣", "meaning": "Essen" }, { "radical": "贵", "meaning": "teuer" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "馈赠", "pinyin": "kuìzèng", "meaning": "beschenken" },
-      { "word": "反馈", "pinyin": "fǎnkuì", "meaning": "Rueckmeldung" }
-    ]
-  },
-  {
-    "hanzi": "馒",
-    "meanings": ["gedaempftes Broetchen"],
-    "pinyin": "mán",
-    "tone": 2,
-    "components": [{ "radical": "饣", "meaning": "Essen" }, { "radical": "曼", "meaning": "lang/weit" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "馒头", "pinyin": "mántou", "meaning": "Dampfbroetchen" },
-      { "word": "蒸馒头", "pinyin": "zhēng mántou", "meaning": "Dampfbroetchen daempfen" }
-    ]
-  },
-  {
-    "hanzi": "褐",
-    "meanings": ["braun"],
-    "pinyin": "hè",
-    "tone": 4,
-    "components": [{ "radical": "衤", "meaning": "Kleidung" }, { "radical": "曷", "meaning": "warum" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "褐色", "pinyin": "hèsè", "meaning": "braun" },
-      { "word": "褐煤", "pinyin": "hèméi", "meaning": "Braunkohle" }
-    ]
-  },
-  {
-    "hanzi": "褪",
-    "meanings": ["verblassen","ablegen"],
-    "pinyin": "tuì",
-    "tone": 4,
-    "components": [{ "radical": "衤", "meaning": "Kleidung" }, { "radical": "退", "meaning": "zuruecktreten" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "褪色", "pinyin": "tuìsè", "meaning": "verblassen" },
-      { "word": "褪去", "pinyin": "tuìqù", "meaning": "ablegen" }
-    ]
-  },
-  {
-    "hanzi": "潜",
-    "meanings": ["tauchen","verborgen"],
-    "pinyin": "qián",
-    "tone": 2,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "替", "meaning": "ersetzen" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "潜力", "pinyin": "qiánlì", "meaning": "Potenzial" },
-      { "word": "潜伏", "pinyin": "qiánfú", "meaning": "sich verborgen halten" }
-    ]
-  },
-  {
-    "hanzi": "澈",
-    "meanings": ["klar","durchsichtig"],
-    "pinyin": "chè",
-    "tone": 4,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "彻", "meaning": "gruendlich" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "清澈", "pinyin": "qīngchè", "meaning": "kristallklar" },
-      { "word": "澄澈", "pinyin": "chéngchè", "meaning": "lauter und klar" }
-    ]
-  },
-  {
-    "hanzi": "瀑",
-    "meanings": ["Wasserfall"],
-    "pinyin": "pù",
-    "tone": 4,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "暴", "meaning": "heftig" }],
-    "hsk": "HSK6",
-    "strokes": 18,
-    "examples": [
-      { "word": "瀑布", "pinyin": "pùbù", "meaning": "Wasserfall" },
-      { "word": "飞瀑", "pinyin": "fēipù", "meaning": "stuerzender Wasserfall" }
-    ]
-  },
-  {
-    "hanzi": "屡",
-    "meanings": ["wiederholt","mehrfach"],
-    "pinyin": "lǚ",
-    "tone": 3,
-    "components": [{ "radical": "尸", "meaning": "Koerper" }, { "radical": "娄", "meaning": "Stern" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "屡次", "pinyin": "lǚcì", "meaning": "wiederholt" },
-      { "word": "屡见不鲜", "pinyin": "lǚjiàn bùxiān", "meaning": "nichts Neues mehr" }
-    ]
-  },
-  {
-    "hanzi": "奠",
-    "meanings": ["gruenden","Opfer darbringen"],
-    "pinyin": "diàn",
-    "tone": 4,
-    "components": [{ "radical": "酋", "meaning": "Haeuptling" }, { "radical": "大", "meaning": "gross" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "奠基", "pinyin": "diànjī", "meaning": "Grundstein legen" },
-      { "word": "奠定", "pinyin": "diàndìng", "meaning": "festlegen" }
-    ]
-  },
-  {
-    "hanzi": "弥",
-    "meanings": ["fuellen","durchdringen"],
-    "pinyin": "mí",
-    "tone": 2,
-    "components": [{ "radical": "弓", "meaning": "Bogen" }, { "radical": "尔", "meaning": "du" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "弥补", "pinyin": "míbǔ", "meaning": "ausgleichen" },
-      { "word": "弥漫", "pinyin": "mímàn", "meaning": "durchdringen" }
-    ]
-  },
-  {
-    "hanzi": "驰",
-    "meanings": ["galoppieren","rasen"],
-    "pinyin": "chí",
-    "tone": 2,
-    "components": [{ "radical": "马", "meaning": "Pferd" }, { "radical": "也", "meaning": "auch" }],
-    "hsk": "HSK6",
+    "hanzi": "臣",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "臣"
+    ],
+    "readings": [
+      {
+        "pinyin": "chén",
+        "meaning": "Minister; Untertan"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 6,
-    "examples": [
-      { "word": "奔驰", "pinyin": "bēnchí", "meaning": "galoppieren" },
-      { "word": "驰名", "pinyin": "chímíng", "meaning": "beruehmtd" }
-    ]
+    "primaryRadical": "臣",
+    "components": [
+      {
+        "part": "匚",
+        "meaning": "Kasten, Behälter"
+      },
+      {
+        "part": "丨",
+        "meaning": "vertikaler Strich"
+      },
+      {
+        "part": "𠃍"
+      },
+      {
+        "part": "一",
+        "meaning": "eins, horizontal"
+      }
+    ],
+    "words": [
+      "w:大臣:da4chen2",
+      "w:功臣:gong1chen2",
+      "w:佞臣:ning4chen2"
+    ],
+    "evidence": {
+      "cedict": [
+        "chen2: surname Chen; state official or subject in dynastic China; I, your servant (used in addressing the sovereign); Kangxi radical 131"
+      ],
+      "handedict": [
+        "chen2: Würdenträger (S); Beamter (S); Vasall (S); Radikal Nr. 131 = Diener, Minister, Untertan (Sprachw)"
+      ],
+      "unihan": "041.160:chén | chén(15)",
+      "old": "Minister; Untertan"
+    }
   },
   {
-    "hanzi": "骏",
-    "meanings": ["edles Pferd","hervorragend"],
-    "pinyin": "jùn",
-    "tone": 4,
-    "components": [{ "radical": "马", "meaning": "Pferd" }, { "radical": "俊", "meaning": "talentiert" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "骏马", "pinyin": "jùnmǎ", "meaning": "edles Pferd" },
-      { "word": "骏杰", "pinyin": "jùnjié", "meaning": "herausragend" }
-    ]
-  },
-  {
-    "hanzi": "柬",
-    "meanings": ["Einladungskarte","auswaehlen"],
-    "pinyin": "jiǎn",
-    "tone": 3,
-    "components": [{ "radical": "木", "meaning": "Holz" }, { "radical": "东", "meaning": "Osten" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "请柬", "pinyin": "qǐngjiǎn", "meaning": "Einladungskarte" },
-      { "word": "柬埔寨", "pinyin": "Jiǎnpǔzhài", "meaning": "Kambodscha" }
-    ]
-  },
-  {
-    "hanzi": "棘",
-    "meanings": ["Dorn","heikel"],
-    "pinyin": "jí",
-    "tone": 2,
-    "components": [{ "radical": "朿", "meaning": "Dorn" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "棘手", "pinyin": "jíshǒu", "meaning": "heikel" },
-      { "word": "荆棘", "pinyin": "jīngjí", "meaning": "Dornengestruepp" }
-    ]
-  },
-  {
-    "hanzi": "榆",
-    "meanings": ["Ulme"],
-    "pinyin": "yú",
-    "tone": 2,
-    "components": [{ "radical": "木", "meaning": "Holz" }, { "radical": "俞", "meaning": "antworten" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "榆树", "pinyin": "yúshù", "meaning": "Ulme" },
-      { "word": "榆木", "pinyin": "yúmù", "meaning": "Ulmenholz" }
-    ]
-  },
-  {
-    "hanzi": "慷",
-    "meanings": ["grossmuetig","erregt"],
-    "pinyin": "kāng",
-    "tone": 1,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "康", "meaning": "Gesundheit" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "慷慨", "pinyin": "kāngkǎi", "meaning": "grosszuegig" },
-      { "word": "慷慨激昂", "pinyin": "kāngkǎi jīáng", "meaning": "leidenschaftlich" }
-    ]
-  },
-  {
-    "hanzi": "慨",
-    "meanings": ["empoert","seufzen"],
-    "pinyin": "kǎi",
-    "tone": 3,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "既", "meaning": "bereits" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "慷慨", "pinyin": "kāngkǎi", "meaning": "grosszuegig" },
-      { "word": "感慨", "pinyin": "gǎnkǎi", "meaning": "tiefe Ruehrung" }
-    ]
-  },
-  {
-    "hanzi": "惕",
-    "meanings": ["wachsam","vorsichtig"],
-    "pinyin": "tì",
-    "tone": 4,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "易", "meaning": "leicht" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "警惕", "pinyin": "jǐngtì", "meaning": "wachsam sein" },
-      { "word": "惕然", "pinyin": "tìrán", "meaning": "aufgeschreckt" }
-    ]
-  },
-  {
-    "hanzi": "悼",
-    "meanings": ["trauern","betrauern"],
-    "pinyin": "dào",
-    "tone": 4,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "卓", "meaning": "herausragend" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "悼念", "pinyin": "dàoniàn", "meaning": "gedenken" },
-      { "word": "哀悼", "pinyin": "āidào", "meaning": "Trauer" }
-    ]
-  },
-  {
-    "hanzi": "迂",
-    "meanings": ["umstaendlich","pedantisch"],
-    "pinyin": "yū",
-    "tone": 1,
-    "components": [{ "radical": "辶", "meaning": "gehen" }, { "radical": "于", "meaning": "an/bei" }],
-    "hsk": "HSK6",
+    "hanzi": "尘",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "塵"
+    ],
+    "readings": [
+      {
+        "pinyin": "chén",
+        "meaning": "Erde, Asche; Staub, Schmutz"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 6,
-    "examples": [
-      { "word": "迂回", "pinyin": "yūhuí", "meaning": "Umweg" },
-      { "word": "迂腐", "pinyin": "yūfǔ", "meaning": "pedantisch" }
-    ]
+    "primaryRadical": "小",
+    "components": [
+      {
+        "part": "小",
+        "meaning": "klein"
+      },
+      {
+        "part": "土",
+        "meaning": "Erde"
+      }
+    ],
+    "words": [
+      "w:灰尘:hui1chen2",
+      "w:吸尘器:xi1chen2qi4",
+      "w:望尘莫及:wang4chen2mo4ji2"
+    ],
+    "evidence": {
+      "cedict": [
+        "chen2: dust; dirt; earth"
+      ],
+      "handedict": [
+        "chen2: Erde, Asche (S); Staub, Schmutz (S)"
+      ],
+      "unihan": "041.170:chén | chén(81)",
+      "etymology": "ideographic: Small 小 flakes of earth 土"
+    }
   },
   {
-    "hanzi": "逾",
-    "meanings": ["ueberschreiten"],
-    "pinyin": "yú",
-    "tone": 2,
-    "components": [{ "radical": "辶", "meaning": "gehen" }, { "radical": "俞", "meaning": "antworten" }],
-    "hsk": "HSK6",
+    "hanzi": "趁",
+    "level": "HSK6",
+    "traditional": [
+      "趁"
+    ],
+    "readings": [
+      {
+        "pinyin": "chèn",
+        "meaning": "nutzen (Gelegenheit)"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 12,
-    "examples": [
-      { "word": "逾越", "pinyin": "yúyuè", "meaning": "ueberschreiten" },
-      { "word": "逾期", "pinyin": "yúqī", "meaning": "ueberfaellig" }
-    ]
+    "primaryRadical": "走",
+    "components": [
+      {
+        "part": "走",
+        "role": "semantic",
+        "meaning": "gehen"
+      },
+      {
+        "part": "㐱",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:趁:chen4",
+      "w:趁机:chen4ji1",
+      "w:趁早:chen4zao3",
+      "w:趁火打劫:chen4huo3da3jie2"
+    ],
+    "evidence": {
+      "cedict": [
+        "chen4: to avail oneself of; to take advantage of; old variant of 趁[chen4]"
+      ],
+      "handedict": [
+        "chen4: nutzen, ausnutzen (V); anlässlich (P); während, solange (Konj)"
+      ],
+      "unihan": "042.140:chèn | chèn(84)",
+      "etymology": "pictophonetic: walk",
+      "old": "nutzen (Gelegenheit)"
+    }
   },
   {
-    "hanzi": "饶",
-    "meanings": ["reichlich","verschonen"],
-    "pinyin": "ráo",
-    "tone": 2,
-    "components": [{ "radical": "饣", "meaning": "Essen" }, { "radical": "尧", "meaning": "Kaiser Yao" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "丰饶", "pinyin": "fēngráo", "meaning": "reichlich" },
-      { "word": "饶恕", "pinyin": "ráoshù", "meaning": "vergeben" }
-    ]
-  },
-  {
-    "hanzi": "颁",
-    "meanings": ["verkuenden","verleihen"],
-    "pinyin": "bān",
-    "tone": 1,
-    "components": [{ "radical": "分", "meaning": "teilen" }, { "radical": "页", "meaning": "Seite/Kopf" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "颁发", "pinyin": "bānfā", "meaning": "verleihen" },
-      { "word": "颁布", "pinyin": "bānbù", "meaning": "verkuenden" }
-    ]
-  },
-  {
-    "hanzi": "颓",
-    "meanings": ["verfallen","niedergeschlagen"],
-    "pinyin": "tuí",
-    "tone": 2,
-    "components": [{ "radical": "秃", "meaning": "kahl" }, { "radical": "页", "meaning": "Seite/Kopf" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "颓废", "pinyin": "tuífèi", "meaning": "dekadent" },
-      { "word": "颓势", "pinyin": "tuíshì", "meaning": "Abwaertstrend" }
-    ]
-  },
-  {
-    "hanzi": "肆",
-    "meanings": ["zugellos","Geschaeft"],
-    "pinyin": "sì",
-    "tone": 4,
-    "components": [{ "radical": "聿", "meaning": "Pinsel" }, { "radical": "长", "meaning": "lang" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "放肆", "pinyin": "fàngsì", "meaning": "zugellos" },
-      { "word": "肆意", "pinyin": "sìyì", "meaning": "willkuerlich" }
-    ]
-  },
-  {
-    "hanzi": "衷",
-    "meanings": ["aufrichtig","innerlich"],
-    "pinyin": "zhōng",
-    "tone": 1,
-    "components": [{ "radical": "衣", "meaning": "Kleidung" }, { "radical": "中", "meaning": "Mitte" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "衷心", "pinyin": "zhōngxīn", "meaning": "aufrichtig" },
-      { "word": "由衷", "pinyin": "yóuzhōng", "meaning": "von Herzen" }
-    ]
-  },
-  {
-    "hanzi": "癖",
-    "meanings": ["Marotte","Sucht"],
-    "pinyin": "pǐ",
-    "tone": 3,
-    "components": [{ "radical": "疒", "meaning": "Krankheit" }, { "radical": "辟", "meaning": "oeffnen" }],
-    "hsk": "HSK6",
-    "strokes": 18,
-    "examples": [
-      { "word": "癖好", "pinyin": "pǐhào", "meaning": "Vorliebe" },
-      { "word": "洁癖", "pinyin": "jiépǐ", "meaning": "Sauberkeitszwang" }
-    ]
-  },
-  {
-    "hanzi": "瘸",
-    "meanings": ["hinkend","lahm"],
-    "pinyin": "qué",
-    "tone": 2,
-    "components": [{ "radical": "疒", "meaning": "Krankheit" }, { "radical": "却", "meaning": "aber" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "瘸腿", "pinyin": "quétuǐ", "meaning": "hinkendes Bein" },
-      { "word": "瘸子", "pinyin": "quézi", "meaning": "Hinkender" }
-    ]
-  },
-  {
-    "hanzi": "嫉",
-    "meanings": ["eifersuechtigt","neidisch"],
-    "pinyin": "jí",
-    "tone": 2,
-    "components": [{ "radical": "女", "meaning": "Frau" }, { "radical": "疾", "meaning": "Krankheit" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "嫉妒", "pinyin": "jídù", "meaning": "neidisch sein" },
-      { "word": "嫉恨", "pinyin": "jíhèn", "meaning": "eifersuechtiger Hass" }
-    ]
-  },
-  {
-    "hanzi": "嫣",
-    "meanings": ["anmutig","huebsch"],
-    "pinyin": "yān",
-    "tone": 1,
-    "components": [{ "radical": "女", "meaning": "Frau" }, { "radical": "焉", "meaning": "wo/wie" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "嫣然", "pinyin": "yānrán", "meaning": "anmutig laechelnd" },
-      { "word": "嫣红", "pinyin": "yānhóng", "meaning": "leuchtend rot" }
-    ]
-  },
-  {
-    "hanzi": "娇",
-    "meanings": ["zart","verwoehnt"],
-    "pinyin": "jiāo",
-    "tone": 1,
-    "components": [{ "radical": "女", "meaning": "Frau" }, { "radical": "乔", "meaning": "hoch" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "娇气", "pinyin": "jiāoqì", "meaning": "verwoehnt" },
-      { "word": "撒娇", "pinyin": "sājiāo", "meaning": "sich anschmiegen" }
-    ]
-  },
-  {
-    "hanzi": "肖",
-    "meanings": ["aehneln","Abbild"],
-    "pinyin": "xiào",
-    "tone": 4,
-    "components": [{ "radical": "小", "meaning": "klein" }, { "radical": "月", "meaning": "Mond" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "肖像", "pinyin": "xiàoxiàng", "meaning": "Portraet" },
-      { "word": "不肖", "pinyin": "búxiào", "meaning": "unwuerdig" }
-    ]
-  },
-  {
-    "hanzi": "喧",
-    "meanings": ["laermen","laermend"],
-    "pinyin": "xuān",
-    "tone": 1,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "宣", "meaning": "verkuenden" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "喧哗", "pinyin": "xuānhuá", "meaning": "Laerm" },
-      { "word": "喧闹", "pinyin": "xuānnào", "meaning": "laermend" }
-    ]
-  },
-  {
-    "hanzi": "壹",
-    "meanings": ["eins (Grossschreibung)"],
-    "pinyin": "yī",
-    "tone": 1,
-    "components": [{ "radical": "士", "meaning": "Gelehrter" }, { "radical": "豆", "meaning": "Bohne" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "壹佰", "pinyin": "yībǎi", "meaning": "einhundert (formell)" },
-      { "word": "壹万", "pinyin": "yīwàn", "meaning": "zehntausend (formell)" }
-    ]
-  },
-  {
-    "hanzi": "贰",
-    "meanings": ["zwei (Grossschreibung)"],
-    "pinyin": "èr",
-    "tone": 4,
-    "components": [{ "radical": "二", "meaning": "zwei" }, { "radical": "贝", "meaning": "Muschel" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "贰佰", "pinyin": "èrbǎi", "meaning": "zweihundert (formell)" },
-      { "word": "贰心", "pinyin": "èrxīn", "meaning": "Untreue" }
-    ]
-  },
-  {
-    "hanzi": "叁",
-    "meanings": ["drei (Grossschreibung)"],
-    "pinyin": "sān",
-    "tone": 1,
-    "components": [{ "radical": "厶", "meaning": "privat" }, { "radical": "三", "meaning": "drei" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "叁佰", "pinyin": "sānbǎi", "meaning": "dreihundert (formell)" },
-      { "word": "叁万", "pinyin": "sānwàn", "meaning": "dreissigtausend (formell)" }
-    ]
-  },
-  {
-    "hanzi": "伍",
-    "meanings": ["fuenf (Grossschreibung)","Trupp"],
-    "pinyin": "wǔ",
-    "tone": 3,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "五", "meaning": "fuenf" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "队伍", "pinyin": "duìwǔ", "meaning": "Truppe" },
-      { "word": "入伍", "pinyin": "rùwǔ", "meaning": "in die Armee eintreten" }
-    ]
-  },
-  {
-    "hanzi": "柒",
-    "meanings": ["sieben (Grossschreibung)"],
-    "pinyin": "qī",
-    "tone": 1,
-    "components": [{ "radical": "木", "meaning": "Baum" }, { "radical": "七", "meaning": "sieben" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "柒佰", "pinyin": "qībǎi", "meaning": "siebenhundert (formell)" },
-      { "word": "柒万", "pinyin": "qīwàn", "meaning": "siebzigtausend (formell)" }
-    ]
-  },
-  {
-    "hanzi": "捌",
-    "meanings": ["acht (Grossschreibung)"],
-    "pinyin": "bā",
-    "tone": 1,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "别", "meaning": "anders" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "捌佰", "pinyin": "bābǎi", "meaning": "achthundert (formell)" },
-      { "word": "捌万", "pinyin": "bāwàn", "meaning": "achtzigtausend (formell)" }
-    ]
-  },
-  {
-    "hanzi": "玖",
-    "meanings": ["neun (Grossschreibung)"],
-    "pinyin": "jiǔ",
-    "tone": 3,
-    "components": [{ "radical": "王", "meaning": "Jade" }, { "radical": "久", "meaning": "lange" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "玖佰", "pinyin": "jiǔbǎi", "meaning": "neunhundert (formell)" },
-      { "word": "玖万", "pinyin": "jiǔwàn", "meaning": "neunzigtausend (formell)" }
-    ]
-  },
-  {
-    "hanzi": "佰",
-    "meanings": ["hundert (Grossschreibung)"],
-    "pinyin": "bǎi",
-    "tone": 3,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "百", "meaning": "hundert" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "壹佰", "pinyin": "yībǎi", "meaning": "einhundert (formell)" },
-      { "word": "贰佰", "pinyin": "èrbǎi", "meaning": "zweihundert (formell)" }
-    ]
-  },
-  {
-    "hanzi": "仟",
-    "meanings": ["tausend (Grossschreibung)"],
-    "pinyin": "qiān",
-    "tone": 1,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "千", "meaning": "tausend" }],
-    "hsk": "HSK6",
-    "strokes": 5,
-    "examples": [
-      { "word": "壹仟", "pinyin": "yīqiān", "meaning": "eintausend (formell)" },
-      { "word": "贰仟", "pinyin": "èrqiān", "meaning": "zweitausend (formell)" }
-    ]
-  },
-  {
-    "hanzi": "亥",
-    "meanings": ["zwoelfter Erdzweig"],
-    "pinyin": "hài",
-    "tone": 4,
-    "components": [{ "radical": "亠", "meaning": "Deckel" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "亥时", "pinyin": "hàishí", "meaning": "Stunde des Schweins" },
-      { "word": "辛亥", "pinyin": "xīnhài", "meaning": "Xinhai-Revolution" }
-    ]
-  },
-  {
-    "hanzi": "卯",
-    "meanings": ["vierter Erdzweig"],
-    "pinyin": "mǎo",
-    "tone": 3,
-    "components": [{ "radical": "卩", "meaning": "Siegel" }],
-    "hsk": "HSK6",
-    "strokes": 5,
-    "examples": [
-      { "word": "卯时", "pinyin": "mǎoshí", "meaning": "Stunde des Hasen" },
-      { "word": "点卯", "pinyin": "diǎnmǎo", "meaning": "Anwesenheit pruefen" }
-    ]
-  },
-  {
-    "hanzi": "巳",
-    "meanings": ["sechster Erdzweig"],
-    "pinyin": "sì",
-    "tone": 4,
-    "components": [{ "radical": "己", "meaning": "selbst" }],
-    "hsk": "HSK6",
-    "strokes": 3,
-    "examples": [
-      { "word": "巳时", "pinyin": "sìshí", "meaning": "Stunde der Schlange" },
-      { "word": "巳蛇", "pinyin": "sìshé", "meaning": "Schlange (Tierkreis)" }
-    ]
-  },
-  {
-    "hanzi": "戌",
-    "meanings": ["elfter Erdzweig"],
-    "pinyin": "xū",
-    "tone": 1,
-    "components": [{ "radical": "戊", "meaning": "fuenfter Himmelsstamm" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "戌时", "pinyin": "xūshí", "meaning": "Stunde des Hundes" },
-      { "word": "甲戌", "pinyin": "jiǎxū", "meaning": "elfter Sechzigerzyklus" }
-    ]
-  },
-  {
-    "hanzi": "墨",
-    "meanings": ["Tusche","Tinte"],
-    "pinyin": "mò",
-    "tone": 4,
-    "components": [{ "radical": "黑", "meaning": "schwarz" }, { "radical": "土", "meaning": "Erde" }],
-    "hsk": "HSK6",
+    "hanzi": "撑",
+    "level": "HSK6",
+    "traditional": [
+      "撐"
+    ],
+    "readings": [
+      {
+        "pinyin": "chēng",
+        "meaning": "stuetzen; aufspannen"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 15,
-    "examples": [
-      { "word": "墨水", "pinyin": "mòshuǐ", "meaning": "Tinte" },
-      { "word": "笔墨", "pinyin": "bǐmò", "meaning": "Tusche und Pinsel" }
-    ]
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "role": "semantic",
+        "meaning": "Hand"
+      },
+      {
+        "part": "掌",
+        "role": "phonetic",
+        "meaning": "Handflaeche"
+      }
+    ],
+    "words": [
+      "w:撑:cheng1",
+      "w:支撑:zhi1cheng1",
+      "w:俯卧撑:fu3wo4cheng1"
+    ],
+    "evidence": {
+      "cedict": [
+        "cheng1: to support; to prop up; to push or move with a pole; to maintain; to open or unfurl"
+      ],
+      "handedict": [
+        "cheng1: stützen; staken; mühsam aufrechterhalten; aufspannen, aufhalten; vollstopfen (V)"
+      ],
+      "unihan": "043.070:chēng | chēng(25) cheng(17)",
+      "etymology": "pictophonetic: hand",
+      "old": "stuetzen; aufspannen"
+    }
   },
   {
-    "hanzi": "砚",
-    "meanings": ["Tuschstein"],
-    "pinyin": "yàn",
-    "tone": 4,
-    "components": [{ "radical": "石", "meaning": "Stein" }, { "radical": "见", "meaning": "sehen" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "砚台", "pinyin": "yàntái", "meaning": "Tuschstein" },
-      { "word": "笔砚", "pinyin": "bǐyàn", "meaning": "Schreibgeraet" }
-    ]
-  },
-  {
-    "hanzi": "帛",
-    "meanings": ["Seide","Seidenstoff"],
-    "pinyin": "bó",
-    "tone": 2,
-    "components": [{ "radical": "白", "meaning": "weiss" }, { "radical": "巾", "meaning": "Tuch" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "帛书", "pinyin": "bóshū", "meaning": "Seidenbuch" },
-      { "word": "财帛", "pinyin": "cáibó", "meaning": "Reichtum" }
-    ]
-  },
-  {
-    "hanzi": "冕",
-    "meanings": ["Krone","kaiserliche Muetze"],
-    "pinyin": "miǎn",
-    "tone": 3,
-    "components": [{ "radical": "冂", "meaning": "Begrenzung" }, { "radical": "免", "meaning": "befreien" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "加冕", "pinyin": "jiāmiǎn", "meaning": "kroenen" },
-      { "word": "冕旒", "pinyin": "miǎnliú", "meaning": "kaiserliche Krone" }
-    ]
-  },
-  {
-    "hanzi": "慰",
-    "meanings": ["troesten","beruhigen"],
-    "pinyin": "wèi",
-    "tone": 4,
-    "components": [{ "radical": "尉", "meaning": "Offizier" }, { "radical": "心", "meaning": "Herz" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "安慰", "pinyin": "ānwèi", "meaning": "troesten" },
-      { "word": "慰问", "pinyin": "wèiwèn", "meaning": "Trostbesuch" }
-    ]
-  },
-  {
-    "hanzi": "旷",
-    "meanings": ["weit","offen","versaeumt"],
-    "pinyin": "kuàng",
-    "tone": 4,
-    "components": [{ "radical": "日", "meaning": "Sonne" }, { "radical": "广", "meaning": "weit" }],
-    "hsk": "HSK6",
+    "hanzi": "呈",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "呈"
+    ],
+    "readings": [
+      {
+        "pinyin": "chéng",
+        "meaning": "darreichen; zeigen"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 7,
-    "examples": [
-      { "word": "旷野", "pinyin": "kuàngyě", "meaning": "Wildnis" },
-      { "word": "旷课", "pinyin": "kuàngkè", "meaning": "Unterricht schwaenzen" }
-    ]
+    "primaryRadical": "口",
+    "components": [
+      {
+        "part": "口",
+        "meaning": "Mund"
+      },
+      {
+        "part": "王",
+        "meaning": "Koenig"
+      }
+    ],
+    "words": [
+      "w:呈现:cheng2xian4",
+      "w:呈:cheng2",
+      "w:辞呈:ci2cheng2",
+      "w:精彩纷呈:jing1cai3fen1cheng2",
+      "w:呈报:cheng2bao4"
+    ],
+    "evidence": {
+      "cedict": [
+        "cheng2: to present to a superior; memorial; petition; to present (a certain appearance); to assume (a shape)"
+      ],
+      "handedict": [
+        "cheng2: die Form annehmen von (V); die Gestalt haben von (V); aussehen wie (V); erreichen (V)"
+      ],
+      "unihan": "043.110:chéng | chéng(40)",
+      "etymology": "ideographic: To speak 口 before a king 王",
+      "old": "darreichen; zeigen"
+    }
   },
   {
-    "hanzi": "昭",
-    "meanings": ["klar","offenkundig"],
-    "pinyin": "zhāo",
-    "tone": 1,
-    "components": [{ "radical": "日", "meaning": "Sonne" }, { "radical": "召", "meaning": "einberufen" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "昭示", "pinyin": "zhāoshì", "meaning": "klar zeigen" },
-      { "word": "昭然", "pinyin": "zhāorán", "meaning": "offensichtlich" }
-    ]
+    "hanzi": "惩",
+    "level": "HSK6",
+    "traditional": [
+      "懲"
+    ],
+    "readings": [
+      {
+        "pinyin": "chéng",
+        "meaning": "bestrafen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "心",
+    "components": [
+      {
+        "part": "征",
+        "role": "phonetic"
+      },
+      {
+        "part": "心",
+        "role": "semantic",
+        "meaning": "Herz"
+      }
+    ],
+    "words": [
+      "w:惩罚:cheng2fa2",
+      "w:惩戒:cheng2jie4",
+      "w:惩处:cheng2chu3",
+      "w:惩治:cheng2zhi4"
+    ],
+    "evidence": {
+      "cedict": [
+        "cheng2: to punish; to reprimand; to warn"
+      ],
+      "handedict": [
+        "cheng2: disziplinieren (V); strafen (V)"
+      ],
+      "unihan": "044.100:chéng | chéng(15)",
+      "etymology": "pictophonetic: heart",
+      "old": "bestrafen"
+    }
   },
   {
-    "hanzi": "曙",
-    "meanings": ["Morgendaemmerung"],
-    "pinyin": "shǔ",
-    "tone": 3,
-    "components": [{ "radical": "日", "meaning": "Sonne" }, { "radical": "署", "meaning": "Amt" }],
-    "hsk": "HSK6",
-    "strokes": 17,
-    "examples": [
-      { "word": "曙光", "pinyin": "shǔguāng", "meaning": "Morgendaemmerung" },
-      { "word": "曙色", "pinyin": "shǔsè", "meaning": "Daemmerungslicht" }
-    ]
-  },
-  {
-    "hanzi": "曳",
-    "meanings": ["schleppen","ziehen"],
-    "pinyin": "yè",
-    "tone": 4,
-    "components": [{ "radical": "曰", "meaning": "sagen" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "摇曳", "pinyin": "yáoyè", "meaning": "im Wind schwanken" },
-      { "word": "曳光弹", "pinyin": "yèguāngdàn", "meaning": "Leuchtspurgeschoss" }
-    ]
-  },
-  {
-    "hanzi": "翌",
-    "meanings": ["naechster","folgend"],
-    "pinyin": "yì",
-    "tone": 4,
-    "components": [{ "radical": "羽", "meaning": "Feder" }, { "radical": "立", "meaning": "stehen" }],
-    "hsk": "HSK6",
+    "hanzi": "崇",
+    "level": "HSK6",
+    "traditional": [
+      "崇"
+    ],
+    "readings": [
+      {
+        "pinyin": "chóng",
+        "meaning": "verehren; hoch"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 11,
-    "examples": [
-      { "word": "翌日", "pinyin": "yìrì", "meaning": "naechster Tag" },
-      { "word": "翌年", "pinyin": "yìnián", "meaning": "folgendes Jahr" }
-    ]
+    "primaryRadical": "山",
+    "components": [
+      {
+        "part": "山",
+        "role": "semantic",
+        "meaning": "Berg"
+      },
+      {
+        "part": "宗",
+        "role": "phonetic",
+        "meaning": "Ahne"
+      }
+    ],
+    "words": [
+      "w:崇拜:chong2bai4",
+      "w:崇高:chong2gao1",
+      "w:崇敬:chong2jing4",
+      "w:崇尚:chong2shang4",
+      "w:推崇:tui1chong2"
+    ],
+    "evidence": {
+      "cedict": [
+        "chong2: surname Chong; high; sublime; lofty; to esteem"
+      ],
+      "handedict": [
+        "chong2: hoch (Adv), aufragen (V)"
+      ],
+      "unihan": "047.160:chóng | chóng(55)",
+      "etymology": "pictophonetic: mountain",
+      "old": "verehren; hoch"
+    }
   },
   {
-    "hanzi": "瞰",
-    "meanings": ["herabblicken"],
-    "pinyin": "kàn",
-    "tone": 4,
-    "components": [{ "radical": "目", "meaning": "Auge" }, { "radical": "敢", "meaning": "wagen" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "俯瞰", "pinyin": "fǔkàn", "meaning": "herabblicken" },
-      { "word": "鸟瞰", "pinyin": "niǎokàn", "meaning": "Vogelschau" }
-    ]
-  },
-  {
-    "hanzi": "眸",
-    "meanings": ["Pupille","Auge"],
-    "pinyin": "móu",
-    "tone": 2,
-    "components": [{ "radical": "目", "meaning": "Auge" }, { "radical": "牟", "meaning": "muhen" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "眸子", "pinyin": "móuzi", "meaning": "Pupille" },
-      { "word": "明眸", "pinyin": "míngmóu", "meaning": "strahlende Augen" }
-    ]
-  },
-  {
-    "hanzi": "禀",
-    "meanings": ["berichten","empfangen"],
-    "pinyin": "bǐng",
-    "tone": 3,
-    "components": [{ "radical": "禾", "meaning": "Getreide" }, { "radical": "示", "meaning": "zeigen" }],
-    "hsk": "HSK6",
+    "hanzi": "愁",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "愁"
+    ],
+    "readings": [
+      {
+        "pinyin": "chóu",
+        "meaning": "Sorge; Kummer"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 13,
-    "examples": [
-      { "word": "禀报", "pinyin": "bǐngbào", "meaning": "untertaenigst berichten" },
-      { "word": "禀赋", "pinyin": "bǐngfù", "meaning": "angeborene Begabung" }
-    ]
+    "primaryRadical": "心",
+    "components": [
+      {
+        "part": "秋",
+        "role": "phonetic"
+      },
+      {
+        "part": "心",
+        "role": "semantic",
+        "meaning": "Herz"
+      }
+    ],
+    "words": [
+      "w:愁:chou2",
+      "w:发愁:fa1chou2",
+      "w:犯愁:fan4chou2",
+      "w:忧愁:you1chou2",
+      "w:愁眉苦脸:chou2mei2ku3lian3"
+    ],
+    "evidence": {
+      "cedict": [
+        "chou2: to worry about"
+      ],
+      "handedict": [
+        "chou2: befürchten, sich kümmern um (V)"
+      ],
+      "unihan": "048.140:chóu | chóu(48)",
+      "etymology": "pictophonetic: heart",
+      "old": "Sorge; Kummer"
+    }
   },
   {
-    "hanzi": "赦",
-    "meanings": ["begnadigen","verzeihen"],
-    "pinyin": "shè",
-    "tone": 4,
-    "components": [{ "radical": "赤", "meaning": "rot" }, { "radical": "攵", "meaning": "schlagen" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "赦免", "pinyin": "shèmiǎn", "meaning": "begnadigen" },
-      { "word": "大赦", "pinyin": "dàshè", "meaning": "Generalamnestie" }
-    ]
-  },
-  {
-    "hanzi": "赤",
-    "meanings": ["rot","nackt","aufrichtig"],
-    "pinyin": "chì",
-    "tone": 4,
-    "components": [{ "radical": "土", "meaning": "Erde" }, { "radical": "小", "meaning": "klein" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "赤字", "pinyin": "chìzì", "meaning": "Defizit" },
-      { "word": "赤裸", "pinyin": "chìluǒ", "meaning": "nackt" }
-    ]
-  },
-  {
-    "hanzi": "匕",
-    "meanings": ["Dolch","Loeffel"],
-    "pinyin": "bǐ",
-    "tone": 3,
-    "components": [{ "radical": "匕", "meaning": "Dolch" }],
-    "hsk": "HSK6",
-    "strokes": 2,
-    "examples": [
-      { "word": "匕首", "pinyin": "bǐshǒu", "meaning": "Dolch" },
-      { "word": "匕箸", "pinyin": "bǐzhù", "meaning": "Loeffel und Staebchen" }
-    ]
-  },
-  {
-    "hanzi": "刁",
-    "meanings": ["hinterlistig","verschlagen"],
-    "pinyin": "diāo",
-    "tone": 1,
-    "components": [{ "radical": "刀", "meaning": "Messer" }],
-    "hsk": "HSK6",
-    "strokes": 2,
-    "examples": [
-      { "word": "刁难", "pinyin": "diāonàn", "meaning": "jemanden schikanieren" },
-      { "word": "刁钻", "pinyin": "diāozuān", "meaning": "hinterlistig" }
-    ]
-  },
-  {
-    "hanzi": "刿",
-    "meanings": ["schneiden","verletzen"],
-    "pinyin": "guì",
-    "tone": 4,
-    "components": [{ "radical": "刂", "meaning": "Messer" }, { "radical": "岁", "meaning": "Jahr" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "刿心", "pinyin": "guìxīn", "meaning": "das Herz durchbohren" },
-      { "word": "刿目", "pinyin": "guìmù", "meaning": "die Augen verletzen" }
-    ]
-  },
-  {
-    "hanzi": "叩",
-    "meanings": ["klopfen","sich verneigen"],
-    "pinyin": "kòu",
-    "tone": 4,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "卩", "meaning": "Siegel" }],
-    "hsk": "HSK6",
-    "strokes": 5,
-    "examples": [
-      { "word": "叩头", "pinyin": "kòutóu", "meaning": "Kowtow machen" },
-      { "word": "叩门", "pinyin": "kòumén", "meaning": "an die Tuer klopfen" }
-    ]
-  },
-  {
-    "hanzi": "吝",
-    "meanings": ["geizig","knauserig"],
-    "pinyin": "lìn",
-    "tone": 4,
-    "components": [{ "radical": "文", "meaning": "Schrift" }, { "radical": "口", "meaning": "Mund" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "吝啬", "pinyin": "lìnsè", "meaning": "geizig" },
-      { "word": "吝惜", "pinyin": "lìnxī", "meaning": "ungern hergeben" }
-    ]
-  },
-  {
-    "hanzi": "啬",
-    "meanings": ["knauserig","sparsam"],
-    "pinyin": "sè",
-    "tone": 4,
-    "components": [{ "radical": "土", "meaning": "Erde" }, { "radical": "回", "meaning": "zurueck" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "吝啬", "pinyin": "lìnsè", "meaning": "geizig" },
-      { "word": "啬夫", "pinyin": "sèfū", "meaning": "Geizhals" }
-    ]
-  },
-  {
-    "hanzi": "堰",
-    "meanings": ["Damm","Wehr"],
-    "pinyin": "yàn",
-    "tone": 4,
-    "components": [{ "radical": "土", "meaning": "Erde" }, { "radical": "匽", "meaning": "verbergen" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "堰塞湖", "pinyin": "yànsèhú", "meaning": "Stausee" },
-      { "word": "都江堰", "pinyin": "Dūjiāngyàn", "meaning": "Dujiangyan (Bewaesserung)" }
-    ]
-  },
-  {
-    "hanzi": "宦",
-    "meanings": ["Eunuch","Beamter"],
-    "pinyin": "huàn",
-    "tone": 4,
-    "components": [{ "radical": "宀", "meaning": "Dach" }, { "radical": "臣", "meaning": "Untertan" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "宦官", "pinyin": "huànguān", "meaning": "Eunuch" },
-      { "word": "仕宦", "pinyin": "shìhuàn", "meaning": "Beamtenlaufbahn" }
-    ]
-  },
-  {
-    "hanzi": "屹",
-    "meanings": ["hoch aufragend"],
-    "pinyin": "yì",
-    "tone": 4,
-    "components": [{ "radical": "山", "meaning": "Berg" }, { "radical": "乙", "meaning": "zweiter" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "屹立", "pinyin": "yìlì", "meaning": "hoch aufragen" },
-      { "word": "屹然", "pinyin": "yìrán", "meaning": "unerschuetterlich" }
-    ]
-  },
-  {
-    "hanzi": "峻",
-    "meanings": ["steil","streng"],
-    "pinyin": "jùn",
-    "tone": 4,
-    "components": [{ "radical": "山", "meaning": "Berg" }, { "radical": "俊", "meaning": "hervorragend" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "峻峭", "pinyin": "jùnqiào", "meaning": "steil und schroff" },
-      { "word": "严峻", "pinyin": "yánjùn", "meaning": "streng" }
-    ]
-  },
-  {
-    "hanzi": "峋",
-    "meanings": ["zerkluesst","kantig"],
-    "pinyin": "xún",
-    "tone": 2,
-    "components": [{ "radical": "山", "meaning": "Berg" }, { "radical": "旬", "meaning": "zehn Tage" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "嶙峋", "pinyin": "línxún", "meaning": "zerkluesst" },
-      { "word": "岩峋", "pinyin": "yánxún", "meaning": "kantige Felsen" }
-    ]
-  },
-  {
-    "hanzi": "彗",
-    "meanings": ["Komet","Besen"],
-    "pinyin": "huì",
-    "tone": 4,
-    "components": [{ "radical": "彐", "meaning": "Schweineschnauze" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "彗星", "pinyin": "huìxīng", "meaning": "Komet" },
-      { "word": "彗尾", "pinyin": "huìwěi", "meaning": "Kometenschweif" }
-    ]
-  },
-  {
-    "hanzi": "怆",
-    "meanings": ["traurig","kummervoll"],
-    "pinyin": "chuàng",
-    "tone": 4,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "仓", "meaning": "Speicher" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "悲怆", "pinyin": "bēichuàng", "meaning": "tief betruebt" },
-      { "word": "怆然", "pinyin": "chuàngrán", "meaning": "traurig" }
-    ]
-  },
-  {
-    "hanzi": "懑",
-    "meanings": ["verdriesslich","unwillig"],
-    "pinyin": "mèn",
-    "tone": 4,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "满", "meaning": "voll" }],
-    "hsk": "HSK6",
-    "strokes": 18,
-    "examples": [
-      { "word": "愤懑", "pinyin": "fènmèn", "meaning": "empoert" },
-      { "word": "懑怒", "pinyin": "mènnù", "meaning": "zornig" }
-    ]
-  },
-  {
-    "hanzi": "戊",
-    "meanings": ["fuenfter Himmelsstamm"],
-    "pinyin": "wù",
-    "tone": 4,
-    "components": [{ "radical": "戈", "meaning": "Hellebarde" }],
-    "hsk": "HSK6",
-    "strokes": 5,
-    "examples": [
-      { "word": "戊戌", "pinyin": "wùxū", "meaning": "Wuxu-Reform" },
-      { "word": "戊午", "pinyin": "wùwǔ", "meaning": "fuenfundfuenfzigster Zyklus" }
-    ]
-  },
-  {
-    "hanzi": "戎",
-    "meanings": ["Militaer","Waffe"],
-    "pinyin": "róng",
-    "tone": 2,
-    "components": [{ "radical": "戈", "meaning": "Hellebarde" }],
-    "hsk": "HSK6",
-    "strokes": 6,
-    "examples": [
-      { "word": "戎马", "pinyin": "róngmǎ", "meaning": "Militaerleben" },
-      { "word": "戎装", "pinyin": "róngzhuāng", "meaning": "Militaeruniform" }
-    ]
-  },
-  {
-    "hanzi": "攫",
-    "meanings": ["ergreifen","packen"],
-    "pinyin": "jué",
-    "tone": 2,
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "矍", "meaning": "erschreckt" }],
-    "hsk": "HSK6",
-    "strokes": 23,
-    "examples": [
-      { "word": "攫取", "pinyin": "juéqǔ", "meaning": "ergreifen" },
-      { "word": "攫夺", "pinyin": "juéduó", "meaning": "rauben" }
-    ]
-  },
-  {
-    "hanzi": "曝",
-    "meanings": ["aussetzen","belichten"],
-    "pinyin": "pù",
-    "tone": 4,
-    "components": [{ "radical": "日", "meaning": "Sonne" }, { "radical": "暴", "meaning": "heftig" }],
-    "hsk": "HSK6",
-    "strokes": 19,
-    "examples": [
-      { "word": "曝光", "pinyin": "pùguāng", "meaning": "belichten" },
-      { "word": "曝晒", "pinyin": "pùshài", "meaning": "der Sonne aussetzen" }
-    ]
-  },
-  {
-    "hanzi": "柩",
-    "meanings": ["Sarg"],
-    "pinyin": "jiù",
-    "tone": 4,
-    "components": [{ "radical": "木", "meaning": "Baum" }, { "radical": "旧", "meaning": "alt" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "灵柩", "pinyin": "língjiù", "meaning": "Sarg mit Leichnam" },
-      { "word": "棺柩", "pinyin": "guānjiù", "meaning": "Sarg" }
-    ]
-  },
-  {
-    "hanzi": "楷",
-    "meanings": ["Regelschrift","Vorbild"],
-    "pinyin": "kǎi",
-    "tone": 3,
-    "components": [{ "radical": "木", "meaning": "Baum" }, { "radical": "皆", "meaning": "alle" }],
-    "hsk": "HSK6",
+    "hanzi": "筹",
+    "level": "HSK6",
+    "traditional": [
+      "籌"
+    ],
+    "readings": [
+      {
+        "pinyin": "chóu",
+        "meaning": "planen"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 13,
-    "examples": [
-      { "word": "楷书", "pinyin": "kǎishū", "meaning": "Regelschrift" },
-      { "word": "楷模", "pinyin": "kǎimó", "meaning": "Vorbild" }
-    ]
+    "primaryRadical": "竹",
+    "components": [
+      {
+        "part": "𥫗"
+      },
+      {
+        "part": "寿",
+        "role": "phonetic",
+        "meaning": "Langlebigkeit"
+      }
+    ],
+    "words": [
+      "w:筹备:chou2bei4",
+      "w:筹:chou2",
+      "w:筹办:chou2ban4",
+      "w:筹措:chou2cuo4",
+      "w:筹划:chou2hua4"
+    ],
+    "evidence": {
+      "cedict": [
+        "chou2: chip (in gambling); token (for counting); ticket; to prepare; to plan; to raise (funds); resource; way; means"
+      ],
+      "handedict": [
+        "chou2: vorbereiten (V); planen (V)"
+      ],
+      "unihan": "048.150:chóu",
+      "etymology": "pictophonetic: bamboo",
+      "old": "planen"
+    }
   },
   {
-    "hanzi": "榷",
-    "meanings": ["Monopol","eroertern"],
-    "pinyin": "què",
-    "tone": 4,
-    "components": [{ "radical": "木", "meaning": "Baum" }, { "radical": "确", "meaning": "sicher" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "商榷", "pinyin": "shāngquè", "meaning": "eroertern" },
-      { "word": "榷议", "pinyin": "quèyì", "meaning": "diskutieren" }
-    ]
-  },
-  {
-    "hanzi": "殉",
-    "meanings": ["sich opfern fuer"],
-    "pinyin": "xùn",
-    "tone": 4,
-    "components": [{ "radical": "歹", "meaning": "Tod" }, { "radical": "旬", "meaning": "zehn Tage" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "殉职", "pinyin": "xùnzhí", "meaning": "im Dienst sterben" },
-      { "word": "殉国", "pinyin": "xùnguó", "meaning": "fuer das Vaterland sterben" }
-    ]
-  },
-  {
-    "hanzi": "殡",
-    "meanings": ["bestatten","Leichnam aufbahren"],
-    "pinyin": "bìn",
-    "tone": 4,
-    "components": [{ "radical": "歹", "meaning": "Tod" }, { "radical": "宾", "meaning": "Gast" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "殡葬", "pinyin": "bìnzàng", "meaning": "Bestattung" },
-      { "word": "殡仪馆", "pinyin": "bìnyíguǎn", "meaning": "Beerdigungsinstitut" }
-    ]
-  },
-  {
-    "hanzi": "涅",
-    "meanings": ["schwarze Farbe","Nirvana"],
-    "pinyin": "niè",
-    "tone": 4,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "日", "meaning": "Sonne" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "涅槃", "pinyin": "nièpán", "meaning": "Nirvana" },
-      { "word": "涅而不缁", "pinyin": "niè ér bùzī", "meaning": "unbeeinflusst bleiben" }
-    ]
-  },
-  {
-    "hanzi": "淙",
-    "meanings": ["Plaetschern","murmeln"],
-    "pinyin": "cóng",
-    "tone": 2,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "宗", "meaning": "Ahne" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "淙淙", "pinyin": "cóngcóng", "meaning": "plaetschern" },
-      { "word": "淙流", "pinyin": "cóngliú", "meaning": "murmelnder Bach" }
-    ]
-  },
-  {
-    "hanzi": "濒",
-    "meanings": ["am Rande von","nahe an"],
-    "pinyin": "bīn",
-    "tone": 1,
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "频", "meaning": "haeufig" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "濒临", "pinyin": "bīnlín", "meaning": "am Rande stehen" },
-      { "word": "濒危", "pinyin": "bīnwēi", "meaning": "vom Aussterben bedroht" }
-    ]
-  },
-  {
-    "hanzi": "烙",
-    "meanings": ["brandmarken","backen"],
-    "pinyin": "lào",
-    "tone": 4,
-    "components": [{ "radical": "火", "meaning": "Feuer" }, { "radical": "各", "meaning": "jeder" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "烙印", "pinyin": "làoyìn", "meaning": "Brandmal" },
-      { "word": "烙饼", "pinyin": "làobǐng", "meaning": "Pfannkuchen" }
-    ]
-  },
-  {
-    "hanzi": "焚",
-    "meanings": ["verbrennen"],
-    "pinyin": "fén",
-    "tone": 2,
-    "components": [{ "radical": "林", "meaning": "Wald" }, { "radical": "火", "meaning": "Feuer" }],
-    "hsk": "HSK6",
+    "hanzi": "储",
+    "level": "HSK6",
+    "traditional": [
+      "儲"
+    ],
+    "readings": [
+      {
+        "pinyin": "chǔ",
+        "meaning": "speichern; ansammeln"
+      }
+    ],
+    "meaningStatus": "draft",
     "strokes": 12,
-    "examples": [
-      { "word": "焚烧", "pinyin": "fénshāo", "meaning": "verbrennen" },
-      { "word": "焚书", "pinyin": "fénshū", "meaning": "Buecherverbrennung" }
-    ]
-  },
-  {
-    "hanzi": "犀",
-    "meanings": ["Nashorn","scharf"],
-    "pinyin": "xī",
-    "tone": 1,
-    "components": [{ "radical": "尸", "meaning": "Koerper" }, { "radical": "牛", "meaning": "Rind" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "犀利", "pinyin": "xīlì", "meaning": "scharf" },
-      { "word": "犀牛", "pinyin": "xīniú", "meaning": "Nashorn" }
-    ]
-  },
-  {
-    "hanzi": "猝",
-    "meanings": ["ploetzlich","unerwartet"],
-    "pinyin": "cù",
-    "tone": 4,
-    "components": [{ "radical": "犭", "meaning": "Tier" }, { "radical": "卒", "meaning": "ploetzlich" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "猝然", "pinyin": "cùrán", "meaning": "ploetzlich" },
-      { "word": "猝不及防", "pinyin": "cù bùjí fáng", "meaning": "voellig unvorbereitet" }
-    ]
-  },
-  {
-    "hanzi": "獗",
-    "meanings": ["wild","zugellos"],
-    "pinyin": "jué",
-    "tone": 2,
-    "components": [{ "radical": "犭", "meaning": "Tier" }, { "radical": "厥", "meaning": "sein" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "猖獗", "pinyin": "chāngjué", "meaning": "zugellos wueten" },
-      { "word": "獗然", "pinyin": "juérán", "meaning": "wild" }
-    ]
-  },
-  {
-    "hanzi": "璧",
-    "meanings": ["Jadescheibe"],
-    "pinyin": "bì",
-    "tone": 4,
-    "components": [{ "radical": "辟", "meaning": "oeffnen" }, { "radical": "玉", "meaning": "Jade" }],
-    "hsk": "HSK6",
-    "strokes": 18,
-    "examples": [
-      { "word": "完璧归赵", "pinyin": "wánbì guī Zhào", "meaning": "etwas unversehrt zurueckgeben" },
-      { "word": "璧玉", "pinyin": "bìyù", "meaning": "Jadescheibe" }
-    ]
-  },
-  {
-    "hanzi": "瑕",
-    "meanings": ["Makel","Fehler"],
-    "pinyin": "xiá",
-    "tone": 2,
-    "components": [{ "radical": "王", "meaning": "Jade" }, { "radical": "叚", "meaning": "leihen" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "瑕疵", "pinyin": "xiácī", "meaning": "Makel" },
-      { "word": "白璧无瑕", "pinyin": "báibì wúxiá", "meaning": "makellos" }
-    ]
-  },
-  {
-    "hanzi": "疵",
-    "meanings": ["Makel","Fehler"],
-    "pinyin": "cī",
-    "tone": 1,
-    "components": [{ "radical": "疒", "meaning": "Krankheit" }, { "radical": "此", "meaning": "dies" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "瑕疵", "pinyin": "xiácī", "meaning": "Makel" },
-      { "word": "吹毛求疵", "pinyin": "chuīmáo qiúcī", "meaning": "kleinlich kritisieren" }
-    ]
-  },
-  {
-    "hanzi": "瞭",
-    "meanings": ["klar","deutlich"],
-    "pinyin": "liǎo",
-    "tone": 3,
-    "components": [{ "radical": "目", "meaning": "Auge" }, { "radical": "了", "meaning": "beenden" }],
-    "hsk": "HSK6",
-    "strokes": 17,
-    "examples": [
-      { "word": "瞭望", "pinyin": "liàowàng", "meaning": "Ausschau halten" },
-      { "word": "瞭亮", "pinyin": "liǎoliàng", "meaning": "klar und deutlich" }
-    ]
-  },
-  {
-    "hanzi": "磅",
-    "meanings": ["Pfund","gewaltig"],
-    "pinyin": "bàng",
-    "tone": 4,
-    "components": [{ "radical": "石", "meaning": "Stein" }, { "radical": "旁", "meaning": "Seite" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "磅礴", "pinyin": "bàngbó", "meaning": "gewaltig" },
-      { "word": "英磅", "pinyin": "yīngbàng", "meaning": "britisches Pfund" }
-    ]
-  },
-  {
-    "hanzi": "祀",
-    "meanings": ["Opfer darbringen","verehren"],
-    "pinyin": "sì",
-    "tone": 4,
-    "components": [{ "radical": "礻", "meaning": "Geist" }, { "radical": "巳", "meaning": "sechster Erdzweig" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "祭祀", "pinyin": "jìsì", "meaning": "Opfer darbringen" },
-      { "word": "祀典", "pinyin": "sìdiǎn", "meaning": "Opferzeremonien" }
-    ]
-  },
-  {
-    "hanzi": "祠",
-    "meanings": ["Ahnentempel","Schrein"],
-    "pinyin": "cí",
-    "tone": 2,
-    "components": [{ "radical": "礻", "meaning": "Geist" }, { "radical": "司", "meaning": "verwalten" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "祠堂", "pinyin": "cítáng", "meaning": "Ahnentempel" },
-      { "word": "宗祠", "pinyin": "zōngcí", "meaning": "Familienschrein" }
-    ]
-  },
-  {
-    "hanzi": "祷",
-    "meanings": ["beten","Gebet"],
-    "pinyin": "dǎo",
-    "tone": 3,
-    "components": [{ "radical": "礻", "meaning": "Geist" }, { "radical": "寿", "meaning": "Langlebigkeit" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "祷告", "pinyin": "dǎogào", "meaning": "beten" },
-      { "word": "祈祷", "pinyin": "qídǎo", "meaning": "Gebet" }
-    ]
-  },
-  {
-    "hanzi": "窕",
-    "meanings": ["schlank","anmutig"],
-    "pinyin": "tiǎo",
-    "tone": 3,
-    "components": [{ "radical": "穴", "meaning": "Hoehle" }, { "radical": "兆", "meaning": "Vorzeichen" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "窈窕", "pinyin": "yǎotiǎo", "meaning": "anmutig" },
-      { "word": "窕淑", "pinyin": "tiǎoshū", "meaning": "anmutig und tugendhaft" }
-    ]
-  },
-  {
-    "hanzi": "絮",
-    "meanings": ["Baumwolle","weitschweifig"],
-    "pinyin": "xù",
-    "tone": 4,
-    "components": [{ "radical": "如", "meaning": "wie" }, { "radical": "糸", "meaning": "Seide" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "絮叨", "pinyin": "xùdāo", "meaning": "weitschweifig reden" },
-      { "word": "棉絮", "pinyin": "miánxù", "meaning": "Baumwollflocken" }
-    ]
-  },
-  {
-    "hanzi": "缄",
-    "meanings": ["versiegeln","schweigen"],
-    "pinyin": "jiān",
-    "tone": 1,
-    "components": [{ "radical": "纟", "meaning": "Seide" }, { "radical": "咸", "meaning": "alle" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "缄默", "pinyin": "jiānmò", "meaning": "schweigen" },
-      { "word": "缄口", "pinyin": "jiānkǒu", "meaning": "den Mund halten" }
-    ]
-  },
-  {
-    "hanzi": "缱",
-    "meanings": ["innig verbunden"],
-    "pinyin": "qiǎn",
-    "tone": 3,
-    "components": [{ "radical": "纟", "meaning": "Seide" }, { "radical": "遣", "meaning": "entsenden" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "缱绻", "pinyin": "qiǎnquǎn", "meaning": "innig verbunden" },
-      { "word": "缱恋", "pinyin": "qiǎnliàn", "meaning": "zAertlich anhaengend" }
-    ]
-  },
-  {
-    "hanzi": "绻",
-    "meanings": ["verbunden","anhaenglich"],
-    "pinyin": "quǎn",
-    "tone": 3,
-    "components": [{ "radical": "纟", "meaning": "Seide" }, { "radical": "卷", "meaning": "rollen" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "缱绻", "pinyin": "qiǎnquǎn", "meaning": "innig verbunden" },
-      { "word": "绻恋", "pinyin": "quǎnliàn", "meaning": "zaertlich anhaengend" }
-    ]
-  },
-  {
-    "hanzi": "羲",
-    "meanings": ["Opferritual","Fu Xi"],
-    "pinyin": "xī",
-    "tone": 1,
-    "components": [{ "radical": "羊", "meaning": "Schaf" }, { "radical": "禾", "meaning": "Getreide" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "伏羲", "pinyin": "Fúxī", "meaning": "Fu Xi (Urkaiser)" },
-      { "word": "羲和", "pinyin": "Xīhé", "meaning": "Sonnengottheit" }
-    ]
-  },
-  {
-    "hanzi": "胄",
-    "meanings": ["Helm","Nachkomme"],
-    "pinyin": "zhòu",
-    "tone": 4,
-    "components": [{ "radical": "由", "meaning": "von" }, { "radical": "月", "meaning": "Fleisch" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "甲胄", "pinyin": "jiǎzhòu", "meaning": "Ruestung und Helm" },
-      { "word": "贵胄", "pinyin": "guìzhòu", "meaning": "von adliger Abstammung" }
-    ]
-  },
-  {
-    "hanzi": "膺",
-    "meanings": ["Brust","empfangen"],
-    "pinyin": "yīng",
-    "tone": 1,
-    "components": [{ "radical": "广", "meaning": "Dach" }, { "radical": "月", "meaning": "Fleisch" }],
-    "hsk": "HSK6",
-    "strokes": 17,
-    "examples": [
-      { "word": "义愤填膺", "pinyin": "yìfèn tiányīng", "meaning": "vor Empoerung kochen" },
-      { "word": "膺选", "pinyin": "yīngxuǎn", "meaning": "gewaehlt werden" }
-    ]
-  },
-  {
-    "hanzi": "舫",
-    "meanings": ["Barke","Lustboot"],
-    "pinyin": "fǎng",
-    "tone": 3,
-    "components": [{ "radical": "舟", "meaning": "Boot" }, { "radical": "方", "meaning": "Richtung" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "画舫", "pinyin": "huàfǎng", "meaning": "geschmuecktes Boot" },
-      { "word": "舫楼", "pinyin": "fǎnglóu", "meaning": "Schiffsaufbau" }
-    ]
-  },
-  {
-    "hanzi": "舸",
-    "meanings": ["grosses Schiff"],
-    "pinyin": "gě",
-    "tone": 3,
-    "components": [{ "radical": "舟", "meaning": "Boot" }, { "radical": "可", "meaning": "koennen" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "百舸", "pinyin": "bǎigě", "meaning": "hundert Schiffe" },
-      { "word": "舸舰", "pinyin": "gějiàn", "meaning": "grosse Schiffe" }
-    ]
-  },
-  {
-    "hanzi": "芜",
-    "meanings": ["ueppig wuchernd","verwildert"],
-    "pinyin": "wú",
-    "tone": 2,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "无", "meaning": "ohne" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "荒芜", "pinyin": "huāngwú", "meaning": "verwildert" },
-      { "word": "芜杂", "pinyin": "wúzá", "meaning": "unordentlich" }
-    ]
-  },
-  {
-    "hanzi": "苔",
-    "meanings": ["Moos"],
-    "pinyin": "tái",
-    "tone": 2,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "台", "meaning": "Plattform" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "苔藓", "pinyin": "táixiǎn", "meaning": "Moos" },
-      { "word": "青苔", "pinyin": "qīngtái", "meaning": "Moos" }
-    ]
-  },
-  {
-    "hanzi": "荻",
-    "meanings": ["Schilfgras"],
-    "pinyin": "dí",
-    "tone": 2,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "狄", "meaning": "Nomaden" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "荻花", "pinyin": "díhuā", "meaning": "Schilfblueten" },
-      { "word": "画荻", "pinyin": "huàdí", "meaning": "mit Schilf schreiben lernen" }
-    ]
-  },
-  {
-    "hanzi": "莽",
-    "meanings": ["wild","Dickicht"],
-    "pinyin": "mǎng",
-    "tone": 3,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "犬", "meaning": "Hund" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "莽撞", "pinyin": "mǎngzhuàng", "meaning": "ungestuem" },
-      { "word": "草莽", "pinyin": "cǎomǎng", "meaning": "Wildnis" }
-    ]
-  },
-  {
-    "hanzi": "菁",
-    "meanings": ["Essenz","Bluetenpracht"],
-    "pinyin": "jīng",
-    "tone": 1,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "青", "meaning": "gruen" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "菁华", "pinyin": "jīnghuá", "meaning": "Essenz" },
-      { "word": "菁英", "pinyin": "jīngyīng", "meaning": "Elite" }
-    ]
-  },
-  {
-    "hanzi": "葵",
-    "meanings": ["Sonnenblume","Malve"],
-    "pinyin": "kuí",
-    "tone": 2,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "癸", "meaning": "zehnter Himmelsstamm" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "向日葵", "pinyin": "xiàngrìkuí", "meaning": "Sonnenblume" },
-      { "word": "葵花", "pinyin": "kuíhuā", "meaning": "Sonnenblume" }
-    ]
-  },
-  {
-    "hanzi": "薇",
-    "meanings": ["Farn","Wicke"],
-    "pinyin": "wēi",
-    "tone": 1,
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "微", "meaning": "winzig" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "蔷薇", "pinyin": "qiángwēi", "meaning": "Rose" },
-      { "word": "紫薇", "pinyin": "zǐwēi", "meaning": "Kreppmyrte" }
-    ]
-  },
-  {
-    "hanzi": "蟾",
-    "meanings": ["Kroete"],
-    "pinyin": "chán",
-    "tone": 2,
-    "components": [{ "radical": "虫", "meaning": "Insekt" }, { "radical": "詹", "meaning": "ausfuehrlich" }],
-    "hsk": "HSK6",
-    "strokes": 19,
-    "examples": [
-      { "word": "蟾蜍", "pinyin": "chánchú", "meaning": "Kroete" },
-      { "word": "蟾宫", "pinyin": "chángōng", "meaning": "Mondpalast" }
-    ]
-  },
-  {
-    "hanzi": "衢",
-    "meanings": ["Kreuzung","breite Strasse"],
-    "pinyin": "qú",
-    "tone": 2,
-    "components": [{ "radical": "行", "meaning": "gehen" }, { "radical": "瞿", "meaning": "erschrocken" }],
-    "hsk": "HSK6",
-    "strokes": 24,
-    "examples": [
-      { "word": "通衢", "pinyin": "tōngqú", "meaning": "Hauptstrasse" },
-      { "word": "四衢", "pinyin": "sìqú", "meaning": "Kreuzung" }
-    ]
-  },
-  {
-    "hanzi": "诘",
-    "meanings": ["befragen","anklagen"],
-    "pinyin": "jié",
-    "tone": 2,
-    "components": [{ "radical": "讠", "meaning": "Sprache" }, { "radical": "吉", "meaning": "glueckverheissend" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "诘问", "pinyin": "jiéwèn", "meaning": "eingehend befragen" },
-      { "word": "诘难", "pinyin": "jiénàn", "meaning": "kritisch hinterfragen" }
-    ]
-  },
-  {
-    "hanzi": "诲",
-    "meanings": ["belehren","unterweisen"],
-    "pinyin": "huì",
-    "tone": 4,
-    "components": [{ "radical": "讠", "meaning": "Sprache" }, { "radical": "每", "meaning": "jeder" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "教诲", "pinyin": "jiàohuì", "meaning": "belehren" },
-      { "word": "诲人不倦", "pinyin": "huìrén bùjuàn", "meaning": "unErmuedlich belehren" }
-    ]
-  },
-  {
-    "hanzi": "谒",
-    "meanings": ["besuchen","Audienz"],
-    "pinyin": "yè",
-    "tone": 4,
-    "components": [{ "radical": "讠", "meaning": "Sprache" }, { "radical": "曷", "meaning": "warum" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "谒见", "pinyin": "yèjiàn", "meaning": "um Audienz bitten" },
-      { "word": "拜谒", "pinyin": "bàiyè", "meaning": "ehrerbietig besuchen" }
-    ]
-  },
-  {
-    "hanzi": "谙",
-    "meanings": ["vertraut sein mit","kennen"],
-    "pinyin": "ān",
-    "tone": 1,
-    "components": [{ "radical": "讠", "meaning": "Sprache" }, { "radical": "音", "meaning": "Klang" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "谙熟", "pinyin": "ānshú", "meaning": "bestens vertraut" },
-      { "word": "谙练", "pinyin": "ānliàn", "meaning": "erfahren" }
-    ]
-  },
-  {
-    "hanzi": "谪",
-    "meanings": ["verbannen","degradieren"],
-    "pinyin": "zhé",
-    "tone": 2,
-    "components": [{ "radical": "讠", "meaning": "Sprache" }, { "radical": "啇", "meaning": "Stamm" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "谪居", "pinyin": "zhéjū", "meaning": "in der Verbannung leben" },
-      { "word": "贬谪", "pinyin": "biǎnzhé", "meaning": "degradieren und verbannen" }
-    ]
-  },
-  {
-    "hanzi": "贲",
-    "meanings": ["geschmueckt","eilend"],
-    "pinyin": "bì",
-    "tone": 4,
-    "components": [{ "radical": "卉", "meaning": "Pflanzen" }, { "radical": "贝", "meaning": "Muschel" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "贲临", "pinyin": "bìlín", "meaning": "gnaedig herablassen" },
-      { "word": "虎贲", "pinyin": "hǔbì", "meaning": "tapferer Krieger" }
-    ]
-  },
-  {
-    "hanzi": "赈",
-    "meanings": ["Katastrophenhilfe"],
-    "pinyin": "zhèn",
-    "tone": 4,
-    "components": [{ "radical": "贝", "meaning": "Muschel" }, { "radical": "辰", "meaning": "Morgen" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "赈灾", "pinyin": "zhènzāi", "meaning": "Katastrophenhilfe" },
-      { "word": "赈济", "pinyin": "zhènjì", "meaning": "Hilfsgueter verteilen" }
-    ]
-  },
-  {
-    "hanzi": "趾",
-    "meanings": ["Zeh","Fuss"],
-    "pinyin": "zhǐ",
-    "tone": 3,
-    "components": [{ "radical": "足", "meaning": "Fuss" }, { "radical": "止", "meaning": "anhalten" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "脚趾", "pinyin": "jiǎozhǐ", "meaning": "Zeh" },
-      { "word": "趾高气扬", "pinyin": "zhǐgāo qìyáng", "meaning": "hochmuetig" }
-    ]
-  },
-  {
-    "hanzi": "蹴",
-    "meanings": ["treten","mit dem Fuss stossen"],
-    "pinyin": "cù",
-    "tone": 4,
-    "components": [{ "radical": "足", "meaning": "Fuss" }, { "radical": "就", "meaning": "erreichen" }],
-    "hsk": "HSK6",
-    "strokes": 19,
-    "examples": [
-      { "word": "蹴鞠", "pinyin": "cùjū", "meaning": "antikes Fussballspiel" },
-      { "word": "一蹴而就", "pinyin": "yīcù érjiù", "meaning": "auf einen Streich erreichen" }
-    ]
-  },
-  {
-    "hanzi": "辗",
-    "meanings": ["sich waelzen","rollen"],
-    "pinyin": "zhǎn",
-    "tone": 3,
-    "components": [{ "radical": "车", "meaning": "Wagen" }, { "radical": "展", "meaning": "entfalten" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "辗转", "pinyin": "zhǎnzhuǎn", "meaning": "sich hin und her waelzen" },
-      { "word": "辗轧", "pinyin": "zhǎnyà", "meaning": "ueberrollen" }
-    ]
-  },
-  {
-    "hanzi": "邸",
-    "meanings": ["Residenz","Palast"],
-    "pinyin": "dǐ",
-    "tone": 3,
-    "components": [{ "radical": "氐", "meaning": "Basis" }, { "radical": "阝", "meaning": "Stadt" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "官邸", "pinyin": "guāndǐ", "meaning": "Amtsresidenz" },
-      { "word": "府邸", "pinyin": "fǔdǐ", "meaning": "Palast" }
-    ]
-  },
-  {
-    "hanzi": "郭",
-    "meanings": ["Stadtmauer","aeussere Mauer"],
-    "pinyin": "guō",
-    "tone": 1,
-    "components": [{ "radical": "享", "meaning": "geniessen" }, { "radical": "阝", "meaning": "Stadt" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "城郭", "pinyin": "chéngguō", "meaning": "Stadtmauern" },
-      { "word": "郭外", "pinyin": "guōwài", "meaning": "ausserhalb der Stadtmauer" }
-    ]
-  },
-  {
-    "hanzi": "酣",
-    "meanings": ["angetrunken","ausgiebig"],
-    "pinyin": "hān",
-    "tone": 1,
-    "components": [{ "radical": "酉", "meaning": "Wein" }, { "radical": "甘", "meaning": "suess" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "酣畅", "pinyin": "hānchàng", "meaning": "ausgiebig" },
-      { "word": "酣睡", "pinyin": "hānshuì", "meaning": "tief schlafen" }
-    ]
-  },
-  {
-    "hanzi": "酩",
-    "meanings": ["betrunken"],
-    "pinyin": "mǐng",
-    "tone": 3,
-    "components": [{ "radical": "酉", "meaning": "Wein" }, { "radical": "名", "meaning": "Name" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "酩酊", "pinyin": "mǐngdǐng", "meaning": "voellig betrunken" },
-      { "word": "酩酊大醉", "pinyin": "mǐngdǐng dàzuì", "meaning": "sinnlos betrunken" }
-    ]
-  },
-  {
-    "hanzi": "酊",
-    "meanings": ["betrunken","Tinktur"],
-    "pinyin": "dǐng",
-    "tone": 3,
-    "components": [{ "radical": "酉", "meaning": "Wein" }, { "radical": "丁", "meaning": "Nagel" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "酩酊", "pinyin": "mǐngdǐng", "meaning": "voellig betrunken" },
-      { "word": "碘酊", "pinyin": "diǎndǐng", "meaning": "Jodtinktur" }
-    ]
-  },
-  {
-    "hanzi": "铮",
-    "meanings": ["klirrend","aufrichtig"],
-    "pinyin": "zhēng",
-    "tone": 1,
-    "components": [{ "radical": "钅", "meaning": "Metall" }, { "radical": "争", "meaning": "streiten" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "铮铮", "pinyin": "zhēngzhēng", "meaning": "klirrend" },
-      { "word": "铁骨铮铮", "pinyin": "tiěgǔ zhēngzhēng", "meaning": "von eisernem Charakter" }
-    ]
-  },
-  {
-    "hanzi": "镌",
-    "meanings": ["meisseln","gravieren"],
-    "pinyin": "juān",
-    "tone": 1,
-    "components": [{ "radical": "钅", "meaning": "Metall" }, { "radical": "隽", "meaning": "elegant" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "镌刻", "pinyin": "juānkè", "meaning": "gravieren" },
-      { "word": "镌骨", "pinyin": "juāngǔ", "meaning": "tief einpraegen" }
-    ]
-  },
-  {
-    "hanzi": "阙",
-    "meanings": ["Palasttor","Mangel"],
-    "pinyin": "quē",
-    "tone": 1,
-    "components": [{ "radical": "门", "meaning": "Tor" }, { "radical": "厥", "meaning": "sein" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "宫阙", "pinyin": "gōngquē", "meaning": "Palasttor" },
-      { "word": "阙如", "pinyin": "quērú", "meaning": "fehlen" }
-    ]
-  },
-  {
-    "hanzi": "隅",
-    "meanings": ["Ecke","Winkel"],
-    "pinyin": "yú",
-    "tone": 2,
-    "components": [{ "radical": "阝", "meaning": "Huegel" }, { "radical": "禺", "meaning": "Geist" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "一隅", "pinyin": "yīyú", "meaning": "eine Ecke" },
-      { "word": "墙隅", "pinyin": "qiángyú", "meaning": "Mauerecke" }
-    ]
-  },
-  {
-    "hanzi": "靡",
-    "meanings": ["verschwenderisch","sich neigen"],
-    "pinyin": "mí",
-    "tone": 2,
-    "components": [{ "radical": "麻", "meaning": "Hanf" }, { "radical": "非", "meaning": "nicht" }],
-    "hsk": "HSK6",
-    "strokes": 19,
-    "examples": [
-      { "word": "奢靡", "pinyin": "shēmí", "meaning": "verschwenderisch" },
-      { "word": "风靡", "pinyin": "fēngmí", "meaning": "wie ein Lauffeuer verbreiten" }
-    ]
-  },
-  {
-    "hanzi": "颔",
-    "meanings": ["Kinn","nicken"],
-    "pinyin": "hàn",
-    "tone": 4,
-    "components": [{ "radical": "含", "meaning": "enthalten" }, { "radical": "页", "meaning": "Seite" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "颔首", "pinyin": "hànshǒu", "meaning": "zustimmend nicken" },
-      { "word": "颔联", "pinyin": "hànlián", "meaning": "zweites Verspaar" }
-    ]
-  },
-  {
-    "hanzi": "駑",
-    "meanings": ["schlechtes Pferd","unfaehig"],
-    "pinyin": "nú",
-    "tone": 2,
-    "components": [{ "radical": "奴", "meaning": "Sklave" }, { "radical": "马", "meaning": "Pferd" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "駑马", "pinyin": "númǎ", "meaning": "lahmes Pferd" },
-      { "word": "駑钝", "pinyin": "núdùn", "meaning": "unfaehig" }
-    ]
-  },
-  {
-    "hanzi": "骥",
-    "meanings": ["edles Pferd","Talent"],
-    "pinyin": "jì",
-    "tone": 4,
-    "components": [{ "radical": "马", "meaning": "Pferd" }, { "radical": "冀", "meaning": "hoffen" }],
-    "hsk": "HSK6",
-    "strokes": 19,
-    "examples": [
-      { "word": "老骥", "pinyin": "lǎojì", "meaning": "altes Ross" },
-      { "word": "骥足", "pinyin": "jìzú", "meaning": "Talent" }
-    ]
-  },
-  {
-    "hanzi": "鸾",
-    "meanings": ["Phoinix","Glocke"],
-    "pinyin": "luán",
-    "tone": 2,
-    "components": [{ "radical": "亦", "meaning": "auch" }, { "radical": "鸟", "meaning": "Vogel" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "鸾凤", "pinyin": "luánfèng", "meaning": "Phoinixpaar" },
-      { "word": "鸾镜", "pinyin": "luánjìng", "meaning": "Spiegel (poetisch)" }
-    ]
-  },
-  {
-    "hanzi": "鹤",
-    "meanings": ["Kranich"],
-    "pinyin": "hè",
-    "tone": 4,
-    "components": [{ "radical": "隺", "meaning": "Kranich" }, { "radical": "鸟", "meaning": "Vogel" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "仙鹤", "pinyin": "xiānhè", "meaning": "Kranich" },
-      { "word": "鹤立鸡群", "pinyin": "hèlì jīqún", "meaning": "unter allen herausragen" }
-    ]
-  },
-  {
-    "hanzi": "黛",
-    "meanings": ["schwarze Farbe","Augenbraue"],
-    "pinyin": "dài",
-    "tone": 4,
-    "components": [{ "radical": "代", "meaning": "Generation" }, { "radical": "黑", "meaning": "schwarz" }],
-    "hsk": "HSK6",
-    "strokes": 17,
-    "examples": [
-      { "word": "粉黛", "pinyin": "fěndài", "meaning": "Schminke" },
-      { "word": "眉黛", "pinyin": "méidài", "meaning": "Augenbrauen" }
-    ]
-  },
-  {
-    "hanzi": "鼐",
-    "meanings": ["grosser Kessel"],
-    "pinyin": "nài",
-    "tone": 4,
-    "components": [{ "radical": "鼎", "meaning": "Dreifuss" }, { "radical": "乃", "meaning": "also" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "鼐鼎", "pinyin": "nàidǐng", "meaning": "grosser Dreifusskessel" },
-      { "word": "鼐器", "pinyin": "nàiqì", "meaning": "grosses Bronzegefaess" }
-    ]
-  },
-  {
-    "hanzi": "迤",
-    "meanings": ["sich erstrecken","schlaengelnd"],
-    "pinyin": "yǐ",
-    "tone": 3,
-    "components": [{ "radical": "辶", "meaning": "gehen" }, { "radical": "也", "meaning": "auch" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "迤逦", "pinyin": "yǐlǐ", "meaning": "sich schlaengelnd erstrecken" },
-      { "word": "迤然", "pinyin": "yǐrán", "meaning": "sich erstreckend" }
-    ]
-  },
-  {
-    "hanzi": "逦",
-    "meanings": ["sich schlaengelnd"],
-    "pinyin": "lǐ",
-    "tone": 3,
-    "components": [{ "radical": "辶", "meaning": "gehen" }, { "radical": "丽", "meaning": "schoen" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "迤逦", "pinyin": "yǐlǐ", "meaning": "sich schlaengelnd erstrecken" },
-      { "word": "逦迤", "pinyin": "lǐyǐ", "meaning": "sich dahinschlaengelnd" }
-    ]
-  },
-  {
-    "hanzi": "遐",
-    "meanings": ["fern","weit"],
-    "pinyin": "xiá",
-    "tone": 2,
-    "components": [{ "radical": "辶", "meaning": "gehen" }, { "radical": "叚", "meaning": "leihen" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "遐想", "pinyin": "xiáxiǎng", "meaning": "Tagtraeumerei" },
-      { "word": "遐迩", "pinyin": "xiáěr", "meaning": "fern und nah" }
-    ]
-  },
-  {
-    "hanzi": "邃",
-    "meanings": ["tief","tiefgruendig"],
-    "pinyin": "suì",
-    "tone": 4,
-    "components": [{ "radical": "辶", "meaning": "gehen" }, { "radical": "遂", "meaning": "gelingen" }],
-    "hsk": "HSK6",
-    "strokes": 17,
-    "examples": [
-      { "word": "深邃", "pinyin": "shēnsuì", "meaning": "tiefgruendig" },
-      { "word": "邃密", "pinyin": "suìmì", "meaning": "tiefgruendig und genau" }
-    ]
-  },
-  {
-    "hanzi": "鞅",
-    "meanings": ["Joch","Brustgeschirr"],
-    "pinyin": "yāng",
-    "tone": 1,
-    "components": [{ "radical": "革", "meaning": "Leder" }, { "radical": "央", "meaning": "Mitte" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "鞅掌", "pinyin": "yāngzhǎng", "meaning": "beschaeftigt" },
-      { "word": "商鞅", "pinyin": "Shāngyāng", "meaning": "Shang Yang (Reformer)" }
-    ]
-  },
-  {
-    "hanzi": "鞠",
-    "meanings": ["Ball","aufziehen","sich verneigen"],
-    "pinyin": "jū",
-    "tone": 1,
-    "components": [{ "radical": "革", "meaning": "Leder" }, { "radical": "菊", "meaning": "Chrysantheme" }],
-    "hsk": "HSK6",
-    "strokes": 17,
-    "examples": [
-      { "word": "鞠躬", "pinyin": "jūgōng", "meaning": "sich verneigen" },
-      { "word": "蹴鞠", "pinyin": "cùjū", "meaning": "antikes Fussballspiel" }
-    ]
-  },
-  {
-    "hanzi": "蹉",
-    "meanings": ["stolpern","verpassen"],
-    "pinyin": "cuō",
-    "tone": 1,
-    "components": [{ "radical": "足", "meaning": "Fuss" }, { "radical": "差", "meaning": "Differenz" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "蹉跎", "pinyin": "cuōtuó", "meaning": "Zeit vergeuden" },
-      { "word": "蹉跌", "pinyin": "cuōdiē", "meaning": "stolpern" }
-    ]
-  },
-  {
-    "hanzi": "跎",
-    "meanings": ["stolpern","versaeumen"],
-    "pinyin": "tuó",
-    "tone": 2,
-    "components": [{ "radical": "足", "meaning": "Fuss" }, { "radical": "它", "meaning": "es" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "蹉跎", "pinyin": "cuōtuó", "meaning": "Zeit vergeuden" },
-      { "word": "蹉跎岁月", "pinyin": "cuōtuó suìyuè", "meaning": "die Jahre verstreichen lassen" }
-    ]
-  },
-  {
-    "hanzi": "嵌",
-    "meanings": ["einlegen","einbetten"],
-    "pinyin": "qiàn",
-    "tone": 4,
-    "components": [{ "radical": "山", "meaning": "Berg" }, { "radical": "甘", "meaning": "suess" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "镶嵌", "pinyin": "xiāngqiàn", "meaning": "einlegen" },
-      { "word": "嵌入", "pinyin": "qiànrù", "meaning": "einbetten" }
-    ]
-  },
-  {
-    "hanzi": "巍",
-    "meanings": ["hoch aufragend","majestaetisch"],
-    "pinyin": "wēi",
-    "tone": 1,
-    "components": [{ "radical": "山", "meaning": "Berg" }, { "radical": "魏", "meaning": "Wei-Dynastie" }],
-    "hsk": "HSK6",
-    "strokes": 20,
-    "examples": [
-      { "word": "巍峨", "pinyin": "wēié", "meaning": "hoch aufragend" },
-      { "word": "巍然", "pinyin": "wēirán", "meaning": "majestaetisch" }
-    ]
-  },
-  {
-    "hanzi": "氤",
-    "meanings": ["Dunst","Nebel"],
-    "pinyin": "yīn",
-    "tone": 1,
-    "components": [{ "radical": "气", "meaning": "Dampf" }, { "radical": "因", "meaning": "Ursache" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "氤氲", "pinyin": "yīnyūn", "meaning": "nebelig" },
-      { "word": "氤氤", "pinyin": "yīnyīn", "meaning": "dunstig" }
-    ]
-  },
-  {
-    "hanzi": "氲",
-    "meanings": ["Dampf","dunstig"],
-    "pinyin": "yūn",
-    "tone": 1,
-    "components": [{ "radical": "气", "meaning": "Dampf" }, { "radical": "温", "meaning": "warm" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "氤氲", "pinyin": "yīnyūn", "meaning": "nebelig" },
-      { "word": "氲氤", "pinyin": "yūnyīn", "meaning": "dampfend" }
-    ]
-  },
-  {
-    "hanzi": "裳",
-    "meanings": ["Kleid","Rock"],
-    "pinyin": "cháng",
-    "tone": 2,
-    "components": [{ "radical": "尚", "meaning": "noch" }, { "radical": "衣", "meaning": "Kleidung" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "衣裳", "pinyin": "yīshang", "meaning": "Kleidung" },
-      { "word": "霓裳", "pinyin": "nícháng", "meaning": "Regenbogengewand" }
-    ]
-  },
-  {
-    "hanzi": "裨",
-    "meanings": ["nuetzlich","ergaenzen"],
-    "pinyin": "bì",
-    "tone": 4,
-    "components": [{ "radical": "衤", "meaning": "Kleidung" }, { "radical": "卑", "meaning": "niedrig" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "裨益", "pinyin": "bìyì", "meaning": "Nutzen" },
-      { "word": "裨补", "pinyin": "bìbǔ", "meaning": "ergaenzen" }
-    ]
-  },
-  {
-    "hanzi": "觞",
-    "meanings": ["Weinbecher","zuprosten"],
-    "pinyin": "shāng",
-    "tone": 1,
-    "components": [{ "radical": "角", "meaning": "Horn" }, { "radical": "伤", "meaning": "verletzen" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "觞咏", "pinyin": "shāngyǒng", "meaning": "beim Trinken dichten" },
-      { "word": "举觞", "pinyin": "jǔshāng", "meaning": "den Becher erheben" }
-    ]
-  },
-  {
-    "hanzi": "锷",
-    "meanings": ["Schwertschneide"],
-    "pinyin": "è",
-    "tone": 4,
-    "components": [{ "radical": "钅", "meaning": "Metall" }, { "radical": "鄂", "meaning": "Hubei" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "剑锷", "pinyin": "jiàné", "meaning": "Schwertschneide" },
-      { "word": "锋锷", "pinyin": "fēngè", "meaning": "scharfe Klinge" }
-    ]
-  },
-  {
-    "hanzi": "阜",
-    "meanings": ["Huegel","reichlich"],
-    "pinyin": "fù",
-    "tone": 4,
-    "components": [{ "radical": "阝", "meaning": "Huegel" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "物阜", "pinyin": "wùfù", "meaning": "reichlich vorhanden" },
-      { "word": "阜盛", "pinyin": "fùshèng", "meaning": "bluehend" }
-    ]
-  },
-  {
-    "hanzi": "雯",
-    "meanings": ["farbenpraechtiges Gewoelk"],
-    "pinyin": "wén",
-    "tone": 2,
-    "components": [{ "radical": "雨", "meaning": "Regen" }, { "radical": "文", "meaning": "Schrift" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "雯彩", "pinyin": "wéncǎi", "meaning": "Wolkenpracht" },
-      { "word": "雯华", "pinyin": "wénhuá", "meaning": "praechtiges Gewoelk" }
-    ]
-  },
-  {
-    "hanzi": "霭",
-    "meanings": ["Dunst","Nebel"],
-    "pinyin": "ǎi",
-    "tone": 3,
-    "components": [{ "radical": "雨", "meaning": "Regen" }, { "radical": "暧", "meaning": "truebe" }],
-    "hsk": "HSK6",
-    "strokes": 19,
-    "examples": [
-      { "word": "暮霭", "pinyin": "mùǎi", "meaning": "Abenddunst" },
-      { "word": "云霭", "pinyin": "yúnǎi", "meaning": "Wolkendunst" }
-    ]
-  },
-  {
-    "hanzi": "靥",
-    "meanings": ["Gruebchen"],
-    "pinyin": "yè",
-    "tone": 4,
-    "components": [{ "radical": "厌", "meaning": "satt" }, { "radical": "面", "meaning": "Gesicht" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "笑靥", "pinyin": "xiàoyè", "meaning": "Gruebchen beim Laecheln" },
-      { "word": "靥辅", "pinyin": "yèfǔ", "meaning": "Wangengruebchen" }
-    ]
-  },
-  {
-    "hanzi": "鹂",
-    "meanings": ["Pirol"],
-    "pinyin": "lí",
-    "tone": 2,
-    "components": [{ "radical": "丽", "meaning": "schoen" }, { "radical": "鸟", "meaning": "Vogel" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "黄鹂", "pinyin": "huánglí", "meaning": "Pirol" },
-      { "word": "鹂鸣", "pinyin": "límíng", "meaning": "Pirolgesang" }
-    ]
-  },
-  {
-    "hanzi": "鹊",
-    "meanings": ["Elster"],
-    "pinyin": "què",
-    "tone": 4,
-    "components": [{ "radical": "昔", "meaning": "ehemals" }, { "radical": "鸟", "meaning": "Vogel" }],
-    "hsk": "HSK6",
-    "strokes": 13,
-    "examples": [
-      { "word": "喜鹊", "pinyin": "xǐquè", "meaning": "Elster" },
-      { "word": "鹊桥", "pinyin": "quèqiáo", "meaning": "Elsternbruecke" }
-    ]
-  },
-  {
-    "hanzi": "鸥",
-    "meanings": ["Moewe"],
-    "pinyin": "ōu",
-    "tone": 1,
-    "components": [{ "radical": "区", "meaning": "Gebiet" }, { "radical": "鸟", "meaning": "Vogel" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "海鸥", "pinyin": "hǎiōu", "meaning": "Moewe" },
-      { "word": "鸥鸟", "pinyin": "ōuniǎo", "meaning": "Moewe" }
-    ]
-  },
-  {
-    "hanzi": "麓",
-    "meanings": ["Bergfuss","Waldhang"],
-    "pinyin": "lù",
-    "tone": 4,
-    "components": [{ "radical": "林", "meaning": "Wald" }, { "radical": "鹿", "meaning": "Hirsch" }],
-    "hsk": "HSK6",
-    "strokes": 19,
-    "examples": [
-      { "word": "山麓", "pinyin": "shānlù", "meaning": "Bergfuss" },
-      { "word": "岳麓", "pinyin": "yuèlù", "meaning": "Yuelu (Bergname)" }
-    ]
-  },
-  {
-    "hanzi": "笙",
-    "meanings": ["Mundorgel"],
-    "pinyin": "shēng",
-    "tone": 1,
-    "components": [{ "radical": "竹", "meaning": "Bambus" }, { "radical": "生", "meaning": "leben" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "笙歌", "pinyin": "shēnggē", "meaning": "Musik und Gesang" },
-      { "word": "吹笙", "pinyin": "chuīshēng", "meaning": "Mundorgel spielen" }
-    ]
-  },
-  {
-    "hanzi": "箫",
-    "meanings": ["Floete"],
-    "pinyin": "xiāo",
-    "tone": 1,
-    "components": [{ "radical": "竹", "meaning": "Bambus" }, { "radical": "肃", "meaning": "ernst" }],
-    "hsk": "HSK6",
-    "strokes": 14,
-    "examples": [
-      { "word": "洞箫", "pinyin": "dòngxiāo", "meaning": "Laengsfloete" },
-      { "word": "箫声", "pinyin": "xiāoshēng", "meaning": "Floetenklang" }
-    ]
-  },
-  {
-    "hanzi": "恪",
-    "meanings": ["ehrerbietig","gewissenhaft"],
-    "pinyin": "kè",
-    "tone": 4,
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "各", "meaning": "jeder" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "恪守", "pinyin": "kèshǒu", "meaning": "strikt einhalten" },
-      { "word": "恪遵", "pinyin": "kèzūn", "meaning": "strikt befolgen" }
-    ]
-  },
-  {
-    "hanzi": "饕",
-    "meanings": ["gefrAessig","gierig"],
-    "pinyin": "tāo",
-    "tone": 1,
-    "components": [{ "radical": "号", "meaning": "Nummer" }, { "radical": "食", "meaning": "Essen" }],
-    "hsk": "HSK6",
-    "strokes": 18,
-    "examples": [
-      { "word": "饕餮", "pinyin": "tāotiè", "meaning": "Vielfras" },
-      { "word": "饕客", "pinyin": "tāokè", "meaning": "Feinschmecker" }
-    ]
-  },
-  {
-    "hanzi": "餮",
-    "meanings": ["Vielfras","gierig essen"],
-    "pinyin": "tiè",
-    "tone": 4,
-    "components": [{ "radical": "殄", "meaning": "vernichten" }, { "radical": "食", "meaning": "Essen" }],
-    "hsk": "HSK6",
-    "strokes": 18,
-    "examples": [
-      { "word": "饕餮", "pinyin": "tāotiè", "meaning": "Vielfras" },
-      { "word": "餮足", "pinyin": "tièzú", "meaning": "sich satt essen" }
-    ]
-  },
-  {
-    "hanzi": "垒",
-    "meanings": ["Wall","aufschichten"],
-    "pinyin": "lěi",
-    "tone": 3,
-    "components": [{ "radical": "田", "meaning": "Feld" }, { "radical": "土", "meaning": "Erde" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "壁垒", "pinyin": "bìlěi", "meaning": "Bollwerk" },
-      { "word": "堡垒", "pinyin": "bǎolěi", "meaning": "Festung" }
-    ]
-  },
-  {
-    "hanzi": "庚",
-    "meanings": ["siebter Himmelsstamm","Alter"],
-    "pinyin": "gēng",
-    "tone": 1,
-    "components": [{ "radical": "广", "meaning": "Dach" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "年庚", "pinyin": "niángēng", "meaning": "Alter" },
-      { "word": "庚子", "pinyin": "gēngzǐ", "meaning": "Gengzi-Jahr" }
-    ]
-  },
-  {
-    "hanzi": "枭",
-    "meanings": ["Eule","tapfer","Anführer"],
-    "pinyin": "xiāo",
-    "tone": 1,
-    "components": [{ "radical": "木", "meaning": "Baum" }, { "radical": "鸟", "meaning": "Vogel" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "枭雄", "pinyin": "xiāoxióng", "meaning": "maechtiger Held" },
-      { "word": "毒枭", "pinyin": "dúxiāo", "meaning": "Drogenbaron" }
-    ]
-  },
-  {
-    "hanzi": "颌",
-    "meanings": ["Kiefer","Kinnlade"],
-    "pinyin": "hé",
-    "tone": 2,
-    "components": [{ "radical": "合", "meaning": "zusammen" }, { "radical": "页", "meaning": "Seite" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "下颌", "pinyin": "xiàhé", "meaning": "Unterkiefer" },
-      { "word": "颌骨", "pinyin": "hégǔ", "meaning": "Kieferknochen" }
-    ]
-  },
-  {
-    "hanzi": "皋",
-    "meanings": ["Sumpf","Ufer"],
-    "pinyin": "gāo",
-    "tone": 1,
-    "components": [{ "radical": "白", "meaning": "weiss" }, { "radical": "大", "meaning": "gross" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "皋陶", "pinyin": "gāoyáo", "meaning": "Gao Yao (legendaerer Richter)" },
-      { "word": "鹤皋", "pinyin": "hègāo", "meaning": "Kranichsumpf" }
-    ]
-  },
-  {
-    "hanzi": "盥",
-    "meanings": ["Haende waschen","reinigen"],
-    "pinyin": "guàn",
-    "tone": 4,
-    "components": [{ "radical": "臼", "meaning": "Moerser" }, { "radical": "皿", "meaning": "Gefaess" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "盥洗", "pinyin": "guànxǐ", "meaning": "sich waschen" },
-      { "word": "盥漱", "pinyin": "guànshù", "meaning": "Morgentoilette" }
-    ]
-  },
-  {
-    "hanzi": "瞑",
-    "meanings": ["die Augen schliessen"],
-    "pinyin": "míng",
-    "tone": 2,
-    "components": [{ "radical": "目", "meaning": "Auge" }, { "radical": "冥", "meaning": "dunkel" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "瞑目", "pinyin": "míngmù", "meaning": "in Frieden die Augen schliessen" },
-      { "word": "死不瞑目", "pinyin": "sǐ bù míngmù", "meaning": "nicht in Frieden sterben koennen" }
-    ]
-  },
-  {
-    "hanzi": "稼",
-    "meanings": ["saeen","Feldarbeit"],
-    "pinyin": "jià",
-    "tone": 4,
-    "components": [{ "radical": "禾", "meaning": "Getreide" }, { "radical": "家", "meaning": "Haus" }],
-    "hsk": "HSK6",
-    "strokes": 15,
-    "examples": [
-      { "word": "庄稼", "pinyin": "zhuāngjià", "meaning": "Feldfrüchte" },
-      { "word": "稼穑", "pinyin": "jiàsè", "meaning": "Ackerbau" }
-    ]
-  },
-  {
-    "hanzi": "穑",
-    "meanings": ["ernten","Ernte"],
-    "pinyin": "sè",
-    "tone": 4,
-    "components": [{ "radical": "禾", "meaning": "Getreide" }, { "radical": "啬", "meaning": "sparsam" }],
-    "hsk": "HSK6",
-    "strokes": 17,
-    "examples": [
-      { "word": "稼穑", "pinyin": "jiàsè", "meaning": "Ackerbau" },
-      { "word": "穑事", "pinyin": "sèshì", "meaning": "Erntearbeit" }
-    ]
-  },
-  {
-    "hanzi": "窒",
-    "meanings": ["verstopfen","ersticken"],
-    "pinyin": "zhì",
-    "tone": 4,
-    "components": [{ "radical": "穴", "meaning": "Hoehle" }, { "radical": "至", "meaning": "bis" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "窒息", "pinyin": "zhìxī", "meaning": "ersticken" },
-      { "word": "窒碍", "pinyin": "zhìài", "meaning": "behindern" }
-    ]
-  },
-  {
-    "hanzi": "竣",
-    "meanings": ["fertigstellen","beenden"],
-    "pinyin": "jùn",
-    "tone": 4,
-    "components": [{ "radical": "立", "meaning": "stehen" }, { "radical": "俊", "meaning": "hervorragend" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "竣工", "pinyin": "jùngōng", "meaning": "Baufertigstellung" },
-      { "word": "竣事", "pinyin": "jùnshì", "meaning": "Abschluss" }
-    ]
-  },
-  {
-    "hanzi": "绥",
-    "meanings": ["besaenftigen","beruhigen"],
-    "pinyin": "suí",
-    "tone": 2,
-    "components": [{ "radical": "纟", "meaning": "Seide" }, { "radical": "妥", "meaning": "angemessen" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "绥靖", "pinyin": "suíjìng", "meaning": "Appeasement" },
-      { "word": "绥抚", "pinyin": "suífǔ", "meaning": "beruhigen und troesten" }
-    ]
-  },
-  {
-    "hanzi": "羁",
-    "meanings": ["fesseln","zuegeln"],
-    "pinyin": "jī",
-    "tone": 1,
-    "components": [{ "radical": "罒", "meaning": "Netz" }, { "radical": "马", "meaning": "Pferd" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "羁绊", "pinyin": "jībàn", "meaning": "Fessel" },
-      { "word": "羁旅", "pinyin": "jīlǚ", "meaning": "in der Fremde weilen" }
-    ]
-  },
-  {
-    "hanzi": "肴",
-    "meanings": ["Speise","Gericht"],
-    "pinyin": "yáo",
-    "tone": 2,
-    "components": [{ "radical": "爻", "meaning": "Trigramm" }, { "radical": "月", "meaning": "Fleisch" }],
-    "hsk": "HSK6",
-    "strokes": 8,
-    "examples": [
-      { "word": "佳肴", "pinyin": "jiāyáo", "meaning": "Delikatesse" },
-      { "word": "菜肴", "pinyin": "càiyáo", "meaning": "Gerichte" }
-    ]
-  },
-  {
-    "hanzi": "腓",
-    "meanings": ["Wade"],
-    "pinyin": "féi",
-    "tone": 2,
-    "components": [{ "radical": "月", "meaning": "Fleisch" }, { "radical": "非", "meaning": "nicht" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "腓肠肌", "pinyin": "féichángjī", "meaning": "Wadenmuskel" },
-      { "word": "腓骨", "pinyin": "féigǔ", "meaning": "Wadenbein" }
-    ]
-  },
-  {
-    "hanzi": "臻",
-    "meanings": ["erreichen","gelangen"],
-    "pinyin": "zhēn",
-    "tone": 1,
-    "components": [{ "radical": "至", "meaning": "bis" }, { "radical": "秦", "meaning": "Qin" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "日臻完善", "pinyin": "rìzhēn wánshàn", "meaning": "taeglich perfekter werden" },
-      { "word": "臻于", "pinyin": "zhēnyú", "meaning": "gelangen zu" }
-    ]
-  },
-  {
-    "hanzi": "舜",
-    "meanings": ["Kaiser Shun"],
-    "pinyin": "shùn",
-    "tone": 4,
-    "components": [{ "radical": "爫", "meaning": "Klaue" }, { "radical": "冖", "meaning": "Deckel" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "尧舜", "pinyin": "Yáo Shùn", "meaning": "Yao und Shun (ideale Herrscher)" },
-      { "word": "舜帝", "pinyin": "Shùndì", "meaning": "Kaiser Shun" }
-    ]
-  },
-  {
-    "hanzi": "蹙",
-    "meanings": ["runzeln","bedraengt"],
-    "pinyin": "cù",
-    "tone": 4,
-    "components": [{ "radical": "足", "meaning": "Fuss" }, { "radical": "戚", "meaning": "Verwandter" }],
-    "hsk": "HSK6",
-    "strokes": 18,
-    "examples": [
-      { "word": "蹙眉", "pinyin": "cùméi", "meaning": "die Stirn runzeln" },
-      { "word": "蹙额", "pinyin": "cùé", "meaning": "Sorgenfalten" }
-    ]
-  },
-  {
-    "hanzi": "遽",
-    "meanings": ["ploetzlich","eilig"],
-    "pinyin": "jù",
-    "tone": 4,
-    "components": [{ "radical": "辶", "meaning": "gehen" }, { "radical": "豦", "meaning": "Schwein" }],
-    "hsk": "HSK6",
-    "strokes": 16,
-    "examples": [
-      { "word": "遽然", "pinyin": "jùrán", "meaning": "ploetzlich" },
-      { "word": "遽尔", "pinyin": "jùěr", "meaning": "eilig" }
-    ]
-  },
-  {
-    "hanzi": "佚",
-    "meanings": ["verloren","muessig"],
-    "pinyin": "yì",
-    "tone": 4,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "失", "meaning": "verlieren" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "佚名", "pinyin": "yìmíng", "meaning": "unbekannter Verfasser" },
-      { "word": "佚事", "pinyin": "yìshì", "meaning": "Anekdote" }
-    ]
-  },
-  {
-    "hanzi": "俨",
-    "meanings": ["feierlich","wuerdevoll"],
-    "pinyin": "yǎn",
-    "tone": 3,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "严", "meaning": "streng" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "俨然", "pinyin": "yǎnrán", "meaning": "als ob" },
-      { "word": "俨如", "pinyin": "yǎnrú", "meaning": "gleichsam" }
-    ]
-  },
-  {
-    "hanzi": "倥",
-    "meanings": ["arm","dringend"],
-    "pinyin": "kǒng",
-    "tone": 3,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "空", "meaning": "leer" }],
-    "hsk": "HSK6",
-    "strokes": 10,
-    "examples": [
-      { "word": "倥偬", "pinyin": "kǒngzǒng", "meaning": "dringend und hektisch" },
-      { "word": "戎马倥偬", "pinyin": "róngmǎ kǒngzǒng", "meaning": "hektisches Militaerleben" }
-    ]
-  },
-  {
-    "hanzi": "偬",
-    "meanings": ["hektisch","geschaeftig"],
-    "pinyin": "zǒng",
-    "tone": 3,
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "总", "meaning": "gesamt" }],
-    "hsk": "HSK6",
-    "strokes": 11,
-    "examples": [
-      { "word": "倥偬", "pinyin": "kǒngzǒng", "meaning": "hektisch" },
-      { "word": "偬迫", "pinyin": "zǒngpò", "meaning": "bedraengt" }
-    ]
-  },
-  {
-    "hanzi": "卬",
-    "meanings": ["ich (archaisch)","emporblicken"],
-    "pinyin": "áng",
-    "tone": 2,
-    "components": [{ "radical": "卩", "meaning": "Siegel" }],
-    "hsk": "HSK6",
-    "strokes": 4,
-    "examples": [
-      { "word": "卬首", "pinyin": "ángshǒu", "meaning": "den Kopf heben" },
-      { "word": "卬然", "pinyin": "ángrán", "meaning": "stolz" }
-    ]
-  },
-  {
-    "hanzi": "厥",
-    "meanings": ["sein","dessen","ohnmaechtig"],
-    "pinyin": "jué",
-    "tone": 2,
-    "components": [{ "radical": "厂", "meaning": "Klippe" }, { "radical": "欮", "meaning": "fehlen" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "厥功至伟", "pinyin": "juégōng zhìwěi", "meaning": "sein Verdienst ist gross" },
-      { "word": "晕厥", "pinyin": "yūnjué", "meaning": "Ohnmacht" }
-    ]
-  },
-  {
-    "hanzi": "囿",
-    "meanings": ["beschraenkt","Wildgehege"],
-    "pinyin": "yòu",
-    "tone": 4,
-    "components": [{ "radical": "囗", "meaning": "Umzaeunung" }, { "radical": "有", "meaning": "haben" }],
-    "hsk": "HSK6",
-    "strokes": 9,
-    "examples": [
-      { "word": "囿于", "pinyin": "yòuyú", "meaning": "beschraenkt durch" },
-      { "word": "鹿囿", "pinyin": "lùyòu", "meaning": "Hirschgehege" }
-    ]
-  },
-  {
-    "hanzi": "奂",
-    "meanings": ["glaenzend","grossartig"],
-    "pinyin": "huàn",
-    "tone": 4,
-    "components": [{ "radical": "大", "meaning": "gross" }],
-    "hsk": "HSK6",
-    "strokes": 7,
-    "examples": [
-      { "word": "美轮美奂", "pinyin": "měilún měihuàn", "meaning": "prachtvoell" },
-      { "word": "奂然", "pinyin": "huànrán", "meaning": "strahlend" }
-    ]
-  },
-  {
-    "hanzi": "嗟",
-    "meanings": ["seufzen","ach"],
-    "pinyin": "jiē",
-    "tone": 1,
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "差", "meaning": "Differenz" }],
-    "hsk": "HSK6",
-    "strokes": 12,
-    "examples": [
-      { "word": "嗟叹", "pinyin": "jiētàn", "meaning": "seufzen" },
-      { "word": "嗟来之食", "pinyin": "jiēlái zhī shí", "meaning": "herabwuerdigendes Almosen" }
-    ]
-  },
-  {
-    "hanzi": "瞄",
-    "meanings": ["zielen","anvisieren"],
-    "components": [{ "radical": "目", "meaning": "Auge" }, { "radical": "苗", "meaning": "Setzling" }],
-    "hsk": "HSK6",
-    "strokes": 13
-  },
-  {
-    "hanzi": "铆",
-    "meanings": ["Niete","nieten"],
-    "components": [{ "radical": "钅", "meaning": "Metall" }, { "radical": "卯", "meaning": "Erdzweig" }],
-    "hsk": "HSK6",
-    "strokes": 9
-  },
-  {
-    "hanzi": "饲",
-    "meanings": ["fuettern","Futter"],
-    "components": [{ "radical": "饣", "meaning": "Essen" }, { "radical": "司", "meaning": "verwalten" }],
-    "hsk": "HSK6",
-    "strokes": 8
-  },
-  {
-    "hanzi": "铅",
-    "meanings": ["Blei"],
-    "components": [{ "radical": "钅", "meaning": "Metall" }, { "radical": "㕣", "meaning": "Flussufer" }],
-    "hsk": "HSK6",
-    "strokes": 10
-  },
-  {
-    "hanzi": "咏",
-    "meanings": ["rezitieren","besingen"],
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "永", "meaning": "ewig" }],
-    "hsk": "HSK6",
-    "strokes": 8
-  },
-  {
-    "hanzi": "拱",
-    "meanings": ["Bogen","sich verbeugen"],
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "共", "meaning": "gemeinsam" }],
-    "hsk": "HSK6",
-    "strokes": 9
-  },
-  {
-    "hanzi": "腥",
-    "meanings": ["fischig","stinkend"],
-    "components": [{ "radical": "月", "meaning": "Mond/Fleisch" }, { "radical": "星", "meaning": "Stern" }],
-    "hsk": "HSK6",
-    "strokes": 13
-  },
-  {
-    "hanzi": "踪",
-    "meanings": ["Spur","Faehrte"],
-    "components": [{ "radical": "足", "meaning": "Fuss" }, { "radical": "宗", "meaning": "Ahne" }],
-    "hsk": "HSK6",
-    "strokes": 15
-  },
-  {
-    "hanzi": "扼",
-    "meanings": ["wuergen","kontrollieren"],
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "厄", "meaning": "Unglueck" }],
-    "hsk": "HSK6",
-    "strokes": 7
-  },
-  {
-    "hanzi": "瞥",
-    "meanings": ["fluechtig blicken"],
-    "components": [{ "radical": "敝", "meaning": "abgenutzt" }, { "radical": "目", "meaning": "Auge" }],
-    "hsk": "HSK6",
-    "strokes": 16
-  },
-  {
-    "hanzi": "矫",
-    "meanings": ["korrigieren","geradebiegen"],
-    "components": [{ "radical": "矢", "meaning": "Pfeil" }, { "radical": "乔", "meaning": "hoch" }],
-    "hsk": "HSK6",
-    "strokes": 11
-  },
-  {
-    "hanzi": "缴",
-    "meanings": ["abgeben","einzahlen"],
-    "components": [{ "radical": "纟", "meaning": "Seide" }, { "radical": "敫", "meaning": "angreifen" }],
-    "hsk": "HSK6",
-    "strokes": 16
-  },
-  {
-    "hanzi": "劫",
-    "meanings": ["rauben","Katastrophe"],
-    "components": [{ "radical": "去", "meaning": "gehen" }, { "radical": "力", "meaning": "Kraft" }],
-    "hsk": "HSK6",
-    "strokes": 7
-  },
-  {
-    "hanzi": "锦",
-    "meanings": ["Brokat","praechtiger"],
-    "components": [{ "radical": "钅", "meaning": "Metall" }, { "radical": "帛", "meaning": "Seide" }],
-    "hsk": "HSK6",
-    "strokes": 13
-  },
-  {
-    "hanzi": "桨",
-    "meanings": ["Ruder","Paddel"],
-    "components": [{ "radical": "将", "meaning": "werden" }, { "radical": "木", "meaning": "Holz" }],
-    "hsk": "HSK6",
-    "strokes": 13
-  },
-  {
-    "hanzi": "厩",
-    "meanings": ["Stall","Pferdestall"],
-    "components": [{ "radical": "厂", "meaning": "Klippe" }, { "radical": "既", "meaning": "bereits" }],
-    "hsk": "HSK6",
-    "strokes": 11
-  },
-  {
-    "hanzi": "眷",
-    "meanings": ["Angehoerige","sich kuemmern"],
-    "components": [{ "radical": "拳", "meaning": "Faust" }, { "radical": "目", "meaning": "Auge" }],
-    "hsk": "HSK6",
-    "strokes": 11
-  },
-  {
-    "hanzi": "崛",
-    "meanings": ["aufragen","emporsteigen"],
-    "components": [{ "radical": "山", "meaning": "Berg" }, { "radical": "屈", "meaning": "beugen" }],
-    "hsk": "HSK6",
-    "strokes": 11
-  },
-  {
-    "hanzi": "跨",
-    "meanings": ["ueberqueren","ueberschreiten"],
-    "components": [{ "radical": "足", "meaning": "Fuss" }, { "radical": "夸", "meaning": "uebertreiben" }],
-    "hsk": "HSK6",
-    "strokes": 13
-  },
-  {
-    "hanzi": "腊",
-    "meanings": ["gepoekelter","zwoelfter Monat"],
-    "components": [{ "radical": "月", "meaning": "Mond/Fleisch" }, { "radical": "昔", "meaning": "frueher" }],
-    "hsk": "HSK6",
-    "strokes": 12
-  },
-  {
-    "hanzi": "涝",
-    "meanings": ["Ueberschwemmung","Hochwasser"],
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "劳", "meaning": "Arbeit" }],
-    "hsk": "HSK6",
-    "strokes": 10
-  },
-  {
-    "hanzi": "砾",
-    "meanings": ["Kies","Gestein"],
-    "components": [{ "radical": "石", "meaning": "Stein" }, { "radical": "乐", "meaning": "Freude" }],
-    "hsk": "HSK6",
-    "strokes": 10
-  },
-  {
-    "hanzi": "怜",
-    "meanings": ["bemitleiden","Mitleid haben"],
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "令", "meaning": "Befehl" }],
-    "hsk": "HSK6",
-    "strokes": 8
-  },
-  {
-    "hanzi": "镰",
-    "meanings": ["Sichel"],
-    "components": [{ "radical": "钅", "meaning": "Metall" }, { "radical": "廉", "meaning": "ehrlich" }],
-    "hsk": "HSK6",
-    "strokes": 18
-  },
-  {
-    "hanzi": "聋",
-    "meanings": ["taub","gehoerlos"],
-    "components": [{ "radical": "龙", "meaning": "Drache" }, { "radical": "耳", "meaning": "Ohr" }],
-    "hsk": "HSK6",
-    "strokes": 11
-  },
-  {
-    "hanzi": "赂",
-    "meanings": ["bestechen","Bestechung"],
-    "components": [{ "radical": "贝", "meaning": "Muschel" }, { "radical": "各", "meaning": "jeder" }],
-    "hsk": "HSK6",
-    "strokes": 10
-  },
-  {
-    "hanzi": "吕",
-    "meanings": ["Familienname Lue"],
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "口", "meaning": "Mund" }],
-    "hsk": "HSK6",
-    "strokes": 6
-  },
-  {
-    "hanzi": "摹",
-    "meanings": ["nachahmen","kopieren"],
-    "components": [{ "radical": "莫", "meaning": "nicht" }, { "radical": "手", "meaning": "Hand" }],
-    "hsk": "HSK6",
-    "strokes": 14
-  },
-  {
-    "hanzi": "溺",
-    "meanings": ["ertrinken","verwoehnen"],
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "弱", "meaning": "schwach" }],
-    "hsk": "HSK6",
-    "strokes": 13
-  },
-  {
-    "hanzi": "虐",
-    "meanings": ["grausam","Grausamkeit"],
-    "components": [{ "radical": "虍", "meaning": "Tiger" }, { "radical": "又", "meaning": "wieder" }],
-    "hsk": "HSK6",
-    "strokes": 9
-  },
-  {
-    "hanzi": "殴",
-    "meanings": ["schlagen","pruegeln"],
-    "components": [{ "radical": "区", "meaning": "Gebiet" }, { "radical": "殳", "meaning": "Stock" }],
-    "hsk": "HSK6",
-    "strokes": 8
-  },
-  {
-    "hanzi": "攀",
-    "meanings": ["klettern","sich festhalten"],
-    "components": [{ "radical": "樊", "meaning": "Zaun" }, { "radical": "手", "meaning": "Hand" }],
-    "hsk": "HSK6",
-    "strokes": 19
-  },
-  {
-    "hanzi": "畔",
-    "meanings": ["Ufer","Rand"],
-    "components": [{ "radical": "田", "meaning": "Feld" }, { "radical": "半", "meaning": "halb" }],
-    "hsk": "HSK6",
-    "strokes": 10
-  },
-  {
-    "hanzi": "庞",
-    "meanings": ["riesig","umfangreich"],
-    "components": [{ "radical": "广", "meaning": "breit" }, { "radical": "龙", "meaning": "Drache" }],
-    "hsk": "HSK6",
-    "strokes": 8
-  },
-  {
-    "hanzi": "劈",
-    "meanings": ["spalten","hacken"],
-    "components": [{ "radical": "辟", "meaning": "oeffnen" }, { "radical": "刀", "meaning": "Messer" }],
-    "hsk": "HSK6",
-    "strokes": 15
-  },
-  {
-    "hanzi": "漆",
-    "meanings": ["Lack","lackieren"],
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "桼", "meaning": "Lack" }],
-    "hsk": "HSK6",
-    "strokes": 14
-  },
-  {
-    "hanzi": "绒",
-    "meanings": ["Samt","Flaum"],
-    "components": [{ "radical": "纟", "meaning": "Seide" }, { "radical": "戎", "meaning": "Waffe" }],
-    "hsk": "HSK6",
-    "strokes": 9
-  },
-  {
-    "hanzi": "腮",
-    "meanings": ["Wange","Backe"],
-    "components": [{ "radical": "月", "meaning": "Mond/Fleisch" }, { "radical": "思", "meaning": "denken" }],
-    "hsk": "HSK6",
-    "strokes": 13
-  },
-  {
-    "hanzi": "煞",
-    "meanings": ["sehr","toeten"],
-    "components": [{ "radical": "杀", "meaning": "toeten" }, { "radical": "灬", "meaning": "Feuer" }],
-    "hsk": "HSK6",
-    "strokes": 13
-  },
-  {
-    "hanzi": "涮",
-    "meanings": ["spuelen","Fondue kochen"],
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "刷", "meaning": "buersten" }],
-    "hsk": "HSK6",
-    "strokes": 11
-  },
-  {
-    "hanzi": "耸",
-    "meanings": ["aufragen","emporragen"],
-    "components": [{ "radical": "从", "meaning": "folgen" }, { "radical": "耳", "meaning": "Ohr" }],
-    "hsk": "HSK6",
-    "strokes": 10
-  },
-  {
-    "hanzi": "诵",
-    "meanings": ["rezitieren","vorlesen"],
-    "components": [{ "radical": "讠", "meaning": "Sprache" }, { "radical": "甬", "meaning": "Gang" }],
-    "hsk": "HSK6",
-    "strokes": 9
-  },
-  {
-    "hanzi": "滕",
-    "meanings": ["sprudeln","Familienname"],
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "朕", "meaning": "kaiserliches Ich" }],
-    "hsk": "HSK6",
-    "strokes": 15
-  },
-  {
-    "hanzi": "唾",
-    "meanings": ["Speichel","spucken"],
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "垂", "meaning": "haengen" }],
-    "hsk": "HSK6",
-    "strokes": 11
-  },
-  {
-    "hanzi": "惟",
-    "meanings": ["nur","allein"],
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "隹", "meaning": "Vogel" }],
-    "hsk": "HSK6",
-    "strokes": 11
-  },
-  {
-    "hanzi": "紊",
-    "meanings": ["unordentlich","chaotisch"],
-    "components": [{ "radical": "文", "meaning": "Schrift" }, { "radical": "糸", "meaning": "Seide" }],
-    "hsk": "HSK6",
-    "strokes": 10
-  },
-  {
-    "hanzi": "呜",
-    "meanings": ["schluchzen","heulen"],
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "乌", "meaning": "Kraehe" }],
-    "hsk": "HSK6",
-    "strokes": 7
-  },
-  {
-    "hanzi": "晰",
-    "meanings": ["klar","deutlich"],
-    "components": [{ "radical": "日", "meaning": "Sonne" }, { "radical": "析", "meaning": "analysieren" }],
-    "hsk": "HSK6",
-    "strokes": 12
-  },
-  {
-    "hanzi": "辖",
-    "meanings": ["verwalten","Zustaendigkeit"],
-    "components": [{ "radical": "车", "meaning": "Wagen" }, { "radical": "害", "meaning": "Schaden" }],
-    "hsk": "HSK6",
-    "strokes": 14
-  },
-  {
-    "hanzi": "削",
-    "meanings": ["schaelen","reduzieren"],
-    "components": [{ "radical": "肖", "meaning": "aehneln" }, { "radical": "刂", "meaning": "Messer" }],
-    "hsk": "HSK6",
-    "strokes": 9
-  },
-  {
-    "hanzi": "汛",
-    "meanings": ["Hochwasser","Flut"],
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "讯", "meaning": "Nachricht" }],
-    "hsk": "HSK6",
-    "strokes": 6
-  },
-  {
-    "hanzi": "衙",
-    "meanings": ["Amt","Behoerde"],
-    "components": [{ "radical": "行", "meaning": "gehen" }, { "radical": "吾", "meaning": "ich" }],
-    "hsk": "HSK6",
-    "strokes": 13
-  },
-  {
-    "hanzi": "夭",
-    "meanings": ["jung sterben","frueh"],
-    "components": [{ "radical": "大", "meaning": "gross" }],
-    "hsk": "HSK6",
-    "strokes": 4
-  },
-  {
-    "hanzi": "凿",
-    "meanings": ["meisseln","bohren"],
-    "components": [{ "radical": "业", "meaning": "Beruf" }, { "radical": "凵", "meaning": "Oeffnung" }],
-    "hsk": "HSK6",
-    "strokes": 12
-  },
-  {
-    "hanzi": "燥",
-    "meanings": ["trocken","doerr"],
-    "components": [{ "radical": "火", "meaning": "Feuer" }, { "radical": "喿", "meaning": "laermend" }],
-    "hsk": "HSK6",
-    "strokes": 17
-  },
-  {
-    "hanzi": "躁",
-    "meanings": ["ungeduldig","hektisch"],
-    "components": [{ "radical": "足", "meaning": "Fuss" }, { "radical": "喿", "meaning": "laermend" }],
-    "hsk": "HSK6",
-    "strokes": 20
-  },
-  {
-    "hanzi": "肘",
-    "meanings": ["Ellbogen"],
-    "components": [{ "radical": "月", "meaning": "Mond/Fleisch" }, { "radical": "寸", "meaning": "Zoll" }],
-    "hsk": "HSK6",
-    "strokes": 7
-  },
-  {
-    "hanzi": "滋",
-    "meanings": ["naehren","befeuchten"],
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "兹", "meaning": "dies" }],
-    "hsk": "HSK6",
-    "strokes": 12
-  },
-  {
-    "hanzi": "冤",
-    "meanings": ["Unrecht","falsch beschuldigt"],
-    "components": [{ "radical": "冖", "meaning": "Deckel" }, { "radical": "兔", "meaning": "Hase" }],
-    "hsk": "HSK6",
-    "strokes": 10
-  },
-  {
-    "hanzi": "陨",
-    "meanings": ["fallen","Meteor"],
-    "components": [{ "radical": "阝", "meaning": "Huegel" }, { "radical": "员", "meaning": "Mitglied" }],
-    "hsk": "HSK6",
-    "strokes": 9
-  },
-  {
-    "hanzi": "贿",
-    "meanings": ["bestechen","Bestechung"],
-    "components": [{ "radical": "贝", "meaning": "Muschel" }, { "radical": "有", "meaning": "haben" }],
-    "hsk": "HSK6",
-    "strokes": 10
-  },
-  {
-    "hanzi": "讥",
-    "meanings": ["verspotten","verhoehnen"],
-    "components": [{ "radical": "讠", "meaning": "Sprache" }, { "radical": "几", "meaning": "Tisch" }],
-    "hsk": "HSK6",
-    "strokes": 6
-  },
-  {
-    "hanzi": "淑",
-    "meanings": ["tugendhaft","anmutig"],
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "叔", "meaning": "Onkel" }],
-    "hsk": "HSK6",
-    "strokes": 11
-  },
-  {
-    "hanzi": "赫",
-    "meanings": ["glaenzend","hervorragend"],
-    "components": [{ "radical": "赤", "meaning": "rot" }, { "radical": "赤", "meaning": "rot" }],
-    "hsk": "HSK6",
-    "strokes": 14
-  },
-  {
-    "hanzi": "哼",
-    "meanings": ["hm","summen"],
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "亨", "meaning": "gluecklich" }],
-    "hsk": "HSK6",
-    "strokes": 10
-  },
-  {
-    "hanzi": "轰",
-    "meanings": ["donnern","bombardieren"],
-    "components": [{ "radical": "车", "meaning": "Wagen" }, { "radical": "又", "meaning": "wieder" }],
-    "hsk": "HSK6",
-    "strokes": 8
-  },
-  {
-    "hanzi": "焊",
-    "meanings": ["schweissen","loeten"],
-    "components": [{ "radical": "火", "meaning": "Feuer" }, { "radical": "旱", "meaning": "Duerre" }],
-    "hsk": "HSK6",
-    "strokes": 11
-  },
-  {
-    "hanzi": "葱",
-    "meanings": ["Fruehlingszwiebel","gruen"],
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "匆", "meaning": "eilig" }, { "radical": "心", "meaning": "Herz" }],
-    "hsk": "HSK6",
-    "strokes": 12
+    "primaryRadical": "人",
+    "radicalForm": "亻",
+    "components": [
+      {
+        "part": "亻",
+        "role": "semantic",
+        "meaning": "Mensch"
+      },
+      {
+        "part": "诸",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:储存:chu3cun2",
+      "w:储蓄:chu3xu4",
+      "w:存储:cun2chu3",
+      "w:储备:chu3bei4",
+      "w:储量:chu3liang4"
+    ],
+    "evidence": {
+      "cedict": [
+        "chu3: surname Chu; Taiwan pr. [Chu2]; (bound form) to store up; to keep in reserve; heir to the throne; Taiwan pr. [chu2]"
+      ],
+      "handedict": [
+        "chu3: abspeichern (V); sichern (V); in Reserve halten (V); Erbe (S); taiwan. Ausspr. [chu2] (X)"
+      ],
+      "unihan": "050.130:chǔ | chǔ(25)",
+      "etymology": "pictophonetic: person",
+      "old": "speichern; ansammeln"
+    }
   },
   {
     "hanzi": "串",
-    "meanings": ["Spiess","aufreihen"],
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "丨", "meaning": "Strich" }],
-    "hsk": "HSK6",
-    "strokes": 7
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "串"
+    ],
+    "readings": [
+      {
+        "pinyin": "chuàn",
+        "meaning": "Spiess; aufreihen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "丨",
+    "components": [
+      {
+        "part": "吕"
+      },
+      {
+        "part": "丨",
+        "meaning": "Strich"
+      }
+    ],
+    "words": [
+      "w:串:chuan4",
+      "w:串门:chuan4men2",
+      "w:一连串:yi1lian2chuan4"
+    ],
+    "evidence": {
+      "cedict": [
+        "chuan4: to string together; to skewer; to connect wrongly; to gang up; to rove"
+      ],
+      "handedict": [
+        "chuan4: Reihe, Kette (S); Zeichenkette, String (S, EDV); aufreihen, aneinanderreihen, etw. auf eine Schnur ziehen (V); aufreihen, verbinden, anschließen (V); eine Rolle (in einem Stück) spielen (V)"
+      ],
+      "unihan": "052.070:chuàn | chuàn(104)",
+      "etymology": "ideographic: Two objects 口 strung 丨 together",
+      "old": "Spiess; aufreihen"
+    }
   },
   {
-    "hanzi": "堕",
-    "meanings": ["fallen","herunterfallen"],
-    "components": [{ "radical": "阜", "meaning": "Huegel" }, { "radical": "土", "meaning": "Erde" }],
-    "hsk": "HSK6",
-    "strokes": 12
+    "hanzi": "闯",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "闖"
+    ],
+    "readings": [
+      {
+        "pinyin": "chuǎng",
+        "meaning": "sich stürzen, stürmen, sich durchschlagen; sich durchkämpfen, sich durchs Leben schlagen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "門",
+    "radicalForm": "门",
+    "components": [
+      {
+        "part": "门",
+        "meaning": "Tor, Tür"
+      },
+      {
+        "part": "马",
+        "meaning": "Pferd"
+      }
+    ],
+    "words": [
+      "w:闯:chuang3",
+      "w:闯红灯:chuang3hong2deng1"
+    ],
+    "evidence": {
+      "cedict": [
+        "chuang3: to rush; to charge; to dash; to break through; to temper oneself (through battling hardships)"
+      ],
+      "handedict": [
+        "chuang3: sich stürzen, stürmen, sich durchschlagen (V); sich durchkämpfen, sich durchs Leben schlagen (V)"
+      ],
+      "unihan": "052.150:chuǎng | chuǎng(55)",
+      "etymology": "ideographic: A horse 马 charging through a gate 门"
+    }
   },
   {
-    "hanzi": "粪",
-    "meanings": ["Dung","Mist"],
-    "components": [{ "radical": "米", "meaning": "Reis" }, { "radical": "异", "meaning": "verschieden" }],
-    "hsk": "HSK6",
-    "strokes": 12
+    "hanzi": "垂",
+    "level": "HSK6",
+    "traditional": [
+      "垂"
+    ],
+    "readings": [
+      {
+        "pinyin": "chuí",
+        "meaning": "haengen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "土",
+    "components": [
+      {
+        "part": "丿",
+        "meaning": "schräger Strich (links)"
+      },
+      {
+        "part": "一",
+        "meaning": "eins, horizontal"
+      },
+      {
+        "part": "土",
+        "meaning": "Erde"
+      },
+      {
+        "part": "艹",
+        "meaning": "Gras, Pflanze"
+      }
+    ],
+    "words": [
+      "w:垂直:chui2zhi2",
+      "w:垂:chui2",
+      "w:垂头丧气:chui2tou2sang4qi4",
+      "w:垂询:chui2xun2",
+      "w:垂涎:chui2xian2"
+    ],
+    "evidence": {
+      "cedict": [
+        "chui2: to hang (down); droop; dangle; bend down; hand down"
+      ],
+      "handedict": [
+        "chui2: herabhängen; nach unten hängen; herunter hängen (V)"
+      ],
+      "unihan": "053.050:chuí | chuí(88)",
+      "etymology": "pictographic: A tree with drooping branches",
+      "old": "haengen"
+    }
   },
   {
-    "hanzi": "敷",
-    "meanings": ["auftragen","auslegen"],
-    "components": [{ "radical": "尃", "meaning": "verbreiten" }, { "radical": "攵", "meaning": "schlagen" }],
-    "hsk": "HSK6",
-    "strokes": 15
+    "hanzi": "纯",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "純"
+    ],
+    "readings": [
+      {
+        "pinyin": "chún",
+        "meaning": "rein; pur"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "糸",
+    "radicalForm": "纟",
+    "components": [
+      {
+        "part": "纟",
+        "role": "semantic",
+        "meaning": "Faden"
+      },
+      {
+        "part": "屯",
+        "role": "phonetic",
+        "meaning": "lagern"
+      }
+    ],
+    "words": [
+      "w:纯:chun2",
+      "w:单纯:dan1chun2",
+      "w:纯粹:chun2cui4",
+      "w:纯洁:chun2jie2",
+      "w:纯朴:chun2pu3"
+    ],
+    "evidence": {
+      "cedict": [
+        "chun2: pure; simple; unmixed; genuine"
+      ],
+      "handedict": [
+        "chun2: "
+      ],
+      "unihan": "054.010:chún | chún(133)",
+      "etymology": "pictophonetic: silk",
+      "old": "rein; pur"
+    }
   },
   {
-    "hanzi": "辜",
-    "meanings": ["Schuld","schuldig"],
-    "components": [{ "radical": "古", "meaning": "alt" }, { "radical": "辛", "meaning": "bitter" }],
-    "hsk": "HSK6",
-    "strokes": 12
+    "hanzi": "瓷",
+    "level": "HSK6",
+    "traditional": [
+      "瓷"
+    ],
+    "readings": [
+      {
+        "pinyin": "cí",
+        "meaning": "Porzellan"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "瓦",
+    "components": [
+      {
+        "part": "次",
+        "role": "phonetic",
+        "meaning": "naechster"
+      },
+      {
+        "part": "瓦",
+        "role": "semantic",
+        "meaning": "Ziegel"
+      }
+    ],
+    "words": [
+      "w:瓷器:ci2qi4",
+      "w:陶瓷:tao2ci2",
+      "w:瓷砖:ci2zhuan1"
+    ],
+    "evidence": {
+      "cedict": [
+        "ci2: chinaware; porcelain; china"
+      ],
+      "handedict": [
+        "ci2: Porzellan (S)"
+      ],
+      "unihan": "055.070:cí | cí(68)",
+      "etymology": "pictophonetic: pottery",
+      "old": "Porzellan"
+    }
   },
   {
-    "hanzi": "雇",
-    "meanings": ["anstellen","mieten"],
-    "components": [{ "radical": "户", "meaning": "Tuer" }, { "radical": "隹", "meaning": "Vogel" }],
-    "hsk": "HSK6",
-    "strokes": 12
+    "hanzi": "匆",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "匆"
+    ],
+    "readings": [
+      {
+        "pinyin": "cōng",
+        "meaning": "hastig; eilig; überstürzt"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 5,
+    "primaryRadical": "勹",
+    "components": [
+      {
+        "part": "勿"
+      },
+      {
+        "part": "丶",
+        "meaning": "Punkt"
+      }
+    ],
+    "words": [
+      "w:匆匆:cong1cong1",
+      "w:匆忙:cong1mang2"
+    ],
+    "evidence": {
+      "cedict": [
+        "cong1: hurried; hasty; variant of 匆[cong1]; variant of 匆[cong1]"
+      ],
+      "handedict": [
+        "cong1: hastig; eilig; überstürzt (Adj)"
+      ],
+      "unihan": "056.050:cōng | cōng(124)"
+    }
   },
   {
-    "hanzi": "贯",
-    "meanings": ["durchdringen","zusammenhaengend"],
-    "components": [{ "radical": "毌", "meaning": "durchbohren" }, { "radical": "贝", "meaning": "Muschel" }],
-    "hsk": "HSK6",
-    "strokes": 8
+    "hanzi": "醋",
+    "level": "HSK6",
+    "traditional": [
+      "醋"
+    ],
+    "readings": [
+      {
+        "pinyin": "cù",
+        "meaning": "Essig"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "酉",
+    "components": [
+      {
+        "part": "酉",
+        "meaning": "Alkohol"
+      },
+      {
+        "part": "昔",
+        "meaning": "frueher"
+      }
+    ],
+    "words": [
+      "w:醋:cu4",
+      "w:糖醋:tang2cu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "cu4: vinegar; jealousy (in love rivalry)"
+      ],
+      "handedict": [
+        "cu4: Essig (S, Ess); Eifersucht (S)"
+      ],
+      "unihan": "057.120:cù | cù(22)",
+      "etymology": "ideographic: Aged 昔 wine 酉; wine gone sour",
+      "old": "Essig"
+    }
   },
   {
-    "hanzi": "闺",
-    "meanings": ["Frauengemach","Boudoir"],
-    "components": [{ "radical": "门", "meaning": "Tor" }, { "radical": "圭", "meaning": "Jade-Tafel" }],
-    "hsk": "HSK6",
-    "strokes": 9
+    "hanzi": "脆",
+    "level": "HSK6",
+    "traditional": [
+      "脆"
+    ],
+    "readings": [
+      {
+        "pinyin": "cuì",
+        "meaning": "klar und hell; knusperig, knusprig, frisch, bröckelig; schnell und ordentlich"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "肉",
+    "radicalForm": "月",
+    "components": [
+      {
+        "part": "月",
+        "meaning": "Fleisch"
+      },
+      {
+        "part": "危"
+      }
+    ],
+    "words": [
+      "w:脆:cui4",
+      "w:脆弱:cui4ruo4",
+      "w:干脆:gan1cui4",
+      "w:清脆:qing1cui4"
+    ],
+    "evidence": {
+      "cedict": [
+        "cui4: old variant of 脆[cui4]; brittle; fragile; crisp; crunchy"
+      ],
+      "handedict": [
+        "cui4: klar und hell (Adj); knusperig, knusprig, frisch, bröckelig (Adj); schnell und ordentlich (Adj); zerbrechlich, brüchig, spröde (Adj)"
+      ],
+      "unihan": "058.130:cuì | cuì(92)",
+      "etymology": "ideographic: Something dangerous 危 to one's flesh ⺼"
+    }
   },
   {
-    "hanzi": "施",
-    "meanings": ["ausueben","anwenden"],
-    "components": [{ "radical": "方", "meaning": "Richtung" }, { "radical": "也", "meaning": "auch" }],
-    "hsk": "HSK6",
-    "strokes": 9
+    "hanzi": "寸",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "寸"
+    ],
+    "readings": [
+      {
+        "pinyin": "cùn",
+        "meaning": "sehr wenig; Daumen; Maßeinheit (ca 3,5cm)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 3,
+    "primaryRadical": "寸",
+    "components": [
+      {
+        "part": "𬺰"
+      },
+      {
+        "part": "丶",
+        "meaning": "Punkt"
+      }
+    ],
+    "words": [
+      "w:寸:cun4",
+      "w:尺寸:chi3cun4",
+      "w:分寸:fen1cun4",
+      "w:寸步难行:cun4bu4nan2xing2",
+      "w:铢积寸累:zhu1ji1cun4lei3"
+    ],
+    "evidence": {
+      "cedict": [
+        "cun4: a unit of length; inch; thumb"
+      ],
+      "handedict": [
+        "cun4: sehr wenig (Adj); Daumen (S); Maßeinheit (ca 3,5cm) (S); Radikal Nr. 41 = Daumen, Zoll (Sprachw)"
+      ],
+      "unihan": "059.060:cùn | cùn(63) cun(29)",
+      "etymology": "ideographic: A hand with a dot indicating where the pulse can be felt, about an inch up the wrist"
+    }
   },
   {
-    "hanzi": "兜",
-    "meanings": ["Beutel","herumfahren"],
-    "components": [{ "radical": "白", "meaning": "weiss" }, { "radical": "儿", "meaning": "Kind" }],
-    "hsk": "HSK6",
-    "strokes": 11
+    "hanzi": "挫",
+    "level": "HSK6",
+    "traditional": [
+      "挫"
+    ],
+    "readings": [
+      {
+        "pinyin": "cuò",
+        "meaning": "besiegen; Rueckschlag"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "role": "semantic",
+        "meaning": "Hand"
+      },
+      {
+        "part": "坐",
+        "role": "phonetic",
+        "meaning": "sitzen"
+      }
+    ],
+    "words": [
+      "w:挫折:cuo4zhe2",
+      "w:挫败:cuo4bai4",
+      "w:受挫:shou4cuo4",
+      "w:抑扬顿挫:yi4yang2dun4cuo4",
+      "w:挫败感:cuo4bai4gan3"
+    ],
+    "evidence": {
+      "cedict": [
+        "cuo4: obstructed; to fail; to oppress; to repress; to lower the tone"
+      ],
+      "handedict": [
+        "cuo4: scheitern, unterdrücken, den Ton senken, dämpfen, zurückbiegen (V)"
+      ],
+      "unihan": "060.020:cuò | cuò(33)",
+      "etymology": "pictophonetic: hand",
+      "old": "besiegen; Rueckschlag"
+    }
+  },
+  {
+    "hanzi": "搭",
+    "level": "HSK6",
+    "traditional": [
+      "搭"
+    ],
+    "readings": [
+      {
+        "pinyin": "dā",
+        "meaning": "aufbauen; mitfahren"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "role": "semantic",
+        "meaning": "Hand"
+      },
+      {
+        "part": "荅",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:搭:da1",
+      "w:搭配:da1pei4",
+      "w:搭乘:da1cheng2",
+      "w:搭档:da1dang4",
+      "w:搭建:da1jian4"
+    ],
+    "evidence": {
+      "cedict": [
+        "da1: to put up; to build (scaffolding); to hang (clothes on a pole); to connect; to join"
+      ],
+      "handedict": [
+        "da1: bauen, errichten, verbinden (V); fahren mit (einem Fahrzeug) (V); nehmen (ein Auto oder Zug) (V); paarweise anordnen (V); hinzufügen (V)"
+      ],
+      "unihan": "061.030:dā | dā(85)",
+      "etymology": "pictophonetic: hand",
+      "old": "aufbauen; mitfahren"
+    }
+  },
+  {
+    "hanzi": "呆",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "呆"
+    ],
+    "readings": [
+      {
+        "pinyin": "dāi",
+        "meaning": "dumm, dümmlich, blöd, blöde; bleiben"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "口",
+    "components": [
+      {
+        "part": "口",
+        "meaning": "Mund"
+      },
+      {
+        "part": "木",
+        "meaning": "Baum, Holz"
+      }
+    ],
+    "words": [
+      "w:呆:dai1",
+      "w:痴呆:chi1dai1",
+      "w:发呆:fa1dai1",
+      "w:目瞪口呆:mu4deng4kou3dai1",
+      "w:老年痴呆:lao3nian2chi1dai1"
+    ],
+    "evidence": {
+      "cedict": [
+        "dai1: foolish; stupid; expressionless; blank; variant of 待[dai1]; foolish; stupid (variant of 呆[dai1]); expressionless; blank (variant of 呆[dai1])"
+      ],
+      "handedict": [
+        "dai1: dumm, dümmlich, blöd, blöde(Adj); bleiben (V)"
+      ],
+      "unihan": "062.090:dāi | dāi(136)",
+      "etymology": "ideographic: One with wooden 木 speech 口"
+    }
+  },
+  {
+    "hanzi": "贷",
+    "level": "HSK6",
+    "traditional": [
+      "貸"
+    ],
+    "readings": [
+      {
+        "pinyin": "dài",
+        "meaning": "Darlehen; leihen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "貝",
+    "radicalForm": "贝",
+    "components": [
+      {
+        "part": "代",
+        "role": "phonetic",
+        "meaning": "Generation"
+      },
+      {
+        "part": "贝",
+        "role": "semantic",
+        "meaning": "Muschel"
+      }
+    ],
+    "words": [
+      "w:贷款:dai4kuan3",
+      "w:信贷:xin4dai4",
+      "w:借贷:jie4dai4",
+      "w:还贷:huan2dai4",
+      "w:房贷:fang2dai4"
+    ],
+    "evidence": {
+      "cedict": [
+        "dai4: to lend on interest; to borrow; a loan; leniency; to make excuses"
+      ],
+      "handedict": [
+        "dai4: leihen (V); Kredit, Darlehen (S, Wirtsch)"
+      ],
+      "unihan": "063.140:dài",
+      "etymology": "pictophonetic: money",
+      "old": "Darlehen; leihen"
+    }
+  },
+  {
+    "hanzi": "耽",
+    "level": "HSK6",
+    "traditional": [
+      "耽"
+    ],
+    "readings": [
+      {
+        "pinyin": "dān",
+        "meaning": "verzoegern; aufhalten"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "耳",
+    "components": [
+      {
+        "part": "耳",
+        "role": "semantic",
+        "meaning": "Ohr"
+      },
+      {
+        "part": "冘",
+        "role": "phonetic",
+        "meaning": "zoegern"
+      }
+    ],
+    "words": [
+      "w:耽误:dan1wu5",
+      "w:耽搁:dang1e5"
+    ],
+    "evidence": {
+      "cedict": [
+        "dan1: to indulge in; to delay; variant of 耽[dan1]"
+      ],
+      "handedict": [
+        "dan1: sich in etw. ergehen; einer Sache frönen (V); jmdn. aufhalten (V); Variante von 耽[dan1] (X)"
+      ],
+      "unihan": "064.110:dān | dān(33)",
+      "etymology": "pictophonetic: ear",
+      "old": "verzoegern; aufhalten"
+    }
+  },
+  {
+    "hanzi": "诞",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "誕"
+    ],
+    "readings": [
+      {
+        "pinyin": "dàn",
+        "meaning": "Geburt"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "言",
+    "radicalForm": "讠",
+    "components": [
+      {
+        "part": "讠",
+        "role": "semantic",
+        "meaning": "Sprache"
+      },
+      {
+        "part": "延",
+        "role": "phonetic",
+        "meaning": "verlaengern"
+      }
+    ],
+    "words": [
+      "w:诞生:dan4sheng1",
+      "w:诞辰:dan4chen2",
+      "w:荒诞:huang1dan4"
+    ],
+    "evidence": {
+      "cedict": [
+        "dan4: birth; birthday; brag; boast; to increase"
+      ],
+      "handedict": [
+        "dan4: absurd, grotesk (Adj); Bsp.: 一個荒誕的念頭。 一个荒诞的念头。 -- ein absurder Gedanke; Geburt, Geburtstag (S); Bsp.: 聖誕，聖誕節，誕辰， 圣诞，圣诞节，诞辰， --"
+      ],
+      "unihan": "065.100:dàn | dàn(40)",
+      "etymology": "pictophonetic: speech",
+      "old": "Geburt"
+    }
+  },
+  {
+    "hanzi": "岛",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "島"
+    ],
+    "readings": [
+      {
+        "pinyin": "dǎo",
+        "meaning": "Insel"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "山",
+    "components": [
+      {
+        "part": "鸟",
+        "meaning": "Vogel"
+      },
+      {
+        "part": "山",
+        "meaning": "Berg"
+      }
+    ],
+    "words": [
+      "w:岛:dao3",
+      "w:半岛:ban4dao3",
+      "w:岛屿:dao3yu3",
+      "w:胰岛素:yi2dao3su4"
+    ],
+    "evidence": {
+      "cedict": [
+        "dao3: variant of 島|岛[dao3]; island; CL:個|个[ge4],座[zuo4]"
+      ],
+      "handedict": [
+        "dao3: Insel (S, Geo)"
+      ],
+      "unihan": "068.040:dǎo | dǎo(190)",
+      "etymology": "ideographic: A bird 鸟 perched atop a mountain 山",
+      "old": "Insel"
+    }
+  },
+  {
+    "hanzi": "稻",
+    "level": "HSK6",
+    "traditional": [
+      "稻"
+    ],
+    "readings": [
+      {
+        "pinyin": "dào",
+        "meaning": "Reis (Pflanze)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "禾",
+    "components": [
+      {
+        "part": "禾",
+        "role": "semantic",
+        "meaning": "Getreide"
+      },
+      {
+        "part": "舀",
+        "role": "phonetic",
+        "meaning": "schoepfen"
+      }
+    ],
+    "words": [
+      "w:水稻:shui3dao4",
+      "w:稻草:dao4cao3",
+      "w:稻子:dao4zi5"
+    ],
+    "evidence": {
+      "cedict": [
+        "dao4: paddy; rice (Oryza sativa)"
+      ],
+      "handedict": [
+        "dao4: Reis, Rohreis (S, Agrar)"
+      ],
+      "unihan": "069.010:dào | dào(92)",
+      "etymology": "pictophonetic: grain",
+      "old": "Reis (Pflanze)"
+    }
+  },
+  {
+    "hanzi": "德",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "德"
+    ],
+    "readings": [
+      {
+        "pinyin": "dé",
+        "meaning": "Kraft; Tugend; Tugendkraft"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "彳",
+    "components": [
+      {
+        "part": "彳",
+        "meaning": "Schritt (links)"
+      },
+      {
+        "part": "𢛳"
+      }
+    ],
+    "words": [
+      "w:道德:dao4de2",
+      "w:美德:mei3de2",
+      "w:品德:pin3de2",
+      "w:德才兼备:de2cai2jian1bei4",
+      "w:公德:gong1de2"
+    ],
+    "evidence": {
+      "cedict": [
+        "de2: Germany; German; abbr. for 德國|德国[De2 guo2]; virtue; goodness"
+      ],
+      "handedict": [
+        "de2: Kraft (S); Tugend (S); Tugendkraft (S); deutsch (Adj), Deutschland (Eig); Abk. für 德国|德國[de2 guo2] (X)"
+      ],
+      "unihan": "069.060:dé | dé(97)",
+      "etymology": "pictophonetic: heart"
+    }
+  },
+  {
+    "hanzi": "滴",
+    "level": "HSK6",
+    "traditional": [
+      "滴"
+    ],
+    "readings": [
+      {
+        "pinyin": "dī",
+        "meaning": "tropfen; Tropfen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 14,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "啇",
+        "role": "phonetic",
+        "meaning": "Basis"
+      }
+    ],
+    "words": [
+      "w:滴:di1",
+      "w:水滴石穿:shui3di1shi2chuan1",
+      "w:滴水穿石:di1shui3chuan1shi2",
+      "w:绳锯木断，水滴石穿:sheng2ju4mu4duan4shui3di1shi2chuan1"
+    ],
+    "evidence": {
+      "cedict": [
+        "di1: to drip; to let drip; to apply (eye drops etc); (bound form) a drop (of liquid); classifier for drops of liquid"
+      ],
+      "handedict": [
+        "di1: Tropfen (S); tropfen (V)"
+      ],
+      "unihan": "071.030:dī | dī(99)",
+      "etymology": "pictophonetic: water",
+      "old": "tropfen; Tropfen"
+    }
+  },
+  {
+    "hanzi": "抵",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "抵"
+    ],
+    "readings": [
+      {
+        "pinyin": "dǐ",
+        "meaning": "widerstehen; ankommen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "role": "semantic",
+        "meaning": "Hand"
+      },
+      {
+        "part": "氐",
+        "role": "phonetic",
+        "meaning": "Grundlage"
+      }
+    ],
+    "words": [
+      "w:抵达:di3da2",
+      "w:抵抗:di3kang4",
+      "w:抵:di3",
+      "w:抵触:di3chu4",
+      "w:抵挡:di3dang3"
+    ],
+    "evidence": {
+      "cedict": [
+        "di3: to press against; to support; to prop up; to resist; to withstand; to be equal to; to match; to balance; to offset; to mortgage"
+      ],
+      "handedict": [
+        "di3: stützen, Halt geben (V); widerstehen, abwehren (V); entschädigen, Ersatz leisten, büßen (V); verpfänden, etw. mit Hypotheken belasten (V); ausgleichen, gleichen Wert haben (V)"
+      ],
+      "unihan": "071.250:dǐ | dǐ(104)",
+      "etymology": "pictophonetic: hand",
+      "old": "widerstehen; ankommen"
+    }
+  },
+  {
+    "hanzi": "帝",
+    "level": "HSK6",
+    "traditional": [
+      "帝"
+    ],
+    "readings": [
+      {
+        "pinyin": "dì",
+        "meaning": "Kaiser"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "巾",
+    "components": [
+      {
+        "part": "立",
+        "meaning": "stehen"
+      },
+      {
+        "part": "巾",
+        "meaning": "Tuch"
+      }
+    ],
+    "words": [
+      "w:皇帝:huang2di4",
+      "w:帝国:di4guo2",
+      "w:帝国主义:di4guo2zhu3yi4"
+    ],
+    "evidence": {
+      "cedict": [
+        "di4: (bound form) emperor; sovereign; supreme deity"
+      ],
+      "handedict": [
+        "di4: Imperator, erhabenes Wesen; Kaiser (S); Bsp.: 皇帝 皇帝 -- Kaiser; erhabener Kaiser; Bsp.: 上帝 上帝 -- höchstes Wesen; Gott"
+      ],
+      "unihan": "072.110:dì | dì(606)",
+      "etymology": "pictographic: An altar on which a sacrifice is being made",
+      "old": "Kaiser"
+    }
+  },
+  {
+    "hanzi": "吊",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "吊"
+    ],
+    "readings": [
+      {
+        "pinyin": "diào",
+        "meaning": "haengen; trauern"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "口",
+    "components": [
+      {
+        "part": "口",
+        "meaning": "Mund"
+      },
+      {
+        "part": "巾",
+        "meaning": "Tuch"
+      }
+    ],
+    "words": [
+      "w:吊:diao4",
+      "w:吊销:diao4xiao1",
+      "w:提心吊胆:ti2xin1diao4dan3"
+    ],
+    "evidence": {
+      "cedict": [
+        "diao4: to suspend; to hang up; to hang a person; a string of 100 cash (arch.); to lament"
+      ],
+      "handedict": [
+        "diao4: sperren, unterbrechen, aussetzen (V); hängen, aufhängen, jmdn. erhängen (V); Kran (S, Tech); Umlenkrolle (S, Tech); annullieren, für ungültig erklären, widerrufen, zurücknehmen (V)"
+      ],
+      "unihan": "075.080:diào | diào(59)",
+      "old": "haengen; trauern"
+    }
+  },
+  {
+    "hanzi": "钓",
+    "level": "HSK6",
+    "traditional": [
+      "釣"
+    ],
+    "readings": [
+      {
+        "pinyin": "diào",
+        "meaning": "angeln"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "金",
+    "radicalForm": "钅",
+    "components": [
+      {
+        "part": "钅",
+        "meaning": "Gold, Metall"
+      },
+      {
+        "part": "勺"
+      }
+    ],
+    "words": [
+      "w:钓鱼:diao4yu2",
+      "w:钓:diao4",
+      "w:沽名钓誉:gu1ming2diao4yu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "diao4: to fish with a hook and line; to angle"
+      ],
+      "handedict": [
+        "diao4: angeln (V)"
+      ],
+      "unihan": "075.090:diào | diào(72)",
+      "etymology": "ideographic: A metal 钅 hook 勺; 勺 also provides the pronunciation"
+    }
+  },
+  {
+    "hanzi": "跌",
+    "level": "HSK6",
+    "traditional": [
+      "跌"
+    ],
+    "readings": [
+      {
+        "pinyin": "diē",
+        "meaning": "fallen; sinken"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "足",
+    "components": [
+      {
+        "part": "𧾷"
+      },
+      {
+        "part": "失",
+        "meaning": "verlieren"
+      }
+    ],
+    "words": [
+      "w:跌:die1",
+      "w:跌幅:die1fu2",
+      "w:下跌:xia4die1",
+      "w:跌宕:die1dang4",
+      "w:跌落:die1luo4"
+    ],
+    "evidence": {
+      "cedict": [
+        "die1: to fall; to tumble; to trip; (of prices etc) to drop; Taiwan pr. [die2]"
+      ],
+      "handedict": [
+        "die1: "
+      ],
+      "unihan": "076.010:diē | diē(47)",
+      "etymology": "ideographic: To lose 失 one's footing 足",
+      "old": "fallen; sinken"
+    }
+  },
+  {
+    "hanzi": "顶",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "頂"
+    ],
+    "readings": [
+      {
+        "pinyin": "dǐng",
+        "meaning": "Zählwort für Kopfbedeckungen, Hüte, Schleier; (用头撞击) etw. mit dem Kopf stoßen, (mit den Hörnern) durchbohren; (用头支承) etw. auf dem Kopf tragen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "頁",
+    "radicalForm": "页",
+    "components": [
+      {
+        "part": "丁",
+        "role": "phonetic"
+      },
+      {
+        "part": "页",
+        "role": "semantic",
+        "meaning": "Kopf, Seite"
+      }
+    ],
+    "words": [
+      "w:顶:ding3",
+      "w:山顶:shan1ding3",
+      "w:登顶:deng1ding3",
+      "w:顶多:ding3duo1",
+      "w:顶级:ding3ji2"
+    ],
+    "evidence": {
+      "cedict": [
+        "ding3: apex; crown of the head; top; roof; most"
+      ],
+      "handedict": [
+        "ding3: ZEW für Kopfbedeckungen, Hüte, Schleier (Zähl); (用头撞击) etw. mit dem Kopf stoßen, (mit den Hörnern) durchbohren (V); (用头支承) etw. auf dem Kopf tragen (V); Vermieterrechte oder Betriebsführungsrechte abtreten bzw. erlangen (V); (最高部分) höchster Punkt, Scheitel, Spitze (S)"
+      ],
+      "unihan": "077.040:dǐng | dǐng(445)",
+      "etymology": "pictophonetic: head"
+    }
   },
   {
     "hanzi": "栋",
-    "meanings": ["Hauptbalken","Gebaeude"],
-    "components": [{ "radical": "木", "meaning": "Holz" }, { "radical": "东", "meaning": "Osten" }],
-    "hsk": "HSK6",
-    "strokes": 9
+    "level": "HSK6",
+    "traditional": [
+      "棟"
+    ],
+    "readings": [
+      {
+        "pinyin": "dòng",
+        "meaning": "Hauptbalken; Gebaeude"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "role": "semantic",
+        "meaning": "Holz"
+      },
+      {
+        "part": "东",
+        "role": "phonetic",
+        "meaning": "Osten"
+      }
+    ],
+    "words": [
+      "w:栋:dong4",
+      "w:栋梁:dong4liang2",
+      "w:汗牛充栋:han4niu2chong1dong4"
+    ],
+    "evidence": {
+      "cedict": [
+        "dong4: classifier for houses or buildings; ridgepole (old)"
+      ],
+      "handedict": [
+        "dong4: First, Dachfirst (S); ZEW für Häuser, Gebäude (Zähl)"
+      ],
+      "unihan": "079.010:dòng",
+      "etymology": "pictophonetic: wood",
+      "old": "Hauptbalken; Gebaeude"
+    }
   },
   {
-    "hanzi": "迄",
-    "meanings": ["bis","bis jetzt"],
-    "components": [{ "radical": "辶", "meaning": "gehen" }, { "radical": "乞", "meaning": "betteln" }],
-    "hsk": "HSK6",
-    "strokes": 6
+    "hanzi": "逗",
+    "level": "HSK6",
+    "traditional": [
+      "逗"
+    ],
+    "readings": [
+      {
+        "pinyin": "dòu",
+        "meaning": "necken; lustig"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "辵",
+    "radicalForm": "辶",
+    "components": [
+      {
+        "part": "辶",
+        "role": "semantic",
+        "meaning": "gehen"
+      },
+      {
+        "part": "豆",
+        "role": "phonetic",
+        "meaning": "Bohne"
+      }
+    ],
+    "words": [
+      "w:逗:dou4",
+      "w:逗留:dou4liu2"
+    ],
+    "evidence": {
+      "cedict": [
+        "dou4: to tease (playfully); to entice; (coll.) to joke; (coll.) funny; amusing; to stay; to sojourn; brief pause at the end of a phrase (variant of 讀|读[dou4])"
+      ],
+      "handedict": [
+        "dou4: verweilen, sich aufhalten (V); Aufenthalt (S); (zum Lachen, Liebhaben) reizen, jmdn. zum Lachen bringen (V); necken, hänseln, aufziehen (V); spaßhaft, komisch (Adj); Pause (S)"
+      ],
+      "unihan": "080.020:dòu | dòu(77)",
+      "etymology": "pictophonetic: walk",
+      "old": "necken; lustig"
+    }
   },
   {
-    "hanzi": "斧",
-    "meanings": ["Axt","Beil"],
-    "components": [{ "radical": "父", "meaning": "Vater" }, { "radical": "斤", "meaning": "Axt" }],
-    "hsk": "HSK6",
-    "strokes": 8
+    "hanzi": "督",
+    "level": "HSK6",
+    "traditional": [
+      "督"
+    ],
+    "readings": [
+      {
+        "pinyin": "dū",
+        "meaning": "beaufsichtigen, kontrollieren, überwachen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "目",
+    "components": [
+      {
+        "part": "叔",
+        "role": "phonetic"
+      },
+      {
+        "part": "目",
+        "role": "semantic",
+        "meaning": "Auge"
+      }
+    ],
+    "words": [
+      "w:监督:jian1du1",
+      "w:督促:du1cu4",
+      "w:基督教:ji1du1jiao4"
+    ],
+    "evidence": {
+      "cedict": [
+        "du1: (bound form) to supervise"
+      ],
+      "handedict": [
+        "du1: beaufsichtigen, kontrollieren, überwachen (V)"
+      ],
+      "unihan": "080.090:dū | dū(53)",
+      "etymology": "pictophonetic: eye"
+    }
   },
   {
-    "hanzi": "魅",
-    "meanings": ["Daemon","bezaubernd"],
-    "components": [{ "radical": "鬼", "meaning": "Geist" }, { "radical": "未", "meaning": "nicht" }],
-    "hsk": "HSK6",
-    "strokes": 14
+    "hanzi": "毒",
+    "level": "HSK6",
+    "traditional": [
+      "毒"
+    ],
+    "readings": [
+      {
+        "pinyin": "dú",
+        "meaning": "Gift; giftig"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "母",
+    "components": [
+      {
+        "part": "龶",
+        "role": "semantic"
+      },
+      {
+        "part": "母",
+        "role": "phonetic",
+        "meaning": "Mutter"
+      }
+    ],
+    "words": [
+      "w:毒:du2",
+      "w:病毒:bing4du2",
+      "w:消毒:xiao1du2",
+      "w:中毒:zhong4du2",
+      "w:毒品:du2pin3"
+    ],
+    "evidence": {
+      "cedict": [
+        "du2: poison; to poison; poisonous; malicious; cruel"
+      ],
+      "handedict": [
+        "du2: Gift, Narkotikum (S, Pharm)"
+      ],
+      "unihan": "080.110:dú | dú(188)",
+      "etymology": "pictophonetic: a poisonous plant",
+      "old": "Gift; giftig"
+    }
   },
   {
-    "hanzi": "莹",
-    "meanings": ["glaenzend","kristallklar"],
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "荧", "meaning": "schimmern" }],
-    "hsk": "HSK6",
-    "strokes": 10
+    "hanzi": "渡",
+    "level": "HSK6",
+    "traditional": [
+      "渡"
+    ],
+    "readings": [
+      {
+        "pinyin": "dù",
+        "meaning": "ueberqueren"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "度",
+        "role": "phonetic",
+        "meaning": "Grad"
+      }
+    ],
+    "words": [
+      "w:渡:du4",
+      "w:过渡:guo4du4",
+      "w:引渡:yin3du4",
+      "w:过渡期:guo4du4qi1",
+      "w:暗渡陈仓:an4du4chen2cang1"
+    ],
+    "evidence": {
+      "cedict": [
+        "du4: to cross; to pass through; to ferry"
+      ],
+      "handedict": [
+        "du4: überqueren (V); übersetzen (mit Fähre) (V)"
+      ],
+      "unihan": "081.140:dù | dù(176)",
+      "etymology": "pictophonetic: water",
+      "old": "ueberqueren"
+    }
   },
   {
-    "hanzi": "钳",
-    "meanings": ["Zange","klemmen"],
-    "components": [{ "radical": "钅", "meaning": "Metall" }, { "radical": "甘", "meaning": "suess" }],
-    "hsk": "HSK6",
-    "strokes": 10
+    "hanzi": "端",
+    "level": "HSK6",
+    "traditional": [
+      "端"
+    ],
+    "readings": [
+      {
+        "pinyin": "duān",
+        "meaning": "Ende; Anfang; aufrecht"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 14,
+    "primaryRadical": "立",
+    "components": [
+      {
+        "part": "立",
+        "role": "semantic",
+        "meaning": "stehen"
+      },
+      {
+        "part": "耑",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:端:duan1",
+      "w:高端:gao1duan1",
+      "w:极端:ji2duan1",
+      "w:弊端:bi4duan1",
+      "w:端正:duan1zheng4"
+    ],
+    "evidence": {
+      "cedict": [
+        "duan1: (bound form) tip; end; extremity; (bound form) aspect; facet; (bound form) upright; proper; to hold sth level with both hands; to carry; to eliminate; to wipe out"
+      ],
+      "handedict": [
+        "duan1: Extremität (S); Pforte (S); Ende (S); Punkt (S); tragen (V)"
+      ],
+      "unihan": "082.010:duān | duān(259)",
+      "etymology": "pictophonetic: stand",
+      "old": "Ende; Anfang; aufrecht"
+    }
   },
   {
-    "hanzi": "鄙",
-    "meanings": ["verachten","niedrig"],
-    "components": [{ "radical": "啚", "meaning": "geizig" }, { "radical": "阝", "meaning": "Stadt" }],
-    "hsk": "HSK6",
-    "strokes": 13
+    "hanzi": "蹲",
+    "level": "HSK6",
+    "traditional": [
+      "蹲"
+    ],
+    "readings": [
+      {
+        "pinyin": "dūn",
+        "meaning": "hocken; kauern"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 19,
+    "primaryRadical": "足",
+    "components": [
+      {
+        "part": "𧾷"
+      },
+      {
+        "part": "尊",
+        "role": "phonetic",
+        "meaning": "verehren"
+      }
+    ],
+    "words": [
+      "w:蹲:dun1"
+    ],
+    "evidence": {
+      "cedict": [
+        "dun1: to crouch; to squat; to stay (somewhere)"
+      ],
+      "handedict": [
+        "dun1: "
+      ],
+      "unihan": "083.120:dūn | dūn(107)",
+      "etymology": "pictophonetic: foot",
+      "old": "hocken; kauern"
+    }
   },
   {
-    "hanzi": "蔬",
-    "meanings": ["Gemuese"],
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "疏", "meaning": "sparsam" }],
-    "hsk": "HSK6",
-    "strokes": 15
+    "hanzi": "夺",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "奪"
+    ],
+    "readings": [
+      {
+        "pinyin": "duó",
+        "meaning": "ergreifen; gewaltsam wegnehmen; die Kontrolle entreißen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "大",
+    "components": [
+      {
+        "part": "大",
+        "meaning": "gross"
+      },
+      {
+        "part": "寸",
+        "meaning": "Daumenbreit, Zoll"
+      }
+    ],
+    "words": [
+      "w:夺:duo2",
+      "w:夺取:duo2qu3",
+      "w:争夺:zheng1duo2",
+      "w:剥夺:bo1duo2",
+      "w:夺冠:duo2guan4"
+    ],
+    "evidence": {
+      "cedict": [
+        "duo2: to seize; to take away forcibly; to wrest control of; to compete or strive for; to force one's way through"
+      ],
+      "handedict": [
+        "duo2: ergreifen (V); gewaltsam wegnehmen (V); die Kontrolle entreißen (V); konkurrieren oder anstreben (V); sich durchdrängen (V)"
+      ],
+      "unihan": "084.130:duó | duó(197)",
+      "etymology": "ideographic: A man 大 grasping something 寸"
+    }
   },
   {
-    "hanzi": "纂",
-    "meanings": ["zusammenstellen","kompilieren"],
-    "components": [{ "radical": "算", "meaning": "rechnen" }, { "radical": "糸", "meaning": "Seide" }],
-    "hsk": "HSK6",
-    "strokes": 20
+    "hanzi": "额",
+    "level": "HSK6",
+    "traditional": [
+      "額"
+    ],
+    "readings": [
+      {
+        "pinyin": "é",
+        "meaning": ""
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "頁",
+    "radicalForm": "页",
+    "components": [
+      {
+        "part": "客",
+        "role": "phonetic"
+      },
+      {
+        "part": "页",
+        "role": "semantic",
+        "meaning": "Kopf, Seite"
+      }
+    ],
+    "words": [
+      "w:金额:jin1e2",
+      "w:名额:ming2e2",
+      "w:余额:yu2e2",
+      "w:差额:cha1e2",
+      "w:额度:e2du4"
+    ],
+    "evidence": {
+      "cedict": [
+        "e2: variant of 額|额[e2]; forehead; horizontal tablet or inscribed board; specified number or amount"
+      ],
+      "handedict": [
+        "e2: "
+      ],
+      "unihan": "086.140:é | é(108)",
+      "etymology": "pictophonetic: head"
+    }
   },
   {
-    "hanzi": "暄",
-    "meanings": ["warm","mild"],
-    "components": [{ "radical": "日", "meaning": "Sonne" }, { "radical": "宣", "meaning": "verkuenden" }],
-    "hsk": "HSK6",
-    "strokes": 13
+    "hanzi": "恶",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "惡"
+    ],
+    "readings": [
+      {
+        "pinyin": "è",
+        "meaning": "boese; schlecht"
+      },
+      {
+        "pinyin": "wù",
+        "meaning": "hassen, nicht mögen; verabscheuen"
+      },
+      {
+        "pinyin": "ě",
+        "meaning": ""
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "心",
+    "components": [
+      {
+        "part": "亚",
+        "role": "phonetic",
+        "meaning": "zweiter"
+      },
+      {
+        "part": "心",
+        "role": "semantic",
+        "meaning": "Herz"
+      }
+    ],
+    "words": [
+      "w:恶劣:e4lie4",
+      "w:可恶:ke3wu4",
+      "w:恶心:e3xin5",
+      "w:恶:e4",
+      "w:丑恶:chou3e4"
+    ],
+    "evidence": {
+      "cedict": [
+        "e4: evil; fierce; vicious; ugly; coarse",
+        "wu4: to hate; to loathe; ashamed; to fear; to slander",
+        "e3: used in 惡心|恶心[e3 xin1]"
+      ],
+      "handedict": [
+        "e4: Übeltat, Laster, Verbrechen (S); böse, grausam, erbittert (Adj); schlecht, übel (Adj)",
+        "wu4: hassen, nicht mögen (V); verabscheuen (V)",
+        "e3: "
+      ],
+      "unihan": "086.150:ě 087.070:è 390.070:wù | è(157) wù(40)",
+      "etymology": "pictophonetic: heart",
+      "old": "boese; schlecht"
+    }
   },
   {
-    "hanzi": "笋",
-    "meanings": ["Bambussprossen"],
-    "components": [{ "radical": "竹", "meaning": "Bambus" }, { "radical": "尹", "meaning": "regieren" }],
-    "hsk": "HSK6",
-    "strokes": 10
+    "hanzi": "帆",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "帆"
+    ],
+    "readings": [
+      {
+        "pinyin": "fān",
+        "meaning": "Segel"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "巾",
+    "components": [
+      {
+        "part": "巾",
+        "role": "semantic",
+        "meaning": "Tuch, Stoff"
+      },
+      {
+        "part": "凡",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:一帆风顺:yi1fan1feng1shun4",
+      "w:帆:fan1",
+      "w:帆船:fan1chuan2"
+    ],
+    "evidence": {
+      "cedict": [
+        "fan1: variant of 帆[fan1]; sail; Taiwan pr. [fan2], except 帆布[fan1 bu4] canvas; to gallop; Taiwan pr. [fan2]"
+      ],
+      "handedict": [
+        "fan1: Segel (S, Naut)"
+      ],
+      "unihan": "091.010:fān | fān(22)",
+      "etymology": "pictophonetic: cloth"
+    }
   },
   {
-    "hanzi": "沪",
-    "meanings": ["Shanghai","Fischreusen"],
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "户", "meaning": "Tuer" }],
-    "hsk": "HSK6",
-    "strokes": 7
+    "hanzi": "凡",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "凡"
+    ],
+    "readings": [
+      {
+        "pinyin": "fán",
+        "meaning": "gewöhnlich, weltlich, vergänglich; der materiellen Welt zugehörig, was auch immer; Note in der chinesischen Tonleiter"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 3,
+    "primaryRadical": "几",
+    "components": [
+      {
+        "part": "𠘨"
+      },
+      {
+        "part": "丶",
+        "meaning": "Punkt"
+      }
+    ],
+    "words": [
+      "w:凡是:fan2shi4",
+      "w:平凡:ping2fan2",
+      "w:非凡:fei1fan2",
+      "w:超凡脱俗:chao1fan2tuo1su2"
+    ],
+    "evidence": {
+      "cedict": [
+        "fan2: ordinary; commonplace; mundane; temporal; of the material world (as opposed to supernatural or immortal levels)"
+      ],
+      "handedict": [
+        "fan2: gewöhnlich, weltlich, vergänglich (Adj); der materiellen Welt zugehörig (Redew), was auch immer (Redew); Note in der chinesischen Tonleiter (S, Mus)"
+      ],
+      "unihan": "091.060:fán | fán(135)",
+      "etymology": "ideographic: A plate or flat dish; an everyday item"
+    }
   },
   {
-    "hanzi": "吭",
-    "meanings": ["Kehle","aeussern"],
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "亢", "meaning": "hoch" }],
-    "hsk": "HSK6",
-    "strokes": 7
+    "hanzi": "犯",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "犯"
+    ],
+    "readings": [
+      {
+        "pinyin": "fàn",
+        "meaning": "Verbrecher; verletzen, gegen etw. verstoßen; angreifen, überfallen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 5,
+    "primaryRadical": "犬",
+    "radicalForm": "犭",
+    "components": [
+      {
+        "part": "犭",
+        "role": "semantic",
+        "meaning": "Hund"
+      },
+      {
+        "part": "㔾",
+        "role": "phonetic",
+        "meaning": "Siegel"
+      }
+    ],
+    "words": [
+      "w:犯:fan4",
+      "w:触犯:chu4fan4",
+      "w:犯愁:fan4chou2",
+      "w:犯规:fan4gui1",
+      "w:犯罪:fan4zui4"
+    ],
+    "evidence": {
+      "cedict": [
+        "fan4: to violate; to offend; to assault; criminal; crime"
+      ],
+      "handedict": [
+        "fan4: Verbrecher (S); verletzen, gegen etw. verstoßen (V); angreifen, überfallen (V); begehen, verüben (V); auftreten, vorkommen (V)"
+      ],
+      "unihan": "092.050:fàn | fàn(250)",
+      "etymology": "pictophonetic: dog"
+    }
   },
   {
-    "hanzi": "踊",
-    "meanings": ["springen","huepfen"],
-    "components": [{ "radical": "足", "meaning": "Fuss" }, { "radical": "甬", "meaning": "Gang" }],
-    "hsk": "HSK6",
-    "strokes": 14
+    "hanzi": "妨",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "妨"
+    ],
+    "readings": [
+      {
+        "pinyin": "fáng",
+        "meaning": "hindern; stoeren"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "女",
+    "components": [
+      {
+        "part": "女",
+        "role": "semantic",
+        "meaning": "Frau"
+      },
+      {
+        "part": "方",
+        "role": "phonetic",
+        "meaning": "Richtung"
+      }
+    ],
+    "words": [
+      "w:妨碍:fang2ai4",
+      "w:不妨:bu4fang2",
+      "w:妨害:fang2hai4"
+    ],
+    "evidence": {
+      "cedict": [
+        "fang2: to hinder; (in the negative or interrogative) (no) harm; (what) harm"
+      ],
+      "handedict": [
+        "fang2: hindern, behindern, hemmen (V)"
+      ],
+      "unihan": "093.100:fáng | fáng(22) fāng(13)",
+      "etymology": "pictophonetic: woman",
+      "old": "hindern; stoeren"
+    }
   },
   {
-    "hanzi": "涧",
-    "meanings": ["Bergbach","Schlucht"],
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "间", "meaning": "zwischen" }],
-    "hsk": "HSK6",
-    "strokes": 10
+    "hanzi": "肪",
+    "level": "HSK6",
+    "traditional": [
+      "肪"
+    ],
+    "readings": [
+      {
+        "pinyin": "fáng",
+        "meaning": "tierisches Fett"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "肉",
+    "radicalForm": "月",
+    "components": [
+      {
+        "part": "月",
+        "meaning": "Fleisch"
+      },
+      {
+        "part": "方",
+        "role": "phonetic",
+        "meaning": "Richtung, Quadrat"
+      }
+    ],
+    "words": [
+      "w:脂肪:zhi1fang2"
+    ],
+    "evidence": {
+      "cedict": [
+        "fang2: animal fat"
+      ],
+      "handedict": [
+        "fang2: tierisches Fett (S)"
+      ],
+      "unihan": "093.110:fáng | fáng(10)",
+      "etymology": "pictophonetic: meat"
+    }
   },
   {
-    "hanzi": "沟",
-    "meanings": ["Graben","Rinne"],
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "勾", "meaning": "Haken" }],
-    "hsk": "HSK6",
-    "strokes": 7
+    "hanzi": "肺",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "肺"
+    ],
+    "readings": [
+      {
+        "pinyin": "fèi",
+        "meaning": "Lunge"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "肉",
+    "radicalForm": "月",
+    "components": [
+      {
+        "part": "月",
+        "meaning": "Fleisch"
+      },
+      {
+        "part": "巿",
+        "role": "phonetic",
+        "meaning": "Tuch"
+      }
+    ],
+    "words": [
+      "w:肺:fei4",
+      "w:肺炎:fei4yan2",
+      "w:肺腑:fei4fu3",
+      "w:心肺复苏:xin1fei4fu4su1"
+    ],
+    "evidence": {
+      "cedict": [
+        "fei4: lung; CL:個|个[ge4]"
+      ],
+      "handedict": [
+        "fei4: Lunge (S, Anat)"
+      ],
+      "unihan": "095.160:fèi | fèi(52)",
+      "etymology": "pictophonetic: flesh",
+      "old": "Lunge"
+    }
   },
   {
-    "hanzi": "涯",
-    "meanings": ["Ufer","Grenze"],
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "崖", "meaning": "Klippe" }],
-    "hsk": "HSK6",
-    "strokes": 11
+    "hanzi": "氛",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "氛"
+    ],
+    "readings": [
+      {
+        "pinyin": "fēn",
+        "meaning": "Atmosphaere"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "气",
+    "components": [
+      {
+        "part": "气",
+        "role": "semantic",
+        "meaning": "Luft"
+      },
+      {
+        "part": "分",
+        "role": "phonetic",
+        "meaning": "teilen"
+      }
+    ],
+    "words": [
+      "w:氛围:fen1wei2",
+      "w:气氛:qi4fen1"
+    ],
+    "evidence": {
+      "cedict": [
+        "fen1: miasma; vapor"
+      ],
+      "handedict": [
+        "fen1: Gifthauch (S), Miasma (S); Ausdünstung, Dunst, Dampf (S)"
+      ],
+      "unihan": "096.060:fēn | fēn(28)",
+      "etymology": "pictophonetic: air",
+      "old": "Atmosphaere"
+    }
   },
   {
-    "hanzi": "禽",
-    "meanings": ["Gefluegel","Vogel"],
-    "components": [{ "radical": "人", "meaning": "Mensch" }, { "radical": "禸", "meaning": "Spur" }],
-    "hsk": "HSK6",
-    "strokes": 12
+    "hanzi": "粉",
+    "level": "HSK6",
+    "traditional": [
+      "粉"
+    ],
+    "readings": [
+      {
+        "pinyin": "fěn",
+        "meaning": "Pulver; Nudeln; rosa"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "米",
+    "components": [
+      {
+        "part": "米",
+        "role": "semantic",
+        "meaning": "Reis"
+      },
+      {
+        "part": "分",
+        "role": "phonetic",
+        "meaning": "teilen"
+      }
+    ],
+    "words": [
+      "w:粉:fen3",
+      "w:面粉:mian4fen3",
+      "w:奶粉:nai3fen3",
+      "w:淀粉:dian4fen3",
+      "w:粉末:fen3mo4"
+    ],
+    "evidence": {
+      "cedict": [
+        "fen3: powder; cosmetic face powder; food prepared from starch; noodles or pasta made from any kind of flour; to turn to powder; (dialect) to whitewash"
+      ],
+      "handedict": [
+        "fen3: Puder, Pulver (S)"
+      ],
+      "unihan": "096.170:fěn | fěn(211)",
+      "etymology": "pictophonetic: grain",
+      "old": "Pulver; Nudeln; rosa"
+    }
   },
   {
-    "hanzi": "蜀",
-    "meanings": ["Sichuan","Raupe"],
-    "components": [{ "radical": "罒", "meaning": "Netz" }, { "radical": "虫", "meaning": "Insekt" }],
-    "hsk": "HSK6",
-    "strokes": 13
+    "hanzi": "愤",
+    "level": "HSK6",
+    "traditional": [
+      "憤"
+    ],
+    "readings": [
+      {
+        "pinyin": "fèn",
+        "meaning": "empoert; wuetend"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "心",
+    "radicalForm": "忄",
+    "components": [
+      {
+        "part": "忄",
+        "role": "semantic",
+        "meaning": "Herz"
+      },
+      {
+        "part": "贲",
+        "role": "phonetic",
+        "meaning": "fliessen"
+      }
+    ],
+    "words": [
+      "w:愤怒:fen4nu4",
+      "w:气愤:qi4fen4",
+      "w:愤慨:fen4kai3",
+      "w:悲愤:bei1fen4",
+      "w:愤懑:fen4men4"
+    ],
+    "evidence": {
+      "cedict": [
+        "fen4: indignant; anger; resentment"
+      ],
+      "handedict": [
+        "fen4: ungehalten (Adj); übernehmen (V); Ärger (S), Zorn (S); Feindseligkeit, Animosität, Verstimmung (S)"
+      ],
+      "unihan": "097.080:fèn | fèn(159)",
+      "etymology": "pictophonetic: heart",
+      "old": "empoert; wuetend"
+    }
   },
   {
-    "hanzi": "筐",
-    "meanings": ["Korb","Kiste"],
-    "components": [{ "radical": "竹", "meaning": "Bambus" }, { "radical": "匡", "meaning": "korrigieren" }],
-    "hsk": "HSK6",
-    "strokes": 12
+    "hanzi": "峰",
+    "level": "HSK6",
+    "traditional": [
+      "峰"
+    ],
+    "readings": [
+      {
+        "pinyin": "fēng",
+        "meaning": "Maximum; Berggipfel; Zählwort für Kamele"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "山",
+    "components": [
+      {
+        "part": "山",
+        "role": "semantic",
+        "meaning": "Berg"
+      },
+      {
+        "part": "夆",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:高峰:gao1feng1",
+      "w:山峰:shan1feng1",
+      "w:巅峰:dian1feng1",
+      "w:峰会:feng1hui4",
+      "w:峰回路转:feng1hui2lu4zhuan3"
+    ],
+    "evidence": {
+      "cedict": [
+        "feng1: variant of 峰[feng1]; (of a mountain) high and tapered peak or summit; mountain-like in appearance; highest level; classifier for camels"
+      ],
+      "handedict": [
+        "feng1: Maximum (S, Math); Berggipfel (S, Geo); ZEW für Kamele (Zähl)"
+      ],
+      "unihan": "098.030:fēng | fēng(94)",
+      "etymology": "pictophonetic: mountain"
+    }
   },
   {
-    "hanzi": "峦",
-    "meanings": ["Bergkette","Gipfelreihe"],
-    "components": [{ "radical": "亦", "meaning": "auch" }, { "radical": "山", "meaning": "Berg" }],
-    "hsk": "HSK6",
-    "strokes": 9
+    "hanzi": "蜂",
+    "level": "HSK6",
+    "traditional": [
+      "蜂"
+    ],
+    "readings": [
+      {
+        "pinyin": "fēng",
+        "meaning": "Biene"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "虫",
+    "components": [
+      {
+        "part": "虫",
+        "role": "semantic",
+        "meaning": "Insekt"
+      },
+      {
+        "part": "夆",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:蜜蜂:mi4feng1",
+      "w:蜂蜜:feng1mi4"
+    ],
+    "evidence": {
+      "cedict": [
+        "feng1: variant of 蜂[feng1]; bee; wasp; old variant of 蜂[feng1]"
+      ],
+      "handedict": [
+        "feng1: Biene, Wespe, Hummel (S, Zool)"
+      ],
+      "unihan": "098.080:fēng | fēng(96)",
+      "etymology": "pictophonetic: insect",
+      "old": "Biene"
+    }
   },
   {
-    "hanzi": "氓",
-    "meanings": ["Bauer","Poebel"],
-    "components": [{ "radical": "亡", "meaning": "sterben" }, { "radical": "民", "meaning": "Volk" }],
-    "hsk": "HSK6",
-    "strokes": 8
+    "hanzi": "奉",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "奉"
+    ],
+    "readings": [
+      {
+        "pinyin": "fèng",
+        "meaning": "darbringen; glauben an; erhalten"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "大",
+    "components": [
+      {
+        "part": "𡗗"
+      },
+      {
+        "part": "一",
+        "meaning": "eins, horizontal"
+      },
+      {
+        "part": "十",
+        "meaning": "zehn"
+      }
+    ],
+    "words": [
+      "w:奉献:feng4xian4",
+      "w:供奉:gong4feng4",
+      "w:奉行:feng4xing2"
+    ],
+    "evidence": {
+      "cedict": [
+        "feng4: to offer (tribute); to present respectfully (to superior, ancestor, deity etc); to esteem; to revere; to believe in (a religion)"
+      ],
+      "handedict": [
+        "feng4: darbringen (V); glauben an (V); erhalten (V)"
+      ],
+      "unihan": "098.170:fèng | fèng(25)"
+    }
   },
   {
-    "hanzi": "钮",
-    "meanings": ["Knopf","Griff"],
-    "components": [{ "radical": "钅", "meaning": "Metall" }, { "radical": "丑", "meaning": "Erdzweig" }],
-    "hsk": "HSK6",
-    "strokes": 9
+    "hanzi": "浮",
+    "level": "HSK6",
+    "traditional": [
+      "浮"
+    ],
+    "readings": [
+      {
+        "pinyin": "fú",
+        "meaning": "schweben; gleiten; schwimmen; haltlos; instabil; beweglich"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "孚",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:浮:fu2",
+      "w:浮动:fu2dong4",
+      "w:浮力:fu2li4",
+      "w:浮现:fu2xian4",
+      "w:浮躁:fu2zao4"
+    ],
+    "evidence": {
+      "cedict": [
+        "fu2: to float; superficial; floating; unstable; movable"
+      ],
+      "handedict": [
+        "fu2: schweben; gleiten; schwimmen (V); haltlos; instabil (Adj); beweglich (Adj); provisorisch (Adj); befristet; kurzzeitig; temporär (Adj)"
+      ],
+      "unihan": "100.270:fú | fú(148)",
+      "etymology": "pictophonetic: water"
+    }
   },
   {
-    "hanzi": "袄",
-    "meanings": ["wattierte Jacke"],
-    "components": [{ "radical": "衤", "meaning": "Kleidung" }, { "radical": "夭", "meaning": "jung sterben" }],
-    "hsk": "HSK6",
-    "strokes": 9
+    "hanzi": "辅",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "輔"
+    ],
+    "readings": [
+      {
+        "pinyin": "fǔ",
+        "meaning": "unterstuetzen; ergaenzen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "車",
+    "radicalForm": "车",
+    "components": [
+      {
+        "part": "车",
+        "role": "semantic",
+        "meaning": "Wagen"
+      },
+      {
+        "part": "甫",
+        "role": "phonetic",
+        "meaning": "gerade erst"
+      }
+    ],
+    "words": [
+      "w:辅导:fu3dao3",
+      "w:辅助:fu3zhu4",
+      "w:相辅相成:xiang1fu3xiang1cheng2",
+      "w:辅修:fu3xiu1"
+    ],
+    "evidence": {
+      "cedict": [
+        "fu3: to assist; to complement; auxiliary"
+      ],
+      "handedict": [
+        "fu3: unterstützen, assistieren, aushelfen (V)"
+      ],
+      "unihan": "102.030:fǔ | fǔ(31)",
+      "etymology": "pictophonetic: cart",
+      "old": "unterstuetzen; ergaenzen"
+    }
   },
   {
-    "hanzi": "皂",
-    "meanings": ["Seife","schwarz"],
-    "components": [{ "radical": "白", "meaning": "weiss" }, { "radical": "七", "meaning": "sieben" }],
-    "hsk": "HSK6",
-    "strokes": 7
+    "hanzi": "赋",
+    "level": "HSK6",
+    "traditional": [
+      "賦"
+    ],
+    "readings": [
+      {
+        "pinyin": "fù",
+        "meaning": "verleihen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "貝",
+    "radicalForm": "贝",
+    "components": [
+      {
+        "part": "贝",
+        "meaning": "Muschel"
+      },
+      {
+        "part": "武",
+        "meaning": "kriegerisch"
+      }
+    ],
+    "words": [
+      "w:赋予:fu4yu3",
+      "w:天赋:tian1fu4",
+      "w:禀赋:bing3fu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "fu4: poetic essay; taxation; to bestow on; to endow with"
+      ],
+      "handedict": [
+        "fu4: verleihen (V)"
+      ],
+      "unihan": "103.090:fù",
+      "etymology": "ideographic: Money 贝 used to raise an army 武; 武 also provides the pronunciation",
+      "old": "verleihen"
+    }
   },
   {
-    "hanzi": "搪",
-    "meanings": ["abwehren","emaillieren"],
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "唐", "meaning": "Tang-Dynastie" }],
-    "hsk": "HSK6",
-    "strokes": 13
+    "hanzi": "覆",
+    "level": "HSK6",
+    "traditional": [
+      "覆"
+    ],
+    "readings": [
+      {
+        "pinyin": "fù",
+        "meaning": "bedecken; umstuerzen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 18,
+    "primaryRadical": "西",
+    "radicalForm": "覀",
+    "components": [
+      {
+        "part": "覀",
+        "role": "semantic",
+        "meaning": "Westen"
+      },
+      {
+        "part": "復",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:覆盖:fu4gai4",
+      "w:颠覆:dian1fu4",
+      "w:翻来覆去:fan1lai2fu4qu4",
+      "w:翻天覆地:fan1tian1fu4di4",
+      "w:倾覆:qing1fu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "fu4: to cover; to overflow; to overturn; to capsize"
+      ],
+      "handedict": [
+        "fu4: umstürzen, umkippen, umwerfen (V); bedecken, überdecken (V)"
+      ],
+      "unihan": "103.170:fù | fù(27)",
+      "etymology": "pictophonetic: cover",
+      "old": "bedecken; umstuerzen"
+    }
   },
   {
-    "hanzi": "砌",
-    "meanings": ["mauern","aufschichten"],
-    "components": [{ "radical": "石", "meaning": "Stein" }, { "radical": "切", "meaning": "schneiden" }],
-    "hsk": "HSK6",
-    "strokes": 9
+    "hanzi": "尬",
+    "level": "HSK6",
+    "traditional": [
+      "尬"
+    ],
+    "readings": [
+      {
+        "pinyin": "gà",
+        "meaning": "peinlich; unbeholfen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "尢",
+    "components": [
+      {
+        "part": "尢",
+        "role": "semantic",
+        "meaning": "verkrueppelt"
+      },
+      {
+        "part": "介",
+        "role": "phonetic",
+        "meaning": "vermitteln"
+      }
+    ],
+    "words": [
+      "w:尴尬:gang1a4"
+    ],
+    "evidence": {
+      "cedict": [
+        "ga4: (bound form) embarrassing; awkward"
+      ],
+      "handedict": [
+        "ga4: peinlich (Adj), unangenehm (Adj); prekärerweise (Adv), betreten (Adj)"
+      ],
+      "unihan": "104.130:gà",
+      "etymology": "pictophonetic: lame",
+      "old": "peinlich; unbeholfen"
+    }
   },
   {
-    "hanzi": "衅",
-    "meanings": ["Streit","Spalt"],
-    "components": [{ "radical": "血", "meaning": "Blut" }, { "radical": "半", "meaning": "halb" }],
-    "hsk": "HSK6",
-    "strokes": 11
+    "hanzi": "肝",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "肝"
+    ],
+    "readings": [
+      {
+        "pinyin": "gān",
+        "meaning": "Leber"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "肉",
+    "radicalForm": "月",
+    "components": [
+      {
+        "part": "月",
+        "meaning": "Fleisch"
+      },
+      {
+        "part": "干",
+        "role": "phonetic",
+        "meaning": "trocken, Schild"
+      }
+    ],
+    "words": [
+      "w:肝:gan1",
+      "w:肝胆相照:gan1dan3xiang1zhao4"
+    ],
+    "evidence": {
+      "cedict": [
+        "gan1: liver (CL:葉|叶[ye4]); (slang) to put in long hours, typically late into the night, playing (a video game); (of a video game) involving a lot of repetition in order to progress; grindy"
+      ],
+      "handedict": [
+        "gan1: Leber (S)"
+      ],
+      "unihan": "106.030:gān | gān(56)",
+      "etymology": "pictophonetic: flesh"
+    }
   },
   {
-    "hanzi": "秆",
-    "meanings": ["Strohhalm","Stengel"],
-    "components": [{ "radical": "禾", "meaning": "Getreide" }, { "radical": "干", "meaning": "trocken" }],
-    "hsk": "HSK6",
-    "strokes": 8
+    "hanzi": "尴",
+    "level": "HSK6",
+    "traditional": [
+      "尷"
+    ],
+    "readings": [
+      {
+        "pinyin": "gān",
+        "meaning": "peinlich; verlegen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "尢",
+    "components": [
+      {
+        "part": "尢",
+        "role": "semantic",
+        "meaning": "verkrueppelt"
+      },
+      {
+        "part": "监",
+        "role": "phonetic",
+        "meaning": "ueberwachen"
+      }
+    ],
+    "words": [
+      "w:尴尬:gang1a4"
+    ],
+    "evidence": {
+      "cedict": [
+        "gan1: used in 尷尬|尴尬[gan1 ga4]"
+      ],
+      "handedict": [
+        "gan1: betreten, beschämt (Adj)"
+      ],
+      "unihan": "106.130:gān",
+      "etymology": "pictophonetic: lame",
+      "old": "peinlich; verlegen"
+    }
   },
   {
-    "hanzi": "绎",
-    "meanings": ["erklaeren","auslegen"],
-    "components": [{ "radical": "纟", "meaning": "Seide" }, { "radical": "睪", "meaning": "beobachten" }],
-    "hsk": "HSK6",
-    "strokes": 8
+    "hanzi": "岗",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "崗"
+    ],
+    "readings": [
+      {
+        "pinyin": "gǎng",
+        "meaning": "Huegel; Posten"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "山",
+    "components": [
+      {
+        "part": "山",
+        "role": "semantic",
+        "meaning": "Berg"
+      },
+      {
+        "part": "冈",
+        "role": "phonetic",
+        "meaning": "Huegel"
+      }
+    ],
+    "words": [
+      "w:岗位:gang3wei4",
+      "w:上岗:shang4gang3"
+    ],
+    "evidence": {
+      "cedict": [
+        "gang3: (bound form) hillock; mound; sentry post; policeman's beat; (bound form) job; post"
+      ],
+      "handedict": [
+        "gang3: Anhöhe, Bodenerhebung, kleiner Hügel, Aufschüttung (S); Bsp.: 山崗 山岗 -- Hügel, Erhebung; Wachposten, Wache, Posten, Wachdienst (S); Bsp.: 換崗 换岗 -- Wachwechsel, Wache ablösen; Bsp.: 守崗位 守岗位 -- Posten (Stellung) halten (im Büro oder an der Wache); Bsp.: 站崗 站岗 -- Wache stehen"
+      ],
+      "unihan": "107.150:gāng 108.040:gǎng | gǎng(59) gāng(11)",
+      "etymology": "pictophonetic: mountain",
+      "old": "Huegel; Posten"
+    }
   },
   {
-    "hanzi": "诈",
-    "meanings": ["betruegen","Betrug"],
-    "components": [{ "radical": "讠", "meaning": "Sprache" }, { "radical": "乍", "meaning": "ploetzlich" }],
-    "hsk": "HSK6",
-    "strokes": 7
+    "hanzi": "港",
+    "level": "HSK6",
+    "traditional": [
+      "港"
+    ],
+    "readings": [
+      {
+        "pinyin": "gǎng",
+        "meaning": "Hafen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "巷",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:港口:gang3kou3",
+      "w:港:gang3",
+      "w:港湾:gang3wan1"
+    ],
+    "evidence": {
+      "cedict": [
+        "gang3: Hong Kong (abbr. for 香港[Xiang1 gang3]); surname Gang; harbor; port; CL:個|个[ge4]"
+      ],
+      "handedict": [
+        "gang3: Hafen (S)"
+      ],
+      "unihan": "108.050:gǎng | gǎng(51)",
+      "etymology": "pictophonetic: water",
+      "old": "Hafen"
+    }
   },
   {
-    "hanzi": "逊",
-    "meanings": ["bescheiden","unterlegen"],
-    "components": [{ "radical": "辶", "meaning": "gehen" }, { "radical": "孙", "meaning": "Enkel" }],
-    "hsk": "HSK6",
-    "strokes": 9
+    "hanzi": "稿",
+    "level": "HSK6",
+    "traditional": [
+      "稿"
+    ],
+    "readings": [
+      {
+        "pinyin": "gǎo",
+        "meaning": "Entwurf, Manuskript"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "禾",
+    "components": [
+      {
+        "part": "禾",
+        "role": "semantic",
+        "meaning": "Getreide"
+      },
+      {
+        "part": "高",
+        "role": "phonetic",
+        "meaning": "hoch, gross"
+      }
+    ],
+    "words": [
+      "w:稿件:gao3jian4",
+      "w:稿子:gao3zi5",
+      "w:投稿:tou2gao3",
+      "w:通稿:tong1gao3",
+      "w:草稿:cao3gao3"
+    ],
+    "evidence": {
+      "cedict": [
+        "gao3: variant of 稿[gao3]; manuscript; draft; stalk of grain"
+      ],
+      "handedict": [
+        "gao3: Entwurf, Manuskript (S)"
+      ],
+      "unihan": "109.080:gǎo | gǎo(64)",
+      "etymology": "pictophonetic: grain"
+    }
   },
   {
-    "hanzi": "咧",
-    "meanings": ["den Mund verziehen"],
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "列", "meaning": "Reihe" }],
-    "hsk": "HSK6",
-    "strokes": 9
+    "hanzi": "割",
+    "level": "HSK6",
+    "traditional": [
+      "割"
+    ],
+    "readings": [
+      {
+        "pinyin": "gē",
+        "meaning": "sich od. etw. schneiden; auseinanderschneiden"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "刀",
+    "radicalForm": "刂",
+    "components": [
+      {
+        "part": "害",
+        "role": "phonetic"
+      },
+      {
+        "part": "刂",
+        "role": "semantic",
+        "meaning": "Messer"
+      }
+    ],
+    "words": [
+      "w:割:ge1",
+      "w:分割:fen1ge1",
+      "w:切割:qie1ge1",
+      "w:收割:shou1ge1",
+      "w:割让:ge1rang4"
+    ],
+    "evidence": {
+      "cedict": [
+        "ge1: to cut; to cut apart"
+      ],
+      "handedict": [
+        "ge1: sich od. etw. schneiden (V); auseinanderschneiden (V)"
+      ],
+      "unihan": "110.070:gē | gē(128)",
+      "etymology": "pictophonetic: knife"
+    }
   },
   {
-    "hanzi": "抒",
-    "meanings": ["ausdruecken","aeussern"],
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "予", "meaning": "geben" }],
-    "hsk": "HSK6",
-    "strokes": 7
+    "hanzi": "攻",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "攻"
+    ],
+    "readings": [
+      {
+        "pinyin": "gōng",
+        "meaning": "jmds. Beitrag (zu etw.), jmds. Verdienste (um etw.); Arbeit, Leistung; Fertigkeit, Geschicklichkeit"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "攴",
+    "radicalForm": "攵",
+    "components": [
+      {
+        "part": "工",
+        "role": "phonetic",
+        "meaning": "Arbeit, Handwerk"
+      },
+      {
+        "part": "攵",
+        "role": "semantic",
+        "meaning": "schlagen, klopfen"
+      }
+    ],
+    "words": [
+      "w:攻击:gong1ji1",
+      "w:攻:gong1",
+      "w:攻读:gong1du2",
+      "w:攻关:gong1guan1",
+      "w:攻克:gong1ke4"
+    ],
+    "evidence": {
+      "cedict": [
+        "gong1: to attack; to accuse; to study; (LGBT) top"
+      ],
+      "handedict": [
+        "gong1: jmds. Beitrag (zu etw.), jmds. Verdienste (um etw.) (S); Arbeit, Leistung (S); Fertigkeit, Geschicklichkeit (S); Leistung, Erfolg, Effekt, Errungenschaft (S)"
+      ],
+      "unihan": "114.020:gōng | gōng(313)",
+      "etymology": "pictophonetic: rap"
+    }
   },
   {
-    "hanzi": "膛",
-    "meanings": ["Brust","Lauf einer Waffe"],
-    "components": [{ "radical": "月", "meaning": "Mond/Fleisch" }, { "radical": "堂", "meaning": "Halle" }],
-    "hsk": "HSK6",
-    "strokes": 15
+    "hanzi": "宫",
+    "level": "HSK6",
+    "traditional": [
+      "宮"
+    ],
+    "readings": [
+      {
+        "pinyin": "gōng",
+        "meaning": "Palast; Palastbezirk; Festungsbezirk (im chinesischen Schach)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "宀",
+    "components": [
+      {
+        "part": "宀",
+        "role": "semantic",
+        "meaning": "Dach"
+      },
+      {
+        "part": "吕",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:宫:gong1",
+      "w:宫殿:gong1dian4",
+      "w:宫廷:gong1ting2",
+      "w:皇宫:huang2gong1"
+    ],
+    "evidence": {
+      "cedict": [
+        "gong1: surname Gong; palace; temple; castration (as corporal punishment); first note in pentatonic scale"
+      ],
+      "handedict": [
+        "gong1: Palast (S); Gong (Eig, Fam); Palastbezirk; Festungsbezirk (im chinesischen Schach) (S)"
+      ],
+      "unihan": "114.060:gōng | gōng(73)",
+      "etymology": "pictophonetic: roof"
+    }
   },
   {
-    "hanzi": "汲",
-    "meanings": ["schoepfen","Wasser ziehen"],
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "及", "meaning": "erreichen" }],
-    "hsk": "HSK6",
-    "strokes": 6
+    "hanzi": "巩",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "鞏"
+    ],
+    "readings": [
+      {
+        "pinyin": "gǒng",
+        "meaning": "festigen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "工",
+    "components": [
+      {
+        "part": "工",
+        "role": "phonetic",
+        "meaning": "Arbeit"
+      },
+      {
+        "part": "凡",
+        "role": "semantic"
+      }
+    ],
+    "words": [
+      "w:巩固:gong3gu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "gong3: surname Gong; (bound form) to fix in place; to make firm and secure"
+      ],
+      "handedict": [
+        "gong3: verzurren (V); fest, sicher, stark (Adj); Gong (Eig, Fam)"
+      ],
+      "unihan": "114.120:gǒng | gǒng(125)",
+      "etymology": "pictophonetic: all",
+      "old": "festigen"
+    }
   },
   {
-    "hanzi": "褥",
-    "meanings": ["Matratze","Polster"],
-    "components": [{ "radical": "衤", "meaning": "Kleidung" }, { "radical": "辱", "meaning": "Schande" }],
-    "hsk": "HSK6",
-    "strokes": 15
+    "hanzi": "孤",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "孤"
+    ],
+    "readings": [
+      {
+        "pinyin": "gū",
+        "meaning": "einsam; Waise"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "子",
+    "components": [
+      {
+        "part": "子",
+        "role": "semantic",
+        "meaning": "Kind"
+      },
+      {
+        "part": "瓜",
+        "role": "phonetic",
+        "meaning": "Melone"
+      }
+    ],
+    "words": [
+      "w:孤独:gu1du2",
+      "w:孤单:gu1dan1",
+      "w:孤儿:gu1er2",
+      "w:孤立:gu1li4",
+      "w:孤零零:gu1ling2ling2"
+    ],
+    "evidence": {
+      "cedict": [
+        "gu1: lone; lonely"
+      ],
+      "handedict": [
+        "gu1: einsam (Adj); Gu (Eig, Fam)"
+      ],
+      "unihan": "117.020:gū | gū(54)",
+      "etymology": "pictophonetic: child",
+      "old": "einsam; Waise"
+    }
   },
   {
-    "hanzi": "斓",
-    "meanings": ["bunt","farbenreich"],
-    "components": [{ "radical": "文", "meaning": "Schrift" }, { "radical": "阑", "meaning": "Gelaender" }],
-    "hsk": "HSK6",
-    "strokes": 12
+    "hanzi": "股",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "股"
+    ],
+    "readings": [
+      {
+        "pinyin": "gǔ",
+        "meaning": "Portion, Sektion; Schwade, Hauch; Teil, Anteil"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "肉",
+    "radicalForm": "月",
+    "components": [
+      {
+        "part": "月",
+        "meaning": "Fleisch"
+      },
+      {
+        "part": "殳",
+        "role": "phonetic",
+        "meaning": "Schlagwaffe"
+      }
+    ],
+    "words": [
+      "w:炒股:chao3gu3",
+      "w:股票:gu3piao4",
+      "w:股市:gu3shi4",
+      "w:股:gu3",
+      "w:股东:gu3dong1"
+    ],
+    "evidence": {
+      "cedict": [
+        "gu3: thigh; part of a whole; portion of a sum; (finance) stock; share; strand of a thread; low-level administrative unit, translated as \"section\" or \"department\" etc, ranked below 科[ke1]"
+      ],
+      "handedict": [
+        "gu3: Portion, Sektion (S); Schwade, Hauch (S); Teil, Anteil (S)"
+      ],
+      "unihan": "118.020:gǔ | gǔ(187) gu(33)",
+      "etymology": "pictophonetic: flesh"
+    }
   },
   {
-    "hanzi": "椭",
-    "meanings": ["oval","elliptisch"],
-    "components": [{ "radical": "木", "meaning": "Holz" }, { "radical": "隋", "meaning": "Sui-Dynastie" }],
-    "hsk": "HSK6",
-    "strokes": 12
+    "hanzi": "骨",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "骨"
+    ],
+    "readings": [
+      {
+        "pinyin": "gǔ",
+        "meaning": "Knochen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "骨",
+    "components": [
+      {
+        "part": "冎"
+      },
+      {
+        "part": "月",
+        "meaning": "Fleisch"
+      }
+    ],
+    "words": [
+      "w:骨头:gu3tou5",
+      "w:刺骨:ci4gu3",
+      "w:骨干:gu3gan4",
+      "w:骨骼:gu3ge2",
+      "w:骨架:gu3jia4"
+    ],
+    "evidence": {
+      "cedict": [
+        "gu3: bone"
+      ],
+      "handedict": [
+        "gu3: Knochen (S, Anat); Radikal Nr. 188 = Knochen (Sprachw)"
+      ],
+      "unihan": "117.050:gū 118.030:gǔ | gǔ(185) gú(62)",
+      "etymology": "ideographic: Flesh ⺼ and bones 冎",
+      "old": "Knochen"
+    }
   },
   {
-    "hanzi": "捂",
-    "meanings": ["bedecken","zuhalten"],
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "吾", "meaning": "ich" }],
-    "hsk": "HSK6",
-    "strokes": 10
+    "hanzi": "拐",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "拐"
+    ],
+    "readings": [
+      {
+        "pinyin": "guǎi",
+        "meaning": "abbiegen; betruegen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "meaning": "Hand"
+      },
+      {
+        "part": "另",
+        "meaning": "anderer"
+      }
+    ],
+    "words": [
+      "w:拐:guai3",
+      "w:拐弯:guai3wan1",
+      "w:拐杖:guai3zhang4",
+      "w:拐骗:guai3pian4",
+      "w:拐卖:guai3mai4"
+    ],
+    "evidence": {
+      "cedict": [
+        "guai3: to turn (a corner etc); to kidnap; to swindle; to misappropriate; seven (used as a substitute for 七[qi1])"
+      ],
+      "handedict": [
+        "guai3: abbiegen (V)"
+      ],
+      "unihan": "120.130:guǎi | guǎi(24)",
+      "etymology": "ideographic: To take another 另 by force 扌",
+      "old": "abbiegen; betruegen"
+    }
   },
   {
-    "hanzi": "娩",
-    "meanings": ["gebaeren","Entbindung"],
-    "components": [{ "radical": "女", "meaning": "Frau" }, { "radical": "免", "meaning": "befreien" }],
-    "hsk": "HSK6",
-    "strokes": 10
+    "hanzi": "官",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "官"
+    ],
+    "readings": [
+      {
+        "pinyin": "guān",
+        "meaning": "Beamter; Organ"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "宀",
+    "components": [
+      {
+        "part": "宀",
+        "meaning": "Dach"
+      },
+      {
+        "part": "㠯"
+      }
+    ],
+    "words": [
+      "w:官:guan1",
+      "w:法官:fa3guan1",
+      "w:官方:guan1fang1",
+      "w:官员:guan1yuan2",
+      "w:官兵:guan1bing1"
+    ],
+    "evidence": {
+      "cedict": [
+        "guan1: surname Guan; government official; governmental; official; public"
+      ],
+      "handedict": [
+        "guan1: Beamter, Amtsperson (S), Offizier (S, Mil)"
+      ],
+      "unihan": "121.040:guān | guān(276)",
+      "old": "Beamter; Organ"
+    }
   },
   {
-    "hanzi": "萎",
-    "meanings": ["welken","verwelken"],
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "委", "meaning": "beauftragen" }],
-    "hsk": "HSK6",
-    "strokes": 11
+    "hanzi": "贯",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "貫"
+    ],
+    "readings": [
+      {
+        "pinyin": "guàn",
+        "meaning": "durchdringen; zusammenhaengend"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "貝",
+    "radicalForm": "贝",
+    "components": [
+      {
+        "part": "毌",
+        "role": "phonetic",
+        "meaning": "durchbohren"
+      },
+      {
+        "part": "贝",
+        "role": "semantic",
+        "meaning": "Muschel"
+      }
+    ],
+    "words": [
+      "w:一贯:yi1guan4",
+      "w:贯彻:guan4che4",
+      "w:贯穿:guan4chuan1",
+      "w:贯通:guan4tong1",
+      "w:籍贯:ji2guan4"
+    ],
+    "evidence": {
+      "cedict": [
+        "guan4: to pierce through; to pass through; to be stringed together; string of 1000 cash"
+      ],
+      "handedict": [
+        "guan4: aufreihen, bespannen (V); lochen, durchbohren (V)"
+      ],
+      "unihan": "122.040:guàn | guàn(91)",
+      "etymology": "pictophonetic: money",
+      "old": "durchdringen; zusammenhaengend"
+    }
   },
   {
-    "hanzi": "泵",
-    "meanings": ["Pumpe","pumpen"],
-    "components": [{ "radical": "石", "meaning": "Stein" }, { "radical": "水", "meaning": "Wasser" }],
-    "hsk": "HSK6",
-    "strokes": 9
+    "hanzi": "罐",
+    "level": "HSK6",
+    "traditional": [
+      "罐"
+    ],
+    "readings": [
+      {
+        "pinyin": "guàn",
+        "meaning": "Büchse, Dose; Pott; Tank"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 23,
+    "primaryRadical": "缶",
+    "components": [
+      {
+        "part": "缶",
+        "role": "semantic",
+        "meaning": "Tongefäß"
+      },
+      {
+        "part": "雚",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:罐:guan4",
+      "w:罐头:guan4tou5",
+      "w:易拉罐:yi4la1guan4",
+      "w:拔罐:ba2guan4"
+    ],
+    "evidence": {
+      "cedict": [
+        "guan4: can; jar; pot; variant of 罐[guan4]"
+      ],
+      "handedict": [
+        "guan4: Büchse, Dose (S); Pott (S); Tank (S); Topf (S)"
+      ],
+      "unihan": "122.150:guàn | guàn(40)",
+      "etymology": "pictophonetic: jar"
+    }
   },
   {
-    "hanzi": "痹",
-    "meanings": ["Taubheit","gelaehmt"],
-    "components": [{ "radical": "疒", "meaning": "Krankheit" }, { "radical": "畀", "meaning": "geben" }],
-    "hsk": "HSK6",
-    "strokes": 13
+    "hanzi": "归",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "歸"
+    ],
+    "readings": [
+      {
+        "pinyin": "guī",
+        "meaning": "für etw. verantwortlich sein, gehören; zurückgehen, zurückreichen, zurückgeben; zurückkehren"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 5,
+    "primaryRadical": "彐",
+    "components": [
+      {
+        "part": "刂",
+        "meaning": "Messer"
+      },
+      {
+        "part": "彐",
+        "meaning": "Schweineschnauze"
+      }
+    ],
+    "words": [
+      "w:归:gui1",
+      "w:归还:gui1huan2",
+      "w:归结:gui1jie2",
+      "w:归来:gui1lai2",
+      "w:归纳:gui1na4"
+    ],
+    "evidence": {
+      "cedict": [
+        "gui1: surname Gui; to return; to go back to; to give back to; (of a responsibility) to be taken care of by"
+      ],
+      "handedict": [
+        "gui1: für etw. verantwortlich sein, gehören (V); zurückgehen, zurückreichen, zurückgeben (V); zurückkehren (V); zurücklaufen (V); Gui (Eig, Fam)"
+      ],
+      "unihan": "123.120:guī | guī(93)",
+      "etymology": "ideographic: Simplified form of 歸; a wife 帚 returning home; 追 provides the pronunciation"
+    }
   },
   {
-    "hanzi": "枢",
-    "meanings": ["Dreh-Angel","Zentrum"],
-    "components": [{ "radical": "木", "meaning": "Holz" }, { "radical": "区", "meaning": "Gebiet" }],
-    "hsk": "HSK6",
-    "strokes": 8
+    "hanzi": "龟",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "龜"
+    ],
+    "readings": [
+      {
+        "pinyin": "guī",
+        "meaning": "Schildkröte, Landschildkröte; Radikal Nr. 213 = Schildkröte (Sprachw)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "龜",
+    "radicalForm": "龟",
+    "components": [
+      {
+        "part": "⺈"
+      },
+      {
+        "part": "电"
+      }
+    ],
+    "words": [
+      "w:乌龟:wu1gui1",
+      "w:龟:gui1"
+    ],
+    "evidence": {
+      "cedict": [
+        "gui1: tortoise; turtle; (coll.) cuckold"
+      ],
+      "handedict": [
+        "gui1: Schildkröte, Landschildkröte (S); Radikal Nr. 213 = Schildkröte (Sprachw)"
+      ],
+      "unihan": "123.140:guī 189.210:jūn 305.130:qiū | guī(11)",
+      "etymology": "pictographic: A turtle; compare 龜"
+    }
   },
   {
-    "hanzi": "挠",
-    "meanings": ["kratzen","stochern"],
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "尧", "meaning": "hoch" }],
-    "hsk": "HSK6",
-    "strokes": 9
+    "hanzi": "轨",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "軌"
+    ],
+    "readings": [
+      {
+        "pinyin": "guǐ",
+        "meaning": "Gleis"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "車",
+    "radicalForm": "车",
+    "components": [
+      {
+        "part": "车",
+        "role": "semantic",
+        "meaning": "Wagen"
+      },
+      {
+        "part": "九",
+        "role": "phonetic",
+        "meaning": "neun"
+      }
+    ],
+    "words": [
+      "w:轨道:gui3dao4",
+      "w:轨迹:gui3ji4",
+      "w:接轨:jie1gui3"
+    ],
+    "evidence": {
+      "cedict": [
+        "gui3: (bound form) rail; track; course; path"
+      ],
+      "handedict": [
+        "gui3: Bahn, Weg, Kurs (S); Gleis (S, Tech); Schiene (S, Tech)"
+      ],
+      "unihan": "124.100:guǐ | guǐ(72)",
+      "etymology": "pictophonetic: cart",
+      "old": "Gleis"
+    }
   },
   {
-    "hanzi": "蚀",
-    "meanings": ["korrodieren","erodieren"],
-    "components": [{ "radical": "食", "meaning": "Essen" }, { "radical": "虫", "meaning": "Insekt" }],
-    "hsk": "HSK6",
-    "strokes": 9
+    "hanzi": "跪",
+    "level": "HSK6",
+    "traditional": [
+      "跪"
+    ],
+    "readings": [
+      {
+        "pinyin": "guì",
+        "meaning": "knien"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "足",
+    "components": [
+      {
+        "part": "𧾷"
+      },
+      {
+        "part": "危",
+        "role": "phonetic",
+        "meaning": "Gefahr"
+      }
+    ],
+    "words": [
+      "w:跪:gui4"
+    ],
+    "evidence": {
+      "cedict": [
+        "gui4: to kneel"
+      ],
+      "handedict": [
+        "gui4: hinknien, knien (V)"
+      ],
+      "unihan": "125.080:guì | guì(55)",
+      "etymology": "pictophonetic: foot",
+      "old": "knien"
+    }
   },
   {
-    "hanzi": "蹋",
-    "meanings": ["treten","zertreten"],
-    "components": [{ "radical": "足", "meaning": "Fuss" }, { "radical": "踏", "meaning": "treten" }],
-    "hsk": "HSK6",
-    "strokes": 17
+    "hanzi": "棍",
+    "level": "HSK6",
+    "traditional": [
+      "棍"
+    ],
+    "readings": [
+      {
+        "pinyin": "gùn",
+        "meaning": "Stock; Stange"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "role": "semantic",
+        "meaning": "Baum"
+      },
+      {
+        "part": "昆",
+        "role": "phonetic",
+        "meaning": "Nachkommen"
+      }
+    ],
+    "words": [
+      "w:棍:gun4",
+      "w:冰棍儿:bing1gun4r5",
+      "w:棍子:gun4zi5"
+    ],
+    "evidence": {
+      "cedict": [
+        "gun4: stick; rod; truncheon; scoundrel; villain"
+      ],
+      "handedict": [
+        "gun4: Prügel (S); Stock (S); legen, befestigen (V); Schurke, Halunke (vulg) (S)"
+      ],
+      "unihan": "125.160:gùn | gùn(74)",
+      "etymology": "pictophonetic: wood",
+      "old": "Stock; Stange"
+    }
   },
   {
-    "hanzi": "嗤",
-    "meanings": ["verhoehnen","auslachen"],
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "蚩", "meaning": "Insekt" }],
-    "hsk": "HSK6",
-    "strokes": 13
+    "hanzi": "涵",
+    "level": "HSK6",
+    "traditional": [
+      "涵"
+    ],
+    "readings": [
+      {
+        "pinyin": "hán",
+        "meaning": "enthalten"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "函",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:内涵:nei4han2",
+      "w:涵盖:hang2ai4",
+      "w:涵养:han2yang3",
+      "w:蕴涵:yun4han2"
+    ],
+    "evidence": {
+      "cedict": [
+        "han2: to contain; to include; culvert"
+      ],
+      "handedict": [
+        "han2: beinhalten, umfassen (V)"
+      ],
+      "unihan": "130.080:hán",
+      "etymology": "pictophonetic: water",
+      "old": "enthalten"
+    }
   },
   {
-    "hanzi": "瘩",
-    "meanings": ["Pickel","Beule"],
-    "components": [{ "radical": "疒", "meaning": "Krankheit" }, { "radical": "答", "meaning": "antworten" }],
-    "hsk": "HSK6",
-    "strokes": 14
+    "hanzi": "罕",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "罕"
+    ],
+    "readings": [
+      {
+        "pinyin": "hǎn",
+        "meaning": "rar, selten"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "网",
+    "components": [
+      {
+        "part": "㓁"
+      },
+      {
+        "part": "干",
+        "meaning": "trocken, Schild"
+      }
+    ],
+    "words": [
+      "w:罕见:han3jian4",
+      "w:稀罕:xi1han5"
+    ],
+    "evidence": {
+      "cedict": [
+        "han3: rare"
+      ],
+      "handedict": [
+        "han3: rar, selten (Adj); Han (Eig, Fam)"
+      ],
+      "unihan": "130.120:hǎn",
+      "etymology": "ideographic: An empty 干 fishing net ⺳; 干 also provides the pronunciation"
+    }
   },
   {
-    "hanzi": "噎",
-    "meanings": ["wuergen","verschlucken"],
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "壹", "meaning": "eins" }],
-    "hsk": "HSK6",
-    "strokes": 16
+    "hanzi": "旱",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "旱"
+    ],
+    "readings": [
+      {
+        "pinyin": "hàn",
+        "meaning": "Duerre; trocken"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "日",
+    "components": [
+      {
+        "part": "日",
+        "meaning": "Sonne"
+      },
+      {
+        "part": "干",
+        "meaning": "trocken"
+      }
+    ],
+    "words": [
+      "w:干旱:gan1han4",
+      "w:旱灾:han4zai1"
+    ],
+    "evidence": {
+      "cedict": [
+        "han4: drought"
+      ],
+      "handedict": [
+        "han4: Dürre, Trockenheit (S)"
+      ],
+      "unihan": "130.190:hàn | hàn(59)",
+      "etymology": "ideographic: The sun 日 baking a desert 干; 干 also provides the pronunciation",
+      "old": "Duerre; trocken"
+    }
   },
   {
-    "hanzi": "怦",
-    "meanings": ["Herzklopfen","pochen"],
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "平", "meaning": "flach" }],
-    "hsk": "HSK6",
-    "strokes": 8
+    "hanzi": "毫",
+    "level": "HSK6",
+    "traditional": [
+      "毫"
+    ],
+    "readings": [
+      {
+        "pinyin": "háo",
+        "meaning": "Milli (Vorsatz für Maßeinheiten), Milli- (Vorsilbe); feines Haar, Pinsel; tausendstel"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "毛",
+    "components": [
+      {
+        "part": "亠",
+        "meaning": "Deckel, Kopf"
+      },
+      {
+        "part": "口",
+        "meaning": "Mund"
+      },
+      {
+        "part": "冖",
+        "meaning": "Deckel, Abdeckung"
+      },
+      {
+        "part": "毛",
+        "role": "semantic",
+        "meaning": "Haar, Fell"
+      }
+    ],
+    "words": [
+      "w:毫不:hao2bu4",
+      "w:毫无:hao2wu2",
+      "w:毫米:hao2mi3",
+      "w:毫升:hao2sheng1",
+      "w:丝毫:si1hao2"
+    ],
+    "evidence": {
+      "cedict": [
+        "hao2: hair; drawing brush; (in the) least; one thousandth; currency unit, 0.1 yuan"
+      ],
+      "handedict": [
+        "hao2: Milli (Vorsatz für Maßeinheiten) (S, Phys), Milli- (Vorsilbe); feines Haar, Pinsel (S); tausendstel (Num, Math)"
+      ],
+      "unihan": "132.070:háo | háo(225)",
+      "etymology": "pictophonetic: hair"
+    }
   },
   {
-    "hanzi": "胧",
-    "meanings": ["truebe","verschwommen"],
-    "components": [{ "radical": "月", "meaning": "Mond/Fleisch" }, { "radical": "龙", "meaning": "Drache" }],
-    "hsk": "HSK6",
-    "strokes": 9
+    "hanzi": "豪",
+    "level": "HSK6",
+    "traditional": [
+      "豪"
+    ],
+    "readings": [
+      {
+        "pinyin": "háo",
+        "meaning": "heldenhaft; grosszuegig"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 14,
+    "primaryRadical": "豕",
+    "components": [
+      {
+        "part": "高",
+        "role": "phonetic",
+        "meaning": "hoch"
+      },
+      {
+        "part": "豕",
+        "role": "semantic",
+        "meaning": "Schwein"
+      }
+    ],
+    "words": [
+      "w:自豪:zi4hao2",
+      "w:富豪:fu4hao2",
+      "w:豪华:hao2hua2",
+      "w:豪迈:hao2mai4",
+      "w:文豪:wen2hao2"
+    ],
+    "evidence": {
+      "cedict": [
+        "hao2: grand; heroic"
+      ],
+      "handedict": [
+        "hao2: gewaltig, großartig (Adj); hehr, erhaben (Adj)"
+      ],
+      "unihan": "132.100:háo | háo(35)",
+      "etymology": "pictophonetic: boar",
+      "old": "heldenhaft; grosszuegig"
+    }
   },
   {
-    "hanzi": "蹬",
-    "meanings": ["treten","steigen auf"],
-    "components": [{ "radical": "足", "meaning": "Fuss" }, { "radical": "登", "meaning": "besteigen" }],
-    "hsk": "HSK6",
-    "strokes": 19
+    "hanzi": "耗",
+    "level": "HSK6",
+    "traditional": [
+      "耗"
+    ],
+    "readings": [
+      {
+        "pinyin": "hào",
+        "meaning": "verbrauchen; verschwenden"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "耒",
+    "components": [
+      {
+        "part": "耒",
+        "role": "semantic",
+        "meaning": "Pflug"
+      },
+      {
+        "part": "毛",
+        "role": "phonetic",
+        "meaning": "Haar"
+      }
+    ],
+    "words": [
+      "w:消耗:xiao1hao4",
+      "w:耗:hao4",
+      "w:噩耗:e4hao4",
+      "w:耗费:hao4fei4",
+      "w:耗时:hao4shi2"
+    ],
+    "evidence": {
+      "cedict": [
+        "hao4: to waste; to spend; to consume; to squander; news"
+      ],
+      "handedict": [
+        "hao4: neu (Adj); verschwenden, verschleudern (V); (Zeit) vertrödeln, herumtrödeln (V); aufbrauchen, verbrauchen (V); ausgeben, aufwenden (V)"
+      ],
+      "unihan": "133.030:hào | hào(86)",
+      "etymology": "pictophonetic: plow",
+      "old": "verbrauchen; verschwenden"
+    }
   },
   {
-    "hanzi": "辟",
-    "meanings": ["oeffnen","widerlegen"],
-    "components": [{ "radical": "尸", "meaning": "Koerper" }, { "radical": "辛", "meaning": "bitter" }],
-    "hsk": "HSK6",
-    "strokes": 13
+    "hanzi": "核",
+    "level": "HSK6",
+    "traditional": [
+      "核"
+    ],
+    "readings": [
+      {
+        "pinyin": "hé",
+        "meaning": "Kern; nuklear"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "role": "semantic",
+        "meaning": "Baum"
+      },
+      {
+        "part": "亥",
+        "role": "phonetic",
+        "meaning": "Schwein (Tierkreis)"
+      }
+    ],
+    "words": [
+      "w:核心:he2xin1",
+      "w:考核:kao3he2",
+      "w:核:he2",
+      "w:核查:he2cha2",
+      "w:核对:he2dui4"
+    ],
+    "evidence": {
+      "cedict": [
+        "he2: pit; stone; nucleus; nuclear; to examine"
+      ],
+      "handedict": [
+        "he2: Ribosomen (S, Bio); Gestein, Kern (S); Kern- (S), kerntechnisch (Adj); untersuchen, nachprüfen (V)"
+      ],
+      "unihan": "134.110:hé 140.160:hú | hé(68)",
+      "etymology": "pictophonetic: tree",
+      "old": "Kern; nuklear"
+    }
   },
   {
-    "hanzi": "揍",
-    "meanings": ["schlagen","verpruegeln"],
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "奏", "meaning": "spielen" }],
-    "hsk": "HSK6",
-    "strokes": 12
+    "hanzi": "嘿",
+    "level": "HSK6",
+    "traditional": [
+      "嘿"
+    ],
+    "readings": [
+      {
+        "pinyin": "hēi",
+        "meaning": "hei!"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "口",
+    "components": [
+      {
+        "part": "口",
+        "role": "semantic",
+        "meaning": "Mund"
+      },
+      {
+        "part": "黑",
+        "role": "phonetic",
+        "meaning": "schwarz"
+      }
+    ],
+    "words": [
+      "w:嘿:hei1"
+    ],
+    "evidence": {
+      "cedict": [
+        "hei1: hey"
+      ],
+      "handedict": [
+        "hei1: hei! (Int)"
+      ],
+      "unihan": "136.010:hēi | hēi(76)",
+      "etymology": "pictophonetic: mouth"
+    }
   },
   {
-    "hanzi": "迸",
-    "meanings": ["hervorbrechen","spritzen"],
-    "components": [{ "radical": "辶", "meaning": "gehen" }, { "radical": "并", "meaning": "zusammen" }],
-    "hsk": "HSK6",
-    "strokes": 9
+    "hanzi": "痕",
+    "level": "HSK6",
+    "traditional": [
+      "痕"
+    ],
+    "readings": [
+      {
+        "pinyin": "hén",
+        "meaning": "Narbe; Spuren"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "疒",
+    "components": [
+      {
+        "part": "疒",
+        "role": "semantic",
+        "meaning": "Krankheit"
+      },
+      {
+        "part": "艮",
+        "role": "phonetic",
+        "meaning": "stillstehen, Berg"
+      }
+    ],
+    "words": [
+      "w:痕迹:hen2ji4",
+      "w:裂痕:lie4hen2",
+      "w:伤痕:shang1hen2"
+    ],
+    "evidence": {
+      "cedict": [
+        "hen2: scar; traces"
+      ],
+      "handedict": [
+        "hen2: Narbe (S); Spuren (S)"
+      ],
+      "unihan": "136.030:hén | hén(44)",
+      "etymology": "pictophonetic: sickness"
+    }
   },
   {
-    "hanzi": "憎",
-    "meanings": ["hassen","verabscheuen"],
-    "components": [{ "radical": "忄", "meaning": "Herz" }, { "radical": "曾", "meaning": "einst" }],
-    "hsk": "HSK6",
-    "strokes": 15
+    "hanzi": "狠",
+    "level": "HSK6",
+    "traditional": [
+      "狠"
+    ],
+    "readings": [
+      {
+        "pinyin": "hěn",
+        "meaning": "grausam; entschlossen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "犬",
+    "radicalForm": "犭",
+    "components": [
+      {
+        "part": "犭",
+        "role": "semantic",
+        "meaning": "Tier"
+      },
+      {
+        "part": "艮",
+        "role": "phonetic",
+        "meaning": "hart"
+      }
+    ],
+    "words": [
+      "w:狠:hen3",
+      "w:凶狠:xiong1hen3"
+    ],
+    "evidence": {
+      "cedict": [
+        "hen3: ruthless; fierce; ferocious; determined; resolute; to harden (one's heart); old variant of 很[hen3]"
+      ],
+      "handedict": [
+        "hen3: grausam, hartherzig, unbarmherzig (Adj)"
+      ],
+      "unihan": "136.060:hěn | hěn(123)",
+      "etymology": "pictophonetic: dog",
+      "old": "grausam; entschlossen"
+    }
   },
   {
-    "hanzi": "眩",
-    "meanings": ["schwindelig","geblendet"],
-    "components": [{ "radical": "目", "meaning": "Auge" }, { "radical": "玄", "meaning": "dunkel" }],
-    "hsk": "HSK6",
-    "strokes": 10
+    "hanzi": "恨",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "恨"
+    ],
+    "readings": [
+      {
+        "pinyin": "hèn",
+        "meaning": "hassen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "心",
+    "radicalForm": "忄",
+    "components": [
+      {
+        "part": "忄",
+        "role": "semantic",
+        "meaning": "Herz"
+      },
+      {
+        "part": "艮",
+        "role": "phonetic",
+        "meaning": "stoppen"
+      }
+    ],
+    "words": [
+      "w:恨:hen4",
+      "w:仇恨:chou2hen4",
+      "w:悔恨:hui3hen4",
+      "w:怨恨:yuan4hen4",
+      "w:恨不得:hen4bu5de5"
+    ],
+    "evidence": {
+      "cedict": [
+        "hen4: to hate; to regret"
+      ],
+      "handedict": [
+        "hen4: Hass (S); hassen, nicht mögen (V)"
+      ],
+      "unihan": "136.070:hèn | hèn(131)",
+      "etymology": "pictophonetic: heart",
+      "old": "hassen"
+    }
   },
   {
-    "hanzi": "瞌",
-    "meanings": ["schlaefrig","doesen"],
-    "components": [{ "radical": "目", "meaning": "Auge" }, { "radical": "盍", "meaning": "warum nicht" }],
-    "hsk": "HSK6",
-    "strokes": 15
+    "hanzi": "横",
+    "level": "HSK6",
+    "traditional": [
+      "橫"
+    ],
+    "readings": [
+      {
+        "pinyin": "héng",
+        "meaning": "über (P), herüber; horizontal, quer; waagerecht"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "role": "semantic",
+        "meaning": "Baum, Holz"
+      },
+      {
+        "part": "黄",
+        "role": "phonetic",
+        "meaning": "gelb"
+      }
+    ],
+    "words": [
+      "w:横:heng2",
+      "w:横:heng2#2",
+      "w:横向:heng2xiang4",
+      "w:纵横:zong4heng2",
+      "w:横行:heng2xing2"
+    ],
+    "evidence": {
+      "cedict": [
+        "heng2: horizontal; across; crosswise; horizontal stroke (in Chinese characters); to place (sth) flat (on a surface)"
+      ],
+      "handedict": [
+        "heng2: über (P), herüber (Adv); horizontal, quer (Adj); waagerecht (Adj); Heng (Eig, Fam)"
+      ],
+      "unihan": "136.160:héng 137.040:hèng | héng(131)",
+      "etymology": "pictophonetic: tree"
+    }
   },
   {
-    "hanzi": "匀",
-    "meanings": ["gleichmaessig","verteilen"],
-    "components": [{ "radical": "勹", "meaning": "einhuellen" }, { "radical": "二", "meaning": "zwei" }],
-    "hsk": "HSK6",
-    "strokes": 4
+    "hanzi": "宏",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "宏"
+    ],
+    "readings": [
+      {
+        "pinyin": "hóng",
+        "meaning": "makro- (Vorsilbe); riesig, geräumig"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "宀",
+    "components": [
+      {
+        "part": "宀",
+        "role": "semantic",
+        "meaning": "Dach"
+      },
+      {
+        "part": "厷",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:宏大:hong2da4",
+      "w:宏观:hong2guan1",
+      "w:宏伟:hong2wei3",
+      "w:恢宏:hui1hong2",
+      "w:宏图:hong2tu2"
+    ],
+    "evidence": {
+      "cedict": [
+        "hong2: great; magnificent; macro (computing); macro-"
+      ],
+      "handedict": [
+        "hong2: makro- (Vorsilbe); riesig, geräumig (Adj); Hong (Eig)"
+      ],
+      "unihan": "137.160:hóng | hóng(31)",
+      "etymology": "pictophonetic: building"
+    }
   },
   {
-    "hanzi": "靶",
-    "meanings": ["Zielscheibe","Ziel"],
-    "components": [{ "radical": "革", "meaning": "Leder" }, { "radical": "把", "meaning": "greifen" }],
-    "hsk": "HSK6",
-    "strokes": 13
+    "hanzi": "虹",
+    "level": "HSK6",
+    "traditional": [
+      "虹"
+    ],
+    "readings": [
+      {
+        "pinyin": "hóng",
+        "meaning": "Regenbogen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "虫",
+    "components": [
+      {
+        "part": "虫",
+        "role": "semantic",
+        "meaning": "Insekt, Wurm"
+      },
+      {
+        "part": "工",
+        "role": "phonetic",
+        "meaning": "Arbeit, Handwerk"
+      }
+    ],
+    "words": [
+      "w:彩虹:cai3hong2"
+    ],
+    "evidence": {
+      "cedict": [
+        "hong2: rainbow"
+      ],
+      "handedict": [
+        "hong2: Regenbogen (S); Hong (Eig, Fam)"
+      ],
+      "unihan": "138.020:hóng 167.150:jiàng",
+      "etymology": "pictophonetic: insect"
+    }
   },
   {
-    "hanzi": "绰",
-    "meanings": ["uebermaessig","Spitzname"],
-    "components": [{ "radical": "纟", "meaning": "Seide" }, { "radical": "卓", "meaning": "hervorragend" }],
-    "hsk": "HSK6",
-    "strokes": 11
+    "hanzi": "洪",
+    "level": "HSK6",
+    "traditional": [
+      "洪"
+    ],
+    "readings": [
+      {
+        "pinyin": "hóng",
+        "meaning": "Überschwemmung, Hochwasser, Überflutung, Hochflut"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "共"
+      }
+    ],
+    "words": [
+      "w:洪水:hong2shui3",
+      "w:洪亮:hong2liang4",
+      "w:洪涝:hong2lao4"
+    ],
+    "evidence": {
+      "cedict": [
+        "hong2: surname Hong; flood; big; great"
+      ],
+      "handedict": [
+        "hong2: Überschwemmung, Hochwasser, Überflutung, Hochflut (S); Hong (Eig, Fam)"
+      ],
+      "unihan": "138.040:hóng | hóng(46)",
+      "etymology": "ideographic: All 共 the water 氵; 共 also provides the pronunciation"
+    }
   },
   {
-    "hanzi": "撬",
-    "meanings": ["aufbrechen","hebeln"],
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "翘", "meaning": "hochbiegen" }],
-    "hsk": "HSK6",
-    "strokes": 15
+    "hanzi": "壶",
+    "level": "HSK6",
+    "traditional": [
+      "壺"
+    ],
+    "readings": [
+      {
+        "pinyin": "hú",
+        "meaning": "Kanne; Teekanne"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "士",
+    "components": [
+      {
+        "part": "士",
+        "meaning": "Gelehrter"
+      },
+      {
+        "part": "冖",
+        "meaning": "Deckel"
+      },
+      {
+        "part": "业"
+      }
+    ],
+    "words": [
+      "w:壶:hu2",
+      "w:茶壶:cha2hu2",
+      "w:水壶:shui3hu2",
+      "w:喷壶:pen1hu2",
+      "w:箪食壶浆:dan1si4hu2jiang1"
+    ],
+    "evidence": {
+      "cedict": [
+        "hu2: pot; classifier for bottled liquid"
+      ],
+      "handedict": [
+        "hu2: Kanne (S); Gefäß (S); ZEW für abgefüllte Flüssigkeiten, z. B. Tee (Zähl)"
+      ],
+      "unihan": "140.150:hú | hú(47)",
+      "etymology": "pictographic: A jar of wine",
+      "old": "Kanne; Teekanne"
+    }
   },
   {
-    "hanzi": "匿",
-    "meanings": ["verbergen","verstecken"],
-    "components": [{ "radical": "匚", "meaning": "Kasten" }, { "radical": "若", "meaning": "wenn" }],
-    "hsk": "HSK6",
-    "strokes": 10
+    "hanzi": "幻",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "幻"
+    ],
+    "readings": [
+      {
+        "pinyin": "huàn",
+        "meaning": "Illusion; phantastisch"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 4,
+    "primaryRadical": "幺",
+    "components": [
+      {
+        "part": "幺",
+        "meaning": "klein"
+      },
+      {
+        "part": "𠃌"
+      }
+    ],
+    "words": [
+      "w:幻想:huan4xiang3",
+      "w:科幻:ke1huan4",
+      "w:幻觉:huan4jue2",
+      "w:幻影:huan4ying3",
+      "w:梦幻:meng4huan4"
+    ],
+    "evidence": {
+      "cedict": [
+        "huan4: fantasy"
+      ],
+      "handedict": [
+        "huan4: Phantasie (S)"
+      ],
+      "unihan": "145.060:huàn | huàn(62)",
+      "etymology": "ideographic: An inversion of 予, \"to give\"",
+      "old": "Illusion; phantastisch"
+    }
   },
   {
-    "hanzi": "驯",
-    "meanings": ["zaehmen","zahm"],
-    "components": [{ "radical": "马", "meaning": "Pferd" }, { "radical": "川", "meaning": "Fluss" }],
-    "hsk": "HSK6",
-    "strokes": 13
+    "hanzi": "患",
+    "level": "HSK6",
+    "traditional": [
+      "患"
+    ],
+    "readings": [
+      {
+        "pinyin": "huàn",
+        "meaning": "beunruhigen, sorgen; erdulden, dulden; erkranken an, Vertrag abschließen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "心",
+    "components": [
+      {
+        "part": "串",
+        "role": "phonetic"
+      },
+      {
+        "part": "心",
+        "role": "semantic",
+        "meaning": "Herz"
+      }
+    ],
+    "words": [
+      "w:患:huan4",
+      "w:患者:huan4zhe3",
+      "w:隐患:yin3huan4",
+      "w:祸患:huo4huan4",
+      "w:后患:hou4huan4"
+    ],
+    "evidence": {
+      "cedict": [
+        "huan4: to suffer (from illness); to contract (a disease); misfortune; trouble; danger"
+      ],
+      "handedict": [
+        "huan4: beunruhigen, sorgen (V); erdulden, dulden (V); erkranken an, Vertrag abschließen (V); Unfall (S)"
+      ],
+      "unihan": "145.130:huàn | huàn(53)",
+      "etymology": "pictophonetic: heart"
+    }
   },
   {
-    "hanzi": "褶",
-    "meanings": ["Falte","falten"],
-    "components": [{ "radical": "衤", "meaning": "Kleidung" }, { "radical": "習", "meaning": "ueben" }],
-    "hsk": "HSK6",
-    "strokes": 16
+    "hanzi": "皇",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "皇"
+    ],
+    "readings": [
+      {
+        "pinyin": "huáng",
+        "meaning": "Kaiser; Kaiserin"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "白",
+    "components": [
+      {
+        "part": "白",
+        "meaning": "weiss"
+      },
+      {
+        "part": "王",
+        "meaning": "Jade"
+      }
+    ],
+    "words": [
+      "w:皇帝:huang2di4",
+      "w:皇宫:huang2gong1",
+      "w:皇后:huang2hou4",
+      "w:皇上:huang2shang5",
+      "w:皇室:huang2shi4"
+    ],
+    "evidence": {
+      "cedict": [
+        "huang2: surname Huang; emperor; old variant of 惶[huang2]"
+      ],
+      "handedict": [
+        "huang2: Kaiser (S); Kaiserin (S)"
+      ],
+      "unihan": "146.020:huáng | huáng(85)",
+      "etymology": "ideographic: A crown 白 on the head of the emperor 王"
+    }
   },
   {
-    "hanzi": "馋",
-    "meanings": ["gierig","verfressenlich"],
-    "components": [{ "radical": "饣", "meaning": "Essen" }, { "radical": "免", "meaning": "befreien" }],
-    "hsk": "HSK6",
-    "strokes": 12
+    "hanzi": "绘",
+    "level": "HSK6",
+    "traditional": [
+      "繪"
+    ],
+    "readings": [
+      {
+        "pinyin": "huì",
+        "meaning": "anstreichen, bemalen; malen, saugen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "糸",
+    "radicalForm": "纟",
+    "components": [
+      {
+        "part": "纟",
+        "role": "semantic",
+        "meaning": "Seide, Faden"
+      },
+      {
+        "part": "会",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:绘画:hui4hua4",
+      "w:描绘:miao2hui4",
+      "w:绘制:hui4zhi4",
+      "w:绘声绘色:hui4sheng1hui4se4"
+    ],
+    "evidence": {
+      "cedict": [
+        "hui4: to draw; to paint; to depict; to portray"
+      ],
+      "handedict": [
+        "hui4: anstreichen, bemalen (V); malen, saugen (V)"
+      ],
+      "unihan": "149.050:huì | huì(39)",
+      "etymology": "pictophonetic: silk"
+    }
   },
   {
-    "hanzi": "翎",
-    "meanings": ["Feder","Schwungfeder"],
-    "components": [{ "radical": "令", "meaning": "Befehl" }, { "radical": "羽", "meaning": "Feder" }],
-    "hsk": "HSK6",
-    "strokes": 11
+    "hanzi": "混",
+    "level": "HSK6",
+    "traditional": [
+      "混"
+    ],
+    "readings": [
+      {
+        "pinyin": "hùn",
+        "meaning": "mischen, vermischen; verworren; sich mit jmdm. vertragen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "昆",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:混:hun4",
+      "w:混合:hun4he2",
+      "w:混乱:hun4luan4",
+      "w:混淆:hun4xiao2",
+      "w:混浊:hun4zhuo2"
+    ],
+    "evidence": {
+      "cedict": [
+        "hun4: to mix; to mingle; muddled; to drift along; to muddle along"
+      ],
+      "handedict": [
+        "hun4: mischen, vermischen (V); verworren (Adj); sich mit jmdm. vertragen (V); gedankenlos, leichtsinnig (Adj)"
+      ],
+      "unihan": "150.100:hùn | hùn(197) hún(10)",
+      "etymology": "pictophonetic: water"
+    }
   },
   {
-    "hanzi": "窖",
-    "meanings": ["Keller","Grube"],
-    "components": [{ "radical": "穴", "meaning": "Hoehle" }, { "radical": "告", "meaning": "mitteilen" }],
-    "hsk": "HSK6",
-    "strokes": 12
+    "hanzi": "惑",
+    "level": "HSK6",
+    "traditional": [
+      "惑"
+    ],
+    "readings": [
+      {
+        "pinyin": "huò",
+        "meaning": "verwirrt; zweifeln"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "心",
+    "components": [
+      {
+        "part": "或",
+        "meaning": "oder"
+      },
+      {
+        "part": "心",
+        "meaning": "Herz"
+      }
+    ],
+    "words": [
+      "w:疑惑:yi2huo4",
+      "w:困惑:kun4huo4",
+      "w:迷惑:mi2huo4",
+      "w:诱惑:you4huo4",
+      "w:蛊惑:gu3huo4"
+    ],
+    "evidence": {
+      "cedict": [
+        "huo4: to confuse; to be puzzled"
+      ],
+      "handedict": [
+        "huo4: verwirren (V); ratlos sein (V)"
+      ],
+      "unihan": "151.140:huò | huò(12) huo(11)",
+      "etymology": "ideographic: An uncertain 或 heart 心; 或 also provides the pronunciation",
+      "old": "verwirrt; zweifeln"
+    }
   },
   {
-    "hanzi": "篡",
-    "meanings": ["usurpieren","an sich reissen"],
-    "components": [{ "radical": "竹", "meaning": "Bambus" }, { "radical": "算", "meaning": "rechnen" }],
-    "hsk": "HSK6",
-    "strokes": 16
+    "hanzi": "击",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "擊"
+    ],
+    "readings": [
+      {
+        "pinyin": "jī",
+        "meaning": "angreifen, prügeln, schlagen; Schlag, Stoß"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 5,
+    "primaryRadical": "凵",
+    "components": [
+      {
+        "part": "凵",
+        "meaning": "offener Mund, Behälter"
+      },
+      {
+        "part": "扌",
+        "meaning": "Hand"
+      }
+    ],
+    "words": [
+      "w:冲击:chong1ji1",
+      "w:打击:da3ji1",
+      "w:点击:dian3ji1",
+      "w:攻击:gong1ji1",
+      "w:击败:ji1bai4"
+    ],
+    "evidence": {
+      "cedict": [
+        "ji1: to hit; to strike; to break; Taiwan pr. [ji2]"
+      ],
+      "handedict": [
+        "ji1: angreifen, prügeln, schlagen (V, Med); Schlag, Stoß (S)"
+      ],
+      "unihan": "153.040:jī | jī(644)",
+      "etymology": "ideographic: Simplified form of 擊; 手 provides the meaning"
+    }
   },
   {
-    "hanzi": "沼",
-    "meanings": ["Sumpf","Moor"],
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "召", "meaning": "rufen" }],
-    "hsk": "HSK6",
-    "strokes": 8
+    "hanzi": "饥",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "飢"
+    ],
+    "readings": [
+      {
+        "pinyin": "jī",
+        "meaning": "Hunger"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 5,
+    "primaryRadical": "食",
+    "radicalForm": "饣",
+    "components": [
+      {
+        "part": "饣",
+        "role": "semantic",
+        "meaning": "Essen"
+      },
+      {
+        "part": "几",
+        "role": "phonetic",
+        "meaning": "wenige"
+      }
+    ],
+    "words": [
+      "w:饥饿:ji1e4",
+      "w:如饥似渴:ru2ji1si4ke3",
+      "w:画饼充饥:hua4bing3chong1ji1"
+    ],
+    "evidence": {
+      "cedict": [
+        "ji1: (bound form) hungry; variant of 飢|饥[ji1]"
+      ],
+      "handedict": [
+        "ji1: hungrig (Adj); Ji (Eig, Fam); hungrig (Adj)"
+      ],
+      "unihan": "153.060,153.070:jī | jī(37)",
+      "etymology": "pictophonetic: food",
+      "old": "Hunger"
+    }
   },
   {
-    "hanzi": "椎",
-    "meanings": ["Wirbel","Hammer"],
-    "components": [{ "radical": "木", "meaning": "Holz" }, { "radical": "隹", "meaning": "Vogel" }],
-    "hsk": "HSK6",
-    "strokes": 12
+    "hanzi": "吉",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "吉"
+    ],
+    "readings": [
+      {
+        "pinyin": "jí",
+        "meaning": "glücklich; Giga (Vorsatz für Maßeinheiten), Giga- (Vorsilbe)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "口",
+    "components": [
+      {
+        "part": "士",
+        "meaning": "Gelehrter, Krieger"
+      },
+      {
+        "part": "口",
+        "meaning": "Mund"
+      }
+    ],
+    "words": [
+      "w:吉祥:ji2xiang2",
+      "w:吉利:ji2li4",
+      "w:吉他:ji2ta1",
+      "w:吉祥物:ji2xiang2wu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "ji2: short name for Jilin 吉林[Ji2 lin2]; surname Ji; lucky; giga- (meaning billion or 10^9)"
+      ],
+      "handedict": [
+        "ji2: glücklich (Adj); Giga (Vorsatz für Maßeinheiten) (S, Phys), Giga- (Vorsilbe); Ji, Chi (Eig, Fam)"
+      ],
+      "unihan": "155.040:jí | jí(13)",
+      "etymology": "ideographic: The words 口 of a scholar 士"
+    }
+  },
+  {
+    "hanzi": "寂",
+    "level": "HSK6",
+    "traditional": [
+      "寂"
+    ],
+    "readings": [
+      {
+        "pinyin": "jì",
+        "meaning": "einsam; still"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "宀",
+    "components": [
+      {
+        "part": "宀",
+        "role": "semantic",
+        "meaning": "Dach"
+      },
+      {
+        "part": "叔",
+        "role": "phonetic",
+        "meaning": "Onkel"
+      }
+    ],
+    "words": [
+      "w:寂寞:ji4mo4",
+      "w:寂静:ji4jing4",
+      "w:沉寂:chen2ji4",
+      "w:阒寂:qu4ji4"
+    ],
+    "evidence": {
+      "cedict": [
+        "ji4: silent; solitary; Taiwan pr. [ji2]"
+      ],
+      "handedict": [
+        "ji4: einsam, verlassen (Adj); still, ruhig (Adj)"
+      ],
+      "unihan": "159.080:jì | jì(64)",
+      "etymology": "pictophonetic: roof",
+      "old": "einsam; still"
+    }
+  },
+  {
+    "hanzi": "夹",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "夾"
+    ],
+    "readings": [
+      {
+        "pinyin": "jiā",
+        "meaning": "Falter; Hieb; kürzen, stutzen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "大",
+    "components": [
+      {
+        "part": "夫"
+      },
+      {
+        "part": "丷"
+      }
+    ],
+    "words": [
+      "w:夹:jia1",
+      "w:夹杂:jia1za2",
+      "w:夹子:jia1zi5",
+      "w:衣夹:yi1jia1",
+      "w:文件夹:wen2jian4jia1"
+    ],
+    "evidence": {
+      "cedict": [
+        "jia1: to press from either side; to place in between; to sandwich; to carry sth under armpit; wedged between"
+      ],
+      "handedict": [
+        "jia1: Falter (S); Hieb (S); kürzen, stutzen (V); kneifen (V); Jia (Eig, Fam)"
+      ],
+      "unihan": "104.010:gā 160.050:jiā 161.060:jiá | jiā(95) jiá(23)",
+      "etymology": "ideographic: A person 夫 stuck between two others 丷"
+    }
+  },
+  {
+    "hanzi": "嫁",
+    "level": "HSK6",
+    "traditional": [
+      "嫁"
+    ],
+    "readings": [
+      {
+        "pinyin": "jià",
+        "meaning": "heiraten (Frau)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "女",
+    "components": [
+      {
+        "part": "女",
+        "role": "semantic",
+        "meaning": "Frau"
+      },
+      {
+        "part": "家",
+        "role": "phonetic",
+        "meaning": "Familie"
+      }
+    ],
+    "words": [
+      "w:嫁:jia4",
+      "w:嫁妆:jia4zhuang5",
+      "w:嫁接:jia4jie1"
+    ],
+    "evidence": {
+      "cedict": [
+        "jia4: (of a woman) to marry; to marry off a daughter; to shift (blame etc)"
+      ],
+      "handedict": [
+        "jia4: einen Mann heiraten (V); eine Tochter verheiraten (V); eine Schuld auf jmdn. abwälzen (V)"
+      ],
+      "unihan": "162.080:jià | jià(54)",
+      "etymology": "pictophonetic: woman",
+      "old": "heiraten (Frau)"
+    }
+  },
+  {
+    "hanzi": "稼",
+    "level": "HSK6",
+    "traditional": [
+      "稼"
+    ],
+    "readings": [
+      {
+        "pinyin": "jia",
+        "meaning": "saeen; Feldarbeit"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "禾",
+    "components": [
+      {
+        "part": "禾",
+        "role": "semantic",
+        "meaning": "Getreide"
+      },
+      {
+        "part": "家",
+        "role": "phonetic",
+        "meaning": "Haus"
+      }
+    ],
+    "words": [
+      "w:庄稼:zhuang1jia5"
+    ],
+    "evidence": {
+      "cedict": [
+        "jia5: "
+      ],
+      "handedict": [
+        "jia5: "
+      ],
+      "unihan": "162.090:jià | jia(118)",
+      "etymology": "pictophonetic: grain",
+      "old": "saeen; Feldarbeit"
+    }
+  },
+  {
+    "hanzi": "尖",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "尖"
+    ],
+    "readings": [
+      {
+        "pinyin": "jiān",
+        "meaning": "scharf, pünktlich; zeigen, Weiche; Zinke"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "小",
+    "components": [
+      {
+        "part": "小",
+        "meaning": "klein"
+      },
+      {
+        "part": "大",
+        "meaning": "gross"
+      }
+    ],
+    "words": [
+      "w:尖:jian1",
+      "w:顶尖:ding3jian1",
+      "w:尖端:jian1duan1",
+      "w:尖锐:jian1rui4"
+    ],
+    "evidence": {
+      "cedict": [
+        "jian1: pointed; tapering; sharp; (of a sound) shrill; piercing; (of one's hearing, sight etc) sharp; acute; keen; to make (one's voice) shrill; sharp point; tip"
+      ],
+      "handedict": [
+        "jian1: scharf, pünktlich (Adj); zeigen (V), Weiche (S); Zinke (S); spitz (Adj)"
+      ],
+      "unihan": "162.120:jiān | jiān(168)",
+      "etymology": "ideographic: A point, small 小 over big 大"
+    }
+  },
+  {
+    "hanzi": "肩",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "肩"
+    ],
+    "readings": [
+      {
+        "pinyin": "jiān",
+        "meaning": "Schulter"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "肉",
+    "radicalForm": "月",
+    "components": [
+      {
+        "part": "户",
+        "meaning": "Tuer"
+      },
+      {
+        "part": "月",
+        "meaning": "Fleisch"
+      }
+    ],
+    "words": [
+      "w:肩膀:jian1bang3",
+      "w:并肩:bing4jian1",
+      "w:肩负:jian1fu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "jian1: shoulder; to shoulder (responsibilities etc)"
+      ],
+      "handedict": [
+        "jian1: Achsel (S, Anat); Schulter (S, Anat); Schulterblatt (S, Anat); Seitenstreifen, Bankett (S); Jian (Eig, Fam)"
+      ],
+      "unihan": "163.040:jiān | jiān(208)",
+      "etymology": "ideographic: A man bringing home meat ⺼ for the family 户",
+      "old": "Schulter"
+    }
+  },
+  {
+    "hanzi": "监",
+    "level": "HSK6",
+    "traditional": [
+      "監"
+    ],
+    "readings": [
+      {
+        "pinyin": "jiān",
+        "meaning": "beaufsichtigen, betreuen; fest, hart; inspizieren, beschauen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "皿",
+    "components": [
+      {
+        "part": "𰀢"
+      },
+      {
+        "part": "皿",
+        "meaning": "Schale, Gefäß"
+      }
+    ],
+    "words": [
+      "w:监测:jian1ce4",
+      "w:监督:jian1du1",
+      "w:监察:jian1cha2",
+      "w:监管:jian1guan3",
+      "w:监护:jian1hu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "jian1: to supervise; to inspect; jail; prison"
+      ],
+      "handedict": [
+        "jian1: beaufsichtigen, betreuen (V); fest, hart (Adj); inspizieren, beschauen (V); Jian (Eig, Fam)"
+      ],
+      "unihan": "163.060:jiān 165.140:jiàn | jiān(115)"
+    }
+  },
+  {
+    "hanzi": "兼",
+    "level": "HSK6",
+    "traditional": [
+      "兼"
+    ],
+    "readings": [
+      {
+        "pinyin": "jiān",
+        "meaning": "gleichzeitig"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "八",
+    "components": [
+      {
+        "part": "䒑"
+      },
+      {
+        "part": "⺕"
+      },
+      {
+        "part": "丨",
+        "meaning": "vertikaler Strich"
+      },
+      {
+        "part": "八",
+        "meaning": "acht, teilen"
+      }
+    ],
+    "words": [
+      "w:兼职:jian1zhi2",
+      "w:兼:jian1",
+      "w:兼顾:jian1gu4",
+      "w:兼任:jian1ren4",
+      "w:兼容:jian1rong2"
+    ],
+    "evidence": {
+      "cedict": [
+        "jian1: double; twice; simultaneous; holding two or more (official) posts at the same time"
+      ],
+      "handedict": [
+        "jian1: doppelt (Adj); nebenbei (Adv); gleichzeitig, zusätzlich (Adj) ; zugleich (Adv)"
+      ],
+      "unihan": "163.070:jiān | jiān(40)",
+      "etymology": "ideographic: A hand holding two sheafs of grain 禾",
+      "old": "gleichzeitig"
+    }
+  },
+  {
+    "hanzi": "剑",
+    "level": "HSK6",
+    "traditional": [
+      "劍"
+    ],
+    "readings": [
+      {
+        "pinyin": "jiàn",
+        "meaning": "Schwert"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "刀",
+    "radicalForm": "刂",
+    "components": [
+      {
+        "part": "佥",
+        "role": "phonetic",
+        "meaning": "alle"
+      },
+      {
+        "part": "刂",
+        "role": "semantic",
+        "meaning": "Messer"
+      }
+    ],
+    "words": [
+      "w:剑:jian4",
+      "w:刻舟求剑:ke4zhou1qiu2jian4",
+      "w:剑拔弩张:jian4ba2nu3zhang1",
+      "w:项庄舞剑:xiang4zhuang1wu3jian4",
+      "w:宝剑锋从磨砺出，梅花香自苦寒来:bao3jian4feng1cong2mo2li4chu1mei2hua1xiang1zi4ku3han2lai2"
+    ],
+    "evidence": {
+      "cedict": [
+        "jian4: double-edged sword; CL:口[kou3],把[ba3]; classifier for blows of a sword; variant of 劍|剑[jian4]"
+      ],
+      "handedict": [
+        "jian4: Schwert (S)"
+      ],
+      "unihan": "165.130:jiàn | jiàn(79)",
+      "etymology": "pictophonetic: knife",
+      "old": "Schwert"
+    }
+  },
+  {
+    "hanzi": "鉴",
+    "level": "HSK6",
+    "traditional": [
+      "鑑"
+    ],
+    "readings": [
+      {
+        "pinyin": "jiàn",
+        "meaning": "pruefen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "金",
+    "components": [
+      {
+        "part": "𰀢"
+      },
+      {
+        "part": "金",
+        "role": "semantic",
+        "meaning": "Gold"
+      }
+    ],
+    "words": [
+      "w:鉴定:jian4ding4",
+      "w:借鉴:jie4jian4",
+      "w:鉴别:jian4bie2",
+      "w:鉴赏:jian4shang3",
+      "w:鉴于:jian4yu2"
+    ],
+    "evidence": {
+      "cedict": [
+        "jian4: variant of 鑑|鉴[jian4]; old variant of 鑒|鉴[jian4]; bronze mirror (used in ancient times); to reflect; to mirror"
+      ],
+      "handedict": [
+        "jian4: Beispiel, Leitbild (S); Messing- oder Bronzespiegel (S); nachdenken, widerspiegeln (V); ermahnen, warnen (V); inspizieren, beschauen (V)"
+      ],
+      "unihan": "166.070:jiàn | jiàn(33)",
+      "etymology": "pictophonetic: metal",
+      "old": "pruefen"
+    }
+  },
+  {
+    "hanzi": "箭",
+    "level": "HSK6",
+    "traditional": [
+      "箭"
+    ],
+    "readings": [
+      {
+        "pinyin": "jiàn",
+        "meaning": "Pfeil"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "竹",
+    "components": [
+      {
+        "part": "𥫗"
+      },
+      {
+        "part": "前",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:箭:jian4",
+      "w:火箭:huo3jian4",
+      "w:归心似箭:gui1xin1si4jian4",
+      "w:草船借箭:cao3chuan2jie4jian4",
+      "w:一箭双雕:yi1jian4shuang1diao1"
+    ],
+    "evidence": {
+      "cedict": [
+        "jian4: arrow; CL:支[zhi1]"
+      ],
+      "handedict": [
+        "jian4: Pfeil (S)"
+      ],
+      "unihan": "166.120:jiàn | jiàn(87)",
+      "etymology": "pictophonetic: bamboo"
+    }
+  },
+  {
+    "hanzi": "酱",
+    "level": "HSK6",
+    "traditional": [
+      "醬"
+    ],
+    "readings": [
+      {
+        "pinyin": "jiàng",
+        "meaning": "Sosse; Paste"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "酉",
+    "components": [
+      {
+        "part": "丬",
+        "role": "phonetic",
+        "meaning": "Bett"
+      },
+      {
+        "part": "夕",
+        "meaning": "Abend"
+      },
+      {
+        "part": "酉",
+        "role": "semantic",
+        "meaning": "Alkohol"
+      }
+    ],
+    "words": [
+      "w:酱:jiang4",
+      "w:酱油:jiang4you2",
+      "w:果酱:guo3jiang4"
+    ],
+    "evidence": {
+      "cedict": [
+        "jiang4: thick paste of fermented soybean; marinated in soy paste; paste; jam"
+      ],
+      "handedict": [
+        "jiang4: Sauce (S, Ess)"
+      ],
+      "unihan": "168.030:jiàng | jiàng(36)",
+      "etymology": "pictophonetic: wine",
+      "old": "Sosse; Paste"
+    }
+  },
+  {
+    "hanzi": "胶",
+    "level": "HSK6",
+    "traditional": [
+      "膠"
+    ],
+    "readings": [
+      {
+        "pinyin": "jiāo",
+        "meaning": "Gummi; Kleber, Leim; leimen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "肉",
+    "radicalForm": "月",
+    "components": [
+      {
+        "part": "月",
+        "meaning": "Fleisch"
+      },
+      {
+        "part": "交"
+      }
+    ],
+    "words": [
+      "w:胶带:jiao1dai4",
+      "w:胶水:jiao1shui3",
+      "w:胶囊:jiao1nang2",
+      "w:橡胶:xiang4jiao1"
+    ],
+    "evidence": {
+      "cedict": [
+        "jiao1: to glue; glue; gum; rubber"
+      ],
+      "handedict": [
+        "jiao1: Gummi (S); Kleber, Leim (S); leimen (V); leimig, klebrig, zähflüssig (Adj); Jiao (Eig, Pers)"
+      ],
+      "unihan": "168.150:jiāo | jiāo(37)",
+      "etymology": "ideographic: Tendons that connect 交 muscles ⺼; 交 also provides the pronunciation"
+    }
+  },
+  {
+    "hanzi": "椒",
+    "level": "HSK6",
+    "traditional": [
+      "椒"
+    ],
+    "readings": [
+      {
+        "pinyin": "jiāo",
+        "meaning": "Pfeffer"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "role": "semantic",
+        "meaning": "Baum, Holz"
+      },
+      {
+        "part": "叔",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:辣椒:la4jiao1",
+      "w:青椒:qing1jiao1",
+      "w:花椒:hua1jiao1"
+    ],
+    "evidence": {
+      "cedict": [
+        "jiao1: pepper"
+      ],
+      "handedict": [
+        "jiao1: Pfeffer (S); Jiao (Eig, Fam)"
+      ],
+      "unihan": "168.180:jiāo | jiāo(12)",
+      "etymology": "pictophonetic: tree"
+    }
+  },
+  {
+    "hanzi": "焦",
+    "level": "HSK6",
+    "traditional": [
+      "焦"
+    ],
+    "readings": [
+      {
+        "pinyin": "jiāo",
+        "meaning": "verbrannt; aengstlich"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "火",
+    "radicalForm": "灬",
+    "components": [
+      {
+        "part": "隹",
+        "meaning": "Vogel"
+      },
+      {
+        "part": "灬",
+        "meaning": "Feuer"
+      }
+    ],
+    "words": [
+      "w:焦点:jiao1dian3",
+      "w:焦虑:jiao1lv4",
+      "w:焦:jiao1",
+      "w:焦急:jiao1ji2",
+      "w:焦躁:jiao1zao4"
+    ],
+    "evidence": {
+      "cedict": [
+        "jiao1: surname Jiao; burnt; scorched; charred; worried"
+      ],
+      "handedict": [
+        "jiao1: entsetzt, verängstigt (Adj); verbrannt, verkohlt (Adj); Jiao (Eig, Fam)"
+      ],
+      "unihan": "169.020:jiāo | jiāo(80)",
+      "etymology": "ideographic: A bird 隹 getting its tail singed 灬",
+      "old": "verbrannt; aengstlich"
+    }
+  },
+  {
+    "hanzi": "杰",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "傑"
+    ],
+    "readings": [
+      {
+        "pinyin": "jié",
+        "meaning": "Held, Heroin, Heldin; außergewöhnlich, überragend, hervorragend; Variante von 杰 (X)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "meaning": "Baum, Holz"
+      },
+      {
+        "part": "灬",
+        "meaning": "Feuer"
+      }
+    ],
+    "words": [
+      "w:杰出:jie2chu1"
+    ],
+    "evidence": {
+      "cedict": [
+        "jie2: (bound form) hero; heroic; outstanding person; prominent; distinguished"
+      ],
+      "handedict": [
+        "jie2: Held, Heroin, Heldin (S); außergewöhnlich, überragend, hervorragend (Adj); Variante von 杰 (X)"
+      ],
+      "unihan": "173.020:jié | jié(25)"
+    }
+  },
+  {
+    "hanzi": "洁",
+    "level": "HSK6",
+    "traditional": [
+      "潔"
+    ],
+    "readings": [
+      {
+        "pinyin": "jié",
+        "meaning": "rein; sauber, klar"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "吉",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:清洁:qing1jie2",
+      "w:纯洁:chun2jie2",
+      "w:简洁:jian3jie2",
+      "w:洁白:jie2bai2",
+      "w:洁净:jie2jing4"
+    ],
+    "evidence": {
+      "cedict": [
+        "jie2: clean"
+      ],
+      "handedict": [
+        "jie2: rein (Adv); sauber, klar (Adj)"
+      ],
+      "unihan": "173.060:jié | jié(86)",
+      "etymology": "pictophonetic: water"
+    }
+  },
+  {
+    "hanzi": "捷",
+    "level": "HSK6",
+    "traditional": [
+      "捷"
+    ],
+    "readings": [
+      {
+        "pinyin": "jié",
+        "meaning": "Sieg, Triumph; flink, geschickt, agil, schnell, prompt"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "role": "semantic",
+        "meaning": "Hand"
+      },
+      {
+        "part": "疌",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:便捷:bian4jie2",
+      "w:快捷:kuai4jie2",
+      "w:捷径:jie2jing4",
+      "w:敏捷:min3jie2",
+      "w:捷足先登:jie2zu2xian1deng1"
+    ],
+    "evidence": {
+      "cedict": [
+        "jie2: variant of 捷[jie2]; quick; nimble; Czech; Czech Republic"
+      ],
+      "handedict": [
+        "jie2: Sieg, Triumph (S); flink, geschickt, agil, schnell, prompt (Adj); Jie (Eig, Fam)"
+      ],
+      "unihan": "173.100:jié | jié(20)",
+      "etymology": "pictophonetic: hand"
+    }
+  },
+  {
+    "hanzi": "截",
+    "level": "HSK6",
+    "traditional": [
+      "截"
+    ],
+    "readings": [
+      {
+        "pinyin": "jié",
+        "meaning": "abschneiden"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 14,
+    "primaryRadical": "戈",
+    "components": [
+      {
+        "part": "𢦏"
+      },
+      {
+        "part": "隹",
+        "meaning": "kurzschwanz Vogel"
+      }
+    ],
+    "words": [
+      "w:截至:jie2zhi4",
+      "w:截止:jie2zhi3",
+      "w:截:jie2",
+      "w:截然不同:jie2ran2bu4tong2",
+      "w:斩钉截铁:zhan3ding1jie2tie3"
+    ],
+    "evidence": {
+      "cedict": [
+        "jie2: to cut off (a length); to stop; to intercept; section; chunk"
+      ],
+      "handedict": [
+        "jie2: abstellen, abschneiden (V)"
+      ],
+      "unihan": "173.160:jié | jié(53)",
+      "etymology": "ideographic: A bird 隹 cut off from its nest 十 by a weapon 戈",
+      "old": "abschneiden"
+    }
+  },
+  {
+    "hanzi": "戒",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "戒"
+    ],
+    "readings": [
+      {
+        "pinyin": "jiè",
+        "meaning": "sich enthalten; warnen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "戈",
+    "components": [
+      {
+        "part": "戈",
+        "meaning": "Hellebarde"
+      },
+      {
+        "part": "廾",
+        "meaning": "Haende"
+      }
+    ],
+    "words": [
+      "w:戒指:jie4zhi5",
+      "w:戒:jie4",
+      "w:戒备:jie4bei4",
+      "w:警戒:jing3jie4",
+      "w:戒烟:jie4yan1"
+    ],
+    "evidence": {
+      "cedict": [
+        "jie4: to guard against; to exhort; to admonish or warn; to give up or stop doing sth; Buddhist monastic discipline"
+      ],
+      "handedict": [
+        "jie4: Ring, Fingerring (S); Bsp.: 鑽戒 钻戒 - Diamantring; sich etw. abgewöhnen (z. B. Rauchen etc.) (V); sich vor etw. hüten (V); warnen vor (V)"
+      ],
+      "unihan": "174.070:jiè | jiè(42)",
+      "etymology": "ideographic: Two hands 廾 brandishing a spear 戈",
+      "old": "sich enthalten; warnen"
+    }
+  },
+  {
+    "hanzi": "劲",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "勁"
+    ],
+    "readings": [
+      {
+        "pinyin": "jìn",
+        "meaning": ""
+      },
+      {
+        "pinyin": "jìng",
+        "meaning": "robust, fest; stark, kräftig, stämmig"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "力",
+    "components": [
+      {
+        "part": "𢀖"
+      },
+      {
+        "part": "力",
+        "role": "semantic",
+        "meaning": "Kraft"
+      }
+    ],
+    "words": [
+      "w:使劲:shi3jin4",
+      "w:强劲:qiang2jing4",
+      "w:有劲:you3jin4",
+      "w:劲:jin4",
+      "w:费劲:fei4jin4"
+    ],
+    "evidence": {
+      "cedict": [
+        "jin4: strength; energy; enthusiasm; spirit; mood",
+        "jing4: stalwart; sturdy; strong; powerful"
+      ],
+      "handedict": [
+        "jin4: ",
+        "jing4: robust, fest (Adj); stark, kräftig, stämmig (Adj)"
+      ],
+      "unihan": "177.040:jìn 180.050:jìng | jìn(294)",
+      "etymology": "pictophonetic: strength"
+    }
+  },
+  {
+    "hanzi": "井",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "井"
+    ],
+    "readings": [
+      {
+        "pinyin": "jǐng",
+        "meaning": "warnen; wohl; Brunnen, Grube"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 4,
+    "primaryRadical": "二",
+    "components": [
+      {
+        "part": "二",
+        "meaning": "zwei"
+      },
+      {
+        "part": "丿",
+        "meaning": "schräger Strich (links)"
+      },
+      {
+        "part": "丨",
+        "meaning": "vertikaler Strich"
+      }
+    ],
+    "words": [
+      "w:井:jing3",
+      "w:井底之蛙:jing3di3zhi1wa1",
+      "w:天井:tian1jing3",
+      "w:井然有序:jing3ran2you3xu4",
+      "w:井井有条:jing3jing3you3tiao2"
+    ],
+    "evidence": {
+      "cedict": [
+        "jing3: Jing, one of the 28 constellations of Chinese astronomy; surname Jing; a well; CL:口[kou3]; neat"
+      ],
+      "handedict": [
+        "jing3: warnen (V); wohl (Adj); Brunnen, Grube (S)"
+      ],
+      "unihan": "179.100:jǐng | jǐng(147)",
+      "etymology": "pictographic: A mine or well"
+    }
+  },
+  {
+    "hanzi": "颈",
+    "level": "HSK6",
+    "traditional": [
+      "頸"
+    ],
+    "readings": [
+      {
+        "pinyin": "jǐng",
+        "meaning": "Hals; Nacken"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "頁",
+    "radicalForm": "页",
+    "components": [
+      {
+        "part": "𢀖"
+      },
+      {
+        "part": "页",
+        "role": "semantic",
+        "meaning": "Seite/Kopf"
+      }
+    ],
+    "words": [
+      "w:颈椎:jing3zhui1",
+      "w:瓶颈:ping2jing3",
+      "w:长颈鹿:chang2jing3lu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "jing3: neck"
+      ],
+      "handedict": [
+        "jing3: Hals, Nacken (S); Ausschnitt (S); knutschen (V)"
+      ],
+      "unihan": "113.080:gěng 179.150:jǐng | jǐng(13)",
+      "etymology": "pictophonetic: head",
+      "old": "Hals; Nacken"
+    }
+  },
+  {
+    "hanzi": "径",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "徑"
+    ],
+    "readings": [
+      {
+        "pinyin": "jìng",
+        "meaning": "Pfad"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "彳",
+    "components": [
+      {
+        "part": "彳",
+        "role": "semantic",
+        "meaning": "Schritt"
+      },
+      {
+        "part": "圣"
+      }
+    ],
+    "words": [
+      "w:田径:tian2jing4",
+      "w:途径:tu2jing4",
+      "w:半径:ban4jing4",
+      "w:捷径:jie2jing4",
+      "w:径直:jing4zhi2"
+    ],
+    "evidence": {
+      "cedict": [
+        "jing4: footpath; path; track; (fig.) a way; a means; directly; straight; diameter; footpath; path; track; (fig.) a way; a means (variant of 徑|径[jing4]); directly; straight (variant of 徑|径[jing4])"
+      ],
+      "handedict": [
+        "jing4: Trasse, Laufweg (S, Sport); Durchmesser (S)"
+      ],
+      "unihan": "180.060:jìng | jìng(69)",
+      "etymology": "pictophonetic: step",
+      "old": "Pfad"
+    }
+  },
+  {
+    "hanzi": "纠",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "糾"
+    ],
+    "readings": [
+      {
+        "pinyin": "jiū",
+        "meaning": "korrigieren; verwickeln"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 5,
+    "primaryRadical": "糸",
+    "radicalForm": "纟",
+    "components": [
+      {
+        "part": "纟",
+        "meaning": "Seide"
+      },
+      {
+        "part": "丩",
+        "meaning": "verflechten"
+      }
+    ],
+    "words": [
+      "w:纠纷:jiu1fen1",
+      "w:纠正:jiu1zheng4",
+      "w:纠缠:jiu1chan2",
+      "w:纠结:jiu1jie2",
+      "w:纠葛:jiu1ge2"
+    ],
+    "evidence": {
+      "cedict": [
+        "jiu1: old variant of 糾|纠[jiu1]; to gather together; to investigate; to entangle; to correct"
+      ],
+      "handedict": [
+        "jiu1: erforschen, nachforschen (V); korrekt (Adj), abändern (V); verwickeln, umschlingen (V)"
+      ],
+      "unihan": "181.180:jiū | jiū(68)",
+      "etymology": "ideographic: To connect 丩 threads 纟; 丩 also provides the pronunciation",
+      "old": "korrigieren; verwickeln"
+    }
+  },
+  {
+    "hanzi": "舅",
+    "level": "HSK6",
+    "traditional": [
+      "舅"
+    ],
+    "readings": [
+      {
+        "pinyin": "jiù",
+        "meaning": "Onkel (der Bruder der Mutter); Schwager (der Bruder der Frau); Schwiegervater (der Vater des Ehemannes)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "臼",
+    "components": [
+      {
+        "part": "臼",
+        "role": "phonetic",
+        "meaning": "Mörser"
+      },
+      {
+        "part": "男",
+        "role": "semantic"
+      }
+    ],
+    "words": [
+      "w:舅舅:jiu4jiu5"
+    ],
+    "evidence": {
+      "cedict": [
+        "jiu4: maternal uncle"
+      ],
+      "handedict": [
+        "jiu4: Onkel (der Bruder der Mutter) (S); Schwager (der Bruder der Frau) (S); Schwiegervater (der Vater des Ehemannes) (S)"
+      ],
+      "unihan": "183.010:jiù | jiù(48) jiu(35)",
+      "etymology": "pictophonetic: man"
+    }
+  },
+  {
+    "hanzi": "菊",
+    "level": "HSK6",
+    "traditional": [
+      "菊"
+    ],
+    "readings": [
+      {
+        "pinyin": "jú",
+        "meaning": "Chrysantheme"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "艸",
+    "radicalForm": "艹",
+    "components": [
+      {
+        "part": "艹",
+        "role": "semantic",
+        "meaning": "Gras"
+      },
+      {
+        "part": "匊",
+        "role": "phonetic",
+        "meaning": "Handvoll"
+      }
+    ],
+    "words": [
+      "w:菊花:ju2hua1"
+    ],
+    "evidence": {
+      "cedict": [
+        "ju2: (bound form) chrysanthemum"
+      ],
+      "handedict": [
+        "ju2: Chrysantheme (S, Bot)"
+      ],
+      "unihan": "184.120:jú | jú(11)",
+      "etymology": "pictophonetic: flower",
+      "old": "Chrysantheme"
+    }
+  },
+  {
+    "hanzi": "矩",
+    "level": "HSK6",
+    "traditional": [
+      "矩"
+    ],
+    "readings": [
+      {
+        "pinyin": "jǔ",
+        "meaning": "Moment (Stochastik); beherrschen, herrschen"
+      },
+      {
+        "pinyin": "ju",
+        "meaning": ""
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "矢",
+    "components": [
+      {
+        "part": "矢",
+        "role": "semantic",
+        "meaning": "Pfeil"
+      },
+      {
+        "part": "巨",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:不以规矩，不能成方圆:bu4yi3gui1ju3bu4neng2cheng2fang1yuan2",
+      "w:规矩:gui1ju3"
+    ],
+    "evidence": {
+      "cedict": [
+        "ju3: variant of 矩[ju3]; carpenter's square; rule; regulation; pattern",
+        "ju5: "
+      ],
+      "handedict": [
+        "ju3: Moment (Stochastik) (S, Math); beherrschen, herrschen (V)",
+        "ju5: "
+      ],
+      "unihan": "185.020:jǔ | ju(29)",
+      "etymology": "pictophonetic: arrow"
+    }
+  },
+  {
+    "hanzi": "俱",
+    "level": "HSK6",
+    "traditional": [
+      "俱"
+    ],
+    "readings": [
+      {
+        "pinyin": "jù",
+        "meaning": "völlig, komplett; ausnahmslos"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "人",
+    "radicalForm": "亻",
+    "components": [
+      {
+        "part": "亻",
+        "role": "semantic",
+        "meaning": "Mensch"
+      },
+      {
+        "part": "具",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:俱乐部:ju4le4bu4",
+      "w:面面俱到:mian4mian4ju4dao4",
+      "w:一应俱全:yi1ying1ju4quan2",
+      "w:与日俱增:yu3ri4ju4zeng1",
+      "w:与时俱进:yu3shi2ju4jin4"
+    ],
+    "evidence": {
+      "cedict": [
+        "ju4: (literary) all; both; entirely; without exception; (literary) to be together; (literary) to be alike"
+      ],
+      "handedict": [
+        "ju4: völlig, komplett (Adj); ausnahmslos (Adv); Ju (Eig, Fam)"
+      ],
+      "unihan": "183.140:jū 186.020:jù | jù(18)",
+      "etymology": "pictophonetic: person"
+    }
+  },
+  {
+    "hanzi": "惧",
+    "level": "HSK6",
+    "traditional": [
+      "懼"
+    ],
+    "readings": [
+      {
+        "pinyin": "jù",
+        "meaning": "Angst haben, befürchten"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "心",
+    "radicalForm": "忄",
+    "components": [
+      {
+        "part": "忄",
+        "role": "semantic",
+        "meaning": "Herz"
+      },
+      {
+        "part": "具",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:恐惧:kong3ju4",
+      "w:畏惧:wei4ju4",
+      "w:恐惧症:kong3ju4zheng4",
+      "w:临危不惧:lin2wei1bu4ju4"
+    ],
+    "evidence": {
+      "cedict": [
+        "ju4: to fear"
+      ],
+      "handedict": [
+        "ju4: Angst haben, befürchten (V)"
+      ],
+      "unihan": "186.070:jù | jù(16)",
+      "etymology": "pictophonetic: heart"
+    }
+  },
+  {
+    "hanzi": "菌",
+    "level": "HSK6",
+    "traditional": [
+      "菌"
+    ],
+    "readings": [
+      {
+        "pinyin": "jūn",
+        "meaning": "Keim; keimen; Pilz"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "艸",
+    "radicalForm": "艹",
+    "components": [
+      {
+        "part": "艹",
+        "role": "semantic",
+        "meaning": "Gras, Pflanze"
+      },
+      {
+        "part": "囷",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:细菌:xi4jun1"
+    ],
+    "evidence": {
+      "cedict": [
+        "jun1: (bound form) bacterium; (bound form) fungus; Taiwan pr. [jun4]"
+      ],
+      "handedict": [
+        "jun1: Keim (S); keimen (V); Pilz (S, Bot)"
+      ],
+      "unihan": "190.020:jūn 190.140:jùn | jūn(175)",
+      "etymology": "pictophonetic: plant"
+    }
+  },
+  {
+    "hanzi": "刊",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "刊"
+    ],
+    "readings": [
+      {
+        "pinyin": "kān",
+        "meaning": "Zeitschrift; drucken"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 5,
+    "primaryRadical": "刀",
+    "radicalForm": "刂",
+    "components": [
+      {
+        "part": "干",
+        "role": "phonetic",
+        "meaning": "trocken, Schild"
+      },
+      {
+        "part": "刂",
+        "role": "semantic",
+        "meaning": "Messer"
+      }
+    ],
+    "words": [
+      "w:报刊:bao4kan1",
+      "w:刊登:kan1deng1",
+      "w:刊物:kan1wu4",
+      "w:期刊:qi1kan1",
+      "w:刊载:kan1zai3"
+    ],
+    "evidence": {
+      "cedict": [
+        "kan1: to print; to publish; publication; periodical; to peel with a knife"
+      ],
+      "handedict": [
+        "kan1: ausdrucken, drucken (V); publizieren, verlegen (V)"
+      ],
+      "unihan": "192.140:kān | kān(50)",
+      "etymology": "pictophonetic: knife",
+      "old": "Zeitschrift; drucken"
+    }
+  },
+  {
+    "hanzi": "砍",
+    "level": "HSK6",
+    "traditional": [
+      "砍"
+    ],
+    "readings": [
+      {
+        "pinyin": "kǎn",
+        "meaning": "hacken; faellen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "石",
+    "components": [
+      {
+        "part": "石",
+        "role": "semantic",
+        "meaning": "Stein"
+      },
+      {
+        "part": "欠",
+        "role": "phonetic",
+        "meaning": "fehlen"
+      }
+    ],
+    "words": [
+      "w:砍:kan3",
+      "w:砍伐:kan3fa2",
+      "w:砍价:kan3jia4",
+      "w:磨刀不误砍柴工:mo2dao1bu4wu4kan3chai2gong1"
+    ],
+    "evidence": {
+      "cedict": [
+        "kan3: to chop; to cut down; to throw sth at sb"
+      ],
+      "handedict": [
+        "kan3: abschlagen (V); fällen (V); hacken (V); spalten (V)"
+      ],
+      "unihan": "193.020:kǎn | kǎn(81)",
+      "etymology": "pictophonetic: stone",
+      "old": "hacken; faellen"
+    }
+  },
+  {
+    "hanzi": "抗",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "抗"
+    ],
+    "readings": [
+      {
+        "pinyin": "kàng",
+        "meaning": "widerstehen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "meaning": "Hand"
+      },
+      {
+        "part": "亢",
+        "meaning": "hoch"
+      }
+    ],
+    "words": [
+      "w:抵抗:di3kang4",
+      "w:对抗:dui4kang4",
+      "w:反抗:fan3kang4",
+      "w:抗衡:kang4heng2",
+      "w:抗拒:kang4ju4"
+    ],
+    "evidence": {
+      "cedict": [
+        "kang4: to resist; to fight; to defy; anti-"
+      ],
+      "handedict": [
+        "kang4: kämpfen (V); widersetzen (V); widerstehen (V)"
+      ],
+      "unihan": "194.020:kàng | kàng(663)",
+      "etymology": "ideographic: Fighting 亢 with bare hands 扌; 亢 also provides the pronunciation",
+      "old": "widerstehen"
+    }
+  },
+  {
+    "hanzi": "枯",
+    "level": "HSK6",
+    "traditional": [
+      "枯"
+    ],
+    "readings": [
+      {
+        "pinyin": "kū",
+        "meaning": "verdorrt; trocken"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "meaning": "Baum"
+      },
+      {
+        "part": "古",
+        "meaning": "alt"
+      }
+    ],
+    "words": [
+      "w:枯燥:ku1zao4",
+      "w:干枯:gan1ku1",
+      "w:枯竭:ku1jie2",
+      "w:枯萎:ku1wei3",
+      "w:摧枯拉朽:cui1ku1la1xiu3"
+    ],
+    "evidence": {
+      "cedict": [
+        "ku1: (of plants) withered; (of wells, rivers etc) dried up; (bound form) dull; boring; (bound form) residue of pressed oilseeds"
+      ],
+      "handedict": [
+        "ku1: ausgedorrt, trocken (Adj)"
+      ],
+      "unihan": "199.080:kū | kū(34)",
+      "etymology": "ideographic: An old 古 tree 木; 古 also provides the pronunciation",
+      "old": "verdorrt; trocken"
+    }
+  },
+  {
+    "hanzi": "酷",
+    "level": "HSK6",
+    "traditional": [
+      "酷"
+    ],
+    "readings": [
+      {
+        "pinyin": "kù",
+        "meaning": "cool; kampfstark; unbarmherzig"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 14,
+    "primaryRadical": "酉",
+    "components": [
+      {
+        "part": "酉",
+        "role": "semantic",
+        "meaning": "Weinkrug, Alkohol"
+      },
+      {
+        "part": "告",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:酷:ku4",
+      "w:残酷:can2ku4",
+      "w:酷似:ku4si4",
+      "w:冷酷:leng3ku4"
+    ],
+    "evidence": {
+      "cedict": [
+        "ku4: ruthless; strong (e.g. of wine); (loanword) cool; hip"
+      ],
+      "handedict": [
+        "ku4: cool (Adj); kampfstark (Adj); unbarmherzig (Adj)"
+      ],
+      "unihan": "200.030:kù | kù(38)",
+      "etymology": "pictophonetic: wine"
+    }
+  },
+  {
+    "hanzi": "夸",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "誇"
+    ],
+    "readings": [
+      {
+        "pinyin": "kuā",
+        "meaning": "loben; uebertreiben"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "大",
+    "components": [
+      {
+        "part": "大",
+        "role": "semantic",
+        "meaning": "gross"
+      },
+      {
+        "part": "亏",
+        "role": "phonetic",
+        "meaning": "Verlust"
+      }
+    ],
+    "words": [
+      "w:夸:kua1",
+      "w:夸奖:kua1jiang3",
+      "w:夸张:kua1zhang1",
+      "w:夸大:kua1da4",
+      "w:夸耀:kua1yao4"
+    ],
+    "evidence": {
+      "cedict": [
+        "kua1: used in transliteration; to boast; to exaggerate; to praise"
+      ],
+      "handedict": [
+        "kua1: renommieren, prahlen (V); preisen, renommieren (V)"
+      ],
+      "unihan": "200.040,200.050:kuā | kuā(43)",
+      "etymology": "pictophonetic: great",
+      "old": "loben; uebertreiben"
+    }
+  },
+  {
+    "hanzi": "馈",
+    "level": "HSK6",
+    "traditional": [
+      "饋"
+    ],
+    "readings": [
+      {
+        "pinyin": "kuì",
+        "meaning": "schenken; beschenken"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "食",
+    "radicalForm": "饣",
+    "components": [
+      {
+        "part": "饣",
+        "meaning": "Essen"
+      },
+      {
+        "part": "贵",
+        "meaning": "teuer"
+      }
+    ],
+    "words": [
+      "w:反馈:fan3kui4",
+      "w:回馈:hui2kui4",
+      "w:馈赠:kui4zeng4"
+    ],
+    "evidence": {
+      "cedict": [
+        "kui4: (literary) to make an offering to the gods; variant of 饋|馈[kui4]; (bound form) to present (a gift); (bound form) to send; to transmit"
+      ],
+      "handedict": [
+        "kui4: beschenken (V); Ernährung, Essen (S, Ess)"
+      ],
+      "unihan": "203.210:kuì",
+      "etymology": "ideographic: Expensive 贵 food 饣; 贵 also provides the pronunciation",
+      "old": "schenken; beschenken"
+    }
+  },
+  {
+    "hanzi": "阔",
+    "level": "HSK6",
+    "traditional": [
+      "闊"
+    ],
+    "readings": [
+      {
+        "pinyin": "kuò",
+        "meaning": "breit; weit"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "門",
+    "radicalForm": "门",
+    "components": [
+      {
+        "part": "门",
+        "role": "semantic",
+        "meaning": "Tor"
+      },
+      {
+        "part": "活",
+        "role": "phonetic",
+        "meaning": "leben"
+      }
+    ],
+    "words": [
+      "w:广阔:guang3kuo4",
+      "w:开阔:kai1kuo4",
+      "w:宽阔:kuan1kuo4",
+      "w:阔绰:kuo4chuo4",
+      "w:辽阔:liao2kuo4"
+    ],
+    "evidence": {
+      "cedict": [
+        "kuo4: variant of 闊|阔[kuo4]; rich; wide; broad"
+      ],
+      "handedict": [
+        "kuo4: reichlich, reich (Adj); weit, breit, geräumig (Adj)"
+      ],
+      "unihan": "205.020:kuò | kuò(148)",
+      "etymology": "pictophonetic: gate",
+      "old": "breit; weit"
+    }
+  },
+  {
+    "hanzi": "啦",
+    "level": "HSK6",
+    "traditional": [
+      "啦"
+    ],
+    "readings": [
+      {
+        "pinyin": "lā",
+        "meaning": ""
+      },
+      {
+        "pinyin": "la",
+        "meaning": "(Partikel zur Bildung des perfektiven Aspekts) (Sprachw); (Satzende-Partikel, Zusammenfassung von 了 und 啊) (Sprachw)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "口",
+    "components": [
+      {
+        "part": "口",
+        "role": "semantic",
+        "meaning": "Mund"
+      },
+      {
+        "part": "拉",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:啦啦队:la1la1dui4",
+      "w:啦:la5"
+    ],
+    "evidence": {
+      "cedict": [
+        "la1: (onom.) sound of singing, cheering etc; (phonetic); (dialect) to chat",
+        "la5: sentence-final particle, contraction of 了啊, indicating exclamation; particle placed after each item in a list of examples"
+      ],
+      "handedict": [
+        "la1: ",
+        "la5: (Partikel zur Bildung des perfektiven Aspekts) (Sprachw); (Satzende-Partikel, Zusammenfassung von 了 und 啊) (Sprachw)"
+      ],
+      "unihan": "206.030:lā 207.040:la | la(967) lā(15)",
+      "etymology": "pictophonetic: mouth"
+    }
+  },
+  {
+    "hanzi": "赖",
+    "level": "HSK6",
+    "traditional": [
+      "賴"
+    ],
+    "readings": [
+      {
+        "pinyin": "lài",
+        "meaning": "ablehnen, dementieren, abstreiten, leugnen; lausig, erbärmlich; beschuldigen, tadeln"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "貝",
+    "radicalForm": "贝",
+    "components": [
+      {
+        "part": "束"
+      },
+      {
+        "part": "负"
+      }
+    ],
+    "words": [
+      "w:赖:lai4",
+      "w:信赖:xin4lai4",
+      "w:依赖:yi1lai4",
+      "w:耍赖:shua3lai4",
+      "w:无赖:wu2lai4"
+    ],
+    "evidence": {
+      "cedict": [
+        "lai4: surname Lai; (Tw) (coll.) LINE messaging app; to depend on; to hang on in a place; bad"
+      ],
+      "handedict": [
+        "lai4: ablehnen, dementieren, abstreiten, leugnen (V); lausig, erbärmlich (Adj); Lai (Eig, Fam); beschuldigen, tadeln (V)"
+      ],
+      "unihan": "207.160:lài | lài(28)",
+      "etymology": "pictophonetic: money"
+    }
+  },
+  {
+    "hanzi": "兰",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "蘭"
+    ],
+    "readings": [
+      {
+        "pinyin": "lán",
+        "meaning": "Orchidee"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 5,
+    "primaryRadical": "八",
+    "components": [
+      {
+        "part": "丷"
+      },
+      {
+        "part": "三"
+      }
+    ],
+    "words": [
+      "w:兰花:lan2hua1",
+      "w:伊斯兰教:yi1si1lan2jiao4"
+    ],
+    "evidence": {
+      "cedict": [
+        "lan2: surname Lan; abbr. for Lanzhou 蘭州|兰州[Lan2 zhou1], Gansu; orchid (蘭花|兰花 Cymbidium goeringii); fragrant thoroughwort (蘭草|兰草 Eupatorium fortunei); lily magnolia (木蘭|木兰)"
+      ],
+      "handedict": [
+        "lan2: Orchidee (S, Bot); Lan (Eig, Fam)"
+      ],
+      "unihan": "208.040:lán",
+      "etymology": "pictographic: An orchid in bloom",
+      "old": "Orchidee"
+    }
+  },
+  {
+    "hanzi": "拦",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "攔"
+    ],
+    "readings": [
+      {
+        "pinyin": "lán",
+        "meaning": "aufhalten; blockieren"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "role": "semantic",
+        "meaning": "Hand"
+      },
+      {
+        "part": "兰",
+        "role": "phonetic",
+        "meaning": "Orchidee"
+      }
+    ],
+    "words": [
+      "w:拦:lan2",
+      "w:阻拦:zu3lan2"
+    ],
+    "evidence": {
+      "cedict": [
+        "lan2: to block sb's path; to obstruct; to flag down (a taxi)"
+      ],
+      "handedict": [
+        "lan2: behindern, hindern (V)"
+      ],
+      "unihan": "208.060:lán | lán(58)",
+      "etymology": "pictophonetic: hand",
+      "old": "aufhalten; blockieren"
+    }
+  },
+  {
+    "hanzi": "栏",
+    "level": "HSK6",
+    "traditional": [
+      "欄"
+    ],
+    "readings": [
+      {
+        "pinyin": "lán",
+        "meaning": "Gelaender; Spalte"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "role": "semantic",
+        "meaning": "Holz"
+      },
+      {
+        "part": "兰",
+        "role": "phonetic",
+        "meaning": "Orchidee"
+      }
+    ],
+    "words": [
+      "w:栏:lan2",
+      "w:栏杆:lang2an1",
+      "w:栏目:lan2mu4",
+      "w:专栏:zhuan1lan2",
+      "w:护栏:hu4lan2"
+    ],
+    "evidence": {
+      "cedict": [
+        "lan2: fence; railing; hurdle; column or box (of text or other data)"
+      ],
+      "handedict": [
+        "lan2: (Zeitungs)Spalte (S); Brüstung (S); Geländer (S); Hürde (S); Kolonne (S)"
+      ],
+      "unihan": "208.070:lán | lán(44)",
+      "etymology": "pictophonetic: wood",
+      "old": "Gelaender; Spalte"
+    }
+  },
+  {
+    "hanzi": "烂",
+    "level": "HSK6",
+    "traditional": [
+      "爛"
+    ],
+    "readings": [
+      {
+        "pinyin": "làn",
+        "meaning": "verfault; zerfallen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "火",
+    "components": [
+      {
+        "part": "火",
+        "role": "semantic",
+        "meaning": "Feuer"
+      },
+      {
+        "part": "兰",
+        "role": "phonetic",
+        "meaning": "Orchidee"
+      }
+    ],
+    "words": [
+      "w:烂:lan4",
+      "w:灿烂:can4lan4",
+      "w:腐烂:fu3lan4",
+      "w:溃烂:kui4lan4"
+    ],
+    "evidence": {
+      "cedict": [
+        "lan4: soft; mushy; well-cooked and soft; to rot; to decompose; rotten; worn out"
+      ],
+      "handedict": [
+        "lan4: scheiße, beschissen, mies, ätzend (umg) (Adj); Bsp.: 我的中文很爛。 我的中文很烂。 -- Mein Chinesisch ist beschissen. (mod, 1949 -); sanft, sacht (Adj); verfault (Adj, Ess); zerkocht (Adj)"
+      ],
+      "unihan": "209.060:làn | làn(126)",
+      "etymology": "pictophonetic: fire",
+      "old": "verfault; zerfallen"
+    }
+  },
+  {
+    "hanzi": "狼",
+    "level": "HSK6",
+    "traditional": [
+      "狼"
+    ],
+    "readings": [
+      {
+        "pinyin": "láng",
+        "meaning": "Wolf"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "犬",
+    "radicalForm": "犭",
+    "components": [
+      {
+        "part": "犭",
+        "role": "semantic",
+        "meaning": "Tier"
+      },
+      {
+        "part": "良",
+        "role": "phonetic",
+        "meaning": "gut"
+      }
+    ],
+    "words": [
+      "w:狼:lang2",
+      "w:狼狈:lang2bei4",
+      "w:狼吞虎咽:lang2tun1hu3yan4",
+      "w:狼藉:lang2ji2",
+      "w:引狼入室:yin3lang2ru4shi4"
+    ],
+    "evidence": {
+      "cedict": [
+        "lang2: wolf; CL:匹[pi3],隻|只[zhi1],條|条[tiao2]"
+      ],
+      "handedict": [
+        "lang2: Wolf (S, Zool); ZEW:匹[pi3],隻|只[zhi1],條|条[tiao2] (X); Lang (Eig, Fam)"
+      ],
+      "unihan": "209.100:láng | láng(88)",
+      "etymology": "pictophonetic: dog",
+      "old": "Wolf"
+    }
+  },
+  {
+    "hanzi": "廊",
+    "level": "HSK6",
+    "traditional": [
+      "廊"
+    ],
+    "readings": [
+      {
+        "pinyin": "láng",
+        "meaning": "Korridor; Gang"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "广",
+    "components": [
+      {
+        "part": "广",
+        "role": "semantic",
+        "meaning": "breit"
+      },
+      {
+        "part": "郎",
+        "role": "phonetic",
+        "meaning": "junger Mann"
+      }
+    ],
+    "words": [
+      "w:走廊:zou3lang2",
+      "w:画廊:hua4lang2"
+    ],
+    "evidence": {
+      "cedict": [
+        "lang2: corridor; veranda; porch"
+      ],
+      "handedict": [
+        "lang2: Durchgang, Passage, Korridor (S); Eingangsterrasse, Vorhalle, Veranda (S, Arch)"
+      ],
+      "unihan": "209.130:láng",
+      "etymology": "pictophonetic: wide",
+      "old": "Korridor; Gang"
+    }
+  },
+  {
+    "hanzi": "朗",
+    "level": "HSK6",
+    "traditional": [
+      "朗"
+    ],
+    "readings": [
+      {
+        "pinyin": "lǎng",
+        "meaning": "hell; klar"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "月",
+    "components": [
+      {
+        "part": "良",
+        "role": "phonetic",
+        "meaning": "gut"
+      },
+      {
+        "part": "月",
+        "role": "semantic",
+        "meaning": "Mond"
+      }
+    ],
+    "words": [
+      "w:朗读:lang3du2",
+      "w:晴朗:qing2lang3",
+      "w:开朗:kai1lang3",
+      "w:朗诵:lang3song4",
+      "w:明朗:ming2lang3"
+    ],
+    "evidence": {
+      "cedict": [
+        "lang3: clear; bright"
+      ],
+      "handedict": [
+        "lang3: klar, hell (Adj)"
+      ],
+      "unihan": "210.010:lǎng | lǎng(56)",
+      "etymology": "pictophonetic: moon",
+      "old": "hell; klar"
+    }
+  },
+  {
+    "hanzi": "牢",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "牢"
+    ],
+    "readings": [
+      {
+        "pinyin": "láo",
+        "meaning": "fest"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "牛",
+    "components": [
+      {
+        "part": "宀",
+        "meaning": "Dach"
+      },
+      {
+        "part": "牛",
+        "meaning": "Rind, Kuh"
+      }
+    ],
+    "words": [
+      "w:牢:lao2",
+      "w:牢固:lao2gu4",
+      "w:牢记:lao2ji4",
+      "w:牢牢:lao2lao2",
+      "w:牢骚:lao2sao1"
+    ],
+    "evidence": {
+      "cedict": [
+        "lao2: (literary) pen; fold (for livestock); prison; jail; firm; secure; fast"
+      ],
+      "handedict": [
+        "lao2: fest (Adj); Lao (Eig, Fam)"
+      ],
+      "unihan": "210.160:láo | láo(62)",
+      "etymology": "ideographic: A stable 宀 where cattle are kept 牛"
+    }
+  },
+  {
+    "hanzi": "雷",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "雷"
+    ],
+    "readings": [
+      {
+        "pinyin": "léi",
+        "meaning": "Donner"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "雨",
+    "components": [
+      {
+        "part": "雨",
+        "meaning": "Regen"
+      },
+      {
+        "part": "田",
+        "meaning": "Feld"
+      }
+    ],
+    "words": [
+      "w:雷:lei2",
+      "w:打雷:da3lei2",
+      "w:雷达:lei2da2",
+      "w:雷同:lei2tong2",
+      "w:电闪雷鸣:dian4shan3lei2ming2"
+    ],
+    "evidence": {
+      "cedict": [
+        "lei2: surname Lei; thunder; (bound form) (military) mine, as in 地雷[di4 lei2] land mine; (coll.) to shock; to stun; to astound; (Tw) (coll.) spoiler"
+      ],
+      "handedict": [
+        "lei2: Donner (S, Met); Lei (Eig, Fam); Ray (Eig, Vorn)"
+      ],
+      "unihan": "212.120:léi | léi(91)",
+      "etymology": "ideographic: A storm 雨 over the fields 田",
+      "old": "Donner"
+    }
+  },
+  {
+    "hanzi": "粒",
+    "level": "HSK6",
+    "traditional": [
+      "粒"
+    ],
+    "readings": [
+      {
+        "pinyin": "lì",
+        "meaning": "Korn; Tablette"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "米",
+    "components": [
+      {
+        "part": "米",
+        "role": "semantic",
+        "meaning": "Reis"
+      },
+      {
+        "part": "立",
+        "role": "phonetic",
+        "meaning": "stehen"
+      }
+    ],
+    "words": [
+      "w:粒:li4",
+      "w:颗粒:ke1li4",
+      "w:粒子:li4zi3"
+    ],
+    "evidence": {
+      "cedict": [
+        "li4: grain; granule; pellet; particle; classifier for small round objects (peas, bullets, peanuts, pills, grains etc); (Tw) classifier for larger round objects (watermelon etc)"
+      ],
+      "handedict": [
+        "li4: Korn; Körnchen (S); ZEW für kleine runde Dinge (Zähl)"
+      ],
+      "unihan": "218.140:lì | lì(103)",
+      "etymology": "pictophonetic: grain",
+      "old": "Korn; Tablette"
+    }
+  },
+  {
+    "hanzi": "怜",
+    "level": "HSK6",
+    "traditional": [
+      "憐"
+    ],
+    "readings": [
+      {
+        "pinyin": "lián",
+        "meaning": "bemitleiden; Mitleid haben"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "心",
+    "radicalForm": "忄",
+    "components": [
+      {
+        "part": "忄",
+        "role": "semantic",
+        "meaning": "Herz"
+      },
+      {
+        "part": "令",
+        "role": "phonetic",
+        "meaning": "Befehl"
+      }
+    ],
+    "words": [
+      "w:可怜:ke3lian2",
+      "w:怜惜:lian2xi1",
+      "w:自怜:zi4lian2"
+    ],
+    "evidence": {
+      "cedict": [
+        "lian2: to pity"
+      ],
+      "handedict": [
+        "lian2: bemitleiden (V)"
+      ],
+      "unihan": "219.030:lián | lián(111)",
+      "etymology": "pictophonetic: heart",
+      "old": "bemitleiden; Mitleid haben"
+    }
+  },
+  {
+    "hanzi": "链",
+    "level": "HSK6",
+    "traditional": [
+      "鏈"
+    ],
+    "readings": [
+      {
+        "pinyin": "liàn",
+        "meaning": "Kette"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "金",
+    "radicalForm": "钅",
+    "components": [
+      {
+        "part": "钅",
+        "meaning": "Gold, Metall"
+      },
+      {
+        "part": "连"
+      }
+    ],
+    "words": [
+      "w:链接:lian4jie1",
+      "w:项链:xiang4lian4",
+      "w:拉链:la1lian4",
+      "w:产业链:chan3ye4lian4",
+      "w:供应链:gong1ying4lian4"
+    ],
+    "evidence": {
+      "cedict": [
+        "lian4: chain; cable (unit of length: 100 fathoms, about 185 m); chain (unit of length: 66 feet, about 20 m); to chain; to enchain"
+      ],
+      "handedict": [
+        "lian4: Kette (S)"
+      ],
+      "unihan": "220.080:liàn | liàn(9)",
+      "etymology": "ideographic: Metal 钅 that joins 连; 连 also provides the pronunciation"
+    }
+  },
+  {
+    "hanzi": "梁",
+    "level": "HSK6",
+    "traditional": [
+      "梁"
+    ],
+    "readings": [
+      {
+        "pinyin": "liáng",
+        "meaning": "Balken; Bruecke"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "氵",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "刅"
+      },
+      {
+        "part": "木",
+        "meaning": "Baum"
+      }
+    ],
+    "words": [
+      "w:桥梁:qiao2liang2",
+      "w:栋梁:dong4liang2",
+      "w:脊梁:ji3liang2",
+      "w:悬梁刺股:xuan2liang2ci4gu3"
+    ],
+    "evidence": {
+      "cedict": [
+        "liang2: Liang Dynasty (502–557); Later Liang Dynasty (907–923); surname Liang; roof beam; beam (structure)"
+      ],
+      "handedict": [
+        "liang2: Balken, Träger (auch 樑) (S, Tech); Brücke, Einschraubbrücke (auch 樑) (S, Tech); Dachbalken (auch 樑) (S, Arch); Liang-Dynastie (502-557) (S, Gesch); Liang (Eig, Fam)"
+      ],
+      "unihan": "220.170:liáng | liáng(95) liang(73)",
+      "etymology": "ideographic: A wooden 木 bridge built 刅 over a river 氵",
+      "old": "Balken; Bruecke"
+    }
+  },
+  {
+    "hanzi": "晾",
+    "level": "HSK6",
+    "traditional": [
+      "晾"
+    ],
+    "readings": [
+      {
+        "pinyin": "liàng",
+        "meaning": "lufttrocken; an der Luft trocknen; jmdm. die kalte Schulter zeigen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "日",
+    "components": [
+      {
+        "part": "日",
+        "role": "semantic",
+        "meaning": "Sonne, Tag"
+      },
+      {
+        "part": "京",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:晾:liang4",
+      "w:晾干:liang4gan1",
+      "w:晾衣架:liang4yi1jia4"
+    ],
+    "evidence": {
+      "cedict": [
+        "liang4: to dry in the air; (fig.) to cold-shoulder"
+      ],
+      "handedict": [
+        "liang4: lufttrocken (V); an der Luft trocknen (V); jmdm. die kalte Schulter zeigen (V)"
+      ],
+      "unihan": "222.020:liàng | liàng(12)",
+      "etymology": "pictophonetic: sun"
+    }
+  },
+  {
+    "hanzi": "劣",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "劣"
+    ],
+    "readings": [
+      {
+        "pinyin": "liè",
+        "meaning": "schlecht, minderwertig"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "力",
+    "components": [
+      {
+        "part": "少",
+        "role": "semantic"
+      },
+      {
+        "part": "力",
+        "role": "phonetic",
+        "meaning": "Kraft"
+      }
+    ],
+    "words": [
+      "w:恶劣:e4lie4",
+      "w:劣势:lie4shi4",
+      "w:劣质:lie4zhi4",
+      "w:拙劣:zhuo1lie4",
+      "w:优胜劣汰:you1sheng4lie4tai4"
+    ],
+    "evidence": {
+      "cedict": [
+        "lie4: inferior"
+      ],
+      "handedict": [
+        "lie4: schlecht, minderwertig (Adj)"
+      ],
+      "unihan": "224.010:liè | liè(26)",
+      "etymology": "pictophonetic: inadequate"
+    }
+  },
+  {
+    "hanzi": "淋",
+    "level": "HSK6",
+    "traditional": [
+      "淋"
+    ],
+    "readings": [
+      {
+        "pinyin": "lín",
+        "meaning": "begiessen; nass werden"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "林",
+        "role": "phonetic",
+        "meaning": "Wald"
+      }
+    ],
+    "words": [
+      "w:淋:lin2",
+      "w:淋浴:lin2yu4",
+      "w:冰淇淋:bing1qi2lin2",
+      "w:淋漓尽致:lin2li2jin4zhi4"
+    ],
+    "evidence": {
+      "cedict": [
+        "lin2: to sprinkle; to drip; to pour; to drench"
+      ],
+      "handedict": [
+        "lin2: begießen, besprenkeln, durchnässen (V); Bsp.: 淋浴 淋浴 -- duschen; Dusche"
+      ],
+      "unihan": "224.210:lín 225.210:lìn | lín(40)",
+      "etymology": "pictophonetic: water",
+      "old": "begiessen; nass werden"
+    }
+  },
+  {
+    "hanzi": "笼",
+    "level": "HSK6",
+    "traditional": [
+      "籠"
+    ],
+    "readings": [
+      {
+        "pinyin": "lóng",
+        "meaning": "Kaefig; Korb"
+      },
+      {
+        "pinyin": "lǒng",
+        "meaning": ""
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "竹",
+    "components": [
+      {
+        "part": "𥫗"
+      },
+      {
+        "part": "龙",
+        "role": "phonetic",
+        "meaning": "Drache"
+      }
+    ],
+    "words": [
+      "w:笼子:long2zi5",
+      "w:笼统:long3tong3",
+      "w:灯笼:deng1long5",
+      "w:笼罩:long3zhao4",
+      "w:蒸笼:zheng1long2"
+    ],
+    "evidence": {
+      "cedict": [
+        "long2: enclosing frame made of bamboo, wire etc; cage; basket; steamer basket",
+        "long3: to envelop; to cover; (used in 籠子|笼子[long3 zi5]) large box; Taiwan pr. [long2]"
+      ],
+      "handedict": [
+        "long2: Dampfkorb, Topfaufsatz zum Dämpfen (S, Ess); Käfig (S); Konsumverein (S); Korb, Behälter aus Bambus (S); die Hände in den Ärmeln stecken (V)",
+        "long3: "
+      ],
+      "unihan": "230.100:lóng 230.180:lǒng | lóng(39) long(34) lǒng(23)",
+      "etymology": "pictophonetic: bamboo",
+      "old": "Kaefig; Korb"
+    }
+  },
+  {
+    "hanzi": "露",
+    "level": "HSK6",
+    "traditional": [
+      "露"
+    ],
+    "readings": [
+      {
+        "pinyin": "lù",
+        "meaning": "aufzeigen, enthüllen; freilegen, exponieren; zeigen, anzeigen"
+      },
+      {
+        "pinyin": "lòu",
+        "meaning": "offenbaren, zeigen, verraten"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 21,
+    "primaryRadical": "雨",
+    "components": [
+      {
+        "part": "雨",
+        "role": "semantic",
+        "meaning": "Regen"
+      },
+      {
+        "part": "路",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:露:lu4",
+      "w:露:lou4",
+      "w:暴露:bao4lu4",
+      "w:透露:tou4lu4",
+      "w:露:lu4#2"
+    ],
+    "evidence": {
+      "cedict": [
+        "lu4: surname Lu; dew; syrup; nectar; outdoors (not under cover)",
+        "lou4: to show; to reveal; to betray; to expose"
+      ],
+      "handedict": [
+        "lu4: aufzeigen, enthüllen (V); freilegen, exponieren (V); zeigen, anzeigen (V)",
+        "lou4: offenbaren, zeigen, verraten (V)"
+      ],
+      "unihan": "232.020:lòu 234.220:lù | lù(241)",
+      "etymology": "pictophonetic: rain"
+    }
+  },
+  {
+    "hanzi": "轮",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "輪"
+    ],
+    "readings": [
+      {
+        "pinyin": "lún",
+        "meaning": "Dampfer; Durchgang; Rad"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "車",
+    "radicalForm": "车",
+    "components": [
+      {
+        "part": "车",
+        "role": "semantic",
+        "meaning": "Wagen, Auto"
+      },
+      {
+        "part": "仑",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:轮:lun2",
+      "w:轮船:lun2chuan2",
+      "w:轮流:lun2liu2",
+      "w:轮椅:lun2yi3",
+      "w:轮子:lun2zi5"
+    ],
+    "evidence": {
+      "cedict": [
+        "lun2: wheel; disk; ring; steamship; to take turns; to rotate; classifier for big round objects: disk, or recurring events: round, turn"
+      ],
+      "handedict": [
+        "lun2: Dampfer (S); Durchgang (S, Sport); Rad (S); Ring (S); Runde (S)"
+      ],
+      "unihan": "237.130:lún | lún(222)",
+      "etymology": "pictophonetic: wheel"
+    }
+  },
+  {
+    "hanzi": "履",
+    "level": "HSK6",
+    "traditional": [
+      "履"
+    ],
+    "readings": [
+      {
+        "pinyin": "lǚ",
+        "meaning": "Schuh"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "尸",
+    "components": [
+      {
+        "part": "尸",
+        "meaning": "Koerper"
+      },
+      {
+        "part": "復"
+      }
+    ],
+    "words": [
+      "w:履行:lv3xing2",
+      "w:履历:lv3li4",
+      "w:步履:bu4lv3",
+      "w:履新:lv3xin1",
+      "w:削足适履:xue1zu2shi4lv3"
+    ],
+    "evidence": {
+      "cedict": [
+        "lv3: shoe; to tread on"
+      ],
+      "handedict": [
+        "lv3: Schuh (S), (Pferd) beschlagen (V); Schuhe (S); Schuhmacher (S); ausführen, durchführen (V); Lü (Eig, Fam)"
+      ],
+      "unihan": "235.180:lǚ",
+      "etymology": "ideographic: A person 尸 walking 彳; 復 also provides the pronunciation",
+      "old": "Schuh"
+    }
+  },
+  {
+    "hanzi": "略",
+    "level": "HSK6",
+    "traditional": [
+      "略"
+    ],
+    "readings": [
+      {
+        "pinyin": "lüè",
+        "meaning": "Strategie; kurz"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "田",
+    "components": [
+      {
+        "part": "田",
+        "role": "semantic",
+        "meaning": "Feld"
+      },
+      {
+        "part": "各",
+        "role": "phonetic",
+        "meaning": "jeder"
+      }
+    ],
+    "words": [
+      "w:策略:ce4lve4",
+      "w:忽略:hu1lve4",
+      "w:略:lve4",
+      "w:粗略:cu1lve4",
+      "w:领略:ling3lve4"
+    ],
+    "evidence": {
+      "cedict": [
+        "lve4: brief; sketchy; outline; summary; to omit; (bound form before a single-character verb) a bit; somewhat; slightly; plan; strategy"
+      ],
+      "handedict": [
+        "lve4: knapp, kurz und bündig (Adj); Beute machen, plündern (V); Strategie (S); ausrauben, berauben (V); verdichten, zusammen fassen (V)"
+      ],
+      "unihan": "237.030:lüè | lüè(445)",
+      "etymology": "pictophonetic: farm",
+      "old": "Strategie; kurz"
+    }
+  },
+  {
+    "hanzi": "蚂",
+    "level": "HSK6",
+    "traditional": [
+      "螞"
+    ],
+    "readings": [
+      {
+        "pinyin": "mǎ",
+        "meaning": "Ameise (lat: Formicidae)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "虫",
+    "components": [
+      {
+        "part": "虫",
+        "role": "semantic",
+        "meaning": "Insekt, Wurm"
+      },
+      {
+        "part": "马",
+        "role": "phonetic",
+        "meaning": "Pferd"
+      }
+    ],
+    "words": [
+      "w:蚂蚁:ma3yi3"
+    ],
+    "evidence": {
+      "cedict": [
+        "ma3: used in 螞蟥|蚂蟥[ma3 huang2]; used in 螞蟻|蚂蚁[ma3 yi3]"
+      ],
+      "handedict": [
+        "ma3: Ameise (lat: Formicidae) (S, Zool)"
+      ],
+      "unihan": "241.010:mǎ 241.040:mà | mǎ(40)",
+      "etymology": "pictophonetic: insect"
+    }
+  },
+  {
+    "hanzi": "嘛",
+    "level": "HSK6",
+    "traditional": [
+      "嘛"
+    ],
+    "readings": [
+      {
+        "pinyin": "ma",
+        "meaning": "Partikel (offensichtlich)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 14,
+    "primaryRadical": "口",
+    "components": [
+      {
+        "part": "口",
+        "role": "semantic",
+        "meaning": "Mund"
+      },
+      {
+        "part": "麻",
+        "role": "phonetic",
+        "meaning": "Hanf"
+      }
+    ],
+    "words": [
+      "w:嘛:ma5"
+    ],
+    "evidence": {
+      "cedict": [
+        "ma5: modal particle indicating that sth is obvious; particle indicating a pause for emphasis"
+      ],
+      "handedict": [
+        "ma5: (Modalpartikel der anzeigt, dass etw. offensichtlich ist); (Partikel der eine Pause zur Anzeige einer Betonung ermöglicht)"
+      ],
+      "unihan": "241.070:ma | ma(246) má(93)",
+      "etymology": "pictophonetic: mouth",
+      "old": "Partikel (offensichtlich)"
+    }
+  },
+  {
+    "hanzi": "埋",
+    "level": "HSK6",
+    "traditional": [
+      "埋"
+    ],
+    "readings": [
+      {
+        "pinyin": "mái",
+        "meaning": "mit Erde bedecken"
+      },
+      {
+        "pinyin": "mán",
+        "meaning": "beschuldigen, tadeln"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "土",
+    "components": [
+      {
+        "part": "土",
+        "role": "semantic",
+        "meaning": "Erde"
+      },
+      {
+        "part": "里",
+        "role": "phonetic",
+        "meaning": "Dorf, Meile"
+      }
+    ],
+    "words": [
+      "w:埋:mai2",
+      "w:埋怨:man2yuan4",
+      "w:埋藏:mai2cang2",
+      "w:埋伏:mai2fu2",
+      "w:埋没:mai2mo4"
+    ],
+    "evidence": {
+      "cedict": [
+        "mai2: to bury",
+        "man2: used in 埋怨[man2 yuan4]"
+      ],
+      "handedict": [
+        "mai2: mit Erde bedecken (V)",
+        "man2: beschuldigen, tadeln (V)"
+      ],
+      "unihan": "241.080:mái 242.060:mán | mái(90) mán(14)",
+      "etymology": "pictophonetic: earth"
+    }
+  },
+  {
+    "hanzi": "迈",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "邁"
+    ],
+    "readings": [
+      {
+        "pinyin": "mài",
+        "meaning": "Duplikation; einen Schritt machen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "辵",
+    "radicalForm": "辶",
+    "components": [
+      {
+        "part": "辶",
+        "meaning": "gehen, Weg"
+      },
+      {
+        "part": "万"
+      }
+    ],
+    "words": [
+      "w:迈:mai4",
+      "w:豪迈:hao2mai4",
+      "w:年迈:nian2mai4"
+    ],
+    "evidence": {
+      "cedict": [
+        "mai4: to step; to stride; (bound form) old; elderly; (loanword) mile (esp. in expressions of vehicle speed)"
+      ],
+      "handedict": [
+        "mai4: Duplikation (S); einen Schritt machen (V)"
+      ],
+      "unihan": "241.130:mài | mài(83)",
+      "etymology": "ideographic: To take ten thousand 万 steps 辶"
+    }
+  },
+  {
+    "hanzi": "麦",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "麥"
+    ],
+    "readings": [
+      {
+        "pinyin": "mài",
+        "meaning": "Weizen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "麥",
+    "radicalForm": "麦",
+    "components": [
+      {
+        "part": "龶"
+      },
+      {
+        "part": "夂",
+        "meaning": "gehen"
+      }
+    ],
+    "words": [
+      "w:小麦:xiao3mai4",
+      "w:麦克风:mai4ke4feng1"
+    ],
+    "evidence": {
+      "cedict": [
+        "mai4: surname Mai; wheat; barley; oats; mic (abbr. for 麥克風|麦克风[mai4 ke4 feng1])"
+      ],
+      "handedict": [
+        "mai4: Getreide, Korn, Weizen, Gerste, Hafer (S, Bot); Radikal Nr. 199 = Weizen, Gerste, Hafer (Sprachw)"
+      ],
+      "unihan": "241.140:mài | mài(146)",
+      "etymology": "ideographic: Simplified form of 麦; grains 來 ready to be harvested 夂",
+      "old": "Weizen"
+    }
+  },
+  {
+    "hanzi": "盲",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "盲"
+    ],
+    "readings": [
+      {
+        "pinyin": "máng",
+        "meaning": "blind"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "目",
+    "components": [
+      {
+        "part": "亡",
+        "meaning": "sterben"
+      },
+      {
+        "part": "目",
+        "meaning": "Auge"
+      }
+    ],
+    "words": [
+      "w:盲人:mang2ren2",
+      "w:盲目:mang2mu4",
+      "w:文盲:wen2mang2",
+      "w:扫盲:sao3mang2",
+      "w:盲人摸象:mang2ren2mo1xiang4"
+    ],
+    "evidence": {
+      "cedict": [
+        "mang2: blind"
+      ],
+      "handedict": [
+        "mang2: blind (Adj); Blende (S); Erblindung (S); Jalousie (S)"
+      ],
+      "unihan": "243.170:máng | máng(41)",
+      "etymology": "ideographic: Losing 亡 one's sight 目; 亡 also provides the pronunciation",
+      "old": "blind"
+    }
+  },
+  {
+    "hanzi": "贸",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "貿"
+    ],
+    "readings": [
+      {
+        "pinyin": "mào",
+        "meaning": "Handel"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "貝",
+    "radicalForm": "贝",
+    "components": [
+      {
+        "part": "卯",
+        "role": "phonetic",
+        "meaning": "vierter Zweig"
+      },
+      {
+        "part": "贝",
+        "role": "semantic",
+        "meaning": "Muschel"
+      }
+    ],
+    "words": [
+      "w:贸易:mao4yi4",
+      "w:经贸:jing1mao4",
+      "w:外贸:wai4mao4",
+      "w:贸然:mao4ran2",
+      "w:自贸区:zi4mao4qu1"
+    ],
+    "evidence": {
+      "cedict": [
+        "mao4: commerce; trade"
+      ],
+      "handedict": [
+        "mao4: Handel (S)"
+      ],
+      "unihan": "245.050:mào | mào(36)",
+      "etymology": "pictophonetic: money",
+      "old": "Handel"
+    }
+  },
+  {
+    "hanzi": "眉",
+    "level": "HSK6",
+    "traditional": [
+      "眉"
+    ],
+    "readings": [
+      {
+        "pinyin": "méi",
+        "meaning": "Augenbraue"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "目",
+    "components": [
+      {
+        "part": "𠃜"
+      },
+      {
+        "part": "目",
+        "meaning": "Auge"
+      }
+    ],
+    "words": [
+      "w:眉毛:mei2mao5",
+      "w:愁眉苦脸:chou2mei2ku3lian3",
+      "w:眉开眼笑:mei2kai1yan3xiao4",
+      "w:蹙眉:cu4mei2",
+      "w:迫在眉睫:po4zai4mei2jie2"
+    ],
+    "evidence": {
+      "cedict": [
+        "mei2: eyebrow; upper margin"
+      ],
+      "handedict": [
+        "mei2: Augenbraue, Braue (S); Mei (Eig, Fam); oberer Rahmen, oberer freier Rand einer Buchseite (S)"
+      ],
+      "unihan": "245.190:méi | méi(131)",
+      "etymology": "ideographic: Picture of hair 尸 above an eye 目",
+      "old": "Augenbraue"
+    }
+  },
+  {
+    "hanzi": "梅",
+    "level": "HSK6",
+    "traditional": [
+      "梅"
+    ],
+    "readings": [
+      {
+        "pinyin": "méi",
+        "meaning": "Pflaume"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "role": "semantic",
+        "meaning": "Baum"
+      },
+      {
+        "part": "每",
+        "role": "phonetic",
+        "meaning": "jeder"
+      }
+    ],
+    "words": [
+      "w:梅花:mei2hua1",
+      "w:青梅竹马:qing1mei2zhu2ma3",
+      "w:望梅止渴:wang4mei2zhi3ke3",
+      "w:宝剑锋从磨砺出，梅花香自苦寒来:bao3jian4feng1cong2mo2li4chu1mei2hua1xiang1zi4ku3han2lai2"
+    ],
+    "evidence": {
+      "cedict": [
+        "mei2: surname Mei; plum; plum flower; Japanese apricot (Prunus mume); variant of 梅[mei2]"
+      ],
+      "handedict": [
+        "mei2: Mei (Eig, Fam); Ume, Winterkirsche (lat: Prunus mume) (S, Bot)"
+      ],
+      "unihan": "245.210:méi | méi(53)",
+      "etymology": "pictophonetic: tree",
+      "old": "Pflaume"
+    }
+  },
+  {
+    "hanzi": "煤",
+    "level": "HSK6",
+    "traditional": [
+      "煤"
+    ],
+    "readings": [
+      {
+        "pinyin": "méi",
+        "meaning": "Kohle"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "火",
+    "components": [
+      {
+        "part": "火",
+        "role": "semantic",
+        "meaning": "Feuer"
+      },
+      {
+        "part": "某",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:煤:mei2",
+      "w:煤气:mei2qi4",
+      "w:煤炭:mei2tan4"
+    ],
+    "evidence": {
+      "cedict": [
+        "mei2: coal; CL:塊|块[kuai4]"
+      ],
+      "handedict": [
+        "mei2: Kohle (S)"
+      ],
+      "unihan": "246.070:méi | méi(250)",
+      "etymology": "pictophonetic: fire"
+    }
+  },
+  {
+    "hanzi": "弥",
+    "level": "HSK6",
+    "traditional": [
+      "彌"
+    ],
+    "readings": [
+      {
+        "pinyin": "mí",
+        "meaning": "fuellen; durchdringen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "弓",
+    "components": [
+      {
+        "part": "弓",
+        "role": "semantic",
+        "meaning": "Bogen"
+      },
+      {
+        "part": "尔",
+        "role": "phonetic",
+        "meaning": "du"
+      }
+    ],
+    "words": [
+      "w:弥补:mi2bu3",
+      "w:弥漫:mi2man4",
+      "w:弥合:mi2he2",
+      "w:弥足珍贵:mi2zu2zhen1gui4",
+      "w:弥天大谎:mi2tian1da4huang3"
+    ],
+    "evidence": {
+      "cedict": [
+        "mi2: full; to fill; completely; more; brimming or overflowing"
+      ],
+      "handedict": [
+        "mi2: überfließend, überlaufend (Adj); füllen, ausfüllen (V); voll, komplett (Adj); Mi (Eig, Fam)"
+      ],
+      "unihan": "249.100,249.110:mí | mí(25)",
+      "etymology": "pictophonetic: bow",
+      "old": "fuellen; durchdringen"
+    }
+  },
+  {
+    "hanzi": "蜜",
+    "level": "HSK6",
+    "traditional": [
+      "蜜"
+    ],
+    "readings": [
+      {
+        "pinyin": "mì",
+        "meaning": "Honig; suess"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 14,
+    "primaryRadical": "虫",
+    "components": [
+      {
+        "part": "宓",
+        "role": "phonetic"
+      },
+      {
+        "part": "虫",
+        "role": "semantic",
+        "meaning": "Insekt"
+      }
+    ],
+    "words": [
+      "w:蜜蜂:mi4feng1",
+      "w:蜂蜜:feng1mi4",
+      "w:蜜月:mi4yue4",
+      "w:甜蜜:tian2mi4",
+      "w:闺蜜:gui1mi4"
+    ],
+    "evidence": {
+      "cedict": [
+        "mi4: honey"
+      ],
+      "handedict": [
+        "mi4: Honig (S, Ess); honigsüß (Adj, Ess)"
+      ],
+      "unihan": "251.040:mì | mì(110)",
+      "etymology": "pictophonetic: insect",
+      "old": "Honig; suess"
+    }
+  },
+  {
+    "hanzi": "棉",
+    "level": "HSK6",
+    "traditional": [
+      "棉"
+    ],
+    "readings": [
+      {
+        "pinyin": "mián",
+        "meaning": "Baumwolle"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "meaning": "Baum, Holz"
+      },
+      {
+        "part": "帛"
+      }
+    ],
+    "words": [
+      "w:棉:mian2",
+      "w:棉花:mian2hua5",
+      "w:棉袄:mian2ao3"
+    ],
+    "evidence": {
+      "cedict": [
+        "mian2: generic term for cotton or kapok; cotton; padded or quilted with cotton"
+      ],
+      "handedict": [
+        "mian2: Baumwolle (S)"
+      ],
+      "unihan": "251.070:mián | mián(392)",
+      "etymology": "ideographic: Silk 帛 picked off a tree 木"
+    }
+  },
+  {
+    "hanzi": "勉",
+    "level": "HSK6",
+    "traditional": [
+      "勉"
+    ],
+    "readings": [
+      {
+        "pinyin": "miǎn",
+        "meaning": "sich anspornen, sich ermutigen; sich anstrengen, sich bemühen, sich Mühe geben, sich bemühen; sich überfordern, sich zu viel abverlangen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "力",
+    "components": [
+      {
+        "part": "免",
+        "role": "phonetic"
+      },
+      {
+        "part": "力",
+        "role": "semantic",
+        "meaning": "Kraft"
+      }
+    ],
+    "words": [
+      "w:勉强:mian3qiang3",
+      "w:勉励:mian3li4",
+      "w:勤勉:qin2mian3"
+    ],
+    "evidence": {
+      "cedict": [
+        "mian3: to exhort; to make an effort"
+      ],
+      "handedict": [
+        "mian3: sich anspornen, sich ermutigen (V); sich anstrengen, sich bemühen, sich Mühe geben, sich bemühen (V); sich überfordern, sich zu viel abverlangen (V)"
+      ],
+      "unihan": "251.110:miǎn | miǎn(37)",
+      "etymology": "pictophonetic: strength"
+    }
+  },
+  {
+    "hanzi": "妙",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "妙"
+    ],
+    "readings": [
+      {
+        "pinyin": "miào",
+        "meaning": "wunderbar; geschickt"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "女",
+    "components": [
+      {
+        "part": "女",
+        "role": "semantic",
+        "meaning": "Frau"
+      },
+      {
+        "part": "少",
+        "role": "phonetic",
+        "meaning": "wenig"
+      }
+    ],
+    "words": [
+      "w:妙:miao4",
+      "w:巧妙:qiao3miao4",
+      "w:不妙:bu4miao4",
+      "w:精妙:jing1miao4",
+      "w:美妙:mei3miao4"
+    ],
+    "evidence": {
+      "cedict": [
+        "miao4: clever; wonderful; variant of 妙[miao4]"
+      ],
+      "handedict": [
+        "miao4: wunderbar (Adj); ausgezeichnet (Adj)"
+      ],
+      "unihan": "253.030:miào | miào(81)",
+      "etymology": "pictophonetic: woman",
+      "old": "wunderbar; geschickt"
+    }
+  },
+  {
+    "hanzi": "灭",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "滅"
+    ],
+    "readings": [
+      {
+        "pinyin": "miè",
+        "meaning": "abschalten, ausmachen, beenden; ertrinken; löschen, ausmachen (Licht, Feuer, Kerze)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 5,
+    "primaryRadical": "火",
+    "components": [
+      {
+        "part": "一",
+        "meaning": "eins, horizontal"
+      },
+      {
+        "part": "火",
+        "meaning": "Feuer"
+      }
+    ],
+    "words": [
+      "w:灭:mie4",
+      "w:扑灭:pu1mie4",
+      "w:消灭:xiao1mie4",
+      "w:毁灭:hui3mie4",
+      "w:歼灭:jian1mie4"
+    ],
+    "evidence": {
+      "cedict": [
+        "mie4: to extinguish or put out; to go out (of a fire etc); to exterminate or wipe out; to drown"
+      ],
+      "handedict": [
+        "mie4: abschalten, ausmachen, beenden (V); ertrinken (V); löschen, ausmachen (Licht, Feuer, Kerze) (V); vernichten (V); erloschen (Licht, Feuer, Kerze) (Adj)"
+      ],
+      "unihan": "253.080:miè | miè(328)",
+      "etymology": "ideographic: To cover 一 a flame 火"
+    }
+  },
+  {
+    "hanzi": "摩",
+    "level": "HSK6",
+    "traditional": [
+      "摩"
+    ],
+    "readings": [
+      {
+        "pinyin": "mó",
+        "meaning": "reiben, einreiben; studieren; nach etw. forschen; über etw. nachgrübeln"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "手",
+    "components": [
+      {
+        "part": "麻",
+        "role": "phonetic",
+        "meaning": "Hanf"
+      },
+      {
+        "part": "手",
+        "role": "semantic",
+        "meaning": "Hand"
+      }
+    ],
+    "words": [
+      "w:按摩:an4mo2",
+      "w:摩托车:mo2tuo1che1",
+      "w:揣摩:chuai3mo2",
+      "w:观摩:guan1mo2",
+      "w:摩擦:mo2ca1"
+    ],
+    "evidence": {
+      "cedict": [
+        "mo2: to rub"
+      ],
+      "handedict": [
+        "mo2: reiben, einreiben (V); studieren; nach etw. forschen; über etw. nachgrübeln (V)"
+      ],
+      "unihan": "240.060:mā 256.020:mó | mó(18)",
+      "etymology": "pictophonetic: hand"
+    }
+  },
+  {
+    "hanzi": "寞",
+    "level": "HSK6",
+    "traditional": [
+      "寞"
+    ],
+    "readings": [
+      {
+        "pinyin": "mò",
+        "meaning": "einsam"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "宀",
+    "components": [
+      {
+        "part": "宀",
+        "role": "semantic",
+        "meaning": "Dach"
+      },
+      {
+        "part": "莫",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:寂寞:ji4mo4"
+    ],
+    "evidence": {
+      "cedict": [
+        "mo4: lonesome"
+      ],
+      "handedict": [
+        "mo4: einsam (Adj)"
+      ],
+      "unihan": "257.060:mò | mò(35)",
+      "etymology": "pictophonetic: roof"
+    }
+  },
+  {
+    "hanzi": "纳",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "納"
+    ],
+    "readings": [
+      {
+        "pinyin": "nà",
+        "meaning": "aufnehmen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "糸",
+    "radicalForm": "纟",
+    "components": [
+      {
+        "part": "纟",
+        "role": "semantic",
+        "meaning": "Faden"
+      },
+      {
+        "part": "内",
+        "role": "phonetic",
+        "meaning": "innen"
+      }
+    ],
+    "words": [
+      "w:采纳:cai3na4",
+      "w:归纳:gui1na4",
+      "w:交纳:jiao1na4",
+      "w:缴纳:jiao3na4",
+      "w:接纳:jie1na4"
+    ],
+    "evidence": {
+      "cedict": [
+        "na4: surname Na; to receive; to accept; to enjoy; to bring into"
+      ],
+      "handedict": [
+        "na4: akzeptieren, annehmen, genießen (V); bezahlen, entrichten (V); Nano (Vorsatz für Maßeinheiten) (S, Phys), Nano- (Vorsilbe); Na (Eig, Fam)"
+      ],
+      "unihan": "260.090:nà | nà(21)",
+      "etymology": "pictophonetic: silk",
+      "old": "aufnehmen"
+    }
+  },
+  {
+    "hanzi": "泥",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "泥"
+    ],
+    "readings": [
+      {
+        "pinyin": "ní",
+        "meaning": "Schlamm; Lehm"
+      },
+      {
+        "pinyin": "nì",
+        "meaning": "hielt zurück, zurückgehalten"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "尼",
+        "role": "phonetic",
+        "meaning": "Nonne"
+      }
+    ],
+    "words": [
+      "w:泥:ni2",
+      "w:拘泥:ju1ni4",
+      "w:水泥:shui3ni2",
+      "w:泥泞:ni2ning4",
+      "w:泥潭:ni2tan2"
+    ],
+    "evidence": {
+      "cedict": [
+        "ni2: mud; clay; paste; pulp",
+        "ni4: restrained"
+      ],
+      "handedict": [
+        "ni2: Futterbrei (S); Lehm, Ton (S); Pasta (S); Paste (S); Schlamm (S, Geol)",
+        "ni4: hielt zurück (Redew), zurückgehalten (Adj)"
+      ],
+      "unihan": "264.130:ní 265.120:nì | ní(308)",
+      "etymology": "pictophonetic: water",
+      "old": "Schlamm; Lehm"
+    }
+  },
+  {
+    "hanzi": "拟",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "擬"
+    ],
+    "readings": [
+      {
+        "pinyin": "nǐ",
+        "meaning": "planen; entwerfen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "role": "semantic",
+        "meaning": "Hand"
+      },
+      {
+        "part": "以",
+        "role": "phonetic",
+        "meaning": "mit"
+      }
+    ],
+    "words": [
+      "w:模拟:mo2ni3",
+      "w:拟:ni3",
+      "w:拟定:ni3ding4",
+      "w:虚拟:xu1ni3",
+      "w:拟人:ni3ren2"
+    ],
+    "evidence": {
+      "cedict": [
+        "ni3: doubtful; suspicious; variant of 擬|拟[ni3]; to emulate; to imitate"
+      ],
+      "handedict": [
+        "ni3: planen (V); vorhaben (V); nachmachen (V); vergleichen (V)"
+      ],
+      "unihan": "265.080:nǐ | nǐ(22)",
+      "etymology": "pictophonetic: hand",
+      "old": "planen; entwerfen"
+    }
+  },
+  {
+    "hanzi": "扭",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "扭"
+    ],
+    "readings": [
+      {
+        "pinyin": "niǔ",
+        "meaning": "drehen; verdrehen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "role": "semantic",
+        "meaning": "Hand"
+      },
+      {
+        "part": "丑",
+        "role": "phonetic",
+        "meaning": "haesslich"
+      }
+    ],
+    "words": [
+      "w:扭:niu3",
+      "w:扭曲:niu3qu1",
+      "w:扭头:niu3tou2",
+      "w:扭转:niu3zhuan3",
+      "w:别扭:bie4niu5"
+    ],
+    "evidence": {
+      "cedict": [
+        "niu3: to turn; to twist; to wring; to sprain; to swing one's hips"
+      ],
+      "handedict": [
+        "niu3: drehen, rotieren (V); festnehmen, (einander) packen (V); ringen (V); sich wenden, sich drehen (V); tänzeln, tänzelnd gehen (V)"
+      ],
+      "unihan": "269.070:niǔ | niǔ(81) niu(14)",
+      "etymology": "pictophonetic: hand",
+      "old": "drehen; verdrehen"
+    }
+  },
+  {
+    "hanzi": "怒",
+    "level": "HSK6",
+    "traditional": [
+      "怒"
+    ],
+    "readings": [
+      {
+        "pinyin": "nù",
+        "meaning": "Zorn; wuetend"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "心",
+    "components": [
+      {
+        "part": "奴",
+        "role": "phonetic"
+      },
+      {
+        "part": "心",
+        "role": "semantic",
+        "meaning": "Herz"
+      }
+    ],
+    "words": [
+      "w:愤怒:fen4nu4",
+      "w:发怒:fa1nu4",
+      "w:恼羞成怒:nao3xiu1cheng2nu4",
+      "w:喜怒哀乐:xi3nu4ai1le4",
+      "w:迁怒:qian1nu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "nu4: Nu ethnic group; anger; fury; flourishing; vigorous"
+      ],
+      "handedict": [
+        "nu4: ungehalten, entrüstet, empört (Adj)"
+      ],
+      "unihan": "270.140:nù | nù(167)",
+      "etymology": "pictophonetic: heart",
+      "old": "Zorn; wuetend"
+    }
+  },
+  {
+    "hanzi": "诺",
+    "level": "HSK6",
+    "traditional": [
+      "諾"
+    ],
+    "readings": [
+      {
+        "pinyin": "nuò",
+        "meaning": "Versprechen; Zusage; versprechen, zusagen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "言",
+    "radicalForm": "讠",
+    "components": [
+      {
+        "part": "讠",
+        "role": "semantic",
+        "meaning": "Sprache, Wort"
+      },
+      {
+        "part": "若",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:承诺:cheng2nuo4",
+      "w:诺言:nuo4yan2",
+      "w:诺贝尔奖:nuo4bei4er3jiang3"
+    ],
+    "evidence": {
+      "cedict": [
+        "nuo4: to consent; to promise; (literary) yes!"
+      ],
+      "handedict": [
+        "nuo4: Versprechen (S); Zusage (S); versprechen, zusagen (V)"
+      ],
+      "unihan": "271.080:nuò",
+      "etymology": "pictophonetic: speech"
+    }
+  },
+  {
+    "hanzi": "盼",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "盼"
+    ],
+    "readings": [
+      {
+        "pinyin": "pàn",
+        "meaning": "sich sehnen; hoffen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "目",
+    "components": [
+      {
+        "part": "目",
+        "role": "semantic",
+        "meaning": "Auge"
+      },
+      {
+        "part": "分",
+        "role": "phonetic",
+        "meaning": "teilen"
+      }
+    ],
+    "words": [
+      "w:盼望:pan4wang4",
+      "w:盼:pan4",
+      "w:期盼:qi1pan4",
+      "w:左顾右盼:zuo3gu4you4pan4"
+    ],
+    "evidence": {
+      "cedict": [
+        "pan4: to hope for; to long for; to expect"
+      ],
+      "handedict": [
+        "pan4: annehmen, erwarten (V); ersehnen, verlangen nach (V); erhoffen (V)"
+      ],
+      "unihan": "275.120:pàn | pàn(74)",
+      "etymology": "pictophonetic: eye",
+      "old": "sich sehnen; hoffen"
+    }
+  },
+  {
+    "hanzi": "庞",
+    "level": "HSK6",
+    "traditional": [
+      "龐"
+    ],
+    "readings": [
+      {
+        "pinyin": "páng",
+        "meaning": "riesig; umfangreich"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "广",
+    "components": [
+      {
+        "part": "广",
+        "meaning": "breit"
+      },
+      {
+        "part": "龙",
+        "meaning": "Drache"
+      }
+    ],
+    "words": [
+      "w:庞大:pang2da4"
+    ],
+    "evidence": {
+      "cedict": [
+        "pang2: surname Pang; (bound form) huge; (bound form) numerous and disordered; (bound form) face"
+      ],
+      "handedict": [
+        "pang2: gewaltig, ungeheuer (Variante: 厐) (Adj); Pang (Eig, Fam)"
+      ],
+      "unihan": "276.040:páng | páng(19)",
+      "etymology": "ideographic: A dragon 龙 inside a house 广",
+      "old": "riesig; umfangreich"
+    }
+  },
+  {
+    "hanzi": "抛",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "拋"
+    ],
+    "readings": [
+      {
+        "pinyin": "pāo",
+        "meaning": "werfen; aufgeben"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "role": "semantic",
+        "meaning": "Hand"
+      },
+      {
+        "part": "𠠵"
+      }
+    ],
+    "words": [
+      "w:抛:pao1",
+      "w:抛弃:pao1qi4",
+      "w:抛砖引玉:pao1zhuan1yin3yu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "pao1: to throw; to toss; to fling; to cast; to abandon"
+      ],
+      "handedict": [
+        "pao1: drehen, formen (V); gießen, aufgießen (V); verlassen, aufgeben (V); schmeißen (V); werfen (V)"
+      ],
+      "unihan": "276.130:pāo | pāo(51)",
+      "etymology": "pictophonetic: hand",
+      "old": "werfen; aufgeben"
+    }
+  },
+  {
+    "hanzi": "泡",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "泡"
+    ],
+    "readings": [
+      {
+        "pinyin": "pào",
+        "meaning": "einweichen; Blase"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "包",
+        "role": "phonetic",
+        "meaning": "einpacken"
+      }
+    ],
+    "words": [
+      "w:泡:pao4",
+      "w:灯泡:deng1pao4",
+      "w:浸泡:jin4pao4",
+      "w:泡沫:pao4mo4",
+      "w:气泡:qi4pao4"
+    ],
+    "evidence": {
+      "cedict": [
+        "pao4: bubble; foam; blister; to soak; to steep; to infuse; to dawdle; to loiter; to pick up (a girl)"
+      ],
+      "handedict": [
+        "pao4: blubbern, sprudeln (V); durchdringen, durchfeuchten (V); einweichen (V)"
+      ],
+      "unihan": "276.140:pāo 277.080:pào | pào(77)",
+      "etymology": "pictophonetic: water",
+      "old": "einweichen; Blase"
+    }
+  },
+  {
+    "hanzi": "佩",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "佩"
+    ],
+    "readings": [
+      {
+        "pinyin": "pèi",
+        "meaning": "bewundern; tragen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "人",
+    "radicalForm": "亻",
+    "components": [
+      {
+        "part": "亻",
+        "meaning": "Mensch"
+      },
+      {
+        "part": "凧"
+      }
+    ],
+    "words": [
+      "w:佩服:pei4fu2",
+      "w:敬佩:jing4pei4",
+      "w:佩戴:pei4dai4",
+      "w:钦佩:qin1pei4"
+    ],
+    "evidence": {
+      "cedict": [
+        "pei4: to respect; to wear (belt etc); girdle ornaments"
+      ],
+      "handedict": [
+        "pei4: Gürtelschmuck (S); bewundern (V); tragen (V)"
+      ],
+      "unihan": "278.050:pèi | pèi(29)",
+      "etymology": "ideographic: Common 凡 cloth 巾 ornaments worn by people 亻",
+      "old": "bewundern; tragen"
+    }
+  },
+  {
+    "hanzi": "喷",
+    "level": "HSK6",
+    "traditional": [
+      "噴"
+    ],
+    "readings": [
+      {
+        "pinyin": "pēn",
+        "meaning": "herausspritzen; pusten; speien, ausspeien"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "口",
+    "components": [
+      {
+        "part": "口",
+        "role": "semantic",
+        "meaning": "Mund"
+      },
+      {
+        "part": "贲",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:喷:pen1",
+      "w:喷泉:pen1quan2",
+      "w:打喷嚏:da3pen1ti4",
+      "w:喷壶:pen1hu2"
+    ],
+    "evidence": {
+      "cedict": [
+        "pen1: to spout; to spurt; to spray; to puff; (slang) to criticize scathingly (esp. online)"
+      ],
+      "handedict": [
+        "pen1: herausspritzen (V); pusten (V); speien, ausspeien (V); speisen (V); spritzen (V)"
+      ],
+      "unihan": "278.100:pēn 278.130:pèn | pēn(111)",
+      "etymology": "pictophonetic: mouth"
+    }
+  },
+  {
+    "hanzi": "捧",
+    "level": "HSK6",
+    "traditional": [
+      "捧"
+    ],
+    "readings": [
+      {
+        "pinyin": "pěng",
+        "meaning": "etw. mit beiden Händen halten; etw. mit beiden Händen tragen; loben"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "meaning": "Hand"
+      },
+      {
+        "part": "奉"
+      }
+    ],
+    "words": [
+      "w:捧:peng3",
+      "w:吹捧:chui1peng3",
+      "w:捧场:peng3chang3",
+      "w:追捧:zhui1peng3"
+    ],
+    "evidence": {
+      "cedict": [
+        "peng3: to hold or offer with both hands; to sing the praises of; classifier for what can be held in both hands"
+      ],
+      "handedict": [
+        "peng3: etw. mit beiden Händen halten (V); etw. mit beiden Händen tragen (V); loben (V)"
+      ],
+      "unihan": "279.170:pěng | pěng(120)",
+      "etymology": "ideographic: An offering 奉 made with two hands 扌; 奉 also provides the pronunciation"
+    }
+  },
+  {
+    "hanzi": "披",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "披"
+    ],
+    "readings": [
+      {
+        "pinyin": "pī",
+        "meaning": "umhaengen; aufspalten"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "meaning": "Hand"
+      },
+      {
+        "part": "皮",
+        "meaning": "Haut"
+      }
+    ],
+    "words": [
+      "w:披:pi1",
+      "w:披露:pi1lu4",
+      "w:披荆斩棘:pi1jing1zhan3ji2",
+      "w:所向披靡:suo3xiang4pi1mi3"
+    ],
+    "evidence": {
+      "cedict": [
+        "pi1: to drape over one's shoulders; to open; to unroll; to split open; to spread out"
+      ],
+      "handedict": [
+        "pi1: etw. als Aushängeschild brauchen(V); überwerfen (V); bersten (V); umhängen (V)"
+      ],
+      "unihan": "280.070:pī | pī(89)",
+      "etymology": "ideographic: To put on 扌 fur 皮; 皮 also provides the pronunciation",
+      "old": "umhaengen; aufspalten"
+    }
+  },
+  {
+    "hanzi": "疲",
+    "level": "HSK6",
+    "traditional": [
+      "疲"
+    ],
+    "readings": [
+      {
+        "pinyin": "pí",
+        "meaning": "muede; erschoepft"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "疒",
+    "components": [
+      {
+        "part": "疒",
+        "role": "semantic",
+        "meaning": "Krankheit"
+      },
+      {
+        "part": "皮",
+        "role": "phonetic",
+        "meaning": "Haut"
+      }
+    ],
+    "words": [
+      "w:疲劳:pi2lao2",
+      "w:疲惫:pi2bei4",
+      "w:疲倦:pi2juan4",
+      "w:精疲力竭:jing1pi2li4jie2",
+      "w:乐此不疲:le4ci3bu4pi2"
+    ],
+    "evidence": {
+      "cedict": [
+        "pi2: weary"
+      ],
+      "handedict": [
+        "pi2: müde, überdrüssig (Adj)"
+      ],
+      "unihan": "281.040:pí | pí(78)",
+      "etymology": "pictophonetic: sickness",
+      "old": "muede; erschoepft"
+    }
+  },
+  {
+    "hanzi": "飘",
+    "level": "HSK6",
+    "traditional": [
+      "飄"
+    ],
+    "readings": [
+      {
+        "pinyin": "piāo",
+        "meaning": "flattern, schweben; hin und her wehen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "風",
+    "radicalForm": "风",
+    "components": [
+      {
+        "part": "票",
+        "role": "phonetic"
+      },
+      {
+        "part": "风",
+        "role": "semantic",
+        "meaning": "Wind"
+      }
+    ],
+    "words": [
+      "w:飘:piao1",
+      "w:飘浮:piao1fu2",
+      "w:飘扬:piao1yang2",
+      "w:飘逸:piao1yi4"
+    ],
+    "evidence": {
+      "cedict": [
+        "piao1: variant of 飄|飘[piao1]; to float (in the air); to flutter; to waft; complacent; frivolous; weak; shaky; wobbly"
+      ],
+      "handedict": [
+        "piao1: flattern, schweben (V); hin und her wehen (V)"
+      ],
+      "unihan": "283.110:piāo | piāo(90)",
+      "etymology": "pictophonetic: wind"
+    }
+  },
+  {
+    "hanzi": "贫",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "貧"
+    ],
+    "readings": [
+      {
+        "pinyin": "pín",
+        "meaning": "arm, bedürftig, unangemessen, unzulänglich, geschwätzig"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "貝",
+    "radicalForm": "贝",
+    "components": [
+      {
+        "part": "分"
+      },
+      {
+        "part": "贝",
+        "meaning": "Muschel, Geld"
+      }
+    ],
+    "words": [
+      "w:贫困:pin2kun4",
+      "w:贫乏:pin2fa2",
+      "w:贫穷:pin2qiong2",
+      "w:贫富:pin2fu4",
+      "w:贫血:pin2xue4"
+    ],
+    "evidence": {
+      "cedict": [
+        "pin2: poor; inadequate; deficient; garrulous"
+      ],
+      "handedict": [
+        "pin2: arm (Adj), bedürftig (Adj), unangemessen (Adj), unzulänglich (Adj), geschwätzig (Adj)"
+      ],
+      "unihan": "284.160:pín | pín(115)",
+      "etymology": "ideographic: Money 贝 that must be split 分; 分 also provides the pronunciation"
+    }
+  },
+  {
+    "hanzi": "坡",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "坡"
+    ],
+    "readings": [
+      {
+        "pinyin": "pō",
+        "meaning": "Abhang, Böschung, Neigung, Steigung"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "土",
+    "components": [
+      {
+        "part": "土",
+        "role": "semantic",
+        "meaning": "Erde"
+      },
+      {
+        "part": "皮",
+        "role": "phonetic",
+        "meaning": "Haut, Leder"
+      }
+    ],
+    "words": [
+      "w:坡:po1",
+      "w:山坡:shan1po1",
+      "w:山体滑坡:shan1ti3hua2po1"
+    ],
+    "evidence": {
+      "cedict": [
+        "po1: slope; CL:個|个[ge4]; sloping; slanted"
+      ],
+      "handedict": [
+        "po1: Abhang, Böschung, Neigung, Steigung (S, Lit)"
+      ],
+      "unihan": "286.150:pō | pō(103)",
+      "etymology": "pictophonetic: earth"
+    }
+  },
+  {
+    "hanzi": "迫",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "迫"
+    ],
+    "readings": [
+      {
+        "pinyin": "pò",
+        "meaning": "erzwingen, forcieren; nötigen, zwingen; vordringlich"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "辵",
+    "radicalForm": "辶",
+    "components": [
+      {
+        "part": "辶",
+        "role": "semantic",
+        "meaning": "gehen, Weg"
+      },
+      {
+        "part": "白",
+        "role": "phonetic",
+        "meaning": "weiss"
+      }
+    ],
+    "words": [
+      "w:被迫:bei4po4",
+      "w:迫切:po4qie4",
+      "w:强迫:qiang3po4",
+      "w:逼迫:bi1po4",
+      "w:急迫:ji2po4"
+    ],
+    "evidence": {
+      "cedict": [
+        "po4: variant of 迫[po4]; to persecute; to oppress; embarrassed; to force"
+      ],
+      "handedict": [
+        "po4: erzwingen, forcieren (V); nötigen, zwingen (V); vordringlich (Adj)"
+      ],
+      "unihan": "274.060:pǎi 287.100:pò | pò(306)",
+      "etymology": "pictophonetic: walk"
+    }
+  },
+  {
+    "hanzi": "扑",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "撲"
+    ],
+    "readings": [
+      {
+        "pinyin": "pū",
+        "meaning": "sich stuerzen; schlagen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 5,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "role": "semantic",
+        "meaning": "Hand"
+      },
+      {
+        "part": "卜",
+        "role": "phonetic",
+        "meaning": "wahrsagen"
+      }
+    ],
+    "words": [
+      "w:扑:pu1",
+      "w:扑灭:pu1mie4",
+      "w:扑克:pu1ke4",
+      "w:红扑扑:hong2pu1pu1",
+      "w:扑面而来:pu1mian4er2lai2"
+    ],
+    "evidence": {
+      "cedict": [
+        "pu1: to throw oneself at; to pounce on; to devote one's energies; to flap; to flutter"
+      ],
+      "handedict": [
+        "pu1: stürzen (V)"
+      ],
+      "unihan": "288.050:pū | pū(140)",
+      "etymology": "pictophonetic: hand",
+      "old": "sich stuerzen; schlagen"
+    }
+  },
+  {
+    "hanzi": "朴",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "樸"
+    ],
+    "readings": [
+      {
+        "pinyin": "pǔ",
+        "meaning": "schlicht; einfach"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "role": "semantic",
+        "meaning": "Baum"
+      },
+      {
+        "part": "卜",
+        "role": "phonetic",
+        "meaning": "wahrsagen"
+      }
+    ],
+    "words": [
+      "w:朴素:pu3su4",
+      "w:纯朴:chun2pu3",
+      "w:淳朴:chun2pu3",
+      "w:古朴:gu3pu3",
+      "w:朴实:pu3shi2"
+    ],
+    "evidence": {
+      "cedict": [
+        "pu3: (bound form) plain; simple; Taiwan pr. [pu2]"
+      ],
+      "handedict": [
+        "pu3: schlicht und einfach (Adj); schlicht und einfach (Adj)"
+      ],
+      "unihan": "283.130:piáo 287.090:pò 288.230:pǔ | pǔ(63)",
+      "etymology": "pictophonetic: tree",
+      "old": "schlicht; einfach"
+    }
+  },
+  {
+    "hanzi": "铺",
+    "level": "HSK6",
+    "traditional": [
+      "鋪"
+    ],
+    "readings": [
+      {
+        "pinyin": "pū",
+        "meaning": "ausbreiten; Laden"
+      },
+      {
+        "pinyin": "pù",
+        "meaning": "Laden, kleines Geschäft; Bettstatt"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "金",
+    "radicalForm": "钅",
+    "components": [
+      {
+        "part": "钅",
+        "role": "semantic",
+        "meaning": "Metall"
+      },
+      {
+        "part": "甫",
+        "role": "phonetic",
+        "meaning": "beginnen"
+      }
+    ],
+    "words": [
+      "w:铺:pu1",
+      "w:店铺:dian4pu4",
+      "w:卧铺:wo4pu4",
+      "w:铺路:pu1lu4",
+      "w:铺垫:pu1dian4"
+    ],
+    "evidence": {
+      "cedict": [
+        "pu1: to spread; to display; to set up; (old) holder for door-knocker",
+        "pu4: variant of 鋪|铺[pu4]; store; plank bed; place to sleep; shop"
+      ],
+      "handedict": [
+        "pu1: ausbreiten, verlegen (V)",
+        "pu4: Laden, kleines Geschäft; Bettstatt (S)"
+      ],
+      "unihan": "288.060:pū 289.100:pù | pù(111) pū(96) pu(11)",
+      "etymology": "pictophonetic: money",
+      "old": "ausbreiten; Laden"
+    }
+  },
+  {
+    "hanzi": "欺",
+    "level": "HSK6",
+    "traditional": [
+      "欺"
+    ],
+    "readings": [
+      {
+        "pinyin": "qī",
+        "meaning": "betruegen; taeuschen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "欠",
+    "components": [
+      {
+        "part": "其",
+        "role": "phonetic",
+        "meaning": "sein"
+      },
+      {
+        "part": "欠",
+        "role": "semantic",
+        "meaning": "schulden"
+      }
+    ],
+    "words": [
+      "w:欺骗:qi1pian4",
+      "w:欺负:qi1fu5",
+      "w:欺诈:qi1zha4",
+      "w:欺凌:qi1ling2"
+    ],
+    "evidence": {
+      "cedict": [
+        "qi1: to take unfair advantage of; to deceive; to cheat"
+      ],
+      "handedict": [
+        "qi1: betrügen, mogeln (V); betrügen, täuschen (V)"
+      ],
+      "unihan": "290.120:qī | qī(59)",
+      "etymology": "pictophonetic: lack",
+      "old": "betruegen; taeuschen"
+    }
+  },
+  {
+    "hanzi": "棋",
+    "level": "HSK6",
+    "traditional": [
+      "棋"
+    ],
+    "readings": [
+      {
+        "pinyin": "qí",
+        "meaning": "Schach; Brettspiel"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "role": "semantic",
+        "meaning": "Baum"
+      },
+      {
+        "part": "其",
+        "role": "phonetic",
+        "meaning": "sein"
+      }
+    ],
+    "words": [
+      "w:棋子:qi2zi3",
+      "w:围棋:wei2qi2",
+      "w:象棋:xiang4qi2",
+      "w:举棋不定:ju3qi2bu4ding4",
+      "w:琴棋书画:qin2qi2shu1hua4"
+    ],
+    "evidence": {
+      "cedict": [
+        "qi2: variant of 棋[qi2]; chess; chess-like game; a game of chess; CL:盤|盘[pan2]"
+      ],
+      "handedict": [
+        "qi2: Schach (S, Spiel)"
+      ],
+      "unihan": "292.060:qí | qí(21)",
+      "etymology": "pictophonetic: wood",
+      "old": "Schach; Brettspiel"
+    }
+  },
+  {
+    "hanzi": "旗",
+    "level": "HSK6",
+    "traditional": [
+      "旗"
+    ],
+    "readings": [
+      {
+        "pinyin": "qí",
+        "meaning": "Flagge; Fahne"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 14,
+    "primaryRadical": "方",
+    "components": [
+      {
+        "part": "𭤨"
+      },
+      {
+        "part": "其",
+        "role": "phonetic",
+        "meaning": "sein"
+      }
+    ],
+    "words": [
+      "w:国旗:guo2qi2",
+      "w:锦旗:jin3qi2",
+      "w:旗袍:qi2pao2",
+      "w:旗帜:qi2zhi4",
+      "w:旗开得胜:qi2kai1de2sheng4"
+    ],
+    "evidence": {
+      "cedict": [
+        "qi2: flag; variant of 旗[qi2]; banner; flag; (in Qing times) Manchu (cf. 八旗[Ba1 qi2])"
+      ],
+      "handedict": [
+        "qi2: Fahne (S); Banner (Verwaltungseineit der Inneren Mongolei) (S, Pol); ZEW:面[mian4] (X)"
+      ],
+      "unihan": "292.130:qí | qí(215)",
+      "etymology": "pictophonetic: square",
+      "old": "Flagge; Fahne"
+    }
+  },
+  {
+    "hanzi": "启",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "啟"
+    ],
+    "readings": [
+      {
+        "pinyin": "qǐ",
+        "meaning": "oeffnen; beginnen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "口",
+    "components": [
+      {
+        "part": "户",
+        "meaning": "Tuer"
+      },
+      {
+        "part": "口",
+        "meaning": "Mund"
+      }
+    ],
+    "words": [
+      "w:开启:kai1qi3",
+      "w:启动:qi3dong4",
+      "w:启发:qi3fa1",
+      "w:启示:qi3shi4",
+      "w:启事:qi3shi4"
+    ],
+    "evidence": {
+      "cedict": [
+        "qi3: variant of 啟|启[qi3]; variant of 啟|启[qi3]; Qi son of Yu the Great 禹[Yu3], reported founder of the Xia Dynasty 夏朝[Xia4 Chao2] (c. 2070-c. 1600 BC); to open; to start"
+      ],
+      "handedict": [
+        "qi3: anfangen, beginnen (V); anfangen, eröffnen (V)"
+      ],
+      "unihan": "293.040:qǐ | qǐ(60)",
+      "etymology": "ideographic: A door 户 being opened 口",
+      "old": "oeffnen; beginnen"
+    }
+  },
+  {
+    "hanzi": "恰",
+    "level": "HSK6",
+    "traditional": [
+      "恰"
+    ],
+    "readings": [
+      {
+        "pinyin": "qià",
+        "meaning": "genau; passend"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "心",
+    "radicalForm": "忄",
+    "components": [
+      {
+        "part": "忄",
+        "role": "semantic",
+        "meaning": "Herz"
+      },
+      {
+        "part": "合",
+        "role": "phonetic",
+        "meaning": "zusammen"
+      }
+    ],
+    "words": [
+      "w:恰当:qia4dang4",
+      "w:恰好:qia4hao3",
+      "w:恰恰:qia4qia4",
+      "w:恰巧:qia4qiao3",
+      "w:恰到好处:qia4dao4hao3chu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "qia4: exactly; just"
+      ],
+      "handedict": [
+        "qia4: gerade, genau, exakt (Adj)"
+      ],
+      "unihan": "295.010:qià | qià(123)",
+      "etymology": "pictophonetic: heart",
+      "old": "genau; passend"
+    }
+  },
+  {
+    "hanzi": "牵",
+    "level": "HSK6",
+    "traditional": [
+      "牽"
+    ],
+    "readings": [
+      {
+        "pinyin": "qiān",
+        "meaning": "fuehren; ziehen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "牛",
+    "components": [
+      {
+        "part": "大",
+        "meaning": "gross"
+      },
+      {
+        "part": "冖",
+        "meaning": "Deckel, Abdeckung"
+      },
+      {
+        "part": "牛",
+        "meaning": "Rind"
+      }
+    ],
+    "words": [
+      "w:牵:qian1",
+      "w:牵扯:qian1che3",
+      "w:牵挂:qian1gua4",
+      "w:牵涉:qian1she4",
+      "w:牵头:qian1tou2"
+    ],
+    "evidence": {
+      "cedict": [
+        "qian1: to lead along; to pull (an animal on a tether); (bound form) to involve; to draw in"
+      ],
+      "handedict": [
+        "qian1: ziehen (V)"
+      ],
+      "unihan": "295.160:qiān | qiān(97)",
+      "etymology": "ideographic: A person 大 pulling an ox 牛 by a rope 冖",
+      "old": "fuehren; ziehen"
+    }
+  },
+  {
+    "hanzi": "谦",
+    "level": "HSK6",
+    "traditional": [
+      "謙"
+    ],
+    "readings": [
+      {
+        "pinyin": "qiān",
+        "meaning": "bescheiden"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "言",
+    "radicalForm": "讠",
+    "components": [
+      {
+        "part": "讠",
+        "role": "semantic",
+        "meaning": "Sprache"
+      },
+      {
+        "part": "兼",
+        "role": "phonetic",
+        "meaning": "gleichzeitig"
+      }
+    ],
+    "words": [
+      "w:谦虚:qian1xu1",
+      "w:谦逊:qian1xun4",
+      "w:谦卑:qian1bei1",
+      "w:满招损，谦受益:man3zhao1sun3qian1shou4yi4"
+    ],
+    "evidence": {
+      "cedict": [
+        "qian1: modest"
+      ],
+      "handedict": [
+        "qian1: bescheiden, anspruchslos (Adj)"
+      ],
+      "unihan": "295.190:qiān | qiān(26)",
+      "etymology": "pictophonetic: speech",
+      "old": "bescheiden"
+    }
+  },
+  {
+    "hanzi": "潜",
+    "level": "HSK6",
+    "traditional": [
+      "潛"
+    ],
+    "readings": [
+      {
+        "pinyin": "qián",
+        "meaning": "tauchen; verborgen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "替",
+        "role": "phonetic",
+        "meaning": "ersetzen"
+      }
+    ],
+    "words": [
+      "w:潜力:qian2li4",
+      "w:潜伏:qian2fu2",
+      "w:潜能:qian2neng2",
+      "w:潜入:qian2ru4",
+      "w:潜水:qian2shui3"
+    ],
+    "evidence": {
+      "cedict": [
+        "qian2: hidden; secret; latent; to hide; to conceal"
+      ],
+      "handedict": [
+        "qian2: tauchen, untertauchen (V); verbergen, verhehlen (V); verheimlichen, verbergen (V); heimlich, hintergründig (Adj)"
+      ],
+      "unihan": "296.170:qián | qián(38)",
+      "etymology": "pictophonetic: water",
+      "old": "tauchen; verborgen"
+    }
+  },
+  {
+    "hanzi": "枪",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "槍"
+    ],
+    "readings": [
+      {
+        "pinyin": "qiāng",
+        "meaning": "Brenner, Schusswaffe, Speer, pistolenähnlicher Gegenstand"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "role": "semantic",
+        "meaning": "Baum, Holz"
+      },
+      {
+        "part": "仓",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:枪:qiang1",
+      "w:枪毙:qiang1bi4",
+      "w:手枪:shou3qiang1",
+      "w:明枪易躲，暗箭难防:ming2qiang1yi4duo3an4jian4nan2fang2"
+    ],
+    "evidence": {
+      "cedict": [
+        "qiang1: surname Qiang; gun; firearm; rifle; spear"
+      ],
+      "handedict": [
+        "qiang1: Brenner, Schusswaffe, Speer, pistolenähnlicher Gegenstand (S, Mil)"
+      ],
+      "unihan": "298.010:qiāng | qiāng(386)",
+      "etymology": "pictophonetic: wood"
+    }
+  },
+  {
+    "hanzi": "腔",
+    "level": "HSK6",
+    "traditional": [
+      "腔"
+    ],
+    "readings": [
+      {
+        "pinyin": "qiāng",
+        "meaning": "Hoehlung; Akzent"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "肉",
+    "radicalForm": "月",
+    "components": [
+      {
+        "part": "月",
+        "meaning": "Fleisch"
+      },
+      {
+        "part": "空",
+        "role": "phonetic",
+        "meaning": "leer"
+      }
+    ],
+    "words": [
+      "w:口腔:kou3qiang1",
+      "w:腔:qiang1"
+    ],
+    "evidence": {
+      "cedict": [
+        "qiang1: (bound form) cavity; (bound form) speech; talk; tune; accent (in one's speech); (old) classifier for carcasses of slaughtered livestock"
+      ],
+      "handedict": [
+        "qiang1: abstimmen, abgleichen (V); Aushöhlung (S)"
+      ],
+      "unihan": "298.040:qiāng | qiāng(62)",
+      "etymology": "pictophonetic: flesh",
+      "old": "Hoehlung; Akzent"
+    }
+  },
+  {
+    "hanzi": "瞧",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "瞧"
+    ],
+    "readings": [
+      {
+        "pinyin": "qiáo",
+        "meaning": "schauen; gucken"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 17,
+    "primaryRadical": "目",
+    "components": [
+      {
+        "part": "目",
+        "role": "semantic",
+        "meaning": "Auge"
+      },
+      {
+        "part": "焦",
+        "role": "phonetic",
+        "meaning": "verbrannt"
+      }
+    ],
+    "words": [
+      "w:瞧:qiao2"
+    ],
+    "evidence": {
+      "cedict": [
+        "qiao2: to look at; to see; to see (a doctor); to visit"
+      ],
+      "handedict": [
+        "qiao2: schauen (V)"
+      ],
+      "unihan": "300.090:qiáo | qiáo(250)",
+      "etymology": "pictophonetic: eye",
+      "old": "schauen; gucken"
+    }
+  },
+  {
+    "hanzi": "倾",
+    "level": "HSK6",
+    "traditional": [
+      "傾"
+    ],
+    "readings": [
+      {
+        "pinyin": "qīng",
+        "meaning": "neigen; giessen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "人",
+    "radicalForm": "亻",
+    "components": [
+      {
+        "part": "亻",
+        "role": "semantic",
+        "meaning": "Mensch"
+      },
+      {
+        "part": "顷",
+        "role": "phonetic",
+        "meaning": "Moment"
+      }
+    ],
+    "words": [
+      "w:倾听:qing1ting1",
+      "w:倾向:qing1xiang4",
+      "w:倾倒:qing1dao3",
+      "w:倾诉:qing1su4",
+      "w:倾销:qing1xiao1"
+    ],
+    "evidence": {
+      "cedict": [
+        "qing1: to overturn; to collapse; to lean; to tend; to incline"
+      ],
+      "handedict": [
+        "qing1: abzielen (V); kippen, stürzen (V); kollabieren, zusammenfallen (V); lehnen (V); neigen, sich neigen (V)"
+      ],
+      "unihan": "303.090:qīng | qīng(175)",
+      "etymology": "pictophonetic: person",
+      "old": "neigen; giessen"
+    }
+  },
+  {
+    "hanzi": "屈",
+    "level": "HSK6",
+    "traditional": [
+      "屈"
+    ],
+    "readings": [
+      {
+        "pinyin": "qū",
+        "meaning": "beugen; Unrecht"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "尸",
+    "components": [
+      {
+        "part": "尸",
+        "role": "semantic",
+        "meaning": "Leiche"
+      },
+      {
+        "part": "出",
+        "role": "phonetic",
+        "meaning": "herausgehen"
+      }
+    ],
+    "words": [
+      "w:屈服:qu1fu2",
+      "w:委屈:wei3qu5",
+      "w:卑躬屈膝:bei1gong1qu1xi1",
+      "w:佶屈聱牙:ji2qu1ao2ya2"
+    ],
+    "evidence": {
+      "cedict": [
+        "qu1: surname Qu; bent; to feel wronged"
+      ],
+      "handedict": [
+        "qu1: beugen (V), gebogen (Adj); Qu (Eig, Fam)"
+      ],
+      "unihan": "307.090:qū | qū(37) qu(27)",
+      "etymology": "pictophonetic: corpse",
+      "old": "beugen; Unrecht"
+    }
+  },
+  {
+    "hanzi": "渠",
+    "level": "HSK6",
+    "traditional": [
+      "渠"
+    ],
+    "readings": [
+      {
+        "pinyin": "qú",
+        "meaning": "Kanal; Graben"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "洰"
+      },
+      {
+        "part": "木",
+        "meaning": "Baum, Holz"
+      }
+    ],
+    "words": [
+      "w:渠道:qu2dao4",
+      "w:水到渠成:shui3dao4qu2cheng2"
+    ],
+    "evidence": {
+      "cedict": [
+        "qu2: surname Qu; (artificial) stream; canal; drain; ditch (CL:條|条[tiao2]); (literary) big; great; (dialect) he; she; him; her; (old) rim of a carriage wheel; felloe"
+      ],
+      "handedict": [
+        "qu2: groß (Adj); Strom oder Kanal (S); Abfluss (S); Graben (S); ZEW:條|条[tiao2] (X)"
+      ],
+      "unihan": "308.050:qú | qú(91)",
+      "etymology": "ideographic: A ditch 洰 made of wood 木; 洰 also provides the pronunciation",
+      "old": "Kanal; Graben"
+    }
+  },
+  {
+    "hanzi": "娶",
+    "level": "HSK6",
+    "traditional": [
+      "娶"
+    ],
+    "readings": [
+      {
+        "pinyin": "qǔ",
+        "meaning": "heiraten (Mann)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "女",
+    "components": [
+      {
+        "part": "取",
+        "meaning": "nehmen"
+      },
+      {
+        "part": "女",
+        "meaning": "Frau"
+      }
+    ],
+    "words": [
+      "w:娶:qu3"
+    ],
+    "evidence": {
+      "cedict": [
+        "qu3: to take a wife; to marry (a woman)"
+      ],
+      "handedict": [
+        "qu3: jmdn. zur Frau nehmen (Heirat, Ehe) (V); eine Frau ehelichen (Heirat, Ehe) (V); eine Frau heiraten (Heirat, Ehe) (V)"
+      ],
+      "unihan": "308.210:qǔ | qǔ(40)",
+      "etymology": "ideographic: To take 取 a wife 女; 取 also provides the pronunciation",
+      "old": "heiraten (Mann)"
+    }
+  },
+  {
+    "hanzi": "圈",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "圈"
+    ],
+    "readings": [
+      {
+        "pinyin": "quān",
+        "meaning": "Runde, Kreis; etw. einkreisen; Ring, Reif"
+      },
+      {
+        "pinyin": "juàn",
+        "meaning": "Stall"
+      },
+      {
+        "pinyin": "juān",
+        "meaning": "einschließen; in den Stall bringen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "囗",
+    "components": [
+      {
+        "part": "囗",
+        "role": "semantic",
+        "meaning": "Umzäunung"
+      },
+      {
+        "part": "卷",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:圈:quan1",
+      "w:圈:juan4",
+      "w:圈:juan1",
+      "w:圈套:quan1tao4",
+      "w:圈子:quan1zi5"
+    ],
+    "evidence": {
+      "cedict": [
+        "quan1: circle; ring; loop; (fig.) social circle; niche group; community; fandom; classifier for loops, orbits, laps; to surround; to encircle; to circle (sth); to mark with a circle",
+        "juan4: livestock enclosure; pen; fold; sty",
+        "juan1: to confine; to lock up; to pen in"
+      ],
+      "handedict": [
+        "quan1: Runde, Kreis (S); Quan (Eig, Fam); etw. einkreisen (V); Ring, Reif (S); ZEW für Runden, Umlaufbahnen, Schleifen (Zähl)",
+        "juan4: Stall (S, Agrar); Bsp.: 馬圈 马圈 -- Pferdestall; Bsp.: 圈舍 圈舍 -- Raum für Tiere; Stall",
+        "juan1: einschließen; in den Stall bringen (V)"
+      ],
+      "unihan": "186.210:juān 187.140:juàn 309.060:quān | quān(169) juàn(12)",
+      "etymology": "pictophonetic: enclosure"
+    }
+  },
+  {
+    "hanzi": "券",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "券"
+    ],
+    "readings": [
+      {
+        "pinyin": "quàn",
+        "meaning": "erkranken an, Vertrag abschließen; Karte, Ticket; Kontrakt"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "刀",
+    "components": [
+      {
+        "part": "龹",
+        "role": "phonetic"
+      },
+      {
+        "part": "刀",
+        "role": "semantic",
+        "meaning": "Messer"
+      }
+    ],
+    "words": [
+      "w:券:quan4",
+      "w:债券:zhai4quan4",
+      "w:证券:zheng4quan4",
+      "w:入场券:ru4chang3quan4",
+      "w:优惠券:you1hui4quan4"
+    ],
+    "evidence": {
+      "cedict": [
+        "quan4: bond (esp. document split in two, with each party holding one half); contract; deed (i.e. title deeds); ticket; voucher"
+      ],
+      "handedict": [
+        "quan4: erkranken an, Vertrag abschließen (V); Karte, Ticket (S); Kontrakt (S); Urkunde (S)"
+      ],
+      "unihan": "310.140:quàn 415.130:xuàn",
+      "etymology": "pictophonetic: knife"
+    }
+  },
+  {
+    "hanzi": "壤",
+    "level": "HSK6",
+    "traditional": [
+      "壤"
+    ],
+    "readings": [
+      {
+        "pinyin": "rǎng",
+        "meaning": "Erde"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 20,
+    "primaryRadical": "土",
+    "components": [
+      {
+        "part": "土",
+        "role": "semantic",
+        "meaning": "Erde"
+      },
+      {
+        "part": "襄",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:土壤:tu3rang3"
+    ],
+    "evidence": {
+      "cedict": [
+        "rang3: (bound form) soil; earth; (literary) the earth (contrasted with heaven 天[tian1])"
+      ],
+      "handedict": [
+        "rang3: Erde (S, Geol); Erdreich, Boden (S, Agrar); Gebiet, Gegend (S); beflecken, beschmutzen (V)"
+      ],
+      "unihan": "312.160:rǎng | rǎng(82)",
+      "etymology": "pictophonetic: earth",
+      "old": "Erde"
+    }
+  },
+  {
+    "hanzi": "绒",
+    "level": "HSK6",
+    "traditional": [
+      "絨"
+    ],
+    "readings": [
+      {
+        "pinyin": "róng",
+        "meaning": "Samt; Flaum"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "糸",
+    "radicalForm": "纟",
+    "components": [
+      {
+        "part": "纟",
+        "role": "semantic",
+        "meaning": "Seide"
+      },
+      {
+        "part": "戎",
+        "role": "phonetic",
+        "meaning": "Waffe"
+      }
+    ],
+    "words": [
+      "w:羽绒服:yu3rong2fu2"
+    ],
+    "evidence": {
+      "cedict": [
+        "rong2: velvet; woolen"
+      ],
+      "handedict": [
+        "rong2: aus Wolle, Wollware (S); Samt (S)"
+      ],
+      "unihan": "315.090:róng | róng(27)",
+      "etymology": "pictophonetic: silk",
+      "old": "Samt; Flaum"
+    }
+  },
+  {
+    "hanzi": "融",
+    "level": "HSK6",
+    "traditional": [
+      "融"
+    ],
+    "readings": [
+      {
+        "pinyin": "róng",
+        "meaning": "schmelzen; verschmelzen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 16,
+    "primaryRadical": "虫",
+    "components": [
+      {
+        "part": "鬲",
+        "role": "semantic",
+        "meaning": "Kessel"
+      },
+      {
+        "part": "虫",
+        "role": "phonetic",
+        "meaning": "Insekt"
+      }
+    ],
+    "words": [
+      "w:金融:jin1rong2",
+      "w:融合:rong2he2",
+      "w:融化:rong2hua4",
+      "w:融入:rong2ru4",
+      "w:融:rong2"
+    ],
+    "evidence": {
+      "cedict": [
+        "rong2: to melt; to thaw; to blend; to merge; to be in harmony"
+      ],
+      "handedict": [
+        "rong2: auftauen, schmelzen (V); eine harmonische Verbindung eingehen (V); sich vermischen, ineinander aufgehen (V); mild, sanft (Adj); Rong (Eig, Fam)"
+      ],
+      "unihan": "316.020:róng | róng(25)",
+      "etymology": "pictophonetic: cauldron",
+      "old": "schmelzen; verschmelzen"
+    }
+  },
+  {
+    "hanzi": "柔",
+    "level": "HSK6",
+    "traditional": [
+      "柔"
+    ],
+    "readings": [
+      {
+        "pinyin": "róu",
+        "meaning": "weich; sanft"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "矛",
+        "meaning": "Speer"
+      },
+      {
+        "part": "木",
+        "meaning": "Baum"
+      }
+    ],
+    "words": [
+      "w:柔软:rou2ruan3",
+      "w:温柔:wen1rou2",
+      "w:柔和:rou2he2",
+      "w:怀柔:huai2rou2",
+      "w:柔顺剂:rou2shun4ji4"
+    ],
+    "evidence": {
+      "cedict": [
+        "rou2: soft; flexible; supple; yielding; rho (Greek letter Ρρ)"
+      ],
+      "handedict": [
+        "rou2: bequem, angenehm (Adj); anpassungsfähig, flexibel (Adj); anschmiegsam (Adj); nachgiebig, ergiebig (Adj); Ronto (Vorsatz für Maßeinheiten) (S, Phys), Ronto- (Vorsilbe)"
+      ],
+      "unihan": "316.040:róu | róu(56)",
+      "etymology": "ideographic: Wood 木 so soft it can be cut 矛",
+      "old": "weich; sanft"
+    }
+  },
+  {
+    "hanzi": "撒",
+    "level": "HSK6",
+    "traditional": [
+      "撒"
+    ],
+    "readings": [
+      {
+        "pinyin": "sǎ",
+        "meaning": "zerstreuen, verbreiten"
+      },
+      {
+        "pinyin": "sā",
+        "meaning": "gehen gelassen, gehengelassen (alt)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "meaning": "Hand"
+      },
+      {
+        "part": "散"
+      }
+    ],
+    "words": [
+      "w:撒:sa3",
+      "w:撒:sa1",
+      "w:撒谎:sa1huang3"
+    ],
+    "evidence": {
+      "cedict": [
+        "sa3: to scatter; to sprinkle; to spill",
+        "sa1: to let go; to cast; to let loose; to discharge; to give expression to"
+      ],
+      "handedict": [
+        "sa3: zerstreuen, verbreiten (V)",
+        "sa1: gehen gelassen, gehengelassen (alt) (V); Sa (Eig, Fam)"
+      ],
+      "unihan": "319.030:sā 319.060:sǎ | sā(54) sǎ(14)",
+      "etymology": "ideographic: To scatter 散 seeds by hand 扌; 散 also provides the pronunciation"
+    }
+  },
+  {
+    "hanzi": "塞",
+    "level": "HSK6",
+    "traditional": [
+      "塞"
+    ],
+    "readings": [
+      {
+        "pinyin": "sāi",
+        "meaning": "verstauen, abdichten, stopfen"
+      },
+      {
+        "pinyin": "sè",
+        "meaning": "Kolben"
+      },
+      {
+        "pinyin": "sài",
+        "meaning": ""
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "土",
+    "components": [
+      {
+        "part": "𡨄"
+      },
+      {
+        "part": "土",
+        "role": "semantic",
+        "meaning": "Erde"
+      }
+    ],
+    "words": [
+      "w:塞:sai1",
+      "w:堵塞:du3se4",
+      "w:塞翁失马:sai4weng1shi1ma3",
+      "w:塞翁失马，焉知非福:sai4weng1shi1ma3yan1zhi1fei1fu2"
+    ],
+    "evidence": {
+      "cedict": [
+        "sai1: to plug; to stop up; to stuff in; (bound form) a stopper; a cork",
+        "se4: (bound form) to block; to obstruct",
+        "sai4: (bound form) strategic stronghold"
+      ],
+      "handedict": [
+        "sai1: verstauen, abdichten, stopfen (V)",
+        "se4: Kolben (S)",
+        "sai4: "
+      ],
+      "unihan": "319.130:sāi 319.160:sài 322.010:sè | sāi(75) sè(13)",
+      "etymology": "pictophonetic: earth"
+    }
+  },
+  {
+    "hanzi": "嗓",
+    "level": "HSK6",
+    "traditional": [
+      "嗓"
+    ],
+    "readings": [
+      {
+        "pinyin": "sǎng",
+        "meaning": "Hals, Rachen; stimmhafter Laut, Stimme"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "口",
+    "components": [
+      {
+        "part": "口",
+        "role": "semantic",
+        "meaning": "Mund"
+      },
+      {
+        "part": "桑",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:嗓子:sang3zi5",
+      "w:嗓音:sang3yin1"
+    ],
+    "evidence": {
+      "cedict": [
+        "sang3: throat; voice"
+      ],
+      "handedict": [
+        "sang3: Hals, Rachen (S); stimmhafter Laut, Stimme (S)"
+      ],
+      "unihan": "320.120:sǎng | sǎng(63)",
+      "etymology": "pictophonetic: mouth"
+    }
+  },
+  {
+    "hanzi": "丧",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "喪"
+    ],
+    "readings": [
+      {
+        "pinyin": "sàng",
+        "meaning": "Trauer; verlieren"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "一",
+    "components": [
+      {
+        "part": "十",
+        "meaning": "zehn"
+      },
+      {
+        "part": "丷"
+      }
+    ],
+    "words": [
+      "w:丧失:sang4shi1",
+      "w:沮丧:ju3sang4",
+      "w:丧生:sang4sheng1",
+      "w:垂头丧气:chui2tou2sang4qi4",
+      "w:丧气:sang4qi4"
+    ],
+    "evidence": {
+      "cedict": [
+        "sang4: to lose sth abstract but important (courage, authority, one's life etc); to be bereaved of (one's spouse etc); to die; disappointed; discouraged"
+      ],
+      "handedict": [
+        "sang4: etw. verlieren (V)"
+      ],
+      "unihan": "320.090:sāng 320.150:sàng | sàng(22)",
+      "etymology": "pictographic: Simplified form of 喪; to cry 哭 over the dead 亡",
+      "old": "Trauer; verlieren"
+    }
+  },
+  {
+    "hanzi": "杀",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "殺"
+    ],
+    "readings": [
+      {
+        "pinyin": "shā",
+        "meaning": "töten; angreifen, schwächen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "㐅"
+      },
+      {
+        "part": "朩"
+      }
+    ],
+    "words": [
+      "w:杀:sha1",
+      "w:自杀:zi4sha1",
+      "w:抹杀:mo3sha1",
+      "w:杀毒:sha1du2",
+      "w:杀害:sha1hai4"
+    ],
+    "evidence": {
+      "cedict": [
+        "sha1: to kill; to slay; to murder; to attack; to weaken; to reduce; (dialect) to smart; (used after a verb) extremely"
+      ],
+      "handedict": [
+        "sha1: töten (V); angreifen, schwächen (V)"
+      ],
+      "unihan": "322.060:shā | shā(275)",
+      "etymology": "ideographic: To kill 乂 someone and bury them in a coffin 木"
+    }
+  },
+  {
+    "hanzi": "刹",
+    "level": "HSK6",
+    "traditional": [
+      "剎"
+    ],
+    "readings": [
+      {
+        "pinyin": "shā",
+        "meaning": "Tempel; bremsen"
+      },
+      {
+        "pinyin": "chà",
+        "meaning": "buddhistisches Kloster, Tempel oder Schrein (Abk. für 刹多罗[cha4 duo1 luo1], Sanskrit ksetra)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "刀",
+    "radicalForm": "刂",
+    "components": [
+      {
+        "part": "杀",
+        "role": "phonetic",
+        "meaning": "toeten"
+      },
+      {
+        "part": "刂",
+        "role": "semantic",
+        "meaning": "Messer"
+      }
+    ],
+    "words": [
+      "w:刹车:sha1che1",
+      "w:刹那:cha4na4"
+    ],
+    "evidence": {
+      "cedict": [
+        "sha1: to brake",
+        "cha4: Buddhist monastery, temple or shrine (abbr. for 剎多羅|刹多罗[cha4 duo1 luo2], Sanskrit \"ksetra\")"
+      ],
+      "handedict": [
+        "sha1: bremsen (V)",
+        "cha4: buddhistisches Kloster, Tempel oder Schrein (Abk. für 刹多罗[cha4 duo1 luo1], Sanskrit ksetra) (S)"
+      ],
+      "unihan": "035.150:chà 322.100:shā | shā(17) chà(14)",
+      "etymology": "pictophonetic: knife",
+      "old": "Tempel; bremsen"
+    }
+  },
+  {
+    "hanzi": "鲨",
+    "level": "HSK6",
+    "traditional": [
+      "鯊"
+    ],
+    "readings": [
+      {
+        "pinyin": "shā",
+        "meaning": "Haifisch, Hai"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "魚",
+    "radicalForm": "鱼",
+    "components": [
+      {
+        "part": "沙",
+        "role": "phonetic"
+      },
+      {
+        "part": "鱼",
+        "role": "semantic",
+        "meaning": "Fisch"
+      }
+    ],
+    "words": [
+      "w:鲨鱼:sha1yu2"
+    ],
+    "evidence": {
+      "cedict": [
+        "sha1: shark"
+      ],
+      "handedict": [
+        "sha1: Haifisch, Hai (S, Zool)"
+      ],
+      "unihan": "322.170:shā",
+      "etymology": "pictophonetic: fish"
+    }
+  },
+  {
+    "hanzi": "筛",
+    "level": "HSK6",
+    "traditional": [
+      "篩"
+    ],
+    "readings": [
+      {
+        "pinyin": "shāi",
+        "meaning": "Sieb; durchsieben; filtern"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "竹",
+    "components": [
+      {
+        "part": "𥫗"
+      },
+      {
+        "part": "师",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:筛选:shai1xuan3",
+      "w:筛:shai1",
+      "w:筛查:shai1cha2"
+    ],
+    "evidence": {
+      "cedict": [
+        "shai1: (bound form) a sieve; to sieve; to sift; to filter; to eliminate through selection; to warm a pot of rice wine (over a fire or in hot water); to pour (wine or tea)"
+      ],
+      "handedict": [
+        "shai1: Sieb (S, Agrar); durchsieben (V); filtern (V); sichten, sieben (V)"
+      ],
+      "unihan": "323.090:shāi | shāi(12)",
+      "etymology": "pictophonetic: bamboo"
+    }
+  },
+  {
+    "hanzi": "闪",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "閃"
+    ],
+    "readings": [
+      {
+        "pinyin": "shǎn",
+        "meaning": "blitzen; ausweichen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 5,
+    "primaryRadical": "門",
+    "radicalForm": "门",
+    "components": [
+      {
+        "part": "门",
+        "meaning": "Tor"
+      },
+      {
+        "part": "人",
+        "meaning": "Mensch"
+      }
+    ],
+    "words": [
+      "w:闪:shan3",
+      "w:闪电:shan3dian4",
+      "w:闪烁:shan3shuo4",
+      "w:电闪雷鸣:dian4shan3lei2ming2"
+    ],
+    "evidence": {
+      "cedict": [
+        "shan3: surname Shan; to dodge; to duck out of the way; to beat it; shaken (by a fall)"
+      ],
+      "handedict": [
+        "shan3: Blitz (S, Met); Shan (Eig, Fam)"
+      ],
+      "unihan": "324.130:shǎn | shǎn(251)",
+      "etymology": "ideographic: A man 人 just glimpsed through a door 门",
+      "old": "blitzen; ausweichen"
+    }
+  },
+  {
+    "hanzi": "尚",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "尚"
+    ],
+    "readings": [
+      {
+        "pinyin": "shàng",
+        "meaning": "noch"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "小",
+    "radicalForm": "⺌",
+    "components": [
+      {
+        "part": "⺌",
+        "meaning": "klein"
+      },
+      {
+        "part": "冋"
+      }
+    ],
+    "words": [
+      "w:高尚:gao1shang4",
+      "w:时尚:shi2shang4",
+      "w:尚:shang4",
+      "w:崇尚:chong2shang4",
+      "w:风尚:feng1shang4"
+    ],
+    "evidence": {
+      "cedict": [
+        "shang4: surname Shang; still; yet; to value; to esteem"
+      ],
+      "handedict": [
+        "shang4: noch, dennoch (Adv); berücksichtigen, respektieren (V); schätzen, wertschätzen (V)"
+      ],
+      "unihan": "327.010:shàng | shàng(64) shang(20)",
+      "old": "noch"
+    }
+  },
+  {
+    "hanzi": "舌",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "舌"
+    ],
+    "readings": [
+      {
+        "pinyin": "shé",
+        "meaning": "Zunge"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "舌",
+    "components": [
+      {
+        "part": "千",
+        "meaning": "tausend"
+      },
+      {
+        "part": "口",
+        "meaning": "Mund"
+      }
+    ],
+    "words": [
+      "w:舌头:she2tou5",
+      "w:七嘴八舌:qi1zui3ba1she2",
+      "w:瞠目结舌:cheng1mu4jie2she2"
+    ],
+    "evidence": {
+      "cedict": [
+        "she2: tongue"
+      ],
+      "handedict": [
+        "she2: Radikal Nr. 135 = Zunge (Sprachw); Sprache (S) ; Zunge (S, Anat); zungenförmig (Adj)"
+      ],
+      "unihan": "328.160:shé | shé(59)",
+      "etymology": "pictographic: A tongue 千 sticking out of a mouth 口",
+      "old": "Zunge"
+    }
+  },
+  {
+    "hanzi": "射",
+    "level": "HSK6",
+    "traditional": [
+      "射"
+    ],
+    "readings": [
+      {
+        "pinyin": "shè",
+        "meaning": "schießen; filmen, Jagdpacht; Schuss"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "寸",
+    "components": [
+      {
+        "part": "身",
+        "meaning": "Körper"
+      },
+      {
+        "part": "寸",
+        "meaning": "Daumenbreit, Zoll"
+      }
+    ],
+    "words": [
+      "w:射:she4",
+      "w:射击:she4ji1",
+      "w:发射:fa1she4",
+      "w:反射:fan3she4",
+      "w:放射:fang4she4"
+    ],
+    "evidence": {
+      "cedict": [
+        "she4: old variant of 射[she4]; to shoot; to launch; to allude to; radio- (chemistry)"
+      ],
+      "handedict": [
+        "she4: schießen (V); filmen (V), Jagdpacht (S); Schuss (S); She (Eig, Fam)"
+      ],
+      "unihan": "329.080:shè | shè(315)",
+      "etymology": "pictographic: A bow 身 being drawn by a hand 寸"
+    }
+  },
+  {
+    "hanzi": "涉",
+    "level": "HSK6",
+    "traditional": [
+      "涉"
+    ],
+    "readings": [
+      {
+        "pinyin": "shè",
+        "meaning": "durchwaten; betreffen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "步",
+        "meaning": "Schritt"
+      }
+    ],
+    "words": [
+      "w:涉及:she4ji2",
+      "w:干涉:gan1she4",
+      "w:交涉:jiao1she4",
+      "w:牵涉:qian1she4",
+      "w:涉猎:she4lie4"
+    ],
+    "evidence": {
+      "cedict": [
+        "she4: (literary) to wade across a body of water; (bound form) to experience; to undergo; to be involved; to concern"
+      ],
+      "handedict": [
+        "she4: Wichtigkeit (S); durchmachen, erleben (V); involvieren, einschließen (V); waten, durchwaten, ein Gewässer überqueren, übersetzen (V); She (Eig, Fam)"
+      ],
+      "unihan": "329.090:shè | shè(57)",
+      "etymology": "ideographic: To wade 步 through a stream 氵",
+      "old": "durchwaten; betreffen"
+    }
+  },
+  {
+    "hanzi": "审",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "審"
+    ],
+    "readings": [
+      {
+        "pinyin": "shěn",
+        "meaning": "erforschen, nachforschen; prüfen, begutachten; prüfen, probieren"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "宀",
+    "components": [
+      {
+        "part": "宀",
+        "role": "semantic",
+        "meaning": "Dach"
+      },
+      {
+        "part": "申",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:审美:shen3mei3",
+      "w:审:shen3",
+      "w:评审:ping2shen3",
+      "w:审查:shen3cha2",
+      "w:审定:shen3ding4"
+    ],
+    "evidence": {
+      "cedict": [
+        "shen3: to examine; to investigate; carefully; to try (in court)"
+      ],
+      "handedict": [
+        "shen3: erforschen, nachforschen (V); prüfen, begutachten (V); prüfen, probieren (V); sorgfältig, sorgsam (Adj); Shen (Eig, Fam)"
+      ],
+      "unihan": "331.100:shěn | shěn(58)",
+      "etymology": "pictophonetic: courtroom"
+    }
+  },
+  {
+    "hanzi": "甥",
+    "level": "HSK6",
+    "traditional": [
+      "甥"
+    ],
+    "readings": [
+      {
+        "pinyin": "shēng",
+        "meaning": "Neffe (mutterlicherseits)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "生",
+    "components": [
+      {
+        "part": "生",
+        "role": "phonetic",
+        "meaning": "geboren"
+      },
+      {
+        "part": "男",
+        "role": "semantic",
+        "meaning": "Mann"
+      }
+    ],
+    "words": [
+      "w:外甥:wai4sheng5"
+    ],
+    "evidence": {
+      "cedict": [
+        "sheng1: (bound form) sister's son; nephew"
+      ],
+      "handedict": [
+        "sheng1: Neffe (S)"
+      ],
+      "unihan": "333.020:shēng",
+      "etymology": "pictophonetic: boy",
+      "old": "Neffe (mutterlicherseits)"
+    }
+  },
+  {
+    "hanzi": "盛",
+    "level": "HSK6",
+    "traditional": [
+      "盛"
+    ],
+    "readings": [
+      {
+        "pinyin": "chéng",
+        "meaning": "bluehend; fuellen"
+      },
+      {
+        "pinyin": "shèng",
+        "meaning": "aufblühend, in voller Blüte stehen, gedeihen; energisch, kraftvoll"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "皿",
+    "components": [
+      {
+        "part": "成",
+        "role": "phonetic",
+        "meaning": "werden"
+      },
+      {
+        "part": "皿",
+        "role": "semantic",
+        "meaning": "Gefaess"
+      }
+    ],
+    "words": [
+      "w:盛:cheng2",
+      "w:昌盛:chang1sheng4",
+      "w:丰盛:feng1sheng4",
+      "w:茂盛:mao4sheng4",
+      "w:盛产:sheng4chan3"
+    ],
+    "evidence": {
+      "cedict": [
+        "cheng2: to hold; to contain; to ladle; to pick up with a utensil",
+        "sheng4: surname Sheng; flourishing; vigorous; magnificent; extensively"
+      ],
+      "handedict": [
+        "cheng2: ",
+        "sheng4: aufblühend (Adj), in voller Blüte stehen, gedeihen (V); energisch, kraftvoll (Adj)"
+      ],
+      "unihan": "044.070:chéng 333.080:shèng | shèng(54) chéng(43)",
+      "etymology": "pictophonetic: dish",
+      "old": "bluehend; fuellen"
+    }
+  },
+  {
+    "hanzi": "狮",
+    "level": "HSK6",
+    "traditional": [
+      "獅"
+    ],
+    "readings": [
+      {
+        "pinyin": "shī",
+        "meaning": "Löwe (lat: Panthera leo)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "犬",
+    "radicalForm": "犭",
+    "components": [
+      {
+        "part": "犭",
+        "role": "semantic",
+        "meaning": "Hund"
+      },
+      {
+        "part": "师",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:狮子:shi1zi5"
+    ],
+    "evidence": {
+      "cedict": [
+        "shi1: (bound form) lion"
+      ],
+      "handedict": [
+        "shi1: Löwe (lat: Panthera leo) (S, Zool)"
+      ],
+      "unihan": "334.070:shī | shī(21)",
+      "etymology": "pictophonetic: animal"
+    }
+  },
+  {
+    "hanzi": "寿",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "壽"
+    ],
+    "readings": [
+      {
+        "pinyin": "shòu",
+        "meaning": "Langlebigkeit"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "寸",
+    "components": [
+      {
+        "part": "丰",
+        "meaning": "ueppig"
+      },
+      {
+        "part": "寸",
+        "meaning": "Zoll"
+      }
+    ],
+    "words": [
+      "w:长寿:chang2shou4",
+      "w:寿命:shou4ming4"
+    ],
+    "evidence": {
+      "cedict": [
+        "shou4: surname Shou; long life; old age; age; life"
+      ],
+      "handedict": [
+        "shou4: langes Leben (S); Shou (Eig, Fam)"
+      ],
+      "unihan": "339.060:shòu | shòu(20)",
+      "etymology": "ideographic: Altered form of 老",
+      "old": "Langlebigkeit"
+    }
+  },
+  {
+    "hanzi": "薯",
+    "level": "HSK6",
+    "traditional": [
+      "薯"
+    ],
+    "readings": [
+      {
+        "pinyin": "shǔ",
+        "meaning": "Kartoffel"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 16,
+    "primaryRadical": "艸",
+    "radicalForm": "艹",
+    "components": [
+      {
+        "part": "艹",
+        "role": "semantic",
+        "meaning": "Gras, Pflanze"
+      },
+      {
+        "part": "署",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:薯片:shu3pian4",
+      "w:红薯:hong2shu3",
+      "w:薯条:shu3tiao2"
+    ],
+    "evidence": {
+      "cedict": [
+        "shu3: potato; yam; variant of 薯[shu3]"
+      ],
+      "handedict": [
+        "shu3: Kartoffel (S, Ess)"
+      ],
+      "unihan": "342.020:shǔ | shǔ(13)",
+      "etymology": "pictophonetic: plant"
+    }
+  },
+  {
+    "hanzi": "竖",
+    "level": "HSK6",
+    "traditional": [
+      "豎"
+    ],
+    "readings": [
+      {
+        "pinyin": "shù",
+        "meaning": "vertikal; aufrichten"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "立",
+    "components": [
+      {
+        "part": "収"
+      },
+      {
+        "part": "立",
+        "meaning": "stehen"
+      }
+    ],
+    "words": [
+      "w:竖:shu4",
+      "w:竖立:shu4li4"
+    ],
+    "evidence": {
+      "cedict": [
+        "shu4: variant of 豎|竖[shu4]; to erect; vertical; vertical stroke (in Chinese characters)"
+      ],
+      "handedict": [
+        "shu4: errichten (V); senkrecht (Adj); Vertikale (S, Math); Shu (Eig, Fam)"
+      ],
+      "unihan": "342.100:shù | shù(30)",
+      "etymology": "ideographic: A person 又 standing 立 as straight as a knife 刂",
+      "old": "vertikal; aufrichten"
+    }
   },
   {
     "hanzi": "漱",
-    "meanings": ["spuelen","gurgeln"],
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "束", "meaning": "Buendel" }],
-    "hsk": "HSK6",
-    "strokes": 14
+    "level": "HSK6",
+    "traditional": [
+      "漱"
+    ],
+    "readings": [
+      {
+        "pinyin": "shù",
+        "meaning": "spuelen; gurgeln"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 14,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "欶"
+      }
+    ],
+    "words": [
+      "w:洗漱:xi3shu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "shu4: to rinse one's mouth with water; to gargle; variant of 漱[shu4]"
+      ],
+      "handedict": [
+        "shu4: gurgeln, ausspülen (V)"
+      ],
+      "unihan": "342.180:shù",
+      "etymology": "ideographic: To gargle 欶 water 氵; 欶 also provides the pronunciation",
+      "old": "spuelen; gurgeln"
+    }
   },
   {
-    "hanzi": "茬",
-    "meanings": ["Stoppel","Schicht"],
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "在", "meaning": "sein" }],
-    "hsk": "HSK6",
-    "strokes": 9
+    "hanzi": "衰",
+    "level": "HSK6",
+    "traditional": [
+      "衰"
+    ],
+    "readings": [
+      {
+        "pinyin": "shuāi",
+        "meaning": "verfallen; abnehmen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "衣",
+    "components": [
+      {
+        "part": "衣",
+        "meaning": "Kleidung"
+      },
+      {
+        "part": "口",
+        "meaning": "Mund"
+      },
+      {
+        "part": "一",
+        "meaning": "eins, horizontal"
+      }
+    ],
+    "words": [
+      "w:衰老:shuai1lao3",
+      "w:衰减:shuai1jian3",
+      "w:衰竭:shuai1jie2",
+      "w:衰落:shuai1luo4",
+      "w:衰弱:shuai1ruo4"
+    ],
+    "evidence": {
+      "cedict": [
+        "shuai1: (bound form) to decay; to decline; to wane"
+      ],
+      "handedict": [
+        "shuai1: verfallen, schwach werden (V)"
+      ],
+      "unihan": "343.050:shuāi | shuāi(19)",
+      "etymology": "ideographic: A person in a robe 衣 with an injury 一 to his head 口",
+      "old": "verfallen; abnehmen"
+    }
   },
   {
-    "hanzi": "楔",
-    "meanings": ["Keil"],
-    "components": [{ "radical": "木", "meaning": "Holz" }, { "radical": "契", "meaning": "Vertrag" }],
-    "hsk": "HSK6",
-    "strokes": 13
+    "hanzi": "瞬",
+    "level": "HSK6",
+    "traditional": [
+      "瞬"
+    ],
+    "readings": [
+      {
+        "pinyin": "shùn",
+        "meaning": "Augenblick; blinzeln"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 17,
+    "primaryRadical": "目",
+    "components": [
+      {
+        "part": "目",
+        "role": "semantic",
+        "meaning": "Auge"
+      },
+      {
+        "part": "舜",
+        "role": "phonetic",
+        "meaning": "Kaiser Shun"
+      }
+    ],
+    "words": [
+      "w:瞬间:shun4jian1"
+    ],
+    "evidence": {
+      "cedict": [
+        "shun4: to wink"
+      ],
+      "handedict": [
+        "shun4: mit den Augen blinzeln, zwinkern (V)"
+      ],
+      "unihan": "345.060:shùn",
+      "etymology": "pictophonetic: eye",
+      "old": "Augenblick; blinzeln"
+    }
   },
   {
-    "hanzi": "擂",
-    "meanings": ["trommeln","schlagen"],
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "雷", "meaning": "Donner" }],
-    "hsk": "HSK6",
-    "strokes": 16
+    "hanzi": "艘",
+    "level": "HSK6",
+    "traditional": [
+      "艘"
+    ],
+    "readings": [
+      {
+        "pinyin": "sōu",
+        "meaning": "Zählwort für Schiffe"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "舟",
+    "components": [
+      {
+        "part": "舟",
+        "role": "semantic",
+        "meaning": "Boot"
+      },
+      {
+        "part": "叟",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:艘:sou1"
+    ],
+    "evidence": {
+      "cedict": [
+        "sou1: classifier for ships; Taiwan pr. [sao1]"
+      ],
+      "handedict": [
+        "sou1: ZEW für Schiffe (Zähl)"
+      ],
+      "unihan": "349.080:sōu | sōu(30)",
+      "etymology": "pictophonetic: ship"
+    }
   },
   {
-    "hanzi": "啃",
-    "meanings": ["nagen","knabbern"],
-    "components": [{ "radical": "口", "meaning": "Mund" }, { "radical": "肯", "meaning": "bereit sein" }],
-    "hsk": "HSK6",
-    "strokes": 11
+    "hanzi": "塔",
+    "level": "HSK6",
+    "traditional": [
+      "塔"
+    ],
+    "readings": [
+      {
+        "pinyin": "tǎ",
+        "meaning": "Turm; Pagode"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "土",
+    "components": [
+      {
+        "part": "土",
+        "role": "semantic",
+        "meaning": "Erde"
+      },
+      {
+        "part": "荅",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:塔:ta3",
+      "w:宝塔:bao3ta3"
+    ],
+    "evidence": {
+      "cedict": [
+        "ta3: pagoda (abbr. for 塔婆[ta3 po2], a loanword from Sanskrit stūpa); tower; pylon (CL:座[zuo4]); (loanword) (pastry) tart; old variant of 塔[ta3]"
+      ],
+      "handedict": [
+        "ta3: Kolonne, Säule, Turm (chem. Apparatur) (S, Tech); Pagode (S, Arch); Turm (S, Arch); turmartiger Bau (S, Arch); Ta (Eig, Fam)"
+      ],
+      "unihan": "355.120:tǎ | tǎ(49)",
+      "etymology": "pictophonetic: earth",
+      "old": "Turm; Pagode"
+    }
   },
   {
-    "hanzi": "垮",
-    "meanings": ["zusammenbrechen","einstuerzen"],
-    "components": [{ "radical": "土", "meaning": "Erde" }, { "radical": "夸", "meaning": "uebertreiben" }],
-    "hsk": "HSK6",
-    "strokes": 9
+    "hanzi": "踏",
+    "level": "HSK6",
+    "traditional": [
+      "踏"
+    ],
+    "readings": [
+      {
+        "pinyin": "tà",
+        "meaning": "etw. antreten; etw. aufsuchen; etw. begehen"
+      },
+      {
+        "pinyin": "tā",
+        "meaning": ""
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "足",
+    "components": [
+      {
+        "part": "𧾷"
+      },
+      {
+        "part": "沓",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:踏:ta4",
+      "w:踏实:ta1shi5",
+      "w:践踏:jian4ta4",
+      "w:脚踏实地:jiao3ta4shi2di4"
+    ],
+    "evidence": {
+      "cedict": [
+        "ta4: to tread; to stamp; to step on; to press a pedal; to investigate on the spot",
+        "ta1: see 踏實|踏实[ta1 shi5]"
+      ],
+      "handedict": [
+        "ta4: etw. antreten (V); etw. aufsuchen (V); etw. begehen (V); etw. betreten (V); sich an Ort und Stelle begeben (V)",
+        "ta1: "
+      ],
+      "unihan": "355.090:tā 356.060:tà | tà(122) tā(10)",
+      "etymology": "pictophonetic: foot"
+    }
   },
   {
-    "hanzi": "蹭",
-    "meanings": ["sich reiben","schmarotzen"],
-    "components": [{ "radical": "足", "meaning": "Fuss" }, { "radical": "曾", "meaning": "einst" }],
-    "hsk": "HSK6",
-    "strokes": 19
+    "hanzi": "汰",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "汰"
+    ],
+    "readings": [
+      {
+        "pinyin": "tài",
+        "meaning": "ablegen, ausschalten; allzu, auch; entfernen, beseitigen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "太",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:淘汰:tao2tai4",
+      "w:优胜劣汰:you1sheng4lie4tai4"
+    ],
+    "evidence": {
+      "cedict": [
+        "tai4: to discard; to eliminate"
+      ],
+      "handedict": [
+        "tai4: ablegen, ausschalten (V); allzu, auch (Adv); entfernen, beseitigen (V)"
+      ],
+      "unihan": "357.060:tài | tài(9)",
+      "etymology": "pictophonetic: water"
+    }
   },
   {
-    "hanzi": "拙",
-    "meanings": ["ungeschickt","plump"],
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "出", "meaning": "hinausgehen" }],
-    "hsk": "HSK6",
-    "strokes": 8
+    "hanzi": "坛",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "壇"
+    ],
+    "readings": [
+      {
+        "pinyin": "tán",
+        "meaning": "Altar; Podium"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "土",
+    "components": [
+      {
+        "part": "土",
+        "role": "semantic",
+        "meaning": "Erde"
+      },
+      {
+        "part": "云",
+        "role": "phonetic",
+        "meaning": "Wolke"
+      }
+    ],
+    "words": [
+      "w:论坛:lun4tan2",
+      "w:坛:tan2",
+      "w:花坛:hua1tan2"
+    ],
+    "evidence": {
+      "cedict": [
+        "tan2: altar; platform; rostrum; (bound form) (sporting, literary etc) circles; world; earthen jar"
+      ],
+      "handedict": [
+        "tan2: Krug, Tonkrug (S); Altar, Opfertisch (S, Rel)"
+      ],
+      "unihan": "357.170,358.010:tán",
+      "etymology": "pictophonetic: earth",
+      "old": "Altar; Podium"
+    }
   },
   {
-    "hanzi": "霹",
-    "meanings": ["Donnerschlag","Blitzschlag"],
-    "components": [{ "radical": "雨", "meaning": "Regen" }, { "radical": "辟", "meaning": "oeffnen" }],
-    "hsk": "HSK6",
-    "strokes": 21
+    "hanzi": "探",
+    "level": "HSK6",
+    "traditional": [
+      "探"
+    ],
+    "readings": [
+      {
+        "pinyin": "tàn",
+        "meaning": "auskundschaften; aussuchen; erkunden, auskundschaften"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "role": "semantic",
+        "meaning": "Hand"
+      },
+      {
+        "part": "罙"
+      }
+    ],
+    "words": [
+      "w:探索:tan4suo3",
+      "w:探讨:tan4tao3",
+      "w:探:tan4",
+      "w:勘探:kan1tan4",
+      "w:探测:tan4ce4"
+    ],
+    "evidence": {
+      "cedict": [
+        "tan4: to explore; to search out; to scout; to visit; to stretch forward"
+      ],
+      "handedict": [
+        "tan4: auskundschaften (V); aussuchen (V); erkunden, auskundschaften (V); besuchen (V); nach vorne strecken (V)"
+      ],
+      "unihan": "359.060:tàn | tàn(152) tan(10)",
+      "etymology": "pictophonetic: hand"
+    }
   },
   {
-    "hanzi": "僻",
-    "meanings": ["abgelegen","entlegen"],
-    "components": [{ "radical": "亻", "meaning": "Mensch" }, { "radical": "辟", "meaning": "oeffnen" }],
-    "hsk": "HSK6",
-    "strokes": 15
+    "hanzi": "碳",
+    "level": "HSK6",
+    "traditional": [
+      "碳"
+    ],
+    "readings": [
+      {
+        "pinyin": "tàn",
+        "meaning": "Kohlenstoff (Element 6, C); Carbonium"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 14,
+    "primaryRadical": "石",
+    "components": [
+      {
+        "part": "石",
+        "role": "semantic",
+        "meaning": "Stein"
+      },
+      {
+        "part": "炭",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:低碳:di1tan4",
+      "w:二氧化碳:er4yang3hua4tan4",
+      "w:碳:tan4",
+      "w:碳排放:tan4pai2fang4",
+      "w:碳中和:tan4zhong1he2"
+    ],
+    "evidence": {
+      "cedict": [
+        "tan4: carbon (chemistry)"
+      ],
+      "handedict": [
+        "tan4: Kohlenstoff (Element 6, C) (S, Chem); Carbonium (S, Chem)"
+      ],
+      "unihan": "359.070:tàn | tàn(55)",
+      "etymology": "pictophonetic: mineral"
+    }
   },
   {
-    "hanzi": "栖",
-    "meanings": ["rasten","nisten"],
-    "components": [{ "radical": "木", "meaning": "Holz" }, { "radical": "西", "meaning": "Westen" }],
-    "hsk": "HSK6",
-    "strokes": 10
+    "hanzi": "烫",
+    "level": "HSK6",
+    "traditional": [
+      "燙"
+    ],
+    "readings": [
+      {
+        "pinyin": "tàng",
+        "meaning": "heiss; verbruehen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "火",
+    "components": [
+      {
+        "part": "汤",
+        "role": "phonetic",
+        "meaning": "Suppe"
+      },
+      {
+        "part": "火",
+        "role": "semantic",
+        "meaning": "Feuer"
+      }
+    ],
+    "words": [
+      "w:烫:tang4"
+    ],
+    "evidence": {
+      "cedict": [
+        "tang4: to scald; to burn (by scalding); to blanch (cooking); to heat (sth) up in hot water; to perm"
+      ],
+      "handedict": [
+        "tang4: bügeln, plätten (V); blanchieren, überbrühen, brühen (V, Ess); verbrühen, verbrennen, verheizen (V); heiß, scharf (Adj); verbrannt, verbrüht (Adj)"
+      ],
+      "unihan": "361.020:tàng | tàng(30)",
+      "etymology": "pictophonetic: fire",
+      "old": "heiss; verbruehen"
+    }
   },
   {
-    "hanzi": "茸",
-    "meanings": ["flaumig","weich"],
-    "components": [{ "radical": "艹", "meaning": "Gras" }, { "radical": "耳", "meaning": "Ohr" }],
-    "hsk": "HSK6",
-    "strokes": 9
+    "hanzi": "掏",
+    "level": "HSK6",
+    "traditional": [
+      "掏"
+    ],
+    "readings": [
+      {
+        "pinyin": "tāo",
+        "meaning": "herausziehen (aus der Tasche, meist verwendet siehe 掏出[tao1 chu1])"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "role": "semantic",
+        "meaning": "Hand"
+      },
+      {
+        "part": "匋",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:掏:tao1",
+      "w:掏腰包:tao1yao1bao1"
+    ],
+    "evidence": {
+      "cedict": [
+        "tao1: to fish out (from pocket); to scoop; variant of 掏[tao1]"
+      ],
+      "handedict": [
+        "tao1: herausziehen (aus der Tasche, meist verwendet siehe 掏出[tao1 chu1]) (V)"
+      ],
+      "unihan": "361.090:tāo | tāo(106)",
+      "etymology": "pictophonetic: hand"
+    }
   },
   {
-    "hanzi": "涩",
-    "meanings": ["rau","herb","adstringierend"],
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "止", "meaning": "stoppen" }, { "radical": "止", "meaning": "stoppen" }],
-    "hsk": "HSK6",
-    "strokes": 10
+    "hanzi": "逃",
+    "level": "HSK6",
+    "traditional": [
+      "逃"
+    ],
+    "readings": [
+      {
+        "pinyin": "táo",
+        "meaning": "fliehen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "辵",
+    "radicalForm": "辶",
+    "components": [
+      {
+        "part": "辶",
+        "role": "semantic",
+        "meaning": "gehen"
+      },
+      {
+        "part": "兆",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:逃:tao2",
+      "w:逃跑:tao2pao3",
+      "w:逃避:tao2bi4",
+      "w:逃生:tao2sheng1",
+      "w:逃亡:tao2wang2"
+    ],
+    "evidence": {
+      "cedict": [
+        "tao2: to escape; to run away; to flee"
+      ],
+      "handedict": [
+        "tao2: abhauen, durchbrennen (V); ausbüchsen (V); entkommen, entgehen (V); flüchten, fliehen (V)"
+      ],
+      "unihan": "361.140:táo | táo(164)",
+      "etymology": "pictophonetic: walk",
+      "old": "fliehen"
+    }
   },
   {
-    "hanzi": "赎",
-    "meanings": ["freikaufen","ausloesen"],
-    "components": [{ "radical": "贝", "meaning": "Muschel" }, { "radical": "卖", "meaning": "verkaufen" }],
-    "hsk": "HSK6",
-    "strokes": 12
+    "hanzi": "淘",
+    "level": "HSK6",
+    "traditional": [
+      "淘"
+    ],
+    "readings": [
+      {
+        "pinyin": "táo",
+        "meaning": "auswaschen; aussieben"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "匋",
+        "role": "phonetic",
+        "meaning": "Toepferei"
+      }
+    ],
+    "words": [
+      "w:淘气:tao2qi4",
+      "w:淘汰:tao2tai4",
+      "w:淘:tao2"
+    ],
+    "evidence": {
+      "cedict": [
+        "tao2: to wash (rice, sand etc in water to remove impurities); to dredge; to scoop out (sediment or waste); (dialect) to hunt for and buy (bargains or second-hand goods); (dialect) naughty; mischievous"
+      ],
+      "handedict": [
+        "tao2: waschen, wässern (V); ausmisten (V); entfernen, beseitigen (V)"
+      ],
+      "unihan": "362.040:táo | táo(33)",
+      "etymology": "pictophonetic: water",
+      "old": "auswaschen; aussieben"
+    }
   },
   {
-    "hanzi": "渣",
-    "meanings": ["Rueckstand","Bodensatz"],
-    "components": [{ "radical": "氵", "meaning": "Wasser" }, { "radical": "查", "meaning": "pruefen" }],
-    "hsk": "HSK6",
-    "strokes": 12
+    "hanzi": "添",
+    "level": "HSK6",
+    "traditional": [
+      "添"
+    ],
+    "readings": [
+      {
+        "pinyin": "tiān",
+        "meaning": "hinzufuegen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "忝",
+        "role": "phonetic",
+        "meaning": "sich schaemen"
+      }
+    ],
+    "words": [
+      "w:添:tian1",
+      "w:添加:tian1jia1",
+      "w:增添:zeng1tian1",
+      "w:添加剂:tian1jia1ji4",
+      "w:画蛇添足:hua4she2tian1zu2"
+    ],
+    "evidence": {
+      "cedict": [
+        "tian1: to add; to increase; to replenish"
+      ],
+      "handedict": [
+        "tian1: Zunahme (S); ergänzen, hinzufügen (V)"
+      ],
+      "unihan": "365.030:tiān | tiān(103)",
+      "etymology": "pictophonetic: water",
+      "old": "hinzufuegen"
+    }
   },
   {
-    "hanzi": "肇",
-    "meanings": ["verursachen","beginnen"],
-    "components": [{ "radical": "户", "meaning": "Tuer" }, { "radical": "攵", "meaning": "schlagen" }, { "radical": "聿", "meaning": "Schreibpinsel" }],
-    "hsk": "HSK6",
-    "strokes": 14
+    "hanzi": "田",
+    "level": "HSK6",
+    "traditional": [
+      "田"
+    ],
+    "readings": [
+      {
+        "pinyin": "tián",
+        "meaning": "Feld; Acker"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 5,
+    "primaryRadical": "田",
+    "components": [
+      {
+        "part": "囗",
+        "meaning": "Umzäunung"
+      },
+      {
+        "part": "十",
+        "meaning": "zehn"
+      }
+    ],
+    "words": [
+      "w:田:tian2",
+      "w:农田:nong2tian2",
+      "w:田径:tian2jing4",
+      "w:田间:tian2jian1",
+      "w:田野:tian2ye3"
+    ],
+    "evidence": {
+      "cedict": [
+        "tian2: surname Tian; field; farm; CL:片[pian4]"
+      ],
+      "handedict": [
+        "tian2: Feld, Bauernhof (S, Agrar); ZEW:片[pian4] (X); Radikal Nr. 102 = Reisfeld, Feld, Acker(land) (Sprachw); Tian (Eig, Fam)"
+      ],
+      "unihan": "365.050:tián | tián(336)",
+      "etymology": "pictographic: The plots of a rice paddy",
+      "old": "Feld; Acker"
+    }
   },
   {
-    "hanzi": "贞",
-    "meanings": ["keusch","standhaft"],
-    "components": [{ "radical": "卜", "meaning": "wahrsagen" }, { "radical": "贝", "meaning": "Muschel" }],
-    "hsk": "HSK6",
-    "strokes": 6
+    "hanzi": "铜",
+    "level": "HSK6",
+    "traditional": [
+      "銅"
+    ],
+    "readings": [
+      {
+        "pinyin": "tóng",
+        "meaning": "Kupfer"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "金",
+    "radicalForm": "钅",
+    "components": [
+      {
+        "part": "钅",
+        "role": "semantic",
+        "meaning": "Metall"
+      },
+      {
+        "part": "同",
+        "role": "phonetic",
+        "meaning": "gleich"
+      }
+    ],
+    "words": [
+      "w:铜:tong2",
+      "w:铜牌:tong2pai2",
+      "w:青铜器:qing1tong2qi4",
+      "w:青铜时代:qing1tong2shi2dai4"
+    ],
+    "evidence": {
+      "cedict": [
+        "tong2: copper (chemistry); see also 紅銅|红铜[hong2 tong2]; CL:塊|块[kuai4]"
+      ],
+      "handedict": [
+        "tong2: Kupfer (Element 29, Cu) (S, Chem)"
+      ],
+      "unihan": "370.030:tóng | tóng(129)",
+      "etymology": "pictophonetic: metal",
+      "old": "Kupfer"
+    }
   },
   {
-    "hanzi": "拯",
-    "meanings": ["retten","erretten"],
-    "components": [{ "radical": "扌", "meaning": "Hand" }, { "radical": "丞", "meaning": "Helfer" }],
-    "hsk": "HSK6",
-    "strokes": 9
+    "hanzi": "筒",
+    "level": "HSK6",
+    "traditional": [
+      "筒"
+    ],
+    "readings": [
+      {
+        "pinyin": "tǒng",
+        "meaning": "Röhre; Zylinder"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "竹",
+    "components": [
+      {
+        "part": "𥫗"
+      },
+      {
+        "part": "同",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:话筒:hua4tong3",
+      "w:筒:tong3",
+      "w:手电筒:shou3dian4tong3"
+    ],
+    "evidence": {
+      "cedict": [
+        "tong3: tube; cylinder; to encase in sth cylindrical (such as hands in sleeves etc); variant of 筒[tong3]"
+      ],
+      "handedict": [
+        "tong3: Röhre (S); Zylinder (S, Math)"
+      ],
+      "unihan": "370.180:tǒng | tǒng(45)",
+      "etymology": "pictophonetic: bamboo"
+    }
   },
   {
-    "hanzi": "帜",
-    "meanings": ["Banner","Fahne"],
-    "components": [{ "radical": "巾", "meaning": "Tuch" }, { "radical": "只", "meaning": "nur" }],
-    "hsk": "HSK6",
-    "strokes": 8
+    "hanzi": "偷",
+    "level": "HSK6",
+    "traditional": [
+      "偷"
+    ],
+    "readings": [
+      {
+        "pinyin": "tōu",
+        "meaning": "stehlen; heimlich"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "人",
+    "radicalForm": "亻",
+    "components": [
+      {
+        "part": "亻",
+        "role": "semantic",
+        "meaning": "Mensch"
+      },
+      {
+        "part": "俞",
+        "role": "phonetic",
+        "meaning": "ja/antworten"
+      }
+    ],
+    "words": [
+      "w:偷:tou1",
+      "w:偷偷:tou1tou1",
+      "w:小偷儿:xiao3tou1r5",
+      "w:偷窥:tou1kui1",
+      "w:偷懒:tou1lan3"
+    ],
+    "evidence": {
+      "cedict": [
+        "tou1: to steal; to pilfer; to snatch; thief; stealthily"
+      ],
+      "handedict": [
+        "tou1: sich für etw. Zeit nehmen (V); stibitzen, stehlen, entreißen (V); heimlich, mau (Adj); Dieb, Taschendieb (S)"
+      ],
+      "unihan": "371.010:tōu | tōu(204)",
+      "etymology": "pictophonetic: person",
+      "old": "stehlen; heimlich"
+    }
+  },
+  {
+    "hanzi": "透",
+    "level": "HSK6",
+    "traditional": [
+      "透"
+    ],
+    "readings": [
+      {
+        "pinyin": "tòu",
+        "meaning": "durchdringen; transparent"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "辵",
+    "radicalForm": "辶",
+    "components": [
+      {
+        "part": "辶",
+        "role": "semantic",
+        "meaning": "gehen"
+      },
+      {
+        "part": "秀",
+        "role": "phonetic",
+        "meaning": "hervorragend"
+      }
+    ],
+    "words": [
+      "w:透:tou4",
+      "w:透过:tou4guo4",
+      "w:透露:tou4lu4",
+      "w:透明:tou4ming2",
+      "w:渗透:shen4tou4"
+    ],
+    "evidence": {
+      "cedict": [
+        "tou4: (bound form) to penetrate; to seep through; to tell secretly; to leak; thoroughly; through and through; to appear; to show"
+      ],
+      "handedict": [
+        "tou4: durchlaufen, durchleben (V); durchdringen, durchsickern (V); durchdringend, erschöpfend (Adj)"
+      ],
+      "unihan": "371.050:tòu | tòu(316)",
+      "etymology": "pictophonetic: walk",
+      "old": "durchdringen; transparent"
+    }
+  },
+  {
+    "hanzi": "徒",
+    "level": "HSK6",
+    "traditional": [
+      "徒"
+    ],
+    "readings": [
+      {
+        "pinyin": "tú",
+        "meaning": "Anhänger; Azubi, Auszubildende, Lehrling, Schüler, Schülerin; Gefolgsmann"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "彳",
+    "components": [
+      {
+        "part": "彳",
+        "meaning": "Schritt (links)"
+      },
+      {
+        "part": "走",
+        "meaning": "laufen, gehen"
+      }
+    ],
+    "words": [
+      "w:徒弟:tu2di4",
+      "w:歹徒:dai3tu2",
+      "w:徒步:tu2bu4",
+      "w:徒劳:tu2lao2",
+      "w:亡命之徒:wang2ming4zhi1tu2"
+    ],
+    "evidence": {
+      "cedict": [
+        "tu2: surname Tu; (bound form) disciple; apprentice; believer; (derog.) wrongdoer (as in 騙徒|骗徒[pian4 tu2] \"swindler\" or 叛徒[pan4 tu2] \"traitor\" etc); (bound form) on foot; (bound form) bare; empty; (bound form) to no avail; in vain"
+      ],
+      "handedict": [
+        "tu2: Anhänger (S, Rel); Azubi, Auszubildende, Lehrling, Schüler, Schülerin (S); Gefolgsmann (S, Rel); Tu (Eig, Fam)"
+      ],
+      "unihan": "372.040:tú | tú(161)",
+      "etymology": "ideographic: To walk 走 in someone's footsteps 彳"
+    }
+  },
+  {
+    "hanzi": "吐",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "吐"
+    ],
+    "readings": [
+      {
+        "pinyin": "tǔ",
+        "meaning": "spucken; erbrechen"
+      },
+      {
+        "pinyin": "tù",
+        "meaning": ""
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "口",
+    "components": [
+      {
+        "part": "口",
+        "role": "semantic",
+        "meaning": "Mund"
+      },
+      {
+        "part": "土",
+        "role": "phonetic",
+        "meaning": "Erde"
+      }
+    ],
+    "words": [
+      "w:吐:tu3",
+      "w:吐:tu4",
+      "w:吐槽:tu4cao2",
+      "w:呕吐:ou3tu4",
+      "w:吞吞吐吐:tun1tun1tu3tu3"
+    ],
+    "evidence": {
+      "cedict": [
+        "tu3: to spit; to send out (silk from a silkworm, bolls from cotton flowers etc); to say; to pour out (one's grievances)",
+        "tu4: to vomit; to throw up"
+      ],
+      "handedict": [
+        "tu3: erbrechen (V); etw. widerwillig herausgeben (V); sich übergeben (V)",
+        "tu4: "
+      ],
+      "unihan": "372.150:tǔ 372.170:tù | tǔ(73) tù(38)",
+      "etymology": "pictophonetic: mouth",
+      "old": "spucken; erbrechen"
+    }
+  },
+  {
+    "hanzi": "吞",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "吞"
+    ],
+    "readings": [
+      {
+        "pinyin": "tūn",
+        "meaning": "schlucken; verschlingen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "口",
+    "components": [
+      {
+        "part": "天",
+        "role": "phonetic",
+        "meaning": "Himmel"
+      },
+      {
+        "part": "口",
+        "role": "semantic",
+        "meaning": "Mund"
+      }
+    ],
+    "words": [
+      "w:吞:tun1",
+      "w:狼吞虎咽:lang2tun1hu3yan4",
+      "w:吞吞吐吐:tun1tun1tu3tu3",
+      "w:吞并:tun1bing4",
+      "w:吞噬:tun1shi4"
+    ],
+    "evidence": {
+      "cedict": [
+        "tun1: to swallow; to take"
+      ],
+      "handedict": [
+        "tun1: einnehmen, ergreifen (V); hinunterschlucken, verschlucken (V); Tun (Eig, Fam)"
+      ],
+      "unihan": "374.070:tūn | tūn(30)",
+      "etymology": "pictophonetic: mouth",
+      "old": "schlucken; verschlingen"
+    }
+  },
+  {
+    "hanzi": "托",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "托",
+      "託"
+    ],
+    "readings": [
+      {
+        "pinyin": "tuō",
+        "meaning": "beauftragen, jmdn. mit etw. betrauen, jmdm. etw. anvertrauen; etw. vorgeben, etw. täuschen; sich auf etw. stützen, sich stützen lassen auf"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "meaning": "Hand"
+      },
+      {
+        "part": "乇"
+      }
+    ],
+    "words": [
+      "w:托运:tuo1yun4",
+      "w:委托:wei3tuo1",
+      "w:摩托车:mo2tuo1che1",
+      "w:托:tuo1",
+      "w:拜托:bai4tuo1"
+    ],
+    "evidence": {
+      "cedict": [
+        "tuo1: to hold up in one's hand; to support with one's palm; sth serving as a support: a prop, a rest (e.g. arm rest); (bound form) a shill; to ask; to beg; to entrust (variant of 託|托[tuo1]); torr (unit of pressure)"
+      ],
+      "handedict": [
+        "tuo1: beauftragen, jmdn. mit etw. betrauen, jmdm. etw. anvertrauen (V); etw. vorgeben, etw. täuschen (V); sich auf etw. stützen, sich stützen lassen auf (V); sich lehnen auf, sich darauf verlassen, sich zurücklehnen (V); anvertrauen, in Verwahrung geben (V)"
+      ],
+      "unihan": "375.020:tuō | tuō(101)",
+      "etymology": "ideographic: Using one's hands 扌 for support 乇; 乇 also provides the pronunciation"
+    }
+  },
+  {
+    "hanzi": "挖",
+    "level": "HSK6",
+    "traditional": [
+      "挖"
+    ],
+    "readings": [
+      {
+        "pinyin": "wā",
+        "meaning": "ausheben, ausgraben, graben"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "meaning": "Hand"
+      },
+      {
+        "part": "穵"
+      }
+    ],
+    "words": [
+      "w:挖:wa1",
+      "w:挖掘:wa1jue2",
+      "w:挖苦:wa1ku5",
+      "w:吃水不忘挖井人:chi1shui3bu4wang4wa1jing3ren2"
+    ],
+    "evidence": {
+      "cedict": [
+        "wa1: to dig; to excavate; to scoop out"
+      ],
+      "handedict": [
+        "wa1: ausheben, ausgraben, graben (V)"
+      ],
+      "unihan": "377.020:wā | wā(136)",
+      "etymology": "ideographic: To dig out 扌 a hollow 穵; 穵 also provides the pronunciation"
+    }
+  },
+  {
+    "hanzi": "娃",
+    "level": "HSK6",
+    "traditional": [
+      "娃"
+    ],
+    "readings": [
+      {
+        "pinyin": "wá",
+        "meaning": "Baby, Säugling, Kleinkind; Jungtier (Junges)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "女",
+    "components": [
+      {
+        "part": "女",
+        "meaning": "Frau"
+      },
+      {
+        "part": "圭"
+      }
+    ],
+    "words": [
+      "w:娃娃:wa2wa5",
+      "w:鸡娃:ji1wa2"
+    ],
+    "evidence": {
+      "cedict": [
+        "wa2: baby; doll"
+      ],
+      "handedict": [
+        "wa2: Baby, Säugling, Kleinkind (S); Jungtier (Junges) (S, Zool)"
+      ],
+      "unihan": "377.090:wá | wá(44) wa(44)",
+      "etymology": "ideographic: A girl 女 made of beautiful jade 圭"
+    }
+  },
+  {
+    "hanzi": "哇",
+    "level": "HSK6",
+    "traditional": [
+      "哇"
+    ],
+    "readings": [
+      {
+        "pinyin": "wā",
+        "meaning": "Wow!; Geräusch von Kinderweinen oder Erbrechen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "口",
+    "components": [
+      {
+        "part": "口",
+        "role": "semantic",
+        "meaning": "Mund"
+      },
+      {
+        "part": "圭",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:哇:wa1"
+    ],
+    "evidence": {
+      "cedict": [
+        "wa1: Wow!; sound of a child's crying; sound of vomiting"
+      ],
+      "handedict": [
+        "wa1: Wow! (Int); Geräusch von Kinderweinen oder Erbrechen (Int)"
+      ],
+      "unihan": "377.030:wā 377.150:wa | wa(76) wā(26)",
+      "etymology": "pictophonetic: mouth"
+    }
+  },
+  {
+    "hanzi": "歪",
+    "level": "HSK6",
+    "traditional": [
+      "歪"
+    ],
+    "readings": [
+      {
+        "pinyin": "wāi",
+        "meaning": "schief; krumm"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "止",
+    "components": [
+      {
+        "part": "不",
+        "meaning": "nicht"
+      },
+      {
+        "part": "正",
+        "meaning": "richtig"
+      }
+    ],
+    "words": [
+      "w:歪:wai1",
+      "w:歪曲:wai1qu1"
+    ],
+    "evidence": {
+      "cedict": [
+        "wai1: askew; at a crooked angle; devious; noxious; (coll.) to lie on one's side"
+      ],
+      "handedict": [
+        "wai1: krumm, gebogen (Adj); schief, schräg (Adj); unanständig (Adj)"
+      ],
+      "unihan": "377.160:wāi | wāi(64)",
+      "etymology": "ideographic: Not 不 straight 正",
+      "old": "schief; krumm"
+    }
+  },
+  {
+    "hanzi": "顽",
+    "level": "HSK6",
+    "traditional": [
+      "頑"
+    ],
+    "readings": [
+      {
+        "pinyin": "wán",
+        "meaning": "dumm, unwissend, unsinnig; frech, ungezogen, rüpelhaft, schelmisch; starrköpfig, stur, hartnäckig, widerspenstig, eigensinnig"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "頁",
+    "radicalForm": "页",
+    "components": [
+      {
+        "part": "元",
+        "role": "phonetic"
+      },
+      {
+        "part": "页",
+        "role": "semantic",
+        "meaning": "Kopf, Seite"
+      }
+    ],
+    "words": [
+      "w:顽强:wan2qiang2",
+      "w:顽固:wan2gu4",
+      "w:顽皮:wan2pi2"
+    ],
+    "evidence": {
+      "cedict": [
+        "wan2: mischievous; obstinate; to play; stupid; stubborn"
+      ],
+      "handedict": [
+        "wan2: dumm, unwissend, unsinnig (Adj); frech, ungezogen, rüpelhaft, schelmisch (Adj); starrköpfig, stur, hartnäckig, widerspenstig, eigensinnig (Adj)"
+      ],
+      "unihan": "378.150:wán | wán(56)",
+      "etymology": "pictophonetic: head"
+    }
+  },
+  {
+    "hanzi": "亡",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "亡"
+    ],
+    "readings": [
+      {
+        "pinyin": "wáng",
+        "meaning": "alte Variante von 亡[wang2] (X); fliehen, verlieren, sterben; gestorben"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 3,
+    "primaryRadical": "亠",
+    "components": [
+      {
+        "part": "亠",
+        "meaning": "Deckel, Kopf"
+      },
+      {
+        "part": "乚",
+        "meaning": "zweiter Himmelsstamm"
+      }
+    ],
+    "words": [
+      "w:伤亡:shang1wang2",
+      "w:死亡:si3wang2",
+      "w:灭亡:mie4wang2",
+      "w:逃亡:tao2wang2",
+      "w:亡羊补牢:wang2yang2bu3lao2"
+    ],
+    "evidence": {
+      "cedict": [
+        "wang2: to die; to lose; to be gone; to flee; deceased"
+      ],
+      "handedict": [
+        "wang2: alte Variante von 亡[wang2] (X); fliehen, verlieren, sterben (V); gestorben (Adj)"
+      ],
+      "unihan": "380.070:wáng | wáng(94)",
+      "etymology": "ideographic: A man 人 in a coffin; see 亾"
+    }
+  },
+  {
+    "hanzi": "王",
+    "level": "HSK6",
+    "traditional": [
+      "王"
+    ],
+    "readings": [
+      {
+        "pinyin": "wáng",
+        "meaning": "Koenig"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 4,
+    "primaryRadical": "玉",
+    "radicalForm": "王",
+    "components": [
+      {
+        "part": "一",
+        "meaning": "eins, horizontal"
+      },
+      {
+        "part": "土",
+        "meaning": "Erde"
+      }
+    ],
+    "words": [
+      "w:国王:guo2wang2",
+      "w:王子:wang2zi3",
+      "w:王朝:wang2chao2",
+      "w:王国:wang2guo2",
+      "w:王牌:wang2pai2"
+    ],
+    "evidence": {
+      "cedict": [
+        "wang2: surname Wang; king or monarch; best or strongest of its type; grand; great"
+      ],
+      "handedict": [
+        "wang2: König (S, Pol), Radikal Nr. 96 = Jade, König (Sprachw)"
+      ],
+      "unihan": "380.080:wáng | wáng(278)",
+      "etymology": "ideographic: A man 十 bridging heaven and earth (both 一)",
+      "old": "Koenig"
+    }
+  },
+  {
+    "hanzi": "委",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "委"
+    ],
+    "readings": [
+      {
+        "pinyin": "wěi",
+        "meaning": "gewiss, in der Tat, allerdings; abwälzen (umg); bestellen, in Auftrag geben"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "女",
+    "components": [
+      {
+        "part": "禾",
+        "meaning": "Getreide"
+      },
+      {
+        "part": "女",
+        "meaning": "Frau"
+      }
+    ],
+    "words": [
+      "w:委屈:wei3qu5",
+      "w:委托:wei3tuo1",
+      "w:评委:ping2wei3",
+      "w:委婉:wei3wan3",
+      "w:委员:wei3yuan2"
+    ],
+    "evidence": {
+      "cedict": [
+        "wei3: surname Wei; to entrust; to cast aside; to shift (blame etc); to accumulate"
+      ],
+      "handedict": [
+        "wei3: gewiss (Adj), in der Tat (S), allerdings (Adv); abwälzen (umg) (V); bestellen, in Auftrag geben (V); jmdn. mit etw. beauftragen (V); wegwerfen (V)"
+      ],
+      "unihan": "383.040:wěi | wěi(668)"
+    }
+  },
+  {
+    "hanzi": "谓",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "謂"
+    ],
+    "readings": [
+      {
+        "pinyin": "wèi",
+        "meaning": "sagen, nennen, heißen; Sinn, Bedeutung"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "言",
+    "radicalForm": "讠",
+    "components": [
+      {
+        "part": "讠",
+        "role": "semantic",
+        "meaning": "Sprache, Wort"
+      },
+      {
+        "part": "胃",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:无所谓:wu2suo3wei4",
+      "w:可谓:ke3wei4",
+      "w:所谓:suo3wei4"
+    ],
+    "evidence": {
+      "cedict": [
+        "wei4: surname Wei; to speak; to say; to name; to designate"
+      ],
+      "handedict": [
+        "wei4: sagen, nennen, heißen (V); Sinn, Bedeutung (S)"
+      ],
+      "unihan": "384.060:wèi | wèi(170)",
+      "etymology": "pictophonetic: speech"
+    }
+  },
+  {
+    "hanzi": "沃",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "沃"
+    ],
+    "readings": [
+      {
+        "pinyin": "wò",
+        "meaning": "reich, reichlich"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "夭",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:肥沃:fei2wo4"
+    ],
+    "evidence": {
+      "cedict": [
+        "wo4: fertile; rich; to irrigate; to wash (of river)"
+      ],
+      "handedict": [
+        "wo4: reich, reichlich (Adj); Wo (Eig, Fam)"
+      ],
+      "unihan": "387.090:wò | wò(18)",
+      "etymology": "pictophonetic: water"
+    }
+  },
+  {
+    "hanzi": "乌",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "烏"
+    ],
+    "readings": [
+      {
+        "pinyin": "wū",
+        "meaning": "Rabe, Krähe; dunkel, schwarz"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 4,
+    "primaryRadical": "丿",
+    "components": [
+      {
+        "part": "丿",
+        "meaning": "schräger Strich (links)"
+      },
+      {
+        "part": "㇆"
+      },
+      {
+        "part": "㇉"
+      },
+      {
+        "part": "一",
+        "meaning": "eins, horizontal"
+      }
+    ],
+    "words": [
+      "w:乌龟:wu1gui1",
+      "w:乌云:wu1yun2"
+    ],
+    "evidence": {
+      "cedict": [
+        "wu1: abbr. for country names that begin with 烏|乌[wu1]: Ukraine 烏克蘭|乌克兰[Wu1 ke4 lan2], Uzbekistan 烏茲別克斯坦|乌兹别克斯坦[Wu1 zi1 bie2 ke4 si1 tan3] etc; surname Wu; crow; black"
+      ],
+      "handedict": [
+        "wu1: Rabe, Krähe (S, Zool); dunkel, schwarz (Adj)"
+      ],
+      "unihan": "387.180:wū | wū(69)",
+      "etymology": "pictographic: Simplified form of 烏; a crow; compare 鸟"
+    }
+  },
+  {
+    "hanzi": "晰",
+    "level": "HSK6",
+    "traditional": [
+      "晰"
+    ],
+    "readings": [
+      {
+        "pinyin": "xī",
+        "meaning": "klar; deutlich"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "日",
+    "components": [
+      {
+        "part": "日",
+        "role": "semantic",
+        "meaning": "Sonne"
+      },
+      {
+        "part": "析",
+        "role": "phonetic",
+        "meaning": "analysieren"
+      }
+    ],
+    "words": [
+      "w:清晰:qing1xi1"
+    ],
+    "evidence": {
+      "cedict": [
+        "xi1: clear; distinct; variant of 晰[xi1]"
+      ],
+      "handedict": [
+        "xi1: verständig (Adj), Abrede (S)"
+      ],
+      "unihan": "392.070:xī | xī(37)",
+      "etymology": "pictophonetic: sun",
+      "old": "klar; deutlich"
+    }
+  },
+  {
+    "hanzi": "媳",
+    "level": "HSK6",
+    "traditional": [
+      "媳"
+    ],
+    "readings": [
+      {
+        "pinyin": "xí",
+        "meaning": "Schwiegertochter"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "女",
+    "components": [
+      {
+        "part": "女",
+        "role": "semantic",
+        "meaning": "Frau"
+      },
+      {
+        "part": "息",
+        "role": "phonetic",
+        "meaning": "Atem"
+      }
+    ],
+    "words": [
+      "w:媳妇:xi2fu4",
+      "w:儿媳:er2xi2"
+    ],
+    "evidence": {
+      "cedict": [
+        "xi2: daughter-in-law"
+      ],
+      "handedict": [
+        "xi2: Ehefrau des Sohnes (S); Frau des Enkels oder Neffen (S); Schwiegertochter (S); Ehefrau (S)"
+      ],
+      "unihan": "394.040:xí | xí(52)",
+      "etymology": "pictophonetic: woman",
+      "old": "Schwiegertochter"
+    }
+  },
+  {
+    "hanzi": "吓",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "嚇"
+    ],
+    "readings": [
+      {
+        "pinyin": "xià",
+        "meaning": "erschrecken"
+      },
+      {
+        "pinyin": "hè",
+        "meaning": "pah!; na, na! ; ach!; so etwas!, sieh an! hört, hört!; drohen; erschrecken"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "口",
+    "components": [
+      {
+        "part": "口",
+        "role": "semantic",
+        "meaning": "Mund"
+      },
+      {
+        "part": "下",
+        "role": "phonetic",
+        "meaning": "unten"
+      }
+    ],
+    "words": [
+      "w:吓:xia4",
+      "w:恐吓:kong3he4",
+      "w:惊吓:jing1xia4",
+      "w:吓唬:xia4hu5",
+      "w:吓人:xia4ren2"
+    ],
+    "evidence": {
+      "cedict": [
+        "xia4: to frighten; to scare",
+        "he4: to scare; to intimidate; to threaten; (interjection showing disapproval) tut-tut; (interjection showing astonishment)"
+      ],
+      "handedict": [
+        "xia4: androhen, bedrohen (V); einschüchtern (V); einschüchtern, erschrecken (V); erschrecken, jmdn. ängstigen (V)",
+        "he4: pah!; na, na! ; ach! (Int); so etwas!, sieh an! hört, hört! (Int); drohen; erschrecken (V)"
+      ],
+      "unihan": "135.080:hè 396.150:xià | xià(135)",
+      "etymology": "pictophonetic: mouth",
+      "old": "erschrecken"
+    }
+  },
+  {
+    "hanzi": "嫌",
+    "level": "HSK6",
+    "traditional": [
+      "嫌"
+    ],
+    "readings": [
+      {
+        "pinyin": "xián",
+        "meaning": "verabscheuen; Verdacht"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "女",
+    "components": [
+      {
+        "part": "女",
+        "role": "semantic",
+        "meaning": "Frau"
+      },
+      {
+        "part": "兼",
+        "role": "phonetic",
+        "meaning": "gleichzeitig"
+      }
+    ],
+    "words": [
+      "w:嫌:xian2",
+      "w:涉嫌:she4xian2",
+      "w:嫌弃:xian2qi4",
+      "w:嫌疑:xian2yi2",
+      "w:嫌疑犯:xian2yi2fan4"
+    ],
+    "evidence": {
+      "cedict": [
+        "xian2: to dislike; suspicion; resentment; enmity; abbr. for 嫌犯[xian2 fan4], criminal suspect"
+      ],
+      "handedict": [
+        "xian2: ablehnen, nicht mögen (V); etw. ausmachen, stören (V); misstrauen, es für möglich halten (V)"
+      ],
+      "unihan": "398.130:xián | xián(37)",
+      "etymology": "pictophonetic: woman",
+      "old": "verabscheuen; Verdacht"
+    }
+  },
+  {
+    "hanzi": "陷",
+    "level": "HSK6",
+    "traditional": [
+      "陷"
+    ],
+    "readings": [
+      {
+        "pinyin": "xiàn",
+        "meaning": "fallen; Falle"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "阜",
+    "components": [
+      {
+        "part": "阝",
+        "meaning": "Huegel"
+      },
+      {
+        "part": "臽"
+      }
+    ],
+    "words": [
+      "w:缺陷:que1xian4",
+      "w:陷入:xian4ru4",
+      "w:陷:xian4",
+      "w:诬陷:wu1xian4",
+      "w:陷害:xian4hai4"
+    ],
+    "evidence": {
+      "cedict": [
+        "xian4: pitfall; trap; to get stuck; to sink; to cave in"
+      ],
+      "handedict": [
+        "xian4: fallen, absinken (V); fangen, abfangen (V)"
+      ],
+      "unihan": "400.020:xiàn | xiàn(86)",
+      "etymology": "ideographic: A place 阝 with a pit 臽; 臽 also provides the pronunciation",
+      "old": "fallen; Falle"
+    }
+  },
+  {
+    "hanzi": "祥",
+    "level": "HSK6",
+    "traditional": [
+      "祥"
+    ],
+    "readings": [
+      {
+        "pinyin": "xiáng",
+        "meaning": "Glück verheißend, günstig"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "示",
+    "radicalForm": "礻",
+    "components": [
+      {
+        "part": "礻",
+        "role": "semantic",
+        "meaning": "zeigen, Geist"
+      },
+      {
+        "part": "羊",
+        "role": "phonetic",
+        "meaning": "Schaf, Ziege"
+      }
+    ],
+    "words": [
+      "w:吉祥:ji2xiang2",
+      "w:慈祥:ci2xiang2",
+      "w:祥和:xiang2he2",
+      "w:吉祥物:ji2xiang2wu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "xiang2: auspicious; propitious"
+      ],
+      "handedict": [
+        "xiang2: Glück verheißend (S), günstig (Adj)"
+      ],
+      "unihan": "401.090:xiáng | xiáng(20)",
+      "etymology": "pictophonetic: spirit"
+    }
+  },
+  {
+    "hanzi": "宵",
+    "level": "HSK6",
+    "traditional": [
+      "宵"
+    ],
+    "readings": [
+      {
+        "pinyin": "xiāo",
+        "meaning": "Nacht; Abend"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "宀",
+    "components": [
+      {
+        "part": "宀",
+        "role": "semantic",
+        "meaning": "Dach"
+      },
+      {
+        "part": "肖",
+        "role": "phonetic",
+        "meaning": "aehnlich"
+      }
+    ],
+    "words": [
+      "w:元宵:yuan2xiao1",
+      "w:通宵:tong1xiao1",
+      "w:夜宵:ye4xiao1",
+      "w:元宵节:yuan2xiao1jie2"
+    ],
+    "evidence": {
+      "cedict": [
+        "xiao1: night"
+      ],
+      "handedict": [
+        "xiao1: Nacht (S)"
+      ],
+      "unihan": "402.170:xiāo | xiāo(34)",
+      "etymology": "pictophonetic: roof",
+      "old": "Nacht; Abend"
+    }
+  },
+  {
+    "hanzi": "歇",
+    "level": "HSK6",
+    "traditional": [
+      "歇"
+    ],
+    "readings": [
+      {
+        "pinyin": "xiē",
+        "meaning": "ausruhen, bleiben"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "欠",
+    "components": [
+      {
+        "part": "曷",
+        "role": "phonetic"
+      },
+      {
+        "part": "欠",
+        "role": "semantic",
+        "meaning": "gähnen, fehlen"
+      }
+    ],
+    "words": [
+      "w:歇:xie1",
+      "w:间歇:jian4xie1",
+      "w:茶歇:cha2xie1"
+    ],
+    "evidence": {
+      "cedict": [
+        "xie1: to rest; to take a break; to stop; to halt; (dialect) to sleep"
+      ],
+      "handedict": [
+        "xie1: ausruhen, bleiben (V)"
+      ],
+      "unihan": "404.170:xiē | xiē(84)",
+      "etymology": "pictophonetic: yawn"
+    }
+  },
+  {
+    "hanzi": "谐",
+    "level": "HSK6",
+    "traditional": [
+      "諧"
+    ],
+    "readings": [
+      {
+        "pinyin": "xié",
+        "meaning": "harmonisch; humorvoll"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "言",
+    "radicalForm": "讠",
+    "components": [
+      {
+        "part": "讠",
+        "role": "semantic",
+        "meaning": "Sprache"
+      },
+      {
+        "part": "皆",
+        "role": "phonetic",
+        "meaning": "alle"
+      }
+    ],
+    "words": [
+      "w:和谐:he2xie2"
+    ],
+    "evidence": {
+      "cedict": [
+        "xie2: (bound form) harmonious; (bound form) humorous; (literary) to reach agreement"
+      ],
+      "handedict": [
+        "xie2: harmonisch (Adj); humorvoll (Adj); (lit.) Einigung erzielen (V)"
+      ],
+      "unihan": "405.060:xié",
+      "etymology": "pictophonetic: speech",
+      "old": "harmonisch; humorvoll"
+    }
+  },
+  {
+    "hanzi": "携",
+    "level": "HSK6",
+    "traditional": [
+      "攜"
+    ],
+    "readings": [
+      {
+        "pinyin": "xié",
+        "meaning": "tragen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "role": "semantic",
+        "meaning": "Hand"
+      },
+      {
+        "part": "隽",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:携带:xie2dai4",
+      "w:携手:xie2shou3",
+      "w:便携式:bian4xie2shi4"
+    ],
+    "evidence": {
+      "cedict": [
+        "xie2: old variant of 攜|携[xie2]; old variant of 攜|携[xie2]; old variant of 攜|携[xie2]; to carry; to take along"
+      ],
+      "handedict": [
+        "xie2: halten, festhalten (V); mitbringen (V); mitnehmen (V); tragen, befördern (V)"
+      ],
+      "unihan": "405.090:xié | xié(18)",
+      "etymology": "pictophonetic: hand",
+      "old": "tragen"
+    }
+  },
+  {
+    "hanzi": "械",
+    "level": "HSK6",
+    "traditional": [
+      "械"
+    ],
+    "readings": [
+      {
+        "pinyin": "xiè",
+        "meaning": "Schlüssel, Tools"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "role": "semantic",
+        "meaning": "Baum, Holz"
+      },
+      {
+        "part": "戒",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:机械:ji1xie4",
+      "w:器械:qi4xie4"
+    ],
+    "evidence": {
+      "cedict": [
+        "xie4: appliance; tool; weapon; shackles; also pr. [jie4]"
+      ],
+      "handedict": [
+        "xie4: Schlüssel, Tools (S, Tech)"
+      ],
+      "unihan": "406.040:xiè | xiè(174)",
+      "etymology": "pictophonetic: wood"
+    }
+  },
+  {
+    "hanzi": "薪",
+    "level": "HSK6",
+    "traditional": [
+      "薪"
+    ],
+    "readings": [
+      {
+        "pinyin": "xīn",
+        "meaning": "Gehalt; Brennholz"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 16,
+    "primaryRadical": "艸",
+    "radicalForm": "艹",
+    "components": [
+      {
+        "part": "艹",
+        "meaning": "Gras"
+      },
+      {
+        "part": "新",
+        "meaning": "neu"
+      }
+    ],
+    "words": [
+      "w:薪水:xin1shui3",
+      "w:年薪:nian2xin1",
+      "w:薪酬:xin1chou2",
+      "w:加薪:jia1xin1",
+      "w:调薪:tiao2xin1"
+    ],
+    "evidence": {
+      "cedict": [
+        "xin1: (literary) firewood; fuel; (bound form) salary"
+      ],
+      "handedict": [
+        "xin1: Brennmaterial, Brennmittel (S); Gehalt, Bezahlung (S)"
+      ],
+      "unihan": "407.130:xīn | xīn(17)",
+      "etymology": "ideographic: Freshly-cut 新 wood 艹; 新 also provides the pronunciation",
+      "old": "Gehalt; Brennholz"
+    }
+  },
+  {
+    "hanzi": "胸",
+    "level": "HSK6",
+    "traditional": [
+      "胸"
+    ],
+    "readings": [
+      {
+        "pinyin": "xiōng",
+        "meaning": "Brust; Brustkorb"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "肉",
+    "radicalForm": "月",
+    "components": [
+      {
+        "part": "月",
+        "meaning": "Mond"
+      },
+      {
+        "part": "匈",
+        "meaning": "Hunne"
+      }
+    ],
+    "words": [
+      "w:胸:xiong1",
+      "w:心胸:xin1xiong1",
+      "w:胸怀:xiong1huai2",
+      "w:胸膛:xiong1tang2",
+      "w:胸有成竹:xiong1you3cheng2zhu2"
+    ],
+    "evidence": {
+      "cedict": [
+        "xiong1: variant of 胸[xiong1]; chest; bosom; heart; mind"
+      ],
+      "handedict": [
+        "xiong1: Brustkasten, Brustkorb, Brust, Busen (S, Anat); Herz, Sinn, Gesinnung (S)"
+      ],
+      "unihan": "410.080:xiōng | xiōng(178)",
+      "etymology": "ideographic: A heart ⺼ in the chest 匈; 匈 also provides the pronunciation",
+      "old": "Brust; Brustkorb"
+    }
+  },
+  {
+    "hanzi": "雄",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "雄"
+    ],
+    "readings": [
+      {
+        "pinyin": "xióng",
+        "meaning": "heldenhaft; männlich"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "隹",
+    "components": [
+      {
+        "part": "厷",
+        "role": "phonetic"
+      },
+      {
+        "part": "隹",
+        "role": "semantic",
+        "meaning": "kurzschwanz Vogel"
+      }
+    ],
+    "words": [
+      "w:英雄:ying1xiong2",
+      "w:雄厚:xiong2hou4",
+      "w:雄伟:xiong2wei3",
+      "w:雄性:xiong2xing4",
+      "w:雄浑:xiong2hun2"
+    ],
+    "evidence": {
+      "cedict": [
+        "xiong2: male; staminate; grand; imposing; powerful"
+      ],
+      "handedict": [
+        "xiong2: heldenhaft (Adj); männlich (Adj); Xiong (Eig, Fam)"
+      ],
+      "unihan": "410.090:xióng | xióng(214)",
+      "etymology": "pictophonetic: bird"
+    }
+  },
+  {
+    "hanzi": "袖",
+    "level": "HSK6",
+    "traditional": [
+      "袖"
+    ],
+    "readings": [
+      {
+        "pinyin": "xiù",
+        "meaning": "Aermel"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "衣",
+    "radicalForm": "衤",
+    "components": [
+      {
+        "part": "衤",
+        "role": "semantic",
+        "meaning": "Kleidung"
+      },
+      {
+        "part": "由",
+        "role": "phonetic",
+        "meaning": "aus"
+      }
+    ],
+    "words": [
+      "w:袖子:xiu4zi5",
+      "w:领袖:ling3xiu4",
+      "w:袖珍:xiu4zhen1",
+      "w:袖手旁观:xiu4shou3pang2guan1"
+    ],
+    "evidence": {
+      "cedict": [
+        "xiu4: sleeve; to tuck inside one's sleeve"
+      ],
+      "handedict": [
+        "xiu4: Ärmel, Hülse (S)"
+      ],
+      "unihan": "411.160:xiù | xiù(138)",
+      "etymology": "pictophonetic: clothes",
+      "old": "Aermel"
+    }
+  },
+  {
+    "hanzi": "叙",
+    "level": "HSK6",
+    "traditional": [
+      "敘"
+    ],
+    "readings": [
+      {
+        "pinyin": "xù",
+        "meaning": "erzaehlen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "又",
+    "components": [
+      {
+        "part": "余",
+        "role": "phonetic"
+      },
+      {
+        "part": "又",
+        "role": "semantic",
+        "meaning": "wieder"
+      }
+    ],
+    "words": [
+      "w:叙述:xu4shu4",
+      "w:铨叙:quan2xu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "xu4: variant of 敘|叙[xu4]; abbr. for Syria 敘利亞|叙利亚[Xu4 li4 ya4]; to narrate; to chat"
+      ],
+      "handedict": [
+        "xu4: erzählen, begleitend kommentieren (V)"
+      ],
+      "unihan": "413.120:xù | xù(18)",
+      "etymology": "pictophonetic: again",
+      "old": "erzaehlen"
+    }
+  },
+  {
+    "hanzi": "蓄",
+    "level": "HSK6",
+    "traditional": [
+      "蓄"
+    ],
+    "readings": [
+      {
+        "pinyin": "xù",
+        "meaning": "ansammeln; aufbewahren"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "艸",
+    "radicalForm": "艹",
+    "components": [
+      {
+        "part": "艹",
+        "role": "semantic",
+        "meaning": "Gras"
+      },
+      {
+        "part": "畜",
+        "role": "phonetic",
+        "meaning": "Vieh"
+      }
+    ],
+    "words": [
+      "w:储蓄:chu3xu4",
+      "w:含蓄:han2xu4",
+      "w:积蓄:ji1xu4",
+      "w:蓄意:xu4yi4",
+      "w:蓄电池:xu4dian4chi2"
+    ],
+    "evidence": {
+      "cedict": [
+        "xu4: to store up; to grow (e.g. a beard); to entertain (ideas)"
+      ],
+      "handedict": [
+        "xu4: anbauen; etw. wachsen lassen (V); speichern, aufbewahren (V)"
+      ],
+      "unihan": "414.040:xù | xù(11)",
+      "etymology": "pictophonetic: plant",
+      "old": "ansammeln; aufbewahren"
+    }
+  },
+  {
+    "hanzi": "旋",
+    "level": "HSK6",
+    "traditional": [
+      "旋"
+    ],
+    "readings": [
+      {
+        "pinyin": "xuán",
+        "meaning": "drehen, umkreisen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "方",
+    "components": [
+      {
+        "part": "𭤨"
+      },
+      {
+        "part": "疋",
+        "meaning": "Stück Stoff"
+      }
+    ],
+    "words": [
+      "w:旋转:xuan2zhuan3",
+      "w:凯旋:kai3xuan2",
+      "w:盘旋:pan2xuan2",
+      "w:旋律:xuan2lv4",
+      "w:旋涡:xuan2wo1"
+    ],
+    "evidence": {
+      "cedict": [
+        "xuan2: to revolve; a loop; a circle"
+      ],
+      "handedict": [
+        "xuan2: drehen, umkreisen (V)"
+      ],
+      "unihan": "415.050:xuán 415.220,415.230:xuàn | xuán(107)",
+      "etymology": "ideographic: An army 方 marching under a flag 疋"
+    }
+  },
+  {
+    "hanzi": "旬",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "旬"
+    ],
+    "readings": [
+      {
+        "pinyin": "xún",
+        "meaning": "Periode von 10 Tagen, Dekade, Monatsdrittel; Jahrzehnt"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "日",
+    "components": [
+      {
+        "part": "勹",
+        "meaning": "einwickeln"
+      },
+      {
+        "part": "日",
+        "meaning": "Sonne, Tag"
+      }
+    ],
+    "words": [
+      "w:上旬:shang4xun2",
+      "w:下旬:xia4xun2",
+      "w:中旬:zhong1xun2",
+      "w:旬:xun2"
+    ],
+    "evidence": {
+      "cedict": [
+        "xun2: (bound form) ten-day period; one of the three ten-day divisions of a month (e.g. 上旬[shang4 xun2]); (bound form) ten years (in age expressions, e.g. 六旬[liu4 xun2] \"sixty years old\")"
+      ],
+      "handedict": [
+        "xun2: Periode von 10 Tagen, Dekade, Monatsdrittel; Jahrzehnt (S); Bsp.: 十天為一旬，一月三旬 十天为一旬，一月三旬 -- 10 Tage sind eine Dekade, 3 Dekaden sind ein Monat."
+      ],
+      "unihan": "417.080:xún | xún(25)",
+      "etymology": "ideographic: A cycle 勹 of ten days 日; a traditional week"
+    }
+  },
+  {
+    "hanzi": "循",
+    "level": "HSK6",
+    "traditional": [
+      "循"
+    ],
+    "readings": [
+      {
+        "pinyin": "xún",
+        "meaning": "aufrechterhalten, festhalten an; beachten, befolgen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "彳",
+    "components": [
+      {
+        "part": "彳",
+        "role": "semantic",
+        "meaning": "Schritt (links)"
+      },
+      {
+        "part": "盾",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:循环:xun2huan2",
+      "w:遵循:zun1xun2",
+      "w:循序渐进:xun2xu4jian4jin4",
+      "w:循环经济:xun2huan2jing1ji4",
+      "w:循循善诱:xun2xun2shan4you4"
+    ],
+    "evidence": {
+      "cedict": [
+        "xun2: (bound form) to follow; to act in accordance with"
+      ],
+      "handedict": [
+        "xun2: aufrechterhalten, festhalten an (V); beachten, befolgen (V)"
+      ],
+      "unihan": "418.010:xún | xún(32)",
+      "etymology": "pictophonetic: step"
+    }
+  },
+  {
+    "hanzi": "讯",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "訊"
+    ],
+    "readings": [
+      {
+        "pinyin": "xùn",
+        "meaning": "ausfragen, nach etw. fragen; verhören, vernehmen; schnell, eilig"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 5,
+    "primaryRadical": "言",
+    "radicalForm": "讠",
+    "components": [
+      {
+        "part": "讠",
+        "role": "semantic",
+        "meaning": "Sprache, Wort"
+      },
+      {
+        "part": "卂",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:通讯:tong1xun4",
+      "w:电讯:dian4xun4",
+      "w:资讯:zi1xun4"
+    ],
+    "evidence": {
+      "cedict": [
+        "xun4: (bound form) to ask; to inquire; (bound form) to interrogate; to question; (bound form) news; information"
+      ],
+      "handedict": [
+        "xun4: ausfragen, nach etw. fragen (V); verhören, vernehmen (V); schnell, eilig (Adj); Meldung, Information (S)"
+      ],
+      "unihan": "418.040:xùn | xùn(132)",
+      "etymology": "pictophonetic: speech"
+    }
+  },
+  {
+    "hanzi": "讶",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "訝"
+    ],
+    "readings": [
+      {
+        "pinyin": "yà",
+        "meaning": "ueberrascht; erstaunt"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "言",
+    "radicalForm": "讠",
+    "components": [
+      {
+        "part": "讠",
+        "role": "semantic",
+        "meaning": "Sprache"
+      },
+      {
+        "part": "牙",
+        "role": "phonetic",
+        "meaning": "Zahn"
+      }
+    ],
+    "words": [
+      "w:惊讶:jing1ya4"
+    ],
+    "evidence": {
+      "cedict": [
+        "ya4: astounded"
+      ],
+      "handedict": [
+        "ya4: verblüfft (Adj)"
+      ],
+      "unihan": "420.150:yà | yà(33)",
+      "etymology": "pictophonetic: speech",
+      "old": "ueberrascht; erstaunt"
+    }
+  },
+  {
+    "hanzi": "淹",
+    "level": "HSK6",
+    "traditional": [
+      "淹"
+    ],
+    "readings": [
+      {
+        "pinyin": "yān",
+        "meaning": "ueberfluten; ertrinken"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "奄",
+        "role": "phonetic",
+        "meaning": "bedecken"
+      }
+    ],
+    "words": [
+      "w:淹:yan1",
+      "w:淹没:yan1mo4"
+    ],
+    "evidence": {
+      "cedict": [
+        "yan1: to flood; to submerge; to drown; to irritate the skin (of liquids); to delay"
+      ],
+      "handedict": [
+        "yan1: ertrinken (V); überfluten, überschwemmen (V)"
+      ],
+      "unihan": "421.110:yān | yān(41)",
+      "etymology": "pictophonetic: water",
+      "old": "ueberfluten; ertrinken"
+    }
+  },
+  {
+    "hanzi": "炎",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "炎"
+    ],
+    "readings": [
+      {
+        "pinyin": "yán",
+        "meaning": "Entzündung"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "火",
+    "components": [
+      {
+        "part": "火",
+        "meaning": "Feuer"
+      }
+    ],
+    "words": [
+      "w:发炎:fa1yan2",
+      "w:肺炎:fei4yan2",
+      "w:炎热:yan2re4",
+      "w:炎症:yan2zheng4",
+      "w:消炎:xiao1yan2"
+    ],
+    "evidence": {
+      "cedict": [
+        "yan2: flame; inflammation; -itis"
+      ],
+      "handedict": [
+        "yan2: Entzündung (S, Med)"
+      ],
+      "unihan": "422.070:yán | yán(50)",
+      "etymology": "ideographic: Two fires 火 burning"
+    }
+  },
+  {
+    "hanzi": "艳",
+    "level": "HSK6",
+    "traditional": [
+      "豔"
+    ],
+    "readings": [
+      {
+        "pinyin": "yàn",
+        "meaning": "zauberhaft, romantisch; farbenprächtig, knallig bunt; umfüllen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "色",
+    "components": [
+      {
+        "part": "丰"
+      },
+      {
+        "part": "色",
+        "meaning": "Farbe, Aussehen"
+      }
+    ],
+    "words": [
+      "w:鲜艳:xian1yan4",
+      "w:艳丽:yan4li4"
+    ],
+    "evidence": {
+      "cedict": [
+        "yan4: variant of 豔|艳[yan4]; variant of 豔|艳[yan4]; old variant of 豔|艳[yan4]; bright; fresh and attractive; glamorous; (bound form) amorous; romantic"
+      ],
+      "handedict": [
+        "yan4: zauberhaft, romantisch (Adj); farbenprächtig, knallig bunt (Adj); umfüllen (V)"
+      ],
+      "unihan": "424.050:yàn | yàn(38)",
+      "etymology": "ideographic: Lush 丰 and sexy 色"
+    }
+  },
+  {
+    "hanzi": "宴",
+    "level": "HSK6",
+    "traditional": [
+      "宴"
+    ],
+    "readings": [
+      {
+        "pinyin": "yàn",
+        "meaning": "Bankett; Festmahl"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "宀",
+    "components": [
+      {
+        "part": "宀",
+        "meaning": "Dach"
+      },
+      {
+        "part": "妟",
+        "meaning": "ruhig"
+      }
+    ],
+    "words": [
+      "w:宴会:yan4hui4",
+      "w:盛宴:sheng4yan4",
+      "w:宴请:yan4qing3",
+      "w:国宴:guo2yan4",
+      "w:天下没有不散的宴席:tian1xia4mei2you3bu4san4de5yan4xi2"
+    ],
+    "evidence": {
+      "cedict": [
+        "yan4: (bound form) to entertain at a banquet; (bound form) banquet; feast; (literary) peaceful; at ease; variant of 宴[yan4]"
+      ],
+      "handedict": [
+        "yan4: ein großes Essen (S); Festgelage (S); Festmahl (S); bewirten (V); ergötzen, feiern (V)"
+      ],
+      "unihan": "424.080:yàn | yàn(34)",
+      "etymology": "ideographic: A woman 女 cooking food 日 for a house 宀 banquet",
+      "old": "Bankett; Festmahl"
+    }
+  },
+  {
+    "hanzi": "央",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "央"
+    ],
+    "readings": [
+      {
+        "pinyin": "yāng",
+        "meaning": "Zentrum; bitten, betteln, etw. erbitten"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 5,
+    "primaryRadical": "大",
+    "components": [
+      {
+        "part": "冂",
+        "meaning": "Umrandung (oben offen)"
+      },
+      {
+        "part": "大",
+        "meaning": "gross"
+      }
+    ],
+    "words": [
+      "w:中央:zhong1yang1",
+      "w:央行:yang1hang2"
+    ],
+    "evidence": {
+      "cedict": [
+        "yang1: center; end; to beg; to plead"
+      ],
+      "handedict": [
+        "yang1: Zentrum (S); bitten, betteln, etw. erbitten (V)"
+      ],
+      "unihan": "424.230:yāng | yāng(393)"
+    }
+  },
+  {
+    "hanzi": "仰",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "仰"
+    ],
+    "readings": [
+      {
+        "pinyin": "yǎng",
+        "meaning": "aufblicken; bewundern"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "人",
+    "radicalForm": "亻",
+    "components": [
+      {
+        "part": "亻",
+        "meaning": "Mensch"
+      },
+      {
+        "part": "卬",
+        "meaning": "aufblicken"
+      }
+    ],
+    "words": [
+      "w:仰:yang3",
+      "w:久仰:jiu3yang3",
+      "w:信仰:xin4yang3",
+      "w:仰望:yang3wang4",
+      "w:瞻仰:zhan1yang3"
+    ],
+    "evidence": {
+      "cedict": [
+        "yang3: surname Yang; to face upward; to look up; to admire; to rely on"
+      ],
+      "handedict": [
+        "yang3: auf jmdn. od. etw. angewiesen sein (V); bewundern, respektieren, zu jmdn. hinauf schauen (V); hinauf sehen, das Gesicht nach oben richten (V); sich auf jmdn. od. etw. verlassen (V); sich auf jmdn. stützen (V)"
+      ],
+      "unihan": "426.050:yǎng | yǎng(70)",
+      "etymology": "ideographic: To exalt 卬 a person 亻",
+      "old": "aufblicken; bewundern"
+    }
+  },
+  {
+    "hanzi": "氧",
+    "level": "HSK6",
+    "traditional": [
+      "氧"
+    ],
+    "readings": [
+      {
+        "pinyin": "yǎng",
+        "meaning": "Sauerstoff (Element 8, O); Oxygenium (lat)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "气",
+    "components": [
+      {
+        "part": "气",
+        "role": "semantic",
+        "meaning": "Dampf, Luft, Qi"
+      },
+      {
+        "part": "羊",
+        "role": "phonetic",
+        "meaning": "Schaf, Ziege"
+      }
+    ],
+    "words": [
+      "w:氧气:yang3qi4",
+      "w:二氧化碳:er4yang3hua4tan4",
+      "w:氧化:yang3hua4",
+      "w:臭氧层:chou4yang3ceng2",
+      "w:有氧运动:you3yang3yun4dong4"
+    ],
+    "evidence": {
+      "cedict": [
+        "yang3: oxygen (chemistry)"
+      ],
+      "handedict": [
+        "yang3: Sauerstoff (Element 8, O) (S, Chem); Oxygenium (lat) (S, Chem)"
+      ],
+      "unihan": "426.070:yǎng | yǎng(129)",
+      "etymology": "pictophonetic: gas"
+    }
+  },
+  {
+    "hanzi": "痒",
+    "level": "HSK6",
+    "traditional": [
+      "癢"
+    ],
+    "readings": [
+      {
+        "pinyin": "yǎng",
+        "meaning": "kitzeln; jucken; prickeln"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "疒",
+    "components": [
+      {
+        "part": "疒",
+        "role": "semantic",
+        "meaning": "Krankheit"
+      },
+      {
+        "part": "羊",
+        "role": "phonetic",
+        "meaning": "Schaf, Ziege"
+      }
+    ],
+    "words": [
+      "w:痒:yang3",
+      "w:隔靴搔痒:ge2xue1sao1yang3"
+    ],
+    "evidence": {
+      "cedict": [
+        "yang3: variant of 癢|痒[yang3]; to itch; to tickle; to itch; to tickle"
+      ],
+      "handedict": [
+        "yang3: kitzeln (V); jucken (V); prickeln (V)"
+      ],
+      "unihan": "426.080:yǎng | yǎng(16)",
+      "etymology": "pictophonetic: sickness"
+    }
+  },
+  {
+    "hanzi": "遥",
+    "level": "HSK6",
+    "traditional": [
+      "遙"
+    ],
+    "readings": [
+      {
+        "pinyin": "yáo",
+        "meaning": "fern; weit weg, weitab"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "辵",
+    "radicalForm": "辶",
+    "components": [
+      {
+        "part": "辶",
+        "role": "semantic",
+        "meaning": "gehen, Weg"
+      },
+      {
+        "part": "䍃",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:遥远:yao2yuan3",
+      "w:遥控:yao2kong4",
+      "w:遥控器:yao2kong4qi4",
+      "w:遥遥领先:yao2yao2ling3xian1",
+      "w:路遥知马力，日久见人心:lu4yao2zhi1ma3li4ri4jiu3jian4ren2xin1"
+    ],
+    "evidence": {
+      "cedict": [
+        "yao2: (bound form) distant; remote; far away"
+      ],
+      "handedict": [
+        "yao2: fern (Adv); weit weg, weitab (Adv)"
+      ],
+      "unihan": "427.230:yáo | yáo(23)",
+      "etymology": "pictophonetic: walk"
+    }
+  },
+  {
+    "hanzi": "野",
+    "level": "HSK6",
+    "traditional": [
+      "野"
+    ],
+    "readings": [
+      {
+        "pinyin": "yě",
+        "meaning": "Feld, Gebiet; Ebene, flaches Land; Freiflächen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "里",
+    "components": [
+      {
+        "part": "里",
+        "role": "semantic",
+        "meaning": "Dorf, Meile"
+      },
+      {
+        "part": "予",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:野:ye3",
+      "w:野生:ye3sheng1",
+      "w:野外:ye3wai4",
+      "w:视野:shi4ye3",
+      "w:田野:tian2ye3"
+    ],
+    "evidence": {
+      "cedict": [
+        "ye3: old variant of 野[ye3]; field; plain; open space; limit"
+      ],
+      "handedict": [
+        "ye3: Feld, Gebiet (S); Ebene, flaches Land (S); Freiflächen (S); Grenze; Begrenzung; Rand (S); ungehobelt; unhöflich; ordinär (Adj)"
+      ],
+      "unihan": "429.130:yě | yě(360)",
+      "etymology": "pictophonetic: village"
+    }
+  },
+  {
+    "hanzi": "液",
+    "level": "HSK6",
+    "traditional": [
+      "液"
+    ],
+    "readings": [
+      {
+        "pinyin": "yè",
+        "meaning": "verfügbar; flüssig; taiwan. Ausspr. [yi4] (X)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "夜",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:血液:xue4ye4",
+      "w:液体:ye4ti3",
+      "w:输液:shu1ye4",
+      "w:唾液:tuo4ye4",
+      "w:液晶:ye4jing1"
+    ],
+    "evidence": {
+      "cedict": [
+        "ye4: (bound form) a liquid; also pr. [yi4]"
+      ],
+      "handedict": [
+        "ye4: verfügbar (Adj); flüssig (Adj); taiwan. Ausspr. [yi4] (X)"
+      ],
+      "unihan": "430.100:yè | yè(186)",
+      "etymology": "pictophonetic: water"
+    }
+  },
+  {
+    "hanzi": "仪",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "儀"
+    ],
+    "readings": [
+      {
+        "pinyin": "yí",
+        "meaning": "Apparat; Bräuche; Erscheinung"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 5,
+    "primaryRadical": "人",
+    "radicalForm": "亻",
+    "components": [
+      {
+        "part": "亻",
+        "meaning": "Mensch"
+      },
+      {
+        "part": "义",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:仪器:yi2qi4",
+      "w:仪式:yi2shi4",
+      "w:礼仪:li3yi2",
+      "w:仪表:yi2biao3",
+      "w:地球仪:di4qiu2yi2"
+    ],
+    "evidence": {
+      "cedict": [
+        "yi2: apparatus; rites; appearance; present; ceremony"
+      ],
+      "handedict": [
+        "yi2: Apparat (S); Bräuche (S); Erscheinung (S); derzeitig, gegenwärtig (Adj); Yi (Eig, Fam)"
+      ],
+      "unihan": "431.150:yí | yí(120)",
+      "etymology": "pictophonetic"
+    }
+  },
+  {
+    "hanzi": "蚁",
+    "level": "HSK6",
+    "traditional": [
+      "蟻"
+    ],
+    "readings": [
+      {
+        "pinyin": "yǐ",
+        "meaning": "Ameise"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "虫",
+    "components": [
+      {
+        "part": "虫",
+        "role": "semantic",
+        "meaning": "Insekt, Wurm"
+      },
+      {
+        "part": "义",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:蚂蚁:ma3yi3"
+    ],
+    "evidence": {
+      "cedict": [
+        "yi3: ant"
+      ],
+      "handedict": [
+        "yi3: Ameise (S, Zool); Yi (Eig, Fam)"
+      ],
+      "unihan": "433.060:yǐ | yǐ(40)",
+      "etymology": "pictophonetic: insect"
+    }
+  },
+  {
+    "hanzi": "异",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "異"
+    ],
+    "readings": [
+      {
+        "pinyin": "yì",
+        "meaning": "Verschiedenheit, Differenz; ungewöhnlich, außergewöhnlich, fremd, fremdartig; ungleich, verschieden, anders"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "廾",
+    "components": [
+      {
+        "part": "巳"
+      },
+      {
+        "part": "廾",
+        "meaning": "zwei Hände"
+      }
+    ],
+    "words": [
+      "w:差异:cha1yi4",
+      "w:异常:yi4chang2",
+      "w:优异:you1yi4",
+      "w:变异:bian4yi4",
+      "w:诧异:cha4yi4"
+    ],
+    "evidence": {
+      "cedict": [
+        "yi4: different; other; hetero-; unusual; strange"
+      ],
+      "handedict": [
+        "yi4: Verschiedenheit, Differenz (S); ungewöhnlich, außergewöhnlich, fremd, fremdartig (Adj); ungleich, verschieden (Adj), anders (Adv); iso- (Vorsilbe, Chem)"
+      ],
+      "unihan": "434.010:yì | yì(146)",
+      "etymology": "ideographic: Simplified form of 異; a person 共 with a scary face田"
+    }
+  },
+  {
+    "hanzi": "抑",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "抑"
+    ],
+    "readings": [
+      {
+        "pinyin": "yì",
+        "meaning": "beschränken, einschränken, zurückhalten; oder, od. (Abk: o.)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "role": "semantic",
+        "meaning": "Hand"
+      },
+      {
+        "part": "卬",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:抑制:yi4zhi4",
+      "w:压抑:ya1yi4",
+      "w:抑郁:yi4yu4",
+      "w:抑郁症:yi4yu4zheng4",
+      "w:抑扬顿挫:yi4yang2dun4cuo4"
+    ],
+    "evidence": {
+      "cedict": [
+        "yi4: to restrain; to restrict; to keep down; or"
+      ],
+      "handedict": [
+        "yi4: beschränken, einschränken, zurückhalten (V); oder, od. (Abk: o.) (Konj)"
+      ],
+      "unihan": "434.020:yì | yì(53)",
+      "etymology": "pictophonetic: hand"
+    }
+  },
+  {
+    "hanzi": "疫",
+    "level": "HSK6",
+    "traditional": [
+      "疫"
+    ],
+    "readings": [
+      {
+        "pinyin": "yì",
+        "meaning": "epidemische Krankheit; Pest; Seuche, Epidemie"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "疒",
+    "components": [
+      {
+        "part": "疒",
+        "role": "semantic",
+        "meaning": "Krankheit"
+      },
+      {
+        "part": "殳",
+        "meaning": "Schlagwaffe"
+      }
+    ],
+    "words": [
+      "w:免疫:mian3yi4",
+      "w:防疫:fang2yi4",
+      "w:瘟疫:wen1yi4",
+      "w:疫苗:yi4miao2",
+      "w:免疫力:mian3yi4li4"
+    ],
+    "evidence": {
+      "cedict": [
+        "yi4: (bound form) epidemic; plague"
+      ],
+      "handedict": [
+        "yi4: epidemische Krankheit (S, Med); Pest (S, Med); Seuche, Epidemie (S, Med); drangsalieren, plagen (V)"
+      ],
+      "unihan": "434.220:yì | yì(11)",
+      "etymology": "pictophonetic: sickness"
+    }
+  },
+  {
+    "hanzi": "姻",
+    "level": "HSK6",
+    "traditional": [
+      "姻"
+    ],
+    "readings": [
+      {
+        "pinyin": "yīn",
+        "meaning": "Verwandtschaft (angeheiratet), Verwandtschaft des Ehegatten, Heirat"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "女",
+    "components": [
+      {
+        "part": "女",
+        "meaning": "Frau"
+      },
+      {
+        "part": "因"
+      }
+    ],
+    "words": [
+      "w:婚姻:hun1yin1"
+    ],
+    "evidence": {
+      "cedict": [
+        "yin1: marriage connections; variant of 姻[yin1]"
+      ],
+      "handedict": [
+        "yin1: Verwandtschaft (angeheiratet), Verwandtschaft des Ehegatten, Heirat (S)"
+      ],
+      "unihan": "436.130:yīn | yīn(21)",
+      "etymology": "ideographic: A woman 女 related by 因 marriage"
+    }
+  },
+  {
+    "hanzi": "隐",
+    "level": "HSK6",
+    "traditional": [
+      "隱"
+    ],
+    "readings": [
+      {
+        "pinyin": "yǐn",
+        "meaning": "verbergen; versteckt"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "阜",
+    "components": [
+      {
+        "part": "阝",
+        "meaning": "Huegel"
+      },
+      {
+        "part": "急",
+        "meaning": "dringend"
+      }
+    ],
+    "words": [
+      "w:隐藏:yin3cang2",
+      "w:隐私:yin3si1",
+      "w:隐蔽:yin3bi4",
+      "w:隐含:yin3han2",
+      "w:隐患:yin3huan4"
+    ],
+    "evidence": {
+      "cedict": [
+        "yin3: (bound form) secret; hidden; concealed; crypto-"
+      ],
+      "handedict": [
+        "yin3: heimlich, verborgen, klandestin (Adj); Yin (Eig, Fam)"
+      ],
+      "unihan": "438.050:yǐn | yǐn(109)",
+      "etymology": "ideographic: A place 阝 to hide when worried 急",
+      "old": "verbergen; versteckt"
+    }
+  },
+  {
+    "hanzi": "英",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "英"
+    ],
+    "readings": [
+      {
+        "pinyin": "yīng",
+        "meaning": "mutig; Abk. für England 英国 (X)"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "艸",
+    "radicalForm": "艹",
+    "components": [
+      {
+        "part": "艹",
+        "role": "semantic",
+        "meaning": "Gras, Pflanze"
+      },
+      {
+        "part": "央",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:英雄:ying1xiong2",
+      "w:精英:jing1ying1",
+      "w:英俊:ying1jun4",
+      "w:英明:ying1ming2",
+      "w:英勇:ying1yong3"
+    ],
+    "evidence": {
+      "cedict": [
+        "ying1: United Kingdom; British; England; English; abbr. for 英國|英国[Ying1 guo2]"
+      ],
+      "handedict": [
+        "ying1: mutig (Adj); Ying (Eig, Fam); Abk. für England 英国 (X)"
+      ],
+      "unihan": "438.160:yīng | yīng(252)",
+      "etymology": "pictophonetic: flower"
+    }
+  },
+  {
+    "hanzi": "婴",
+    "level": "HSK6",
+    "traditional": [
+      "嬰"
+    ],
+    "readings": [
+      {
+        "pinyin": "yīng",
+        "meaning": "Saeugling; Baby"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "女",
+    "components": [
+      {
+        "part": "贝",
+        "meaning": "Muschel"
+      },
+      {
+        "part": "女",
+        "role": "semantic",
+        "meaning": "Frau"
+      }
+    ],
+    "words": [
+      "w:婴儿:ying1er2"
+    ],
+    "evidence": {
+      "cedict": [
+        "ying1: infant; baby"
+      ],
+      "handedict": [
+        "ying1: Kleinkind, Baby (S); Ying (Eig, Fam)"
+      ],
+      "unihan": "439.020:yīng | yīng(35)",
+      "etymology": "pictophonetic: woman",
+      "old": "Saeugling; Baby"
+    }
+  },
+  {
+    "hanzi": "颖",
+    "level": "HSK6",
+    "traditional": [
+      "穎"
+    ],
+    "readings": [
+      {
+        "pinyin": "yǐng",
+        "meaning": "klug; herausragend"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "頁",
+    "radicalForm": "页",
+    "components": [
+      {
+        "part": "匕",
+        "role": "phonetic",
+        "meaning": "Löffel"
+      },
+      {
+        "part": "禾",
+        "role": "semantic",
+        "meaning": "Getreide"
+      },
+      {
+        "part": "页",
+        "meaning": "Kopf, Seite"
+      }
+    ],
+    "words": [
+      "w:新颖:xin1ying3",
+      "w:脱颖而出:tuo1ying3er2chu1"
+    ],
+    "evidence": {
+      "cedict": [
+        "ying3: head of grain; husk; tip; point; clever"
+      ],
+      "handedict": [
+        "ying3: Getreidespitze (S); Spelze; Spelz (S); Spitze; spitzes Ende (S); Punkt; Zacken (S); gescheit (Adj)"
+      ],
+      "unihan": "440.120:yǐng | yǐng(11)",
+      "etymology": "pictophonetic: rice",
+      "old": "klug; herausragend"
+    }
+  },
+  {
+    "hanzi": "涌",
+    "level": "HSK6",
+    "traditional": [
+      "湧"
+    ],
+    "readings": [
+      {
+        "pinyin": "yǒng",
+        "meaning": "emporquellen; stroemen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "甬",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:涌现:yong3xian4",
+      "w:涌:yong3",
+      "w:汹涌:xiong1yong3",
+      "w:波涛汹涌:bo1tao1xiong1yong3"
+    ],
+    "evidence": {
+      "cedict": [
+        "yong3: variant of 湧|涌[yong3]; to well up; to gush forth; to surge"
+      ],
+      "handedict": [
+        "yong3: aufsteigen, hochsteigen, emporsteigen (V); fluten, strömen, vorwärtsdrängen (V); sprudeln, hervorquellen (V)"
+      ],
+      "unihan": "047.070:chōng 442.080:yǒng | yǒng(168)",
+      "etymology": "pictophonetic: water",
+      "old": "emporquellen; stroemen"
+    }
+  },
+  {
+    "hanzi": "忧",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "憂"
+    ],
+    "readings": [
+      {
+        "pinyin": "yōu",
+        "meaning": "Sorge; besorgt"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "心",
+    "radicalForm": "忄",
+    "components": [
+      {
+        "part": "忄",
+        "role": "semantic",
+        "meaning": "Herz"
+      },
+      {
+        "part": "尤",
+        "role": "phonetic",
+        "meaning": "besonders"
+      }
+    ],
+    "words": [
+      "w:担忧:dan1you1",
+      "w:忧愁:you1chou2",
+      "w:忧虑:you1lv4",
+      "w:忧郁:you1yu4",
+      "w:后顾之忧:hou4gu4zhi1you1"
+    ],
+    "evidence": {
+      "cedict": [
+        "you1: to worry; to concern oneself with; worried; anxiety; sorrow"
+      ],
+      "handedict": [
+        "you1: besorgt, abgequält (Adj)"
+      ],
+      "unihan": "442.180:yōu | yōu(23)",
+      "etymology": "pictophonetic: heart",
+      "old": "Sorge; besorgt"
+    }
+  },
+  {
+    "hanzi": "予",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "予"
+    ],
+    "readings": [
+      {
+        "pinyin": "yǔ",
+        "meaning": "bieten, geben, gewähren"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 4,
+    "primaryRadical": "亅",
+    "components": [
+      {
+        "part": "龴"
+      },
+      {
+        "part": "𠄐"
+      }
+    ],
+    "words": [
+      "w:赋予:fu4yu3",
+      "w:给予:ji3yu3",
+      "w:不予:bu4yu3",
+      "w:授予:shou4yu3",
+      "w:予以:yu3yi3"
+    ],
+    "evidence": {
+      "cedict": [
+        "yu3: (literary) to give"
+      ],
+      "handedict": [
+        "yu3: bieten, geben, gewähren (V)"
+      ],
+      "unihan": "445.180:yú 447.130:yǔ | yǔ(40)"
+    }
+  },
+  {
+    "hanzi": "浴",
+    "level": "HSK6",
+    "traditional": [
+      "浴"
+    ],
+    "readings": [
+      {
+        "pinyin": "yù",
+        "meaning": "baden"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "水",
+    "radicalForm": "氵",
+    "components": [
+      {
+        "part": "氵",
+        "role": "semantic",
+        "meaning": "Wasser"
+      },
+      {
+        "part": "谷",
+        "role": "phonetic",
+        "meaning": "Tal"
+      }
+    ],
+    "words": [
+      "w:浴室:yu4shi4",
+      "w:沐浴:mu4yu4",
+      "w:浴缸:yu4gang1",
+      "w:淋浴:lin2yu4",
+      "w:浴帘:yu4lian2"
+    ],
+    "evidence": {
+      "cedict": [
+        "yu4: bath; to bathe"
+      ],
+      "handedict": [
+        "yu4: Bad (S); baden, waschen (V); benetzen, schwimmen (V)"
+      ],
+      "unihan": "448.260:yù",
+      "etymology": "pictophonetic: water",
+      "old": "baden"
+    }
+  },
+  {
+    "hanzi": "欲",
+    "level": "HSK6",
+    "traditional": [
+      "欲",
+      "慾"
+    ],
+    "readings": [
+      {
+        "pinyin": "yù",
+        "meaning": "mögen, wollen, wünschen; Begierde, Lust, Wunsch, Verlangen, Trieb; im Begriff sein etw. zu tun"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "欠",
+    "components": [
+      {
+        "part": "谷",
+        "role": "phonetic",
+        "meaning": "Tal"
+      },
+      {
+        "part": "欠",
+        "role": "semantic",
+        "meaning": "gähnen, fehlen"
+      }
+    ],
+    "words": [
+      "w:食欲:shi2yu4",
+      "w:欲望:yu4wang4",
+      "w:随心所欲:sui2xin1suo3yu4",
+      "w:摇摇欲坠:yao2yao2yu4zhui4",
+      "w:穷奢极欲:qiong2she1ji2yu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "yu4: desire; appetite; passion; lust; greed"
+      ],
+      "handedict": [
+        "yu4: mögen, wollen, wünschen (V); Begierde, Lust, Wunsch, Verlangen, Trieb (S, Psych); im Begriff sein etw. zu tun (V)"
+      ],
+      "unihan": "449.050:yù | yù(43)",
+      "etymology": "pictophonetic: lack"
+    }
+  },
+  {
+    "hanzi": "裕",
+    "level": "HSK6",
+    "traditional": [
+      "裕"
+    ],
+    "readings": [
+      {
+        "pinyin": "yù",
+        "meaning": "wohlhabend"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "衣",
+    "radicalForm": "衤",
+    "components": [
+      {
+        "part": "衤",
+        "role": "semantic",
+        "meaning": "Kleidung"
+      },
+      {
+        "part": "谷",
+        "role": "phonetic",
+        "meaning": "Tal"
+      }
+    ],
+    "words": [
+      "w:富裕:fu4yu4",
+      "w:充裕:chong1yu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "yu4: abundant"
+      ],
+      "handedict": [
+        "yu4: jmdn. reich machen (V, Lit); reichlich, opulent (Adj), im Überfluss vorhanden (Adj)"
+      ],
+      "unihan": "449.170:yù | yù(17)",
+      "etymology": "pictophonetic: clothes",
+      "old": "wohlhabend"
+    }
+  },
+  {
+    "hanzi": "誉",
+    "level": "HSK6",
+    "traditional": [
+      "譽"
+    ],
+    "readings": [
+      {
+        "pinyin": "yù",
+        "meaning": "Ruf; Ansehen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "言",
+    "components": [
+      {
+        "part": "兴",
+        "meaning": "Freude"
+      },
+      {
+        "part": "言",
+        "meaning": "Wort"
+      }
+    ],
+    "words": [
+      "w:荣誉:rong2yu4",
+      "w:美誉:mei3yu4",
+      "w:名誉:ming2yu4",
+      "w:声誉:sheng1yu4",
+      "w:信誉:xin4yu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "yu4: to praise; to acclaim; reputation"
+      ],
+      "handedict": [
+        "yu4: Ansehen, Leumund (S); Yu (Eig, Fam)"
+      ],
+      "unihan": "449.230:yù | yù(36)",
+      "etymology": "ideographic: Word 言 of one's success 兴",
+      "old": "Ruf; Ansehen"
+    }
+  },
+  {
+    "hanzi": "援",
+    "level": "HSK6",
+    "traditional": [
+      "援"
+    ],
+    "readings": [
+      {
+        "pinyin": "yuán",
+        "meaning": "anführen, zitieren; etw. halten, ein Stift halten, seine Hände ausstrecken; helfen, assistieren, unterstützen, jmdm. Beistand leisten"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "meaning": "Hand"
+      },
+      {
+        "part": "爰"
+      }
+    ],
+    "words": [
+      "w:救援:jiu4yuan2",
+      "w:外援:wai4yuan2",
+      "w:援助:yuan2zhu4",
+      "w:支援:zhi1yuan2",
+      "w:援军:yuan2jun1"
+    ],
+    "evidence": {
+      "cedict": [
+        "yuan2: to help; to assist; to aid"
+      ],
+      "handedict": [
+        "yuan2: anführen, zitieren (V); etw. halten, ein Stift halten, seine Hände ausstrecken (V); helfen, assistieren, unterstützen, jmdm. Beistand leisten (V); sich mit seinen Händen nach oben ziehen (V)"
+      ],
+      "unihan": "451.100:yuán | yuán(137)",
+      "etymology": "ideographic: To lead 爰 by hand 扌; 爰 also provides the pronunciation"
+    }
+  },
+  {
+    "hanzi": "跃",
+    "level": "HSK6",
+    "traditional": [
+      "躍"
+    ],
+    "readings": [
+      {
+        "pinyin": "yuè",
+        "meaning": "hüpfen; springen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "足",
+    "components": [
+      {
+        "part": "𧾷"
+      },
+      {
+        "part": "夭",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:活跃:huo2yue4",
+      "w:飞跃:fei1yue4",
+      "w:跳跃:tiao4yue4",
+      "w:踊跃:yong3yue4"
+    ],
+    "evidence": {
+      "cedict": [
+        "yue4: to jump; to leap"
+      ],
+      "handedict": [
+        "yue4: hüpfen (V); springen (V)"
+      ],
+      "unihan": "453.120:yuè | yuè(139)",
+      "etymology": "pictophonetic: foot"
+    }
+  },
+  {
+    "hanzi": "晕",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "暈"
+    ],
+    "readings": [
+      {
+        "pinyin": "yūn",
+        "meaning": "Ohnmacht, Schwindel; schwindlig"
+      },
+      {
+        "pinyin": "yùn",
+        "meaning": ""
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "日",
+    "components": [
+      {
+        "part": "日",
+        "role": "semantic",
+        "meaning": "Sonne, Tag"
+      },
+      {
+        "part": "军",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:晕:yun1",
+      "w:晕车:yun4che1",
+      "w:晕头转向:yun1tou2zhuan4xiang4",
+      "w:晕轮效应:yun1lun2xiao4ying4"
+    ],
+    "evidence": {
+      "cedict": [
+        "yun1: confused; dizzy; giddy; to faint; to swoon",
+        "yun4: dizzy; halo; ring around moon or sun"
+      ],
+      "handedict": [
+        "yun1: Ohnmacht, Schwindel (S); schwindlig (Adv); Bsp.: 頭暈 头晕 -- schwindlig sein, schwindlig werden",
+        "yun4: "
+      ],
+      "unihan": "453.210:yūn 455.040:yùn | yūn(19)",
+      "etymology": "pictophonetic: sun"
+    }
+  },
+  {
+    "hanzi": "匀",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "勻"
+    ],
+    "readings": [
+      {
+        "pinyin": "yún",
+        "meaning": "gleichmaessig; verteilen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 4,
+    "primaryRadical": "勹",
+    "components": [
+      {
+        "part": "勹",
+        "meaning": "einhuellen"
+      },
+      {
+        "part": "冫",
+        "meaning": "Eis"
+      }
+    ],
+    "words": [
+      "w:均匀:jun1yun2"
+    ],
+    "evidence": {
+      "cedict": [
+        "yun2: even; well-distributed; uniform; to distribute evenly; to share"
+      ],
+      "handedict": [
+        "yun2: gleichmäßig (Adj)"
+      ],
+      "unihan": "454.080:yún | yún(34)",
+      "etymology": "ideographic: Using a spoon 勹 to measure out two equal parts 冫",
+      "old": "gleichmaessig; verteilen"
+    }
+  },
+  {
+    "hanzi": "孕",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "孕"
+    ],
+    "readings": [
+      {
+        "pinyin": "yùn",
+        "meaning": "schwanger"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 5,
+    "primaryRadical": "子",
+    "components": [
+      {
+        "part": "乃",
+        "meaning": "also"
+      },
+      {
+        "part": "子",
+        "meaning": "Kind"
+      }
+    ],
+    "words": [
+      "w:怀孕:huai2yun4",
+      "w:孕妇:yun4fu4",
+      "w:孕育:yun4yu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "yun4: pregnant"
+      ],
+      "handedict": [
+        "yun4: bedeutungsvoll (Adj); Schwangerschaft (S), schwanger (Adj)"
+      ],
+      "unihan": "454.250:yùn",
+      "etymology": "ideographic: A woman delivering 乃 a child 子",
+      "old": "schwanger"
+    }
+  },
+  {
+    "hanzi": "灾",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "災"
+    ],
+    "readings": [
+      {
+        "pinyin": "zāi",
+        "meaning": "Unglück, Katastrophe"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 7,
+    "primaryRadical": "火",
+    "components": [
+      {
+        "part": "宀",
+        "meaning": "Dach"
+      },
+      {
+        "part": "火",
+        "meaning": "Feuer"
+      }
+    ],
+    "words": [
+      "w:灾:zai1",
+      "w:旱灾:han4zai1",
+      "w:火灾:huo3zai1",
+      "w:救灾:jiu4zai1",
+      "w:受灾:shou4zai1"
+    ],
+    "evidence": {
+      "cedict": [
+        "zai1: disaster; calamity; variant of 災|灾[zai1]; old variant of 災|灾[zai1]"
+      ],
+      "handedict": [
+        "zai1: Unglück, Katastrophe (S)"
+      ],
+      "unihan": "456.090:zāi | zāi(110)",
+      "etymology": "ideographic: A house 宀 on fire 火"
+    }
+  },
+  {
+    "hanzi": "遭",
+    "level": "HSK6",
+    "traditional": [
+      "遭"
+    ],
+    "readings": [
+      {
+        "pinyin": "zāo",
+        "meaning": "drehen, rotieren; erleiden, erleben; jedesmal, jeweils"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 14,
+    "primaryRadical": "辵",
+    "radicalForm": "辶",
+    "components": [
+      {
+        "part": "辶",
+        "role": "semantic",
+        "meaning": "gehen, Weg"
+      },
+      {
+        "part": "曹",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:遭到:zao1dao4",
+      "w:遭受:zao1shou4",
+      "w:遭遇:zao1yu4",
+      "w:遭殃:zao1yang1"
+    ],
+    "evidence": {
+      "cedict": [
+        "zao1: to suffer; to meet with (usu. misfortune); classifier for events: time, turn, incident"
+      ],
+      "handedict": [
+        "zao1: drehen, rotieren (V); erleiden, erleben (V); jedesmal, jeweils (Adv); aussetzen, unterziehen, auf die Probe stellen, erproben (V)"
+      ],
+      "unihan": "458.160:zāo | zāo(192)",
+      "etymology": "pictophonetic: walk"
+    }
+  },
+  {
+    "hanzi": "噪",
+    "level": "HSK6",
+    "traditional": [
+      "噪"
+    ],
+    "readings": [
+      {
+        "pinyin": "zào",
+        "meaning": "Laerm"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 16,
+    "primaryRadical": "口",
+    "components": [
+      {
+        "part": "口",
+        "meaning": "Mund"
+      },
+      {
+        "part": "喿",
+        "meaning": "trocken"
+      }
+    ],
+    "words": [
+      "w:噪声:zao4sheng1",
+      "w:噪音:zao4yin1",
+      "w:聒噪:guo1zao4",
+      "w:噪音污染:zao4yin1wu1ran3"
+    ],
+    "evidence": {
+      "cedict": [
+        "zao4: (literary) (of birds or insects) to chirp; (bound form) to make a cacophonous noise; variant of 噪[zao4]"
+      ],
+      "handedict": [
+        "zao4: zirpen, zwitschern (V); Beunruhigung, Störgröße (S)"
+      ],
+      "unihan": "459.130:zào | zào(15)",
+      "etymology": "ideographic: The sound 口 of birds chirping 喿; 喿 also provides the pronunciation",
+      "old": "Laerm"
+    }
+  },
+  {
+    "hanzi": "燥",
+    "level": "HSK6",
+    "traditional": [
+      "燥"
+    ],
+    "readings": [
+      {
+        "pinyin": "zào",
+        "meaning": "trocken; doerr"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 17,
+    "primaryRadical": "火",
+    "components": [
+      {
+        "part": "火",
+        "role": "semantic",
+        "meaning": "Feuer"
+      },
+      {
+        "part": "喿",
+        "role": "phonetic",
+        "meaning": "laermend"
+      }
+    ],
+    "words": [
+      "w:干燥:gan1zao4",
+      "w:枯燥:ku1zao4"
+    ],
+    "evidence": {
+      "cedict": [
+        "zao4: dry; parched; impatient; vexed; (bound form) (Taiwan pr. [sao4]) minced meat"
+      ],
+      "handedict": [
+        "zao4: trocken, ausgetrocknet, ungeduldig (Adj)"
+      ],
+      "unihan": "459.150:zào | zào(32)",
+      "etymology": "pictophonetic: fire",
+      "old": "trocken; doerr"
+    }
+  },
+  {
+    "hanzi": "扎",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "扎",
+      "紮"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhā",
+        "meaning": "stechen, pieksen; Zählwort für Bier, Getränke"
+      },
+      {
+        "pinyin": "zhá",
+        "meaning": "Bündel; stechen, pieksen"
+      },
+      {
+        "pinyin": "zā",
+        "meaning": "abschnüren; umschließen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 4,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "meaning": "Hand"
+      },
+      {
+        "part": "乚",
+        "meaning": "zweiter Himmelsstamm"
+      }
+    ],
+    "words": [
+      "w:扎:zha1",
+      "w:挣扎:zheng1zha2",
+      "w:包扎:bao1za1",
+      "w:扎根:zha1gen1",
+      "w:扎实:zha1shi5"
+    ],
+    "evidence": {
+      "cedict": [
+        "zha1: to prick; to run or stick (a needle etc) into; mug or jug used for serving beer (loanword from \"jar\"); variant of 紮|扎[zha1]; (of troops) to be stationed (at)",
+        "zha2: used in 掙扎|挣扎[zheng1 zha2]",
+        "za1: variant of 紮|扎[za1]; to tie; to bind; classifier for flowers, banknotes etc: bundle; Taiwan pr. [zha2]"
+      ],
+      "handedict": [
+        "zha1: stechen, pieksen (V); ZEW für Bier, Getränke (Zähl)",
+        "zha2: Bündel (S); stechen, pieksen (V)",
+        "za1: abschnüren (V); umschließen (V)"
+      ],
+      "unihan": "456.010:zā 461.150:zhā 462.060:zhá | zhā(90) zhá(43)",
+      "etymology": "ideographic: A hand 扌 tying a bundle with string 乚"
+    }
+  },
+  {
+    "hanzi": "宅",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "宅"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhái",
+        "meaning": "Wohnsitz; Haus"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "宀",
+    "components": [
+      {
+        "part": "宀",
+        "role": "semantic",
+        "meaning": "Dach"
+      },
+      {
+        "part": "乇",
+        "role": "phonetic",
+        "meaning": "Sproessling"
+      }
+    ],
+    "words": [
+      "w:住宅:zhu4zhai2",
+      "w:住宅区:zhu4zhai2qu1"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhai2: residence; (coll.) to stay in at home; to hang around at home"
+      ],
+      "handedict": [
+        "zhai2: Haus, Wohnung (S, Arch)"
+      ],
+      "unihan": "464.010:zhái | zhái(61)",
+      "etymology": "pictophonetic: roof",
+      "old": "Wohnsitz; Haus"
+    }
+  },
+  {
+    "hanzi": "粘",
+    "level": "HSK6",
+    "traditional": [
+      "粘"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhān",
+        "meaning": "kleben; klebrig"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "米",
+    "components": [
+      {
+        "part": "米",
+        "role": "semantic",
+        "meaning": "Reis"
+      },
+      {
+        "part": "占",
+        "role": "phonetic",
+        "meaning": "besetzen"
+      }
+    ],
+    "words": [
+      "w:粘:zhan1",
+      "w:粘贴:zhan1tie1"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhan1: to glue; to paste; to adhere; to stick to"
+      ],
+      "handedict": [
+        "zhan1: etw. leimen (V); kleistern (V); haften, kleben, festkleben (V); an etw. haften (V)"
+      ],
+      "unihan": "266.030:nián 464.150:zhān | zhān(26)",
+      "etymology": "pictophonetic: grain",
+      "old": "kleben; klebrig"
+    }
+  },
+  {
+    "hanzi": "崭",
+    "level": "HSK6",
+    "traditional": [
+      "嶄"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhǎn",
+        "meaning": "steil; brandneu"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "山",
+    "components": [
+      {
+        "part": "山",
+        "role": "semantic",
+        "meaning": "Berg"
+      },
+      {
+        "part": "斩",
+        "role": "phonetic",
+        "meaning": "abschneiden"
+      }
+    ],
+    "words": [
+      "w:崭新:zhan3xin1",
+      "w:崭露头角:zhan3lu4tou2jiao3"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhan3: variant of 嶄|崭[zhan3]; towering; prominent; very; extremely"
+      ],
+      "handedict": [
+        "zhan3: "
+      ],
+      "unihan": "465.050:zhǎn | zhǎn(34)",
+      "etymology": "pictophonetic: mountain",
+      "old": "steil; brandneu"
+    }
+  },
+  {
+    "hanzi": "仗",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "仗"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhàng",
+        "meaning": "Schlacht; sich stuetzen auf"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 5,
+    "primaryRadical": "人",
+    "radicalForm": "亻",
+    "components": [
+      {
+        "part": "亻",
+        "role": "semantic",
+        "meaning": "Mensch"
+      },
+      {
+        "part": "丈",
+        "role": "phonetic",
+        "meaning": "Klafter"
+      }
+    ],
+    "words": [
+      "w:打仗:da3zhang4",
+      "w:对仗:dui4zhang4"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhang4: weaponry; to hold (a weapon); to wield; to rely on; to depend on"
+      ],
+      "handedict": [
+        "zhang4: kämpfen (V), Kampf (S, Mil); Schlacht (S, Mil); Schlachtschiff (S, Mil)"
+      ],
+      "unihan": "467.010:zhàng | zhàng(128)",
+      "etymology": "pictophonetic: person",
+      "old": "Schlacht; sich stuetzen auf"
+    }
+  },
+  {
+    "hanzi": "障",
+    "level": "HSK6",
+    "traditional": [
+      "障"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhàng",
+        "meaning": "abblocken, blockieren; aufhalten, behindern; versperren"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "阜",
+    "components": [
+      {
+        "part": "阝",
+        "role": "semantic"
+      },
+      {
+        "part": "章",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:保障:bao3zhang4",
+      "w:故障:gu4zhang4",
+      "w:障碍:zhang4ai4",
+      "w:屏障:ping2zhang4",
+      "w:沟通障碍:gou1tong1zhang4ai4"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhang4: to block; to hinder; to obstruct"
+      ],
+      "handedict": [
+        "zhang4: abblocken, blockieren (V); aufhalten, behindern (V); versperren (V)"
+      ],
+      "unihan": "467.070:zhàng | zhàng(98)",
+      "etymology": "pictophonetic: wall"
+    }
+  },
+  {
+    "hanzi": "枕",
+    "level": "HSK6",
+    "traditional": [
+      "枕"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhěn",
+        "meaning": "Kopfkissen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "role": "semantic",
+        "meaning": "Baum"
+      },
+      {
+        "part": "冘",
+        "role": "phonetic",
+        "meaning": "wandern"
+      }
+    ],
+    "words": [
+      "w:枕头:zhen3tou5",
+      "w:枕:zhen3",
+      "w:枕套:zhen3tao4"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhen3: (bound form) pillow; to rest one's head on (Taiwan pr. [zhen4])"
+      ],
+      "handedict": [
+        "zhen3: Kissen (S); Zhen (Eig, Fam)"
+      ],
+      "unihan": "472.020:zhěn | zhěn(34)",
+      "etymology": "pictophonetic: wood",
+      "old": "Kopfkissen"
+    }
+  },
+  {
+    "hanzi": "镇",
+    "level": "HSK6",
+    "traditional": [
+      "鎮"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhèn",
+        "meaning": "Großgemeinde"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "金",
+    "radicalForm": "钅",
+    "components": [
+      {
+        "part": "钅",
+        "role": "semantic",
+        "meaning": "Gold, Metall"
+      },
+      {
+        "part": "真",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:镇:zhen4",
+      "w:城镇:cheng2zhen4",
+      "w:镇定:zhen4ding4",
+      "w:镇静:zhen4jing4",
+      "w:城镇化:cheng2zhen4hua4"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhen4: to press down; to calm; to subdue; to suppress; to guard"
+      ],
+      "handedict": [
+        "zhen4: Großgemeinde (S, Geo)"
+      ],
+      "unihan": "472.200:zhèn | zhèn(216)",
+      "etymology": "pictophonetic: metal"
+    }
+  },
+  {
+    "hanzi": "睁",
+    "level": "HSK6",
+    "traditional": [
+      "睜"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhēng",
+        "meaning": "anfangen, eröffnen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 11,
+    "primaryRadical": "目",
+    "components": [
+      {
+        "part": "目",
+        "role": "semantic",
+        "meaning": "Auge"
+      },
+      {
+        "part": "争",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:睁:zheng1"
+    ],
+    "evidence": {
+      "cedict": [
+        "zheng1: to open (one's eyes)"
+      ],
+      "handedict": [
+        "zheng1: anfangen, eröffnen (V)"
+      ],
+      "unihan": "473.110:zhēng | zhēng(120)",
+      "etymology": "pictophonetic: eye"
+    }
+  },
+  {
+    "hanzi": "症",
+    "level": "HSK6",
+    "traditional": [
+      "症",
+      "癥"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhèng",
+        "meaning": "Symptom; Krankheit"
+      },
+      {
+        "pinyin": "zhēng",
+        "meaning": ""
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "疒",
+    "components": [
+      {
+        "part": "疒",
+        "role": "semantic",
+        "meaning": "Krankheit"
+      },
+      {
+        "part": "正",
+        "role": "phonetic",
+        "meaning": "richtig"
+      }
+    ],
+    "words": [
+      "w:炎症:yan2zheng4",
+      "w:症结:zheng1jie2",
+      "w:症状:zheng4zhuang4",
+      "w:癌症:ai2zheng4",
+      "w:病症:bing4zheng4"
+    ],
+    "evidence": {
+      "cedict": [
+        "zheng4: disease; illness",
+        "zheng1: abdominal tumor; bowel obstruction; (fig.) sticking point"
+      ],
+      "handedict": [
+        "zheng4: Krankheit, Erkrankung, Leiden (S, Med)",
+        "zheng1: "
+      ],
+      "unihan": "473.090:zhēng 474.080:zhèng | zhèng(37)",
+      "etymology": "pictophonetic: sickness",
+      "old": "Symptom; Krankheit"
+    }
+  },
+  {
+    "hanzi": "枝",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "枝"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhī",
+        "meaning": "Zweig; Ast"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "role": "semantic",
+        "meaning": "Baum"
+      },
+      {
+        "part": "支",
+        "role": "phonetic",
+        "meaning": "Zweig"
+      }
+    ],
+    "words": [
+      "w:枝:zhi1"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhi1: branch; classifier for sticks, rods, pencils etc"
+      ],
+      "handedict": [
+        "zhi1: Ast, Zweig (S, Bot); ZEW für längliche, stockartige Gegenstände wie Pinsel, Stift, Stäbchen, Zweige (Zähl)"
+      ],
+      "unihan": "475.080:zhī | zhī(246)",
+      "etymology": "pictophonetic: tree",
+      "old": "Zweig; Ast"
+    }
+  },
+  {
+    "hanzi": "脂",
+    "level": "HSK6",
+    "traditional": [
+      "脂"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhī",
+        "meaning": "Fettmasse; Rouge (Kosmetik); Harz"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "肉",
+    "radicalForm": "月",
+    "components": [
+      {
+        "part": "月",
+        "meaning": "Fleisch"
+      },
+      {
+        "part": "旨",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:脂肪:zhi1fang2",
+      "w:体脂率:ti3zhi1lv4"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhi1: fat; rouge (cosmetics); resin"
+      ],
+      "handedict": [
+        "zhi1: Fettmasse (S); Rouge (Kosmetik) (S); Harz (S)"
+      ],
+      "unihan": "475.160:zhī | zhī(46)",
+      "etymology": "pictophonetic: flesh"
+    }
+  },
+  {
+    "hanzi": "侄",
+    "level": "HSK6",
+    "traditional": [
+      "姪"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhí",
+        "meaning": "Neffe"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "人",
+    "radicalForm": "亻",
+    "components": [
+      {
+        "part": "亻",
+        "role": "semantic",
+        "meaning": "Mensch"
+      },
+      {
+        "part": "至",
+        "role": "phonetic",
+        "meaning": "bis"
+      }
+    ],
+    "words": [
+      "w:侄子:zhi2zi5",
+      "w:侄女:zhi2nv3"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhi2: variant of 姪|侄[zhi2]; variant of 姪|侄[zhi2]; brother's son; nephew"
+      ],
+      "handedict": [
+        "zhi2: Nichte (S); Neffe (S)"
+      ],
+      "unihan": "476.020:zhí",
+      "etymology": "pictophonetic: person",
+      "old": "Neffe"
+    }
+  },
+  {
+    "hanzi": "殖",
+    "level": "HSK6",
+    "traditional": [
+      "殖"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhí",
+        "meaning": "vermehren; kolonisieren"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "歹",
+    "components": [
+      {
+        "part": "歹",
+        "role": "semantic",
+        "meaning": "schlecht"
+      },
+      {
+        "part": "直",
+        "role": "phonetic",
+        "meaning": "gerade"
+      }
+    ],
+    "words": [
+      "w:繁殖:fan2zhi2",
+      "w:养殖:yang3zhi2",
+      "w:殖民:zhi2min2",
+      "w:殖民地:zhi2min2di4"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhi2: to grow; to reproduce"
+      ],
+      "handedict": [
+        "zhi2: wachsen, anbauen (V); Zhi (Eig, Fam)"
+      ],
+      "unihan": "338.210:shi 476.080:zhí | zhí(151)",
+      "etymology": "pictophonetic: corpse",
+      "old": "vermehren; kolonisieren"
+    }
+  },
+  {
+    "hanzi": "秩",
+    "level": "HSK6",
+    "traditional": [
+      "秩"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhì",
+        "meaning": "Ordnung; Rang"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "禾",
+    "components": [
+      {
+        "part": "禾",
+        "role": "semantic",
+        "meaning": "Getreide"
+      },
+      {
+        "part": "失",
+        "role": "phonetic",
+        "meaning": "verlieren"
+      }
+    ],
+    "words": [
+      "w:秩序:zhi4xu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhi4: (literary) salary according to rank; (literary) an official's rank; (literary) order; orderliness; (literary) decade"
+      ],
+      "handedict": [
+        "zhi4: Ordnung (S); Reihenfolge (S)"
+      ],
+      "unihan": "479.030:zhì | zhì(46)",
+      "etymology": "pictophonetic: grain",
+      "old": "Ordnung; Rang"
+    }
+  },
+  {
+    "hanzi": "肿",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "腫"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhǒng",
+        "meaning": "geschwollen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 8,
+    "primaryRadical": "肉",
+    "radicalForm": "月",
+    "components": [
+      {
+        "part": "月",
+        "meaning": "Fleisch"
+      },
+      {
+        "part": "中",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:肿:zhong3",
+      "w:肿瘤:zhong3liu2",
+      "w:臃肿:yong1zhong3"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhong3: to swell; swelling; swollen"
+      ],
+      "handedict": [
+        "zhong3: geschwollen (Adj)"
+      ],
+      "unihan": "480.130:zhǒng | zhǒng(24)",
+      "etymology": "pictophonetic: flesh"
+    }
+  },
+  {
+    "hanzi": "州",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "州"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhōu",
+        "meaning": "Land, Region, Oblast, Woblast; Bundesstaat"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "巛",
+    "radicalForm": "川",
+    "components": [
+      {
+        "part": "丿",
+        "meaning": "schräger Strich (links)"
+      },
+      {
+        "part": "丶",
+        "meaning": "Punkt"
+      },
+      {
+        "part": "川",
+        "meaning": "Fluss"
+      }
+    ],
+    "words": [
+      "w:州:zhou1"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhou1: prefecture; (old) province; (old) administrative division; state (e.g. of US); oblast (Russia)"
+      ],
+      "handedict": [
+        "zhou1: Land, Region, Oblast, Woblast (S, Pol); Bundesstaat (S, Pol); Zhou (Eig, Fam)"
+      ],
+      "unihan": "481.110:zhōu | zhōu(30)",
+      "etymology": "ideographic: Islands within a river 川"
+    }
+  },
+  {
+    "hanzi": "粥",
+    "level": "HSK6",
+    "traditional": [
+      "粥"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhōu",
+        "meaning": "Reisbrei; Congee"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "米",
+    "components": [
+      {
+        "part": "弓",
+        "meaning": "Bogen"
+      },
+      {
+        "part": "米",
+        "meaning": "Reis"
+      }
+    ],
+    "words": [
+      "w:粥:zhou1"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhou1: congee; gruel; porridge; CL:碗[wan3]"
+      ],
+      "handedict": [
+        "zhou1: Reisbrei, Reis-Congee (S, Ess)"
+      ],
+      "unihan": "482.070:zhōu | zhōu(48)",
+      "etymology": "ideographic: Steaming 弓 rice 米",
+      "old": "Reisbrei; Congee"
+    }
+  },
+  {
+    "hanzi": "骤",
+    "level": "HSK6",
+    "traditional": [
+      "驟"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhòu",
+        "meaning": "plötzlich, unvermittelt"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 17,
+    "primaryRadical": "馬",
+    "radicalForm": "马",
+    "components": [
+      {
+        "part": "马",
+        "role": "semantic",
+        "meaning": "Pferd"
+      },
+      {
+        "part": "聚",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:步骤:bu4zhou4",
+      "w:骤然:zhou4ran2",
+      "w:暴风骤雨:bao4feng1zhou4yu3"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhou4: sudden; unexpected; abrupt; suddenly; Taiwan pr. [zou4]"
+      ],
+      "handedict": [
+        "zhou4: plötzlich, unvermittelt (Adj)"
+      ],
+      "unihan": "483.070:zhòu | zhòu(20)",
+      "etymology": "pictophonetic: horse"
+    }
+  },
+  {
+    "hanzi": "珠",
+    "level": "HSK6",
+    "traditional": [
+      "珠"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhū",
+        "meaning": "Perle"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "玉",
+    "radicalForm": "王",
+    "components": [
+      {
+        "part": "王",
+        "role": "semantic",
+        "meaning": "Jade"
+      },
+      {
+        "part": "朱",
+        "role": "phonetic",
+        "meaning": "zinnoberrot"
+      }
+    ],
+    "words": [
+      "w:珍珠:zhen1zhu1",
+      "w:珠宝:zhu1bao3",
+      "w:鱼目混珠:yu2mu4hun4zhu1"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhu1: bead; pearl; CL:粒[li4],顆|颗[ke1]"
+      ],
+      "handedict": [
+        "zhu1: Perle, Kugel (S); ZEW 顆|颗[ke1] (X); Perlfluss (Ästuar in Südchina, Provinz Guangdong) (Geo); Zhu (Eig, Fam)"
+      ],
+      "unihan": "483.160:zhū | zhū(140)",
+      "etymology": "pictophonetic: jade",
+      "old": "Perle"
+    }
+  },
+  {
+    "hanzi": "株",
+    "level": "HSK6",
+    "traditional": [
+      "株"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhū",
+        "meaning": "Baumstamm; Pflanze"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "role": "semantic",
+        "meaning": "Baum"
+      },
+      {
+        "part": "朱",
+        "role": "phonetic",
+        "meaning": "zinnoberrot"
+      }
+    ],
+    "words": [
+      "w:株:zhu1",
+      "w:守株待兔:shou3zhu1dai4tu4"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhu1: tree trunk; stump (tree root); a plant; classifier for trees or plants; strain (biology)"
+      ],
+      "handedict": [
+        "zhu1: Pflanze (S, Bot); Bsp.: 幼株 幼株 -- junge Pflanze; Stamm, Baumstamm (S, Bot); Bsp.: 守株待兔 守株待兔 -- am Baumloch auf das Kanichen warten; Wurzeln, Wurzelwerk (über der Erde) (S, Bot); Bsp.: 守株待兔 守株待兔 -- das Wurzelwerk für die Kaninchen bewahren; ZEW für Bäume, Pflanzen (Zähl)"
+      ],
+      "unihan": "483.170:zhū | zhū(68)",
+      "etymology": "pictophonetic: tree",
+      "old": "Baumstamm; Pflanze"
+    }
+  },
+  {
+    "hanzi": "诸",
+    "level": "HSK6",
+    "traditional": [
+      "諸"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhū",
+        "meaning": "alle"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "言",
+    "radicalForm": "讠",
+    "components": [
+      {
+        "part": "讠",
+        "role": "semantic",
+        "meaning": "Sprache"
+      },
+      {
+        "part": "者",
+        "role": "phonetic",
+        "meaning": "derjenige"
+      }
+    ],
+    "words": [
+      "w:诸多:zhu1duo1",
+      "w:诉诸:su4zhu1",
+      "w:诸位:zhu1wei4",
+      "w:诸如此类:zhu1ru2ci3lei4",
+      "w:诸:zhu1"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhu1: surname Zhu; all; various"
+      ],
+      "handedict": [
+        "zhu1: viele, alle (Pron), verschiedene (Adj); Zhu (Eig, Fam)"
+      ],
+      "unihan": "483.180:zhū | zhū(24)",
+      "etymology": "pictophonetic: speech",
+      "old": "alle"
+    }
+  },
+  {
+    "hanzi": "砖",
+    "level": "HSK6",
+    "traditional": [
+      "磚"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhuān",
+        "meaning": "Ziegel; Backstein"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "石",
+    "components": [
+      {
+        "part": "石",
+        "role": "semantic",
+        "meaning": "Stein"
+      },
+      {
+        "part": "专",
+        "role": "phonetic",
+        "meaning": "speziell"
+      }
+    ],
+    "words": [
+      "w:砖:zhuan1",
+      "w:地砖:di4zhuan1",
+      "w:瓷砖:ci2zhuan1",
+      "w:抛砖引玉:pao1zhuan1yin3yu4",
+      "w:添砖加瓦:tian1zhuan1jia1wa3"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhuan1: variant of 甎|砖[zhuan1]; variant of 磚|砖[zhuan1]; brick; tile (floor or wall, not roof); CL:塊|块[kuai4]"
+      ],
+      "handedict": [
+        "zhuan1: Ziegel, Ziegelstein, Klinker (S, Arch); Stein, Backstein (S, Arch); ZEW:塊|块[kuai4] (X); Zhuan (Eig, Fam)"
+      ],
+      "unihan": "486.130:zhuān | zhuān(44)",
+      "etymology": "pictophonetic: stone",
+      "old": "Ziegel; Backstein"
+    }
+  },
+  {
+    "hanzi": "妆",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "妝"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhuāng",
+        "meaning": "Schminke; sich schminken"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "女",
+    "components": [
+      {
+        "part": "丬",
+        "role": "phonetic",
+        "meaning": "Bett"
+      },
+      {
+        "part": "女",
+        "role": "semantic",
+        "meaning": "Frau"
+      }
+    ],
+    "words": [
+      "w:化妆:hua4zhuang1",
+      "w:嫁妆:jia4zhuang5"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhuang1: (of a woman) to adorn oneself; makeup; adornment; trousseau; stage makeup and costume"
+      ],
+      "handedict": [
+        "zhuang1: Make-up (S); Ornament (S); Zier (S); garnieren, schmücken (V)"
+      ],
+      "unihan": "487.110:zhuāng",
+      "etymology": "pictophonetic: woman",
+      "old": "Schminke; sich schminken"
+    }
+  },
+  {
+    "hanzi": "庄",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "莊"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhuāng",
+        "meaning": "Dorf; feierlich"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "广",
+    "components": [
+      {
+        "part": "广",
+        "role": "semantic",
+        "meaning": "breit"
+      },
+      {
+        "part": "土",
+        "meaning": "Erde"
+      }
+    ],
+    "words": [
+      "w:村庄:cun1zhuang1",
+      "w:庄稼:zhuang1jia5",
+      "w:庄严:zhuang1yan2",
+      "w:庄园:zhuang1yuan2",
+      "w:庄重:zhuang1zhong4"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhuang1: variant of 莊|庄[zhuang1]; surname Zhuang; farmstead; village; manor"
+      ],
+      "handedict": [
+        "zhuang1: Bauernhof, Farm (S, Agrar); Bankhalter, Bankier, Bank (Glücksspiel) (S); Dorf (S); Geschäftshaus, Laden (hist.) (S, Arch); Gut, Gutshof, Bauernhof, Gehöft, Hof, Farm (S, Agrar)"
+      ],
+      "unihan": "487.120:zhuāng | zhuāng(337)",
+      "etymology": "pictophonetic: house",
+      "old": "Dorf; feierlich"
+    }
+  },
+  {
+    "hanzi": "壮",
+    "level": "HSK6",
+    "writingLevel": "6",
+    "traditional": [
+      "壯"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhuàng",
+        "meaning": "stark; kraeftig"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 6,
+    "primaryRadical": "士",
+    "components": [
+      {
+        "part": "丬",
+        "role": "phonetic",
+        "meaning": "Bett"
+      },
+      {
+        "part": "士",
+        "role": "semantic",
+        "meaning": "Soldat"
+      }
+    ],
+    "words": [
+      "w:强壮:qiang2zhuang4",
+      "w:壮:zhuang4",
+      "w:健壮:jian4zhuang4",
+      "w:壮大:zhuang4da4",
+      "w:壮观:zhuang4guan1"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhuang4: Zhuang ethnic group, the largest ethnic minority in China; to strengthen; strong; robust"
+      ],
+      "handedict": [
+        "zhuang4: stark, kräftig, robust (Adj)"
+      ],
+      "unihan": "488.020:zhuàng | zhuàng(174)",
+      "etymology": "pictophonetic: soldier",
+      "old": "stark; kraeftig"
+    }
+  },
+  {
+    "hanzi": "椎",
+    "level": "HSK6",
+    "traditional": [
+      "椎"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhuī",
+        "meaning": "Wirbel; Hammer"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "role": "semantic",
+        "meaning": "Holz"
+      },
+      {
+        "part": "隹",
+        "role": "phonetic",
+        "meaning": "Vogel"
+      }
+    ],
+    "words": [
+      "w:颈椎:jing3zhui1",
+      "w:脊椎:ji3zhui1"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhui1: (bound form) vertebra"
+      ],
+      "handedict": [
+        "zhui1: "
+      ],
+      "unihan": "488.100:zhuī",
+      "etymology": "pictophonetic: wood",
+      "old": "Wirbel; Hammer"
+    }
+  },
+  {
+    "hanzi": "捉",
+    "level": "HSK6",
+    "traditional": [
+      "捉"
+    ],
+    "readings": [
+      {
+        "pinyin": "zhuō",
+        "meaning": "fangen, ergreifen, festnehmen; greifen, festhalten"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "手",
+    "radicalForm": "扌",
+    "components": [
+      {
+        "part": "扌",
+        "role": "semantic",
+        "meaning": "Hand"
+      },
+      {
+        "part": "足",
+        "role": "phonetic",
+        "meaning": "Fuss"
+      }
+    ],
+    "words": [
+      "w:捉:zhuo1",
+      "w:捕捉:bu3zhuo1",
+      "w:捉迷藏:zhuo1mi2cang2",
+      "w:捉襟见肘:zhuo1jin1jian4zhou3"
+    ],
+    "evidence": {
+      "cedict": [
+        "zhuo1: to clutch; to grab; to capture"
+      ],
+      "handedict": [
+        "zhuo1: fangen, ergreifen, festnehmen (V); greifen, festhalten (V)"
+      ],
+      "unihan": "489.090:zhuō | zhuō(104)",
+      "etymology": "pictophonetic: hand"
+    }
+  },
+  {
+    "hanzi": "棕",
+    "level": "HSK6",
+    "traditional": [
+      "棕"
+    ],
+    "readings": [
+      {
+        "pinyin": "zōng",
+        "meaning": "braun; Palme"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 12,
+    "primaryRadical": "木",
+    "components": [
+      {
+        "part": "木",
+        "role": "semantic",
+        "meaning": "Baum"
+      },
+      {
+        "part": "宗",
+        "role": "phonetic",
+        "meaning": "Ahne"
+      }
+    ],
+    "words": [
+      "w:棕色:zong1se4"
+    ],
+    "evidence": {
+      "cedict": [
+        "zong1: palm; palm fiber; coir (coconut fiber); brown; variant of 棕[zong1]"
+      ],
+      "handedict": [
+        "zong1: braun (Adj); Handteller, Handfläche (S, Bio)"
+      ],
+      "unihan": "493.030:zōng",
+      "etymology": "pictophonetic: tree",
+      "old": "braun; Palme"
+    }
+  },
+  {
+    "hanzi": "踪",
+    "level": "HSK6",
+    "traditional": [
+      "蹤"
+    ],
+    "readings": [
+      {
+        "pinyin": "zōng",
+        "meaning": "Spur; Faehrte"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 15,
+    "primaryRadical": "足",
+    "components": [
+      {
+        "part": "𧾷"
+      },
+      {
+        "part": "宗",
+        "role": "phonetic",
+        "meaning": "Ahne"
+      }
+    ],
+    "words": [
+      "w:跟踪:gen1zong1",
+      "w:失踪:shi1zong1",
+      "w:追踪:zhui1zong1",
+      "w:踪迹:zong1ji4"
+    ],
+    "evidence": {
+      "cedict": [
+        "zong1: variant of 蹤|踪[zong1]; (bound form) footprint; trace; tracks"
+      ],
+      "handedict": [
+        "zong1: Fußabdruck, Fährte, Spur (S)"
+      ],
+      "unihan": "493.050:zōng | zōng(12)",
+      "etymology": "pictophonetic: foot",
+      "old": "Spur; Faehrte"
+    }
+  },
+  {
+    "hanzi": "粽",
+    "level": "HSK6",
+    "traditional": [
+      "粽"
+    ],
+    "readings": [
+      {
+        "pinyin": "zòng",
+        "meaning": "Variante von 粽[zong4] (X); Reisdumplings in Blättern"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 14,
+    "primaryRadical": "米",
+    "components": [
+      {
+        "part": "米",
+        "role": "semantic",
+        "meaning": "Reis"
+      },
+      {
+        "part": "宗",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:粽子:zong4zi5"
+    ],
+    "evidence": {
+      "cedict": [
+        "zong4: rice dumplings wrapped in leaves; variant of 粽[zong4]"
+      ],
+      "handedict": [
+        "zong4: Variante von 粽[zong4] (X); Reisdumplings in Blättern (S, Ess)"
+      ],
+      "unihan": "493.120:zòng",
+      "etymology": "pictophonetic: rice"
+    }
+  },
+  {
+    "hanzi": "奏",
+    "level": "HSK6",
+    "traditional": [
+      "奏"
+    ],
+    "readings": [
+      {
+        "pinyin": "zòu",
+        "meaning": "spielen (Musik); vortragen"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "大",
+    "components": [
+      {
+        "part": "𡗗"
+      },
+      {
+        "part": "天",
+        "meaning": "Himmel"
+      }
+    ],
+    "words": [
+      "w:节奏:jie2zou4",
+      "w:演奏:yan3zou4",
+      "w:伴奏:ban4zou4",
+      "w:奏效:zou4xiao4",
+      "w:独奏:du2zou4"
+    ],
+    "evidence": {
+      "cedict": [
+        "zou4: to play music; to achieve; to present a memorial to the emperor (old)"
+      ],
+      "handedict": [
+        "zou4: spielen (V); Bsp.: 奏樂 奏乐 -- Musik spielen; hervorrufen, produzieren (V); Bsp.: 奏效 奏效 -- Wirkung haben auf etw., Effekt haben auf etw."
+      ],
+      "unihan": "494.050:zòu | zòu(26)",
+      "etymology": "ideographic: A report about (above) the emperor 天",
+      "old": "spielen (Musik); vortragen"
+    }
+  },
+  {
+    "hanzi": "祖",
+    "level": "HSK6",
+    "traditional": [
+      "祖"
+    ],
+    "readings": [
+      {
+        "pinyin": "zǔ",
+        "meaning": "Ahne, Vorfahr"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 9,
+    "primaryRadical": "示",
+    "radicalForm": "礻",
+    "components": [
+      {
+        "part": "礻",
+        "role": "semantic",
+        "meaning": "zeigen, Geist"
+      },
+      {
+        "part": "且",
+        "role": "phonetic"
+      }
+    ],
+    "words": [
+      "w:祖国:zu3guo2",
+      "w:祖先:zu3xian1",
+      "w:祖传:zu3chuan2",
+      "w:祖父:zu3fu4",
+      "w:祖籍:zu3ji2"
+    ],
+    "evidence": {
+      "cedict": [
+        "zu3: surname Zu; ancestor; forefather; grandparents"
+      ],
+      "handedict": [
+        "zu3: Ahne, Vorfahr (S)"
+      ],
+      "unihan": "495.050:zǔ | zǔ(366)",
+      "etymology": "pictophonetic: spirit"
+    }
+  },
+  {
+    "hanzi": "钻",
+    "level": "HSK6",
+    "traditional": [
+      "鑽"
+    ],
+    "readings": [
+      {
+        "pinyin": "zuān",
+        "meaning": "bohren; Diamant"
+      },
+      {
+        "pinyin": "zuàn",
+        "meaning": ""
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 10,
+    "primaryRadical": "金",
+    "radicalForm": "钅",
+    "components": [
+      {
+        "part": "钅",
+        "role": "semantic",
+        "meaning": "Metall"
+      },
+      {
+        "part": "占",
+        "role": "phonetic",
+        "meaning": "besetzen"
+      }
+    ],
+    "words": [
+      "w:钻:zuan1",
+      "w:钻石:zuan4shi2",
+      "w:钻研:zuan1yan2",
+      "w:钻空子:zuan1kong4zi5",
+      "w:电钻:dian4zuan4"
+    ],
+    "evidence": {
+      "cedict": [
+        "zuan1: to drill; to bore; to get into; to make one's way into; to enter (a hole)",
+        "zuan4: variant of 鑽|钻[zuan4]; drill; auger; diamond"
+      ],
+      "handedict": [
+        "zuan1: bohren (V); Bohrer (S); Diamant, Brillant, Stein (in der Uhr) (S)",
+        "zuan4: "
+      ],
+      "unihan": "495.060:zuān 495.100:zuàn | zuān(205)",
+      "etymology": "pictophonetic: metal",
+      "old": "bohren; Diamant"
+    }
+  },
+  {
+    "hanzi": "罪",
+    "level": "HSK6",
+    "traditional": [
+      "罪"
+    ],
+    "readings": [
+      {
+        "pinyin": "zuì",
+        "meaning": "beschuldigen, Schuld geben; Sünde; Sünder"
+      }
+    ],
+    "meaningStatus": "draft",
+    "strokes": 13,
+    "primaryRadical": "网",
+    "radicalForm": "罒",
+    "components": [
+      {
+        "part": "罒",
+        "meaning": "Netz"
+      },
+      {
+        "part": "非",
+        "meaning": "nicht, falsch"
+      }
+    ],
+    "words": [
+      "w:罪:zui4",
+      "w:得罪:de2zui4",
+      "w:犯罪:fan4zui4",
+      "w:受罪:shou4zui4",
+      "w:罪犯:zui4fan4"
+    ],
+    "evidence": {
+      "cedict": [
+        "zui4: guilt; crime; fault; blame; sin"
+      ],
+      "handedict": [
+        "zui4: beschuldigen, Schuld geben (V); Sünde (S, Rel); Sünder (S, Rel); Verbrechen (S)"
+      ],
+      "unihan": "495.150:zuì | zuì(168) zui(15)",
+      "etymology": "ideographic: A net 罒 of wrongdoing 非"
+    }
   }
 ]);

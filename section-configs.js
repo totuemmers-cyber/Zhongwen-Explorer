@@ -30,28 +30,51 @@ function getRadicalSet() {
   return _radicalSet;
 }
 
+// Characters per Kangxi radical (primary radical), in level order.
 function getHanziByRadical() {
   if (!_hanziByRadical) {
     _hanziByRadical = {};
     var items = window.app && window.app.sections.hanzi ? window.app.sections.hanzi.allItems : [];
     for (var i = 0; i < items.length; i++) {
-      var k = items[i];
-      if (k.components) {
-        for (var j = 0; j < k.components.length; j++) {
-          var rad = k.components[j].radical;
-          if (!_hanziByRadical[rad]) _hanziByRadical[rad] = [];
-          _hanziByRadical[rad].push(k);
-        }
-      }
+      var rad = items[i].primaryRadical;
+      if (!rad) continue;
+      if (!_hanziByRadical[rad]) _hanziByRadical[rad] = [];
+      _hanziByRadical[rad].push(items[i]);
     }
   }
   return _hanziByRadical;
+}
+
+// Kangxi radical by its own form and its variants (水, 氵 → 水).
+var _radicalByForm = null;
+function getRadicalByForm() {
+  if (!_radicalByForm) {
+    _radicalByForm = {};
+    var items = window.app && window.app.sections.radicals ? window.app.sections.radicals.allItems : [];
+    for (var i = 0; i < items.length; i++) {
+      _radicalByForm[items[i].radical] = items[i];
+      (items[i].variants || []).forEach(function (v) { if (!_radicalByForm[v]) _radicalByForm[v] = items[i]; });
+    }
+  }
+  return _radicalByForm;
+}
+
+var _vocabById = null;
+function getVocabById() {
+  var vocab = window.app && window.app.sections.vocab;
+  if (!_vocabById && vocab && vocab.isLoaded) {
+    _vocabById = {};
+    for (var i = 0; i < vocab.allItems.length; i++) _vocabById[vocab.allItems[i].id] = vocab.allItems[i];
+  }
+  return _vocabById || {};
 }
 
 window.resetSectionLookups = function () {
   _hanziByChar = null;
   _radicalSet = null;
   _hanziByRadical = null;
+  _radicalByForm = null;
+  _vocabById = null;
 };
 
 // === Bookmark Utilities ===
@@ -299,148 +322,249 @@ SECTION_CONFIGS['hanzi'] = {
     { stateKey: 'bookmarks', selector: '.filter-btn.hanzi-bm', dataAttr: 'data-bm', defaultValue: 'all' }
   ],
   filterFn: function (item, query, filters) {
-    // Bookmark filter
     if (filters.bookmarks === 'starred' && !isBookmarked('hanzi', item.hanzi)) return false;
-    // Radical filter
-    if (window.app && window.app.activeRadical) {
-      var hasRad = false;
-      if (item.components) {
-        for (var i = 0; i < item.components.length; i++) {
-          if (item.components[i].radical === window.app.activeRadical) { hasRad = true; break; }
-        }
-      }
-      if (!hasRad) return false;
-    }
-    // Level filter
-    if (filters.level !== 'all' && item.hsk !== filters.level) return false;
-    // Search
+    // Radical filter: the primary radical, or any component once the details are loaded.
+    var radical = window.app && window.app.activeRadical;
+    if (radical && item.primaryRadical !== radical && item.radicalForm !== radical &&
+        !(item.components || []).some(function (c) { return c.part === radical; })) return false;
+    if (filters.level !== 'all' && item.level !== filters.level) return false;
+    if (filters.writing === 'writing' && !item.writingLevel) return false;
     if (!query) return true;
     if (item.hanzi.indexOf(query) !== -1) return true;
-    if (Pinyin.matchesPinyin(item.pinyin, query)) return true;
-    for (var m = 0; m < item.meanings.length; m++) {
-      if (Pinyin.matchesText(item.meanings[m], query)) return true;
-    }
-    if (item.examples) {
-      for (var e = 0; e < item.examples.length; e++) {
-        var ex = item.examples[e];
-        if (ex.word && ex.word.indexOf(query) !== -1) return true;
-        if (Pinyin.matchesPinyin(ex.pinyin, query)) return true;
-        if (Pinyin.matchesText(ex.meaning, query)) return true;
-      }
-    }
-    return false;
+    if ((item.traditional || []).some(function (t) { return t.indexOf(query) !== -1; })) return true;
+    return (item.readings || []).some(function (r) {
+      return Pinyin.matchesPinyin(r.pinyin, query) || Pinyin.matchesText(r.meaning || '', query);
+    });
   },
   sortFn: function (items, sortKey) {
     items.sort(function (a, b) {
       if (sortKey === 'strokes') return (a.strokes || 0) - (b.strokes || 0);
-      if (sortKey === 'alpha') return (a.pinyin || '').localeCompare(b.pinyin || '');
-      // Default: HSK level
-      var la = LEVEL_ORDER[a.hsk] !== undefined ? LEVEL_ORDER[a.hsk] : 99;
-      var lb = LEVEL_ORDER[b.hsk] !== undefined ? LEVEL_ORDER[b.hsk] : 99;
+      if (sortKey === 'alpha') return Pinyin.fold(mainReading(a)).localeCompare(Pinyin.fold(mainReading(b))) || Pinyin.toNumeric(mainReading(a)).localeCompare(Pinyin.toNumeric(mainReading(b)));
+      var la = LEVEL_ORDER[a.level] !== undefined ? LEVEL_ORDER[a.level] : 99;
+      var lb = LEVEL_ORDER[b.level] !== undefined ? LEVEL_ORDER[b.level] : 99;
       return la - lb || (a.strokes || 0) - (b.strokes || 0);
     });
   },
   createCard: function (item, index, section) {
-    var toneNum = item.tone || 0;
+    var readings = (item.readings || []).map(function (r) { return renderToneColoredPinyin(r.pinyin, item.hanzi); }).join(' · ');
     return createBaseCard('kanji-card',
-      '<span class="card-level ' + item.hsk + '">' + (item.hsk || '') + '</span>' +
-      '<span class="card-kanji">' + item.hanzi + '</span>' +
-      '<span class="card-reading">' + (item.pinyin || '') + renderToneBadge(toneNum) + '</span>' +
-      '<span class="card-meaning">' + item.meanings[0] + '</span>',
+      '<span class="card-level ' + item.level + '">' + levelLabel(item.level) + '</span>' +
+      '<span class="card-kanji" lang="zh-CN">' + item.hanzi + '</span>' +
+      '<span class="card-reading">' + readings + '</span>' +
+      '<span class="card-meaning">' + draftMarker(item) + escapeHtml(hanziMeaning(item)) + '</span>',
       index, section, item.hanzi);
   },
-  openDetail: function (item, dom) {
+  openDetail: function (item, dom, section) {
     createDetailBookmark('.detail-kanji-display', 'hanzi', item.hanzi);
-    document.getElementById('detail-kanji').textContent = item.hanzi;
-    document.getElementById('detail-kanji').style.cursor = 'pointer';
-    document.getElementById('detail-kanji').onclick = function () { speakText(item.hanzi); };
+    var charEl = document.getElementById('detail-kanji');
+    charEl.textContent = item.hanzi;
+    charEl.style.cursor = 'pointer';
+    charEl.onclick = function () { speakText(item.hanzi); };
     var badge = document.getElementById('detail-jlpt');
-    badge.textContent = item.hsk;
-    badge.className = 'detail-jlpt-badge ' + item.hsk;
-    document.getElementById('detail-meanings').textContent = item.meanings.join(', ');
+    badge.textContent = levelLabel(item.level);
+    badge.className = 'detail-jlpt-badge ' + item.level;
+    document.getElementById('detail-meanings').textContent = hanziMeaning(item);
     document.getElementById('detail-strokes').textContent = (item.strokes || '?') + ' Striche';
 
-    // Pinyin with speaker button
-    var pinyinEl = document.getElementById('detail-pinyin');
-    pinyinEl.innerHTML = '';
-    var pinyinTag = document.createElement('span');
-    pinyinTag.className = 'reading-tag pinyin-reading';
-    pinyinTag.textContent = item.pinyin || '';
-    pinyinEl.appendChild(pinyinTag);
-    pinyinEl.appendChild(createSpeakBtn(item.hanzi, true));
+    var draft = document.getElementById('detail-hanzi-draft');
+    draft.textContent = item.meaningStatus === 'draft' ? 'Bedeutung als Entwurf – noch nicht geprüft. „Aufbau & Merkhilfe“ folgt.' : '';
+    draft.classList.toggle('hidden', item.meaningStatus !== 'draft');
 
-    // Tone
-    var toneEl = document.getElementById('detail-tone');
-    var toneNum = item.tone || 0;
-    var toneNames = ['', 'Erster Ton (hoch)', 'Zweiter Ton (steigend)', 'Dritter Ton (fallend-steigend)', 'Vierter Ton (fallend)', 'Neutraler Ton'];
-    toneEl.innerHTML = '<span class="reading-tag tone-' + toneNum + '">' + (toneNames[toneNum] || 'Ton ' + toneNum) + '</span>' + renderToneSVG(toneNum);
+    renderHanziFacts(item);
+    renderHanziReadings(item);
+    renderStrokeOrder(item);
 
-    // Stroke order — reset to collapsed, clear previous
-    var soHeader = document.getElementById('stroke-order-header');
-    var soBody = document.getElementById('stroke-order-body');
-    var soContainer = document.getElementById('stroke-order-container');
-    var soIcon = soHeader.querySelector('.toggle-icon');
-    soBody.classList.add('collapsed');
-    soIcon.classList.add('collapsed');
-    soContainer.innerHTML = '';
-
-    var codepoint = item.hanzi.codePointAt(0);
-
-    // Remove old listener by replacing node
-    var newHeader = soHeader.cloneNode(true);
-    soHeader.parentNode.replaceChild(newHeader, soHeader);
-    soIcon = newHeader.querySelector('.toggle-icon');
-
-    newHeader.addEventListener('click', function () {
-      if (window.app) window.app.playTick();
-      soBody.classList.toggle('collapsed');
-      soIcon.classList.toggle('collapsed');
-
-      // Load SVG on first expand via <object> (works with file:// protocol)
-      if (!soBody.classList.contains('collapsed') && !soContainer.querySelector('.stroke-order-svg')) {
-        var obj = document.createElement('object');
-        obj.data = 'stroke-order/' + codepoint + '.svg';
-        obj.type = 'image/svg+xml';
-        obj.className = 'stroke-order-svg';
-
-        var replayBtn = document.createElement('button');
-        replayBtn.className = 'btn btn-pill stroke-order-replay';
-        replayBtn.textContent = 'Nochmal abspielen';
-        replayBtn.addEventListener('click', function () {
-          if (window.app) window.app.playTick();
-          obj.data = 'stroke-order/' + codepoint + '.svg';
-        });
-
-        soContainer.appendChild(obj);
-        soContainer.appendChild(replayBtn);
-      }
-    });
-
-    // Components
-    var compEl = document.getElementById('detail-components');
-    if (item.components && item.components.length > 0) {
-      compEl.innerHTML = item.components.map(function (c) {
-        var isClickable = getRadicalSet()[c.radical];
-        return '<span class="component-tag' + (isClickable ? ' clickable' : '') + '" ' +
-          (isClickable ? 'data-radical="' + c.radical + '"' : '') + '>' +
-          c.radical + ' <small>' + c.meaning + '</small></span>';
-      }).join('');
-      compEl.querySelectorAll('.component-tag.clickable').forEach(function (tag) {
-        tag.addEventListener('click', function () {
-          if (window.app) {
-            window.app.sections.hanzi.closeDetail();
-            window.app.openRadicalInTab(tag.getAttribute('data-radical'));
-          }
-        });
+    // Components, example words and notes arrive with hanzi-runtime-details.js.
+    if (window.app && window.app.ensureHanziDetailsLoaded && !window.app.hanziDetailsLoaded) {
+      document.getElementById('detail-components').textContent = 'Wird geladen...';
+      document.getElementById('detail-examples').textContent = 'Wird geladen...';
+      renderHanziNotes(null);
+      window.app.ensureHanziDetailsLoaded().then(function () {
+        if (!section || !section.isOverlayOpen()) return;
+        var current = section.selectedItem || section.filteredItems[section.currentDetailIndex];
+        if (!current || current.hanzi !== item.hanzi) return;
+        renderHanziDetails(current, section);
+      }).catch(function () {
+        var el = document.getElementById('detail-components');
+        el.textContent = 'Details konnten nicht geladen werden. ';
+        var retry = appendElement(el, 'button', 'btn btn-pill', 'Erneut versuchen');
+        retry.type = 'button';
+        retry.onclick = function () { section.config.openDetail(item, dom, section); };
       });
     } else {
-      compEl.innerHTML = '<p class="no-data">Keine Komponentendaten verfügbar.</p>';
+      renderHanziDetails(item, section);
     }
-
-    // Examples
-    renderExamplesOrEmpty('detail-examples', item.examples);
   }
 };
+
+function mainReading(item) {
+  return item.readings && item.readings.length ? item.readings[0].pinyin : '';
+}
+
+// The meaning shown on cards and links: the main reading's gloss.
+function hanziMeaning(item) {
+  return item && item.readings && item.readings.length ? item.readings[0].meaning || '' : '';
+}
+
+function writingLabel(level) {
+  return 'HSK ' + String(level).replace('-', '–');
+}
+
+function renderHanziFacts(item) {
+  var list = document.getElementById('detail-hanzi-facts');
+  list.textContent = '';
+  function row(label, content) {
+    appendElement(list, 'dt', '', label);
+    var dd = appendElement(list, 'dd', '');
+    if (typeof content === 'string') dd.textContent = content;
+    else dd.appendChild(content);
+  }
+  var traditional = (item.traditional || []).filter(function (t) { return t !== item.hanzi; });
+  if (traditional.length) {
+    var trad = document.createElement('span');
+    trad.lang = 'zh-TW';
+    trad.textContent = item.traditional.join(' / ');
+    row('Traditionell', trad);
+  }
+  var radical = getRadicalByForm()[item.primaryRadical];
+  if (radical) {
+    var span = document.createElement('span');
+    var open = appendElement(span, 'button', 'btn-link', radical.radical + (item.radicalForm ? ' (' + item.radicalForm + ')' : '') + ' – ' + radical.meaning);
+    open.type = 'button';
+    open.lang = 'zh-CN';
+    open.addEventListener('click', function () { if (window.app) window.app.openRadicalInTab(radical.radical); });
+    span.appendChild(document.createTextNode(' · '));
+    var filter = appendElement(span, 'button', 'btn-link', 'alle Zeichen mit diesem Radikal');
+    filter.type = 'button';
+    filter.addEventListener('click', function () {
+      if (!window.app) return;
+      window.app.sections.hanzi.closeDetail();
+      window.app.setRadicalFilter(radical.radical, radical.meaning);
+    });
+    row('Radikal', span);
+  }
+  if (item.writingLevel) row('Schreibzeichen', writingLabel(item.writingLevel) + ' (书写字 – auch von Hand schreiben können)');
+  list.classList.toggle('hidden', !list.children.length);
+}
+
+var TONE_NAMES = ['', 'erster Ton', 'zweiter Ton', 'dritter Ton', 'vierter Ton', 'neutraler Ton'];
+function renderHanziReadings(item) {
+  var el = document.getElementById('detail-readings');
+  el.textContent = '';
+  (item.readings || []).forEach(function (r) {
+    var row = appendElement(el, 'div', 'hanzi-reading');
+    var tone = window.ToneUtils ? window.ToneUtils.detectTone(r.pinyin) : 5;
+    var py = appendElement(row, 'span', 'reading-tag pinyin-reading');
+    py.innerHTML = renderToneColoredPinyin(r.pinyin, item.hanzi);
+    py.title = TONE_NAMES[tone] || '';
+    appendElement(row, 'span', 'hanzi-reading-meaning', r.meaning || '–');
+  });
+  if (item.readings && item.readings.length > 1) {
+    appendElement(el, 'p', 'hanzi-reading-hint', 'Mehrere Lesungen: welche gilt, hängt vom Wort ab – siehe Beispielwörter.');
+  }
+}
+
+function renderStrokeOrder(item) {
+  var soHeader = document.getElementById('stroke-order-header');
+  var soBody = document.getElementById('stroke-order-body');
+  var soContainer = document.getElementById('stroke-order-container');
+  soBody.classList.add('collapsed');
+  soContainer.innerHTML = '';
+  var newHeader = soHeader.cloneNode(true);
+  soHeader.parentNode.replaceChild(newHeader, soHeader);
+  var soIcon = newHeader.querySelector('.toggle-icon');
+  soIcon.classList.add('collapsed');
+  var codepoint = item.hanzi.codePointAt(0);
+  newHeader.addEventListener('click', function () {
+    if (window.app) window.app.playTick();
+    soBody.classList.toggle('collapsed');
+    soIcon.classList.toggle('collapsed');
+    if (soBody.classList.contains('collapsed') || soContainer.children.length) return;
+    if (item.noDiagram) {
+      appendElement(soContainer, 'p', 'no-data', 'Für dieses seltene Zeichen gibt es (noch) kein Strichdiagramm.');
+      return;
+    }
+    // <object> also works under file://.
+    var obj = document.createElement('object');
+    obj.data = 'stroke-order/' + codepoint + '.svg';
+    obj.type = 'image/svg+xml';
+    obj.className = 'stroke-order-svg';
+    var replayBtn = document.createElement('button');
+    replayBtn.className = 'btn btn-pill stroke-order-replay';
+    replayBtn.textContent = 'Nochmal abspielen';
+    replayBtn.addEventListener('click', function () {
+      if (window.app) window.app.playTick();
+      obj.data = 'stroke-order/' + codepoint + '.svg';
+    });
+    soContainer.appendChild(obj);
+    soContainer.appendChild(replayBtn);
+  });
+}
+
+function renderHanziNotes(item) {
+  var sectionEl = document.getElementById('detail-hanzi-notes-section');
+  var text = item && item.notes;
+  document.getElementById('detail-hanzi-notes').textContent = text || '';
+  sectionEl.classList.toggle('hidden', !text);
+}
+
+var ROLE_LABELS = { semantic: 'Bedeutung', phonetic: 'Laut', form: 'Form' };
+function renderHanziDetails(item, section) {
+  renderHanziNotes(item);
+  var compEl = document.getElementById('detail-components');
+  compEl.textContent = '';
+  var radicals = getRadicalByForm();
+  var lookup = getHanziByChar();
+  (item.components || []).forEach(function (c) {
+    var radical = radicals[c.part];
+    var target = lookup[c.part] && c.part !== item.hanzi ? c.part : null;
+    var tag = appendElement(compEl, radical || target ? 'button' : 'span', 'component-tag' + (radical || target ? ' clickable' : ''));
+    if (radical || target) tag.type = 'button';
+    appendElement(tag, 'span', '', c.part).lang = 'zh-CN';
+    var meaning = c.meaning || (target ? hanziMeaning(lookup[target]) : '') || (radical ? radical.meaning : '');
+    if (meaning || c.role) appendElement(tag, 'small', '', ' ' + [ROLE_LABELS[c.role], meaning].filter(Boolean).join(': '));
+    if (radical) tag.title = 'Radikal ' + radical.radical + ' öffnen';
+    tag.addEventListener('click', function () {
+      if (!window.app) return;
+      if (radical) window.app.openRadicalInTab(radical.radical);
+      else if (target) window.app.workspace.openRelated('hanzi', function (h) { return h.hanzi === target; });
+    });
+  });
+  if (!compEl.children.length) compEl.innerHTML = '<p class="no-data">Grundzeichen ohne weitere Komponenten.</p>';
+  renderHanziWords(item, section);
+}
+
+// Example words link to their vocabulary cards (loaded on demand).
+function renderHanziWords(item, section) {
+  var el = document.getElementById('detail-examples');
+  var ids = item.words || [];
+  if (!ids.length) { el.innerHTML = '<p class="no-data">Keine Beispielwörter.</p>'; return; }
+  var vocab = window.app && window.app.sections.vocab;
+  if (!vocab || !vocab.isLoaded) {
+    el.textContent = 'Beispielwörter werden geladen...';
+    if (!window.app) return;
+    window.app.ensureSectionLoaded('vocab').then(function () {
+      var current = section && (section.selectedItem || section.filteredItems[section.currentDetailIndex]);
+      if (section && section.isOverlayOpen() && current && current.hanzi === item.hanzi) renderHanziWords(item, section);
+    }).catch(function () { el.textContent = 'Beispielwörter konnten nicht geladen werden.'; });
+    return;
+  }
+  var byId = getVocabById();
+  el.textContent = '';
+  ids.forEach(function (id) {
+    var word = byId[id];
+    if (!word) return;
+    var row = appendElement(el, 'button', 'example-item hanzi-word-link');
+    row.type = 'button';
+    appendElement(row, 'span', 'example-jp', word.word).lang = 'zh-CN';
+    var py = appendElement(row, 'span', 'example-romaji');
+    py.innerHTML = renderToneColoredPinyin(word.pinyin, word.word);
+    appendElement(row, 'span', 'example-de', word.meaning || '');
+    row.addEventListener('click', function () {
+      window.app.workspace.openRelated('vocab', function (v) { return v.id === id; });
+    });
+  });
+}
 
 // ========================================
 // GRAMMAR SECTION
@@ -736,7 +860,7 @@ SECTION_CONFIGS['vocab'] = {
         breakdownHtml += '<div class="chengyu-breakdown-char">' +
           '<span class="chengyu-big-char tone-' + cTone + '">' + cChars[ci] + '</span>' +
           '<span class="chengyu-breakdown-pinyin">' + cSyl + '</span>' +
-          (cHz ? '<span class="chengyu-breakdown-meaning">' + cHz.meanings[0] + '</span>' : '') +
+          (cHz ? '<span class="chengyu-breakdown-meaning">' + escapeHtml(hanziMeaning(cHz)) + '</span>' : '') +
           '</div>';
       }
       breakdownHtml += '</div>';
@@ -777,7 +901,7 @@ SECTION_CONFIGS['vocab'] = {
       hanziLinks.innerHTML = chars.map(function (ch) {
         var hz = lookup[ch];
         return '<span class="component-tag clickable" data-hanzi="' + ch + '">' +
-          ch + ' <small>' + hz.meanings[0] + '</small></span>';
+          ch + ' <small>' + escapeHtml(hanziMeaning(hz)) + '</small></span>';
       }).join('');
       hanziLinks.querySelectorAll('.component-tag.clickable').forEach(function (tag) {
         tag.addEventListener('click', function () {
@@ -1215,31 +1339,29 @@ SECTION_CONFIGS['radicals'] = {
 
     document.getElementById('radical-detail-explanation').textContent = item.explanation || '';
 
-    // Related hanzi
+    // Characters with this radical as their primary radical, by level.
     var hanziList = document.getElementById('radical-detail-hanzi-list');
-    var related = item.relatedHanzi || [];
-    if (related.length > 0) {
-      hanziList.innerHTML = related.map(function (ch) {
-        var hz = getHanziByChar()[ch];
-        var label = hz ? ch + ' <small>' + hz.meanings[0] + '</small>' : ch;
-        return '<span class="component-tag clickable" data-hanzi="' + ch + '">' + label + '</span>';
-      }).join('');
-      hanziList.querySelectorAll('.component-tag.clickable').forEach(function (tag) {
+    var related = getHanziByRadical()[item.radical] || [];
+    hanziList.textContent = '';
+    if (!related.length) {
+      hanziList.innerHTML = '<p class="no-data">Keine Hanzi mit diesem Radikal.</p>';
+      return;
+    }
+    var byLevel = {};
+    related.forEach(function (hz) { (byLevel[hz.level] = byLevel[hz.level] || []).push(hz); });
+    Object.keys(byLevel).sort(function (a, b) { return LEVEL_ORDER[a] - LEVEL_ORDER[b]; }).forEach(function (level) {
+      var group = appendElement(hanziList, 'div', 'radical-level-group');
+      appendElement(group, 'span', 'card-level-inline ' + level, levelLabel(level));
+      byLevel[level].forEach(function (hz) {
+        var tag = appendElement(group, 'button', 'component-tag clickable');
+        tag.type = 'button';
+        appendElement(tag, 'span', '', hz.hanzi).lang = 'zh-CN';
+        appendElement(tag, 'small', '', ' ' + hanziMeaning(hz));
         tag.addEventListener('click', function () {
-          var hzChar = tag.getAttribute('data-hanzi');
-          if (window.app) {
-            window.app.sections.radicals.closeDetail();
-            window.app.switchTab('hanzi');
-            var hzSec = window.app.sections.hanzi;
-            hzSec.dom.search.value = hzChar;
-            hzSec.applyFilters();
-            if (hzSec.filteredItems.length > 0) hzSec.openDetail(0);
-          }
+          if (window.app && window.app.workspace) window.app.workspace.openRelated('hanzi', function (h) { return h.hanzi === hz.hanzi; });
         });
       });
-    } else {
-      hanziList.innerHTML = '<p class="no-data">Keine Hanzi-Daten verfügbar.</p>';
-    }
+    });
   }
 };
 
@@ -1248,6 +1370,9 @@ SECTION_CONFIGS['radicals'] = {
 // ==========================================
 function initSelectFilters() {
   // Set default filter values for select-based filters
+  if (window.app && window.app.sections.hanzi) {
+    window.app.sections.hanzi.filters.writing = 'all';
+  }
   if (window.app && window.app.sections.vocab) {
     window.app.sections.vocab.filters.type = 'all';
     window.app.sections.vocab.filters.tone = 'all';
@@ -1258,6 +1383,14 @@ function initSelectFilters() {
   if (window.app && window.app.sections.onomatopoeia) {
     window.app.sections.onomatopoeia.filters.pattern = 'all';
   }
+
+  var hanziWriting = document.getElementById('hanzi-writing-select');
+  if (hanziWriting) hanziWriting.addEventListener('change', function () {
+    if (window.app && window.app.sections.hanzi) {
+      window.app.sections.hanzi.filters.writing = this.value;
+      window.app.sections.hanzi.applyFilters();
+    }
+  });
 
   var vocabType = document.getElementById('vocab-type-select');
   if (vocabType) vocabType.addEventListener('change', function () {

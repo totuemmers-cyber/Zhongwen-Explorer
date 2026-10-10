@@ -16,6 +16,9 @@
     "audit:hsk2025": "node scripts/audit-hsk2025.cjs",
     "build:vocab-runtime": "node scripts/build-vocab-runtime.cjs",
     "audit:vocab-runtime": "node scripts/build-vocab-runtime.cjs --check",
+    "build:hanzi-runtime": "node scripts/build-hanzi-runtime.cjs",
+    "audit:hanzi-runtime": "node scripts/build-hanzi-runtime.cjs --check",
+    "audit:hanzi": "node scripts/audit-hanzi.cjs",
     "audit:enrichment": "node scripts/audit-enrichment.cjs",
     "enrich:status": "node scripts/enrich/status.cjs"
   },

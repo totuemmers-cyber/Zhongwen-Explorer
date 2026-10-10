@@ -186,7 +186,7 @@
     var word = document.createElement('span'); word.className = 'selection-word'; word.lang = 'zh-CN';
     word.textContent = labelOf(sec.selectedItem);
     var meaning = document.createElement('span'); meaning.className = 'selection-meaning';
-    meaning.textContent = sec.selectedItem.meaning || (sec.selectedItem.meanings || []).join(', ');
+    meaning.textContent = sec.selectedItem.meaning || (window.hanziMeaning ? window.hanziMeaning(sec.selectedItem) : '');
     var read = document.createElement('button'); read.textContent = 'Zum Detail →';
     read.onclick = function () { sec.dom.overlay.querySelector('.reader-label').focus(); };
     selectionContext.append(label, word, meaning, read);
@@ -248,6 +248,7 @@
   }
   // Select-based filters per section: element id -> filter state key.
   var SELECT_FILTERS = {
+    hanzi: { 'hanzi-writing-select': 'writing' },
     vocab: { 'vocab-type-select': 'type', 'vocab-tone-select': 'tone' },
     grammar: { 'grammar-cat-select': 'category' },
     onomatopoeia: { 'ono-pattern-select': 'pattern' }
@@ -288,6 +289,7 @@
     var filters = Object.keys(sec.filters).filter(function (key) { return sec.filters[key] && sec.filters[key] !== 'all'; }).map(function (key) {
       if (key === 'bookmarks') return 'Nur Lesezeichen';
       if (key === 'tone') return 'Ton ' + sec.filters[key];
+      if (key === 'writing') return 'Schreibzeichen';
       return String(sec.filters[key]).replace(/^HSK(?=\d)/, 'HSK ');
     });
     if (sec.dom.search.value) filters.unshift('„' + sec.dom.search.value + '“');

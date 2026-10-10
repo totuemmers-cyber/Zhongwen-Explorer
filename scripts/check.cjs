@@ -16,6 +16,8 @@ const CHECKS = Object.freeze([
   'audit:data',
   'audit:hsk2025',
   'audit:vocab-runtime',
+  'audit:hanzi',
+  'audit:hanzi-runtime',
   'audit:enrichment'
 ]);
 const FULL_CHECKS = Object.freeze([]);

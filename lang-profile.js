@@ -14,12 +14,12 @@ window.LANG_PROFILE = {
   // Vocabulary outside the syllabus (kept when CC-CEDICT confirms it or it is a Chengyu/Redewendung).
   extraLevel: 'Zusatz',
   defaultTab: 'tones',
-  // Generated vocabulary bundle the browser loads (scripts/build-vocab-runtime.cjs).
-  runtime: { vocab: 'vocab-runtime.js', vocabDetails: 'vocab-runtime-details.js' },
+  // Generated bundles the browser loads (scripts/build-vocab-runtime.cjs, scripts/build-hanzi-runtime.cjs).
+  runtime: { vocab: 'vocab-runtime.js', vocabDetails: 'vocab-runtime-details.js', hanzi: 'hanzi-runtime.js', hanziDetails: 'hanzi-runtime-details.js' },
   // Source data files per section, loaded on first use (app.js) and audited in this order.
   dataScripts: {
-    radicals: ['kangxi-radicals-data.js', 'kangxi-radicals-extra.js'],
-    hanzi: ['hanzi-hsk1.js', 'hanzi-hsk2.js', 'hanzi-hsk3.js', 'hanzi-hsk4.js', 'hanzi-hsk5.js', 'hanzi-hsk6.js'],
+    radicals: ['kangxi-radicals.js'],
+    hanzi: ['hanzi-hsk1.js', 'hanzi-hsk2.js', 'hanzi-hsk3.js', 'hanzi-hsk4.js', 'hanzi-hsk5.js', 'hanzi-hsk6.js', 'hanzi-hsk7-9.js', 'hanzi-zusatz.js'],
     grammar: ['grammar-hsk1.js', 'grammar-hsk2.js', 'grammar-hsk3.js', 'grammar-hsk4.js', 'grammar-hsk5.js', 'grammar-hsk6.js', 'grammar-hsk7-9.js'],
     vocab: ['vocab-hsk1.js', 'vocab-hsk2.js', 'vocab-hsk3.js', 'vocab-hsk4.js', 'vocab-hsk5.js', 'vocab-hsk6.js', 'vocab-hsk7-9.js', 'vocab-zusatz.js',
       'chengyu-data.js', 'redewendungen-data.js'],

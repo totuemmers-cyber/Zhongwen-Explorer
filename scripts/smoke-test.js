@@ -129,16 +129,48 @@ async function run() {
     app.switchTab('radicals');
     await app.ensureSectionLoaded('radicals');
     radicals.openDetail(radicals.filteredItems.findIndex(r => r.radical === '口'));
-    assert(d.getElementById('radical-detail-hanzi-list').children.length > 10, 'Radical 口 lists too few hanzi');
+    assert(d.querySelectorAll('#radical-detail-hanzi-list .component-tag').length > 10, 'Radical 口 lists too few hanzi');
+    assert(d.querySelector('#radical-detail-hanzi-list .card-level-inline'), 'Radical hanzi are not grouped by level');
     radicals.closeDetail();
     const hanziSection = app.sections.hanzi;
     app.switchTab('hanzi');
-    hanziSection.openDetail(hanziSection.filteredItems.findIndex(h => h.hanzi === '好'));
-    const radicalLink = d.querySelector('#detail-components .component-tag.clickable');
-    assert(radicalLink, 'Hanzi component is not linked to its radical');
+    await app.ensureHanziDetailsLoaded();
+    const openHanzi = ch => hanziSection.openDetail(hanziSection.filteredItems.findIndex(h => h.hanzi === ch));
+    // HSK 2025 levels, the official handwriting list and several readings per character.
+    assert.strictEqual(hanziSection.allItems.length, 3675, 'Hanzi section must hold 3,675 characters');
+    assert.strictEqual(hanziSection.allItems.find(h => h.hanzi === '饕').level, 'Zusatz');
+    openHanzi('行');
+    assert.strictEqual(d.querySelectorAll('#detail-readings .hanzi-reading').length, 2, '行 must show xíng and háng');
+    hanziSection.closeDetail();
+    openHanzi('发');
+    assert(d.getElementById('detail-hanzi-facts').textContent.includes('發 / 髮'), 'Traditional forms of 发 missing');
+    assert(d.getElementById('detail-hanzi-facts').textContent.includes('Schreibzeichen'), 'Handwriting level of 发 missing');
+    hanziSection.closeDetail();
+    // A component in its variant form (氵) opens the Kangxi radical (水).
+    openHanzi('河');
+    const radicalLink = Array.from(d.querySelectorAll('#detail-components .component-tag.clickable')).find(tag => tag.textContent.startsWith('氵'));
+    assert(radicalLink, '氵 in 河 is not linked to its radical');
     radicalLink.click();
     await until(() => app.activeTab === 'radicals' && radicals.isOverlayOpen(), 'component opens radical');
+    assert.strictEqual(d.getElementById('radical-detail-char').textContent, '水');
     radicals.closeDetail();
+    // Example words open their vocabulary card.
+    app.switchTab('hanzi');
+    openHanzi('好');
+    await until(() => d.querySelector('#detail-examples .hanzi-word-link'), 'example words render');
+    d.querySelector('#detail-examples .hanzi-word-link').click();
+    await until(() => app.activeTab === 'vocab' && app.sections.vocab.isOverlayOpen(), 'example word opens vocab');
+    app.sections.vocab.closeDetail();
+    // The radical filter lists only characters under that radical.
+    app.switchTab('hanzi');
+    openHanzi('河');
+    Array.from(d.querySelectorAll('#detail-hanzi-facts .btn-link')).find(b => b.textContent.startsWith('alle Zeichen')).click();
+    assert.strictEqual(app.activeRadical, '水');
+    assert(hanziSection.filteredItems.length > 20 && hanziSection.filteredItems.every(h => h.primaryRadical === '水' || (h.components || []).some(c => c.part === '水')), 'Radical filter');
+    app.clearRadicalFilter();
+    for (const src of ['hanzi-hsk1.js', 'hanzi-hsk7-9.js', 'hanzi-zusatz.js']) {
+      assert(!d.querySelector('script[src="' + src + '"]'), 'Hanzi tab loaded source file ' + src);
+    }
     // The browser loads the generated runtime, never the per-level sources; examples follow.
     for (const src of ['vocab-hsk1.js', 'vocab-zusatz.js', 'chengyu-data.js']) {
       assert(!d.querySelector('script[src="' + src + '"]'), 'Vocabulary tab loaded source file ' + src);
