@@ -31,6 +31,10 @@ function context() {
       syllabusReadings.get(row.word).push(key);
     }
   }
+  // Standard readings CC-CEDICT lacks (沩 wéi in 沩水, 翛然 xiāorán; it lists only guī and shù).
+  for (const [word, keys] of Object.entries({ '沩': ['wei2'], '翛': ['xiao1'], '翛然': ['xiao1ran2'] })) {
+    syllabusReadings.set(word, (syllabusReadings.get(word) || []).concat(keys));
+  }
   shared = { Pinyin, cedict, allowlist, syllabus, syllabusReadings, characters: common.characterLevels(), longest: Math.min(longest, 8) };
   return shared;
 }

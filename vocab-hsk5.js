@@ -53899,7 +53899,9 @@ window.VOCAB_HSK5 = [
       }
     ],
     "legacyIds": [
-      "下载|xiàzài"
+      "下载|xiàzài",
+      "w:下载:xia4zai3",
+      "下载|xiàzǎi"
     ],
     "syllabus": {
       "no": 3230,

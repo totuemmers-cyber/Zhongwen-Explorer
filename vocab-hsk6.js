@@ -23503,13 +23503,19 @@ window.VOCAB_HSK6 = [
     "evidence": {
       "cedict": "宏大 宏大 [hong2 da4]"
     },
-    "legacyIds": [],
+    "legacyIds": [
+      "w:弘大:hong2da4",
+      "弘大|hóngdà"
+    ],
     "notes": "宏大 (hóngdà) beschreibt großen Umfang oder hohe Ambitionen und klingt gehoben: 规模宏大 „groß angelegt“, 宏大的建筑, 宏大的目标, 场面宏大. Für schiere Größe oder Menge passt eher 巨大 (jùdà), für Menschen und Leistungen 伟大 (wěidà) „großartig, bedeutend“. Die Körpergröße einer Person beschreibt man nicht mit 宏大.",
     "review": {
       "batch": "b018",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "variants": [
+      "弘大"
+    ]
   },
   {
     "id": "w:洪水:hong2shui3",

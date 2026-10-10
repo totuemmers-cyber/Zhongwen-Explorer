@@ -1103,3 +1103,222 @@ Author flags, type changes and reviewer fixes per batch, for follow-up decisions
 - w:润物无声:run4wu4wu2sheng1 润物无声 type → Chengyu: fixed four-character expression from Du Fu's poem, used as an idiom
 - w:量体裁衣:liang4ti3cai2yi1 量体裁衣 type → Chengyu: fixed four-character idiom (成语)
 - w:批约:pi1yue1 批约 (author): 批约 is not in CC-CEDICT or HanDeDict and is rare in mainland usage; the standard expression is 批准（条约）. Consider whether the card is worth keeping.
+
+## b054 (2026-10-10, author)
+- w:直立人:zhi4li4ren2 直立人 (author): Card id has zhi4li4ren2, but the reading is zhílìrén (zhi2li4ren2, as in the card pinyin and CC-CEDICT); the id tone is wrong.
+- w:即兴:ji2xing1 即兴 (author): id has ji2xing1, but the reading is jíxìng (ji2 xing4, as in CC-CEDICT and the card's own pinyin); the original example pinyin had jíxīng (fixed).
+- w:文艺片:wen2yi4pian1 文艺片 (author): Reading: 片 is piàn in 文艺片 (wényìpiàn, like 影片 yǐngpiàn, 商业片); the card pinyin wényìpiān / id wen2yi4pian1 reflects only the colloquial erhua reading piānr. Example pinyin written with piàn.
+- w:科幻片:ke1huan4pian1 科幻片 (author): Reading: 片 is piàn in 科幻片 (kēhuànpiàn, HanDeDict ke1 huan4 pian4); the card pinyin kēhuànpiān / id ke1huan4pian1 reflects only the colloquial erhua reading piānr. Example pinyin written with piàn.
+- w:亭台楼阁:ting2tai2lou2ge2 亭台楼阁 type → Chengyu: fester vierzeichiger Ausdruck (成语) aus 亭 + 台 + 楼 + 阁
+- w:标识:biao1zhi4 标识 (author): Reading: 现代汉语词典 7th ed. (and the revised 审音表 draft) give 标识 as biāoshí; biāozhì is the older reading. Consider switching the card's pinyin to biāoshí (examples currently follow the card's biāozhì).
+- w:跨界:kua4jie4 跨界 type → Verb: Verb-Objekt-Wort 跨 + 界 („eine Grenze überschreiten“); attributiv wie 跨界合作 ist es weiterhin verbal
+- w:推波助澜:tui1bo1zhu4lan2 推波助澜 type → Chengyu: fester vierzeichiger Ausdruck (成语): 推波 + 助澜
+- w:除旧布新:chu2jiu4bu4xin1 除旧布新 type → Chengyu: fester vierzeichiger Ausdruck (成语): 除旧 + 布新
+- w:火上浇油:huo3shang4jiao1you2 火上浇油 type → Chengyu: fester vierzeichiger Ausdruck (成语): 火上 + 浇油
+- w:抛砖引玉:pao1zhuan1yin3yu4 抛砖引玉 type → Chengyu: fester vierzeichiger Ausdruck (成语): 抛砖 + 引玉
+- w:扬长避短:yang2chang2bi4duan3 扬长避短 type → Chengyu: fester vierzeichiger Ausdruck (成语): 扬长 + 避短
+- w:添砖加瓦:tian1zhuan1jia1wa3 添砖加瓦 type → Chengyu: fester vierzeichiger Ausdruck (成语): 添砖 + 加瓦
+- w:见缝插针:jian4feng4cha1zhen1 见缝插针 type → Chengyu: fester vierzeichiger Ausdruck (成语): 见缝 + 插针
+- w:防微杜渐:fang2wei1du4jian4 防微杜渐 type → Chengyu: fester vierzeichiger Ausdruck (成语): 防微 + 杜渐
+- w:有备无患:you3bei4wu2huan4 有备无患 type → Chengyu: fester vierzeichiger Ausdruck (成语): 有备 + 无患
+- w:削足适履:xue1zu2shi4lv3 削足适履 type → Chengyu: fixed four-character idiom (成语), not a free verb
+- w:越俎代庖:yue4zu3dai4pao2 越俎代庖 type → Chengyu: fixed four-character idiom (成语), not a free verb
+- w:指桑骂槐:zhi3sang1ma4huai2 指桑骂槐 type → Chengyu: fixed four-character idiom (成语), not a free verb
+- w:隔靴搔痒:ge2xue1sao1yang3 隔靴搔痒 type → Chengyu: fixed four-character idiom (成语), not a free verb
+- w:切中要害:qie4zhong4yao4hai4 切中要害 type → Chengyu: fixed four-character idiom (成语), not a free verb
+- w:身体力行:shen1ti3li4xing2 身体力行 type → Chengyu: fixed four-character idiom (成语), not a free verb
+- w:因势利导:yin1shi4li4dao3 因势利导 type → Chengyu: fixed four-character idiom (成语), not a free verb
+- w:循循善诱:xun2xun2shan4you4 循循善诱 type → Chengyu: fixed four-character idiom (成语), not a free verb
+- w:独辟蹊径:du2pi4xi1jing4 独辟蹊径 (author): traditional form should be 獨闢蹊徑 (辟 = 闢 'open up'), not 獨辟蹊徑
+- w:独辟蹊径:du2pi4xi1jing4 独辟蹊径 type → Chengyu: fixed four-character idiom (成语), not a free verb
+- w:见机行事:jian4ji1xing2shi4 见机行事 type → Chengyu: fixed four-character idiom (成语), not a free verb
+- w:顺藤摸瓜:shun4teng2mo1gua1 顺藤摸瓜 type → Chengyu: fixed four-character idiom (成语), not a free verb
+- w:釜底抽薪:fu3di3chou1xin1 釜底抽薪 type → Chengyu: fixed four-character idiom (成语), not a free verb
+- w:左右逢源:zuo3you4feng2yuan2 左右逢源 type → Chengyu: fixed four-character idiom (成语), not a free verb
+- w:八面玲珑:ba1mian4ling2long2 八面玲珑 type → Chengyu: fixed four-character idiom (成语), not a free adjective
+- w:深谋远虑:shen1mou2yuan3lv4 深谋远虑 type → Chengyu: fixed four-character idiom (成语), not a free adjective
+- w:殚精竭虑:dan1jing1jie2lv4 殚精竭虑 type → Chengyu: fixed four-character idiom (成语), not a free verb
+- w:呕心沥血:ou3xin1li4xue4 呕心沥血 type → Chengyu: fixed four-character idiom (成语), not a free verb
+- w:义正言辞:yi4zheng4yan2ci2 义正言辞 (author): 义正言辞 is a widespread nonstandard variant of the chengyu 义正辞严 (yìzhèng-cíyán); standard dictionaries list only 义正辞严 – consider making 义正辞严 the headword or linking it as the standard form
+- w:义正言辞:yi4zheng4yan2ci2 义正言辞 type → Chengyu: four-character idiom (variant of the 成语 义正辞严), not a free adjective
+- w:毫无例外:hao2wu2li4wai4 毫无例外 type → Ausdruck: fixed phrase 毫无 + 例外 used adverbially (with 地 or before 都), not a single-word adverb
+- w:蔚然成风:wei4ran2cheng2feng1 蔚然成风 type → Chengyu: fixed four-character idiom (成语), not a free expression
+
+## b055 (2026-10-10, author)
+- w:跌宕起伏:die1dang4qi3fu2 跌宕起伏 type → Chengyu: feste vierteilige Wendung (成语), kein einfaches Adjektiv
+- w:波澜壮阔:bo1lan2zhuang4kuo4 波澜壮阔 type → Chengyu: 成语: feste vierteilige Wendung
+- w:气吞山河:qi4tun1shan1he2 气吞山河 type → Chengyu: 成语: feste vierteilige Wendung
+- w:含蓄隽永:han2xu4juan4yong3 含蓄隽永 type → Phrase: feste Verbindung zweier Adjektive (含蓄 + 隽永), kein Einzelwort
+- w:鞭辟入里:bian1pi4ru4li3 鞭辟入里 type → Chengyu: 成语: feste vierteilige Wendung
+- w:发人深省:fa1ren2shen1xing3 发人深省 type → Chengyu: 成语: feste vierteilige Wendung
+- w:妙不可言:miao4bu4ke3yan2 妙不可言 type → Chengyu: 成语: feste vierteilige Wendung
+- w:淋漓尽致:lin2li2jin4zhi4 淋漓尽致 type → Chengyu: 成语: feste vierteilige Wendung
+- w:浑然天成:hun2ran2tian1cheng2 浑然天成 type → Chengyu: 成语: feste vierteilige Wendung
+- w:炉火纯青:lu2huo3chun2qing1 炉火纯青 type → Chengyu: 成语: feste vierteilige Wendung
+- w:无与伦比:wu2yu3lun2bi3 无与伦比 type → Chengyu: 成语: feste vierteilige Wendung
+- w:独具匠心:du2ju4jiang4xin1 独具匠心 type → Chengyu: 成语: feste vierteilige Wendung
+- w:别具一格:bie2ju4yi1ge2 别具一格 type → Chengyu: 成语: feste vierteilige Wendung
+- w:巧夺天工:qiao3duo2tian1gong1 巧夺天工 type → Chengyu: 成语: feste vierteilige Wendung
+- w:愤慨:fen4kai3 愤慨 type → Adjektiv: 现代汉语词典: 形 (十分愤慨, 愤慨地说); als Objekt (表示愤慨) auch nominal gebraucht
+- w:井然有序:jing3ran2you3xu4 井然有序 type → Chengyu: 成语: feste vierteilige Wendung, keine freie Verbindung
+- w:矢志不渝:shi3zhi4bu4yu2 矢志不渝 type → Chengyu: 成语: feste vierteilige Wendung, keine freie Verbindung
+- w:匮乏:kui4fa2 匮乏 type → Adjektiv: describes a state of shortage (资源匮乏, 现汉: 形), used as predicate; noun use only as 'the lack' (物质的匮乏)
+- w:病态:bing4tai4 病态 type → Nomen: noun 'morbid/abnormal state' (现汉: 名); 'krankhaft' only attributively as 病态的 or in 是……的
+- w:惩戒:cheng2jie4 惩戒 (author): card pinyin 'chéngjìe' has the tone mark on the wrong vowel; should be chéngjiè
+- w:愤世嫉俗:fen4shi4ji2su2 愤世嫉俗 type → Chengyu: fixed four-character idiom (成语), not a free phrase
+- w:拐弯抹角:guai3wan1mo4jiao3 拐弯抹角 type → Chengyu: fixed four-character idiom (成语), not a free phrase
+- w:弘大:hong2da4 弘大 (author): variant spelling of 宏大 hóngdà (CC-CEDICT has no entry for 弘大); the original example even used 宏大. Consider merging with / pointing to 宏大.
+- w:恢弘:hui1hong2 恢弘 (author): variant spelling of 恢宏 huīhóng (CC-CEDICT: variant of 恢宏), which has its own card in this batch (w:恢宏:hui1hong2); possible duplicate
+- w:坚不可摧:jian1bu4ke3cui1 坚不可摧 type → Chengyu: fixed four-character idiom (成语), not a free phrase
+- w:矫揉造作:jiao3rou2zao4zuo4 矫揉造作 type → Chengyu: fixed four-character idiom (成语), not a free phrase
+- w:久负盛名:jiu3fu4sheng4ming2 久负盛名 type → Chengyu: fixed four-character idiom (成语), not a free phrase
+- w:咎由自取:jiu4you2zi4qu3 咎由自取 type → Chengyu: fixed four-character idiom (成语), not a free phrase
+- w:滥竽充数:lan4yu2chong1shu4 滥竽充数 type → Chengyu: fester vierteiliger Ausdruck mit übertragener Bedeutung und Entstehungsgeschichte (成语), keine freie Phrase
+- w:弥足珍贵:mi2zu2zhen1gui4 弥足珍贵 type → Chengyu: fester vierteiliger Ausdruck in gehobener Sprache (成语), keine freie Phrase
+- w:墨守成规:mo4shou3cheng2gui1 墨守成规 type → Chengyu: fester vierteiliger Ausdruck mit historischer Anspielung (成语), keine freie Phrase
+- w:穷困潦倒:qiong2kun4liao2dao3 穷困潦倒 type → Chengyu: fester vierteiliger Ausdruck (成语), keine freie Phrase
+- w:丧尽天良:sang4jin4tian1liang2 丧尽天良 type → Chengyu: fester vierteiliger Ausdruck (成语), keine freie Phrase
+- w:矢口否认:shi3kou3fou3ren4 矢口否认 type → Chengyu: fester vierteiliger Ausdruck (成语), keine freie Phrase
+- w:刚愎自用:gang1bi4zi4yong4 刚愎自用 type → Chengyu: fester vierteiliger Ausdruck (成语), keine freie Phrase
+- w:冠冕堂皇:guan1mian3tang2huang2 冠冕堂皇 type → Chengyu: fester vierteiliger Ausdruck (成语), keine freie Phrase
+- w:讳莫如深:hui4mo4ru2shen1 讳莫如深 type → Chengyu: fixed four-character idiom (成语), not a free phrase
+- w:慷慨激昂:kang1kai3ji1ang2 慷慨激昂 type → Chengyu: fixed four-character idiom (成语), not a free phrase
+- w:旷日持久:kuang4ri4chi2jiu3 旷日持久 type → Chengyu: fixed four-character idiom (成语), not a free phrase
+- w:戮力同心:lu4li4tong2xin1 戮力同心 type → Chengyu: fixed four-character idiom (成语), not a free phrase
+- w:旁征博引:pang2zheng1bo2yin3 旁征博引 type → Chengyu: fixed four-character idiom (成语), not a free phrase
+- w:如履薄冰:ru2lv3bo2bing1 如履薄冰 type → Chengyu: fixed four-character idiom (成语), not a free phrase
+- w:殊途同归:shu1tu2tong2gui1 殊途同归 type → Chengyu: fixed four-character idiom (成语), not a free phrase
+- w:索然无味:suo3ran2wu2wei4 索然无味 type → Chengyu: fixed four-character idiom (成语), not a free phrase
+- w:望尘莫及:wang4chen2mo4ji2 望尘莫及 type → Chengyu: fixed four-character idiom (成语), not a free phrase
+- w:不甘:bu4gan1 不甘 type → Verb: verb-like usage with object (不甘落后, 不甘平庸), not an adjective
+- w:踌躇满志:chou2chu2man3zhi4 踌躇满志 type → Chengyu: fixed four-character idiom (成语), not a loose idiomatic phrase
+- w:跌荡起伏:die1dang4qi3fu2 跌荡起伏 (author): Standard form is 跌宕起伏 (diēdàng qǐfú); 跌荡起伏 is a variant spelling — consider merging or listing 跌宕起伏 as the main form.
+- w:跌荡起伏:die1dang4qi3fu2 跌荡起伏 type → Chengyu: fixed four-character idiom (成语), usually written 跌宕起伏
+- w:仿效:fang3xiao4 仿效 (author): traditional given as 仿傚; the standard traditional form is 仿效 (傚 is only a variant of 效).
+- w:沽名钓誉:gu1ming2diao4yu4 沽名钓誉 type → Chengyu: fixed four-character idiom (成语)
+- w:弘扬正气:hong2yang2zheng4qi4 弘扬正气 type → Phrase: free verb-object combination of 弘扬 + 正气, not a fixed idiom
+- w:华而不实:hua2er2bu4shi2 华而不实 type → Chengyu: fixed four-character idiom (成语)
+- w:豁然开朗:huo4ran2kai1lang3 豁然开朗 type → Chengyu: fixed four-character idiom (成语)
+- w:恪尽职守:ke4jin4zhi2shou3 恪尽职守 type → Chengyu: fixed four-character idiom (成语)
+- w:溃不成军:kui4bu4cheng2jun1 溃不成军 type → Chengyu: fixed four-character idiom (成语)
+- w:沐风栉雨:mu4feng1zhi4yu3 沐风栉雨 (author): Usual form is 栉风沐雨 (zhìfēng mùyǔ); 沐风栉雨 is a rarer inverted variant — consider using or linking the standard form.
+- w:沐风栉雨:mu4feng1zhi4yu3 沐风栉雨 type → Chengyu: fixed four-character idiom (variant of 成语 栉风沐雨)
+- w:凝练:ning2lian4 凝练 (author): Card pinyin 'nínglìan' is malformed (tone mark on i); should be 'níngliàn'. Existing example pinyin had the same error and was corrected.
+
+## b056 (2026-10-10, author)
+- w:若隐若现:ruo4yin3ruo4xian4 若隐若现 type → Chengyu: fester Vierzeichen-Ausdruck (成语), keine freie Redewendung
+- w:白璧无瑕:bai2bi4wu2xia2 白璧无瑕 type → Chengyu: fester Vierzeichen-Ausdruck (成语), keine freie Redewendung
+- w:卑躬屈膝:bei1gong1qu1xi1 卑躬屈膝 type → Chengyu: fester Vierzeichen-Ausdruck (成语), keine freie Redewendung
+- w:并驾齐驱:bing4jia4qi2qu1 并驾齐驱 type → Chengyu: fester Vierzeichen-Ausdruck (成语), keine freie Redewendung
+- w:层峦叠嶂:ceng2ruan2die2zhang4 层峦叠嶂 (author): Card pinyin céngruán diézhàng (and id ceng2ruan2…) is wrong: 峦 is luán, correct reading céngluán diézhàng (CC-CEDICT ceng2 luan2 die2 zhang4). Examples use luán.
+- w:层峦叠嶂:ceng2ruan2die2zhang4 层峦叠嶂 type → Chengyu: fester Vierzeichen-Ausdruck (成语), keine freie Redewendung
+- w:超凡脱俗:chao1fan2tuo1su2 超凡脱俗 type → Chengyu: fester Vierzeichen-Ausdruck (成语), keine freie Redewendung
+- w:叱咤风云:chi4zha4feng1yun2 叱咤风云 type → Chengyu: fester Vierzeichen-Ausdruck (成语), keine freie Redewendung
+- w:出尔反尔:chu1er3fan3er3 出尔反尔 type → Chengyu: fester Vierzeichen-Ausdruck (成语), keine freie Redewendung
+- w:窜改:cuan4gai3 窜改 (author): Near-duplicate: 窜改 is a variant spelling of 篡改 (cuàngǎi), which has its own card (w:篡改:cuan4gai3); consider merging or listing as variant.
+- w:摧枯拉朽:cui1ku1la1xiu3 摧枯拉朽 type → Chengyu: fester Vierzeichen-Ausdruck (成语), keine freie Redewendung
+- w:大义凛然:da4yi4lin3ran2 大义凛然 type → Chengyu: fester Vierzeichen-Ausdruck (成语), keine freie Redewendung
+- w:荡气回肠:dang4qi4hui2chang2 荡气回肠 type → Chengyu: fester Vierzeichen-Ausdruck (成语), keine freie Redewendung
+- w:咄咄逼人:duo1duo1bi1ren2 咄咄逼人 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:方兴未艾:fang1xing1wei4ai4 方兴未艾 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:飞扬跋扈:fei1yang2ba2hu4 飞扬跋扈 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:俯拾皆是:fu3shi2jie1shi4 俯拾皆是 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:甘愿:gan1yuan4 甘愿 type → Verb: 动: used like a modal verb before a verb phrase (甘愿受罚, 甘愿吃亏), like 愿意
+- w:刚柔并济:gang1rou2bing4ji4 刚柔并济 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:耿耿于怀:geng3geng3yu2huai2 耿耿于怀 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:公诉:gong1su4 公诉 type → Nomen: used as a noun: 提起公诉 'öffentliche Anklage erheben', 公诉人, 公诉案件
+- w:勾魂摄魄:gou1hun2she4po4 勾魂摄魄 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:固步自封:gu4bu4zi4feng1 固步自封 (author): Standard form (现代汉语词典) is 故步自封; 固步自封 is a widespread variant spelling. Consider listing 故步自封 as main form or as variant.
+- w:固步自封:gu4bu4zi4feng1 固步自封 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:海纳百川:hai3na4bai3chuan1 海纳百川 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:含辛茹苦:han2xin1ru2ku3 含辛茹苦 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:汗牛充栋:han4niu2chong1dong4 汗牛充栋 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:虎视眈眈:hu3shi4dan1dan1 虎视眈眈 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:花言巧语:hua1yan2qiao3yu3 花言巧语 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:毁誉参半:hui3yu4can1ban4 毁誉参半 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:极尽:ji2jin4 极尽 type → Verb: takes an object (极尽所能, 极尽奢华, 极尽……之能事): 'exhaust to the limit', not an adverb
+- w:疾恶如仇:ji2e4ru2chou2 疾恶如仇 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:剑拔弩张:jian4ba2nu3zhang1 剑拔弩张 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:矫枉过正:jiao3wang3guo4zheng4 矫枉过正 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:桀骜不驯:jie2ao4bu4xun4 桀骜不驯 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:尽善尽美:jin4shan4jin4mei3 尽善尽美 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:鸠占鹊巢:jiu1zhan4que4chao2 鸠占鹊巢 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:举世闻名:ju3shi4wen2ming2 举世闻名 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:慷慨解囊:kang1kai3jie3nang2 慷慨解囊 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:蓝缕:lan2lv3 蓝缕 (author): 蓝缕 is an old variant spelling of 褴褛 (lánlǚ); in modern usage it occurs essentially only inside 筚路蓝缕. Consider a card for 褴褛 or 筚路蓝缕 instead.
+- w:良莠不齐:liang2you3bu4qi2 良莠不齐 type → Chengyu: four-character idiom (成语), not a free expression
+- w:临阵脱逃:lin2zhen4tuo1tao2 临阵脱逃 type → Chengyu: four-character idiom (成语), not a free expression
+- w:弥天大谎:mi2tian1da4huang3 弥天大谎 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:名垂青史:ming2chui2qing1shi3 名垂青史 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:目不暇接:mu4bu4xia2jie1 目不暇接 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:逆来顺受:ni4lai2shun4shou4 逆来顺受 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:拈花惹草:nian1hua1re3cao3 拈花惹草 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:宁缺毋滥:ning4que1wu2lan4 宁缺毋滥 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:怒不可遏:nu4bu4ke3e4 怒不可遏 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:盘根错节:pang2en1cuo4jie2 盘根错节 (author): id is mis-segmented: pang2en1cuo4jie2 should be pan2gen1cuo4jie2 (pinyin pángēn is correct).
+- w:盘根错节:pang2en1cuo4jie2 盘根错节 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:披荆斩棘:pi1jing1zhan3ji2 披荆斩棘 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:飘渺:piao1miao3 飘渺 (author): Duplicate: 飘渺 is a variant spelling of 缥缈 (piāomiǎo), which has its own card in vocab-zusatz.js.
+- w:气宇轩昂:qi4yu3xuan1ang2 气宇轩昂 type → Chengyu: four-character idiom (成语), not a free expression
+- w:倾巢出动:qing1chao2chu1dong4 倾巢出动 type → Chengyu: fixed four-character idiom (成语, variant of 倾巢而出), not a free expression
+- w:穷奢极欲:qiong2she1ji2yu4 穷奢极欲 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:忍俊不禁:ren3jun4bu4jin1 忍俊不禁 type → Chengyu: four-character idiom (成语), not a free expression
+- w:锐不可当:rui4bu4ke3dang1 锐不可当 type → Chengyu: four-character idiom (成语), not a free expression
+- w:三缄其口:san1jian1qi2kou3 三缄其口 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:丧心病狂:sang4xin1bing4kuang2 丧心病狂 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:神采奕奕:shen2cai3yi4yi4 神采奕奕 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:罹难:lin2an4 罹难 (author): id is mis-segmented: lin2an4 should be li2nan4 (罹 lí + 难 nàn); the card pinyin línàn is correct but ambiguous.
+- w:矫饰:jiao3shi4 矫饰 type → Verb: Wörterbücher führen 矫饰 als Verb (故意造作或掩饰); gebraucht in 毫无矫饰, 不加矫饰, 矫饰之词
+- w:诲人不倦:hui4ren2bu4juan4 诲人不倦 type → Chengyu: feste vierteilige Wendung aus den Gesprächen des Konfuzius
+- w:笔耕不辍:bi3geng1bu4chuo4 笔耕不辍 type → Chengyu: feste vierteilige Wendung (笔耕 + 不辍)
+- w:枉然:wang3ran2 枉然 type → Adjektiv: Wörterbücher führen 枉然 als Adjektiv; es steht prädikativ (也是枉然, 一切都是枉然), nicht als Adverb vor Verben
+- w:佶屈聱牙:ji2qu1ao2ya2 佶屈聱牙 type → Chengyu: feste vierteilige Wendung (nach Han Yu)
+- w:赅括:gai1kuo4 赅括 (author): Seltene Nebenform von 概括 (gàikuò); CC-CEDICT verweist nur auf 概括 – evtl. als Variante dort zusammenführen.
+- w:狷介:juan4jie4 狷介 (author): Kartenpinyin „juàn jiè“ enthält ein Leerzeichen; richtig ist „juànjiè“.
+- w:踵事增华:zhong3shi4zeng1hua2 踵事增华 type → Chengyu: fixed four-character literary idiom (from Xiao Tong's preface to the Wenxuan), not a free phrase
+- w:踽踽独行:ju3ju3du2xing2 踽踽独行 type → Chengyu: fixed four-character literary idiom (踽踽 from the Shijing), not a free phrase
+- w:弢光养晦:tao1guang1yang3hui4 弢光养晦 (author): Rare variant spelling of the standard idiom 韬光养晦 (tāoguāng-yǎnghuì); consider adding/merging under 韬光养晦 with 弢光养晦 as variant.
+- w:弢光养晦:tao1guang1yang3hui4 弢光养晦 type → Chengyu: fixed four-character idiom (variant spelling of 韬光养晦), not a free phrase
+- w:罄竹难书:qing4zhu2nan2shu1 罄竹难书 type → Chengyu: fixed four-character classical idiom, not a loose saying
+- w:燮理:xie4li3 燮理 (author): Citation pinyin is written with a space (xiè lǐ); should be xièlǐ.
+- w:缲丝:qiao1si1 缲丝 (author): Reading: in the sense 'reel silk' 缲 is a variant of 缫 and read sāo (CC-CEDICT, 现代汉语词典); qiāo is the reading of 缲边 'hem'. Card pinyin qiāosī/id should be sāosī; examples use sāosī. Also a variant-spelling duplicate of the existing card 缫丝 (sāosī) – consider merging.
+- w:髀肉复生:bi4rou4fu4sheng1 髀肉复生 type → Chengyu: fixed four-character idiom from the Records of the Three Kingdoms (Liu Bei), not a loose saying
+- w:缛节:ru4jie2 缛节 (author): 缛节 hardly occurs outside 繁文缛节; consider an entry for the idiom 繁文缛节 instead (it already exists in vocab-zusatz.js).
+- w:徂徕:cu2lai2 徂徕 (author): Questionable card: 徂徕 is essentially the place name Mount Culai (徂徕山, Shandong); the old gloss 'kommen und gehen' and example 岁月徂徕 are not attested usage. Type changed to Nomen; consider removing the card or recategorising (category Literatur → Geografie). Card pinyin should then be capitalised (Cúlái).
+- w:徂徕:cu2lai2 徂徕 type → Nomen: proper noun: name of Mount Culai (徂徕山) in Shandong; not attested as a verb 'come and go'
+- w:荦荦大端:luo4luo4da4duan1 荦荦大端 type → Chengyu: fixed four-character literary idiom, not a loose saying
+- w:铢积寸累:zhu1ji1cun4lei3 铢积寸累 type → Chengyu: fixed four-character idiom, not a loose saying
+- w:枘凿:rui4zao2 枘凿 type → Adjektiv: used as a predicate meaning 'incompatible' (相枘凿, 枘凿不入), short for 方枘圆凿; the noun sense 'tenon and mortise' is rare
+- w:皓首穷经:hao4shou3qiong2jing1 皓首穷经 type → Chengyu: fixed four-character idiom, not a loose saying
+
+## b057 (2026-10-10, author)
+- w:茕茕孑立:qiong2qiong2jie2li4 茕茕孑立 type → Chengyu: fester vierteiliger Ausdruck (成语) aus Li Mis Bittschrift 陈情表, keine freie Redewendung
+- w:翛然:xiao1ran2 翛然 (author): Validator false positive: CC-CEDICT lists 翛 only as shù, but the standard reading in 翛然 is xiāo (现代汉语词典: 翛然 xiāorán); card and example pinyin are correct.
+- w:啮齿:nie4chi3 啮齿 type → Adjektiv: steht nur attributiv als „Nage-“ in 啮齿动物/啮齿类, kein eigenständiges Nomen
+- w:奄奄一息:yan3yan3yi1xi1 奄奄一息 type → Chengyu: fester vierteiliger Ausdruck (成语) mit übertragener Bedeutung, keine freie Redewendung
+- w:绠短汲深:geng3duan3ji2shen1 绠短汲深 type → Chengyu: feste vierteilige Wendung aus dem Zhuangzi (Chengyu), keine freie Redewendung
+- w:沆瀣一气:hang4xie4yi1qi4 沆瀣一气 type → Chengyu: feste vierteilige Wendung mit Herkunftsgeschichte (Chengyu), keine freie Redewendung
+- w:醍醐灌顶:ti2hu2guan4ding3 醍醐灌顶 type → Chengyu: feste vierteilige Wendung buddhistischer Herkunft (Chengyu), keine freie Redewendung
+- w:翩跹:pian1xian1 翩跹 type → Adjektiv: beschreibt die Art des Tanzens (翩跹起舞, 舞姿翩跹); Wörterbücher führen es als Adjektiv
+- w:暴殄天物:bao4tian3tian1wu4 暴殄天物 type → Chengyu: feste vierteilige Wendung aus dem Buch der Urkunden (Chengyu), keine freie Redewendung
+- w:栉比鳞次:zhi4bi3lin2ci4 栉比鳞次 type → Chengyu: feste vierteilige Wendung (Variante von 鳞次栉比), Chengyu
+- w:澹泊:dan4bo2 澹泊 (author): Schreibvariante von 淡泊 (dànbó), das als eigener Zusatz-Eintrag existiert.
+- w:踽踽:ju3ju3 踽踽 type → Adjektiv: beschreibendes Reduplikativum (形容词, „allein, verlassen gehend“), kein Adverb im engeren Sinn
+- w:曲高和寡:qu3gao1he4gua3 曲高和寡 type → Chengyu: feste vierteilige Wendung mit klassischer Quelle (Chengyu), keine freie Redewendung
+- w:渎职:du2zhi2 渎职 type → Verb: Wörterbücher (现代汉语词典) führen 渎职 als Verb „seine Amtspflicht verletzen“; nominal steht es v. a. in 渎职罪, 渎职行为.
+- w:杳无音信:yao3wu2yin1xin4 杳无音信 type → Chengyu: Feste vierteilige Wendung (成语), keine freie Redewendung.
+- w:瘦骨嶙峋:shou4gu3lin2xun2 瘦骨嶙峋 type → Chengyu: Feste vierteilige Wendung (成语), keine freie Redewendung.
+- w:箪食壶浆:dan1si4hu2jiang1 箪食壶浆 type → Chengyu: Feste vierteilige Wendung aus dem Mengzi (成语).
+- w:鸩毒:zhen4du2 鸩毒 type → Nomen: 鸩毒 ist ein Nomen „Gift des Zhen-Vogels“; „vergiften“ heißt 鸩 bzw. 鸩杀.
+- w:瞠目结舌:cheng1mu4jie2she2 瞠目结舌 type → Chengyu: Feste vierteilige Wendung (成语), keine freie Redewendung.
+- w:戛然而止:jia2ran2er2zhi3 戛然而止 type → Chengyu: Feste vierteilige Wendung (成语), keine freie Redewendung.
+- w:怙恶不悛:hu4e4bu4quan1 怙恶不悛 type → Chengyu: Feste vierteilige Wendung (成语), keine freie Redewendung.
+- w:骱:jie4 骱 (author): Lesung falsch: 现代汉语词典 und CC-CEDICT führen 骱 nur als xiè (〈方〉, 脱骱 tuōxiè, 接骱 jiēxiè); die Kartenlesung jiè sollte auf xiè korrigiert werden. Notiz und Beispiele verwenden bereits xiè.
+- w:龈龈:yin2yin2 龈龈 (author): 龈龈 is a literary variant spelling of 龂龂 (yínyín, 'arguing persistently'); the old meaning 'streitsüchtig' and the example 龈龈计较 looked like a confusion with 斤斤计较 — replaced.
+- w:颐指气使:yi2zhi3qi4shi3 颐指气使 type → Chengyu: fixed four-character idiom (成语), not a free idiomatic phrase
+- w:颠沛流离:dian1pei4liu2li2 颠沛流离 type → Chengyu: fixed four-character idiom (成语), not a free idiomatic phrase
+- w:黯淡:an4dan4 黯淡 (author): 黯淡 is a variant spelling of 暗淡 (àndàn) per CC-CEDICT; if 暗淡 has its own card, this one duplicates it.
+- w:匣子:xia2zi3 匣子 (author): Card pinyin xiázǐ should be xiázi (neutral tone; CC-CEDICT xia2 zi5); id suffix xia2zi3 likewise.
+- w:泛滥成灾:fan4lan4cheng2zai1 泛滥成灾 type → Chengyu: fixed four-character idiom (成语), not a free phrase
+- w:颤栗:zhan4li4 颤栗 (author): Variant spelling of 战栗 (zhànlì), the mainland standard form; if 战栗 has its own card this one is a duplicate.
+- w:秘笈:mi4ji2 秘笈 (author): Variant spelling of 秘籍 (mìjí), the more common form; if 秘籍 has its own card this one is a duplicate.
