@@ -8,7 +8,7 @@ const common = require('../enrich/common.cjs');
 const DRY = process.argv.includes('--dry-run');
 const KEEP_TYPES = new Set(['Nomen', 'Phrase']);
 const mw = (word, pinyin) => ({ word, pinyin });
-// Author flags (Phase 3 batches b006–b017): id → corrected list ([] removes the field).
+// Author flags (Phase 3 batches b006–b021): id → corrected list ([] removes the field).
 const CORRECTIONS = {
   'w:信心:xin4xin1': [],
   'w:学费:xue2fei4': [mw('笔', 'bi3')],
@@ -36,7 +36,16 @@ const CORRECTIONS = {
   'w:成语:cheng2yu3': [mw('个', 'ge4'), mw('句', 'ju4'), mw('条', 'tiao2')],
   'w:服装:fu2zhuang1': [mw('套', 'tao4')],
   'w:强度:qiang2du4': [],
-  'w:重量:zhong4liang4': []
+  'w:重量:zhong4liang4': [],
+  // Batches b018–b021.
+  'w:诗歌:shi1ge1': [mw('首', 'shou3')],
+  'w:外交:wai4jiao1': [],
+  'w:感想:gan3xiang3': [mw('个', 'ge4'), mw('点', 'dian3')],
+  'w:录像:lu4xiang4': [mw('段', 'duan4')],
+  'w:贸易:mao4yi4': [],
+  'w:评论:ping2lun4': [mw('条', 'tiao2'), mw('篇', 'pian1')],
+  'w:通讯:tong1xun4': [mw('篇', 'pian1')],
+  'w:谈判:tan2pan4': [mw('轮', 'lun2'), mw('次', 'ci4')]
 };
 
 const sources = common.loadSources();

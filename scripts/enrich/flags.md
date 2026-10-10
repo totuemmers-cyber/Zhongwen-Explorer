@@ -544,3 +544,68 @@ Author flags, type changes and reviewer fixes per batch, for follow-up decisions
 - w:访谈:fang3tan2 访谈 type → Verb: 动: verb in the syllabus (also used as a noun)
 - w:分工:fen1gong1 分工 type → Verb: 动: verb in the syllabus (also used as a noun)
 - w:丰收:feng1shou1 丰收 type → Verb: 动: verb in the syllabus (also used as a noun)
+
+## b018 (2026-10-10, author)
+- w:干旱:gan1han4 干旱 type → Adjektiv: 形: the syllabus lists 干旱 as an adjective (‚regenarm, dürr‘); the noun use ‚Dürre‘ is covered in meaning and notes
+- w:感激:gan3ji1 感激 type → Verb: 动: verb in the syllabus, takes an object (感激你的帮助)
+- w:感想:gan3xiang3 感想 (author): measureWords lists 通 for 感想, which is unusual; 个 or 点 (一点感想) are the common choices.
+- w:高新技术:gao1xin1ji4shu4 高新技术 type → Ausdruck: no part of speech in the syllabus; a fixed noun compound (高新 + 技术), not a chengyu
+- w:革命:ge2ming4 革命 (author): syllabusPos is 动、形, but 革命 is overwhelmingly used as a noun; type Nomen kept, verbal/attributive uses explained in notes.
+- w:构造:gou4zao4 构造 (author): Syllabus lists only 动, but 构造 is mainly used as a noun (structure); type kept as Verb per official POS.
+- w:官方:guan1fang1 官方 type → Nomen: 名: noun mostly used attributively (官方语言), not an adjective
+- w:过渡:guo4du4 过渡 type → Verb: 动: verb (从A过渡到B), also used attributively in 过渡时期
+- w:毫无:hao2wu2 毫无 type → Phrase: no official part of speech; 毫 + verb 无 'nicht haben' takes a noun object, so not an adverb
+- w:嘿:hei1 嘿 type → Interjektion: 叹: interjection, not a particle
+- w:黄:huang2 黄 (author): syllabusPos lists only 名 for 黄, but the word is mainly used as an adjective (形, 'gelb') and colloquially as a verb (黄了 'platzen'); type left as Adjektiv.
+- w:饥饿:ji1e4 饥饿 type → Adjektiv: 形: syllabus lists it as adjective
+- w:急救:ji2jiu4 急救 type → Verb: 动: syllabus lists it as verb (to give first aid)
+
+## b020 (2026-10-10, author)
+- w:勉强:mian3qiang3 勉强 type → Adjektiv: 形、动: adjective/verb; the adverbial use (勉强答应) derives from the adjective
+- w:免疫:mian3yi4 免疫 type → Verb: 动: official POS verb (对……免疫 'immune to'); noun use mainly in compounds 免疫力, 免疫系统
+- w:民间:min2jian1 民间 type → Nomen: 名: noun, typically used attributively (民间故事) or as 在民间
+- w:难免:nan2mian3 难免 type → Adjektiv: 形: adjective (是难免的); the use before verbs (难免会紧张) is adverbial use of the adjective
+- w:排名:pai2ming2 排名 type → Verb: 动: official POS is verb (einen Rang einnehmen); the noun use „Rangliste“ is secondary
+- w:平等:ping2deng3 平等 type → Adjektiv: 形: official POS is adjective (gleich, gleichberechtigt); the noun use „Gleichheit“ is secondary
+- w:评论:ping2lun4 评论 (author): measureWords: neben 篇 (Zeitungskommentar) ist 条 für Online-Kommentare sehr häufig und fehlt.
+- w:曲:qu3 曲 (author): variants lists 粬, which is a variant of 曲 qū in the sense 'fermentation starter' (麴), not of 曲 qǔ 'tune, song'.
+- w:圈:quan1 圈 type → Nomen: 名、动: noun and verb (circle; to encircle) per syllabus, not a numeral; the classifier use for laps is explained in the note
+- w:热门:re4men2 热门 type → Nomen: 名: noun per syllabus („gefragte Sache, Favorit“), used mostly attributively
+- w:人均:ren2jun1 人均 type → Verb: 动: verb per syllabus (人均……元 „pro Kopf … betragen“), not an adjective
+- w:认知:ren4zhi1 认知 type → Verb: 动: Der Syllabus führt 认知 als Verb; der häufige Nomengebrauch (认知能力) wird in den Notes erklärt.
+
+## b019 (2026-10-10, author)
+- w:交际:jiao1ji4 交际 type → Verb: 动: verb (gesellschaftlich verkehren); the syllabus lists no noun sense
+- w:节能:jie2neng2 节能 type → Verb: 动: verb (Energie sparen), as in the syllabus; adjectival use is attributive
+- w:截止:jie2zhi3 截止 type → Verb: 动: verb (enden, ablaufen); 截止日期 is the noun compound
+- w:进而:jin4er2 进而 type → Konjunktion: 连: conjunction, not an adverb
+- w:进化:jin4hua4 进化 type → Verb: 动: verb (also used nominally)
+- w:竞赛:jing4sai4 竞赛 type → Verb: 动: verb in the syllabus (mostly used nominally)
+- w:救援:jiu4yuan2 救援 type → Verb: 动: verb in the syllabus (also used nominally)
+- w:局限:ju2xian4 局限 type → Verb: 动: verb in the syllabus
+- w:绝望:jue2wang4 绝望 type → Verb: 动: officially a verb („verzweifeln“), although it often works like an adjective (很绝望)
+- w:考核:kao3he2 考核 type → Verb: 动: officially a verb (beurteilen, überprüfen); the noun use is derived
+- w:科普:ke1pu3 科普 type → Verb: 动: officially a verb (popularisieren, erklären); attributive use 科普文章 is secondary
+- w:恐惧:kong3ju4 恐惧 type → Adjektiv: 形: officially an adjective; often used nominally (内心的恐惧)
+- w:夸张:kua1zhang1 夸张 type → Adjektiv: 形: officially an adjective (übertrieben), not primarily a verb
+- w:亏损:kui1sun3 亏损 type → Verb: 动: officially a verb (Verlust machen), also used as a noun
+- w:粒:li4 粒 type → Zählwort: 名、量: measure word for small round things, not a numeral
+- w:链接:lian4jie1 链接 type → Verb: 动: officially a verb (verlinken), also used as a noun
+- w:露:lu4 露 type → Verb: 动: the syllabus lists 露 lù as a verb (zeigen, enthüllen); the noun „Tau“ mostly appears bound in 露水
+- w:录像:lu4xiang4 录像 (author): measureWords lists only 盘 (for video cassettes, now dated); 段 is the usual measure word for a recording today.
+- w:绿化:lv4hua4 绿化 type → Verb: 动: the syllabus lists 绿化 as a verb (begrünen, aufforsten); the nominal use (城市绿化) derives from it
+- w:轮流:lun2liu2 轮流 type → Verb: 动: the syllabus lists 轮流 as a verb; it mostly stands adverbially before another verb, but also as predicate (我们轮流吧)
+- w:贸易:mao4yi4 贸易 (author): measureWords lists 个, which is unusual for 贸易 (an uncountable abstract noun); consider removing it.
+
+## b021 (2026-10-10, author)
+- w:审美:shen3mei3 审美 type → Verb: 动: official part of speech is verb (das Schöne beurteilen), though mostly used attributively
+- w:诗歌:shi1ge1 诗歌 (author): measureWords lists 本 and 段 for 诗歌; 首 fits, but 一本诗歌 is unusual (one says 一本诗集) — consider removing 本.
+- w:识别:shi4bie2 识别 (author): Card id uses shi4bie2, but the card pinyin and standard mainland reading are shíbié (shìbié is the Taiwan reading); existing example pinyin had shìbié and was corrected.
+- w:适度:shi4du4 适度 type → Adjektiv: 形: official part of speech is adjective; adverbial use (适度运动) does not make it an adverb
+- w:数字化:shu4zi4hua4 数字化 type → Verb: 动: verb (digitalisieren); as attribute (数字化转型) it still is the syllabus verb
+- w:谈判:tan2pan4 谈判 (author): measureWords lists 个; for 谈判 the usual classifiers are 轮 (lún) and 次 (cì).
+- w:谈判:tan2pan4 谈判 type → Verb: 动: verb (to negotiate); the noun use is secondary
+- w:通讯:tong1xun4 通讯 (author): measureWords lists 个; for the 'Reportage' sense 篇 is the usual measure word, the communications sense rarely takes one.
+- w:团圆:tuan2yuan2 团圆 type → Verb: 动: verb (to be reunited), not a noun
+- w:外交:wai4jiao1 外交 (author): measureWords lists 个, but 外交 is an uncountable abstract noun and is not normally counted with 个.
+- w:无所谓:wu2suo3wei4 无所谓 type → Verb: 动: official part of speech is verb (predicate „egal sein“), not a phrase
