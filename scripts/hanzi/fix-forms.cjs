@@ -18,7 +18,18 @@ const TRADITIONAL = {
   '划': ['劃', '划'], // huá "rudern" stays 划
   '伙': ['夥', '伙'], // 伙 only for 伙食
   '获': ['獲', '穫'], // 穫 "ernten"
-  '刮': ['刮', '颳']   // 颳 "wehen (Wind)"
+  '刮': ['刮', '颳'], // 颳 "wehen (Wind)"
+  '范': ['範', '范'], // the surname Fan stays 范
+  '佛': ['佛', '彿'], // 彿 in 彷彿 (仿佛); 髴 is only a variant
+  '痴': ['癡'],        // 痴 is only a variant in traditional script
+  '卜': ['卜', '蔔'], // 蔔 in 蘿蔔 (萝卜)
+  '汇': ['匯', '彙'], // 彙 in 詞彙, 彙總
+  '饥': ['飢', '饑'], // 饑 "Hungersnot, Missernte"
+  '筑': ['築', '筑'], // 筑 stays for the zither and Guiyang
+  '咨': ['諮', '咨'], // 咨 itself in 咨文
+  '余': ['餘', '余'], // 余 stays for "ich" and the surname
+  '赞': ['贊', '讚'], // 讚 "loben"
+  '占': ['佔', '占']   // 佔 "besetzen", 占 zhān "wahrsagen"
 };
 const entries = hanzi.loadHanzi();
 const changes = [];

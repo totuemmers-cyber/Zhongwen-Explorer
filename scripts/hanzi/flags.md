@@ -114,3 +114,74 @@ Author flags and reviewer fixes per batch, for follow-up decisions.
 - 傅 readings added: fù
 - 傅 (author): Card lists only the neutral-tone reading fu (as in 师傅); the character’s citation reading is fù (Unihan, CC-CEDICT) – added via addReadings; consider making fù the primary reading.
 - 胳 readings added: gā
+
+## h009 (2026-10-10, author)
+- 旋 readings added: xuàn
+- 粘 readings added: nián
+- 艾 readings added: yì
+- 扒 readings added: pá
+- 叭 readings added: bā
+- 叭 (author): Listed reading is only the neutral-tone syllable of 喇叭; the stand-alone onomatopoeic reading bā was added.
+- 柏 readings added: bó
+- 绷 readings added: běng, bèng
+- 伯 readings added: bǎi
+- 卜 (author): Für die Lesung bo (萝卜 luóbo) ist die traditionelle Form 蔔 (蘿蔔); als traditionelle Form ist nur 卜 eingetragen.
+- 禅 readings added: shàn
+- 颤 (author): Lesung zhàn fehlt (Standard laut 现代汉语词典: 颤栗 zhànlì, 打颤 dǎzhàn; als Wort auf der Karte verlinkt). Als addReadings vom Validator abgelehnt, da Unihan/CC-CEDICT zhàn nur als Taiwan-Aussprache führen; bitte manuell ergänzen: zhàn = „zittern; schaudern (vor Kälte oder Angst)“.
+- 澄 readings added: dèng
+- 痴 (author): Traditionelle Standardform ist 癡 (痴 dort nur Variante); traditional sollte 癡 enthalten.
+- 幢 readings added: chuáng
+
+## h008 (2026-10-10, author)
+- 骨 readings added: gū
+- 龟 readings added: jūn
+- 核 readings added: hú
+- 横 readings added: hèng
+- 饥 (author): traditional: neben 飢 („hungrig“) wurde auch 饑 („Hungersnot, Missernte“) zu 饥 vereinfacht; 饑 fehlt in der Liste.
+- 夹 readings added: jiá
+- 稼 readings added: jià
+- 监 readings added: jiàn
+- 颈 readings added: gěng
+- 淋 readings added: lìn
+- 蚂 readings added: mà
+- 嘛 readings added: má
+- 喷 readings added: pèn
+- 迫 readings added: pǎi
+- 朴 readings added: piáo
+- 丧 readings added: sāng
+- 哇 readings added: wa
+
+## h006 (2026-10-10, author)
+- 唉 readings added: āi
+- 膀 readings added: páng
+- 薄 readings added: bò
+- 曾 readings added: zēng
+- 称 (author): chèng „Waage“ ist eine veraltete Schreibung; heute schreibt man 秤 (chèng). Die verknüpfte Wortzeile „称 chèng – Waage“ ist daher veraltet.
+- 臭 readings added: xiù
+- 范 (author): Traditionelle Form: 範 gilt nur für „Muster; Bereich“; als Familienname bleibt 范 auch in Langzeichen 范 – die Angabe sollte 範, 范 lauten.
+- 佛 (author): Traditionelle Form 髴 ist falsch: 佛 bleibt in Langzeichen 佛 (髴 ist eine Variante von 彿 in 彷彿). Bitte auf 佛 korrigieren.
+- 哈 readings added: hǎ
+- 糊 readings added: hù
+- 华 readings added: huà
+- 汇 (author): Traditionelle Formen: neben 匯 fehlt 彙 (Sammlung; z. B. 詞彙 für 词汇, 彙總 für 汇总).
+- 浆 readings added: jiàng
+- 陆 readings added: liù
+- 秘 readings added: bì
+- 哦 readings added: ó
+- 屏 readings added: bǐng
+- 茄 readings added: jiā
+
+## h007 (2026-10-10, author)
+- 厦 readings added: xià
+- 宿 readings added: xiǔ
+- 伍 readings added: wǔ
+- 伍 (author): Grundlesung ist wǔ (Unihan, CC-CEDICT); 'wu' mit neutralem Ton gilt nur für die umgangssprachliche Aussprache von 队伍 duìwu. Lesung wǔ per addReadings ergänzt; ggf. die gegebene Lesung zu wǔ korrigieren.
+- 肖 readings added: xiāo
+- 呀 readings added: ya
+- 余 (author): Traditionell steht 餘 nur für „übrig, Rest“; für „ich“ und den Familiennamen Yu bleibt auch traditionell 余.
+- 赞 (author): Für „loben, preisen“ ist traditionell auch 讚 gebräuchlich (稱讚); die Liste nennt nur 贊.
+- 占 (author): Für zhàn „besetzen“ ist traditionell (v. a. Taiwan) auch 佔 gebräuchlich; die Liste nennt nur 占.
+- 筑 (author): traditional: listed only as 築; for the senses Zither and Guiyang the traditional form is also 筑.
+- 咨 (author): traditional: listed only as 諮; 咨 itself is also a traditional character (e.g. 咨文), 諮 is used for „beraten“ (諮詢).
+- 拜 readings added: bái
+- 臂 readings added: bei
