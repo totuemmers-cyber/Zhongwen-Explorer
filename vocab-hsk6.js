@@ -65867,7 +65867,7 @@ window.VOCAB_HSK6 = [
   {
     "id": "w:衣食住行:yi1shi2zhu4xing2",
     "word": "衣食住行",
-    "pinyin": "yī shí zhù xíng",
+    "pinyin": "yīshí-zhùxíng",
     "meaning": "Kleidung, Essen, Wohnen und Fortbewegung; Grundbedürfnisse des Alltags",
     "type": "Redewendung",
     "level": "HSK6",

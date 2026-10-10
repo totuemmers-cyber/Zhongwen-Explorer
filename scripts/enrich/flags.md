@@ -655,3 +655,55 @@ Author flags, type changes and reviewer fixes per batch, for follow-up decisions
 - w:博大精深:bo2da4jing1shen1 博大精深 type → Chengyu: four-character set idiom (成语); CC-CEDICT also marks it as idiom
 - w:博弈:bo2yi4 博弈 type → Verb: 动: official part of speech is verb; nominal use (一场博弈) is secondary
 - w:不乏:bu4fa2 不乏 type → Verb: 动: verb (不乏 + Nomen „es mangelt nicht an“), not an adverb
+
+## b027 (2026-10-10, author)
+- w:颠簸:dian1bo3 颠簸 type → Verb: 动: verb (durchgeschüttelt werden); prädikativ auch adjektivisch gebraucht (路很颠簸)
+- w:对照:dui4zhao4 对照 type → Verb: 动: verb (vergleichen, abgleichen); the noun use is secondary
+- w:翻天覆地:fan1tian1fu4di4 翻天覆地 (author): Citation pinyin 'fāntiān fùdì' uses a space, while other four-character chengyu use a hyphen (fāntiān-fùdì).
+- w:翻天覆地:fan1tian1fu4di4 翻天覆地 type → Chengyu: vierteiliges 成语 (wie 翻来覆去), keine freie Redewendung
+- w:反之:fan3zhi1 反之 type → Konjunktion: 连: conjunction linking two contrasting clauses, not an adverb
+- w:犯规:fan4gui1 犯规 type → Verb: 动: verb 'to break the rules / commit a foul', also used as a noun
+- w:纺织:fang3zhi1 纺织 type → Verb: 动: verb 'to spin and weave'; the noun sense lives in compounds like 纺织品, 纺织业
+
+## b029 (2026-10-10, author)
+- w:公证:gong1zheng4 公证 type → Verb: 动: syllabus lists 公证 as a verb (to notarize)
+- w:共鸣:gong4ming2 共鸣 (author): syllabusPos is 动, but the word is used overwhelmingly as a noun (引起共鸣, 产生共鸣); type kept as Nomen instead of switching to Verb.
+- w:骨折:gu3zhe2 骨折 type → Verb: 动: verb (einen Knochenbruch erleiden), syllabus lists it as 动
+- w:固然:gu4ran2 固然 type → Konjunktion: 连: concessive conjunction (zwar … aber), syllabus lists it as 连
+- w:归属:gui1shu3 归属 type → Verb: 动: official part of speech is verb (A 归属 B „A gehört zu B“); the noun use appears mainly in compounds such as 归属感
+- w:国有:guo2you3 国有 type → Verb: 动: official part of speech is verb (国家所有 „dem Staat gehören“), even though it mostly appears attributively
+- w:过剩:guo4sheng4 过剩 type → Verb: 动: official part of speech is verb (产能过剩 „die Kapazitäten sind überschüssig“); German renders it often as a noun
+- w:骇人听闻:hai4ren2ting1wen2 骇人听闻 type → Chengyu: fester viersilbiger Ausdruck (成语), kein freier Satzteil
+- w:航天:hang2tian1 航天 (author): Syllabus führt 航天 als 动, Karte als Nomen; das Geschwisterwort 航空 ist als Verb geführt – Typ ggf. vereinheitlichen.
+
+## b026 (2026-10-10, author)
+- w:触目惊心:chu4mu4jing1xin1 触目惊心 type → Chengyu: four-character 成语 (CC-CEDICT: idiom), like 川流不息 in this batch
+- w:纯朴:chun2pu3 纯朴 (author): duplicate of w:淳朴:chun2pu3, which already lists 纯朴 as its variant
+- w:慈善:ci2shan4 慈善 type → Adjektiv: 形: adjective per syllabus (mostly attributive: 慈善机构, 慈善事业)
+- w:丛:cong2 丛 type → Zählwort: 量: measure word (一丛竹子), syllabus lists it as 量
+- w:催眠:cui1mian2 催眠 type → Verb: 动: verb (催眠某人, 被催眠), syllabus lists it as 动
+- w:错综复杂:cuo4zong1fu4za2 错综复杂 (author): Citation pinyin is spaced syllable by syllable (cuò zōng fù zá); house style for four-character idioms would be cuòzōng-fùzá.
+- w:错综复杂:cuo4zong1fu4za2 错综复杂 type → Chengyu: four-character idiom (成语), CC-CEDICT marks it as idiom
+- w:大惊小怪:da4jing1xiao3guai4 大惊小怪 type → Chengyu: four-character idiom listed in chengyu dictionaries (CC-CEDICT: idiom)
+- w:单身:dan1shen1 单身 (author): syllabusPos 动、名、副 does not match the card type Adjektiv (in usage mostly attributive/predicative like an adjective); type left unchanged.
+- w:当日:dang1ri4 当日 (author): Reading/sense: draft gloss 'am selben Tag' belongs to dàngrì (现代汉语词典: 当日 dàngrì = 同一天); dāngrì = 'an jenem Tag/damals'. Meaning set for dāngrì; check which sense the syllabus intends.
+- w:当务之急:dang1wu4zhi1ji2 当务之急 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom); no part of speech in the syllabus
+- w:当之无愧:dang1zhi1wu2kui4 当之无愧 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free phrase
+- w:导航:dao3hang2 导航 type → Verb: 动: listed as a verb (navigieren) in the syllabus; the noun use „Navi“ is secondary
+- w:得天独厚:de2tian1du2hou4 得天独厚 type → Chengyu: four-character idiom (成语), not a free phrase
+
+## b028 (2026-10-10, author)
+- w:沸沸扬扬:fei4fei4yang2yang2 沸沸扬扬 type → Chengyu: four-character idiom (成语), not a free phrase
+- w:分红:fen1hong2 分红 type → Verb: 动: verb (Gewinn ausschütten); the noun use „Dividende“ is secondary
+- w:辐射:fu2she4 辐射 type → Verb: 动: listed as verb (ausstrahlen); the frequent noun use (Strahlung) is explained in the note
+- w:腐败:fu3bai4 腐败 type → Adjektiv: 形、动: officially adjective (korrupt) and verb (verderben); the noun use Korruption is explained in the note
+- w:腐烂:fu3lan4 腐烂 type → Verb: 动、形: primarily a verb (verfaulen); the adjective use (verfault) is secondary
+- w:腹泻:fu4xie4 腹泻 type → Verb: 动: official part of speech is verb (Durchfall haben); the noun use is explained in the note
+- w:感悟:gan3wu4 感悟 type → Verb: 动: official part of speech is verb (感悟人生); the noun use (有很多感悟) is secondary
+- w:感性:gan3xing4 感性 type → Adjektiv: 形: official part of speech is adjective (很感性); the noun use (感性认识) is secondary
+- w:各抒己见:ge4shu1ji3jian4 各抒己见 (author): Citation pinyin is spaced syllable by syllable (gè shū jǐ jiàn); usual chengyu spelling would be gèshū-jǐjiàn, as used in the examples.
+- w:各抒己见:ge4shu1ji3jian4 各抒己见 type → Chengyu: fester vierzeichiger 成语 aus Chengyu-Wörterbüchern, keine freie Wortgruppe
+- w:根深蒂固:gen1shen1di4gu4 根深蒂固 (author): Citation pinyin is spaced syllable by syllable (gēn shēn dì gù); usual chengyu spelling would be gēnshēn-dìgù, as used in the examples.
+- w:根深蒂固:gen1shen1di4gu4 根深蒂固 type → Chengyu: fester vierzeichiger 成语 aus Chengyu-Wörterbüchern, keine freie Wortgruppe
+- w:供不应求:gong1bu4ying4qiu2 供不应求 (author): Citation pinyin is spaced syllable by syllable (gōng bù yìng qiú); pinyinSpoken and the examples write it as one word.
+- w:供不应求:gong1bu4ying4qiu2 供不应求 type → Chengyu: fester vierzeichiger 成语 aus Chengyu-Wörterbüchern, keine freie Wortgruppe

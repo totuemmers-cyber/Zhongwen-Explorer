@@ -18357,7 +18357,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:重归于好:chong2gui1yu2hao3",
     "word": "重归于好",
-    "pinyin": "chóng guī yú hǎo",
+    "pinyin": "chóngguī-yúhǎo",
     "meaning": "sich wieder versoehnen",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -24840,7 +24840,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:善解人意:shan4jie3ren2yi4",
     "word": "善解人意",
-    "pinyin": "shàn jiě rén yì",
+    "pinyin": "shànjiě-rényì",
     "meaning": "einfühlsam, verständnisvoll",
     "type": "Adjektiv",
     "level": "Zusatz",
@@ -25459,7 +25459,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:多愁善感:duo1chou2shan4gan3",
     "word": "多愁善感",
-    "pinyin": "duō chóu shàn gǎn",
+    "pinyin": "duōchóu-shàngǎn",
     "meaning": "empfindsam, sentimental",
     "type": "Adjektiv",
     "level": "Zusatz",
@@ -25482,7 +25482,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:冷嘲热讽:leng3chao2re4feng3",
     "word": "冷嘲热讽",
-    "pinyin": "lěng cháo rè fěng",
+    "pinyin": "lěngcháo-rèfěng",
     "meaning": "spötteln, sarkastische Bemerkungen",
     "type": "Verb",
     "level": "Zusatz",
@@ -26850,7 +26850,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:因材施教:yin1cai2shi1jiao4",
     "word": "因材施教",
-    "pinyin": "yīn cái shī jiào",
+    "pinyin": "yīncái-shījiào",
     "meaning": "Unterricht den Fähigkeiten anpassen",
     "type": "Verb",
     "level": "Zusatz",
@@ -30401,7 +30401,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:五险一金:wu3xian3yi1jin1",
     "word": "五险一金",
-    "pinyin": "wǔ xiǎn yī jīn",
+    "pinyin": "wǔxiǎn-yījīn",
     "meaning": "fuenf Sozialversicherungen und ein Wohnfonds",
     "type": "Nomen",
     "level": "Zusatz",
@@ -38570,7 +38570,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:天人合一:tian1ren2he2yi1",
     "word": "天人合一",
-    "pinyin": "tiān rén hé yī",
+    "pinyin": "tiānrén-héyī",
     "meaning": "Einheit von Mensch und Natur",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -38644,7 +38644,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:鸿篇巨制:hong2pian1ju4zhi4",
     "word": "鸿篇巨制",
-    "pinyin": "hóng piān jù zhì",
+    "pinyin": "hóngpiān-jùzhì",
     "meaning": "Monumentalwerk, Opus magnum",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -38918,7 +38918,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:概莫能外:gai4mo4neng2wai4",
     "word": "概莫能外",
-    "pinyin": "gài mò néng wài",
+    "pinyin": "gàimò-néngwài",
     "meaning": "ohne Ausnahme",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -38939,7 +38939,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:有目共睹:you3mu4gong4du3",
     "word": "有目共睹",
-    "pinyin": "yǒu mù gòng dǔ",
+    "pinyin": "yǒumù-gòngdǔ",
     "meaning": "für jedermann sichtbar",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -38985,7 +38985,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:有鉴于此:you3jian4yu2ci3",
     "word": "有鉴于此",
-    "pinyin": "yǒu jiàn yú cǐ",
+    "pinyin": "yǒujiàn-yúcǐ",
     "meaning": "in Anbetracht dessen",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39452,7 +39452,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:势在必行:shi4zai4bi4xing2",
     "word": "势在必行",
-    "pinyin": "shì zài bì xíng",
+    "pinyin": "shìzài-bìxíng",
     "meaning": "unbedingt notwendig",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39498,7 +39498,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:一劳永逸:yi1lao2yong3yi4",
     "word": "一劳永逸",
-    "pinyin": "yī láo yǒng yì",
+    "pinyin": "yīláo-yǒngyì",
     "meaning": "ein für alle Mal",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39521,7 +39521,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:首当其冲:shou3dang1qi2chong1",
     "word": "首当其冲",
-    "pinyin": "shǒu dāng qí chōng",
+    "pinyin": "shǒudāng-qíchōng",
     "meaning": "als Erster betroffen sein",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39544,7 +39544,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:独树一帜:du2shu4yi1zhi4",
     "word": "独树一帜",
-    "pinyin": "dú shù yī zhì",
+    "pinyin": "dúshù-yīzhì",
     "meaning": "einzigartig sein, herausragen",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39567,7 +39567,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:推陈出新:tui1chen2chu1xin1",
     "word": "推陈出新",
-    "pinyin": "tuī chén chū xīn",
+    "pinyin": "tuīchén-chūxīn",
     "meaning": "Altes beseitigen und Neues schaffen",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39590,7 +39590,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:入木三分:ru4mu4san1fen1",
     "word": "入木三分",
-    "pinyin": "rù mù sān fēn",
+    "pinyin": "rùmù-sānfēn",
     "meaning": "tiefgehend, treffend (Beschreibung)",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39613,7 +39613,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:栩栩如生:xu3xu3ru2sheng1",
     "word": "栩栩如生",
-    "pinyin": "xǔ xǔ rú shēng",
+    "pinyin": "xǔxǔ-rúshēng",
     "meaning": "lebensecht, lebendig",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39636,7 +39636,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:惟妙惟肖:wei2miao4wei2xiao4",
     "word": "惟妙惟肖",
-    "pinyin": "wéi miào wéi xiào",
+    "pinyin": "wéimiào-wéixiào",
     "meaning": "täuschend echt, originalgetreu",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39659,7 +39659,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:脍炙人口:kuai4zhi4ren2kou3",
     "word": "脍炙人口",
-    "pinyin": "kuài zhì rén kǒu",
+    "pinyin": "kuàizhì-rénkǒu",
     "meaning": "allgemein beliebt und bekannt",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39728,7 +39728,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:义不容辞:yi4bu4rong2ci2",
     "word": "义不容辞",
-    "pinyin": "yì bù róng cí",
+    "pinyin": "yìbù-róngcí",
     "meaning": "die Pflicht lässt kein Zögern zu",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39751,7 +39751,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:千篇一律:qian1pian1yi1lv4",
     "word": "千篇一律",
-    "pinyin": "qiān piān yī lǜ",
+    "pinyin": "qiānpiān-yīlǜ",
     "meaning": "immer dasselbe, eintönig",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39774,7 +39774,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:标新立异:biao1xin1li4yi4",
     "word": "标新立异",
-    "pinyin": "biāo xīn lì yì",
+    "pinyin": "biāoxīn-lìyì",
     "meaning": "originell sein, aus der Reihe tanzen",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39797,7 +39797,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:望而却步:wang4er2que4bu4",
     "word": "望而却步",
-    "pinyin": "wàng ér què bù",
+    "pinyin": "wàng’ér-quèbù",
     "meaning": "vor etwas zurückschrecken",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39820,7 +39820,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:居功自傲:ju1gong1zi4ao4",
     "word": "居功自傲",
-    "pinyin": "jū gōng zì ào",
+    "pinyin": "jūgōng-zì’ào",
     "meaning": "sich seiner Verdienste rühmen",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39843,7 +39843,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:置之不理:zhi4zhi1bu4li3",
     "word": "置之不理",
-    "pinyin": "zhì zhī bù lǐ",
+    "pinyin": "zhìzhī-bùlǐ",
     "meaning": "ignorieren, unbeachtet lassen",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39866,7 +39866,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:寸步难行:cun4bu4nan2xing2",
     "word": "寸步难行",
-    "pinyin": "cùn bù nán xíng",
+    "pinyin": "cùnbù-nánxíng",
     "meaning": "keinen Schritt vorwärtskommen",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39889,7 +39889,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:纷至沓来:fen1zhi4ta4lai2",
     "word": "纷至沓来",
-    "pinyin": "fēn zhì tà lái",
+    "pinyin": "fēnzhì-tàlái",
     "meaning": "in Scharen kommen",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39912,7 +39912,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:深不可测:shen1bu4ke3ce4",
     "word": "深不可测",
-    "pinyin": "shēn bù kě cè",
+    "pinyin": "shēnbù-kěcè",
     "meaning": "unergründlich, undurchschaubar",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39936,7 +39936,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:言之有理:yan2zhi1you3li3",
     "word": "言之有理",
-    "pinyin": "yán zhī yǒu lǐ",
+    "pinyin": "yánzhī-yǒulǐ",
     "meaning": "das klingt vernünftig",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39957,7 +39957,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:如出一辙:ru2chu1yi1zhe2",
     "word": "如出一辙",
-    "pinyin": "rú chū yī zhé",
+    "pinyin": "rúchū-yīzhé",
     "meaning": "genau gleich, wie aus einem Guss",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -39980,7 +39980,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:异曲同工:yi4qu3tong2gong1",
     "word": "异曲同工",
-    "pinyin": "yì qǔ tóng gōng",
+    "pinyin": "yìqǔ-tónggōng",
     "meaning": "verschiedene Ansätze, gleiches Ergebnis",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -40003,7 +40003,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:不谋而合:bu4mou2er2he2",
     "word": "不谋而合",
-    "pinyin": "bù móu ér hé",
+    "pinyin": "bùmóu-érhé",
     "meaning": "zufällig übereinstimmen",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -40026,7 +40026,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:深入浅出:shen1ru4qian3chu1",
     "word": "深入浅出",
-    "pinyin": "shēn rù qiǎn chū",
+    "pinyin": "shēnrù-qiǎnchū",
     "meaning": "tiefgruendig, aber verstaendlich erklaeren",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -41232,7 +41232,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:植树造林:zhi2shu4zao4lin2",
     "word": "植树造林",
-    "pinyin": "zhí shù zào lín",
+    "pinyin": "zhíshù-zàolín",
     "meaning": "Aufforstung",
     "type": "Nomen",
     "level": "Zusatz",
@@ -41785,7 +41785,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:沁人心脾:qin4ren2xin1pi2",
     "word": "沁人心脾",
-    "pinyin": "qìn rén xīn pí",
+    "pinyin": "qìnrén-xīnpí",
     "meaning": "erfrischend, wohltuend",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -41814,7 +41814,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:别出心裁:bie2chu1xin1cai2",
     "word": "别出心裁",
-    "pinyin": "bié chū xīn cái",
+    "pinyin": "biéchū-xīncái",
     "meaning": "einfallsreich, originell",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -41838,7 +41838,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:承上启下:cheng2shang4qi3xia4",
     "word": "承上启下",
-    "pinyin": "chéng shàng qǐ xià",
+    "pinyin": "chéngshàng-qǐxià",
     "meaning": "Verbindung zwischen Vorherigem und Folgendem herstellen",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -41859,7 +41859,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:开诚布公:kai1cheng2bu4gong1",
     "word": "开诚布公",
-    "pinyin": "kāi chéng bù gōng",
+    "pinyin": "kāichéng-bùgōng",
     "meaning": "offen und ehrlich sein",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -41882,7 +41882,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:权宜之计:quan2yi2zhi1ji4",
     "word": "权宜之计",
-    "pinyin": "quán yí zhī jì",
+    "pinyin": "quányí-zhījì",
     "meaning": "Notlösung, Behelfslösung",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -41905,7 +41905,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:可圈可点:ke3quan1ke3dian3",
     "word": "可圈可点",
-    "pinyin": "kě quān kě diǎn",
+    "pinyin": "kěquān-kědiǎn",
     "meaning": "lobenswert, bemerkenswert",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -41928,7 +41928,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:春风化雨:chun1feng1hua4yu3",
     "word": "春风化雨",
-    "pinyin": "chūn fēng huà yǔ",
+    "pinyin": "chūnfēng-huàyǔ",
     "meaning": "wohltuend erziehen (wie Frühlingswind und Regen)",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -41951,7 +41951,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:厚积薄发:hou4ji1bo2fa1",
     "word": "厚积薄发",
-    "pinyin": "hòu jī bó fā",
+    "pinyin": "hòujī-bófā",
     "meaning": "lange vorbereiten und dann durchstarten",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -41974,7 +41974,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:水到渠成:shui3dao4qu2cheng2",
     "word": "水到渠成",
-    "pinyin": "shuǐ dào qú chéng",
+    "pinyin": "shuǐdào-qúchéng",
     "meaning": "wenn die Zeit reif ist, ergibt sich alles von selbst",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -41997,7 +41997,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:大刀阔斧:da4dao1kuo4fu3",
     "word": "大刀阔斧",
-    "pinyin": "dà dāo kuò fǔ",
+    "pinyin": "dàdāo-kuòfǔ",
     "meaning": "entschlossen und weitreichend (Reformen)",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -42026,7 +42026,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:休戚与共:xiu1qi1yu3gong4",
     "word": "休戚与共",
-    "pinyin": "xiū qī yǔ gòng",
+    "pinyin": "xiūqī-yǔgòng",
     "meaning": "Freud und Leid teilen",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -42047,7 +42047,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:防患未然:fang2huan4wei4ran2",
     "word": "防患未然",
-    "pinyin": "fáng huàn wèi rán",
+    "pinyin": "fánghuàn-wèirán",
     "meaning": "vorbeugen, bevor es passiert",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -42070,7 +42070,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:高瞻远瞩:gao1zhan1yuan3zhu3",
     "word": "高瞻远瞩",
-    "pinyin": "gāo zhān yuǎn zhǔ",
+    "pinyin": "gāozhān-yuǎnzhǔ",
     "meaning": "weitsichtig, vorausschauend",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -42094,7 +42094,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:择善而从:ze2shan4er2cong2",
     "word": "择善而从",
-    "pinyin": "zé shàn ér cóng",
+    "pinyin": "zéshàn-ércóng",
     "meaning": "das Gute auswählen und befolgen",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -42117,7 +42117,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:兼容并蓄:jian1rong2bing4xu4",
     "word": "兼容并蓄",
-    "pinyin": "jiān róng bìng xù",
+    "pinyin": "jiānróng-bìngxù",
     "meaning": "alles aufnehmen und vereinen",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -42159,7 +42159,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:润物无声:run4wu4wu2sheng1",
     "word": "润物无声",
-    "pinyin": "rùn wù wú shēng",
+    "pinyin": "rùnwù-wúshēng",
     "meaning": "lautlos befeuchten (stille Einflussnahme)",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -42181,7 +42181,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:量体裁衣:liang4ti3cai2yi1",
     "word": "量体裁衣",
-    "pinyin": "liàng tǐ cái yī",
+    "pinyin": "liàngtǐ-cáiyī",
     "meaning": "maßschneidern, individuell anpassen",
     "type": "Ausdruck",
     "level": "Zusatz",
@@ -52829,7 +52829,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:推波助澜:tui1bo1zhu4lan2",
     "word": "推波助澜",
-    "pinyin": "tuī bō zhù lán",
+    "pinyin": "tuībō-zhùlán",
     "meaning": "Öl ins Feuer gießen, anstacheln",
     "type": "Verb",
     "level": "Zusatz",
@@ -52852,7 +52852,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:除旧布新:chu2jiu4bu4xin1",
     "word": "除旧布新",
-    "pinyin": "chú jiù bù xīn",
+    "pinyin": "chújiù-bùxīn",
     "meaning": "das Alte beseitigen und Neues einführen",
     "type": "Verb",
     "level": "Zusatz",
@@ -52875,7 +52875,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:火上浇油:huo3shang4jiao1you2",
     "word": "火上浇油",
-    "pinyin": "huǒ shàng jiāo yóu",
+    "pinyin": "huǒshàng-jiāoyóu",
     "meaning": "Öl ins Feuer gießen, Streit verschärfen",
     "type": "Verb",
     "level": "Zusatz",
@@ -52898,7 +52898,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:抛砖引玉:pao1zhuan1yin3yu4",
     "word": "抛砖引玉",
-    "pinyin": "pāo zhuān yǐn yù",
+    "pinyin": "pāozhuān-yǐnyù",
     "meaning": "einen Backstein werfen, um Jade zu erhalten (bescheidener Anfang)",
     "type": "Verb",
     "level": "Zusatz",
@@ -52927,7 +52927,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:扬长避短:yang2chang2bi4duan3",
     "word": "扬长避短",
-    "pinyin": "yáng cháng bì duǎn",
+    "pinyin": "yángcháng-bìduǎn",
     "meaning": "Stärken nutzen, Schwächen vermeiden",
     "type": "Verb",
     "level": "Zusatz",
@@ -52950,7 +52950,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:添砖加瓦:tian1zhuan1jia1wa3",
     "word": "添砖加瓦",
-    "pinyin": "tiān zhuān jiā wǎ",
+    "pinyin": "tiānzhuān-jiāwǎ",
     "meaning": "einen Beitrag leisten, zum Aufbau beitragen",
     "type": "Verb",
     "level": "Zusatz",
@@ -52973,7 +52973,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:见缝插针:jian4feng4cha1zhen1",
     "word": "见缝插针",
-    "pinyin": "jiàn fèng chā zhēn",
+    "pinyin": "jiànfèng-chāzhēn",
     "meaning": "jede Lücke nutzen, jede Gelegenheit ergreifen",
     "type": "Verb",
     "level": "Zusatz",
@@ -52996,7 +52996,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:防微杜渐:fang2wei1du4jian4",
     "word": "防微杜渐",
-    "pinyin": "fáng wēi dù jiàn",
+    "pinyin": "fángwēi-dùjiàn",
     "meaning": "Gefahren im Keim ersticken",
     "type": "Verb",
     "level": "Zusatz",
@@ -53019,7 +53019,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:有备无患:you3bei4wu2huan4",
     "word": "有备无患",
-    "pinyin": "yǒu bèi wú huàn",
+    "pinyin": "yǒubèi-wúhuàn",
     "meaning": "wer vorbereitet ist, hat nichts zu befürchten",
     "type": "Verb",
     "level": "Zusatz",
@@ -53042,7 +53042,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:削足适履:xue1zu2shi4lv3",
     "word": "削足适履",
-    "pinyin": "xuē zú shì lǚ",
+    "pinyin": "xuēzú-shìlǚ",
     "meaning": "den Fuß dem Schuh anpassen (Tatsachen verdrehen)",
     "type": "Verb",
     "level": "Zusatz",
@@ -53065,7 +53065,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:越俎代庖:yue4zu3dai4pao2",
     "word": "越俎代庖",
-    "pinyin": "yuè zǔ dài páo",
+    "pinyin": "yuèzǔ-dàipáo",
     "meaning": "sich in anderer Leute Angelegenheiten einmischen",
     "type": "Verb",
     "level": "Zusatz",
@@ -53088,7 +53088,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:指桑骂槐:zhi3sang1ma4huai2",
     "word": "指桑骂槐",
-    "pinyin": "zhǐ sāng mà huái",
+    "pinyin": "zhǐsāng-màhuái",
     "meaning": "auf die Maulbeere zeigen und die Akazie beschimpfen (indirekt kritisieren)",
     "type": "Verb",
     "level": "Zusatz",
@@ -53111,7 +53111,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:隔靴搔痒:ge2xue1sao1yang3",
     "word": "隔靴搔痒",
-    "pinyin": "gé xuē sāo yǎng",
+    "pinyin": "géxuē-sāoyǎng",
     "meaning": "durch den Stiefel kratzen (nicht zum Kern vordringen)",
     "type": "Verb",
     "level": "Zusatz",
@@ -53180,7 +53180,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:因势利导:yin1shi4li4dao3",
     "word": "因势利导",
-    "pinyin": "yīn shì lì dǎo",
+    "pinyin": "yīnshì-lìdǎo",
     "meaning": "die Situation nutzen und lenken",
     "type": "Verb",
     "level": "Zusatz",
@@ -53203,7 +53203,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:循循善诱:xun2xun2shan4you4",
     "word": "循循善诱",
-    "pinyin": "xún xún shàn yòu",
+    "pinyin": "xúnxún-shànyòu",
     "meaning": "geduldig anleiten, behutsam belehren",
     "type": "Verb",
     "level": "Zusatz",
@@ -53270,7 +53270,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:见机行事:jian4ji1xing2shi4",
     "word": "见机行事",
-    "pinyin": "jiàn jī xíng shì",
+    "pinyin": "jiànjī-xíngshì",
     "meaning": "nach Lage der Dinge handeln, flexibel reagieren",
     "type": "Verb",
     "level": "Zusatz",
@@ -53293,7 +53293,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:顺藤摸瓜:shun4teng2mo1gua1",
     "word": "顺藤摸瓜",
-    "pinyin": "shùn téng mō guā",
+    "pinyin": "shùnténg-mōguā",
     "meaning": "der Ranke folgend die Melone finden (einer Spur folgen)",
     "type": "Verb",
     "level": "Zusatz",
@@ -53316,7 +53316,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:釜底抽薪:fu3di3chou1xin1",
     "word": "釜底抽薪",
-    "pinyin": "fǔ dǐ chōu xīn",
+    "pinyin": "fǔdǐ-chōuxīn",
     "meaning": "das Brennholz unter dem Kessel entfernen (das Problem an der Wurzel packen)",
     "type": "Verb",
     "level": "Zusatz",
@@ -53339,7 +53339,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:左右逢源:zuo3you4feng2yuan2",
     "word": "左右逢源",
-    "pinyin": "zuǒ yòu féng yuán",
+    "pinyin": "zuǒyòu-féngyuán",
     "meaning": "sich in jeder Situation zu helfen wissen",
     "type": "Verb",
     "level": "Zusatz",
@@ -53385,7 +53385,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:深谋远虑:shen1mou2yuan3lv4",
     "word": "深谋远虑",
-    "pinyin": "shēn móu yuǎn lǜ",
+    "pinyin": "shēnmóu-yuǎnlǜ",
     "meaning": "weit vorausdenken, weitsichtig planen",
     "type": "Adjektiv",
     "level": "Zusatz",
@@ -53408,7 +53408,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:殚精竭虑:dan1jing1jie2lv4",
     "word": "殚精竭虑",
-    "pinyin": "dān jīng jié lǜ",
+    "pinyin": "dānjīng-jiélǜ",
     "meaning": "alle geistige Energie aufwenden, sich den Kopf zerbrechen",
     "type": "Verb",
     "level": "Zusatz",
@@ -53436,7 +53436,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:呕心沥血:ou3xin1li4xue4",
     "word": "呕心沥血",
-    "pinyin": "ǒu xīn lì xuè",
+    "pinyin": "ǒuxīn-lìxuè",
     "meaning": "Herzblut und Schweiss investieren; sich etwas mit grösster Mühe abringen",
     "type": "Verb",
     "level": "Zusatz",
@@ -53464,7 +53464,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:义正言辞:yi4zheng4yan2ci2",
     "word": "义正言辞",
-    "pinyin": "yì zhèng yán cí",
+    "pinyin": "yìzhèng-yáncí",
     "meaning": "mit gerechter Empörung, aufrichtig und entschlossen",
     "type": "Adjektiv",
     "level": "Zusatz",
@@ -54714,7 +54714,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:鞭辟入里:bian1pi4ru4li3",
     "word": "鞭辟入里",
-    "pinyin": "biān pì rù lǐ",
+    "pinyin": "biānpì-rùlǐ",
     "meaning": "tief und durchdringend analysieren",
     "type": "Adjektiv",
     "level": "Zusatz",
@@ -54742,7 +54742,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:发人深省:fa1ren2shen1xing3",
     "word": "发人深省",
-    "pinyin": "fā rén shēn xǐng",
+    "pinyin": "fārén-shēnxǐng",
     "meaning": "zum Nachdenken anregend",
     "type": "Adjektiv",
     "level": "Zusatz",
@@ -54837,7 +54837,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:炉火纯青:lu2huo3chun2qing1",
     "word": "炉火纯青",
-    "pinyin": "lú huǒ chún qīng",
+    "pinyin": "lúhuǒ-chúnqīng",
     "meaning": "Meisterschaft erlangt haben, perfektioniert",
     "type": "Adjektiv",
     "level": "Zusatz",
@@ -54866,7 +54866,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:无与伦比:wu2yu3lun2bi3",
     "word": "无与伦比",
-    "pinyin": "wú yǔ lún bǐ",
+    "pinyin": "wúyǔ-lúnbǐ",
     "meaning": "unvergleichlich, ohnegleichen",
     "type": "Adjektiv",
     "level": "Zusatz",
@@ -54912,7 +54912,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:别具一格:bie2ju4yi1ge2",
     "word": "别具一格",
-    "pinyin": "bié jù yī gé",
+    "pinyin": "biéjù-yīgé",
     "meaning": "einzigartig im Stil, anders als die anderen",
     "type": "Adjektiv",
     "level": "Zusatz",
@@ -54935,7 +54935,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:巧夺天工:qiao3duo2tian1gong1",
     "word": "巧夺天工",
-    "pinyin": "qiǎo duó tiān gōng",
+    "pinyin": "qiǎoduó-tiāngōng",
     "meaning": "die Natur übertreffende Kunstfertigkeit",
     "type": "Adjektiv",
     "level": "Zusatz",
@@ -59320,7 +59320,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:华而不实:hua2er2bu4shi2",
     "word": "华而不实",
-    "pinyin": "huá ér bù shí",
+    "pinyin": "huá’ér-bùshí",
     "meaning": "glaenzend aber inhaltslos",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -59643,7 +59643,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:溃不成军:kui4bu4cheng2jun1",
     "word": "溃不成军",
-    "pinyin": "kuì bù chéng jūn",
+    "pinyin": "kuìbù-chéngjūn",
     "meaning": "voellig geschlagen werden",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -63548,7 +63548,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:诲人不倦:hui4ren2bu4juan4",
     "word": "诲人不倦",
-    "pinyin": "huì rén bù juàn",
+    "pinyin": "huìrén-bùjuàn",
     "meaning": "unermüdlich lehren und erziehen",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -63822,7 +63822,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:笔耕不辍:bi3geng1bu4chuo4",
     "word": "笔耕不辍",
-    "pinyin": "bǐ gēng bù chuò",
+    "pinyin": "bǐgēng-bùchuò",
     "meaning": "unablaessig schreiben",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -64030,7 +64030,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:佶屈聱牙:ji2qu1ao2ya2",
     "word": "佶屈聱牙",
-    "pinyin": "jí qū áo yá",
+    "pinyin": "jíqū-áoyá",
     "meaning": "schwer verstaendlich (Stil), sperrig",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -64927,7 +64927,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:踵事增华:zhong3shi4zeng1hua2",
     "word": "踵事增华",
-    "pinyin": "zhǒng shì zēng huá",
+    "pinyin": "zhǒngshì-zēnghuá",
     "meaning": "auf Vorhandenem aufbauen und es verschoenern",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -65038,7 +65038,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:弢光养晦:tao1guang1yang3hui4",
     "word": "弢光养晦",
-    "pinyin": "tāo guāng yǎng huì",
+    "pinyin": "tāoguāng-yǎnghuì",
     "meaning": "sein Licht unter den Scheffel stellen",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -65105,7 +65105,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:罄竹难书:qing4zhu2nan2shu1",
     "word": "罄竹难书",
-    "pinyin": "qìng zhú nán shū",
+    "pinyin": "qìngzhú-nánshū",
     "meaning": "zu zahlreich, um aufgezaehlt zu werden (Verbrechen)",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -65443,7 +65443,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:髀肉复生:bi4rou4fu4sheng1",
     "word": "髀肉复生",
-    "pinyin": "bì ròu fù shēng",
+    "pinyin": "bìròu-fùshēng",
     "meaning": "tatenlos herumsitzen und Fett ansetzen (bedauern)",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -65596,7 +65596,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:铢积寸累:zhu1ji1cun4lei3",
     "word": "铢积寸累",
-    "pinyin": "zhū jī cùn lěi",
+    "pinyin": "zhūjī-cùnlěi",
     "meaning": "Stueck fuer Stueck ansammeln",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -65640,7 +65640,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:沤心沥血:ou3xin1li4xue4",
     "word": "沤心沥血",
-    "pinyin": "ǒu xīn lì xuè",
+    "pinyin": "ǒuxīn-lìxuè",
     "meaning": "sein Herzblut hineinstecken",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -65684,7 +65684,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:皓首穷经:hao4shou3qiong2jing1",
     "word": "皓首穷经",
-    "pinyin": "hào shǒu qióng jīng",
+    "pinyin": "hàoshǒu-qióngjīng",
     "meaning": "bis ins hohe Alter die Klassiker studieren",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -67007,7 +67007,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:绠短汲深:geng3duan3ji2shen1",
     "word": "绠短汲深",
-    "pinyin": "gěng duǎn jí shēn",
+    "pinyin": "gěngduǎn-jíshēn",
     "meaning": "mit unzureichenden Mitteln Grosses versuchen",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -67162,7 +67162,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:沆瀣一气:hang4xie4yi1qi4",
     "word": "沆瀣一气",
-    "pinyin": "hàng xiè yī qì",
+    "pinyin": "hàngxiè-yīqì",
     "meaning": "unter einer Decke stecken, gemeinsame Sache machen",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -67662,7 +67662,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:栉比鳞次:zhi4bi3lin2ci4",
     "word": "栉比鳞次",
-    "pinyin": "zhì bǐ lín cì",
+    "pinyin": "zhìbǐ-líncì",
     "meaning": "dicht an dicht gereiht wie Kammzähne",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -67905,7 +67905,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:曲高和寡:qu3gao1he4gua3",
     "word": "曲高和寡",
-    "pinyin": "qǔ gāo hè guǎ",
+    "pinyin": "qǔgāo-hèguǎ",
     "meaning": "je höher die Melodie, desto weniger Mitsänger; zu elitär",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -68294,7 +68294,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:瘦骨嶙峋:shou4gu3lin2xun2",
     "word": "瘦骨嶙峋",
-    "pinyin": "shòu gǔ lín xún",
+    "pinyin": "shòugǔ-línxún",
     "meaning": "bis auf die Knochen abgemagert",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -68317,7 +68317,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:箪食壶浆:dan1si4hu2jiang1",
     "word": "箪食壶浆",
-    "pinyin": "dān sì hú jiāng",
+    "pinyin": "dānsì-hújiāng",
     "meaning": "mit Essen und Trinken willkommen heissen",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -68614,7 +68614,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:瞠目结舌:cheng1mu4jie2she2",
     "word": "瞠目结舌",
-    "pinyin": "chēng mù jié shé",
+    "pinyin": "chēngmù-jiéshé",
     "meaning": "sprachlos und mit grossen Augen dastehen",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -68660,7 +68660,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:戛然而止:jia2ran2er2zhi3",
     "word": "戛然而止",
-    "pinyin": "jiá rán ér zhǐ",
+    "pinyin": "jiárán-érzhǐ",
     "meaning": "abrupt aufhören, schlagartig enden",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -68909,7 +68909,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:怙恶不悛:hu4e4bu4quan1",
     "word": "怙恶不悛",
-    "pinyin": "hù è bù quān",
+    "pinyin": "hù’è-bùquān",
     "meaning": "hartnäckig am Bösen festhalten, unverbesserlich",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -70011,7 +70011,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:颐指气使:yi2zhi3qi4shi3",
     "word": "颐指气使",
-    "pinyin": "yí zhǐ qì shǐ",
+    "pinyin": "yízhǐ-qìshǐ",
     "meaning": "herrisch kommandieren, herumkommandieren",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -76611,7 +76611,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:药到病除:yao4dao4bing4chu2",
     "word": "药到病除",
-    "pinyin": "yào dào bìng chú",
+    "pinyin": "yàodào-bìngchú",
     "meaning": "die Medizin wirkt sofort; schnelle Loesung",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -77049,7 +77049,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:柴米油盐:chai2mi3you2yan2",
     "word": "柴米油盐",
-    "pinyin": "chái mǐ yóu yán",
+    "pinyin": "cháimǐ-yóuyán",
     "meaning": "Brennholz, Reis, Oel und Salz (der Alltag)",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -77118,7 +77118,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:入不敷出:ru4bu4fu1chu1",
     "word": "入不敷出",
-    "pinyin": "rù bù fū chū",
+    "pinyin": "rùbù-fūchū",
     "meaning": "mehr ausgeben als einnehmen",
     "type": "Redewendung",
     "level": "Zusatz",
