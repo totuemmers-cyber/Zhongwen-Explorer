@@ -125,4 +125,41 @@ function mainEntryOrder(cedict) {
   return (a, b) => isProperName(a) - isProperName(b) || isVariantOnly(a) - isVariantOnly(b) || usage(b) - usage(a);
 }
 
-module.exports = { SOURCES, numericKey, loadCedict, mainEntryOrder, loadHandedict, germanGloss, loadOpenCC };
+// OpenCC simplified -> traditional for single characters, all options in OpenCC order (发 → 發 髮).
+function loadOpenCCCharacters() {
+  const map = new Map();
+  for (const line of fs.readFileSync(path.join(SOURCES, 'opencc-STCharacters.txt'), 'utf8').split(/\r?\n/)) {
+    const [key, values] = line.split('\t');
+    if (key && values) map.set(key, values.trim().split(' '));
+  }
+  return map;
+}
+
+// Unihan fields per character: Map<char, {field: value}> for the requested fields (kMandarin,
+// kTGHZ2013, kTotalStrokes, kRSUnicode, kTraditionalVariant …). Unihan.zip is read with unzip
+// (Git for Windows, Linux, macOS) or bsdtar.
+function loadUnihan(fields) {
+  const { execFileSync } = require('child_process');
+  const zip = path.join(SOURCES, 'Unihan.zip');
+  if (!fs.existsSync(zip)) throw new Error('Unihan missing: run node scripts/fetch-sources.cjs');
+  const wanted = new Set(fields);
+  const read = name => {
+    const options = { maxBuffer: 1 << 26, encoding: 'utf8' };
+    try { return execFileSync('unzip', ['-p', zip, name], options); }
+    catch (e) { return execFileSync('tar', ['-xOf', zip, name], options); }
+  };
+  const map = new Map();
+  for (const name of ['Unihan_Readings.txt', 'Unihan_IRGSources.txt', 'Unihan_Variants.txt', 'Unihan_DictionaryLikeData.txt']) {
+    for (const line of read(name).split(/\r?\n/)) {
+      if (!line.startsWith('U+')) continue;
+      const [code, field, value] = line.split('\t');
+      if (!wanted.has(field)) continue;
+      const ch = String.fromCodePoint(parseInt(code.slice(2), 16));
+      if (!map.has(ch)) map.set(ch, {});
+      map.get(ch)[field] = value;
+    }
+  }
+  return map;
+}
+
+module.exports = { SOURCES, numericKey, loadCedict, mainEntryOrder, loadHandedict, germanGloss, loadOpenCC, loadOpenCCCharacters, loadUnihan };

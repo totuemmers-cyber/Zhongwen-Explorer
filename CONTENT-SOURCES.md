@@ -49,10 +49,22 @@ https://github.com/BYVoid/OpenCC (commit `8cf737a`), Apache License 2.0. `STPhra
 ## Unihan
 
 Unicode Han Database, https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip,
-[Unicode License v3](https://www.unicode.org/license.txt). Character variants and stroke counts.
+[Unicode License v3](https://www.unicode.org/license.txt). Hanzi readings (kTGHZ2013, kMandarin,
+kHanyuPinlu), radical/stroke index (kRSUnicode), stroke counts (cross-check) and traditional variants.
 
 ## AnimCJK stroke-order diagrams
 
 The SVGs in `stroke-order/` come from AnimCJK (https://github.com/parsimonhi/animCJK,
 © FM-SH), derived from Make Me a Hanzi and the Arphic PL KaitiM fonts, and are distributed under
-the Arphic Public License: `stroke-order/ARPHIC-LICENSE.txt`.
+the Arphic Public License: `stroke-order/ARPHIC-LICENSE.txt`. All diagrams are taken from the
+`svgsZhHans` set at commit `ec5e17c` (`scripts/hanzi/fetch-strokes.cjs`); AnimCJK has no diagram for
+9 rare characters (弢翛愊赒阛阓瞋骱槃), whose cards show no stroke order.
+
+## Hanzi components (AnimCJK dictionary, Make Me a Hanzi)
+
+The component lists of the hanzi cards are derived from the AnimCJK `dictionaryZhHans.txt` (commit
+`ec5e17c`, decomposition and radical) and the Make Me a Hanzi `dictionary.txt`
+(https://github.com/skishore/makemeahanzi, commit `bddc96d`, etymology type and semantic/phonetic
+hints; itself derived from Unihan and CJKlib). Both are licensed under the GNU Lesser General Public
+License 3.0, so the derived component data in the hanzi files is distributed under the same licence:
+`licenses/LGPL-3.0.txt`.
