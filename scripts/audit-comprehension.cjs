@@ -46,7 +46,8 @@ function auditUnits(sources, options) {
       // Identity and order.
       if (u.level !== source.level) error('level ' + u.level + ' in ' + source.file);
       if (!SKILLS.includes(u.skill)) { error('skill must be reading or listening'); return; }
-      if (u.order !== nextOrder[u.skill]) error('order ' + u.order + ', expected ' + nextOrder[u.skill] + ' (consecutive per level and skill, in file order)');
+      // Packets of the authoring campaign hold a slice of a level (options.sequence false): no sequence check there.
+      if (options.sequence !== false && u.order !== nextOrder[u.skill]) error('order ' + u.order + ', expected ' + nextOrder[u.skill] + ' (consecutive per level and skill, in file order)');
       nextOrder[u.skill] = (Number.isInteger(u.order) ? u.order : nextOrder[u.skill]) + 1;
       const expectedId = u.skill + '-' + source.level.toLowerCase() + '-' + String(u.order).padStart(2, '0');
       if (u.id !== expectedId) error('id must be ' + expectedId);
