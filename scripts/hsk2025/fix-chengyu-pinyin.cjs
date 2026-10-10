@@ -14,15 +14,13 @@ for (const source of sources) {
   for (const item of source.items) {
     if (Array.from(item.word).length !== 4 || typeof item.pinyin !== 'string') continue;
     const parts = item.pinyin.trim().split(/\s+/);
-    // Chengyu written as one run (mèngmèiyǐqiú) get the same AB-CD form.
-    if (parts.length === 1 && item.type === 'Chengyu' && !/[-'’]/.test(parts[0])) {
-      const run = Pinyin.segment(parts[0], item.word);
-      if (Array.isArray(run) && run.length === 4 && run.join('') === parts[0]) parts.splice(0, 1, ...run);
-    }
-    // ... and chengyu written as two words (jūān sīwēi).
-    if (parts.length === 2 && item.type === 'Chengyu' && !/[-'’]/.test(item.pinyin)) {
-      const halves = parts.map((p, i) => Pinyin.segment(p, Array.from(item.word).slice(i * 2, i * 2 + 2).join('')));
-      if (halves.every((h, i) => Array.isArray(h) && h.length === 2 && h.join('') === parts[i])) parts.splice(0, 2, ...halves[0], ...halves[1]);
+    // Chengyu written as one run (mèngmèiyǐqiú), two words (jūān sīwēi) or three (pò zài méijié) get the
+    // same AB-CD form, as long as every space falls on a syllable boundary.
+    if (parts.length >= 1 && parts.length <= 3 && item.type === 'Chengyu' && !/[-'’]/.test(item.pinyin)) {
+      const run = Pinyin.segment(parts.join(''), item.word);
+      const cuts = parts.slice(0, -1).map((p, i) => parts.slice(0, i + 1).join('').length);
+      const ends = Array.isArray(run) ? run.map((s, i) => run.slice(0, i + 1).join('').length) : [];
+      if (Array.isArray(run) && run.length === 4 && run.join('') === parts.join('') && cuts.every(c => ends.includes(c))) parts.splice(0, parts.length, ...run);
     }
     if (parts.length !== 4 || parts.some(p => p !== p.toLowerCase())) continue; // names (一带一路 Yī Dài Yī Lù) stay
     const syllables = Pinyin.segment(parts.join(''), item.word);

@@ -5349,7 +5349,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:毫不犹豫:hao2bu4you2yu4",
     "word": "毫不犹豫",
-    "pinyin": "háo bù yóuyù",
+    "pinyin": "háobù-yóuyù",
     "meaning": "ohne zu zoegern; ohne jedes Bedenken",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6487,7 +6487,7 @@ window.CHENGYU_DATA = [
       "博览群书|bó lǎn qún shū"
     ],
     "evidenceNote": "compositional",
-    "traditional": "博覽羣書"
+    "traditional": "博覽群書"
   },
   {
     "id": "w:孜孜不倦:zi1zi1bu4juan4",

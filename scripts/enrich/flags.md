@@ -997,3 +997,109 @@ Author flags, type changes and reviewer fixes per batch, for follow-up decisions
 - w:翻跟头:fan1gen1tou5 翻跟头 type → Phrase: free verb-object combination 翻 + 跟头, not a lexicalised verb
 - w:荡秋千:dang4qiu1qian1 荡秋千 type → Phrase: free verb-object combination 荡 + 秋千, not a lexicalised verb
 - w:电子邮件:dian4zi3you2jian4 电子邮件 (author): measureWords lists 份 (fen4) next to 封; 份 is unusual for e-mails (封 is standard, colloquially also 个).
+
+## b050 (2026-10-10, author)
+- w:磨擦:mo2ca1 磨擦 (author): Nebenschreibung von 摩擦 mócā (Standardform); falls 摩擦 als eigene Karte existiert, Duplikat.
+- w:磨练:mo2lian4 磨练 (author): Nebenschreibung von 磨炼 móliàn (Standardform); falls 磨炼 als eigene Karte existiert, Duplikat.
+- w:多愁善感:duo1chou2shan4gan3 多愁善感 type → Chengyu: fester vierzeichiger Ausdruck (成语), kein einfaches Adjektiv
+- w:冷嘲热讽:leng3chao2re4feng3 冷嘲热讽 type → Chengyu: fester vierzeichiger Ausdruck (成语): 冷嘲 + 热讽
+- w:课题成果:ke4ti2cheng2guo3 课题成果 type → Phrase: freie Verbindung von 课题 + 成果, kein lexikalisiertes Wort
+- w:考研:kao3yan2 考研 type → Verb: Kurzform von 考研究生 (Verb + Objekt), wird verbal gebraucht: 准备考研, 考研考了两次
+- w:学术不端:xue2shu4bu2duan1 学术不端 (author): Card pinyin 'xuéshù búduān' (id bu2duan1) is wrong: 不 before first-tone 端 stays bù (citation and spoken: xuéshù bùduān).
+- w:通识:tong1shi4 通识 (author): Id suffix tong1shi4 does not match the reading tōngshí (shi2) used in pinyin and CC-CEDICT.
+- w:批判性:pi1pan4xing4 批判性 type → Nomen: -性 noun: used attributively or after 有/具有 (很有批判性), not as a gradable adjective (*很批判性)
+- w:创造性:chuang4zao4xing4 创造性 type → Nomen: -性 noun (Kreativität): used after 有/缺乏/培养 or attributively, not as a gradable adjective (*很创造性)
+- w:因材施教:yin1cai2shi1jiao4 因材施教 type → Chengyu: fixed four-character idiom (成语), not a free verb
+- w:审稿:sheng3ao3 审稿 (author): Id 'w:审稿:sheng3ao3' mis-splits the reading; it should be shen3gao3 (pinyin field shěngǎo itself is correct).
+- w:佣金:yong1jin1 佣金 (author): id spells yong1jin1, but the card pinyin (yòngjīn) and CC-CEDICT give yong4; the original example pinyin had yōngjīn (fixed in the example).
+- w:优化结构:you1hua4jie2gou4 优化结构 type → Phrase: Freie Verb-Objekt-Verbindung 优化 + 结构, kein lexikalisiertes Verb
+
+## b051 (2026-10-10, author)
+- w:漠不关心:mo4bu4guan1xin1 漠不关心 type → Chengyu: fixed four-character idiom (成语), not a free phrase
+- w:嗤之以鼻:chi1zhi1yi3bi2 嗤之以鼻 type → Chengyu: fixed four-character idiom (成语) with classical structure 之以
+- w:岂:qi3 岂 type → Adverb: 岂 is a rhetorical-question adverb (副词), not a particle (助词)
+- w:署名:shu3ming2 署名 type → Verb: 动: seinen Namen daruntersetzen (CC-CEDICT: to sign); Nominalgebrauch ist abgeleitet
+- w:随机应变:sui2ji1ying4bian4 随机应变 type → Chengyu: feste vierteilige Redewendung (成语), kein freier Ausdruck
+- w:诸:zhu1 诸 type → Pronomen: bezeichnet eine Gesamtheit „alle, verschiedene“ (诸位, 诸多), keine Partikel
+- w:逮:dai4 逮 (author): Das umgangssprachliche Verb 逮 dǎi „fangen, erwischen“ (逮老鼠, 逮住) ist die häufigere Verwendung und hat keine eigene Karte; die dài-Karte deckt nur 逮捕 und die literarische Bedeutung ab.
+- w:而言:er2yan2 而言 type → Ausdruck: 而 + 言 closing the frame 就/对…而言 – a fixed construction, not a particle
+- w:蒸馏:zheng1liu4 蒸馏 (author): id encodes zheng1liu4, but the card pinyin zhēngliú (CC-CEDICT, 现代汉语词典) is correct; liù is only the reading of 馏 alone (reheat by steaming)
+- w:失衡:shi1heng2 失衡 type → Verb: chinesische Wörterbücher führen 失衡 als Verb (失去平衡); meist prädikativ: 比例失衡, 心理失衡
+- w:地缘:di4yuan2 地缘 type → Nomen: kein Adjektiv: Nomen (geografische Lage/Verbundenheit), das meist als Bestimmungsglied vor Nomen wie 政治 steht
+
+## b053 (2026-10-10, author)
+- w:备忘录交换:bei4wang4lu4jiao1huan4 备忘录交换 (author): Kein fester Fachbegriff (CC-CEDICT/HanDeDict ohne Eintrag); üblich sind 交换备忘录 (Verb-Objekt) bzw. der Fachbegriff 换文 „Notenwechsel“. Eintrag ggf. streichen oder durch 换文 ersetzen.
+- w:备忘录交换:bei4wang4lu4jiao1huan4 备忘录交换 type → Phrase: freie Verbindung aus 备忘录 + 交换, kein fester Fachbegriff
+- w:无核化:wu2he2hua4 无核化 (author): Headword-Pinyin „wú héhuà“ sollte zusammengeschrieben werden: wúhéhuà (ein Wort, vgl. CC-CEDICT).
+- w:综合国力:zong4he2guo2li4 综合国力 (author): Headword-Pinyin zònghé (und id zong4he2) ist die taiwanische Lesung; Festland-Standard ist zōnghé (CC-CEDICT zong1 he2).
+- w:从众心理:cong2zhong4xin1li3 从众心理 (author): traditional 從衆 uses the variant 衆; the Taiwan standard form is 從眾.
+- w:无意识:wu2yi4shi2 无意识 type → Adjektiv: mainly used attributively/adverbially (无意识的动作, 无意识地); as a noun only in psychoanalysis („das Unbewusste“)
+- w:创伤后应激障碍:chuang1shang1hou4ying1ji1zhang4ai4 创伤后应激障碍 (author): id has ying1ji1, but 应激 is yìngjī (pinyin field is correct).
+- w:应激:ying1ji1 应激 (author): id has ying1ji1, but the word is yìngjī (pinyin field is correct).
+- w:人格障碍:reng2e2zhang4ai4 人格障碍 (author): id is segmented reng2e2zhang4ai4; correct would be ren2ge2zhang4ai4 (pinyin field réngé is correct).
+- w:认知行为疗法:ren4zhi1xing2wei2liao2fa3 认知行为疗法 (author): traditional 認知行爲療法 uses the variant 爲; Taiwan/HK standard form is 認知行為療法.
+- w:群体心理:qun2ti3xin1li3 群体心理 (author): traditional 羣體心理 uses the variant 羣; Taiwan/HK standard form is 群體心理.
+- w:羊群效应:yang2qun2xiao4ying4 羊群效应 (author): traditional 羊羣效應 uses the variant 羣; Taiwan/HK standard form is 羊群效應.
+- w:碳十四测年:tan4shi2si4ce4nian3 碳十四测年 (author): Syllabus/card pinyin 'tàn shísì cèniǎn' (id ...ce4nian3) is wrong: 年 in 测年 is nián (2nd tone) → tàn shísì cènián. Example pinyin written with nián.
+
+## b052 (2026-10-10, author)
+- w:长篇:chang2pian1 长篇 type → Adjektiv: attributive word (属性词): mainly before nouns (长篇小说, 长篇报道), not a free-standing noun
+- w:短篇:duan3pian1 短篇 type → Adjektiv: attributive word (属性词): mainly before nouns (短篇小说), as a noun only short for a short story
+- w:鸿篇巨制:hong2pian1ju4zhi4 鸿篇巨制 (author): traditional given as 鴻篇鉅製; the usual traditional form is 鴻篇巨製 (巨 unchanged), 鉅 is only a variant.
+- w:鸿篇巨制:hong2pian1ju4zhi4 鸿篇巨制 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:唯恐:wei2kong3 唯恐 type → Verb: 现代汉语词典: 动 (只怕); takes a clause as object, not an adverb
+- w:概莫能外:gai4mo4neng2wai4 概莫能外 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:有目共睹:you3mu4gong4du3 有目共睹 type → Chengyu: fixed four-character idiom (成语), not a free expression
+- w:以期:yi3qi1 以期 type → Konjunktion: introduces a purpose clause (…，以期…) like 以便; not an adverb
+- w:诸如:zhu1ru2 诸如 type → Verb: 现代汉语词典: 动 (举例用语, placed before the examples); not an adverb
+- w:及其:ji2qi2 及其 type → Konjunktion: 连: links two nouns (A及其B), not an adverb
+- w:藉由:jie4you2 藉由 (author): 藉由 is mainly the Taiwan spelling; mainland simplified usage writes 借由 (藉 for jiè 'by means of' is normally 借 in mainland texts). Possibly add 借由 as variant.
+- w:藉由:jie4you2 藉由 type → Präposition: 介: introduces the means (藉由 + noun/verb phrase), not an adverb
+- w:势在必行:shi4zai4bi4xing2 势在必行 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:迫在眉睫:po4zai4mei2jie2 迫在眉睫 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:一劳永逸:yi1lao2yong3yi4 一劳永逸 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:首当其冲:shou3dang1qi2chong1 首当其冲 type → Chengyu: four-character idiom (成语), not a free expression
+- w:独树一帜:du2shu4yi1zhi4 独树一帜 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:推陈出新:tui1chen2chu1xin1 推陈出新 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:入木三分:ru4mu4san1fen1 入木三分 type → Chengyu: four-character idiom (成语), not a free expression
+- w:栩栩如生:xu3xu3ru2sheng1 栩栩如生 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:惟妙惟肖:wei2miao4wei2xiao4 惟妙惟肖 type → Chengyu: four-character idiom (成语), not a free expression
+- w:脍炙人口:kuai4zhi4ren2kou3 脍炙人口 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:卓有成效:zhuo1you3cheng2xiao4 卓有成效 type → Chengyu: fixed four-character idiom (成语) of formal language, not a free expression
+- w:蔚为壮观:wei4wei2zhuang4guan1 蔚为壮观 type → Chengyu: fixed four-character idiom (成语, variant of 蔚为大观), not a free expression
+- w:义不容辞:yi4bu4rong2ci2 义不容辞 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:千篇一律:qian1pian1yi1lv4 千篇一律 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:标新立异:biao1xin1li4yi4 标新立异 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:望而却步:wang4er2que4bu4 望而却步 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:居功自傲:ju1gong1zi4ao4 居功自傲 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:置之不理:zhi4zhi1bu4li3 置之不理 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:寸步难行:cun4bu4nan2xing2 寸步难行 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:纷至沓来:fen1zhi4ta4lai2 纷至沓来 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:深不可测:shen1bu4ke3ce4 深不可测 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:言之有理:yan2zhi1you3li3 言之有理 type → Chengyu: four-character idiom (成语), not a free expression
+- w:如出一辙:ru2chu1yi1zhe2 如出一辙 type → Chengyu: four-character idiom (成语), not a free expression
+- w:异曲同工:yi4qu3tong2gong1 异曲同工 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:不谋而合:bu4mou2er2he2 不谋而合 type → Chengyu: four-character idiom (成语), not a free expression
+- w:深入浅出:shen1ru4qian3chu1 深入浅出 type → Chengyu: four-character idiom (成语, CC-CEDICT: idiom), not a free expression
+- w:量刑:liang2xing2 量刑 (author): id says liang2xing2, but the card's pinyin liàngxíng (CC-CEDICT liang4 xing2) is the correct reading; the id tone is wrong.
+- w:减排:jian3pai2 减排 type → Verb: Zusatz: Kurzform von 减少排放, überwiegend prädikativ gebraucht (大幅减排); nominal nur attributiv (减排目标)
+- w:沁人心脾:qin4ren2xin1pi2 沁人心脾 type → Chengyu: fixed four-character idiom (成语)
+- w:别出心裁:bie2chu1xin1cai2 别出心裁 type → Chengyu: fixed four-character idiom (成语)
+- w:承上启下:cheng2shang4qi3xia4 承上启下 (author): traditional 承上啓下 uses the variant 啓; the standard traditional form is 承上啟下.
+- w:承上启下:cheng2shang4qi3xia4 承上启下 type → Chengyu: fixed four-character idiom (成语)
+- w:开诚布公:kai1cheng2bu4gong1 开诚布公 type → Chengyu: fixed four-character idiom (成语)
+- w:权宜之计:quan2yi2zhi1ji4 权宜之计 type → Chengyu: fixed four-character idiom (成语)
+- w:可圈可点:ke3quan1ke3dian3 可圈可点 type → Chengyu: fixed four-character idiom (成语)
+- w:春风化雨:chun1feng1hua4yu3 春风化雨 type → Chengyu: fixed four-character idiom (成语)
+- w:厚积薄发:hou4ji1bo2fa1 厚积薄发 type → Chengyu: fixed four-character idiom (成语)
+- w:水到渠成:shui3dao4qu2cheng2 水到渠成 type → Chengyu: fixed four-character idiom (成语)
+- w:大刀阔斧:da4dao1kuo4fu3 大刀阔斧 type → Chengyu: fixed four-character idiom (成语)
+- w:休戚与共:xiu1qi1yu3gong4 休戚与共 (author): traditional 休慼與共 uses 慼; the usual traditional form is 休戚與共.
+- w:休戚与共:xiu1qi1yu3gong4 休戚与共 type → Chengyu: fixed four-character idiom (成语)
+- w:防患未然:fang2huan4wei4ran2 防患未然 type → Chengyu: fixed four-character idiom (成语)
+- w:高瞻远瞩:gao1zhan1yuan3zhu3 高瞻远瞩 type → Chengyu: fixed four-character idiom (成语)
+- w:择善而从:ze2shan4er2cong2 择善而从 type → Chengyu: fixed four-character idiom (成语)
+- w:兼容并蓄:jian1rong2bing4xu4 兼容并蓄 type → Chengyu: fixed four-character idiom (成语)
+- w:润物无声:run4wu4wu2sheng1 润物无声 type → Chengyu: fixed four-character expression from Du Fu's poem, used as an idiom
+- w:量体裁衣:liang4ti3cai2yi1 量体裁衣 type → Chengyu: fixed four-character idiom (成语)
+- w:批约:pi1yue1 批约 (author): 批约 is not in CC-CEDICT or HanDeDict and is rare in mainland usage; the standard expression is 批准（条约）. Consider whether the card is worth keeping.

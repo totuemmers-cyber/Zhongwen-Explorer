@@ -10666,7 +10666,7 @@ window.VOCAB_HSK7_9 = [
   {
     "id": "w:彬彬有礼:bin1bin1you3li3",
     "word": "彬彬有礼",
-    "pinyin": "bīnbīn yǒu lǐ",
+    "pinyin": "bīnbīn-yǒulǐ",
     "meaning": "höflich und gesittet; wohlerzogen; von feinem Benehmen",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -93516,7 +93516,7 @@ window.VOCAB_HSK7_9 = [
   {
     "id": "w:举世瞩目:ju3shi4zhu3mu4",
     "word": "举世瞩目",
-    "pinyin": "jǔ shì zhǔmù",
+    "pinyin": "jǔshì-zhǔmù",
     "meaning": "weltweite Aufmerksamkeit erregen",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -96510,7 +96510,7 @@ window.VOCAB_HSK7_9 = [
   {
     "id": "w:侃侃而谈:kan3kan3er2tan2",
     "word": "侃侃而谈",
-    "pinyin": "kǎnkǎn ér tán",
+    "pinyin": "kǎnkǎn-értán",
     "meaning": "frei und selbstsicher reden; souverän sprechen",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -118501,7 +118501,9 @@ window.VOCAB_HSK7_9 = [
       }
     ],
     "legacyIds": [
-      "摩擦|mócā"
+      "摩擦|mócā",
+      "w:磨擦:mo2ca1",
+      "磨擦|mócā"
     ],
     "syllabus": {
       "no": 8256,
@@ -118517,7 +118519,10 @@ window.VOCAB_HSK7_9 = [
       "batch": "b034",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "variants": [
+      "磨擦"
+    ]
   },
   {
     "id": "w:魔法:mo2fa3",
@@ -118800,7 +118805,9 @@ window.VOCAB_HSK7_9 = [
       }
     ],
     "legacyIds": [
-      "磨炼|móliàn"
+      "磨炼|móliàn",
+      "w:磨练:mo2lian4",
+      "磨练|móliàn"
     ],
     "syllabus": {
       "no": 8263,
@@ -118816,7 +118823,10 @@ window.VOCAB_HSK7_9 = [
       "batch": "b034",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "variants": [
+      "磨练"
+    ]
   },
   {
     "id": "w:磨难:mo2nan4",
@@ -178984,7 +178994,7 @@ window.VOCAB_HSK7_9 = [
   {
     "id": "w:无可厚非:wu2ke3hou4fei1",
     "word": "无可厚非",
-    "pinyin": "wú kě hòufēi",
+    "pinyin": "wúkě-hòufēi",
     "meaning": "durchaus verständlich; nicht zu beanstanden",
     "type": "Chengyu",
     "level": "HSK7-9",

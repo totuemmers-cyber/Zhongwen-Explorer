@@ -11,7 +11,10 @@ const DUPLICATES = {
   'w:综合:zong4he2': 'w:综合:zong1he2',
   'w:纪录片:ji4lu4pian1': 'w:纪录片:ji4lu4pian4',
   'w:心甘情愿:xin1gan1qing2yuan4': 'w:心甘情愿:xing1an1qing2yuan4',
-  'w:嗯:en1': 'w:嗯:g5'
+  'w:嗯:en1': 'w:嗯:g5',
+  // Variant spellings: the Zusatz word becomes a variant of the syllabus word.
+  'w:磨擦:mo2ca1': 'w:摩擦:mo2ca1',
+  'w:磨练:mo2lian4': 'w:磨炼:mo2lian4'
 };
 const sources = common.loadSources();
 const byId = new Map();
@@ -21,7 +24,8 @@ const changes = [];
 for (const [dupId, keepId] of Object.entries(DUPLICATES)) {
   const dup = byId.get(dupId), keep = byId.get(keepId);
   if (!dup || !keep) continue;
-  if (dup.level !== 'Zusatz' || dup.word !== keep.word) throw new Error('Not a Zusatz duplicate: ' + dupId);
+  if (dup.level !== 'Zusatz') throw new Error('Not a Zusatz entry: ' + dupId);
+  if (dup.word !== keep.word) keep.variants = Array.from(new Set([...(keep.variants || []), dup.word]));
   keep.legacyIds = Array.from(new Set([...(keep.legacyIds || []), dupId, ...(dup.legacyIds || [])]));
   for (const source of sources) source.items = source.items.filter(item => item.id !== dupId);
   delete ledger[dupId];
