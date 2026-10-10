@@ -798,3 +798,60 @@ Author flags, type changes and reviewer fixes per batch, for follow-up decisions
 - w:取而代之:qu3er2dai4zhi1 取而代之 type → Chengyu: four-character idiom (成语) in classical structure
 - w:拳头:quan2tou2 拳头 (author): Syllabus pinyin quántóu; Xiandai Hanyu Cidian and CC-CEDICT give quántou (neutral second syllable). Examples use quántou.
 - w:劝告:quan4gao4 劝告 (author): measureWords lists 席 (xí); for 劝告 番 (fān) is far more usual (一番劝告); 席 belongs with 话 (一席话).
+
+## b038 (2026-10-10, author)
+- w:史无前例:shi3wu2qian2li4 史无前例 type → Chengyu: four-character idiom (成语); the syllabus gives no part of speech
+- w:势不可当:shi4bu4ke3dang1 势不可当 type → Chengyu: four-character idiom (成语); the syllabus gives no part of speech
+- w:世故:shi4gu4 世故 (author): Syllabus lists 世故 as 名 (shìgù, „ways of the world“); the common adjective „worldly-wise, slick“ (很世故) is shìgu in 现代汉语词典. Old meaning „weltgewandt, abgebrueht“ described the adjective (and had a typo).
+- w:世故:shi4gu4 世故 type → Nomen: 名: noun in the syllabus (人情世故); the adjective use is listed separately as shìgu
+- w:抒情:shu1qing2 抒情 type → Verb: 动: verb (to express emotion); the attributive use in 抒情诗 is secondary
+- w:双赢:shuang1ying2 双赢 type → Verb: 动: verb in the syllabus (实现双赢), also used attributively
+- w:司法:si1fa3 司法 (author): syllabusPos 动 (as in 现代汉语词典), but the word is used almost only nominally/attributively (司法部门, 司法独立); type Nomen kept.
+- w:丝毫:si1hao2 丝毫 type → Adjektiv: 形 in the syllabus: used attributively (没有丝毫的…) and adverbially (丝毫不…)
+- w:司空见惯:si1kong1jian4guan4 司空见惯 type → Chengyu: four-character idiom (成语) with a literary origin
+- w:私立:si1li4 私立 type → Adjektiv: 动、形 in the syllabus; in practice almost always an attributive adjective (私立学校), the verb use (私立名目) is rare
+- w:诉讼:su4song4 诉讼 type → Verb: 动: official part of speech is verb (also used nominally)
+- w:算计:suan4ji4 算计 (author): Standard dictionaries (现代汉语词典, CC-CEDICT) give suànji with neutral second syllable; card has suànjì.
+- w:随心所欲:sui2xin1suo3yu4 随心所欲 type → Chengyu: four-character idiom (成语), not a free phrase
+
+## b039 (2026-10-10, author)
+- w:瘫痪:tan1huan4 瘫痪 type → Verb: 动: verb (gelähmt sein; zum Erliegen kommen), not a noun
+- w:讨价还价:tao3jia4huan2jia4 讨价还价 type → Chengyu: four-character set idiom (成语) with literal and figurative use, not a free phrase
+- w:体贴:ti3tie1 体贴 type → Verb: 动: listed as verb (体贴妻子, 体贴人); the adjectival use with 很 is covered in the note
+- w:天伦之乐:tian1lun2zhi1le4 天伦之乐 type → Chengyu: four-character set idiom (成语) with classical 之, not a free phrase
+- w:挑剔:tiao1ti5 挑剔 type → Verb: 动: official part of speech is verb; adjectival use (很挑剔) is covered in the note
+- w:投射:tou2she4 投射 type → Verb: 动: verb (werfen, projizieren), not a noun
+- w:徒步:tu2bu4 徒步 type → Adverb: 副: official part of speech is adverb (徒步旅行, 徒步前往 „zu Fuß“)
+- w:脱口而出:tuo1kou3er2chu1 脱口而出 type → Chengyu: vierteiliger 成语 (脱口 + 而 + 出), keine freie Phrase
+- w:脱颖而出:tuo1ying3er2chu1 脱颖而出 type → Chengyu: vierteiliger 成语 aus dem Shiji (毛遂自荐), keine freie Phrase
+
+## b040 (2026-10-10, author)
+- w:惋惜:wan3xi1 惋惜 type → Adjektiv: 形: adjective in the syllabus (感到惋惜, 十分惋惜), also used with an object like a verb
+- w:威慑:wei1she4 威慑 type → Verb: 动: verb (abschrecken); the noun use (核威慑) is secondary
+- w:违章:wei2zhang1 违章 type → Verb: 动: verb (gegen Vorschriften verstoßen), mostly used attributively
+- w:温差:wen1cha4 温差 (author): Reading: card/syllabus pinyin wēnchà, but Xiandai Hanyu Cidian and CC-CEDICT give wēnchā (差 chā as in 差别, 时差); examples use wēnchā. Please verify against the official HSK 2025 list.
+- w:吻合:wen3he2 吻合 type → Adjektiv: 形: adjective in the syllabus (完全吻合, 高度吻合), not a transitive verb
+- w:无动于衷:wu2dong4yu2zhong1 无动于衷 type → Chengyu: four-character idiom (成语), like 无边无际 in this list
+- w:无济于事:wu2ji4yu2shi4 无济于事 type → Chengyu: four-character idiom (成语), like 无边无际 in this list
+- w:无可厚非:wu2ke3hou4fei1 无可厚非 type → Chengyu: four-character idiom (成语), like 无边无际 in this list
+- w:无能为力:wu2neng2wei2li4 无能为力 type → Chengyu: four-character idiom (成语), like 无边无际 in this list
+- w:无所事事:wu2suo3shi4shi4 无所事事 type → Chengyu: fester vierteiliger Ausdruck (成语), keine freie Phrase
+- w:无所作为:wu2suo3zuo4wei2 无所作为 type → Chengyu: fester vierteiliger Ausdruck (成语), keine freie Phrase
+- w:物美价廉:wu4mei3jia4lian2 物美价廉 type → Chengyu: vierteiliger 成语 aus zwei parallelen Teilen, keine freie Redewendung
+- w:喜悦:xi3yue4 喜悦 type → Adjektiv: 形: the syllabus lists it as an adjective (noun use is explained in the note)
+- w:瞎:xia1 瞎 type → Adverb: 动、副: the syllabus lists verb 'go blind' and adverb 'aimlessly'; not an adjective. Adverbial use (瞎说, 瞎猜) is the most frequent
+
+## b041 (2026-10-10, author)
+- w:显而易见:xian3er2yi4jian4 显而易见 type → Chengyu: four-character idiom (成语), syllabus part of speech empty
+- w:鲜为人知:xian3wei2ren2zhi1 鲜为人知 type → Chengyu: four-character idiom (成语), syllabus part of speech empty
+- w:相辅相成:xiang1fu3xiang1cheng2 相辅相成 type → Chengyu: four-character idiom (成语), syllabus part of speech empty
+- w:小菜一碟:xiao3cai4yi1die2 小菜一碟 type → Redewendung: colloquial idiom (惯用语/俗语), not a classical four-character chengyu
+- w:孝顺:xiao4shun4 孝顺 type → Verb: 动: the syllabus lists 孝顺 as a verb (孝顺父母); the adjectival use is noted in the note
+- w:卸载:xie4zai3 卸载 (author): id has zai3, syllabus and CC-CEDICT give xièzài; the old example pinyin xièzǎi was corrected to xièzài.
+- w:心得:xin1de2 心得 (author): measureWords: 项 is unusual for 心得; the common classifier is 点 (几点心得), besides 个.
+- w:心甘情愿:xing1an1qing2yuan4 心甘情愿 type → Chengyu: four-character idiom (成语), like 心安理得
+- w:心事:xin1shi4 心事 (author): measureWords: 宗 is unusual for 心事; common classifiers are 桩 and 件.
+- w:汹涌:xiong1yong3 汹涌 type → Verb: 动: officially a verb (to surge up violently), used predicatively like 波浪汹涌
+- w:羞耻:xiu1chi3 羞耻 type → Adjektiv: 形: officially an adjective (不知羞耻, 感到羞耻)
+- w:悬:xuan2 悬 (author): variants lists 伭, which is a variant of 玄 (xuán 'dark'), not of 悬; probably copied from the 玄 card.
+- w:选举:xuan3ju3 选举 type → Verb: 动: verb in the syllabus (to elect); the nominal use 'Wahl' is explained in the note

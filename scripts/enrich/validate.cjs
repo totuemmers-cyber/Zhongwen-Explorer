@@ -145,6 +145,7 @@ function checkExampleReading(chinese, pinyin, ctx) {
         if (c.word.startsWith('都') && keys[i] === 'dou1') continue;
         // Verb + aspect particle (到了 dào le, not the lexicalised dào liǎo) is the normal reading.
         if (/[了着过]$/.test(c.word) && /^(le|zhe|guo)5$/.test(keys[i + c.len - 1])) continue;
+        if (/^[了着过]/.test(c.word) && /^(le|zhe|guo)5$/.test(keys[i])) continue; // 挽着手 is not 着手 zhuóshǒu
         warnings.push(c.word + ' written ' + syllables.slice(i, i + c.len).join(' ') + ', CC-CEDICT: ' + c.readings.join(', '));
       }
     }
