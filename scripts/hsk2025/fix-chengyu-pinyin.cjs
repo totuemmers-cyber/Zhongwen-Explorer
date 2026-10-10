@@ -19,6 +19,11 @@ for (const source of sources) {
       const run = Pinyin.segment(parts[0], item.word);
       if (Array.isArray(run) && run.length === 4 && run.join('') === parts[0]) parts.splice(0, 1, ...run);
     }
+    // ... and chengyu written as two words (jūān sīwēi).
+    if (parts.length === 2 && item.type === 'Chengyu' && !/[-'’]/.test(item.pinyin)) {
+      const halves = parts.map((p, i) => Pinyin.segment(p, Array.from(item.word).slice(i * 2, i * 2 + 2).join('')));
+      if (halves.every((h, i) => Array.isArray(h) && h.length === 2 && h.join('') === parts[i])) parts.splice(0, 2, ...halves[0], ...halves[1]);
+    }
     if (parts.length !== 4 || parts.some(p => p !== p.toLowerCase())) continue; // names (一带一路 Yī Dài Yī Lù) stay
     const syllables = Pinyin.segment(parts.join(''), item.word);
     if (!Array.isArray(syllables) || syllables.length !== 4) continue;

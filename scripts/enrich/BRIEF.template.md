@@ -55,4 +55,9 @@ Do not touch files outside `authored/`. One object, for orientation:
 Chengyu, proverbs and idioms: explain the literal meaning of the parts, the figurative meaning, typical frames and register;
 examples use the whole expression in natural modern sentences.
 
+Cards with level "Zusatz" are not in the HSK 2025 syllabus (everyday words and compounds, chengyu, proverbs, idioms). Their
+syllabusPos is empty: choose `type` from actual usage, not from the empty field. A free combination of two words (洗碗,
+打篮球) stays a Phrase and its note says how the parts combine; a fixed four-character idiom is a Chengyu. If the card only
+duplicates another entry (variant spelling, same word), say so in `flags`. Keep the brief's style rules unchanged.
+
 Final reply: only "pNN OK, pMM OK", the ids where you set `meaning` or `type` (old → new), and any `flags`. Keep it short.

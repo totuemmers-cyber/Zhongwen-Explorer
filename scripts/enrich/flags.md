@@ -855,3 +855,56 @@ Author flags, type changes and reviewer fixes per batch, for follow-up decisions
 - w:羞耻:xiu1chi3 羞耻 type → Adjektiv: 形: officially an adjective (不知羞耻, 感到羞耻)
 - w:悬:xuan2 悬 (author): variants lists 伭, which is a variant of 玄 (xuán 'dark'), not of 悬; probably copied from the 玄 card.
 - w:选举:xuan3ju3 选举 type → Verb: 动: verb in the syllabus (to elect); the nominal use 'Wahl' is explained in the note
+
+## b044 (2026-10-10, author)
+- w:征:zheng1 征 (author): traditional given as 征, but the main modern verb senses (einberufen, erheben, per Aufruf suchen) are traditionally written 徵; 征 is only the traditional form for the 'Feldzug' sense.
+- w:支票:zhi1piao4 支票 (author): measureWords lists 本 (ben3); a single cheque is counted with 张 (zhāng) — 本 only fits 支票本/支票簿 (cheque book).
+- w:制裁:zhi4cai2 制裁 type → Verb: 动: listed as a verb in the syllabus; the noun use (Sanktion) is secondary
+- w:志愿:zhi4yuan4 志愿 type → Nomen: 名、动: noun (aspiration, application choice) and verb (to volunteer); the attributive use in 志愿服务 does not make it an adjective
+- w:中立:zhong1li4 中立 type → Verb: 动: the syllabus lists 中立 as a verb (neutral sein/bleiben), not as an adjective
+- w:仲裁:zhong4cai2 仲裁 type → Verb: 动: the syllabus lists 仲裁 as a verb; the noun use (通过仲裁) is covered in meaning and notes
+- w:专制:zhuan1zhi4 专制 type → Adjektiv: 动、形: autokratisch (herrschen) – laut Syllabus kein Nomen
+
+## b042 (2026-10-10, author)
+- w:雪上加霜:xue3shang4jia1shuang1 雪上加霜 type → Chengyu: vierteiliges Idiom (成语), kein Verb; Syllabus ohne Wortart
+- w:压抑:ya1yi4 压抑 type → Verb: 动: Verb laut Syllabus; der adjektivische Gebrauch (很压抑) wird in der Notiz erklärt
+- w:掩护:yan3hu4 掩护 (author): measureWords lists 面 for 掩护; this seems doubtful (掩护 has no usual measure word; 面 fits e.g. 盾牌).
+- w:养生:yang3sheng1 养生 type → Verb: 动: verb in the syllabus
+- w:一动不动:yi1dong4bu4dong4 一动不动 type → Ausdruck: fixed 一…不… expression, not a classical chengyu
+- w:一概而论:yi1gai4er2lun4 一概而论 type → Chengyu: four-character idiom (成语)
+- w:一晃:yi2huang4 一晃 (author): Syllabus reading yíhuàng (晃 huàng 'sway') looks questionable: CC-CEDICT and 现代汉语词典 give yīhuǎng (晃 huǎng 'flash past') for the sense 'in a flash'. Examples use spoken yìhuǎng.
+- w:一技之长:yi1ji4zhi1chang2 一技之长 type → Chengyu: four-character idiom (成语)
+- w:以致:yi3zhi4 以致 type → Konjunktion: 连: conjunction, not an adverb
+- w:一成不变:yi1cheng2bu4bian4 一成不变 type → Chengyu: four-character idiom (成语), CC-CEDICT marks it as idiom
+- w:一塌糊涂:yi4ta1hu2tu2 一塌糊涂 (author): Citation pinyin yìtāhútú already carries the 一 sandhi (other cards: yī… + pinyinSpoken yì…); id says yi4. CC-CEDICT gives yi1 ta1 hu2 tu5 (neutral tu). Examples follow the card (yìtāhútú).
+- w:一塌糊涂:yi4ta1hu2tu2 一塌糊涂 type → Chengyu: four-character idiom (成语), CC-CEDICT marks it as idiom
+- w:一无所有:yi1wu2suo3you3 一无所有 type → Chengyu: four-character idiom (成语), CC-CEDICT marks it as idiom
+- w:一无所知:yi1wu2suo3zhi1 一无所知 type → Chengyu: four-character idiom (成语), CC-CEDICT marks it as idiom
+- w:抑郁:yi4yu4 抑郁 type → Adjektiv: 形: adjective (deprimiert), not a noun
+- w:因地制宜:yin1di4zhi4yi2 因地制宜 type → Chengyu: four-character idiom (成语), not a general expression
+- w:因人而异:yin1ren2er2yi4 因人而异 type → Chengyu: four-character idiom (成语), not a free phrase
+- w:盈利:ying2li4 盈利 type → Nomen: 名: noun (Gewinn); the verb use „Gewinn machen“ is secondary
+- w:营销:ying2xiao1 营销 type → Verb: 动: verb (vermarkten); the noun use „Marketing“ follows from it
+
+## b043 (2026-10-10, author)
+- w:应急:ying4ji2 应急 type → Verb: 动: verb (often used attributively as „Not-“), not an adjective
+- w:忧虑:you1lv4 忧虑 type → Verb: 动: verb (also used nominally, e.g. 充满忧虑), not primarily a noun
+- w:由衷:you2zhong1 由衷 type → Verb: 动: verb („aus dem Herzen kommen“), mostly used adverbially (由衷地) or attributively (由衷的)
+- w:与日俱增:yu3ri4ju4zeng1 与日俱增 type → Chengyu: four-character idiom (成语) with fixed form, like 与众不同
+- w:预售:yu4shou4 预售 type → Verb: 动: verb (to sell in advance); 'Vorverkauf' is its nominal use
+- w:源远流长:yuan2yuan3liu2chang2 源远流长 type → Chengyu: four-character idiom (成语) with fixed form, like 源源不断
+- w:援助:yuan2zhu4 援助 type → Verb: 动: official part of speech is verb (also used as a noun)
+- w:赞不绝口:zan4bu4jue2kou3 赞不绝口 type → Chengyu: fester vierteiliger Ausdruck (成语), keine freie Phrase
+- w:斩钉截铁:zhan3ding1jie2tie3 斩钉截铁 type → Chengyu: fester vierteiliger Ausdruck (成语), kein freies Adjektiv
+
+## b045 (2026-10-10, author)
+- w:捉迷藏:zhuo1mi2cang2 捉迷藏 type → Phrase: no official part of speech: verb-object phrase 捉 + 迷藏
+- w:兹:zi1 兹 type → Pronomen: 代: listed as pronoun (literary 'this; now'), not as adverb
+- w:自然而然:zi4ran2er2ran2 自然而然 type → Chengyu: vierzeichniges Idiom (成语), in Wörterbüchern als Chengyu geführt
+- w:自主:zi4zhu3 自主 type → Verb: 动: im Syllabus als Verb geführt
+- w:自尊:zi4zun1 自尊 type → Verb: 动: im Syllabus als Verb geführt
+- w:总而言之:zong3er2yan2zhi1 总而言之 type → Chengyu: im Syllabus ohne Wortart (Ausdruck); vierzeichniger fester Ausdruck (成语), keine Konjunktion
+- w:足不出户:zu2bu4chu1hu4 足不出户 type → Chengyu: four-character idiom (成语), CC-CEDICT marks it as idiom
+- w:作息:zuo4xi1 作息 type → Verb: 动: official part of speech is verb (按时作息), though it is often used nominally
+- w:居安思危:ju1an1si1wei1 居安思危 (author): Citation pinyin „jūān sīwēi“ lacks the apostrophe and the chengyu hyphen; expected jū'ān-sīwēi (like the other chengyu in this batch).
+- w:揠苗助长:ya4miao2zhu4zhang3 揠苗助长 type → Chengyu: classic four-character 成语 from the Mencius (variant of 拔苗助长), like the other idiom cards
