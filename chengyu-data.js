@@ -3,16 +3,26 @@ window.CHENGYU_DATA = [
   {
     "id": "w:丰富多彩:feng1fu4duo1cai3",
     "word": "丰富多彩",
-    "pinyin": "fēng fù duō cǎi",
-    "meaning": "reichhaltig und vielfaeltig; bunt und abwechslungsreich",
+    "pinyin": "fēngfù-duōcǎi",
+    "meaning": "reichhaltig und vielfältig; bunt und abwechslungsreich",
     "type": "Chengyu",
     "level": "HSK5",
     "category": "Natur",
     "examples": [
       {
         "chinese": "大学生活丰富多彩。",
-        "pinyin": "Dàxué shēnghuó fēng fù duō cǎi.",
-        "german": "Das Universitaetsleben ist bunt und abwechslungsreich."
+        "pinyin": "Dàxué shēnghuó fēngfù-duōcǎi.",
+        "german": "Das Studentenleben ist bunt und abwechslungsreich."
+      },
+      {
+        "chinese": "学校为留学生组织了丰富多彩的课外活动。",
+        "pinyin": "Xuéxiào wèi liúxuéshēng zǔzhī le fēngfù-duōcǎi de kèwài huódòng.",
+        "german": "Die Hochschule bietet den ausländischen Studierenden ein vielfältiges Freizeitprogramm."
+      },
+      {
+        "chinese": "春节期间，电视台准备了丰富多彩的节目。",
+        "pinyin": "Chūnjié qījiān, diànshìtái zhǔnbèi le fēngfù-duōcǎi de jiémù.",
+        "german": "Über das Frühlingsfest zeigen die Fernsehsender ein abwechslungsreiches Programm."
       }
     ],
     "legacyIds": [
@@ -26,21 +36,37 @@ window.CHENGYU_DATA = [
     "traditional": "豐富多彩",
     "evidence": {
       "cedict": "豐富多彩 丰富多彩 [feng1 fu4 duo1 cai3]"
+    },
+    "notes": "丰富多彩 (fēngfù-duōcǎi) setzt sich aus 丰富 „reichhaltig“ und 多彩 „vielfarbig“ zusammen und bedeutet übertragen „vielfältig, abwechslungsreich“. Es beschreibt meist Leben, Aktivitäten, Programme oder Kultur: 丰富多彩的活动, 生活丰富多彩. Der Ausdruck ist positiv, sehr häufig und typisch für Aufsätze und Berichte. Für buchstäblich bunte Dinge wie Blumen oder Kleidung sagt man eher 五颜六色 (wǔyán-liùsè).",
+    "review": {
+      "batch": "b016",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:一路顺风:yi1lu4shun4feng1",
     "word": "一路顺风",
-    "pinyin": "yī lù shùn fēng",
-    "meaning": "den ganzen Weg mit Rueckenwind; gute Reise",
+    "pinyin": "yīlù-shùnfēng",
+    "meaning": "gute Reise; den ganzen Weg Rückenwind",
     "type": "Chengyu",
     "level": "HSK5",
     "category": "Erfolg",
     "examples": [
       {
         "chinese": "朋友要出国了，我祝他一路顺风。",
-        "pinyin": "Péngyou yào chūguó le, wǒ zhù tā yī lù shùn fēng.",
-        "german": "Mein Freund verreist ins Ausland, ich wuensche ihm eine gute Reise."
+        "pinyin": "Péngyou yào chūguó le, wǒ zhù tā yílù-shùnfēng.",
+        "german": "Mein Freund geht ins Ausland, ich wünsche ihm eine gute Reise."
+      },
+      {
+        "chinese": "祝你一路顺风，到了给我打个电话！",
+        "pinyin": "Zhù nǐ yílù-shùnfēng, dào le gěi wǒ dǎ ge diànhuà!",
+        "german": "Gute Reise! Ruf mich an, wenn du angekommen bist!"
+      },
+      {
+        "chinese": "他们开车回老家，一路顺风，比预计早到了两个小时。",
+        "pinyin": "Tāmen kāichē huí lǎojiā, yílù-shùnfēng, bǐ yùjì zǎo dào le liǎng ge xiǎoshí.",
+        "german": "Die Fahrt in die Heimat verlief reibungslos, und sie kamen zwei Stunden früher an als erwartet."
       }
     ],
     "legacyIds": [
@@ -55,12 +81,18 @@ window.CHENGYU_DATA = [
     "traditional": "一路順風",
     "evidence": {
       "cedict": "一路順風 一路顺风 [yi1 lu4 shun4 feng1]"
+    },
+    "notes": "一路顺风 (yílù-shùnfēng) heißt wörtlich „den ganzen Weg (一路) mit Rückenwind (顺风)“ und ist ein Abschiedsgruß an Reisende: 祝你一路顺风 „gute Reise!“. Er kann auch beschreiben, dass eine Fahrt reibungslos verlief. Manche vermeiden ihn bei Flugreisen, weil Flugzeuge gegen den Wind starten, und wünschen stattdessen 一路平安 (yílù píng'ān) „komm gut an“. Der Ausdruck ist alltagssprachlich und sehr gebräuchlich.",
+    "review": {
+      "batch": "b016",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:人山人海:ren2shan1ren2hai3",
     "word": "人山人海",
-    "pinyin": "rén shān rén hǎi",
+    "pinyin": "rénshān-rénhǎi",
     "meaning": "ein Meer von Menschen; riesige Menschenmenge",
     "type": "Chengyu",
     "level": "HSK6",
@@ -68,8 +100,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "国庆节长城上人山人海。",
-        "pinyin": "Guóqìngjié Chángchéng shàng rén shān rén hǎi.",
-        "german": "Am Nationalfeiertag ist die Grosse Mauer ein Meer von Menschen."
+        "pinyin": "Guóqìngjié Chángchéng shang rénshān-rénhǎi.",
+        "german": "Am Nationalfeiertag drängen sich auf der Großen Mauer die Menschenmassen."
+      },
+      {
+        "chinese": "演唱会还没开始，体育场外面已经人山人海了。",
+        "pinyin": "Yǎnchànghuì hái méi kāishǐ, tǐyùchǎng wàimian yǐjīng rénshān-rénhǎi le.",
+        "german": "Das Konzert hatte noch nicht begonnen, und vor dem Stadion drängten sich schon die Massen."
+      },
+      {
+        "chinese": "春节前的火车站人山人海，连站的地方都快没有了。",
+        "pinyin": "Chūnjié qián de huǒchēzhàn rénshān-rénhǎi, lián zhàn de dìfang dōu kuài méiyǒu le.",
+        "german": "Vor dem Frühlingsfest ist der Bahnhof so überfüllt, dass man kaum noch einen Platz zum Stehen findet."
       }
     ],
     "legacyIds": [
@@ -83,21 +125,37 @@ window.CHENGYU_DATA = [
     "traditional": "人山人海",
     "evidence": {
       "cedict": "人山人海 人山人海 [ren2 shan1 ren2 hai3]"
+    },
+    "notes": "人山人海 (rénshān-rénhǎi) heißt wörtlich „Menschen wie Berge, Menschen wie ein Meer“ und beschreibt eine riesige Menschenmenge an einem Ort. Es steht meist als Prädikat nach einer Ortsangabe: 景区里人山人海, 到处人山人海, oft mit dem Unterton „überfüllt“. Das Chengyu ist in Alltag und Schriftsprache gleichermaßen geläufig; ähnlich ist 水泄不通 (shuǐxiè-bùtōng) „so voll, dass kein Wasser durchsickert“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:一帆风顺:yi1fan1feng1shun4",
     "word": "一帆风顺",
-    "pinyin": "yī fān fēng shùn",
-    "meaning": "glatten Segelwind haben; alles laeuft glatt",
+    "pinyin": "yīfān-fēngshùn",
+    "meaning": "mit günstigem Wind segeln; reibungslos verlaufen; alles läuft glatt",
     "type": "Chengyu",
     "level": "HSK6",
     "category": "Erfolg",
     "examples": [
       {
         "chinese": "祝你新的一年一帆风顺！",
-        "pinyin": "Zhù nǐ xīn de yī nián yī fān fēng shùn!",
-        "german": "Ich wuensche dir ein neues Jahr, in dem alles glatt laeuft!"
+        "pinyin": "Zhù nǐ xīn de yì nián yìfān-fēngshùn!",
+        "german": "Ich wünsche dir, dass im neuen Jahr alles glatt läuft!"
+      },
+      {
+        "chinese": "他的事业一直一帆风顺，三十岁就当上了经理。",
+        "pinyin": "Tā de shìyè yìzhí yìfān-fēngshùn, sānshí suì jiù dāngshàng le jīnglǐ.",
+        "german": "Seine Karriere verlief stets reibungslos – mit dreißig war er schon Manager."
+      },
+      {
+        "chinese": "人生不可能总是一帆风顺，遇到挫折很正常。",
+        "pinyin": "Rénshēng bù kěnéng zǒngshì yìfān-fēngshùn, yùdào cuòzhé hěn zhèngcháng.",
+        "german": "Im Leben läuft nicht immer alles glatt, Rückschläge sind ganz normal."
       }
     ],
     "legacyIds": [
@@ -112,26 +170,37 @@ window.CHENGYU_DATA = [
     "traditional": "一帆風順",
     "evidence": {
       "cedict": "一帆風順 一帆风顺 [yi1 fan1 feng1 shun4]"
+    },
+    "notes": "一帆风顺 (yìfān-fēngshùn) heißt wörtlich „ein Segel, günstiger Wind“: Das Schiff fährt ohne Hindernis. Es ist ein beliebter Glückwunsch bei Abreisen und Neuanfängen (祝你一帆风顺！) und beschreibt außerdem, dass Karriere oder Leben reibungslos verlaufen: 事业一帆风顺. Oft wird es verneint: 人生不可能一帆风顺 „im Leben läuft nicht immer alles glatt“. Ähnliche Wünsche sind 万事如意 und 顺风顺水.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:众所周知:zhong4suo3zhou1zhi1",
     "word": "众所周知",
-    "pinyin": "zhòng suǒ zhōu zhī",
-    "meaning": "allgemein bekannt; wie jeder weiss",
+    "pinyin": "zhòngsuǒ-zhōuzhī",
+    "meaning": "allgemein bekannt; wie jeder weiß",
     "type": "Chengyu",
     "level": "HSK6",
     "category": "Lebensweisheit",
     "examples": [
       {
         "chinese": "众所周知，学语言需要时间和耐心。",
-        "pinyin": "Zhòng suǒ zhōu zhī, xué yǔyán xūyào shíjiān hé nàixīn.",
-        "german": "Wie allgemein bekannt ist, braucht Sprachenlernen Zeit und Geduld."
+        "pinyin": "Zhòngsuǒ-zhōuzhī, xué yǔyán xūyào shíjiān hé nàixīn.",
+        "german": "Bekanntlich braucht man zum Sprachenlernen Zeit und Geduld."
       },
       {
-        "chinese": "众所周知，健康比什么都重要。",
-        "pinyin": "Zhòng suǒ zhōu zhī, jiànkāng bǐ shénme dōu zhòngyào.",
-        "german": "Wie allgemein bekannt, ist Gesundheit wichtiger als alles andere."
+        "chinese": "这是一个众所周知的事实。",
+        "pinyin": "Zhè shì yí ge zhòngsuǒ-zhōuzhī de shìshí.",
+        "german": "Das ist eine allgemein bekannte Tatsache."
+      },
+      {
+        "chinese": "他们俩的关系早已众所周知。",
+        "pinyin": "Tāmen liǎ de guānxi zǎoyǐ zhòngsuǒ-zhōuzhī.",
+        "german": "Die Beziehung der beiden ist längst allgemein bekannt."
       }
     ],
     "legacyIds": [
@@ -145,21 +214,37 @@ window.CHENGYU_DATA = [
     "traditional": "眾所周知",
     "evidence": {
       "cedict": "眾所周知 众所周知 [zhong4 suo3 zhou1 zhi1]"
+    },
+    "notes": "众所周知 (zhòngsuǒ-zhōuzhī) setzt sich zusammen aus 众 „alle, die Menge“, 所 (macht das folgende Verb zum Objekt) und 周知 „überall bekannt“: „was alle wissen“. Meist steht es am Satzanfang mit Komma: 众所周知，…… „bekanntlich …“. Es kann auch attributiv (众所周知的事实 „eine allgemein bekannte Tatsache“) oder als Prädikat stehen. Der Ton ist eher schriftsprachlich und kommt häufig in Reden, Aufsätzen und Nachrichten vor.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:自言自语:zi4yan2zi4yu3",
     "word": "自言自语",
-    "pinyin": "zì yán zì yǔ",
-    "meaning": "Selbstgespraeche fuehren; mit sich selbst reden",
+    "pinyin": "zìyán-zìyǔ",
+    "meaning": "Selbstgespräche führen; mit sich selbst reden",
     "type": "Chengyu",
     "level": "HSK6",
     "category": "Charakter",
     "examples": [
       {
-        "chinese": "他总是自言自语，好像在跟自己说话。",
-        "pinyin": "Tā zǒng shì zì yán zì yǔ, hǎoxiàng zài gēn zìjǐ shuōhuà.",
-        "german": "Er fuehrt staendig Selbstgespraeche, als wuerde er mit sich selbst reden."
+        "chinese": "奶奶年纪大了，常常一个人自言自语。",
+        "pinyin": "Nǎinai niánjì dà le, chángcháng yí ge rén zìyán-zìyǔ.",
+        "german": "Oma ist alt geworden und redet oft allein vor sich hin."
+      },
+      {
+        "chinese": "他一边做题一边自言自语，不知道在说什么。",
+        "pinyin": "Tā yìbiān zuòtí yìbiān zìyán-zìyǔ, bù zhīdào zài shuō shénme.",
+        "german": "Beim Lösen der Aufgaben murmelte er vor sich hin, man wusste nicht, was er sagte."
+      },
+      {
+        "chinese": "别管我，我只是在自言自语。",
+        "pinyin": "Bié guǎn wǒ, wǒ zhǐshì zài zìyán-zìyǔ.",
+        "german": "Achte nicht auf mich, ich rede nur mit mir selbst."
       }
     ],
     "legacyIds": [
@@ -173,12 +258,18 @@ window.CHENGYU_DATA = [
     "traditional": "自言自語",
     "evidence": {
       "cedict": "自言自語 自言自语 [zi4 yan2 zi4 yu3]"
+    },
+    "notes": "自言自语 (zìyán-zìyǔ) besteht aus zweimal 自 „selbst“ mit 言 und 语, beide „sprechen“: „zu sich selbst sprechen“. Es beschreibt das halblaute Vor-sich-hin-Reden, etwa aus Nachdenklichkeit, Sorge oder Gewohnheit, und steht als Prädikat oder adverbial: 自言自语地说 „vor sich hin murmeln“. Das Chengyu ist neutral und in Erzählungen wie im Alltag häufig; ähnlich ist 喃喃自语 (nánnán zìyǔ) „leise vor sich hin murmeln“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:爱不释手:ai4bu4shi4shou3",
     "word": "爱不释手",
-    "pinyin": "ài bù shì shǒu",
+    "pinyin": "àibù-shìshǒu",
     "meaning": "etwas nicht aus der Hand legen wollen; begeistert sein von",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -186,8 +277,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "这本书太好看了，让人爱不释手。",
-        "pinyin": "Zhè běn shū tài hǎokàn le, ràng rén ài bù shì shǒu.",
+        "pinyin": "Zhè běn shū tài hǎokàn le, ràng rén àibúshìshǒu.",
         "german": "Dieses Buch ist so toll, man kann es gar nicht aus der Hand legen."
+      },
+      {
+        "chinese": "儿子收到新玩具后爱不释手，连睡觉都抱着。",
+        "pinyin": "Érzi shōudào xīn wánjù hòu àibúshìshǒu, lián shuìjiào dōu bào zhe.",
+        "german": "Mein Sohn gibt sein neues Spielzeug gar nicht mehr her – er nimmt es sogar mit ins Bett."
+      },
+      {
+        "chinese": "她对这件古董花瓶爱不释手，最后还是买下了。",
+        "pinyin": "Tā duì zhè jiàn gǔdǒng huāpíng àibúshìshǒu, zuìhòu háishi mǎixià le.",
+        "german": "Sie konnte sich von der antiken Vase nicht trennen und hat sie am Ende doch gekauft."
       }
     ],
     "legacyIds": [
@@ -202,12 +303,18 @@ window.CHENGYU_DATA = [
     "traditional": "愛不釋手",
     "evidence": {
       "cedict": "愛不釋手 爱不释手 [ai4 bu4 shi4 shou3]"
+    },
+    "notes": "Wörtlich „etwas so lieben (爱), dass man es nicht (不) aus der Hand (手) loslässt (释)“. Gebraucht wird es für Dinge, die man gern in der Hand hält oder ansieht – Bücher, Geschenke, Spielzeug, Kunstgegenstände –, nicht für Menschen. Typische Rahmen: 让人爱不释手, 对…爱不释手, 拿在手里爱不释手. Das 不 wird hier im zweiten Ton gesprochen: àibúshìshǒu.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:半途而废:ban4tu2er2fei4",
     "word": "半途而废",
-    "pinyin": "bàn tú ér fèi",
+    "pinyin": "bàntú-érfèi",
     "meaning": "auf halbem Weg aufgeben; etwas nicht zu Ende bringen",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -215,13 +322,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "学习不能半途而废，要坚持到底。",
-        "pinyin": "Xuéxí bù néng bàn tú ér fèi, yào jiānchí dào dǐ.",
+        "pinyin": "Xuéxí bù néng bàntú-érfèi, yào jiānchí dàodǐ.",
         "german": "Beim Lernen darf man nicht auf halbem Weg aufgeben, man muss durchhalten."
       },
       {
-        "chinese": "做事不能半途而废，要坚持到底。",
-        "pinyin": "Zuò shì bù néng bàn tú ér fèi, yào jiānchí dào dǐ.",
-        "german": "Man darf nicht auf halbem Weg aufgeben, man muss bis zum Ende durchhalten."
+        "chinese": "他学了半年钢琴就半途而废了。",
+        "pinyin": "Tā xué le bàn nián gāngqín jiù bàntú-érfèi le.",
+        "german": "Er hat nach einem halben Jahr Klavierunterricht schon wieder aufgegeben."
+      },
+      {
+        "chinese": "因为资金不足，这个工程差点半途而废。",
+        "pinyin": "Yīnwèi zījīn bùzú, zhège gōngchéng chàdiǎn bàntú-érfèi.",
+        "german": "Wegen Geldmangels wäre das Bauprojekt beinahe auf halber Strecke gestoppt worden."
       }
     ],
     "legacyIds": [
@@ -235,12 +347,18 @@ window.CHENGYU_DATA = [
     "traditional": "半途而廢",
     "evidence": {
       "cedict": "半途而廢 半途而废 [ban4 tu2 er2 fei4]"
+    },
+    "notes": "Wörtlich „auf halbem Weg (半途) aufhören (废)“: etwas Begonnenes nicht zu Ende bringen. Es steht vor allem in Ermahnungen: 不能半途而废, 千万别半途而废, oft zusammen mit dem Gegenteil 坚持到底 „bis zum Ende durchhalten“. Bezogen wird es auf Lernen, Projekte, Training oder Pläne. Häufig mit 了 am Satzende, wenn das Aufgeben schon passiert ist.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:半信半疑:ban4xin4ban4yi2",
     "word": "半信半疑",
-    "pinyin": "bàn xìn bàn yí",
+    "pinyin": "bànxìn-bànyí",
     "meaning": "halb glauben, halb zweifeln; skeptisch",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -248,8 +366,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "他对这个消息半信半疑。",
-        "pinyin": "Tā duì zhège xiāoxi bàn xìn bàn yí.",
-        "german": "Er war gegenueber dieser Nachricht halb glaeuebig, halb skeptisch."
+        "pinyin": "Tā duì zhège xiāoxi bànxìn-bànyí.",
+        "german": "Er glaubte dieser Nachricht nur halb."
+      },
+      {
+        "chinese": "听了他的解释，大家还是半信半疑。",
+        "pinyin": "Tīng le tā de jiěshì, dàjiā háishi bànxìn-bànyí.",
+        "german": "Auch nach seiner Erklärung waren alle noch nicht ganz überzeugt."
+      },
+      {
+        "chinese": "她半信半疑地打开了那封邮件。",
+        "pinyin": "Tā bànxìn-bànyí de dǎkāi le nà fēng yóujiàn.",
+        "german": "Halb misstrauisch öffnete sie die E-Mail."
       }
     ],
     "legacyIds": [
@@ -263,21 +391,37 @@ window.CHENGYU_DATA = [
     "traditional": "半信半疑",
     "evidence": {
       "cedict": "半信半疑 半信半疑 [ban4 xin4 ban4 yi2]"
+    },
+    "notes": "Wörtlich „halb glauben (信), halb zweifeln (疑)“: man ist nicht ganz überzeugt. Typische Rahmen sind 对…半信半疑 „einer Sache skeptisch gegenüberstehen“ und adverbial 半信半疑地 + Verb (地问, 地看着). Das Muster 半A半B kennt man auch aus 半真半假 „halb wahr, halb erfunden“.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:冰天雪地:bing1tian1xue3di4",
     "word": "冰天雪地",
-    "pinyin": "bīng tiān xuě dì",
-    "meaning": "eisige Kaelte; Land aus Eis und Schnee",
+    "pinyin": "bīngtiān-xuědì",
+    "meaning": "Welt aus Eis und Schnee; eisige Kälte",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Natur",
     "examples": [
       {
         "chinese": "冬天的东北冰天雪地，非常寒冷。",
-        "pinyin": "Dōngtiān de dōngběi bīng tiān xuě dì, fēicháng hánlěng.",
-        "german": "Der Nordosten ist im Winter eine Welt aus Eis und Schnee, extrem kalt."
+        "pinyin": "Dōngtiān de Dōngběi bīngtiān-xuědì, fēicháng hánlěng.",
+        "german": "Im Winter ist der Nordosten eine Welt aus Eis und Schnee, bitterkalt."
+      },
+      {
+        "chinese": "在冰天雪地里，战士们坚守着边境。",
+        "pinyin": "Zài bīngtiān-xuědì li, zhànshìmen jiānshǒu zhe biānjìng.",
+        "german": "Bei Eis und Schnee halten die Soldaten an der Grenze die Stellung."
+      },
+      {
+        "chinese": "外面冰天雪地的，你穿这么少会感冒的。",
+        "pinyin": "Wàimiàn bīngtiān-xuědì de, nǐ chuān zhème shǎo huì gǎnmào de.",
+        "german": "Draußen ist alles vereist und verschneit – so dünn angezogen erkältest du dich noch."
       }
     ],
     "legacyIds": [
@@ -291,21 +435,37 @@ window.CHENGYU_DATA = [
     "traditional": "冰天雪地",
     "evidence": {
       "cedict": "冰天雪地 冰天雪地 [bing1 tian1 xue3 di4]"
+    },
+    "notes": "Wörtlich „eisiger Himmel (冰天), verschneite Erde (雪地)“: eine Landschaft im tiefsten Winter, alles gefroren und verschneit. Es steht als Prädikat (东北冰天雪地), als Ortsangabe 在冰天雪地里/中 oder als Attribut (冰天雪地的北方). Typisch für Beschreibungen Nordostchinas, Sibiriens oder der Polargebiete; neutral bis leicht gehoben.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:不翼而飞:bu4yi4er2fei1",
     "word": "不翼而飞",
-    "pinyin": "bù yì ér fēi",
-    "meaning": "ohne Fluegel davonfliegen; spurlos verschwinden",
+    "pinyin": "bùyì-érfēi",
+    "meaning": "spurlos verschwinden; plötzlich weg sein; sich rasch verbreiten",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Warnung",
     "examples": [
       {
         "chinese": "我的钱包不翼而飞了！",
-        "pinyin": "Wǒ de qiánbāo bù yì ér fēi le!",
-        "german": "Meine Geldboerse ist spurlos verschwunden!"
+        "pinyin": "Wǒ de qiánbāo búyì-érfēi le!",
+        "german": "Meine Geldbörse ist spurlos verschwunden!"
+      },
+      {
+        "chinese": "放在桌上的手机转眼就不翼而飞了。",
+        "pinyin": "Fàng zài zhuō shang de shǒujī zhuǎnyǎn jiù búyì-érfēi le.",
+        "german": "Das Handy, das auf dem Tisch lag, war im Handumdrehen verschwunden."
+      },
+      {
+        "chinese": "仓库里的一批货物不翼而飞，警方正在调查。",
+        "pinyin": "Cāngkù li de yì pī huòwù búyì-érfēi, jǐngfāng zhèngzài diàochá.",
+        "german": "Eine Warenlieferung ist spurlos aus dem Lager verschwunden; die Polizei ermittelt."
       }
     ],
     "legacyIds": [
@@ -320,21 +480,37 @@ window.CHENGYU_DATA = [
     "traditional": "不翼而飛",
     "evidence": {
       "cedict": "不翼而飛 不翼而飞 [bu4 yi4 er2 fei1]"
+    },
+    "notes": "Wörtlich „ohne Flügel (不翼) davonfliegen (而飞)“. Heute meist für Gegenstände, die plötzlich verschwunden sind, oft durch Diebstahl: 钱包不翼而飞, 文件不翼而飞. Subjekt ist der verschwundene Gegenstand. Seltener und eher schriftsprachlich bedeutet es auch, dass sich eine Nachricht wie ein Lauffeuer verbreitet. Gesprochen búyì'érfēi.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:不耻下问:bu4chi3xia4wen4",
     "word": "不耻下问",
-    "pinyin": "bù chǐ xià wèn",
-    "meaning": "sich nicht schaemen, Rangniedrigere zu fragen",
+    "pinyin": "bùchǐ-xiàwèn",
+    "meaning": "sich nicht schämen, Rangniedrigere oder weniger Gebildete zu fragen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Lernen",
     "examples": [
       {
         "chinese": "学习要不耻下问，不懂就要问。",
-        "pinyin": "Xuéxí yào bù chǐ xià wèn, bù dǒng jiù yào wèn.",
-        "german": "Beim Lernen soll man sich nicht schaemen zu fragen — wenn man etwas nicht versteht, muss man fragen."
+        "pinyin": "Xuéxí yào bùchǐ-xiàwèn, bù dǒng jiù yào wèn.",
+        "german": "Beim Lernen sollte man sich nicht zu fein sein, auch andere zu fragen – wer etwas nicht versteht, muss fragen."
+      },
+      {
+        "chinese": "这位教授不耻下问，经常向学生请教网络上的新词。",
+        "pinyin": "Zhè wèi jiàoshòu bùchǐ-xiàwèn, jīngcháng xiàng xuésheng qǐngjiào wǎngluò shang de xīn cí.",
+        "german": "Der Professor ist sich nicht zu schade, seine Studenten um Rat zu fragen, etwa nach neuen Ausdrücken aus dem Internet."
+      },
+      {
+        "chinese": "真正有学问的人往往不耻下问。",
+        "pinyin": "Zhēnzhèng yǒu xuéwen de rén wǎngwǎng bùchǐ-xiàwèn.",
+        "german": "Wirklich gelehrte Menschen scheuen sich oft nicht, auch Rangniedrigere zu fragen."
       }
     ],
     "legacyIds": [
@@ -348,12 +524,18 @@ window.CHENGYU_DATA = [
     "traditional": "不恥下問",
     "evidence": {
       "cedict": "不恥下問 不耻下问 [bu4 chi3 xia4 wen4]"
+    },
+    "notes": "Wörtlich „sich nicht schämen (不耻), nach unten (下) zu fragen (问)“. Der Ausdruck stammt aus den Gesprächen des Konfuzius (论语) und lobt Menschen, die auch von Untergebenen, Jüngeren oder Schülern lernen. Häufiger Fehler: Als höfliche Floskel für eine eigene Frage an Lehrer oder Vorgesetzte passt er nicht – man würde den Gefragten damit als „unter sich“ einstufen.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:不可思议:bu4ke3si1yi4",
     "word": "不可思议",
-    "pinyin": "bù kě sī yì",
+    "pinyin": "bùkě-sīyì",
     "meaning": "unvorstellbar; unfassbar; unglaublich",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -361,13 +543,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "这件事太不可思议了，我简直不敢相信。",
-        "pinyin": "Zhè jiàn shì tài bù kě sī yì le, wǒ jiǎnzhí bù gǎn xiāngxìn.",
+        "pinyin": "Zhè jiàn shì tài bùkě-sīyì le, wǒ jiǎnzhí bù gǎn xiāngxìn.",
         "german": "Das ist so unglaublich, ich kann es kaum fassen."
       },
       {
-        "chinese": "这个结果令人不可思议。",
-        "pinyin": "Zhège jiéguǒ lìng rén bùkě sīyì.",
-        "german": "Dieses Ergebnis ist unvorstellbar."
+        "chinese": "一只小猫从十楼掉下来却毫发无伤，真是不可思议。",
+        "pinyin": "Yì zhī xiǎo māo cóng shí lóu diào xiàlai què háofà wú shāng, zhēn shì bùkě-sīyì.",
+        "german": "Eine kleine Katze fällt aus dem zehnten Stock und bleibt völlig unverletzt – wirklich unglaublich."
+      },
+      {
+        "chinese": "在古人看来，坐飞机环游世界是不可思议的事情。",
+        "pinyin": "Zài gǔrén kànlái, zuò fēijī huányóu shìjiè shì bùkě-sīyì de shìqing.",
+        "german": "Für die Menschen früherer Zeiten wäre eine Weltreise im Flugzeug unvorstellbar gewesen."
       }
     ],
     "legacyIds": [
@@ -382,12 +569,18 @@ window.CHENGYU_DATA = [
     "traditional": "不可思議",
     "evidence": {
       "cedict": "不可思議 不可思议 [bu4 ke3 si1 yi4]"
+    },
+    "notes": "Wörtlich „nicht (不) denkbar (可思) und nicht in Worte zu fassen (议)“; ursprünglich ein buddhistischer Begriff für das Unbegreifliche. Heute ist es ein ganz alltägliches „unglaublich, unfassbar“: 太不可思议了, 简直不可思议, 不可思议的事情. Es steht als Prädikat oder Attribut; die verbreitete Verbindung 令人不可思议 gilt manchen Sprachpflegern als unsauber, besser ist 令人难以置信.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:不约而同:bu4yue1er2tong2",
     "word": "不约而同",
-    "pinyin": "bù yuē ér tóng",
+    "pinyin": "bùyuē-értóng",
     "meaning": "ohne Absprache dasselbe tun; wie aus einem Mund",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -395,13 +588,13 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "他们不约而同地选择了同一家餐厅。",
-        "pinyin": "Tāmen bù yuē ér tóng de xuǎnzé le tóng yī jiā cāntīng.",
-        "german": "Sie waehlten ohne Absprache alle dasselbe Restaurant."
+        "pinyin": "Tāmen bùyuē-értóng de xuǎnzé le tóngyī jiā cāntīng.",
+        "german": "Ohne sich abgesprochen zu haben, entschieden sie sich alle für dasselbe Restaurant."
       },
       {
         "chinese": "大家不约而同地站了起来。",
-        "pinyin": "Dàjiā bù yuē ér tóng de zhàn le qǐlái.",
-        "german": "Alle standen ohne Absprache gleichzeitig auf."
+        "pinyin": "Dàjiā bùyuē-értóng de zhàn le qǐlai.",
+        "german": "Wie auf ein Zeichen standen alle gleichzeitig auf."
       }
     ],
     "legacyIds": [
@@ -415,21 +608,37 @@ window.CHENGYU_DATA = [
     "traditional": "不約而同",
     "evidence": {
       "cedict": "不約而同 不约而同 [bu4 yue1 er2 tong2]"
+    },
+    "notes": "Wörtlich „ohne Verabredung (不约) und doch gleich (而同)“: mehrere Personen tun ohne Absprache gleichzeitig dasselbe. Es steht meist adverbial mit 地 vor dem Verb: 不约而同地笑了, 不约而同地想到. Das Subjekt ist daher mindestens zwei Personen (大家, 两人, 他们). Neutral, in Erzählungen und Berichten sehr häufig.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:垂头丧气:chui2tou2sang4qi4",
     "word": "垂头丧气",
-    "pinyin": "chuí tóu sàng qì",
-    "meaning": "den Kopf haengen lassen; niedergeschlagen sein",
+    "pinyin": "chuítóu-sàngqì",
+    "meaning": "den Kopf hängen lassen; niedergeschlagen sein; mutlos sein",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Gefühle",
     "examples": [
       {
         "chinese": "考试没考好，他垂头丧气地走出教室。",
-        "pinyin": "Kǎoshì méi kǎo hǎo, tā chuí tóu sàng qì de zǒuchū jiàoshì.",
-        "german": "Weil die Pruefung schlecht lief, verliess er niedergeschlagen das Klassenzimmer."
+        "pinyin": "Kǎoshì méi kǎo hǎo, tā chuítóu-sàngqì de zǒuchū jiàoshì.",
+        "german": "Weil die Prüfung schlecht gelaufen war, verließ er mit hängendem Kopf das Klassenzimmer."
+      },
+      {
+        "chinese": "比赛输了以后，球员们都垂头丧气的，谁也不想说话。",
+        "pinyin": "Bǐsài shū le yǐhòu, qiúyuánmen dōu chuítóu-sàngqì de, shéi yě bù xiǎng shuōhuà.",
+        "german": "Nach der Niederlage ließen alle Spieler die Köpfe hängen, keiner wollte reden."
+      },
+      {
+        "chinese": "别垂头丧气了，下次还有机会。",
+        "pinyin": "Bié chuítóu-sàngqì le, xià cì hái yǒu jīhuì.",
+        "german": "Lass den Kopf nicht hängen, nächstes Mal hast du wieder eine Chance."
       }
     ],
     "legacyIds": [
@@ -443,21 +652,37 @@ window.CHENGYU_DATA = [
     "traditional": "垂頭喪氣",
     "evidence": {
       "cedict": "垂頭喪氣 垂头丧气 [chui2 tou2 sang4 qi4]"
+    },
+    "notes": "垂头丧气 (chuítóu-sàngqì) heißt wörtlich „den Kopf (头) hängen lassen (垂) und den Mut (气) verlieren (丧)“. Es beschreibt vor allem die sichtbare Niedergeschlagenheit nach einem Misserfolg: hängende Schultern, gesenkter Blick. Typisch ist es adverbial mit 地 (垂头丧气地走了), als Prädikat (他垂头丧气的) oder in der Aufmunterung 别垂头丧气了. Das verwandte 灰心 (huīxīn) meint eher die innere Entmutigung.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:大公无私:da4gong1wu2si1",
     "word": "大公无私",
-    "pinyin": "dà gōng wú sī",
-    "meaning": "oeffentliches Interesse ueber persoenliches stellen; selbstlos und gerecht",
+    "pinyin": "dàgōng-wúsī",
+    "meaning": "selbstlos und unparteiisch; das Gemeinwohl über das Eigeninteresse stellen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Arbeit",
     "examples": [
       {
         "chinese": "他处理问题大公无私，不偏向任何一方。",
-        "pinyin": "Tā chǔlǐ wèntí dà gōng wú sī, bù piānxiàng rènhé yī fāng.",
-        "german": "Er behandelt Probleme selbstlos und gerecht, ohne eine Seite zu bevorzugen."
+        "pinyin": "Tā chǔlǐ wèntí dàgōng-wúsī, bù piānxiàng rènhé yì fāng.",
+        "german": "Er geht Probleme unparteiisch an und bevorzugt keine Seite."
+      },
+      {
+        "chinese": "法官必须大公无私，不能因为是亲戚就手下留情。",
+        "pinyin": "Fǎguān bìxū dàgōng-wúsī, bù néng yīnwèi shì qīnqi jiù shǒuxià-liúqíng.",
+        "german": "Ein Richter muss unparteiisch sein und darf niemanden schonen, nur weil er mit ihm verwandt ist."
+      },
+      {
+        "chinese": "大家都说新来的厂长大公无私，从不给自己的家人安排工作。",
+        "pinyin": "Dàjiā dōu shuō xīn lái de chǎngzhǎng dàgōng-wúsī, cóngbù gěi zìjǐ de jiārén ānpái gōngzuò.",
+        "german": "Alle sagen, der neue Fabrikdirektor sei selbstlos und gerecht – er hat noch nie einem Angehörigen eine Stelle verschafft."
       }
     ],
     "legacyIds": [
@@ -471,21 +696,37 @@ window.CHENGYU_DATA = [
     "traditional": "大公無私",
     "evidence": {
       "cedict": "大公無私 大公无私 [da4 gong1 wu2 si1]"
+    },
+    "notes": "大公无私 (dàgōng-wúsī) setzt sich aus 大公 „ganz dem Allgemeinwohl verpflichtet“ und 无私 „ohne Eigennutz“ zusammen. Man lobt damit Richter, Beamte oder Vorgesetzte, die bei Entscheidungen weder eigene Vorteile noch persönliche Beziehungen berücksichtigen. Der Ausdruck klingt gehoben und erscheint oft in Berichten und Reden; im Alltag wird er manchmal auch ironisch gebraucht. Das einfache 无私 (wúsī) bedeutet nur „selbstlos“ (无私的帮助), 大公无私 betont zusätzlich die Unparteilichkeit.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:大同小异:da4tong2xiao3yi4",
     "word": "大同小异",
-    "pinyin": "dà tóng xiǎo yì",
-    "meaning": "im Grossen aehnlich, in Kleinigkeiten verschieden; mehr oder weniger gleich",
+    "pinyin": "dàtóng-xiǎoyì",
+    "meaning": "im Großen und Ganzen gleich; sich nur in Kleinigkeiten unterscheiden",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Lebensweisheit",
     "examples": [
       {
         "chinese": "这两个方案大同小异，选哪个都行。",
-        "pinyin": "Zhè liǎng gè fāng'àn dà tóng xiǎo yì, xuǎn nǎge dōu xíng.",
-        "german": "Diese beiden Vorschlaege sind im Grunde gleich, man kann jeden nehmen."
+        "pinyin": "Zhè liǎng ge fāng'àn dàtóng-xiǎoyì, xuǎn nǎge dōu xíng.",
+        "german": "Die beiden Vorschläge unterscheiden sich kaum, wir können jeden davon nehmen."
+      },
+      {
+        "chinese": "这条街上的饭馆菜单都大同小异，没什么特色。",
+        "pinyin": "Zhè tiáo jiē shang de fànguǎn càidān dōu dàtóng-xiǎoyì, méi shénme tèsè.",
+        "german": "Die Speisekarten der Restaurants in dieser Straße ähneln sich alle, nichts Besonderes dabei."
+      },
+      {
+        "chinese": "他的观点和我的大同小异。",
+        "pinyin": "Tā de guāndiǎn hé wǒ de dàtóng-xiǎoyì.",
+        "german": "Seine Ansichten decken sich weitgehend mit meinen."
       }
     ],
     "legacyIds": [
@@ -499,12 +740,18 @@ window.CHENGYU_DATA = [
     "traditional": "大同小異",
     "evidence": {
       "cedict": "大同小異 大同小异 [da4 tong2 xiao3 yi4]"
+    },
+    "notes": "大同小异 (dàtóng-xiǎoyì) bedeutet wörtlich „im Großen gleich (大同), im Kleinen verschieden (小异)“. Es ist neutral, in Alltag und Schrift sehr gebräuchlich und steht meist als Prädikat: A和B大同小异 oder A与B大同小异. Oft schwingt mit, dass es kaum echte Unterschiede oder nichts Neues gibt. Anders als 一模一样 (yìmú-yíyàng, „völlig identisch“) räumt es kleine Abweichungen ein.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:当机立断:dang1ji1li4duan4",
     "word": "当机立断",
-    "pinyin": "dāng jī lì duàn",
+    "pinyin": "dāngjī-lìduàn",
     "meaning": "sofort eine Entscheidung treffen; entschlossen handeln",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -512,8 +759,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "紧急情况下他当机立断，避免了更大的损失。",
-        "pinyin": "Jǐnjí qíngkuàng xià tā dāng jī lì duàn, bìmiǎn le gèng dà de sǔnshī.",
-        "german": "In der Notsituation traf er sofort eine Entscheidung und verhinderte groesseren Schaden."
+        "pinyin": "Jǐnjí qíngkuàng xià tā dāngjī-lìduàn, bìmiǎn le gèng dà de sǔnshī.",
+        "german": "In der Notlage entschied er sofort und verhinderte so größeren Schaden."
+      },
+      {
+        "chinese": "机会不等人，这时候必须当机立断。",
+        "pinyin": "Jīhuì bù děng rén, zhè shíhou bìxū dāngjī-lìduàn.",
+        "german": "Chancen warten nicht – jetzt muss man sich schnell entscheiden."
+      },
+      {
+        "chinese": "看到孩子掉进水里，他当机立断跳了下去。",
+        "pinyin": "Kàndào háizi diàojìn shuǐ li, tā dāngjī-lìduàn tiào le xiàqu.",
+        "german": "Als er sah, dass das Kind ins Wasser gefallen war, sprang er ohne zu zögern hinterher."
       }
     ],
     "legacyIds": [
@@ -527,12 +784,18 @@ window.CHENGYU_DATA = [
     "traditional": "當機立斷",
     "evidence": {
       "cedict": "當機立斷 当机立断 [dang1 ji1 li4 duan4]"
+    },
+    "notes": "当机立断 (dāngjī-lìduàn) heißt wörtlich „im (entscheidenden) Moment (当机) sofort entscheiden (立断)“. Man lobt damit Menschen, die in kritischen Lagen ohne Zögern die richtige Entscheidung treffen. Es steht als Prädikat (他当机立断) oder in Aufforderungen wie 必须当机立断. Das Gegenteil ist 犹豫不决 (yóuyù-bùjué, „unentschlossen zaudern“).",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:得不偿失:de2bu4chang2shi1",
     "word": "得不偿失",
-    "pinyin": "dé bù cháng shī",
+    "pinyin": "débù-chángshī",
     "meaning": "der Gewinn wiegt den Verlust nicht auf; es lohnt sich nicht",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -540,8 +803,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "为了省一点钱而影响健康，真是得不偿失。",
-        "pinyin": "Wèile shěng yīdiǎn qián ér yǐngxiǎng jiànkāng, zhēn shì dé bù cháng shī.",
-        "german": "Fuer etwas Geld die Gesundheit zu ruinieren, das lohnt sich wirklich nicht."
+        "pinyin": "Wèile shěng yìdiǎn qián ér yǐngxiǎng jiànkāng, zhēn shì débù-chángshī.",
+        "german": "Für ein bisschen gespartes Geld die Gesundheit aufs Spiel zu setzen, lohnt sich wirklich nicht."
+      },
+      {
+        "chinese": "熬夜复习，第二天考试却没精神，这样做得不偿失。",
+        "pinyin": "Áoyè fùxí, dì-èr tiān kǎoshì què méi jīngshen, zhèyàng zuò débù-chángshī.",
+        "german": "Die Nacht durchzulernen und dann bei der Prüfung müde zu sein – das lohnt sich nicht."
+      },
+      {
+        "chinese": "公司为了降低成本用便宜的材料，结果失去了客户，得不偿失。",
+        "pinyin": "Gōngsī wèile jiàngdī chéngběn yòng piányi de cáiliào, jiéguǒ shīqù le kèhù, débù-chángshī.",
+        "german": "Die Firma nahm billiges Material, um Kosten zu sparen, und verlor dadurch Kunden – ein schlechtes Geschäft."
       }
     ],
     "legacyIds": [
@@ -556,21 +829,37 @@ window.CHENGYU_DATA = [
     "traditional": "得不償失",
     "evidence": {
       "cedict": "得不償失 得不偿失 [de2 bu4 chang2 shi1]"
+    },
+    "notes": "得不偿失 (débù-chángshī) heißt wörtlich „das Gewonnene (得) gleicht das Verlorene (失) nicht aus (不偿)“. Man bewertet damit eine Handlung, deren Nachteile größer sind als ihr Nutzen. Typisch steht es am Satzende als Urteil: 真是得不偿失, 这样做得不偿失, oder als Attribut: 得不偿失的做法. Es ist neutral und im Alltag wie in Texten häufig.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:得心应手:de2xin1ying4shou3",
     "word": "得心应手",
-    "pinyin": "dé xīn yìng shǒu",
-    "meaning": "etwas muehelos beherrschen; in Fleisch und Blut uebergegangen",
+    "pinyin": "déxīn-yìngshǒu",
+    "meaning": "etwas mühelos beherrschen; leicht von der Hand gehen; in seinem Element sein",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Arbeit",
     "examples": [
       {
         "chinese": "多年的经验让他工作起来得心应手。",
-        "pinyin": "Duō nián de jīngyàn ràng tā gōngzuò qǐlái dé xīn yìng shǒu.",
-        "german": "Durch seine langjährige Erfahrung beherrscht er seine Arbeit muehelos."
+        "pinyin": "Duō nián de jīngyàn ràng tā gōngzuò qǐlai déxīn-yìngshǒu.",
+        "german": "Dank langjähriger Erfahrung geht ihm die Arbeit mühelos von der Hand."
+      },
+      {
+        "chinese": "这把刀我用了十年，用起来特别得心应手。",
+        "pinyin": "Zhè bǎ dāo wǒ yòng le shí nián, yòng qǐlai tèbié déxīn-yìngshǒu.",
+        "german": "Dieses Messer benutze ich seit zehn Jahren, es liegt mir perfekt in der Hand."
+      },
+      {
+        "chinese": "刚开始教书时她很紧张，现在已经越来越得心应手了。",
+        "pinyin": "Gāng kāishǐ jiāoshū shí tā hěn jǐnzhāng, xiànzài yǐjīng yuèláiyuè déxīn-yìngshǒu le.",
+        "german": "Anfangs war sie beim Unterrichten sehr nervös, inzwischen geht es ihr immer leichter von der Hand."
       }
     ],
     "legacyIds": [
@@ -584,12 +873,18 @@ window.CHENGYU_DATA = [
     "traditional": "得心應手",
     "evidence": {
       "cedict": "得心應手 得心应手 [de2 xin1 ying4 shou3]"
+    },
+    "notes": "得心应手 (déxīn-yìngshǒu) bedeutet wörtlich „was das Herz (心) will, setzt die Hand (手) um (应)“. Es beschreibt Können und Routine, mit denen eine Tätigkeit glatt läuft, oder ein Werkzeug, das gut in der Hand liegt. Typische Rahmen sind 用起来得心应手, 做得得心应手 und 越来越得心应手. Der Ausdruck ist lobend und in Alltag wie Schrift gebräuchlich.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:独一无二:du2yi1wu2er4",
     "word": "独一无二",
-    "pinyin": "dú yī wú èr",
+    "pinyin": "dúyī-wú’èr",
     "meaning": "einzigartig; es gibt kein zweites",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -597,8 +892,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "每个人都是独一无二的。",
-        "pinyin": "Měi gè rén dōu shì dú yī wú èr de.",
+        "pinyin": "Měi ge rén dōu shì dúyī-wú'èr de.",
         "german": "Jeder Mensch ist einzigartig."
+      },
+      {
+        "chinese": "这件衣服是我奶奶亲手做的，世界上独一无二。",
+        "pinyin": "Zhè jiàn yīfu shì wǒ nǎinai qīnshǒu zuò de, shìjiè shang dúyī-wú'èr.",
+        "german": "Dieses Stück hat meine Oma selbst genäht – es ist ein echtes Unikat."
+      },
+      {
+        "chinese": "这家酒店的位置独一无二，从房间就能看到整个西湖。",
+        "pinyin": "Zhè jiā jiǔdiàn de wèizhì dúyī-wú'èr, cóng fángjiān jiù néng kàndào zhěnggè Xīhú.",
+        "german": "Die Lage dieses Hotels ist einmalig: Vom Zimmer aus sieht man den ganzen Westsee."
       }
     ],
     "legacyIds": [
@@ -612,21 +917,37 @@ window.CHENGYU_DATA = [
     "traditional": "獨一無二",
     "evidence": {
       "cedict": "獨一無二 独一无二 [du2 yi1 wu2 er4]"
+    },
+    "notes": "独一无二 (dúyī-wú'èr) heißt wörtlich „nur eines (独一), kein zweites (无二)“, also „einzigartig, einmalig“. Es ist neutral und sehr gebräuchlich, oft im Rahmen 是独一无二的 oder als Attribut: 独一无二的礼物. Es ist deutlich stärker als 特别 (tèbié, „besonders“). Gehobener und noch steigernder ist 举世无双 (jǔshì-wúshuāng, „auf der ganzen Welt ohnegleichen“).",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:对牛弹琴:dui4niu2tan2qin2",
     "word": "对牛弹琴",
-    "pinyin": "duì niú tán qín",
-    "meaning": "vor tauben Ohren predigen; Perlen vor die Saeue werfen",
+    "pinyin": "duìniú-tánqín",
+    "meaning": "vor tauben Ohren predigen; Perlen vor die Säue werfen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Beziehungen",
     "examples": [
       {
         "chinese": "跟他讲道理简直是对牛弹琴。",
-        "pinyin": "Gēn tā jiǎng dàolǐ jiǎnzhí shì duì niú tán qín.",
-        "german": "Ihm Vernunft predigen zu wollen ist wie vor tauben Ohren zu reden."
+        "pinyin": "Gēn tā jiǎng dàoli jiǎnzhí shì duìniú-tánqín.",
+        "german": "Mit ihm vernünftig reden zu wollen, ist, als würde man gegen eine Wand sprechen."
+      },
+      {
+        "chinese": "给小学生讲这么难的理论，不是对牛弹琴吗？",
+        "pinyin": "Gěi xiǎoxuéshēng jiǎng zhème nán de lǐlùn, bú shì duìniú-tánqín ma?",
+        "german": "Grundschülern so eine schwierige Theorie zu erklären – ist das nicht vergebliche Mühe?"
+      },
+      {
+        "chinese": "我说了半天，他一句也没听进去，真是对牛弹琴。",
+        "pinyin": "Wǒ shuō le bàntiān, tā yí jù yě méi tīng jìnqu, zhēn shì duìniú-tánqín.",
+        "german": "Ich habe ewig auf ihn eingeredet, aber er hat kein Wort davon aufgenommen – völlig vergeblich."
       }
     ],
     "legacyIds": [
@@ -640,31 +961,37 @@ window.CHENGYU_DATA = [
     "traditional": "對牛彈琴",
     "evidence": {
       "cedict": "對牛彈琴 对牛弹琴 [dui4 niu2 tan2 qin2]"
+    },
+    "notes": "对牛弹琴 (duìniú-tánqín) heißt wörtlich „einer Kuh (牛) auf der Zither vorspielen (弹琴)“. Gemeint ist, dass man mit jemandem redet, der nichts versteht oder nicht zuhören will, sodass alle Mühe vergeblich ist. Meist wird damit der Zuhörer kritisiert, manchmal auch der Sprecher, der sein Publikum falsch einschätzt. Typisch: 简直是对牛弹琴, 跟他说……等于对牛弹琴. Da der Ausdruck den Zuhörer indirekt mit einer Kuh vergleicht, wirkt er direkt an jemanden gerichtet beleidigend.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:对症下药:dui4zheng4xia4yao4",
     "word": "对症下药",
-    "pinyin": "duì zhèng xià yào",
-    "meaning": "die Medizin auf die Krankheit abstimmen; gezielte Massnahmen ergreifen",
+    "pinyin": "duìzhèng-xiàyào",
+    "meaning": "die Arznei auf die Krankheit abstimmen; gezielte Maßnahmen ergreifen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Geschichte",
     "examples": [
       {
         "chinese": "解决问题要对症下药，不能盲目。",
-        "pinyin": "Jiějué wèntí yào duì zhèng xià yào, bù néng mángmù.",
-        "german": "Beim Problemloesen muss man gezielt vorgehen und darf nicht blind handeln."
+        "pinyin": "Jiějué wèntí yào duìzhèng-xiàyào, bù néng mángmù.",
+        "german": "Probleme muss man gezielt angehen, nicht blindlings."
       },
       {
-        "chinese": "解决问题要对症下药。",
-        "pinyin": "Jiějué wèntí yào duì zhèng xià yào.",
-        "german": "Bei der Problemlösung muss man gezielt vorgehen."
+        "chinese": "医生先做了详细检查，然后对症下药，病人很快就好了。",
+        "pinyin": "Yīshēng xiān zuò le xiángxì jiǎnchá, ránhòu duìzhèng-xiàyào, bìngrén hěn kuài jiù hǎo le.",
+        "german": "Der Arzt untersuchte zuerst gründlich und behandelte dann gezielt, sodass der Patient bald wieder gesund war."
       },
       {
-        "chinese": "解决问题要对症下药，不能一刀切。",
-        "pinyin": "Jiějué wèntí yào duìzhèng xiàyào, bù néng yīdāoqiē.",
-        "german": "Bei der Problemloesung muss man gezielt vorgehen, nicht alles ueber einen Kamm scheren."
+        "chinese": "每个学生的问题不一样，老师得对症下药。",
+        "pinyin": "Měi ge xuésheng de wèntí bù yíyàng, lǎoshī děi duìzhèng-xiàyào.",
+        "german": "Jeder Schüler hat andere Schwierigkeiten, deshalb muss der Lehrer gezielt auf jeden eingehen."
       }
     ],
     "legacyIds": [
@@ -679,21 +1006,37 @@ window.CHENGYU_DATA = [
     "traditional": "對症下藥",
     "evidence": {
       "cedict": "對症下藥 对症下药 [dui4 zheng4 xia4 yao4]"
+    },
+    "notes": "对症下药 (duìzhèng-xiàyào) heißt wörtlich „passend (对) zum Krankheitsbild (症) Arznei verabreichen (下药)“. Neben der medizinischen Grundbedeutung wird es heute meist übertragen gebraucht: ein Problem nach seiner Ursache gezielt lösen. Typisch sind 要对症下药 und 针对……对症下药, häufig in Sachtexten, Ratgebern und politischer Sprache. Den Gegensatz bilden 一刀切 (yìdāoqiē, „alles über einen Kamm scheren“) und 头痛医头，脚痛医脚 („nur an Symptomen herumdoktern“).",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:废寝忘食:fei4qin3wang4shi2",
     "word": "废寝忘食",
-    "pinyin": "fèi qǐn wàng shí",
-    "meaning": "Essen und Schlafen vergessen; voellig in der Arbeit aufgehen",
+    "pinyin": "fèiqǐn-wàngshí",
+    "meaning": "Essen und Schlafen vergessen; völlig in einer Sache aufgehen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Arbeit",
     "examples": [
       {
         "chinese": "为了完成项目，他废寝忘食地工作。",
-        "pinyin": "Wèile wánchéng xiàngmù, tā fèi qǐn wàng shí de gōngzuò.",
-        "german": "Um das Projekt abzuschliessen, hat er Tag und Nacht gearbeitet und alles andere vergessen."
+        "pinyin": "Wèile wánchéng xiàngmù, tā fèiqǐn-wàngshí de gōngzuò.",
+        "german": "Um das Projekt fertigzubekommen, arbeitete er rund um die Uhr und vergaß dabei Essen und Schlaf."
+      },
+      {
+        "chinese": "考研前那几个月，她每天废寝忘食地复习。",
+        "pinyin": "Kǎoyán qián nà jǐ ge yuè, tā měitiān fèiqǐn-wàngshí de fùxí.",
+        "german": "In den Monaten vor der Aufnahmeprüfung fürs Masterstudium lernte sie jeden Tag so verbissen, dass sie Essen und Schlafen vergaß."
+      },
+      {
+        "chinese": "他最近迷上了一款游戏，玩得废寝忘食。",
+        "pinyin": "Tā zuìjìn míshàng le yì kuǎn yóuxì, wán de fèiqǐn-wàngshí.",
+        "german": "Er ist neuerdings so vernarrt in ein Spiel, dass er darüber Essen und Schlafen vergisst."
       }
     ],
     "legacyIds": [
@@ -707,21 +1050,37 @@ window.CHENGYU_DATA = [
     "traditional": "廢寢忘食",
     "evidence": {
       "cedict": "廢寢忘食 废寝忘食 [fei4 qin3 wang4 shi2]"
+    },
+    "notes": "废寝忘食 (fèiqǐn-wàngshí) heißt wörtlich „auf den Schlaf verzichten (废寝) und das Essen vergessen (忘食)“. Es lobt meist hingebungsvolles Arbeiten oder Lernen und steht typischerweise adverbial mit 地 (废寝忘食地工作) oder als Komplement mit 得 (忙得废寝忘食). Der Ausdruck ist eher schriftsprachlich; im Gespräch wird er auch scherzhaft verwendet, etwa für Computerspiele.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:风和日丽:feng1he2ri4li4",
     "word": "风和日丽",
-    "pinyin": "fēng hé rì lì",
-    "meaning": "schoenes Wetter mit sanftem Wind und Sonnenschein",
+    "pinyin": "fēnghé-rìlì",
+    "meaning": "mildes, sonniges Wetter; laue Luft und strahlender Sonnenschein",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Natur",
     "examples": [
       {
         "chinese": "今天风和日丽，我们去公园散步吧。",
-        "pinyin": "Jīntiān fēng hé rì lì, wǒmen qù gōngyuán sànbù ba.",
-        "german": "Heute ist schoenes Wetter, lass uns im Park spazieren gehen."
+        "pinyin": "Jīntiān fēnghé-rìlì, wǒmen qù gōngyuán sànbù ba.",
+        "german": "Heute ist herrliches Wetter, lass uns im Park spazieren gehen."
+      },
+      {
+        "chinese": "在一个风和日丽的周末，我们全家去海边野餐。",
+        "pinyin": "Zài yí ge fēnghé-rìlì de zhōumò, wǒmen quánjiā qù hǎibiān yěcān.",
+        "german": "An einem milden, sonnigen Wochenende machte unsere ganze Familie ein Picknick am Meer."
+      },
+      {
+        "chinese": "婚礼那天风和日丽，客人们都说是个好兆头。",
+        "pinyin": "Hūnlǐ nà tiān fēnghé-rìlì, kèrénmen dōu shuō shì ge hǎo zhàotou.",
+        "german": "Am Hochzeitstag war strahlend schönes Wetter, und alle Gäste meinten, das sei ein gutes Omen."
       }
     ],
     "legacyIds": [
@@ -735,26 +1094,37 @@ window.CHENGYU_DATA = [
     "traditional": "風和日麗",
     "evidence": {
       "cedict": "風和日麗 风和日丽 [feng1 he2 ri4 li4]"
+    },
+    "notes": "风和日丽 (fēnghé-rìlì) heißt wörtlich „der Wind ist mild (风和), die Sonne ist schön (日丽)“. Es beschreibt angenehmes, sonniges Wetter, besonders im Frühling, und ist in Aufsätzen, Reiseberichten und Erzählungen beliebt (那天风和日丽……). Im Gespräch klingt es etwas gehoben. Es steht meist als Prädikat ohne 很 oder als Attribut: 风和日丽的周末.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:刮目相看:gua1mu4xiang1kan4",
     "word": "刮目相看",
-    "pinyin": "guā mù xiāng kàn",
-    "meaning": "jemanden mit neuen Augen sehen; seine Meinung ueber jemanden aendern",
+    "pinyin": "guāmù-xiāngkàn",
+    "meaning": "jemanden mit neuen Augen sehen; jemanden plötzlich viel höher einschätzen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Beziehungen",
     "examples": [
       {
-        "chinese": "他的进步让人刮目相看。",
-        "pinyin": "Tā de jìnbù ràng rén guā mù xiāng kàn.",
-        "german": "Sein Fortschritt lässt einen ihn mit neuen Augen betrachten."
+        "chinese": "他的进步让所有人刮目相看。",
+        "pinyin": "Tā de jìnbù ràng suǒyǒu rén guāmù-xiāngkàn.",
+        "german": "Mit seinen Fortschritten hat er alle überrascht – jetzt sieht man ihn mit anderen Augen."
       },
       {
-        "chinese": "他的进步让所有人刮目相看。",
-        "pinyin": "Tā de jìnbù ràng suǒyǒu rén guā mù xiāng kàn.",
-        "german": "Sein Fortschritt hat alle dazu gebracht, ihn mit neuen Augen zu sehen."
+        "chinese": "她这次比赛拿了冠军，连以前看不起她的人也对她刮目相看了。",
+        "pinyin": "Tā zhè cì bǐsài ná le guànjūn, lián yǐqián kànbuqǐ tā de rén yě duì tā guāmù-xiāngkàn le.",
+        "german": "Diesmal hat sie den Wettkampf gewonnen, und selbst die, die früher auf sie herabgesehen haben, sehen sie jetzt mit anderen Augen."
+      },
+      {
+        "chinese": "这家小公司的新产品令人刮目相看。",
+        "pinyin": "Zhè jiā xiǎo gōngsī de xīn chǎnpǐn lìng rén guāmù-xiāngkàn.",
+        "german": "Das neue Produkt dieser kleinen Firma lässt aufhorchen."
       }
     ],
     "legacyIds": [
@@ -768,12 +1138,18 @@ window.CHENGYU_DATA = [
     "traditional": "刮目相看",
     "evidence": {
       "cedict": "刮目相看 刮目相看 [gua1 mu4 xiang1 kan4]"
+    },
+    "notes": "刮目相看 (guāmù-xiāngkàn) heißt wörtlich „sich die Augen reiben (刮目) und hinsehen (相看)“. Es geht auf die Geschichte des Generals Lü Meng (吕蒙) aus der Zeit der Drei Reiche zurück, der durch eifriges Lernen so viel dazulernte, dass man ihn neu beurteilen musste. Gemeint ist eine positive Überraschung über jemandes Fortschritt oder Leistung. Typische Rahmen: 让人刮目相看, 令人刮目相看, 对某人刮目相看.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:光明磊落:guang1ming2lei3luo4",
     "word": "光明磊落",
-    "pinyin": "guāng míng lěi luò",
+    "pinyin": "guāngmíng-lěiluò",
     "meaning": "aufrichtig und ehrlich; integer",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -781,8 +1157,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "他做事光明磊落，从来不搞小动作。",
-        "pinyin": "Tā zuòshì guāng míng lěi luò, cónglái bù gǎo xiǎo dòngzuò.",
-        "german": "Er handelt stets aufrichtig und betreibt nie Hinterhaeltigkeiten."
+        "pinyin": "Tā zuòshì guāngmíng-lěiluò, cónglái bù gǎo xiǎodòngzuò.",
+        "german": "Er handelt offen und ehrlich und greift nie zu miesen Tricks."
+      },
+      {
+        "chinese": "我们光明磊落，不怕别人调查。",
+        "pinyin": "Wǒmen guāngmíng-lěiluò, bú pà biérén diàochá.",
+        "german": "Wir haben nichts zu verbergen und fürchten keine Untersuchung."
+      },
+      {
+        "chinese": "他是个光明磊落的人，有意见都当面说。",
+        "pinyin": "Tā shì ge guāngmíng-lěiluò de rén, yǒu yìjiàn dōu dāngmiàn shuō.",
+        "german": "Er ist ein aufrichtiger Mensch: Wenn ihm etwas nicht passt, sagt er es einem ins Gesicht."
       }
     ],
     "legacyIds": [
@@ -796,36 +1182,37 @@ window.CHENGYU_DATA = [
     "traditional": "光明磊落",
     "evidence": {
       "cedict": "光明磊落 光明磊落 [guang1 ming2 lei3 luo4]"
+    },
+    "notes": "光明磊落 (guāngmíng-lěiluò) verbindet 光明 „hell, offen“ mit 磊落 „aufrecht, offenherzig“. Es beschreibt Menschen, die ohne Hintergedanken handeln und nichts zu verbergen haben. Der Ausdruck ist lobend und eher gehoben; typisch sind 为人光明磊落, 做事光明磊落 und 光明磊落的人. Gegenteile sind 鬼鬼祟祟 (guǐguǐsuìsuì, „heimlichtuerisch“) und 搞小动作 („hinterrücks intrigieren“).",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:鹤立鸡群:he4li4ji1qun2",
     "word": "鹤立鸡群",
-    "pinyin": "hè lì jī qún",
-    "meaning": "ein Kranich unter Huehnern; herausragend aus der Menge",
+    "pinyin": "hèlì-jīqún",
+    "meaning": "wie ein Kranich unter Hühnern; aus der Menge herausragen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Warnung",
     "examples": [
       {
         "chinese": "他在同龄人中鹤立鸡群。",
-        "pinyin": "Tā zài tónglíngrén zhōng hè lì jī qún.",
-        "german": "Er ragt unter Gleichaltrigen hervor."
+        "pinyin": "Tā zài tónglíngrén zhōng hèlì-jīqún.",
+        "german": "Unter Gleichaltrigen sticht er deutlich hervor."
       },
       {
         "chinese": "他的才华让他鹤立鸡群，但也招来嫉妒。",
-        "pinyin": "Tā de cáihuá ràng tā hè lì jī qún, dàn yě zhāo lái jídù.",
-        "german": "Sein Talent laesst ihn aus der Menge herausragen, zieht aber auch Neid auf sich."
+        "pinyin": "Tā de cáihuá ràng tā hèlì-jīqún, dàn yě zhāolái jídù.",
+        "german": "Durch sein Talent ragt er aus der Menge heraus, zieht damit aber auch Neid auf sich."
       },
       {
-        "chinese": "他在班上的成绩鹤立鸡群，总是第一名。",
-        "pinyin": "Tā zài bān shàng de chéngjì hè lì jī qún, zǒng shì dì yī míng.",
-        "german": "Seine Noten ragen in der Klasse wie ein Kranich unter Huehnern heraus, er ist immer Erster."
-      },
-      {
-        "chinese": "她的才华让她在同事中鹤立鸡群。",
-        "pinyin": "Tā de cáihuá ràng tā zài tóngshì zhōng hèlì jīqún.",
-        "german": "Ihr Talent laesst sie unter den Kollegen herausragen."
+        "chinese": "他一米九的个子，站在人群里鹤立鸡群。",
+        "pinyin": "Tā yì mǐ jiǔ de gèzi, zhàn zài rénqún li hèlì-jīqún.",
+        "german": "Mit seinen 1,90 Metern überragt er in jeder Menschenmenge alle anderen."
       }
     ],
     "legacyIds": [
@@ -840,36 +1227,37 @@ window.CHENGYU_DATA = [
     "traditional": "鶴立雞群",
     "evidence": {
       "cedict": "鶴立雞群 鹤立鸡群 [he4 li4 ji1 qun2]"
+    },
+    "notes": "鹤立鸡群 (hèlì-jīqún) heißt wörtlich „ein Kranich (鹤) steht (立) in einer Schar Hühner (鸡群)“. Man sagt es von jemandem, der durch Talent, Aussehen oder Körpergröße deutlich aus seiner Umgebung heraussticht. Typisch ist 在……中鹤立鸡群 oder 显得鹤立鸡群. Weil die anderen dabei indirekt zu „Hühnern“ werden, ist der Ausdruck in deren Gegenwart nicht besonders taktvoll.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:画龙点睛:hua4long2dian3jing1",
     "word": "画龙点睛",
-    "pinyin": "huà lóng diǎn jīng",
-    "meaning": "Dem gemalten Drachen die Augen einsetzen (das entscheidende Detail hinzufuegen)",
+    "pinyin": "huàlóng-diǎnjīng",
+    "meaning": "dem gemalten Drachen die Augen einsetzen; das Tüpfelchen auf dem i setzen; den entscheidenden letzten Schliff geben",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Geschichte",
     "examples": [
       {
-        "chinese": "他在文章最后加了一句话，真是画龙点睛。",
-        "pinyin": "Tā zài wénzhāng zuìhòu jiā le yī jù huà, zhēn shì huà lóng diǎn jīng.",
-        "german": "Er fuegte am Ende des Artikels einen Satz hinzu — das war das Tuepfelchen auf dem i."
-      },
-      {
         "chinese": "最后的那句总结起到了画龙点睛的作用。",
-        "pinyin": "Zuìhòu de nà jù zǒngjié qǐdào le huà lóng diǎn jīng de zuòyòng.",
-        "german": "Die abschliessende Zusammenfassung gab dem Ganzen den letzten entscheidenden Schliff."
-      },
-      {
-        "chinese": "最后一句话起到了画龙点睛的作用。",
-        "pinyin": "Zuìhòu yī jù huà qǐdào le huà lóng diǎn jīng de zuòyòng.",
-        "german": "Der letzte Satz setzte das I-Tüpfelchen."
+        "pinyin": "Zuìhòu de nà jù zǒngjié qǐdào le huàlóng-diǎnjīng de zuòyòng.",
+        "german": "Die Zusammenfassung am Schluss gab dem Ganzen den entscheidenden letzten Schliff."
       },
       {
         "chinese": "最后一段话是画龙点睛之笔，使整篇文章更完美了。",
-        "pinyin": "Zuìhòu yī duàn huà shì huà lóng diǎn jīng zhī bǐ, shǐ zhěng piān wénzhāng gèng wánměi le.",
-        "german": "Der letzte Absatz war das entscheidende Detail, das den ganzen Aufsatz noch besser gemacht hat."
+        "pinyin": "Zuìhòu yí duàn huà shì huàlóng-diǎnjīng zhī bǐ, shǐ zhěng piān wénzhāng gèng wánměi le.",
+        "german": "Der letzte Absatz ist das Tüpfelchen auf dem i, das den ganzen Text abrundet."
+      },
+      {
+        "chinese": "客厅里那幅画真是画龙点睛，整个房间一下子就有了生气。",
+        "pinyin": "Kètīng li nà fú huà zhēn shì huàlóng-diǎnjīng, zhěnggè fángjiān yíxiàzi jiù yǒu le shēngqì.",
+        "german": "Das Bild im Wohnzimmer ist wirklich das I-Tüpfelchen – der ganze Raum wirkt sofort lebendiger."
       }
     ],
     "legacyIds": [
@@ -883,36 +1271,37 @@ window.CHENGYU_DATA = [
     "traditional": "畫龍點睛",
     "evidence": {
       "cedict": "畫龍點睛 画龙点睛 [hua4 long2 dian3 jing1]"
+    },
+    "notes": "画龙点睛 (huàlóng-diǎnjīng) heißt wörtlich „einen Drachen malen (画龙) und die Pupillen hineintupfen (点睛)“. Der Legende nach malte der Maler Zhang Sengyou (张僧繇) Drachen ohne Augen; als er ihnen doch Augen gab, flogen sie davon. Übertragen bezeichnet es das entscheidende Detail, das ein Werk erst lebendig macht, oft bei Texten, Reden oder Gestaltung. Typisch: 起到画龙点睛的作用 und 画龙点睛之笔. Das Gegenstück ist 画蛇添足 (huàshé-tiānzú), die überflüssige Zutat.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:画蛇添足:hua4she2tian1zu2",
     "word": "画蛇添足",
-    "pinyin": "huà shé tiān zú",
-    "meaning": "einer Schlange Fuesse malen; unnoetig uebertreiben; zu viel des Guten",
+    "pinyin": "huàshé-tiānzú",
+    "meaning": "einer Schlange Füße malen; etwas Überflüssiges hinzufügen; des Guten zu viel tun",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Geschichte",
     "examples": [
       {
         "chinese": "你的报告已经很好了，不要画蛇添足。",
-        "pinyin": "Nǐ de bàogào yǐjīng hěn hǎo le, bù yào huà shé tiān zú.",
-        "german": "Dein Bericht ist schon sehr gut, uebertreib es nicht."
-      },
-      {
-        "chinese": "文章已经写得很好了，别再修改了，画蛇添足反而不好。",
-        "pinyin": "Wénzhāng yǐjīng xiě de hěn hǎo le, bié zài xiūgǎi le, huà shé tiān zú fǎn ér bù hǎo.",
-        "german": "Der Aufsatz ist schon sehr gut, aendere nichts mehr, es waere ueberfluessig und wuerde eher schaden."
+        "pinyin": "Nǐ de bàogào yǐjīng hěn hǎo le, búyào huàshé-tiānzú.",
+        "german": "Dein Bericht ist schon sehr gut, füg nichts Überflüssiges mehr hinzu."
       },
       {
         "chinese": "这段结尾纯属画蛇添足。",
-        "pinyin": "Zhè duàn jiéwěi chún shǔ huà shé tiān zú.",
-        "german": "Dieser Schluss ist rein überflüssig."
+        "pinyin": "Zhè duàn jiéwěi chúnshǔ huàshé-tiānzú.",
+        "german": "Dieser Schluss ist völlig überflüssig."
       },
       {
-        "chinese": "你的文章已经很好了, 再改反而画蛇添足。",
-        "pinyin": "Nǐ de wénzhāng yǐjīng hěn hǎo le, zài gǎi fǎn'ér huà shé tiān zú.",
-        "german": "Dein Aufsatz ist schon gut, weitere Änderungen wären des Guten zu viel."
+        "chinese": "汤已经很好喝了，你再加那么多酱油就是画蛇添足。",
+        "pinyin": "Tāng yǐjīng hěn hǎohē le, nǐ zài jiā nàme duō jiàngyóu jiù shì huàshé-tiānzú.",
+        "german": "Die Suppe schmeckt schon sehr gut – noch so viel Sojasoße hineinzukippen, wäre des Guten zu viel."
       }
     ],
     "legacyIds": [
@@ -926,21 +1315,37 @@ window.CHENGYU_DATA = [
     "traditional": "畫蛇添足",
     "evidence": {
       "cedict": "畫蛇添足 画蛇添足 [hua4 she2 tian1 zu2]"
+    },
+    "notes": "画蛇添足 (huàshé-tiānzú) heißt wörtlich „eine Schlange malen (画蛇) und Füße hinzufügen (添足)“. Es geht auf eine Geschichte aus den „Strategien der Streitenden Reiche“ (战国策) zurück: Wer zuerst eine Schlange malte, sollte einen Krug Wein bekommen; der Schnellste malte noch Füße dazu und verlor, weil Schlangen keine Füße haben. Man kritisiert damit eine unnötige Zutat, die das Ergebnis eher verschlechtert. Typisch: 不要画蛇添足, 反而画蛇添足, 纯属画蛇添足; das Gegenstück ist 画龙点睛 (huàlóng-diǎnjīng).",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:恍然大悟:huang3ran2da4wu4",
     "word": "恍然大悟",
-    "pinyin": "huǎng rán dà wù",
-    "meaning": "ploetzlich erleuchtet werden; den Aha-Moment erleben",
+    "pinyin": "huǎngrán-dàwù",
+    "meaning": "plötzlich begreifen; jemandem geht ein Licht auf",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Lernen",
     "examples": [
       {
         "chinese": "经老师一讲，他恍然大悟。",
-        "pinyin": "Jīng lǎoshī yī jiǎng, tā huǎng rán dà wù.",
-        "german": "Nach der Erklaerung des Lehrers hatte er ploetzlich den Aha-Moment."
+        "pinyin": "Jīng lǎoshī yì jiǎng, tā huǎngrán-dàwù.",
+        "german": "Als der Lehrer es erklärte, ging ihm plötzlich ein Licht auf."
+      },
+      {
+        "chinese": "看到门口那么多鞋，我才恍然大悟，原来家里来客人了。",
+        "pinyin": "Kàndào ménkǒu nàme duō xié, wǒ cái huǎngrán-dàwù, yuánlái jiā li lái kèrén le.",
+        "german": "Erst als ich die vielen Schuhe an der Tür sah, wurde mir klar, dass wir Besuch hatten."
+      },
+      {
+        "chinese": "他的一句话让我恍然大悟。",
+        "pinyin": "Tā de yí jù huà ràng wǒ huǎngrán-dàwù.",
+        "german": "Ein einziger Satz von ihm hat mir die Augen geöffnet."
       }
     ],
     "legacyIds": [
@@ -955,12 +1360,18 @@ window.CHENGYU_DATA = [
     "traditional": "恍然大悟",
     "evidence": {
       "cedict": "恍然大悟 恍然大悟 [huang3 ran2 da4 wu4]"
+    },
+    "notes": "恍然大悟 (huǎngrán-dàwù) verbindet 恍然 „plötzlich, wie aus einem Traum erwacht“ mit 大悟 „vollständig begreifen“. Es beschreibt den Moment, in dem man etwas bisher Unklares auf einmal versteht, oft nach einer Erklärung oder einem Hinweis. Typische Rahmen sind ……才恍然大悟, 让我恍然大悟 und 恍然大悟地说; oft folgt 原来…… mit der Erklärung. Der Ausdruck ist neutral und in Erzählungen wie im Alltag gebräuchlich.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:急功近利:ji2gong1jin4li4",
     "word": "急功近利",
-    "pinyin": "jí gōng jìn lì",
+    "pinyin": "jígōng-jìnlì",
     "meaning": "auf schnellen Erfolg und sofortigen Gewinn aus sein; kurzfristig denken",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -968,8 +1379,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "做学问不能急功近利，要有长远的眼光。",
-        "pinyin": "Zuò xuéwèn bù néng jí gōng jìn lì, yào yǒu chángyuǎn de yǎnguāng.",
-        "german": "In der Wissenschaft darf man nicht kurzfristig denken, man braucht einen langfristigen Blick."
+        "pinyin": "Zuò xuéwen bù néng jígōng-jìnlì, yào yǒu chángyuǎn de yǎnguāng.",
+        "german": "In der Wissenschaft darf man nicht auf schnelle Erfolge aus sein, man muss langfristig denken."
+      },
+      {
+        "chinese": "有些家长急功近利，孩子才三岁就让他学五六门课。",
+        "pinyin": "Yǒuxiē jiāzhǎng jígōng-jìnlì, háizi cái sān suì jiù ràng tā xué wǔ liù mén kè.",
+        "german": "Manche Eltern wollen schnelle Ergebnisse und lassen ihr Kind schon mit drei Jahren fünf, sechs Kurse belegen."
+      },
+      {
+        "chinese": "这家公司急功近利，为了赚快钱牺牲了产品质量。",
+        "pinyin": "Zhè jiā gōngsī jígōng-jìnlì, wèile zhuàn kuài qián xīshēng le chǎnpǐn zhìliàng.",
+        "german": "Diese Firma ist auf den schnellen Profit aus und hat dafür die Qualität ihrer Produkte geopfert."
       }
     ],
     "legacyIds": [
@@ -983,31 +1404,37 @@ window.CHENGYU_DATA = [
     "traditional": "急功近利",
     "evidence": {
       "cedict": "急功近利 急功近利 [ji2 gong1 jin4 li4]"
+    },
+    "notes": "急功近利 (jígōng-jìnlì) heißt wörtlich „hastig nach Erfolg (功) und nach naheliegendem Gewinn (利) streben“. Der Ausdruck ist abwertend und kritisiert kurzsichtiges Handeln, das langfristige Folgen außer Acht lässt, etwa in Wirtschaft, Bildung oder Wissenschaft. Typische Rahmen: 不能急功近利, 急功近利的做法, 急功近利的心态. Er ist in Medien und Kommentaren sehr verbreitet und klingt etwas gehoben.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:集思广益:ji2si1guang3yi4",
     "word": "集思广益",
-    "pinyin": "jí sī guǎng yì",
-    "meaning": "Ideen sammeln fuer groesseren Nutzen; gemeinsam brainstormen",
+    "pinyin": "jísī-guǎngyì",
+    "meaning": "die Ideen vieler zusammentragen; viele Meinungen einholen; gemeinsam beraten",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Arbeit",
     "examples": [
       {
         "chinese": "遇到难题要集思广益。",
-        "pinyin": "Yùdào nántí yào jí sī guǎng yì.",
-        "german": "Bei schwierigen Problemen sollte man viele Meinungen einholen."
+        "pinyin": "Yùdào nántí yào jísī-guǎngyì.",
+        "german": "Bei schwierigen Problemen sollte man möglichst viele Meinungen einholen."
       },
       {
         "chinese": "我们开个会集思广益，看看怎么解决这个问题。",
-        "pinyin": "Wǒmen kāi gè huì jí sī guǎng yì, kànkan zěnme jiějué zhège wèntí.",
-        "german": "Lass uns eine Besprechung einberufen, um gemeinsam Ideen zu sammeln und das Problem zu loesen."
+        "pinyin": "Wǒmen kāi ge huì jísī-guǎngyì, kànkan zěnme jiějué zhège wèntí.",
+        "german": "Lasst uns eine Besprechung machen und gemeinsam überlegen, wie wir das Problem lösen."
       },
       {
-        "chinese": "我们应该集思广益, 找到最佳方案。",
-        "pinyin": "Wǒmen yīnggāi jísīguǎngyì, zhǎodào zuìjiā fāngàn.",
-        "german": "Wir sollten viele Meinungen sammeln, um die beste Loesung zu finden."
+        "chinese": "这次活动的名字是大家集思广益想出来的。",
+        "pinyin": "Zhè cì huódòng de míngzi shì dàjiā jísī-guǎngyì xiǎng chūlai de.",
+        "german": "Den Namen für diese Veranstaltung haben wir uns alle gemeinsam ausgedacht."
       }
     ],
     "legacyIds": [
@@ -1022,21 +1449,37 @@ window.CHENGYU_DATA = [
     "traditional": "集思廣益",
     "evidence": {
       "cedict": "集思廣益 集思广益 [ji2 si1 guang3 yi4]"
+    },
+    "notes": "集思广益 (jísī-guǎngyì) heißt wörtlich „Gedanken sammeln (集思) und so den Nutzen mehren (广益)“. Gemeint ist, die Vorschläge vieler Menschen einzuholen, um zu einer besseren Lösung zu kommen. Der Ausdruck ist positiv und vor allem in Arbeitswelt, Verwaltung und Schule sehr gebräuchlich, etwa 大家集思广益 oder 开会集思广益. Er steht meist als Prädikat und klingt neutral bis leicht gehoben.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:见多识广:jian4duo1shi2guang3",
     "word": "见多识广",
-    "pinyin": "jiàn duō shí guǎng",
-    "meaning": "viel gesehen und erfahren haben; weitgereist und belesen",
+    "pinyin": "jiànduō-shíguǎng",
+    "meaning": "viel gesehen haben und viel wissen; welterfahren",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Lernen",
     "examples": [
       {
         "chinese": "她去过很多国家，见多识广。",
-        "pinyin": "Tā qù guò hěn duō guójiā, jiàn duō shí guǎng.",
-        "german": "Sie hat viele Laender besucht und ist sehr erfahren."
+        "pinyin": "Tā qù guo hěn duō guójiā, jiànduō-shíguǎng.",
+        "german": "Sie war schon in vielen Ländern und hat viel von der Welt gesehen."
+      },
+      {
+        "chinese": "这件事你问问王经理吧，他见多识广，一定有办法。",
+        "pinyin": "Zhè jiàn shì nǐ wènwen Wáng jīnglǐ ba, tā jiànduō-shíguǎng, yídìng yǒu bànfǎ.",
+        "german": "Frag in dieser Sache doch mal Herrn Wang, unseren Manager – er hat schon viel erlebt und weiß bestimmt Rat."
+      },
+      {
+        "chinese": "爷爷年轻时当过海员，是村里最见多识广的人。",
+        "pinyin": "Yéye niánqīng shí dāng guo hǎiyuán, shì cūn li zuì jiànduō-shíguǎng de rén.",
+        "german": "Opa war in jungen Jahren Seemann und ist der welterfahrenste Mensch im Dorf."
       }
     ],
     "legacyIds": [
@@ -1050,21 +1493,37 @@ window.CHENGYU_DATA = [
     "traditional": "見多識廣",
     "evidence": {
       "cedict": "見多識廣 见多识广 [jian4 duo1 shi2 guang3]"
+    },
+    "notes": "见多识广 (jiànduō-shíguǎng) heißt wörtlich „viel gesehen (见多) und breites Wissen (识广)“. Man lobt damit Menschen mit großer Lebens- und Welterfahrung, etwa Vielgereiste oder Ältere, die schon vieles erlebt haben. Typisch ist es als Prädikat (他见多识广) oder als Attribut (见多识广的人). 识 wird hier shí gelesen, wie in 知识.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:见利忘义:jian4li4wang4yi4",
     "word": "见利忘义",
-    "pinyin": "jiàn lì wàng yì",
-    "meaning": "beim Anblick von Gewinn die Gerechtigkeit vergessen; geldgierig",
+    "pinyin": "jiànlì-wàngyì",
+    "meaning": "für den eigenen Vorteil Moral und Treue vergessen; prinzipienlos auf Gewinn aus sein",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Charakter",
     "examples": [
       {
         "chinese": "不要做见利忘义的人。",
-        "pinyin": "Bù yào zuò jiàn lì wàng yì de rén.",
-        "german": "Sei kein Mensch, der fuer Geld seine Prinzipien verraet."
+        "pinyin": "Búyào zuò jiànlì-wàngyì de rén.",
+        "german": "Verrate nie deine Prinzipien, nur weil du dir einen Vorteil davon versprichst."
+      },
+      {
+        "chinese": "没想到他为了一点钱就出卖了朋友，真是见利忘义。",
+        "pinyin": "Méi xiǎngdào tā wèile yìdiǎn qián jiù chūmài le péngyou, zhēn shì jiànlì-wàngyì.",
+        "german": "Ich hätte nie gedacht, dass er für ein bisschen Geld seinen Freund verrät – wie charakterlos!"
+      },
+      {
+        "chinese": "做生意要讲诚信，见利忘义的公司走不远。",
+        "pinyin": "Zuò shēngyi yào jiǎng chéngxìn, jiànlì-wàngyì de gōngsī zǒu bu yuǎn.",
+        "german": "Im Geschäft zählt Redlichkeit; Firmen, die für den Profit jede Moral über Bord werfen, kommen nicht weit."
       }
     ],
     "legacyIds": [
@@ -1078,12 +1537,18 @@ window.CHENGYU_DATA = [
     "traditional": "見利忘義",
     "evidence": {
       "cedict": "見利忘義 见利忘义 [jian4 li4 wang4 yi4]"
+    },
+    "notes": "见利忘义 (jiànlì-wàngyì) heißt wörtlich „den Vorteil (利) sehen und die Rechtschaffenheit (义) vergessen“. 义 umfasst dabei Moral, Loyalität und Freundestreue. Der Ausdruck ist stark abwertend und beschreibt jemanden, der Freunde oder Prinzipien verrät, sobald sich ein Vorteil bietet. Typische Rahmen sind 见利忘义的人/小人 und 不能见利忘义; als Gegenbegriff gilt 重义轻利 (zhòngyì-qīnglì, „Rechtschaffenheit über Gewinn stellen“).",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:见仁见智:jian4ren2jian4zhi4",
     "word": "见仁见智",
-    "pinyin": "jiàn rén jiàn zhì",
+    "pinyin": "jiànrén-jiànzhì",
     "meaning": "jeder sieht es anders; Ansichtssache",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -1091,8 +1556,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "这个问题见仁见智，没有标准答案。",
-        "pinyin": "Zhège wèntí jiàn rén jiàn zhì, méiyǒu biāozhǔn dá'àn.",
-        "german": "Diese Frage ist Ansichtssache, es gibt keine Standardantwort."
+        "pinyin": "Zhège wèntí jiànrén-jiànzhì, méiyǒu biāozhǔn dá'àn.",
+        "german": "Diese Frage ist Ansichtssache, eine allgemeingültige Antwort gibt es nicht."
+      },
+      {
+        "chinese": "这部电影的结局好不好，就见仁见智了。",
+        "pinyin": "Zhè bù diànyǐng de jiéjú hǎo bu hǎo, jiù jiànrén-jiànzhì le.",
+        "german": "Ob das Ende des Films gelungen ist, darüber kann man geteilter Meinung sein."
+      },
+      {
+        "chinese": "在城市还是在农村养老更好，大家见仁见智。",
+        "pinyin": "Zài chéngshì háishi zài nóngcūn yǎnglǎo gèng hǎo, dàjiā jiànrén-jiànzhì.",
+        "german": "Ob man den Lebensabend besser in der Stadt oder auf dem Land verbringt, darüber gehen die Meinungen auseinander."
       }
     ],
     "legacyIds": [
@@ -1106,21 +1581,37 @@ window.CHENGYU_DATA = [
     "traditional": "見仁見智",
     "evidence": {
       "cedict": "見仁見智 见仁见智 [jian4 ren2 jian4 zhi4]"
+    },
+    "notes": "见仁见智 (jiànrén-jiànzhì) ist die Kurzform eines Satzes aus dem „Buch der Wandlungen“ (易经): 仁者见之谓之仁，知者见之谓之知 – der Gütige sieht darin Güte, der Weise Weisheit. Heute bedeutet es, dass es zu einer Frage verschiedene, gleichermaßen berechtigte Sichtweisen gibt. Typisch: 这个问题见仁见智, 可谓见仁见智, 就见仁见智了. Man gebraucht es gern diplomatisch, um sich nicht festzulegen; es klingt neutral bis gehoben.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:见义勇为:jian4yi4yong3wei2",
     "word": "见义勇为",
-    "pinyin": "jiàn yì yǒng wéi",
-    "meaning": "mutig fuer das Richtige eintreten; Zivilcourage zeigen",
+    "pinyin": "jiànyì-yǒngwéi",
+    "meaning": "mutig für das Richtige eintreten; beherzt eingreifen; Zivilcourage zeigen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Charakter",
     "examples": [
       {
         "chinese": "那位见义勇为的年轻人受到了表扬。",
-        "pinyin": "Nà wèi jiàn yì yǒng wéi de niánqīng rén shòudào le biǎoyáng.",
-        "german": "Der mutige junge Mann, der Zivilcourage gezeigt hat, wurde gelobt."
+        "pinyin": "Nà wèi jiànyì-yǒngwéi de niánqīngrén shòudào le biǎoyáng.",
+        "german": "Der junge Mann, der beherzt eingegriffen hatte, wurde dafür gelobt."
+      },
+      {
+        "chinese": "看到有人在地铁上偷钱包，他见义勇为，上前抓住了小偷。",
+        "pinyin": "Kàndào yǒu rén zài dìtiě shang tōu qiánbāo, tā jiànyì-yǒngwéi, shàngqián zhuāzhù le xiǎotōu.",
+        "german": "Als er sah, wie in der U-Bahn jemand ein Portemonnaie stahl, griff er beherzt ein und hielt den Dieb fest."
+      },
+      {
+        "chinese": "我们应该鼓励见义勇为，同时也要注意保护自己。",
+        "pinyin": "Wǒmen yīnggāi gǔlì jiànyì-yǒngwéi, tóngshí yě yào zhùyì bǎohù zìjǐ.",
+        "german": "Zivilcourage sollte man fördern, dabei aber auch auf die eigene Sicherheit achten."
       }
     ],
     "legacyIds": [
@@ -1134,12 +1625,18 @@ window.CHENGYU_DATA = [
     "traditional": "見義勇為",
     "evidence": {
       "cedict": "見義勇為 见义勇为 [jian4 yi4 yong3 wei2]"
+    },
+    "notes": "见义勇为 (jiànyì-yǒngwéi) heißt wörtlich „sehen, was recht ist (见义), und mutig handeln (勇为)“; es geht auf einen Satz in den „Gesprächen“ des Konfuzius zurück (见义不为，无勇也). Heute bezeichnet es vor allem das Eingreifen von Passanten bei Verbrechen, Unfällen oder Gefahr. In Medien und offizieller Sprache ist es sehr häufig: 见义勇为的英雄, 见义勇为的行为, 见义勇为奖. Der Ausdruck ist durchweg lobend.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:脚踏实地:jiao3ta4shi2di4",
     "word": "脚踏实地",
-    "pinyin": "jiǎotāshídì",
+    "pinyin": "jiǎotà-shídì",
     "meaning": "mit beiden Beinen auf dem Boden stehen; solide arbeiten",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -1147,8 +1644,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "要想成功，就要脚踏实地，一步一步来。",
-        "pinyin": "Yào xiǎng chénggōng, jiù yào jiǎo tà shí dì, yī bù yī bù lái.",
-        "german": "Wer Erfolg haben will, muss mit beiden Beinen auf dem Boden stehen und Schritt fuer Schritt vorgehen."
+        "pinyin": "Yào xiǎng chénggōng, jiù yào jiǎotà-shídì, yí bù yí bù lái.",
+        "german": "Wer Erfolg haben will, muss gewissenhaft arbeiten und Schritt für Schritt vorgehen."
+      },
+      {
+        "chinese": "他不爱说大话，做事一向脚踏实地。",
+        "pinyin": "Tā bú ài shuō dàhuà, zuòshì yíxiàng jiǎotà-shídì.",
+        "german": "Er nimmt den Mund nicht gern zu voll und arbeitet stets solide und gewissenhaft."
+      },
+      {
+        "chinese": "学外语没有捷径，只能脚踏实地地练习。",
+        "pinyin": "Xué wàiyǔ méiyǒu jiéjìng, zhǐ néng jiǎotà-shídì de liànxí.",
+        "german": "Beim Fremdsprachenlernen gibt es keine Abkürzung, da hilft nur beharrliches Üben."
       }
     ],
     "legacyIds": [
@@ -1159,21 +1666,37 @@ window.CHENGYU_DATA = [
       "pos": "",
       "page": 266
     },
-    "traditional": "腳踏實地"
+    "traditional": "腳踏實地",
+    "notes": "脚踏实地 (jiǎotà-shídì) heißt wörtlich „mit den Füßen (脚) auf festen Boden (实地) treten (踏)“. Anders als das deutsche „mit beiden Beinen auf dem Boden stehen“, das vor allem Realitätssinn meint, betont es gewissenhaftes, beständiges Arbeiten Schritt für Schritt, ohne Luftschlösser. Typisch: 脚踏实地地工作/学习, 做人要脚踏实地. Es ist lobend und oft als Rat oder Ermahnung zu hören; ein Gegenbegriff ist 好高骛远 (hàogāo-wùyuǎn, „nach Unerreichbarem streben“).",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:津津有味:jin1jin1you3wei4",
     "word": "津津有味",
-    "pinyin": "jīn jīn yǒu wèi",
-    "meaning": "mit grossem Genuss; mit Appetit und Begeisterung",
+    "pinyin": "jīnjīn-yǒuwèi",
+    "meaning": "mit großem Genuss; mit Appetit; mit Begeisterung",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Gefühle",
     "examples": [
       {
         "chinese": "他津津有味地吃着妈妈做的饭菜。",
-        "pinyin": "Tā jīn jīn yǒu wèi de chī zhe māma zuò de fàncài.",
-        "german": "Er isst mit grossem Genuss das Essen, das seine Mutter gekocht hat."
+        "pinyin": "Tā jīnjīn-yǒuwèi de chī zhe māma zuò de fàncài.",
+        "german": "Genüsslich isst er das Essen, das seine Mutter gekocht hat."
+      },
+      {
+        "chinese": "孩子们听爷爷讲故事，听得津津有味。",
+        "pinyin": "Háizimen tīng yéye jiǎng gùshi, tīng de jīnjīn-yǒuwèi.",
+        "german": "Die Kinder lauschen gebannt den Geschichten ihres Opas."
+      },
+      {
+        "chinese": "这本小说我读得津津有味，一个晚上就看完了。",
+        "pinyin": "Zhè běn xiǎoshuō wǒ dú de jīnjīn-yǒuwèi, yí ge wǎnshang jiù kàn wán le.",
+        "german": "Ich habe den Roman mit Begeisterung gelesen und war an einem einzigen Abend damit durch."
       }
     ],
     "legacyIds": [
@@ -1188,26 +1711,37 @@ window.CHENGYU_DATA = [
     "traditional": "津津有味",
     "evidence": {
       "cedict": "津津有味 津津有味 [jin1 jin1 you3 wei4]"
+    },
+    "notes": "津津有味 (jīnjīn-yǒuwèi) heißt etwa „voller Genuss (津津) und Geschmack (有味)“. Es beschreibt, wie jemand mit Appetit isst, aber ebenso, wie jemand mit großem Interesse liest, zuhört oder zuschaut. Meist steht es adverbial mit 地 (津津有味地吃) oder als Komplement mit 得 (听得津津有味). Der Ausdruck ist neutral und im Alltag wie in Erzählungen sehr gebräuchlich.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:锦上添花:jin3shang4tian1hua1",
     "word": "锦上添花",
-    "pinyin": "jǐn shàng tiān huā",
-    "meaning": "Auf Brokat noch Blumen sticken (etwas Gutes noch besser machen)",
+    "pinyin": "jǐnshàng-tiānhuā",
+    "meaning": "auf Brokat noch Blumen sticken; Gutes noch besser machen; eine zusätzliche Verschönerung",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Natur",
     "examples": [
       {
-        "chinese": "在好的基础上再改进，就是锦上添花。",
-        "pinyin": "Zài hǎo de jīchǔ shàng zài gǎijìn, jiùshì jǐn shàng tiān huā.",
-        "german": "Auf einer guten Grundlage noch zu verbessern, das ist das Tuepfelchen auf dem i."
+        "chinese": "他的表演已经很好了，音乐更是锦上添花。",
+        "pinyin": "Tā de biǎoyǎn yǐjīng hěn hǎo le, yīnyuè gèng shì jǐnshàng-tiānhuā.",
+        "german": "Sein Auftritt war schon sehr gut, und die Musik setzte noch eins drauf."
       },
       {
-        "chinese": "他的表演已经很好了，音乐更是锦上添花。",
-        "pinyin": "Tā de biǎoyǎn yǐjīng hěn hǎo le, yīnyuè gèng shì jǐn shàng tiān huā.",
-        "german": "Sein Auftritt war schon sehr gut, die Musik hat ihn noch besser gemacht."
+        "chinese": "他已经拿到了奖学金，这次实习的机会对他来说是锦上添花。",
+        "pinyin": "Tā yǐjīng nádào le jiǎngxuéjīn, zhè cì shíxí de jīhuì duì tā lái shuō shì jǐnshàng-tiānhuā.",
+        "german": "Ein Stipendium hat er schon, und die Praktikumsstelle ist für ihn noch ein zusätzliches Plus."
+      },
+      {
+        "chinese": "朋友之间，锦上添花容易，雪中送炭难。",
+        "pinyin": "Péngyou zhījiān, jǐnshàng-tiānhuā róngyì, xuězhōng-sòngtàn nán.",
+        "german": "Unter Freunden ist es leicht, dem anderen beizustehen, wenn es ihm gut geht, aber schwer, ihm in der Not zu helfen."
       }
     ],
     "legacyIds": [
@@ -1221,21 +1755,37 @@ window.CHENGYU_DATA = [
     "traditional": "錦上添花",
     "evidence": {
       "cedict": "錦上添花 锦上添花 [jin3 shang4 tian1 hua1]"
+    },
+    "notes": "锦上添花 (jǐnshàng-tiānhuā) heißt wörtlich „auf Brokat (锦) noch Blumen (花) hinzufügen (添)“. Es bezeichnet etwas, das eine ohnehin gute Sache noch schöner macht – oft eine angenehme, aber nicht unbedingt nötige Zugabe. Typisch sind ……更是锦上添花 und 对……来说是锦上添花. Häufig steht es im Gegensatz zu 雪中送炭 (xuězhōng-sòngtàn, „im Schnee Kohle bringen“, also in der Not helfen). Anders als 画龙点睛, das das entscheidende Detail meint, betont 锦上添花 das Zusätzliche.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:精打细算:jing1da3xi4suan4",
     "word": "精打细算",
-    "pinyin": "jīng dǎ xì suàn",
-    "meaning": "genau rechnen und sparsam wirtschaften; sorgfaeltig kalkulieren",
+    "pinyin": "jīngdǎ-xìsuàn",
+    "meaning": "genau rechnen und sparsam wirtschaften; sorgfältig kalkulieren",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Arbeit",
     "examples": [
       {
         "chinese": "过日子要精打细算，不能大手大脚。",
-        "pinyin": "Guò rìzi yào jīng dǎ xì suàn, bù néng dà shǒu dà jiǎo.",
-        "german": "Im Alltag muss man sparsam wirtschaften und darf nicht verschwenderisch sein."
+        "pinyin": "Guò rìzi yào jīngdǎ-xìsuàn, bù néng dàshǒu-dàjiǎo.",
+        "german": "Im Alltag muss man gut haushalten und darf das Geld nicht mit vollen Händen ausgeben."
+      },
+      {
+        "chinese": "妈妈精打细算，每个月还能存下一点钱。",
+        "pinyin": "Māma jīngdǎ-xìsuàn, měi ge yuè hái néng cún xià yìdiǎn qián.",
+        "german": "Mama wirtschaftet so umsichtig, dass sie jeden Monat sogar noch etwas Geld zurücklegen kann."
+      },
+      {
+        "chinese": "预算有限，这次活动我们得精打细算。",
+        "pinyin": "Yùsuàn yǒuxiàn, zhè cì huódòng wǒmen děi jīngdǎ-xìsuàn.",
+        "german": "Das Budget ist knapp, bei dieser Veranstaltung müssen wir jeden Cent zweimal umdrehen."
       }
     ],
     "legacyIds": [
@@ -1249,21 +1799,37 @@ window.CHENGYU_DATA = [
     "traditional": "精打細算",
     "evidence": {
       "cedict": "精打細算 精打细算 [jing1 da3 xi4 suan4]"
+    },
+    "notes": "精打细算 (jīngdǎ-xìsuàn) heißt wörtlich „genau (精) und fein (细) rechnen (打/算)“. Gemeint ist umsichtiges Haushalten mit Geld, Material oder Zeit. Typische Rahmen sind 过日子精打细算 und 精打细算地花钱; das Gegenteil ist 大手大脚 (dàshǒu-dàjiǎo, „verschwenderisch“). Anders als 小气 (xiǎoqi, „geizig“) ist der Ausdruck nicht abwertend, sondern eher anerkennend.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:兢兢业业:jing1jing1ye4ye4",
     "word": "兢兢业业",
-    "pinyin": "jīngjīng yèyè",
-    "meaning": "gewissenhaft und sorgfaeltig arbeiten; pflichtbewusst",
+    "pinyin": "jīngjīng-yèyè",
+    "meaning": "gewissenhaft und fleißig; pflichtbewusst",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Arbeit",
     "examples": [
       {
         "chinese": "他兢兢业业地工作了三十年。",
-        "pinyin": "Tā jīngjīng yèyè de gōngzuò le sānshí nián.",
+        "pinyin": "Tā jīngjīng-yèyè de gōngzuò le sānshí nián.",
         "german": "Er arbeitete dreißig Jahre lang gewissenhaft und fleißig."
+      },
+      {
+        "chinese": "王老师工作兢兢业业，从来没请过一天假。",
+        "pinyin": "Wáng lǎoshī gōngzuò jīngjīng-yèyè, cónglái méi qǐng guo yì tiān jià.",
+        "german": "Frau Wang ist im Beruf äußerst pflichtbewusst und hat sich noch nie einen Tag freigenommen."
+      },
+      {
+        "chinese": "公司的成功离不开每一位员工的兢兢业业。",
+        "pinyin": "Gōngsī de chénggōng líbukāi měi yí wèi yuángōng de jīngjīng-yèyè.",
+        "german": "Ohne den gewissenhaften Einsatz jedes einzelnen Mitarbeiters wäre der Erfolg der Firma nicht denkbar."
       }
     ],
     "legacyIds": [
@@ -1278,26 +1844,37 @@ window.CHENGYU_DATA = [
     "traditional": "兢兢業業",
     "evidence": {
       "cedict": "兢兢業業 兢兢业业 [jing1 jing1 ye4 ye4]"
+    },
+    "notes": "兢兢业业 (jīngjīng yèyè) stammt aus dem „Buch der Lieder“ (诗经) und verbindet 兢兢 „behutsam, vorsichtig“ mit 业业 „besorgt, angespannt“. Heute lobt man damit gewissenhaftes, pflichtbewusstes Arbeiten über lange Zeit, etwa bei Lehrern, Angestellten oder Beamten. Im Syllabus ist es als Adjektiv geführt: 工作兢兢业业 als Prädikat oder adverbial 兢兢业业地工作. Der Ausdruck klingt eher gehoben und steht oft in Würdigungen und Reden.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:精益求精:jing1yi4qiu2jing1",
     "word": "精益求精",
-    "pinyin": "jīng yì qiú jīng",
-    "meaning": "nach Perfektion streben; staendig verbessern",
+    "pinyin": "jīngyì-qiújīng",
+    "meaning": "Gutes noch besser machen wollen; ständig nach Perfektion streben",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Arbeit",
     "examples": [
       {
         "chinese": "工匠精神就是精益求精。",
-        "pinyin": "Gōngjiàng jīngshén jiùshì jīng yì qiú jīng.",
-        "german": "Handwerkergeist bedeutet, stets nach Perfektion zu streben."
+        "pinyin": "Gōngjiàng jīngshén jiù shì jīngyì-qiújīng.",
+        "german": "Handwerksethos heißt, immer weiter nach Perfektion zu streben."
       },
       {
         "chinese": "德国工程师在技术上精益求精。",
-        "pinyin": "Déguó gōngchéngshī zài jìshù shàng jīng yì qiú jīng.",
-        "german": "Deutsche Ingenieure streben in der Technik stets nach Perfektion."
+        "pinyin": "Déguó gōngchéngshī zài jìshù shang jīngyì-qiújīng.",
+        "german": "Deutsche Ingenieure feilen in der Technik unermüdlich an der Perfektion."
+      },
+      {
+        "chinese": "这位厨师对每道菜都精益求精，连盘子的颜色都很讲究。",
+        "pinyin": "Zhè wèi chúshī duì měi dào cài dōu jīngyì-qiújīng, lián pánzi de yánsè dōu hěn jiǎngjiu.",
+        "german": "Dieser Koch feilt an jedem Gericht bis ins Detail – sogar die Farbe der Teller muss stimmen."
       }
     ],
     "legacyIds": [
@@ -1311,31 +1888,37 @@ window.CHENGYU_DATA = [
     "traditional": "精益求精",
     "evidence": {
       "cedict": "精益求精 精益求精 [jing1 yi4 qiu2 jing1]"
+    },
+    "notes": "精益求精 (jīngyì-qiújīng) heißt wörtlich „das Vortreffliche (精) noch (益) vortrefflicher machen wollen (求精)“. Man lobt damit Menschen oder Betriebe, die sich mit gutem Ergebnis nicht zufriedengeben und weiter feilen, besonders in Handwerk, Technik, Wissenschaft oder Gastronomie. Typisch: 对……精益求精, 在……上精益求精, 精益求精的精神; oft zusammen mit 工匠精神 („Handwerksethos“). Der Ausdruck ist lobend und begegnet häufig in Firmenslogans und Reden.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:井底之蛙:jing3di3zhi1wa1",
     "word": "井底之蛙",
-    "pinyin": "jǐng dǐ zhī wā",
-    "meaning": "Ein Frosch am Grunde des Brunnens (beschraenkter Horizont)",
+    "pinyin": "jǐngdǐ-zhīwā",
+    "meaning": "Frosch auf dem Grund des Brunnens; Mensch mit beschränktem Horizont",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Geschichte",
     "examples": [
       {
         "chinese": "不要做井底之蛙，要多出去看看世界。",
-        "pinyin": "Bù yào zuò jǐng dǐ zhī wā, yào duō chūqù kànkan shìjiè.",
-        "german": "Sei kein Frosch im Brunnen, geh raus und sieh dir die Welt an."
+        "pinyin": "Búyào zuò jǐngdǐ-zhīwā, yào duō chūqu kànkan shìjiè.",
+        "german": "Sei kein Frosch im Brunnen – geh raus und sieh dir die Welt an."
       },
       {
-        "chinese": "你应该多出去看看，别做井底之蛙。",
-        "pinyin": "Nǐ yīnggāi duō chūqù kànkan, bié zuò jǐng dǐ zhī wā.",
-        "german": "Du solltest mehr rausgehen und die Welt sehen, sei kein Frosch im Brunnen."
+        "chinese": "出国以后我才发现，自己以前真是井底之蛙。",
+        "pinyin": "Chūguó yǐhòu wǒ cái fāxiàn, zìjǐ yǐqián zhēn shì jǐngdǐ-zhīwā.",
+        "german": "Erst im Ausland habe ich gemerkt, wie beschränkt mein Horizont früher war."
       },
       {
-        "chinese": "不要做井底之蛙, 要放眼世界。",
-        "pinyin": "Bùyào zuò jǐng dǐ zhī wā, yào fàngyǎn shìjiè.",
-        "german": "Sei nicht wie ein Frosch im Brunnen, sondern blicke auf die ganze Welt."
+        "chinese": "他总觉得自己的公司最厉害，就像井底之蛙一样。",
+        "pinyin": "Tā zǒng juéde zìjǐ de gōngsī zuì lìhai, jiù xiàng jǐngdǐ-zhīwā yíyàng.",
+        "german": "Er hält seine Firma immer für die beste – wie ein Frosch im Brunnen, der nichts anderes kennt."
       }
     ],
     "legacyIds": [
@@ -1349,26 +1932,37 @@ window.CHENGYU_DATA = [
     "traditional": "井底之蛙",
     "evidence": {
       "cedict": "井底之蛙 井底之蛙 [jing3 di3 zhi1 wa1]"
+    },
+    "notes": "井底之蛙 (jǐngdǐ-zhīwā) heißt wörtlich „Frosch (蛙) auf dem Grund (底) des Brunnens (井)“; das Bild stammt aus dem „Zhuangzi“. Wer im Brunnen sitzt, hält das kleine Stück Himmel über sich für die ganze Welt. Gemeint ist ein Mensch mit engem Horizont und wenig Erfahrung. Der Ausdruck ist ein Nomen und steht in Rahmen wie 做井底之蛙, 像井底之蛙一样 oder selbstironisch 我以前真是井底之蛙. Verwandt ist das verbale 坐井观天 (zuòjǐng-guāntiān, „im Brunnen sitzen und den Himmel betrachten“).",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:居安思危:ju1an1si1wei1",
     "word": "居安思危",
-    "pinyin": "jūān sīwēi",
-    "meaning": "in sicheren Zeiten an moegliche Gefahren denken",
+    "pinyin": "jū’ān-sīwēi",
+    "meaning": "in sicheren Zeiten an mögliche Gefahren denken; in guten Zeiten vorsorgen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Lebensweisheit",
     "examples": [
       {
-        "chinese": "我们要居安思危, 做好准备。",
-        "pinyin": "Wǒmen yào jūān sīwēi, zuòhǎo zhǔnbèi.",
-        "german": "Wir sollten auch in Friedenszeiten an Gefahren denken und vorbereitet sein."
+        "chinese": "企业发展顺利的时候也要居安思危。",
+        "pinyin": "Qǐyè fāzhǎn shùnlì de shíhou yě yào jū'ān-sīwēi.",
+        "german": "Auch wenn es für ein Unternehmen gut läuft, sollte es an mögliche Risiken denken."
       },
       {
-        "chinese": "企业发展顺利的时候也要居安思危。",
-        "pinyin": "Qǐyè fāzhǎn shùnlì de shíhou yě yào jū ān sī wēi.",
-        "german": "Auch wenn das Unternehmen gut laeuft, sollte man an moegliche Risiken denken."
+        "chinese": "生活条件好了，也要居安思危，存一些钱以防万一。",
+        "pinyin": "Shēnghuó tiáojiàn hǎo le, yě yào jū'ān-sīwēi, cún yìxiē qián yǐfáng-wànyī.",
+        "german": "Auch wenn es uns jetzt gut geht, sollten wir vorsorgen und für den Notfall etwas Geld zurücklegen."
+      },
+      {
+        "chinese": "国家越是和平，越要居安思危。",
+        "pinyin": "Guójiā yuè shì hépíng, yuè yào jū'ān-sīwēi.",
+        "german": "Gerade in Friedenszeiten muss ein Staat an mögliche Gefahren denken."
       }
     ],
     "legacyIds": [
@@ -1383,31 +1977,37 @@ window.CHENGYU_DATA = [
     "traditional": "居安思危",
     "evidence": {
       "cedict": "居安思危 居安思危 [ju1 an1 si1 wei1]"
+    },
+    "notes": "居安思危 (jū'ān-sīwēi) heißt wörtlich „in Sicherheit (安) leben (居) und an Gefahr (危) denken (思)“; es geht auf das „Zuozhuan“ (左传) zurück: 居安思危，思则有备，有备无患. Gemeint ist die Mahnung, auch in guten Zeiten wachsam zu bleiben und vorzusorgen. Typisch ist 要居安思危 oder 居安思危的意识, besonders in Politik, Wirtschaft und Militär. Der Ausdruck klingt gehoben und eher schriftsprachlich.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:举一反三:ju3yi1fan3san1",
     "word": "举一反三",
-    "pinyin": "jǔ yī fǎn sān",
-    "meaning": "aus einem Beispiel drei Schlussfolgerungen ziehen; uebertragen koennen",
+    "pinyin": "jǔyī-fǎnsān",
+    "meaning": "aus einem Beispiel auf vieles schließen; Gelerntes auf andere Fälle übertragen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Lernen",
     "examples": [
       {
         "chinese": "好学生能够举一反三。",
-        "pinyin": "Hǎo xuéshēng nénggòu jǔ yī fǎn sān.",
-        "german": "Gute Schüler können aus einem Beispiel viele Schlüsse ziehen."
-      },
-      {
-        "chinese": "好学生能举一反三，触类旁通。",
-        "pinyin": "Hǎo xuéshēng néng jǔ yī fǎn sān, chù lèi páng tōng.",
-        "german": "Gute Schueler koennen aus einem Beispiel Schlussfolgerungen ziehen und Zusammenhaenge erkennen."
+        "pinyin": "Hǎo xuésheng nénggòu jǔyī-fǎnsān.",
+        "german": "Gute Schüler können aus einem Beispiel vieles ableiten."
       },
       {
         "chinese": "学习要学会举一反三。",
-        "pinyin": "Xuéxí yào xuéhuì jǔ yī fǎn sān.",
-        "german": "Beim Lernen sollte man aus einem Beispiel vieles ableiten können."
+        "pinyin": "Xuéxí yào xuéhuì jǔyī-fǎnsān.",
+        "german": "Beim Lernen kommt es darauf an, Gelerntes auf neue Fälle übertragen zu können."
+      },
+      {
+        "chinese": "老师讲了一道例题，让我们举一反三，自己做后面的练习。",
+        "pinyin": "Lǎoshī jiǎng le yí dào lìtí, ràng wǒmen jǔyī-fǎnsān, zìjǐ zuò hòumiàn de liànxí.",
+        "german": "Der Lehrer rechnete eine Beispielaufgabe vor; die folgenden Übungen sollten wir dann nach demselben Muster selbst lösen."
       }
     ],
     "legacyIds": [
@@ -1421,26 +2021,37 @@ window.CHENGYU_DATA = [
     "traditional": "舉一反三",
     "evidence": {
       "cedict": "舉一反三 举一反三 [ju3 yi1 fan3 san1]"
+    },
+    "notes": "举一反三 (jǔyī-fǎnsān) heißt wörtlich „eins vorzeigen (举一) und auf drei zurückschließen (反三)“. Es geht auf Konfuzius zurück, der von Schülern erwartete, nach einer gezeigten Ecke die drei anderen selbst zu erschließen. Heute lobt man damit die Fähigkeit, Gelerntes auf ähnliche Fälle zu übertragen, vor allem im Bildungsbereich: 学会举一反三, 能举一反三, 举一反三的能力. Ähnlich ist 触类旁通 (chùlèi-pángtōng, „durch Analogie Verwandtes verstehen“).",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:刻不容缓:ke4bu4rong2huan3",
     "word": "刻不容缓",
-    "pinyin": "kè bù róng huǎn",
-    "meaning": "keinen Augenblick Aufschub dulden; aeusserst dringend",
+    "pinyin": "kèbù-rónghuǎn",
+    "meaning": "keinen Aufschub dulden; äußerst dringend",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Arbeit",
     "examples": [
       {
         "chinese": "环境保护刻不容缓。",
-        "pinyin": "Huánjìng bǎohù kè bù róng huǎn.",
-        "german": "Umweltschutz duldet keinen Aufschub."
+        "pinyin": "Huánjìng bǎohù kèbù-rónghuǎn.",
+        "german": "Der Umweltschutz duldet keinen Aufschub."
       },
       {
         "chinese": "这件事刻不容缓，必须立刻处理。",
-        "pinyin": "Zhè jiàn shì kè bù róng huǎn, bìxū lìkè chǔlǐ.",
+        "pinyin": "Zhè jiàn shì kèbù-rónghuǎn, bìxū lìkè chǔlǐ.",
         "german": "Diese Angelegenheit duldet keinen Aufschub und muss sofort erledigt werden."
+      },
+      {
+        "chinese": "病人情况危急，手术刻不容缓。",
+        "pinyin": "Bìngrén qíngkuàng wēijí, shǒushù kèbù-rónghuǎn.",
+        "german": "Der Zustand des Patienten ist kritisch, die Operation muss sofort erfolgen."
       }
     ],
     "legacyIds": [
@@ -1454,36 +2065,37 @@ window.CHENGYU_DATA = [
     "traditional": "刻不容緩",
     "evidence": {
       "cedict": "刻不容緩 刻不容缓 [ke4 bu4 rong2 huan3]"
+    },
+    "notes": "刻不容缓 (kèbù-rónghuǎn) heißt wörtlich „nicht einen Augenblick (刻) Aufschub (缓) dulden (不容)“. Es drückt ernste Dringlichkeit aus und steht meist als Prädikat am Satzende (……刻不容缓) oder als Attribut (刻不容缓的任务). Der Ton ist gehoben; typisch sind Nachrichten, Appelle und offizielle Texte. Für alltägliche Eile sagt man eher 很急 oder 马上就得…….",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:刻舟求剑:ke4zhou1qiu2jian4",
     "word": "刻舟求剑",
-    "pinyin": "kè zhōu qiú jiàn",
-    "meaning": "Eine Markierung ins Boot ritzen, um das Schwert zu suchen (an veraenderten Dingen starr festhalten)",
+    "pinyin": "kèzhōu-qiújiàn",
+    "meaning": "eine Kerbe ins Boot ritzen, um das Schwert zu suchen; stur an Methoden festhalten, obwohl sich die Umstände geändert haben",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Geschichte",
     "examples": [
       {
         "chinese": "时代变了，不能刻舟求剑。",
-        "pinyin": "Shídài biàn le, bù néng kè zhōu qiú jiàn.",
-        "german": "Die Zeiten haben sich geändert, man darf sich nicht an überholte Methoden klammern."
+        "pinyin": "Shídài biàn le, bù néng kèzhōu-qiújiàn.",
+        "german": "Die Zeiten haben sich geändert, man kann nicht an überholten Methoden kleben."
       },
       {
-        "chinese": "时代变了，不能刻舟求剑，要与时俱进。",
-        "pinyin": "Shídài biàn le, bù néng kè zhōu qiú jiàn, yào yǔ shí jù jìn.",
-        "german": "Die Zeiten haben sich geaendert, man darf nicht stur an Altem festhalten, sondern muss mit der Zeit gehen."
+        "chinese": "市场早就变了，他还用十年前的办法做生意，简直是刻舟求剑。",
+        "pinyin": "Shìchǎng zǎo jiù biàn le, tā hái yòng shí nián qián de bànfǎ zuò shēngyi, jiǎnzhí shì kèzhōu-qiújiàn.",
+        "german": "Der Markt hat sich längst verändert, aber er macht seine Geschäfte noch wie vor zehn Jahren – das kann nicht gutgehen."
       },
       {
-        "chinese": "时代在变化，不能刻舟求剑，要跟上变化。",
-        "pinyin": "Shídài zài biànhuà, bù néng kè zhōu qiú jiàn, yào gēnshàng biànhuà.",
-        "german": "Die Zeiten aendern sich, man darf nicht starr an Altem festhalten, man muss mit der Veraenderung gehen."
-      },
-      {
-        "chinese": "时代在变化, 不能刻舟求剑。",
-        "pinyin": "Shídài zài biànhuà, bù néng kè zhōu qiú jiàn.",
-        "german": "Die Zeiten ändern sich, man darf nicht starr an alten Methoden festhalten."
+        "chinese": "学生的情况每年都不一样，用老一套的方法教，就是刻舟求剑。",
+        "pinyin": "Xuésheng de qíngkuàng měi nián dōu bù yíyàng, yòng lǎoyítào de fāngfǎ jiāo, jiù shì kèzhōu-qiújiàn.",
+        "german": "Jeder Jahrgang ist anders; wer stur nach Schema F unterrichtet, geht an der Wirklichkeit vorbei."
       }
     ],
     "legacyIds": [
@@ -1497,12 +2109,18 @@ window.CHENGYU_DATA = [
     "traditional": "刻舟求劍",
     "evidence": {
       "cedict": "刻舟求劍 刻舟求剑 [ke4 zhou1 qiu2 jian4]"
+    },
+    "notes": "刻舟求剑 (kèzhōu-qiújiàn) heißt wörtlich „ins Boot (舟) ritzen (刻) und das Schwert (剑) suchen (求)“. Es stammt aus einer Geschichte in den „Frühling und Herbst des Lü Buwei“ (吕氏春秋): Ein Mann verliert sein Schwert im Fluss, markiert die Stelle am Boot und sucht später unter der Kerbe danach – obwohl das Boot längst weitergefahren ist. Kritisiert wird starres Festhalten an Methoden, die zu veränderten Umständen nicht mehr passen. Typisch: 不能刻舟求剑, 无异于刻舟求剑; der Ausdruck ist eher gehoben.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:哭笑不得:ku1xiao4bu4de2",
     "word": "哭笑不得",
-    "pinyin": "kū xiào bù dé",
+    "pinyin": "kūxiào-bùdé",
     "meaning": "nicht wissen, ob man lachen oder weinen soll",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -1510,8 +2128,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "孩子说的话常常让大人哭笑不得。",
-        "pinyin": "Háizi shuō de huà chángcháng ràng dàrén kū xiào bù dé.",
-        "german": "Was Kinder sagen, bringt Erwachsene oft dazu, nicht zu wissen, ob sie lachen oder weinen sollen."
+        "pinyin": "Háizi shuō de huà chángcháng ràng dàren kūxiào-bùdé.",
+        "german": "Bei dem, was Kinder so sagen, wissen Erwachsene oft nicht, ob sie lachen oder weinen sollen."
+      },
+      {
+        "chinese": "他把我的生日记错了，提前一个月给我送了蛋糕，弄得我哭笑不得。",
+        "pinyin": "Tā bǎ wǒ de shēngrì jì cuò le, tíqián yí ge yuè gěi wǒ sòng le dàngāo, nòng de wǒ kūxiào-bùdé.",
+        "german": "Er hat sich bei meinem Geburtstag vertan und mir einen Monat zu früh einen Kuchen geschenkt – ich wusste nicht, ob ich lachen oder weinen sollte."
+      },
+      {
+        "chinese": "这个翻译错得让人哭笑不得。",
+        "pinyin": "Zhège fānyì cuò de ràng rén kūxiào-bùdé.",
+        "german": "Diese Übersetzung ist so daneben, dass man nicht weiß, ob man lachen oder weinen soll."
       }
     ],
     "legacyIds": [
@@ -1525,21 +2153,37 @@ window.CHENGYU_DATA = [
     "traditional": "哭笑不得",
     "evidence": {
       "cedict": "哭笑不得 哭笑不得 [ku1 xiao4 bu4 de2]"
+    },
+    "notes": "哭笑不得 (kūxiào-bùdé) heißt wörtlich „weder weinen (哭) noch lachen (笑) können (不得)“. Es beschreibt Situationen, die zugleich komisch und ärgerlich oder peinlich sind. Typisch sind 让人哭笑不得, 弄得我哭笑不得 und 哭笑不得的事. Der Ausdruck ist neutral und im Alltag sehr gebräuchlich; 得 wird hier dé gelesen.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:苦尽甘来:ku3jin4gan1lai2",
     "word": "苦尽甘来",
-    "pinyin": "kǔ jìn gān lái",
-    "meaning": "das Bittere ist vorbei, das Suesse kommt; nach dem Leid kommt das Glueck",
+    "pinyin": "kǔjìn-gānlái",
+    "meaning": "auf Leid folgt Freude; nach harten Zeiten kommen gute",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Lebensweisheit",
     "examples": [
       {
         "chinese": "经过多年的奋斗，他终于苦尽甘来了。",
-        "pinyin": "Jīngguò duō nián de fèndòu, tā zhōngyú kǔ jìn gān lái le.",
-        "german": "Nach vielen Jahren des Kampfes kam fuer ihn endlich die suesse Zeit."
+        "pinyin": "Jīngguò duō nián de fèndòu, tā zhōngyú kǔjìn-gānlái le.",
+        "german": "Nach vielen Jahren harter Arbeit brachen für ihn endlich bessere Zeiten an."
+      },
+      {
+        "chinese": "别灰心，坚持下去，总会苦尽甘来的。",
+        "pinyin": "Bié huīxīn, jiānchí xiàqu, zǒng huì kǔjìn-gānlái de.",
+        "german": "Verlier nicht den Mut und halte durch – irgendwann kommen bessere Zeiten."
+      },
+      {
+        "chinese": "孩子们都工作了，老两口终于苦尽甘来，可以享福了。",
+        "pinyin": "Háizimen dōu gōngzuò le, lǎo liǎngkǒu zhōngyú kǔjìn-gānlái, kěyǐ xiǎngfú le.",
+        "german": "Die Kinder stehen alle im Beruf, und nach den harten Jahren kann das alte Ehepaar endlich das Leben genießen."
       }
     ],
     "legacyIds": [
@@ -1553,21 +2197,37 @@ window.CHENGYU_DATA = [
     "traditional": "苦盡甘來",
     "evidence": {
       "cedict": "苦盡甘來 苦尽甘来 [ku3 jin4 gan1 lai2]"
+    },
+    "notes": "苦尽甘来 (kǔjìn-gānlái) heißt wörtlich „das Bittere (苦) ist zu Ende (尽), das Süße (甘) kommt (来)“. Es beschreibt das Ende einer schweren Zeit und den Beginn einer besseren, oft mit 终于 (终于苦尽甘来了). Man gebraucht es auch tröstend als Hoffnung: 总会苦尽甘来的. Der Ausdruck ist neutral und in Alltag wie Erzählungen gebräuchlich.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:乐此不疲:le4ci3bu4pi2",
     "word": "乐此不疲",
-    "pinyin": "lè cǐ bù pí",
-    "meaning": "mit unermüdlicher Freude etwas tun; sich nie daran satt sehen",
+    "pinyin": "lècǐ-bùpí",
+    "meaning": "etwas mit Begeisterung tun und nicht müde werden; unermüdlich bei der Sache sein",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Charakter",
     "examples": [
       {
         "chinese": "他对收集邮票乐此不疲。",
-        "pinyin": "Tā duì shōují yóupiào lè cǐ bù pí.",
-        "german": "Er sammelt mit unermüdlicher Freude Briefmarken."
+        "pinyin": "Tā duì shōují yóupiào lècǐ-bùpí.",
+        "german": "Er sammelt mit unermüdlicher Begeisterung Briefmarken."
+      },
+      {
+        "chinese": "这个游戏很简单，可孩子们玩了一遍又一遍，乐此不疲。",
+        "pinyin": "Zhège yóuxì hěn jiǎndān, kě háizimen wán le yí biàn yòu yí biàn, lècǐ-bùpí.",
+        "german": "Das Spiel ist ganz einfach, aber die Kinder spielen es immer wieder und bekommen nicht genug davon."
+      },
+      {
+        "chinese": "退休以后，他每天去公园教人打太极拳，乐此不疲。",
+        "pinyin": "Tuìxiū yǐhòu, tā měitiān qù gōngyuán jiāo rén dǎ tàijíquán, lècǐ-bùpí.",
+        "german": "Seit er in Rente ist, bringt er jeden Tag im Park anderen Taijiquan bei und wird es nicht leid."
       }
     ],
     "legacyIds": [
@@ -1581,21 +2241,37 @@ window.CHENGYU_DATA = [
     "traditional": "樂此不疲",
     "evidence": {
       "cedict": "樂此不疲 乐此不疲 [le4 ci3 bu4 pi2]"
+    },
+    "notes": "乐此不疲 (lècǐ-bùpí) heißt wörtlich „an diesem (此) Freude haben (乐) und nicht müde werden (不疲)“. Es beschreibt eine Tätigkeit, der man begeistert und unermüdlich nachgeht, auch wenn andere sie anstrengend oder langweilig fänden. Typisch: 对……乐此不疲 oder nachgestellt: ……，乐此不疲. Meist ist es positiv gemeint, kann aber auch leicht spöttisch klingen (对八卦乐此不疲). 乐 wird hier lè gelesen.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:理所当然:li3suo3dang1ran2",
     "word": "理所当然",
-    "pinyin": "lǐ suǒ dāng rán",
-    "meaning": "selbstverstaendlich; natuerlich; wie es sein sollte",
+    "pinyin": "lǐsuǒ-dāngrán",
+    "meaning": "selbstverständlich; wie es sich gehört; ganz natürlich",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Lebensweisheit",
     "examples": [
       {
         "chinese": "帮助朋友是理所当然的事。",
-        "pinyin": "Bāngzhù péngyou shì lǐ suǒ dāng rán de shì.",
-        "german": "Freunden zu helfen ist eine Selbstverstaendlichkeit."
+        "pinyin": "Bāngzhù péngyou shì lǐsuǒ-dāngrán de shì.",
+        "german": "Freunden zu helfen ist eine Selbstverständlichkeit."
+      },
+      {
+        "chinese": "别把父母的付出看作理所当然。",
+        "pinyin": "Bié bǎ fùmǔ de fùchū kànzuò lǐsuǒ-dāngrán.",
+        "german": "Nimm das, was deine Eltern für dich tun, nicht als selbstverständlich hin."
+      },
+      {
+        "chinese": "他是队里最好的球员，理所当然地当上了队长。",
+        "pinyin": "Tā shì duì li zuì hǎo de qiúyuán, lǐsuǒ-dāngrán de dāngshàng le duìzhǎng.",
+        "german": "Er ist der beste Spieler im Team und wurde ganz selbstverständlich Kapitän."
       }
     ],
     "legacyIds": [
@@ -1610,12 +2286,18 @@ window.CHENGYU_DATA = [
     "traditional": "理所當然",
     "evidence": {
       "cedict": "理所當然 理所当然 [li3 suo3 dang1 ran2]"
+    },
+    "notes": "理所当然 (lǐsuǒ-dāngrán) heißt wörtlich „was nach der Vernunft (理) so sein muss (当然)“. Anders als das bloße Adverb 当然 („natürlich“) betont es, dass etwas nach Logik oder Moral ganz selbstverständlich ist. Typisch: 是理所当然的, 理所当然地 + Verb und 把……当作/看作理所当然 („für selbstverständlich halten“). Der letzte Rahmen ist oft kritisch gemeint, etwa wenn jemand die Hilfe anderer als selbstverständlich hinnimmt.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:力不从心:li4bu4cong2xin1",
     "word": "力不从心",
-    "pinyin": "lì bù cóng xīn",
+    "pinyin": "lìbù-cóngxīn",
     "meaning": "der Wille ist da, aber die Kraft fehlt",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -1623,8 +2305,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "他年纪大了，干体力活有点力不从心。",
-        "pinyin": "Tā niánjì dà le, gàn tǐlì huó yǒudiǎn lì bù cóng xīn.",
-        "german": "Er ist aelter geworden und fuer koerperliche Arbeit fehlt ihm etwas die Kraft."
+        "pinyin": "Tā niánjì dà le, gàn tǐlìhuó yǒudiǎn lìbù-cóngxīn.",
+        "german": "Er ist nicht mehr der Jüngste, und schwere körperliche Arbeit geht ihm schon etwas über die Kräfte."
+      },
+      {
+        "chinese": "公司让我一个人管三个部门，我实在力不从心。",
+        "pinyin": "Gōngsī ràng wǒ yí ge rén guǎn sān ge bùmén, wǒ shízài lìbù-cóngxīn.",
+        "german": "Die Firma lässt mich allein drei Abteilungen leiten – das übersteigt wirklich meine Kräfte."
+      },
+      {
+        "chinese": "我很想帮你，可是我现在也没钱，真是力不从心。",
+        "pinyin": "Wǒ hěn xiǎng bāng nǐ, kěshì wǒ xiànzài yě méi qián, zhēn shì lìbù-cóngxīn.",
+        "german": "Ich würde dir gern helfen, aber ich habe gerade selbst kein Geld – mir sind leider die Hände gebunden."
       }
     ],
     "legacyIds": [
@@ -1638,21 +2330,37 @@ window.CHENGYU_DATA = [
     "traditional": "力不從心",
     "evidence": {
       "cedict": "力不從心 力不从心 [li4 bu4 cong2 xin1]"
+    },
+    "notes": "力不从心 (lìbù-cóngxīn) heißt wörtlich „die Kraft (力) folgt dem Herzen (心) nicht (不从)“: Man möchte etwas tun, aber Kraft, Fähigkeiten oder Mittel reichen nicht aus. Typische Anlässe sind Alter, Krankheit oder Überforderung; häufige Rahmen sind 感到力不从心, 有点力不从心 und 越来越力不从心. Der Ausdruck ist neutral und wird oft als bescheidene Selbstaussage gebraucht.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:恋恋不舍:lian4lian4bu4she3",
     "word": "恋恋不舍",
-    "pinyin": "liàn liàn bù shě",
-    "meaning": "sich nur schwer trennen koennen; an etwas haengen",
+    "pinyin": "liànliàn-bùshě",
+    "meaning": "sich nur schwer trennen können; ungern Abschied nehmen; an etwas hängen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Gefühle",
     "examples": [
       {
         "chinese": "假期结束了，大家恋恋不舍地离开了海滩。",
-        "pinyin": "Jiàqī jiéshù le, dàjiā liàn liàn bù shě de líkāi le hǎitān.",
-        "german": "Der Urlaub war vorbei und alle verliessen nur ungern den Strand."
+        "pinyin": "Jiàqī jiéshù le, dàjiā liànliàn-bùshě de líkāi le hǎitān.",
+        "german": "Die Ferien waren vorbei, und alle verließen schweren Herzens den Strand."
+      },
+      {
+        "chinese": "送孩子上幼儿园的第一天，妈妈恋恋不舍，在门口站了很久。",
+        "pinyin": "Sòng háizi shàng yòu'éryuán de dì-yī tiān, māma liànliàn-bùshě, zài ménkǒu zhàn le hěn jiǔ.",
+        "german": "Am ersten Kindergartentag konnte sich die Mutter kaum losreißen und stand noch lange am Eingang."
+      },
+      {
+        "chinese": "他对这份工作恋恋不舍，但为了家人还是辞职了。",
+        "pinyin": "Tā duì zhè fèn gōngzuò liànliàn-bùshě, dàn wèile jiārén háishi cízhí le.",
+        "german": "Er hing sehr an dieser Stelle, kündigte aber seiner Familie zuliebe trotzdem."
       }
     ],
     "legacyIds": [
@@ -1666,12 +2374,18 @@ window.CHENGYU_DATA = [
     "traditional": "戀戀不捨",
     "evidence": {
       "cedict": "戀戀不捨 恋恋不舍 [lian4 lian4 bu4 she3]"
+    },
+    "notes": "恋恋不舍 (liànliàn-bùshě) verbindet 恋恋 „anhänglich, sehnsüchtig“ mit 不舍 „nicht loslassen können“. Es beschreibt das schwere Abschiednehmen von Menschen, Orten oder Dingen und steht oft adverbial: 恋恋不舍地离开/告别. Mit 对 kann es sich auch auf Dinge oder Positionen beziehen (对权力恋恋不舍). Sinnverwandt ist 依依不舍 (yīyī-bùshě), das vor allem beim Abschied von Menschen und Orten gebraucht wird.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:埋头苦干:mai2tou2ku3gan4",
     "word": "埋头苦干",
-    "pinyin": "mái tóu kǔ gàn",
+    "pinyin": "máitóu-kǔgàn",
     "meaning": "den Kopf senken und hart arbeiten; sich still in die Arbeit vertiefen",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -1679,8 +2393,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "他总是埋头苦干，从不抱怨。",
-        "pinyin": "Tā zǒng shì mái tóu kǔ gàn, cóng bù bàoyuàn.",
-        "german": "Er vertieft sich still in seine Arbeit und beschwert sich nie."
+        "pinyin": "Tā zǒngshì máitóu-kǔgàn, cóngbù bàoyuàn.",
+        "german": "Er arbeitet immer still und fleißig vor sich hin und beklagt sich nie."
+      },
+      {
+        "chinese": "光埋头苦干还不够，也要学会总结经验。",
+        "pinyin": "Guāng máitóu-kǔgàn hái bú gòu, yě yào xuéhuì zǒngjié jīngyàn.",
+        "german": "Nur zu schuften reicht nicht, man muss auch lernen, aus seinen Erfahrungen Schlüsse zu ziehen."
+      },
+      {
+        "chinese": "经过三年的埋头苦干，他们终于把小店做成了连锁品牌。",
+        "pinyin": "Jīngguò sān nián de máitóu-kǔgàn, tāmen zhōngyú bǎ xiǎo diàn zuòchéng le liánsuǒ pǐnpái.",
+        "german": "Nach drei Jahren harter Arbeit haben sie aus ihrem kleinen Laden endlich eine Kette gemacht."
       }
     ],
     "legacyIds": [
@@ -1694,12 +2418,18 @@ window.CHENGYU_DATA = [
     "traditional": "埋頭苦幹",
     "evidence": {
       "cedict": "埋頭苦幹 埋头苦干 [mai2 tou2 ku3 gan4]"
+    },
+    "notes": "埋头苦干 (máitóu-kǔgàn) verbindet 埋头 „den Kopf (über der Arbeit) senken, sich vertiefen“ mit 苦干 „hart arbeiten“. Meist lobt es fleißiges, unauffälliges Arbeiten ohne viel Gerede. Mit 光 oder 只知道 kann es auch kritisch klingen: nur schuften, ohne nachzudenken oder sich zu zeigen. 埋 wird hier mái gelesen, anders als in 埋怨 (mányuàn, „sich beschweren“).",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:名副其实:ming2fu4qi2shi2",
     "word": "名副其实",
-    "pinyin": "míng fù qí shí",
+    "pinyin": "míngfù-qíshí",
     "meaning": "der Name entspricht der Wirklichkeit; zu Recht so genannt",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -1707,8 +2437,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "他是一位名副其实的专家。",
-        "pinyin": "Tā shì yī wèi míng fù qí shí de zhuānjiā.",
-        "german": "Er ist ein Experte, der diesen Titel zu Recht traegt."
+        "pinyin": "Tā shì yí wèi míngfù-qíshí de zhuānjiā.",
+        "german": "Er ist ein Experte im wahrsten Sinne des Wortes."
+      },
+      {
+        "chinese": "广州一年四季都有花，被称为花城，真是名副其实。",
+        "pinyin": "Guǎngzhōu yì nián sìjì dōu yǒu huā, bèi chēngwéi Huāchéng, zhēn shì míngfù-qíshí.",
+        "german": "In Guangzhou blüht das ganze Jahr über etwas; den Beinamen „Blumenstadt“ trägt es wirklich zu Recht."
+      },
+      {
+        "chinese": "这家店号称全城最好吃的面馆，吃了以后发现确实名副其实。",
+        "pinyin": "Zhè jiā diàn hàochēng quán chéng zuì hǎochī de miànguǎn, chī le yǐhòu fāxiàn quèshí míngfù-qíshí.",
+        "german": "Der Laden nennt sich die beste Nudelbude der Stadt – und nach dem Essen merkt man: zu Recht."
       }
     ],
     "legacyIds": [
@@ -1723,21 +2463,37 @@ window.CHENGYU_DATA = [
     "traditional": "名副其實",
     "evidence": {
       "cedict": "名副其實 名副其实 [ming2 fu4 qi2 shi2]"
+    },
+    "notes": "名副其实 (míngfù-qíshí) heißt wörtlich „der Name (名) entspricht (副) seiner (其) Wirklichkeit (实)“ – 其实 ist hier also nicht das Adverb 其实 „eigentlich“. Man bestätigt damit, dass jemand oder etwas seinen Ruf oder Titel zu Recht trägt: 名副其实的专家, 真是名副其实. Das Gegenteil ist 名不副实 (míngbú-fùshí). Daneben kommt auch die Schreibung 名符其实 vor.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:莫名其妙:mo4ming2qi2miao4",
     "word": "莫名其妙",
-    "pinyin": "mò míng qí miào",
-    "meaning": "unerklärlich; seltsam; voellig unverstaendlich",
+    "pinyin": "mòmíng-qímiào",
+    "meaning": "unerklärlich; rätselhaft; ohne ersichtlichen Grund",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Gefühle",
     "examples": [
       {
         "chinese": "他莫名其妙地生气了，我不知道为什么。",
-        "pinyin": "Tā mò míng qí miào de shēngqì le, wǒ bù zhīdào wèishéme.",
-        "german": "Er wurde aus unerklärlichem Grund wuetend, ich weiss nicht warum."
+        "pinyin": "Tā mòmíng-qímiào de shēngqì le, wǒ bù zhīdào wèishénme.",
+        "german": "Er ist aus heiterem Himmel wütend geworden, ich weiß nicht, warum."
+      },
+      {
+        "chinese": "他突然说了一句莫名其妙的话，大家都愣住了。",
+        "pinyin": "Tā tūrán shuō le yí jù mòmíng-qímiào de huà, dàjiā dōu lèngzhù le.",
+        "german": "Plötzlich sagte er etwas völlig Rätselhaftes, und alle waren verdutzt."
+      },
+      {
+        "chinese": "这家公司的规定真是莫名其妙，周末加班还不给钱。",
+        "pinyin": "Zhè jiā gōngsī de guīdìng zhēn shì mòmíng-qímiào, zhōumò jiābān hái bù gěi qián.",
+        "german": "Die Regeln dieser Firma sind wirklich absurd: Man macht am Wochenende Überstunden und bekommt nicht einmal Geld dafür."
       }
     ],
     "legacyIds": [
@@ -1754,21 +2510,37 @@ window.CHENGYU_DATA = [
     },
     "variants": [
       "莫明其妙"
-    ]
+    ],
+    "notes": "莫名其妙 (mòmíng-qímiào) heißt wörtlich „niemand (莫) kann das Seltsame (妙) daran benennen (名)“. Adverbial mit 地 bedeutet es „aus unerklärlichem Grund“ (莫名其妙地生气了); als Prädikat oder Attribut „rätselhaft, absurd“ (莫名其妙的话). Im Alltag ist es sehr häufig, oft verärgert über das Verhalten anderer. Direkt zu jemandem gesagt (你这人真莫名其妙！) klingt es ziemlich unhöflich, etwa wie „Du spinnst wohl“.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:目瞪口呆:mu4deng4kou3dai1",
     "word": "目瞪口呆",
-    "pinyin": "mù dèng kǒu dāi",
-    "meaning": "Augen und Mund weit aufreissen; sprachlos und erstaunt sein",
+    "pinyin": "mùdèng-kǒudāi",
+    "meaning": "mit offenem Mund dastehen; verblüfft; sprachlos vor Staunen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Gefühle",
     "examples": [
       {
         "chinese": "听到这个消息，他目瞪口呆。",
-        "pinyin": "Tīngdào zhège xiāoxi, tā mù dèng kǒu dāi.",
-        "german": "Als er die Nachricht hoerte, war er sprachlos vor Erstaunen."
+        "pinyin": "Tīngdào zhège xiāoxi, tā mùdèng-kǒudāi.",
+        "german": "Als er die Nachricht hörte, stand er wie vom Donner gerührt da."
+      },
+      {
+        "chinese": "魔术师的表演让观众看得目瞪口呆。",
+        "pinyin": "Móshùshī de biǎoyǎn ràng guānzhòng kàn de mùdèng-kǒudāi.",
+        "german": "Bei der Vorführung des Zauberers staunte das Publikum mit offenem Mund."
+      },
+      {
+        "chinese": "看到账单上的数字，我惊得目瞪口呆。",
+        "pinyin": "Kàndào zhàngdān shang de shùzì, wǒ jīng de mùdèng-kǒudāi.",
+        "german": "Als ich die Summe auf der Rechnung sah, blieb mir der Mund offen stehen."
       }
     ],
     "legacyIds": [
@@ -1782,21 +2554,37 @@ window.CHENGYU_DATA = [
     "traditional": "目瞪口呆",
     "evidence": {
       "cedict": "目瞪口呆 目瞪口呆 [mu4 deng4 kou3 dai1]"
+    },
+    "notes": "目瞪口呆 (mùdèng-kǒudāi) heißt wörtlich „die Augen (目) starren (瞪), der Mund (口) ist wie erstarrt (呆)“. Es beschreibt die Reaktion auf etwas Verblüffendes oder Schockierendes, im Guten wie im Schlechten. Typisch sind 惊得目瞪口呆, 看得目瞪口呆 und 让人目瞪口呆. Der Ausdruck ist anschaulich und in Erzählungen wie im Alltag gebräuchlich.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:目中无人:mu4zhong1wu2ren2",
     "word": "目中无人",
-    "pinyin": "mù zhōng wú rén",
-    "meaning": "arrogant; ueberheblich; niemanden beachten",
+    "pinyin": "mùzhōng-wúrén",
+    "meaning": "überheblich; arrogant; auf alle herabsehen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Charakter",
     "examples": [
       {
         "chinese": "他一当上经理就目中无人了。",
-        "pinyin": "Tā yī dāng shàng jīnglǐ jiù mù zhōng wú rén le.",
-        "german": "Kaum wurde er Manager, da wurde er sofort ueberheblich."
+        "pinyin": "Tā yì dāngshàng jīnglǐ jiù mùzhōng-wúrén le.",
+        "german": "Kaum war er Manager geworden, sah er auf alle herab."
+      },
+      {
+        "chinese": "这个球队赢了几场比赛，就开始目中无人了，结果输得很惨。",
+        "pinyin": "Zhège qiúduì yíng le jǐ chǎng bǐsài, jiù kāishǐ mùzhōng-wúrén le, jiéguǒ shū de hěn cǎn.",
+        "german": "Nach ein paar Siegen wurde die Mannschaft überheblich und verlor prompt haushoch."
+      },
+      {
+        "chinese": "他态度傲慢，目中无人，同事们都不喜欢他。",
+        "pinyin": "Tā tàidu àomàn, mùzhōng-wúrén, tóngshìmen dōu bù xǐhuan tā.",
+        "german": "Er tritt arrogant auf und sieht auf alle herab, deshalb mögen ihn die Kollegen nicht."
       }
     ],
     "legacyIds": [
@@ -1810,26 +2598,37 @@ window.CHENGYU_DATA = [
     "traditional": "目中無人",
     "evidence": {
       "cedict": "目中無人 目中无人 [mu4 zhong1 wu2 ren2]"
+    },
+    "notes": "目中无人 (mùzhōng-wúrén) heißt wörtlich „in den Augen (目中) ist niemand (无人)“: Man nimmt andere gar nicht ernst. Der Ausdruck ist deutlich abwertend und beschreibt Haltung und Auftreten; typisch sind 目中无人的态度, 变得目中无人 und 太目中无人了. Sinnverwandt ist das Adjektiv 傲慢 (àomàn, „hochmütig“), 目中无人 ist aber bildhafter und meist schärfer.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:南辕北辙:nan2yuan2bei3zhe2",
     "word": "南辕北辙",
-    "pinyin": "nán yuán běi zhé",
-    "meaning": "nach Sueden fahren wollen, aber nach Norden lenken; das Gegenteil dessen tun, was man erreichen will",
+    "pinyin": "nányuán-běizhé",
+    "meaning": "nach Süden wollen und nach Norden fahren; das Gegenteil dessen tun, was man erreichen will; völlig gegensätzlich",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Warnung",
     "examples": [
       {
         "chinese": "你的方法和目标南辕北辙，需要重新考虑。",
-        "pinyin": "Nǐ de fāngfǎ hé mùbiāo nán yuán běi zhé, xūyào chóngxīn kǎolǜ.",
-        "german": "Deine Methode und dein Ziel gehen in entgegengesetzte Richtungen, du musst das ueberdenken."
+        "pinyin": "Nǐ de fāngfǎ hé mùbiāo nányuán-běizhé, xūyào chóngxīn kǎolǜ.",
+        "german": "Deine Methode führt von deinem Ziel weg, du solltest das noch einmal überdenken."
       },
       {
-        "chinese": "你的做法和目标南辕北辙。",
-        "pinyin": "Nǐ de zuòfǎ hé mùbiāo nán yuán běi zhé.",
-        "german": "Dein Vorgehen und dein Ziel stehen im Widerspruch zueinander."
+        "chinese": "想减肥却天天吃夜宵，这不是南辕北辙吗？",
+        "pinyin": "Xiǎng jiǎnféi què tiāntiān chī yèxiāo, zhè bú shì nányuán-běizhé ma?",
+        "german": "Abnehmen wollen und jeden Abend noch spät essen – ist das nicht genau der falsche Weg?"
+      },
+      {
+        "chinese": "他们俩对这件事的看法南辕北辙，谁也说服不了谁。",
+        "pinyin": "Tāmen liǎ duì zhè jiàn shì de kànfǎ nányuán-běizhé, shéi yě shuōfú bu liǎo shéi.",
+        "german": "Die beiden sehen die Sache völlig gegensätzlich, keiner kann den anderen überzeugen."
       }
     ],
     "legacyIds": [
@@ -1843,21 +2642,37 @@ window.CHENGYU_DATA = [
     "traditional": "南轅北轍",
     "evidence": {
       "cedict": "南轅北轍 南辕北辙 [nan2 yuan2 bei3 zhe2]"
+    },
+    "notes": "南辕北辙 (nányuán-běizhé) heißt wörtlich „die Deichsel (辕) zeigt nach Süden, die Radspur (辙) führt nach Norden“. Es stammt aus den „Strategien der Streitenden Reiche“ (战国策): Ein Mann will nach Süden, fährt aber nach Norden und prahlt mit seinem schnellen Pferd – je besser die Mittel, desto weiter entfernt er sich vom Ziel. Gemeint ist, dass Handeln und Ziel einander widersprechen; heute heißt es oft auch einfach „völlig gegensätzlich“ (看法南辕北辙). Typisch: A和B南辕北辙, 这不是南辕北辙吗？",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:萍水相逢:ping2shui3xiang1feng2",
     "word": "萍水相逢",
-    "pinyin": "píng shuǐ xiāng féng",
-    "meaning": "sich wie Wasserlinsen zufaellig treffen; eine zufaellige Begegnung",
+    "pinyin": "píngshuǐ-xiāngféng",
+    "meaning": "sich zufällig begegnen; flüchtige Bekanntschaft unter Fremden",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Beziehungen",
     "examples": [
       {
         "chinese": "我们只是萍水相逢，谈不上深交。",
-        "pinyin": "Wǒmen zhǐshì píng shuǐ xiāng féng, tán bù shàng shēn jiāo.",
-        "german": "Wir haben uns nur zufaellig getroffen, von einer tiefen Freundschaft kann keine Rede sein."
+        "pinyin": "Wǒmen zhǐshì píngshuǐ-xiāngféng, tánbushàng shēnjiāo.",
+        "german": "Wir sind uns nur zufällig begegnet, von einer engen Freundschaft kann keine Rede sein."
+      },
+      {
+        "chinese": "我们萍水相逢，你却这么热心地帮我，太感谢了。",
+        "pinyin": "Wǒmen píngshuǐ-xiāngféng, nǐ què zhème rèxīn de bāng wǒ, tài gǎnxiè le.",
+        "german": "Wir kennen uns kaum, und trotzdem hilfst du mir so bereitwillig – vielen herzlichen Dank!"
+      },
+      {
+        "chinese": "旅行中萍水相逢的两个人，后来成了最好的朋友。",
+        "pinyin": "Lǚxíng zhōng píngshuǐ-xiāngféng de liǎng ge rén, hòulái chéng le zuì hǎo de péngyou.",
+        "german": "Die beiden hatten sich auf einer Reise zufällig kennengelernt und wurden später beste Freunde."
       }
     ],
     "legacyIds": [
@@ -1871,21 +2686,37 @@ window.CHENGYU_DATA = [
     "traditional": "萍水相逢",
     "evidence": {
       "cedict": "萍水相逢 萍水相逢 [ping2 shui3 xiang1 feng2]"
+    },
+    "notes": "萍水相逢 (píngshuǐ-xiāngféng) heißt wörtlich „Wasserlinsen (萍) treffen auf dem Wasser (水) aufeinander (相逢)“ – so zufällig, wie treibende Pflanzen zusammenkommen. Gemeint ist die zufällige Begegnung von Menschen, die sich vorher nicht kannten. Oft betont es, dass jemand trotz flüchtiger Bekanntschaft hilft: 萍水相逢，却……; ebenso häufig ist 萍水相逢的人. Der Ausdruck klingt etwas literarisch, ist aber auch im Gespräch gebräuchlich.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:迫不及待:po4bu4ji2dai4",
     "word": "迫不及待",
-    "pinyin": "pò bù jí dài",
-    "meaning": "es kaum erwarten koennen; ungeduldiges Warten",
+    "pinyin": "pòbù-jídài",
+    "meaning": "es kaum erwarten können; ungeduldig",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Gefühle",
     "examples": [
       {
         "chinese": "孩子们迫不及待地打开了圣诞礼物。",
-        "pinyin": "Háizimen pò bù jí dài de dǎkāi le shèngdàn lǐwù.",
-        "german": "Die Kinder konnten es kaum erwarten, die Weihnachtsgeschenke zu oeffnen."
+        "pinyin": "Háizimen pòbù-jídài de dǎkāi le Shèngdàn lǐwù.",
+        "german": "Die Kinder konnten es kaum erwarten und machten sofort ihre Weihnachtsgeschenke auf."
+      },
+      {
+        "chinese": "一下飞机，他就迫不及待地给家里打了电话。",
+        "pinyin": "Yí xià fēijī, tā jiù pòbù-jídài de gěi jiā li dǎ le diànhuà.",
+        "german": "Kaum war er aus dem Flugzeug gestiegen, rief er auch schon ungeduldig zu Hause an."
+      },
+      {
+        "chinese": "新手机还没上市，很多人已经迫不及待了。",
+        "pinyin": "Xīn shǒujī hái méi shàngshì, hěn duō rén yǐjīng pòbù-jídài le.",
+        "german": "Das neue Handy ist noch gar nicht auf dem Markt, und schon können es viele kaum erwarten."
       }
     ],
     "legacyIds": [
@@ -1900,12 +2731,18 @@ window.CHENGYU_DATA = [
     "traditional": "迫不及待",
     "evidence": {
       "cedict": "迫不及待 迫不及待 [po4 bu4 ji2 dai4]"
+    },
+    "notes": "迫不及待 (pòbù-jídài) heißt wörtlich „so gedrängt (迫), dass man das Warten (待) nicht schafft (不及)“. Es beschreibt große Ungeduld oder Vorfreude und steht meist adverbial mit 地: 迫不及待地打开, 迫不及待地想知道. Als Prädikat kommt es ebenfalls vor (大家已经迫不及待了). Der Ausdruck ist neutral und im Alltag wie in Texten sehr häufig.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:齐心协力:qi2xin1xie2li4",
     "word": "齐心协力",
-    "pinyin": "qí xīn xié lì",
+    "pinyin": "qíxīn-xiélì",
     "meaning": "an einem Strang ziehen; gemeinsam anpacken",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -1913,8 +2750,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "大家齐心协力，终于完成了任务。",
-        "pinyin": "Dàjiā qí xīn xié lì, zhōngyú wánchéng le rènwu.",
-        "german": "Alle zogen an einem Strang und vollendeten schliesslich die Aufgabe."
+        "pinyin": "Dàjiā qíxīn-xiélì, zhōngyú wánchéng le rènwu.",
+        "german": "Alle zogen an einem Strang und erledigten die Aufgabe schließlich."
+      },
+      {
+        "chinese": "只要我们齐心协力，就没有克服不了的困难。",
+        "pinyin": "Zhǐyào wǒmen qíxīn-xiélì, jiù méiyǒu kèfú bu liǎo de kùnnan.",
+        "german": "Wenn wir zusammenhalten, gibt es keine Schwierigkeit, die wir nicht bewältigen können."
+      },
+      {
+        "chinese": "邻居们齐心协力，很快就把路上的雪扫干净了。",
+        "pinyin": "Línjūmen qíxīn-xiélì, hěn kuài jiù bǎ lù shang de xuě sǎo gānjìng le.",
+        "german": "Die Nachbarn packten gemeinsam an und hatten den Schnee auf der Straße bald weggeräumt."
       }
     ],
     "legacyIds": [
@@ -1928,12 +2775,18 @@ window.CHENGYU_DATA = [
     "traditional": "齊心協力",
     "evidence": {
       "cedict": "齊心協力 齐心协力 [qi2 xin1 xie2 li4]"
+    },
+    "notes": "齐心协力 (qíxīn-xiélì) heißt wörtlich „eines Herzens sein (齐心) und die Kräfte vereinen (协力)“. Man lobt oder beschwört damit gemeinsames Anpacken, oft mit 大家 oder in 只要我们齐心协力，就……. Der Ausdruck ist neutral bis gehoben und in Reden, Berichten und Aufrufen sehr häufig. Sinnverwandt sind 同心协力 (tóngxīn-xiélì) und 团结一致 (tuánjié-yízhì).",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:千方百计:qian1fang1bai3ji4",
     "word": "千方百计",
-    "pinyin": "qiān fāng bǎi jì",
+    "pinyin": "qiānfāng-bǎijì",
     "meaning": "alle erdenklichen Mittel und Wege versuchen",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -1941,8 +2794,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "他千方百计地想办法解决这个问题。",
-        "pinyin": "Tā qiān fāng bǎi jì de xiǎng bànfǎ jiějué zhège wèntí.",
-        "german": "Er versuchte mit allen erdenklichen Mitteln, das Problem zu loesen."
+        "pinyin": "Tā qiānfāng-bǎijì de xiǎng bànfǎ jiějué zhège wèntí.",
+        "german": "Er versuchte mit allen Mitteln, eine Lösung für das Problem zu finden."
+      },
+      {
+        "chinese": "为了让孩子多吃蔬菜，妈妈千方百计地变换做法。",
+        "pinyin": "Wèile ràng háizi duō chī shūcài, māma qiānfāng-bǎijì de biànhuàn zuòfǎ.",
+        "german": "Damit das Kind mehr Gemüse isst, lässt sich die Mutter immer neue Zubereitungsarten einfallen."
+      },
+      {
+        "chinese": "骗子千方百计地想骗老人的钱。",
+        "pinyin": "Piànzi qiānfāng-bǎijì de xiǎng piàn lǎorén de qián.",
+        "german": "Betrüger versuchen mit allen Tricks, älteren Menschen das Geld aus der Tasche zu ziehen."
       }
     ],
     "legacyIds": [
@@ -1956,26 +2819,37 @@ window.CHENGYU_DATA = [
     "traditional": "千方百計",
     "evidence": {
       "cedict": "千方百計 千方百计 [qian1 fang1 bai3 ji4]"
+    },
+    "notes": "千方百计 (qiānfāng-bǎijì) heißt wörtlich „tausend Wege (方), hundert Pläne (计)“, also „mit allen erdenklichen Mitteln“. Es steht meist adverbial vor dem Verb, oft mit 地: 千方百计地想办法, 千方百计地阻止. Je nach Zusammenhang klingt es anerkennend (große Mühe) oder abwertend (Tricks und Hintergedanken). Der Ausdruck ist neutral und in Alltag wie Presse sehr gebräuchlich.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:锲而不舍:qie4er2bu4she3",
     "word": "锲而不舍",
-    "pinyin": "qiè ér bù shě",
-    "meaning": "beharrlich und unentschlossen; nicht aufgeben",
+    "pinyin": "qiè’ér-bùshě",
+    "meaning": "beharrlich dranbleiben; nicht aufgeben; unermüdlich",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Erfolg",
     "examples": [
       {
         "chinese": "他锲而不舍地追求梦想。",
-        "pinyin": "Tā qiè ér bù shě de zhuīqiú mèngxiǎng.",
-        "german": "Er verfolgt seinen Traum mit hartnäckiger Beharrlichkeit."
+        "pinyin": "Tā qiè'ér-bùshě de zhuīqiú mèngxiǎng.",
+        "german": "Er verfolgt seinen Traum mit unermüdlicher Beharrlichkeit."
+      },
+      {
+        "chinese": "经过十年锲而不舍的研究，他们终于找到了治疗方法。",
+        "pinyin": "Jīngguò shí nián qiè'ér-bùshě de yánjiū, tāmen zhōngyú zhǎodào le zhìliáo fāngfǎ.",
+        "german": "Nach zehn Jahren beharrlicher Forschung haben sie endlich eine Behandlungsmethode gefunden."
       },
       {
         "chinese": "锲而不舍，金石可镂。",
-        "pinyin": "Qiè ér bù shě, jīn shí kě lòu.",
-        "german": "Mit Beharrlichkeit kann man selbst Metall und Stein durchdringen."
+        "pinyin": "Qiè'ér-bùshě, jīnshí kě lòu.",
+        "german": "Wer nicht aufgibt, kann selbst Metall und Stein gravieren."
       }
     ],
     "legacyIds": [
@@ -1989,12 +2863,18 @@ window.CHENGYU_DATA = [
     "traditional": "鍥而不捨",
     "evidence": {
       "cedict": "鍥而不捨 锲而不舍 [qie4 er2 bu4 she3]"
+    },
+    "notes": "锲而不舍 (qiè'ér-bùshě) heißt wörtlich „schnitzen (锲) und nicht ablassen (舍)“ und stammt aus dem Xunzi: 锲而不舍，金石可镂 „wer nicht ablässt, kann selbst Metall und Stein gravieren“. Es steht meist adverbial vor dem Verb (锲而不舍地追求, 锲而不舍地努力) oder attributiv: 锲而不舍的精神. Der Ausdruck ist gehoben und häufig in Reden und Aufsätzen; ähnlich sind 坚持不懈 (jiānchí-búxiè) und 持之以恒 (chízhī-yǐhéng).",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:全力以赴:quan2li4yi3fu4",
     "word": "全力以赴",
-    "pinyin": "quán lì yǐ fù",
+    "pinyin": "quánlì-yǐfù",
     "meaning": "mit aller Kraft; alles geben",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -2002,8 +2882,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "为了赢得比赛，运动员们全力以赴。",
-        "pinyin": "Wèile yíngdé bǐsài, yùndòngyuánmen quán lì yǐ fù.",
+        "pinyin": "Wèile yíngdé bǐsài, yùndòngyuánmen quánlì-yǐfù.",
         "german": "Um das Spiel zu gewinnen, gaben die Sportler alles."
+      },
+      {
+        "chinese": "请放心，这件事我一定全力以赴。",
+        "pinyin": "Qǐng fàngxīn, zhè jiàn shì wǒ yídìng quánlì-yǐfù.",
+        "german": "Keine Sorge, bei dieser Sache gebe ich auf jeden Fall mein Bestes."
+      },
+      {
+        "chinese": "离考试只剩一个月了，她决定全力以赴地准备。",
+        "pinyin": "Lí kǎoshì zhǐ shèng yí ge yuè le, tā juédìng quánlì-yǐfù de zhǔnbèi.",
+        "german": "Bis zur Prüfung bleibt nur noch ein Monat, deshalb hat sie beschlossen, sich mit aller Kraft vorzubereiten."
       }
     ],
     "legacyIds": [
@@ -2017,26 +2907,37 @@ window.CHENGYU_DATA = [
     "traditional": "全力以赴",
     "evidence": {
       "cedict": "全力以赴 全力以赴 [quan2 li4 yi3 fu4]"
+    },
+    "notes": "全力以赴 (quánlì-yǐfù) heißt wörtlich „mit ganzer Kraft (全力) an etwas herangehen (赴)“. Es steht als Prädikat (我一定全力以赴) oder adverbial vor dem Verb (全力以赴地准备), oft mit 为…全力以赴 „sich für etwas voll einsetzen“. Der Ausdruck ist in Sport, Arbeit und Nachrichten sehr häufig und klingt auch im Gespräch nicht gestelzt, etwa als Zusage „ich gebe mein Bestes“. Ähnlich, aber gehobener ist 竭尽全力 (jiéjìn-quánlì).",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:任重道远:ren4zhong4dao4yuan3",
     "word": "任重道远",
-    "pinyin": "rèn zhòng dào yuǎn",
-    "meaning": "die Aufgabe ist schwer und der Weg ist lang; grosse Verantwortung",
+    "pinyin": "rènzhòng-dàoyuǎn",
+    "meaning": "die Last ist schwer und der Weg weit; große Verantwortung tragen; noch viel zu tun haben",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Arbeit",
     "examples": [
       {
         "chinese": "实现这个目标任重道远。",
-        "pinyin": "Shíxiàn zhège mùbiāo rèn zhòng dào yuǎn.",
-        "german": "Dieses Ziel zu erreichen ist eine große und langfristige Aufgabe."
+        "pinyin": "Shíxiàn zhège mùbiāo rènzhòng-dàoyuǎn.",
+        "german": "Bis dieses Ziel erreicht ist, liegt noch ein langer, mühsamer Weg vor uns."
       },
       {
         "chinese": "环境保护任重道远，需要每个人的努力。",
-        "pinyin": "Huánjìng bǎohù rèn zhòng dào yuǎn, xūyào měi gè rén de nǔlì.",
-        "german": "Der Umweltschutz ist eine grosse Aufgabe mit langem Weg, die den Einsatz jedes Einzelnen erfordert."
+        "pinyin": "Huánjìng bǎohù rènzhòng-dàoyuǎn, xūyào měi ge rén de nǔlì.",
+        "german": "Beim Umweltschutz bleibt noch viel zu tun, und dafür braucht es den Einsatz jedes Einzelnen."
+      },
+      {
+        "chinese": "作为老师，他觉得自己任重道远。",
+        "pinyin": "Zuòwéi lǎoshī, tā juéde zìjǐ rènzhòng-dàoyuǎn.",
+        "german": "Als Lehrer spürt er, welch große und langfristige Verantwortung auf ihm lastet."
       }
     ],
     "legacyIds": [
@@ -2051,26 +2952,37 @@ window.CHENGYU_DATA = [
     "traditional": "任重道遠",
     "evidence": {
       "cedict": "任重道遠 任重道远 [ren4 zhong4 dao4 yuan3]"
+    },
+    "notes": "任重道远 (rènzhòng-dàoyuǎn) geht auf die Gespräche des Konfuzius zurück (任重而道远): 任 ist „die Last, die Verantwortung“, 道 „der Weg“. Gemeint ist eine große Aufgabe, deren Erfüllung lange dauert. Es steht meist als Prädikat, mit einem Vorhaben oder mit Personen als Subjekt: 环境保护任重道远, 我们任重道远, oft nach einem Teilerfolg mit 仍然: „es bleibt noch viel zu tun“. Der Ausdruck ist gehoben und typisch für Reden, Leitartikel und Berichte.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:日新月异:ri4xin1yue4yi4",
     "word": "日新月异",
-    "pinyin": "rì xīn yuè yì",
-    "meaning": "sich tagtaeglich veraendern; rasante Entwicklung",
+    "pinyin": "rìxīn-yuèyì",
+    "meaning": "sich rasant entwickeln; sich täglich verändern; rasanter Wandel",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Natur",
     "examples": [
       {
         "chinese": "科技日新月异。",
-        "pinyin": "Kējì rì xīn yuè yì.",
-        "german": "Die Technologie entwickelt sich rasant weiter."
+        "pinyin": "Kējì rìxīn-yuèyì.",
+        "german": "Die Technik entwickelt sich rasant weiter."
       },
       {
-        "chinese": "科技发展日新月异，变化非常快。",
-        "pinyin": "Kējì fāzhǎn rì xīn yuè yì, biànhuà fēicháng kuài.",
-        "german": "Die technologische Entwicklung ist rasant, die Veraenderungen sind enorm schnell."
+        "chinese": "这座城市的面貌日新月异，几年不来就认不出来了。",
+        "pinyin": "Zhè zuò chéngshì de miànmào rìxīn-yuèyì, jǐ nián bù lái jiù rèn bu chūlái le.",
+        "german": "Diese Stadt verändert sich rasend schnell – wer ein paar Jahre nicht da war, erkennt sie nicht wieder."
+      },
+      {
+        "chinese": "在这个日新月异的时代，我们必须不断学习。",
+        "pinyin": "Zài zhège rìxīn-yuèyì de shídài, wǒmen bìxū búduàn xuéxí.",
+        "german": "In einer Zeit so rasanten Wandels müssen wir ständig dazulernen."
       }
     ],
     "legacyIds": [
@@ -2084,12 +2996,18 @@ window.CHENGYU_DATA = [
     "traditional": "日新月異",
     "evidence": {
       "cedict": "日新月異 日新月异 [ri4 xin1 yue4 yi4]"
+    },
+    "notes": "日新月异 (rìxīn-yuèyì) heißt wörtlich „täglich neu, monatlich anders“. Es beschreibt schnellen, meist positiv gesehenen Fortschritt von Technik, Städten, Wirtschaft oder Gesellschaft, kaum aber Veränderungen bei einzelnen Menschen. Typisch sind 科技日新月异 als Prädikat und 日新月异的变化 oder 这个日新月异的时代 als Attribut. Der Ausdruck ist gehoben und häufig in Nachrichten und Aufsätzen.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:实事求是:shi2shi4qiu2shi4",
     "word": "实事求是",
-    "pinyin": "shí shì qiú shì",
+    "pinyin": "shíshì-qiúshì",
     "meaning": "die Wahrheit in den Tatsachen suchen; sachlich und realistisch sein",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -2097,13 +3015,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "做研究要实事求是，不能弄虚作假。",
-        "pinyin": "Zuò yánjiū yào shí shì qiú shì, bù néng nòng xū zuò jiǎ.",
-        "german": "Bei der Forschung muss man sachlich vorgehen und darf nicht faelschen."
+        "pinyin": "Zuò yánjiū yào shíshì-qiúshì, bù néng nòngxū-zuòjiǎ.",
+        "german": "In der Forschung muss man sich an die Tatsachen halten und darf nichts fälschen."
       },
       {
-        "chinese": "做事要实事求是。",
-        "pinyin": "Zuòshì yào shí shì qiú shì.",
-        "german": "Man sollte bei allem von den Tatsachen ausgehen."
+        "chinese": "实事求是地说，这个方案还有不少问题。",
+        "pinyin": "Shíshì-qiúshì de shuō, zhège fāng'àn hái yǒu bù shǎo wèntí.",
+        "german": "Nüchtern betrachtet hat dieser Plan noch einige Schwächen."
+      },
+      {
+        "chinese": "他对自己的评价很实事求是。",
+        "pinyin": "Tā duì zìjǐ de píngjià hěn shíshì-qiúshì.",
+        "german": "Er schätzt sich selbst sehr realistisch ein."
       }
     ],
     "legacyIds": [
@@ -2117,36 +3040,37 @@ window.CHENGYU_DATA = [
     "traditional": "實事求是",
     "evidence": {
       "cedict": "實事求是 实事求是 [shi2 shi4 qiu2 shi4]"
+    },
+    "notes": "实事求是 (shíshì-qiúshì) heißt wörtlich „aus den tatsächlichen Dingen (实事) das Richtige (是) erschließen“. Der Ausdruck stammt aus dem Hanshu und wurde später zu einem zentralen Leitsatz der KP Chinas („die Wahrheit in den Tatsachen suchen“). Im Alltag bedeutet er „sachlich, ehrlich und realistisch“: 要实事求是, 实事求是的态度, und 实事求是地说 leitet eine nüchterne Einschätzung ein („objektiv betrachtet“). Er kann auch wie ein Adjektiv mit 很 stehen.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:守株待兔:shou3zhu1dai4tu4",
     "word": "守株待兔",
-    "pinyin": "shǒu zhū dài tù",
-    "meaning": "am Baumstumpf auf einen Hasen warten; auf einen Gluecksfall hoffen, statt zu handeln",
+    "pinyin": "shǒuzhū-dàitù",
+    "meaning": "am Baumstumpf auf einen Hasen warten; untätig auf einen Glücksfall hoffen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Geschichte",
     "examples": [
       {
-        "chinese": "不能守株待兔，要主动去寻找机会。",
-        "pinyin": "Bù néng shǒu zhū dài tù, yào zhǔdòng qù xúnzhǎo jīhuì.",
-        "german": "Man kann nicht tatenlos auf sein Glueck warten, sondern muss aktiv nach Moeglichkeiten suchen."
-      },
-      {
-        "chinese": "你不能守株待兔，要主动去找工作。",
-        "pinyin": "Nǐ bù néng shǒu zhū dài tù, yào zhǔdòng qù zhǎo gōngzuò.",
-        "german": "Du kannst nicht untaetig auf Glueck warten, du musst aktiv nach Arbeit suchen."
-      },
-      {
         "chinese": "找工作不能守株待兔。",
-        "pinyin": "Zhǎo gōngzuò bùnéng shǒu zhū dài tù.",
-        "german": "Bei der Jobsuche darf man nicht passiv auf sein Glück warten."
+        "pinyin": "Zhǎo gōngzuò bù néng shǒuzhū-dàitù.",
+        "german": "Bei der Jobsuche darf man nicht einfach abwarten und auf sein Glück hoffen."
       },
       {
-        "chinese": "成功需要努力, 不能守株待兔。",
-        "pinyin": "Chénggōng xūyào nǔlì, bù néng shǒu zhū dài tù.",
-        "german": "Erfolg erfordert Anstrengung, man kann nicht nur auf einen Glücksfall warten."
+        "chinese": "开了网店以后，他不做任何宣传，只是守株待兔地等顾客上门。",
+        "pinyin": "Kāi le wǎngdiàn yǐhòu, tā bú zuò rènhé xuānchuán, zhǐshì shǒuzhū-dàitù de děng gùkè shàngmén.",
+        "german": "Nach der Eröffnung seines Onlineshops machte er keinerlei Werbung und wartete nur darauf, dass die Kunden von selbst kommen."
+      },
+      {
+        "chinese": "考试前不复习，只希望老师出的都是自己会的题，这不是守株待兔吗？",
+        "pinyin": "Kǎoshì qián bú fùxí, zhǐ xīwàng lǎoshī chū de dōu shì zìjǐ huì de tí, zhè bú shì shǒuzhū-dàitù ma?",
+        "german": "Vor der Prüfung nicht lernen und nur hoffen, dass ausgerechnet die Aufgaben drankommen, die man kann – heißt das nicht, untätig auf sein Glück zu warten?"
       }
     ],
     "legacyIds": [
@@ -2160,21 +3084,37 @@ window.CHENGYU_DATA = [
     "traditional": "守株待兔",
     "evidence": {
       "cedict": "守株待兔 守株待兔 [shou3 zhu1 dai4 tu4]"
+    },
+    "notes": "守株待兔 (shǒuzhū-dàitù) geht auf eine Fabel des Han Feizi zurück: Ein Bauer sah, wie ein Hase gegen einen Baumstumpf (株) rannte und starb; daraufhin ließ er sein Feld liegen und wartete am Stumpf auf den nächsten Hasen. Heute kritisiert man damit, dass jemand passiv auf Glück wartet, statt selbst zu handeln, oder sich starr auf einen einmaligen Zufall verlässt. Typisch sind 不能守株待兔 und 守株待兔的心态; der Ausdruck ist auch im Gespräch geläufig.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:水滴石穿:shui3di1shi2chuan1",
     "word": "水滴石穿",
-    "pinyin": "shuǐ dī shí chuān",
-    "meaning": "steter Tropfen hoehlt den Stein",
+    "pinyin": "shuǐdī-shíchuān",
+    "meaning": "steter Tropfen höhlt den Stein; Beharrlichkeit führt zum Ziel",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Lebensweisheit",
     "examples": [
       {
         "chinese": "只要坚持努力，水滴石穿，一定能成功。",
-        "pinyin": "Zhǐyào jiānchí nǔlì, shuǐ dī shí chuān, yīdìng néng chénggōng.",
-        "german": "Solange man beharrlich ist, wird steter Tropfen den Stein hoehlen und man wird Erfolg haben."
+        "pinyin": "Zhǐyào jiānchí nǔlì, shuǐdī-shíchuān, yídìng néng chénggōng.",
+        "german": "Wenn man beharrlich weitermacht, schafft man es bestimmt – steter Tropfen höhlt den Stein."
+      },
+      {
+        "chinese": "学外语靠的是水滴石穿的功夫，每天学一点就会有进步。",
+        "pinyin": "Xué wàiyǔ kào de shì shuǐdī-shíchuān de gōngfu, měi tiān xué yìdiǎn jiù huì yǒu jìnbù.",
+        "german": "Beim Fremdsprachenlernen kommt es auf stete Ausdauer an: Wer jeden Tag ein bisschen lernt, macht Fortschritte."
+      },
+      {
+        "chinese": "他每月存一点钱，水滴石穿，十年后终于买了房子。",
+        "pinyin": "Tā měi yuè cún yìdiǎn qián, shuǐdī-shíchuān, shí nián hòu zhōngyú mǎi le fángzi.",
+        "german": "Er legte jeden Monat etwas Geld zurück, und nach zehn Jahren konnte er sich endlich eine Wohnung kaufen – steter Tropfen höhlt den Stein."
       }
     ],
     "legacyIds": [
@@ -2188,26 +3128,37 @@ window.CHENGYU_DATA = [
     "traditional": "水滴石穿",
     "evidence": {
       "cedict": "水滴石穿 水滴石穿 [shui3 di1 shi2 chuan1]"
+    },
+    "notes": "水滴石穿 (shuǐdī-shíchuān) heißt wörtlich „Wassertropfen durchbohren den Stein“ und entspricht genau dem deutschen „steter Tropfen höhlt den Stein“; gleichbedeutend ist die Variante 滴水穿石 (dīshuǐ-chuānshí). Es steht oft als eigenständige Maxime zwischen Kommas oder attributiv: 水滴石穿的精神, 水滴石穿的功夫. Meist ermutigt es zu Ausdauer, es kann aber auch beschreiben, wie kleine schädliche Einflüsse sich über lange Zeit summieren.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:顺其自然:shun4qi2zi4ran2",
     "word": "顺其自然",
-    "pinyin": "shùn qí zì rán",
-    "meaning": "den Dingen ihren natuerlichen Lauf lassen",
+    "pinyin": "shùnqí-zìrán",
+    "meaning": "den Dingen ihren natürlichen Lauf lassen; es nehmen, wie es kommt",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Lebensweisheit",
     "examples": [
       {
         "chinese": "有些事情强求不来，还是顺其自然吧。",
-        "pinyin": "Yǒuxiē shìqíng qiángqiú bù lái, háishi shùn qí zì rán ba.",
-        "german": "Manche Dinge kann man nicht erzwingen, lass es einfach seinen Lauf nehmen."
+        "pinyin": "Yǒuxiē shìqing qiǎngqiú bu lái, háishi shùnqí-zìrán ba.",
+        "german": "Manche Dinge lassen sich nicht erzwingen – lass ihnen lieber ihren Lauf."
       },
       {
-        "chinese": "有些事情只能顺其自然。",
-        "pinyin": "Yǒuxiē shìqíng zhǐ néng shùn qí zìrán.",
-        "german": "Manche Dinge muss man einfach ihren Lauf nehmen lassen."
+        "chinese": "能不能考上，我已经尽力了，就顺其自然吧。",
+        "pinyin": "Néng bu néng kǎoshàng, wǒ yǐjīng jìnlì le, jiù shùnqí-zìrán ba.",
+        "german": "Ob ich die Aufnahmeprüfung bestehe, weiß ich nicht – ich habe mein Bestes gegeben, jetzt nehme ich es, wie es kommt."
+      },
+      {
+        "chinese": "两个人的感情要顺其自然，不能勉强。",
+        "pinyin": "Liǎng ge rén de gǎnqíng yào shùnqí-zìrán, bù néng miǎnqiǎng.",
+        "german": "Gefühle zwischen zwei Menschen müssen sich von selbst entwickeln, erzwingen kann man sie nicht."
       }
     ],
     "legacyIds": [
@@ -2222,21 +3173,37 @@ window.CHENGYU_DATA = [
     "traditional": "順其自然",
     "evidence": {
       "cedict": "順其自然 顺其自然 [shun4 qi2 zi4 ran2]"
+    },
+    "notes": "顺其自然 (shùnqí-zìrán) heißt wörtlich „ihrem (其) natürlichen Lauf (自然) folgen (顺)“. Im Alltag ist es ein sehr häufiger Rat, wenn sich etwas nicht erzwingen lässt: 顺其自然吧, 一切顺其自然, besonders bei Liebe, Prüfungsergebnissen oder Gesundheit. Es klingt meist gelassen, manchmal auch resigniert. Fatalistischer ist 听天由命 (tīngtiān-yóumìng) „sich in sein Schicksal ergeben“.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:素不相识:su4bu4xiang1shi2",
     "word": "素不相识",
-    "pinyin": "sù bù xiāng shí",
-    "meaning": "sich ueberhaupt nicht kennen; voellig fremd",
+    "pinyin": "sùbù-xiāngshí",
+    "meaning": "sich überhaupt nicht kennen; einander völlig fremd sein",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Beziehungen",
     "examples": [
       {
         "chinese": "他们素不相识，却像老朋友一样聊了起来。",
-        "pinyin": "Tāmen sù bù xiāng shí, què xiàng lǎo péngyou yīyàng liáo le qǐlái.",
-        "german": "Sie kannten sich ueberhaupt nicht, plauderten aber los wie alte Freunde."
+        "pinyin": "Tāmen sùbù-xiāngshí, què xiàng lǎo péngyou yíyàng liáo le qǐlai.",
+        "german": "Sie kannten sich überhaupt nicht, plauderten aber drauflos wie alte Freunde."
+      },
+      {
+        "chinese": "一位素不相识的路人把我送到了医院。",
+        "pinyin": "Yí wèi sùbù-xiāngshí de lùrén bǎ wǒ sòngdào le yīyuàn.",
+        "german": "Ein völlig fremder Passant brachte mich ins Krankenhaus."
+      },
+      {
+        "chinese": "我和他素不相识，他为什么要帮我？",
+        "pinyin": "Wǒ hé tā sùbù-xiāngshí, tā wèishénme yào bāng wǒ?",
+        "german": "Ich kenne ihn überhaupt nicht – warum sollte er mir helfen?"
       }
     ],
     "legacyIds": [
@@ -2250,21 +3217,37 @@ window.CHENGYU_DATA = [
     "traditional": "素不相識",
     "evidence": {
       "cedict": "素不相識 素不相识 [su4 bu4 xiang1 shi2]"
+    },
+    "notes": "素不相识 (sùbù-xiāngshí) heißt wörtlich „sich bisher (素) nicht gekannt haben (相识)“. Es steht als Prädikat (我们素不相识) oder attributiv: 素不相识的人, 素不相识的路人 – besonders häufig in Berichten darüber, dass völlig Fremde geholfen haben. Anders als das Adjektiv 陌生 (mòshēng) „fremd, unbekannt“ betont es, dass zwischen den Beteiligten nie eine Bekanntschaft bestand. Register: neutral bis gehoben.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:损人利己:sun3ren2li4ji3",
     "word": "损人利己",
-    "pinyin": "sǔn rén lì jǐ",
-    "meaning": "anderen schaden, um sich selbst zu nuetzen; eigennuetzig",
+    "pinyin": "sǔnrén-lìjǐ",
+    "meaning": "anderen schaden, um sich selbst zu nützen; sich auf Kosten anderer bereichern",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Warnung",
     "examples": [
       {
         "chinese": "损人利己的行为不会有好结果。",
-        "pinyin": "Sǔn rén lì jǐ de xíngwéi bù huì yǒu hǎo jiéguǒ.",
-        "german": "Eigennuetziges Verhalten auf Kosten anderer wird kein gutes Ende nehmen."
+        "pinyin": "Sǔnrén-lìjǐ de xíngwéi bú huì yǒu hǎo jiéguǒ.",
+        "german": "Wer sich auf Kosten anderer Vorteile verschafft, wird kein gutes Ende nehmen."
+      },
+      {
+        "chinese": "卖假货赚钱是损人利己的做法。",
+        "pinyin": "Mài jiǎhuò zhuànqián shì sǔnrén-lìjǐ de zuòfǎ.",
+        "german": "Mit gefälschter Ware Geld zu verdienen heißt, sich auf Kosten anderer zu bereichern."
+      },
+      {
+        "chinese": "他从来不做损人利己的事，大家都很信任他。",
+        "pinyin": "Tā cónglái bú zuò sǔnrén-lìjǐ de shì, dàjiā dōu hěn xìnrèn tā.",
+        "german": "Er hat nie etwas auf Kosten anderer getan, deshalb vertrauen ihm alle."
       }
     ],
     "legacyIds": [
@@ -2278,21 +3261,37 @@ window.CHENGYU_DATA = [
     "traditional": "損人利己",
     "evidence": {
       "cedict": "損人利己 损人利己 [sun3 ren2 li4 ji3]"
+    },
+    "notes": "损人利己 (sǔnrén-lìjǐ) heißt wörtlich „anderen schaden (损人), sich selbst nützen (利己)“ und ist klar abwertend. Es steht meist attributiv (损人利己的事, 损人利己的行为) oder als Prädikat: 这种做法损人利己. Noch schärfer ist 损人不利己 „anderen schaden, ohne selbst etwas davon zu haben“; das Gegenteil ist etwa 舍己为人 (shějǐ-wèirén) „sich für andere aufopfern“. Register: neutral bis gehoben, moralisch wertend.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:提心吊胆:ti2xin1diao4dan3",
     "word": "提心吊胆",
-    "pinyin": "tí xīn diào dǎn",
-    "meaning": "in staendiger Angst leben; auf heissen Kohlen sitzen",
+    "pinyin": "tíxīn-diàodǎn",
+    "meaning": "in ständiger Angst sein; bangen; Blut und Wasser schwitzen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Gefühle",
     "examples": [
       {
-        "chinese": "走夜路的时候提心吊胆的。",
-        "pinyin": "Zǒu yèlù de shíhou tí xīn diào dǎn de.",
-        "german": "Nachts allein unterwegs war man in staendiger Angst."
+        "chinese": "她一个人走夜路的时候总是提心吊胆的。",
+        "pinyin": "Tā yí ge rén zǒu yèlù de shíhou zǒngshì tíxīn-diàodǎn de.",
+        "german": "Wenn sie nachts allein unterwegs ist, hat sie jedes Mal Angst."
+      },
+      {
+        "chinese": "孩子第一次一个人出国，父母这几天一直提心吊胆。",
+        "pinyin": "Háizi dì-yī cì yí ge rén chūguó, fùmǔ zhè jǐ tiān yìzhí tíxīn-diàodǎn.",
+        "german": "Das Kind ist zum ersten Mal allein im Ausland, und die Eltern bangen seit Tagen."
+      },
+      {
+        "chinese": "他借了高利贷，每天提心吊胆地过日子。",
+        "pinyin": "Tā jiè le gāolìdài, měi tiān tíxīn-diàodǎn de guò rìzi.",
+        "german": "Er hat sich bei einem Kredithai Geld geliehen und lebt seitdem in ständiger Angst."
       }
     ],
     "legacyIds": [
@@ -2306,21 +3305,37 @@ window.CHENGYU_DATA = [
     "traditional": "提心吊膽",
     "evidence": {
       "cedict": "提心吊膽 提心吊胆 [ti2 xin1 diao4 dan3]"
+    },
+    "notes": "提心吊胆 (tíxīn-diàodǎn) heißt wörtlich „das Herz hochziehen (提心) und die Galle aufhängen (吊胆)“ – die Galle gilt im Chinesischen als Sitz des Mutes. Es beschreibt anhaltende Angst und Sorge über eine gewisse Zeit, nicht einen kurzen Schreck. Typisch sind 提心吊胆的 als Prädikat (一路上提心吊胆的) und 提心吊胆地过日子. Ähnlich, aber stärker auf akuten Schrecken bezogen ist 胆战心惊 (dǎnzhàn-xīnjīng).",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:天长地久:tian1chang2di4jiu3",
     "word": "天长地久",
-    "pinyin": "tiān cháng dì jiǔ",
-    "meaning": "so lang wie der Himmel und so bestaendig wie die Erde; fuer immer",
+    "pinyin": "tiāncháng-dìjiǔ",
+    "meaning": "ewig während; so beständig wie Himmel und Erde; für immer",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Beziehungen",
     "examples": [
       {
         "chinese": "他们的友谊天长地久。",
-        "pinyin": "Tāmen de yǒuyì tiān cháng dì jiǔ.",
-        "german": "Ihre Freundschaft waehrt ewig."
+        "pinyin": "Tāmen de yǒuyì tiāncháng-dìjiǔ.",
+        "german": "Ihre Freundschaft währt ewig."
+      },
+      {
+        "chinese": "婚礼上，大家祝新郎新娘的爱情天长地久。",
+        "pinyin": "Hūnlǐ shang, dàjiā zhù xīnláng xīnniáng de àiqíng tiāncháng-dìjiǔ.",
+        "german": "Bei der Hochzeit wünschten alle dem Brautpaar ewige Liebe."
+      },
+      {
+        "chinese": "年轻时总以为爱情会天长地久，后来才知道没那么简单。",
+        "pinyin": "Niánqīng shí zǒng yǐwéi àiqíng huì tiāncháng-dìjiǔ, hòulái cái zhīdào méi nàme jiǎndān.",
+        "german": "Als ich jung war, dachte ich, die Liebe hält ewig – erst später habe ich gemerkt, dass es nicht so einfach ist."
       }
     ],
     "legacyIds": [
@@ -2334,21 +3349,37 @@ window.CHENGYU_DATA = [
     "traditional": "天長地久",
     "evidence": {
       "cedict": "天長地久 天长地久 [tian1 chang2 di4 jiu3]"
+    },
+    "notes": "天长地久 (tiāncháng-dìjiǔ) stammt aus dem Daodejing: „Der Himmel währt lange, die Erde ist beständig.“ Heute bezieht es sich vor allem auf Liebe und Freundschaft, besonders in Glückwünschen und Liebesschwüren: 祝你们的爱情天长地久, 天长地久的友谊. Anders als das Adverb 永远 (yǒngyuǎn) „für immer“ steht es meist als Prädikat oder Attribut und klingt gehoben bis romantisch.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:天经地义:tian1jing1di4yi4",
     "word": "天经地义",
-    "pinyin": "tiān jīng dì yì",
-    "meaning": "so natuerlich wie die Gesetze des Himmels und der Erde; selbstverstaendlich",
+    "pinyin": "tiānjīng-dìyì",
+    "meaning": "selbstverständlich; unumstößlich richtig",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Lebensweisheit",
     "examples": [
       {
         "chinese": "孝敬父母是天经地义的事。",
-        "pinyin": "Xiàojìng fùmǔ shì tiān jīng dì yì de shì.",
-        "german": "Die Eltern zu ehren ist eine Selbstverstaendlichkeit."
+        "pinyin": "Xiàojìng fùmǔ shì tiānjīng-dìyì de shì.",
+        "german": "Die Eltern zu ehren und für sie zu sorgen ist eine Selbstverständlichkeit."
+      },
+      {
+        "chinese": "欠钱还钱，天经地义。",
+        "pinyin": "Qiàn qián huán qián, tiānjīng-dìyì.",
+        "german": "Wer Schulden hat, zahlt sie zurück – das versteht sich von selbst."
+      },
+      {
+        "chinese": "很多人觉得女人做家务是天经地义的，其实这种想法早就过时了。",
+        "pinyin": "Hěn duō rén juéde nǚrén zuò jiāwù shì tiānjīng-dìyì de, qíshí zhè zhǒng xiǎngfǎ zǎojiù guòshí le.",
+        "german": "Viele halten es für selbstverständlich, dass Frauen die Hausarbeit machen – dabei ist diese Ansicht längst überholt."
       }
     ],
     "legacyIds": [
@@ -2362,26 +3393,37 @@ window.CHENGYU_DATA = [
     "traditional": "天經地義",
     "evidence": {
       "cedict": "天經地義 天经地义 [tian1 jing1 di4 yi4]"
+    },
+    "notes": "天经地义 (tiānjīng-dìyì) heißt wörtlich „Gesetz (经) des Himmels und Prinzip (义) der Erde“ (aus dem Zuozhuan). Man bezeichnet damit etwas als selbstverständlich und unbestreitbar: 是天经地义的(事), knapp auch als Kommentar nach einer Regel: 欠钱还钱，天经地义. In Diskussionen wird es oft kritisch aufgegriffen, um vermeintliche Selbstverständlichkeiten zu hinterfragen (并不是天经地义的). Der Ausdruck ist auch im Gespräch geläufig.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:同舟共济:tong2zhou1gong4ji4",
     "word": "同舟共济",
-    "pinyin": "tóng zhōu gòng jì",
-    "meaning": "im selben Boot sitzen und gemeinsam uebersetzen; zusammenhalten in schwierigen Zeiten",
+    "pinyin": "tóngzhōu-gòngjì",
+    "meaning": "im selben Boot sitzen; in der Not zusammenhalten",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Beziehungen",
     "examples": [
       {
         "chinese": "困难时期大家要同舟共济。",
-        "pinyin": "Kùnnán shíqī dàjiā yào tóng zhōu gòng jì.",
+        "pinyin": "Kùnnan shíqī dàjiā yào tóngzhōu-gòngjì.",
         "german": "In schwierigen Zeiten müssen alle zusammenhalten."
       },
       {
-        "chinese": "在困难面前，我们要同舟共济。",
-        "pinyin": "Zài kùnnán miànqián, wǒmen yào tóng zhōu gòng jì.",
-        "german": "Angesichts von Schwierigkeiten muessen wir zusammenhalten."
+        "chinese": "疫情期间，公司和员工同舟共济，没有一个人被裁员。",
+        "pinyin": "Yìqíng qījiān, gōngsī hé yuángōng tóngzhōu-gòngjì, méiyǒu yí ge rén bèi cáiyuán.",
+        "german": "Während der Pandemie hielten Firma und Belegschaft zusammen, niemand wurde entlassen."
+      },
+      {
+        "chinese": "面对气候变化，各国应该同舟共济。",
+        "pinyin": "Miànduì qìhòu biànhuà, gè guó yīnggāi tóngzhōu-gòngjì.",
+        "german": "Angesichts des Klimawandels sollten alle Länder an einem Strang ziehen."
       }
     ],
     "legacyIds": [
@@ -2395,36 +3437,37 @@ window.CHENGYU_DATA = [
     "traditional": "同舟共濟",
     "evidence": {
       "cedict": "同舟共濟 同舟共济 [tong2 zhou1 gong4 ji4]"
+    },
+    "notes": "同舟共济 (tóngzhōu-gòngjì) heißt wörtlich „im selben Boot (同舟) gemeinsam den Fluss überqueren (共济)“ und geht auf das Sunzi zurück. Gemeint ist, dass eine Gruppe, ein Unternehmen oder ein Land in einer Krise zusammenhält; typisch sind 同舟共济，共渡难关 und 同舟共济的精神. Der Ausdruck ist gehoben und häufig in Reden und Nachrichten. Ein ähnliches Bild verwendet 风雨同舟 (fēngyǔ-tóngzhōu).",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:亡羊补牢:wang2yang2bu3lao2",
     "word": "亡羊补牢",
-    "pinyin": "wáng yáng bǔ láo",
-    "meaning": "Den Pferch reparieren, nachdem das Schaf verloren ist (besser spaet als nie)",
+    "pinyin": "wángyáng-bǔláo",
+    "meaning": "den Pferch flicken, nachdem Schafe verloren gingen; nach einem Schaden Vorsorge treffen; besser spät als nie",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Lebensweisheit",
     "examples": [
       {
-        "chinese": "虽然已经犯了错误，但亡羊补牢，为时未晚。",
-        "pinyin": "Suīrán yǐjīng fàn le cuòwù, dàn wáng yáng bǔ láo, wéi shí wèi wǎn.",
-        "german": "Obwohl schon ein Fehler gemacht wurde, ist es noch nicht zu spaet, ihn zu korrigieren."
-      },
-      {
-        "chinese": "虽然错了，但亡羊补牢，为时未晚。",
-        "pinyin": "Suīrán cuò le, dàn wáng yáng bǔ láo, wéi shí wèi wǎn.",
-        "german": "Obwohl ein Fehler gemacht wurde, ist es noch nicht zu spaet, den Pferch zu reparieren, besser spaet als nie."
-      },
-      {
         "chinese": "亡羊补牢，为时未晚。",
-        "pinyin": "Wáng yáng bǔ láo, wéishí wèi wǎn.",
-        "german": "Es ist nie zu spät, Fehler zu korrigieren."
+        "pinyin": "Wángyáng-bǔláo, wéishí wèi wǎn.",
+        "german": "Auch nach einem Verlust ist es nicht zu spät, den Stall zu flicken."
       },
       {
-        "chinese": "虽然已经犯了错误, 但亡羊补牢还来得及。",
-        "pinyin": "Suīrán yǐjīng fàn le cuòwù, dàn wáng yáng bǔ láo hái láidejí.",
-        "german": "Obwohl schon ein Fehler gemacht wurde, ist es noch nicht zu spät, ihn zu korrigieren."
+        "chinese": "家里被偷以后，他马上换了门锁，也算是亡羊补牢吧。",
+        "pinyin": "Jiāli bèi tōu yǐhòu, tā mǎshàng huàn le ménsuǒ, yě suàn shì wángyáng-bǔláo ba.",
+        "german": "Nach dem Einbruch ließ er sofort das Türschloss austauschen – besser spät als nie."
+      },
+      {
+        "chinese": "这次考试没考好，现在开始认真复习，亡羊补牢还来得及。",
+        "pinyin": "Zhè cì kǎoshì méi kǎohǎo, xiànzài kāishǐ rènzhēn fùxí, wángyáng-bǔláo hái láidejí.",
+        "german": "Diese Prüfung lief schlecht, aber wenn du jetzt anfängst, ernsthaft zu lernen, ist es noch nicht zu spät."
       }
     ],
     "legacyIds": [
@@ -2438,12 +3481,18 @@ window.CHENGYU_DATA = [
     "traditional": "亡羊補牢",
     "evidence": {
       "cedict": "亡羊補牢 亡羊补牢 [wang2 yang2 bu3 lao2]"
+    },
+    "notes": "亡羊补牢 (wángyáng-bǔláo) heißt wörtlich „nach dem Verlust (亡) eines Schafes den Pferch (牢) flicken“; 亡 bedeutet hier „verlieren“, nicht „sterben“. Anders als das deutsche „den Brunnen zudecken, wenn das Kind hineingefallen ist“ ist der Ausdruck meist ermutigend: Wer aus einem Schaden lernt, verhindert weitere. Daher steht er oft mit 为时未晚 oder 还来得及 „es ist noch nicht zu spät“. Neutral bis gehoben, auch im Gespräch üblich.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:微不足道:wei1bu4zu2dao4",
     "word": "微不足道",
-    "pinyin": "wēi bù zú dào",
+    "pinyin": "wēibù-zúdào",
     "meaning": "unbedeutend; nicht der Rede wert",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -2451,13 +3500,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "与全球问题相比，这件事微不足道。",
-        "pinyin": "Yǔ quánqiú wèntí xiāngbǐ, zhè jiàn shì wēi bù zú dào.",
+        "pinyin": "Yǔ quánqiú wèntí xiāngbǐ, zhè jiàn shì wēibù-zúdào.",
         "german": "Im Vergleich zu globalen Problemen ist diese Sache unbedeutend."
       },
       {
         "chinese": "这点帮助微不足道，不用客气。",
-        "pinyin": "Zhè diǎn bāngzhù wēi bù zú dào, bùyòng kèqi.",
-        "german": "Diese kleine Hilfe ist nicht der Rede wert, gern geschehen."
+        "pinyin": "Zhè diǎn bāngzhù wēibù-zúdào, búyòng kèqi.",
+        "german": "Das bisschen Hilfe ist nicht der Rede wert, keine Ursache."
+      },
+      {
+        "chinese": "每个人的力量也许微不足道，但大家一起就能改变很多。",
+        "pinyin": "Měi ge rén de lìliàng yěxǔ wēibù-zúdào, dàn dàjiā yìqǐ jiù néng gǎibiàn hěn duō.",
+        "german": "Die Kraft eines Einzelnen mag gering sein, doch gemeinsam kann man viel verändern."
       }
     ],
     "legacyIds": [
@@ -2471,21 +3525,37 @@ window.CHENGYU_DATA = [
     "traditional": "微不足道",
     "evidence": {
       "cedict": "微不足道 微不足道 [wei1 bu4 zu2 dao4]"
+    },
+    "notes": "微不足道 (wēibù-zúdào) heißt wörtlich „so winzig (微), dass es nicht wert ist (不足), erwähnt zu werden (道)“. Es steht als Prädikat oder attributiv: 微不足道的小事, 微不足道的贡献. Sehr häufig ist es als bescheidene Antwort auf Dank: 我做的这点事微不足道. Ähnlich ist 无关紧要 (wúguān-jǐnyào), das aber die fehlende Wichtigkeit für eine Sache betont, während 微不足道 die Geringfügigkeit hervorhebt.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:无价之宝:wu2jia4zhi1bao3",
     "word": "无价之宝",
-    "pinyin": "wú jià zhī bǎo",
-    "meaning": "ein unbezahlbarer Schatz; von unschaetzbarem Wert",
+    "pinyin": "wújià-zhībǎo",
+    "meaning": "unbezahlbarer Schatz; etwas von unschätzbarem Wert",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Lebensweisheit",
     "examples": [
       {
         "chinese": "健康是无价之宝，要好好珍惜。",
-        "pinyin": "Jiànkāng shì wú jià zhī bǎo, yào hǎohao zhēnxī.",
-        "german": "Gesundheit ist ein unbezahlbarer Schatz, den man hueten sollte."
+        "pinyin": "Jiànkāng shì wújià-zhībǎo, yào hǎohǎo zhēnxī.",
+        "german": "Gesundheit ist ein unbezahlbares Gut, man sollte sie sorgsam hüten."
+      },
+      {
+        "chinese": "这幅古画是博物馆的无价之宝。",
+        "pinyin": "Zhè fú gǔhuà shì bówùguǎn de wújià-zhībǎo.",
+        "german": "Dieses alte Gemälde ist ein unschätzbarer Schatz des Museums."
+      },
+      {
+        "chinese": "对我来说，这些老照片是无价之宝。",
+        "pinyin": "Duì wǒ lái shuō, zhèxiē lǎo zhàopiàn shì wújià-zhībǎo.",
+        "german": "Für mich sind diese alten Fotos unbezahlbar."
       }
     ],
     "legacyIds": [
@@ -2499,21 +3569,37 @@ window.CHENGYU_DATA = [
     "traditional": "無價之寶",
     "evidence": {
       "cedict": "無價之寶 无价之宝 [wu2 jia4 zhi1 bao3]"
+    },
+    "notes": "无价之宝 (wújià-zhībǎo) heißt wörtlich „ein Schatz (宝) ohne Preis (无价)“; 之 ist das klassische 的. Der Ausdruck ist ein Nomen und steht meist nach 是: X是无价之宝. Er wird oft übertragen gebraucht (Gesundheit, Zeit, Freundschaft, Erinnerungen), aber auch wörtlich für Kunstschätze. Das Adjektiv allein lautet 无价 (wújià) „unbezahlbar“.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:无可奈何:wu2ke3nai4he2",
     "word": "无可奈何",
-    "pinyin": "wú kě nài hé",
-    "meaning": "hilflos; nichts dagegen machen koennen",
+    "pinyin": "wúkě-nàihé",
+    "meaning": "nichts machen können; machtlos sein; sich wohl oder übel fügen müssen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Gefühle",
     "examples": [
       {
         "chinese": "面对这种情况，我们无可奈何。",
-        "pinyin": "Miànduì zhè zhǒng qíngkuàng, wǒmen wú kě nài hé.",
-        "german": "Angesichts dieser Situation koennen wir nichts machen."
+        "pinyin": "Miànduì zhè zhǒng qíngkuàng, wǒmen wúkě-nàihé.",
+        "german": "In dieser Lage sind wir machtlos."
+      },
+      {
+        "chinese": "孩子怎么说都不听，妈妈对他无可奈何。",
+        "pinyin": "Háizi zěnme shuō dōu bù tīng, māma duì tā wúkě-nàihé.",
+        "german": "Das Kind hört einfach nicht, und die Mutter weiß sich keinen Rat mehr."
+      },
+      {
+        "chinese": "他无可奈何地摇了摇头。",
+        "pinyin": "Tā wúkě-nàihé de yáo le yáo tóu.",
+        "german": "Er schüttelte resigniert den Kopf."
       }
     ],
     "legacyIds": [
@@ -2527,26 +3613,37 @@ window.CHENGYU_DATA = [
     "traditional": "無可奈何",
     "evidence": {
       "cedict": "無可奈何 无可奈何 [wu2 ke3 nai4 he2]"
+    },
+    "notes": "无可奈何 (wúkě-nàihé) heißt wörtlich „es gibt nichts, was man tun (奈何) könnte“. Es steht als Prädikat (我也无可奈何), oft mit 对…无可奈何 „gegen jemanden machtlos sein“, adverbial (无可奈何地摇摇头) oder attributiv (无可奈何的表情). Die Kurzform 无奈 (wúnài) ist umgangssprachlicher und kann auch als Konjunktion „leider, aber“ einen Satz einleiten. Register: neutral bis gehoben.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:无微不至:wu2wei1bu4zhi4",
     "word": "无微不至",
-    "pinyin": "wú wēi bù zhì",
-    "meaning": "bis ins kleinste Detail fuersorglich; aeusserst aufmerksam",
+    "pinyin": "wúwēi-bùzhì",
+    "meaning": "bis ins Kleinste fürsorglich; rührend aufmerksam",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Beziehungen",
     "examples": [
       {
         "chinese": "母亲对孩子的关怀无微不至。",
-        "pinyin": "Mǔqīn duì háizi de guānhuái wú wēi bù zhì.",
-        "german": "Die Fürsorge der Mutter für ihr Kind kennt keine Grenzen."
+        "pinyin": "Mǔqīn duì háizi de guānhuái wúwēi-búzhì.",
+        "german": "Die Mutter umsorgt ihr Kind bis ins Kleinste."
       },
       {
-        "chinese": "妈妈对我的照顾无微不至。",
-        "pinyin": "Māma duì wǒ de zhàogù wú wēi bù zhì.",
-        "german": "Mamas Fuersorge fuer mich reicht bis ins kleinste Detail."
+        "chinese": "住院期间，护士们无微不至地照顾我。",
+        "pinyin": "Zhùyuàn qījiān, hùshìmen wúwēi-búzhì de zhàogù wǒ.",
+        "german": "Während meines Krankenhausaufenthalts kümmerten sich die Pflegekräfte rührend um mich."
+      },
+      {
+        "chinese": "这家酒店的服务无微不至，连客人的口味都记得。",
+        "pinyin": "Zhè jiā jiǔdiàn de fúwù wúwēi-búzhì, lián kèrén de kǒuwèi dōu jìde.",
+        "german": "Der Service in diesem Hotel ist äußerst aufmerksam – man merkt sich sogar, was die Gäste gern essen."
       }
     ],
     "legacyIds": [
@@ -2562,13 +3659,19 @@ window.CHENGYU_DATA = [
     "traditional": "無微不至",
     "evidence": {
       "cedict": "無微不至 无微不至 [wu2 wei1 bu4 zhi4]"
+    },
+    "notes": "无微不至 (wúwēi-búzhì) heißt wörtlich „es gibt nichts so Kleines (微), das nicht erreicht (至) würde“. Es bezieht sich meist auf Fürsorge und Aufmerksamkeit gegenüber Menschen: 无微不至地照顾/关心, 关怀无微不至, und ist durchweg positiv. Für genaues, gewissenhaftes Arbeiten sagt man dagegen eher 一丝不苟 (yìsī-bùgǒu). Register: neutral bis gehoben.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:息息相关:xi1xi1xiang1guan1",
     "word": "息息相关",
-    "pinyin": "xīxī xiāngguān",
-    "meaning": "eng miteinander verbunden; untrennbar zusammenhaengend",
+    "pinyin": "xīxī-xiāngguān",
+    "meaning": "eng miteinander verbunden; aufs Engste zusammenhängen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Beziehungen",
@@ -2579,9 +3682,14 @@ window.CHENGYU_DATA = [
         "german": "Die Umwelt ist eng mit unserer Gesundheit verbunden."
       },
       {
-        "chinese": "环境保护和我们的健康息息相关。",
-        "pinyin": "Huánjìng bǎohù hé wǒmen de jiànkāng xī xī xiāng guān.",
-        "german": "Umweltschutz haengt eng mit unserer Gesundheit zusammen."
+        "chinese": "天气和农民的收入息息相关。",
+        "pinyin": "Tiānqì hé nóngmín de shōurù xīxī xiāngguān.",
+        "german": "Das Einkommen der Bauern hängt eng vom Wetter ab."
+      },
+      {
+        "chinese": "房价问题与每个家庭息息相关。",
+        "pinyin": "Fángjià wèntí yǔ měi ge jiātíng xīxī xiāngguān.",
+        "german": "Die Immobilienpreise betreffen jede Familie unmittelbar."
       }
     ],
     "legacyIds": [
@@ -2596,26 +3704,37 @@ window.CHENGYU_DATA = [
     "traditional": "息息相關",
     "evidence": {
       "cedict": "息息相關 息息相关 [xi1 xi1 xiang1 guan1]"
+    },
+    "notes": "息息相关 (xīxī xiāngguān) heißt wörtlich „Atemzug um Atemzug (息息) miteinander verbunden (相关)“ – so eng, als atme man gemeinsam. Der typische Rahmen ist A与/和B息息相关, besonders 与我们的生活息息相关. Der Ausdruck ist in Nachrichten, Aufsätzen und formellen Gesprächen sehr häufig. Neutraler und nüchterner ist 密切相关 (mìqiè xiāngguān).",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:喜出望外:xi3chu1wang4wai4",
     "word": "喜出望外",
-    "pinyin": "xǐ chū wàng wài",
-    "meaning": "unerwartet erfreut; ueberraschend gluecklich",
+    "pinyin": "xǐchū-wàngwài",
+    "meaning": "unverhofft froh sein; über Erwarten erfreut; überglücklich",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Gefühle",
     "examples": [
       {
         "chinese": "收到他的礼物，她喜出望外。",
-        "pinyin": "Shōudào tā de lǐwù, tā xǐ chū wàng wài.",
-        "german": "Als sie sein Geschenk erhielt, war sie unerwartet uebergluecklich."
+        "pinyin": "Shōudào tā de lǐwù, tā xǐchū-wàngwài.",
+        "german": "Über sein Geschenk freute sie sich riesig – damit hatte sie nicht gerechnet."
       },
       {
         "chinese": "收到录取通知书，他喜出望外。",
-        "pinyin": "Shōudào lùqǔ tōngzhīshū, tā xǐchū wàngwài.",
-        "german": "Als er den Zulassungsbescheid erhielt, war er unerwartet gluecklich."
+        "pinyin": "Shōudào lùqǔ tōngzhīshū, tā xǐchū-wàngwài.",
+        "german": "Als er den Zulassungsbescheid bekam, war er überglücklich."
+      },
+      {
+        "chinese": "丢了三天的小狗自己跑回来了，全家人喜出望外。",
+        "pinyin": "Diū le sān tiān de xiǎogǒu zìjǐ pǎo huílai le, quán jiā rén xǐchū-wàngwài.",
+        "german": "Der Hund, der seit drei Tagen verschwunden war, kam von selbst zurück – die ganze Familie war außer sich vor Freude."
       }
     ],
     "legacyIds": [
@@ -2630,26 +3749,37 @@ window.CHENGYU_DATA = [
     "traditional": "喜出望外",
     "evidence": {
       "cedict": "喜出望外 喜出望外 [xi3 chu1 wang4 wai4]"
+    },
+    "notes": "喜出望外 (xǐchū-wàngwài) heißt wörtlich „die Freude (喜) geht über (出) die Erwartung (望) hinaus (外)“. Es beschreibt die Freude über etwas Unerwartetes, etwa eine gute Nachricht oder ein Geschenk, und passt kaum zu erwarteter Freude. Typisch steht zuerst der Anlass, dann die Person: 听到这个消息，他喜出望外; auch adverbial 喜出望外地说. Register: neutral bis gehoben, häufig in Erzählungen.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:喜怒哀乐:xi3nu4ai1le4",
     "word": "喜怒哀乐",
-    "pinyin": "xǐ nù āi lè",
-    "meaning": "Freude, Wut, Trauer und Glueck (alle Emotionen)",
+    "pinyin": "xǐnù-āilè",
+    "meaning": "Freude, Zorn, Trauer und Vergnügen; alle Gefühle; Freud und Leid",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Gefühle",
     "examples": [
       {
-        "chinese": "人生就是充满了喜怒哀乐。",
-        "pinyin": "Rénshēng jiùshì chōngmǎn le xǐ nù āi lè.",
-        "german": "Das Leben ist voller Freude, Wut, Trauer und Glueck."
+        "chinese": "人生充满了喜怒哀乐。",
+        "pinyin": "Rénshēng chōngmǎn le xǐnù-āilè.",
+        "german": "Das Leben ist voller Freud und Leid."
       },
       {
-        "chinese": "人生的喜怒哀乐都是宝贵的经历。",
-        "pinyin": "Rénshēng de xǐ nù āi lè dōu shì bǎoguì de jīnglì.",
-        "german": "Alle Emotionen des Lebens sind wertvolle Erfahrungen."
+        "chinese": "他的喜怒哀乐都写在脸上。",
+        "pinyin": "Tā de xǐnù-āilè dōu xiě zài liǎn shang.",
+        "german": "Man sieht ihm jedes Gefühl sofort an."
+      },
+      {
+        "chinese": "好朋友就是能一起分享喜怒哀乐的人。",
+        "pinyin": "Hǎo péngyou jiù shì néng yìqǐ fēnxiǎng xǐnù-āilè de rén.",
+        "german": "Gute Freunde sind Menschen, mit denen man Freud und Leid teilen kann."
       }
     ],
     "legacyIds": [
@@ -2663,21 +3793,37 @@ window.CHENGYU_DATA = [
     "traditional": "喜怒哀樂",
     "evidence": {
       "cedict": "喜怒哀樂 喜怒哀乐 [xi3 nu4 ai1 le4]"
+    },
+    "notes": "喜怒哀乐 (xǐnù-āilè) zählt vier Grundgefühle auf: Freude (喜), Zorn (怒), Trauer (哀) und Vergnügen (乐); die Reihe geht auf das konfuzianische Zhongyong zurück. Der Ausdruck ist ein Nomen und steht für die ganze Gefühlswelt: 人生的喜怒哀乐, 分享喜怒哀乐 „Freud und Leid teilen“. Von jemandem, der seine Gefühle nicht verbergen kann, sagt man 喜怒哀乐都写在脸上. Register: neutral bis gehoben.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:小心翼翼:xiao3xin1yi4yi4",
     "word": "小心翼翼",
-    "pinyin": "xiǎo xīn yì yì",
-    "meaning": "aeusserst vorsichtig; mit groesster Sorgfalt",
+    "pinyin": "xiǎoxīn-yìyì",
+    "meaning": "äußerst vorsichtig; behutsam",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Charakter",
     "examples": [
       {
         "chinese": "他小心翼翼地端着那杯热茶。",
-        "pinyin": "Tā xiǎo xīn yì yì de duān zhe nà bēi rè chá.",
-        "german": "Er traegt die heisse Teetasse mit groesster Vorsicht."
+        "pinyin": "Tā xiǎoxīn-yìyì de duānzhe nà bēi rè chá.",
+        "german": "Er trägt die Tasse heißen Tee mit größter Vorsicht."
+      },
+      {
+        "chinese": "他说话总是小心翼翼的，怕得罪别人。",
+        "pinyin": "Tā shuōhuà zǒngshì xiǎoxīn-yìyì de, pà dézuì biérén.",
+        "german": "Er wägt jedes Wort sorgfältig ab, weil er niemanden vor den Kopf stoßen will."
+      },
+      {
+        "chinese": "妈妈小心翼翼地把熟睡的孩子放到床上。",
+        "pinyin": "Māma xiǎoxīn-yìyì de bǎ shúshuì de háizi fàngdào chuáng shang.",
+        "german": "Die Mutter legte das schlafende Kind ganz behutsam ins Bett."
       }
     ],
     "legacyIds": [
@@ -2691,21 +3837,37 @@ window.CHENGYU_DATA = [
     "traditional": "小心翼翼",
     "evidence": {
       "cedict": "小心翼翼 小心翼翼 [xiao3 xin1 yi4 yi4]"
+    },
+    "notes": "小心翼翼 (xiǎoxīn-yìyì) verstärkt 小心 „vorsichtig“ durch das klassische 翼翼 „ehrfürchtig, behutsam“ (aus dem Shijing). Es steht meist adverbial vor dem Verb: 小心翼翼地端着, 小心翼翼地打开, oder mit 的 als Prädikat. Es beschreibt sowohl körperliche Behutsamkeit (etwas Zerbrechliches tragen) als auch soziale Vorsicht, etwa wenn jemand aus Angst, anzuecken, jedes Wort abwägt. Register: neutral, häufig in Erzählungen.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:心急如焚:xin1ji2ru2fen2",
     "word": "心急如焚",
-    "pinyin": "xīn jí rú fén",
-    "meaning": "vor Ungeduld brennen; aeusserst besorgt sein",
+    "pinyin": "xīnjí-rúfén",
+    "meaning": "vor Sorge oder Ungeduld fast vergehen; äußerst beunruhigt sein",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Gefühle",
     "examples": [
       {
-        "chinese": "孩子没回来，妈妈心急如焚。",
-        "pinyin": "Háizi méi huílái, māma xīn jí rú fén.",
-        "german": "Das Kind kam nicht nach Hause und die Mutter war vor Sorge ganz ausser sich."
+        "chinese": "天都黑了，孩子还没回家，妈妈心急如焚。",
+        "pinyin": "Tiān dōu hēi le, háizi hái méi huí jiā, māma xīnjí-rúfén.",
+        "german": "Es war schon dunkel und das Kind noch nicht zu Hause – die Mutter war außer sich vor Sorge."
+      },
+      {
+        "chinese": "飞机马上就要起飞了，他却被堵在路上，心急如焚。",
+        "pinyin": "Fēijī mǎshàng jiù yào qǐfēi le, tā què bèi dǔ zài lù shang, xīnjí-rúfén.",
+        "german": "Das Flugzeug sollte gleich starten, doch er steckte im Stau und saß wie auf glühenden Kohlen."
+      },
+      {
+        "chinese": "听说父亲住院了，她心急如焚地赶回了老家。",
+        "pinyin": "Tīngshuō fùqin zhùyuàn le, tā xīnjí-rúfén de gǎnhuí le lǎojiā.",
+        "german": "Als sie hörte, dass ihr Vater im Krankenhaus lag, eilte sie voller Sorge in ihre Heimatstadt zurück."
       }
     ],
     "legacyIds": [
@@ -2719,21 +3881,37 @@ window.CHENGYU_DATA = [
     "traditional": "心急如焚",
     "evidence": {
       "cedict": "心急如焚 心急如焚 [xin1 ji2 ru2 fen2]"
+    },
+    "notes": "心急如焚 (xīnjí-rúfén) heißt wörtlich „das Herz ist so unruhig (心急), als ob es brennt (如焚)“. Es beschreibt große Sorge oder drängende Ungeduld, etwa wenn jemand vermisst wird, ein Angehöriger krank ist oder man unter Zeitdruck steht. Es steht meist als Prädikat am Satzende oder adverbial: 心急如焚地等着. Der Ausdruck ist eher schriftsprachlich; im Gespräch sagt man oft einfach 急死了 (jísǐ le).",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:心灵手巧:xin1ling2shou3qiao3",
     "word": "心灵手巧",
-    "pinyin": "xīn líng shǒu qiǎo",
-    "meaning": "geschickter Geist und geschickte Haende; handwerklich begabt",
+    "pinyin": "xīnlíng-shǒuqiǎo",
+    "meaning": "klug und geschickt; geschickte Hände haben; handwerklich begabt",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Lebensweisheit",
     "examples": [
       {
         "chinese": "她心灵手巧，什么手工活都会做。",
-        "pinyin": "Tā xīn líng shǒu qiǎo, shénme shǒugōng huó dōu huì zuò.",
-        "german": "Sie ist handwerklich sehr begabt und kann jede Handarbeit ausfuehren."
+        "pinyin": "Tā xīnlíng-shǒuqiǎo, shénme shǒugōnghuó dōu huì zuò.",
+        "german": "Sie ist sehr geschickt und beherrscht jede Art von Handarbeit."
+      },
+      {
+        "chinese": "这些漂亮的剪纸都是我奶奶做的，她特别心灵手巧。",
+        "pinyin": "Zhèxiē piàoliang de jiǎnzhǐ dōu shì wǒ nǎinai zuò de, tā tèbié xīnlíng-shǒuqiǎo.",
+        "german": "Diese schönen Scherenschnitte stammen alle von meiner Oma – sie ist unglaublich geschickt."
+      },
+      {
+        "chinese": "这个心灵手巧的小男孩用旧纸盒做了一辆汽车。",
+        "pinyin": "Zhège xīnlíng-shǒuqiǎo de xiǎo nánhái yòng jiù zhǐhé zuò le yí liàng qìchē.",
+        "german": "Der geschickte kleine Junge hat aus alten Pappkartons ein Auto gebastelt."
       }
     ],
     "legacyIds": [
@@ -2747,21 +3925,37 @@ window.CHENGYU_DATA = [
     "traditional": "心靈手巧",
     "evidence": {
       "cedict": "心靈手巧 心灵手巧 [xin1 ling2 shou3 qiao3]"
+    },
+    "notes": "心灵手巧 (xīnlíng-shǒuqiǎo) heißt wörtlich „wacher Geist (心灵), geschickte Hände (手巧)“; 心灵 ist hier also nicht das Nomen „Seele“. Man lobt damit Menschen, die gut basteln, nähen, schneiden oder andere Handarbeiten machen. Es steht als Prädikat (她心灵手巧) oder attributiv (心灵手巧的姑娘). Traditionell wurde es oft auf Frauen und Mädchen bezogen, heute lobt man damit jeden. Register: neutral, durchweg positiv.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:形影不离:xing2ying3bu4li2",
     "word": "形影不离",
-    "pinyin": "xíng yǐng bù lí",
-    "meaning": "unzertrennlich sein; wie Koerper und Schatten",
+    "pinyin": "xíngyǐng-bùlí",
+    "meaning": "unzertrennlich; wie Körper und Schatten",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Beziehungen",
     "examples": [
       {
         "chinese": "她们两个形影不离，到哪里都在一起。",
-        "pinyin": "Tāmen liǎng gè xíng yǐng bù lí, dào nǎlǐ dōu zài yīqǐ.",
-        "german": "Die beiden sind unzertrennlich und ueberall zusammen."
+        "pinyin": "Tāmen liǎng ge xíngyǐng-bùlí, dào nǎli dōu zài yìqǐ.",
+        "german": "Die beiden sind unzertrennlich und überall zusammen."
+      },
+      {
+        "chinese": "小狗和它的主人形影不离。",
+        "pinyin": "Xiǎogǒu hé tā de zhǔrén xíngyǐng-bùlí.",
+        "german": "Der kleine Hund weicht seinem Herrchen nicht von der Seite."
+      },
+      {
+        "chinese": "上大学以后，我们这对形影不离的好朋友只能分开了。",
+        "pinyin": "Shàng dàxué yǐhòu, wǒmen zhè duì xíngyǐng-bùlí de hǎo péngyou zhǐ néng fēnkāi le.",
+        "german": "Mit dem Studium mussten wir zwei unzertrennlichen Freunde getrennte Wege gehen."
       }
     ],
     "legacyIds": [
@@ -2775,21 +3969,37 @@ window.CHENGYU_DATA = [
     "traditional": "形影不離",
     "evidence": {
       "cedict": "形影不離 形影不离 [xing2 ying3 bu4 li2]"
+    },
+    "notes": "形影不离 (xíngyǐng-bùlí) heißt wörtlich „Körper (形) und Schatten (影) trennen sich nicht“. Es beschreibt zwei Menschen – Freunde, Paare, Geschwister –, manchmal auch Mensch und Haustier, die ständig zusammen sind. Es steht als Prädikat (他们俩形影不离) oder attributiv (形影不离的好朋友). Meist klingt es freundlich, über klammernde Paare kann es auch etwas spöttisch sein; im Deutschen entspricht es etwa „unzertrennlich“ oder „wie Pech und Schwefel“.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:兴高采烈:xing4gao1cai3lie4",
     "word": "兴高采烈",
-    "pinyin": "xìng gāo cǎi liè",
-    "meaning": "ueberaus froh und begeistert; in Hochstimmung",
+    "pinyin": "xìnggāo-cǎiliè",
+    "meaning": "begeistert; in Hochstimmung; ausgelassen fröhlich",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Gefühle",
     "examples": [
       {
         "chinese": "孩子们兴高采烈地去游乐园。",
-        "pinyin": "Háizimen xìng gāo cǎi liè de qù yóulèyuán.",
-        "german": "Die Kinder gingen ueberaus begeistert in den Vergnuegungspark."
+        "pinyin": "Háizimen xìnggāo-cǎiliè de qù yóulèyuán.",
+        "german": "Die Kinder machen sich begeistert auf den Weg in den Freizeitpark."
+      },
+      {
+        "chinese": "听说明天放假，同学们兴高采烈的。",
+        "pinyin": "Tīngshuō míngtiān fàngjià, tóngxuémen xìnggāo-cǎiliè de.",
+        "german": "Als die Schüler hörten, dass morgen frei ist, waren sie ganz aus dem Häuschen."
+      },
+      {
+        "chinese": "大家兴高采烈地讨论着周末的旅行计划。",
+        "pinyin": "Dàjiā xìnggāo-cǎiliè de tǎolùnzhe zhōumò de lǚxíng jìhuà.",
+        "german": "Alle besprachen begeistert die Pläne für den Wochenendausflug."
       }
     ],
     "legacyIds": [
@@ -2806,12 +4016,18 @@ window.CHENGYU_DATA = [
     },
     "variants": [
       "兴高彩烈"
-    ]
+    ],
+    "notes": "兴高采烈 (xìnggāo-cǎiliè) heißt wörtlich „die Stimmung (兴) ist hoch, der Elan (采) lebhaft (烈)“. 兴 wird hier xìng gesprochen wie in 高兴 (gāoxìng), nicht xīng. Der Ausdruck beschreibt sichtbare, lebhafte Freude, oft von Gruppen und Kindern, und steht meist adverbial vor dem Verb (兴高采烈地聊天, 兴高采烈地出发) oder mit 的 als Prädikat. Register: neutral, in Erzählungen sehr häufig.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:胸有成竹:xiong1you3cheng2zhu2",
     "word": "胸有成竹",
-    "pinyin": "xiōng yǒu chéng zhú",
+    "pinyin": "xiōngyǒu-chéngzhú",
     "meaning": "einen festen Plan im Kopf haben; gut vorbereitet sein",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -2819,8 +4035,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "他回答问题时胸有成竹，一点也不紧张。",
-        "pinyin": "Tā huídá wèntí shí xiōng yǒu chéng zhú, yīdiǎn yě bù jǐnzhāng.",
-        "german": "Er beantwortete die Fragen selbstsicher, ganz ohne Nervositaet."
+        "pinyin": "Tā huídá wèntí shí xiōngyǒu-chéngzhú, yìdiǎn yě bù jǐnzhāng.",
+        "german": "Er beantwortete die Fragen souverän und war kein bisschen nervös."
+      },
+      {
+        "chinese": "对这次比赛，他早已胸有成竹。",
+        "pinyin": "Duì zhè cì bǐsài, tā zǎoyǐ xiōngyǒu-chéngzhú.",
+        "german": "Für diesen Wettkampf hat er längst einen klaren Plan."
+      },
+      {
+        "chinese": "看她胸有成竹的样子，这次面试应该没问题。",
+        "pinyin": "Kàn tā xiōngyǒu-chéngzhú de yàngzi, zhè cì miànshì yīnggāi méi wèntí.",
+        "german": "So selbstsicher, wie sie wirkt, dürfte das Vorstellungsgespräch kein Problem sein."
       }
     ],
     "legacyIds": [
@@ -2834,31 +4060,37 @@ window.CHENGYU_DATA = [
     "traditional": "胸有成竹",
     "evidence": {
       "cedict": "胸有成竹 胸有成竹 [xiong1 you3 cheng2 zhu2]"
+    },
+    "notes": "胸有成竹 (xiōngyǒu-chéngzhú) heißt wörtlich „den fertigen Bambus (成竹) schon in der Brust (胸) haben“: Der Song-Maler Wen Tong (文同) soll ein Bambusbild vollständig im Kopf gehabt haben, bevor er den Pinsel ansetzte. Gemeint ist, dass man für eine bestimmte Aufgabe einen klaren Plan hat und deshalb gelassen und sicher auftritt. Typisch sind 对…胸有成竹 und adverbial 胸有成竹地说/回答. Anders als 自信 (zìxìn) „selbstbewusst“ bezieht es sich auf eine konkrete Sache, nicht auf den Charakter.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:循序渐进:xun2xu4jian4jin4",
     "word": "循序渐进",
-    "pinyin": "xún xù jiàn jìn",
-    "meaning": "Schritt fuer Schritt vorgehen; systematisch lernen",
+    "pinyin": "xúnxù-jiànjìn",
+    "meaning": "Schritt für Schritt vorgehen; schrittweise vorankommen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Lernen",
     "examples": [
       {
-        "chinese": "学习语言要循序渐进。",
-        "pinyin": "Xuéxí yǔyán yào xún xù jiàn jìn.",
-        "german": "Beim Sprachenlernen muss man Schritt für Schritt vorgehen."
-      },
-      {
-        "chinese": "学习应该循序渐进。",
-        "pinyin": "Xuéxí yīnggāi xún xù jiàn jìn.",
-        "german": "Beim Lernen sollte man schrittweise vorangehen."
-      },
-      {
         "chinese": "学习中文要循序渐进，不能急于求成。",
-        "pinyin": "Xuéxí zhōngwén yào xún xù jiàn jìn, bù néng jí yú qiú chéng.",
-        "german": "Chinesisch muss man Schritt fuer Schritt lernen und darf es nicht ueberhasten."
+        "pinyin": "Xuéxí Zhōngwén yào xúnxù-jiànjìn, bù néng jíyú-qiúchéng.",
+        "german": "Chinesisch muss man Schritt für Schritt lernen, man darf nichts überstürzen."
+      },
+      {
+        "chinese": "健身要循序渐进，一开始别练得太猛。",
+        "pinyin": "Jiànshēn yào xúnxù-jiànjìn, yì kāishǐ bié liàn de tài měng.",
+        "german": "Beim Fitnesstraining sollte man langsam steigern und es am Anfang nicht übertreiben."
+      },
+      {
+        "chinese": "改革要循序渐进地进行。",
+        "pinyin": "Gǎigé yào xúnxù-jiànjìn de jìnxíng.",
+        "german": "Reformen sollten schrittweise umgesetzt werden."
       }
     ],
     "legacyIds": [
@@ -2872,26 +4104,37 @@ window.CHENGYU_DATA = [
     "traditional": "循序漸進",
     "evidence": {
       "cedict": "循序漸進 循序渐进 [xun2 xu4 jian4 jin4]"
+    },
+    "notes": "循序渐进 (xúnxù-jiànjìn) heißt wörtlich „der Reihenfolge (序) folgen (循) und allmählich (渐) vorankommen (进)“. Es steht vor allem bei Lernen, Training und Reformen: 学习要循序渐进, 循序渐进地进行, 循序渐进的过程. Oft wird es mit 急于求成 (jíyú-qiúchéng) „etwas überstürzen wollen“ kontrastiert: 要循序渐进，不能急于求成. Register: neutral bis gehoben, häufig in Ratschlägen und Lehrtexten.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:掩耳盗铃:yan3er3dao4ling2",
     "word": "掩耳盗铃",
-    "pinyin": "yǎn ěr dào líng",
-    "meaning": "sich die Ohren zuhalten, um eine Glocke zu stehlen; sich selbst belügen",
+    "pinyin": "yǎn’ěr-dàolíng",
+    "meaning": "sich beim Stehlen einer Glocke die Ohren zuhalten; sich selbst etwas vormachen; den Kopf in den Sand stecken",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Geschichte",
     "examples": [
       {
         "chinese": "不面对现实就是掩耳盗铃。",
-        "pinyin": "Bù miànduì xiànshí jiùshì yǎn ěr dào líng.",
-        "german": "Die Realitaet nicht wahrhaben zu wollen ist Selbstbetrug."
+        "pinyin": "Bú miànduì xiànshí jiù shì yǎn'ěr-dàolíng.",
+        "german": "Die Realität nicht wahrhaben zu wollen ist Selbstbetrug."
       },
       {
-        "chinese": "忽视问题不等于解决问题, 那是掩耳盗铃。",
-        "pinyin": "Hūshì wèntí bù děngyú jiějué wèntí, nà shì yǎn ěr dào líng.",
-        "german": "Probleme zu ignorieren heisst nicht sie zu lösen, das ist Selbstbetrug."
+        "chinese": "把体重秤藏起来就以为自己没胖，这不是掩耳盗铃吗？",
+        "pinyin": "Bǎ tǐzhòngchèng cáng qǐlai jiù yǐwéi zìjǐ méi pàng, zhè bú shì yǎn'ěr-dàolíng ma?",
+        "german": "Die Waage zu verstecken und zu glauben, man habe nicht zugenommen – ist das nicht Selbstbetrug?"
+      },
+      {
+        "chinese": "公司删除了网上的差评，这种掩耳盗铃的做法反而让顾客更不满。",
+        "pinyin": "Gōngsī shānchú le wǎng shang de chàpíng, zhè zhǒng yǎn'ěr-dàolíng de zuòfǎ fǎn'ér ràng gùkè gèng bùmǎn.",
+        "german": "Die Firma löschte die schlechten Bewertungen im Netz – solche plumpen Vertuschungsversuche machen die Kunden nur noch unzufriedener."
       }
     ],
     "legacyIds": [
@@ -2905,12 +4148,18 @@ window.CHENGYU_DATA = [
     "traditional": "掩耳盜鈴",
     "evidence": {
       "cedict": "掩耳盜鈴 掩耳盗铃 [yan3 er3 dao4 ling2]"
+    },
+    "notes": "掩耳盗铃 (yǎn'ěr-dàolíng) geht auf eine Geschichte aus dem Lüshi Chunqiu zurück: Ein Dieb wollte eine Glocke stehlen und zerschlagen, doch sie dröhnte laut; da hielt er sich die eigenen Ohren zu (掩耳) und glaubte, dann höre es auch sonst niemand. Heute kritisiert man damit Selbstbetrug und den törichten Versuch, etwas Offensichtliches zu verbergen. Typisch sind 这是掩耳盗铃 und 掩耳盗铃的做法. Anders als „den Kopf in den Sand stecken“ betont es oft auch den vergeblichen Versuch, andere zu täuschen.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:夜以继日:ye4yi3ji4ri4",
     "word": "夜以继日",
-    "pinyin": "yè yǐ jì rì",
+    "pinyin": "yèyǐ-jìrì",
     "meaning": "die Nacht an den Tag anreihen; Tag und Nacht arbeiten",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -2918,13 +4167,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "他夜以继日地工作，终于完成了项目。",
-        "pinyin": "Tā yè yǐ jì rì de gōngzuò, zhōngyú wánchéng le xiàngmù.",
-        "german": "Er arbeitete Tag und Nacht und schloss schliesslich das Projekt ab."
+        "pinyin": "Tā yèyǐ-jìrì de gōngzuò, zhōngyú wánchéng le xiàngmù.",
+        "german": "Er arbeitete Tag und Nacht und schloss das Projekt schließlich ab."
       },
       {
         "chinese": "医生们夜以继日地抢救病人。",
-        "pinyin": "Yīshēngmen yè yǐ jì rì de qiǎngjiù bìngrén.",
-        "german": "Die Ärzte retteten Tag und Nacht Patienten."
+        "pinyin": "Yīshēngmen yèyǐ-jìrì de qiǎngjiù bìngrén.",
+        "german": "Die Ärzte kämpften Tag und Nacht um das Leben der Patienten."
+      },
+      {
+        "chinese": "为了赶在春节前通车，工人们夜以继日地施工。",
+        "pinyin": "Wèile gǎn zài Chūnjié qián tōngchē, gōngrénmen yèyǐ-jìrì de shīgōng.",
+        "german": "Damit die Strecke noch vor dem Frühlingsfest freigegeben werden kann, bauen die Arbeiter rund um die Uhr."
       }
     ],
     "legacyIds": [
@@ -2938,21 +4192,37 @@ window.CHENGYU_DATA = [
     "traditional": "夜以繼日",
     "evidence": {
       "cedict": "夜以繼日 夜以继日 [ye4 yi3 ji4 ri4]"
+    },
+    "notes": "夜以继日 (yèyǐ-jìrì) heißt wörtlich „die Nacht (夜) an den Tag (日) anschließen (继)“ und stammt aus dem Mengzi. Es steht meist adverbial mit 地 vor dem Verb: 夜以继日地工作, 夜以继日地抢修, 夜以继日地研究. Der Ausdruck beschreibt anstrengende Arbeit ohne Pause und klingt oft anerkennend, etwa in Nachrichten über Rettungs- oder Bauarbeiten. Gleichbedeutend ist 日以继夜 (rìyǐ-jìyè). Register: gehoben.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:一目了然:yi1mu4liao3ran2",
     "word": "一目了然",
-    "pinyin": "yī mù liǎo rán",
-    "meaning": "auf einen Blick klar; sofort verstaendlich",
+    "pinyin": "yīmù-liǎorán",
+    "meaning": "auf einen Blick klar; sofort ersichtlich; übersichtlich",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Lebensweisheit",
     "examples": [
       {
         "chinese": "这张图表让数据一目了然。",
-        "pinyin": "Zhè zhāng túbiǎo ràng shùjù yī mù liǎo rán.",
-        "german": "Diese Grafik macht die Daten auf einen Blick verstaendlich."
+        "pinyin": "Zhè zhāng túbiǎo ràng shùjù yímù-liǎorán.",
+        "german": "Mit diesem Diagramm erfasst man die Daten auf einen Blick."
+      },
+      {
+        "chinese": "新网站的设计很简洁，各种功能一目了然。",
+        "pinyin": "Xīn wǎngzhàn de shèjì hěn jiǎnjié, gè zhǒng gōngnéng yímù-liǎorán.",
+        "german": "Die neue Website ist schlicht gestaltet, alle Funktionen sind auf einen Blick zu finden."
+      },
+      {
+        "chinese": "谁对谁错，看看录像就一目了然了。",
+        "pinyin": "Shéi duì shéi cuò, kànkan lùxiàng jiù yímù-liǎorán le.",
+        "german": "Wer recht hat, sieht man sofort, wenn man sich das Video anschaut."
       }
     ],
     "legacyIds": [
@@ -2968,26 +4238,37 @@ window.CHENGYU_DATA = [
     "traditional": "一目了然",
     "evidence": {
       "cedict": "一目了然 一目了然 [yi1 mu4 liao3 ran2]"
+    },
+    "notes": "一目了然 (yímù-liǎorán) heißt wörtlich „mit einem Blick (一目) völlig klar (了然)“; 了 wird hier liǎo gesprochen, nicht le. Es beschreibt Darstellungen, die man sofort versteht – Tabellen, Karten, Webseiten –, aber auch Sachverhalte, die sich mit einem Blick klären lassen. Typisch sind 让…一目了然 und 看了就一目了然. Der Ausdruck ist neutral und im Alltag wie in Fachtexten sehr häufig.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:以身作则:yi3shen1zuo4ze2",
     "word": "以身作则",
-    "pinyin": "yǐ shēn zuò zé",
+    "pinyin": "yǐshēn-zuòzé",
     "meaning": "mit gutem Beispiel vorangehen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Lebensweisheit",
     "examples": [
       {
-        "chinese": "领导者应该以身作则。",
-        "pinyin": "Lǐngdǎozhě yīnggāi yǐ shēn zuò zé.",
-        "german": "Führungskräfte sollten mit gutem Beispiel vorangehen."
+        "chinese": "好的领导应该以身作则。",
+        "pinyin": "Hǎo de lǐngdǎo yīnggāi yǐshēn-zuòzé.",
+        "german": "Eine gute Führungskraft sollte mit gutem Beispiel vorangehen."
       },
       {
-        "chinese": "好的领导应该以身作则。",
-        "pinyin": "Hǎo de lǐngdǎo yīnggāi yǐ shēn zuò zé.",
-        "german": "Eine gute Fuehrungskraft sollte mit gutem Beispiel vorangehen."
+        "chinese": "父母要求孩子少玩手机，自己就要以身作则。",
+        "pinyin": "Fùmǔ yāoqiú háizi shǎo wán shǒujī, zìjǐ jiù yào yǐshēn-zuòzé.",
+        "german": "Wenn Eltern von ihren Kindern verlangen, weniger am Handy zu sein, müssen sie selbst ein Vorbild sein."
+      },
+      {
+        "chinese": "王老师每天第一个到学校，以身作则，学生们也都不迟到了。",
+        "pinyin": "Wáng lǎoshī měi tiān dì-yī ge dào xuéxiào, yǐshēn-zuòzé, xuéshengmen yě dōu bù chídào le.",
+        "german": "Lehrer Wang ist jeden Tag als Erster in der Schule und geht mit gutem Beispiel voran – inzwischen kommt auch keiner der Schüler mehr zu spät."
       }
     ],
     "legacyIds": [
@@ -3001,21 +4282,37 @@ window.CHENGYU_DATA = [
     "traditional": "以身作則",
     "evidence": {
       "cedict": "以身作則 以身作则 [yi3 shen1 zuo4 ze2]"
+    },
+    "notes": "以身作则 (yǐshēn-zuòzé) heißt wörtlich „sich selbst (以身) zum Maßstab (则) machen (作)“. Es richtet sich meist an Menschen mit Vorbildfunktion – Eltern, Lehrer, Vorgesetzte, Beamte – und steht oft mit 要 oder 应该: 领导要以身作则, gern zusammen mit 带头 (dàitóu) „vorangehen“. Der Ausdruck ist neutral bis gehoben und typisch für moralische Appelle, aber auch im Gespräch geläufig.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:一鼓作气:yi1gu3zuo4qi4",
     "word": "一鼓作气",
-    "pinyin": "yī gǔ zuò qì",
-    "meaning": "beim ersten Trommelschlag den Mut fassen; in einem Zug erledigen",
+    "pinyin": "yīgǔ-zuòqì",
+    "meaning": "in einem Anlauf; in einem Zug erledigen; mit vollem Schwung durchziehen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Erfolg",
     "examples": [
       {
         "chinese": "我们要一鼓作气，把这个任务完成。",
-        "pinyin": "Wǒmen yào yī gǔ zuò qì, bǎ zhège rènwù wánchéng.",
-        "german": "Wir muessen in einem Zug diese Aufgabe erledigen."
+        "pinyin": "Wǒmen yào yìgǔ-zuòqì, bǎ zhège rènwu wánchéng.",
+        "german": "Lasst uns diese Aufgabe in einem Zug erledigen."
+      },
+      {
+        "chinese": "他一鼓作气爬到了山顶。",
+        "pinyin": "Tā yìgǔ-zuòqì pádào le shāndǐng.",
+        "german": "Er stieg ohne Pause bis zum Gipfel hinauf."
+      },
+      {
+        "chinese": "球队上半场就进了两个球，下半场一鼓作气又进了三个。",
+        "pinyin": "Qiúduì shàngbànchǎng jiù jìn le liǎng ge qiú, xiàbànchǎng yìgǔ-zuòqì yòu jìn le sān ge.",
+        "german": "Die Mannschaft traf schon in der ersten Halbzeit zweimal und legte in der zweiten mit vollem Schwung noch drei Tore nach."
       }
     ],
     "legacyIds": [
@@ -3030,12 +4327,18 @@ window.CHENGYU_DATA = [
     "traditional": "一鼓作氣",
     "evidence": {
       "cedict": "一鼓作氣 一鼓作气 [yi1 gu3 zuo4 qi4]"
+    },
+    "notes": "一鼓作气 (yìgǔ-zuòqì) stammt aus dem Zuozhuan: 一鼓作气，再而衰，三而竭 – der erste Trommelschlag (一鼓) weckt den Kampfgeist (作气), beim zweiten lässt er nach, beim dritten ist er erschöpft. Heute heißt es, etwas in einem Anlauf zu erledigen, solange der Schwung da ist. Es steht meist adverbial vor dem Verb: 一鼓作气把作业写完, 一鼓作气爬上山顶. Register: neutral, auch im Gespräch üblich.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:一举两得:yi1ju3liang3de2",
     "word": "一举两得",
-    "pinyin": "yī jǔ liǎng dé",
+    "pinyin": "yījǔ-liǎngdé",
     "meaning": "zwei Fliegen mit einer Klappe schlagen",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -3043,8 +4346,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "学中文的同时还能了解中国文化，真是一举两得。",
-        "pinyin": "Xué zhōngwén de tóngshí hái néng liǎojiě zhōngguó wénhuà, zhēn shì yī jǔ liǎng dé.",
-        "german": "Beim Chinesischlernen gleichzeitig die chinesische Kultur kennenzulernen, das ist wirklich zwei Fliegen mit einer Klappe."
+        "pinyin": "Xué Zhōngwén de tóngshí hái néng liǎojiě Zhōngguó wénhuà, zhēn shì yìjǔ-liǎngdé.",
+        "german": "Beim Chinesischlernen lernt man gleichzeitig die chinesische Kultur kennen – zwei Fliegen mit einer Klappe."
+      },
+      {
+        "chinese": "骑自行车上班既省钱又锻炼身体，一举两得。",
+        "pinyin": "Qí zìxíngchē shàngbān jì shěng qián yòu duànliàn shēntǐ, yìjǔ-liǎngdé.",
+        "german": "Mit dem Fahrrad zur Arbeit zu fahren spart Geld und hält fit – doppelter Gewinn."
+      },
+      {
+        "chinese": "我想了一个一举两得的办法。",
+        "pinyin": "Wǒ xiǎng le yí ge yìjǔ-liǎngdé de bànfǎ.",
+        "german": "Mir ist eine Lösung eingefallen, mit der wir zwei Fliegen mit einer Klappe schlagen."
       }
     ],
     "legacyIds": [
@@ -3059,21 +4372,37 @@ window.CHENGYU_DATA = [
     "traditional": "一舉兩得",
     "evidence": {
       "cedict": "一舉兩得 一举两得 [yi1 ju3 liang3 de2]"
+    },
+    "notes": "一举两得 (yìjǔ-liǎngdé) heißt wörtlich „eine Handlung (一举), zwei Gewinne (两得)“; 得 wird hier dé gesprochen. Typisch sind 真是一举两得 als Kommentar am Satzende und attributiv 一举两得的办法. Der Ausdruck ist neutral und im Alltag sehr häufig. Gleichbedeutend ist 一箭双雕 (yíjiàn-shuāngdiāo), das eher nach geschickter Taktik klingt.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:一丝不苟:yi1si1bu4gou3",
     "word": "一丝不苟",
-    "pinyin": "yī sī bù gǒu",
-    "meaning": "aeusserst gewissenhaft; bis ins kleinste Detail genau",
+    "pinyin": "yīsī-bùgǒu",
+    "meaning": "äußerst gewissenhaft; peinlich genau",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Arbeit",
     "examples": [
       {
         "chinese": "他对工作一丝不苟，从不马虎。",
-        "pinyin": "Tā duì gōngzuò yī sī bù gǒu, cóng bù mǎhu.",
-        "german": "Er ist bei der Arbeit aeusserst gewissenhaft und nie schludrig."
+        "pinyin": "Tā duì gōngzuò yìsī-bùgǒu, cóngbù mǎhu.",
+        "german": "Er nimmt es bei der Arbeit äußerst genau und schludert nie."
+      },
+      {
+        "chinese": "老会计一丝不苟地核对每一笔账。",
+        "pinyin": "Lǎo kuàijì yìsī-bùgǒu de héduì měi yì bǐ zhàng.",
+        "german": "Der alte Buchhalter prüft jede einzelne Buchung peinlich genau."
+      },
+      {
+        "chinese": "他的头发总是梳得一丝不苟。",
+        "pinyin": "Tā de tóufa zǒngshì shū de yìsī-bùgǒu.",
+        "german": "Seine Haare sind immer akkurat gekämmt."
       }
     ],
     "legacyIds": [
@@ -3088,26 +4417,37 @@ window.CHENGYU_DATA = [
     "traditional": "一絲不苟",
     "evidence": {
       "cedict": "一絲不苟 一丝不苟 [yi1 si1 bu4 gou3]"
+    },
+    "notes": "一丝不苟 (yìsī-bùgǒu) heißt wörtlich „nicht einmal um einen Faden (一丝) nachlässig (苟)“. Es lobt vor allem die Haltung bei Arbeit und Studium: 对工作一丝不苟, 一丝不苟地检查, 一丝不苟的态度. Daneben beschreibt es auch ein akkurates Äußeres: 头发梳得一丝不苟. Das Gegenteil ist 马马虎虎 (mǎmǎhūhū) „schlampig“. Register: neutral bis gehoben, durchweg positiv.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:异想天开:yi4xiang3tian1kai1",
     "word": "异想天开",
-    "pinyin": "yì xiǎng tiān kāi",
-    "meaning": "voellig unrealistische Vorstellungen haben; Hirngespinste",
+    "pinyin": "yìxiǎng-tiānkāi",
+    "meaning": "auf abwegige Ideen kommen; Hirngespinste haben; utopisch",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Warnung",
     "examples": [
       {
         "chinese": "你想一个月学会中文？别异想天开了！",
-        "pinyin": "Nǐ xiǎng yī gè yuè xuéhuì zhōngwén? Bié yì xiǎng tiān kāi le!",
-        "german": "Du willst in einem Monat Chinesisch lernen? Hoer auf zu traeumen!"
+        "pinyin": "Nǐ xiǎng yí ge yuè xuéhuì Zhōngwén? Bié yìxiǎng-tiānkāi le!",
+        "german": "Du willst in einem Monat Chinesisch lernen? Träum weiter!"
       },
       {
-        "chinese": "别异想天开了，这不现实。",
-        "pinyin": "Bié yì xiǎng tiān kāi le, zhè bù xiànshí.",
-        "german": "Hör auf zu fantasieren, das ist unrealistisch."
+        "chinese": "小时候他异想天开，想造一架飞机飞到月亮上去。",
+        "pinyin": "Xiǎoshíhou tā yìxiǎng-tiānkāi, xiǎng zào yí jià fēijī fēidào yuèliang shang qù.",
+        "german": "Als Kind hatte er die verrückte Idee, ein Flugzeug zu bauen und damit zum Mond zu fliegen."
+      },
+      {
+        "chinese": "很多伟大的发明一开始都被人认为是异想天开。",
+        "pinyin": "Hěn duō wěidà de fāmíng yì kāishǐ dōu bèi rén rènwéi shì yìxiǎng-tiānkāi.",
+        "german": "Viele große Erfindungen wurden anfangs als Hirngespinst abgetan."
       }
     ],
     "legacyIds": [
@@ -3121,12 +4461,18 @@ window.CHENGYU_DATA = [
     "traditional": "異想天開",
     "evidence": {
       "cedict": "異想天開 异想天开 [yi4 xiang3 tian1 kai1]"
+    },
+    "notes": "异想天开 (yìxiǎng-tiānkāi) heißt wörtlich „seltsame Gedanken (异想), als ob sich der Himmel öffnet (天开)“. Meist kritisiert es völlig unrealistische Vorstellungen: 别异想天开了, 这简直是异想天开. Seltener klingt es anerkennend für kühne, kreative Ideen (异想天开的创意). Register: neutral, im Gespräch häufig.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:一心一意:yi1xin1yi1yi4",
     "word": "一心一意",
-    "pinyin": "yī xīn yī yì",
+    "pinyin": "yīxīn-yīyì",
     "meaning": "mit ganzem Herzen; hingebungsvoll",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -3134,8 +4480,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "她一心一意地照顾生病的母亲。",
-        "pinyin": "Tā yī xīn yī yì de zhàogù shēngbìng de mǔqīn.",
-        "german": "Sie kuemmert sich hingebungsvoll um ihre kranke Mutter."
+        "pinyin": "Tā yìxīn-yíyì de zhàogù shēngbìng de mǔqīn.",
+        "german": "Sie kümmert sich voller Hingabe um ihre kranke Mutter."
+      },
+      {
+        "chinese": "他一心一意想当医生。",
+        "pinyin": "Tā yìxīn-yíyì xiǎng dāng yīshēng.",
+        "german": "Er hat nur ein Ziel: Arzt zu werden."
+      },
+      {
+        "chinese": "他对妻子一心一意，从来没变过。",
+        "pinyin": "Tā duì qīzi yìxīn-yíyì, cónglái méi biànguo.",
+        "german": "Er ist seiner Frau treu ergeben und war es schon immer."
       }
     ],
     "legacyIds": [
@@ -3150,26 +4506,37 @@ window.CHENGYU_DATA = [
     "traditional": "一心一意",
     "evidence": {
       "cedict": "一心一意 一心一意 [yi1 xin1 yi1 yi4]"
+    },
+    "notes": "一心一意 (yìxīn-yíyì) heißt wörtlich „ein Herz, ein Sinn“ und beschreibt ungeteilte Hingabe an eine Sache oder Treue zu einem Menschen. Es steht meist adverbial: 一心一意地学习/工作/照顾, 一心一意想当医生; in der Liebe heißt 对…一心一意 „jemandem treu ergeben sein“. Das Gegenteil ist 三心二意 (sānxīn-èryì) „halbherzig, unentschlossen“. Gesprochen wird yìxīn-yíyì (一-Sandhi). Register: neutral.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:一针见血:yi1zhen1jian4xie3",
     "word": "一针见血",
-    "pinyin": "yī zhēn jiàn xiě",
-    "meaning": "mit einer Nadel Blut treffen; den Nagel auf den Kopf treffen",
+    "pinyin": "yīzhēn-jiànxiě",
+    "meaning": "den Nagel auf den Kopf treffen; treffsicher; den wunden Punkt treffen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Charakter",
     "examples": [
       {
         "chinese": "他的批评一针见血。",
-        "pinyin": "Tā de pīpíng yī zhēn jiàn xiě.",
+        "pinyin": "Tā de pīpíng yìzhēn-jiànxiě.",
         "german": "Seine Kritik trifft den Nagel auf den Kopf."
       },
       {
-        "chinese": "他的评论一针见血，说到了问题的关键。",
-        "pinyin": "Tā de pínglùn yī zhēn jiàn xiě, shuōdào le wèntí de guānjiàn.",
-        "german": "Sein Kommentar traf den Nagel auf den Kopf und benannte das Kernproblem."
+        "chinese": "老师一针见血地指出了我文章的问题。",
+        "pinyin": "Lǎoshī yìzhēn-jiànxiě de zhǐchū le wǒ wénzhāng de wèntí.",
+        "german": "Der Lehrer hat die Schwachstelle meines Aufsatzes treffsicher benannt."
+      },
+      {
+        "chinese": "你这句话说得真是一针见血。",
+        "pinyin": "Nǐ zhè jù huà shuō de zhēn shì yìzhēn-jiànxiě.",
+        "german": "Damit hast du wirklich den Nagel auf den Kopf getroffen."
       }
     ],
     "legacyIds": [
@@ -3184,12 +4551,18 @@ window.CHENGYU_DATA = [
     "traditional": "一針見血",
     "evidence": {
       "cedict": "一針見血 一针见血 [yi1 zhen1 jian4 xie3]"
+    },
+    "notes": "一针见血 (yìzhēn-jiànxiě) heißt wörtlich „mit dem ersten Nadelstich (一针) Blut sehen (见血)“; 血 wird hier xiě gesprochen (die umgangssprachliche Lesung), nicht xuè. Es lobt Kritik, Kommentare oder Analysen, die genau den Kern treffen: 一针见血地指出, 说得一针见血. Für den Betroffenen kann eine solche Bemerkung durchaus schmerzhaft sein. Register: neutral bis gehoben.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:有条不紊:you3tiao2bu4wen3",
     "word": "有条不紊",
-    "pinyin": "yǒu tiáo bù wěn",
+    "pinyin": "yǒutiáo-bùwěn",
     "meaning": "geordnet und systematisch; wohlorganisiert",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -3197,8 +4570,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "她把工作安排得有条不紊。",
-        "pinyin": "Tā bǎ gōngzuò ānpái de yǒu tiáo bù wěn.",
-        "german": "Sie hat die Arbeit wohlorganisiert eingeteilt."
+        "pinyin": "Tā bǎ gōngzuò ānpái de yǒutiáo-bùwěn.",
+        "german": "Sie hat ihre Arbeit sehr gut durchorganisiert."
+      },
+      {
+        "chinese": "虽然客人很多，服务员们还是有条不紊地工作着。",
+        "pinyin": "Suīrán kèrén hěn duō, fúwùyuánmen háishi yǒutiáo-bùwěn de gōngzuòzhe.",
+        "german": "Obwohl viele Gäste da waren, arbeiteten die Kellner ruhig und geordnet."
+      },
+      {
+        "chinese": "地震后，救援工作正在有条不紊地进行。",
+        "pinyin": "Dìzhèn hòu, jiùyuán gōngzuò zhèngzài yǒutiáo-bùwěn de jìnxíng.",
+        "german": "Nach dem Erdbeben laufen die Rettungsarbeiten planmäßig und geordnet."
       }
     ],
     "legacyIds": [
@@ -3212,21 +4595,37 @@ window.CHENGYU_DATA = [
     "traditional": "有條不紊",
     "evidence": {
       "cedict": "有條不紊 有条不紊 [you3 tiao2 bu4 wen3]"
+    },
+    "notes": "有条不紊 (yǒutiáo-bùwěn) heißt wörtlich „geordnet (有条) und nicht wirr (不紊)“; 紊 wird wěn gesprochen. Es beschreibt Abläufe und Arbeitsweisen: 有条不紊地进行/安排/处理, 安排得有条不紊. Für aufgeräumte Räume oder Dinge sagt man eher 井井有条 (jǐngjǐng-yǒutiáo). Der Ausdruck ist positiv und eher schriftsprachlich, aber auch im Gespräch verständlich.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:愚公移山:yu2gong1yi2shan1",
     "word": "愚公移山",
-    "pinyin": "yú gōng yí shān",
-    "meaning": "der alte Mann versetzt Berge; mit Ausdauer und Beharrlichkeit alles schaffen",
+    "pinyin": "yúgōng-yíshān",
+    "meaning": "der törichte Alte versetzt Berge; mit unbeirrbarer Ausdauer Unmögliches schaffen",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Geschichte",
     "examples": [
       {
         "chinese": "我们要有愚公移山的精神，不怕困难。",
-        "pinyin": "Wǒmen yào yǒu yú gōng yí shān de jīngshén, bù pà kùnnan.",
-        "german": "Wir muessen den Geist haben, der Berge versetzt, und duerfen keine Schwierigkeiten fuerchten."
+        "pinyin": "Wǒmen yào yǒu yúgōng-yíshān de jīngshén, bú pà kùnnan.",
+        "german": "Wir brauchen die Ausdauer des Alten, der Berge versetzte, und dürfen keine Schwierigkeit scheuen."
+      },
+      {
+        "chinese": "村民们用愚公移山的精神，花了十年在山上修出了一条路。",
+        "pinyin": "Cūnmínmen yòng yúgōng-yíshān de jīngshén, huā le shí nián zài shān shang xiūchū le yì tiáo lù.",
+        "german": "Mit unbeirrbarer Ausdauer bauten die Dorfbewohner zehn Jahre lang an einer Straße über den Berg, bis sie fertig war."
+      },
+      {
+        "chinese": "每天背十个单词，坚持三年，这也是一种愚公移山。",
+        "pinyin": "Měi tiān bèi shí ge dāncí, jiānchí sān nián, zhè yě shì yì zhǒng yúgōng-yíshān.",
+        "german": "Drei Jahre lang jeden Tag zehn Vokabeln zu lernen – auch so versetzt man Berge."
       }
     ],
     "legacyIds": [
@@ -3240,12 +4639,18 @@ window.CHENGYU_DATA = [
     "traditional": "愚公移山",
     "evidence": {
       "cedict": "愚公移山 愚公移山 [yu2 gong1 yi2 shan1]"
+    },
+    "notes": "愚公移山 (yúgōng-yíshān) geht auf eine Fabel aus dem Liezi zurück: Der „törichte Alte“ (愚公), fast neunzig Jahre alt, begann zwei Berge vor seinem Haus abzutragen; seine Nachkommen würden weitermachen. Gerührt von seiner Beharrlichkeit ließ der Himmelskaiser die Berge forttragen. Durch eine Rede Mao Zedongs wurde die Fabel sehr bekannt. Heute steht der Ausdruck meist in 愚公移山的精神 für unbeirrbare Ausdauer gegenüber riesigen Hindernissen. Register: gehoben.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:与时俱进:yu3shi2ju4jin4",
     "word": "与时俱进",
-    "pinyin": "yǔ shí jù jìn",
+    "pinyin": "yǔshí-jùjìn",
     "meaning": "mit der Zeit gehen; sich weiterentwickeln",
     "type": "Chengyu",
     "level": "HSK7-9",
@@ -3253,13 +4658,18 @@ window.CHENGYU_DATA = [
     "examples": [
       {
         "chinese": "我们要与时俱进，不断学习新知识。",
-        "pinyin": "Wǒmen yào yǔ shí jù jìn, bùduàn xuéxí xīn zhīshi.",
-        "german": "Wir muessen mit der Zeit gehen und staendig neues Wissen erwerben."
+        "pinyin": "Wǒmen yào yǔshí-jùjìn, búduàn xuéxí xīn zhīshi.",
+        "german": "Wir müssen mit der Zeit gehen und ständig Neues dazulernen."
       },
       {
-        "chinese": "企业要与时俱进，不断创新。",
-        "pinyin": "Qǐyè yào yǔ shí jù jìn, bùduàn chuàngxīn.",
-        "german": "Unternehmen müssen mit der Zeit gehen und ständig innovieren."
+        "chinese": "七十岁的奶奶也学会了用手机付款，真是与时俱进。",
+        "pinyin": "Qīshí suì de nǎinai yě xuéhuì le yòng shǒujī fùkuǎn, zhēn shì yǔshí-jùjìn.",
+        "german": "Sogar die siebzigjährige Oma hat gelernt, mit dem Handy zu bezahlen – sie geht wirklich mit der Zeit."
+      },
+      {
+        "chinese": "教材的内容也应该与时俱进。",
+        "pinyin": "Jiàocái de nèiróng yě yīnggāi yǔshí-jùjìn.",
+        "german": "Auch die Inhalte der Lehrbücher sollten mit der Zeit gehen."
       }
     ],
     "legacyIds": [
@@ -3273,31 +4683,37 @@ window.CHENGYU_DATA = [
     "traditional": "與時俱進",
     "evidence": {
       "cedict": "與時俱進 与时俱进 [yu3 shi2 ju4 jin4]"
+    },
+    "notes": "与时俱进 (yǔshí-jùjìn) heißt wörtlich „mit der Zeit (与时) gemeinsam (俱) vorangehen (进)“ und entspricht dem deutschen „mit der Zeit gehen“. Seit etwa 2000 ist es ein fester Begriff der offiziellen Sprache und in Politik, Wirtschaft und Bildung allgegenwärtig: 要与时俱进, 与时俱进的思想. Im Alltag sagt man es auch anerkennend oder scherzhaft über Menschen, die sich auf Neues einlassen, etwa ältere Leute mit neuer Technik.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:朝三暮四:zhao1san1mu4si4",
     "word": "朝三暮四",
-    "pinyin": "zhāo sān mù sì",
-    "meaning": "Morgens drei, abends vier (wankelmutig sein, staendig die Meinung aendern)",
+    "pinyin": "zhāosān-mùsì",
+    "meaning": "wankelmütig sein; ständig seine Meinung ändern; flatterhaft (in der Liebe)",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Geschichte",
     "examples": [
       {
         "chinese": "做事不能朝三暮四，要有恒心。",
-        "pinyin": "Zuòshì bù néng zhāo sān mù sì, yào yǒu héngxīn.",
-        "german": "Man darf nicht wankelmuetig sein, man braucht Bestaendigkeit."
+        "pinyin": "Zuòshì bù néng zhāosān-mùsì, yào yǒu héngxīn.",
+        "german": "Man darf nicht ständig hin und her schwanken, man braucht Ausdauer."
       },
       {
-        "chinese": "他交女朋友总是朝三暮四，没有一段关系持久。",
-        "pinyin": "Tā jiāo nǚ péngyǒu zǒng shì zhāo sān mù sì, méi yǒu yī duàn guānxì chíjiǔ.",
-        "german": "Bei Freundinnen ist er immer wankelmutig, keine Beziehung haelt lange."
+        "chinese": "他在感情上朝三暮四，没有一段恋爱超过半年。",
+        "pinyin": "Tā zài gǎnqíng shang zhāosān-mùsì, méiyǒu yí duàn liàn'ài chāoguò bàn nián.",
+        "german": "In der Liebe ist er flatterhaft – keine seiner Beziehungen hat länger als ein halbes Jahr gehalten."
       },
       {
-        "chinese": "做事不能朝三暮四, 要持之以恒。",
-        "pinyin": "Zuòshì bù néng zhāo sān mù sì, yào chí zhī yǐ héng.",
-        "german": "Man darf bei der Arbeit nicht wankelmütig sein, sondern muss beharrlich bleiben."
+        "chinese": "他今天想学画画，明天想学钢琴，总是朝三暮四。",
+        "pinyin": "Tā jīntiān xiǎng xué huàhuà, míngtiān xiǎng xué gāngqín, zǒngshì zhāosān-mùsì.",
+        "german": "Heute will er malen lernen, morgen Klavier – er kann sich einfach nicht festlegen."
       }
     ],
     "legacyIds": [
@@ -3311,21 +4727,37 @@ window.CHENGYU_DATA = [
     "traditional": "朝三暮四",
     "evidence": {
       "cedict": "朝三暮四 朝三暮四 [zhao1 san1 mu4 si4]"
+    },
+    "notes": "朝三暮四 (zhāosān-mùsì) heißt wörtlich „morgens (朝, hier zhāo) drei, abends (暮) vier“. Im Zhuangzi bietet ein Affenhalter seinen Affen morgens drei und abends vier Eicheln an; sie sind empört – bei vier am Morgen und drei am Abend sind sie zufrieden. Ursprünglich ging es also um Täuschung durch bloßes Umstellen; heute bedeutet der Ausdruck meist „unbeständig, wankelmütig“, besonders in Beziehungen. Er ist klar abwertend.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:争分夺秒:zheng1fen1duo2miao3",
     "word": "争分夺秒",
-    "pinyin": "zhēng fēn duó miǎo",
-    "meaning": "um jede Minute und Sekunde kaempfen; keine Zeit verschwenden",
+    "pinyin": "zhēngfēn-duómiǎo",
+    "meaning": "um jede Minute und Sekunde kämpfen; keine Sekunde verlieren; gegen die Zeit arbeiten",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Arbeit",
     "examples": [
       {
         "chinese": "医生争分夺秒地抢救病人。",
-        "pinyin": "Yīshēng zhēng fēn duó miǎo de qiǎngjiù bìngrén.",
-        "german": "Die Aerzte kaempften um jede Sekunde, um den Patienten zu retten."
+        "pinyin": "Yīshēng zhēngfēn-duómiǎo de qiǎngjiù bìngrén.",
+        "german": "Die Ärzte kämpften um jede Sekunde, um den Patienten zu retten."
+      },
+      {
+        "chinese": "离高考只有一个月了，同学们都在争分夺秒地复习。",
+        "pinyin": "Lí gāokǎo zhǐ yǒu yí ge yuè le, tóngxuémen dōu zài zhēngfēn-duómiǎo de fùxí.",
+        "german": "Bis zur Hochschulaufnahmeprüfung ist es nur noch ein Monat, und alle Schüler nutzen jede Minute zum Lernen."
+      },
+      {
+        "chinese": "他早上争分夺秒，五分钟就吃完了早饭。",
+        "pinyin": "Tā zǎoshang zhēngfēn-duómiǎo, wǔ fēnzhōng jiù chīwán le zǎofàn.",
+        "german": "Morgens zählt bei ihm jede Minute – in fünf Minuten ist er mit dem Frühstück fertig."
       }
     ],
     "legacyIds": [
@@ -3339,26 +4771,37 @@ window.CHENGYU_DATA = [
     "traditional": "爭分奪秒",
     "evidence": {
       "cedict": "爭分奪秒 争分夺秒 [zheng1 fen1 duo2 miao3]"
+    },
+    "notes": "争分夺秒 (zhēngfēn-duómiǎo) heißt wörtlich „um Minuten (分) ringen (争), Sekunden (秒) an sich reißen (夺)“. Es beschreibt Situationen, in denen jede Minute zählt: Rettungseinsätze, Bauarbeiten unter Zeitdruck, Prüfungsvorbereitung. Meist steht es adverbial mit 地: 争分夺秒地抢救/复习. Der Ausdruck ist neutral bis gehoben und häufig in Nachrichten; im Alltag kann er auch scherzhaft übertrieben klingen.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:知足常乐:zhi1zu2chang2le4",
     "word": "知足常乐",
-    "pinyin": "zhī zú cháng lè",
-    "meaning": "wer zufrieden ist, ist immer gluecklich",
+    "pinyin": "zhīzú-chánglè",
+    "meaning": "wer genügsam ist, ist zufrieden; Zufriedenheit macht glücklich",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Lebensweisheit",
     "examples": [
       {
         "chinese": "人要学会知足常乐，不要总是跟别人比较。",
-        "pinyin": "Rén yào xuéhuì zhī zú cháng lè, bù yào zǒng shì gēn biéren bǐjiào.",
-        "german": "Man sollte lernen, mit dem zufrieden zu sein, was man hat, und sich nicht staendig mit anderen vergleichen."
+        "pinyin": "Rén yào xuéhuì zhīzú-chánglè, búyào zǒngshì gēn biérén bǐjiào.",
+        "german": "Man sollte lernen, mit dem zufrieden zu sein, was man hat, statt sich ständig mit anderen zu vergleichen."
       },
       {
-        "chinese": "别总是和别人比较，知足常乐才是最重要的。",
-        "pinyin": "Bié zǒng shì hé biérén bǐjiào, zhī zú cháng lè cái shì zuì zhòngyào de.",
-        "german": "Vergleich dich nicht immer mit anderen, Zufriedenheit ist das Wichtigste."
+        "chinese": "我爷爷一辈子没什么钱，但他知足常乐，每天都笑呵呵的。",
+        "pinyin": "Wǒ yéye yíbèizi méi shénme qián, dàn tā zhīzú-chánglè, měi tiān dōu xiàohēhē de.",
+        "german": "Mein Opa hatte sein Leben lang nie viel Geld, aber er war genügsam und jeden Tag gut gelaunt."
+      },
+      {
+        "chinese": "年轻人还是要有追求，不能太早就知足常乐。",
+        "pinyin": "Niánqīngrén háishi yào yǒu zhuīqiú, bù néng tài zǎo jiù zhīzú-chánglè.",
+        "german": "Junge Leute sollten noch Ziele haben und sich nicht zu früh mit dem Erreichten zufriedengeben."
       }
     ],
     "legacyIds": [
@@ -3372,31 +4815,37 @@ window.CHENGYU_DATA = [
     "traditional": "知足常樂",
     "evidence": {
       "cedict": "知足常樂 知足常乐 [zhi1 zu2 chang2 le4]"
+    },
+    "notes": "知足常乐 (zhīzú-chánglè) heißt wörtlich „wer weiß, was genug ist (知足), ist stets froh (常乐)“; der Gedanke geht auf das Daodejing zurück. Es ist eine verbreitete Lebensweisheit und steht oft als Rat (要知足常乐) oder in 知足常乐的心态. Manchmal wird es kritisch gesehen, wenn Genügsamkeit in mangelnden Ehrgeiz übergeht. Register: neutral, im Alltag häufig.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:纸上谈兵:zhi3shang4tan2bing1",
     "word": "纸上谈兵",
-    "pinyin": "zhǐ shàng tán bīng",
-    "meaning": "Auf dem Papier ueber Kriege reden (nur theoretisch sein, ohne praktische Erfahrung)",
+    "pinyin": "zhǐshàng-tánbīng",
+    "meaning": "auf dem Papier Krieg führen; nur theoretisieren; graue Theorie",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Geschichte",
     "examples": [
       {
         "chinese": "光说不做是纸上谈兵，要动手实践才行。",
-        "pinyin": "Guāng shuō bù zuò shì zhǐ shàng tán bīng, yào dòngshǒu shíjiàn cái xíng.",
-        "german": "Nur reden ohne zu handeln ist bloss Theorie, man muss auch praktisch anpacken."
+        "pinyin": "Guāng shuō bú zuò shì zhǐshàng-tánbīng, yào dòngshǒu shíjiàn cái xíng.",
+        "german": "Nur zu reden, ohne zu handeln, ist graue Theorie – man muss selbst anpacken."
       },
       {
-        "chinese": "不要纸上谈兵，要付诸实践。",
-        "pinyin": "Bùyào zhǐ shàng tán bīng, yào fùzhū shíjiàn.",
-        "german": "Nicht nur theoretisieren, sondern in die Praxis umsetzen."
+        "chinese": "没有实际调查，这个计划只是纸上谈兵。",
+        "pinyin": "Méiyǒu shíjì diàochá, zhège jìhuà zhǐ shì zhǐshàng-tánbīng.",
+        "german": "Ohne Untersuchung vor Ort ist dieser Plan reine Theorie."
       },
       {
-        "chinese": "光纸上谈兵没有用，要实际行动。",
-        "pinyin": "Guāng zhǐ shàng tán bīng méiyǒu yòng, yào shíjì xíngdòng.",
-        "german": "Nur Theorie bringt nichts, man muss praktisch handeln."
+        "chinese": "他读了很多游泳的书，可是从来没下过水，这不就是纸上谈兵吗？",
+        "pinyin": "Tā dú le hěn duō yóuyǒng de shū, kěshì cónglái méi xiàguo shuǐ, zhè bú jiù shì zhǐshàng-tánbīng ma?",
+        "german": "Er hat viele Bücher übers Schwimmen gelesen, war aber noch nie im Wasser – ist das nicht reine Theorie?"
       }
     ],
     "legacyIds": [
@@ -3410,21 +4859,37 @@ window.CHENGYU_DATA = [
     "traditional": "紙上談兵",
     "evidence": {
       "cedict": "紙上談兵 纸上谈兵 [zhi3 shang4 tan2 bing1]"
+    },
+    "notes": "纸上谈兵 (zhǐshàng-tánbīng) heißt wörtlich „auf dem Papier (纸上) über Kriegsführung reden (谈兵)“. Es spielt auf den General Zhao Kuo (赵括) an, der alle Militärschriften kannte, aber 260 v. Chr. bei Changping eine verheerende Niederlage erlitt. Heute kritisiert man damit Pläne und Reden, die in der Praxis nichts taugen: 只是纸上谈兵, 不能纸上谈兵. Im Deutschen passen „graue Theorie“ oder „Sandkastenspiele“.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:自力更生:zi4li4geng1sheng1",
     "word": "自力更生",
-    "pinyin": "zì lì gēng shēng",
-    "meaning": "auf eigene Kraft bauen; sich selbst helfen",
+    "pinyin": "zìlì-gēngshēng",
+    "meaning": "aus eigener Kraft; auf eigenen Beinen stehen; Eigenständigkeit",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Charakter",
     "examples": [
       {
         "chinese": "他从小就学会了自力更生。",
-        "pinyin": "Tā cóng xiǎo jiù xuéhuì le zì lì gēng shēng.",
+        "pinyin": "Tā cóng xiǎo jiù xuéhuì le zìlì-gēngshēng.",
         "german": "Schon als Kind hat er gelernt, auf eigenen Beinen zu stehen."
+      },
+      {
+        "chinese": "大学毕业后，她不再要父母的钱，开始自力更生。",
+        "pinyin": "Dàxué bìyè hòu, tā bú zài yào fùmǔ de qián, kāishǐ zìlì-gēngshēng.",
+        "german": "Nach dem Studium nahm sie kein Geld mehr von den Eltern und stand auf eigenen Füßen."
+      },
+      {
+        "chinese": "那个时期，中国主要靠自力更生发展工业。",
+        "pinyin": "Nàge shíqī, Zhōngguó zhǔyào kào zìlì-gēngshēng fāzhǎn gōngyè.",
+        "german": "In jener Zeit baute China seine Industrie vor allem aus eigener Kraft auf."
       }
     ],
     "legacyIds": [
@@ -3438,31 +4903,37 @@ window.CHENGYU_DATA = [
     "traditional": "自力更生",
     "evidence": {
       "cedict": "自力更生 自力更生 [zi4 li4 geng1 sheng1]"
+    },
+    "notes": "自力更生 (zìlì-gēngshēng) heißt wörtlich „aus eigener Kraft (自力) neu aufleben (更生)“; 更 wird hier gēng gesprochen, nicht gèng. In der Mao-Zeit war es ein politisches Schlagwort für nationale Unabhängigkeit (独立自主，自力更生). Heute bezieht es sich auch auf Einzelne, die für sich selbst sorgen, statt auf Eltern oder Hilfe angewiesen zu sein: 学会自力更生, 靠自力更生. Register: neutral bis gehoben.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:自相矛盾:zi4xiang1mao2dun4",
     "word": "自相矛盾",
-    "pinyin": "zì xiāng máo dùn",
-    "meaning": "Sich selbst widersprechen (wie Speer und Schild)",
+    "pinyin": "zìxiāng-máodùn",
+    "meaning": "sich selbst widersprechen; widersprüchlich",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Warnung",
     "examples": [
       {
-        "chinese": "他的话前后自相矛盾，不可信。",
-        "pinyin": "Tā de huà qiánhòu zì xiāng máo dùn, bù kě xìn.",
-        "german": "Seine Aussagen widersprechen sich und sind nicht glaubwuerdig."
-      },
-      {
         "chinese": "他的话自相矛盾，刚才说去，现在又说不去。",
-        "pinyin": "Tā de huà zì xiāng máodùn, gāngcái shuō qù, xiànzài yòu shuō bù qù.",
-        "german": "Seine Worte widersprechen sich, eben sagte er, er geht, und jetzt sagt er, er geht nicht."
+        "pinyin": "Tā de huà zìxiāng-máodùn, gāngcái shuō qù, xiànzài yòu shuō bú qù.",
+        "german": "Er widerspricht sich: Eben sagte er noch, er geht hin, jetzt sagt er, er geht nicht."
       },
       {
-        "chinese": "他的说法前后自相矛盾。",
-        "pinyin": "Tā de shuōfǎ qiánhòu zì xiāng máodùn.",
-        "german": "Seine Aussagen widersprechen sich gegenseitig."
+        "chinese": "这份报告的数据自相矛盾，需要重新核对。",
+        "pinyin": "Zhè fèn bàogào de shùjù zìxiāng-máodùn, xūyào chóngxīn héduì.",
+        "german": "Die Zahlen in diesem Bericht widersprechen sich, sie müssen noch einmal überprüft werden."
+      },
+      {
+        "chinese": "你一边说要减肥，一边天天吃蛋糕，这不是自相矛盾吗？",
+        "pinyin": "Nǐ yìbiān shuō yào jiǎnféi, yìbiān tiāntiān chī dàngāo, zhè bú shì zìxiāng-máodùn ma?",
+        "german": "Du sagst, du willst abnehmen, und isst jeden Tag Kuchen – ist das nicht ein Widerspruch?"
       }
     ],
     "legacyIds": [
@@ -3477,21 +4948,37 @@ window.CHENGYU_DATA = [
     "traditional": "自相矛盾",
     "evidence": {
       "cedict": "自相矛盾 自相矛盾 [zi4 xiang1 mao2 dun4]"
+    },
+    "notes": "自相矛盾 (zìxiāng-máodùn) geht auf eine Geschichte des Han Feizi zurück: Ein Händler pries seine Speere (矛), die alles durchbohren, und seine Schilde (盾), die alles abwehren – auf die Frage, was passiert, wenn sein Speer seinen Schild trifft, wusste er keine Antwort. Daher stammt auch das Wort 矛盾 „Widerspruch“. Man sagt es von Aussagen, Argumenten und Verhalten: 说法自相矛盾, 前后自相矛盾. Register: neutral, sehr häufig.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:自以为是:zi4yi3wei2shi4",
     "word": "自以为是",
-    "pinyin": "zì yǐ wéi shì",
-    "meaning": "eingebildet sein; sich fuer unfehlbar halten",
+    "pinyin": "zìyǐ-wéishì",
+    "meaning": "sich für unfehlbar halten; selbstgerecht; besserwisserisch",
     "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Charakter",
     "examples": [
       {
         "chinese": "他太自以为是了，从来不听别人的意见。",
-        "pinyin": "Tā tài zì yǐ wéi shì le, cónglái bù tīng biéren de yìjiàn.",
-        "german": "Er ist zu eingebildet und hoert nie auf die Meinung anderer."
+        "pinyin": "Tā tài zìyǐ-wéishì le, cónglái bù tīng biérén de yìjiàn.",
+        "german": "Er hält sich für unfehlbar und hört nie auf die Meinung anderer."
+      },
+      {
+        "chinese": "别自以为是，先听听大家怎么说。",
+        "pinyin": "Bié zìyǐ-wéishì, xiān tīngting dàjiā zěnme shuō.",
+        "german": "Sei nicht so besserwisserisch, hör dir erst mal an, was die anderen sagen."
+      },
+      {
+        "chinese": "新经理有点自以为是，刚来就要改掉所有的规定。",
+        "pinyin": "Xīn jīnglǐ yǒudiǎn zìyǐ-wéishì, gāng lái jiù yào gǎidiào suǒyǒu de guīdìng.",
+        "german": "Der neue Manager ist etwas selbstherrlich – kaum da, will er schon alle Regeln abschaffen."
       }
     ],
     "legacyIds": [
@@ -3505,12 +4992,18 @@ window.CHENGYU_DATA = [
     "traditional": "自以為是",
     "evidence": {
       "cedict": "自以為是 自以为是 [zi4 yi3 wei2 shi4]"
+    },
+    "notes": "自以为是 (zìyǐ-wéishì) heißt wörtlich „sich selbst (自) für richtig (是) halten (以为)“; 是 bedeutet hier „richtig“, nicht „sein“. Es kritisiert Menschen, die nicht auf andere hören und ihre eigene Meinung für die einzig richtige halten: 太自以为是了, 自以为是的人/态度. Nicht verwechseln mit 自以为 + Aussage „sich einbilden“ (他自以为很聪明). Register: neutral, im Gespräch häufig.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:塞翁失马:sai4weng1shi1ma3",
     "word": "塞翁失马",
-    "pinyin": "sài wēng shī mǎ",
+    "pinyin": "sàiwēng-shīmǎ",
     "meaning": "Das Pferd des alten Mannes an der Grenze (ein Unglueck kann sich als Segen erweisen)",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -3538,7 +5031,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:入乡随俗:ru4xiang1sui2su2",
     "word": "入乡随俗",
-    "pinyin": "rù xiāng suí sú",
+    "pinyin": "rùxiāng-suísú",
     "meaning": "Andere Laender, andere Sitten (wortl.: Betritt man ein Land, folge man seinen Braeuchen)",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -3566,7 +5059,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:三思而行:san1si1er2xing2",
     "word": "三思而行",
-    "pinyin": "sān sī ér xíng",
+    "pinyin": "sānsī-érxíng",
     "meaning": "dreimal ueberlegen, bevor man handelt",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -3589,7 +5082,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:因小失大:yin1xiao3shi1da4",
     "word": "因小失大",
-    "pinyin": "yīn xiǎo shī dà",
+    "pinyin": "yīnxiǎo-shīdà",
     "meaning": "wegen einer Kleinigkeit Grosses verlieren",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -3612,7 +5105,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:未雨绸缪:wei4yu3chou2mou2",
     "word": "未雨绸缪",
-    "pinyin": "wèi yǔ chóu móu",
+    "pinyin": "wèiyǔ-chóumóu",
     "meaning": "Vorsorge treffen; sich rechtzeitig vorbereiten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -3640,7 +5133,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:物极必反:wu4ji2bi4fan3",
     "word": "物极必反",
-    "pinyin": "wù jí bì fǎn",
+    "pinyin": "wùjí-bìfǎn",
     "meaning": "wenn etwas sein Extrem erreicht, schlaegt es ins Gegenteil um",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -3663,7 +5156,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:前车之鉴:qian2che1zhi1jian4",
     "word": "前车之鉴",
-    "pinyin": "qián chē zhī jiàn",
+    "pinyin": "qiánchē-zhījiàn",
     "meaning": "aus den Fehlern anderer lernen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -3686,7 +5179,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:量力而行:liang4li4er2xing2",
     "word": "量力而行",
-    "pinyin": "liàng lì ér xíng",
+    "pinyin": "liànglì-érxíng",
     "meaning": "nach seinen Kraeften handeln; sich nicht uebernehmen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -3714,7 +5207,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:随遇而安:sui2yu4er2an1",
     "word": "随遇而安",
-    "pinyin": "suí yù ér ān",
+    "pinyin": "suíyù-ér’ān",
     "meaning": "sich den Umstaenden anpassen; nehmen, wie es kommt",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -3737,7 +5230,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:取长补短:qu3chang2bu3duan3",
     "word": "取长补短",
-    "pinyin": "qǔ cháng bǔ duǎn",
+    "pinyin": "qǔcháng-bǔduǎn",
     "meaning": "die Staerken nutzen, um die Schwaechen auszugleichen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -3760,7 +5253,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:一视同仁:yi1shi4tong2ren2",
     "word": "一视同仁",
-    "pinyin": "yīshì tóngrén",
+    "pinyin": "yīshì-tóngrén",
     "meaning": "alle gleich behandeln; ohne Ansehen der Person",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -3810,7 +5303,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:心直口快:xin1zhi2kou3kuai4",
     "word": "心直口快",
-    "pinyin": "xīn zhí kǒu kuài",
+    "pinyin": "xīnzhí-kǒukuài",
     "meaning": "aufrichtig und freimuetig; sagen, was man denkt",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -3833,7 +5326,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:落落大方:luo4luo4da4fang1",
     "word": "落落大方",
-    "pinyin": "luò luò dà fāng",
+    "pinyin": "luòluò-dàfāng",
     "meaning": "natuerlich und unbefangen; selbstsicher auftreten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -3884,7 +5377,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:斤斤计较:jin1jin1ji4jiao4",
     "word": "斤斤计较",
-    "pinyin": "jīn jīn jì jiào",
+    "pinyin": "jīnjīn-jìjiào",
     "meaning": "kleinlich sein; alles auf die Goldwaage legen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -3907,7 +5400,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:任劳任怨:ren4lao2ren4yuan4",
     "word": "任劳任怨",
-    "pinyin": "rèn láo rèn yuàn",
+    "pinyin": "rènláo-rènyuàn",
     "meaning": "Mühe und Tadel gleichermaßen ertragen, klaglos arbeiten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -3935,7 +5428,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:乐善好施:le4shan4hao4shi1",
     "word": "乐善好施",
-    "pinyin": "lè shàn hào shī",
+    "pinyin": "lèshàn-hàoshī",
     "meaning": "wohltaetig und grosszuegig; gerne Gutes tun",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -3958,7 +5451,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:固执己见:gu4zhi2ji3jian4",
     "word": "固执己见",
-    "pinyin": "gù zhí jǐ jiàn",
+    "pinyin": "gùzhí-jǐjiàn",
     "meaning": "starrsinnig an der eigenen Meinung festhalten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -3981,7 +5474,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:山清水秀:shan1qing1shui3xiu4",
     "word": "山清水秀",
-    "pinyin": "shān qīng shuǐ xiù",
+    "pinyin": "shānqīng-shuǐxiù",
     "meaning": "gruene Berge und klares Wasser; malerische Landschaft",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4004,7 +5497,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:鸟语花香:niao3yu3hua1xiang1",
     "word": "鸟语花香",
-    "pinyin": "niǎo yǔ huā xiāng",
+    "pinyin": "niǎoyǔ-huāxiāng",
     "meaning": "Vogelgezwitscher und Blumenduft; wunderbare Fruehlingsatmosphaere",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4027,7 +5520,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:万紫千红:wan4zi3qian1hong2",
     "word": "万紫千红",
-    "pinyin": "wàn zǐ qiān hóng",
+    "pinyin": "wànzǐ-qiānhóng",
     "meaning": "in tausend Farben bluehend; ueberaus bunt",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4050,7 +5543,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:翻山越岭:fan1shan1yue4ling3",
     "word": "翻山越岭",
-    "pinyin": "fān shān yuè lǐng",
+    "pinyin": "fānshān-yuèlǐng",
     "meaning": "ueber Berge und Huegel klettern; grosse Strapazen auf sich nehmen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4073,7 +5566,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:春暖花开:chun1nuan3hua1kai1",
     "word": "春暖花开",
-    "pinyin": "chūn nuǎn huā kāi",
+    "pinyin": "chūnnuǎn-huākāi",
     "meaning": "der Fruehling ist warm und die Blumen bluehen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4096,7 +5589,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:狂风暴雨:kuang2feng1bao4yu3",
     "word": "狂风暴雨",
-    "pinyin": "kuáng fēng bào yǔ",
+    "pinyin": "kuángfēng-bàoyǔ",
     "meaning": "heftiger Sturm und Regen; Unwetter",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4119,7 +5612,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:天翻地覆:tian1fan1di4fu4",
     "word": "天翻地覆",
-    "pinyin": "tiān fān dì fù",
+    "pinyin": "tiānfān-dìfù",
     "meaning": "himmelumstürzend; gewaltige Veraenderung",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4142,7 +5635,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:满山遍野:man3shan1bian4ye3",
     "word": "满山遍野",
-    "pinyin": "mǎn shān biàn yě",
+    "pinyin": "mǎnshān-biànyě",
     "meaning": "ueberall auf Bergen und Feldern; soweit das Auge reicht",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4165,7 +5658,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:功成名就:gong1cheng2ming2jiu4",
     "word": "功成名就",
-    "pinyin": "gōng chéng míng jiù",
+    "pinyin": "gōngchéng-míngjiù",
     "meaning": "Erfolg und Ruhm erlangt haben",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4188,7 +5681,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:马到成功:ma3dao4cheng2gong1",
     "word": "马到成功",
-    "pinyin": "mǎ dào chéng gōng",
+    "pinyin": "mǎdào-chénggōng",
     "meaning": "Sofortiger Erfolg (Das Pferd kommt und der Erfolg ist da)",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4211,7 +5704,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:名不虚传:ming2bu4xu1chuan2",
     "word": "名不虚传",
-    "pinyin": "míng bù xū chuán",
+    "pinyin": "míngbù-xūchuán",
     "meaning": "der Ruf ist nicht uebertrieben; haelt, was es verspricht",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4234,7 +5727,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:事半功倍:shi4ban4gong1bei4",
     "word": "事半功倍",
-    "pinyin": "shì bàn gōng bèi",
+    "pinyin": "shìbàn-gōngbèi",
     "meaning": "Halber Aufwand, doppeltes Ergebnis (effizient arbeiten)",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4267,7 +5760,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:出人头地:chu1ren2tou2di4",
     "word": "出人头地",
-    "pinyin": "chū rén tóu dì",
+    "pinyin": "chūrén-tóudì",
     "meaning": "sich hervortun; es zu etwas bringen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4290,7 +5783,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:名列前茅:ming2lie4qian2mao2",
     "word": "名列前茅",
-    "pinyin": "míng liè qián máo",
+    "pinyin": "míngliè-qiánmáo",
     "meaning": "unter den Besten sein; an der Spitze stehen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4313,7 +5806,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:百折不挠:bai3zhe2bu4nao2",
     "word": "百折不挠",
-    "pinyin": "bǎi zhé bù náo",
+    "pinyin": "bǎizhé-bùnáo",
     "meaning": "sich durch nichts entmutigen lassen; unbeugsam",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4341,7 +5834,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:大器晚成:da4qi4wan3cheng2",
     "word": "大器晚成",
-    "pinyin": "dà qì wǎn chéng",
+    "pinyin": "dàqì-wǎnchéng",
     "meaning": "grosse Talente brauchen Zeit zur Entfaltung; Spaetzuender",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4364,7 +5857,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:功亏一篑:gong1kui1yi1kui4",
     "word": "功亏一篑",
-    "pinyin": "gōng kuī yī kuì",
+    "pinyin": "gōngkuī-yīkuì",
     "meaning": "kurz vor dem Erfolg scheitern",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4393,7 +5886,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:白手起家:bai2shou3qi3jia1",
     "word": "白手起家",
-    "pinyin": "bái shǒu qǐ jiā",
+    "pinyin": "báishǒu-qǐjiā",
     "meaning": "aus dem Nichts etwas aufbauen; sich hocharbeiten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4416,7 +5909,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:心花怒放:xin1hua1nu4fang4",
     "word": "心花怒放",
-    "pinyin": "xīn huā nù fàng",
+    "pinyin": "xīnhuā-nùfàng",
     "meaning": "uebergluecklich sein; vor Freude strahlen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4439,7 +5932,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:心惊胆战:xin1jing1dan3zhan4",
     "word": "心惊胆战",
-    "pinyin": "xīn jīng dǎn zhàn",
+    "pinyin": "xīnjīng-dǎnzhàn",
     "meaning": "vor Angst zittern; entsetzt sein",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4462,7 +5955,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:忐忑不安:tan3te4bu4an1",
     "word": "忐忑不安",
-    "pinyin": "tǎn tè bù ān",
+    "pinyin": "tǎntè-bù’ān",
     "meaning": "unruhig und nervoes; ein mulmiges Gefuehl haben",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4485,7 +5978,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:怒气冲冲:nu4qi4chong1chong1",
     "word": "怒气冲冲",
-    "pinyin": "nù qì chōng chōng",
+    "pinyin": "nùqì-chōngchōng",
     "meaning": "wutentbrannt; vor Wut schaeumend",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4508,7 +6001,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:心满意足:xin1man3yi4zu2",
     "word": "心满意足",
-    "pinyin": "xīn mǎn yì zú",
+    "pinyin": "xīnmǎn-yìzú",
     "meaning": "vollkommen zufrieden und gluecklich",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4531,7 +6024,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:触目伤心:chu4mu4shang1xin1",
     "word": "触目伤心",
-    "pinyin": "chù mù shāng xīn",
+    "pinyin": "chùmù-shāngxīn",
     "meaning": "ein trauriger Anblick; das Gesehene schmerzt das Herz",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4554,7 +6047,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:刻骨铭心:ke4gu3ming2xin1",
     "word": "刻骨铭心",
-    "pinyin": "kè gǔ míng xīn",
+    "pinyin": "kègǔ-míngxīn",
     "meaning": "tief ins Herz eingeritzt; unvergesslich",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4583,7 +6076,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:各司其职:ge4si1qi2zhi2",
     "word": "各司其职",
-    "pinyin": "gè sī qí zhí",
+    "pinyin": "gèsī-qízhí",
     "meaning": "jeder erledigt seine Aufgabe; klare Aufgabenteilung",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4604,7 +6097,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:事倍功半:shi4bei4gong1ban4",
     "word": "事倍功半",
-    "pinyin": "shì bèi gōng bàn",
+    "pinyin": "shìbèi-gōngbàn",
     "meaning": "Doppelter Aufwand, halbes Ergebnis (ineffizient arbeiten)",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4632,7 +6125,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:手忙脚乱:shou3mang2jiao3luan4",
     "word": "手忙脚乱",
-    "pinyin": "shǒu máng jiǎo luàn",
+    "pinyin": "shǒumáng-jiǎoluàn",
     "meaning": "in hektische Betriebsamkeit verfallen; kopflos handeln",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4655,7 +6148,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:日夜兼程:ri4ye4jian1cheng2",
     "word": "日夜兼程",
-    "pinyin": "rì yè jiān chéng",
+    "pinyin": "rìyè-jiānchéng",
     "meaning": "Tag und Nacht unterwegs sein; rastlos arbeiten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4678,7 +6171,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:志同道合:zhi4tong2dao4he2",
     "word": "志同道合",
-    "pinyin": "zhì tóng dào hé",
+    "pinyin": "zhìtóng-dàohé",
     "meaning": "gleiche Ziele und Ideale haben; gleichgesinnt",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4706,7 +6199,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:情同手足:qing2tong2shou3zu2",
     "word": "情同手足",
-    "pinyin": "qíng tóng shǒu zú",
+    "pinyin": "qíngtóng-shǒuzú",
     "meaning": "eng wie Geschwister; innige Freundschaft",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4729,7 +6222,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:一见如故:yi1jian4ru2gu4",
     "word": "一见如故",
-    "pinyin": "yī jiàn rú gù",
+    "pinyin": "yījiàn-rúgù",
     "meaning": "sich beim ersten Treffen wie alte Bekannte fuehlen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4752,7 +6245,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:同甘共苦:tong2gan1gong4ku3",
     "word": "同甘共苦",
-    "pinyin": "tóng gān gòng kǔ",
+    "pinyin": "tónggān-gòngkǔ",
     "meaning": "Freud und Leid gemeinsam teilen; durch dick und duenn",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4775,7 +6268,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:患难之交:huan4nan4zhi1jiao1",
     "word": "患难之交",
-    "pinyin": "huàn nàn zhī jiāo",
+    "pinyin": "huànnàn-zhījiāo",
     "meaning": "Freund in der Not; Freundschaft, die in schweren Zeiten entstand",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4798,7 +6291,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:相敬如宾:xiang1jing4ru2bin1",
     "word": "相敬如宾",
-    "pinyin": "xiāng jìng rú bīn",
+    "pinyin": "xiāngjìng-rúbīn",
     "meaning": "sich gegenseitig achten wie Gaeste; harmonische Ehe",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4821,7 +6314,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:青梅竹马:qing1mei2zhu2ma3",
     "word": "青梅竹马",
-    "pinyin": "qīng méi zhú mǎ",
+    "pinyin": "qīngméi-zhúmǎ",
     "meaning": "Kindheitsfreunde; zusammen aufgewachsen (oft: Sandkastenliebe)",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4844,7 +6337,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:两肋插刀:liang3lei4cha1dao1",
     "word": "两肋插刀",
-    "pinyin": "liǎng lèi chā dāo",
+    "pinyin": "liǎnglèi-chādāo",
     "meaning": "fuer jemanden durchs Feuer gehen; bedingungslos helfen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4867,7 +6360,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:相濡以沫:xiang1ru2yi3mo4",
     "word": "相濡以沫",
-    "pinyin": "xiāng rú yǐ mò",
+    "pinyin": "xiāngrú-yǐmò",
     "meaning": "sich in der Not gegenseitig unterstuetzen (wie Fische, die sich gegenseitig befeuchten)",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4890,7 +6383,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:学以致用:xue2yi3zhi4yong4",
     "word": "学以致用",
-    "pinyin": "xué yǐ zhì yòng",
+    "pinyin": "xuéyǐ-zhìyòng",
     "meaning": "das Gelernte in die Praxis umsetzen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4918,7 +6411,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:温故知新:wen1gu4zhi1xin1",
     "word": "温故知新",
-    "pinyin": "wēn gù zhī xīn",
+    "pinyin": "wēngù-zhīxīn",
     "meaning": "beim Wiederholen von Altem Neues entdecken",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4946,7 +6439,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:融会贯通:rong2hui4guan4tong1",
     "word": "融会贯通",
-    "pinyin": "rónghuì guàntōng",
+    "pinyin": "rónghuì-guàntōng",
     "meaning": "alles zusammenfuegen und durchdringen; vollstaendig verstehen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4978,7 +6471,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:博览群书:bo2lan3qun2shu1",
     "word": "博览群书",
-    "pinyin": "bó lǎn qún shū",
+    "pinyin": "bólǎn-qúnshū",
     "meaning": "umfassend belesen sein; viele Buecher lesen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -4999,7 +6492,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:孜孜不倦:zi1zi1bu4juan4",
     "word": "孜孜不倦",
-    "pinyin": "zī zī bù juàn",
+    "pinyin": "zīzī-bùjuàn",
     "meaning": "unermüdlich lernen und arbeiten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5022,7 +6515,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:学无止境:xue2wu2zhi3jing4",
     "word": "学无止境",
-    "pinyin": "xué wú zhǐ jìng",
+    "pinyin": "xuéwú-zhǐjìng",
     "meaning": "Lernen kennt keine Grenzen; man lernt nie aus",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5050,7 +6543,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:囫囵吞枣:hu2lun2tun1zao3",
     "word": "囫囵吞枣",
-    "pinyin": "hú lún tūn zǎo",
+    "pinyin": "húlún-tūnzǎo",
     "meaning": "eine Dattel im Ganzen verschlucken; ohne Verstaendnis auswendig lernen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5073,7 +6566,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:勤能补拙:qin2neng2bu3zhuo1",
     "word": "勤能补拙",
-    "pinyin": "qín néng bǔ zhuō",
+    "pinyin": "qínnéng-bǔzhuō",
     "meaning": "Fleiss kann Talent ersetzen; Uebung macht den Meister",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5096,7 +6589,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:如饥似渴:ru2ji1si4ke3",
     "word": "如饥似渴",
-    "pinyin": "rú jī sì kě",
+    "pinyin": "rújī-sìkě",
     "meaning": "wie hungrig und durstig; wissbegierig; mit grossem Eifer",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5119,7 +6612,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:狐假虎威:hu2jia3hu3wei1",
     "word": "狐假虎威",
-    "pinyin": "hú jiǎ hǔ wēi",
+    "pinyin": "hújiǎ-hǔwēi",
     "meaning": "sich mit fremden Federn schmuecken; unter dem Deckmantel eines Maechtigeren drohen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5152,7 +6645,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:拔苗助长:ba2miao2zhu4zhang3",
     "word": "拔苗助长",
-    "pinyin": "bá miáo zhù zhǎng",
+    "pinyin": "bámiáo-zhùzhǎng",
     "meaning": "die Setzlinge herausziehen, um ihr Wachstum zu beschleunigen; durch Übereifer schaden",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5180,7 +6673,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:望梅止渴:wang4mei2zhi3ke3",
     "word": "望梅止渴",
-    "pinyin": "wàng méi zhǐ kě",
+    "pinyin": "wàngméi-zhǐkě",
     "meaning": "Durch den Anblick von Pflaumen den Durst stillen (sich mit Traeumen troesten)",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5208,7 +6701,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:叶公好龙:ye4gong1hao4long2",
     "word": "叶公好龙",
-    "pinyin": "yè gōng hào lóng",
+    "pinyin": "yègōng-hàolóng",
     "meaning": "wie Herr Ye, der Drachen liebte; etwas nur zum Schein moegen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5237,7 +6730,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:杯弓蛇影:bei1gong1she2ying3",
     "word": "杯弓蛇影",
-    "pinyin": "bēi gōng shé yǐng",
+    "pinyin": "bēigōng-shéyǐng",
     "meaning": "Den Schatten eines Bogens im Becher fuer eine Schlange halten (vor dem eigenen Schatten erschrecken)",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5265,7 +6758,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:打草惊蛇:da3cao3jing1she2",
     "word": "打草惊蛇",
-    "pinyin": "dǎ cǎo jīng shé",
+    "pinyin": "dǎcǎo-jīngshé",
     "meaning": "ins Gras schlagen und die Schlange aufschrecken; den Gegner unbeabsichtigt warnen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5288,7 +6781,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:卧薪尝胆:wo4xin1chang2dan3",
     "word": "卧薪尝胆",
-    "pinyin": "wò xīn cháng dǎn",
+    "pinyin": "wòxīn-chángdǎn",
     "meaning": "auf Reisig schlafen und Galle kosten; grosse Entbehrungen auf sich nehmen, um ein Ziel zu erreichen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5311,7 +6804,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:鹬蚌相争:yu4bang4xiang1zheng1",
     "word": "鹬蚌相争",
-    "pinyin": "yù bàng xiāng zhēng",
+    "pinyin": "yùbàng-xiāngzhēng",
     "meaning": "wenn Schnepfe und Muschel streiten, profitiert der Fischer; lachender Dritter",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5334,7 +6827,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:指鹿为马:zhi3lu4wei2ma3",
     "word": "指鹿为马",
-    "pinyin": "zhǐ lù wéi mǎ",
+    "pinyin": "zhǐlù-wéimǎ",
     "meaning": "auf einen Hirsch zeigen und behaupten, es sei ein Pferd; Schwarz fuer Weiss erklaeren",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5357,7 +6850,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:破釜沉舟:po4fu3chen2zhou1",
     "word": "破釜沉舟",
-    "pinyin": "pò fǔ chén zhōu",
+    "pinyin": "pòfǔ-chénzhōu",
     "meaning": "die Kessel zerbrechen und die Boote versenken; alle Bruecken abbrechen und aufs Ganze gehen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5390,7 +6883,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:完璧归赵:wan2bi4gui1zhao4",
     "word": "完璧归赵",
-    "pinyin": "wán bì guī zhào",
+    "pinyin": "wánbì-guīzhào",
     "meaning": "die Jade unbeschaedigt nach Zhao zurueckbringen; etwas unversehrt zurueckgeben",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5413,7 +6906,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:班门弄斧:ban1men2nong4fu3",
     "word": "班门弄斧",
-    "pinyin": "bān mén nòng fǔ",
+    "pinyin": "bānmén-nòngfǔ",
     "meaning": "vor Lu Bans Tuer mit der Axt angeben; vor einem Fachmann aufschneiden",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5451,7 +6944,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:鸡犬不宁:ji1quan3bu4ning2",
     "word": "鸡犬不宁",
-    "pinyin": "jī quǎn bù níng",
+    "pinyin": "jīquǎn-bùníng",
     "meaning": "selbst Huehner und Hunde finden keine Ruhe; voelliges Chaos",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5474,7 +6967,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:自食其果:zi4shi2qi2guo3",
     "word": "自食其果",
-    "pinyin": "zì shí qí guǒ",
+    "pinyin": "zìshí-qíguǒ",
     "meaning": "die Fruechte des eigenen Handelns ernten; die Konsequenzen tragen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5497,7 +6990,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:自作自受:zi4zuo4zi4shou4",
     "word": "自作自受",
-    "pinyin": "zì zuò zì shòu",
+    "pinyin": "zìzuò-zìshòu",
     "meaning": "selbst schuld; wer sich sein Bett macht, muss auch darin liegen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5520,7 +7013,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:玩火自焚:wan2huo3zi4fen2",
     "word": "玩火自焚",
-    "pinyin": "wán huǒ zì fén",
+    "pinyin": "wánhuǒ-zìfén",
     "meaning": "Wer mit dem Feuer spielt, verbrennt sich selbst",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5574,7 +7067,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:走马观花:zou3ma3guan1hua1",
     "word": "走马观花",
-    "pinyin": "zǒu mǎ guān huā",
+    "pinyin": "zǒumǎ-guānhuā",
     "meaning": "vom Pferd aus Blumen betrachten; nur oberflaechlich betrachten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5597,7 +7090,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:好高骛远:hao4gao1wu4yuan3",
     "word": "好高骛远",
-    "pinyin": "hào gāo wù yuǎn",
+    "pinyin": "hàogāo-wùyuǎn",
     "meaning": "nach Hoeherem streben, als man erreichen kann; unrealistische Ziele setzen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5620,7 +7113,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:画饼充饥:hua4bing3chong1ji1",
     "word": "画饼充饥",
-    "pinyin": "huà bǐng chōng jī",
+    "pinyin": "huàbǐng-chōngjī",
     "meaning": "Kuchen malen, um den Hunger zu stillen (sich mit leeren Versprechungen abspeisen)",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5648,7 +7141,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:盲人摸象:mang2ren2mo1xiang4",
     "word": "盲人摸象",
-    "pinyin": "máng rén mō xiàng",
+    "pinyin": "mángrén-mōxiàng",
     "meaning": "Blinde tasten einen Elefanten ab; voreilige Schlussfolgerungen aus begrenzter Sicht",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5671,7 +7164,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:弄巧成拙:nong4qiao3cheng2zhuo1",
     "word": "弄巧成拙",
-    "pinyin": "nòng qiǎo chéng zhuō",
+    "pinyin": "nòngqiǎo-chéngzhuō",
     "meaning": "sich mit Geschick selbst schaden; der Schuss geht nach hinten los",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5699,7 +7192,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:坐井观天:zuo4jing3guan1tian1",
     "word": "坐井观天",
-    "pinyin": "zuò jǐng guān tiān",
+    "pinyin": "zuòjǐng-guāntiān",
     "meaning": "vom Brunnen aus den Himmel betrachten; beschraenkte Weltsicht",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5722,7 +7215,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:杞人忧天:qi3ren2you1tian1",
     "word": "杞人忧天",
-    "pinyin": "qǐ rén yōu tiān",
+    "pinyin": "qǐrén-yōutiān",
     "meaning": "sich unnoetige Sorgen machen; Angst haben, der Himmel koennte einstuerzen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5755,7 +7248,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:以貌取人:yi3mao4qu3ren2",
     "word": "以貌取人",
-    "pinyin": "yǐ mào qǔ rén",
+    "pinyin": "yǐmào-qǔrén",
     "meaning": "Menschen nach dem Aeusseren beurteilen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5778,7 +7271,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:舍本逐末:she3ben3zhu2mo4",
     "word": "舍本逐末",
-    "pinyin": "shě běn zhú mò",
+    "pinyin": "shěběn-zhúmò",
     "meaning": "das Wesentliche aufgeben und dem Nebensaechlichen nachjagen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5857,7 +7350,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:熟能生巧:shu2neng2sheng1qiao3",
     "word": "熟能生巧",
-    "pinyin": "shú néng shēng qiǎo",
+    "pinyin": "shúnéng-shēngqiǎo",
     "meaning": "Uebung macht den Meister",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5962,7 +7455,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:当局者迷:dang1ju2zhe3mi2",
     "word": "当局者迷",
-    "pinyin": "dāng jú zhě mí",
+    "pinyin": "dāngjú-zhěmí",
     "meaning": "wer mitten drin steckt, sieht den Wald vor lauter Baeumen nicht",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -5983,7 +7476,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:不卑不亢:bu4bei1bu4kang4",
     "word": "不卑不亢",
-    "pinyin": "bù bēi bù kàng",
+    "pinyin": "bùbēi-bùkàng",
     "meaning": "weder unterwuerfig noch ueberheblich; selbstsicher auftreten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6006,7 +7499,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:言行一致:yan2xing2yi1zhi4",
     "word": "言行一致",
-    "pinyin": "yán xíng yī zhì",
+    "pinyin": "yánxíng-yīzhì",
     "meaning": "Worte und Taten stimmen ueberein; zu seinem Wort stehen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6034,7 +7527,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:表里如一:biao3li3ru2yi1",
     "word": "表里如一",
-    "pinyin": "biǎo lǐ rú yī",
+    "pinyin": "biǎolǐ-rúyī",
     "meaning": "aussen und innen sind gleich; aufrichtig und ehrlich",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6057,7 +7550,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:安分守己:an1fen4shou3ji3",
     "word": "安分守己",
-    "pinyin": "ān fèn shǒu jǐ",
+    "pinyin": "ānfèn-shǒujǐ",
     "meaning": "brav und pflichtbewusst; sich an Regeln halten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6080,7 +7573,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:风吹草动:feng1chui1cao3dong4",
     "word": "风吹草动",
-    "pinyin": "fēng chuī cǎo dòng",
+    "pinyin": "fēngchuī-cǎodòng",
     "meaning": "wenn der Wind weht, bewegt sich das Gras; kleinste Anzeichen von Unruhe",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6103,7 +7596,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:雪中送炭:xue3zhong1song4tan4",
     "word": "雪中送炭",
-    "pinyin": "xuě zhōng sòng tàn",
+    "pinyin": "xuězhōng-sòngtàn",
     "meaning": "im Schnee Kohlen schicken; in der Not helfen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6131,7 +7624,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:望洋兴叹:wang4yang2xing1tan4",
     "word": "望洋兴叹",
-    "pinyin": "wàng yáng xīng tàn",
+    "pinyin": "wàngyáng-xīngtàn",
     "meaning": "aufs Meer schauen und seufzen; vor einer uebermaechtigen Aufgabe stehen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6154,7 +7647,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:落花流水:luo4hua1liu2shui3",
     "word": "落花流水",
-    "pinyin": "luò huā liú shuǐ",
+    "pinyin": "luòhuā-liúshuǐ",
     "meaning": "fallende Blumen und fliessendes Wasser; eine vernichtende Niederlage",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6177,7 +7670,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:旗开得胜:qi2kai1de2sheng4",
     "word": "旗开得胜",
-    "pinyin": "qí kāi dé shèng",
+    "pinyin": "qíkāi-déshèng",
     "meaning": "von Anfang an siegen; einen guten Start haben",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6200,7 +7693,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:势不可挡:shi4bu4ke3dang3",
     "word": "势不可挡",
-    "pinyin": "shìbùkědǎng",
+    "pinyin": "shìbù-kědǎng",
     "meaning": "unaufhaltsam; nicht aufzuhalten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6224,7 +7717,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:后来居上:hou4lai2ju1shang4",
     "word": "后来居上",
-    "pinyin": "hòu lái jū shàng",
+    "pinyin": "hòulái-jūshàng",
     "meaning": "der Spaetere ueberholt die Frueheren; von hinten aufrücken",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6247,7 +7740,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:一鸣惊人:yi1ming2jing1ren2",
     "word": "一鸣惊人",
-    "pinyin": "yī míng jīng rén",
+    "pinyin": "yīmíng-jīngrén",
     "meaning": "mit einem Schlag alle ueberraschen; ploetzlich glaenzen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6270,7 +7763,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:独占鳌头:du2zhan4ao2tou2",
     "word": "独占鳌头",
-    "pinyin": "dú zhàn áo tóu",
+    "pinyin": "dúzhàn-áotóu",
     "meaning": "den ersten Platz belegen; die Spitze einnehmen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6293,7 +7786,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:心不在焉:xin1bu4zai4yan1",
     "word": "心不在焉",
-    "pinyin": "xīn bù zài yān",
+    "pinyin": "xīnbù-zàiyān",
     "meaning": "geistesabwesend; unaufmerksam; mit den Gedanken woanders",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6316,7 +7809,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:乐不思蜀:le4bu4si1shu3",
     "word": "乐不思蜀",
-    "pinyin": "lè bù sī shǔ",
+    "pinyin": "lèbù-sīshǔ",
     "meaning": "so gluecklich sein, dass man die Heimat vergisst; sich pudelwohl fuehlen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6339,7 +7832,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:泪流满面:lei4liu2man3mian4",
     "word": "泪流满面",
-    "pinyin": "lèi liú mǎn miàn",
+    "pinyin": "lèiliú-mǎnmiàn",
     "meaning": "Traenen laufen uebers ganze Gesicht; in Traenen aufgeloest",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6362,7 +7855,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:悲喜交加:bei1xi3jiao1jia1",
     "word": "悲喜交加",
-    "pinyin": "bēi xǐ jiāo jiā",
+    "pinyin": "bēixǐ-jiāojiā",
     "meaning": "Freude und Trauer zugleich; gemischte Gefuehle",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6383,7 +7876,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:痛不欲生:tong4bu4yu4sheng1",
     "word": "痛不欲生",
-    "pinyin": "tòng bù yù shēng",
+    "pinyin": "tòngbù-yùshēng",
     "meaning": "so schmerzerfuellt, dass man nicht mehr leben moechte; untroestlich",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6406,7 +7899,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:独当一面:du2dang1yi1mian4",
     "word": "独当一面",
-    "pinyin": "dú dāng yī miàn",
+    "pinyin": "dúdāng-yīmiàn",
     "meaning": "ein Aufgabengebiet eigenstaendig leiten; auf eigenen Beinen stehen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6429,7 +7922,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:分工合作:fen1gong1he2zuo4",
     "word": "分工合作",
-    "pinyin": "fēn gōng hé zuò",
+    "pinyin": "fēngōng-hézuò",
     "meaning": "Arbeitsteilung und Zusammenarbeit",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6450,7 +7943,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:游刃有余:you2ren4you3yu2",
     "word": "游刃有余",
-    "pinyin": "yóu rèn yǒu yú",
+    "pinyin": "yóurèn-yǒuyú",
     "meaning": "das Messer gleitet muehelos; etwas mit Leichtigkeit meistern",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6473,7 +7966,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:心心相印:xin1xin1xiang1yin4",
     "word": "心心相印",
-    "pinyin": "xīn xīn xiāng yìn",
+    "pinyin": "xīnxīn-xiāngyìn",
     "meaning": "Herzen, die fuereinander schlagen; sich ohne Worte verstehen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6496,7 +7989,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:背道而驰:bei4dao4er2chi2",
     "word": "背道而驰",
-    "pinyin": "bèi dào ér chí",
+    "pinyin": "bèidào-érchí",
     "meaning": "in die entgegengesetzte Richtung laufen; voellig entgegengesetzt",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6519,7 +8012,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:推心置腹:tui1xin1zhi4fu4",
     "word": "推心置腹",
-    "pinyin": "tuī xīn zhì fù",
+    "pinyin": "tuīxīn-zhìfù",
     "meaning": "offen und ehrlich miteinander reden; sein Herz ausschuetten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6542,7 +8035,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:触类旁通:chu4lei4pang2tong1",
     "word": "触类旁通",
-    "pinyin": "chù lèi páng tōng",
+    "pinyin": "chùlèi-pángtōng",
     "meaning": "von einem Fall auf aehnliche schliessen; Zusammenhaenge erkennen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6575,7 +8068,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:不懂装懂:bu4dong3zhuang1dong3",
     "word": "不懂装懂",
-    "pinyin": "bù dǒng zhuāng dǒng",
+    "pinyin": "bùdǒng-zhuāngdǒng",
     "meaning": "so tun, als ob man etwas versteht; Unwissenheit verbergen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6598,7 +8091,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:死记硬背:si3ji4ying4bei4",
     "word": "死记硬背",
-    "pinyin": "sǐ jì yìng bèi",
+    "pinyin": "sǐjì-yìngbèi",
     "meaning": "stumpf auswendig lernen; pauken ohne Verstaendnis",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6621,7 +8114,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:四面楚歌:si4mian4chu3ge1",
     "word": "四面楚歌",
-    "pinyin": "sì miàn chǔ gē",
+    "pinyin": "sìmiàn-chǔgē",
     "meaning": "Von allen Seiten hoert man Chu-Lieder (von allen Seiten umzingelt sein)",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6649,7 +8142,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:三顾茅庐:san1gu4mao2lu2",
     "word": "三顾茅庐",
-    "pinyin": "sān gù máo lú",
+    "pinyin": "sāngù-máolú",
     "meaning": "dreimal die strohgedeckte Huette besuchen; jemanden beharrlich um Hilfe bitten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6672,7 +8165,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:负荆请罪:fu4jing1qing3zui4",
     "word": "负荆请罪",
-    "pinyin": "fù jīng qǐng zuì",
+    "pinyin": "fùjīng-qǐngzuì",
     "meaning": "mit Dornen auf dem Ruecken um Verzeihung bitten; reumuetig um Entschuldigung bitten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6695,7 +8188,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:东施效颦:dong1shi1xiao4pin2",
     "word": "东施效颦",
-    "pinyin": "dōng shī xiào pín",
+    "pinyin": "dōngshī-xiàopín",
     "meaning": "die haessliche Dong Shi ahmt die schoene Xi Shi nach; unbeholfene Nachahmung",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6718,7 +8211,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:本末倒置:ben3mo4dao4zhi4",
     "word": "本末倒置",
-    "pinyin": "běn mò dào zhì",
+    "pinyin": "běnmò-dàozhì",
     "meaning": "Haupt- und Nebensache verwechseln; die Prioritaeten falsch setzen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6747,7 +8240,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:鱼目混珠:yu2mu4hun4zhu1",
     "word": "鱼目混珠",
-    "pinyin": "yú mù hùn zhū",
+    "pinyin": "yúmù-hùnzhū",
     "meaning": "Fischaugen fuer Perlen ausgeben; Faelschungen unterschieben",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6770,7 +8263,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:一意孤行:yi1yi4gu1xing2",
     "word": "一意孤行",
-    "pinyin": "yī yì gū xíng",
+    "pinyin": "yīyì-gūxíng",
     "meaning": "eigensinnig seinen Weg gehen; unbeirrt auf dem eigenen Standpunkt beharren",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6793,7 +8286,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:饮鸩止渴:yin3zhen4zhi3ke3",
     "word": "饮鸩止渴",
-    "pinyin": "yǐn zhèn zhǐ kě",
+    "pinyin": "yǐnzhèn-zhǐkě",
     "meaning": "Gift trinken, um den Durst zu loeschen; kurzfristige Loesung mit langfristigem Schaden",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6816,7 +8309,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:如虎添翼:ru2hu3tian1yi4",
     "word": "如虎添翼",
-    "pinyin": "rú hǔ tiān yì",
+    "pinyin": "rúhǔ-tiānyì",
     "meaning": "wie ein Tiger mit Fluegeln; noch maechtigere Unterstuetzung bekommen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6844,7 +8337,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:无中生有:wu2zhong1sheng1you3",
     "word": "无中生有",
-    "pinyin": "wú zhōng shēng yǒu",
+    "pinyin": "wúzhōng-shēngyǒu",
     "meaning": "aus dem Nichts etwas erschaffen; etwas erfinden/erlügen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6867,7 +8360,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:天衣无缝:tian1yi1wu2feng4",
     "word": "天衣无缝",
-    "pinyin": "tiān yī wú fèng",
+    "pinyin": "tiānyī-wúfèng",
     "meaning": "nahtlos wie ein himmlisches Gewand; makellos und lueckenlos",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6895,7 +8388,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:一落千丈:yi1luo4qian1zhang4",
     "word": "一落千丈",
-    "pinyin": "yī luò qiān zhàng",
+    "pinyin": "yīluò-qiānzhàng",
     "meaning": "auf einen Schlag tief fallen; ein rapider Absturz",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6947,7 +8440,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:千载难逢:qian1zai3nan2feng2",
     "word": "千载难逢",
-    "pinyin": "qiān zǎi nán féng",
+    "pinyin": "qiānzǎi-nánféng",
     "meaning": "eine einmalige Gelegenheit; kommt nur alle tausend Jahre vor",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -6970,7 +8463,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:安居乐业:an1ju1le4ye4",
     "word": "安居乐业",
-    "pinyin": "ān jū lè yè",
+    "pinyin": "ānjū-lèyè",
     "meaning": "in Frieden leben und gluecklich arbeiten; ein zufriedenes Leben fuehren",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7004,7 +8497,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:左右为难:zuo3you4wei2nan2",
     "word": "左右为难",
-    "pinyin": "zuǒ yòu wéi nán",
+    "pinyin": "zuǒyòu-wéinán",
     "meaning": "in einer Zwickmuehle stecken; sich nicht entscheiden koennen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7027,7 +8520,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:适可而止:shi4ke3er2zhi3",
     "word": "适可而止",
-    "pinyin": "shì kě ér zhǐ",
+    "pinyin": "shìkě-érzhǐ",
     "meaning": "wissen, wann man aufhoeren muss; das rechte Mass halten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7055,7 +8548,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:捷足先登:jie2zu2xian1deng1",
     "word": "捷足先登",
-    "pinyin": "jié zú xiān dēng",
+    "pinyin": "jiézú-xiāndēng",
     "meaning": "wer schnelle Fuesse hat, kommt zuerst an; der Schnellere gewinnt",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7078,7 +8571,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:眼花缭乱:yan3hua1liao2luan4",
     "word": "眼花缭乱",
-    "pinyin": "yǎn huā liáo luàn",
+    "pinyin": "yǎnhuā-liáoluàn",
     "meaning": "die Augen koennen nicht folgen; ueberwael­tigt von der Auswahl",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7101,7 +8594,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:心甘情愿:xin1gan1qing2yuan4",
     "word": "心甘情愿",
-    "pinyin": "xīn gān qíng yuàn",
+    "pinyin": "xīngān-qíngyuàn",
     "meaning": "aus freien Stuecken; von Herzen bereit",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7124,7 +8617,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:若无其事:ruo4wu2qi2shi4",
     "word": "若无其事",
-    "pinyin": "ruò wú qí shì",
+    "pinyin": "ruòwú-qíshì",
     "meaning": "so tun, als waere nichts geschehen; betont gleichgueltig",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7153,7 +8646,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:寸步不离:cun4bu4bu4li2",
     "word": "寸步不离",
-    "pinyin": "cùn bù bù lí",
+    "pinyin": "cùnbù-bùlí",
     "meaning": "keinen Schritt von der Seite weichen; staendig begleiten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7176,7 +8669,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:不择手段:bu4ze2shou3duan4",
     "word": "不择手段",
-    "pinyin": "bù zé shǒu duàn",
+    "pinyin": "bùzé-shǒuduàn",
     "meaning": "vor keinem Mittel zurueckschrecken; skrupellos",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7199,7 +8692,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:感同身受:gan3tong2shen1shou4",
     "word": "感同身受",
-    "pinyin": "gǎn tóng shēn shòu",
+    "pinyin": "gǎntóng-shēnshòu",
     "meaning": "mitfuehlen; nachempfinden koennen; Empathie zeigen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7233,7 +8726,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:匠心独运:jiang4xin1du2yun4",
     "word": "匠心独运",
-    "pinyin": "jiàng xīn dú yùn",
+    "pinyin": "jiàngxīn-dúyùn",
     "meaning": "mit meisterhafter Kreativitaet; einzigartiges handwerkliches Geschick",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7261,7 +8754,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:一蹴而就:yi1cu4er2jiu4",
     "word": "一蹴而就",
-    "pinyin": "yī cù ér jiù",
+    "pinyin": "yīcù-érjiù",
     "meaning": "mit einem einzigen Schritt erreichen; auf Anhieb gelingen (oft verneint)",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7284,7 +8777,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:开门见山:kai1men2jian4shan1",
     "word": "开门见山",
-    "pinyin": "kāi mén jiàn shān",
+    "pinyin": "kāimén-jiànshān",
     "meaning": "die Tuer oeffnen und den Berg sehen; direkt zur Sache kommen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7307,7 +8800,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:卧虎藏龙:wo4hu3cang2long2",
     "word": "卧虎藏龙",
-    "pinyin": "wò hǔ cáng lóng",
+    "pinyin": "wòhǔ-cánglóng",
     "meaning": "verborgener Tiger, versteckter Drache; verborgene Talente",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7330,7 +8823,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:声东击西:sheng1dong1ji1xi1",
     "word": "声东击西",
-    "pinyin": "shēng dōng jī xī",
+    "pinyin": "shēngdōng-jīxī",
     "meaning": "im Osten laermen und im Westen angreifen; Ablenkungsmanoever",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7358,7 +8851,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:一波三折:yi1bo1san1zhe2",
     "word": "一波三折",
-    "pinyin": "yī bō sān zhé",
+    "pinyin": "yībō-sānzhé",
     "meaning": "eine Welle mit drei Wendungen; Komplikationen und Rueckschlaege",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7402,7 +8895,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:知己知彼:zhi1ji3zhi1bi3",
     "word": "知己知彼",
-    "pinyin": "zhī jǐ zhī bǐ",
+    "pinyin": "zhījǐ-zhībǐ",
     "meaning": "sich selbst und den Gegner kennen; gute Vorbereitung",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7425,7 +8918,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:物以类聚:wu4yi3lei4ju4",
     "word": "物以类聚",
-    "pinyin": "wù yǐ lèi jù",
+    "pinyin": "wùyǐ-lèijù",
     "meaning": "Gleich und Gleich gesellt sich gern",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7448,7 +8941,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:海阔天空:hai3kuo4tian1kong1",
     "word": "海阔天空",
-    "pinyin": "hǎi kuò tiān kōng",
+    "pinyin": "hǎikuò-tiānkōng",
     "meaning": "weites Meer und offener Himmel; grenzenlos und frei",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7471,7 +8964,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:吃苦耐劳:chi1ku3nai4lao2",
     "word": "吃苦耐劳",
-    "pinyin": "chī kǔ nài láo",
+    "pinyin": "chīkǔ-nàiláo",
     "meaning": "Muehen und Strapazen ertragen koennen; hart im Nehmen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7494,7 +8987,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:兼听则明:jian1ting1ze2ming2",
     "word": "兼听则明",
-    "pinyin": "jiān tīng zé míng",
+    "pinyin": "jiāntīng-zémíng",
     "meaning": "wer beide Seiten hoert, urteilt weise",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7515,7 +9008,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:百年树人:bai3nian2shu4ren2",
     "word": "百年树人",
-    "pinyin": "bǎi nián shù rén",
+    "pinyin": "bǎinián-shùrén",
     "meaning": "hundert Jahre, um Menschen heranzubilden; Bildung braucht Geduld",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7538,7 +9031,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:一言难尽:yi1yan2nan2jin4",
     "word": "一言难尽",
-    "pinyin": "yī yán nán jìn",
+    "pinyin": "yīyán-nánjìn",
     "meaning": "mit einem Wort nicht zu erklaeren; eine lange Geschichte",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7561,7 +9054,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:审时度势:shen3shi2duo2shi4",
     "word": "审时度势",
-    "pinyin": "shěn shí duó shì",
+    "pinyin": "shěnshí-duóshì",
     "meaning": "die Lage sorgfaeltig einschaetzen; die Zeichen der Zeit lesen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7589,7 +9082,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:饮水思源:yin3shui3si1yuan2",
     "word": "饮水思源",
-    "pinyin": "yǐn shuǐ sī yuán",
+    "pinyin": "yǐnshuǐ-sīyuán",
     "meaning": "beim Trinken an die Quelle denken; dankbar sein",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7612,7 +9105,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:实至名归:shi2zhi4ming2gui1",
     "word": "实至名归",
-    "pinyin": "shí zhì míng guī",
+    "pinyin": "shízhì-míngguī",
     "meaning": "verdiente Anerkennung; der Erfolg kommt zu dem, der es verdient",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7635,7 +9128,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:居高临下:ju1gao1lin2xia4",
     "word": "居高临下",
-    "pinyin": "jū gāo lín xià",
+    "pinyin": "jūgāo-línxià",
     "meaning": "von oben herab; eine ueberlegene Position einnehmen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7658,7 +9151,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:百感交集:bai3gan3jiao1ji2",
     "word": "百感交集",
-    "pinyin": "bǎi gǎn jiāo jí",
+    "pinyin": "bǎigǎn-jiāojí",
     "meaning": "hundert Gefuehle durcheinander; von Emotionen uebermannt",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7687,7 +9180,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:刚正不阿:gang1zheng4bu4e1",
     "word": "刚正不阿",
-    "pinyin": "gāng zhèng bù ē",
+    "pinyin": "gāngzhèng-bù’ē",
     "meaning": "aufrecht und unbeugsam; integer",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7710,7 +9203,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:虚怀若谷:xu1huai2ruo4gu3",
     "word": "虚怀若谷",
-    "pinyin": "xū huái ruò gǔ",
+    "pinyin": "xūhuái-ruògǔ",
     "meaning": "bescheiden wie ein leeres Tal; aufgeschlossen und demuetig",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7733,7 +9226,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:德高望重:de2gao1wang4zhong4",
     "word": "德高望重",
-    "pinyin": "dé gāo wàng zhòng",
+    "pinyin": "dégāo-wàngzhòng",
     "meaning": "von hoher Tugend und grossem Ansehen; hoch angesehen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7756,7 +9249,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:口是心非:kou3shi4xin1fei1",
     "word": "口是心非",
-    "pinyin": "kǒu shì xīn fēi",
+    "pinyin": "kǒushì-xīnfēi",
     "meaning": "der Mund sagt ja, das Herz meint nein; heuchlerisch",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7779,7 +9272,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:厚颜无耻:hou4yan2wu2chi3",
     "word": "厚颜无耻",
-    "pinyin": "hòu yán wú chǐ",
+    "pinyin": "hòuyán-wúchǐ",
     "meaning": "dickhaeuetig und schamlos; unverschaemt",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7802,7 +9295,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:忍辱负重:ren3ru3fu4zhong4",
     "word": "忍辱负重",
-    "pinyin": "rěn rǔ fù zhòng",
+    "pinyin": "rěnrǔ-fùzhòng",
     "meaning": "Schmach ertragen und schwere Last tragen; grosse Geduld zeigen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7836,7 +9329,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:平易近人:ping2yi4jin4ren2",
     "word": "平易近人",
-    "pinyin": "píng yì jìn rén",
+    "pinyin": "píngyì-jìnrén",
     "meaning": "freundlich und zugaenglich; nahbar",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7859,7 +9352,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:胆大心细:dan3da4xin1xi4",
     "word": "胆大心细",
-    "pinyin": "dǎn dà xīn xì",
+    "pinyin": "dǎndà-xīnxì",
     "meaning": "mutig und doch umsichtig; kuehn aber sorgfaeltig",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7880,7 +9373,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:助人为乐:zhu4ren2wei2le4",
     "word": "助人为乐",
-    "pinyin": "zhù rén wéi lè",
+    "pinyin": "zhùrén-wéilè",
     "meaning": "anderen zu helfen als Freude betrachten; hilfsbereit",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7903,7 +9396,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:心胸开阔:xin1xiong1kai1kuo4",
     "word": "心胸开阔",
-    "pinyin": "xīn xiōng kāi kuò",
+    "pinyin": "xīnxiōng-kāikuò",
     "meaning": "ein weites Herz haben; grosszuegig und aufgeschlossen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7926,7 +9419,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:恃强凌弱:shi4qiang2ling2ruo4",
     "word": "恃强凌弱",
-    "pinyin": "shì qiáng líng ruò",
+    "pinyin": "shìqiáng-língruò",
     "meaning": "die eigene Staerke ausnutzen, um Schwaechere zu schikanieren",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7949,7 +9442,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:临危不惧:lin2wei1bu4ju4",
     "word": "临危不惧",
-    "pinyin": "lín wēi bù jù",
+    "pinyin": "línwēi-bùjù",
     "meaning": "angesichts von Gefahr keine Furcht zeigen; unerschrocken",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7976,7 +9469,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:春意盎然:chun1yi4ang4ran2",
     "word": "春意盎然",
-    "pinyin": "chūn yì àng rán",
+    "pinyin": "chūnyì-àngrán",
     "meaning": "voller Fruehlingsatmosphaere; der Fruehling liegt in der Luft",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -7997,7 +9490,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:风调雨顺:feng1tiao2yu3shun4",
     "word": "风调雨顺",
-    "pinyin": "fēng tiáo yǔ shùn",
+    "pinyin": "fēngtiáo-yǔshùn",
     "meaning": "Wind und Regen zur rechten Zeit; guenstiges Klima",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8020,7 +9513,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:秋高气爽:qiu1gao1qi4shuang3",
     "word": "秋高气爽",
-    "pinyin": "qiū gāo qì shuǎng",
+    "pinyin": "qiūgāo-qìshuǎng",
     "meaning": "hoher Herbsthimmel und frische Luft; schoenes Herbstwetter",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8043,7 +9536,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:碧水蓝天:bi4shui3lan2tian1",
     "word": "碧水蓝天",
-    "pinyin": "bì shuǐ lán tiān",
+    "pinyin": "bìshuǐ-lántiān",
     "meaning": "smaragdgruenes Wasser und blauer Himmel; makellose Natur",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8064,7 +9557,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:风花雪月:feng1hua1xue3yue4",
     "word": "风花雪月",
-    "pinyin": "fēng huā xuě yuè",
+    "pinyin": "fēnghuā-xuěyuè",
     "meaning": "Wind, Blumen, Schnee und Mond; romantische Landschaften oder Liebeleien",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8087,7 +9580,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:电闪雷鸣:dian4shan3lei2ming2",
     "word": "电闪雷鸣",
-    "pinyin": "diàn shǎn léi míng",
+    "pinyin": "diànshǎn-léimíng",
     "meaning": "Blitz und Donner; ein heftiges Gewitter",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8108,7 +9601,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:白雪皑皑:bai2xue3ai2ai2",
     "word": "白雪皑皑",
-    "pinyin": "bái xuě ái ái",
+    "pinyin": "báixuě-ái’ái",
     "meaning": "strahlend weisser Schnee; schneebedeckt",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8131,7 +9624,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:绿树成荫:lv4shu4cheng2yin1",
     "word": "绿树成荫",
-    "pinyin": "lǜ shù chéng yīn",
+    "pinyin": "lǜshù-chéngyīn",
     "meaning": "gruene Baeume spenden Schatten; dichte gruene Vegetation",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8154,7 +9647,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:落叶归根:luo4ye4gui1gen1",
     "word": "落叶归根",
-    "pinyin": "luò yè guī gēn",
+    "pinyin": "luòyè-guīgēn",
     "meaning": "Fallende Blaetter kehren zu ihren Wurzeln zurueck (Sehnsucht nach der Heimat)",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8187,7 +9680,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:晴空万里:qing2kong1wan4li3",
     "word": "晴空万里",
-    "pinyin": "qíng kōng wàn lǐ",
+    "pinyin": "qíngkōng-wànlǐ",
     "meaning": "klarer Himmel auf zehntausend Meilen; wolkenloser Himmel",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8210,7 +9703,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:波涛汹涌:bo1tao1xiong1yong3",
     "word": "波涛汹涌",
-    "pinyin": "bō tāo xiōng yǒng",
+    "pinyin": "bōtāo-xiōngyǒng",
     "meaning": "Wellen tuermen sich auf; stuermische See",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8233,7 +9726,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:烟消云散:yan1xiao1yun2san4",
     "word": "烟消云散",
-    "pinyin": "yān xiāo yún sàn",
+    "pinyin": "yānxiāo-yúnsàn",
     "meaning": "Rauch verfliegt und Wolken zerstreuen sich; voellig verschwinden",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8256,7 +9749,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:百战百胜:bai3zhan4bai3sheng4",
     "word": "百战百胜",
-    "pinyin": "bǎi zhàn bǎi shèng",
+    "pinyin": "bǎizhàn-bǎishèng",
     "meaning": "hundert Schlachten, hundert Siege; unbesiegbar",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8279,7 +9772,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:出类拔萃:chu1lei4ba2cui4",
     "word": "出类拔萃",
-    "pinyin": "chū lèi bá cuì",
+    "pinyin": "chūlèi-bácuì",
     "meaning": "aus der Masse herausragen; hervorragend",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8313,7 +9806,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:马不停蹄:ma3bu4ting2ti2",
     "word": "马不停蹄",
-    "pinyin": "mǎ bù tíng tí",
+    "pinyin": "mǎbù-tíngtí",
     "meaning": "das Pferd haelt nicht an; ohne Pause weiterarbeiten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8336,7 +9829,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:崭露头角:zhan3lu4tou2jiao3",
     "word": "崭露头角",
-    "pinyin": "zhǎn lù tóu jiǎo",
+    "pinyin": "zhǎnlù-tóujiǎo",
     "meaning": "zum ersten Mal sein Talent zeigen; sich einen Namen machen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8359,7 +9852,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:步步高升:bu4bu4gao1sheng1",
     "word": "步步高升",
-    "pinyin": "bù bù gāo shēng",
+    "pinyin": "bùbù-gāoshēng",
     "meaning": "Schritt fuer Schritt aufsteigen; stetige Befoerderung",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8382,7 +9875,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:名扬四海:ming2yang2si4hai3",
     "word": "名扬四海",
-    "pinyin": "míng yáng sì hǎi",
+    "pinyin": "míngyáng-sìhǎi",
     "meaning": "der Ruf verbreitet sich ueber vier Meere; weltbekannt",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8405,7 +9898,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:所向披靡:suo3xiang4pi1mi3",
     "word": "所向披靡",
-    "pinyin": "suǒ xiàng pī mǐ",
+    "pinyin": "suǒxiàng-pīmǐ",
     "meaning": "ueberall, wo man hingeht, alles niederreissen; unaufhaltsam",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8428,7 +9921,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:力挽狂澜:li4wan3kuang2lan2",
     "word": "力挽狂澜",
-    "pinyin": "lì wǎn kuáng lán",
+    "pinyin": "lìwǎn-kuánglán",
     "meaning": "die wilden Wellen mit Kraft zurueckhalten; eine Krise abwenden",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8457,7 +9950,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:登峰造极:deng1feng1zao4ji2",
     "word": "登峰造极",
-    "pinyin": "dēng fēng zào jí",
+    "pinyin": "dēngfēng-zàojí",
     "meaning": "den Gipfel erklimmen; den Hoehepunkt erreichen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8480,7 +9973,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:遥遥领先:yao2yao2ling3xian1",
     "word": "遥遥领先",
-    "pinyin": "yáo yáo lǐng xiān",
+    "pinyin": "yáoyáo-lǐngxiān",
     "meaning": "mit grossem Abstand fuehren; weit voraus sein",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8503,7 +9996,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:喜极而泣:xi3ji2er2qi4",
     "word": "喜极而泣",
-    "pinyin": "xǐ jí ér qì",
+    "pinyin": "xǐjí-érqì",
     "meaning": "vor Freude weinen; Freudentraenen vergiessen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8526,7 +10019,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:怒发冲冠:nu4fa4chong1guan1",
     "word": "怒发冲冠",
-    "pinyin": "nù fà chōng guān",
+    "pinyin": "nùfà-chōngguān",
     "meaning": "vor Wut stehen die Haare zu Berge; rasend vor Zorn",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8549,7 +10042,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:归心似箭:gui1xin1si4jian4",
     "word": "归心似箭",
-    "pinyin": "guī xīn sì jiàn",
+    "pinyin": "guīxīn-sìjiàn",
     "meaning": "das Herz fliegt wie ein Pfeil nach Hause; sehnsuechtiges Heimweh",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8572,7 +10065,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:如坐针毡:ru2zuo4zhen1zhan1",
     "word": "如坐针毡",
-    "pinyin": "rú zuò zhēn zhān",
+    "pinyin": "rúzuò-zhēnzhān",
     "meaning": "wie auf Nadeln sitzen; sich sehr unwohl fuehlen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8595,7 +10088,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:乐极生悲:le4ji2sheng1bei1",
     "word": "乐极生悲",
-    "pinyin": "lè jí shēng bēi",
+    "pinyin": "lèjí-shēngbēi",
     "meaning": "wenn die Freude den Hoehepunkt erreicht, entsteht Trauer; nach uebermassiger Freude kommt Leid",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8618,7 +10111,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:黯然神伤:an4ran2shen2shang1",
     "word": "黯然神伤",
-    "pinyin": "àn rán shén shāng",
+    "pinyin": "ànrán-shénshāng",
     "meaning": "vor Trauer niedergeschlagen; schwermuetig",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8647,7 +10140,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:得意忘形:de2yi4wang4xing2",
     "word": "得意忘形",
-    "pinyin": "dé yì wàng xíng",
+    "pinyin": "déyì-wàngxíng",
     "meaning": "vor Freude den Anstand vergessen; uebermuetig werden",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8670,7 +10163,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:触景生情:chu4jing3sheng1qing2",
     "word": "触景生情",
-    "pinyin": "chù jǐng shēng qíng",
+    "pinyin": "chùjǐng-shēngqíng",
     "meaning": "beim Anblick einer Szene Gefuehle wecken; Erinnerungen hervorrufen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8699,7 +10192,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:心如刀割:xin1ru2dao1ge1",
     "word": "心如刀割",
-    "pinyin": "xīn rú dāo gē",
+    "pinyin": "xīnrú-dāogē",
     "meaning": "das Herz fuehlt sich an wie von Messern geschnitten; herzzerreissend",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8722,7 +10215,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:欣喜若狂:xin1xi3ruo4kuang2",
     "word": "欣喜若狂",
-    "pinyin": "xīn xǐ ruò kuáng",
+    "pinyin": "xīnxǐ-ruòkuáng",
     "meaning": "sich wahnsinnig freuen; vor Freude fast verrueckt werden",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8745,7 +10238,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:心旷神怡:xin1kuang4shen2yi2",
     "word": "心旷神怡",
-    "pinyin": "xīn kuàng shén yí",
+    "pinyin": "xīnkuàng-shényí",
     "meaning": "das Herz weitet sich und der Geist erfrischt sich; heiter und entspannt",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8779,7 +10272,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:魂不守舍:hun2bu4shou3she3",
     "word": "魂不守舍",
-    "pinyin": "hún bù shǒu shè",
+    "pinyin": "húnbù-shǒushè",
     "meaning": "die Seele verlaesst den Koerper; geistesabwesend",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8802,7 +10295,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:悲愤交加:bei1fen4jiao1jia1",
     "word": "悲愤交加",
-    "pinyin": "bēi fèn jiāo jiā",
+    "pinyin": "bēifèn-jiāojiā",
     "meaning": "Trauer und Wut vermischen sich; voller Kummer und Empoerung",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8823,7 +10316,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:不遗余力:bu4yi2yu2li4",
     "word": "不遗余力",
-    "pinyin": "bù yí yú lì",
+    "pinyin": "bùyí-yúlì",
     "meaning": "keine Kraft uebrig lassen; alles geben",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8857,7 +10350,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:驾轻就熟:jia4qing1jiu4shu2",
     "word": "驾轻就熟",
-    "pinyin": "jià qīng jiù shú",
+    "pinyin": "jiàqīng-jiùshú",
     "meaning": "ein leichtes Fahrzeug auf vertrautem Weg lenken; Routine haben",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8880,7 +10373,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:事必躬亲:shi4bi4gong1qin1",
     "word": "事必躬亲",
-    "pinyin": "shì bì gōng qīn",
+    "pinyin": "shìbì-gōngqīn",
     "meaning": "alles persoenlich erledigen muessen; Mikromanagement",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8903,7 +10396,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:精雕细刻:jing1diao1xi4ke4",
     "word": "精雕细刻",
-    "pinyin": "jīng diāo xì kè",
+    "pinyin": "jīngdiāo-xìkè",
     "meaning": "fein schnitzen und sorgfaeltig meisseln; mit groesster Sorgfalt arbeiten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8926,7 +10419,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:分秒必争:fen1miao3bi4zheng1",
     "word": "分秒必争",
-    "pinyin": "fēn miǎo bì zhēng",
+    "pinyin": "fēnmiǎo-bìzhēng",
     "meaning": "um jede Minute und Sekunde kaempfen; keine Zeit verschwenden",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8949,7 +10442,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:白头偕老:bai2tou2xie2lao3",
     "word": "白头偕老",
-    "pinyin": "bái tóu xié lǎo",
+    "pinyin": "báitóu-xiélǎo",
     "meaning": "zusammen alt werden bis die Haare weiss sind; lebenslange Liebe",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8972,7 +10465,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:肝胆相照:gan1dan3xiang1zhao4",
     "word": "肝胆相照",
-    "pinyin": "gān dǎn xiāng zhào",
+    "pinyin": "gāndǎn-xiāngzhào",
     "meaning": "einander Leber und Galle zeigen; voellige Offenheit und Treue",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -8995,7 +10488,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:海誓山盟:hai3shi4shan1meng2",
     "word": "海誓山盟",
-    "pinyin": "hǎi shì shān méng",
+    "pinyin": "hǎishì-shānméng",
     "meaning": "Schwuere so bestaendig wie Meer und Berge; ewige Liebesschweise",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9018,7 +10511,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:形影相随:xing2ying3xiang1sui2",
     "word": "形影相随",
-    "pinyin": "xíng yǐng xiāng suí",
+    "pinyin": "xíngyǐng-xiāngsuí",
     "meaning": "Gestalt und Schatten folgen einander; unzertrennlich",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9041,7 +10534,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:恩重如山:en1zhong4ru2shan1",
     "word": "恩重如山",
-    "pinyin": "ēn zhòng rú shān",
+    "pinyin": "ēnzhòng-rúshān",
     "meaning": "die Guete ist schwer wie ein Berg; tiefe Dankbarkeit",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9062,7 +10555,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:情深意重:qing2shen1yi4zhong4",
     "word": "情深意重",
-    "pinyin": "qíng shēn yì zhòng",
+    "pinyin": "qíngshēn-yìzhòng",
     "meaning": "tiefe Gefuehle und aufrichtige Zuneigung",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9083,7 +10576,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:举案齐眉:ju3an4qi2mei2",
     "word": "举案齐眉",
-    "pinyin": "jǔ àn qí méi",
+    "pinyin": "jǔ’àn-qíméi",
     "meaning": "das Tablett bis zu den Augenbrauen heben; respektvolle Ehe",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9106,7 +10599,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:反目成仇:fan3mu4cheng2chou2",
     "word": "反目成仇",
-    "pinyin": "fǎn mù chéng chóu",
+    "pinyin": "fǎnmù-chéngchóu",
     "meaning": "sich entzweien und zu Feinden werden; zerstrittene Freunde",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9129,7 +10622,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:天涯海角:tian1ya2hai3jiao3",
     "word": "天涯海角",
-    "pinyin": "tiān yá hǎi jiǎo",
+    "pinyin": "tiānyá-hǎijiǎo",
     "meaning": "am Ende der Welt; egal wie weit entfernt",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9152,7 +10645,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:好学不倦:hao4xue2bu4juan4",
     "word": "好学不倦",
-    "pinyin": "hào xué bù juàn",
+    "pinyin": "hàoxué-bùjuàn",
     "meaning": "gerne und unermüdlich lernen; wissbegierig",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9173,7 +10666,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:日积月累:ri4ji1yue4lei3",
     "word": "日积月累",
-    "pinyin": "rì jī yuè lěi",
+    "pinyin": "rìjī-yuèlěi",
     "meaning": "Tag fuer Tag, Monat fuer Monat ansammeln; stetige Anhaeuufung",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9196,7 +10689,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:集腋成裘:ji2ye4cheng2qiu2",
     "word": "集腋成裘",
-    "pinyin": "jí yè chéng qiú",
+    "pinyin": "jíyè-chéngqiú",
     "meaning": "Achselhaare sammeln, um einen Pelz zu machen; Kleinvieh macht auch Mist",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9219,7 +10712,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:悬梁刺股:xuan2liang2ci4gu3",
     "word": "悬梁刺股",
-    "pinyin": "xuán liáng cì gǔ",
+    "pinyin": "xuánliáng-cìgǔ",
     "meaning": "sich das Haar an den Balken binden und sich in den Oberschenkel stechen; extrem fleissig studieren",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9242,7 +10735,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:博学多才:bo2xue2duo1cai2",
     "word": "博学多才",
-    "pinyin": "bó xué duō cái",
+    "pinyin": "bóxué-duōcái",
     "meaning": "umfassend gebildet und vielseitig begabt",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9286,7 +10779,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:学富五车:xue2fu4wu3che1",
     "word": "学富五车",
-    "pinyin": "xué fù wǔ chē",
+    "pinyin": "xuéfù-wǔchē",
     "meaning": "so viel Wissen wie fuenf Wagenladungen Buecher; sehr gelehrt",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9309,7 +10802,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:一窍不通:yi1qiao4bu4tong1",
     "word": "一窍不通",
-    "pinyin": "yī qiào bù tōng",
+    "pinyin": "yīqiào-bùtōng",
     "meaning": "keinen einzigen Durchlass offen haben; absolut nichts verstehen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9332,7 +10825,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:勤学苦练:qin2xue2ku3lian4",
     "word": "勤学苦练",
-    "pinyin": "qín xué kǔ liàn",
+    "pinyin": "qínxué-kǔliàn",
     "meaning": "fleissig lernen und hart ueben; eiserner Fleiss",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9355,7 +10848,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:才华横溢:cai2hua2heng2yi4",
     "word": "才华横溢",
-    "pinyin": "cái huá héng yì",
+    "pinyin": "cáihuá-héngyì",
     "meaning": "das Talent fliesst ueber; aeusserst begabt",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9378,7 +10871,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:过目不忘:guo4mu4bu4wang4",
     "word": "过目不忘",
-    "pinyin": "guò mù bù wàng",
+    "pinyin": "guòmù-bùwàng",
     "meaning": "einmal sehen und nie vergessen; fotografisches Gedaechtnis",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9407,7 +10900,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:按部就班:an4bu4jiu4ban1",
     "word": "按部就班",
-    "pinyin": "àn bù jiù bān",
+    "pinyin": "ànbù-jiùbān",
     "meaning": "Schritt fuer Schritt nach Plan vorgehen; methodisch",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9456,7 +10949,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:闻鸡起舞:wen2ji1qi3wu3",
     "word": "闻鸡起舞",
-    "pinyin": "wén jī qǐ wǔ",
+    "pinyin": "wénjī-qǐwǔ",
     "meaning": "beim Hahnenschrei aufstehen und das Schwert ueben; frueh aufstehen und fleissig trainieren",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9479,7 +10972,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:退避三舍:tui4bi4san1she3",
     "word": "退避三舍",
-    "pinyin": "tuì bì sān shè",
+    "pinyin": "tuìbì-sānshè",
     "meaning": "drei Tagesmaersche zurueckweichen; jemandem aus dem Weg gehen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9525,7 +11018,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:草船借箭:cao3chuan2jie4jian4",
     "word": "草船借箭",
-    "pinyin": "cǎo chuán jiè jiàn",
+    "pinyin": "cǎochuán-jièjiàn",
     "meaning": "mit Strohbooten Pfeile borgen; den Gegner ueberlisten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9594,7 +11087,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:画地为牢:hua4di4wei2lao2",
     "word": "画地为牢",
-    "pinyin": "huà dì wéi láo",
+    "pinyin": "huàdì-wéiláo",
     "meaning": "auf den Boden zeichnen und es zum Gefaengnis machen; sich selbst einschraenken",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9640,7 +11133,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:老马识途:lao3ma3shi2tu2",
     "word": "老马识途",
-    "pinyin": "lǎo mǎ shí tú",
+    "pinyin": "lǎomǎ-shítú",
     "meaning": "ein altes Pferd kennt den Weg; Erfahrung ist wertvoll",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9663,7 +11156,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:一箭双雕:yi1jian4shuang1diao1",
     "word": "一箭双雕",
-    "pinyin": "yī jiàn shuāng diāo",
+    "pinyin": "yījiàn-shuāngdiāo",
     "meaning": "Mit einem Pfeil zwei Adler treffen (zwei Fliegen mit einer Klappe schlagen)",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9691,7 +11184,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:自投罗网:zi4tou2luo2wang3",
     "word": "自投罗网",
-    "pinyin": "zì tóu luó wǎng",
+    "pinyin": "zìtóu-luówǎng",
     "meaning": "sich selbst ins Netz werfen; ins eigene Verderben rennen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9714,7 +11207,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:唇亡齿寒:chun2wang2chi3han2",
     "word": "唇亡齿寒",
-    "pinyin": "chún wáng chǐ hán",
+    "pinyin": "chúnwáng-chǐhán",
     "meaning": "wenn die Lippen weg sind, frieren die Zaehne; gegenseitige Abhaengigkeit",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9737,7 +11230,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:螳螂捕蝉:tang2lang2bu3chan2",
     "word": "螳螂捕蝉",
-    "pinyin": "táng láng bǔ chán",
+    "pinyin": "tángláng-bǔchán",
     "meaning": "die Gottesanbeterin faengt die Zikade; nur das Naheliegende sehen und die Gefahr dahinter uebersehen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9760,7 +11253,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:亡国之音:wang2guo2zhi1yin1",
     "word": "亡国之音",
-    "pinyin": "wáng guó zhī yīn",
+    "pinyin": "wángguó-zhīyīn",
     "meaning": "Musik eines untergehenden Staates; Zeichen des Verfalls",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9781,7 +11274,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:坐以待毙:zuo4yi3dai4bi4",
     "word": "坐以待毙",
-    "pinyin": "zuò yǐ dài bì",
+    "pinyin": "zuòyǐ-dàibì",
     "meaning": "sitzen und auf den Tod warten; tatenlos dem Untergang entgegensehen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9832,7 +11325,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:作茧自缚:zuo4jian3zi4fu4",
     "word": "作茧自缚",
-    "pinyin": "zuò jiǎn zì fù",
+    "pinyin": "zuòjiǎn-zìfù",
     "meaning": "einen Kokon spinnen und sich selbst einwickeln; sich in die eigene Falle locken",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9855,7 +11348,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:引狼入室:yin3lang2ru4shi4",
     "word": "引狼入室",
-    "pinyin": "yǐn láng rù shì",
+    "pinyin": "yǐnláng-rùshì",
     "meaning": "den Wolf ins Haus fuehren; den Feind hereinlassen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9878,7 +11371,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:亡命之徒:wang2ming4zhi1tu2",
     "word": "亡命之徒",
-    "pinyin": "wáng mìng zhī tú",
+    "pinyin": "wángmìng-zhītú",
     "meaning": "Gesetzloser; Desperado; jemand, der alles aufs Spiel setzt",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9901,7 +11394,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:覆水难收:fu4shui3nan2shou1",
     "word": "覆水难收",
-    "pinyin": "fù shuǐ nán shōu",
+    "pinyin": "fùshuǐ-nánshōu",
     "meaning": "Verschuettetes Wasser laesst sich nicht wieder einsammeln (Was geschehen ist, ist geschehen)",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9929,7 +11422,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:趁火打劫:chen4huo3da3jie2",
     "word": "趁火打劫",
-    "pinyin": "chèn huǒ dǎ jié",
+    "pinyin": "chènhuǒ-dǎjié",
     "meaning": "waehrend des Brandes pluendern; die Not anderer ausnutzen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9952,7 +11445,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:风平浪静:feng1ping2lang4jing4",
     "word": "风平浪静",
-    "pinyin": "fēng píng làng jìng",
+    "pinyin": "fēngpíng-làngjìng",
     "meaning": "ruhiger Wind und stille Wellen; friedlich und ruhig",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -9975,7 +11468,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:叹为观止:tan4wei2guan1zhi3",
     "word": "叹为观止",
-    "pinyin": "tàn wéi guān zhǐ",
+    "pinyin": "tànwéi-guānzhǐ",
     "meaning": "so beeindruckend, dass man nur noch staunen kann; atemberaubend",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -10003,7 +11496,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:一马当先:yi1ma3dang1xian1",
     "word": "一马当先",
-    "pinyin": "yī mǎ dāng xiān",
+    "pinyin": "yīmǎ-dāngxiān",
     "meaning": "ein Pferd voraus; als Erster vorangehen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -10026,7 +11519,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:不可救药:bu4ke3jiu4yao4",
     "word": "不可救药",
-    "pinyin": "bù kě jiù yào",
+    "pinyin": "bùkě-jiùyào",
     "meaning": "durch keine Medizin mehr zu retten; hoffnungslos",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -10049,7 +11542,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:言不由衷:yan2bu4you2zhong1",
     "word": "言不由衷",
-    "pinyin": "yán bù yóu zhōng",
+    "pinyin": "yánbù-yóuzhōng",
     "meaning": "die Worte kommen nicht aus dem Herzen; nicht meinen, was man sagt",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -10072,7 +11565,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:雷厉风行:lei2li4feng1xing2",
     "word": "雷厉风行",
-    "pinyin": "léi lì fēng xíng",
+    "pinyin": "léilì-fēngxíng",
     "meaning": "wie Donner und Wind; entschlossen und tatkraeftig handeln",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -10106,7 +11599,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:柳暗花明:liu3an4hua1ming2",
     "word": "柳暗花明",
-    "pinyin": "liǔ àn huā míng",
+    "pinyin": "liǔ’àn-huāmíng",
     "meaning": "dunkle Weiden und helle Blumen; eine ueberraschende Wendung zum Guten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -10129,7 +11622,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:谈笑风生:tan2xiao4feng1sheng1",
     "word": "谈笑风生",
-    "pinyin": "tán xiào fēng shēng",
+    "pinyin": "tánxiào-fēngshēng",
     "meaning": "plaudern und lachen, dass der Wind entsteht; lebhaft und heiter plaudern",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -10152,7 +11645,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:泰然自若:tai4ran2zi4ruo4",
     "word": "泰然自若",
-    "pinyin": "tài rán zì ruò",
+    "pinyin": "tàirán-zìruò",
     "meaning": "ruhig und gelassen wie immer; voellig unbeeindruckt",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -10180,7 +11673,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:见微知著:jian4wei1zhi1zhu4",
     "word": "见微知著",
-    "pinyin": "jiàn wēi zhī zhù",
+    "pinyin": "jiànwēi-zhīzhù",
     "meaning": "aus kleinen Anzeichen das Grosse erkennen; aufmerksam und vorausschauend",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -10214,7 +11707,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:安然无恙:an1ran2wu2yang4",
     "word": "安然无恙",
-    "pinyin": "ān rán wú yàng",
+    "pinyin": "ānrán-wúyàng",
     "meaning": "wohlbehalten und unbeschaedigt; ohne jeden Schaden",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -10260,7 +11753,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:言传身教:yan2chuan2shen1jiao4",
     "word": "言传身教",
-    "pinyin": "yán chuán shēn jiào",
+    "pinyin": "yánchuán-shēnjiào",
     "meaning": "mit Worten lehren und durch Vorbild erziehen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -10288,7 +11781,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:无独有偶:wu2du2you3ou3",
     "word": "无独有偶",
-    "pinyin": "wú dú yǒu ǒu",
+    "pinyin": "wúdú-yǒu’ǒu",
     "meaning": "nicht einzeln, sondern paarweise; zufaelligerweise nicht der einzige Fall",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -10311,7 +11804,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:前功尽弃:qian2gong1jin4qi4",
     "word": "前功尽弃",
-    "pinyin": "qián gōng jìn qì",
+    "pinyin": "qiángōng-jìnqì",
     "meaning": "alle bisherige Muehe umsonst; den bisherigen Erfolg zunichte machen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -10334,7 +11827,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:耳濡目染:er3ru2mu4ran3",
     "word": "耳濡目染",
-    "pinyin": "ěr rú mù rǎn",
+    "pinyin": "ěrrú-mùrǎn",
     "meaning": "durch Hoeren und Sehen beeinflusst werden; unbewusst lernen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -10362,7 +11855,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:厉兵秣马:li4bing1mo4ma3",
     "word": "厉兵秣马",
-    "pinyin": "lì bīng mò mǎ",
+    "pinyin": "lìbīng-mòmǎ",
     "meaning": "die Waffen schaerfen und die Pferde fuettern; sich auf den Kampf vorbereiten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -10383,7 +11876,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:谨小慎微:jin3xiao3shen4wei1",
     "word": "谨小慎微",
-    "pinyin": "jǐn xiǎo shèn wēi",
+    "pinyin": "jǐnxiǎo-shènwēi",
     "meaning": "in kleinen Dingen vorsichtig und behutsam; aeusserst umsichtig",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -10404,7 +11897,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:势如破竹:shi4ru2po4zhu2",
     "word": "势如破竹",
-    "pinyin": "shì rú pò zhú",
+    "pinyin": "shìrú-pòzhú",
     "meaning": "wie Bambus spalten; unaufhaltsam voranschreiten",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -10427,7 +11920,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:同心协力:tong2xin1xie2li4",
     "word": "同心协力",
-    "pinyin": "tóng xīn xié lì",
+    "pinyin": "tóngxīn-xiélì",
     "meaning": "mit vereintem Herzen und vereinter Kraft; gemeinsam an einem Strang ziehen",
     "type": "Chengyu",
     "level": "Zusatz",
@@ -10450,7 +11943,7 @@ window.CHENGYU_DATA = [
   {
     "id": "w:乘风破浪:cheng2feng1po4lang4",
     "word": "乘风破浪",
-    "pinyin": "chéng fēng pò làng",
+    "pinyin": "chéngfēng-pòlàng",
     "meaning": "mit dem Wind die Wellen brechen; kuehne Ziele verfolgen",
     "type": "Chengyu",
     "level": "Zusatz",

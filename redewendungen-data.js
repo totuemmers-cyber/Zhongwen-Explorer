@@ -3,16 +3,26 @@ window.REDEWENDUNGEN_DATA = [
   {
     "id": "w:揠苗助长:ya4miao2zhu4zhang3",
     "word": "揠苗助长",
-    "pinyin": "yà miáo zhù zhǎng",
-    "meaning": "An den Setzlingen ziehen, damit sie schneller wachsen (durch Ungeduld Schaden anrichten)",
-    "type": "Redewendung",
+    "pinyin": "yàmiáo-zhùzhǎng",
+    "meaning": "an den Setzlingen ziehen, damit sie schneller wachsen; durch Übereifer schaden",
+    "type": "Chengyu",
     "level": "HSK7-9",
     "category": "Sprichwort",
     "examples": [
       {
         "chinese": "教育孩子不能揠苗助长，要顺其自然。",
-        "pinyin": "Jiàoyù háizi bù néng yà miáo zhù zhǎng, yào shùn qí zìrán.",
-        "german": "Bei der Kindererziehung darf man nicht durch Ungeduld schaden, man muss der Natur ihren Lauf lassen."
+        "pinyin": "Jiàoyù háizi bù néng yàmiáo-zhùzhǎng, yào shùnqí-zìrán.",
+        "german": "Kinder darf man nicht mit Übereifer antreiben, man muss ihnen Zeit lassen, sich zu entwickeln."
+      },
+      {
+        "chinese": "让三岁的孩子每天学五个小时，这简直是揠苗助长。",
+        "pinyin": "Ràng sān suì de háizi měi tiān xué wǔ ge xiǎoshí, zhè jiǎnzhí shì yàmiáo-zhùzhǎng.",
+        "german": "Ein dreijähriges Kind jeden Tag fünf Stunden lernen zu lassen – das ist Übereifer, der mehr schadet als nützt."
+      },
+      {
+        "chinese": "为了让新球员快点出名，教练让他场场首发，结果揠苗助长，他的状态越来越差。",
+        "pinyin": "Wèile ràng xīn qiúyuán kuài diǎn chūmíng, jiàoliàn ràng tā chǎngchǎng shǒufā, jiéguǒ yàmiáo-zhùzhǎng, tā de zhuàngtài yuè lái yuè chà.",
+        "german": "Damit der neue Spieler schnell bekannt wird, ließ ihn der Trainer in jedem Spiel von Anfang an spielen – der Übereifer ging nach hinten los, seine Form wurde immer schlechter."
       }
     ],
     "legacyIds": [
@@ -26,6 +36,12 @@ window.REDEWENDUNGEN_DATA = [
     "traditional": "揠苗助長",
     "evidence": {
       "cedict": "揠苗助長 揠苗助长 [ya4 miao2 zhu4 zhang3]"
+    },
+    "notes": "揠苗助长 (yàmiáo-zhùzhǎng) geht auf eine Fabel im Mengzi zurück: Ein Bauer aus Song war ungeduldig, weil sein Reis zu langsam wuchs, und zog jeden Setzling (苗) ein Stück hoch (揠); am nächsten Tag war alles verdorrt. Gemeint ist, dass man eine Entwicklung durch Ungeduld erzwingen will und ihr damit schadet – besonders oft in Bezug auf Erziehung und Bildung. Im heutigen Sprachgebrauch ist die Variante 拔苗助长 (bámiáo-zhùzhǎng) häufiger; 揠 ist ein seltenes, schriftsprachliches Zeichen.",
+    "review": {
+      "batch": "b045",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -166,7 +182,7 @@ window.REDEWENDUNGEN_DATA = [
   {
     "id": "w:人无完人:ren2wu2wan2ren2",
     "word": "人无完人",
-    "pinyin": "rén wú wán rén",
+    "pinyin": "rénwú-wánrén",
     "meaning": "Niemand ist perfekt",
     "type": "Sprichwort",
     "level": "Zusatz",
@@ -481,7 +497,7 @@ window.REDEWENDUNGEN_DATA = [
   {
     "id": "w:笨鸟先飞:ben4niao3xian1fei1",
     "word": "笨鸟先飞",
-    "pinyin": "bèn niǎo xiān fēi",
+    "pinyin": "bènniǎo-xiānfēi",
     "meaning": "Der langsame Vogel fliegt zuerst los (Fleiss gleicht Schwaeche aus)",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -816,7 +832,7 @@ window.REDEWENDUNGEN_DATA = [
   {
     "id": "w:杀鸡儆猴:sha1ji1jing3hou2",
     "word": "杀鸡儆猴",
-    "pinyin": "shā jī jǐng hóu",
+    "pinyin": "shājī-jǐnghóu",
     "meaning": "ein Huhn schlachten, um den Affen zu warnen (ein Exempel statuieren)",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -936,7 +952,7 @@ window.REDEWENDUNGEN_DATA = [
   {
     "id": "w:滴水穿石:di1shui3chuan1shi2",
     "word": "滴水穿石",
-    "pinyin": "dī shuǐ chuān shí",
+    "pinyin": "dīshuǐ-chuānshí",
     "meaning": "Stetig tropfendes Wasser hoehlt den Stein",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -1095,7 +1111,7 @@ window.REDEWENDUNGEN_DATA = [
   {
     "id": "w:树大招风:shu4da4zhao1feng1",
     "word": "树大招风",
-    "pinyin": "shù dà zhāo fēng",
+    "pinyin": "shùdà-zhāofēng",
     "meaning": "Ein grosser Baum zieht den Wind an (Beruemtheit zieht Kritik an)",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -1452,7 +1468,7 @@ window.REDEWENDUNGEN_DATA = [
   {
     "id": "w:血浓于水:xue4nong2yu2shui3",
     "word": "血浓于水",
-    "pinyin": "xuè nóng yú shuǐ",
+    "pinyin": "xuènóng-yúshuǐ",
     "meaning": "Blut ist dicker als Wasser",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -2262,7 +2278,7 @@ window.REDEWENDUNGEN_DATA = [
   {
     "id": "w:秋后算账:qiu1hou4suan4zhang4",
     "word": "秋后算账",
-    "pinyin": "qiū hòu suàn zhàng",
+    "pinyin": "qiūhòu-suànzhàng",
     "meaning": "Nach dem Herbst die Rechnung machen (Spaeter abrechnen)",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -2374,7 +2390,7 @@ window.REDEWENDUNGEN_DATA = [
   {
     "id": "w:天道酬勤:tian1dao4chou2qin2",
     "word": "天道酬勤",
-    "pinyin": "tiān dào chóu qín",
+    "pinyin": "tiāndào-chóuqín",
     "meaning": "Der Himmel belohnt den Fleiss",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -2479,7 +2495,7 @@ window.REDEWENDUNGEN_DATA = [
   {
     "id": "w:骑虎难下:qi2hu3nan2xia4",
     "word": "骑虎难下",
-    "pinyin": "qí hǔ nán xià",
+    "pinyin": "qíhǔ-nánxià",
     "meaning": "Wer auf dem Tiger reitet, kann schwer absteigen (in einer schwierigen Lage stecken)",
     "type": "Redewendung",
     "level": "Zusatz",
@@ -2571,7 +2587,7 @@ window.REDEWENDUNGEN_DATA = [
   {
     "id": "w:虎头蛇尾:hu3tou2she2wei3",
     "word": "虎头蛇尾",
-    "pinyin": "hǔ tóu shé wěi",
+    "pinyin": "hǔtóu-shéwěi",
     "meaning": "Tigerkopf, Schlangenschwanz (stark anfangen, schwach aufhoeren)",
     "type": "Redewendung",
     "level": "Zusatz",
