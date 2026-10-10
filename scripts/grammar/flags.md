@@ -47,3 +47,94 @@ Author flags, points without a quiz and reviewer fixes per batch, for follow-up 
 - g:不用关联词语的复句 (reviewer fix): 你不来，我不走 heißt „ich warte, bis du kommst“; „Wenn du nicht kommst, gehe ich nicht weg“ gab den Sinn schief wieder.
 - g:……，还…… (reviewer fix): „sogar“ ist 甚至; 还 fügt hier nur hinzu („außerdem/obendrein“), passend zur Beispielübersetzung.
 - g:钟点表示法 (reviewer fix): 零 vor einstelligen Minuten ist üblich, aber nicht Pflicht (八点五分 kommt auch vor).
+
+## g003 (2026-10-10, author+review)
+- g:为了……，…… (reviewer fix): Überzähliges Komma in meaning entfernt.
+- g:敢 (reviewer fix): Pinyin ex2: Resultativverb 说错 zusammengeschrieben (shuōcuò), wie in den übrigen Beispielen.
+- g:名量词@HSK4（名量词） (reviewer fix): 桌子 ist kein Raum: „Körperteilen und Räumen“ zu „Körperteilen, Räumen und Flächen“ präzisiert.
+- g:多么 (reviewer fix): Quiz: 真 und 好 passen im Ausruf 这里的风景__美啊！ ebenfalls, in accepted ergänzt.
+- g:语气副词@HSK4 (reviewer fix): 才⁴-Zeile und Beispiel 我才不去呢 doppelten 才³ (HSK-3-Überblick); 才⁴ jetzt „erst (dann), nur so“ (这才是…/这样才对), Beispiel ersetzt; 就⁵ als trotziges Beharren von 就²/就⁴ und 还⁴ von 还³ abgegrenzt. Außerdem zeigte 你来得正好 正好 als Adjektiv-Komplement statt als Modaladverb – durch adverbiales 正好 ersetzt, Zeile präzisiert.
+- g:当 (reviewer fix): 在你遇到困难时 ist ebenso natürlich und bedeutungsgleich – 在 als accepted ergänzt.
+- g:引出凭借、依据@HSK4 (reviewer fix): 按顺序 wurde als Beispiel für ein einsilbiges Nomen angeführt (顺序 ist zweisilbig); Beispiele getrennt.
+- g:一+量词+比+一+量词 (reviewer fix): Distraktor-Begründung für 跟 war überzogen (跟 vergleicht nicht nur mit 一样, auch 跟……比).
+- g:X是X，Y是Y (no quiz): 是 kommt in jedem Beispiel zweimal vor und lässt sich nicht eindeutig abfragen; das Muster lebt von der Wiederholung der Nomen.
+- g:X是X，Y是Y (reviewer fix): Note described X是X as concessive; 294 is now the tautology, the concessive is no. 324 – note and links adjusted.
+- g:X就X（点儿）吧 (reviewer fix): Contrast pointed to X是X (now the tautology); redirected to the concessive no. 324. Example 2 German („ist sie eben etwas anstrengender – sei's drum“) was clumsy.
+- g:X是X (reviewer fix): Was a near-duplicate of no. 324 (……X是X，就是 (jiùshì)/不过 (búguò)……, which already covers 但是/可是 and the verb use 去是去). 324 is the concessive in 转折复句 and X（倒）是X（了） is the HSK 7–9 variant, so the stand-alone 固定格式 no. 294 (listed after X是X，Y是Y and X就X吧) most plausibly means the tautology. Rewritten as „X ist nun mal X“ (规定是规定, 孩子毕竟是孩子, 事实是事实), with the concessive only as a contrast. Flag resolved.
+- g:形容词/心理动词+死了/厉害 (reviewer fix): Note gave 得很 as HSK 5; g:形容词+得很 is HSK 3.
+- g:难道……吗？ (reviewer fix): Distractor 怎么 with the reason „lässt sich nicht mit 吗 kombinieren“ was overstated (怎么，你不知道明天要考试吗？ is natural speech); replaced with 难怪.
+- g:主语+把+宾语+状语+动词 (reviewer fix): Übersetzung von 写清楚: „abschreiben“ (kopieren) steht nicht im Satz → „sauber aufschreiben“.
+- g:跟……相比 (reviewer fix): 差得远 ist ein Vergleich („bei weitem nicht so gut wie er“), nicht „nicht gut genug“.
+- g:首先……，其次…… (reviewer fix): Überzogene Regel „das Erste ist das Wichtigste“ abgeschwächt (Beispiel 3 ist eine reine Reihenfolge).
+- g:连……也/都……，……更…… (author): Im Syllabus gibt es keinen eigenen Punkt für das einfache 连……也/都…… („sogar“); es wird hier in notes mit erklärt.
+- g:要是……，就…… (reviewer fix): „direkt vor dem Verb“ widersprach dem eigenen Beispiel 我们就不去了 (就 vor 不); präzisiert.
+- g:无标记 (author): Musterbezeichnung „无标记“ ist nur das Unteretikett der Syllabuszeile (紧缩复句 ohne Marker); als Kartentitel wenig aussagekräftig.
+- g:无标记 (no quiz): Das Muster hat kein Bindewort, das sich als Lücke abfragen ließe.
+- g:不……也…… (reviewer fix): 你不说我都知道 ist ebenfalls natürlich (都 = 也 in Einräumung); als accepted ergänzt.
+
+## g002 (2026-10-10, author+review)
+- g:面 (reviewer fix): 后头 (hòutou) „hinten“ ist ebenfalls eine korrekte Füllung – zu accepted ergänzt.
+- g:AA、A一A、A了A、ABAB (reviewer fix): Veralteter flag entfernt: mustUse ist im Input leer, die Beispiele sind trotzdem natürlich.
+- g:为什么 (reviewer fix): Überzogene Regel: 怎么？ steht durchaus allein als Rückfrage, nur nicht im Sinn von „warum?“.
+- g:AA、AABB (no quiz): Kein festes Kernwort: Die Form entsteht durch Verdopplung beliebiger Adjektive, ein einzelnes Wort lässt sich nicht sinnvoll ausblenden.
+- g:次 (reviewer fix): 去过两回上海 ist gleichbedeutend (umgangssprachlich, in notes erwähnt) – 回 zu accepted ergänzt.
+- g:时间副词@HSK2 (reviewer fix): Stellungsregel „direkt vor dem Verb“ überzogen (widerspricht 快八点了 und 有时候 am Satzanfang); präzisiert.
+- g:经常 (reviewer fix): Attributbeispiel 经常的问题 klingt unnatürlich (üblich wäre 经常性的问题); ersetzt durch 这是经常的事.
+- g:因为¹ (reviewer fix): 由于 passt im Quizsatz mit gleicher Bedeutung (他由于工作很少回家) – als accepted ergänzt.
+- g:过 (reviewer fix): Notes: 走过去 ist ein zusammengesetztes Richtungskomplement, nicht das einfache 动词+过 der senseRow; Quiz: 在-Begründung irreführend (坐在 + Ort gibt es).
+- g:着 (reviewer fix): Quiz: 在-Begründung behauptete, 在 stehe nie nach dem Verb (Verb + 在 + Ort gibt es).
+- g:啊¹ (reviewer fix): „Entscheidungsfragen“ heißt im Deutschen Ja/Nein-Fragen und widersprach dem folgenden Satz; ersetzt durch Alternativfragen / bejaht-verneinte Fragen.
+- g:动补短语1 (no quiz): Kein festes Kernwort: Verb und Komplement wechseln; die einzelnen Komplemente werden in eigenen Punkten abgefragt.
+- g:其他结构类型：连谓短语 (no quiz): Kein festes Kernwort: Die Verben wechseln von Satz zu Satz.
+- g:名词性短语 (no quiz): Kein festes Kernwort: Es geht um die Funktion ganzer Wortgruppen, nicht um ein einzelnes Wort.
+- g:动词性短语 (no quiz): Kein festes Kernwort: Es geht um die Funktion ganzer Wortgruppen, nicht um ein einzelnes Wort.
+- g:形容词性短语 (no quiz): Kein festes Kernwort: Es geht um die Funktion ganzer Wortgruppen, nicht um ein einzelnes Wort.
+- g:什么的 (reviewer fix): Erklärung: „verhält sich wie ein Nomen“ passte nicht zu Beispiel 0 (Verbgruppen als Prädikat); Quiz: 等/等等 sind ebenfalls korrekt (schriftsprachlich) und gehören in accepted.
+- g:受事主语 (no quiz): Gerade das Fehlen eines Passivworts ist das Muster; es gibt kein Funktionswort, das man einsetzen könnte.
+- g:名词性短语作谓语 (no quiz): Gerade das Fehlen eines Verbs ist das Muster; es gibt kein Funktionswort, das man einsetzen könnte.
+- g:名词性短语作谓语 (reviewer fix): „Mit 是 ist der Satz immer auch möglich“ überzogen (她是大眼睛 ist unidiomatisch); abgeschwächt.
+- g:动词+错/懂/好/会/完 (reviewer fix): Quiz: 没看明白 ist gleichbedeutend korrekt und fehlte in accepted.
+- g:复合趋向补语的趋向意义用法：动词+出来/出去/过来/过去/回来/回去/进来/进去/起来/上来/上去/下来/下去 (reviewer fix): Quiz: 拿出一个苹果 (einfaches 出) ist ebenfalls korrekt und bedeutungsgleich – in accepted aufgenommen.
+- g:动词+得+形容词性短语 (reviewer fix): Flag beschrieb den inzwischen behobenen mustUse-Fehler; Inhalt korrekt.
+- g:数量补语2：表示动作持续的时间 (no quiz): Kein festes Funktionswort: Gelernt wird die Stellung der Zeitdauer nach dem Verb, die Zeitangaben wechseln.
+- g:形容词+数量补语 (reviewer fix): Distraktor 一下 ersetzt: 能便宜一下吗 ist beim Handeln umgangssprachlich durchaus üblich, also kein eindeutig falscher Fill.
+- g:主谓句4：主谓谓语句 (no quiz): Kein Funktionswort: Das Muster liegt in der Abfolge von Thema, zweitem Subjekt und Prädikat.
+- g:A有/没有B（+这么/那么）+形容词 (reviewer fix): Quiz: 今天没昨天那么热 ist gesprochen sehr üblich und bedeutungsgleich – 没 in accepted aufgenommen.
+- g:A比B+动词+得+形容词/A+动词+得+比+B+形容词 (reviewer fix): Flag beschrieb den inzwischen behobenen mustUse-Fehler; die Gegensatzbeispiele sind natürlich und bleiben.
+- g:“是……的”句1：强调时间、地点、方式、动作者 (reviewer fix): Flag beschrieb den inzwischen behobenen mustUse-Fehler; Inhalt korrekt.
+- g:表使令：主语+请/叫/让……+宾语1+动词+宾语2 (reviewer fix): Quiz: 妈妈要我早一点儿睡觉 passt ebenso zu „Mama sagt, ich soll …“ – 要 in accepted aufgenommen.
+- g:虽然……，但是…… (reviewer fix): Quiz: 虽然……，不过…… ist ebenfalls korrekt und bedeutungsgleich – 不过 in accepted aufgenommen.
+- g:动词+着：（1）表示状态的持续 (author): Inhaltlich überschneidet sich der Punkt stark mit g:着 (HSK 2, 动态助词 着, „andauernder Zustand“).
+- g:经历态：用动态助词“过”表示 (author): Dubliziert inhaltlich g:过 (HSK 2, 动态助词 过, Erfahrungsaspekt): beide Punkte decken denselben Gebrauch ab.
+- g:序数表示法2：数词+量词 (reviewer fix): Hinweis ergänzt, dass chinesische Stockwerkzählung beim Erdgeschoss mit 一楼 beginnt (五楼 = deutscher 4. Stock).
+- g:需要 (reviewer fix): 得 (děi) + Zeitangabe („到机场得一个多小时“) ist ebenfalls korrekt und in den notes selbst erwähnt – zu accepted hinzugefügt.
+- g:离合词@HSK3 (reviewer fix): Regel überzogen: „了 steht zwischen den Teilen“ widersprach Beispiel 1 (放假了); satzfinales 了 nach dem ganzen Wort ergänzt.
+- g:离合词@HSK3（离合词） (author): Die id unterscheidet sich vom Schwesterpunkt nur durch „（离合词）“; ein sprechender Zusatz wie „动补式“ wäre klarer (Syllabus: 动补式离合词).
+- g:疑问代词的非疑问用法：（1）任指用法：①疑问代词+都……②疑问代词+疑问代词 (author): mustUse ist falsch geparst: Es enthält Metasprache (任指用法, 疑问代词 ×3) statt Kernwörtern; kein Beispielsatz kann das erfüllen. Sinnvoll wäre nur 都 (bzw. gar keine Pflicht, da Muster ② ohne 都 auskommt).
+- g:碗 (reviewer fix): Unidiomatisches Deutsch („ist … oft weggelassen“) geglättet.
+- g:动量词@HSK3 (reviewer fix): Wortstellungsregel überspitzt: Ortsnamen können auch vor dem Zählwort stehen (去过上海两回).
+- g:刚 (reviewer fix): Begründung des Distraktors 先 irreführend (他先走了 ist ohne zweite Handlung möglich); neu formuliert.
+- g:一边 (author): Der Syllabus führt 一边 als 关联副词 (HSK 3) und zusätzlich die Satzform 一边……，一边…… (HSK 3). Da das Adverb praktisch nur paarig vorkommt, überschneiden sich beide Punkte stark.
+- g:语气副词@HSK3 (author): Sense-Zuordnung (Review, aus der Gliederung erschlossen, ohne Beispielliste des Syllabus): 才² = geringe Menge/früher Zeitpunkt (才七点), 才³ = Betonung (才……呢), 就⁴ = „schon“ (früh/schnell, Gegenstück zu 才). Damit bleibt 就² (HSK 2) „genau, eben“ und 就⁵ (HSK 4) trotziger Wille (wie im HSK-4-Überblick). Konflikt: Der HSK-4-Überblick (g003) belegt 才⁴ ebenfalls mit 我才不去呢 – dort sollte 才⁴ eine andere Bedeutung bekommen (z. B. „erst dann/nur so“: 这样才对).
+- g:语气副词@HSK3 (reviewer fix): 就⁴ als „genau, eben / erst recht“ doppelte 就² (HSK 2, gleiches Beispiel 这就是我家) und 就⁵ (HSK 4, trotziger Wille im HSK-4-Überblick); auf „schon (früh/schnell)“ umgestellt, Beispiel 6 ersetzt, meaning/notes/flags angepasst. 才²/才³ beibehalten.
+- g:其他结构类型：同位短语 (no quiz): Kein festes Kernwort: Die Glieder der Apposition wechseln; 大家 und 自己 werden als Vokabeln abgefragt.
+- g:动补短语2 (author): Der Syllabus nennt für 动补短语2 keinen Inhalt; abgegrenzt als die auf HSK 3 neuen Komplementtypen (Möglichkeit 得/不, Grad 得很/极了) gegenüber 动补短语1 (HSK 2: Ergebnis, Richtung, Zustand). Bitte gegen das Original prüfen und mit dem Autor von 动补短语1 abstimmen.
+- g:数量重叠：数词+量词+数词+量词 (no quiz): Kein festes Kernwort: Das Zählwort wechselt mit dem Nomen und steht doppelt im Satz; Zählwörter werden bei den Zählwort-Punkten abgefragt.
+- g:一般来说 (reviewer fix): Quiz: 通常来说 ist ebenfalls eine natürliche Füllung mit gleicher Bedeutung – als accepted ergänzt.
+- g:（在）……以前/以后/前/后 (reviewer fix): Alle Beispiele hatten nur wegen der alten mustUse-Vorgabe 在, was im Gespräch steif wirkt und der Erklärung („fällt oft weg“) widerspricht; jetzt nur eins mit 在, und einsilbiges 后 ist ebenfalls abgedeckt.
+- g:X什么（啊） (reviewer fix): 啊 stand nur wegen der alten mustUse-Vorgabe in jedem Beispiel; ein Beispiel ohne 啊 ergänzt, wie in der Erklärung beschrieben.
+- g:该……了 (reviewer fix): Beispiel 你该休息 allein klingt unvollständig; durch 你该多休息 ersetzt.
+- g:主语：动词或动词性短语、形容词或形容词性短语作主语 (no quiz): Das Muster hat kein festes Funktionswort; das Subjekt ist eine frei gewählte Verb- oder Adjektivphrase.
+- g:主谓短语作主语 (no quiz): Das Muster hat kein festes Funktionswort; das Subjekt ist ein frei gewählter Kurzsatz.
+- g:多项定语 (no quiz): Das Muster hat kein festes Funktionswort; es geht um die Reihenfolge frei gewählter Attribute.
+- g:趋向补语的引申用法：（1）表示结果意义：动词+出/起/下 (reviewer fix): Veralteter Flag entfernt: mustUse ist bereits [出/起/下], kein Parsing-Problem mehr.
+- g:表示动作行为的开始：动词+上/起来 (reviewer fix): 上 als Beginn fälschlich als „wird zur Gewohnheit“ beschrieben; korrigiert zu „neuer Zustand tritt ein und hält an“.
+- g:数量补语3：表示动作结束到某个时间点的间隔时间 (no quiz): Kein festes Funktionswort; die Zeitangabe ist frei gewählt und lässt sich nicht sinnvoll als Lücke abfragen.
+- g:“怎样+动词”的特指问句 (reviewer fix): Veralteter Flag entfernt: mustUse ist bereits [怎样], kein Parsing-Problem mehr.
+- g:主语+被+动词+其他成分 (reviewer fix): Beispiel 3 (他的衣服都被洗干净了) unnatürlich und widerspricht der eigenen Notiz (ohne 被 natürlicher); durch typischen Satz 我的名字被写错了 ersetzt.
+- g:表示出现：处所词+动词+趋向补语/结果补语+动态助词（了）+数量短语+人/物 (reviewer fix): Veraltetes Autoren-Flag entfernt: mustUse ist im aktuellen Input korrekt, der Validator meldet nichts mehr.
+- g:表示消失：处所词+动词+结果补语+动态助词（了）+数量短语+人/物 (reviewer fix): Veraltetes Autoren-Flag entfernt: mustUse ist im aktuellen Input korrekt, der Validator meldet nichts mehr.
+- g:“是……的”句2：强调说话人的看法或态度 (reviewer fix): Veraltetes Autoren-Flag entfernt: mustUse ist im aktuellen Input korrekt, der Validator meldet nichts mehr.
+- g:主语+动词+宾语+动词+补语 (no quiz): Kein festes Kernwort: Das Muster besteht in der Wiederholung des Verbs, und das Verb wechselt von Satz zu Satz; 得 wird beim Punkt 得 abgefragt.
+- g:主语+动词+宾语+动词+补语 (reviewer fix): Deutsche Übersetzung von Beispiel 3 war doppelt („beim Spielen müde gespielt“).
+- g:一会儿……，一会儿…… (reviewer fix): Überzogene Regel: 很 ist hinter 一会儿 möglich (一会儿很冷，一会儿很热), nur seltener – „meist ohne 很“.

@@ -38,8 +38,28 @@ function requiredTokens(entry) {
     const w = entry.pattern.replace(/[¹²³⁴⁵⁶⁷⁸⁹—]/g, '');
     return [[w.replace(/（(.*?)）/g, '$1'), w.replace(/（.*?）/g, '')].filter((x, i, a) => x && a.indexOf(x) === i)];
   }
-  if (entry.kind === 'overview' || !/……|\+|[A-Z]|\//.test(entry.pattern)) return [];
-  return require('./remap.cjs').tokens(entry.pattern.replace(/^[^：]*：/, ''));
+  if (entry.kind === 'overview') return [];
+  const { tokens } = require('./remap.cjs');
+  // A quoted pattern in a label (“是……的”句1：强调时间…, “怎样+动词”的特指问句) is the pattern; the rest describes it.
+  const quoted = entry.pattern.match(/“([^”]+)”/);
+  // Labels end at the last colon (趋向补语的引申用法：（1）表示结果意义：动词+出/起/下).
+  let text = quoted ? quoted[1] : entry.pattern.slice(entry.pattern.lastIndexOf('：') + 1);
+  if (!/……|\+|[A-Z]|\//.test(text) && !quoted) return [];
+  // A quoted word list (用“大约、左右、前后”表示概数): any one of the words.
+  if (quoted && /、/.test(text) && !/……|\+/.test(text)) return [text.split('、').filter(Boolean)];
+  // Optional parts in brackets (动态助词（了）, 别提（有）多) are not required; they only separate the words around them.
+  text = text.replace(/（[^）]*）|\([^)]*\)/g, ' … ');
+  // Placeholders: phrase and constituent names (形容词性短语, 动量补语) are no words of the sentence.
+  const clean = groups => groups.map(alts => alts.filter(a => !/(短语|补语|词语|成分|代词)$/.test(a))).filter(alts => alts.length);
+  // Complete alternative patterns (A比B+动词+得+形容词/A+动词+得+比+B+形容词; AA、A一A、A了A、ABAB): only the words all
+  // share are required, in any order, so one group of them; numbered variants (①疑问代词+都……②疑问代词+疑问代词) as well.
+  const variants = text.split(/\/(?=[A-Z])|、|[①-⑩]/).filter(v => v.trim());
+  if (variants.length > 1) {
+    const sets = variants.map(v => new Set(clean(tokens(v)).flat()));
+    const common = [...sets[0]].filter(t => sets.every(s => s.has(t)));
+    return common.length ? [common] : [];
+  }
+  return clean(tokens(text));
 }
 
 module.exports = { ROOT, LEVELS, fileOf, loadGrammar, writeGrammar, requiredTokens };
