@@ -609,3 +609,49 @@ Author flags, type changes and reviewer fixes per batch, for follow-up decisions
 - w:团圆:tuan2yuan2 团圆 type → Verb: 动: verb (to be reunited), not a noun
 - w:外交:wai4jiao1 外交 (author): measureWords lists 个, but 外交 is an uncountable abstract noun and is not normally counted with 个.
 - w:无所谓:wu2suo3wei4 无所谓 type → Verb: 动: official part of speech is verb (predicate „egal sein“), not a phrase
+
+## b022 (2026-10-10, author)
+- w:消防:xiao1fang2 消防 type → Verb: 动: official part of speech is verb (Brände bekämpfen und verhüten)
+- w:学会:xue2hui4 学会 type → Nomen: 名: the syllabus lists 学会 as a noun (learned society), not the verb-resultative 学会 'erlernen'
+- w:养老:yang3lao3 养老 type → Verb: 动: verb (alte Menschen versorgen; den Lebensabend verbringen), not a noun
+- w:移民:yi2min2 移民 type → Verb: 动、名: listed first as verb (auswandern); the noun sense is secondary
+- w:以便:yi3bian4 以便 type → Konjunktion: 连: conjunction, not an adverb
+- w:以免:yi3mian3 以免 type → Konjunktion: 连: conjunction, not an adverb
+- w:灾害:zai1hai4 灾害 (author): measureWords lists 个; for 灾害 场 (cháng), 次 and 种 are the usual measure words.
+- w:遭遇:zao1yu4 遭遇 type → Verb: 动、名: primarily a verb (遭遇车祸); the noun use is secondary
+
+## b025 (2026-10-10, author)
+- w:裁决:cai2jue2 裁决 type → Verb: 动: the syllabus lists it as a verb (it is also used as a noun)
+- w:层出不穷:ceng2chu1bu4qiong2 层出不穷 type → Chengyu: vierteiliges 成语 (idiom), keine freie Phrase
+- w:拆迁:chai1qian1 拆迁 type → Verb: 动: verb (abreißen und umsiedeln), not a noun
+- w:秤:cheng4 秤 (author): measureWords lists only 台; the traditional steelyard (the core sense of 秤) is counted with 杆 (gǎn) – consider adding 杆.
+- w:迟疑:chi2yi2 迟疑 type → Adjektiv: 形: adjective in the syllabus (like 犹豫), though often used verbally (迟疑了一下)
+- w:出人意料:chu1ren2yi4liao4 出人意料 type → Chengyu: 四字成语 (CC-CEDICT: idiom), not a free phrase
+
+## b023 (2026-10-10, author)
+- w:针:zhen1 针 (author): variants lists 箴 (zhēn, 'mahnen', as in 箴言) – not a variant of 针; the actual variant is 鍼.
+- w:争论:zheng1lun4 争论 (author): measureWords: 场 is given as chang3; for 一场争论 (course of an event, like 一场大战/一场雨) the standard reading is cháng (chang2), as already listed for 战斗/战争.
+- w:争议:zheng1yi4 争议 type → Verb: 动: the syllabus lists 争议 only as a verb; nominal use is explained in the note
+- w:政策:zheng4ce4 政策 (author): measureWords lists only 个; the usual measure word for 政策 is 项 (xiàng).
+- w:祝福:zhu4fu2 祝福 type → Verb: 动: official part of speech is verb (noun use as „Segenswunsch“ is common)
+- w:自律:zi4lv4 自律 type → Verb: 动: officially a verb (sich selbst disziplinieren), also used as a noun
+- w:自我:zi4wo3 自我 type → Pronomen: 代: officially a pronoun (reflexive 'self-' before verbs: 自我介绍)
+- w:八卦:ba1gua4 八卦 type → Nomen: 名、形: noun/adjective in the syllabus, not a verb
+- w:百科全书:bai3ke1quan2shu1 百科全书 (author): measureWords lists 集 (ji2), which is not a usual measure word for 百科全书; 部 or 套 would fit better.
+- w:拜托:bai4tuo1 拜托 (author): category Formell does not fit well: 拜托 is everyday spoken language (拜托了, 拜托！).
+- w:包庇:bao1bi4 包庇 (author): category Kommunikation does not fit; 包庇 belongs to law/crime (Recht).
+- w:包容:bao1rong2 包容 type → Verb: 动: official part of speech is verb (tolerieren, mit Nachsicht hinnehmen); adjectival use is secondary
+
+## b024 (2026-10-10, author)
+- w:饱和:bao3he2 饱和 type → Verb: 动: officially a verb (市场已经饱和, 达到饱和)
+- w:鞭炮:bian1pao4 鞭炮 (author): measureWords lists 枚 (méi); for 鞭炮 the usual measure words are 挂 (guà) and 串 (chuàn) for a string of firecrackers.
+- w:变革:bian4ge2 变革 type → Verb: 动: syllabus lists it as a verb (also common as a noun)
+- w:变迁:bian4qian1 变迁 type → Verb: 动: syllabus lists it as a verb (mostly used as a noun)
+- w:变异:bian4yi4 变异 type → Verb: 动: syllabus lists it as a verb (also common as a noun)
+- w:彬彬有礼:bin1bin1you3li3 彬彬有礼 type → Chengyu: four-character set idiom (成语), derived from 文质彬彬 in the Analects
+- w:濒危:bin1wei1 濒危 type → Verb: 动: official part of speech is verb ('nahe am Untergang sein'), although mostly used attributively
+- w:并非:bing4fei1 并非 type → Verb: 动: official part of speech is verb; 并非 = 并不是 ('ist keineswegs')
+- w:并购:bing4gou4 并购 type → Verb: 动: official part of speech is verb; nominal use (这次并购) is secondary
+- w:博大精深:bo2da4jing1shen1 博大精深 type → Chengyu: four-character set idiom (成语); CC-CEDICT also marks it as idiom
+- w:博弈:bo2yi4 博弈 type → Verb: 动: official part of speech is verb; nominal use (一场博弈) is secondary
+- w:不乏:bu4fa2 不乏 type → Verb: 动: verb (不乏 + Nomen „es mangelt nicht an“), not an adverb

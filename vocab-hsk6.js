@@ -59977,9 +59977,7 @@ window.VOCAB_HSK6 = [
     "id": "w:吸取:xi1qu3",
     "word": "吸取",
     "pinyin": "xīqǔ",
-    "meaning": "aufsaugen, absorbieren, in sich aufnehmen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "aufnehmen; absorbieren; (eine Lehre) ziehen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -59987,12 +59985,34 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我们应该从这次失败中吸取教训。",
+        "pinyin": "Wǒmen yīnggāi cóng zhè cì shībài zhōng xīqǔ jiàoxùn.",
+        "german": "Wir sollten aus diesem Misserfolg eine Lehre ziehen."
+      },
+      {
+        "chinese": "植物的根从土壤中吸取水分和养分。",
+        "pinyin": "Zhíwù de gēn cóng tǔrǎng zhōng xīqǔ shuǐfèn hé yǎngfèn.",
+        "german": "Die Wurzeln der Pflanzen nehmen Wasser und Nährstoffe aus dem Boden auf."
+      },
+      {
+        "chinese": "这家公司吸取了其他企业的成功经验。",
+        "pinyin": "Zhè jiā gōngsī xīqǔ le qítā qǐyè de chénggōng jīngyàn.",
+        "german": "Diese Firma hat aus den Erfolgen anderer Unternehmen gelernt."
+      }
+    ],
     "traditional": "吸取",
     "evidence": {
       "cedict": "吸取 吸取 [xi1 qu3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "吸取 (xīqǔ) wird überwiegend im übertragenen Sinn gebraucht: 吸取教训 (xīqǔ jiàoxùn) „eine Lehre ziehen“, 吸取经验 „aus Erfahrungen lernen“, 吸取别人的长处 „sich die Stärken anderer zu eigen machen“. Konkret steht es für das Aufnehmen von Wasser oder Nährstoffen, etwa durch Pflanzenwurzeln. Das nahe verwandte 吸收 (xīshōu) ist für physische Aufnahme (Licht, Feuchtigkeit) und Wissen üblicher, während man bei 教训 typischerweise 吸取 verwendet. Eher schriftsprachlich.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:媳妇:xi2fu4",
@@ -60005,8 +60025,18 @@ window.VOCAB_HSK6 = [
     "examples": [
       {
         "chinese": "他的媳妇是老师。",
-        "pinyin": "Tā de xífù shì lǎoshī.",
+        "pinyin": "Tā de xífu shì lǎoshī.",
         "german": "Seine Frau ist Lehrerin."
+      },
+      {
+        "chinese": "他三十岁了，家里一直催他娶媳妇。",
+        "pinyin": "Tā sānshí suì le, jiāli yìzhí cuī tā qǔ xífu.",
+        "german": "Er ist dreißig, und seine Familie drängt ihn ständig, endlich zu heiraten."
+      },
+      {
+        "chinese": "老太太对这个儿媳妇很满意。",
+        "pinyin": "Lǎotàitai duì zhège érxífu hěn mǎnyì.",
+        "german": "Die alte Dame ist mit dieser Schwiegertochter sehr zufrieden."
       }
     ],
     "legacyIds": [
@@ -60020,13 +60050,19 @@ window.VOCAB_HSK6 = [
     "traditional": "媳婦",
     "evidence": {
       "cedict": "媳婦 媳妇 [xi2 fu5]"
+    },
+    "notes": "媳妇 (xífu) bedeutet ursprünglich „Schwiegertochter“, eindeutiger ist dafür 儿媳妇 (érxífu). Umgangssprachlich, besonders im Norden, ist 媳妇 bzw. 媳妇儿 (xífur) die eigene „Ehefrau“: 我媳妇, 娶媳妇 (qǔ xífu) „(als Mann) heiraten“. Neutraler ist 妻子 (qīzi), ebenfalls salopp 老婆 (lǎopo). Zählwort ist 个; 他媳妇 steht in der Umgangssprache meist ohne 的.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:习俗:xi2su2",
     "word": "习俗",
     "pinyin": "xísú",
-    "meaning": "Brauch, Gewohnheit",
+    "meaning": "Brauch; Sitte",
     "type": "Nomen",
     "level": "HSK6",
     "category": "Kultur",
@@ -60037,14 +60073,14 @@ window.VOCAB_HSK6 = [
         "german": "Die Bräuche sind an verschiedenen Orten unterschiedlich."
       },
       {
-        "chinese": "不同地方有不同的习俗。",
-        "pinyin": "Bùtóng dìfang yǒu bùtóng de xísú.",
-        "german": "Verschiedene Orte haben verschiedene Bräuche."
+        "chinese": "春节放鞭炮是一种传统习俗。",
+        "pinyin": "Chūnjié fàng biānpào shì yì zhǒng chuántǒng xísú.",
+        "german": "Zum Frühlingsfest Böller abzubrennen ist ein alter Brauch."
       },
       {
-        "chinese": "每个地方都有自己独特的习俗。",
-        "pinyin": "Měi gè dìfāng dōu yǒu zìjǐ dútè de xísú.",
-        "german": "Jeder Ort hat seine eigenen einzigartigen Braeuche."
+        "chinese": "到了国外，最好先了解一下当地的习俗。",
+        "pinyin": "Dào le guówài, zuìhǎo xiān liǎojiě yíxià dāngdì de xísú.",
+        "german": "Im Ausland sollte man sich am besten zuerst mit den örtlichen Sitten vertraut machen."
       }
     ],
     "legacyIds": [
@@ -60058,6 +60094,12 @@ window.VOCAB_HSK6 = [
     "traditional": "習俗",
     "evidence": {
       "cedict": "習俗 习俗 [xi2 su2]"
+    },
+    "notes": "习俗 (xísú) sind die überlieferten Bräuche einer Gemeinschaft, einer Region oder eines Volkes: 传统习俗, 民间习俗, 当地习俗, 尊重别人的习俗. Fast gleichbedeutend ist 风俗 (fēngsú); beide verbinden sich in 风俗习惯. Nicht verwechseln mit 习惯 (xíguàn), der persönlichen „Gewohnheit“. Zählwort ist 种.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -60071,8 +60113,18 @@ window.VOCAB_HSK6 = [
     "examples": [
       {
         "chinese": "这是一部令人捧腹的喜剧。",
-        "pinyin": "Zhè shì yī bù lìng rén pěngfù de xǐjù.",
-        "german": "Das ist eine zum Lachen komische Komödie."
+        "pinyin": "Zhè shì yí bù lìng rén pěngfù de xǐjù.",
+        "german": "Das ist eine urkomische Komödie."
+      },
+      {
+        "chinese": "周末我们去电影院看了一部喜剧。",
+        "pinyin": "Zhōumò wǒmen qù diànyǐngyuàn kàn le yí bù xǐjù.",
+        "german": "Am Wochenende haben wir uns im Kino eine Komödie angesehen."
+      },
+      {
+        "chinese": "这部电影虽然是喜剧，结尾却让人很感动。",
+        "pinyin": "Zhè bù diànyǐng suīrán shì xǐjù, jiéwěi què ràng rén hěn gǎndòng.",
+        "german": "Der Film ist zwar eine Komödie, aber das Ende ist sehr berührend."
       }
     ],
     "legacyIds": [
@@ -60096,15 +60148,19 @@ window.VOCAB_HSK6 = [
     ],
     "evidence": {
       "cedict": "喜劇 喜剧 [xi3 ju4]"
+    },
+    "notes": "喜剧 (xǐjù) ist die „Komödie“ als Film, Theaterstück oder Gattung; das Gegenstück ist 悲剧 (bēijù) „Tragödie“. Zählwort für Filme und Stücke ist 部, für Bühnenstücke auch 出. Häufige Verbindungen: 喜剧片 „Filmkomödie“, 喜剧演员 „Komiker“, 情景喜剧 „Sitcom“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:喜事:xi3shi4",
     "word": "喜事",
     "pinyin": "xǐshì",
-    "meaning": "Eheschließung, Hochzeit; Frohes Ereignis",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "freudiges Ereignis; Hochzeit",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -60112,20 +60168,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "听说你要结婚了，真是大喜事！",
+        "pinyin": "Tīngshuō nǐ yào jiéhūn le, zhēn shì dà xǐshì!",
+        "german": "Ich habe gehört, du heiratest – was für eine schöne Nachricht!"
+      },
+      {
+        "chinese": "他们家下个月办喜事，请了很多亲戚。",
+        "pinyin": "Tāmen jiā xià ge yuè bàn xǐshì, qǐng le hěn duō qīnqi.",
+        "german": "Die Familie richtet nächsten Monat eine Hochzeit aus und hat viele Verwandte eingeladen."
+      },
+      {
+        "chinese": "最近家里喜事不断，姐姐生了孩子，爸爸也升职了。",
+        "pinyin": "Zuìjìn jiāli xǐshì búduàn, jiějie shēng le háizi, bàba yě shēngzhí le.",
+        "german": "In letzter Zeit gibt es in unserer Familie einen Grund zur Freude nach dem anderen: Meine Schwester hat ein Kind bekommen, und Papa wurde befördert."
+      }
+    ],
     "traditional": "喜事",
     "evidence": {
       "cedict": "喜事 喜事 [xi3 shi4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "喜事 (xǐshì) ist jedes „freudige Ereignis“ – Geburt, Beförderung, bestandene Prüfung –, im engeren Sinn vor allem die Hochzeit: 办喜事 (bàn xǐshì) „eine Hochzeit ausrichten“. Feste Wendungen sind 大喜事 und 红白喜事 „Hochzeiten und Beerdigungen“; 喜事不断 heißt „ein Grund zur Freude jagt den nächsten“. Zählwort ist 件. Allgemeiner und nüchterner ist 好事 (hǎoshì) „gute Sache“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:洗漱:xi3shu4",
     "word": "洗漱",
     "pinyin": "xǐshù",
-    "meaning": "sich waschen und Zähne putzen",
-    "meaningStatus": "draft",
-    "meaningSource": "Entwurf (Claude)",
+    "meaning": "sich waschen und die Zähne putzen; sich frisch machen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -60133,12 +60209,34 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我每天早上七点起床，洗漱完就去上班。",
+        "pinyin": "Wǒ měi tiān zǎoshang qī diǎn qǐchuáng, xǐshù wán jiù qù shàngbān.",
+        "german": "Ich stehe jeden Morgen um sieben auf, mache mich fertig und gehe zur Arbeit."
+      },
+      {
+        "chinese": "出门旅行别忘了带洗漱用品。",
+        "pinyin": "Chūmén lǚxíng bié wàng le dài xǐshù yòngpǐn.",
+        "german": "Vergiss auf Reisen dein Waschzeug nicht."
+      },
+      {
+        "chinese": "时间不早了，快去洗漱睡觉吧。",
+        "pinyin": "Shíjiān bù zǎo le, kuài qù xǐshù shuìjiào ba.",
+        "german": "Es ist schon spät, geh dich schnell waschen und dann ab ins Bett."
+      }
+    ],
     "traditional": "洗漱",
     "evidence": {
       "cedict": "洗漱 洗漱 [xi3 shu4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "洗漱 (xǐshù) fasst die Morgen- oder Abendtoilette zusammen: Gesicht waschen und Zähne putzen (漱 = „den Mund ausspülen“). Es steht ohne Objekt, oft in Abläufen wie 起床洗漱, 洗漱完 oder 洗漱睡觉. Häufig sind 洗漱用品 „Waschzeug, Toilettenartikel“ und 洗漱间 „Waschraum“. Im lockeren Gespräch sagt man auch einfach 洗脸刷牙.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:细胞:xi4bao1",
@@ -60155,14 +60253,14 @@ window.VOCAB_HSK6 = [
         "german": "Der menschliche Körper besteht aus vielen Zellen."
       },
       {
-        "chinese": "人体由数万亿个细胞组成。",
-        "pinyin": "Réntǐ yóu shù wànyì gè xìbāo zǔchéng.",
-        "german": "Der menschliche Körper besteht aus Billionen von Zellen."
+        "chinese": "癌细胞会在体内不断扩散。",
+        "pinyin": "Ái xìbāo huì zài tǐnèi búduàn kuòsàn.",
+        "german": "Krebszellen können sich im Körper immer weiter ausbreiten."
       },
       {
-        "chinese": "人体由无数细胞组成。",
-        "pinyin": "Réntǐ yóu wúshù xìbāo zǔchéng.",
-        "german": "Der menschliche Körper besteht aus unzähligen Zellen."
+        "chinese": "他从小就很有艺术细胞。",
+        "pinyin": "Tā cóngxiǎo jiù hěn yǒu yìshù xìbāo.",
+        "german": "Er war schon als Kind künstlerisch begabt."
       }
     ],
     "legacyIds": [
@@ -60176,15 +60274,19 @@ window.VOCAB_HSK6 = [
     "traditional": "細胞",
     "evidence": {
       "cedict": "細胞 细胞 [xi4 bao1]"
+    },
+    "notes": "细胞 (xìbāo) ist die biologische „Zelle“; Zählwort ist 个. Typische Komposita: 细胞核 „Zellkern“, 癌细胞 „Krebszelle“, 干细胞 „Stammzelle“. Übertragen bedeutet 有…细胞 „ein Talent für etwas haben“: 艺术细胞, 运动细胞. Für eine Gefängniszelle (牢房) oder eine Batteriezelle (电池) passt 细胞 nicht.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:细菌:xi4jun1",
     "word": "细菌",
     "pinyin": "xìjūn",
-    "meaning": "Bakterie, Bakterien; bakteriell; bakteriologisch",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Bakterie; Keim",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -60192,20 +60294,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "饭前要洗手，免得把细菌吃进肚子里。",
+        "pinyin": "Fàn qián yào xǐ shǒu, miǎnde bǎ xìjūn chī jìn dùzi li.",
+        "german": "Vor dem Essen sollte man sich die Hände waschen, damit keine Keime in den Magen gelangen."
+      },
+      {
+        "chinese": "抗生素只对细菌有效，对病毒没有用。",
+        "pinyin": "Kàngshēngsù zhǐ duì xìjūn yǒuxiào, duì bìngdú méiyǒu yòng.",
+        "german": "Antibiotika wirken nur gegen Bakterien, gegen Viren helfen sie nicht."
+      },
+      {
+        "chinese": "夏天气温高，食物里的细菌繁殖得很快。",
+        "pinyin": "Xiàtiān qìwēn gāo, shíwù li de xìjūn fánzhí de hěn kuài.",
+        "german": "Im Sommer ist es heiß, deshalb vermehren sich Bakterien in Lebensmitteln sehr schnell."
+      }
+    ],
     "traditional": "細菌",
     "evidence": {
       "cedict": "細菌 细菌 [xi4 jun1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "细菌 (xìjūn) steht meist kollektiv für „Bakterien, Keime“; Arten zählt man mit 种. Häufige Verbindungen: 细菌感染 „bakterielle Infektion“, 细菌繁殖 „Bakterien vermehren sich“, 杀死细菌. Nicht verwechseln mit 病毒 (bìngdú) „Virus“ – der Unterschied ist etwa bei Antibiotika (抗生素) wichtig.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:系列:xi4lie4",
     "word": "系列",
     "pinyin": "xìliè",
-    "meaning": "Staffel (Fernsehserie); Aufeinanderfolge; Baureihe",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Reihe; Serie",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -60213,12 +60335,34 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "政府采取了一系列措施来保护环境。",
+        "pinyin": "Zhèngfǔ cǎiqǔ le yí xìliè cuòshī lái bǎohù huánjìng.",
+        "german": "Die Regierung hat eine Reihe von Maßnahmen zum Umweltschutz ergriffen."
+      },
+      {
+        "chinese": "这家公司推出了新的手机系列。",
+        "pinyin": "Zhè jiā gōngsī tuīchū le xīn de shǒujī xìliè.",
+        "german": "Die Firma hat eine neue Smartphone-Reihe auf den Markt gebracht."
+      },
+      {
+        "chinese": "这套系列丛书一共有十本。",
+        "pinyin": "Zhè tào xìliè cóngshū yígòng yǒu shí běn.",
+        "german": "Diese Buchreihe umfasst insgesamt zehn Bände."
+      }
+    ],
     "traditional": "系列",
     "evidence": {
       "cedict": "系列 系列 [xi4 lie4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "系列 (xìliè) bezeichnet eine zusammengehörige „Reihe“ oder „Serie“: 系列产品 „Produktreihe“, 系列丛书 „Buchreihe“, 系列剧 „Fernsehserie“. Sehr häufig ist 一系列 (yí xìliè) „eine Reihe von“ vor abstrakten Nomen: 一系列措施, 一系列问题, 一系列活动 – ein typisch schriftsprachliches Muster. Als Attribut steht 系列 meist ohne 的.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:戏曲:xi4qu3",
@@ -60230,14 +60374,19 @@ window.VOCAB_HSK6 = [
     "category": "Kultur",
     "examples": [
       {
-        "chinese": "中国有很多地方戏曲种类。",
-        "pinyin": "Zhōngguó yǒu hěn duō dìfāng xìqǔ zhǒnglèi.",
-        "german": "China hat viele regionale Formen des traditionellen Theaters."
+        "chinese": "中国的戏曲有数百种不同的形式。",
+        "pinyin": "Zhōngguó de xìqǔ yǒu shùbǎi zhǒng bùtóng de xíngshì.",
+        "german": "Die traditionelle chinesische Oper hat Hunderte verschiedener Formen."
       },
       {
-        "chinese": "中国的戏曲有数百种不同的形式。",
-        "pinyin": "Zhōngguó de xìqǔ yǒu shù bǎi zhǒng bùtóng de xíngshì.",
-        "german": "Die traditionelle chinesische Oper hat Hunderte verschiedener Formen."
+        "chinese": "爷爷每天都听收音机里的戏曲节目。",
+        "pinyin": "Yéye měi tiān dōu tīng shōuyīnjī li de xìqǔ jiémù.",
+        "german": "Opa hört jeden Tag im Radio Sendungen mit traditioneller Oper."
+      },
+      {
+        "chinese": "京剧是中国最有名的戏曲之一。",
+        "pinyin": "Jīngjù shì Zhōngguó zuì yǒumíng de xìqǔ zhī yī.",
+        "german": "Die Peking-Oper ist eine der bekanntesten Formen des traditionellen chinesischen Theaters."
       }
     ],
     "legacyIds": [
@@ -60251,15 +60400,19 @@ window.VOCAB_HSK6 = [
     "traditional": "戲曲",
     "evidence": {
       "cedict": "戲曲 戏曲 [xi4 qu3]"
+    },
+    "notes": "戏曲 (xìqǔ) ist der Oberbegriff für das traditionelle chinesische Musiktheater, das Gesang, Sprechpartien, Gestik und Akrobatik verbindet – etwa 京剧 (jīngjù) „Peking-Oper“, 昆曲 oder die vielen 地方戏 „Regionalopern“. Davon zu unterscheiden sind 戏剧 (xìjù), das Theater allgemein, und 歌剧 (gējù), die westliche Oper. Gattungen zählt man mit 种, einzelne Stücke mit 出 oder 部.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:细致:xi4zhi4",
     "word": "细致",
     "pinyin": "xìzhì",
-    "meaning": "sorgfältig, akribisch",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "sorgfältig; gründlich; fein (gearbeitet)",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -60267,12 +60420,34 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "她做事很细致，很少出错。",
+        "pinyin": "Tā zuò shì hěn xìzhì, hěn shǎo chūcuò.",
+        "german": "Sie arbeitet sehr sorgfältig und macht kaum Fehler."
+      },
+      {
+        "chinese": "医生对病人做了细致的检查。",
+        "pinyin": "Yīshēng duì bìngrén zuò le xìzhì de jiǎnchá.",
+        "german": "Der Arzt hat den Patienten gründlich untersucht."
+      },
+      {
+        "chinese": "这件瓷器做工非常细致。",
+        "pinyin": "Zhè jiàn cíqì zuògōng fēicháng xìzhì.",
+        "german": "Dieses Porzellanstück ist äußerst fein gearbeitet."
+      }
+    ],
     "traditional": "細緻",
     "evidence": {
       "cedict": "細緻 细致 [xi4 zhi4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "细致 (xìzhì) beschreibt Arbeit oder Personen, die genau und bis ins Detail sorgfältig sind: 工作细致, 细致的分析, 观察得很细致; dazu die Wendung 细致入微 „bis ins kleinste Detail“. Bei Gegenständen bedeutet es „fein gearbeitet“: 做工细致. 仔细 (zǐxì) steht dagegen häufig adverbial vor Verben (仔细看), 细心 (xìxīn) betont die achtsame Haltung. 细致 klingt etwas gehobener.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:吓:xia4",
@@ -60287,6 +60462,16 @@ window.VOCAB_HSK6 = [
         "chinese": "你吓了我一跳。",
         "pinyin": "Nǐ xià le wǒ yí tiào.",
         "german": "Du hast mich erschreckt."
+      },
+      {
+        "chinese": "突然的雷声把孩子吓哭了。",
+        "pinyin": "Tūrán de léishēng bǎ háizi xià kū le.",
+        "german": "Der plötzliche Donner hat das Kind so erschreckt, dass es zu weinen anfing."
+      },
+      {
+        "chinese": "他故意躲在门后吓人。",
+        "pinyin": "Tā gùyì duǒ zài mén hòu xià rén.",
+        "german": "Er hat sich absichtlich hinter der Tür versteckt, um andere zu erschrecken."
       }
     ],
     "legacyIds": [
@@ -60300,15 +60485,19 @@ window.VOCAB_HSK6 = [
     "traditional": "嚇",
     "evidence": {
       "cedict": "嚇 吓 [xia4]"
+    },
+    "notes": "吓 (xià) heißt „erschrecken, Angst machen“, transitiv: 别吓孩子, 吓人 „furchterregend“. Sehr häufige Muster sind 吓了一跳 (xià le yí tiào) „zusammenzucken“ – 你吓了我一跳 oder 我吓了一跳 – sowie 吓死我了 „Hab ich mich erschreckt!“ und Ergebnisformen wie 吓哭, 吓坏. 害怕 (hàipà) beschreibt dagegen den Zustand „Angst haben“. In 恐吓 (kǒnghè) „drohen“ wird das Zeichen hè gelesen.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:下功夫:xia4gong1fu5",
     "word": "下功夫",
     "pinyin": "xià gōngfu",
-    "meaning": "Zeit und Kraft in etw. investieren",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Zeit und Mühe investieren; sich große Mühe geben",
     "type": "Phrase",
     "level": "HSK6",
     "syllabus": {
@@ -60316,20 +60505,40 @@ window.VOCAB_HSK6 = [
       "pos": "",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "想学好中文，就得在发音上多下功夫。",
+        "pinyin": "Xiǎng xuéhǎo Zhōngwén, jiù děi zài fāyīn shang duō xià gōngfu.",
+        "german": "Wer gut Chinesisch lernen will, muss viel Mühe in die Aussprache stecken."
+      },
+      {
+        "chinese": "老师说我的作文还需要下功夫。",
+        "pinyin": "Lǎoshī shuō wǒ de zuòwén hái xūyào xià gōngfu.",
+        "german": "Der Lehrer meint, an meinen Aufsätzen müsse ich noch arbeiten."
+      },
+      {
+        "chinese": "这家餐厅在服务上很下功夫。",
+        "pinyin": "Zhè jiā cāntīng zài fúwù shang hěn xià gōngfu.",
+        "german": "Dieses Restaurant steckt viel Mühe in den Service."
+      }
+    ],
     "traditional": "下功夫",
     "evidence": {
       "cedict": "下功夫 下功夫 [xia4 gong1 fu5]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "下功夫 (xià gōngfu) bedeutet wörtlich „Arbeit/Mühe hineinlegen“. Der Bereich steht meist im Rahmen 在…上下功夫: 在发音上下功夫 „an der Aussprache arbeiten“. Als Verb-Objekt-Verbindung lässt es Einschübe zu: 下了很大功夫, 下苦功夫, 下足功夫. Gleichwertige Schreibung ist 下工夫.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:下单:xia4dan1",
     "word": "下单",
     "pinyin": "xiàdān",
-    "meaning": "Auftrag erteilen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "bestellen; eine Bestellung aufgeben",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -60337,20 +60546,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我昨天在网上下单，今天就到货了。",
+        "pinyin": "Wǒ zuótiān zài wǎngshang xiàdān, jīntiān jiù dàohuò le.",
+        "german": "Ich habe gestern online bestellt, und heute ist die Ware schon da."
+      },
+      {
+        "chinese": "在这家餐厅，扫一下桌上的二维码就能下单。",
+        "pinyin": "Zài zhè jiā cāntīng, sǎo yíxià zhuō shang de èrwéimǎ jiù néng xiàdān.",
+        "german": "In diesem Restaurant bestellt man einfach, indem man den QR-Code auf dem Tisch scannt."
+      },
+      {
+        "chinese": "客户已经下单了，我们得尽快发货。",
+        "pinyin": "Kèhù yǐjīng xiàdān le, wǒmen děi jǐnkuài fāhuò.",
+        "german": "Der Kunde hat bereits bestellt, wir müssen die Ware so schnell wie möglich verschicken."
+      }
+    ],
     "traditional": "下單",
     "evidence": {
       "cedict": "下單 下单 [xia4 dan1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "下单 (xiàdān) ist vor allem im Online-Handel üblich: 网上下单, 下单购买, 下单后两天到货. Auch im Restaurant per QR-Code (扫码下单) und beim Wertpapierhandel wird es verwendet. In der Umgangssprache kann 了 eingeschoben werden: 我已经下了单. Im Restaurant am Tisch sagt man sonst 点菜 (diǎncài), für Reservierungen 订 (dìng).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:夏令营:xia4ling4ying2",
     "word": "夏令营",
     "pinyin": "xiàlìngyíng",
-    "meaning": "Sommerlager",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Sommerlager; Sommercamp",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -60358,20 +60587,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "暑假我想参加一个英语夏令营。",
+        "pinyin": "Shǔjià wǒ xiǎng cānjiā yí ge Yīngyǔ xiàlìngyíng.",
+        "german": "In den Sommerferien möchte ich an einem Englisch-Sommercamp teilnehmen."
+      },
+      {
+        "chinese": "孩子们在夏令营里学会了游泳和搭帐篷。",
+        "pinyin": "Háizimen zài xiàlìngyíng li xuéhuì le yóuyǒng hé dā zhàngpeng.",
+        "german": "Im Sommerlager haben die Kinder schwimmen und Zelte aufbauen gelernt."
+      },
+      {
+        "chinese": "今年的夏令营名额有限，请尽早报名。",
+        "pinyin": "Jīnnián de xiàlìngyíng míng'é yǒuxiàn, qǐng jǐnzǎo bàomíng.",
+        "german": "Die Plätze im diesjährigen Sommercamp sind begrenzt, bitte melden Sie sich frühzeitig an."
+      }
+    ],
     "traditional": "夏令營",
     "evidence": {
       "cedict": "夏令營 夏令营 [xia4 ling4 ying2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "夏令营 (xiàlìngyíng) ist ein organisiertes Ferienlager im Sommer, meist für Kinder und Schüler, oft mit Schwerpunkt: 英语夏令营, 科学夏令营. Übliche Verben sind 参加, 报名参加 und 去. Das Gegenstück im Winter heißt 冬令营 (dōnglìngyíng). Zählwort ist 个, für Durchgänge auch 期.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:下线:xia4xian4",
     "word": "下线",
     "pinyin": "xiàxiàn",
-    "meaning": "offline gehen (Internet); offline (Internet)",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "offline gehen; vom Band laufen; aus dem Angebot genommen werden",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -60379,20 +60628,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "太晚了，我先下线了，明天再聊。",
+        "pinyin": "Tài wǎn le, wǒ xiān xiàxiàn le, míngtiān zài liáo.",
+        "german": "Es ist schon spät, ich gehe jetzt offline – wir schreiben morgen weiter."
+      },
+      {
+        "chinese": "这款新车上个月正式下线。",
+        "pinyin": "Zhè kuǎn xīn chē shàng ge yuè zhèngshì xiàxiàn.",
+        "german": "Dieses neue Automodell ist letzten Monat offiziell vom Band gelaufen."
+      },
+      {
+        "chinese": "这部电影因为内容问题被下线了。",
+        "pinyin": "Zhè bù diànyǐng yīnwèi nèiróng wèntí bèi xiàxiàn le.",
+        "german": "Der Film wurde wegen seines Inhalts aus dem Angebot genommen."
+      }
+    ],
     "traditional": "下線",
     "evidence": {
       "cedict": "下線 下线 [xia4 xian4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "下线 (xiàxiàn) ist das Gegenstück zu 上线 (shàngxiàn) und bedeutet zunächst „offline gehen“, etwa im Chat oder Onlinespiel: 我先下线了. Von Apps, Filmen oder Funktionen heißt es „aus dem Angebot genommen werden“, oft passiv: 被下线. In der Industrie bedeutet es „vom Band laufen“: 新车下线. Selten ist die Nomen-Bedeutung „Downline“ in Schneeballsystemen.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:下旬:xia4xun2",
     "word": "下旬",
     "pinyin": "xiàxún",
-    "meaning": "Drittes Monatsdrittel",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "letztes Monatsdrittel; Ende des Monats",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -60400,12 +60669,34 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我们打算十月下旬去云南旅游。",
+        "pinyin": "Wǒmen dǎsuan shíyuè xiàxún qù Yúnnán lǚyóu.",
+        "german": "Wir haben vor, Ende Oktober nach Yunnan zu reisen."
+      },
+      {
+        "chinese": "考试成绩将在本月下旬公布。",
+        "pinyin": "Kǎoshì chéngjì jiāng zài běn yuè xiàxún gōngbù.",
+        "german": "Die Prüfungsergebnisse werden gegen Ende dieses Monats bekannt gegeben."
+      },
+      {
+        "chinese": "每年四月下旬，这里的樱花开得最好。",
+        "pinyin": "Měi nián sìyuè xiàxún, zhèlǐ de yīnghuā kāi de zuì hǎo.",
+        "german": "Jedes Jahr Ende April stehen die Kirschblüten hier in voller Pracht."
+      }
+    ],
     "traditional": "下旬",
     "evidence": {
       "cedict": "下旬 下旬 [xia4 xun2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Im Chinesischen wird der Monat traditionell in drei 旬 (xún) geteilt: 上旬 (1.–10.), 中旬 (11.–20.) und 下旬 (xiàxún, ab dem 21.). Typisch ist Monat + 下旬: 三月下旬 „Ende März“, 本月下旬 „Ende dieses Monats“. Das Wort klingt etwas formell und begegnet oft in Ankündigungen und Nachrichten; umgangssprachlich sagt man auch 月底 (yuèdǐ) „Monatsende“, das enger auf die letzten Tage zielt.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:鲜明:xian1ming2",
@@ -60419,7 +60710,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "两者形成了鲜明的对比。",
         "pinyin": "Liǎngzhě xíngchéng le xiānmíng de duìbǐ.",
-        "german": "Beide bilden einen deutlichen Kontrast."
+        "german": "Die beiden bilden einen krassen Gegensatz."
+      },
+      {
+        "chinese": "这位作家的语言风格非常鲜明。",
+        "pinyin": "Zhè wèi zuòjiā de yǔyán fēnggé fēicháng xiānmíng.",
+        "german": "Der Sprachstil dieses Schriftstellers ist äußerst markant."
+      },
+      {
+        "chinese": "他在这个问题上的态度很鲜明。",
+        "pinyin": "Tā zài zhège wèntí shang de tàidu hěn xiānmíng.",
+        "german": "In dieser Frage bezieht er eindeutig Stellung."
       }
     ],
     "legacyIds": [
@@ -60433,15 +60734,19 @@ window.VOCAB_HSK6 = [
     "traditional": "鮮明",
     "evidence": {
       "cedict": "鮮明 鲜明 [xian1 ming2]"
+    },
+    "notes": "鲜明 (xiānmíng) bedeutet „deutlich, klar ausgeprägt“ und betont, dass sich etwas klar von anderem abhebt: 鲜明的对比 „krasser Gegensatz“, 特点鲜明, 个性鲜明, 主题鲜明, 旗帜鲜明 „klar Stellung beziehen“. Ursprünglich bezieht es sich auf Farben: 色彩鲜明 „klar und leuchtend“. Nicht verwechseln mit 鲜艳 (xiānyàn) „farbenfroh“ und 明显 (míngxiǎn) „offensichtlich, merklich“. Eher schriftsprachlich.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:先前:xian1qian2",
     "word": "先前",
     "pinyin": "xiānqián",
-    "meaning": "vorher; ehemalig; einstig",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "früher; vorher; zuvor",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -60449,20 +60754,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他先前在一家银行工作，后来自己开了公司。",
+        "pinyin": "Tā xiānqián zài yì jiā yínháng gōngzuò, hòulái zìjǐ kāi le gōngsī.",
+        "german": "Er hat früher bei einer Bank gearbeitet und später eine eigene Firma gegründet."
+      },
+      {
+        "chinese": "这里比先前热闹多了。",
+        "pinyin": "Zhèlǐ bǐ xiānqián rènao duō le.",
+        "german": "Hier ist es viel belebter als früher."
+      },
+      {
+        "chinese": "我们不得不改变先前的计划。",
+        "pinyin": "Wǒmen bùdébù gǎibiàn xiānqián de jìhuà.",
+        "german": "Wir mussten unseren ursprünglichen Plan ändern."
+      }
+    ],
     "traditional": "先前",
     "evidence": {
       "cedict": "先前 先前 [xian1 qian2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "先前 (xiānqián) ist ein Zeitwort für „früher, vorher“. Es steht vor dem Verb oder vor dem Subjekt, mit 的 auch als Attribut: 先前的计划 „der ursprüngliche Plan“; 比先前 „als früher“. Anders als 以前 (yǐqián) kann es nicht hinter einer Zeitangabe oder einem Satz stehen (三年以前, 吃饭以前). 先前 bezieht sich meist auf einen Zeitpunkt vor einem Bezugspunkt in der Vergangenheit und wirkt eher erzählend oder schriftlich.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:鲜艳:xian1yan4",
     "word": "鲜艳",
     "pinyin": "xiānyàn",
-    "meaning": "in leuchtenden Farben, farbenfroh, leuchtend (Farbe)",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "leuchtend; farbenfroh; bunt",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -60470,26 +60795,58 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "公园里开满了鲜艳的花。",
+        "pinyin": "Gōngyuán li kāimǎn le xiānyàn de huā.",
+        "german": "Im Park blühen überall farbenfrohe Blumen."
+      },
+      {
+        "chinese": "这件衣服颜色太鲜艳了，不适合上班穿。",
+        "pinyin": "Zhè jiàn yīfu yánsè tài xiānyàn le, bú shìhé shàngbān chuān.",
+        "german": "Die Farbe dieses Kleidungsstücks ist zu grell fürs Büro."
+      },
+      {
+        "chinese": "洗了几次以后，这块布的颜色还是很鲜艳。",
+        "pinyin": "Xǐ le jǐ cì yǐhòu, zhè kuài bù de yánsè háishi hěn xiānyàn.",
+        "german": "Auch nach mehreren Wäschen leuchten die Farben dieses Stoffes noch kräftig."
+      }
+    ],
     "traditional": "鮮豔",
     "evidence": {
       "cedict": "鮮豔 鲜艳 [xian1 yan4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "鲜艳 (xiānyàn) bezieht sich auf Farben und farbige Dinge: 颜色鲜艳, 色彩鲜艳, 鲜艳的花, 鲜艳的衣服. Für Helligkeit von Licht passen 亮 (liàng) oder 明亮. Meist positiv, bei Kleidung kann 太鲜艳 aber „zu grell“ bedeuten. Nicht verwechseln mit 鲜明 (xiānmíng) „deutlich ausgeprägt“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:嫌:xian2",
     "word": "嫌",
     "pinyin": "xián",
-    "meaning": "für zu ... halten, verachten",
+    "meaning": "etw. zu … finden; sich an etw. stören; nicht mögen",
     "type": "Verb",
     "level": "HSK6",
     "category": "Gefühle",
     "examples": [
       {
         "chinese": "她嫌这件衣服太贵了。",
-        "pinyin": "Tā xián zhè jiàn yīfu tài guìle.",
+        "pinyin": "Tā xián zhè jiàn yīfu tài guì le.",
         "german": "Sie findet dieses Kleid zu teuer."
+      },
+      {
+        "chinese": "他嫌坐公交车太慢，每天骑自行车上班。",
+        "pinyin": "Tā xián zuò gōngjiāochē tài màn, měi tiān qí zìxíngchē shàngbān.",
+        "german": "Ihm ist der Bus zu langsam, deshalb fährt er jeden Tag mit dem Rad zur Arbeit."
+      },
+      {
+        "chinese": "你要是不嫌麻烦，就帮我带一杯咖啡吧。",
+        "pinyin": "Nǐ yàoshi bù xián máfan, jiù bāng wǒ dài yì bēi kāfēi ba.",
+        "german": "Wenn es dir nicht zu viel Mühe macht, bring mir doch bitte einen Kaffee mit."
       }
     ],
     "legacyIds": [
@@ -60503,15 +60860,19 @@ window.VOCAB_HSK6 = [
     "traditional": "嫌",
     "evidence": {
       "cedict": "嫌 嫌 [xian2]"
+    },
+    "notes": "嫌 (xián) drückt Unzufriedenheit aus, meist im Rahmen 嫌 + (Objekt) + Adjektiv: 嫌贵 „zu teuer finden“, 嫌他太吵 „ihn zu laut finden“, 嫌麻烦 „etwas zu umständlich finden“. Höflich ist 你不嫌麻烦的话 „wenn es dir nicht zu viel Mühe macht“. „Verachten“ ist zu stark; stärker als 嫌 ist 嫌弃 (xiánqì) „verschmähen“. In Wörtern wie 嫌疑 (xiányí) bedeutet das Zeichen „Verdacht“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:显:xian3",
     "word": "显",
     "pinyin": "xiǎn",
-    "meaning": "sichtbar, zeigen, aussehen; deutlich, offensichtlich",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "wirken lassen; zeigen; deutlich sichtbar",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -60519,20 +60880,40 @@ window.VOCAB_HSK6 = [
       "pos": "形、动",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "穿黑色的衣服显瘦。",
+        "pinyin": "Chuān hēisè de yīfu xiǎn shòu.",
+        "german": "Schwarze Kleidung macht schlank."
+      },
+      {
+        "chinese": "这个发型很显年轻。",
+        "pinyin": "Zhège fàxíng hěn xiǎn niánqīng.",
+        "german": "Diese Frisur lässt einen deutlich jünger wirken."
+      },
+      {
+        "chinese": "这件衬衫有点儿脏，不过颜色深，不太显。",
+        "pinyin": "Zhè jiàn chènshān yǒudiǎnr zāng, búguò yánsè shēn, bú tài xiǎn.",
+        "german": "Das Hemd ist etwas schmutzig, aber weil es dunkel ist, fällt es kaum auf."
+      }
+    ],
     "traditional": "顯",
     "evidence": {
       "cedict": "顯 显 [xian3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Allein steht 显 (xiǎn) im Alltag vor allem in der Struktur 显 + Adjektiv „… wirken lassen“: 黑色显瘦 „Schwarz macht schlank“, 这个发型显年轻. Als Adjektiv heißt es „auffällig, sichtbar“, oft verneint: 不太显 „fällt kaum auf“. 显得 (xiǎnde) beschreibt dagegen, wie das Subjekt selbst wirkt: 他显得很累. Häufiger sind Komposita wie 明显, 显然, 显示.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:险:xian3",
     "word": "险",
     "pinyin": "xiǎn",
-    "meaning": "Gefahr, Bedrohung; rau, wild zerklüftet",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "gefährlich; steil, unwegsam; beinahe",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -60540,12 +60921,34 @@ window.VOCAB_HSK6 = [
       "pos": "形、副",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "好险！差点儿就被车撞了。",
+        "pinyin": "Hǎo xiǎn! Chàdiǎnr jiù bèi chē zhuàng le.",
+        "german": "Das war knapp! Fast wäre ich von einem Auto angefahren worden."
+      },
+      {
+        "chinese": "这段山路又窄又险，开车一定要小心。",
+        "pinyin": "Zhè duàn shānlù yòu zhǎi yòu xiǎn, kāichē yídìng yào xiǎoxīn.",
+        "german": "Diese Bergstrecke ist schmal und gefährlich, beim Fahren muss man sehr vorsichtig sein."
+      },
+      {
+        "chinese": "他一时没站稳，险些摔倒。",
+        "pinyin": "Tā yìshí méi zhànwěn, xiǎnxiē shuāidǎo.",
+        "german": "Er verlor kurz das Gleichgewicht und wäre beinahe hingefallen."
+      }
+    ],
     "traditional": "險",
     "evidence": {
       "cedict": "險 险 [xian3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als Adjektiv beschreibt 险 (xiǎn) gefährliche Situationen oder schwer zugängliches Gelände: 山路很险, 地势险要. Sehr umgangssprachlich ist der Ausruf 好险！ (hǎo xiǎn) „Das war knapp!“. Die adverbiale Bedeutung „beinahe, um ein Haar“ zeigt sich vor allem in 险些 (xiǎnxiē) und Wendungen wie 险胜 „knapp gewinnen“; allein ist sie schriftsprachlich. Viel häufiger sind Komposita wie 危险, 冒险, 保险.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:显著:xian3zhu4",
@@ -60559,12 +60962,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "效果非常显著。",
         "pinyin": "Xiàoguǒ fēicháng xiǎnzhù.",
-        "german": "Die Wirkung ist sehr bemerkenswert."
+        "german": "Die Wirkung ist sehr deutlich."
       },
       {
-        "chinese": "经过治疗, 病情有了显著改善。",
-        "pinyin": "Jīngguò zhìliáo, bìngqíng yǒule xiǎnzhù gǎishàn.",
-        "german": "Nach der Behandlung hat sich der Zustand signifikant verbessert."
+        "chinese": "经过治疗，病情有了显著改善。",
+        "pinyin": "Jīngguò zhìliáo, bìngqíng yǒu le xiǎnzhù gǎishàn.",
+        "german": "Nach der Behandlung hat sich der Zustand deutlich verbessert."
+      },
+      {
+        "chinese": "两组之间的差异并不显著。",
+        "pinyin": "Liǎng zǔ zhījiān de chāyì bìng bú xiǎnzhù.",
+        "german": "Der Unterschied zwischen den beiden Gruppen ist nicht signifikant."
       }
     ],
     "legacyIds": [
@@ -60578,15 +60986,19 @@ window.VOCAB_HSK6 = [
     "traditional": "顯著",
     "evidence": {
       "cedict": "顯著 显著 [xian3 zhu4]"
+    },
+    "notes": "显著 (xiǎnzhù) heißt „deutlich, beachtlich“ und ist schriftsprachlich. Typisch sind 效果显著, 成绩显著 und adverbial ohne 地 vor Verben der Veränderung: 显著提高, 显著改善, 显著增加. In der Statistik bedeutet es „signifikant“ (显著性 „Signifikanz“). Im Alltag sagt man eher 明显 (míngxiǎn).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:限:xian4",
     "word": "限",
     "pinyin": "xiàn",
-    "meaning": "begrenzen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "begrenzen; beschränken",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -60594,18 +61006,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这种商品每人限购两件。",
+        "pinyin": "Zhè zhǒng shāngpǐn měi rén xiàngòu liǎng jiàn.",
+        "german": "Von diesem Artikel darf jeder nur zwei Stück kaufen."
+      },
+      {
+        "chinese": "老师限我们三天之内交作业。",
+        "pinyin": "Lǎoshī xiàn wǒmen sān tiān zhī nèi jiāo zuòyè.",
+        "german": "Der Lehrer hat uns drei Tage Zeit gegeben, die Hausaufgaben abzugeben."
+      },
+      {
+        "chinese": "这个职位不限专业，但要有工作经验。",
+        "pinyin": "Zhège zhíwèi bú xiàn zhuānyè, dàn yào yǒu gōngzuò jīngyàn.",
+        "german": "Für diese Stelle ist kein bestimmtes Studienfach nötig, Berufserfahrung wird aber vorausgesetzt."
+      }
+    ],
     "traditional": "限",
     "evidence": {
       "cedict": "限 限 [xian4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "限 (xiàn) ist knapp und sachlich und begegnet oft in Hinweisen, Regeln und Anzeigen, meist mit einer Zahl oder Frist: 每人限购两件, 限三天内完成, 限时优惠 „zeitlich begrenztes Angebot“, 不限年龄 „ohne Altersbeschränkung“. Das allgemeinere Verb und Nomen ist 限制 (xiànzhì) „einschränken; Beschränkung“. Häufig sind auch Komposita wie 期限, 有限, 无限.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:线:xian4",
     "word": "线",
     "pinyin": "xiàn",
-    "meaning": "Faden; Linie; Kabel",
+    "meaning": "Faden; Linie; Kabel; (Zählwort) ein Hauch, ein Schimmer",
     "type": "Nomen",
     "level": "HSK6",
     "category": "Alltag",
@@ -60614,6 +61048,16 @@ window.VOCAB_HSK6 = [
         "chinese": "这根线太短了。",
         "pinyin": "Zhè gēn xiàn tài duǎn le.",
         "german": "Dieser Faden ist zu kurz."
+      },
+      {
+        "chinese": "我们坐地铁四号线去机场。",
+        "pinyin": "Wǒmen zuò dìtiě sì hào xiàn qù jīchǎng.",
+        "german": "Wir fahren mit der U-Bahn-Linie 4 zum Flughafen."
+      },
+      {
+        "chinese": "只要还有一线希望，我们就不会放弃。",
+        "pinyin": "Zhǐyào hái yǒu yí xiàn xīwàng, wǒmen jiù bú huì fàngqì.",
+        "german": "Solange es noch einen Hoffnungsschimmer gibt, geben wir nicht auf."
       }
     ],
     "legacyIds": [
@@ -60641,15 +61085,19 @@ window.VOCAB_HSK6 = [
     ],
     "evidence": {
       "cedict": "線 线 [xian4]"
+    },
+    "notes": "线 (xiàn) ist ein „Faden“ (针线 „Nadel und Faden“), eine „Leitung, Kabel“ (电线) oder eine „Linie“ (直线, 红线); dazu Verkehrslinien wie 地铁二号线 und Telefonleitungen wie 热线 „Hotline“. Zählwörter sind 条 und 根. Als Zählwort steht es mit 一 vor wenigen abstrakten Nomen und bedeutet „ein Hauch, ein Schimmer“: 一线希望, 一线生机. In 一线城市 meint es die Rangstufe einer Stadt.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:现存:xian4cun2",
     "word": "现存",
     "pinyin": "xiàncún",
-    "meaning": "übrig geblieben, übriggeblieben (alt); vorhanden",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "(noch) vorhanden sein; erhalten sein; bestehen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -60657,20 +61105,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这是现存最古老的木结构建筑之一。",
+        "pinyin": "Zhè shì xiàncún zuì gǔlǎo de mù jiégòu jiànzhù zhī yī.",
+        "german": "Das ist eines der ältesten erhaltenen Holzbauwerke."
+      },
+      {
+        "chinese": "这家博物馆现存文物三万多件。",
+        "pinyin": "Zhè jiā bówùguǎn xiàncún wénwù sānwàn duō jiàn.",
+        "german": "Dieses Museum besitzt heute über 30.000 Kulturgüter."
+      },
+      {
+        "chinese": "我们必须正视现存的问题。",
+        "pinyin": "Wǒmen bìxū zhèngshì xiàncún de wèntí.",
+        "german": "Wir müssen uns den bestehenden Problemen stellen."
+      }
+    ],
     "traditional": "現存",
     "evidence": {
       "cedict": "現存 现存 [xian4 cun2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "现存 (xiàncún) heißt „heute noch vorhanden, erhalten“ und steht meist attributiv: 现存最早的地图 „die älteste erhaltene Karte“, 现存的问题 „die bestehenden Probleme“. Als Prädikat folgt oft eine Mengenangabe: 博物馆现存文物三万件. 现有 (xiànyǒu) betont eher das momentan Verfügbare (现有资源), 现存 eher das Überdauern. Schriftsprachlich.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:限度:xian4du4",
     "word": "限度",
     "pinyin": "xiàndù",
-    "meaning": "Begrenzung",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Grenze; Höchstmaß; Limit",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -60678,20 +61146,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我的耐心是有限度的。",
+        "pinyin": "Wǒ de nàixīn shì yǒu xiàndù de.",
+        "german": "Meine Geduld hat Grenzen."
+      },
+      {
+        "chinese": "我们要最大限度地减少损失。",
+        "pinyin": "Wǒmen yào zuìdà xiàndù de jiǎnshǎo sǔnshī.",
+        "german": "Wir müssen die Verluste so gering wie möglich halten."
+      },
+      {
+        "chinese": "运动要适度，不能超过身体的限度。",
+        "pinyin": "Yùndòng yào shìdù, bù néng chāoguò shēntǐ de xiàndù.",
+        "german": "Sport sollte man in Maßen treiben und die Grenzen des Körpers nicht überschreiten."
+      }
+    ],
     "traditional": "限度",
     "evidence": {
       "cedict": "限度 限度 [xian4 du4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "限度 (xiàndù) ist die „Grenze“, bis zu der etwas gehen kann: 有一定的限度, 超过限度, 忍耐是有限度的 „Geduld hat Grenzen“. Sehr häufig sind 最大限度地 „so weit wie möglich, maximal“ und 最低限度 „Minimum, mindestens“. 限制 (xiànzhì) ist dagegen die „Einschränkung“, die von außen auferlegt wird, 界限 (jièxiàn) eine Trennlinie zwischen zwei Bereichen.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:现货:xian4huo4",
     "word": "现货",
     "pinyin": "xiànhuò",
-    "meaning": "Lagerware, vorrätige Ware",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "vorrätige Ware; Lagerware; (Börse) Kassaware",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -60699,20 +61187,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这款手机现在有现货吗？",
+        "pinyin": "Zhè kuǎn shǒujī xiànzài yǒu xiànhuò ma?",
+        "german": "Ist dieses Handy gerade vorrätig?"
+      },
+      {
+        "chinese": "这种颜色暂时没有现货，需要等两周。",
+        "pinyin": "Zhè zhǒng yánsè zànshí méiyǒu xiànhuò, xūyào děng liǎng zhōu.",
+        "german": "In dieser Farbe ist der Artikel derzeit nicht auf Lager, die Lieferzeit beträgt zwei Wochen."
+      },
+      {
+        "chinese": "现货价格和期货价格常常不一样。",
+        "pinyin": "Xiànhuò jiàgé hé qīhuò jiàgé chángcháng bù yíyàng.",
+        "german": "Kassa- und Terminpreise weichen oft voneinander ab."
+      }
+    ],
     "traditional": "現貨",
     "evidence": {
       "cedict": "現貨 现货 [xian4 huo4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "现货 (xiànhuò) ist Ware, die sofort lieferbar ist. Im Alltag, vor allem im Onlinehandel, fragt man 有现货吗？ „Ist das vorrätig?“; Gegenbegriffe sind 预售 „Vorverkauf“ und 预订 „Vorbestellung“. Im Handel und an der Börse steht 现货 „Kassaware, Spot“ gegen 期货 (qīhuò) „Termingeschäft, Futures“: 现货价格, 现货交易.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:陷入:xian4ru4",
     "word": "陷入",
     "pinyin": "xiànrù",
-    "meaning": "hineingeraten",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "geraten in; versinken in",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -60720,12 +61228,34 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "公司陷入了严重的经济困境。",
+        "pinyin": "Gōngsī xiànrù le yánzhòng de jīngjì kùnjìng.",
+        "german": "Die Firma ist in eine schwere finanzielle Notlage geraten."
+      },
+      {
+        "chinese": "听了这番话，他陷入了沉思。",
+        "pinyin": "Tīng le zhè fān huà, tā xiànrù le chénsī.",
+        "german": "Nach diesen Worten versank er in Gedanken."
+      },
+      {
+        "chinese": "双方的谈判陷入了僵局。",
+        "pinyin": "Shuāngfāng de tánpàn xiànrù le jiāngjú.",
+        "german": "Die Verhandlungen zwischen beiden Seiten sind festgefahren."
+      }
+    ],
     "traditional": "陷入",
     "evidence": {
       "cedict": "陷入 陷入 [xian4 ru4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "陷入 (xiànrù) „hineingeraten, versinken“ steht mit einem Objekt, meist einer unangenehmen Lage: 陷入困境 „in Schwierigkeiten geraten“, 陷入危机, 陷入僵局 „sich festfahren“. Neutral ist 陷入沉思 „in Gedanken versinken“. Für das konkrete Einsinken (车陷进泥里) sagt man im Alltag eher 陷进. Eher schriftsprachlich, häufig in Nachrichten.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:线索:xian4suo3",
@@ -60740,6 +61270,16 @@ window.VOCAB_HSK6 = [
         "chinese": "警察正在寻找新的线索。",
         "pinyin": "Jǐngchá zhèngzài xúnzhǎo xīn de xiànsuǒ.",
         "german": "Die Polizei sucht nach neuen Hinweisen."
+      },
+      {
+        "chinese": "这部小说有两条线索同时展开。",
+        "pinyin": "Zhè bù xiǎoshuō yǒu liǎng tiáo xiànsuǒ tóngshí zhǎnkāi.",
+        "german": "In diesem Roman entfalten sich zwei Handlungsstränge gleichzeitig."
+      },
+      {
+        "chinese": "我想了半天，还是没有一点儿线索。",
+        "pinyin": "Wǒ xiǎng le bàntiān, háishi méiyǒu yìdiǎnr xiànsuǒ.",
+        "german": "Ich habe lange überlegt, habe aber immer noch keinen Anhaltspunkt."
       }
     ],
     "legacyIds": [
@@ -60753,15 +61293,19 @@ window.VOCAB_HSK6 = [
     "traditional": "線索",
     "evidence": {
       "cedict": "線索 线索 [xian4 suo3]"
+    },
+    "notes": "线索 (xiànsuǒ) ist ein „Anhaltspunkt“ oder „Hinweis“, der zur Lösung führt – typisch bei Ermittlungen: 提供线索, 发现线索, 寻找线索. Zählwort ist 条. In Literatur und Film bedeutet es auch „Handlungsstrang“: 故事的线索. 提示 (tíshì) ist ein bewusst gegebener „Tipp“, 证据 (zhèngjù) ein „Beweis“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:限于:xian4yu2",
     "word": "限于",
     "pinyin": "xiànyú",
-    "meaning": "sich auf etw. beschränken, auf etw. begrenzt sein; durch etw. eingeschränkt sein",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "sich beschränken auf; begrenzt sein auf; eingeschränkt sein durch",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -60769,20 +61313,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这次优惠仅限于新用户。",
+        "pinyin": "Zhè cì yōuhuì jǐn xiànyú xīn yònghù.",
+        "german": "Dieses Angebot gilt nur für Neukunden."
+      },
+      {
+        "chinese": "限于篇幅，这里就不详细介绍了。",
+        "pinyin": "Xiànyú piānfú, zhèlǐ jiù bù xiángxì jièshào le.",
+        "german": "Aus Platzgründen wird hier auf eine ausführliche Darstellung verzichtet."
+      },
+      {
+        "chinese": "他的兴趣并不限于音乐，还喜欢画画。",
+        "pinyin": "Tā de xìngqù bìng bú xiànyú yīnyuè, hái xǐhuan huà huà.",
+        "german": "Seine Interessen beschränken sich nicht auf Musik, er malt auch gern."
+      }
+    ],
     "traditional": "限於",
     "evidence": {
       "cedict": "限於 限于 [xian4 yu2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "限于 (xiànyú) hat zwei typische Verwendungen. Zum einen bezeichnet es den Geltungsbereich, oft mit 仅 oder 不: 仅限于会员 „nur für Mitglieder“, 不限于 „nicht beschränkt auf“. Zum anderen nennt es eine einschränkende Bedingung: 限于篇幅 „aus Platzgründen“, 限于时间 „aus Zeitgründen“. Schriftsprachlich, häufig in Regeln und Texten.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:相差:xiang1cha4",
     "word": "相差",
     "pinyin": "xiāngchà",
-    "meaning": "abweichen, sich unterscheiden, verschieden",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "sich unterscheiden (um); auseinanderliegen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -60790,20 +61354,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我和哥哥相差三岁。",
+        "pinyin": "Wǒ hé gēge xiāngchà sān suì.",
+        "german": "Mein Bruder und ich sind drei Jahre auseinander."
+      },
+      {
+        "chinese": "两家店的价格相差不大。",
+        "pinyin": "Liǎng jiā diàn de jiàgé xiāngchà bú dà.",
+        "german": "Die Preise der beiden Läden unterscheiden sich kaum."
+      },
+      {
+        "chinese": "理想和现实往往相差很远。",
+        "pinyin": "Lǐxiǎng hé xiànshí wǎngwǎng xiāngchà hěn yuǎn.",
+        "german": "Ideal und Wirklichkeit liegen oft weit auseinander."
+      }
+    ],
     "traditional": "相差",
     "evidence": {
       "cedict": "相差 相差 [xiang1 cha4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "相差 (xiāngchà) beschreibt den Abstand zwischen zwei Größen, meist im Rahmen A和B相差 + Menge: 两人相差五岁 „die beiden sind fünf Jahre auseinander“. Häufig sind auch 相差不大, 相差很远 und 相差无几 „kaum ein Unterschied“. 差 (chà) allein bedeutet eher „fehlen“ (还差五分钟), 区别 (qūbié) ist der „Unterschied“ als Nomen.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:香肠:xiang1chang2",
     "word": "香肠",
     "pinyin": "xiāngcháng",
-    "meaning": "Wurst",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Wurst; Würstchen",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -60811,7 +61395,23 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我早饭吃了两根香肠和一个鸡蛋。",
+        "pinyin": "Wǒ zǎofàn chī le liǎng gēn xiāngcháng hé yí ge jīdàn.",
+        "german": "Zum Frühstück habe ich zwei Würstchen und ein Ei gegessen."
+      },
+      {
+        "chinese": "过年的时候，奶奶会自己做香肠。",
+        "pinyin": "Guònián de shíhou, nǎinai huì zìjǐ zuò xiāngcháng.",
+        "german": "Zum Neujahrsfest macht Oma die Würste selbst."
+      },
+      {
+        "chinese": "德国的香肠种类特别多。",
+        "pinyin": "Déguó de xiāngcháng zhǒnglèi tèbié duō.",
+        "german": "In Deutschland gibt es besonders viele Wurstsorten."
+      }
+    ],
     "traditional": "香腸",
     "measureWords": [
       {
@@ -60822,15 +61422,19 @@ window.VOCAB_HSK6 = [
     "evidence": {
       "cedict": "香腸 香肠 [xiang1 chang2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "香肠 (xiāngcháng) ist die „Wurst“; Zählwort ist 根. In China denkt man dabei oft an die süßlich gewürzte, luftgetrocknete Wurst (广式香肠, auch 腊肠 làcháng), die man zu Reis isst. Für Bratwurst oder Wiener sagt man ebenfalls 香肠 oder genauer 德国香肠, ein Hotdog heißt 热狗 (règǒu).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:相传:xiang1chuan2",
     "word": "相传",
     "pinyin": "xiāngchuán",
-    "meaning": "eine Legende besagt, der Überlieferung nach",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "überliefert sein; weitergeben; der Überlieferung nach",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -60838,20 +61442,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "相传这座桥是一千多年前建的。",
+        "pinyin": "Xiāngchuán zhè zuò qiáo shì yìqiān duō nián qián jiàn de.",
+        "german": "Der Überlieferung nach wurde diese Brücke vor über tausend Jahren gebaut."
+      },
+      {
+        "chinese": "这门手艺在他们家代代相传。",
+        "pinyin": "Zhè mén shǒuyì zài tāmen jiā dàidài xiāngchuán.",
+        "german": "Dieses Handwerk wird in ihrer Familie von Generation zu Generation weitergegeben."
+      },
+      {
+        "chinese": "相传端午节是为了纪念屈原。",
+        "pinyin": "Xiāngchuán Duānwǔjié shì wèile jìniàn Qū Yuán.",
+        "german": "Der Überlieferung nach erinnert das Drachenbootfest an den Dichter Qu Yuan."
+      }
+    ],
     "traditional": "相傳",
     "evidence": {
       "cedict": "相傳 相传 [xiang1 chuan2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "相传 (xiāngchuán) erscheint in zwei Mustern. Am Satzanfang leitet es eine Legende ein: 相传… „der Überlieferung nach, man erzählt sich, dass …“. Als Verb steht es in 代代相传 oder 世代相传 „von Generation zu Generation weitergegeben“. Schriftsprachlich, typisch für Erzählungen, Reiseführer und Geschichtstexte.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:相等:xiang1deng3",
     "word": "相等",
     "pinyin": "xiāngděng",
-    "meaning": "gleich, identisch (zahlenmäßig gleich)",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "gleich sein; gleich groß sein",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -60859,20 +61483,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这两个三角形的面积相等。",
+        "pinyin": "Zhè liǎng ge sānjiǎoxíng de miànjī xiāngděng.",
+        "german": "Die beiden Dreiecke haben den gleichen Flächeninhalt."
+      },
+      {
+        "chinese": "参加比赛的男生和女生人数相等。",
+        "pinyin": "Cānjiā bǐsài de nánshēng hé nǚshēng rénshù xiāngděng.",
+        "german": "Am Wettbewerb nehmen gleich viele Jungen wie Mädchen teil."
+      },
+      {
+        "chinese": "他们俩的收入大致相等。",
+        "pinyin": "Tāmen liǎ de shōurù dàzhì xiāngděng.",
+        "german": "Die beiden verdienen ungefähr gleich viel."
+      }
+    ],
     "traditional": "相等",
     "evidence": {
       "cedict": "相等 相等 [xiang1 deng3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "相等 (xiāngděng) bedeutet, dass messbare Größen gleich sind: 数量相等, 面积相等, 长度相等; in der Mathematik 两个角相等. Typisch sind A和B相等 oder A与B相等. 相同 (xiāngtóng) bedeutet dagegen „gleich, identisch“ in Art oder Inhalt (相同的爱好), 一样 (yíyàng) ist das alltägliche Wort für beides.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:相连:xiang1lian2",
     "word": "相连",
     "pinyin": "xiānglián",
-    "meaning": "verbinden, anfügen; verbinden, binden; Bindeglied",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "miteinander verbunden sein; aneinandergrenzen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -60880,12 +61524,34 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "客厅和厨房是相连的。",
+        "pinyin": "Kètīng hé chúfáng shì xiānglián de.",
+        "german": "Wohnzimmer und Küche gehen ineinander über."
+      },
+      {
+        "chinese": "这两座城市由一座大桥相连。",
+        "pinyin": "Zhè liǎng zuò chéngshì yóu yí zuò dà qiáo xiānglián.",
+        "german": "Die beiden Städte sind durch eine große Brücke verbunden."
+      },
+      {
+        "chinese": "两国的命运紧紧相连。",
+        "pinyin": "Liǎng guó de mìngyùn jǐnjǐn xiānglián.",
+        "german": "Das Schicksal der beiden Länder ist eng miteinander verknüpft."
+      }
+    ],
     "traditional": "相連",
     "evidence": {
       "cedict": "相連 相连 [xiang1 lian2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "相连 (xiānglián) heißt „miteinander verbunden sein“ und hat kein Objekt: Das Subjekt ist mehrteilig (A和B相连) oder der Partner steht mit 与/和 davor: 与…相连. Häufig sind 紧紧相连 und 由…相连 „durch … verbunden“, auch im übertragenen Sinn (命运相连). Das transitive „etwas verbinden“ ist 连接 (liánjiē).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:香水:xiang1shui3",
@@ -60898,8 +61564,18 @@ window.VOCAB_HSK6 = [
     "examples": [
       {
         "chinese": "她喷了一点香水。",
-        "pinyin": "Tā pēn le yīdiǎn xiāngshuǐ.",
+        "pinyin": "Tā pēn le yìdiǎn xiāngshuǐ.",
         "german": "Sie hat etwas Parfüm aufgesprüht."
+      },
+      {
+        "chinese": "我想给妈妈买一瓶香水当生日礼物。",
+        "pinyin": "Wǒ xiǎng gěi māma mǎi yì píng xiāngshuǐ dàng shēngrì lǐwù.",
+        "german": "Ich möchte meiner Mutter eine Flasche Parfüm zum Geburtstag schenken."
+      },
+      {
+        "chinese": "他身上的香水味太浓了。",
+        "pinyin": "Tā shēnshang de xiāngshuǐ wèi tài nóng le.",
+        "german": "Sein Parfüm riecht viel zu stark."
       }
     ],
     "legacyIds": [
@@ -60913,15 +61589,19 @@ window.VOCAB_HSK6 = [
     "traditional": "香水",
     "evidence": {
       "cedict": "香水 香水 [xiang1 shui3]"
+    },
+    "notes": "香水 (xiāngshuǐ) ist „Parfüm“ für Frauen wie Männer; Zählwort für Flaschen ist 瓶. Man 喷香水 „Parfüm aufsprühen“ oder 擦香水 „auftragen“; der Geruch heißt 香水味. 香 allein bedeutet „duftend“, 香味 ist allgemein ein „Duft“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:相应:xiang1ying4",
     "word": "相应",
     "pinyin": "xiāngyìng",
-    "meaning": "übereinstimmend; entsprechend; gemäß (P)",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "entsprechen; entsprechend; dementsprechend",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -60929,12 +61609,34 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 205
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "如果违反规定，就要承担相应的责任。",
+        "pinyin": "Rúguǒ wéifǎn guīdìng, jiù yào chéngdān xiāngyìng de zérèn.",
+        "german": "Wer gegen die Vorschriften verstößt, muss dafür die Verantwortung tragen."
+      },
+      {
+        "chinese": "收入提高了，生活水平也相应提高了。",
+        "pinyin": "Shōurù tígāo le, shēnghuó shuǐpíng yě xiāngyìng tígāo le.",
+        "german": "Die Einkommen sind gestiegen, und der Lebensstandard ist entsprechend mitgestiegen."
+      },
+      {
+        "chinese": "天气变冷了，商店也推出了相应的冬季产品。",
+        "pinyin": "Tiānqì biàn lěng le, shāngdiàn yě tuīchū le xiāngyìng de dōngjì chǎnpǐn.",
+        "german": "Es ist kälter geworden, und die Geschäfte haben passende Winterartikel ins Sortiment genommen."
+      }
+    ],
     "traditional": "相應",
     "evidence": {
       "cedict": "相應 相应 [xiang1 ying4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "相应 (xiāngyìng) steht meist attributiv oder adverbial: 相应的措施 „entsprechende Maßnahmen“, 承担相应的责任, 相应地调整 „entsprechend anpassen“; auch ohne 地 vor Verben: 也相应提高. Als Prädikat erscheint es in 与…相应 „mit … übereinstimmen“. 对应 (duìyìng) betont dagegen eine Eins-zu-eins-Zuordnung. Schriftsprachlich, häufig in Vorschriften.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:项链:xiang4lian4",
@@ -60949,6 +61651,16 @@ window.VOCAB_HSK6 = [
         "chinese": "这条项链很漂亮。",
         "pinyin": "Zhè tiáo xiàngliàn hěn piàoliang.",
         "german": "Diese Halskette ist sehr hübsch."
+      },
+      {
+        "chinese": "她今天戴了一条珍珠项链。",
+        "pinyin": "Tā jīntiān dài le yì tiáo zhēnzhū xiàngliàn.",
+        "german": "Sie trägt heute eine Perlenkette."
+      },
+      {
+        "chinese": "这条金项链是奶奶留给我的。",
+        "pinyin": "Zhè tiáo jīn xiàngliàn shì nǎinai liú gěi wǒ de.",
+        "german": "Diese Goldkette hat mir meine Oma hinterlassen."
       }
     ],
     "legacyIds": [
@@ -60968,6 +61680,12 @@ window.VOCAB_HSK6 = [
     ],
     "evidence": {
       "cedict": "項鏈 项链 [xiang4 lian4]"
+    },
+    "notes": "项链 (xiàngliàn) ist eine „Halskette“; Zählwort ist 条. Schmuck „trägt“ oder „legt man an“ mit 戴 (dài), nicht mit 穿: 戴项链, abnehmen heißt 摘下项链. Häufige Verbindungen: 金项链, 珍珠项链 „Perlenkette“. 项 bedeutet hier „Nacken“, 链 „Kette“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -60983,6 +61701,16 @@ window.VOCAB_HSK6 = [
         "chinese": "你会下象棋吗？",
         "pinyin": "Nǐ huì xià xiàngqí ma?",
         "german": "Kannst du chinesisches Schach spielen?"
+      },
+      {
+        "chinese": "公园里常常有老人在下象棋。",
+        "pinyin": "Gōngyuán li chángcháng yǒu lǎorén zài xià xiàngqí.",
+        "german": "Im Park spielen oft ältere Leute Xiangqi."
+      },
+      {
+        "chinese": "我们下一盘国际象棋吧。",
+        "pinyin": "Wǒmen xià yì pán guójì xiàngqí ba.",
+        "german": "Lass uns eine Partie Schach spielen."
       }
     ],
     "legacyIds": [
@@ -61002,6 +61730,12 @@ window.VOCAB_HSK6 = [
     ],
     "evidence": {
       "cedict": "象棋 象棋 [xiang4 qi2]"
+    },
+    "notes": "象棋 (xiàngqí) ist das „chinesische Schach“ (Xiangqi), das man auf den Linien eines Bretts mit Fluss in der Mitte spielt. Brettspiele „spielt“ man mit 下 (xià): 下象棋, eine Partie ist 一盘. Das Spielset zählt man mit 副. Westliches Schach heißt 国际象棋 (guójì xiàngqí), das Brettspiel Go 围棋 (wéiqí).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -61024,9 +61758,9 @@ window.VOCAB_HSK6 = [
         "german": "Crosstalk ist eine traditionelle Darstellungskunst."
       },
       {
-        "chinese": "相声是深受观众喜爱的艺术形式。",
-        "pinyin": "Xiàngsheng shì shēn shòu guānzhòng xǐ'ài de yìshù xíngshì.",
-        "german": "Crosstalk ist eine beim Publikum sehr beliebte Kunstform."
+        "chinese": "他们俩说的相声把观众逗得哈哈大笑。",
+        "pinyin": "Tāmen liǎ shuō de xiàngsheng bǎ guānzhòng dòu de hāhā dà xiào.",
+        "german": "Mit ihrem Crosstalk brachten die beiden das Publikum zum schallenden Lachen."
       }
     ],
     "legacyIds": [
@@ -61040,15 +61774,19 @@ window.VOCAB_HSK6 = [
     "traditional": "相聲",
     "evidence": {
       "cedict": "相聲 相声 [xiang4 sheng5]"
+    },
+    "notes": "相声 (xiàngsheng) ist eine traditionelle komische Vortragskunst aus Nordchina, meist als Dialog zweier Künstler (对口相声), mit Wortwitz und Pointen. Man sagt 说相声 „Crosstalk aufführen“ und 听相声 „Crosstalk anhören“; ein Stück zählt man mit 段. Die Darsteller heißen 相声演员.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:向往:xiang4wang3",
     "word": "向往",
     "pinyin": "xiàngwǎng",
-    "meaning": "sich sehnen nach, sich verzehren nach",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "sich sehnen nach; träumen von",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -61056,12 +61794,34 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "很多年轻人向往大城市的生活。",
+        "pinyin": "Hěn duō niánqīngrén xiàngwǎng dà chéngshì de shēnghuó.",
+        "german": "Viele junge Leute sehnen sich nach dem Leben in der Großstadt."
+      },
+      {
+        "chinese": "西藏是我向往已久的地方。",
+        "pinyin": "Xīzàng shì wǒ xiàngwǎng yǐ jiǔ de dìfang.",
+        "german": "Tibet ist ein Ort, von dem ich schon lange träume."
+      },
+      {
+        "chinese": "孩子们对未来充满了向往。",
+        "pinyin": "Háizimen duì wèilái chōngmǎn le xiàngwǎng.",
+        "german": "Die Kinder blicken voller Hoffnung in die Zukunft."
+      }
+    ],
     "traditional": "嚮往",
     "evidence": {
       "cedict": "嚮往 向往 [xiang4 wang3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "向往 (xiàngwǎng) drückt die Sehnsucht nach etwas Erstrebenswertem aus, das man noch nicht erreicht hat; das Objekt folgt direkt: 向往自由, 向往大城市的生活, 向往已久 „schon lange davon träumen“. Als Nomen steht es in 对…充满向往. 想念 (xiǎngniàn) heißt dagegen „vermissen“ (Bekanntes, Menschen), 渴望 (kěwàng) ist ein stärkeres, drängenderes Verlangen. Eher gehoben.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:消除:xiao1chu2",
@@ -61075,7 +61835,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "我们要消除误会。",
         "pinyin": "Wǒmen yào xiāochú wùhuì.",
-        "german": "Wir müssen die Missverständnisse beseitigen."
+        "german": "Wir müssen die Missverständnisse ausräumen."
+      },
+      {
+        "chinese": "洗个热水澡可以消除疲劳。",
+        "pinyin": "Xǐ ge rèshuǐzǎo kěyǐ xiāochú píláo.",
+        "german": "Ein heißes Bad vertreibt die Müdigkeit."
+      },
+      {
+        "chinese": "医生的解释消除了病人的顾虑。",
+        "pinyin": "Yīshēng de jiěshì xiāochú le bìngrén de gùlǜ.",
+        "german": "Die Erklärung des Arztes zerstreute die Bedenken des Patienten."
       }
     ],
     "legacyIds": [
@@ -61089,6 +61859,12 @@ window.VOCAB_HSK6 = [
     "traditional": "消除",
     "evidence": {
       "cedict": "消除 消除 [xiao1 chu2]"
+    },
+    "notes": "消除 (xiāochú) „beseitigen, beheben“ steht meist mit abstrakten Objekten: 消除误会 „ein Missverständnis ausräumen“, 消除顾虑 „Bedenken zerstreuen“, 消除影响, 消除疲劳, 消除贫困, 消除隐患 „eine Gefahrenquelle beseitigen“. 消灭 (xiāomiè) meint dagegen das völlige Vernichten (Feinde, Schädlinge), 清除 (qīngchú) das Wegräumen von Schmutz, Müll oder Daten.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -61108,12 +61884,12 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "医疗器械必须严格消毒。",
         "pinyin": "Yīliáo qìxiè bìxū yángé xiāodú.",
-        "german": "Medizinische Instrumente müssen streng desinfiziert werden."
+        "german": "Medizinische Instrumente müssen gründlich sterilisiert werden."
       },
       {
-        "chinese": "手术器械必须严格消毒。",
-        "pinyin": "Shǒushù qìxiè bìxū yángé xiāodú.",
-        "german": "Chirurgische Instrumente muessen streng desinfiziert werden."
+        "chinese": "餐具用开水消毒一下比较放心。",
+        "pinyin": "Cānjù yòng kāishuǐ xiāodú yíxià bǐjiào fàngxīn.",
+        "german": "Wenn man das Geschirr mit kochendem Wasser abkocht, ist man auf der sicheren Seite."
       }
     ],
     "legacyIds": [
@@ -61127,14 +61903,20 @@ window.VOCAB_HSK6 = [
     "traditional": "消毒",
     "evidence": {
       "cedict": "消毒 消毒 [xiao1 du2]"
+    },
+    "notes": "消毒 (xiāodú) heißt „desinfizieren, sterilisieren“; wörtlich „Gift beseitigen“. Das Objekt steht direkt dahinter oder wird mit 给 eingeleitet: 给伤口消毒, 给餐具消毒. Häufig sind 消毒液 oder 消毒水 „Desinfektionsmittel“, 高温消毒 „Hitzesterilisation“ und 严格消毒. Als Verb-Objekt-Verbindung kommt umgangssprachlich auch 消过毒 vor.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:消防:xiao1fang2",
     "word": "消防",
     "pinyin": "xiāofáng",
-    "meaning": "Feuerwehr, Brandschutz",
-    "type": "Nomen",
+    "meaning": "Brände bekämpfen und verhüten; Brandschutz",
+    "type": "Verb",
     "level": "HSK6",
     "category": "Stadt",
     "examples": [
@@ -61142,6 +61924,16 @@ window.VOCAB_HSK6 = [
         "chinese": "消防车来了。",
         "pinyin": "Xiāofángchē lái le.",
         "german": "Das Feuerwehrauto ist da."
+      },
+      {
+        "chinese": "消防员只用了十分钟就把火扑灭了。",
+        "pinyin": "Xiāofángyuán zhǐ yòng le shí fēnzhōng jiù bǎ huǒ pūmiè le.",
+        "german": "Die Feuerwehrleute haben das Feuer in nur zehn Minuten gelöscht."
+      },
+      {
+        "chinese": "学校每学期都会组织一次消防演习。",
+        "pinyin": "Xuéxiào měi xuéqī dōu huì zǔzhī yí cì xiāofáng yǎnxí.",
+        "german": "Die Schule veranstaltet jedes Halbjahr eine Brandschutzübung."
       }
     ],
     "legacyIds": [
@@ -61155,15 +61947,19 @@ window.VOCAB_HSK6 = [
     "traditional": "消防",
     "evidence": {
       "cedict": "消防 消防 [xiao1 fang2]"
+    },
+    "notes": "消防 (xiāofáng) fasst „Brandbekämpfung und Brandschutz“ zusammen. Allein steht es selten; meist bildet es Komposita und Attribute: 消防车 „Feuerwehrauto“, 消防员 „Feuerwehrmann/-frau“, 消防队 „Feuerwehr“, 消防通道 „Feuerwehrzufahrt, Rettungsweg“, 消防演习 „Brandschutzübung“, 消防安全. Die Feuerwehr erreicht man in China unter 119.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:消耗:xiao1hao4",
     "word": "消耗",
     "pinyin": "xiāohào",
-    "meaning": "Abnutzung, Verschleiß; Aufwand, Verbrauch; verbrauchen, abnutzen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "verbrauchen; aufzehren; Verbrauch",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -61171,20 +61967,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "跑步能消耗很多热量。",
+        "pinyin": "Pǎobù néng xiāohào hěn duō rèliàng.",
+        "german": "Beim Laufen verbrennt man viele Kalorien."
+      },
+      {
+        "chinese": "这种车每百公里消耗六升油。",
+        "pinyin": "Zhè zhǒng chē měi bǎi gōnglǐ xiāohào liù shēng yóu.",
+        "german": "Dieses Auto verbraucht sechs Liter auf hundert Kilometer."
+      },
+      {
+        "chinese": "照顾病人消耗了她大量的精力。",
+        "pinyin": "Zhàogù bìngrén xiāohào le tā dàliàng de jīnglì.",
+        "german": "Die Pflege des Kranken hat sie viel Kraft gekostet."
+      }
+    ],
     "traditional": "消耗",
     "evidence": {
       "cedict": "消耗 消耗 [xiao1 hao4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "消耗 (xiāohào) heißt „verbrauchen, aufzehren“, vor allem Energie, Material oder Kraft: 消耗能源, 消耗体力, 消耗时间和精力, 消耗热量 „Kalorien verbrennen“. Als Nomen steht es in 能量消耗, 消耗品 „Verbrauchsmaterial“. 消费 (xiāofèi) ist dagegen „konsumieren, Geld ausgeben“, 浪费 (làngfèi) „verschwenden“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:消灭:xiao1mie4",
     "word": "消灭",
     "pinyin": "xiāomiè",
-    "meaning": "krepieren, umkommen; liquidieren; liquidiert",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "vernichten; ausrotten; beseitigen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -61192,12 +62008,34 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这种药能有效消灭害虫。",
+        "pinyin": "Zhè zhǒng yào néng yǒuxiào xiāomiè hàichóng.",
+        "german": "Dieses Mittel vernichtet Schädlinge wirksam."
+      },
+      {
+        "chinese": "人类已经消灭了天花这种疾病。",
+        "pinyin": "Rénlèi yǐjīng xiāomiè le tiānhuā zhè zhǒng jíbìng.",
+        "german": "Die Menschheit hat die Pocken bereits ausgerottet."
+      },
+      {
+        "chinese": "一桌子菜很快就被我们消灭了。",
+        "pinyin": "Yì zhuōzi cài hěn kuài jiù bèi wǒmen xiāomiè le.",
+        "german": "Den ganzen Tisch voller Essen haben wir im Nu verputzt."
+      }
+    ],
     "traditional": "消滅",
     "evidence": {
       "cedict": "消滅 消灭 [xiao1 mie4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "消灭 (xiāomiè) bedeutet „vollständig vernichten, ausrotten“ und steht meist mit konkretem Objekt: 消灭敌人, 消灭害虫, 消灭蚊子, 消灭疾病. Scherzhaft heißt 把菜都消灭了 „alles aufessen“. Für abstrakte Dinge wie Missverständnisse oder Bedenken ist 消除 (xiāochú) üblicher. Intransitiv („untergehen“) ist es selten und schriftsprachlich.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:小麦:xiao3mai4",
@@ -61209,9 +62047,19 @@ window.VOCAB_HSK6 = [
     "category": "Natur",
     "examples": [
       {
-        "chinese": "小麦做面包。",
-        "pinyin": "Xiǎomài zuò miànbāo.",
-        "german": "Aus Weizen macht man Brot."
+        "chinese": "小麦可以磨成面粉，做面包和馒头。",
+        "pinyin": "Xiǎomài kěyǐ mó chéng miànfěn, zuò miànbāo hé mántou.",
+        "german": "Weizen kann man zu Mehl mahlen und daraus Brot und gedämpfte Brötchen machen."
+      },
+      {
+        "chinese": "中国北方主要种小麦，南方主要种水稻。",
+        "pinyin": "Zhōngguó běifāng zhǔyào zhòng xiǎomài, nánfāng zhǔyào zhòng shuǐdào.",
+        "german": "In Nordchina wird hauptsächlich Weizen angebaut, im Süden hauptsächlich Reis."
+      },
+      {
+        "chinese": "今年小麦丰收了。",
+        "pinyin": "Jīnnián xiǎomài fēngshōu le.",
+        "german": "Dieses Jahr gab es eine reiche Weizenernte."
       }
     ],
     "legacyIds": [
@@ -61231,6 +62079,12 @@ window.VOCAB_HSK6 = [
     ],
     "evidence": {
       "cedict": "小麥 小麦 [xiao3 mai4]"
+    },
+    "notes": "小麦 (xiǎomài) ist „Weizen“; umgangssprachlich auch 麦子 (màizi). Einzelne Körner zählt man mit 粒. Verwandte Getreide sind 大麦 „Gerste“, 燕麦 „Hafer“ und 荞麦 „Buchweizen“. Aus Weizen gemahlenes Mehl heißt 面粉 (miànfěn); in Nordchina sind Weizengerichte wie Nudeln und 馒头 das Grundnahrungsmittel, im Süden eher Reis.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -61244,13 +62098,18 @@ window.VOCAB_HSK6 = [
     "examples": [
       {
         "chinese": "他很小气。",
-        "pinyin": "Tā hěn xiǎoqì.",
+        "pinyin": "Tā hěn xiǎoqi.",
         "german": "Er ist sehr geizig."
       },
       {
-        "chinese": "他太小气了。",
-        "pinyin": "Tā tài xiǎoqì le.",
-        "german": "Er ist zu geizig."
+        "chinese": "别这么小气，借我用一下嘛。",
+        "pinyin": "Bié zhème xiǎoqi, jiè wǒ yòng yíxià ma.",
+        "german": "Sei nicht so knauserig, leih es mir doch mal kurz!"
+      },
+      {
+        "chinese": "他这个人太小气，一点儿小事就生气。",
+        "pinyin": "Tā zhège rén tài xiǎoqi, yìdiǎnr xiǎoshì jiù shēngqì.",
+        "german": "Er ist ziemlich kleinlich und ärgert sich über jede Kleinigkeit."
       }
     ],
     "legacyIds": [
@@ -61264,15 +62123,19 @@ window.VOCAB_HSK6 = [
     "traditional": "小氣",
     "evidence": {
       "cedict": "小氣 小气 [xiao3 qi4]"
+    },
+    "notes": "小气 (xiǎoqi) hat zwei Bedeutungen: „geizig, knauserig“ (Gegenteil 大方 dàfang „großzügig“) und „kleinlich, engstirnig“, etwa wenn sich jemand über Kleinigkeiten ärgert. Umgangssprachlich; noch salopper für „geizig“ ist 抠门 (kōumén). Sparsamkeit im positiven Sinn heißt dagegen 节约 (jiéyuē) oder 节省.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:小偷儿:xiao3tou1r5",
     "word": "小偷儿",
     "pinyin": "xiǎotōur",
-    "meaning": "Dieb, Kleinkrimineller",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Dieb; Taschendieb",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -61280,20 +62143,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "小心点儿，这儿小偷儿多。",
+        "pinyin": "Xiǎoxīn diǎnr, zhèr xiǎotōur duō.",
+        "german": "Pass auf, hier gibt es viele Taschendiebe."
+      },
+      {
+        "chinese": "我的钱包被小偷儿偷了。",
+        "pinyin": "Wǒ de qiánbāo bèi xiǎotōur tōu le.",
+        "german": "Mir hat ein Dieb das Portemonnaie geklaut."
+      },
+      {
+        "chinese": "警察终于抓住了那个小偷儿。",
+        "pinyin": "Jǐngchá zhōngyú zhuāzhù le nàge xiǎotōur.",
+        "german": "Die Polizei hat den Dieb endlich gefasst."
+      }
+    ],
     "traditional": "小偷兒",
     "evidence": {
       "cedict": "小偷兒 小偷儿 [xiao3 tou1 r5]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "小偷儿 (xiǎotōur) ist die nordchinesisch-umgangssprachliche Erhua-Form von 小偷 (xiǎotōu) „Dieb“; gemeint ist meist ein kleiner Dieb wie ein Taschen- oder Fahrraddieb. Zählwort ist 个. Typische Wendungen sind 抓小偷 „einen Dieb fassen“ und 被小偷偷了 „bestohlen werden“. Ein Räuber, der Gewalt anwendet, heißt dagegen 强盗 (qiángdào) oder 抢劫犯 (qiǎngjiéfàn).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:笑容:xiao4rong2",
     "word": "笑容",
     "pinyin": "xiàoróng",
-    "meaning": "Lächeln, lächeln über, lächeln; lächelndes Gesicht",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Lächeln; lächelnder Gesichtsausdruck",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -61301,7 +62184,23 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "她脸上露出了笑容。",
+        "pinyin": "Tā liǎn shang lùchū le xiàoróng.",
+        "german": "Auf ihrem Gesicht erschien ein Lächeln."
+      },
+      {
+        "chinese": "服务员总是带着笑容招呼客人。",
+        "pinyin": "Fúwùyuán zǒngshì dàizhe xiàoróng zhāohu kèrén.",
+        "german": "Die Bedienung begrüßt die Gäste stets mit einem Lächeln."
+      },
+      {
+        "chinese": "听到这个消息，他脸上的笑容一下子消失了。",
+        "pinyin": "Tīngdào zhège xiāoxi, tā liǎn shang de xiàoróng yíxiàzi xiāoshī le.",
+        "german": "Als er die Nachricht hörte, verschwand das Lächeln schlagartig aus seinem Gesicht."
+      }
+    ],
     "traditional": "笑容",
     "measureWords": [
       {
@@ -61312,7 +62211,13 @@ window.VOCAB_HSK6 = [
     "evidence": {
       "cedict": "笑容 笑容 [xiao4 rong2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "笑容 (xiàoróng) ist ein Nomen und bezeichnet das Lächeln, das man auf einem Gesicht sieht; das Verb „lächeln“ heißt 笑 oder 微笑 (wēixiào). Typische Verbindungen: 脸上露出笑容 „ein Lächeln zeigt sich auf dem Gesicht“, 带着笑容 „mit einem Lächeln“, 灿烂的笑容 „strahlendes Lächeln“, 一丝笑容 „ein Anflug von Lächeln“ sowie das feste 笑容满面 „über das ganze Gesicht strahlen“. Der Ausdruck ist etwas gehobener als einfaches 笑.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:效应:xiao4ying4",
@@ -61325,8 +62230,18 @@ window.VOCAB_HSK6 = [
     "examples": [
       {
         "chinese": "蝴蝶效应是一个有趣的概念。",
-        "pinyin": "Húdié xiàoyìng shì yí gè yǒuqù de gàiniàn.",
+        "pinyin": "Húdié xiàoyìng shì yí ge yǒuqù de gàiniàn.",
         "german": "Der Schmetterlingseffekt ist ein interessantes Konzept."
+      },
+      {
+        "chinese": "温室效应导致全球气温不断升高。",
+        "pinyin": "Wēnshì xiàoyìng dǎozhì quánqiú qìwēn búduàn shēnggāo.",
+        "german": "Der Treibhauseffekt lässt die globalen Temperaturen immer weiter steigen."
+      },
+      {
+        "chinese": "这家小店靠明星效应一下子火了。",
+        "pinyin": "Zhè jiā xiǎo diàn kào míngxīng xiàoyìng yíxiàzi huǒ le.",
+        "german": "Dank des Promi-Effekts wurde der kleine Laden über Nacht populär."
       }
     ],
     "legacyIds": [
@@ -61340,6 +62255,12 @@ window.VOCAB_HSK6 = [
     "traditional": "效應",
     "evidence": {
       "cedict": "效應 效应 [xiao4 ying4]"
+    },
+    "notes": "效应 (xiàoyìng) bezeichnet einen Effekt im Sinne eines (wissenschaftlichen oder gesellschaftlichen) Phänomens und steckt in vielen festen Begriffen: 温室效应 „Treibhauseffekt“, 蝴蝶效应 „Schmetterlingseffekt“, 连锁效应 „Dominoeffekt“, 明星效应 „Promi-Effekt“. Typischer Rahmen: 产生……效应. Nicht verwechseln mit 效果 (xiàoguǒ) „Wirkung, Ergebnis“ einer Handlung oder eines Mittels: 这个药效果很好. Der Ausdruck gehört eher zur Schrift- und Fachsprache.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -61352,9 +62273,19 @@ window.VOCAB_HSK6 = [
     "category": "Alltag",
     "examples": [
       {
-        "chinese": "走累了,歇一会儿吧。",
-        "pinyin": "Zǒu lèile, xiē yīhuìr ba.",
-        "german": "Wir sind vom Gehen müde, lass uns eine Pause machen."
+        "chinese": "走累了，歇一会儿吧。",
+        "pinyin": "Zǒu lèi le, xiē yíhuìr ba.",
+        "german": "Wir sind vom Laufen müde – lass uns kurz ausruhen."
+      },
+      {
+        "chinese": "你忙了一整天了，快坐下来歇歇。",
+        "pinyin": "Nǐ máng le yì zhěng tiān le, kuài zuò xiàlai xiēxie.",
+        "german": "Du warst den ganzen Tag auf den Beinen, setz dich doch mal hin und ruh dich aus."
+      },
+      {
+        "chinese": "这家饭店春节期间歇业三天。",
+        "pinyin": "Zhè jiā fàndiàn Chūnjié qījiān xiēyè sān tiān.",
+        "german": "Das Restaurant bleibt über das Frühlingsfest drei Tage geschlossen."
       }
     ],
     "legacyIds": [
@@ -61368,6 +62299,12 @@ window.VOCAB_HSK6 = [
     "traditional": "歇",
     "evidence": {
       "cedict": "歇 歇 [xie1]"
+    },
+    "notes": "歇 (xiē) ist das umgangssprachliche Wort für „sich ausruhen, eine Pause machen“; neutraler ist 休息 (xiūxi). Sehr häufig sind 歇一会儿, die Verdopplung 歇歇 und 歇口气 „kurz verschnaufen“. In Zusammensetzungen bedeutet es auch „aufhören, ruhen“: 歇业 „(vorübergehend) schließen“, 歇班 „dienstfrei haben“, 歇脚 „unterwegs rasten“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -61380,14 +62317,19 @@ window.VOCAB_HSK6 = [
     "category": "Reisen",
     "examples": [
       {
-        "chinese": "请勿携带危险物品。",
-        "pinyin": "Qǐng wù xiédài wēixiǎn wùpǐn.",
-        "german": "Bitte keine gefährlichen Gegenstände mitnehmen."
-      },
-      {
         "chinese": "请勿携带危险物品上飞机。",
         "pinyin": "Qǐng wù xiédài wēixiǎn wùpǐn shàng fēijī.",
         "german": "Bitte führen Sie keine gefährlichen Gegenstände im Flugzeug mit."
+      },
+      {
+        "chinese": "出国旅行时，请随身携带护照。",
+        "pinyin": "Chūguó lǚxíng shí, qǐng suíshēn xiédài hùzhào.",
+        "german": "Führen Sie bei Auslandsreisen bitte stets Ihren Reisepass mit."
+      },
+      {
+        "chinese": "这款充电宝体积小，携带很方便。",
+        "pinyin": "Zhè kuǎn chōngdiànbǎo tǐjī xiǎo, xiédài hěn fāngbiàn.",
+        "german": "Diese Powerbank ist klein und lässt sich bequem mitnehmen."
       }
     ],
     "legacyIds": [
@@ -61401,15 +62343,19 @@ window.VOCAB_HSK6 = [
     "traditional": "攜帶",
     "evidence": {
       "cedict": "攜帶 携带 [xie2 dai4]"
+    },
+    "notes": "携带 (xiédài) heißt „mit sich führen, bei sich tragen“ und ist schriftsprachlich-formell: Man findet es auf Hinweisschildern, in Vorschriften und Durchsagen (请勿携带…, 禁止携带…). Häufig sind 随身携带 „bei sich tragen“ und 携带方便 „leicht mitzunehmen“; auch Krankheitserreger kann man „in sich tragen“: 携带病毒. Im Alltag sagt man dafür einfach 带 (dài): 别忘了带护照.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:协会:xie2hui4",
     "word": "协会",
     "pinyin": "xiéhuì",
-    "meaning": "Assoziation, Verein, Verband, Vereinigung",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Verband; Verein; Vereinigung",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -61417,7 +62363,23 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他去年加入了当地的摄影协会。",
+        "pinyin": "Tā qùnián jiārù le dāngdì de shèyǐng xiéhuì.",
+        "german": "Er ist letztes Jahr dem örtlichen Fotoverein beigetreten."
+      },
+      {
+        "chinese": "消费者协会提醒大家注意网购安全。",
+        "pinyin": "Xiāofèizhě xiéhuì tíxǐng dàjiā zhùyì wǎnggòu ānquán.",
+        "german": "Der Verbraucherverband rät allen, beim Online-Shopping auf Sicherheit zu achten."
+      },
+      {
+        "chinese": "几位退休教师成立了一个书法协会。",
+        "pinyin": "Jǐ wèi tuìxiū jiàoshī chénglì le yí ge shūfǎ xiéhuì.",
+        "german": "Ein paar pensionierte Lehrer haben einen Kalligrafieverein gegründet."
+      }
+    ],
     "traditional": "協會",
     "measureWords": [
       {
@@ -61432,36 +62394,37 @@ window.VOCAB_HSK6 = [
     "evidence": {
       "cedict": "協會 协会 [xie2 hui4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "协会 (xiéhuì) ist eine offiziell organisierte Vereinigung, vom Hobbyverein bis zum Berufs- oder Fachverband: 作家协会 „Schriftstellerverband“, 足球协会 (kurz 足协) „Fußballverband“, 消费者协会 „Verbraucherverband“. Typische Verben sind 加入协会 „beitreten“ und 成立协会 „gründen“; Zählwort ist 个 oder 家. Ein wissenschaftlicher Fachverband heißt oft 学会 (xuéhuì), ein lockerer Studentenclub eher 社团 (shètuán).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:协调:xie2tiao2",
     "word": "协调",
     "pinyin": "xiétiáo",
-    "meaning": "koordinieren, abstimmen",
+    "meaning": "koordinieren; abstimmen; harmonisch; aufeinander abgestimmt",
     "type": "Verb",
     "level": "HSK6",
     "category": "Kommunikation",
     "examples": [
-      {
-        "chinese": "请协调好各部门的工作。",
-        "pinyin": "Qǐng xiétiáo hǎo gè bùmén de gōngzuò.",
-        "german": "Bitte koordiniere die Arbeit der Abteilungen."
-      },
       {
         "chinese": "他负责协调各部门的工作。",
         "pinyin": "Tā fùzé xiétiáo gè bùmén de gōngzuò.",
         "german": "Er ist für die Koordination der Abteilungsarbeit zuständig."
       },
       {
-        "chinese": "项目经理负责协调各部门的工作。",
-        "pinyin": "Xiàngmù jīnglǐ fùzé xiétiáo gè bùmén de gōngzuò.",
-        "german": "Der Projektmanager ist für die Koordination der Abteilungen zuständig."
+        "chinese": "这件衬衫和裤子的颜色很协调。",
+        "pinyin": "Zhè jiàn chènshān hé kùzi de yánsè hěn xiétiáo.",
+        "german": "Hemd und Hose passen farblich gut zusammen."
       },
       {
-        "chinese": "项目经理负责协调各部门之间的工作。",
-        "pinyin": "Xiàngmù jīnglǐ fùzé xiétiáo gè bùmén zhījiān de gōngzuò.",
-        "german": "Der Projektmanager ist fuer die Koordination der Arbeit zwischen den Abteilungen verantwortlich."
+        "chinese": "刚学跳舞时，我的动作很不协调。",
+        "pinyin": "Gāng xué tiàowǔ shí, wǒ de dòngzuò hěn bù xiétiáo.",
+        "german": "Als ich mit dem Tanzen anfing, waren meine Bewegungen ziemlich unkoordiniert."
       }
     ],
     "legacyIds": [
@@ -61475,15 +62438,19 @@ window.VOCAB_HSK6 = [
     "traditional": "協調",
     "evidence": {
       "cedict": "協調 协调 [xie2 tiao2]"
+    },
+    "notes": "协调 (xiétiáo) ist Adjektiv und Verb. Als Verb heißt es „koordinieren, abstimmen, vermitteln“: 协调工作, 协调各方的关系, 协调一下时间. Als Adjektiv bedeutet es „harmonisch, stimmig“: 颜色很协调 „die Farben passen gut zusammen“, 动作不协调 „unkoordinierte Bewegungen“, 发展不协调 „ungleichmäßige Entwicklung“. Abzugrenzen sind 调整 (tiáozhěng) „anpassen“ und 配合 (pèihé) „zusammenarbeiten, mitwirken“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:协助:xie2zhu4",
     "word": "协助",
     "pinyin": "xiézhù",
-    "meaning": "assistieren, helfen, unterstützen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "unterstützen; assistieren; mithelfen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -61491,20 +62458,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "请大家协助警方调查此事。",
+        "pinyin": "Qǐng dàjiā xiézhù jǐngfāng diàochá cǐ shì.",
+        "german": "Wir bitten alle, die Polizei bei der Aufklärung dieses Falls zu unterstützen."
+      },
+      {
+        "chinese": "在同事的协助下，他按时完成了报告。",
+        "pinyin": "Zài tóngshì de xiézhù xià, tā ànshí wánchéng le bàogào.",
+        "german": "Mit Unterstützung seiner Kollegen stellte er den Bericht rechtzeitig fertig."
+      },
+      {
+        "chinese": "新来的护士主要协助医生做手术。",
+        "pinyin": "Xīn lái de hùshi zhǔyào xiézhù yīshēng zuò shǒushù.",
+        "german": "Die neue Krankenschwester assistiert vor allem den Ärzten bei Operationen."
+      }
+    ],
     "traditional": "協助",
     "evidence": {
       "cedict": "協助 协助 [xie2 zhu4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "协助 (xiézhù) ist formeller als 帮助 (bāngzhù) und betont, dass man jemanden bei dessen Aufgabe unterstützt, also eine Nebenrolle spielt: 协助警方调查 „die Polizei bei den Ermittlungen unterstützen“, 协助医生做手术. Sehr häufig ist die Fügung 在……的协助下 „mit Unterstützung von …“. Im Alltag sagt man eher 帮 oder 帮忙.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:心爱:xin1ai4",
     "word": "心爱",
     "pinyin": "xīn’ài",
-    "meaning": "geliebt",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "geliebt; heiß geliebt; Lieblings-",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -61512,20 +62499,40 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他把心爱的吉他送给了弟弟。",
+        "pinyin": "Tā bǎ xīn'ài de jítā sòng gěi le dìdi.",
+        "german": "Er hat seine geliebte Gitarre seinem jüngeren Bruder geschenkt."
+      },
+      {
+        "chinese": "孩子心爱的玩具熊丢了，哭了一整晚。",
+        "pinyin": "Háizi xīn'ài de wánjùxióng diū le, kū le yì zhěng wǎn.",
+        "german": "Das Kind hat seinen heiß geliebten Teddy verloren und die ganze Nacht geweint."
+      },
+      {
+        "chinese": "他终于娶到了心爱的姑娘。",
+        "pinyin": "Tā zhōngyú qǔdào le xīn'ài de gūniang.",
+        "german": "Endlich hat er das Mädchen geheiratet, das er liebt."
+      }
+    ],
     "traditional": "心愛",
     "evidence": {
       "cedict": "心愛 心爱 [xin1 ai4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "心爱 (xīn'ài) steht fast ausschließlich attributiv mit 的 vor einem Nomen: 心爱的人 „der/die Geliebte“, 心爱的玩具 „Lieblingsspielzeug“, schriftlich auch 心爱之物. Als Prädikat (这个玩具很心爱) klingt es unnatürlich; dafür nimmt man Verben wie 喜爱 (xǐ'ài) oder 喜欢. Nicht verwechseln mit 亲爱的 (qīn'ài de), das vor allem als Anrede „Liebe/r …“ dient.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:心底:xin1di3",
     "word": "心底",
     "pinyin": "xīndǐ",
-    "meaning": "Herzensgrund; tief im Herzen",
-    "meaningStatus": "draft",
-    "meaningSource": "Entwurf (Claude)",
+    "meaning": "Herzensgrund; tiefstes Innere",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -61533,20 +62540,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我从心底里感谢你的帮助。",
+        "pinyin": "Wǒ cóng xīndǐ li gǎnxiè nǐ de bāngzhù.",
+        "german": "Ich danke dir aus tiefstem Herzen für deine Hilfe."
+      },
+      {
+        "chinese": "这个秘密她在心底藏了很多年。",
+        "pinyin": "Zhège mìmì tā zài xīndǐ cáng le hěn duō nián.",
+        "german": "Dieses Geheimnis hat sie viele Jahre tief in ihrem Herzen verborgen."
+      },
+      {
+        "chinese": "看到孩子们的笑脸，他心底升起一股暖意。",
+        "pinyin": "Kàndào háizimen de xiàoliǎn, tā xīndǐ shēngqǐ yì gǔ nuǎnyì.",
+        "german": "Beim Anblick der lachenden Kindergesichter wurde ihm warm ums Herz."
+      }
+    ],
     "traditional": "心底",
     "evidence": {
       "cedict": "心底 心底 [xin1 di3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "心底 (xīndǐ) ist „der Grund des Herzens“, das tiefste Innere. Es steht meist in festen Rahmen: 从心底(里) „aus tiefstem Herzen“, 在心底 / 藏在心底 „tief im Herzen (verborgen)“, 心底深处. Gegenüber dem alltäglichen 心里 (xīnli) ist es emphatischer und etwas literarischer; 内心 (nèixīn) betont eher das Innenleben allgemein.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:新款:xin1kuan3",
     "word": "新款",
     "pinyin": "xīnkuǎn",
-    "meaning": "neues Modell; neuer Stil",
-    "meaningStatus": "draft",
-    "meaningSource": "Entwurf (Claude)",
+    "meaning": "neues Modell; neue Ausführung",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -61554,20 +62581,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这家公司下个月要推出新款手机。",
+        "pinyin": "Zhè jiā gōngsī xià ge yuè yào tuīchū xīnkuǎn shǒujī.",
+        "german": "Die Firma bringt nächsten Monat ein neues Handymodell heraus."
+      },
+      {
+        "chinese": "这双鞋是今年的新款，所以不打折。",
+        "pinyin": "Zhè shuāng xié shì jīnnián de xīnkuǎn, suǒyǐ bù dǎzhé.",
+        "german": "Diese Schuhe sind ein neues Modell von diesem Jahr, deshalb gibt es keinen Rabatt."
+      },
+      {
+        "chinese": "你想要最新款还是去年的款式？",
+        "pinyin": "Nǐ xiǎng yào zuì xīnkuǎn háishi qùnián de kuǎnshì?",
+        "german": "Willst du das neueste Modell oder das vom letzten Jahr?"
+      }
+    ],
     "traditional": "新款",
     "evidence": {
       "cedict": "新款 新款 [xin1 kuan3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "新款 (xīnkuǎn) kommt aus der Welt des Handels und der Werbung und bezeichnet das neue Modell eines Produkts, von Handys und Autos bis zu Kleidung. Es steht attributiv (新款手机, 新款汽车) oder allein als Nomen (这是今年的新款). Häufig sind 推出新款 „ein neues Modell herausbringen“ und 最新款 „neuestes Modell“. Dahinter steckt das Zählwort 款 für Modelle und Ausführungen: 这款手机, 一款新车.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:心灵:xin1ling2",
     "word": "心灵",
     "pinyin": "xīnlíng",
-    "meaning": "Geist",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Seele; Innenleben; Herz (übertragen)",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -61575,20 +62622,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "音乐可以抚慰人的心灵。",
+        "pinyin": "Yīnyuè kěyǐ fǔwèi rén de xīnlíng.",
+        "german": "Musik kann die Seele trösten."
+      },
+      {
+        "chinese": "父母离婚给孩子幼小的心灵带来了很大伤害。",
+        "pinyin": "Fùmǔ líhūn gěi háizi yòuxiǎo de xīnlíng dàilái le hěn dà shānghài.",
+        "german": "Die Scheidung der Eltern hat die Kinderseele schwer verletzt."
+      },
+      {
+        "chinese": "外表不重要，心灵美才最重要。",
+        "pinyin": "Wàibiǎo bú zhòngyào, xīnlíng měi cái zuì zhòngyào.",
+        "german": "Das Äußere ist unwichtig – auf die inneren Werte kommt es an."
+      }
+    ],
     "traditional": "心靈",
     "evidence": {
       "cedict": "心靈 心灵 [xin1 ling2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "心灵 (xīnlíng) meint die Seele, das Gefühls- und Innenleben eines Menschen, und ist eher gehoben-literarisch: 心灵深处 „tief in der Seele“, 幼小的心灵 „junge Kinderseele“, 心灵美 „innere Schönheit“, 心灵鸡汤 „Seelenbalsam“ (oft spöttisch für Wohlfühlsprüche). Für die Psyche im wissenschaftlichen Sinn steht 心理 (xīnlǐ), für Geist und Moral eher 精神 (jīngshén). In der Wendung 心灵手巧 „klug und geschickt“ hat 心灵 die ältere Bedeutung „aufgeweckt“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:新媒体:xin1mei2ti3",
     "word": "新媒体",
     "pinyin": "xīnméitǐ",
-    "meaning": "Neue Medien (Publ)",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "neue Medien; digitale Medien",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -61596,20 +62663,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "现在很多年轻人通过新媒体获取新闻。",
+        "pinyin": "Xiànzài hěn duō niánqīngrén tōngguò xīnméitǐ huòqǔ xīnwén.",
+        "german": "Viele junge Leute beziehen ihre Nachrichten heute über die neuen Medien."
+      },
+      {
+        "chinese": "她大学毕业后在一家公司做新媒体运营。",
+        "pinyin": "Tā dàxué bìyè hòu zài yì jiā gōngsī zuò xīnméitǐ yùnyíng.",
+        "german": "Nach dem Studium hat sie in einer Firma im Social-Media-Management angefangen."
+      },
+      {
+        "chinese": "新媒体的发展给传统报纸带来了很大压力。",
+        "pinyin": "Xīnméitǐ de fāzhǎn gěi chuántǒng bàozhǐ dàilái le hěn dà yālì.",
+        "german": "Der Aufstieg der neuen Medien setzt die klassischen Zeitungen stark unter Druck."
+      }
+    ],
     "traditional": "新媒體",
     "evidence": {
       "cedict": "新媒體 新媒体 [xin1 mei2 ti3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "新媒体 (xīnméitǐ) sind die digitalen Medien wie WeChat-Kanäle, Weibo oder Kurzvideo-Plattformen, im Gegensatz zu 传统媒体 (chuántǒng méitǐ) „traditionelle Medien“ wie Zeitung, Radio und Fernsehen. Häufig sind 新媒体平台 und 新媒体运营, das Berufsfeld „Social-Media-Management“. Verwandt ist 自媒体 (zìméitǐ), womit Kanäle einzelner Content-Ersteller gemeint sind.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:心目:xin1mu4",
     "word": "心目",
     "pinyin": "xīnmù",
-    "meaning": "Vorstellung; Sicht (in jds Augen)",
-    "meaningStatus": "draft",
-    "meaningSource": "Entwurf (Claude)",
+    "meaning": "Vorstellung; Sichtweise; (in) jds Augen",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -61617,18 +62704,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "在孩子们的心目中，爸爸是无所不能的。",
+        "pinyin": "Zài háizimen de xīnmù zhōng, bàba shì wúsuǒbùnéng de.",
+        "german": "In den Augen der Kinder kann Papa einfach alles."
+      },
+      {
+        "chinese": "你心目中理想的工作是什么样的？",
+        "pinyin": "Nǐ xīnmù zhōng lǐxiǎng de gōngzuò shì shénmeyàng de?",
+        "german": "Wie sieht für dich der ideale Job aus?"
+      },
+      {
+        "chinese": "这位老教授在学生心目中地位很高。",
+        "pinyin": "Zhè wèi lǎo jiàoshòu zài xuésheng xīnmù zhōng dìwèi hěn gāo.",
+        "german": "Der alte Professor genießt bei seinen Studenten hohes Ansehen."
+      }
+    ],
     "traditional": "心目",
     "evidence": {
       "cedict": "心目 心目 [xin1 mu4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "心目 (xīnmù) kommt praktisch nur in der Fügung 心目中 vor: 在……心目中 „in den Augen von …, nach Ansicht von …“ und ……心目中的 + Nomen „das, was jemand sich als … vorstellt“, z. B. 心目中的英雄 „sein Held“, 心目中理想的伴侣 „der Traumpartner“. Umgangssprachlich entspricht dem 在……眼里. Allein stehend wird 心目 kaum gebraucht.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:新能源:xin1neng2yuan2",
     "word": "新能源",
     "pinyin": "xīn néngyuán",
-    "meaning": "neue Energien; erneuerbare Energien",
+    "meaning": "neue Energien; alternative Energien",
     "type": "Nomen",
     "level": "HSK6",
     "category": "Technik",
@@ -61636,7 +62745,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "发展新能源是应对气候变化的关键措施。",
         "pinyin": "Fāzhǎn xīn néngyuán shì yìngduì qìhòu biànhuà de guānjiàn cuòshī.",
-        "german": "Die Entwicklung neuer Energien ist eine Schluessel-Massnahme gegen den Klimawandel."
+        "german": "Der Ausbau neuer Energien ist eine Schlüsselmaßnahme gegen den Klimawandel."
+      },
+      {
+        "chinese": "越来越多的人开始买新能源汽车。",
+        "pinyin": "Yuè lái yuè duō de rén kāishǐ mǎi xīn néngyuán qìchē.",
+        "german": "Immer mehr Menschen kaufen sich ein Elektro- oder Hybridauto."
+      },
+      {
+        "chinese": "太阳能和风能都属于新能源。",
+        "pinyin": "Tàiyángnéng hé fēngnéng dōu shǔyú xīn néngyuán.",
+        "german": "Solar- und Windenergie zählen zu den alternativen Energien."
       }
     ],
     "legacyIds": [
@@ -61650,6 +62769,12 @@ window.VOCAB_HSK6 = [
     "traditional": "新能源",
     "evidence": {
       "cedict": "新能源 新能源 [xin1 neng2 yuan2]"
+    },
+    "notes": "新能源 (xīn néngyuán) umfasst im chinesischen Sprachgebrauch alle nicht-fossilen „neuen“ Energieformen, also Solar- und Windenergie, Wasserstoff, oft auch Kernenergie – daher deckt es sich nicht ganz mit „erneuerbare Energien“ (可再生能源). Sehr häufig ist 新能源汽车 (kurz 新能源车) für Elektro- und Hybridautos, die in China eigene grüne Kennzeichen haben. Typische Verben: 开发、发展、利用新能源.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -61663,13 +62788,18 @@ window.VOCAB_HSK6 = [
     "examples": [
       {
         "chinese": "这份工作的薪水不错。",
-        "pinyin": "Zhè fèn gōngzuò de xīnshuǐ búcuò.",
+        "pinyin": "Zhè fèn gōngzuò de xīnshui búcuò.",
         "german": "Das Gehalt für diese Stelle ist nicht schlecht."
       },
       {
         "chinese": "他对自己的薪水不满意。",
-        "pinyin": "Tā duì zìjǐ de xīnshuǐ bù mǎnyì.",
+        "pinyin": "Tā duì zìjǐ de xīnshui bù mǎnyì.",
         "german": "Er ist mit seinem Gehalt nicht zufrieden."
+      },
+      {
+        "chinese": "他每个月领了薪水就先还房贷。",
+        "pinyin": "Tā měi ge yuè lǐng le xīnshui jiù xiān huán fángdài.",
+        "german": "Sobald sein Gehalt da ist, zahlt er jeden Monat zuerst die Rate für die Wohnung ab."
       }
     ],
     "legacyIds": [
@@ -61683,21 +62813,37 @@ window.VOCAB_HSK6 = [
     "traditional": "薪水",
     "evidence": {
       "cedict": "薪水 薪水 [xin1 shui3]"
+    },
+    "notes": "薪水 (xīnshui) ist das regelmäßige Gehalt eines Angestellten und klingt etwas gehobener als das allgemein übliche 工资 (gōngzī). Typische Verbindungen: 薪水高/低, 领薪水 „Gehalt bekommen“, 涨薪水 „eine Gehaltserhöhung bekommen“. Verwandt sind 月薪 „Monatsgehalt“, 年薪 „Jahresgehalt“ und das formelle 薪资 in Stellenanzeigen. Die zweite Silbe wird im Hochchinesischen meist neutral gesprochen, man hört aber auch xīnshuǐ.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:心疼:xin1teng2",
     "word": "心疼",
     "pinyin": "xīnténg",
-    "meaning": "Mitleid haben; es tut einem leid",
+    "meaning": "jdn. innig lieben; mit jdm. mitleiden; einem leidtun (um Geld, Verlust)",
     "type": "Verb",
     "level": "HSK6",
     "category": "Gefühle",
     "examples": [
       {
-        "chinese": "妈妈很心疼孩子。",
-        "pinyin": "Māma hěn xīnténg háizi.",
-        "german": "Die Mutter hat Mitleid mit dem Kind."
+        "chinese": "看到孩子生病，妈妈心疼得睡不着觉。",
+        "pinyin": "Kàndào háizi shēngbìng, māma xīnténg de shuì bu zháo jiào.",
+        "german": "Die Mutter litt so sehr mit ihrem kranken Kind, dass sie nicht schlafen konnte."
+      },
+      {
+        "chinese": "这件衣服花了我两千块，现在想想真心疼。",
+        "pinyin": "Zhè jiàn yīfu huā le wǒ liǎngqiān kuài, xiànzài xiǎngxiang zhēn xīnténg.",
+        "german": "Das Teil hat mich zweitausend Yuan gekostet – wenn ich jetzt daran denke, tut mir das Geld richtig weh."
+      },
+      {
+        "chinese": "你别太累了，我会心疼的。",
+        "pinyin": "Nǐ bié tài lèi le, wǒ huì xīnténg de.",
+        "german": "Mach dich nicht so kaputt – es tut mir weh, dich so zu sehen."
       }
     ],
     "legacyIds": [
@@ -61711,6 +62857,12 @@ window.VOCAB_HSK6 = [
     "traditional": "心疼",
     "evidence": {
       "cedict": "心疼 心疼 [xin1 teng2]"
+    },
+    "notes": "心疼 (xīnténg) meint in der Regel keine Herzschmerzen im medizinischen Sinn (dafür sagt man etwa 心口疼). Es hat zwei Hauptbedeutungen: Erstens die liebevolle Sorge um nahestehende Menschen, deren Leiden einem selbst wehtut: 妈妈心疼孩子. Zweitens das Bedauern über Verlust oder Verschwendung: 心疼钱 „dem Geld nachtrauern“. Es nimmt ein Objekt und Gradadverbien (很心疼, 心疼得……). Anders als das distanziertere 同情 (tóngqíng) „Mitleid haben“ setzt 心疼 Nähe und Zuneigung voraus.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -61718,8 +62870,6 @@ window.VOCAB_HSK6 = [
     "word": "新兴",
     "pinyin": "xīnxīng",
     "meaning": "aufstrebend; neu aufkommend",
-    "meaningStatus": "draft",
-    "meaningSource": "Entwurf (Claude)",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -61727,12 +62877,34 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "人工智能是一个快速发展的新兴产业。",
+        "pinyin": "Réngōng zhìnéng shì yí ge kuàisù fāzhǎn de xīnxīng chǎnyè.",
+        "german": "Künstliche Intelligenz ist eine junge, schnell wachsende Branche."
+      },
+      {
+        "chinese": "很多外国公司把目光投向了新兴市场。",
+        "pinyin": "Hěn duō wàiguó gōngsī bǎ mùguāng tóuxiàng le xīnxīng shìchǎng.",
+        "german": "Viele ausländische Unternehmen haben die Schwellenmärkte ins Visier genommen."
+      },
+      {
+        "chinese": "这座新兴城市几十年前还是一片农田。",
+        "pinyin": "Zhè zuò xīnxīng chéngshì jǐshí nián qián hái shì yí piàn nóngtián.",
+        "german": "Wo heute diese aufstrebende Stadt steht, waren vor ein paar Jahrzehnten noch Felder."
+      }
+    ],
     "traditional": "新興",
     "evidence": {
       "cedict": "新興 新兴 [xin1 xing1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "新兴 (xīnxīng) bedeutet „neu entstanden und im Aufstieg begriffen“ und steht meist attributiv vor Nomen der Wirtschaft und Gesellschaft: 新兴产业 „junge Branche“, 新兴市场 „Schwellenmarkt“, 新兴国家 „Schwellenland“, 新兴技术, 新兴城市. Es ist schriftsprachlich und wird selten als Prädikat gebraucht. Nicht verwechseln mit 新型 (xīnxíng) „neuartig, neuen Typs“, das sich auf Produkte und Technik bezieht.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:新颖:xin1ying3",
@@ -61747,6 +62919,16 @@ window.VOCAB_HSK6 = [
         "chinese": "他的想法很新颖。",
         "pinyin": "Tā de xiǎngfǎ hěn xīnyǐng.",
         "german": "Seine Idee ist sehr originell."
+      },
+      {
+        "chinese": "这款手机的外观设计很新颖。",
+        "pinyin": "Zhè kuǎn shǒujī de wàiguān shèjì hěn xīnyǐng.",
+        "german": "Das Design dieses Handys ist ausgesprochen neuartig."
+      },
+      {
+        "chinese": "这篇作文题材新颖，老师给了高分。",
+        "pinyin": "Zhè piān zuòwén tícái xīnyǐng, lǎoshī gěi le gāo fēn.",
+        "german": "Der Aufsatz hat ein originelles Thema, deshalb hat der Lehrer ihn gut benotet."
       }
     ],
     "legacyIds": [
@@ -61760,15 +62942,19 @@ window.VOCAB_HSK6 = [
     "traditional": "新穎",
     "evidence": {
       "cedict": "新穎 新颖 [xin1 ying3]"
+    },
+    "notes": "新颖 (xīnyǐng) heißt „neuartig, originell“ und beschreibt vor allem Ideen, Gestaltung und Inhalte: 构思新颖 „originell konzipiert“, 设计新颖, 题材新颖 „ein ungewöhnliches Thema“, 款式新颖. Auf Personen bezieht es sich kaum. Es klingt eher schriftlich; im Gespräch sagt man oft 有新意 oder 很新鲜. 新鲜 (xīnxiān) bedeutet daneben auch „frisch“ (Obst, Luft), was 新颖 nicht abdeckt.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:心愿:xin1yuan4",
     "word": "心愿",
     "pinyin": "xīnyuàn",
-    "meaning": "Anliegen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Herzenswunsch; sehnlicher Wunsch",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -61776,12 +62962,34 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "去长城看看是奶奶多年的心愿。",
+        "pinyin": "Qù Chángchéng kànkan shì nǎinai duō nián de xīnyuàn.",
+        "german": "Einmal die Große Mauer zu sehen, ist seit vielen Jahren Omas Herzenswunsch."
+      },
+      {
+        "chinese": "你现在最大的心愿是什么？",
+        "pinyin": "Nǐ xiànzài zuì dà de xīnyuàn shì shénme?",
+        "german": "Was ist im Moment dein größter Wunsch?"
+      },
+      {
+        "chinese": "他终于实现了父亲的心愿，考上了医学院。",
+        "pinyin": "Tā zhōngyú shíxiàn le fùqin de xīnyuàn, kǎoshàng le yīxuéyuàn.",
+        "german": "Er hat seinem Vater endlich den Herzenswunsch erfüllt und einen Medizinstudienplatz bekommen."
+      }
+    ],
     "traditional": "心願",
     "evidence": {
       "cedict": "心願 心愿 [xin1 yuan4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "心愿 (xīnyuàn) ist ein persönlicher, oft lange gehegter Herzenswunsch und klingt gefühlvoller als das neutrale 愿望 (yuànwàng). Typische Verbindungen: 实现心愿 „sich einen Wunsch erfüllen“, 最大的心愿, 多年的心愿, 了却心愿 „einen Wunsch endlich erfüllt sehen“, 许下心愿 „sich etwas wünschen“ (z. B. beim Geburtstagskuchen). Zählwort ist 个.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:心脏:xin1zang4",
@@ -61793,9 +63001,19 @@ window.VOCAB_HSK6 = [
     "category": "Gesundheit",
     "examples": [
       {
-        "chinese": "心脏是最重要的器官。",
-        "pinyin": "Xīnzàng shì zuì zhòngyào de qìguān.",
-        "german": "Das Herz ist das wichtigste Organ."
+        "chinese": "心脏是人体最重要的器官之一。",
+        "pinyin": "Xīnzàng shì réntǐ zuì zhòngyào de qìguān zhī yī.",
+        "german": "Das Herz ist eines der wichtigsten Organe des Körpers."
+      },
+      {
+        "chinese": "爷爷有心脏病，不能做剧烈运动。",
+        "pinyin": "Yéye yǒu xīnzàngbìng, bù néng zuò jùliè yùndòng.",
+        "german": "Opa ist herzkrank und darf keinen anstrengenden Sport treiben."
+      },
+      {
+        "chinese": "天安门广场位于北京的心脏地带。",
+        "pinyin": "Tiān'ānmén Guǎngchǎng wèiyú Běijīng de xīnzàng dìdài.",
+        "german": "Der Tian'anmen-Platz liegt im Herzen Pekings."
       }
     ],
     "legacyIds": [
@@ -61819,6 +63037,12 @@ window.VOCAB_HSK6 = [
     ],
     "evidence": {
       "cedict": "心臟 心脏 [xin1 zang4]"
+    },
+    "notes": "心脏 (xīnzàng) ist das Herz als Organ und gehört zum medizinischen Wortschatz: 心脏病 „Herzkrankheit“, 心脏手术 „Herzoperation“, 心脏跳动 „das Herz schlägt“. Übertragen steht es für das Zentrum eines Ortes: 城市的心脏, 心脏地带 „Kerngebiet“. Das einfache 心 (xīn) kann ebenfalls das Organ meinen (心跳 „Herzschlag“), steht aber vor allem für Gefühle und Gemüt, was 心脏 nicht abdeckt. Zählwörter sind 颗 und 个.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -61834,6 +63058,16 @@ window.VOCAB_HSK6 = [
         "chinese": "他是一个值得信赖的人。",
         "pinyin": "Tā shì yí ge zhíde xìnlài de rén.",
         "german": "Er ist ein vertrauenswürdiger Mensch."
+      },
+      {
+        "chinese": "这家医院在当地很受病人信赖。",
+        "pinyin": "Zhè jiā yīyuàn zài dāngdì hěn shòu bìngrén xìnlài.",
+        "german": "Dieses Krankenhaus genießt bei den Patienten vor Ort großes Vertrauen."
+      },
+      {
+        "chinese": "朋友之间最重要的是互相信赖。",
+        "pinyin": "Péngyou zhī jiān zuì zhòngyào de shì hùxiāng xìnlài.",
+        "german": "Unter Freunden ist gegenseitiges Vertrauen das Wichtigste."
       }
     ],
     "legacyIds": [
@@ -61847,6 +63081,12 @@ window.VOCAB_HSK6 = [
     "traditional": "信賴",
     "evidence": {
       "cedict": "信賴 信赖 [xin4 lai4]"
+    },
+    "notes": "信赖 (xìnlài) heißt „vertrauen, sich verlassen auf“ und ist etwas formeller als 信任 (xìnrèn) und betont stärker, dass man sich auf jemanden verlässt. Sehr häufig ist 值得信赖 „vertrauenswürdig“, außerdem 互相信赖 „einander vertrauen“ und 受……信赖 / 得到……的信赖 „das Vertrauen von … genießen“. Nicht verwechseln mit 依赖 (yīlài) „abhängig sein“, das oft negativ klingt, oder mit 相信 (xiāngxìn) „glauben, für wahr halten“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -61862,6 +63102,16 @@ window.VOCAB_HSK6 = [
         "chinese": "他有坚定的信念。",
         "pinyin": "Tā yǒu jiāndìng de xìnniàn.",
         "german": "Er hat eine feste Überzeugung."
+      },
+      {
+        "chinese": "是对梦想的信念让他坚持到了最后。",
+        "pinyin": "Shì duì mèngxiǎng de xìnniàn ràng tā jiānchí dào le zuìhòu.",
+        "german": "Es war der Glaube an seinen Traum, der ihn bis zum Schluss durchhalten ließ."
+      },
+      {
+        "chinese": "经历了这么多失败，她仍然没有失去信念。",
+        "pinyin": "Jīnglì le zhème duō shībài, tā réngrán méiyǒu shīqù xìnniàn.",
+        "german": "Trotz so vieler Rückschläge hat sie den Glauben nicht verloren."
       }
     ],
     "legacyIds": [
@@ -61875,15 +63125,19 @@ window.VOCAB_HSK6 = [
     "traditional": "信念",
     "evidence": {
       "cedict": "信念 信念 [xin4 nian4]"
+    },
+    "notes": "信念 (xìnniàn) ist eine feste innere Überzeugung, an der man festhält: 坚定的信念 „feste Überzeugung“, 坚持信念, 失去信念 „den Glauben verlieren“. Abzugrenzen sind 信仰 (xìnyǎng) „(religiöser oder politischer) Glaube“, 信心 (xìnxīn) „Zuversicht, Selbstvertrauen“ und 观念 (guānniàn) „Vorstellung, Denkweise“. Der Ausdruck ist eher gehoben und kommt oft in Reden und Texten vor.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:兴起:xing1qi3",
     "word": "兴起",
     "pinyin": "xīngqǐ",
-    "meaning": "entstehen; Aufkommen; Entstehung",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "aufkommen; entstehen; in Mode kommen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -61891,20 +63145,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "近几年，城市里兴起了一股露营热。",
+        "pinyin": "Jìn jǐ nián, chéngshì li xīngqǐ le yì gǔ lùyíng rè.",
+        "german": "In den letzten Jahren ist in den Städten ein regelrechter Camping-Boom ausgebrochen."
+      },
+      {
+        "chinese": "随着互联网的兴起，人们的购物方式发生了很大变化。",
+        "pinyin": "Suízhe hùliánwǎng de xīngqǐ, rénmen de gòuwù fāngshì fāshēng le hěn dà biànhuà.",
+        "german": "Mit dem Aufkommen des Internets hat sich die Art, wie die Menschen einkaufen, stark verändert."
+      },
+      {
+        "chinese": "文艺复兴运动最早兴起于意大利。",
+        "pinyin": "Wényì Fùxīng yùndòng zuì zǎo xīngqǐ yú Yìdàlì.",
+        "german": "Die Renaissance nahm ihren Anfang in Italien."
+      }
+    ],
     "traditional": "興起",
     "evidence": {
       "cedict": "興起 兴起 [xing1 qi3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "兴起 (xīngqǐ) ist intransitiv und beschreibt, dass eine Bewegung, ein Trend oder eine Branche aufkommt: 兴起了一股……热 „ein …-Boom ist entstanden“, 网购在中国迅速兴起. Häufig steht es nominal in 随着……的兴起 „mit dem Aufkommen von …“; schriftlich auch 兴起于 + Ort. Hier wird 兴 im ersten Ton gelesen, anders als in 高兴 (gāoxìng). Nicht verwechseln mit 兴建 (xīngjiàn) „errichten“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:型号:xing2hao4",
     "word": "型号",
     "pinyin": "xínghào",
-    "meaning": "Baureihe; Typ, Maschinentyp",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Modell; Typ; Typenbezeichnung",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -61912,20 +63186,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "你的手机是什么型号的？",
+        "pinyin": "Nǐ de shǒujī shì shénme xínghào de?",
+        "german": "Welches Modell ist dein Handy?"
+      },
+      {
+        "chinese": "买打印机墨盒之前，先看看打印机的型号。",
+        "pinyin": "Mǎi dǎyìnjī mòhé zhīqián, xiān kànkan dǎyìnjī de xínghào.",
+        "german": "Bevor du Druckerpatronen kaufst, schau erst nach, welches Druckermodell du hast."
+      },
+      {
+        "chinese": "这两台电脑型号一样，但配置不同。",
+        "pinyin": "Zhè liǎng tái diànnǎo xínghào yíyàng, dàn pèizhì bù tóng.",
+        "german": "Die beiden Computer sind dasselbe Modell, aber unterschiedlich ausgestattet."
+      }
+    ],
     "traditional": "型號",
     "evidence": {
       "cedict": "型號 型号 [xing2 hao4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "型号 (xínghào) ist die Modell- oder Typenbezeichnung eines technischen Produkts, etwa eines Handys, Druckers oder Autos: 什么型号, 同一型号, 型号齐全 „alle Modelle vorrätig“. Es kann auch Größenstufen meinen (大中小型号); bei Kleidung und Schuhen sagt man dafür meist 尺码 (chǐmǎ). Vom äußeren Stil eines Produkts spricht man eher mit 款式 (kuǎnshì).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:形态:xing2tai4",
     "word": "形态",
     "pinyin": "xíngtài",
-    "meaning": "Gestalt, Form; Morphologie",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Form; Gestalt; Erscheinungsform; Morphologie",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -61933,20 +63227,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "冰、水和水蒸气是水的三种不同形态。",
+        "pinyin": "Bīng, shuǐ hé shuǐzhēngqì shì shuǐ de sān zhǒng bù tóng xíngtài.",
+        "german": "Eis, Wasser und Wasserdampf sind drei verschiedene Erscheinungsformen des Wassers."
+      },
+      {
+        "chinese": "这些石头经过千万年的风化，形态各异。",
+        "pinyin": "Zhèxiē shítou jīngguò qiānwàn nián de fēnghuà, xíngtài gèyì.",
+        "german": "Durch die jahrmillionenlange Verwitterung haben diese Steine die unterschiedlichsten Formen angenommen."
+      },
+      {
+        "chinese": "网络购物改变了传统的商业形态。",
+        "pinyin": "Wǎngluò gòuwù gǎibiàn le chuántǒng de shāngyè xíngtài.",
+        "german": "Der Onlinehandel hat die traditionellen Geschäftsformen verändert."
+      }
+    ],
     "traditional": "形態",
     "evidence": {
       "cedict": "形態 形态 [xing2 tai4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "形态 (xíngtài) bezeichnet die Form oder Erscheinungsform einer Sache, oft in abstrakten oder fachsprachlichen Zusammenhängen: 社会形态 „Gesellschaftsform“, 意识形态 „Ideologie“, 生物形态, in der Linguistik auch „Morphologie“. Häufig ist 形态各异 „ganz unterschiedlich gestaltet“. Für die konkrete äußere Form eines Gegenstands sagt man eher 形状 (xíngzhuàng), für „Form“ im Gegensatz zu „Inhalt“ 形式 (xíngshì).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:性价比:xing4jia4bi3",
     "word": "性价比",
     "pinyin": "xìngjiàbǐ",
     "meaning": "Preis-Leistungs-Verhältnis",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -61954,20 +63268,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这款手机性价比很高，很受学生欢迎。",
+        "pinyin": "Zhè kuǎn shǒujī xìngjiàbǐ hěn gāo, hěn shòu xuésheng huānyíng.",
+        "german": "Dieses Handy hat ein sehr gutes Preis-Leistungs-Verhältnis und ist bei Studenten sehr beliebt."
+      },
+      {
+        "chinese": "这家饭馆不便宜，但是性价比不错。",
+        "pinyin": "Zhè jiā fànguǎn bù piányi, dànshì xìngjiàbǐ búcuò.",
+        "german": "Das Restaurant ist nicht billig, aber Preis und Leistung stimmen."
+      },
+      {
+        "chinese": "买东西时，很多年轻人更看重性价比。",
+        "pinyin": "Mǎi dōngxi shí, hěn duō niánqīngrén gèng kànzhòng xìngjiàbǐ.",
+        "german": "Beim Einkaufen achten viele junge Leute vor allem aufs Preis-Leistungs-Verhältnis."
+      }
+    ],
     "traditional": "性價比",
     "evidence": {
       "cedict": "性價比 性价比 [xing4 jia4 bi3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "性价比 (xìngjiàbǐ) ist eine Kurzform aus 性能 „Leistung“, 价格 „Preis“ und 比 „Verhältnis“ und im Alltag beim Einkaufen sehr gebräuchlich. Typisch sind 性价比高/低, 性价比不错 und 高性价比的产品. Achtung: 性价比高 heißt nicht einfach „billig“ (便宜), sondern „viel für sein Geld“ – auch ein teures Produkt kann ein gutes Preis-Leistungs-Verhältnis haben.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:性能:xing4neng2",
     "word": "性能",
     "pinyin": "xìngnéng",
-    "meaning": "Funktion, Leistung",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Leistung; Leistungsfähigkeit; (technische) Eigenschaften",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -61975,12 +63309,34 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 206
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这台电脑性能很好，玩游戏一点儿也不卡。",
+        "pinyin": "Zhè tái diànnǎo xìngnéng hěn hǎo, wán yóuxì yìdiǎnr yě bù kǎ.",
+        "german": "Der Computer ist sehr leistungsstark, selbst beim Spielen ruckelt nichts."
+      },
+      {
+        "chinese": "这款车的安全性能经过了严格测试。",
+        "pinyin": "Zhè kuǎn chē de ānquán xìngnéng jīngguò le yángé cèshì.",
+        "german": "Die Sicherheitseigenschaften dieses Automodells wurden streng geprüft."
+      },
+      {
+        "chinese": "新材料的性能比旧材料稳定得多。",
+        "pinyin": "Xīn cáiliào de xìngnéng bǐ jiù cáiliào wěndìng de duō.",
+        "german": "Das neue Material verhält sich deutlich stabiler als das alte."
+      }
+    ],
     "traditional": "性能",
     "evidence": {
       "cedict": "性能 性能 [xing4 neng2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "性能 (xìngnéng) beschreibt, wie gut ein Gerät, Fahrzeug oder Material funktioniert: 性能好, 性能稳定 „zuverlässig“, 安全性能 „Sicherheitseigenschaften“, 提高性能. Ein häufiger Fehler ist die Verwechslung mit 功能 (gōngnéng) „Funktion“: 功能 sagt, was etwas kann (这个手机有拍照功能), 性能, wie gut es das kann. Der Ausdruck gehört vor allem zur Technik- und Produktsprache.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:胸:xiong1",
@@ -61995,6 +63351,16 @@ window.VOCAB_HSK6 = [
         "chinese": "他胸口很闷。",
         "pinyin": "Tā xiōngkǒu hěn mèn.",
         "german": "Seine Brust fühlt sich eng an."
+      },
+      {
+        "chinese": "站直，抬头挺胸！",
+        "pinyin": "Zhàn zhí, táitóu tǐngxiōng!",
+        "german": "Steh gerade, Kopf hoch und Brust raus!"
+      },
+      {
+        "chinese": "她把孩子紧紧抱在胸前。",
+        "pinyin": "Tā bǎ háizi jǐnjǐn bào zài xiōng qián.",
+        "german": "Sie drückte das Kind fest an ihre Brust."
       }
     ],
     "legacyIds": [
@@ -62008,6 +63374,12 @@ window.VOCAB_HSK6 = [
     "traditional": "胸",
     "evidence": {
       "cedict": "胸 胸 [xiong1]"
+    },
+    "notes": "胸 (xiōng) ist die Brust bzw. der Brustkorb. Allein steht es vor allem in festen Wendungen wie 挺胸 „die Brust herausstrecken“ oder 胸前 „vor der Brust“; sonst sind Zusammensetzungen üblich: 胸口 „Brust(gegend)“ bei Beschwerden, 胸部 „Brustbereich“ (eher formell, auch für die weibliche Brust). Übertragen steht es für Gesinnung und Großmut: 胸怀 „Herz, Gemüt“, 心胸宽广 „großherzig“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -62021,8 +63393,18 @@ window.VOCAB_HSK6 = [
     "examples": [
       {
         "chinese": "出版社修订了教科书的内容。",
-        "pinyin": "Chūbǎnshè xiūdìngle jiàokēshū de nèiróng.",
+        "pinyin": "Chūbǎnshè xiūdìng le jiàokēshū de nèiróng.",
         "german": "Der Verlag hat den Inhalt des Lehrbuchs überarbeitet."
+      },
+      {
+        "chinese": "这本词典的修订版明年出版。",
+        "pinyin": "Zhè běn cídiǎn de xiūdìngbǎn míngnián chūbǎn.",
+        "german": "Die überarbeitete Auflage dieses Wörterbuchs erscheint nächstes Jahr."
+      },
+      {
+        "chinese": "这部法律已经修订过三次。",
+        "pinyin": "Zhè bù fǎlǜ yǐjīng xiūdìng guo sān cì.",
+        "german": "Dieses Gesetz ist bereits dreimal novelliert worden."
       }
     ],
     "legacyIds": [
@@ -62036,6 +63418,12 @@ window.VOCAB_HSK6 = [
     "traditional": "修訂",
     "evidence": {
       "cedict": "修訂 修订 [xiu1 ding4]"
+    },
+    "notes": "修订 (xiūdìng) heißt „(einen Text) überarbeiten, revidieren“ und betrifft vor allem Bücher, Wörterbücher, Gesetze, Normen und Pläne: 修订教材, 修订法律, 修订计划. Häufig sind 修订版 „überarbeitete Auflage“ und 修订本. Es ist formeller und umfassender als 修改 (xiūgǎi) „ändern, korrigieren“, das auch für kleine Änderungen an einem Aufsatz oder Entwurf gebraucht wird.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -62051,6 +63439,16 @@ window.VOCAB_HSK6 = [
         "chinese": "专家们正在修复这座古建筑。",
         "pinyin": "Zhuānjiāmen zhèngzài xiūfù zhè zuò gǔ jiànzhù.",
         "german": "Experten restaurieren gerade dieses alte Gebäude."
+      },
+      {
+        "chinese": "这次更新修复了几个安全漏洞。",
+        "pinyin": "Zhè cì gēngxīn xiūfù le jǐ ge ānquán lòudòng.",
+        "german": "Mit diesem Update wurden mehrere Sicherheitslücken behoben."
+      },
+      {
+        "chinese": "两国正在努力修复双边关系。",
+        "pinyin": "Liǎng guó zhèngzài nǔlì xiūfù shuāngbiān guānxì.",
+        "german": "Die beiden Länder bemühen sich, ihre bilateralen Beziehungen wieder zu kitten."
       }
     ],
     "legacyIds": [
@@ -62064,15 +63462,19 @@ window.VOCAB_HSK6 = [
     "traditional": "修復",
     "evidence": {
       "cedict": "修復 修复 [xiu1 fu4]"
+    },
+    "notes": "修复 (xiūfù) heißt „wiederherstellen, restaurieren“, also etwas Beschädigtes in den ursprünglichen Zustand zurückversetzen: 修复古建筑/文物/壁画. In der IT bedeutet es „beheben, reparieren“ (修复漏洞 „eine Sicherheitslücke schließen“, 修复文件), übertragen auch „kitten“: 修复关系. Für die Reparatur von Geräten sagt man im Alltag eher 修 oder 修理 (xiūlǐ).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:袖子:xiu4zi5",
     "word": "袖子",
     "pinyin": "xiùzi",
-    "meaning": "Ärmel; Hülle",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Ärmel",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -62080,20 +63482,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "天太热了，他把袖子卷了起来。",
+        "pinyin": "Tiān tài rè le, tā bǎ xiùzi juǎn le qǐlai.",
+        "german": "Es war so heiß, dass er die Ärmel hochkrempelte."
+      },
+      {
+        "chinese": "这件衬衫的袖子有点儿长。",
+        "pinyin": "Zhè jiàn chènshān de xiùzi yǒudiǎnr cháng.",
+        "german": "Die Ärmel dieses Hemds sind etwas zu lang."
+      },
+      {
+        "chinese": "孩子用袖子擦了擦眼泪。",
+        "pinyin": "Háizi yòng xiùzi cā le cā yǎnlèi.",
+        "german": "Das Kind wischte sich mit dem Ärmel die Tränen ab."
+      }
+    ],
     "traditional": "袖子",
     "evidence": {
       "cedict": "袖子 袖子 [xiu4 zi5]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "袖子 (xiùzi) ist der Ärmel eines Kleidungsstücks; Zählwort ist 只 (für einen Ärmel) oder 个. Typisch sind 卷起袖子 / 挽起袖子 „die Ärmel hochkrempeln“, auch übertragen im Sinne von „anpacken“. Verwandte Wörter sind 袖口 „Ärmelaufschlag“, 长袖 „langärmlig“ und 短袖 „kurzärmlig“, das umgangssprachlich auch ein kurzärmliges Shirt bezeichnet.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:许可:xu3ke3",
     "word": "许可",
     "pinyin": "xǔkě",
-    "meaning": "Befugnis, Erlaubnis; Berechtigung; Gunst",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "erlauben; genehmigen; Erlaubnis; Genehmigung",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -62101,12 +63523,34 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "未经许可，不得进入实验室。",
+        "pinyin": "Wèi jīng xǔkě, bùdé jìnrù shíyànshì.",
+        "german": "Zutritt zum Labor nur mit Genehmigung."
+      },
+      {
+        "chinese": "这家餐厅没有营业许可证就开门了。",
+        "pinyin": "Zhè jiā cāntīng méiyǒu yíngyè xǔkězhèng jiù kāimén le.",
+        "german": "Das Restaurant hat ohne Gewerbegenehmigung eröffnet."
+      },
+      {
+        "chinese": "如果时间许可，我们还可以去参观博物馆。",
+        "pinyin": "Rúguǒ shíjiān xǔkě, wǒmen hái kěyǐ qù cānguān bówùguǎn.",
+        "german": "Wenn die Zeit es erlaubt, können wir noch das Museum besichtigen."
+      }
+    ],
     "traditional": "許可",
     "evidence": {
       "cedict": "許可 许可 [xu3 ke3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "许可 (xǔkě) ist das formelle „erlauben, genehmigen“ und steht oft in amtlichen Texten und Hinweisen: 未经许可 „ohne Genehmigung“, 得到许可, 许可证 „Lizenz, Genehmigung(sschein)“. Häufig ist auch 如果时间/条件许可 „wenn es die Zeit/die Umstände erlauben“. Im Alltag sagt man eher 允许 (yǔnxǔ) oder 让; für eine behördliche Bewilligung steht auch 批准 (pīzhǔn).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:叙述:xu4shu4",
@@ -62120,7 +63564,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "请叙述事情的经过。",
         "pinyin": "Qǐng xùshù shìqing de jīngguò.",
-        "german": "Bitte erzählen Sie den Hergang der Sache."
+        "german": "Bitte schildern Sie, wie es dazu gekommen ist."
+      },
+      {
+        "chinese": "这篇小说用第一人称叙述了一个家庭的故事。",
+        "pinyin": "Zhè piān xiǎoshuō yòng dìyī rénchēng xùshù le yí ge jiātíng de gùshi.",
+        "german": "Die Erzählung schildert in der Ich-Form die Geschichte einer Familie."
+      },
+      {
+        "chinese": "他把事故发生的过程叙述得很清楚。",
+        "pinyin": "Tā bǎ shìgù fāshēng de guòchéng xùshù de hěn qīngchu.",
+        "german": "Er hat den Unfallhergang sehr klar geschildert."
       }
     ],
     "legacyIds": [
@@ -62134,15 +63588,19 @@ window.VOCAB_HSK6 = [
     "traditional": "敘述",
     "evidence": {
       "cedict": "敘述 叙述 [xu4 shu4]"
+    },
+    "notes": "叙述 (xùshù) heißt „(Ereignisse) erzählen, schildern“ und betont den geordneten Ablauf: 叙述事情的经过 „den Hergang schildern“, 详细叙述, 叙述得很清楚. Als Nomen bedeutet es „Darstellung, Erzählung“, etwa in 叙述方式 „Erzählweise“. Es ist schriftsprachlich; im Gespräch sagt man eher 讲 oder 说. 描述 (miáoshù) dagegen beschreibt eher Aussehen und Einzelheiten als einen Ablauf.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:旋转:xuan2zhuan3",
     "word": "旋转",
     "pinyin": "xuánzhuǎn",
-    "meaning": "Drehung; drehen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "sich drehen; rotieren; drehen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -62150,20 +63608,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "地球一边自转，一边绕着太阳旋转。",
+        "pinyin": "Dìqiú yìbiān zìzhuàn, yìbiān ràozhe tàiyáng xuánzhuǎn.",
+        "german": "Die Erde dreht sich um ihre eigene Achse und kreist zugleich um die Sonne."
+      },
+      {
+        "chinese": "这座塔顶上有一家旋转餐厅。",
+        "pinyin": "Zhè zuò tǎdǐng shang yǒu yì jiā xuánzhuǎn cāntīng.",
+        "german": "Oben auf diesem Turm gibt es ein Drehrestaurant."
+      },
+      {
+        "chinese": "她在舞台上轻轻地旋转了一圈。",
+        "pinyin": "Tā zài wǔtái shang qīngqīng de xuánzhuǎn le yì quān.",
+        "german": "Sie drehte sich auf der Bühne leichtfüßig einmal im Kreis."
+      }
+    ],
     "traditional": "旋轉",
     "evidence": {
       "cedict": "旋轉 旋转 [xuan2 zhuan3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "旋转 (xuánzhuǎn) heißt „sich (um eine Achse oder einen Mittelpunkt) drehen, kreisen“ und wird meist intransitiv gebraucht: 地球绕着太阳旋转. Bekannte Zusammensetzungen sind 旋转门 „Drehtür“, 旋转餐厅 „Drehrestaurant“ und 旋转木马 „Karussell“. Es klingt etwas gehobener als das alltägliche 转 (zhuàn) oder 转动. Einen Deckel oder Schlüssel dreht man dagegen mit 拧 (nǐng).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:选拔:xuan3ba2",
     "word": "选拔",
     "pinyin": "xuǎnbá",
-    "meaning": "Auslese; vorwählen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "auswählen; auslesen (die Besten)",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -62171,18 +63649,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "公司每年从应届毕业生中选拔优秀人才。",
+        "pinyin": "Gōngsī měi nián cóng yìngjiè bìyèshēng zhōng xuǎnbá yōuxiù réncái.",
+        "german": "Die Firma wählt jedes Jahr unter den frischen Hochschulabsolventen die besten Talente aus."
+      },
+      {
+        "chinese": "经过层层选拔，她终于进入了国家队。",
+        "pinyin": "Jīngguò céngcéng xuǎnbá, tā zhōngyú jìnrù le guójiāduì.",
+        "german": "Nach mehreren Auswahlrunden schaffte sie es schließlich in die Nationalmannschaft."
+      },
+      {
+        "chinese": "下周学校要举行演讲比赛的选拔赛。",
+        "pinyin": "Xià zhōu xuéxiào yào jǔxíng yǎnjiǎng bǐsài de xuǎnbásài.",
+        "german": "Nächste Woche veranstaltet die Schule die Vorausscheidung für den Redewettbewerb."
+      }
+    ],
     "traditional": "選拔",
     "evidence": {
       "cedict": "選拔 选拔 [xuan3 ba2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "选拔 (xuǎnbá) heißt, aus vielen Kandidaten die Geeignetsten für eine Aufgabe, ein Team oder ein Amt auszuwählen: 选拔人才 „Talente auswählen“, 选拔运动员, 从……中选拔. Häufig sind 经过层层选拔 „nach mehreren Auswahlrunden“ und 选拔赛 „Ausscheidungs-, Qualifikationswettkampf“. Anders als das allgemeine 选择 (xuǎnzé) „wählen“ oder 挑选 (tiāoxuǎn) „aussuchen“ (auch bei Waren) geht es bei 选拔 fast immer um Personen und ein Auswahlverfahren.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:选修:xuan3xiu1",
     "word": "选修",
     "pinyin": "xuǎnxiū",
-    "meaning": "Wahlfach, als Wahlfach belegen",
+    "meaning": "als Wahlfach belegen; (Kurs) wählen",
     "type": "Verb",
     "level": "HSK6",
     "category": "Bildung",
@@ -62193,14 +63693,14 @@ window.VOCAB_HSK6 = [
         "german": "Ich habe einen Philosophiekurs als Wahlfach belegt."
       },
       {
-        "chinese": "我选修了一门心理学课。",
-        "pinyin": "Wǒ xuǎnxiū le yī mén xīnlǐxué kè.",
-        "german": "Ich habe einen Psychologiekurs als Wahlfach belegt."
+        "chinese": "学生每学期可以选修两到三门课程。",
+        "pinyin": "Xuésheng měi xuéqī kěyǐ xuǎnxiū liǎng dào sān mén kèchéng.",
+        "german": "Studierende können pro Semester zwei bis drei Wahlfächer belegen."
       },
       {
-        "chinese": "学生每学期可以选修两到三门课程。",
-        "pinyin": "Xuéshēng měi xuéqī kěyǐ xuǎnxiū liǎng dào sān mén kèchéng.",
-        "german": "Studenten koennen pro Semester zwei bis drei Wahlfaecher belegen."
+        "chinese": "这门课是选修课，不选也可以毕业。",
+        "pinyin": "Zhè mén kè shì xuǎnxiūkè, bù xuǎn yě kěyǐ bìyè.",
+        "german": "Das ist ein Wahlfach – man kann auch ohne es seinen Abschluss machen."
       }
     ],
     "legacyIds": [
@@ -62214,21 +63714,37 @@ window.VOCAB_HSK6 = [
     "traditional": "選修",
     "evidence": {
       "cedict": "選修 选修 [xuan3 xiu1]"
+    },
+    "notes": "选修 (xuǎnxiū) heißt „einen Kurs als Wahlfach belegen“ und steht mit Objekt: 选修一门课, 选修心理学. Daraus abgeleitet sind 选修课 „Wahlfach“ und das Gegenstück 必修课 (bìxiūkè) „Pflichtfach“. Zählwort für Kurse und Fächer ist 门 (mén). Das Wort gehört in den Schul- und Hochschulalltag.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:学会:xue2hui4",
     "word": "学会",
     "pinyin": "xuéhuì",
-    "meaning": "erlernen, beherrschen lernen",
-    "type": "Verb",
+    "meaning": "Fachgesellschaft; wissenschaftliche Gesellschaft",
+    "type": "Nomen",
     "level": "HSK6",
     "category": "Bildung",
     "examples": [
       {
+        "chinese": "他是中国物理学会的会员。",
+        "pinyin": "Tā shì Zhōngguó Wùlǐ Xuéhuì de huìyuán.",
+        "german": "Er ist Mitglied der Chinesischen Physikalischen Gesellschaft."
+      },
+      {
+        "chinese": "这个学会每年都举办一次学术会议。",
+        "pinyin": "Zhège xuéhuì měi nián dōu jǔbàn yí cì xuéshù huìyì.",
+        "german": "Diese Fachgesellschaft veranstaltet jedes Jahr eine wissenschaftliche Tagung."
+      },
+      {
         "chinese": "她终于学会了游泳。",
         "pinyin": "Tā zhōngyú xuéhuì le yóuyǒng.",
-        "german": "Sie hat endlich Schwimmen gelernt."
+        "german": "Sie hat endlich schwimmen gelernt."
       }
     ],
     "legacyIds": [
@@ -62242,6 +63758,12 @@ window.VOCAB_HSK6 = [
     "traditional": "學會",
     "evidence": {
       "cedict": "學會 学会 [xue2 hui4]"
+    },
+    "notes": "Als Nomen bezeichnet 学会 (xuéhuì) eine wissenschaftliche Fachgesellschaft: 中国物理学会, 医学会, 加入学会, 学会会员. Ein allgemeiner Verband oder Verein heißt eher 协会 (xiéhuì). Viel häufiger begegnet man 学会 allerdings als Verb mit Resultativergänzung: 学 „lernen“ + 会 „können“ = „erlernen, lernen, etwas zu können“, z. B. 学会游泳, 学会开车, 要学会控制情绪.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -62254,24 +63776,19 @@ window.VOCAB_HSK6 = [
     "category": "Bildung",
     "examples": [
       {
-        "chinese": "他有博士学位。",
-        "pinyin": "Tā yǒu bóshì xuéwèi.",
-        "german": "Er hat einen Doktortitel."
-      },
-      {
         "chinese": "他获得了博士学位。",
         "pinyin": "Tā huòdé le bóshì xuéwèi.",
         "german": "Er hat den Doktortitel erworben."
       },
       {
-        "chinese": "她获得了博士学位。",
-        "pinyin": "Tā huòdé le bóshì xuéwèi.",
-        "german": "Sie hat den Doktortitel erlangt."
+        "chinese": "他同时拥有法学和经济学两个学位。",
+        "pinyin": "Tā tóngshí yōngyǒu fǎxué hé jīngjìxué liǎng ge xuéwèi.",
+        "german": "Er besitzt gleichzeitig einen Abschluss in Jura und einen in Wirtschaftswissenschaften."
       },
       {
-        "chinese": "他同时拥有法学和经济学两个学位。",
-        "pinyin": "Tā tóngshí yōngyǒu fǎxué hé jīngjìxué liǎng gè xuéwèi.",
-        "german": "Er besitzt gleichzeitig einen Abschluss in Jura und einen in Wirtschaftswissenschaften."
+        "chinese": "拿到硕士学位以后，他回国工作了。",
+        "pinyin": "Nádào shuòshì xuéwèi yǐhòu, tā huíguó gōngzuò le.",
+        "german": "Nach dem Masterabschluss ging er zum Arbeiten zurück in die Heimat."
       }
     ],
     "legacyIds": [
@@ -62285,15 +63802,19 @@ window.VOCAB_HSK6 = [
     "traditional": "學位",
     "evidence": {
       "cedict": "學位 学位 [xue2 wei4]"
+    },
+    "notes": "学位 (xuéwèi) ist ein akademischer Grad: 学士学位 „Bachelor“, 硕士学位 „Master“, 博士学位 „Doktor“. Typische Verben sind 获得/取得/拿到学位 „erwerben“ und 攻读学位 „anstreben, studieren für“. In China bekommt man zum Studienabschluss meist zwei Urkunden: das 毕业证 „Abschlusszeugnis“ und das 学位证 „Urkunde über den akademischen Grad“. Nicht verwechseln mit 学历 (xuélì) „Bildungsabschluss, Bildungsgrad“; in der Debatte um Schulbezirke bedeutet 学位 außerdem „Schulplatz“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:学问:xue2wen5",
     "word": "学问",
     "pinyin": "xuéwen",
-    "meaning": "Bildung, Kenntnis",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Wissen; Gelehrsamkeit; Wissensgebiet",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -62301,20 +63822,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他爷爷是个很有学问的人。",
+        "pinyin": "Tā yéye shì ge hěn yǒu xuéwen de rén.",
+        "german": "Sein Großvater ist ein sehr gebildeter Mann."
+      },
+      {
+        "chinese": "别小看做饭，这里面的学问可大了。",
+        "pinyin": "Bié xiǎokàn zuòfàn, zhè lǐmiàn de xuéwen kě dà le.",
+        "german": "Unterschätz das Kochen nicht – da steckt eine Menge Know-how dahinter."
+      },
+      {
+        "chinese": "做学问需要耐心和坚持。",
+        "pinyin": "Zuò xuéwen xūyào nàixīn hé jiānchí.",
+        "german": "Wissenschaftliches Arbeiten erfordert Geduld und Ausdauer."
+      }
+    ],
     "traditional": "學問",
     "evidence": {
       "cedict": "學問 学问 [xue2 wen4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "学问 (xuéwen) bedeutet „Wissen, Gelehrsamkeit“ und wird meist mit 有 gebraucht: 有学问 „gebildet, gelehrt“, 很有学问的人. 做学问 heißt „wissenschaftlich arbeiten, forschen“. Sehr idiomatisch ist die übertragene Bedeutung „Kunst, Know-how“: ……是一门学问 „… ist eine Wissenschaft für sich“, 这里面学问可大了 „da steckt viel mehr dahinter, als man denkt“. Zählwort ist 门. Die zweite Silbe wird meist neutral gesprochen.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:学员:xue2yuan2",
     "word": "学员",
     "pinyin": "xuéyuán",
-    "meaning": "Schulkind, Student (stud. = studiosus); Teilnehmer eines Studienkurses, Seminarteilnehmer",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Kursteilnehmer/Kursteilnehmerin; Lehrgangsteilnehmer; Fahrschüler",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -62322,20 +63863,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这期培训班一共有三十名学员。",
+        "pinyin": "Zhè qī péixùnbān yígòng yǒu sānshí míng xuéyuán.",
+        "german": "Dieser Lehrgang hat insgesamt dreißig Teilnehmer."
+      },
+      {
+        "chinese": "驾校的教练对每个学员都很耐心。",
+        "pinyin": "Jiàxiào de jiàoliàn duì měi ge xuéyuán dōu hěn nàixīn.",
+        "german": "Der Fahrlehrer ist mit allen Fahrschülern sehr geduldig."
+      },
+      {
+        "chinese": "课程结束后，学员们可以拿到结业证书。",
+        "pinyin": "Kèchéng jiéshù hòu, xuéyuánmen kěyǐ nádào jiéyè zhèngshū.",
+        "german": "Nach Kursende erhalten die Teilnehmer ein Abschlusszertifikat."
+      }
+    ],
     "traditional": "學員",
     "evidence": {
       "cedict": "學員 学员 [xue2 yuan2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "学员 (xuéyuán) ist jemand, der an einem Kurs, Lehrgang oder einer Fortbildung teilnimmt: 培训班学员 „Kursteilnehmer“, 驾校学员 „Fahrschüler“, auch Kadetten an Militärakademien. Für Schüler und Studenten im regulären Bildungssystem sagt man 学生 (xuésheng). Zählwörter sind 名, 位 und 个; die Gruppe heißt 学员们.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:血管:xue4guan3",
     "word": "血管",
     "pinyin": "xuèguǎn",
-    "meaning": "Blutgefäß, Vene, Arterie; Zählwort:根[gen1] (X)",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Blutgefäß; Ader",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -62343,7 +63904,23 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "吸烟会损害血管健康。",
+        "pinyin": "Xīyān huì sǔnhài xuèguǎn jiànkāng.",
+        "german": "Rauchen schadet den Blutgefäßen."
+      },
+      {
+        "chinese": "护士找了半天才找到他手上的血管。",
+        "pinyin": "Hùshi zhǎo le bàntiān cái zhǎodào tā shǒu shang de xuèguǎn.",
+        "german": "Die Krankenschwester suchte lange, bis sie an seiner Hand eine Vene fand."
+      },
+      {
+        "chinese": "他的血管里流着艺术家的血。",
+        "pinyin": "Tā de xuèguǎn li liúzhe yìshùjiā de xuè.",
+        "german": "In seinen Adern fließt Künstlerblut."
+      }
+    ],
     "traditional": "血管",
     "measureWords": [
       {
@@ -62354,7 +63931,13 @@ window.VOCAB_HSK6 = [
     "evidence": {
       "cedict": "血管 血管 [xue4 guan3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "血管 (xuèguǎn) ist der Oberbegriff für Blutgefäße; genauer unterscheidet man 动脉 (dòngmài) „Arterie“, 静脉 (jìngmài) „Vene“ und 毛细血管 „Kapillare“. Häufig in medizinischen Zusammenhängen: 血管堵塞 „Gefäßverschluss“, 心脑血管疾病 „Herz-Kreislauf-Erkrankungen“. Zählwort ist 根 oder 条. Übertragen sagt man wie im Deutschen 血管里流着……的血 „in seinen Adern fließt …blut“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:血型:xue4xing2",
@@ -62369,6 +63952,16 @@ window.VOCAB_HSK6 = [
         "chinese": "你知道你的血型吗？",
         "pinyin": "Nǐ zhīdào nǐ de xuèxíng ma?",
         "german": "Kennst du deine Blutgruppe?"
+      },
+      {
+        "chinese": "输血前，医生必须先确认病人的血型。",
+        "pinyin": "Shūxuè qián, yīshēng bìxū xiān quèrèn bìngrén de xuèxíng.",
+        "german": "Vor einer Transfusion muss der Arzt zuerst die Blutgruppe des Patienten feststellen."
+      },
+      {
+        "chinese": "有些人相信血型和性格有关系。",
+        "pinyin": "Yǒuxiē rén xiāngxìn xuèxíng hé xìnggé yǒu guānxi.",
+        "german": "Manche Leute glauben, dass Blutgruppe und Charakter zusammenhängen."
       }
     ],
     "legacyIds": [
@@ -62382,6 +63975,12 @@ window.VOCAB_HSK6 = [
     "traditional": "血型",
     "evidence": {
       "cedict": "血型 血型 [xue4 xing2]"
+    },
+    "notes": "血型 (xuèxíng) ist die Blutgruppe. Man fragt 你是什么血型？ und antwortet etwa 我是A型血 oder 我是O型. Wichtig ist das Wort bei Transfusionen und Spenden: 血型相同 „gleiche Blutgruppe“, 血型不合 „unverträglich“. Die seltene rhesus-negative Blutgruppe heißt umgangssprachlich 熊猫血 „Pandablut“. Wie in Japan glauben auch in China manche an einen Zusammenhang zwischen Blutgruppe und Charakter.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -62400,8 +63999,13 @@ window.VOCAB_HSK6 = [
       },
       {
         "chinese": "高血压是心脑血管疾病的重要危险因素。",
-        "pinyin": "Gāo xuèyā shì xīn nǎo xuèguǎn jíbìng de zhòngyào wēixiǎn yīnsù.",
+        "pinyin": "Gāoxuèyā shì xīnnǎo xuèguǎn jíbìng de zhòngyào wēixiǎn yīnsù.",
         "german": "Bluthochdruck ist ein wichtiger Risikofaktor für Herz-Kreislauf-Erkrankungen."
+      },
+      {
+        "chinese": "护士每天早上给病人量血压。",
+        "pinyin": "Hùshi měi tiān zǎoshang gěi bìngrén liáng xuèyā.",
+        "german": "Die Krankenschwester misst den Patienten jeden Morgen den Blutdruck."
       }
     ],
     "legacyIds": [
@@ -62415,6 +64019,12 @@ window.VOCAB_HSK6 = [
     "traditional": "血壓",
     "evidence": {
       "cedict": "血壓 血压 [xue4 ya1]"
+    },
+    "notes": "血压 (xuèyā) ist der Blutdruck. Gemessen wird er mit 量血压 – hier liest man 量 liáng „messen“, nicht liàng. Typisch sind 血压高/低, 血压升高 „der Blutdruck steigt“ und 降血压 „den Blutdruck senken“; die Krankheiten heißen 高血压 „Bluthochdruck“ und 低血压 „niedriger Blutdruck“, Blutdrucksenker 降压药.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -62430,6 +64040,16 @@ window.VOCAB_HSK6 = [
         "chinese": "血液检查的结果正常。",
         "pinyin": "Xuèyè jiǎnchá de jiéguǒ zhèngcháng.",
         "german": "Die Blutwerte sind normal."
+      },
+      {
+        "chinese": "运动可以促进血液循环。",
+        "pinyin": "Yùndòng kěyǐ cùjìn xuèyè xúnhuán.",
+        "german": "Bewegung fördert die Durchblutung."
+      },
+      {
+        "chinese": "公司需要引进一些新鲜血液。",
+        "pinyin": "Gōngsī xūyào yǐnjìn yìxiē xīnxiān xuèyè.",
+        "german": "Die Firma braucht frisches Blut."
       }
     ],
     "legacyIds": [
@@ -62443,6 +64063,12 @@ window.VOCAB_HSK6 = [
     "traditional": "血液",
     "evidence": {
       "cedict": "血液 血液 [xue4 ye4]"
+    },
+    "notes": "血液 (xuèyè) ist das formelle, medizinische Wort für „Blut“; im Alltag sagt man einfach 血 (xuè, umgangssprachlich oft xiě). Typische Verbindungen: 血液检查 „Blutuntersuchung“, 血液循环 „Blutkreislauf, Durchblutung“, 血液病 „Blutkrankheit“. Übertragen steht 新鲜血液 für „frisches Blut“, also neue, junge Leute in einer Organisation.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -62462,7 +64088,12 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "血液循环对人体健康至关重要。",
         "pinyin": "Xuèyè xúnhuán duì réntǐ jiànkāng zhìguān zhòngyào.",
-        "german": "Der Blutkreislauf ist fuer die menschliche Gesundheit von entscheidender Bedeutung."
+        "german": "Der Blutkreislauf ist für die Gesundheit des Menschen von entscheidender Bedeutung."
+      },
+      {
+        "chinese": "越累越睡不好，越睡不好越累，这就是恶性循环。",
+        "pinyin": "Yuè lèi yuè shuì bu hǎo, yuè shuì bu hǎo yuè lèi, zhè jiù shì èxìng xúnhuán.",
+        "german": "Je müder man ist, desto schlechter schläft man, und je schlechter man schläft, desto müder ist man – ein Teufelskreis."
       }
     ],
     "legacyIds": [
@@ -62476,15 +64107,19 @@ window.VOCAB_HSK6 = [
     "traditional": "循環",
     "evidence": {
       "cedict": "循環 循环 [xun2 huan2]"
+    },
+    "notes": "循环 (xúnhuán) bedeutet „kreisen, zirkulieren, sich zyklisch wiederholen“ und steht auch als Nomen für „Kreislauf“: 血液循环 „Blutkreislauf“, 水循环 „Wasserkreislauf“. Sehr gebräuchlich sind 恶性循环 „Teufelskreis“ und sein Gegenteil 良性循环, außerdem 循环利用 „wiederverwerten, recyceln“ und 循环播放 „in Dauerschleife abspielen“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:寻求:xun2qiu2",
     "word": "寻求",
     "pinyin": "xúnqiú",
-    "meaning": "Akquise; Fahndung; nach etw. suchen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "suchen (nach); anstreben; ersuchen um",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -62492,18 +64127,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "遇到困难时，要学会向别人寻求帮助。",
+        "pinyin": "Yùdào kùnnan shí, yào xuéhuì xiàng biérén xúnqiú bāngzhù.",
+        "german": "Wenn man in Schwierigkeiten steckt, sollte man lernen, andere um Hilfe zu bitten."
+      },
+      {
+        "chinese": "双方都在寻求解决问题的办法。",
+        "pinyin": "Shuāngfāng dōu zài xúnqiú jiějué wèntí de bànfǎ.",
+        "german": "Beide Seiten suchen nach einer Lösung für das Problem."
+      },
+      {
+        "chinese": "这家企业正在海外寻求合作伙伴。",
+        "pinyin": "Zhè jiā qǐyè zhèngzài hǎiwài xúnqiú hézuò huǒbàn.",
+        "german": "Das Unternehmen sucht derzeit im Ausland nach Kooperationspartnern."
+      }
+    ],
     "traditional": "尋求",
     "evidence": {
       "cedict": "尋求 寻求 [xun2 qiu2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "寻求 (xúnqiú) ist ein formelles „suchen nach, sich um etwas bemühen“ und steht mit abstrakten Objekten: 寻求帮助 „um Hilfe bitten“, 寻求支持, 寻求合作, 寻求解决办法, 寻求突破. Für die Suche nach konkreten Dingen (Schlüssel, Brille) sagt man 找 oder 寻找 (xúnzhǎo). 追求 (zhuīqiú) dagegen ist das beharrliche Streben nach Idealen, Glück oder einer Person.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:压缩:ya1suo1",
     "word": "压缩",
     "pinyin": "yāsuō",
-    "meaning": "komprimieren",
+    "meaning": "komprimieren; zusammendrücken; kürzen; reduzieren",
     "type": "Verb",
     "level": "HSK6",
     "category": "Technik",
@@ -62512,6 +64169,16 @@ window.VOCAB_HSK6 = [
         "chinese": "这个文件太大了，需要压缩。",
         "pinyin": "Zhège wénjiàn tài dà le, xūyào yāsuō.",
         "german": "Diese Datei ist zu groß und muss komprimiert werden."
+      },
+      {
+        "chinese": "公司今年要压缩开支，不再招新人了。",
+        "pinyin": "Gōngsī jīnnián yào yāsuō kāizhī, bú zài zhāo xīn rén le.",
+        "german": "Die Firma will dieses Jahr die Ausgaben kürzen und stellt niemanden mehr ein."
+      },
+      {
+        "chinese": "请把这篇文章压缩到五百字以内。",
+        "pinyin": "Qǐng bǎ zhè piān wénzhāng yāsuō dào wǔbǎi zì yǐnèi.",
+        "german": "Bitte kürze diesen Artikel auf höchstens fünfhundert Zeichen."
       }
     ],
     "legacyIds": [
@@ -62525,15 +64192,19 @@ window.VOCAB_HSK6 = [
     "traditional": "壓縮",
     "evidence": {
       "cedict": "壓縮 压缩 [ya1 suo1]"
+    },
+    "notes": "压缩 (yāsuō) heißt wörtlich „zusammendrücken“: 压缩空气 „Druckluft“, in der IT 压缩文件 „eine Datei komprimieren“ und 压缩包 „(ZIP-)Archiv“. Übertragen bedeutet es „kürzen, verringern“: 压缩开支/成本 „Ausgaben/Kosten senken“, 压缩篇幅 „einen Text kürzen“, 压缩时间. Gegenüber dem allgemeinen 减少 (jiǎnshǎo) „verringern“ klingt es planvoller und wird oft für Budgets und Umfang gebraucht.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:亚军:ya4jun1",
     "word": "亚军",
     "pinyin": "yàjūn",
-    "meaning": "Vizemeister; Zweitplazierte; Zweite",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Zweitplatzierte(r); Vizemeister; zweiter Platz",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -62541,20 +64212,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "她在全国比赛中获得了亚军。",
+        "pinyin": "Tā zài quánguó bǐsài zhōng huòdé le yàjūn.",
+        "german": "Sie belegte beim landesweiten Wettbewerb den zweiten Platz."
+      },
+      {
+        "chinese": "我们队在决赛中输了，只拿到亚军。",
+        "pinyin": "Wǒmen duì zài juésài zhōng shū le, zhǐ nádào yàjūn.",
+        "german": "Unsere Mannschaft hat das Finale verloren und ist nur Zweiter geworden."
+      },
+      {
+        "chinese": "去年的亚军今年终于拿到了冠军。",
+        "pinyin": "Qùnián de yàjūn jīnnián zhōngyú nádào le guànjūn.",
+        "german": "Der Vorjahreszweite hat sich dieses Jahr endlich den Titel geholt."
+      }
+    ],
     "traditional": "亞軍",
     "evidence": {
       "cedict": "亞軍 亚军 [ya4 jun1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "亚军 (yàjūn) ist der zweite Platz in einem Wettbewerb bzw. der/die Zweitplatzierte; 亚 bedeutet hier „zweitrangig, nachfolgend“, nicht „Asien“. Die Reihe lautet 冠军 (guànjūn) „Sieger“, 亚军 „Zweiter“, 季军 (jìjūn) „Dritter“. Typisch sind 获得亚军 / 拿到亚军 „Zweiter werden“ und das bedauernde 屈居亚军 „sich mit Platz zwei begnügen müssen“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:淹:yan1",
     "word": "淹",
     "pinyin": "yān",
-    "meaning": "ertrinken; überfluten, überschwemmen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "überfluten; überschwemmen; unter Wasser setzen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -62562,7 +64253,23 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "大雨把整条街都淹了。",
+        "pinyin": "Dàyǔ bǎ zhěng tiáo jiē dōu yān le.",
+        "german": "Der Starkregen hat die ganze Straße unter Wasser gesetzt."
+      },
+      {
+        "chinese": "地下室被水淹了，东西全泡坏了。",
+        "pinyin": "Dìxiàshì bèi shuǐ yān le, dōngxi quán pào huài le.",
+        "german": "Der Keller stand unter Wasser, und alles darin ist aufgeweicht und kaputt."
+      },
+      {
+        "chinese": "小时候他差点儿在河里淹死。",
+        "pinyin": "Xiǎoshíhou tā chàdiǎnr zài hé li yānsǐ.",
+        "german": "Als Kind wäre er beinahe im Fluss ertrunken."
+      }
+    ],
     "traditional": "淹",
     "evidence": {
       "cedict": "淹 淹 [yan1]"
@@ -62571,21 +64278,37 @@ window.VOCAB_HSK6 = [
       "奄",
       "淊"
     ],
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "淹 (yān) heißt, dass Wasser etwas bedeckt oder überflutet: 大水淹了村子, 地下室被水淹了 „der Keller stand unter Wasser“, 水淹到了膝盖 „das Wasser reichte bis an die Knie“. „Ertrinken“ drückt man meist mit der Resultativform 淹死 (yānsǐ) aus. Gehoben bzw. übertragen steht 淹没 (yānmò) „überfluten; untergehen in“: 他的声音被淹没在掌声中.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:淹没:yan1mo4",
     "word": "淹没",
     "pinyin": "yānmò",
-    "meaning": "überfluten, versinken",
+    "meaning": "überfluten; überschwemmen; übertönen (übertr.)",
     "type": "Verb",
     "level": "HSK6",
     "category": "Natur",
     "examples": [
       {
         "chinese": "洪水淹没了大片农田。",
-        "pinyin": "Hóngshuǐ yānmòle dà piàn nóngtián.",
+        "pinyin": "Hóngshuǐ yānmò le dà piàn nóngtián.",
         "german": "Das Hochwasser überflutete weite Ackerflächen."
+      },
+      {
+        "chinese": "他的声音很快被掌声淹没了。",
+        "pinyin": "Tā de shēngyīn hěn kuài bèi zhǎngshēng yānmò le.",
+        "german": "Seine Stimme ging schnell im Applaus unter."
+      },
+      {
+        "chinese": "她很快就淹没在人群中，再也看不见了。",
+        "pinyin": "Tā hěn kuài jiù yānmò zài rénqún zhōng, zài yě kàn bu jiàn le.",
+        "german": "Sie verschwand schnell in der Menge und war nicht mehr zu sehen."
       }
     ],
     "legacyIds": [
@@ -62599,15 +64322,19 @@ window.VOCAB_HSK6 = [
     "traditional": "淹沒",
     "evidence": {
       "cedict": "淹沒 淹没 [yan1 mo4]"
+    },
+    "notes": "淹没 (yānmò) ist transitiv: Wasser „überflutet“ etwas, 洪水淹没了村庄. Sehr häufig steht es im Passiv mit 被: 被大水淹没. Übertragen heißt es „untergehen lassen, übertönen“: 声音被掌声淹没 „die Stimme geht im Applaus unter“, 淹没在人群中 „in der Menge verschwinden“. 没 wird hier mò gelesen, nicht méi; das einfache 淹 (yān) ist umgangssprachlicher: 淹死 „ertrinken“, 水淹了庄稼 „das Wasser hat die Felder überschwemmt“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:严:yan2",
     "word": "严",
     "pinyin": "yán",
-    "meaning": "Vater (hist.); dicht, fest; hart (sein), streng, strikt",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "streng; strikt; dicht (verschlossen)",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -62615,7 +64342,23 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他爸爸对他管得特别严。",
+        "pinyin": "Tā bàba duì tā guǎn de tèbié yán.",
+        "german": "Sein Vater ist sehr streng mit ihm."
+      },
+      {
+        "chinese": "这家公司对员工的要求很严。",
+        "pinyin": "Zhè jiā gōngsī duì yuángōng de yāoqiú hěn yán.",
+        "german": "Diese Firma stellt hohe Ansprüche an ihre Mitarbeiter."
+      },
+      {
+        "chinese": "你放心，他的嘴很严，不会告诉别人的。",
+        "pinyin": "Nǐ fàngxīn, tā de zuǐ hěn yán, bú huì gàosu biérén de.",
+        "german": "Keine Sorge, er ist verschwiegen und wird es niemandem erzählen."
+      }
+    ],
     "traditional": "嚴",
     "evidence": {
       "cedict": "嚴 严 [yan2]"
@@ -62623,15 +64366,19 @@ window.VOCAB_HSK6 = [
     "variants": [
       "嵓"
     ],
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "严 (yán) steht als eigenständiges Adjektiv meist im Prädikat oder nach 得: 管得很严 „streng kontrollieren“, 要求很严 „hohe Anforderungen stellen“, 对孩子很严 „streng mit den Kindern sein“. Konkret bedeutet es „dicht, fest verschlossen“: 门关得很严; 嘴很严 heißt „verschwiegen sein“. Vor Nomen stehen üblicher die Zusammensetzungen 严格 (yángé), 严厉 (yánlì) oder 严重 (yánzhòng). Als Familienname wird 严 ebenfalls yán gelesen.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:沿海:yan2hai3",
     "word": "沿海",
     "pinyin": "yánhǎi",
-    "meaning": "an der Küste gelegen; an der Küste; Küsten- (Vorsilbe)",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Küstengebiet; Küstenregion; Küsten-",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -62639,20 +64386,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "中国沿海城市的经济发展得比较快。",
+        "pinyin": "Zhōngguó yánhǎi chéngshì de jīngjì fāzhǎn de bǐjiào kuài.",
+        "german": "Die Wirtschaft der chinesischen Küstenstädte hat sich vergleichsweise schnell entwickelt."
+      },
+      {
+        "chinese": "台风明天将影响东南沿海一带。",
+        "pinyin": "Táifēng míngtiān jiāng yǐngxiǎng dōngnán yánhǎi yídài.",
+        "german": "Morgen wird der Taifun die südöstliche Küstenregion erreichen."
+      },
+      {
+        "chinese": "很多年轻人从内地到沿海打工。",
+        "pinyin": "Hěn duō niánqīngrén cóng nèidì dào yánhǎi dǎgōng.",
+        "german": "Viele junge Leute ziehen aus dem Landesinneren an die Küste, um dort zu arbeiten."
+      }
+    ],
     "traditional": "沿海",
     "evidence": {
       "cedict": "沿海 沿海 [yan2 hai3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "沿海 (yánhǎi) bezeichnet die Küstenregion eines Landes und steht oft attributiv vor Nomen: 沿海城市 „Küstenstädte“, 沿海地区 „Küstengebiete“. Als Ortsangabe sagt man 东南沿海 „die südöstliche Küste“ oder 沿海一带. Das Wort klingt sachlich und ist typisch für Wirtschaft, Geografie und Wetterberichte. Für „am Meer, am Strand“ im Alltag sagt man eher 海边 (hǎibiān): 去海边玩.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:严寒:yan2han2",
     "word": "严寒",
     "pinyin": "yánhán",
-    "meaning": "strenge od. grimmige Kälte, bitter kalt",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "bitterkalt; eisig; klirrende Kälte",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -62660,20 +64427,40 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "战士们冒着严寒在山上站岗。",
+        "pinyin": "Zhànshìmen màozhe yánhán zài shān shang zhàngǎng.",
+        "german": "Trotz der klirrenden Kälte standen die Soldaten auf dem Berg Wache."
+      },
+      {
+        "chinese": "这种植物能抵御零下三十度的严寒。",
+        "pinyin": "Zhè zhǒng zhíwù néng dǐyù língxià sānshí dù de yánhán.",
+        "german": "Diese Pflanze verträgt Frost bis minus dreißig Grad."
+      },
+      {
+        "chinese": "在严寒的冬季，老人要特别注意保暖。",
+        "pinyin": "Zài yánhán de dōngjì, lǎorén yào tèbié zhùyì bǎonuǎn.",
+        "german": "Im eisigen Winter sollten ältere Menschen besonders darauf achten, sich warm zu halten."
+      }
+    ],
     "traditional": "嚴寒",
     "evidence": {
       "cedict": "嚴寒 严寒 [yan2 han2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "严寒 (yánhán) beschreibt sehr strenge Kälte und gehört zur Schriftsprache: 严寒的冬天, 严寒地区, 天气严寒. Häufig wird es wie ein Nomen gebraucht: 冒着严寒 „trotz der klirrenden Kälte“, 抵御严寒 „der Kälte trotzen“. Neutraler ist 寒冷 (hánlěng) „kalt“, im Alltag sagt man einfach 很冷 oder 冷得要命. Das Gegenstück ist 酷暑 (kùshǔ) „brütende Hitze“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:严禁:yan2jin4",
     "word": "严禁",
     "pinyin": "yánjìn",
-    "meaning": "etw. strikt verbieten; keinesfalls",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "streng verbieten; strikt untersagen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -62681,20 +64468,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "加油站内严禁吸烟。",
+        "pinyin": "Jiāyóuzhàn nèi yánjìn xīyān.",
+        "german": "An der Tankstelle ist das Rauchen streng verboten."
+      },
+      {
+        "chinese": "学校严禁学生在考试中使用手机。",
+        "pinyin": "Xuéxiào yánjìn xuésheng zài kǎoshì zhōng shǐyòng shǒujī.",
+        "german": "Die Schule untersagt den Schülern strikt, während der Prüfung ein Handy zu benutzen."
+      },
+      {
+        "chinese": "酒后驾车是法律严禁的行为。",
+        "pinyin": "Jiǔ hòu jiàchē shì fǎlǜ yánjìn de xíngwéi.",
+        "german": "Fahren unter Alkoholeinfluss ist gesetzlich streng verboten."
+      }
+    ],
     "traditional": "嚴禁",
     "evidence": {
       "cedict": "嚴禁 严禁 [yan2 jin4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "严禁 (yánjìn) ist ein förmliches „streng verboten“ und steht typisch auf Schildern und in Vorschriften: 严禁吸烟, 严禁烟火, 严禁酒后驾车. Das Objekt ist meist eine Handlung, also ein Verb oder eine Verbalphrase. Es ist stärker als 禁止 (jìnzhǐ) „verbieten“; mündlich sagt man eher 不准 (bù zhǔn) oder 不许 (bù xǔ). Häufig ist auch der Rahmen 是严禁的 „ist strengstens verboten“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:严厉:yan2li4",
     "word": "严厉",
     "pinyin": "yánlì",
-    "meaning": "Bitterkeit; Strenge; barsch",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "streng; scharf; hart",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -62702,12 +64509,34 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他小时候，父亲对他非常严厉。",
+        "pinyin": "Tā xiǎoshíhou, fùqin duì tā fēicháng yánlì.",
+        "german": "Als er klein war, war sein Vater sehr streng zu ihm."
+      },
+      {
+        "chinese": "经理严厉地批评了这种不负责任的做法。",
+        "pinyin": "Jīnglǐ yánlì de pīpíng le zhè zhǒng bú fù zérèn de zuòfǎ.",
+        "german": "Der Manager kritisierte dieses verantwortungslose Vorgehen scharf."
+      },
+      {
+        "chinese": "政府将严厉打击网络诈骗。",
+        "pinyin": "Zhèngfǔ jiāng yánlì dǎjī wǎngluò zhàpiàn.",
+        "german": "Die Regierung will hart gegen Internetbetrug vorgehen."
+      }
+    ],
     "traditional": "嚴厲",
     "evidence": {
       "cedict": "嚴厲 严厉 [yan2 li4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "严厉 (yánlì) beschreibt eine strenge, harte Haltung oder Maßnahme: 严厉的老师, 语气严厉 „in scharfem Ton“, 严厉的惩罚 „harte Strafe“. Adverbial steht es oft vor 批评 oder 打击: 严厉批评 „scharf kritisieren“, 严厉打击 „hart vorgehen gegen“. Lernende verwechseln es mit 严格 (yángé): 严格 meint „genau, regelstreng“ (严格要求, 严格遵守), 严厉 betont dagegen Härte und Schärfe im Umgang.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:延期:yan2qi1",
@@ -62722,6 +64551,16 @@ window.VOCAB_HSK6 = [
         "chinese": "会议延期到下周。",
         "pinyin": "Huìyì yánqī dào xià zhōu.",
         "german": "Die Besprechung wird auf nächste Woche verschoben."
+      },
+      {
+        "chinese": "由于天气原因，比赛延期举行。",
+        "pinyin": "Yóuyú tiānqì yuányīn, bǐsài yánqī jǔxíng.",
+        "german": "Wegen des Wetters wird das Spiel verschoben."
+      },
+      {
+        "chinese": "我的签证下个月到期，得去申请延期。",
+        "pinyin": "Wǒ de qiānzhèng xià ge yuè dàoqī, děi qù shēnqǐng yánqī.",
+        "german": "Mein Visum läuft nächsten Monat ab, ich muss eine Verlängerung beantragen."
       }
     ],
     "legacyIds": [
@@ -62735,15 +64574,19 @@ window.VOCAB_HSK6 = [
     "traditional": "延期",
     "evidence": {
       "cedict": "延期 延期 [yan2 qi1]"
+    },
+    "notes": "延期 (yánqī) heißt „einen Termin nach hinten verschieben“ oder „eine Frist verlängern“. Meist steht es ohne Objekt; was verschoben wird, ist das Subjekt: 会议延期, 比赛因雨延期, 延期到下周, 延期举行. Für Fristen sagt man 申请延期 „eine Verlängerung beantragen“, 签证延期 „Visumverlängerung“, 延期付款 „Zahlungsaufschub“. Wer etwas aktiv verschiebt, sagt im Alltag eher 推迟 (tuīchí): 我们推迟了会议.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:炎热:yan2re4",
     "word": "炎热",
     "pinyin": "yánrè",
-    "meaning": "Glut; heiß",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "heiß; glühend heiß (Wetter)",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -62751,12 +64594,34 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这里夏天气候炎热，很少下雨。",
+        "pinyin": "Zhèlǐ xiàtiān qìhòu yánrè, hěn shǎo xiàyǔ.",
+        "german": "Hier ist es im Sommer heiß, und es regnet selten."
+      },
+      {
+        "chinese": "天气炎热，大家要多喝水，少在中午出门。",
+        "pinyin": "Tiānqì yánrè, dàjiā yào duō hē shuǐ, shǎo zài zhōngwǔ chūmén.",
+        "german": "Bei dieser Hitze sollte man viel trinken und mittags möglichst nicht aus dem Haus gehen."
+      },
+      {
+        "chinese": "在炎热的沙漠里，他们走了整整三天。",
+        "pinyin": "Zài yánrè de shāmò li, tāmen zǒu le zhěngzhěng sān tiān.",
+        "german": "Drei volle Tage lang liefen sie durch die glühend heiße Wüste."
+      }
+    ],
     "traditional": "炎熱",
     "evidence": {
       "cedict": "炎熱 炎热 [yan2 re4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "炎热 (yánrè) beschreibt große Hitze von Wetter, Klima und Jahreszeit: 天气炎热, 炎热的夏天, 气候炎热. Für Speisen, Getränke oder Gegenstände passt es nicht; dort sagt man 热 oder 烫 (tàng): 汤太烫了. Das Wort klingt etwas schriftlicher als 很热 und ist typisch für Wetterberichte und Beschreibungen. Noch stärker ist 酷热 (kùrè) „brütend heiß“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:延伸:yan2shen1",
@@ -62769,8 +64634,18 @@ window.VOCAB_HSK6 = [
     "examples": [
       {
         "chinese": "这条路一直延伸到山脚下。",
-        "pinyin": "Zhè tiáo lù yīzhí yánshēn dào shānjiǎo xià.",
+        "pinyin": "Zhè tiáo lù yìzhí yánshēn dào shānjiǎo xià.",
         "german": "Diese Straße erstreckt sich bis zum Fuß des Berges."
+      },
+      {
+        "chinese": "公司计划把业务延伸到农村市场。",
+        "pinyin": "Gōngsī jìhuà bǎ yèwù yánshēn dào nóngcūn shìchǎng.",
+        "german": "Das Unternehmen plant, sein Geschäft auf den ländlichen Markt auszuweiten."
+      },
+      {
+        "chinese": "这本书可以看作是他上一部小说的延伸。",
+        "pinyin": "Zhè běn shū kěyǐ kànzuò shì tā shàng yí bù xiǎoshuō de yánshēn.",
+        "german": "Dieses Buch lässt sich als Fortsetzung seines letzten Romans lesen."
       }
     ],
     "legacyIds": [
@@ -62784,6 +64659,12 @@ window.VOCAB_HSK6 = [
     "traditional": "延伸",
     "evidence": {
       "cedict": "延伸 延伸 [yan2 shen1]"
+    },
+    "notes": "延伸 (yánshēn) heißt räumlich „sich erstrecken, sich hinziehen“: 一直延伸到海边, 向远方延伸. Übertragen bedeutet es „ausweiten, ausdehnen“: 把服务延伸到农村. Als Nomen steht es in 是……的延伸 „ist die Fortsetzung/Erweiterung von …“. Nicht verwechseln mit 延长 (yáncháng) „verlängern“, das für Zeit und Dauer üblich ist: 延长时间.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -62798,7 +64679,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "学者们举办了一次研讨会。",
         "pinyin": "Xuézhěmen jǔbàn le yí cì yántǎohuì.",
-        "german": "Die Wissenschaftler veranstalteten ein Seminar."
+        "german": "Die Wissenschaftler veranstalteten ein Symposium."
+      },
+      {
+        "chinese": "专家们正在研讨如何减少城市污染。",
+        "pinyin": "Zhuānjiāmen zhèngzài yántǎo rúhé jiǎnshǎo chéngshì wūrǎn.",
+        "german": "Die Experten erörtern gerade, wie sich die Umweltverschmutzung in den Städten verringern lässt."
+      },
+      {
+        "chinese": "会上，代表们对教育改革进行了深入研讨。",
+        "pinyin": "Huì shang, dàibiǎomen duì jiàoyù gǎigé jìnxíng le shēnrù yántǎo.",
+        "german": "Auf der Tagung erörterten die Delegierten die Bildungsreform eingehend."
       }
     ],
     "legacyIds": [
@@ -62812,15 +64703,19 @@ window.VOCAB_HSK6 = [
     "traditional": "研討",
     "evidence": {
       "cedict": "研討 研讨 [yan2 tao3]"
+    },
+    "notes": "研讨 (yántǎo) ist ein förmliches „erörtern, gemeinsam untersuchen“ aus Wissenschaft und Fachwelt. Am häufigsten begegnet es in 研讨会 (yántǎohuì) „Symposium, Fachtagung, Seminar“. Als Verb steht es mit Objekt (研讨……问题) oder in 进行研讨, 共同研讨. Im Alltag sagt man 讨论 (tǎolùn) „diskutieren“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:延续:yan2xu4",
     "word": "延续",
     "pinyin": "yánxù",
-    "meaning": "Fortführung; Länge; Weiterführung",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "fortdauern; sich fortsetzen; fortführen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -62828,20 +64723,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这个节日的习俗已经延续了一千多年。",
+        "pinyin": "Zhège jiérì de xísú yǐjīng yánxù le yìqiān duō nián.",
+        "german": "Die Bräuche dieses Festes bestehen schon seit über tausend Jahren."
+      },
+      {
+        "chinese": "如果不采取措施，这种情况还会延续下去。",
+        "pinyin": "Rúguǒ bù cǎiqǔ cuòshī, zhè zhǒng qíngkuàng hái huì yánxù xiaqu.",
+        "german": "Wenn nichts unternommen wird, wird dieser Zustand weiter andauern."
+      },
+      {
+        "chinese": "他们希望通过这个项目延续老一辈的传统。",
+        "pinyin": "Tāmen xīwàng tōngguò zhège xiàngmù yánxù lǎoyíbèi de chuántǒng.",
+        "german": "Mit diesem Projekt wollen sie die Tradition der älteren Generation fortführen."
+      }
+    ],
     "traditional": "延續",
     "evidence": {
       "cedict": "延續 延续 [yan2 xu4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "延续 (yánxù) bedeutet, dass ein Zustand, eine Tradition oder Entwicklung über die Zeit fortbesteht: 传统延续了几百年, 这种情况还会延续下去. Transitiv heißt es „fortführen, weitertragen“: 延续传统, 延续生命. Nicht verwechseln mit 继续 (jìxù), das meist vor einem Verb steht und das Weitermachen einer Handlung meint (继续工作), und mit 持续 (chíxù) „ununterbrochen anhalten“ (大雨持续了三天).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:言语:yan2yu3",
     "word": "言语",
     "pinyin": "yányǔ",
-    "meaning": "Sprechen, Rede, Wort",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Worte; Rede; Ausdrucksweise",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -62849,12 +64764,34 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他的言语中充满了对家乡的思念。",
+        "pinyin": "Tā de yányǔ zhōng chōngmǎn le duì jiāxiāng de sīniàn.",
+        "german": "Aus seinen Worten sprach große Sehnsucht nach der Heimat."
+      },
+      {
+        "chinese": "网络上的言语暴力也会给人造成很大伤害。",
+        "pinyin": "Wǎngluò shang de yányǔ bàolì yě huì gěi rén zàochéng hěn dà shānghài.",
+        "german": "Auch verbale Gewalt im Internet kann Menschen großen Schaden zufügen."
+      },
+      {
+        "chinese": "老人激动得说不出话，只能用眼神代替言语。",
+        "pinyin": "Lǎorén jīdòng de shuō bu chū huà, zhǐ néng yòng yǎnshén dàitì yányǔ.",
+        "german": "Der alte Mann war so bewegt, dass er kein Wort herausbrachte; seine Blicke mussten die Worte ersetzen."
+      }
+    ],
     "traditional": "言語",
     "evidence": {
       "cedict": "言語 言语 [yan2 yu3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "言语 (yányǔ) meint das, was jemand sagt, und die Art, wie er es sagt; es klingt eher schriftlich: 言语粗鲁 „sich grob ausdrücken“, 言语暴力 „verbale Gewalt“, 言语表达能力 „sprachliches Ausdrucksvermögen“. Nicht verwechseln mit 语言 (yǔyán) „Sprache“ als System (汉语是一种语言). Mit neutralem Ton, yányu, ist es in nordchinesischer Umgangssprache ein Verb „etwas sagen“: 走的时候言语一声 „sag Bescheid, wenn du gehst“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:炎症:yan2zheng4",
@@ -62868,12 +64805,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "伤口有轻微的炎症。",
         "pinyin": "Shāngkǒu yǒu qīngwēi de yánzhèng.",
-        "german": "Die Wunde hat eine leichte Entzündung."
+        "german": "Die Wunde ist leicht entzündet."
       },
       {
         "chinese": "医生开了消炎药来控制炎症。",
-        "pinyin": "Yīshēng kāi le xiāoyán yào lái kòngzhì yánzhèng.",
-        "german": "Der Arzt verschrieb entzündungshemmende Medikamente zur Kontrolle der Entzündung."
+        "pinyin": "Yīshēng kāi le xiāoyányào lái kòngzhì yánzhèng.",
+        "german": "Der Arzt verschrieb ein entzündungshemmendes Mittel, um die Entzündung in den Griff zu bekommen."
+      },
+      {
+        "chinese": "长期的慢性炎症可能引起其他疾病。",
+        "pinyin": "Chángqī de mànxìng yánzhèng kěnéng yǐnqǐ qítā jíbìng.",
+        "german": "Langanhaltende chronische Entzündungen können andere Krankheiten auslösen."
       }
     ],
     "legacyIds": [
@@ -62887,15 +64829,19 @@ window.VOCAB_HSK6 = [
     "traditional": "炎症",
     "evidence": {
       "cedict": "炎症 炎症 [yan2 zheng4]"
+    },
+    "notes": "炎症 (yánzhèng) ist der medizinische Oberbegriff „Entzündung“: 有炎症, 引起炎症, 炎症消退 „die Entzündung klingt ab“. Im Alltag sagt man meist mit dem Verb 发炎 (fāyán) „sich entzünden“: 伤口发炎了. Einzelne Entzündungskrankheiten enden auf 炎: 肺炎 „Lungenentzündung“, 胃炎 „Gastritis“, 关节炎 „Arthritis“. „Entzündungshemmend“ heißt 消炎 (xiāoyán), etwa 消炎药.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:眼光:yan3guang1",
     "word": "眼光",
     "pinyin": "yǎnguāng",
-    "meaning": "Sehvermögen; Sicht; Vision, Weitsicht",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Blick; Urteilsvermögen; Weitblick; Sichtweise",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -62903,18 +64849,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "你买的这件衣服真好看，你真有眼光！",
+        "pinyin": "Nǐ mǎi de zhè jiàn yīfu zhēn hǎokàn, nǐ zhēn yǒu yǎnguāng!",
+        "german": "Das Teil, das du gekauft hast, sieht richtig gut aus – du hast wirklich Geschmack!"
+      },
+      {
+        "chinese": "做生意要有长远的眼光。",
+        "pinyin": "Zuò shēngyi yào yǒu chángyuǎn de yǎnguāng.",
+        "german": "Wer Geschäfte macht, braucht Weitblick."
+      },
+      {
+        "chinese": "别总用老眼光看人，他已经变了很多。",
+        "pinyin": "Bié zǒng yòng lǎo yǎnguāng kàn rén, tā yǐjīng biàn le hěn duō.",
+        "german": "Sieh ihn nicht immer durch die alte Brille – er hat sich sehr verändert."
+      }
+    ],
     "traditional": "眼光",
     "evidence": {
       "cedict": "眼光 眼光 [yan3 guang1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "眼光 (yǎnguāng) ist wörtlich der „Blick“: 羡慕的眼光 „neidische Blicke“, 别人的眼光 „was andere denken“. Viel häufiger ist der übertragene Sinn „Urteilsvermögen, Geschmack, Weitblick“: 有眼光 „ein gutes Auge haben“, 眼光长远 „weitsichtig“, 用发展的眼光看问题. 老眼光 heißt „veraltete Sichtweise“. Für den Ausdruck der Augen sagt man eher 眼神 (yǎnshén), schriftlich für „Blick“ auch 目光 (mùguāng).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:眼看:yan3kan4",
     "word": "眼看",
     "pinyin": "yǎnkàn",
-    "meaning": "zusehen müssen, bald",
+    "meaning": "gleich; kurz davor; mit ansehen (müssen)",
     "type": "Adverb",
     "level": "HSK6",
     "category": "Alltag",
@@ -62922,7 +64890,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "眼看就要下雨了。",
         "pinyin": "Yǎnkàn jiùyào xiàyǔ le.",
-        "german": "Es sieht so aus, als ob es gleich regnen wird."
+        "german": "Gleich fängt es an zu regnen."
+      },
+      {
+        "chinese": "眼看天就黑了，我们得赶快下山。",
+        "pinyin": "Yǎnkàn tiān jiù hēi le, wǒmen děi gǎnkuài xiàshān.",
+        "german": "Es wird gleich dunkel, wir müssen schnell den Berg hinunter."
+      },
+      {
+        "chinese": "我们不能眼看着孩子走错路而不管。",
+        "pinyin": "Wǒmen bù néng yǎnkàn zhe háizi zǒu cuò lù ér bù guǎn.",
+        "german": "Wir können nicht tatenlos zusehen, wie die Kinder auf den falschen Weg geraten."
       }
     ],
     "legacyIds": [
@@ -62936,6 +64914,12 @@ window.VOCAB_HSK6 = [
     "traditional": "眼看",
     "evidence": {
       "cedict": "眼看 眼看 [yan3 kan4]"
+    },
+    "notes": "Als Adverb kündigt 眼看 (yǎnkàn) an, dass etwas unmittelbar bevorsteht, meist mit 就要/快……了: 眼看就要考试了. Es kann vor dem Subjekt stehen: 眼看天就黑了. Als Verb, meist in der Form 眼看着, heißt es „(hilflos) mit ansehen“: 我们不能眼看着他犯错. Ein ähnliches Adverb ist 马上 (mǎshàng), das neutraler klingt; 眼看 betont, dass man die Entwicklung kommen sieht.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -62948,14 +64932,19 @@ window.VOCAB_HSK6 = [
     "category": "Hobbys",
     "examples": [
       {
-        "chinese": "他在演奏一首曲子。",
-        "pinyin": "Tā zài yǎnzòu yī shǒu qǔzi.",
-        "german": "Er spielt gerade ein Musikstück vor."
+        "chinese": "他演奏了一首钢琴曲。",
+        "pinyin": "Tā yǎnzòu le yì shǒu gāngqínqǔ.",
+        "german": "Er spielte ein Klavierstück."
       },
       {
-        "chinese": "他演奏了一首钢琴曲。",
-        "pinyin": "Tā yǎnzòule yī shǒu gāngqín qǔ.",
-        "german": "Er spielte ein Klavierstück."
+        "chinese": "乐队在晚会上演奏了几首中国民歌。",
+        "pinyin": "Yuèduì zài wǎnhuì shang yǎnzòu le jǐ shǒu Zhōngguó míngē.",
+        "german": "Die Band spielte bei der Abendveranstaltung einige chinesische Volkslieder."
+      },
+      {
+        "chinese": "她从小学小提琴，十岁就开过个人演奏会。",
+        "pinyin": "Tā cóngxiǎo xué xiǎotíqín, shí suì jiù kāi guo gèrén yǎnzòuhuì.",
+        "german": "Sie hat schon als Kind Geige gelernt und mit zehn bereits ein Solokonzert gegeben."
       }
     ],
     "legacyIds": [
@@ -62969,6 +64958,12 @@ window.VOCAB_HSK6 = [
     "traditional": "演奏",
     "evidence": {
       "cedict": "演奏 演奏 [yan3 zou4]"
+    },
+    "notes": "演奏 (yǎnzòu) heißt „Instrumentalmusik vortragen“, meist vor Publikum: 演奏钢琴曲, 现场演奏, 演奏会 „Konzert“. Im Alltag nennt man für das Spielen eines Instruments das konkrete Verb: 弹钢琴 (tán), 拉小提琴 (lā), 吹笛子 (chuī). Für Gesang verwendet man 演唱 (yǎnchàng), nicht 演奏.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -62982,8 +64977,18 @@ window.VOCAB_HSK6 = [
     "examples": [
       {
         "chinese": "今晚有一个宴会。",
-        "pinyin": "Jīnwǎn yǒu yī gè yànhuì.",
+        "pinyin": "Jīnwǎn yǒu yí ge yànhuì.",
         "german": "Heute Abend gibt es ein Festessen."
+      },
+      {
+        "chinese": "市长举行宴会欢迎外国客人。",
+        "pinyin": "Shìzhǎng jǔxíng yànhuì huānyíng wàiguó kèrén.",
+        "german": "Der Bürgermeister gab ein Bankett zu Ehren der ausländischen Gäste."
+      },
+      {
+        "chinese": "参加正式宴会时，最好穿得正式一点。",
+        "pinyin": "Cānjiā zhèngshì yànhuì shí, zuìhǎo chuān de zhèngshì yìdiǎn.",
+        "german": "Zu einem offiziellen Bankett sollte man sich besser etwas förmlicher kleiden."
       }
     ],
     "legacyIds": [
@@ -63007,31 +65012,37 @@ window.VOCAB_HSK6 = [
     ],
     "evidence": {
       "cedict": "宴會 宴会 [yan4 hui4]"
+    },
+    "notes": "宴会 (yànhuì) ist ein förmliches „Bankett, Festessen“, oft mit offiziellem Anlass: 举行/举办宴会, 参加宴会, 欢迎宴会, 宴会厅 „Festsaal“. Als Zählwort dienen 个 oder 场 (chǎng), gehoben auch 席 (xí). Ein lockeres Treffen mit Freunden ist dagegen ein 聚会 (jùhuì); ein festliches Abendessen heißt auch 晚宴 (wǎnyàn).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:验证:yan4zheng4",
     "word": "验证",
     "pinyin": "yànzhèng",
-    "meaning": "verifizieren, ueberpruefen, Verifikation",
+    "meaning": "überprüfen; verifizieren; bestätigen",
     "type": "Verb",
     "level": "HSK6",
     "category": "Wissenschaft",
     "examples": [
       {
-        "chinese": "这个理论需要验证。",
-        "pinyin": "Zhège lǐlùn xūyào yànzhèng.",
-        "german": "Diese Theorie muss verifiziert werden."
-      },
-      {
         "chinese": "这个理论还需要进一步验证。",
-        "pinyin": "Zhège lǐlùn hái xūyào jìnyībù yànzhèng.",
+        "pinyin": "Zhège lǐlùn hái xūyào jìnyíbù yànzhèng.",
         "german": "Diese Theorie muss noch weiter überprüft werden."
       },
       {
         "chinese": "实验结果验证了他的理论预测。",
-        "pinyin": "Shíyàn jiéguǒ yànzhèngle tā de lǐlùn yùcè.",
-        "german": "Die experimentellen Ergebnisse verifizierten seine theoretische Vorhersage."
+        "pinyin": "Shíyàn jiéguǒ yànzhèng le tā de lǐlùn yùcè.",
+        "german": "Die Versuchsergebnisse bestätigten seine theoretische Vorhersage."
+      },
+      {
+        "chinese": "系统需要验证你的身份。",
+        "pinyin": "Xìtǒng xūyào yànzhèng nǐ de shēnfèn.",
+        "german": "Das System muss deine Identität überprüfen."
       }
     ],
     "legacyIds": [
@@ -63045,15 +65056,19 @@ window.VOCAB_HSK6 = [
     "traditional": "驗證",
     "evidence": {
       "cedict": "驗證 验证 [yan4 zheng4]"
+    },
+    "notes": "验证 (yànzhèng) heißt „durch Prüfung oder Versuch feststellen, ob etwas stimmt“: 验证理论, 验证假设, 有待验证 „muss noch überprüft werden“, 得到验证 „sich bestätigen“. In der IT bedeutet es „verifizieren, authentifizieren“: 验证身份, 验证码 (yànzhèngmǎ) „Bestätigungscode“. Allgemeines „kontrollieren“ ist 检查 (jiǎnchá); 证明 (zhèngmíng) heißt „beweisen“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:仰:yang3",
     "word": "仰",
     "pinyin": "yǎng",
-    "meaning": "auf jmdn. od. etw. angewiesen sein; bewundern, respektieren, zu jmdn. hinauf schauen; hinauf sehen, das Gesicht nach oben richten",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Gesicht nach oben richten; aufblicken; bewundern (geh.); sich stützen auf (geh.)",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -63061,18 +65076,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 207
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他仰着头看天上的星星。",
+        "pinyin": "Tā yǎng zhe tóu kàn tiān shang de xīngxing.",
+        "german": "Er legte den Kopf in den Nacken und betrachtete die Sterne."
+      },
+      {
+        "chinese": "孩子们仰起脸，认真地听老师讲故事。",
+        "pinyin": "Háizimen yǎngqǐ liǎn, rènzhēn de tīng lǎoshī jiǎng gùshi.",
+        "german": "Die Kinder hoben die Gesichter und hörten aufmerksam zu, wie die Lehrerin eine Geschichte erzählte."
+      },
+      {
+        "chinese": "他笑得前仰后合，眼泪都出来了。",
+        "pinyin": "Tā xiào de qiányǎng-hòuhé, yǎnlèi dōu chūlai le.",
+        "german": "Er bog sich vor Lachen, bis ihm die Tränen kamen."
+      }
+    ],
     "traditional": "仰",
     "evidence": {
       "cedict": "仰 仰 [yang3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "仰 (yǎng) heißt zunächst „den Kopf heben, nach oben blicken“: 仰着头, 仰起脸; das Gegenteil ist 低头 (dītóu) bzw. schriftlich 俯 (fǔ). In festen Wörtern steht es für „auf dem Rücken“: 仰泳 „Rückenschwimmen“, 仰卧 „auf dem Rücken liegen“. Die Bedeutungen „bewundern“ und „sich stützen auf“ leben meist in Zusammensetzungen wie 敬仰, 仰慕, 仰仗 und in der Höflichkeitsformel 久仰 „ich habe schon viel von Ihnen gehört“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:痒:yang3",
     "word": "痒",
     "pinyin": "yǎng",
-    "meaning": "jucken",
+    "meaning": "jucken; juckend; kitzlig",
     "type": "Adjektiv",
     "level": "HSK6",
     "category": "Gesundheit",
@@ -63080,7 +65117,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "被蚊子咬了，很痒。",
         "pinyin": "Bèi wénzi yǎo le, hěn yǎng.",
-        "german": "Von einer Mücke gestochen, es juckt sehr."
+        "german": "Mich hat eine Mücke gestochen, und jetzt juckt es sehr."
+      },
+      {
+        "chinese": "我后背有点儿痒，你帮我挠一下。",
+        "pinyin": "Wǒ hòubèi yǒudiǎnr yǎng, nǐ bāng wǒ náo yíxià.",
+        "german": "Mein Rücken juckt ein bisschen, kratz mich doch mal."
+      },
+      {
+        "chinese": "他特别怕痒，一碰就笑。",
+        "pinyin": "Tā tèbié pà yǎng, yí pèng jiù xiào.",
+        "german": "Er ist sehr kitzlig – sobald man ihn berührt, muss er lachen."
       }
     ],
     "legacyIds": [
@@ -63094,26 +65141,37 @@ window.VOCAB_HSK6 = [
     "traditional": "癢",
     "evidence": {
       "cedict": "癢 痒 [yang3]"
+    },
+    "notes": "痒 (yǎng) ist im Chinesischen ein Adjektiv; der Körperteil steht als Subjekt: 背很痒 „der Rücken juckt“, 痒得受不了 „es juckt unerträglich“. 怕痒 heißt „kitzlig sein“, 挠痒痒 (náo yǎngyang) „sich kratzen“ oder „jemanden kitzeln“. Übertragen bedeutet 心里痒痒 „es juckt einen, etwas zu tun“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:养老:yang3lao3",
     "word": "养老",
     "pinyin": "yǎnglǎo",
-    "meaning": "Altersversorgung, Altenpflege",
-    "type": "Nomen",
+    "meaning": "alte Menschen versorgen; den Lebensabend verbringen; Altersversorgung",
+    "type": "Verb",
     "level": "HSK6",
     "category": "Leben",
     "examples": [
       {
-        "chinese": "养老是一个社会问题。",
-        "pinyin": "Yǎnglǎo shì yí ge shèhuì wèntí.",
-        "german": "Altenpflege ist ein gesellschaftliches Thema."
+        "chinese": "养老问题是社会面临的一大挑战。",
+        "pinyin": "Yǎnglǎo wèntí shì shèhuì miànlín de yí dà tiǎozhàn.",
+        "german": "Die Altersversorgung ist eine der großen Herausforderungen, vor denen die Gesellschaft steht."
       },
       {
-        "chinese": "养老问题是社会面临的一大挑战。",
-        "pinyin": "Yǎnglǎo wèntí shì shèhuì miànlín de yī dà tiǎozhàn.",
-        "german": "Die Altersversorgung ist eine große gesellschaftliche Herausforderung."
+        "chinese": "退休以后，他打算回老家养老。",
+        "pinyin": "Tuìxiū yǐhòu, tā dǎsuàn huí lǎojiā yǎnglǎo.",
+        "german": "Nach der Pensionierung will er seinen Lebensabend in seiner Heimat verbringen."
+      },
+      {
+        "chinese": "年轻时多存点钱，将来养老就不用发愁了。",
+        "pinyin": "Niánqīng shí duō cún diǎn qián, jiānglái yǎnglǎo jiù bú yòng fāchóu le.",
+        "german": "Wer in jungen Jahren etwas mehr spart, muss sich später um das Alter keine Sorgen machen."
       }
     ],
     "legacyIds": [
@@ -63127,15 +65185,19 @@ window.VOCAB_HSK6 = [
     "traditional": "養老",
     "evidence": {
       "cedict": "養老 养老 [yang3 lao3]"
+    },
+    "notes": "养老 (yǎnglǎo) hat zwei Seiten: „alte Menschen (Eltern) versorgen“ und „im Alter leben, den Ruhestand verbringen“: 回老家养老 „den Lebensabend in der Heimat verbringen“. Häufig steht es attributiv in Zusammensetzungen: 养老金 „Rente“, 养老保险 „Rentenversicherung“, 养老院 „Altersheim“, 养老问题 „Frage der Altersversorgung“. 养 allein heißt „versorgen, großziehen“ (养孩子), 老 steht hier für „die Alten“ bzw. „das Alter“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:养老院:yang3lao3yuan4",
     "word": "养老院",
     "pinyin": "yǎnglǎoyuàn",
-    "meaning": "Altersheim, Pflegeheim",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Altersheim; Seniorenheim; Pflegeheim",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -63143,12 +65205,34 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "奶奶不想住养老院，她更愿意跟我们住在一起。",
+        "pinyin": "Nǎinai bù xiǎng zhù yǎnglǎoyuàn, tā gèng yuànyì gēn wǒmen zhù zài yìqǐ.",
+        "german": "Oma will nicht ins Altersheim, sie wohnt lieber bei uns."
+      },
+      {
+        "chinese": "周末，学生们去养老院看望老人。",
+        "pinyin": "Zhōumò, xuéshengmen qù yǎnglǎoyuàn kànwàng lǎorén.",
+        "german": "Am Wochenende besuchen die Schüler die alten Leute im Seniorenheim."
+      },
+      {
+        "chinese": "这家养老院有专业的护士，二十四小时照顾老人。",
+        "pinyin": "Zhè jiā yǎnglǎoyuàn yǒu zhuānyè de hùshi, èrshísì xiǎoshí zhàogù lǎorén.",
+        "german": "In diesem Pflegeheim kümmern sich ausgebildete Pflegekräfte rund um die Uhr um die Bewohner."
+      }
+    ],
     "traditional": "養老院",
     "evidence": {
       "cedict": "養老院 养老院 [yang3 lao3 yuan4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "养老院 (yǎnglǎoyuàn) ist das „Altersheim“; Zählwort ist 家 oder 所. Typische Verben: 住养老院, 住进养老院, 把老人送到养老院, 去养老院看望老人. Bedeutungsnah ist 敬老院 (jìnglǎoyuàn), das oft öffentliche Einrichtungen bezeichnet, etwa für alte Menschen ohne Angehörige. Viele ältere Chinesen ziehen die Pflege durch die Familie vor, doch Heime werden zunehmend akzeptiert.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:氧气:yang3qi4",
@@ -63168,6 +65252,11 @@ window.VOCAB_HSK6 = [
         "chinese": "植物能产生氧气。",
         "pinyin": "Zhíwù néng chǎnshēng yǎngqì.",
         "german": "Pflanzen können Sauerstoff erzeugen."
+      },
+      {
+        "chinese": "高原上空气稀薄，氧气不足，很多人会觉得头疼。",
+        "pinyin": "Gāoyuán shang kōngqì xībó, yǎngqì bùzú, hěn duō rén huì juéde tóuténg.",
+        "german": "Im Hochland ist die Luft dünn und es fehlt an Sauerstoff, deshalb bekommen viele Kopfschmerzen."
       }
     ],
     "legacyIds": [
@@ -63181,15 +65270,19 @@ window.VOCAB_HSK6 = [
     "traditional": "氧氣",
     "evidence": {
       "cedict": "氧氣 氧气 [yang3 qi4]"
+    },
+    "notes": "氧气 (yǎngqì) ist der Sauerstoff als Gas, so wie man ihn atmet; das chemische Element heißt einfach 氧 (yǎng). Typische Verbindungen: 缺氧 (quēyǎng) „Sauerstoffmangel“, 吸氧 „Sauerstoff bekommen“ (im Krankenhaus), 氧气瓶 „Sauerstoffflasche“, 氧气罩 „Sauerstoffmaske“. Im Hochland sagt man: 空气稀薄，氧气不足.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:样:yang4",
     "word": "样",
     "pinyin": "yàng",
-    "meaning": "Art, Typ, Sorte; Zählwort für allgemeine Dinge; Form, Stil",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Art; Sorte (Zählwort für Sorten und Arten)",
     "type": "Zählwort",
     "level": "HSK6",
     "syllabus": {
@@ -63197,12 +65290,34 @@ window.VOCAB_HSK6 = [
       "pos": "量",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我们点了四样菜，够两个人吃了。",
+        "pinyin": "Wǒmen diǎn le sì yàng cài, gòu liǎng ge rén chī le.",
+        "german": "Wir haben vier verschiedene Gerichte bestellt – das reicht für zwei."
+      },
+      {
+        "chinese": "他买了好几样水果。",
+        "pinyin": "Tā mǎi le hǎojǐ yàng shuǐguǒ.",
+        "german": "Er hat mehrere Sorten Obst gekauft."
+      },
+      {
+        "chinese": "这孩子样样都好，就是太粗心了。",
+        "pinyin": "Zhè háizi yàngyàng dōu hǎo, jiùshì tài cūxīn le.",
+        "german": "Das Kind ist in jeder Hinsicht toll, nur leider viel zu schusselig."
+      }
+    ],
     "traditional": "樣",
     "evidence": {
       "cedict": "樣 样 [yang4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als Zählwort zählt 样 (yàng) verschiedene Sorten konkreter Dinge: 四样菜 „vier verschiedene Gerichte“, 好几样水果 „mehrere Sorten Obst“. Verdoppelt heißt 样样 „alles, in jeder Hinsicht“: 样样都好. 种 (zhǒng) ist ähnlich, klingt aber allgemeiner und passt auch für abstrakte Arten (这种情况); 样 steht eher für greifbare Dinge. Als Nomen „Aussehen, Form“ lebt 样 vor allem in 样子 (yàngzi), 一样 (yíyàng) und 怎么样.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:遥远:yao2yuan3",
@@ -63215,8 +65330,18 @@ window.VOCAB_HSK6 = [
     "examples": [
       {
         "chinese": "那是一个遥远的地方。",
-        "pinyin": "Nà shì yí gè yáoyuǎn de dìfang.",
+        "pinyin": "Nà shì yí ge yáoyuǎn de dìfang.",
         "german": "Das ist ein weit entfernter Ort."
+      },
+      {
+        "chinese": "对小时候的我来说，北京是一个很遥远的城市。",
+        "pinyin": "Duì xiǎoshíhou de wǒ lái shuō, Běijīng shì yí ge hěn yáoyuǎn de chéngshì.",
+        "german": "Als Kind kam mir Peking unendlich weit weg vor."
+      },
+      {
+        "chinese": "实现这个梦想似乎还很遥远。",
+        "pinyin": "Shíxiàn zhège mèngxiǎng sìhū hái hěn yáoyuǎn.",
+        "german": "Bis dieser Traum wahr wird, scheint es noch ein weiter Weg zu sein."
       }
     ],
     "legacyIds": [
@@ -63230,15 +65355,19 @@ window.VOCAB_HSK6 = [
     "traditional": "遙遠",
     "evidence": {
       "cedict": "遙遠 遥远 [yao2 yuan3]"
+    },
+    "notes": "遥远 (yáoyuǎn) heißt „weit entfernt, fern“ und klingt gehobener und gefühlvoller als 远 (yuǎn). Es gilt für Raum und Zeit: 遥远的地方, 遥远的过去, 路途遥远 „ein weiter Weg“. Übertragen beschreibt es Ziele, die noch fern sind: 梦想还很遥远. Für nüchterne Entfernungsangaben ist 远 üblicher: 学校离这儿很远.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:要点:yao4dian3",
     "word": "要点",
     "pinyin": "yàodiǎn",
-    "meaning": "Hauptpunkt, Kernpunkt, das Wesentliche, Hauptsache",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Hauptpunkt; Kernpunkt; das Wesentliche",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -63246,20 +65375,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "请把会议的要点记下来。",
+        "pinyin": "Qǐng bǎ huìyì de yàodiǎn jì xialai.",
+        "german": "Bitte notieren Sie die wichtigsten Punkte der Besprechung."
+      },
+      {
+        "chinese": "他说了半天，也没说到要点。",
+        "pinyin": "Tā shuō le bàntiān, yě méi shuō dào yàodiǎn.",
+        "german": "Er hat ewig geredet, ist aber nicht zum Punkt gekommen."
+      },
+      {
+        "chinese": "这个动作的要点是保持身体平衡。",
+        "pinyin": "Zhège dòngzuò de yàodiǎn shì bǎochí shēntǐ pínghéng.",
+        "german": "Das Entscheidende bei dieser Bewegung ist, das Gleichgewicht zu halten."
+      }
+    ],
     "traditional": "要點",
     "evidence": {
       "cedict": "要點 要点 [yao4 dian3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "要点 (yàodiǎn) sind die wichtigsten inhaltlichen Punkte einer Rede, eines Textes oder einer Technik: 会议要点, 文章的要点, 动作要点. Typische Verben sind 抓住要点 „das Wesentliche erfassen“, 记下要点 „die Hauptpunkte notieren“ und 说到要点 „auf den Punkt kommen“. Ähnlich ist 重点 (zhòngdiǎn) „Schwerpunkt“: es betont, worauf man besonders achten soll, während 要点 die Kernaussagen zusammenfasst. Zählwort ist 个 oder 条.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:要么:yao4me5",
     "word": "要么",
     "pinyin": "yàome",
-    "meaning": "entweder ... oder",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "entweder … oder; oder (aber)",
     "type": "Konjunktion",
     "level": "HSK6",
     "syllabus": {
@@ -63267,7 +65416,23 @@ window.VOCAB_HSK6 = [
       "pos": "连",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "要么你现在就去，要么明天再去，别再犹豫了。",
+        "pinyin": "Yàome nǐ xiànzài jiù qù, yàome míngtiān zài qù, bié zài yóuyù le.",
+        "german": "Entweder du gehst jetzt gleich oder morgen – aber hör auf zu zögern."
+      },
+      {
+        "chinese": "周末我要么在家看书，要么去公园跑步。",
+        "pinyin": "Zhōumò wǒ yàome zài jiā kàn shū, yàome qù gōngyuán pǎobù.",
+        "german": "Am Wochenende lese ich entweder zu Hause oder gehe im Park joggen."
+      },
+      {
+        "chinese": "坐公交车太慢了，要么我们打车吧。",
+        "pinyin": "Zuò gōngjiāochē tài màn le, yàome wǒmen dǎchē ba.",
+        "german": "Mit dem Bus dauert es zu lange – wollen wir nicht lieber ein Taxi nehmen?"
+      }
+    ],
     "traditional": "要麼",
     "evidence": {
       "cedict": "要麼 要么 [yao4 me5]"
@@ -63275,7 +65440,13 @@ window.VOCAB_HSK6 = [
     "variants": [
       "要末"
     ],
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "要么 (yàome) steht meist paarweise: 要么……要么…… „entweder … oder“; es stellt zwei Möglichkeiten zur Wahl, von denen eine gelten soll. Allein stehend leitet es einen Gegenvorschlag ein: 要么我们打车吧 „oder wir nehmen doch ein Taxi“. Nicht verwechseln mit 或者 (huòzhě), das neutral aufzählt, und mit 还是 (háishi) in Fragen (喝茶还是喝咖啡？). Das Wort ist umgangssprachlich; die Schreibung 要末 ist eine seltene Variante.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:要素:yao4su4",
@@ -63288,8 +65459,18 @@ window.VOCAB_HSK6 = [
     "examples": [
       {
         "chinese": "成功有几个关键要素。",
-        "pinyin": "Chénggōng yǒu jǐ gè guānjiàn yàosù.",
-        "german": "Erfolg hat einige Schlüsselfaktoren."
+        "pinyin": "Chénggōng yǒu jǐ ge guānjiàn yàosù.",
+        "german": "Für den Erfolg gibt es einige entscheidende Faktoren."
+      },
+      {
+        "chinese": "时间、地点和人物是一个故事的基本要素。",
+        "pinyin": "Shíjiān, dìdiǎn hé rénwù shì yí ge gùshi de jīběn yàosù.",
+        "german": "Zeit, Ort und Figuren sind die Grundelemente einer Geschichte."
+      },
+      {
+        "chinese": "土地、劳动和资本被称为传统的生产要素。",
+        "pinyin": "Tǔdì, láodòng hé zīběn bèi chēngwéi chuántǒng de shēngchǎn yàosù.",
+        "german": "Boden, Arbeit und Kapital gelten als die klassischen Produktionsfaktoren."
       }
     ],
     "legacyIds": [
@@ -63303,15 +65484,19 @@ window.VOCAB_HSK6 = [
     "traditional": "要素",
     "evidence": {
       "cedict": "要素 要素 [yao4 su4]"
+    },
+    "notes": "要素 (yàosù) ist ein unverzichtbarer Bestandteil, ohne den etwas nicht vollständig ist: 基本要素, 构成要素, 三要素, 生产要素 „Produktionsfaktoren“. Das Wort ist eher schriftlich und fachsprachlich. Nicht verwechseln mit 因素 (yīnsù) „Faktor, Einfluss“, der ein Ergebnis beeinflusst (天气因素), und mit 元素 (yuánsù) „chemisches Element, Gestaltungselement“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:野:ye3",
     "word": "野",
     "pinyin": "yě",
-    "meaning": "Feld, Gebiet; Ebene, flaches Land; Freiflächen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "wild; ungezähmt; ungehobelt; ausgelassen",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -63319,20 +65504,40 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "山坡上开满了各种野花。",
+        "pinyin": "Shānpō shang kāi mǎn le gè zhǒng yěhuā.",
+        "german": "Der Hang ist übersät mit Wildblumen aller Art."
+      },
+      {
+        "chinese": "放了一个暑假，孩子的心都玩野了。",
+        "pinyin": "Fàng le yí ge shǔjià, háizi de xīn dōu wán yě le.",
+        "german": "Nach den Sommerferien hat das Kind nur noch Spielen im Kopf."
+      },
+      {
+        "chinese": "这孩子说话太野了，一点礼貌都没有。",
+        "pinyin": "Zhè háizi shuōhuà tài yě le, yìdiǎn lǐmào dōu méiyǒu.",
+        "german": "Das Kind redet ganz schön frech und hat überhaupt keine Manieren."
+      }
+    ],
     "traditional": "野",
     "evidence": {
       "cedict": "野 野 [ye3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als Adjektiv bedeutet 野 (yě) „wild, nicht vom Menschen gezüchtet“ und steht so vor allem in Wörtern wie 野花, 野猫, 野菜. Bei Menschen heißt es „ungehobelt, grob“ (说话很野) oder „ausgelassen, nicht mehr zu bändigen“: 孩子的心玩野了 „das Kind hat nur noch Spielen im Kopf“. Die Grundbedeutung „offenes Land, Feld“ lebt in Zusammensetzungen wie 野外, 田野 und 视野 „Blickfeld“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:也好:ye3hao3",
     "word": "也好",
     "pinyin": "yěhǎo",
-    "meaning": "auch gut; ob ... oder ...",
-    "meaningStatus": "draft",
-    "meaningSource": "Entwurf (Claude)",
+    "meaning": "auch gut; ebenso gut; ob … oder …",
     "type": "Partikel",
     "level": "HSK6",
     "syllabus": {
@@ -63340,20 +65545,40 @@ window.VOCAB_HSK6 = [
       "pos": "助",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "下雨了？那也好，我们就在家休息吧。",
+        "pinyin": "Xiàyǔ le? Nà yěhǎo, wǒmen jiù zài jiā xiūxi ba.",
+        "german": "Es regnet? Auch gut, dann ruhen wir uns eben zu Hause aus."
+      },
+      {
+        "chinese": "让他一个人冷静一下也好。",
+        "pinyin": "Ràng tā yí ge rén lěngjìng yíxià yěhǎo.",
+        "german": "Es ist vielleicht ganz gut, wenn er sich erst einmal allein beruhigt."
+      },
+      {
+        "chinese": "你同意也好，反对也好，都要说出自己的想法。",
+        "pinyin": "Nǐ tóngyì yěhǎo, fǎnduì yěhǎo, dōu yào shuōchū zìjǐ de xiǎngfǎ.",
+        "german": "Ob du zustimmst oder dagegen bist – sag, was du denkst."
+      }
+    ],
     "traditional": "也好",
     "evidence": {
       "cedict": "也好 也好 [ye3 hao3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "也好 (yěhǎo) hat zwei Gebrauchsweisen. Am Satzende drückt es aus, dass man eine Lage hinnimmt oder sogar gut findet: 不去也好 „es ist auch gut, nicht hinzugehen“, 那也好 „auch gut“. Verdoppelt heißt ……也好，……也好 „ob … oder …“, meist gefolgt von 都: 你同意也好，反对也好，都要说出来. Gleichbedeutend, aber schriftlicher ist 也罢 (yěbà).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:野生:ye3sheng1",
     "word": "野生",
     "pinyin": "yěshēng",
-    "meaning": "wild; wild wachsend",
-    "meaningStatus": "draft",
-    "meaningSource": "Entwurf (Claude)",
+    "meaning": "wild lebend; wild wachsend",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -63361,20 +65586,40 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我们应该保护野生动物。",
+        "pinyin": "Wǒmen yīnggāi bǎohù yěshēng dòngwù.",
+        "german": "Wir sollten wild lebende Tiere schützen."
+      },
+      {
+        "chinese": "这些蘑菇是野生的，不认识的千万别吃。",
+        "pinyin": "Zhèxiē mógu shì yěshēng de, bú rènshi de qiānwàn bié chī.",
+        "german": "Diese Pilze sind wild gewachsen – welche, die du nicht kennst, solltest du auf keinen Fall essen."
+      },
+      {
+        "chinese": "野生的大熊猫现在只生活在中国。",
+        "pinyin": "Yěshēng de dàxióngmāo xiànzài zhǐ shēnghuó zài Zhōngguó.",
+        "german": "Wild lebende Große Pandas gibt es heute nur noch in China."
+      }
+    ],
     "traditional": "野生",
     "evidence": {
       "cedict": "野生 野生 [ye3 sheng1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "野生 (yěshēng) bedeutet „in freier Natur lebend oder gewachsen, nicht gezüchtet“ und steht meist vor dem Nomen: 野生动物, 野生植物, 野生蘑菇; prädikativ mit 是……的: 这些鱼是野生的. Das Gegenstück ist 家养 (jiāyǎng) bei Tieren bzw. 人工种植 oder 人工养殖. Für ungezähmtes Verhalten von Menschen verwendet man nicht 野生, sondern 野.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:野外:ye3wai4",
     "word": "野外",
     "pinyin": "yěwài",
-    "meaning": "offenes Land, Feld, im Freien",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "freie Natur; Gelände; im Freien",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -63382,20 +65627,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他们在野外露营了三天。",
+        "pinyin": "Tāmen zài yěwài lùyíng le sān tiān.",
+        "german": "Sie haben drei Tage lang in der freien Natur gezeltet."
+      },
+      {
+        "chinese": "地质学家经常要去野外考察。",
+        "pinyin": "Dìzhìxuéjiā jīngcháng yào qù yěwài kǎochá.",
+        "german": "Geologen müssen oft zu Erkundungen ins Gelände."
+      },
+      {
+        "chinese": "在野外迷路时，千万不要慌。",
+        "pinyin": "Zài yěwài mílù shí, qiānwàn bú yào huāng.",
+        "german": "Wenn man sich in der Wildnis verirrt, darf man auf keinen Fall in Panik geraten."
+      }
+    ],
     "traditional": "野外",
     "evidence": {
       "cedict": "野外 野外 [ye3 wai4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "野外 (yěwài) ist das offene, unbebaute Land außerhalb von Städten und Dörfern: 在野外, 野外露营 „wild zelten“, 野外生存 „Survival“, 野外考察 „Feldforschung“. Es betont Natur und Abgeschiedenheit. 户外 (hùwài) meint dagegen allgemein „draußen, im Freien“, auch in der Stadt (户外运动), und 郊外 (jiāowài) den Stadtrand.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:业:ye4",
     "word": "业",
     "pinyin": "yè",
-    "meaning": "Branche, Ausbildung, Beruf; Beschäftigung",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "-branche; -gewerbe; -wesen (Suffix für Wirtschaftszweige)",
     "type": "Affix",
     "level": "HSK6",
     "syllabus": {
@@ -63403,20 +65668,40 @@ window.VOCAB_HSK6 = [
       "pos": "后缀",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这几年，我们这里的旅游业发展得很快。",
+        "pinyin": "Zhè jǐ nián, wǒmen zhèlǐ de lǚyóuyè fāzhǎn de hěn kuài.",
+        "german": "In den letzten Jahren hat sich der Tourismus bei uns sehr schnell entwickelt."
+      },
+      {
+        "chinese": "服务业已经成为很多城市的主要经济来源。",
+        "pinyin": "Fúwùyè yǐjīng chéngwéi hěn duō chéngshì de zhǔyào jīngjì láiyuán.",
+        "german": "Für viele Städte ist der Dienstleistungssektor zur wichtigsten Einnahmequelle geworden."
+      },
+      {
+        "chinese": "他在餐饮业工作了十多年。",
+        "pinyin": "Tā zài cānyǐnyè gōngzuò le shí duō nián.",
+        "german": "Er hat über zehn Jahre in der Gastronomie gearbeitet."
+      }
+    ],
     "traditional": "業",
     "evidence": {
       "cedict": "業 业 [ye4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als Suffix bildet 业 (yè) Namen von Wirtschaftszweigen: 农业 „Landwirtschaft“, 工业 „Industrie“, 服务业 „Dienstleistungssektor“, 旅游业 „Tourismusbranche“, 餐饮业 „Gastronomie“, 制造业 „verarbeitendes Gewerbe“. Daneben steckt es mit der Bedeutung „Beruf, Studium“ in Wörtern wie 职业, 专业, 毕业, 就业 und 作业. Die Wendung 各行各业 heißt „alle Branchen“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:液体:ye4ti3",
     "word": "液体",
     "pinyin": "yètǐ",
     "meaning": "Flüssigkeit",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -63424,20 +65709,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "水在零度以下会从液体变成固体。",
+        "pinyin": "Shuǐ zài líng dù yǐxià huì cóng yètǐ biànchéng gùtǐ.",
+        "german": "Unter null Grad geht Wasser vom flüssigen in den festen Zustand über."
+      },
+      {
+        "chinese": "坐飞机时，随身行李里不能带太多液体。",
+        "pinyin": "Zuò fēijī shí, suíshēn xíngli li bù néng dài tài duō yètǐ.",
+        "german": "Bei Flugreisen darf man nicht zu viel Flüssigkeit im Handgepäck mitnehmen."
+      },
+      {
+        "chinese": "瓶子里装着一种红色的液体。",
+        "pinyin": "Píngzi li zhuāng zhe yì zhǒng hóngsè de yètǐ.",
+        "german": "In der Flasche ist eine rote Flüssigkeit."
+      }
+    ],
     "traditional": "液體",
     "evidence": {
       "cedict": "液體 液体 [ye4 ti3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "液体 (yètǐ) ist der allgemeine, eher sachliche Begriff für „Flüssigkeit“ und bildet mit 固体 (gùtǐ) „Feststoff“ und 气体 (qìtǐ) „Gas“ die drei Aggregatzustände. Im Alltag begegnet es etwa bei Sicherheitskontrollen am Flughafen (随身携带液体) oder auf Produktetiketten. Für Getränke sagt man im Alltag nicht 液体, sondern 饮料 (yǐnliào) oder konkret 水, 果汁.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:依旧:yi1jiu4",
     "word": "依旧",
     "pinyin": "yījiù",
-    "meaning": "dennoch, doch; wie bisher",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "unverändert bleiben; nach wie vor; immer noch",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -63445,41 +65750,58 @@ window.VOCAB_HSK6 = [
       "pos": "动、副",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "十年过去了，这里的风景依旧。",
+        "pinyin": "Shí nián guòqu le, zhèlǐ de fēngjǐng yījiù.",
+        "german": "Zehn Jahre sind vergangen, doch die Landschaft hier ist unverändert."
+      },
+      {
+        "chinese": "虽然下着大雨，他依旧按时来上班了。",
+        "pinyin": "Suīrán xià zhe dàyǔ, tā yījiù ànshí lái shàngbān le.",
+        "german": "Obwohl es in Strömen regnete, kam er trotzdem pünktlich zur Arbeit."
+      },
+      {
+        "chinese": "多年不见，她依旧那么年轻漂亮。",
+        "pinyin": "Duō nián bú jiàn, tā yījiù nàme niánqīng piàoliang.",
+        "german": "Wir haben uns jahrelang nicht gesehen, aber sie ist noch immer so jung und hübsch."
+      }
+    ],
     "traditional": "依舊",
     "evidence": {
       "cedict": "依舊 依旧 [yi1 jiu4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "依旧 (yījiù) hat einen gehobenen, leicht literarischen Klang. Als Verb steht es am Satzende und bedeutet „unverändert sein“: 风景依旧, 一切依旧. Als Adverb vor dem Verb oder Adjektiv heißt es „nach wie vor, trotzdem“: 他依旧每天跑步. Bedeutungsgleich, aber neutraler ist 仍然 (réngrán); in der Umgangssprache sagt man meist 还是 oder 还.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:依赖:yi1lai4",
     "word": "依赖",
     "pinyin": "yīlài",
-    "meaning": "abhaengig sein von, sich verlassen auf",
+    "meaning": "abhängig sein von; sich verlassen auf; angewiesen sein auf",
     "type": "Verb",
     "level": "HSK6",
     "category": "Kommunikation",
     "examples": [
-      {
-        "chinese": "不要太依赖别人。",
-        "pinyin": "Bùyào tài yīlài biérén.",
-        "german": "Verlass dich nicht zu sehr auf andere."
-      },
       {
         "chinese": "他太依赖父母了。",
         "pinyin": "Tā tài yīlài fùmǔ le.",
         "german": "Er ist zu abhängig von seinen Eltern."
       },
       {
-        "chinese": "我们不能过度依赖技术。",
-        "pinyin": "Wǒmen bù néng guòdù yīlài jìshù.",
-        "german": "Wir dürfen nicht zu sehr von Technologie abhängig sein."
-      },
-      {
         "chinese": "过度依赖手机会影响身心健康。",
         "pinyin": "Guòdù yīlài shǒujī huì yǐngxiǎng shēnxīn jiànkāng.",
-        "german": "Uebermassige Abhaengigkeit vom Handy beeintraechtigt die koerperliche und geistige Gesundheit."
+        "german": "Wer zu sehr am Handy hängt, schadet seiner körperlichen und seelischen Gesundheit."
+      },
+      {
+        "chinese": "这个国家的经济过于依赖石油出口。",
+        "pinyin": "Zhège guójiā de jīngjì guòyú yīlài shíyóu chūkǒu.",
+        "german": "Die Wirtschaft dieses Landes ist zu stark vom Ölexport abhängig."
       }
     ],
     "legacyIds": [
@@ -63493,15 +65815,19 @@ window.VOCAB_HSK6 = [
     "traditional": "依賴",
     "evidence": {
       "cedict": "依賴 依赖 [yi1 lai4]"
+    },
+    "notes": "依赖 (yīlài) steht mit direktem Objekt: 依赖父母, 依赖进口 „von Importen abhängig sein“. Als Nomen erscheint es in 对……的依赖 und 产生依赖 „abhängig werden“; 依赖性 heißt „Abhängigkeit“. Das Wort klingt oft kritisch, besonders mit 太 oder 过度. Neutraler bis positiv ist 依靠 (yīkào) „sich stützen auf“: 依靠自己的努力.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:一流:yi1liu2",
     "word": "一流",
     "pinyin": "yīliú",
-    "meaning": "Spitzengruppe; Spitzenklasse; erstklassig",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "erstklassig; Spitzen-; ersten Ranges",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -63509,18 +65835,40 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他的梦想是考上一所一流大学。",
+        "pinyin": "Tā de mèngxiǎng shì kǎoshàng yì suǒ yìliú dàxué.",
+        "german": "Sein Traum ist es, an einer Spitzenuniversität angenommen zu werden."
+      },
+      {
+        "chinese": "这家酒店的服务是一流的。",
+        "pinyin": "Zhè jiā jiǔdiàn de fúwù shì yìliú de.",
+        "german": "Der Service in diesem Hotel ist erstklassig."
+      },
+      {
+        "chinese": "他的厨艺真是一流，做什么都好吃。",
+        "pinyin": "Tā de chúyì zhēn shì yìliú, zuò shénme dōu hǎochī.",
+        "german": "Er kocht wirklich erstklassig – alles, was er zubereitet, schmeckt."
+      }
+    ],
     "traditional": "一流",
     "evidence": {
       "cedict": "一流 一流 [yi1 liu2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "一流 (yīliú, gesprochen yìliú) bedeutet „erstklassig, von höchster Qualität“. Attributiv steht es oft ohne 的: 一流大学, 一流水平, 一流的服务; prädikativ meist mit 是……的 oder 真是: 他的厨艺是一流的. Abwertende Gegenstücke sind 二流 und 三流 „zweit-, drittklassig“. 第一 bezeichnet dagegen den ersten Rang in einer Reihenfolge.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:衣食住行:yi1shi2zhu4xing2",
     "word": "衣食住行",
     "pinyin": "yī shí zhù xíng",
-    "meaning": "Kleidung, Essen, Wohnen, Verkehr (Grundbeduerfnisse)",
+    "meaning": "Kleidung, Essen, Wohnen und Fortbewegung; Grundbedürfnisse des Alltags",
     "type": "Redewendung",
     "level": "HSK6",
     "category": "Alltag",
@@ -63528,7 +65876,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "衣食住行是人们最基本的生活需求。",
         "pinyin": "Yī shí zhù xíng shì rénmen zuì jīběn de shēnghuó xūqiú.",
-        "german": "Kleidung, Essen, Wohnen und Verkehr sind die grundlegendsten Lebensbeduerfnisse der Menschen."
+        "german": "Kleidung, Essen, Wohnen und Fortbewegung sind die grundlegendsten Lebensbedürfnisse der Menschen."
+      },
+      {
+        "chinese": "有了手机，衣食住行几乎都能在网上解决。",
+        "pinyin": "Yǒu le shǒujī, yī shí zhù xíng jīhū dōu néng zài wǎngshang jiějué.",
+        "german": "Dank Smartphone lässt sich fast der ganze Alltag – Kleidung, Essen, Wohnen, Unterwegssein – online regeln."
+      },
+      {
+        "chinese": "刚到国外留学时，衣食住行都得自己安排。",
+        "pinyin": "Gāng dào guówài liúxué shí, yī shí zhù xíng dōu děi zìjǐ ānpái.",
+        "german": "Wer gerade zum Studium ins Ausland gekommen ist, muss seinen ganzen Alltag selbst organisieren."
       }
     ],
     "legacyIds": [
@@ -63542,15 +65900,19 @@ window.VOCAB_HSK6 = [
     "traditional": "衣食住行",
     "evidence": {
       "cedict": "衣食住行 衣食住行 [yi1 shi2 zhu4 xing2]"
+    },
+    "notes": "衣食住行 (yī shí zhù xíng) zählt die vier Grundbereiche des täglichen Lebens auf: 衣 „Kleidung“, 食 „Essen“, 住 „Wohnen“, 行 (xíng, nicht háng) „Fortbewegung, Verkehr“. Zusammen steht der Ausdruck für „den Alltag, die Grundbedürfnisse“ und wird wie ein Nomen gebraucht: 解决衣食住行问题, 关系到百姓的衣食住行, 衣食住行都很方便. Er ist in Nachrichten ebenso üblich wie im Gespräch.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:医药:yi1yao4",
     "word": "医药",
     "pinyin": "yīyào",
-    "meaning": "Medikament; Medizin und Pharmakologie",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Medizin und Arzneimittel; Pharma-; medizinisch",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -63558,20 +65920,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "她在一家医药公司做销售。",
+        "pinyin": "Tā zài yì jiā yīyào gōngsī zuò xiāoshòu.",
+        "german": "Sie arbeitet im Vertrieb eines Pharmaunternehmens."
+      },
+      {
+        "chinese": "这次住院的医药费大部分可以报销。",
+        "pinyin": "Zhè cì zhùyuàn de yīyàofèi dàbùfen kěyǐ bàoxiāo.",
+        "german": "Die Behandlungskosten für diesen Krankenhausaufenthalt werden größtenteils erstattet."
+      },
+      {
+        "chinese": "家里最好备一个小医药箱。",
+        "pinyin": "Jiā li zuìhǎo bèi yí ge xiǎo yīyàoxiāng.",
+        "german": "Zu Hause sollte man eine kleine Hausapotheke haben."
+      }
+    ],
     "traditional": "醫藥",
     "evidence": {
       "cedict": "醫藥 医药 [yi1 yao4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "医药 (yīyào) fasst ärztliche Behandlung und Arzneimittel zusammen und steht meist attributiv: 医药公司 „Pharmaunternehmen“, 医药行业 „Pharmabranche“, 医药费 „Behandlungskosten“, 医药箱 „Hausapotheke“. Für ein einzelnes Medikament sagt man nicht 医药, sondern 药 (yào) oder 药品 (yàopǐn). 医学 (yīxué) ist dagegen die Medizin als Wissenschaft.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:一一:yi1yi1",
     "word": "一一",
     "pinyin": "yīyī",
-    "meaning": "hintereinander, nacheinander",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "einzeln; einer nach dem anderen; nacheinander",
     "type": "Adverb",
     "level": "HSK6",
     "syllabus": {
@@ -63579,20 +65961,40 @@ window.VOCAB_HSK6 = [
       "pos": "副",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "老师一一回答了学生们的问题。",
+        "pinyin": "Lǎoshī yīyī huídá le xuéshengmen de wèntí.",
+        "german": "Der Lehrer beantwortete die Fragen der Schüler eine nach der anderen."
+      },
+      {
+        "chinese": "主人把客人一一介绍给大家。",
+        "pinyin": "Zhǔrén bǎ kèrén yīyī jièshào gěi dàjiā.",
+        "german": "Der Gastgeber stellte allen die Gäste der Reihe nach vor."
+      },
+      {
+        "chinese": "出发前，请把行李一一检查清楚。",
+        "pinyin": "Chūfā qián, qǐng bǎ xíngli yīyī jiǎnchá qīngchu.",
+        "german": "Bitte prüft vor der Abfahrt jedes Gepäckstück einzeln."
+      }
+    ],
     "traditional": "一一",
     "evidence": {
       "cedict": "一一 一一 [yi1 yi1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "一一 (yīyī) steht vor dem Verb und betont, dass jedes Element einzeln behandelt wird: 一一回答 „alle Fragen der Reihe nach beantworten“, 一一介绍, 一一检查, 一一握手. Oft geht 把 mit dem Objekt voraus: 把问题一一解决. Das Wort klingt etwas schriftlich; umgangssprachlich sagt man 一个一个地, gehoben auch 逐个 (zhúgè).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:姨:yi2",
     "word": "姨",
     "pinyin": "yí",
-    "meaning": "Tante (jüngere Schwester der Mutter)",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Tante (Schwester der Mutter); Tante (Anrede für Frauen im Alter der Mutter)",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -63600,21 +66002,41 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我妈妈是老大，下面还有两个妹妹，我叫她们二姨和小姨。",
+        "pinyin": "Wǒ māma shì lǎodà, xiàmian hái yǒu liǎng ge mèimei, wǒ jiào tāmen èryí hé xiǎoyí.",
+        "german": "Meine Mutter ist die Älteste und hat noch zwei jüngere Schwestern; ich nenne sie „zweite Tante“ und „jüngste Tante“."
+      },
+      {
+        "chinese": "暑假我在小姨家住了一个星期。",
+        "pinyin": "Shǔjià wǒ zài xiǎoyí jiā zhù le yí ge xīngqī.",
+        "german": "In den Sommerferien habe ich eine Woche bei meiner jüngsten Tante gewohnt."
+      },
+      {
+        "chinese": "姨，您先坐，我去给您倒杯茶。",
+        "pinyin": "Yí, nín xiān zuò, wǒ qù gěi nín dào bēi chá.",
+        "german": "Tante, setz dich doch schon, ich hole dir eine Tasse Tee."
+      }
+    ],
     "traditional": "姨",
     "evidence": {
       "cedict": "姨 姨 [yi2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "姨 (yí) ist die Schwester der Mutter, gleich ob älter oder jünger; man zählt nach dem Alter: 大姨, 二姨, 小姨. Formeller ist 姨妈 (yímā), ihr Ehemann heißt 姨父 (yífu). Die Schwester des Vaters ist dagegen 姑姑 (gūgu). 阿姨 (āyí) ist die freundliche Anrede für Frauen im Alter der Eltern, aber auch für Kinderfrauen und Haushaltshilfen.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:一辈子:yi1bei4zi5",
     "word": "一辈子",
     "pinyin": "yībèizi",
     "pinyinSpoken": "yíbèizi",
-    "meaning": "Lebenszeit, das ganze Leben lang",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "das ganze Leben; ein Leben lang; lebenslang",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -63622,12 +66044,34 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "你帮了我这么大的忙，我一辈子都不会忘记。",
+        "pinyin": "Nǐ bāng le wǒ zhème dà de máng, wǒ yíbèizi dōu bú huì wàngjì.",
+        "german": "Du hast mir so sehr geholfen – das werde ich mein Leben lang nicht vergessen."
+      },
+      {
+        "chinese": "爷爷当了一辈子老师。",
+        "pinyin": "Yéye dāng le yíbèizi lǎoshī.",
+        "german": "Opa war sein ganzes Leben lang Lehrer."
+      },
+      {
+        "chinese": "结婚是一辈子的事，不能太着急。",
+        "pinyin": "Jiéhūn shì yíbèizi de shì, bù néng tài zháojí.",
+        "german": "Heiraten ist eine Entscheidung fürs Leben, da sollte man nichts überstürzen."
+      }
+    ],
     "traditional": "一輩子",
     "evidence": {
       "cedict": "一輩子 一辈子 [yi1 bei4 zi5]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "一辈子 (yíbèizi) ist umgangssprachlich für „das ganze Leben“. Es steht als Zeitangabe nach dem Verb (干了一辈子, 当了一辈子老师) oder vor ihm, oft mit 都 oder 也: 一辈子都忘不了. Mit 的 bildet es Attribute: 一辈子的朋友 „Freunde fürs Leben“. Verwandt sind 这辈子 „in diesem Leben“ und 下辈子 „im nächsten Leben“; schriftlicher ist 一生 (yìshēng).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:遗产:yi2chan3",
@@ -63641,12 +66085,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "他留下了很多遗产。",
         "pinyin": "Tā liúxià le hěn duō yíchǎn.",
-        "german": "Er hat viel Erbschaft hinterlassen."
+        "german": "Er hat ein großes Erbe hinterlassen."
       },
       {
         "chinese": "长城是世界文化遗产。",
         "pinyin": "Chángchéng shì shìjiè wénhuà yíchǎn.",
         "german": "Die Große Mauer ist Weltkulturerbe."
+      },
+      {
+        "chinese": "兄弟俩为了分遗产吵了起来。",
+        "pinyin": "Xiōngdì liǎ wèile fēn yíchǎn chǎo le qilai.",
+        "german": "Die beiden Brüder gerieten über die Aufteilung des Erbes in Streit."
       }
     ],
     "legacyIds": [
@@ -63666,31 +66115,37 @@ window.VOCAB_HSK6 = [
     ],
     "evidence": {
       "cedict": "遺產 遗产 [yi2 chan3]"
+    },
+    "notes": "遗产 (yíchǎn) ist zunächst der Nachlass eines Verstorbenen: 留下遗产, 继承遗产 „erben“, 分遗产 „das Erbe aufteilen“, 一笔遗产 (Zählwort 笔). Übertragen bedeutet es „Erbe, Vermächtnis“ einer Kultur: 文化遗产, 世界遗产, 非物质文化遗产 „immaterielles Kulturerbe“. Für Eigentum allgemein sagt man 财产 (cáichǎn); vererbte Eigenschaften heißen nicht 遗产, sondern werden mit 遗传 (yíchuán) ausgedrückt.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:遗传:yi2chuan2",
     "word": "遗传",
     "pinyin": "yíchuán",
-    "meaning": "Vererbung; genetisch",
+    "meaning": "vererben; vererbt werden; Vererbung",
     "type": "Verb",
     "level": "HSK6",
     "category": "Wissenschaft",
     "examples": [
       {
-        "chinese": "这种疾病可以遗传。",
-        "pinyin": "Zhè zhǒng jíbìng kěyǐ yíchuán.",
-        "german": "Diese Krankheit kann vererbt werden."
-      },
-      {
         "chinese": "这种疾病可以遗传给下一代。",
-        "pinyin": "Zhè zhǒng jíbìng kěyǐ yíchuán gěi xià yī dài.",
+        "pinyin": "Zhè zhǒng jíbìng kěyǐ yíchuán gěi xià yí dài.",
         "german": "Diese Krankheit kann an die nächste Generation vererbt werden."
       },
       {
         "chinese": "这种疾病具有明显的遗传倾向。",
         "pinyin": "Zhè zhǒng jíbìng jùyǒu míngxiǎn de yíchuán qīngxiàng.",
-        "german": "Diese Krankheit hat eine deutliche erbliche Veranlagung."
+        "german": "Bei dieser Krankheit ist eine erbliche Veranlagung deutlich erkennbar."
+      },
+      {
+        "chinese": "他的音乐天赋是从妈妈那儿遗传来的。",
+        "pinyin": "Tā de yīnyuè tiānfù shì cóng māma nàr yíchuán lái de.",
+        "german": "Seine musikalische Begabung hat er von seiner Mutter geerbt."
       }
     ],
     "legacyIds": [
@@ -63704,6 +66159,12 @@ window.VOCAB_HSK6 = [
     "traditional": "遺傳",
     "evidence": {
       "cedict": "遺傳 遗传 [yi2 chuan2]"
+    },
+    "notes": "遗传 (yíchuán) bezieht sich auf biologische Vererbung. Subjekt ist die Eigenschaft oder Krankheit: 这种病会遗传, 遗传给下一代, 是从父亲那儿遗传来的. Attributiv steht es in 遗传病 „Erbkrankheit“, 遗传因素 „genetische Faktoren“, 遗传基因. Für das Erben von Besitz verwendet man 继承 (jìchéng): 继承遗产.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -63711,9 +66172,7 @@ window.VOCAB_HSK6 = [
     "word": "一带",
     "pinyin": "yīdài",
     "pinyinSpoken": "yídài",
-    "meaning": "Gegend",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Gegend; Umgebung",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -63721,21 +66180,41 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这一带以前都是农田，现在盖满了高楼。",
+        "pinyin": "Zhè yídài yǐqián dōu shì nóngtián, xiànzài gài mǎn le gāolóu.",
+        "german": "Hier in der Gegend war früher alles Ackerland, heute stehen überall Hochhäuser."
+      },
+      {
+        "chinese": "你对这一带熟悉吗？",
+        "pinyin": "Nǐ duì zhè yídài shúxī ma?",
+        "german": "Kennst du dich in dieser Gegend aus?"
+      },
+      {
+        "chinese": "长江下游一带雨水很多。",
+        "pinyin": "Chángjiāng xiàyóu yídài yǔshuǐ hěn duō.",
+        "german": "Am Unterlauf des Jangtse regnet es viel."
+      }
+    ],
     "traditional": "一帶",
     "evidence": {
       "cedict": "一帶 一带 [yi1 dai4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "一带 (yídài) bezeichnet eine Gegend um einen genannten Ort und steht meist nach einer Ortsangabe: 北京一带, 长江下游一带, 学校附近一带. Sehr häufig ist 这一带 „diese Gegend, hier in der Gegend“. Das Wort ist ungenauer als 地区 (dìqū), das eher Verwaltungs- oder Großräume meint. Nicht verwechseln mit 一带 in 一带一路 „Neue Seidenstraße“, wo es „ein Gürtel“ bedeutet.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:一道:yi1dao4",
     "word": "一道",
     "pinyin": "yīdào",
     "pinyinSpoken": "yídào",
-    "meaning": "gemeinsam, miteinander",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "zusammen; gemeinsam",
     "type": "Adverb",
     "level": "HSK6",
     "syllabus": {
@@ -63743,21 +66222,41 @@ window.VOCAB_HSK6 = [
       "pos": "副",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "明天我和你一道去车站接他。",
+        "pinyin": "Míngtiān wǒ hé nǐ yídào qù chēzhàn jiē tā.",
+        "german": "Morgen holen wir ihn zusammen am Bahnhof ab."
+      },
+      {
+        "chinese": "毕业后，他们俩一道回到家乡创业。",
+        "pinyin": "Bìyè hòu, tāmen liǎ yídào huídào jiāxiāng chuàngyè.",
+        "german": "Nach dem Studium kehrten die beiden gemeinsam in ihre Heimat zurück, um ein Unternehmen zu gründen."
+      },
+      {
+        "chinese": "欢迎大家和我们一道参加这次活动。",
+        "pinyin": "Huānyíng dàjiā hé wǒmen yídào cānjiā zhè cì huódòng.",
+        "german": "Alle sind herzlich eingeladen, gemeinsam mit uns an dieser Veranstaltung teilzunehmen."
+      }
+    ],
     "traditional": "一道",
     "evidence": {
       "cedict": "一道 一道 [yi1 dao4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als Adverb bedeutet 一道 (yídào) „zusammen“ und entspricht 一起 (yìqǐ); es klingt etwas schriftlicher oder regional gefärbt. Typisch ist der Rahmen 跟/和……一道 + Verb: 和我们一道参加. Daneben ist 一道 oft einfach Zahlwort plus Zählwort: 一道题 „eine Aufgabe“, 一道菜 „ein Gericht“, 一道光 „ein Lichtstrahl“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:一贯:yi1guan4",
     "word": "一贯",
     "pinyin": "yīguàn",
     "pinyinSpoken": "yíguàn",
-    "meaning": "fest, stetig, konsequent, gleichbleibend; Konstante",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "durchgängig; konsequent; seit jeher gleichbleibend",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -63765,20 +66264,40 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "认真负责是他一贯的工作作风。",
+        "pinyin": "Rènzhēn fùzé shì tā yíguàn de gōngzuò zuòfēng.",
+        "german": "Gewissenhaftigkeit und Verantwortungsbewusstsein prägen seit jeher seine Arbeitsweise."
+      },
+      {
+        "chinese": "我们公司一贯重视产品质量。",
+        "pinyin": "Wǒmen gōngsī yíguàn zhòngshì chǎnpǐn zhìliàng.",
+        "german": "Unser Unternehmen legt seit jeher großen Wert auf Produktqualität."
+      },
+      {
+        "chinese": "这符合中国政府的一贯立场。",
+        "pinyin": "Zhè fúhé Zhōngguó zhèngfǔ de yíguàn lìchǎng.",
+        "german": "Das entspricht der seit jeher vertretenen Position der chinesischen Regierung."
+      }
+    ],
     "traditional": "一貫",
     "evidence": {
       "cedict": "一貫 一贯 [yi1 guan4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "一贯 (yíguàn) beschreibt eine Haltung oder Praxis, die sich über lange Zeit nicht geändert hat. Attributiv steht es vor Nomen wie 作风, 立场, 政策, 原则: 一贯的立场 „die seit jeher vertretene Position“. Adverbial heißt es „schon immer“: 一贯重视, 一贯认真. Ähnlich ist 一向 (yíxiàng), das aber fast nur adverbial gebraucht wird. Das Wort klingt eher schriftlich.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:疑惑:yi2huo4",
     "word": "疑惑",
     "pinyin": "yíhuò",
-    "meaning": "Zweifel; zweifeln",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "verwirrt sein; sich wundern; Zweifel; Unklarheit",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -63786,12 +66305,34 @@ window.VOCAB_HSK6 = [
       "pos": "动、名",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他疑惑地看着我，好像不明白我在说什么。",
+        "pinyin": "Tā yíhuò de kàn zhe wǒ, hǎoxiàng bù míngbai wǒ zài shuō shénme.",
+        "german": "Er sah mich verwirrt an, als verstünde er nicht, wovon ich rede."
+      },
+      {
+        "chinese": "我心里一直有个疑惑：他为什么突然辞职了？",
+        "pinyin": "Wǒ xīnli yìzhí yǒu ge yíhuò: tā wèishénme tūrán cízhí le?",
+        "german": "Eine Frage beschäftigt mich die ganze Zeit: Warum hat er plötzlich gekündigt?"
+      },
+      {
+        "chinese": "学生们有什么疑惑，可以随时来问我。",
+        "pinyin": "Xuéshengmen yǒu shénme yíhuò, kěyǐ suíshí lái wèn wǒ.",
+        "german": "Wenn den Studierenden etwas unklar ist, können sie jederzeit zu mir kommen."
+      }
+    ],
     "traditional": "疑惑",
     "evidence": {
       "cedict": "疑惑 疑惑 [yi2 huo4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "疑惑 (yíhuò) drückt Verwunderung und Unklarheit aus: man versteht etwas nicht und ist unsicher. Typisch sind 疑惑地看着 „verwundert ansehen“, 感到疑惑, 心里很疑惑; als Nomen 有个疑惑, 解答疑惑, 消除疑惑. 怀疑 (huáiyí) „bezweifeln, verdächtigen“ hat dagegen meist ein Objekt und richtet sich gegen etwas oder jemanden: 怀疑他说谎.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:一律:yi1lv4",
@@ -63804,8 +66345,18 @@ window.VOCAB_HSK6 = [
     "examples": [
       {
         "chinese": "迟到者一律罚款。",
-        "pinyin": "Chídàozhě yīlǜ fákuǎn.",
+        "pinyin": "Chídàozhě yílǜ fákuǎn.",
         "german": "Wer zu spät kommt, wird ausnahmslos mit einer Geldstrafe belegt."
+      },
+      {
+        "chinese": "六十五岁以上的老人一律免费参观。",
+        "pinyin": "Liùshíwǔ suì yǐshàng de lǎorén yílǜ miǎnfèi cānguān.",
+        "german": "Senioren ab 65 Jahren haben grundsätzlich freien Eintritt."
+      },
+      {
+        "chinese": "在法律面前人人一律平等。",
+        "pinyin": "Zài fǎlǜ miànqián rénrén yílǜ píngděng.",
+        "german": "Vor dem Gesetz sind alle Menschen gleich."
       }
     ],
     "legacyIds": [
@@ -63820,14 +66371,20 @@ window.VOCAB_HSK6 = [
     "traditional": "一律",
     "evidence": {
       "cedict": "一律 一律 [yi1 lu:4]"
+    },
+    "notes": "一律 (yílǜ) steht vor dem Verb oder Adjektiv und betont, dass eine Regel ausnahmslos für alle gilt: 一律免费, 一律不退 „keine Rückerstattung“, 一律禁止, 一律平等. Der Ton ist amtlich, typisch für Vorschriften und Aushänge; umgangssprachlich genügt oft 都. Als Adjektiv lebt es im Chengyu 千篇一律 „eintönig, alles nach Schema F“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:移民:yi2min2",
     "word": "移民",
     "pinyin": "yímín",
-    "meaning": "Einwanderer, auswandern",
-    "type": "Nomen",
+    "meaning": "auswandern; einwandern; Migrant; Einwanderer",
+    "type": "Verb",
     "level": "HSK6",
     "category": "Gesellschaft",
     "examples": [
@@ -63839,7 +66396,12 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "移民问题是当今世界的热点话题。",
         "pinyin": "Yímín wèntí shì dāngjīn shìjiè de rèdiǎn huàtí.",
-        "german": "Die Migrationsfrage ist ein aktuelles Thema in der heutigen Welt."
+        "german": "Migration ist heute weltweit ein viel diskutiertes Thema."
+      },
+      {
+        "chinese": "这座城市里有很多来自世界各地的移民。",
+        "pinyin": "Zhè zuò chéngshì li yǒu hěn duō láizì shìjiè gèdì de yímín.",
+        "german": "In dieser Stadt leben viele Einwanderer aus aller Welt."
       }
     ],
     "legacyIds": [
@@ -63853,6 +66415,12 @@ window.VOCAB_HSK6 = [
     "traditional": "移民",
     "evidence": {
       "cedict": "移民 移民 [yi2 min2]"
+    },
+    "notes": "Als Verb heißt 移民 (yímín) „aus- oder einwandern“ und unterscheidet die Richtung nicht: 移民到加拿大, 移民国外. Als Nomen bezeichnet es die Menschen („Migrant, Einwanderer“: 新移民, 第二代移民) oder den Vorgang (移民政策 „Einwanderungspolitik“, 移民局 „Einwanderungsbehörde“). Nur vorübergehend ins Ausland gehen heißt dagegen 出国 (chūguó).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -63870,9 +66438,14 @@ window.VOCAB_HSK6 = [
         "german": "Im Labor gibt es viele Präzisionsinstrumente."
       },
       {
-        "chinese": "实验室里有先进的仪器。",
-        "pinyin": "Shíyànshì lǐ yǒu xiānjìn de yíqì.",
-        "german": "Im Labor gibt es moderne Instrumente."
+        "chinese": "这台仪器需要定期检查。",
+        "pinyin": "Zhè tái yíqì xūyào dìngqī jiǎnchá.",
+        "german": "Dieses Gerät muss regelmäßig überprüft werden."
+      },
+      {
+        "chinese": "飞机上的仪器突然出了问题。",
+        "pinyin": "Fēijī shàng de yíqì tūrán chū le wèntí.",
+        "german": "Die Instrumente im Flugzeug hatten plötzlich eine Störung."
       }
     ],
     "legacyIds": [
@@ -63892,6 +66465,12 @@ window.VOCAB_HSK6 = [
     ],
     "evidence": {
       "cedict": "儀器 仪器 [yi2 qi4]"
+    },
+    "notes": "仪器 (yíqì) bezeichnet technische Mess-, Prüf- und Analysegeräte, vor allem in Labor, Medizin und Forschung: 精密仪器 „Präzisionsinstrumente“, 医疗仪器 „medizinische Geräte“, 仪器设备 „Geräte und Ausrüstung“. Zählwort ist 台 (tái), für zusammengehörige Sätze auch 套 (tào). Anders als 机器 (jīqì) „Maschine“, die Arbeit verrichtet, misst oder untersucht ein 仪器 etwas; Musikinstrumente heißen dagegen 乐器 (yuèqì).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -63909,9 +66488,14 @@ window.VOCAB_HSK6 = [
         "german": "Die Hochzeitszeremonie war sehr feierlich."
       },
       {
-        "chinese": "婚礼仪式非常隆重。",
-        "pinyin": "Hūnlǐ yíshì fēicháng lóngzhòng.",
-        "german": "Die Hochzeitszeremonie war sehr feierlich."
+        "chinese": "开幕仪式将在明天上午九点举行。",
+        "pinyin": "Kāimù yíshì jiāng zài míngtiān shàngwǔ jiǔ diǎn jǔxíng.",
+        "german": "Die Eröffnungszeremonie findet morgen um neun Uhr vormittags statt."
+      },
+      {
+        "chinese": "每周一早上学校都举行升旗仪式。",
+        "pinyin": "Měi zhōuyī zǎoshang xuéxiào dōu jǔxíng shēngqí yíshì.",
+        "german": "Jeden Montagmorgen findet an der Schule eine Flaggenzeremonie statt."
       }
     ],
     "legacyIds": [
@@ -63925,6 +66509,12 @@ window.VOCAB_HSK6 = [
     "traditional": "儀式",
     "evidence": {
       "cedict": "儀式 仪式 [yi2 shi4]"
+    },
+    "notes": "仪式 (yíshì) ist eine förmliche Zeremonie mit festgelegtem Ablauf: 婚礼仪式, 开幕仪式 „Eröffnungszeremonie“, 签字仪式 „Unterzeichnungszeremonie“, 升旗仪式 „Flaggenzeremonie“. Das typische Verb ist 举行 (jǔxíng): 举行仪式 „eine Zeremonie abhalten“. 典礼 (diǎnlǐ) meint eher die große offizielle Feier als Ganzes (毕业典礼), 仪式 stärker den rituellen Ablauf; die Grenze ist fließend. Modern und umgangssprachlich beliebt ist 仪式感 „das Gefühl, etwas bewusst zu zelebrieren“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -63932,9 +66522,7 @@ window.VOCAB_HSK6 = [
     "word": "一向",
     "pinyin": "yīxiàng",
     "pinyinSpoken": "yíxiàng",
-    "meaning": "die ganze Zeit; stetig, beständig",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "schon immer; stets; seit jeher",
     "type": "Adverb",
     "level": "HSK6",
     "syllabus": {
@@ -63942,21 +66530,41 @@ window.VOCAB_HSK6 = [
       "pos": "副",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他一向很准时，今天怎么迟到了？",
+        "pinyin": "Tā yíxiàng hěn zhǔnshí, jīntiān zěnme chídào le?",
+        "german": "Er ist doch sonst immer pünktlich – warum kommt er heute zu spät?"
+      },
+      {
+        "chinese": "我们公司一向重视产品质量。",
+        "pinyin": "Wǒmen gōngsī yíxiàng zhòngshì chǎnpǐn zhìliàng.",
+        "german": "Unser Unternehmen legt seit jeher großen Wert auf Produktqualität."
+      },
+      {
+        "chinese": "她一向不爱说话。",
+        "pinyin": "Tā yíxiàng bú ài shuōhuà.",
+        "german": "Sie war schon immer eher schweigsam."
+      }
+    ],
     "traditional": "一向",
     "evidence": {
       "cedict": "一向 一向 [yi1 xiang4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "一向 (yíxiàng) drückt aus, dass etwas von früher bis heute beständig so ist – meist eine Gewohnheit oder Eigenschaft: 他一向很准时 „er ist schon immer pünktlich“. Es steht vor Verb oder Adjektiv, oft zusammen mit 都 oder 很. Ähnlich ist 一直 (yìzhí), das aber eher einen ununterbrochenen Vorgang in einem bestimmten Zeitraum beschreibt (一直下雨) und sich auch auf die Zukunft beziehen kann; 一向 blickt auf die Vergangenheit bis jetzt und klingt etwas gehobener. Synonym ist 向来 (xiànglái).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:一系列:yi1xi4lie4",
     "word": "一系列",
     "pinyin": "yīxìliè",
     "pinyinSpoken": "yíxìliè",
-    "meaning": "eine Reihe von; Serie",
-    "meaningStatus": "draft",
-    "meaningSource": "Entwurf (Claude)",
+    "meaning": "eine Reihe von; eine Folge von",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -63964,21 +66572,41 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "政府采取了一系列措施保护环境。",
+        "pinyin": "Zhèngfǔ cǎiqǔ le yíxìliè cuòshī bǎohù huánjìng.",
+        "german": "Die Regierung hat eine Reihe von Maßnahmen zum Umweltschutz ergriffen."
+      },
+      {
+        "chinese": "搬家以后，我们遇到了一系列问题。",
+        "pinyin": "Bānjiā yǐhòu, wǒmen yùdào le yíxìliè wèntí.",
+        "german": "Nach dem Umzug stießen wir auf eine ganze Reihe von Problemen."
+      },
+      {
+        "chinese": "学校为新生准备了一系列活动。",
+        "pinyin": "Xuéxiào wèi xīnshēng zhǔnbèi le yíxìliè huódòng.",
+        "german": "Die Schule hat für die neuen Schüler eine Reihe von Veranstaltungen vorbereitet."
+      }
+    ],
     "traditional": "一系列",
     "evidence": {
       "cedict": "一系列 一系列 [yi1 xi4 lie4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "一系列 (yíxìliè) steht attributiv vor einem Nomen und bedeutet „eine ganze Reihe von“ zusammenhängenden Dingen: 一系列问题, 一系列措施 „eine Reihe von Maßnahmen“, 一系列活动. Ein Zählwort entfällt, und 的 wird meist weggelassen. Das Wort ist typisch für Nachrichten- und Schriftsprache, oft mit 采取 „ergreifen“, 进行 „durchführen“ oder 遇到 „stoßen auf“; im Alltag sagt man eher 很多 oder 好几个.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:一再:yi1zai4",
     "word": "一再",
     "pinyin": "yīzài",
     "pinyinSpoken": "yízài",
-    "meaning": "wiederholt, verschiedentlich; mehrfach",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "immer wieder; wiederholt; mehrmals",
     "type": "Adverb",
     "level": "HSK6",
     "syllabus": {
@@ -63986,21 +66614,41 @@ window.VOCAB_HSK6 = [
       "pos": "副",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "老师一再提醒我们考试时要认真检查。",
+        "pinyin": "Lǎoshī yízài tíxǐng wǒmen kǎoshì shí yào rènzhēn jiǎnchá.",
+        "german": "Der Lehrer hat uns immer wieder daran erinnert, in der Prüfung alles sorgfältig zu kontrollieren."
+      },
+      {
+        "chinese": "由于天气原因，航班一再推迟。",
+        "pinyin": "Yóuyú tiānqì yuányīn, hángbān yízài tuīchí.",
+        "german": "Wegen des Wetters wurde der Flug immer wieder verschoben."
+      },
+      {
+        "chinese": "他一再向我道歉，我也就原谅他了。",
+        "pinyin": "Tā yízài xiàng wǒ dàoqiàn, wǒ yě jiù yuánliàng tā le.",
+        "german": "Er hat sich mehrmals bei mir entschuldigt, also habe ich ihm verziehen."
+      }
+    ],
     "traditional": "一再",
     "evidence": {
       "cedict": "一再 一再 [yi1 zai4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "一再 (yízài) steht vor dem Verb und betont, dass eine Handlung mehrfach geschieht, oft mit Nachdruck oder gegen Widerstand: 一再强调 „immer wieder betonen“, 一再提醒, 一再要求, 一再推迟. Es klingt eher schriftlich als 一次又一次 „ein ums andere Mal“. Das Synonym 再三 (zàisān) kann auch hinter dem Verb stehen (考虑再三 „reiflich überlegen“), 一再 dagegen nur davor.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:一阵:yi1zhen4",
     "word": "一阵",
     "pinyin": "yīzhèn",
     "pinyinSpoken": "yízhèn",
-    "meaning": "plötzlich und heftig auftretende Erscheinung; ein Schwall",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "eine Weile; ein Schwall, ein Anfall (von Wind, Regen, Lachen usw.)",
     "type": "Zahlwort",
     "level": "HSK6",
     "syllabus": {
@@ -64008,18 +66656,40 @@ window.VOCAB_HSK6 = [
       "pos": "数量",
       "page": 208
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "外面突然刮起了一阵大风。",
+        "pinyin": "Wàimiàn tūrán guā qǐ le yízhèn dà fēng.",
+        "german": "Draußen kam plötzlich ein heftiger Wind auf."
+      },
+      {
+        "chinese": "他讲完以后，台下响起一阵热烈的掌声。",
+        "pinyin": "Tā jiǎngwán yǐhòu, táixià xiǎngqǐ yízhèn rèliè de zhǎngshēng.",
+        "german": "Als er fertig war, brach im Publikum lebhafter Beifall aus."
+      },
+      {
+        "chinese": "前一阵我工作特别忙，没时间给你打电话。",
+        "pinyin": "Qián yízhèn wǒ gōngzuò tèbié máng, méi shíjiān gěi nǐ dǎ diànhuà.",
+        "german": "Vor einiger Zeit hatte ich bei der Arbeit so viel zu tun, dass ich keine Zeit hatte, dich anzurufen."
+      }
+    ],
     "traditional": "一陣",
     "evidence": {
       "cedict": "一陣 一阵 [yi1 zhen4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "一阵 (yízhèn) aus 一 und dem Zählwort 阵 (zhèn) bezeichnet etwas, das plötzlich einsetzt und eine Weile anhält: 一阵风 „ein Windstoß“, 一阵雨 „ein Schauer“, 一阵掌声 „eine Welle von Applaus“, 一阵笑声. Vor dem Nomen steht meist kein 的. Nach einem Verb gibt es eine Zeitdauer an: 忙了一阵 „eine Zeit lang beschäftigt sein“; 前一阵 heißt „vor einiger Zeit, neulich“. Umgangssprachlich ist auch 一阵子 (yízhènzi) „eine Zeit lang“ sehr häufig.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:遗址:yi2zhi3",
     "word": "遗址",
     "pinyin": "yízhǐ",
-    "meaning": "Ruine, historische Stätte",
+    "meaning": "Ruinen; historische Stätte; Fundstätte",
     "type": "Nomen",
     "level": "HSK6",
     "category": "Geschichte",
@@ -64028,6 +66698,16 @@ window.VOCAB_HSK6 = [
         "chinese": "这里有古代的遗址。",
         "pinyin": "Zhèlǐ yǒu gǔdài de yízhǐ.",
         "german": "Hier gibt es antike Ruinen."
+      },
+      {
+        "chinese": "考古学家在这里发现了一座古城遗址。",
+        "pinyin": "Kǎogǔxuéjiā zài zhèlǐ fāxiàn le yí zuò gǔchéng yízhǐ.",
+        "german": "Archäologen haben hier die Überreste einer antiken Stadt entdeckt."
+      },
+      {
+        "chinese": "每年有很多游客来参观圆明园遗址。",
+        "pinyin": "Měi nián yǒu hěn duō yóukè lái cānguān Yuánmíngyuán yízhǐ.",
+        "german": "Jedes Jahr besuchen viele Touristen die Ruinen des Alten Sommerpalasts."
       }
     ],
     "legacyIds": [
@@ -64041,14 +66721,20 @@ window.VOCAB_HSK6 = [
     "traditional": "遺址",
     "evidence": {
       "cedict": "遺址 遗址 [yi2 zhi3]"
+    },
+    "notes": "遗址 (yízhǐ) ist der Ort, an dem Reste früherer Bauten oder Siedlungen erhalten sind: 古城遗址 „Ruinen einer alten Stadt“, 考古遗址 „archäologische Fundstätte“, 历史遗址. Typische Verben sind 发现, 保护 und 参观. 遗迹 (yíjì) meint eher die Spuren und Überreste selbst, 遗址 den Ort; 废墟 (fèixū) sind Trümmer, oft nach einer Zerstörung, auch aus jüngster Zeit. Zählwort ist 处 (chù) oder 座 (zuò).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:以便:yi3bian4",
     "word": "以便",
     "pinyin": "yǐbiàn",
-    "meaning": "damit, um zu",
-    "type": "Adverb",
+    "meaning": "damit; um … zu; sodass",
+    "type": "Konjunktion",
     "level": "HSK6",
     "category": "Formell",
     "examples": [
@@ -64056,6 +66742,16 @@ window.VOCAB_HSK6 = [
         "chinese": "请提前通知我们，以便做好准备。",
         "pinyin": "Qǐng tíqián tōngzhī wǒmen, yǐbiàn zuòhǎo zhǔnbèi.",
         "german": "Bitte informieren Sie uns im Voraus, damit wir uns vorbereiten können."
+      },
+      {
+        "chinese": "我把电话号码写在这里，以便你随时联系我。",
+        "pinyin": "Wǒ bǎ diànhuà hàomǎ xiě zài zhèlǐ, yǐbiàn nǐ suíshí liánxì wǒ.",
+        "german": "Ich schreibe dir meine Telefonnummer hier auf, damit du mich jederzeit erreichen kannst."
+      },
+      {
+        "chinese": "图书馆增加了座位，以便学生自习。",
+        "pinyin": "Túshūguǎn zēngjiā le zuòwèi, yǐbiàn xuésheng zìxí.",
+        "german": "Die Bibliothek hat zusätzliche Sitzplätze geschaffen, damit die Studierenden dort lernen können."
       }
     ],
     "legacyIds": [
@@ -64069,14 +66765,20 @@ window.VOCAB_HSK6 = [
     "traditional": "以便",
     "evidence": {
       "cedict": "以便 以便 [yi3 bian4]"
+    },
+    "notes": "以便 (yǐbiàn) leitet meist den zweiten Teilsatz ein und nennt den Zweck, der durch die vorangehende Handlung leichter erreicht werden soll: „damit, um … zu“. Es ist schriftsprachlich und förmlich – typisch in Bitten, Hinweisen und Berichten. Anders als 为了 (wèile), das meist am Satzanfang steht, folgt 以便 dem ersten Teilsatz; im Gespräch sagt man eher 好 oder 为了. Das Gegenstück 以免 (yǐmiǎn) nennt, was verhindert werden soll.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:以免:yi3mian3",
     "word": "以免",
     "pinyin": "yǐmiǎn",
-    "meaning": "um zu vermeiden, damit nicht",
-    "type": "Adverb",
+    "meaning": "damit nicht; um … zu vermeiden",
+    "type": "Konjunktion",
     "level": "HSK6",
     "category": "Formell",
     "examples": [
@@ -64084,6 +66786,16 @@ window.VOCAB_HSK6 = [
         "chinese": "请仔细检查，以免出错。",
         "pinyin": "Qǐng zǐxì jiǎnchá, yǐmiǎn chūcuò.",
         "german": "Bitte prüfen Sie sorgfältig, um Fehler zu vermeiden."
+      },
+      {
+        "chinese": "出门前带上雨伞，以免路上淋雨。",
+        "pinyin": "Chūmén qián dàishàng yǔsǎn, yǐmiǎn lùshang lín yǔ.",
+        "german": "Nimm einen Schirm mit, bevor du rausgehst, damit du unterwegs nicht nass wirst."
+      },
+      {
+        "chinese": "开车时不要打电话，以免发生事故。",
+        "pinyin": "Kāichē shí búyào dǎ diànhuà, yǐmiǎn fāshēng shìgù.",
+        "german": "Telefoniere nicht beim Autofahren, damit kein Unfall passiert."
       }
     ],
     "legacyIds": [
@@ -64097,15 +66809,19 @@ window.VOCAB_HSK6 = [
     "traditional": "以免",
     "evidence": {
       "cedict": "以免 以免 [yi3 mian3]"
+    },
+    "notes": "以免 (yǐmiǎn) leitet den zweiten Teilsatz ein und nennt die unerwünschte Folge, die verhindert werden soll: 带上伞，以免淋雨 „nimm einen Schirm mit, damit du nicht nass wirst“. Die Verneinung steckt schon im Wort – nach 以免 folgt also das zu Vermeidende ohne 不: 以免迟到 „um nicht zu spät zu kommen“. Bedeutungsgleich ist 免得 (miǎnde), das umgangssprachlicher klingt; 以免 ist typisch für Hinweise, Anweisungen und Schilder.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:以往:yi3wang3",
     "word": "以往",
     "pinyin": "yǐwǎng",
-    "meaning": "ehedem, ehemals; früher",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "früher; in der Vergangenheit; bisher",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -64113,20 +66829,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "今年的冬天比以往更冷。",
+        "pinyin": "Jīnnián de dōngtiān bǐ yǐwǎng gèng lěng.",
+        "german": "Dieser Winter ist kälter als in den Jahren zuvor."
+      },
+      {
+        "chinese": "和以往一样，他七点就到了办公室。",
+        "pinyin": "Hé yǐwǎng yíyàng, tā qī diǎn jiù dào le bàngōngshì.",
+        "german": "Wie gewohnt war er schon um sieben im Büro."
+      },
+      {
+        "chinese": "根据以往的经验，这个问题不难解决。",
+        "pinyin": "Gēnjù yǐwǎng de jīngyàn, zhège wèntí bù nán jiějué.",
+        "german": "Nach bisherigen Erfahrungen ist dieses Problem nicht schwer zu lösen."
+      }
+    ],
     "traditional": "以往",
     "evidence": {
       "cedict": "以往 以往 [yi3 wang3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "以往 (yǐwǎng) bezeichnet die Zeit vor der Gegenwart und steht als Zeitangabe oder attributiv: 和以往一样 „wie gewohnt, wie früher“, 比以往更… „… als je zuvor“, 以往的经验 „bisherige Erfahrungen“. Es ist gehobener als 以前 (yǐqián). Anders als 以前 kann es nicht hinter einem Ereignis stehen: Man sagt 毕业以前 „vor dem Abschluss“, aber nicht 毕业以往.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:异常:yi4chang2",
     "word": "异常",
     "pinyin": "yìcháng",
-    "meaning": "außergewöhnlich, ungewöhnlich, abnorm, anormal; äußerst, sehr, besonders",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "ungewöhnlich; anormal; äußerst, außerordentlich",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -64134,20 +66870,40 @@ window.VOCAB_HSK6 = [
       "pos": "形、副",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "如果发现异常情况，请马上报告。",
+        "pinyin": "Rúguǒ fāxiàn yìcháng qíngkuàng, qǐng mǎshàng bàogào.",
+        "german": "Wenn Sie etwas Ungewöhnliches bemerken, melden Sie es bitte sofort."
+      },
+      {
+        "chinese": "今年夏天天气异常，一直下雨。",
+        "pinyin": "Jīnnián xiàtiān tiānqì yìcháng, yìzhí xià yǔ.",
+        "german": "Das Wetter war diesen Sommer ungewöhnlich – es hat ununterbrochen geregnet."
+      },
+      {
+        "chinese": "听到这个消息，大家都异常激动。",
+        "pinyin": "Tīngdào zhège xiāoxi, dàjiā dōu yìcháng jīdòng.",
+        "german": "Als sie die Nachricht hörten, waren alle äußerst aufgeregt."
+      }
+    ],
     "traditional": "異常",
     "evidence": {
       "cedict": "異常 异常 [yi4 chang2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als Adjektiv bedeutet 异常 (yìcháng) „ungewöhnlich, anormal“ und beschreibt Abweichungen vom Normalzustand, häufig in Technik, Medizin und beim Wetter: 情况异常, 天气异常, 检查结果异常; auch 发现异常 „eine Unregelmäßigkeit feststellen“. Als Adverb vor Adjektiven heißt es „äußerst, außerordentlich“ (异常激动, 异常安静) und klingt schriftlicher als 非常 (fēicháng). Anders als 奇怪 (qíguài) „seltsam“ drückt 异常 keine persönliche Verwunderung aus, sondern eine sachliche Abweichung.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:益处:yi4chu4",
     "word": "益处",
     "pinyin": "yìchù",
-    "meaning": "Vorteilhaftigkeit",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Nutzen; Vorteil",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -64155,21 +66911,41 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "每天散步对身体很有益处。",
+        "pinyin": "Měitiān sànbù duì shēntǐ hěn yǒu yìchù.",
+        "german": "Täglich spazieren zu gehen tut dem Körper sehr gut."
+      },
+      {
+        "chinese": "多读书对孩子的成长有很多益处。",
+        "pinyin": "Duō dúshū duì háizi de chéngzhǎng yǒu hěn duō yìchù.",
+        "german": "Viel zu lesen bringt Kindern für ihre Entwicklung viele Vorteile."
+      },
+      {
+        "chinese": "这样争吵下去，对谁都没有益处。",
+        "pinyin": "Zhèyàng zhēngchǎo xiàqu, duì shéi dōu méiyǒu yìchù.",
+        "german": "Wenn ihr so weiterstreitet, hat niemand etwas davon."
+      }
+    ],
     "traditional": "益處",
     "evidence": {
       "cedict": "益處 益处 [yi4 chu5]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "益处 (yìchù) ist das gehobenere Synonym von 好处 (hǎochu) „Nutzen, Vorteil“ und steht meist in der Wendung 对…有益处 „für … nützlich, gut sein“: 对健康有益处. Verneint heißt es 没有益处 oder 毫无益处 „völlig nutzlos“; das Gegenteil ist 害处 (hàichu) „Schaden“. Im Gespräch ist 好处 deutlich häufiger, 益处 begegnet vor allem in Texten und Ratgebern.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:一口气:yi1kou3qi4",
     "word": "一口气",
     "pinyin": "yīkǒuqì",
     "pinyinSpoken": "yìkǒuqì",
-    "meaning": "in einem Zug; ohne Pause",
-    "meaningStatus": "draft",
-    "meaningSource": "Entwurf (Claude)",
+    "meaning": "in einem Zug; ohne Pause; ununterbrochen",
     "type": "Adverb",
     "level": "HSK6",
     "syllabus": {
@@ -64177,20 +66953,40 @@ window.VOCAB_HSK6 = [
       "pos": "副",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这本小说太好看了，我一口气就看完了。",
+        "pinyin": "Zhè běn xiǎoshuō tài hǎokàn le, wǒ yìkǒuqì jiù kànwán le.",
+        "german": "Der Roman war so spannend, dass ich ihn in einem Zug durchgelesen habe."
+      },
+      {
+        "chinese": "他一口气爬到了山顶。",
+        "pinyin": "Tā yìkǒuqì pá dào le shāndǐng.",
+        "german": "Er stieg ohne Pause bis zum Gipfel hinauf."
+      },
+      {
+        "chinese": "听说孩子平安到家，妈妈终于松了一口气。",
+        "pinyin": "Tīngshuō háizi píng'ān dào jiā, māma zhōngyú sōng le yìkǒuqì.",
+        "german": "Als sie hörte, dass das Kind gut zu Hause angekommen war, atmete die Mutter endlich auf."
+      }
+    ],
     "traditional": "一口氣",
     "evidence": {
       "cedict": "一口氣 一口气 [yi1 kou3 qi4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "一口气 (yìkǒuqì), wörtlich „ein Atemzug“, steht als Adverb vor dem Verb: Etwas wird ohne Unterbrechung in einem Zug erledigt, 一口气跑到山顶, 一口气看完. Oft folgt ein Ergebniskomplement wie 完 oder 光 (一口气喝光). Die wörtliche Bedeutung lebt in Wendungen wie 松了一口气 „erleichtert aufatmen“ fort.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:议论:yi4lun4",
     "word": "议论",
     "pinyin": "yìlùn",
-    "meaning": "Diskussion; diskutieren, kommentieren, sich zu (be)sprechen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "über jdn./etw. reden; kommentieren; diskutieren; Gerede",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -64198,21 +66994,41 @@ window.VOCAB_HSK6 = [
       "pos": "动、名",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "不要在背后议论别人。",
+        "pinyin": "Búyào zài bèihòu yìlùn biérén.",
+        "german": "Man sollte nicht hinter dem Rücken anderer über sie reden."
+      },
+      {
+        "chinese": "大家都在议论明天的考试。",
+        "pinyin": "Dàjiā dōu zài yìlùn míngtiān de kǎoshì.",
+        "german": "Alle reden über die Prüfung morgen."
+      },
+      {
+        "chinese": "这条新闻在网上引起了很多议论。",
+        "pinyin": "Zhè tiáo xīnwén zài wǎngshàng yǐnqǐ le hěn duō yìlùn.",
+        "german": "Diese Nachricht hat im Internet viele Diskussionen ausgelöst."
+      }
+    ],
     "traditional": "議論",
     "evidence": {
       "cedict": "議論 议论 [yi4 lun4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "议论 (yìlùn) heißt, sich über jemanden oder etwas zu äußern und darüber zu reden – oft im Sinne von Gerede oder Tuscheln: 别在背后议论别人 „rede nicht hinter dem Rücken anderer über sie“. Typisch sind 议论纷纷 „alle reden durcheinander darüber“ und 引起议论 „für Gesprächsstoff sorgen“. 讨论 (tǎolùn) ist dagegen ein sachliches, zielgerichtetes Besprechen (讨论问题); 议论 ist lockerer und kann abwertend klingen. Als Nomen: 各种议论 „allerlei Kommentare“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:一模一样:yi1mu2yi1yang4",
     "word": "一模一样",
     "pinyin": "yīmú-yīyàng",
     "pinyinSpoken": "yìmú-yíyàng",
-    "meaning": "sich gleichen, wie ein Ei dem anderen; von der selben Art sein",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "genau gleich; völlig identisch; sich gleichen wie ein Ei dem anderen",
     "type": "Chengyu",
     "level": "HSK6",
     "syllabus": {
@@ -64220,20 +67036,40 @@ window.VOCAB_HSK6 = [
       "pos": "",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这对双胞胎长得一模一样。",
+        "pinyin": "Zhè duì shuāngbāotāi zhǎng de yìmú-yíyàng.",
+        "german": "Die beiden Zwillinge sehen sich zum Verwechseln ähnlich."
+      },
+      {
+        "chinese": "我买的包跟你的一模一样。",
+        "pinyin": "Wǒ mǎi de bāo gēn nǐ de yìmú-yíyàng.",
+        "german": "Ich habe genau die gleiche Tasche gekauft wie du."
+      },
+      {
+        "chinese": "他说的话和昨天一模一样，一个字都没改。",
+        "pinyin": "Tā shuō de huà hé zuótiān yìmú-yíyàng, yí ge zì dōu méi gǎi.",
+        "german": "Er hat genau dasselbe gesagt wie gestern, ohne ein einziges Wort zu ändern."
+      }
+    ],
     "traditional": "一模一樣",
     "evidence": {
       "cedict": "一模一樣 一模一样 [yi1 mu2 yi1 yang4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "一模一样 (yìmú-yíyàng), wörtlich „eine Form, ein Aussehen“ (模 mú „Gussform“), bedeutet „haargenau gleich“. Typische Rahmen sind A和B长得一模一样 „A und B sehen sich zum Verwechseln ähnlich“ und 跟…一模一样 „genau wie …“. Der Ausdruck ist umgangssprachlich sehr häufig und steigert einfaches 一样. Standardlesung von 模 ist hier mú; die Aussprache mó hört man aber ebenfalls.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:艺人:yi4ren2",
     "word": "艺人",
     "pinyin": "yìrén",
-    "meaning": "Akteur",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Entertainer; Künstler (Bühne, Showbranche); Volkskünstler, Kunsthandwerker",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -64241,21 +67077,41 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这位艺人既会唱歌又会演戏。",
+        "pinyin": "Zhè wèi yìrén jì huì chànggē yòu huì yǎnxì.",
+        "german": "Dieser Entertainer kann sowohl singen als auch schauspielern."
+      },
+      {
+        "chinese": "周末广场上常有街头艺人表演。",
+        "pinyin": "Zhōumò guǎngchǎng shàng cháng yǒu jiētóu yìrén biǎoyǎn.",
+        "german": "Am Wochenende treten auf dem Platz oft Straßenkünstler auf."
+      },
+      {
+        "chinese": "这些民间艺人的剪纸手艺非常精湛。",
+        "pinyin": "Zhèxiē mínjiān yìrén de jiǎnzhǐ shǒuyì fēicháng jīngzhàn.",
+        "german": "Die Scherenschnittkunst dieser Volkskünstler ist meisterhaft."
+      }
+    ],
     "traditional": "藝人",
     "evidence": {
       "cedict": "藝人 艺人 [yi4 ren2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "艺人 (yìrén) bezeichnet heute vor allem Menschen aus der Unterhaltungsbranche – Sänger, Schauspieler, Moderatoren: 明星艺人, 演艺圈的艺人. Traditionell sind auch Volkskünstler und Kunsthandwerker gemeint: 民间艺人, 街头艺人 „Straßenkünstler“. Für bildende Künstler und große Musiker sagt man 艺术家 (yìshùjiā), das anspruchsvoller klingt. Zählwort ist 位 (wèi) oder 个.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:一身:yi1shen1",
     "word": "一身",
     "pinyin": "yīshēn",
     "pinyinSpoken": "yìshēn",
-    "meaning": "der ganze Körper",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "der ganze Körper; von Kopf bis Fuß; ein komplettes Outfit",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -64263,21 +67119,41 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "跑完步，他出了一身汗。",
+        "pinyin": "Pǎo wán bù, tā chū le yìshēn hàn.",
+        "german": "Nach dem Laufen war er völlig durchgeschwitzt."
+      },
+      {
+        "chinese": "她今天穿了一身红色的衣服。",
+        "pinyin": "Tā jīntiān chuān le yìshēn hóngsè de yīfu.",
+        "german": "Sie ist heute ganz in Rot gekleidet."
+      },
+      {
+        "chinese": "孩子们在外面玩了一下午，弄得一身泥。",
+        "pinyin": "Háizimen zài wàimiàn wán le yí xiàwǔ, nòng de yìshēn ní.",
+        "german": "Die Kinder haben den ganzen Nachmittag draußen gespielt und sind von oben bis unten voller Schlamm."
+      }
+    ],
     "traditional": "一身",
     "evidence": {
       "cedict": "一身 一身 [yi1 shen1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "一身 (yìshēn) „der ganze Körper“ steht meist vor einem Nomen für etwas, das den ganzen Körper bedeckt: 出了一身汗 „völlig durchgeschwitzt sein“, 一身泥 „voller Schlamm“. Außerdem bezeichnet es Kleidung als vollständiges Outfit: 一身西装 „ein Anzug“, 穿着一身白 „ganz in Weiß“. Übertragen: 一身本领 „all seine Fähigkeiten“. Ähnlich ist 浑身 (húnshēn), das aber meist vor Verben oder Adjektiven steht (浑身发抖).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:一时:yi1shi2",
     "word": "一时",
     "pinyin": "yīshí",
     "pinyinSpoken": "yìshí",
-    "meaning": "kurzzeitig, vorübergehend, spontan, momentan; im Augenblick",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "im Moment; auf die Schnelle; vorübergehend; eine Zeit lang",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -64285,21 +67161,41 @@ window.VOCAB_HSK6 = [
       "pos": "名、副",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他的名字我一时想不起来了。",
+        "pinyin": "Tā de míngzi wǒ yìshí xiǎng bu qǐlái le.",
+        "german": "Sein Name fällt mir gerade nicht ein."
+      },
+      {
+        "chinese": "他只是一时冲动，才说了那些话。",
+        "pinyin": "Tā zhǐshì yìshí chōngdòng, cái shuō le nàxiē huà.",
+        "german": "Er hat das nur in einem unbedachten Moment gesagt."
+      },
+      {
+        "chinese": "这首歌当年流行一时。",
+        "pinyin": "Zhè shǒu gē dāngnián liúxíng yìshí.",
+        "german": "Dieses Lied war damals eine Zeit lang sehr beliebt."
+      }
+    ],
     "traditional": "一時",
     "evidence": {
       "cedict": "一時 一时 [yi1 shi2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als Adverb heißt 一时 (yìshí) „im Augenblick, auf die Schnelle“, oft vor einer Verneinung: 一时想不起来 „es fällt mir gerade nicht ein“, 一时说不清楚. Es kann auch „vorübergehend, aus dem Moment heraus“ bedeuten: 一时冲动 „im Affekt“, 一时糊涂 „ein kurzer Aussetzer“. Als Nomen bezeichnet es „eine gewisse Zeit“, etwa in 流行一时 „eine Zeit lang in Mode sein“. Für „sofort“ sagt man dagegen 马上 oder 立刻.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:一同:yi1tong2",
     "word": "一同",
     "pinyin": "yītóng",
     "pinyinSpoken": "yìtóng",
-    "meaning": "gemeinsam, zusammen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "zusammen; gemeinsam",
     "type": "Adverb",
     "level": "HSK6",
     "syllabus": {
@@ -64307,20 +67203,40 @@ window.VOCAB_HSK6 = [
       "pos": "副",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "欢迎各位一同参加今晚的晚会。",
+        "pinyin": "Huānyíng gèwèi yìtóng cānjiā jīnwǎn de wǎnhuì.",
+        "german": "Wir laden Sie alle herzlich zur heutigen Abendveranstaltung ein."
+      },
+      {
+        "chinese": "校长与几位老师一同前往医院看望受伤的学生。",
+        "pinyin": "Xiàozhǎng yǔ jǐ wèi lǎoshī yìtóng qiánwǎng yīyuàn kànwàng shòushāng de xuésheng.",
+        "german": "Der Rektor fuhr zusammen mit einigen Lehrern ins Krankenhaus, um die verletzten Schüler zu besuchen."
+      },
+      {
+        "chinese": "我们一同度过了最困难的那几年。",
+        "pinyin": "Wǒmen yìtóng dùguò le zuì kùnnan de nà jǐ nián.",
+        "german": "Die schwierigsten Jahre haben wir gemeinsam durchgestanden."
+      }
+    ],
     "traditional": "一同",
     "evidence": {
       "cedict": "一同 一同 [yi1 tong2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "一同 (yìtóng) steht vor dem Verb und entspricht 一起 (yìqǐ) „zusammen“, wirkt aber schriftlicher und förmlicher – typisch für Einladungen, Ansprachen und Berichte: 一同前往 „gemeinsam hinfahren“, 一同参加, 与…一同. Im Alltag ist 一起 viel üblicher. Anders als 一起 kann 一同 nicht nach 在 stehen: Man sagt 在一起 „beisammen“, aber nicht 在一同.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:易于:yi4yu2",
     "word": "易于",
     "pinyin": "yìyú",
-    "meaning": "leicht zu; geneigt zu",
-    "meaningStatus": "draft",
-    "meaningSource": "Entwurf (Claude)",
+    "meaning": "leicht zu (tun) sein; geeignet für; anfällig für",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -64328,12 +67244,34 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这本教材语言简单，易于理解。",
+        "pinyin": "Zhè běn jiàocái yǔyán jiǎndān, yìyú lǐjiě.",
+        "german": "Dieses Lehrbuch ist einfach geschrieben und leicht verständlich."
+      },
+      {
+        "chinese": "这款软件界面清楚，易于操作。",
+        "pinyin": "Zhè kuǎn ruǎnjiàn jièmiàn qīngchu, yìyú cāozuò.",
+        "german": "Diese Software hat eine übersichtliche Oberfläche und ist einfach zu bedienen."
+      },
+      {
+        "chinese": "粥比较易于消化，适合病人吃。",
+        "pinyin": "Zhōu bǐjiào yìyú xiāohuà, shìhé bìngrén chī.",
+        "german": "Reisbrei ist leicht verdaulich und eignet sich gut für Kranke."
+      }
+    ],
     "traditional": "易於",
     "evidence": {
       "cedict": "易於 易于 [yi4 yu2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "易于 (yìyú) ist schriftsprachlich und steht vor einem meist zweisilbigen Verb: 易于理解 „leicht verständlich“, 易于操作 „einfach zu bedienen“, 易于消化 „leicht verdaulich“. Es entspricht 容易 (róngyì) + Verb, klingt aber förmlicher und begegnet vor allem in Gebrauchsanleitungen, Werbung und Fachtexten. Gegenteil ist 难以 (nányǐ) „schwer zu“. Im Gespräch sagt man eher 很容易懂 als 易于理解.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:抑制:yi4zhi4",
@@ -64342,7 +67280,23 @@ window.VOCAB_HSK6 = [
     "meaning": "unterdrücken; hemmen; zurückhalten",
     "type": "Verb",
     "level": "HSK6",
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "听到自己考上了大学，她抑制不住内心的激动。",
+        "pinyin": "Tīngdào zìjǐ kǎoshàng le dàxué, tā yìzhì bu zhù nèixīn de jīdòng.",
+        "german": "Als sie hörte, dass sie einen Studienplatz bekommen hatte, konnte sie ihre Aufregung nicht zurückhalten."
+      },
+      {
+        "chinese": "这种药可以抑制细菌的生长。",
+        "pinyin": "Zhè zhǒng yào kěyǐ yìzhì xìjūn de shēngzhǎng.",
+        "german": "Dieses Medikament kann das Wachstum von Bakterien hemmen."
+      },
+      {
+        "chinese": "政府出台了新政策，以抑制房价过快上涨。",
+        "pinyin": "Zhèngfǔ chūtái le xīn zhèngcè, yǐ yìzhì fángjià guò kuài shàngzhǎng.",
+        "german": "Die Regierung hat neue Maßnahmen beschlossen, um den zu schnellen Anstieg der Immobilienpreise zu bremsen."
+      }
+    ],
     "legacyIds": [
       "抑制|yìzhì"
     ],
@@ -64354,15 +67308,19 @@ window.VOCAB_HSK6 = [
     "traditional": "抑制",
     "evidence": {
       "cedict": "抑制 抑制 [yi4 zhi4]"
+    },
+    "notes": "抑制 (yìzhì) „unterdrücken, hemmen, eindämmen“ hat zwei Hauptbereiche: Gefühle zurückhalten – 抑制感情, 抑制不住激动的心情 „seine Aufregung nicht zurückhalten können“ – und in Medizin, Biologie oder Wirtschaft eine Entwicklung bremsen: 抑制细菌生长, 抑制房价上涨. 压制 (yāzhì) heißt dagegen, etwas mit Gewalt oder Macht niederzuhalten (压制批评 „Kritik unterdrücken“); 抑制 meint eher Dämpfen und Bremsen. Das Wort ist eher schriftlich.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:因:yin1",
     "word": "因",
     "pinyin": "yīn",
-    "meaning": "Grund, Ursache; folgen, fortführen; aufgrund, nach, gemäß, infolge, wegen (P)",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "wegen; aufgrund; infolge; weil",
     "type": "Präposition",
     "level": "HSK6",
     "syllabus": {
@@ -64370,20 +67328,40 @@ window.VOCAB_HSK6 = [
       "pos": "介、连",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他因病没来上班。",
+        "pinyin": "Tā yīn bìng méi lái shàngbān.",
+        "german": "Er ist wegen Krankheit nicht zur Arbeit gekommen."
+      },
+      {
+        "chinese": "比赛因大雨而推迟到下周。",
+        "pinyin": "Bǐsài yīn dàyǔ ér tuīchí dào xià zhōu.",
+        "german": "Das Spiel wurde wegen starken Regens auf nächste Woche verschoben."
+      },
+      {
+        "chinese": "本店因装修暂停营业，敬请谅解。",
+        "pinyin": "Běn diàn yīn zhuāngxiū zàntíng yíngyè, jìngqǐng liàngjiě.",
+        "german": "Wegen Renovierung bleibt unser Geschäft vorübergehend geschlossen. Wir bitten um Ihr Verständnis."
+      }
+    ],
     "traditional": "因",
     "evidence": {
       "cedict": "因 因 [yin1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "因 (yīn) ist die knappe, schriftsprachliche Form von 因为 (yīnwèi). Als Präposition steht es vor dem Grund: 因病请假 „wegen Krankheit fehlen“, 因故取消 „aus bestimmten Gründen abgesagt“, oft im Rahmen 因…而… „wegen … (geschieht etwas)“: 因下雨而推迟. Als Konjunktion leitet es einen Begründungssatz ein. Typisch für Nachrichten, Bekanntmachungen und Aushänge; im Gespräch verwendet man 因为. Die Bedeutung „Ursache“ steckt in Wörtern wie 原因 und 因果.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:音节:yin1jie2",
     "word": "音节",
     "pinyin": "yīnjié",
     "meaning": "Silbe",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -64391,18 +67369,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "汉语里一个汉字一般是一个音节。",
+        "pinyin": "Hànyǔ lǐ yí ge Hànzì yìbān shì yí ge yīnjié.",
+        "german": "Im Chinesischen entspricht ein Schriftzeichen in der Regel einer Silbe."
+      },
+      {
+        "chinese": "老师让我们把每个音节的声调都读准。",
+        "pinyin": "Lǎoshī ràng wǒmen bǎ měi ge yīnjié de shēngdiào dōu dú zhǔn.",
+        "german": "Der Lehrer wollte, dass wir bei jeder Silbe den Ton genau treffen."
+      },
+      {
+        "chinese": "这个德语单词有五个音节，很难读。",
+        "pinyin": "Zhège Déyǔ dāncí yǒu wǔ ge yīnjié, hěn nán dú.",
+        "german": "Dieses deutsche Wort hat fünf Silben und ist schwer auszusprechen."
+      }
+    ],
     "traditional": "音節",
     "evidence": {
       "cedict": "音節 音节 [yin1 jie2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "音节 (yīnjié) „Silbe“ ist ein Fachbegriff aus Phonetik und Sprachunterricht. Im Chinesischen entspricht ein Schriftzeichen in der Regel einer Silbe (Ausnahme etwa die 儿-Endung). Eine Silbe besteht aus 声母 (shēngmǔ, Anlaut), 韵母 (yùnmǔ, Auslaut) und 声调 (shēngdiào, Ton). Zählwort ist 个; „zweisilbig“ heißt 双音节.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:银:yin2",
     "word": "银",
     "pinyin": "yín",
-    "meaning": "Silber",
+    "meaning": "Silber; silbern",
     "type": "Nomen",
     "level": "HSK6",
     "category": "Materialien",
@@ -64411,6 +67411,16 @@ window.VOCAB_HSK6 = [
         "chinese": "这个戒指是银的。",
         "pinyin": "Zhège jièzhi shì yín de.",
         "german": "Dieser Ring ist aus Silber."
+      },
+      {
+        "chinese": "她送给我一条银项链。",
+        "pinyin": "Tā sòng gěi wǒ yì tiáo yín xiàngliàn.",
+        "german": "Sie hat mir eine Silberkette geschenkt."
+      },
+      {
+        "chinese": "银的价格比金低得多。",
+        "pinyin": "Yín de jiàgé bǐ jīn dī de duō.",
+        "german": "Silber ist viel billiger als Gold."
       }
     ],
     "legacyIds": [
@@ -64424,6 +67434,12 @@ window.VOCAB_HSK6 = [
     "traditional": "銀",
     "evidence": {
       "cedict": "銀 银 [yin2]"
+    },
+    "notes": "银 (yín) „Silber“ steht allein vor allem in Materialangaben: 银的 „aus Silber“, 银戒指 „Silberring“, 纯银 „reines Silber“. Häufiger begegnet es in Zusammensetzungen: 银色 „silberfarben“, 银牌 „Silbermedaille“ und 银行 (yínháng) „Bank“ – weil Silber früher das wichtigste Zahlungsmittel war. Silber als Geld in historischen Texten heißt oft 银子 (yínzi).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -64431,8 +67447,6 @@ window.VOCAB_HSK6 = [
     "word": "银牌",
     "pinyin": "yínpái",
     "meaning": "Silbermedaille",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -64440,7 +67454,23 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "她在这次比赛中获得了一枚银牌。",
+        "pinyin": "Tā zài zhè cì bǐsài zhōng huòdé le yì méi yínpái.",
+        "german": "Sie hat bei diesem Wettkampf eine Silbermedaille gewonnen."
+      },
+      {
+        "chinese": "虽然只得了银牌，他对自己的成绩还是很满意。",
+        "pinyin": "Suīrán zhǐ dé le yínpái, tā duì zìjǐ de chéngjì háishi hěn mǎnyì.",
+        "german": "Obwohl er nur Silber geholt hat, ist er mit seiner Leistung sehr zufrieden."
+      },
+      {
+        "chinese": "爷爷把那枚银牌挂在客厅里。",
+        "pinyin": "Yéye bǎ nà méi yínpái guà zài kètīng lǐ.",
+        "german": "Opa hat die Silbermedaille im Wohnzimmer aufgehängt."
+      }
+    ],
     "traditional": "銀牌",
     "measureWords": [
       {
@@ -64451,15 +67481,19 @@ window.VOCAB_HSK6 = [
     "evidence": {
       "cedict": "銀牌 银牌 [yin2 pai2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "银牌 (yínpái) ist die „Silbermedaille“ für den zweiten Platz; Zählwort ist 枚 (méi), umgangssprachlich auch 块 (kuài). Typische Verben: 获得银牌, 夺得银牌, 拿到银牌. Die Reihe lautet 金牌 (jīnpái), 银牌, 铜牌 (tóngpái); 银牌得主 ist „Silbermedaillengewinner“. Mündlich sagt man auch einfach 拿了银牌 oder 得了第二名.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:引:yin3",
     "word": "引",
     "pinyin": "yǐn",
-    "meaning": "ableiten, ablenken; führen, leiten, jmdm. den Weg weisen; ziehen, anspannen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "ziehen; führen, leiten; anlocken, hervorrufen; zitieren",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -64467,20 +67501,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他的一句话引得大家哈哈大笑。",
+        "pinyin": "Tā de yí jù huà yǐn de dàjiā hāhā dàxiào.",
+        "german": "Mit einem einzigen Satz brachte er alle zum Lachen."
+      },
+      {
+        "chinese": "花香引来了很多蜜蜂。",
+        "pinyin": "Huāxiāng yǐnlái le hěn duō mìfēng.",
+        "german": "Der Blütenduft lockte viele Bienen an."
+      },
+      {
+        "chinese": "他在文章里引了孔子的一句话。",
+        "pinyin": "Tā zài wénzhāng lǐ yǐn le Kǒngzǐ de yí jù huà.",
+        "german": "In seinem Aufsatz zitierte er einen Ausspruch von Konfuzius."
+      }
+    ],
     "traditional": "引",
     "evidence": {
       "cedict": "引 引 [yin3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als freies Verb ist 引 (yǐn) eher schriftsprachlich; im Alltag begegnet es meist in festen Verbindungen und Zusammensetzungen: 引起 „hervorrufen“, 引人注目 „Aufmerksamkeit erregen“, 引路 „den Weg zeigen“, 引用 „zitieren“. Frei steht es z. B. in 引来 „anlocken“, 把水引到… „Wasser irgendwohin leiten“ und 引得大家… „alle dazu bringen, dass …“. Die Grundbedeutung „(einen Bogen) spannen, ziehen“ ist im modernen Chinesisch fast nur noch in Wendungen erhalten.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:隐藏:yin3cang2",
     "word": "隐藏",
     "pinyin": "yǐncáng",
-    "meaning": "sich verbergen; verborgen, verholen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "verbergen; verstecken; sich verstecken",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -64488,26 +67542,58 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他把真实的想法隐藏在心里。",
+        "pinyin": "Tā bǎ zhēnshí de xiǎngfǎ yǐncáng zài xīn lǐ.",
+        "german": "Er behielt seine wahren Gedanken für sich."
+      },
+      {
+        "chinese": "这个问题背后隐藏着很大的危险。",
+        "pinyin": "Zhège wèntí bèihòu yǐncáng zhe hěn dà de wēixiǎn.",
+        "german": "Hinter diesem Problem verbirgt sich eine große Gefahr."
+      },
+      {
+        "chinese": "你可以在设置里隐藏这个文件夹。",
+        "pinyin": "Nǐ kěyǐ zài shèzhì lǐ yǐncáng zhège wénjiànjiā.",
+        "german": "Du kannst diesen Ordner in den Einstellungen ausblenden."
+      }
+    ],
     "traditional": "隱藏",
     "evidence": {
       "cedict": "隱藏 隐藏 [yin3 cang2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "隐藏 (yǐncáng) heißt „verbergen, verstecken“ – sowohl Dinge oder sich selbst als auch Abstraktes: 隐藏起来, 隐藏在…里, 隐藏感情 „Gefühle verbergen“, 隐藏的危险 „versteckte Gefahr“. Mit 着 beschreibt es, dass hinter etwas etwas steckt: 背后隐藏着…. Es ist gehobener als 藏 (cáng) und 躲 (duǒ); 躲 bezieht sich auf die eigene Person („sich verstecken, ausweichen“). In der IT heißt 隐藏 „ausblenden“: 隐藏文件 „versteckte Datei“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:引导:yin3dao3",
     "word": "引导",
     "pinyin": "yǐndǎo",
-    "meaning": "leiten, anleiten",
+    "meaning": "anleiten; führen; lenken; hinführen",
     "type": "Verb",
     "level": "HSK6",
     "category": "Kommunikation",
     "examples": [
       {
         "chinese": "老师引导学生思考。",
-        "pinyin": "Lǎoshī yǐndǎo xuéshēng sīkǎo.",
+        "pinyin": "Lǎoshī yǐndǎo xuésheng sīkǎo.",
         "german": "Der Lehrer leitet die Schüler zum Nachdenken an."
+      },
+      {
+        "chinese": "工作人员引导观众有序进场。",
+        "pinyin": "Gōngzuò rényuán yǐndǎo guānzhòng yǒuxù jìnchǎng.",
+        "german": "Das Personal führte die Zuschauer geordnet in die Halle."
+      },
+      {
+        "chinese": "在父母的引导下，他慢慢爱上了读书。",
+        "pinyin": "Zài fùmǔ de yǐndǎo xià, tā mànmàn àishàng le dúshū.",
+        "german": "Angeleitet von seinen Eltern fand er nach und nach Freude am Lesen."
       }
     ],
     "legacyIds": [
@@ -64521,15 +67607,19 @@ window.VOCAB_HSK6 = [
     "traditional": "引導",
     "evidence": {
       "cedict": "引導 引导 [yin3 dao3]"
+    },
+    "notes": "引导 (yǐndǎo) heißt, jemanden in eine Richtung zu führen – räumlich (引导观众进场 „Zuschauer in den Saal führen“) und vor allem geistig: 引导学生思考, 正确引导孩子 „Kinder richtig anleiten“. Typische Rahmen sind 引导…做… und 在…的引导下 „unter der Anleitung von …“. 领导 (lǐngdǎo) ist dagegen Führung als Vorgesetzter, 指导 (zhǐdǎo) fachliche Anleitung und Betreuung; 引导 betont das behutsame Hinlenken.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:引发:yin3fa1",
     "word": "引发",
     "pinyin": "yǐnfā",
-    "meaning": "auslösen, induzieren, initiieren",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "auslösen; hervorrufen; verursachen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -64537,20 +67627,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "一个小小的烟头引发了一场大火。",
+        "pinyin": "Yí ge xiǎoxiǎo de yāntóu yǐnfā le yì chǎng dàhuǒ.",
+        "german": "Ein winziger Zigarettenstummel löste einen Großbrand aus."
+      },
+      {
+        "chinese": "他的发言在网上引发了热烈讨论。",
+        "pinyin": "Tā de fāyán zài wǎngshàng yǐnfā le rèliè tǎolùn.",
+        "german": "Seine Äußerungen haben im Internet eine lebhafte Diskussion ausgelöst."
+      },
+      {
+        "chinese": "长期熬夜可能引发多种疾病。",
+        "pinyin": "Chángqī áoyè kěnéng yǐnfā duō zhǒng jíbìng.",
+        "german": "Wer regelmäßig bis spät in die Nacht aufbleibt, kann verschiedene Krankheiten bekommen."
+      }
+    ],
     "traditional": "引發",
     "evidence": {
       "cedict": "引發 引发 [yin3 fa1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "引发 (yǐnfā) „auslösen, hervorrufen“ beschreibt, dass ein Ereignis eine Folge nach sich zieht, häufig eine unerwünschte: 引发火灾, 引发争论, 引发疾病, aber auch 引发思考 „zum Nachdenken anregen“. Nah verwandt ist 引起 (yǐnqǐ), das breiter einsetzbar ist und auch für Aufmerksamkeit oder Interesse steht (引起注意); 引发 betont das Auslösen eines Vorgangs und ist typisch für Nachrichten und Schriftsprache.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:引入:yin3ru4",
     "word": "引入",
     "pinyin": "yǐnrù",
-    "meaning": "einführen; zu etw. führen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "einführen; einbringen; hineinleiten",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -64558,18 +67668,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "公司引入了新的管理方法。",
+        "pinyin": "Gōngsī yǐnrù le xīn de guǎnlǐ fāngfǎ.",
+        "german": "Das Unternehmen hat neue Managementmethoden eingeführt."
+      },
+      {
+        "chinese": "老师用一个小故事引入今天的话题。",
+        "pinyin": "Lǎoshī yòng yí ge xiǎo gùshi yǐnrù jīntiān de huàtí.",
+        "german": "Der Lehrer führte mit einer kleinen Geschichte in das heutige Thema ein."
+      },
+      {
+        "chinese": "这条水渠把河水引入了农田。",
+        "pinyin": "Zhè tiáo shuǐqú bǎ héshuǐ yǐnrù le nóngtián.",
+        "german": "Dieser Kanal leitet Flusswasser auf die Felder."
+      }
+    ],
     "traditional": "引入",
     "evidence": {
       "cedict": "引入 引入 [yin3 ru4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "引入 (yǐnrù) heißt, etwas von außen in ein System oder einen Zusammenhang zu bringen: 引入新技术, 引入竞争机制 „Wettbewerb einführen“, 引入概念 „einen Begriff einführen“. Konkret auch „hineinleiten“: 把河水引入农田. Nah verwandt ist 引进 (yǐnjìn), das besonders für Technik, Fachkräfte und Kapital aus dem Ausland steht; 引入 ist breiter und auch für Begriffe, Methoden und Themen üblich. Das Wort ist eher schriftsprachlich.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:隐私:yin3si1",
     "word": "隐私",
     "pinyin": "yǐnsī",
-    "meaning": "Privatsphäre",
+    "meaning": "Privatsphäre; Privatangelegenheiten",
     "type": "Nomen",
     "level": "HSK6",
     "category": "Internet",
@@ -64577,7 +67709,7 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "要保护个人隐私。",
         "pinyin": "Yào bǎohù gèrén yǐnsī.",
-        "german": "Man muss die persönliche Privatsphäre schützen."
+        "german": "Die Privatsphäre des Einzelnen muss geschützt werden."
       },
       {
         "chinese": "我们要尊重别人的隐私。",
@@ -64586,7 +67718,7 @@ window.VOCAB_HSK6 = [
       },
       {
         "chinese": "每个人都有隐私权。",
-        "pinyin": "Měi gè rén dōu yǒu yǐnsīquán.",
+        "pinyin": "Měi ge rén dōu yǒu yǐnsīquán.",
         "german": "Jeder hat ein Recht auf Privatsphäre."
       }
     ],
@@ -64601,6 +67733,12 @@ window.VOCAB_HSK6 = [
     "traditional": "隱私",
     "evidence": {
       "cedict": "隱私 隐私 [yin3 si1]"
+    },
+    "notes": "隐私 (yǐnsī) sind persönliche Dinge, die man nicht öffentlich machen möchte – „Privatsphäre“, aber auch konkret „Privates, private Geheimnisse“: 这是我的隐私 „das ist meine Privatsache“. Typische Verbindungen sind 保护隐私, 尊重隐私, 侵犯隐私 „die Privatsphäre verletzen“, 泄露隐私 „private Daten preisgeben“ und 隐私权 „Recht auf Privatsphäre“. 秘密 (mìmì) ist allgemeiner jedes „Geheimnis“, auch ein staatliches oder geschäftliches.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -64608,8 +67746,6 @@ window.VOCAB_HSK6 = [
     "word": "饮用水",
     "pinyin": "yǐnyòngshuǐ",
     "meaning": "Trinkwasser",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -64617,20 +67753,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这里的自来水不是饮用水，请不要直接喝。",
+        "pinyin": "Zhèlǐ de zìláishuǐ bú shì yǐnyòngshuǐ, qǐng búyào zhíjiē hē.",
+        "german": "Das Leitungswasser hier ist kein Trinkwasser, bitte nicht direkt trinken."
+      },
+      {
+        "chinese": "地震以后，灾区最缺的是饮用水。",
+        "pinyin": "Dìzhèn yǐhòu, zāiqū zuì quē de shì yǐnyòngshuǐ.",
+        "german": "Nach dem Erdbeben fehlte es im Katastrophengebiet vor allem an Trinkwasser."
+      },
+      {
+        "chinese": "去爬山一定要带足饮用水。",
+        "pinyin": "Qù páshān yídìng yào dài zú yǐnyòngshuǐ.",
+        "german": "Zum Bergwandern unbedingt genug Trinkwasser mitnehmen."
+      }
+    ],
     "traditional": "飲用水",
     "evidence": {
       "cedict": "飲用水 饮用水 [yin3 yong4 shui3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "饮用水 (yǐnyòngshuǐ) „Trinkwasser“ setzt sich aus dem formellen 饮用 „trinken“ und 水 zusammen. Es ist ein sachlicher bis amtlicher Begriff: 安全的饮用水, 饮用水标准, 饮用水源 „Trinkwasserquelle“; auf Schildern liest man 非饮用水 „kein Trinkwasser“. Im Alltag sagt man eher 能喝的水; abgekochtes Wasser heißt 白开水 (báikāishuǐ), Mineralwasser 矿泉水 (kuàngquánshuǐ).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:印:yin4",
     "word": "印",
     "pinyin": "yìn",
-    "meaning": "Druck; Siegel, Stempel; drucken",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "drucken; aufdrucken; Stempel, Siegel; Abdruck, Spur",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -64638,20 +67794,40 @@ window.VOCAB_HSK6 = [
       "pos": "名、动",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这本书一共印了五千本。",
+        "pinyin": "Zhè běn shū yígòng yìn le wǔqiān běn.",
+        "german": "Von diesem Buch wurden insgesamt fünftausend Exemplare gedruckt."
+      },
+      {
+        "chinese": "杯子上印着一只小猫。",
+        "pinyin": "Bēizi shàng yìn zhe yì zhī xiǎo māo.",
+        "german": "Auf der Tasse ist ein Kätzchen aufgedruckt."
+      },
+      {
+        "chinese": "戴了一天手表，手腕上压出了一道印。",
+        "pinyin": "Dài le yì tiān shǒubiǎo, shǒuwàn shàng yā chū le yí dào yìn.",
+        "german": "Nachdem ich den ganzen Tag die Uhr getragen hatte, war am Handgelenk ein Abdruck zu sehen."
+      }
+    ],
     "traditional": "印",
     "evidence": {
       "cedict": "印 印 [yin4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als Verb heißt 印 (yìn) „drucken, aufdrucken“: 印书, 印名片 „Visitenkarten drucken“, 印在…上 „auf … gedruckt sein“. Fürs Ausdrucken am Drucker und fürs Kopieren sagt man meist 打印 (dǎyìn) bzw. 复印 (fùyìn). Als Nomen bedeutet es „Stempel, Siegel“ (盖印 „einen Stempel aufdrücken“) und „Abdruck, Spur“; in dieser Bedeutung steckt es auch in 脚印 „Fußabdruck“ und 手印 „Handabdruck“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:婴儿:ying1er2",
     "word": "婴儿",
     "pinyin": "yīng’ér",
-    "meaning": "Säugling, Baby, Neugeborene",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Säugling; Baby",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -64659,7 +67835,23 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "婴儿每天要睡很长时间。",
+        "pinyin": "Yīng'ér měitiān yào shuì hěn cháng shíjiān.",
+        "german": "Babys brauchen jeden Tag sehr viel Schlaf."
+      },
+      {
+        "chinese": "飞机上有个婴儿一直在哭。",
+        "pinyin": "Fēijī shàng yǒu ge yīng'ér yìzhí zài kū.",
+        "german": "Im Flugzeug hat ein Baby die ganze Zeit geweint."
+      },
+      {
+        "chinese": "商场二楼专门卖婴儿用品。",
+        "pinyin": "Shāngchǎng èr lóu zhuānmén mài yīng'ér yòngpǐn.",
+        "german": "Im ersten Stock des Kaufhauses gibt es ausschließlich Babyartikel."
+      }
+    ],
     "traditional": "嬰兒",
     "measureWords": [
       {
@@ -64670,15 +67862,19 @@ window.VOCAB_HSK6 = [
     "evidence": {
       "cedict": "嬰兒 婴儿 [ying1 er2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "婴儿 (yīng'ér) bezeichnet ein Baby etwa im ersten Lebensjahr und klingt sachlich: 婴儿床 „Babybett“, 婴儿车 „Kinderwagen“, 婴儿用品 „Babyartikel“, 婴儿奶粉. Im Alltag sagt man liebevoller 宝宝 (bǎobao) oder 小宝宝; das Neugeborene heißt 新生儿 (xīnshēng'ér). Zählwort ist 个, in Berichten auch 名.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:英雄:ying1xiong2",
     "word": "英雄",
     "pinyin": "yīngxióng",
-    "meaning": "Held; heldenhaft; heroisch",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Held; Heldin",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -64686,7 +67882,23 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他从火里救出了三个孩子，大家都叫他英雄。",
+        "pinyin": "Tā cóng huǒ lǐ jiù chū le sān ge háizi, dàjiā dōu jiào tā yīngxióng.",
+        "german": "Er hat drei Kinder aus dem Feuer gerettet – alle nennen ihn einen Helden."
+      },
+      {
+        "chinese": "在我心里，爸爸永远是我的英雄。",
+        "pinyin": "Zài wǒ xīn lǐ, bàba yǒngyuǎn shì wǒ de yīngxióng.",
+        "german": "Für mich wird Papa immer mein Held sein."
+      },
+      {
+        "chinese": "英雄所见略同，我也是这么想的！",
+        "pinyin": "Yīngxióng suǒ jiàn lüè tóng, wǒ yě shì zhème xiǎng de!",
+        "german": "Große Geister denken gleich – genau das habe ich mir auch gedacht!"
+      }
+    ],
     "traditional": "英雄",
     "measureWords": [
       {
@@ -64697,15 +67909,19 @@ window.VOCAB_HSK6 = [
     "evidence": {
       "cedict": "英雄 英雄 [ying1 xiong2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "英雄 (yīngxióng) ist ein Mensch, der Mut beweist oder Großes leistet: 民族英雄 „Nationalheld“, 战斗英雄, 无名英雄 „unbekannter Held“. Vor einem Nomen steht es meist ohne 的 und bedeutet „heldenhaft“: 英雄人物, 英雄事迹 „Heldentaten“. Bekannte Redensarten sind 英雄所见略同 „große Geister denken gleich“ und 英雄无用武之地 „ein fähiger Mensch ohne Gelegenheit, sein Können zu zeigen“. Zählwort ist 个 oder 位.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:影子:ying3zi5",
     "word": "影子",
     "pinyin": "yǐngzi",
-    "meaning": "Schatten; Schemen; schemenhaftes Bild",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Schatten; Spiegelbild; Spur, Anzeichen",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -64713,7 +67929,23 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "太阳下山的时候，影子变得很长。",
+        "pinyin": "Tàiyáng xiàshān de shíhou, yǐngzi biàn de hěn cháng.",
+        "german": "Wenn die Sonne untergeht, werden die Schatten sehr lang."
+      },
+      {
+        "chinese": "湖面上能看到山的影子。",
+        "pinyin": "Húmiàn shàng néng kàndào shān de yǐngzi.",
+        "german": "Auf dem See spiegeln sich die Berge."
+      },
+      {
+        "chinese": "这孩子身上有他爸爸年轻时的影子。",
+        "pinyin": "Zhè háizi shēnshang yǒu tā bàba niánqīng shí de yǐngzi.",
+        "german": "In dem Jungen erkennt man seinen Vater in jungen Jahren wieder."
+      }
+    ],
     "traditional": "影子",
     "measureWords": [
       {
@@ -64724,13 +67956,19 @@ window.VOCAB_HSK6 = [
     "evidence": {
       "cedict": "影子 影子 [ying3 zi5]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "影子 (yǐngzi) ist der Schatten, den ein Körper wirft, und auch das Spiegelbild im Wasser: 树的影子, 水中的影子. Übertragen bedeutet es „Spur, Anklang“: 在他身上能看到父亲的影子 „in ihm erkennt man den Vater wieder“; 连影子都没有 „keine Spur davon“. Vorsicht: „im Schatten sitzen“ heißt nicht 在影子里, sondern 在树荫下 oder 在阴凉处; 阴影 (yīnyǐng) ist ein dunkler Bereich und übertragen ein „Schatten“ auf der Seele (心理阴影).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:拥挤:yong1ji3",
     "word": "拥挤",
     "pinyin": "yōngjǐ",
-    "meaning": "überfüllt, gedrängt",
+    "meaning": "überfüllt; gedrängt; sich drängen",
     "type": "Adjektiv",
     "level": "HSK6",
     "category": "Verkehr",
@@ -64741,9 +67979,14 @@ window.VOCAB_HSK6 = [
         "german": "In der U-Bahn ist es sehr voll."
       },
       {
-        "chinese": "地铁里非常拥挤。",
-        "pinyin": "Dìtiě lǐ fēicháng yōngjǐ.",
-        "german": "In der U-Bahn ist es sehr überfüllt."
+        "chinese": "上车时请排队，不要拥挤。",
+        "pinyin": "Shàngchē shí qǐng páiduì, búyào yōngjǐ.",
+        "german": "Bitte stellen Sie sich beim Einsteigen an und drängeln Sie nicht."
+      },
+      {
+        "chinese": "早上八点左右，这条路交通特别拥挤。",
+        "pinyin": "Zǎoshang bā diǎn zuǒyòu, zhè tiáo lù jiāotōng tèbié yōngjǐ.",
+        "german": "Gegen acht Uhr morgens ist auf dieser Straße besonders viel Verkehr."
       }
     ],
     "legacyIds": [
@@ -64757,6 +68000,12 @@ window.VOCAB_HSK6 = [
     "traditional": "擁擠",
     "evidence": {
       "cedict": "擁擠 拥挤 [yong1 ji3]"
+    },
+    "notes": "Als Adjektiv heißt 拥挤 (yōngjǐ) „überfüllt, voll“ und beschreibt Orte mit zu vielen Menschen oder Fahrzeugen: 交通拥挤 „dichter Verkehr“, 拥挤的车厢, 人多拥挤. Als Verb bedeutet es „sich drängen, drängeln“, vor allem in Hinweisen und Durchsagen: 请勿拥挤 „bitte nicht drängeln“. Im Gespräch sagt man meist einfach 挤 (jǐ): 车上太挤了.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -64771,7 +68020,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "新的科技企业不断涌现。",
         "pinyin": "Xīn de kējì qǐyè bùduàn yǒngxiàn.",
-        "german": "Neue Technologieunternehmen treten ständig in Erscheinung."
+        "german": "Neue Technologieunternehmen schießen ständig aus dem Boden."
+      },
+      {
+        "chinese": "比赛中涌现出了一批优秀的年轻运动员。",
+        "pinyin": "Bǐsài zhōng yǒngxiàn chū le yì pī yōuxiù de niánqīng yùndòngyuán.",
+        "german": "Bei dem Wettkampf trat eine ganze Reihe hervorragender junger Sportler in Erscheinung."
+      },
+      {
+        "chinese": "抗洪救灾中涌现出许多感人的故事。",
+        "pinyin": "Kànghóng jiùzāi zhōng yǒngxiàn chū xǔduō gǎnrén de gùshi.",
+        "german": "Beim Kampf gegen das Hochwasser gab es viele bewegende Geschichten."
       }
     ],
     "legacyIds": [
@@ -64785,15 +68044,19 @@ window.VOCAB_HSK6 = [
     "traditional": "湧現",
     "evidence": {
       "cedict": "湧現 涌现 [yong3 xian4]"
+    },
+    "notes": "涌现 (yǒngxiàn), aus 涌 „hervorquellen“ und 现 „erscheinen“, beschreibt, dass Menschen oder Dinge in großer Zahl auftauchen – meist positiv: 涌现出一批人才 „eine ganze Reihe von Talenten tritt hervor“, 新技术不断涌现, 涌现出许多感人的事迹. Typisch sind 不断涌现, 大量涌现 und 涌现出. Das Wort ist schriftsprachlich und häufig in Nachrichten; für das Auftauchen einer einzelnen Sache genügt 出现 (chūxiàn).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:勇于:yong3yu2",
     "word": "勇于",
     "pinyin": "yǒngyú",
-    "meaning": "den Mut haben; sich trauen; sich wagen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "den Mut haben zu; sich trauen; nicht davor zurückschrecken",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -64801,20 +68064,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "一个好领导要勇于承担责任。",
+        "pinyin": "Yí ge hǎo lǐngdǎo yào yǒngyú chéngdān zérèn.",
+        "german": "Eine gute Führungskraft muss bereit sein, Verantwortung zu übernehmen."
+      },
+      {
+        "chinese": "他勇于承认自己的错误，这一点让我很佩服。",
+        "pinyin": "Tā yǒngyú chéngrèn zìjǐ de cuòwù, zhè yì diǎn ràng wǒ hěn pèifu.",
+        "german": "Dass er den Mut hat, seine Fehler zuzugeben, bewundere ich sehr."
+      },
+      {
+        "chinese": "年轻人应该勇于尝试新事物。",
+        "pinyin": "Niánqīngrén yīnggāi yǒngyú chángshì xīn shìwù.",
+        "german": "Junge Leute sollten sich trauen, Neues auszuprobieren."
+      }
+    ],
     "traditional": "勇於",
     "evidence": {
       "cedict": "勇於 勇于 [yong3 yu2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "勇于 (yǒngyú) steht vor einem Verb und heißt „den Mut haben, etwas zu tun“: 勇于承认错误 „Fehler offen zugeben“, 勇于承担责任 „Verantwortung übernehmen“, 勇于创新, 勇于面对困难. Es ist gehoben und lobend, typisch für Appelle, Reden und Leitbilder, und steht meist mit positiv bewerteten Handlungen. Im Gespräch sagt man eher 敢 (gǎn) oder 敢于 (gǎnyú).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:用餐:yong4can1",
     "word": "用餐",
     "pinyin": "yòngcān",
-    "meaning": "etw. zu sich nehmen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "essen; speisen; eine Mahlzeit einnehmen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -64822,20 +68105,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "请问您几位用餐？",
+        "pinyin": "Qǐngwèn nín jǐ wèi yòngcān?",
+        "german": "Für wie viele Personen darf es sein?"
+      },
+      {
+        "chinese": "酒店的早餐用餐时间是七点到十点。",
+        "pinyin": "Jiǔdiàn de zǎocān yòngcān shíjiān shì qī diǎn dào shí diǎn.",
+        "german": "Frühstück gibt es im Hotel von sieben bis zehn Uhr."
+      },
+      {
+        "chinese": "飞机上用餐时，请把座椅靠背调直。",
+        "pinyin": "Fēijī shàng yòngcān shí, qǐng bǎ zuòyǐ kàobèi tiáozhí.",
+        "german": "Bitte stellen Sie während des Essens an Bord Ihre Rückenlehne senkrecht."
+      }
+    ],
     "traditional": "用餐",
     "evidence": {
       "cedict": "用餐 用餐 [yong4 can1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "用餐 (yòngcān) ist die höfliche, formelle Entsprechung von 吃饭 (chīfàn) „essen, eine Mahlzeit einnehmen“ – typisch für Restaurants, Hotels, Flugzeuge und Durchsagen: 用餐时间 „Essenszeit“, 用餐区 „Essbereich“, 欢迎来本店用餐. Es steht ohne Objekt; was man isst, drückt man mit 吃 aus. Unter Freunden klingt 用餐 steif, dort sagt man 吃饭.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:用处:yong4chu4",
     "word": "用处",
     "pinyin": "yòngchù",
-    "meaning": "Brauchbarkeit, Nützlichkeit",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Nutzen; Zweck; Verwendung",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -64843,7 +68146,23 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这个工具有什么用处？",
+        "pinyin": "Zhège gōngjù yǒu shénme yòngchù?",
+        "german": "Wofür ist dieses Werkzeug gut?"
+      },
+      {
+        "chinese": "旧报纸的用处可多了，可以包东西，也可以擦玻璃。",
+        "pinyin": "Jiù bàozhǐ de yòngchù kě duō le, kěyǐ bāo dōngxi, yě kěyǐ cā bōli.",
+        "german": "Alte Zeitungen kann man für vieles gebrauchen – zum Einwickeln oder auch zum Fensterputzen."
+      },
+      {
+        "chinese": "学一门外语，将来一定会有用处的。",
+        "pinyin": "Xué yì mén wàiyǔ, jiānglái yídìng huì yǒu yòngchù de.",
+        "german": "Eine Fremdsprache zu lernen wird dir später bestimmt nützen."
+      }
+    ],
     "traditional": "用處",
     "measureWords": [
       {
@@ -64854,15 +68173,19 @@ window.VOCAB_HSK6 = [
     "evidence": {
       "cedict": "用處 用处 [yong4 chu5]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "用处 (yòngchù, umgangssprachlich oft yòngchu) bezeichnet den Nutzen oder Verwendungszweck einer Sache: 有用处 „nützlich sein“, 没什么用处 „zu nichts nütze“, 用处很大, 用处不大. Die typische Frage lautet 这个有什么用处？ „Wozu ist das gut?“. 好处 (hǎochu) ist dagegen der Vorteil für jemanden; im Gespräch genügt oft 有用 / 没用.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:用功:yong4gong1",
     "word": "用功",
     "pinyin": "yònggōng",
-    "meaning": "arbeitsam, emsig, fleißig, lernbegierig",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "fleißig (lernen); eifrig; sich anstrengen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -64870,20 +68193,40 @@ window.VOCAB_HSK6 = [
       "pos": "动、形",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "她学习非常用功，每天晚上都看书到十一点。",
+        "pinyin": "Tā xuéxí fēicháng yònggōng, měitiān wǎnshang dōu kàn shū dào shíyī diǎn.",
+        "german": "Sie lernt sehr fleißig und sitzt jeden Abend bis elf über den Büchern."
+      },
+      {
+        "chinese": "快考试了，大家都在图书馆里用功。",
+        "pinyin": "Kuài kǎoshì le, dàjiā dōu zài túshūguǎn lǐ yònggōng.",
+        "german": "Die Prüfungen stehen bevor, alle büffeln in der Bibliothek."
+      },
+      {
+        "chinese": "你要是再用功一点，肯定能考上。",
+        "pinyin": "Nǐ yàoshi zài yònggōng yìdiǎn, kěndìng néng kǎoshàng.",
+        "german": "Wenn du noch etwas fleißiger lernst, schaffst du die Aufnahmeprüfung bestimmt."
+      }
+    ],
     "traditional": "用功",
     "evidence": {
       "cedict": "用功 用功 [yong4 gong1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "用功 (yònggōng) bezieht sich vor allem aufs Lernen: 学习很用功 „sehr fleißig lernen“, 用功读书. Als Verb heißt es „fleißig lernen, büffeln“: 他正在图书馆用功. 努力 (nǔlì) passt dagegen für jede Art von Anstrengung, auch im Beruf; 勤奋 (qínfèn) „fleißig“ ist schriftlicher. Für fleißiges Arbeiten sagt man daher eher 工作很努力 als 工作很用功.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:用人:yong4ren2",
     "word": "用人",
     "pinyin": "yòngrén",
-    "meaning": "Diener, Dienstmädchen, Hausangestellte",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Personal auswählen und einsetzen; Leute einstellen; Leute brauchen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -64891,20 +68234,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这家公司用人很看重能力。",
+        "pinyin": "Zhè jiā gōngsī yòngrén hěn kànzhòng nénglì.",
+        "german": "Dieses Unternehmen legt bei der Personalauswahl großen Wert auf Kompetenz."
+      },
+      {
+        "chinese": "用人单位越来越重视实际工作经验。",
+        "pinyin": "Yòngrén dānwèi yuèláiyuè zhòngshì shíjì gōngzuò jīngyàn.",
+        "german": "Arbeitgeber legen immer mehr Wert auf praktische Berufserfahrung."
+      },
+      {
+        "chinese": "年底店里正是用人的时候，老板又招了两个人。",
+        "pinyin": "Niándǐ diàn lǐ zhèng shì yòngrén de shíhou, lǎobǎn yòu zhāo le liǎng ge rén.",
+        "german": "Zum Jahresende braucht der Laden dringend Leute, deshalb hat der Chef noch zwei Mitarbeiter eingestellt."
+      }
+    ],
     "traditional": "用人",
     "evidence": {
       "cedict": "用人 用人 [yong4 ren2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als Verb bedeutet 用人 (yòngrén) „Menschen einsetzen, Personal auswählen“: 用人制度 „Personalpolitik“, 用人单位 „Arbeitgeber“ (Behördensprache), 用人不疑，疑人不用 „wem man eine Aufgabe gibt, dem vertraut man; wem man misstraut, den stellt man nicht ein“. Es kann auch „Leute brauchen“ heißen: 正是用人的时候 „gerade jetzt braucht man dringend Leute“. Das Nomen „Diener, Hausangestellte“ wird meist yòngren gelesen, ist veraltet und heute durch 保姆 (bǎomǔ) ersetzt.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:用心:yong4xin1",
     "word": "用心",
     "pinyin": "yòngxīn",
-    "meaning": "aufmerksam",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "aufmerksam; mit Hingabe; gewissenhaft",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -64912,12 +68275,34 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这份礼物虽然不贵，但看得出来她很用心。",
+        "pinyin": "Zhè fèn lǐwù suīrán bú guì, dàn kàn de chūlái tā hěn yòngxīn.",
+        "german": "Das Geschenk war zwar nicht teuer, aber man merkt, dass sie sich viel Mühe gegeben hat."
+      },
+      {
+        "chinese": "上课的时候要用心听老师讲。",
+        "pinyin": "Shàngkè de shíhou yào yòngxīn tīng lǎoshī jiǎng.",
+        "german": "Im Unterricht sollte man dem Lehrer aufmerksam zuhören."
+      },
+      {
+        "chinese": "他做菜特别用心，每道菜都很好吃。",
+        "pinyin": "Tā zuò cài tèbié yòngxīn, měi dào cài dōu hěn hǎochī.",
+        "german": "Er kocht mit viel Hingabe – jedes Gericht schmeckt hervorragend."
+      }
+    ],
     "traditional": "用心",
     "evidence": {
       "cedict": "用心 用心 [yong4 xin1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "用心 (yòngxīn) beschreibt, dass jemand mit voller Aufmerksamkeit und Hingabe bei der Sache ist: 做事很用心 „sehr gewissenhaft arbeiten“. Vor Verben steht es meist ohne 地: 用心听, 用心学习. Daneben gibt es das Nomen 用心 „Absicht“, etwa in 别有用心 „Hintergedanken haben“ und 用心良苦 „es gut meinen und sich viel Mühe geben“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:优化:you1hua4",
@@ -64932,6 +68317,16 @@ window.VOCAB_HSK6 = [
         "chinese": "我们需要优化工作流程。",
         "pinyin": "Wǒmen xūyào yōuhuà gōngzuò liúchéng.",
         "german": "Wir müssen den Arbeitsablauf optimieren."
+      },
+      {
+        "chinese": "这次更新优化了手机的运行速度。",
+        "pinyin": "Zhè cì gēngxīn yōuhuà le shǒujī de yùnxíng sùdù.",
+        "german": "Mit diesem Update wurde die Geschwindigkeit des Handys optimiert."
+      },
+      {
+        "chinese": "听说他被公司优化了，现在正在找工作。",
+        "pinyin": "Tīngshuō tā bèi gōngsī yōuhuà le, xiànzài zhèngzài zhǎo gōngzuò.",
+        "german": "Er ist angeblich bei seiner Firma wegrationalisiert worden und sucht jetzt einen Job."
       }
     ],
     "legacyIds": [
@@ -64945,15 +68340,19 @@ window.VOCAB_HSK6 = [
     "traditional": "優化",
     "evidence": {
       "cedict": "優化 优化 [you1 hua4]"
+    },
+    "notes": "优化 (yōuhuà) „optimieren“ ist ein Fachwort aus Wirtschaft, Technik und Verwaltung: 优化结构, 优化流程 „Abläufe optimieren“, 优化设计, 系统优化; auch 进行优化 „eine Optimierung vornehmen“. 改善 (gǎishàn) verbessert eher einen Zustand (改善条件), 改进 (gǎijìn) eine Methode oder Arbeit; 优化 betont die systematische Feinabstimmung. In Firmen wird es auch beschönigend gebraucht: 被优化了 „wegrationalisiert, entlassen worden“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:优先:you1xian1",
     "word": "优先",
     "pinyin": "yōuxiān",
-    "meaning": "bevorzugt; Vorrecht, Priorität",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Vorrang haben; bevorzugt werden; vorrangig",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -64961,20 +68360,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "有工作经验者优先。",
+        "pinyin": "Yǒu gōngzuò jīngyàn zhě yōuxiān.",
+        "german": "Bewerber mit Berufserfahrung werden bevorzugt."
+      },
+      {
+        "chinese": "请让老人和孩子优先上车。",
+        "pinyin": "Qǐng ràng lǎorén hé háizi yōuxiān shàngchē.",
+        "german": "Bitte lassen Sie ältere Menschen und Kinder zuerst einsteigen."
+      },
+      {
+        "chinese": "我们应该优先解决最紧急的问题。",
+        "pinyin": "Wǒmen yīnggāi yōuxiān jiějué zuì jǐnjí de wèntí.",
+        "german": "Wir sollten zuerst die dringendsten Probleme lösen."
+      }
+    ],
     "traditional": "優先",
     "evidence": {
       "cedict": "優先 优先 [you1 xian1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "优先 (yōuxiān) „Vorrang haben, bevorzugt werden“ steht meist vor einem Verb: 优先考虑 „vorrangig berücksichtigen“, 优先发展, 优先解决. Nachgestellt erscheint es in knappen Formeln: 老人优先 „Vorrang für Senioren“, 女士优先 „Ladies first“ und in Stellenanzeigen 有经验者优先 „Bewerber mit Erfahrung werden bevorzugt“. Das Nomen „Priorität“ heißt 优先权 oder 优先级.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:优异:you1yi4",
     "word": "优异",
     "pinyin": "yōuyì",
-    "meaning": "ausgezeichnet, sehr gut, hervorragend; summa cum laude (lat.); von hervorragender Qualität",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "hervorragend; ausgezeichnet; herausragend",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -64982,20 +68401,40 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "她以优异的成绩考上了北京大学。",
+        "pinyin": "Tā yǐ yōuyì de chéngjì kǎoshàng le Běijīng Dàxué.",
+        "german": "Sie wurde mit hervorragenden Noten an der Peking-Universität aufgenommen."
+      },
+      {
+        "chinese": "这款新车在测试中表现优异。",
+        "pinyin": "Zhè kuǎn xīn chē zài cèshì zhōng biǎoxiàn yōuyì.",
+        "german": "Das neue Auto schnitt im Test hervorragend ab."
+      },
+      {
+        "chinese": "这种材料性能优异，不怕高温。",
+        "pinyin": "Zhè zhǒng cáiliào xìngnéng yōuyì, bú pà gāowēn.",
+        "german": "Dieses Material hat hervorragende Eigenschaften und hält hohen Temperaturen stand."
+      }
+    ],
     "traditional": "優異",
     "evidence": {
       "cedict": "優異 优异 [you1 yi4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "优异 (yōuyì) „hervorragend, ausgezeichnet“ ist schriftsprachlich und lobend. Typische Verbindungen sind 成绩优异 / 优异的成绩 „hervorragende Leistungen, Noten“, 表现优异 „hervorragend abschneiden“ und 性能优异 „ausgezeichnete Eigenschaften (eines Produkts)“. 优秀 (yōuxiù) beschreibt häufiger Menschen (优秀的学生), 优异 eher Leistungen und Ergebnisse; im Gespräch sagt man einfach 很好.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:由来:you2lai2",
     "word": "由来",
     "pinyin": "yóulái",
-    "meaning": "Ursprung, Anfang, Ausgangspunkt",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Ursprung; Herkunft; Entstehungsgeschichte",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -65003,20 +68442,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 209
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "你知道端午节的由来吗？",
+        "pinyin": "Nǐ zhīdào Duānwǔjié de yóulái ma?",
+        "german": "Weißt du, wie das Drachenbootfest entstanden ist?"
+      },
+      {
+        "chinese": "这个地名的由来有一个有趣的故事。",
+        "pinyin": "Zhège dìmíng de yóulái yǒu yí ge yǒuqù de gùshi.",
+        "german": "Hinter diesem Ortsnamen steckt eine interessante Geschichte."
+      },
+      {
+        "chinese": "两国之间的矛盾由来已久。",
+        "pinyin": "Liǎng guó zhījiān de máodùn yóulái yǐ jiǔ.",
+        "german": "Die Spannungen zwischen den beiden Ländern bestehen schon seit Langem."
+      }
+    ],
     "traditional": "由來",
     "evidence": {
       "cedict": "由來 由来 [you2 lai2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "由来 (yóulái) ist die Herkunft oder Entstehungsgeschichte von etwas – eines Namens, Festes oder Brauchs: 春节的由来, 名字的由来, 这个说法的由来. 来源 (láiyuán) ist dagegen eher die „Quelle“ (收入来源 „Einkommensquelle“, 消息来源), während 由来 erzählt, wie etwas entstanden ist. Feste Wendung: 由来已久 „seit Langem bestehen“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:游人:you2ren2",
     "word": "游人",
     "pinyin": "yóurén",
-    "meaning": "Tourist, Besucher",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Besucher; Ausflügler; Tourist",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -65024,20 +68483,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "一到周末，公园里游人特别多。",
+        "pinyin": "Yí dào zhōumò, gōngyuán lǐ yóurén tèbié duō.",
+        "german": "Am Wochenende sind im Park immer besonders viele Besucher."
+      },
+      {
+        "chinese": "下雨的时候，景区里游人很少。",
+        "pinyin": "Xià yǔ de shíhou, jǐngqū lǐ yóurén hěn shǎo.",
+        "german": "Wenn es regnet, sind kaum Besucher im Ausflugsgebiet."
+      },
+      {
+        "chinese": "西湖边游人如织，非常热闹。",
+        "pinyin": "Xīhú biān yóurén rú zhī, fēicháng rènao.",
+        "german": "Am Westsee drängen sich die Besucher, es herrscht reges Treiben."
+      }
+    ],
     "traditional": "遊人",
     "evidence": {
       "cedict": "遊人 游人 [you2 ren2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "游人 (yóurén) sind Menschen, die einen Park, eine Sehenswürdigkeit oder Landschaft besuchen: 游人很多, 游人如织 „Besucher in Scharen“, 游人止步 „kein Zutritt für Besucher“. Es klingt etwas literarischer als 游客 (yóukè), das allgemein für Touristen und in Statistiken steht (游客人数). Ein Zählwort wird selten gebraucht, da meist von Besuchern als Menge die Rede ist.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:犹如:you2ru2",
     "word": "犹如",
     "pinyin": "yóurú",
-    "meaning": "so wie, gleich, gleichsam; wie",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "wie; gleichsam; gleichen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -65045,26 +68524,58 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "夜晚的城市灯火通明，犹如白昼。",
+        "pinyin": "Yèwǎn de chéngshì dēnghuǒ tōngmíng, yóurú báizhòu.",
+        "german": "Nachts ist die Stadt hell erleuchtet, als wäre es Tag."
+      },
+      {
+        "chinese": "这里的风景犹如一幅美丽的画。",
+        "pinyin": "Zhèlǐ de fēngjǐng yóurú yì fú měilì de huà.",
+        "german": "Die Landschaft hier ist wie ein schönes Gemälde."
+      },
+      {
+        "chinese": "这个消息对他来说犹如晴天霹雳。",
+        "pinyin": "Zhège xiāoxi duì tā lái shuō yóurú qíngtiān pīlì.",
+        "german": "Die Nachricht traf ihn wie ein Blitz aus heiterem Himmel."
+      }
+    ],
     "traditional": "猶如",
     "evidence": {
       "cedict": "猶如 犹如 [you2 ru2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "犹如 (yóurú) „wie, gleichsam“ ist ein schriftsprachliches Vergleichswort, typisch in Beschreibungen und Literatur: 犹如白昼 „hell wie am Tag“, 犹如一幅画 „wie ein Gemälde“. Es steht direkt vor dem Vergleichsobjekt; ein abschließendes 一般 ist möglich, aber nicht nötig. Umgangssprachlich sagt man 像…一样, gehoben auch 如同 (rútóng).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:有机:you3ji1",
     "word": "有机",
     "pinyin": "yǒujī",
-    "meaning": "organisch",
+    "meaning": "organisch; Bio-; organisch verbunden",
     "type": "Adjektiv",
     "level": "HSK6",
     "category": "Wissenschaft",
     "examples": [
       {
         "chinese": "有机化学是化学的一个分支。",
-        "pinyin": "Yǒujī huàxué shì huàxué de yī gè fēnzhī.",
+        "pinyin": "Yǒujī huàxué shì huàxué de yí ge fēnzhī.",
         "german": "Organische Chemie ist ein Zweig der Chemie."
+      },
+      {
+        "chinese": "这家超市的有机蔬菜比普通蔬菜贵不少。",
+        "pinyin": "Zhè jiā chāoshì de yǒujī shūcài bǐ pǔtōng shūcài guì bù shǎo.",
+        "german": "Das Bio-Gemüse in diesem Supermarkt ist deutlich teurer als normales Gemüse."
+      },
+      {
+        "chinese": "理论和实践应该有机地结合起来。",
+        "pinyin": "Lǐlùn hé shíjiàn yīnggāi yǒujī de jiéhé qǐlai.",
+        "german": "Theorie und Praxis sollten organisch miteinander verbunden werden."
       }
     ],
     "legacyIds": [
@@ -65078,15 +68589,19 @@ window.VOCAB_HSK6 = [
     "traditional": "有機",
     "evidence": {
       "cedict": "有機 有机 [you3 ji1]"
+    },
+    "notes": "有机 (yǒujī) steht fast nur attributiv vor Nomen: 有机化学 (yǒujī huàxué) „organische Chemie“, 有机物 „organische Stoffe“. Im Alltag ist es das Wort für „Bio-“: 有机食品 „Bio-Lebensmittel“, 有机蔬菜 „Bio-Gemüse“, 有机农业 „ökologische Landwirtschaft“. Übertragen bedeutet 有机地结合 bzw. 有机的整体 „organisch verbunden“ bzw. „ein zusammenhängendes Ganzes“. Gegenwort ist 无机 (wújī) „anorganisch“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:有劲:you3jin4",
     "word": "有劲",
     "pinyin": "yǒujìn",
-    "meaning": "powerful",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Kraft haben; kräftig; energisch; spannend; interessant",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -65094,20 +68609,40 @@ window.VOCAB_HSK6 = [
       "pos": "动、形",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他虽然六十多岁了，干起活来还是很有劲。",
+        "pinyin": "Tā suīrán liùshí duō suì le, gàn qǐ huó lai háishi hěn yǒujìn.",
+        "german": "Obwohl er über sechzig ist, packt er bei der Arbeit noch kräftig an."
+      },
+      {
+        "chinese": "吃完饭休息了一会儿，我觉得身上又有劲了。",
+        "pinyin": "Chī wán fàn xiūxi le yíhuìr, wǒ juéde shēnshang yòu yǒujìn le.",
+        "german": "Nach dem Essen und einer kurzen Pause fühle ich mich wieder bei Kräften."
+      },
+      {
+        "chinese": "这场比赛越看越有劲。",
+        "pinyin": "Zhè chǎng bǐsài yuè kàn yuè yǒujìn.",
+        "german": "Je länger man dieses Spiel anschaut, desto spannender wird es."
+      }
+    ],
     "traditional": "有勁",
     "evidence": {
       "cedict": "有勁 有劲 [you3 jin4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "有劲 (yǒujìn), umgangssprachlich oft 有劲儿, heißt wörtlich „Kraft haben“: 他很有劲 „er ist kräftig“, 说话有劲 „mit Nachdruck sprechen“. Umgangssprachlich bedeutet es auch „spannend, macht Spaß“: 这场比赛真有劲. Noch häufiger hört man das Gegenteil 没劲 (méijìn) „kraftlos; langweilig“: 这个电影真没劲. Für reine Körperkraft sagt man auch 有力气.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:有序:you3xu4",
     "word": "有序",
     "pinyin": "yǒuxù",
-    "meaning": "ordentlich; regelmäßig",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "geordnet; in geordneter Weise",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -65115,18 +68650,40 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "乘客们排着队有序地上车。",
+        "pinyin": "Chéngkèmen pái zhe duì yǒuxù de shàng chē.",
+        "german": "Die Fahrgäste stellten sich an und stiegen geordnet ein."
+      },
+      {
+        "chinese": "各项工作正在有序进行。",
+        "pinyin": "Gè xiàng gōngzuò zhèngzài yǒuxù jìnxíng.",
+        "german": "Sämtliche Arbeiten gehen geordnet voran."
+      },
+      {
+        "chinese": "市场需要一个公平有序的竞争环境。",
+        "pinyin": "Shìchǎng xūyào yí ge gōngpíng yǒuxù de jìngzhēng huánjìng.",
+        "german": "Der Markt braucht ein faires und geordnetes Wettbewerbsumfeld."
+      }
+    ],
     "traditional": "有序",
     "evidence": {
       "cedict": "有序 有序 [you3 xu4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "有序 (yǒuxù) ist eher schriftsprachlich und beschreibt Abläufe, die geordnet und nach Plan verlaufen: 有序地进行 „geordnet ablaufen“, 安全有序 „sicher und geordnet“, 井然有序 (jǐngrán yǒuxù) „in bester Ordnung“. Gegenwort ist 无序 (wúxù) „ungeordnet, chaotisch“. Für einen ordentlichen Menschen oder ein aufgeräumtes Zimmer sagt man eher 有条理 bzw. 整齐.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:于:yu2",
     "word": "于",
     "pinyin": "yú",
-    "meaning": "in, an, bei (literarisch)",
+    "meaning": "in; an; bei; zu; aus; als (beim Vergleich)",
     "type": "Präposition",
     "level": "HSK6",
     "category": "Kommunikation",
@@ -65135,6 +68692,16 @@ window.VOCAB_HSK6 = [
         "chinese": "他生于北京。",
         "pinyin": "Tā shēng yú Běijīng.",
         "german": "Er wurde in Peking geboren."
+      },
+      {
+        "chinese": "这个城市位于长江南岸。",
+        "pinyin": "Zhège chéngshì wèiyú Cháng Jiāng nán'àn.",
+        "german": "Diese Stadt liegt am Südufer des Jangtse."
+      },
+      {
+        "chinese": "今年的收入略高于去年。",
+        "pinyin": "Jīnnián de shōurù lüè gāo yú qùnián.",
+        "german": "Die Einnahmen in diesem Jahr liegen leicht über denen des Vorjahres."
       }
     ],
     "legacyIds": [
@@ -65148,15 +68715,19 @@ window.VOCAB_HSK6 = [
     "traditional": "於",
     "evidence": {
       "cedict": "於 于 [yu2]"
+    },
+    "notes": "于 (yú) ist eine schriftsprachliche Präposition und steht anders als 在 meist hinter dem Verb oder Adjektiv: 生于 „geboren in“, 位于 (wèiyú) „liegen in“, 有利于 (yǒulìyú) „förderlich für“, 高于 „höher als“. In der gesprochenen Sprache ersetzt man es meist durch 在, 从, 对 oder 比: 他生于北京 entspricht 他在北京出生. Viele feste Verbindungen wie 关于, 对于, 由于 und 终于 enthalten es.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:余额:yu2e2",
     "word": "余额",
     "pinyin": "yú’é",
-    "meaning": "Differenzbetrag",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Restbetrag; Guthaben; Kontostand",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -65164,12 +68735,34 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "付款失败，系统显示余额不足。",
+        "pinyin": "Fùkuǎn shībài, xìtǒng xiǎnshì yú'é bùzú.",
+        "german": "Die Zahlung ist fehlgeschlagen, laut System reicht das Guthaben nicht aus."
+      },
+      {
+        "chinese": "我每个月月底都会查一下银行卡的余额。",
+        "pinyin": "Wǒ měi ge yuè yuèdǐ dōu huì chá yíxià yínhángkǎ de yú'é.",
+        "german": "Am Monatsende schaue ich jedes Mal nach, wie viel Geld noch auf meiner Bankkarte ist."
+      },
+      {
+        "chinese": "公交卡里的余额只剩五块钱了。",
+        "pinyin": "Gōngjiāokǎ lǐ de yú'é zhǐ shèng wǔ kuài qián le.",
+        "german": "Auf der Buskarte sind nur noch fünf Yuan Guthaben."
+      }
+    ],
     "traditional": "餘額",
     "evidence": {
       "cedict": "餘額 余额 [yu2 e2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "余额 (yú'é) ist der Betrag, der auf einem Konto oder einer Karte übrig ist: 账户余额 „Kontostand“, 查余额 „das Guthaben prüfen“, 话费余额 „Handyguthaben“. Sehr häufig ist die Meldung 余额不足 „Guthaben nicht ausreichend“ beim Bezahlen. Eine „Differenz“ zwischen zwei Beträgen heißt dagegen 差额 (chā'é).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:与其:yu3qi2",
@@ -65186,9 +68779,14 @@ window.VOCAB_HSK6 = [
         "german": "Anstatt zu warten, ist es besser zu handeln."
       },
       {
-        "chinese": "与其抱怨, 不如行动。",
-        "pinyin": "Yǔqí bàoyuàn, bùrú xíngdòng.",
-        "german": "Anstatt sich zu beschweren, sollte man lieber handeln."
+        "chinese": "与其在家里生气，不如出去走走。",
+        "pinyin": "Yǔqí zài jiā li shēngqì, bùrú chūqu zǒuzou.",
+        "german": "Statt dich zu Hause zu ärgern, geh lieber ein bisschen raus."
+      },
+      {
+        "chinese": "与其说他是我的老师，不如说他是我的朋友。",
+        "pinyin": "Yǔqí shuō tā shì wǒ de lǎoshī, bùrú shuō tā shì wǒ de péngyou.",
+        "german": "Er ist weniger mein Lehrer als vielmehr mein Freund."
       }
     ],
     "legacyIds": [
@@ -65202,15 +68800,19 @@ window.VOCAB_HSK6 = [
     "traditional": "與其",
     "evidence": {
       "cedict": "與其 与其 [yu3 qi2]"
+    },
+    "notes": "与其 (yǔqí) steht fast immer im Rahmen 与其 A，不如 B „statt A lieber B“: Nach 与其 steht die Möglichkeit, die man verwirft, nach 不如 (bùrú) die bevorzugte. Deutsche Lernende vertauschen gern die Reihenfolge. 与其说 A，不如说 B bedeutet „eher B als A“. Das Wort ist leicht gehoben, kommt aber auch im Gespräch vor; ähnlich ist 宁可 A，也不 B „lieber A als B“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:羽绒服:yu3rong2fu2",
     "word": "羽绒服",
     "pinyin": "yǔróngfú",
-    "meaning": "Daunenjacke",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Daunenjacke; Daunenmantel",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -65218,20 +68820,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "北京的冬天很冷，出门一定要穿羽绒服。",
+        "pinyin": "Běijīng de dōngtiān hěn lěng, chūmén yídìng yào chuān yǔróngfú.",
+        "german": "Im Pekinger Winter ist es sehr kalt, wer rausgeht, braucht unbedingt eine Daunenjacke."
+      },
+      {
+        "chinese": "这件羽绒服又轻又暖和。",
+        "pinyin": "Zhè jiàn yǔróngfú yòu qīng yòu nuǎnhuo.",
+        "german": "Diese Daunenjacke ist leicht und trotzdem warm."
+      },
+      {
+        "chinese": "羽绒服不能随便放进洗衣机里洗。",
+        "pinyin": "Yǔróngfú bù néng suíbiàn fàng jìn xǐyījī li xǐ.",
+        "german": "Daunenjacken sollte man nicht einfach so in der Waschmaschine waschen."
+      }
+    ],
     "traditional": "羽絨服",
     "evidence": {
       "cedict": "羽絨服 羽绒服 [yu3 rong2 fu2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "羽绒服 (yǔróngfú) setzt sich aus 羽绒 (yǔróng) „Daunen“ und 服 „Kleidung“ zusammen und bezeichnet kurze Daunenjacken ebenso wie lange Daunenmäntel (长款羽绒服). Zählwort ist 件 (jiàn), das Verb 穿: 穿羽绒服. In Nordchina gehört sie im Winter zur Grundausstattung.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:预定:yu4ding4",
     "word": "预定",
     "pinyin": "yùdìng",
-    "meaning": "Bestellung, Vorbestellung; Reservierung; festlegen, festsetzen, vereinbaren",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "im Voraus festlegen; vorsehen; reservieren",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -65239,20 +68861,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "会议将按预定的时间开始。",
+        "pinyin": "Huìyì jiāng àn yùdìng de shíjiān kāishǐ.",
+        "german": "Die Sitzung beginnt zur vorgesehenen Zeit."
+      },
+      {
+        "chinese": "飞机预定下午三点到达上海。",
+        "pinyin": "Fēijī yùdìng xiàwǔ sān diǎn dàodá Shànghǎi.",
+        "german": "Das Flugzeug soll planmäßig um drei Uhr nachmittags in Shanghai landen."
+      },
+      {
+        "chinese": "我们提前完成了预定的目标。",
+        "pinyin": "Wǒmen tíqián wánchéng le yùdìng de mùbiāo.",
+        "german": "Wir haben das gesteckte Ziel vorzeitig erreicht."
+      }
+    ],
     "traditional": "預定",
     "evidence": {
       "cedict": "預定 预定 [yu4 ding4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "预定 (yùdìng) bedeutet nach dem Wörterbuch „im Voraus festlegen“: 预定的时间 „die vorgesehene Zeit“, 按预定计划 „planmäßig“, 预定目标 „gestecktes Ziel“. Für das Buchen von Zimmern, Tickets oder Tischen gilt 预订 (yùdìng) „vorbestellen“ als die korrekte Schreibung; im Alltag liest man aber auch oft 预定房间. Beide Wörter werden gleich ausgesprochen.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:预料:yu4liao4",
     "word": "预料",
     "pinyin": "yùliào",
-    "meaning": "Aussicht; Voraussicht; Vorsorge",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "voraussehen; erwarten; Erwartung",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -65260,12 +68902,34 @@ window.VOCAB_HSK6 = [
       "pos": "动、名",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "谁也没有预料到会下这么大的雨。",
+        "pinyin": "Shéi yě méiyǒu yùliào dào huì xià zhème dà de yǔ.",
+        "german": "Niemand hatte damit gerechnet, dass es so stark regnen würde."
+      },
+      {
+        "chinese": "比赛的结果完全出乎我们的预料。",
+        "pinyin": "Bǐsài de jiéguǒ wánquán chūhū wǒmen de yùliào.",
+        "german": "Der Ausgang des Spiels kam für uns völlig unerwartet."
+      },
+      {
+        "chinese": "正如专家所预料的，房价开始下降了。",
+        "pinyin": "Zhèng rú zhuānjiā suǒ yùliào de, fángjià kāishǐ xiàjiàng le.",
+        "german": "Wie von den Experten vorhergesagt, sind die Immobilienpreise gesunken."
+      }
+    ],
     "traditional": "預料",
     "evidence": {
       "cedict": "預料 预料 [yu4 liao4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "预料 (yùliào) heißt „etwas vorhersehen, mit etwas rechnen“ und steht oft verneint: 没有预料到 „nicht damit gerechnet“, 难以预料 „schwer vorherzusehen“. Als Nomen erscheint es in 出乎预料 (chūhū yùliào) „unerwartet“ und 正如所预料的 „wie erwartet“. 预期 (yùqī) ist formeller und bezieht sich meist auf Ziele und Ergebnisse, 预计 (yùjì) auf geschätzte Zahlen und Termine.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:预期:yu4qi1",
@@ -65280,6 +68944,16 @@ window.VOCAB_HSK6 = [
         "chinese": "结果超出了预期。",
         "pinyin": "Jiéguǒ chāochū le yùqī.",
         "german": "Das Ergebnis übertraf die Erwartungen."
+      },
+      {
+        "chinese": "这个项目没有达到预期的效果。",
+        "pinyin": "Zhège xiàngmù méiyǒu dádào yùqī de xiàoguǒ.",
+        "german": "Dieses Projekt hat nicht die erhoffte Wirkung erzielt."
+      },
+      {
+        "chinese": "专家预期明年经济会继续增长。",
+        "pinyin": "Zhuānjiā yùqī míngnián jīngjì huì jìxù zēngzhǎng.",
+        "german": "Experten erwarten, dass die Wirtschaft im nächsten Jahr weiter wächst."
       }
     ],
     "legacyIds": [
@@ -65293,6 +68967,12 @@ window.VOCAB_HSK6 = [
     "traditional": "預期",
     "evidence": {
       "cedict": "預期 预期 [yu4 qi1]"
+    },
+    "notes": "预期 (yùqī) ist formell und typisch für Wirtschaft, Planung und Berichte. Als Verb heißt es „erwarten“, sehr oft wird es aber wie ein Nomen gebraucht: 达到预期 „die Erwartungen erfüllen“, 超出预期 „die Erwartungen übertreffen“, 低于预期 „hinter den Erwartungen zurückbleiben“, 预期寿命 „Lebenserwartung“. 预料 (yùliào) passt eher zu unerwarteten Ereignissen (没预料到), 期待 (qīdài) drückt freudige, gefühlsbetonte Erwartung aus.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -65306,8 +68986,18 @@ window.VOCAB_HSK6 = [
     "examples": [
       {
         "chinese": "浴室里有热水。",
-        "pinyin": "Yùshì lǐ yǒu rè shuǐ.",
-        "german": "Im Badezimmer gibt es heisses Wasser."
+        "pinyin": "Yùshì lǐ yǒu rèshuǐ.",
+        "german": "Im Badezimmer gibt es warmes Wasser."
+      },
+      {
+        "chinese": "学校的公共浴室晚上十一点关门。",
+        "pinyin": "Xuéxiào de gōnggòng yùshì wǎnshang shíyī diǎn guānmén.",
+        "german": "Die Gemeinschaftsduschen der Schule schließen um elf Uhr abends."
+      },
+      {
+        "chinese": "这套房子有两个卧室和一个带浴缸的浴室。",
+        "pinyin": "Zhè tào fángzi yǒu liǎng ge wòshì hé yí ge dài yùgāng de yùshì.",
+        "german": "Die Wohnung hat zwei Schlafzimmer und ein Bad mit Badewanne."
       }
     ],
     "legacyIds": [
@@ -65321,15 +69011,19 @@ window.VOCAB_HSK6 = [
     "traditional": "浴室",
     "evidence": {
       "cedict": "浴室 浴室 [yu4 shi4]"
+    },
+    "notes": "浴室 (yùshì) ist der Raum zum Baden oder Duschen, in der Wohnung ebenso wie in Wohnheimen oder Badehäusern (公共浴室 „Gemeinschaftsduschen“). Für das Bad mit Toilette in der Wohnung sagt man im Alltag häufiger 卫生间 (wèishēngjiān); 洗手间 (xǐshǒujiān) ist die höfliche Bezeichnung für die Toilette. Zählwort ist 间 (jiān) oder 个.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:欲望:yu4wang4",
     "word": "欲望",
     "pinyin": "yùwàng",
-    "meaning": "Wunsch, Begehren, Verlangen, Begierde",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Verlangen; Begierde; Drang",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -65337,20 +69031,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "人的欲望是无穷的。",
+        "pinyin": "Rén de yùwàng shì wúqióng de.",
+        "german": "Die Begierden des Menschen sind grenzenlos."
+      },
+      {
+        "chinese": "这个广告成功地激起了顾客的购买欲望。",
+        "pinyin": "Zhège guǎnggào chénggōng de jīqǐ le gùkè de gòumǎi yùwàng.",
+        "german": "Diese Werbung hat bei den Kunden erfolgreich die Kauflust geweckt."
+      },
+      {
+        "chinese": "孩子对世界充满了好奇和求知的欲望。",
+        "pinyin": "Háizi duì shìjiè chōngmǎn le hàoqí hé qiúzhī de yùwàng.",
+        "german": "Kinder stecken voller Neugier und Wissensdurst gegenüber der Welt."
+      }
+    ],
     "traditional": "慾望",
     "evidence": {
       "cedict": "慾望 欲望 [yu4 wang4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "欲望 (yùwàng) ist ein starkes Verlangen und klingt oft negativ im Sinne von „Gier“: 满足欲望 „seine Begierden befriedigen“, 控制欲望 „sein Verlangen zügeln“. Neutral ist es in 购买欲望 „Kauflust“ und 求知欲望 „Wissensdurst“. Einen Wunsch im Sinne von Hoffnung, etwa zum Geburtstag, drückt man dagegen mit 愿望 (yuànwàng) aus – eine häufige Verwechslung.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:原本:yuan2ben3",
     "word": "原本",
     "pinyin": "yuánběn",
-    "meaning": "original; ursprünglich",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "ursprünglich; eigentlich",
     "type": "Adverb",
     "level": "HSK6",
     "syllabus": {
@@ -65358,20 +69072,40 @@ window.VOCAB_HSK6 = [
       "pos": "副",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我原本打算今天去爬山，可是下雨了。",
+        "pinyin": "Wǒ yuánběn dǎsuàn jīntiān qù páshān, kěshì xià yǔ le.",
+        "german": "Eigentlich wollte ich heute wandern gehen, aber es hat geregnet."
+      },
+      {
+        "chinese": "这里原本是一片农田，现在建起了高楼。",
+        "pinyin": "Zhèlǐ yuánběn shì yí piàn nóngtián, xiànzài jiàn qǐ le gāolóu.",
+        "german": "Hier waren ursprünglich Felder, jetzt stehen Hochhäuser da."
+      },
+      {
+        "chinese": "这件事原本跟你没关系。",
+        "pinyin": "Zhè jiàn shì yuánběn gēn nǐ méi guānxi.",
+        "german": "Diese Sache hat eigentlich nichts mit dir zu tun."
+      }
+    ],
     "traditional": "原本",
     "evidence": {
       "cedict": "原本 原本 [yuan2 ben3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "原本 (yuánběn) bedeutet wie 本来 (běnlái) und 原来 „ursprünglich, eigentlich“ und steht vor dem Verb oder am Satzanfang. Typisch ist der Rahmen 原本打算 …，后来/可是 … „eigentlich wollte ich …, aber …“. Es klingt etwas schriftsprachlicher als 本来. Als Nomen „Originalfassung, Urtext“ kommt es seltener vor.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:原材料:yuan2cai2liao4",
     "word": "原材料",
     "pinyin": "yuáncáiliào",
-    "meaning": "Rohmaterialien, Rohstoffe, Ausgangsprodukt",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Rohmaterial; Rohstoffe; Roh- und Werkstoffe",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -65379,12 +69113,29 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "原材料价格上涨，工厂的成本也提高了。",
+        "pinyin": "Yuáncáiliào jiàgé shàngzhǎng, gōngchǎng de chéngběn yě tígāo le.",
+        "german": "Die Rohstoffpreise sind gestiegen, dadurch sind auch die Kosten der Fabrik höher geworden."
+      },
+      {
+        "chinese": "这家公司的原材料主要从国外进口。",
+        "pinyin": "Zhè jiā gōngsī de yuáncáiliào zhǔyào cóng guówài jìnkǒu.",
+        "german": "Die Rohstoffe dieser Firma werden hauptsächlich aus dem Ausland importiert."
+      }
+    ],
     "traditional": "原材料",
     "evidence": {
       "cedict": "原材料 原材料 [yuan2 cai2 liao4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "原材料 (yuáncáiliào) ist der Sammelbegriff aus Wirtschaft und Industrie für alles, was in die Produktion eingeht, also unverarbeitete Rohstoffe und Halbfabrikate: 原材料价格 „Rohstoffpreise“, 原材料供应 „Rohstoffversorgung“. 原料 (yuánliào) meint enger den noch unverarbeiteten Ausgangsstoff, 材料 (cáiliào) allgemein „Material“ und auch „Unterlagen“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:原理:yuan2li3",
@@ -65402,8 +69153,13 @@ window.VOCAB_HSK6 = [
       },
       {
         "chinese": "你能解释一下这个机器的原理吗？",
-        "pinyin": "Nǐ néng jiěshì yīxià zhège jīqì de yuánlǐ ma?",
+        "pinyin": "Nǐ néng jiěshì yíxià zhège jīqì de yuánlǐ ma?",
         "german": "Kannst du das Funktionsprinzip dieser Maschine erklären?"
+      },
+      {
+        "chinese": "这个装置利用了杠杆原理。",
+        "pinyin": "Zhège zhuāngzhì lìyòng le gànggǎn yuánlǐ.",
+        "german": "Diese Vorrichtung beruht auf dem Hebelgesetz."
       }
     ],
     "legacyIds": [
@@ -65417,15 +69173,19 @@ window.VOCAB_HSK6 = [
     "traditional": "原理",
     "evidence": {
       "cedict": "原理 原理 [yuan2 li3]"
+    },
+    "notes": "原理 (yuánlǐ) ist das wissenschaftliche oder technische Prinzip, nach dem etwas funktioniert: 工作原理 „Funktionsprinzip“, 物理原理, 杠杆原理 „Hebelgesetz“. Deutsche Lernende verwechseln es oft mit 原则 (yuánzé), dem Grundsatz im Handeln: 坚持原则 „an seinen Prinzipien festhalten“, 原则问题 „Grundsatzfrage“. Zählwort ist meist 个 oder 条.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:原料:yuan2liao4",
     "word": "原料",
     "pinyin": "yuánliào",
-    "meaning": "Ausgangsmaterial; Rohmaterial; Grundstoff; Rohstoff; Zutat",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Rohstoff; Rohmaterial; Ausgangsstoff; Zutat",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -65433,12 +69193,29 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "棉花是做衣服的主要原料。",
+        "pinyin": "Miánhua shì zuò yīfu de zhǔyào yuánliào.",
+        "german": "Baumwolle ist der wichtigste Rohstoff für Kleidung."
+      },
+      {
+        "chinese": "这种饮料的原料全部来自本地。",
+        "pinyin": "Zhè zhǒng yǐnliào de yuánliào quánbù láizì běndì.",
+        "german": "Die Zutaten dieses Getränks stammen alle aus der Region."
+      }
+    ],
     "traditional": "原料",
     "evidence": {
       "cedict": "原料 原料 [yuan2 liao4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "原料 (yuánliào) ist der noch unverarbeitete Ausgangsstoff, aus dem etwas hergestellt wird: 棉花是纺织的原料 „Baumwolle ist der Rohstoff für Textilien“. Bei Lebensmitteln und Getränken bezeichnet es die Zutaten; beim Kochen sagt man im Alltag aber häufiger 食材 (shícái) oder 配料. Der breitere Wirtschaftsbegriff für Roh- und Werkstoffe ist 原材料 (yuáncáiliào).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:园林:yuan2lin2",
@@ -65450,14 +69227,19 @@ window.VOCAB_HSK6 = [
     "category": "Kultur",
     "examples": [
       {
-        "chinese": "苏州园林非常有名。",
-        "pinyin": "Sūzhōu yuánlín fēicháng yǒumíng.",
-        "german": "Die Gärten von Suzhou sind sehr berühmt."
-      },
-      {
         "chinese": "苏州园林是中国园林艺术的代表。",
         "pinyin": "Sūzhōu yuánlín shì Zhōngguó yuánlín yìshù de dàibiǎo.",
         "german": "Die Gärten von Suzhou repräsentieren die chinesische Gartenbaukunst."
+      },
+      {
+        "chinese": "颐和园是中国现存最大的皇家园林。",
+        "pinyin": "Yíhéyuán shì Zhōngguó xiàncún zuì dà de huángjiā yuánlín.",
+        "german": "Der Sommerpalast ist die größte erhaltene kaiserliche Gartenanlage Chinas."
+      },
+      {
+        "chinese": "公园里的园林工人正在修剪树木。",
+        "pinyin": "Gōngyuán lǐ de yuánlín gōngrén zhèngzài xiūjiǎn shùmù.",
+        "german": "Die Gärtner im Park schneiden gerade die Bäume."
       }
     ],
     "legacyIds": [
@@ -65471,15 +69253,19 @@ window.VOCAB_HSK6 = [
     "traditional": "園林",
     "evidence": {
       "cedict": "園林 园林 [yuan2 lin2]"
+    },
+    "notes": "园林 (yuánlín) bezeichnet gestaltete Gartenanlagen, vor allem die klassischen chinesischen Gärten mit Teichen, Felsen und Pavillons: 苏州园林, 皇家园林 „kaiserliche Gärten“, 私家园林 „Privatgärten“. In der Verwaltung steht es für städtische Grünanlagen: 园林绿化 „Grünflächenpflege“, 园林工人 „Stadtgärtner“. Den Garten am Haus nennt man 花园 (huāyuán), einen Gemüsegarten 菜园.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:圆满:yuan2man3",
     "word": "圆满",
     "pinyin": "yuánmǎn",
-    "meaning": "befriedigend; Rundung",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "erfolgreich; zufriedenstellend; vollkommen",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -65487,20 +69273,40 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "本次会议圆满结束。",
+        "pinyin": "Běn cì huìyì yuánmǎn jiéshù.",
+        "german": "Die Konferenz ist erfolgreich zu Ende gegangen."
+      },
+      {
+        "chinese": "他们圆满地完成了这次任务。",
+        "pinyin": "Tāmen yuánmǎn de wánchéng le zhè cì rènwu.",
+        "german": "Sie haben diesen Auftrag mit vollem Erfolg erfüllt."
+      },
+      {
+        "chinese": "这个故事有一个圆满的结局。",
+        "pinyin": "Zhège gùshi yǒu yí ge yuánmǎn de jiéjú.",
+        "german": "Diese Geschichte hat ein glückliches Ende."
+      }
+    ],
     "traditional": "圓滿",
     "evidence": {
       "cedict": "圓滿 圆满 [yuan2 man3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "圆满 (yuánmǎn) beschreibt etwas, das ohne Mängel und zur vollen Zufriedenheit abgeschlossen ist. Typisch für Berichte und Nachrichten sind 圆满成功 „ein voller Erfolg“, 圆满结束 „erfolgreich zu Ende gehen“ und 圆满完成任务 „eine Aufgabe erfolgreich erfüllen“. 圆满的结局 ist das „glückliche Ende“ einer Geschichte. Es klingt eher gehoben; im lockeren Gespräch sagt man einfacher 很顺利 oder 很成功.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:原始:yuan2shi3",
     "word": "原始",
     "pinyin": "yuánshǐ",
-    "meaning": "Ur..., Ausgangs-, erstens; primär; primitiv",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "ursprünglich; Original-; Ur-; primitiv",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -65508,18 +69314,40 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这片原始森林里生活着很多珍稀动物。",
+        "pinyin": "Zhè piàn yuánshǐ sēnlín lǐ shēnghuó zhe hěn duō zhēnxī dòngwù.",
+        "german": "In diesem Urwald leben viele seltene Tiere."
+      },
+      {
+        "chinese": "请把原始数据也发给我。",
+        "pinyin": "Qǐng bǎ yuánshǐ shùjù yě fā gěi wǒ.",
+        "german": "Schick mir bitte auch die Rohdaten."
+      },
+      {
+        "chinese": "原始人用石头制作工具。",
+        "pinyin": "Yuánshǐrén yòng shítou zhìzuò gōngjù.",
+        "german": "Die Urmenschen stellten Werkzeuge aus Stein her."
+      }
+    ],
     "traditional": "原始",
     "evidence": {
       "cedict": "原始 原始 [yuan2 shi3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "原始 (yuánshǐ) hat zwei Bedeutungen. Zum einen „ursprünglich, unbearbeitet“: 原始资料 „Originalunterlagen“, 原始数据 „Rohdaten“, 原始记录 „Originalprotokoll“. Zum anderen „urzeitlich, primitiv“: 原始社会 „Urgesellschaft“, 原始人 „Urmensch“, 原始森林 „Urwald“. Über einen Menschen gesagt wirkt es abwertend („primitiv“); als Adverb „ursprünglich“ benutzt man eher 原来 oder 本来.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:元素:yuan2su4",
     "word": "元素",
     "pinyin": "yuánsù",
-    "meaning": "Element (chemisch)",
+    "meaning": "Element; Bestandteil; chemisches Element",
     "type": "Nomen",
     "level": "HSK6",
     "category": "Wissenschaft",
@@ -65530,9 +69358,14 @@ window.VOCAB_HSK6 = [
         "german": "Derzeit sind über hundert Elemente bekannt."
       },
       {
-        "chinese": "铁是一种常见的元素。",
-        "pinyin": "Tiě shì yī zhǒng chángjiàn de yuánsù.",
-        "german": "Eisen ist ein häufig vorkommendes Element."
+        "chinese": "这部电影加入了很多中国元素。",
+        "pinyin": "Zhè bù diànyǐng jiārù le hěn duō Zhōngguó yuánsù.",
+        "german": "In diesen Film wurden viele chinesische Elemente eingebaut."
+      },
+      {
+        "chinese": "这件衣服的设计融合了传统和现代元素。",
+        "pinyin": "Zhè jiàn yīfu de shèjì rónghé le chuántǒng hé xiàndài yuánsù.",
+        "german": "Das Design dieses Kleidungsstücks verbindet traditionelle und moderne Elemente."
       }
     ],
     "legacyIds": [
@@ -65546,15 +69379,19 @@ window.VOCAB_HSK6 = [
     "traditional": "元素",
     "evidence": {
       "cedict": "元素 元素 [yuan2 su4]"
+    },
+    "notes": "元素 (yuánsù) ist zunächst das chemische Element (化学元素, 元素周期表 „Periodensystem“), wird aber auch übertragen für Stil- und Gestaltungselemente gebraucht: 中国元素 „chinesische Elemente“, 时尚元素 „Modeelemente“. Nicht verwechseln mit 因素 (yīnsù) „Faktor“: Die Gründe für einen Erfolg heißen üblicherweise 成功的因素. Zählwort ist 种.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:原先:yuan2xian1",
     "word": "原先",
     "pinyin": "yuánxiān",
-    "meaning": "früher, ursprünglich",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "früher; ursprünglich; anfangs",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -65562,20 +69399,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他原先在银行工作，后来自己开了一家公司。",
+        "pinyin": "Tā yuánxiān zài yínháng gōngzuò, hòulái zìjǐ kāi le yì jiā gōngsī.",
+        "german": "Früher hat er bei einer Bank gearbeitet, später hat er eine eigene Firma gegründet."
+      },
+      {
+        "chinese": "我们还是按原先的计划进行吧。",
+        "pinyin": "Wǒmen háishi àn yuánxiān de jìhuà jìnxíng ba.",
+        "german": "Lass uns doch beim ursprünglichen Plan bleiben."
+      },
+      {
+        "chinese": "这条街比原先热闹多了。",
+        "pinyin": "Zhè tiáo jiē bǐ yuánxiān rènao duō le.",
+        "german": "Diese Straße ist viel belebter als früher."
+      }
+    ],
     "traditional": "原先",
     "evidence": {
       "cedict": "原先 原先 [yuan2 xian1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "原先 (yuánxiān) ist ein Zeitwort wie 原来 und 以前: Es steht vor dem Verb oder am Satzanfang (他原先在银行工作) und attributiv mit 的 (原先的计划 „der ursprüngliche Plan“). Anders als 原来 hat es nicht die Bedeutung „ach so, wie sich herausstellt“ (原来是你！). Es ist vor allem in der gesprochenen Sprache geläufig.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:元宵:yuan2xiao1",
     "word": "元宵",
     "pinyin": "yuánxiāo",
-    "meaning": "Reismehlklöße",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Yuanxiao (gefüllte Klebreisbällchen); Laternenfest",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -65583,20 +69440,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "元宵节的时候，北方人习惯吃元宵。",
+        "pinyin": "Yuánxiāojié de shíhou, běifāngrén xíguàn chī yuánxiāo.",
+        "german": "Zum Laternenfest essen die Menschen im Norden traditionell Yuanxiao."
+      },
+      {
+        "chinese": "妈妈给我们煮了一碗芝麻馅的元宵。",
+        "pinyin": "Māma gěi wǒmen zhǔ le yì wǎn zhīma xiàn de yuánxiāo.",
+        "german": "Mama hat uns eine Schüssel Yuanxiao mit Sesamfüllung gekocht."
+      },
+      {
+        "chinese": "过了元宵，春节就算真正过完了。",
+        "pinyin": "Guò le yuánxiāo, Chūnjié jiù suàn zhēnzhèng guò wán le.",
+        "german": "Nach dem Laternenfest gilt das Frühlingsfest als wirklich vorbei."
+      }
+    ],
     "traditional": "元宵",
     "evidence": {
       "cedict": "元宵 元宵 [yuan2 xiao1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "元宵 (yuánxiāo) sind gefüllte Klebreisbällchen, die man zum Laternenfest 元宵节 (Yuánxiāojié) am 15. Tag des ersten Mondmonats isst. In Südchina heißen ähnliche Bällchen meist 汤圆 (tāngyuán). Man sagt 吃元宵 und zählt mit 个 oder 碗. Kurz steht 元宵 auch für das Fest selbst: 闹元宵 „das Laternenfest feiern“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:源于:yuan2yu2",
     "word": "源于",
     "pinyin": "yuányú",
-    "meaning": "entspringen, seine Wurzeln haben, ausgehen von; stammen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "stammen aus; zurückgehen auf; entspringen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -65604,20 +69481,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这个节日源于一个古老的传说。",
+        "pinyin": "Zhège jiérì yuányú yí ge gǔlǎo de chuánshuō.",
+        "german": "Dieses Fest geht auf eine alte Legende zurück."
+      },
+      {
+        "chinese": "很多误会都源于沟通不够。",
+        "pinyin": "Hěn duō wùhuì dōu yuányú gōutōng bú gòu.",
+        "german": "Viele Missverständnisse entstehen aus mangelnder Kommunikation."
+      },
+      {
+        "chinese": "艺术源于生活，又高于生活。",
+        "pinyin": "Yìshù yuányú shēnghuó, yòu gāo yú shēnghuó.",
+        "german": "Die Kunst entspringt dem Leben und steht doch über ihm."
+      }
+    ],
     "traditional": "源於",
     "evidence": {
       "cedict": "源於 源于 [yuan2 yu2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "源于 (yuányú) ist schriftsprachlich und steht mit einem Nomen oder Nominalausdruck als Objekt: 源于生活 „dem Leben entspringen“, 源于一个传说 „auf eine Legende zurückgehen“. Gleichbedeutend sind 来源于 und 起源于; im Gespräch sagt man eher 来自 oder 是从……来的. Das 于 ist hier die schriftsprachliche Präposition „aus, von“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:远程:yuan3cheng2",
     "word": "远程",
     "pinyin": "yuǎnchéng",
-    "meaning": "Fern-, Langstrecken- (Vorsilbe)",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Fern-; Langstrecken-; aus der Ferne",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -65625,20 +69522,40 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "疫情期间，很多公司让员工远程办公。",
+        "pinyin": "Yìqíng qījiān, hěn duō gōngsī ràng yuángōng yuǎnchéng bàngōng.",
+        "german": "Während der Pandemie ließen viele Firmen ihre Angestellten von zu Hause aus arbeiten."
+      },
+      {
+        "chinese": "技术人员可以远程帮你解决电脑问题。",
+        "pinyin": "Jìshù rényuán kěyǐ yuǎnchéng bāng nǐ jiějué diànnǎo wèntí.",
+        "german": "Die Techniker können dein Computerproblem per Fernzugriff lösen."
+      },
+      {
+        "chinese": "远程教育让山区的孩子也能听到名师的课。",
+        "pinyin": "Yuǎnchéng jiàoyù ràng shānqū de háizi yě néng tīng dào míngshī de kè.",
+        "german": "Dank Fernunterricht können auch Kinder in den Bergregionen den Unterricht bekannter Lehrer verfolgen."
+      }
+    ],
     "traditional": "遠程",
     "evidence": {
       "cedict": "遠程 远程 [yuan3 cheng2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "远程 (yuǎnchéng) steht meist direkt vor einem Nomen oder Verb und entspricht dem deutschen „Fern-“: 远程教育 „Fernunterricht“, 远程办公 „Homeoffice, Fernarbeit“, 远程医疗 „Telemedizin“, 远程控制 „Fernsteuerung“, 远程导弹 „Langstreckenrakete“. Als Prädikat (这个很远程) wird es praktisch nicht gebraucht; für „weit entfernt“ sagt man einfach 远.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:远方:yuan3fang1",
     "word": "远方",
     "pinyin": "yuǎnfāng",
-    "meaning": "Ferne, ferner Ort",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Ferne; ferner Ort",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -65646,20 +69563,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "欢迎远方的朋友来我们这里做客。",
+        "pinyin": "Huānyíng yuǎnfāng de péngyou lái wǒmen zhèlǐ zuòkè.",
+        "german": "Wir heißen unsere Freunde von weit her als Gäste willkommen."
+      },
+      {
+        "chinese": "他总是梦想着去远方旅行。",
+        "pinyin": "Tā zǒngshì mèngxiǎng zhe qù yuǎnfāng lǚxíng.",
+        "german": "Er träumt immer davon, in die Ferne zu reisen."
+      },
+      {
+        "chinese": "火车慢慢消失在远方。",
+        "pinyin": "Huǒchē mànmàn xiāoshī zài yuǎnfāng.",
+        "german": "Der Zug verschwand langsam in der Ferne."
+      }
+    ],
     "traditional": "遠方",
     "evidence": {
       "cedict": "遠方 远方 [yuan3 fang1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "远方 (yuǎnfāng) ist leicht gehoben bis poetisch und meint ferne Gegenden: 远方的朋友 „Freunde von weit her“, 来自远方 „aus der Ferne kommen“, 去远方 „in die Ferne ziehen“. Bekannt ist der Konfuzius-Satz 有朋自远方来. Für etwas, das man in der Entfernung sieht, sagt man im Alltag eher 远处 (yuǎnchù): 远处有一座山.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:约束:yue1shu4",
     "word": "约束",
     "pinyin": "yuēshù",
-    "meaning": "zügeln",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "einschränken; binden; zügeln; Einschränkung",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -65667,12 +69604,34 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我们应该用规则来约束自己的行为。",
+        "pinyin": "Wǒmen yīnggāi yòng guīzé lái yuēshù zìjǐ de xíngwéi.",
+        "german": "Wir sollten unser eigenes Verhalten durch Regeln in Schranken halten."
+      },
+      {
+        "chinese": "这份合同对双方都有约束力。",
+        "pinyin": "Zhè fèn hétong duì shuāngfāng dōu yǒu yuēshùlì.",
+        "german": "Dieser Vertrag ist für beide Seiten verbindlich."
+      },
+      {
+        "chinese": "他不喜欢受约束，所以选择了自由职业。",
+        "pinyin": "Tā bù xǐhuan shòu yuēshù, suǒyǐ xuǎnzé le zìyóu zhíyè.",
+        "german": "Er lässt sich nicht gern einschränken, deshalb ist er Freiberufler geworden."
+      }
+    ],
     "traditional": "約束",
     "evidence": {
       "cedict": "約束 约束 [yue1 shu4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "约束 (yuēshù) heißt, das Verhalten durch Regeln, Gesetze oder Pflichten in Schranken zu halten: 约束自己 „sich zügeln“, 受到约束 „Einschränkungen unterliegen“, 不受约束 „ungebunden sein“. Als Nomen steht es in 有约束力 „verbindlich sein“ und 法律约束 „rechtliche Bindung“. 限制 (xiànzhì) begrenzt dagegen eher Menge, Umfang oder Zeit (限制人数).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:月光:yue4guang1",
@@ -65687,6 +69646,16 @@ window.VOCAB_HSK6 = [
         "chinese": "月光很美。",
         "pinyin": "Yuèguāng hěn měi.",
         "german": "Das Mondlicht ist sehr schön."
+      },
+      {
+        "chinese": "月光从窗户照进来，房间里一点也不黑。",
+        "pinyin": "Yuèguāng cóng chuānghu zhào jìnlai, fángjiān lǐ yìdiǎn yě bù hēi.",
+        "german": "Das Mondlicht fiel durchs Fenster herein, sodass es im Zimmer gar nicht dunkel war."
+      },
+      {
+        "chinese": "我们在月光下散步。",
+        "pinyin": "Wǒmen zài yuèguāng xià sànbù.",
+        "german": "Wir gingen im Mondschein spazieren."
       }
     ],
     "legacyIds": [
@@ -65700,6 +69669,12 @@ window.VOCAB_HSK6 = [
     "traditional": "月光",
     "evidence": {
       "cedict": "月光 月光 [yue4 guang1]"
+    },
+    "notes": "月光 (yuèguāng) ist das Licht des Mondes: 在月光下 „im Mondschein“, 月光很亮 „der Mond scheint hell“. Bekannt ist die Gedichtzeile von Li Bai 床前明月光. Literarischer klingt 月色 (yuèsè) „Mondschein“. Scherzhaft heißen Leute, die jeden Monat ihr ganzes Gehalt ausgeben, 月光族 (yuèguāngzú) – ein Wortspiel mit 光 „aufgebraucht“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -65720,6 +69695,11 @@ window.VOCAB_HSK6 = [
         "chinese": "她会弹奏多种乐器。",
         "pinyin": "Tā huì tánzòu duō zhǒng yuèqì.",
         "german": "Sie kann mehrere Musikinstrumente spielen."
+      },
+      {
+        "chinese": "二胡是一种传统的中国乐器。",
+        "pinyin": "Èrhú shì yì zhǒng chuántǒng de Zhōngguó yuèqì.",
+        "german": "Die Erhu ist ein traditionelles chinesisches Musikinstrument."
       }
     ],
     "legacyIds": [
@@ -65739,15 +69719,19 @@ window.VOCAB_HSK6 = [
     ],
     "evidence": {
       "cedict": "樂器 乐器 [yue4 qi4]"
+    },
+    "notes": "乐器 (yuèqì) – hier wird 乐 yuè gelesen, nicht lè. Allgemein sagt man 演奏乐器 (yǎnzòu) oder umgangssprachlich 你会什么乐器？. Für das Spielen hängt das Verb vom Instrument ab: 弹 (tán) für Zupf- und Tasteninstrumente (弹钢琴, 弹吉他), 拉 (lā) für Streichinstrumente (拉小提琴, 拉二胡), 吹 (chuī) für Blasinstrumente, 打 für Trommeln. Zählwörter sind 件, 种 oder 个.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:月球:yue4qiu2",
     "word": "月球",
     "pinyin": "yuèqiú",
-    "meaning": "Mond",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Mond (als Himmelskörper)",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -65755,20 +69739,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "一九六九年，人类第一次登上了月球。",
+        "pinyin": "Yījiǔliùjiǔ nián, rénlèi dì yī cì dēng shàng le yuèqiú.",
+        "german": "1969 betraten zum ersten Mal Menschen den Mond."
+      },
+      {
+        "chinese": "月球绕着地球转。",
+        "pinyin": "Yuèqiú rào zhe dìqiú zhuàn.",
+        "german": "Der Mond kreist um die Erde."
+      },
+      {
+        "chinese": "月球上没有空气，所以声音无法传播。",
+        "pinyin": "Yuèqiú shang méiyǒu kōngqì, suǒyǐ shēngyīn wúfǎ chuánbō.",
+        "german": "Auf dem Mond gibt es keine Luft, deshalb kann sich Schall nicht ausbreiten."
+      }
+    ],
     "traditional": "月球",
     "evidence": {
       "cedict": "月球 月球 [yue4 qiu2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "月球 (yuèqiú) ist der Mond als Himmelskörper, also das Wort der Astronomie und Raumfahrt: 月球表面 „Mondoberfläche“, 登上月球 „den Mond betreten“, 月球探测 „Monderkundung“. Den Mond am Himmel, den man nachts sieht, nennt man im Alltag 月亮 (yuèliang): 今天晚上的月亮真圆 sagt man, nicht 月球.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:乐曲:yue4qu3",
     "word": "乐曲",
     "pinyin": "yuèqǔ",
-    "meaning": "Musikstück",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Musikstück; Komposition",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -65776,20 +69780,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "乐队演奏了一首欢快的乐曲。",
+        "pinyin": "Yuèduì yǎnzòu le yì shǒu huānkuài de yuèqǔ.",
+        "german": "Die Band spielte ein fröhliches Musikstück."
+      },
+      {
+        "chinese": "这首乐曲是贝多芬写的。",
+        "pinyin": "Zhè shǒu yuèqǔ shì Bèiduōfēn xiě de.",
+        "german": "Dieses Stück hat Beethoven geschrieben."
+      },
+      {
+        "chinese": "餐厅里放着轻柔的乐曲。",
+        "pinyin": "Cāntīng lǐ fàng zhe qīngróu de yuèqǔ.",
+        "german": "Im Restaurant läuft leise, sanfte Musik."
+      }
+    ],
     "traditional": "樂曲",
     "evidence": {
       "cedict": "樂曲 乐曲 [yue4 qu3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "乐曲 (yuèqǔ) ist ein Musikstück, meist ein Instrumentalstück; ein Lied mit Text heißt eher 歌 oder 歌曲. Zählwort ist 首 (shǒu): 一首乐曲. Typisch sind 演奏乐曲 „ein Stück spielen“ und 古典乐曲 „klassisches Stück“. Das Wort klingt etwas gehobener als das umgangssprachliche 曲子 (qǔzi).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:晕:yun1",
     "word": "晕",
     "pinyin": "yūn",
-    "meaning": "Ohnmacht, Schwindel; schwindlig",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "schwindlig; benommen; ohnmächtig werden",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -65797,20 +69821,40 @@ window.VOCAB_HSK6 = [
       "pos": "形、动",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我今天有点儿头晕，想早点儿回家休息。",
+        "pinyin": "Wǒ jīntiān yǒudiǎnr tóuyūn, xiǎng zǎo diǎnr huí jiā xiūxi.",
+        "german": "Mir ist heute etwas schwindlig, ich möchte früher nach Hause gehen und mich ausruhen."
+      },
+      {
+        "chinese": "天气太热，有个老人在路边晕倒了。",
+        "pinyin": "Tiānqì tài rè, yǒu ge lǎorén zài lùbiān yūndǎo le.",
+        "german": "Wegen der Hitze ist ein alter Mann am Straßenrand ohnmächtig geworden."
+      },
+      {
+        "chinese": "这道题把我都看晕了。",
+        "pinyin": "Zhè dào tí bǎ wǒ dōu kàn yūn le.",
+        "german": "Bei dieser Aufgabe dreht sich mir alles im Kopf."
+      }
+    ],
     "traditional": "暈",
     "evidence": {
       "cedict": "暈 晕 [yun1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "晕 (yūn) bedeutet „schwindlig, benommen“ und als Verb „ohnmächtig werden“: 头晕 (tóuyūn) „mir ist schwindlig“, 晕倒 (yūndǎo) „ohnmächtig umfallen“, 晕过去 „das Bewusstsein verlieren“. Übertragen heißt 看晕了 oder 听晕了 „verwirrt sein“; als Ausruf 我晕！ drückt es umgangssprachlich Fassungslosigkeit aus. Die Lesung yùn gilt für 晕车, 晕船 „seekrank sein“ und für den Lichthof (光晕).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:晕车:yun4che1",
     "word": "晕车",
     "pinyin": "yùnchē",
-    "meaning": "Reisekrankheit",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "reisekrank werden (im Auto oder Bus)",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -65818,20 +69862,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我一坐长途汽车就晕车。",
+        "pinyin": "Wǒ yí zuò chángtú qìchē jiù yùnchē.",
+        "german": "Bei langen Busfahrten wird mir jedes Mal schlecht."
+      },
+      {
+        "chinese": "容易晕车的人最好坐在前面。",
+        "pinyin": "Róngyì yùnchē de rén zuìhǎo zuò zài qiánmian.",
+        "german": "Wer leicht reisekrank wird, sitzt am besten vorne."
+      },
+      {
+        "chinese": "出发前吃片晕车药吧。",
+        "pinyin": "Chūfā qián chī piàn yùnchēyào ba.",
+        "german": "Nimm vor der Abfahrt eine Tablette gegen Reiseübelkeit."
+      }
+    ],
     "traditional": "暈車",
     "evidence": {
       "cedict": "暈車 晕车 [yun4 che1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "晕车 (yùnchē) wird mit yùn gelesen und bedeutet, dass einem beim Auto- oder Busfahren übel wird: 我晕车 „mir wird beim Fahren schlecht“, 容易晕车 „schnell reisekrank werden“, 晕车药 „Tabletten gegen Reiseübelkeit“. Entsprechend gebildet sind 晕船 (yùnchuán) „seekrank sein“ und 晕机 (yùnjī) „luftkrank sein“. Es ist ein Verb, kein Nomen: „Reisekrankheit haben“ heißt einfach 晕车.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:运送:yun4song4",
     "word": "运送",
     "pinyin": "yùnsòng",
-    "meaning": "transportieren, befördern",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "transportieren; befördern",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -65839,20 +69903,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这些货物将用火车运送到上海。",
+        "pinyin": "Zhèxiē huòwù jiāng yòng huǒchē yùnsòng dào Shànghǎi.",
+        "german": "Diese Waren werden mit dem Zug nach Shanghai transportiert."
+      },
+      {
+        "chinese": "直升机把伤员运送到了医院。",
+        "pinyin": "Zhíshēngjī bǎ shāngyuán yùnsòng dào le yīyuàn.",
+        "german": "Der Hubschrauber brachte die Verletzten ins Krankenhaus."
+      },
+      {
+        "chinese": "血液负责把氧气运送到全身。",
+        "pinyin": "Xuèyè fùzé bǎ yǎngqì yùnsòng dào quánshēn.",
+        "german": "Das Blut transportiert den Sauerstoff in den ganzen Körper."
+      }
+    ],
     "traditional": "運送",
     "evidence": {
       "cedict": "運送 运送 [yun4 song4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "运送 (yùnsòng) bezeichnet das konkrete Befördern von Gütern oder Personen an einen bestimmten Ort: 运送货物 „Waren transportieren“, 运送乘客, 运送伤员 „Verletzte abtransportieren“. Typisch ist der Rahmen 把 … 运送到 …. 运输 (yùnshū) meint eher das Transportwesen als Ganzes (交通运输), 送 ist das einfache Alltagswort „bringen“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:运行:yun4xing2",
     "word": "运行",
     "pinyin": "yùnxíng",
-    "meaning": "Betriebs-, Lauf- (Vorsilbe); laufen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "laufen; in Betrieb sein; verkehren; sich auf einer Bahn bewegen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -65860,12 +69944,34 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "地球围绕太阳运行。",
+        "pinyin": "Dìqiú wéirào tàiyáng yùnxíng.",
+        "german": "Die Erde kreist um die Sonne."
+      },
+      {
+        "chinese": "这条地铁线路每天早上五点半开始运行。",
+        "pinyin": "Zhè tiáo dìtiě xiànlù měitiān zǎoshang wǔ diǎn bàn kāishǐ yùnxíng.",
+        "german": "Diese U-Bahn-Linie fährt jeden Morgen ab halb sechs."
+      },
+      {
+        "chinese": "电脑同时运行太多程序就会变慢。",
+        "pinyin": "Diànnǎo tóngshí yùnxíng tài duō chéngxù jiù huì biàn màn.",
+        "german": "Wenn auf dem Computer zu viele Programme gleichzeitig laufen, wird er langsam."
+      }
+    ],
     "traditional": "運行",
     "evidence": {
       "cedict": "運行 运行 [yun4 xing2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "运行 (yùnxíng) heißt, dass sich etwas auf seiner Bahn bewegt oder in Betrieb ist: Himmelskörper (地球绕太阳运行), Züge und U-Bahnen (列车运行时间 „Fahrzeiten“), Computerprogramme (程序运行) und Systeme (系统运行正常 „das System läuft normal“). 运营 (yùnyíng) betont dagegen den geschäftlichen Betrieb, 运转 (yùnzhuǎn) das Laufen von Maschinen.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:运营:yun4ying2",
@@ -65880,6 +69986,16 @@ window.VOCAB_HSK6 = [
         "chinese": "公司日常运营很稳定。",
         "pinyin": "Gōngsī rìcháng yùnyíng hěn wěndìng.",
         "german": "Der tägliche Betrieb des Unternehmens läuft stabil."
+      },
+      {
+        "chinese": "这条高铁线路将于明年正式运营。",
+        "pinyin": "Zhè tiáo gāotiě xiànlù jiāng yú míngnián zhèngshì yùnyíng.",
+        "german": "Diese Schnellfahrstrecke soll nächstes Jahr offiziell in Betrieb gehen."
+      },
+      {
+        "chinese": "她在一家互联网公司做运营工作。",
+        "pinyin": "Tā zài yì jiā hùliánwǎng gōngsī zuò yùnyíng gōngzuò.",
+        "german": "Sie arbeitet bei einem Internetunternehmen im Bereich Operations."
       }
     ],
     "legacyIds": [
@@ -65893,15 +70009,19 @@ window.VOCAB_HSK6 = [
     "traditional": "運營",
     "evidence": {
       "cedict": "運營 运营 [yun4 ying2]"
+    },
+    "notes": "运营 (yùnyíng) bezeichnet den laufenden Betrieb eines Unternehmens, einer Plattform oder eines Verkehrsmittels: 日常运营 „Tagesgeschäft“, 运营成本 „Betriebskosten“, 投入运营 „in Betrieb nehmen“, 运营商 (yùnyíngshāng) „Betreiber, Netzbetreiber“. In Internetfirmen ist 运营 auch eine Berufssparte („Operations“). 经营 (jīngyíng) heißt eher „ein Geschäft führen“ (经营饭店), 运行 (yùnxíng) „laufen, funktionieren“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:杂:za2",
     "word": "杂",
     "pinyin": "zá",
-    "meaning": "vermischt, verschieden; mischen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "gemischt; vielerlei; durcheinander; uneinheitlich",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -65909,20 +70029,40 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我们公司人不多，所以每个人要做的事情都很杂。",
+        "pinyin": "Wǒmen gōngsī rén bù duō, suǒyǐ měi ge rén yào zuò de shìqing dōu hěn zá.",
+        "german": "Unsere Firma ist klein, deshalb muss jeder alles Mögliche erledigen."
+      },
+      {
+        "chinese": "他读书很杂，什么类型的书都看。",
+        "pinyin": "Tā dú shū hěn zá, shénme lèixíng de shū dōu kàn.",
+        "german": "Er liest querbeet, alle möglichen Arten von Büchern."
+      },
+      {
+        "chinese": "这里人多声音杂，我们换个地方聊吧。",
+        "pinyin": "Zhèlǐ rén duō shēngyīn zá, wǒmen huàn ge dìfang liáo ba.",
+        "german": "Hier sind zu viele Leute und es ist zu laut, lass uns woanders reden."
+      }
+    ],
     "traditional": "雜",
     "evidence": {
       "cedict": "雜 杂 [za2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "杂 (zá) beschreibt etwas Gemischtes, Uneinheitliches: 事情很杂 „lauter verschiedene Kleinigkeiten“, 人多声音杂 „viele Leute, lautes Durcheinander“, 读书很杂 „querbeet lesen“. Meist begegnet es in Zusammensetzungen wie 复杂 „kompliziert“, 杂志 „Zeitschrift“, 杂事 „Kleinkram“ und 杂货 „Gemischtwaren“. 打杂 (dǎzá) bedeutet „Hilfsarbeiten erledigen“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:灾:zai1",
     "word": "灾",
     "pinyin": "zāi",
-    "meaning": "Unglück, Katastrophe",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Unglück; Katastrophe; Not",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -65930,20 +70070,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "去年这个地区遭了灾，很多房子都被冲毁了。",
+        "pinyin": "Qùnián zhège dìqū zāo le zāi, hěn duō fángzi dōu bèi chōnghuǐ le.",
+        "german": "Letztes Jahr wurde diese Gegend von einer Katastrophe heimgesucht, viele Häuser wurden weggespült."
+      },
+      {
+        "chinese": "全国各地的人都在为受灾群众捐款。",
+        "pinyin": "Quánguó gèdì de rén dōu zài wèi shòuzāi qúnzhòng juānkuǎn.",
+        "german": "Menschen im ganzen Land spenden für die Betroffenen der Katastrophe."
+      },
+      {
+        "chinese": "老人只希望一家人没病没灾。",
+        "pinyin": "Lǎorén zhǐ xīwàng yì jiā rén méi bìng méi zāi.",
+        "german": "Die alten Leute wünschen sich nur, dass die ganze Familie von Krankheit und Unglück verschont bleibt."
+      }
+    ],
     "traditional": "災",
     "evidence": {
       "cedict": "災 灾 [zai1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "灾 (zāi) steht allein vor allem in festen Wendungen: 遭灾 „von einer Katastrophe heimgesucht werden“, 受灾 (shòuzāi) „betroffen sein“, 救灾 „Katastrophenhilfe leisten“, 没病没灾 „von Krankheit und Unglück verschont“. Häufig ist es als Bestandteil: 水灾 „Überschwemmung“, 旱灾 „Dürre“, 火灾 „Brand“, 灾区 „Katastrophengebiet“. In freier Rede sagt man sonst eher 灾难 oder 灾害.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:灾害:zai1hai4",
     "word": "灾害",
     "pinyin": "zāihài",
-    "meaning": "Katastrophe",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Katastrophe; Naturkatastrophe; Unglück",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -65951,26 +70111,54 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 210
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "地震是一种严重的自然灾害。",
+        "pinyin": "Dìzhèn shì yì zhǒng yánzhòng de zìrán zāihài.",
+        "german": "Erdbeben gehören zu den schweren Naturkatastrophen."
+      },
+      {
+        "chinese": "政府正在加强对洪水等灾害的预防。",
+        "pinyin": "Zhèngfǔ zhèngzài jiāqiáng duì hóngshuǐ děng zāihài de yùfáng.",
+        "german": "Die Regierung verstärkt die Vorsorge gegen Katastrophen wie Hochwasser."
+      },
+      {
+        "chinese": "这场灾害造成了巨大的经济损失。",
+        "pinyin": "Zhè cháng zāihài zàochéng le jùdà de jīngjì sǔnshī.",
+        "german": "Diese Katastrophe hat enorme wirtschaftliche Schäden verursacht."
+      }
+    ],
     "traditional": "災害",
     "measureWords": [
       {
-        "word": "个",
-        "pinyin": "ge4"
+        "word": "场",
+        "pinyin": "chang2"
+      },
+      {
+        "word": "次",
+        "pinyin": "ci4"
+      },
+      {
+        "word": "种",
+        "pinyin": "zhong3"
       }
     ],
     "evidence": {
       "cedict": "災害 灾害 [zai1 hai4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "灾害 (zāihài) ist der sachliche Oberbegriff für Katastrophen, vor allem solche durch Naturereignisse: 自然灾害 (zìrán zāihài) „Naturkatastrophe“, 气象灾害 „Wetterkatastrophen“, 防灾减灾 „Katastrophenvorsorge“. 灾难 (zāinàn) betont stärker das Leid und gilt auch für von Menschen verursachtes Unheil wie Kriege. Als Zählwort dienen 场 (cháng), 次 oder 种.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:灾难:zai1nan4",
     "word": "灾难",
     "pinyin": "zāinàn",
-    "meaning": "Katastrophe, Desaster; verheerend",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Katastrophe; Desaster; Unheil",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -65978,20 +70166,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "战争给这个国家带来了巨大的灾难。",
+        "pinyin": "Zhànzhēng gěi zhège guójiā dàilái le jùdà de zāinàn.",
+        "german": "Der Krieg hat großes Unheil über dieses Land gebracht."
+      },
+      {
+        "chinese": "这次演出简直是一场灾难。",
+        "pinyin": "Zhè cì yǎnchū jiǎnzhí shì yì cháng zāinàn.",
+        "german": "Diese Aufführung war das reinste Desaster."
+      },
+      {
+        "chinese": "过度开发可能会给环境带来灾难性的后果。",
+        "pinyin": "Guòdù kāifā kěnéng huì gěi huánjìng dàilái zāinànxìng de hòuguǒ.",
+        "german": "Übermäßige Erschließung kann katastrophale Folgen für die Umwelt haben."
+      }
+    ],
     "traditional": "災難",
     "evidence": {
       "cedict": "災難 灾难 [zai1 nan4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "灾难 (zāinàn) ist ein schweres Unglück mit großem Leid, ob durch Natur oder Menschen verursacht: 一场灾难 (cháng), 战争带来的灾难, 避免灾难. Für „verheerend, katastrophal“ sagt man 灾难性的 (zāinànxìng de): 灾难性的后果. Umgangssprachlich kann man auch einen völlig missglückten Abend oder Auftritt übertrieben 一场灾难 nennen.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:灾区:zai1qu1",
     "word": "灾区",
     "pinyin": "zāiqū",
     "meaning": "Katastrophengebiet",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -65999,20 +70207,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "救援队连夜赶到了灾区。",
+        "pinyin": "Jiùyuán duì liányè gǎn dào le zāiqū.",
+        "german": "Die Rettungsmannschaft eilte noch in der Nacht ins Katastrophengebiet."
+      },
+      {
+        "chinese": "我们给地震灾区捐了一些衣服和食品。",
+        "pinyin": "Wǒmen gěi dìzhèn zāiqū juān le yìxiē yīfu hé shípǐn.",
+        "german": "Wir haben Kleidung und Lebensmittel für das Erdbebengebiet gespendet."
+      },
+      {
+        "chinese": "灾区的学校已经重新开学了。",
+        "pinyin": "Zāiqū de xuéxiào yǐjīng chóngxīn kāixué le.",
+        "german": "Die Schulen im Katastrophengebiet haben den Unterricht wieder aufgenommen."
+      }
+    ],
     "traditional": "災區",
     "evidence": {
       "cedict": "災區 灾区 [zai1 qu1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "灾区 (zāiqū) ist das von einer Katastrophe betroffene Gebiet und kommt vor allem in Nachrichten vor: 地震灾区 „Erdbebengebiet“, 灾区人民 „die Menschen im Katastrophengebiet“, 支援灾区 „das Katastrophengebiet unterstützen“, 灾区重建 „Wiederaufbau“. Die Betroffenen selbst heißen 灾民 (zāimín).",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:再三:zai4san1",
     "word": "再三",
     "pinyin": "zàisān",
-    "meaning": "immer wieder; abermalig; vielfach",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "immer wieder; wiederholt; mehrmals",
     "type": "Adverb",
     "level": "HSK6",
     "syllabus": {
@@ -66020,20 +70248,40 @@ window.VOCAB_HSK6 = [
       "pos": "副",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "妈妈再三叮嘱我路上注意安全。",
+        "pinyin": "Māma zàisān dīngzhǔ wǒ lùshang zhùyì ānquán.",
+        "german": "Mama hat mir mehrmals eingeschärft, unterwegs vorsichtig zu sein."
+      },
+      {
+        "chinese": "经过再三考虑，他决定接受这份工作。",
+        "pinyin": "Jīngguò zàisān kǎolǜ, tā juédìng jiēshòu zhè fèn gōngzuò.",
+        "german": "Nach reiflicher Überlegung entschied er sich, die Stelle anzunehmen."
+      },
+      {
+        "chinese": "他再三向我们道歉。",
+        "pinyin": "Tā zàisān xiàng wǒmen dàoqiàn.",
+        "german": "Er hat sich bei uns immer wieder entschuldigt."
+      }
+    ],
     "traditional": "再三",
     "evidence": {
       "cedict": "再三 再三 [zai4 san1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "再三 (zàisān) steht vor dem Verb und betont, dass man etwas mehrmals und mit Nachdruck tut, oft bei Verben des Sagens und Überlegens: 再三叮嘱 „mehrfach einschärfen“, 再三强调 „wiederholt betonen“, 再三道歉 „sich immer wieder entschuldigen“. 考虑再三 bzw. 经过再三考虑 heißt „nach reiflicher Überlegung“. Für alltägliche Wiederholungen wie „jeden Tag wieder“ passt es kaum; 一再 (yízài) ist ähnlich, klingt aber oft nach Ungeduld oder Kritik.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:再生:zai4sheng1",
     "word": "再生",
     "pinyin": "zàishēng",
-    "meaning": "Aufbereitung; Erweckung, Reaktivierung; Nachwuchs",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "nachwachsen; sich regenerieren; wiederaufbereiten; wiedergeboren werden",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -66041,20 +70289,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "壁虎的尾巴断了以后还能再生。",
+        "pinyin": "Bìhǔ de wěiba duàn le yǐhòu hái néng zàishēng.",
+        "german": "Wenn ein Gecko seinen Schwanz verliert, wächst er wieder nach."
+      },
+      {
+        "chinese": "风能和太阳能都属于可再生能源。",
+        "pinyin": "Fēngnéng hé tàiyángnéng dōu shǔyú kě zàishēng néngyuán.",
+        "german": "Wind- und Sonnenenergie zählen zu den erneuerbaren Energien."
+      },
+      {
+        "chinese": "这些笔记本都是用再生纸做的。",
+        "pinyin": "Zhèxiē bǐjìběn dōu shì yòng zàishēngzhǐ zuò de.",
+        "german": "Diese Notizbücher sind alle aus Recyclingpapier."
+      }
+    ],
     "traditional": "再生",
     "evidence": {
       "cedict": "再生 再生 [zai4 sheng1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "再生 (zàishēng) hat mehrere Anwendungsbereiche: In der Biologie heißt es „nachwachsen, sich regenerieren“ (尾巴能再生), bei Ressourcen „sich erneuern“ (可再生能源 „erneuerbare Energien“), bei Abfällen „wiederaufbereitet“ (再生纸 „Recyclingpapier“, 再生资源 „Wertstoffe“). Im übertragenen Sinn bedeutet es „wiedergeboren werden“; 再生父母 ist jemand, dem man sein Leben verdankt.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:在意:zai4yi4",
     "word": "在意",
     "pinyin": "zàiyì",
-    "meaning": "achten auf",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "sich etwas daraus machen; Wert legen auf; etwas ausmachen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -66062,12 +70330,34 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他说话比较直，你别在意。",
+        "pinyin": "Tā shuōhuà bǐjiào zhí, nǐ bié zàiyì.",
+        "german": "Er redet ziemlich direkt, nimm es ihm nicht übel."
+      },
+      {
+        "chinese": "她很在意别人对她的看法。",
+        "pinyin": "Tā hěn zàiyì biérén duì tā de kànfǎ.",
+        "german": "Ihr ist sehr wichtig, was andere von ihr denken."
+      },
+      {
+        "chinese": "只要你开心，花多少钱我都不在意。",
+        "pinyin": "Zhǐyào nǐ kāixīn, huā duōshao qián wǒ dōu bú zàiyì.",
+        "german": "Solange du glücklich bist, ist mir egal, wie viel Geld es kostet."
+      }
+    ],
     "traditional": "在意",
     "evidence": {
       "cedict": "在意 在意 [zai4 yi4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "在意 (zàiyì) heißt, dass einem etwas wichtig ist oder einen innerlich beschäftigt, und steht oft verneint: 不在意 „sich nichts daraus machen“, 别在意 „mach dir nichts draus“, 很在意别人的看法 „viel darauf geben, was andere denken“. Fast gleichbedeutend und umgangssprachlicher ist 在乎 (zàihu). Für „auf etwas achten, aufpassen“ sagt man dagegen 注意: 注意安全, nicht 在意安全.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:赞赏:zan4shang3",
@@ -66080,8 +70370,18 @@ window.VOCAB_HSK6 = [
     "examples": [
       {
         "chinese": "他的努力得到了大家的赞赏。",
-        "pinyin": "Tā de nǔlì dédàole dàjiā de zànshǎng.",
+        "pinyin": "Tā de nǔlì dédào le dàjiā de zànshǎng.",
         "german": "Seine Bemühungen wurden von allen wertgeschätzt."
+      },
+      {
+        "chinese": "老板对他的工作能力十分赞赏。",
+        "pinyin": "Lǎobǎn duì tā de gōngzuò nénglì shífēn zànshǎng.",
+        "german": "Der Chef hält große Stücke auf seine fachlichen Fähigkeiten."
+      },
+      {
+        "chinese": "观众们用热烈的掌声表达了对演员的赞赏。",
+        "pinyin": "Guānzhòngmen yòng rèliè de zhǎngshēng biǎodá le duì yǎnyuán de zànshǎng.",
+        "german": "Das Publikum zeigte den Schauspielern mit stürmischem Applaus seine Anerkennung."
       }
     ],
     "legacyIds": [
@@ -66095,6 +70395,12 @@ window.VOCAB_HSK6 = [
     "traditional": "讚賞",
     "evidence": {
       "cedict": "讚賞 赞赏 [zan4 shang3]"
+    },
+    "notes": "赞赏 (zànshǎng) ist gehoben und drückt Anerkennung und Wertschätzung aus, oft für Leistung oder Haltung: 得到/受到…的赞赏 „Anerkennung finden“, 对…表示赞赏, 十分赞赏. 称赞 (chēngzàn) ist das lobende Aussprechen, 表扬 (biǎoyáng) das Loben durch Vorgesetzte oder Lehrer. 欣赏 (xīnshǎng) bedeutet eher „genießen“ (Kunst, Landschaft) oder „jemanden mögen und schätzen“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -66110,6 +70416,16 @@ window.VOCAB_HSK6 = [
         "chinese": "我完全赞同你的看法。",
         "pinyin": "Wǒ wánquán zàntóng nǐ de kànfǎ.",
         "german": "Ich stimme deiner Ansicht voll zu."
+      },
+      {
+        "chinese": "这个方案得到了大多数人的赞同。",
+        "pinyin": "Zhège fāng'àn dédào le dàduōshù rén de zàntóng.",
+        "german": "Dieser Vorschlag fand die Zustimmung der meisten."
+      },
+      {
+        "chinese": "对于这种做法，我不太赞同。",
+        "pinyin": "Duìyú zhè zhǒng zuòfǎ, wǒ bú tài zàntóng.",
+        "german": "Mit dieser Vorgehensweise bin ich nicht ganz einverstanden."
       }
     ],
     "legacyIds": [
@@ -66123,15 +70439,19 @@ window.VOCAB_HSK6 = [
     "traditional": "贊同",
     "evidence": {
       "cedict": "贊同 赞同 [zan4 tong2]"
+    },
+    "notes": "赞同 (zàntóng) heißt, einer Meinung, einem Vorschlag oder einer Vorgehensweise zuzustimmen, und klingt etwas formeller als 同意 (tóngyì). 同意 kann zusätzlich „erlauben“ bedeuten (妈妈同意我去), 赞同 wird so kaum gebraucht. Fast gleichbedeutend ist 赞成 (zànchéng), das auch bei Abstimmungen steht (赞成票 „Jastimme“). Typisch: 得到…的赞同, 我不太赞同.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:遭到:zao1dao4",
     "word": "遭到",
     "pinyin": "zāodào",
-    "meaning": "entgegenbringen; erleiden; durchmachen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "erleiden; auf etwas stoßen; betroffen werden von",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -66139,20 +70459,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他的建议遭到了大多数人的反对。",
+        "pinyin": "Tā de jiànyì zāodào le dàduōshù rén de fǎnduì.",
+        "german": "Sein Vorschlag stieß bei den meisten auf Ablehnung."
+      },
+      {
+        "chinese": "我申请了三次签证，都遭到了拒绝。",
+        "pinyin": "Wǒ shēnqǐng le sān cì qiānzhèng, dōu zāodào le jùjué.",
+        "german": "Ich habe dreimal ein Visum beantragt und wurde jedes Mal abgelehnt."
+      },
+      {
+        "chinese": "森林遭到严重破坏以后，很多动物失去了家园。",
+        "pinyin": "Sēnlín zāodào yánzhòng pòhuài yǐhòu, hěn duō dòngwù shīqù le jiāyuán.",
+        "german": "Nachdem der Wald schwer geschädigt worden war, verloren viele Tiere ihren Lebensraum."
+      }
+    ],
     "traditional": "遭到",
     "evidence": {
       "cedict": "遭到 遭到 [zao1 dao4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "遭到 (zāodào) steht vor unerwünschten Dingen, oft zweisilbigen Verbalnomen, und wirkt wie ein Passiv: 遭到拒绝 „abgelehnt werden“, 遭到批评 „kritisiert werden“, 遭到反对 „auf Widerstand stoßen“, 遭到破坏 „beschädigt werden“. Bei Erfreulichem nimmt man 受到 (shòudào): 受到欢迎. 遭受 (zāoshòu) steht eher bei Verlusten und Schlägen, 遭遇 (zāoyù) bei Unglücksfällen.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:遭受:zao1shou4",
     "word": "遭受",
     "pinyin": "zāoshòu",
-    "meaning": "erleiden, betroffen werden",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "erleiden; betroffen sein von",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -66160,26 +70500,58 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这次洪水让农民遭受了巨大的损失。",
+        "pinyin": "Zhè cì hóngshuǐ ràng nóngmín zāoshòu le jùdà de sǔnshī.",
+        "german": "Durch dieses Hochwasser erlitten die Bauern enorme Verluste."
+      },
+      {
+        "chinese": "公司的网站昨天遭受了黑客攻击。",
+        "pinyin": "Gōngsī de wǎngzhàn zuótiān zāoshòu le hēikè gōngjī.",
+        "german": "Die Website der Firma wurde gestern von Hackern angegriffen."
+      },
+      {
+        "chinese": "失业让他遭受了沉重的打击。",
+        "pinyin": "Shīyè ràng tā zāoshòu le chénzhòng de dǎjī.",
+        "german": "Die Arbeitslosigkeit war ein schwerer Schlag für ihn."
+      }
+    ],
     "traditional": "遭受",
     "evidence": {
       "cedict": "遭受 遭受 [zao1 shou4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "遭受 (zāoshòu) ist schriftsprachlich und steht mit Verlusten, Angriffen und Schicksalsschlägen: 遭受损失 „Verluste erleiden“, 遭受打击 „einen Schlag hinnehmen müssen“, 遭受攻击 „angegriffen werden“, 遭受不幸. Es überschneidet sich stark mit 遭到; bei Reaktionen anderer wie 拒绝 oder 批评 ist 遭到 aber üblicher.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:遭遇:zao1yu4",
     "word": "遭遇",
     "pinyin": "zāoyù",
-    "meaning": "Erlebnis, erleiden",
-    "type": "Nomen",
+    "meaning": "(Unglück) erleiden; geraten in; (schweres) Schicksal",
+    "type": "Verb",
     "level": "HSK6",
     "category": "Alltag",
     "examples": [
       {
         "chinese": "他遭遇了一场车祸。",
-        "pinyin": "Tā zāoyù le yī chǎng chēhuò.",
+        "pinyin": "Tā zāoyù le yì cháng chēhuò.",
         "german": "Er hatte einen Autounfall."
+      },
+      {
+        "chinese": "听了她的不幸遭遇，大家都很同情她。",
+        "pinyin": "Tīng le tā de búxìng zāoyù, dàjiā dōu hěn tóngqíng tā.",
+        "german": "Als alle von ihrem schweren Schicksal hörten, hatten sie großes Mitgefühl mit ihr."
+      },
+      {
+        "chinese": "公司今年遭遇了前所未有的困难。",
+        "pinyin": "Gōngsī jīnnián zāoyù le qiánsuǒwèiyǒu de kùnnan.",
+        "german": "Das Unternehmen ist dieses Jahr in nie dagewesene Schwierigkeiten geraten."
       }
     ],
     "legacyIds": [
@@ -66193,15 +70565,19 @@ window.VOCAB_HSK6 = [
     "traditional": "遭遇",
     "evidence": {
       "cedict": "遭遇 遭遇 [zao1 yu4]"
+    },
+    "notes": "遭遇 (zāoyù) heißt, auf etwas Unangenehmes zu treffen: 遭遇车祸 „einen Unfall haben“, 遭遇困难 „in Schwierigkeiten geraten“, 遭遇失败 „eine Niederlage erleiden“. Als Nomen bedeutet es das (meist bittere) Erlebnis oder Schicksal eines Menschen: 不幸的遭遇, 他的遭遇. Das Wort ist eher schriftsprachlich; im Gespräch sagt man oft 遇到 (yùdào), das auch neutral sein kann.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:噪声:zao4sheng1",
     "word": "噪声",
     "pinyin": "zàoshēng",
-    "meaning": "Geräusch, Rauschen, Lärm",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Lärm; Geräusch; Rauschen",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -66209,20 +70585,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "机场附近的居民长期受到噪声的影响。",
+        "pinyin": "Jīchǎng fùjìn de jūmín chángqī shòudào zàoshēng de yǐngxiǎng.",
+        "german": "Die Anwohner in der Nähe des Flughafens leiden seit Langem unter dem Lärm."
+      },
+      {
+        "chinese": "这台空调运行时几乎没有噪声。",
+        "pinyin": "Zhè tái kōngtiáo yùnxíng shí jīhū méiyǒu zàoshēng.",
+        "german": "Diese Klimaanlage läuft fast geräuschlos."
+      },
+      {
+        "chinese": "城市应该采取措施减少噪声污染。",
+        "pinyin": "Chéngshì yīnggāi cǎiqǔ cuòshī jiǎnshǎo zàoshēng wūrǎn.",
+        "german": "Städte sollten Maßnahmen gegen die Lärmbelastung ergreifen."
+      }
+    ],
     "traditional": "噪聲",
     "evidence": {
       "cedict": "噪聲 噪声 [zao4 sheng1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "噪声 (zàoshēng) ist der eher fachsprachliche Begriff für störenden Lärm, etwa in Umweltschutz und Technik: 噪声污染 „Lärmbelastung“, 降低噪声 „Lärm reduzieren“, in der Elektronik auch „Rauschen“. Im Alltag ist das gleichbedeutende 噪音 (zàoyīn) häufiger: 外面的噪音太大了. Ein neutrales Geräusch heißt einfach 声音.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:造型:zao4xing2",
     "word": "造型",
     "pinyin": "zàoxíng",
-    "meaning": "Formgebung, Design, Gestaltung",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Form; Gestaltung; Design; Styling; formen; gestalten",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -66230,20 +70626,40 @@ window.VOCAB_HSK6 = [
       "pos": "动、名",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这座大楼的造型很特别，像一个鸟巢。",
+        "pinyin": "Zhè zuò dàlóu de zàoxíng hěn tèbié, xiàng yí ge niǎocháo.",
+        "german": "Dieses Gebäude hat eine sehr ungewöhnliche Form, es sieht aus wie ein Vogelnest."
+      },
+      {
+        "chinese": "她为了参加婚礼，专门请人做了个造型。",
+        "pinyin": "Tā wèile cānjiā hūnlǐ, zhuānmén qǐng rén zuò le ge zàoxíng.",
+        "german": "Für die Hochzeit hat sie sich extra professionell stylen lassen."
+      },
+      {
+        "chinese": "这个歌手每次上台都会换一个新造型。",
+        "pinyin": "Zhège gēshǒu měi cì shàngtái dōu huì huàn yí ge xīn zàoxíng.",
+        "german": "Der Sänger tritt jedes Mal mit einem neuen Look auf die Bühne."
+      }
+    ],
     "traditional": "造型",
     "evidence": {
       "cedict": "造型 造型 [zao4 xing2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "造型 (zàoxíng) wird meist als Nomen gebraucht und bezeichnet die äußere Form oder Gestaltung eines Gegenstands oder Menschen: 造型独特 „eine ausgefallene Form haben“, 建筑造型 „Architekturform“, 新造型 „neuer Look“, 造型师 „Stylist“. Als Verb heißt es „formen, gestalten“, etwa in 造型艺术 „bildende Kunst“; umgangssprachlich sagt man 做造型 „sich stylen lassen“.",
+    "review": {
+      "batch": "b022",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:则:ze2",
     "word": "则",
     "pinyin": "zé",
-    "meaning": "Muster, Kriterium, Maßstab, Richtschnur, Standard; Regel, Vorschrift, Satzung; folgen, befolgen, sich nach etw. richten",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "dann; so; hingegen; jedoch",
     "type": "Konjunktion",
     "level": "HSK6",
     "levelUses": [
@@ -66260,20 +70676,40 @@ window.VOCAB_HSK6 = [
       "homograph": 1,
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "如果大家都同意，则按这个方案执行。",
+        "pinyin": "Rúguǒ dàjiā dōu tóngyì, zé àn zhège fāng'àn zhíxíng.",
+        "german": "Wenn alle einverstanden sind, wird nach diesem Plan verfahren."
+      },
+      {
+        "chinese": "哥哥性格外向，弟弟则比较安静。",
+        "pinyin": "Gēge xìnggé wàixiàng, dìdi zé bǐjiào ānjìng.",
+        "german": "Der ältere Bruder ist extrovertiert, der jüngere hingegen eher ruhig."
+      },
+      {
+        "chinese": "做事不能太着急，欲速则不达。",
+        "pinyin": "Zuòshì bù néng tài zháojí, yù sù zé bù dá.",
+        "german": "Man darf nichts überstürzen – wer zu schnell ans Ziel will, kommt nicht an."
+      }
+    ],
     "traditional": "則",
     "evidence": {
       "cedict": "則 则 [ze2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "则 (zé) ist eine Konjunktion der Schriftsprache und steht im zweiten Satzteil vor dem Prädikat, also nach einem eventuellen Subjekt – ähnlich wie 就 (jiù) oder 却 (què). Nach einer Bedingung heißt es „dann“: 如果…，则…; nach einem Vergleich markiert es den Gegensatz „hingegen“: 我喜欢安静，他则喜欢热闹. Im Alltag sagt man stattdessen meist 就 bzw. 而 (ér) oder 却. Fest gebraucht wird es in 否则 (fǒuzé) „sonst“ und in Sprichwörtern wie 欲速则不达; als Zählwort steht es für kurze Texte: 一则新闻 „eine Nachricht“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:扎:zha1",
     "word": "扎",
     "pinyin": "zhā",
-    "meaning": "stechen, pieksen; Zählwort für Bier, Getränke",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "stechen; hineinstechen; sich hineinbohren; (Truppen) stationieren",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -66281,20 +70717,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我摘玫瑰的时候，手被刺扎破了。",
+        "pinyin": "Wǒ zhāi méiguī de shíhou, shǒu bèi cì zhāpò le.",
+        "german": "Beim Rosenpflücken habe ich mir die Hand an einem Dorn aufgestochen."
+      },
+      {
+        "chinese": "护士在他胳膊上扎了一针。",
+        "pinyin": "Hùshi zài tā gēbo shang zhā le yì zhēn.",
+        "german": "Die Krankenschwester stach ihm eine Nadel in den Arm."
+      },
+      {
+        "chinese": "他一个人在这座城市扎下了根。",
+        "pinyin": "Tā yí ge rén zài zhè zuò chéngshì zhā xià le gēn.",
+        "german": "Er hat ganz allein in dieser Stadt Wurzeln geschlagen."
+      }
+    ],
     "traditional": "扎",
     "evidence": {
       "cedict": "扎 扎 [zha1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "扎 (zhā) bedeutet „mit etwas Spitzem stechen“: 扎针 (zhā zhēn) „eine Nadel setzen“ (Akupunktur, Infusion), 被刺扎了手 „sich an einem Dorn stechen“. Übertragen heißt es „sich hineinbohren, eintauchen“: 扎进水里, und in 扎根 (zhāgēn) „Wurzeln schlagen“. 扎啤 (zhāpí) ist „Bier vom Fass“. Für „zusammenbinden“ (扎辫子 „Zöpfe flechten“) geben Wörterbücher die Lesung zā an, umgangssprachlich hört man dort aber auch zhā.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:炸:zha4",
     "word": "炸",
     "pinyin": "zhà",
-    "meaning": "explodieren",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "explodieren; zerspringen; sprengen; bombardieren",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -66302,31 +70758,58 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他往冷的玻璃杯里倒开水，杯子一下子就炸了。",
+        "pinyin": "Tā wǎng lěng de bōlibēi li dào kāishuǐ, bēizi yíxiàzi jiù zhà le.",
+        "german": "Er goss kochendes Wasser in das kalte Glas, und es zersprang sofort."
+      },
+      {
+        "chinese": "这座桥在战争中被炸毁了。",
+        "pinyin": "Zhè zuò qiáo zài zhànzhēng zhōng bèi zhàhuǐ le.",
+        "german": "Diese Brücke wurde im Krieg zerbombt."
+      },
+      {
+        "chinese": "听到这个消息，他差点气炸了。",
+        "pinyin": "Tīngdào zhège xiāoxi, tā chàdiǎn qìzhà le.",
+        "german": "Als er die Nachricht hörte, wäre er vor Wut fast geplatzt."
+      }
+    ],
     "traditional": "炸",
     "evidence": {
       "cedict": "炸 炸 [zha4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "炸 (zhà) heißt „explodieren, zerspringen“ und transitiv „sprengen, bombardieren“; häufig mit Ergebniskomplement: 炸毁 (zhàhuǐ) „zerbomben“, 炸开 „aufsprengen“, 炸死 „durch eine Explosion töten“. Das Nomen dazu ist 爆炸 (bàozhà) „Explosion“, die Bombe heißt 炸弹 (zhàdàn). Umgangssprachlich bedeutet 气炸了 „vor Wut platzen“. Achtung: In der Küche liest man 炸 zhá (2. Ton) – 炸鸡 (zhájī) „frittiertes Hähnchen“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:粘:zhan1",
     "word": "粘",
     "pinyin": "zhān",
-    "meaning": "kleben; klebrig sein",
+    "meaning": "kleben; ankleben; haften",
     "type": "Verb",
     "level": "HSK6",
     "category": "Handlungen",
     "examples": [
       {
-        "chinese": "用胶水粘起来。",
-        "pinyin": "Yòng jiāoshuǐ zhān qǐlái.",
-        "german": "Mit Klebstoff zusammenkleben."
+        "chinese": "这本书的封面掉了，我用胶水把它粘好了。",
+        "pinyin": "Zhè běn shū de fēngmiàn diào le, wǒ yòng jiāoshuǐ bǎ tā zhānhǎo le.",
+        "german": "Der Einband des Buchs war abgegangen, ich habe ihn mit Klebstoff wieder angeklebt."
       },
       {
         "chinese": "请把邮票粘在信封上。",
         "pinyin": "Qǐng bǎ yóupiào zhān zài xìnfēng shàng.",
         "german": "Bitte kleb die Briefmarke auf den Umschlag."
+      },
+      {
+        "chinese": "火太大了，米饭都粘在锅底上了。",
+        "pinyin": "Huǒ tài dà le, mǐfàn dōu zhān zài guōdǐ shang le.",
+        "german": "Die Hitze war zu groß, jetzt klebt der ganze Reis am Topfboden fest."
       }
     ],
     "legacyIds": [
@@ -66340,21 +70823,32 @@ window.VOCAB_HSK6 = [
     "traditional": "粘",
     "evidence": {
       "cedict": "粘 粘 [zhan1]"
+    },
+    "notes": "粘 (zhān) ist das Verb „kleben, haften“: Etwas wird angeklebt (粘在…上, 粘起来, 粘住) oder bleibt von selbst hängen (米饭粘锅). Das Adjektiv „klebrig“ ist dagegen nián, meist 黏 (nián) geschrieben: 这种米很黏. Im Alltag sagt man für „aufkleben“ oft einfach 贴 (tiē); 粘 betont, dass Klebstoff im Spiel ist oder etwas fest haftet.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:粘贴:zhan1tie1",
     "word": "粘贴",
     "pinyin": "zhāntiē",
-    "meaning": "einfügen; aufkleben",
+    "meaning": "aufkleben; ankleben; (Computer) einfügen",
     "type": "Verb",
     "level": "HSK6",
     "category": "Alltag",
     "examples": [
       {
-        "chinese": "复制粘贴。",
-        "pinyin": "Fùzhì zhāntiē.",
-        "german": "Kopieren und Einfügen."
+        "chinese": "先把这段文字复制下来，然后粘贴到文档里。",
+        "pinyin": "Xiān bǎ zhè duàn wénzì fùzhì xiàlai, ránhòu zhāntiē dào wéndàng li.",
+        "german": "Kopier zuerst diesen Textabschnitt und füg ihn dann in das Dokument ein."
+      },
+      {
+        "chinese": "请把照片粘贴在报名表的右上角。",
+        "pinyin": "Qǐng bǎ zhàopiàn zhāntiē zài bàomíngbiǎo de yòushàngjiǎo.",
+        "german": "Bitte kleben Sie das Foto oben rechts auf das Anmeldeformular."
       }
     ],
     "legacyIds": [
@@ -66368,6 +70862,12 @@ window.VOCAB_HSK6 = [
     "traditional": "粘貼",
     "evidence": {
       "cedict": "粘貼 粘贴 [zhan1 tie1]"
+    },
+    "notes": "粘贴 (zhāntiē) heißt „aufkleben“ und ist etwas förmlicher als das alltägliche 贴 (tiē); man findet es oft in Anweisungen: 请将照片粘贴在此处. Heute begegnet es am häufigsten am Computer: 复制粘贴 (fùzhì zhāntiē) „Kopieren und Einfügen“, 粘贴到文档里 „in das Dokument einfügen“. In Taiwan liest man es niántiē und schreibt oft 黏貼.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -66388,6 +70888,11 @@ window.VOCAB_HSK6 = [
         "chinese": "他买了一辆崭新的汽车。",
         "pinyin": "Tā mǎi le yí liàng zhǎnxīn de qìchē.",
         "german": "Er hat ein brandneues Auto gekauft."
+      },
+      {
+        "chinese": "毕业以后，他开始了崭新的生活。",
+        "pinyin": "Bìyè yǐhòu, tā kāishǐ le zhǎnxīn de shēnghuó.",
+        "german": "Nach dem Abschluss begann für ihn ein ganz neues Leben."
       }
     ],
     "legacyIds": [
@@ -66404,15 +70909,19 @@ window.VOCAB_HSK6 = [
     },
     "variants": [
       "斩新"
-    ]
+    ],
+    "notes": "崭新 (zhǎnxīn) heißt „brandneu, ganz neu“ und ist bereits eine Steigerung von 新; daher wird es meist nicht mit 很 kombiniert. Es steht attributiv mit 的 (崭新的汽车) oder prädikativ im Rahmen 是…的 (这件衣服是崭新的). Übertragen spricht man von 崭新的生活 „ein ganz neues Leben“ oder 崭新的面貌 „ein völlig neues Gesicht“ (z. B. einer Stadt).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:占比:zhan4bi3",
     "word": "占比",
     "pinyin": "zhànbǐ",
     "meaning": "Anteil; Prozentsatz",
-    "meaningStatus": "draft",
-    "meaningSource": "Entwurf (Claude)",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -66420,20 +70929,35 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "在这家公司，女性员工的占比超过一半。",
+        "pinyin": "Zài zhè jiā gōngsī, nǚxìng yuángōng de zhànbǐ chāoguò yíbàn.",
+        "german": "In dieser Firma sind über die Hälfte der Beschäftigten Frauen."
+      },
+      {
+        "chinese": "网上购物在消费中的占比越来越高。",
+        "pinyin": "Wǎngshàng gòuwù zài xiāofèi zhōng de zhànbǐ yuè lái yuè gāo.",
+        "german": "Der Anteil des Online-Shoppings am Konsum wird immer größer."
+      }
+    ],
     "traditional": "占比",
     "evidence": {
       "cedict": "占比 占比 [zhan4 bi3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "占比 (zhànbǐ) ist ein jüngeres Wort aus Statistik, Wirtschaft und Nachrichten und bedeutet „Anteil (am Ganzen)“. Typische Rahmen: A在B中的占比, 占比为百分之三十, 占比超过一半, 占比最高. In der gesprochenen Sprache formuliert man oft mit dem Verb 占 (zhàn): 女生占一半 „die Hälfte sind Mädchen“. Neben 占比 sind auch 比例 (bǐlì) und 比重 (bǐzhòng) üblich.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:战斗:zhan4dou4",
     "word": "战斗",
     "pinyin": "zhàndòu",
-    "meaning": "kämpfen, sich schlagen; kämpfen, sich streiten; Bekämpfung",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Kampf; Gefecht; kämpfen",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -66441,7 +70965,23 @@ window.VOCAB_HSK6 = [
       "pos": "名、动",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这场战斗持续了三天三夜。",
+        "pinyin": "Zhè cháng zhàndòu chíxù le sān tiān sān yè.",
+        "german": "Das Gefecht dauerte drei Tage und drei Nächte."
+      },
+      {
+        "chinese": "战士们和敌人战斗到了最后一刻。",
+        "pinyin": "Zhànshìmen hé dírén zhàndòu dào le zuìhòu yí kè.",
+        "german": "Die Soldaten kämpften bis zum letzten Augenblick gegen den Feind."
+      },
+      {
+        "chinese": "这支球队的战斗力很强。",
+        "pinyin": "Zhè zhī qiúduì de zhàndòulì hěn qiáng.",
+        "german": "Diese Mannschaft ist sehr kampfstark."
+      }
+    ],
     "traditional": "戰鬥",
     "measureWords": [
       {
@@ -66456,13 +70996,19 @@ window.VOCAB_HSK6 = [
     "evidence": {
       "cedict": "戰鬥 战斗 [zhan4 dou4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "战斗 (zhàndòu) ist zunächst das militärische „Gefecht“ (Zählwort 场 cháng oder 次) – kleiner als 战役 (zhànyì) „Schlacht, Feldzug“ und 战争 (zhànzhēng) „Krieg“. Als Verb ist es intransitiv: 和敌人战斗 „gegen den Feind kämpfen“, nicht *战斗敌人. Übertragen spricht man von 战斗力 (zhàndòulì) „Kampfkraft“, auch bei Sportmannschaften; für den Kampf gegen Armut oder Krankheit sind 斗争 (dòuzhēng) und für das Streben im Leben 奋斗 (fèndòu) üblicher.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:占据:zhan4ju4",
     "word": "占据",
     "pinyin": "zhànjù",
-    "meaning": "einnehmen, besetzen",
+    "meaning": "einnehmen; besetzen; innehaben",
     "type": "Verb",
     "level": "HSK6",
     "category": "Alltag",
@@ -66471,6 +71017,16 @@ window.VOCAB_HSK6 = [
         "chinese": "工作占据了他大部分时间。",
         "pinyin": "Gōngzuò zhànjù le tā dà bùfen shíjiān.",
         "german": "Die Arbeit nimmt den größten Teil seiner Zeit ein."
+      },
+      {
+        "chinese": "这家公司占据了国内市场的一半。",
+        "pinyin": "Zhè jiā gōngsī zhànjù le guónèi shìchǎng de yíbàn.",
+        "german": "Dieses Unternehmen hält die Hälfte des Inlandsmarkts."
+      },
+      {
+        "chinese": "敌人已经占据了山顶。",
+        "pinyin": "Dírén yǐjīng zhànjù le shāndǐng.",
+        "german": "Der Feind hatte den Gipfel bereits besetzt."
       }
     ],
     "legacyIds": [
@@ -66484,15 +71040,19 @@ window.VOCAB_HSK6 = [
     "traditional": "佔據",
     "evidence": {
       "cedict": "佔據 占据 [zhan4 ju4]"
+    },
+    "notes": "占据 (zhànjù) heißt „einnehmen, (dauerhaft) besetzt halten“ und ist schriftsprachlicher als das einfache 占 (zhàn). Typische Objekte sind Orte, Positionen und abstrakte Größen: 占据山头, 占据市场, 占据主导地位 „eine führende Stellung einnehmen“, 占据时间, 占据…的心. Für die militärische Eroberung selbst sagt man eher 占领 (zhànlǐng); 占据 betont das Innehaben.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:战胜:zhan4sheng4",
     "word": "战胜",
     "pinyin": "zhànshèng",
-    "meaning": "besiegen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "besiegen; schlagen; überwinden",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -66500,20 +71060,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我们队以三比一战胜了对手。",
+        "pinyin": "Wǒmen duì yǐ sān bǐ yī zhànshèng le duìshǒu.",
+        "german": "Unsere Mannschaft hat den Gegner mit drei zu eins geschlagen."
+      },
+      {
+        "chinese": "她用了两年时间，终于战胜了病魔。",
+        "pinyin": "Tā yòng le liǎng nián shíjiān, zhōngyú zhànshèng le bìngmó.",
+        "german": "Nach zwei Jahren hat sie ihre schwere Krankheit endlich besiegt."
+      },
+      {
+        "chinese": "只要大家团结起来，就没有战胜不了的困难。",
+        "pinyin": "Zhǐyào dàjiā tuánjié qǐlái, jiù méiyǒu zhànshèng bu liǎo de kùnnan.",
+        "german": "Wenn wir alle zusammenhalten, gibt es keine Schwierigkeit, die wir nicht überwinden können."
+      }
+    ],
     "traditional": "戰勝",
     "evidence": {
       "cedict": "戰勝 战胜 [zhan4 sheng4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "战胜 (zhànshèng) ist transitiv: 战胜对手 „den Gegner schlagen“, 战胜困难 „Schwierigkeiten überwinden“, 战胜疾病 „eine Krankheit besiegen“, 战胜自己 „über sich hinauswachsen“. Es klingt etwas gehobener als das umgangssprachliche 打败 (dǎbài), ist aber eindeutig: 打败 kann je nach Satz auch „besiegt werden“ heißen. Im Sport steht das Ergebnis mit 以: 以三比一战胜. Die Potenzialform lautet 战胜不了 „nicht besiegen können“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:占有:zhan4you3",
     "word": "占有",
     "pinyin": "zhànyǒu",
-    "meaning": "besitzanzeigend; halten, festhalten; Verfügung",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "besitzen; innehaben; einnehmen (Stellung, Anteil); verfügen über",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -66521,12 +71101,34 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这家公司在手机市场上占有很大的份额。",
+        "pinyin": "Zhè jiā gōngsī zài shǒujī shìchǎng shang zhànyǒu hěn dà de fèn'é.",
+        "german": "Dieses Unternehmen hat einen großen Anteil am Smartphone-Markt."
+      },
+      {
+        "chinese": "写论文以前，要先占有足够的资料。",
+        "pinyin": "Xiě lùnwén yǐqián, yào xiān zhànyǒu zúgòu de zīliào.",
+        "german": "Bevor man eine Abschlussarbeit schreibt, muss man erst über genügend Material verfügen."
+      },
+      {
+        "chinese": "他的占有欲太强了，女朋友跟别人说话他都不高兴。",
+        "pinyin": "Tā de zhànyǒuyù tài qiáng le, nǚpéngyou gēn biérén shuōhuà tā dōu bù gāoxìng.",
+        "german": "Er ist extrem besitzergreifend – selbst wenn seine Freundin mit anderen redet, passt ihm das nicht."
+      }
+    ],
     "traditional": "佔有",
     "evidence": {
       "cedict": "佔有 占有 [zhan4 you3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "占有 (zhànyǒu) heißt „innehaben, über etwas verfügen“ und ist eher schriftsprachlich. Häufige Rahmen: 占有重要地位 „eine wichtige Stellung einnehmen“, 占有市场份额 „Marktanteile halten“, 占有资料 „über Material verfügen“. Anders als das neutrale 拥有 (yōngyǒu) „besitzen“ kann 占有 auch nach unrechtmäßiger Aneignung klingen: 非法占有. In Beziehungen spricht man von 占有欲 (zhànyǒuyù) „Besitzanspruch, Besitzdenken“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:战争:zhan4zheng1",
@@ -66540,7 +71142,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "战争带来了很多痛苦。",
         "pinyin": "Zhànzhēng dàilái le hěn duō tòngkǔ.",
-        "german": "Krieg bringt viel Leid."
+        "german": "Der Krieg hat viel Leid gebracht."
+      },
+      {
+        "chinese": "这场战争持续了八年。",
+        "pinyin": "Zhè cháng zhànzhēng chíxù le bā nián.",
+        "german": "Dieser Krieg dauerte acht Jahre."
+      },
+      {
+        "chinese": "我们希望世界上不再有战争。",
+        "pinyin": "Wǒmen xīwàng shìjiè shang bú zài yǒu zhànzhēng.",
+        "german": "Wir hoffen, dass es auf der Welt keinen Krieg mehr gibt."
       }
     ],
     "legacyIds": [
@@ -66564,15 +71176,19 @@ window.VOCAB_HSK6 = [
     ],
     "evidence": {
       "cedict": "戰爭 战争 [zhan4 zheng1]"
+    },
+    "notes": "战争 (zhànzhēng) ist „Krieg“ als Ganzes; Zählwort ist 场 (cháng) oder 次. Typische Verben: 发动战争 „einen Krieg beginnen“, 爆发战争 „ein Krieg bricht aus“, 结束战争 „einen Krieg beenden“; die Dauer drückt man umgangssprachlich mit 打 aus: 这场仗打了八年. Ein einzelnes Gefecht ist 战斗 (zhàndòu); das Verb „Krieg führen, kämpfen“ heißt im Alltag 打仗 (dǎzhàng).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:章:zhang1",
     "word": "章",
     "pinyin": "zhāng",
-    "meaning": "Stempel, Siegel; Abzeichen, Medaille; Kapitel, Abschnitt",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Kapitel (Zählwort); Stempel; Abzeichen",
     "type": "Zählwort",
     "level": "HSK6",
     "syllabus": {
@@ -66580,12 +71196,34 @@ window.VOCAB_HSK6 = [
       "pos": "量",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这本小说一共有二十章。",
+        "pinyin": "Zhè běn xiǎoshuō yígòng yǒu èrshí zhāng.",
+        "german": "Dieser Roman hat insgesamt zwanzig Kapitel."
+      },
+      {
+        "chinese": "请大家打开书，看第五章。",
+        "pinyin": "Qǐng dàjiā dǎkāi shū, kàn dì wǔ zhāng.",
+        "german": "Schlagt bitte alle das Buch auf und seht euch Kapitel fünf an."
+      },
+      {
+        "chinese": "这份文件还需要盖章才有效。",
+        "pinyin": "Zhè fèn wénjiàn hái xūyào gàizhāng cái yǒuxiào.",
+        "german": "Dieses Dokument ist erst mit einem Stempel gültig."
+      }
+    ],
     "traditional": "章",
     "evidence": {
       "cedict": "章 章 [zhang1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als Zählwort zählt 章 (zhāng) Kapitel von Büchern, Gesetzen oder Aufsätzen: 第三章 „Kapitel 3“, 这本书有十二章. Die Unterabschnitte heißen 节 (jié); in klassischen Romanen zählt man die Kapitel mit 回 (huí). Als Nomen bedeutet 章 „Stempel, Siegel“: 盖章 (gàizhāng) „abstempeln“ – in China bei vielen Dokumenten nötig. Außerdem steckt es in 文章 (wénzhāng) „Aufsatz, Artikel“ und 徽章 (huīzhāng) „Abzeichen“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:长辈:zhang3bei4",
@@ -66597,14 +71235,19 @@ window.VOCAB_HSK6 = [
     "category": "Familie",
     "examples": [
       {
-        "chinese": "要尊重长辈。",
-        "pinyin": "Yào zūnzhòng zhǎngbèi.",
-        "german": "Man soll die Älteren respektieren."
-      },
-      {
         "chinese": "我们应该尊重长辈。",
         "pinyin": "Wǒmen yīnggāi zūnzhòng zhǎngbèi.",
         "german": "Wir sollten die Älteren respektieren."
+      },
+      {
+        "chinese": "过年的时候，孩子们要给长辈拜年。",
+        "pinyin": "Guònián de shíhou, háizimen yào gěi zhǎngbèi bàinián.",
+        "german": "Zum Neujahrsfest wünschen die Kinder den Älteren in der Familie ein gutes neues Jahr."
+      },
+      {
+        "chinese": "他是我的长辈，我不能直接叫他的名字。",
+        "pinyin": "Tā shì wǒ de zhǎngbèi, wǒ bù néng zhíjiē jiào tā de míngzi.",
+        "german": "Er gehört zur älteren Generation, ich kann ihn nicht einfach beim Namen nennen."
       }
     ],
     "legacyIds": [
@@ -66618,13 +71261,19 @@ window.VOCAB_HSK6 = [
     "traditional": "長輩",
     "evidence": {
       "cedict": "長輩 长辈 [zhang3 bei4]"
+    },
+    "notes": "长辈 (zhǎngbèi) – mit zhǎng, nicht cháng – bezeichnet Angehörige einer älteren Generation, vor allem in der Familie (Eltern, Onkel, Großeltern), im weiteren Sinn auch ältere Respektspersonen. Entscheidend ist die Generation, nicht das Alter: Ein älterer Cousin ist kein 长辈. Das Gegenstück ist 晚辈 (wǎnbèi), Gleichaltrige derselben Generation sind 同辈 (tóngbèi). Typisch: 尊重长辈, 孝顺长辈, 给长辈拜年.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:障碍:zhang4ai4",
     "word": "障碍",
     "pinyin": "zhàng'ài",
-    "meaning": "Hindernis, Barriere",
+    "meaning": "Hindernis; Barriere; Störung; behindern",
     "type": "Nomen",
     "level": "HSK6",
     "category": "Alltag",
@@ -66632,7 +71281,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "语言是最大的障碍。",
         "pinyin": "Yǔyán shì zuì dà de zhàng'ài.",
-        "german": "Sprache ist das größte Hindernis."
+        "german": "Die Sprache ist das größte Hindernis."
+      },
+      {
+        "chinese": "这家医院的入口有无障碍通道，坐轮椅的人进出很方便。",
+        "pinyin": "Zhè jiā yīyuàn de rùkǒu yǒu wúzhàng'ài tōngdào, zuò lúnyǐ de rén jìnchū hěn fāngbiàn.",
+        "german": "Der Eingang dieses Krankenhauses ist barrierefrei, Rollstuhlfahrer kommen bequem hinein und hinaus."
+      },
+      {
+        "chinese": "他慢慢克服了心理障碍，敢在大家面前说话了。",
+        "pinyin": "Tā mànmàn kèfú le xīnlǐ zhàng'ài, gǎn zài dàjiā miànqián shuōhuà le.",
+        "german": "Allmählich überwand er seine innere Blockade und traute sich, vor allen zu sprechen."
       }
     ],
     "legacyIds": [
@@ -66647,6 +71306,12 @@ window.VOCAB_HSK6 = [
     "traditional": "障礙",
     "evidence": {
       "cedict": "障礙 障碍 [zhang4 ai4]"
+    },
+    "notes": "障碍 (zhàng'ài) ist meist ein Nomen: „Hindernis, Barriere“, mit Verben wie 克服 (kèfú) „überwinden“, 排除 „beseitigen“ oder 造成 „verursachen“. Häufige Verbindungen: 语言障碍 „Sprachbarriere“, 心理障碍 „psychische Blockade“, 障碍物 „Hindernis (Gegenstand)“; in der Medizin bedeutet es „Störung“: 睡眠障碍 „Schlafstörung“. 无障碍 (wúzhàng'ài) heißt „barrierefrei“. Als Verb „behindern“ ist es selten; dafür sagt man üblicher 妨碍 (fáng'ài) oder 阻碍 (zǔ'ài).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -66659,14 +71324,19 @@ window.VOCAB_HSK6 = [
     "category": "Einkaufen",
     "examples": [
       {
-        "chinese": "请给我账单。",
-        "pinyin": "Qǐng gěi wǒ zhàngdān.",
-        "german": "Bitte bringen Sie mir die Rechnung."
+        "chinese": "这个月的电费账单比上个月高了不少。",
+        "pinyin": "Zhège yuè de diànfèi zhàngdān bǐ shàng ge yuè gāo le bù shǎo.",
+        "german": "Die Stromrechnung für diesen Monat ist deutlich höher als die vom letzten Monat."
       },
       {
         "chinese": "服务员拿来了账单。",
         "pinyin": "Fúwùyuán nálái le zhàngdān.",
         "german": "Der Kellner brachte die Rechnung."
+      },
+      {
+        "chinese": "我每个月都会仔细检查信用卡账单。",
+        "pinyin": "Wǒ měi ge yuè dōu huì zǐxì jiǎnchá xìnyòngkǎ zhàngdān.",
+        "german": "Ich prüfe jeden Monat sorgfältig meine Kreditkartenabrechnung."
       }
     ],
     "legacyIds": [
@@ -66683,15 +71353,19 @@ window.VOCAB_HSK6 = [
     },
     "variants": [
       "帐单"
-    ]
+    ],
+    "notes": "账单 (zhàngdān) ist die Rechnung bzw. Abrechnung als Dokument, Zählwort 张 oder 份: 电费账单 „Stromrechnung“, 信用卡账单 „Kreditkartenabrechnung“. Im Restaurant ruft man zum Bezahlen meist 买单 (mǎidān) oder 结账 (jiézhàng); das ist geläufiger als 请给我账单. Nicht verwechseln mit 发票 (fāpiào), der offiziellen Steuerquittung.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:招:zhao1",
     "word": "招",
     "pinyin": "zhāo",
-    "meaning": "winken, einstellen, zu sich ziehen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "winken; anwerben; einstellen; anziehen; provozieren",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -66699,12 +71373,34 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "公司最近在招人，你可以去试试。",
+        "pinyin": "Gōngsī zuìjìn zài zhāo rén, nǐ kěyǐ qù shìshi.",
+        "german": "Die Firma sucht gerade Leute, versuch es doch mal."
+      },
+      {
+        "chinese": "这孩子嘴很甜，特别招人喜欢。",
+        "pinyin": "Zhè háizi zuǐ hěn tián, tèbié zhāo rén xǐhuan.",
+        "german": "Das Kind weiß genau, was man gern hört, und ist bei allen sehr beliebt."
+      },
+      {
+        "chinese": "他今天心情不好，你别去招他。",
+        "pinyin": "Tā jīntiān xīnqíng bù hǎo, nǐ bié qù zhāo tā.",
+        "german": "Er ist heute schlecht gelaunt, reiz ihn bloß nicht."
+      }
+    ],
     "traditional": "招",
     "evidence": {
       "cedict": "招 招 [zhao1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "招 (zhāo) hat mehrere Bedeutungen. „Mit der Hand herbeiwinken“: 招手 (zhāoshǒu). „Anwerben, aufnehmen“: 招人 „Personal suchen“, 招学生. „Anziehen, auslösen“: 招蚊子 „Mücken anlocken“, 招人喜欢 „liebenswert sein“. Umgangssprachlich auch „reizen, provozieren“: 别招他, ähnlich wie 惹 (rě). Als Nomen bedeutet 招 „Trick, Kniff“: 这一招真高.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:招待:zhao1dai4",
@@ -66719,6 +71415,16 @@ window.VOCAB_HSK6 = [
         "chinese": "谢谢你的热情招待。",
         "pinyin": "Xièxie nǐ de rèqíng zhāodài.",
         "german": "Vielen Dank für Ihre herzliche Bewirtung."
+      },
+      {
+        "chinese": "周末我们要在家招待几个老朋友。",
+        "pinyin": "Zhōumò wǒmen yào zài jiā zhāodài jǐ ge lǎo péngyou.",
+        "german": "Am Wochenende haben wir ein paar alte Freunde bei uns zu Gast."
+      },
+      {
+        "chinese": "大使馆昨晚举行了国庆招待会。",
+        "pinyin": "Dàshǐguǎn zuówǎn jǔxíng le guóqìng zhāodàihuì.",
+        "german": "Die Botschaft gab gestern Abend einen Empfang zum Nationalfeiertag."
       }
     ],
     "legacyIds": [
@@ -66732,15 +71438,19 @@ window.VOCAB_HSK6 = [
     "traditional": "招待",
     "evidence": {
       "cedict": "招待 招待 [zhao1 dai4]"
+    },
+    "notes": "招待 (zhāodài) heißt „Gäste bewirten, empfangen“ und betont Gastfreundschaft, Essen und Trinken: 招待客人, 招待朋友吃饭. Die förmliche Entgegennahme von Besuchern oder Delegationen heißt dagegen eher 接待 (jiēdài). Häufig ist es auch nominal: 谢谢你的热情招待; als Floskel des Gastgebers dient 招待不周 „verzeihen Sie die bescheidene Bewirtung“. Dazu gehören 招待会 (zhāodàihuì) „Empfang“ und 招待所 (zhāodàisuǒ) „Gästehaus“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:招生:zhao1sheng1",
     "word": "招生",
     "pinyin": "zhāoshēng",
-    "meaning": "immatrikulieren; neue Schüler oder Studenten aufnehmen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "neue Schüler aufnehmen; Studierende zulassen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -66748,20 +71458,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这所大学今年计划招生五千人。",
+        "pinyin": "Zhè suǒ dàxué jīnnián jìhuà zhāoshēng wǔqiān rén.",
+        "german": "Diese Universität will dieses Jahr fünftausend Studierende aufnehmen."
+      },
+      {
+        "chinese": "报名的事，你可以去学校的招生办问问。",
+        "pinyin": "Bàomíng de shì, nǐ kěyǐ qù xuéxiào de zhāoshēngbàn wènwen.",
+        "german": "Wegen der Anmeldung kannst du bei der Zulassungsstelle der Schule nachfragen."
+      },
+      {
+        "chinese": "这个培训班每年春季和秋季各招生一次。",
+        "pinyin": "Zhège péixùnbān měi nián chūnjì hé qiūjì gè zhāoshēng yí cì.",
+        "german": "Dieser Kurs nimmt jedes Jahr im Frühling und im Herbst neue Teilnehmer auf."
+      }
+    ],
     "traditional": "招生",
     "evidence": {
       "cedict": "招生 招生 [zhao1 sheng1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "招生 (zhāoshēng) beschreibt die Seite der Schule oder Hochschule: „neue Schüler, Studierende oder Kursteilnehmer aufnehmen“. Es steht meist ohne Objekt oder mit einer Zahl: 招生五千人. Dazu gehören 招生办 (zhāoshēngbàn) „Zulassungsstelle“ und 招生简章 „Zulassungsbroschüre“. Aus Sicht der Bewerber sagt man 报考 (bàokǎo) „sich zur Prüfung anmelden“ und 被录取 (lùqǔ) „zugelassen werden“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:招手:zhao1shou3",
     "word": "招手",
     "pinyin": "zhāoshǒu",
-    "meaning": "flattern, wehen; winken; winkend",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "winken; zuwinken; herbeiwinken",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -66769,20 +71499,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "她在车站向我招手。",
+        "pinyin": "Tā zài chēzhàn xiàng wǒ zhāoshǒu.",
+        "german": "Sie winkte mir am Bahnhof zu."
+      },
+      {
+        "chinese": "他站在路边招手叫了一辆出租车。",
+        "pinyin": "Tā zhàn zài lùbiān zhāoshǒu jiào le yí liàng chūzūchē.",
+        "german": "Er stand am Straßenrand und winkte ein Taxi heran."
+      },
+      {
+        "chinese": "老师招了招手，让我们过去。",
+        "pinyin": "Lǎoshī zhāo le zhāo shǒu, ràng wǒmen guòqu.",
+        "german": "Der Lehrer winkte uns zu sich."
+      }
+    ],
     "traditional": "招手",
     "evidence": {
       "cedict": "招手 招手 [zhao1 shou3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "招手 (zhāoshǒu) ist das Winken mit erhobener Hand, um jemanden zu grüßen oder herbeizurufen; die Person steht mit 向, 朝 oder 对 davor: 向我招手. Beim Abschied sagt man eher 挥手 (huīshǒu) „zum Abschied winken“. Ein Taxi winkt man mit 招手 heran: 招手叫车. Für eine kurze Geste verdoppelt man: 招招手, 招了招手.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:招收:zhao1shou1",
     "word": "招收",
     "pinyin": "zhāoshōu",
-    "meaning": "anstellen, einstellen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "aufnehmen; anwerben; einstellen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -66790,20 +71540,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这家工厂今年准备招收一百名工人。",
+        "pinyin": "Zhè jiā gōngchǎng jīnnián zhǔnbèi zhāoshōu yìbǎi míng gōngrén.",
+        "german": "Diese Fabrik will dieses Jahr hundert Arbeiter einstellen."
+      },
+      {
+        "chinese": "我们学校只招收十八岁以上的学生。",
+        "pinyin": "Wǒmen xuéxiào zhǐ zhāoshōu shíbā suì yǐshàng de xuésheng.",
+        "german": "Unsere Schule nimmt nur Schüler ab achtzehn Jahren auf."
+      },
+      {
+        "chinese": "这个俱乐部正在招收新会员。",
+        "pinyin": "Zhège jùlèbù zhèngzài zhāoshōu xīn huìyuán.",
+        "german": "Dieser Verein nimmt gerade neue Mitglieder auf."
+      }
+    ],
     "traditional": "招收",
     "evidence": {
       "cedict": "招收 招收 [zhao1 shou1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "招收 (zhāoshōu) ist förmlich und bedeutet, dass eine Institution Leute aufnimmt oder anwirbt; es steht mit Objekt, oft mit Zahl: 招收学生, 招收一百名工人, 招收新会员. Im Unterschied dazu steht 招生 (zhāoshēng) meist ohne Objekt und betrifft nur Schüler und Studierende. Für Stellenausschreibungen ist 招聘 (zhāopìn) das gängige Wort.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:照明:zhao4ming2",
     "word": "照明",
     "pinyin": "zhàomíng",
-    "meaning": "Beleuchtung, Ausleuchtung",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "beleuchten; Licht machen; Beleuchtung",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -66811,18 +71581,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "停电的时候，我们只能用手电筒照明。",
+        "pinyin": "Tíngdiàn de shíhou, wǒmen zhǐ néng yòng shǒudiàntǒng zhàomíng.",
+        "german": "Beim Stromausfall konnten wir nur mit Taschenlampen Licht machen."
+      },
+      {
+        "chinese": "这条路晚上照明不好，开车要小心。",
+        "pinyin": "Zhè tiáo lù wǎnshang zhàomíng bù hǎo, kāichē yào xiǎoxīn.",
+        "german": "Diese Straße ist nachts schlecht beleuchtet, fahr vorsichtig."
+      },
+      {
+        "chinese": "新教室的照明设备都换成了节能灯。",
+        "pinyin": "Xīn jiàoshì de zhàomíng shèbèi dōu huànchéng le jiénéngdēng.",
+        "german": "In den neuen Klassenzimmern wurde die Beleuchtung komplett auf Energiesparlampen umgestellt."
+      }
+    ],
     "traditional": "照明",
     "evidence": {
       "cedict": "照明 照明 [zhao4 ming2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "照明 (zhàomíng) heißt „beleuchten, für Licht sorgen“ und steht meist ohne Objekt: 用蜡烛照明. Häufig ist es attributiv oder nominal in technischen Ausdrücken: 照明设备 „Beleuchtungsanlage“, 照明灯 „Leuchte“, 照明条件 „Lichtverhältnisse“, 照明不好 „schlecht beleuchtet“. Will man sagen, dass etwas einen bestimmten Raum erhellt, nimmt man 照亮 (zhàoliàng): 灯照亮了房间.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:折:zhe2",
     "word": "折",
     "pinyin": "zhé",
-    "meaning": "falten; knicken",
+    "meaning": "falten; knicken; abbrechen; umkehren",
     "type": "Verb",
     "level": "HSK6",
     "category": "Handlungen",
@@ -66831,6 +71623,16 @@ window.VOCAB_HSK6 = [
         "chinese": "把纸折起来。",
         "pinyin": "Bǎ zhǐ zhé qǐlái.",
         "german": "Falte das Papier zusammen."
+      },
+      {
+        "chinese": "风很大，好几根树枝都折断了。",
+        "pinyin": "Fēng hěn dà, hǎo jǐ gēn shùzhī dōu zhéduàn le.",
+        "german": "Der Wind war so stark, dass etliche Äste abgebrochen sind."
+      },
+      {
+        "chinese": "这件衣服打八折，只要四百块。",
+        "pinyin": "Zhè jiàn yīfu dǎ bā zhé, zhǐ yào sìbǎi kuài.",
+        "german": "Das Kleidungsstück ist um zwanzig Prozent reduziert und kostet nur vierhundert Yuan."
       }
     ],
     "legacyIds": [
@@ -66844,6 +71646,12 @@ window.VOCAB_HSK6 = [
     "traditional": "折",
     "evidence": {
       "cedict": "折 折 [zhe2]"
+    },
+    "notes": "折 (zhé) heißt „falten, knicken“ (折纸 „Papier falten“, 把衣服折好 „Kleidung zusammenlegen“) und „abbrechen“, meist mit Komplement: 折断 (zhéduàn). 折回 bedeutet „umkehren“. Sehr häufig ist 打折 (dǎzhé) „Rabatt geben“ – Vorsicht: 打八折 heißt, man zahlt 80 Prozent, also 20 Prozent Rabatt. Andere Lesungen: zhē in 折腾 (zhēteng) „herumwerkeln, quälen“, shé in 折本 (shéběn) „Verlust machen“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -66864,6 +71672,11 @@ window.VOCAB_HSK6 = [
         "chinese": "护士给他打了一针。",
         "pinyin": "Hùshi gěi tā dǎ le yì zhēn.",
         "german": "Die Krankenschwester hat ihm eine Spritze gegeben."
+      },
+      {
+        "chinese": "他的手受伤了，缝了五针。",
+        "pinyin": "Tā de shǒu shòushāng le, féng le wǔ zhēn.",
+        "german": "Er hat sich an der Hand verletzt, die Wunde wurde mit fünf Stichen genäht."
       }
     ],
     "legacyIds": [
@@ -66888,9 +71701,12 @@ window.VOCAB_HSK6 = [
     "evidence": {
       "cedict": "針 针 [zhen1]"
     },
-    "variants": [
-      "箴"
-    ]
+    "notes": "针 (zhēn) ist die „Nadel“ (Zählwort 根) und im Alltag oft die „Spritze“: 打针 (dǎzhēn) „eine Spritze geben oder bekommen“, wobei Zählangaben dazwischen stehen: 打了一针. Ebenso zählt 针 Stiche beim Nähen: 缝了五针. Weitere Wörter: 针灸 (zhēnjiǔ) „Akupunktur“, 别针 (biézhēn) „Sicherheitsnadel“, 指针 (zhǐzhēn) „Zeiger“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:真相:zhen1xiang4",
@@ -66907,9 +71723,14 @@ window.VOCAB_HSK6 = [
         "german": "Ich möchte die Wahrheit wissen."
       },
       {
-        "chinese": "我们需要知道真相。",
-        "pinyin": "Wǒmen xūyào zhīdào zhēnxiàng.",
-        "german": "Wir müssen die Wahrheit erfahren."
+        "chinese": "经过调查，警察终于查明了事情的真相。",
+        "pinyin": "Jīngguò diàochá, jǐngchá zhōngyú chámíng le shìqing de zhēnxiàng.",
+        "german": "Nach ihren Ermittlungen hat die Polizei endlich aufgeklärt, was wirklich geschehen war."
+      },
+      {
+        "chinese": "他一直不敢把真相告诉父母。",
+        "pinyin": "Tā yìzhí bù gǎn bǎ zhēnxiàng gàosu fùmǔ.",
+        "german": "Er hat sich lange nicht getraut, seinen Eltern die Wahrheit zu sagen."
       }
     ],
     "legacyIds": [
@@ -66923,6 +71744,12 @@ window.VOCAB_HSK6 = [
     "traditional": "真相",
     "evidence": {
       "cedict": "真相 真相 [zhen1 xiang4]"
+    },
+    "notes": "真相 (zhēnxiàng) ist „die wahre Sachlage“, also das, was hinter einem Ereignis wirklich steckt. Typische Verben: 了解真相, 查明真相 „aufklären“, 揭露真相 „aufdecken“, 掩盖真相 „vertuschen“; dazu die Wendung 真相大白 „die Wahrheit kommt ans Licht“. „Die Wahrheit sagen“ im Sinne von „ehrlich sein“ heißt 说实话 (shuō shíhuà) oder 说真话, während 说出真相 „enthüllen, was wirklich geschah“ bedeutet; die philosophische „Wahrheit“ ist 真理 (zhēnlǐ).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -66930,8 +71757,6 @@ window.VOCAB_HSK6 = [
     "word": "珍珠",
     "pinyin": "zhēnzhū",
     "meaning": "Perle",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -66939,7 +71764,23 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 211
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "她今天戴着一条珍珠项链。",
+        "pinyin": "Tā jīntiān dài zhe yì tiáo zhēnzhū xiàngliàn.",
+        "german": "Sie trägt heute eine Perlenkette."
+      },
+      {
+        "chinese": "我想喝一杯珍珠奶茶。",
+        "pinyin": "Wǒ xiǎng hē yì bēi zhēnzhū nǎichá.",
+        "german": "Ich hätte gern einen Bubble Tea."
+      },
+      {
+        "chinese": "这颗珍珠又大又圆，价格很高。",
+        "pinyin": "Zhè kē zhēnzhū yòu dà yòu yuán, jiàgé hěn gāo.",
+        "german": "Diese Perle ist groß und rund und entsprechend teuer."
+      }
+    ],
     "traditional": "珍珠",
     "evidence": {
       "cedict": "珍珠 珍珠 [zhen1 zhu1]"
@@ -66947,13 +71788,19 @@ window.VOCAB_HSK6 = [
     "variants": [
       "真珠"
     ],
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "珍珠 (zhēnzhū) ist die „Perle“; einzelne Perlen zählt man mit 颗 (kē) oder 粒 (lì), eine Kette mit 条 oder 串: 一条珍珠项链 „eine Perlenkette“. Im Alltag begegnet das Wort vor allem in 珍珠奶茶 (zhēnzhū nǎichá) „Bubble Tea“, wo die Tapiokakugeln gemeint sind. In der Literatur steht es auch bildlich für Tränen oder für etwas Kostbares.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:枕头:zhen3tou5",
     "word": "枕头",
     "pinyin": "zhěntou",
-    "meaning": "Kissen",
+    "meaning": "Kopfkissen",
     "type": "Nomen",
     "level": "HSK6",
     "category": "Zuhause",
@@ -66972,11 +71819,6 @@ window.VOCAB_HSK6 = [
         "chinese": "我要两个枕头。",
         "pinyin": "Wǒ yào liǎng ge zhěntou.",
         "german": "Ich möchte zwei Kissen."
-      },
-      {
-        "chinese": "这个枕头太硬了。",
-        "pinyin": "Zhège zhěntou tài yìng le.",
-        "german": "Dieses Kissen ist zu hart."
       }
     ],
     "legacyIds": [
@@ -66990,21 +71832,37 @@ window.VOCAB_HSK6 = [
     "traditional": "枕頭",
     "evidence": {
       "cedict": "枕頭 枕头 [zhen3 tou5]"
+    },
+    "notes": "枕头 (zhěntou, zweite Silbe im neutralen Ton) ist das „Kopfkissen“ zum Schlafen, Zählwort 个. Ein Sofakissen heißt dagegen 靠垫 (kàodiàn), ein Kuschelkissen 抱枕 (bàozhěn), der Kissenbezug 枕套 (zhěntào). Das Verb 枕 (zhěn) bedeutet „den Kopf auf etwas legen“: 枕着胳膊睡觉 „mit dem Kopf auf dem Arm schlafen“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:镇:zhen4",
     "word": "镇",
     "pinyin": "zhèn",
-    "meaning": "Kleinstadt, Ortschaft",
+    "meaning": "Kleinstadt; Ortschaft; unterdrücken; beruhigen; (Getränke) kühlen",
     "type": "Nomen",
     "level": "HSK6",
     "category": "Reisen",
     "examples": [
       {
         "chinese": "这是一个美丽的小镇。",
-        "pinyin": "Zhè shì yí gè měilì de xiǎo zhèn.",
+        "pinyin": "Zhè shì yí ge měilì de xiǎo zhèn.",
         "german": "Das ist eine schöne Kleinstadt."
+      },
+      {
+        "chinese": "天太热了，来一瓶冰镇啤酒吧。",
+        "pinyin": "Tiān tài rè le, lái yì píng bīngzhèn píjiǔ ba.",
+        "german": "Es ist so heiß – bring mir doch ein eiskaltes Bier."
+      },
+      {
+        "chinese": "新来的经理很有威信，一下子就把大家镇住了。",
+        "pinyin": "Xīn lái de jīnglǐ hěn yǒu wēixìn, yíxiàzi jiù bǎ dàjiā zhènzhù le.",
+        "german": "Der neue Manager hatte so viel Autorität, dass er alle sofort im Griff hatte."
       }
     ],
     "legacyIds": [
@@ -67018,6 +71876,12 @@ window.VOCAB_HSK6 = [
     "traditional": "鎮",
     "evidence": {
       "cedict": "鎮 镇 [zhen4]"
+    },
+    "notes": "Als Nomen ist 镇 (zhèn) eine „Kleinstadt“ bzw. Großgemeinde, eine Verwaltungsebene unterhalb des Kreises (县 xiàn); im Alltag sagt man meist 小镇 „Städtchen“, touristisch bekannt sind die 古镇 (gǔzhèn) „historischen Altstädtchen“. Als Verb bedeutet es „niederhalten, in Schach halten“: 镇住 „jemanden im Griff haben, einschüchtern“, 镇定 (zhèndìng) „gefasst“. Außerdem steht es für „kühlen“: 冰镇 (bīngzhèn) 啤酒 „eisgekühltes Bier“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -67033,6 +71897,16 @@ window.VOCAB_HSK6 = [
         "chinese": "下午有阵雨。",
         "pinyin": "Xiàwǔ yǒu zhènyǔ.",
         "german": "Am Nachmittag gibt es Regenschauer."
+      },
+      {
+        "chinese": "刚才下了一场阵雨，现在天又晴了。",
+        "pinyin": "Gāngcái xià le yì cháng zhènyǔ, xiànzài tiān yòu qíng le.",
+        "german": "Eben gab es einen Schauer, jetzt ist es schon wieder sonnig."
+      },
+      {
+        "chinese": "天气预报说明天有雷阵雨，记得带伞。",
+        "pinyin": "Tiānqì yùbào shuō míngtiān yǒu léizhènyǔ, jìde dài sǎn.",
+        "german": "Laut Wetterbericht gibt es morgen Gewitterschauer, denk an den Schirm."
       }
     ],
     "legacyIds": [
@@ -67046,6 +71920,12 @@ window.VOCAB_HSK6 = [
     "traditional": "陣雨",
     "evidence": {
       "cedict": "陣雨 阵雨 [zhen4 yu3]"
+    },
+    "notes": "阵雨 (zhènyǔ) ist ein kurzer, oft kräftiger „Regenschauer“; 阵 bezeichnet etwas, das stoßweise kommt und wieder vorbeigeht. Man zählt mit 场 (cháng): 下了一场阵雨. Im Wetterbericht hört man oft 有阵雨 „Schauer“ und 雷阵雨 (léizhènyǔ) „Gewitterschauer“; anhaltender leichter Regen ist dagegen 小雨 (xiǎoyǔ).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -67059,8 +71939,18 @@ window.VOCAB_HSK6 = [
     "examples": [
       {
         "chinese": "他睁开眼睛看了看四周。",
-        "pinyin": "Tā zhēngkāi yǎnjīng kànle kàn sìzhōu.",
+        "pinyin": "Tā zhēngkāi yǎnjing kàn le kàn sìzhōu.",
         "german": "Er öffnete die Augen und schaute sich um."
+      },
+      {
+        "chinese": "他累得眼睛都睁不开了。",
+        "pinyin": "Tā lèi de yǎnjing dōu zhēng bu kāi le.",
+        "german": "Er war so müde, dass er die Augen kaum noch offen halten konnte."
+      },
+      {
+        "chinese": "这种小事，你就睁一只眼闭一只眼吧。",
+        "pinyin": "Zhè zhǒng xiǎoshì, nǐ jiù zhēng yì zhī yǎn bì yì zhī yǎn ba.",
+        "german": "Bei so einer Kleinigkeit drück doch einfach ein Auge zu."
       }
     ],
     "legacyIds": [
@@ -67074,13 +71964,19 @@ window.VOCAB_HSK6 = [
     "traditional": "睜",
     "evidence": {
       "cedict": "睜 睁 [zheng1]"
+    },
+    "notes": "睁 (zhēng) bezieht sich auf die Augen: 睁开眼睛 „die Augen öffnen“, 睁大眼睛 „die Augen aufreißen“, 睁着眼睛 „mit offenen Augen“; das Gegenteil ist 闭 (bì). Deutsche Lernende sagen oft *打开眼睛 – üblich ist 睁开. Den Mund öffnet man dagegen mit 张 (zhāng): 张嘴. Die Redewendung 睁一只眼闭一只眼 heißt „ein Auge zudrücken“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:争吵:zheng1chao3",
     "word": "争吵",
     "pinyin": "zhēngchǎo",
-    "meaning": "Streit, sich streiten",
+    "meaning": "sich streiten; sich zanken; Streit",
     "type": "Verb",
     "level": "HSK6",
     "category": "Beziehungen",
@@ -67088,7 +71984,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "邻居之间的争吵影响了社区和谐。",
         "pinyin": "Línjū zhījiān de zhēngchǎo yǐngxiǎng le shèqū héxié.",
-        "german": "Streitigkeiten zwischen Nachbarn beeinträchtigen die Harmonie der Gemeinde."
+        "german": "Die Streitigkeiten unter den Nachbarn haben das friedliche Zusammenleben im Viertel gestört."
+      },
+      {
+        "chinese": "他们俩为了一点小事争吵起来。",
+        "pinyin": "Tāmen liǎ wèile yìdiǎn xiǎoshì zhēngchǎo qǐlái.",
+        "german": "Die beiden gerieten wegen einer Kleinigkeit in Streit."
+      },
+      {
+        "chinese": "我在门外就听到了激烈的争吵声。",
+        "pinyin": "Wǒ zài mén wài jiù tīngdào le jīliè de zhēngchǎo shēng.",
+        "german": "Schon vor der Tür hörte ich heftiges Streiten."
       }
     ],
     "legacyIds": [
@@ -67102,15 +72008,19 @@ window.VOCAB_HSK6 = [
     "traditional": "爭吵",
     "evidence": {
       "cedict": "爭吵 争吵 [zheng1 chao3]"
+    },
+    "notes": "争吵 (zhēngchǎo) ist ein lauter, emotionaler Streit zwischen Personen: 和/跟某人争吵, 为了…争吵, 发生争吵. Es klingt etwas schriftsprachlicher als das alltägliche 吵架 (chǎojià), das als trennbares Verb auch 吵了一架 erlaubt; 争吵 selbst wird nicht getrennt. Geht es um eine sachliche Meinungsverschiedenheit, sagt man eher 争论 (zhēnglùn) „debattieren“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:争夺:zheng1duo2",
     "word": "争夺",
     "pinyin": "zhēngduó",
-    "meaning": "bestreiten, anfechten; Tauziehen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "kämpfen um; sich streiten um; wetteifern um",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -67118,31 +72028,53 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "两支球队将在决赛中争夺冠军。",
+        "pinyin": "Liǎng zhī qiúduì jiāng zài juésài zhōng zhēngduó guànjūn.",
+        "german": "Die beiden Mannschaften spielen im Finale um den Titel."
+      },
+      {
+        "chinese": "兄弟俩为了争夺父亲的遗产打起了官司。",
+        "pinyin": "Xiōngdì liǎ wèile zhēngduó fùqīn de yíchǎn dǎ qǐ le guānsi.",
+        "german": "Im Streit um das Erbe ihres Vaters zogen die beiden Brüder vor Gericht."
+      },
+      {
+        "chinese": "几家公司正在激烈争夺年轻消费者。",
+        "pinyin": "Jǐ jiā gōngsī zhèngzài jīliè zhēngduó niánqīng xiāofèizhě.",
+        "german": "Mehrere Unternehmen kämpfen erbittert um junge Kundschaft."
+      }
+    ],
     "traditional": "爭奪",
     "evidence": {
       "cedict": "爭奪 争夺 [zheng1 duo2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "争夺 (zhēngduó) heißt „(mit Rivalen) um etwas kämpfen“; das Objekt ist der umkämpfte Preis: 争夺冠军 „um den Titel kämpfen“, 争夺市场, 争夺资源, 争夺遗产. Es klingt nach harter Konkurrenz und steht oft mit 激烈. Davon zu unterscheiden ist 争取 (zhēngqǔ) „sich um etwas bemühen“, das keinen Gegner voraussetzt: 争取时间, 争取机会.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:争论:zheng1lun4",
     "word": "争论",
     "pinyin": "zhēnglùn",
-    "meaning": "streiten, debattieren",
+    "meaning": "debattieren; streiten (über); Streitgespräch",
     "type": "Verb",
     "level": "HSK6",
     "category": "Kommunikation",
     "examples": [
       {
-        "chinese": "他们在争论一个问题。",
-        "pinyin": "Tāmen zài zhēnglùn yī gè wèntí.",
-        "german": "Sie debattieren über ein Problem."
+        "chinese": "这个问题在学术界引起了很大的争论。",
+        "pinyin": "Zhège wèntí zài xuéshùjiè yǐnqǐ le hěn dà de zhēnglùn.",
+        "german": "Diese Frage hat in der Fachwelt eine heftige Debatte ausgelöst."
       },
       {
         "chinese": "他们经常争论。",
         "pinyin": "Tāmen jīngcháng zhēnglùn.",
-        "german": "Sie debattieren oft."
+        "german": "Sie streiten oft über irgendwelche Fragen."
       },
       {
         "chinese": "他们为这个问题争论了很久。",
@@ -67161,25 +72093,25 @@ window.VOCAB_HSK6 = [
     "traditional": "爭論",
     "measureWords": [
       {
-        "word": "次",
-        "pinyin": "ci4"
-      },
-      {
         "word": "场",
-        "pinyin": "chang3"
+        "pinyin": "chang2"
       }
     ],
     "evidence": {
       "cedict": "爭論 争论 [zheng1 lun4]"
+    },
+    "notes": "争论 (zhēnglùn) ist ein Streit mit Argumenten über eine Sachfrage, der durchaus hitzig sein kann: 为/就…争论, 和某人争论, 争论不休 „endlos streiten“. Als Nomen zählt man mit 场 (cháng) oder 次: 引起一场争论. Ein persönlicher, lauter Streit ist eher 争吵 (zhēngchǎo) oder 吵架; ein ruhiger Meinungsaustausch heißt 讨论 (tǎolùn).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:征求:zheng1qiu2",
     "word": "征求",
     "pinyin": "zhēngqiú",
-    "meaning": "positionieren, suchen; erbitten",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "einholen (Meinung, Zustimmung); erbitten; ersuchen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -67187,19 +72119,41 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "做决定以前，我想先征求一下父母的意见。",
+        "pinyin": "Zuò juédìng yǐqián, wǒ xiǎng xiān zhēngqiú yíxià fùmǔ de yìjiàn.",
+        "german": "Bevor ich mich entscheide, möchte ich erst meine Eltern nach ihrer Meinung fragen."
+      },
+      {
+        "chinese": "公司正在向员工征求改进工作的建议。",
+        "pinyin": "Gōngsī zhèngzài xiàng yuángōng zhēngqiú gǎijìn gōngzuò de jiànyì.",
+        "german": "Die Firma bittet die Mitarbeiter gerade um Verbesserungsvorschläge."
+      },
+      {
+        "chinese": "用别人的照片之前，应该征求本人的同意。",
+        "pinyin": "Yòng biérén de zhàopiàn zhīqián, yīnggāi zhēngqiú běnrén de tóngyì.",
+        "german": "Bevor man Fotos von anderen verwendet, sollte man ihre Zustimmung einholen."
+      }
+    ],
     "traditional": "徵求",
     "evidence": {
       "cedict": "徵求 征求 [zheng1 qiu2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "征求 (zhēngqiú) heißt „(Meinungen, Vorschläge, Zustimmung) einholen“; die Objekte sind fast immer 意见, 建议, 看法 oder 同意: 征求大家的意见, 征求父母的同意. Wen man fragt, steht mit 向 vor dem Verb oder als Attribut vor dem Objekt. Es ist höflich und etwas förmlich; 要求 (yāoqiú) dagegen ist eine Forderung, 请求 (qǐngqiú) eine Bitte um Hilfe oder Erlaubnis.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:争议:zheng1yi4",
     "word": "争议",
     "pinyin": "zhēngyì",
-    "meaning": "Kontroverse, Streit",
-    "type": "Nomen",
+    "meaning": "strittig sein; streiten; Kontroverse",
+    "type": "Verb",
     "level": "HSK6",
     "category": "Gesellschaft",
     "examples": [
@@ -67212,6 +72166,11 @@ window.VOCAB_HSK6 = [
         "chinese": "这项政策引发了很大争议。",
         "pinyin": "Zhè xiàng zhèngcè yǐnfā le hěn dà zhēngyì.",
         "german": "Diese Politik löste große Kontroversen aus."
+      },
+      {
+        "chinese": "关于这个判罚，双方仍有争议。",
+        "pinyin": "Guānyú zhège pànfá, shuāngfāng réng yǒu zhēngyì.",
+        "german": "Über diese Schiedsrichterentscheidung sind sich beide Seiten weiterhin uneinig."
       }
     ],
     "legacyIds": [
@@ -67225,6 +72184,12 @@ window.VOCAB_HSK6 = [
     "traditional": "爭議",
     "evidence": {
       "cedict": "爭議 争议 [zheng1 yi4]"
+    },
+    "notes": "争议 (zhēngyì) bezeichnet eine Meinungsverschiedenheit, die (noch) nicht geklärt ist. Das Wörterbuch führt es als Verb, gebraucht wird es aber meist in festen Rahmen, in denen es wie ein Nomen wirkt: 有争议 „umstritten sein“, 引起/引发争议 „eine Kontroverse auslösen“, 存在争议, 备受争议 „heftig umstritten“, 无可争议 „unbestreitbar“. 争论 (zhēnglùn) betont dagegen das Debattieren selbst.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -67237,14 +72202,19 @@ window.VOCAB_HSK6 = [
     "category": "Gesellschaft",
     "examples": [
       {
-        "chinese": "政府推出了新政策。",
-        "pinyin": "Zhèngfǔ tuīchū le xīn zhèngcè.",
-        "german": "Die Regierung hat eine neue Maßnahme eingeführt."
-      },
-      {
         "chinese": "政府出台了新的政策。",
         "pinyin": "Zhèngfǔ chūtái le xīn de zhèngcè.",
         "german": "Die Regierung hat neue politische Maßnahmen eingeführt."
+      },
+      {
+        "chinese": "这项政策对小企业很有帮助。",
+        "pinyin": "Zhè xiàng zhèngcè duì xiǎo qǐyè hěn yǒu bāngzhù.",
+        "german": "Diese Maßnahme ist für kleine Unternehmen sehr hilfreich."
+      },
+      {
+        "chinese": "我们店的退货政策是三十天内可以无条件退货。",
+        "pinyin": "Wǒmen diàn de tuìhuò zhèngcè shì sānshí tiān nèi kěyǐ wú tiáojiàn tuìhuò.",
+        "german": "Bei uns gilt: Innerhalb von dreißig Tagen können Sie Waren ohne Angabe von Gründen zurückgeben."
       }
     ],
     "legacyIds": [
@@ -67258,21 +72228,29 @@ window.VOCAB_HSK6 = [
     "traditional": "政策",
     "measureWords": [
       {
+        "word": "项",
+        "pinyin": "xiang4"
+      },
+      {
         "word": "个",
         "pinyin": "ge4"
       }
     ],
     "evidence": {
       "cedict": "政策 政策 [zheng4 ce4]"
+    },
+    "notes": "政策 (zhèngcè) ist eine konkrete „Politik“ im Sinne von Kurs, Linie oder Maßnahmenpaket, Zählwort 项 (xiàng): 外交政策 „Außenpolitik“, 出台/实行/调整政策. „Politik“ als Bereich oder Tätigkeit heißt dagegen 政治 (zhèngzhì). Auch Firmen haben 政策 im Sinne von „Richtlinien“: 退货政策 „Rückgaberegelung“. Bekannt ist der Spruch 上有政策，下有对策 „oben gibt es Vorschriften, unten Wege, sie zu umgehen“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:正规:zheng4gui1",
     "word": "正规",
     "pinyin": "zhèngguī",
-    "meaning": "regelrecht; regulär",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "regulär; ordnungsgemäß; seriös; offiziell zugelassen",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -67280,20 +72258,40 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "买药一定要去正规的药店。",
+        "pinyin": "Mǎi yào yídìng yào qù zhèngguī de yàodiàn.",
+        "german": "Medikamente sollte man unbedingt in einer zugelassenen Apotheke kaufen."
+      },
+      {
+        "chinese": "他没受过正规的音乐教育，全靠自学。",
+        "pinyin": "Tā méi shòuguo zhèngguī de yīnyuè jiàoyù, quán kào zìxué.",
+        "german": "Er hat nie eine richtige Musikausbildung bekommen, sondern sich alles selbst beigebracht."
+      },
+      {
+        "chinese": "这家公司管理很正规，员工都有合同。",
+        "pinyin": "Zhè jiā gōngsī guǎnlǐ hěn zhèngguī, yuángōng dōu yǒu hétong.",
+        "german": "Diese Firma wird ordentlich geführt, alle Mitarbeiter haben einen Vertrag."
+      }
+    ],
     "traditional": "正規",
     "evidence": {
       "cedict": "正規 正规 [zheng4 gui1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "正规 (zhèngguī) heißt „den Regeln und Standards entsprechend“ und damit oft „seriös, offiziell zugelassen“: 正规医院, 正规渠道 „offizielle Kanäle“, 正规军 „reguläre Truppen“, 正规教育 „formale Ausbildung“. Das Gegenteil 不正规 klingt nach „unseriös, nicht offiziell“. Nicht verwechseln mit 正式 (zhèngshì) „offiziell, förmlich“ (正式场合 „offizieller Anlass“).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:正面:zheng4mian4",
     "word": "正面",
     "pinyin": "zhèngmiàn",
-    "meaning": "die rechte Seite (von Stoffen), Oberseite, Vorderseite, Frontseite, Front; positiv",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Vorderseite; Front; positiv; direkt",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -67301,12 +72299,34 @@ window.VOCAB_HSK6 = [
       "pos": "名、形",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "请在表格的正面填写个人信息。",
+        "pinyin": "Qǐng zài biǎogé de zhèngmiàn tiánxiě gèrén xìnxī.",
+        "german": "Bitte tragen Sie Ihre persönlichen Daten auf der Vorderseite des Formulars ein."
+      },
+      {
+        "chinese": "这次活动对学生产生了很大的正面影响。",
+        "pinyin": "Zhè cì huódòng duì xuésheng chǎnshēng le hěn dà de zhèngmiàn yǐngxiǎng.",
+        "german": "Die Veranstaltung hatte einen sehr positiven Einfluss auf die Schüler."
+      },
+      {
+        "chinese": "记者问了好几次，他都没有正面回答。",
+        "pinyin": "Jìzhě wèn le hǎo jǐ cì, tā dōu méiyǒu zhèngmiàn huídá.",
+        "german": "Der Journalist fragte mehrmals nach, doch er wich jedes Mal einer direkten Antwort aus."
+      }
+    ],
     "traditional": "正面",
     "evidence": {
       "cedict": "正面 正面 [zheng4 mian4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als Nomen ist 正面 (zhèngmiàn) die „Vorderseite“ oder „rechte Seite“: 纸的正面, 大楼的正面, bei Münzen „Kopf“; das Gegenteil ist 反面 (fǎnmiàn) oder 背面 (bèimiàn). Als Adjektiv heißt es „positiv“ – 正面影响 „positiver Einfluss“, 正面人物 „positive Figur“ – oder „direkt, frontal“: 正面回答 „direkt antworten“, 正面冲突 „offene Konfrontation“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:证实:zheng4shi2",
@@ -67321,6 +72341,16 @@ window.VOCAB_HSK6 = [
         "chinese": "实验证实了他的理论。",
         "pinyin": "Shíyàn zhèngshí le tā de lǐlùn.",
         "german": "Das Experiment bestätigte seine Theorie."
+      },
+      {
+        "chinese": "这个消息还没有得到证实。",
+        "pinyin": "Zhège xiāoxi hái méiyǒu dédào zhèngshí.",
+        "german": "Diese Meldung ist noch nicht bestätigt."
+      },
+      {
+        "chinese": "警方证实，事故中没有人受伤。",
+        "pinyin": "Jǐngfāng zhèngshí, shìgù zhōng méiyǒu rén shòushāng.",
+        "german": "Die Polizei bestätigte, dass bei dem Unfall niemand verletzt wurde."
       }
     ],
     "legacyIds": [
@@ -67334,26 +72364,37 @@ window.VOCAB_HSK6 = [
     "traditional": "證實",
     "evidence": {
       "cedict": "證實 证实 [zheng4 shi2]"
+    },
+    "notes": "证实 (zhèngshí) heißt „bestätigen, dass etwas wahr ist“: Ein Experiment, eine Behörde oder Tatsachen bestätigen eine Behauptung, Vermutung oder Meldung. Typisch: 证实了…的说法, 得到证实 „bestätigt werden“, 尚未证实 „unbestätigt“. 证明 (zhèngmíng) heißt dagegen „beweisen, bescheinigen“, und eine Buchung oder Identität „bestätigt“ man mit 确认 (quèrèn).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:正义:zheng4yi4",
     "word": "正义",
     "pinyin": "zhèngyì",
-    "meaning": "Gerechtigkeit",
+    "meaning": "Gerechtigkeit; gerecht",
     "type": "Nomen",
     "level": "HSK6",
     "category": "Gesellschaft",
     "examples": [
       {
-        "chinese": "我们要追求正义。",
-        "pinyin": "Wǒmen yào zhuīqiú zhèngyì.",
-        "german": "Wir müssen nach Gerechtigkeit streben."
-      },
-      {
         "chinese": "追求正义是人类永恒的主题。",
         "pinyin": "Zhuīqiú zhèngyì shì rénlèi yǒnghéng de zhǔtí.",
         "german": "Das Streben nach Gerechtigkeit ist ein ewiges Thema der Menschheit."
+      },
+      {
+        "chinese": "他很有正义感，看到不公平的事就会站出来。",
+        "pinyin": "Tā hěn yǒu zhèngyìgǎn, kàndào bù gōngpíng de shì jiù huì zhàn chūlai.",
+        "german": "Er hat einen ausgeprägten Gerechtigkeitssinn und schreitet ein, wenn er Unrecht sieht."
+      },
+      {
+        "chinese": "在这部电影里，正义最终战胜了邪恶。",
+        "pinyin": "Zài zhè bù diànyǐng li, zhèngyì zuìzhōng zhànshèng le xié'è.",
+        "german": "In diesem Film siegt am Ende das Gute über das Böse."
       }
     ],
     "legacyIds": [
@@ -67367,6 +72408,12 @@ window.VOCAB_HSK6 = [
     "traditional": "正義",
     "evidence": {
       "cedict": "正義 正义 [zheng4 yi4]"
+    },
+    "notes": "正义 (zhèngyì) ist „Gerechtigkeit“ im moralischen Sinn, das Rechte gegenüber dem Bösen (邪恶 xié'è). Typisch: 追求正义, 主持正义 „für Gerechtigkeit sorgen“, 正义感 (zhèngyìgǎn) „Gerechtigkeitssinn“. Als Adjektiv heißt es „gerecht, rechtschaffen“: 正义的事业. Für „fair“ im Alltag sagt man eher 公平 (gōngpíng), für „unparteiisch“ 公正 (gōngzhèng).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -67386,7 +72433,12 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "这种病的症状包括发烧和咳嗽。",
         "pinyin": "Zhè zhǒng bìng de zhèngzhuàng bāokuò fāshāo hé késou.",
-        "german": "Die Symptome dieser Krankheit umfassen Fieber und Husten."
+        "german": "Zu den Symptomen dieser Krankheit gehören Fieber und Husten."
+      },
+      {
+        "chinese": "吃药以后，他的症状减轻了不少。",
+        "pinyin": "Chī yào yǐhòu, tā de zhèngzhuàng jiǎnqīng le bù shǎo.",
+        "german": "Nach der Einnahme der Medikamente sind seine Symptome deutlich zurückgegangen."
       }
     ],
     "legacyIds": [
@@ -67400,15 +72452,19 @@ window.VOCAB_HSK6 = [
     "traditional": "症狀",
     "evidence": {
       "cedict": "症狀 症状 [zheng4 zhuang4]"
+    },
+    "notes": "症状 (zhèngzhuàng) ist das medizinische „Symptom“; 症 wird hier zhèng gelesen. Typische Verbindungen: 出现…症状 „Symptome zeigen“, 症状减轻/加重 „Symptome lassen nach/verschlimmern sich“, 轻微症状 „leichte Symptome“, 有感冒的症状. Für Anzeichen außerhalb der Medizin sagt man eher 迹象 (jìxiàng) oder 现象 (xiànxiàng).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:支:zhi1#2",
     "word": "支",
     "pinyin": "zhī",
-    "meaning": "Radikal Nr. 65 = Zweig, stützen, aufrichten, Abzweigung (Sprachw); Zählwort für längliche, stockartige Gegenstände (z. B. Stift, Pinsel, Essstäbchen); Zählwort für Lieder, Musikstücke",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "stützen; aufstellen; aushalten; wegschicken; (Geld) auszahlen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -67417,20 +72473,40 @@ window.VOCAB_HSK6 = [
       "homograph": 2,
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我们在湖边支起了帐篷。",
+        "pinyin": "Wǒmen zài húbiān zhī qǐ le zhàngpeng.",
+        "german": "Wir schlugen am Seeufer unser Zelt auf."
+      },
+      {
+        "chinese": "他用手支着下巴，好像在想什么。",
+        "pinyin": "Tā yòng shǒu zhī zhe xiàba, hǎoxiàng zài xiǎng shénme.",
+        "german": "Er stützte das Kinn auf die Hand und schien über etwas nachzudenken."
+      },
+      {
+        "chinese": "妈妈找了个借口把孩子支开了。",
+        "pinyin": "Māma zhǎo le ge jièkǒu bǎ háizi zhīkāi le.",
+        "german": "Die Mutter schickte das Kind unter einem Vorwand weg."
+      }
+    ],
     "traditional": "支",
     "evidence": {
       "cedict": "支 支 [zhi1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als Verb heißt 支 (zhī) „stützen, aufstellen“: 支帐篷 „ein Zelt aufschlagen“, 用手支着头 „den Kopf auf die Hand stützen“. Daraus folgt „aushalten“: 支不住 „sich nicht mehr halten können“. Umgangssprachlich bedeutet 支开 „jemanden (unter einem Vorwand) wegschicken“, und bei Geld steht es für „auszahlen, vorschießen“: 预支工资 „einen Lohnvorschuss nehmen“. Als Zählwort für Stifte, Lieder oder Truppen ist 支 ein eigener Eintrag.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:枝:zhi1",
     "word": "枝",
     "pinyin": "zhī",
-    "meaning": "Ast, Zweig; Zählwort für längliche, stockartige Gegenstände wie Pinsel, Stift, Stäbchen, Zweige",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Zweig; Ast; Zählwort für Blumen und Zweige",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -67438,20 +72514,40 @@ window.VOCAB_HSK6 = [
       "pos": "名、量",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他送给她一枝红玫瑰。",
+        "pinyin": "Tā sòng gěi tā yì zhī hóng méiguī.",
+        "german": "Er schenkte ihr eine rote Rose."
+      },
+      {
+        "chinese": "几只小鸟站在树枝上。",
+        "pinyin": "Jǐ zhī xiǎoniǎo zhàn zài shùzhī shang.",
+        "german": "Ein paar kleine Vögel sitzen auf dem Ast."
+      },
+      {
+        "chinese": "春天到了，柳树的枝条都绿了。",
+        "pinyin": "Chūntiān dào le, liǔshù de zhītiáo dōu lǜ le.",
+        "german": "Der Frühling ist da, die Weidenzweige sind schon ganz grün."
+      }
+    ],
     "traditional": "枝",
     "evidence": {
       "cedict": "枝 枝 [zhi1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "枝 (zhī) ist der „Zweig“; als freies Nomen sagt man meist 树枝 (shùzhī) oder 枝条 (zhītiáo). Als Zählwort steht es für Blumen mit Stiel und für Zweige: 一枝玫瑰 „eine Rose“, 一枝梅花. Für Stifte und andere stabförmige Dinge schreibt man im heutigen Standard meist 支 (一支笔); 枝 kommt dort vereinzelt noch vor.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:支撑:zhi1cheng1",
     "word": "支撑",
     "pinyin": "zhīchēng",
-    "meaning": "sich (ab)stützen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "stützen; abstützen; aufrechterhalten; durchhalten",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -67459,18 +72555,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这座老房子靠几根木头支撑着。",
+        "pinyin": "Zhè zuò lǎo fángzi kào jǐ gēn mùtou zhīchēng zhe.",
+        "german": "Dieses alte Haus wird von ein paar Holzbalken gestützt."
+      },
+      {
+        "chinese": "父亲去世后，她一个人支撑起了整个家。",
+        "pinyin": "Fùqīn qùshì hòu, tā yí ge rén zhīchēng qǐ le zhěnggè jiā.",
+        "german": "Nach dem Tod des Vaters hielt sie die ganze Familie allein über Wasser."
+      },
+      {
+        "chinese": "他实在太累了，支撑不住，倒在了地上。",
+        "pinyin": "Tā shízài tài lèi le, zhīchēng bu zhù, dǎo zài le dì shang.",
+        "german": "Er war so erschöpft, dass er sich nicht mehr halten konnte und zu Boden fiel."
+      }
+    ],
     "traditional": "支撐",
     "evidence": {
       "cedict": "支撐 支撑 [zhi1 cheng1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "支撑 (zhīchēng) heißt zunächst „(ein Gewicht) stützen, tragen“: 柱子支撑着屋顶. Übertragen bedeutet es „aufrechterhalten, durchhalten“: 支撑一个家 „eine Familie über Wasser halten“, 精神支撑 „seelischer Halt“, 支撑不住 „nicht mehr durchhalten“. Deutsche Lernende verwechseln es gern mit 支持 (zhīchí): Dieses bedeutet „unterstützen“ im Sinne von Rückhalt für eine Person oder Idee.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:支出:zhi1chu1",
     "word": "支出",
     "pinyin": "zhīchū",
-    "meaning": "Ausgaben",
+    "meaning": "Ausgaben; ausgeben; auszahlen",
     "type": "Nomen",
     "level": "HSK6",
     "category": "Alltag",
@@ -67479,6 +72597,16 @@ window.VOCAB_HSK6 = [
         "chinese": "这个月的支出太多了。",
         "pinyin": "Zhège yuè de zhīchū tài duō le.",
         "german": "Die Ausgaben diesen Monat sind zu hoch."
+      },
+      {
+        "chinese": "我们家最大的一项支出是房租。",
+        "pinyin": "Wǒmen jiā zuì dà de yí xiàng zhīchū shì fángzū.",
+        "german": "Der größte Ausgabenposten unserer Familie ist die Miete."
+      },
+      {
+        "chinese": "这笔费用由公司支出。",
+        "pinyin": "Zhè bǐ fèiyòng yóu gōngsī zhīchū.",
+        "german": "Diese Kosten trägt die Firma."
       }
     ],
     "legacyIds": [
@@ -67492,6 +72620,12 @@ window.VOCAB_HSK6 = [
     "traditional": "支出",
     "evidence": {
       "cedict": "支出 支出 [zhi1 chu1]"
+    },
+    "notes": "支出 (zhīchū) sind die „Ausgaben“ eines Haushalts, einer Firma oder des Staates; das Gegenteil ist 收入 (shōurù) „Einnahmen“, zusammen 收支 (shōuzhī): 收支平衡 „ausgeglichener Haushalt“. Typisch: 支出增加, 减少支出, 一项支出 „ein Ausgabenposten“. Als Verb „ausgeben, auszahlen“ ist es förmlich und klingt nach Buchhaltung; im Alltag sagt man 花钱 (huāqián).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -67507,6 +72641,16 @@ window.VOCAB_HSK6 = [
         "chinese": "过多的脂肪对身体不好。",
         "pinyin": "Guòduō de zhīfáng duì shēntǐ bù hǎo.",
         "german": "Zu viel Fett ist schlecht für den Körper."
+      },
+      {
+        "chinese": "这种牛奶是低脂的，脂肪含量很低。",
+        "pinyin": "Zhè zhǒng niúnǎi shì dīzhī de, zhīfáng hánliàng hěn dī.",
+        "german": "Diese Milch ist fettarm, ihr Fettgehalt ist sehr gering."
+      },
+      {
+        "chinese": "多运动可以帮助燃烧脂肪。",
+        "pinyin": "Duō yùndòng kěyǐ bāngzhù ránshāo zhīfáng.",
+        "german": "Viel Bewegung hilft, Fett zu verbrennen."
       }
     ],
     "legacyIds": [
@@ -67520,15 +72664,19 @@ window.VOCAB_HSK6 = [
     "traditional": "脂肪",
     "evidence": {
       "cedict": "脂肪 脂肪 [zhi1 fang2]"
+    },
+    "notes": "脂肪 (zhīfáng) ist „Fett“ als Stoff im Körper und in Lebensmitteln, ein Wort aus Ernährung und Medizin: 脂肪含量 „Fettgehalt“, 燃烧脂肪 „Fett verbrennen“, 脂肪肝 „Fettleber“, 低脂 (dīzhī) „fettarm“. Speiseöl oder Bratfett heißt dagegen 油 (yóu), fettes Fleisch 肥肉 (féiròu); „dick“ von Personen ist 胖 (pàng).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:之所以:zhi1suo3yi3",
     "word": "之所以",
     "pinyin": "zhīsuǒyǐ",
-    "meaning": "deswegen, deshalb",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "der Grund, warum …; dass … (liegt daran, dass)",
     "type": "Konjunktion",
     "level": "HSK6",
     "syllabus": {
@@ -67536,18 +72684,40 @@ window.VOCAB_HSK6 = [
       "pos": "连",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我之所以选择这个专业，是因为我对历史很感兴趣。",
+        "pinyin": "Wǒ zhīsuǒyǐ xuǎnzé zhège zhuānyè, shì yīnwèi wǒ duì lìshǐ hěn gǎn xìngqù.",
+        "german": "Ich habe dieses Fach gewählt, weil ich mich sehr für Geschichte interessiere."
+      },
+      {
+        "chinese": "他之所以成功，是因为他从来不放弃。",
+        "pinyin": "Tā zhīsuǒyǐ chénggōng, shì yīnwèi tā cónglái bú fàngqì.",
+        "german": "Dass er Erfolg hat, liegt daran, dass er niemals aufgibt."
+      },
+      {
+        "chinese": "这家店之所以这么受欢迎，主要是由于价格便宜。",
+        "pinyin": "Zhè jiā diàn zhīsuǒyǐ zhème shòu huānyíng, zhǔyào shì yóuyú jiàgé piányi.",
+        "german": "Dieser Laden ist vor allem deshalb so beliebt, weil die Preise niedrig sind."
+      }
+    ],
     "traditional": "之所以",
     "evidence": {
       "cedict": "之所以 之所以 [zhi1 suo3 yi3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "之所以 (zhīsuǒyǐ) heißt nicht „deshalb“, sondern leitet die Folge ein, deren Grund danach genannt wird: A之所以B，是因为C „dass A B tut, liegt daran, dass C“. Damit kehrt es die Reihenfolge von 因为…所以… um und rückt den Grund in den Mittelpunkt. Das Subjekt steht vor 之所以; im zweiten Teil steht 是因为, 是由于 oder 是为了. Es klingt gehoben und ist typisch für Texte, Reden und Erklärungen.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:值班:zhi2ban1",
     "word": "值班",
     "pinyin": "zhíbān",
-    "meaning": "Bereitschaftsdienst haben; Schicht haben",
+    "meaning": "Dienst haben; Schicht haben; Wache halten",
     "type": "Verb",
     "level": "HSK6",
     "category": "Arbeit",
@@ -67560,7 +72730,12 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "今晚轮到她在医院值班。",
         "pinyin": "Jīnwǎn lúndào tā zài yīyuàn zhíbān.",
-        "german": "Heute Abend ist sie an der Reihe, im Krankenhaus Bereitschaftsdienst zu haben."
+        "german": "Heute Abend ist sie mit dem Dienst im Krankenhaus an der Reihe."
+      },
+      {
+        "chinese": "这个月我已经值了五个夜班了。",
+        "pinyin": "Zhège yuè wǒ yǐjīng zhí le wǔ ge yèbān le.",
+        "german": "Diesen Monat hatte ich schon fünf Nachtdienste."
       }
     ],
     "legacyIds": [
@@ -67574,6 +72749,13 @@ window.VOCAB_HSK6 = [
     "traditional": "值班",
     "evidence": {
       "cedict": "值班 值班 [zhi2 ban1]"
+    },
+    "notes": "值班 (zhíbān) heißt „turnusmäßig Dienst haben“, etwa im Krankenhaus, Büro, Wohnheim oder bei der Polizei: 轮流值班 „abwechselnd Dienst haben“, 值夜班 „Nachtdienst haben“, 值班医生 „diensthabender Arzt“. Es ist trennbar, Zeitangaben und 了 stehen in der Mitte: 值了一夜的班, 值完班. Normales Zur-Arbeit-Gehen ist 上班 (shàngbān), Überstunden sind 加班 (jiābān).",
+    "separable": true,
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -67588,12 +72770,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "这个职位很受欢迎。",
         "pinyin": "Zhège zhíwèi hěn shòu huānyíng.",
-        "german": "Diese Stelle ist sehr beliebt."
+        "german": "Diese Stelle ist sehr begehrt."
       },
       {
         "chinese": "他申请了一个管理职位。",
-        "pinyin": "Tā shēnqǐng le yí gè guǎnlǐ zhíwèi.",
+        "pinyin": "Tā shēnqǐng le yí ge guǎnlǐ zhíwèi.",
         "german": "Er bewarb sich um eine Führungsposition."
+      },
+      {
+        "chinese": "他在公司的职位比我高。",
+        "pinyin": "Tā zài gōngsī de zhíwèi bǐ wǒ gāo.",
+        "german": "Er hat in der Firma eine höhere Position als ich."
       }
     ],
     "legacyIds": [
@@ -67607,15 +72794,19 @@ window.VOCAB_HSK6 = [
     "traditional": "職位",
     "evidence": {
       "cedict": "職位 职位 [zhi2 wei4]"
+    },
+    "notes": "职位 (zhíwèi) ist die „Stelle, Position“ innerhalb einer Organisation, vor allem im Zusammenhang mit Bewerbung und Hierarchie: 申请职位, 空缺职位 „offene Stelle“, 管理职位 „Führungsposition“, 职位高/低. 职务 (zhíwù) betont dagegen das Amt mit seinen Aufgaben, 岗位 (gǎngwèi) den konkreten Arbeitsplatz, und 工作 ist ganz allgemein „Arbeit, Job“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:职务:zhi2wu4",
     "word": "职务",
     "pinyin": "zhíwù",
-    "meaning": "Amt, Amtspflicht; Dienst, Pflicht, Funktion",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Amt; Posten; dienstliche Funktion",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -67623,20 +72814,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他在公司担任销售经理的职务。",
+        "pinyin": "Tā zài gōngsī dānrèn xiāoshòu jīnglǐ de zhíwù.",
+        "german": "Er ist in der Firma als Vertriebsleiter tätig."
+      },
+      {
+        "chinese": "由于身体原因，他辞去了所有职务。",
+        "pinyin": "Yóuyú shēntǐ yuányīn, tā cíqù le suǒyǒu zhíwù.",
+        "german": "Aus gesundheitlichen Gründen legte er alle Ämter nieder."
+      },
+      {
+        "chinese": "这位官员利用职务之便收受贿赂，被判了刑。",
+        "pinyin": "Zhè wèi guānyuán lìyòng zhíwù zhī biàn shōushòu huìlù, bèi pàn le xíng.",
+        "german": "Der Beamte hatte seine Stellung ausgenutzt, um Bestechungsgelder anzunehmen, und wurde verurteilt."
+      }
+    ],
     "traditional": "職務",
     "evidence": {
       "cedict": "職務 职务 [zhi2 wu4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "职务 (zhíwù) ist das „Amt“, das jemand bekleidet, samt den damit verbundenen Pflichten; das Wort ist förmlich. Typische Rahmen: 担任…职务 „das Amt des … innehaben“, 辞去职务 „von einem Amt zurücktreten“, 撤销职务 „seines Amtes entheben“, 利用职务之便 „seine Stellung ausnutzen“. 职位 (zhíwèi) bezeichnet eher die Stelle in der Hierarchie, etwa bei Bewerbungen.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:职员:zhi2yuan2",
     "word": "职员",
     "pinyin": "zhíyuán",
-    "meaning": "Mitarbeiter; Angestellte(r)",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Angestellte(r); Büroangestellte(r); Mitarbeiter(in)",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -67644,7 +72855,23 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "她是一家银行的普通职员。",
+        "pinyin": "Tā shì yì jiā yínháng de pǔtōng zhíyuán.",
+        "german": "Sie ist eine einfache Bankangestellte."
+      },
+      {
+        "chinese": "公司今年新招了二十名职员。",
+        "pinyin": "Gōngsī jīnnián xīn zhāo le èrshí míng zhíyuán.",
+        "german": "Die Firma hat dieses Jahr zwanzig neue Mitarbeiter eingestellt."
+      },
+      {
+        "chinese": "那位职员耐心地回答了我的问题。",
+        "pinyin": "Nà wèi zhíyuán nàixīn de huídá le wǒ de wèntí.",
+        "german": "Der Angestellte hat meine Fragen geduldig beantwortet."
+      }
+    ],
     "traditional": "職員",
     "measureWords": [
       {
@@ -67659,15 +72886,19 @@ window.VOCAB_HSK6 = [
     "evidence": {
       "cedict": "職員 职员 [zhi2 yuan2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "职员 (zhíyuán) bezeichnet Angestellte in Büro, Firma, Bank oder Verwaltung, also eher Schreibtischarbeit: 公司职员, 银行职员, 普通职员 „einfache(r) Angestellte(r)“. 员工 (yuángōng) ist weiter und umfasst die gesamte Belegschaft, auch Arbeiter (工人). Zählwörter sind 个, höflich 位 und in formellen Angaben oft 名. Für die Kollegin am Nachbartisch sagt man 同事, nicht 职员.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:职责:zhi2ze2",
     "word": "职责",
     "pinyin": "zhízé",
-    "meaning": "Dienst; Obliegenheit; Obligation",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Pflicht; Aufgabe; Zuständigkeit",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -67675,18 +72906,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "保护乘客的安全是司机的职责。",
+        "pinyin": "Bǎohù chéngkè de ānquán shì sījī de zhízé.",
+        "german": "Es ist die Pflicht des Fahrers, für die Sicherheit der Fahrgäste zu sorgen."
+      },
+      {
+        "chinese": "每个人都应该认真履行自己的职责。",
+        "pinyin": "Měi ge rén dōu yīnggāi rènzhēn lǚxíng zìjǐ de zhízé.",
+        "german": "Jeder sollte seine Pflichten gewissenhaft erfüllen."
+      },
+      {
+        "chinese": "这件事不在我的职责范围之内。",
+        "pinyin": "Zhè jiàn shì bú zài wǒ de zhízé fànwéi zhī nèi.",
+        "german": "Diese Angelegenheit fällt nicht in meinen Zuständigkeitsbereich."
+      }
+    ],
     "traditional": "職責",
     "evidence": {
       "cedict": "職責 职责 [zhi2 ze2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "职责 (zhízé) sind die Pflichten, die zu einem Amt oder einer Stelle gehören – gehobener als das allgemeinere 责任 (zérèn) „Verantwortung; Schuld“. Typische Verbindungen: 履行职责 (lǚxíng zhízé) „seine Pflichten erfüllen“, 尽到职责, 职责范围 „Zuständigkeitsbereich“, 这是我的职责 „das ist meine Aufgabe“. 义务 (yìwù) betont dagegen eine rechtliche oder moralische Verpflichtung.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:侄子:zhi2zi5",
     "word": "侄子",
     "pinyin": "zhízi",
-    "meaning": "Neffe (Bruderseite)",
+    "meaning": "Neffe (Sohn des Bruders)",
     "type": "Nomen",
     "level": "HSK6",
     "category": "Familie",
@@ -67697,9 +72950,14 @@ window.VOCAB_HSK6 = [
         "german": "Mein Neffe ist fünf Jahre alt."
       },
       {
-        "chinese": "我侄子今年五岁了。",
-        "pinyin": "Wǒ zhízi jīnnián wǔ suì le.",
-        "german": "Mein Neffe ist dieses Jahr fünf Jahre alt."
+        "chinese": "我侄子今年考上了大学。",
+        "pinyin": "Wǒ zhízi jīnnián kǎoshàng le dàxué.",
+        "german": "Mein Neffe hat dieses Jahr einen Studienplatz bekommen."
+      },
+      {
+        "chinese": "周末哥哥带着侄子来我家玩。",
+        "pinyin": "Zhōumò gēge dài zhe zhízi lái wǒ jiā wán.",
+        "german": "Am Wochenende kam mein Bruder mit meinem Neffen zu Besuch."
       }
     ],
     "legacyIds": [
@@ -67713,15 +72971,19 @@ window.VOCAB_HSK6 = [
     "traditional": "姪子",
     "evidence": {
       "cedict": "姪子 侄子 [zhi2 zi5]"
+    },
+    "notes": "侄子 (zhízi) ist der Sohn des eigenen Bruders – so sagen Männer wie Frauen; für eine Frau ist auch der Sohn des Schwagers (Bruder des Ehemanns) ihr 侄子. Der Sohn der Schwester heißt dagegen 外甥 (wàisheng), die Tochter des Bruders 侄女 (zhínǚ). Das Deutsche unterscheidet hier nicht, deshalb wählen Lernende leicht das falsche Wort. Zwischen Pronomen und Verwandtschaftswort fällt 的 oft weg: 我侄子.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:只得:zhi3de2",
     "word": "只得",
     "pinyin": "zhǐdé",
-    "meaning": "nicht umhinkönnen; gezwungen sein",
-    "meaningStatus": "draft",
-    "meaningSource": "Entwurf (Claude)",
+    "meaning": "notgedrungen; nicht umhinkönnen; gezwungen sein",
     "type": "Adverb",
     "level": "HSK6",
     "syllabus": {
@@ -67729,20 +72991,40 @@ window.VOCAB_HSK6 = [
       "pos": "副",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "末班车已经开走了，我们只得打车回家。",
+        "pinyin": "Mòbānchē yǐjīng kāizǒu le, wǒmen zhǐdé dǎchē huí jiā.",
+        "german": "Der letzte Bus war schon weg, also blieb uns nichts anderes übrig, als mit dem Taxi nach Hause zu fahren."
+      },
+      {
+        "chinese": "雨越下越大，比赛只得推迟。",
+        "pinyin": "Yǔ yuè xià yuè dà, bǐsài zhǐdé tuīchí.",
+        "german": "Der Regen wurde immer stärker, sodass das Spiel verschoben werden musste."
+      },
+      {
+        "chinese": "他找不到工作，只得先回老家。",
+        "pinyin": "Tā zhǎo bu dào gōngzuò, zhǐdé xiān huí lǎojiā.",
+        "german": "Er fand keine Arbeit und musste notgedrungen erst einmal in seine Heimat zurück."
+      }
+    ],
     "traditional": "只得",
     "evidence": {
       "cedict": "只得 只得 [zhi3 de2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "只得 (zhǐdé) steht vor dem Verb und drückt aus, dass einem keine andere Wahl bleibt: 只得放弃 „notgedrungen aufgeben“. Meist folgt es auf einen Satzteil, der den Grund nennt, und erzählt von Vergangenem. Es ist etwas schriftsprachlicher als das gleichbedeutende 只好 (zhǐhǎo); 不得不 (bùdébù) betont den Zwang stärker. Wie andere Adverbien steht es nach dem Subjekt und vor dem Verb: 我们只得…",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:指定:zhi3ding4",
     "word": "指定",
     "pinyin": "zhǐdìng",
-    "meaning": "berufen, bestimmen, festsetzen, nominieren, benennen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "bestimmen; festlegen; benennen; vorschreiben",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -67750,20 +73032,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "请在指定地点停车。",
+        "pinyin": "Qǐng zài zhǐdìng dìdiǎn tíngchē.",
+        "german": "Bitte parken Sie an den dafür vorgesehenen Stellen."
+      },
+      {
+        "chinese": "老师指定小王负责这次活动。",
+        "pinyin": "Lǎoshī zhǐdìng Xiǎo Wáng fùzé zhè cì huódòng.",
+        "german": "Der Lehrer bestimmte Xiao Wang zum Verantwortlichen für diese Veranstaltung."
+      },
+      {
+        "chinese": "这本书是考试的指定教材。",
+        "pinyin": "Zhè běn shū shì kǎoshì de zhǐdìng jiàocái.",
+        "german": "Dieses Buch ist das vorgeschriebene Lehrbuch für die Prüfung."
+      }
+    ],
     "traditional": "指定",
     "evidence": {
       "cedict": "指定 指定 [zhi3 ding4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "指定 (zhǐdìng) heißt, für einen Zweck eine bestimmte Person, einen Ort oder eine Zeit festzulegen: 指定他负责 „ihn als Verantwortlichen bestimmen“. Sehr häufig ist es attributiv in Hinweisen und Vorschriften: 指定地点 „ausgewiesene Stelle“, 指定时间, 指定教材 „vorgeschriebenes Lehrbuch“, 在指定区域吸烟. 规定 (guīdìng) legt dagegen allgemeine Regeln fest, 任命 (rènmìng) ist die förmliche Ernennung in ein Amt.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:只顾:zhi3gu4",
     "word": "只顾",
     "pinyin": "zhǐgù",
-    "meaning": "in etw. vertieft sein",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "nur an etw. denken; ganz mit etw. beschäftigt sein",
     "type": "Adverb",
     "level": "HSK6",
     "syllabus": {
@@ -67771,18 +73073,40 @@ window.VOCAB_HSK6 = [
       "pos": "副",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他只顾看手机，差点坐过了站。",
+        "pinyin": "Tā zhǐgù kàn shǒujī, chàdiǎn zuòguò le zhàn.",
+        "german": "Er war so mit seinem Handy beschäftigt, dass er beinahe seine Haltestelle verpasst hätte."
+      },
+      {
+        "chinese": "做生意不能只顾眼前的利益。",
+        "pinyin": "Zuò shēngyi bù néng zhǐgù yǎnqián de lìyì.",
+        "german": "Im Geschäftsleben darf man nicht nur an den schnellen Gewinn denken."
+      },
+      {
+        "chinese": "她只顾着聊天，忘了锅里还煮着汤。",
+        "pinyin": "Tā zhǐgù zhe liáotiān, wàng le guō li hái zhǔ zhe tāng.",
+        "german": "Sie war so ins Gespräch vertieft, dass sie die Suppe auf dem Herd vergaß."
+      }
+    ],
     "traditional": "只顧",
     "evidence": {
       "cedict": "只顧 只顾 [zhi3 gu4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "只顾 (zhǐgù) steht vor einer Verbgruppe und beschreibt, dass jemand sich ganz auf eine Sache konzentriert und dabei anderes vernachlässigt – oft mit kritischem Unterton: 只顾玩，忘了写作业. Häufig folgt ein Satzteil mit 忘了, 没注意 oder 不管. In 只顾自己 „nur an sich selbst denken“ ist 顾 ein Verb mit Objekt. Nicht verwechseln mit 只管 (zhǐguǎn) „ruhig, nur zu“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:指挥:zhi3hui1",
     "word": "指挥",
     "pinyin": "zhǐhuī",
-    "meaning": "dirigieren, Dirigent",
+    "meaning": "kommandieren; leiten; dirigieren; Dirigent; Kommando",
     "type": "Verb",
     "level": "HSK6",
     "category": "Musik",
@@ -67790,7 +73114,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "他指挥了今晚的交响乐演出。",
         "pinyin": "Tā zhǐhuī le jīnwǎn de jiāoxiǎngyuè yǎnchū.",
-        "german": "Er dirigierte die heutige Aufführung der Sinfonie."
+        "german": "Er hat das heutige Sinfoniekonzert dirigiert."
+      },
+      {
+        "chinese": "交通警察正在路口指挥交通。",
+        "pinyin": "Jiāotōng jǐngchá zhèngzài lùkǒu zhǐhuī jiāotōng.",
+        "german": "Ein Verkehrspolizist regelt gerade an der Kreuzung den Verkehr."
+      },
+      {
+        "chinese": "遇到紧急情况，大家要听从指挥。",
+        "pinyin": "Yùdào jǐnjí qíngkuàng, dàjiā yào tīngcóng zhǐhuī.",
+        "german": "Im Notfall müssen alle den Anweisungen der Einsatzleitung folgen."
       }
     ],
     "legacyIds": [
@@ -67804,15 +73138,19 @@ window.VOCAB_HSK6 = [
     "traditional": "指揮",
     "evidence": {
       "cedict": "指揮 指挥 [zhi3 hui1]"
+    },
+    "notes": "Als Verb heißt 指挥 (zhǐhuī) „befehligen, leiten“: 指挥军队, 指挥交通 „den Verkehr regeln“, 指挥乐队 „ein Orchester dirigieren“. Als Nomen bezeichnet es die Person, die leitet – im Konzert den Dirigenten (乐队指挥) –, oder die Leitung selbst: 听从指挥 „den Anweisungen folgen“, 统一指挥. Verwandt sind 指挥部 „Kommandozentrale“ und 指挥官 „Kommandant“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:指示:zhi3shi4",
     "word": "指示",
     "pinyin": "zhǐshì",
-    "meaning": "Anweisung, Anordnung",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "anweisen; anzeigen; Anweisung; Weisung",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -67820,20 +73158,40 @@ window.VOCAB_HSK6 = [
       "pos": "动、名",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我们按照上级的指示完成了任务。",
+        "pinyin": "Wǒmen ànzhào shàngjí de zhǐshì wánchéng le rènwu.",
+        "german": "Wir haben die Aufgabe nach den Anweisungen der Vorgesetzten erledigt."
+      },
+      {
+        "chinese": "经理指示秘书马上通知所有人开会。",
+        "pinyin": "Jīnglǐ zhǐshì mìshū mǎshàng tōngzhī suǒyǒu rén kāihuì.",
+        "german": "Der Manager wies die Sekretärin an, sofort alle zur Besprechung zu rufen."
+      },
+      {
+        "chinese": "墙上的箭头指示出口的方向。",
+        "pinyin": "Qiáng shang de jiàntóu zhǐshì chūkǒu de fāngxiàng.",
+        "german": "Die Pfeile an der Wand zeigen den Weg zum Ausgang."
+      }
+    ],
     "traditional": "指示",
     "evidence": {
       "cedict": "指示 指示 [zhi3 shi4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als Nomen meint 指示 (zhǐshì) vor allem Anweisungen von oben, typisch für Behörden und Firmen: 上级的指示, 按照指示, 等待指示. Als Verb heißt es „anweisen“ (指示他马上出发) oder sachlich „anzeigen, hinweisen“, etwa bei Schildern und Lampen: 指示牌 „Hinweisschild“, 指示灯 „Kontrollleuchte“. 命令 (mìnglìng) ist ein strikter Befehl, 指导 (zhǐdǎo) eher fachliche Anleitung.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:指责:zhi3ze2",
     "word": "指责",
     "pinyin": "zhǐzé",
-    "meaning": "Beschuldigung; Vorwurf; beschuldigen, jmdm. etw. vorwerfen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "kritisieren; jmdm. Vorwürfe machen; beschuldigen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -67841,20 +73199,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "出了问题，他总是指责别人。",
+        "pinyin": "Chū le wèntí, tā zǒngshì zhǐzé biérén.",
+        "german": "Wenn etwas schiefgeht, gibt er immer anderen die Schuld."
+      },
+      {
+        "chinese": "这家公司因污染环境受到了媒体的指责。",
+        "pinyin": "Zhè jiā gōngsī yīn wūrǎn huánjìng shòudào le méitǐ de zhǐzé.",
+        "german": "Das Unternehmen geriet wegen Umweltverschmutzung in die Kritik der Medien."
+      },
+      {
+        "chinese": "夫妻俩互相指责，谁也不肯让步。",
+        "pinyin": "Fūqī liǎ hùxiāng zhǐzé, shéi yě bù kěn ràngbù.",
+        "german": "Das Ehepaar machte sich gegenseitig Vorwürfe, und keiner wollte nachgeben."
+      }
+    ],
     "traditional": "指責",
     "evidence": {
       "cedict": "指責 指责 [zhi3 ze2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "指责 (zhǐzé) heißt, jemandem offen Fehler vorzuwerfen oder ihm die Schuld zu geben; der Ton ist deutlich schärfer als bei 批评 (pīpíng) „kritisieren“, das auch wohlmeinend sein kann. Typisch: 指责别人, 互相指责 „sich gegenseitig Vorwürfe machen“, 受到指责 „kritisiert werden“, 公开指责. 责备 (zébèi) ist eher das persönliche Tadeln, etwa von Kindern.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:制:zhi4",
     "word": "制",
     "pinyin": "zhì",
-    "meaning": "beherrschen, kontrollieren, einschränken; System",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "herstellen; anfertigen; beschränken; kontrollieren; System (in Zusammensetzungen)",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -67862,20 +73240,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这种纸是用竹子制成的。",
+        "pinyin": "Zhè zhǒng zhǐ shì yòng zhúzi zhìchéng de.",
+        "german": "Dieses Papier wird aus Bambus hergestellt."
+      },
+      {
+        "chinese": "这些饼干都是妈妈自制的。",
+        "pinyin": "Zhèxiē bǐnggān dōu shì māma zìzhì de.",
+        "german": "Diese Kekse hat Mama alle selbst gebacken."
+      },
+      {
+        "chinese": "我们公司实行每周五天工作制。",
+        "pinyin": "Wǒmen gōngsī shíxíng měi zhōu wǔ tiān gōngzuòzhì.",
+        "german": "In unserer Firma gilt die Fünftagewoche."
+      }
+    ],
     "traditional": "制",
     "evidence": {
       "cedict": "制 制 [zhi4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als eigenständiges Verb ist 制 (zhì) „herstellen“ eher schriftsprachlich und steht meist in festen Mustern: 由…制成 / 用…制成 „aus … hergestellt“, 自制 „selbst gemacht“, 特制 „speziell angefertigt“. Im Alltag sagt man dafür eher 做 oder 制作. Die Bedeutung „beschränken, kontrollieren“ lebt vor allem in Wörtern wie 控制, 限制 und 制止. Als Endung bedeutet -制 „System“: 学分制, 五天工作制.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:至关重要:zhi4guan1zhong4yao4",
     "word": "至关重要",
     "pinyin": "zhìguān-zhòngyào",
-    "meaning": "unerlässlich, von größter Wichtigkeit",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "äußerst wichtig; von entscheidender Bedeutung",
     "type": "Chengyu",
     "level": "HSK6",
     "syllabus": {
@@ -67883,20 +73281,40 @@ window.VOCAB_HSK6 = [
       "pos": "",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "充足的睡眠对孩子的成长至关重要。",
+        "pinyin": "Chōngzú de shuìmián duì háizi de chéngzhǎng zhìguān-zhòngyào.",
+        "german": "Ausreichend Schlaf ist für die Entwicklung von Kindern äußerst wichtig."
+      },
+      {
+        "chinese": "这次谈判对公司的未来至关重要。",
+        "pinyin": "Zhè cì tánpàn duì gōngsī de wèilái zhìguān-zhòngyào.",
+        "german": "Diese Verhandlungen sind für die Zukunft des Unternehmens von entscheidender Bedeutung."
+      },
+      {
+        "chinese": "在急救中，最初的几分钟是至关重要的。",
+        "pinyin": "Zài jíjiù zhōng, zuìchū de jǐ fēnzhōng shì zhìguān-zhòngyào de.",
+        "german": "Bei der Ersten Hilfe kommt es auf die ersten Minuten an."
+      }
+    ],
     "traditional": "至關重要",
     "evidence": {
       "cedict": "至關重要 至关重要 [zhi4 guan1 zhong4 yao4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Wörtlich: 至 „aufs Äußerste“, 关 „betreffen“, 重要 „wichtig“ – etwas berührt den Kern einer Sache und ist daher entscheidend. Typische Muster: 对…(来说)至关重要 und attributiv 至关重要的作用 / 一步. Der Ausdruck ist gehoben und in Nachrichten, Reden und Sachtexten häufig. Da er den höchsten Grad schon enthält, wird er normalerweise nicht mit 很 oder 非常 verstärkt.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:智力:zhi4li4",
     "word": "智力",
     "pinyin": "zhìlì",
-    "meaning": "Intelligenz",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Intelligenz; geistige Fähigkeiten",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -67904,18 +73322,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这种游戏有助于开发儿童的智力。",
+        "pinyin": "Zhè zhǒng yóuxì yǒuzhùyú kāifā értóng de zhìlì.",
+        "german": "Solche Spiele fördern die geistige Entwicklung von Kindern."
+      },
+      {
+        "chinese": "研究人员对两百名学生进行了智力测试。",
+        "pinyin": "Yánjiū rényuán duì liǎngbǎi míng xuésheng jìnxíng le zhìlì cèshì.",
+        "german": "Die Forscher haben mit zweihundert Schülern einen Intelligenztest durchgeführt."
+      },
+      {
+        "chinese": "智力并不是决定成功的唯一因素。",
+        "pinyin": "Zhìlì bìng bú shì juédìng chénggōng de wéiyī yīnsù.",
+        "german": "Intelligenz ist keineswegs der einzige Faktor, der über Erfolg entscheidet."
+      }
+    ],
     "traditional": "智力",
     "evidence": {
       "cedict": "智力 智力 [zhi4 li4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "智力 (zhìlì) bezeichnet die geistige Leistungsfähigkeit, etwa im Sinne von Denkvermögen und Auffassungsgabe. Typische Verbindungen: 智力发展, 开发智力 „die geistigen Fähigkeiten fördern“, 智力测验 / 智力测试 „Intelligenztest“, 智力游戏 „Denkspiel“. 智慧 (zhìhuì) ist dagegen „Weisheit“, und für „klug“ als Eigenschaft sagt man 聪明 (cōngming).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:治理:zhi4li3",
     "word": "治理",
     "pinyin": "zhìlǐ",
-    "meaning": "regieren, verwalten; Governance",
+    "meaning": "regieren; verwalten; in den Griff bekommen; sanieren (Umwelt, Gewässer)",
     "type": "Verb",
     "level": "HSK6",
     "category": "Gesellschaft",
@@ -67923,7 +73363,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "环境治理需要全社会的共同参与。",
         "pinyin": "Huánjìng zhìlǐ xūyào quán shèhuì de gòngtóng cānyù.",
-        "german": "Umweltmanagement erfordert die gemeinsame Beteiligung der gesamten Gesellschaft."
+        "german": "Der Kampf gegen Umweltprobleme erfordert die Mitwirkung der ganzen Gesellschaft."
+      },
+      {
+        "chinese": "经过多年治理，这条河的水又变清了。",
+        "pinyin": "Jīngguò duō nián zhìlǐ, zhè tiáo hé de shuǐ yòu biàn qīng le.",
+        "german": "Nach jahrelanger Sanierung ist das Wasser dieses Flusses wieder klar."
+      },
+      {
+        "chinese": "治理一个国家比管理一家公司复杂得多。",
+        "pinyin": "Zhìlǐ yí ge guójiā bǐ guǎnlǐ yì jiā gōngsī fùzá de duō.",
+        "german": "Ein Land zu regieren ist viel komplizierter, als eine Firma zu führen."
       }
     ],
     "legacyIds": [
@@ -67937,15 +73387,19 @@ window.VOCAB_HSK6 = [
     "traditional": "治理",
     "evidence": {
       "cedict": "治理 治理 [zhi4 li3]"
+    },
+    "notes": "治理 (zhìlǐ) hat zwei Hauptverwendungen: ein Land oder eine Organisation lenken (治理国家, 公司治理 „Unternehmensführung, Corporate Governance“) und ein Problem systematisch bekämpfen oder beheben (治理污染, 治理河流, 治理沙漠, 综合治理). Der Ton ist formell und typisch für Politik und Nachrichten. 管理 (guǎnlǐ) ist das alltägliche „verwalten, managen“, 统治 (tǒngzhì) betont Herrschaft und Macht.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:制品:zhi4pin3",
     "word": "制品",
     "pinyin": "zhìpǐn",
-    "meaning": "Güter, Waren; Produkt, Fabrikat, Erzeugnis; produzieren",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Erzeugnis; Produkt; Ware (aus einem bestimmten Material)",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -67953,12 +73407,34 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我对奶制品过敏。",
+        "pinyin": "Wǒ duì nǎizhìpǐn guòmǐn.",
+        "german": "Ich bin allergisch gegen Milchprodukte."
+      },
+      {
+        "chinese": "为了保护环境，这家超市减少了塑料制品的使用。",
+        "pinyin": "Wèile bǎohù huánjìng, zhè jiā chāoshì jiǎnshǎo le sùliào zhìpǐn de shǐyòng.",
+        "german": "Um die Umwelt zu schonen, verwendet dieser Supermarkt weniger Plastikprodukte."
+      },
+      {
+        "chinese": "这家小店专门卖竹制品。",
+        "pinyin": "Zhè jiā xiǎo diàn zhuānmén mài zhú zhìpǐn.",
+        "german": "Dieser kleine Laden hat sich auf Bambuswaren spezialisiert."
+      }
+    ],
     "traditional": "製品",
     "evidence": {
       "cedict": "製品 制品 [zhi4 pin3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "制品 (zhìpǐn) steht meist hinter einem Material oder Grundstoff und bezeichnet daraus gefertigte Waren: 塑料制品 „Plastikwaren“, 奶制品 / 乳制品 „Milchprodukte“, 皮革制品 „Lederwaren“, 竹制品 „Bambuswaren“. Allein steht es selten. Für die Produkte einer Firma allgemein sagt man 产品 (chǎnpǐn); 制品 betont, woraus oder wie etwas hergestellt ist.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:秩序:zhi4xu4",
@@ -67972,7 +73448,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "请大家遵守公共秩序。",
         "pinyin": "Qǐng dàjiā zūnshǒu gōnggòng zhìxù.",
-        "german": "Bitte haltet alle die öffentliche Ordnung ein."
+        "german": "Bitte halten Sie sich alle an die öffentliche Ordnung."
+      },
+      {
+        "chinese": "警察在现场维持秩序。",
+        "pinyin": "Jǐngchá zài xiànchǎng wéichí zhìxù.",
+        "german": "Die Polizei sorgte vor Ort für Ordnung."
+      },
+      {
+        "chinese": "上车的时候大家都排队，秩序很好。",
+        "pinyin": "Shàng chē de shíhou dàjiā dōu páiduì, zhìxù hěn hǎo.",
+        "german": "Beim Einsteigen stellten sich alle an, und alles lief sehr geordnet ab."
       }
     ],
     "legacyIds": [
@@ -67986,6 +73472,12 @@ window.VOCAB_HSK6 = [
     "traditional": "秩序",
     "evidence": {
       "cedict": "秩序 秩序 [zhi4 xu4]"
+    },
+    "notes": "秩序 (zhìxù) ist die geregelte Ordnung im öffentlichen und sozialen Leben: 社会秩序, 交通秩序, 公共秩序. Typische Verben: 维持秩序 „für Ordnung sorgen“, 遵守秩序 „die Ordnung einhalten“, 扰乱秩序 „die Ordnung stören“; gehoben 秩序井然 „alles in bester Ordnung“. Für „Ordnung“ im Sinne von Aufgeräumtheit passt es meist nicht – da sagt man 整齐 oder 干净; die Reihenfolge ist 顺序 (shùnxù).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -68000,7 +73492,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "有人质疑这个数据的真实性。",
         "pinyin": "Yǒu rén zhìyí zhège shùjù de zhēnshíxìng.",
-        "german": "Jemand stellte die Echtheit dieser Daten in Frage."
+        "german": "Manche zweifeln an der Echtheit dieser Daten."
+      },
+      {
+        "chinese": "不少专家对这项研究的结论提出了质疑。",
+        "pinyin": "Bù shǎo zhuānjiā duì zhè xiàng yánjiū de jiélùn tíchū le zhìyí.",
+        "german": "Zahlreiche Fachleute haben die Schlussfolgerungen dieser Studie angezweifelt."
+      },
+      {
+        "chinese": "学生应该敢于质疑老师的观点。",
+        "pinyin": "Xuésheng yīnggāi gǎnyú zhìyí lǎoshī de guāndiǎn.",
+        "german": "Schüler sollten den Mut haben, die Ansichten ihrer Lehrer zu hinterfragen."
       }
     ],
     "legacyIds": [
@@ -68014,15 +73516,19 @@ window.VOCAB_HSK6 = [
     "traditional": "質疑",
     "evidence": {
       "cedict": "質疑 质疑 [zhi4 yi2]"
+    },
+    "notes": "质疑 (zhìyí) heißt, die Richtigkeit oder Glaubwürdigkeit von etwas offen anzuzweifeln; es ist formell und typisch für Wissenschaft, Medien und Debatten. Häufig: 质疑…的真实性 / 合理性, 对…提出质疑 „Zweifel an … anmelden“, 受到质疑 „angezweifelt werden“. 怀疑 (huáiyí) ist dagegen das innere Zweifeln oder sogar „vermuten“: 我怀疑他病了 „ich vermute, er ist krank“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:至于:zhi4yu2",
     "word": "至于",
     "pinyin": "zhìyú",
-    "meaning": "so weit sein; so weit kommen; hinsichtlich (P); was ... (-an)betrifft",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "was … betrifft; hinsichtlich; so weit gehen, dass",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -68030,20 +73536,40 @@ window.VOCAB_HSK6 = [
       "pos": "动、介",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我只负责翻译，至于价格，你得问经理。",
+        "pinyin": "Wǒ zhǐ fùzé fānyì, zhìyú jiàgé, nǐ děi wèn jīnglǐ.",
+        "german": "Ich bin nur für die Übersetzung zuständig; was den Preis angeht, musst du den Manager fragen."
+      },
+      {
+        "chinese": "只是一次小考试，不至于这么紧张吧？",
+        "pinyin": "Zhǐ shì yí cì xiǎo kǎoshì, bú zhìyú zhème jǐnzhāng ba?",
+        "german": "Es ist doch nur ein kleiner Test – deswegen muss man doch nicht so nervös sein, oder?"
+      },
+      {
+        "chinese": "为这点小事吵架，至于吗？",
+        "pinyin": "Wèi zhè diǎn xiǎoshì chǎojià, zhìyú ma?",
+        "german": "Wegen so einer Kleinigkeit zu streiten – muss das sein?"
+      }
+    ],
     "traditional": "至於",
     "evidence": {
       "cedict": "至於 至于 [zhi4 yu2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als Präposition leitet 至于 (zhìyú) am Satzanfang ein neues Thema ein: 至于价格，… „was den Preis angeht, …“. Anders als 关于 (guānyú) „über“ markiert es einen Themenwechsel. Als Verb steht es fast nur verneint oder in Fragen: 不至于 (bú zhìyú) „so schlimm wird es nicht sein; das ist nicht nötig“. Umgangssprachlich fragt man vorwurfsvoll 至于吗？ „Muss das sein?“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:中等:zhong1deng3",
     "word": "中等",
     "pinyin": "zhōngděng",
-    "meaning": "mittlere",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "mittlere(r, s); durchschnittlich; Mittel-",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -68051,20 +73577,40 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 212
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他个子中等，戴着一副眼镜。",
+        "pinyin": "Tā gèzi zhōngděng, dài zhe yí fù yǎnjìng.",
+        "german": "Er ist mittelgroß und trägt eine Brille."
+      },
+      {
+        "chinese": "她在班里的成绩中等。",
+        "pinyin": "Tā zài bān li de chéngjì zhōngděng.",
+        "german": "Mit ihren Noten liegt sie im Mittelfeld der Klasse."
+      },
+      {
+        "chinese": "这项政策主要帮助中等收入家庭。",
+        "pinyin": "Zhè xiàng zhèngcè zhǔyào bāngzhù zhōngděng shōurù jiātíng.",
+        "german": "Diese Maßnahme richtet sich vor allem an Familien mit mittlerem Einkommen."
+      }
+    ],
     "traditional": "中等",
     "evidence": {
       "cedict": "中等 中等 [zhong1 deng3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "中等 (zhōngděng) beschreibt eine Größe, ein Niveau oder einen Rang in der Mitte einer Skala. Vor Nomen steht es meist ohne 的: 中等身材 „mittlere Statur“, 中等水平, 中等收入, 中等城市, 中等教育 „Sekundarbildung“. Prädikativ: 成绩中等 „durchschnittliche Noten“. Das Wort ist neutral und klingt weniger abwertend als deutsches „mittelmäßig“; umgangssprachlich sagt man oft 一般.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:终点:zhong1dian3",
     "word": "终点",
     "pinyin": "zhōngdiǎn",
-    "meaning": "Ankunftsort, Bestimmungsort; Endstation; Flugziel",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Endpunkt; Endstation; Ziel (Rennen)",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -68072,7 +73618,23 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这趟公交车的终点是火车站。",
+        "pinyin": "Zhè tàng gōngjiāochē de zhōngdiǎn shì huǒchēzhàn.",
+        "german": "Die Endhaltestelle dieses Busses ist der Bahnhof."
+      },
+      {
+        "chinese": "他第一个跑到了终点。",
+        "pinyin": "Tā dì-yī ge pǎodào le zhōngdiǎn.",
+        "german": "Er lief als Erster ins Ziel."
+      },
+      {
+        "chinese": "毕业不是学习的终点，而是新的起点。",
+        "pinyin": "Bìyè bú shì xuéxí de zhōngdiǎn, ér shì xīn de qǐdiǎn.",
+        "german": "Der Abschluss ist nicht das Ende des Lernens, sondern ein neuer Anfang."
+      }
+    ],
     "traditional": "終點",
     "measureWords": [
       {
@@ -68083,15 +73645,19 @@ window.VOCAB_HSK6 = [
     "evidence": {
       "cedict": "終點 终点 [zhong1 dian3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "终点 (zhōngdiǎn) ist das Ende einer Strecke: die Endhaltestelle einer Linie (终点站) oder die Ziellinie im Wettkampf (跑到终点, 到达终点). Das Gegenteil ist 起点 (qǐdiǎn) „Start, Ausgangspunkt“. Übertragen: 人生的终点 „das Ende des Lebens“. Das Reiseziel einer Person heißt dagegen eher 目的地 (mùdìdì).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:中断:zhong1duan4",
     "word": "中断",
     "pinyin": "zhōngduàn",
-    "meaning": "Unterbrechung; Interrupt",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "unterbrechen; abbrechen; unterbrochen werden",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -68099,20 +73665,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "因为暴雨，这个地区停电了好几个小时，通讯也中断了。",
+        "pinyin": "Yīnwèi bàoyǔ, zhège dìqū tíngdiàn le hǎojǐ ge xiǎoshí, tōngxùn yě zhōngduàn le.",
+        "german": "Wegen des Starkregens fiel in der Region mehrere Stunden lang der Strom aus, auch die Kommunikationsverbindungen waren unterbrochen."
+      },
+      {
+        "chinese": "他因为生病，不得不中断了学业。",
+        "pinyin": "Tā yīnwèi shēngbìng, bùdébù zhōngduàn le xuéyè.",
+        "german": "Wegen einer Krankheit musste er sein Studium abbrechen."
+      },
+      {
+        "chinese": "两国中断了外交关系。",
+        "pinyin": "Liǎng guó zhōngduàn le wàijiāo guānxi.",
+        "german": "Die beiden Länder haben ihre diplomatischen Beziehungen abgebrochen."
+      }
+    ],
     "traditional": "中斷",
     "evidence": {
       "cedict": "中斷 中断 [zhong1 duan4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "中断 (zhōngduàn) bedeutet, dass etwas Laufendes mittendrin aufhört – meist ungewollt und oft nur vorübergehend. Es ist transitiv und intransitiv: 中断谈判 „Verhandlungen abbrechen“, 中断学业, aber auch 通讯中断了, 信号中断. Wer jemandem ins Wort fällt, 打断 (dǎduàn) ihn – 中断别人的话 ist hier unüblich. 停止 (tíngzhǐ) heißt neutral „aufhören, einstellen“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:终身:zhong1shen1",
     "word": "终身",
     "pinyin": "zhōngshēn",
-    "meaning": "lebenslänglich; ein Leben lang, das ganze Leben; lebensfreundlich",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "ganzes Leben; lebenslang; lebenslänglich",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -68120,20 +73706,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "那次旅行让我终身难忘。",
+        "pinyin": "Nà cì lǚxíng ràng wǒ zhōngshēn nánwàng.",
+        "german": "Diese Reise werde ich mein Leben lang nicht vergessen."
+      },
+      {
+        "chinese": "结婚是终身大事，不能太着急。",
+        "pinyin": "Jiéhūn shì zhōngshēn dàshì, bù néng tài zháojí.",
+        "german": "Heiraten ist eine Entscheidung fürs Leben, da sollte man nichts überstürzen."
+      },
+      {
+        "chinese": "现代社会提倡终身学习。",
+        "pinyin": "Xiàndài shèhuì tíchàng zhōngshēn xuéxí.",
+        "german": "Die moderne Gesellschaft setzt auf lebenslanges Lernen."
+      }
+    ],
     "traditional": "終身",
     "evidence": {
       "cedict": "終身 终身 [zhong1 shen1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "终身 (zhōngshēn) steht meist vor einem Nomen oder Verb und bedeutet „das ganze Leben lang“: 终身学习 „lebenslanges Lernen“, 终身难忘 „unvergesslich“, 终身监禁 „lebenslange Haft“, 终身制 „Ernennung auf Lebenszeit“. 终身大事 ist die Heirat als „Entscheidung fürs Leben“. Es klingt gehobener als 一生 oder umgangssprachliches 一辈子 (yíbèizi); 终生 wird ähnlich verwendet.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:钟头:zhong1tou2",
     "word": "钟头",
     "pinyin": "zhōngtóu",
-    "meaning": "(umg) Stunde",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Stunde (umgangssprachlich)",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -68141,20 +73747,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我等了你两个钟头了！",
+        "pinyin": "Wǒ děng le nǐ liǎng ge zhōngtóu le!",
+        "german": "Ich warte schon seit zwei Stunden auf dich!"
+      },
+      {
+        "chinese": "从这里坐车到机场要一个多钟头。",
+        "pinyin": "Cóng zhèlǐ zuò chē dào jīchǎng yào yí ge duō zhōngtóu.",
+        "german": "Von hier zum Flughafen braucht man mit dem Auto über eine Stunde."
+      },
+      {
+        "chinese": "他每天晚上练半个钟头钢琴。",
+        "pinyin": "Tā měitiān wǎnshang liàn bàn ge zhōngtóu gāngqín.",
+        "german": "Er übt jeden Abend eine halbe Stunde Klavier."
+      }
+    ],
     "traditional": "鐘頭",
     "evidence": {
       "cedict": "鐘頭 钟头 [zhong1 tou2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "钟头 (zhōngtóu) ist ein umgangssprachliches Wort für 小时 und bezeichnet wie dieses eine Zeitdauer: 两个钟头, 半个钟头, 一个多钟头 „über eine Stunde“. Es braucht das Zählwort 个. Für die Uhrzeit (三点) oder eine Unterrichtsstunde (一节课) passt es nicht. In Schrift und formellen Texten ist 小时 üblicher.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:中旬:zhong1xun2",
     "word": "中旬",
     "pinyin": "zhōngxún",
-    "meaning": "Zweites Monatsdrittel",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Monatsmitte; mittleres Monatsdrittel (11. bis 20.)",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -68162,20 +73788,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "会议定在下个月中旬举行。",
+        "pinyin": "Huìyì dìng zài xià ge yuè zhōngxún jǔxíng.",
+        "german": "Die Konferenz soll Mitte nächsten Monats stattfinden."
+      },
+      {
+        "chinese": "每年十月中旬，这里的树叶就开始变红了。",
+        "pinyin": "Měinián shíyuè zhōngxún, zhèlǐ de shùyè jiù kāishǐ biàn hóng le.",
+        "german": "Jedes Jahr Mitte Oktober beginnen sich die Blätter hier rot zu färben."
+      },
+      {
+        "chinese": "我七月中旬才能放假。",
+        "pinyin": "Wǒ qīyuè zhōngxún cái néng fàngjià.",
+        "german": "Ich habe erst ab Mitte Juli Ferien."
+      }
+    ],
     "traditional": "中旬",
     "evidence": {
       "cedict": "中旬 中旬 [zhong1 xun2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Im Chinesischen wird der Monat oft in drei Abschnitte geteilt: 上旬 (1.–10.), 中旬 (zhōngxún, 11.–20.) und 下旬 (21. bis Monatsende). 中旬 steht hinter der Monatsangabe: 三月中旬 „Mitte März“, 下个月中旬, 本月中旬. Das Wort ist leicht formell und typisch für Planungen, Ankündigungen und Nachrichten; im Gespräch sagt man auch einfach 月中.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:中央:zhong1yang1",
     "word": "中央",
     "pinyin": "zhōngyāng",
-    "meaning": "Medianwert; Zentrale; zentral",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Mitte; Zentrum; Zentralregierung; zentral",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -68183,20 +73829,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "广场中央有一座纪念碑。",
+        "pinyin": "Guǎngchǎng zhōngyāng yǒu yí zuò jìniànbēi.",
+        "german": "In der Mitte des Platzes steht ein Denkmal."
+      },
+      {
+        "chinese": "这项政策是由中央政府制定的。",
+        "pinyin": "Zhè xiàng zhèngcè shì yóu zhōngyāng zhèngfǔ zhìdìng de.",
+        "german": "Diese Politik wurde von der Zentralregierung beschlossen."
+      },
+      {
+        "chinese": "他把桌子搬到了房间的正中央。",
+        "pinyin": "Tā bǎ zhuōzi bāndào le fángjiān de zhèng zhōngyāng.",
+        "german": "Er stellte den Tisch genau in die Mitte des Zimmers."
+      }
+    ],
     "traditional": "中央",
     "evidence": {
       "cedict": "中央 中央 [zhong1 yang1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "中央 (zhōngyāng) hat zwei Bedeutungen: räumlich „Mitte, Zentrum“ (广场中央, 房间的正中央) – gehobener als das alltägliche 中间 (zhōngjiān) – und politisch „die zentrale Führung, die Zentralregierung“. In der zweiten Bedeutung steht es oft attributiv ohne 的: 中央政府, 中央银行 „Zentralbank“, 中央电视台 „China Central Television (CCTV)“. Das Gegenstück zur Zentrale ist 地方 (dìfāng) „die Regionen, lokale Ebene“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:肿:zhong3",
     "word": "肿",
     "pinyin": "zhǒng",
-    "meaning": "geschwollen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "anschwellen; geschwollen sein",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -68204,20 +73870,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我昨天扭了脚，今天脚踝肿了。",
+        "pinyin": "Wǒ zuótiān niǔ le jiǎo, jīntiān jiǎohuái zhǒng le.",
+        "german": "Ich habe mir gestern den Fuß verstaucht, und heute ist der Knöchel geschwollen."
+      },
+      {
+        "chinese": "她哭了一夜，眼睛都哭肿了。",
+        "pinyin": "Tā kū le yí yè, yǎnjing dōu kūzhǒng le.",
+        "german": "Sie hat die ganze Nacht geweint, ihre Augen sind ganz verquollen."
+      },
+      {
+        "chinese": "被蚊子咬的地方又红又肿。",
+        "pinyin": "Bèi wénzi yǎo de dìfang yòu hóng yòu zhǒng.",
+        "german": "Die Stelle, wo mich die Mücke gestochen hat, ist rot und geschwollen."
+      }
+    ],
     "traditional": "腫",
     "evidence": {
       "cedict": "腫 肿 [zhong3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "肿 (zhǒng) ist ein Verb und beschreibt eine Schwellung am Körper; meist mit 了: 脚肿了 „der Fuß ist geschwollen“. Häufig ist es Ergebniskomplement: 哭肿了 „vom Weinen verquollen“, 摔肿了. Typische Verbindungen sind 红肿 „gerötet und geschwollen“, 肿得厉害 „stark geschwollen“ und 消肿 „abschwellen“. Das deutsche Adjektiv „geschwollen“ entspricht also meist 肿了.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:中:zhong4",
     "word": "中",
     "pinyin": "zhòng",
-    "meaning": "treffen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "treffen; getroffen werden (von); gewinnen (Preis, Lotterie)",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -68225,20 +73911,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他第一枪就打中了目标。",
+        "pinyin": "Tā dì-yī qiāng jiù dǎzhòng le mùbiāo.",
+        "german": "Er traf das Ziel gleich mit dem ersten Schuss."
+      },
+      {
+        "chinese": "你猜中了，礼物就是一本书。",
+        "pinyin": "Nǐ cāizhòng le, lǐwù jiù shì yì běn shū.",
+        "german": "Richtig geraten – das Geschenk ist ein Buch."
+      },
+      {
+        "chinese": "他一不小心就中了对方的圈套。",
+        "pinyin": "Tā yí bù xiǎoxīn jiù zhòng le duìfāng de quāntào.",
+        "german": "Einen Moment war er unachtsam, schon ging er dem Gegner in die Falle."
+      }
+    ],
     "traditional": "中",
     "evidence": {
       "cedict": "中 中 [zhong4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "In der Lesung zhòng (nicht zhōng) heißt 中 „treffen“. Allein steht es selten, meist als Ergebniskomplement: 打中 „treffen“, 射中, 猜中 „richtig raten“, 选中 „auswählen“. Außerdem in Verbindungen, in denen einen etwas „trifft“: 中毒 „sich vergiften“, 中暑 „einen Hitzschlag bekommen“, 中计 / 中圈套 „in die Falle gehen“, und beim Gewinnen: 中奖, 中彩票. Beim Lesen erkennt man die Aussprache nur am Zusammenhang.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:种地:zhong4di4",
     "word": "种地",
     "pinyin": "zhòngdì",
-    "meaning": "Feld, Acker, Ackerland; das Feld bestellen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Land bestellen; Ackerbau betreiben",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -68246,18 +73952,41 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "我爷爷种了一辈子地。",
+        "pinyin": "Wǒ yéye zhòng le yíbèizi dì.",
+        "german": "Mein Großvater war sein Leben lang Bauer."
+      },
+      {
+        "chinese": "现在农村的年轻人很少种地，都去城里打工了。",
+        "pinyin": "Xiànzài nóngcūn de niánqīngrén hěn shǎo zhòngdì, dōu qù chéng li dǎgōng le.",
+        "german": "Heute bestellen auf dem Land kaum noch junge Leute die Felder; sie arbeiten alle in der Stadt."
+      },
+      {
+        "chinese": "他退休以后回老家种地去了。",
+        "pinyin": "Tā tuìxiū yǐhòu huí lǎojiā zhòngdì qù le.",
+        "german": "Nach der Pensionierung ist er in sein Heimatdorf zurückgekehrt, um Landwirtschaft zu betreiben."
+      }
+    ],
     "traditional": "種地",
     "evidence": {
       "cedict": "種地 种地 [zhong4 di4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "种地 (zhòngdì) ist das alltägliche Wort für „Landwirtschaft betreiben, als Bauer arbeiten“; gehobener ist 务农 (wùnóng). 种 wird hier zhòng „pflanzen“ gelesen, nicht zhǒng „Art“. Als trennbares Verb nimmt es Zeitdauer und 了 in die Mitte: 种了一辈子地 „sein Leben lang Bauer gewesen sein“, 种了几亩地 „ein paar Mu Land bestellt haben“.",
+    "separable": true,
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:中毒:zhong4du2",
     "word": "中毒",
     "pinyin": "zhòngdú",
-    "meaning": "Vergiftung, sich vergiften",
+    "meaning": "vergiftet werden; eine Vergiftung erleiden; Vergiftung",
     "type": "Verb",
     "level": "HSK6",
     "category": "Gesundheit",
@@ -68266,6 +73995,16 @@ window.VOCAB_HSK6 = [
         "chinese": "他因为一氧化碳中毒被送医。",
         "pinyin": "Tā yīnwèi yīyǎnghuàtàn zhòngdú bèi sòng yī.",
         "german": "Er wurde wegen einer Kohlenmonoxidvergiftung ins Krankenhaus gebracht."
+      },
+      {
+        "chinese": "好几个学生吃了不干净的东西，食物中毒了。",
+        "pinyin": "Hǎojǐ ge xuésheng chī le bù gānjìng de dōngxi, shíwù zhòngdú le.",
+        "german": "Mehrere Schüler haben etwas Verdorbenes gegessen und sich eine Lebensmittelvergiftung zugezogen."
+      },
+      {
+        "chinese": "我的电脑中毒了，很多文件都打不开。",
+        "pinyin": "Wǒ de diànnǎo zhòngdú le, hěn duō wénjiàn dōu dǎ bu kāi.",
+        "german": "Mein Computer hat einen Virus, viele Dateien lassen sich nicht mehr öffnen."
       }
     ],
     "legacyIds": [
@@ -68279,15 +74018,19 @@ window.VOCAB_HSK6 = [
     "traditional": "中毒",
     "evidence": {
       "cedict": "中毒 中毒 [zhong4 du2]"
+    },
+    "notes": "中毒 (zhòngdú) – 中 wird hier zhòng gelesen – heißt „von Gift getroffen werden“, also eine Vergiftung erleiden, nicht absichtlich „sich vergiften“. Typisch: 食物中毒 „Lebensmittelvergiftung“, 煤气中毒, 一氧化碳中毒 „Kohlenmonoxidvergiftung“. Übertragen sagt man 电脑中毒了 „der Computer hat einen Virus“ und umgangssprachlich 中毒很深 für eine Sucht oder Besessenheit, z. B. nach einem Spiel.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:中奖:zhong4jiang3",
     "word": "中奖",
     "pinyin": "zhòngjiǎng",
-    "meaning": "einen Preis gewinnen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "einen Preis gewinnen; (in der Lotterie) gewinnen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -68295,20 +74038,41 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "听说他买彩票中了大奖！",
+        "pinyin": "Tīngshuō tā mǎi cǎipiào zhòng le dàjiǎng!",
+        "german": "Ich habe gehört, er hat im Lotto den Hauptgewinn gezogen!"
+      },
+      {
+        "chinese": "这次抽奖活动的中奖名单明天公布。",
+        "pinyin": "Zhè cì chōujiǎng huódòng de zhòngjiǎng míngdān míngtiān gōngbù.",
+        "german": "Die Gewinnerliste dieser Verlosung wird morgen bekannt gegeben."
+      },
+      {
+        "chinese": "我买了这么多年彩票，从来没中过奖。",
+        "pinyin": "Wǒ mǎi le zhème duō nián cǎipiào, cónglái méi zhòng guo jiǎng.",
+        "german": "Ich spiele seit so vielen Jahren Lotto und habe noch nie etwas gewonnen."
+      }
+    ],
     "traditional": "中獎",
     "evidence": {
       "cedict": "中獎 中奖 [zhong4 jiang3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "中奖 (zhòngjiǎng) heißt, bei einer Lotterie, Verlosung oder einem Gewinnspiel gewonnen zu haben; 中 wird zhòng gelesen. Als trennbares Verb nimmt es 了, 过 und die Art des Gewinns in die Mitte: 中了大奖 „den Hauptgewinn ziehen“, 中了一等奖, 没中过奖. Für Auszeichnungen, die man durch Leistung erhält, sagt man dagegen 获奖 oder 得奖. Häufige Wörter: 中奖号码 „Gewinnzahlen“, 中奖名单.",
+    "separable": true,
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:众人:zhong4ren2",
     "word": "众人",
     "pinyin": "zhòngrén",
-    "meaning": "jedermann, alle miteinander",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "alle; alle Anwesenden; die Leute",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -68316,20 +74080,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他的话引起了众人的注意。",
+        "pinyin": "Tā de huà yǐnqǐ le zhòngrén de zhùyì.",
+        "german": "Seine Worte erregten die Aufmerksamkeit aller Anwesenden."
+      },
+      {
+        "chinese": "她当着众人的面哭了起来。",
+        "pinyin": "Tā dāngzhe zhòngrén de miàn kū le qǐlai.",
+        "german": "Sie fing vor allen Leuten an zu weinen."
+      },
+      {
+        "chinese": "众人拾柴火焰高，大家一起努力吧！",
+        "pinyin": "Zhòngrén shí chái huǒyàn gāo, dàjiā yìqǐ nǔlì ba!",
+        "german": "Gemeinsam sind wir stark – lasst uns alle zusammen anpacken!"
+      }
+    ],
     "traditional": "眾人",
     "evidence": {
       "cedict": "眾人 众人 [zhong4 ren2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "众人 (zhòngrén) bezeichnet die vielen Menschen, die in einer Situation zugegen sind, und ist vor allem schriftsprachlich und erzählend: 众人的目光 „die Blicke aller“, 当着众人的面 „vor allen Leuten“. Im Gespräch sagt man 大家; anders als 大家 dient 众人 nicht zur direkten Anrede. Bekannt ist das Sprichwort 众人拾柴火焰高 „wenn alle Brennholz sammeln, lodert die Flamme hoch“, also „gemeinsam ist man stark“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:中暑:zhong4shu3",
     "word": "中暑",
     "pinyin": "zhòngshǔ",
-    "meaning": "Sonnenstich",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Hitzschlag; Sonnenstich; einen Hitzschlag bekommen",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -68337,20 +74121,40 @@ window.VOCAB_HSK6 = [
       "pos": "名、动",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "天气太热，有个老人在公园里中暑了。",
+        "pinyin": "Tiānqì tài rè, yǒu ge lǎorén zài gōngyuán li zhòngshǔ le.",
+        "german": "Es war so heiß, dass ein älterer Mensch im Park einen Hitzschlag erlitt."
+      },
+      {
+        "chinese": "夏天要多喝水，预防中暑。",
+        "pinyin": "Xiàtiān yào duō hē shuǐ, yùfáng zhòngshǔ.",
+        "german": "Im Sommer sollte man viel trinken, um einem Hitzschlag vorzubeugen."
+      },
+      {
+        "chinese": "他在太阳下站了两个小时，结果中暑了。",
+        "pinyin": "Tā zài tàiyáng xià zhàn le liǎng ge xiǎoshí, jiéguǒ zhòngshǔ le.",
+        "german": "Er stand zwei Stunden in der Sonne und bekam einen Sonnenstich."
+      }
+    ],
     "traditional": "中暑",
     "evidence": {
       "cedict": "中暑 中暑 [zhong4 shu3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "中暑 (zhòngshǔ) heißt wörtlich „von der Sommerhitze (暑) getroffen werden (中 zhòng)“ und deckt alle Hitzeschäden ab, vom Sonnenstich bis zur Hitzeerschöpfung. Als Verb meist mit 了: 他中暑了; als Nomen etwa in 预防中暑 „einem Hitzschlag vorbeugen“ oder 中暑的症状. Ein häufiger Fehler ist die Aussprache zhōngshǔ.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:重心:zhong4xin1",
     "word": "重心",
     "pinyin": "zhòngxīn",
-    "meaning": "Schwerpunkt, Mittelpunkt, Kern",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Schwerpunkt; Hauptaugenmerk; Kern",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -68358,20 +74162,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他滑了一下，失去了重心，摔倒在地上。",
+        "pinyin": "Tā huá le yíxià, shīqù le zhòngxīn, shuāidǎo zài dì shang.",
+        "german": "Er rutschte aus, verlor das Gleichgewicht und fiel hin."
+      },
+      {
+        "chinese": "今年公司的工作重心是开拓海外市场。",
+        "pinyin": "Jīnnián gōngsī de gōngzuò zhòngxīn shì kāituò hǎiwài shìchǎng.",
+        "german": "In diesem Jahr legt die Firma den Schwerpunkt auf die Erschließung ausländischer Märkte."
+      },
+      {
+        "chinese": "有了孩子以后，她把生活的重心放在了家庭上。",
+        "pinyin": "Yǒu le háizi yǐhòu, tā bǎ shēnghuó de zhòngxīn fàng zài le jiātíng shang.",
+        "german": "Seit sie Kinder hat, steht für sie die Familie im Mittelpunkt."
+      }
+    ],
     "traditional": "重心",
     "evidence": {
       "cedict": "重心 重心 [zhong4 xin1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "重心 (zhòngxīn) ist wörtlich der physikalische Schwerpunkt: 身体的重心, 失去重心 „das Gleichgewicht verlieren“. Übertragen meint es den Hauptschwerpunkt einer Tätigkeit: 工作重心, 把重心放在…上 „den Schwerpunkt auf … legen“, 重心转移 „Schwerpunktverlagerung“. Nicht verwechseln mit dem ähnlich klingenden 中心 (zhōngxīn) „Zentrum“; 重点 (zhòngdiǎn) ist eher „wichtiger Punkt“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:州:zhou1",
     "word": "州",
     "pinyin": "zhōu",
-    "meaning": "Land, Region, Oblast, Woblast; Bundesstaat",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Bundesstaat; Bundesland; (historisch) Präfektur",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -68379,12 +74203,34 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "美国一共有五十个州。",
+        "pinyin": "Měiguó yígòng yǒu wǔshí ge zhōu.",
+        "german": "Die USA haben insgesamt fünfzig Bundesstaaten."
+      },
+      {
+        "chinese": "德国由十六个州组成。",
+        "pinyin": "Déguó yóu shíliù ge zhōu zǔchéng.",
+        "german": "Deutschland besteht aus sechzehn Bundesländern."
+      },
+      {
+        "chinese": "他是从加州来的，第一次见到雪。",
+        "pinyin": "Tā shì cóng Jiāzhōu lái de, dì-yī cì jiàndào xuě.",
+        "german": "Er kommt aus Kalifornien und sieht zum ersten Mal Schnee."
+      }
+    ],
     "traditional": "州",
     "evidence": {
       "cedict": "州 州 [zhou1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "州 (zhōu) bezeichnet heute vor allem die Gliedstaaten eines Bundesstaats: 美国的州, 德国的十六个州 „die sechzehn Bundesländer“; 加州 ist die Kurzform für Kalifornien. In China war 州 früher eine Verwaltungseinheit, daher Städtenamen wie 杭州 und 广州; heute gibt es noch 自治州 „autonomer Bezirk“. Nicht verwechseln mit 洲 (zhōu) „Kontinent“ wie in 亚洲.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:粥:zhou1",
@@ -68396,14 +74242,19 @@ window.VOCAB_HSK6 = [
     "category": "Essen",
     "examples": [
       {
-        "chinese": "早上喝一碗粥。",
-        "pinyin": "Zǎoshang hē yì wǎn zhōu.",
-        "german": "Morgens eine Schüssel Reisbrei trinken."
+        "chinese": "我早上一般喝一碗粥。",
+        "pinyin": "Wǒ zǎoshang yìbān hē yì wǎn zhōu.",
+        "german": "Morgens esse ich meistens eine Schale Reisbrei."
       },
       {
-        "chinese": "生病的时候喝粥。",
-        "pinyin": "Shēngbìng de shíhou hē zhōu.",
-        "german": "Wenn man krank ist, trinkt man Reisbrei."
+        "chinese": "我生病的时候，妈妈总给我煮粥。",
+        "pinyin": "Wǒ shēngbìng de shíhou, māma zǒng gěi wǒ zhǔ zhōu.",
+        "german": "Wenn ich krank war, hat Mama mir immer Reisbrei gekocht."
+      },
+      {
+        "chinese": "广东人早餐喜欢吃皮蛋瘦肉粥。",
+        "pinyin": "Guǎngdōngrén zǎocān xǐhuan chī pídàn shòuròu zhōu.",
+        "german": "In Guangdong isst man zum Frühstück gern Reisbrei mit konserviertem Ei und magerem Schweinefleisch."
       }
     ],
     "legacyIds": [
@@ -68423,15 +74274,19 @@ window.VOCAB_HSK6 = [
     ],
     "evidence": {
       "cedict": "粥 粥 [zhou1]"
+    },
+    "notes": "粥 (zhōu) ist ein dünner Brei aus Reis oder anderem Getreide, der lange mit viel Wasser gekocht wird. Weil er so flüssig ist, sagt man meist 喝粥 „Brei trinken“, regional auch 吃粥; kochen heißt 煮粥 oder 熬粥. Bekannte Sorten sind 白粥, 小米粥 „Hirsebrei“ und 皮蛋瘦肉粥. Zählwort ist 碗. 粥 gilt als typisches Frühstück und als Schonkost bei Krankheit.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:周边:zhou1bian1",
     "word": "周边",
     "pinyin": "zhōubiān",
-    "meaning": "(im) Umkreis, Umgebung; Peripherie",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Umgebung; Umland; Peripherie; Merchandise (Fanartikel)",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -68439,12 +74294,34 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这个城市和周边地区的交通非常方便。",
+        "pinyin": "Zhège chéngshì hé zhōubiān dìqū de jiāotōng fēicháng fāngbiàn.",
+        "german": "Die Verkehrsverbindungen in der Stadt und im Umland sind sehr gut."
+      },
+      {
+        "chinese": "中国和周边国家的贸易越来越多。",
+        "pinyin": "Zhōngguó hé zhōubiān guójiā de màoyì yuè lái yuè duō.",
+        "german": "Der Handel zwischen China und seinen Nachbarländern nimmt immer weiter zu."
+      },
+      {
+        "chinese": "她买了很多这部动画片的周边。",
+        "pinyin": "Tā mǎi le hěn duō zhè bù dònghuàpiàn de zhōubiān.",
+        "german": "Sie hat jede Menge Merchandise zu diesem Animationsfilm gekauft."
+      }
+    ],
     "traditional": "周邊",
     "evidence": {
       "cedict": "周邊 周边 [zhou1 bian1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "周边 (zhōubiān) bezeichnet das Gebiet rund um etwas und steht oft attributiv: 周边地区 „Umland“, 周边国家 „Nachbarländer“, 学校周边, 周边游 „Ausflüge in die nähere Umgebung“. Es ist etwas formeller als 周围 (zhōuwéi) und 附近 (fùjìn). Umgangssprachlich heißt 周边 heute auch „Merchandise“ zu Filmen, Animes oder Spielen (周边产品).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:周到:zhou1dao4",
@@ -68458,7 +74335,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "他的服务非常周到。",
         "pinyin": "Tā de fúwù fēicháng zhōudào.",
-        "german": "Sein Service ist sehr aufmerksam."
+        "german": "Er bedient seine Gäste sehr aufmerksam."
+      },
+      {
+        "chinese": "你想得真周到，连雨伞都准备好了。",
+        "pinyin": "Nǐ xiǎng de zhēn zhōudào, lián yǔsǎn dōu zhǔnbèi hǎo le.",
+        "german": "Du denkst wirklich an alles – sogar Regenschirme hast du dabei."
+      },
+      {
+        "chinese": "这次会议安排得很周到，大家都很满意。",
+        "pinyin": "Zhè cì huìyì ānpái de hěn zhōudào, dàjiā dōu hěn mǎnyì.",
+        "german": "Die Konferenz war bis ins Detail durchdacht organisiert, alle waren sehr zufrieden."
       }
     ],
     "legacyIds": [
@@ -68472,15 +74359,19 @@ window.VOCAB_HSK6 = [
     "traditional": "周到",
     "evidence": {
       "cedict": "周到 周到 [zhou1 dao4]"
+    },
+    "notes": "周到 (zhōudào, umgangssprachlich oft zhōudao) beschreibt Service, Planung oder Rücksichtnahme, die an alles denkt: 服务周到, 考虑得很周到, 安排得周到, 你想得真周到 „du denkst wirklich an alles“. Als Höflichkeitsfloskel des Gastgebers dient die verkürzte Verneinung 招待不周 „verzeihen Sie die bescheidene Bewirtung“. 仔细 (zǐxì) betont dagegen Sorgfalt bei einer Tätigkeit, 体贴 (tǐtiē) einfühlsame Fürsorge.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:周期:zhou1qi1",
     "word": "周期",
     "pinyin": "zhōuqī",
-    "meaning": "Periode, Zyklus; periodisch, zyklisch, rhythmisch",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Zyklus; Periode; Dauer (eines Ablaufs)",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -68488,20 +74379,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这种植物的生长周期大约是三个月。",
+        "pinyin": "Zhè zhǒng zhíwù de shēngzhǎng zhōuqī dàyuē shì sān ge yuè.",
+        "german": "Der Wachstumszyklus dieser Pflanze beträgt etwa drei Monate."
+      },
+      {
+        "chinese": "经济发展有一定的周期，不可能一直增长。",
+        "pinyin": "Jīngjì fāzhǎn yǒu yídìng de zhōuqī, bù kěnéng yìzhí zēngzhǎng.",
+        "german": "Die Wirtschaft entwickelt sich in Zyklen und kann nicht unbegrenzt wachsen."
+      },
+      {
+        "chinese": "这个项目的开发周期太长了。",
+        "pinyin": "Zhège xiàngmù de kāifā zhōuqī tài cháng le.",
+        "german": "Die Entwicklungszeit dieses Projekts ist zu lang."
+      }
+    ],
     "traditional": "週期",
     "evidence": {
       "cedict": "週期 周期 [zhou1 qi1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "周期 (zhōuqī) bezeichnet einen sich wiederholenden Ablauf oder die Zeit, die ein solcher Ablauf dauert: 经济周期 „Konjunkturzyklus“, 生长周期 „Wachstumszyklus“, 生产周期 / 开发周期 „Produktions- / Entwicklungsdauer“, 月经周期. Daraus: 周期性 „periodisch, zyklisch“ und 以…为周期 „im Rhythmus von …“. Auf dem Festland wird 期 hier im ersten Ton gesprochen (in Taiwan qí).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:株:zhu1",
     "word": "株",
     "pinyin": "zhū",
-    "meaning": "Pflanze; Stamm, Baumstamm; Wurzeln, Wurzelwerk (über der Erde)",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Zählwort für Pflanzen und Bäume",
     "type": "Zählwort",
     "level": "HSK6",
     "syllabus": {
@@ -68509,20 +74420,40 @@ window.VOCAB_HSK6 = [
       "pos": "量",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "院子里种着几株桃树。",
+        "pinyin": "Yuànzi li zhòng zhe jǐ zhū táoshù.",
+        "german": "Im Hof stehen ein paar Pfirsichbäume."
+      },
+      {
+        "chinese": "窗台上放着一株小小的仙人掌。",
+        "pinyin": "Chuāngtái shang fàng zhe yì zhū xiǎoxiǎo de xiānrénzhǎng.",
+        "german": "Auf der Fensterbank steht ein winziger Kaktus."
+      },
+      {
+        "chinese": "这几株花是我奶奶亲手种的。",
+        "pinyin": "Zhè jǐ zhū huā shì wǒ nǎinai qīnshǒu zhòng de.",
+        "german": "Diese Blumen hat meine Oma eigenhändig gepflanzt."
+      }
+    ],
     "traditional": "株",
     "evidence": {
       "cedict": "株 株 [zhu1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "株 (zhū) zählt Pflanzen und Bäume: 一株小草, 几株桃树, 两株玫瑰. Es ist schriftsprachlicher als 棵 (kē), das im Alltag weit häufiger ist; in Fachtexten der Botanik und Landwirtschaft ist 株 dagegen üblich. Als Nomen steckt es in 植株 „Pflanze“ und in biologischen Begriffen wie 菌株 „Bakterienstamm“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:珠宝:zhu1bao3",
     "word": "珠宝",
     "pinyin": "zhūbǎo",
-    "meaning": "Bijou; Juwelen, Schmuck",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Schmuck; Juwelen; Perlen und Edelsteine",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -68530,20 +74461,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "她在一家珠宝店工作。",
+        "pinyin": "Tā zài yì jiā zhūbǎodiàn gōngzuò.",
+        "german": "Sie arbeitet in einem Juweliergeschäft."
+      },
+      {
+        "chinese": "小偷偷走了价值上百万的珠宝。",
+        "pinyin": "Xiǎotōu tōuzǒu le jiàzhí shàng bǎiwàn de zhūbǎo.",
+        "german": "Die Diebe haben Schmuck im Wert von über einer Million gestohlen."
+      },
+      {
+        "chinese": "这件珠宝是她祖母留下来的。",
+        "pinyin": "Zhè jiàn zhūbǎo shì tā zǔmǔ liú xiàlai de.",
+        "german": "Dieses Schmuckstück hat ihr ihre Großmutter hinterlassen."
+      }
+    ],
     "traditional": "珠寶",
     "evidence": {
       "cedict": "珠寶 珠宝 [zhu1 bao3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "珠宝 (zhūbǎo), wörtlich „Perlen und Kostbarkeiten“, ist ein Sammelbegriff für wertvollen Schmuck: 珠宝店 „Juweliergeschäft“, 珠宝首饰, 珠宝设计. Ein einzelnes Stück zählt man mit 件: 一件珠宝. Für alltäglichen Schmuck wie Ketten und Ohrringe sagt man eher 首饰 (shǒushi).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:诸多:zhu1duo1",
     "word": "诸多",
     "pinyin": "zhūduō",
-    "meaning": "sehr viel, eine Menge",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "zahlreich; viele",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -68551,20 +74502,40 @@ window.VOCAB_HSK6 = [
       "pos": "形",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "由于诸多原因，会议被推迟了。",
+        "pinyin": "Yóuyú zhūduō yuányīn, huìyì bèi tuīchí le.",
+        "german": "Aus verschiedenen Gründen wurde die Sitzung verschoben."
+      },
+      {
+        "chinese": "刚到国外时，他遇到了诸多困难。",
+        "pinyin": "Gāng dào guówài shí, tā yùdào le zhūduō kùnnan.",
+        "german": "Als er ins Ausland kam, stieß er anfangs auf zahlreiche Schwierigkeiten."
+      },
+      {
+        "chinese": "施工给附近居民带来了诸多不便。",
+        "pinyin": "Shīgōng gěi fùjìn jūmín dàilái le zhūduō búbiàn.",
+        "german": "Die Bauarbeiten bereiteten den Anwohnern viele Unannehmlichkeiten."
+      }
+    ],
     "traditional": "諸多",
     "evidence": {
       "cedict": "諸多 诸多 [zhu1 duo1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "诸多 (zhūduō) ist schriftsprachlich und steht direkt vor meist abstrakten, zweisilbigen Nomen: 诸多问题, 诸多困难, 诸多因素, 诸多不便 „viele Unannehmlichkeiten“. Es wird weder mit 很 verbunden noch steht es üblicherweise als Prädikat. Im Gespräch sagt man 很多 oder 许多.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:主办:zhu3ban4",
     "word": "主办",
     "pinyin": "zhǔbàn",
-    "meaning": "leiten; für etw. verantwortlich sein; Ägide; Veranstaltung",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "veranstalten; ausrichten; Gastgeber sein",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -68572,12 +74543,34 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这次展览由市政府主办。",
+        "pinyin": "Zhè cì zhǎnlǎn yóu shìzhèngfǔ zhǔbàn.",
+        "german": "Die Ausstellung wird von der Stadtverwaltung veranstaltet."
+      },
+      {
+        "chinese": "北京在二〇〇八年主办了奥运会。",
+        "pinyin": "Běijīng zài èrlínglíngbā nián zhǔbàn le Àoyùnhuì.",
+        "german": "Peking war 2008 Gastgeber der Olympischen Spiele."
+      },
+      {
+        "chinese": "主办方临时取消了这场音乐会。",
+        "pinyin": "Zhǔbànfāng línshí qǔxiāo le zhè chǎng yīnyuèhuì.",
+        "german": "Der Veranstalter hat das Konzert kurzfristig abgesagt."
+      }
+    ],
     "traditional": "主辦",
     "evidence": {
       "cedict": "主辦 主办 [zhu3 ban4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "主办 (zhǔbàn) heißt, als Veranstalter für eine Konferenz, Ausstellung oder einen Wettbewerb verantwortlich zu sein: 主办会议, 主办奥运会; im Passiv mit 由: 由…主办 „veranstaltet von …“. Der Veranstalter heißt 主办方 oder 主办单位. Neben ihm stehen oft 协办 „Mitveranstalter“ und 承办 „Durchführung, Ausrichtung im Auftrag“. Für private Feste sagt man eher 举办 oder 办.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:主播:zhu3bo1",
@@ -68592,6 +74585,16 @@ window.VOCAB_HSK6 = [
         "chinese": "她是一个有名的主播。",
         "pinyin": "Tā shì yí ge yǒumíng de zhǔbō.",
         "german": "Sie ist eine bekannte Streamerin."
+      },
+      {
+        "chinese": "他从小就梦想成为一名新闻主播。",
+        "pinyin": "Tā cóngxiǎo jiù mèngxiǎng chéngwéi yì míng xīnwén zhǔbō.",
+        "german": "Schon als Kind träumte er davon, Nachrichtensprecher zu werden."
+      },
+      {
+        "chinese": "这位带货主播一个晚上就卖了几万件衣服。",
+        "pinyin": "Zhè wèi dàihuò zhǔbō yí ge wǎnshang jiù mài le jǐwàn jiàn yīfu.",
+        "german": "Dieser Verkaufsstreamer hat an einem einzigen Abend Zehntausende Kleidungsstücke verkauft."
       }
     ],
     "legacyIds": [
@@ -68605,6 +74608,12 @@ window.VOCAB_HSK6 = [
     "traditional": "主播",
     "evidence": {
       "cedict": "主播 主播 [zhu3 bo1]"
+    },
+    "notes": "主播 (zhǔbō) war ursprünglich der Nachrichtensprecher bzw. die Moderatorin in Radio und Fernsehen (新闻主播). Heute denkt man meist an Livestreamer: 网络主播, 游戏主播 und 带货主播, die im Livestream (直播 zhíbō) Produkte verkaufen. Zählwörter sind 个, 位 und 名. Als Verb „eine Sendung moderieren“ ist es selten.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -68619,7 +74628,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "他在项目中起主导作用。",
         "pinyin": "Tā zài xiàngmù zhōng qǐ zhǔdǎo zuòyòng.",
-        "german": "Er spielt eine führende Rolle im Projekt."
+        "german": "Er spielt in dem Projekt eine führende Rolle."
+      },
+      {
+        "chinese": "这几家大公司主导着整个市场。",
+        "pinyin": "Zhè jǐ jiā dà gōngsī zhǔdǎo zhe zhěnggè shìchǎng.",
+        "german": "Diese wenigen Großkonzerne beherrschen den gesamten Markt."
+      },
+      {
+        "chinese": "这次改革是由政府主导的。",
+        "pinyin": "Zhè cì gǎigé shì yóu zhèngfǔ zhǔdǎo de.",
+        "german": "Diese Reform wurde von der Regierung gelenkt."
       }
     ],
     "legacyIds": [
@@ -68633,15 +74652,19 @@ window.VOCAB_HSK6 = [
     "traditional": "主導",
     "evidence": {
       "cedict": "主導 主导 [zhu3 dao3]"
+    },
+    "notes": "主导 (zhǔdǎo) ist formell und beschreibt, wer oder was eine Entwicklung bestimmt. Attributiv: 主导作用 „führende Rolle“, 主导地位 „Vormachtstellung“, 主导因素; als Verb: 主导市场 „den Markt beherrschen“, 由政府主导 „von der Regierung gelenkt“. 领导 (lǐngdǎo) bezieht sich dagegen auf das Führen von Menschen und heißt auch „Vorgesetzte(r)“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:主管:zhu3guan3",
     "word": "主管",
     "pinyin": "zhǔguǎn",
-    "meaning": "Verantwortlicher, Leiter, Zuständige; verantwortlich, zuständig",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "zuständig sein für; leiten; Vorgesetzte(r); Leiter/Leiterin",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -68649,20 +74672,40 @@ window.VOCAB_HSK6 = [
       "pos": "动、名",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "王副市长主管教育工作。",
+        "pinyin": "Wáng fùshìzhǎng zhǔguǎn jiàoyù gōngzuò.",
+        "german": "Vizebürgermeister Wang ist für das Bildungswesen zuständig."
+      },
+      {
+        "chinese": "请假需要先得到主管的同意。",
+        "pinyin": "Qǐngjià xūyào xiān dédào zhǔguǎn de tóngyì.",
+        "german": "Wer frei nehmen will, braucht zuerst die Zustimmung seines Vorgesetzten."
+      },
+      {
+        "chinese": "她去年升为销售部主管。",
+        "pinyin": "Tā qùnián shēng wéi xiāoshòubù zhǔguǎn.",
+        "german": "Sie wurde letztes Jahr zur Leiterin der Vertriebsabteilung befördert."
+      }
+    ],
     "traditional": "主管",
     "evidence": {
       "cedict": "主管 主管 [zhu3 guan3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als Verb heißt 主管 (zhǔguǎn) „hauptverantwortlich zuständig sein“: 主管财务, 主管教育工作; 主管部门 ist die „zuständige Behörde“. Als Nomen ist es in Firmen die oder der direkte Vorgesetzte, oft auf mittlerer Ebene: 我的主管, 部门主管, 销售主管. 经理 (jīnglǐ) steht meist eine Stufe höher, 老板 (lǎobǎn) ist der Chef oder Inhaber.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:主角:zhu3jue2",
     "word": "主角",
     "pinyin": "zhǔjué",
-    "meaning": "führen, leiten; Hauptrolle; Protagonist",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Hauptrolle; Hauptfigur; Protagonist/Protagonistin",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -68670,12 +74713,34 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "她在这部电影里演主角。",
+        "pinyin": "Tā zài zhè bù diànyǐng li yǎn zhǔjué.",
+        "german": "Sie spielt in diesem Film die Hauptrolle."
+      },
+      {
+        "chinese": "这本小说的主角是一个普通的农村女孩。",
+        "pinyin": "Zhè běn xiǎoshuō de zhǔjué shì yí ge pǔtōng de nóngcūn nǚhái.",
+        "german": "Die Hauptfigur dieses Romans ist ein ganz gewöhnliches Mädchen vom Land."
+      },
+      {
+        "chinese": "今天是你的生日，你是主角！",
+        "pinyin": "Jīntiān shì nǐ de shēngrì, nǐ shì zhǔjué!",
+        "german": "Heute ist dein Geburtstag – du stehst im Mittelpunkt!"
+      }
+    ],
     "traditional": "主角",
     "evidence": {
       "cedict": "主角 主角 [zhu3 jue2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "主角 (zhǔjué) ist die Hauptrolle in Film und Theater oder die Hauptfigur einer Geschichte: 演主角, 当主角, 小说的主角; die Nebenrolle ist 配角 (pèijué). 角 wird hier standardsprachlich jué („Rolle“) gelesen, im Alltag hört man aber auch oft zhǔjiǎo. Übertragen: 今天你是主角 „heute stehst du im Mittelpunkt“. Den Schauspieler selbst nennt man eher 主演.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:主流:zhu3liu2",
@@ -68689,12 +74754,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "这是主流的观点。",
         "pinyin": "Zhè shì zhǔliú de guāndiǎn.",
-        "german": "Das ist die Mainstream-Ansicht."
+        "german": "Das ist die vorherrschende Meinung."
       },
       {
         "chinese": "主流媒体对此事持不同看法。",
         "pinyin": "Zhǔliú méitǐ duì cǐ shì chí bùtóng kànfǎ.",
-        "german": "Die Mainstream-Medien vertreten unterschiedliche Ansichten dazu."
+        "german": "Die großen Medien vertreten dazu unterschiedliche Ansichten."
+      },
+      {
+        "chinese": "如今，网上购物已经成为主流。",
+        "pinyin": "Rújīn, wǎngshàng gòuwù yǐjīng chéngwéi zhǔliú.",
+        "german": "Heute hat sich das Online-Shopping längst durchgesetzt."
       }
     ],
     "legacyIds": [
@@ -68708,15 +74778,19 @@ window.VOCAB_HSK6 = [
     "traditional": "主流",
     "evidence": {
       "cedict": "主流 主流 [zhu3 liu2]"
+    },
+    "notes": "主流 (zhǔliú) ist wörtlich der Hauptstrom eines Flusses, heute fast immer übertragen „vorherrschende Richtung, Mainstream“: 主流媒体, 主流文化, 主流观点 „vorherrschende Meinung“, 成为主流 „sich durchsetzen“. Vor Nomen steht es meist ohne 的. 潮流 (cháoliú) ist dagegen ein (Mode-)Trend, der schnell wechseln kann.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:主演:zhu3yan3",
     "word": "主演",
     "pinyin": "zhǔyǎn",
-    "meaning": "die Hauptrolle spielen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "die Hauptrolle spielen; Hauptdarsteller(in)",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -68724,18 +74798,40 @@ window.VOCAB_HSK6 = [
       "pos": "动、名",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这部电影由两位著名演员主演。",
+        "pinyin": "Zhè bù diànyǐng yóu liǎng wèi zhùmíng yǎnyuán zhǔyǎn.",
+        "german": "In diesem Film spielen zwei berühmte Schauspieler die Hauptrollen."
+      },
+      {
+        "chinese": "她主演的第一部电视剧就火了。",
+        "pinyin": "Tā zhǔyǎn de dì-yī bù diànshìjù jiù huǒ le.",
+        "german": "Gleich die erste Fernsehserie, in der sie die Hauptrolle spielte, wurde ein Hit."
+      },
+      {
+        "chinese": "记者采访了这部话剧的主演。",
+        "pinyin": "Jìzhě cǎifǎng le zhè bù huàjù de zhǔyǎn.",
+        "german": "Die Journalisten interviewten die Hauptdarsteller des Theaterstücks."
+      }
+    ],
     "traditional": "主演",
     "evidence": {
       "cedict": "主演 主演 [zhu3 yan3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als Verb heißt 主演 (zhǔyǎn) „die Hauptrolle spielen“ und nimmt den Film oder das Stück als Objekt: 主演一部电影; sehr häufig ist 由…主演 „mit … in der Hauptrolle“. Als Nomen ist es der Hauptdarsteller: 这部电影的主演是谁？ Merke den Unterschied: 主角 ist die Rolle oder Figur, 主演 der Schauspieler, der sie spielt.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:主张:zhu3zhang1",
     "word": "主张",
     "pinyin": "zhǔzhāng",
-    "meaning": "behaupten, Standpunkt vertreten",
+    "meaning": "befürworten; eintreten für; Standpunkt; Auffassung",
     "type": "Verb",
     "level": "HSK6",
     "category": "Gesellschaft",
@@ -68743,7 +74839,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "他主张和平解决问题。",
         "pinyin": "Tā zhǔzhāng hépíng jiějué wèntí.",
-        "german": "Er vertritt den Standpunkt, Probleme friedlich zu lösen."
+        "german": "Er tritt für eine friedliche Lösung des Problems ein."
+      },
+      {
+        "chinese": "两个人的主张完全不同，谁也说服不了谁。",
+        "pinyin": "Liǎng ge rén de zhǔzhāng wánquán bùtóng, shéi yě shuōfú bu liǎo shéi.",
+        "german": "Die beiden vertreten völlig gegensätzliche Positionen, keiner kann den anderen überzeugen."
+      },
+      {
+        "chinese": "这件事你别自作主张，先问问父母。",
+        "pinyin": "Zhè jiàn shì nǐ bié zìzuò-zhǔzhāng, xiān wènwen fùmǔ.",
+        "german": "Entscheide das nicht eigenmächtig, frag erst einmal deine Eltern."
       }
     ],
     "legacyIds": [
@@ -68757,26 +74863,37 @@ window.VOCAB_HSK6 = [
     "traditional": "主張",
     "evidence": {
       "cedict": "主張 主张 [zhu3 zhang1]"
+    },
+    "notes": "Als Verb heißt 主张 (zhǔzhāng) „für etwas eintreten, etwas befürworten“ und steht meist vor einer Verbgruppe: 主张和平解决, 主张改革. Es geht also um eine Forderung, nicht um eine bloße Behauptung oder Meinung (dafür 认为 / 说). Als Nomen: 提出主张, 政治主张, 两人的主张不同. Die Wendung 自作主张 heißt „eigenmächtig entscheiden“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:祝福:zhu4fu2",
     "word": "祝福",
     "pinyin": "zhùfú",
-    "meaning": "Segen, segnen, Glückwünsche",
-    "type": "Nomen",
+    "meaning": "jmdm. alles Gute wünschen; segnen; gute Wünsche; Segenswunsch",
+    "type": "Verb",
     "level": "HSK6",
     "category": "Kommunikation",
     "examples": [
       {
-        "chinese": "送上我的祝福。",
-        "pinyin": "Sòng shàng wǒ de zhùfú.",
-        "german": "Ich sende dir meine besten Wünsche."
-      },
-      {
         "chinese": "送上我最真诚的祝福。",
         "pinyin": "Sòng shàng wǒ zuì zhēnchéng de zhùfú.",
         "german": "Ich sende meine aufrichtigsten Glückwünsche."
+      },
+      {
+        "chinese": "祝福你们永远幸福！",
+        "pinyin": "Zhùfú nǐmen yǒngyuǎn xìngfú!",
+        "german": "Ich wünsche euch, dass ihr für immer glücklich seid!"
+      },
+      {
+        "chinese": "新年到了，很多人给亲友发短信送祝福。",
+        "pinyin": "Xīnnián dào le, hěn duō rén gěi qīnyǒu fā duǎnxìn sòng zhùfú.",
+        "german": "Zum Neujahr schicken viele Menschen Freunden und Verwandten Glückwünsche per Kurznachricht."
       }
     ],
     "legacyIds": [
@@ -68790,13 +74907,19 @@ window.VOCAB_HSK6 = [
     "traditional": "祝福",
     "evidence": {
       "cedict": "祝福 祝福 [zhu4 fu2]"
+    },
+    "notes": "祝福 (zhùfú) heißt, jemandem Glück und alles Gute zu wünschen: 祝福你们 „alles Gute für euch“, etwa bei einer Hochzeit. Sehr häufig wird es als Nomen gebraucht: 送上祝福, 新年祝福, 收到大家的祝福. Will man den Wunsch selbst nennen, nimmt man üblicherweise 祝: 祝你生日快乐. Im religiösen Sinn „segnen“ kommt es ebenfalls vor; für den Schutz durch Götter sagt man eher 保佑 (bǎoyòu).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:助理:zhu4li3",
     "word": "助理",
     "pinyin": "zhùlǐ",
-    "meaning": "Assistent/in",
+    "meaning": "Assistent/Assistentin; Assistenz- (in Titeln)",
     "type": "Nomen",
     "level": "HSK6",
     "category": "Beruf",
@@ -68805,6 +74928,16 @@ window.VOCAB_HSK6 = [
         "chinese": "她是总经理的助理。",
         "pinyin": "Tā shì zǒngjīnglǐ de zhùlǐ.",
         "german": "Sie ist die Assistentin des Geschäftsführers."
+      },
+      {
+        "chinese": "我的助理会把会议资料发给您。",
+        "pinyin": "Wǒ de zhùlǐ huì bǎ huìyì zīliào fā gěi nín.",
+        "german": "Mein Assistent schickt Ihnen die Unterlagen für die Besprechung."
+      },
+      {
+        "chinese": "他毕业后在大学当了几年助理研究员。",
+        "pinyin": "Tā bìyè hòu zài dàxué dāng le jǐ nián zhùlǐ yánjiūyuán.",
+        "german": "Nach dem Abschluss arbeitete er einige Jahre als wissenschaftlicher Assistent an der Universität."
       }
     ],
     "legacyIds": [
@@ -68818,15 +74951,19 @@ window.VOCAB_HSK6 = [
     "traditional": "助理",
     "evidence": {
       "cedict": "助理 助理 [zhu4 li3]"
+    },
+    "notes": "Als Nomen ist 助理 (zhùlǐ) eine Berufsbezeichnung: 经理助理, 私人助理, 当助理. Attributiv (形) bezeichnet es einen unteren Rang in Titeln: 助理研究员, 助理工程师, 助理教授 „Assistenzprofessor“. 助手 (zhùshǒu) ist dagegen allgemein jemand, der hilft, und kein Titel; 秘书 (mìshū) ist die Sekretärin oder der Sekretär.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:助手:zhu4shou3",
     "word": "助手",
     "pinyin": "zhùshǒu",
-    "meaning": "Helfer, Hilfskraft",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Assistent/Assistentin; Helfer/Helferin",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -68834,20 +74971,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他是王教授的助手。",
+        "pinyin": "Tā shì Wáng jiàoshòu de zhùshǒu.",
+        "german": "Er ist der Assistent von Professor Wang."
+      },
+      {
+        "chinese": "小李工作认真，是我的得力助手。",
+        "pinyin": "Xiǎo Lǐ gōngzuò rènzhēn, shì wǒ de délì zhùshǒu.",
+        "german": "Xiao Li arbeitet gewissenhaft und ist meine rechte Hand."
+      },
+      {
+        "chinese": "我用手机上的语音助手设了一个闹钟。",
+        "pinyin": "Wǒ yòng shǒujī shang de yǔyīn zhùshǒu shè le yí ge nàozhōng.",
+        "german": "Ich habe mit dem Sprachassistenten auf meinem Handy einen Wecker gestellt."
+      }
+    ],
     "traditional": "助手",
     "evidence": {
       "cedict": "助手 助手 [zhu4 shou3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "助手 (zhùshǒu) ist jemand, der einem anderen bei der Arbeit zur Hand geht, z. B. 当助手 „als Assistent arbeiten“ oder 得力助手 (délì zhùshǒu) „rechte Hand“. Zähleinheit ist 个 oder höflich 位. Als offizielle Stellenbezeichnung ist 助理 (zhùlǐ) üblicher: 总经理助理 „Assistent der Geschäftsführung“. In der Technik heißt es auch 语音助手 „Sprachassistent“ oder 智能助手 „digitaler Assistent“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:祝愿:zhu4yuan4",
     "word": "祝愿",
     "pinyin": "zhùyuàn",
-    "meaning": "Glückwunsch; mögen, wünschen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "wünschen (Gutes); Glückwunsch; guter Wunsch",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -68855,20 +75012,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "祝愿你们新婚快乐，白头到老！",
+        "pinyin": "Zhùyuàn nǐmen xīnhūn kuàilè, báitóu dào lǎo!",
+        "german": "Wir wünschen euch alles Gute zur Hochzeit und dass ihr gemeinsam alt werdet!"
+      },
+      {
+        "chinese": "衷心祝愿您早日康复。",
+        "pinyin": "Zhōngxīn zhùyuàn nín zǎorì kāngfù.",
+        "german": "Ich wünsche Ihnen von Herzen baldige Genesung."
+      },
+      {
+        "chinese": "新年到了，大家互相表达美好的祝愿。",
+        "pinyin": "Xīnnián dào le, dàjiā hùxiāng biǎodá měihǎo de zhùyuàn.",
+        "german": "Zum neuen Jahr überbringen sich alle gegenseitig die besten Wünsche."
+      }
+    ],
     "traditional": "祝願",
     "evidence": {
       "cedict": "祝願 祝愿 [zhu4 yuan4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "祝愿 (zhùyuàn) bedeutet, jemandem etwas Gutes zu wünschen, und klingt feierlicher als das alltägliche 祝 (zhù): 祝你生日快乐 sagt man im Alltag, 衷心祝愿您早日康复 eher in Karten, Reden oder Briefen. Das Wort wird auch als Nomen gebraucht: 美好的祝愿 „die besten Wünsche“, 表达祝愿 „Wünsche überbringen“. 希望 (xīwàng) „hoffen“ drückt dagegen eine Erwartung aus, 祝愿 einen ausgesprochenen Segenswunsch.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:住宅:zhu4zhai2",
     "word": "住宅",
     "pinyin": "zhùzhái",
-    "meaning": "Haus; Aufenthaltsort; Residenz",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Wohnhaus; Wohnung; Wohnsitz",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -68876,12 +75053,34 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这一带是安静的住宅区。",
+        "pinyin": "Zhè yídài shì ānjìng de zhùzháiqū.",
+        "german": "Diese Gegend ist ein ruhiges Wohngebiet."
+      },
+      {
+        "chinese": "未经允许，不得进入私人住宅。",
+        "pinyin": "Wèi jīng yǔnxǔ, bùdé jìnrù sīrén zhùzhái.",
+        "german": "Ohne Erlaubnis darf man kein Privathaus betreten."
+      },
+      {
+        "chinese": "城市里新建了很多住宅楼，房价却还在涨。",
+        "pinyin": "Chéngshì li xīnjiàn le hěn duō zhùzháilóu, fángjià què hái zài zhǎng.",
+        "german": "In der Stadt wurden viele neue Wohnhäuser gebaut, trotzdem steigen die Immobilienpreise weiter."
+      }
+    ],
     "traditional": "住宅",
     "evidence": {
       "cedict": "住宅 住宅 [zhu4 zhai2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "住宅 (zhùzhái) ist ein sachliches, eher schriftsprachliches Wort für Wohngebäude und Wohnungen, typisch in Behördensprache, Immobilienanzeigen und Stadtplanung: 住宅区 „Wohngebiet“, 住宅楼 „Wohnhaus, Wohnblock“, 私人住宅 „Privathaus“, 商品住宅 „frei verkäufliche Wohnung“. Zähleinheiten sind 套 (Wohnung), 栋 oder 座 (Gebäude). Im Alltag sagt man meist 房子 (fángzi) oder einfach 家 (jiā).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:著作:zhu4zuo4",
@@ -68899,8 +75098,13 @@ window.VOCAB_HSK6 = [
       },
       {
         "chinese": "他一生著作等身。",
-        "pinyin": "Tā yīshēng zhùzuò děngshēn.",
+        "pinyin": "Tā yìshēng zhùzuò děngshēn.",
         "german": "Er hinterließ ein Lebenswerk von beachtlichem Umfang."
+      },
+      {
+        "chinese": "这部著作已被翻译成二十多种语言。",
+        "pinyin": "Zhè bù zhùzuò yǐ bèi fānyì chéng èrshí duō zhǒng yǔyán.",
+        "german": "Dieses Werk wurde bereits in über zwanzig Sprachen übersetzt."
       }
     ],
     "legacyIds": [
@@ -68920,6 +75124,12 @@ window.VOCAB_HSK6 = [
     ],
     "evidence": {
       "cedict": "著作 著作 [zhu4 zuo4]"
+    },
+    "notes": "著作 (zhùzuò) bezeichnet ein umfangreicheres, meist wissenschaftliches oder literarisches Schriftwerk: 学术著作 „wissenschaftliches Werk“, 出版著作 „ein Werk veröffentlichen“, 著作权 „Urheberrecht“. Zähleinheit ist 部 oder 本. 作品 (zuòpǐn) ist weiter gefasst und schließt Musik, Kunst und Film ein; 文章 (wénzhāng) ist ein kürzerer Text. Die Redewendung 著作等身 beschreibt jemanden, dessen Werke gestapelt so hoch wie er selbst wären, also einen sehr produktiven Autor.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -68932,9 +75142,19 @@ window.VOCAB_HSK6 = [
     "category": "Materialien",
     "examples": [
       {
-        "chinese": "房子是砖做的。",
-        "pinyin": "Fángzi shì zhuān zuò de.",
-        "german": "Das Haus ist aus Ziegeln gebaut."
+        "chinese": "这座老房子是用红砖盖的。",
+        "pinyin": "Zhè zuò lǎo fángzi shì yòng hóngzhuān gài de.",
+        "german": "Dieses alte Haus ist aus roten Backsteinen gebaut."
+      },
+      {
+        "chinese": "工人们正在一块一块地搬砖。",
+        "pinyin": "Gōngrénmen zhèngzài yí kuài yí kuài de bān zhuān.",
+        "german": "Die Arbeiter schleppen die Ziegel einen nach dem anderen."
+      },
+      {
+        "chinese": "厨房的地上铺着白色的瓷砖。",
+        "pinyin": "Chúfáng de dì shang pūzhe báisè de cízhuān.",
+        "german": "Der Küchenboden ist mit weißen Fliesen ausgelegt."
       }
     ],
     "legacyIds": [
@@ -68954,15 +75174,19 @@ window.VOCAB_HSK6 = [
     ],
     "evidence": {
       "cedict": "磚 砖 [zhuan1]"
+    },
+    "notes": "砖 (zhuān) ist der Ziegel- oder Backstein, Zähleinheit 块: 一块砖. Umgangssprachlich sagt man oft 砖头 (zhuāntou). Weitere häufige Wörter sind 砖墙 „Ziegelmauer“, 红砖 „roter Backstein“ und 瓷砖 (cízhuān) „Fliese, Kachel“. In der Internetsprache bedeutet 搬砖 „Ziegel schleppen“ scherzhaft „mühsam für wenig Geld arbeiten“; das Chengyu 抛砖引玉 heißt wörtlich „einen Ziegel werfen, um Jade anzulocken“ – mit einem bescheidenen eigenen Beitrag andere zu besseren Ideen anregen.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:专科:zhuan1ke1",
     "word": "专科",
     "pinyin": "zhuānkē",
-    "meaning": "Fachgebiet, Spezialgebiet",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Fachgebiet; Fachrichtung (Medizin); Kurzstudium unterhalb des Bachelors",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -68970,12 +75194,34 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 213
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他高中毕业后读了三年专科。",
+        "pinyin": "Tā gāozhōng bìyè hòu dú le sān nián zhuānkē.",
+        "german": "Nach der Oberschule hat er ein dreijähriges berufsorientiertes Studium absolviert."
+      },
+      {
+        "chinese": "这家医院是眼科专科医院。",
+        "pinyin": "Zhè jiā yīyuàn shì yǎnkē zhuānkē yīyuàn.",
+        "german": "Dieses Krankenhaus ist eine Augenfachklinik."
+      },
+      {
+        "chinese": "他的病很复杂，最好去看专科医生。",
+        "pinyin": "Tā de bìng hěn fùzá, zuìhǎo qù kàn zhuānkē yīshēng.",
+        "german": "Seine Krankheit ist kompliziert, am besten geht er zu einem Facharzt."
+      }
+    ],
     "traditional": "專科",
     "evidence": {
       "cedict": "專科 专科 [zhuan1 ke1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "专科 (zhuānkē) hat zwei Hauptverwendungen. Im Bildungswesen ist es das meist dreijährige, berufsorientierte Hochschulstudium unterhalb des Bachelor-Niveaus, im Gegensatz zu 本科 (běnkē) „Bachelorstudium“; kurz sagt man auch 大专 (dàzhuān), dazu 专科生 und 专科学历. In der Medizin steht es für ein Fachgebiet: 专科医生 „Facharzt“, 专科医院 „Fachklinik“, im Gegensatz zu 全科 (quánkē) „Allgemeinmedizin“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:专利:zhuan1li4",
@@ -68992,14 +75238,14 @@ window.VOCAB_HSK6 = [
         "german": "Seine Erfindung erhielt ein Patent."
       },
       {
-        "chinese": "这项发明已经申请了专利。",
-        "pinyin": "Zhè xiàng fāmíng yǐjīng shēnqǐngle zhuānlì.",
-        "german": "Diese Erfindung hat bereits ein Patent beantragt."
-      },
-      {
         "chinese": "这项技术已经申请了专利。",
         "pinyin": "Zhè xiàng jìshù yǐjīng shēnqǐng le zhuānlì.",
         "german": "Für diese Technologie wurde bereits ein Patent angemeldet."
+      },
+      {
+        "chinese": "做饭可不是女人的专利。",
+        "pinyin": "Zuò fàn kě bú shì nǚrén de zhuānlì.",
+        "german": "Kochen ist keineswegs ein Privileg der Frauen."
       }
     ],
     "legacyIds": [
@@ -69013,15 +75259,19 @@ window.VOCAB_HSK6 = [
     "traditional": "專利",
     "evidence": {
       "cedict": "專利 专利 [zhuan1 li4]"
+    },
+    "notes": "专利 (zhuānlì) ist das Patent; typische Verbindungen sind 申请专利 „ein Patent anmelden“, 获得专利 „ein Patent erhalten“, 专利权 „Patentrecht“ und 侵犯专利 „ein Patent verletzen“. Zähleinheit ist 项 oder 个. Übertragen bezeichnet es ein Vorrecht, das scheinbar nur einer Gruppe zusteht, oft verneint: 不是……的专利 „ist nicht das Privileg von …“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:专题:zhuan1ti2",
     "word": "专题",
     "pinyin": "zhuāntí",
-    "meaning": "Fachbeitrag, Spezialbeitrag, spezieller Beitrag, Spezialbericht",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Sonderthema; Schwerpunktthema; Themenbeitrag",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -69029,20 +75279,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "报纸这周推出了环保专题。",
+        "pinyin": "Bàozhǐ zhè zhōu tuīchū le huánbǎo zhuāntí.",
+        "german": "Die Zeitung bringt diese Woche einen Themenschwerpunkt zum Umweltschutz."
+      },
+      {
+        "chinese": "学校下午有一个关于网络安全的专题讲座。",
+        "pinyin": "Xuéxiào xiàwǔ yǒu yí ge guānyú wǎngluò ānquán de zhuāntí jiǎngzuò.",
+        "german": "Heute Nachmittag gibt es an der Schule einen Fachvortrag zur Internetsicherheit."
+      },
+      {
+        "chinese": "这个问题我们下次开会再作专题讨论。",
+        "pinyin": "Zhège wèntí wǒmen xià cì kāihuì zài zuò zhuāntí tǎolùn.",
+        "german": "Über diese Frage sprechen wir bei der nächsten Sitzung gesondert."
+      }
+    ],
     "traditional": "專題",
     "evidence": {
       "cedict": "專題 专题 [zhuan1 ti2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "专题 (zhuāntí) ist ein eigens behandeltes Thema, z. B. als Schwerpunkt einer Zeitung, Sendung oder Veranstaltung. Meist steht es vor einem anderen Nomen: 专题报道 „Sonderbericht“, 专题讲座 „Fachvortrag“, 专题讨论 „Diskussion zu einem bestimmten Thema“, 专题片 „Dokumentarfilm“. Nicht verwechseln mit 主题 (zhǔtí), dem Hauptthema oder Leitmotiv eines Werkes.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:专用:zhuan1yong4",
     "word": "专用",
     "pinyin": "zhuānyòng",
-    "meaning": "einer Funktion speziell angepasst (geeignet); speziell, besonders, besonderer; zweckgebunden",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "eigens für etw. bestimmt sein; ausschließlich für etw. verwenden",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -69050,12 +75320,34 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这个停车位是残疾人专用的。",
+        "pinyin": "Zhège tíngchēwèi shì cánjírén zhuānyòng de.",
+        "german": "Dieser Parkplatz ist für Menschen mit Behinderung reserviert."
+      },
+      {
+        "chinese": "这台电脑是财务部专用的，别人不能随便用。",
+        "pinyin": "Zhè tái diànnǎo shì cáiwùbù zhuānyòng de, biérén bù néng suíbiàn yòng.",
+        "german": "Dieser Computer ist der Finanzabteilung vorbehalten, andere dürfen ihn nicht einfach benutzen."
+      },
+      {
+        "chinese": "这把刀是切生肉专用的，别拿它切水果。",
+        "pinyin": "Zhè bǎ dāo shì qiē shēngròu zhuānyòng de, bié ná tā qiē shuǐguǒ.",
+        "german": "Dieses Messer ist nur für rohes Fleisch da, schneid damit kein Obst."
+      }
+    ],
     "traditional": "專用",
     "evidence": {
       "cedict": "專用 专用 [zhuan1 yong4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "专用 (zhuānyòng) sagt, dass etwas für einen bestimmten Personenkreis oder Zweck reserviert ist. Typisch ist die Form „X + 专用“, oft auf Schildern: 员工专用 „nur für Mitarbeiter“, 残疾人专用 „für Menschen mit Behinderung“, oder 是……专用的. Vor Nomen bildet es Begriffe wie 专用通道 „Sonderzugang“ und 专用车位 „reservierter Parkplatz“. Nicht verwechseln mit 专门 (zhuānmén) „extra, eigens“, das meist als Adverb vor Verben steht.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:专注:zhuan1zhu4",
@@ -69070,6 +75362,16 @@ window.VOCAB_HSK6 = [
         "chinese": "工作时要专注。",
         "pinyin": "Gōngzuò shí yào zhuānzhù.",
         "german": "Bei der Arbeit muss man konzentriert sein."
+      },
+      {
+        "chinese": "孩子们专注地听老师讲故事。",
+        "pinyin": "Háizimen zhuānzhù de tīng lǎoshī jiǎng gùshi.",
+        "german": "Die Kinder hören aufmerksam zu, wie die Lehrerin eine Geschichte erzählt."
+      },
+      {
+        "chinese": "这家公司多年来一直专注于新能源汽车的研发。",
+        "pinyin": "Zhè jiā gōngsī duō nián lái yìzhí zhuānzhù yú xīn néngyuán qìchē de yánfā.",
+        "german": "Dieses Unternehmen konzentriert sich seit Jahren auf die Entwicklung von Fahrzeugen mit alternativen Antrieben."
       }
     ],
     "legacyIds": [
@@ -69083,15 +75385,19 @@ window.VOCAB_HSK6 = [
     "traditional": "專注",
     "evidence": {
       "cedict": "專注 专注 [zhuan1 zhu4]"
+    },
+    "notes": "专注 (zhuānzhù) beschreibt volle, ungeteilte Aufmerksamkeit. Als Adjektiv steht es mit 很 oder adverbial mit 地: 专注地听 „konzentriert zuhören“; 专注于 + Nomen bedeutet „sich konzentrieren auf“, vor allem in Berichten über Firmen oder Personen. 专心 (zhuānxīn) ist das alltäglichere Wort für Schüler und Hausaufgaben; 专注 klingt etwas gehobener. Dazu gehört 专注力 „Konzentrationsfähigkeit“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:转换:zhuan3huan4",
     "word": "转换",
     "pinyin": "zhuǎnhuàn",
-    "meaning": "Transformation; Umschaltung; konvertieren",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "umwandeln; umstellen; wechseln; konvertieren",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -69099,20 +75405,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "太阳能电池可以把光能转换成电能。",
+        "pinyin": "Tàiyángnéng diànchí kěyǐ bǎ guāngnéng zhuǎnhuàn chéng diànnéng.",
+        "german": "Solarzellen können Lichtenergie in elektrische Energie umwandeln."
+      },
+      {
+        "chinese": "遇到困难时，不妨转换一下思路。",
+        "pinyin": "Yùdào kùnnan shí, bùfáng zhuǎnhuàn yíxià sīlù.",
+        "german": "Wenn man auf Schwierigkeiten stößt, lohnt es sich, einmal umzudenken."
+      },
+      {
+        "chinese": "去欧洲旅行别忘了带插头转换器。",
+        "pinyin": "Qù Ōuzhōu lǚxíng bié wàng le dài chātóu zhuǎnhuànqì.",
+        "german": "Vergiss für die Europareise den Steckeradapter nicht."
+      }
+    ],
     "traditional": "轉換",
     "evidence": {
       "cedict": "轉換 转换 [zhuan3 huan4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "转换 (zhuǎnhuàn) bedeutet, etwas in eine andere Form, ein anderes Format oder einen anderen Zustand zu überführen. Typische Rahmen sind 把A转换成B „A in B umwandeln“ sowie 转换思路 „umdenken“, 转换角度 „die Perspektive wechseln“, 格式转换 „Formatkonvertierung“. 转换器 ist ein Adapter oder Konverter. 转变 (zhuǎnbiàn) meint dagegen eher einen allmählichen Wandel von Einstellungen oder Verhältnissen.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:转交:zhuan3jiao1",
     "word": "转交",
     "pinyin": "zhuǎnjiāo",
-    "meaning": "weitergeben; weiterleiten; Überlassung",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "weitergeben; weiterleiten; (über jdn.) übergeben lassen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -69120,20 +75446,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "请把这封信转交给王经理。",
+        "pinyin": "Qǐng bǎ zhè fēng xìn zhuǎnjiāo gěi Wáng jīnglǐ.",
+        "german": "Bitte leiten Sie diesen Brief an Herrn Wang, den Manager, weiter."
+      },
+      {
+        "chinese": "他不在家，礼物我先替他收下，回头转交给他。",
+        "pinyin": "Tā bú zài jiā, lǐwù wǒ xiān tì tā shōuxià, huítóu zhuǎnjiāo gěi tā.",
+        "german": "Er ist nicht zu Hause; ich nehme das Geschenk erst einmal für ihn an und gebe es ihm später."
+      },
+      {
+        "chinese": "捐款将通过红十字会转交给灾区群众。",
+        "pinyin": "Juānkuǎn jiāng tōngguò Hóngshízìhuì zhuǎnjiāo gěi zāiqū qúnzhòng.",
+        "german": "Die Spenden werden über das Rote Kreuz an die Menschen im Katastrophengebiet weitergeleitet."
+      }
+    ],
     "traditional": "轉交",
     "evidence": {
       "cedict": "轉交 转交 [zhuan3 jiao1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "转交 (zhuǎnjiāo) heißt, einen Gegenstand über eine Mittelsperson an den eigentlichen Empfänger weiterzugeben. Der übliche Rahmen ist 把X转交给Y: 把信转交给他. Auf Briefen bedeutet „王先生转交“ etwa „per Adresse Herrn Wang“. Für Worte und Nachrichten verwendet man 转告 (zhuǎngào) oder 转达 (zhuǎndá); 转发 (zhuǎnfā) ist das Weiterleiten von E-Mails und Beiträgen.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:转让:zhuan3rang4",
     "word": "转让",
     "pinyin": "zhuǎnràng",
-    "meaning": "Abtretung, Überlassung; Auflassung; Veräußerung",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "übertragen; abtreten; veräußern",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -69141,20 +75487,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这家店因为老板要出国，正在低价转让。",
+        "pinyin": "Zhè jiā diàn yīnwèi lǎobǎn yào chūguó, zhèngzài dījià zhuǎnràng.",
+        "german": "Weil der Inhaber ins Ausland geht, wird dieser Laden gerade günstig abgegeben."
+      },
+      {
+        "chinese": "这张票是实名制的，不能转让。",
+        "pinyin": "Zhè zhāng piào shì shímíngzhì de, bù néng zhuǎnràng.",
+        "german": "Dieses Ticket ist personalisiert und nicht übertragbar."
+      },
+      {
+        "chinese": "他把公司百分之二十的股份转让给了合伙人。",
+        "pinyin": "Tā bǎ gōngsī bǎi fēn zhī èrshí de gǔfèn zhuǎnràng gěi le héhuǒrén.",
+        "german": "Er hat zwanzig Prozent der Firmenanteile an seinen Geschäftspartner abgetreten."
+      }
+    ],
     "traditional": "轉讓",
     "evidence": {
       "cedict": "轉讓 转让 [zhuan3 rang4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "转让 (zhuǎnràng) bedeutet, Eigentum oder Rechte an jemand anderen zu übertragen, meist gegen Bezahlung: 转让股份 „Anteile abtreten“, 技术转让 „Technologietransfer“, 不得转让 „nicht übertragbar“. Auf Ladenschildern liest man oft 店铺转让 „Laden abzugeben“. Für das bloße Weiterreichen eines Gegenstands sagt man dagegen 转交 (zhuǎnjiāo).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:转身:zhuan3shen1",
     "word": "转身",
     "pinyin": "zhuǎnshēn",
-    "meaning": "Wende; drehen; kehren",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "sich umdrehen; kehrtmachen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -69162,20 +75528,41 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "她在镜子前转了个身，看看新裙子合不合适。",
+        "pinyin": "Tā zài jìngzi qián zhuǎn le ge shēn, kànkan xīn qúnzi hé bu héshì.",
+        "german": "Sie drehte sich vor dem Spiegel einmal herum, um zu sehen, ob das neue Kleid passt."
+      },
+      {
+        "chinese": "他转身就走，一句话也没说。",
+        "pinyin": "Tā zhuǎnshēn jiù zǒu, yí jù huà yě méi shuō.",
+        "german": "Er drehte sich um und ging, ohne ein Wort zu sagen."
+      },
+      {
+        "chinese": "刚才手机还在这儿，我一转身就不见了。",
+        "pinyin": "Gāngcái shǒujī hái zài zhèr, wǒ yì zhuǎnshēn jiù bú jiàn le.",
+        "german": "Eben war das Handy noch hier – kaum hatte ich mich umgedreht, war es weg."
+      }
+    ],
     "traditional": "轉身",
     "evidence": {
       "cedict": "轉身 转身 [zhuan3 shen1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "转身 (zhuǎnshēn) beschreibt, wie eine Person sich umdreht, oft vor 就走 oder 离开: 转身就走 „sich umdrehen und gehen“. Es lässt sich trennen: 转过身来 „sich (zum Sprecher) umdrehen“, 转了个身 „sich einmal umdrehen“. 一转身 heißt auch übertragen „im Handumdrehen“ oder „kaum hat man sich umgedreht“. Für das Wenden von Gegenständen nimmt man eher 转 oder 翻.",
+    "separable": true,
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:转移:zhuan3yi2",
     "word": "转移",
     "pinyin": "zhuǎnyí",
-    "meaning": "wechseln, sich verlagern; transferiert; Ablenkung",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "verlegen; verlagern; ablenken (Aufmerksamkeit, Thema)",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -69183,20 +75570,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "一问到工资，他就马上转移话题。",
+        "pinyin": "Yí wèndào gōngzī, tā jiù mǎshàng zhuǎnyí huàtí.",
+        "german": "Sobald man ihn nach dem Gehalt fragt, wechselt er sofort das Thema."
+      },
+      {
+        "chinese": "洪水来之前，村民们都被安全转移了。",
+        "pinyin": "Hóngshuǐ lái zhīqián, cūnmínmen dōu bèi ānquán zhuǎnyí le.",
+        "german": "Bevor das Hochwasser kam, wurden alle Dorfbewohner in Sicherheit gebracht."
+      },
+      {
+        "chinese": "孩子哭的时候，可以用玩具转移他的注意力。",
+        "pinyin": "Háizi kū de shíhou, kěyǐ yòng wánjù zhuǎnyí tā de zhùyìlì.",
+        "german": "Wenn ein Kind weint, kann man es mit einem Spielzeug ablenken."
+      }
+    ],
     "traditional": "轉移",
     "evidence": {
       "cedict": "轉移 转移 [zhuan3 yi2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "转移 (zhuǎnyí) bedeutet, etwas oder jemanden an einen anderen Ort zu bringen oder etwas auf etwas anderes zu lenken. Häufig sind 转移话题 „das Thema wechseln“, 转移注意力 „ablenken“, 转移视线 „den Blick abwenden, ablenken“ und 转移资产 „Vermögen verschieben“. Bei Katastrophen heißt 转移群众 „die Bevölkerung evakuieren“; in der Medizin bezeichnet 癌细胞转移 die Metastasenbildung. Für das bloße Verschieben von Möbeln sagt man eher 搬 (bān) oder 挪 (nuó).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:转:zhuan4",
     "word": "转",
     "pinyin": "zhuàn",
-    "meaning": "wenden, sich verwandeln, sich verändern; überbringen, weitergeben",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "sich drehen; kreisen; herumgehen; bummeln",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -69204,20 +75611,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "风车在风中慢慢地转着。",
+        "pinyin": "Fēngchē zài fēng zhōng mànmàn de zhuàn zhe.",
+        "german": "Das Windrad dreht sich langsam im Wind."
+      },
+      {
+        "chinese": "周末我们去老城区转转吧。",
+        "pinyin": "Zhōumò wǒmen qù lǎochéngqū zhuànzhuan ba.",
+        "german": "Lass uns am Wochenende einen Bummel durch die Altstadt machen."
+      },
+      {
+        "chinese": "他急得在屋里转来转去。",
+        "pinyin": "Tā jí de zài wū li zhuàn lái zhuàn qù.",
+        "german": "Er lief vor Aufregung im Zimmer hin und her."
+      }
+    ],
     "traditional": "轉",
     "evidence": {
       "cedict": "轉 转 [zhuan4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als zhuàn bedeutet 转 eine kreisende Bewegung oder ein zielloses Herumlaufen: 轮子在转 „das Rad dreht sich“, 转圈 „sich im Kreis drehen“, 转来转去 „hin und her laufen“, 转转 „einen Bummel machen“. Davon zu unterscheiden ist 转 zhuǎn für einen einmaligen Richtungs- oder Zustandswechsel und für das Weiterleiten: 转弯 „abbiegen“, 转告 „ausrichten“. Als Zähleinheit zählt zhuàn Umdrehungen: 每分钟三千转 „3000 Umdrehungen pro Minute“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:转动:zhuan4dong4",
     "word": "转动",
     "pinyin": "zhuàndòng",
-    "meaning": "drehen; sich drehen; rotieren",
-    "meaningStatus": "draft",
-    "meaningSource": "Entwurf (Claude)",
+    "meaning": "sich drehen; rotieren; (um eine Achse) drehen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -69225,20 +75652,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "地球绕着地轴不停地转动。",
+        "pinyin": "Dìqiú ràozhe dìzhóu bùtíng de zhuàndòng.",
+        "german": "Die Erde dreht sich unablässig um ihre Achse."
+      },
+      {
+        "chinese": "他轻轻转动方向盘，把车开进了停车场。",
+        "pinyin": "Tā qīngqīng zhuàndòng fāngxiàngpán, bǎ chē kāijìn le tíngchēchǎng.",
+        "german": "Er drehte leicht am Lenkrad und fuhr den Wagen auf den Parkplatz."
+      },
+      {
+        "chinese": "机器一转动起来，声音就特别大。",
+        "pinyin": "Jīqì yì zhuàndòng qǐlai, shēngyīn jiù tèbié dà.",
+        "german": "Sobald die Maschine läuft, ist sie besonders laut."
+      }
+    ],
     "traditional": "轉動",
     "evidence": {
       "cedict": "轉動 转动 [zhuan4 dong4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "转动 (zhuàndòng) beschreibt eine Drehung um einen Mittelpunkt oder eine Achse und kann intransitiv oder mit Objekt stehen: 车轮转动 „die Räder drehen sich“, 转动方向盘 „am Lenkrad drehen“. Es ist etwas formeller als das einsilbige 转 (zhuàn). Wenn es um das Bewegen von Körperteilen geht, etwa 转动身体 oder 转动眼珠, geben viele Wörterbücher die Lesung zhuǎndòng an.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:装备:zhuang1bei4",
     "word": "装备",
     "pinyin": "zhuāngbèi",
-    "meaning": "Anlage, Ausrüstung; ausrüsten, ausstatten",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "ausrüsten; ausstatten; Ausrüstung",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -69246,20 +75693,40 @@ window.VOCAB_HSK6 = [
       "pos": "动、名",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "登山之前，一定要检查好自己的装备。",
+        "pinyin": "Dēngshān zhīqián, yídìng yào jiǎnchá hǎo zìjǐ de zhuāngbèi.",
+        "german": "Vor einer Bergtour sollte man unbedingt seine Ausrüstung gründlich überprüfen."
+      },
+      {
+        "chinese": "这支部队装备了最先进的武器。",
+        "pinyin": "Zhè zhī bùduì zhuāngbèi le zuì xiānjìn de wǔqì.",
+        "german": "Diese Truppe ist mit den modernsten Waffen ausgerüstet."
+      },
+      {
+        "chinese": "他花了不少钱给游戏角色买装备。",
+        "pinyin": "Tā huā le bù shǎo qián gěi yóuxì juésè mǎi zhuāngbèi.",
+        "german": "Er hat viel Geld ausgegeben, um Ausrüstung für seine Spielfigur zu kaufen."
+      }
+    ],
     "traditional": "裝備",
     "evidence": {
       "cedict": "裝備 装备 [zhuang1 bei4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "装备 (zhuāngbèi) ist Verb und Nomen. Als Verb: 装备了先进的武器 „mit modernen Waffen ausgerüstet“. Als Nomen bezeichnet es die Ausrüstung, die man mitnimmt oder trägt: 登山装备 „Bergsteigerausrüstung“, 军事装备 „militärische Ausrüstung“, in Computerspielen auch die Ausrüstung einer Spielfigur; Zähleinheit 套 oder 件. 设备 (shèbèi) sind dagegen eher fest installierte Geräte und Anlagen.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:庄稼:zhuang1jia5",
     "word": "庄稼",
     "pinyin": "zhuāngjia",
-    "meaning": "Feldfrüchte, Korn, Getreide",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Feldfrüchte; Getreide auf dem Feld",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -69267,20 +75734,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "今年雨水多，庄稼长得特别好。",
+        "pinyin": "Jīnnián yǔshuǐ duō, zhuāngjia zhǎng de tèbié hǎo.",
+        "german": "Dieses Jahr hat es viel geregnet, die Felder stehen besonders gut."
+      },
+      {
+        "chinese": "他爷爷种了一辈子庄稼。",
+        "pinyin": "Tā yéye zhòng le yíbèizi zhuāngjia.",
+        "german": "Sein Großvater hat sein ganzes Leben lang Ackerbau betrieben."
+      },
+      {
+        "chinese": "一场冰雹把地里的庄稼全打坏了。",
+        "pinyin": "Yì cháng bīngbáo bǎ dì li de zhuāngjia quán dǎhuài le.",
+        "german": "Ein Hagelschauer hat die ganze Ernte auf den Feldern vernichtet."
+      }
+    ],
     "traditional": "莊稼",
     "evidence": {
       "cedict": "莊稼 庄稼 [zhuang1 jia5]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "庄稼 (zhuāngjia) sind die auf dem Feld wachsenden Nutzpflanzen, vor allem Getreide, als Sammelbegriff: 种庄稼 „Ackerbau betreiben“, 庄稼长得好 „die Felder stehen gut“, 庄稼地 „Acker“. 庄稼人 ist ein umgangssprachliches Wort für „Bauer“. 粮食 (liángshi) ist dagegen das geerntete Getreide als Nahrungsmittel, 农作物 (nóngzuòwù) der fachsprachliche Begriff.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:追究:zhui1jiu1",
     "word": "追究",
     "pinyin": "zhuījiū",
-    "meaning": "untersuchen, einer Sache auf den Grund gehen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "zur Verantwortung ziehen; (einer Ursache) nachgehen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -69288,20 +75775,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这次事故的责任一定要追究到底。",
+        "pinyin": "Zhè cì shìgù de zérèn yídìng yào zhuījiū dàodǐ.",
+        "german": "Die Verantwortung für diesen Unfall muss lückenlos aufgeklärt werden."
+      },
+      {
+        "chinese": "事情已经过去了，我不想再追究谁对谁错。",
+        "pinyin": "Shìqing yǐjīng guòqu le, wǒ bù xiǎng zài zhuījiū shéi duì shéi cuò.",
+        "german": "Die Sache ist vorbei, ich will nicht mehr nachforschen, wer recht hatte und wer nicht."
+      },
+      {
+        "chinese": "违反规定的人将被依法追究责任。",
+        "pinyin": "Wéifǎn guīdìng de rén jiāng bèi yīfǎ zhuījiū zérèn.",
+        "german": "Wer gegen die Vorschriften verstößt, wird nach dem Gesetz zur Verantwortung gezogen."
+      }
+    ],
     "traditional": "追究",
     "evidence": {
       "cedict": "追究 追究 [zhui1 jiu1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "追究 (zhuījiū) heißt, einer Sache bis zur Ursache oder zum Verantwortlichen nachzugehen. Das Objekt ist meist 责任 „Verantwortung“, 原因 „Ursache“ oder 过错 „Verschulden“: 追究责任 „jemanden zur Verantwortung ziehen“, 追究法律责任 „rechtlich belangen“, 不予追究 „davon absehen, jemanden zu belangen“. Der Ton ist formell und oft amtlich. 调查 (diàochá) ist dagegen das neutrale „untersuchen, ermitteln“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:捉:zhuo1",
     "word": "捉",
     "pinyin": "zhuō",
-    "meaning": "fangen, ergreifen, festnehmen; greifen, festhalten",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "fangen; ergreifen; festnehmen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -69309,12 +75816,34 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "小时候我们常常在院子里捉迷藏。",
+        "pinyin": "Xiǎoshíhou wǒmen chángcháng zài yuànzi li zhuō mícáng.",
+        "german": "Als Kinder haben wir oft im Hof Verstecken gespielt."
+      },
+      {
+        "chinese": "我家的猫昨天捉了一只老鼠。",
+        "pinyin": "Wǒ jiā de māo zuótiān zhuō le yì zhī lǎoshǔ.",
+        "german": "Unsere Katze hat gestern eine Maus gefangen."
+      },
+      {
+        "chinese": "警察终于把逃犯捉住了。",
+        "pinyin": "Jǐngchá zhōngyú bǎ táofàn zhuōzhù le.",
+        "german": "Die Polizei hat den Flüchtigen endlich gefasst."
+      }
+    ],
     "traditional": "捉",
     "evidence": {
       "cedict": "捉 捉 [zhuo1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "捉 (zhuō) bedeutet „fangen, ergreifen“, besonders Tiere oder flüchtige Personen. Im modernen Alltag ist 抓 (zhuā) häufiger; 捉 lebt vor allem in festen Wendungen weiter: 捉迷藏 „Verstecken spielen“, 猫捉老鼠 „Katz und Maus“, 活捉 „lebendig fangen“, 捕捉 „einfangen, erfassen“ (auch 捕捉机会 „eine Gelegenheit ergreifen“). 捉弄 (zhuōnòng) heißt „necken, einen Streich spielen“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:资本:zi1ben3",
@@ -69328,7 +75857,17 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "创业需要充足的资本支持。",
         "pinyin": "Chuàngyè xūyào chōngzú de zīběn zhīchí.",
-        "german": "Eine Unternehmensgruendung erfordert ausreichende Kapitalunterstuetzung."
+        "german": "Wer ein Unternehmen gründet, braucht ausreichend Kapital."
+      },
+      {
+        "chinese": "年轻就是你最大的资本。",
+        "pinyin": "Niánqīng jiù shì nǐ zuì dà de zīběn.",
+        "german": "Deine Jugend ist dein größtes Kapital."
+      },
+      {
+        "chinese": "外国资本大量进入了这个市场。",
+        "pinyin": "Wàiguó zīběn dàliàng jìnrù le zhège shìchǎng.",
+        "german": "Ausländisches Kapital ist in großem Umfang in diesen Markt geflossen."
       }
     ],
     "legacyIds": [
@@ -69342,6 +75881,12 @@ window.VOCAB_HSK6 = [
     "traditional": "資本",
     "evidence": {
       "cedict": "資本 资本 [zi1 ben3]"
+    },
+    "notes": "资本 (zīběn) ist das Kapital im wirtschaftlichen Sinn: 外国资本 „ausländisches Kapital“, 资本市场 „Kapitalmarkt“, 资本主义 „Kapitalismus“. Übertragen ist es das, worauf man bauen oder womit man prahlen kann: 年轻就是资本 „Jugend ist ein Kapital“, 炫耀的资本 „etwas, womit man angeben kann“. 资金 (zījīn) meint dagegen konkrete Geldmittel für einen bestimmten Zweck.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -69355,18 +75900,18 @@ window.VOCAB_HSK6 = [
     "examples": [
       {
         "chinese": "他的资产有好几百万。",
-        "pinyin": "Tā de zīchǎn yǒu hǎo jǐ bǎi wàn.",
+        "pinyin": "Tā de zīchǎn yǒu hǎo jǐbǎiwàn.",
         "german": "Sein Vermögen beläuft sich auf mehrere Millionen."
       },
       {
-        "chinese": "公司的总资产超过了一亿元。",
-        "pinyin": "Gōngsī de zǒng zīchǎn chāoguò le yī yì yuán.",
-        "german": "Das Gesamtvermögen des Unternehmens übersteigt 100 Millionen Yuan."
+        "chinese": "公司的总资产超过了五十亿元。",
+        "pinyin": "Gōngsī de zǒng zīchǎn chāoguò le wǔshíyì yuán.",
+        "german": "Das Gesamtvermögen des Unternehmens übersteigt fünf Milliarden Yuan."
       },
       {
-        "chinese": "公司的总资产超过了五十亿元。",
-        "pinyin": "Gōngsī de zǒng zīchǎn chāoguò le wǔshí yì yuán.",
-        "german": "Das Gesamtvermögen des Unternehmens übersteigt fünf Milliarden Yuan."
+        "chinese": "品牌是一家公司最重要的无形资产之一。",
+        "pinyin": "Pǐnpái shì yì jiā gōngsī zuì zhòngyào de wúxíng zīchǎn zhī yī.",
+        "german": "Die Marke ist einer der wichtigsten immateriellen Vermögenswerte eines Unternehmens."
       }
     ],
     "legacyIds": [
@@ -69380,6 +75925,12 @@ window.VOCAB_HSK6 = [
     "traditional": "資產",
     "evidence": {
       "cedict": "資產 资产 [zi1 chan3]"
+    },
+    "notes": "资产 (zīchǎn) bezeichnet Vermögenswerte, vor allem in Wirtschaft und Buchhaltung: 总资产 „Gesamtvermögen“, 固定资产 „Anlagevermögen“, 无形资产 „immaterielle Vermögenswerte“, 资产负债表 „Bilanz“. Zähleinheit ist 笔 oder 项. 财产 (cáichǎn) ist das alltäglichere und juristische Wort für Besitz und Eigentum einer Person, etwa beim Erben.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -69395,6 +75946,16 @@ window.VOCAB_HSK6 = [
         "chinese": "她为自己的国家感到自豪。",
         "pinyin": "Tā wèi zìjǐ de guójiā gǎndào zìháo.",
         "german": "Sie ist stolz auf ihr Land."
+      },
+      {
+        "chinese": "说起自己的女儿，他总是一脸自豪。",
+        "pinyin": "Shuōqǐ zìjǐ de nǚ'ér, tā zǒngshì yì liǎn zìháo.",
+        "german": "Wenn er von seiner Tochter spricht, strahlt er jedes Mal vor Stolz."
+      },
+      {
+        "chinese": "第一次靠自己挣到钱，我心里很自豪。",
+        "pinyin": "Dì-yī cì kào zìjǐ zhèngdào qián, wǒ xīnli hěn zìháo.",
+        "german": "Als ich zum ersten Mal mein eigenes Geld verdient hatte, war ich sehr stolz."
       }
     ],
     "legacyIds": [
@@ -69408,15 +75969,19 @@ window.VOCAB_HSK6 = [
     "traditional": "自豪",
     "evidence": {
       "cedict": "自豪 自豪 [zi4 hao2]"
+    },
+    "notes": "自豪 (zìháo) ist der positive Stolz auf eigene Leistungen oder auf Menschen und Dinge, die einem nahestehen. Häufige Rahmen sind 为……感到自豪 „stolz sein auf“ und 以……为自豪 (schriftsprachlich); dazu 自豪感 „Stolz, Gefühl des Stolzes“. 骄傲 (jiāo'ào) kann ebenfalls „stolz“ heißen, aber auch „hochmütig“ – 自豪 hat diese negative Seite nicht.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:自来水:zi4lai2shui3",
     "word": "自来水",
     "pinyin": "zìláishuǐ",
-    "meaning": "Leitungswasser",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Leitungswasser; fließendes Wasser",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -69424,19 +75989,41 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这里的自来水不能直接喝，要烧开了再喝。",
+        "pinyin": "Zhèlǐ de zìláishuǐ bù néng zhíjiē hē, yào shāokāi le zài hē.",
+        "german": "Das Leitungswasser hier kann man nicht direkt trinken, man muss es erst abkochen."
+      },
+      {
+        "chinese": "明天上午小区停水，记得提前接点儿自来水。",
+        "pinyin": "Míngtiān shàngwǔ xiǎoqū tíngshuǐ, jìde tíqián jiē diǎnr zìláishuǐ.",
+        "german": "Morgen Vormittag wird im Wohnviertel das Wasser abgestellt, denk daran, vorher etwas Wasser abzufüllen."
+      },
+      {
+        "chinese": "一百多年前，这座城市就用上了自来水。",
+        "pinyin": "Yìbǎi duō nián qián, zhè zuò chéngshì jiù yòngshàng le zìláishuǐ.",
+        "german": "Schon vor über hundert Jahren hatte diese Stadt fließendes Wasser."
+      }
+    ],
     "traditional": "自來水",
     "evidence": {
       "cedict": "自來水 自来水 [zi4 lai2 shui3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "自来水 (zìláishuǐ), wörtlich „von selbst kommendes Wasser“, ist das Wasser aus der Leitung: 自来水管 „Wasserleitung“, 自来水厂 „Wasserwerk“. In China trinkt man es meist nicht direkt, sondern kocht es vorher ab (烧开). Als Gegensatz dient 矿泉水 (kuàngquánshuǐ) „Mineralwasser“. In der Internetsprache ist ein 自来水 scherzhaft ein Fan, der unbezahlt Werbung für einen Film oder Star macht – im Gegensatz zu den bezahlten Kommentatoren, den 水军 (shuǐjūn).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:自律:zi4lv4",
     "word": "自律",
     "pinyin": "zìlǜ",
-    "meaning": "Selbstdisziplin",
-    "type": "Nomen",
+    "meaning": "sich selbst disziplinieren; Selbstdisziplin; Selbstregulierung",
+    "type": "Verb",
     "level": "HSK6",
     "category": "Bildung",
     "examples": [
@@ -69444,6 +76031,16 @@ window.VOCAB_HSK6 = [
         "chinese": "自律是成功的关键。",
         "pinyin": "Zìlǜ shì chénggōng de guānjiàn.",
         "german": "Selbstdisziplin ist der Schlüssel zum Erfolg."
+      },
+      {
+        "chinese": "他很自律，每天早上六点起床跑步。",
+        "pinyin": "Tā hěn zìlǜ, měitiān zǎoshang liù diǎn qǐchuáng pǎobù.",
+        "german": "Er ist sehr diszipliniert und steht jeden Morgen um sechs Uhr auf, um joggen zu gehen."
+      },
+      {
+        "chinese": "领导干部要严格自律。",
+        "pinyin": "Lǐngdǎo gànbù yào yángé zìlǜ.",
+        "german": "Führungskader müssen sich selbst strenge Disziplin auferlegen."
       }
     ],
     "legacyIds": [
@@ -69457,6 +76054,12 @@ window.VOCAB_HSK6 = [
     "traditional": "自律",
     "evidence": {
       "cedict": "自律 自律 [zi4 lu:4]"
+    },
+    "notes": "自律 (zìlǜ) bedeutet, sich selbst Regeln aufzuerlegen und sie einzuhalten. Es steht als Verb (严格自律 „sich strenge Disziplin auferlegen“), als Nomen (自律是成功的关键) und im modernen Sprachgebrauch auch wie ein Adjektiv: 他很自律 „er ist sehr diszipliniert“. 行业自律 ist die „Selbstregulierung einer Branche“ ohne staatliche Vorgaben. Als philosophischer Gegenbegriff dient 他律 (tālǜ) „Bestimmung durch äußere Regeln“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -69476,7 +76079,12 @@ window.VOCAB_HSK6 = [
       {
         "chinese": "看外国电影时需要字幕。",
         "pinyin": "Kàn wàiguó diànyǐng shí xūyào zìmù.",
-        "german": "Beim Schauen ausländischer Filme braucht man Untertitel."
+        "german": "Bei ausländischen Filmen braucht man Untertitel."
+      },
+      {
+        "chinese": "视频里的字幕太小了，我看不清楚。",
+        "pinyin": "Shìpín li de zìmù tài xiǎo le, wǒ kàn bu qīngchu.",
+        "german": "Die Untertitel im Video sind zu klein, ich kann sie nicht richtig lesen."
       }
     ],
     "legacyIds": [
@@ -69490,15 +76098,19 @@ window.VOCAB_HSK6 = [
     "traditional": "字幕",
     "evidence": {
       "cedict": "字幕 字幕 [zi4 mu4]"
+    },
+    "notes": "字幕 (zìmù) sind Untertitel bei Filmen und Videos sowie eingeblendete Texte im Fernsehen: 中文字幕 „chinesische Untertitel“, 双语字幕 „zweisprachige Untertitel“, 加字幕 „untertiteln“, 滚动字幕 „Laufschrift“. 字幕组 sind Fan-Gruppen, die ausländische Serien übersetzen und untertiteln. Im chinesischen Fernsehen laufen auch bei chinesischsprachigen Sendungen meist Untertitel mit – unter anderem wegen der vielen Dialekte und gleich klingenden Wörter.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:自杀:zi4sha1",
     "word": "自杀",
     "pinyin": "zìshā",
-    "meaning": "Freitod; Suizid, Selbstmord",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "sich das Leben nehmen; Suizid begehen; Suizid",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -69506,19 +76118,41 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "心理专家提醒，有自杀念头的人一定要及时寻求帮助。",
+        "pinyin": "Xīnlǐ zhuānjiā tíxǐng, yǒu zìshā niàntou de rén yídìng yào jíshí xúnqiú bāngzhù.",
+        "german": "Psychologen raten Menschen mit Suizidgedanken dringend, sich rechtzeitig Hilfe zu suchen."
+      },
+      {
+        "chinese": "这部小说的主人公最后自杀了。",
+        "pinyin": "Zhè bù xiǎoshuō de zhǔréngōng zuìhòu zìshā le.",
+        "german": "Die Hauptfigur dieses Romans nimmt sich am Ende das Leben."
+      },
+      {
+        "chinese": "在这种天气下开车上山，简直是自杀。",
+        "pinyin": "Zài zhè zhǒng tiānqì xià kāichē shàng shān, jiǎnzhí shì zìshā.",
+        "german": "Bei diesem Wetter mit dem Auto in die Berge zu fahren, ist glatter Selbstmord."
+      }
+    ],
     "traditional": "自殺",
     "evidence": {
       "cedict": "自殺 自杀 [zi4 sha1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "自杀 (zìshā) ist Verb und Nomen: 他自杀了 „er hat sich das Leben genommen“, 自杀未遂 „Suizidversuch“, 自杀念头 „Suizidgedanken“, 自杀式袭击 „Selbstmordanschlag“. Übertragen nennt man ein völlig aussichtsloses Vorhaben 简直是自杀 „glatter Selbstmord“. Im Deutschen wird in sensiblen Zusammenhängen eher „Suizid“ oder „sich das Leben nehmen“ verwendet; im Chinesischen gibt es dafür das schonendere 轻生 (qīngshēng).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:自我:zi4wo3",
     "word": "自我",
     "pinyin": "zìwǒ",
-    "meaning": "Selbst, Ich",
-    "type": "Nomen",
+    "meaning": "sich selbst; selbst-; das Selbst; Ich",
+    "type": "Pronomen",
     "level": "HSK6",
     "category": "Psychologie",
     "examples": [
@@ -69526,6 +76160,16 @@ window.VOCAB_HSK6 = [
         "chinese": "要学会自我调节。",
         "pinyin": "Yào xuéhuì zìwǒ tiáojié.",
         "german": "Man muss lernen, sich selbst zu regulieren."
+      },
+      {
+        "chinese": "下面请大家先做一下自我介绍。",
+        "pinyin": "Xiàmiàn qǐng dàjiā xiān zuò yíxià zìwǒ jièshào.",
+        "german": "Bitte stellt euch jetzt zunächst kurz vor."
+      },
+      {
+        "chinese": "他在国外生活了几年，找到了真正的自我。",
+        "pinyin": "Tā zài guówài shēnghuó le jǐ nián, zhǎodào le zhēnzhèng de zìwǒ.",
+        "german": "Nach ein paar Jahren im Ausland hat er zu sich selbst gefunden."
       }
     ],
     "legacyIds": [
@@ -69539,15 +76183,19 @@ window.VOCAB_HSK6 = [
     "traditional": "自我",
     "evidence": {
       "cedict": "自我 自我 [zi4 wo3]"
+    },
+    "notes": "自我 (zìwǒ) steht vor allem vor zweisilbigen Verben und bildet feste Verbindungen mit „selbst-“: 自我介绍 „sich vorstellen“, 自我保护 „Selbstschutz“, 自我批评 „Selbstkritik“, 自我调节 „Selbstregulierung“. Als Nomen bedeutet es „das Selbst, das Ich“: 实现自我 „sich selbst verwirklichen“, 迷失自我 „sich selbst verlieren“. Das alltägliche Reflexivpronomen ist dagegen 自己 (zìjǐ), das frei verwendet wird: 相信自己 „an sich glauben“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:自愿:zi4yuan4",
     "word": "自愿",
     "pinyin": "zìyuàn",
-    "meaning": "freiwillig, aus freiem Willen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "freiwillig (tun); aus freiem Willen",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -69555,20 +76203,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这次活动大家自愿参加，不强迫。",
+        "pinyin": "Zhè cì huódòng dàjiā zìyuàn cānjiā, bù qiǎngpò.",
+        "german": "Die Teilnahme an dieser Veranstaltung ist freiwillig, niemand wird gezwungen."
+      },
+      {
+        "chinese": "他是自愿留下来加班的，没有人要求他。",
+        "pinyin": "Tā shì zìyuàn liú xiàlai jiābān de, méiyǒu rén yāoqiú tā.",
+        "german": "Er ist freiwillig geblieben, um Überstunden zu machen; niemand hat es von ihm verlangt."
+      },
+      {
+        "chinese": "双方在自愿的基础上签订了合同。",
+        "pinyin": "Shuāngfāng zài zìyuàn de jīchǔ shang qiāndìng le hétong.",
+        "german": "Beide Seiten haben den Vertrag auf freiwilliger Basis unterzeichnet."
+      }
+    ],
     "traditional": "自願",
     "evidence": {
       "cedict": "自願 自愿 [zi4 yuan4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "自愿 (zìyuàn) heißt, etwas aus eigenem Willen und ohne Zwang zu tun. Meist steht es vor einem Verb: 自愿参加 „freiwillig teilnehmen“, 自愿报名 „sich freiwillig melden“; außerdem 是自愿的 „ist freiwillig“, 出于自愿 „aus freien Stücken“ und 自愿原则 „Freiwilligkeitsprinzip“. 志愿 (zhìyuàn) wird dagegen für ehrenamtliches Engagement verwendet: 志愿者 „Freiwillige(r)“. 愿意 (yuànyì) bedeutet lediglich „bereit sein, gern wollen“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:自助:zi4zhu4",
     "word": "自助",
     "pinyin": "zìzhù",
-    "meaning": "Selbstbedienung; Selbsthilfe",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "sich selbst bedienen; Selbstbedienung; Selbsthilfe",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -69576,12 +76244,34 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这家酒店的早餐是自助的，种类很多。",
+        "pinyin": "Zhè jiā jiǔdiàn de zǎocān shì zìzhù de, zhǒnglèi hěn duō.",
+        "german": "Das Frühstück in diesem Hotel ist ein Buffet mit großer Auswahl."
+      },
+      {
+        "chinese": "现在很多人喜欢自助游，不愿意跟旅行团。",
+        "pinyin": "Xiànzài hěn duō rén xǐhuan zìzhùyóu, bú yuànyì gēn lǚxíngtuán.",
+        "german": "Heute reisen viele lieber auf eigene Faust, statt sich einer Reisegruppe anzuschließen."
+      },
+      {
+        "chinese": "你可以在车站的自助售票机上买票。",
+        "pinyin": "Nǐ kěyǐ zài chēzhàn de zìzhù shòupiàojī shang mǎi piào.",
+        "german": "Du kannst die Fahrkarte am Automaten im Bahnhof kaufen."
+      }
+    ],
     "traditional": "自助",
     "evidence": {
       "cedict": "自助 自助 [zi4 zhu4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "自助 (zìzhù) steht meist vor einem Nomen und bezeichnet Selbstbedienung: 自助餐 „Buffet“, 自助服务 „Self-Service“, 自助售票机 „Fahrkartenautomat“, 自助洗衣店 „Waschsalon“. 自助游 ist eine selbst organisierte Reise ohne Reisegruppe. Die Bedeutung „Selbsthilfe“ zeigt sich in 自助者天助 „Hilf dir selbst, so hilft dir Gott“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:棕色:zong1se4",
@@ -69596,6 +76286,16 @@ window.VOCAB_HSK6 = [
         "chinese": "他的头发是棕色的。",
         "pinyin": "Tā de tóufa shì zōngsè de.",
         "german": "Seine Haare sind braun."
+      },
+      {
+        "chinese": "我想买那双棕色的皮鞋。",
+        "pinyin": "Wǒ xiǎng mǎi nà shuāng zōngsè de píxié.",
+        "german": "Ich möchte die braunen Lederschuhe dort kaufen."
+      },
+      {
+        "chinese": "秋天到了，树叶慢慢变成了棕色。",
+        "pinyin": "Qiūtiān dào le, shùyè mànmàn biànchéng le zōngsè.",
+        "german": "Es ist Herbst geworden, die Blätter färben sich allmählich braun."
       }
     ],
     "legacyIds": [
@@ -69609,6 +76309,12 @@ window.VOCAB_HSK6 = [
     "traditional": "棕色",
     "evidence": {
       "cedict": "棕色 棕色 [zong1 se4]"
+    },
+    "notes": "棕色 (zōngsè) ist das übliche neutrale Wort für „braun“, benannt nach der Farbe der Palmfasern (棕). Es steht meist mit 的: 棕色的皮鞋 „braune Lederschuhe“, 头发是棕色的 „die Haare sind braun“. 咖啡色 (kāfēisè) „kaffeebraun“ ist umgangssprachlich sehr verbreitet, 褐色 (hèsè) klingt eher schriftsprachlich oder fachlich. Der Braunbär heißt 棕熊 (zōngxióng).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -69629,6 +76335,11 @@ window.VOCAB_HSK6 = [
         "chinese": "新总裁上任后进行了改革。",
         "pinyin": "Xīn zǒngcái shàngrèn hòu jìnxíng le gǎigé.",
         "german": "Der neue CEO führte nach seinem Amtsantritt Reformen durch."
+      },
+      {
+        "chinese": "她三十五岁就当上了集团的副总裁。",
+        "pinyin": "Tā sānshíwǔ suì jiù dāngshàng le jítuán de fùzǒngcái.",
+        "german": "Schon mit fünfunddreißig wurde sie Vizepräsidentin des Konzerns."
       }
     ],
     "legacyIds": [
@@ -69642,15 +76353,19 @@ window.VOCAB_HSK6 = [
     "traditional": "總裁",
     "evidence": {
       "cedict": "總裁 总裁 [zong3 cai2]"
+    },
+    "notes": "总裁 (zǒngcái) ist der oberste Leiter eines großen Unternehmens oder Konzerns, oft als „Präsident“ oder „CEO“ übersetzt; 副总裁 ist der „Vizepräsident“. Ob 总裁 über oder neben dem 总经理 (zǒngjīnglǐ) „Generaldirektor“ steht, hängt vom Unternehmen ab; an der Spitze des Verwaltungsrats (董事会) steht der 董事长 (dǒngshìzhǎng). Zähleinheit ist meist 位. Umgangssprachlich spricht man von Chefs auch als 老总 (lǎozǒng).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:总计:zong3ji4",
     "word": "总计",
     "pinyin": "zǒngjì",
-    "meaning": "insgesamt; Gesamtsumme, Endsumme",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "insgesamt betragen; sich belaufen auf; Gesamtsumme",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -69658,20 +76373,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这次活动总计花费了五万元。",
+        "pinyin": "Zhè cì huódòng zǒngjì huāfèi le wǔwàn yuán.",
+        "german": "Die Veranstaltung hat insgesamt fünfzigtausend Yuan gekostet."
+      },
+      {
+        "chinese": "今年参观博物馆的游客总计超过一百万人次。",
+        "pinyin": "Jīnnián cānguān bówùguǎn de yóukè zǒngjì chāoguò yìbǎiwàn réncì.",
+        "german": "In diesem Jahr wurden im Museum insgesamt über eine Million Besuche gezählt."
+      },
+      {
+        "chinese": "表格最下面一行是总计。",
+        "pinyin": "Biǎogé zuì xiàmiàn yì háng shì zǒngjì.",
+        "german": "In der untersten Zeile der Tabelle steht die Gesamtsumme."
+      }
+    ],
     "traditional": "總計",
     "evidence": {
       "cedict": "總計 总计 [zong3 ji4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "总计 (zǒngjì) fasst Zahlen zu einer Gesamtsumme zusammen und steht meist direkt vor einer Mengenangabe: 总计五万元 „insgesamt 50.000 Yuan“. Es gehört zur Schriftsprache von Berichten, Statistiken und Rechnungen; in Tabellen bezeichnet es die Zeile „Gesamt“. Im Alltag sagt man eher 一共 (yígòng) oder 总共 (zǒnggòng); 共计 (gòngjì) ist ein ebenso formelles Synonym.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:总理:zong3li3",
     "word": "总理",
     "pinyin": "zǒnglǐ",
-    "meaning": "Kanzler; Ministerpräsident; Premierminister",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Ministerpräsident; Premierminister; Regierungschef; Bundeskanzler",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -69679,7 +76414,23 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "国务院总理在会上作了政府工作报告。",
+        "pinyin": "Guówùyuàn zǒnglǐ zài huì shang zuò le zhèngfǔ gōngzuò bàogào.",
+        "german": "Der chinesische Ministerpräsident legte auf der Tagung den Rechenschaftsbericht der Regierung vor."
+      },
+      {
+        "chinese": "德国总理下周将访问中国。",
+        "pinyin": "Déguó zǒnglǐ xià zhōu jiāng fǎngwèn Zhōngguó.",
+        "german": "Der deutsche Bundeskanzler wird nächste Woche China besuchen."
+      },
+      {
+        "chinese": "她是这个国家历史上第一位女总理。",
+        "pinyin": "Tā shì zhège guójiā lìshǐ shang dì-yī wèi nǚ zǒnglǐ.",
+        "german": "Sie ist die erste Regierungschefin in der Geschichte dieses Landes."
+      }
+    ],
     "traditional": "總理",
     "measureWords": [
       {
@@ -69698,15 +76449,19 @@ window.VOCAB_HSK6 = [
     "evidence": {
       "cedict": "總理 总理 [zong3 li3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "总理 (zǒnglǐ) ist der Regierungschef, in China der 国务院总理 „Ministerpräsident des Staatsrats“; dazu gehört 副总理 „Vizepremier“. Auch der deutsche Bundeskanzler heißt auf Chinesisch 德国总理. Für die Premierminister Großbritanniens und Japans ist dagegen 首相 (shǒuxiàng) üblich, ein Staatspräsident heißt 总统 (zǒngtǒng). Zähleinheit ist 位.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:总算:zong3suan4",
     "word": "总算",
     "pinyin": "zǒngsuàn",
-    "meaning": "schließlich, endlich; zusammenzählen",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "endlich; schließlich; immerhin",
     "type": "Adverb",
     "level": "HSK6",
     "syllabus": {
@@ -69714,12 +76469,34 @@ window.VOCAB_HSK6 = [
       "pos": "副",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "等了一个多小时，公共汽车总算来了。",
+        "pinyin": "Děng le yí ge duō xiǎoshí, gōnggòng qìchē zǒngsuàn lái le.",
+        "german": "Nach über einer Stunde Warten kam der Bus endlich."
+      },
+      {
+        "chinese": "忙了一个星期，总算可以好好休息一下了。",
+        "pinyin": "Máng le yí ge xīngqī, zǒngsuàn kěyǐ hǎohǎo xiūxi yíxià le.",
+        "german": "Nach einer ganzen Woche voller Arbeit kann ich mich endlich einmal richtig ausruhen."
+      },
+      {
+        "chinese": "这次考得不太好，不过总算及格了。",
+        "pinyin": "Zhè cì kǎo de bú tài hǎo, búguò zǒngsuàn jígé le.",
+        "german": "Die Prüfung lief diesmal nicht besonders, aber immerhin habe ich bestanden."
+      }
+    ],
     "traditional": "總算",
     "evidence": {
       "cedict": "總算 总算 [zong3 suan4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "总算 (zǒngsuàn) drückt aus, dass etwas nach langem Warten oder Mühe endlich eintritt, oft mit hörbarer Erleichterung: 总算到了 „endlich angekommen“. Es klingt umgangssprachlicher und gefühlsbetonter als 终于 (zhōngyú). Anders als 终于 hat 总算 eine zweite Bedeutung: „immerhin, im Großen und Ganzen“, wenn ein Ergebnis gerade noch akzeptabel ist, z. B. 总算及格了 „immerhin bestanden“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:粽子:zong4zi5",
@@ -69734,6 +76511,16 @@ window.VOCAB_HSK6 = [
         "chinese": "奶奶包的粽子最好吃。",
         "pinyin": "Nǎinai bāo de zòngzi zuì hǎochī.",
         "german": "Die Zongzi von Oma sind am leckersten."
+      },
+      {
+        "chinese": "端午节的时候，我们家都会包粽子。",
+        "pinyin": "Duānwǔjié de shíhou, wǒmen jiā dōu huì bāo zòngzi.",
+        "german": "Zum Drachenbootfest machen wir zu Hause jedes Jahr Zongzi."
+      },
+      {
+        "chinese": "很多北方人爱吃甜粽子，南方人更喜欢咸的。",
+        "pinyin": "Hěn duō běifāngrén ài chī tián zòngzi, nánfāngrén gèng xǐhuan xián de.",
+        "german": "Viele Menschen im Norden mögen süße Zongzi, im Süden bevorzugt man eher herzhafte."
       }
     ],
     "legacyIds": [
@@ -69747,6 +76534,12 @@ window.VOCAB_HSK6 = [
     "traditional": "粽子",
     "evidence": {
       "cedict": "粽子 粽子 [zong4 zi5]"
+    },
+    "notes": "粽子 (zòngzi) sind in Bambus- oder Schilfblätter gewickelte Klebreispäckchen, die man zum Drachenbootfest 端午节 (Duānwǔjié) isst, der Legende nach zum Gedenken an den Dichter 屈原 (Qū Yuán). Man sagt 包粽子 „Zongzi wickeln“, Zähleinheit ist 个. Die Füllungen sind regional verschieden: im Norden eher süß (rote Bohnen, Datteln), im Süden häufig herzhaft (Fleisch, Eigelb) – ein beliebtes Streitthema im Internet.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
@@ -69759,14 +76552,19 @@ window.VOCAB_HSK6 = [
     "category": "Räume",
     "examples": [
       {
-        "chinese": "走廊很长。",
-        "pinyin": "Zǒuláng hěn cháng.",
-        "german": "Der Flur ist sehr lang."
+        "chinese": "走廊里很暗。",
+        "pinyin": "Zǒuláng li hěn àn.",
+        "german": "Im Flur ist es dunkel."
       },
       {
-        "chinese": "走廊里很暗。",
-        "pinyin": "Zǒuláng lǐ hěn àn.",
-        "german": "Der Flur ist sehr dunkel."
+        "chinese": "请不要在走廊里大声说话。",
+        "pinyin": "Qǐng búyào zài zǒuláng li dàshēng shuōhuà.",
+        "german": "Bitte im Flur nicht laut sprechen."
+      },
+      {
+        "chinese": "我的办公室在走廊尽头，左手边。",
+        "pinyin": "Wǒ de bàngōngshì zài zǒuláng jìntóu, zuǒshǒu biān.",
+        "german": "Mein Büro ist am Ende des Flurs auf der linken Seite."
       }
     ],
     "legacyIds": [
@@ -69780,15 +76578,19 @@ window.VOCAB_HSK6 = [
     "traditional": "走廊",
     "evidence": {
       "cedict": "走廊 走廊 [zou3 lang2]"
+    },
+    "notes": "走廊 (zǒuláng) ist der Flur oder Korridor in Gebäuden wie Schulen, Büros, Hotels und Krankenhäusern, aber auch ein überdachter Gang im Freien, etwa der berühmte 长廊 im Sommerpalast. Zähleinheit ist 条. Typisch sind 在走廊里 „im Flur“ und 走廊尽头 „am Ende des Flurs“. Im Wohnhaus sagt man oft 楼道 (lóudào); der Gang im Flugzeug oder Zug heißt 过道 (guòdào). Geografisch bezeichnet es einen Korridor, z. B. 河西走廊 „Hexi-Korridor“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:足:zu2",
     "word": "足",
     "pinyin": "zú",
-    "meaning": "Fuß; genügen; genug",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "ausreichend; genug; volle, ganze (vor Mengenangaben)",
     "type": "Adjektiv",
     "level": "HSK6",
     "syllabus": {
@@ -69796,20 +76598,40 @@ window.VOCAB_HSK6 = [
       "pos": "形、副",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这条鱼足有五斤重。",
+        "pinyin": "Zhè tiáo yú zú yǒu wǔ jīn zhòng.",
+        "german": "Dieser Fisch wiegt gut und gerne fünf Jin (zweieinhalb Kilo)."
+      },
+      {
+        "chinese": "昨晚睡得很足，今天特别有精神。",
+        "pinyin": "Zuówǎn shuì de hěn zú, jīntiān tèbié yǒu jīngshen.",
+        "german": "Ich habe letzte Nacht ausreichend geschlafen und bin heute richtig fit."
+      },
+      {
+        "chinese": "这家店的菜分量很足，价格也不贵。",
+        "pinyin": "Zhè jiā diàn de cài fènliàng hěn zú, jiàgé yě bú guì.",
+        "german": "In diesem Lokal sind die Portionen sehr reichlich, und teuer ist es auch nicht."
+      }
+    ],
     "traditional": "足",
     "evidence": {
       "cedict": "足 足 [zu2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als Adjektiv bedeutet 足 (zú) „ausreichend, reichlich“: 分量很足 „reichliche Portionen“, 睡足 „ausschlafen“, 信心十足 „voller Zuversicht“; dazu 不足 „nicht genug, Mangel“ und 足够 „genügend“. Als Adverb vor Mengenangaben betont es, dass die Menge voll erreicht wird: 足有五斤 „gut und gerne fünf Jin“, verstärkt 足足. Die Bedeutung „Fuß“ lebt nur in Zusammensetzungen weiter: 足球 „Fußball“, 足迹 „Fußspur“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:足以:zu2yi3",
     "word": "足以",
     "pinyin": "zúyǐ",
-    "meaning": "genug; ausreichend",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "ausreichen, um …; genügen, um …",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -69817,12 +76639,34 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "这些证据足以证明他是无辜的。",
+        "pinyin": "Zhèxiē zhèngjù zúyǐ zhèngmíng tā shì wúgū de.",
+        "german": "Diese Beweise reichen aus, um seine Unschuld zu belegen."
+      },
+      {
+        "chinese": "他的工资不足以养活一家人。",
+        "pinyin": "Tā de gōngzī bù zúyǐ yǎnghuo yì jiā rén.",
+        "german": "Sein Gehalt reicht nicht aus, um die Familie zu ernähren."
+      },
+      {
+        "chinese": "这一个例子就足以说明问题。",
+        "pinyin": "Zhè yí ge lìzi jiù zúyǐ shuōmíng wèntí.",
+        "german": "Schon dieses eine Beispiel spricht Bände."
+      }
+    ],
     "traditional": "足以",
     "evidence": {
       "cedict": "足以 足以 [zu2 yi3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "足以 (zúyǐ) steht vor einem Verb und sagt, dass etwas genügt, um eine Wirkung zu erzielen: 足以证明 „reicht als Beweis“, 足以说明问题 „ist aussagekräftig genug“. Verneint wird es mit 不: 不足以 „reicht nicht aus, um …“. Der Ton ist schriftsprachlich; im Alltag sagt man eher 够 + Verb. 足够 (zúgòu) ist dagegen ein Adjektiv und steht vor Nomen: 足够的时间 „genug Zeit“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:阻碍:zu3ai4",
@@ -69831,7 +76675,23 @@ window.VOCAB_HSK6 = [
     "meaning": "behindern; hindern; Hindernis",
     "type": "Verb",
     "level": "HSK6",
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "落后的观念阻碍了经济的发展。",
+        "pinyin": "Luòhòu de guānniàn zǔ'ài le jīngjì de fāzhǎn.",
+        "german": "Rückständige Denkweisen haben die wirtschaftliche Entwicklung gebremst."
+      },
+      {
+        "chinese": "路边乱停的车严重阻碍了交通。",
+        "pinyin": "Lùbiān luàn tíng de chē yánzhòng zǔ'ài le jiāotōng.",
+        "german": "Die wild am Straßenrand geparkten Autos behindern den Verkehr erheblich."
+      },
+      {
+        "chinese": "语言不通是他们交流的最大阻碍。",
+        "pinyin": "Yǔyán bù tōng shì tāmen jiāoliú de zuì dà zǔ'ài.",
+        "german": "Dass sie keine gemeinsame Sprache sprechen, ist das größte Hindernis für ihre Verständigung."
+      }
+    ],
     "legacyIds": [
       "阻碍|zǔài"
     ],
@@ -69843,15 +76703,19 @@ window.VOCAB_HSK6 = [
     "traditional": "阻礙",
     "evidence": {
       "cedict": "阻礙 阻碍 [zu3 ai4]"
+    },
+    "notes": "阻碍 (zǔ'ài) heißt „behindern, hemmen“ und betrifft meist Abläufe und Entwicklungen: 阻碍发展 „die Entwicklung hemmen“, 阻碍交通 „den Verkehr behindern“. Als Nomen bedeutet es „Hindernis“: 遇到阻碍 „auf Hindernisse stoßen“. 妨碍 (fáng'ài) ist schwächer und alltäglicher („stören“, z. B. 妨碍别人休息), 阻止 (zǔzhǐ) heißt, eine Person oder Handlung gezielt aufzuhalten, 阻挡 (zǔdǎng) eher, etwas physisch zu versperren.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
     }
   },
   {
     "id": "w:阻挡:zu3dang3",
     "word": "阻挡",
     "pinyin": "zǔdǎng",
-    "meaning": "Blockierung; blockieren",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "aufhalten; versperren; abhalten",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -69859,20 +76723,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "一棵大树倒在路上，阻挡了我们的去路。",
+        "pinyin": "Yì kē dà shù dǎo zài lù shang, zǔdǎng le wǒmen de qùlù.",
+        "german": "Ein umgestürzter Baum versperrte uns den Weg."
+      },
+      {
+        "chinese": "前面的人太高了，阻挡了我的视线。",
+        "pinyin": "Qiánmian de rén tài gāo le, zǔdǎng le wǒ de shìxiàn.",
+        "german": "Die Person vor mir war zu groß und versperrte mir die Sicht."
+      },
+      {
+        "chinese": "谁也阻挡不了历史前进的脚步。",
+        "pinyin": "Shéi yě zǔdǎng bu liǎo lìshǐ qiánjìn de jiǎobù.",
+        "german": "Niemand kann den Lauf der Geschichte aufhalten."
+      }
+    ],
     "traditional": "阻擋",
     "evidence": {
       "cedict": "阻擋 阻挡 [zu3 dang3]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "阻挡 (zǔdǎng) bedeutet, etwas den Weg zu versperren oder es aufzuhalten, wörtlich wie übertragen: 阻挡去路 „den Weg versperren“, 阻挡视线 „die Sicht versperren“. Häufig ist die Potenzialform 阻挡不了 „nicht aufhalten können“ und die feste Wendung 不可阻挡 „unaufhaltsam“. 阻止 (zǔzhǐ) richtet sich eher gegen eine Handlung („jemanden daran hindern, etwas zu tun“); im Alltag genügt oft das einsilbige 挡 (dǎng).",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:祖国:zu3guo2",
     "word": "祖国",
     "pinyin": "zǔguó",
-    "meaning": "Vaterland",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Vaterland; Heimatland",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -69880,20 +76764,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "他在国外留学十年后回到了祖国。",
+        "pinyin": "Tā zài guówài liúxué shí nián hòu huídào le zǔguó.",
+        "german": "Nach zehn Jahren Studium im Ausland kehrte er in sein Heimatland zurück."
+      },
+      {
+        "chinese": "孩子们是祖国的花朵。",
+        "pinyin": "Háizimen shì zǔguó de huāduǒ.",
+        "german": "Kinder sind die Blumen des Vaterlandes."
+      },
+      {
+        "chinese": "无论走到哪里，我都不会忘记自己的祖国。",
+        "pinyin": "Wúlùn zǒu dào nǎlǐ, wǒ dōu bú huì wàngjì zìjǐ de zǔguó.",
+        "german": "Wohin ich auch gehe, ich werde mein Heimatland nie vergessen."
+      }
+    ],
     "traditional": "祖國",
     "evidence": {
       "cedict": "祖國 祖国 [zu3 guo2]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "祖国 (zǔguó) ist das Land, aus dem man stammt, und ist im Chinesischen ein gefühlsbetontes, oft feierliches Wort: 热爱祖国 „das Vaterland lieben“, 回到祖国 „in die Heimat zurückkehren“, 报效祖国 „dem Vaterland dienen“. Ohne Zusatz ist in chinesischen Texten meist China gemeint. Im Deutschen klingt „Vaterland“ heute oft pathetisch; neutraler ist „Heimatland“. 国家 (guójiā) ist dagegen der Staat, 家乡 (jiāxiāng) der Heimatort.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:祖先:zu3xian1",
     "word": "祖先",
     "pinyin": "zǔxiān",
-    "meaning": "Ahn; Ahnen; Ahnherr",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Vorfahren; Ahnen; (Biologie) Stammform",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -69901,20 +76805,40 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "清明节的时候，很多人会回老家祭拜祖先。",
+        "pinyin": "Qīngmíngjié de shíhou, hěn duō rén huì huí lǎojiā jìbài zǔxiān.",
+        "german": "Zum Qingming-Fest fahren viele in ihre Heimatorte, um ihre Ahnen zu ehren."
+      },
+      {
+        "chinese": "科学家认为，鸟类的祖先是恐龙。",
+        "pinyin": "Kēxuéjiā rènwéi, niǎolèi de zǔxiān shì kǒnglóng.",
+        "german": "Wissenschaftler gehen davon aus, dass die Vögel von Dinosauriern abstammen."
+      },
+      {
+        "chinese": "这些传统是我们的祖先留下来的。",
+        "pinyin": "Zhèxiē chuántǒng shì wǒmen de zǔxiān liú xiàlai de.",
+        "german": "Diese Traditionen haben uns unsere Vorfahren hinterlassen."
+      }
+    ],
     "traditional": "祖先",
     "evidence": {
       "cedict": "祖先 祖先 [zu3 xian1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "祖先 (zǔxiān) sind die Vorfahren einer Familie, eines Volkes oder auch einer Tierart: 我们的祖先, 人类的祖先, 鸟类的祖先. Im Zusammenhang mit der Ahnenverehrung sagt man 祭拜祖先 oder kurz 祭祖. 祖宗 (zǔzong) ist umgangssprachlicher, 后代 (hòudài) „Nachkommen“ das Gegenwort.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:钻:zuan1",
     "word": "钻",
     "pinyin": "zuān",
-    "meaning": "bohren; Bohrer; Diamant, Brillant, Stein (in der Uhr)",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "bohren; sich hineinzwängen; schlüpfen; sich vertiefen (in)",
     "type": "Verb",
     "level": "HSK6",
     "syllabus": {
@@ -69922,20 +76846,40 @@ window.VOCAB_HSK6 = [
       "pos": "动",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "工人在墙上钻了两个洞。",
+        "pinyin": "Gōngrén zài qiáng shang zuān le liǎng ge dòng.",
+        "german": "Der Handwerker bohrte zwei Löcher in die Wand."
+      },
+      {
+        "chinese": "天太冷了，我一回家就钻进了被窝。",
+        "pinyin": "Tiān tài lěng le, wǒ yì huí jiā jiù zuānjìn le bèiwō.",
+        "german": "Es war so kalt, dass ich mich gleich nach dem Heimkommen unter die Bettdecke verkrochen habe."
+      },
+      {
+        "chinese": "他一有时间就钻在图书馆里看书。",
+        "pinyin": "Tā yì yǒu shíjiān jiù zuān zài túshūguǎn li kàn shū.",
+        "german": "Sobald er Zeit hat, vergräbt er sich in der Bibliothek in Bücher."
+      }
+    ],
     "traditional": "鑽",
     "evidence": {
       "cedict": "鑽 钻 [zuan1]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "Als zuān hat 钻 drei Hauptbedeutungen: „bohren“ (钻洞 „ein Loch bohren“), „sich durch eine Öffnung zwängen, schlüpfen“ (钻进被窝 „unter die Decke kriechen“, 钻山洞) und „sich in etwas vertiefen“ (钻研 „gründlich erforschen“, 钻牛角尖 „sich in Spitzfindigkeiten verrennen“). Die Nomen „Bohrer“ und „Diamant“ werden zuàn gelesen: 电钻 (diànzuàn) „Bohrmaschine“, 钻石 (zuànshí) „Diamant“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   },
   {
     "id": "w:罪:zui4",
     "word": "罪",
     "pinyin": "zuì",
-    "meaning": "beschuldigen, Schuld geben; Sünde; Sünder",
-    "meaningStatus": "draft",
-    "meaningSource": "HanDeDict",
+    "meaning": "Verbrechen; Schuld; Sünde; Qual",
     "type": "Nomen",
     "level": "HSK6",
     "syllabus": {
@@ -69943,11 +76887,33 @@ window.VOCAB_HSK6 = [
       "pos": "名",
       "page": 214
     },
-    "examples": [],
+    "examples": [
+      {
+        "chinese": "法院最后判他无罪。",
+        "pinyin": "Fǎyuàn zuìhòu pàn tā wúzuì.",
+        "german": "Das Gericht sprach ihn schließlich frei."
+      },
+      {
+        "chinese": "他在法庭上认了罪。",
+        "pinyin": "Tā zài fǎtíng shang rèn le zuì.",
+        "german": "Er hat sich vor Gericht schuldig bekannt."
+      },
+      {
+        "chinese": "夏天坐没有空调的火车，真是受罪。",
+        "pinyin": "Xiàtiān zuò méiyǒu kōngtiáo de huǒchē, zhēn shì shòuzuì.",
+        "german": "Im Sommer mit einem Zug ohne Klimaanlage zu fahren, ist eine echte Qual."
+      }
+    ],
     "traditional": "罪",
     "evidence": {
       "cedict": "罪 罪 [zui4]"
     },
-    "legacyIds": []
+    "legacyIds": [],
+    "notes": "罪 (zuì) ist die strafbare Schuld oder das Verbrechen und erscheint vor allem in Zusammensetzungen: 犯罪 „ein Verbrechen begehen“, 罪犯 „Straftäter“, 有罪/无罪 „schuldig/unschuldig“, 认罪 „sich schuldig bekennen“, 罪名 „Anklagepunkt“. Im religiösen Sinn ist es die Sünde (原罪 „Erbsünde“). Umgangssprachlich bedeutet 受罪 „leiden, sich quälen“; 得罪 (dézuì) heißt „jemanden kränken, es sich mit jemandem verderben“.",
+    "review": {
+      "batch": "b023",
+      "policy": "author",
+      "date": "2026-10-10"
+    }
   }
 ];

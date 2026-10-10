@@ -8,7 +8,7 @@ const common = require('../enrich/common.cjs');
 const DRY = process.argv.includes('--dry-run');
 const KEEP_TYPES = new Set(['Nomen', 'Phrase']);
 const mw = (word, pinyin) => ({ word, pinyin });
-// Author flags (Phase 3 batches b006–b021): id → corrected list ([] removes the field).
+// Author flags (Phase 3 batches b006–b025): id → corrected list ([] removes the field).
 const CORRECTIONS = {
   'w:信心:xin4xin1': [],
   'w:学费:xue2fei4': [mw('笔', 'bi3')],
@@ -45,7 +45,14 @@ const CORRECTIONS = {
   'w:贸易:mao4yi4': [],
   'w:评论:ping2lun4': [mw('条', 'tiao2'), mw('篇', 'pian1')],
   'w:通讯:tong1xun4': [mw('篇', 'pian1')],
-  'w:谈判:tan2pan4': [mw('轮', 'lun2'), mw('次', 'ci4')]
+  'w:谈判:tan2pan4': [mw('轮', 'lun2'), mw('次', 'ci4')],
+  // Batches b022–b025.
+  'w:政策:zheng4ce4': [mw('项', 'xiang4'), mw('个', 'ge4')],
+  'w:争论:zheng1lun4': [mw('场', 'chang2')],
+  'w:灾害:zai1hai4': [mw('场', 'chang2'), mw('次', 'ci4'), mw('种', 'zhong3')],
+  'w:秤:cheng4': [mw('杆', 'gan3'), mw('台', 'tai2')],
+  'w:鞭炮:bian1pao4': [mw('挂', 'gua4'), mw('串', 'chuan4')],
+  'w:百科全书:bai3ke1quan2shu1': [mw('部', 'bu4'), mw('套', 'tao4'), mw('本', 'ben3')]
 };
 
 const sources = common.loadSources();
