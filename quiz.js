@@ -84,12 +84,13 @@
   function getGrammarByLevel(level) {
     var sec = window.app && window.app.sections.grammar;
     if (!sec) return [];
-    return sec.allItems.filter(function (g) { return g.level === level; });
+    // Points still being worked out (no meaning yet) stay out of the quiz.
+    return sec.allItems.filter(function (g) { return g.level === level && g.meaning; });
   }
 
   function getAllGrammar() {
     var sec = window.app && window.app.sections.grammar;
-    return sec ? sec.allItems : [];
+    return sec ? sec.allItems.filter(function (g) { return g.meaning; }) : [];
   }
 
   function getMeasureWords() {
@@ -307,11 +308,14 @@
     };
   }
 
+  // The pattern as written in a sentence: sense numbers (\u90FD\u00B9) are not written.
+  function clozeText(g) { return g.pattern.replace(/[\u00B9\u00B2\u00B3\u2074\u2075\u2076\u2077\u2078\u2079]/g, ''); }
+
   function genGrammarCloze(level) {
     var pool = getLevelPool(getGrammarByLevel, level).filter(function (g) {
       if (!g.examples || g.examples.length === 0) return false;
       for (var i = 0; i < g.examples.length; i++) {
-        if (g.examples[i].chinese && g.examples[i].chinese.indexOf(g.pattern) !== -1) return true;
+        if (g.examples[i].chinese && g.examples[i].chinese.indexOf(clozeText(g)) !== -1) return true;
       }
       return false;
     });
@@ -319,13 +323,13 @@
     var item = pickRandom(pool);
     var ex = null;
     for (var i = 0; i < item.examples.length; i++) {
-      if (item.examples[i].chinese.indexOf(item.pattern) !== -1) { ex = item.examples[i]; break; }
+      if (item.examples[i].chinese.indexOf(clozeText(item)) !== -1) { ex = item.examples[i]; break; }
     }
     if (!ex) return null;
-    var sentence = ex.chinese.replace(item.pattern, '\uFF3F\uFF3F\uFF3F');
-    var distractors = generateDistractors(item, pool, 3, function (g) { return g.pattern; });
+    var sentence = ex.chinese.replace(clozeText(item), '\uFF3F\uFF3F\uFF3F');
+    var distractors = generateDistractors(item, pool, 3, clozeText);
     if (distractors.length < 3) return null;
-    var c = buildChoices(item.pattern, distractors);
+    var c = buildChoices(clozeText(item), distractors);
     return {
       type: 'grammarCloze', level: level,
       prompt: 'Welches Grammatikmuster passt in die Lücke?',

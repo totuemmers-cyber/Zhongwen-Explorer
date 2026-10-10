@@ -1,370 +1,1779 @@
-// Zhongwen Explorer grammar source (consolidated by scripts/consolidate-grammar.cjs). HSK4.
+// Zhongwen Explorer grammar, HSK4: points of the HSK 2025 grammar syllabus (语法大纲, scripts/hsk2025/grammar.json).
+// Built by scripts/grammar/build-grammar.cjs; content by the enrichment campaign.
 window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
   {
-    "id": "g:既...又...",
-    "pattern": "既...又...",
+    "id": "g:敢",
+    "pattern": "敢",
     "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "sowohl ... als auch ...",
-    "formation": "既 + Eigenschaft/Verb A + 又 + Eigenschaft/Verb B",
-    "explanation": "Wird verwendet, um zwei gleichzeitig zutreffende Eigenschaften oder Handlungen auszudruecken. Beide Teile haben gleiches Gewicht.",
-    "notes": "Im Vergleich zu \"又...又...\" ist \"既...又...\" etwas formeller und wird haeufiger in der Schriftsprache verwendet.",
-    "relatedPatterns": [
-      "又...又...",
-      "不但...而且..."
-    ],
-    "examples": [
-      {
-        "chinese": "这个房子既大又便宜。",
-        "pinyin": "Zhège fángzi jì dà yòu piányi.",
-        "german": "Dieses Haus ist sowohl gross als auch guenstig."
-      },
-      {
-        "chinese": "她既聪明又努力。",
-        "pinyin": "Tā jì cōngmíng yòu nǔlì.",
-        "german": "Sie ist sowohl klug als auch fleissig."
-      },
-      {
-        "chinese": "这道菜既好吃又好看。",
-        "pinyin": "Zhè dào cài jì hǎochī yòu hǎokàn.",
-        "german": "Dieses Gericht ist sowohl lecker als auch huebsch anzusehen."
-      }
-    ],
-    "legacyIds": [
-      "既...又..."
+    "kind": "word",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 245,
+      "category": "词类",
+      "categoryName": "动词",
+      "item": "能愿动词",
+      "content": "敢"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:指示代词@HSK4",
+    "pattern": "指示代词",
+    "level": "HSK4",
+    "kind": "overview",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 246,
+      "category": "词类",
+      "categoryName": "代词",
+      "item": "指示代词",
+      "content": "各、各位、各种、任何、此"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "各",
+      "各位",
+      "各种",
+      "任何",
+      "此"
     ]
   },
   {
-    "id": "g:不管...都...",
-    "pattern": "不管...都...",
+    "id": "g:此",
+    "pattern": "此",
     "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "egal ob ... , in jedem Fall ...",
-    "formation": "不管 + Bedingung/Fragewort + 都/也 + Ergebnis",
-    "explanation": "Drueckt aus, dass das Ergebnis unabhaengig von der Bedingung gleich bleibt. Betont die Unveraenderlichkeit des Ergebnisses.",
-    "notes": "\"不管\" ist umgangssprachlicher als \"无论\" und \"不论\", die eher in formellen Kontexten verwendet werden.",
-    "relatedPatterns": [
-      "无论...都...",
-      "不论...都..."
-    ],
+    "kind": "word",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 246,
+      "category": "词类",
+      "categoryName": "代词",
+      "item": "指示代词",
+      "content": "各、各位、各种、任何、此"
+    },
+    "meaning": "dafür; deswegen; zu diesem Zweck",
+    "pinyin": "wèicǐ",
     "examples": [
       {
-        "chinese": "不管天气怎么样，我都去跑步。",
-        "pinyin": "Bùguǎn tiānqì zěnmeyàng, wǒ dōu qù pǎobù.",
-        "german": "Egal wie das Wetter ist, ich gehe in jedem Fall joggen."
+        "chinese": "他为此付出了很大的努力。",
+        "pinyin": "Tā wèicǐ fùchū le hěn dà de nǔlì.",
+        "german": "Er hat dafür große Anstrengungen unternommen."
       },
       {
-        "chinese": "不管你同意不同意，我都要这样做。",
-        "pinyin": "Bùguǎn nǐ tóngyì bù tóngyì, wǒ dōu yào zhèyàng zuò.",
-        "german": "Egal ob du zustimmst oder nicht, ich werde es so machen."
+        "chinese": "政府为此出台了新的政策。",
+        "pinyin": "Zhèngfǔ wèicǐ chūtái le xīn de zhèngcè.",
+        "german": "Die Regierung hat deswegen eine neue Richtlinie herausgegeben."
       },
       {
-        "chinese": "不管多贵，她都想买。",
-        "pinyin": "Bùguǎn duō guì, tā dōu xiǎng mǎi.",
-        "german": "Egal wie teuer es ist, sie will es kaufen."
+        "chinese": "对此，专家表示担忧。",
+        "pinyin": "Duìcǐ, zhuānjiā biǎoshì dānyōu.",
+        "german": "Hierzu äußerten Experten ihre Bedenken."
+      },
+      {
+        "chinese": "你对此有什么看法？",
+        "pinyin": "Nǐ duìcǐ yǒu shénme kànfǎ?",
+        "german": "Was ist deine Meinung dazu?"
       }
     ],
     "legacyIds": [
-      "不管...都..."
+      "g:为此",
+      "为此",
+      "g:对此",
+      "对此"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:名量词@HSK4",
+    "pattern": "名量词",
+    "level": "HSK4",
+    "kind": "overview",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 247,
+      "category": "词类",
+      "categoryName": "量词",
+      "item": "名量词",
+      "content": "（1）专用名量词：打、袋、棵、台、幅"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "打",
+      "袋",
+      "棵",
+      "台",
+      "幅"
     ]
   },
   {
-    "id": "g:宁可...也不...",
-    "pattern": "宁可...也不...",
+    "id": "g:名量词@HSK4（名量词）",
+    "pattern": "名量词",
     "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "lieber ... als ...",
-    "formation": "宁可 + bevorzugte (haertere) Option + 也不 + abgelehnte Option",
-    "explanation": "Drueckt eine entschlossene Praeferenz aus, bei der man sogar Nachteile in Kauf nimmt, um die andere Option zu vermeiden.",
-    "notes": "\"宁可...也不...\" zeigt staerkere Entschlossenheit als \"与其...不如...\", das eher eine rationale Abwaegung ausdrueckt.",
-    "relatedPatterns": [
-      "与其...不如..."
-    ],
+    "kind": "overview",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 248,
+      "category": "词类",
+      "categoryName": "量词",
+      "item": "名量词",
+      "content": "（2）借用名量词：脸、手、盒、屋子、桌子"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "脸",
+      "手",
+      "盒",
+      "屋子",
+      "桌子"
+    ]
+  },
+  {
+    "id": "g:动量词@HSK4",
+    "pattern": "动量词",
+    "level": "HSK4",
+    "kind": "overview",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 249,
+      "category": "词类",
+      "categoryName": "量词",
+      "item": "动量词",
+      "content": "场、顿、趟"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "场",
+      "顿",
+      "趟"
+    ]
+  },
+  {
+    "id": "g:程度副词@HSK4",
+    "pattern": "程度副词",
+    "level": "HSK4",
+    "kind": "overview",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 250,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "程度副词",
+      "content": "十分、更加、稍、稍微、尤其、多么"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "十分",
+      "更加",
+      "稍",
+      "稍微",
+      "尤其",
+      "多么"
+    ]
+  },
+  {
+    "id": "g:多么",
+    "pattern": "多么",
+    "level": "HSK4",
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 250,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "程度副词",
+      "content": "十分、更加、稍、稍微、尤其、多么"
+    },
+    "meaning": "wie sehr / was für ein (Ausruf)",
+    "pinyin": "duōme + Adj",
     "examples": [
       {
-        "chinese": "我宁可走路，也不坐他的车。",
-        "pinyin": "Wǒ nìngkě zǒulù, yě bú zuò tā de chē.",
-        "german": "Ich gehe lieber zu Fuss, als in sein Auto zu steigen."
+        "chinese": "这里多么漂亮啊！",
+        "pinyin": "Zhèlǐ duōme piàoliang a!",
+        "german": "Wie schön es hier ist!"
       },
       {
-        "chinese": "她宁可不吃饭，也不迟到。",
-        "pinyin": "Tā nìngkě bù chīfàn, yě bú chídào.",
-        "german": "Sie verzichtet lieber aufs Essen, als zu spaet zu kommen."
-      },
-      {
-        "chinese": "他宁可辛苦一点，也不求别人帮忙。",
-        "pinyin": "Tā nìngkě xīnkǔ yìdiǎn, yě bù qiú biéren bāngmáng.",
-        "german": "Er nimmt lieber etwas Muehe auf sich, als andere um Hilfe zu bitten."
-      },
-      {
-        "chinese": "我宁可走路去，也不坐他的车。",
-        "pinyin": "Wǒ nìngkě zǒulù qù, yě bú zuò tā de chē.",
-        "german": "Ich gehe lieber zu Fuss, als mit seinem Auto zu fahren."
-      },
-      {
-        "chinese": "她宁可一个人住，也不愿意跟别人合租。",
-        "pinyin": "Tā nìngkě yí gè rén zhù, yě bú yuànyì gēn biérén hézū.",
-        "german": "Sie wohnt lieber allein, als sich eine Wohnung mit anderen zu teilen."
-      },
-      {
-        "chinese": "他宁可饿着，也不吃那种东西。",
-        "pinyin": "Tā nìngkě è zhe, yě bù chī nà zhǒng dōngxi.",
-        "german": "Er hungert lieber, als so etwas zu essen."
+        "chinese": "他多么想回家！",
+        "pinyin": "Tā duōme xiǎng huí jiā!",
+        "german": "Wie sehr er nach Hause will!"
       }
     ],
     "legacyIds": [
-      "宁可...也不..."
-    ]
+      "g:多么 + Adj",
+      "多么 + Adj"
+    ],
+    "meaningStatus": "draft"
   },
   {
-    "id": "g:无论...都...",
-    "pattern": "无论...都...",
+    "id": "g:尤其",
+    "pattern": "尤其",
     "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "unabhaengig davon ... , in jedem Fall ...",
-    "formation": "无论 + Fragewort/Alternative + 都/也 + Ergebnis",
-    "explanation": "Formellere Variante von \"不管...都...\". Drueckt aus, dass das Ergebnis unter allen Umstaenden gleich bleibt.",
-    "notes": "\"无论\" ist die formellste Variante, gefolgt von \"不论\" und \"不管\" (am umgangssprachlichsten).",
-    "relatedPatterns": [
-      "不管...都...",
-      "不论...都..."
-    ],
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 250,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "程度副词",
+      "content": "十分、更加、稍、稍微、尤其、多么"
+    },
+    "meaning": "besonders / insbesondere / vor allem",
+    "pinyin": "yóuqí",
     "examples": [
       {
-        "chinese": "无论你去哪儿，我都跟着你。",
-        "pinyin": "Wúlùn nǐ qù nǎr, wǒ dōu gēnzhe nǐ.",
-        "german": "Egal wohin du gehst, ich folge dir."
+        "chinese": "我喜欢水果，尤其是苹果。",
+        "pinyin": "Wǒ xǐhuan shuǐguǒ, yóuqí shì píngguǒ.",
+        "german": "Ich mag Obst, besonders Äpfel."
       },
       {
-        "chinese": "无论发生什么事，都不要害怕。",
-        "pinyin": "Wúlùn fāshēng shénme shì, dōu búyào hàipà.",
-        "german": "Egal was passiert, hab keine Angst."
-      },
-      {
-        "chinese": "无论多忙，他都坚持每天看书。",
-        "pinyin": "Wúlùn duō máng, tā dōu jiānchí měi tiān kàn shū.",
-        "german": "Egal wie beschaeftigt er ist, er liest jeden Tag."
+        "chinese": "北京的冬天尤其冷。",
+        "pinyin": "Běijīng de dōngtiān yóuqí lěng.",
+        "german": "Der Winter in Peking ist besonders kalt."
       }
     ],
     "legacyIds": [
-      "无论...都..."
+      "尤其"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:范围副词@HSK4",
+    "pattern": "范围副词",
+    "level": "HSK4",
+    "kind": "overview",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 251,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "范围副词",
+      "content": "共、全、光、仅、仅仅、至少"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "共",
+      "全",
+      "光",
+      "仅",
+      "仅仅",
+      "至少"
     ]
   },
   {
-    "id": "g:除了...以外，还...",
-    "pattern": "除了...以外，还...",
+    "id": "g:至少",
+    "pattern": "至少",
     "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "ausser ... , auch noch ...",
-    "formation": "除了 + A + 以外 + 还/也 + B",
-    "explanation": "Drueckt aus, dass zusaetzlich zu A auch B zutrifft. Mit \"还/也\" bedeutet es \"zusaetzlich zu\".",
-    "notes": "Mit \"还/也\" = Hinzufuegung (ausser A, auch B). Mit \"都\" = Ausschluss (ausser A, alle anderen).",
-    "relatedPatterns": [
-      "除了...以外，都..."
-    ],
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 251,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "范围副词",
+      "content": "共、全、光、仅、仅仅、至少"
+    },
+    "meaning": "mindestens / wenigstens",
+    "pinyin": "zhìshǎo",
     "examples": [
       {
-        "chinese": "除了中文以外，她还会说日语。",
-        "pinyin": "Chúle Zhōngwén yǐwài, tā hái huì shuō Rìyǔ.",
-        "german": "Ausser Chinesisch spricht sie auch noch Japanisch."
+        "chinese": "至少要学三年。",
+        "pinyin": "Zhìshǎo yào xué sān nián.",
+        "german": "Man muss mindestens drei Jahre lernen."
       },
       {
-        "chinese": "除了看书以外，我还喜欢画画。",
-        "pinyin": "Chúle kàn shū yǐwài, wǒ hái xǐhuan huàhuà.",
-        "german": "Neben dem Lesen male ich auch gerne."
-      },
-      {
-        "chinese": "除了他以外，大家都来了。",
-        "pinyin": "Chúle tā yǐwài, dàjiā dōu lái le.",
-        "german": "Ausser ihm sind alle gekommen."
+        "chinese": "你至少应该告诉我一声。",
+        "pinyin": "Nǐ zhìshǎo yīnggāi gàosu wǒ yì shēng.",
+        "german": "Du hättest mir wenigstens Bescheid sagen sollen."
       }
     ],
     "legacyIds": [
-      "除了...以外，还..."
+      "至少"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:时间副词@HSK4",
+    "pattern": "时间副词",
+    "level": "HSK4",
+    "kind": "overview",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 252,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "时间副词",
+      "content": "按时、从来、赶紧、赶快、已、忽然、将、将要、从、本来"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "按时",
+      "从来",
+      "赶紧",
+      "赶快",
+      "已",
+      "忽然",
+      "将",
+      "将要",
+      "从",
+      "本来"
     ]
   },
   {
-    "id": "g:先...然后...",
-    "pattern": "先...然后...",
+    "id": "g:将",
+    "pattern": "将",
     "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "zuerst ... , dann ...",
-    "formation": "先 + Handlung A + 然后 + Handlung B",
-    "explanation": "Beschreibt eine Abfolge von Handlungen in chronologischer Reihenfolge.",
-    "notes": "Fuer laengere Abfolgen kann man \"首先...接着...然后...最后...\" verwenden.",
-    "relatedPatterns": [
-      "首先...接着...最后..."
-    ],
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 252,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "时间副词",
+      "content": "按时、从来、赶紧、赶快、已、忽然、将、将要、从、本来"
+    },
+    "meaning": "werden (formelles Futur)",
+    "pinyin": "jiāng",
     "examples": [
       {
-        "chinese": "我先吃早饭，然后去上班。",
-        "pinyin": "Wǒ xiān chī zǎofàn, ránhòu qù shàngbān.",
-        "german": "Ich fruehstuecke zuerst und gehe dann zur Arbeit."
+        "chinese": "政府将采取更加严格的措施。",
+        "pinyin": "Zhèngfǔ jiāng cǎiqǔ gèng jiā yángé de cuòshī.",
+        "german": "Die Regierung wird strengere Maßnahmen ergreifen."
       },
       {
-        "chinese": "你先看说明书，然后再操作。",
-        "pinyin": "Nǐ xiān kàn shuōmíngshū, ránhòu zài cāozuò.",
-        "german": "Lies zuerst die Anleitung und bediene es dann."
-      },
-      {
-        "chinese": "我们先讨论，然后做决定。",
-        "pinyin": "Wǒmen xiān tǎolùn, ránhòu zuò juédìng.",
-        "german": "Wir diskutieren zuerst und treffen dann eine Entscheidung."
+        "chinese": "新法规将于明年一月一日起实施。",
+        "pinyin": "Xīn fǎguī jiāng yú míngnián yī yuè yī rì qǐ shíshī.",
+        "german": "Die neue Verordnung wird ab dem 1. Januar nächsten Jahres in Kraft treten."
       }
     ],
     "legacyIds": [
-      "先...然后..."
+      "将"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:频率副词@HSK4",
+    "pattern": "频率副词",
+    "level": "HSK4",
+    "kind": "overview",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 253,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "频率副词",
+      "content": "重新、往往、偶尔、再次、老"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "重新",
+      "往往",
+      "偶尔",
+      "再次",
+      "老"
     ]
   },
   {
-    "id": "g:把",
-    "pattern": "把",
+    "id": "g:往往",
+    "pattern": "往往",
     "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "Ba-Konstruktion (Objekt vor das Verb stellen)",
-    "formation": "Subjekt + 把 + Objekt + Verb + Komplement/Ergebnis",
-    "explanation": "Die Ba-Konstruktion stellt das Objekt vor das Verb und betont, was mit dem Objekt geschieht. Das Verb muss ein Ergebnis oder eine Richtung ausdruecken.",
-    "notes": "Das Objekt nach \"把\" muss bestimmt sein (nicht \"ein Buch\", sondern \"das Buch\"). Das Verb darf nicht alleine stehen - es braucht ein Komplement.",
-    "relatedPatterns": [
-      "被"
-    ],
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 253,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "频率副词",
+      "content": "重新、往往、偶尔、再次、老"
+    },
+    "meaning": "oft / meistens / in der Regel",
+    "pinyin": "wǎngwǎng",
     "examples": [
       {
-        "chinese": "请你把窗户关上。",
-        "pinyin": "Qǐng nǐ bǎ chuānghu guānshang.",
-        "german": "Bitte mach das Fenster zu."
+        "chinese": "成功往往需要耐心。",
+        "pinyin": "Chénggōng wǎngwǎng xūyào nàixīn.",
+        "german": "Erfolg erfordert in der Regel Geduld."
       },
       {
-        "chinese": "他把作业做完了。",
-        "pinyin": "Tā bǎ zuòyè zuò wán le.",
-        "german": "Er hat die Hausaufgaben fertig gemacht."
-      },
-      {
-        "chinese": "我把那本书放在桌子上了。",
-        "pinyin": "Wǒ bǎ nà běn shū fàng zài zhuōzi shàng le.",
-        "german": "Ich habe das Buch auf den Tisch gelegt."
+        "chinese": "他往往很晚才回家。",
+        "pinyin": "Tā wǎngwǎng hěn wǎn cái huí jiā.",
+        "german": "Er kommt meistens erst spät nach Hause."
       }
     ],
     "legacyIds": [
-      "把"
+      "往往"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:方式副词@HSK4",
+    "pattern": "方式副词",
+    "level": "HSK4",
+    "kind": "overview",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 254,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "方式副词",
+      "content": "故意、互相、相互"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "故意",
+      "互相",
+      "相互"
     ]
   },
   {
-    "id": "g:被",
-    "pattern": "被",
+    "id": "g:却",
+    "pattern": "却",
     "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "Passivkonstruktion (von ... ge-verbt werden)",
-    "formation": "Subjekt + 被 + (Agens) + Verb + Komplement",
-    "explanation": "Drueckt das Passiv aus. Der Handelnde kann nach \"被\" stehen, muss aber nicht. Wird oft fuer unangenehme oder unerwuenschte Ereignisse verwendet.",
-    "notes": "Traditionell wurde \"被\" fuer negative Ereignisse verwendet, im modernen Chinesisch aber zunehmend auch neutral.",
-    "relatedPatterns": [
-      "把",
-      "让",
-      "叫"
-    ],
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 255,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "关联副词",
+      "content": "却"
+    },
+    "meaning": "jedoch / aber (unerwarteter Kontrast)",
+    "pinyin": "què",
     "examples": [
       {
-        "chinese": "我的手机被偷了。",
-        "pinyin": "Wǒ de shǒujī bèi tōu le.",
-        "german": "Mein Handy wurde gestohlen."
+        "chinese": "他说了很多，却什么都没做。",
+        "pinyin": "Tā shuō le hěn duō, què shénme dōu méi zuò.",
+        "german": "Er hat viel geredet, aber nichts getan."
       },
       {
-        "chinese": "那个蛋糕被他吃了。",
-        "pinyin": "Nàge dàngāo bèi tā chī le.",
-        "german": "Der Kuchen wurde von ihm gegessen."
-      },
-      {
-        "chinese": "这本书被翻译成了很多语言。",
-        "pinyin": "Zhè běn shū bèi fānyì chéng le hěn duō yǔyán.",
-        "german": "Dieses Buch wurde in viele Sprachen uebersetzt."
+        "chinese": "我想帮他，他却不愿意。",
+        "pinyin": "Wǒ xiǎng bāng tā, tā què bú yuànyì.",
+        "german": "Ich wollte ihm helfen, aber er wollte nicht."
       }
     ],
     "legacyIds": [
-      "被"
-    ]
+      "却"
+    ],
+    "meaningStatus": "draft"
   },
   {
-    "id": "g:不仅...还...",
-    "pattern": "不仅...还...",
+    "id": "g:也许",
+    "pattern": "也许",
     "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "nicht nur ... , sondern auch noch ...",
-    "formation": "不仅 + Aussage A + 还/而且 + Aussage B",
-    "explanation": "Aehnlich wie \"不但...而且...\", aber etwas formeller. Drueckt eine Steigerung oder Ergaenzung aus.",
-    "notes": "\"不仅\" ist etwas formeller als \"不但\" und wird haeufig in der Schriftsprache verwendet.",
-    "relatedPatterns": [
-      "不但...而且..."
-    ],
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 256,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "情态副词",
+      "content": "也许、恐怕"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:恐怕",
+    "pattern": "恐怕",
+    "level": "HSK4",
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 256,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "情态副词",
+      "content": "也许、恐怕"
+    },
+    "meaning": "befürchte, dass / wahrscheinlich (negativ)",
+    "pinyin": "kǒngpà",
+    "formation": "恐怕 + Satz",
+    "explanation": "Drückt eine Befürchtung oder vorsichtige negative Einschätzung aus.",
+    "notes": "恐怕 wird für negative Vorhersagen oder höfliche Absagen verwendet.",
     "examples": [
       {
-        "chinese": "她不仅漂亮，还很聪明。",
-        "pinyin": "Tā bùjǐn piàoliang, hái hěn cōngmíng.",
-        "german": "Sie ist nicht nur huebsch, sondern auch sehr klug."
+        "chinese": "恐怕明天会下雨。",
+        "pinyin": "Kǒngpà míngtiān huì xià yǔ.",
+        "german": "Ich fürchte, morgen wird es regnen."
       },
       {
-        "chinese": "这个软件不仅免费，还非常好用。",
-        "pinyin": "Zhège ruǎnjiàn bùjǐn miǎnfèi, hái fēicháng hǎoyòng.",
-        "german": "Diese Software ist nicht nur kostenlos, sondern auch sehr nuetzlich."
+        "chinese": "恐怕来不及了。",
+        "pinyin": "Kǒngpà lái bù jí le.",
+        "german": "Ich fürchte, es reicht zeitlich nicht mehr."
       },
       {
-        "chinese": "他不仅通过了考试，还得了第一名。",
-        "pinyin": "Tā bùjǐn tōngguò le kǎoshì, hái dé le dì yī míng.",
-        "german": "Er hat nicht nur die Pruefung bestanden, sondern auch den ersten Platz belegt."
+        "chinese": "恐怕明天的会议要取消了。",
+        "pinyin": "Kǒngpà míngtiān de huìyì yào qǔxiāo le.",
+        "german": "Ich fuerchte, die Besprechung morgen wird abgesagt."
+      },
+      {
+        "chinese": "这件事恐怕没那么简单。",
+        "pinyin": "Zhè jiàn shì kǒngpà méi nàme jiǎndān.",
+        "german": "Diese Sache ist wahrscheinlich nicht so einfach."
+      },
+      {
+        "chinese": "今天恐怕要下雨了。",
+        "pinyin": "Jīntiān kǒngpà yào xiàyǔ le.",
+        "german": "Heute wird es wahrscheinlich regnen."
+      },
+      {
+        "chinese": "这个任务恐怕不容易完成。",
+        "pinyin": "Zhège rènwù kǒngpà bù róngyì wánchéng.",
+        "german": "Diese Aufgabe wird wohl nicht leicht zu erledigen sein."
+      },
+      {
+        "chinese": "恐怕我们来不及了。",
+        "pinyin": "Kǒngpà wǒmen láibùjí le.",
+        "german": "Ich fürchte, wir schaffen es nicht mehr rechtzeitig."
       }
     ],
     "legacyIds": [
-      "不仅...还..."
+      "恐怕"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:可能"
     ]
   },
   {
-    "id": "g:就算...也...",
-    "pattern": "就算...也...",
+    "id": "g:语气副词@HSK4",
+    "pattern": "语气副词",
     "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "selbst wenn ... , auch ...",
-    "formation": "就算 + hypothetische Bedingung + 也 + Ergebnis",
-    "explanation": "Umgangssprachliche Variante von \"即使...也...\". Drueckt aus, dass das Ergebnis auch unter extremen Bedingungen unveraendert bleibt.",
-    "notes": "\"就算\" ist muendlicher als \"即使\". \"哪怕\" ist noch umgangssprachlicher und emotionaler.",
-    "relatedPatterns": [
-      "即使...也...",
-      "哪怕...也..."
-    ],
+    "kind": "overview",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 257,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "语气副词",
+      "content": "才⁴、就⁵、并¹、还⁴、竟然、究竟、正好、到底、难道、千万、确实、只好、差（一）点儿"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "才⁴",
+      "就⁵",
+      "并¹",
+      "还⁴",
+      "竟然",
+      "究竟",
+      "正好",
+      "到底",
+      "难道",
+      "千万",
+      "确实",
+      "只好",
+      "差（一）点儿"
+    ]
+  },
+  {
+    "id": "g:并¹",
+    "pattern": "并¹",
+    "level": "HSK4",
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 257,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "语气副词",
+      "content": "才⁴、就⁵、并¹、还⁴、竟然、究竟、正好、到底、难道、千万、确实、只好、差（一）点儿"
+    },
+    "meaning": "überhaupt nicht / keineswegs (Verstärkung)",
+    "pinyin": "bìng + Verneinung",
     "examples": [
       {
-        "chinese": "就算你不来，我也会去。",
-        "pinyin": "Jiùsuàn nǐ bù lái, wǒ yě huì qù.",
-        "german": "Selbst wenn du nicht kommst, werde ich gehen."
+        "chinese": "我并不累。",
+        "pinyin": "Wǒ bìng bù lèi.",
+        "german": "Ich bin überhaupt nicht müde."
       },
       {
-        "chinese": "就算失败了，也不要灰心。",
-        "pinyin": "Jiùsuàn shībài le, yě búyào huīxīn.",
-        "german": "Selbst wenn man scheitert, sollte man nicht den Mut verlieren."
+        "chinese": "事情并没有那么简单。",
+        "pinyin": "Shìqing bìng méiyǒu nàme jiǎndān.",
+        "german": "Die Sache ist keineswegs so einfach."
       },
       {
-        "chinese": "就算再贵，我也要买。",
-        "pinyin": "Jiùsuàn zài guì, wǒ yě yào mǎi.",
-        "german": "Selbst wenn es noch teurer waere, wuerde ich es kaufen."
+        "chinese": "事情并不像你想的那么简单。",
+        "pinyin": "Shìqing bìng bù xiàng nǐ xiǎng de nàme jiǎndān.",
+        "german": "Die Sache ist keineswegs so einfach, wie du denkst."
+      },
+      {
+        "chinese": "我并没有生气，你别误会。",
+        "pinyin": "Wǒ bìng méiyǒu shēngqì, nǐ bié wùhuì.",
+        "german": "Ich bin keineswegs boese, versteh mich nicht falsch."
       }
     ],
     "legacyIds": [
-      "就算...也..."
+      "g:并 + Verneinung",
+      "并 + Verneinung",
+      "g:并不/并没有",
+      "并不/并没有"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:只好",
+    "pattern": "只好",
+    "level": "HSK4",
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 257,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "语气副词",
+      "content": "才⁴、就⁵、并¹、还⁴、竟然、究竟、正好、到底、难道、千万、确实、只好、差（一）点儿"
+    },
+    "meaning": "bleibt nichts anderes übrig als",
+    "pinyin": "zhǐhǎo + Verb",
+    "examples": [
+      {
+        "chinese": "没有出租车，我只好走路去。",
+        "pinyin": "Méi yǒu chūzūchē, wǒ zhǐhǎo zǒulù qù.",
+        "german": "Es gab kein Taxi, also musste ich zu Fuß gehen."
+      },
+      {
+        "chinese": "他不在，我只好明天再来。",
+        "pinyin": "Tā bú zài, wǒ zhǐhǎo míngtiān zài lái.",
+        "german": "Er war nicht da, also muss ich morgen wiederkommen."
+      }
+    ],
+    "legacyIds": [
+      "g:只好 + Verb",
+      "只好 + Verb"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:到底",
+    "pattern": "到底",
+    "level": "HSK4",
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 257,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "语气副词",
+      "content": "才⁴、就⁵、并¹、还⁴、竟然、究竟、正好、到底、难道、千万、确实、只好、差（一）点儿"
+    },
+    "meaning": "nun eigentlich / denn (drängende Frage)",
+    "pinyin": "dàodǐ",
+    "examples": [
+      {
+        "chinese": "你到底想要什么？",
+        "pinyin": "Nǐ dàodǐ xiǎng yào shénme?",
+        "german": "Was willst du denn eigentlich?"
+      },
+      {
+        "chinese": "到底是谁说的？",
+        "pinyin": "Dàodǐ shì shéi shuō de?",
+        "german": "Wer hat das nun eigentlich gesagt?"
+      },
+      {
+        "chinese": "你到底去不去？",
+        "pinyin": "Nǐ dàodǐ qù bu qù?",
+        "german": "Gehst du nun oder nicht?"
+      },
+      {
+        "chinese": "经过三个月的努力，他到底成功了。",
+        "pinyin": "Jīngguò sān ge yuè de nǔlì, tā dàodǐ chénggōng le.",
+        "german": "Nach drei Monaten Anstrengung hat er es schliesslich geschafft."
+      }
+    ],
+    "legacyIds": [
+      "到底"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:竟然",
+    "pattern": "竟然",
+    "level": "HSK4",
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 257,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "语气副词",
+      "content": "才⁴、就⁵、并¹、还⁴、竟然、究竟、正好、到底、难道、千万、确实、只好、差（一）点儿"
+    },
+    "meaning": "unerwartet / zu meinem Erstaunen",
+    "pinyin": "jìngrán",
+    "examples": [
+      {
+        "chinese": "他竟然通过了考试。",
+        "pinyin": "Tā jìngrán tōngguò le kǎoshì.",
+        "german": "Er hat erstaunlicherweise die Prüfung bestanden."
+      },
+      {
+        "chinese": "这么简单的题你竟然不会？",
+        "pinyin": "Zhème jiǎndān de tí nǐ jìngrán bú huì?",
+        "german": "So eine einfache Aufgabe kannst du tatsächlich nicht?"
+      }
+    ],
+    "legacyIds": [
+      "竟然"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:差（一）点儿",
+    "pattern": "差（一）点儿",
+    "level": "HSK4",
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 257,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "语气副词",
+      "content": "才⁴、就⁵、并¹、还⁴、竟然、究竟、正好、到底、难道、千万、确实、只好、差（一）点儿"
+    },
+    "meaning": "beinahe / fast (etwas wäre passiert)",
+    "pinyin": "chàdiǎnr + Verb",
+    "examples": [
+      {
+        "chinese": "我差点儿迟到了。",
+        "pinyin": "Wǒ chàdiǎnr chídào le.",
+        "german": "Ich wäre fast zu spät gekommen."
+      },
+      {
+        "chinese": "他差点儿摔倒。",
+        "pinyin": "Tā chàdiǎnr shuāidǎo.",
+        "german": "Er wäre fast hingefallen."
+      }
+    ],
+    "legacyIds": [
+      "g:差点儿 + Verb",
+      "差点儿 + Verb"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:究竟",
+    "pattern": "究竟",
+    "level": "HSK4",
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 257,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "语气副词",
+      "content": "才⁴、就⁵、并¹、还⁴、竟然、究竟、正好、到底、难道、千万、确实、只好、差（一）点儿"
+    },
+    "meaning": "eigentlich, letztendlich (nachdrueckliche Frage)",
+    "pinyin": "jiūjìng",
+    "examples": [
+      {
+        "chinese": "你究竟想说什么？",
+        "pinyin": "Nǐ jiūjìng xiǎng shuō shénme?",
+        "german": "Was willst du eigentlich sagen?"
+      },
+      {
+        "chinese": "事情究竟是怎么回事？",
+        "pinyin": "Shìqing jiūjìng shì zěnme huí shì?",
+        "german": "Wie verhaelt sich die Sache eigentlich?"
+      }
+    ],
+    "legacyIds": [
+      "究竟"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:引出时间、处所@HSK4",
+    "pattern": "引出时间、处所",
+    "level": "HSK4",
+    "kind": "overview",
+    "category": "Präpositionen",
+    "syllabus": {
+      "no": 258,
+      "category": "词类",
+      "categoryName": "介词",
+      "item": "引出时间、处所",
+      "content": "自、当、由¹、随着、等¹"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "自",
+      "当",
+      "由¹",
+      "随着",
+      "等¹"
     ]
   },
   {
-    "id": "g:难道...吗？",
-    "pattern": "难道...吗？",
+    "id": "g:当",
+    "pattern": "当",
     "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "etwa ...? (rhetorische Frage)",
-    "formation": "难道 + Aussage + 吗？",
-    "explanation": "Leitet eine rhetorische Frage ein, die die gegenteilige Antwort erwartet. Drueckt Erstaunen, Vorwurf oder Betonung aus.",
-    "notes": "Die erwartete Antwort ist immer das Gegenteil der gestellten Frage. \"难道\" macht den rhetorischen Charakter deutlich.",
+    "kind": "word",
+    "category": "Präpositionen",
+    "syllabus": {
+      "no": 258,
+      "category": "词类",
+      "categoryName": "介词",
+      "item": "引出时间、处所",
+      "content": "自、当、由¹、随着、等¹"
+    },
+    "meaning": "zu dem Zeitpunkt, als; in dem Moment, wo (formell)",
+    "pinyin": "dāng…zhī shí",
+    "examples": [
+      {
+        "chinese": "当危机来临之时，团结最为重要。",
+        "pinyin": "Dāng wēijī láilín zhī shí, tuánjié zuì wéi zhòngyào.",
+        "german": "In dem Moment, wo die Krise kommt, ist Zusammenhalt am wichtigsten."
+      },
+      {
+        "chinese": "当他回首往事之时，不禁感慨万千。",
+        "pinyin": "Dāng tā huíshǒu wǎngshì zhī shí, bùjīn gǎnkǎi wànqiān.",
+        "german": "Als er auf die Vergangenheit zurückblickte, war er voller Emotionen."
+      }
+    ],
+    "legacyIds": [
+      "g:当…之时",
+      "当…之时"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:引出施事、受事@HSK4",
+    "pattern": "引出施事、受事",
+    "level": "HSK4",
+    "kind": "overview",
+    "category": "Präpositionen",
+    "syllabus": {
+      "no": 259,
+      "category": "词类",
+      "categoryName": "介词",
+      "item": "引出施事、受事",
+      "content": "将、由²、叫、让"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "将",
+      "由²",
+      "叫",
+      "让"
+    ]
+  },
+  {
+    "id": "g:由于¹",
+    "pattern": "由于¹",
+    "level": "HSK4",
+    "kind": "word",
+    "category": "Präpositionen",
+    "syllabus": {
+      "no": 260,
+      "category": "词类",
+      "categoryName": "介词",
+      "item": "引出原因",
+      "content": "由于¹"
+    },
+    "meaning": "aufgrund von / wegen",
+    "formation": "由于 + Grund, Satz",
+    "explanation": "Formeller Ausdruck für ‹weil/aufgrund›. Eher schriftsprachlich.",
+    "notes": "由于 klingt formeller als 因为.",
+    "examples": [
+      {
+        "chinese": "由于天气不好，航班取消了。",
+        "pinyin": "Yóuyú tiānqì bù hǎo, hángbān qǔxiāo le.",
+        "german": "Aufgrund des schlechten Wetters wurde der Flug gestrichen."
+      },
+      {
+        "chinese": "由于时间有限，我们先讨论第一个问题。",
+        "pinyin": "Yóuyú shíjiān yǒuxiàn, wǒmen xiān tǎolùn dì-yī gè wèntí.",
+        "german": "Da die Zeit begrenzt ist, besprechen wir zuerst das erste Problem."
+      }
+    ],
+    "legacyIds": [
+      "g:由于",
+      "由于"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:因为……，所以……",
+      "g:之所以...是因为..."
+    ]
+  },
+  {
+    "id": "g:对于",
+    "pattern": "对于",
+    "level": "HSK4",
+    "kind": "word",
+    "category": "Präpositionen",
+    "syllabus": {
+      "no": 261,
+      "category": "词类",
+      "categoryName": "介词",
+      "item": "引出对象",
+      "content": "对于、与¹"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:与¹",
+    "pattern": "与¹",
+    "level": "HSK4",
+    "kind": "word",
+    "category": "Präpositionen",
+    "syllabus": {
+      "no": 261,
+      "category": "词类",
+      "categoryName": "介词",
+      "item": "引出对象",
+      "content": "对于、与¹"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:引出凭借、依据@HSK4",
+    "pattern": "引出凭借、依据",
+    "level": "HSK4",
+    "kind": "overview",
+    "category": "Präpositionen",
+    "syllabus": {
+      "no": 262,
+      "category": "词类",
+      "categoryName": "介词",
+      "item": "引出凭借、依据",
+      "content": "作为、按、按照"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "作为",
+      "按",
+      "按照"
+    ]
+  },
+  {
+    "id": "g:按照",
+    "pattern": "按照",
+    "level": "HSK4",
+    "kind": "word",
+    "category": "Präpositionen",
+    "syllabus": {
+      "no": 262,
+      "category": "词类",
+      "categoryName": "介词",
+      "item": "引出凭借、依据",
+      "content": "作为、按、按照"
+    },
+    "meaning": "gemäß / nach / entsprechend",
+    "pinyin": "ànzhào",
+    "examples": [
+      {
+        "chinese": "请按照要求完成。",
+        "pinyin": "Qǐng ànzhào yāoqiú wánchéng.",
+        "german": "Bitte erledige es gemäß den Anforderungen."
+      },
+      {
+        "chinese": "按照计划，我们明天出发。",
+        "pinyin": "Ànzhào jìhuà, wǒmen míngtiān chūfā.",
+        "german": "Laut Plan brechen wir morgen auf."
+      }
+    ],
+    "legacyIds": [
+      "按照"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:连接词或词组@HSK4",
+    "pattern": "连接词或词组",
+    "level": "HSK4",
+    "kind": "overview",
+    "category": "Konjunktionen",
+    "syllabus": {
+      "no": 263,
+      "category": "词类",
+      "categoryName": "连词",
+      "item": "连接词或词组",
+      "content": "并²、而¹、与²"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "并²",
+      "而¹",
+      "与²"
+    ]
+  },
+  {
+    "id": "g:而¹",
+    "pattern": "而¹",
+    "level": "HSK4",
+    "kind": "word",
+    "category": "Konjunktionen",
+    "syllabus": {
+      "no": 263,
+      "category": "词类",
+      "categoryName": "连词",
+      "item": "连接词或词组",
+      "content": "并²、而¹、与²"
+    },
+    "meaning": "und; aber; während (literarischer Konnektor)",
+    "pinyin": "ér",
+    "examples": [
+      {
+        "chinese": "学而时习之。",
+        "pinyin": "Xué ér shí xí zhī.",
+        "german": "Lernen und es regelmäßig wiederholen."
+      },
+      {
+        "chinese": "知其不可而为之。",
+        "pinyin": "Zhī qí bùkě ér wéi zhī.",
+        "german": "Wissen, dass es unmöglich ist, und es trotzdem tun."
+      }
+    ],
+    "legacyIds": [
+      "g:而",
+      "而"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:连接分句或句子@HSK4",
+    "pattern": "连接分句或句子",
+    "level": "HSK4",
+    "kind": "overview",
+    "category": "Konjunktionen",
+    "syllabus": {
+      "no": 264,
+      "category": "词类",
+      "categoryName": "连词",
+      "item": "连接分句或句子",
+      "content": "此外、而²、既然、甚至、不过、并且"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "此外",
+      "而²",
+      "既然",
+      "甚至",
+      "不过",
+      "并且"
+    ]
+  },
+  {
+    "id": "g:此外",
+    "pattern": "此外",
+    "level": "HSK4",
+    "kind": "word",
+    "category": "Konjunktionen",
+    "syllabus": {
+      "no": 264,
+      "category": "词类",
+      "categoryName": "连词",
+      "item": "连接分句或句子",
+      "content": "此外、而²、既然、甚至、不过、并且"
+    },
+    "meaning": "außerdem; darüber hinaus; ferner",
+    "pinyin": "cǐwài",
+    "examples": [
+      {
+        "chinese": "此外，我们还需要更多的资金。",
+        "pinyin": "Cǐwài, wǒmen hái xūyào gèng duō de zījīn.",
+        "german": "Außerdem brauchen wir noch mehr finanzielle Mittel."
+      },
+      {
+        "chinese": "他精通英语，此外还会法语和德语。",
+        "pinyin": "Tā jīngtōng Yīngyǔ, cǐwài hái huì Fǎyǔ hé Déyǔ.",
+        "german": "Er beherrscht Englisch, darüber hinaus kann er auch Französisch und Deutsch."
+      }
+    ],
+    "legacyIds": [
+      "此外"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:连接分句或句子@HSK4（连接分句或句子）",
+    "pattern": "连接分句或句子",
+    "level": "HSK4",
+    "kind": "overview",
+    "category": "Konjunktionen",
+    "syllabus": {
+      "no": 265,
+      "category": "词类",
+      "categoryName": "连词",
+      "item": "连接分句或句子",
+      "content": "不光、不仅、另外、要是、因此、由于²、加上"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "不光",
+      "不仅",
+      "另外",
+      "要是",
+      "因此",
+      "由于²",
+      "加上"
+    ]
+  },
+  {
+    "id": "g:另外",
+    "pattern": "另外",
+    "level": "HSK4",
+    "kind": "word",
+    "category": "Konjunktionen",
+    "syllabus": {
+      "no": 265,
+      "category": "词类",
+      "categoryName": "连词",
+      "item": "连接分句或句子",
+      "content": "不光、不仅、另外、要是、因此、由于²、加上"
+    },
+    "meaning": "außerdem / darüber hinaus / zusätzlich",
+    "pinyin": "lìngwài",
+    "examples": [
+      {
+        "chinese": "我要一杯咖啡，另外还要一块蛋糕。",
+        "pinyin": "Wǒ yào yì bēi kāfēi, lìngwài hái yào yí kuài dàngāo.",
+        "german": "Ich möchte einen Kaffee, außerdem noch ein Stück Kuchen."
+      },
+      {
+        "chinese": "另外，我还有一个问题。",
+        "pinyin": "Lìngwài, wǒ hái yǒu yí ge wèntí.",
+        "german": "Außerdem habe ich noch eine Frage."
+      }
+    ],
+    "legacyIds": [
+      "另外"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:其他助词@HSK4",
+    "pattern": "其他助词",
+    "level": "HSK4",
+    "kind": "overview",
+    "category": "Partikeln",
+    "syllabus": {
+      "no": 266,
+      "category": "词类",
+      "categoryName": "助词",
+      "item": "其他助词",
+      "content": "等²、者、之、就是"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "等²",
+      "者",
+      "之",
+      "就是"
+    ]
+  },
+  {
+    "id": "g:之",
+    "pattern": "之",
+    "level": "HSK4",
+    "kind": "word",
+    "category": "Partikeln",
+    "syllabus": {
+      "no": 266,
+      "category": "词类",
+      "categoryName": "助词",
+      "item": "其他助词",
+      "content": "等²、者、之、就是"
+    },
+    "meaning": "literarisches Äquivalent zu 的",
+    "pinyin": "zhī",
+    "examples": [
+      {
+        "chinese": "成功之路。",
+        "pinyin": "Chénggōng zhī lù.",
+        "german": "Der Weg zum Erfolg."
+      },
+      {
+        "chinese": "三分之一。",
+        "pinyin": "Sān fēn zhī yī.",
+        "german": "Ein Drittel."
+      }
+    ],
+    "legacyIds": [
+      "g:之 (Attributpartikel)",
+      "之 (Attributpartikel)"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:啊",
+    "pattern": "啊",
+    "level": "HSK4",
+    "kind": "word",
+    "category": "Partikeln",
+    "syllabus": {
+      "no": 267,
+      "category": "词类",
+      "categoryName": "叹词",
+      "item": "",
+      "content": "啊、嗯"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:嗯",
+    "pattern": "嗯",
+    "level": "HSK4",
+    "kind": "word",
+    "category": "Partikeln",
+    "syllabus": {
+      "no": 267,
+      "category": "词类",
+      "categoryName": "叹词",
+      "item": "",
+      "content": "啊、嗯"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:数词+形容词+量词",
+    "pattern": "数词+形容词+量词",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Wortgruppen",
+    "syllabus": {
+      "no": 268,
+      "category": "短语",
+      "categoryName": "结构类型",
+      "item": "",
+      "content": "数词+形容词+量词"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:一A一B",
+    "pattern": "一A一B",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 269,
+      "category": "短语",
+      "categoryName": "固定短语",
+      "item": "四字格",
+      "content": "一A一B"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:无A无B",
+    "pattern": "无A无B",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 270,
+      "category": "短语",
+      "categoryName": "固定短语",
+      "item": "四字格",
+      "content": "无A无B"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:有A有B",
+    "pattern": "有A有B",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 271,
+      "category": "短语",
+      "categoryName": "固定短语",
+      "item": "四字格",
+      "content": "有A有B"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:来得及/来不及",
+    "pattern": "来得及/来不及",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 272,
+      "category": "短语",
+      "categoryName": "固定短语",
+      "item": "其他",
+      "content": "来得及/来不及"
+    },
+    "meaning": "nicht mehr rechtzeitig schaffen, zu spaet fuer",
+    "pinyin": "láibují",
+    "examples": [
+      {
+        "chinese": "已经八点了，来不及吃早饭了。",
+        "pinyin": "Yǐjīng bā diǎn le, láibují chī zǎofàn le.",
+        "german": "Es ist schon acht Uhr, es reicht nicht mehr fuer ein Fruehstueck."
+      },
+      {
+        "chinese": "快跑，要不然来不及赶飞机了！",
+        "pinyin": "Kuài pǎo, yàobùrán láibují gǎn fēijī le!",
+        "german": "Lauf schnell, sonst schaffen wir den Flug nicht mehr!"
+      },
+      {
+        "chinese": "别着急，还来得及。",
+        "pinyin": "Bié zhāojí, hái láidejí.",
+        "german": "Keine Sorge, es reicht noch."
+      },
+      {
+        "chinese": "现在出发的话，还来得及赶上火车。",
+        "pinyin": "Xiànzài chūfā dehuà, hái láidejí gǎnshàng huǒchē.",
+        "german": "Wenn wir jetzt losfahren, schaffen wir den Zug noch."
+      }
+    ],
+    "legacyIds": [
+      "g:来不及",
+      "来不及",
+      "g:来得及",
+      "来得及"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:有的是",
+    "pattern": "有的是",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 273,
+      "category": "短语",
+      "categoryName": "固定短语",
+      "item": "其他",
+      "content": "有的是"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:说不定",
+    "pattern": "说不定",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 274,
+      "category": "短语",
+      "categoryName": "固定短语",
+      "item": "其他",
+      "content": "说不定"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:不怎么",
+    "pattern": "不怎么",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 275,
+      "category": "短语",
+      "categoryName": "固定短语",
+      "item": "其他",
+      "content": "不怎么"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:就是说/这就是说",
+    "pattern": "就是说/这就是说",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 276,
+      "category": "短语",
+      "categoryName": "固定短语",
+      "item": "其他",
+      "content": "就是说/这就是说"
+    },
+    "meaning": "das heißt; das bedeutet",
+    "pinyin": "yě jiùshì shuō",
+    "examples": [
+      {
+        "chinese": "他下周出发，也就是说，我们只有五天的准备时间。",
+        "pinyin": "Tā xià zhōu chūfā, yě jiùshì shuō, wǒmen zhǐ yǒu wǔ tiān de zhǔnbèi shíjiān.",
+        "german": "Er reist nächste Woche ab, das heißt, wir haben nur fünf Tage Vorbereitungszeit."
+      },
+      {
+        "chinese": "这是最后一次机会，也就是说，我们不能失败。",
+        "pinyin": "Zhè shì zuìhòu yí cì jīhuì, yě jiùshì shuō, wǒmen bù néng shībài.",
+        "german": "Das ist die letzte Chance, das bedeutet, wir dürfen nicht scheitern."
+      }
+    ],
+    "legacyIds": [
+      "g:也就是说",
+      "也就是说"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:一+量词+比+一+量词",
+    "pattern": "一+量词+比+一+量词",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 277,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "一+量词+比+一+量词"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:在……方面",
+    "pattern": "在……方面",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 278,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "在……方面"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:够……的",
+    "pattern": "够……的",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 279,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "够……的"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:拿……来说",
+    "pattern": "拿……来说",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 280,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "拿……来说"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:再也不/没……",
+    "pattern": "再也不/没……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 281,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "再也不/没……"
+    },
+    "meaning": "nie wieder / nie mehr",
+    "pinyin": "zài yě bù/méi + Verb",
+    "examples": [
+      {
+        "chinese": "我再也不想去了。",
+        "pinyin": "Wǒ zài yě bù xiǎng qù le.",
+        "german": "Ich will nie wieder hingehen."
+      },
+      {
+        "chinese": "他再也没回来。",
+        "pinyin": "Tā zài yě méi huílai.",
+        "german": "Er ist nie wieder zurückgekommen."
+      }
+    ],
+    "legacyIds": [
+      "g:再也不/没 + Verb",
+      "再也不/没 + Verb"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:怎么都/也+不/没……",
+    "pattern": "怎么都/也+不/没……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 282,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "怎么都/也+不/没……"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:为了……而……",
+    "pattern": "为了……而……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 283,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "为了……而……"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:动词+一X是一X",
+    "pattern": "动词+一X是一X",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 284,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "动词+一X是一X"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:（没）有什么（好）X的",
+    "pattern": "（没）有什么（好）X的",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 285,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "（没）有什么（好）X的"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:X是X，Y是Y",
+    "pattern": "X是X，Y是Y",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 286,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "X是X，Y是Y"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:X也得X，不X也得X",
+    "pattern": "X也得X，不X也得X",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 287,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "X也得X，不X也得X"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:X就是了",
+    "pattern": "X就是了",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 288,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "X就是了"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:还X呢",
+    "pattern": "还X呢",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 289,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "还X呢"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:你X你的吧",
+    "pattern": "你X你的吧",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 290,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "你X你的吧"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:让/叫你X你就X",
+    "pattern": "让/叫你X你就X",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 291,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "让/叫你X你就X"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:说什么/怎么（着）也得X",
+    "pattern": "说什么/怎么（着）也得X",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 292,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "说什么/怎么（着）也得X"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:X就X（点儿）吧",
+    "pattern": "X就X（点儿）吧",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 293,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "X就X（点儿）吧"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:X是X",
+    "pattern": "X是X",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 294,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "X是X"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:形容词/心理动词+死了/厉害",
+    "pattern": "形容词/心理动词+死了/厉害",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Komplemente",
+    "syllabus": {
+      "no": 295,
+      "category": "句子成分",
+      "categoryName": "补语",
+      "item": "程度补语2",
+      "content": "形容词/心理动词+死了/厉害"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:动词+得/不+了",
+    "pattern": "动词+得/不+了",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Komplemente",
+    "syllabus": {
+      "no": 296,
+      "category": "句子成分",
+      "categoryName": "补语",
+      "item": "可能补语2",
+      "content": "动词+得/不+了"
+    },
+    "meaning": "können / nicht können (Potentialkomplement)",
+    "formation": "Verb + 得了 / Verb + 不了",
+    "explanation": "了 (liǎo) als Potentialkomplement zeigt an, ob eine Handlung möglich ist.",
+    "notes": "了 wird hier liǎo ausgesprochen, nicht le.",
+    "examples": [
+      {
+        "chinese": "这么多，吃得了吗？",
+        "pinyin": "Zhème duō, chī de liǎo ma?",
+        "german": "So viel, kannst du das aufessen?"
+      },
+      {
+        "chinese": "我走不了了。",
+        "pinyin": "Wǒ zǒu bù liǎo le.",
+        "german": "Ich kann nicht (mehr) gehen."
+      }
+    ],
+    "legacyIds": [
+      "g:Verb + 得了/不了",
+      "Verb + 得了/不了"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:动词+得/不+动词/形容词"
+    ]
+  },
+  {
+    "id": "g:难道……吗？",
+    "pattern": "难道……吗？",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzarten",
+    "syllabus": {
+      "no": 297,
+      "category": "句子的类型",
+      "categoryName": "句类",
+      "item": "反问句2",
+      "content": "难道……吗？"
+    },
+    "meaning": "etwa / soll das heißen (rhetorische Frage)",
+    "pinyin": "nándào…ma",
     "examples": [
       {
         "chinese": "难道你不知道吗？",
         "pinyin": "Nándào nǐ bù zhīdào ma?",
-        "german": "Weisst du das etwa nicht?"
+        "german": "Weißt du das etwa nicht?"
+      },
+      {
+        "chinese": "难道这是真的吗？",
+        "pinyin": "Nándào zhè shì zhēn de ma?",
+        "german": "Soll das etwa wahr sein?"
       },
       {
         "chinese": "难道这是我的错吗？",
@@ -375,114 +1784,232 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
         "chinese": "他那么努力，难道你没看到吗？",
         "pinyin": "Tā nàme nǔlì, nándào nǐ méi kàn dào ma?",
         "german": "Er strengt sich so an, hast du das etwa nicht gesehen?"
+      },
+      {
+        "chinese": "难道我说错了？",
+        "pinyin": "Nándào wǒ shuō cuò le?",
+        "german": "Habe ich etwa etwas Falsches gesagt?"
       }
     ],
     "legacyIds": [
-      "难道...吗？"
-    ]
+      "g:难道…吗",
+      "难道…吗",
+      "g:难道...吗？",
+      "难道...吗？",
+      "g:难道",
+      "难道"
+    ],
+    "meaningStatus": "draft"
   },
   {
-    "id": "g:何况",
-    "pattern": "何况",
+    "id": "g:反问句2：由疑问代词构成的反问句",
+    "pattern": "反问句2：由疑问代词构成的反问句",
     "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "geschweige denn; ganz zu schweigen von",
-    "formation": "Aussage A，何况 + Aussage B (stärkerer Fall)",
-    "explanation": "Wird verwendet, um einen stärkeren Punkt hervorzuheben. Wenn A schon der Fall ist, dann gilt B erst recht. Oft zusammen mit \"连...都...\" oder \"尚且\" verwendet.",
-    "notes": "何况 leitet immer den stärkeren bzw. offensichtlicheren Fall ein. Die Logik ist: Wenn schon A schwierig ist, dann ist B erst recht schwierig.",
-    "relatedPatterns": [
-      "连...都/也...",
-      "尚且"
-    ],
-    "pinyin": "hékuàng",
+    "kind": "pattern",
+    "category": "Satzarten",
+    "syllabus": {
+      "no": 298,
+      "category": "句子的类型",
+      "categoryName": "句类",
+      "item": "反问句2",
+      "content": "由疑问代词构成的反问句"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:主语+把+宾语+动词（+一/了）+动词",
+    "pattern": "主语+把+宾语+动词（+一/了）+动词",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 299,
+      "category": "句子的类型",
+      "categoryName": "特殊句型",
+      "item": "“把”字句2",
+      "content": "（1）主语+把+宾语+动词（+一/了）+动词"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:主语+把+宾语+动词+了",
+    "pattern": "主语+把+宾语+动词+了",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 300,
+      "category": "句子的类型",
+      "categoryName": "特殊句型",
+      "item": "“把”字句2",
+      "content": "（2）主语+把+宾语+动词+了"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:主语+把+宾语+动词+动量补语/时量补语",
+    "pattern": "主语+把+宾语+动词+动量补语/时量补语",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 301,
+      "category": "句子的类型",
+      "categoryName": "特殊句型",
+      "item": "“把”字句2",
+      "content": "（3）主语+把+宾语+动词+动量补语/时量补语"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:主语+把+宾语+状语+动词",
+    "pattern": "主语+把+宾语+状语+动词",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 302,
+      "category": "句子的类型",
+      "categoryName": "特殊句型",
+      "item": "“把”字句2",
+      "content": "（4）主语+把+宾语+状语+动词"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:主语+叫/让+宾语+动词+其他成分",
+    "pattern": "主语+叫/让+宾语+动词+其他成分",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 303,
+      "category": "句子的类型",
+      "categoryName": "特殊句型",
+      "item": "被动句2",
+      "content": "主语+叫/让+宾语+动词+其他成分"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:表爱憎义：主语+表扬/批评+宾语1+动词+宾语2",
+    "pattern": "表爱憎义：主语+表扬/批评+宾语1+动词+宾语2",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 304,
+      "category": "句子的类型",
+      "categoryName": "特殊句型",
+      "item": "兼语句2",
+      "content": "（1）表爱憎义：主语+表扬/批评+宾语1+动词+宾语2"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:表称谓或认定义：主语+收/选+宾语1+做/当/为+宾语2",
+    "pattern": "表称谓或认定义：主语+收/选+宾语1+做/当/为+宾语2",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 305,
+      "category": "句子的类型",
+      "categoryName": "特殊句型",
+      "item": "兼语句2",
+      "content": "（2）表称谓或认定义：主语+收/选+宾语1+做/当/为+宾语2"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:表致使：主语+使/让+人称代词+动词短语",
+    "pattern": "表致使：主语+使/让+人称代词+动词短语",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 306,
+      "category": "句子的类型",
+      "categoryName": "特殊句型",
+      "item": "兼语句2",
+      "content": "（3）表致使：主语+使/让+人称代词+动词短语"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:A不如B（+形容词）",
+    "pattern": "A不如B（+形容词）",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 307,
+      "category": "句子的类型",
+      "categoryName": "特殊句型",
+      "item": "比较句3",
+      "content": "（1）A不如B（+形容词）"
+    },
+    "meaning": "nicht so gut wie / lieber (Vorschlag)",
+    "pinyin": "bùrú",
     "examples": [
       {
-        "chinese": "这道题连老师都不会做，何况学生呢？",
-        "pinyin": "Zhè dào tí lián lǎoshī dōu bú huì zuò, hékuàng xuéshēng ne?",
-        "german": "Nicht einmal der Lehrer kann diese Aufgabe lösen, geschweige denn die Schüler."
+        "chinese": "坐公交车不如坐地铁快。",
+        "pinyin": "Zuò gōngjiāochē bùrú zuò dìtiě kuài.",
+        "german": "Der Bus ist nicht so schnell wie die U-Bahn."
       },
       {
-        "chinese": "大人都受不了这种天气，何况小孩子？",
-        "pinyin": "Dàrén dōu shòu bù liǎo zhè zhǒng tiānqì, hékuàng xiǎo háizi?",
-        "german": "Selbst Erwachsene halten dieses Wetter nicht aus, geschweige denn Kinder."
-      },
-      {
-        "chinese": "我连中文都说不好，何况日语呢？",
-        "pinyin": "Wǒ lián Zhōngwén dōu shuō bù hǎo, hékuàng Rìyǔ ne?",
-        "german": "Ich spreche nicht einmal gut Chinesisch, geschweige denn Japanisch."
-      },
-      {
-        "chinese": "大人都做不到，何况小孩子。",
-        "pinyin": "Dàrén dōu zuò bu dào, hékuàng xiǎo háizi.",
-        "german": "Nicht einmal Erwachsene schaffen das, geschweige denn Kinder."
-      },
-      {
-        "chinese": "我连一千块都没有，何况一万块。",
-        "pinyin": "Wǒ lián yì qiān kuài dōu méiyǒu, hékuàng yí wàn kuài.",
-        "german": "Ich habe nicht einmal tausend Yuan, geschweige denn zehntausend."
+        "chinese": "在家做饭不如出去吃。",
+        "pinyin": "Zài jiā zuòfàn bùrú chūqù chī.",
+        "german": "Zu Hause kochen ist nicht so gut wie auswärts essen."
       }
     ],
     "legacyIds": [
-      "何况"
-    ]
+      "g:不如",
+      "不如"
+    ],
+    "meaningStatus": "draft"
   },
   {
-    "id": "g:难免",
-    "pattern": "难免",
+    "id": "g:跟……相比",
+    "pattern": "跟……相比",
     "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "unvermeidlich; es lässt sich kaum vermeiden, dass",
-    "formation": "难免 + (会/要) + Verb/Adjektiv",
-    "explanation": "Drückt aus, dass etwas unter den gegebenen Umständen unvermeidlich ist. Wird oft für negative oder unerwünschte Situationen verwendet.",
-    "notes": "难免 betont, dass etwas natürlich und verständlich ist. Es hat oft einen entschuldigenden oder verständnisvollen Ton.",
-    "relatedPatterns": [
-      "未免",
-      "不免",
-      "免不了"
-    ],
-    "pinyin": "nánmiǎn",
-    "examples": [
-      {
-        "chinese": "刚到一个新环境，难免会不习惯。",
-        "pinyin": "Gāng dào yí gè xīn huánjìng, nánmiǎn huì bù xíguàn.",
-        "german": "Wenn man gerade in eine neue Umgebung kommt, ist es unvermeidlich, dass man sich nicht daran gewöhnt."
-      },
-      {
-        "chinese": "第一次做这种工作，难免会犯错误。",
-        "pinyin": "Dì yī cì zuò zhè zhǒng gōngzuò, nánmiǎn huì fàn cuòwù.",
-        "german": "Wenn man diese Arbeit zum ersten Mal macht, lassen sich Fehler kaum vermeiden."
-      },
-      {
-        "chinese": "刚开始学，难免会犯错。",
-        "pinyin": "Gāng kāishǐ xué, nánmiǎn huì fàn cuò.",
-        "german": "Wenn man gerade anfaengt zu lernen, sind Fehler unvermeidlich."
-      },
-      {
-        "chinese": "一个人在国外生活，难免会想家。",
-        "pinyin": "Yí ge rén zài guówài shēnghuó, nánmiǎn huì xiǎng jiā.",
-        "german": "Wenn man allein im Ausland lebt, bekommt man unvermeidlich Heimweh."
-      }
-    ],
-    "legacyIds": [
-      "难免"
-    ]
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 308,
+      "category": "句子的类型",
+      "categoryName": "特殊句型",
+      "item": "比较句3",
+      "content": "（2）跟……相比"
+    },
+    "meaningStatus": "draft"
   },
   {
-    "id": "g:不得不",
-    "pattern": "不得不",
+    "id": "g:双重否定句：用双重否定表示强调",
+    "pattern": "双重否定句：用双重否定表示强调",
     "level": "HSK4",
-    "category": "Verben",
-    "meaning": "nicht umhinkönnen; gezwungen sein zu; müssen",
-    "formation": "Subjekt + 不得不 + Verb",
-    "explanation": "Doppelte Verneinung, die eine starke Notwendigkeit ausdrückt. Man hat keine andere Wahl und ist gezwungen, etwas zu tun.",
-    "notes": "不得不 betont stärker als 必须, dass man keine Wahl hat. Es impliziert Widerwillen oder äusseren Zwang.",
-    "relatedPatterns": [
-      "只好",
-      "只得",
-      "不能不"
-    ],
-    "pinyin": "bùdébù",
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 309,
+      "category": "句子的类型",
+      "categoryName": "特殊句型",
+      "item": "双重否定句",
+      "content": "用双重否定表示强调"
+    },
+    "meaning": "nicht umhinkönnen / gezwungen sein",
+    "pinyin": "bùdébù + Verb",
     "examples": [
+      {
+        "chinese": "我不得不承认他是对的。",
+        "pinyin": "Wǒ bùdébù chéngrèn tā shì duì de.",
+        "german": "Ich muss zugeben, dass er recht hat."
+      },
+      {
+        "chinese": "因为下雨，我们不得不取消了。",
+        "pinyin": "Yīnwèi xià yǔ, wǒmen bùdébù qǔxiāo le.",
+        "german": "Wegen des Regens mussten wir absagen."
+      },
       {
         "chinese": "因为堵车，我不得不走路去上班。",
         "pinyin": "Yīnwèi dǔchē, wǒ bùdébù zǒulù qù shàngbān.",
@@ -502,26 +2029,665 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
         "chinese": "他不得不承认自己错了。",
         "pinyin": "Tā bùdébù chéngrèn zìjǐ cuò le.",
         "german": "Er musste zugeben, dass er sich geirrt hatte."
+      },
+      {
+        "chinese": "这件事非做不可。",
+        "pinyin": "Zhè jiàn shì fēi zuò bùkě.",
+        "german": "Diese Sache muss unbedingt erledigt werden."
+      },
+      {
+        "chinese": "今天非把作业写完不可。",
+        "pinyin": "Jīntiān fēi bǎ zuòyè xiě wán bùkě.",
+        "german": "Heute müssen die Hausaufgaben unbedingt fertig geschrieben werden."
+      },
+      {
+        "chinese": "这件事非解决不可。",
+        "pinyin": "Zhè jiàn shì fēi jiějué bùkě.",
+        "german": "Diese Angelegenheit muss unbedingt gelöst werden."
+      },
+      {
+        "chinese": "他非要亲自去不可。",
+        "pinyin": "Tā fēi yào qīnzì qù bùkě.",
+        "german": "Er besteht unbedingt darauf, persönlich hinzugehen."
+      },
+      {
+        "chinese": "在场的人无不被他的演讲所感动。",
+        "pinyin": "Zàichǎng de rén wúbù bèi tā de yǎnjiǎng suǒ gǎndòng.",
+        "german": "Alle Anwesenden waren ausnahmslos von seiner Rede bewegt."
+      },
+      {
+        "chinese": "凡是见过他的人，无不对他赞不绝口。",
+        "pinyin": "Fánshì jiàn guò tā de rén, wúbù duì tā zàn bù juékǒu.",
+        "german": "Jeder, der ihn kennengelernt hat, lobt ihn ausnahmslos über den grünen Klee."
+      },
+      {
+        "chinese": "他的担心不无道理。",
+        "pinyin": "Tā de dānxīn bù wú dàolǐ.",
+        "german": "Seine Sorge hat durchaus ihre Berechtigung."
+      },
+      {
+        "chinese": "这种说法不无道理。",
+        "pinyin": "Zhè zhǒng shuōfǎ bù wú dàolǐ.",
+        "german": "Diese Aussage ist nicht ohne Grund."
       }
     ],
     "legacyIds": [
-      "不得不"
+      "g:不得不 + Verb",
+      "不得不 + Verb",
+      "g:不得不",
+      "不得不",
+      "g:非…不可",
+      "非…不可",
+      "g:非...不可",
+      "非...不可",
+      "g:无不",
+      "无不",
+      "g:…不无道理",
+      "…不无道理"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:不是……，而是……",
+    "pattern": "不是……，而是……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 310,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "并列复句",
+      "content": "不是……，而是……"
+    },
+    "meaning": "nicht ... sondern ...",
+    "formation": "不是 + A, 而是 + B",
+    "explanation": "Korrigiert eine Annahme: Es ist nicht A, sondern B.",
+    "notes": "而是 korrigiert, 而且 ergänzt.",
+    "examples": [
+      {
+        "chinese": "不是我不想去，而是没时间。",
+        "pinyin": "Bú shì wǒ bù xiǎng qù, ér shì méi shíjiān.",
+        "german": "Es ist nicht so, dass ich nicht gehen will, sondern ich habe keine Zeit."
+      },
+      {
+        "chinese": "不是他做的，而是我做的。",
+        "pinyin": "Bú shì tā zuò de, ér shì wǒ zuò de.",
+        "german": "Nicht er hat es gemacht, sondern ich."
+      },
+      {
+        "chinese": "我不是不想去，而是没有时间。",
+        "pinyin": "Wǒ búshì bù xiǎng qù, érshì méiyǒu shíjiān.",
+        "german": "Es ist nicht so, dass ich nicht gehen will, sondern ich habe keine Zeit."
+      },
+      {
+        "chinese": "他不是德国人，而是奥地利人。",
+        "pinyin": "Tā búshì Déguó rén, érshì Àodìlì rén.",
+        "german": "Er ist kein Deutscher, sondern Oesterreicher."
+      },
+      {
+        "chinese": "问题不是太难，而是时间太少。",
+        "pinyin": "Wèntí búshì tài nán, érshì shíjiān tài shǎo.",
+        "german": "Das Problem ist nicht, dass es zu schwer ist, sondern dass die Zeit zu knapp ist."
+      },
+      {
+        "chinese": "这不是能不能的问题，而是愿不愿意的问题。",
+        "pinyin": "Zhè bú shì néng bù néng de wèntí, ér shì yuàn bú yuànyì de wèntí.",
+        "german": "Es geht nicht darum, ob man kann, sondern ob man will."
+      },
+      {
+        "chinese": "不是钱的问题，而是原则的问题。",
+        "pinyin": "Bú shì qián de wèntí, ér shì yuánzé de wèntí.",
+        "german": "Es geht nicht ums Geld, sondern ums Prinzip."
+      },
+      {
+        "chinese": "成功不在于聪明，而在于勤奋。",
+        "pinyin": "Chénggōng bú zàiyú cōngmíng, ér zàiyú qínfèn.",
+        "german": "Erfolg liegt nicht an der Intelligenz, sondern am Fleiß."
+      },
+      {
+        "chinese": "关键不在于做多少，而在于做得好不好。",
+        "pinyin": "Guānjiàn bú zàiyú zuò duōshǎo, ér zàiyú zuò de hǎo bù hǎo.",
+        "german": "Es kommt nicht darauf an, wie viel man tut, sondern ob man es gut macht."
+      }
+    ],
+    "legacyIds": [
+      "g:不是...而是...",
+      "不是...而是...",
+      "g:不是…而是…的问题",
+      "不是…而是…的问题",
+      "g:不在于…而在于…",
+      "不在于…而在于…"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:不但……，而且……"
     ]
   },
   {
-    "id": "g:否则",
-    "pattern": "否则",
+    "id": "g:既……，又/也……",
+    "pattern": "既……，又/也……",
     "level": "HSK4",
-    "category": "Satzstrukturen",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 311,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "并列复句",
+      "content": "既……，又/也……"
+    },
+    "meaning": "sowohl… als auch… (zwei Eigenschaften)",
+    "pinyin": "jì…yòu…",
+    "examples": [
+      {
+        "chinese": "这个菜既好吃又便宜。",
+        "pinyin": "Zhège cài jì hǎochī yòu piányi.",
+        "german": "Dieses Gericht ist sowohl lecker als auch günstig."
+      },
+      {
+        "chinese": "她既聪明又漂亮。",
+        "pinyin": "Tā jì cōngming yòu piàoliang.",
+        "german": "Sie ist sowohl klug als auch hübsch."
+      },
+      {
+        "chinese": "这个房子既大又便宜。",
+        "pinyin": "Zhège fángzi jì dà yòu piányi.",
+        "german": "Dieses Haus ist sowohl gross als auch guenstig."
+      },
+      {
+        "chinese": "她既聪明又努力。",
+        "pinyin": "Tā jì cōngmíng yòu nǔlì.",
+        "german": "Sie ist sowohl klug als auch fleissig."
+      },
+      {
+        "chinese": "这道菜既好吃又好看。",
+        "pinyin": "Zhè dào cài jì hǎochī yòu hǎokàn.",
+        "german": "Dieses Gericht ist sowohl lecker als auch huebsch anzusehen."
+      },
+      {
+        "chinese": "他既不喝酒，也不抽烟。",
+        "pinyin": "Tā jì bù hē jiǔ, yě bù chōu yān.",
+        "german": "Er trinkt weder Alkohol noch raucht er."
+      },
+      {
+        "chinese": "这个方案既省钱，也省时间。",
+        "pinyin": "Zhège fāngàn jì shěng qián, yě shěng shíjiān.",
+        "german": "Dieser Plan spart sowohl Geld als auch Zeit."
+      },
+      {
+        "chinese": "他既不喝酒也不抽烟。",
+        "pinyin": "Tā jì bù hē jiǔ yě bù chōuyān.",
+        "german": "Er trinkt weder Alkohol noch raucht er."
+      },
+      {
+        "chinese": "这件事既不紧急也不重要。",
+        "pinyin": "Zhè jiàn shì jì bù jǐnjí yě bù zhòngyào.",
+        "german": "Diese Angelegenheit ist weder dringend noch wichtig."
+      }
+    ],
+    "legacyIds": [
+      "g:既…又…",
+      "既…又…",
+      "g:既...又...",
+      "既...又...",
+      "g:既…也…",
+      "既…也…",
+      "g:既不…也不…",
+      "既不…也不…"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:又……，又……",
+      "g:不但……，而且……"
+    ]
+  },
+  {
+    "id": "g:一方面……，另一方面……",
+    "pattern": "一方面……，另一方面……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 312,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "并列复句",
+      "content": "一方面……，另一方面……"
+    },
+    "meaning": "einerseits ... andererseits ...",
+    "formation": "一方面 + Aspekt₁, 另一方面 + Aspekt₂",
+    "explanation": "Stellt zwei verschiedene Aspekte oder Perspektiven gegenüber.",
+    "notes": "Weniger kontrastiv als 虽然...但是..., eher eine Abwägung.",
+    "examples": [
+      {
+        "chinese": "一方面我想去，另一方面我没有时间。",
+        "pinyin": "Yì fāngmiàn wǒ xiǎng qù, lìng yì fāngmiàn wǒ méi yǒu shíjiān.",
+        "german": "Einerseits will ich gehen, andererseits habe ich keine Zeit."
+      },
+      {
+        "chinese": "一方面要学习，另一方面要工作。",
+        "pinyin": "Yì fāngmiàn yào xuéxí, lìng yì fāngmiàn yào gōngzuò.",
+        "german": "Einerseits muss man lernen, andererseits muss man arbeiten."
+      },
+      {
+        "chinese": "一方面我想去旅行，另一方面我又没有钱。",
+        "pinyin": "Yì fāngmiàn wǒ xiǎng qù lǚxíng, lìng yì fāngmiàn wǒ yòu méiyǒu qián.",
+        "german": "Einerseits moechte ich verreisen, andererseits habe ich kein Geld."
+      },
+      {
+        "chinese": "一方面要注意质量，另一方面也要考虑成本。",
+        "pinyin": "Yì fāngmiàn yào zhùyì zhìliàng, lìng yì fāngmiàn yě yào kǎolǜ chéngběn.",
+        "german": "Einerseits muss man auf die Qualitaet achten, andererseits auch die Kosten beruecksichtigen."
+      },
+      {
+        "chinese": "一方面要节约成本，同时也要保证质量。",
+        "pinyin": "Yì fāngmiàn yào jiéyuē chéngběn, tóngshí yě yào bǎozhèng zhìliàng.",
+        "german": "Einerseits müssen die Kosten gespart werden, gleichzeitig muss auch die Qualität gesichert werden."
+      },
+      {
+        "chinese": "一方面经济在发展，同时环境也在恶化。",
+        "pinyin": "Yì fāngmiàn jīngjì zài fāzhǎn, tóngshí huánjìng yě zài èhuà.",
+        "german": "Einerseits entwickelt sich die Wirtschaft, gleichzeitig verschlechtert sich auch die Umwelt."
+      }
+    ],
+    "legacyIds": [
+      "g:一方面...另一方面...",
+      "一方面...另一方面...",
+      "g:一方面…另一方面…",
+      "一方面…另一方面…",
+      "g:一方面…同时…",
+      "一方面…同时…"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:虽然……，但是……"
+    ]
+  },
+  {
+    "id": "g:首先……，其次……",
+    "pattern": "首先……，其次……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 313,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "承接复句",
+      "content": "首先……，其次……"
+    },
+    "meaning": "erstens … zweitens … schließlich … (Aufzählung)",
+    "pinyin": "shǒuxiān…qícì…zuìhòu…",
+    "examples": [
+      {
+        "chinese": "首先要了解问题，其次要分析原因，最后才能找到解决方案。",
+        "pinyin": "Shǒuxiān yào liǎojiě wèntí, qícì yào fēnxī yuányīn, zuìhòu cái néng zhǎodào jiějué fāngàn.",
+        "german": "Erstens muss man das Problem verstehen, zweitens die Ursachen analysieren, und schließlich kann man eine Lösung finden."
+      },
+      {
+        "chinese": "首先感谢大家的到来，其次介绍一下议程，最后进入正题。",
+        "pinyin": "Shǒuxiān gǎnxiè dàjiā de dàolái, qícì jièshào yíxià yìchéng, zuìhòu jìnrù zhèngtí.",
+        "german": "Zunächst danke ich allen fürs Kommen, dann stelle ich die Tagesordnung vor, und zum Schluss kommen wir zum eigentlichen Thema."
+      }
+    ],
+    "legacyIds": [
+      "g:首先…其次…最后…",
+      "首先…其次…最后…"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:首先……，然后……",
+    "pattern": "首先……，然后……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 314,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "承接复句",
+      "content": "首先……，然后……"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:……，于是……",
+    "pattern": "……，于是……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 315,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "承接复句",
+      "content": "……，于是……"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:……,甚至……",
+    "pattern": "……,甚至……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 316,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "递进复句",
+      "content": "……,甚至……"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:不仅/不光……，还/而且……",
+    "pattern": "不仅/不光……，还/而且……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 317,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "递进复句",
+      "content": "不仅/不光……，还/而且……"
+    },
+    "meaning": "nicht nur ... sondern auch ...",
+    "formation": "不仅 + Satz₁, 还/而且 + Satz₂",
+    "explanation": "Ähnlich wie 不但...而且..., aber etwas formeller.",
+    "notes": "不仅 ist etwas formeller als 不但.",
+    "examples": [
+      {
+        "chinese": "他不仅聪明，还很努力。",
+        "pinyin": "Tā bùjǐn cōngming, hái hěn nǔlì.",
+        "german": "Er ist nicht nur klug, sondern auch sehr fleißig."
+      },
+      {
+        "chinese": "这不仅是我的问题，而且是大家的问题。",
+        "pinyin": "Zhè bùjǐn shì wǒ de wèntí, érqiě shì dàjiā de wèntí.",
+        "german": "Das ist nicht nur mein Problem, sondern das Problem aller."
+      },
+      {
+        "chinese": "她不仅漂亮，还很聪明。",
+        "pinyin": "Tā bùjǐn piàoliang, hái hěn cōngmíng.",
+        "german": "Sie ist nicht nur huebsch, sondern auch sehr klug."
+      },
+      {
+        "chinese": "这个软件不仅免费，还非常好用。",
+        "pinyin": "Zhège ruǎnjiàn bùjǐn miǎnfèi, hái fēicháng hǎoyòng.",
+        "german": "Diese Software ist nicht nur kostenlos, sondern auch sehr nuetzlich."
+      },
+      {
+        "chinese": "他不仅通过了考试，还得了第一名。",
+        "pinyin": "Tā bùjǐn tōngguò le kǎoshì, hái dé le dì yī míng.",
+        "german": "Er hat nicht nur die Pruefung bestanden, sondern auch den ersten Platz belegt."
+      }
+    ],
+    "legacyIds": [
+      "g:不仅...还/而且...",
+      "不仅...还/而且...",
+      "g:不仅...还...",
+      "不仅...还..."
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:不但……，而且……"
+    ]
+  },
+  {
+    "id": "g:……，并且……",
+    "pattern": "……，并且……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 318,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "递进复句",
+      "content": "……，并且……"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:连……也/都……，……更……",
+    "pattern": "连……也/都……，……更……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 319,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "递进复句",
+      "content": "连……也/都……，……更……"
+    },
+    "meaning": "sogar ... auch/noch ...",
+    "formation": "连 + extremes Beispiel + 都/也 + Verb",
+    "explanation": "Betont ein Extrem: ‹Sogar X ...› um die Stärke einer Aussage zu unterstreichen.",
+    "notes": "Das Beispiel nach 连 sollte extrem/unerwartet sein.",
+    "examples": [
+      {
+        "chinese": "他连自己的名字都不会写。",
+        "pinyin": "Tā lián zìjǐ de míngzì dōu bú huì xiě.",
+        "german": "Er kann nicht einmal seinen eigenen Namen schreiben."
+      },
+      {
+        "chinese": "连小孩子也知道。",
+        "pinyin": "Lián xiǎo háizi yě zhīdào.",
+        "german": "Sogar Kinder wissen das."
+      },
+      {
+        "chinese": "我连一口水都没喝。",
+        "pinyin": "Wǒ lián yì kǒu shuǐ dōu méi hē.",
+        "german": "Ich habe nicht einmal einen Schluck Wasser getrunken."
+      },
+      {
+        "chinese": "这件事连小孩子也知道。",
+        "pinyin": "Zhè jiàn shì lián xiǎo háizi yě zhīdào.",
+        "german": "Das wissen sogar kleine Kinder."
+      }
+    ],
+    "legacyIds": [
+      "g:连...都/也...",
+      "连...都/也..."
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:都¹",
+      "g:也"
+    ]
+  },
+  {
+    "id": "g:不是……，就是……",
+    "pattern": "不是……，就是……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 320,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "选择复句",
+      "content": "不是……，就是……"
+    },
+    "meaning": "wenn nicht…dann… / entweder…oder…",
+    "pinyin": "bú shì…jiù shì…",
+    "examples": [
+      {
+        "chinese": "他不是在看书，就是在睡觉。",
+        "pinyin": "Tā bú shì zài kàn shū, jiù shì zài shuìjiào.",
+        "german": "Er liest entweder oder er schläft."
+      },
+      {
+        "chinese": "周末不是下雨，就是太热。",
+        "pinyin": "Zhōumò bú shì xià yǔ, jiù shì tài rè.",
+        "german": "Am Wochenende regnet es entweder oder es ist zu heiß."
+      }
+    ],
+    "legacyIds": [
+      "g:不是…就是…",
+      "不是…就是…"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:尽管……，但是/可是……",
+    "pattern": "尽管……，但是/可是……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 321,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "转折复句",
+      "content": "尽管……，但是/可是……"
+    },
+    "meaning": "obwohl / trotzdem ... dennoch ...",
+    "formation": "尽管 + Umstand, 还是 + Ergebnis",
+    "explanation": "Stärkerer Konzessivsatz als 虽然: Trotz eines Umstands bleibt das Ergebnis.",
+    "notes": "尽管 betont die Tatsächlichkeit des Umstands stärker als 虽然.",
+    "examples": [
+      {
+        "chinese": "尽管很累，他还是坚持工作。",
+        "pinyin": "Jǐnguǎn hěn lèi, tā háishi jiānchí gōngzuò.",
+        "german": "Obwohl er sehr müde ist, arbeitet er dennoch weiter."
+      },
+      {
+        "chinese": "尽管下雨，我们还是出去了。",
+        "pinyin": "Jǐnguǎn xià yǔ, wǒmen háishi chūqù le.",
+        "german": "Obwohl es regnete, sind wir trotzdem rausgegangen."
+      },
+      {
+        "chinese": "尽管下雨了，比赛还是照常进行。",
+        "pinyin": "Jǐnguǎn xià yǔ le, bǐsài háishi zhàocháng jìnxíng.",
+        "german": "Obwohl es regnete, fand das Spiel dennoch wie geplant statt."
+      },
+      {
+        "chinese": "尽管他反对，我们还是决定去旅行。",
+        "pinyin": "Jǐnguǎn tā fǎnduì, wǒmen háishi juédìng qù lǚxíng.",
+        "german": "Obwohl er dagegen war, haben wir uns dennoch fuer die Reise entschieden."
+      },
+      {
+        "chinese": "尽管很辛苦，但他从不抱怨。",
+        "pinyin": "Jǐnguǎn hěn xīnkǔ, dàn tā cóng bù bàoyuàn.",
+        "german": "Obwohl es anstrengend ist, beschwert er sich nie."
+      },
+      {
+        "chinese": "尽管条件不好，但大家很努力。",
+        "pinyin": "Jǐnguǎn tiáojiàn bù hǎo, dàn dàjiā hěn nǔlì.",
+        "german": "Obwohl die Bedingungen schlecht sind, geben alle ihr Bestes."
+      },
+      {
+        "chinese": "尽管天气很冷，他还是坚持跑步。",
+        "pinyin": "Jǐnguǎn tiānqì hěn lěng, tā háishi jiānchí pǎobù.",
+        "german": "Obwohl das Wetter sehr kalt ist, besteht er darauf, joggen zu gehen."
+      },
+      {
+        "chinese": "尽管工作很忙，她每天都会陪孩子。",
+        "pinyin": "Jǐnguǎn gōngzuò hěn máng, tā měitiān dōu huì péi háizi.",
+        "german": "Obwohl sie bei der Arbeit sehr beschäftigt ist, verbringt sie jeden Tag Zeit mit ihrem Kind."
+      }
+    ],
+    "legacyIds": [
+      "g:尽管...还是...",
+      "尽管...还是...",
+      "g:尽管…但…",
+      "尽管…但…",
+      "g:尽管",
+      "尽管"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:虽然……，但是……",
+      "g:即使……，也……"
+    ]
+  },
+  {
+    "id": "g:……，然而……",
+    "pattern": "……，然而……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 322,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "转折复句",
+      "content": "……，然而……"
+    },
+    "meaning": "jedoch; allerdings; dennoch",
+    "pinyin": "ránér",
+    "examples": [
+      {
+        "chinese": "他很努力，然而结果并不理想。",
+        "pinyin": "Tā hěn nǔlì, ránér jiéguǒ bìng bù lǐxiǎng.",
+        "german": "Er war sehr fleißig, jedoch war das Ergebnis nicht ideal."
+      },
+      {
+        "chinese": "大家都反对，然而他还是坚持了自己的决定。",
+        "pinyin": "Dàjiā dōu fǎnduì, ránér tā háishi jiānchí le zìjǐ de juédìng.",
+        "german": "Alle waren dagegen, dennoch hielt er an seiner Entscheidung fest."
+      }
+    ],
+    "legacyIds": [
+      "g:然而",
+      "然而"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:……，不过……",
+    "pattern": "……，不过……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 323,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "转折复句",
+      "content": "……，不过……"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:……X是X，就是/不过……",
+    "pattern": "……X是X，就是/不过……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 324,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "转折复句",
+      "content": "……X是X，就是/不过……"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:……，否则……",
+    "pattern": "……，否则……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 325,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "假设复句",
+      "content": "……，否则……"
+    },
     "meaning": "andernfalls; sonst; wenn nicht",
+    "pinyin": "fǒuzé",
     "formation": "Bedingung/Aufforderung，否则 + negative Konsequenz",
     "explanation": "Leitet die negative Konsequenz ein, die eintritt, wenn die vorherige Bedingung nicht erfüllt oder die Aufforderung nicht befolgt wird.",
     "notes": "否则 ist formeller als 要不然 oder 不然, wird häufig in der Schriftsprache und in formellen Anweisungen verwendet.",
-    "relatedPatterns": [
-      "要不然",
-      "不然"
-    ],
-    "pinyin": "fǒuzé",
     "examples": [
       {
         "chinese": "你必须按时完成，否则会被扣工资。",
@@ -545,888 +2711,178 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
       }
     ],
     "legacyIds": [
+      "g:否则",
       "否则"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:……，要不然/不然……"
     ]
   },
   {
-    "id": "g:万一",
-    "pattern": "万一",
+    "id": "g:要是……，就……",
+    "pattern": "要是……，就……",
     "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "falls; für den Fall, dass; was wenn",
-    "formation": "万一 + unwahrscheinliches Szenario，(就) + Reaktion/Konsequenz",
-    "explanation": "Drückt ein unwahrscheinliches, aber mögliches Szenario aus (wörtlich: eins von zehntausend). Wird für Vorsichtsmassnahmen oder Worst-Case-Szenarien verwendet.",
-    "notes": "万一 impliziert eine geringe Wahrscheinlichkeit, während 如果 neutral ist. Es wird oft verwendet, um Vorsicht zu empfehlen.",
-    "relatedPatterns": [
-      "如果",
-      "假如",
-      "以防"
-    ],
-    "pinyin": "wànyī",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 326,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "假设复句",
+      "content": "要是……，就……"
+    },
+    "meaning": "wenn ... dann ... (umgangssprachlich)",
+    "formation": "要是 + Bedingung, 就 + Folge",
+    "explanation": "Umgangssprachliche Version von 如果...就... für Bedingungssätze.",
+    "notes": "要是 wird in der gesprochenen Sprache häufiger verwendet als 如果.",
     "examples": [
       {
-        "chinese": "带把伞吧，万一下雨了呢。",
-        "pinyin": "Dài bǎ sǎn ba, wànyī xiàyǔ le ne.",
-        "german": "Nimm einen Regenschirm mit, falls es regnen sollte."
+        "chinese": "要是你不来，我就自己去。",
+        "pinyin": "Yàoshi nǐ bù lái, wǒ jiù zìjǐ qù.",
+        "german": "Wenn du nicht kommst, gehe ich allein."
       },
       {
-        "chinese": "万一他不同意，我们怎么办？",
-        "pinyin": "Wànyī tā bù tóngyì, wǒmen zěnme bàn?",
-        "german": "Was machen wir, falls er nicht einverstanden ist?"
+        "chinese": "要是下雨就别出门了。",
+        "pinyin": "Yàoshi xià yǔ jiù bié chūmén le.",
+        "german": "Wenn es regnet, geh lieber nicht raus."
       },
       {
-        "chinese": "你最好买个保险，万一出了事就有保障了。",
-        "pinyin": "Nǐ zuìhǎo mǎi gè bǎoxiǎn, wànyī chū le shì jiù yǒu bǎozhàng le.",
-        "german": "Du solltest besser eine Versicherung abschliessen, falls etwas passiert, bist du abgesichert."
+        "chinese": "要是明天下雨，我们就不去了。",
+        "pinyin": "Yàoshi míngtiān xià yǔ, wǒmen jiù bú qù le.",
+        "german": "Wenn es morgen regnet, gehen wir nicht."
       },
       {
-        "chinese": "带把伞吧，万一下雨呢。",
-        "pinyin": "Dài bǎ sǎn ba, wànyī xià yǔ ne.",
-        "german": "Nimm einen Schirm mit, falls es regnen sollte."
+        "chinese": "你要是不舒服，就在家休息吧。",
+        "pinyin": "Nǐ yàoshi bù shūfu, jiù zài jiā xiūxi ba.",
+        "german": "Wenn du dich nicht wohl fuehlst, ruh dich zu Hause aus."
       },
       {
-        "chinese": "万一他不来怎么办？",
-        "pinyin": "Wànyī tā bù lái zěnme bàn?",
-        "german": "Was machen wir, falls er nicht kommen sollte?"
+        "chinese": "要是有机会，我想去中国留学。",
+        "pinyin": "Yàoshi yǒu jīhuì, wǒ xiǎng qù Zhōngguó liúxué.",
+        "german": "Wenn ich die Gelegenheit haette, wuerde ich gerne in China studieren."
       }
     ],
     "legacyIds": [
-      "万一"
+      "g:要是...就...",
+      "要是...就..."
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:如果……，就……"
     ]
   },
   {
-    "id": "g:除非…否则…",
-    "pattern": "除非…否则…",
+    "id": "g:要是……，（就）……，否则……",
+    "pattern": "要是……，（就）……，否则……",
     "level": "HSK4",
-    "category": "Konjunktionen",
-    "meaning": "es sei denn… ansonsten…",
-    "pinyin": "chúfēi…fǒuzé…",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 327,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "假设复句",
+      "content": "要是……，（就）……，否则……"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:不管……，都/也……",
+    "pattern": "不管……，都/也……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 328,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "条件复句",
+      "content": "不管……，都/也……"
+    },
+    "meaning": "egal ob / ganz gleich… immer…",
+    "pinyin": "bùguǎn…dōu…",
     "examples": [
       {
-        "chinese": "除非你亲自来，否则我不开门。",
-        "pinyin": "Chúfēi nǐ qīnzì lái, fǒuzé wǒ bù kāi mén.",
-        "german": "Es sei denn, du kommst persoenlich, ansonsten oeffne ich die Tuer nicht."
+        "chinese": "不管多忙，我都要锻炼。",
+        "pinyin": "Bùguǎn duō máng, wǒ dōu yào duànliàn.",
+        "german": "Egal wie beschäftigt ich bin, ich trainiere immer."
       },
       {
-        "chinese": "除非下大雨，否则比赛照常进行。",
-        "pinyin": "Chúfēi xià dà yǔ, fǒuzé bǐsài zhàocháng jìnxíng.",
-        "german": "Es sei denn, es regnet stark, ansonsten findet das Spiel wie geplant statt."
+        "chinese": "不管你去不去，我都去。",
+        "pinyin": "Bùguǎn nǐ qù bu qù, wǒ dōu qù.",
+        "german": "Egal ob du gehst oder nicht, ich gehe."
+      },
+      {
+        "chinese": "不管天气怎么样，我都去跑步。",
+        "pinyin": "Bùguǎn tiānqì zěnmeyàng, wǒ dōu qù pǎobù.",
+        "german": "Egal wie das Wetter ist, ich gehe in jedem Fall joggen."
+      },
+      {
+        "chinese": "不管你同意不同意，我都要这样做。",
+        "pinyin": "Bùguǎn nǐ tóngyì bù tóngyì, wǒ dōu yào zhèyàng zuò.",
+        "german": "Egal ob du zustimmst oder nicht, ich werde es so machen."
+      },
+      {
+        "chinese": "不管多贵，她都想买。",
+        "pinyin": "Bùguǎn duō guì, tā dōu xiǎng mǎi.",
+        "german": "Egal wie teuer es ist, sie will es kaufen."
       }
     ],
     "legacyIds": [
-      "除非…否则…"
-    ]
-  },
-  {
-    "id": "g:要不然",
-    "pattern": "要不然",
-    "level": "HSK4",
-    "category": "Konjunktionen",
-    "meaning": "sonst, andernfalls",
-    "pinyin": "yàobùrán",
-    "examples": [
-      {
-        "chinese": "快点儿走，要不然就迟到了。",
-        "pinyin": "Kuài diǎnr zǒu, yàobùrán jiù chídào le.",
-        "german": "Beeil dich, sonst kommen wir zu spaet."
-      },
-      {
-        "chinese": "你应该多穿点儿，要不然会感冒。",
-        "pinyin": "Nǐ yīnggāi duō chuān diǎnr, yàobùrán huì gǎnmào.",
-        "german": "Du solltest dich waermer anziehen, sonst erkaeltest du dich."
-      }
+      "g:不管…都…",
+      "不管…都…",
+      "g:不管...都...",
+      "不管...都..."
     ],
-    "legacyIds": [
-      "要不然"
+    "meaningStatus": "draft",
+    "related": [
+      "g:无论……，都/也……"
     ]
   },
   {
-    "id": "g:免得",
-    "pattern": "免得",
+    "id": "g:无论……，都/也……",
+    "pattern": "无论……，都/也……",
     "level": "HSK4",
-    "category": "Konjunktionen",
-    "meaning": "damit nicht, um zu vermeiden dass",
-    "pinyin": "miǎnde",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 329,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "条件复句",
+      "content": "无论……，都/也……"
+    },
+    "meaning": "egal ob ... alles/immer ...",
+    "formation": "无论/不管 + Fragewort/Alternative, 都 + Satz",
+    "explanation": "Drückt aus, dass das Ergebnis unabhängig von den Umständen gleich bleibt.",
+    "notes": "不管 ist umgangssprachlicher als 无论.",
     "examples": [
       {
-        "chinese": "早点儿出发，免得路上堵车。",
-        "pinyin": "Zǎo diǎnr chūfā, miǎnde lùshang dǔchē.",
-        "german": "Fahr frueh los, damit du nicht in einen Stau geraetst."
+        "chinese": "不管多难，我都不放弃。",
+        "pinyin": "Bùguǎn duō nán, wǒ dōu bú fàngqì.",
+        "german": "Egal wie schwer es ist, ich gebe nicht auf."
       },
       {
-        "chinese": "把地址写下来，免得忘了。",
-        "pinyin": "Bǎ dìzhǐ xiě xiàlái, miǎnde wàng le.",
-        "german": "Schreib die Adresse auf, damit du sie nicht vergisst."
-      }
-    ],
-    "legacyIds": [
-      "免得"
-    ]
-  },
-  {
-    "id": "g:怪不得",
-    "pattern": "怪不得",
-    "level": "HSK4",
-    "category": "Adverbien",
-    "meaning": "kein Wunder dass, das erklaert warum",
-    "pinyin": "guàibude",
-    "examples": [
-      {
-        "chinese": "怪不得他中文说得那么好，原来他在中国住了五年。",
-        "pinyin": "Guàibude tā Zhōngwén shuō de nàme hǎo, yuánlái tā zài Zhōngguó zhù le wǔ nián.",
-        "german": "Kein Wunder, dass er so gut Chinesisch spricht — er hat fuenf Jahre in China gelebt."
+        "chinese": "无论谁来，都欢迎。",
+        "pinyin": "Wúlùn shéi lái, dōu huānyíng.",
+        "german": "Egal wer kommt, alle sind willkommen."
       },
       {
-        "chinese": "怪不得这么冷，窗户开着呢。",
-        "pinyin": "Guàibude zhème lěng, chuānghu kāi zhe ne.",
-        "german": "Kein Wunder, dass es so kalt ist, das Fenster steht offen."
-      }
-    ],
-    "legacyIds": [
-      "怪不得"
-    ]
-  },
-  {
-    "id": "g:来不及",
-    "pattern": "来不及",
-    "level": "HSK4",
-    "category": "Verben",
-    "meaning": "nicht mehr rechtzeitig schaffen, zu spaet fuer",
-    "pinyin": "láibují",
-    "examples": [
-      {
-        "chinese": "已经八点了，来不及吃早饭了。",
-        "pinyin": "Yǐjīng bā diǎn le, láibují chī zǎofàn le.",
-        "german": "Es ist schon acht Uhr, es reicht nicht mehr fuer ein Fruehstueck."
+        "chinese": "无论你去哪儿，我都跟着你。",
+        "pinyin": "Wúlùn nǐ qù nǎr, wǒ dōu gēnzhe nǐ.",
+        "german": "Egal wohin du gehst, ich folge dir."
       },
       {
-        "chinese": "快跑，要不然来不及赶飞机了！",
-        "pinyin": "Kuài pǎo, yàobùrán láibují gǎn fēijī le!",
-        "german": "Lauf schnell, sonst schaffen wir den Flug nicht mehr!"
-      }
-    ],
-    "legacyIds": [
-      "来不及"
-    ]
-  },
-  {
-    "id": "g:来得及",
-    "pattern": "来得及",
-    "level": "HSK4",
-    "category": "Verben",
-    "meaning": "noch rechtzeitig schaffen, es reicht noch",
-    "pinyin": "láidejí",
-    "examples": [
-      {
-        "chinese": "别着急，还来得及。",
-        "pinyin": "Bié zhāojí, hái láidejí.",
-        "german": "Keine Sorge, es reicht noch."
+        "chinese": "无论发生什么事，都不要害怕。",
+        "pinyin": "Wúlùn fāshēng shénme shì, dōu búyào hàipà.",
+        "german": "Egal was passiert, hab keine Angst."
       },
       {
-        "chinese": "现在出发的话，还来得及赶上火车。",
-        "pinyin": "Xiànzài chūfā dehuà, hái láidejí gǎnshàng huǒchē.",
-        "german": "Wenn wir jetzt losfahren, schaffen wir den Zug noch."
-      }
-    ],
-    "legacyIds": [
-      "来得及"
-    ]
-  },
-  {
-    "id": "g:显得",
-    "pattern": "显得",
-    "level": "HSK4",
-    "category": "Verben",
-    "meaning": "wirken, erscheinen, den Anschein haben",
-    "pinyin": "xiǎnde",
-    "examples": [
-      {
-        "chinese": "穿上这件衣服，她显得更年轻了。",
-        "pinyin": "Chuānshang zhè jiàn yīfu, tā xiǎnde gèng niánqīng le.",
-        "german": "In diesem Kleid wirkt sie juenger."
+        "chinese": "无论多忙，他都坚持每天看书。",
+        "pinyin": "Wúlùn duō máng, tā dōu jiānchí měi tiān kàn shū.",
+        "german": "Egal wie beschaeftigt er ist, er liest jeden Tag."
       },
-      {
-        "chinese": "旁边那栋楼太高了，显得我们的房子很小。",
-        "pinyin": "Pángbiān nà dòng lóu tài gāo le, xiǎnde wǒmen de fángzi hěn xiǎo.",
-        "german": "Das Gebaeude nebenan ist so hoch, dass unser Haus klein wirkt."
-      }
-    ],
-    "legacyIds": [
-      "显得"
-    ]
-  },
-  {
-    "id": "g:究竟",
-    "pattern": "究竟",
-    "level": "HSK4",
-    "category": "Adverbien",
-    "meaning": "eigentlich, letztendlich (nachdrueckliche Frage)",
-    "pinyin": "jiūjìng",
-    "examples": [
-      {
-        "chinese": "你究竟想说什么？",
-        "pinyin": "Nǐ jiūjìng xiǎng shuō shénme?",
-        "german": "Was willst du eigentlich sagen?"
-      },
-      {
-        "chinese": "事情究竟是怎么回事？",
-        "pinyin": "Shìqing jiūjìng shì zěnme huí shì?",
-        "german": "Wie verhaelt sich die Sache eigentlich?"
-      }
-    ],
-    "legacyIds": [
-      "究竟"
-    ]
-  },
-  {
-    "id": "g:幸亏",
-    "pattern": "幸亏",
-    "level": "HSK4",
-    "category": "Adverbien",
-    "meaning": "zum Glueck, gluecklicherweise",
-    "pinyin": "xìngkuī",
-    "examples": [
-      {
-        "chinese": "幸亏你提醒我，要不然我就忘了。",
-        "pinyin": "Xìngkuī nǐ tíxǐng wǒ, yàobùrán wǒ jiù wàng le.",
-        "german": "Zum Glueck hast du mich erinnert, sonst haette ich es vergessen."
-      },
-      {
-        "chinese": "幸亏带了伞，不然就被淋湿了。",
-        "pinyin": "Xìngkuī dài le sǎn, bùrán jiù bèi lín shī le.",
-        "german": "Zum Glueck hatte ich einen Schirm dabei, sonst waere ich nass geworden."
-      }
-    ],
-    "legacyIds": [
-      "幸亏"
-    ]
-  },
-  {
-    "id": "g:看来",
-    "pattern": "看来",
-    "level": "HSK4",
-    "category": "Adverbien",
-    "meaning": "es scheint, dem Anschein nach",
-    "pinyin": "kànlái",
-    "examples": [
-      {
-        "chinese": "看来今天的会议开不了了。",
-        "pinyin": "Kànlái jīntiān de huìyì kāi bu liǎo le.",
-        "german": "Es scheint, die heutige Besprechung kann nicht stattfinden."
-      },
-      {
-        "chinese": "看来你已经准备好了。",
-        "pinyin": "Kànlái nǐ yǐjīng zhǔnbèi hǎo le.",
-        "german": "Es sieht so aus, als waerst du schon bereit."
-      },
-      {
-        "chinese": "看来今天的会议取消了。",
-        "pinyin": "Kànlái jīntiān de huìyì qǔxiāo le.",
-        "german": "Anscheinend wurde die heutige Besprechung abgesagt."
-      },
-      {
-        "chinese": "看来他不会来了。",
-        "pinyin": "Kànlái tā bú huì lái le.",
-        "german": "Es sieht so aus, als ob er nicht kommen wird."
-      }
-    ],
-    "legacyIds": [
-      "看来"
-    ]
-  },
-  {
-    "id": "g:似乎",
-    "pattern": "似乎",
-    "level": "HSK4",
-    "category": "Adverbien",
-    "meaning": "anscheinend, es scheint als ob",
-    "pinyin": "sìhū",
-    "examples": [
-      {
-        "chinese": "他似乎对这个话题不感兴趣。",
-        "pinyin": "Tā sìhū duì zhège huàtí bù gǎn xìngqù.",
-        "german": "Er scheint an diesem Thema nicht interessiert zu sein."
-      },
-      {
-        "chinese": "天气似乎要变了。",
-        "pinyin": "Tiānqì sìhū yào biàn le.",
-        "german": "Das Wetter scheint sich zu aendern."
-      }
-    ],
-    "legacyIds": [
-      "似乎"
-    ]
-  },
-  {
-    "id": "g:并不/并没有",
-    "pattern": "并不/并没有",
-    "level": "HSK4",
-    "category": "Adverbien",
-    "meaning": "keineswegs, durchaus nicht (betonte Verneinung)",
-    "pinyin": "bìng bù / bìng méiyǒu",
-    "examples": [
-      {
-        "chinese": "事情并不像你想的那么简单。",
-        "pinyin": "Shìqing bìng bù xiàng nǐ xiǎng de nàme jiǎndān.",
-        "german": "Die Sache ist keineswegs so einfach, wie du denkst."
-      },
-      {
-        "chinese": "我并没有生气，你别误会。",
-        "pinyin": "Wǒ bìng méiyǒu shēngqì, nǐ bié wùhuì.",
-        "german": "Ich bin keineswegs boese, versteh mich nicht falsch."
-      }
-    ],
-    "legacyIds": [
-      "并不/并没有"
-    ]
-  },
-  {
-    "id": "g:既…也…",
-    "pattern": "既…也…",
-    "level": "HSK4",
-    "category": "Konjunktionen",
-    "meaning": "sowohl… als auch… (auch bei negativen Aussagen)",
-    "pinyin": "jì…yě…",
-    "examples": [
-      {
-        "chinese": "他既不喝酒，也不抽烟。",
-        "pinyin": "Tā jì bù hē jiǔ, yě bù chōu yān.",
-        "german": "Er trinkt weder Alkohol noch raucht er."
-      },
-      {
-        "chinese": "这个方案既省钱，也省时间。",
-        "pinyin": "Zhège fāngàn jì shěng qián, yě shěng shíjiān.",
-        "german": "Dieser Plan spart sowohl Geld als auch Zeit."
-      }
-    ],
-    "legacyIds": [
-      "既…也…"
-    ]
-  },
-  {
-    "id": "g:一方面…另一方面…",
-    "pattern": "一方面…另一方面…",
-    "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "einerseits… andererseits…",
-    "pinyin": "yì fāngmiàn…lìng yì fāngmiàn…",
-    "examples": [
-      {
-        "chinese": "一方面我想去旅行，另一方面我又没有钱。",
-        "pinyin": "Yì fāngmiàn wǒ xiǎng qù lǚxíng, lìng yì fāngmiàn wǒ yòu méiyǒu qián.",
-        "german": "Einerseits moechte ich verreisen, andererseits habe ich kein Geld."
-      },
-      {
-        "chinese": "一方面要注意质量，另一方面也要考虑成本。",
-        "pinyin": "Yì fāngmiàn yào zhùyì zhìliàng, lìng yì fāngmiàn yě yào kǎolǜ chéngběn.",
-        "german": "Einerseits muss man auf die Qualitaet achten, andererseits auch die Kosten beruecksichtigen."
-      }
-    ],
-    "legacyIds": [
-      "一方面…另一方面…"
-    ]
-  },
-  {
-    "id": "g:可见",
-    "pattern": "可见",
-    "level": "HSK4",
-    "category": "Konjunktionen",
-    "meaning": "daraus ergibt sich, man sieht also",
-    "pinyin": "kějiàn",
-    "examples": [
-      {
-        "chinese": "他每天都加班，可见工作很忙。",
-        "pinyin": "Tā měi tiān dōu jiābān, kějiàn gōngzuò hěn máng.",
-        "german": "Er macht jeden Tag Ueberstunden, daraus sieht man, dass die Arbeit sehr anstrengend ist."
-      },
-      {
-        "chinese": "考试只有三个人通过了，可见题目很难。",
-        "pinyin": "Kǎoshì zhǐyǒu sān ge rén tōngguò le, kějiàn tímù hěn nán.",
-        "german": "Nur drei Leute haben die Pruefung bestanden, man sieht also, dass die Aufgaben sehr schwer waren."
-      },
-      {
-        "chinese": "他连饭都不吃了，可见压力有多大。",
-        "pinyin": "Tā lián fàn dōu bù chī le, kějiàn yālì yǒu duō dà.",
-        "german": "Er isst nicht mal mehr, daraus sieht man, wie groß der Druck ist."
-      },
-      {
-        "chinese": "他连基础知识都不懂，可见平时没有好好学习。",
-        "pinyin": "Tā lián jīchǔ zhīshi dōu bù dǒng, kějiàn píngshí méiyǒu hǎohǎo xuéxí.",
-        "german": "Er versteht nicht einmal die Grundlagen — daraus ist ersichtlich, dass er normalerweise nicht richtig gelernt hat."
-      }
-    ],
-    "legacyIds": [
-      "可见"
-    ]
-  },
-  {
-    "id": "g:以来",
-    "pattern": "以来",
-    "level": "HSK4",
-    "category": "Zeitformen",
-    "meaning": "seitdem / seit (Zeitpunkt bis jetzt)",
-    "pinyin": "yǐlái",
-    "examples": [
-      {
-        "chinese": "来中国以来，我学了很多。",
-        "pinyin": "Lái Zhōngguó yǐlái, wǒ xué le hěn duō.",
-        "german": "Seitdem ich in China bin, habe ich viel gelernt."
-      },
-      {
-        "chinese": "三年以来，他一直在努力。",
-        "pinyin": "Sān nián yǐlái, tā yìzhí zài nǔlì.",
-        "german": "Seit drei Jahren gibt er sich ständig Mühe."
-      }
-    ],
-    "legacyIds": [
-      "以来"
-    ]
-  },
-  {
-    "id": "g:尽管…但…",
-    "pattern": "尽管…但…",
-    "level": "HSK4",
-    "category": "Konjunktionen",
-    "meaning": "obwohl…aber… (formeller als 虽然)",
-    "pinyin": "jǐnguǎn…dàn…",
-    "examples": [
-      {
-        "chinese": "尽管很辛苦，但他从不抱怨。",
-        "pinyin": "Jǐnguǎn hěn xīnkǔ, dàn tā cóng bù bàoyuàn.",
-        "german": "Obwohl es anstrengend ist, beschwert er sich nie."
-      },
-      {
-        "chinese": "尽管条件不好，但大家很努力。",
-        "pinyin": "Jǐnguǎn tiáojiàn bù hǎo, dàn dàjiā hěn nǔlì.",
-        "german": "Obwohl die Bedingungen schlecht sind, geben alle ihr Bestes."
-      }
-    ],
-    "legacyIds": [
-      "尽管…但…"
-    ]
-  },
-  {
-    "id": "g:与其…宁可…",
-    "pattern": "与其…宁可…",
-    "level": "HSK4",
-    "category": "Konjunktionen",
-    "meaning": "anstatt…lieber… (umgekehrte Reihenfolge)",
-    "pinyin": "yǔqí…nìngkě…",
-    "examples": [
-      {
-        "chinese": "与其浪费时间，宁可多休息。",
-        "pinyin": "Yǔqí làngfèi shíjiān, nìngkě duō xiūxi.",
-        "german": "Anstatt Zeit zu verschwenden, ruhe ich mich lieber aus."
-      },
-      {
-        "chinese": "与其后悔，宁可现在努力。",
-        "pinyin": "Yǔqí hòuhuǐ, nìngkě xiànzài nǔlì.",
-        "german": "Anstatt es zu bereuen, strenge ich mich lieber jetzt an."
-      }
-    ],
-    "legacyIds": [
-      "与其…宁可…"
-    ]
-  },
-  {
-    "id": "g:再怎么…也…",
-    "pattern": "再怎么…也…",
-    "level": "HSK4",
-    "category": "Konjunktionen",
-    "meaning": "egal wie sehr…trotzdem…",
-    "pinyin": "zài zěnme…yě…",
-    "examples": [
-      {
-        "chinese": "再怎么努力，也来不及了。",
-        "pinyin": "Zài zěnme nǔlì, yě láibùjí le.",
-        "german": "Egal wie sehr man sich anstrengt, es ist zu spät."
-      },
-      {
-        "chinese": "再怎么说，他也是你的朋友。",
-        "pinyin": "Zài zěnme shuō, tā yě shì nǐ de péngyou.",
-        "german": "Was man auch sagt, er ist immerhin dein Freund."
-      }
-    ],
-    "legacyIds": [
-      "再怎么…也…"
-    ]
-  },
-  {
-    "id": "g:难怪",
-    "pattern": "难怪",
-    "level": "HSK4",
-    "category": "Modalausdrücke",
-    "meaning": "kein Wunder (dass) / verständlich",
-    "pinyin": "nánguài",
-    "examples": [
-      {
-        "chinese": "难怪他那么累，原来加班到很晚。",
-        "pinyin": "Nánguài tā nàme lèi, yuánlái jiābān dào hěn wǎn.",
-        "german": "Kein Wunder, dass er so müde ist -- er hat bis spät Überstunden gemacht."
-      },
-      {
-        "chinese": "难怪你中文说得这么好！",
-        "pinyin": "Nánguài nǐ zhōngwén shuō de zhème hǎo!",
-        "german": "Kein Wunder, dass du so gut Chinesisch sprichst!"
-      }
-    ],
-    "legacyIds": [
-      "难怪"
-    ]
-  },
-  {
-    "id": "g:往往",
-    "pattern": "往往",
-    "level": "HSK4",
-    "category": "Adverbien",
-    "meaning": "oft / meistens / in der Regel",
-    "pinyin": "wǎngwǎng",
-    "examples": [
-      {
-        "chinese": "成功往往需要耐心。",
-        "pinyin": "Chénggōng wǎngwǎng xūyào nàixīn.",
-        "german": "Erfolg erfordert in der Regel Geduld."
-      },
-      {
-        "chinese": "他往往很晚才回家。",
-        "pinyin": "Tā wǎngwǎng hěn wǎn cái huí jiā.",
-        "german": "Er kommt meistens erst spät nach Hause."
-      }
-    ],
-    "legacyIds": [
-      "往往"
-    ]
-  },
-  {
-    "id": "g:至少",
-    "pattern": "至少",
-    "level": "HSK4",
-    "category": "Adverbien",
-    "meaning": "mindestens / wenigstens",
-    "pinyin": "zhìshǎo",
-    "examples": [
-      {
-        "chinese": "至少要学三年。",
-        "pinyin": "Zhìshǎo yào xué sān nián.",
-        "german": "Man muss mindestens drei Jahre lernen."
-      },
-      {
-        "chinese": "你至少应该告诉我一声。",
-        "pinyin": "Nǐ zhìshǎo yīnggāi gàosu wǒ yì shēng.",
-        "german": "Du hättest mir wenigstens Bescheid sagen sollen."
-      }
-    ],
-    "legacyIds": [
-      "至少"
-    ]
-  },
-  {
-    "id": "g:宁愿…也…",
-    "pattern": "宁愿…也…",
-    "level": "HSK4",
-    "category": "Konjunktionen",
-    "meaning": "lieber…als… (starke Präferenz)",
-    "pinyin": "nìngyuàn…yě…",
-    "examples": [
-      {
-        "chinese": "我宁愿走路，也不坐公交车。",
-        "pinyin": "Wǒ nìngyuàn zǒulù, yě bú zuò gōngjiāochē.",
-        "german": "Ich gehe lieber zu Fuß, als den Bus zu nehmen."
-      },
-      {
-        "chinese": "他宁愿饿着，也不吃那个。",
-        "pinyin": "Tā nìngyuàn è zhe, yě bù chī nàge.",
-        "german": "Er hungert lieber, als das zu essen."
-      }
-    ],
-    "legacyIds": [
-      "宁愿…也…"
-    ]
-  },
-  {
-    "id": "g:动不动就…",
-    "pattern": "动不动就…",
-    "level": "HSK4",
-    "category": "Adverbien",
-    "meaning": "bei jeder Kleinigkeit / ständig",
-    "pinyin": "dòngbudòng jiù…",
-    "examples": [
-      {
-        "chinese": "她动不动就哭。",
-        "pinyin": "Tā dòngbudòng jiù kū.",
-        "german": "Sie weint bei jeder Kleinigkeit."
-      },
-      {
-        "chinese": "他动不动就生气。",
-        "pinyin": "Tā dòngbudòng jiù shēngqì.",
-        "german": "Er wird ständig wütend."
-      }
-    ],
-    "legacyIds": [
-      "动不动就…"
-    ]
-  },
-  {
-    "id": "g:之际",
-    "pattern": "之际",
-    "level": "HSK4",
-    "category": "Zeitformen",
-    "meaning": "zum Zeitpunkt / bei Gelegenheit von",
-    "pinyin": "zhī jì",
-    "examples": [
-      {
-        "chinese": "毕业之际，他感慨万千。",
-        "pinyin": "Bìyè zhī jì, tā gǎnkǎi wànqiān.",
-        "german": "Zum Zeitpunkt des Abschlusses war er voller Emotionen."
-      },
-      {
-        "chinese": "新年之际，祝你一切顺利。",
-        "pinyin": "Xīnnián zhī jì, zhù nǐ yíqiè shùnlì.",
-        "german": "Zum neuen Jahr wünsche ich dir alles Gute."
-      }
-    ],
-    "legacyIds": [
-      "之际"
-    ]
-  },
-  {
-    "id": "g:既不…也不…",
-    "pattern": "既不…也不…",
-    "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "weder … noch …",
-    "pinyin": "jì bù…yě bù…",
-    "examples": [
-      {
-        "chinese": "他既不喝酒也不抽烟。",
-        "pinyin": "Tā jì bù hē jiǔ yě bù chōuyān.",
-        "german": "Er trinkt weder Alkohol noch raucht er."
-      },
-      {
-        "chinese": "这件事既不紧急也不重要。",
-        "pinyin": "Zhè jiàn shì jì bù jǐnjí yě bù zhòngyào.",
-        "german": "Diese Angelegenheit ist weder dringend noch wichtig."
-      }
-    ],
-    "legacyIds": [
-      "既不…也不…"
-    ]
-  },
-  {
-    "id": "g:不到…不…",
-    "pattern": "不到…不…",
-    "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "erst wenn … (nicht eher als)",
-    "pinyin": "bú dào…bù…",
-    "examples": [
-      {
-        "chinese": "不到长城非好汉。",
-        "pinyin": "Bú dào Chángchéng fēi hǎohàn.",
-        "german": "Wer die Große Mauer nicht erreicht hat, ist kein Held."
-      },
-      {
-        "chinese": "不到最后一刻不放弃。",
-        "pinyin": "Bú dào zuìhòu yí kè bù fàngqì.",
-        "german": "Erst in der allerletzten Sekunde aufgeben (d. h. niemals)."
-      }
-    ],
-    "legacyIds": [
-      "不到…不…"
-    ]
-  },
-  {
-    "id": "g:非…才…",
-    "pattern": "非…才…",
-    "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "nur wenn; ausschließlich … erst dann",
-    "pinyin": "fēi…cái…",
-    "examples": [
-      {
-        "chinese": "非你来才行。",
-        "pinyin": "Fēi nǐ lái cái xíng.",
-        "german": "Nur wenn du kommst, geht es."
-      },
-      {
-        "chinese": "非亲眼看到才能相信。",
-        "pinyin": "Fēi qīnyǎn kàn dào cái néng xiāngxìn.",
-        "german": "Erst wenn man es mit eigenen Augen sieht, kann man es glauben."
-      }
-    ],
-    "legacyIds": [
-      "非…才…"
-    ]
-  },
-  {
-    "id": "g:一经…便…",
-    "pattern": "一经…便…",
-    "level": "HSK4",
-    "category": "Konjunktionen",
-    "meaning": "sobald … sofort … (formell)",
-    "pinyin": "yì jīng…biàn…",
-    "examples": [
-      {
-        "chinese": "一经发现，便立即处理。",
-        "pinyin": "Yì jīng fāxiàn, biàn lìjí chǔlǐ.",
-        "german": "Sobald es entdeckt wird, wird es sofort behandelt."
-      },
-      {
-        "chinese": "申请一经批准，便可入职。",
-        "pinyin": "Shēnqǐng yì jīng pīzhǔn, biàn kě rùzhí.",
-        "german": "Sobald der Antrag genehmigt ist, kann man die Stelle antreten."
-      }
-    ],
-    "legacyIds": [
-      "一经…便…"
-    ]
-  },
-  {
-    "id": "g:要么…要么…",
-    "pattern": "要么…要么…",
-    "level": "HSK4",
-    "category": "Konjunktionen",
-    "meaning": "entweder … oder …",
-    "pinyin": "yàome…yàome…",
-    "examples": [
-      {
-        "chinese": "你要么现在走，要么等到明天。",
-        "pinyin": "Nǐ yàome xiànzài zǒu, yàome děng dào míngtiān.",
-        "german": "Du gehst entweder jetzt oder wartest bis morgen."
-      },
-      {
-        "chinese": "要么成功，要么失败，没有第三种选择。",
-        "pinyin": "Yàome chénggōng, yàome shībài, méiyǒu dì sān zhǒng xuǎnzé.",
-        "german": "Entweder Erfolg oder Misserfolg, es gibt keine dritte Option."
-      }
-    ],
-    "legacyIds": [
-      "要么…要么…"
-    ]
-  },
-  {
-    "id": "g:…也好，…也好",
-    "pattern": "…也好，…也好",
-    "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "ob … oder …; sei es … oder …",
-    "pinyin": "…yě hǎo, …yě hǎo",
-    "examples": [
-      {
-        "chinese": "坐车也好，走路也好，都可以。",
-        "pinyin": "Zuò chē yě hǎo, zǒulù yě hǎo, dōu kěyǐ.",
-        "german": "Ob mit dem Auto oder zu Fuß, beides geht."
-      },
-      {
-        "chinese": "便宜也好，贵也好，关键是质量好。",
-        "pinyin": "Piányi yě hǎo, guì yě hǎo, guānjiàn shì zhìliàng hǎo.",
-        "german": "Ob billig oder teuer, die Hauptsache ist gute Qualität."
-      }
-    ],
-    "legacyIds": [
-      "…也好，…也好"
-    ]
-  },
-  {
-    "id": "g:…不说，还…",
-    "pattern": "…不说，还…",
-    "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "… ganz zu schweigen davon, außerdem noch …",
-    "pinyin": "…bù shuō, hái…",
-    "examples": [
-      {
-        "chinese": "他迟到不说，还忘了带资料。",
-        "pinyin": "Tā chídào bù shuō, hái wàng le dài zīliào.",
-        "german": "Er kam nicht nur zu spät, er vergaß auch noch die Unterlagen."
-      },
-      {
-        "chinese": "这家餐厅贵不说，菜还不好吃。",
-        "pinyin": "Zhè jiā cāntīng guì bù shuō, cài hái bù hǎochī.",
-        "german": "Dieses Restaurant ist nicht nur teuer, das Essen schmeckt auch noch schlecht."
-      }
-    ],
-    "legacyIds": [
-      "…不说，还…"
-    ]
-  },
-  {
-    "id": "g:之一",
-    "pattern": "之一",
-    "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "einer von; eines der (Superlativ-Zugehörigkeit)",
-    "pinyin": "zhī yī",
-    "examples": [
-      {
-        "chinese": "他是我最好的朋友之一。",
-        "pinyin": "Tā shì wǒ zuì hǎo de péngyou zhī yī.",
-        "german": "Er ist einer meiner besten Freunde."
-      },
-      {
-        "chinese": "这是世界上最大的城市之一。",
-        "pinyin": "Zhè shì shìjiè shàng zuìdà de chéngshì zhī yī.",
-        "german": "Dies ist eine der größten Städte der Welt."
-      }
-    ],
-    "legacyIds": [
-      "之一"
-    ]
-  },
-  {
-    "id": "g:果不其然",
-    "pattern": "果不其然",
-    "level": "HSK4",
-    "category": "Adverbien",
-    "meaning": "wie erwartet; tatsächlich; ganz wie vermutet",
-    "pinyin": "guǒ bù qí rán",
-    "examples": [
-      {
-        "chinese": "我就知道他会迟到，果不其然。",
-        "pinyin": "Wǒ jiù zhīdào tā huì chídào, guǒ bù qí rán.",
-        "german": "Ich wusste, dass er zu spät kommen würde, und tatsächlich war es so."
-      },
-      {
-        "chinese": "果不其然，第二天就下雨了。",
-        "pinyin": "Guǒ bù qí rán, dì èr tiān jiù xià yǔ le.",
-        "german": "Wie erwartet hat es am nächsten Tag geregnet."
-      }
-    ],
-    "legacyIds": [
-      "果不其然"
-    ]
-  },
-  {
-    "id": "g:说白了",
-    "pattern": "说白了",
-    "level": "HSK4",
-    "category": "Satzstrukturen",
-    "meaning": "offen gesagt; klipp und klar; im Klartext",
-    "pinyin": "shuō bái le",
-    "examples": [
-      {
-        "chinese": "说白了，他就是不想帮忙。",
-        "pinyin": "Shuō bái le, tā jiùshì bù xiǎng bāngmáng.",
-        "german": "Im Klartext: Er will einfach nicht helfen."
-      },
-      {
-        "chinese": "说白了，这不过是钱的问题。",
-        "pinyin": "Shuō bái le, zhè búguò shì qián de wèntí.",
-        "german": "Offen gesagt ist es nur eine Frage des Geldes."
-      }
-    ],
-    "legacyIds": [
-      "说白了"
-    ]
-  },
-  {
-    "id": "g:不论…还是…都…",
-    "pattern": "不论…还是…都…",
-    "level": "HSK4",
-    "category": "Konjunktionen",
-    "meaning": "egal ob … oder … in jedem Fall …",
-    "pinyin": "bùlùn…háishi…dōu…",
-    "examples": [
       {
         "chinese": "不论刮风还是下雨，他都坚持锻炼。",
         "pinyin": "Bùlùn guā fēng háishi xià yǔ, tā dōu jiānchí duànliàn.",
@@ -1439,7 +2895,314 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
       }
     ],
     "legacyIds": [
+      "g:无论/不管...都...",
+      "无论/不管...都...",
+      "g:无论...都...",
+      "无论...都...",
+      "g:不论…还是…都…",
       "不论…还是…都…"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:都¹",
+      "g:不管……，都/也……"
     ]
+  },
+  {
+    "id": "g:既然……，就……",
+    "pattern": "既然……，就……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 330,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "因果复句",
+      "content": "既然……，就……"
+    },
+    "meaning": "da nun einmal ... dann eben ...",
+    "formation": "既然 + Tatsache, 就 + Schlussfolgerung",
+    "explanation": "Zieht eine logische Schlussfolgerung aus einer bekannten Tatsache.",
+    "notes": "既然 bezieht sich auf eine bereits bestehende Tatsache, nicht auf eine Hypothese.",
+    "examples": [
+      {
+        "chinese": "既然你来了，就坐一会儿吧。",
+        "pinyin": "Jìrán nǐ lái le, jiù zuò yíhuìr ba.",
+        "german": "Da du nun einmal da bist, setz dich doch kurz."
+      },
+      {
+        "chinese": "既然不喜欢，就别买了。",
+        "pinyin": "Jìrán bù xǐhuan, jiù bié mǎi le.",
+        "german": "Wenn du es nicht magst, kauf es eben nicht."
+      },
+      {
+        "chinese": "既然你不喜欢，就不要勉强自己。",
+        "pinyin": "Jìrán nǐ bù xǐhuan, jiù búyào miǎnqiǎng zìjǐ.",
+        "german": "Da du es nicht magst, zwing dich nicht dazu."
+      },
+      {
+        "chinese": "既然来了，就多待一会儿吧。",
+        "pinyin": "Jìrán lái le, jiù duō dāi yíhuìr ba.",
+        "german": "Da du nun schon mal hier bist, bleib doch noch ein wenig."
+      },
+      {
+        "chinese": "既然决定了，就不要后悔。",
+        "pinyin": "Jìrán juédìng le, jiù búyào hòuhuǐ.",
+        "german": "Da du dich entschieden hast, bereue es nicht."
+      },
+      {
+        "chinese": "既然你已经决定了，就不要后悔。",
+        "pinyin": "Jìrán nǐ yǐjīng juédìng le, jiù bú yào hòuhuǐ.",
+        "german": "Da du dich nun einmal entschieden hast, bereue es nicht."
+      },
+      {
+        "chinese": "既来之，则安之。",
+        "pinyin": "Jì lái zhī, zé ān zhī.",
+        "german": "Wenn man schon da ist, sollte man sich damit abfinden."
+      },
+      {
+        "chinese": "既然答应了，就应该做到。",
+        "pinyin": "Jìrán dāying le, jiù yīnggāi zuòdào.",
+        "german": "Wenn man es schon versprochen hat, sollte man es auch einhalten."
+      }
+    ],
+    "legacyIds": [
+      "g:既然...就...",
+      "既然...就...",
+      "g:既…就…",
+      "既…就…"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:因为……，所以……",
+      "g:如果……，就……"
+    ]
+  },
+  {
+    "id": "g:（由于）……，因此……",
+    "pattern": "（由于）……，因此……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 331,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "因果复句",
+      "content": "（由于）……，因此……"
+    },
+    "meaning": "da/weil… daher/deshalb… (formelle Kausalverbindung)",
+    "pinyin": "yóuyú…yīncǐ…",
+    "examples": [
+      {
+        "chinese": "他努力学习，因此成绩很好。",
+        "pinyin": "Tā nǔlì xuéxí, yīncǐ chéngjì hěn hǎo.",
+        "german": "Er lernt fleißig, daher sind seine Noten sehr gut."
+      },
+      {
+        "chinese": "经济形势不好，因此许多公司裁员了。",
+        "pinyin": "Jīngjì xíngshì bù hǎo, yīncǐ xǔduō gōngsī cáiyuán le.",
+        "german": "Die wirtschaftliche Lage ist schlecht, deshalb haben viele Firmen Stellen abgebaut."
+      },
+      {
+        "chinese": "由于天气恶劣，因此航班取消了。",
+        "pinyin": "Yóuyú tiānqì èliè, yīncǐ hángbān qǔxiāo le.",
+        "german": "Da das Wetter schlecht war, wurde der Flug deshalb gestrichen."
+      },
+      {
+        "chinese": "由于资金不足，因此项目无法继续。",
+        "pinyin": "Yóuyú zījīn bùzú, yīncǐ xiàngmù wúfǎ jìxù.",
+        "german": "Weil die Mittel nicht ausreichen, kann das Projekt deshalb nicht weitergehen."
+      }
+    ],
+    "legacyIds": [
+      "g:因此",
+      "因此",
+      "g:由于…因此…",
+      "由于…因此…"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:……，好……",
+    "pattern": "……，好……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 332,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "目的复句",
+      "content": "……，好……"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:即使……，也……",
+    "pattern": "即使……，也……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 333,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "让步复句",
+      "content": "即使……，也……"
+    },
+    "meaning": "selbst wenn ... auch ...",
+    "formation": "即使 + hypothetischer Umstand, 也 + Ergebnis",
+    "explanation": "Hypothetische Konzession: Auch wenn etwas (hypothetisch) eintritt, ändert sich nichts.",
+    "notes": "即使 = hypothetisch; 尽管 = tatsächlich.",
+    "examples": [
+      {
+        "chinese": "即使下雨，我也去。",
+        "pinyin": "Jíshǐ xià yǔ, wǒ yě qù.",
+        "german": "Selbst wenn es regnet, gehe ich."
+      },
+      {
+        "chinese": "即使很难，也要试试。",
+        "pinyin": "Jíshǐ hěn nán, yě yào shìshi.",
+        "german": "Selbst wenn es schwer ist, muss man es versuchen."
+      },
+      {
+        "chinese": "即使下雪，我也要去上班。",
+        "pinyin": "Jíshǐ xià xuě, wǒ yě yào qù shàngbān.",
+        "german": "Selbst wenn es schneit, gehe ich trotzdem zur Arbeit."
+      },
+      {
+        "chinese": "即使你不告诉我，我也会知道。",
+        "pinyin": "Jíshǐ nǐ bú gàosu wǒ, wǒ yě huì zhīdào.",
+        "german": "Selbst wenn du es mir nicht sagst, werde ich es trotzdem erfahren."
+      },
+      {
+        "chinese": "即使很难，我们也不能放弃。",
+        "pinyin": "Jíshǐ hěn nán, wǒmen yě bù néng fàngqì.",
+        "german": "Selbst wenn es schwer ist, duerfen wir nicht aufgeben."
+      },
+      {
+        "chinese": "即使失败了，我也不会放弃。",
+        "pinyin": "Jíshǐ shībài le, wǒ yě bú huì fàngqì.",
+        "german": "Selbst wenn ich scheitere, werde ich nicht aufgeben."
+      },
+      {
+        "chinese": "即使你不同意，我也要这样做。",
+        "pinyin": "Jíshǐ nǐ bù tóngyì, wǒ yě yào zhèyàng zuò.",
+        "german": "Selbst wenn du nicht einverstanden bist, werde ich es trotzdem so machen."
+      },
+      {
+        "chinese": "即便下雨，我们也要去。",
+        "pinyin": "Jíbiàn xià yǔ, wǒmen yě yào qù.",
+        "german": "Selbst wenn es regnet, gehen wir trotzdem."
+      },
+      {
+        "chinese": "即便失败了，也不要放弃。",
+        "pinyin": "Jíbiàn shībài le, yě bú yào fàngqì.",
+        "german": "Selbst wenn man scheitert, sollte man nicht aufgeben."
+      }
+    ],
+    "legacyIds": [
+      "g:即使...也...",
+      "即使...也...",
+      "g:即便…也…",
+      "即便…也…"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:尽管……，但是/可是……",
+      "g:虽然……，但是……"
+    ]
+  },
+  {
+    "id": "g:就是……，也……",
+    "pattern": "就是……，也……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 334,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "让步复句",
+      "content": "就是……，也……"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:无标记",
+    "pattern": "无标记",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 335,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "紧缩复句",
+      "content": "无标记"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:不……也……",
+    "pattern": "不……也……",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 336,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "紧缩复句",
+      "content": "不……也……"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:概数表示法3：数词+来+量词",
+    "pattern": "概数表示法3：数词+来+量词",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Zahlen & Zeit",
+    "syllabus": {
+      "no": 337,
+      "category": "特殊表达法",
+      "categoryName": "数的表示法",
+      "item": "",
+      "content": "概数表示法3：数词+来+量词"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:数的表示法：用“大约、左右、前后”表示概数",
+    "pattern": "数的表示法：用“大约、左右、前后”表示概数",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Zahlen & Zeit",
+    "syllabus": {
+      "no": 338,
+      "category": "特殊表达法",
+      "categoryName": "数的表示法",
+      "item": "",
+      "content": "用“大约、左右、前后”表示概数"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:数的表示法：小数、分数、百分数、倍数的表示法",
+    "pattern": "数的表示法：小数、分数、百分数、倍数的表示法",
+    "level": "HSK4",
+    "kind": "pattern",
+    "category": "Zahlen & Zeit",
+    "syllabus": {
+      "no": 339,
+      "category": "特殊表达法",
+      "categoryName": "数的表示法",
+      "item": "",
+      "content": "小数、分数、百分数、倍数的表示法"
+    },
+    "meaningStatus": "draft"
   }
 ]);

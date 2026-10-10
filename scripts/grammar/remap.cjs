@@ -43,10 +43,12 @@ function tokens(text) {
 }
 const flat = toks => toks.map(alts => alts[0]).join('…');
 
-// Word-list rows ("非常、很、太…", "（1）专用名量词：本、个…") list words; other rows are one pattern.
+// Word-list rows of 词类/语素 ("非常、很、太…", "（1）专用名量词：本、个…") list words; other rows are one pattern,
+// also within 词类 the forms and uses (动词重叠 AA、A一A, 疑问代词的非疑问用法) and descriptions with 、 elsewhere.
 function rowWords(row) {
   const body = row.content.replace(/^（\d）/, '').replace(/^[^：]*：/, '');
-  if (!/、/.test(body) && row.category !== '词类' && row.category !== '语素') return null;
+  if (row.category !== '词类' && row.category !== '语素') return null;
+  if (!body || /[A-Z]|重叠|用法/.test(row.item + row.content)) return null;
   return body.split('、').map(w => w.replace(SUPER, '').replace(/[（）()]/g, '').replace(/—/g, '')).filter(Boolean);
 }
 function rowSenses(row) {

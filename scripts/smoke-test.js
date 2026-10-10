@@ -72,7 +72,7 @@ async function run() {
     }
 
     // Related entries in grammar and onomatopoeia details (previously a ReferenceError).
-    for (const [name, field, tag] of [['grammar', 'relatedPatterns', '.grammar-related-tag:not(.disabled)'], ['onomatopoeia', 'related', '.ono-related-tag:not(.disabled)']]) {
+    for (const [name, field, tag] of [['grammar', 'related', '#grammar-detail-related .grammar-related-tag'], ['onomatopoeia', 'related', '.ono-related-tag:not(.disabled)']]) {
       const section = app.sections[name];
       app.switchTab(name);
       const index = section.filteredItems.findIndex(item => (item[field] || []).length);
@@ -88,8 +88,8 @@ async function run() {
     // Grammar examples and measure-word tables render text, not blanks or "undefined".
     const grammar = app.sections.grammar;
     app.switchTab('grammar');
-    const extraIndex = grammar.filteredItems.findIndex(item => item.pattern === '除非…否则…');
-    assert(extraIndex !== -1, 'Pattern from grammar-extra files missing');
+    const extraIndex = grammar.filteredItems.findIndex(item => item.pattern === '除非……，否则/不然……');
+    assert(extraIndex !== -1, 'Syllabus pattern 除非……，否则/不然…… missing');
     grammar.openDetail(extraIndex);
     assert(d.getElementById('grammar-detail-examples').textContent.includes('除非你亲自来'), 'Grammar example text missing');
     grammar.closeDetail();

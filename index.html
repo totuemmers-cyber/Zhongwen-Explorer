@@ -117,27 +117,29 @@
             <button class="filter-btn grammar-level hsk4" data-glevel="HSK4">HSK 4</button>
             <button class="filter-btn grammar-level hsk5" data-glevel="HSK5">HSK 5</button>
             <button class="filter-btn grammar-level hsk6" data-glevel="HSK6">HSK 6</button>
+            <button class="filter-btn grammar-level hsk7-9" data-glevel="HSK7-9">HSK 7–9</button>
+            <button class="filter-btn grammar-level zusatz" data-glevel="Zusatz">Zusatz</button>
           </div>
           <div class="sort-controls">
             <select id="grammar-cat-select">
               <option value="all">Alle Kategorien</option>
-              <option value="Partikel">Partikel</option>
-              <option value="Verben">Verben</option>
-              <option value="Adjektive">Adjektive</option>
+              <option value="Wortbildung">Wortbildung</option>
+              <option value="Wortarten">Wortarten</option>
               <option value="Adverbien">Adverbien</option>
-              <option value="Satzstrukturen">Satzstrukturen</option>
-              <option value="Konjunktionen">Konjunktionen</option>
               <option value="Präpositionen">Präpositionen</option>
-              <option value="Fragewörter">Fragewörter</option>
-              <option value="Vergleiche">Vergleiche</option>
-              <option value="Zeitausdrücke">Zeitausdrücke</option>
-              <option value="Zeitformen">Zeitformen</option>
-              <option value="Verneinung">Verneinung</option>
-              <option value="Modalausdrücke">Modalausdrücke</option>
-              <option value="Resultativ">Resultativ</option>
+              <option value="Konjunktionen">Konjunktionen</option>
+              <option value="Partikeln">Partikeln</option>
+              <option value="Wortgruppen">Wortgruppen</option>
+              <option value="Feste Muster">Feste Muster</option>
+              <option value="Satzglieder">Satzglieder</option>
               <option value="Komplemente">Komplemente</option>
-              <option value="Rhetorisch">Rhetorisch</option>
-              <option value="Literarisch">Literarisch</option>
+              <option value="Satzarten">Satzarten</option>
+              <option value="Satzmuster">Satzmuster</option>
+              <option value="Satzgefüge">Satzgefüge</option>
+              <option value="Aspekt">Aspekt</option>
+              <option value="Zahlen &amp; Zeit">Zahlen &amp; Zeit</option>
+              <option value="Textebene">Textebene</option>
+              <option value="Schriftsprache">Schriftsprache</option>
             </select>
             <select id="grammar-sort-select">
               <option value="category">Nach Kategorie</option>
@@ -448,15 +450,20 @@
             <span id="grammar-detail-category" class="grammar-category-badge"></span>
           </div>
           <div id="grammar-detail-meaning" class="grammar-detail-meaning"></div>
-          <div class="grammar-detail-section">
+          <p id="grammar-detail-draft" class="grammar-draft-note hidden">Dieser Grammatikpunkt wird gerade ausgearbeitet.</p>
+          <div id="grammar-detail-words-section" class="grammar-detail-section hidden">
+            <h3>Wörter</h3>
+            <div id="grammar-detail-words" class="grammar-related"></div>
+          </div>
+          <div id="grammar-detail-formation-section" class="grammar-detail-section">
             <h3>Bildung</h3>
             <div id="grammar-detail-formation" class="grammar-formation"></div>
           </div>
-          <div class="grammar-detail-section">
+          <div id="grammar-detail-explanation-section" class="grammar-detail-section">
             <h3>Erklärung</h3>
             <div id="grammar-detail-explanation" class="grammar-explanation"></div>
           </div>
-          <div class="grammar-detail-section">
+          <div id="grammar-detail-examples-section" class="grammar-detail-section">
             <h3>Beispiele</h3>
             <div id="grammar-detail-examples" class="grammar-examples"></div>
           </div>
@@ -467,6 +474,10 @@
           <div id="grammar-detail-related-section" class="grammar-detail-section">
             <h3>Verwandte Grammatik</h3>
             <div id="grammar-detail-related" class="grammar-related"></div>
+          </div>
+          <div id="grammar-detail-syllabus-section" class="grammar-detail-section">
+            <h3>HSK-Syllabus</h3>
+            <p id="grammar-detail-syllabus" class="grammar-syllabus" lang="zh-CN"></p>
           </div>
         </div>
       </div>

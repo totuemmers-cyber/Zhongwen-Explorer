@@ -20,7 +20,8 @@ window.LANG_PROFILE = {
   dataScripts: {
     radicals: ['kangxi-radicals.js'],
     hanzi: ['hanzi-hsk1.js', 'hanzi-hsk2.js', 'hanzi-hsk3.js', 'hanzi-hsk4.js', 'hanzi-hsk5.js', 'hanzi-hsk6.js', 'hanzi-hsk7-9.js', 'hanzi-zusatz.js'],
-    grammar: ['grammar-hsk1.js', 'grammar-hsk2.js', 'grammar-hsk3.js', 'grammar-hsk4.js', 'grammar-hsk5.js', 'grammar-hsk6.js', 'grammar-hsk7-9.js'],
+    grammar: ['grammar-hsk1.js', 'grammar-hsk2.js', 'grammar-hsk3.js', 'grammar-hsk4.js', 'grammar-hsk5.js', 'grammar-hsk6.js', 'grammar-hsk7-9.js', 'grammar-zusatz.js',
+      'grammar-removed.js'],
     vocab: ['vocab-hsk1.js', 'vocab-hsk2.js', 'vocab-hsk3.js', 'vocab-hsk4.js', 'vocab-hsk5.js', 'vocab-hsk6.js', 'vocab-hsk7-9.js', 'vocab-zusatz.js',
       'chengyu-data.js', 'redewendungen-data.js'],
     onomatopoeia: ['onomatopoeia-data.js', 'onomatopoeia-extra.js', 'onomatopoeia-extra2.js', 'onomatopoeia-extra3.js'],

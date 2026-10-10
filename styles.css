@@ -219,6 +219,8 @@ input::placeholder { color: var(--text-secondary); opacity: 1; }
 .radical-example-note { margin: 0 0 12px; }
 .grammar-related-tag, .ono-related-tag { font-family: var(--font-jp); color: var(--accent); }
 .ono-related-tag.disabled { display: inline-flex; padding: 10px; color: var(--text-secondary); }
+.grammar-card-meaning.pending, .grammar-draft-note { color: var(--text-secondary); font-style: italic; }
+.grammar-syllabus { font-size: 14px; color: var(--text-secondary); overflow-wrap: anywhere; }
 .example-item, .grammar-example, .counter-special-item { border-radius: 8px; padding: 16px; background: var(--bg); }
 .example-meaning, .grammar-example-meaning { margin-top: 8px; }
 .grammar-example-japanese, .grammar-example-jp { font: 18px/1.9 var(--font-jp); }

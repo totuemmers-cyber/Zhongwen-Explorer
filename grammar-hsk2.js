@@ -1,47 +1,815 @@
-// Zhongwen Explorer grammar source (consolidated by scripts/consolidate-grammar.cjs). HSK2.
+// Zhongwen Explorer grammar, HSK2: points of the HSK 2025 grammar syllabus (语法大纲, scripts/hsk2025/grammar.json).
+// Built by scripts/grammar/build-grammar.cjs; content by the enrichment campaign.
 window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
   {
-    "id": "g:是...的",
-    "pattern": "是...的",
+    "id": "g:面",
+    "pattern": "面",
     "level": "HSK2",
-    "category": "Satzstrukturen",
-    "meaning": "betont, wie/wann/wo etwas geschah",
-    "formation": "Subjekt + 是 + Details + Verb + 的",
-    "explanation": "Die 是...的-Konstruktion wird verwendet, um bestimmte Details einer bereits bekannten Handlung zu betonen, z.B. wann, wo oder wie etwas geschehen ist.",
-    "notes": "Wird nur für abgeschlossene Handlungen verwendet. Nicht verwechseln mit einfachem 是.",
-    "relatedPatterns": [
-      "了",
-      "过"
-    ],
+    "kind": "word",
+    "category": "Wortbildung",
+    "syllabus": {
+      "no": 71,
+      "category": "语素",
+      "categoryName": "后缀",
+      "item": "",
+      "content": "面"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:左",
+    "pattern": "左",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 72,
+      "category": "词类",
+      "categoryName": "名词",
+      "item": "方位名词",
+      "content": "左、右"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:右",
+    "pattern": "右",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 72,
+      "category": "词类",
+      "categoryName": "名词",
+      "item": "方位名词",
+      "content": "左、右"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:AA、A一A、A了A、ABAB",
+    "pattern": "AA、A一A、A了A、ABAB",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 73,
+      "category": "词类",
+      "categoryName": "动词",
+      "item": "动词重叠",
+      "content": "AA、A一A、A了A、ABAB"
+    },
+    "meaning": "Verb-Verdopplung: „mal kurz\" / „ein bisschen\"",
+    "pinyin": "dòngcí chóngdié",
     "examples": [
       {
-        "chinese": "我是去年来中国的。",
-        "pinyin": "Wǒ shì qùnián lái Zhōngguó de.",
-        "german": "Ich bin letztes Jahr nach China gekommen (betont: letztes Jahr)."
+        "chinese": "你看看这个。",
+        "pinyin": "Nǐ kànkan zhège.",
+        "german": "Schau dir das mal an."
       },
       {
-        "chinese": "你是怎么来的？",
-        "pinyin": "Nǐ shì zěnme lái de?",
-        "german": "Wie bist du gekommen?"
+        "chinese": "我想想。",
+        "pinyin": "Wǒ xiǎngxiang.",
+        "german": "Lass mich mal überlegen."
       }
     ],
     "legacyIds": [
-      "是...的"
+      "g:动词重叠 (Verb-Verdopplung)",
+      "动词重叠 (Verb-Verdopplung)"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:可能",
+    "pattern": "可能",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 74,
+      "category": "词类",
+      "categoryName": "动词",
+      "item": "能愿动词",
+      "content": "可能"
+    },
+    "meaning": "möglicherweise / vielleicht / könnte sein",
+    "pinyin": "kěnéng",
+    "examples": [
+      {
+        "chinese": "他可能不来了。",
+        "pinyin": "Tā kěnéng bù lái le.",
+        "german": "Er kommt möglicherweise nicht mehr."
+      },
+      {
+        "chinese": "明天可能会下雨。",
+        "pinyin": "Míngtiān kěnéng huì xià yǔ.",
+        "german": "Morgen könnte es regnen."
+      }
+    ],
+    "legacyIds": [
+      "可能"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:离合词@HSK2",
+    "pattern": "离合词",
+    "level": "HSK2",
+    "kind": "overview",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 75,
+      "category": "词类",
+      "categoryName": "动词",
+      "item": "离合词",
+      "content": "帮忙、游泳、跳舞、跑步"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "帮忙",
+      "游泳",
+      "跳舞",
+      "跑步"
+    ]
+  },
+  {
+    "id": "g:为什么",
+    "pattern": "为什么",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 76,
+      "category": "词类",
+      "categoryName": "代词",
+      "item": "疑问代词",
+      "content": "为什么"
+    },
+    "meaning": "warum",
+    "formation": "为什么 + Satz？",
+    "explanation": "为什么 fragt nach dem Grund.",
+    "notes": "Antwort mit 因为... (weil...).",
+    "examples": [
+      {
+        "chinese": "你为什么学中文？",
+        "pinyin": "Nǐ wèi shénme xué Zhōngwén?",
+        "german": "Warum lernst du Chinesisch?"
+      },
+      {
+        "chinese": "为什么不行？",
+        "pinyin": "Wèi shénme bù xíng?",
+        "german": "Warum geht das nicht?"
+      }
+    ],
+    "legacyIds": [
+      "为什么"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:因为……，所以……",
+      "g:怎么"
+    ]
+  },
+  {
+    "id": "g:自己",
+    "pattern": "自己",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 77,
+      "category": "词类",
+      "categoryName": "代词",
+      "item": "人称代词",
+      "content": "自己"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:指示代词@HSK2",
+    "pattern": "指示代词",
+    "level": "HSK2",
+    "kind": "overview",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 78,
+      "category": "词类",
+      "categoryName": "代词",
+      "item": "指示代词",
+      "content": "那么、那样、这么、这样、每"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "那么",
+      "那样",
+      "这么",
+      "这样",
+      "每"
+    ]
+  },
+  {
+    "id": "g:每",
+    "pattern": "每",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 78,
+      "category": "词类",
+      "categoryName": "代词",
+      "item": "指示代词",
+      "content": "那么、那样、这么、这样、每"
+    },
+    "meaning": "jeder / jede / jedes",
+    "pinyin": "měi + Zählwort + Nomen",
+    "examples": [
+      {
+        "chinese": "每个人都很开心。",
+        "pinyin": "Měi gè rén dōu hěn kāixīn.",
+        "german": "Jeder ist sehr fröhlich."
+      },
+      {
+        "chinese": "我每天都学中文。",
+        "pinyin": "Wǒ měi tiān dōu xué zhōngwén.",
+        "german": "Ich lerne jeden Tag Chinesisch."
+      }
+    ],
+    "legacyIds": [
+      "g:每 + Zählwort + Nomen",
+      "每 + Zählwort + Nomen"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:那么",
+    "pattern": "那么",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 78,
+      "category": "词类",
+      "categoryName": "代词",
+      "item": "指示代词",
+      "content": "那么、那样、这么、这样、每"
+    },
+    "meaning": "so / dermaßen",
+    "pinyin": "nàme + Adj/Verb",
+    "examples": [
+      {
+        "chinese": "别那么紧张。",
+        "pinyin": "Bié nàme jǐnzhāng.",
+        "german": "Sei nicht so nervös."
+      },
+      {
+        "chinese": "你怎么那么忙？",
+        "pinyin": "Nǐ zěnme nàme máng?",
+        "german": "Warum bist du so beschäftigt?"
+      }
+    ],
+    "legacyIds": [
+      "g:那么 + Adj/Verb",
+      "那么 + Adj/Verb"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:AA、AABB",
+    "pattern": "AA、AABB",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 79,
+      "category": "词类",
+      "categoryName": "形容词",
+      "item": "形容词重叠",
+      "content": "AA、AABB"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:数词@HSK2",
+    "pattern": "数词",
+    "level": "HSK2",
+    "kind": "overview",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 80,
+      "category": "词类",
+      "categoryName": "数词",
+      "item": "",
+      "content": "万、好多、多"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "万",
+      "好多",
+      "多"
+    ]
+  },
+  {
+    "id": "g:名量词@HSK2",
+    "pattern": "名量词",
+    "level": "HSK2",
+    "kind": "overview",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 81,
+      "category": "词类",
+      "categoryName": "量词",
+      "item": "名量词",
+      "content": "（1）专用名量词：条、位、间、名"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "条",
+      "位",
+      "间",
+      "名"
+    ]
+  },
+  {
+    "id": "g:包",
+    "pattern": "包",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 82,
+      "category": "词类",
+      "categoryName": "量词",
+      "item": "名量词",
+      "content": "（2）借用名量词：包"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:次",
+    "pattern": "次",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Wortarten",
+    "syllabus": {
+      "no": 83,
+      "category": "词类",
+      "categoryName": "量词",
+      "item": "动量词",
+      "content": "次"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:程度副词@HSK2",
+    "pattern": "程度副词",
+    "level": "HSK2",
+    "kind": "overview",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 84,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "程度副词",
+      "content": "多、好、最"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "多",
+      "好",
+      "最"
+    ]
+  },
+  {
+    "id": "g:好",
+    "pattern": "好",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 84,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "程度副词",
+      "content": "多、好、最"
+    },
+    "meaning": "so / wirklich (Ausruf)",
+    "pinyin": "hǎo + Adjektiv",
+    "examples": [
+      {
+        "chinese": "好大啊！",
+        "pinyin": "Hǎo dà a!",
+        "german": "So groß!"
+      },
+      {
+        "chinese": "今天好冷！",
+        "pinyin": "Jīntiān hǎo lěng!",
+        "german": "Heute ist es wirklich kalt!"
+      }
+    ],
+    "legacyIds": [
+      "g:好 + Adjektiv",
+      "好 + Adjektiv"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:最",
+    "pattern": "最",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 84,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "程度副词",
+      "content": "多、好、最"
+    },
+    "meaning": "am meisten / -ste (Superlativ)",
+    "pinyin": "zuì + Adjektiv",
+    "examples": [
+      {
+        "chinese": "他是最高的。",
+        "pinyin": "Tā shì zuì gāo de.",
+        "german": "Er ist der Größte."
+      },
+      {
+        "chinese": "我最喜欢中国菜。",
+        "pinyin": "Wǒ zuì xǐhuan Zhōngguó cài.",
+        "german": "Ich mag chinesisches Essen am liebsten."
+      }
+    ],
+    "legacyIds": [
+      "g:最 + Adjektiv",
+      "最 + Adjektiv"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:一起",
+    "pattern": "一起",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 85,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "范围副词",
+      "content": "一起"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:时间副词@HSK2",
+    "pattern": "时间副词",
+    "level": "HSK2",
+    "kind": "overview",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 86,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "时间副词",
+      "content": "还²、已经、有时（候）、快、快要、正"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "还²",
+      "已经",
+      "有时（候）",
+      "快",
+      "快要",
+      "正"
+    ]
+  },
+  {
+    "id": "g:还²",
+    "pattern": "还²",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 86,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "时间副词",
+      "content": "还²、已经、有时（候）、快、快要、正"
+    },
+    "meaning": "noch nicht (Erwartung unerfüllt)",
+    "pinyin": "hái méi(yǒu)… ne",
+    "examples": [
+      {
+        "chinese": "他还没来呢。",
+        "pinyin": "Tā hái méi lái ne.",
+        "german": "Er ist noch nicht gekommen."
+      },
+      {
+        "chinese": "我还没吃饭呢。",
+        "pinyin": "Wǒ hái méi chī fàn ne.",
+        "german": "Ich habe noch nicht gegessen."
+      }
+    ],
+    "legacyIds": [
+      "g:还没（有）…呢",
+      "还没（有）…呢"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:已经",
+    "pattern": "已经",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 86,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "时间副词",
+      "content": "还²、已经、有时（候）、快、快要、正"
+    },
+    "meaning": "bereits / schon (abgeschlossen)",
+    "pinyin": "yǐjīng…le",
+    "examples": [
+      {
+        "chinese": "我已经吃了。",
+        "pinyin": "Wǒ yǐjīng chī le.",
+        "german": "Ich habe schon gegessen."
+      },
+      {
+        "chinese": "他已经走了。",
+        "pinyin": "Tā yǐjīng zǒu le.",
+        "german": "Er ist bereits gegangen."
+      }
+    ],
+    "legacyIds": [
+      "g:已经…了",
+      "已经…了"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:常",
+    "pattern": "常",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 87,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "频率副词",
+      "content": "常、经常"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:经常",
+    "pattern": "经常",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 87,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "频率副词",
+      "content": "常、经常"
+    },
+    "meaning": "oft / häufig",
+    "pinyin": "chángcháng/jīngcháng",
+    "examples": [
+      {
+        "chinese": "我常常去图书馆。",
+        "pinyin": "Wǒ chángcháng qù túshūguǎn.",
+        "german": "Ich gehe oft in die Bibliothek."
+      },
+      {
+        "chinese": "他经常迟到。",
+        "pinyin": "Tā jīngcháng chídào.",
+        "german": "Er kommt häufig zu spät."
+      }
+    ],
+    "legacyIds": [
+      "g:常常/经常",
+      "常常/经常"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:别",
+    "pattern": "别",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 88,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "否定副词",
+      "content": "别"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:再²",
+    "pattern": "再²",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 89,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "关联副词",
+      "content": "再²、就¹"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:就¹",
+    "pattern": "就¹",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 89,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "关联副词",
+      "content": "再²、就¹"
+    },
+    "meaning": "dann / gleich / sofort / bereits",
+    "pinyin": "jiù + Verb",
+    "examples": [
+      {
+        "chinese": "我马上就来。",
+        "pinyin": "Wǒ mǎshàng jiù lái.",
+        "german": "Ich komme gleich."
+      },
+      {
+        "chinese": "他六点就起床了。",
+        "pinyin": "Tā liù diǎn jiù qǐchuáng le.",
+        "german": "Er ist schon um sechs Uhr aufgestanden."
+      }
+    ],
+    "legacyIds": [
+      "g:就 + Verb",
+      "就 + Verb"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:语气副词@HSK2",
+    "pattern": "语气副词",
+    "level": "HSK2",
+    "kind": "overview",
+    "category": "Adverbien",
+    "syllabus": {
+      "no": 90,
+      "category": "词类",
+      "categoryName": "副词",
+      "item": "语气副词",
+      "content": "都²、就²、还是¹"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "都²",
+      "就²",
+      "还是¹"
+    ]
+  },
+  {
+    "id": "g:从¹",
+    "pattern": "从¹",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Präpositionen",
+    "syllabus": {
+      "no": 91,
+      "category": "词类",
+      "categoryName": "介词",
+      "item": "引出时间、处所",
+      "content": "从¹"
+    },
+    "meaning": "von / ab (Ausgangsort oder -zeit)",
+    "pinyin": "cóng + Ort/Zeit",
+    "examples": [
+      {
+        "chinese": "从一到十",
+        "pinyin": "Cóng yī dào shí",
+        "german": "Von eins bis zehn."
+      },
+      {
+        "chinese": "我从北京到上海。",
+        "pinyin": "Wǒ cóng Běijīng dào Shànghǎi.",
+        "german": "Ich (fahre) von Peking nach Shanghai."
+      },
+      {
+        "chinese": "我从北京来。",
+        "pinyin": "Wǒ cóng Běijīng lái.",
+        "german": "Ich komme aus Peking."
+      },
+      {
+        "chinese": "从明天开始学习。",
+        "pinyin": "Cóng míngtiān kāishǐ xuéxí.",
+        "german": "Ab morgen fange ich an zu lernen."
+      }
+    ],
+    "legacyIds": [
+      "g:从...到...",
+      "从...到...",
+      "g:从 + Ort/Zeit",
+      "从 + Ort/Zeit"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:往",
+    "pattern": "往",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Präpositionen",
+    "syllabus": {
+      "no": 92,
+      "category": "词类",
+      "categoryName": "介词",
+      "item": "引出方向、路径",
+      "content": "往"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:从²",
+    "pattern": "从²",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Präpositionen",
+    "syllabus": {
+      "no": 93,
+      "category": "词类",
+      "categoryName": "介词",
+      "item": "引出方向、路径",
+      "content": "从²"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:给",
+    "pattern": "给",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Präpositionen",
+    "syllabus": {
+      "no": 94,
+      "category": "词类",
+      "categoryName": "介词",
+      "item": "引出对象",
+      "content": "给"
+    },
+    "meaning": "für jemanden etw. tun / jemandem geben",
+    "formation": "给 + Empfänger + Verb + Objekt",
+    "explanation": "给 kann als Verb (geben) oder als Präposition (für) verwendet werden.",
+    "notes": "给 als Präposition steht vor dem Verb.",
+    "examples": [
+      {
+        "chinese": "请给我一杯水。",
+        "pinyin": "Qǐng gěi wǒ yì bēi shuǐ.",
+        "german": "Bitte gib mir ein Glas Wasser."
+      },
+      {
+        "chinese": "我给你打电话。",
+        "pinyin": "Wǒ gěi nǐ dǎ diànhuà.",
+        "german": "Ich rufe dich an."
+      }
+    ],
+    "legacyIds": [
+      "g:给 + Person + Verb",
+      "给 + Person + Verb"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:把"
     ]
   },
   {
     "id": "g:比",
     "pattern": "比",
     "level": "HSK2",
-    "category": "Satzstrukturen",
+    "kind": "word",
+    "category": "Präpositionen",
+    "syllabus": {
+      "no": 95,
+      "category": "词类",
+      "categoryName": "介词",
+      "item": "引出对象",
+      "content": "比"
+    },
     "meaning": "Vergleich (mehr als)",
     "formation": "A + 比 + B + Adjektiv",
     "explanation": "比 wird für Vergleiche verwendet und bedeutet ‹mehr als / ...er als›.",
     "notes": "Kein 很 nach 比: ‹他比我很高› ist falsch.",
-    "relatedPatterns": [
-      "没有...那么",
-      "一样"
-    ],
     "examples": [
       {
         "chinese": "他比我高。",
@@ -56,50 +824,922 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
     ],
     "legacyIds": [
       "比"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:A有/没有B（+这么/那么）+形容词"
     ]
   },
   {
-    "id": "g:跟...一样",
-    "pattern": "跟...一样",
+    "id": "g:跟¹",
+    "pattern": "跟¹",
     "level": "HSK2",
-    "category": "Satzstrukturen",
-    "meaning": "gleich wie / genauso wie",
-    "formation": "A + 跟 + B + 一样 (+ Adjektiv)",
-    "explanation": "Drückt Gleichheit zwischen zwei Dingen aus.",
-    "notes": "Verneinung: 跟...不一样 (anders als).",
-    "relatedPatterns": [
-      "比",
-      "不一样"
-    ],
+    "kind": "word",
+    "category": "Präpositionen",
+    "syllabus": {
+      "no": 96,
+      "category": "词类",
+      "categoryName": "介词",
+      "item": "引出对象",
+      "content": "跟¹"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:因为¹",
+    "pattern": "因为¹",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Präpositionen",
+    "syllabus": {
+      "no": 97,
+      "category": "词类",
+      "categoryName": "介词",
+      "item": "引出原因",
+      "content": "因为¹"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:跟²",
+    "pattern": "跟²",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Konjunktionen",
+    "syllabus": {
+      "no": 98,
+      "category": "词类",
+      "categoryName": "连词",
+      "item": "连接词或短语",
+      "content": "跟²"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:连接分句或者句子@HSK2",
+    "pattern": "连接分句或者句子",
+    "level": "HSK2",
+    "kind": "overview",
+    "category": "Konjunktionen",
+    "syllabus": {
+      "no": 99,
+      "category": "词类",
+      "categoryName": "连词",
+      "item": "连接分句或者句子",
+      "content": "但、但是、那、虽然、还是²、因为²、所以"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "但",
+      "但是",
+      "那",
+      "虽然",
+      "还是²",
+      "因为²",
+      "所以"
+    ]
+  },
+  {
+    "id": "g:得",
+    "pattern": "得",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Partikeln",
+    "syllabus": {
+      "no": 100,
+      "category": "词类",
+      "categoryName": "助词",
+      "item": "结构助词",
+      "content": "得、地"
+    },
+    "meaning": "Angabe über Art/Grad einer Handlung",
+    "formation": "Verb + 得 + Beschreibung",
+    "explanation": "得 verbindet ein Verb mit einer Beschreibung, wie gut/schlecht etc. die Handlung ausgeführt wird.",
+    "notes": "Drei de: 的 (Attribut), 得 (Grad/Art), 地 (Adverb).",
     "examples": [
       {
-        "chinese": "你跟他一样高。",
-        "pinyin": "Nǐ gēn tā yíyàng gāo.",
-        "german": "Du bist genauso groß wie er."
+        "chinese": "他说得很好。",
+        "pinyin": "Tā shuō de hěn hǎo.",
+        "german": "Er spricht sehr gut."
       },
       {
-        "chinese": "这个跟那个一样。",
-        "pinyin": "Zhège gēn nàge yíyàng.",
-        "german": "Dieses ist genauso wie jenes."
+        "chinese": "你跑得太快了。",
+        "pinyin": "Nǐ pǎo de tài kuài le.",
+        "german": "Du läufst zu schnell."
       }
     ],
     "legacyIds": [
-      "跟...一样"
+      "g:得 (Grad-/Artangabe)",
+      "得 (Grad-/Artangabe)"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:地",
+    "pattern": "地",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Partikeln",
+    "syllabus": {
+      "no": 100,
+      "category": "词类",
+      "categoryName": "助词",
+      "item": "结构助词",
+      "content": "得、地"
+    },
+    "meaning": "Adverb-Marker (Adj → Adverb)",
+    "formation": "Adjektiv + 地 + Verb",
+    "explanation": "地 wandelt ein Adjektiv in ein Adverb um (ähnlich wie dt. ‹-lich/-weise›).",
+    "notes": "的 = Attribut, 得 = Gradangabe, 地 = Adverb.",
+    "examples": [
+      {
+        "chinese": "他高兴地说。",
+        "pinyin": "Tā gāoxìng de shuō.",
+        "german": "Er sagte fröhlich."
+      },
+      {
+        "chinese": "请认真地听。",
+        "pinyin": "Qǐng rènzhēn de tīng.",
+        "german": "Bitte hör aufmerksam zu."
+      }
+    ],
+    "legacyIds": [
+      "g:地 (Adverbpartikel)",
+      "地 (Adverbpartikel)"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:过",
+    "pattern": "过",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Partikeln",
+    "syllabus": {
+      "no": 101,
+      "category": "词类",
+      "categoryName": "助词",
+      "item": "动态助词",
+      "content": "过"
+    },
+    "meaning": "Erfahrungsaspekt (schon einmal)",
+    "formation": "Verb + 过 (+ Objekt)",
+    "explanation": "过 nach dem Verb zeigt an, dass man etwas schon einmal erlebt hat.",
+    "notes": "Verneinung: 没 + Verb + 过 (我没去过中国).",
+    "examples": [
+      {
+        "chinese": "我去过中国。",
+        "pinyin": "Wǒ qù guò Zhōngguó.",
+        "german": "Ich war schon mal in China."
+      },
+      {
+        "chinese": "你吃过北京烤鸭吗？",
+        "pinyin": "Nǐ chī guò Běijīng kǎoyā ma?",
+        "german": "Hast du schon mal Pekingente gegessen?"
+      }
+    ],
+    "legacyIds": [
+      "过"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:着",
+    "pattern": "着",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Partikeln",
+    "syllabus": {
+      "no": 102,
+      "category": "词类",
+      "categoryName": "助词",
+      "item": "动态助词",
+      "content": "着"
+    },
+    "meaning": "andauernder Zustand",
+    "formation": "Verb + 着",
+    "explanation": "着 nach dem Verb beschreibt einen andauernden Zustand (nicht eine Aktion).",
+    "notes": "着 = Zustand, 在 = laufende Handlung, 了 = Abschluss.",
+    "examples": [
+      {
+        "chinese": "门开着。",
+        "pinyin": "Mén kāi zhe.",
+        "german": "Die Tür steht offen."
+      },
+      {
+        "chinese": "他穿着红色的衣服。",
+        "pinyin": "Tā chuān zhe hóngsè de yīfu.",
+        "german": "Er trägt rote Kleidung."
+      }
+    ],
+    "legacyIds": [
+      "g:Verb + 着",
+      "Verb + 着"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:在"
     ]
   },
   {
-    "id": "g:没有...那么",
-    "pattern": "没有...那么",
+    "id": "g:语气助词@HSK2",
+    "pattern": "语气助词",
     "level": "HSK2",
-    "category": "Satzstrukturen",
+    "kind": "overview",
+    "category": "Partikeln",
+    "syllabus": {
+      "no": 103,
+      "category": "词类",
+      "categoryName": "助词",
+      "item": "语气助词",
+      "content": "呢⁴、吧²、的²、啊¹"
+    },
+    "meaningStatus": "draft",
+    "words": [
+      "呢⁴",
+      "吧²",
+      "的²",
+      "啊¹"
+    ]
+  },
+  {
+    "id": "g:啊¹",
+    "pattern": "啊¹",
+    "level": "HSK2",
+    "kind": "word",
+    "category": "Partikeln",
+    "syllabus": {
+      "no": 103,
+      "category": "词类",
+      "categoryName": "助词",
+      "item": "语气助词",
+      "content": "呢⁴、吧²、的²、啊¹"
+    },
+    "meaning": "Ausrufspartikel (Staunen, Aufforderung)",
+    "pinyin": "…a",
+    "examples": [
+      {
+        "chinese": "太好了啊！",
+        "pinyin": "Tài hǎo le a!",
+        "german": "Das ist ja großartig!"
+      },
+      {
+        "chinese": "快来啊！",
+        "pinyin": "Kuài lái a!",
+        "german": "Komm schnell!"
+      }
+    ],
+    "legacyIds": [
+      "g:…啊",
+      "…啊"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:动补短语1",
+    "pattern": "动补短语1",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Wortgruppen",
+    "syllabus": {
+      "no": 104,
+      "category": "短语",
+      "categoryName": "结构类型",
+      "item": "基本结构类型",
+      "content": "动补短语1"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:其他结构类型：“的”字短语",
+    "pattern": "其他结构类型：“的”字短语",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Wortgruppen",
+    "syllabus": {
+      "no": 105,
+      "category": "短语",
+      "categoryName": "结构类型",
+      "item": "其他结构类型",
+      "content": "（1）“的”字短语"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:其他结构类型：连谓短语",
+    "pattern": "其他结构类型：连谓短语",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Wortgruppen",
+    "syllabus": {
+      "no": 106,
+      "category": "短语",
+      "categoryName": "结构类型",
+      "item": "其他结构类型",
+      "content": "（2）连谓短语"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:其他结构类型：兼语短语",
+    "pattern": "其他结构类型：兼语短语",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Wortgruppen",
+    "syllabus": {
+      "no": 107,
+      "category": "短语",
+      "categoryName": "结构类型",
+      "item": "其他结构类型",
+      "content": "（3）兼语短语"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:名词性短语",
+    "pattern": "名词性短语",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Wortgruppen",
+    "syllabus": {
+      "no": 108,
+      "category": "短语",
+      "categoryName": "功能类型",
+      "item": "名词性短语",
+      "content": ""
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:动词性短语",
+    "pattern": "动词性短语",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Wortgruppen",
+    "syllabus": {
+      "no": 109,
+      "category": "短语",
+      "categoryName": "功能类型",
+      "item": "动词性短语",
+      "content": ""
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:形容词性短语",
+    "pattern": "形容词性短语",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Wortgruppen",
+    "syllabus": {
+      "no": 110,
+      "category": "短语",
+      "categoryName": "功能类型",
+      "item": "形容词性短语",
+      "content": ""
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:什么的",
+    "pattern": "什么的",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 111,
+      "category": "短语",
+      "categoryName": "固定短语",
+      "item": "其他",
+      "content": "什么的"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:还是……吧",
+    "pattern": "还是……吧",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 112,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "还是……吧"
+    },
+    "meaning": "lieber doch / besser (Vorschlag nach Abwägung)",
+    "pinyin": "háishi…ba",
+    "examples": [
+      {
+        "chinese": "还是坐出租车吧。",
+        "pinyin": "Háishi zuò chūzūchē ba.",
+        "german": "Nehmen wir doch lieber ein Taxi."
+      },
+      {
+        "chinese": "还是你来决定吧。",
+        "pinyin": "Háishi nǐ lái juédìng ba.",
+        "german": "Entscheide du das doch lieber."
+      }
+    ],
+    "legacyIds": [
+      "g:还是…吧",
+      "还是…吧"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:要/快要/就要……了",
+    "pattern": "要/快要/就要……了",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 113,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "要/快要/就要……了"
+    },
+    "meaning": "bald / gleich (unmittelbar bevorstehend)",
+    "pinyin": "kuàiyào…le",
+    "examples": [
+      {
+        "chinese": "快要下雨了。",
+        "pinyin": "Kuàiyào xiàyǔ le.",
+        "german": "Es wird gleich regnen."
+      },
+      {
+        "chinese": "电影快要开始了。",
+        "pinyin": "Diànyǐng kuàiyào kāishǐ le.",
+        "german": "Der Film fängt gleich an."
+      },
+      {
+        "chinese": "要下雨了。",
+        "pinyin": "Yào xià yǔ le.",
+        "german": "Es wird gleich regnen."
+      },
+      {
+        "chinese": "火车要开了！",
+        "pinyin": "Huǒchē yào kāi le!",
+        "german": "Der Zug fährt gleich ab!"
+      }
+    ],
+    "legacyIds": [
+      "g:快要…了",
+      "快要…了",
+      "g:要…了",
+      "要…了"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:都……了",
+    "pattern": "都……了",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Feste Muster",
+    "syllabus": {
+      "no": 114,
+      "category": "固定格式",
+      "categoryName": "",
+      "item": "",
+      "content": "都……了"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:受事主语",
+    "pattern": "受事主语",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Satzglieder",
+    "syllabus": {
+      "no": 115,
+      "category": "句子成分",
+      "categoryName": "主语",
+      "item": "",
+      "content": "受事主语"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:名词性短语作谓语",
+    "pattern": "名词性短语作谓语",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Satzglieder",
+    "syllabus": {
+      "no": 116,
+      "category": "句子成分",
+      "categoryName": "谓语",
+      "item": "",
+      "content": "名词性短语作谓语"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:定语：动词或动词性短语、主谓短语作定语",
+    "pattern": "定语：动词或动词性短语、主谓短语作定语",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Satzglieder",
+    "syllabus": {
+      "no": 117,
+      "category": "句子成分",
+      "categoryName": "定语",
+      "item": "",
+      "content": "动词或动词性短语、主谓短语作定语"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:动词+错/懂/好/会/完",
+    "pattern": "动词+错/懂/好/会/完",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Komplemente",
+    "syllabus": {
+      "no": 118,
+      "category": "句子成分",
+      "categoryName": "补语",
+      "item": "结果补语1",
+      "content": "动词+错/懂/好/会/完"
+    },
+    "meaning": "fertig / zu Ende (Resultativkomplement)",
+    "formation": "Verb + 完 (+ 了)",
+    "explanation": "完 als Komplement zeigt an, dass eine Handlung vollständig abgeschlossen ist.",
+    "notes": "完 = vollständig abgeschlossen, 好 = zufriedenstellend fertig.",
+    "examples": [
+      {
+        "chinese": "我吃完了。",
+        "pinyin": "Wǒ chī wán le.",
+        "german": "Ich habe aufgegessen."
+      },
+      {
+        "chinese": "你看完这本书了吗？",
+        "pinyin": "Nǐ kàn wán zhè běn shū le ma?",
+        "german": "Hast du das Buch fertig gelesen?"
+      },
+      {
+        "chinese": "饭做好了。",
+        "pinyin": "Fàn zuò hǎo le.",
+        "german": "Das Essen ist fertig (zubereitet)."
+      },
+      {
+        "chinese": "准备好了吗？",
+        "pinyin": "Zhǔnbèi hǎo le ma?",
+        "german": "Bist du fertig/bereit?"
+      }
+    ],
+    "legacyIds": [
+      "g:Verb + 完",
+      "Verb + 完",
+      "g:Verb + 好",
+      "Verb + 好"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:动词+到/住/走/上"
+    ]
+  },
+  {
+    "id": "g:简单趋向补语的趋向意义用法：（1）动词+来/去",
+    "pattern": "简单趋向补语的趋向意义用法：（1）动词+来/去",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Komplemente",
+    "syllabus": {
+      "no": 119,
+      "category": "句子成分",
+      "categoryName": "补语",
+      "item": "趋向补语1",
+      "content": "简单趋向补语的趋向意义用法：（1）动词+来/去"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:动词+上/下/进/出/过/回",
+    "pattern": "动词+上/下/进/出/过/回",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Komplemente",
+    "syllabus": {
+      "no": 120,
+      "category": "句子成分",
+      "categoryName": "补语",
+      "item": "趋向补语1",
+      "content": "（2）动词+上/下/进/出/过/回"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:复合趋向补语的趋向意义用法：动词+出来/出去/过来/过去/回来/回去/进来/进去/起来/上来/上去/下来/下去",
+    "pattern": "复合趋向补语的趋向意义用法：动词+出来/出去/过来/过去/回来/回去/进来/进去/起来/上来/上去/下来/下去",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Komplemente",
+    "syllabus": {
+      "no": 121,
+      "category": "句子成分",
+      "categoryName": "补语",
+      "item": "趋向补语1",
+      "content": "复合趋向补语的趋向意义用法：动词+出来/出去/过来/过去/回来/回去/进来/进去/起来/上来/上去/下来/下去"
+    },
+    "meaning": "her-/hin- (Richtungskomplement zum/weg vom Sprecher)",
+    "pinyin": "Verb + guòlái/guòqù",
+    "examples": [
+      {
+        "chinese": "你过来一下。",
+        "pinyin": "Nǐ guòlái yíxià.",
+        "german": "Komm mal her."
+      },
+      {
+        "chinese": "他走过去了。",
+        "pinyin": "Tā zǒu guòqù le.",
+        "german": "Er ist hinübergegangen."
+      },
+      {
+        "chinese": "我看出来了。",
+        "pinyin": "Wǒ kàn chūlái le.",
+        "german": "Ich habe es erkannt/gemerkt."
+      },
+      {
+        "chinese": "你能听出来吗？",
+        "pinyin": "Nǐ néng tīng chūlái ma?",
+        "german": "Kannst du es heraushören?"
+      },
+      {
+        "chinese": "我听出来了，这是东北口音。",
+        "pinyin": "Wǒ tīng chūlái le, zhè shì dōngběi kǒuyīn.",
+        "german": "Ich habe es herausgehoert, das ist ein Nordost-Dialekt."
+      },
+      {
+        "chinese": "你能看出来他多大吗？",
+        "pinyin": "Nǐ néng kàn chūlái tā duō dà ma?",
+        "german": "Kannst du erkennen, wie alt er ist?"
+      },
+      {
+        "chinese": "请你记下来。",
+        "pinyin": "Qǐng nǐ jì xiàlái.",
+        "german": "Bitte schreib es dir auf."
+      },
+      {
+        "chinese": "冷静下来。",
+        "pinyin": "Lěngjìng xiàlái.",
+        "german": "Beruhige dich."
+      }
+    ],
+    "legacyIds": [
+      "g:Verb + 过来/过去",
+      "Verb + 过来/过去",
+      "g:Verb + 出来",
+      "Verb + 出来",
+      "g:Verb + 下来",
+      "Verb + 下来"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:表示动作行为的开始：动词+上/起来",
+      "g:表示动作行为的持续：动词+下去/下来"
+    ]
+  },
+  {
+    "id": "g:动词+得+形容词性短语",
+    "pattern": "动词+得+形容词性短语",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Komplemente",
+    "syllabus": {
+      "no": 122,
+      "category": "句子成分",
+      "categoryName": "补语",
+      "item": "状态补语1",
+      "content": "动词+得+形容词性短语"
+    },
+    "meaning": "etwas gut machen (Grad-Komplement)",
+    "pinyin": "Verb + de + hěn hǎo",
+    "examples": [
+      {
+        "chinese": "她说得很好。",
+        "pinyin": "Tā shuō de hěn hǎo.",
+        "german": "Sie spricht sehr gut."
+      },
+      {
+        "chinese": "你写得很漂亮。",
+        "pinyin": "Nǐ xiě de hěn piàoliang.",
+        "german": "Du schreibst sehr schön."
+      }
+    ],
+    "legacyIds": [
+      "g:Verb + 得 + 很好",
+      "Verb + 得 + 很好"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:数量补语2：表示动作持续的时间",
+    "pattern": "数量补语2：表示动作持续的时间",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Komplemente",
+    "syllabus": {
+      "no": 123,
+      "category": "句子成分",
+      "categoryName": "补语",
+      "item": "数量补语2",
+      "content": "（1）表示动作持续的时间"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:形容词+数量补语",
+    "pattern": "形容词+数量补语",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Komplemente",
+    "syllabus": {
+      "no": 124,
+      "category": "句子成分",
+      "categoryName": "补语",
+      "item": "数量补语2",
+      "content": "（2）形容词+数量补语"
+    },
+    "meaning": "ein bisschen mehr (Aufforderung)",
+    "pinyin": "Adj + yìdiǎnr",
+    "examples": [
+      {
+        "chinese": "请快一点儿。",
+        "pinyin": "Qǐng kuài yìdiǎnr.",
+        "german": "Bitte ein bisschen schneller."
+      },
+      {
+        "chinese": "说慢一点儿。",
+        "pinyin": "Shuō màn yìdiǎnr.",
+        "german": "Sprich ein bisschen langsamer."
+      }
+    ],
+    "legacyIds": [
+      "g:Adj + 一点儿",
+      "Adj + 一点儿"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:主谓句4：主谓谓语句",
+    "pattern": "主谓句4：主谓谓语句",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Satzarten",
+    "syllabus": {
+      "no": 125,
+      "category": "句子的类型",
+      "categoryName": "句型",
+      "item": "单句",
+      "content": "主谓句4：主谓谓语句"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:疑问句：用“还是”连接的选择问句",
+    "pattern": "疑问句：用“还是”连接的选择问句",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Satzarten",
+    "syllabus": {
+      "no": 126,
+      "category": "句子的类型",
+      "categoryName": "句类",
+      "item": "疑问句",
+      "content": "用“还是”连接的选择问句"
+    },
+    "meaning": "oder (in Alternativfragen)",
+    "pinyin": "háishi (Frage)",
+    "examples": [
+      {
+        "chinese": "你喝茶还是咖啡？",
+        "pinyin": "Nǐ hē chá háishi kāfēi?",
+        "german": "Trinkst du Tee oder Kaffee?"
+      },
+      {
+        "chinese": "你是中国人还是日本人？",
+        "pinyin": "Nǐ shì Zhōngguó rén háishi Rìběn rén?",
+        "german": "Bist du Chinese oder Japaner?"
+      }
+    ],
+    "legacyIds": [
+      "g:还是 (Frage)",
+      "还是 (Frage)"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:祈使句：用“别”的祈使句",
+    "pattern": "祈使句：用“别”的祈使句",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Satzarten",
+    "syllabus": {
+      "no": 127,
+      "category": "句子的类型",
+      "categoryName": "句类",
+      "item": "祈使句",
+      "content": "用“别”的祈使句"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:“是”字句2：表示说明或特征",
+    "pattern": "“是”字句2：表示说明或特征",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 128,
+      "category": "句子的类型",
+      "categoryName": "特殊句式",
+      "item": "“是”字句2",
+      "content": "表示说明或特征"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:“有”字句2：表示达到",
+    "pattern": "“有”字句2：表示达到",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 129,
+      "category": "句子的类型",
+      "categoryName": "特殊句式",
+      "item": "“有”字句2",
+      "content": "表示达到"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:处所+动词+着(+数量短语)+名词",
+    "pattern": "处所+动词+着(+数量短语)+名词",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 130,
+      "category": "句子的类型",
+      "categoryName": "特殊句式",
+      "item": "存现句2",
+      "content": "处所+动词+着(+数量短语)+名词"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:A比B+形容词",
+    "pattern": "A比B+形容词",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 131,
+      "category": "句子的类型",
+      "categoryName": "特殊句式",
+      "item": "比较句1",
+      "content": "（1）A比B+形容词"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:A比B+形容词+数量补语/程度补语",
+    "pattern": "A比B+形容词+数量补语/程度补语",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 132,
+      "category": "句子的类型",
+      "categoryName": "特殊句式",
+      "item": "比较句1",
+      "content": "（2）A比B+形容词+数量补语/程度补语"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:A有/没有B（+这么/那么）+形容词",
+    "pattern": "A有/没有B（+这么/那么）+形容词",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 133,
+      "category": "句子的类型",
+      "categoryName": "特殊句式",
+      "item": "比较句1",
+      "content": "（3）A有/没有B（+这么/那么）+形容词"
+    },
     "meaning": "nicht so ... wie",
     "formation": "A + 没有 + B + 那么 + Adjektiv",
     "explanation": "Negativer Vergleich: A ist nicht so [Adjektiv] wie B.",
     "notes": "那么 kann durch 这么 ersetzt werden.",
-    "relatedPatterns": [
-      "比",
-      "跟...一样"
-    ],
     "examples": [
       {
         "chinese": "我没有他那么高。",
@@ -113,65 +1753,166 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
       }
     ],
     "legacyIds": [
+      "g:没有...那么",
       "没有...那么"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:比",
+      "g:A跟B一样+形容词"
     ]
   },
   {
-    "id": "g:一边...一边...",
-    "pattern": "一边...一边...",
+    "id": "g:A比B+动词+得+形容词/A+动词+得+比+B+形容词",
+    "pattern": "A比B+动词+得+形容词/A+动词+得+比+B+形容词",
     "level": "HSK2",
-    "category": "Satzstrukturen",
-    "meaning": "gleichzeitig (einerseits...andererseits)",
-    "formation": "一边 + Verb₁ + 一边 + Verb₂",
-    "explanation": "Drückt aus, dass zwei Handlungen gleichzeitig stattfinden.",
-    "notes": "Beide Handlungen müssen gleichzeitig möglich sein.",
-    "relatedPatterns": [
-      "又...又..."
-    ],
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 134,
+      "category": "句子的类型",
+      "categoryName": "特殊句式",
+      "item": "比较句1",
+      "content": "（4）A比B+动词+得+形容词/A+动词+得+比+B+形容词"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:“是……的”句1：强调时间、地点、方式、动作者",
+    "pattern": "“是……的”句1：强调时间、地点、方式、动作者",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 135,
+      "category": "句子的类型",
+      "categoryName": "特殊句式",
+      "item": "“是……的”句1",
+      "content": "强调时间、地点、方式、动作者"
+    },
+    "meaning": "betont, wie/wann/wo etwas geschah",
+    "formation": "Subjekt + 是 + Details + Verb + 的",
+    "explanation": "Die 是...的-Konstruktion wird verwendet, um bestimmte Details einer bereits bekannten Handlung zu betonen, z.B. wann, wo oder wie etwas geschehen ist.",
+    "notes": "Wird nur für abgeschlossene Handlungen verwendet. Nicht verwechseln mit einfachem 是.",
     "examples": [
       {
-        "chinese": "他一边吃饭一边看电视。",
-        "pinyin": "Tā yìbiān chī fàn yìbiān kàn diànshì.",
-        "german": "Er isst und schaut gleichzeitig fern."
+        "chinese": "我是去年来中国的。",
+        "pinyin": "Wǒ shì qùnián lái Zhōngguó de.",
+        "german": "Ich bin letztes Jahr nach China gekommen (betont: letztes Jahr)."
       },
       {
-        "chinese": "一边走一边聊天。",
-        "pinyin": "Yìbiān zǒu yìbiān liáotiān.",
-        "german": "Gleichzeitig gehen und plaudern."
-      },
-      {
-        "chinese": "他一边吃饭一边看手机。",
-        "pinyin": "Tā yìbiān chīfàn yìbiān kàn shǒujī.",
-        "german": "Er isst und schaut gleichzeitig aufs Handy."
-      },
-      {
-        "chinese": "我喜欢一边听音乐一边做作业。",
-        "pinyin": "Wǒ xǐhuan yìbiān tīng yīnyuè yìbiān zuò zuòyè.",
-        "german": "Ich hoere gerne Musik, waehrend ich Hausaufgaben mache."
-      },
-      {
-        "chinese": "她一边走路一边打电话。",
-        "pinyin": "Tā yìbiān zǒulù yìbiān dǎ diànhuà.",
-        "german": "Sie telefoniert beim Gehen."
+        "chinese": "你是怎么来的？",
+        "pinyin": "Nǐ shì zěnme lái de?",
+        "german": "Wie bist du gekommen?"
       }
     ],
     "legacyIds": [
-      "一边...一边..."
+      "g:是...的",
+      "是...的"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:过"
     ]
   },
   {
-    "id": "g:虽然...但是...",
-    "pattern": "虽然...但是...",
+    "id": "g:表使令：主语+请/叫/让……+宾语1+动词+宾语2",
+    "pattern": "表使令：主语+请/叫/让……+宾语1+动词+宾语2",
     "level": "HSK2",
-    "category": "Satzstrukturen",
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 136,
+      "category": "句子的类型",
+      "categoryName": "特殊句式",
+      "item": "兼语句1",
+      "content": "表使令：主语+请/叫/让……+宾语1+动词+宾语2"
+    },
+    "meaning": "jemanden etwas tun lassen",
+    "pinyin": "ràng + Person + Verb",
+    "examples": [
+      {
+        "chinese": "妈妈让我做作业。",
+        "pinyin": "Māma ràng wǒ zuò zuòyè.",
+        "german": "Mama lässt mich Hausaufgaben machen."
+      },
+      {
+        "chinese": "请让我看看。",
+        "pinyin": "Qǐng ràng wǒ kànkan.",
+        "german": "Bitte lass mich mal schauen."
+      }
+    ],
+    "legacyIds": [
+      "g:让 + Person + Verb",
+      "让 + Person + Verb"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:主语+动词+给+宾语1+宾语2",
+    "pattern": "主语+动词+给+宾语1+宾语2",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Satzmuster",
+    "syllabus": {
+      "no": 137,
+      "category": "句子的类型",
+      "categoryName": "特殊句式",
+      "item": "双宾语句2",
+      "content": "主语+动词+给+宾语1+宾语2"
+    },
+    "meaning": "jemandem etwas (als Resultat) geben",
+    "pinyin": "Verb + gěi + Person",
+    "examples": [
+      {
+        "chinese": "我送给你一个礼物。",
+        "pinyin": "Wǒ sòng gěi nǐ yí ge lǐwù.",
+        "german": "Ich schenke dir ein Geschenk."
+      },
+      {
+        "chinese": "请你把书还给我。",
+        "pinyin": "Qǐng nǐ bǎ shū huán gěi wǒ.",
+        "german": "Bitte gib mir das Buch zurück."
+      }
+    ],
+    "legacyIds": [
+      "g:Verb + 给 + Person",
+      "Verb + 给 + Person"
+    ],
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:（是）……，还是……",
+    "pattern": "（是）……，还是……",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 138,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "选择复句",
+      "content": "（是）……，还是……"
+    },
+    "meaningStatus": "draft"
+  },
+  {
+    "id": "g:虽然……，但是……",
+    "pattern": "虽然……，但是……",
+    "level": "HSK2",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 139,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "转折复句",
+      "content": "虽然……，但是……"
+    },
     "meaning": "obwohl ... aber ...",
     "formation": "虽然 + Satz₁, 但是 + Satz₂",
     "explanation": "Konzessivsatz: Einräumung eines Umstands mit Gegenaussage.",
     "notes": "但是 kann durch 可是 ersetzt werden. Im Chinesischen steht ‹aber› trotz ‹obwohl› – anders als im Deutschen.",
-    "relatedPatterns": [
-      "但是",
-      "可是"
-    ],
     "examples": [
       {
         "chinese": "虽然很贵，但是很好吃。",
@@ -200,22 +1941,28 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
       }
     ],
     "legacyIds": [
+      "g:虽然...但是...",
       "虽然...但是..."
-    ]
+    ],
+    "meaningStatus": "draft"
   },
   {
-    "id": "g:因为...所以...",
-    "pattern": "因为...所以...",
+    "id": "g:因为……，所以……",
+    "pattern": "因为……，所以……",
     "level": "HSK2",
-    "category": "Satzstrukturen",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 140,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "因果复句",
+      "content": "因为……，所以……"
+    },
     "meaning": "weil ... deshalb ...",
     "formation": "因为 + Grund, 所以 + Folge",
     "explanation": "Kausalsatz: Angabe von Grund und Folge.",
     "notes": "因为 und 所以 können einzeln verwendet werden, aber nie nur ‹因为› allein (所以 ist dann implizit).",
-    "relatedPatterns": [
-      "为什么",
-      "所以"
-    ],
     "examples": [
       {
         "chinese": "因为下雨，所以我没去。",
@@ -241,527 +1988,46 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
         "chinese": "因为天气太热，所以我们决定待在家里。",
         "pinyin": "Yīnwèi tiānqì tài rè, suǒyǐ wǒmen juédìng dāi zài jiālǐ.",
         "german": "Weil das Wetter zu heiss ist, haben wir uns entschieden, zu Hause zu bleiben."
+      },
+      {
+        "chinese": "正因为难，所以才有价值。",
+        "pinyin": "Zhèng yīnwèi nán, suǒyǐ cái yǒu jiàzhí.",
+        "german": "Gerade weil es schwer ist, hat es deshalb Wert."
+      },
+      {
+        "chinese": "正因为他很努力，所以取得了好成绩。",
+        "pinyin": "Zhèng yīnwèi tā hěn nǔlì, suǒyǐ qǔdé le hǎo chéngjì.",
+        "german": "Gerade weil er so fleißig war, hat er deshalb gute Ergebnisse erzielt."
       }
     ],
     "legacyIds": [
-      "因为...所以..."
+      "g:因为...所以...",
+      "因为...所以...",
+      "g:正因为…所以…",
+      "正因为…所以…"
+    ],
+    "meaningStatus": "draft",
+    "related": [
+      "g:为什么"
     ]
   },
   {
-    "id": "g:如果...就...",
-    "pattern": "如果...就...",
+    "id": "g:一……就……",
+    "pattern": "一……就……",
     "level": "HSK2",
-    "category": "Satzstrukturen",
-    "meaning": "wenn ... dann ...",
-    "formation": "如果 + Bedingung, (Subjekt +) 就 + Folge",
-    "explanation": "Konditionalsatz: Bedingung und deren Folge.",
-    "notes": "要是 ist eine umgangssprachlichere Alternative zu 如果.",
-    "relatedPatterns": [
-      "要是...就...",
-      "只要...就..."
-    ],
-    "examples": [
-      {
-        "chinese": "如果明天下雨，我就不去了。",
-        "pinyin": "Rúguǒ míngtiān xià yǔ, wǒ jiù bú qù le.",
-        "german": "Wenn es morgen regnet, gehe ich nicht."
-      },
-      {
-        "chinese": "如果你有时间，就来吧。",
-        "pinyin": "Rúguǒ nǐ yǒu shíjiān, jiù lái ba.",
-        "german": "Wenn du Zeit hast, komm doch."
-      }
-    ],
-    "legacyIds": [
-      "如果...就..."
-    ]
-  },
-  {
-    "id": "g:越来越...",
-    "pattern": "越来越...",
-    "level": "HSK2",
-    "category": "Adjektive",
-    "meaning": "immer mehr / zunehmend",
-    "formation": "越来越 + Adjektiv/Verb",
-    "explanation": "Drückt eine zunehmende Veränderung aus.",
-    "notes": "越...越...: Je mehr... desto mehr...",
-    "relatedPatterns": [
-      "越...越..."
-    ],
-    "examples": [
-      {
-        "chinese": "天气越来越冷了。",
-        "pinyin": "Tiānqì yuè lái yuè lěng le.",
-        "german": "Das Wetter wird immer kälter."
-      },
-      {
-        "chinese": "他的中文越来越好。",
-        "pinyin": "Tā de Zhōngwén yuè lái yuè hǎo.",
-        "german": "Sein Chinesisch wird immer besser."
-      }
-    ],
-    "legacyIds": [
-      "越来越..."
-    ]
-  },
-  {
-    "id": "g:越...越...",
-    "pattern": "越...越...",
-    "level": "HSK2",
-    "category": "Satzstrukturen",
-    "meaning": "je ... desto ...",
-    "formation": "越 + Adj₁/Verb₁ + 越 + Adj₂/Verb₂",
-    "explanation": "Drückt eine proportionale Beziehung aus: je mehr A, desto mehr B.",
-    "notes": "Subjekt kann weggelassen werden.",
-    "relatedPatterns": [
-      "越来越"
-    ],
-    "examples": [
-      {
-        "chinese": "越吃越胖。",
-        "pinyin": "Yuè chī yuè pàng.",
-        "german": "Je mehr man isst, desto dicker wird man."
-      },
-      {
-        "chinese": "越快越好。",
-        "pinyin": "Yuè kuài yuè hǎo.",
-        "german": "Je schneller, desto besser."
-      },
-      {
-        "chinese": "中文越学越有意思。",
-        "pinyin": "Zhōngwén yuè xué yuè yǒu yìsi.",
-        "german": "Je mehr man Chinesisch lernt, desto interessanter wird es."
-      },
-      {
-        "chinese": "天气越来越冷了。",
-        "pinyin": "Tiānqì yuè lái yuè lěng le.",
-        "german": "Das Wetter wird immer kaelter."
-      },
-      {
-        "chinese": "他越想越生气。",
-        "pinyin": "Tā yuè xiǎng yuè shēngqì.",
-        "german": "Je mehr er darueber nachdachte, desto wuetender wurde er."
-      }
-    ],
-    "legacyIds": [
-      "越...越..."
-    ]
-  },
-  {
-    "id": "g:把-Konstruktion",
-    "pattern": "把-Konstruktion",
-    "level": "HSK2",
-    "category": "Satzstrukturen",
-    "meaning": "Objekt vor das Verb stellen (Einwirkung)",
-    "formation": "Subjekt + 把 + Objekt + Verb + Komplement",
-    "explanation": "把 stellt das Objekt vor das Verb, um zu betonen, was mit dem Objekt geschieht. Das Verb braucht ein Komplement.",
-    "notes": "Das Verb darf nicht allein stehen – es braucht 了, ein Komplement oder eine andere Erweiterung.",
-    "relatedPatterns": [
-      "被"
-    ],
-    "examples": [
-      {
-        "chinese": "请把门关上。",
-        "pinyin": "Qǐng bǎ mén guānshàng.",
-        "german": "Bitte mach die Tür zu."
-      },
-      {
-        "chinese": "我把书放在桌子上了。",
-        "pinyin": "Wǒ bǎ shū fàng zài zhuōzi shàng le.",
-        "german": "Ich habe das Buch auf den Tisch gelegt."
-      }
-    ],
-    "legacyIds": [
-      "把-Konstruktion"
-    ]
-  },
-  {
-    "id": "g:被-Passiv",
-    "pattern": "被-Passiv",
-    "level": "HSK2",
-    "category": "Satzstrukturen",
-    "meaning": "Passivkonstruktion",
-    "formation": "Subjekt + 被 (+ Agens) + Verb + Komplement",
-    "explanation": "被 bildet das Passiv. Wird oft für negative oder unerwünschte Ereignisse verwendet.",
-    "notes": "被 hat oft eine negative Konnotation, wird aber zunehmend neutral verwendet.",
-    "relatedPatterns": [
-      "把"
-    ],
-    "examples": [
-      {
-        "chinese": "我的手机被偷了。",
-        "pinyin": "Wǒ de shǒujī bèi tōu le.",
-        "german": "Mein Handy wurde gestohlen."
-      },
-      {
-        "chinese": "他被老师批评了。",
-        "pinyin": "Tā bèi lǎoshī pīpíng le.",
-        "german": "Er wurde vom Lehrer kritisiert."
-      }
-    ],
-    "legacyIds": [
-      "被-Passiv"
-    ]
-  },
-  {
-    "id": "g:得 (Grad-/Artangabe)",
-    "pattern": "得 (Grad-/Artangabe)",
-    "level": "HSK2",
-    "category": "Verben",
-    "meaning": "Angabe über Art/Grad einer Handlung",
-    "formation": "Verb + 得 + Beschreibung",
-    "explanation": "得 verbindet ein Verb mit einer Beschreibung, wie gut/schlecht etc. die Handlung ausgeführt wird.",
-    "notes": "Drei de: 的 (Attribut), 得 (Grad/Art), 地 (Adverb).",
-    "relatedPatterns": [
-      "的",
-      "地"
-    ],
-    "examples": [
-      {
-        "chinese": "他说得很好。",
-        "pinyin": "Tā shuō de hěn hǎo.",
-        "german": "Er spricht sehr gut."
-      },
-      {
-        "chinese": "你跑得太快了。",
-        "pinyin": "Nǐ pǎo de tài kuài le.",
-        "german": "Du läufst zu schnell."
-      }
-    ],
-    "legacyIds": [
-      "得 (Grad-/Artangabe)"
-    ]
-  },
-  {
-    "id": "g:Verb + 完",
-    "pattern": "Verb + 完",
-    "level": "HSK2",
-    "category": "Verben",
-    "meaning": "fertig / zu Ende (Resultativkomplement)",
-    "formation": "Verb + 完 (+ 了)",
-    "explanation": "完 als Komplement zeigt an, dass eine Handlung vollständig abgeschlossen ist.",
-    "notes": "完 = vollständig abgeschlossen, 好 = zufriedenstellend fertig.",
-    "relatedPatterns": [
-      "Verb + 好",
-      "Verb + 到"
-    ],
-    "examples": [
-      {
-        "chinese": "我吃完了。",
-        "pinyin": "Wǒ chī wán le.",
-        "german": "Ich habe aufgegessen."
-      },
-      {
-        "chinese": "你看完这本书了吗？",
-        "pinyin": "Nǐ kàn wán zhè běn shū le ma?",
-        "german": "Hast du das Buch fertig gelesen?"
-      }
-    ],
-    "legacyIds": [
-      "Verb + 完"
-    ]
-  },
-  {
-    "id": "g:Verb + 到",
-    "pattern": "Verb + 到",
-    "level": "HSK2",
-    "category": "Verben",
-    "meaning": "bis zu / erreichen (Resultativkomplement)",
-    "formation": "Verb + 到 (+ Ziel/Zeitpunkt)",
-    "explanation": "到 als Komplement zeigt an, dass eine Handlung ein Ziel erreicht hat.",
-    "notes": "找到 (finden), 看到 (sehen/erblicken), 听到 (hören).",
-    "relatedPatterns": [
-      "Verb + 完",
-      "Verb + 好"
-    ],
-    "examples": [
-      {
-        "chinese": "我找到了。",
-        "pinyin": "Wǒ zhǎo dào le.",
-        "german": "Ich habe es gefunden."
-      },
-      {
-        "chinese": "他学到了很多。",
-        "pinyin": "Tā xué dào le hěn duō.",
-        "german": "Er hat viel gelernt."
-      }
-    ],
-    "legacyIds": [
-      "Verb + 到"
-    ]
-  },
-  {
-    "id": "g:Verb + 好",
-    "pattern": "Verb + 好",
-    "level": "HSK2",
-    "category": "Verben",
-    "meaning": "gut/fertig (Resultativkomplement)",
-    "formation": "Verb + 好 (+ 了)",
-    "explanation": "好 als Komplement zeigt an, dass etwas zufriedenstellend abgeschlossen oder vorbereitet ist.",
-    "notes": "好 betont die Qualität des Ergebnisses.",
-    "relatedPatterns": [
-      "Verb + 完",
-      "Verb + 到"
-    ],
-    "examples": [
-      {
-        "chinese": "饭做好了。",
-        "pinyin": "Fàn zuò hǎo le.",
-        "german": "Das Essen ist fertig (zubereitet)."
-      },
-      {
-        "chinese": "准备好了吗？",
-        "pinyin": "Zhǔnbèi hǎo le ma?",
-        "german": "Bist du fertig/bereit?"
-      }
-    ],
-    "legacyIds": [
-      "Verb + 好"
-    ]
-  },
-  {
-    "id": "g:过",
-    "pattern": "过",
-    "level": "HSK2",
-    "category": "Partikel",
-    "meaning": "Erfahrungsaspekt (schon einmal)",
-    "formation": "Verb + 过 (+ Objekt)",
-    "explanation": "过 nach dem Verb zeigt an, dass man etwas schon einmal erlebt hat.",
-    "notes": "Verneinung: 没 + Verb + 过 (我没去过中国).",
-    "relatedPatterns": [
-      "了",
-      "没 + Verb + 过"
-    ],
-    "examples": [
-      {
-        "chinese": "我去过中国。",
-        "pinyin": "Wǒ qù guò Zhōngguó.",
-        "german": "Ich war schon mal in China."
-      },
-      {
-        "chinese": "你吃过北京烤鸭吗？",
-        "pinyin": "Nǐ chī guò Běijīng kǎoyā ma?",
-        "german": "Hast du schon mal Pekingente gegessen?"
-      }
-    ],
-    "legacyIds": [
-      "过"
-    ]
-  },
-  {
-    "id": "g:又...又...",
-    "pattern": "又...又...",
-    "level": "HSK2",
-    "category": "Satzstrukturen",
-    "meaning": "sowohl ... als auch ...",
-    "formation": "又 + Adj₁/Verb₁ + 又 + Adj₂/Verb₂",
-    "explanation": "又...又... beschreibt zwei gleichzeitig vorhandene Eigenschaften oder Handlungen.",
-    "notes": "又...又... beschreibt Zustände, 一边...一边... beschreibt Handlungen.",
-    "relatedPatterns": [
-      "一边...一边..."
-    ],
-    "examples": [
-      {
-        "chinese": "这个菜又便宜又好吃。",
-        "pinyin": "Zhège cài yòu piányi yòu hǎochī.",
-        "german": "Dieses Gericht ist sowohl günstig als auch lecker."
-      },
-      {
-        "chinese": "她又聪明又漂亮。",
-        "pinyin": "Tā yòu cōngming yòu piàoliang.",
-        "german": "Sie ist sowohl klug als auch hübsch."
-      }
-    ],
-    "legacyIds": [
-      "又...又..."
-    ]
-  },
-  {
-    "id": "g:先...再/然后...",
-    "pattern": "先...再/然后...",
-    "level": "HSK2",
-    "category": "Satzstrukturen",
-    "meaning": "zuerst ... dann ...",
-    "formation": "先 + Verb₁, 再/然后 + Verb₂",
-    "explanation": "Drückt eine zeitliche Reihenfolge von Handlungen aus.",
-    "notes": "再 betont die Reihenfolge, 然后 ist neutraler.",
-    "relatedPatterns": [
-      "以后"
-    ],
-    "examples": [
-      {
-        "chinese": "先吃饭，再看电视。",
-        "pinyin": "Xiān chī fàn, zài kàn diànshì.",
-        "german": "Erst essen, dann fernsehen."
-      },
-      {
-        "chinese": "我先去超市，然后回家。",
-        "pinyin": "Wǒ xiān qù chāoshì, ránhòu huí jiā.",
-        "german": "Ich gehe zuerst in den Supermarkt, dann nach Hause."
-      }
-    ],
-    "legacyIds": [
-      "先...再/然后..."
-    ]
-  },
-  {
-    "id": "g:Verb + 着",
-    "pattern": "Verb + 着",
-    "level": "HSK2",
-    "category": "Partikel",
-    "meaning": "andauernder Zustand",
-    "formation": "Verb + 着",
-    "explanation": "着 nach dem Verb beschreibt einen andauernden Zustand (nicht eine Aktion).",
-    "notes": "着 = Zustand, 在 = laufende Handlung, 了 = Abschluss.",
-    "relatedPatterns": [
-      "在 + Verb",
-      "了"
-    ],
-    "examples": [
-      {
-        "chinese": "门开着。",
-        "pinyin": "Mén kāi zhe.",
-        "german": "Die Tür steht offen."
-      },
-      {
-        "chinese": "他穿着红色的衣服。",
-        "pinyin": "Tā chuān zhe hóngsè de yīfu.",
-        "german": "Er trägt rote Kleidung."
-      }
-    ],
-    "legacyIds": [
-      "Verb + 着"
-    ]
-  },
-  {
-    "id": "g:地 (Adverbpartikel)",
-    "pattern": "地 (Adverbpartikel)",
-    "level": "HSK2",
-    "category": "Partikel",
-    "meaning": "Adverb-Marker (Adj → Adverb)",
-    "formation": "Adjektiv + 地 + Verb",
-    "explanation": "地 wandelt ein Adjektiv in ein Adverb um (ähnlich wie dt. ‹-lich/-weise›).",
-    "notes": "的 = Attribut, 得 = Gradangabe, 地 = Adverb.",
-    "relatedPatterns": [
-      "的",
-      "得"
-    ],
-    "examples": [
-      {
-        "chinese": "他高兴地说。",
-        "pinyin": "Tā gāoxìng de shuō.",
-        "german": "Er sagte fröhlich."
-      },
-      {
-        "chinese": "请认真地听。",
-        "pinyin": "Qǐng rènzhēn de tīng.",
-        "german": "Bitte hör aufmerksam zu."
-      }
-    ],
-    "legacyIds": [
-      "地 (Adverbpartikel)"
-    ]
-  },
-  {
-    "id": "g:要是...就...",
-    "pattern": "要是...就...",
-    "level": "HSK2",
-    "category": "Satzstrukturen",
-    "meaning": "wenn ... dann ... (umgangssprachlich)",
-    "formation": "要是 + Bedingung, 就 + Folge",
-    "explanation": "Umgangssprachliche Version von 如果...就... für Bedingungssätze.",
-    "notes": "要是 wird in der gesprochenen Sprache häufiger verwendet als 如果.",
-    "relatedPatterns": [
-      "如果...就..."
-    ],
-    "examples": [
-      {
-        "chinese": "要是你不来，我就自己去。",
-        "pinyin": "Yàoshi nǐ bù lái, wǒ jiù zìjǐ qù.",
-        "german": "Wenn du nicht kommst, gehe ich allein."
-      },
-      {
-        "chinese": "要是下雨就别出门了。",
-        "pinyin": "Yàoshi xià yǔ jiù bié chūmén le.",
-        "german": "Wenn es regnet, geh lieber nicht raus."
-      },
-      {
-        "chinese": "要是明天下雨，我们就不去了。",
-        "pinyin": "Yàoshi míngtiān xià yǔ, wǒmen jiù bú qù le.",
-        "german": "Wenn es morgen regnet, gehen wir nicht."
-      },
-      {
-        "chinese": "你要是不舒服，就在家休息吧。",
-        "pinyin": "Nǐ yàoshi bù shūfu, jiù zài jiā xiūxi ba.",
-        "german": "Wenn du dich nicht wohl fuehlst, ruh dich zu Hause aus."
-      },
-      {
-        "chinese": "要是有机会，我想去中国留学。",
-        "pinyin": "Yàoshi yǒu jīhuì, wǒ xiǎng qù Zhōngguó liúxué.",
-        "german": "Wenn ich die Gelegenheit haette, wuerde ich gerne in China studieren."
-      }
-    ],
-    "legacyIds": [
-      "要是...就..."
-    ]
-  },
-  {
-    "id": "g:不但...而且...",
-    "pattern": "不但...而且...",
-    "level": "HSK2",
-    "category": "Satzstrukturen",
-    "meaning": "nicht nur ... sondern auch ...",
-    "formation": "不但 + Satz₁, 而且 + Satz₂",
-    "explanation": "Steigerung: Der zweite Teil geht über den ersten hinaus.",
-    "notes": "Gleiche Subjekte: 不但 steht nach dem Subjekt. Verschiedene Subjekte: 不但 steht vor dem Subjekt.",
-    "relatedPatterns": [
-      "而且",
-      "也"
-    ],
-    "examples": [
-      {
-        "chinese": "他不但会说中文，而且会说日文。",
-        "pinyin": "Tā búdàn huì shuō Zhōngwén, érqiě huì shuō Rìwén.",
-        "german": "Er kann nicht nur Chinesisch, sondern auch Japanisch sprechen."
-      },
-      {
-        "chinese": "这个地方不但漂亮，而且安静。",
-        "pinyin": "Zhège dìfang búdàn piàoliang, érqiě ānjìng.",
-        "german": "Dieser Ort ist nicht nur schön, sondern auch ruhig."
-      },
-      {
-        "chinese": "他不但会说中文，而且说得很好。",
-        "pinyin": "Tā búdàn huì shuō Zhōngwén, érqiě shuō de hěn hǎo.",
-        "german": "Er kann nicht nur Chinesisch sprechen, sondern spricht es auch sehr gut."
-      },
-      {
-        "chinese": "这个地方不但漂亮，而且很安静。",
-        "pinyin": "Zhège dìfang búdàn piàoliang, érqiě hěn ānjìng.",
-        "german": "Dieser Ort ist nicht nur schoen, sondern auch sehr ruhig."
-      },
-      {
-        "chinese": "不但我去，而且他也去。",
-        "pinyin": "Búdàn wǒ qù, érqiě tā yě qù.",
-        "german": "Nicht nur ich gehe, sondern er geht auch."
-      }
-    ],
-    "legacyIds": [
-      "不但...而且..."
-    ]
-  },
-  {
-    "id": "g:一...就...",
-    "pattern": "一...就...",
-    "level": "HSK2",
-    "category": "Satzstrukturen",
+    "kind": "pattern",
+    "category": "Satzgefüge",
+    "syllabus": {
+      "no": 141,
+      "category": "句子的类型",
+      "categoryName": "复句",
+      "item": "紧缩复句",
+      "content": "一……就……"
+    },
     "meaning": "sobald ... dann sofort ...",
     "formation": "一 + Verb₁ + 就 + Verb₂",
     "explanation": "Drückt aus, dass Handlung 2 sofort nach Handlung 1 eintritt.",
     "notes": "一...就... zeigt unmittelbare Abfolge.",
-    "relatedPatterns": [
-      "就",
-      "才"
-    ],
     "examples": [
       {
         "chinese": "他一到家就睡觉了。",
@@ -790,955 +2056,114 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
       }
     ],
     "legacyIds": [
+      "g:一...就...",
       "一...就..."
-    ]
+    ],
+    "meaningStatus": "draft"
   },
   {
-    "id": "g:多 + Verb",
-    "pattern": "多 + Verb",
+    "id": "g:动词+着：（1）表示状态的持续",
+    "pattern": "动词+着：（1）表示状态的持续",
     "level": "HSK2",
-    "category": "Verben",
-    "meaning": "mehr (tun) / öfter (tun)",
-    "formation": "多 + Verb (+ Objekt)",
-    "explanation": "多 vor einem Verb fordert auf, etwas häufiger zu tun.",
-    "notes": "少 + Verb = weniger tun: 少吃糖 (Iss weniger Süßes).",
-    "relatedPatterns": [
-      "少 + Verb"
-    ],
-    "examples": [
-      {
-        "chinese": "多喝水。",
-        "pinyin": "Duō hē shuǐ.",
-        "german": "Trink mehr Wasser."
-      },
-      {
-        "chinese": "多练习。",
-        "pinyin": "Duō liànxí.",
-        "german": "Übe mehr."
-      }
-    ],
-    "legacyIds": [
-      "多 + Verb"
-    ]
+    "kind": "pattern",
+    "category": "Aspekt",
+    "syllabus": {
+      "no": 142,
+      "category": "动作的态",
+      "categoryName": "",
+      "item": "持续态",
+      "content": "动词+着：（1）表示状态的持续"
+    },
+    "meaningStatus": "draft"
   },
   {
-    "id": "g:必须 + Verb",
-    "pattern": "必须 + Verb",
+    "id": "g:持续态：表示动作的持续",
+    "pattern": "持续态：表示动作的持续",
     "level": "HSK2",
-    "category": "Verben",
-    "meaning": "müssen (zwingend / Pflicht)",
-    "pinyin": "bìxū + Verb",
-    "examples": [
-      {
-        "chinese": "你必须按时完成。",
-        "pinyin": "Nǐ bìxū ànshí wánchéng.",
-        "german": "Du musst es rechtzeitig fertigstellen."
-      },
-      {
-        "chinese": "我们必须遵守规则。",
-        "pinyin": "Wǒmen bìxū zūnshǒu guīzé.",
-        "german": "Wir müssen die Regeln befolgen."
-      }
-    ],
-    "legacyIds": [
-      "必须 + Verb"
-    ]
+    "kind": "pattern",
+    "category": "Aspekt",
+    "syllabus": {
+      "no": 143,
+      "category": "动作的态",
+      "categoryName": "",
+      "item": "持续态",
+      "content": "（2）表示动作的持续"
+    },
+    "meaningStatus": "draft"
   },
   {
-    "id": "g:不用 + Verb",
-    "pattern": "不用 + Verb",
+    "id": "g:经历态：用动态助词“过”表示",
+    "pattern": "经历态：用动态助词“过”表示",
     "level": "HSK2",
-    "category": "Verben",
-    "meaning": "braucht nicht / nicht nötig",
-    "pinyin": "búyòng + Verb",
-    "examples": [
-      {
-        "chinese": "不用谢。",
-        "pinyin": "Búyòng xiè.",
-        "german": "Keine Ursache."
-      },
-      {
-        "chinese": "你不用来了。",
-        "pinyin": "Nǐ búyòng lái le.",
-        "german": "Du brauchst nicht zu kommen."
-      }
-    ],
-    "legacyIds": [
-      "不用 + Verb"
-    ]
+    "kind": "pattern",
+    "category": "Aspekt",
+    "syllabus": {
+      "no": 144,
+      "category": "动作的态",
+      "categoryName": "",
+      "item": "经历态",
+      "content": "用动态助词“过”表示"
+    },
+    "meaningStatus": "draft"
   },
   {
-    "id": "g:非常 + Adjektiv",
-    "pattern": "非常 + Adjektiv",
+    "id": "g:序数表示法2：数词+量词",
+    "pattern": "序数表示法2：数词+量词",
     "level": "HSK2",
-    "category": "Adverbien",
-    "meaning": "außerordentlich / sehr (stärker als 很)",
-    "pinyin": "fēicháng + Adjektiv",
-    "examples": [
-      {
-        "chinese": "非常感谢！",
-        "pinyin": "Fēicháng gǎnxiè!",
-        "german": "Vielen herzlichen Dank!"
-      },
-      {
-        "chinese": "这个地方非常漂亮。",
-        "pinyin": "Zhège dìfang fēicháng piàoliang.",
-        "german": "Dieser Ort ist außerordentlich schön."
-      }
-    ],
-    "legacyIds": [
-      "非常 + Adjektiv"
-    ]
+    "kind": "pattern",
+    "category": "Zahlen & Zeit",
+    "syllabus": {
+      "no": 145,
+      "category": "特殊表达法",
+      "categoryName": "数的表达法",
+      "item": "",
+      "content": "序数表示法2：数词+量词"
+    },
+    "meaningStatus": "draft"
   },
   {
-    "id": "g:特别 + Adjektiv",
-    "pattern": "特别 + Adjektiv",
+    "id": "g:概数表达法1：（1）用“几”表示概数",
+    "pattern": "概数表达法1：（1）用“几”表示概数",
     "level": "HSK2",
-    "category": "Adverbien",
-    "meaning": "besonders / außergewöhnlich",
-    "pinyin": "tèbié + Adjektiv",
-    "examples": [
-      {
-        "chinese": "今天特别冷。",
-        "pinyin": "Jīntiān tèbié lěng.",
-        "german": "Heute ist es besonders kalt."
-      },
-      {
-        "chinese": "我特别喜欢这首歌。",
-        "pinyin": "Wǒ tèbié xǐhuan zhè shǒu gē.",
-        "german": "Ich mag dieses Lied besonders gern."
-      }
-    ],
-    "legacyIds": [
-      "特别 + Adjektiv"
-    ]
+    "kind": "pattern",
+    "category": "Zahlen & Zeit",
+    "syllabus": {
+      "no": 146,
+      "category": "特殊表达法",
+      "categoryName": "数的表达法",
+      "item": "",
+      "content": "概数表达法1：（1）用“几”表示概数"
+    },
+    "meaningStatus": "draft"
   },
   {
-    "id": "g:不太 + Adjektiv",
-    "pattern": "不太 + Adjektiv",
+    "id": "g:数词+多+量词",
+    "pattern": "数词+多+量词",
     "level": "HSK2",
-    "category": "Adverbien",
-    "meaning": "nicht besonders / nicht sehr (abgemilderte Verneinung)",
-    "pinyin": "bú tài + Adjektiv",
-    "examples": [
-      {
-        "chinese": "我不太喜欢。",
-        "pinyin": "Wǒ bú tài xǐhuan.",
-        "german": "Ich mag es nicht besonders."
-      },
-      {
-        "chinese": "这个不太好。",
-        "pinyin": "Zhège bú tài hǎo.",
-        "german": "Das ist nicht besonders gut."
-      }
-    ],
-    "legacyIds": [
-      "不太 + Adjektiv"
-    ]
+    "kind": "pattern",
+    "category": "Zahlen & Zeit",
+    "syllabus": {
+      "no": 147,
+      "category": "特殊表达法",
+      "categoryName": "数的表达法",
+      "item": "",
+      "content": "（2）数词+多+量词"
+    },
+    "meaningStatus": "draft"
   },
   {
-    "id": "g:有一点儿 + Adjektiv",
-    "pattern": "有一点儿 + Adjektiv",
+    "id": "g:数词+量词+多",
+    "pattern": "数词+量词+多",
     "level": "HSK2",
-    "category": "Adverbien",
-    "meaning": "ein bisschen (leicht negativ empfunden)",
-    "pinyin": "yǒu yìdiǎnr + Adjektiv",
-    "examples": [
-      {
-        "chinese": "我有点儿累。",
-        "pinyin": "Wǒ yǒudiǎnr lèi.",
-        "german": "Ich bin ein bisschen müde."
-      },
-      {
-        "chinese": "这个有点儿贵。",
-        "pinyin": "Zhège yǒudiǎnr guì.",
-        "german": "Das ist ein bisschen teuer."
-      }
-    ],
-    "legacyIds": [
-      "有一点儿 + Adjektiv"
-    ]
-  },
-  {
-    "id": "g:对 + Nomen + 感兴趣",
-    "pattern": "对 + Nomen + 感兴趣",
-    "level": "HSK2",
-    "category": "Verben",
-    "meaning": "sich für etwas interessieren",
-    "pinyin": "duì + Nomen + gǎn xìngqù",
-    "examples": [
-      {
-        "chinese": "我对中国历史很感兴趣。",
-        "pinyin": "Wǒ duì Zhōngguó lìshǐ hěn gǎn xìngqù.",
-        "german": "Ich interessiere mich sehr für chinesische Geschichte."
-      },
-      {
-        "chinese": "你对什么感兴趣？",
-        "pinyin": "Nǐ duì shénme gǎn xìngqù?",
-        "german": "Wofür interessierst du dich?"
-      }
-    ],
-    "legacyIds": [
-      "对 + Nomen + 感兴趣"
-    ]
-  },
-  {
-    "id": "g:以前",
-    "pattern": "以前",
-    "level": "HSK2",
-    "category": "Zeitausdrücke",
-    "meaning": "früher / bevor / vor",
-    "pinyin": "yǐqián",
-    "examples": [
-      {
-        "chinese": "吃饭以前要洗手。",
-        "pinyin": "Chīfàn yǐqián yào xǐ shǒu.",
-        "german": "Vor dem Essen muss man sich die Hände waschen."
-      },
-      {
-        "chinese": "以前我住在德国。",
-        "pinyin": "Yǐqián wǒ zhù zài Déguó.",
-        "german": "Früher habe ich in Deutschland gewohnt."
-      }
-    ],
-    "legacyIds": [
-      "以前"
-    ]
-  },
-  {
-    "id": "g:以后",
-    "pattern": "以后",
-    "level": "HSK2",
-    "category": "Zeitausdrücke",
-    "meaning": "danach / in Zukunft / nachdem",
-    "pinyin": "yǐhòu",
-    "examples": [
-      {
-        "chinese": "吃饭以后我们去散步。",
-        "pinyin": "Chīfàn yǐhòu wǒmen qù sànbù.",
-        "german": "Nach dem Essen gehen wir spazieren."
-      },
-      {
-        "chinese": "以后我要去中国。",
-        "pinyin": "Yǐhòu wǒ yào qù Zhōngguó.",
-        "german": "Später möchte ich nach China fahren."
-      }
-    ],
-    "legacyIds": [
-      "以后"
-    ]
-  },
-  {
-    "id": "g:从…起/开始",
-    "pattern": "从…起/开始",
-    "level": "HSK2",
-    "category": "Zeitausdrücke",
-    "meaning": "ab / seit (Anfangszeitpunkt)",
-    "pinyin": "cóng…qǐ/kāishǐ",
-    "examples": [
-      {
-        "chinese": "从明天开始，我每天跑步。",
-        "pinyin": "Cóng míngtiān kāishǐ, wǒ měi tiān pǎobù.",
-        "german": "Ab morgen jogge ich jeden Tag."
-      },
-      {
-        "chinese": "从去年起他住在上海。",
-        "pinyin": "Cóng qùnián qǐ tā zhù zài Shànghǎi.",
-        "german": "Seit letztem Jahr wohnt er in Shanghai."
-      }
-    ],
-    "legacyIds": [
-      "从…起/开始"
-    ]
-  },
-  {
-    "id": "g:Verb + 过来/过去",
-    "pattern": "Verb + 过来/过去",
-    "level": "HSK2",
-    "category": "Verben",
-    "meaning": "her-/hin- (Richtungskomplement zum/weg vom Sprecher)",
-    "pinyin": "Verb + guòlái/guòqù",
-    "examples": [
-      {
-        "chinese": "你过来一下。",
-        "pinyin": "Nǐ guòlái yíxià.",
-        "german": "Komm mal her."
-      },
-      {
-        "chinese": "他走过去了。",
-        "pinyin": "Tā zǒu guòqù le.",
-        "german": "Er ist hinübergegangen."
-      }
-    ],
-    "legacyIds": [
-      "Verb + 过来/过去"
-    ]
-  },
-  {
-    "id": "g:Verb + 给 + Person",
-    "pattern": "Verb + 给 + Person",
-    "level": "HSK2",
-    "category": "Verben",
-    "meaning": "jemandem etwas (als Resultat) geben",
-    "pinyin": "Verb + gěi + Person",
-    "examples": [
-      {
-        "chinese": "我送给你一个礼物。",
-        "pinyin": "Wǒ sòng gěi nǐ yí ge lǐwù.",
-        "german": "Ich schenke dir ein Geschenk."
-      },
-      {
-        "chinese": "请你把书还给我。",
-        "pinyin": "Qǐng nǐ bǎ shū huán gěi wǒ.",
-        "german": "Bitte gib mir das Buch zurück."
-      }
-    ],
-    "legacyIds": [
-      "Verb + 给 + Person"
-    ]
-  },
-  {
-    "id": "g:向 + Richtung/Person",
-    "pattern": "向 + Richtung/Person",
-    "level": "HSK2",
-    "category": "Präpositionen",
-    "meaning": "in Richtung / zu (Richtungsangabe)",
-    "pinyin": "xiàng + Richtung/Person",
-    "examples": [
-      {
-        "chinese": "请向左走。",
-        "pinyin": "Qǐng xiàng zuǒ zǒu.",
-        "german": "Bitte gehen Sie nach links."
-      },
-      {
-        "chinese": "他向老师问好。",
-        "pinyin": "Tā xiàng lǎoshī wèn hǎo.",
-        "german": "Er grüßte den Lehrer."
-      }
-    ],
-    "legacyIds": [
-      "向 + Richtung/Person"
-    ]
-  },
-  {
-    "id": "g:一直",
-    "pattern": "一直",
-    "level": "HSK2",
-    "category": "Adverbien",
-    "meaning": "immer / die ganze Zeit / geradeaus",
-    "pinyin": "yìzhí",
-    "examples": [
-      {
-        "chinese": "我一直在等你。",
-        "pinyin": "Wǒ yìzhí zài děng nǐ.",
-        "german": "Ich habe die ganze Zeit auf dich gewartet."
-      },
-      {
-        "chinese": "一直往前走。",
-        "pinyin": "Yìzhí wǎng qián zǒu.",
-        "german": "Gehen Sie immer geradeaus."
-      }
-    ],
-    "legacyIds": [
-      "一直"
-    ]
-  },
-  {
-    "id": "g:需要 + Verb/Nomen",
-    "pattern": "需要 + Verb/Nomen",
-    "level": "HSK2",
-    "category": "Verben",
-    "meaning": "brauchen / benötigen",
-    "pinyin": "xūyào + Verb/Nomen",
-    "examples": [
-      {
-        "chinese": "你需要休息。",
-        "pinyin": "Nǐ xūyào xiūxi.",
-        "german": "Du musst dich ausruhen."
-      },
-      {
-        "chinese": "我需要一本词典。",
-        "pinyin": "Wǒ xūyào yì běn cídiǎn.",
-        "german": "Ich brauche ein Wörterbuch."
-      }
-    ],
-    "legacyIds": [
-      "需要 + Verb/Nomen"
-    ]
-  },
-  {
-    "id": "g:不但…还…",
-    "pattern": "不但…还…",
-    "level": "HSK2",
-    "category": "Konjunktionen",
-    "meaning": "nicht nur… sondern auch noch…",
-    "pinyin": "búdàn…hái…",
-    "examples": [
-      {
-        "chinese": "他不但会唱歌，还会跳舞。",
-        "pinyin": "Tā búdàn huì chànggē, hái huì tiàowǔ.",
-        "german": "Er kann nicht nur singen, sondern auch tanzen."
-      },
-      {
-        "chinese": "她不但漂亮，还很聪明。",
-        "pinyin": "Tā búdàn piàoliang, hái hěn cōngming.",
-        "german": "Sie ist nicht nur hübsch, sondern auch klug."
-      }
-    ],
-    "legacyIds": [
-      "不但…还…"
-    ]
-  },
-  {
-    "id": "g:动词重叠 (Verb-Verdopplung)",
-    "pattern": "动词重叠 (Verb-Verdopplung)",
-    "level": "HSK2",
-    "category": "Verben",
-    "meaning": "Verb-Verdopplung: „mal kurz\" / „ein bisschen\"",
-    "pinyin": "dòngcí chóngdié",
-    "examples": [
-      {
-        "chinese": "你看看这个。",
-        "pinyin": "Nǐ kànkan zhège.",
-        "german": "Schau dir das mal an."
-      },
-      {
-        "chinese": "我想想。",
-        "pinyin": "Wǒ xiǎngxiang.",
-        "german": "Lass mich mal überlegen."
-      }
-    ],
-    "legacyIds": [
-      "动词重叠 (Verb-Verdopplung)"
-    ]
-  },
-  {
-    "id": "g:一下",
-    "pattern": "一下",
-    "level": "HSK2",
-    "category": "Partikel",
-    "meaning": "kurz mal / ein bisschen (Abschwächung)",
-    "pinyin": "yíxià",
-    "examples": [
-      {
-        "chinese": "请等一下。",
-        "pinyin": "Qǐng děng yíxià.",
-        "german": "Bitte warten Sie einen Moment."
-      },
-      {
-        "chinese": "我想试一下。",
-        "pinyin": "Wǒ xiǎng shì yíxià.",
-        "german": "Ich möchte es mal versuchen."
-      }
-    ],
-    "legacyIds": [
-      "一下"
-    ]
-  },
-  {
-    "id": "g:常常/经常",
-    "pattern": "常常/经常",
-    "level": "HSK2",
-    "category": "Adverbien",
-    "meaning": "oft / häufig",
-    "pinyin": "chángcháng/jīngcháng",
-    "examples": [
-      {
-        "chinese": "我常常去图书馆。",
-        "pinyin": "Wǒ chángcháng qù túshūguǎn.",
-        "german": "Ich gehe oft in die Bibliothek."
-      },
-      {
-        "chinese": "他经常迟到。",
-        "pinyin": "Tā jīngcháng chídào.",
-        "german": "Er kommt häufig zu spät."
-      }
-    ],
-    "legacyIds": [
-      "常常/经常"
-    ]
-  },
-  {
-    "id": "g:不要 + Verb",
-    "pattern": "不要 + Verb",
-    "level": "HSK2",
-    "category": "Adverbien",
-    "meaning": "soll nicht / bitte nicht (Aufforderung)",
-    "pinyin": "búyào + Verb",
-    "examples": [
-      {
-        "chinese": "不要迟到。",
-        "pinyin": "Búyào chídào.",
-        "german": "Komm nicht zu spät."
-      },
-      {
-        "chinese": "上课的时候不要玩手机。",
-        "pinyin": "Shàngkè de shíhou búyào wán shǒujī.",
-        "german": "Spiel nicht mit dem Handy im Unterricht."
-      }
-    ],
-    "legacyIds": [
-      "不要 + Verb"
-    ]
-  },
-  {
-    "id": "g:才 + Verb",
-    "pattern": "才 + Verb",
-    "level": "HSK2",
-    "category": "Adverbien",
-    "meaning": "erst / nur dann (spät/unerwartet spät)",
-    "pinyin": "cái + Verb",
-    "examples": [
-      {
-        "chinese": "他十点才来。",
-        "pinyin": "Tā shí diǎn cái lái.",
-        "german": "Er kam erst um zehn Uhr."
-      },
-      {
-        "chinese": "我学了三年才学会。",
-        "pinyin": "Wǒ xué le sān nián cái xuéhuì.",
-        "german": "Ich habe drei Jahre gelernt, bis ich es konnte."
-      }
-    ],
-    "legacyIds": [
-      "才 + Verb"
-    ]
-  },
-  {
-    "id": "g:应该 + Verb",
-    "pattern": "应该 + Verb",
-    "level": "HSK2",
-    "category": "Verben",
-    "meaning": "sollen / sollte (Empfehlung / Pflicht)",
-    "pinyin": "yīnggāi + Verb",
-    "examples": [
-      {
-        "chinese": "你应该多休息。",
-        "pinyin": "Nǐ yīnggāi duō xiūxi.",
-        "german": "Du solltest dich mehr ausruhen."
-      },
-      {
-        "chinese": "我们应该准时到。",
-        "pinyin": "Wǒmen yīnggāi zhǔnshí dào.",
-        "german": "Wir sollten pünktlich ankommen."
-      }
-    ],
-    "legacyIds": [
-      "应该 + Verb"
-    ]
-  },
-  {
-    "id": "g:已经…了",
-    "pattern": "已经…了",
-    "level": "HSK2",
-    "category": "Zeitausdrücke",
-    "meaning": "bereits / schon (abgeschlossen)",
-    "pinyin": "yǐjīng…le",
-    "examples": [
-      {
-        "chinese": "我已经吃了。",
-        "pinyin": "Wǒ yǐjīng chī le.",
-        "german": "Ich habe schon gegessen."
-      },
-      {
-        "chinese": "他已经走了。",
-        "pinyin": "Tā yǐjīng zǒu le.",
-        "german": "Er ist bereits gegangen."
-      }
-    ],
-    "legacyIds": [
-      "已经…了"
-    ]
-  },
-  {
-    "id": "g:快要…了",
-    "pattern": "快要…了",
-    "level": "HSK2",
-    "category": "Zeitausdrücke",
-    "meaning": "bald / gleich (unmittelbar bevorstehend)",
-    "pinyin": "kuàiyào…le",
-    "examples": [
-      {
-        "chinese": "快要下雨了。",
-        "pinyin": "Kuàiyào xiàyǔ le.",
-        "german": "Es wird gleich regnen."
-      },
-      {
-        "chinese": "电影快要开始了。",
-        "pinyin": "Diànyǐng kuàiyào kāishǐ le.",
-        "german": "Der Film fängt gleich an."
-      }
-    ],
-    "legacyIds": [
-      "快要…了"
-    ]
-  },
-  {
-    "id": "g:刚/刚才",
-    "pattern": "刚/刚才",
-    "level": "HSK2",
-    "category": "Zeitausdrücke",
-    "meaning": "gerade eben / soeben",
-    "pinyin": "gāng/gāngcái",
-    "examples": [
-      {
-        "chinese": "他刚走。",
-        "pinyin": "Tā gāng zǒu.",
-        "german": "Er ist gerade gegangen."
-      },
-      {
-        "chinese": "刚才谁来了？",
-        "pinyin": "Gāngcái shéi lái le?",
-        "german": "Wer ist gerade eben gekommen?"
-      }
-    ],
-    "legacyIds": [
-      "刚/刚才"
-    ]
-  },
-  {
-    "id": "g:比…更/还…",
-    "pattern": "比…更/还…",
-    "level": "HSK2",
-    "category": "Vergleiche",
-    "meaning": "noch mehr als (verstärkter Vergleich)",
-    "pinyin": "bǐ…gèng/hái…",
-    "examples": [
-      {
-        "chinese": "今天比昨天更冷。",
-        "pinyin": "Jīntiān bǐ zuótiān gèng lěng.",
-        "german": "Heute ist es noch kälter als gestern."
-      },
-      {
-        "chinese": "她比我还努力。",
-        "pinyin": "Tā bǐ wǒ hái nǔlì.",
-        "german": "Sie ist noch fleißiger als ich."
-      }
-    ],
-    "legacyIds": [
-      "比…更/还…"
-    ]
-  },
-  {
-    "id": "g:一共",
-    "pattern": "一共",
-    "level": "HSK2",
-    "category": "Adverbien",
-    "meaning": "insgesamt / zusammen",
-    "pinyin": "yígòng",
-    "examples": [
-      {
-        "chinese": "一共多少钱？",
-        "pinyin": "Yígòng duōshao qián?",
-        "german": "Wie viel kostet es insgesamt?"
-      },
-      {
-        "chinese": "我们一共五个人。",
-        "pinyin": "Wǒmen yígòng wǔ gè rén.",
-        "german": "Wir sind insgesamt fünf Personen."
-      }
-    ],
-    "legacyIds": [
-      "一共"
-    ]
-  },
-  {
-    "id": "g:最 + Adjektiv",
-    "pattern": "最 + Adjektiv",
-    "level": "HSK2",
-    "category": "Vergleiche",
-    "meaning": "am meisten / -ste (Superlativ)",
-    "pinyin": "zuì + Adjektiv",
-    "examples": [
-      {
-        "chinese": "他是最高的。",
-        "pinyin": "Tā shì zuì gāo de.",
-        "german": "Er ist der Größte."
-      },
-      {
-        "chinese": "我最喜欢中国菜。",
-        "pinyin": "Wǒ zuì xǐhuan Zhōngguó cài.",
-        "german": "Ich mag chinesisches Essen am liebsten."
-      }
-    ],
-    "legacyIds": [
-      "最 + Adjektiv"
-    ]
-  },
-  {
-    "id": "g:觉得",
-    "pattern": "觉得",
-    "level": "HSK2",
-    "category": "Verben",
-    "meaning": "finden / meinen / das Gefühl haben",
-    "pinyin": "juéde",
-    "examples": [
-      {
-        "chinese": "我觉得这个很有意思。",
-        "pinyin": "Wǒ juéde zhège hěn yǒu yìsi.",
-        "german": "Ich finde das sehr interessant."
-      },
-      {
-        "chinese": "你觉得怎么样？",
-        "pinyin": "Nǐ juéde zěnmeyàng?",
-        "german": "Was meinst du? / Wie findest du es?"
-      }
-    ],
-    "legacyIds": [
-      "觉得"
-    ]
-  },
-  {
-    "id": "g:还是…吧",
-    "pattern": "还是…吧",
-    "level": "HSK2",
-    "category": "Satzstrukturen",
-    "meaning": "lieber doch / besser (Vorschlag nach Abwägung)",
-    "pinyin": "háishi…ba",
-    "examples": [
-      {
-        "chinese": "还是坐出租车吧。",
-        "pinyin": "Háishi zuò chūzūchē ba.",
-        "german": "Nehmen wir doch lieber ein Taxi."
-      },
-      {
-        "chinese": "还是你来决定吧。",
-        "pinyin": "Háishi nǐ lái juédìng ba.",
-        "german": "Entscheide du das doch lieber."
-      }
-    ],
-    "legacyIds": [
-      "还是…吧"
-    ]
-  },
-  {
-    "id": "g:要…了",
-    "pattern": "要…了",
-    "level": "HSK2",
-    "category": "Zeitformen",
-    "meaning": "gleich / bald (unmittelbare Zukunft)",
-    "pinyin": "yào…le",
-    "examples": [
-      {
-        "chinese": "要下雨了。",
-        "pinyin": "Yào xià yǔ le.",
-        "german": "Es wird gleich regnen."
-      },
-      {
-        "chinese": "火车要开了！",
-        "pinyin": "Huǒchē yào kāi le!",
-        "german": "Der Zug fährt gleich ab!"
-      }
-    ],
-    "legacyIds": [
-      "要…了"
-    ]
-  },
-  {
-    "id": "g:多么 + Adj",
-    "pattern": "多么 + Adj",
-    "level": "HSK2",
-    "category": "Adverbien",
-    "meaning": "wie sehr / was für ein (Ausruf)",
-    "pinyin": "duōme + Adj",
-    "examples": [
-      {
-        "chinese": "这里多么漂亮啊！",
-        "pinyin": "Zhèlǐ duōme piàoliang a!",
-        "german": "Wie schön es hier ist!"
-      },
-      {
-        "chinese": "他多么想回家！",
-        "pinyin": "Tā duōme xiǎng huí jiā!",
-        "german": "Wie sehr er nach Hause will!"
-      }
-    ],
-    "legacyIds": [
-      "多么 + Adj"
-    ]
-  },
-  {
-    "id": "g:虽然…可是…",
-    "pattern": "虽然…可是…",
-    "level": "HSK2",
-    "category": "Konjunktionen",
-    "meaning": "obwohl…aber… (Variante mit 可是)",
-    "pinyin": "suīrán…kěshì…",
-    "examples": [
-      {
-        "chinese": "虽然很累，可是很开心。",
-        "pinyin": "Suīrán hěn lèi, kěshì hěn kāixīn.",
-        "german": "Obwohl ich müde bin, bin ich glücklich."
-      },
-      {
-        "chinese": "虽然他很小，可是很聪明。",
-        "pinyin": "Suīrán tā hěn xiǎo, kěshì hěn cōngming.",
-        "german": "Obwohl er klein ist, ist er sehr klug."
-      }
-    ],
-    "legacyIds": [
-      "虽然…可是…"
-    ]
-  },
-  {
-    "id": "g:一点儿也不 + Adj",
-    "pattern": "一点儿也不 + Adj",
-    "level": "HSK2",
-    "category": "Verneinung",
-    "meaning": "überhaupt nicht / kein bisschen",
-    "pinyin": "yìdiǎnr yě bù + Adj",
-    "examples": [
-      {
-        "chinese": "我一点儿也不累。",
-        "pinyin": "Wǒ yìdiǎnr yě bù lèi.",
-        "german": "Ich bin überhaupt nicht müde."
-      },
-      {
-        "chinese": "他一点儿也不高兴。",
-        "pinyin": "Tā yìdiǎnr yě bù gāoxìng.",
-        "german": "Er ist kein bisschen froh."
-      }
-    ],
-    "legacyIds": [
-      "一点儿也不 + Adj"
-    ]
-  },
-  {
-    "id": "g:又…又… (Verben)",
-    "pattern": "又…又… (Verben)",
-    "level": "HSK2",
-    "category": "Konjunktionen",
-    "meaning": "sowohl…als auch… (gleichzeitige Handlungen)",
-    "pinyin": "yòu…yòu… (Verben)",
-    "examples": [
-      {
-        "chinese": "她又唱又跳。",
-        "pinyin": "Tā yòu chàng yòu tiào.",
-        "german": "Sie singt und tanzt zugleich."
-      },
-      {
-        "chinese": "孩子们又哭又笑。",
-        "pinyin": "Háizimen yòu kū yòu xiào.",
-        "german": "Die Kinder weinen und lachen gleichzeitig."
-      }
-    ],
-    "legacyIds": [
-      "又…又… (Verben)"
-    ]
-  },
-  {
-    "id": "g:Verb + 得 + 很好",
-    "pattern": "Verb + 得 + 很好",
-    "level": "HSK2",
-    "category": "Komplemente",
-    "meaning": "etwas gut machen (Grad-Komplement)",
-    "pinyin": "Verb + de + hěn hǎo",
-    "examples": [
-      {
-        "chinese": "她说得很好。",
-        "pinyin": "Tā shuō de hěn hǎo.",
-        "german": "Sie spricht sehr gut."
-      },
-      {
-        "chinese": "你写得很漂亮。",
-        "pinyin": "Nǐ xiě de hěn piàoliang.",
-        "german": "Du schreibst sehr schön."
-      }
-    ],
-    "legacyIds": [
-      "Verb + 得 + 很好"
-    ]
-  },
-  {
-    "id": "g:不是…就是…",
-    "pattern": "不是…就是…",
-    "level": "HSK2",
-    "category": "Konjunktionen",
-    "meaning": "wenn nicht…dann… / entweder…oder…",
-    "pinyin": "bú shì…jiù shì…",
-    "examples": [
-      {
-        "chinese": "他不是在看书，就是在睡觉。",
-        "pinyin": "Tā bú shì zài kàn shū, jiù shì zài shuìjiào.",
-        "german": "Er liest entweder oder er schläft."
-      },
-      {
-        "chinese": "周末不是下雨，就是太热。",
-        "pinyin": "Zhōumò bú shì xià yǔ, jiù shì tài rè.",
-        "german": "Am Wochenende regnet es entweder oder es ist zu heiß."
-      }
-    ],
-    "legacyIds": [
-      "不是…就是…"
-    ]
-  },
-  {
-    "id": "g:那么 + Adj/Verb",
-    "pattern": "那么 + Adj/Verb",
-    "level": "HSK2",
-    "category": "Adverbien",
-    "meaning": "so / dermaßen",
-    "pinyin": "nàme + Adj/Verb",
-    "examples": [
-      {
-        "chinese": "别那么紧张。",
-        "pinyin": "Bié nàme jǐnzhāng.",
-        "german": "Sei nicht so nervös."
-      },
-      {
-        "chinese": "你怎么那么忙？",
-        "pinyin": "Nǐ zěnme nàme máng?",
-        "german": "Warum bist du so beschäftigt?"
-      }
-    ],
-    "legacyIds": [
-      "那么 + Adj/Verb"
-    ]
-  },
-  {
-    "id": "g:不…也不…",
-    "pattern": "不…也不…",
-    "level": "HSK2",
-    "category": "Verneinung",
-    "meaning": "weder…noch…",
-    "pinyin": "bù…yě bù…",
-    "examples": [
-      {
-        "chinese": "他不吃也不喝。",
-        "pinyin": "Tā bù chī yě bù hē.",
-        "german": "Er isst weder noch trinkt er."
-      },
-      {
-        "chinese": "这里不大也不小。",
-        "pinyin": "Zhèlǐ bú dà yě bù xiǎo.",
-        "german": "Hier ist es weder groß noch klein."
-      }
-    ],
-    "legacyIds": [
-      "不…也不…"
-    ]
-  },
-  {
-    "id": "g:…的话",
-    "pattern": "…的话",
-    "level": "HSK2",
-    "category": "Konjunktionen",
-    "meaning": "wenn / falls (umgangssprachlich)",
-    "pinyin": "…de huà",
-    "examples": [
-      {
-        "chinese": "你有时间的话，来找我。",
-        "pinyin": "Nǐ yǒu shíjiān de huà, lái zhǎo wǒ.",
-        "german": "Wenn du Zeit hast, komm mich besuchen."
-      },
-      {
-        "chinese": "不想去的话，就别去了。",
-        "pinyin": "Bù xiǎng qù de huà, jiù bié qù le.",
-        "german": "Wenn du nicht gehen willst, dann geh eben nicht."
-      }
-    ],
-    "legacyIds": [
-      "…的话"
-    ]
+    "kind": "pattern",
+    "category": "Zahlen & Zeit",
+    "syllabus": {
+      "no": 148,
+      "category": "特殊表达法",
+      "categoryName": "数的表达法",
+      "item": "",
+      "content": "（3）数词+量词+多"
+    },
+    "meaningStatus": "draft"
   }
 ]);

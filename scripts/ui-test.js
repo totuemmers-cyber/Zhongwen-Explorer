@@ -127,10 +127,10 @@ async function run() {
   ({ w, d } = f);
   const grammar = w.app.sections.grammar;
   await w.app.ensureSectionLoaded('grammar');
-  const withRelated = grammar.filteredItems.findIndex(g => (g.relatedPatterns || []).some(p => grammar.allItems.some(x => x.pattern === p)));
+  const withRelated = grammar.filteredItems.findIndex(g => (g.related || []).some(id => grammar.allItems.some(x => x.id === id)));
   grammar.openDetail(withRelated);
   const origin = grammar.selectedItem.id;
-  const tag = d.querySelector('#grammar-detail-related .grammar-related-tag:not(.disabled)');
+  const tag = d.querySelector('#grammar-detail-related .grammar-related-tag');
   assert(tag, 'No related grammar link');
   tag.click();
   await until(() => grammar.selectedItem && grammar.selectedItem.id !== origin, 'related grammar entry');
@@ -181,6 +181,15 @@ async function run() {
   assert.equal(star.getAttribute('aria-pressed'), 'false', 'Card star did not follow the detail star');
   assert.deepEqual(JSON.parse(w.localStorage.getItem('zhongwen-bookmarks-measurewords')), []);
   assert.equal(w.localStorage.getItem('bookmarks-measurewords'), null);
+  await finish(f);
+
+  // Bookmarks on grammar points that were vocabulary words move to the vocabulary entry; old ids of kept
+  // points follow their new point (legacyIds).
+  f = await boot('#grammar', { local: { 'zhongwen-bookmarks-grammar': JSON.stringify(['g:显然', 'g:很 + Adjektiv']) } });
+  ({ w, d } = f);
+  await w.app.ensureSectionLoaded('grammar');
+  assert.deepEqual(JSON.parse(w.localStorage.getItem('zhongwen-bookmarks-grammar')), ['g:很']);
+  assert(JSON.parse(w.localStorage.getItem('zhongwen-bookmarks-vocab')).includes(w.GRAMMAR_REMOVED['g:显然']), 'Removed grammar bookmark not moved to vocab');
   await finish(f);
 
   // Leaving an active mock exam asks first; declining keeps the quiz open.

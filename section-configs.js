@@ -572,7 +572,7 @@ function renderHanziWords(item, section) {
 SECTION_CONFIGS['grammar'] = {
   name: 'grammar',
   countLabel: ' Grammatikpunkte',
-  defaultSort: 'category',
+  defaultSort: 'level',
   batchSize: 0,
   dom: {
     controls: 'grammar-controls',
@@ -610,36 +610,32 @@ SECTION_CONFIGS['grammar'] = {
     return false;
   },
   sortFn: function (items, sortKey) {
-    var catOrder = { 'Partikel': 0, 'Verben': 1, 'Adjektive': 2, 'Adverbien': 3, 'Satzstrukturen': 4, 'Konjunktionen': 5, 'Präpositionen': 6, 'Fragewörter': 7, 'Vergleiche': 8, 'Zeitausdrücke': 9, 'Zeitformen': 10, 'Verneinung': 11, 'Modalausdrücke': 12, 'Resultativ': 13, 'Rhetorisch': 14, 'Literarisch': 15, 'Komplemente': 16 };
+    var catOrder = ['Wortbildung', 'Wortarten', 'Adverbien', 'Präpositionen', 'Konjunktionen', 'Partikeln', 'Wortgruppen',
+      'Feste Muster', 'Satzglieder', 'Komplemente', 'Satzarten', 'Satzmuster', 'Satzgefüge', 'Aspekt', 'Zahlen & Zeit',
+      'Textebene', 'Schriftsprache'];
+    var rank = function (cat) { var i = catOrder.indexOf(cat); return i === -1 ? 99 : i; };
+    var levelRank = function (g) { return LEVEL_ORDER[g.level] !== undefined ? LEVEL_ORDER[g.level] : 99; };
+    // Syllabus order within a level (the order of the official grammar lists); Zusatz points after them.
+    var syllabusRank = function (g) { return g.syllabus ? g.syllabus.no : 9999; };
     items.sort(function (a, b) {
-      if (sortKey === 'level') {
-        var la = LEVEL_ORDER[a.level] !== undefined ? LEVEL_ORDER[a.level] : 99;
-        var lb = LEVEL_ORDER[b.level] !== undefined ? LEVEL_ORDER[b.level] : 99;
-        return la - lb;
-      }
       if (sortKey === 'alpha') return a.pattern.localeCompare(b.pattern);
-      // Default: category
-      var ca = catOrder[a.category] !== undefined ? catOrder[a.category] : 99;
-      var cb = catOrder[b.category] !== undefined ? catOrder[b.category] : 99;
-      return ca - cb || a.pattern.localeCompare(b.pattern);
+      if (sortKey === 'category') return rank(a.category) - rank(b.category) || levelRank(a) - levelRank(b) || syllabusRank(a) - syllabusRank(b);
+      return levelRank(a) - levelRank(b) || syllabusRank(a) - syllabusRank(b) || a.pattern.localeCompare(b.pattern);
     });
   },
   createCard: function (item, index, section) {
-    var exampleText = '';
-    if (item.examples && item.examples.length > 0) {
-      exampleText = item.examples[0].chinese || '';
-    }
-
+    var exampleText = item.examples && item.examples.length ? item.examples[0].chinese || '' : '';
+    var meaning = item.meaning || (item.words ? item.words.join('、') : '');
     return createBaseCard('grammar-card',
       '<div class="grammar-card-header">' +
-        '<span class="grammar-card-pattern">' + item.pattern + '</span>' +
+        '<span class="grammar-card-pattern">' + escapeHtml(item.pattern) + '</span>' +
         '<div class="grammar-card-badges">' +
           '<span class="card-level ' + item.level + '">' + (item.level || '') + '</span>' +
-          '<span class="grammar-card-category ' + (item.category || '') + '">' + (item.category || '') + '</span>' +
+          '<span class="grammar-card-category">' + escapeHtml(item.category || '') + '</span>' +
         '</div>' +
       '</div>' +
-      '<div class="grammar-card-meaning">' + (item.meaning || '') + '</div>' +
-      (exampleText ? '<div class="grammar-card-example">' + exampleText + '</div>' : ''),
+      '<div class="grammar-card-meaning' + (item.meaning ? '' : ' pending') + '">' + escapeHtml(meaning || 'Wird ausgearbeitet') + '</div>' +
+      (exampleText ? '<div class="grammar-card-example">' + escapeHtml(exampleText) + '</div>' : ''),
       index, section, item.id);
   },
   openDetail: function (item, dom, section) {
@@ -648,8 +644,6 @@ SECTION_CONFIGS['grammar'] = {
     patternEl.textContent = item.pattern;
     patternEl.style.cursor = 'pointer';
     patternEl.onclick = function () { speakText(item.pattern); };
-
-    // Add speaker button
     var grammarHeader = patternEl.parentElement;
     var oldSpeak = grammarHeader.querySelector('.btn-speak');
     if (oldSpeak) oldSpeak.remove();
@@ -658,56 +652,57 @@ SECTION_CONFIGS['grammar'] = {
     var badge = document.getElementById('grammar-detail-level');
     badge.textContent = item.level;
     badge.className = 'detail-jlpt-badge ' + item.level;
-    var catClass = 'cat-' + (item.category || '').toLowerCase().replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue');
     var catBadge = document.getElementById('grammar-detail-category');
-    catBadge.textContent = item.category;
-    catBadge.className = 'grammar-category-badge ' + catClass;
+    catBadge.textContent = item.category || '';
+    catBadge.className = 'grammar-category-badge';
     document.getElementById('grammar-detail-meaning').textContent = item.meaning || '';
-    document.getElementById('grammar-detail-formation').textContent = item.formation || '';
-    document.getElementById('grammar-detail-explanation').textContent = item.explanation || '';
+    document.getElementById('grammar-detail-draft').classList.toggle('hidden', !!(item.meaning && item.explanation));
+    var show = function (id, text) {
+      document.getElementById(id).textContent = text || '';
+      document.getElementById(id + '-section').classList.toggle('hidden', !text);
+    };
+    show('grammar-detail-formation', item.formation);
+    show('grammar-detail-explanation', item.explanation);
+    show('grammar-detail-notes', item.notes);
+    document.getElementById('grammar-detail-examples-section').classList.toggle('hidden', !(item.examples && item.examples.length));
     renderExamplesOrEmpty('grammar-detail-examples', item.examples);
 
-    var notesSection = document.getElementById('grammar-detail-notes-section');
-    var notesEl = document.getElementById('grammar-detail-notes');
-    if (item.notes) {
-      notesEl.textContent = item.notes;
-      notesSection.classList.remove('hidden');
-    } else {
-      notesSection.classList.add('hidden');
-    }
+    // Words of a word-class overview, linked to their vocabulary entries (都¹ → 都, 没（有） → 没有).
+    var wordsSection = document.getElementById('grammar-detail-words-section');
+    var wordsEl = document.getElementById('grammar-detail-words');
+    wordsEl.innerHTML = '';
+    (item.words || []).forEach(function (word) {
+      var bare = word.replace(/[¹²³⁴⁵⁶⁷⁸⁹—]/g, '');
+      var forms = [bare.replace(/（(.*?)）/g, '$1'), bare.replace(/（.*?）/g, '')];
+      var btn = appendElement(wordsEl, 'button', 'grammar-related-tag', word);
+      btn.type = 'button';
+      btn.addEventListener('click', function () {
+        window.app.workspace.openRelated('vocab', function (v) { return forms.indexOf(v.word) !== -1; });
+      });
+    });
+    wordsSection.classList.toggle('hidden', !(item.words && item.words.length));
 
     var relatedSection = document.getElementById('grammar-detail-related-section');
     var relatedEl = document.getElementById('grammar-detail-related');
-    if (item.relatedPatterns && item.relatedPatterns.length > 0) {
-      relatedEl.innerHTML = item.relatedPatterns.map(function (r) {
-        var found = section.allItems.some(function (it) { return it.pattern === r; });
-        return '<span class="grammar-related-tag' + (found ? '' : ' disabled') + '" data-pattern="' + r + '">' + r + '</span>';
-      }).join('');
-
-      relatedEl.querySelectorAll('.grammar-related-tag:not(.disabled)').forEach(function (tag) {
-        tag.style.cursor = 'pointer';
-        tag.addEventListener('click', function () {
-          var targetPattern = this.getAttribute('data-pattern');
-          var targetIndex = section.filteredItems.findIndex(function (it) { return it.pattern === targetPattern; });
-          if (targetIndex !== -1) {
-            section.openDetail(targetIndex);
-          } else {
-            section.filters.category = 'all';
-            var catSelect = document.getElementById('grammar-cat-select');
-            if (catSelect) catSelect.value = 'all';
-            section.resetFilterGroup('level');
-            section.dom.search.value = '';
-            section.applyFilters();
-            var newIndex = section.filteredItems.findIndex(function (it) { return it.pattern === targetPattern; });
-            if (newIndex !== -1) section.openDetail(newIndex);
-          }
-        });
+    relatedEl.innerHTML = '';
+    var related = (item.related || []).map(function (id) {
+      return section.allItems.find(function (g) { return g.id === id; });
+    }).filter(Boolean);
+    related.forEach(function (target) {
+      var btn = appendElement(relatedEl, 'button', 'grammar-related-tag', target.pattern);
+      btn.type = 'button';
+      btn.dataset.id = target.id;
+      btn.addEventListener('click', function () {
+        window.app.workspace.openRelated('grammar', function (g) { return g.id === target.id; });
       });
+    });
+    relatedSection.classList.toggle('hidden', !related.length);
 
-      relatedSection.classList.remove('hidden');
-    } else {
-      relatedSection.classList.add('hidden');
-    }
+    // Where the point stands in the official HSK 2025 grammar syllabus (语法大纲).
+    var s = item.syllabus;
+    document.getElementById('grammar-detail-syllabus').textContent = s
+      ? [s.category, s.categoryName, s.item].filter(Boolean).join(' › ') + (s.content ? ' — ' + s.content : '')
+      : 'Nicht im HSK-Syllabus (Zusatz)';
   }
 };
 
