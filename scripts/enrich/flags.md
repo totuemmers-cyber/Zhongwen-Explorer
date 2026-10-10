@@ -755,3 +755,46 @@ Author flags, type changes and reviewer fixes per batch, for follow-up decisions
 - w:谅解:liang4jie3 谅解 type → Verb: 动: verb (请谅解, 谅解他的难处); the noun use is secondary
 - w:临床:lin2chuang2 临床 type → Verb: 动: officially a verb (at the sickbed, practising clinically); 'klinisch' is its attributive use
 - w:零售:ling2shou4 零售 type → Verb: 动: officially a verb (to retail, sell individually); 'Einzelhandel' is its attributive/nominal use
+
+## b035 (2026-10-10, author)
+- w:乃:nai3 乃 type → Adverb: 副: adverb in the syllabus, not a particle
+- w:乃至:nai3zhi4 乃至 type → Konjunktion: 连: conjunction in the syllabus, linking A 乃至 B
+- w:耐人寻味:nai4ren2xun2wei4 耐人寻味 type → Chengyu: four-character idiom without official part of speech, not a plain adjective
+- w:匿名:ni4ming2 匿名 type → Verb: 动: verb in the syllabus („seinen Namen verbergen“), used attributively and adverbially
+- w:叛逆:pan4ni4 叛逆 type → Verb: 动、名: listed as verb/noun; the adjectival use (很叛逆) derives from the verb
+- w:炮:pao4 炮 (author): measureWords lists 座; the standard measure word for 炮 is 门 (一门炮), 座 is rarer
+- w:配置:pei4zhi4 配置 type → Verb: 动: listed as verb (to allocate, equip); the noun use is secondary
+- w:批发:pi1fa1 批发 type → Verb: 动: listed as verb; the attributive use (批发市场) derives from it
+- w:譬如:pi4ru2 譬如 type → Verb: 动: official part of speech is verb, as for 比如 and 例如 in this app
+- w:品味:pin3wei4 品味 type → Verb: 动、名: verb (kosten, auskosten) is listed first; the noun „Geschmack“ is secondary
+
+## b037 (2026-10-10, author)
+- w:任性:ren4xing4 任性 (author): Card pinyin is 'rénxìng' but the id is ren4xing4 and the correct reading is rènxìng (rénxìng is 人性).
+- w:若干:ruo4gan1 若干 type → Pronomen: 代: indefinite pronoun of quantity, not a numeral
+- w:弱势:ruo4shi4 弱势 type → Nomen: 名: noun (weak position); attributive use as in 弱势群体 does not make it an adjective
+- w:杀毒:sha1du2 杀毒 type → Verb: 动: verb (to remove computer viruses / disinfect), not a noun
+- w:身不由己:shen1bu4you2ji3 身不由己 type → Chengyu: fester Vierzeichen-Ausdruck (成语), keine freie Phrase
+
+## b034 (2026-10-10, author)
+- w:裸露:luo3lu4 裸露 type → Verb: 动: verb (裸露在外, 裸露出来), not an adjective
+- w:络绎不绝:luo4yi4bu4jue2 络绎不绝 type → Chengyu: four-character idiom (成语), not a free phrase
+- w:梦寐以求:meng4mei4yi3qiu2 梦寐以求 type → Chengyu: Vierzeichen-Chengyu (成语) mit literarischem Ursprung, kein freier Ausdruck
+- w:目不转睛:mu4bu4zhuan3jing1 目不转睛 type → Chengyu: vierteiliger Chengyu (CC-CEDICT: idiom), keine freie Phrase
+
+## b036 (2026-10-10, author)
+- w:启蒙:qi3meng2 启蒙 type → Verb: 动: verb per syllabus; the noun use (Aufklärung) is secondary
+- w:岂有此理:qi3you3ci3li3 岂有此理 type → Chengyu: four-character set idiom (成语), not a free phrase
+- w:恰如其分:qia4ru2qi2fen4 恰如其分 type → Chengyu: four-character set idiom (成语), not a free expression
+- w:签:qian1#2 签 (author): traditional: for the noun senses (lot, stick, label) the traditional form is 籤, not 簽 (簽 is the verb 'sign')
+- w:迁徙:qian1xi3 迁徙 type → Verb: 动: verb (also used nominally: 人类的迁徙)
+- w:千姿百态:qian1zi1bai3tai4 千姿百态 type → Chengyu: four-character idiom (成语); the syllabus gives no part of speech
+- w:前所未有:qian2suo3wei4you3 前所未有 type → Chengyu: four-character idiom (成语); the syllabus gives no part of speech
+- w:前无古人:qian2wu2gu3ren2 前无古人 type → Chengyu: four-character idiom (成语); the syllabus gives no part of speech
+- w:潜心:qian2xin1 潜心 type → Verb: 动: verb (mostly before another verb: 潜心研究)
+- w:潜移默化:qian2yi2mo4hua4 潜移默化 type → Chengyu: four-character idiom (成语); the syllabus gives no part of speech
+- w:侵权:qin1quan2 侵权 type → Verb: 动: verb (Rechte verletzen); nominal use as in 侵权行为 is secondary
+- w:轻而易举:qing1er2yi4ju3 轻而易举 type → Chengyu: four-character idiom (成语), not a free phrase
+- w:情不自禁:qing2bu4zi4jin1 情不自禁 type → Chengyu: four-character idiom (成语), not a free phrase
+- w:取而代之:qu3er2dai4zhi1 取而代之 type → Chengyu: four-character idiom (成语) in classical structure
+- w:拳头:quan2tou2 拳头 (author): Syllabus pinyin quántóu; Xiandai Hanyu Cidian and CC-CEDICT give quántou (neutral second syllable). Examples use quántou.
+- w:劝告:quan4gao4 劝告 (author): measureWords lists 席 (xí); for 劝告 番 (fān) is far more usual (一番劝告); 席 belongs with 话 (一席话).

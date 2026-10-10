@@ -14,6 +14,11 @@ for (const source of sources) {
   for (const item of source.items) {
     if (Array.from(item.word).length !== 4 || typeof item.pinyin !== 'string') continue;
     const parts = item.pinyin.trim().split(/\s+/);
+    // Chengyu written as one run (mèngmèiyǐqiú) get the same AB-CD form.
+    if (parts.length === 1 && item.type === 'Chengyu' && !/[-'’]/.test(parts[0])) {
+      const run = Pinyin.segment(parts[0], item.word);
+      if (Array.isArray(run) && run.length === 4 && run.join('') === parts[0]) parts.splice(0, 1, ...run);
+    }
     if (parts.length !== 4 || parts.some(p => p !== p.toLowerCase())) continue; // names (一带一路 Yī Dài Yī Lù) stay
     const syllables = Pinyin.segment(parts.join(''), item.word);
     if (!Array.isArray(syllables) || syllables.length !== 4) continue;

@@ -66003,7 +66003,7 @@ window.VOCAB_ZUSATZ = [
   {
     "id": "w:眄视:mian3shi4",
     "word": "眄视",
-    "pinyin": "miànshì",
+    "pinyin": "miǎnshì",
     "meaning": "einen Seitenblick werfen",
     "type": "Verb",
     "level": "Zusatz",
