@@ -2722,7 +2722,7 @@ window.VOCAB_RUNTIME = {
 {"id":"w:了不起:liao3bu5qi3","word":"了不起","pinyin":"liǎobuqǐ","meaning":"großartig; bemerkenswert; außergewöhnlich","type":"Adjektiv","level":"HSK5","category":"Gefühle","legacyIds":["了不起|liǎobuqǐ"],"traditional":"了不起"},
 {"id":"w:列车:lie4che1","word":"列车","pinyin":"lièchē","meaning":"Zug; Eisenbahnzug","type":"Nomen","level":"HSK5","traditional":"列車","legacyIds":[]},
 {"id":"w:临时:lin2shi2","word":"临时","pinyin":"línshí","meaning":"vorübergehend; vorläufig; kurzfristig","type":"Adjektiv","level":"HSK5","category":"Arbeit","legacyIds":["临时|línshí"],"traditional":"臨時"},
-{"id":"w:铃:ling2","word":"铃","pinyin":"líng","meaning":"Klingel; Glocke","type":"Nomen","level":"HSK5","category":"Bildung","legacyIds":["铃|líng"],"traditional":"鈴","measureWords":[{"word":"只","pinyin":"zhi1"}]},
+{"id":"w:铃:ling2","word":"铃","pinyin":"líng","meaning":"Klingel; Glocke","type":"Nomen","level":"HSK5","category":"Bildung","legacyIds":["铃|líng"],"traditional":"鈴","measureWords":[{"word":"个","pinyin":"ge4"}]},
 {"id":"w:灵活:ling2huo2","word":"灵活","pinyin":"línghuó","meaning":"flexibel, wendig","type":"Adjektiv","level":"HSK5","category":"Arbeit","legacyIds":["灵活|línghuó"],"traditional":"靈活"},
 {"id":"w:领:ling3","word":"领","pinyin":"lǐng","meaning":"Kragen; führen; mitnehmen; abholen; erhalten","type":"Nomen","level":"HSK5","traditional":"領","legacyIds":[]},
 {"id":"w:领带:ling3dai4","word":"领带","pinyin":"lǐngdài","meaning":"Krawatte","type":"Nomen","level":"HSK5","category":"Kleidung","legacyIds":["领带|lǐngdài"],"traditional":"領帶","measureWords":[{"word":"条","pinyin":"tiao2"}]},

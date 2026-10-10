@@ -39,6 +39,7 @@ const CORRECTIONS = {
   'w:才华:cai2hua2': [],
   'w:成语:cheng2yu3': [mw('个', 'ge4'), mw('句', 'ju4'), mw('条', 'tiao2')],
   'w:服装:fu2zhuang1': [mw('套', 'tao4')],
+  'w:铃:ling2': [mw('个', 'ge4')],
   'w:强度:qiang2du4': [],
   'w:重量:zhong4liang4': [],
   // Batches b018–b021.

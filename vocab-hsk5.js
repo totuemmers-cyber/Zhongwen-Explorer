@@ -31700,8 +31700,8 @@ window.VOCAB_HSK5 = [
     "traditional": "鈴",
     "measureWords": [
       {
-        "word": "只",
-        "pinyin": "zhi1"
+        "word": "个",
+        "pinyin": "ge4"
       }
     ],
     "evidence": {
