@@ -2784,8 +2784,8 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
     }
   },
   {
-    "id": "g:无外乎",
-    "pattern": "无外乎",
+    "id": "g:不外乎",
+    "pattern": "不外乎",
     "level": "Zusatz",
     "kind": "zusatz",
     "category": "Adverbien",
@@ -2793,36 +2793,36 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
     "pinyin": "wúwàihū",
     "examples": [
       {
-        "chinese": "他辞职的原因无外乎工资太低。",
-        "pinyin": "Tā cízhí de yuányīn wúwàihū gōngzī tài dī.",
+        "chinese": "他辞职的原因不外乎工资太低。",
+        "pinyin": "Tā cízhí de yuányīn búwàihū gōngzī tài dī.",
         "german": "Der Grund für seine Kündigung ist im Grunde nur das zu niedrige Gehalt."
       },
       {
-        "chinese": "学好外语的方法无外乎多听、多说、多练。",
-        "pinyin": "Xuéhǎo wàiyǔ de fāngfǎ wúwàihū duō tīng, duō shuō, duō liàn.",
+        "chinese": "学好外语的方法不外乎多听、多说、多练。",
+        "pinyin": "Xuéhǎo wàiyǔ de fāngfǎ búwàihū duō tīng, duō shuō, duō liàn.",
         "german": "Der Weg zu einer guten Fremdsprache besteht im Grunde nur aus viel Hören, viel Sprechen und viel Üben."
       },
       {
-        "chinese": "周末他做的事情无外乎两件：睡觉和打游戏。",
-        "pinyin": "Zhōumò tā zuò de shìqing wúwàihū liǎng jiàn: shuìjiào hé dǎ yóuxì.",
+        "chinese": "周末他做的事情不外乎两件：睡觉和打游戏。",
+        "pinyin": "Zhōumò tā zuò de shìqing búwàihū liǎng jiàn: shuìjiào hé dǎ yóuxì.",
         "german": "Am Wochenende macht er eigentlich nur zwei Dinge: schlafen und zocken."
       }
     ],
     "legacyIds": [
       "无外乎",
-      "g:不外乎",
-      "不外乎"
+      "不外乎",
+      "g:无外乎"
     ],
     "related": [
       "g:无非",
       "g:无非/不过/只是……罢了/而已"
     ],
     "formation": "Subjekt + 无外乎 + Nomen/Verbgruppe/Aufzählung",
-    "notes": "无非 (wúfēi) ist ähnlich, klingt aber oft abwertend („bloß, nichts weiter als“) und verbindet sich gern mit 罢了 (bàle) oder 而已 (éryǐ); 无外乎 (wúwàihū) und 不外乎 (búwàihū) stellen eher sachlich fest, dass die Aufzählung vollständig ist.",
-    "explanation": "无外乎 (wúwàihū) bedeutet „geht nicht über … hinaus“: 无 „nicht“, 外 „außerhalb“, 乎 entspricht dem klassischen 于. Damit reduziert man etwas auf wenige, oft aufgezählte Punkte – typische Subjekte sind Gründe, Methoden oder Möglichkeiten. Es steht als Prädikat nach dem Subjekt; danach folgen Nomen, Verbgruppen oder eine Aufzählung, gern mit Zahl („zwei Dinge“). Der Ton ist sachlich-zusammenfassend, in Texten und gehobener Rede. Die Normform ist 不外乎 (búwàihū); 无外乎 ist eine sehr verbreitete Mischform aus 不外乎 und 无非 (wúfēi), die Wörterbücher und Lektorate oft als nicht normgerecht ansehen – in sorgfältigen Texten ist 不外乎 sicherer.",
+    "notes": "无非 (wúfēi) ist ähnlich, klingt aber oft abwertend („bloß, nichts weiter als“) und verbindet sich gern mit 罢了 (bàle) oder 而已 (éryǐ); 不外乎 stellt eher sachlich fest, dass die Aufzählung vollständig ist.",
+    "explanation": "不外乎 (búwàihū) bedeutet „geht nicht über … hinaus“: 不 „nicht“, 外 „außerhalb“, 乎 entspricht dem klassischen 于. Damit reduziert man etwas auf wenige, oft aufgezählte Punkte – typische Subjekte sind Gründe, Methoden oder Möglichkeiten. Es steht als Prädikat nach dem Subjekt; danach folgen Nomen, Verbgruppen oder eine Aufzählung, gern mit Zahl („zwei Dinge“). Der Ton ist sachlich-zusammenfassend, in Texten und gehobener Rede. Sehr häufig liest und hört man auch 无外乎 (wúwàihū), eine Mischform aus 不外乎 und 无非 (wúfēi), die Wörterbücher und Lektorate oft als nicht normgerecht ansehen – in sorgfältigen Texten ist 不外乎 sicherer.",
     "quiz": {
       "example": 1,
-      "answer": "无外乎",
+      "answer": "不外乎",
       "distractors": [
         {
           "text": "不至于",
@@ -2838,7 +2838,7 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
         }
       ],
       "accepted": [
-        "不外乎",
+        "无外乎",
         "无非是"
       ]
     },
@@ -4011,122 +4011,6 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
       "g:为…所…",
       "g:表称谓或认定义：主语+收/选+宾语1+做/当/为+宾语2"
     ],
-    "review": {
-      "batch": "g005",
-      "policy": "author",
-      "date": "2026-10-10"
-    }
-  },
-  {
-    "id": "g:适逢",
-    "pattern": "适逢",
-    "level": "Zusatz",
-    "kind": "zusatz",
-    "category": "Schriftsprache",
-    "meaning": "gerade zusammenfallen mit (Zeitpunkt, Anlass; schriftsprachlich)",
-    "pinyin": "shìféng",
-    "examples": [
-      {
-        "chinese": "适逢国庆假期，景区里到处都是游客。",
-        "pinyin": "Shìféng guóqìng jiàqī, jǐngqū lǐ dàochù dōu shì yóukè.",
-        "german": "Weil gerade die Feiertage um den Nationalfeiertag waren, wimmelte es im Ausflugsgebiet von Touristen."
-      },
-      {
-        "chinese": "我们到达北京时，适逢今年的第一场雪。",
-        "pinyin": "Wǒmen dàodá Běijīng shí, shìféng jīnnián de dìyī cháng xuě.",
-        "german": "Als wir in Peking ankamen, fiel gerade der erste Schnee des Jahres."
-      },
-      {
-        "chinese": "今年适逢学校建校一百周年，很多校友回校庆祝。",
-        "pinyin": "Jīnnián shìféng xuéxiào jiànxiào yìbǎi zhōunián, hěn duō xiàoyǒu huí xiào qìngzhù.",
-        "german": "Dieses Jahr feiert die Schule ihr hundertjähriges Bestehen, und viele Ehemalige kommen zum Feiern zurück."
-      }
-    ],
-    "legacyIds": [
-      "适逢"
-    ],
-    "formation": "适逢 + Zeitpunkt/Anlass，+ Geschehen",
-    "explanation": "适逢 (shìféng) heißt „gerade auf … treffen“ (适 „gerade, zufällig“, 逢 „begegnen“). Es sagt, dass ein Geschehen zufällig mit einem bestimmten Zeitpunkt oder Anlass zusammenfällt: Feiertag, Jubiläum, Wetter, Saison. Das Objekt ist ein Zeit- oder Ereignisnomen (适逢国庆, 适逢周末, 适逢雨季). Gehobene Schriftsprache (Berichte, Reden, Reiseberichte); gesprochen sagt man 正好赶上 (zhènghǎo gǎnshang) oder 刚好碰上. Ähnlich sind 恰逢 (qiàféng) und 正值 (zhèngzhí) „gerade während“. Feste Wendung: 适逢其会 (shìféng qí huì) „gerade zur rechten Zeit dabei sein“.",
-    "quiz": {
-      "example": 0,
-      "answer": "适逢",
-      "distractors": [
-        {
-          "text": "适合",
-          "reason": "适合 „passen zu“ beschreibt Eignung, nicht ein zeitliches Zusammentreffen."
-        },
-        {
-          "text": "适应",
-          "reason": "适应 „sich anpassen an“ ergibt mit dem Feiertag keinen Sinn."
-        },
-        {
-          "text": "适当",
-          "reason": "适当 „angemessen“ ist ein Adjektiv und kann kein Zeitnomen als Objekt nehmen."
-        }
-      ],
-      "accepted": [
-        "恰逢",
-        "正值",
-        "正逢"
-      ]
-    },
-    "review": {
-      "batch": "g005",
-      "policy": "author",
-      "date": "2026-10-10"
-    }
-  },
-  {
-    "id": "g:置若罔闻",
-    "pattern": "置若罔闻",
-    "level": "Zusatz",
-    "kind": "zusatz",
-    "category": "Schriftsprache",
-    "meaning": "geflissentlich überhören, so tun, als hätte man nichts gehört",
-    "pinyin": "zhìruòwǎngwén",
-    "examples": [
-      {
-        "chinese": "他对医生的警告置若罔闻，照样每天抽烟。",
-        "pinyin": "Tā duì yīshēng de jǐnggào zhìruòwǎngwén, zhàoyàng měi tiān chōuyān.",
-        "german": "Er schlug die Warnungen des Arztes in den Wind und rauchte weiter jeden Tag."
-      },
-      {
-        "chinese": "面对群众的意见，政府不能置若罔闻。",
-        "pinyin": "Miànduì qúnzhòng de yìjiàn, zhèngfǔ bù néng zhìruòwǎngwén.",
-        "german": "Die Regierung darf die Meinung der Bevölkerung nicht einfach überhören."
-      },
-      {
-        "chinese": "老师说了好几遍，可是有些学生仍然置若罔闻。",
-        "pinyin": "Lǎoshī shuō le hǎo jǐ biàn, kěshì yǒuxiē xuésheng réngrán zhìruòwǎngwén.",
-        "german": "Der Lehrer hat es mehrmals gesagt, aber manche Schüler tun immer noch so, als hätten sie nichts gehört."
-      }
-    ],
-    "legacyIds": [
-      "置若罔闻"
-    ],
-    "formation": "(Person) + 对 + Warnung/Rat/Kritik + 置若罔闻",
-    "explanation": "Vierzeichen-Ausdruck (Chengyu) 置若罔闻 (zhìruòwǎngwén): 置 „beiseitelegen“, 若 „als ob“, 罔 „nicht“, 闻 „hören“ – „etwas beiseiteschieben, als hätte man es nicht gehört“. Er bezeichnet das bewusste Ignorieren von Ratschlägen, Warnungen, Kritik oder Forderungen und ist deutlich tadelnd. Grammatisch ist er Prädikat; das Ignorierte wird mit 对 (duì) davorgestellt (对……置若罔闻), ein Objekt dahinter ist nicht möglich. Schriftsprachlich, in Presse und Kommentaren häufig. Ähnlich: 充耳不闻 (chōng'ěrbùwén) „sich taub stellen“; für Gesehenes 视而不见 (shì'érbújiàn) „die Augen verschließen“. Gegenteil: 言听计从 (yántīngjìcóng) „jedem Rat folgen“.",
-    "quiz": {
-      "example": 0,
-      "answer": "置若罔闻",
-      "distractors": [
-        {
-          "text": "言听计从",
-          "reason": "言听计从 „jedem Rat folgen“ ist das Gegenteil und passt nicht zum Weiterrauchen."
-        },
-        {
-          "text": "恍然大悟",
-          "reason": "恍然大悟 „plötzlich begreifen“ widerspricht dem Weiterrauchen und dem Tadel im Satz."
-        },
-        {
-          "text": "半途而废",
-          "reason": "半途而废 „auf halbem Weg aufgeben“ bezieht sich auf ein Vorhaben, nicht auf das Ignorieren einer Warnung."
-        }
-      ],
-      "accepted": [
-        "充耳不闻"
-      ]
-    },
     "review": {
       "batch": "g005",
       "policy": "author",
@@ -5377,122 +5261,6 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
     }
   },
   {
-    "id": "g:不胜枚举",
-    "pattern": "不胜枚举",
-    "level": "Zusatz",
-    "kind": "zusatz",
-    "category": "Schriftsprache",
-    "meaning": "zu zahlreich, um sie alle aufzuzählen",
-    "pinyin": "bùshèng méijǔ",
-    "examples": [
-      {
-        "chinese": "类似的例子不胜枚举。",
-        "pinyin": "Lèisì de lìzi búshèng méijǔ.",
-        "german": "Ähnliche Beispiele gibt es mehr, als man aufzählen kann."
-      },
-      {
-        "chinese": "这座城市的名胜古迹不胜枚举。",
-        "pinyin": "Zhè zuò chéngshì de míngshèng gǔjì búshèng méijǔ.",
-        "german": "Die Sehenswürdigkeiten dieser Stadt sind kaum aufzuzählen."
-      },
-      {
-        "chinese": "这些年他为村里做的好事不胜枚举。",
-        "pinyin": "Zhèxiē nián tā wèi cūn lǐ zuò de hǎoshì búshèng méijǔ.",
-        "german": "Was er in diesen Jahren Gutes für das Dorf getan hat, lässt sich gar nicht alles aufzählen."
-      }
-    ],
-    "legacyIds": [
-      "不胜枚举"
-    ],
-    "formation": "Thema (Beispiele, Fälle, Verdienste …) + 不胜枚举",
-    "notes": "Gleichbedeutend ist 举不胜举 (jǔ bú shèng jǔ). 不计其数 (bú jì qí shù) betont dagegen, dass sich etwas nicht zählen lässt (Menge), nicht das Aufzählen von Beispielen. Gegenteil: 屈指可数 (qūzhǐ kěshǔ) „an den Fingern abzuzählen“, also sehr wenige.",
-    "explanation": "不胜枚举 (búshèng méijǔ) ist ein Chengyu der Schriftsprache: 胜 heißt hier „bewältigen, schaffen“, 枚举 (méijǔ) „einzeln aufzählen“ – wörtlich „man kommt mit dem Aufzählen nicht nach“. Es steht als Prädikat am Satzende, nach einem Thema wie 例子 (lìzi) „Beispiele“, 事例 (shìlì) „Fälle“ oder 名胜古迹 (míngshèng gǔjì) „Sehenswürdigkeiten“, und betont, dass es davon sehr viele gibt. Typisch für Aufsätze, Reden und Berichte. Es nimmt kein Objekt und keine Gradadverbien: nicht *很不胜枚举 oder *不胜枚举这些例子. Das 不 wird vor dem vierten Ton als bú gesprochen.",
-    "quiz": {
-      "example": 0,
-      "answer": "不胜枚举",
-      "distractors": [
-        {
-          "text": "屈指可数",
-          "reason": "屈指可数 „an den Fingern abzuzählen“ sagt das Gegenteil: Es gäbe nur sehr wenige Beispiele."
-        },
-        {
-          "text": "不容忽视",
-          "reason": "不容忽视 „darf nicht übersehen werden“ betont die Wichtigkeit, nicht die große Zahl der Beispiele."
-        },
-        {
-          "text": "不可同日而语",
-          "reason": "不可同日而语 vergleicht zwei Dinge miteinander; hier wird nichts verglichen, sondern die Menge betont."
-        }
-      ],
-      "accepted": [
-        "举不胜举"
-      ]
-    },
-    "review": {
-      "batch": "g006",
-      "policy": "author",
-      "date": "2026-10-10"
-    }
-  },
-  {
-    "id": "g:行之有效",
-    "pattern": "行之有效",
-    "level": "Zusatz",
-    "kind": "zusatz",
-    "category": "Schriftsprache",
-    "meaning": "in der Praxis bewährt, wirksam (Methode, Maßnahme)",
-    "pinyin": "xíng zhī yǒu xiào",
-    "examples": [
-      {
-        "chinese": "这是一种行之有效的学习方法。",
-        "pinyin": "Zhè shì yì zhǒng xíng zhī yǒu xiào de xuéxí fāngfǎ.",
-        "german": "Das ist eine bewährte Lernmethode."
-      },
-      {
-        "chinese": "事实证明，这些措施行之有效。",
-        "pinyin": "Shìshí zhèngmíng, zhèxiē cuòshī xíng zhī yǒu xiào.",
-        "german": "Die Erfahrung hat gezeigt, dass diese Maßnahmen wirken."
-      },
-      {
-        "chinese": "我们要把行之有效的经验推广到其他地区。",
-        "pinyin": "Wǒmen yào bǎ xíng zhī yǒu xiào de jīngyàn tuīguǎng dào qítā dìqū.",
-        "german": "Wir wollen die bewährten Erfahrungen auf andere Regionen übertragen."
-      }
-    ],
-    "legacyIds": [
-      "行之有效"
-    ],
-    "formation": "行之有效 + 的 + Methode/Maßnahme  oder  Subjekt + 行之有效",
-    "notes": "Gegenteil im Sinn: 纸上谈兵 (zhǐ shàng tán bīng) „bloße Theorie ohne Praxis“ oder 华而不实 (huá ér bù shí) „mehr Schein als Sein“.",
-    "explanation": "行之有效 (xíng zhī yǒu xiào) bedeutet wörtlich „es durchführen und es wirkt“: 行 „ausführen“, 之 „es“, 有效 (yǒuxiào) „wirksam“. Gemeint ist eine Methode, Maßnahme oder Erfahrung, die sich in der Praxis bereits bewährt hat. Meist steht es mit 的 als Attribut vor einem Nomen wie 方法 (fāngfǎ), 措施 (cuòshī) oder 办法 (bànfǎ); es kann auch Prädikat sein (这些措施行之有效). Stil: schriftlich, typisch für Berichte, Politik und Ratgeber. 行 wird hier xíng gelesen, nicht háng. Bloßes 有效 heißt nur „wirksam“; 行之有效 betont zusätzlich, dass es sich im Einsatz erwiesen hat.",
-    "quiz": {
-      "example": 0,
-      "answer": "行之有效",
-      "distractors": [
-        {
-          "text": "华而不实",
-          "reason": "华而不实 „mehr Schein als Sein“ wertet die Methode ab; gemeint ist aber eine bewährte Methode."
-        },
-        {
-          "text": "不胜枚举",
-          "reason": "不胜枚举 „zu zahlreich zum Aufzählen“ steht als Prädikat nach einer Menge, nicht als Eigenschaft einer einzelnen Methode."
-        },
-        {
-          "text": "不容置疑",
-          "reason": "不容置疑 „unbestreitbar“ beschreibt Tatsachen oder einen Tonfall, nicht die Wirksamkeit einer Methode."
-        }
-      ]
-    },
-    "related": [
-      "g:不失为"
-    ],
-    "review": {
-      "batch": "g006",
-      "policy": "author",
-      "date": "2026-10-10"
-    }
-  },
-  {
     "id": "g:不容忽视",
     "pattern": "不容忽视",
     "level": "Zusatz",
@@ -5858,124 +5626,6 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
     }
   },
   {
-    "id": "g:言归正传",
-    "pattern": "言归正传",
-    "level": "Zusatz",
-    "kind": "zusatz",
-    "category": "Satzarten",
-    "meaning": "zurück zum Thema, kommen wir zur Sache",
-    "pinyin": "yán guī zhèngzhuàn",
-    "examples": [
-      {
-        "chinese": "闲话少说，言归正传。",
-        "pinyin": "Xiánhuà shǎo shuō, yán guī zhèngzhuàn.",
-        "german": "Genug geplaudert – kommen wir zur Sache."
-      },
-      {
-        "chinese": "好了，言归正传，我们来讨论下个月的计划。",
-        "pinyin": "Hǎo le, yán guī zhèngzhuàn, wǒmen lái tǎolùn xià ge yuè de jìhuà.",
-        "german": "Gut, zurück zum Thema: Besprechen wir den Plan für nächsten Monat."
-      },
-      {
-        "chinese": "他先讲了半天自己的旅行，这才言归正传，说起了会议的安排。",
-        "pinyin": "Tā xiān jiǎng le bàntiān zìjǐ de lǚxíng, zhè cái yán guī zhèngzhuàn, shuō qǐ le huìyì de ānpái.",
-        "german": "Erst erzählte er lange von seiner Reise, dann kam er endlich zur Sache und sprach über den Ablauf der Sitzung."
-      }
-    ],
-    "legacyIds": [
-      "言归正传"
-    ],
-    "formation": "(好了/闲话少说，) 言归正传，+ eigentliches Thema",
-    "notes": "Varianten: 书归正传, 话归正传. Nicht zu verwechseln mit 话又说回来 (huà yòu shuō huílai), das meist eine Gegenposition einleitet („andererseits“). Siehe auch die Textstrategien zum Themenwechsel.",
-    "explanation": "言归正传 (yán guī zhèngzhuàn) heißt „die Rede kehrt zur eigentlichen Geschichte zurück“: 正传 (zhèngzhuàn) war bei den traditionellen Geschichtenerzählern die Haupthandlung. Heute leitet der Ausdruck nach einer Abschweifung, Plauderei oder Einleitung zum eigentlichen Thema über – in Reden, Sitzungen, Vorträgen und Texten. Er steht meist als eigener Satzteil, oft nach 好了 (hǎo le) oder 闲话少说 (xiánhuà shǎo shuō) „genug geplaudert“. Er nimmt kein Objekt; das Thema folgt im nächsten Satzteil. Achtung: 传 wird hier zhuàn gelesen, nicht chuán.",
-    "quiz": {
-      "example": 1,
-      "answer": "言归正传",
-      "distractors": [
-        {
-          "text": "言下之意",
-          "reason": "言下之意 „das Gemeinte, die Andeutung“ leitet eine unausgesprochene Bedeutung ein, nicht die Rückkehr zum Thema."
-        },
-        {
-          "text": "一言为定",
-          "reason": "一言为定 „abgemacht!“ besiegelt eine Vereinbarung und kann keine Besprechung einleiten."
-        },
-        {
-          "text": "言过其实",
-          "reason": "言过其实 „übertrieben“ bewertet eine Aussage und passt nicht als Überleitung zum Plan."
-        }
-      ],
-      "accepted": [
-        "书归正传",
-        "话归正传"
-      ]
-    },
-    "related": [
-      "g:话（又）说回来",
-      "g:话题转换"
-    ],
-    "review": {
-      "batch": "g006",
-      "policy": "author",
-      "date": "2026-10-10"
-    }
-  },
-  {
-    "id": "g:就事论事",
-    "pattern": "就事论事",
-    "level": "Zusatz",
-    "kind": "zusatz",
-    "category": "Satzarten",
-    "meaning": "sachlich bei der Sache bleiben (auch: nur den Einzelfall sehen)",
-    "pinyin": "jiù shì lùn shì",
-    "examples": [
-      {
-        "chinese": "我们就事论事，不要把个人感情带进来。",
-        "pinyin": "Wǒmen jiù shì lùn shì, bú yào bǎ gèrén gǎnqíng dài jìnlái.",
-        "german": "Bleiben wir sachlich und lassen persönliche Gefühle außen vor."
-      },
-      {
-        "chinese": "就事论事地说，这个方案确实还有改进的空间。",
-        "pinyin": "Jiù shì lùn shì de shuō, zhège fāng'àn quèshí hái yǒu gǎijìn de kōngjiān.",
-        "german": "Rein sachlich betrachtet lässt sich dieser Plan tatsächlich noch verbessern."
-      },
-      {
-        "chinese": "分析问题不能只就事论事，还要找出背后的原因。",
-        "pinyin": "Fēnxī wèntí bù néng zhǐ jiù shì lùn shì, hái yào zhǎochū bèihòu de yuányīn.",
-        "german": "Bei der Analyse eines Problems darf man nicht am Einzelfall haften bleiben, man muss auch die Ursachen dahinter finden."
-      }
-    ],
-    "legacyIds": [
-      "就事论事"
-    ],
-    "formation": "Subjekt + 就事论事(，……)  ·  就事论事地 + Verb",
-    "notes": "Verwandt: 对事不对人 (duì shì bú duì rén) „es geht um die Sache, nicht um die Person“. Gegenteil: 借题发挥 (jiè tí fāhuī) „einen Anlass nutzen, um über etwas anderes herzuziehen“.",
-    "explanation": "就事论事 (jiù shì lùn shì) heißt „von der Sache ausgehend über die Sache reden“: 就 „ausgehend von“, 论 „erörtern“. Meist ist es positiv gemeint: sachlich bleiben, nur über den konkreten Fall sprechen, ohne Persönliches, alte Geschichten oder Nebenthemen hineinzuziehen – typisch in Streit und Diskussion (我们就事论事). Es kann Prädikat sein oder mit 地 als Adverbial stehen (就事论事地说 „sachlich betrachtet“). Daneben gibt es eine kritische Bedeutung: nur am Einzelfall haften, ohne Ursachen und Zusammenhänge zu sehen, oft mit 只 oder 不能 (不能只就事论事). Welche Lesart gemeint ist, zeigt der Zusammenhang.",
-    "quiz": {
-      "example": 0,
-      "answer": "就事论事",
-      "distractors": [
-        {
-          "text": "意气用事",
-          "reason": "意气用事 „sich von Gefühlen leiten lassen“ ist genau das Gegenteil der geforderten Sachlichkeit."
-        },
-        {
-          "text": "小题大做",
-          "reason": "小题大做 „aus einer Mücke einen Elefanten machen“ wäre ein Vorwurf, keine Aufforderung zur Sachlichkeit."
-        },
-        {
-          "text": "借题发挥",
-          "reason": "借题发挥 „einen Anlass für etwas anderes ausnutzen“ widerspricht dem Bleiben bei der Sache."
-        }
-      ]
-    },
-    "review": {
-      "batch": "g006",
-      "policy": "author",
-      "date": "2026-10-10"
-    }
-  },
-  {
     "id": "g:倘使",
     "pattern": "倘使",
     "level": "Zusatz",
@@ -6138,10 +5788,12 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
       }
     ],
     "legacyIds": [
-      "殊不知"
+      "殊不知",
+      "g:孰不知",
+      "孰不知"
     ],
     "formation": "Subjekt + 以为/觉得 + falsche Annahme，殊不知 + tatsächlicher Sachverhalt",
-    "notes": "Häufig liest man auch 孰不知 (shú bù zhī) in derselben Bedeutung; diese Schreibung gilt in Normwerken als Fehler (eigener Zusatzpunkt). Ähnlich, aber neutraler: 没想到 (méi xiǎngdào) „unerwartet“, 其实 (qíshí) „eigentlich, in Wirklichkeit“.",
+    "notes": "Häufig liest man auch 孰不知 (shú bù zhī) in derselben Bedeutung; diese Schreibung gilt in Normwerken als Fehler, denn wörtlich heißt 孰不知 „wer wüsste nicht?“ – beim Lesen verstehen, selbst aber 殊不知 schreiben. Ähnlich, aber neutraler: 没想到 (méi xiǎngdào) „unerwartet“, 其实 (qíshí) „eigentlich, in Wirklichkeit“.",
     "explanation": "殊不知 (shūbùzhī) heißt „man weiß aber gar nicht, dass …“ (殊 hier etwa „doch, gar“). Im ersten Satzteil steht eine Annahme oder ein Verhalten, oft mit 以为 (yǐwéi) oder 觉得 (juéde); 殊不知 leitet dann die tatsächliche Lage ein, die diese Annahme widerlegt: „er glaubt …, dabei …“. Oft schwingt Kritik oder Belehrung mit, im zweiten Teil stehen häufig 反而 (fǎn'ér) oder 早就 (zǎojiù). 殊不知 steht am Anfang des zweiten Satzteils, ein Subjekt davor ist nicht nötig. Stil: schriftlich (Kommentare, Ratgeber, Erzählungen).",
     "quiz": {
       "example": 1,
@@ -6161,70 +5813,7 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
         }
       ]
     },
-    "related": [
-      "g:孰不知"
-    ],
-    "review": {
-      "batch": "g006",
-      "policy": "author",
-      "date": "2026-10-10"
-    }
-  },
-  {
-    "id": "g:孰不知",
-    "pattern": "孰不知",
-    "level": "Zusatz",
-    "kind": "zusatz",
-    "category": "Satzarten",
-    "meaning": "dabei ahnt man nicht … (umstrittene Nebenform von shūbùzhī)",
-    "pinyin": "shú bù zhī",
-    "examples": [
-      {
-        "chinese": "他以为这件事很简单，孰不知其中大有学问。",
-        "pinyin": "Tā yǐwéi zhè jiàn shì hěn jiǎndān, shú bù zhī qízhōng dà yǒu xuéwèn.",
-        "german": "Er hielt die Sache für einfach – dabei steckt viel mehr dahinter."
-      },
-      {
-        "chinese": "大家都觉得他过得很好，孰不知他正经历着人生的低谷。",
-        "pinyin": "Dàjiā dōu juéde tā guò de hěn hǎo, shú bù zhī tā zhèng jīnglì zhe rénshēng de dīgǔ.",
-        "german": "Alle dachten, es gehe ihm gut, dabei steckte er gerade in der schwersten Phase seines Lebens."
-      },
-      {
-        "chinese": "有人以为保健品吃得越多越好，孰不知吃多了反而伤身。",
-        "pinyin": "Yǒu rén yǐwéi bǎojiànpǐn chī de yuè duō yuè hǎo, shú bù zhī chī duō le fǎn'ér shāng shēn.",
-        "german": "Manche meinen, je mehr Nahrungsergänzungsmittel, desto besser – dabei schadet zu viel davon eher der Gesundheit."
-      }
-    ],
-    "legacyIds": [
-      "孰不知"
-    ],
-    "formation": "Subjekt + 以为/觉得 + Annahme，孰不知 + tatsächlicher Sachverhalt",
-    "notes": "Die ursprüngliche Bedeutung „wer weiß nicht …?“ kommt nur noch in klassisch gefärbten Texten vor, meist als rhetorische Frage. Ausweichen kann man auch auf 其实 (qíshí) „in Wirklichkeit“.",
-    "explanation": "孰不知 (shú bù zhī) wird heute meist genau wie 殊不知 (shūbùzhī) gebraucht: Im ersten Satzteil steht eine Annahme, 孰不知 leitet die Wirklichkeit ein, die sie widerlegt – „dabei …“. Wörtlich bedeutet es aber etwas anderes: 孰 ist das klassische „wer“, 孰不知 also „wer wüsste nicht?“, eine rhetorische Frage im Sinn von „jeder weiß“. Deshalb gilt die Verwendung als „dabei ahnt man nicht“ in Wörterbüchern und Stilratgebern als Verwechslung mit 殊不知, auch wenn sie in Zeitungen und im Internet sehr häufig ist. Für Lernende: verstehen, wenn man es liest; selbst besser 殊不知 schreiben.",
-    "quiz": {
-      "example": 0,
-      "answer": "孰不知",
-      "distractors": [
-        {
-          "text": "难怪",
-          "reason": "难怪 „kein Wunder“ zieht eine Erklärung aus dem Vorigen, statt die Annahme zu widerlegen."
-        },
-        {
-          "text": "于是",
-          "reason": "于是 „daraufhin“ erzählt, was als Nächstes geschah, und widerspricht der Annahme nicht."
-        },
-        {
-          "text": "不仅",
-          "reason": "不仅 „nicht nur“ kündigt eine Steigerung mit 而且 an, keine Richtigstellung."
-        }
-      ],
-      "accepted": [
-        "殊不知"
-      ]
-    },
-    "related": [
-      "g:殊不知"
-    ],
+    "related": [],
     "review": {
       "batch": "g006",
       "policy": "author",
@@ -6402,67 +5991,6 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
     },
     "related": [
       "g:鉴于¹"
-    ],
-    "review": {
-      "batch": "g006",
-      "policy": "author",
-      "date": "2026-10-10"
-    }
-  },
-  {
-    "id": "g:不可同日而语",
-    "pattern": "不可同日而语",
-    "level": "Zusatz",
-    "kind": "zusatz",
-    "category": "Satzmuster",
-    "meaning": "nicht in einem Atemzug zu nennen, nicht zu vergleichen",
-    "pinyin": "bùkě tóng rì ér yǔ",
-    "examples": [
-      {
-        "chinese": "如今的生活条件和三十年前已经不可同日而语。",
-        "pinyin": "Rújīn de shēnghuó tiáojiàn hé sānshí nián qián yǐjīng bùkě tóng rì ér yǔ.",
-        "german": "Die Lebensbedingungen von heute sind mit denen vor dreißig Jahren nicht mehr zu vergleichen."
-      },
-      {
-        "chinese": "两家公司的规模不可同日而语。",
-        "pinyin": "Liǎng jiā gōngsī de guīmó bùkě tóng rì ér yǔ.",
-        "german": "Die beiden Firmen sind von ihrer Größe her überhaupt nicht vergleichbar."
-      },
-      {
-        "chinese": "这家小店和大超市当然不可同日而语，但它的服务特别热情。",
-        "pinyin": "Zhè jiā xiǎo diàn hé dà chāoshì dāngrán bùkě tóng rì ér yǔ, dàn tā de fúwù tèbié rèqíng.",
-        "german": "Mit einem großen Supermarkt kann sich dieser kleine Laden natürlich nicht messen, aber der Service ist besonders freundlich."
-      }
-    ],
-    "legacyIds": [
-      "不可同日而语"
-    ],
-    "formation": "A 和/与 B + (已经/根本) + 不可同日而语",
-    "notes": "Variante: 不能同日而语. Gegenteil: 不相上下 (bù xiāng shàng xià) „gleichauf, ebenbürtig“. Verwandt: 不亚于 (bú yàyú) „steht … nicht nach“.",
-    "explanation": "不可同日而语 (bùkě tóng rì ér yǔ) heißt wörtlich „kann nicht am selben Tag besprochen werden“: Zwei Dinge sind so verschieden – meist in Größe, Niveau oder Qualität –, dass man sie nicht miteinander vergleichen kann. Häufig geht es um früher und heute (现在和以前已经不可同日而语) oder um zwei ungleiche Konkurrenten. Die beiden Vergleichsgrößen stehen vorn, verbunden mit 和 oder 与 (yǔ); davor oft 已经 (yǐjīng), 根本 (gēnběn) oder 当然 (dāngrán). Welche Seite besser ist, sagt der Ausdruck selbst nicht, das ergibt sich aus dem Zusammenhang. Stil: schriftlich, aber auch in gehobener Rede.",
-    "quiz": {
-      "example": 1,
-      "answer": "不可同日而语",
-      "distractors": [
-        {
-          "text": "不相上下",
-          "reason": "不相上下 „ebenbürtig“ sagt das Gegenteil: Die Firmen wären etwa gleich groß."
-        },
-        {
-          "text": "一模一样",
-          "reason": "一模一样 „völlig gleich“ widerspricht der Aussage, dass die Größen nicht vergleichbar sind."
-        },
-        {
-          "text": "不胜枚举",
-          "reason": "不胜枚举 „zu zahlreich zum Aufzählen“ betont eine große Menge und vergleicht nichts."
-        }
-      ],
-      "accepted": [
-        "不能同日而语"
-      ]
-    },
-    "related": [
-      "g:不亚于……"
     ],
     "review": {
       "batch": "g006",

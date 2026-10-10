@@ -4204,7 +4204,7 @@ window.VOCAB_HSK7_9 = [
     "meaning": "einkreisen, umzingeln, Belagerung",
     "type": "Verb",
     "level": "HSK7-9",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "敌军被我方部队完全包围。",
@@ -19582,7 +19582,7 @@ window.VOCAB_HSK7_9 = [
     "meaning": "sich zurückziehen; den Rückzug antreten",
     "type": "Verb",
     "level": "HSK7-9",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "指挥官下令部队有序撤退。",
@@ -50088,7 +50088,7 @@ window.VOCAB_HSK7_9 = [
     "meaning": "witzig, geistreich",
     "type": "Adjektiv",
     "level": "HSK7-9",
-    "category": "Persoenlichkeit",
+    "category": "Persönlichkeit",
     "examples": [
       {
         "chinese": "他说话很风趣。",
@@ -65380,7 +65380,7 @@ window.VOCAB_HSK7_9 = [
     "meaning": "Marine; Seestreitkräfte",
     "type": "Nomen",
     "level": "HSK7-9",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "海军舰队在南海进行了联合演习。",
@@ -68732,7 +68732,7 @@ window.VOCAB_HSK7_9 = [
     "meaning": "Kernwaffe; Atomwaffe",
     "type": "Nomen",
     "level": "HSK7-9",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "国际条约禁止核武器的扩散。",
@@ -70461,7 +70461,7 @@ window.VOCAB_HSK7_9 = [
     "meaning": "Logistik; Versorgung; Nachschub; Versorgungs- und Verwaltungsdienst",
     "type": "Nomen",
     "level": "HSK7-9",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "后勤保障是战争胜利的重要因素。",
@@ -96642,7 +96642,7 @@ window.VOCAB_HSK7_9 = [
     "meaning": "großzügig; freigebig; leidenschaftlich (Rede)",
     "type": "Adjektiv",
     "level": "HSK7-9",
-    "category": "Persoenlichkeit",
+    "category": "Persönlichkeit",
     "examples": [
       {
         "chinese": "他是一个慷慨的人。",
@@ -98411,7 +98411,7 @@ window.VOCAB_HSK7_9 = [
     "meaning": "Luftwaffe; Luftstreitkräfte",
     "type": "Nomen",
     "level": "HSK7-9",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "空军战斗机在边境上空巡逻。",
@@ -102194,7 +102194,7 @@ window.VOCAB_HSK7_9 = [
     "meaning": "Hupe; Lautsprecher; trompetenartiges Blasinstrument",
     "type": "Nomen",
     "level": "HSK7-9",
-    "category": "Gegenstaende",
+    "category": "Gegenstände",
     "examples": [
       {
         "chinese": "不要按喇叭。",
@@ -108722,7 +108722,7 @@ window.VOCAB_HSK7_9 = [
     "meaning": "geizig, knauserig",
     "type": "Adjektiv",
     "level": "HSK7-9",
-    "category": "Persoenlichkeit",
+    "category": "Persönlichkeit",
     "examples": [
       {
         "chinese": "他很吝啬。",
@@ -180159,7 +180159,7 @@ window.VOCAB_HSK7_9 = [
     "meaning": "bewaffnen; ausrüsten; Bewaffnung; Streitkräfte",
     "type": "Verb",
     "level": "HSK7-9",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "武装冲突导致大量平民伤亡。",
@@ -186198,7 +186198,7 @@ window.VOCAB_HSK7_9 = [
     "meaning": "niedergeschlagen, entmutigt",
     "type": "Adjektiv",
     "level": "HSK7-9",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "失业后他变得非常消沉。",
@@ -188818,7 +188818,7 @@ window.VOCAB_HSK7_9 = [
     "meaning": "hocherfreut; freudig; voller Freude",
     "type": "Adjektiv",
     "level": "HSK7-9",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "得知被录取的消息，她欣喜若狂。",
@@ -213207,7 +213207,7 @@ window.VOCAB_HSK7_9 = [
     "meaning": "Taktik, taktisch",
     "type": "Nomen",
     "level": "HSK7-9",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "灵活的战术帮助军队取得了胜利。",
@@ -213251,7 +213251,7 @@ window.VOCAB_HSK7_9 = [
     "meaning": "Schlacht, Feldzug, Kampagne",
     "type": "Nomen",
     "level": "HSK7-9",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "这场战役改变了整个战争的走向。",
@@ -215895,7 +215895,7 @@ window.VOCAB_HSK7_9 = [
     "meaning": "Stellung; Front; (fig.) Plattform, Bastion",
     "type": "Nomen",
     "level": "HSK7-9",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "士兵们坚守阵地，抵御敌军进攻。",
@@ -228723,7 +228723,7 @@ window.VOCAB_HSK7_9 = [
     "meaning": "Selbstachtung haben; Selbstachtung; Selbstwertgefühl; Stolz",
     "type": "Verb",
     "level": "HSK7-9",
-    "category": "Persoenlichkeit",
+    "category": "Persönlichkeit",
     "examples": [
       {
         "chinese": "要保护孩子的自尊。",

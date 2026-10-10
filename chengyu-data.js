@@ -12714,7 +12714,7 @@ window.CHENGYU_DATA = [
     "meaning": "vor Freude weinen; Freudentränen vergießen",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "得知考上大学的消息，她喜极而泣。",
@@ -12753,7 +12753,7 @@ window.CHENGYU_DATA = [
     "meaning": "vor Wut stehen die Haare zu Berge; rasend vor Zorn",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "听到这个不公平的判决，他怒发冲冠。",
@@ -12787,7 +12787,7 @@ window.CHENGYU_DATA = [
     "meaning": "es kaum erwarten können, nach Hause zu kommen; heimwärts drängen",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "在外漂泊多年，他归心似箭。",
@@ -12826,7 +12826,7 @@ window.CHENGYU_DATA = [
     "meaning": "wie auf glühenden Kohlen sitzen; sich äußerst unwohl fühlen",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "等待面试结果时，他如坐针毡。",
@@ -12865,7 +12865,7 @@ window.CHENGYU_DATA = [
     "meaning": "auf höchste Freude folgt Leid; Übermut tut selten gut",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "他赢了比赛高兴得跳了起来，结果把脚扭伤了，真是乐极生悲。",
@@ -12899,7 +12899,7 @@ window.CHENGYU_DATA = [
     "meaning": "betrübt und niedergeschlagen; still trauern",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "得知老友去世的消息，他黯然神伤。",
@@ -12939,7 +12939,7 @@ window.CHENGYU_DATA = [
     "meaning": "vor Erfolg übermütig werden; sich vor Freude vergessen",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "别得意忘形，要保持谦虚。",
@@ -12978,7 +12978,7 @@ window.CHENGYU_DATA = [
     "meaning": "beim Anblick eines Ortes oder einer Szene von Erinnerungen und Gefühlen ergriffen werden",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "回到故乡，他触景生情，想起了童年。",
@@ -13018,7 +13018,7 @@ window.CHENGYU_DATA = [
     "meaning": "es zerreißt einem das Herz; tiefen seelischen Schmerz empfinden",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "看到孩子受苦，母亲心如刀割。",
@@ -13052,7 +13052,7 @@ window.CHENGYU_DATA = [
     "meaning": "außer sich vor Freude sein; vor Freude ganz aus dem Häuschen sein",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "中奖的消息让他欣喜若狂。",
@@ -13086,7 +13086,7 @@ window.CHENGYU_DATA = [
     "meaning": "das Herz weitet sich und der Geist erfrischt sich; heiter und entspannt",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "站在山顶俯瞰美景，令人心旷神怡。",
@@ -13121,7 +13121,7 @@ window.CHENGYU_DATA = [
     "meaning": "geistesabwesend; nicht bei der Sache; ganz durcheinander",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "他最近魂不守舍的，好像有什么心事。",
@@ -13160,7 +13160,7 @@ window.CHENGYU_DATA = [
     "meaning": "von Trauer und Zorn zugleich erfüllt; voller Kummer und Empörung",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "得知儿子被人冤枉，母亲悲愤交加。",
@@ -14966,7 +14966,7 @@ window.CHENGYU_DATA = [
     "meaning": "vor Bewunderung staunen; atemberaubend; nicht zu übertreffen",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "他的技艺令人叹为观止。",
@@ -15304,7 +15304,7 @@ window.CHENGYU_DATA = [
     "meaning": "wohlbehalten; unversehrt; heil davonkommen",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "地震之后，得知他安然无恙，家人终于放下心来。",
@@ -15690,6 +15690,228 @@ window.CHENGYU_DATA = [
       "batch": "b060",
       "policy": "author",
       "date": "2026-10-10"
+    }
+  },
+  {
+    "id": "w:置若罔闻:zhi4ruo4wang3wen2",
+    "word": "置若罔闻",
+    "pinyin": "zhìruò-wǎngwén",
+    "meaning": "geflissentlich überhören, so tun, als hätte man nichts gehört",
+    "type": "Chengyu",
+    "level": "Zusatz",
+    "category": "Charakter",
+    "examples": [
+      {
+        "chinese": "他对医生的警告置若罔闻，照样每天抽烟。",
+        "pinyin": "Tā duì yīshēng de jǐnggào zhìruòwǎngwén, zhàoyàng měi tiān chōuyān.",
+        "german": "Er schlug die Warnungen des Arztes in den Wind und rauchte weiter jeden Tag."
+      },
+      {
+        "chinese": "面对群众的意见，政府不能置若罔闻。",
+        "pinyin": "Miànduì qúnzhòng de yìjiàn, zhèngfǔ bù néng zhìruòwǎngwén.",
+        "german": "Die Regierung darf die Meinung der Bevölkerung nicht einfach überhören."
+      },
+      {
+        "chinese": "老师说了好几遍，可是有些学生仍然置若罔闻。",
+        "pinyin": "Lǎoshī shuō le hǎo jǐ biàn, kěshì yǒuxiē xuésheng réngrán zhìruòwǎngwén.",
+        "german": "Der Lehrer hat es mehrmals gesagt, aber manche Schüler tun immer noch so, als hätten sie nichts gehört."
+      }
+    ],
+    "legacyIds": [],
+    "traditional": "置若罔聞",
+    "evidence": {
+      "cedict": "置若罔聞 置若罔闻 [zhi4 ruo4 wang3 wen2]"
+    },
+    "notes": "Vierzeichen-Ausdruck (Chengyu) 置若罔闻 (zhìruòwǎngwén): 置 „beiseitelegen“, 若 „als ob“, 罔 „nicht“, 闻 „hören“ – „etwas beiseiteschieben, als hätte man es nicht gehört“. Er bezeichnet das bewusste Ignorieren von Ratschlägen, Warnungen, Kritik oder Forderungen und ist deutlich tadelnd. Grammatisch ist er Prädikat; das Ignorierte wird mit 对 (duì) davorgestellt (对……置若罔闻), ein Objekt dahinter ist nicht möglich. Schriftsprachlich, in Presse und Kommentaren häufig. Ähnlich: 充耳不闻 (chōng'ěrbùwén) „sich taub stellen“; für Gesehenes 视而不见 (shì'érbújiàn) „die Augen verschließen“. Gegenteil: 言听计从 (yántīngjìcóng) „jedem Rat folgen“.",
+    "review": {
+      "batch": "from-grammar",
+      "policy": "author",
+      "date": "2026-10-11"
+    }
+  },
+  {
+    "id": "w:不胜枚举:bu4sheng4mei2ju3",
+    "word": "不胜枚举",
+    "pinyin": "búshèng-méijǔ",
+    "meaning": "zu zahlreich, um sie alle aufzuzählen",
+    "type": "Chengyu",
+    "level": "Zusatz",
+    "category": "Lebensweisheit",
+    "examples": [
+      {
+        "chinese": "类似的例子不胜枚举。",
+        "pinyin": "Lèisì de lìzi búshèng méijǔ.",
+        "german": "Ähnliche Beispiele gibt es mehr, als man aufzählen kann."
+      },
+      {
+        "chinese": "这座城市的名胜古迹不胜枚举。",
+        "pinyin": "Zhè zuò chéngshì de míngshèng gǔjì búshèng méijǔ.",
+        "german": "Die Sehenswürdigkeiten dieser Stadt sind kaum aufzuzählen."
+      },
+      {
+        "chinese": "这些年他为村里做的好事不胜枚举。",
+        "pinyin": "Zhèxiē nián tā wèi cūn lǐ zuò de hǎoshì búshèng méijǔ.",
+        "german": "Was er in diesen Jahren Gutes für das Dorf getan hat, lässt sich gar nicht alles aufzählen."
+      }
+    ],
+    "legacyIds": [],
+    "traditional": "不勝枚舉",
+    "evidence": {
+      "cedict": "不勝枚舉 不胜枚举 [bu4 sheng4 mei2 ju3]"
+    },
+    "notes": "不胜枚举 (búshèng méijǔ) ist ein Chengyu der Schriftsprache: 胜 heißt hier „bewältigen, schaffen“, 枚举 (méijǔ) „einzeln aufzählen“ – wörtlich „man kommt mit dem Aufzählen nicht nach“. Es steht als Prädikat am Satzende, nach einem Thema wie 例子 (lìzi) „Beispiele“, 事例 (shìlì) „Fälle“ oder 名胜古迹 (míngshèng gǔjì) „Sehenswürdigkeiten“, und betont, dass es davon sehr viele gibt. Typisch für Aufsätze, Reden und Berichte. Es nimmt kein Objekt und keine Gradadverbien: nicht *很不胜枚举 oder *不胜枚举这些例子. Das 不 wird vor dem vierten Ton als bú gesprochen. Gleichbedeutend ist 举不胜举 (jǔ bú shèng jǔ). 不计其数 (bú jì qí shù) betont dagegen, dass sich etwas nicht zählen lässt (Menge), nicht das Aufzählen von Beispielen. Gegenteil: 屈指可数 (qūzhǐ kěshǔ) „an den Fingern abzuzählen“, also sehr wenige.",
+    "review": {
+      "batch": "from-grammar",
+      "policy": "author",
+      "date": "2026-10-11"
+    }
+  },
+  {
+    "id": "w:行之有效:xing2zhi1you3xiao4",
+    "word": "行之有效",
+    "pinyin": "xíngzhī-yǒuxiào",
+    "meaning": "in der Praxis bewährt, wirksam (Methode, Maßnahme)",
+    "type": "Chengyu",
+    "level": "Zusatz",
+    "category": "Arbeit",
+    "examples": [
+      {
+        "chinese": "这是一种行之有效的学习方法。",
+        "pinyin": "Zhè shì yì zhǒng xíng zhī yǒu xiào de xuéxí fāngfǎ.",
+        "german": "Das ist eine bewährte Lernmethode."
+      },
+      {
+        "chinese": "事实证明，这些措施行之有效。",
+        "pinyin": "Shìshí zhèngmíng, zhèxiē cuòshī xíng zhī yǒu xiào.",
+        "german": "Die Erfahrung hat gezeigt, dass diese Maßnahmen wirken."
+      },
+      {
+        "chinese": "我们要把行之有效的经验推广到其他地区。",
+        "pinyin": "Wǒmen yào bǎ xíng zhī yǒu xiào de jīngyàn tuīguǎng dào qítā dìqū.",
+        "german": "Wir wollen die bewährten Erfahrungen auf andere Regionen übertragen."
+      }
+    ],
+    "legacyIds": [],
+    "traditional": "行之有效",
+    "evidence": {
+      "cedict": "行之有效 行之有效 [xing2 zhi1 you3 xiao4]"
+    },
+    "notes": "行之有效 (xíng zhī yǒu xiào) bedeutet wörtlich „es durchführen und es wirkt“: 行 „ausführen“, 之 „es“, 有效 (yǒuxiào) „wirksam“. Gemeint ist eine Methode, Maßnahme oder Erfahrung, die sich in der Praxis bereits bewährt hat. Meist steht es mit 的 als Attribut vor einem Nomen wie 方法 (fāngfǎ), 措施 (cuòshī) oder 办法 (bànfǎ); es kann auch Prädikat sein (这些措施行之有效). Stil: schriftlich, typisch für Berichte, Politik und Ratgeber. 行 wird hier xíng gelesen, nicht háng. Bloßes 有效 heißt nur „wirksam“; 行之有效 betont zusätzlich, dass es sich im Einsatz erwiesen hat. Gegenteil im Sinn: 纸上谈兵 (zhǐ shàng tán bīng) „bloße Theorie ohne Praxis“ oder 华而不实 (huá ér bù shí) „mehr Schein als Sein“.",
+    "review": {
+      "batch": "from-grammar",
+      "policy": "author",
+      "date": "2026-10-11"
+    }
+  },
+  {
+    "id": "w:言归正传:yan2gui1zheng4zhuan4",
+    "word": "言归正传",
+    "pinyin": "yánguī-zhèngzhuàn",
+    "meaning": "zurück zum Thema, kommen wir zur Sache",
+    "type": "Chengyu",
+    "level": "Zusatz",
+    "category": "Beziehungen",
+    "examples": [
+      {
+        "chinese": "闲话少说，言归正传。",
+        "pinyin": "Xiánhuà shǎo shuō, yán guī zhèngzhuàn.",
+        "german": "Genug geplaudert – kommen wir zur Sache."
+      },
+      {
+        "chinese": "好了，言归正传，我们来讨论下个月的计划。",
+        "pinyin": "Hǎo le, yán guī zhèngzhuàn, wǒmen lái tǎolùn xià ge yuè de jìhuà.",
+        "german": "Gut, zurück zum Thema: Besprechen wir den Plan für nächsten Monat."
+      },
+      {
+        "chinese": "他先讲了半天自己的旅行，这才言归正传，说起了会议的安排。",
+        "pinyin": "Tā xiān jiǎng le bàntiān zìjǐ de lǚxíng, zhè cái yán guī zhèngzhuàn, shuō qǐ le huìyì de ānpái.",
+        "german": "Erst erzählte er lange von seiner Reise, dann kam er endlich zur Sache und sprach über den Ablauf der Sitzung."
+      }
+    ],
+    "legacyIds": [],
+    "traditional": "言歸正傳",
+    "evidence": {
+      "cedict": "言歸正傳 言归正传 [yan2 gui1 zheng4 zhuan4]"
+    },
+    "notes": "言归正传 (yán guī zhèngzhuàn) heißt „die Rede kehrt zur eigentlichen Geschichte zurück“: 正传 (zhèngzhuàn) war bei den traditionellen Geschichtenerzählern die Haupthandlung. Heute leitet der Ausdruck nach einer Abschweifung, Plauderei oder Einleitung zum eigentlichen Thema über – in Reden, Sitzungen, Vorträgen und Texten. Er steht meist als eigener Satzteil, oft nach 好了 (hǎo le) oder 闲话少说 (xiánhuà shǎo shuō) „genug geplaudert“. Er nimmt kein Objekt; das Thema folgt im nächsten Satzteil. Achtung: 传 wird hier zhuàn gelesen, nicht chuán. Varianten: 书归正传, 话归正传. Nicht zu verwechseln mit 话又说回来 (huà yòu shuō huílai), das meist eine Gegenposition einleitet („andererseits“). Siehe auch die Textstrategien zum Themenwechsel.",
+    "review": {
+      "batch": "from-grammar",
+      "policy": "author",
+      "date": "2026-10-11"
+    }
+  },
+  {
+    "id": "w:就事论事:jiu4shi4lun4shi4",
+    "word": "就事论事",
+    "pinyin": "jiùshì-lùnshì",
+    "meaning": "sachlich bei der Sache bleiben (auch: nur den Einzelfall sehen)",
+    "type": "Chengyu",
+    "level": "Zusatz",
+    "category": "Arbeit",
+    "examples": [
+      {
+        "chinese": "我们就事论事，不要把个人感情带进来。",
+        "pinyin": "Wǒmen jiù shì lùn shì, bú yào bǎ gèrén gǎnqíng dài jìnlái.",
+        "german": "Bleiben wir sachlich und lassen persönliche Gefühle außen vor."
+      },
+      {
+        "chinese": "就事论事地说，这个方案确实还有改进的空间。",
+        "pinyin": "Jiù shì lùn shì de shuō, zhège fāng'àn quèshí hái yǒu gǎijìn de kōngjiān.",
+        "german": "Rein sachlich betrachtet lässt sich dieser Plan tatsächlich noch verbessern."
+      },
+      {
+        "chinese": "分析问题不能只就事论事，还要找出背后的原因。",
+        "pinyin": "Fēnxī wèntí bù néng zhǐ jiù shì lùn shì, hái yào zhǎochū bèihòu de yuányīn.",
+        "german": "Bei der Analyse eines Problems darf man nicht am Einzelfall haften bleiben, man muss auch die Ursachen dahinter finden."
+      }
+    ],
+    "legacyIds": [],
+    "traditional": "就事論事",
+    "evidence": {
+      "cedict": "就事論事 就事论事 [jiu4 shi4 lun4 shi4]"
+    },
+    "notes": "就事论事 (jiù shì lùn shì) heißt „von der Sache ausgehend über die Sache reden“: 就 „ausgehend von“, 论 „erörtern“. Meist ist es positiv gemeint: sachlich bleiben, nur über den konkreten Fall sprechen, ohne Persönliches, alte Geschichten oder Nebenthemen hineinzuziehen – typisch in Streit und Diskussion (我们就事论事). Es kann Prädikat sein oder mit 地 als Adverbial stehen (就事论事地说 „sachlich betrachtet“). Daneben gibt es eine kritische Bedeutung: nur am Einzelfall haften, ohne Ursachen und Zusammenhänge zu sehen, oft mit 只 oder 不能 (不能只就事论事). Welche Lesart gemeint ist, zeigt der Zusammenhang. Verwandt: 对事不对人 (duì shì bú duì rén) „es geht um die Sache, nicht um die Person“. Gegenteil: 借题发挥 (jiè tí fāhuī) „einen Anlass nutzen, um über etwas anderes herzuziehen“.",
+    "review": {
+      "batch": "from-grammar",
+      "policy": "author",
+      "date": "2026-10-11"
+    }
+  },
+  {
+    "id": "w:不可同日而语:bu4ke3tong2ri4er2yu3",
+    "word": "不可同日而语",
+    "pinyin": "bùkě tóngrì ér yǔ",
+    "meaning": "nicht in einem Atemzug zu nennen, nicht zu vergleichen",
+    "type": "Chengyu",
+    "level": "Zusatz",
+    "category": "Lebensweisheit",
+    "examples": [
+      {
+        "chinese": "如今的生活条件和三十年前已经不可同日而语。",
+        "pinyin": "Rújīn de shēnghuó tiáojiàn hé sānshí nián qián yǐjīng bùkě tóng rì ér yǔ.",
+        "german": "Die Lebensbedingungen von heute sind mit denen vor dreißig Jahren nicht mehr zu vergleichen."
+      },
+      {
+        "chinese": "两家公司的规模不可同日而语。",
+        "pinyin": "Liǎng jiā gōngsī de guīmó bùkě tóng rì ér yǔ.",
+        "german": "Die beiden Firmen sind von ihrer Größe her überhaupt nicht vergleichbar."
+      },
+      {
+        "chinese": "这家小店和大超市当然不可同日而语，但它的服务特别热情。",
+        "pinyin": "Zhè jiā xiǎo diàn hé dà chāoshì dāngrán bùkě tóng rì ér yǔ, dàn tā de fúwù tèbié rèqíng.",
+        "german": "Mit einem großen Supermarkt kann sich dieser kleine Laden natürlich nicht messen, aber der Service ist besonders freundlich."
+      }
+    ],
+    "legacyIds": [],
+    "traditional": "不可同日而語",
+    "evidence": {
+      "cedict": "不可同日而語 不可同日而语 [bu4 ke3 tong2 ri4 er2 yu3]"
+    },
+    "notes": "不可同日而语 (bùkě tóng rì ér yǔ) heißt wörtlich „kann nicht am selben Tag besprochen werden“: Zwei Dinge sind so verschieden – meist in Größe, Niveau oder Qualität –, dass man sie nicht miteinander vergleichen kann. Häufig geht es um früher und heute (现在和以前已经不可同日而语) oder um zwei ungleiche Konkurrenten. Die beiden Vergleichsgrößen stehen vorn, verbunden mit 和 oder 与 (yǔ); davor oft 已经 (yǐjīng), 根本 (gēnběn) oder 当然 (dāngrán). Welche Seite besser ist, sagt der Ausdruck selbst nicht, das ergibt sich aus dem Zusammenhang. Stil: schriftlich, aber auch in gehobener Rede. Variante: 不能同日而语. Gegenteil: 不相上下 (bù xiāng shàng xià) „gleichauf, ebenbürtig“. Verwandt: 不亚于 (bú yàyú) „steht … nicht nach“.",
+    "review": {
+      "batch": "from-grammar",
+      "policy": "author",
+      "date": "2026-10-11"
     }
   }
 ];

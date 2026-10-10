@@ -115,5 +115,19 @@ window.GRAMMAR_REMOVED = {
  "g:宁缺毋滥": "w:宁缺毋滥:ning4que1wu2lan4",
  "宁缺毋滥": "w:宁缺毋滥:ning4que1wu2lan4",
  "g:顾名思义": "w:顾名思义:gu4ming2si1yi4",
- "顾名思义": "w:顾名思义:gu4ming2si1yi4"
+ "顾名思义": "w:顾名思义:gu4ming2si1yi4",
+ "g:置若罔闻": "w:置若罔闻:zhi4ruo4wang3wen2",
+ "置若罔闻": "w:置若罔闻:zhi4ruo4wang3wen2",
+ "g:不胜枚举": "w:不胜枚举:bu4sheng4mei2ju3",
+ "不胜枚举": "w:不胜枚举:bu4sheng4mei2ju3",
+ "g:行之有效": "w:行之有效:xing2zhi1you3xiao4",
+ "行之有效": "w:行之有效:xing2zhi1you3xiao4",
+ "g:言归正传": "w:言归正传:yan2gui1zheng4zhuan4",
+ "言归正传": "w:言归正传:yan2gui1zheng4zhuan4",
+ "g:就事论事": "w:就事论事:jiu4shi4lun4shi4",
+ "就事论事": "w:就事论事:jiu4shi4lun4shi4",
+ "g:不可同日而语": "w:不可同日而语:bu4ke3tong2ri4er2yu3",
+ "不可同日而语": "w:不可同日而语:bu4ke3tong2ri4er2yu3",
+ "g:适逢": "w:适逢:shi4feng2",
+ "适逢": "w:适逢:shi4feng2"
 };

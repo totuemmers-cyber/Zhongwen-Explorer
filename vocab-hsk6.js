@@ -38019,7 +38019,7 @@ window.VOCAB_HSK6 = [
     "meaning": "Mikrofon",
     "type": "Nomen",
     "level": "HSK6",
-    "category": "Gegenstaende",
+    "category": "Gegenstände",
     "examples": [
       {
         "chinese": "用麦克风说话。",

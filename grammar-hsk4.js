@@ -6846,7 +6846,8 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
       "g:虽然……，但是……",
       "g:X（倒）是X（了），……",
       "g:不是……，就是……",
-      "g:就是……，也……"
+      "g:就是……，也……",
+      "g:X是X"
     ],
     "review": {
       "batch": "g003",

@@ -18296,7 +18296,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "Lautsprecher; Lautsprecherbox",
     "type": "Nomen",
     "level": "Zusatz",
-    "category": "Gegenstaende",
+    "category": "Gegenstände",
     "examples": [
       {
         "chinese": "这个蓝牙音箱音质很好。",
@@ -29229,7 +29229,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "rührend fürsorglich; bis ins Kleinste aufmerksam",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Persoenlichkeit",
+    "category": "Persönlichkeit",
     "examples": [
       {
         "chinese": "她对人体贴入微。",
@@ -29268,7 +29268,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "aufgeschlossen und extrovertiert",
     "type": "Phrase",
     "level": "Zusatz",
-    "category": "Persoenlichkeit",
+    "category": "Persönlichkeit",
     "examples": [
       {
         "chinese": "她的性格开朗外向。",
@@ -117008,7 +117008,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "Verteidigungslinie; Abwehr (auch übertragen)",
     "type": "Nomen",
     "level": "Zusatz",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "敌军的防线在猛烈的攻势下崩溃了。",
@@ -117053,7 +117053,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "General; hoher Heerführer",
     "type": "Nomen",
     "level": "Zusatz",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "这位将领指挥了多次重大战役。",
@@ -117092,7 +117092,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "Truppenstärke; Streitkräfte",
     "type": "Nomen",
     "level": "Zusatz",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "增援部队大大加强了前线的兵力。",
@@ -117131,7 +117131,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "militärischer Dienstgrad; Rang",
     "type": "Nomen",
     "level": "Zusatz",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "他因功勋卓著被授予上校军衔。",
@@ -117170,7 +117170,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "aus dem Hinterhalt angreifen; Hinterhalt",
     "type": "Verb",
     "level": "Zusatz",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "游击队在山谷中伏击了敌军车队。",
@@ -117209,7 +117209,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "Munition",
     "type": "Nomen",
     "level": "Zusatz",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "前线部队急需补充弹药和物资。",
@@ -117248,7 +117248,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "Militärdisziplin",
     "type": "Nomen",
     "level": "Zusatz",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "严明的军纪是一支强大军队的基础。",
@@ -117285,7 +117285,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "Kriegsgefangener",
     "type": "Nomen",
     "level": "Zusatz",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "日内瓦公约规定了战俘的待遇标准。",
@@ -117324,7 +117324,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "zum Wehrdienst einberufen; Rekruten ausheben; Einberufung",
     "type": "Verb",
     "level": "Zusatz",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "该国实行义务征兵制度。",
@@ -117363,7 +117363,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "Verstärkung; Entsatztruppen; Hilfstruppen",
     "type": "Nomen",
     "level": "Zusatz",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "援军及时赶到，扭转了战局。",
@@ -117402,7 +117402,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "Artillerie; Artillerist; Kanonier",
     "type": "Nomen",
     "level": "Zusatz",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "炮兵部队对敌方阵地进行了猛烈轰击。",
@@ -117436,7 +117436,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "Kriegsherr, Warlord",
     "type": "Nomen",
     "level": "Zusatz",
-    "category": "Militaer",
+    "category": "Militär",
     "examples": [
       {
         "chinese": "民国时期军阀割据导致国家分裂。",
@@ -124043,7 +124043,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "Selbstmitleid; sich selbst bemitleiden",
     "type": "Nomen",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "沉浸在自怜中无法解决任何问题。",
@@ -124080,7 +124080,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "voller Angst und Unruhe; verängstigt",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "等待结果的那几天她惶恐不安。",
@@ -124119,7 +124119,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "trotzig; rebellisch; sich aus Trotz widersetzen",
     "type": "Adjektiv",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "青春期的逆反心理是正常现象。",
@@ -124158,7 +124158,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "verbohrt; starrsinnig; paranoid (Psychologie)",
     "type": "Adjektiv",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "过度偏执的性格会影响人际关系。",
@@ -124197,7 +124197,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "sich selbst aufgeben; sich gehen lassen",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "失败后不要自暴自弃，要振作起来。",
@@ -124236,7 +124236,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "innerlich ruhig wie stilles Wasser; gelassen und unberührt",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "经历了这么多事，他已经心如止水了。",
@@ -124275,7 +124275,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "völlig entmutigt; desillusioniert",
     "type": "Chengyu",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "多次失败让他心灰意冷。",
@@ -125136,7 +125136,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "niedergeschlagen; mutlos; entmutigt",
     "type": "Adjektiv",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "连续几次失败让他变得颓丧。",
@@ -125329,7 +125329,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "Heimweh; Sehnsucht nach der Heimat",
     "type": "Nomen",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "海外华人心中都有一份浓浓的乡愁。",
@@ -125368,7 +125368,7 @@ window.VOCAB_ZUSATZ = [
     "meaning": "unruhig; nervös; beklommen",
     "type": "Adjektiv",
     "level": "Zusatz",
-    "category": "Gefuehle",
+    "category": "Gefühle",
     "examples": [
       {
         "chinese": "面试前她心里非常忐忑不安。",
@@ -125398,6 +125398,43 @@ window.VOCAB_ZUSATZ = [
       "batch": "b059",
       "policy": "author",
       "date": "2026-10-10"
+    }
+  },
+  {
+    "id": "w:适逢:shi4feng2",
+    "word": "适逢",
+    "pinyin": "shìféng",
+    "meaning": "gerade zusammenfallen mit (Zeitpunkt, Anlass; schriftsprachlich)",
+    "type": "Verb",
+    "level": "Zusatz",
+    "category": "Formell",
+    "examples": [
+      {
+        "chinese": "适逢国庆假期，景区里到处都是游客。",
+        "pinyin": "Shìféng guóqìng jiàqī, jǐngqū lǐ dàochù dōu shì yóukè.",
+        "german": "Weil gerade die Feiertage um den Nationalfeiertag waren, wimmelte es im Ausflugsgebiet von Touristen."
+      },
+      {
+        "chinese": "我们到达北京时，适逢今年的第一场雪。",
+        "pinyin": "Wǒmen dàodá Běijīng shí, shìféng jīnnián de dìyī cháng xuě.",
+        "german": "Als wir in Peking ankamen, fiel gerade der erste Schnee des Jahres."
+      },
+      {
+        "chinese": "今年适逢学校建校一百周年，很多校友回校庆祝。",
+        "pinyin": "Jīnnián shìféng xuéxiào jiànxiào yìbǎi zhōunián, hěn duō xiàoyǒu huí xiào qìngzhù.",
+        "german": "Dieses Jahr feiert die Schule ihr hundertjähriges Bestehen, und viele Ehemalige kommen zum Feiern zurück."
+      }
+    ],
+    "legacyIds": [],
+    "traditional": "適逢",
+    "evidence": {
+      "cedict": "適逢 适逢 [shi4 feng2]"
+    },
+    "notes": "适逢 (shìféng) heißt „gerade auf … treffen“ (适 „gerade, zufällig“, 逢 „begegnen“). Es sagt, dass ein Geschehen zufällig mit einem bestimmten Zeitpunkt oder Anlass zusammenfällt: Feiertag, Jubiläum, Wetter, Saison. Das Objekt ist ein Zeit- oder Ereignisnomen (适逢国庆, 适逢周末, 适逢雨季). Gehobene Schriftsprache (Berichte, Reden, Reiseberichte); gesprochen sagt man 正好赶上 (zhènghǎo gǎnshang) oder 刚好碰上. Ähnlich sind 恰逢 (qiàféng) und 正值 (zhèngzhí) „gerade während“. Feste Wendung: 适逢其会 (shìféng qí huì) „gerade zur rechten Zeit dabei sein“.",
+    "review": {
+      "batch": "from-grammar",
+      "policy": "author",
+      "date": "2026-10-11"
     }
   }
 ];

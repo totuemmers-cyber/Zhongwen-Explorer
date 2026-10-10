@@ -1012,7 +1012,7 @@
  "g:……X是X，就是/不过……": {
   "batch": "g003",
   "policy": "author+review",
-  "hash": "b18f79306a9bae8d"
+  "hash": "2611f44bfb19974b"
  },
  "g:……，否则……": {
   "batch": "g003",
@@ -2874,11 +2874,6 @@
   "policy": "author",
   "hash": "a308105b98a9d5d1"
  },
- "g:无外乎": {
-  "batch": "g005",
-  "policy": "author",
-  "hash": "35026de701e61ddc"
- },
  "g:以…为例": {
   "batch": "g005",
   "policy": "author",
@@ -2973,16 +2968,6 @@
   "batch": "g005",
   "policy": "author",
   "hash": "13b697d87dbf83c1"
- },
- "g:适逢": {
-  "batch": "g005",
-  "policy": "author",
-  "hash": "5bdc198dd1ec2a6a"
- },
- "g:置若罔闻": {
-  "batch": "g005",
-  "policy": "author",
-  "hash": "d2d8296049f09a64"
  },
  "g:岂": {
   "batch": "g005",
@@ -4079,16 +4064,6 @@
   "policy": "author",
   "hash": "9d12904d7f2b7776"
  },
- "g:不胜枚举": {
-  "batch": "g006",
-  "policy": "author",
-  "hash": "ea2b5dbae20be7b1"
- },
- "g:行之有效": {
-  "batch": "g006",
-  "policy": "author",
-  "hash": "bf57528be384186b"
- },
  "g:不容忽视": {
   "batch": "g006",
   "policy": "author",
@@ -4119,16 +4094,6 @@
   "policy": "author",
   "hash": "d50dcace5b8bc7cb"
  },
- "g:言归正传": {
-  "batch": "g006",
-  "policy": "author",
-  "hash": "b2681d2cfe393984"
- },
- "g:就事论事": {
-  "batch": "g006",
-  "policy": "author",
-  "hash": "c361a3ebb3770363"
- },
  "g:倘使": {
   "batch": "g006",
   "policy": "author",
@@ -4142,12 +4107,7 @@
  "g:殊不知": {
   "batch": "g006",
   "policy": "author",
-  "hash": "61d8085870d88a73"
- },
- "g:孰不知": {
-  "batch": "g006",
-  "policy": "author",
-  "hash": "3e412f2b6a45f24a"
+  "hash": "df1bd190be0d54c0"
  },
  "g:前者…后者…": {
   "batch": "g006",
@@ -4164,14 +4124,14 @@
   "policy": "author",
   "hash": "dc67b1986aa87555"
  },
- "g:不可同日而语": {
-  "batch": "g006",
-  "policy": "author",
-  "hash": "d814dca30ed24848"
- },
  "g:用不着": {
   "batch": "g004",
   "policy": "author",
   "hash": "27843fc323f5b224"
+ },
+ "g:不外乎": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "03c449b5ce4c7168"
  }
 }

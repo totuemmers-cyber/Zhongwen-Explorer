@@ -138,7 +138,7 @@ async function run() {
     await app.ensureHanziDetailsLoaded();
     const openHanzi = ch => hanziSection.openDetail(hanziSection.filteredItems.findIndex(h => h.hanzi === ch));
     // HSK 2025 levels, the official handwriting list and several readings per character.
-    assert.strictEqual(hanziSection.allItems.length, 3675, 'Hanzi section must hold 3,675 characters');
+    assert.strictEqual(hanziSection.allItems.length, 3676, 'Hanzi section must hold 3,676 characters');
     assert.strictEqual(hanziSection.allItems.find(h => h.hanzi === '饕').level, 'Zusatz');
     openHanzi('行');
     assert.strictEqual(d.querySelectorAll('#detail-readings .hanzi-reading').length, 2, '行 must show xíng and háng');

@@ -27718,5 +27718,41 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       "policy": "author",
       "date": "2026-10-10"
     }
+  },
+  {
+    "hanzi": "罔",
+    "level": "Zusatz",
+    "traditional": [
+      "罔"
+    ],
+    "readings": [
+      {
+        "pinyin": "wǎng",
+        "meaning": "nicht; ohne (literarisch, in Wörtern); täuschen; Netz (alte Form von 网)"
+      }
+    ],
+    "primaryRadical": "网",
+    "components": [
+      {
+        "part": "冂",
+        "role": "form",
+        "meaning": "Umriss eines Netzes"
+      },
+      {
+        "part": "亡",
+        "role": "phonetic",
+        "meaning": "zugrunde gehen (Laut wáng)"
+      }
+    ],
+    "notes": "罔 war ursprünglich das Zeichen für „Netz“: der Rahmen 冂 umschließt das Geflecht, 亡 (wáng) gibt den Laut. Als „Netz“ schreibt man heute 网 (wǎng); 罔 lebt in der Schriftsprache als „nicht, ohne“ weiter. Merkhilfe: Wer im Netz gefangen ist, kommt nicht heraus – „nicht“. Typisch ist 置若罔闻 (zhìruò-wǎngwén) „so tun, als hätte man nichts gehört“; nicht verwechseln mit 网 (wǎng) „Netz“ und 冈 (gāng) „Hügel“.",
+    "strokes": 8,
+    "words": [
+      "w:置若罔闻:zhi4ruo4wang3wen2"
+    ],
+    "review": {
+      "batch": "from-grammar",
+      "policy": "author",
+      "date": "2026-10-11"
+    }
   }
 ]);

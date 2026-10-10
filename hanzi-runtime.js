@@ -3675,5 +3675,6 @@ window.HANZI_RUNTIME = {
 {"hanzi":"龃","level":"Zusatz","traditional":["齟"],"readings":[{"pinyin":"jǔ","meaning":"nur in Wörtern: nicht aufeinanderpassende Zähne; Unstimmigkeit; Meinungsverschiedenheit"}],"strokes":13,"primaryRadical":"齒","radicalForm":"齿"},
 {"hanzi":"龈","level":"Zusatz","traditional":["齦"],"readings":[{"pinyin":"yín","meaning":"Zahnfleisch"}],"strokes":14,"primaryRadical":"齒","radicalForm":"齿"},
 {"hanzi":"龉","level":"Zusatz","traditional":["齬"],"readings":[{"pinyin":"yǔ","meaning":"nur in Wörtern: nicht aufeinanderpassende Zähne; Unstimmigkeit; Meinungsverschiedenheit"}],"strokes":15,"primaryRadical":"齒","radicalForm":"齿"},
-{"hanzi":"龋","level":"Zusatz","traditional":["齲"],"readings":[{"pinyin":"qǔ","meaning":"Karies; kariös (Zahn)"}],"strokes":17,"primaryRadical":"齒","radicalForm":"齿"}
+{"hanzi":"龋","level":"Zusatz","traditional":["齲"],"readings":[{"pinyin":"qǔ","meaning":"Karies; kariös (Zahn)"}],"strokes":17,"primaryRadical":"齒","radicalForm":"齿"},
+{"hanzi":"罔","level":"Zusatz","traditional":["罔"],"readings":[{"pinyin":"wǎng","meaning":"nicht; ohne (literarisch, in Wörtern); täuschen; Netz (alte Form von 网)"}],"primaryRadical":"网","strokes":8}
 ]};
