@@ -23788,7 +23788,9 @@ window.VOCAB_HSK5 = [
       }
     ],
     "legacyIds": [
-      "纪录片|jìlùpiàn"
+      "纪录片|jìlùpiàn",
+      "w:纪录片:ji4lu4pian1",
+      "纪录片|jìlùpiān"
     ],
     "syllabus": {
       "no": 2543,
@@ -68957,7 +68959,9 @@ window.VOCAB_HSK5 = [
       }
     ],
     "legacyIds": [
-      "综合|zōnghé"
+      "综合|zōnghé",
+      "w:综合:zong4he2",
+      "综合|zònghé"
     ],
     "syllabus": {
       "no": 3580,

@@ -8592,29 +8592,6 @@ window.CHENGYU_DATA = [
     }
   },
   {
-    "id": "w:心甘情愿:xin1gan1qing2yuan4",
-    "word": "心甘情愿",
-    "pinyin": "xīngān-qíngyuàn",
-    "meaning": "aus freien Stuecken; von Herzen bereit",
-    "type": "Chengyu",
-    "level": "Zusatz",
-    "category": "Gefühle",
-    "examples": [
-      {
-        "chinese": "她心甘情愿地为家庭付出一切。",
-        "pinyin": "Tā xīn gān qíng yuàn de wèi jiātíng fùchū yīqiè.",
-        "german": "Sie opfert aus freien Stuecken alles fuer ihre Familie."
-      }
-    ],
-    "legacyIds": [
-      "心甘情愿|xīn gān qíng yuàn"
-    ],
-    "traditional": "心甘情願",
-    "evidence": {
-      "cedict": "心甘情願 心甘情愿 [xin1 gan1 qing2 yuan4]"
-    }
-  },
-  {
     "id": "w:若无其事:ruo4wu2qi2shi4",
     "word": "若无其事",
     "pinyin": "ruòwú-qíshì",

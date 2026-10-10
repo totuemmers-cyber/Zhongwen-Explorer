@@ -53874,7 +53874,7 @@ window.VOCAB_HSK7_9 = [
   {
     "id": "w:感恩:gan3en1",
     "word": "感恩",
-    "pinyin": "gǎnēn",
+    "pinyin": "gǎn’ēn",
     "meaning": "dankbar sein, Dankbarkeit zeigen",
     "type": "Verb",
     "level": "HSK7-9",
@@ -188229,7 +188229,9 @@ window.VOCAB_HSK7_9 = [
       }
     ],
     "legacyIds": [
-      "心甘情愿|xīngān qíngyuàn"
+      "心甘情愿|xīngān qíngyuàn",
+      "w:心甘情愿:xin1gan1qing2yuan4",
+      "心甘情愿|xīn gān qíng yuàn"
     ],
     "syllabus": {
       "no": 9944,
@@ -193296,10 +193298,6 @@ window.VOCAB_HSK7_9 = [
       {
         "word": "次",
         "pinyin": "ci4"
-      },
-      {
-        "word": "个",
-        "pinyin": "ge4"
       }
     ],
     "evidence": {

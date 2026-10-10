@@ -23853,7 +23853,10 @@ window.VOCAB_HSK4 = [
       }
     ],
     "traditional": "嗯",
-    "legacyIds": [],
+    "legacyIds": [
+      "w:嗯:en1",
+      "嗯|ēn"
+    ],
     "notes": "嗯 ist ein Laut, dessen Bedeutung vom Ton abhängt. Mit fallendem Ton, ǹg, drückt es Zustimmung aus: „mhm, ja, okay“. Mit steigendem Ton (ńg) fragt man nach („hm? wie bitte?“), mit dem dritten Ton (ňg) zeigt man Verwunderung oder Zweifel. In Chats wirkt ein einzelnes 嗯 manchmal kurz angebunden; freundlicher ist 嗯嗯.",
     "review": {
       "batch": "b008",

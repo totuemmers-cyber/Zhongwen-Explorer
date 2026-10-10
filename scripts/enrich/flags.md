@@ -908,3 +908,92 @@ Author flags, type changes and reviewer fixes per batch, for follow-up decisions
 - w:作息:zuo4xi1 作息 type → Verb: 动: official part of speech is verb (按时作息), though it is often used nominally
 - w:居安思危:ju1an1si1wei1 居安思危 (author): Citation pinyin „jūān sīwēi“ lacks the apostrophe and the chengyu hyphen; expected jū'ān-sīwēi (like the other chengyu in this batch).
 - w:揠苗助长:ya4miao2zhu4zhang3 揠苗助长 type → Chengyu: classic four-character 成语 from the Mencius (variant of 拔苗助长), like the other idiom cards
+
+## b046 (2026-10-10, author)
+- w:杯:bei1 杯 type → Zählwort: überwiegend als Zählwort für Getränke gebraucht (一杯水); das Gefäß selbst heißt meist 杯子
+- w:瓶:ping2 瓶 type → Zählwort: überwiegend als Zählwort gebraucht (一瓶水); der Gegenstand heißt meist 瓶子
+- w:称:cheng4 称 (author): 称 chèng is only a variant spelling of 秤 chèng (scale); standard form is 秤. The old gloss 'wiegen' belonged to chēng. Consider linking/merging with a 秤 entry.
+- w:企鹅:qi3e2 企鹅 (author): Card pinyin 'qǐé' lacks the apostrophe; should be qǐ'é.
+- w:订书机:ding4shu1ji1 订书机 (author): measureWords lists only 台; for an ordinary stapler 个 (also 只) is the usual measure word, 台 fits only large/electric staplers.
+
+## b048 (2026-10-10, author)
+- w:百分之:bai3fen1zhi1 百分之 type → Ausdruck: fixed pattern 百分之 + number (percentage), not a standalone noun
+- w:骑自行车:qi2zi4xing2che1 骑自行车 type → Phrase: free verb-object combination 骑 + 自行车, not a lexicalised verb
+- w:出勤:chu1qin2 出勤 type → Verb: dictionaries list it as a verb (按时出勤, 出勤了十五天); the noun is 出勤率
+- w:提案:ti2an4 提案 (author): Card pinyin 'tíàn' lacks the apostrophe; should be tí'àn.
+- w:轮班:lun2ban1 轮班 type → Verb: überwiegend verbal gebraucht (护士们轮班, 轮班工作); nominal fast nur attributiv in 轮班制
+- w:口角:kou3jiao3 口角 (author): Lesung prüfen: Kategorie (Beziehung), alte Bedeutung „Wortgefecht, Streiterei“ und altes Beispiel 他们发生了口角 gehören zur Lesung kǒujué (CC-CEDICT kou3 jue2; 现代汉语词典: 口角 kǒujué „争吵“). Unter kǒujiǎo heißt 口角 nur „Mundwinkel“, daher Bedeutung und Beispiele auf diese Lesung umgestellt. Empfehlung: Karte auf kǒujué (kou3jue2) umstellen und die Streit-Bedeutung wiederherstellen.
+- w:重归于好:chong2gui1yu2hao3 重归于好 type → Chengyu: fester vierteiliger 成语 (重归于好), keine freie Wendung
+- w:体贴入微:ti3tie1ru4wei1 体贴入微 type → Chengyu: fester vierteiliger 成语 (体贴入微), keine freie Wendung
+- w:开朗外向:kai1lang3wai4xiang4 开朗外向 type → Phrase: freie Verbindung zweier Adjektive (开朗 + 外向), kein festes Idiom
+
+## b049 (2026-10-10, author)
+- w:沟通障碍:gou1tong1zhang4ai4 沟通障碍 (author): Card pinyin 'gōutōng zhàngài' lacks the apostrophe; should be 'gōutōng zhàng'ài'.
+- w:停战:ting2zhan4 停战 type → Verb: Used mainly as a verb (双方同意停战, 宣布停战); the noun sense appears attributively (停战协议).
+- w:下载:xia4zai3 下载 (author): Reading: 现代汉语词典 gives xiàzài as the standard reading; xiàzǎi (card pinyin, CC-CEDICT main reading) is the widespread colloquial pronunciation. Note mentions both.
+- w:橙:cheng2 橙 type → Nomen: 橙 is primarily the noun 'orange (fruit/tree)'; the colour is expressed with the noun compound 橙色, not an adjective 橙
+- w:说清楚:shuo1qing1chu3 说清楚 (author): Card pinyin shuō qīngchǔ: 清楚 is normally qīngchu (neutral tone, as in HSK); examples use qīngchu.
+- w:陪审:pei2shen3 陪审 type → Verb: 陪审 is a verb (as a lay assessor/juror take part in a trial, 现代汉语词典: 动); 'jury' is 陪审团, 'juror' 陪审员
+- w:模棱两可:mo2leng2liang3ke3 模棱两可 type → Chengyu: feste vierteilige Redewendung (成语), nicht freies Adjektiv
+- w:彷徨:pang2huang2 彷徨 type → Verb: 动: „umherirren; schwanken“, steht als Prädikat (在路口彷徨), nicht primär Adjektiv
+- w:综合:zong4he2 综合 (author): id uses zong4he2, but the reading is zōnghé (zong1he2); the old example pinyin also had Zònghé.
+- w:琢磨:zhuo2mo2 琢磨 (author): Reading/meaning mismatch: the stored gloss „nachgrübeln, durchdenken“ and the old example 这个问题值得琢磨 belong to the colloquial reading zuómo (CEDICT zuo2 mo5), not zhuómó (carve and polish jade; refine a text). Card rewritten for zhuómó; the far more common zuómo sense „überlegen, grübeln“ probably deserves its own card.
+- w:善解人意:shan4jie3ren2yi4 善解人意 type → Chengyu: fixed four-character idiom (成语), used like an adjective
+
+## b047 (2026-10-10, author)
+- w:头疼:tou2teng2 头疼 type → Adjektiv: like 头痛 (HSK 4, 形): used as an adjective (很头疼, 让人头疼), not a verb
+- w:付钱:fu4qian2 付钱 type → Phrase: no syllabus part of speech: free verb-object combination 付 + 钱 (like 打篮球)
+- w:发短信:fa1duan3xin4 发短信 type → Phrase: no syllabus part of speech: free verb-object combination 发 + 短信 (like 打篮球)
+- w:生气勃勃:sheng1qi4bo2bo2 生气勃勃 type → Chengyu: four-character idiom (成语), CC-CEDICT marks it as idiom; used like an adjective
+- w:何时:he2shi2 何时 type → Pronomen: interrogative pronoun (疑问代词) „wann“ = 什么时候, built on the pronoun 何; not an adverb
+- w:嗯:en1 嗯 (author): Duplicates the HSK 4 card w:嗯:g5 (ǹg, same agreeing sense „mhm; ja“). The reading ēn is only CC-CEDICT's „groaning sound“; for agreement dictionaries give ǹg/èn. Examples use the spoken ǹg/ńg (ēn only for the drawn-out hesitation). Consider merging into the HSK 4 card.
+- w:嗯:en1 嗯 type → Interjektion: 叹: the syllabus lists 嗯 (HSK 4) as an interjection; not a particle
+- w:打篮球:da3lan2qiu2 打篮球 type → Phrase: no syllabus part of speech: free verb-object combination 打 + 篮球
+- w:好的:hao3de5 好的 type → Ausdruck: fixed reply formula „okay“, not a free combination of 好 + 的
+- w:踢足球:ti1zu2qiu2 踢足球 type → Phrase: no syllabus part of speech: free verb-object combination 踢 + 足球
+- w:洗脸:xi3lian3 洗脸 type → Phrase: no syllabus part of speech: free verb-object combination 洗 + 脸 (like 洗碗)
+- w:洗碗:xi3wan3 洗碗 type → Phrase: no syllabus part of speech: free verb-object combination 洗 + 碗 (the brief's own example)
+- w:洗衣服:xi3yi1fu5 洗衣服 type → Phrase: no syllabus part of speech: free verb-object combination 洗 + 衣服
+- w:倒垃圾:dao4la1ji1 倒垃圾 type → Phrase: no syllabus part of speech: free verb-object combination 倒 + 垃圾
+- w:开灯:kai1deng1 开灯 type → Phrase: no syllabus part of speech: free verb-object combination 开 + 灯
+- w:关灯:guan1deng1 关灯 type → Phrase: no syllabus part of speech: free verb-object combination 关 + 灯
+- w:做家务:zuo4jia1wu4 做家务 type → Phrase: no syllabus part of speech: free verb-object combination 做 + 家务
+- w:浇花:jiao1hua1 浇花 type → Phrase: no official part of speech: free verb-object combination 浇 + 花
+- w:遛狗:liu4gou3 遛狗 type → Phrase: no official part of speech: free verb-object combination 遛 + 狗
+- w:拖地:tuo1di4 拖地 type → Phrase: no official part of speech: free verb-object combination 拖 + 地
+- w:烧水:shao1shui3 烧水 type → Phrase: no official part of speech: free verb-object combination 烧 + 水
+- w:倒水:dao4shui3 倒水 type → Phrase: no official part of speech: free verb-object combination 倒 + 水
+- w:切菜:qie1cai4 切菜 type → Phrase: no official part of speech: free verb-object combination 切 + 菜
+- w:剥:bo1 剥 (author): 剥 bō: im Einzelgebrauch („Mandarine schälen“) liest man bāo – so steht 剥 auch als HSK-7–9-Wort (bāo) im Syllabus. bō nur in Zusammensetzungen (剥落, 剥夺, 剥削); das alte Beispiel 帮我剥一个橘子 wäre bāo. Karte überschneidet sich mit 剥 bāo – zusammenführen oder auf die bō-Komposita beschränken.
+- w:叫外卖:jiao4wai4mai4 叫外卖 type → Phrase: no official part of speech: free verb-object combination 叫 + 外卖
+- w:每天:mei3tian1 每天 type → Phrase: no official part of speech: 每 + 天 is a productive combination (每年, 每周) used as a time word, not an adverb (每天的工作)
+- w:从来不:cong2lai2bu4 从来不 type → Phrase: no official part of speech: combination of the adverb 从来 (HSK 4) and the negation 不
+- w:加薪:jia1xin1 加薪 type → Verb: no official part of speech: used mainly as a verb-object verb 'raise the salary' (给员工加薪, 我加薪了); nominal use is secondary
+- w:看书:kan4shu1 看书 type → Phrase: no official part of speech: free verb-object combination 看 + 书
+- w:种花:zhong4hua1 种花 type → Phrase: no official part of speech: free verb-object combination 种 + 花
+- w:做手工:zuo4shou3gong1 做手工 type → Phrase: no official part of speech: free verb-object combination 做 + 手工
+- w:忘了:wang4le5 忘了 (author): 忘了 is only 忘 (HSK 2) + aspect particle 了; overlaps the syllabus cards 忘 and 忘记 – consider dropping or merging.
+- w:忘了:wang4le5 忘了 type → Phrase: no official part of speech: free combination of the verb 忘 (HSK 2) and the aspect particle 了
+- w:直走:zhi2zou3 直走 type → Phrase: no official part of speech: free combination of 直 'straight' and the verb 走
+- w:过马路:guo4ma3lu4 过马路 type → Phrase: no official part of speech: free verb-object combination 过 + 马路
+- w:肚子疼:du4zi5teng2 肚子疼 type → Phrase: no official part of speech: subject-predicate phrase 肚子 + 疼
+- w:吃药:chi1yao4 吃药 type → Phrase: no official part of speech: free verb-object combination 吃 + 药
+- w:干吗:gan4ma2 干吗 type → Pronomen: colloquial interrogative pronoun (代 in Xiandai Hanyu Cidian): 'why / what for / doing what'
+- w:剪头发:jian3tou2fa5 剪头发 type → Phrase: freie Verbindung aus Verb 剪 und Objekt 头发, kein lexikalisiertes Einzelwort
+- w:刮胡子:gua1hu2zi5 刮胡子 type → Phrase: freie Verbindung aus Verb 刮 und Objekt 胡子, kein lexikalisiertes Einzelwort
+- w:镜子前:jing4zi5qian2 镜子前 (author): Free combination 镜子 + 前 (location phrase), not a lexical unit; low value as a separate card.
+- w:晒衣服:shai4yi1fu5 晒衣服 type → Phrase: free verb-object combination 晒 + 衣服, not a lexical verb
+- w:叠衣服:die2yi1fu5 叠衣服 type → Phrase: free verb-object combination 叠 + 衣服, not a lexical verb
+- w:整理房间:zheng3li3fang2jian1 整理房间 type → Phrase: free combination 整理 + 房间, not a lexical verb
+- w:换床单:huan4chuang2dan1 换床单 type → Phrase: free verb-object combination 换 + 床单, not a lexical verb
+- w:洗菜:xi3cai4 洗菜 type → Phrase: free verb-object combination 洗 + 菜 (like 洗碗), not a lexical verb
+- w:扎头发:za1tou2fa5 扎头发 type → Phrase: free verb-object combination 扎 + 头发, not a lexical verb
+- w:看电影:kan4dian4ying3 看电影 type → Phrase: free verb-object combination 看 + 电影, not a lexical verb
+- w:听音乐:ting1yin1yue4 听音乐 type → Phrase: free verb-object combination 听 + 音乐, not a lexical verb
+- w:下象棋:xia4xiang4qi2 下象棋 type → Phrase: free verb-object combination 下 + 象棋, not a lexical verb
+- w:养花:yang3hua1 养花 type → Phrase: free verb-object combination 养 + 花 (like 养狗), not a lexical verb
+- w:放风筝:fang4feng1zheng1 放风筝 type → Phrase: free verb-object combination 放 + 风筝, not a lexicalised verb
+- w:交朋友:jiao1peng2you5 交朋友 type → Phrase: free verb-object combination 交 + 朋友, not a lexicalised verb
+- w:翻跟头:fan1gen1tou5 翻跟头 type → Phrase: free verb-object combination 翻 + 跟头, not a lexicalised verb
+- w:荡秋千:dang4qiu1qian1 荡秋千 type → Phrase: free verb-object combination 荡 + 秋千, not a lexicalised verb
+- w:电子邮件:dian4zi3you2jian4 电子邮件 (author): measureWords lists 份 (fen4) next to 封; 份 is unusual for e-mails (封 is standard, colloquially also 个).

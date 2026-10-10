@@ -59,7 +59,7 @@ function checkExampleReading(chinese, pinyin, ctx) {
   if (chinese.includes('嗯')) pinyin = pinyin.replace(/[ńňǹ]g?/gi, 'èn');
   // Latin letters and digits in the sentence (维生素C, IT行业) stand as they are in the pinyin, too.
   for (const token of chinese.match(/[A-Za-z0-9]+/g) || []) {
-    pinyin = pinyin.replace(new RegExp('(^|[^A-Za-z0-9])' + token + '(?![A-Za-z0-9])'), '$1 ');
+    pinyin = pinyin.replace(new RegExp('(^|[^\\p{L}0-9])' + token + '(?![\\p{L}0-9])', 'u'), '$1 ');
   }
   const chars = Array.from(chinese).filter(ch => HAN.test(ch));
   const syllables = Pinyin.segment(pinyin, chars.join(''));
@@ -227,7 +227,9 @@ function containsHeadword(example, card, merged) {
   if ((card.variants || []).some(v => text.includes(v))) return true;
   // Separable verbs (帮忙 → 帮他的忙): characters in order with a short gap.
   // Every occurrence of the first character counts (上了三个小时的网 after 晚上).
-  if ((merged.separable || card.type === 'Verb') && splitCore(word)) return showsSplit(example, word);
+  // Verb-object phrases split the same way (给面子 → 给我一个面子, 打篮球 → 打了一场篮球).
+  const type = merged.type || card.type;
+  if ((merged.separable || ['Verb', 'Phrase', 'Ausdruck'].includes(type)) && splitCore(word)) return showsSplit(example, word);
   return false;
 }
 
