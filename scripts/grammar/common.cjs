@@ -53,7 +53,10 @@ function requiredTokens(entry) {
   const clean = groups => groups.map(alts => alts.filter(a => !/(短语|补语|词语|成分|代词)$/.test(a))).filter(alts => alts.length);
   // Complete alternative patterns (A比B+动词+得+形容词/A+动词+得+比+B+形容词; AA、A一A、A了A、ABAB): only the words all
   // share are required, in any order, so one group of them; numbered variants (①疑问代词+都……②疑问代词+疑问代词) as well.
-  const variants = text.split(/\/(?=[A-Z])|、|[①-⑩]/).filter(v => v.trim());
+  const halves = text.split('/');
+  const whole = h => /\p{Script=Han}[^/]*[A-Z][^/]*\p{Script=Han}/u.test(h); // a complete frame around a placeholder
+  const variants = halves.length === 2 && halves.every(whole) ? halves // 看你X的/瞧他X的
+    : text.split(/\/(?=[A-Z])|、|[①-⑩]/).filter(v => v.trim());
   if (variants.length > 1) {
     const sets = variants.map(v => new Set(clean(tokens(v)).flat()));
     const common = [...sets[0]].filter(t => sets.every(s => s.has(t)));

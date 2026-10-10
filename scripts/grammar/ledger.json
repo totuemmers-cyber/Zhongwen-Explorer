@@ -717,7 +717,7 @@
  "g:之": {
   "batch": "g003",
   "policy": "author+review",
-  "hash": "e0e7b60fab233235"
+  "hash": "804b4ec4667af65e"
  },
  "g:啊": {
   "batch": "g003",
@@ -1492,7 +1492,7 @@
  "g:因为……，所以……": {
   "batch": "g002",
   "policy": "author+review",
-  "hash": "c8a414490ce7e8a2"
+  "hash": "7f9a2f9270be3bd3"
  },
  "g:一……就……": {
   "batch": "g002",
@@ -2088,5 +2088,2090 @@
   "batch": "g002",
   "policy": "author+review",
   "hash": "e2ecb82f9eb1a3c7"
+ },
+ "g:语气助词@HSK7-9": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "bb9f531dfef70d11"
+ },
+ "g:也罢": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "532c5261ff90344e"
+ },
+ "g:爱A不A": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "9ff5a0e2cf43c3b6"
+ },
+ "g:半A半B": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "b1611bf9bf4cee6f"
+ },
+ "g:不A不B（四字格）": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "3503e467e72c3189"
+ },
+ "g:不A而B": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "27746776f4f85773"
+ },
+ "g:东A西B": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "8b93fc6124fac5d0"
+ },
+ "g:非A非B": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "595500d59aff2743"
+ },
+ "g:忽A忽B": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "458280f09af5cb4e"
+ },
+ "g:或A或B": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "dc87e2f3ca2edc2b"
+ },
+ "g:可A可B": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "2ae905d53a029ff7"
+ },
+ "g:连A带B": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "ffc9233c542721ce"
+ },
+ "g:七A八B": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "e6e579abbc2c5dbf"
+ },
+ "g:时A时B": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "e77675d6011e7a87"
+ },
+ "g:无A不B": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "9eda825585f17eb0"
+ },
+ "g:无A可B": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "bc1ca61710483416"
+ },
+ "g:自A自B": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "2eb4fcda5e0a5fbd"
+ },
+ "g:不瞒你说": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "6a62bf7713898fb0"
+ },
+ "g:不是（其他（话语标记））": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "02ea885d0b93c435"
+ },
+ "g:不是我说你": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "9286a166e26d6f23"
+ },
+ "g:反过来（说）": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "ee4d342a72aa2005"
+ },
+ "g:概括来说": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "dae13e5eab5a568e"
+ },
+ "g:归根到底": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "5c55c36b02711c43"
+ },
+ "g:话是这么说": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "317b1f866b86477c"
+ },
+ "g:话（又）说回来": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "3cade5112a6d334d"
+ },
+ "g:换句话说": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "4d90bf3cba08fb76"
+ },
+ "g:简（而）言之": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "68da3f16b6bdd56a"
+ },
+ "g:可不（是嘛）": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "7722b0832331bddf"
+ },
+ "g:老实说": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "a3b89b998c44fba8"
+ },
+ "g:（你）还别说": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "1a62bdddaca7d6d0"
+ },
+ "g:你看你": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "db7c918d4b14d1f0"
+ },
+ "g:说到哪儿去了": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "dfeab09f5fd6204e"
+ },
+ "g:说真的": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "820e04d47bf28810"
+ },
+ "g:退一步说": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "6ed01b162426e036"
+ },
+ "g:无论如何": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "dc9b0f961a9eb35b"
+ },
+ "g:要（让）我说": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "c4506c6d616a2148"
+ },
+ "g:这不": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "3e728ded48774937"
+ },
+ "g:这样一来": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "6a67229a55006a5e"
+ },
+ "g:真是的": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "2f9c00376282b059"
+ },
+ "g:综上所述": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "10d9361ebea5d4d7"
+ },
+ "g:总的来说": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "6fa252cede9b3ae1"
+ },
+ "g:总而言之": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "f7fe2adf89c11405"
+ },
+ "g:X到这个地步/份上": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "c483be7a4bd26486"
+ },
+ "g:X得要命/要死": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "5e2503018cbca24f"
+ },
+ "g:X都不/没X": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "0d7fb620d09a1395"
+ },
+ "g:X就X个Y": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "b3712e54eadc804b"
+ },
+ "g:X了Y，Y了X": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "f70bbbd944b073f7"
+ },
+ "g:X也好，Y也罢": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "e40720699677994b"
+ },
+ "g:别提（有）多+形容词+了": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "d9c91413611e7229"
+ },
+ "g:不亚于……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "9d59f4219b62dff1"
+ },
+ "g:不知X是/才好": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "d1a6e17259b97675"
+ },
+ "g:动不动就……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "3862625eea88213f"
+ },
+ "g:动词+得个……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "6c95feb1f82f4f8c"
+ },
+ "g:动词+个X": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "1a251c0d95e9a095"
+ },
+ "g:该X（就）X，该Y（就）Y": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "c149a75204530217"
+ },
+ "g:何至于……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "b011400162ea6e4f"
+ },
+ "g:仅次于X": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "a192d41b037b0236"
+ },
+ "g:看在X的面子上": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "337f826a234003a4"
+ },
+ "g:没什么+动词+头儿": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "3a767e3efd7de95b"
+ },
+ "g:没什么好+动词+的": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "b77a21327d3a403e"
+ },
+ "g:莫过于……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "d6c8bf74b9627b9d"
+ },
+ "g:你说你一个X，……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "9f13e70b94e3f218"
+ },
+ "g:什么A的B的": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "ecda21a125648be5"
+ },
+ "g:视……而定": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "d06667ec3a40bdcf"
+ },
+ "g:谈何……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "faa7c7a725743d21"
+ },
+ "g:无非/不过/只是……罢了/而已": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "c2d8b71c35f66afe"
+ },
+ "g:想X之所想，急X之所急": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "3c37e914648b003e"
+ },
+ "g:向……致以……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "29aa3fadecb9a0f8"
+ },
+ "g:要X有/没X，要Y有/没Y": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "b9e57186b6d4c1fc"
+ },
+ "g:因……而……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "19d35e9806dafc6f"
+ },
+ "g:有何X": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "e6fc683aca9ca899"
+ },
+ "g:有什么+动词+头儿": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "633db9e31f17fab0"
+ },
+ "g:（在）……之余": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "0fc655b008b1f5bf"
+ },
+ "g:值此……之际，……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "a21e6c7294854d30"
+ },
+ "g:A+形容词+于/过+B": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "ff95593278752775"
+ },
+ "g:一来……，二来……，三来……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "7aa000434751420b"
+ },
+ "g:一则……，二则……，三则……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "46128c913216077c"
+ },
+ "g:所谓……，就是……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "cb81f3aed5d2630b"
+ },
+ "g:或……，或……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "8dea52c467f246af"
+ },
+ "g:宁可/宁愿……，也不……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "2a00f470c7a32619"
+ },
+ "g:与其……，宁愿/宁可……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "2c8de68dec6bc771"
+ },
+ "g:X（倒）是X（了），……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "0661fd476251d03e"
+ },
+ "g:别看……，……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "8aec97fbf16f1284"
+ },
+ "g:虽说……，但/可……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "6b1588c69f3a2332"
+ },
+ "g:无论……与否，都……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "0133ebc51f5ad156"
+ },
+ "g:凡……（者），均（可）……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "00ba574aaf1f8a5b"
+ },
+ "g:假若/假使……，……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "cc00f8e4828fe182"
+ },
+ "g:幸亏/幸好……，不然/否则……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "d734c751aa41625e"
+ },
+ "g:纵然/纵使……，也……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "e1624e2a87d83c10"
+ },
+ "g:（因）……，故……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "af42f640eaf3c67d"
+ },
+ "g:……，以至（于）……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "ad0e7bfd564ccb2b"
+ },
+ "g:别说……，都/也……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "62654da7f2503811"
+ },
+ "g:……不说，还……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "22aa76534be53ec9"
+ },
+ "g:连……都……，更不用说……了": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "341234e445415f83"
+ },
+ "g:……尚且……，（更）何况……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "0065f6dd21b0b082"
+ },
+ "g:……，更不用说……了": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "6652be081f50a92f"
+ },
+ "g:为（了）……起见，……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "6c48af4e5a255adb"
+ },
+ "g:……，以……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "82e6b4deecb8f61c"
+ },
+ "g:非得……才……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "fb782e1f6ebab1ad"
+ },
+ "g:任……也……": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "0ea94eb539be133d"
+ },
+ "g:多重复句：多重并列复句": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "0d3ec6ff35d40c2b"
+ },
+ "g:多重复句：多重转折复句": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "394dcbc73302efb9"
+ },
+ "g:多重复句：多重假设复句": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "953dda90438620ee"
+ },
+ "g:多重复句：多重因果复句": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "017ca82a968f7225"
+ },
+ "g:多重复句：多重递进复句": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "4522a5b4486a9084"
+ },
+ "g:时间顺序": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "8aa0131b987b901d"
+ },
+ "g:空间顺序": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "e362aee3be3d60a0"
+ },
+ "g:逻辑顺序": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "438f033a8a5c1f50"
+ },
+ "g:话题延伸": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "598e2acb0be697f5"
+ },
+ "g:话题转换": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "bf0990f4e6cb7e0b"
+ },
+ "g:承前省略": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "809eabf1b53f174e"
+ },
+ "g:蒙后省略": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "3f017b1c07a93bc6"
+ },
+ "g:...的时候": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "9c274faa9d093716"
+ },
+ "g:多少钱": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "3dd0555fe02d790e"
+ },
+ "g:到 + Ort/Zeit": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "c6c49be215d79f7d"
+ },
+ "g:多/少 + Verb": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "56b206d83be887c4"
+ },
+ "g:不太 + Adjektiv": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "336006a9a6c7e4d2"
+ },
+ "g:再说": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "2478b07c6a7939e6"
+ },
+ "g:原来": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "9d6792c67df86f46"
+ },
+ "g:看样子": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "85fa0cd666eb6ce6"
+ },
+ "g:难免": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "755b0d63cdff6ec1"
+ },
+ "g:之一": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "6a3dc33ee0c61080"
+ },
+ "g:果不其然": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "f7c6e57121af2729"
+ },
+ "g:说白了": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "3e5a4a8dcba7013b"
+ },
+ "g:以免": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "d78164457356c20a"
+ },
+ "g:固然": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "f9968acb64f8eef4"
+ },
+ "g:岂不是": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "bed9b76729bcabd6"
+ },
+ "g:但凡": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "a7d06787faa597eb"
+ },
+ "g:要不是…就…": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "cef437e334ed292e"
+ },
+ "g:何止": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "36bc54aaa3ba2283"
+ },
+ "g:迫不得已": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "83083f073a26e5af"
+ },
+ "g:与其说…不如说…": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "0473fb67b7a23af4"
+ },
+ "g:倒不如": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "b46889bf58ee82f2"
+ },
+ "g:不至于": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "930006a470a86c48"
+ },
+ "g:之所以…是因为…": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "4bb52130a3cd38f9"
+ },
+ "g:加以": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "f4aaa2bb9c131914"
+ },
+ "g:进而": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "56da836d02bab812"
+ },
+ "g:继而": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "a71bcde12bbf039c"
+ },
+ "g:随之": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "b6233b4c308b0c2c"
+ },
+ "g:与此同时": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "57732d2e27d00635"
+ },
+ "g:值得一提的是": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "1fd1e10c9770798c"
+ },
+ "g:不难看出": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "03060fd4cf6a0d2b"
+ },
+ "g:不可否认": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "ca5f287a47947c99"
+ },
+ "g:确切地说": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "260cdcf9437bbead"
+ },
+ "g:不仅如此": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "2ca4f085a464bcba"
+ },
+ "g:有利于": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "13bf9de41c054183"
+ },
+ "g:不利于": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "75754acd9041227f"
+ },
+ "g:其": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "e57ac1f4597152af"
+ },
+ "g:为…所…": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "e968c528f1707634"
+ },
+ "g:以…为主": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "591d7365411b9159"
+ },
+ "g:一言以蔽之": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "fbc82d81bff4927e"
+ },
+ "g:追根溯源": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "aa4279b7fa917efa"
+ },
+ "g:毫无疑问": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "a6b7357e3b8c93fd"
+ },
+ "g:不证自明": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "81d77dc1619279e4"
+ },
+ "g:言下之意": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "c06b32be296a8507"
+ },
+ "g:由此看来": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "1054f6eb8f116e1d"
+ },
+ "g:从…出发": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "a308105b98a9d5d1"
+ },
+ "g:无外乎": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "35026de701e61ddc"
+ },
+ "g:以…为例": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "53474e8017b12c74"
+ },
+ "g:之所以…在于…": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "48844647d49dcc6e"
+ },
+ "g:说到底": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "386782ff56d5cf9c"
+ },
+ "g:说起来容易做起来难": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "8f956b9f7985e70d"
+ },
+ "g:…也就罢了": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "7a30b0ca14ce7ca0"
+ },
+ "g:严格来说": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "b233adc9979ea130"
+ },
+ "g:坦白说": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "1aa50f499525c002"
+ },
+ "g:打个比方": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "2b80dea5a9ed63dc"
+ },
+ "g:据我所知": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "e64ed5f66e38c090"
+ },
+ "g:大致说来": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "115e49b75d7d6d33"
+ },
+ "g:权且": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "428ccffe11157fd7"
+ },
+ "g:岂非": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "fc8963765742a87f"
+ },
+ "g:诚然": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "c1fd7bc373f899ac"
+ },
+ "g:尽管如此": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "e7ccec831a3b8d3d"
+ },
+ "g:反之": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "9daa0ca23151e605"
+ },
+ "g:见诸": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "2deddae156351de0"
+ },
+ "g:付诸": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "81fa5af4ba573e74"
+ },
+ "g:为之": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "6a8ed4dd0b41eb30"
+ },
+ "g:以…为…": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "13b697d87dbf83c1"
+ },
+ "g:适逢": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "5bdc198dd1ec2a6a"
+ },
+ "g:置若罔闻": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "d2d8296049f09a64"
+ },
+ "g:岂": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "9b30e13beaf37afa"
+ },
+ "g:犹": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "cb4a6b15d9e5edea"
+ },
+ "g:亦": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "d544a26a5322ede5"
+ },
+ "g:甚": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "f80ceffc16ed75fd"
+ },
+ "g:则": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "1b8dd7d8d5911c7b"
+ },
+ "g:何以…为": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "c49cbdbef2ea1108"
+ },
+ "g:莫": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "7c0a2b8130162f07"
+ },
+ "g:截至": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "e2ff1bff93922424"
+ },
+ "g:迄今为止": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "89ac9fbe0d1a4478"
+ },
+ "g:该": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "b318e99e51e07efb"
+ },
+ "g:系": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "6b99c691a615a3a1"
+ },
+ "g:业已": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "bc522e538bad750e"
+ },
+ "g:现将…通知如下": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "63fb4f9e348394ff"
+ },
+ "g:应…要求": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "a8f0a37eb51f0f59"
+ },
+ "g:着眼于": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "f40a54c24e6aa95d"
+ },
+ "g:立足于": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "97bc98dd4f133107"
+ },
+ "g:有赖于": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "69dd3a1495c36fde"
+ },
+ "g:归因于": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "6be3347880d27efa"
+ },
+ "g:得益于": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "1d55c24a04a346be"
+ },
+ "g:不失为": {
+  "batch": "g005",
+  "policy": "author",
+  "hash": "e4074b360d2bbcf1"
+ },
+ "g:—头": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "3583063d4c865d40"
+ },
+ "g:指示代词@HSK5": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "d27351a964728c90"
+ },
+ "g:名量词@HSK5": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "fc3283a272c03d96"
+ },
+ "g:眼": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "86f878b7188b2c84"
+ },
+ "g:程度副词@HSK5": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "d43eab101b25056f"
+ },
+ "g:时间副词@HSK5": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "7d83862756020bff"
+ },
+ "g:频率副词@HSK5": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "7a0a6cc1b340163e"
+ },
+ "g:尽量": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "2be09c46fcbd5ab8"
+ },
+ "g:亲自": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "3ffdb0029205c02e"
+ },
+ "g:便": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "a96020f340840f23"
+ },
+ "g:一旦": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "f82561e6b623aa3c"
+ },
+ "g:似乎": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "043829f409afb5cb"
+ },
+ "g:仿佛": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "e0166bf8e5aae97a"
+ },
+ "g:语气副词@HSK5": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "9afe3e0045d88a33"
+ },
+ "g:反而": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "fceb68fc88d31984"
+ },
+ "g:毕竟": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "d9b83e1bdbfdbe3c"
+ },
+ "g:果然": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "645dc333deba9686"
+ },
+ "g:居然": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "1f524fce812eec5a"
+ },
+ "g:反正": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "67c6454a4b6a96b0"
+ },
+ "g:自从": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "42026ac7ce658f14"
+ },
+ "g:朝": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "eb19b2fc4bacfccf"
+ },
+ "g:沿（着）": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "bfb53ae9493e9bb4"
+ },
+ "g:引出对象@HSK5": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "625d2f5500847ed4"
+ },
+ "g:凭": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "dd2cef0159013467"
+ },
+ "g:据": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "5e2c89bdde3a76fd"
+ },
+ "g:依据": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "3a2f2a38d5ee13e7"
+ },
+ "g:以及": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "b39573bfc69f65f7"
+ },
+ "g:同²": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "8fa2181c22d70053"
+ },
+ "g:连接分句或句子@HSK5": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "f152f2c9b63f968d"
+ },
+ "g:总之": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "4ea7ebacef9a4533"
+ },
+ "g:从而": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "956bae9c92daf7f8"
+ },
+ "g:似的": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "b08613b2b208250e"
+ },
+ "g:A来A去": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "3503b832c0bffa8e"
+ },
+ "g:A着A着": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "c4db0b8fe02d1285"
+ },
+ "g:没A没B": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "06ebb244dc3ca463"
+ },
+ "g:说A就A": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "03d586f678642e51"
+ },
+ "g:不得了": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "4233f73d46774cd5"
+ },
+ "g:从……来看": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "7f7bc196ad931f53"
+ },
+ "g:A的A，B的B": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "06d985f2effcf839"
+ },
+ "g:（自）……以来": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "b8e4b28318bf27c1"
+ },
+ "g:由……组成": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "bc865db0cbb5d214"
+ },
+ "g:X也不是，Y也不是": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "9337565341c568ac"
+ },
+ "g:X也X不得，Y也Y不得": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "7d250b813b16fb44"
+ },
+ "g:X是它，Y也是它": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "0d44ed539247370c"
+ },
+ "g:X着也是X着": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "e5dbb88209a65623"
+ },
+ "g:不管怎样说": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "56a7b9990478c422"
+ },
+ "g:真有你/他/她的": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "7f251bdec73ac6a3"
+ },
+ "g:X什么X": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "1a0c990ee25542ec"
+ },
+ "g:什么X不X（的）": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "b60ed9938621210d"
+ },
+ "g:不X白不X": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "93e340a7a7878c20"
+ },
+ "g:X来X去，都是/就是……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "5bfebf87fe882021"
+ },
+ "g:动词+什么（就）是什么": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "a05764d6457c4290"
+ },
+ "g:多项状语": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "eb2e0ca932339e68"
+ },
+ "g:动词+得/不得": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "5db76855d09f4eed"
+ },
+ "g:形容词/心理动词+得+不得了": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "3d35fe4257da5d65"
+ },
+ "g:趋向补语的引申用法：表示状态意义：动词/形容词+下来/下去/起来/过来/过去": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "7b642051e1b44fff"
+ },
+ "g:动词/形容词+得+动词短语": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "ae3e6499504705a8"
+ },
+ "g:动词/形容词+得+主谓短语": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "aca94123c4c1ad36"
+ },
+ "g:动词/形容词+得+固定短语": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "f777dce8f22a8b8f"
+ },
+ "g:表示存在、具有：主语+有+着+宾语": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "d4867611eaae8e64"
+ },
+ "g:表示附着：主语+动词+有+宾语": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "e09b7b7d9fb4c69d"
+ },
+ "g:主语+把+宾语+一+动词": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "327adf203bf11d68"
+ },
+ "g:主语+把+宾语1+动词+宾语2": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "f99c6994f0457af7"
+ },
+ "g:连动句3：前后两个动词性词语具有因果、转折、条件关系": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "db2c00501501ad8a"
+ },
+ "g:A+形容词+B+数量补语": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "7207ea42e4f05ae2"
+ },
+ "g:主语+被/叫/让+宾语+给+动词+其他成分": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "1d8982e1009959d6"
+ },
+ "g:……，便……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "ca1fc18d39cfce83"
+ },
+ "g:或是……，或是……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "e514af40fbc3a1ef"
+ },
+ "g:一旦……，就……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "4bd347132d9de366"
+ },
+ "g:假如……，（就）……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "2dfadb7c54dcd953"
+ },
+ "g:万一……，（就）……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "23f596d0ebd26edb"
+ },
+ "g:……，要不然/不然……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "b64fe3781c157f2e"
+ },
+ "g:……，因而……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "a35e53244cff02b3"
+ },
+ "g:……，可见……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "098d2153c6e1294a"
+ },
+ "g:哪怕……，也……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "58d9ee6fd78e7bf8"
+ },
+ "g:不但不/不但没有……，反而……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "0cfae620c11ff06a"
+ },
+ "g:不是……，还/还是……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "56473d79b7ded090"
+ },
+ "g:……，为的是……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "e8c9add1dbc8d9a6"
+ },
+ "g:没有……就没有……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "c11fc7a3c2aa9baa"
+ },
+ "g:不……不……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "e9a48919796093e5"
+ },
+ "g:再……也……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "4966c2d18197d3ab"
+ },
+ "g:类前缀@HSK6": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "f68f64081a55c73a"
+ },
+ "g:类后缀@HSK6": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "9b6b60b2afce99da"
+ },
+ "g:人家": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "127ff0973ea1b99b"
+ },
+ "g:名量词@HSK6": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "772bd7c4bbab15c1"
+ },
+ "g:番": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "328d87ac1bf8756c"
+ },
+ "g:程度副词@HSK6": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "3665d0a6030c5af7"
+ },
+ "g:范围副词@HSK6": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "86edbd27e801d5ac"
+ },
+ "g:时间副词@HSK6": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "1dc35954234b4c96"
+ },
+ "g:一再": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "5871a7a31b8f4d5f"
+ },
+ "g:再三": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "f264e2b263839d15"
+ },
+ "g:方式副词@HSK6": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "7c16c1e923274bfd"
+ },
+ "g:不禁": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "8514cb6bacdec771"
+ },
+ "g:未必": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "fa1eb24cd2752290"
+ },
+ "g:语气副词@HSK6": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "77876e8f12e04c33"
+ },
+ "g:倒是": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "479fabcad91684cd"
+ },
+ "g:干脆": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "fc2a5ee839633608"
+ },
+ "g:于": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "c1d0390fa2c2ee39"
+ },
+ "g:至于": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "a16530a10dbe450b"
+ },
+ "g:因": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "fd8468f3bde41fd2"
+ },
+ "g:除": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "3f004b48e8bf1343"
+ },
+ "g:不料": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "aaec98b6534b5b98"
+ },
+ "g:所": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "c443e9f54df999ac"
+ },
+ "g:啦": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "65e560696317d0ec"
+ },
+ "g:嘛": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "6be710079bab86ab"
+ },
+ "g:也好": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "e2558ea21d6c4120"
+ },
+ "g:A这A那": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "8254921d46f54975"
+ },
+ "g:左A右B": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "ecd0ec65e9df2cda"
+ },
+ "g:好（不）容易": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "943ec899df4a9250"
+ },
+ "g:那倒（也）是": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "4af31582967c872a"
+ },
+ "g:算了": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "e29e3ebdedf15019"
+ },
+ "g:得了": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "79bbd55fce35d1d6"
+ },
+ "g:A一+量词，B一+量词": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "f9cf356bac1c387c"
+ },
+ "g:东一A，西一A": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "cfea409a98c448c3"
+ },
+ "g:到……为止": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "ddc467b2ed5993be"
+ },
+ "g:X到Y头上来了": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "24d61ee60202c201"
+ },
+ "g:不X不……，一X……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "419d4940168e379a"
+ },
+ "g:好你个X": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "6212caffbe9bb2a3"
+ },
+ "g:早（也）不X，晚（也）不X": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "81dd32e69f8593d1"
+ },
+ "g:看/瞧+把+宾语（施事）+X得": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "51b536be931d0aff"
+ },
+ "g:放着X不Y": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "1fe9abb475b58e79"
+ },
+ "g:X了就X了，（没）有……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "7385f8019e54052e"
+ },
+ "g:这/那也不X，那/这也不Y": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "954e98cf36b3a605"
+ },
+ "g:X归X，Y归Y": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "cac6240571020400"
+ },
+ "g:看你X的/瞧他X的": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "344ca9352cc31920"
+ },
+ "g:动词/形容词+透+了": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "10cb3a38a1469384"
+ },
+ "g:主语（非生物体）+把+宾语+动词+其他成分": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "def65d55a96532a8"
+ },
+ "g:主语+把+宾语（施事）+动词+其他成分": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "3653dcf19254dfa0"
+ },
+ "g:一时……一时……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "93960da0e9207737"
+ },
+ "g:要么……，要么……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "7940858ba9f0835b"
+ },
+ "g:虽……，但/可/却/也……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "831a309488ebc881"
+ },
+ "g:凡是……，都……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "f9892a4e1fad19a8"
+ },
+ "g:除非……，才……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "0ef18ebdcecb0b4a"
+ },
+ "g:除非……，否则/不然……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "1f8531c761d9383b"
+ },
+ "g:就算……，也……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "a52f6ff0147760e1"
+ },
+ "g:……，以便……": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "1c897d4dc75e4dbd"
+ },
+ "g:后—": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "4a6f73050e924ea1"
+ },
+ "g:亲—": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "32d464cf654ed903"
+ },
+ "g:类后缀@HSK7-9": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "114afb88bd691242"
+ },
+ "g:动词@HSK7-9": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "b1483f0f6d1db2ad"
+ },
+ "g:并非": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "bf204225ce948b97"
+ },
+ "g:所谓": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "2f59df1f8b25a434"
+ },
+ "g:有所": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "cb0b5c458cc87d0c"
+ },
+ "g:予以": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "95e5d7bc9062cbf1"
+ },
+ "g:我": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "15a416ccb6fd407c"
+ },
+ "g:指示代词@HSK7-9": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "fb443965c98b803b"
+ },
+ "g:兹": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "46dfea84e0192c13"
+ },
+ "g:何": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "7ae4a42467410f71"
+ },
+ "g:怎么着": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "1a0bdcd7a2e0151a"
+ },
+ "g:若干": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "13f63cfd0c27d4c6"
+ },
+ "g:名量词@HSK7-9": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "a37cd16366582e12"
+ },
+ "g:通": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "f2de4a7f65c73d9d"
+ },
+ "g:人次": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "fc52fbd2968f7d94"
+ },
+ "g:程度副词@HSK7-9": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "2025d028ed32aa55"
+ },
+ "g:尤为": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "2d68b5420e5536c6"
+ },
+ "g:范围副词@HSK7-9": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "e4d7c2f30ef96124"
+ },
+ "g:无非": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "1e380260a11942e7"
+ },
+ "g:唯独": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "c81605559720d63b"
+ },
+ "g:皆": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "feb17dfdb4578c9f"
+ },
+ "g:时间副词@HSK7-9": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "535aa013d1e6e298"
+ },
+ "g:一经": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "034bed5fa5761c9d"
+ },
+ "g:就此": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "c067b6021ec1d96f"
+ },
+ "g:姑且": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "ac6f4464b1598bc9"
+ },
+ "g:即": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "115c3a6d2813719c"
+ },
+ "g:频率副词@HSK7-9": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "a8cc2385250a26fd"
+ },
+ "g:方式副词@HSK7-9": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "cd7e4f59e5368496"
+ },
+ "g:断然": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "b1f0ba428bbbb6cf"
+ },
+ "g:否定副词@HSK7-9": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "3ad79d74d26d8051"
+ },
+ "g:不见得": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "d0a2ece524230a9c"
+ },
+ "g:无从": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "d8519b7d25704191"
+ },
+ "g:语气副词@HSK7-9": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "8435249cc662bb50"
+ },
+ "g:怪不得": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "22382aac3bd09f15"
+ },
+ "g:幸亏": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "1d48a3d1acf1b599"
+ },
+ "g:难怪": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "c05123bba761268a"
+ },
+ "g:莫非": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "b0a9a61a4d83001a"
+ },
+ "g:未免": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "2ff2a31764e53a7d"
+ },
+ "g:何必": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "8e172a8d50e64932"
+ },
+ "g:不免": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "1c391f54464bd485"
+ },
+ "g:何尝": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "6d1e5a81594da442"
+ },
+ "g:不妨": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "d175e7f5e245bf24"
+ },
+ "g:势必": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "76dea0a98aaf9fa6"
+ },
+ "g:索性": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "95645bf18b669c86"
+ },
+ "g:万万": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "e27a1417bb41abb0"
+ },
+ "g:乃": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "3e18ae3dbc09075e"
+ },
+ "g:打": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "1565fc91c54c6751"
+ },
+ "g:当着": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "8696d80cae01e7db"
+ },
+ "g:就⁶": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "bf3342671243713a"
+ },
+ "g:引出凭借、依据@HSK7-9": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "cc1a3c1750bd289d"
+ },
+ "g:鉴于¹": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "1f34b5aa1f621390"
+ },
+ "g:基于": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "102ccf21c1fd0d90"
+ },
+ "g:经": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "ce575783b9b1b983"
+ },
+ "g:连接分句或句子@HSK7-9": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "7b1e2686391d6b3e"
+ },
+ "g:免得": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "5c2653e91933ff5a"
+ },
+ "g:况且": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "047cbe61cdcc8d8b"
+ },
+ "g:倘若": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "a2e87aabb43f0505"
+ },
+ "g:连接词或词组以及分句或句子@HSK7-9": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "1db9f4865c127707"
+ },
+ "g:加之": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "90582662b717189b"
+ },
+ "g:乃至": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "c49554a10bba5385"
+ },
+ "g:且": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "9d12904d7f2b7776"
+ },
+ "g:不胜枚举": {
+  "batch": "g006",
+  "policy": "author",
+  "hash": "ea2b5dbae20be7b1"
+ },
+ "g:行之有效": {
+  "batch": "g006",
+  "policy": "author",
+  "hash": "bf57528be384186b"
+ },
+ "g:不容忽视": {
+  "batch": "g006",
+  "policy": "author",
+  "hash": "628a5d10d6390b60"
+ },
+ "g:不容置疑": {
+  "batch": "g006",
+  "policy": "author",
+  "hash": "b8197f710081c150"
+ },
+ "g:不为过": {
+  "batch": "g006",
+  "policy": "author",
+  "hash": "919e291a5c524e59"
+ },
+ "g:亟待": {
+  "batch": "g006",
+  "policy": "author",
+  "hash": "57eaab9f67ed9828"
+ },
+ "g:继…之后": {
+  "batch": "g006",
+  "policy": "author",
+  "hash": "c23b29943e5ea186"
+ },
+ "g:恕我直言": {
+  "batch": "g006",
+  "policy": "author",
+  "hash": "d50dcace5b8bc7cb"
+ },
+ "g:言归正传": {
+  "batch": "g006",
+  "policy": "author",
+  "hash": "b2681d2cfe393984"
+ },
+ "g:就事论事": {
+  "batch": "g006",
+  "policy": "author",
+  "hash": "c361a3ebb3770363"
+ },
+ "g:倘使": {
+  "batch": "g006",
+  "policy": "author",
+  "hash": "3b54e52f34fd1501"
+ },
+ "g:设若": {
+  "batch": "g006",
+  "policy": "author",
+  "hash": "56a2b1efeea58a66"
+ },
+ "g:殊不知": {
+  "batch": "g006",
+  "policy": "author",
+  "hash": "61d8085870d88a73"
+ },
+ "g:孰不知": {
+  "batch": "g006",
+  "policy": "author",
+  "hash": "3e412f2b6a45f24a"
+ },
+ "g:前者…后者…": {
+  "batch": "g006",
+  "policy": "author",
+  "hash": "07a9d92650469991"
+ },
+ "g:…固然好，但…": {
+  "batch": "g006",
+  "policy": "author",
+  "hash": "3282f22143abb147"
+ },
+ "g:有感于此": {
+  "batch": "g006",
+  "policy": "author",
+  "hash": "dc67b1986aa87555"
+ },
+ "g:不可同日而语": {
+  "batch": "g006",
+  "policy": "author",
+  "hash": "d814dca30ed24848"
+ },
+ "g:用不着": {
+  "batch": "g004",
+  "policy": "author",
+  "hash": "27843fc323f5b224"
  }
 }

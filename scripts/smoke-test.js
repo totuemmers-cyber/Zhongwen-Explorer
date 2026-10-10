@@ -91,7 +91,8 @@ async function run() {
     const extraIndex = grammar.filteredItems.findIndex(item => item.pattern === '除非……，否则/不然……');
     assert(extraIndex !== -1, 'Syllabus pattern 除非……，否则/不然…… missing');
     grammar.openDetail(extraIndex);
-    assert(d.getElementById('grammar-detail-examples').textContent.includes('除非你亲自来'), 'Grammar example text missing');
+    const firstExample = grammar.filteredItems[extraIndex].examples[0].chinese;
+    assert(d.getElementById('grammar-detail-examples').textContent.includes(firstExample), 'Grammar example text missing');
     grammar.closeDetail();
     const measure = app.sections.measurewords;
     app.switchTab('measurewords');

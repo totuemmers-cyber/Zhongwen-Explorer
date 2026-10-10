@@ -138,3 +138,40 @@ Author flags, points without a quiz and reviewer fixes per batch, for follow-up 
 - g:主语+动词+宾语+动词+补语 (no quiz): Kein festes Kernwort: Das Muster besteht in der Wiederholung des Verbs, und das Verb wechselt von Satz zu Satz; 得 wird beim Punkt 得 abgefragt.
 - g:主语+动词+宾语+动词+补语 (reviewer fix): Deutsche Übersetzung von Beispiel 3 war doppelt („beim Spielen müde gespielt“).
 - g:一会儿……，一会儿…… (reviewer fix): Überzogene Regel: 很 ist hinter 一会儿 möglich (一会儿很冷，一会儿很热), nur seltener – „meist ohne 很“.
+
+## g005 (2026-10-10, author)
+- g:X了Y，Y了X (no quiz): 了 und beide Verben kommen im Muster je zweimal vor; eine eindeutige Lücke für ein einzelnes Kernwort lässt sich nicht bilden.
+- g:该X（就）X，该Y（就）Y (no quiz): Die Kernwörter 该 (und 就) stehen im Muster je zweimal; eine eindeutige Lücke für ein einzelnes Wort lässt sich nicht bilden.
+- g:X（倒）是X（了），…… (author): Überschneidet sich stark mit g:……X是X，就是/不过…… (HSK 4); abgegrenzt über 倒 und 了.
+- g:时间顺序 (no quiz): Textebene: Die Ordnung ergibt sich aus der Abfolge mehrerer Sätze; die einzelnen Zeitwörter sind eigene Punkte und würden die Anordnung selbst nicht prüfen.
+- g:空间顺序 (no quiz): Textebene: Geprüft wird die räumliche Anordnung mehrerer Aussagen, nicht ein einzelnes Wort.
+- g:逻辑顺序 (no quiz): Textebene: Geprüft wird die sachlogische Anordnung mehrerer Sätze; die Ordnungswörter sind eigene Punkte.
+- g:话题延伸 (no quiz): Textebene: Geprüft wird, wie Sätze aneinander anknüpfen; es gibt kein festes Wort, das man als Lücke abfragen könnte.
+- g:话题转换 (no quiz): Textebene: Geprüft wird der Übergang zwischen Themen; die Überleitungswörter sind eigene Punkte.
+- g:承前省略 (no quiz): Geprüft wird das Weglassen eines Satzteils – es gibt kein Wort, das man als Lücke abfragen könnte.
+- g:蒙后省略 (no quiz): Geprüft wird das Weglassen eines Satzteils – es gibt kein Wort, das man als Lücke abfragen könnte.
+- g:之所以...是因为... (author): Duplikat: g:之所以…是因为… (Zusatz) behandelt denselben Punkt mit anderen Auslassungspunkten; einen der beiden zusammenführen.
+- g:之所以…是因为… (author): Duplikat: g:之所以...是因为... (gleiches Muster, nur ASCII-Punkte statt …) – sollte zusammengelegt werden.
+- g:无外乎 (author): 无外乎 gilt in Normwörterbüchern oft als nicht normgerechte Mischform (Norm: 不外乎); evtl. Punkt als 不外乎 führen oder beide Formen nennen. Kategorie „Adverbien“ passt nicht ganz – 无外乎 ist ein Verb (Prädikat).
+- g:适逢 (author): Eher Vokabel (gehobenes Verb) als Grammatikpunkt; prüfen, ob es nicht besser im Wortschatz aufgehoben ist.
+- g:置若罔闻 (author): Chengyu (Vokabel), kein Grammatikpunkt im engeren Sinn; prüfen, ob es in die Grammatikliste gehört.
+- g:何以…为 (author): Rein klassische Konstruktion, im modernen Chinesisch fast nur als Zitat (匈奴未灭，何以家为 – im Shiji-Original 无以家为). Nutzen für Lernende fraglich; ggf. nur als Wiedererkennungs-Punkt behalten.
+
+## g004 (2026-10-10, author)
+- g:其他：用不着 (author): Das angezeigte pattern lautet „其他：用不着“ – das Präfix „其他：“ ist die Syllabus-Rubrik (固定短语 › 其他) und gehört vermutlich nicht in die Musteranzeige; korrekt wäre „用不着“.
+- g:真有你/他/她的 (author): mustUse looks misparsed: the alternatives are split into 真有你 / 他 / 她的; intended are the whole forms 真有你的 / 真有他的 / 真有她的.
+- g:多项状语 (no quiz): Der Punkt betrifft die Reihenfolge mehrerer Adverbiale, nicht ein einzelnes Wort, das sich sinnvoll ausblenden ließe.
+- g:连动句3：前后两个动词性词语具有因果、转折、条件关系 (no quiz): Das Muster hat kein Bindewort; die Beziehung ergibt sich nur aus dem Inhalt, es gibt kein Funktionswort zum Einsetzen.
+- g:A+形容词+B+数量补语 (no quiz): Das Muster hat kein festes Funktionswort; eine Lücke könnte nur ein Adjektiv oder eine Zahl abfragen.
+- g:不是……，还/还是…… (author): Syllabus-Zeile 不是……，还/还是…… (递进复句, HSK 5) ohne Beispiele im Syllabus; Lesart nicht eindeutig. Hier gedeutet als 不是（只）……，还/还是…… „nicht nur …, sondern auch noch“. Bitte von einem Menschen prüfen.
+- g:看你X的/瞧他X的 (author): mustUse verlangt in jedem Beispiel 看你 … 的 … 的 (die Alternative 瞧他 wurde als zweite Gruppe eingelesen). Dadurch ist kein Beispiel mit 瞧他X的 möglich, und jedes Beispiel braucht zwei 的. Vorschlag: mustUse [["看你","瞧他","看他","瞧你"],["的"]].
+- g:我 (author): Syllabuszeile 463 nennt nur „我“ ohne Erläuterung; angenommen ist der Gebrauch 我 = „unser“ (我国/我校/我方). Falls 你……我…… (你一言我一语) gemeint ist, Umfang prüfen.
+
+## g006 (2026-10-10, author)
+- g:不胜枚举 (author): Chengyu (Vokabel), kein Grammatikpunkt im engeren Sinn; prüfen, ob es in die Grammatikliste gehört.
+- g:行之有效 (author): Chengyu (Vokabel), kein Grammatikpunkt im engeren Sinn; prüfen, ob es in die Grammatikliste gehört.
+- g:言归正传 (author): Chengyu (Vokabel), kein Grammatikpunkt im engeren Sinn; prüfen, ob es in die Grammatikliste gehört.
+- g:就事论事 (author): Chengyu (Vokabel), kein Grammatikpunkt im engeren Sinn; prüfen, ob es in die Grammatikliste gehört.
+- g:孰不知 (author): Umstrittene Nebenform von 殊不知 (Normwerke werten 孰不知 in dieser Bedeutung als Fehler); prüfen, ob der Punkt eigenständig bleiben oder in 殊不知 aufgehen soll.
+- g:…固然好，但… (author): Überschneidet sich stark mit dem Zusatzpunkt 固然 (g:固然); prüfen, ob beide Punkte nötig sind.
+- g:不可同日而语 (author): Chengyu (Vokabel), kein Grammatikpunkt im engeren Sinn; prüfen, ob es in die Grammatikliste gehört.

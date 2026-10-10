@@ -5380,7 +5380,7 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
       "g:因为¹",
       "g:（由于）……，因此……",
       "g:既然……，就……",
-      "g:之所以...是因为..."
+      "g:之所以…是因为…"
     ],
     "quiz": {
       "example": 0,

@@ -2865,7 +2865,7 @@ window.GRAMMAR_DATA = (window.GRAMMAR_DATA || []).concat([
     "related": [
       "g:其他助词@HSK4",
       "g:之一",
-      "g:之所以...是因为...",
+      "g:之所以…是因为…",
       "g:总之",
       "g:（在）……之余"
     ],
