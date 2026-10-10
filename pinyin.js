@@ -115,8 +115,8 @@
         current.base += base;
         current.positions.push(i);
         current.end = i + 1;
-      } else if (ch === ':' && current && current.base.charAt(current.base.length - 1) === 'u') {
-        // u: notation for ü
+      } else if (ch === ':' && current && /[uU]/.test(pinyin.charAt(i - 1)) && /[^\s]/.test(pinyin.charAt(i + 1))) {
+        // u: notation for ü (nu:3, lu:se4); a colon after a word (yāoqiú: …) is punctuation
         current.base = current.base.slice(0, -1) + 'v';
         current.end = i + 1;
       } else if (/[1-5]/.test(ch) && current) {

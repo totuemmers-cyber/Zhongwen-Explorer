@@ -10,9 +10,10 @@ const KEEP_TYPES = new Set(['Nomen', 'Phrase']);
 const mw = (word, pinyin) => ({ word, pinyin });
 // Author flags (Phase 3 batches b006–b025): id → corrected list ([] removes the field).
 const CORRECTIONS = {
-  // Zusatz batches b046–b049 (added 2026-10-10).
+  // Zusatz batches b046–b060 (added 2026-10-10).
   'w:订书机:ding4shu1ji1': [mw('个', 'ge4'), mw('台', 'tai2')],
   'w:电子邮件:dian4zi3you2jian4': [mw('封', 'feng1'), mw('个', 'ge4')],
+  'w:经文:jing1wen2': [mw('段', 'duan4'), mw('篇', 'pian1')],
   'w:信心:xin4xin1': [],
   'w:学费:xue2fei4': [mw('笔', 'bi3')],
   'w:年龄:nian2ling2': [],

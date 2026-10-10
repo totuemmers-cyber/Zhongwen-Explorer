@@ -1322,3 +1322,73 @@ Author flags, type changes and reviewer fixes per batch, for follow-up decisions
 - w:泛滥成灾:fan4lan4cheng2zai1 泛滥成灾 type → Chengyu: fixed four-character idiom (成语), not a free phrase
 - w:颤栗:zhan4li4 颤栗 (author): Variant spelling of 战栗 (zhànlì), the mainland standard form; if 战栗 has its own card this one is a duplicate.
 - w:秘笈:mi4ji2 秘笈 (author): Variant spelling of 秘籍 (mìjí), the more common form; if 秘籍 has its own card this one is a duplicate.
+
+## b058 (2026-10-10, author)
+- w:减刑:jian3xing2 减刑 type → Verb: 现代汉语词典: 动; used as a verb (被减刑两年, 申请减刑), the noun use (获得减刑) is secondary
+- w:颠沛:dian1pei4 颠沛 type → Adjektiv: 现代汉语词典: 形 (困苦, 受挫折); describes a hardship-ridden life (颠沛的生活, 半生颠沛), not a noun
+- w:经文:jing1wen2 经文 (author): measureWords lists 本 (běn); for 经文 (scripture text) 段 or 篇 is usual, 本 fits 经书/一本经 rather than 经文.
+- w:轮回:lun2hui2 轮回 (author): traditional 輪回 is only a variant; the standard traditional form is 輪迴 (CC-CEDICT lists 輪回 as variant of 輪迴).
+- w:制裁措施:zhi4cai2cuo4shi1 制裁措施 type → Phrase: free combination of 制裁 'sanction' + 措施 'measure', not a lexicalised noun
+- w:滞销:zhi4xiao1 滞销 type → Verb: 现代汉语词典 führt 滞销 als 动 „sich schlecht verkaufen“; „Ladenhüter“ ist erst 滞销商品
+- w:传感器:chuang2an3qi4 传感器 (author): Die id w:传感器:chuang2an3qi4 ist falsch zerlegt (chuáng-ǎn-qì); richtig ist chuan2gan3qi4 (chuán-gǎn-qì). Das Pinyin-Feld chuángǎnqì selbst ist korrekt.
+- w:补丁:bu3ding1 补丁 (author): Kartenpinyin bǔdīng (id bu3ding1): Standardaussprache laut 现代汉语词典 und CC-CEDICT ist bǔding mit neutralem Ton (bu3 ding5).
+- w:繁文缛节:fan2wen2ru4jie2 繁文缛节 type → Chengyu: feste vierteilige Redewendung (成语)
+- w:门当户对:men2dang1hu4dui4 门当户对 type → Chengyu: feste vierteilige Redewendung (成语)
+- w:世风日下:shi4feng1ri4xia4 世风日下 type → Chengyu: feste vierteilige Redewendung (成语)
+- w:众矢之的:zhong4shi3zhi1di4 众矢之的 type → Chengyu: feste vierteilige Redewendung (成语)
+- w:雅俗共赏:ya3su2gong4shang3 雅俗共赏 type → Chengyu: feste vierteilige Redewendung (成语)
+- w:精雕细琢:jing1diao1xi4zhuo2 精雕细琢 type → Chengyu: feste vierteilige Redewendung (成语)
+- w:临终:lin2zhong1 临终 type → Verb: 动: „dem Lebensende nahe sein“, wird verbal bzw. als Zeitangabe gebraucht (临终前), nicht als steigerbares Adjektiv
+- w:讳疾忌医:hui4ji2ji4yi1 讳疾忌医 type → Chengyu: feste vierteilige Redewendung (成语)
+- w:病入膏肓:bing4ru4gao1huang1 病入膏肓 type → Chengyu: feste vierteilige Redewendung (成语)
+- w:药到病除:yao4dao4bing4chu2 药到病除 type → Chengyu: feste vierteilige Redewendung (成语)
+- w:惶恐不安:huang2kong3bu4an1 惶恐不安 type → Chengyu: feste vierteilige Redewendung (成语)
+- w:自暴自弃:zi4bao4zi4qi4 自暴自弃 type → Chengyu: feste vierteilige Redewendung (成语)
+- w:心如止水:xin1ru2zhi3shui3 心如止水 type → Chengyu: feste vierteilige Redewendung (成语)
+- w:心灰意冷:xin1hui1yi4leng3 心灰意冷 type → Chengyu: feste vierteilige Redewendung (成语)
+- w:捉襟见肘:zhuo1jin1jian4zhou3 捉襟见肘 type → Chengyu: feste vierteilige Redewendung (成语)
+- w:井井有条:jing3jing3you3tiao2 井井有条 type → Chengyu: feste vierteilige Redewendung (成语)
+- w:柴米油盐:chai2mi3you2yan2 柴米油盐 type → Chengyu: feste vierteilige Wendung (成语), keine freie Aufzählung
+- w:粗茶淡饭:cu1cha2dan4fan4 粗茶淡饭 type → Chengyu: feste vierteilige Redewendung (成语)
+- w:省吃俭用:sheng3chi1jian3yong4 省吃俭用 type → Chengyu: feste vierteilige Redewendung (成语)
+- w:入不敷出:ru4bu4fu1chu1 入不敷出 type → Chengyu: feste vierteilige Redewendung (成语)
+- w:嘘寒问暖:xu1han2wen4nuan3 嘘寒问暖 type → Chengyu: feste vierteilige Redewendung (成语)
+
+## b059 (2026-10-10, author)
+- w:丰衣足食:feng1yi1zu2shi2 丰衣足食 type → Chengyu: fester vierzeichniger 成语 (CC-CEDICT: idiom), keine freie Redewendung
+- w:锱铢必较:zi1zhu1bi4jiao4 锱铢必较 type → Chengyu: fester vierzeichniger 成语 (CC-CEDICT: idiom), keine freie Redewendung
+- w:量入为出:liang4ru4wei2chu1 量入为出 type → Chengyu: fester vierzeichniger 成语 (CC-CEDICT: idiom), keine freie Redewendung
+- w:自给自足:zi4ji3zi4zu2 自给自足 type → Chengyu: fester vierzeichniger 成语, keine freie Redewendung
+- w:己所不欲勿施于人:ji3suo3bu4yu4wu4shi1yu2ren2 己所不欲勿施于人 type → Sprichwort: Lehrsatz des Konfuzius aus den Gesprächen (论语), kein vierzeichniger 成语
+- w:毫不犹豫:hao2bu4you2yu4 毫不犹豫 type → Ausdruck: freie Verbindung nach dem produktiven Muster 毫不 + Verb (毫不在乎, 毫不客气), kein fester 成语
+- w:贪小便宜吃大亏:tan1xiao3pian2yi5chi1da4kui1 贪小便宜吃大亏 type → Sprichwort: kein vierteiliger Chengyu, sondern ein volkstümliches Sprichwort (俗语) in Satzform
+- w:此地无银三百两:ci3di4wu2yin2san1bai3liang3 此地无银三百两 type → Redewendung: siebensilbiger volkstümlicher Ausdruck (俗语) nach einer Volkserzählung, kein vierteiliger 成语
+- w:百闻不如一见:bai3wen2bu4ru2yi1jian4 百闻不如一见 type → Sprichwort: volkstümliche Lebensweisheit (谚语) in Satzform, kein vierteiliger 成语
+- w:欲速则不达:yu4su4ze2bu4da2 欲速则不达 type → Sprichwort: klassische Lebensweisheit aus den Gesprächen des Konfuzius in Satzform, kein vierteiliger 成语
+- w:有志者事竟成:you3zhi4zhe3shi4jing4cheng2 有志者事竟成 type → Sprichwort: Lebensweisheit in Satzform aus dem Hou Hanshu, kein vierteiliger 成语
+- w:吃一堑长一智:chi1yi1qian4zhang3yi1zhi4 吃一堑长一智 type → Sprichwort: volkstümliche Lebensweisheit (俗语) in Satzform, kein vierteiliger 成语
+- w:当局者迷:dang1ju2zhe3mi2 当局者迷 (author): Citation pinyin dāngjú-zhěmí splits the expression wrongly; the structure is 当局者 + 迷, so dāngjúzhě mí would be correct.
+- w:分工合作:fen1gong1he2zuo4 分工合作 type → Phrase: feste Verbindung der Verben 分工 + 合作, kein klassischer 成语 mit übertragener Bedeutung
+- w:万事俱备只欠东风:wan4shi4ju4bei4zhi3qian4dong1feng1 万事俱备只欠东风 type → Redewendung: kein vierstelliges Chengyu, sondern eine zweiteilige feste Redensart (俗语) aus dem 三国演义
+- w:心胸开阔:xin1xiong1kai1kuo4 心胸开阔 type → Phrase: freie Verbindung von 心胸 (Nomen) und 开阔 (Adjektiv), kein festes Chengyu: 心胸很开阔, 心胸不够开阔
+- w:魂不守舍:hun2bu4shou3she3 魂不守舍 (author): ID encodes she3, but the correct reading (card pinyin, CC-CEDICT) is shè (she4).
+- w:活到老学到老:huo2dao4lao3xue2dao4lao3 活到老学到老 type → Sprichwort: 俗语: sechssilbiges volkstümliches Sprichwort, kein vierteiliges Chengyu
+
+## b060 (2026-10-10, author)
+- w:暗渡陈仓:an4du4chen2cang1 暗渡陈仓 (author): Standardschreibung im 现代汉语词典 ist 暗度陈仓; 暗渡陈仓 ist eine verbreitete Variante.
+- w:搬起石头砸自己的脚:ban1qi3shi2tou5za2zi4ji3de5jiao3 搬起石头砸自己的脚 type → Redewendung: kein vierteiliges Chengyu, sondern umgangssprachliche Redewendung (惯用语/俗语)
+- w:人无完人:ren2wu2wan2ren2 人无完人 type → Chengyu: feste vierzeichige Wendung (Wörterbuchform rénwú-wánrén), kein mehrteiliges Sprichwort
+- w:世上无难事，只怕有心人:shi4shang4wu2nan2shi4zhi3pa4you3xin1ren2 世上无难事，只怕有心人 (author): Variante von 天下无难事，只怕有心人 (eigene Karte im selben Paket, gleiche Bedeutung).
+- w:笨鸟先飞:ben4niao3xian1fei1 笨鸟先飞 type → Chengyu: feste vierzeichige Wendung (Wörterbuchform bènniǎo-xiānfēi)
+- w:杀鸡儆猴:sha1ji1jing3hou2 杀鸡儆猴 type → Chengyu: feste vierzeichige Wendung (Wörterbuchform shājī-jǐnghóu)
+- w:滴水穿石:di1shui3chuan1shi2 滴水穿石 type → Chengyu: feste vierzeichige Wendung (Wörterbuchform dīshuǐ-chuānshí)
+- w:风水轮流转:feng1shui3lun2liu2zhuan3 风水轮流转 (author): Die id kodiert zhuan3, die Karten-Pinyin und CC-CEDICT haben zhuàn (sich drehen); Beispiele folgen zhuàn.
+- w:树大招风:shu4da4zhao1feng1 树大招风 type → Chengyu: feste vierzeichige Wendung (Wörterbuchform shùdà-zhāofēng)
+- w:山不转水转:shan1bu4zhuan3shui3zhuan3 山不转水转 (author): Die id kodiert zhuan3, die Karten-Pinyin und CC-CEDICT haben zhuàn (sich drehen); Beispiele folgen zhuàn.
+- w:血浓于水:xue4nong2yu2shui3 血浓于水 type → Chengyu: feste vierteilige Wendung (成语), als Chengyu lexikalisiert
+- w:冤家路窄:yuan1jia1lu4zhai3 冤家路窄 type → Chengyu: feste vierteilige Wendung (成语)
+- w:行行出状元:hang2hang2chu1zhuang4yuan2 行行出状元 (author): Kurzform der Karte 三百六十行，行行出状元 (gleiche Bedeutung); ggf. verknüpfen.
+- w:秋后算账:qiu1hou4suan4zhang4 秋后算账 type → Chengyu: feste vierteilige Wendung (成语)
+- w:天道酬勤:tian1dao4chou2qin2 天道酬勤 type → Chengyu: feste vierteilige Wendung (成语)
+- w:骑虎难下:qi2hu3nan2xia4 骑虎难下 type → Chengyu: feste vierteilige Wendung (成语)
+- w:虎头蛇尾:hu3tou2she2wei3 虎头蛇尾 type → Chengyu: feste vierteilige Wendung (成语)

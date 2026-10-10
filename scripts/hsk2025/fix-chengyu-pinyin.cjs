@@ -8,11 +8,13 @@ const DRY = process.argv.includes('--dry-run');
 const Pinyin = common.loadPinyin();
 const VOWEL_START = /^[aāáǎàeēéěèoōóǒò]/i;
 const join = (a, b) => a + (VOWEL_START.test(b) ? '’' : '') + b;
+// Idioms that do not split AB-CD (当局者 + 迷).
+const KEEP = new Set(['w:当局者迷:dang1ju2zhe3mi2']);
 const sources = common.loadSources();
 const changes = [];
 for (const source of sources) {
   for (const item of source.items) {
-    if (Array.from(item.word).length !== 4 || typeof item.pinyin !== 'string') continue;
+    if (Array.from(item.word).length !== 4 || typeof item.pinyin !== 'string' || KEEP.has(item.id)) continue;
     const parts = item.pinyin.trim().split(/\s+/);
     // Chengyu written as one run (mèngmèiyǐqiú), two words (jūān sīwēi) or three (pò zài méijié) get the
     // same AB-CD form, as long as every space falls on a syllable boundary.

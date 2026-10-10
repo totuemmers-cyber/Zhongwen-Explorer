@@ -28,6 +28,7 @@ const DUPLICATES = {
   'w:跌荡起伏:die1dang4qi3fu2': 'w:跌宕起伏:die1dang4qi3fu2',
   'w:飘渺:piao1miao3': 'w:缥缈:piao1miao3',
   'w:缲丝:qiao1si1': 'w:缫丝:sao1si1',
+  'w:世上无难事，只怕有心人:shi4shang4wu2nan2shi4zhi3pa4you3xin1ren2': 'w:天下无难事，只怕有心人:tian1xia4wu2nan2shi4zhi3pa4you3xin1ren2',
   // Misspellings: only the id is kept, not the spelling.
   'w:沤心沥血:ou3xin1li4xue4': 'w:呕心沥血:ou3xin1li4xue4'
 };

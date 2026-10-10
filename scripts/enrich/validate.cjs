@@ -229,6 +229,8 @@ function containsHeadword(example, card, merged) {
   const word = card.word.replace(/[，。！？、；：,.!?;:\s…]/g, '');
   if (text.includes(word)) return true;
   if ((card.variants || []).some(v => text.includes(v))) return true;
+  // Sayings take aspect particles inside (搬起石头砸了自己的脚).
+  if (Array.from(word).length >= 5 && text.replace(/[了着过]/g, '').includes(word.replace(/[了着过]/g, ''))) return true;
   // Separable verbs (帮忙 → 帮他的忙): characters in order with a short gap.
   // Every occurrence of the first character counts (上了三个小时的网 after 晚上).
   // Verb-object phrases split the same way (给面子 → 给我一个面子, 打篮球 → 打了一场篮球).
