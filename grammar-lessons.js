@@ -5061,13 +5061,63 @@
   // === RENDERING & UI LOGIC ===
   // =====================================================
 
+  function escapeText(text) {
+    return String(text).replace(/[&<>"]/g, function (ch) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]; });
+  }
+
+  // A lesson level as one span: HSK2/HSK3 → „HSK 2–3“, HSK7-9 → „HSK 7–9“, HSK1 → „HSK 1“.
+  function levelLabel(level) {
+    if (!/^HSK/.test(level || '')) return level || '';
+    var parts = level.split('/').map(function (part) { return part.replace(/^HSK/, ''); });
+    var first = parts[0].split('-')[0], last = parts[parts.length - 1].split('-').pop();
+    return 'HSK ' + (first === last ? first : first + '–' + last);
+  }
+
+  // Filter buttons: the levels the lessons actually use, in the order of the language profile (HSK1 … HSK7-9).
+  function filterLevels() {
+    var used = {};
+    LESSONS.forEach(function (lesson) { lesson.level.split('/').forEach(function (part) { used[part] = true; }); });
+    var order = (window.LANG_PROFILE && window.LANG_PROFILE.levels) || [];
+    var known = order.filter(function (value) { return used[value]; });
+    var extra = Object.keys(used).filter(function (value) { return order.indexOf(value) === -1; }).sort();
+    return known.concat(extra);
+  }
+
+  // Button label for a linked grammar point: the pattern the grammar list shows, kept short. Overviews add their
+  // words; long syllabus patterns drop the category prefix (状语：…) and enumerators and keep the formula (动词+…).
+  var GRAMMAR_LABEL_MAX = 40;
+  function grammarFullLabel(point) {
+    if (point.kind === 'overview' && point.words && point.words.length) return point.pattern + '：' + point.words.join('、');
+    return point.pattern;
+  }
+  function grammarLabel(point) {
+    var label = grammarFullLabel(point);
+    // Overviews: the pattern and its first words (程度副词：非常、很、太、真…) – enough to tell two overviews apart.
+    if (point.kind === 'overview' && point.words && point.words.length > 4) label = point.pattern + '：' + point.words.slice(0, 4).join('、') + '…';
+    if (point.kind !== 'overview' && point.kind !== 'word') {
+      var prefix = point.syllabus && point.syllabus.categoryName ? point.syllabus.categoryName + '：' : '';
+      if (prefix && label.indexOf(prefix) === 0 && label.length > prefix.length) label = label.slice(prefix.length);
+      var parts = label.replace(/（\d+）|[①-⑩]/g, '\n').split('：').map(function (part) {
+        return part.split('\n').map(function (piece) { return piece.trim(); }).filter(Boolean).join(' / ');
+      }).filter(Boolean);
+      label = parts.join('：');
+      var formulas = parts.filter(function (part) { return part.indexOf('+') !== -1; });
+      if (Array.from(label).length > 20 && parts.length > 1 && formulas.length) label = formulas[formulas.length - 1];
+    }
+    var chars = Array.from(label);
+    return chars.length > GRAMMAR_LABEL_MAX ? chars.slice(0, GRAMMAR_LABEL_MAX - 1).join('') + '…' : label;
+  }
+
   function renderLessonContent(lesson) {
     var html = '<div class="gl-intro">' + lesson.intro + '</div>';
     if (lesson.grammarIds && lesson.grammarIds.length) {
-      html += '<div class="gl-section"><h4 class="gl-section-heading">Muster nachschlagen</h4>';
+      html += '<div class="gl-section gl-grammar-links"><h4 class="gl-section-heading">Zu den Grammatikpunkten</h4>';
       lesson.grammarIds.forEach(function (id) {
-        var pattern = (window.GRAMMAR_DATA || []).find(function (g) { return g.id === id; });
-        if (pattern) html += '<button type="button" class="btn btn-pill" data-grammar-reference="' + id + '">' + pattern.pattern + '</button> ';
+        var point = (window.GRAMMAR_DATA || []).find(function (g) { return g.id === id; });
+        if (point) {
+          html += '<button type="button" class="btn btn-pill" lang="zh-CN" data-grammar-reference="' + escapeText(id) + '" title="' + escapeText(grammarFullLabel(point)) + '">' +
+            escapeText(grammarLabel(point)) + '</button> ';
+        }
       });
       html += '</div>';
     }
@@ -5124,7 +5174,7 @@
     document.getElementById('gl-no-results').classList.toggle('hidden', !!visible.length);
     document.getElementById('gl-count').textContent = visible.length + ' Lektionen';
     controls.querySelectorAll('.gl-level').forEach(function (btn) { var active = btn.dataset.gllevel === level; btn.classList.toggle('active', active); btn.setAttribute('aria-pressed', String(active)); });
-    controls.querySelector('.lesson-filter-summary').textContent = (query ? '„' + query + '“ · ' : '') + (level === 'all' ? 'Alle Level' : level.replace('HSK', 'HSK '));
+    controls.querySelector('.lesson-filter-summary').textContent = (query ? '„' + query + '“ · ' : '') + (level === 'all' ? 'Alle Level' : levelLabel(level));
     if (api.view === 'lessons') window.app.updateCount();
     persist();
   }
@@ -5149,7 +5199,7 @@
     var header = document.createElement('header');
     header.appendChild(button('← Alle Lektionen', function () { showIndex(); }));
     var heading = document.createElement('h2'); heading.id = 'lesson-title'; heading.tabIndex = -1; heading.textContent = lesson.title; header.appendChild(heading);
-    var sub = document.createElement('p'); sub.className = 'lesson-subtitle'; sub.textContent = lesson.level.replace(/HSK/g, 'HSK ') + ' · ' + lesson.subtitle; header.appendChild(sub); reader.appendChild(header);
+    var sub = document.createElement('p'); sub.className = 'lesson-subtitle'; sub.textContent = levelLabel(lesson.level) + ' · ' + lesson.subtitle; header.appendChild(sub); reader.appendChild(header);
     var body = document.createElement('div'); body.className = 'gl-card-body'; body.innerHTML = renderLessonContent(lesson); reader.appendChild(body);
     body.querySelectorAll('table').forEach(function (table) {
       var region = document.createElement('div'); region.className = 'lesson-table-region'; region.tabIndex = 0; region.setAttribute('role', 'region'); region.setAttribute('aria-label', 'Lektionstabelle, horizontal scrollbar'); table.before(region); region.appendChild(table);
@@ -5186,8 +5236,8 @@
     document.querySelector('#grammar-controls .search-bar').classList.add('grammar-ref-search');
     controls = document.createElement('div'); controls.id = 'gl-controls'; controls.className = 'hidden';
     controls.innerHTML = '<label class="field-label" for="gl-search">Lektionen durchsuchen</label><div class="search-bar"><input id="gl-search" placeholder="Thema, Grammatik oder Erklärung" autocomplete="off"><button id="gl-clear-search" class="btn-clear" aria-label="Suche löschen">×</button></div><div class="filters"><div class="filter-field"><span id="gl-level-label" class="filter-group-label">HSK</span><div class="level-filters" role="group" aria-labelledby="gl-level-label"></div></div><span id="gl-count" class="gl-count" role="status"></span></div><div class="filter-summary"><span class="lesson-filter-summary"></span><button id="gl-reset">Filter zurücksetzen</button></div>';
-    ['all', 'HSK1', 'HSK2', 'HSK3', 'HSK4', 'HSK5', 'HSK6'].forEach(function (value) {
-      var btn = button(value === 'all' ? 'Alle' : value.replace('HSK', 'HSK '), function () { level = value; filter(); }, 'filter-btn gl-level ' + value.toLowerCase()); btn.dataset.gllevel = value; controls.querySelector('.level-filters').appendChild(btn);
+    ['all'].concat(filterLevels()).forEach(function (value) {
+      var btn = button(value === 'all' ? 'Alle' : levelLabel(value), function () { level = value; filter(); }, 'filter-btn gl-level ' + value.toLowerCase()); btn.dataset.gllevel = value; controls.querySelector('.level-filters').appendChild(btn);
     });
     document.getElementById('grammar-controls').appendChild(controls);
     var search = controls.querySelector('input');
@@ -5198,7 +5248,7 @@
     LESSONS.forEach(function (lesson) {
       var card = document.createElement('div'); card.className = 'gl-card'; card.dataset.lesson = lesson.id;
       var header = button('', function () { openLesson(lesson.id); }, 'gl-card-header');
-      header.innerHTML = '<span class="gl-card-number">' + lesson.number + '</span><span class="gl-card-titles"><span class="gl-card-title">' + lesson.title + '</span><span class="gl-card-subtitle">' + lesson.subtitle + '</span></span><span class="gl-card-level card-level ' + lesson.level.split('/')[0] + '">' + lesson.level.replace(/HSK/g, 'HSK ') + '</span><span class="gl-card-chevron">→</span>';
+      header.innerHTML = '<span class="gl-card-number">' + lesson.number + '</span><span class="gl-card-titles"><span class="gl-card-title">' + lesson.title + '</span><span class="gl-card-subtitle">' + lesson.subtitle + '</span></span><span class="gl-card-level card-level ' + lesson.level.split('/')[0] + '">' + levelLabel(lesson.level) + '</span><span class="gl-card-chevron">→</span>';
       card.appendChild(header); index.appendChild(card);
     });
     var empty = document.createElement('div'); empty.id = 'gl-no-results'; empty.className = 'no-results hidden'; empty.setAttribute('role', 'status'); empty.textContent = 'Keine Lektionen gefunden. Setze die Filter zurück oder ändere die Suche.'; index.appendChild(empty);
@@ -5210,6 +5260,19 @@
   }
   api.setView = setView;
   api.open = openLesson;
+  api.levelLabel = levelLabel;
+  api.grammarLabel = grammarLabel;
+  // Lessons that link a grammar point (the backlink in its detail view).
+  api.forGrammar = function (grammarId) {
+    return LESSONS.filter(function (lesson) { return (lesson.grammarIds || []).indexOf(grammarId) !== -1; });
+  };
+  // From a grammar detail into a lesson: one new history entry; Back returns to the grammar point.
+  api.openFromGrammar = function (id) {
+    persist();
+    window.app.workspace.dismiss();
+    setView('lessons', true);
+    openLesson(id);
+  };
   api.snapshot = function () { return { view: api.view, selected: api.selected, query: query, level: level, indexScroll: indexScroll, readingScroll: Object.assign({}, readingScroll) }; };
   api.restore = function (state, id) {
     if (state) { query = state.query || ''; level = state.level || 'all'; indexScroll = state.indexScroll || 0; readingScroll = Object.assign({}, state.readingScroll); }

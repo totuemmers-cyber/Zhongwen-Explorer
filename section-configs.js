@@ -697,6 +697,7 @@ SECTION_CONFIGS['grammar'] = {
       });
     });
     relatedSection.classList.toggle('hidden', !related.length);
+    renderGrammarLessonLinks(item, section);
 
     // Where the point stands in the official HSK 2025 grammar syllabus (语法大纲).
     var s = item.syllabus;
@@ -705,6 +706,28 @@ SECTION_CONFIGS['grammar'] = {
       : 'Nicht im HSK-Syllabus (Zusatz)';
   }
 };
+
+// Backlinks from a grammar point to the lessons that teach it. The lessons script loads in the background on the
+// first detail; the links appear once it is there (and only if the point is still the one shown).
+function renderGrammarLessonLinks(item, section) {
+  var lessonsSection = document.getElementById('grammar-detail-lessons-section');
+  var host = document.getElementById('grammar-detail-lessons');
+  host.innerHTML = '';
+  lessonsSection.classList.add('hidden');
+  if (!window.app || typeof window.app.ensureGrammarLessonsLoaded !== 'function') return;
+  window.app.ensureGrammarLessonsLoaded({ quiet: true }).then(function () {
+    if (section.selectedItem !== item || !window.Lessons) return;
+    host.innerHTML = '';
+    var lessons = window.Lessons.forGrammar(item.id);
+    lessons.forEach(function (lesson) {
+      var btn = appendElement(host, 'button', 'grammar-related-tag grammar-lesson-link', 'In Lektion: ' + lesson.title);
+      btn.type = 'button';
+      btn.dataset.lesson = lesson.id;
+      btn.addEventListener('click', function () { window.Lessons.openFromGrammar(lesson.id); });
+    });
+    lessonsSection.classList.toggle('hidden', !lessons.length);
+  }).catch(function () {});
+}
 
 // ========================================
 // VOCAB SECTION

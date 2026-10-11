@@ -485,7 +485,9 @@
     return vocabDetailsPromise;
   }
 
-  function ensureGrammarLessonsLoaded() {
+  // options.quiet: a background load (lesson backlinks in a grammar detail) without loading indicator or error banner.
+  function ensureGrammarLessonsLoaded(options) {
+    var quiet = !!(options && options.quiet);
     if (window.__grammarLessonsInitialized) {
       return Promise.resolve();
     }
@@ -493,22 +495,26 @@
       return grammarLessonsPromise;
     }
 
-    clearSectionError('grammar');
-    setLoadingVisible('grammar', true, 'Lade Grammatik-Lektionen...');
+    if (!quiet) {
+      clearSectionError('grammar');
+      setLoadingVisible('grammar', true, 'Lade Grammatik-Lektionen...');
+    }
     grammarLessonsPromise = loadScript('grammar-lessons.js')
       .then(function () {
-        clearSectionError('grammar');
+        if (!quiet) clearSectionError('grammar');
       })
       .catch(function (err) {
         grammarLessonsPromise = null;
         console.error(err);
-        showSectionError('grammar', 'Grammatik-Lektionen konnten nicht geladen werden. Bitte erneut versuchen.', function () {
-          ensureGrammarLessonsLoaded().catch(function () {});
-        });
+        if (!quiet) {
+          showSectionError('grammar', 'Grammatik-Lektionen konnten nicht geladen werden. Bitte erneut versuchen.', function () {
+            ensureGrammarLessonsLoaded().catch(function () {});
+          });
+        }
         throw err;
       })
       .finally(function () {
-        setLoadingVisible('grammar', false);
+        if (!quiet) setLoadingVisible('grammar', false);
       });
 
     return grammarLessonsPromise;

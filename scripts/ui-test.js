@@ -159,6 +159,72 @@ async function run() {
   const search = d.getElementById('gl-search');
   search.value = 'shijian'; search.dispatchEvent(new w.Event('input'));
   assert(w.Lessons.count >= 0);
+  d.getElementById('gl-reset').click();
+
+  // Level filter buttons follow the levels the lessons use (incl. HSK 7–9); a range lesson (HSK2/HSK3) shows as
+  // „HSK 2–3“ and matches the filters of both levels.
+  const lessons = Array.from(w.GRAMMAR_LESSONS);
+  const levelButtons = Array.from(d.querySelectorAll('#gl-controls .gl-level'));
+  assert.deepEqual(levelButtons.map(b => b.textContent), ['Alle', 'HSK 1', 'HSK 2', 'HSK 3', 'HSK 4', 'HSK 5', 'HSK 6', 'HSK 7–9']);
+  const visibleLessons = () => Array.from(d.querySelectorAll('#grammar-lessons [data-lesson]:not(.hidden)')).map(card => card.dataset.lesson);
+  levelButtons.find(b => b.dataset.gllevel === 'HSK7-9').click();
+  assert.deepEqual(visibleLessons(), lessons.filter(l => l.level === 'HSK7-9').map(l => l.id));
+  assert(visibleLessons().includes('lesson-45'), 'HSK 7–9 filter misses lesson-45');
+  assert.equal(d.querySelector('#gl-controls .lesson-filter-summary').textContent, 'HSK 7–9');
+  const ranged = lessons.find(l => l.level === 'HSK2/HSK3');
+  for (const value of ['HSK2', 'HSK3']) {
+    levelButtons.find(b => b.dataset.gllevel === value).click();
+    assert(visibleLessons().includes(ranged.id), value + ' filter misses the HSK2/HSK3 lesson');
+  }
+  const rangedCard = d.querySelector('#grammar-lessons [data-lesson="' + ranged.id + '"] .gl-card-level');
+  assert.equal(rangedCard.textContent, 'HSK 2–3');
+  assert.equal(d.querySelector('#grammar-lessons [data-lesson="lesson-45"] .gl-card-level').textContent, 'HSK 7–9');
+  assert(!/HSK \d\/|HSK\d/.test(Array.from(d.querySelectorAll('#grammar-lessons .gl-card-level')).map(el => el.textContent).join(' ')), 'Raw level in a lesson card');
+  w.Lessons.open(ranged.id);
+  assert(d.querySelector('#lesson-reader .lesson-subtitle').textContent.startsWith('HSK 2–3 · '), 'Range missing in the lesson header');
+
+  // Grammar links of a lesson: heading and short labels (≤ 40 characters, full pattern as title).
+  const longPoint = w.GRAMMAR_DATA.find(g => g.id.startsWith('g:复合趋向补语的趋向意义用法'));
+  const withLong = lessons.find(l => (l.grammarIds || []).includes(longPoint.id));
+  w.Lessons.open(withLong.id);
+  const linkBlock = d.querySelector('#lesson-reader .gl-grammar-links');
+  assert.equal(linkBlock.querySelector('.gl-section-heading').textContent, 'Zu den Grammatikpunkten');
+  const refs = Array.from(linkBlock.querySelectorAll('[data-grammar-reference]'));
+  assert(refs.length && refs.every(b => Array.from(b.textContent).length <= 40 && b.title), 'Grammar link labels too long or without title');
+  const longRef = refs.find(b => b.dataset.grammarReference === longPoint.id);
+  assert.equal(longRef.title, longPoint.pattern);
+  assert(longRef.textContent.startsWith('动词+出来/') && longRef.textContent.endsWith('…'), 'Long pattern not shortened: ' + longRef.textContent);
+  for (const lesson of lessons) {
+    for (const id of lesson.grammarIds || []) {
+      const point = w.GRAMMAR_DATA.find(g => g.id === id);
+      const label = w.Lessons.grammarLabel(point);
+      assert(label && Array.from(label).length <= 40 && !/^(状语|主语|宾语|定语)：/.test(label), 'Grammar label ' + id + ': ' + label);
+    }
+  }
+  assert.equal(w.Lessons.grammarLabel(w.GRAMMAR_DATA.find(g => g.id === 'g:状语：副词、形容词作状语；表示时间、处所的词语作状语')), '副词、形容词作状语；表示时间、处所的词语作状语');
+  await finish(f);
+
+  // Backlink: a grammar point linked by a lesson offers „In Lektion: …“; it opens the lesson, Back returns to the point.
+  f = await boot('#grammar/' + encodeURIComponent('g:复合趋向补语的趋向意义用法：动词+出来/出去/过来/过去/回来/回去/进来/进去/起来/上来/上去/下来/下去'));
+  ({ w, d } = f);
+  await until(() => w.app.sections.grammar.isOverlayOpen() && d.querySelector('#grammar-detail-lessons .grammar-lesson-link'), 'lesson backlink');
+  assert(!d.getElementById('grammar-detail-lessons-section').classList.contains('hidden'));
+  const backlink = d.querySelector('#grammar-detail-lessons .grammar-lesson-link');
+  const target = w.GRAMMAR_LESSONS.find(l => l.id === backlink.dataset.lesson);
+  assert(target.grammarIds.includes(w.app.sections.grammar.selectedItem.id));
+  assert.equal(backlink.textContent, 'In Lektion: ' + target.title);
+  backlink.click();
+  await until(() => w.Lessons.selected === target.id && !d.getElementById('lesson-reader').classList.contains('hidden'), 'lesson from backlink');
+  assert.equal(w.location.hash, '#grammar/lesson/' + target.id);
+  assert(!w.app.sections.grammar.isOverlayOpen(), 'Grammar detail still open over the lesson');
+  w.history.back();
+  await until(() => w.app.sections.grammar.isOverlayOpen() && w.app.sections.grammar.selectedItem && w.app.sections.grammar.selectedItem.id.startsWith('g:复合趋向补语'), 'back to the grammar point');
+  // A point no lesson links keeps the section hidden.
+  const unlinked = w.app.sections.grammar.allItems.find(g => !w.Lessons.forGrammar(g.id).length);
+  w.app.workspace.openRelated('grammar', g => g === unlinked);
+  await until(() => w.app.sections.grammar.selectedItem === unlinked, 'unlinked grammar point');
+  await delay(30);
+  assert(d.getElementById('grammar-detail-lessons-section').classList.contains('hidden'), 'Lessons section shown for an unlinked point');
   await finish(f);
 
   // Session restore: filters and search come back on reload.
@@ -254,8 +320,13 @@ async function run() {
       assert(content, ono.filteredItems[i].id + ': empty section ' + (section.id || section.className));
     }
   }
+  // The content campaign fills entries over time: check the empty case on any entry still without examples.
+  const withoutExamples = ono.filteredItems.findIndex(item => !(item.examples && item.examples.length));
+  if (withoutExamples !== -1) {
+    ono.openDetail(withoutExamples);
+    assert(d.getElementById('ono-detail-examples-section').classList.contains('hidden'), 'New entry shows an empty examples section');
+  }
   ono.openDetail(ono.filteredItems.findIndex(item => item.id === 'o:啊'));
-  assert(d.getElementById('ono-detail-examples-section').classList.contains('hidden'), 'New entry shows an empty examples section');
   assert.equal(d.getElementById('ono-detail-level').textContent, 'HSK 4');
   ono.openDetail(ono.filteredItems.findIndex(item => item.id === 'o:开开心心'));
   assert.equal(d.getElementById('ono-detail-category').textContent, 'Gefühle');
@@ -693,7 +764,7 @@ async function run() {
   assert(d.querySelectorAll('#pinyin-content .kana-section').length >= 6, 'Pinyin reference incomplete');
   await finish(f);
 
-  console.log('UI regressions passed: deep links (incl. legacy ids), invalid routes, modal focus, history, related entries, lessons, session restore, bookmark sync, quiz practice (keyboard guards, focus, kept state, tones, listening with and without speech, typed pinyin, measure words, HSK 7–9/Zusatz), mock exam (level → start, manual advance, late answers, exit guard, Hören play limit, Lesen text with pinyin), quiz progress (storage round trip, mistakes from practice, replay incl. units, in-page reset, invalid data), keyboard tabs.');
+  console.log('UI regressions passed: deep links (incl. legacy ids), invalid routes, modal focus, history, related entries, lessons (level filter incl. HSK 7–9, ranges, short grammar labels, backlinks), session restore, bookmark sync, quiz practice (keyboard guards, focus, kept state, tones, listening with and without speech, typed pinyin, measure words, HSK 7–9/Zusatz), mock exam (level → start, manual advance, late answers, exit guard, Hören play limit, Lesen text with pinyin), quiz progress (storage round trip, mistakes from practice, replay incl. units, in-page reset, invalid data), keyboard tabs.');
 }
 
 run().catch(error => { console.error(error); process.exitCode = 1; });
