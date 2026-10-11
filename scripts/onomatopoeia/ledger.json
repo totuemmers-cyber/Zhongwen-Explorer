@@ -1,0 +1,303 @@
+{
+ "o:喂": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "bdb229c8a86c1965"
+ },
+ "o:冷冰冰": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "a57d4c3ed42ecc02"
+ },
+ "o:冷飕飕": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "d577cb5c5b277221"
+ },
+ "o:热乎乎": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "1face8260cc79c74"
+ },
+ "o:热辣辣": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "026c28031dca2976"
+ },
+ "o:阴沉沉": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "abc055832bdafc83"
+ },
+ "o:漂漂亮亮": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "3beece4c3c5907b8"
+ },
+ "o:舒舒服服": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "664aa104123d195e"
+ },
+ "o:慢腾腾": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "1dd96636f73ca321"
+ },
+ "o:慢吞吞": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "52b107693a6d2f44"
+ },
+ "o:慢悠悠": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "eb97c7cd5b6af17d"
+ },
+ "o:高高兴兴": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "e8f42b0feb6515fe"
+ },
+ "o:快快乐乐": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "0660d7641bb22d6a"
+ },
+ "o:胖嘟嘟": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "d0a5a8b84a99ca80"
+ },
+ "o:脏兮兮": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "2ea9d521867b9e27"
+ },
+ "o:安安静静": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "9f6d7557267be181"
+ },
+ "o:干干净净": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "027d7d2733af98ba"
+ },
+ "o:简简单单": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "1da02e5e65f5f514"
+ },
+ "o:明明白白": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "293f7ae351e97637"
+ },
+ "o:清清楚楚": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "7ce912ccb91bd391"
+ },
+ "o:认认真真": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "feb685e0ef214dfc"
+ },
+ "o:甜丝丝": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "5e4ef7eb3f8ed94a"
+ },
+ "o:急匆匆": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "056c3f0e0788c0a5"
+ },
+ "o:急吼吼": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "b8d454675f911049"
+ },
+ "o:甜蜜蜜": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "2c01fb5e1aa59bcf"
+ },
+ "o:开开心心": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "a9a1f1f2250f99eb"
+ },
+ "o:啊": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "7ec3a2a221ac5244"
+ },
+ "o:嗯": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "2cbe731230f1cdd6"
+ },
+ "o:厚墩墩": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "ee6fe1af8ba8d39d"
+ },
+ "o:亮晶晶": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "bf86b6cbc876db16"
+ },
+ "o:亮闪闪": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "e3c50e7bd5237e7b"
+ },
+ "o:亮堂堂": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "a1ce72eda3059735"
+ },
+ "o:乱哄哄": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "8a33cde9940a3bcf"
+ },
+ "o:乱蓬蓬": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "60c2aac2b651c185"
+ },
+ "o:乱糟糟": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "ad1e7f19b0a2b4f7"
+ },
+ "o:普普通通": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "0a2d6df871392cb6"
+ },
+ "o:热热闹闹": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "a96b0fd8fdd2a9fb"
+ },
+ "o:干巴巴": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "17d13e716e452886"
+ },
+ "o:凉飕飕": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "f3ee35a7fff9b83d"
+ },
+ "o:酸溜溜": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "b4c75b3ea098ec87"
+ },
+ "o:香喷喷": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "6066102b5db7565b"
+ },
+ "o:轻飘飘": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "76b7ca933b90bc33"
+ },
+ "o:懒洋洋": {
+  "batch": "o001",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "848652d2090b454b"
+ }
+}
