@@ -931,7 +931,7 @@
       tonesSection.className = 'kana-section';
       var tonesHeader = document.createElement('div');
       tonesHeader.className = 'kana-section-header';
-      tonesHeader.innerHTML = '<span class="kana-section-icon">声</span><span>Die vier Töne + Neutraler Ton</span>';
+      tonesHeader.innerHTML = '<span class="kana-section-icon">声</span><span>Die vier Töne und der neutrale Ton</span>';
       tonesSection.appendChild(tonesHeader);
 
       var tonesBody = document.createElement('div');
@@ -1023,8 +1023,7 @@
       comboSection.appendChild(comboHint);
 
       var comboBody = document.createElement('div');
-      comboBody.className = 'kana-table-wrapper';
-      comboBody.style.overflowX = 'hidden';
+      comboBody.className = 'kana-table-wrapper combo-table-wrapper';
       var cTable = document.createElement('table');
       cTable.className = 'kana-table combo-table';
 
@@ -1087,8 +1086,9 @@
         var tr = document.createElement('tr');
         tr.innerHTML =
           '<td><strong>' + rule.rule + '</strong></td>' +
-          '<td style="font-family:var(--font-jp);cursor:pointer">' + rule.example + '</td>' +
-          '<td>' + rule.explanation + '</td>';
+          '<td style="font-family:var(--font-jp);cursor:pointer">' + rule.example +
+            (rule.pinyin ? '<br><span style="font-family:var(--font)">' + (rule.originalPinyin && rule.originalPinyin !== rule.pinyin ? rule.originalPinyin + ' → ' : '') + rule.pinyin + '</span>' : '') + '</td>' +
+          '<td>' + (rule.description || '') + '</td>';
         tr.querySelector('td:nth-child(2)').addEventListener('click', function () {
           speakCN(rule.example.replace(/[（(].*[)）]/g, '').replace(/→/g, ''));
         });
@@ -1180,7 +1180,7 @@
 
     var title = document.createElement('h2');
     title.style.cssText = 'text-align:center;margin-bottom:8px;font-size:1.3rem';
-    title.textContent = 'Die vier Töne des Mandarin';
+    title.textContent = 'Die vier Töne und der neutrale Ton';
     container.appendChild(title);
 
     var desc = document.createElement('p');
@@ -1228,10 +1228,12 @@
         '</div>' +
       '</div>' +
       '<div style="padding:12px;font-size:0.9rem;line-height:1.8">' +
-        '<p><strong>3. + 3. Ton → 2. + 3. Ton:</strong> 你好 (nǐ hǎo → ní hǎo)</p>' +
-        '<p><strong>一 (yī) vor 4. Ton → yí:</strong> 一个 (yī gè → yí gè)</p>' +
+        '<p><strong>3. + 3. Ton → 2. + 3. Ton:</strong> 你好 (nǐ hǎo → ní hǎo); geschrieben wird weiter nǐ hǎo</p>' +
+        '<p><strong>Mehrere 3. Töne:</strong> 我也很好 (wǒ yě hěn hǎo → wó yě hén hǎo, zügig auch wó yé hén hǎo); die letzte Silbe bleibt im 3. Ton</p>' +
+        '<p><strong>一 (yī) vor 4. Ton → yí:</strong> 一定 (yī dìng → yí dìng), 一个 (yí ge)</p>' +
         '<p><strong>一 (yī) vor 1./2./3. Ton → yì:</strong> 一天 (yī tiān → yì tiān)</p>' +
-        '<p><strong>不 (bù) vor 4. Ton → bú:</strong> 不是 (bù shì → bú shì)</p>' +
+        '<p><strong>一 bleibt yī:</strong> allein, am Wortende, in Ordnungszahlen und beim Aufzählen von Ziffern: 第一 (dì-yī), 十一 (shíyī)</p>' +
+        '<p><strong>不 (bù) vor 4. Ton → bú:</strong> 不是 (bù shì → bú shì); sonst bù: 不好 (bù hǎo)</p>' +
       '</div>';
     container.appendChild(rulesCard);
   }

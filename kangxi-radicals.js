@@ -16,8 +16,8 @@ window.KANGXI_RADICALS = [
     "pinyin": "gǔn",
     "strokes": 1,
     "variants": [],
-    "meaning": "vertikaler Strich",
-    "explanation": "Ein vertikaler Strich, der in vielen Zeichen als durchgehende Linie erscheint. Selten als eigenständiges Radikal klassifiziert."
+    "meaning": "senkrechter Strich",
+    "explanation": "Ein senkrechter Strich, der in vielen Zeichen als durchgehende Linie erscheint. Als Radikal sind ihm nur wenige Zeichen zugeordnet, z. B. 中."
   },
   {
     "number": 3,
@@ -47,7 +47,7 @@ window.KANGXI_RADICALS = [
       "乛"
     ],
     "meaning": "zweiter Himmelsstamm",
-    "explanation": "Ursprünglich der zweite der Zehn Himmelsstamme. Als Radikal kommt es in wenigen, aber wichtigen Zeichen vor."
+    "explanation": "Ursprünglich der zweite der Zehn Himmelsstämme. Als Radikal kommt es in wenigen, aber wichtigen Zeichen vor."
   },
   {
     "number": 6,
@@ -103,7 +103,7 @@ window.KANGXI_RADICALS = [
     "strokes": 2,
     "variants": [],
     "meaning": "eintreten",
-    "explanation": "Bedeutet 'eintreten' oder 'hineingehen'. Ähnlich wie 人, aber die Striche kreuzen sich."
+    "explanation": "Bedeutet 'eintreten' oder 'hineingehen'. Ähnlich wie 人, aber hier ist der rechte Strich der längere und der linke der kürzere."
   },
   {
     "number": 12,
@@ -120,7 +120,7 @@ window.KANGXI_RADICALS = [
     "pinyin": "jiōng",
     "strokes": 2,
     "variants": [],
-    "meaning": "Umrandung (oben offen)",
+    "meaning": "Umrandung (unten offen)",
     "explanation": "Eine nach unten offene Umrandung. Bildet den äußeren Rahmen verschiedener Zeichen."
   },
   {
@@ -156,8 +156,8 @@ window.KANGXI_RADICALS = [
     "pinyin": "kǎn",
     "strokes": 2,
     "variants": [],
-    "meaning": "offener Mund, Behälter",
-    "explanation": "Eine nach oben offene Umrandung. Stellt einen Behälter oder eine Vertiefung dar."
+    "meaning": "offener Behälter, Grube",
+    "explanation": "Eine nach oben offene Umrandung. Stellt einen Behälter oder eine Grube dar, z. B. in 凶 und 出."
   },
   {
     "number": 18,
@@ -186,7 +186,7 @@ window.KANGXI_RADICALS = [
     "strokes": 2,
     "variants": [],
     "meaning": "einwickeln",
-    "explanation": "Eine umschliessende Form, die 'einwickeln' oder 'umhüllen' darstellt."
+    "explanation": "Eine umschließende Form, die 'einwickeln' oder 'umhüllen' darstellt."
   },
   {
     "number": 21,
@@ -209,11 +209,11 @@ window.KANGXI_RADICALS = [
   {
     "number": 23,
     "radical": "匸",
-    "pinyin": "xǐ",
+    "pinyin": "xì",
     "strokes": 2,
     "variants": [],
-    "meaning": "verstecken",
-    "explanation": "Ähnlich wie 匚, aber mit offener Oberseite. Stellt das Verstecken oder Verbergen dar."
+    "meaning": "verbergen",
+    "explanation": "Wie 匚 nach rechts offen und in heutigen Schriften kaum davon zu unterscheiden. Bedeutet 'verbergen'."
   },
   {
     "number": 24,
@@ -251,7 +251,7 @@ window.KANGXI_RADICALS = [
     "strokes": 2,
     "variants": [],
     "meaning": "Klippe, Fabrik",
-    "explanation": "Stellt eine Klippe oder einen Überhang dar. Im modernen Chinesisch auch das Zeichen für 'Fabrik'."
+    "explanation": "Stellt eine Klippe oder einen Überhang dar; in dieser Bedeutung hǎn gelesen. Im modernen Chinesisch ist 厂 (chǎng) die vereinfachte Form von 廠 'Fabrik'."
   },
   {
     "number": 28,
@@ -287,7 +287,7 @@ window.KANGXI_RADICALS = [
     "strokes": 3,
     "variants": [],
     "meaning": "Umzäunung",
-    "explanation": "Eine geschlossene Umrandung. Zeichen mit diesem Radikal haben oft mit Einschliessung oder Begrenzung zu tun."
+    "explanation": "Eine geschlossene Umrandung. Zeichen mit diesem Radikal haben oft mit Einschließung oder Begrenzung zu tun."
   },
   {
     "number": 32,
@@ -313,8 +313,8 @@ window.KANGXI_RADICALS = [
     "pinyin": "zhǐ",
     "strokes": 3,
     "variants": [],
-    "meaning": "gehen (langsam)",
-    "explanation": "Stellt langsames Gehen dar. Erscheint am unteren Teil einiger Zeichen."
+    "meaning": "nachfolgen, gehen",
+    "explanation": "Stellt einen nach unten gerichteten Fuß dar ('von hinten ankommen'). Steht oben in Zeichen wie 冬 und 各."
   },
   {
     "number": 35,
@@ -323,7 +323,7 @@ window.KANGXI_RADICALS = [
     "strokes": 3,
     "variants": [],
     "meaning": "langsam gehen",
-    "explanation": "Stellt schleppende Füße beim langsamen Gehen dar. Ähnlich wie Radikal 34 (夂), aber gespiegelt."
+    "explanation": "Stellt schleppende Füße beim langsamen Gehen dar, z. B. in 夏. Sieht fast genauso aus wie Radikal 34 (夂) und wird in heutigen Schriften oft nicht davon unterschieden."
   },
   {
     "number": 36,
@@ -340,8 +340,8 @@ window.KANGXI_RADICALS = [
     "pinyin": "dà",
     "strokes": 3,
     "variants": [],
-    "meaning": "gross",
-    "explanation": "Ein Mensch mit ausgestreckten Armen – 'gross'. Zeichen mit diesem Radikal haben oft mit Größe oder Wichtigkeit zu tun."
+    "meaning": "groß",
+    "explanation": "Ein Mensch mit ausgestreckten Armen – 'groß'. Zeichen mit diesem Radikal haben oft mit Größe oder Wichtigkeit zu tun."
   },
   {
     "number": 38,
@@ -350,7 +350,7 @@ window.KANGXI_RADICALS = [
     "strokes": 3,
     "variants": [],
     "meaning": "Frau",
-    "explanation": "Stellt eine kniende Frau dar. Zeichen mit diesem Radikal haben oft mit Frauen, Familie oder (historisch) Emotionen zu tun."
+    "explanation": "Stellt eine kniende Frau dar. Zeichen mit diesem Radikal haben oft mit Frauen, Verwandtschaft oder Heirat zu tun, z. B. 妈, 姐 und 婚."
   },
   {
     "number": 39,
@@ -376,8 +376,8 @@ window.KANGXI_RADICALS = [
     "pinyin": "cùn",
     "strokes": 3,
     "variants": [],
-    "meaning": "Daumenbreit, Zoll",
-    "explanation": "Eine alte Masseinheit (ca. 3,3 cm). Zeichen mit diesem Radikal haben oft mit Messen, Regeln oder der Hand zu tun."
+    "meaning": "Daumenbreite, Zoll",
+    "explanation": "Eine alte Maßeinheit (ca. 3,3 cm). Zeichen mit diesem Radikal haben oft mit Messen, Regeln oder der Hand zu tun."
   },
   {
     "number": 42,
@@ -400,7 +400,7 @@ window.KANGXI_RADICALS = [
       "尣"
     ],
     "meaning": "lahm, verkrüppelt",
-    "explanation": "Stellt eine Person mit einem gelahmten Bein dar."
+    "explanation": "Stellt eine Person mit einem gelähmten Bein dar."
   },
   {
     "number": 44,
@@ -438,7 +438,7 @@ window.KANGXI_RADICALS = [
       "川"
     ],
     "meaning": "Fluss",
-    "explanation": "Drei fliessende Linien stellen einen Fluss dar."
+    "explanation": "Drei fließende Linien stellen einen Fluss dar."
   },
   {
     "number": 48,
@@ -474,7 +474,7 @@ window.KANGXI_RADICALS = [
     "strokes": 3,
     "variants": [],
     "meaning": "trocken, Schild",
-    "explanation": "Ursprünglich ein Schild oder eine Waffe. Bedeutet im modernen Chinesisch 'trocken' oder 'tun' (umgangssprachlich)."
+    "explanation": "Ursprünglich ein Schild oder eine Waffe. Im modernen Chinesisch auch die vereinfachte Form von 乾 'trocken' (gān) und 幹 'tun, arbeiten' (gàn)."
   },
   {
     "number": 52,
@@ -492,7 +492,7 @@ window.KANGXI_RADICALS = [
     "strokes": 3,
     "variants": [],
     "meaning": "Halle, weites Dach",
-    "explanation": "Ein schräg abfallendes Dach. Zeichen mit diesem Radikal haben oft mit Gebäuden oder Räumen zu tun."
+    "explanation": "Ein schräg abfallendes Dach; als Radikal yǎn gelesen. Heute auch die vereinfachte Form von 廣 guǎng 'weit'. Zeichen mit diesem Radikal haben oft mit Gebäuden oder Räumen zu tun."
   },
   {
     "number": 54,
@@ -577,8 +577,8 @@ window.KANGXI_RADICALS = [
     "pinyin": "gē",
     "strokes": 4,
     "variants": [],
-    "meaning": "Hellebarde",
-    "explanation": "Eine alte Stangenwaffe. Zeichen mit diesem Radikal haben oft mit Waffen, Krieg oder Konflikten zu tun."
+    "meaning": "Dolchaxt",
+    "explanation": "Eine alte chinesische Stangenwaffe mit quer stehender Klinge. Zeichen mit diesem Radikal haben oft mit Waffen, Krieg oder Konflikten zu tun."
   },
   {
     "number": 63,
@@ -587,7 +587,7 @@ window.KANGXI_RADICALS = [
     "strokes": 4,
     "variants": [],
     "meaning": "Tür, Haushalt",
-    "explanation": "Stellt eine einzelne Türflügel dar. Zeichen mit diesem Radikal haben oft mit Türen, Häusern oder Haushalten zu tun."
+    "explanation": "Stellt einen einzelnen Türflügel dar. Zeichen mit diesem Radikal haben oft mit Türen, Häusern oder Haushalten zu tun."
   },
   {
     "number": 64,
@@ -635,8 +635,8 @@ window.KANGXI_RADICALS = [
     "pinyin": "dǒu",
     "strokes": 4,
     "variants": [],
-    "meaning": "Scheffel, Mass",
-    "explanation": "Ursprünglich ein Maßbehälter für Getreide. Auch das Sternbild Grosser Bär (北斗)."
+    "meaning": "Scheffel, Maß",
+    "explanation": "Ursprünglich ein Maßbehälter für Getreide (Scheffel). Steckt auch in 北斗 (Großer Wagen). Heute zugleich die vereinfachte Form von 鬥 'kämpfen' (dòu)."
   },
   {
     "number": 69,
@@ -645,7 +645,7 @@ window.KANGXI_RADICALS = [
     "strokes": 4,
     "variants": [],
     "meaning": "Axt, Pfund",
-    "explanation": "Stellt eine Axt dar. Auch eine Gewichtseinheit (ca. 500g). Kommt in Zeichen vor, die mit Schneiden oder Teilen zu tun haben."
+    "explanation": "Stellt eine Axt dar. Auch eine Gewichtseinheit (heute 500 g). Kommt in Zeichen vor, die mit Schneiden oder Teilen zu tun haben."
   },
   {
     "number": 70,
@@ -692,7 +692,7 @@ window.KANGXI_RADICALS = [
     "strokes": 4,
     "variants": [],
     "meaning": "Mond, Monat",
-    "explanation": "Stellt den Mond dar. Bedeutet auch 'Monat'. ACHTUNG: In vielen Zeichen ist 月 eigentlich das Fleisch-Radikal (肉, Nr. 130), z.B. in Körperteil-Zeichen."
+    "explanation": "Stellt den Mond dar. Bedeutet auch 'Monat'. ACHTUNG: In vielen Zeichen ist 月 eigentlich das Fleisch-Radikal (肉, Nr. 130), z. B. in Körperteil-Zeichen."
   },
   {
     "number": 75,
@@ -718,8 +718,8 @@ window.KANGXI_RADICALS = [
     "pinyin": "zhǐ",
     "strokes": 4,
     "variants": [],
-    "meaning": "stoppen, Fuss",
-    "explanation": "Ursprünglich ein Fuss. Bedeutet 'anhalten' oder 'stoppen'. Kommt in Zeichen vor, die mit Bewegung oder deren Ende zu tun haben."
+    "meaning": "stoppen, Fuß",
+    "explanation": "Ursprünglich ein Fuß. Bedeutet 'anhalten' oder 'stoppen'. Kommt in Zeichen vor, die mit Bewegung oder deren Ende zu tun haben."
   },
   {
     "number": 78,
@@ -746,7 +746,7 @@ window.KANGXI_RADICALS = [
     "strokes": 5,
     "variants": [],
     "meaning": "Mutter",
-    "explanation": "Stellt eine Mutter dar, die ein Kind stillt. Bedeutet 'Mutter' oder 'weiblich'."
+    "explanation": "Stellt eine Frau dar; die zwei Punkte stehen für die Brüste. Bedeutet 'Mutter'. Die Kangxi-Form des Radikals ist 毋 (wú, 'nicht, keinesfalls'), zu der 母 gezählt wird."
   },
   {
     "number": 81,
@@ -861,8 +861,8 @@ window.KANGXI_RADICALS = [
     "pinyin": "yá",
     "strokes": 4,
     "variants": [],
-    "meaning": "Zahn, Stosszahn",
-    "explanation": "Stellt einen Stosszahn oder Backenzahn dar. Nicht zu verwechseln mit 齿 (Radikal 211)."
+    "meaning": "Zahn, Stoßzahn",
+    "explanation": "Stellt einen Stoßzahn oder Backenzahn dar. Nicht zu verwechseln mit 齿 (Radikal 211)."
   },
   {
     "number": 93,
@@ -905,7 +905,7 @@ window.KANGXI_RADICALS = [
       "⺩"
     ],
     "meaning": "Jade",
-    "explanation": "Als Radikal auf der linken Seite steht es für 玉 (Jade). Zeichen haben oft mit Edelsteinen, Schmuck oder Schätzen zu tun."
+    "explanation": "Links in Zeichen meist als 王 geschrieben (ohne Punkt), z. B. in 球 und 玩. Zeichen haben oft mit Jade, Edelsteinen oder Schmuck zu tun."
   },
   {
     "number": 97,
@@ -950,7 +950,7 @@ window.KANGXI_RADICALS = [
     "strokes": 5,
     "variants": [],
     "meaning": "benutzen",
-    "explanation": "Ursprünglich ein Zaun oder eine Einfriedung. Bedeutet im modernen Chinesisch 'benutzen' oder 'verwenden'."
+    "explanation": "Die ursprüngliche Bildbedeutung ist umstritten (oft als Eimer oder Gefäß gedeutet). Bedeutet im modernen Chinesisch 'benutzen' oder 'verwenden'."
   },
   {
     "number": 102,
@@ -966,9 +966,11 @@ window.KANGXI_RADICALS = [
     "radical": "疋",
     "pinyin": "pǐ",
     "strokes": 5,
-    "variants": [],
-    "meaning": "Stück Stoff",
-    "explanation": "Stellt ein Stück Stoff dar. Wird auch als Zählwort für Pferde und Stoffrollen verwendet."
+    "variants": [
+      "⺪"
+    ],
+    "meaning": "Fuß; Stoffballen",
+    "explanation": "Ursprünglich ein Fuß (in dieser Bedeutung shū gelesen). Als pǐ gleichbedeutend mit 匹, dem Zählwort für Stoffballen. Links in Zeichen als ⺪ geschrieben, z. B. in 疏."
   },
   {
     "number": 104,
@@ -994,8 +996,8 @@ window.KANGXI_RADICALS = [
     "pinyin": "bái",
     "strokes": 5,
     "variants": [],
-    "meaning": "weiss",
-    "explanation": "Bedeutet 'weiss' oder 'rein'. Kommt in vielen Zeichen als phonetische oder semantische Komponente vor."
+    "meaning": "weiß",
+    "explanation": "Bedeutet 'weiß' oder 'rein'. Kommt in vielen Zeichen als phonetische oder semantische Komponente vor."
   },
   {
     "number": 107,
@@ -1059,20 +1061,17 @@ window.KANGXI_RADICALS = [
     "variants": [
       "礻"
     ],
-    "meaning": "zeigen, Geist",
+    "meaning": "zeigen, Altar",
     "explanation": "Als Radikal als 礻 auf der linken Seite. Ursprünglich ein Altar. Zeichen haben oft mit Religion, Göttern oder Zeremonien zu tun."
   },
   {
     "number": 114,
-    "radical": "罒",
-    "pinyin": "wǎng",
-    "strokes": 5,
-    "variants": [
-      "罓",
-      "网"
-    ],
-    "meaning": "Netz",
-    "explanation": "Stellt ein Netz dar. Erscheint oben in Zeichen. Zeichen haben oft mit Fangen, Netzen oder Bedecken zu tun."
+    "radical": "禸",
+    "pinyin": "róu",
+    "strokes": 4,
+    "variants": [],
+    "meaning": "Tierspur",
+    "explanation": "Stellt die Fährte eines Tieres dar. Kommt nur in wenigen Zeichen vor, z. B. in 禽 und 离."
   },
   {
     "number": 115,
@@ -1151,7 +1150,7 @@ window.KANGXI_RADICALS = [
       "罓"
     ],
     "meaning": "Netz",
-    "explanation": "Stellt ein Netz dar. Zeichen mit diesem Radikal haben mit Fangen oder Umschliessen zu tun. Verwandt mit Radikal 114."
+    "explanation": "Stellt ein Netz dar. Oben in Zeichen meist als 罒 geschrieben, z. B. in 罗 und 置. Zeichen mit diesem Radikal haben oft mit Fangen oder Umschließen zu tun."
   },
   {
     "number": 123,
@@ -1162,7 +1161,7 @@ window.KANGXI_RADICALS = [
       "⺶"
     ],
     "meaning": "Schaf, Ziege",
-    "explanation": "Stellt ein Schaf mit Hörnern dar. Zeichen mit diesem Radikal haben oft mit Schafen, Gutem oder Schonem zu tun."
+    "explanation": "Stellt ein Schaf mit Hörnern dar. Zeichen mit diesem Radikal haben oft mit Schafen, Gutem oder Schönem zu tun."
   },
   {
     "number": 124,
@@ -1357,7 +1356,7 @@ window.KANGXI_RADICALS = [
     "strokes": 6,
     "variants": [],
     "meaning": "gehen, Reihe",
-    "explanation": "Stellt eine Kreuzung dar. Bedeutet 'gehen', 'ausführen' oder 'Reihe'."
+    "explanation": "Stellt eine Kreuzung dar. Bedeutet 'gehen', 'ausführen' oder (háng gelesen) 'Reihe'."
   },
   {
     "number": 145,
@@ -1376,10 +1375,11 @@ window.KANGXI_RADICALS = [
     "pinyin": "xī",
     "strokes": 6,
     "variants": [
-      "覀"
+      "覀",
+      "襾"
     ],
     "meaning": "Westen, bedecken",
-    "explanation": "Ursprünglich ein Vogelnest. Bedeutet 'Westen', da Vögel bei Sonnenuntergang ins Nest zurückkehren."
+    "explanation": "Die Kangxi-Form ist 襾 (yà, 'bedecken'); oben in Zeichen steht sie meist als 覀, z. B. in 要. Das Zeichen 西 stellte ursprünglich ein Vogelnest dar und bedeutet heute 'Westen'."
   },
   {
     "number": 147,
@@ -1390,7 +1390,7 @@ window.KANGXI_RADICALS = [
       "见"
     ],
     "meaning": "sehen",
-    "explanation": "Vereinfacht: 见. Ein grosses Auge auf Beinen. Zeichen haben oft mit Sehen, Ansichten oder Erscheinungen zu tun."
+    "explanation": "Vereinfacht: 见. Ein großes Auge auf Beinen. Zeichen haben oft mit Sehen, Ansichten oder Erscheinungen zu tun."
   },
   {
     "number": 148,
@@ -1445,8 +1445,8 @@ window.KANGXI_RADICALS = [
     "pinyin": "zhì",
     "strokes": 7,
     "variants": [],
-    "meaning": "Raubtier ohne Horn",
-    "explanation": "Stellt ein langes, beinloses Tier oder ein Raubtier dar. Erscheint in Zeichen für Tiere."
+    "meaning": "Raubtier (katzenartig)",
+    "explanation": "Stellt ein Raubtier mit langem Rücken dar. Erscheint in Zeichen für Raubtiere wie 豹 (Leopard) und 貓 (Katze)."
   },
   {
     "number": 154,
@@ -1466,7 +1466,7 @@ window.KANGXI_RADICALS = [
     "strokes": 7,
     "variants": [],
     "meaning": "rot, nackt",
-    "explanation": "Zusammengesetzt aus 大 und 火 (grosses Feuer). Bedeutet 'rot' oder 'nackt/bloss'."
+    "explanation": "Zusammengesetzt aus 大 und 火 (großes Feuer). Bedeutet 'rot' oder 'nackt/bloß'."
   },
   {
     "number": 156,
@@ -1485,8 +1485,8 @@ window.KANGXI_RADICALS = [
     "variants": [
       "⻊"
     ],
-    "meaning": "Fuss",
-    "explanation": "Stellt einen Fuss dar. Zeichen mit diesem Radikal haben oft mit Füßen, Gehen, Treten oder Bewegung zu tun."
+    "meaning": "Fuß",
+    "explanation": "Stellt einen Fuß dar. Zeichen mit diesem Radikal haben oft mit Füßen, Gehen, Treten oder Bewegung zu tun."
   },
   {
     "number": 158,
@@ -1573,7 +1573,7 @@ window.KANGXI_RADICALS = [
     "strokes": 7,
     "variants": [],
     "meaning": "Dorf, Meile",
-    "explanation": "Zusammengesetzt aus 田 (Feld) und 土 (Erde). Bedeutet 'Dorf', 'Inneres' oder eine Längeneinheit (ca. 500m)."
+    "explanation": "Zusammengesetzt aus 田 (Feld) und 土 (Erde). Bedeutet 'Dorf', 'Inneres' oder eine Längeneinheit (500 m)."
   },
   {
     "number": 167,
@@ -1634,7 +1634,7 @@ window.KANGXI_RADICALS = [
     "pinyin": "zhuī",
     "strokes": 8,
     "variants": [],
-    "meaning": "kurzschwanz Vogel",
+    "meaning": "Vogel (kurzschwänzig)",
     "explanation": "Stellt einen kurzschwanzigen Vogel dar. Zeichen mit diesem Radikal haben oft mit Vögeln oder Sammeln zu tun."
   },
   {
@@ -1699,8 +1699,8 @@ window.KANGXI_RADICALS = [
     "pinyin": "jiǔ",
     "strokes": 9,
     "variants": [],
-    "meaning": "Lauch, Schnittlauch",
-    "explanation": "Stellt eine Lauchpflanze dar, die aus der Erde wächst."
+    "meaning": "Schnittknoblauch, Lauch",
+    "explanation": "Stellt Schnittknoblauch (chinesischen Lauch) dar, der aus der Erde wächst."
   },
   {
     "number": 180,
@@ -1799,8 +1799,8 @@ window.KANGXI_RADICALS = [
     "pinyin": "gāo",
     "strokes": 10,
     "variants": [],
-    "meaning": "hoch, gross",
-    "explanation": "Stellt ein hohes Gebäude oder einen Turm dar. Bedeutet 'hoch' oder 'gross'."
+    "meaning": "hoch, groß",
+    "explanation": "Stellt ein hohes Gebäude oder einen Turm dar. Bedeutet 'hoch' oder 'groß'."
   },
   {
     "number": 190,
@@ -1837,7 +1837,7 @@ window.KANGXI_RADICALS = [
     "pinyin": "lì",
     "strokes": 10,
     "variants": [],
-    "meaning": "Dreifusskessel",
+    "meaning": "Dreifußkessel",
     "explanation": "Stellt einen dreibeinigen Kessel zum Kochen dar. Ein wichtiges Gefäß im antiken China."
   },
   {
@@ -1900,7 +1900,7 @@ window.KANGXI_RADICALS = [
       "麦"
     ],
     "meaning": "Weizen",
-    "explanation": "Stellt eine Weizenpflanze dar. Vereinfachte Form des traditionellen 麥."
+    "explanation": "Vereinfacht: 麦. Stellt eine Weizenpflanze dar."
   },
   {
     "number": 200,
@@ -1920,7 +1920,7 @@ window.KANGXI_RADICALS = [
       "黄"
     ],
     "meaning": "gelb",
-    "explanation": "Bedeutet 'gelb'. Gelb ist die Farbe des Kaisers und der Erde in der chinesischen Kultur."
+    "explanation": "Vereinfacht: 黄. Bedeutet 'gelb'. Gelb ist die Farbe des Kaisers und der Erde in der chinesischen Kultur."
   },
   {
     "number": 202,
@@ -1938,7 +1938,7 @@ window.KANGXI_RADICALS = [
     "strokes": 12,
     "variants": [],
     "meaning": "schwarz",
-    "explanation": "Stellt schwarze Farbe dar, ursprünglich Russ aus einem Kamin."
+    "explanation": "Stellt schwarze Farbe dar, ursprünglich Ruß aus einem Kamin."
   },
   {
     "number": 204,
@@ -1966,8 +1966,8 @@ window.KANGXI_RADICALS = [
     "pinyin": "dǐng",
     "strokes": 13,
     "variants": [],
-    "meaning": "Dreifusskessel",
-    "explanation": "Stellt einen zeremoniellen Dreifusskessel dar. Symbol kaiserlicher Macht im alten China."
+    "meaning": "Dreifußkessel",
+    "explanation": "Stellt einen zeremoniellen Dreifußkessel dar. Symbol kaiserlicher Macht im alten China."
   },
   {
     "number": 207,
@@ -1994,7 +1994,7 @@ window.KANGXI_RADICALS = [
     "strokes": 14,
     "variants": [],
     "meaning": "Nase",
-    "explanation": "Stellt eine Nase dar. Das komplexeste Radikal mit 14 Strichen."
+    "explanation": "Stellt eine Nase dar. Mit 14 Strichen eines der strichreichsten Radikale."
   },
   {
     "number": 210,
@@ -2047,6 +2047,6 @@ window.KANGXI_RADICALS = [
     "strokes": 17,
     "variants": [],
     "meaning": "Flöte",
-    "explanation": "Stellt eine alte Bambusflote dar. Das letzte der 214 Kangxi-Radikale."
+    "explanation": "Stellt eine alte Bambusflöte dar. Das letzte der 214 Kangxi-Radikale."
   }
 ];

@@ -2523,7 +2523,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       }
     ],
     "strokes": 10,
-    "primaryRadical": "罒",
+    "primaryRadical": "禸",
     "components": [
       {
         "part": "亠",

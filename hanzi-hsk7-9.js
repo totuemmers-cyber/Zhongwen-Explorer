@@ -34715,7 +34715,7 @@ window.HANZI_DATA = (window.HANZI_DATA || []).concat([
       }
     ],
     "strokes": 12,
-    "primaryRadical": "罒",
+    "primaryRadical": "禸",
     "components": [
       {
         "part": "人",

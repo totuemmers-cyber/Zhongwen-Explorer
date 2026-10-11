@@ -272,7 +272,7 @@ kbd { font: 12px var(--font); background: var(--bg); border: 1px solid var(--bor
 .kana-section { margin-bottom: 40px; scroll-margin-top: 20px; }
 .kana-section-header { display: flex; align-items: center; gap: 12px; font-size: 18px; font-weight: 600; margin-bottom: 16px; }
 .kana-section-icon { font: 24px var(--font-jp); color: var(--accent); }
-.kana-table-wrapper { width: 100%; }
+.kana-table-wrapper { width: 100%; overflow-x: auto; }
 .kana-table { table-layout: fixed; border-collapse: separate; border-spacing: 6px; }
 .kana-table th, .kana-table td { padding: 0; border: 0; text-align: center; vertical-align: middle; }
 .kana-table th { height: 32px; background: transparent; }
@@ -640,7 +640,8 @@ kbd { font: 12px var(--font); background: var(--bg); border: 1px solid var(--bor
 .ono-category-badge.Bewegung { background: var(--oc-bewegung-bg); color: var(--oc-bewegung); border: 1px solid var(--oc-bewegung-border); }
 @keyframes slideUp { from { transform: translateY(30px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 .kana-content { display: flex; flex-direction: column; gap: 32px; }
-.combo-table { table-layout: fixed; width: 100%; min-width: 0; font-size: 0.68rem; }
+.combo-table { table-layout: fixed; width: 100%; min-width: 1720px; font-size: 0.68rem; }
+.combo-table td:first-child { position: sticky; left: 0; background: var(--bg-card); z-index: 1; }
 .combo-table thead th, .combo-table td { padding: 4px 1px; text-align: center; white-space: nowrap; overflow: hidden; }
 .combo-table thead th:first-child, .combo-table td:first-child { width: 36px; text-align: center; padding-left: 2px; }
 .kana-cell { text-align: center; padding: 8px 4px; vertical-align: middle; }
