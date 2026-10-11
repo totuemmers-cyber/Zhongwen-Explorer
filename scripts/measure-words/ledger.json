@@ -229,5 +229,460 @@
   "status": "reviewed",
   "date": "2026-10-11",
   "hash": "903a70c56a7d9ca8"
+ },
+ "m:回": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "132fbe27ff16e79e"
+ },
+ "m:班": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "06b0e3f69961ee75"
+ },
+ "m:头": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "ece976bbddf23310"
+ },
+ "m:把": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "6537ce4179ee8014"
+ },
+ "m:半天": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "b6b2257701fe928e"
+ },
+ "m:遍": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "05ec49b4760b09fa"
+ },
+ "m:层": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "e66e489cc70b8a4c"
+ },
+ "m:段": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "e2165f67c8b4a64d"
+ },
+ "m:封": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "7986b03cf965a9ae"
+ },
+ "m:公斤": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "489c9becf6264271"
+ },
+ "m:角": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "87b2e47e7442cc0b"
+ },
+ "m:节": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "6be5494587f1b6b9"
+ },
+ "m:斤": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "9761e5968bfecc3b"
+ },
+ "m:句": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "ec9141afc64b874c"
+ },
+ "m:刻": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "a58b6f26f55c74cc"
+ },
+ "m:辆": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "5f056b86ce75c5c1"
+ },
+ "m:毛": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "7644715022065590"
+ },
+ "m:米": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "4284eb7a5dca139b"
+ },
+ "m:声": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "997361e719d4e311"
+ },
+ "m:双": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "8db6240f0ecc51d4"
+ },
+ "m:页": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "66bfaa05fd1b104f"
+ },
+ "m:张": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "62ce7d507b7e0977"
+ },
+ "m:种": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "d3c544efa49b2f58"
+ },
+ "m:所": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "f2f957f6ca1b2211"
+ },
+ "m:盘": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "81f9cd7b3e8e695f"
+ },
+ "m:碗": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "778606fe34bbb3c9"
+ },
+ "m:脚": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "08ba765d43ffaeb0"
+ },
+ "m:对": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "0d50fe3199d17134"
+ },
+ "m:倍": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "a1beddea7d86aca5"
+ },
+ "m:部": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "faec376001c8079a"
+ },
+ "m:场": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "aa35efdee07fa2ef"
+ },
+ "m:道": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "e6522a624ce42933"
+ },
+ "m:顿": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "f62329e2d8717597"
+ },
+ "m:份": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "893504e65935abea"
+ },
+ "m:幅": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "0c101664bd822027"
+ },
+ "m:公里": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "3f9e7c681753e007"
+ },
+ "m:棵": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "2f2f842cdf9b4ad6"
+ },
+ "m:克": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "3fb2e78c0bb60382"
+ },
+ "m:两": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "f898933d35c33d0b"
+ },
+ "m:列": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "eb5375e153628662"
+ },
+ "m:秒": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "ccb397ea90e52a44"
+ },
+ "m:排": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "169d9ae0153ad5f6"
+ },
+ "m:篇": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "00876363ddc1fe0b"
+ },
+ "m:片": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "e910304ed7f3c040"
+ },
+ "m:期": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "a8bd004c398edc3d"
+ },
+ "m:千克": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "0443726a1b5188a3"
+ },
+ "m:摄氏度": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "8d81239a60f471de"
+ },
+ "m:身": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "06766fc712e8b833"
+ },
+ "m:首": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "f56990b319fc2ea3"
+ },
+ "m:台": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "4ff3e5c8c1c82d81"
+ },
+ "m:趟": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "7705aa175f53740c"
+ },
+ "m:项": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "22d9cfc43a324386"
+ },
+ "m:夜": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "eb3a2c88205dc47a"
+ },
+ "m:座": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "8dfd4b6a995b1b55"
+ },
+ "m:打": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "971ec564b969ff9d"
+ },
+ "m:袋": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "2bd9988d5a3d594f"
+ },
+ "m:脸": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "e6f1ad25ea631497"
+ },
+ "m:手": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "0799964e68526d40"
+ },
+ "m:盒": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "8f5203cbc3b13b8a"
+ },
+ "m:屋子": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "d5987369ad8672e9"
+ },
+ "m:桌子": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "084e1ce4723ed7e2"
+ },
+ "m:步": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "2986a131e97d0b67"
+ },
+ "m:刀": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "fc45e7aae4f04cbb"
+ },
+ "m:桶": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "e3cd6f5ad0e14d0c"
+ },
+ "m:味": {
+  "batch": "m002",
+  "policy": "author+review",
+  "status": "reviewed",
+  "date": "2026-10-11",
+  "hash": "1eda24021e746a37"
  }
 }
