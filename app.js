@@ -803,12 +803,14 @@
 
   // === TEXT-TO-SPEECH (mainland Mandarin voice) ===
   // text may be a list (the sentences of a listening text), spoken one after another; options.rate overrides 0.8.
+  // A list item may be { text, pitch } to set a speaker apart.
   function speakCN(text, options) {
     if (!('speechSynthesis' in window) || !text) return;
 
     var parts = (Array.isArray(text) ? text : [text]).map(function (part) {
-      return String(part).replace(/[.\-…]/g, '').trim();
-    }).filter(Boolean);
+      var item = part && typeof part === 'object' ? part : { text: part };
+      return { text: String(item.text == null ? '' : item.text).replace(/[.\-…]/g, '').trim(), pitch: item.pitch };
+    }).filter(function (part) { return part.text; });
     if (!parts.length) return;
     var rate = options && options.rate || 0.8;
 
@@ -837,9 +839,10 @@
       } catch (e) {}
 
       parts.forEach(function (part) {
-        var utterance = new SpeechSynthesisUtterance(part);
+        var utterance = new SpeechSynthesisUtterance(part.text);
         utterance.lang = profile.speechLang;
         utterance.rate = rate;
+        if (part.pitch) utterance.pitch = part.pitch;
         utterance.volume = 0.8;
         if (selectedVoice) {
           utterance.voice = selectedVoice;

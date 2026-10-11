@@ -225,58 +225,88 @@ async function run() {
     assert(w.isBookmarked('vocab', 'w:女儿:nv3er2'));
     assert.strictEqual(vocab.allItems.filter(item => item.word === '女儿').length, 1, '女儿 should be one entry');
 
-    // A whole HSK 1 mock exam through the UI: each question once, manual advance, honest result.
+    // Whole HSK 1 and HSK 3 mock exams through the UI: each question once, manual advance, units and typed
+    // answers, an honest result with a review, and an exam entry in the stored progress.
     app.switchTab('quiz');
     await app.ensureSectionLoaded('quiz');
     await until(() => d.querySelector('.quiz-home-card.test'), 'quiz home');
     d.querySelector('.quiz-home-card.test').click();
-    d.querySelector('.quiz-test-level-card[data-level="HSK1"]').click();
-    assert(!w.QuizModule.isTestActive(), 'Level selection must not start the exam');
-    d.getElementById('quiz-start-test').click();
-    let answered = 0, correct = 0;
-    const asked = new Set();
-    let typed = 0;
-    while (!d.querySelector('.quiz-results')) {
-      const choice = d.querySelector('.quiz-choice-btn:not([disabled])');
-      const input = d.querySelector('.quiz-pinyin-input:not([disabled])');
-      if (choice || input) {
-        // Typed questions get the right pinyin (as tone numbers) every other time.
-        if (input) {
-          const word = d.querySelector('.quiz-prompt-main').textContent, meaning = d.querySelector('.quiz-prompt-sub').textContent;
-          const entry = vocab.allItems.find(v => v.word === word && v.meaning === meaning);
-          input.value = typed++ % 2 ? 'xx' : w.Pinyin.toNumeric(entry.pinyin, word);
+    const audit = w.QuizModule.audit;
+    async function playExam(level, sectionNames) {
+      const planned = audit.planTotals(audit.examPlan(level)).questions;
+      const card = d.querySelector('.quiz-test-level-card[data-level="' + level + '"]');
+      assert(card.textContent.includes(planned + ' Fragen'), 'Level card does not show the question count');
+      card.click();
+      assert(!w.QuizModule.isTestActive(), 'Level selection must not start the exam');
+      d.getElementById('quiz-start-test').click();
+      await until(() => w.QuizModule.isTestActive(), level + ' exam start');
+      let answered = 0, correct = 0, typed = 0, units = 0, plays = 0;
+      const asked = new Set(), sections = [];
+      while (!d.querySelector('.quiz-results')) {
+        const choice = d.querySelector('.quiz-choice-btn:not([disabled])');
+        const input = d.querySelector('.quiz-pinyin-input:not([disabled])');
+        if (choice || input) {
+          const label = d.querySelector('.quiz-test-section-label').textContent;
+          if (!sections.includes(label)) sections.push(label);
+          // Typed questions get the right pinyin (as tone numbers) every other time.
+          if (input) {
+            const word = d.querySelector('.quiz-prompt-main').textContent, meaning = d.querySelector('.quiz-prompt-sub').textContent;
+            const entry = vocab.allItems.find(v => v.word === word && v.meaning === meaning);
+            input.value = typed++ % 2 ? 'xx' : w.Pinyin.toNumeric(entry.pinyin, word);
+          }
+          const listen = d.querySelector('.quiz-unit .quiz-listen-btn:not([disabled])');
+          if (listen) { listen.click(); plays++; }
+          if (d.querySelector('.quiz-unit')) units++;
+          (input ? d.querySelector('.quiz-btn-check') : choice).click();
+          if (input && typed % 2) assert(d.querySelector('.quiz-feedback').textContent.startsWith('Richtig.'), 'Typed exam answer not accepted: ' + input.value);
+          const key = ['.quiz-type-badge', '.quiz-unit-title', '.quiz-prompt', '.quiz-prompt-main', '.quiz-prompt-sub', '.quiz-choice-btn.correct .quiz-choice-text']
+            .map(selector => (d.querySelector(selector) || {}).textContent || '').join('|');
+          assert(!asked.has(key), 'Mock exam repeated a question: ' + key);
+          asked.add(key);
+          answered++;
+          if (input ? d.querySelector('.quiz-feedback').textContent.startsWith('Richtig.') : d.querySelector('.quiz-choice-btn.correct:not(.wrong)') && !d.querySelector('.quiz-choice-btn.wrong')) correct++;
+          d.getElementById('quiz-test-next-btn').click();
+        } else {
+          assert(d.querySelector('.quiz-interstitial'), 'Neither a question nor a section summary is shown');
+          d.querySelector('.quiz-interstitial .quiz-btn-next').click();
         }
-        (choice || d.querySelector('.quiz-btn-check')).click();
-        if (input && typed % 2) assert(d.querySelector('.quiz-feedback').textContent.startsWith('Richtig.'), 'Typed exam answer not accepted: ' + input.value);
-        const key = ['.quiz-type-badge', '.quiz-prompt-main', '.quiz-prompt-sub', '.quiz-choice-btn.correct .quiz-choice-text']
-          .map(selector => (d.querySelector(selector) || {}).textContent || '').join('|');
-        assert(!asked.has(key), 'Mock exam repeated a question: ' + key);
-        asked.add(key);
-        answered++;
-        if (choice ? choice.classList.contains('correct') : d.querySelector('.quiz-feedback').textContent.startsWith('Richtig.')) correct++;
-        d.getElementById('quiz-test-next-btn').click();
-      } else {
-        assert(d.querySelector('.quiz-interstitial'), 'Neither a question nor a section summary is shown');
-        d.querySelector('.quiz-interstitial .quiz-btn-next').click();
+        assert(answered <= planned, 'Mock exam did not finish');
       }
-      assert(answered <= 60, 'Mock exam did not finish');
+      assert.strictEqual(answered, planned, level + ' mock exam must ask ' + planned + ' questions');
+      assert.deepStrictEqual(sections, sectionNames.map((name, i) => 'Sektion ' + (i + 1) + ': ' + name));
+      assert(units >= 6 && plays > 0, level + ' mock exam without Lesen/Hören texts');
+      const result = d.querySelector('.quiz-results');
+      assert.strictEqual(result.querySelector('.overall-score').textContent, correct + ' / ' + planned + ' (' + Math.round(correct / planned * 100) + ' %)');
+      assert.strictEqual(result.querySelector('.overall-note').textContent, 'Probetest – keine Bestehensprognose');
+      assert.strictEqual(result.querySelectorAll('.quiz-result-row').length, 3);
+      assert(!/bestanden|mindestens/i.test(result.textContent), 'Result must not claim a pass or apply a per-section pass rule');
+      const details = result.querySelector('[aria-controls="quiz-review-detail"]');
+      assert.strictEqual(details.getAttribute('aria-expanded'), 'false');
+      details.click();
+      assert.strictEqual(details.getAttribute('aria-expanded'), 'true');
+      assert.strictEqual(d.querySelectorAll('.quiz-review-item').length, planned);
+      assert.strictEqual(d.querySelectorAll('.quiz-review-item .review-explanation').length, planned, 'Review without explanations');
+      assert(d.querySelectorAll('.quiz-review-unit .quiz-unit-toggle-btn').length >= 2, 'Review without unit texts');
+      assert(d.querySelector('.quiz-review-item .quiz-unit-reasons li'), 'Review without choice reasons');
+      assert(!w.QuizModule.isTestActive());
+      return { answered, correct, typed };
     }
-    assert.strictEqual(answered, 60, 'HSK 1 mock exam must ask 60 questions');
-    assert(typed > 0, 'HSK 1 mock exam without typed pinyin questions');
-    const result = d.querySelector('.quiz-results');
-    assert.strictEqual(result.querySelector('.overall-score').textContent, correct + ' / 60 (' + Math.round(correct / 60 * 100) + ' %)');
-    assert.strictEqual(result.querySelector('.overall-note').textContent, 'Probetest – keine Bestehensprognose');
-    assert.strictEqual(result.querySelectorAll('.quiz-result-row').length, 3);
-    assert(!/bestanden|mindestens/i.test(result.textContent), 'Result must not claim a pass or apply a per-section pass rule');
-    const details = result.querySelector('[aria-controls="quiz-review-detail"]');
-    assert.strictEqual(details.getAttribute('aria-expanded'), 'false');
-    details.click();
-    assert.strictEqual(details.getAttribute('aria-expanded'), 'true');
-    assert.strictEqual(d.querySelectorAll('.quiz-review-item').length, 60);
-    assert(!w.QuizModule.isTestActive());
+    const hsk1 = await playExam('HSK1', ['Hören', 'Lesen', 'Wortschatz']);
+    let progress = JSON.parse(w.localStorage.getItem('zhongwen-quiz-v1'));
+    assert.strictEqual(progress.exams.length, 1, 'HSK 1 exam not stored');
+    assert.deepStrictEqual([progress.exams[0].level, progress.exams[0].correct, progress.exams[0].total, progress.exams[0].sections.length], ['HSK1', hsk1.correct, hsk1.answered, 3]);
+    assert(progress.types.listeningUnit && progress.types.readingUnit, 'Unit questions not counted per type');
+    Array.from(d.querySelectorAll('.quiz-results-actions button')).find(b => b.textContent === 'Neuer Probetest').click();
+    const hsk3 = await playExam('HSK3', ['Hören', 'Lesen', 'Schreiben-nah']);
+    assert(hsk3.typed > 0, 'HSK 3 mock exam without typed pinyin questions');
+    progress = JSON.parse(w.localStorage.getItem('zhongwen-quiz-v1'));
+    assert.deepStrictEqual(progress.exams.map(e => e.level), ['HSK1', 'HSK3']);
+    assert(progress.mistakes.length > 0 && progress.mistakes.some(m => m.unit), 'Missed exam questions not in the mistake list');
+    Array.from(d.querySelectorAll('.quiz-results-actions button')).find(b => b.textContent === 'Zurück').click();
+    assert(d.querySelector('.quiz-stats-exams').textContent.includes('HSK 3'), 'Home stats without the last exam');
 
     assert.strictEqual(fail(), '');
-    console.log('Smoke test passed: all tabs, every section detail, related entries, examples, measure-word tables, pinyin search, tone colouring, HSK 1 mock exam (incl. typed pinyin).');
+    console.log('Smoke test passed: all tabs, every section detail, related entries, examples, measure-word tables, pinyin search, tone colouring, HSK 1 and HSK 3 mock exams (units, typed pinyin, review, stored progress).');
   } finally {
     // Let in-flight section loads settle so their callbacks do not run against a closed window.
     await Promise.all(Object.values(w.app ? w.app.sections : {}).map(s => s._loadPromise).filter(Boolean)).catch(() => {});

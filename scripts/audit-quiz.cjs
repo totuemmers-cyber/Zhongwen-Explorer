@@ -1,7 +1,8 @@
 /* Quiz answer safety: generates questions per type × level with a fixed seed and checks every one
    (four distinct options, a valid answer key, no valid alternative among the distractors, single
    blanks that hide their answer, Chinese text marked with lang, typed answers accepted or rejected
-   as they should be) plus the mock-exam deduplication and the listening fallback without speech. */
+   as they should be), every Lesen/Hören unit question, and the mock exam per level with and without speech
+   (HSK-like sections and counts, whole units once each, no repeats, Hören skipped without speech). */
 const fs = require('fs');
 const path = require('path');
 const { JSDOM } = require('jsdom');
@@ -20,7 +21,8 @@ w.eval('(function () { var seed = 20261011; Math.random = function () { seed = (
 load('lang-profile.js');
 const profile = w.LANG_PROFILE;
 [...profile.dataScripts.radicals, ...profile.dataScripts.grammar, ...profile.dataScripts.measurewords,
-  profile.runtime.vocab, profile.runtime.vocabDetails, profile.runtime.hanzi, profile.runtime.hanziDetails, 'pinyin.js'].forEach(load);
+  profile.runtime.vocab, profile.runtime.vocabDetails, profile.runtime.hanzi, profile.runtime.hanziDetails, 'pinyin.js', profile.comprehension.data].forEach(load);
+const units = w.COMPREHENSION_DATA.units;
 const vocab = w.VOCAB_RUNTIME.items;
 w.VOCAB_RUNTIME_DETAILS.forEach((details, i) => Object.assign(vocab[i], details));
 const hanzi = w.HANZI_RUNTIME.items;
@@ -387,28 +389,79 @@ const tick = () => new Promise(resolve => setTimeout(resolve, 0));
     if (share < preferenceFloor[type]) failures.push({ type, problem: 'only ' + Math.round(share * 100) + ' % preferred distractors' });
   });
 
-  // Mock exam: every syllabus level (no Zusatz), no item asked twice with the same type.
-  const exams = [];
-  if (audit.examLevels.includes(profile.extraLevel)) failures.push({ problem: 'Zusatz offered as exam level' });
-  for (const level of audit.examLevels) {
-    const sections = audit.buildTestSections(level);
-    const keys = sections.flatMap(s => s.questions.map(audit.questionKey));
-    const planned = audit.testConfigs[level].sections.reduce((sum, s) => sum + s.count, 0);
-    const duplicates = keys.length - new Set(keys).size;
-    const listening = sections.flatMap(s => s.questions).filter(q => q.type === 'listening').length;
-    if (duplicates) failures.push({ level, problem: duplicates + ' repeated exam questions' });
-    if (keys.length !== planned) failures.push({ level, problem: 'exam has ' + keys.length + ' of ' + planned + ' questions' });
-    if (!listening) failures.push({ level, problem: 'exam without listening questions although speech is available' });
-    exams.push({ level, questions: keys.length, planned, duplicates, listening });
+  // Every unit question as the quiz asks it: answer key, distinct choices, Chinese marked with lang.
+  for (const u of units) {
+    audit.unitQuestions(u, {}).forEach((q, i) => {
+      const source = u.questions[i];
+      const flag = problem => fail(q, u.id + ' ' + source.id + ': ' + problem);
+      if (q.choices.length < 3 || q.choices.length !== source.choices.length) flag('choices lost');
+      if (new Set(q.choices.map(normalizeAnswer)).size !== q.choices.length) flag('duplicate choices');
+      if (!Number.isInteger(q.correctIndex) || q.choices[q.correctIndex] !== source.choices[source.answer].text) flag('wrong answer key');
+      if (!audit.isCorrect(q, q.correctIndex) || q.choices.some((c, j) => j !== q.correctIndex && audit.isCorrect(q, j))) flag('scoring disagrees with the answer key');
+      langProblems(q).forEach(text => flag('Chinese text without lang: ' + text));
+    });
+    await tick();
   }
 
-  // Without speech synthesis the listening type is unavailable and the exam skips it.
-  delete w.speechSynthesis;
+  // Mock exam per level, with and without speech: HSK-like sections, counts as planned, whole units
+  // (each once, questions in a row), no question twice, no word or character twice.
+  const SECTION_TYPES = {
+    Hören: ['listening', 'listeningUnit'], Lesen: ['vocabContext', 'grammarCloze', 'readingUnit'],
+    Wortschatz: ['vocabMeaning', 'vocabPinyin', 'hanziMeaning'], 'Schreiben-nah': ['pinyinTyping', 'measureWord', 'grammarCloze', 'grammarFormation']
+  };
+  const exams = [];
+  if (audit.examLevels.includes(profile.extraLevel)) failures.push({ problem: 'Zusatz offered as exam level' });
+  const examProblem = (level, speechOn, problem) => failures.push({ level, speech: speechOn, problem });
+  for (const speechOn of [true, false]) {
+    if (speechOn) Object.assign(w, speech); else delete w.speechSynthesis;
+    for (const level of audit.examLevels) {
+      const at = audit.examLevels.indexOf(level);
+      const plan = audit.examPlan(level);
+      const { sections, skipped } = audit.buildTestSections(level);
+      const names = sections.map(s => s.name);
+      const expected = [...(speechOn ? ['Hören'] : []), 'Lesen', at < 2 ? 'Wortschatz' : 'Schreiben-nah'];
+      if (names.join() !== expected.join()) examProblem(level, speechOn, 'sections ' + names.join(', '));
+      if (skipped.join() !== (speechOn ? '' : 'Hören')) examProblem(level, speechOn, 'skipped ' + skipped.join());
+      const all = sections.flatMap(s => s.questions);
+      const planned = audit.planTotals(plan).questions;
+      if (all.length !== planned) examProblem(level, speechOn, 'exam has ' + all.length + ' of ' + planned + ' questions');
+      sections.forEach((s, i) => {
+        const p = plan.sections[i];
+        if (s.time !== p.time) examProblem(level, speechOn, s.name + ' has another time');
+        const unitQs = s.questions.filter(q => q.kind === 'unit');
+        if (unitQs.length !== p.units * 3 || s.questions.length - unitQs.length !== p.items) examProblem(level, speechOn, s.name + ' composition ' + unitQs.length + ' + ' + (s.questions.length - unitQs.length));
+        const wrongType = s.questions.find(q => !SECTION_TYPES[s.name].includes(q.type));
+        if (wrongType) examProblem(level, speechOn, wrongType.type + ' in ' + s.name);
+        // The questions of a unit come in a row, all of them, in the unit's order.
+        const runs = [];
+        s.questions.forEach(q => { if (q.kind !== 'unit') return; const last = runs[runs.length - 1]; if (last && last.unit === q.unit) last.qs.push(q); else runs.push({ unit: q.unit, qs: [q] }); });
+        runs.forEach(r => {
+          if (r.unit.level !== level) examProblem(level, speechOn, r.unit.id + ' from another level');
+          if (r.qs.map(q => q.meta.question).join() !== r.unit.questions.map(q => q.id).join()) examProblem(level, speechOn, r.unit.id + ' not asked whole');
+          if ((r.unit.skill === 'listening') !== (s.name === 'Hören')) examProblem(level, speechOn, r.unit.id + ' in ' + s.name);
+          if (r.unit.skill === 'listening' && !(r.qs.every(q => q.plays === r.qs[0].plays) && r.qs[0].plays.left === 2)) examProblem(level, speechOn, r.unit.id + ' without a shared play limit of 2');
+          r.qs.forEach(q => {
+            const source = r.unit.questions.find(x => x.id === q.meta.question);
+            if (q.choices.length < 3 || new Set(q.choices).size !== q.choices.length) examProblem(level, speechOn, r.unit.id + ' choices');
+            if (!Number.isInteger(q.correctIndex) || q.choices[q.correctIndex] !== source.choices[source.answer].text) examProblem(level, speechOn, r.unit.id + ' answer index');
+          });
+        });
+        const unitIds = runs.map(r => r.unit.id);
+        if (new Set(unitIds).size !== unitIds.length) examProblem(level, speechOn, 'unit asked twice in ' + s.name);
+      });
+      const keys = all.map(audit.questionKey);
+      const duplicates = keys.length - new Set(keys).size;
+      if (duplicates) examProblem(level, speechOn, duplicates + ' repeated exam questions');
+      const itemKeys = all.filter(q => q.kind !== 'unit').map(audit.itemKey);
+      const repeatedItems = itemKeys.length - new Set(itemKeys).size;
+      if (repeatedItems) examProblem(level, speechOn, repeatedItems + ' words or characters asked twice');
+      if (!speechOn && all.some(q => audit.questionTypes[q.type] ? audit.questionTypes[q.type].speech : audit.unitTypes[q.type].speech)) examProblem(level, speechOn, 'listening without speech synthesis');
+      exams.push({ level, speech: speechOn, sections: sections.map(s => s.name + ' ' + s.questions.length).join(' · '), questions: all.length, minutes: audit.planTotals(plan).minutes, duplicates, repeatedItems });
+    }
+  }
+
+  // Without speech synthesis the listening type is unavailable.
   if (audit.speechAvailable() || audit.generateQuestion('listening', 'HSK1')) failures.push({ problem: 'listening generated without speech synthesis' });
-  const silentExam = audit.buildTestSections('HSK1');
-  if (silentExam.some(s => s.questions.some(q => q.type === 'listening'))) failures.push({ problem: 'exam asks listening without speech synthesis' });
-  const silentCount = silentExam.reduce((sum, s) => sum + s.questions.length, 0);
-  if (silentCount !== audit.testConfigs.HSK1.sections.reduce((sum, s) => sum + s.count, 0)) failures.push({ problem: 'exam without speech is incomplete: ' + silentCount });
   Object.assign(w, speech);
 
   const failing = report.filter(r => r.violations || r.nulls === PER_COMBINATION || r.nulls > PER_COMBINATION / 10);
@@ -419,7 +472,7 @@ const tick = () => new Promise(resolve => setTimeout(resolve, 0));
     console.error(JSON.stringify({ failingCombinations: failing.map(r => r.type + ' ' + r.level + ' (' + r.nulls + ' nulls, ' + r.violations + ' violations)'), problemCounts, failures }, null, 2));
     process.exitCode = 1;
   } else {
-    console.log('Quiz audit passed: ' + total + ' questions in ' + report.length + ' type × level combinations, ' + exams.length + ' mock exams without repeats, listening skipped without speech.');
+    console.log('Quiz audit passed: ' + total + ' questions in ' + report.length + ' type × level combinations, ' + exams.length + ' mock exams (with and without speech) as planned, ' + units.length + ' units checked.');
   }
   dom.window.close();
 })().catch(error => { console.error(error); process.exitCode = 1; });

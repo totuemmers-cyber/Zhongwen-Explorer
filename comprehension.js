@@ -261,5 +261,5 @@
     }
   }
   showTabs();
-  window.Comprehension = { load: load, counts: counts, activate: activate, stop: stop, snapshot: function () { return JSON.parse(JSON.stringify(views)); }, route: function (skill) { return views[skill].selected ? '/' + encodeURIComponent(views[skill].selected) : ''; } };
+  window.Comprehension = { load: load, counts: counts, chinese: chinese, activate: activate, stop: stop, snapshot: function () { return JSON.parse(JSON.stringify(views)); }, route: function (skill) { return views[skill].selected ? '/' + encodeURIComponent(views[skill].selected) : ''; } };
 })();

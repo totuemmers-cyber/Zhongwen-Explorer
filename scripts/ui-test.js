@@ -360,11 +360,13 @@ async function run() {
   assert.equal(f.intervals.size, 0);
   activate(w, levelCards[0]);
   activate(w, d.getElementById('quiz-start-test'));
-  assert(w.QuizModule.isTestActive(), 'Mock exam did not start');
+  // The Lesen/Hören texts load first.
+  await until(() => w.QuizModule.isTestActive(), 'mock exam start');
   assert.equal(f.intervals.size, 1);
+  assert(d.querySelector('.quiz-test-section-label').textContent.endsWith('Hören'), 'Exam does not start with Hören');
   const timer = d.getElementById('quiz-timer');
   assert.equal(timer.getAttribute('role'), 'timer');
-  assert(/^Verbleibende Zeit: 20 Minuten/.test(timer.getAttribute('aria-label')));
+  assert(/^Verbleibende Zeit: 10 Minuten/.test(timer.getAttribute('aria-label')));
   d.body.focus();
   assert(key(w, d.body, '1').defaultPrevented);
   assert.equal(d.querySelectorAll('.quiz-choice-btn[disabled]').length, 4, 'Digit did not answer');
@@ -397,6 +399,196 @@ async function run() {
   assert.equal(f.intervals.size, 0);
   await finish(f);
 
+  // Exam units: a Hören text has no visible text and two plays shared by its questions; a Lesen text shows
+  // its passages with pinyin on HSK 1; reasons wait for the results.
+  const PROGRESS = 'zhongwen-quiz-v1';
+  const stored = w => JSON.parse(w.localStorage.getItem(PROGRESS));
+  const openQuiz = async () => {
+    await f.w.app.ensureSectionLoaded('quiz');
+    await until(() => f.d.querySelector('.quiz-home-card.test'), 'quiz home');
+  };
+  f = await boot('#quiz');
+  ({ w, d } = f);
+  await openQuiz();
+  const utterances = [];
+  w.speechSynthesis.speak = utterance => utterances.push(utterance);
+  d.querySelector('.quiz-home-card.test').click();
+  d.getElementById('quiz-start-test').click();
+  await until(() => w.QuizModule.isTestActive(), 'exam start');
+  const answerAndNext = () => { d.querySelector('.quiz-choice-btn:not([disabled])').click(); d.getElementById('quiz-test-next-btn').click(); };
+  while (!d.querySelector('.quiz-unit')) answerAndNext();
+  await delay(150);
+  utterances.length = 0;
+  const playBtn = d.querySelector('.quiz-unit .quiz-listen-btn');
+  assert(playBtn, 'Hören text without a play button');
+  assert(!d.querySelector('.quiz-unit-passage, .quiz-unit-chinese, ruby'), 'Hören shows its text');
+  assert.equal(d.querySelector('.quiz-plays-left').textContent, 'Noch 2 Wiedergaben');
+  assert.equal(d.querySelector('.quiz-group-badge').textContent, 'Frage 1 von 3 zum Text');
+  playBtn.click();
+  await delay(150);
+  assert(utterances.length > 1, 'Hören text not spoken');
+  const listenedTitle = d.querySelector('.quiz-unit-title').textContent;
+  const unitData = w.COMPREHENSION_DATA.units.find(u => u.skill === 'listening' && u.level === 'HSK1' && u.title === listenedTitle);
+  assert.equal(utterances.map(u => u.text).join('').replace(/\s/g, ''), unitData.passages.map(p => p.text).join('').replace(/[.\-…\s]/g, ''), 'Passages not spoken in order');
+  if (unitData.passages.some(p => p.speaker === 'B')) assert(utterances.some(u => u.pitch > 1), 'Speaker B not set apart');
+  d.querySelector('.quiz-choice-btn').click();
+  assert(d.querySelector('.quiz-explanation').textContent.includes('Auswertung'), 'Unit reasons shown during the exam');
+  assert(!d.querySelector('.quiz-unit-reasons'));
+  d.getElementById('quiz-test-next-btn').click();
+  assert.equal(d.querySelector('.quiz-group-badge').textContent, 'Frage 2 von 3 zum Text');
+  assert.equal(d.querySelector('.quiz-plays-left').textContent, 'Noch 1 Wiedergabe');
+  d.querySelector('.quiz-unit .quiz-listen-btn').click();
+  await delay(150);
+  const played = utterances.length;
+  const spent = d.querySelector('.quiz-unit .quiz-listen-btn');
+  assert(spent.disabled, 'Play button still active after two plays');
+  assert.equal(d.querySelector('.quiz-plays-left').textContent, 'Keine Wiedergabe mehr');
+  spent.disabled = false; spent.click();
+  await delay(150);
+  assert.equal(utterances.length, played, 'Third play of a Hören text');
+  // To Lesen: the section time runs out.
+  const now = w.Date.now;
+  w.Date.now = () => now() + 3 * 3600 * 1000;
+  await until(() => d.querySelector('.quiz-interstitial'), 'Hören section end');
+  w.Date.now = now;
+  d.querySelector('.quiz-interstitial .quiz-btn-next').click();
+  assert(d.querySelector('.quiz-test-section-label').textContent.endsWith('Lesen'));
+  while (!d.querySelector('.quiz-unit')) answerAndNext();
+  await delay(10);
+  const passage =d.querySelector('.quiz-unit-text .quiz-unit-passage .comprehension-chinese');
+  assert(passage && passage.getAttribute('lang') === 'zh-CN', 'Lesen text not shown in Chinese');
+  assert(passage.querySelector('ruby rt'), 'HSK 1 text without pinyin');
+  assert(!d.querySelector('.quiz-unit-translation'), 'Translation visible during the exam');
+  assert(!d.querySelector('.quiz-listen-btn'));
+  assert(d.activeElement.matches('.quiz-unit-title'), 'Focus did not move to the text');
+  assert(w.QuizModule.requestExit());
+  // An abandoned exam is not recorded.
+  assert.equal(w.localStorage.getItem(PROGRESS), null);
+  await finish(f);
+
+  // Progress: a missed practice item lands in the mistake list; the replay removes it once answered right.
+  f = await boot('#quiz');
+  ({ w, d } = f);
+  await openQuiz();
+  assert.equal(d.querySelector('.quiz-stats-count').textContent, 'Die Fehlerliste ist leer.');
+  assert(d.getElementById('quiz-replay-btn').disabled, 'Replay enabled without mistakes');
+  d.querySelector('.quiz-home-card.browse').click();
+  const typeSelect = d.getElementById('quiz-type-select');
+  typeSelect.value = 'vocabMeaning'; typeSelect.dispatchEvent(new w.Event('change', { bubbles: true }));
+  let asked = w.QuizModule.audit.currentQuestion();
+  d.querySelectorAll('.quiz-choice-btn')[(asked.correctIndex + 1) % 4].click();
+  d.getElementById('quiz-reveal-btn').click();
+  let progress = stored(w);
+  assert.equal(progress.version, 1);
+  assert.deepEqual(progress.types.vocabMeaning, { answered: 1, correct: 0 });
+  assert.equal(progress.mistakes.length, 1, 'Missed practice item not stored');
+  const missed = progress.mistakes[0];
+  assert.equal(missed.type, 'vocabMeaning');
+  assert.equal(missed.source, asked.meta.source);
+  assert.deepEqual(missed.choices, [...asked.choices]);
+  assert.equal(missed.correctIndex, asked.correctIndex);
+  assert.equal(missed.count, 1);
+  assert(!isNaN(Date.parse(missed.lastMissed)));
+  d.getElementById('quiz-next-btn').click();
+  asked = w.QuizModule.audit.currentQuestion();
+  d.querySelectorAll('.quiz-choice-btn')[asked.correctIndex].click();
+  d.getElementById('quiz-reveal-btn').click();
+  assert.deepEqual(stored(w).types.vocabMeaning, { answered: 2, correct: 1 });
+  assert.equal(stored(w).mistakes.length, 1);
+  d.querySelector('.quiz-exit').click();
+  assert.equal(d.querySelector('.quiz-stats-count').textContent, '1 Frage in der Fehlerliste');
+  assert(d.querySelector('.quiz-stats-type[data-type="vocabMeaning"]').textContent.includes('50 % (1 / 2)'));
+  // Replay: a wrong answer keeps the item and counts up; a right one removes it.
+  d.getElementById('quiz-replay-btn').click();
+  await until(() => d.querySelector('.quiz-choice-btn'), 'replay question');
+  asked = w.QuizModule.audit.currentQuestion();
+  assert.deepEqual([...asked.choices].sort(), [...missed.choices].sort(), 'Replay has other choices');
+  assert.equal(asked.choices[asked.correctIndex], missed.choices[missed.correctIndex], 'Replay lost the answer');
+  assert.equal(d.querySelector('.quiz-replay-progress').textContent, 'Fehler 1 von 1');
+  d.querySelectorAll('.quiz-choice-btn')[(asked.correctIndex + 1) % 4].click();
+  d.getElementById('quiz-reveal-btn').click();
+  assert.equal(stored(w).mistakes.length, 1);
+  assert.equal(stored(w).mistakes[0].count, 2, 'Wrong replay did not count up');
+  d.getElementById('quiz-next-btn').click();
+  assert(d.querySelector('.quiz-inter-title').textContent === 'Durchgang beendet');
+  Array.from(d.querySelectorAll('.quiz-interstitial button')).find(b => b.textContent === 'Noch einmal').click();
+  await until(() => d.querySelector('.quiz-choice-btn'), 'second replay');
+  asked = w.QuizModule.audit.currentQuestion();
+  d.querySelectorAll('.quiz-choice-btn')[asked.correctIndex].click();
+  assert(key(w, d.body, 'Enter').defaultPrevented, 'Enter did not reveal in the replay');
+  assert.equal(stored(w).mistakes.length, 0, 'Right replay did not remove the item');
+  assert.deepEqual(stored(w).types.vocabMeaning, { answered: 4, correct: 2 });
+  d.getElementById('quiz-next-btn').click();
+  assert(d.querySelector('.quiz-interstitial').textContent.includes('Die Fehlerliste ist leer.'));
+  await finish(f);
+
+  // Unit mistakes come back with their text; a vanished unit is dropped, Hören is skipped without speech.
+  const iso = minutes => new Date(Date.UTC(2026, 9, 11, 10, minutes)).toISOString();
+  const unitMistake = (type, unit, question, minutes) => ({ type, level: 'HSK1', source: unit, unit, question, prompt: 'Frage', promptMain: '', promptSub: '', explanation: 'Erklärung', choices: ['a', 'b', 'c'], correctIndex: 0, count: 1, lastMissed: iso(minutes) });
+  f = await boot('#quiz', { local: { [PROGRESS]: JSON.stringify({ version: 1, exams: [], types: {}, mistakes: [
+    unitMistake('listeningUnit', 'listening-hsk1-01', 'q2', 3), unitMistake('readingUnit', 'reading-hsk1-01', 'q1', 2), unitMistake('readingUnit', 'reading-hsk1-99', 'q1', 1)
+  ] }) } });
+  ({ w, d } = f);
+  await openQuiz();
+  assert.equal(d.querySelector('.quiz-stats-count').textContent, '3 Fragen in der Fehlerliste');
+  delete w.speechSynthesis;
+  d.getElementById('quiz-replay-btn').click();
+  await until(() => d.querySelector('.quiz-choice-btn'), 'unit replay');
+  assert(d.querySelector('.quiz-notice').textContent.includes('1 Hörfrage übersprungen – keine Sprachausgabe'), 'No notice for the skipped Hören item');
+  assert.equal(d.querySelector('.quiz-replay-progress').textContent, 'Fehler 1 von 1');
+  asked = w.QuizModule.audit.currentQuestion();
+  assert.equal(asked.type, 'readingUnit');
+  const unitQ = w.COMPREHENSION_DATA.units.find(u => u.id === 'reading-hsk1-01').questions[0];
+  assert.equal(asked.choices[asked.correctIndex], unitQ.choices[unitQ.answer].text);
+  assert(d.querySelector('.quiz-unit-text ruby'), 'Replayed Lesen text without pinyin');
+  d.querySelectorAll('.quiz-choice-btn')[(asked.correctIndex + 1) % asked.choices.length].click();
+  d.getElementById('quiz-reveal-btn').click();
+  assert.equal(d.querySelectorAll('.quiz-unit-reasons li').length, unitQ.choices.length, 'Reasons per choice missing');
+  const textToggle = d.querySelector('.quiz-unit-toggle-btn');
+  assert.equal(textToggle.getAttribute('aria-expanded'), 'false');
+  textToggle.click();
+  assert.equal(textToggle.getAttribute('aria-expanded'), 'true');
+  assert(!d.getElementById(textToggle.getAttribute('aria-controls')).classList.contains('hidden'));
+  assert(d.querySelector('.quiz-unit-translation').textContent.length > 20, 'Translation missing');
+  progress = stored(w);
+  assert.deepEqual(progress.mistakes.map(m => m.unit).sort(), ['listening-hsk1-01', 'reading-hsk1-01'], 'Vanished unit not dropped');
+  assert.equal(progress.mistakes.find(m => m.unit === 'reading-hsk1-01').count, 2);
+  assert.deepEqual(progress.types.readingUnit, { answered: 1, correct: 0 });
+  await finish(f);
+
+  // Reset asks in the page (never window.confirm); invalid stored data starts empty.
+  f = await boot('#quiz', { local: { [PROGRESS]: JSON.stringify({ version: 1, exams: [
+    { date: iso(0), level: 'HSK2', correct: 16, total: 32, sections: [{ name: 'Lesen', correct: 16, total: 32 }], skipped: [] }
+  ], types: { vocabPinyin: { answered: 4, correct: 3 } }, mistakes: [] }) } });
+  ({ w, d } = f);
+  w.confirm = () => { throw new Error('window.confirm used'); };
+  await openQuiz();
+  assert(d.querySelector('.quiz-stats-exams').textContent.includes('11.10.2026 · HSK 2 · 50 % (16 / 32)'));
+  assert(d.querySelector('.quiz-stats-type[data-type="vocabPinyin"]').textContent.includes('75 %'));
+  const resetBtn = d.querySelector('.quiz-stats-reset');
+  resetBtn.click();
+  assert(resetBtn.classList.contains('hidden') && !d.querySelector('.quiz-stats-confirm').classList.contains('hidden'));
+  d.querySelector('.quiz-stats-reset-no').click();
+  assert(!resetBtn.classList.contains('hidden'));
+  assert.equal(stored(w).exams.length, 1, 'Cancel reset the statistics');
+  resetBtn.click();
+  d.querySelector('.quiz-stats-reset-yes').click();
+  assert.deepEqual(stored(w), { version: 1, exams: [], types: {}, mistakes: [] });
+  assert(d.querySelector('.quiz-stats-empty'), 'Stats panel not emptied');
+  await finish(f);
+  for (const bad of ['{not json', JSON.stringify({ version: 2, exams: [], types: {}, mistakes: [] }), JSON.stringify([1, 2])]) {
+    f = await boot('#quiz', { local: { [PROGRESS]: bad } });
+    ({ w, d } = f);
+    await openQuiz();
+    assert.equal(d.querySelector('.quiz-stats-count').textContent, 'Die Fehlerliste ist leer.', 'Invalid progress not ignored: ' + bad);
+    assert(d.getElementById('quiz-replay-btn').disabled);
+    d.querySelector('.quiz-home-card.browse').click();
+    d.querySelectorAll('.quiz-choice-btn')[(w.QuizModule.audit.currentQuestion().correctIndex + 1) % 4].click();
+    d.getElementById('quiz-reveal-btn').click();
+    assert.equal(stored(w).mistakes.length, 1, 'Progress not saved over invalid data');
+    await finish(f);
+  }
+
   // Keyboard: number keys follow the sidebar order.
   f = await boot('');
   ({ w, d } = f);
@@ -405,7 +597,7 @@ async function run() {
   assert(d.querySelectorAll('#pinyin-content .kana-section').length >= 6, 'Pinyin reference incomplete');
   await finish(f);
 
-  console.log('UI regressions passed: deep links (incl. legacy ids), invalid routes, modal focus, history, related entries, lessons, session restore, bookmark sync, quiz practice (keyboard guards, focus, kept state, tones, listening with and without speech, typed pinyin, measure words, HSK 7–9/Zusatz), mock exam (level → start, manual advance, late answers, exit guard), keyboard tabs.');
+  console.log('UI regressions passed: deep links (incl. legacy ids), invalid routes, modal focus, history, related entries, lessons, session restore, bookmark sync, quiz practice (keyboard guards, focus, kept state, tones, listening with and without speech, typed pinyin, measure words, HSK 7–9/Zusatz), mock exam (level → start, manual advance, late answers, exit guard, Hören play limit, Lesen text with pinyin), quiz progress (storage round trip, mistakes from practice, replay incl. units, in-page reset, invalid data), keyboard tabs.');
 }
 
 run().catch(error => { console.error(error); process.exitCode = 1; });
