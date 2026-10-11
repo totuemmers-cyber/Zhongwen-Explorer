@@ -57,3 +57,21 @@ Author flags, reviewer fixes and proofreading fixes per batch, for follow-up dec
 - m:峰 (proofreading fix): Holprige Übersetzung „kam ein Kamel herangezogen“ geglättet.
 - m:箱 (proofreading fix): Pinyin 十几 zusammengeschrieben (shíjǐ).
 - m:波 (proofreading fix): Beispiel 3: Übersetzung treuer (游客 = Besuchergruppe statt Reisegruppe, doppelte „Welle um Welle“ entfernt).
+
+## m003 (2026-10-11, author)
+- m:面 (author): 毯子 in der Nomenliste nimmt üblicherweise 条 oder 张, kaum 面.
+- m:堆 (author): Nomenliste enthält nur 昆虫 (lebende Insekten zählt man mit 只/群); typische 堆-Nomen wie 垃圾, 衣服, 沙子, 问题 fehlen.
+- m:堆 (proofreading fix): Behauptung „ein Haufen Insekten mit 堆 liegt eher tot da“ ersetzt: umgangssprachlich auch 一堆虫子/一堆蚂蚁 für lebende Tiere („jede Menge“)
+- m:颗 (author): 苹果, 西瓜 und 土豆 in der Nomenliste nehmen auf dem Festland meist 个; 颗 dafür ist eher taiwanisch bzw. regional.
+- m:束 (author): Die Nomenliste enthält 花 „ausgeben“ (Verb) als Homograph.
+- m:套 (author): Nomenliste: 制服 „überwältigen“ (Verb) als Homograph; 桌子 allein nimmt 张 (套 nur in 一套桌椅).
+- m:支 (author): Die Nomenliste enthält 花 „ausgeben“ (Verb) als Homograph.
+- m:锅 (author): Kein Syllabus-Eintrag als Zählwort; als 借用名量词 (borrowed) markieren?
+- m:方 (author): kind Maßeinheit passt nur zum Kubikmeter; für 一方印章 / 一方手帕 fehlt kindAlso Zählwort. Kein Syllabus-Eintrag als Zählwort.
+- m:代 (author): Kein Syllabus-Eintrag als Zählwort.
+- m:盆 (author): nouns: 花 erscheint zweimal, einmal mit der Verbbedeutung „ausgeben (Geld, Zeit)“ – die zählt 盆 nicht.
+- m:版 (proofreading fix): Merkhilfe: „ursprünglich die Druckplatte“ (unzutreffende Etymologie, Grundbedeutung ist Brett) zu „bedeutet auch Druckplatte“ abgeschwächt
+- m:尺 (proofreading fix): Hinweis „sonst meist 两尺“ korrigiert: bei traditionellen Maßen sind 两尺 und 二尺 beide üblich
+- m:卷:juan4 (proofreading fix): Beispiel 3 (一卷…山水画, Lesung juàn/juǎn umstritten) ersetzt durch eindeutiges 《史记》一共有一百三十卷
+- m:轮 (proofreading fix): „im Alltag sagt man 一个月亮“ ergänzt: meist 月亮 ohne Zählwort
+- m:枝 (author): nouns: die Liste enthält nur 支-Nomen (笔, 铅笔, 毛笔, 枪), für die 枝 eine Variantenschreibung ist; typische 枝-Nomen wie 花 oder 树枝 fehlen.

@@ -2543,20 +2543,25 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Abstrakt",
-      "meaning": "Posten (Geld), Strich",
-      "usage": "Für Geldsummen, Geschäfte und Pinselstriche",
+      "meaning": "für Geldbeträge und Geschäfte; Striche eines Schriftzeichens",
+      "usage": "Zählt Geldsummen und finanzielle Vorgänge wie Einnahmen, Kosten, Kredite, Schulden und Geschäfte. Außerdem zählt es die Striche eines Schriftzeichens.",
       "questionWord": "几笔",
-      "examples": [
-        {"chinese":"一笔钱","pinyin":"yī bǐ qián","german":"eine Geldsumme"},
-        {"chinese":"两笔生意","pinyin":"liǎng bǐ shēngyì","german":"zwei Geschäfte"}
+      "specialForms": [
+        {"form":"一大笔","explanation":"„eine große Summe“: 一大笔钱 „ein Haufen Geld“"},
+        {"form":"一笔一画","explanation":"„Strich für Strich“ – sorgfältig, ordentlich (schreiben)"}
       ],
-      "notes": "Im Geschäftsleben sehr häufig: 一笔交易 (ein Geschäft), 一笔账 (eine Rechnung).",
+      "examples": [
+        {"chinese":"这笔钱是我妈妈给我的。","pinyin":"Zhè bǐ qián shì wǒ māma gěi wǒ de.","german":"Dieses Geld hat mir meine Mutter gegeben."},
+        {"chinese":"公司上个月做成了两笔大生意。","pinyin":"Gōngsī shàng ge yuè zuòchéng le liǎng bǐ dà shēngyi.","german":"Die Firma hat letzten Monat zwei große Geschäfte abgeschlossen."},
+        {"chinese":"这个字一共有九笔。","pinyin":"Zhège zì yígòng yǒu jiǔ bǐ.","german":"Dieses Schriftzeichen hat insgesamt neun Striche."}
+      ],
+      "notes": "Merkhilfe: 笔 ist der „Pinsel“ – jeder Betrag, der früher mit einem Pinselstrich ins Kassenbuch kam, ist 一笔. Typisch sind 一笔钱 „eine Summe Geld“, 一笔收入 (shōurù), 一笔费用 (fèiyong) und 一笔生意 (shēngyi). 项 (xiàng) zählt Posten in einer Aufstellung: 一项费用 und 一笔费用 sind beide üblich, 项 betont den Posten, 笔 den Betrag. Umgangssprachlich hört man auch 做个小生意 (xiǎo shēngyi). Bei Schriftzeichen fragt man 这个字有几笔？ „Wie viele Striche hat das Zeichen?“ Den Stift selbst zählt man mit 支: 一支笔.",
       "nouns": ["w:钱:qian2","w:费用:fei4yong4","w:奖学金:jiang3xue2jin1","w:生意:sheng1yi5","w:收入:shou1ru4","w:学费:xue2fei4","w:交易:jiao1yi4","w:款:kuan3","w:遗产:yi2chan3","w:贷款:dai4kuan3","w:财产:cai2chan3","w:利息:li4xi1","w:债:zhai4","w:经费:jing1fei4","w:开支:kai1zhi1","w:款项:kuan3xiang4"],
       "nounCount": 16,
       "vocabId": "w:笔:bi3",
       "syllabus": {"vocab":[{"no":310,"level":"HSK2","pos":"名、（量）","measureLevel":"HSK5"}]},
       "legacyIds": ["笔"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:面",
@@ -2567,20 +2572,21 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Objekte",
-      "meaning": "Stück (flach)",
-      "usage": "Für flache Gegenstände wie Spiegel, Flaggen, Wände",
+      "meaning": "für flache Gegenstände: Spiegel, Fahnen, Wände, Trommeln",
+      "usage": "Zählt Gegenstände, bei denen vor allem die Fläche ins Auge fällt: Spiegel, Fahnen und Flaggen, Wände, Trommeln.",
       "questionWord": "几面",
       "examples": [
-        {"chinese":"一面镜子","pinyin":"yī miàn jìngzi","german":"ein Spiegel"},
-        {"chinese":"两面旗","pinyin":"liǎng miàn qí","german":"zwei Flaggen"}
+        {"chinese":"墙上挂着一面镜子。","pinyin":"Qiáng shang guà zhe yí miàn jìngzi.","german":"An der Wand hängt ein Spiegel."},
+        {"chinese":"学校门口插着两面红旗。","pinyin":"Xuéxiào ménkǒu chā zhe liǎng miàn hóngqí.","german":"Vor dem Schultor stecken zwei rote Fahnen."},
+        {"chinese":"这面墙太空了，我们挂幅画吧。","pinyin":"Zhè miàn qiáng tài kōng le, wǒmen guà fú huà ba.","german":"Diese Wand ist zu leer – lass uns ein Bild aufhängen."}
       ],
-      "notes": "Typisch für Spiegel, Flaggen, Trommeln und Wände.",
+      "notes": "Merkhilfe: 面 heißt „Gesicht, Fläche“ – gezählt wird, was man vor allem als Fläche wahrnimmt. Typisch sind 一面镜子 (jìngzi), 一面国旗 (guóqí), 一面鼓 (gǔ). Bei 墙 sind 一面墙 und 一堵墙 (dǔ) beide üblich: 面 denkt an die Fläche, an die man etwas hängt, 堵 an die Mauer als Bauwerk oder Hindernis. Umgangssprachlich hört man bei Spiegeln und Trommeln auch 个; 一块镜子 meint eher eine Spiegelscheibe oder ein Spiegelstück. Nicht verwechseln mit dem gehobenen 一面 (yímiàn) … 一面 „während, gleichzeitig“.",
       "nouns": ["w:镜子:jing4zi5","w:墙:qiang2","w:鼓:gu3","w:国旗:guo2qi2","w:碑:bei1","w:毯子:tan3zi5"],
       "nounCount": 6,
       "vocabId": "w:面:mian4",
       "syllabus": {"vocab":[{"no":403,"level":"HSK2","pos":"后缀、（动、名、量）","measureLevel":"HSK5"}]},
       "legacyIds": ["面"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:周",
@@ -2591,18 +2597,23 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "grammar",
       "kind": "Zeit",
       "category": "Zeit",
-      "meaning": "Woche",
-      "usage": "Für Wochen",
+      "meaning": "Woche; gehoben auch volle Runde, Umdrehung",
+      "usage": "Zählt Wochen als Zeitdauer, direkt nach der Zahl (两周, 三周). Gehoben zählt es auch volle Runden oder Umläufe.",
       "questionWord": "几周",
-      "examples": [
-        {"chinese":"已经过了两周了。","pinyin":"yǐjīng guò le liǎng zhōu le.","german":"Es sind bereits zwei Wochen vergangen."},
-        {"chinese":"每周三次","pinyin":"měi zhōu sān cì","german":"dreimal pro Woche"}
+      "specialForms": [
+        {"form":"十周年","explanation":"„zehnjähriges Jubiläum“ – 周年 (zhōunián) zählt volle Jahre seit einem Ereignis"},
+        {"form":"三周岁","explanation":"„drei volle Lebensjahre alt“ – 周岁 (zhōusuì) zählt das Alter in vollendeten Jahren"}
       ],
-      "notes": "Synonym zu 星期 (xīngqī) und 礼拜 (lǐbài). 周 ist etwas formeller. 一周 kann auch 'eine volle Runde' bedeuten.",
+      "examples": [
+        {"chinese":"我在北京住了两周。","pinyin":"Wǒ zài Běijīng zhù le liǎng zhōu.","german":"Ich habe zwei Wochen in Peking gewohnt."},
+        {"chinese":"这门课每周上三次。","pinyin":"Zhè mén kè měi zhōu shàng sān cì.","german":"Dieser Kurs findet dreimal pro Woche statt."},
+        {"chinese":"地球绕太阳转一周大约需要三百六十五天。","pinyin":"Dìqiú rào tàiyáng zhuàn yì zhōu dàyuē xūyào sānbǎi liùshíwǔ tiān.","german":"Die Erde braucht etwa 365 Tage, um die Sonne einmal zu umrunden."}
+      ],
+      "notes": "Merkhilfe: 周 heißt „Umkreis, Runde“ – eine Woche ist eine Runde durch sieben Tage. 周 steht wie eine Einheit direkt nach der Zahl: 两周, 三周. 星期 (xīngqī) nimmt dagegen meist 个: 两个星期. 周 klingt kompakter und etwas schriftlicher und ist fest in 周末 (zhōumò) „Wochenende“, 周一 (zhōuyī) „Montag“, 上周 (shàngzhōu), 下周 (xiàzhōu) und 每周 (měizhōu). 礼拜 (lǐbài) ist umgangssprachlich, vor allem im Süden. Gehoben heißt 一周 (yìzhōu) auch „eine volle Runde“: 绕操场一周 „einmal um den Sportplatz“.",
       "vocabId": "w:周:zhou1",
       "syllabus": {"vocab":[{"no":492,"level":"HSK2","pos":"名、（量）","measureLevel":"HSK6"}],"grammar":[{"no":342,"level":"HSK5","item":"名量词"}]},
       "legacyIds": ["周"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:起",
@@ -2613,23 +2624,21 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Abstrakt",
-      "meaning": "Fall, Vorfall",
-      "usage": "Für Vorfälle, Unfälle, Verbrechen und Ereignisse",
+      "meaning": "für Vorfälle: Unfälle, Straftaten, Rechtsfälle",
+      "usage": "Zählt plötzlich eintretende, meist unerfreuliche Ereignisse wie Unfälle, Brände, Straftaten und Rechtsfälle. Typisch für Nachrichten, Polizei- und Behördensprache.",
       "questionWord": "几起",
-      "specialForms": [
-        {"form":"一起","explanation":"Nicht verwechseln mit 一起 (yīqǐ) = 'zusammen'"}
-      ],
       "examples": [
-        {"chinese":"发生了三起事故。","pinyin":"fāshēng le sān qǐ shìgù.","german":"Es ereigneten sich drei Unfälle."},
-        {"chinese":"一起盗窃案","pinyin":"yī qǐ dàoqiè àn","german":"ein Diebstahlfall"}
+        {"chinese":"昨天这条路上发生了两起车祸。","pinyin":"Zuótiān zhè tiáo lù shang fāshēng le liǎng qǐ chēhuò.","german":"Gestern gab es auf dieser Straße zwei Verkehrsunfälle."},
+        {"chinese":"警察正在调查这起案件。","pinyin":"Jǐngchá zhèngzài diàochá zhè qǐ ànjiàn.","german":"Die Polizei ermittelt in diesem Fall."},
+        {"chinese":"今年工厂没有发生一起安全事故。","pinyin":"Jīnnián gōngchǎng méiyǒu fāshēng yì qǐ ānquán shìgù.","german":"Dieses Jahr gab es im Werk keinen einzigen Arbeitsunfall."}
       ],
-      "notes": "Nachrichtendeutsch. Häufig für Unfälle, Verbrechen und Vorfälle. Nicht verwechseln mit dem Adverb 一起 (yīqǐ, zusammen).",
+      "notes": "Merkhilfe: 起 heißt „sich erheben, auftreten“ – ein Vorfall „tritt auf“. Typisch: 一起车祸 (chēhuò), 两起火灾 (huǒzāi), 这起案件 (ànjiàn). 桩 (zhuāng) ist ähnlich, klingt aber gehobener und zählt auch Angelegenheiten allgemein (一桩心事 xīnshì „eine Sorge“); 宗 (zōng) begegnet vor allem in Medien aus Hongkong und Südchina. 次 zählt, wie oft etwas geschieht: 发生了三次事故 betont die Häufigkeit. Im Alltag sagt man auch 一个案子 (ànzi). Achtung: 一起 (yìqǐ) heißt auch „zusammen“ – folgt ein Nomen wie 事故 (shìgù), ist es das Zählwort.",
       "nouns": ["w:车祸:che1huo4","w:事故:shi4gu4","w:案件:an4jian4"],
       "nounCount": 3,
       "vocabId": "w:起:qi3",
       "syllabus": {"vocab":[{"no":801,"level":"HSK3","pos":"动、（量）","measureLevel":"HSK5"}]},
       "legacyIds": ["起"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:等",
@@ -2640,11 +2649,24 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Abstrakt",
-      "meaning": "Zählwort für Grad; Klasse; Rang",
+      "meaning": "Rang, Klasse, Güteklasse (meist als Ordnungszahl)",
+      "usage": "Bezeichnet Ränge und Güteklassen, meist in Ordnungsbedeutung direkt vor dem Nomen: erster Preis, zweite Wagenklasse, erstklassige Ware.",
       "questionWord": "几等",
+      "specialForms": [
+        {"form":"一等奖","explanation":"„erster Preis“ (yīděngjiǎng); ebenso 二等奖, 三等奖"},
+        {"form":"二等座","explanation":"„zweite Klasse“ im Schnellzug; 一等座 ist die erste Klasse"},
+        {"form":"头等舱","explanation":"„erste Klasse“ im Flugzeug (tóuděngcāng)"},
+        {"form":"上等","explanation":"„erstklassig, hochwertig“ (shàngděng); Gegenteil 下等 „minderwertig“"}
+      ],
+      "examples": [
+        {"chinese":"她在比赛中得了二等奖。","pinyin":"Tā zài bǐsài zhōng dé le èrděngjiǎng.","german":"Sie hat beim Wettbewerb den zweiten Preis gewonnen."},
+        {"chinese":"我买了两张去上海的二等座。","pinyin":"Wǒ mǎi le liǎng zhāng qù Shànghǎi de èrděngzuò.","german":"Ich habe zwei Fahrkarten zweiter Klasse nach Shanghai gekauft."},
+        {"chinese":"这家店只卖上等的茶叶。","pinyin":"Zhè jiā diàn zhǐ mài shàngděng de cháyè.","german":"Dieser Laden verkauft nur erstklassigen Tee."}
+      ],
+      "notes": "Merkhilfe: 等 heißt „Stufe, Grad“ – wie die Plätze auf dem Siegertreppchen. Als Zählwort steht 等 fast nur in Ordnungsbedeutung direkt vor dem Nomen: 一等奖 (yīděngjiǎng), 二等座 (èrděngzuò). Darum heißt es 二等 (èrděng), nicht 两等, und 一 bleibt hier yī. 级 (jí) zählt Stufen auf Skalen (五级地震 dìzhèn „Erdbeben der Stärke 5“, Prüfungsstufen), 等 eher Güte-, Preis- und Wagenklassen. Nicht verwechseln mit dem Verb 等 „warten“ und dem Aufzählungsschluss 等 „und so weiter“.",
       "vocabId": "w:等:deng3#2",
       "syllabus": {"vocab":[{"no":1147,"level":"HSK4","pos":"助、（名、量）","measureLevel":"HSK5"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:队",
@@ -2655,10 +2677,18 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Menschen",
+      "meaning": "für Menschen in Reihe oder Formation: Trupp, Kolonne",
+      "usage": "Zählt Menschen (seltener Tiere oder Fahrzeuge), die als geordnete Gruppe, in Reihe oder Formation auftreten, etwa Soldaten, Schulklassen oder Wettkampfteams.",
       "questionWord": "几队",
+      "examples": [
+        {"chinese":"一队士兵从我们身边走过。","pinyin":"Yí duì shìbīng cóng wǒmen shēnbiān zǒuguò.","german":"Ein Trupp Soldaten marschierte an uns vorbei."},
+        {"chinese":"孩子们排成两队进了博物馆。","pinyin":"Háizimen páichéng liǎng duì jìn le bówùguǎn.","german":"Die Kinder gingen in zwei Reihen ins Museum."},
+        {"chinese":"我们分成三队比赛吧。","pinyin":"Wǒmen fēnchéng sān duì bǐsài ba.","german":"Lasst uns drei Teams bilden und gegeneinander spielen."}
+      ],
+      "notes": "Merkhilfe: 队 ist die „Reihe, Mannschaft“ – wie in 排队 (páiduì) „Schlange stehen“. 一队 zählt Menschen, die geordnet auftreten: 一队士兵 (shìbīng), 一队学生 (xuésheng). 群 (qún) ist dagegen eine ungeordnete Schar (一群孩子), 伙 (huǒ) eine Clique, oft abwertend. Eine Mannschaft als Einheit zählt man mit 支 oder 个: 一支球队 (qiúduì), 两个队. Bei Spielen sagt man 分成两队 „zwei Teams bilden“.",
       "vocabId": "w:队:dui4",
       "syllabus": {"vocab":[{"no":1173,"level":"HSK4","pos":"名、（量）","measureLevel":"HSK5"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:管",
@@ -2669,20 +2699,21 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Objekte",
-      "meaning": "Tube, Röhre",
-      "usage": "Für röhrenförmige Behälter und Tuben",
+      "meaning": "für Röhrenförmiges: Tuben, Röhrchen, Pinsel",
+      "usage": "Zählt röhrenförmige Behälter und Gegenstände: Tuben (Zahnpasta, Farbe), Röhrchen (Blutproben), gehoben auch Pinsel und Flöten.",
       "questionWord": "几管",
       "examples": [
-        {"chinese":"一管牙膏","pinyin":"yī guǎn yágāo","german":"eine Tube Zahnpasta"},
-        {"chinese":"两管血","pinyin":"liǎng guǎn xuè","german":"zwei Röhrchen Blut"}
+        {"chinese":"我去超市买了两管牙膏。","pinyin":"Wǒ qù chāoshì mǎi le liǎng guǎn yágāo.","german":"Ich habe im Supermarkt zwei Tuben Zahnpasta gekauft."},
+        {"chinese":"护士给他抽了三管血。","pinyin":"Hùshi gěi tā chōu le sān guǎn xiě.","german":"Die Pflegekraft hat ihm drei Röhrchen Blut abgenommen."},
+        {"chinese":"桌上放着一管毛笔和一张白纸。","pinyin":"Zhuō shang fàng zhe yì guǎn máobǐ hé yì zhāng bái zhǐ.","german":"Auf dem Tisch liegen ein Pinsel und ein weißes Blatt Papier."}
       ],
-      "notes": "Für Tuben (Zahnpasta, Farbe) und Röhrchen (Blutproben). Auch für Flöten: 一管笛.",
+      "notes": "Merkhilfe: 管 heißt „Rohr, Röhre“, wie in 水管 (shuǐguǎn) „Wasserrohr“ – gezählt wird alles Röhrenförmige. Typisch: 一管牙膏 (yágāo) „eine Tube Zahnpasta“, 一管血 „ein Röhrchen Blut“. Bei Zahnpasta hört man auch 一支牙膏; 一盒牙膏 meint die Schachtel. Bei Pinseln und Flöten klingt 一管 gehoben bis literarisch, im Alltag sagt man meist 一支毛笔 (máobǐ) und 一支笛子 (dízi). Nicht verwechseln mit dem Verb 管 „sich kümmern, zuständig sein“ – vgl. 不管 (bùguǎn) „egal, ob“.",
       "nouns": ["w:牙膏:ya2gao1","w:毛笔:mao2bi3","w:笛子:di2zi5"],
       "nounCount": 3,
       "vocabId": "w:管:guan3",
       "syllabus": {"vocab":[{"no":1272,"level":"HSK4","pos":"动、（名、量）","measureLevel":"HSK5"}]},
       "legacyIds": ["管"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:组",
@@ -2693,13 +2724,20 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Mengen",
-      "meaning": "Satz (Zählwort)",
+      "meaning": "Gruppe, Satz, Serie",
+      "usage": "Zählt Gruppen, die für einen Zweck gebildet werden, und zusammengehörige Serien: Arbeitsgruppen, Fotos, Daten, Übungssätze, Batteriesätze.",
       "questionWord": "几组",
+      "examples": [
+        {"chinese":"老师把我们分成了四组。","pinyin":"Lǎoshī bǎ wǒmen fēnchéng le sì zǔ.","german":"Die Lehrkraft hat uns in vier Gruppen eingeteilt."},
+        {"chinese":"这台机器需要一组新电池。","pinyin":"Zhè tái jīqì xūyào yì zǔ xīn diànchí.","german":"Dieses Gerät braucht einen neuen Satz Batterien."},
+        {"chinese":"我每天早上做三组俯卧撑。","pinyin":"Wǒ měitiān zǎoshang zuò sān zǔ fǔwòchēng.","german":"Ich mache jeden Morgen drei Sätze Liegestütze."}
+      ],
+      "notes": "Merkhilfe: 组 enthält das Seidenradikal 纟 – stell dir ein Band vor, das mehrere Dinge zu einer Gruppe bündelt. 组 zählt gebildete Gruppen (分成三组) und Serien: 一组照片 (zhàopiàn), 一组数据 (shùjù), beim Sport 三组俯卧撑 (fǔwòchēng) „drei Sätze Liegestütze“. 套 (tào) betont ein vollständiges Set, das zusammengehört (一套家具). Bei 电池 (diànchí) zählt 节 (jié) die einzelne Batterie, 组 einen Satz oder Akkupack. Einzelne Vokabeln zählt man mit 个 (一个生词 shēngcí), eine thematische Gruppe von Vokabeln mit 组 (一组生词).",
       "nouns": ["w:电池:dian4chi2","w:生词:sheng1ci2"],
       "nounCount": 2,
       "vocabId": "w:组:zu3",
       "syllabus": {"vocab":[{"no":1987,"level":"HSK4","pos":"名、（动、量）","measureLevel":"HSK5"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:册",
@@ -2710,20 +2748,25 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Literatur",
-      "meaning": "Band, Heft, Exemplar",
-      "usage": "Für gebundene Bücher, Hefte und Exemplare in formellen Kontexten",
+      "meaning": "Band (eines Werks); Exemplar (gehoben, Bibliothek)",
+      "usage": "Zählt Bände eines mehrteiligen Werks und, in Bibliotheks- und Verlagssprache, Bücher als Exemplare.",
       "questionWord": "几册",
-      "examples": [
-        {"chinese":"请买三册练习本。","pinyin":"qǐng mǎi sān cè liànxíběn.","german":"Bitte kaufe drei Übungshefte."},
-        {"chinese":"这本词典分上下两册。","pinyin":"zhè běn cídiǎn fēn shàng xià liǎng cè.","german":"Dieses Wörterbuch ist in zwei Bände aufgeteilt."}
+      "specialForms": [
+        {"form":"上册／下册","explanation":"„erster / zweiter Band“ eines zweiteiligen Werks oder Lehrbuchs"},
+        {"form":"第一册","explanation":"„Band 1“ einer Lehrbuch- oder Buchreihe"}
       ],
-      "notes": "Formeller als 本. Häufig in Bibliotheken und beim Katalogisieren. Auch für Hefte und Broschüren.",
+      "examples": [
+        {"chinese":"这套书一共有五册。","pinyin":"Zhè tào shū yígòng yǒu wǔ cè.","german":"Diese Buchreihe hat insgesamt fünf Bände."},
+        {"chinese":"这个图书馆有三十多万册图书。","pinyin":"Zhège túshūguǎn yǒu sānshí duō wàn cè túshū.","german":"Diese Bibliothek besitzt über 300.000 Bände."},
+        {"chinese":"我们这学期学上册，下学期学下册。","pinyin":"Wǒmen zhè xuéqī xué shàngcè, xià xuéqī xué xiàcè.","german":"Dieses Semester nehmen wir den ersten Band durch, nächstes Semester den zweiten."}
+      ],
+      "notes": "Merkhilfe: 册 zeigt zusammengebundene Bambusstreifen – so sahen die ältesten chinesischen Bücher aus. Im Alltag zählt man Bücher mit 本 (三本书); 册 ist gehoben und typisch für Bibliotheks- und Verlagssprache (藏书五十万册 „ein Bestand von 500.000 Bänden“) sowie für Bände eines mehrteiligen Werks. 部 (bù) zählt dagegen das ganze Werk: 这部小说 (xiǎoshuō) 分上下两册 „dieser Roman erscheint in zwei Bänden“. Lehrbücher sind oft in 第一册, 第二册 eingeteilt.",
       "nouns": ["w:书:shu1","w:图书:tu2shu1"],
       "nounCount": 2,
       "vocabId": "w:册:ce4",
       "syllabus": {"vocab":[{"no":2094,"level":"HSK5","pos":"量","measureLevel":"HSK5"}],"grammar":[{"no":342,"level":"HSK5","item":"名量词"}]},
       "legacyIds": ["册"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:单",
@@ -2734,10 +2777,18 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Abstrakt",
+      "meaning": "Auftrag, Bestellung (umgangssprachlich, im Handel)",
+      "usage": "Zählt umgangssprachlich Aufträge, Bestellungen und abgeschlossene Geschäfte, besonders im Handel, bei Lieferdiensten und im Onlineverkauf.",
       "questionWord": "几单",
+      "examples": [
+        {"chinese":"今天我们店接了五十多单。","pinyin":"Jīntiān wǒmen diàn jiē le wǔshí duō dān.","german":"Heute hat unser Laden über fünfzig Bestellungen bekommen."},
+        {"chinese":"这单生意谈成了，大家都很高兴。","pinyin":"Zhè dān shēngyi tán chéng le, dàjiā dōu hěn gāoxìng.","german":"Das Geschäft ist zustande gekommen, alle freuen sich."},
+        {"chinese":"送外卖的小哥一天要送几十单。","pinyin":"Sòng wàimài de xiǎogē yì tiān yào sòng jǐshí dān.","german":"Ein Essenskurier liefert am Tag Dutzende Bestellungen aus."}
+      ],
+      "notes": "Merkhilfe: 单 ist als Nomen der „Zettel, die Liste“ – 菜单 (càidān) „Speisekarte“, 账单 (zhàngdān) „Rechnung“; zu jeder Bestellung gehört ein Zettel, also 一单. Als Zählwort ist 单 umgangssprachlich und kaufmännisch: Lieferdienste und Onlinehandel zählen Aufträge in 单 (今天接了二十单). 笔 (bǐ) klingt neutraler und schriftlicher; 一笔生意 und 一单生意 (shēngyi) sind beide üblich. Das Nomen 订单 (dìngdān) „Bestellung“ zählt man mit 个 oder 笔. Nicht verwechseln: 买单 (mǎidān) „bezahlen“ im Restaurant, 单人间 (dānrénjiān) „Einzelzimmer“.",
       "vocabId": "w:单:dan1",
       "syllabus": {"vocab":[{"no":2238,"level":"HSK5","pos":"形、副、名、量","measureLevel":"HSK5"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:堵",
@@ -2748,20 +2799,21 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Gebaeude",
-      "meaning": "Stück (Mauer, Wand)",
-      "usage": "Für Mauern und Wände",
+      "meaning": "für Mauern und Wände",
+      "usage": "Zählt Mauern und Wände als Bauwerk oder Hindernis, übertragen auch unsichtbare Schranken zwischen Menschen.",
       "questionWord": "几堵",
       "examples": [
-        {"chinese":"一堵墙","pinyin":"yī dǔ qiáng","german":"eine Mauer"},
-        {"chinese":"拆了两堵墙","pinyin":"chāi le liǎng dǔ qiáng","german":"zwei Mauern abgerissen"}
+        {"chinese":"院子里有一堵很高的墙。","pinyin":"Yuànzi li yǒu yì dǔ hěn gāo de qiáng.","german":"Im Hof steht eine sehr hohe Mauer."},
+        {"chinese":"为了让客厅更大，他们拆掉了两堵墙。","pinyin":"Wèile ràng kètīng gèng dà, tāmen chāidiào le liǎng dǔ qiáng.","german":"Um das Wohnzimmer zu vergrößern, haben sie zwei Wände herausgerissen."},
+        {"chinese":"他们之间好像隔着一堵看不见的墙。","pinyin":"Tāmen zhījiān hǎoxiàng gé zhe yì dǔ kàn bu jiàn de qiáng.","german":"Zwischen ihnen scheint eine unsichtbare Mauer zu stehen."}
       ],
-      "notes": "Speziell für Wände und Mauern. Alltagssprachlich sehr gebreauchlich: 一堵墙.",
+      "notes": "Merkhilfe: Als Verb heißt 堵 „versperren“, vgl. 堵车 (dǔchē) „Stau“ – eine Mauer versperrt den Weg. 一堵墙 sieht die Mauer als Bauwerk oder Hindernis, 一面墙 (miàn) denkt eher an die Fläche, an die man etwas hängt; oft passen beide. Für lange Mauern und Zäune ist auch 道 (dào) üblich: 一道围墙 (wéiqiáng) „eine Umfassungsmauer“. Andere Nomen als 墙 nimmt 堵 kaum. Übertragen: 一堵看不见的墙 „eine unsichtbare Mauer“.",
       "nouns": ["w:墙:qiang2"],
       "nounCount": 1,
       "vocabId": "w:堵:du3",
       "syllabus": {"vocab":[{"no":2299,"level":"HSK5","pos":"动、形、量","measureLevel":"HSK5"}]},
       "legacyIds": ["堵"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:度",
@@ -2772,11 +2824,22 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Maßeinheit",
       "category": "Masseinheiten",
-      "meaning": "Grad (Temperatur, Winkel, Alkohol); Kilowattstunde; Maß; verbringen (Zeit)",
+      "meaning": "Grad (Temperatur, Winkel, Alkohol); Kilowattstunde",
+      "usage": "Misst Temperatur, Winkel, Alkoholgehalt und Brillenstärke; im Alltag auch Strom in Kilowattstunden.",
       "questionWord": "多少度",
+      "specialForms": [
+        {"form":"一年一度","explanation":"„alljährlich, einmal im Jahr“ (yì nián yí dù): 一年一度的春节"},
+        {"form":"再度","explanation":"„erneut, ein weiteres Mal“ (zàidù), gehoben"}
+      ],
+      "examples": [
+        {"chinese":"今天最高气温三十五度。","pinyin":"Jīntiān zuìgāo qìwēn sānshíwǔ dù.","german":"Heute steigt die Temperatur auf bis zu 35 Grad."},
+        {"chinese":"这瓶白酒有五十二度。","pinyin":"Zhè píng báijiǔ yǒu wǔshí'èr dù.","german":"Dieser Schnaps hat 52 Prozent Alkohol."},
+        {"chinese":"我们家上个月用了三百度电。","pinyin":"Wǒmen jiā shàng ge yuè yòng le sānbǎi dù diàn.","german":"Unser Haushalt hat letzten Monat 300 Kilowattstunden Strom verbraucht."}
+      ],
+      "notes": "Merkhilfe: 度 heißt „Maß“ – alles, was man auf einer Skala abliest. Wie andere Einheiten steht 度 ohne 个: 三十度, 零下五度 (língxià) „minus fünf Grad“, 三十八度五 „38,5 Grad“. Bei Schnaps gibt 度 den Alkoholgehalt an (五十二度 = 52 % vol.), bei Brillen die Stärke in Hundertstel Dioptrien (近视五百度, jìnshì „kurzsichtig“: −5 dpt). Auf der Stromrechnung ist 一度电 „eine Kilowattstunde“. Nach der Temperatur fragt man 多少度 oder kurz 几度 (jǐ dù): 今天几度？",
       "vocabId": "w:度:du4",
       "syllabus": {"vocab":[{"no":2300,"level":"HSK5","pos":"量、名、动、后缀","measureLevel":"HSK5"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:堆",
@@ -2787,20 +2850,25 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Allgemein",
-      "meaning": "Haufen",
-      "usage": "Für Haufen oder Stapel von Dingen",
+      "meaning": "Haufen, Stapel; umgangssprachlich: eine Menge",
+      "usage": "Zählt Aufgehäuftes und Gestapeltes wie Bücher, Kleidung, Müll oder Sand; umgangssprachlich auch eine große Menge Dinge, Probleme oder Menschen.",
       "questionWord": "几堆",
-      "examples": [
-        {"chinese":"一堆书","pinyin":"yī duī shū","german":"ein Haufen Bücher"},
-        {"chinese":"一堆垃圾","pinyin":"yī duī lājī","german":"ein Haufen Muell"}
+      "specialForms": [
+        {"form":"一大堆","explanation":"„ein riesiger Haufen, jede Menge“: 一大堆问题"},
+        {"form":"成堆","explanation":"„haufenweise, in Massen“ (chéngduī)"}
       ],
-      "notes": "Kann wörtlich (ein Haufen Sand) oder übertragen (一堆问题 - ein Haufen Probleme) verwendet werden.",
+      "examples": [
+        {"chinese":"床上有一堆脏衣服。","pinyin":"Chuáng shang yǒu yì duī zāng yīfu.","german":"Auf dem Bett liegt ein Haufen schmutziger Wäsche."},
+        {"chinese":"我今天有一堆事要做。","pinyin":"Wǒ jīntiān yǒu yì duī shì yào zuò.","german":"Ich habe heute einen Haufen Dinge zu erledigen."},
+        {"chinese":"窗台上有一堆死掉的昆虫。","pinyin":"Chuāngtái shang yǒu yì duī sǐdiào de kūnchóng.","german":"Auf der Fensterbank liegt ein Häufchen toter Insekten."}
+      ],
+      "notes": "Merkhilfe: 堆 enthält 土 „Erde“ – ein Erdhaufen. 堆 zählt Aufgehäuftes: 一堆书, 一堆衣服 (yīfu), 一堆垃圾 (lājī); umgangssprachlich auch „eine Menge“: 一堆问题 (wèntí), 一堆事, oft verstärkt zu 一大堆. Für Menschen klingt 一堆人 salopp; neutral ist 一群人. 群 (qún) zählt lebende Gruppen, die sich bewegen (一群鸟), 只 (zhī) einzelne Tiere. Umgangssprachlich sagt man aber auch bei lebenden Tieren „jede Menge“: 一堆虫子 (chóngzi), 一堆蚂蚁 (mǎyǐ).",
       "nouns": ["w:昆虫:kun1chong2"],
       "nounCount": 1,
       "vocabId": "w:堆:dui1",
       "syllabus": {"vocab":[{"no":2304,"level":"HSK5","pos":"动、名、量","measureLevel":"HSK5"}]},
       "legacyIds": ["堆"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:吨",
@@ -2811,11 +2879,18 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Maßeinheit",
       "category": "Masseinheiten",
-      "meaning": "Tonne",
+      "meaning": "Tonne (1000 kg)",
+      "usage": "Misst große Gewichte in Tonnen, etwa Fracht, Getreide, Stahl oder Wasser; auch die Tonnage von Schiffen.",
       "questionWord": "多少吨",
+      "examples": [
+        {"chinese":"这辆卡车能装十吨货。","pinyin":"Zhè liàng kǎchē néng zhuāng shí dūn huò.","german":"Dieser Lkw kann zehn Tonnen Fracht laden."},
+        {"chinese":"这头大象有五吨多重。","pinyin":"Zhè tóu dàxiàng yǒu wǔ dūn duō zhòng.","german":"Dieser Elefant wiegt über fünf Tonnen."},
+        {"chinese":"去年这个村子生产了两百吨大米。","pinyin":"Qùnián zhège cūnzi shēngchǎn le liǎngbǎi dūn dàmǐ.","german":"Letztes Jahr hat dieses Dorf 200 Tonnen Reis produziert."}
+      ],
+      "notes": "Merkhilfe: 吨 (dūn) ist eine Lautentlehnung von engl. „ton“; das Radikal 口 deutet hier auf den Klang. Als Einheit steht 吨 ohne 个: 十吨, 两吨 (nicht 两个吨). Umrechnung: 一吨 = 一千公斤 (gōngjīn) = 两千斤 (jīn). In Nachrichten oft mit 万 verbunden: 万吨级 (wàndūnjí) „der 10.000-Tonnen-Klasse“ bei Schiffen. In Taiwan spricht man das Wort dùn.",
       "vocabId": "w:吨:dun1",
       "syllabus": {"vocab":[{"no":2310,"level":"HSK5","pos":"量","measureLevel":"HSK5"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:朵",
@@ -2826,20 +2901,21 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Natur",
-      "meaning": "Blume / Wolke",
-      "usage": "Für Blüten, Blumen und Wolken.",
+      "meaning": "für Blüten und Wolken",
+      "usage": "Zählt einzelne Blüten und Blumen sowie Wolken; übertragen auch Blütenförmiges wie Gischt: 一朵浪花 (lànghuā).",
       "questionWord": "几朵",
       "examples": [
-        {"chinese":"他送了她一朵玫瑰花。","pinyin":"Tā sòng le tā yì duǒ méiguī huā.","german":"Er schenkte ihr eine Rose."},
-        {"chinese":"天上有几朵白云。","pinyin":"Tiān shàng yǒu jǐ duǒ bái yún.","german":"Am Himmel sind ein paar weiße Wolken."}
+        {"chinese":"他送了她一朵红玫瑰。","pinyin":"Tā sòng le tā yì duǒ hóng méigui.","german":"Er hat ihr eine rote Rose geschenkt."},
+        {"chinese":"天上飘着几朵白云。","pinyin":"Tiānshàng piāo zhe jǐ duǒ báiyún.","german":"Am Himmel ziehen ein paar weiße Wolken."},
+        {"chinese":"公园里的花开了，一朵比一朵漂亮。","pinyin":"Gōngyuán li de huā kāi le, yì duǒ bǐ yì duǒ piàoliang.","german":"Im Park blühen die Blumen, eine schöner als die andere."}
       ],
-      "notes": "朵 für die Blüte selbst; 棵 für die ganze Pflanze; 束 für einen Strauß.",
+      "notes": "Merkhilfe: Stell dir 朵 als Blüte (oben) auf einem Baum 木 (unten) vor. 朵 zählt die einzelne Blüte, 支/枝 (zhī) einen Stiel mit Blüte – bei Rosen sind 一朵玫瑰 (méigui) und 一支玫瑰 beide üblich. Ein Strauß ist 一束花 (shù), eine Handvoll 一把花 (bǎ), eine Topfpflanze 一盆花 (pén), die ganze Pflanze 一棵 (kē). Wolken zählt man mit 朵 (一朵白云 báiyún) oder, wenn sie flächig sind, mit 片 (piàn). Beliebt ist das Muster 一朵比一朵 + Adjektiv „eine … als die andere“.",
       "nouns": ["w:花:hua1","w:花:hua1#2","w:云:yun2","w:鲜花:xian1hua1","w:玫瑰:mei2gui1"],
       "nounCount": 5,
       "vocabId": "w:朵:duo3",
       "syllabus": {"vocab":[{"no":2311,"level":"HSK5","pos":"量","measureLevel":"HSK5"}],"grammar":[{"no":342,"level":"HSK5","item":"名量词"}]},
       "legacyIds": ["朵"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:副",
@@ -2850,20 +2926,24 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Objekte",
-      "meaning": "Satz, Garnitur",
-      "usage": "Für zusammengehörige Gegenstände wie Brillen, Handschuhe, Schachspiele",
+      "meaning": "Satz, Paar (Brille, Handschuhe, Spielkarten); Miene",
+      "usage": "Zählt Dinge, die nur als Satz oder Paar ihren Zweck erfüllen, etwa Brillen, Handschuhe, Spielkarten, Schachfiguren und Spruchpaare; übertragen auch Gesichtsausdrücke und Haltungen.",
       "questionWord": "几副",
-      "examples": [
-        {"chinese":"一副眼镜","pinyin":"yī fù yǎnjìng","german":"eine Brille"},
-        {"chinese":"一副手套","pinyin":"yī fù shǒutào","german":"ein Paar Handschuhe"}
+      "specialForms": [
+        {"form":"一副……的样子","explanation":"„mit einer …-Miene, tut so, als ob“ – oft leicht abwertend: 一副了不起的样子 (liǎobuqǐ) „tut sehr wichtig“"}
       ],
-      "notes": "Für Dinge, die als vollständiger Satz zusammengehören: Brillen, Handschuhe, Kartenspiele, auch: Gesichtsausdrücke (一副笑脸).",
+      "examples": [
+        {"chinese":"我的眼镜坏了，得去配一副新的。","pinyin":"Wǒ de yǎnjìng huài le, děi qù pèi yí fù xīn de.","german":"Meine Brille ist kaputt, ich muss mir eine neue machen lassen."},
+        {"chinese":"冬天骑车最好戴一副手套。","pinyin":"Dōngtiān qí chē zuìhǎo dài yí fù shǒutào.","german":"Wer im Winter Rad fährt, trägt am besten Handschuhe."},
+        {"chinese":"他一副什么都不在乎的样子。","pinyin":"Tā yí fù shénme dōu bú zàihu de yàngzi.","german":"Er tut so, als wäre ihm alles egal."}
+      ],
+      "notes": "Merkhilfe: 副 heißt auch „zugehörig, Neben-“ – Teile, die nur zusammen funktionieren: zwei Gläser im Gestell sind 一副眼镜 (yǎnjìng). Ebenso 一副扑克 (pūkè) „ein Kartenspiel“, 一副象棋 (xiàngqí), 一副对联 (duìlián). Bei Handschuhen sind 一副手套 (shǒutào) und 一双手套 beide üblich; 双 (shuāng) ist das allgemeine Wort für Paare, ein einzelner Handschuh ist 一只手套. Nicht verwechseln mit dem gleich klingenden 幅 (fú) für Bilder: 一幅画. Ein Fernglas zählt man mit 副 oder 架 (jià).",
       "nouns": ["w:眼镜:yan3jing4","w:象棋:xiang4qi2","w:笑容:xiao4rong2","w:担子:dan4zi5","w:对联:dui4lian2","w:麻将:ma2jiang4","w:望远镜:wang4yuan3jing4","w:隐形眼镜:yin3xing2yan3jing4"],
       "nounCount": 8,
       "vocabId": "w:副:fu4",
       "syllabus": {"vocab":[{"no":2369,"level":"HSK5","pos":"量","measureLevel":"HSK5"}],"grammar":[{"no":342,"level":"HSK5","item":"名量词"}]},
       "legacyIds": ["副"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:根",
@@ -2874,20 +2954,24 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Allgemein",
-      "meaning": "Stück (länglich)",
-      "usage": "Für lange, dünne, stabförmige Gegenstände",
+      "meaning": "für Dünnes, Längliches: Stäbchen, Haare, Bananen",
+      "usage": "Zählt dünne, längliche, eher steife Dinge wie Essstäbchen, Haare, Zigaretten, Bananen, Kerzen, Seile und Säulen.",
       "questionWord": "几根",
-      "examples": [
-        {"chinese":"一根香蕉","pinyin":"yī gēn xiāngjiāo","german":"eine Banane"},
-        {"chinese":"三根筷子","pinyin":"sān gēn kuàizi","german":"drei Stäbchen"}
+      "specialForms": [
+        {"form":"一根筋","explanation":"„stur, kennt nur eine Denkrichtung“ (yì gēn jīn), umgangssprachlich"}
       ],
-      "notes": "Wird für stabförmige Dinge verwendet: Haare, Nudeln, Stifte, Bananen, Seile usw.",
+      "examples": [
+        {"chinese":"我早饭只吃了一根香蕉。","pinyin":"Wǒ zǎofàn zhǐ chī le yì gēn xiāngjiāo.","german":"Zum Frühstück habe ich nur eine Banane gegessen."},
+        {"chinese":"我今天发现了一根白头发。","pinyin":"Wǒ jīntiān fāxiàn le yì gēn bái tóufa.","german":"Heute habe ich ein graues Haar entdeckt."},
+        {"chinese":"他抽了一根烟，然后走了。","pinyin":"Tā chōu le yì gēn yān, ránhòu zǒu le.","german":"Er rauchte eine Zigarette und ging dann."}
+      ],
+      "notes": "Merkhilfe: 根 heißt „Wurzel“ – dünn, rund und länglich wie ein Wurzelstrang. 根 zählt eher steife oder dünne Dinge: 一根筷子 (kuàizi) ist ein einzelnes Stäbchen, das Paar ist 一双; dazu 一根头发 (tóufa), 一根香蕉 (xiāngjiāo). 条 (tiáo) passt zu Langem, das sich biegt oder ausdehnt (路, 河, 鱼); bei 绳子 (shéngzi), 黄瓜 (huángguā) und 皮带 (pídài) sind 根 und 条 beide üblich. 支 (zhī) steht bei Zigaretten und Kerzen gleichberechtigt neben 根 (一根烟 / 一支烟). Bei Bananen hört man umgangssprachlich auch 一个香蕉.",
       "nouns": ["w:香蕉:xiang1jiao1","w:草:cao3","w:筷子:kuai4zi5","w:烟:yan1","w:黄瓜:huang2gua1","w:手指:shou3zhi3","w:吸管:xi1guan3","w:油条:you2tiao2","w:木头:mu4tou5","w:竹子:zhu2zi5","w:针:zhen1","w:骨头:gu3tou5","w:血管:xue4guan3","w:火柴:huo3chai2","w:眉毛:mei2mao5","w:香肠:xiang1chang2","w:线:xian4","w:胡子:hu2zi5","w:弦:xian2","w:萝卜:luo2bo5","w:辫子:bian4zi5","w:电线:dian4xian4","w:蜡烛:la4zhu2","w:柱子:zhu4zi5","w:绳:sheng2","w:管子:guan3zi5","w:皮带:pi2dai4","w:腰带:yao1dai4"],
       "nounCount": 28,
       "vocabId": "w:根:gen1",
       "syllabus": {"vocab":[{"no":2403,"level":"HSK5","pos":"名、量","measureLevel":"HSK5"}],"grammar":[{"no":342,"level":"HSK5","item":"名量词"}]},
       "legacyIds": ["根"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:行",
@@ -2899,17 +2983,21 @@ window.MEASURE_WORDS_DATA = {
       "kind": "Zählwort",
       "category": "Literatur",
       "meaning": "Zeile, Reihe",
-      "usage": "Für Textzeilen und Reihen von Personen oder Objekten",
+      "usage": "Zählt Textzeilen und Dinge, die hintereinander in einer Linie stehen, etwa Bäume oder Schriftzeichen.",
       "questionWord": "几行",
-      "examples": [
-        {"chinese":"请读第三行。","pinyin":"qǐng dú dì sān háng.","german":"Bitte lies die dritte Zeile."},
-        {"chinese":"两行眼泪","pinyin":"liǎng háng yǎnlèi","german":"zwei Bahnen von Tränen"}
+      "specialForms": [
+        {"form":"一目十行","explanation":"„zehn Zeilen mit einem Blick“ – sehr schnell lesen (yí mù shí háng)"}
       ],
-      "notes": "Als Zählwort wird 行 'háng' ausgesprochen (nicht xíng). Für Textzeilen, Baumreihen und Personenreihen.",
+      "examples": [
+        {"chinese":"请看第三行。","pinyin":"Qǐng kàn dì sān háng.","german":"Bitte schaut euch die dritte Zeile an."},
+        {"chinese":"这封信他只写了两行字。","pinyin":"Zhè fēng xìn tā zhǐ xiě le liǎng háng zì.","german":"Er hat in diesem Brief nur zwei Zeilen geschrieben."},
+        {"chinese":"路的两边种着几行小树。","pinyin":"Lù de liǎngbiān zhòng zhe jǐ háng xiǎo shù.","german":"Zu beiden Seiten der Straße stehen ein paar Reihen junger Bäume."}
+      ],
+      "notes": "Merkhilfe: Als Zählwort liest man 行 háng wie in 银行 (yínháng) „Bank“ und 行业 (hángyè) „Branche“ – nicht xíng „gehen, in Ordnung“. 行 zählt Zeilen (两行字, 第三行) und Dinge, die in einer Linie stehen (一行树). 排 (pái) zählt Reihen nebeneinander, etwa Sitzreihen und Häuserzeilen (一排座位 zuòwèi); bei Bäumen sind 一行树 und 一排树 beide möglich. Literarisch: 两行眼泪 (yǎnlèi) „Tränen auf beiden Wangen“. In Tabellen gilt auf dem Festland: 行 = Zeile, 列 (liè) = Spalte.",
       "vocabId": "w:行:hang2",
       "syllabus": {"vocab":[{"no":2467,"level":"HSK5","pos":"名、量","measureLevel":"HSK5"}],"grammar":[{"no":342,"level":"HSK5","item":"名量词"}]},
       "legacyIds": ["行"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:伙",
@@ -2920,18 +3008,19 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Menschen",
-      "meaning": "Gruppe, Bande",
-      "usage": "Für Gruppen von Personen, umgangssprachlich",
+      "meaning": "Gruppe, Bande (von Menschen, oft abwertend)",
+      "usage": "Zählt Gruppen von Menschen, die zusammenhalten oder gemeinsam handeln; klingt umgangssprachlich und oft abwertend, etwa bei Dieben oder Banden.",
       "questionWord": "几伙",
       "examples": [
-        {"chinese":"一伙强盗","pinyin":"yī huǒ qiángdào","german":"eine Bande Räuber"},
-        {"chinese":"那伙人","pinyin":"nà huǒ rén","german":"diese Gruppe Leute (dort)"}
+        {"chinese":"警察抓住了一伙小偷。","pinyin":"Jǐngchá zhuāzhù le yì huǒ xiǎotōu.","german":"Die Polizei hat eine Diebesbande gefasst."},
+        {"chinese":"那伙人看起来不像好人。","pinyin":"Nà huǒ rén kàn qǐlái bú xiàng hǎorén.","german":"Die Leute da drüben sehen nicht vertrauenswürdig aus."},
+        {"chinese":"别怕，我们几个是一伙的。","pinyin":"Bié pà, wǒmen jǐ ge shì yì huǒ de.","german":"Keine Angst, wir gehören zusammen."}
       ],
-      "notes": "Ähnlich wie 帮, aber tendenziell noch stärker abwertend. Wird oft für Kriminelle verwendet.",
+      "notes": "Merkhilfe: 伙 = 亻 „Mensch“ + 火 „Feuer“ – Leute, die sich um ein Feuer scharen. 伙 zählt Menschen, die zusammenhalten, und klingt oft abwertend: 一伙小偷 (xiǎotōu), 一伙坏人 (huàirén), 那伙人. Neutral ist 群 (qún): 一群人; für Cliquen sagt man auch 帮 (bāng): 一帮朋友; geordnete Reihen zählt 队 (duì). 我们是一伙的 heißt „wir gehören zusammen“ oder „stecken unter einer Decke“. Verwandt: 伙伴 (huǒbàn) „Partner“, 大伙儿 (dàhuǒr) „alle zusammen“, 小伙子 (xiǎohuǒzi) „junger Mann“.",
       "vocabId": "w:伙:huo3",
       "syllabus": {"vocab":[{"no":2514,"level":"HSK5","pos":"量","measureLevel":"HSK5"}]},
       "legacyIds": ["伙"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:级",
@@ -2942,11 +3031,21 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Abstrakt",
-      "meaning": "Zählwort für Stufen",
+      "meaning": "Stufe, Level (Skala, Prüfung, Treppenstufe)",
+      "usage": "Zählt Stufen auf Skalen und in Rangordnungen – Prüfungsniveaus, Wind- und Erdbebenstärken, Dienstränge – sowie Treppenstufen.",
       "questionWord": "几级",
+      "specialForms": [
+        {"form":"三年级","explanation":"„dritte Klasse“ (Schuljahr); 年级 (niánjí) ist die Klassenstufe, gefragt wird 几年级"}
+      ],
+      "examples": [
+        {"chinese":"他的汉语已经达到了五级水平。","pinyin":"Tā de Hànyǔ yǐjīng dádào le wǔ jí shuǐpíng.","german":"Sein Chinesisch hat schon Stufe 5 erreicht."},
+        {"chinese":"门口有十几级台阶。","pinyin":"Ménkǒu yǒu shíjǐ jí táijiē.","german":"Vor dem Eingang führen gut zehn Stufen hinauf."},
+        {"chinese":"昨天晚上发生了一次五级地震。","pinyin":"Zuótiān wǎnshang fāshēng le yí cì wǔ jí dìzhèn.","german":"Gestern Abend gab es ein Erdbeben der Stärke 5."}
+      ],
+      "notes": "Merkhilfe: Wie das „Level“ im Spiel – 升级 (shēngjí) heißt „aufsteigen, upgraden“. 级 steht oft in Ordnungsbedeutung: 五级地震 (dìzhèn) „Erdbeben der Stärke 5“, 六级大风 „Windstärke 6“, HSK-Stufe 四级 (sìjí); dann sagt man auch 二级 (èrjí), nicht 两级. Zählend heißt es 两级: 升了两级 „zwei Stufen aufgestiegen“, 三十级台阶 (táijiē) „dreißig Treppenstufen“. 等 (děng) bezeichnet eher Güte- und Preisklassen, etwa 一等奖 (yīděngjiǎng), 层 (céng) zählt Stockwerke. Wie bei Einheiten steht kein 个 dazwischen.",
       "vocabId": "w:级:ji2",
       "syllabus": {"vocab":[{"no":2526,"level":"HSK5","pos":"名、量","measureLevel":"HSK5"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:集",
@@ -2957,10 +3056,21 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Literatur",
+      "meaning": "Folge (einer Serie); Teil, Band (eines Sammelwerks)",
+      "usage": "Zählt Folgen von Fernsehserien, Zeichentrickserien und Dokumentationen; gehoben auch Teile oder Bände eines Sammelwerks.",
       "questionWord": "几集",
+      "specialForms": [
+        {"form":"上集／下集","explanation":"„erster / zweiter Teil“ eines Zweiteilers; 下集 auch „die nächste Folge“"}
+      ],
+      "examples": [
+        {"chinese":"这部电视剧一共有四十集。","pinyin":"Zhè bù diànshìjù yígòng yǒu sìshí jí.","german":"Diese Fernsehserie hat insgesamt vierzig Folgen."},
+        {"chinese":"我昨天晚上一口气看了五集。","pinyin":"Wǒ zuótiān wǎnshang yìkǒuqì kàn le wǔ jí.","german":"Gestern Abend habe ich fünf Folgen am Stück geschaut."},
+        {"chinese":"下一集什么时候播出？","pinyin":"Xià yì jí shénme shíhou bōchū?","german":"Wann läuft die nächste Folge?"}
+      ],
+      "notes": "Merkhilfe: 集 heißt „sammeln“ – im Zeichen sitzt ein Vogel 隹 auf einem Baum 木; viele Folgen zusammen ergeben die Serie. 部 (bù) zählt die ganze Serie oder den Film: 一部电视剧 (diànshìjù) mit vierzig 集. 季 (jì) ist die Staffel: 第二季. 期 (qī) zählt Ausgaben von Sendungen, Podcasts und Zeitschriften: 这期节目 (jiémù). Folgen werden gern mit 第 nummeriert: 第五集 „Folge 5“.",
       "vocabId": "w:集:ji2",
       "syllabus": {"vocab":[{"no":2527,"level":"HSK5","pos":"名、量","measureLevel":"HSK5"}],"grammar":[{"no":342,"level":"HSK5","item":"名量词"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:架",
@@ -2971,20 +3081,24 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Transport",
-      "meaning": "Flugzeug / Maschine mit Gestell",
-      "usage": "Für Flugzeuge, Klaviere, Kameras und andere Geräte mit Gestell/Rahmen.",
+      "meaning": "für Flugzeuge und Geräte mit Gestell (Klavier, Kamera)",
+      "usage": "Zählt Flugzeuge und Hubschrauber sowie Geräte und Instrumente auf einem Gestell oder Rahmen, etwa Klaviere, Kameras oder Leitern. Nach 吵 und 打 zählt es Streits und Prügeleien.",
       "questionWord": "几架",
-      "examples": [
-        {"chinese":"天上飞过一架飞机。","pinyin":"Tiān shàng fēi guò yí jià fēijī.","german":"Ein Flugzeug flog über den Himmel."},
-        {"chinese":"一架钢琴","pinyin":"yí jià gāngqín","german":"ein Klavier"}
+      "specialForms": [
+        {"form":"吵一架／打一架","explanation":"„sich (einmal) streiten / prügeln“: 他们俩吵了一架"}
       ],
-      "notes": "架 für Objekte mit Rahmen-/Gestellstruktur.",
+      "examples": [
+        {"chinese":"机场上停着好几架飞机。","pinyin":"Jīchǎng shang tíng zhe hǎojǐ jià fēijī.","german":"Auf dem Flughafen stehen mehrere Flugzeuge."},
+        {"chinese":"她家客厅里有一架旧钢琴。","pinyin":"Tā jiā kètīng li yǒu yí jià jiù gāngqín.","german":"In ihrem Wohnzimmer steht ein altes Klavier."},
+        {"chinese":"他们俩昨天吵了一架。","pinyin":"Tāmen liǎ zuótiān chǎo le yí jià.","german":"Die beiden haben sich gestern gestritten."}
+      ],
+      "notes": "Merkhilfe: 架 heißt „Gestell, Gerüst“ – gezählt wird, was auf einem Rahmen steht oder wie ein Gerüst gebaut ist. Für Flugzeuge ist 架 die Norm: 一架飞机 (fēijī), 一架直升机 (zhíshēngjī). Bei Geräten konkurriert 台 (tái): 一架钢琴 (gāngqín) und 一台钢琴 sind beide üblich, bei Kameras 一台, 一部 oder 一架照相机 (zhàoxiàngjī); 架 klingt dabei etwas gehobener. 座 (zuò) zählt große, feststehende Uhren und Bauwerke. Verbal steht 架 nach 吵 oder 打: 吵了一架 „einen Streit gehabt“.",
       "nouns": ["w:飞机:fei1ji1","w:钢琴:gang1qin2","w:钟:zhong1","w:直升机:zhi2sheng1ji1","w:电风扇:dian4feng1shan4","w:照相机:zhao4xiang4ji1"],
       "nounCount": 6,
       "vocabId": "w:架:jia4",
       "syllabus": {"vocab":[{"no":2560,"level":"HSK5","pos":"名、动、量","measureLevel":"HSK5"}],"grammar":[{"no":342,"level":"HSK5","item":"名量词"}]},
       "legacyIds": ["架"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:届",
@@ -2995,13 +3109,25 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Abstrakt",
-      "meaning": "Zählwort für regelmäßig stattfindende Veranstaltungen, Amtsperioden und Abschlussjahrgänge",
+      "meaning": "für wiederkehrende Veranstaltungen, Amtszeiten, Jahrgänge",
+      "usage": "Zählt regelmäßig wiederkehrende Veranstaltungen wie Kongresse, Spiele und Wahlen, Amtsperioden sowie Abschlussjahrgänge; meist mit 第 als Ordnungszahl.",
       "questionWord": "几届",
+      "specialForms": [
+        {"form":"本届","explanation":"„diesmalig, aktuell“: die laufende Austragung oder Amtszeit (běn jiè)"},
+        {"form":"历届","explanation":"„alle bisherigen“ Austragungen, Jahrgänge oder Amtszeiten (lìjiè)"},
+        {"form":"应届","explanation":"„diesjährig“ bei Absolventen: 应届毕业生 (yīngjiè bìyèshēng)"}
+      ],
+      "examples": [
+        {"chinese":"第二十九届奥运会在北京举行。","pinyin":"Dì èrshíjiǔ jiè Àoyùnhuì zài Běijīng jǔxíng.","german":"Die 29. Olympischen Spiele fanden in Peking statt."},
+        {"chinese":"本届大会将在上海召开。","pinyin":"Běn jiè dàhuì jiāng zài Shànghǎi zhàokāi.","german":"Der Kongress findet diesmal in Shanghai statt."},
+        {"chinese":"我和他是同一届的学生。","pinyin":"Wǒ hé tā shì tóng yí jiè de xuésheng.","german":"Er und ich sind aus demselben Jahrgang."}
+      ],
+      "notes": "Merkhilfe: Als Verb heißt 届 „(einen Termin) erreichen“, vgl. 届时 (jièshí) „zu gegebener Zeit“ – jedes Mal, wenn der Termin wiederkommt, beginnt eine neue 届. Typisch: 第二十九届奥运会 (Àoyùnhuì), 本届大会 (dàhuì), 下一届政府 (zhèngfǔ). 次 (cì) zählt schlicht Male (第三次会议 „die dritte Sitzung“), 场 (chǎng) eine einzelne Veranstaltung mit Anfang und Ende (一场比赛). Eine einzelne Besprechung ist einfach 一个会议 (huìyì). An Hochschulen ist 届 der Jahrgang: 我们是同一届的 „wir sind aus demselben Jahrgang“.",
       "nouns": ["w:会议:hui4yi4","w:大会:da4hui4","w:任期:ren4qi1"],
       "nounCount": 3,
       "vocabId": "w:届:jie4",
       "syllabus": {"vocab":[{"no":2605,"level":"HSK5","pos":"量","measureLevel":"HSK5"}],"grammar":[{"no":342,"level":"HSK5","item":"名量词"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:颗",
@@ -3012,20 +3138,21 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Allgemein",
-      "meaning": "Stück (klein, rund)",
-      "usage": "Für kleine, runde Objekte wie Perlen, Zähne, Sterne",
+      "meaning": "für Kleines, Rundes: Sterne, Zähne, Perlen, Bonbons",
+      "usage": "Zählt kleine, runde oder körnige Dinge wie Sterne, Zähne, Perlen, Edelsteine, Bonbons, Samen und Geschosse; übertragen auch das Herz.",
       "questionWord": "几颗",
       "examples": [
-        {"chinese":"一颗星星","pinyin":"yī kē xīngxīng","german":"ein Stern"},
-        {"chinese":"两颗牙","pinyin":"liǎng kē yá","german":"zwei Zähne"}
+        {"chinese":"你看，天上有一颗特别亮的星星。","pinyin":"Nǐ kàn, tiānshàng yǒu yì kē tèbié liàng de xīngxing.","german":"Schau mal, da oben ist ein besonders heller Stern."},
+        {"chinese":"孩子掉了两颗牙。","pinyin":"Háizi diào le liǎng kē yá.","german":"Dem Kind sind zwei Zähne ausgefallen."},
+        {"chinese":"他把一颗糖放进了嘴里。","pinyin":"Tā bǎ yì kē táng fàng jìn le zuǐ li.","german":"Er steckte sich ein Bonbon in den Mund."}
       ],
-      "notes": "Ähnlich wie 粒, aber für etwas größere runde Dinge: Sterne, Herzen, Zähne, Edelsteine, Kugeln.",
+      "notes": "Merkhilfe: 颗 enthält 页, ursprünglich „Kopf“ – denk an etwas Kopfförmig-Rundes. 粒 (lì) zählt noch Kleineres, Körniges (一粒米, 一粒沙子 shāzi); bei Samen, Bonbons und Tabletten sind 颗 und 粒 oft beide möglich. 块 (kuài) zählt Stücke (一块糖), 枚 (méi) gehoben Münzen, Medaillen und Edelsteine. Größere Früchte wie Äpfel und Wassermelonen zählt man auf dem Festland meist mit 个; 一颗苹果 (píngguǒ) ist vor allem in Taiwan üblich. Übertragen: 一颗心 „ein Herz“, 一颗爱心 (àixīn) „ein liebevolles Herz“.",
       "nouns": ["w:苹果:ping2guo3","w:牙:ya2","w:糖:tang2","w:西瓜:xi1gua1","w:心:xin1","w:土豆:tu3dou4","w:牙齿:ya2chi3","w:种子:zhong3zi5","w:心脏:xin1zang4","w:脑袋:nao3dai5","w:珍珠:zhen1zhu1","w:棋子:qi2zi3","w:豆子:dou4zi5","w:核桃:he2tao5","w:卫星:wei4xing1","w:行星:xing2xing1","w:钻石:zuan4shi2","w:宝石:bao3shi2","w:陨石:yun3shi2","w:炸弹:zha4dan4","w:子弹:zi3dan4","w:豆:dou4","w:草莓:cao3mei2"],
       "nounCount": 23,
       "vocabId": "w:颗:ke1",
       "syllabus": {"vocab":[{"no":2662,"level":"HSK5","pos":"量","measureLevel":"HSK5"}],"grammar":[{"no":342,"level":"HSK5","item":"名量词"}]},
       "legacyIds": ["颗"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:类",
@@ -3036,11 +3163,21 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Abstrakt",
-      "meaning": "Zählwort für Objekte der gleichen Art, Kategorien; Zählwort für Angelegenheiten, Umstände",
+      "meaning": "Art, Kategorie",
+      "usage": "Zählt Arten und Kategorien, also Gruppen gleichartiger Dinge, Menschen oder Probleme; oft mit 这 oder 那 (这类问题).",
       "questionWord": "几类",
+      "specialForms": [
+        {"form":"之类","explanation":"„und dergleichen, so etwas wie“ (zhīlèi): 茶、咖啡之类的饮料 „Getränke wie Tee oder Kaffee“"}
+      ],
+      "examples": [
+        {"chinese":"垃圾一般分成四类。","pinyin":"Lājī yìbān fēnchéng sì lèi.","german":"Müll wird in der Regel in vier Kategorien getrennt."},
+        {"chinese":"我不太喜欢看这类电影。","pinyin":"Wǒ bú tài xǐhuan kàn zhè lèi diànyǐng.","german":"Solche Filme schaue ich nicht so gern."},
+        {"chinese":"这两类问题要分开解决。","pinyin":"Zhè liǎng lèi wèntí yào fēnkāi jiějué.","german":"Diese beiden Arten von Problemen muss man getrennt lösen."}
+      ],
+      "notes": "Merkhilfe: 类 wie in 人类 (rénlèi) „Menschheit“ und 分类 (fēnlèi) „einteilen, sortieren“ – es geht um Klassen. 种 (zhǒng) ist das Alltagswort für „Sorte“ (三种水果 shuǐguǒ); 类 klingt sachlicher und passt besonders zu Einteilungen: 垃圾分成四类. Oft sind beide möglich: 这类问题 und 这种问题 (wèntí). 样 (yàng) zählt verschiedene einzelne Dinge (四样菜 „vier verschiedene Gerichte“). 个 ersetzt 类 nicht.",
       "vocabId": "w:类:lei4",
       "syllabus": {"vocab":[{"no":2693,"level":"HSK5","pos":"名、量","measureLevel":"HSK5"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:厘米",
@@ -3052,10 +3189,17 @@ window.MEASURE_WORDS_DATA = {
       "kind": "Maßeinheit",
       "category": "Masseinheiten",
       "meaning": "Zentimeter",
+      "usage": "Misst kleinere Längen, etwa Maße von Möbeln und Kleidung, Körperumfänge oder Wachstum.",
       "questionWord": "多少厘米",
+      "examples": [
+        {"chinese":"这张桌子长一百二十厘米。","pinyin":"Zhè zhāng zhuōzi cháng yìbǎi èrshí límǐ.","german":"Dieser Tisch ist 120 Zentimeter lang."},
+        {"chinese":"孩子一年长高了五厘米。","pinyin":"Háizi yì nián zhǎnggāo le wǔ límǐ.","german":"Das Kind ist in einem Jahr fünf Zentimeter gewachsen."},
+        {"chinese":"你的腰围是多少厘米？","pinyin":"Nǐ de yāowéi shì duōshao límǐ?","german":"Wie viele Zentimeter Taillenumfang hast du?"}
+      ],
+      "notes": "Merkhilfe: 厘 bedeutet „ein Hundertstel“, 米 „Meter“ – 厘米 ist wörtlich der „Hundertstelmeter“. Als Einheit steht 厘米 ohne 个: 三十厘米, 两厘米. Gleichbedeutend und umgangssprachlicher ist 公分 (gōngfēn). Die Körpergröße nennt man meist in Metern: 一米七五 „1,75 m“ statt 一百七十五厘米. Kleinere Einheit: 毫米 (háomǐ) „Millimeter“; größere: 米 und 公里 (gōnglǐ) „Kilometer“.",
       "vocabId": "w:厘米:li2mi3",
       "syllabus": {"vocab":[{"no":2699,"level":"HSK5","pos":"量","measureLevel":"HSK5"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:批",
@@ -3066,20 +3210,25 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Mengen",
-      "meaning": "Charge, Partie, Gruppe",
-      "usage": "Für eine Charge, Lieferung oder Gruppe von gleichartigen Dingen oder Personen",
+      "meaning": "Charge, Lieferung; Gruppe (in Wellen kommend)",
+      "usage": "Zählt Waren, die als Lieferung oder Charge zusammen kommen, und Gruppen von Menschen, die gemeinsam oder in Wellen auftreten, etwa neue Beschäftigte oder Reisende.",
       "questionWord": "几批",
-      "examples": [
-        {"chinese":"第一批货到了。","pinyin":"dì yī pī huò dào le.","german":"Die erste Lieferung Ware ist angekommen."},
-        {"chinese":"来了一批新学生。","pinyin":"lái le yī pī xīn xuéshēng.","german":"Eine Gruppe neuer Schüler ist gekommen."}
+      "specialForms": [
+        {"form":"一大批","explanation":"„eine große Zahl, ein ganzer Schwung“: 一大批新书"},
+        {"form":"分批","explanation":"„in Gruppen, in Etappen“ (fēnpī): 分批进场 „gruppenweise hineingehen“"}
       ],
-      "notes": "Für Chargen, Lieferungen, Gruppen. 一大批 = 'eine große Menge'. Im Geschäftsleben sehr häufig.",
+      "examples": [
+        {"chinese":"第一批货已经到了。","pinyin":"Dì yī pī huò yǐjīng dào le.","german":"Die erste Warenlieferung ist schon da."},
+        {"chinese":"公司今年招了一批新员工。","pinyin":"Gōngsī jīnnián zhāo le yì pī xīn yuángōng.","german":"Die Firma hat dieses Jahr einen ganzen Schwung neuer Leute eingestellt."},
+        {"chinese":"游客太多，只能分三批进去参观。","pinyin":"Yóukè tài duō, zhǐ néng fēn sān pī jìnqu cānguān.","german":"Es sind zu viele Reisende – sie dürfen nur in drei Gruppen zur Besichtigung hinein."}
+      ],
+      "notes": "Merkhilfe: 批 wie in 批发 (pīfā) „Großhandel“ – Ware im großen Posten. 件 (jiàn) zählt ein einzelnes Warenstück, 批 die ganze Lieferung: 一批货 (huò). Bei Menschen betont 批 Reihenfolge oder Welle: 第一批游客 (yóukè) „die erste Gruppe Reisender“, 一批新员工 (yuángōng). 群 (qún) ist dagegen einfach eine Schar ohne Reihenfolge. Im Handel und in Nachrichten ist 批 sehr häufig, oft verstärkt zu 一大批.",
       "nouns": ["w:货:huo4"],
       "nounCount": 1,
       "vocabId": "w:批:pi1",
       "syllabus": {"vocab":[{"no":2825,"level":"HSK5","pos":"量","measureLevel":"HSK5"}],"grammar":[{"no":342,"level":"HSK5","item":"名量词"}]},
       "legacyIds": ["批"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:匹",
@@ -3090,19 +3239,24 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Tiere",
-      "meaning": "Pferd / Stoffballen",
-      "usage": "Speziell für Pferde und Stoffballen.",
+      "meaning": "für Pferde und Ähnliches; Stoffballen",
+      "usage": "Zählt Pferde und verwandte Tiere wie Zebras oder Kamele, literarisch auch Wölfe; außerdem Stoffballen.",
       "questionWord": "几匹",
-      "examples": [
-        {"chinese":"草地上有三匹马。","pinyin":"Cǎodì shàng yǒu sān pǐ mǎ.","german":"Auf der Wiese sind drei Pferde."}
+      "specialForms": [
+        {"form":"单枪匹马","explanation":"„mit einem Speer und einem Pferd“: im Alleingang, ohne Hilfe (dān qiāng pǐ mǎ)"}
       ],
-      "notes": "Fast ausschließlich für Pferde (马) verwendet.",
+      "examples": [
+        {"chinese":"草地上有三匹马在吃草。","pinyin":"Cǎodì shang yǒu sān pǐ mǎ zài chī cǎo.","german":"Auf der Wiese grasen drei Pferde."},
+        {"chinese":"森林里出现了一匹狼。","pinyin":"Sēnlín li chūxiàn le yì pǐ láng.","german":"Im Wald ist ein Wolf aufgetaucht."},
+        {"chinese":"奶奶用一匹布给全家做了新衣服。","pinyin":"Nǎinai yòng yì pǐ bù gěi quán jiā zuò le xīn yīfu.","german":"Oma hat aus einem Ballen Stoff neue Kleidung für die ganze Familie genäht."}
+      ],
+      "notes": "Merkhilfe: 匹 (pǐ) klingt wie der Anfang von „Pferd“. Für 马 ist 匹 der Standard: 一匹马, 一匹斑马 (bānmǎ). 头 (tóu) zählt großes Vieh wie Rinder, Schweine und Esel (一头驴 lǘ); bei 骆驼 (luòtuo) sind 一匹, 一头 (yì tóu) und gehoben 一峰 (fēng) möglich. Wölfe zählt man im Alltag meist mit 只 (一只狼), auch 一条狼 ist zu hören; 一匹狼 klingt literarisch-kraftvoll. Stoff: 一匹布 „ein Ballen Stoff“, 一匹绸 (chóu) „ein Ballen Seide“.",
       "nouns": ["w:马:ma3","w:狼:lang2","w:绸:chou2","w:斑马:ban1ma3","w:骆驼:luo4tuo5"],
       "nounCount": 5,
       "vocabId": "w:匹:pi3",
       "syllabus": {"vocab":[{"no":2828,"level":"HSK5","pos":"量","measureLevel":"HSK5"}],"grammar":[{"no":342,"level":"HSK5","item":"名量词"}]},
       "legacyIds": ["匹"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:群",
@@ -3113,20 +3267,21 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Tiere",
-      "meaning": "Gruppe, Schar, Herde",
-      "usage": "Für Gruppen von Menschen oder Tieren",
+      "meaning": "Gruppe, Schar, Herde, Schwarm",
+      "usage": "Zählt größere Gruppen von Menschen oder Tieren: Menschenmengen, Kindergruppen, Herden, Schwärme und Rudel.",
       "questionWord": "几群",
       "examples": [
-        {"chinese":"一群羊","pinyin":"yī qún yáng","german":"eine Herde Schafe"},
-        {"chinese":"一群孩子","pinyin":"yī qún háizi","german":"eine Gruppe Kinder"}
+        {"chinese":"树上飞来了一群鸟。","pinyin":"Shù shang fēi lái le yì qún niǎo.","german":"Ein Schwarm Vögel hat sich auf dem Baum niedergelassen."},
+        {"chinese":"一群孩子在公园里踢足球。","pinyin":"Yì qún háizi zài gōngyuán li tī zúqiú.","german":"Eine Gruppe Kinder spielt im Park Fußball."},
+        {"chinese":"山坡上有好几群羊。","pinyin":"Shānpō shang yǒu hǎojǐ qún yáng.","german":"Am Hang weiden mehrere Schafherden."}
       ],
-      "notes": "Für Herden, Schwärme, Rudel und Menschengruppen gleichermaßen verwendbar.",
+      "notes": "Merkhilfe: 群 enthält 羊 „Schaf“ – Schafe leben in Herden. 群 ist neutral und passt zu fast allen Gruppen von Lebewesen: 一群人, 一群鸟 (niǎo), 一群蜜蜂 (mìfēng). 只 (zhī) zählt das einzelne Tier: 一只鸟. 堆 (duī) zählt Aufgehäuftes und klingt bei Menschen salopp (一堆人); 伙 (huǒ) und 帮 (bāng) zählen Cliquen, oft abwertend; 批 (pī) Gruppen, die nacheinander kommen. Verstärkt: 一大群. Als Nomen heißt 群 heute auch „Chatgruppe“ (微信群 wēixìnqún) – die zählt man mit 个: 一个群.",
       "nouns": ["w:鸟:niao3","w:昆虫:kun1chong2","w:蜜蜂:mi4feng1"],
       "nounCount": 3,
       "vocabId": "w:群:qun2",
       "syllabus": {"vocab":[{"no":2909,"level":"HSK5","pos":"量、名","measureLevel":"HSK5"}],"grammar":[{"no":342,"level":"HSK5","item":"名量词"}]},
       "legacyIds": ["群"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:束",
@@ -3137,20 +3292,21 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Mengen",
-      "meaning": "Bündel, Strauß",
-      "usage": "Für Blumensträusse und zusammengebundene Dinge",
+      "meaning": "Strauß, Bündel; Lichtstrahl",
+      "usage": "Zählt zusammengebundene Dinge, vor allem Blumensträuße, außerdem Bündel (Haare, Stroh) und Lichtstrahlen.",
       "questionWord": "几束",
       "examples": [
-        {"chinese":"一束花","pinyin":"yī shù huā","german":"ein Strauß Blumen"},
-        {"chinese":"一束光","pinyin":"yī shù guāng","german":"ein Lichtstrahl / ein Bündel Licht"}
+        {"chinese":"我们给老师送了一束花。","pinyin":"Wǒmen gěi lǎoshī sòng le yí shù huā.","german":"Wir haben unserer Lehrkraft einen Blumenstrauß geschenkt."},
+        {"chinese":"一束阳光从窗户照了进来。","pinyin":"Yí shù yángguāng cóng chuānghu zhào le jìnlái.","german":"Ein Sonnenstrahl fiel durchs Fenster herein."},
+        {"chinese":"她手里拿着两束鲜花。","pinyin":"Tā shǒu li ná zhe liǎng shù xiānhuā.","german":"Sie hält zwei Sträuße frischer Blumen in der Hand."}
       ],
-      "notes": "Für zusammengebundene Dinge und Sträusse. Auch für Lichtstrahlen: 一束阳光 (ein Sonnenstrahl).",
+      "notes": "Merkhilfe: 束 zeigt einen Baum 木 mit einer Schnur darum – etwas Zusammengebundenes; als Verb heißt es „binden“. Bei Blumen ist 一束花 ein gebundener Strauß, 一把花 (bǎ) eine lose Handvoll, 一朵花 (duǒ) eine einzelne Blüte, 一支花 (zhī) ein Stiel, 一盆花 (pén) eine Topfpflanze; 一束花 und 一把花 überschneiden sich im Alltag. Licht: 一束光 „ein Lichtstrahl“, 一束阳光 (yángguāng) „ein Sonnenstrahl“. Nicht verwechseln mit dem gleich klingenden 树 (shù) „Baum“.",
       "nouns": ["w:花:hua1","w:花:hua1#2"],
       "nounCount": 2,
       "vocabId": "w:束:shu4",
       "syllabus": {"vocab":[{"no":3066,"level":"HSK5","pos":"量","measureLevel":"HSK5"}],"grammar":[{"no":342,"level":"HSK5","item":"名量词"}]},
       "legacyIds": ["束"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:套",
@@ -3161,20 +3317,25 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Objekte",
-      "meaning": "Set / Garnitur / Satz",
-      "usage": "Für zusammengehörige Sets: Möbelgarnitur, Bücherreihe, Wohnung, Anzug.",
+      "meaning": "Set, Satz, Garnitur; Wohnung (als Einheit)",
+      "usage": "Zählt Dinge, die als vollständiger Satz zusammengehören – Anzüge, Möbelgarnituren, Buchreihen, Geschirr –, außerdem Wohnungen und Systeme wie Pläne, Methoden oder Regelwerke.",
       "questionWord": "几套",
-      "examples": [
-        {"chinese":"我买了一套房子。","pinyin":"Wǒ mǎi le yí tào fángzi.","german":"Ich habe eine Wohnung gekauft."},
-        {"chinese":"一套西装","pinyin":"yí tào xīzhuāng","german":"ein Anzug"}
+      "specialForms": [
+        {"form":"有一套","explanation":"„sich auf etwas verstehen, etwas draufhaben“: 他做饭很有一套"},
+        {"form":"老一套","explanation":"„die alte Leier, das alte Schema“ (lǎo yí tào)"}
       ],
-      "notes": "套 betont die Zusammengehörigkeit einer Gruppe von Objekten.",
+      "examples": [
+        {"chinese":"他们在市中心买了一套房子。","pinyin":"Tāmen zài shì zhōngxīn mǎi le yí tào fángzi.","german":"Sie haben im Stadtzentrum eine Wohnung gekauft."},
+        {"chinese":"面试那天他穿了一套新西装。","pinyin":"Miànshì nà tiān tā chuān le yí tào xīn xīzhuāng.","german":"Zum Vorstellungsgespräch trug er einen neuen Anzug."},
+        {"chinese":"这套书一共有十本。","pinyin":"Zhè tào shū yígòng yǒu shí běn.","german":"Diese Buchreihe umfasst zehn Bände."}
+      ],
+      "notes": "Merkhilfe: 套 heißt „Hülle, überziehen“ – alles, was als komplettes Paket zusammengehört. 件 (jiàn) zählt das einzelne Kleidungsstück, 套 das komplette Outfit: 一件衣服 / 一套衣服 (yīfu). Eine Wohnung ist 一套房子 (fángzi) oder 一套公寓 (gōngyù); das ganze Gebäude zählt man mit 栋 (dòng), 幢 (zhuàng) oder 座 (zuò). Umgangssprachlich hört man auch 一个房子 und 一个方案 (fāng'àn) – 一套方案 betont ein durchdachtes Gesamtpaket. Einen einzelnen Tisch zählt 张, die Garnitur 套: 一套桌椅 (zhuōyǐ).",
       "nouns": ["w:衣服:yi1fu5","w:桌子:zhuo1zi5","w:房子:fang2zi5","w:节目:jie2mu4","w:法律:fa3lv4","w:家具:jia1ju4","w:服装:fu2zhuang1","w:公寓:gong1yu4","w:西装:xi1zhuang1","w:方案:fang1an4","w:房屋:fang2wu1","w:制服:zhi4fu2","w:制服:zhi4fu2#2","w:百科全书:bai3ke1quan2shu1"],
       "nounCount": 14,
       "vocabId": "w:套:tao4",
       "syllabus": {"vocab":[{"no":3106,"level":"HSK5","pos":"名、动、量","measureLevel":"HSK5"}]},
       "legacyIds": ["套"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:团",
@@ -3185,11 +3346,22 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Mengen",
-      "meaning": "Zählwort für Klumpen und Knäuel; Gruppe; Klumpen; zu einer Kugel formen",
+      "meaning": "Knäuel, Klumpen, Ballen (weiche, formlose Masse)",
+      "usage": "Zählt weiche, zusammengeballte Massen wie Papierknäuel, Wollknäuel, Teigklumpen, Rauch- und Nebelschwaden oder Feuer; übertragen auch Chaos und Gefühle.",
       "questionWord": "几团",
+      "specialForms": [
+        {"form":"一团糟","explanation":"„ein einziges Chaos“ (yì tuán zāo)"},
+        {"form":"乱成一团","explanation":"„völlig durcheinandergeraten“ (luàn chéng yì tuán)"}
+      ],
+      "examples": [
+        {"chinese":"他把信揉成一团，扔进了垃圾桶。","pinyin":"Tā bǎ xìn róuchéng yì tuán, rēng jìn le lājītǒng.","german":"Er knüllte den Brief zusammen und warf ihn in den Mülleimer."},
+        {"chinese":"奶奶手里拿着一团红毛线。","pinyin":"Nǎinai shǒu li ná zhe yì tuán hóng máoxiàn.","german":"Oma hält ein Knäuel rote Wolle in der Hand."},
+        {"chinese":"我的房间现在一团糟。","pinyin":"Wǒ de fángjiān xiànzài yì tuán zāo.","german":"Mein Zimmer ist gerade ein einziges Chaos."}
+      ],
+      "notes": "Merkhilfe: 团 heißt „rund, zusammenballen“ – wie 团子 (tuánzi) „Kloß“. 块 (kuài) zählt feste Stücke mit Form (一块石头 shítou), 团 weiche, formlose Massen: 一团面 „ein Teigklumpen“, 一团毛线 (máoxiàn) „ein Wollknäuel“. 堆 (duī) zählt Aufgehäuftes. Bei Wolken passt 朵 für klar umrissene, 团 für dichte, diffuse Massen: 一团浓烟 (nóngyān) „eine dicke Rauchwolke“. Als Nomen heißt 团 „Gruppe, Delegation“, etwa 旅游团 (lǚyóutuán) „Reisegruppe“, und wird mit 个 gezählt.",
       "vocabId": "w:团:tuan2",
       "syllabus": {"vocab":[{"no":3156,"level":"HSK5","pos":"动、名、量","measureLevel":"HSK5"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:眼",
@@ -3200,18 +3372,22 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Verbal",
       "category": "Handlungen",
-      "meaning": "Blick",
-      "usage": "Für flüchtige Blicke",
+      "meaning": "Blick (nach Verben des Sehens); gehoben für Brunnen",
+      "usage": "Zählt Blicke nach Verben des Sehens wie 看 oder 瞪 (dèng); als Nominalzählwort gehoben auch Brunnen und Höhlenwohnungen.",
       "questionWord": "几眼",
-      "examples": [
-        {"chinese":"看了一眼","pinyin":"kàn le yī yǎn","german":"einen Blick darauf geworfen"},
-        {"chinese":"多看了两眼","pinyin":"duō kàn le liǎng yǎn","german":"noch zwei Blicke mehr darauf geworfen"}
+      "specialForms": [
+        {"form":"一眼就","explanation":"„auf den ersten Blick, sofort“: 一眼就认出来 (rèn chūlai) „sofort erkennen“"}
       ],
-      "notes": "Aktionszählwort für Blicke. Meistens mit 看 ('sehen') verwendet: 看一眼 (einen Blick werfen).",
+      "examples": [
+        {"chinese":"他看了我一眼，什么也没说。","pinyin":"Tā kàn le wǒ yì yǎn, shénme yě méi shuō.","german":"Er sah mich kurz an und sagte nichts."},
+        {"chinese":"出门前我又看了一眼手机。","pinyin":"Chūmén qián wǒ yòu kàn le yì yǎn shǒujī.","german":"Bevor ich aus dem Haus ging, warf ich noch einen Blick aufs Handy."},
+        {"chinese":"我一眼就认出了她。","pinyin":"Wǒ yì yǎn jiù rènchū le tā.","german":"Ich habe sie auf den ersten Blick erkannt."}
+      ],
+      "notes": "Merkhilfe: 眼 ist das „Auge“ – jeder Blick zählt ein 眼. 眼 steht nach Verben des Sehens: 看, 瞪 „anstarren“, 瞥 (piē) „flüchtig blicken“. Ein Pronomen als Objekt steht vor der Zahl (看了他一眼), ein Nomen meist danach (看了一眼手机 shǒujī). 看一眼 ist ein kurzer Blick; 看一下 (yíxià) heißt „mal kurz (an)schauen, prüfen“, 看一遍 (biàn) „einmal ganz durchsehen“. 多看两眼 heißt „genauer hinschauen“. Als Nominalzählwort zählt 眼 gehoben Brunnen: 一眼井 (jǐng).",
       "vocabId": "w:眼:yan3",
       "syllabus": {"vocab":[{"no":3330,"level":"HSK5","pos":"名、量","measureLevel":"HSK5"}],"grammar":[{"no":343,"level":"HSK5","item":"动量词"}]},
       "legacyIds": ["眼"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:阵",
@@ -3222,20 +3398,26 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Natur",
-      "meaning": "Stoß, Schub",
-      "usage": "Für kurze, plötzliche Ereignisse wie Windböen oder Schmerzschübe",
+      "meaning": "Schauer, Stoß, Welle (kurz andauernd)",
+      "usage": "Zählt kurz andauernde, oft plötzlich einsetzende Vorgänge: Regenschauer, Windstöße, Applaus, Lachen, Husten, Schmerzen und Gefühlswellen.",
       "questionWord": "几阵",
-      "examples": [
-        {"chinese":"一阵风","pinyin":"yī zhèn fēng","german":"ein Windstoss"},
-        {"chinese":"一阵疼痛","pinyin":"yī zhèn téngtòng","german":"ein Schmerzschub"}
+      "specialForms": [
+        {"form":"一阵子","explanation":"„eine Weile“ (yízhènzi): 过一阵子再说 „das sehen wir in einer Weile“"},
+        {"form":"这阵子","explanation":"„in letzter Zeit, derzeit“ (zhè zhènzi)"},
+        {"form":"一阵一阵","explanation":"„in Schüben, immer wieder“: 头一阵一阵地疼"}
       ],
-      "notes": "Betont die Kürze und Plötzlichkeit: Windböen, Schmerzwellen, Lachsalven, Applaus.",
+      "examples": [
+        {"chinese":"刚才下了一阵雨，现在停了。","pinyin":"Gāngcái xià le yí zhèn yǔ, xiànzài tíng le.","german":"Eben gab es einen kurzen Schauer, jetzt hat es aufgehört."},
+        {"chinese":"演出结束后，台下响起一阵热烈的掌声。","pinyin":"Yǎnchū jiéshù hòu, táixià xiǎngqǐ yí zhèn rèliè de zhǎngshēng.","german":"Nach der Vorstellung brach im Publikum tosender Beifall los."},
+        {"chinese":"一阵风吹过来，把门关上了。","pinyin":"Yí zhèn fēng chuī guòlai, bǎ mén guānshang le.","german":"Ein Windstoß schlug die Tür zu."}
+      ],
+      "notes": "Merkhilfe: 阵 heißt „Schlachtreihe“ – wie ein kurzer Angriff kommt es plötzlich und ist bald vorbei. 场 (chǎng) zählt ein ganzes Ereignis mit Anfang und Ende: 一场暴雨 (bàoyǔ) ist ein ganzes Unwetter, 一阵雨 ein kurzer Schauer; oft sind beide möglich. 丝 (sī) ist nur ein Hauch: 一丝风. Typisch: 一阵掌声 (zhǎngshēng) „Beifall“, 一阵咳嗽 (késou) „ein Hustenanfall“, 一阵笑声 (xiàoshēng) „Gelächter“.",
       "nouns": ["w:雨:yu3","w:风:feng1","w:咳嗽:ke2sou5","w:掌声:zhang3sheng1","w:雾:wu4","w:暴雨:bao4yu3"],
       "nounCount": 6,
       "vocabId": "w:阵:zhen4",
       "syllabus": {"vocab":[{"no":3487,"level":"HSK5","pos":"量","measureLevel":"HSK5"}]},
       "legacyIds": ["阵"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:支",
@@ -3246,20 +3428,21 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Objekte",
-      "meaning": "Stift / stabförmig (Stift, Gewehr, Lied)",
-      "usage": "Für stabförmige Objekte: Stifte, Kerzen, Gewehre. Auch für Lieder und Mannschaften.",
+      "meaning": "für Stifte und Stabförmiges; Lieder; Truppen, Teams",
+      "usage": "Zählt schmale, stabförmige Dinge wie Stifte, Zigaretten, Kerzen und Gewehre, außerdem Lieder und Musikstücke sowie Truppen, Teams und Bands.",
       "questionWord": "几支",
       "examples": [
-        {"chinese":"我需要一支笔。","pinyin":"Wǒ xūyào yì zhī bǐ.","german":"Ich brauche einen Stift."},
-        {"chinese":"唱一支歌","pinyin":"chàng yì zhī gē","german":"ein Lied singen"}
+        {"chinese":"你能借我一支笔吗？","pinyin":"Nǐ néng jiè wǒ yì zhī bǐ ma?","german":"Kannst du mir einen Stift leihen?"},
+        {"chinese":"我们学校有一支很厉害的足球队。","pinyin":"Wǒmen xuéxiào yǒu yì zhī hěn lìhai de zúqiúduì.","german":"Unsere Schule hat eine richtig starke Fußballmannschaft."},
+        {"chinese":"晚会上她唱了一支民歌。","pinyin":"Wǎnhuì shang tā chàng le yì zhī míngē.","german":"Beim Abendprogramm hat sie ein Volkslied gesungen."}
       ],
-      "notes": "支 und 只 haben den gleichen Pinyin (zhī), aber verschiedene Zeichen und Bedeutungen.",
+      "notes": "Merkhilfe: 支 heißt „Zweig, Abzweigung“ – schmal und gerade wie ein Zweig, dazu „Abteilungen“ wie Truppen und Teams: 一支军队 (jūnduì), 一支球队 (qiúduì), 一支乐队 (yuèduì). Nicht verwechseln mit dem gleich klingenden 只 für Tiere. Bei Zigaretten und Kerzen sind 支 und 根 (gēn) beide üblich; bei Blumen wechseln 支 und 枝 (zhī): 一支玫瑰 (méigui). Waffen: 一支枪 oder 一把枪 (bǎ). Lieder zählt man im Alltag meist mit 首 (shǒu): 一首歌; 一支歌 klingt gehobener. Bei Stiften ist 支 die Norm: 一支铅笔 (qiānbǐ).",
       "nouns": ["w:歌:ge1","w:笔:bi3","w:花:hua1","w:花:hua1#2","w:铅笔:qian1bi3","w:队伍:dui4wu5","w:吸管:xi1guan3","w:曲:qu3","w:箭:jian4","w:枪:qiang1","w:部队:bu4dui4","w:钢笔:gang1bi3","w:军队:jun1dui4","w:民歌:min2ge1","w:针:zhen1","w:乐队:yue4dui4","w:桨:jiang3","w:蜡烛:la4zhu2","w:粉笔:fen3bi3"],
       "nounCount": 19,
       "vocabId": "w:支:zhi1",
       "syllabus": {"vocab":[{"no":3499,"level":"HSK5","pos":"量","measureLevel":"HSK5"}],"grammar":[{"no":342,"level":"HSK5","item":"名量词"}]},
       "legacyIds": ["支"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:锅",
@@ -3270,17 +3453,22 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "word",
       "kind": "Zählwort",
       "category": "Essen",
-      "meaning": "Topf(voll)",
-      "usage": "Für den Inhalt eines Topfes oder einer Pfanne",
+      "meaning": "Topf (voll); Durchgang beim Kochen",
+      "usage": "Als geborgtes Zählwort misst es, was in einen Topf passt – Reis, Suppe, Eintopf, Brei – und zählt Kochdurchgänge (第二锅饺子).",
       "questionWord": "几锅",
-      "examples": [
-        {"chinese":"煮了一锅饭","pinyin":"zhǔ le yī guō fàn","german":"einen Topf Reis gekocht"},
-        {"chinese":"一锅汤","pinyin":"yī guō tāng","german":"einen Topf Suppe"}
+      "specialForms": [
+        {"form":"一锅粥","explanation":"„ein heilloses Durcheinander“: 乱成一锅粥 (luàn chéng yì guō zhōu)"},
+        {"form":"一锅端","explanation":"„alles auf einen Schlag abräumen, eine Bande komplett ausheben“ (yì guō duān)"}
       ],
-      "notes": "Zählt den Inhalt eines Topfes. 一锅粥 kann übertragen 'ein einziges Chaos' bedeuten.",
+      "examples": [
+        {"chinese":"妈妈煮了一锅鸡汤。","pinyin":"Māma zhǔ le yì guō jītāng.","german":"Mama hat einen Topf Hühnersuppe gekocht."},
+        {"chinese":"饺子太多了，只能分三锅煮。","pinyin":"Jiǎozi tài duō le, zhǐ néng fēn sān guō zhǔ.","german":"Es sind zu viele Jiaozi – wir können sie nur in drei Durchgängen kochen."},
+        {"chinese":"会议室里乱成了一锅粥。","pinyin":"Huìyìshì li luàn chéng le yì guō zhōu.","german":"Im Besprechungsraum herrschte ein heilloses Durcheinander."}
+      ],
+      "notes": "Merkhilfe: Was im 锅 ist, wird mit 锅 gemessen – wie im Deutschen „ein Topf Suppe“. Den Topf selbst zählt man mit 口 (kǒu) oder 个: 一口锅, 一个锅. Ebenso funktionieren andere Gefäße als Zählwort: 一碗饭, 一杯茶, 一盘菜. Beim Kochen in Portionen zählt 锅 die Durchgänge: 饺子 (jiǎozi) 分三锅煮. Übertragen steht 乱成一锅粥 für völliges Chaos.",
       "vocabId": "w:锅:guo1",
       "legacyIds": ["锅"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:方",
@@ -3291,19 +3479,23 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "word",
       "kind": "Maßeinheit",
       "category": "Mengen",
-      "meaning": "Kubikmeter, Block",
-      "usage": "Für Kubikmeter (Maßeinheit) und rechteckige Blöcke",
-      "questionWord": "几方",
-      "examples": [
-        {"chinese":"五方沙子","pinyin":"wǔ fāng shāzi","german":"fünf Kubikmeter Sand"},
-        {"chinese":"一方印章","pinyin":"yī fāng yìnzhāng","german":"ein Siegel / Stempel"}
+      "meaning": "Kubikmeter (umgangssprachlich); für Viereckiges (gehoben)",
+      "usage": "Als Maßeinheit umgangssprachlich Kurzform für 立方米 (lìfāngmǐ), etwa bei Wasser, Erde, Beton oder Gas; gehoben zählt es auch viereckige Gegenstände wie Siegel und Taschentücher.",
+      "questionWord": "多少方",
+      "specialForms": [
+        {"form":"一方水土养一方人","explanation":"Sprichwort: „jede Gegend prägt ihre Menschen“ – 方 hier im Sinn von „Gegend“"}
       ],
-      "notes": "Kurzform für 立方米 (Kubikmeter): 一方水 = ein Kubikmeter Wasser. Auch für viereckige Objekte: Siegelsteine, Taschentücher.",
+      "examples": [
+        {"chinese":"我们家这个月用了十二方水。","pinyin":"Wǒmen jiā zhège yuè yòng le shí'èr fāng shuǐ.","german":"Unser Haushalt hat diesen Monat zwölf Kubikmeter Wasser verbraucht."},
+        {"chinese":"挖这个池子要挖五十多方土。","pinyin":"Wā zhège chízi yào wā wǔshí duō fāng tǔ.","german":"Für diesen Teich muss man über fünfzig Kubikmeter Erde ausheben."},
+        {"chinese":"爷爷留下了一方印章。","pinyin":"Yéye liúxià le yì fāng yìnzhāng.","german":"Opa hat ein Siegel hinterlassen."}
+      ],
+      "notes": "Merkhilfe: 方 heißt „viereckig, Quadrat“ – 立方 (lìfāng) ist der „Würfel“, also Kubik. Als Einheit steht 方 ohne 个: 十二方水, 五十方土. Auf Wasser- und Gasrechnungen und auf Baustellen ist 方 üblich; für Wasser hört man auch 吨 (dūn). Für Wohnflächen sagt man dagegen 平 oder 平米 (píngmǐ): 八十平 „80 Quadratmeter“. Als Zählwort für Viereckiges ist 方 gehoben: 一方手帕 (shǒupà), 一方印章 (yìnzhāng); im Alltag sagt man 一块手帕 und 一个印章 oder 一枚印章.",
       "nouns": ["w:手帕:shou3pa4","w:印章:yin4zhang1"],
       "nounCount": 2,
       "vocabId": "w:方:fang1",
       "legacyIds": ["方"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:代",
@@ -3315,16 +3507,21 @@ window.MEASURE_WORDS_DATA = {
       "kind": "Zählwort",
       "category": "Zeit",
       "meaning": "Generation",
-      "usage": "Für Generationen von Menschen und Produkten",
+      "usage": "Zählt Generationen von Menschen in Familie und Gesellschaft sowie Produktgenerationen; meist direkt vor dem Nomen oder mit 第.",
       "questionWord": "几代",
-      "examples": [
-        {"chinese":"三代人","pinyin":"sān dài rén","german":"drei Generationen"},
-        {"chinese":"新一代手机","pinyin":"xīn yī dài shǒujī","german":"die neue Generation Smartphones"}
+      "specialForms": [
+        {"form":"一代又一代","explanation":"„Generation um Generation“ (yí dài yòu yí dài); ebenso 一代一代"},
+        {"form":"新一代","explanation":"„die neue, jüngste Generation“ (xīn yí dài): 新一代手机"}
       ],
-      "notes": "Für Familiengenerationen und Produktgenerationen. 一代人 (eine Generation Menschen), 第五代 (die fünfte Generation).",
+      "examples": [
+        {"chinese":"我们家三代人住在一起。","pinyin":"Wǒmen jiā sān dài rén zhù zài yìqǐ.","german":"In unserer Familie leben drei Generationen zusammen."},
+        {"chinese":"这款手机是第五代产品。","pinyin":"Zhè kuǎn shǒujī shì dì wǔ dài chǎnpǐn.","german":"Dieses Handy gehört zur fünften Produktgeneration."},
+        {"chinese":"这个传统一代一代传了下来。","pinyin":"Zhège chuántǒng yí dài yí dài chuán le xiàlai.","german":"Diese Tradition wurde von Generation zu Generation weitergegeben."}
+      ],
+      "notes": "Merkhilfe: 代 heißt „ersetzen“ – jede Generation tritt an die Stelle der vorigen. 代 steht ohne 个: 三代人 „drei Generationen“, 第五代 „die fünfte Generation“. 辈 (bèi) bezeichnet die Generationsstufe innerhalb der Familie: 长辈 (zhǎngbèi) „die Älteren“, 同辈 (tóngbèi) „gleiche Generation“; Achtung, 一辈子 (yíbèizi) heißt „das ganze Leben“. In der Geschichte steht 代 für Dynastien und Epochen: 唐代 (Tángdài), 历代 (lìdài) „alle Dynastien“; 八十年代 (niándài) sind „die Achtzigerjahre“.",
       "vocabId": "w:代:dai4",
       "legacyIds": ["代"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:盆",
@@ -3335,19 +3532,20 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "word",
       "kind": "Zählwort",
       "category": "Objekte",
-      "meaning": "Becken(voll), Topf (Blumentopf)",
-      "usage": "Für den Inhalt eines Beckens oder Blumentopfes",
+      "meaning": "eine Schüssel / ein Becken voll; für Topfpflanzen",
+      "usage": "Zählt Topfpflanzen (eine Pflanze samt Topf) und den Inhalt von Schüsseln, Becken und Wannen, etwa Wasser, Suppe oder Teig.",
       "questionWord": "几盆",
       "examples": [
-        {"chinese":"一盆花","pinyin":"yī pén huā","german":"eine Topfpflanze / ein Blumentopf"},
-        {"chinese":"一盆冷水","pinyin":"yī pén lěngshuǐ","german":"ein Becken kaltes Wasser"}
+        {"chinese":"阳台上放着三盆花。","pinyin":"Yángtái shang fàng zhe sān pén huā.","german":"Auf dem Balkon stehen drei Topfblumen."},
+        {"chinese":"她端来一盆热水让我洗脚。","pinyin":"Tā duān lái yì pén rèshuǐ ràng wǒ xǐ jiǎo.","german":"Sie brachte mir eine Schüssel heißes Wasser für ein Fußbad."},
+        {"chinese":"我刚说完我的计划，他就给我泼了一盆冷水。","pinyin":"Wǒ gāng shuō wán wǒ de jìhuà, tā jiù gěi wǒ pō le yì pén lěngshuǐ.","german":"Kaum hatte ich meinen Plan erzählt, hat er mir schon einen Dämpfer verpasst."}
       ],
-      "notes": "Für Topfpflanzen und Beckeninhalte. Redewendung: 泼一盆冷水 (einen Eimer kaltes Wasser gießen = jemandes Enthusiasmus dämpfen).",
+      "notes": "Merkhilfe: 盆 ist selbst das Gefäß – „Schüssel, Becken, Blumentopf“ –, gezählt wird, was darin steckt (entlehntes Zählwort wie 杯 oder 碗). Bei Blumen zählt 一盆花 (yì pén huā) die Pflanze im Topf, 一朵花 (yì duǒ huā) eine einzelne Blüte, 一束花 (yí shù huā) einen Strauß. Für Flüssigkeiten passt 盆 zu großen, offenen Gefäßen; eine Schale Reis ist dagegen 一碗饭 (yì wǎn fàn). Redewendung: 泼冷水 (pō lěngshuǐ) „kaltes Wasser drübergießen“, also jemandes Begeisterung dämpfen. Das leere Gefäß selbst zählt man mit 个: 一个盆.",
       "nouns": ["w:花:hua1","w:花:hua1#2"],
       "nounCount": 2,
       "vocabId": "w:盆:pen2",
       "legacyIds": ["盆"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:时",
@@ -3358,10 +3556,18 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zeit",
       "category": "Zeit",
+      "meaning": "Uhr (Uhrzeit, formell und schriftlich)",
+      "usage": "Gibt in formellen und schriftlichen Texten – Nachrichten, Fahrplänen, Bekanntmachungen – die Uhrzeit an und entspricht dem umgangssprachlichen 点.",
       "questionWord": "几时",
+      "examples": [
+        {"chinese":"会议定于明天上午九时开始。","pinyin":"Huìyì dìng yú míngtiān shàngwǔ jiǔ shí kāishǐ.","german":"Die Sitzung beginnt morgen um 9 Uhr."},
+        {"chinese":"本店营业时间为早上八时至晚上九时。","pinyin":"Běn diàn yíngyè shíjiān wéi zǎoshang bā shí zhì wǎnshang jiǔ shí.","german":"Unser Geschäft ist von 8 bis 21 Uhr geöffnet."},
+        {"chinese":"据报道，地震发生在凌晨三时二十分。","pinyin":"Jù bàodào, dìzhèn fāshēng zài língchén sān shí èrshí fēn.","german":"Berichten zufolge ereignete sich das Erdbeben um 3:20 Uhr morgens."}
+      ],
+      "notes": "Merkhilfe: 时 ist das „amtliche“ 点 – Nachrichten und Aushänge schreiben 九时, im Gespräch sagt man 九点 (jiǔ diǎn). Minuten folgen wie bei 点: 三时二十分 „3:20 Uhr“. Für eine Dauer nimmt man 小时 (xiǎoshí): 两个小时 „zwei Stunden“, nicht 两时. 几时 (jǐshí) fragt nach dem Zeitpunkt („wann?“) und klingt altmodisch oder regional; üblicher sind 什么时候 (shénme shíhou) und 几点 (jǐ diǎn). In alten Texten bezeichnet 时 auch eine Doppelstunde, vgl. 时辰 (shíchen). Kein 个 vor 时.",
       "vocabId": "w:时:shi2",
       "syllabus": {"vocab":[{"no":431,"level":"HSK2","pos":"名、（量）","measureLevel":"HSK6"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:版",
@@ -3372,18 +3578,19 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Literatur",
-      "meaning": "Auflage, Edition",
-      "usage": "Für Auflagen und Editionen von Büchern und Medien",
+      "meaning": "Auflage, Ausgabe; Zeitungsseite",
+      "usage": "Zählt Auflagen und Ausgaben von Büchern und anderen Veröffentlichungen sowie die Seiten einer Zeitung, meist mit 第 als Ordnungszahl.",
       "questionWord": "几版",
       "examples": [
-        {"chinese":"第三版","pinyin":"dì sān bǎn","german":"die dritte Auflage"},
-        {"chinese":"这本书已经出了五版了。","pinyin":"zhè běn shū yǐjīng chū le wǔ bǎn le.","german":"Dieses Buch hat bereits fünf Auflagen hinter sich."}
+        {"chinese":"这本词典已经出到第七版了。","pinyin":"Zhè běn cídiǎn yǐjīng chū dào dì qī bǎn le.","german":"Dieses Wörterbuch ist schon in der siebten Auflage erschienen."},
+        {"chinese":"这条新闻登在今天报纸的头版上。","pinyin":"Zhè tiáo xīnwén dēng zài jīntiān bàozhǐ de tóubǎn shang.","german":"Die Meldung steht heute auf der Titelseite der Zeitung."},
+        {"chinese":"这本小说先后出了三版，每版都卖得很好。","pinyin":"Zhè běn xiǎoshuō xiānhòu chū le sān bǎn, měi bǎn dōu mài de hěn hǎo.","german":"Der Roman ist in drei Auflagen erschienen, und jede hat sich gut verkauft."}
       ],
-      "notes": "Für Buch- und Softwareversionen. Auch: Seite einer Zeitung (第一版 = Titelseite).",
+      "notes": "Merkhilfe: 版 bedeutet auch „Druckplatte“ – jede neue Platte ergibt eine neue Auflage oder eine neue Zeitungsseite; daher auch 出版 (chūbǎn) „veröffentlichen“. Typisch ist die Ordnungszahl: 第二版 (dì èr bǎn) „zweite Auflage“, 头版 (tóubǎn) „Titelseite“. Nicht verwechseln mit 本 (běn): 一本书 zählt das einzelne Exemplar, 版 die Auflage. Bei Software und Geräten spricht man eher von 版本 (bǎnběn) „Version“ oder 新版 (xīnbǎn) „neue Version“. 个 ist hier kein Ersatz.",
       "vocabId": "w:版:ban3",
       "syllabus": {"vocab":[{"no":3616,"level":"HSK6","pos":"名、量","measureLevel":"HSK6"}]},
       "legacyIds": ["版"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:成",
@@ -3395,10 +3602,17 @@ window.MEASURE_WORDS_DATA = {
       "kind": "Maßeinheit",
       "category": "Mengen",
       "meaning": "Zehntel; zehn Prozent",
-      "questionWord": "多少成",
+      "usage": "Gibt Anteile in Zehnteln an, etwa bei Wahrscheinlichkeiten, Erträgen, Zuwächsen oder Preisnachlässen: 三成 sind 30 Prozent.",
+      "questionWord": "几成",
+      "examples": [
+        {"chinese":"这次考试我有八成把握能通过。","pinyin":"Zhè cì kǎoshì wǒ yǒu bā chéng bǎwò néng tōngguò.","german":"Ich bin mir zu achtzig Prozent sicher, dass ich die Prüfung diesmal bestehe."},
+        {"chinese":"今年的产量比去年增加了两成。","pinyin":"Jīnnián de chǎnliàng bǐ qùnián zēngjiā le liǎng chéng.","german":"Die Produktion ist dieses Jahr um zwanzig Prozent gegenüber dem Vorjahr gestiegen."},
+        {"chinese":"我们班七成的学生都住在学校附近。","pinyin":"Wǒmen bān qī chéng de xuésheng dōu zhù zài xuéxiào fùjìn.","german":"Siebzig Prozent unserer Klasse wohnen in der Nähe der Schule."}
+      ],
+      "notes": "Merkhilfe: 成 teilt das Ganze in zehn Teile – 一成 = 10 %, 九成 (jiǔ chéng) = 90 %; 十成把握 (shí chéng bǎwò) heißt „hundertprozentig sicher“. Vorsicht beim Preis: 打八折 (dǎ bā zhé) heißt „20 % Rabatt“, denn man zahlt acht Zehntel; mit 成 nennt man dagegen den Nachlass selbst: 便宜两成 (piányi liǎng chéng) „20 % billiger“. Vor 成 steht meist 两 (两成), seltener 二成. Kein 个 dazwischen. Daneben ist 成 als Verb „werden, gelingen“ sehr häufig, etwa in 成功 (chénggōng) „Erfolg“.",
       "vocabId": "w:成:cheng2",
       "syllabus": {"vocab":[{"no":3756,"level":"HSK6","pos":"量","measureLevel":"HSK6"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:尺",
@@ -3409,11 +3623,18 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Maßeinheit",
       "category": "Masseinheiten",
-      "meaning": "Chi (chinesischer Fuß, ⅓ Meter); Lineal",
-      "questionWord": "多少尺",
+      "meaning": "Chi (chinesischer Fuß, ⅓ Meter)",
+      "usage": "Traditionelles chinesisches Längenmaß (zehn 寸, rund 33 cm), heute noch bei Bundweiten, Stoff, Schneehöhen und in Redewendungen.",
+      "questionWord": "几尺",
+      "examples": [
+        {"chinese":"这条裤子的腰围是二尺四。","pinyin":"Zhè tiáo kùzi de yāowéi shì èr chǐ sì.","german":"Diese Hose hat eine Bundweite von 2 Chi 4 (etwa 80 cm)."},
+        {"chinese":"昨晚下了一场大雪，地上的雪有一尺多厚。","pinyin":"Zuówǎn xià le yì cháng dà xuě, dìshang de xuě yǒu yì chǐ duō hòu.","german":"Letzte Nacht hat es heftig geschneit, der Schnee liegt über dreißig Zentimeter hoch."},
+        {"chinese":"妈妈买了三尺布，给我做了一条裙子。","pinyin":"Māma mǎi le sān chǐ bù, gěi wǒ zuò le yì tiáo qúnzi.","german":"Mama hat einen Meter Stoff gekauft und mir einen Rock genäht."}
+      ],
+      "notes": "Merkhilfe: 三尺 = ein Meter – drei 尺 ergeben genau einen Meter. Ein 尺 hat zehn 寸 (cùn). Offiziell misst man heute in 米 (mǐ) und 厘米 (límǐ), 尺 lebt aber im Alltag weiter, etwa bei Hosenbundweiten: 二尺四 (èr chǐ sì) „2 Chi 4“, ca. 80 cm. Bei Maßen mit Rest ist 二 üblich; sonst hört man 两尺 und 二尺 (èr chǐ) gleichermaßen, wie bei traditionellen Maßen üblich. Kein 个: 三尺布. Redensart: 得寸进尺 (dé cùn jìn chǐ) „man reicht den kleinen Finger, und schon wird die ganze Hand genommen“. Das Lineal heißt 尺子 (chǐzi) und wird mit 把 gezählt; 英尺 (yīngchǐ) ist der englische Fuß.",
       "vocabId": "w:尺:chi3",
       "syllabus": {"vocab":[{"no":3771,"level":"HSK6","pos":"量、名","measureLevel":"HSK6"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:串",
@@ -3424,20 +3645,24 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Essen",
-      "meaning": "Schnur, Kette, Spieß",
-      "usage": "Für aufgereihte oder aufgefädelte Dinge",
+      "meaning": "Schnur, Traube, Bund, Spieß – für Aufgereihtes",
+      "usage": "Zählt Dinge, die an einer Schnur, einem Ring, Stiel oder Spieß aneinanderhängen: Weintrauben, Schlüssel, Perlen, Knallkörper, Fleischspieße; übertragen auch Folgen wie Fußspuren oder Zahlen.",
       "questionWord": "几串",
-      "examples": [
-        {"chinese":"一串葡萄","pinyin":"yī chuàn pútáo","german":"eine Traube Weintrauben"},
-        {"chinese":"两串烤肉","pinyin":"liǎng chuàn kǎoròu","german":"zwei Fleischspiesse"}
+      "specialForms": [
+        {"form":"一连串","explanation":"„eine ganze Reihe, eine Kette von …“: 一连串的问题 (wèntí) „eine Reihe von Problemen“."}
       ],
-      "notes": "Für Trauben, Schlüssel an einem Ring, Fleischspiesse (烤串) und Perlenketten.",
+      "examples": [
+        {"chinese":"春节那天，爷爷在门口放了一串鞭炮。","pinyin":"Chūnjié nà tiān, yéye zài ménkǒu fàng le yí chuàn biānpào.","german":"Am Frühlingsfest zündete Opa vor der Haustür eine Kette Böller."},
+        {"chinese":"她从包里拿出一串钥匙。","pinyin":"Tā cóng bāo li ná chū yí chuàn yàoshi.","german":"Sie holte einen Schlüsselbund aus der Tasche."},
+        {"chinese":"我们点了二十串羊肉串和两瓶啤酒。","pinyin":"Wǒmen diǎn le èrshí chuàn yángròuchuàn hé liǎng píng píjiǔ.","german":"Wir haben zwanzig Lammspieße und zwei Flaschen Bier bestellt."}
+      ],
+      "notes": "Merkhilfe: 串 sieht aus wie zwei Stücke auf einem Spieß – alles Aufgefädelte zählt man damit: 一串葡萄 (yí chuàn pútao) „eine Weintraube“, 一串珍珠 (zhēnzhū) „eine Perlenkette“, 一串钥匙 (yàoshi) „ein Schlüsselbund“. Bei Knallkörpern sind 一串鞭炮 und 一挂鞭炮 (yí guà biānpào) beide üblich; 挂 betont das Aufhängen. Fleischspieße heißen selbst 串 – 烤串 (kǎochuàn) –, daher 十串羊肉串 (yángròuchuàn). Übertragen: 一串脚印 (jiǎoyìn) „eine Spur von Fußabdrücken“, 一串数字 (shùzì) „eine Zahlenfolge“. 个 ist hier kaum üblich.",
       "nouns": ["w:鞭炮:bian1pao4"],
       "nounCount": 1,
       "vocabId": "w:串:chuan4",
       "syllabus": {"vocab":[{"no":3809,"level":"HSK6","pos":"名、量","measureLevel":"HSK6"}],"grammar":[{"no":413,"level":"HSK6","item":"名量词"}]},
       "legacyIds": ["串"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:寸",
@@ -3448,11 +3673,18 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Maßeinheit",
       "category": "Masseinheiten",
-      "meaning": "Cun (chinesisches Längenmaß, ca. 3,3 cm); Zoll (bei Bildschirmen, Fotos)",
+      "meaning": "Cun (ca. 3,3 cm); Zoll (bei Bildschirmen, Koffern, Fotos)",
+      "usage": "Traditionelles Längenmaß (ein Zehntel 尺); im Alltag heute meist der Zoll bei Bildschirmen, Koffern und Passfotos.",
       "questionWord": "多少寸",
+      "examples": [
+        {"chinese":"办签证需要两张一寸的照片。","pinyin":"Bàn qiānzhèng xūyào liǎng zhāng yí cùn de zhàopiàn.","german":"Für das Visum braucht man zwei Passbilder im Ein-Zoll-Format (2,5 × 3,5 cm)."},
+        {"chinese":"我家的电视是六十五寸的。","pinyin":"Wǒ jiā de diànshì shì liùshíwǔ cùn de.","german":"Unser Fernseher hat 65 Zoll."},
+        {"chinese":"这个行李箱是二十寸的，可以带上飞机。","pinyin":"Zhège xínglixiāng shì èrshí cùn de, kěyǐ dài shang fēijī.","german":"Dieser Koffer hat 20 Zoll und darf mit in die Kabine."}
+      ],
+      "notes": "Merkhilfe: Stell dir eine Daumenbreite vor – so lang ist ungefähr ein 寸 und auch ein Zoll. Traditionell gilt: 十寸 = 一尺 (yì chǐ), ein 寸 also rund 3,3 cm. Im Alltag meint 寸 heute meist den englischen Zoll, 英寸 (yīngcùn) mit 2,54 cm: 五十五寸的电视 (diànshì) „ein 55-Zoll-Fernseher“, 二十寸的行李箱 (xínglixiāng) „ein 20-Zoll-Koffer“. Passfotos heißen nach ihrem Format 一寸照片 und 二寸照片 (zhàopiàn). Kein 个 dazwischen. Redewendung: 寸步难行 (cùn bù nán xíng) „keinen Schritt vorankommen“.",
       "vocabId": "w:寸:cun4",
       "syllabus": {"vocab":[{"no":3831,"level":"HSK6","pos":"量","measureLevel":"HSK6"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:滴",
@@ -3463,20 +3695,21 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Natur",
-      "meaning": "Tropfen",
-      "usage": "Für Flüssigkeitstropfen",
+      "meaning": "Tropfen (von Flüssigkeiten)",
+      "usage": "Zählt einzelne Tropfen von Flüssigkeiten: Wasser, Regen, Tränen, Schweiß, Blut, Öl oder Medizin.",
       "questionWord": "几滴",
       "examples": [
-        {"chinese":"一滴水","pinyin":"yī dī shuǐ","german":"ein Tropfen Wasser"},
-        {"chinese":"几滴眼泪","pinyin":"jǐ dī yǎnlèi","german":"ein paar Tränen"}
+        {"chinese":"她听完这个消息，流下了几滴眼泪。","pinyin":"Tā tīng wán zhège xiāoxi, liú xià le jǐ dī yǎnlèi.","german":"Als sie die Nachricht hörte, kamen ihr ein paar Tränen."},
+        {"chinese":"这种眼药水每天滴两次，每次两滴。","pinyin":"Zhè zhǒng yǎnyàoshuǐ měi tiān dī liǎng cì, měi cì liǎng dī.","german":"Diese Augentropfen nimmt man zweimal täglich, jeweils zwei Tropfen."},
+        {"chinese":"我们要节约用水，一滴水也不浪费。","pinyin":"Wǒmen yào jiéyuē yòng shuǐ, yì dī shuǐ yě bú làngfèi.","german":"Wir sollen sparsam mit Wasser umgehen und keinen Tropfen verschwenden."}
       ],
-      "notes": "Für alle Arten von Flüssigkeitstropfen: Wasser, Blut, Tränen, Öl usw.",
+      "notes": "Merkhilfe: Das Wasser-Radikal 氵 verrät es – 滴 zählt Flüssiges, Tropfen für Tropfen. Ist etwas großflächig nass, nimmt man andere Zählwörter: 一头汗 (yì tóu hàn) „Schweiß auf der ganzen Stirn“, 一身汗 (yì shēn hàn) „am ganzen Körper verschwitzt“, 一片血 (yí piàn xuè) oder 一滩血 (yì tān xuè) „eine Blutlache“. Häufig ist 一滴…也不/没 „kein einziger Tropfen“. Als Verb heißt 滴 „tropfen, träufeln“: 滴眼药水 (dī yǎnyàoshuǐ) „Augentropfen nehmen“. 个 ist kein Ersatz.",
       "nouns": ["w:汗:han4","w:眼泪:yan3lei4","w:血:xue4"],
       "nounCount": 3,
       "vocabId": "w:滴:di1",
       "syllabus": {"vocab":[{"no":3887,"level":"HSK6","pos":"动、量","measureLevel":"HSK6"}],"grammar":[{"no":413,"level":"HSK6","item":"名量词"}]},
       "legacyIds": ["滴"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:顶",
@@ -3487,20 +3720,21 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Objekte",
-      "meaning": "Stück (Hut/Zelt)",
-      "usage": "Für Dinge mit einer Spitze oder Kuppel: Hüte, Mützen, Zelte",
+      "meaning": "für Hüte, Mützen, Zelte und anderes mit Dach oder Kuppel",
+      "usage": "Zählt Kopfbedeckungen wie Hüte, Mützen und Helme sowie Dinge mit einem Dach oder einer Kuppel: Zelte, Moskitonetze, Sänften.",
       "questionWord": "几顶",
       "examples": [
-        {"chinese":"一顶帽子","pinyin":"yī dǐng màozi","german":"ein Hut"},
-        {"chinese":"两顶帐篷","pinyin":"liǎng dǐng zhàngpéng","german":"zwei Zelte"}
+        {"chinese":"他戴着一顶黑色的帽子。","pinyin":"Tā dài zhe yì dǐng hēisè de màozi.","german":"Er trägt einen schwarzen Hut."},
+        {"chinese":"我们在湖边搭了两顶帐篷。","pinyin":"Wǒmen zài hú biān dā le liǎng dǐng zhàngpeng.","german":"Wir haben am See zwei Zelte aufgeschlagen."},
+        {"chinese":"每张床上都挂着一顶蚊帐。","pinyin":"Měi zhāng chuáng shang dōu guà zhe yì dǐng wénzhàng.","german":"Über jedem Bett hängt ein Moskitonetz."}
       ],
-      "notes": "顶 bedeutet wörtlich 'Spitze/Gipfel'. Als Zählwort für Hüte, Mützen, Helme und Zelte.",
+      "notes": "Merkhilfe: 顶 heißt „Scheitel, Spitze, Dach“ – gezählt wird, was oben aufsitzt oder ein Dach bildet. Bei Hüten und Mützen ist 一顶帽子 (yì dǐng màozi) üblich, umgangssprachlich hört man auch 一个帽子. Auch Helme zählt man so: 一顶头盔 (yì dǐng tóukuī). Für Zelte sind 一顶帐篷 (zhàngpeng) und 一个帐篷 verbreitet; 座 (zuò) passt eher zu großen, fest stehenden Zelten und zu Bauwerken. Als Verb bedeutet 顶 „auf dem Kopf tragen; dagegenhalten“.",
       "nouns": ["w:帽子:mao4zi5","w:蚊帐:wen2zhang4","w:帐篷:zhang4peng5"],
       "nounCount": 3,
       "vocabId": "w:顶:ding3",
       "syllabus": {"vocab":[{"no":3908,"level":"HSK6","pos":"名、动、量","measureLevel":"HSK6"}]},
       "legacyIds": ["顶"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:栋",
@@ -3511,20 +3745,21 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Gebaeude",
-      "meaning": "Gebäude / Haus",
-      "usage": "Für einzelne Gebäude und Häuser.",
+      "meaning": "für ganze Gebäude und Häuser",
+      "usage": "Zählt ganze Gebäude: Wohnhäuser, Hochhäuser, Bürogebäude, Villen oder Wohnblöcke.",
       "questionWord": "几栋",
       "examples": [
-        {"chinese":"这栋楼有二十层。","pinyin":"Zhè dòng lóu yǒu èrshí céng.","german":"Dieses Gebäude hat zwanzig Stockwerke."},
-        {"chinese":"我们住在那栋楼。","pinyin":"Wǒmen zhù zài nà dòng lóu.","german":"Wir wohnen in jenem Gebäude."}
+        {"chinese":"这栋楼一共有三十层。","pinyin":"Zhè dòng lóu yígòng yǒu sānshí céng.","german":"Dieses Hochhaus hat insgesamt dreißig Stockwerke."},
+        {"chinese":"他们在郊区买了一栋房子。","pinyin":"Tāmen zài jiāoqū mǎi le yí dòng fángzi.","german":"Sie haben sich am Stadtrand ein Haus gekauft."},
+        {"chinese":"我们公司在那栋办公楼的十二层。","pinyin":"Wǒmen gōngsī zài nà dòng bàngōnglóu de shí'èr céng.","german":"Unsere Firma sitzt im zwölften Stock des Bürogebäudes dort drüben."}
       ],
-      "notes": "栋 eher für gewöhnliche Gebäude; 座 für imposante Bauwerke.",
+      "notes": "Merkhilfe: 栋 hat das Holz-Radikal 木 und bezeichnete früher den Dachfirst – heute zählt es das ganze Haus unter dem First. 栋 und 幢 (zhuàng) sind praktisch gleichbedeutend, 栋 ist im Alltag häufiger. 座 (zuò) passt ebenfalls zu Gebäuden, klingt bei großen oder imposanten Bauten passender und zählt auch Berge, Brücken und Städte. Nicht verwechseln: 层 (céng) zählt Stockwerke, 套 (tào) Wohnungen, 间 (jiān) Zimmer. Umgangssprachlich hört man auch 一个楼, üblicher ist aber 一栋楼 (yí dòng lóu).",
       "nouns": ["w:楼:lou2","w:房子:fang2zi5","w:建筑:jian4zhu4","w:办公楼:ban4gong1lou2"],
       "nounCount": 4,
       "vocabId": "w:栋:dong4",
       "syllabus": {"vocab":[{"no":3916,"level":"HSK6","pos":"量","measureLevel":"HSK6"}]},
       "legacyIds": ["栋"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:番",
@@ -3535,20 +3770,25 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Verbal",
       "category": "Handlungen",
-      "meaning": "Mal, Runde (Anstrengung)",
-      "usage": "Für Anstrengungen, Bemühungen und gründliche Durchgänge",
+      "meaning": "Mal, Runde (mit Mühe und Zeitaufwand); auch beim Verdoppeln",
+      "usage": "Zählt Handlungen, die Zeit und Mühe kosten (gründlich überlegen, ausführlich erklären, kräftig loben oder tadeln), meist als 一番. Nach 翻 zählt es Verdopplungen.",
       "questionWord": "几番",
-      "examples": [
-        {"chinese":"一番努力","pinyin":"yī fān nǔlì","german":"eine Runde Anstrengung"},
-        {"chinese":"一番话","pinyin":"yī fān huà","german":"eine längere Ansprache"}
+      "specialForms": [
+        {"form":"翻一番","explanation":"„sich verdoppeln“; 翻两番 (fān liǎng fān) heißt „sich vervierfachen“ (zweimal verdoppeln)."},
+        {"form":"三番五次","explanation":"„immer wieder, x-mal“: 他三番五次地提醒我 (tíxǐng) „er hat mich wieder und wieder erinnert“."}
       ],
-      "notes": "Betont Gründlichkeit: 一番考虑 (reifliche Überlegung), 一番苦心 (viel Mühe).",
+      "examples": [
+        {"chinese":"他把我狠狠地批评了一番。","pinyin":"Tā bǎ wǒ hěnhěn de pīpíng le yì fān.","german":"Er hat mich ordentlich zurechtgewiesen."},
+        {"chinese":"经过一番努力，她终于考上了大学。","pinyin":"Jīngguò yì fān nǔlì, tā zhōngyú kǎo shang le dàxué.","german":"Nach großer Anstrengung hat sie es endlich an die Uni geschafft."},
+        {"chinese":"这几年公司的收入翻了一番。","pinyin":"Zhè jǐ nián gōngsī de shōurù fān le yì fān.","german":"In den letzten Jahren haben sich die Einnahmen der Firma verdoppelt."}
+      ],
+      "notes": "Merkhilfe: 番 ist eine „Runde mit Aufwand“ – wer etwas 一番 tut, tut es gründlich: 打扮一番 (dǎban yì fān) „sich schick machen“, 研究一番 (yánjiū yì fān) „gründlich untersuchen“. Anders als 次 (cì), das neutral zählt, klingt 番 schriftsprachlich und betont Dauer und Mühe; meist steht nur 一番. 顿 (dùn) zählt ebenfalls Schelte, klingt aber derber: 骂了一顿 (mà le yí dùn). Vor Nomen: 一番话 (yì fān huà) „eine (wohlüberlegte) Rede“, 别有一番滋味 (bié yǒu yì fān zīwèi) „einen ganz eigenen Reiz haben“. 个 ist kein Ersatz.",
       "nouns": ["w:批评:pi1ping2","w:教训:jiao4xun5","w:劝告:quan4gao4","w:周折:zhou1zhe2"],
       "nounCount": 4,
       "vocabId": "w:番:fan1",
       "syllabus": {"vocab":[{"no":3962,"level":"HSK6","pos":"量","measureLevel":"HSK6"}],"grammar":[{"no":414,"level":"HSK6","item":"动量词"}]},
       "legacyIds": ["番"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:毫米",
@@ -3560,10 +3800,17 @@ window.MEASURE_WORDS_DATA = {
       "kind": "Maßeinheit",
       "category": "Masseinheiten",
       "meaning": "Millimeter (mm)",
+      "usage": "Metrisches Längenmaß (ein Tausendstel Meter) für kleine Längen und Dicken, auch für Niederschlagsmengen.",
       "questionWord": "多少毫米",
+      "examples": [
+        {"chinese":"这块玻璃厚五毫米。","pinyin":"Zhè kuài bōli hòu wǔ háomǐ.","german":"Diese Glasscheibe ist fünf Millimeter dick."},
+        {"chinese":"昨天北京的降雨量达到了一百二十毫米。","pinyin":"Zuótiān Běijīng de jiàngyǔliàng dádào le yìbǎi èrshí háomǐ.","german":"Gestern fielen in Peking 120 Millimeter Regen."},
+        {"chinese":"误差不能超过零点五毫米。","pinyin":"Wùchā bù néng chāoguò líng diǎn wǔ háomǐ.","german":"Die Abweichung darf höchstens 0,5 Millimeter betragen."}
+      ],
+      "notes": "Merkhilfe: 毫 bedeutet „feines Härchen“, also etwas winzig Kleines – 毫 vor einer Einheit macht daraus ein Tausendstel: 毫米 „Millimeter“, 毫升 (háoshēng) „Milliliter“, 毫克 (háokè) „Milligramm“. Der Zentimeter heißt 厘米 (límǐ). Wie alle Maßeinheiten ohne 个: 三毫米 (sān háomǐ). Vor 毫米 hört man meist 两 (两毫米), in technischen Angaben auch 二. In Texten steht oft einfach „mm“.",
       "vocabId": "w:毫米:hao2mi3",
       "syllabus": {"vocab":[{"no":4130,"level":"HSK6","pos":"量","measureLevel":"HSK6"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:毫升",
@@ -3575,10 +3822,17 @@ window.MEASURE_WORDS_DATA = {
       "kind": "Maßeinheit",
       "category": "Masseinheiten",
       "meaning": "Milliliter (ml)",
+      "usage": "Metrisches Hohlmaß (ein Tausendstel Liter) für kleine Flüssigkeitsmengen: Getränke, Medikamente, Kosmetik, Zutaten.",
       "questionWord": "多少毫升",
+      "examples": [
+        {"chinese":"这瓶矿泉水是五百五十毫升的。","pinyin":"Zhè píng kuàngquánshuǐ shì wǔbǎi wǔshí háoshēng de.","german":"Diese Flasche Mineralwasser enthält 550 Milliliter."},
+        {"chinese":"这种药水每次喝十毫升，一天三次。","pinyin":"Zhè zhǒng yàoshuǐ měi cì hē shí háoshēng, yì tiān sān cì.","german":"Von dieser Arznei nimmt man jeweils zehn Milliliter, dreimal am Tag."},
+        {"chinese":"坐飞机时，随身带的液体每瓶不能超过一百毫升。","pinyin":"Zuò fēijī shí, suíshēn dài de yètǐ měi píng bù néng chāoguò yìbǎi háoshēng.","german":"Im Handgepäck darf jeder Behälter mit Flüssigkeit höchstens 100 Milliliter fassen."}
+      ],
+      "notes": "Merkhilfe: 毫 „Härchen“ steht für das Tausendstel, 升 (shēng) ist der Liter – 毫升 ist also der tausendste Teil eines Liters, so wie 毫米 (háomǐ) der eines Meters. Auf Verpackungen steht meist „ml“. Kein 个 dazwischen: 十毫升 (shí háoshēng). Bei Hunderten sind 两百毫升 und 二百毫升 (èrbǎi háoshēng) beide üblich. Im Gespräch über Getränke nennt man oft nur die Zahl mit 毫升: 五百毫升的可乐 (kělè) „eine 0,5-Liter-Cola“.",
       "vocabId": "w:毫升:hao2sheng1",
       "syllabus": {"vocab":[{"no":4131,"level":"HSK6","pos":"量","measureLevel":"HSK6"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:户",
@@ -3589,13 +3843,23 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Menschen",
-      "meaning": "Zählwort für Haushalte und Familien; Haushalt; Familie",
+      "meaning": "für Haushalte und Familien (Wohnparteien)",
+      "usage": "Zählt Haushalte, Familien und Wohnparteien, vor allem in Statistiken, Behördensprache und bei der Beschreibung von Dörfern und Wohnhäusern.",
       "questionWord": "几户",
+      "specialForms": [
+        {"form":"家家户户","explanation":"„jeder Haushalt, überall“: 春节家家户户贴春联 (tiē chūnlián) „zum Frühlingsfest klebt jeder Haushalt Spruchbänder an die Tür“."}
+      ],
+      "examples": [
+        {"chinese":"这个村子一共住着八十多户人家。","pinyin":"Zhège cūnzi yígòng zhù zhe bāshí duō hù rénjiā.","german":"In diesem Dorf leben insgesamt über achtzig Familien."},
+        {"chinese":"我们这栋楼每层住四户。","pinyin":"Wǒmen zhè dòng lóu měi céng zhù sì hù.","german":"In unserem Haus wohnen auf jeder Etage vier Parteien."},
+        {"chinese":"今年全市有两千多户家庭领到了补贴。","pinyin":"Jīnnián quán shì yǒu liǎngqiān duō hù jiātíng lǐng dào le bǔtiē.","german":"Dieses Jahr haben in der ganzen Stadt über zweitausend Haushalte einen Zuschuss erhalten."}
+      ],
+      "notes": "Merkhilfe: 户 ist ursprünglich eine einflügelige Tür – jede Tür steht für einen Haushalt. Häufig zusammen mit 人家 (rénjiā): 几户人家 „ein paar Familien“. Im Unterschied zu 家 (jiā), das als Zählwort auch Firmen, Läden und Restaurants zählt (一家饭店, yì jiā fàndiàn), zählt 户 Haushalte und klingt amtlicher; im Gespräch zählt man Familien oft auch mit 家: 楼上住着三家 (lóushàng) „oben wohnen drei Familien“. Verwandt: 户口 (hùkǒu) „Haushaltsregistrierung“. Kein 个 vor 户.",
       "nouns": ["w:家庭:jia1ting2"],
       "nounCount": 1,
       "vocabId": "w:户:hu4",
       "syllabus": {"vocab":[{"no":4160,"level":"HSK6","pos":"量","measureLevel":"HSK6"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:环",
@@ -3606,11 +3870,18 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Maßeinheit",
       "category": "Masseinheiten",
-      "meaning": "Zählwort für Ringe (Schießsport)",
-      "questionWord": "多少环",
+      "meaning": "Ring (Trefferwertung beim Schießen und Bogenschießen)",
+      "usage": "Zählt Ringe als Punktwertung im Schieß- und Bogensport; ein Treffer ins Zentrum bringt zehn Ringe.",
+      "questionWord": "几环",
+      "examples": [
+        {"chinese":"她最后一枪打出了十环。","pinyin":"Tā zuìhòu yì qiāng dǎ chū le shí huán.","german":"Mit dem letzten Schuss traf sie die Zehn."},
+        {"chinese":"比赛中，我们队比对手多了三环。","pinyin":"Bǐsài zhōng, wǒmen duì bǐ duìshǒu duō le sān huán.","german":"Im Wettkampf lag unser Team drei Ringe vor der Konkurrenz."},
+        {"chinese":"这一枪只有七环，有点儿可惜。","pinyin":"Zhè yì qiāng zhǐ yǒu qī huán, yǒudiǎnr kěxī.","german":"Dieser Schuss war nur eine Sieben – schade."}
+      ],
+      "notes": "Merkhilfe: 环 ist der „Ring“ – auf der Zielscheibe zählt jeder Ring einen Punkt, der innerste ist 十环 (shí huán) „die Zehn“. Gezählt werden also Punkte, nicht Schüsse: Schüsse zählt man mit 枪 (qiāng) oder 发 (fā), z. B. 打了十枪 „zehnmal geschossen“. Kein 个 dazwischen: 九环. Als Nomen heißt 环 „Ring, Kettenglied“, etwa 耳环 (ěrhuán) „Ohrring“; übertragen „Glied, Bestandteil“: 重要的一环 (zhòngyào de yì huán) „ein wichtiges Glied (einer Kette)“.",
       "vocabId": "w:环:huan2",
       "syllabus": {"vocab":[{"no":4176,"level":"HSK6","pos":"名、量、动","measureLevel":"HSK6"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:局",
@@ -3621,20 +3892,24 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Abstrakt",
-      "meaning": "Partie, Runde (Spiel)",
-      "usage": "Für Partien von Brett- und Kartenspielen",
+      "meaning": "Partie, Runde, Satz (bei Spielen und Sport)",
+      "usage": "Zählt Partien, Runden und Sätze bei Brett-, Karten- und Ballspielen wie Schach, Mahjong, Tischtennis oder Volleyball.",
       "questionWord": "几局",
-      "examples": [
-        {"chinese":"下了三局棋","pinyin":"xià le sān jú qí","german":"drei Partien Schach gespielt"},
-        {"chinese":"赢了两局","pinyin":"yíng le liǎng jú","german":"zwei Runden gewonnen"}
+      "specialForms": [
+        {"form":"三局两胜","explanation":"„Best of three“: Wer zuerst zwei von drei Sätzen oder Partien gewinnt, siegt; ebenso 五局三胜 (wǔ jú sān shèng)."}
       ],
-      "notes": "Für Spielrunden: Schach, Karten, Tischtennis, Videospiele. 三局两胜 = 'Best of Three'.",
+      "examples": [
+        {"chinese":"周末我们几个朋友在家打了几局麻将。","pinyin":"Zhōumò wǒmen jǐ ge péngyou zài jiā dǎ le jǐ jú májiàng.","german":"Am Wochenende haben wir in kleiner Runde zu Hause ein paar Partien Mahjong gespielt."},
+        {"chinese":"这场乒乓球比赛他们打了五局。","pinyin":"Zhè chǎng pīngpāngqiú bǐsài tāmen dǎ le wǔ jú.","german":"Dieses Tischtennismatch ging über fünf Sätze."},
+        {"chinese":"他跟爷爷下了三局棋，一局也没赢。","pinyin":"Tā gēn yéye xià le sān jú qí, yì jú yě méi yíng.","german":"Er hat mit Opa drei Partien Schach gespielt und keine einzige gewonnen."}
+      ],
+      "notes": "Merkhilfe: Denk an 棋局 (qíjú), die „Lage auf dem Spielbrett“ – jede neue Aufstellung ergibt eine neue Partie: 下一局棋 (xià yì jú qí) „eine Partie Schach spielen“. 副 (fù) zählt dagegen das Spielmaterial: 一副麻将 (yí fù májiàng) „ein Mahjong-Spiel“, 一副扑克 (pūkè) „ein Kartenspiel“. Im Sport zählt 局 Sätze oder Spiele (Tischtennis, Volleyball, Tennis), 场 (chǎng) das ganze Match: 一场比赛 (yì chǎng bǐsài) hat mehrere 局. Als Nomen heißt 局 auch „Amt, Behörde“: 公安局 (gōng'ānjú) „Polizeibehörde“.",
       "nouns": ["w:麻将:ma2jiang4"],
       "nounCount": 1,
       "vocabId": "w:局:ju2",
       "syllabus": {"vocab":[{"no":4341,"level":"HSK6","pos":"量","measureLevel":"HSK6"}]},
       "legacyIds": ["局"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:卷:juan3",
@@ -3645,11 +3920,18 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Objekte",
-      "meaning": "Zählwort für Gerolltes (Papier, Klebeband)",
+      "meaning": "Rolle (für Aufgerolltes: Papier, Klebeband, Film)",
+      "usage": "Zählt aufgewickelte Dinge wie Toilettenpapier, Klebeband, Draht, Stoffbahnen, Bettzeug oder Filmrollen.",
       "questionWord": "几卷",
+      "examples": [
+        {"chinese":"家里没有卫生纸了，你去超市买两卷吧。","pinyin":"Jiāli méiyǒu wèishēngzhǐ le, nǐ qù chāoshì mǎi liǎng juǎn ba.","german":"Zu Hause ist das Klopapier alle – kauf doch bitte zwei Rollen im Supermarkt."},
+        {"chinese":"我要一卷胶带，把这些箱子封好。","pinyin":"Wǒ yào yì juǎn jiāodài, bǎ zhèxiē xiāngzi fēng hǎo.","german":"Ich brauche eine Rolle Klebeband, um die Kartons zuzukleben."},
+        {"chinese":"以前拍照要用胶卷，一卷只能拍三十六张。","pinyin":"Yǐqián pāizhào yào yòng jiāojuǎn, yì juǎn zhǐ néng pāi sānshíliù zhāng.","german":"Früher fotografierte man mit Film – eine Rolle reichte nur für 36 Bilder."}
+      ],
+      "notes": "Merkhilfe: Zum Verb 卷 juǎn „aufrollen“ gehört das Zählwort 卷 juǎn für alles Aufgerollte. Nicht verwechseln mit 卷 juàn (4. Ton) für Bände und Schriftrollen eines Werks: 第二卷 „Band zwei“. Im Pekinger Alltag oft mit Erhua: 一卷儿纸 (yì juǎnr zhǐ). Toilettenpapier kauft man meist im Paket (一提, yì tí), einzeln zählt man es mit 卷. Umgangssprachlich hört man bei Filmrollen auch 个: 一个胶卷 (jiāojuǎn). Neuerer Slang: 内卷 (nèijuǎn) „sich gegenseitig im Wettbewerb zermürben“.",
       "vocabId": "w:卷:juan3",
       "syllabus": {"vocab":[{"no":4353,"level":"HSK6","pos":"动、名、量","measureLevel":"HSK6"}],"grammar":[{"no":413,"level":"HSK6","item":"名量词"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:卷:juan4",
@@ -3660,18 +3942,19 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Literatur",
-      "meaning": "Band, Rolle (Schriftrolle)",
-      "usage": "Für Bände eines Werkes, Schriftrollen oder aufgerollte Materialien",
+      "meaning": "Band (eines mehrbändigen Werks); Schriftrolle, Bildrolle",
+      "usage": "Zählt Bände und Teile eines größeren Werks sowie alte Schrift- und Bildrollen; oft mit 第 als Ordnungszahl.",
       "questionWord": "几卷",
       "examples": [
-        {"chinese":"这套书一共有五卷。","pinyin":"zhè tào shū yīgòng yǒu wǔ juàn.","german":"Dieses Buchset hat insgesamt fünf Bände."},
-        {"chinese":"一卷卫生纸","pinyin":"yī juàn wèishēngzhǐ","german":"eine Rolle Toilettenpapier"}
+        {"chinese":"这套百科全书一共有二十卷。","pinyin":"Zhè tào bǎikē quánshū yígòng yǒu èrshí juàn.","german":"Diese Enzyklopädie umfasst insgesamt zwanzig Bände."},
+        {"chinese":"我已经看完了第一卷，正在看第二卷。","pinyin":"Wǒ yǐjīng kàn wán le dì yī juàn, zhèngzài kàn dì èr juàn.","german":"Den ersten Band habe ich schon durch, jetzt lese ich den zweiten."},
+        {"chinese":"《史记》一共有一百三十卷。","pinyin":"Shǐjì yígòng yǒu yìbǎi sānshí juàn.","german":"Die „Aufzeichnungen des Chronisten“ (Shiji) umfassen insgesamt 130 Bücher."}
       ],
-      "notes": "Wird sowohl für Bände literarischer Werke als auch für aufgerollte Materialien (Papier, Stoff) verwendet.",
+      "notes": "Merkhilfe: Bücher waren früher Rollen – daher zählt 卷 juàn (4. Ton) bis heute Bände eines Werks, auch wenn sie gebunden sind. Für Aufgerolltes im Alltag (Papier, Klebeband) liest man 卷 dagegen juǎn (3. Ton). 册 (cè) zählt ebenfalls Bände und ist oft austauschbar: 上册 (shàngcè) „erster Band“, 下册 (xiàcè) „zweiter Band“; 本 (běn) zählt das einzelne Buch als Gegenstand. Als Nomen: 试卷 (shìjuàn) „Prüfungsbogen“. Redewendung: 手不释卷 (shǒu bú shì juàn) „das Buch nicht aus der Hand legen“.",
       "vocabId": "w:卷:juan4",
       "syllabus": {"vocab":[{"no":4354,"level":"HSK6","pos":"量、名","measureLevel":"HSK6"}],"grammar":[{"no":413,"level":"HSK6","item":"名量词"}]},
       "legacyIds": ["卷"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:款",
@@ -3682,11 +3965,18 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Objekte",
-      "meaning": "Modell (Zählwort für Produkte)",
+      "meaning": "Modell, Ausführung (von Produkten); Absatz (in Gesetzen)",
+      "usage": "Zählt Modelle und Ausführungen von Produkten wie Handys, Autos, Taschen, Spielen oder Getränken; in Gesetzes- und Vertragstexten auch Absätze.",
       "questionWord": "几款",
+      "examples": [
+        {"chinese":"这款手机的电池特别耐用。","pinyin":"Zhè kuǎn shǒujī de diànchí tèbié nàiyòng.","german":"Der Akku dieses Handymodells hält besonders lange."},
+        {"chinese":"这家店新推出了三款夏季饮料。","pinyin":"Zhè jiā diàn xīn tuīchū le sān kuǎn xiàjì yǐnliào.","german":"Der Laden hat drei neue Sommergetränke herausgebracht."},
+        {"chinese":"这几款包你最喜欢哪一款？","pinyin":"Zhè jǐ kuǎn bāo nǐ zuì xǐhuan nǎ yì kuǎn?","german":"Welche von diesen Taschen gefällt dir am besten?"}
+      ],
+      "notes": "Merkhilfe: 款 heißt auch „Stil, Machart“ – wie in 款式 (kuǎnshì) „Design“ –, und jede Machart ist ein Modell. Anders als 种 (zhǒng) „Sorte, Art“ betont 款 das konkrete Produktdesign und ist in Werbung und Onlineshops sehr häufig: 新款 (xīnkuǎn) „neues Modell“. Mit 个 zählt man dagegen das einzelne Gerät: 这个手机 (shǒujī) „dieses Handy“, 这款手机 „dieses Handymodell“. In Gesetzen gliedern 条 (tiáo) und 款 Paragraf und Absatz: 第五条第二款 „§ 5 Abs. 2“. Als Nomen bedeutet 款 „Geldbetrag“: 付款 (fùkuǎn) „bezahlen“, gezählt mit 笔 (bǐ).",
       "vocabId": "w:款:kuan3",
       "syllabus": {"vocab":[{"no":4405,"level":"HSK6","pos":"名、量","measureLevel":"HSK6"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:粒",
@@ -3697,20 +3987,21 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Essen",
-      "meaning": "Korn, Körnchen",
-      "usage": "Für kleine, runde, kornförmige Dinge",
+      "meaning": "für Körner und sehr kleine runde Dinge",
+      "usage": "Zählt sehr kleine, körnige oder runde Dinge: Reis- und Sandkörner, Samen, Erdnüsse, Bohnen, Perlen, Tabletten oder Bonbons.",
       "questionWord": "几粒",
       "examples": [
-        {"chinese":"一粒米","pinyin":"yī lì mǐ","german":"ein Reiskorn"},
-        {"chinese":"两粒药","pinyin":"liǎng lì yào","german":"zwei Tabletten"}
+        {"chinese":"妈妈常说，碗里一粒米也不要剩。","pinyin":"Māma cháng shuō, wǎn li yí lì mǐ yě búyào shèng.","german":"Mama sagt oft, man soll kein einziges Reiskorn in der Schüssel lassen."},
+        {"chinese":"这种药每天吃两粒，饭后吃。","pinyin":"Zhè zhǒng yào měi tiān chī liǎng lì, fàn hòu chī.","german":"Von diesem Medikament nimmt man täglich zwei Tabletten, nach dem Essen."},
+        {"chinese":"鞋里进了几粒沙子，走路很不舒服。","pinyin":"Xié li jìn le jǐ lì shāzi, zǒulù hěn bù shūfu.","german":"Mir sind ein paar Sandkörner in den Schuh geraten, das Laufen ist richtig unangenehm."}
       ],
-      "notes": "Für sehr kleine, körnige Objekte: Reiskörner, Perlen, Samen, Tabletten, Bonbons.",
+      "notes": "Merkhilfe: 粒 hat das Reis-Radikal 米 – es zählt Dinge, die so klein sind wie ein Reiskorn. Für etwas größere runde Dinge ist 颗 (kē) üblich: 一颗珍珠 (yì kē zhēnzhū), 一颗子弹 (zǐdàn). Bei Perlen, Bonbons, Patronen, Erdnüssen und Bohnen sind 粒 und 颗 beide gebräuchlich; 粒 betont eher das Winzige. Tabletten zählt man mit 粒 oder, bei flachen Tabletten, mit 片 (piàn). Bei Salz und Sand zählt 粒 das einzelne Korn; eine Menge davon ist eher 一点儿盐 (yìdiǎnr yán) oder 一把沙子 (yì bǎ shāzi). Spruch: 粒粒皆辛苦 (lì lì jiē xīnkǔ) „in jedem Korn steckt harte Arbeit“.",
       "nouns": ["w:盐:yan2","w:沙子:sha1zi5","w:玉米:yu4mi3","w:种子:zhong3zi5","w:花生:hua1sheng1","w:糖果:tang2guo3","w:小麦:xiao3mai4","w:珍珠:zhen1zhu1","w:安眠药:an1mian2yao4","w:子弹:zi3dan4","w:冰雹:bing1bao2","w:豆:dou4"],
       "nounCount": 12,
       "vocabId": "w:粒:li4",
       "syllabus": {"vocab":[{"no":4436,"level":"HSK6","pos":"名、量","measureLevel":"HSK6"}]},
       "legacyIds": ["粒"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:轮",
@@ -3721,20 +4012,24 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Abstrakt",
-      "meaning": "Runde, Durchgang",
-      "usage": "Für Runden in Wettbewerben, Verhandlungen und Gesprächen",
+      "meaning": "Runde, Durchgang; gehoben für Sonne und Mond",
+      "usage": "Zählt Runden und Durchgänge von Wettbewerben, Verhandlungen, Bewerbungsverfahren oder Angriffen; gehoben auch Sonne und Mond sowie zwölfjährige Tierkreiszyklen.",
       "questionWord": "几轮",
-      "examples": [
-        {"chinese":"第二轮面试","pinyin":"dì èr lún miànshì","german":"die zweite Runde des Vorstellungsgesprächs"},
-        {"chinese":"三轮谈判","pinyin":"sān lún tánpàn","german":"drei Runden Verhandlungen"}
+      "specialForms": [
+        {"form":"大一轮","explanation":"„einen Tierkreiszyklus (zwölf Jahre) älter“: 他比我大一轮 „er ist zwölf Jahre älter als ich“."}
       ],
-      "notes": "Für Runden in Wettkämpfen, Interviews und Verhandlungen. 一轮明月 = 'ein voller Mond' (poetisch).",
+      "examples": [
+        {"chinese":"双方已经进行了三轮谈判，还没有达成协议。","pinyin":"Shuāngfāng yǐjīng jìnxíng le sān lún tánpàn, hái méiyǒu dáchéng xiéyì.","german":"Beide Seiten haben bereits drei Verhandlungsrunden hinter sich, aber noch keine Einigung erzielt."},
+        {"chinese":"她顺利通过了第一轮面试。","pinyin":"Tā shùnlì tōngguò le dì yī lún miànshì.","german":"Sie hat die erste Runde der Vorstellungsgespräche problemlos geschafft."},
+        {"chinese":"一轮明月挂在天上。","pinyin":"Yì lún míngyuè guà zài tiānshang.","german":"Ein heller, runder Mond steht am Himmel."}
+      ],
+      "notes": "Merkhilfe: 轮 ist das „Rad“ – was sich wie ein Rad einmal herumdreht, ist eine Runde: 第二轮比赛 (dì èr lún bǐsài) „die zweite Wettkampfrunde“. Anders als 次 (cì), das jedes Mal neutral zählt, betont 轮 aufeinanderfolgende Runden; 新一轮 (xīn yì lún) „eine neue Runde“ ist in Nachrichten sehr häufig. 波 (bō) „Welle“ zählt ähnlich Angriffe oder Infektionswellen: 新一波疫情 (yìqíng). Gehoben zählt 轮 runde Himmelskörper: 一轮红日 (yì lún hóngrì), 一轮明月 (míngyuè); im Alltag sagt man meist einfach 月亮 (yuèliang) ohne Zählwort oder 一个月亮.",
       "nouns": ["w:月:yue4","w:谈判:tan2pan4","w:轰炸:hong1zha4"],
       "nounCount": 3,
       "vocabId": "w:轮:lun2",
       "syllabus": {"vocab":[{"no":4475,"level":"HSK6","pos":"名、动、量","measureLevel":"HSK6"}]},
       "legacyIds": ["轮"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:捧",
@@ -3745,11 +4040,18 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Mengen",
-      "meaning": "Zählwort: eine Handvoll (mit beiden Händen)",
+      "meaning": "eine Handvoll (mit beiden hohlen Händen)",
+      "usage": "Zählt, was man mit beiden zusammengelegten, hohlen Händen fassen kann: Wasser, Erde, Sand, Reis, Nüsse oder Bonbons.",
       "questionWord": "几捧",
+      "examples": [
+        {"chinese":"他捧起一捧清水，洗了洗脸。","pinyin":"Tā pěng qǐ yì pěng qīngshuǐ, xǐ le xǐ liǎn.","german":"Er schöpfte mit beiden Händen klares Wasser und wusch sich das Gesicht."},
+        {"chinese":"奶奶给了孩子们一捧花生。","pinyin":"Nǎinai gěi le háizimen yì pěng huāshēng.","german":"Oma gab den Kindern eine Handvoll Erdnüsse."},
+        {"chinese":"离开家乡时，他带走了一捧家乡的泥土。","pinyin":"Líkāi jiāxiāng shí, tā dài zǒu le yì pěng jiāxiāng de nítǔ.","german":"Als er seine Heimat verließ, nahm er eine Handvoll Heimaterde mit."}
+      ],
+      "notes": "Merkhilfe: Das Hand-Radikal 扌 und das Verb 捧 „mit beiden Händen halten“ – 一捧 ist genau so viel, wie in zwei hohle Hände passt. 把 (bǎ) misst dagegen, was eine Hand greift: 一把米 (yì bǎ mǐ) „eine Handvoll Reis“. Im Deutschen heißen beide „Handvoll“, im Chinesischen ist 一捧 die größere Menge. Bei Blumen hört man 一捧花 neben dem üblicheren 一束花 (yí shù huā) „ein Strauß“. Als Verb bedeutet 捧 auch „jemanden hochloben“: 捧场 (pěngchǎng) „unterstützen, Beifall spenden“. 个 ist kein Ersatz.",
       "vocabId": "w:捧:peng3",
       "syllabus": {"vocab":[{"no":4582,"level":"HSK6","pos":"动、量","measureLevel":"HSK6"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:平方",
@@ -3760,10 +4062,18 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Maßeinheit",
       "category": "Masseinheiten",
+      "meaning": "Quadratmeter (umgangssprachlich); Quadrat- (vor Einheiten)",
+      "usage": "Steht im Alltag kurz für 平方米 (píngfāngmǐ) „Quadratmeter“, vor allem bei Wohnungsgrößen; vor anderen Einheiten bildet es Flächenmaße wie 平方公里 (píngfāng gōnglǐ).",
       "questionWord": "多少平方",
+      "examples": [
+        {"chinese":"我们家的房子有九十平方。","pinyin":"Wǒmen jiā de fángzi yǒu jiǔshí píngfāng.","german":"Unsere Wohnung hat neunzig Quadratmeter."},
+        {"chinese":"这套房子一百二十多平方，三室一厅。","pinyin":"Zhè tào fángzi yìbǎi èrshí duō píngfāng, sān shì yì tīng.","german":"Die Wohnung hat gut 120 Quadratmeter, drei Zimmer und ein Wohnzimmer."},
+        {"chinese":"这个国家的面积大约是三十五万平方公里。","pinyin":"Zhège guójiā de miànjī dàyuē shì sānshíwǔ wàn píngfāng gōnglǐ.","german":"Dieses Land ist etwa 350.000 Quadratkilometer groß."}
+      ],
+      "notes": "Merkhilfe: 平 „flach“ + 方 „Quadrat“ – die flache Quadratfläche. In der Mathematik heißt 平方 „zum Quadrat“: 三的平方是九 „drei zum Quadrat ist neun“. Im Alltag ist 平方 die Kurzform von 平方米 (píngfāngmǐ), noch kürzer sagt man oft nur 平 (píng): 九十平 „90 Quadratmeter“. Vor anderen Einheiten bildet es Flächenmaße: 平方公里 (gōnglǐ) „Quadratkilometer“, 平方厘米 (límǐ) „Quadratzentimeter“. Rauminhalt dagegen mit 立方 (lìfāng): 立方米 (lìfāngmǐ) „Kubikmeter“. Wie alle Maßeinheiten ohne 个: 五十平方.",
       "vocabId": "w:平方:ping2fang1",
       "syllabus": {"vocab":[{"no":4599,"level":"HSK6","pos":"名、量","measureLevel":"HSK6"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:平方米",
@@ -3775,10 +4085,17 @@ window.MEASURE_WORDS_DATA = {
       "kind": "Maßeinheit",
       "category": "Masseinheiten",
       "meaning": "Quadratmeter (m²)",
+      "usage": "Metrisches Flächenmaß für Wohnungen, Büros, Grundstücke und andere Flächen; die förmliche Vollform.",
       "questionWord": "多少平方米",
+      "examples": [
+        {"chinese":"这间办公室有三十平方米。","pinyin":"Zhè jiān bàngōngshì yǒu sānshí píngfāngmǐ.","german":"Dieses Büro ist dreißig Quadratmeter groß."},
+        {"chinese":"这里的房价是每平方米五万元。","pinyin":"Zhèlǐ de fángjià shì měi píngfāngmǐ wǔ wàn yuán.","german":"Hier kostet der Quadratmeter Wohnfläche 50.000 Yuan."},
+        {"chinese":"新图书馆的面积超过两万平方米。","pinyin":"Xīn túshūguǎn de miànjī chāoguò liǎng wàn píngfāngmǐ.","german":"Die neue Bibliothek hat eine Fläche von über 20.000 Quadratmetern."}
+      ],
+      "notes": "Merkhilfe: 平方 (píngfāng) „Quadrat“ + 米 „Meter“ – genau wie im Deutschen. In Texten oft als „m²“ oder verkürzt 平米 (píngmǐ) geschrieben; im Gespräch sagt man meist 平方 oder einfach 平 (píng): 一百平 „100 Quadratmeter“. Für größere Flächen: 平方公里 (píngfāng gōnglǐ) „Quadratkilometer“, für Ackerland traditionell 亩 (mǔ, ca. 667 m²). Kein 个 dazwischen: 三十平方米. Vor 平方米 steht meist 两 (两平方米), bei Hunderten auch 二 (二百平方米).",
       "vocabId": "w:平方米:ping2fang1mi3",
       "syllabus": {"vocab":[{"no":4600,"level":"HSK6","pos":"量","measureLevel":"HSK6"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:扇",
@@ -3789,20 +4106,21 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Gebaeude",
-      "meaning": "Stück (Tür/Fenster)",
-      "usage": "Für Türen und Fenster",
+      "meaning": "für Türen, Fenster und andere bewegliche Flügel",
+      "usage": "Zählt Türen, Fenster, Tore und ähnliche bewegliche Flügel, auch Wandschirme.",
       "questionWord": "几扇",
       "examples": [
-        {"chinese":"一扇门","pinyin":"yī shàn mén","german":"eine Tür"},
-        {"chinese":"两扇窗户","pinyin":"liǎng shàn chuānghù","german":"zwei Fenster"}
+        {"chinese":"请把那扇窗户打开，屋里太热了。","pinyin":"Qǐng bǎ nà shàn chuānghu dǎkāi, wū li tài rè le.","german":"Mach bitte das Fenster dort auf, im Zimmer ist es zu warm."},
+        {"chinese":"这个房间只有一扇门。","pinyin":"Zhège fángjiān zhǐ yǒu yí shàn mén.","german":"Dieses Zimmer hat nur eine Tür."},
+        {"chinese":"那扇大铁门已经锁上了。","pinyin":"Nà shàn dà tiě mén yǐjīng suǒ shang le.","german":"Das große Eisentor ist schon abgeschlossen."}
       ],
-      "notes": "Wird ausschließlich für Türen und Fenster verwendet.",
+      "notes": "Merkhilfe: 扇 ist auch der „Fächer“ – Türen und Fenster schwingen auf wie ein Fächer, deshalb zählt 扇 bewegliche Flügel. Im Gespräch ist bei Türen und Fenstern auch 个 verbreitet (一个窗户, yí ge chuānghu); 扇 klingt genauer und etwas gehobener. 道 (dào) zählt Türen eher als Durchgang oder Sperre: 一道门 (yí dào mén). Bei Doppeltüren zählt 扇 jeden Flügel einzeln: 两扇门 kann „zwei Türflügel“ heißen. Als Verb wird das Zeichen shān gelesen: 扇扇子 (shān shànzi) „sich Luft zufächeln“.",
       "nouns": ["w:门:men2","w:窗:chuang1","w:窗户:chuang1hu5"],
       "nounCount": 3,
       "vocabId": "w:扇:shan4",
       "syllabus": {"vocab":[{"no":4742,"level":"HSK6","pos":"量","measureLevel":"HSK6"}],"grammar":[{"no":413,"level":"HSK6","item":"名量词"}]},
       "legacyIds": ["扇"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:升",
@@ -3814,10 +4132,17 @@ window.MEASURE_WORDS_DATA = {
       "kind": "Maßeinheit",
       "category": "Masseinheiten",
       "meaning": "Liter",
+      "usage": "Metrisches Hohlmaß für Flüssigkeiten und Gase, etwa Wasser, Benzin, Öl, Hubraum oder das Volumen von Geräten.",
       "questionWord": "多少升",
+      "examples": [
+        {"chinese":"每天最好喝两升水。","pinyin":"Měi tiān zuìhǎo hē liǎng shēng shuǐ.","german":"Am besten trinkt man jeden Tag zwei Liter Wasser."},
+        {"chinese":"我的车每百公里耗油大概七升。","pinyin":"Wǒ de chē měi bǎi gōnglǐ hàoyóu dàgài qī shēng.","german":"Mein Auto verbraucht etwa sieben Liter auf hundert Kilometer."},
+        {"chinese":"这个冰箱的容量是三百升。","pinyin":"Zhège bīngxiāng de róngliàng shì sānbǎi shēng.","german":"Dieser Kühlschrank hat ein Volumen von 300 Litern."}
+      ],
+      "notes": "Merkhilfe: 升 heißt auch „steigen“ – stell dir einen Messbecher vor, in dem der Pegel Liter für Liter steigt. Im Alltag ist 升 für Liter Standard; 公升 (gōngshēng) bedeutet dasselbe, klingt formeller und ist in Taiwan häufiger. Kleinere Mengen misst man in 毫升 (háoshēng) „Milliliter“. Vor 升 steht meist 两: 两升可乐 (liǎng shēng kělè). Kein 个 dazwischen. Traditionell war 升 auch ein Getreidemaß; zehn 升 ergeben ein 斗 (dǒu).",
       "vocabId": "w:升:sheng1#2",
       "syllabus": {"vocab":[{"no":4769,"level":"HSK6","pos":"量","measureLevel":"HSK6"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:艘",
@@ -3828,19 +4153,21 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Transport",
-      "meaning": "Schiff / Boot",
-      "usage": "Für Schiffe und Boote aller Art.",
+      "meaning": "für Schiffe und Boote",
+      "usage": "Zählt Wasserfahrzeuge aller Größen, von Booten über Frachter bis zu Kriegsschiffen; gehoben auch Raumschiffe.",
       "questionWord": "几艘",
       "examples": [
-        {"chinese":"港口停着几艘大船。","pinyin":"Gǎngkǒu tíng zhe jǐ sōu dà chuán.","german":"Im Hafen liegen einige große Schiffe."}
+        {"chinese":"港口里停着几艘大船。","pinyin":"Gǎngkǒu li tíng zhe jǐ sōu dà chuán.","german":"Im Hafen liegen einige große Schiffe."},
+        {"chinese":"这艘轮船明天早上开往上海。","pinyin":"Zhè sōu lúnchuán míngtiān zǎoshang kāi wǎng Shànghǎi.","german":"Dieses Schiff läuft morgen früh nach Shanghai aus."},
+        {"chinese":"一艘军舰正在向这边开过来。","pinyin":"Yì sōu jūnjiàn zhèngzài xiàng zhèbiān kāi guòlái.","german":"Ein Kriegsschiff hält gerade auf uns zu."}
       ],
-      "notes": "艘 ist das Standardzählwort für alle Wasserfahrzeuge.",
+      "notes": "Merkhilfe: Links im Zeichen steht 舟 „Boot“ – 艘 zählt alles, was auf dem Wasser fährt. Es klingt etwas schriftsprachlich; im Alltag hört man bei kleinen Booten oft 条 (一条船, yì tiáo chuán) oder 只 (一只小船, yì zhī xiǎo chuán), umgangssprachlich auch 个. Bei großen Schiffen und in Nachrichten ist 艘 üblich: 两艘货轮 (liǎng sōu huòlún) „zwei Frachter“. Gehoben zählt 艘 auch Raumschiffe: 一艘飞船 (yì sōu fēichuán).",
       "nouns": ["w:船:chuan2","w:轮船:lun2chuan2","w:军舰:jun1jian4"],
       "nounCount": 3,
       "vocabId": "w:艘:sou1",
       "syllabus": {"vocab":[{"no":4843,"level":"HSK6","pos":"量","measureLevel":"HSK6"}]},
       "legacyIds": ["艘"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:线",
@@ -3851,11 +4178,18 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Abstrakt",
-      "meaning": "(Zählwort) ein Hauch, ein Schimmer",
+      "meaning": "ein Hauch, ein Schimmer (von Hoffnung, Licht); Rang (bei Städten)",
+      "usage": "Steht meist als 一线 (yí xiàn) vor wenigen abstrakten Nomen und bezeichnet eine winzige, fadendünne Menge: Hoffnung, Licht, eine Überlebenschance.",
       "questionWord": "几线",
+      "examples": [
+        {"chinese":"只要还有一线希望，我们就不会放弃。","pinyin":"Zhǐyào hái yǒu yí xiàn xīwàng, wǒmen jiù bú huì fàngqì.","german":"Solange es noch einen Funken Hoffnung gibt, geben wir nicht auf."},
+        {"chinese":"窗帘缝里透进来一线阳光。","pinyin":"Chuānglián fèng li tòu jìnlái yí xiàn yángguāng.","german":"Durch den Spalt im Vorhang fiel ein schmaler Streifen Sonnenlicht."},
+        {"chinese":"他毕业后去了一个三线城市工作。","pinyin":"Tā bìyè hòu qù le yí ge sān xiàn chéngshì gōngzuò.","german":"Nach dem Abschluss ging er zum Arbeiten in eine Stadt der dritten Reihe."}
+      ],
+      "notes": "Merkhilfe: 线 ist der „Faden“ – 一线 (yí xiàn) ist etwas so dünn wie ein Faden: 一线希望 (xīwàng) „ein Funken Hoffnung“, 一线光明 (guāngmíng) „ein Lichtschimmer“, 一线生机 (shēngjī) „eine winzige Überlebenschance“. Als Zählwort steht 线 fast nur mit 一 vor solchen Abstrakta; Fäden und Linien selbst zählt man mit 条 (tiáo) oder 根 (gēn): 一根线 „ein Faden“. Neuer Gebrauch: 一线城市 (yī xiàn chéngshì), 二线城市 (èr xiàn chéngshì) – „Städte der ersten, zweiten Reihe“; hier ist 一 eine Rangzahl und bleibt im ersten Ton. Danach fragt man mit 几线.",
       "vocabId": "w:线:xian4",
       "syllabus": {"vocab":[{"no":5027,"level":"HSK6","pos":"名、量","measureLevel":"HSK6"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:样",
@@ -3866,13 +4200,23 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Abstrakt",
-      "meaning": "Art; Sorte (Zählwort für Sorten und Arten)",
+      "meaning": "Art, Sorte (verschiedene Dinge, Gerichte)",
+      "usage": "Zählt verschiedene Sorten oder Posten, wenn es um ihre Verschiedenheit geht: Gerichte, Geschenke, Obst, Dinge zum Mitnehmen, Fähigkeiten.",
       "questionWord": "几样",
+      "specialForms": [
+        {"form":"样样","explanation":"Verdopplung „jedes Einzelne, in jeder Hinsicht“: 他样样都会 „er kann einfach alles“."}
+      ],
+      "examples": [
+        {"chinese":"今天晚上我做了四样菜。","pinyin":"Jīntiān wǎnshang wǒ zuò le sì yàng cài.","german":"Heute Abend habe ich vier verschiedene Gerichte gekocht."},
+        {"chinese":"他买了好几样水果，有苹果、香蕉，还有西瓜。","pinyin":"Tā mǎi le hǎo jǐ yàng shuǐguǒ, yǒu píngguǒ, xiāngjiāo, hái yǒu xīguā.","german":"Er hat mehrere Obstsorten gekauft: Äpfel, Bananen und eine Wassermelone."},
+        {"chinese":"这几样东西你都要带上。","pinyin":"Zhè jǐ yàng dōngxi nǐ dōu yào dài shang.","german":"Diese paar Sachen musst du alle mitnehmen."}
+      ],
+      "notes": "Merkhilfe: 样 heißt „Muster, Aussehen“, wie in 样子 (yàngzi) – 几样 (jǐ yàng) sind Dinge mit verschiedenem Aussehen, also verschiedene Sorten. 种 (zhǒng) betont eher die Art oder Kategorie (三种水果 „drei Obstarten“), 样 die einzelnen, verschiedenen Posten, etwa beim Bestellen oder Einkaufen; oft sind beide möglich. Für Gerichte zählt 道 (dào) die Gänge eines Menüs (一道菜, yí dào cài), 盘 (pán) die Teller (一盘菜), 样 die verschiedenen Speisen. In 一样 (yíyàng) „gleich“ ist 样 kein Zählwort mehr.",
       "nouns": ["w:菜:cai4"],
       "nounCount": 1,
       "vocabId": "w:样:yang4",
       "syllabus": {"vocab":[{"no":5125,"level":"HSK6","pos":"量","measureLevel":"HSK6"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:章",
@@ -3883,11 +4227,18 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Literatur",
-      "meaning": "Kapitel (Zählwort); Stempel; Abzeichen",
+      "meaning": "Kapitel; Satz (eines Musikstücks)",
+      "usage": "Zählt Kapitel und Abschnitte von Büchern, Lehrwerken und Gesetzen, auch Sätze eines Musikstücks; oft mit 第 als Ordnungszahl.",
       "questionWord": "几章",
+      "examples": [
+        {"chinese":"这本小说一共有三十章。","pinyin":"Zhè běn xiǎoshuō yígòng yǒu sānshí zhāng.","german":"Dieser Roman hat insgesamt dreißig Kapitel."},
+        {"chinese":"明天上课前，请大家读完第五章。","pinyin":"Míngtiān shàngkè qián, qǐng dàjiā dú wán dì wǔ zhāng.","german":"Bitte lest bis zum Unterricht morgen das fünfte Kapitel."},
+        {"chinese":"我每天晚上睡觉前看一章。","pinyin":"Wǒ měi tiān wǎnshang shuìjiào qián kàn yì zhāng.","german":"Ich lese jeden Abend vor dem Schlafengehen ein Kapitel."}
+      ],
+      "notes": "Merkhilfe: 章 steckt in 文章 (wénzhāng) „Aufsatz, Artikel“ – ein Text besteht aus Abschnitten, und jeder ist ein 章. Typisch ist die Ordnungszahl: 第三章 (dì sān zhāng) „Kapitel 3“. Feiner gliedert 节 (jié) „Abschnitt, Unterkapitel“; klassische Romane teilen sich in 回 (huí) „Kapitel“. In Gesetzen gliedert 章 in Kapitel, 条 (tiáo) in Artikel. In der Musik: 第一乐章 (yuèzhāng) „erster Satz“. Als Nomen bedeutet 章 auch „Stempel“: 盖章 (gàizhāng) „abstempeln“. 个 ist kein Ersatz.",
       "vocabId": "w:章:zhang1",
       "syllabus": {"vocab":[{"no":5265,"level":"HSK6","pos":"量","measureLevel":"HSK6"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:枝",
@@ -3898,13 +4249,20 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Natur",
-      "meaning": "Zählwort für Blumen und Zweige",
+      "meaning": "für Zweige und Blumen am Stiel; auch für Stifte",
+      "usage": "Zählt Zweige und Blumen mit Stiel; daneben, gleichbedeutend mit 支, auch Stifte, Pinsel und Gewehre.",
       "questionWord": "几枝",
+      "examples": [
+        {"chinese":"他送给我一枝红玫瑰。","pinyin":"Tā sòng gěi wǒ yì zhī hóng méigui.","german":"Er hat mir eine rote Rose geschenkt."},
+        {"chinese":"窗外伸进来一枝梅花。","pinyin":"Chuāng wài shēn jìnlái yì zhī méihuā.","german":"Ein blühender Pflaumenzweig ragt zum Fenster herein."},
+        {"chinese":"我的铅笔盒里有三枝铅笔。","pinyin":"Wǒ de qiānbǐhé li yǒu sān zhī qiānbǐ.","german":"In meinem Federmäppchen sind drei Bleistifte."}
+      ],
+      "notes": "Merkhilfe: 枝 hat das Baum-Radikal 木 – es zählt, was am Baum wächst: Zweige und Blumen mit Stiel, z. B. 一枝花 (yì zhī huā), 一枝柳条 (yì zhī liǔtiáo) „eine Weidenrute“. Für Stifte und Gewehre ist heute 支 (zhī) die übliche Schreibung: 一支笔, 一支枪 (yì zhī qiāng); 一枝笔 ist eine ältere, aber noch anzutreffende Variante. Faustregel: Holziges und Blumen → 枝, Stifte → meist 支. 朵 (duǒ) zählt die einzelne Blüte, 束 (shù) einen Strauß: 一束花. Bei Gewehren sind auch 杆 (gǎn) und 把 (bǎ) üblich.",
       "nouns": ["w:笔:bi3","w:铅笔:qian1bi3","w:毛笔:mao2bi3","w:枪:qiang1"],
       "nounCount": 4,
       "vocabId": "w:枝:zhi1",
       "syllabus": {"vocab":[{"no":5295,"level":"HSK6","pos":"名、量","measureLevel":"HSK6"}],"grammar":[{"no":413,"level":"HSK6","item":"名量词"}]},
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:株",
@@ -3915,20 +4273,21 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "vocab",
       "kind": "Zählwort",
       "category": "Natur",
-      "meaning": "Stück (Pflanze, Baum)",
-      "usage": "Für einzelne Pflanzen und Bäume (formeller als 棵)",
+      "meaning": "für Pflanzen und Bäume (gehoben, fachsprachlich)",
+      "usage": "Zählt einzelne Pflanzen und Bäume, vor allem in Schrift- und Fachsprache (Landwirtschaft, Botanik); in der Biologie auch Stämme von Viren und Bakterien.",
       "questionWord": "几株",
       "examples": [
-        {"chinese":"一株玫瑰","pinyin":"yī zhū méiguī","german":"ein Rosenstock"},
-        {"chinese":"种了三株树","pinyin":"zhòng le sān zhū shù","german":"drei Bäume gepflanzt"}
+        {"chinese":"院子里种着几株桃树。","pinyin":"Yuànzi li zhòng zhe jǐ zhū táoshù.","german":"Im Hof wachsen ein paar Pfirsichbäume."},
+        {"chinese":"这块田里的每一株水稻都长得很好。","pinyin":"Zhè kuài tián li de měi yì zhū shuǐdào dōu zhǎng de hěn hǎo.","german":"Jede einzelne Reispflanze auf diesem Feld gedeiht prächtig."},
+        {"chinese":"科学家发现了一株新的病毒。","pinyin":"Kēxuéjiā fāxiàn le yì zhū xīn de bìngdú.","german":"Forschende haben einen neuen Virusstamm entdeckt."}
       ],
-      "notes": "Formellere Alternative zu 棵. Wird besonders in der Schriftsprache und Gartenbau verwendet.",
+      "notes": "Merkhilfe: 株 hat das Baum-Radikal 木 und bedeutet „Stamm, Pflanze“ – wie in der Fabel 守株待兔 (shǒu zhū dài tù), in der jemand am Baumstumpf auf Hasen wartet. Im Alltag zählt man Bäume und Pflanzen meist mit 棵 (kē): 一棵树 (yì kē shù); 株 bedeutet dasselbe, klingt aber schriftsprachlicher. Bei Gras sind 一棵草 und 一株草 möglich, ein Büschel ist 一撮草 (yì cuō cǎo) oder 一丛草 (yì cóng cǎo). In der Biologie bezeichnet 株 auch einen Erregerstamm: 毒株 (dúzhū) „Virusstamm“.",
       "nouns": ["w:草:cao3","w:水稻:shui3dao4"],
       "nounCount": 2,
       "vocabId": "w:株:zhu1",
       "syllabus": {"vocab":[{"no":5341,"level":"HSK6","pos":"量","measureLevel":"HSK6"}]},
       "legacyIds": ["株"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:罐",
@@ -3939,19 +4298,20 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "word",
       "kind": "Zählwort",
       "category": "Essen",
-      "meaning": "Dose, Büchse",
-      "usage": "Für Dosen, Büchsen und Gläser",
+      "meaning": "Dose, Büchse, Glas (als Mengenangabe)",
+      "usage": "Zählt den Inhalt von Dosen, Büchsen, Gläsern und Töpfen: Dosengetränke, Konserven, Tee, Honig, Milchpulver.",
       "questionWord": "几罐",
       "examples": [
-        {"chinese":"一罐可乐","pinyin":"yī guàn kělè","german":"eine Dose Cola"},
-        {"chinese":"两罐蜂蜜","pinyin":"liǎng guàn fēngmì","german":"zwei Gläser Honig"}
+        {"chinese":"冰箱里还有两罐啤酒。","pinyin":"Bīngxiāng li hái yǒu liǎng guàn píjiǔ.","german":"Im Kühlschrank sind noch zwei Dosen Bier."},
+        {"chinese":"我给爷爷买了一罐好茶叶。","pinyin":"Wǒ gěi yéye mǎi le yí guàn hǎo cháyè.","german":"Ich habe Opa eine Dose guten Tee gekauft."},
+        {"chinese":"宝宝一个月要喝三罐奶粉。","pinyin":"Bǎobao yí ge yuè yào hē sān guàn nǎifěn.","german":"Das Baby braucht im Monat drei Dosen Milchpulver."}
       ],
-      "notes": "Für Getränkedosen, Konservendosen und Einmachgläser.",
+      "notes": "Merkhilfe: 罐 hat das Gefäß-Radikal 缶 – es zählt, was in einer Dose oder einem Topf steckt (entlehntes Zählwort wie 杯 oder 瓶). 瓶 (píng) ist die Flasche, 罐 die Dose oder das Glas: 一瓶啤酒 (yì píng píjiǔ) ist Flaschenbier, 一罐啤酒 Dosenbier. 杯 (bēi) zählt Becher und Trinkgläser, 桶 (tǒng) Eimer und Fässer, 缸 (gāng) große Bottiche, 盒 (hé) Schachteln. Die leere Dose selbst zählt man mit 个: 一个罐子 (yí ge guànzi). Umgangssprachlich oft mit Erhua: 一罐儿可乐 (yí guànr kělè).",
       "nouns": ["w:酒:jiu3","w:啤酒:pi2jiu3","w:茶叶:cha2ye4"],
       "nounCount": 3,
       "vocabId": "w:罐:guan4",
       "legacyIds": ["罐"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:壶",
@@ -3962,19 +4322,20 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "word",
       "kind": "Zählwort",
       "category": "Essen",
-      "meaning": "Kanne",
-      "usage": "Für Kannen und Kessel",
+      "meaning": "eine Kanne voll (Tee, Wasser, Wein)",
+      "usage": "Zählt den Inhalt von Kannen und Kesseln: Tee, heißes Wasser, Kaffee, Wein oder Schnaps.",
       "questionWord": "几壶",
       "examples": [
-        {"chinese":"一壶茶","pinyin":"yī hú chá","german":"eine Kanne Tee"},
-        {"chinese":"两壶水","pinyin":"liǎng hú shuǐ","german":"zwei Kannen Wasser"}
+        {"chinese":"服务员，再来一壶茶！","pinyin":"Fúwùyuán, zài lái yì hú chá!","german":"Entschuldigung, noch eine Kanne Tee, bitte!"},
+        {"chinese":"我们边聊边喝，一下午喝了三壶红茶。","pinyin":"Wǒmen biān liáo biān hē, yí xiàwǔ hē le sān hú hóngchá.","german":"Wir haben geplaudert und dabei den ganzen Nachmittag über drei Kannen Schwarztee getrunken."},
+        {"chinese":"妈妈烧了一壶开水。","pinyin":"Māma shāo le yì hú kāishuǐ.","german":"Mama hat einen Kessel Wasser aufgekocht."}
       ],
-      "notes": "Klassisch für Teekannen (茶壶), aber auch für Wasserkessel und Weinkannen.",
+      "notes": "Merkhilfe: 壶 ist selbst die Kanne – 一壶茶 ist „eine Kanne voll Tee“ (entlehntes Zählwort). 杯 (bēi) zählt dagegen Tasse oder Glas: Eine Kanne Tee reicht für mehrere 杯. Neben Tee auch für Wasserkessel (烧一壶水, shāo yì hú shuǐ) und Wein- oder Schnapskännchen (一壶酒). Die leere Kanne selbst zählt man mit 个 oder 把: 一把茶壶 (yì bǎ cháhú), 一个水壶 (shuǐhú). Redewendung: 哪壶不开提哪壶 (nǎ hú bù kāi tí nǎ hú) „ausgerechnet den wunden Punkt ansprechen“.",
       "nouns": ["w:茶:cha2","w:红茶:hong2cha2"],
       "nounCount": 2,
       "vocabId": "w:壶:hu2",
       "legacyIds": ["壶"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:栏",
@@ -3985,17 +4346,18 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "word",
       "kind": "Zählwort",
       "category": "Abstrakt",
-      "meaning": "Spalte, Rubrik",
-      "usage": "Für Spalten in Zeitungen, Rubriken und Programmabschnitte",
+      "meaning": "Spalte, Rubrik, Feld (in Zeitungen, Formularen, Tabellen)",
+      "usage": "Zählt Spalten, Felder und Rubriken in Zeitungen, Zeitschriften, Formularen und Tabellen.",
       "questionWord": "几栏",
       "examples": [
-        {"chinese":"填写这一栏","pinyin":"tiánxiě zhè yī lán","german":"diese Spalte ausfuellen"},
-        {"chinese":"新闻栏目","pinyin":"xīnwén lánmù","german":"Nachrichtenrubrik"}
+        {"chinese":"这份表格的最后一栏不用填。","pinyin":"Zhè fèn biǎogé de zuìhòu yì lán bú yòng tián.","german":"Die letzte Spalte dieses Formulars muss nicht ausgefüllt werden."},
+        {"chinese":"这份报纸每一版分成四栏。","pinyin":"Zhè fèn bàozhǐ měi yì bǎn fēn chéng sì lán.","german":"Jede Seite dieser Zeitung ist in vier Spalten aufgeteilt."},
+        {"chinese":"这一栏的文章都是读者写的。","pinyin":"Zhè yì lán de wénzhāng dōu shì dúzhě xiě de.","german":"Die Beiträge in dieser Rubrik stammen alle aus der Leserschaft."}
       ],
-      "notes": "Für Formularspalten, Zeitungsrubriken und TV-Programmsendungen (栏目).",
+      "notes": "Merkhilfe: 栏 ist ursprünglich ein „Gatter, Geländer“ – Spalten auf einer Seite sind wie durch Zäune abgeteilt. Typisch steht 一栏 mit Demonstrativ: 这一栏, 那一栏 (nà yì lán). Für Rubriken und Kolumnen nimmt man meist die Nomen 栏目 (lánmù) oder 专栏 (zhuānlán) und zählt sie mit 个: 一个新栏目. Tabellenspalten heißen auch 列 (liè), Zeilen 行 (háng). Im Sport ist 栏 die Hürde: 跨栏 (kuàlán) „Hürdenlauf“.",
       "vocabId": "w:栏:lan2",
       "legacyIds": ["栏"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:针",
@@ -4006,17 +4368,18 @@ window.MEASURE_WORDS_DATA = {
       "levelSource": "word",
       "kind": "Verbal",
       "category": "Medizin",
-      "meaning": "Spritze, Injektion",
-      "usage": "Für Injektionen, Spritzen und Akupunkturnadeln",
+      "meaning": "Spritze, Impfung; Stich (beim Nähen)",
+      "usage": "Zählt Injektionen und Impfungen sowie Stiche beim Nähen und Operieren; typisch nach 打 „spritzen“ und 缝 „nähen“.",
       "questionWord": "几针",
       "examples": [
-        {"chinese":"打了一针","pinyin":"dǎ le yī zhēn","german":"eine Spritze bekommen"},
-        {"chinese":"缝了五针","pinyin":"féng le wǔ zhēn","german":"fünf Stiche genäht bekommen"}
+        {"chinese":"孩子发烧了，医生给他打了一针。","pinyin":"Háizi fāshāo le, yīshēng gěi tā dǎ le yì zhēn.","german":"Das Kind hatte Fieber und bekam in der Praxis eine Spritze."},
+        {"chinese":"他的手划破了，缝了五针。","pinyin":"Tā de shǒu huápò le, féng le wǔ zhēn.","german":"Er hat sich die Hand aufgeschnitten und musste mit fünf Stichen genäht werden."},
+        {"chinese":"这种疫苗你打了几针？","pinyin":"Zhè zhǒng yìmiáo nǐ dǎ le jǐ zhēn?","german":"Wie oft bist du mit diesem Impfstoff geimpft worden?"}
       ],
-      "notes": "Für Spritzen, Impfungen und Nähstiche. 打针 = eine Spritze geben/bekommen.",
+      "notes": "Merkhilfe: 针 ist die Nadel – jeder Einstich zählt einmal: 打一针 „eine Spritze geben oder bekommen“, 缝三针 (féng sān zhēn) „mit drei Stichen nähen“. Das Objekt kann folgen oder vorn stehen: 打了两针疫苗 (yìmiáo) und 疫苗打了两针 heißen beide „zweimal geimpft“. Bei Impfungen sagt man fachlicher auch 剂 (jì) „Dosis“: 第三剂 „dritte Dosis“; 次 (cì) zählt allgemein die Male. Die Nadeln selbst zählt man mit 根 (gēn): 一根针 (yì gēn zhēn). Kein 个: 打了一针.",
       "vocabId": "w:针:zhen1",
       "legacyIds": ["针"],
-      "meaningStatus": "draft"
+      "meaningStatus": "authored"
     },
     {
       "id": "m:通",
