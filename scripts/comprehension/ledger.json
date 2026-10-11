@@ -382,5 +382,293 @@
   "policy": "author+review",
   "date": "2026-10-11",
   "hash": "b39febff77e0dfeb"
+ },
+ "reading-hsk5-01": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "35ad7ce6c9df7f47"
+ },
+ "reading-hsk5-02": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "2faf5b2307bc625c"
+ },
+ "reading-hsk5-03": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "f6edc30cb51c76ad"
+ },
+ "reading-hsk5-04": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "ab5005d9e593b75a"
+ },
+ "reading-hsk5-05": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "7ac1d46c8c52a8f2"
+ },
+ "reading-hsk5-06": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "0cdf3a171519293b"
+ },
+ "reading-hsk5-07": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "639287c1c6f107c8"
+ },
+ "reading-hsk5-08": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "c64c351bb29c60a3"
+ },
+ "reading-hsk5-09": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "52556c2164ff4e49"
+ },
+ "reading-hsk5-10": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "47871d8b5573b9e6"
+ },
+ "listening-hsk5-01": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "ddb11464dcfd0157"
+ },
+ "listening-hsk5-02": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "42f40a5cf8cfc5dd"
+ },
+ "listening-hsk5-03": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "febbafc095e90063"
+ },
+ "listening-hsk5-04": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "418f835035264bbe"
+ },
+ "listening-hsk5-05": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "3b3d1e15c9cf01a2"
+ },
+ "listening-hsk5-06": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "13abf481c30a33bd"
+ },
+ "reading-hsk6-01": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "f25f737b2ef64984"
+ },
+ "reading-hsk6-02": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "7f62e0a83c0d2951"
+ },
+ "reading-hsk6-03": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "45f5c24ba372dce9"
+ },
+ "reading-hsk6-04": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "adfa7668ab5eece8"
+ },
+ "reading-hsk6-05": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "d986d8b5a647a9d3"
+ },
+ "reading-hsk6-06": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "767516b7134d3409"
+ },
+ "reading-hsk6-07": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "f8aa25ccaec589e1"
+ },
+ "reading-hsk6-08": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "be15e5b57dbb0489"
+ },
+ "reading-hsk6-09": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "de606eacb7931e0e"
+ },
+ "reading-hsk6-10": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "a50de29c88594259"
+ },
+ "listening-hsk6-01": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "bf9b4d4b6d7ef3d9"
+ },
+ "listening-hsk6-02": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "438401a66018f7c7"
+ },
+ "listening-hsk6-03": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "f3d7a02a8e2a4a25"
+ },
+ "listening-hsk6-04": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "117fdb004a5bd880"
+ },
+ "listening-hsk6-05": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "fa24929d35dbb0e0"
+ },
+ "listening-hsk6-06": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "9cef945f773d0d8e"
+ },
+ "reading-hsk7-9-01": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "df3e04875872c211"
+ },
+ "reading-hsk7-9-02": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "3c6aebd575c90619"
+ },
+ "reading-hsk7-9-03": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "d3ea45d9208dacbd"
+ },
+ "reading-hsk7-9-04": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "a388f0b65db9c12b"
+ },
+ "reading-hsk7-9-05": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "18eac9ac157a7752"
+ },
+ "reading-hsk7-9-06": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "367e697b6d11eab8"
+ },
+ "reading-hsk7-9-07": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "4f9aababd21fe05b"
+ },
+ "reading-hsk7-9-08": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "748455d947641219"
+ },
+ "reading-hsk7-9-09": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "7615d12ca6912e74"
+ },
+ "reading-hsk7-9-10": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "30ec8fea9d6f4b9b"
+ },
+ "listening-hsk7-9-01": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "1ba53a8de6dff6bd"
+ },
+ "listening-hsk7-9-02": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "093878a797a2f24b"
+ },
+ "listening-hsk7-9-03": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "b2cf3902657e625c"
+ },
+ "listening-hsk7-9-04": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "c0e35ec9e379b5a5"
+ },
+ "listening-hsk7-9-05": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "9410ededfc3de459"
+ },
+ "listening-hsk7-9-06": {
+  "batch": "c003",
+  "policy": "author",
+  "date": "2026-10-11",
+  "hash": "a61e8b1be31501d3"
  }
 }

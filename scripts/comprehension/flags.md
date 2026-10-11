@@ -49,3 +49,6 @@ Author flags and reviewer fixes per batch, for follow-up decisions.
 - listening-hsk4-02 (reviewer fix): Geschlecht beider Sprecher geht aus dem Text nicht hervor: ‚junger Mann‘, ‚der Arzt‘, ‚Herr Doktor‘ neutralisiert (Titel, textType, Einleitung, Fragen, Übersetzung); objective verriet q1 (Verletzung); 千万别勉强 in der Übersetzung an den Hinweis angeglichen.
 - listening-hsk4-03 (reviewer fix): q2: Distraktor „zu teuer“ war nur nicht erwähnt, nicht widerlegt. p4 um 价格也不贵 ergänzt (Pinyin, Übersetzung, Erklärungen angepasst); „nicht sauber“ wird über 就是 (einziger Nachteil) ausgeschlossen.
 - listening-hsk4-06 (reviewer fix): Einleitung legte das Geschlecht der Sprecher fest (Student/Kommilitonin), das der Text nicht zeigt.
+
+## c003 (2026-10-11, author)
+- none

@@ -1,0 +1,3013 @@
+[
+ {
+  "id": "reading-hsk5-01",
+  "level": "HSK5",
+  "skill": "reading",
+  "order": 1,
+  "task": {
+   "no": 2,
+   "title": "谈论餐饮体验"
+  },
+  "topic": "日常生活›饮食›餐饮体验",
+  "title": "Ein Abend in Chengdu",
+  "objective": "Du kannst einem Blogbeitrag über einen Restaurantbesuch wichtige Einzelheiten und die Absicht der schreibenden Person entnehmen.",
+  "textType": "Blogbeitrag",
+  "minutes": 10,
+  "introduction": "Du liest einen Blogbeitrag über ein Abendessen während einer Geschäftsreise nach Chengdu.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "text": "上个月我去成都出差，当地的朋友非要请我吃一顿正宗的火锅。他带我去的那家店开在一条老街上，门面不大，也没有什么装修，可是还不到六点，门口就已经排起了长队。朋友说，这家店开了二十多年，靠的全是回头客的口碑。",
+    "pinyin": "Shàng ge yuè wǒ qù Chéngdū chūchāi, dāngdì de péngyou fēi yào qǐng wǒ chī yí dùn zhèngzōng de huǒguō. Tā dài wǒ qù de nà jiā diàn kāi zài yì tiáo lǎo jiē shang, ménmiàn bú dà, yě méiyǒu shénme zhuāngxiū, kěshì hái bú dào liù diǎn, ménkǒu jiù yǐjīng pái qǐ le cháng duì. Péngyou shuō, zhè jiā diàn kāi le èrshí duō nián, kào de quán shì huítóukè de kǒubēi."
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "text": "这家店最大的特色是锅底。老板每天早上亲自用牛油、辣椒和花椒炒料，从来不用现成的调料包，所以汤底又麻又辣，香味特别浓。如果你不太能吃辣，可以点鸳鸯锅：一半是红汤，一半是用骨头熬的清汤，既能尝到四川味道，又不会辣得受不了。",
+    "pinyin": "Zhè jiā diàn zuì dà de tèsè shì guōdǐ. Lǎobǎn měi tiān zǎoshang qīnzì yòng niúyóu, làjiāo hé huājiāo chǎo liào, cónglái bú yòng xiànchéng de tiáoliào bāo, suǒyǐ tāngdǐ yòu má yòu là, xiāngwèi tèbié nóng. Rúguǒ nǐ bú tài néng chī là, kěyǐ diǎn yuānyāngguō: yíbàn shì hóng tāng, yíbàn shì yòng gǔtou áo de qīngtāng, jì néng chángdào Sìchuān wèidao, yòu bú huì là de shòubuliǎo."
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "text": "说到点菜，朋友给了我几条建议。第一，毛肚和鸭肠一定要点，这是成都火锅的“招牌菜”。第二，菜不要一次全倒进锅里，因为每种食材需要煮的时间不一样。比如毛肚，用筷子夹着在锅里上下涮十几秒就可以吃了，煮久了反而会变硬，嚼不动。第三，蘸料可以自己调，当地人习惯用香油加蒜泥，既能给食物降温，又能减轻辣味。",
+    "pinyin": "Shuōdào diǎn cài, péngyou gěi le wǒ jǐ tiáo jiànyì. Dìyī, máodǔ hé yācháng yídìng yào diǎn, zhè shì Chéngdū huǒguō de “zhāopáicài”. Dì'èr, cài bú yào yí cì quán dàojìn guō li, yīnwèi měi zhǒng shícái xūyào zhǔ de shíjiān bù yíyàng. Bǐrú máodǔ, yòng kuàizi jiāzhe zài guō li shàngxià shuàn shí jǐ miǎo jiù kěyǐ chī le, zhǔ jiǔ le fǎn'ér huì biàn yìng, jiáo bu dòng. Dìsān, zhànliào kěyǐ zìjǐ tiáo, dāngdìrén xíguàn yòng xiāngyóu jiā suànní, jì néng gěi shíwù jiàngwēn, yòu néng jiǎnqīng làwèi."
+   },
+   {
+    "id": "p4",
+    "speaker": "",
+    "text": "那天晚上，店里热闹得像过节一样，大家一边吃一边聊，说话声、笑声不断。说实话，第一口吃下去，我就辣得直流眼泪，可是越吃越停不下来。吃完结账，我们两个人才花了一百五十块，比我想象的便宜多了。如果你有机会去成都，别只盯着那些装修漂亮的网红店，不妨跟着当地人，去老街上找一家这样的小店。",
+    "pinyin": "Nà tiān wǎnshang, diàn li rènao de xiàng guò jié yíyàng, dàjiā yìbiān chī yìbiān liáo, shuōhuà shēng, xiàoshēng búduàn. Shuō shíhuà, dìyī kǒu chī xiàqu, wǒ jiù là de zhí liú yǎnlèi, kěshì yuè chī yuè tíng bu xiàlái. Chī wán jié zhàng, wǒmen liǎng ge rén cái huā le yìbǎi wǔshí kuài, bǐ wǒ xiǎngxiàng de piányi duō le. Rúguǒ nǐ yǒu jīhuì qù Chéngdū, bié zhǐ dīngzhe nàxiē zhuāngxiū piàoliang de wǎnghóngdiàn, bùfáng gēnzhe dāngdìrén, qù lǎo jiē shang zhǎo yì jiā zhèyàng de xiǎo diàn."
+   }
+  ],
+  "translation": "Letzten Monat war ich geschäftlich in Chengdu, und ein Freund von dort bestand darauf, mich zu einem echten Hotpot einzuladen. Das Lokal, in das er mich führte, liegt in einer alten Straße; es ist klein und kaum eingerichtet, aber noch vor sechs Uhr stand schon eine lange Schlange vor der Tür. Mein Freund erzählte, dass es das Lokal seit über zwanzig Jahren gibt und dass es ganz vom guten Ruf bei seinen Stammgästen lebt. Die größte Besonderheit des Lokals ist die Brühe. Der Wirt röstet jeden Morgen persönlich die Würzmischung aus Rindertalg, Chili und Szechuan-Pfeffer und verwendet nie fertige Gewürzpäckchen; deshalb prickelt die Brühe auf der Zunge, ist scharf und duftet besonders intensiv. Wenn du nicht so scharf essen kannst, kannst du einen Yuanyang-Topf bestellen: Die eine Hälfte ist rote Brühe, die andere eine aus Knochen gekochte klare Brühe – so schmeckst du die Sichuan-Küche, ohne dass es unerträglich scharf wird. Zum Bestellen gab mir mein Freund ein paar Ratschläge. Erstens: Rinderpansen und Entendarm muss man unbedingt bestellen, das sind die „Spezialitäten des Hauses“ beim Chengdu-Hotpot. Zweitens: Nicht alle Zutaten auf einmal in den Topf kippen, denn jede Zutat braucht eine andere Garzeit. Den Pansen zum Beispiel hält man mit den Stäbchen und schwenkt ihn gut zehn Sekunden in der Brühe auf und ab, dann kann man ihn essen; kocht er zu lange, wird er im Gegenteil hart und lässt sich kaum noch kauen. Drittens: Die Dip-Soße kann man selbst mischen; die Einheimischen nehmen gewöhnlich Sesamöl mit zerdrücktem Knoblauch – das kühlt das Essen ab und mildert die Schärfe. An jenem Abend war es im Lokal so lebhaft wie an einem Feiertag; alle aßen und plauderten, und Stimmen und Gelächter hörten nicht auf. Ehrlich gesagt kamen mir schon beim ersten Bissen vor Schärfe die Tränen, aber je mehr ich aß, desto weniger konnte ich aufhören. Als wir nach dem Essen bezahlten, hatten wir zu zweit nur hundertfünfzig Yuan ausgegeben – viel weniger, als ich gedacht hatte. Wenn du einmal nach Chengdu kommst, schau nicht nur auf die schick eingerichteten Influencer-Lokale, sondern folge ruhig den Einheimischen und such dir in einer alten Straße so ein kleines Lokal.",
+  "glossary": [
+   {
+    "word": "正宗",
+    "pinyin": "zhèngzōng",
+    "meaning": "echt, authentisch",
+    "vocabId": "w:正宗:zheng4zong1"
+   },
+   {
+    "word": "回头客",
+    "pinyin": "huítóukè",
+    "meaning": "Stammgast, wiederkehrender Kunde"
+   },
+   {
+    "word": "口碑",
+    "pinyin": "kǒubēi",
+    "meaning": "Ruf, Mundpropaganda",
+    "vocabId": "w:口碑:kou3bei1"
+   },
+   {
+    "word": "锅底",
+    "pinyin": "guōdǐ",
+    "meaning": "Brühe (Grundlage) beim Hotpot"
+   },
+   {
+    "word": "花椒",
+    "pinyin": "huājiāo",
+    "meaning": "Szechuan-Pfeffer",
+    "vocabId": "w:花椒:hua1jiao1"
+   },
+   {
+    "word": "鸳鸯锅",
+    "pinyin": "yuānyāngguō",
+    "meaning": "geteilter Hotpot mit scharfer und milder Brühe"
+   },
+   {
+    "word": "毛肚",
+    "pinyin": "máodǔ",
+    "meaning": "Rinderpansen (Kutteln)"
+   },
+   {
+    "word": "涮",
+    "pinyin": "shuàn",
+    "meaning": "(im Hotpot) kurz garen, schwenken",
+    "vocabId": "w:涮:shuan4"
+   },
+   {
+    "word": "蘸料",
+    "pinyin": "zhànliào",
+    "meaning": "Dip-Soße"
+   },
+   {
+    "word": "网红",
+    "pinyin": "wǎnghóng",
+    "meaning": "im Netz angesagt; Influencer",
+    "vocabId": "w:网红:wang3hong2"
+   }
+  ],
+  "note": "既……又……verbindet zwei Eigenschaften oder Vorteile: 既能尝到四川味道，又不会辣得受不了 – „man schmeckt Sichuan und es wird trotzdem nicht unerträglich scharf“. Beachte auch 不妨 („ruhig, ohne Weiteres“) für einen höflichen Vorschlag: 不妨跟着当地人.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Was will die schreibende Person mit diesem Text vor allem erreichen?",
+    "evidence": "p4",
+    "choices": [
+     {
+      "text": "Sich über die langen Wartezeiten in den Restaurants von Chengdu beschweren.",
+      "explanation": "Falsch. Die Schlange (门口就已经排起了长队) wird nur als Zeichen für die Beliebtheit erwähnt; eine Beschwerde gibt es nicht."
+     },
+     {
+      "text": "Ein einfaches, traditionelles Hotpot-Lokal empfehlen und Tipps zum Bestellen und Essen geben.",
+      "explanation": "Richtig. Der Text beschreibt die Besonderheiten des Lokals, gibt die Ratschläge des Freundes weiter und rät am Ende: 去老街上找一家这样的小店."
+     },
+     {
+      "text": "Erklären, wie man zu Hause selbst eine Hotpot-Brühe kocht.",
+      "explanation": "Falsch. Dass der Wirt die Würzmischung selbst röstet (亲自……炒料), ist nur eine Besonderheit des Lokals, keine Kochanleitung für zu Hause."
+     },
+     {
+      "text": "Mehrere Hotpot-Lokale in Chengdu miteinander vergleichen.",
+      "explanation": "Falsch. Beschrieben wird nur ein einziges Lokal; die 网红店 werden bloß allgemein im letzten Satz genannt."
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Wie isst man den Rinderpansen (毛肚) laut dem Freund richtig?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Man gibt ihn gleich am Anfang zusammen mit allen anderen Zutaten in den Topf.",
+      "explanation": "Falsch. Der Freund rät ausdrücklich: 菜不要一次全倒进锅里."
+     },
+     {
+      "text": "Man kocht ihn einige Minuten, bis er schön weich ist.",
+      "explanation": "Falsch. Im Text steht das Gegenteil: 煮久了反而会变硬 – lange gekocht wird er hart."
+     },
+     {
+      "text": "Man legt ihn vor dem Garen in Sesamöl mit Knoblauch ein.",
+      "explanation": "Falsch. Sesamöl mit Knoblauch (香油加蒜泥) ist die Dip-Soße, in die man das Essen nach dem Garen taucht."
+     },
+     {
+      "text": "Man hält ihn mit den Stäbchen und schwenkt ihn nur gut zehn Sekunden in der Brühe.",
+      "explanation": "Richtig. 用筷子夹着在锅里上下涮十几秒就可以吃了."
+     }
+    ],
+    "answer": 3
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Warum ist das Lokal so voll, obwohl es klein und kaum eingerichtet ist?",
+    "evidence": "p1",
+    "choices": [
+     {
+      "text": "Weil das Essen gut ist und zufriedene Gäste immer wiederkommen und es weiterempfehlen.",
+      "explanation": "Richtig. 靠的全是回头客的口碑 – das Lokal lebt vom Ruf bei seinen Stammgästen; dazu passt die selbst gemachte Brühe in Absatz 2."
+     },
+     {
+      "text": "Weil es ein bekanntes Influencer-Lokal ist, das viel im Internet geworben wird.",
+      "explanation": "Falsch. Im Text wird es gerade den schicken 网红店 gegenübergestellt."
+     },
+     {
+      "text": "Weil es erst vor Kurzem eröffnet hat und viele Neugierige anzieht.",
+      "explanation": "Falsch. 这家店开了二十多年 – es besteht schon seit über zwanzig Jahren."
+     },
+     {
+      "text": "Weil es besonders schön und modern eingerichtet ist.",
+      "explanation": "Falsch. 门面不大，也没有什么装修 – es ist klein und kaum eingerichtet."
+     }
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "reading-hsk5-02",
+  "level": "HSK5",
+  "skill": "reading",
+  "order": 2,
+  "task": {
+   "no": 5,
+   "title": "谈论医疗健康"
+  },
+  "topic": "日常生活›医疗健康›就医",
+  "title": "Nach dem Badmintonspiel",
+  "objective": "Du kannst einem persönlichen Erfahrungsbericht zum Thema Gesundheit wichtige Einzelheiten und die Hauptaussage entnehmen.",
+  "textType": "Erfahrungsbericht",
+  "minutes": 10,
+  "introduction": "Jemand erzählt in einem Erfahrungsbericht von einem Erlebnis beim Badmintonspielen im letzten Winter.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "text": "去年冬天，我和同事打羽毛球的时候，跳起来接球，落地时不小心把右脚崴了。当时只觉得有点儿疼，我以为休息一下就好了，于是回家后用热毛巾敷了半个小时，还用力揉了揉。没想到第二天早上起床，脚踝肿得像个馒头，连鞋都穿不进去了。",
+    "pinyin": "Qùnián dōngtiān, wǒ hé tóngshì dǎ yǔmáoqiú de shíhou, tiào qǐlai jiē qiú, luòdì shí bù xiǎoxīn bǎ yòu jiǎo wǎi le. Dāngshí zhǐ juéde yǒudiǎnr téng, wǒ yǐwéi xiūxi yíxià jiù hǎo le, yúshì huí jiā hòu yòng rè máojīn fū le bàn ge xiǎoshí, hái yònglì róu le róu. Méi xiǎngdào dì'èr tiān zǎoshang qǐchuáng, jiǎohuái zhǒng de xiàng ge mántou, lián xié dōu chuān bu jìnqu le."
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "text": "我只好请假去医院。医生检查以后告诉我，幸好骨头没有问题，只是韧带拉伤了。不过他也批评我：受伤后马上热敷、按摩，是最常见的错误。因为刚受伤的时候，伤处里面的小血管还在出血，热敷和按摩会让出血更多，肿得也就更厉害。",
+    "pinyin": "Wǒ zhǐhǎo qǐngjià qù yīyuàn. Yīshēng jiǎnchá yǐhòu gàosu wǒ, xìnghǎo gǔtou méiyǒu wèntí, zhǐshì rèndài lāshāng le. Búguò tā yě pīpíng wǒ: shòushāng hòu mǎshàng rèfū, ànmó, shì zuì chángjiàn de cuòwù. Yīnwèi gāng shòushāng de shíhou, shāngchù lǐmiàn de xiǎo xuèguǎn hái zài chūxuè, rèfū hé ànmó huì ràng chūxuè gèng duō, zhǒng de yě jiù gèng lìhai."
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "text": "医生说，扭伤以后，正确的处理方法可以总结为四步：休息、冰敷、加压、抬高。第一，马上停止运动，尽量不要用受伤的脚走路；第二，用冰袋冷敷，每次十五到二十分钟，中间隔一两个小时，冰袋外面最好包一条毛巾，以免冻伤皮肤；第三，用弹力绷带把伤处包起来，但是不能包得太紧；第四，躺着或坐着的时候，把脚垫得比心脏高一些，这样有助于消肿。一般来说，四十八小时以后，肿不再加重了，才可以考虑热敷。",
+    "pinyin": "Yīshēng shuō, niǔshāng yǐhòu, zhèngquè de chǔlǐ fāngfǎ kěyǐ zǒngjié wéi sì bù: xiūxi, bīngfū, jiāyā, táigāo. Dìyī, mǎshàng tíngzhǐ yùndòng, jǐnliàng bú yào yòng shòushāng de jiǎo zǒu lù; dì'èr, yòng bīngdài lěngfū, měi cì shíwǔ dào èrshí fēnzhōng, zhōngjiān gé yì liǎng ge xiǎoshí, bīngdài wàimiàn zuìhǎo bāo yì tiáo máojīn, yǐmiǎn dòngshāng pífū; dìsān, yòng tánlì bēngdài bǎ shāngchù bāo qǐlai, dànshì bù néng bāo de tài jǐn; dìsì, tǎngzhe huò zuòzhe de shíhou, bǎ jiǎo diàn de bǐ xīnzàng gāo yìxiē, zhèyàng yǒuzhùyú xiāo zhǒng. Yìbān lái shuō, sìshíbā xiǎoshí yǐhòu, zhǒng bú zài jiāzhòng le, cái kěyǐ kǎolǜ rèfū."
+   },
+   {
+    "id": "p4",
+    "speaker": "",
+    "text": "医生还提醒我，如果受伤的地方明显变形、完全不能用力，或者疼得越来越厉害，就一定要及时去医院拍片子，千万不要自己硬撑。按照医生说的方法，我的脚两个星期就好了。从那以后，每次运动以前，我都会认真做十分钟的热身活动。",
+    "pinyin": "Yīshēng hái tíxǐng wǒ, rúguǒ shòushāng de dìfang míngxiǎn biànxíng, wánquán bù néng yònglì, huòzhě téng de yuè lái yuè lìhai, jiù yídìng yào jíshí qù yīyuàn pāi piānzi, qiānwàn bú yào zìjǐ yìngchēng. Ànzhào yīshēng shuō de fāngfǎ, wǒ de jiǎo liǎng ge xīngqī jiù hǎo le. Cóng nà yǐhòu, měi cì yùndòng yǐqián, wǒ dōu huì rènzhēn zuò shí fēnzhōng de rèshēn huódòng."
+   }
+  ],
+  "translation": "Letzten Winter spielte ich mit Kollegen Badminton; ich sprang hoch, um einen Ball anzunehmen, und knickte bei der Landung versehentlich mit dem rechten Fuß um. Im ersten Moment tat es nur ein bisschen weh, und ich dachte, nach etwas Ruhe wäre alles wieder gut. Also legte ich zu Hause eine halbe Stunde ein heißes Handtuch auf und rieb den Fuß auch noch kräftig. Ich hätte nicht gedacht, dass mein Knöchel am nächsten Morgen beim Aufstehen so dick wie ein Dampfbrötchen geschwollen sein würde – ich kam nicht einmal mehr in meinen Schuh. Ich musste mir freinehmen und ins Krankenhaus gehen. Nach der Untersuchung sagte mir der Arzt, zum Glück sei mit dem Knochen alles in Ordnung, nur ein Band sei gezerrt. Er tadelte mich aber auch: Gleich nach einer Verletzung Wärme aufzulegen und zu massieren, sei der häufigste Fehler. Denn direkt nach der Verletzung bluten die kleinen Blutgefäße in der verletzten Stelle noch; Wärme und Massage verstärken die Blutung, und die Schwellung wird dadurch noch schlimmer. Der Arzt sagte, die richtige Behandlung nach einer Verstauchung lasse sich in vier Schritten zusammenfassen: Ruhe, Kühlen, Druck, Hochlagern. Erstens: sofort mit dem Sport aufhören und mit dem verletzten Fuß möglichst nicht gehen. Zweitens: mit einem Eisbeutel kühlen, jeweils fünfzehn bis zwanzig Minuten, mit ein bis zwei Stunden Pause dazwischen; den Eisbeutel am besten in ein Handtuch wickeln, damit die Haut keine Kälteschäden bekommt. Drittens: die verletzte Stelle mit einer elastischen Binde umwickeln, aber nicht zu fest. Viertens: beim Liegen oder Sitzen den Fuß etwas höher als das Herz lagern, das hilft der Schwellung abzuklingen. Im Allgemeinen könne man erst nach achtundvierzig Stunden, wenn die Schwellung nicht mehr zunimmt, an Wärme denken. Der Arzt wies mich außerdem darauf hin: Wenn die verletzte Stelle deutlich verformt ist, man sie überhaupt nicht belasten kann oder die Schmerzen immer stärker werden, müsse man unbedingt rechtzeitig ins Krankenhaus und sich röntgen lassen und dürfe es auf keinen Fall einfach aushalten. Mit der Methode des Arztes war mein Fuß nach zwei Wochen wieder gesund. Seitdem mache ich vor jedem Sport gewissenhaft zehn Minuten Aufwärmübungen.",
+  "glossary": [
+   {
+    "word": "崴",
+    "pinyin": "wǎi",
+    "meaning": "(den Fuß) umknicken, verstauchen"
+   },
+   {
+    "word": "脚踝",
+    "pinyin": "jiǎohuái",
+    "meaning": "Knöchel, Sprunggelenk"
+   },
+   {
+    "word": "肿",
+    "pinyin": "zhǒng",
+    "meaning": "anschwellen; geschwollen sein",
+    "vocabId": "w:肿:zhong3"
+   },
+   {
+    "word": "韧带",
+    "pinyin": "rèndài",
+    "meaning": "Band (Anatomie), Ligament",
+    "vocabId": "w:韧带:ren4dai4"
+   },
+   {
+    "word": "热敷",
+    "pinyin": "rèfū",
+    "meaning": "warme Umschläge machen, Wärme auflegen"
+   },
+   {
+    "word": "冰敷",
+    "pinyin": "bīngfū",
+    "meaning": "mit Eis kühlen"
+   },
+   {
+    "word": "扭伤",
+    "pinyin": "niǔshāng",
+    "meaning": "Verstauchung; sich verstauchen",
+    "vocabId": "w:扭伤:niu3shang1"
+   },
+   {
+    "word": "绷带",
+    "pinyin": "bēngdài",
+    "meaning": "Binde, Bandage",
+    "vocabId": "w:绷带:beng1dai4"
+   },
+   {
+    "word": "拍片子",
+    "pinyin": "pāi piānzi",
+    "meaning": "sich röntgen lassen (umgangssprachlich)"
+   },
+   {
+    "word": "硬撑",
+    "pinyin": "yìngchēng",
+    "meaning": "sich mit Gewalt durchbeißen, etwas krampfhaft aushalten"
+   }
+  ],
+  "note": "以免 („damit nicht, um … zu vermeiden“) leitet einen Satzteil ein, der ein unerwünschtes Ergebnis nennt: 以免冻伤皮肤 – „damit die Haut keine Kälteschäden bekommt“. Ähnlich bedeutet 有助于 „trägt zu … bei, hilft bei …“: 有助于消肿.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Was möchte der Text den Lesern vor allem vermitteln?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Badminton ist ein gefährlicher Sport, den man besser meiden sollte.",
+      "explanation": "Falsch. Die erzählende Person treibt weiter Sport und wärmt sich jetzt nur vorher auf (每次运动以前……做十分钟的热身活动)."
+     },
+     {
+      "text": "Bei jeder kleinen Verletzung sollte man sofort ins Krankenhaus gehen.",
+      "explanation": "Falsch. Ins Krankenhaus muss man laut Arzt nur in bestimmten Fällen, etwa bei Verformung oder zunehmenden Schmerzen (如果……就一定要及时去医院)."
+     },
+     {
+      "text": "Wie man eine Verstauchung richtig versorgt und welche Fehler man dabei vermeiden sollte.",
+      "explanation": "Richtig. Die erzählende Person schildert den eigenen Fehler (热敷、按摩) und gibt die vier Schritte des Arztes wieder: 休息、冰敷、加压、抬高."
+     },
+     {
+      "text": "Warum Wärme bei Sportverletzungen am schnellsten hilft.",
+      "explanation": "Falsch. Wärme direkt nach der Verletzung ist laut Arzt 最常见的错误; erst nach 48 Stunden kann man sie in Betracht ziehen."
+     }
+    ],
+    "answer": 2
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Was soll man laut Arzt beim Kühlen beachten?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Jeweils fünfzehn bis zwanzig Minuten kühlen und den Eisbeutel in ein Handtuch wickeln.",
+      "explanation": "Richtig. 每次十五到二十分钟……冰袋外面最好包一条毛巾，以免冻伤皮肤."
+     },
+     {
+      "text": "Ohne Pause mehrere Stunden am Stück kühlen.",
+      "explanation": "Falsch. Zwischen den Anwendungen soll man ein bis zwei Stunden Pause machen (中间隔一两个小时)."
+     },
+     {
+      "text": "Das Eis direkt auf die Haut legen, damit es stärker wirkt.",
+      "explanation": "Falsch. Der Eisbeutel soll in ein Handtuch gewickelt werden, damit die Haut keinen Kälteschaden bekommt (以免冻伤皮肤)."
+     },
+     {
+      "text": "Erst achtundvierzig Stunden nach der Verletzung mit dem Kühlen beginnen.",
+      "explanation": "Falsch. Gekühlt wird sofort; die achtundvierzig Stunden beziehen sich auf die Wärme (四十八小时以后……才可以考虑热敷)."
+     }
+    ],
+    "answer": 0
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Warum war der Knöchel der erzählenden Person am nächsten Morgen so stark geschwollen?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Weil ein Knochen gebrochen war.",
+      "explanation": "Falsch. Der Arzt stellte fest: 幸好骨头没有问题 – nur ein Band war gezerrt."
+     },
+     {
+      "text": "Weil der Fuß zu lange mit Eis gekühlt worden war.",
+      "explanation": "Falsch. Gekühlt wurde gar nicht; stattdessen kam ein heißes Handtuch auf den Fuß (用热毛巾敷了半个小时)."
+     },
+     {
+      "text": "Weil die Person am Abend trotz der Schmerzen weiter Badminton gespielt hatte.",
+      "explanation": "Falsch. Nach der Verletzung ging die Person nach Hause (回家后) und behandelte den Fuß dort."
+     },
+     {
+      "text": "Weil der Fuß direkt nach der Verletzung mit Wärme und kräftigem Reiben behandelt worden war.",
+      "explanation": "Richtig. Die Person legte ein heißes Handtuch auf und rieb den Fuß (用热毛巾敷……还用力揉了揉); laut Arzt verstärkt das die Blutung, 肿得也就更厉害."
+     }
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "reading-hsk5-03",
+  "level": "HSK5",
+  "skill": "reading",
+  "order": 3,
+  "task": {
+   "no": 8,
+   "title": "交流家庭生活"
+  },
+  "topic": "日常生活›家庭生活›家庭活动",
+  "title": "Samstage zu dritt",
+  "objective": "Du kannst einer Zeitschriftenkolumne über das Familienleben die wichtigsten Ereignisse und die Einschätzung der Verfasserin entnehmen.",
+  "textType": "Zeitschriftenkolumne",
+  "minutes": 10,
+  "introduction": "Eine Mutter schreibt in einer Zeitschriftenkolumne über ihre Familie: sie selbst, ihren Mann und ihren Sohn.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "text": "不知道从什么时候开始，我们家的晚饭变得越来越安静了。丈夫一边吃饭一边看新闻，上初中的儿子低着头跟同学聊天，我自己也常常忍不住刷短视频。一家三口明明坐在同一张桌子旁边，却好像各自生活在不同的世界里。",
+    "pinyin": "Bù zhīdào cóng shénme shíhou kāishǐ, wǒmen jiā de wǎnfàn biàn de yuè lái yuè ānjìng le. Zhàngfu yìbiān chī fàn yìbiān kàn xīnwén, shàng chūzhōng de érzi dīzhe tóu gēn tóngxué liáotiān, wǒ zìjǐ yě chángcháng rěnbuzhù shuā duǎn shìpín. Yì jiā sān kǒu míngmíng zuò zài tóng yì zhāng zhuōzi pángbiān, què hǎoxiàng gèzì shēnghuó zài bùtóng de shìjiè li."
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "text": "有一天，儿子在作文里写道：“我最希望的事，是爸爸妈妈能放下手机，好好听我说话。”看到这句话，我心里很不是滋味。那天晚上，我和丈夫商量了很久，最后决定：从下个星期开始，把每个星期六定为我们家的“无手机日”。",
+    "pinyin": "Yǒu yì tiān, érzi zài zuòwén li xiědào: “Wǒ zuì xīwàng de shì, shì bàba māma néng fàngxià shǒujī, hǎohǎo tīng wǒ shuō huà.” Kàndào zhè jù huà, wǒ xīnli hěn bú shì zīwèi. Nà tiān wǎnshang, wǒ hé zhàngfu shāngliang le hěn jiǔ, zuìhòu juédìng: cóng xià ge xīngqī kāishǐ, bǎ měi ge xīngqīliù dìngwéi wǒmen jiā de “wú shǒujī rì”."
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "text": "规定很简单：早上九点到晚上九点，三个人的手机都放进客厅的一个盒子里，除非有急事，谁也不许拿出来。刚开始的时候，最不习惯的反而是我们两个大人。丈夫总担心错过工作消息，我也时不时想看看朋友圈。儿子倒是很快就适应了，还主动负责“看管”盒子。",
+    "pinyin": "Guīdìng hěn jiǎndān: zǎoshang jiǔ diǎn dào wǎnshang jiǔ diǎn, sān ge rén de shǒujī dōu fàngjìn kètīng de yí ge hézi li, chúfēi yǒu jíshì, shéi yě bù xǔ ná chūlai. Gāng kāishǐ de shíhou, zuì bù xíguàn de fǎn'ér shì wǒmen liǎng ge dàren. Zhàngfu zǒng dānxīn cuòguò gōngzuò xiāoxi, wǒ yě shíbùshí xiǎng kànkan péngyouquān. Érzi dàoshì hěn kuài jiù shìyìng le, hái zhǔdòng fùzé “kānguǎn” hézi."
+   },
+   {
+    "id": "p4",
+    "speaker": "",
+    "text": "没有了手机，我们发现一天的时间好像突然变长了。我们一起去爬山、逛菜市场，下午在家包饺子，晚上就坐在沙发上下棋、聊天。儿子告诉我们，他在学校参加了篮球队，最近还交了一个好朋友，这些事我们以前竟然完全不知道。",
+    "pinyin": "Méiyǒu le shǒujī, wǒmen fāxiàn yì tiān de shíjiān hǎoxiàng tūrán biàn cháng le. Wǒmen yìqǐ qù pá shān, guàng càishìchǎng, xiàwǔ zài jiā bāo jiǎozi, wǎnshang jiù zuò zài shāfā shang xià qí, liáotiān. Érzi gàosu wǒmen, tā zài xuéxiào cānjiā le lánqiúduì, zuìjìn hái jiāo le yí ge hǎo péngyou, zhèxiē shì wǒmen yǐqián jìngrán wánquán bù zhīdào."
+   },
+   {
+    "id": "p5",
+    "speaker": "",
+    "text": "这个活动我们已经坚持了半年。说实话，并不是每个星期六都过得很顺利，有时候也会因为加班而不得不“破例”。但是我们都感觉到，家里的笑声比以前多了，儿子也愿意主动跟我们说心里话了。",
+    "pinyin": "Zhège huódòng wǒmen yǐjīng jiānchí le bàn nián. Shuō shíhuà, bìng bú shì měi ge xīngqīliù dōu guò de hěn shùnlì, yǒushíhou yě huì yīnwèi jiābān ér bùdébù “pòlì”. Dànshì wǒmen dōu gǎnjué dào, jiā li de xiàoshēng bǐ yǐqián duō le, érzi yě yuànyì zhǔdòng gēn wǒmen shuō xīnlihuà le."
+   }
+  ],
+  "translation": "Ich weiß nicht, seit wann, aber das Abendessen bei uns zu Hause ist immer stiller geworden. Mein Mann schaut beim Essen Nachrichten, unser Sohn, der in die Mittelschule geht, chattet mit gesenktem Kopf mit seinen Mitschülern, und auch ich kann es oft nicht lassen, durch Kurzvideos zu scrollen. Wir drei sitzen zwar am selben Tisch, aber es ist, als lebte jeder in seiner eigenen Welt. Eines Tages schrieb unser Sohn in einem Aufsatz: „Was ich mir am meisten wünsche, ist, dass Papa und Mama ihr Handy weglegen und mir richtig zuhören.“ Als ich diesen Satz las, wurde mir ganz elend zumute. An dem Abend besprach ich mich lange mit meinem Mann, und schließlich beschlossen wir: Ab der nächsten Woche wird jeder Samstag zum „handyfreien Tag“ unserer Familie. Die Regel ist einfach: Von neun Uhr morgens bis neun Uhr abends kommen die Handys von uns dreien in eine Schachtel im Wohnzimmer, und außer in dringenden Fällen darf niemand sie herausnehmen. Am Anfang taten sich ausgerechnet wir beiden Erwachsenen am schwersten. Mein Mann hatte ständig Angst, berufliche Nachrichten zu verpassen, und auch ich wollte immer wieder einmal in meine WeChat-Momente schauen. Unser Sohn dagegen gewöhnte sich schnell daran und übernahm sogar von sich aus die Aufgabe, die Schachtel zu „bewachen“. Ohne Handys merkten wir, dass ein Tag plötzlich viel länger zu sein scheint. Wir gehen zusammen wandern und über den Gemüsemarkt, nachmittags machen wir zu Hause Jiaozi, und abends sitzen wir auf dem Sofa, spielen Schach und unterhalten uns. Unser Sohn erzählte uns, dass er in der Schule in die Basketballmannschaft eingetreten ist und vor Kurzem einen guten Freund gefunden hat – davon hatten wir vorher tatsächlich überhaupt nichts gewusst. Wir halten nun schon ein halbes Jahr an dieser Aktion fest. Ehrlich gesagt läuft nicht jeder Samstag reibungslos; manchmal müssen wir wegen Überstunden auch eine „Ausnahme“ machen. Aber wir alle spüren, dass zu Hause mehr gelacht wird als früher und dass unser Sohn uns wieder von sich aus erzählt, was ihn bewegt.",
+  "glossary": [
+   {
+    "word": "刷",
+    "pinyin": "shuā",
+    "meaning": "(am Handy) scrollen, durchwischen",
+    "vocabId": "w:刷:shua1"
+   },
+   {
+    "word": "明明",
+    "pinyin": "míngmíng",
+    "meaning": "offensichtlich, doch eigentlich (betont einen Widerspruch)"
+   },
+   {
+    "word": "不是滋味",
+    "pinyin": "bú shì zīwèi",
+    "meaning": "sich elend, unwohl fühlen"
+   },
+   {
+    "word": "除非",
+    "pinyin": "chúfēi",
+    "meaning": "außer wenn, es sei denn"
+   },
+   {
+    "word": "朋友圈",
+    "pinyin": "péngyouquān",
+    "meaning": "WeChat-Momente (Social-Media-Bereich)",
+    "vocabId": "w:朋友圈:peng2you5quan1"
+   },
+   {
+    "word": "看管",
+    "pinyin": "kānguǎn",
+    "meaning": "beaufsichtigen, bewachen",
+    "vocabId": "w:看管:kan1guan3"
+   },
+   {
+    "word": "竟然",
+    "pinyin": "jìngrán",
+    "meaning": "tatsächlich, unerwarteterweise"
+   },
+   {
+    "word": "破例",
+    "pinyin": "pòlì",
+    "meaning": "eine Ausnahme machen",
+    "vocabId": "w:破例:po4li4"
+   },
+   {
+    "word": "心里话",
+    "pinyin": "xīnlihuà",
+    "meaning": "was einen innerlich bewegt; offene Worte"
+   }
+  ],
+  "note": "明明……却…… betont einen Widerspruch zwischen Tatsache und Erwartung: 明明坐在同一张桌子旁边，却好像各自生活在不同的世界里. Auch 反而 („im Gegenteil, ausgerechnet“) drückt aus, dass etwas anders kommt als erwartet: 最不习惯的反而是我们两个大人.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worum geht es in dem Text vor allem?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Um die Gefahren von Kurzvideos für Jugendliche.",
+      "explanation": "Falsch. Kurzvideos (刷短视频) schaut in Absatz 1 die Mutter selbst; über Gefahren für Jugendliche schreibt sie nicht."
+     },
+     {
+      "text": "Um einen Streit der Eltern über die Überstunden des Vaters.",
+      "explanation": "Falsch. Die Eltern beraten sich (商量了很久) und sind sich einig; Überstunden (加班) werden nur als Grund für gelegentliche Ausnahmen genannt."
+     },
+     {
+      "text": "Um die Probleme des Sohnes in der Schule.",
+      "explanation": "Falsch. Der Sohn hat keine Schulprobleme: Er ist in die Basketballmannschaft eingetreten und hat einen guten Freund gefunden (参加了篮球队……交了一个好朋友)."
+     },
+     {
+      "text": "Um eine Familie, die einen handyfreien Tag einführt, um wieder mehr Zeit miteinander zu verbringen.",
+      "explanation": "Richtig. Die Eltern beschließen: 把每个星期六定为我们家的“无手机日”; der Text beschreibt Anlass, Regeln und Folgen dieser Entscheidung."
+     }
+    ],
+    "answer": 3
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Wem fiel es am Anfang am schwersten, sich an die neue Regel zu halten?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Dem Sohn, weil er nicht mehr mit seinen Mitschülern chatten konnte.",
+      "explanation": "Falsch. 儿子倒是很快就适应了 – der Sohn gewöhnte sich schnell daran."
+     },
+     {
+      "text": "Den beiden Eltern.",
+      "explanation": "Richtig. 最不习惯的反而是我们两个大人 – ausgerechnet die Erwachsenen taten sich am schwersten."
+     },
+     {
+      "text": "Niemandem – alle gewöhnten sich sofort daran.",
+      "explanation": "Falsch. Der Vater fürchtete, Nachrichten zu verpassen, und die Mutter wollte in ihre WeChat-Momente schauen (时不时想看看朋友圈)."
+     },
+     {
+      "text": "Nur dem Vater; die Mutter hatte keine Probleme damit.",
+      "explanation": "Falsch. Auch die Mutter schreibt: 我也时不时想看看朋友圈."
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "id": "q3",
+    "kind": "attitude",
+    "prompt": "Wie bewertet die Verfasserin den handyfreien Tag nach einem halben Jahr?",
+    "evidence": "p5",
+    "choices": [
+     {
+      "text": "Sie hält ihn für gescheitert, weil die Regel ständig gebrochen wird.",
+      "explanation": "Falsch. Ausnahmen gibt es nur manchmal (有时候……不得不“破例”), und die Familie hält seit einem halben Jahr daran fest (已经坚持了半年)."
+     },
+     {
+      "text": "Sie findet ihn perfekt, weil es dabei noch nie Schwierigkeiten gab.",
+      "explanation": "Falsch. Sie schreibt selbst: 并不是每个星期六都过得很顺利."
+     },
+     {
+      "text": "Insgesamt positiv: Nicht immer klappt alles, aber es wird mehr gelacht und der Sohn öffnet sich wieder.",
+      "explanation": "Richtig. Trotz gelegentlicher Ausnahmen: 家里的笑声比以前多了，儿子也愿意主动跟我们说心里话了."
+     },
+     {
+      "text": "Sie will ihn bald beenden, weil sich der Sohn an den Samstagen langweilt.",
+      "explanation": "Falsch. Vom Beenden ist keine Rede; der Sohn hat sich schnell daran gewöhnt und passt sogar auf die Schachtel auf (主动负责“看管”盒子)."
+     }
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "reading-hsk5-04",
+  "level": "HSK5",
+  "skill": "reading",
+  "order": 4,
+  "task": {
+   "no": 10,
+   "title": "分享校园生活的经历、经验"
+  },
+  "topic": "教育情况›校园生活›校园活动",
+  "title": "Sechs Sätze auf der Bühne",
+  "objective": "Du kannst einem Erfahrungsbericht über das Studentenleben wichtige Ereignisse und Gedanken der Verfasserin entnehmen.",
+  "textType": "Erfahrungsbericht",
+  "minutes": 10,
+  "introduction": "Eine Studentin im dritten Studienjahr erzählt von ihrer Zeit in einem Club an ihrer Universität.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "text": "刚上大学的时候，我是一个特别内向的人，上课回答问题都会脸红。开学第二周，学校举办社团招新活动，操场上摆满了各个社团的桌子。我本来只想去看看热闹，结果被话剧社的一位学姐热情地拉住了。她说：“不会演没关系，我们最需要的是愿意尝试的人。”就这样，我稀里糊涂地填了报名表。",
+    "pinyin": "Gāng shàng dàxué de shíhou, wǒ shì yí ge tèbié nèixiàng de rén, shàng kè huídá wèntí dōu huì liǎnhóng. Kāixué dì'èr zhōu, xuéxiào jǔbàn shètuán zhāoxīn huódòng, cāochǎng shang bǎimǎn le gègè shètuán de zhuōzi. Wǒ běnlái zhǐ xiǎng qù kànkan rènao, jiéguǒ bèi huàjùshè de yí wèi xuéjiě rèqíng de lāzhù le. Tā shuō: “Bú huì yǎn méi guānxi, wǒmen zuì xūyào de shì yuànyì chángshì de rén.” Jiù zhèyàng, wǒ xīlihútú de tián le bàomíngbiǎo."
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "text": "话剧社每周排练两次，每次两三个小时。第一个学期，我主要在后台帮忙，搬道具、管灯光，有时候也帮演员对台词。虽然没有上台的机会，但是我发现，一场二十分钟的演出，背后需要几十个人的配合，任何一个环节出了问题，都会影响整场演出。",
+    "pinyin": "Huàjùshè měi zhōu páiliàn liǎng cì, měi cì liǎng sān ge xiǎoshí. Dìyī ge xuéqī, wǒ zhǔyào zài hòutái bāngmáng, bān dàojù, guǎn dēngguāng, yǒushíhou yě bāng yǎnyuán duì táicí. Suīrán méiyǒu shàngtái de jīhuì, dànshì wǒ fāxiàn, yì chǎng èrshí fēnzhōng de yǎnchū, bèihòu xūyào jǐshí ge rén de pèihé, rènhé yí ge huánjié chū le wèntí, dōu huì yǐngxiǎng zhěng chǎng yǎnchū."
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "text": "第二个学期，社长让我在新年晚会的话剧里演一个小角色，只有六句台词。我每天晚上在宿舍楼下练习，宿舍里另外三个女生都快能背下来了。可是正式演出那天，我一上台，看到台下黑压压的观众，脑子突然一片空白，第三句台词怎么也想不起来了。就在我不知道怎么办的时候，旁边的学长很自然地接了一句话，把我那句台词的意思说了出来，观众根本没有发现问题。",
+    "pinyin": "Dì'èr ge xuéqī, shèzhǎng ràng wǒ zài xīnnián wǎnhuì de huàjù li yǎn yí ge xiǎo juésè, zhǐ yǒu liù jù táicí. Wǒ měi tiān wǎnshang zài sùshèlóu xià liànxí, sùshè li lìngwài sān ge nǚshēng dōu kuài néng bèi xiàlai le. Kěshì zhèngshì yǎnchū nà tiān, wǒ yí shàng tái, kàndào tái xià hēiyāyā de guānzhòng, nǎozi tūrán yí piàn kòngbái, dìsān jù táicí zěnme yě xiǎng bu qǐlai le. Jiù zài wǒ bù zhīdào zěnme bàn de shíhou, pángbiān de xuézhǎng hěn zìrán de jiē le yí jù huà, bǎ wǒ nà jù táicí de yìsi shuō le chūlai, guānzhòng gēnběn méiyǒu fāxiàn wèntí."
+   },
+   {
+    "id": "p4",
+    "speaker": "",
+    "text": "演出结束后，我难过得想退出话剧社。学长却笑着对我说：“舞台上谁都会出错，重要的是大家互相帮忙。”这句话我一直记在心里。现在我已经上大三了，也成了话剧社的负责人之一。每年招新的时候，我都会对那些看起来有点儿害羞的新同学说当年学姐对我说过的话：不会演没关系，愿意尝试就够了。",
+    "pinyin": "Yǎnchū jiéshù hòu, wǒ nánguò de xiǎng tuìchū huàjùshè. Xuézhǎng què xiàozhe duì wǒ shuō: “Wǔtái shang shéi dōu huì chūcuò, zhòngyào de shì dàjiā hùxiāng bāngmáng.” Zhè jù huà wǒ yìzhí jì zài xīnli. Xiànzài wǒ yǐjīng shàng dà sān le, yě chéng le huàjùshè de fùzérén zhī yī. Měi nián zhāoxīn de shíhou, wǒ dōu huì duì nàxiē kàn qǐlai yǒudiǎnr hàixiū de xīn tóngxué shuō dāngnián xuéjiě duì wǒ shuō guo de huà: bú huì yǎn méi guānxi, yuànyì chángshì jiù gòu le."
+   }
+  ],
+  "translation": "Als ich gerade an die Uni gekommen war, war ich ein sehr introvertierter Mensch; schon wenn ich im Unterricht eine Frage beantworten sollte, wurde ich rot. In der zweiten Semesterwoche veranstaltete die Universität eine Werbeaktion der Studentenclubs, und auf dem Sportplatz standen überall die Tische der einzelnen Clubs. Eigentlich wollte ich mir das Treiben nur ansehen, doch dann hielt mich eine ältere Studentin vom Theaterclub begeistert fest. Sie sagte: „Es macht nichts, wenn du nicht schauspielern kannst; am meisten brauchen wir Leute, die bereit sind, etwas auszuprobieren.“ Und so füllte ich, ohne recht zu wissen, wie mir geschah, das Anmeldeformular aus. Der Theaterclub probt zweimal pro Woche, jeweils zwei, drei Stunden. Im ersten Semester half ich hauptsächlich hinter der Bühne: Ich trug Requisiten, kümmerte mich um das Licht und half manchmal den Schauspielern, ihren Text durchzugehen. Ich kam zwar nicht auf die Bühne, aber ich merkte, dass hinter einer zwanzigminütigen Aufführung das Zusammenspiel von Dutzenden Leuten steckt und dass ein Problem an irgendeiner Stelle die ganze Aufführung beeinträchtigt. Im zweiten Semester ließ mich die Clubleitung in dem Theaterstück für die Neujahrsfeier eine kleine Rolle spielen – mit nur sechs Sätzen Text. Ich übte jeden Abend unten vor dem Wohnheim, und die drei anderen Mädchen aus meinem Zimmer konnten den Text bald selbst auswendig. Doch am Tag der Aufführung, als ich auf die Bühne kam und unten die dicht gedrängte Menge der Zuschauer sah, war mein Kopf plötzlich völlig leer, und der dritte Satz wollte mir einfach nicht mehr einfallen. Gerade als ich nicht mehr weiterwusste, sprang der ältere Student neben mir ganz natürlich mit einem Satz ein, in dem er den Sinn meines Textes aussprach, und die Zuschauer bemerkten überhaupt nichts. Nach der Aufführung war ich so niedergeschlagen, dass ich aus dem Theaterclub austreten wollte. Doch der ältere Student sagte lächelnd zu mir: „Auf der Bühne macht jeder mal Fehler. Wichtig ist, dass alle einander helfen.“ Diesen Satz habe ich mir immer gemerkt. Jetzt bin ich schon im dritten Studienjahr und gehöre selbst zur Leitung des Theaterclubs. Jedes Jahr bei der Mitgliederwerbung sage ich den neuen Kommilitonen, die etwas schüchtern wirken, was mir die ältere Studentin damals gesagt hat: Es macht nichts, wenn du nicht schauspielern kannst – es reicht, dass du bereit bist, es zu versuchen.",
+  "glossary": [
+   {
+    "word": "内向",
+    "pinyin": "nèixiàng",
+    "meaning": "introvertiert, verschlossen",
+    "vocabId": "w:内向:nei4xiang4"
+   },
+   {
+    "word": "社团",
+    "pinyin": "shètuán",
+    "meaning": "Club, Verein (an Schule oder Uni)",
+    "vocabId": "w:社团:she4tuan2"
+   },
+   {
+    "word": "招新",
+    "pinyin": "zhāoxīn",
+    "meaning": "neue Mitglieder werben"
+   },
+   {
+    "word": "学姐",
+    "pinyin": "xuéjiě",
+    "meaning": "ältere Studentin (aus einem höheren Jahrgang)"
+   },
+   {
+    "word": "学长",
+    "pinyin": "xuézhǎng",
+    "meaning": "älterer Student (aus einem höheren Jahrgang)"
+   },
+   {
+    "word": "稀里糊涂",
+    "pinyin": "xīlihútú",
+    "meaning": "ohne recht zu wissen, wie; gedankenlos"
+   },
+   {
+    "word": "排练",
+    "pinyin": "páiliàn",
+    "meaning": "proben; Probe",
+    "vocabId": "w:排练:pai2lian4"
+   },
+   {
+    "word": "道具",
+    "pinyin": "dàojù",
+    "meaning": "Requisit",
+    "vocabId": "w:道具:dao4ju4"
+   },
+   {
+    "word": "台词",
+    "pinyin": "táicí",
+    "meaning": "Text einer Rolle, Dialogzeile"
+   },
+   {
+    "word": "尝试",
+    "pinyin": "chángshì",
+    "meaning": "versuchen, ausprobieren",
+    "vocabId": "w:尝试:chang2shi4"
+   }
+  ],
+  "note": "An chinesischen Hochschulen spricht man ältere Kommilitonen respektvoll mit 学长 (männlich) bzw. 学姐 (weiblich) an, jüngere heißen 学弟 bzw. 学妹. 大三 ist die Kurzform für das dritte Studienjahr (大一, 大二, 大三, 大四).",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worum geht es in dem Text vor allem?",
+    "evidence": "p4",
+    "choices": [
+     {
+      "text": "Wie die Verfasserin im Theaterclub selbstbewusster wurde und den Wert gegenseitiger Hilfe erkannte.",
+      "explanation": "Richtig. Aus der schüchternen Anfängerin (特别内向) wird eine Clubleiterin (负责人之一), und sie behält den Satz 重要的是大家互相帮忙 im Gedächtnis."
+     },
+     {
+      "text": "Wie man an der Uni möglichst schnell eine Hauptrolle bekommt.",
+      "explanation": "Falsch. Sie half zuerst ein Semester hinter der Bühne und bekam dann nur eine kleine Rolle (一个小角色)."
+     },
+     {
+      "text": "Warum schüchterne Studierende lieber keinem Theaterclub beitreten sollten.",
+      "explanation": "Falsch. Sie ermutigt gerade schüchterne Neue: 不会演没关系，愿意尝试就够了."
+     },
+     {
+      "text": "Wie die Universität ihre Neujahrsfeier organisiert.",
+      "explanation": "Falsch. Die Neujahrsfeier (新年晚会) ist nur der Anlass für ihren ersten Auftritt; ihre Organisation wird nicht beschrieben."
+     }
+    ],
+    "answer": 0
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Was geschah bei der Aufführung?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Die Verfasserin vergaß alle sechs Sätze und verließ die Bühne.",
+      "explanation": "Falsch. Ihr fiel nur ein Satz nicht ein: 第三句台词怎么也想不起来了."
+     },
+     {
+      "text": "Das Publikum lachte, weil es den Fehler bemerkte.",
+      "explanation": "Falsch. 观众根本没有发现问题 – die Zuschauer merkten nichts."
+     },
+     {
+      "text": "Ihr fiel der dritte Satz nicht ein, und ein Mitspieler half ihr unauffällig weiter.",
+      "explanation": "Richtig. 旁边的学长很自然地接了一句话，把我那句台词的意思说了出来."
+     },
+     {
+      "text": "Hinter der Bühne fiel das Licht aus, weil sie einen Fehler gemacht hatte.",
+      "explanation": "Falsch. Um das Licht kümmerte sie sich nur im ersten Semester (管灯光); bei der Aufführung im zweiten Semester stand sie selbst auf der Bühne."
+     }
+    ],
+    "answer": 2
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Warum gibt die Verfasserin schüchternen Neuen heute denselben Rat, den sie damals von der älteren Studentin bekam?",
+    "evidence": "p4",
+    "choices": [
+     {
+      "text": "Weil sie selbst nie Angst vor der Bühne hatte.",
+      "explanation": "Falsch. Sie war sehr introvertiert (特别内向), und auf der Bühne war ihr Kopf plötzlich leer (脑子突然一片空白)."
+     },
+     {
+      "text": "Weil sie selbst als schüchterne Anfängerin so ermutigt wurde und erlebt hat, dass sich der Versuch lohnt.",
+      "explanation": "Richtig. Sie war selbst sehr schüchtern (特别内向), wurde mit genau diesem Satz für den Club gewonnen und gehört heute zur Clubleitung (负责人之一); diese Erfahrung gibt sie weiter."
+     },
+     {
+      "text": "Weil Fehler auf der Bühne im Club streng bestraft werden und sich Neue darauf einstellen sollen.",
+      "explanation": "Falsch. Im Club gilt das Gegenteil: 舞台上谁都会出错，重要的是大家互相帮忙."
+     },
+     {
+      "text": "Weil sie bald aus dem Club austreten will und Nachfolger sucht.",
+      "explanation": "Falsch. Austreten wollte sie nur kurz nach ihrem ersten Auftritt; heute gehört sie zur Leitung des Clubs (负责人之一)."
+     }
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "reading-hsk5-05",
+  "level": "HSK5",
+  "skill": "reading",
+  "order": 5,
+  "task": {
+   "no": 13,
+   "title": "谈论经营与管理情况"
+  },
+  "topic": "职场生活›经营与管理›团队合作",
+  "title": "Was ein starkes Team ausmacht",
+  "objective": "Du kannst einem allgemeinen Artikel über Teamarbeit und Mitarbeiterführung die Kernthese, die empfohlenen Maßnahmen und die Begründungen entnehmen.",
+  "textType": "Ratgeberartikel (Wirtschaftsmagazin)",
+  "minutes": 10,
+  "introduction": "Du liest einen Ratgeberartikel aus einem Wirtschaftsmagazin zum Thema Teamarbeit.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "text": "很多人以为，一个团队的成绩主要取决于成员的个人能力。其实，把能力强的人放在一起，不一定就能做出好成绩。一家互联网公司曾经做过一项调查，比较了公司内部的一百多个小组。结果发现，表现最好的小组并不是成员学历最高、经验最丰富的那些，而是成员之间相互信任程度最高的那些。",
+    "pinyin": "Hěn duō rén yǐwéi, yí ge tuánduì de chéngjì zhǔyào qǔjué yú chéngyuán de gèrén nénglì. Qíshí, bǎ nénglì qiáng de rén fàng zài yìqǐ, bù yídìng jiù néng zuòchū hǎo chéngjì. Yì jiā hùliánwǎng gōngsī céngjīng zuòguo yí xiàng diàochá, bǐjiàole gōngsī nèibù de yìbǎi duō ge xiǎozǔ. Jiéguǒ fāxiàn, biǎoxiàn zuì hǎo de xiǎozǔ bìng bú shì chéngyuán xuélì zuì gāo, jīngyàn zuì fēngfù de nàxiē, ér shì chéngyuán zhījiān xiānghù xìnrèn chéngdù zuì gāo de nàxiē."
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "text": "在这些小组里，大家敢于提出不同的意见，也不怕承认自己的错误。遇到问题的时候，成员们首先想的是怎么解决，而不是谁应该负责。相反，在一些表现较差的小组里，成员们担心说错话会影响领导对自己的印象，所以开会时往往保持沉默，发现了问题也不愿意主动说出来。",
+    "pinyin": "Zài zhèxiē xiǎozǔ li, dàjiā gǎnyú tíchū bù tóng de yìjiàn, yě bú pà chéngrèn zìjǐ de cuòwù. Yùdào wèntí de shíhou, chéngyuánmen shǒuxiān xiǎng de shì zěnme jiějué, ér bú shì shéi yīnggāi fùzé. Xiāngfǎn, zài yìxiē biǎoxiàn jiào chà de xiǎozǔ li, chéngyuánmen dānxīn shuōcuò huà huì yǐngxiǎng lǐngdǎo duì zìjǐ de yìnxiàng, suǒyǐ kāihuì shí wǎngwǎng bǎochí chénmò, fāxiànle wèntí yě bú yuànyì zhǔdòng shuō chūlai."
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "text": "那么，管理者应该怎样建立这种信任呢？首先，要给每个人表达的机会。有经验的管理者开会时常常最后一个发言，这样大家就不会只是跟着领导的意见走。其次，员工犯错时，不要急着批评，而要和他一起分析原因，找出改进的办法。最后，目标要清楚，分工要明确，让每个人都知道自己的工作对整个团队有什么意义。",
+    "pinyin": "Nàme, guǎnlǐzhě yīnggāi zěnyàng jiànlì zhè zhǒng xìnrèn ne? Shǒuxiān, yào gěi měi ge rén biǎodá de jīhuì. Yǒu jīngyàn de guǎnlǐzhě kāihuì shí chángcháng zuìhòu yí ge fāyán, zhèyàng dàjiā jiù bú huì zhǐshì gēnzhe lǐngdǎo de yìjiàn zǒu. Qícì, yuángōng fàncuò shí, búyào jízhe pīpíng, ér yào hé tā yìqǐ fēnxī yuányīn, zhǎochū gǎijìn de bànfǎ. Zuìhòu, mùbiāo yào qīngchu, fēngōng yào míngquè, ràng měi ge rén dōu zhīdào zìjǐ de gōngzuò duì zhěnggè tuánduì yǒu shénme yìyì."
+   },
+   {
+    "id": "p4",
+    "speaker": "",
+    "text": "当然，信任不是一两天就能建立起来的，它需要管理者在日常工作中一点一点地积累。但是只要做到了这一点，团队的力量往往会超过每个人能力的简单相加。",
+    "pinyin": "Dāngrán, xìnrèn bú shì yì liǎng tiān jiù néng jiànlì qǐlai de, tā xūyào guǎnlǐzhě zài rìcháng gōngzuò zhōng yìdiǎn yìdiǎn de jīlěi. Dànshì zhǐyào zuòdàole zhè yì diǎn, tuánduì de lìliang wǎngwǎng huì chāoguò měi ge rén nénglì de jiǎndān xiāngjiā."
+   }
+  ],
+  "translation": "Viele glauben, dass die Leistung eines Teams vor allem von den individuellen Fähigkeiten seiner Mitglieder abhängt. Tatsächlich bringt es nicht unbedingt gute Ergebnisse, fähige Leute einfach zusammenzusetzen. Ein Internetunternehmen hat einmal eine Untersuchung durchgeführt und über hundert Arbeitsgruppen im eigenen Haus miteinander verglichen. Dabei stellte sich heraus, dass die erfolgreichsten Gruppen nicht die mit den höchsten Abschlüssen und der meisten Erfahrung waren, sondern die, in denen das gegenseitige Vertrauen am größten war. In diesen Gruppen trauen sich alle, abweichende Meinungen zu äußern, und haben keine Angst, eigene Fehler zuzugeben. Wenn ein Problem auftaucht, denken die Mitglieder zuerst daran, wie man es löst, und nicht daran, wer dafür verantwortlich ist. In manchen schwächeren Gruppen dagegen fürchten die Mitglieder, mit einer falschen Bemerkung ihr Bild beim Vorgesetzten zu beschädigen. Deshalb schweigen sie in Besprechungen meist, und selbst wenn sie ein Problem bemerken, sprechen sie es nicht von sich aus an. Wie also sollten Führungskräfte ein solches Vertrauen aufbauen? Erstens sollten sie jedem die Gelegenheit geben, sich zu äußern. Erfahrene Führungskräfte ergreifen in Besprechungen oft als Letzte das Wort – so laufen nicht alle einfach der Meinung des Chefs hinterher. Zweitens sollten sie, wenn ein Mitarbeiter einen Fehler macht, nicht gleich kritisieren, sondern gemeinsam mit ihm die Ursachen analysieren und Verbesserungsmöglichkeiten suchen. Drittens müssen die Ziele klar und die Aufgaben eindeutig verteilt sein, sodass jeder weiß, welche Bedeutung seine Arbeit für das ganze Team hat. Natürlich entsteht Vertrauen nicht in ein, zwei Tagen; Führungskräfte müssen es im Arbeitsalltag Stück für Stück aufbauen. Gelingt das aber, ist die Kraft des Teams oft größer als die bloße Summe der Fähigkeiten aller Einzelnen.",
+  "glossary": [
+   {
+    "word": "取决于",
+    "pinyin": "qǔjué yú",
+    "meaning": "abhängen von",
+    "vocabId": "w:取决于:qu3jue2yu2"
+   },
+   {
+    "word": "成员",
+    "pinyin": "chéngyuán",
+    "meaning": "Mitglied",
+    "vocabId": "w:成员:cheng2yuan2"
+   },
+   {
+    "word": "学历",
+    "pinyin": "xuélì",
+    "meaning": "Bildungsabschluss",
+    "vocabId": "w:学历:xue2li4"
+   },
+   {
+    "word": "信任",
+    "pinyin": "xìnrèn",
+    "meaning": "vertrauen; Vertrauen",
+    "vocabId": "w:信任:xin4ren4"
+   },
+   {
+    "word": "敢于",
+    "pinyin": "gǎnyú",
+    "meaning": "den Mut haben (zu), es wagen",
+    "vocabId": "w:敢于:gan3yu2"
+   },
+   {
+    "word": "承认",
+    "pinyin": "chéngrèn",
+    "meaning": "zugeben, eingestehen",
+    "vocabId": "w:承认:cheng2ren4"
+   },
+   {
+    "word": "沉默",
+    "pinyin": "chénmò",
+    "meaning": "schweigen; schweigsam",
+    "vocabId": "w:沉默:chen2mo4"
+   },
+   {
+    "word": "发言",
+    "pinyin": "fāyán",
+    "meaning": "das Wort ergreifen; Redebeitrag",
+    "vocabId": "w:发言:fa1yan2"
+   },
+   {
+    "word": "分工",
+    "pinyin": "fēngōng",
+    "meaning": "die Arbeit aufteilen; Arbeitsteilung",
+    "vocabId": "w:分工:fen1gong1"
+   },
+   {
+    "word": "积累",
+    "pinyin": "jīlěi",
+    "meaning": "ansammeln, nach und nach aufbauen",
+    "vocabId": "w:积累:ji1lei3"
+   }
+  ],
+  "note": "Die Struktur 不是……而是…… („nicht …, sondern …“) räumt einen verbreiteten Irrtum aus und nennt dann die richtige Sicht – typisch für Sachtexte. Aufzählungen von Ratschlägen werden mit 首先……其次……最后…… („erstens … zweitens … schließlich …“) gegliedert.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Was ist die zentrale Aussage des Artikels?",
+    "evidence": "p1",
+    "choices": [
+     {
+      "text": "Erfolgreiche Teams brauchen vor allem Mitglieder mit hohen Abschlüssen und viel Erfahrung.",
+      "explanation": "Falsch. Genau das widerlegt die Untersuchung: Die besten Gruppen waren nicht die mit dem höchsten 学历 und der meisten Erfahrung (并不是成员学历最高、经验最丰富的那些)."
+     },
+     {
+      "text": "Gegenseitiges Vertrauen ist entscheidend für den Erfolg eines Teams, und Führungskräfte können es gezielt aufbauen.",
+      "explanation": "Richtig. Die besten Gruppen hatten das größte gegenseitige Vertrauen (相互信任程度最高), und der Text erklärt anschließend, wie 管理者 dieses Vertrauen aufbauen können."
+     },
+     {
+      "text": "Führungskräfte sollten in Besprechungen möglichst wenig zulassen, dass Mitarbeiter widersprechen.",
+      "explanation": "Falsch. Der Text lobt Gruppen, in denen man sich traut, abweichende Meinungen zu äußern (敢于提出不同的意见), und rät, jedem Gelegenheit zum Sprechen zu geben."
+     },
+     {
+      "text": "Vertrauen im Team entsteht von selbst; Führungskräfte können darauf kaum Einfluss nehmen.",
+      "explanation": "Falsch. Der Artikel erklärt ausführlich, wie 管理者 Vertrauen aufbauen sollen, und betont, dass es ihre tägliche Arbeit erfordert (需要管理者在日常工作中一点一点地积累)."
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Warum ergreifen erfahrene Führungskräfte in Besprechungen oft als Letzte das Wort?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Weil sie zuerst die Fehler der Mitarbeiter kritisieren wollen.",
+      "explanation": "Falsch. Bei Fehlern sollen sie gerade nicht gleich kritisieren (不要急着批评); mit der Reihenfolge der Wortmeldungen hat das nichts zu tun."
+     },
+     {
+      "text": "Damit sich am Ende alle ihrer Meinung anschließen.",
+      "explanation": "Falsch. Gemeint ist das Gegenteil: 这样大家就不会只是跟着领导的意见走 – die Mitarbeiter sollen gerade nicht bloß der Meinung der Führung folgen."
+     },
+     {
+      "text": "Weil sie wenig Erfahrung mit dem Thema der Besprechung haben.",
+      "explanation": "Falsch. Es geht ausdrücklich um erfahrene Führungskräfte (有经验的管理者), und der Grund ist ein anderer."
+     },
+     {
+      "text": "Damit die Mitarbeiter ihre eigene Meinung sagen und nicht einfach der Meinung des Chefs folgen.",
+      "explanation": "Richtig. 这样大家就不会只是跟着领导的意见走 – so laufen nicht alle bloß der Meinung des Vorgesetzten hinterher."
+     }
+    ],
+    "answer": 3
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Welche Aussage entspricht am ehesten der Sicht des Artikels?",
+    "evidence": "p4",
+    "choices": [
+     {
+      "text": "Ein Team mit großem gegenseitigem Vertrauen kann mehr leisten, als seine Mitglieder einzeln zusammengerechnet könnten.",
+      "explanation": "Richtig. Der Text endet mit 团队的力量往往会超过每个人能力的简单相加 – die Kraft des Teams übersteigt oft die bloße Summe der Einzelfähigkeiten."
+     },
+     {
+      "text": "Mit einem eintägigen Training lässt sich Vertrauen im Team schnell herstellen.",
+      "explanation": "Falsch. 信任不是一两天就能建立起来的 – Vertrauen entsteht nicht in ein, zwei Tagen, sondern muss Stück für Stück (一点一点地) aufgebaut werden."
+     },
+     {
+      "text": "Wer einen Fehler zugibt, schadet dem Ansehen des ganzen Teams.",
+      "explanation": "Falsch. In den besten Gruppen hat man gerade keine Angst, eigene Fehler zuzugeben (也不怕承认自己的错误)."
+     },
+     {
+      "text": "Bei Problemen sollte man zuerst klären, wer verantwortlich ist.",
+      "explanation": "Falsch. In guten Teams denkt man zuerst an die Lösung, nicht an die Schuldfrage (首先想的是怎么解决，而不是谁应该负责)."
+     }
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "reading-hsk5-06",
+  "level": "HSK5",
+  "skill": "reading",
+  "order": 6,
+  "task": {
+   "no": 16,
+   "title": "介绍科技产品"
+  },
+  "topic": "科学技术›科技发展›产品介绍与应用",
+  "title": "Neu auf dem Markt",
+  "objective": "Du kannst einem Zeitungsartikel über ein neues technisches Produkt die wichtigsten Informationen und Meinungen entnehmen.",
+  "textType": "Zeitungsartikel",
+  "minutes": 10,
+  "introduction": "Du liest einen Zeitungsartikel über ein Produkt, das im Internet gerade viel Aufmerksamkeit bekommt.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "text": "最近，一款专门为老年人设计的智能药盒在网上引起了不少关注。很多老人每天需要按时吃好几种药，可是年纪大了，记性不好，常常忘了吃，或者已经吃过了，却又吃了一遍。这款药盒就是为了解决这个问题而开发的。",
+    "pinyin": "Zuìjìn, yì kuǎn zhuānmén wèi lǎoniánrén shèjì de zhìnéng yàohé zài wǎngshang yǐnqǐle bù shǎo guānzhù. Hěn duō lǎorén měi tiān xūyào ànshí chī hǎo jǐ zhǒng yào, kěshì niánjì dà le, jìxing bù hǎo, chángcháng wàngle chī, huòzhě yǐjīng chīguo le, què yòu chīle yí biàn. Zhè kuǎn yàohé jiù shì wèile jiějué zhège wèntí ér kāifā de."
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "text": "药盒一共有七个小格子，分别对应一周的七天。子女可以通过手机应用提前设置好每天吃药的时间。到了时间，药盒会发出声音提醒，当天的那个格子也会亮起来。如果老人在半个小时之内没有打开药盒，系统就会自动给子女的手机发消息。药盒充一次电可以用一个月左右。",
+    "pinyin": "Yàohé yígòng yǒu qī ge xiǎo gézi, fēnbié duìyìng yì zhōu de qī tiān. Zǐnǚ kěyǐ tōngguò shǒujī yìngyòng tíqián shèzhì hǎo měi tiān chī yào de shíjiān. Dàole shíjiān, yàohé huì fāchū shēngyīn tíxǐng, dàngtiān de nàge gézi yě huì liàng qǐlai. Rúguǒ lǎorén zài bàn ge xiǎoshí zhīnèi méiyǒu dǎkāi yàohé, xìtǒng jiù huì zìdòng gěi zǐnǚ de shǒujī fā xiāoxi. Yàohé chōng yí cì diàn kěyǐ yòng yí ge yuè zuǒyòu."
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "text": "为了让老人用起来更方便，开发人员在设计上也花了不少心思。药盒上只有一个按钮，字也比一般产品大得多。研发负责人说：“我们一开始加了很多功能，后来请一些老人来试用，发现功能越多，他们越不会用。所以我们把不必要的功能都去掉了。”目前，这款药盒的售价为一百九十九元，上市一个多月就卖出了两万多个，购买者大多是在外地工作的年轻人。",
+    "pinyin": "Wèile ràng lǎorén yòng qǐlai gèng fāngbiàn, kāifā rényuán zài shèjì shang yě huāle bù shǎo xīnsi. Yàohé shang zhǐ yǒu yí ge ànniǔ, zì yě bǐ yìbān chǎnpǐn dà de duō. Yánfā fùzérén shuō: “Wǒmen yì kāishǐ jiāle hěn duō gōngnéng, hòulái qǐng yìxiē lǎorén lái shìyòng, fāxiàn gōngnéng yuè duō, tāmen yuè bú huì yòng. Suǒyǐ wǒmen bǎ bú bìyào de gōngnéng dōu qùdiào le.” Mùqián, zhè kuǎn yàohé de shòujià wéi yìbǎi jiǔshíjiǔ yuán, shàngshì yí ge duō yuè jiù màichūle liǎngwàn duō ge, gòumǎizhě dàduō shì zài wàidì gōngzuò de niánqīngrén."
+   },
+   {
+    "id": "p4",
+    "speaker": "",
+    "text": "不过，也有人提出了不同的看法。一位医生表示，智能药盒确实能帮助老人按时吃药，但它不能判断老人吃的药是否正确，药的种类和数量还是要由医生决定。他建议，子女除了使用这类产品以外，也应该多抽时间陪父母去医院检查身体。",
+    "pinyin": "Búguò, yě yǒu rén tíchūle bù tóng de kànfǎ. Yí wèi yīshēng biǎoshì, zhìnéng yàohé quèshí néng bāngzhù lǎorén ànshí chī yào, dàn tā bù néng pànduàn lǎorén chī de yào shìfǒu zhèngquè, yào de zhǒnglèi hé shùliàng háishi yào yóu yīshēng juédìng. Tā jiànyì, zǐnǚ chúle shǐyòng zhè lèi chǎnpǐn yǐwài, yě yīnggāi duō chōu shíjiān péi fùmǔ qù yīyuàn jiǎnchá shēntǐ."
+   }
+  ],
+  "translation": "In letzter Zeit sorgt eine smarte Medikamentenbox, die speziell für ältere Menschen entwickelt wurde, im Internet für viel Aufmerksamkeit. Viele Senioren müssen jeden Tag pünktlich mehrere Medikamente einnehmen, doch im Alter lässt das Gedächtnis nach: Sie vergessen die Einnahme oft, oder sie haben ihre Tabletten schon genommen und nehmen sie trotzdem noch einmal. Genau um dieses Problem zu lösen, wurde die Box entwickelt. Sie hat insgesamt sieben kleine Fächer, je eines für jeden Tag der Woche. Die Kinder können über eine Handy-App im Voraus die täglichen Einnahmezeiten einstellen. Zur festgelegten Zeit gibt die Box ein akustisches Signal, und das Fach des jeweiligen Tages leuchtet auf. Öffnet der ältere Mensch die Box nicht innerhalb einer halben Stunde, schickt das System automatisch eine Nachricht auf das Handy der Kinder. Mit einer Akkuladung hält die Box etwa einen Monat. Damit Senioren sie bequemer bedienen können, haben sich die Entwickler auch bei der Gestaltung viele Gedanken gemacht. Die Box hat nur einen einzigen Knopf, und die Schrift ist viel größer als bei gewöhnlichen Produkten. Die Person, die die Entwicklung leitet, sagt: „Anfangs hatten wir viele Funktionen eingebaut. Dann ließen wir einige ältere Menschen die Box testen und merkten: Je mehr Funktionen, desto weniger kamen sie damit zurecht. Deshalb haben wir alle unnötigen Funktionen gestrichen.“ Derzeit kostet die Box 199 Yuan. Gut einen Monat nach Markteinführung wurden bereits über zwanzigtausend Stück verkauft; die meisten Käufer sind junge Leute, die in einer anderen Stadt arbeiten. Es gibt allerdings auch andere Stimmen. Ein Arzt erklärt, die smarte Box könne Senioren zwar tatsächlich helfen, ihre Medikamente pünktlich zu nehmen, sie könne aber nicht beurteilen, ob es die richtigen Medikamente sind; Art und Menge müsse weiterhin der Arzt festlegen. Er rät den Kindern, solche Produkte nicht nur zu nutzen, sondern sich auch öfter Zeit zu nehmen, um ihre Eltern zu Untersuchungen ins Krankenhaus zu begleiten.",
+  "glossary": [
+   {
+    "word": "智能",
+    "pinyin": "zhìnéng",
+    "meaning": "intelligent; Smart-",
+    "vocabId": "w:智能:zhi4neng2"
+   },
+   {
+    "word": "药盒",
+    "pinyin": "yàohé",
+    "meaning": "Medikamentenbox, Pillendose"
+   },
+   {
+    "word": "记性",
+    "pinyin": "jìxing",
+    "meaning": "Gedächtnis, Merkfähigkeit",
+    "vocabId": "w:记性:ji4xing5"
+   },
+   {
+    "word": "子女",
+    "pinyin": "zǐnǚ",
+    "meaning": "Kinder (Söhne und Töchter)",
+    "vocabId": "w:子女:zi3nv3"
+   },
+   {
+    "word": "设置",
+    "pinyin": "shèzhì",
+    "meaning": "einstellen (Gerät, Programm)",
+    "vocabId": "w:设置:she4zhi4"
+   },
+   {
+    "word": "提醒",
+    "pinyin": "tíxǐng",
+    "meaning": "erinnern, auf etwas hinweisen",
+    "vocabId": "w:提醒:ti2xing3"
+   },
+   {
+    "word": "按钮",
+    "pinyin": "ànniǔ",
+    "meaning": "Knopf, Taste",
+    "vocabId": "w:按钮:an4niu3"
+   },
+   {
+    "word": "研发",
+    "pinyin": "yánfā",
+    "meaning": "forschen und entwickeln; Forschung und Entwicklung",
+    "vocabId": "w:研发:yan2fa1"
+   },
+   {
+    "word": "上市",
+    "pinyin": "shàngshì",
+    "meaning": "auf den Markt kommen",
+    "vocabId": "w:上市:shang4shi4"
+   },
+   {
+    "word": "是否",
+    "pinyin": "shìfǒu",
+    "meaning": "ob (… oder nicht)",
+    "vocabId": "w:是否:shi4fou3"
+   }
+  ],
+  "note": "越……越…… drückt aus, dass sich zwei Dinge gemeinsam verändern: 功能越多，他们越不会用 – „je mehr Funktionen, desto weniger kommen sie damit zurecht“. 款 ist das typische Zählwort für Produktmodelle (一款药盒, 这款手机).",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worum geht es in dem Artikel hauptsächlich?",
+    "evidence": "p1",
+    "choices": [
+     {
+      "text": "Um eine neue Handy-App, mit der Ärzte Medikamente verschreiben können.",
+      "explanation": "Falsch. Über die App stellen die Kinder nur die Einnahmezeiten ein (子女可以通过手机应用……设置); Art und Menge der Medikamente legt weiterhin der Arzt fest."
+     },
+     {
+      "text": "Um die Gesundheitsprobleme älterer Menschen in China im Allgemeinen.",
+      "explanation": "Falsch. Das Vergessen der Einnahme wird nur als Ausgangsproblem genannt; im Mittelpunkt steht ein bestimmtes Produkt (一款……智能药盒)."
+     },
+     {
+      "text": "Um ein neues Gerät, das älteren Menschen bei der pünktlichen Medikamenteneinnahme hilft, und wie es eingeschätzt wird.",
+      "explanation": "Richtig. Der Text stellt den 智能药盒 vor – Zweck, Funktionen, Gestaltung, Verkaufszahlen – und bringt am Ende die Einschätzung eines Arztes."
+     },
+     {
+      "text": "Um eine Anleitung, wie Kinder ihre Eltern zur Untersuchung ins Krankenhaus bringen.",
+      "explanation": "Falsch. Der Krankenhausbesuch wird nur am Ende als Rat des Arztes erwähnt (陪父母去医院检查身体), er ist nicht das Thema des Artikels."
+     }
+    ],
+    "answer": 2
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Was passiert, wenn ein älterer Mensch die Box nach dem Signal nicht öffnet?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Die Box ruft nach einer halben Stunde automatisch einen Arzt an.",
+      "explanation": "Falsch. Benachrichtigt werden die Kinder, nicht ein Arzt (给子女的手机发消息)."
+     },
+     {
+      "text": "Nach einer halben Stunde bekommen die Kinder automatisch eine Nachricht aufs Handy.",
+      "explanation": "Richtig. 如果老人在半个小时之内没有打开药盒，系统就会自动给子女的手机发消息."
+     },
+     {
+      "text": "Nichts weiter – die Box gibt nur das eine Signal, und niemand wird benachrichtigt.",
+      "explanation": "Falsch. Es wird sehr wohl jemand benachrichtigt: 系统就会自动给子女的手机发消息."
+     },
+     {
+      "text": "Das Fach des nächsten Tages beginnt zu leuchten.",
+      "explanation": "Falsch. Es leuchtet das Fach des aktuellen Tages (当天的那个格子), und zwar schon beim Signal, nicht als Folge des Nichtöffnens."
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "id": "q3",
+    "kind": "attitude",
+    "prompt": "Wie steht der Arzt zu dem Produkt?",
+    "evidence": "p4",
+    "choices": [
+     {
+      "text": "Er lehnt es ab, weil es Senioren falsche Medikamente gibt.",
+      "explanation": "Falsch. Er sagt nicht, dass die Box falsche Medikamente gibt, sondern dass sie nicht prüfen kann, ob die Medikamente richtig sind (不能判断……是否正确); außerdem bestätigt er ihren Nutzen (确实能帮助老人按时吃药)."
+     },
+     {
+      "text": "Er empfiehlt es uneingeschränkt, damit die Kinder ihre Eltern seltener besuchen müssen.",
+      "explanation": "Falsch. Er rät im Gegenteil, sich öfter Zeit für die Eltern zu nehmen (多抽时间陪父母)."
+     },
+     {
+      "text": "Er kritisiert vor allem, dass die Box zu viele Funktionen hat.",
+      "explanation": "Falsch. Von zu vielen Funktionen spricht nur die Entwicklungsleitung (研发负责人) über eine frühere Version; diese Funktionen wurden bereits gestrichen (都去掉了)."
+     },
+     {
+      "text": "Er hält es für nützlich, betont aber, dass es weder den Arzt noch die Fürsorge der Kinder ersetzt.",
+      "explanation": "Richtig. Er bestätigt den Nutzen (确实能帮助……), sagt aber, dass Art und Menge der Medikamente der Arzt bestimmen muss und die Kinder die Eltern öfter ins Krankenhaus begleiten sollten."
+     }
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "reading-hsk5-07",
+  "level": "HSK5",
+  "skill": "reading",
+  "order": 7,
+  "task": {
+   "no": 19,
+   "title": "谈论经济现象"
+  },
+  "topic": "当代社会›经济现象›商业活动",
+  "title": "Ein Trend in Chinas Städten",
+  "objective": "Du kannst einem Zeitungsbericht über ein wirtschaftliches Phänomen die wichtigsten Informationen und die Schlussfolgerung entnehmen.",
+  "textType": "Zeitungsbericht",
+  "minutes": 10,
+  "introduction": "Du liest einen Bericht aus einer chinesischen Zeitung über ein Thema, das in vielen Städten diskutiert wird.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "text": "近年来，“夜间经济”成了很多城市讨论的热门话题。所谓夜间经济，指的是从傍晚六点到第二天早上六点之间发生的各种消费活动，比如逛夜市、吃夜宵、看演出等。有调查显示，在一些大城市，晚上的消费已经占到全天消费的一半以上。",
+    "pinyin": "Jìnniánlái, “yèjiān jīngjì” chéngle hěn duō chéngshì tǎolùn de rèmén huàtí. Suǒwèi yèjiān jīngjì, zhǐ de shì cóng bàngwǎn liù diǎn dào dì-èr tiān zǎoshang liù diǎn zhījiān fāshēng de gè zhǒng xiāofèi huódòng, bǐrú guàng yèshì, chī yèxiāo, kàn yǎnchū děng. Yǒu diàochá xiǎnshì, zài yìxiē dà chéngshì, wǎnshang de xiāofèi yǐjīng zhàndào quántiān xiāofèi de yíbàn yǐshàng."
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "text": "为了发展夜间经济，不少城市采取了一系列措施：商场延长了营业时间，博物馆在周末晚上也对外开放，地铁和公交车的末班车时间推迟到了晚上十一点以后，一些老街还重新开起了夜市。以南方某城市为例，去年夏天该市推出“夜游老城”活动后，老城区晚上的客流量比前一年同期增加了将近一倍，附近饭店和小商店的收入也明显提高了。",
+    "pinyin": "Wèile fāzhǎn yèjiān jīngjì, bù shǎo chéngshì cǎiqǔle yíxìliè cuòshī: shāngchǎng yánchángle yíngyè shíjiān, bówùguǎn zài zhōumò wǎnshang yě duìwài kāifàng, dìtiě hé gōngjiāochē de mòbānchē shíjiān tuīchí dàole wǎnshang shíyī diǎn yǐhòu, yìxiē lǎo jiē hái chóngxīn kāiqǐle yèshì. Yǐ nánfāng mǒu chéngshì wéi lì, qùnián xiàtiān gāi shì tuīchū “yè yóu lǎochéng” huódòng hòu, lǎochéngqū wǎnshang de kèliúliàng bǐ qián yì nián tóngqī zēngjiāle jiāngjìn yí bèi, fùjìn fàndiàn hé xiǎo shāngdiàn de shōurù yě míngxiǎn tígāo le."
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "text": "专家认为，夜间经济不仅能增加消费，还能创造大量就业机会。很多年轻人白天上班，只有晚上才有时间购物和娱乐，夜间经济正好满足了他们的需求。此外，夜晚的灯光和热闹的街道也让城市显得更有活力，吸引了不少外地游客。",
+    "pinyin": "Zhuānjiā rènwéi, yèjiān jīngjì bùjǐn néng zēngjiā xiāofèi, hái néng chuàngzào dàliàng jiùyè jīhuì. Hěn duō niánqīngrén báitiān shàngbān, zhǐyǒu wǎnshang cái yǒu shíjiān gòuwù hé yúlè, yèjiān jīngjì zhènghǎo mǎnzúle tāmen de xūqiú. Cǐwài, yèwǎn de dēngguāng hé rènao de jiēdào yě ràng chéngshì xiǎnde gèng yǒu huólì, xīyǐnle bù shǎo wàidì yóukè."
+   },
+   {
+    "id": "p4",
+    "speaker": "",
+    "text": "但是，夜间经济也带来了一些问题。住在夜市附近的居民反映，晚上太吵，影响休息，而且垃圾增多，交通也更加拥挤。因此，有关部门在支持夜间经济发展的同时，也要做好管理工作，比如规定营业的区域和时间、增加清洁人员等，在城市的热闹和居民的安静之间找到平衡。",
+    "pinyin": "Dànshì, yèjiān jīngjì yě dàiláile yìxiē wèntí. Zhù zài yèshì fùjìn de jūmín fǎnyìng, wǎnshang tài chǎo, yǐngxiǎng xiūxi, érqiě lājī zēngduō, jiāotōng yě gèngjiā yōngjǐ. Yīncǐ, yǒuguān bùmén zài zhīchí yèjiān jīngjì fāzhǎn de tóngshí, yě yào zuòhǎo guǎnlǐ gōngzuò, bǐrú guīdìng yíngyè de qūyù hé shíjiān, zēngjiā qīngjié rényuán děng, zài chéngshì de rènao hé jūmín de ānjìng zhījiān zhǎodào pínghéng."
+   }
+  ],
+  "translation": "In den letzten Jahren ist die „Nachtökonomie“ in vielen Städten zu einem heißen Diskussionsthema geworden. Mit Nachtökonomie sind alle Konsumaktivitäten zwischen sechs Uhr abends und sechs Uhr am nächsten Morgen gemeint, zum Beispiel über den Nachtmarkt bummeln, einen späten Imbiss essen oder eine Vorstellung besuchen. Untersuchungen zeigen, dass in manchen Großstädten der abendliche Konsum bereits mehr als die Hälfte des Konsums eines ganzen Tages ausmacht. Um die Nachtökonomie zu fördern, haben viele Städte eine Reihe von Maßnahmen ergriffen: Einkaufszentren haben ihre Öffnungszeiten verlängert, Museen sind am Wochenende auch abends geöffnet, die letzten U-Bahnen und Busse fahren erst nach 23 Uhr, und in einigen alten Straßen gibt es wieder Nachtmärkte. Ein Beispiel ist eine Stadt im Süden: Nachdem sie im vergangenen Sommer die Aktion „Nachts durch die Altstadt“ gestartet hatte, hat sich die Zahl der abendlichen Besucher in der Altstadt im Vergleich zum Vorjahreszeitraum fast verdoppelt, und auch die Einnahmen der Restaurants und kleinen Läden in der Umgebung sind deutlich gestiegen. Fachleute meinen, die Nachtökonomie steigere nicht nur den Konsum, sondern schaffe auch viele Arbeitsplätze. Viele junge Leute arbeiten tagsüber und haben nur abends Zeit zum Einkaufen und für Unterhaltung – die Nachtökonomie kommt genau diesem Bedürfnis entgegen. Außerdem lassen die Lichter und belebten Straßen die Stadt lebendiger wirken und ziehen viele auswärtige Touristen an. Die Nachtökonomie bringt aber auch Probleme mit sich. Anwohner in der Nähe von Nachtmärkten klagen, abends sei es zu laut, das störe ihre Ruhe; außerdem gebe es mehr Müll, und der Verkehr sei noch dichter. Deshalb müssen die zuständigen Behörden die Nachtökonomie nicht nur unterstützen, sondern sie auch gut regeln – etwa Gebiete und Zeiten für den Geschäftsbetrieb festlegen oder mehr Reinigungskräfte einsetzen – und so ein Gleichgewicht zwischen dem lebhaften Treiben in der Stadt und der Ruhe der Anwohner finden.",
+  "glossary": [
+   {
+    "word": "夜间经济",
+    "pinyin": "yèjiān jīngjì",
+    "meaning": "Nachtökonomie (Konsum und Geschäfte am Abend und in der Nacht)"
+   },
+   {
+    "word": "消费",
+    "pinyin": "xiāofèi",
+    "meaning": "konsumieren; Konsum",
+    "vocabId": "w:消费:xiao1fei4"
+   },
+   {
+    "word": "夜宵",
+    "pinyin": "yèxiāo",
+    "meaning": "Nachtimbiss, später Snack",
+    "vocabId": "w:夜宵:ye4xiao1"
+   },
+   {
+    "word": "措施",
+    "pinyin": "cuòshī",
+    "meaning": "Maßnahme",
+    "vocabId": "w:措施:cuo4shi1"
+   },
+   {
+    "word": "末班车",
+    "pinyin": "mòbānchē",
+    "meaning": "letzter Bus / letzte Bahn des Tages"
+   },
+   {
+    "word": "客流量",
+    "pinyin": "kèliúliàng",
+    "meaning": "Besucheraufkommen, Fahrgastaufkommen"
+   },
+   {
+    "word": "将近",
+    "pinyin": "jiāngjìn",
+    "meaning": "fast, beinahe",
+    "vocabId": "w:将近:jiang1jin4"
+   },
+   {
+    "word": "就业",
+    "pinyin": "jiùyè",
+    "meaning": "Beschäftigung; eine Arbeit finden",
+    "vocabId": "w:就业:jiu4ye4"
+   },
+   {
+    "word": "居民",
+    "pinyin": "jūmín",
+    "meaning": "Anwohner, Einwohner",
+    "vocabId": "w:居民:ju1min2"
+   },
+   {
+    "word": "平衡",
+    "pinyin": "pínghéng",
+    "meaning": "Gleichgewicht; ausgeglichen",
+    "vocabId": "w:平衡:ping2heng2"
+   }
+  ],
+  "note": "增加了一倍 heißt „um 100 % gestiegen“, also verdoppelt – nicht „um die Hälfte“. In Berichten leitet 所谓…… eine Begriffserklärung ein (所谓夜间经济，指的是…… – „Unter Nachtökonomie versteht man …“), und 以……为例 führt ein Beispiel ein.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worum geht es in dem Bericht?",
+    "evidence": "p1",
+    "choices": [
+     {
+      "text": "Um den abendlichen und nächtlichen Konsum in Städten: was darunter zu verstehen ist, wie er gefördert wird und welche Vor- und Nachteile er hat.",
+      "explanation": "Richtig. Der Bericht definiert 夜间经济, nennt Maßnahmen und ein Beispiel, erklärt den Nutzen und spricht am Ende über Probleme und Regelungen."
+     },
+     {
+      "text": "Um Beschwerden über Lärm in Wohngebieten.",
+      "explanation": "Falsch. Lärmklagen der Anwohner (晚上太吵) sind nur ein Teilaspekt im letzten Absatz."
+     },
+     {
+      "text": "Um die langen Arbeitszeiten junger Leute.",
+      "explanation": "Falsch. Junge Leute werden nur erwähnt, weil sie abends Zeit zum Einkaufen haben (只有晚上才有时间购物和娱乐); um ihre Arbeitszeiten geht es nicht."
+     },
+     {
+      "text": "Um den Ausbau des U-Bahn-Netzes in südchinesischen Städten.",
+      "explanation": "Falsch. Erwähnt wird nur, dass die letzten Bahnen und Busse später fahren (末班车时间推迟); von einem Ausbau des Netzes ist keine Rede."
+     }
+    ],
+    "answer": 0
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Was geschah in der Altstadt der Stadt im Süden nach dem Start der Aktion „夜游老城“?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Die Zahl der abendlichen Besucher stieg um knapp die Hälfte.",
+      "explanation": "Falsch. 增加了将近一倍 bedeutet „hat sich fast verdoppelt“, also ein Anstieg um fast 100 %, nicht um 50 %."
+     },
+     {
+      "text": "Die Altstadt wurde abends für Besucher geschlossen, damit die Anwohner Ruhe haben.",
+      "explanation": "Falsch. Die Aktion sollte im Gegenteil abends Besucher in die Altstadt bringen, und der 客流量 ist gestiegen."
+     },
+     {
+      "text": "Die Zahl der abendlichen Besucher hat sich gegenüber dem Vorjahreszeitraum fast verdoppelt.",
+      "explanation": "Richtig. 老城区晚上的客流量比前一年同期增加了将近一倍 – fast doppelt so viele Besucher wie im gleichen Zeitraum des Vorjahres."
+     },
+     {
+      "text": "Die Restaurants in der Umgebung verloren Einnahmen an die Nachtmärkte.",
+      "explanation": "Falsch. Die Einnahmen der Restaurants und kleinen Läden sind deutlich gestiegen (收入也明显提高了)."
+     }
+    ],
+    "answer": 2
+   },
+   {
+    "id": "q3",
+    "kind": "attitude",
+    "prompt": "Welche Haltung zur Nachtökonomie kommt am Ende des Berichts zum Ausdruck?",
+    "evidence": "p4",
+    "choices": [
+     {
+      "text": "Nachtmärkte sollten wegen des Lärms ganz verboten werden.",
+      "explanation": "Falsch. Die Behörden sollen die Nachtökonomie weiter unterstützen (在支持夜间经济发展的同时), nur besser regeln – von einem Verbot ist keine Rede."
+     },
+     {
+      "text": "Die Probleme sind unwichtig, denn mehr Konsum ist das Wichtigste.",
+      "explanation": "Falsch. Die Probleme der Anwohner werden ernst genommen; es soll ein Gleichgewicht gefunden werden (找到平衡)."
+     },
+     {
+      "text": "Die Nachtökonomie lohnt sich nicht, weil nur junge Leute davon profitieren.",
+      "explanation": "Falsch. Der Text nennt viele Nutzen – mehr Konsum, Arbeitsplätze, Touristen – und spricht sich nicht gegen die Nachtökonomie aus."
+     },
+     {
+      "text": "Die Nachtökonomie sollte weiter gefördert, aber so geregelt werden, dass auch die Anwohner ihre Ruhe haben.",
+      "explanation": "Richtig. 在支持夜间经济发展的同时，也要做好管理工作……在城市的热闹和居民的安静之间找到平衡."
+     }
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "reading-hsk5-08",
+  "level": "HSK5",
+  "skill": "reading",
+  "order": 8,
+  "task": {
+   "no": 21,
+   "title": "谈论文艺形式、常识、作品"
+  },
+  "topic": "当代社会›文艺›文艺形式",
+  "title": "Xiangsheng",
+  "objective": "Du kannst einem allgemeinen Sachtext über eine chinesische Kunstform die wichtigsten Informationen entnehmen.",
+  "textType": "Sachtext",
+  "minutes": 10,
+  "introduction": "Du liest einen Sachtext über Xiangsheng (相声), eine Bühnenkunst aus China.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "text": "相声是一种在中国深受欢迎的曲艺形式，它起源于北京，已经有一百多年的历史了。相声以说笑话、讲故事为主，目的是让观众发笑。在表演的时候，演员一般不需要复杂的舞台和服装，往往只要一张桌子、一把扇子、一块手绢就够了。",
+    "pinyin": "Xiàngsheng shì yì zhǒng zài Zhōngguó shēnshòu huānyíng de qǔyì xíngshì, tā qǐyuán yú Běijīng, yǐjīng yǒu yìbǎi duō nián de lìshǐ le. Xiàngsheng yǐ shuō xiàohua, jiǎng gùshi wéi zhǔ, mùdì shì ràng guānzhòng fāxiào. Zài biǎoyǎn de shíhou, yǎnyuán yìbān bù xūyào fùzá de wǔtái hé fúzhuāng, wǎngwǎng zhǐyào yì zhāng zhuōzi, yì bǎ shànzi, yí kuài shǒujuàn jiù gòu le."
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "text": "根据演员人数的不同，相声可以分为单口相声、对口相声和群口相声。其中最常见的是对口相声，由两个演员一起表演。一个叫“逗哏”，主要负责讲故事、说笑话；另一个叫“捧哏”，负责配合、提问和评论。很多人以为捧哏只是站在旁边说几句“是吗”“对呀”，其实，逗哏的笑话能不能让观众笑出来，很大程度上要看捧哏的本事。所以相声界有“三分逗，七分捧”的说法。",
+    "pinyin": "Gēnjù yǎnyuán rénshù de bù tóng, xiàngsheng kěyǐ fēnwéi dānkǒu xiàngsheng, duìkǒu xiàngsheng hé qúnkǒu xiàngsheng. Qízhōng zuì chángjiàn de shì duìkǒu xiàngsheng, yóu liǎng ge yǎnyuán yìqǐ biǎoyǎn. Yí ge jiào “dòugén”, zhǔyào fùzé jiǎng gùshi, shuō xiàohua; lìng yí ge jiào “pěnggén”, fùzé pèihé, tíwèn hé pínglùn. Hěn duō rén yǐwéi pěnggén zhǐshì zhàn zài pángbiān shuō jǐ jù “shì ma” “duì ya”, qíshí, dòugén de xiàohua néng bu néng ràng guānzhòng xiào chūlai, hěn dà chéngdù shang yào kàn pěnggén de běnshi. Suǒyǐ xiàngshengjiè yǒu “sān fēn dòu, qī fēn pěng” de shuōfǎ."
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "text": "相声演员的基本功可以概括为四个字：说、学、逗、唱。“说”是讲故事、说绕口令；“学”是模仿各种人物的说话方式和各种声音；“逗”是制造笑料；“唱”则是唱一些小曲或者戏曲片段。一个好的相声演员往往要经过多年的练习，才能在台上表现得轻松自然。",
+    "pinyin": "Xiàngsheng yǎnyuán de jīběngōng kěyǐ gàikuò wéi sì ge zì: shuō, xué, dòu, chàng. “Shuō” shì jiǎng gùshi, shuō ràokǒulìng; “xué” shì mófǎng gè zhǒng rénwù de shuōhuà fāngshì hé gè zhǒng shēngyīn; “dòu” shì zhìzào xiàoliào; “chàng” zé shì chàng yìxiē xiǎoqǔ huòzhě xìqǔ piànduàn. Yí ge hǎo de xiàngsheng yǎnyuán wǎngwǎng yào jīngguò duō nián de liànxí, cái néng zài tái shang biǎoxiàn de qīngsōng zìrán."
+   },
+   {
+    "id": "p4",
+    "speaker": "",
+    "text": "过去，人们主要在街头、茶馆和小剧场里听相声。后来，随着广播和电视的普及，相声走进了千家万户。今天，不少年轻演员还把网络上的流行语和社会热点写进作品里，让这门传统艺术吸引了更多年轻观众。",
+    "pinyin": "Guòqù, rénmen zhǔyào zài jiētóu, cháguǎn hé xiǎo jùchǎng li tīng xiàngsheng. Hòulái, suízhe guǎngbō hé diànshì de pǔjí, xiàngsheng zǒujìnle qiānjiā-wànhù. Jīntiān, bù shǎo niánqīng yǎnyuán hái bǎ wǎngluò shang de liúxíngyǔ hé shèhuì rèdiǎn xiějìn zuòpǐn li, ràng zhè mén chuántǒng yìshù xīyǐnle gèng duō niánqīng guānzhòng."
+   }
+  ],
+  "translation": "Xiangsheng ist eine in China sehr beliebte Form der volkstümlichen Vortragskunst. Sie stammt aus Peking und hat schon eine über hundertjährige Geschichte. Im Mittelpunkt stehen Witze und Geschichten, und das Ziel ist, das Publikum zum Lachen zu bringen. Für den Auftritt brauchen die Künstler meist weder eine aufwendige Bühne noch besondere Kostüme – oft genügen ein Tisch, ein Fächer und ein Taschentuch. Je nach Zahl der Darsteller unterscheidet man Solo-Xiangsheng, Dialog-Xiangsheng und Gruppen-Xiangsheng. Am häufigsten ist der Dialog-Xiangsheng, den zwei Künstler gemeinsam aufführen. Der eine heißt „Dougen“ und ist vor allem für Geschichten und Witze zuständig; der andere heißt „Penggen“ und ist dafür da, mitzuspielen, Fragen zu stellen und zu kommentieren. Viele glauben, der Penggen stehe nur daneben und sage ab und zu „Wirklich?“ oder „Genau!“. In Wahrheit hängt es aber zu einem großen Teil vom Können des Penggen ab, ob die Witze des Dougen beim Publikum ankommen. Deshalb sagt man in der Xiangsheng-Welt: „Drei Teile Dou, sieben Teile Peng.“ Die Grundfertigkeiten eines Xiangsheng-Künstlers lassen sich in vier Wörtern zusammenfassen: Sprechen, Nachahmen, Witzeln, Singen. „Sprechen“ heißt Geschichten erzählen und Zungenbrecher aufsagen; „Nachahmen“ heißt die Sprechweise verschiedener Menschen und alle möglichen Geräusche imitieren; „Witzeln“ heißt Pointen setzen; und „Singen“ bedeutet, kleine Lieder oder Ausschnitte aus Opern zu singen. Ein guter Xiangsheng-Künstler muss meist jahrelang üben, bevor er auf der Bühne locker und natürlich wirkt. Früher hörte man Xiangsheng vor allem auf der Straße, in Teehäusern und kleinen Theatern. Später, als sich Radio und Fernsehen verbreiteten, gelangte Xiangsheng in jeden Haushalt. Heute bauen viele junge Künstler auch Internet-Schlagwörter und aktuelle gesellschaftliche Themen in ihre Stücke ein und gewinnen so mehr junges Publikum für diese traditionelle Kunst.",
+  "glossary": [
+   {
+    "word": "相声",
+    "pinyin": "xiàngsheng",
+    "meaning": "Xiangsheng, komödiantischer Dialog („Crosstalk“)",
+    "vocabId": "w:相声:xiang4sheng5"
+   },
+   {
+    "word": "曲艺",
+    "pinyin": "qǔyì",
+    "meaning": "Quyi, volkstümliche Erzähl- und Gesangskunst",
+    "vocabId": "w:曲艺:qu3yi4"
+   },
+   {
+    "word": "起源",
+    "pinyin": "qǐyuán",
+    "meaning": "entstehen, stammen (aus); Ursprung",
+    "vocabId": "w:起源:qi3yuan2"
+   },
+   {
+    "word": "逗哏",
+    "pinyin": "dòugén",
+    "meaning": "Hauptsprecher im Xiangsheng, der die Witze erzählt"
+   },
+   {
+    "word": "捧哏",
+    "pinyin": "pěnggén",
+    "meaning": "Partner im Xiangsheng, der reagiert, nachfragt und die Pointen vorbereitet"
+   },
+   {
+    "word": "本事",
+    "pinyin": "běnshi",
+    "meaning": "Können, Fähigkeit",
+    "vocabId": "w:本事:ben3shi5"
+   },
+   {
+    "word": "基本功",
+    "pinyin": "jīběngōng",
+    "meaning": "Grundfertigkeiten, Handwerkszeug",
+    "vocabId": "w:基本功:ji1ben3gong1"
+   },
+   {
+    "word": "绕口令",
+    "pinyin": "ràokǒulìng",
+    "meaning": "Zungenbrecher"
+   },
+   {
+    "word": "模仿",
+    "pinyin": "mófǎng",
+    "meaning": "nachahmen, imitieren",
+    "vocabId": "w:模仿:mo2fang3"
+   },
+   {
+    "word": "千家万户",
+    "pinyin": "qiānjiā-wànhù",
+    "meaning": "alle Haushalte, jede Familie",
+    "vocabId": "w:千家万户:qian1jia1wan4hu4"
+   }
+  ],
+  "note": "以……为主 bedeutet „hauptsächlich aus … bestehen, … steht im Mittelpunkt“: 相声以说笑话、讲故事为主. Die Formel 说、学、逗、唱 kennt in China fast jeder; 逗 heißt eigentlich „necken, zum Lachen bringen“, 捧 „hochhalten, unterstützen“.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Was ist das Hauptanliegen des Textes?",
+    "evidence": "p1",
+    "choices": [
+     {
+      "text": "Er erzählt die Lebensgeschichte eines berühmten Xiangsheng-Künstlers.",
+      "explanation": "Falsch. Im Text wird kein einzelner Künstler genannt; es geht um die Kunstform als Ganzes (相声是……一种……曲艺形式)."
+     },
+     {
+      "text": "Er vergleicht Xiangsheng mit der Peking-Oper.",
+      "explanation": "Falsch. Opernausschnitte (戏曲片段) werden nur beim „Singen“ erwähnt; einen Vergleich gibt es nicht."
+     },
+     {
+      "text": "Er kritisiert, dass junge Künstler die Tradition des Xiangsheng zerstören.",
+      "explanation": "Falsch. Die jungen Künstler werden positiv dargestellt: Sie gewinnen mehr junges Publikum (吸引了更多年轻观众)."
+     },
+     {
+      "text": "Er stellt die Kunstform Xiangsheng vor: Merkmale, Unterformen, Rollen, Grundfertigkeiten und Entwicklung.",
+      "explanation": "Richtig. Der Text beschreibt nacheinander Herkunft und Ziel, die drei Formen, die Rollen 逗哏/捧哏, die Fertigkeiten 说学逗唱 und die Entwicklung bis heute."
+     }
+    ],
+    "answer": 3
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Was ist mit der Grundfertigkeit „学“ gemeint?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Zungenbrecher aufsagen und Geschichten erzählen.",
+      "explanation": "Falsch. Das gehört zu „说“ (讲故事、说绕口令)."
+     },
+     {
+      "text": "Die Sprechweise verschiedener Menschen und alle möglichen Geräusche nachahmen.",
+      "explanation": "Richtig. “学”是模仿各种人物的说话方式和各种声音 – 学 heißt hier „nachahmen“, nicht „lernen“."
+     },
+     {
+      "text": "Pointen erfinden, über die das Publikum lacht.",
+      "explanation": "Falsch. Das ist „逗“ (制造笑料)."
+     },
+     {
+      "text": "Kleine Lieder und Opernausschnitte singen.",
+      "explanation": "Falsch. Das ist „唱“ (唱一些小曲或者戏曲片段)."
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Was soll der Spruch „三分逗，七分捧“ ausdrücken?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Der Penggen trägt viel mehr zum Gelingen eines Auftritts bei, als man denkt.",
+      "explanation": "Richtig. Ob die Witze ankommen, hängt zu einem großen Teil vom Können des Penggen ab (很大程度上要看捧哏的本事) – daher der Spruch mit „sieben Teilen“ für 捧."
+     },
+     {
+      "text": "Der Dougen ist der eigentliche Star, der Penggen spielt nur eine Nebenrolle.",
+      "explanation": "Falsch. Genau diese verbreitete Meinung (很多人以为捧哏只是站在旁边……) widerlegt der Text mit 其实."
+     },
+     {
+      "text": "Der Penggen sollte möglichst wenig sagen, um den Dougen nicht zu stören.",
+      "explanation": "Falsch. Der Penggen soll aktiv mitspielen, fragen und kommentieren (负责配合、提问和评论); der Spruch betont seine Bedeutung."
+     },
+     {
+      "text": "Ein Auftritt sollte zu sieben Teilen aus Gesang bestehen.",
+      "explanation": "Falsch. 捧 hat nichts mit Singen (唱) zu tun; der Spruch bezieht sich auf die beiden Rollen 逗哏 und 捧哏."
+     }
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "reading-hsk5-09",
+  "level": "HSK5",
+  "skill": "reading",
+  "order": 9,
+  "task": {
+   "no": 24,
+   "title": "介绍中国语言文字"
+  },
+  "topic": "文化与传统›语言文字›俗语、成语、名言名句等",
+  "title": "Der alte Mann an der Grenze",
+  "objective": "Du kannst einen erklärenden Sachtext zur chinesischen Sprache verstehen und seine Hauptaussage erfassen.",
+  "textType": "Erklärender Artikel",
+  "minutes": 10,
+  "introduction": "Du liest einen kurzen Artikel aus einem Magazin für Chinesischlernende.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "text": "在汉语里，有一句常用的话叫“塞翁失马，焉知非福”。它来自两千多年前的古书《淮南子》，背后有一个有趣的故事。",
+    "pinyin": "Zài Hànyǔ li, yǒu yí jù chángyòng de huà jiào “sàiwēng-shīmǎ, yānzhī-fēifú”. Tā láizì liǎngqiān duō nián qián de gǔshū 《Huáinánzǐ》, bèihòu yǒu yí ge yǒuqù de gùshi."
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "text": "古时候，在中国北方的边塞住着一位老人，人们叫他“塞翁”。有一天，他家的一匹马跑到了边境的另一边，再也没有回来。邻居们都来安慰他，老人却平静地说：“这不一定是坏事。”几个月以后，那匹马不但自己回来了，还带回来一匹好马。邻居们又来祝贺，老人却说：“这不一定是好事。”",
+    "pinyin": "Gǔ shíhou, zài Zhōngguó běifāng de biānsài zhùzhe yí wèi lǎorén, rénmen jiào tā “Sàiwēng”. Yǒu yì tiān, tā jiā de yì pǐ mǎ pǎodào le biānjìng de lìng yì biān, zài yě méiyǒu huílai. Línjūmen dōu lái ānwèi tā, lǎorén què píngjìng de shuō: “Zhè bù yídìng shì huàishì.” Jǐ ge yuè yǐhòu, nà pǐ mǎ búdàn zìjǐ huílai le, hái dài huílai yì pǐ hǎo mǎ. Línjūmen yòu lái zhùhè, lǎorén què shuō: “Zhè bù yídìng shì hǎoshì.”"
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "text": "果然，老人的儿子很喜欢骑这匹新马，有一次从马背上摔了下来，腿受了伤。大家都替他难过，老人还是说：“这也不一定是坏事。”一年后，战争爆发了，村里的年轻人几乎都被叫去打仗，很多人再也没能回家。老人的儿子因为腿有伤，不用去当兵，父子俩都平安地活了下来。",
+    "pinyin": "Guǒrán, lǎorén de érzi hěn xǐhuan qí zhè pǐ xīn mǎ, yǒu yí cì cóng mǎbèi shang shuāi le xiàlai, tuǐ shòu le shāng. Dàjiā dōu tì tā nánguò, lǎorén háishi shuō: “Zhè yě bù yídìng shì huàishì.” Yì nián hòu, zhànzhēng bàofā le, cūn li de niánqīngrén jīhū dōu bèi jiào qù dǎzhàng, hěn duō rén zài yě méi néng huí jiā. Lǎorén de érzi yīnwèi tuǐ yǒu shāng, búyòng qù dāngbīng, fùzǐ liǎ dōu píng'ān de huó le xiàlai."
+   },
+   {
+    "id": "p4",
+    "speaker": "",
+    "text": "后来，人们用“塞翁失马”比喻：一时受到损失，反而可能因此得到好处；坏事在一定条件下也可能变成好事。句中的“焉”是古代汉语里的一个词，意思是“怎么”，所以“焉知非福”就是“怎么知道不是福呢”。",
+    "pinyin": "Hòulái, rénmen yòng “sàiwēng-shīmǎ” bǐyù: yìshí shòudào sǔnshī, fǎn'ér kěnéng yīncǐ dédào hǎochu; huàishì zài yídìng tiáojiàn xià yě kěnéng biànchéng hǎoshì. Jù zhōng de “yān” shì gǔdài Hànyǔ li de yí ge cí, yìsi shì “zěnme”, suǒyǐ “yānzhī-fēifú” jiù shì “zěnme zhīdào bú shì fú ne”."
+   },
+   {
+    "id": "p5",
+    "speaker": "",
+    "text": "今天，这个成语常常用来安慰遇到挫折的人。比如，有人没考上理想的大学，朋友可能会对他说：“塞翁失马，焉知非福。说不定你在别的学校会找到更适合自己的专业。”它提醒我们：看问题不能只看眼前，要用长远的眼光看待得失。",
+    "pinyin": "Jīntiān, zhège chéngyǔ chángcháng yònglái ānwèi yùdào cuòzhé de rén. Bǐrú, yǒu rén méi kǎoshàng lǐxiǎng de dàxué, péngyou kěnéng huì duì tā shuō: “Sàiwēng-shīmǎ, yānzhī-fēifú. Shuōbudìng nǐ zài bié de xuéxiào huì zhǎodào gèng shìhé zìjǐ de zhuānyè.” Tā tíxǐng wǒmen: kàn wèntí bù néng zhǐ kàn yǎnqián, yào yòng chángyuǎn de yǎnguāng kàndài déshī."
+   }
+  ],
+  "translation": "Im Chinesischen gibt es einen häufig gebrauchten Ausdruck: „Der alte Mann an der Grenze verliert sein Pferd – wer weiß, ob es nicht ein Glück ist?“ Er stammt aus dem über zweitausend Jahre alten Buch „Huainanzi“, und hinter ihm steht eine interessante Geschichte. In alten Zeiten lebte im Grenzland im Norden Chinas ein alter Mann, den die Leute „Saiweng“ (der Alte an der Grenze) nannten. Eines Tages lief eines seiner Pferde auf die andere Seite der Grenze und kam nicht mehr zurück. Die Nachbarn kamen alle, um ihn zu trösten, doch der alte Mann sagte ruhig: „Das muss nichts Schlechtes sein.“ Einige Monate später kam das Pferd nicht nur von selbst zurück, sondern brachte auch noch ein gutes Pferd mit. Die Nachbarn kamen wieder, diesmal um zu gratulieren, doch der alte Mann sagte: „Das muss nichts Gutes sein.“ Und tatsächlich: Der Sohn des alten Mannes ritt sehr gern auf dem neuen Pferd, fiel eines Tages vom Pferderücken und verletzte sich am Bein. Alle hatten Mitleid mit ihm, doch der alte Mann sagte wieder: „Auch das muss nichts Schlechtes sein.“ Ein Jahr später brach ein Krieg aus. Fast alle jungen Leute des Dorfes wurden in den Kampf geschickt, und viele kehrten nie wieder heim. Weil der Sohn des alten Mannes ein verletztes Bein hatte, musste er nicht Soldat werden, und Vater und Sohn überlebten beide unversehrt. Später benutzte man „Der alte Mann an der Grenze verliert sein Pferd“ als Bild dafür, dass ein vorübergehender Verlust gerade dadurch Vorteile bringen kann und dass sich Schlechtes unter bestimmten Umständen in Gutes verwandeln kann. Das Wort „yan“ in dem Satz stammt aus dem klassischen Chinesisch und bedeutet „wie“; „yan zhi fei fu“ heißt also „Wie kann man wissen, dass es kein Glück ist?“ Heute benutzt man diesen Ausdruck oft, um Menschen zu trösten, die einen Rückschlag erlitten haben. Wenn zum Beispiel jemand die Aufnahme an seiner Wunschuniversität nicht geschafft hat, sagen Freunde vielleicht: „Der alte Mann an der Grenze verliert sein Pferd – wer weiß, ob es nicht ein Glück ist. Vielleicht findest du an einer anderen Hochschule ein Fach, das noch besser zu dir passt.“ Der Ausdruck erinnert uns daran, Probleme nicht nur mit Blick auf den Augenblick zu betrachten, sondern Gewinn und Verlust auf lange Sicht zu beurteilen.",
+  "glossary": [
+   {
+    "word": "塞翁失马",
+    "pinyin": "sàiwēng-shīmǎ",
+    "meaning": "„Der alte Mann an der Grenze verliert sein Pferd“: ein Unglück kann sich als Glück erweisen",
+    "vocabId": "w:塞翁失马:sai4weng1shi1ma3"
+   },
+   {
+    "word": "焉知非福",
+    "pinyin": "yānzhī-fēifú",
+    "meaning": "wer weiß, ob es nicht ein Glück ist (klassisches Chinesisch)"
+   },
+   {
+    "word": "边塞",
+    "pinyin": "biānsài",
+    "meaning": "Grenzgebiet, Grenzfestung"
+   },
+   {
+    "word": "安慰",
+    "pinyin": "ānwèi",
+    "meaning": "trösten",
+    "vocabId": "w:安慰:an1wei4"
+   },
+   {
+    "word": "祝贺",
+    "pinyin": "zhùhè",
+    "meaning": "gratulieren",
+    "vocabId": "w:祝贺:zhu4he4"
+   },
+   {
+    "word": "打仗",
+    "pinyin": "dǎzhàng",
+    "meaning": "Krieg führen, kämpfen",
+    "vocabId": "w:打仗:da3zhang4"
+   },
+   {
+    "word": "当兵",
+    "pinyin": "dāngbīng",
+    "meaning": "Soldat werden, beim Militär dienen"
+   },
+   {
+    "word": "比喻",
+    "pinyin": "bǐyù",
+    "meaning": "bildlich ausdrücken; Metapher",
+    "vocabId": "w:比喻:bi3yu4"
+   },
+   {
+    "word": "挫折",
+    "pinyin": "cuòzhé",
+    "meaning": "Rückschlag, Misserfolg"
+   },
+   {
+    "word": "得失",
+    "pinyin": "déshī",
+    "meaning": "Gewinn und Verlust",
+    "vocabId": "w:得失:de2shi1"
+   }
+  ],
+  "note": "Viele Chengyu sind Kurzfassungen alter Geschichten: Wer die Geschichte kennt, versteht den Ausdruck. Oft wird nur die erste Hälfte zitiert – „塞翁失马“ genügt, und jeder ergänzt im Kopf „焉知非福“. Das klassische Fragewort 焉 („wie“) findet man heute fast nur noch in solchen festen Wendungen.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worum geht es in dem Text vor allem?",
+    "evidence": "p4",
+    "choices": [
+     {
+      "text": "Um die Bedeutung von Pferden für die Menschen im alten Nordchina.",
+      "explanation": "Falsch. Das Pferd ist nur Teil der Geschichte; der Text erklärt, was der Ausdruck „塞翁失马，焉知非福“ bedeutet und wie man ihn benutzt."
+     },
+     {
+      "text": "Um Herkunft, Bedeutung und heutigen Gebrauch einer chinesischen Redewendung.",
+      "explanation": "Richtig. Der Text nennt die Quelle (来自……《淮南子》), erzählt die Geschichte, erklärt die Bedeutung (人们用……比喻) und zeigt den heutigen Gebrauch (今天，这个成语常常用来……)."
+     },
+     {
+      "text": "Um einen Krieg an der Nordgrenze und seine Folgen für ein Dorf.",
+      "explanation": "Falsch. Der Krieg (战争爆发了) ist nur ein Ereignis in der Geschichte; er ist nicht das Thema des Textes."
+     },
+     {
+      "text": "Um Ratschläge, wie man sich auf die Aufnahmeprüfung der Universität vorbereitet.",
+      "explanation": "Falsch. Die Universität dient nur als Beispiel (没考上理想的大学) für eine Situation, in der man den Ausdruck zum Trösten verwendet."
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Warum musste der Sohn des alten Mannes nicht in den Krieg ziehen?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Weil aus dem Dorf gar niemand in den Krieg ziehen musste.",
+      "explanation": "Falsch. Fast alle jungen Leute des Dorfes wurden in den Kampf geschickt (村里的年轻人几乎都被叫去打仗); nur der Sohn blieb wegen seines Beins verschont (因为腿有伤)."
+     },
+     {
+      "text": "Weil sein Vater ihn vor den Soldaten versteckt hatte.",
+      "explanation": "Falsch. Verstecken war gar nicht nötig: Wegen seiner Verletzung war er vom Kriegsdienst befreit (因为腿有伤，不用去当兵)."
+     },
+     {
+      "text": "Weil er sich bei einem Sturz vom Pferd das Bein verletzt hatte.",
+      "explanation": "Richtig. Er fiel vom neuen Pferd (从马背上摔了下来，腿受了伤) und musste deshalb nicht Soldat werden (因为腿有伤，不用去当兵)."
+     },
+     {
+      "text": "Weil er mit dem neuen Pferd über die Grenze geflohen war.",
+      "explanation": "Falsch. Über die Grenze lief nur das erste Pferd (跑到了边境的另一边); der Sohn blieb zu Hause und überlebte mit seinem Vater."
+     }
+    ],
+    "answer": 2
+   },
+   {
+    "id": "q3",
+    "kind": "attitude",
+    "prompt": "Welche Haltung zeigt der alte Mann in der Geschichte?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Er ist ein Pessimist, der immer nur das Schlimmste erwartet.",
+      "explanation": "Falsch. Er sagt auch über den Verlust des Pferdes und den Unfall des Sohnes: „这不一定是坏事“ – er sieht also auch im Unglück eine mögliche gute Seite."
+     },
+     {
+      "text": "Er freut sich über gute Nachrichten mehr als seine Nachbarn.",
+      "explanation": "Falsch. Als die Nachbarn gratulieren, sagt er sogar: „这不一定是好事“ – er freut sich nicht besonders."
+     },
+     {
+      "text": "Er ärgert sich, dass sich die Nachbarn in seine Angelegenheiten einmischen.",
+      "explanation": "Falsch. Der Text zeigt keinen Ärger; er antwortet den Nachbarn ruhig (平静地说)."
+     },
+     {
+      "text": "Er bleibt gelassen, weil sich Glück und Unglück ins Gegenteil verkehren können.",
+      "explanation": "Richtig. Bei jedem Ereignis antwortet er ruhig (平静地说), dass Schlechtes nicht unbedingt schlecht und Gutes nicht unbedingt gut sein muss (不一定是坏事 / 不一定是好事)."
+     }
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "reading-hsk5-10",
+  "level": "HSK5",
+  "skill": "reading",
+  "order": 10,
+  "task": {
+   "no": 27,
+   "title": "介绍中国历史"
+  },
+  "topic": "文化与传统›历史›历史人物、历史事件",
+  "title": "Die Flotte aus dem Reich der Mitte",
+  "objective": "Du kannst die wichtigsten Informationen und die Bewertung in einem Sachtext zur chinesischen Geschichte erfassen.",
+  "textType": "Geschichtsartikel",
+  "minutes": 10,
+  "introduction": "Du liest einen Artikel aus einem populärwissenschaftlichen Geschichtsmagazin über die Ming-Zeit.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "text": "郑和是中国明朝著名的航海家。他原来姓马，1371年出生在云南的一个普通家庭，少年时被送进燕王朱棣的府中做事，后来立了不少功劳。朱棣当上皇帝以后，非常信任他，还赐给他“郑”这个姓。",
+    "pinyin": "Zhèng Hé shì Zhōngguó Míngcháo zhùmíng de hánghǎijiā. Tā yuánlái xìng Mǎ, 1371 nián chūshēng zài Yúnnán de yí ge pǔtōng jiātíng, shàonián shí bèi sòngjìn Yānwáng Zhū Dì de fǔ zhōng zuòshì, hòulái lì le bù shǎo gōngláo. Zhū Dì dāngshàng huángdì yǐhòu, fēicháng xìnrèn tā, hái cì gěi tā “Zhèng” zhège xìng."
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "text": "1405年，郑和奉皇帝的命令，带领一支庞大的船队从江苏太仓出发，开始了第一次远航。当时，人们把今天东南亚和印度洋一带的海域叫作“西洋”，所以这些航行被称为“郑和下西洋”。据史书记载，船队有两百多艘船、两万多人，其中最大的“宝船”长一百多米，是当时世界上最大的木船之一。",
+    "pinyin": "1405 nián, Zhèng Hé fèng huángdì de mìnglìng, dàilǐng yì zhī pángdà de chuánduì cóng Jiāngsū Tàicāng chūfā, kāishǐ le dì-yī cì yuǎnháng. Dāngshí, rénmen bǎ jīntiān Dōngnányà hé Yìndùyáng yídài de hǎiyù jiàozuò “Xīyáng”, suǒyǐ zhèxiē hángxíng bèi chēngwéi “Zhèng Hé xià Xīyáng”. Jù shǐshū jìzǎi, chuánduì yǒu liǎngbǎi duō sōu chuán, liǎngwàn duō rén, qízhōng zuì dà de “bǎochuán” cháng yìbǎi duō mǐ, shì dāngshí shìjiè shang zuì dà de mùchuán zhī yī."
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "text": "从1405年到1433年，郑和先后七次带领船队出海，到过三十多个国家和地区，最远到达了非洲东海岸。船队带去了大量的丝绸、瓷器和茶叶，又从各地带回了香料、药材，还有中国人以前从来没见过的动物，比如长颈鹿。船队每到一个地方，都和当地人进行贸易、交流文化，很少使用武力。",
+    "pinyin": "Cóng 1405 nián dào 1433 nián, Zhèng Hé xiānhòu qī cì dàilǐng chuánduì chūhǎi, dàoguo sānshí duō ge guójiā hé dìqū, zuì yuǎn dàodá le Fēizhōu dōng hǎi'àn. Chuánduì dàiqù le dàliàng de sīchóu, cíqì hé cháyè, yòu cóng gèdì dàihuí le xiāngliào, yàocái, hái yǒu Zhōngguórén yǐqián cónglái méi jiànguo de dòngwù, bǐrú chángjǐnglù. Chuánduì měi dào yí ge dìfang, dōu hé dāngdìrén jìnxíng màoyì, jiāoliú wénhuà, hěn shǎo shǐyòng wǔlì."
+   },
+   {
+    "id": "p4",
+    "speaker": "",
+    "text": "郑和第一次远航比哥伦布到达美洲早了将近九十年。很多历史学家认为，郑和下西洋不仅促进了中国和亚非各国的经济往来，也加深了彼此之间的了解。遗憾的是，郑和去世以后，明朝再也没有组织过这样大规模的远航，这段辉煌的航海历史也就结束了。",
+    "pinyin": "Zhèng Hé dì-yī cì yuǎnháng bǐ Gēlúnbù dàodá Měizhōu zǎo le jiāngjìn jiǔshí nián. Hěn duō lìshǐxuéjiā rènwéi, Zhèng Hé xià Xīyáng bùjǐn cùjìn le Zhōngguó hé Yà-Fēi gè guó de jīngjì wǎnglái, yě jiāshēn le bǐcǐ zhījiān de liǎojiě. Yíhàn de shì, Zhèng Hé qùshì yǐhòu, Míngcháo zài yě méiyǒu zǔzhīguo zhèyàng dà guīmó de yuǎnháng, zhè duàn huīhuáng de hánghǎi lìshǐ yě jiù jiéshù le."
+   }
+  ],
+  "translation": "Zheng He war ein berühmter Seefahrer der chinesischen Ming-Dynastie. Ursprünglich trug er den Familiennamen Ma. Er wurde 1371 in einer einfachen Familie in Yunnan geboren, wurde als Junge in den Haushalt von Zhu Di, dem Prinzen von Yan, geschickt, um dort zu dienen, und erwarb sich später große Verdienste. Nachdem Zhu Di Kaiser geworden war, vertraute er ihm sehr und verlieh ihm den Familiennamen „Zheng“. Im Jahr 1405 brach Zheng He im Auftrag des Kaisers mit einer gewaltigen Flotte von Taicang in Jiangsu zu seiner ersten großen Seereise auf. Damals nannte man die Meere im Gebiet des heutigen Südostasiens und des Indischen Ozeans die „Westlichen Meere“, deshalb heißen diese Fahrten „Zheng Hes Reisen in die Westlichen Meere“. Nach den Geschichtsquellen bestand die Flotte aus über zweihundert Schiffen und mehr als zwanzigtausend Menschen; das größte „Schatzschiff“ war über hundert Meter lang und gehörte zu den größten Holzschiffen der damaligen Welt. Zwischen 1405 und 1433 fuhr Zheng He insgesamt siebenmal mit der Flotte aus, besuchte über dreißig Länder und Regionen und kam dabei am weitesten bis an die Ostküste Afrikas. Die Flotte nahm große Mengen Seide, Porzellan und Tee mit und brachte aus den verschiedenen Orten Gewürze, Heilkräuter und Tiere mit, die man in China noch nie gesehen hatte, zum Beispiel Giraffen. Wohin die Flotte auch kam, trieb sie Handel mit den Einheimischen und tauschte sich kulturell mit ihnen aus; Waffengewalt setzte sie nur selten ein. Zheng Hes erste Reise fand fast neunzig Jahre früher statt als die Ankunft von Kolumbus in Amerika. Viele Historiker meinen, dass Zheng Hes Reisen nicht nur den wirtschaftlichen Austausch zwischen China und den Ländern Asiens und Afrikas förderten, sondern auch das gegenseitige Verständnis vertieften. Bedauerlicherweise organisierte die Ming-Dynastie nach Zheng Hes Tod nie wieder eine Seereise in dieser Größenordnung, und damit endete dieses glanzvolle Kapitel der Seefahrtsgeschichte.",
+  "glossary": [
+   {
+    "word": "航海家",
+    "pinyin": "hánghǎijiā",
+    "meaning": "Seefahrer"
+   },
+   {
+    "word": "赐",
+    "pinyin": "cì",
+    "meaning": "verleihen, gewähren (von einem Höhergestellten)",
+    "vocabId": "w:赐:ci4"
+   },
+   {
+    "word": "船队",
+    "pinyin": "chuánduì",
+    "meaning": "Flotte"
+   },
+   {
+    "word": "远航",
+    "pinyin": "yuǎnháng",
+    "meaning": "Fernreise auf See; weit hinaussegeln"
+   },
+   {
+    "word": "记载",
+    "pinyin": "jìzǎi",
+    "meaning": "aufzeichnen; schriftliche Überlieferung",
+    "vocabId": "w:记载:ji4zai3"
+   },
+   {
+    "word": "瓷器",
+    "pinyin": "cíqì",
+    "meaning": "Porzellan",
+    "vocabId": "w:瓷器:ci2qi4"
+   },
+   {
+    "word": "香料",
+    "pinyin": "xiāngliào",
+    "meaning": "Gewürz",
+    "vocabId": "w:香料:xiang1liao4"
+   },
+   {
+    "word": "长颈鹿",
+    "pinyin": "chángjǐnglù",
+    "meaning": "Giraffe",
+    "vocabId": "w:长颈鹿:chang2jing3lu4"
+   },
+   {
+    "word": "贸易",
+    "pinyin": "màoyì",
+    "meaning": "Handel",
+    "vocabId": "w:贸易:mao4yi4"
+   },
+   {
+    "word": "遗憾",
+    "pinyin": "yíhàn",
+    "meaning": "bedauern; bedauerlich",
+    "vocabId": "w:遗憾:yi2han4"
+   }
+  ],
+  "note": "Mit 遗憾的是 („bedauerlicherweise“) zeigt die schreibende Person ihre eigene Bewertung. Ähnlich gebaut sind 幸运的是 („zum Glück“) und 奇怪的是 („seltsamerweise“). 下西洋 ist ein fester historischer Begriff: 下 bedeutet hier „hinausfahren“ (aufs Meer, in die Ferne).",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worum geht es in dem Text?",
+    "evidence": "p1",
+    "choices": [
+     {
+      "text": "Um Zheng He, seine Seereisen und deren Bedeutung.",
+      "explanation": "Richtig. Der Text stellt Zheng He vor (郑和是……著名的航海家), beschreibt seine sieben Reisen (先后七次带领船队出海) und ihre Bedeutung (促进了……经济往来，也加深了……了解)."
+     },
+     {
+      "text": "Um den Bau der großen Schatzschiffe in der Ming-Zeit.",
+      "explanation": "Falsch. Die Schatzschiffe werden nur in einem Satz erwähnt (最大的“宝船”长一百多米); wie sie gebaut wurden, erklärt der Text nicht."
+     },
+     {
+      "text": "Um das Leben am Kaiserhof der Ming-Dynastie.",
+      "explanation": "Falsch. Der Hof spielt nur am Anfang eine Rolle (被送进燕王朱棣的府中); der Text handelt von den Seereisen."
+     },
+     {
+      "text": "Um den Seehandel zwischen China und Amerika.",
+      "explanation": "Falsch. Amerika wird nur beim Vergleich mit Kolumbus erwähnt (比哥伦布到达美洲早了将近九十年); Zheng Hes Flotte fuhr nach Südostasien, an den Indischen Ozean und nach Afrika."
+     }
+    ],
+    "answer": 0
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Was brachte die Flotte von ihren Reisen nach China mit?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Seide, Porzellan und Tee.",
+      "explanation": "Falsch. Diese Waren nahm die Flotte aus China mit hinaus (带去了大量的丝绸、瓷器和茶叶)."
+     },
+     {
+      "text": "Gold und Silber als Kriegsbeute.",
+      "explanation": "Falsch. Von Beute ist keine Rede; die Flotte trieb Handel und setzte nur selten Gewalt ein (很少使用武力)."
+     },
+     {
+      "text": "Soldaten aus Afrika für die Armee des Kaisers.",
+      "explanation": "Falsch. Davon steht nichts im Text; mitgebracht wurden Waren und Tiere (带回了香料、药材……)."
+     },
+     {
+      "text": "Gewürze, Heilkräuter und unbekannte Tiere wie Giraffen.",
+      "explanation": "Richtig. Im Text heißt es: 从各地带回了香料、药材，还有……动物，比如长颈鹿."
+     }
+    ],
+    "answer": 3
+   },
+   {
+    "id": "q3",
+    "kind": "attitude",
+    "prompt": "Wie werden die Seereisen Zheng Hes im Text bewertet?",
+    "evidence": "p4",
+    "choices": [
+     {
+      "text": "Als unbedeutend, weil Kolumbus mehr erreicht hat.",
+      "explanation": "Falsch. Der Vergleich mit Kolumbus betont nur, wie früh Zheng He unterwegs war (早了将近九十年); und der Text nennt die Reisen 辉煌 („glanzvoll“)."
+     },
+     {
+      "text": "Positiv – und es wird bedauert, dass es danach keine solchen Reisen mehr gab.",
+      "explanation": "Richtig. Der Text nennt sie eine glanzvolle Geschichte (辉煌的航海历史) und schreibt 遗憾的是, dass die Ming-Dynastie nach Zheng Hes Tod keine so großen Reisen mehr organisierte."
+     },
+     {
+      "text": "Kritisch, weil die Flotte andere Länder mit Gewalt erobert habe.",
+      "explanation": "Falsch. Im Text steht das Gegenteil: Die Flotte trieb Handel und setzte selten Gewalt ein (很少使用武力)."
+     },
+     {
+      "text": "Als Unternehmen, das vor allem dem Kaiser persönlichen Reichtum brachte.",
+      "explanation": "Falsch. Der Text nennt als Nutzen den wirtschaftlichen Austausch und das gegenseitige Verständnis zwischen den Ländern (经济往来……彼此之间的了解), nicht den Reichtum des Kaisers."
+     }
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "listening-hsk5-01",
+  "level": "HSK5",
+  "skill": "listening",
+  "order": 1,
+  "task": {
+   "no": 3,
+   "title": "谈论交通出行"
+  },
+  "topic": "日常生活›交通出行›出行体验",
+  "title": "Nach dem Nationalfeiertag",
+  "objective": "Du kannst einem Alltagsgespräch über Erlebnisse in den Feiertagen folgen und Zeitangaben und Gründe verstehen.",
+  "textType": "Alltagsgespräch",
+  "minutes": 6,
+  "introduction": "Nach den Feiertagen rund um den Nationalfeiertag treffen sich zwei Bekannte, A und Xiao Lin (B), und unterhalten sich.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "A",
+    "text": "小林，听说你国庆节是自己开车回老家的？路上顺利吗？",
+    "pinyin": "Xiǎo Lín, tīngshuō nǐ Guóqìngjié shì zìjǐ kāichē huí lǎojiā de? Lù shang shùnlì ma?"
+   },
+   {
+    "id": "p2",
+    "speaker": "B",
+    "text": "别提了！平时五个小时就能到，这次整整开了十一个小时。",
+    "pinyin": "Bié tí le! Píngshí wǔ ge xiǎoshí jiù néng dào, zhè cì zhěngzhěng kāi le shíyī ge xiǎoshí."
+   },
+   {
+    "id": "p3",
+    "speaker": "A",
+    "text": "啊？堵得这么厉害？",
+    "pinyin": "Á? Dǔ de zhème lìhai?"
+   },
+   {
+    "id": "p4",
+    "speaker": "B",
+    "text": "是啊，高速上全是车，有一段二十公里的路，我们走了差不多两个小时。我开的又是电动车，到了服务区，光排队充电就等了一个多小时。",
+    "pinyin": "Shì a, gāosù shang quán shì chē, yǒu yí duàn èrshí gōnglǐ de lù, wǒmen zǒu le chàbuduō liǎng ge xiǎoshí. Wǒ kāi de yòu shì diàndòngchē, dào le fúwùqū, guāng páiduì chōngdiàn jiù děng le yí ge duō xiǎoshí."
+   },
+   {
+    "id": "p5",
+    "speaker": "A",
+    "text": "那你怎么不坐高铁呢？又快又舒服。",
+    "pinyin": "Nà nǐ zěnme bú zuò gāotiě ne? Yòu kuài yòu shūfu."
+   },
+   {
+    "id": "p6",
+    "speaker": "B",
+    "text": "本来是想坐的，可是票太难买了，我提前十五天就开始抢，还是没抢到。再说，我要给父母带一台微波炉，还有好几箱水果，坐高铁也不方便。",
+    "pinyin": "Běnlái shì xiǎng zuò de, kěshì piào tài nán mǎi le, wǒ tíqián shíwǔ tiān jiù kāishǐ qiǎng, háishi méi qiǎngdào. Zàishuō, wǒ yào gěi fùmǔ dài yì tái wēibōlú, hái yǒu hǎo jǐ xiāng shuǐguǒ, zuò gāotiě yě bù fāngbiàn."
+   },
+   {
+    "id": "p7",
+    "speaker": "A",
+    "text": "原来是这样。那回来的时候呢？",
+    "pinyin": "Yuánlái shì zhèyàng. Nà huílai de shíhou ne?"
+   },
+   {
+    "id": "p8",
+    "speaker": "B",
+    "text": "回来的时候我学聪明了，故意晚走了两天，避开了返程高峰。一路上一点儿都不堵，六个小时就到家了。",
+    "pinyin": "Huílai de shíhou wǒ xué cōngming le, gùyì wǎn zǒu le liǎng tiān, bìkāi le fǎnchéng gāofēng. Yílù shang yìdiǎnr dōu bù dǔ, liù ge xiǎoshí jiù dào jiā le."
+   },
+   {
+    "id": "p9",
+    "speaker": "A",
+    "text": "看来长假出门，时间选得好比什么都重要。",
+    "pinyin": "Kànlái chángjià chūmén, shíjiān xuǎn de hǎo bǐ shénme dōu zhòngyào."
+   },
+   {
+    "id": "p10",
+    "speaker": "B",
+    "text": "没错。下次放长假，我一定提前做好计划。",
+    "pinyin": "Méi cuò. Xià cì fàng chángjià, wǒ yídìng tíqián zuòhǎo jìhuà."
+   }
+  ],
+  "translation": "A: Xiao Lin, ich habe gehört, du bist über den Nationalfeiertag selbst mit dem Auto in deine Heimat gefahren? Lief es unterwegs gut? – B: Hör bloß auf! Normalerweise ist man in fünf Stunden da, diesmal bin ich ganze elf Stunden gefahren. – A: Was? So schlimm war der Stau? – B: Ja, die Autobahn war voller Autos. Für ein Stück von zwanzig Kilometern haben wir fast zwei Stunden gebraucht. Und dann fahre ich auch noch ein Elektroauto: An der Raststätte habe ich allein fürs Anstehen zum Laden über eine Stunde gewartet. – A: Warum hast du denn nicht den Schnellzug genommen? Der ist schnell und bequem. – B: Eigentlich wollte ich ja. Aber die Fahrkarten waren kaum zu bekommen: Ich habe schon fünfzehn Tage vorher versucht, eine zu ergattern, und trotzdem keine bekommen. Außerdem wollte ich meinen Eltern eine Mikrowelle und mehrere Kisten Obst mitbringen, das wäre mit dem Schnellzug auch unpraktisch gewesen. – A: Ach so. Und wie war die Rückfahrt? – B: Bei der Rückfahrt war ich schlauer: Ich bin absichtlich zwei Tage später losgefahren und habe so die Rückreisewelle vermieden. Unterwegs gab es überhaupt keinen Stau, nach sechs Stunden war ich zu Hause. – A: Wenn man in langen Ferien unterwegs ist, ist die richtige Reisezeit also wichtiger als alles andere. – B: Genau. Bei den nächsten langen Ferien plane ich auf jeden Fall rechtzeitig.",
+  "glossary": [
+   {
+    "word": "堵",
+    "pinyin": "dǔ",
+    "meaning": "verstopft sein; im Stau stehen"
+   },
+   {
+    "word": "高速",
+    "pinyin": "gāosù",
+    "meaning": "Autobahn (Kurzform von gāosù gōnglù)"
+   },
+   {
+    "word": "服务区",
+    "pinyin": "fúwùqū",
+    "meaning": "Raststätte (an der Autobahn)"
+   },
+   {
+    "word": "充电",
+    "pinyin": "chōngdiàn",
+    "meaning": "aufladen (Akku, Elektroauto)",
+    "vocabId": "w:充电:chong1dian4"
+   },
+   {
+    "word": "高铁",
+    "pinyin": "gāotiě",
+    "meaning": "Hochgeschwindigkeitszug",
+    "vocabId": "w:高铁:gao1tie3"
+   },
+   {
+    "word": "抢",
+    "pinyin": "qiǎng",
+    "meaning": "sich um etwas reißen; (Tickets) ergattern",
+    "vocabId": "w:抢:qiang3"
+   },
+   {
+    "word": "返程",
+    "pinyin": "fǎnchéng",
+    "meaning": "Rückreise, Rückfahrt"
+   },
+   {
+    "word": "高峰",
+    "pinyin": "gāofēng",
+    "meaning": "Spitzenzeit, Stoßzeit",
+    "vocabId": "w:高峰:gao1feng1"
+   }
+  ],
+  "note": "抢票 („Tickets ergattern“) ist in China zu Feiertagen ein fester Begriff: Zugtickets werden online verkauft und sind oft in Sekunden weg. Mit 别提了！ („Hör bloß auf!“) leitet man im Gespräch eine Geschichte über etwas Ärgerliches ein.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worüber sprechen die beiden hauptsächlich?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Über den Kauf eines neuen Elektroautos.",
+      "explanation": "Falsch. Xiao Lin fährt bereits ein Elektroauto (我开的又是电动车) und erwähnt es nur wegen des Ladens unterwegs; ein Autokauf ist kein Thema."
+     },
+     {
+      "text": "Über günstige Zugtickets für die Feiertage.",
+      "explanation": "Falsch. Über Preise wird nicht gesprochen; Xiao Lin hat überhaupt kein Ticket bekommen (还是没抢到)."
+     },
+     {
+      "text": "Über Xiao Lins Autofahrt in die Heimat und zurück über die Feiertage.",
+      "explanation": "Richtig. A fragt nach der Fahrt (自己开车回老家的？路上顺利吗？), und Xiao Lin erzählt von Hin- und Rückfahrt."
+     }
+    ],
+    "answer": 2
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Warum ist Xiao Lin nicht mit dem Schnellzug gefahren?",
+    "evidence": "p6",
+    "choices": [
+     {
+      "text": "Xiao Lin bekam keine Fahrkarte und wollte viele Sachen mitnehmen.",
+      "explanation": "Richtig. Xiao Lin hat trotz aller Versuche kein Ticket bekommen (还是没抢到), und mit Mikrowelle und Obstkisten wäre der Zug unpraktisch gewesen (坐高铁也不方便)."
+     },
+     {
+      "text": "Xiao Lin hatte zwar eine Fahrkarte, hat den Zug aber verpasst.",
+      "explanation": "Falsch. Xiao Lin hat gar keine Fahrkarte bekommen: 提前十五天就开始抢，还是没抢到."
+     },
+     {
+      "text": "In Xiao Lins Heimatort fährt kein Schnellzug.",
+      "explanation": "Falsch. Xiao Lin wollte eigentlich mit dem Schnellzug fahren (本来是想坐的); es gab also eine Verbindung."
+     }
+    ],
+    "answer": 0
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Wie viel länger als sonst hat die Hinfahrt ungefähr gedauert?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Etwa zwei Stunden.",
+      "explanation": "Falsch. Zwei Stunden dauerte nur das Stück von zwanzig Kilometern (走了差不多两个小时); insgesamt war die Verspätung größer."
+     },
+     {
+      "text": "Etwa sechs Stunden.",
+      "explanation": "Richtig. Normalerweise dauert die Fahrt fünf Stunden (平时五个小时), diesmal elf (开了十一个小时) – also etwa sechs Stunden länger."
+     },
+     {
+      "text": "Etwa elf Stunden.",
+      "explanation": "Falsch. Elf Stunden war die gesamte Fahrzeit (整整开了十一个小时), nicht die zusätzliche Zeit."
+     }
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "listening-hsk5-02",
+  "level": "HSK5",
+  "skill": "listening",
+  "order": 2,
+  "task": {
+   "no": 7,
+   "title": "沟通、交流社区生活情况"
+  },
+  "topic": "日常生活›社区›社区生活",
+  "title": "Ein Anruf bei der Hausverwaltung",
+  "objective": "Du kannst ein Telefongespräch mit einer Hausverwaltung verstehen und Anliegen, Regeln und Absprachen erkennen.",
+  "textType": "Telefongespräch",
+  "minutes": 6,
+  "introduction": "Eine Person (A), die in einer Wohnanlage wohnt, ruft am Samstagmorgen bei der Hausverwaltung (B) an.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "A",
+    "text": "喂，是物业吗？我是三号楼五零二的住户。",
+    "pinyin": "Wéi, shì wùyè ma? Wǒ shì sān hào lóu wǔ líng èr de zhùhù."
+   },
+   {
+    "id": "p2",
+    "speaker": "B",
+    "text": "您好，请问有什么需要帮忙的？",
+    "pinyin": "Nín hǎo, qǐngwèn yǒu shénme xūyào bāngmáng de?"
+   },
+   {
+    "id": "p3",
+    "speaker": "A",
+    "text": "我家楼上的六零二最近在装修。今天是星期六，他们早上七点多就开始砸墙，吵得我们全家都没法休息。",
+    "pinyin": "Wǒ jiā lóushàng de liù líng èr zuìjìn zài zhuāngxiū. Jīntiān shì xīngqīliù, tāmen zǎoshang qī diǎn duō jiù kāishǐ zá qiáng, chǎo de wǒmen quán jiā dōu méifǎ xiūxi."
+   },
+   {
+    "id": "p4",
+    "speaker": "B",
+    "text": "真不好意思。按照小区的规定，装修只能在工作日的上午八点到十二点、下午两点到六点进行，周末和节假日都不允许。我们马上派人上去提醒他们。",
+    "pinyin": "Zhēn bù hǎoyìsi. Ànzhào xiǎoqū de guīdìng, zhuāngxiū zhǐ néng zài gōngzuòrì de shàngwǔ bā diǎn dào shí'èr diǎn, xiàwǔ liǎng diǎn dào liù diǎn jìnxíng, zhōumò hé jiéjiàrì dōu bù yǔnxǔ. Wǒmen mǎshàng pài rén shàngqu tíxǐng tāmen."
+   },
+   {
+    "id": "p5",
+    "speaker": "A",
+    "text": "好的，谢谢。还有一件事，我家卫生间的天花板这两天一直在滴水，我怀疑是楼上改水管的时候弄坏了。",
+    "pinyin": "Hǎo de, xièxie. Hái yǒu yí jiàn shì, wǒ jiā wèishēngjiān de tiānhuābǎn zhè liǎng tiān yìzhí zài dī shuǐ, wǒ huáiyí shì lóushàng gǎi shuǐguǎn de shíhou nònghuài le."
+   },
+   {
+    "id": "p6",
+    "speaker": "B",
+    "text": "这个问题比较严重，如果不及时处理，还可能影响用电安全。您今天下午在家吗？我们安排维修师傅过去看看。",
+    "pinyin": "Zhège wèntí bǐjiào yánzhòng, rúguǒ bù jíshí chǔlǐ, hái kěnéng yǐngxiǎng yòngdiàn ānquán. Nín jīntiān xiàwǔ zài jiā ma? Wǒmen ānpái wéixiū shīfu guòqu kànkan."
+   },
+   {
+    "id": "p7",
+    "speaker": "A",
+    "text": "我下午三点以后都在。要是真是楼上的问题，维修费该由谁出呢？",
+    "pinyin": "Wǒ xiàwǔ sān diǎn yǐhòu dōu zài. Yàoshi zhēn shì lóushàng de wèntí, wéixiūfèi gāi yóu shéi chū ne?"
+   },
+   {
+    "id": "p8",
+    "speaker": "B",
+    "text": "如果确定是他们装修造成的，费用应该由楼上的业主承担。我们会帮您跟他们沟通。",
+    "pinyin": "Rúguǒ quèdìng shì tāmen zhuāngxiū zàochéng de, fèiyong yīnggāi yóu lóushàng de yèzhǔ chéngdān. Wǒmen huì bāng nín gēn tāmen gōutōng."
+   },
+   {
+    "id": "p9",
+    "speaker": "A",
+    "text": "那就麻烦你们了。",
+    "pinyin": "Nà jiù máfan nǐmen le."
+   },
+   {
+    "id": "p10",
+    "speaker": "B",
+    "text": "不客气，这是我们应该做的。",
+    "pinyin": "Bú kèqi, zhè shì wǒmen yīnggāi zuò de."
+   }
+  ],
+  "translation": "A: Hallo, ist dort die Hausverwaltung? Ich wohne in Haus 3, Wohnung 502. – B: Guten Tag, womit kann ich Ihnen helfen? – A: Die Wohnung über uns, 602, wird gerade renoviert. Heute ist Samstag, und sie haben schon kurz nach sieben Uhr morgens angefangen, Wände einzureißen. Bei dem Lärm kann sich unsere ganze Familie nicht ausruhen. – B: Das tut mir wirklich leid. Nach den Regeln der Wohnanlage darf nur an Werktagen von acht bis zwölf Uhr vormittags und von zwei bis sechs Uhr nachmittags renoviert werden; an Wochenenden und Feiertagen ist es nicht erlaubt. Wir schicken sofort jemanden hinauf, der sie darauf hinweist. – A: Gut, danke. Und noch etwas: Von der Decke in unserem Bad tropft seit zwei Tagen ständig Wasser. Ich vermute, dass oben beim Umlegen der Wasserleitungen etwas beschädigt wurde. – B: Das ist ein ziemlich ernstes Problem. Wenn man es nicht rechtzeitig behebt, kann es auch die Sicherheit der Stromleitungen gefährden. Sind Sie heute Nachmittag zu Hause? Wir schicken jemanden vom Reparaturdienst vorbei, der sich das ansieht. – A: Ab drei Uhr nachmittags bin ich da. Wenn es wirklich an den Nachbarn oben liegt, wer muss dann die Reparatur bezahlen? – B: Wenn feststeht, dass es durch ihre Renovierung verursacht wurde, müssen die Eigentümer der Wohnung oben die Kosten tragen. Wir helfen Ihnen, das mit ihnen zu klären. – A: Dann vielen Dank für Ihre Mühe. – B: Gern geschehen, das ist doch unsere Aufgabe.",
+  "glossary": [
+   {
+    "word": "物业",
+    "pinyin": "wùyè",
+    "meaning": "Hausverwaltung (einer Wohnanlage)",
+    "vocabId": "w:物业:wu4ye4"
+   },
+   {
+    "word": "住户",
+    "pinyin": "zhùhù",
+    "meaning": "Bewohner, Haushalt",
+    "vocabId": "w:住户:zhu4hu4"
+   },
+   {
+    "word": "装修",
+    "pinyin": "zhuāngxiū",
+    "meaning": "renovieren, ausbauen",
+    "vocabId": "w:装修:zhuang1xiu1"
+   },
+   {
+    "word": "砸",
+    "pinyin": "zá",
+    "meaning": "zerschlagen, einreißen"
+   },
+   {
+    "word": "小区",
+    "pinyin": "xiǎoqū",
+    "meaning": "Wohnanlage, Wohnviertel"
+   },
+   {
+    "word": "天花板",
+    "pinyin": "tiānhuābǎn",
+    "meaning": "Zimmerdecke",
+    "vocabId": "w:天花板:tian1hua1ban3"
+   },
+   {
+    "word": "维修",
+    "pinyin": "wéixiū",
+    "meaning": "reparieren, instand halten",
+    "vocabId": "w:维修:wei2xiu1"
+   },
+   {
+    "word": "业主",
+    "pinyin": "yèzhǔ",
+    "meaning": "Eigentümer (einer Wohnung)"
+   },
+   {
+    "word": "承担",
+    "pinyin": "chéngdān",
+    "meaning": "(Kosten, Verantwortung) übernehmen, tragen"
+   }
+  ],
+  "note": "In chinesischen Wohnanlagen (小区) ist das 物业 die erste Anlaufstelle bei Lärm, Schäden und Streit unter Nachbarn. Zimmernummern liest man Ziffer für Ziffer: 五零二 = 502. Mit 由……承担 / 由……出 sagt man, wer etwas übernehmen oder bezahlen muss.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Warum ruft A bei der Hausverwaltung an?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Um die Renovierung der eigenen Wohnung anzumelden.",
+      "explanation": "Falsch. Renoviert wird die Wohnung darüber (我家楼上的六零二最近在装修), nicht die von A."
+     },
+     {
+      "text": "Um sich über Baulärm zu beschweren und einen Wasserschaden zu melden.",
+      "explanation": "Richtig. A beklagt den Lärm am Samstagmorgen (吵得我们全家都没法休息) und meldet, dass von der Decke Wasser tropft (天花板……一直在滴水)."
+     },
+     {
+      "text": "Um zu fragen, ob in der Anlage eine Wohnung frei ist.",
+      "explanation": "Falsch. A wohnt bereits in der Anlage (我是三号楼五零二的住户) und ruft wegen Lärm und tropfendem Wasser an."
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Wann darf nach den Regeln der Wohnanlage renoviert werden?",
+    "evidence": "p4",
+    "choices": [
+     {
+      "text": "Jeden Tag von sieben bis achtzehn Uhr.",
+      "explanation": "Falsch. Sieben Uhr ist die Zeit, zu der die Nachbarn angefangen haben (七点多就开始砸墙); am Wochenende ist Renovieren gar nicht erlaubt."
+     },
+     {
+      "text": "Am Wochenende von acht bis zwölf Uhr.",
+      "explanation": "Falsch. Am Wochenende und an Feiertagen ist Renovieren verboten (周末和节假日都不允许)."
+     },
+     {
+      "text": "Werktags von acht bis zwölf und von vierzehn bis achtzehn Uhr.",
+      "explanation": "Richtig. Die Verwaltung sagt: 工作日的上午八点到十二点、下午两点到六点."
+     }
+    ],
+    "answer": 2
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Was wird am Nachmittag wahrscheinlich passieren?",
+    "evidence": "p7",
+    "choices": [
+     {
+      "text": "Nach drei Uhr kommt jemand vom Reparaturdienst zu A und sieht sich die Decke an.",
+      "explanation": "Richtig. Die Verwaltung will einen Reparaturdienst schicken (安排维修师傅过去看看), und A ist ab drei Uhr zu Hause (下午三点以后都在)."
+     },
+     {
+      "text": "Die Nachbarn von oben bezahlen A sofort die Reparatur.",
+      "explanation": "Falsch. Sie zahlen nur, wenn feststeht, dass ihre Renovierung schuld ist (如果确定是他们装修造成的); das muss erst geprüft werden."
+     },
+     {
+      "text": "A geht selbst zur Verwaltung, um über die Kosten zu sprechen.",
+      "explanation": "Falsch. A bleibt zu Hause und wartet auf den Reparaturdienst; mit den Nachbarn spricht die Verwaltung (我们会帮您跟他们沟通)."
+     }
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "listening-hsk5-03",
+  "level": "HSK5",
+  "skill": "listening",
+  "order": 3,
+  "task": {
+   "no": 11,
+   "title": "谈论教育情况和问题"
+  },
+  "topic": "教育情况›教育问题›学校教育、社会教育、职业教育等",
+  "title": "Nach der Prüfung",
+  "objective": "Du kannst einem Gespräch über ein Bildungsthema folgen und verschiedene Meinungen unterscheiden.",
+  "textType": "Gespräch unter Bekannten",
+  "minutes": 8,
+  "introduction": "Zwei Bekannte, A und Lao Li (B), unterhalten sich über Lao Lis Sohn.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "A",
+    "text": "老李，听说你儿子中考结束了？考得怎么样？",
+    "pinyin": "Lǎo Lǐ, tīngshuō nǐ érzi zhōngkǎo jiéshù le? Kǎo de zěnmeyàng?"
+   },
+   {
+    "id": "p2",
+    "speaker": "B",
+    "text": "别提了，分数不太理想，上普通高中有点儿困难。他自己倒是挺想去职业学校学汽车维修的。",
+    "pinyin": "Bié tí le, fēnshù bú tài lǐxiǎng, shàng pǔtōng gāozhōng yǒudiǎnr kùnnan. Tā zìjǐ dàoshì tǐng xiǎng qù zhíyè xuéxiào xué qìchē wéixiū de."
+   },
+   {
+    "id": "p3",
+    "speaker": "A",
+    "text": "那不是挺好吗？现在国家越来越重视职业教育，好的技术工人可不好找。",
+    "pinyin": "Nà bú shì tǐng hǎo ma? Xiànzài guójiā yuè lái yuè zhòngshì zhíyè jiàoyù, hǎo de jìshù gōngrén kě bù hǎo zhǎo."
+   },
+   {
+    "id": "p4",
+    "speaker": "B",
+    "text": "道理我也明白，可他妈妈不同意。她总觉得只有上大学才有前途，上职业学校会被人看不起。",
+    "pinyin": "Dàoli wǒ yě míngbai, kě tā māma bù tóngyì. Tā zǒng juéde zhǐyǒu shàng dàxué cái yǒu qiántú, shàng zhíyè xuéxiào huì bèi rén kànbuqǐ."
+   },
+   {
+    "id": "p5",
+    "speaker": "A",
+    "text": "这种观念很普遍，不过已经有点儿过时了。我外甥前几年读的就是职业学校，毕业以后进了一家汽车厂，现在工资比很多大学生还高。",
+    "pinyin": "Zhè zhǒng guānniàn hěn pǔbiàn, búguò yǐjīng yǒudiǎnr guòshí le. Wǒ wàisheng qián jǐ nián dú de jiù shì zhíyè xuéxiào, bìyè yǐhòu jìnle yì jiā qìchē chǎng, xiànzài gōngzī bǐ hěn duō dàxuéshēng hái gāo."
+   },
+   {
+    "id": "p6",
+    "speaker": "B",
+    "text": "真的吗？那他以后还能继续上学吗？",
+    "pinyin": "Zhēn de ma? Nà tā yǐhòu hái néng jìxù shàngxué ma?"
+   },
+   {
+    "id": "p7",
+    "speaker": "A",
+    "text": "当然能。职业学校的学生也可以考大专，甚至考本科。关键是孩子自己有兴趣，愿意学。",
+    "pinyin": "Dāngrán néng. Zhíyè xuéxiào de xuésheng yě kěyǐ kǎo dàzhuān, shènzhì kǎo běnkē. Guānjiàn shì háizi zìjǐ yǒu xìngqù, yuànyì xué."
+   },
+   {
+    "id": "p8",
+    "speaker": "B",
+    "text": "你说得有道理。我们以前总是替他做决定，从小给他报了一大堆补习班，结果他越学越没兴趣。",
+    "pinyin": "Nǐ shuō de yǒu dàoli. Wǒmen yǐqián zǒngshì tì tā zuò juédìng, cóngxiǎo gěi tā bàole yí dà duī bǔxíbān, jiéguǒ tā yuè xué yuè méi xìngqù."
+   },
+   {
+    "id": "p9",
+    "speaker": "A",
+    "text": "是啊，家长给的压力太大，孩子反而学不好。不如这个周末带他去职业学校参观一下，听听老师怎么说。",
+    "pinyin": "Shì a, jiāzhǎng gěi de yālì tài dà, háizi fǎn'ér xué bu hǎo. Bùrú zhège zhōumò dài tā qù zhíyè xuéxiào cānguān yíxià, tīngting lǎoshī zěnme shuō."
+   },
+   {
+    "id": "p10",
+    "speaker": "B",
+    "text": "好主意，我回去跟他妈妈商量商量。",
+    "pinyin": "Hǎo zhǔyi, wǒ huíqu gēn tā māma shāngliang shāngliang."
+   }
+  ],
+  "translation": "A: Lao Li, ich habe gehört, dein Sohn hat die Aufnahmeprüfung für die Oberschule hinter sich? Wie ist es gelaufen? B: Frag lieber nicht. Die Punktzahl ist nicht besonders gut, mit einer normalen Oberschule wird es schwierig. Er selbst würde eigentlich ganz gern auf eine Berufsschule gehen und eine Ausbildung zum Kfz-Mechaniker machen. A: Ist das nicht prima? Der Staat legt heute immer mehr Wert auf Berufsbildung, und gute Facharbeiter sind wirklich schwer zu finden. B: Das sehe ich ja auch ein, aber seine Mutter ist dagegen. Sie meint immer, nur mit einem Studium hat man eine Zukunft, und auf Berufsschüler schaue man herab. A: Diese Vorstellung ist weit verbreitet, aber inzwischen etwas überholt. Mein Neffe hat vor ein paar Jahren genau so eine Berufsschule besucht; nach dem Abschluss kam er in eine Autofabrik, und heute verdient er mehr als viele Hochschulabsolventen. B: Wirklich? Kann er denn später noch weiterlernen? A: Natürlich. Berufsschüler können auch die Prüfung für ein Kurzstudium an einer Fachhochschule ablegen oder sogar für ein Bachelorstudium. Entscheidend ist, dass das Kind selbst Interesse hat und lernen will. B: Da hast du recht. Wir haben früher immer für ihn entschieden und ihn von klein auf in einen ganzen Haufen Nachhilfekurse gesteckt – mit dem Ergebnis, dass er immer weniger Lust zum Lernen hatte. A: Ja, wenn die Eltern zu viel Druck machen, lernen die Kinder erst recht schlecht. Nehmt ihn doch dieses Wochenende mit, schaut euch die Berufsschule an und hört, was die Lehrer sagen. B: Gute Idee, ich bespreche das zu Hause mit seiner Mutter.",
+  "glossary": [
+   {
+    "word": "中考",
+    "pinyin": "zhōngkǎo",
+    "meaning": "Aufnahmeprüfung für die Oberschule (am Ende der 9. Klasse)"
+   },
+   {
+    "word": "维修",
+    "pinyin": "wéixiū",
+    "meaning": "reparieren, warten, instand halten",
+    "vocabId": "w:维修:wei2xiu1"
+   },
+   {
+    "word": "前途",
+    "pinyin": "qiántú",
+    "meaning": "Zukunft, Aussichten",
+    "vocabId": "w:前途:qian2tu2"
+   },
+   {
+    "word": "看不起",
+    "pinyin": "kànbuqǐ",
+    "meaning": "verachten, auf jemanden herabsehen",
+    "vocabId": "w:看不起:kan4bu5qi3"
+   },
+   {
+    "word": "观念",
+    "pinyin": "guānniàn",
+    "meaning": "Vorstellung, Auffassung, Denkweise",
+    "vocabId": "w:观念:guan1nian4"
+   },
+   {
+    "word": "过时",
+    "pinyin": "guòshí",
+    "meaning": "veraltet, überholt",
+    "vocabId": "w:过时:guo4shi2"
+   },
+   {
+    "word": "外甥",
+    "pinyin": "wàisheng",
+    "meaning": "Neffe (Sohn der Schwester)",
+    "vocabId": "w:外甥:wai4sheng5"
+   },
+   {
+    "word": "大专",
+    "pinyin": "dàzhuān",
+    "meaning": "berufsorientiertes Kurzstudium (meist drei Jahre), etwa Fachhochschule"
+   },
+   {
+    "word": "本科",
+    "pinyin": "běnkē",
+    "meaning": "Bachelorstudium",
+    "vocabId": "w:本科:ben3ke1"
+   },
+   {
+    "word": "补习班",
+    "pinyin": "bǔxíbān",
+    "meaning": "Nachhilfekurs"
+   }
+  ],
+  "note": "„Nur … dann …“ heißt auf Chinesisch 只有……才……: 只有上大学才有前途 – „nur wer studiert, hat eine Zukunft“. Ähnlich typisch für gesprochene Sprache ist 越……越……: 越学越没兴趣 – „je mehr er lernte, desto weniger Lust hatte er“.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worum geht es in dem Gespräch hauptsächlich?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Wie Lao Lis Sohn sich am besten auf die Hochschulaufnahmeprüfung vorbereitet",
+      "explanation": "Falsch: Der Sohn hat gerade den 中考 hinter sich, also die Prüfung für die Oberschule; um die Hochschulaufnahmeprüfung geht es nicht."
+     },
+     {
+      "text": "Welche Nachhilfekurse der Sohn in den Ferien besuchen soll",
+      "explanation": "Falsch: Nachhilfekurse werden nur als Fehler der Vergangenheit erwähnt (从小给他报了一大堆补习班，结果他越学越没兴趣)."
+     },
+     {
+      "text": "Ob Lao Lis Sohn nach seiner Prüfung auf eine Berufsschule gehen sollte",
+      "explanation": "Richtig: Der Sohn möchte 去职业学校学汽车维修, die Mutter ist dagegen, und die beiden wägen Für und Wider einer Berufsschule ab."
+     },
+     {
+      "text": "Wie der Neffe von A eine Stelle in einer Autofabrik gefunden hat",
+      "explanation": "Falsch: Der Neffe ist nur ein Beispiel, mit dem A zeigt, dass Berufsschüler gute Chancen haben (现在工资比很多大学生还高)."
+     }
+    ],
+    "answer": 2
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Was erfährt man über den Neffen von A?",
+    "evidence": "p5",
+    "choices": [
+     {
+      "text": "Er hat eine Berufsschule besucht und verdient heute mehr als viele Hochschulabsolventen.",
+      "explanation": "Richtig: 我外甥前几年读的就是职业学校……现在工资比很多大学生还高."
+     },
+     {
+      "text": "Er studiert gerade im Bachelorstudium.",
+      "explanation": "Falsch: Er arbeitet nach dem Abschluss in einer Autofabrik (进了一家汽车厂). Vom Bachelorstudium spricht A nur allgemein als Möglichkeit für Berufsschüler."
+     },
+     {
+      "text": "Er unterrichtet als Lehrer an einer Berufsschule.",
+      "explanation": "Falsch: Er arbeitet in einer Autofabrik (进了一家汽车厂); die Lehrer der Berufsschule werden nur in p9 erwähnt."
+     },
+     {
+      "text": "Er hat die Berufsschule abgebrochen, weil sie ihm keinen Spaß gemacht hat.",
+      "explanation": "Falsch: Er hat die Schule abgeschlossen (毕业以后进了一家汽车厂). Die Lust am Lernen verloren hat Lao Lis Sohn – durch die vielen Nachhilfekurse."
+     }
+    ],
+    "answer": 0
+   },
+   {
+    "id": "q3",
+    "kind": "attitude",
+    "prompt": "Welche Haltung hat A zur Berufsschule?",
+    "evidence": "p5",
+    "choices": [
+     {
+      "text": "A meint, nur mit einem Studium habe man gute Zukunftsaussichten.",
+      "explanation": "Falsch: Das ist die Meinung der Mutter (只有上大学才有前途); A nennt diese Ansicht 有点儿过时了."
+     },
+     {
+      "text": "A hält die Berufsschule für eine Notlösung für schlechte Schüler.",
+      "explanation": "Falsch: A findet den Wunsch des Sohnes 挺好 und betont, dass gute Facharbeiter gesucht sind (好的技术工人可不好找)."
+     },
+     {
+      "text": "A hat keine eigene Meinung und überlässt die Entscheidung der Familie.",
+      "explanation": "Falsch: A bezieht deutlich Stellung, nennt das Beispiel des Neffen und schlägt sogar einen Besuch der Schule vor (带他去职业学校参观一下)."
+     },
+     {
+      "text": "A sieht die Berufsschule positiv und hält die Vorurteile dagegen für überholt.",
+      "explanation": "Richtig: A sagt 那不是挺好吗, nennt die Ansicht der Mutter 有点儿过时了 und belegt das mit dem Erfolg des Neffen."
+     }
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "listening-hsk5-04",
+  "level": "HSK5",
+  "skill": "listening",
+  "order": 4,
+  "task": {
+   "no": 15,
+   "title": "谈论环境问题"
+  },
+  "topic": "自然与环境›环境›城市与乡村",
+  "title": "Neues aus dem Dorf Qingshui",
+  "objective": "Du kannst einen kurzen Radiobericht verstehen und Hauptaussage, Einzelheiten und eine abschließende Mahnung erfassen.",
+  "textType": "Radiobericht",
+  "minutes": 8,
+  "introduction": "Im Radio läuft ein Bericht aus einem Dorf am Stadtrand.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "text": "各位听众，下面是本台记者从城郊清水村发回的报道。过去，清水村是有名的“垃圾村”：村民把生活垃圾随便扔在河边，夏天臭味很重，河里的鱼也越来越少。不少年轻人因此搬进了城里，村子变得冷冷清清。",
+    "pinyin": "Gèwèi tīngzhòng, xiàmian shì běn tái jìzhě cóng chéngjiāo Qīngshuǐ Cūn fā huí de bàodào. Guòqù, Qīngshuǐ Cūn shì yǒumíng de “lājī cūn”: cūnmín bǎ shēnghuó lājī suíbiàn rēng zài hébiān, xiàtiān chòuwèi hěn zhòng, hé li de yú yě yuè lái yuè shǎo. Bùshǎo niánqīngrén yīncǐ bānjìnle chéng li, cūnzi biàn de lěnglěngqīngqīng."
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "text": "三年前，村里开始治理环境。政府帮助村子建起了污水处理站，村民们也学会了垃圾分类：厨余垃圾用来做肥料，能回收的卖给回收站，其他垃圾每天由专人运走。同时，村里禁止在河边养猪，还在河两岸种了上千棵树。",
+    "pinyin": "Sān nián qián, cūn li kāishǐ zhìlǐ huánjìng. Zhèngfǔ bāngzhù cūnzi jiànqǐle wūshuǐ chǔlǐzhàn, cūnmínmen yě xuéhuìle lājī fēnlèi: chúyú lājī yònglái zuò féiliào, néng huíshōu de mài gěi huíshōuzhàn, qítā lājī měi tiān yóu zhuānrén yùnzǒu. Tóngshí, cūn li jìnzhǐ zài hébiān yǎng zhū, hái zài hé liǎng'àn zhòngle shàng qiān kē shù."
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "text": "如今，清水村的河水又变清了，许多消失多年的鸟儿也飞了回来。每到周末，很多城里人开车来这里钓鱼、住农家院。村主任说，去年光靠旅游，村民的收入就增加了三成，一些在外打工的年轻人也回来开起了民宿。不过他也提醒大家：游客多了，垃圾也多了，保护环境不能只靠一时的热情。",
+    "pinyin": "Rújīn, Qīngshuǐ Cūn de héshuǐ yòu biàn qīng le, xǔduō xiāoshī duō nián de niǎor yě fēile huílai. Měi dào zhōumò, hěn duō chéng li rén kāichē lái zhèlǐ diàoyú, zhù nóngjiāyuàn. Cūn zhǔrèn shuō, qùnián guāng kào lǚyóu, cūnmín de shōurù jiù zēngjiāle sān chéng, yìxiē zài wài dǎgōng de niánqīngrén yě huílai kāiqǐle mínsù. Búguò tā yě tíxǐng dàjiā: yóukè duō le, lājī yě duō le, bǎohù huánjìng bù néng zhǐ kào yìshí de rèqíng."
+   }
+  ],
+  "translation": "Liebe Hörerinnen und Hörer, es folgt ein Bericht unseres Reporterteams aus dem Dorf Qingshui am Stadtrand. Früher war Qingshui als „Mülldorf“ bekannt: Die Dorfbewohner warfen ihren Haushaltsmüll einfach ans Flussufer, im Sommer stank es stark, und im Fluss gab es immer weniger Fische. Viele junge Leute zogen deshalb in die Stadt, und das Dorf wurde still und verlassen. Vor drei Jahren begann das Dorf, seine Umweltprobleme anzugehen. Die Regierung half beim Bau einer Kläranlage, und die Dorfbewohner lernten, ihren Müll zu trennen: Küchenabfälle werden zu Dünger verarbeitet, Wiederverwertbares wird an eine Recyclingstelle verkauft, und der übrige Müll wird jeden Tag von eigens dafür zuständigen Leuten abgeholt. Gleichzeitig verbot das Dorf die Schweinehaltung am Flussufer und pflanzte an beiden Ufern über tausend Bäume. Heute ist das Wasser des Flusses wieder klar, und viele Vögel, die jahrelang verschwunden waren, sind zurückgekehrt. Jedes Wochenende kommen viele Städter mit dem Auto hierher, um zu angeln und auf Bauernhöfen zu übernachten. Der Dorfvorsteher sagt, allein durch den Tourismus sei das Einkommen der Dorfbewohner im letzten Jahr um dreißig Prozent gestiegen, und einige junge Leute, die auswärts gearbeitet hatten, seien zurückgekommen und hätten Pensionen eröffnet. Er erinnert aber auch alle daran: Mit mehr Touristen gibt es auch mehr Müll – Umweltschutz darf sich nicht auf eine kurze Begeisterung verlassen.",
+  "glossary": [
+   {
+    "word": "治理",
+    "pinyin": "zhìlǐ",
+    "meaning": "in den Griff bekommen, sanieren (Umwelt, Gewässer)",
+    "vocabId": "w:治理:zhi4li3"
+   },
+   {
+    "word": "污水",
+    "pinyin": "wūshuǐ",
+    "meaning": "Abwasser",
+    "vocabId": "w:污水:wu1shui3"
+   },
+   {
+    "word": "垃圾分类",
+    "pinyin": "lājī fēnlèi",
+    "meaning": "Mülltrennung",
+    "vocabId": "w:垃圾分类:la1ji1fen1lei4"
+   },
+   {
+    "word": "厨余垃圾",
+    "pinyin": "chúyú lājī",
+    "meaning": "Küchenabfälle, Biomüll"
+   },
+   {
+    "word": "肥料",
+    "pinyin": "féiliào",
+    "meaning": "Dünger",
+    "vocabId": "w:肥料:fei2liao4"
+   },
+   {
+    "word": "回收",
+    "pinyin": "huíshōu",
+    "meaning": "recyceln, wiederverwerten",
+    "vocabId": "w:回收:hui2shou1"
+   },
+   {
+    "word": "禁止",
+    "pinyin": "jìnzhǐ",
+    "meaning": "verbieten",
+    "vocabId": "w:禁止:jin4zhi3"
+   },
+   {
+    "word": "农家院",
+    "pinyin": "nóngjiāyuàn",
+    "meaning": "Bauernhof mit Gästezimmern und Hausmannskost (Urlaub auf dem Bauernhof)"
+   },
+   {
+    "word": "民宿",
+    "pinyin": "mínsù",
+    "meaning": "Pension, private Gästeunterkunft",
+    "vocabId": "w:民宿:min2su4"
+   },
+   {
+    "word": "冷冷清清",
+    "pinyin": "lěnglěngqīngqīng",
+    "meaning": "still und verlassen, öde"
+   }
+  ],
+  "note": "Prozentangaben werden im Chinesischen oft mit 成 („Zehntel“) gemacht: 增加了三成 = „um dreißig Prozent gestiegen“. 光靠…… bedeutet „allein durch …“, 只靠…… „sich nur auf … verlassen“.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worum geht es in dem Bericht vor allem?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Um ein Dorf, aus dem immer mehr junge Leute in die Stadt abwandern",
+      "explanation": "Falsch: Das war früher so (不少年轻人因此搬进了城里); heute kommen sogar junge Leute zurück (回来开起了民宿)."
+     },
+     {
+      "text": "Um ein Dorf, dessen Umwelt sich stark verbessert hat, und um die Folgen davon",
+      "explanation": "Richtig: Der Bericht beschreibt den Zustand früher, die Maßnahmen seit drei Jahren und das Ergebnis: 河水又变清了, mehr Tourismus und höhere Einkommen."
+     },
+     {
+      "text": "Um einen Streit zwischen Dorfbewohnern und Touristen wegen des Mülls",
+      "explanation": "Falsch: Von einem Streit ist keine Rede; der Dorfvorsteher weist nur darauf hin, dass 游客多了，垃圾也多了."
+     },
+     {
+      "text": "Um eine neue Fabrik, die das Wasser eines Flusses verschmutzt",
+      "explanation": "Falsch: Eine Fabrik kommt nicht vor; früher verschmutzten die Dorfbewohner selbst den Fluss mit Müll (随便扔在河边)."
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Was geschieht heute mit den Küchenabfällen im Dorf?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Sie werden an eine Recyclingstelle verkauft.",
+      "explanation": "Falsch: An die Recyclingstelle geht nur, was wiederverwertbar ist (能回收的卖给回收站)."
+     },
+     {
+      "text": "Sie werden jeden Tag von eigens dafür zuständigen Leuten abgeholt.",
+      "explanation": "Falsch: Abgeholt wird der übrige Müll (其他垃圾每天由专人运走)."
+     },
+     {
+      "text": "Sie werden an die Schweine verfüttert.",
+      "explanation": "Falsch: Küchenabfälle werden zu Dünger verarbeitet (用来做肥料); die Schweinehaltung am Fluss wurde sogar verboten (禁止在河边养猪)."
+     },
+     {
+      "text": "Man macht daraus Dünger.",
+      "explanation": "Richtig: 厨余垃圾用来做肥料 – Küchenabfälle werden zu Dünger verarbeitet."
+     }
+    ],
+    "answer": 3
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Was will der Dorfvorsteher mit seinem Hinweis am Ende sagen?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Der Umweltschutz muss dauerhaft weitergehen, gerade weil mehr Besucher kommen.",
+      "explanation": "Richtig: 游客多了，垃圾也多了，保护环境不能只靠一时的热情 – mit den Touristen kommt neuer Müll, deshalb darf man nicht nachlassen."
+     },
+     {
+      "text": "Das Dorf sollte keine Touristen mehr aufnehmen.",
+      "explanation": "Falsch: Er berichtet zufrieden, dass der Tourismus die Einkommen um 三成 erhöht hat; er warnt nur vor dem zusätzlichen Müll, nicht vor den Gästen."
+     },
+     {
+      "text": "Die Umweltprobleme des Dorfes sind endgültig gelöst.",
+      "explanation": "Falsch: Er sagt das Gegenteil – Umweltschutz darf sich nicht auf 一时的热情 verlassen, also ist die Arbeit nicht abgeschlossen."
+     },
+     {
+      "text": "Die jungen Leute sollten besser wieder in der Stadt arbeiten.",
+      "explanation": "Falsch: Dass junge Leute zurückkommen und Pensionen eröffnen (回来开起了民宿), wird als positive Entwicklung dargestellt."
+     }
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "listening-hsk5-05",
+  "level": "HSK5",
+  "skill": "listening",
+  "order": 5,
+  "task": {
+   "no": 19,
+   "title": "谈论经济现象"
+  },
+  "topic": "当代社会›经济现象›商业活动",
+  "title": "Nach der Messe",
+  "objective": "Du kannst einem Gespräch über die Geschäfte eines Unternehmens folgen und Gründe und nächste Schritte verstehen.",
+  "textType": "Gespräch unter Bekannten",
+  "minutes": 8,
+  "introduction": "A fragt Xiao Zhou (B) nach einer Messe, an der Xiao Zhous Firma teilgenommen hat.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "A",
+    "text": "小周，你们公司上个星期去参加食品博览会了吧？效果怎么样？",
+    "pinyin": "Xiǎo Zhōu, nǐmen gōngsī shàng ge xīngqī qù cānjiā shípǐn bólǎnhuì le ba? Xiàoguǒ zěnmeyàng?"
+   },
+   {
+    "id": "p2",
+    "speaker": "B",
+    "text": "比我们想的好多了。三天下来，签了十几份合同，还有一家德国公司想跟我们长期合作。",
+    "pinyin": "Bǐ wǒmen xiǎng de hǎo duō le. Sān tiān xiàlai, qiānle shí jǐ fèn hétong, hái yǒu yì jiā Déguó gōngsī xiǎng gēn wǒmen chángqī hézuò."
+   },
+   {
+    "id": "p3",
+    "speaker": "A",
+    "text": "真不错！你们主要展示的是什么产品？",
+    "pinyin": "Zhēn búcuò! Nǐmen zhǔyào zhǎnshì de shì shénme chǎnpǐn?"
+   },
+   {
+    "id": "p4",
+    "speaker": "B",
+    "text": "还是我们的老产品——绿茶。不过这次换了新包装：每包只有三克，用开水一泡就能喝，特别方便。",
+    "pinyin": "Háishi wǒmen de lǎo chǎnpǐn —— lǜchá. Búguò zhè cì huànle xīn bāozhuāng: měi bāo zhǐ yǒu sān kè, yòng kāishuǐ yí pào jiù néng hē, tèbié fāngbiàn."
+   },
+   {
+    "id": "p5",
+    "speaker": "A",
+    "text": "我猜这是专门为年轻人设计的吧？",
+    "pinyin": "Wǒ cāi zhè shì zhuānmén wèi niánqīngrén shèjì de ba?"
+   },
+   {
+    "id": "p6",
+    "speaker": "B",
+    "text": "没错。以前我们的顾客大多是中老年人，年轻人嫌泡茶太麻烦。现在我们通过网上直播卖这种小包装茶，年轻顾客一下子多了一倍。",
+    "pinyin": "Méicuò. Yǐqián wǒmen de gùkè dàduō shì zhōnglǎonián rén, niánqīngrén xián pào chá tài máfan. Xiànzài wǒmen tōngguò wǎngshàng zhíbō mài zhè zhǒng xiǎo bāozhuāng chá, niánqīng gùkè yíxiàzi duōle yí bèi."
+   },
+   {
+    "id": "p7",
+    "speaker": "A",
+    "text": "看来传统产品也得跟着市场变。那德国公司为什么对你们感兴趣呢？",
+    "pinyin": "Kànlái chuántǒng chǎnpǐn yě děi gēnzhe shìchǎng biàn. Nà Déguó gōngsī wèishénme duì nǐmen gǎn xìngqù ne?"
+   },
+   {
+    "id": "p8",
+    "speaker": "B",
+    "text": "他们说欧洲喝绿茶的人越来越多，而且很看重产品是不是有机的。我们的茶园正好有有机认证。",
+    "pinyin": "Tāmen shuō Ōuzhōu hē lǜchá de rén yuè lái yuè duō, érqiě hěn kànzhòng chǎnpǐn shì bu shì yǒujī de. Wǒmen de cháyuán zhènghǎo yǒu yǒujī rènzhèng."
+   },
+   {
+    "id": "p9",
+    "speaker": "A",
+    "text": "那接下来出口的事儿是不是就顺利了？",
+    "pinyin": "Nà jiēxiàlái chūkǒu de shìr shì bu shì jiù shùnlì le?"
+   },
+   {
+    "id": "p10",
+    "speaker": "B",
+    "text": "还早呢。对方要先派人来看看茶园，下个月才能决定。要是谈成了，明年我们的出口额可能会翻一番。",
+    "pinyin": "Hái zǎo ne. Duìfāng yào xiān pài rén lái kànkan cháyuán, xià ge yuè cái néng juédìng. Yàoshi tánchéng le, míngnián wǒmen de chūkǒu'é kěnéng huì fān yì fān."
+   }
+  ],
+  "translation": "A: Xiao Zhou, eure Firma war doch letzte Woche auf der Lebensmittelmesse? Wie ist es gelaufen? B: Viel besser, als wir gedacht hatten. In den drei Tagen haben wir über zehn Verträge unterschrieben, und außerdem möchte eine deutsche Firma langfristig mit uns zusammenarbeiten. A: Toll! Was für ein Produkt habt ihr hauptsächlich vorgestellt? B: Immer noch unser altes Produkt – Grüntee. Aber diesmal mit neuer Verpackung: Jede Packung enthält nur drei Gramm, man gießt kochendes Wasser auf und kann sofort trinken, ganz praktisch. A: Ich nehme an, das ist speziell für junge Leute gedacht? B: Genau. Früher waren unsere Kunden überwiegend Leute mittleren und höheren Alters; jungen Leuten war das Teekochen zu umständlich. Jetzt verkaufen wir diesen Tee in kleinen Packungen über Livestreams im Internet, und die Zahl der jungen Kunden hat sich auf einen Schlag verdoppelt. A: Auch traditionelle Produkte müssen sich also mit dem Markt verändern. Und warum interessiert sich die deutsche Firma für euch? B: Sie sagen, in Europa trinken immer mehr Menschen Grüntee, und es ist ihnen sehr wichtig, ob ein Produkt bio ist. Unsere Teegärten sind zufällig bio-zertifiziert. A: Dann läuft das mit dem Export jetzt also glatt? B: So weit sind wir noch nicht. Die Gegenseite will erst jemanden schicken, der sich die Teegärten ansieht; entscheiden können sie erst nächsten Monat. Wenn der Abschluss klappt, könnte sich unser Exportvolumen nächstes Jahr verdoppeln.",
+  "glossary": [
+   {
+    "word": "博览会",
+    "pinyin": "bólǎnhuì",
+    "meaning": "Messe, Ausstellung",
+    "vocabId": "w:博览会:bo2lan3hui4"
+   },
+   {
+    "word": "合同",
+    "pinyin": "hétong",
+    "meaning": "Vertrag",
+    "vocabId": "w:合同:he2tong5"
+   },
+   {
+    "word": "包装",
+    "pinyin": "bāozhuāng",
+    "meaning": "Verpackung; verpacken",
+    "vocabId": "w:包装:bao1zhuang1"
+   },
+   {
+    "word": "嫌",
+    "pinyin": "xián",
+    "meaning": "etw. zu … finden, sich an etw. stören",
+    "vocabId": "w:嫌:xian2"
+   },
+   {
+    "word": "直播",
+    "pinyin": "zhíbō",
+    "meaning": "Livestream; live übertragen",
+    "vocabId": "w:直播:zhi2bo1"
+   },
+   {
+    "word": "有机",
+    "pinyin": "yǒujī",
+    "meaning": "Bio-, ökologisch angebaut",
+    "vocabId": "w:有机:you3ji1"
+   },
+   {
+    "word": "认证",
+    "pinyin": "rènzhèng",
+    "meaning": "Zertifizierung; zertifizieren",
+    "vocabId": "w:认证:ren4zheng4"
+   },
+   {
+    "word": "出口额",
+    "pinyin": "chūkǒu'é",
+    "meaning": "Exportvolumen, Exportumsatz"
+   },
+   {
+    "word": "翻一番",
+    "pinyin": "fān yì fān",
+    "meaning": "sich verdoppeln"
+   }
+  ],
+  "note": "Für „sich verdoppeln“ gibt es zwei gängige Ausdrücke: 多了一倍 (wörtlich „um ein Mal mehr geworden“) und 翻一番. Achtung: 翻两番 bedeutet „vervierfachen“ (zweimal verdoppeln), nicht „verdreifachen“.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worum geht es in dem Gespräch hauptsächlich?",
+    "evidence": "p6",
+    "choices": [
+     {
+      "text": "Warum die Messe für Xiao Zhous Firma ein Misserfolg war",
+      "explanation": "Falsch: Die Messe lief 比我们想的好多了, mit über zehn unterschriebenen Verträgen."
+     },
+     {
+      "text": "Wie man in Deutschland eine Teefirma gründet",
+      "explanation": "Falsch: Die Firma ist chinesisch; die deutsche Firma ist nur ein möglicher Partner, der Tee importieren will."
+     },
+     {
+      "text": "Warum junge Leute in China keinen Tee mehr trinken",
+      "explanation": "Falsch: Gerade junge Kunden sind mit der neuen Packung 一下子多了一倍 – sie trinken also durchaus Tee."
+     },
+     {
+      "text": "Wie Xiao Zhous Firma ein altes Produkt neu vermarktet und dadurch neue Kunden und Partner gewinnt",
+      "explanation": "Richtig: Der Grüntee ist ein 老产品 in 新包装; über Livestreams kommen junge Kunden dazu, und eine deutsche Firma interessiert sich für den Export."
+     }
+    ],
+    "answer": 3
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Warum interessiert sich die deutsche Firma für den Tee?",
+    "evidence": "p8",
+    "choices": [
+     {
+      "text": "Weil die kleinen Packungen speziell für junge Leute gestaltet sind",
+      "explanation": "Falsch: Die kleinen Packungen zielen auf junge Kunden in China; als Grund der deutschen Firma nennt B etwas anderes (p8)."
+     },
+     {
+      "text": "Weil in Europa immer mehr Menschen Grüntee trinken und die Teegärten bio-zertifiziert sind",
+      "explanation": "Richtig: 欧洲喝绿茶的人越来越多，而且很看重产品是不是有机的。我们的茶园正好有有机认证."
+     },
+     {
+      "text": "Weil sie die Teegärten schon besichtigt hat und begeistert ist",
+      "explanation": "Falsch: Die Besichtigung steht noch bevor (对方要先派人来看看茶园); als Gründe nennt B die Nachfrage in Europa und die 有机认证."
+     },
+     {
+      "text": "Weil die Firma ihren Tee erfolgreich über Livestreams verkauft",
+      "explanation": "Falsch: Die Livestreams erklären den Erfolg bei jungen Kunden (p6), nicht das Interesse der deutschen Firma."
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Wie steht es um die Zusammenarbeit mit der deutschen Firma?",
+    "evidence": "p10",
+    "choices": [
+     {
+      "text": "Der Vertrag wurde bereits auf der Messe unterschrieben.",
+      "explanation": "Falsch: Die deutsche Firma 想跟我们长期合作 – sie möchte erst zusammenarbeiten; entschieden wird erst 下个月. Die über zehn Verträge auf der Messe (签了十几份合同) werden davon getrennt genannt."
+     },
+     {
+      "text": "Die deutsche Firma hat inzwischen abgesagt.",
+      "explanation": "Falsch: Von einer Absage ist keine Rede; sie will sogar jemanden schicken, der sich die Teegärten ansieht (派人来看看茶园)."
+     },
+     {
+      "text": "Sie ist noch offen und hängt von einem Besuch der Teegärten ab.",
+      "explanation": "Richtig: 还早呢 – die Gegenseite will erst die Teegärten besichtigen und 下个月才能决定."
+     },
+     {
+      "text": "Die Exporte nach Deutschland haben sich schon verdoppelt.",
+      "explanation": "Falsch: Das ist nur eine Hoffnung für nächstes Jahr – 要是谈成了，明年……可能会翻一番."
+     }
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "listening-hsk5-06",
+  "level": "HSK5",
+  "skill": "listening",
+  "order": 6,
+  "task": {
+   "no": 23,
+   "title": "谈论国际交往事件"
+  },
+  "topic": "当代社会›中外交流›交往故事、友好访问、国际合作等",
+  "title": "Warum Xiao Lin keine Zeit hatte",
+  "objective": "Du kannst einem Gespräch über ein Ereignis aus dem internationalen Austausch folgen und Hauptthema und Einzelheiten verstehen.",
+  "textType": "Gespräch unter Bekannten",
+  "minutes": 8,
+  "introduction": "Xiao Lin (B) war ein paar Tage nicht zu sehen. Nun trifft A Xiao Lin wieder.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "A",
+    "text": "小林，这几天怎么没见到你？",
+    "pinyin": "Xiǎo Lín, zhè jǐ tiān zěnme méi jiàndào nǐ?"
+   },
+   {
+    "id": "p2",
+    "speaker": "B",
+    "text": "我在给德国代表团当翻译呢。今年是我们市和德国那座城市结为友好城市三十周年，对方的市长带着一个代表团来访问。",
+    "pinyin": "Wǒ zài gěi Déguó dàibiǎotuán dāng fānyì ne. Jīnnián shì wǒmen shì hé Déguó nà zuò chéngshì jiéwéi yǒuhǎo chéngshì sānshí zhōunián, duìfāng de shìzhǎng dàizhe yí ge dàibiǎotuán lái fǎngwèn."
+   },
+   {
+    "id": "p3",
+    "speaker": "A",
+    "text": "三十年了？这么久！他们这次来都做了些什么？",
+    "pinyin": "Sānshí nián le? Zhème jiǔ! Tāmen zhè cì lái dōu zuòle xiē shénme?"
+   },
+   {
+    "id": "p4",
+    "speaker": "B",
+    "text": "头两天主要是开会，双方签了一份新能源方面的合作协议。剩下的时间参观了学校、医院，还看了我们的老城区。",
+    "pinyin": "Tóu liǎng tiān zhǔyào shì kāihuì, shuāngfāng qiānle yí fèn xīn néngyuán fāngmiàn de hézuò xiéyì. Shèngxià de shíjiān cānguānle xuéxiào, yīyuàn, hái kànle wǒmen de lǎo chéngqū."
+   },
+   {
+    "id": "p5",
+    "speaker": "A",
+    "text": "当翻译累不累？",
+    "pinyin": "Dāng fānyì lèi bu lèi?"
+   },
+   {
+    "id": "p6",
+    "speaker": "B",
+    "text": "累是累，可是很有意思。最让我感动的，是代表团里一位八十多岁的老先生，叫施密特。",
+    "pinyin": "Lèi shì lèi, kěshì hěn yǒu yìsi. Zuì ràng wǒ gǎndòng de, shì dàibiǎotuán li yí wèi bāshí duō suì de lǎo xiānsheng, jiào Shīmìtè."
+   },
+   {
+    "id": "p7",
+    "speaker": "A",
+    "text": "他有什么特别的故事吗？",
+    "pinyin": "Tā yǒu shénme tèbié de gùshi ma?"
+   },
+   {
+    "id": "p8",
+    "speaker": "B",
+    "text": "三十多年前他是一名工程师，在我们这儿的一家工厂工作过两年。当时他跟一位中国同事成了好朋友，两家人后来一直保持联系。两个城市结为友好城市，最早就是他们俩提议的。",
+    "pinyin": "Sānshí duō nián qián tā shì yì míng gōngchéngshī, zài wǒmen zhèr de yì jiā gōngchǎng gōngzuòguo liǎng nián. Dāngshí tā gēn yí wèi Zhōngguó tóngshì chéngle hǎo péngyou, liǎng jiā rén hòulái yìzhí bǎochí liánxì. Liǎng ge chéngshì jiéwéi yǒuhǎo chéngshì, zuì zǎo jiù shì tāmen liǎ tíyì de."
+   },
+   {
+    "id": "p9",
+    "speaker": "A",
+    "text": "原来是这样！那他这次见到老朋友了吗？",
+    "pinyin": "Yuánlái shì zhèyàng! Nà tā zhè cì jiàndào lǎo péngyou le ma?"
+   },
+   {
+    "id": "p10",
+    "speaker": "B",
+    "text": "见到了。两位老人一见面就紧紧拥抱在一起，都流下了眼泪，在场的人都特别感动。",
+    "pinyin": "Jiàndào le. Liǎng wèi lǎorén yí jiànmiàn jiù jǐnjǐn yōngbào zài yìqǐ, dōu liúxiàle yǎnlèi, zàichǎng de rén dōu tèbié gǎndòng."
+   },
+   {
+    "id": "p11",
+    "speaker": "A",
+    "text": "真是一段佳话。那以后两个城市还有什么新的交流吗？",
+    "pinyin": "Zhēn shì yí duàn jiāhuà. Nà yǐhòu liǎng ge chéngshì hái yǒu shénme xīn de jiāoliú ma?"
+   },
+   {
+    "id": "p12",
+    "speaker": "B",
+    "text": "有啊，明年两个城市还要互派中学生交流，到时候我可能还得去当翻译呢。",
+    "pinyin": "Yǒu a, míngnián liǎng ge chéngshì hái yào hù pài zhōngxuéshēng jiāoliú, dào shíhou wǒ kěnéng hái děi qù dāng fānyì ne."
+   }
+  ],
+  "translation": "A: Xiao Lin, warum hat man dich in den letzten Tagen gar nicht gesehen? B: Ich dolmetsche gerade für eine deutsche Delegation. Dieses Jahr ist es dreißig Jahre her, dass unsere Stadt und diese deutsche Stadt Partnerstädte wurden, und der Bürgermeister von dort ist mit einer Delegation zu Besuch gekommen. A: Schon dreißig Jahre? So lange! Was haben sie bei diesem Besuch alles gemacht? B: In den ersten beiden Tagen gab es vor allem Sitzungen; beide Seiten haben ein Kooperationsabkommen im Bereich neue Energien unterzeichnet. In der übrigen Zeit haben sie Schulen und Krankenhäuser besucht und sich unsere Altstadt angesehen. A: Ist das Dolmetschen anstrengend? B: Anstrengend schon, aber sehr interessant. Am meisten bewegt hat mich ein über achtzigjähriger Herr in der Delegation, Herr Schmidt. A: Hat er eine besondere Geschichte? B: Vor über dreißig Jahren war er Ingenieur und hat zwei Jahre in einer Fabrik hier bei uns gearbeitet. Damals hat er mit jemandem aus der chinesischen Belegschaft enge Freundschaft geschlossen, und die beiden Familien sind seitdem immer in Kontakt geblieben. Die Idee, dass die beiden Städte Partnerstädte werden, kam ursprünglich von den beiden. A: Ach so ist das! Und gab es diesmal ein Wiedersehen? B: Ja. Kaum sahen sich die beiden alten Menschen, lagen sie sich fest in den Armen, beiden kamen die Tränen, und alle Anwesenden waren tief gerührt. A: Was für eine schöne Geschichte. Gibt es denn künftig noch neue Austauschprojekte zwischen den beiden Städten? B: Ja, nächstes Jahr wollen beide Städte gegenseitig Mittelschüler zum Austausch schicken – dann muss ich vielleicht wieder dolmetschen.",
+  "glossary": [
+   {
+    "word": "代表团",
+    "pinyin": "dàibiǎotuán",
+    "meaning": "Delegation"
+   },
+   {
+    "word": "友好城市",
+    "pinyin": "yǒuhǎo chéngshì",
+    "meaning": "Partnerstadt, Städtepartnerschaft"
+   },
+   {
+    "word": "周年",
+    "pinyin": "zhōunián",
+    "meaning": "Jahrestag, Jubiläum",
+    "vocabId": "w:周年:zhou1nian2"
+   },
+   {
+    "word": "协议",
+    "pinyin": "xiéyì",
+    "meaning": "Vereinbarung, Abkommen",
+    "vocabId": "w:协议:xie2yi4"
+   },
+   {
+    "word": "新能源",
+    "pinyin": "xīn néngyuán",
+    "meaning": "neue (erneuerbare) Energien",
+    "vocabId": "w:新能源:xin1neng2yuan2"
+   },
+   {
+    "word": "提议",
+    "pinyin": "tíyì",
+    "meaning": "vorschlagen; Vorschlag",
+    "vocabId": "w:提议:ti2yi4"
+   },
+   {
+    "word": "拥抱",
+    "pinyin": "yōngbào",
+    "meaning": "umarmen; Umarmung",
+    "vocabId": "w:拥抱:yong1bao4"
+   },
+   {
+    "word": "佳话",
+    "pinyin": "jiāhuà",
+    "meaning": "schöne, oft weitererzählte Geschichte"
+   },
+   {
+    "word": "互派",
+    "pinyin": "hù pài",
+    "meaning": "gegenseitig (Personen) entsenden"
+   }
+  ],
+  "note": "Mit der Struktur A是A，可是…… gibt man etwas zu und schränkt es gleich ein: 累是累，可是很有意思 – „anstrengend ist es schon, aber sehr interessant“. Städtepartnerschaften heißen auf Chinesisch 友好城市, oft kurz 友城.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worum geht es in dem Gespräch hauptsächlich?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Um den Besuch einer Delegation aus der deutschen Partnerstadt und die Geschichte hinter der Partnerschaft",
+      "explanation": "Richtig: B dolmetscht für die Delegation zum 三十周年 der Städtepartnerschaft und erzählt, wie eine alte Freundschaft zu ihr geführt hat."
+     },
+     {
+      "text": "Um eine Geschäftsreise, die Xiao Lin nach Deutschland gemacht hat",
+      "explanation": "Falsch: Xiao Lin war nicht in Deutschland; die Deutschen sind zu Besuch gekommen (带着一个代表团来访问)."
+     },
+     {
+      "text": "Um einen deutschen Ingenieur, der in Xiao Lins Stadt eine Fabrik bauen will",
+      "explanation": "Falsch: Herr Schmidt hat vor über dreißig Jahren in einer Fabrik gearbeitet (工作过两年); von einem Fabrikbau ist nicht die Rede."
+     },
+     {
+      "text": "Um Xiao Lins Bewerbung auf eine Dolmetschstelle bei einer deutschen Firma",
+      "explanation": "Falsch: Xiao Lin dolmetscht für eine Delegation der Partnerstadt (给德国代表团当翻译), nicht für eine Firma, und von einer Bewerbung ist keine Rede."
+     }
+    ],
+    "answer": 0
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Was wurde in den ersten beiden Tagen des Besuchs unterzeichnet?",
+    "evidence": "p4",
+    "choices": [
+     {
+      "text": "Eine Vereinbarung über die Zusammenarbeit von Krankenhäusern",
+      "explanation": "Falsch: Krankenhäuser wurden nur besichtigt (参观了学校、医院)."
+     },
+     {
+      "text": "Ein Abkommen zur Sanierung der Altstadt",
+      "explanation": "Falsch: Die Altstadt wurde nur angesehen (还看了我们的老城区)."
+     },
+     {
+      "text": "Ein Kooperationsabkommen im Bereich neue Energien",
+      "explanation": "Richtig: 双方签了一份新能源方面的合作协议."
+     },
+     {
+      "text": "Ein Vertrag über eine neue Städtepartnerschaft",
+      "explanation": "Falsch: Die Partnerschaft besteht schon seit dreißig Jahren (结为友好城市三十周年)."
+     }
+    ],
+    "answer": 2
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Was lässt sich über Herrn Schmidt sagen?",
+    "evidence": "p8",
+    "choices": [
+     {
+      "text": "Er ist der Bürgermeister der deutschen Partnerstadt.",
+      "explanation": "Falsch: Der Bürgermeister leitet die Delegation (对方的市长带着一个代表团); Herr Schmidt ist ein älteres Mitglied, früher Ingenieur (他是一名工程师)."
+     },
+     {
+      "text": "Er hat seit über dreißig Jahren eine Freundschaft in China.",
+      "explanation": "Richtig: Vor über dreißig Jahren wurde er mit einem Menschen aus der chinesischen Belegschaft 好朋友 (跟一位中国同事成了好朋友), die Familien 一直保持联系, und jetzt gab es ein Wiedersehen."
+     },
+     {
+      "text": "Er lebt seit dreißig Jahren in Xiao Lins Stadt.",
+      "explanation": "Falsch: Er hat dort nur zwei Jahre gearbeitet (工作过两年) und ist jetzt als Gast der Delegation gekommen."
+     },
+     {
+      "text": "Er ist zum ersten Mal in China.",
+      "explanation": "Falsch: Vor über dreißig Jahren hat er schon zwei Jahre in einer Fabrik in dieser Stadt gearbeitet (在我们这儿的一家工厂工作过两年)."
+     }
+    ],
+    "answer": 1
+   }
+  ]
+ }
+]
