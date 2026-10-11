@@ -225,8 +225,48 @@ async function run() {
     assert(w.isBookmarked('vocab', 'w:女儿:nv3er2'));
     assert.strictEqual(vocab.allItems.filter(item => item.word === '女儿').length, 1, '女儿 should be one entry');
 
+    // A whole HSK 1 mock exam through the UI: each question once, manual advance, honest result.
+    app.switchTab('quiz');
+    await app.ensureSectionLoaded('quiz');
+    await until(() => d.querySelector('.quiz-home-card.test'), 'quiz home');
+    d.querySelector('.quiz-home-card.test').click();
+    d.querySelector('.quiz-test-level-card[data-level="HSK1"]').click();
+    assert(!w.QuizModule.isTestActive(), 'Level selection must not start the exam');
+    d.getElementById('quiz-start-test').click();
+    let answered = 0, correct = 0;
+    const asked = new Set();
+    while (!d.querySelector('.quiz-results')) {
+      const choice = d.querySelector('.quiz-choice-btn:not([disabled])');
+      if (choice) {
+        choice.click();
+        const key = ['.quiz-type-badge', '.quiz-prompt-main', '.quiz-prompt-sub', '.quiz-choice-btn.correct .quiz-choice-text']
+          .map(selector => (d.querySelector(selector) || {}).textContent || '').join('|');
+        assert(!asked.has(key), 'Mock exam repeated a question: ' + key);
+        asked.add(key);
+        answered++;
+        if (choice.classList.contains('correct')) correct++;
+        d.getElementById('quiz-test-next-btn').click();
+      } else {
+        assert(d.querySelector('.quiz-interstitial'), 'Neither a question nor a section summary is shown');
+        d.querySelector('.quiz-interstitial .quiz-btn-next').click();
+      }
+      assert(answered <= 60, 'Mock exam did not finish');
+    }
+    assert.strictEqual(answered, 60, 'HSK 1 mock exam must ask 60 questions');
+    const result = d.querySelector('.quiz-results');
+    assert.strictEqual(result.querySelector('.overall-score').textContent, correct + ' / 60 (' + Math.round(correct / 60 * 100) + ' %)');
+    assert.strictEqual(result.querySelector('.overall-note').textContent, 'Probetest – keine Bestehensprognose');
+    assert.strictEqual(result.querySelectorAll('.quiz-result-row').length, 3);
+    assert(!/bestanden|mindestens/i.test(result.textContent), 'Result must not claim a pass or apply a per-section pass rule');
+    const details = result.querySelector('[aria-controls="quiz-review-detail"]');
+    assert.strictEqual(details.getAttribute('aria-expanded'), 'false');
+    details.click();
+    assert.strictEqual(details.getAttribute('aria-expanded'), 'true');
+    assert.strictEqual(d.querySelectorAll('.quiz-review-item').length, 60);
+    assert(!w.QuizModule.isTestActive());
+
     assert.strictEqual(fail(), '');
-    console.log('Smoke test passed: all tabs, every section detail, related entries, examples, measure-word tables, pinyin search, tone colouring.');
+    console.log('Smoke test passed: all tabs, every section detail, related entries, examples, measure-word tables, pinyin search, tone colouring, HSK 1 mock exam.');
   } finally {
     // Let in-flight section loads settle so their callbacks do not run against a closed window.
     await Promise.all(Object.values(w.app ? w.app.sections : {}).map(s => s._loadPromise).filter(Boolean)).catch(() => {});

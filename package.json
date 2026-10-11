@@ -23,6 +23,7 @@
     "enrich:status": "node scripts/enrich/status.cjs",
     "build:comprehension": "node scripts/build-comprehension.cjs",
     "audit:comprehension": "node scripts/audit-comprehension.cjs",
+    "audit:quiz": "node scripts/audit-quiz.cjs",
     "test:comprehension": "node scripts/comprehension-test.js"
   },
   "devDependencies": {
