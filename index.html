@@ -220,23 +220,52 @@
         </div>
         <div class="filters">
           <div class="level-filters">
-            <button class="filter-btn ono-cat active" data-ocat="all">Alle</button>
-            <button class="filter-btn ono-cat oc-geraeusche" data-ocat="Geraeusche">Geräusche</button>
-            <button class="filter-btn ono-cat oc-zustaende" data-ocat="Zustaende">Zustände</button>
-            <button class="filter-btn ono-cat oc-gefuehle" data-ocat="Gefuehle">Gefühle</button>
-            <button class="filter-btn ono-cat oc-bewegung" data-ocat="Bewegung">Bewegung</button>
+            <button class="filter-btn ono-level active" data-olevel="all">Alle</button>
+            <button class="filter-btn ono-level hsk1" data-olevel="HSK1">HSK 1</button>
+            <button class="filter-btn ono-level hsk2" data-olevel="HSK2">HSK 2</button>
+            <button class="filter-btn ono-level hsk3" data-olevel="HSK3">HSK 3</button>
+            <button class="filter-btn ono-level hsk4" data-olevel="HSK4">HSK 4</button>
+            <button class="filter-btn ono-level hsk5" data-olevel="HSK5">HSK 5</button>
+            <button class="filter-btn ono-level hsk6" data-olevel="HSK6">HSK 6</button>
+            <button class="filter-btn ono-level hsk7-9" data-olevel="HSK7-9">HSK 7–9</button>
+            <button class="filter-btn ono-level zusatz" data-olevel="Zusatz" title="Lautwörter und Formen außerhalb des HSK-Prüfungsplans 2025">Zusatz</button>
           </div>
           <div class="sort-controls">
+            <select id="ono-cat-select">
+              <option value="all">Alle Kategorien</option>
+              <option value="Tiere">Tiere</option>
+              <option value="Menschen">Menschen</option>
+              <option value="Natur">Natur &amp; Wetter</option>
+              <option value="Dinge">Dinge &amp; Maschinen</option>
+              <option value="Ausrufe">Ausrufe</option>
+              <option value="Aussehen">Zustand &amp; Aussehen</option>
+              <option value="Sinne">Sinne &amp; Textur</option>
+              <option value="Bewegung">Bewegung</option>
+              <option value="Gefuehle">Gefühle</option>
+            </select>
+            <select id="ono-kind-select">
+              <option value="all">Alle Arten</option>
+              <option value="Laut">Laut (拟声词)</option>
+              <option value="Ausruf">Ausruf (叹词)</option>
+              <option value="Beschreibung">Beschreibende Form</option>
+            </select>
             <select id="ono-pattern-select">
               <option value="all">Alle Muster</option>
-              <option value="AABB">AABB</option>
-              <option value="ABB">ABB</option>
-              <option value="ABAB">ABAB</option>
+              <option value="A">A</option>
               <option value="AA">AA</option>
+              <option value="AB">AB</option>
+              <option value="ABB">ABB</option>
+              <option value="AABB">AABB</option>
+              <option value="ABAB">ABAB</option>
+              <option value="A里AB">A里AB</option>
+              <option value="A里BC">A里BC</option>
+              <option value="A不BC">A不BC</option>
+              <option value="ABCC">ABCC</option>
               <option value="Andere">Andere</option>
             </select>
             <select id="ono-sort-select">
               <option value="category">Nach Kategorie</option>
+              <option value="level">Nach Level</option>
               <option value="alpha">Alphabetisch (Bedeutung)</option>
               <option value="pattern">Nach Muster</option>
             </select>
@@ -566,16 +595,19 @@
           <div class="ono-detail-header">
             <span id="ono-detail-word" class="ono-detail-word" lang="zh-CN"></span>
             <span id="ono-detail-category" class="ono-category-badge"></span>
+            <span id="ono-detail-level" class="detail-jlpt-badge"></span>
+            <span id="ono-detail-kind" class="counter-kind-badge"></span>
             <span id="ono-detail-pattern" class="ono-pattern-badge"></span>
           </div>
           <div id="ono-detail-pinyin" class="ono-detail-reading"></div>
           <div id="ono-detail-meaning" class="ono-detail-meaning"></div>
           <div id="ono-detail-usage-line" class="ono-detail-usage-line"></div>
-          <div class="grammar-detail-section">
+          <dl id="ono-detail-facts" class="vocab-detail-facts hidden"></dl>
+          <div id="ono-detail-explanation-section" class="grammar-detail-section">
             <h3>Erklärung</h3>
             <div id="ono-detail-explanation" class="grammar-explanation"></div>
           </div>
-          <div class="grammar-detail-section">
+          <div id="ono-detail-examples-section" class="grammar-detail-section">
             <h3>Beispiele</h3>
             <div id="ono-detail-examples" class="grammar-examples"></div>
           </div>

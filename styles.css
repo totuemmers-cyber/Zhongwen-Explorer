@@ -634,10 +634,16 @@ kbd { font: 12px var(--font); background: var(--bg); border: 1px solid var(--bor
 .vocab-type-badge.Präposition { background: var(--vt-praeposition-bg); color: var(--vt-praeposition); border: 1px solid var(--vt-praeposition-border); }
 .vocab-type-badge.Chengyu { background: var(--vt-chengyu-bg); color: var(--vt-chengyu); border: 1px solid var(--vt-chengyu-border); }
 .vocab-type-badge.Sprichwort { background: var(--vt-sprichwort-bg); color: var(--vt-sprichwort); border: 1px solid var(--vt-sprichwort-border); }
-.ono-category-badge.Geraeusche { background: var(--oc-geraeusche-bg); color: var(--oc-geraeusche); border: 1px solid var(--oc-geraeusche-border); }
-.ono-category-badge.Zustaende { background: var(--oc-zustaende-bg); color: var(--oc-zustaende); border: 1px solid var(--oc-zustaende-border); }
-.ono-category-badge.Gefuehle { background: var(--oc-gefuehle-bg); color: var(--oc-gefuehle); border: 1px solid var(--oc-gefuehle-border); }
-.ono-category-badge.Bewegung { background: var(--oc-bewegung-bg); color: var(--oc-bewegung); border: 1px solid var(--oc-bewegung-border); }
+/* Lautmalerei categories (ASCII keys, see ONO_CATEGORY_LABELS); colours reuse the category palettes. */
+.ono-category-badge.oc-tiere { background: var(--cc-tiere-bg); color: var(--cc-tiere); border: 1px solid var(--cc-tiere-border); }
+.ono-category-badge.oc-menschen { background: var(--cc-menschen-bg); color: var(--cc-menschen); border: 1px solid var(--cc-menschen-border); }
+.ono-category-badge.oc-natur { background: var(--oc-zustaende-bg); color: var(--oc-zustaende); border: 1px solid var(--oc-zustaende-border); }
+.ono-category-badge.oc-dinge { background: var(--oc-geraeusche-bg); color: var(--oc-geraeusche); border: 1px solid var(--oc-geraeusche-border); }
+.ono-category-badge.oc-ausrufe { background: var(--cc-medizin-bg); color: var(--cc-medizin); border: 1px solid var(--cc-medizin-border); }
+.ono-category-badge.oc-aussehen { background: var(--cc-abstrakt-bg); color: var(--cc-abstrakt); border: 1px solid var(--cc-abstrakt-border); }
+.ono-category-badge.oc-sinne { background: var(--cc-essen-bg); color: var(--cc-essen); border: 1px solid var(--cc-essen-border); }
+.ono-category-badge.oc-bewegung { background: var(--oc-bewegung-bg); color: var(--oc-bewegung); border: 1px solid var(--oc-bewegung-border); }
+.ono-category-badge.oc-gefuehle { background: var(--oc-gefuehle-bg); color: var(--oc-gefuehle); border: 1px solid var(--oc-gefuehle-border); }
 @keyframes slideUp { from { transform: translateY(30px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 .kana-content { display: flex; flex-direction: column; gap: 32px; }
 .combo-table { table-layout: fixed; width: 100%; min-width: 1720px; font-size: 0.68rem; }

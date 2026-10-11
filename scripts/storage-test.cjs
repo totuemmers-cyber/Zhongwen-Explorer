@@ -60,6 +60,18 @@ assert.deepStrictEqual(json(shared, 'zhongwen-bookmarks-measurewords'), ['个'])
   assert(legacy.has('个') && mw.measureWords.find(m => (m.legacyIds || []).includes('个')).id === 'm:个');
   assert(legacy.size + Object.keys(mw.removed).length >= 141, 'Old classifier keys lost their bookmark target');
 }
+// Lautmalerei bookmarks are the bare word here ('哈哈' above); app.js moves them to the o: ids (legacyIds, also of
+// merged spellings) or, for words that left the section, to the vocabulary entry (ONOMATOPOEIA_REMOVED).
+{
+  const onoContext = {};
+  onoContext.window = onoContext;
+  vm.runInNewContext(source('onomatopoeia-data.js'), onoContext, { filename: 'onomatopoeia-data.js' });
+  const legacy = new Map(onoContext.ONOMATOPOEIA_DATA.flatMap(o => (o.legacyIds || []).map(old => [old, o.id])));
+  assert.equal(legacy.get('哈哈'), 'o:哈哈');
+  assert.equal(legacy.get('噗通'), 'o:扑通', 'Merged spelling lost its target');
+  assert.match(onoContext.ONOMATOPOEIA_REMOVED['溜达'], /^w:溜达:/);
+  assert(legacy.size + Object.keys(onoContext.ONOMATOPOEIA_REMOVED).length >= 330, 'Old Lautmalerei keys lost their bookmark target');
+}
 // Radicals use the same Kangxi numbers in both apps: copied, never removed.
 assert.deepStrictEqual(json(shared, 'bookmarks-radicals'), ['1', '85']);
 assert.deepStrictEqual(json(shared, 'zhongwen-bookmarks-radicals'), ['1', '85']);

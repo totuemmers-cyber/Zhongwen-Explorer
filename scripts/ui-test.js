@@ -235,6 +235,54 @@ async function run() {
   await until(() => w.app.activeTab === 'vocab' && w.app.sections.vocab.selectedItem && w.app.sections.vocab.selectedItem.id === 'w:元:yuan2', 'vocab entry of the classifier');
   await finish(f);
 
+  // Lautmalerei: bookmarks saved as the bare word follow the o: ids (also merged spellings: 噗通 → 扑通), words that
+  // left the section move to their vocab entry (溜达); old deep links still open.
+  f = await boot('#onomatopoeia/' + encodeURIComponent('噗通'), { local: { 'zhongwen-bookmarks-onomatopoeia': JSON.stringify(['哈哈', '噗通', '溜达']) } });
+  ({ w, d } = f);
+  const ono = w.app.sections.onomatopoeia;
+  await until(() => ono.isOverlayOpen() && ono.selectedItem && ono.selectedItem.id === 'o:扑通', 'Lautmalerei legacy deep link');
+  assert.deepEqual(JSON.parse(w.localStorage.getItem('zhongwen-bookmarks-onomatopoeia')).sort(), ['o:哈哈', 'o:扑通']);
+  assert(JSON.parse(w.localStorage.getItem('zhongwen-bookmarks-vocab')).includes(w.ONOMATOPOEIA_REMOVED['溜达']), 'Moved Lautmalerei bookmark not moved to vocab');
+  assert(d.getElementById('ono-detail-facts').textContent.includes('噗通'), 'Variant spelling missing');
+  // No optional section is shown without content (new entries have no examples, explanation or notes yet).
+  const onoSections = Array.from(ono.dom.overlay.querySelectorAll('.grammar-detail-section, dl'));
+  for (let i = 0; i < ono.filteredItems.length; i++) {
+    ono.openDetail(i);
+    for (const section of onoSections) {
+      if (section.classList.contains('hidden') || section.hidden) continue;
+      const content = Array.from(section.children).filter(child => child.tagName !== 'H3').map(child => child.textContent.trim()).join('');
+      assert(content, ono.filteredItems[i].id + ': empty section ' + (section.id || section.className));
+    }
+  }
+  ono.openDetail(ono.filteredItems.findIndex(item => item.id === 'o:啊'));
+  assert(d.getElementById('ono-detail-examples-section').classList.contains('hidden'), 'New entry shows an empty examples section');
+  assert.equal(d.getElementById('ono-detail-level').textContent, 'HSK 4');
+  ono.openDetail(ono.filteredItems.findIndex(item => item.id === 'o:开开心心'));
+  assert.equal(d.getElementById('ono-detail-category').textContent, 'Gefühle');
+  // Level row and category/kind/pattern selects filter.
+  ono.dom.controls.querySelector('.ono-level[data-olevel="HSK2"]').click();
+  assert(ono.filteredItems.length && ono.filteredItems.every(item => item.level === 'HSK2'), 'Level filter');
+  ono.dom.controls.querySelector('.ono-level[data-olevel="all"]').click();
+  const onoSelect = (id, value) => { const el = d.getElementById(id); el.value = value; el.dispatchEvent(new w.Event('change')); };
+  onoSelect('ono-cat-select', 'Ausrufe');
+  assert(ono.filteredItems.length && ono.filteredItems.every(item => item.kind === 'Ausruf'), 'Category filter');
+  onoSelect('ono-cat-select', 'all');
+  onoSelect('ono-kind-select', 'Beschreibung');
+  onoSelect('ono-pattern-select', 'A里AB');
+  assert(ono.filteredItems.length && ono.filteredItems.every(item => item.kind === 'Beschreibung' && item.pattern === 'A里AB'), 'Kind/pattern filter');
+  onoSelect('ono-kind-select', 'all');
+  onoSelect('ono-pattern-select', 'all');
+  // The base word and the grammar point of 干干净净 open their entries; the related tag opens the related entry.
+  ono.openDetail(ono.filteredItems.findIndex(item => item.id === 'o:干干净净'));
+  const onoLinks = Array.from(d.querySelectorAll('#ono-detail-facts .btn-link'));
+  assert.equal(onoLinks.length, 2, 'Base word and grammar links');
+  d.querySelector('#ono-detail-related .ono-related-tag').click();
+  await until(() => ono.selectedItem && ono.selectedItem.id === 'o:整整齐齐', 'related Lautmalerei entry');
+  ono.openDetail(ono.filteredItems.findIndex(item => item.id === 'o:干干净净'));
+  Array.from(d.querySelectorAll('#ono-detail-facts .btn-link')).pop().click();
+  await until(() => w.app.activeTab === 'grammar' && w.app.sections.grammar.selectedItem && w.app.sections.grammar.selectedItem.id === 'g:AA、AABB', 'grammar point of the pattern');
+  await finish(f);
+
   // Bookmarks on grammar points that were vocabulary words move to the vocabulary entry; old ids of kept
   // points follow their new point (legacyIds).
   f = await boot('#grammar', { local: { 'zhongwen-bookmarks-grammar': JSON.stringify(['g:显然', 'g:很 + Adjektiv']) } });

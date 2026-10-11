@@ -1010,6 +1010,32 @@ function renderVocabFacts(item) {
 // ========================================
 // ONOMATOPOEIA SECTION
 // ========================================
+// Built by scripts/onomatopoeia/build.cjs: ids o:<word>, kinds Laut/Ausruf/Beschreibung, ASCII category keys with
+// labels (as in the measure words), levels from syllabus, vocabulary or base word (levelSource).
+var ONO_CATEGORY_LABELS = { Tiere: 'Tiere', Menschen: 'Menschen', Natur: 'Natur & Wetter', Dinge: 'Dinge & Maschinen', Ausrufe: 'Ausrufe',
+  Aussehen: 'Zustand & Aussehen', Sinne: 'Sinne & Textur', Bewegung: 'Bewegung', Gefuehle: 'Gefühle' };
+var ONO_CATEGORY_ORDER = { Tiere: 0, Menschen: 1, Natur: 2, Dinge: 3, Ausrufe: 4, Aussehen: 5, Sinne: 6, Bewegung: 7, Gefuehle: 8 };
+var ONO_KIND_LABELS = { Laut: 'Laut (拟声词)', Ausruf: 'Ausruf (叹词)', Beschreibung: 'Beschreibende Form' };
+var ONO_LEVEL_SOURCES = {
+  syllabus: 'Wortliste des HSK-Lehrplans 2025',
+  vocab: 'Niveau des Vokabeleintrags',
+  base: 'Niveau des Grundworts',
+  grammar: 'Niveau des Grammatikpunkts zum Muster (das Grundwort ist früher dran)',
+  zusatz: 'Nicht im HSK-Lehrplan 2025'
+};
+function onoCategoryLabel(category) { return ONO_CATEGORY_LABELS[category] || category || ''; }
+function onoCategoryClass(category) { return 'oc-' + String(category || '').toLowerCase(); }
+// Link button inside a facts list (vocabulary entry, base word, grammar point).
+function linkButton(text, lang, onClick) {
+  var link = document.createElement('button');
+  link.type = 'button';
+  link.className = 'btn-link';
+  if (lang) link.lang = lang;
+  link.textContent = text;
+  link.addEventListener('click', onClick);
+  return link;
+}
+
 SECTION_CONFIGS['onomatopoeia'] = {
   name: 'onomatopoeia',
   countLabel: ' Lautmalereien',
@@ -1028,118 +1054,152 @@ SECTION_CONFIGS['onomatopoeia'] = {
     nextBtn: 'next-ono'
   },
   filterGroups: [
-    { stateKey: 'category', selector: '.filter-btn.ono-cat', dataAttr: 'data-ocat', defaultValue: 'all' },
+    { stateKey: 'level', selector: '.filter-btn.ono-level', dataAttr: 'data-olevel', defaultValue: 'all' },
     { stateKey: 'bookmarks', selector: '.filter-btn.ono-bm', dataAttr: 'data-bm', defaultValue: 'all' }
   ],
+  filterLabel: function (key, value) {
+    if (key === 'category') return onoCategoryLabel(value);
+    if (key === 'kind') return ONO_KIND_LABELS[value] || value;
+    if (key === 'pattern') return 'Muster ' + value;
+    return levelLabel(value) || String(value);
+  },
   filterFn: function (item, query, filters) {
-    if (filters.bookmarks === 'starred' && !isBookmarked('onomatopoeia', item.word)) return false;
-    if (filters.category !== 'all' && item.type !== filters.category) return false;
-    if (filters.pattern !== 'all' && item.pattern !== filters.pattern) return false;
+    if (filters.bookmarks === 'starred' && !isBookmarked('onomatopoeia', item.id)) return false;
+    if (filters.level && filters.level !== 'all' && item.level !== filters.level) return false;
+    if (filters.category && filters.category !== 'all' && item.category !== filters.category) return false;
+    if (filters.kind && filters.kind !== 'all' && item.kind !== filters.kind) return false;
+    if (filters.pattern && filters.pattern !== 'all' && item.pattern !== filters.pattern) return false;
     if (!query) return true;
     if (item.word && item.word.indexOf(query) !== -1) return true;
+    if (item.traditional && item.traditional.indexOf(query) !== -1) return true;
+    if ((item.variants || []).some(function (v) { return v.indexOf(query) !== -1; })) return true;
     if (Pinyin.matchesPinyin(item.pinyin, query)) return true;
     if (Pinyin.matchesText(item.meaning, query)) return true;
     if (Pinyin.matchesText(item.explanation, query)) return true;
-    if (item.examples) {
-      for (var i = 0; i < item.examples.length; i++) {
-        var ex = item.examples[i];
-        if (Pinyin.matchesText(ex.chinese, query)) return true;
-        if (Pinyin.matchesText(ex.german, query)) return true;
-        if (Pinyin.matchesPinyin(ex.pinyin, query)) return true;
-      }
+    for (var i = 0; i < (item.examples || []).length; i++) {
+      var ex = item.examples[i];
+      if (Pinyin.matchesText(ex.chinese, query)) return true;
+      if (Pinyin.matchesText(ex.german, query)) return true;
+      if (Pinyin.matchesPinyin(ex.pinyin, query)) return true;
     }
     return false;
   },
+  // Category (within it the build order: kind, pattern, pinyin), level, meaning or pattern.
   sortFn: function (items, sortKey) {
-    var catOrder = { 'Geraeusche': 0, 'Zustaende': 1, 'Gefuehle': 2, 'Bewegung': 3 };
+    var order = {};
+    items.forEach(function (item, i) { order[item.id] = i; });
     items.sort(function (a, b) {
-      if (sortKey === 'alpha') return (a.meaning || '').localeCompare(b.meaning || '');
-      if (sortKey === 'pattern') return (a.pattern || '').localeCompare(b.pattern || '');
-      var ca = catOrder[a.type] !== undefined ? catOrder[a.type] : 99;
-      var cb = catOrder[b.type] !== undefined ? catOrder[b.type] : 99;
-      return ca - cb;
+      if (sortKey === 'alpha') return (a.meaning || '').localeCompare(b.meaning || '', 'de');
+      if (sortKey === 'pattern') return (a.pattern || '').localeCompare(b.pattern || '') || order[a.id] - order[b.id];
+      if (sortKey === 'level') return mwRank(MW_LEVEL_ORDER, a.level) - mwRank(MW_LEVEL_ORDER, b.level) || order[a.id] - order[b.id];
+      return mwRank(ONO_CATEGORY_ORDER, a.category) - mwRank(ONO_CATEGORY_ORDER, b.category) || order[a.id] - order[b.id];
     });
   },
   createCard: function (item, index, section) {
     return createBaseCard('ono-card',
       '<div class="ono-card-header">' +
-        '<span class="ono-card-word">' + item.word + '</span>' +
-        '<span class="ono-category-badge ' + (item.type || '') + '">' + (item.type || '') + '</span>' +
+        '<span class="ono-card-word" lang="zh-CN">' + escapeHtml(item.word) + '</span>' +
+        '<span class="counter-card-badges">' +
+          '<span class="card-level ' + escapeHtml(item.level || '') + '">' + escapeHtml(levelLabel(item.level)) + '</span> ' +
+          '<span class="ono-category-badge ' + onoCategoryClass(item.category) + '">' + escapeHtml(onoCategoryLabel(item.category)) + '</span>' +
+        '</span>' +
       '</div>' +
-      '<div class="ono-card-reading">' + (item.pinyin || '') + '</div>' +
-      '<div class="ono-card-meaning">' + (item.meaning || '') + '</div>' +
-      '<span class="ono-pattern-badge">' + (item.pattern || '') + '</span>',
-      index, section, item.word);
+      '<div class="ono-card-reading">' + escapeHtml(item.pinyin || '') + '</div>' +
+      '<div class="ono-card-meaning">' + draftMarker(item) + escapeHtml(item.meaning || '') + '</div>' +
+      '<span class="ono-pattern-badge">' + escapeHtml(item.pattern || '') + '</span>',
+      index, section, item.id);
   },
   openDetail: function (item, dom, section) {
-    createDetailBookmark('.ono-detail-header', 'onomatopoeia', item.word);
+    createDetailBookmark('.ono-detail-header', 'onomatopoeia', item.id);
     var wordEl = document.getElementById('ono-detail-word');
     wordEl.textContent = item.word;
     wordEl.style.cursor = 'pointer';
     wordEl.onclick = function () { speakText(item.word); };
 
-    // Add speaker button
     var onoHeader = wordEl.parentElement;
     var oldSpeak = onoHeader.querySelector('.btn-speak');
     if (oldSpeak) oldSpeak.remove();
     onoHeader.insertBefore(createSpeakBtn(item.word, false), wordEl.nextSibling);
 
-    var catClass = 'oc-' + (item.type || '').toLowerCase();
     var catBadge = document.getElementById('ono-detail-category');
-    catBadge.textContent = item.type || '';
-    catBadge.className = 'ono-category-badge ' + catClass;
-
+    catBadge.textContent = onoCategoryLabel(item.category);
+    catBadge.className = 'ono-category-badge ' + onoCategoryClass(item.category);
+    var levelBadge = document.getElementById('ono-detail-level');
+    levelBadge.textContent = levelLabel(item.level);
+    levelBadge.className = 'detail-jlpt-badge ' + (item.level || '');
+    document.getElementById('ono-detail-kind').textContent = ONO_KIND_LABELS[item.kind] || item.kind || '';
+    showBlock('ono-detail-kind', !!item.kind);
     document.getElementById('ono-detail-pattern').textContent = item.pattern || '';
+    showBlock('ono-detail-pattern', !!item.pattern);
+
     document.getElementById('ono-detail-pinyin').textContent = item.pinyin || '';
-    document.getElementById('ono-detail-meaning').textContent = item.meaning || '';
+    document.getElementById('ono-detail-meaning').innerHTML = draftMarker(item) + escapeHtml(item.meaning || '');
     document.getElementById('ono-detail-usage-line').textContent = item.usage || '';
+    showBlock('ono-detail-usage-line', !!item.usage);
+    renderOnomatopoeiaFacts(item);
+
     document.getElementById('ono-detail-explanation').textContent = item.explanation || '';
+    showBlock('ono-detail-explanation-section', !!item.explanation);
 
-    renderExamplesOrEmpty('ono-detail-examples', item.examples);
+    // Optional sections without content stay hidden (new entries have no examples yet).
+    var examples = (item.examples || []).filter(function (ex) { return ex && ex.chinese; });
+    if (examples.length) renderExamplesOrEmpty('ono-detail-examples', examples);
+    else document.getElementById('ono-detail-examples').textContent = '';
+    showBlock('ono-detail-examples-section', examples.length > 0);
 
-    var relatedSection = document.getElementById('ono-detail-related-section');
     var relatedEl = document.getElementById('ono-detail-related');
-    if (item.related && item.related.length > 0) {
-      relatedEl.innerHTML = item.related.map(function (r) {
-        var found = section.allItems.some(function (it) { return it.word === r; });
-        return '<span class="ono-related-tag' + (found ? '' : ' disabled') + '" data-word="' + r + '">' + r + '</span>';
-      }).join('');
-
-      relatedEl.querySelectorAll('.ono-related-tag:not(.disabled)').forEach(function (tag) {
-        tag.style.cursor = 'pointer';
-        tag.addEventListener('click', function () {
-          var targetWord = this.getAttribute('data-word');
-          var targetIndex = section.filteredItems.findIndex(function (it) { return it.word === targetWord; });
-          if (targetIndex !== -1) {
-            section.openDetail(targetIndex);
-          } else {
-            section.resetFilterGroup('category');
-            section.filters.pattern = 'all';
-            var patSelect = document.getElementById('ono-pattern-select');
-            if (patSelect) patSelect.value = 'all';
-            section.dom.search.value = '';
-            section.applyFilters();
-            var newIndex = section.filteredItems.findIndex(function (it) { return it.word === targetWord; });
-            if (newIndex !== -1) section.openDetail(newIndex);
-          }
-        });
+    relatedEl.textContent = '';
+    (item.related || []).forEach(function (id) {
+      var target = section.allItems.find(function (it) { return it.id === id; });
+      if (!target) return;
+      var tag = appendElement(relatedEl, 'button', 'ono-related-tag', target.word);
+      tag.type = 'button';
+      tag.lang = 'zh-CN';
+      tag.dataset.id = id;
+      tag.addEventListener('click', function () {
+        if (window.app && window.app.workspace) window.app.workspace.openRelated('onomatopoeia', function (it) { return it.id === id; });
       });
+    });
+    showBlock('ono-detail-related-section', relatedEl.children.length > 0);
 
-      relatedSection.classList.remove('hidden');
-    } else {
-      relatedSection.classList.add('hidden');
-    }
-
-    var notesSection = document.getElementById('ono-detail-notes-section');
-    var notesEl = document.getElementById('ono-detail-notes');
-    if (item.notes) {
-      notesEl.textContent = item.notes;
-      notesSection.classList.remove('hidden');
-    } else {
-      notesSection.classList.add('hidden');
-    }
+    document.getElementById('ono-detail-notes').textContent = item.notes || '';
+    showBlock('ono-detail-notes-section', !!item.notes);
   }
 };
+
+// Traditional form, variants, level source and links to the vocabulary entry, the base word and the grammar point.
+function renderOnomatopoeiaFacts(item) {
+  var list = document.getElementById('ono-detail-facts');
+  if (!list) return;
+  list.textContent = '';
+  function row(label, content) {
+    appendElement(list, 'dt', '', label);
+    var dd = appendElement(list, 'dd', '');
+    if (typeof content === 'string') dd.textContent = content;
+    else dd.appendChild(content);
+  }
+  function vocabLink(id, fallback) {
+    var parts = vocabIdParts(id);
+    return linkButton(parts ? parts.word + ' (' + parts.pinyin + ')' : fallback, 'zh-CN', function () { openVocabEntry(id); });
+  }
+  if (item.traditional && item.traditional !== item.word) {
+    var trad = document.createElement('span');
+    trad.lang = 'zh-TW';
+    trad.textContent = item.traditional;
+    row('Traditionell', trad);
+  }
+  if (item.variants && item.variants.length) row('Auch geschrieben', item.variants.join(', '));
+  if (ONO_LEVEL_SOURCES[item.levelSource]) row('Niveau', ONO_LEVEL_SOURCES[item.levelSource]);
+  if (item.vocabId) row('Vokabeleintrag', vocabLink(item.vocabId, item.word));
+  if (item.base && item.base.vocabId) row('Grundwort', vocabLink(item.base.vocabId, item.base.word));
+  if (item.grammarId) {
+    var grammarId = item.grammarId;
+    row('Grammatik', linkButton(grammarId.replace(/^g:/, ''), 'zh-CN', function () {
+      if (window.app && window.app.workspace) window.app.workspace.openRelated('grammar', function (g) { return g.id === grammarId; });
+    }));
+  }
+  showBlock('ono-detail-facts', list.children.length > 0);
+}
 
 // ========================================
 // MEASURE WORDS (Zählwörter) SECTION
@@ -1491,6 +1551,8 @@ function initSelectFilters() {
   }
   if (window.app && window.app.sections.onomatopoeia) {
     window.app.sections.onomatopoeia.filters.pattern = 'all';
+    window.app.sections.onomatopoeia.filters.category = 'all';
+    window.app.sections.onomatopoeia.filters.kind = 'all';
   }
   if (window.app && window.app.sections.measurewords) {
     window.app.sections.measurewords.filters.category = 'all';
@@ -1539,11 +1601,13 @@ function initSelectFilters() {
     });
   });
 
-  var onoPattern = document.getElementById('ono-pattern-select');
-  if (onoPattern) onoPattern.addEventListener('change', function () {
-    if (window.app && window.app.sections.onomatopoeia) {
-      window.app.sections.onomatopoeia.filters.pattern = this.value;
-      window.app.sections.onomatopoeia.applyFilters();
-    }
+  [['ono-pattern-select', 'pattern'], ['ono-cat-select', 'category'], ['ono-kind-select', 'kind']].forEach(function (pair) {
+    var select = document.getElementById(pair[0]);
+    if (select) select.addEventListener('change', function () {
+      if (window.app && window.app.sections.onomatopoeia) {
+        window.app.sections.onomatopoeia.filters[pair[1]] = this.value;
+        window.app.sections.onomatopoeia.applyFilters();
+      }
+    });
   });
 }

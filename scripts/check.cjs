@@ -16,6 +16,7 @@ const CHECKS = Object.freeze([
   'test:comprehension',
   'audit:data',
   'audit:measure-words',
+  'audit:onomatopoeia',
   'audit:hsk2025',
   'audit:vocab-runtime',
   'audit:hanzi',

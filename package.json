@@ -7,6 +7,7 @@
     "lint": "node scripts/lint.js",
     "audit:data": "node scripts/audit-data.cjs",
     "audit:measure-words": "node scripts/audit-measure-words.cjs",
+    "audit:onomatopoeia": "node scripts/audit-onomatopoeia.cjs",
     "test:pinyin": "node scripts/pinyin-test.cjs",
     "test:storage": "node scripts/storage-test.cjs",
     "test:smoke": "node scripts/smoke-test.js",

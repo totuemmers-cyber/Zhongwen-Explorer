@@ -205,11 +205,11 @@
       scripts: DATA.onomatopoeia,
       message: 'Lade Lautmalerei-Daten...',
       hydrate: function () {
+        // Built by scripts/onomatopoeia/build.cjs: ids o:<word>; old bookmarks (bare word) follow legacyIds, words that
+        // left the section for the vocabulary (ONOMATOPOEIA_REMOVED) move to the vocab entry.
         var items = window.ONOMATOPOEIA_DATA || [];
-        // The extra files used category instead of type.
-        items.forEach(function (item) {
-          if (item.category && !item.type) { item.type = item.category; delete item.category; }
-        });
+        migrateRemovedBookmarks('onomatopoeia', window.ONOMATOPOEIA_REMOVED || {});
+        migrateLegacyBookmarks('onomatopoeia', items);
         app.sections.onomatopoeia.setItems(items);
       }
     },

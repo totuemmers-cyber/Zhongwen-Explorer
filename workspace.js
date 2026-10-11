@@ -255,7 +255,7 @@
     hanzi: { 'hanzi-writing-select': 'writing' },
     vocab: { 'vocab-type-select': 'type', 'vocab-tone-select': 'tone' },
     grammar: { 'grammar-cat-select': 'category' },
-    onomatopoeia: { 'ono-pattern-select': 'pattern' },
+    onomatopoeia: { 'ono-cat-select': 'category', 'ono-kind-select': 'kind', 'ono-pattern-select': 'pattern' },
     measurewords: { 'mw-cat-select': 'category', 'mw-kind-select': 'kind' }
   };
   function syncFilters(sec) {
@@ -488,7 +488,7 @@
   app.workspace = { beforeSwitch: beforeSwitch, afterSwitch: afterSwitch, present: present, close: close, dismiss: dismiss, collectionChanged: collectionChanged, openRelated: openRelated, toggleHelp: toggleHelp, save: save, commit: commit, message: message, updateSpecialCount: updateSpecialCount, isReadingView: isReadingView, idOf: idOf, accessibleContent: accessibleContent };
 
   // The first level-filter row is the primary filter; its label depends on what it filters.
-  var PRIMARY_FILTER_LABELS = { radicals: 'Striche', onomatopoeia: 'Kategorie' };
+  var PRIMARY_FILTER_LABELS = { radicals: 'Striche' };
   function selectLabel(select) {
     if (select.id.includes('sort')) return 'Sortierung';
     if (select.id.includes('type')) return 'Wortart';
