@@ -20,6 +20,8 @@ Check every unit for:
 3. Questions: answerable only from the text, exactly one correct choice, plausible distractors, explanations correct,
    evidence passage right, answer positions varied.
 4. Glossary and note: correct meanings and pinyin, useful tip.
+5. Title, textType and introduction give nothing away; speakers are referred to neutrally unless the text shows
+   their gender.
 
 Then run `node scripts/comprehension/validate.cjs {{BATCH}} pNN --reviewed` until it prints `OK pNN`.
 

@@ -49,6 +49,8 @@ Read WARN lines too. Look up glossary words with `node scripts/comprehension/loo
   correct choice; vary its position across the packet. Every choice gets an `explanation` that cites the text (may quote
   Chinese). `evidence` = the passage that answers the question.
 - **Glossary**: 4–10 key words of the text (not the most basic ones), with `vocabId` when the word is in the vocabulary.
+- Title, textType and introduction must not give away an answer. Refer to speakers neutrally („A“, „B“, „die Person“)
+  unless the Chinese text shows their gender.
 - German with real umlauts (ä ö ü ß). Be accurate: this is teaching content.
 
 Final reply: only "pNN OK", any `flags`, and doubts worth a human look. Keep it short.

@@ -1,0 +1,2889 @@
+[
+ {
+  "id": "reading-hsk2-01",
+  "level": "HSK2",
+  "skill": "reading",
+  "order": 1,
+  "task": {
+   "no": 1,
+   "title": "问答个人基本情况"
+  },
+  "topic": "基本信息›个人信息›身份、习惯、爱好、来处等",
+  "title": "Marks Formular",
+  "objective": "Du kannst in einem ausgefüllten Formular Angaben zu Person, Herkunft, Hobbys und Wünschen erkennen.",
+  "textType": "Formular",
+  "minutes": 6,
+  "introduction": "Ein junger Mann hat ein chinesisches Formular ausgefüllt. Achte auf seine Herkunft, seine Vorkenntnisse und den Wunschtermin.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "label": "Überschrift",
+    "text": "中文学习班报名表",
+    "pinyin": "Zhōngwén xuéxíbān bàomíngbiǎo"
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "label": "Angaben zur Person",
+    "text": "姓名：马克。性别：男。出生日期：2003年8月20日。国籍：德国。学校：北京大学（留学生）。",
+    "pinyin": "Xìngmíng: Mǎkè. Xìngbié: nán. Chūshēng rìqī: 2003 nián 8 yuè 20 rì. Guójí: Déguó. Xuéxiào: Běijīng Dàxué (liúxuéshēng)."
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "label": "Kontakt und Hobbys",
+    "text": "电话：13800123456。爱好：踢足球、听音乐、做中国菜。",
+    "pinyin": "Diànhuà: 13800123456. Àihào: tī zúqiú, tīng yīnyuè, zuò Zhōngguó cài."
+   },
+   {
+    "id": "p4",
+    "speaker": "",
+    "label": "Fragen",
+    "text": "以前学过汉语吗？学过，在德国学了一年。为什么想学汉语？我对中国文化很感兴趣，以后想在中国工作。希望上课时间：星期六上午（星期一到星期五我要在大学上课）。",
+    "pinyin": "Yǐqián xuéguo Hànyǔ ma? Xuéguo, zài Déguó xuéle yì nián. Wèishénme xiǎng xué Hànyǔ? Wǒ duì Zhōngguó wénhuà hěn gǎn xìngqù, yǐhòu xiǎng zài Zhōngguó gōngzuò. Xīwàng shàngkè shíjiān: xīngqīliù shàngwǔ (xīngqīyī dào xīngqīwǔ wǒ yào zài dàxué shàngkè)."
+   }
+  ],
+  "translation": "Anmeldeformular für einen Chinesischkurs. Name: Mark. Geschlecht: männlich. Geburtsdatum: 20. August 2003. Staatsangehörigkeit: deutsch. Hochschule: Peking-Universität (Auslandsstudent). Telefon: 13800123456. Hobbys: Fußball spielen, Musik hören, chinesisch kochen. Haben Sie schon einmal Chinesisch gelernt? Ja, ein Jahr lang in Deutschland. Warum möchten Sie Chinesisch lernen? Ich interessiere mich sehr für die chinesische Kultur und möchte später in China arbeiten. Gewünschte Unterrichtszeit: Samstagvormittag (von Montag bis Freitag habe ich Unterricht an der Universität).",
+  "glossary": [
+   {
+    "word": "学习班",
+    "pinyin": "xuéxíbān",
+    "meaning": "Kurs, Lerngruppe"
+   },
+   {
+    "word": "报名表",
+    "pinyin": "bàomíngbiǎo",
+    "meaning": "Anmeldeformular"
+   },
+   {
+    "word": "性别",
+    "pinyin": "xìngbié",
+    "meaning": "Geschlecht",
+    "vocabId": "w:性别:xing4bie2"
+   },
+   {
+    "word": "出生",
+    "pinyin": "chūshēng",
+    "meaning": "geboren werden",
+    "vocabId": "w:出生:chu1sheng1"
+   },
+   {
+    "word": "日期",
+    "pinyin": "rìqī",
+    "meaning": "Datum",
+    "vocabId": "w:日期:ri4qi1"
+   },
+   {
+    "word": "国籍",
+    "pinyin": "guójí",
+    "meaning": "Staatsangehörigkeit",
+    "vocabId": "w:国籍:guo2ji2"
+   },
+   {
+    "word": "留学生",
+    "pinyin": "liúxuéshēng",
+    "meaning": "Auslandsstudent, internationale Studentin",
+    "vocabId": "w:留学生:liu2xue2sheng1"
+   },
+   {
+    "word": "文化",
+    "pinyin": "wénhuà",
+    "meaning": "Kultur",
+    "vocabId": "w:文化:wen2hua4"
+   },
+   {
+    "word": "感兴趣",
+    "pinyin": "gǎn xìngqù",
+    "meaning": "sich interessieren (für etwas)",
+    "vocabId": "w:感兴趣:gan3xing4qu4"
+   }
+  ],
+  "note": "Typische Formularfelder: 姓名 (Name), 性别 (Geschlecht), 出生日期 (Geburtsdatum), 国籍 (Staatsangehörigkeit), 爱好 (Hobbys). Mit 对……感兴趣 sagst du, wofür du dich interessierst: 我对中国文化很感兴趣.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Wofür hat Mark dieses Formular ausgefüllt?",
+    "evidence": "p1",
+    "choices": [
+     {
+      "text": "Für die Anmeldung bei einer Fußballmannschaft.",
+      "explanation": "Falsch. Fußball ist nur eines seiner Hobbys (爱好：踢足球); die Überschrift nennt einen 中文学习班."
+     },
+     {
+      "text": "Für die Anmeldung zu einem Chinesischkurs.",
+      "explanation": "Richtig. Die Überschrift lautet 中文学习班报名表 – Anmeldeformular für einen Chinesischkurs."
+     },
+     {
+      "text": "Für die Bewerbung um einen Studienplatz an der Peking-Universität.",
+      "explanation": "Falsch. Mark studiert schon an der Peking-Universität (学校：北京大学（留学生）)."
+     },
+     {
+      "text": "Für die Bewerbung um eine Arbeitsstelle in China.",
+      "explanation": "Falsch. In China arbeiten möchte er erst später (以后想在中国工作); das Formular ist für einen 中文学习班."
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Wann möchte Mark Unterricht haben?",
+    "evidence": "p4",
+    "choices": [
+     {
+      "text": "Am Sonntagvormittag.",
+      "explanation": "Falsch. Er schreibt 星期六上午 – Samstag, nicht Sonntag (星期天)."
+     },
+     {
+      "text": "Am Samstagnachmittag.",
+      "explanation": "Falsch. 上午 heißt „Vormittag“; Nachmittag wäre 下午."
+     },
+     {
+      "text": "Von Montag bis Freitag am Vormittag.",
+      "explanation": "Falsch. Von Montag bis Freitag hat er Unterricht an der Universität (星期一到星期五我要在大学上课)."
+     },
+     {
+      "text": "Am Samstagvormittag.",
+      "explanation": "Richtig. Als Wunschzeit steht da: 希望上课时间：星期六上午."
+     }
+    ],
+    "answer": 3
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Was kann man aus Marks Angaben schließen?",
+    "evidence": "p4",
+    "choices": [
+     {
+      "text": "Er kann schon etwas Chinesisch.",
+      "explanation": "Richtig. Er hat schon ein Jahr in Deutschland Chinesisch gelernt (学过，在德国学了一年)."
+     },
+     {
+      "text": "Er lernt zum ersten Mal Chinesisch.",
+      "explanation": "Falsch. Auf die Frage 以前学过汉语吗？ antwortet er 学过 – er hat schon Chinesisch gelernt."
+     },
+     {
+      "text": "Er arbeitet schon in China.",
+      "explanation": "Falsch. Er ist Student (留学生) und möchte erst später in China arbeiten (以后想在中国工作)."
+     },
+     {
+      "text": "Er interessiert sich nicht für Sport.",
+      "explanation": "Falsch. Eines seiner Hobbys ist Fußball (踢足球)."
+     }
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "reading-hsk2-02",
+  "level": "HSK2",
+  "skill": "reading",
+  "order": 2,
+  "task": {
+   "no": 3,
+   "title": "问答物品情况"
+  },
+  "topic": "基本信息›物品信息›名称、颜色、差别、数量、所在、特点等",
+  "title": "Am Schwarzen Brett",
+  "objective": "Du kannst in einem kurzen Aushang verstehen, welche Gegenstände gemeint sind und welche Farbe und Anzahl sie haben.",
+  "textType": "Aushang",
+  "minutes": 6,
+  "introduction": "Li Ming hat einen Zettel am Schwarzen Brett der Schule aufgehängt. Achte auf die Gegenstände, ihre Farben und ihre Anzahl.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "label": "Überschrift",
+    "text": "寻物启事",
+    "pinyin": "Xúnwù qǐshì"
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "text": "昨天下午五点左右，我在图书馆二楼丢了一个书包。书包是黑色的，不太大，上面有一只白色的小鸟，跟别的书包不一样。",
+    "pinyin": "Zuótiān xiàwǔ wǔ diǎn zuǒyòu, wǒ zài túshūguǎn èr lóu diūle yí ge shūbāo. Shūbāo shì hēisè de, bú tài dà, shàngmiàn yǒu yì zhī báisè de xiǎo niǎo, gēn biéde shūbāo bù yíyàng."
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "text": "书包里有两本汉语书、一个红色的本子和一把蓝色的伞。这两本书不是我的，是我朋友的，所以我非常着急。",
+    "pinyin": "Shūbāo li yǒu liǎng běn Hànyǔ shū, yí ge hóngsè de běnzi hé yì bǎ lánsè de sǎn. Zhè liǎng běn shū bú shì wǒ de, shì wǒ péngyou de, suǒyǐ wǒ fēicháng zháojí."
+   },
+   {
+    "id": "p4",
+    "speaker": "",
+    "text": "如果你看到了这个书包，请给我打电话：13912345678。谢谢！",
+    "pinyin": "Rúguǒ nǐ kàndàole zhège shūbāo, qǐng gěi wǒ dǎ diànhuà: 13912345678. Xièxie!"
+   },
+   {
+    "id": "p5",
+    "speaker": "",
+    "label": "Unterschrift",
+    "text": "李明，十月九日",
+    "pinyin": "Lǐ Míng, shí yuè jiǔ rì"
+   }
+  ],
+  "translation": "Suchanzeige. Gestern Nachmittag gegen fünf Uhr habe ich im ersten Stock der Bibliothek einen Rucksack verloren. Der Rucksack ist schwarz, nicht sehr groß, und darauf ist ein kleiner weißer Vogel – er sieht anders aus als andere Rucksäcke. Im Rucksack sind zwei Chinesischbücher, ein rotes Heft und ein blauer Regenschirm. Die beiden Bücher gehören nicht mir, sondern einem Freund bzw. einer Freundin von mir, deshalb bin ich sehr beunruhigt. Wenn du diesen Rucksack gesehen hast, ruf mich bitte an: 13912345678. Danke! Li Ming, 9. Oktober",
+  "glossary": [
+   {
+    "word": "寻物启事",
+    "pinyin": "xúnwù qǐshì",
+    "meaning": "Suchanzeige (Aushang wegen eines verlorenen Gegenstands)"
+   },
+   {
+    "word": "左右",
+    "pinyin": "zuǒyòu",
+    "meaning": "ungefähr, gegen (nach Zeit- oder Mengenangaben)",
+    "vocabId": "w:左右:zuo3you4"
+   },
+   {
+    "word": "丢",
+    "pinyin": "diū",
+    "meaning": "verlieren",
+    "vocabId": "w:丢:diu1"
+   },
+   {
+    "word": "只",
+    "pinyin": "zhī",
+    "meaning": "Zählwort für Tiere, z. B. Vögel",
+    "vocabId": "w:只:zhi1"
+   },
+   {
+    "word": "本子",
+    "pinyin": "běnzi",
+    "meaning": "Heft, Notizbuch",
+    "vocabId": "w:本子:ben3zi5"
+   },
+   {
+    "word": "把",
+    "pinyin": "bǎ",
+    "meaning": "Zählwort für Gegenstände mit Griff, z. B. Schirme",
+    "vocabId": "w:把:ba3"
+   },
+   {
+    "word": "伞",
+    "pinyin": "sǎn",
+    "meaning": "Regenschirm",
+    "vocabId": "w:伞:san3"
+   },
+   {
+    "word": "着急",
+    "pinyin": "zháojí",
+    "meaning": "beunruhigt, besorgt",
+    "vocabId": "w:着急:zhao2ji2"
+   }
+  ],
+  "note": "Im Text stehen vier Zählwörter: 一个书包, 一只小鸟, 两本书, 一把伞. Vor Zählwörtern heißt „zwei“ 两, nicht 二: 两本汉语书. Achtung: 二楼 ist in China das erste Obergeschoss, weil das Erdgeschoss 一楼 heißt.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Warum hat Li Ming diesen Zettel aufgehängt?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Li Ming hat einen Rucksack gefunden und sucht, wem er gehört.",
+      "explanation": "Falsch. Li Ming hat selbst einen Rucksack verloren: 我……丢了一个书包."
+     },
+     {
+      "text": "Li Ming möchte einen alten Rucksack verkaufen.",
+      "explanation": "Falsch. Es gibt keinen Preis; Li Ming bittet um einen Anruf, falls jemand den Rucksack gesehen hat (如果你看到了这个书包，请给我打电话)."
+     },
+     {
+      "text": "Li Ming hat einen Rucksack verloren und bittet um Hilfe.",
+      "explanation": "Richtig. 我在图书馆二楼丢了一个书包 – und die Bitte lautet: 请给我打电话."
+     },
+     {
+      "text": "Li Ming lädt andere in die Bibliothek ein.",
+      "explanation": "Falsch. Die Bibliothek ist nur der Ort, wo der Rucksack verloren ging (在图书馆二楼丢了)."
+     }
+    ],
+    "answer": 2
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Was ist in dem Rucksack?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Zwei Chinesischbücher, ein rotes Heft und ein blauer Regenschirm.",
+      "explanation": "Richtig. 两本汉语书、一个红色的本子和一把蓝色的伞."
+     },
+     {
+      "text": "Zwei Chinesischbücher, ein blaues Heft und ein roter Regenschirm.",
+      "explanation": "Falsch. Die Farben sind vertauscht: Das Heft ist rot (红色的本子), der Schirm blau (蓝色的伞)."
+     },
+     {
+      "text": "Ein Chinesischbuch, ein rotes Heft und ein blauer Regenschirm.",
+      "explanation": "Falsch. Es sind zwei Bücher: 两本汉语书."
+     },
+     {
+      "text": "Zwei Chinesischbücher, ein rotes Heft und ein schwarzer Regenschirm.",
+      "explanation": "Falsch. Schwarz ist der Rucksack (书包是黑色的); der Schirm ist blau (蓝色的伞)."
+     }
+    ],
+    "answer": 0
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Was kann man aus dem Aushang schließen?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Li Ming hat den Rucksack im Klassenzimmer verloren.",
+      "explanation": "Falsch. Der Rucksack ging in der Bibliothek verloren (在图书馆二楼)."
+     },
+     {
+      "text": "Li Ming hat den Rucksack am Vormittag verloren.",
+      "explanation": "Falsch. Es war gestern Nachmittag gegen fünf Uhr (昨天下午五点左右)."
+     },
+     {
+      "text": "Man soll Li Ming eine E-Mail schreiben.",
+      "explanation": "Falsch. Li Ming bittet um einen Anruf (请给我打电话)."
+     },
+     {
+      "text": "Li Ming hat sich die Bücher von einem Freund oder einer Freundin geliehen.",
+      "explanation": "Richtig. Die Bücher waren in Li Mings Rucksack, gehören aber jemand anderem (不是我的，是我朋友的) – deshalb ist Li Ming so besorgt (非常着急)."
+     }
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "reading-hsk2-03",
+  "level": "HSK2",
+  "skill": "reading",
+  "order": 3,
+  "task": {
+   "no": 5,
+   "title": "介绍某个地方"
+  },
+  "topic": "基本信息›环境信息›天气",
+  "title": "Willkommen in Kunming",
+  "objective": "Du kannst eine kurze Vorstellung einer Stadt verstehen und Angaben zu Lage, Wetter und Umgebung erkennen.",
+  "textType": "Reiseinfo",
+  "minutes": 6,
+  "introduction": "Ein kurzer Text stellt Besuchern die Stadt Kunming vor. Achte darauf, wie das Wetter dort ist und was man beachten sollte.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "text": "昆明在中国的西南，人们都叫它“春城”。为什么呢？因为这里一年四季都不太冷，也不太热。夏天很凉快，冬天很少下雪。",
+    "pinyin": "Kūnmíng zài Zhōngguó de xīnán, rénmen dōu jiào tā “Chūnchéng”. Wèishénme ne? Yīnwèi zhèli yì nián sìjì dōu bú tài lěng, yě bú tài rè. Xiàtiān hěn liángkuai, dōngtiān hěn shǎo xià xuě."
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "text": "昆明的花特别多，路边、公园里，到处都能看到。城市里还有很多公园，有山有水，环境非常好。",
+    "pinyin": "Kūnmíng de huā tèbié duō, lùbiān, gōngyuán li, dàochù dōu néng kàndào. Chéngshì li hái yǒu hěn duō gōngyuán, yǒu shān yǒu shuǐ, huánjìng fēicháng hǎo."
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "text": "如果你喜欢安静的地方，可以来昆明旅游。不过要注意：这里早上和晚上有点儿冷，中午比较热，出门最好多带一件衣服。",
+    "pinyin": "Rúguǒ nǐ xǐhuan ānjìng de dìfang, kěyǐ lái Kūnmíng lǚyóu. Búguò yào zhùyì: zhèli zǎoshang hé wǎnshang yǒudiǎnr lěng, zhōngwǔ bǐjiào rè, chūmén zuìhǎo duō dài yí jiàn yīfu."
+   }
+  ],
+  "translation": "Kunming liegt im Südwesten Chinas, und alle nennen es „Frühlingsstadt“. Warum? Weil es hier das ganze Jahr über weder sehr kalt noch sehr heiß ist. Im Sommer ist es angenehm kühl, im Winter schneit es selten. In Kunming gibt es besonders viele Blumen – am Straßenrand, in den Parks, überall kann man sie sehen. In der Stadt gibt es außerdem viele Parks mit Bergen und Wasser; die Umgebung ist sehr schön. Wenn du ruhige Orte magst, kannst du Kunming besuchen. Aber Achtung: Morgens und abends ist es hier etwas kalt, mittags ziemlich warm – wenn du rausgehst, nimm am besten noch ein Kleidungsstück mehr mit.",
+  "glossary": [
+   {
+    "word": "昆明",
+    "pinyin": "Kūnmíng",
+    "meaning": "Kunming (Hauptstadt der Provinz Yunnan)"
+   },
+   {
+    "word": "春城",
+    "pinyin": "Chūnchéng",
+    "meaning": "Frühlingsstadt (Beiname von Kunming)"
+   },
+   {
+    "word": "西南",
+    "pinyin": "xīnán",
+    "meaning": "Südwesten",
+    "vocabId": "w:西南:xi1nan2"
+   },
+   {
+    "word": "四季",
+    "pinyin": "sìjì",
+    "meaning": "die vier Jahreszeiten",
+    "vocabId": "w:四季:si4ji4"
+   },
+   {
+    "word": "凉快",
+    "pinyin": "liángkuai",
+    "meaning": "angenehm kühl",
+    "vocabId": "w:凉快:liang2kuai5"
+   },
+   {
+    "word": "到处",
+    "pinyin": "dàochù",
+    "meaning": "überall",
+    "vocabId": "w:到处:dao4chu4"
+   },
+   {
+    "word": "环境",
+    "pinyin": "huánjìng",
+    "meaning": "Umgebung, Umwelt",
+    "vocabId": "w:环境:huan2jing4"
+   },
+   {
+    "word": "安静",
+    "pinyin": "ānjìng",
+    "meaning": "ruhig, still",
+    "vocabId": "w:安静:an1jing4"
+   },
+   {
+    "word": "不过",
+    "pinyin": "búguò",
+    "meaning": "aber, allerdings",
+    "vocabId": "w:不过:bu2guo4"
+   }
+  ],
+  "note": "一年四季 heißt „das ganze Jahr über“ (wörtlich: „ein Jahr, vier Jahreszeiten“). Kunming trägt den Beinamen 春城, weil es dort fast immer so mild ist wie im Frühling.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worum geht es in dem Text vor allem?",
+    "evidence": "p1",
+    "choices": [
+     {
+      "text": "Kunming als angenehmes Reiseziel mit mildem Wetter und vielen Blumen.",
+      "explanation": "Richtig. Der Text beschreibt das Wetter (不太冷，也不太热), die Blumen und Parks und empfiehlt eine Reise (可以来昆明旅游)."
+     },
+     {
+      "text": "Wie man am besten nach Kunming reist.",
+      "explanation": "Falsch. Über Verkehrsmittel oder den Weg nach Kunming steht nichts im Text; er beschreibt die Stadt selbst."
+     },
+     {
+      "text": "Ein Wetterbericht für den heutigen Tag in Kunming.",
+      "explanation": "Falsch. Der Text beschreibt das Wetter im ganzen Jahr (一年四季), nicht an einem bestimmten Tag."
+     },
+     {
+      "text": "Warum in Kunming im Winter so viel Schnee liegt.",
+      "explanation": "Falsch. Im Winter schneit es dort selten (冬天很少下雪)."
+     }
+    ],
+    "answer": 0
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Warum nennt man Kunming „Frühlingsstadt“?",
+    "evidence": "p1",
+    "choices": [
+     {
+      "text": "Weil im Frühling die meisten Touristen kommen.",
+      "explanation": "Falsch. Von Touristenzahlen ist keine Rede; als Grund nennt der Text das Wetter (因为这里一年四季都不太冷，也不太热)."
+     },
+     {
+      "text": "Weil es dort im Winter oft schneit.",
+      "explanation": "Falsch. Im Winter schneit es selten (冬天很少下雪)."
+     },
+     {
+      "text": "Weil es dort das ganze Jahr weder sehr kalt noch sehr heiß ist.",
+      "explanation": "Richtig. 因为这里一年四季都不太冷，也不太热."
+     },
+     {
+      "text": "Weil es dort im Sommer besonders heiß ist.",
+      "explanation": "Falsch. Im Sommer ist es angenehm kühl (夏天很凉快)."
+     }
+    ],
+    "answer": 2
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Was kann man aus dem Text schließen?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Im Winter ist es in Kunming für Besucher zu kalt.",
+      "explanation": "Falsch. Es ist das ganze Jahr nicht sehr kalt (一年四季都不太冷), und im Winter schneit es selten."
+     },
+     {
+      "text": "Wer Blumen mag, findet in Kunming viel zu sehen.",
+      "explanation": "Richtig. Es gibt dort besonders viele Blumen, und man sieht sie überall (昆明的花特别多……到处都能看到)."
+     },
+     {
+      "text": "In Kunming ist es den ganzen Tag über gleich warm.",
+      "explanation": "Falsch. Morgens und abends ist es etwas kalt, mittags ziemlich warm (早上和晚上有点儿冷，中午比较热)."
+     },
+     {
+      "text": "Besucher brauchen in Kunming keine warme Kleidung.",
+      "explanation": "Falsch. Man soll am besten ein Kleidungsstück mehr mitnehmen (出门最好多带一件衣服), weil es morgens und abends kühl ist."
+     }
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "reading-hsk2-04",
+  "level": "HSK2",
+  "skill": "reading",
+  "order": 4,
+  "task": {
+   "no": 6,
+   "title": "日常言语交往"
+  },
+  "topic": "日常生活›交往›基本礼貌行为",
+  "title": "Annas Karte an Lehrer(in) Wang",
+  "objective": "Du kannst auf einer Grußkarte Glückwünsche und Dank verstehen.",
+  "textType": "Grußkarte",
+  "minutes": 5,
+  "introduction": "Anna, eine Studentin aus Deutschland, schreibt ihrer Chinesischlehrkraft Wang eine Karte. Achte auf die Wünsche, den Dank und Annas Pläne.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "label": "Anrede",
+    "text": "王老师：",
+    "pinyin": "Wáng lǎoshī:"
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "text": "新年快乐！谢谢您这一年对我的帮助。刚来中国的时候，我一句汉语也不会说；现在，我已经能跟中国朋友聊天儿了。您的课总是很有意思，我非常喜欢。",
+    "pinyin": "Xīnnián kuàilè! Xièxie nín zhè yì nián duì wǒ de bāngzhù. Gāng lái Zhōngguó de shíhou, wǒ yí jù Hànyǔ yě bú huì shuō; xiànzài, wǒ yǐjīng néng gēn Zhōngguó péngyou liáotiānr le. Nín de kè zǒngshì hěn yǒu yìsi, wǒ fēicháng xǐhuan."
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "text": "春节的时候，我要回德国看爸爸妈妈，二月十五号回来。祝您和家人身体健康，快乐每一天！",
+    "pinyin": "Chūnjié de shíhou, wǒ yào huí Déguó kàn bàba māma, èr yuè shíwǔ hào huílái. Zhù nín hé jiārén shēntǐ jiànkāng, kuàilè měi yì tiān!"
+   },
+   {
+    "id": "p4",
+    "speaker": "",
+    "label": "Unterschrift",
+    "text": "您的学生：安娜，十二月三十日",
+    "pinyin": "Nín de xuéshēng: Ānnà, shí'èr yuè sānshí rì"
+   }
+  ],
+  "translation": "Liebe Lehrerin / lieber Lehrer Wang, frohes neues Jahr! Danke für Ihre Hilfe in diesem Jahr. Als ich gerade nach China gekommen war, konnte ich keinen einzigen Satz Chinesisch sprechen; jetzt kann ich mich schon mit chinesischen Freunden unterhalten. Ihr Unterricht ist immer sehr interessant, er gefällt mir sehr. Zum Frühlingsfest fahre ich nach Deutschland zu meinen Eltern und komme am 15. Februar zurück. Ich wünsche Ihnen und Ihrer Familie Gesundheit und jeden Tag viel Freude! Ihre Studentin Anna, 30. Dezember",
+  "glossary": [
+   {
+    "word": "新年快乐",
+    "pinyin": "xīnnián kuàilè",
+    "meaning": "Frohes neues Jahr!"
+   },
+   {
+    "word": "帮助",
+    "pinyin": "bāngzhù",
+    "meaning": "Hilfe; helfen",
+    "vocabId": "w:帮助:bang1zhu4"
+   },
+   {
+    "word": "刚",
+    "pinyin": "gāng",
+    "meaning": "gerade, eben erst",
+    "vocabId": "w:刚:gang1"
+   },
+   {
+    "word": "聊天儿",
+    "pinyin": "liáotiānr",
+    "meaning": "plaudern, sich unterhalten",
+    "vocabId": "w:聊天儿:liao2tian1r5"
+   },
+   {
+    "word": "总是",
+    "pinyin": "zǒngshì",
+    "meaning": "immer",
+    "vocabId": "w:总是:zong3shi4"
+   },
+   {
+    "word": "春节",
+    "pinyin": "Chūnjié",
+    "meaning": "Frühlingsfest, chinesisches Neujahr",
+    "vocabId": "w:春节:chun1jie2"
+   },
+   {
+    "word": "祝",
+    "pinyin": "zhù",
+    "meaning": "wünschen (bei Glückwünschen)",
+    "vocabId": "w:祝:zhu4"
+   },
+   {
+    "word": "健康",
+    "pinyin": "jiànkāng",
+    "meaning": "gesund; Gesundheit",
+    "vocabId": "w:健康:jian4kang1"
+   }
+  ],
+  "note": "Glückwünsche beginnen oft mit 祝您……: 祝您身体健康 („Ich wünsche Ihnen Gesundheit“). 快乐每一天 („Freude an jedem Tag“) ist eine beliebte Formel auf Karten. Mit 一……也不…… betont man „kein einziges“: 一句汉语也不会说.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Warum schreibt Anna diese Karte?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Sie lädt ihre Lehrkraft zum Frühlingsfest nach Deutschland ein.",
+      "explanation": "Falsch. Anna fährt allein zu ihren Eltern (我要回德国看爸爸妈妈); eine Einladung steht nicht auf der Karte."
+     },
+     {
+      "text": "Sie bittet ihre Lehrkraft um Hilfe beim Chinesischlernen.",
+      "explanation": "Falsch. Sie bedankt sich für die Hilfe, die sie schon bekommen hat (谢谢您这一年对我的帮助), und bittet um nichts."
+     },
+     {
+      "text": "Sie entschuldigt sich, weil sie nicht mehr zum Unterricht kommen will.",
+      "explanation": "Falsch. Sie findet den Unterricht sehr interessant (您的课总是很有意思) und kommt am 15. Februar zurück (二月十五号回来)."
+     },
+     {
+      "text": "Sie wünscht ihrer Lehrkraft ein frohes neues Jahr und bedankt sich.",
+      "explanation": "Richtig. Die Karte beginnt mit 新年快乐！谢谢您这一年对我的帮助 und endet mit guten Wünschen (祝您和家人身体健康)."
+     }
+    ],
+    "answer": 3
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Was macht Anna zum Frühlingsfest?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Sie bleibt in China und feiert mit chinesischen Freunden.",
+      "explanation": "Falsch. Sie fährt nach Deutschland: 我要回德国看爸爸妈妈."
+     },
+     {
+      "text": "Sie besucht ihre Eltern in Deutschland und kommt am 15. Februar zurück.",
+      "explanation": "Richtig. 我要回德国看爸爸妈妈，二月十五号回来."
+     },
+     {
+      "text": "Sie besucht ihre Eltern in Deutschland und kommt am 5. Februar zurück.",
+      "explanation": "Falsch. Sie schreibt 二月十五号 – den 15. Februar, nicht den 5. (五号)."
+     },
+     {
+      "text": "Sie besucht ihre Lehrkraft und deren Familie.",
+      "explanation": "Falsch. Der Familie der Lehrkraft wünscht sie nur Gesundheit (祝您和家人身体健康); besuchen will sie ihre eigenen Eltern."
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Was kann man über Annas Chinesisch sagen?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Sie konnte schon vor ihrer Ankunft in China gut Chinesisch.",
+      "explanation": "Falsch. Am Anfang konnte sie keinen einzigen Satz (一句汉语也不会说)."
+     },
+     {
+      "text": "Sie kann sich noch nicht mit Chinesen unterhalten.",
+      "explanation": "Falsch. Sie kann schon mit chinesischen Freunden plaudern (已经能跟中国朋友聊天儿了)."
+     },
+     {
+      "text": "Sie hat seit ihrer Ankunft in China große Fortschritte gemacht.",
+      "explanation": "Richtig. Zuerst konnte sie keinen Satz sagen, jetzt kann sie sich mit chinesischen Freunden unterhalten (现在，我已经能跟中国朋友聊天儿了)."
+     },
+     {
+      "text": "Sie lernt ohne Lehrkraft, weil ihr der Unterricht nicht gefällt.",
+      "explanation": "Falsch. Sie bedankt sich bei ihrer Lehrkraft und schreibt 您的课总是很有意思，我非常喜欢."
+     }
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "reading-hsk2-05",
+  "level": "HSK2",
+  "skill": "reading",
+  "order": 5,
+  "task": {
+   "no": 8,
+   "title": "问答出行情况"
+  },
+  "topic": "日常生活›交通出行›出行安排",
+  "title": "Eine Nachricht von Xiao Wang",
+  "objective": "Du kannst einer kurzen Nachricht über eine Reise Treffpunkt, Uhrzeiten und Verkehrsmittel entnehmen.",
+  "textType": "Gruppennachricht",
+  "minutes": 5,
+  "introduction": "Xiao Wang schreibt den Kolleginnen und Kollegen in der Firmengruppe eine Nachricht. Achte auf die Uhrzeiten und darauf, womit die Gruppe wohin fährt.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "text": "大家好！明天去西安的事，跟大家说一下：",
+    "pinyin": "Dàjiā hǎo! Míngtiān qù Xī'ān de shì, gēn dàjiā shuō yíxià:"
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "text": "早上七点半在公司门口见面，然后一起坐出租车去火车站。火车八点四十开，下午一点多到西安。",
+    "pinyin": "Zǎoshang qī diǎn bàn zài gōngsī ménkǒu jiànmiàn, ránhòu yìqǐ zuò chūzūchē qù huǒchēzhàn. Huǒchē bā diǎn sìshí kāi, xiàwǔ yì diǎn duō dào Xī'ān."
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "text": "到了西安以后，我们先坐地铁去宾馆，放好东西再出去吃饭。",
+    "pinyin": "Dàole Xī'ān yǐhòu, wǒmen xiān zuò dìtiě qù bīnguǎn, fànghǎo dōngxi zài chūqù chī fàn."
+   },
+   {
+    "id": "p4",
+    "speaker": "",
+    "text": "火车票我已经买好了，大家不用自己买。别忘了带身份证！有问题给我打电话。——小王",
+    "pinyin": "Huǒchēpiào wǒ yǐjīng mǎihǎo le, dàjiā búyòng zìjǐ mǎi. Bié wàngle dài shēnfènzhèng! Yǒu wèntí gěi wǒ dǎ diànhuà. —— Xiǎo Wáng"
+   }
+  ],
+  "translation": "Hallo zusammen! Kurz zu unserer Fahrt nach Xi'an morgen: Wir treffen uns um halb acht morgens vor dem Eingang der Firma und fahren dann zusammen mit dem Taxi zum Bahnhof. Der Zug fährt um 8:40 Uhr ab und kommt kurz nach 13 Uhr in Xi'an an. In Xi'an fahren wir zuerst mit der U-Bahn zum Hotel, stellen unsere Sachen ab und gehen dann essen. Die Zugfahrkarten habe ich schon gekauft, ihr müsst sie nicht selbst kaufen. Vergesst euren Personalausweis nicht! Wenn ihr Fragen habt, ruft mich an. – Xiao Wang",
+  "glossary": [
+   {
+    "word": "西安",
+    "pinyin": "Xī'ān",
+    "meaning": "Xi'an (Stadt in Nordwestchina)"
+   },
+   {
+    "word": "门口",
+    "pinyin": "ménkǒu",
+    "meaning": "Eingang; vor der Tür",
+    "vocabId": "w:门口:men2kou3"
+   },
+   {
+    "word": "见面",
+    "pinyin": "jiànmiàn",
+    "meaning": "sich treffen",
+    "vocabId": "w:见面:jian4mian4"
+   },
+   {
+    "word": "出租车",
+    "pinyin": "chūzūchē",
+    "meaning": "Taxi",
+    "vocabId": "w:出租车:chu1zu1che1"
+   },
+   {
+    "word": "火车站",
+    "pinyin": "huǒchēzhàn",
+    "meaning": "Bahnhof",
+    "vocabId": "w:火车站:huo3che1zhan4"
+   },
+   {
+    "word": "地铁",
+    "pinyin": "dìtiě",
+    "meaning": "U-Bahn",
+    "vocabId": "w:地铁:di4tie3"
+   },
+   {
+    "word": "宾馆",
+    "pinyin": "bīnguǎn",
+    "meaning": "Hotel",
+    "vocabId": "w:宾馆:bin1guan3"
+   },
+   {
+    "word": "火车票",
+    "pinyin": "huǒchēpiào",
+    "meaning": "Zugfahrkarte"
+   },
+   {
+    "word": "不用",
+    "pinyin": "búyòng",
+    "meaning": "nicht müssen, nicht nötig sein",
+    "vocabId": "w:不用:bu4yong4"
+   },
+   {
+    "word": "身份证",
+    "pinyin": "shēnfènzhèng",
+    "meaning": "Personalausweis",
+    "vocabId": "w:身份证:shen1fen4zheng4"
+   }
+  ],
+  "note": "多 nach einer Uhrzeit bedeutet „etwas nach“: 一点多 ist „kurz nach eins“. 好 nach einem Verb zeigt, dass etwas fertig erledigt ist: 买好了 „schon gekauft“, 放好东西 „die Sachen abstellen“.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Wozu schreibt Xiao Wang die Nachricht?",
+    "evidence": "p1",
+    "choices": [
+     {
+      "text": "Um zu fragen, wer morgen mit nach Xi'an fahren möchte.",
+      "explanation": "Falsch. Die Fahrt steht schon fest (明天去西安的事); die Nachricht erklärt den Ablauf und fragt niemanden, ob er mitkommen will."
+     },
+     {
+      "text": "Um alle über den Ablauf der Fahrt nach Xi'an morgen zu informieren.",
+      "explanation": "Richtig. Am Anfang steht 明天去西安的事，跟大家说一下, danach folgen Treffpunkt, Zeiten und Verkehrsmittel."
+     },
+     {
+      "text": "Um alle zu bitten, ihre Zugfahrkarte selbst zu kaufen.",
+      "explanation": "Falsch. Die Fahrkarten sind schon gekauft: 火车票我已经买好了，大家不用自己买."
+     },
+     {
+      "text": "Um ein Restaurant in Xi'an zu empfehlen.",
+      "explanation": "Falsch. Es steht nur da, dass die Gruppe nach dem Hotel essen geht (再出去吃饭); ein Restaurant wird nicht genannt."
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Wie kommt die Gruppe zum Bahnhof?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Mit der U-Bahn.",
+      "explanation": "Falsch. Mit der U-Bahn fahren sie erst in Xi'an, und zwar zum Hotel (坐地铁去宾馆)."
+     },
+     {
+      "text": "Mit dem Bus.",
+      "explanation": "Falsch. Ein Bus kommt im Text nicht vor; dort steht 坐出租车去火车站."
+     },
+     {
+      "text": "Zu Fuß.",
+      "explanation": "Falsch. Sie gehen nicht zu Fuß, sondern fahren gemeinsam: 一起坐出租车去火车站."
+     },
+     {
+      "text": "Mit dem Taxi.",
+      "explanation": "Richtig. Nach dem Treffen fahren sie zusammen mit dem Taxi zum Bahnhof: 一起坐出租车去火车站."
+     }
+    ],
+    "answer": 3
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Wie lange dauert die Zugfahrt ungefähr?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Etwa vier bis fünf Stunden.",
+      "explanation": "Richtig. Der Zug fährt um 8:40 Uhr ab (八点四十开) und kommt kurz nach 13 Uhr an (下午一点多到西安) – das sind gut vier Stunden."
+     },
+     {
+      "text": "Etwa eine Stunde.",
+      "explanation": "Falsch. 一点多 ist die Ankunftszeit (kurz nach 13 Uhr), nicht die Dauer der Fahrt."
+     },
+     {
+      "text": "Etwa zwei Stunden.",
+      "explanation": "Falsch. Von 8:40 Uhr (八点四十) bis kurz nach 13 Uhr (下午一点多) sind es mehr als vier Stunden."
+     },
+     {
+      "text": "Mehr als acht Stunden.",
+      "explanation": "Falsch. 八点四十 ist die Abfahrtszeit; die Ankunft ist schon am frühen Nachmittag (下午一点多)."
+     }
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "reading-hsk2-06",
+  "level": "HSK2",
+  "skill": "reading",
+  "order": 6,
+  "task": {
+   "no": 10,
+   "title": "问答生病、探病"
+  },
+  "topic": "日常生活›医疗健康›就医",
+  "title": "Wang Xiaohong war beim Arzt",
+  "objective": "Du kannst auf einem Zettel vom Arzt erkennen, wie oft und wie viel man von einem Medikament nehmen soll.",
+  "textType": "Zettel vom Arzt",
+  "minutes": 5,
+  "introduction": "Wang Xiaohong ist erkältet und hat beim Arzt diesen Zettel bekommen. Achte genau auf die Zahlen: wie oft, wie viele Tabletten und wann.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "text": "病人：王小红　十月九日",
+    "pinyin": "Bìngrén: Wáng Xiǎohóng shí yuè jiǔ rì"
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "text": "一、感冒药：一天三次，一次两片，饭后吃。",
+    "pinyin": "Yī, gǎnmàoyào: yì tiān sān cì, yí cì liǎng piàn, fàn hòu chī."
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "text": "二、退烧药：发烧的时候吃，一次一片。吃了以后，要过六个小时才能再吃。",
+    "pinyin": "Èr, tuìshāoyào: fāshāo de shíhou chī, yí cì yí piàn. Chīle yǐhòu, yào guò liù ge xiǎoshí cái néng zài chī."
+   },
+   {
+    "id": "p4",
+    "speaker": "",
+    "text": "医生的话：多喝水，多休息，这几天不要吃冷的东西。如果三天以后还没好，请再来医院看看。",
+    "pinyin": "Yīshēng de huà: duō hē shuǐ, duō xiūxi, zhè jǐ tiān búyào chī lěng de dōngxi. Rúguǒ sān tiān yǐhòu hái méi hǎo, qǐng zài lái yīyuàn kànkan."
+   }
+  ],
+  "translation": "Patientin: Wang Xiaohong, 9. Oktober. 1. Erkältungsmittel: dreimal täglich, jeweils zwei Tabletten, nach dem Essen einnehmen. 2. Fiebermittel: bei Fieber einnehmen, jeweils eine Tablette. Nach der Einnahme muss man sechs Stunden warten, bevor man wieder eine nehmen darf. Hinweis des Arztes: Viel Wasser trinken, viel ausruhen, in den nächsten Tagen nichts Kaltes essen. Wenn es nach drei Tagen noch nicht besser ist, bitte noch einmal ins Krankenhaus kommen.",
+  "glossary": [
+   {
+    "word": "病人",
+    "pinyin": "bìngrén",
+    "meaning": "Patient, Patientin",
+    "vocabId": "w:病人:bing4ren2"
+   },
+   {
+    "word": "感冒",
+    "pinyin": "gǎnmào",
+    "meaning": "Erkältung; erkältet sein",
+    "vocabId": "w:感冒:gan3mao4"
+   },
+   {
+    "word": "药",
+    "pinyin": "yào",
+    "meaning": "Medikament, Medizin",
+    "vocabId": "w:药:yao4"
+   },
+   {
+    "word": "次",
+    "pinyin": "cì",
+    "meaning": "Mal (Zählwort für Häufigkeit)",
+    "vocabId": "w:次:ci4"
+   },
+   {
+    "word": "片",
+    "pinyin": "piàn",
+    "meaning": "Zählwort für flache Dinge, hier: Tablette",
+    "vocabId": "w:片:pian4"
+   },
+   {
+    "word": "饭后",
+    "pinyin": "fàn hòu",
+    "meaning": "nach dem Essen"
+   },
+   {
+    "word": "发烧",
+    "pinyin": "fāshāo",
+    "meaning": "Fieber haben",
+    "vocabId": "w:发烧:fa1shao1"
+   },
+   {
+    "word": "退烧药",
+    "pinyin": "tuìshāoyào",
+    "meaning": "fiebersenkendes Mittel, Fiebermittel"
+   },
+   {
+    "word": "如果",
+    "pinyin": "rúguǒ",
+    "meaning": "wenn, falls",
+    "vocabId": "w:如果:ru2guo3"
+   }
+  ],
+  "note": "So liest man die Häufigkeit auf Medikamenten: 一天三次 „dreimal am Tag“ (Zeitraum + Zahl + 次), 一次两片 „pro Mal zwei Tabletten“. 饭后 heißt „nach dem Essen“, 饭前 „vor dem Essen“.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worüber informiert der Zettel vor allem?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Wann Wang Xiaohongs nächster fester Arzttermin ist.",
+      "explanation": "Falsch. Es gibt keinen festen Termin; sie soll nur wiederkommen, wenn es ihr nach drei Tagen nicht besser geht (如果三天以后还没好，请再来医院看看)."
+     },
+     {
+      "text": "Wie viel die Medikamente kosten.",
+      "explanation": "Falsch. Auf dem Zettel stehen keine Preise, nur wie man die Medikamente nimmt."
+     },
+     {
+      "text": "Wie oft und wie viel Wang Xiaohong von ihren Medikamenten nehmen soll.",
+      "explanation": "Richtig. Für beide Medikamente steht da, wann und wie viele Tabletten sie nehmen soll, z. B. 一天三次，一次两片."
+     },
+     {
+      "text": "Wie viele Tage Wang Xiaohong nicht arbeiten darf.",
+      "explanation": "Falsch. Von Arbeit ist nicht die Rede; die drei Tage (三天以后) beziehen sich darauf, wann sie wiederkommen soll, falls es ihr nicht besser geht."
+     }
+    ],
+    "answer": 2
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Wie soll Wang Xiaohong das Erkältungsmittel nehmen?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Dreimal am Tag zwei Tabletten, nach dem Essen.",
+      "explanation": "Richtig. 一天三次，一次两片，饭后吃 – dreimal täglich, jeweils zwei Tabletten, nach dem Essen."
+     },
+     {
+      "text": "Zweimal am Tag drei Tabletten, nach dem Essen.",
+      "explanation": "Falsch. Die Zahlen sind vertauscht: 一天三次 (dreimal am Tag), 一次两片 (zwei Tabletten pro Mal)."
+     },
+     {
+      "text": "Dreimal am Tag zwei Tabletten, vor dem Essen.",
+      "explanation": "Falsch. Dort steht 饭后吃, also nach dem Essen; „vor dem Essen“ wäre 饭前."
+     },
+     {
+      "text": "Nur bei Fieber, jeweils eine Tablette.",
+      "explanation": "Falsch. Das gilt für das Fiebermittel (退烧药：发烧的时候吃，一次一片), nicht für das Erkältungsmittel."
+     }
+    ],
+    "answer": 0
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Wang Xiaohong nimmt um 8 Uhr morgens eine Tablette gegen Fieber. Wann darf sie frühestens die nächste nehmen?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Um 9 Uhr.",
+      "explanation": "Falsch. Das wäre schon nach einer Stunde; sie muss aber sechs Stunden warten (要过六个小时才能再吃)."
+     },
+     {
+      "text": "Um 11 Uhr.",
+      "explanation": "Falsch. Das sind erst drei Stunden; nötig sind sechs Stunden (六个小时)."
+     },
+     {
+      "text": "Um 20 Uhr.",
+      "explanation": "Falsch. Das wären zwölf Stunden; sie darf schon nach sechs Stunden wieder eine nehmen (要过六个小时才能再吃)."
+     },
+     {
+      "text": "Um 14 Uhr.",
+      "explanation": "Richtig. Nach der Tablette muss sie sechs Stunden warten (要过六个小时才能再吃): 8 Uhr + 6 Stunden = 14 Uhr."
+     }
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "reading-hsk2-07",
+  "level": "HSK2",
+  "skill": "reading",
+  "order": 7,
+  "task": {
+   "no": 12,
+   "title": "介绍家庭日常生活"
+  },
+  "topic": "日常生活›家庭生活›家庭活动",
+  "title": "Liu Yang erzählt von zu Hause",
+  "objective": "Du kannst in einem kurzen Text erkennen, wer zu einer Familie gehört, welche Gewohnheiten sie hat und wer welche Arbeit im Haushalt macht.",
+  "textType": "Schüleraufsatz",
+  "minutes": 6,
+  "introduction": "Liu Yang geht noch zur Schule und hat für den Unterricht einen kurzen Aufsatz geschrieben. Achte darauf, wer in der Familie was macht.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "text": "我家有五口人：爷爷、爸爸、妈妈、妹妹和我。爸爸是医生，工作很忙，常常很晚才回家。妈妈是中学老师，每天早上六点就起床给我们做早饭。爷爷每天早上都去公园走走。",
+    "pinyin": "Wǒ jiā yǒu wǔ kǒu rén: yéye, bàba, māma, mèimei hé wǒ. Bàba shì yīshēng, gōngzuò hěn máng, chángcháng hěn wǎn cái huí jiā. Māma shì zhōngxué lǎoshī, měi tiān zǎoshang liù diǎn jiù qǐchuáng gěi wǒmen zuò zǎofàn. Yéye měi tiān zǎoshang dōu qù gōngyuán zǒuzou."
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "text": "家里的事情大家一起做：妈妈做饭，爸爸洗碗，我打扫房间。妹妹才六岁，她只要把自己的东西放好就可以了。",
+    "pinyin": "Jiā li de shìqing dàjiā yìqǐ zuò: māma zuò fàn, bàba xǐ wǎn, wǒ dǎsǎo fángjiān. Mèimei cái liù suì, tā zhǐyào bǎ zìjǐ de dōngxi fànghǎo jiù kěyǐ le."
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "text": "下个星期六是妈妈的生日。我和爸爸想给她做一个蛋糕，现在还不能告诉她！",
+    "pinyin": "Xià ge xīngqīliù shì māma de shēngrì. Wǒ hé bàba xiǎng gěi tā zuò yí ge dàngāo, xiànzài hái bù néng gàosu tā!"
+   }
+  ],
+  "translation": "Meine Familie hat fünf Personen: Opa, Papa, Mama, meine jüngere Schwester und ich. Papa ist Arzt, er hat viel zu tun und kommt oft erst spät nach Hause. Mama ist Lehrerin an einer Mittelschule; sie steht jeden Morgen schon um sechs Uhr auf und macht uns Frühstück. Opa geht jeden Morgen ein bisschen im Park spazieren. Die Arbeit im Haushalt machen wir alle zusammen: Mama kocht, Papa spült das Geschirr und ich mache die Zimmer sauber. Meine Schwester ist erst sechs, sie muss nur ihre eigenen Sachen aufräumen. Nächsten Samstag hat Mama Geburtstag. Papa und ich wollen ihr einen Kuchen backen – das dürfen wir ihr jetzt aber noch nicht sagen!",
+  "glossary": [
+   {
+    "word": "口",
+    "pinyin": "kǒu",
+    "meaning": "Zählwort für Familienmitglieder",
+    "vocabId": "w:口:kou3"
+   },
+   {
+    "word": "爷爷",
+    "pinyin": "yéye",
+    "meaning": "Opa (Vater des Vaters)",
+    "vocabId": "w:爷爷:ye2ye5"
+   },
+   {
+    "word": "中学",
+    "pinyin": "zhōngxué",
+    "meaning": "Mittelschule, weiterführende Schule",
+    "vocabId": "w:中学:zhong1xue2"
+   },
+   {
+    "word": "洗碗",
+    "pinyin": "xǐ wǎn",
+    "meaning": "Geschirr spülen",
+    "vocabId": "w:洗碗:xi3wan3"
+   },
+   {
+    "word": "打扫",
+    "pinyin": "dǎsǎo",
+    "meaning": "putzen, sauber machen",
+    "vocabId": "w:打扫:da3sao3"
+   },
+   {
+    "word": "才",
+    "pinyin": "cái",
+    "meaning": "erst (spät, wenig)",
+    "vocabId": "w:才:cai2"
+   },
+   {
+    "word": "只要",
+    "pinyin": "zhǐyào",
+    "meaning": "solange, wenn nur; man muss nur …",
+    "vocabId": "w:只要:zhi3yao4"
+   },
+   {
+    "word": "蛋糕",
+    "pinyin": "dàngāo",
+    "meaning": "Kuchen, Torte",
+    "vocabId": "w:蛋糕:dang4ao1"
+   },
+   {
+    "word": "告诉",
+    "pinyin": "gàosu",
+    "meaning": "sagen, mitteilen",
+    "vocabId": "w:告诉:gao4su5"
+   }
+  ],
+  "note": "才 betont, dass etwas spät oder wenig ist: 很晚才回家 „kommt erst spät nach Hause“, 才六岁 „erst sechs Jahre alt“. Mit 只要……就可以了 sagt man, was jemand nur tun muss: 只要把东西放好就可以了 „muss nur die Sachen wegräumen“.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worum geht es in dem Aufsatz?",
+    "evidence": "p1",
+    "choices": [
+     {
+      "text": "Liu Yang stellt die eigene Familie und ihren Alltag zu Hause vor.",
+      "explanation": "Richtig. Der Aufsatz nennt die Familienmitglieder (我家有五口人), ihre Gewohnheiten, die Arbeit im Haushalt und Mamas Geburtstag."
+     },
+     {
+      "text": "Liu Yang beschreibt die Arbeit des Vaters im Krankenhaus.",
+      "explanation": "Falsch. Über Papas Arbeit steht nur 爸爸是医生，工作很忙; der Text erzählt von der ganzen Familie."
+     },
+     {
+      "text": "Liu Yang erklärt, wie man einen Kuchen backt.",
+      "explanation": "Falsch. Es steht nur da, dass Liu Yang mit Papa einen Kuchen machen will (想给她做一个蛋糕), nicht wie."
+     },
+     {
+      "text": "Liu Yang beschwert sich über zu viel Arbeit zu Hause.",
+      "explanation": "Falsch. Die Arbeit machen alle zusammen (大家一起做); von einer Beschwerde ist keine Rede."
+     }
+    ],
+    "answer": 0
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Wer spült bei Liu Yang zu Hause das Geschirr?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Mama.",
+      "explanation": "Falsch. Mama kocht (妈妈做饭)."
+     },
+     {
+      "text": "Liu Yang selbst.",
+      "explanation": "Falsch. Liu Yang macht die Zimmer sauber (我打扫房间)."
+     },
+     {
+      "text": "Papa.",
+      "explanation": "Richtig. Im Text steht 爸爸洗碗 – Papa spült das Geschirr."
+     },
+     {
+      "text": "Opa.",
+      "explanation": "Falsch. Bei der Hausarbeit wird Opa nicht genannt; von ihm heißt es nur, dass er morgens in den Park geht (去公园走走)."
+     }
+    ],
+    "answer": 2
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Was kann man über den Kuchen schließen?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Mama backt ihn selbst für ihren Geburtstag.",
+      "explanation": "Falsch. Liu Yang und Papa wollen ihn für sie machen (我和爸爸想给她做一个蛋糕)."
+     },
+     {
+      "text": "Er soll eine Überraschung für Mama sein.",
+      "explanation": "Richtig. Sie dürfen es ihr jetzt noch nicht sagen (现在还不能告诉她) – Mama soll also nichts davon wissen."
+     },
+     {
+      "text": "Er ist für den Geburtstag der Schwester.",
+      "explanation": "Falsch. Nächsten Samstag hat Mama Geburtstag (是妈妈的生日), und der Kuchen ist für sie (给她做)."
+     },
+     {
+      "text": "Papa und Liu Yang kaufen ihn in einer Bäckerei.",
+      "explanation": "Falsch. Sie wollen ihn selbst machen (做一个蛋糕), nicht kaufen (买)."
+     }
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "reading-hsk2-08",
+  "level": "HSK2",
+  "skill": "reading",
+  "order": 8,
+  "task": {
+   "no": 13,
+   "title": "介绍学习情况、学习经历"
+  },
+  "topic": "教育情况›学习情况›基本情况",
+  "title": "Anna lernt Chinesisch",
+  "objective": "Du kannst einer kurzen Notiz entnehmen, seit wann jemand Chinesisch lernt und was er oder sie wann lernen will.",
+  "textType": "Notiz im Lerntagebuch",
+  "minutes": 5,
+  "introduction": "Die Deutsche Anna studiert in Peking und hat in ihr Lerntagebuch geschrieben. Achte auf die Zeitangaben: Seit wann lernt sie, und was will sie wann tun?",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "text": "我叫安娜，是德国人。我去年九月来到北京，开始学习汉语，现在在北京语言大学上课。",
+    "pinyin": "Wǒ jiào Ānnà, shì Déguórén. Wǒ qùnián jiǔ yuè láidào Běijīng, kāishǐ xuéxí Hànyǔ, xiànzài zài Běijīng Yǔyán Dàxué shàngkè."
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "text": "这个学期，我的学习计划是：",
+    "pinyin": "Zhège xuéqī, wǒ de xuéxí jìhuà shì:"
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "text": "一、每天早上读半个小时课文，记十个新词。",
+    "pinyin": "Yī, měi tiān zǎoshang dú bàn ge xiǎoshí kèwén, jì shí ge xīn cí."
+   },
+   {
+    "id": "p4",
+    "speaker": "",
+    "text": "二、每个星期二和星期四下午跟中国朋友练习说汉语。",
+    "pinyin": "Èr, měi ge xīngqī'èr hé xīngqīsì xiàwǔ gēn Zhōngguó péngyou liànxí shuō Hànyǔ."
+   },
+   {
+    "id": "p5",
+    "speaker": "",
+    "text": "三、每个周末看一部中国电影。",
+    "pinyin": "Sān, měi ge zhōumò kàn yí bù Zhōngguó diànyǐng."
+   },
+   {
+    "id": "p6",
+    "speaker": "",
+    "text": "四、明年六月参加HSK三级考试。",
+    "pinyin": "Sì, míngnián liù yuè cānjiā HSK sān jí kǎoshì."
+   }
+  ],
+  "translation": "Ich heiße Anna und bin Deutsche. Im September letzten Jahres bin ich nach Peking gekommen und habe angefangen, Chinesisch zu lernen; jetzt habe ich Unterricht an der Pekinger Sprachuniversität. Mein Lernplan für dieses Semester: 1. Jeden Morgen eine halbe Stunde Lektionstexte lesen und mir zehn neue Wörter merken. 2. Jeden Dienstag- und Donnerstagnachmittag mit chinesischen Freunden Chinesischsprechen üben. 3. Jedes Wochenende einen chinesischen Film ansehen. 4. Im Juni nächsten Jahres an der HSK-Prüfung der Stufe 3 teilnehmen.",
+  "glossary": [
+   {
+    "word": "北京语言大学",
+    "pinyin": "Běijīng Yǔyán Dàxué",
+    "meaning": "Pekinger Sprachuniversität (Beijing Language and Culture University)"
+   },
+   {
+    "word": "学期",
+    "pinyin": "xuéqī",
+    "meaning": "Semester, Schulhalbjahr",
+    "vocabId": "w:学期:xue2qi1"
+   },
+   {
+    "word": "计划",
+    "pinyin": "jìhuà",
+    "meaning": "Plan; planen",
+    "vocabId": "w:计划:ji4hua4"
+   },
+   {
+    "word": "课文",
+    "pinyin": "kèwén",
+    "meaning": "Lektionstext",
+    "vocabId": "w:课文:ke4wen2"
+   },
+   {
+    "word": "记",
+    "pinyin": "jì",
+    "meaning": "sich merken",
+    "vocabId": "w:记:ji4"
+   },
+   {
+    "word": "练习",
+    "pinyin": "liànxí",
+    "meaning": "üben",
+    "vocabId": "w:练习:lian4xi2"
+   },
+   {
+    "word": "周末",
+    "pinyin": "zhōumò",
+    "meaning": "Wochenende",
+    "vocabId": "w:周末:zhou1mo4"
+   },
+   {
+    "word": "部",
+    "pinyin": "bù",
+    "meaning": "Zählwort für Filme",
+    "vocabId": "w:部:bu4"
+   },
+   {
+    "word": "参加",
+    "pinyin": "cānjiā",
+    "meaning": "teilnehmen an",
+    "vocabId": "w:参加:can1jia1"
+   },
+   {
+    "word": "级",
+    "pinyin": "jí",
+    "meaning": "Stufe, Niveau",
+    "vocabId": "w:级:ji2"
+   }
+  ],
+  "note": "Zeitangaben stehen im Chinesischen vor dem Verb: 每个周末看一部电影 „jedes Wochenende einen Film sehen“. Merke die Jahre: 去年 „letztes Jahr“, 今年 „dieses Jahr“, 明年 „nächstes Jahr“.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worum geht es in der Notiz vor allem?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Anna berichtet, wie ihre HSK-Prüfung gelaufen ist.",
+      "explanation": "Falsch. Die Prüfung kommt erst noch: 明年六月参加HSK三级考试 – im Juni nächsten Jahres."
+     },
+     {
+      "text": "Anna stellt den Stundenplan ihrer Universität vor.",
+      "explanation": "Falsch. Sie nennt keine Kurse der Universität, sondern was sie selbst tun will, z. B. 每天早上读半个小时课文."
+     },
+     {
+      "text": "Anna sucht chinesische Freunde zum Üben.",
+      "explanation": "Falsch. Sie übt schon mit chinesischen Freunden (跟中国朋友练习说汉语); dass sie welche sucht, steht nicht im Text."
+     },
+     {
+      "text": "Anna stellt sich kurz vor und schreibt auf, was sie in diesem Semester lernen will.",
+      "explanation": "Richtig. Nach ein paar Sätzen über sich selbst folgt 这个学期，我的学习计划是 mit vier Punkten."
+     }
+    ],
+    "answer": 3
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Wann übt Anna mit chinesischen Freunden Chinesischsprechen?",
+    "evidence": "p4",
+    "choices": [
+     {
+      "text": "Jeden Morgen.",
+      "explanation": "Falsch. Morgens liest sie Lektionstexte und lernt Wörter (每天早上读半个小时课文)."
+     },
+     {
+      "text": "Dienstag- und Donnerstagnachmittag.",
+      "explanation": "Richtig. 每个星期二和星期四下午跟中国朋友练习说汉语."
+     },
+     {
+      "text": "Am Wochenende.",
+      "explanation": "Falsch. Am Wochenende sieht sie einen chinesischen Film (每个周末看一部中国电影)."
+     },
+     {
+      "text": "Montag- und Mittwochnachmittag.",
+      "explanation": "Falsch. 星期二 ist Dienstag und 星期四 Donnerstag; Montag wäre 星期一, Mittwoch 星期三."
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Wie lange wird Anna ungefähr Chinesisch gelernt haben, wenn sie die Prüfung macht?",
+    "evidence": "p6",
+    "choices": [
+     {
+      "text": "Etwa ein halbes Jahr.",
+      "explanation": "Falsch. Sie hat schon im September letzten Jahres angefangen (去年九月……开始学习汉语); bis zur Prüfung vergeht viel mehr Zeit."
+     },
+     {
+      "text": "Etwa ein Jahr.",
+      "explanation": "Falsch. Von September letzten Jahres (去年九月) bis Juni nächsten Jahres (明年六月) ist es deutlich länger als ein Jahr."
+     },
+     {
+      "text": "Fast zwei Jahre.",
+      "explanation": "Richtig. Sie hat im September letzten Jahres angefangen (去年九月) und macht die Prüfung im Juni nächsten Jahres (明年六月) – das sind etwa 21 Monate."
+     },
+     {
+      "text": "Mehr als drei Jahre.",
+      "explanation": "Falsch. Zwischen 去年九月 und 明年六月 liegen keine drei Jahre, sondern nur etwa 21 Monate."
+     }
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "reading-hsk2-09",
+  "level": "HSK2",
+  "skill": "reading",
+  "order": 9,
+  "task": {
+   "no": 15,
+   "title": "交流工作情况"
+  },
+  "topic": "职场生活›工作情况›工作经历、工作感受",
+  "title": "Aus der Firmenzeitung",
+  "objective": "Du kannst in einem kurzen Text über eine Person erkennen, wo und wie lange sie gearbeitet hat, was sie heute macht und wie sie ihre Arbeit empfindet.",
+  "textType": "Kurzartikel (Firmenzeitung)",
+  "minutes": 6,
+  "introduction": "Ein kurzer Artikel aus der Zeitung einer Firma. Achte darauf, was Chen Jing früher gemacht hat, wie lange, und was sie über ihre Arbeit sagt.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "text": "欢迎新同事陈静！",
+    "pinyin": "Huānyíng xīn tóngshì Chén Jìng!"
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "text": "陈静今年二十八岁，大学学的是外语。大学毕业以后，她在一家旅游公司工作了四年，常常带客人去外国旅游。",
+    "pinyin": "Chén Jìng jīnnián èrshíbā suì, dàxué xué de shì wàiyǔ. Dàxué bìyè yǐhòu, tā zài yì jiā lǚyóu gōngsī gōngzuò le sì nián, chángcháng dài kèrén qù wàiguó lǚyóu."
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "text": "她说，那个工作很有意思，可是太累了，一年里有半年不在家。今年九月，她来到我们公司，在三楼的办公室工作，每天帮经理写邮件，也给客人打电话。",
+    "pinyin": "Tā shuō, nà ge gōngzuò hěn yǒu yìsi, kěshì tài lèi le, yì nián li yǒu bàn nián bú zài jiā. Jīnnián jiǔ yuè, tā láidào wǒmen gōngsī, zài sān lóu de bàngōngshì gōngzuò, měi tiān bāng jīnglǐ xiě yóujiàn, yě gěi kèrén dǎ diànhuà."
+   },
+   {
+    "id": "p4",
+    "speaker": "",
+    "text": "她说，现在的工作没有以前那么累，下班以后还能去跑步。",
+    "pinyin": "Tā shuō, xiànzài de gōngzuò méiyǒu yǐqián nàme lèi, xiàbān yǐhòu hái néng qù pǎobù."
+   }
+  ],
+  "translation": "Willkommen, neue Kollegin Chen Jing! Chen Jing ist dieses Jahr 28 Jahre alt und hat an der Universität Fremdsprachen studiert. Nach dem Studienabschluss hat sie vier Jahre bei einem Reiseunternehmen gearbeitet und oft Kunden auf Reisen ins Ausland begleitet. Sie sagt, diese Arbeit war sehr interessant, aber zu anstrengend – jedes Jahr war sie ein halbes Jahr lang nicht zu Hause. Im September dieses Jahres ist sie zu unserer Firma gekommen. Sie arbeitet im Büro im dritten Stock, schreibt jeden Tag E-Mails für den Geschäftsführer und telefoniert auch mit Kunden. Sie sagt, ihre jetzige Arbeit ist nicht so anstrengend wie früher, und nach Feierabend kann sie noch joggen gehen.",
+  "glossary": [
+   {
+    "word": "同事",
+    "pinyin": "tóngshì",
+    "meaning": "Kollege, Kollegin",
+    "vocabId": "w:同事:tong2shi4"
+   },
+   {
+    "word": "毕业",
+    "pinyin": "bìyè",
+    "meaning": "den Abschluss machen (Schule, Studium)",
+    "vocabId": "w:毕业:bi4ye4"
+   },
+   {
+    "word": "旅游",
+    "pinyin": "lǚyóu",
+    "meaning": "reisen; Tourismus",
+    "vocabId": "w:旅游:lv3you2"
+   },
+   {
+    "word": "客人",
+    "pinyin": "kèrén",
+    "meaning": "Gast; Kunde, Kundin",
+    "vocabId": "w:客人:ke4ren2"
+   },
+   {
+    "word": "办公室",
+    "pinyin": "bàngōngshì",
+    "meaning": "Büro",
+    "vocabId": "w:办公室:ban4gong1shi4"
+   },
+   {
+    "word": "经理",
+    "pinyin": "jīnglǐ",
+    "meaning": "Geschäftsführer(in), Manager(in)",
+    "vocabId": "w:经理:jing1li3"
+   },
+   {
+    "word": "邮件",
+    "pinyin": "yóujiàn",
+    "meaning": "E-Mail",
+    "vocabId": "w:邮件:you2jian4"
+   },
+   {
+    "word": "跑步",
+    "pinyin": "pǎobù",
+    "meaning": "joggen, laufen",
+    "vocabId": "w:跑步:pao3bu4"
+   }
+  ],
+  "note": "Mit „A 没有 B 那么 + Adjektiv“ sagt man, dass A weniger … ist als B: 现在的工作没有以前那么累 – „Die jetzige Arbeit ist nicht so anstrengend wie früher.“ Die Dauer steht nach dem Verb: 工作了四年 – „vier Jahre gearbeitet“.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worum geht es in dem Artikel?",
+    "evidence": "p1",
+    "choices": [
+     {
+      "text": "Ein Reiseunternehmen sucht neue Mitarbeiter.",
+      "explanation": "Falsch. Bei einem Reiseunternehmen hat Chen Jing früher gearbeitet (在一家旅游公司工作了四年); eine Stellenanzeige ist das nicht."
+     },
+     {
+      "text": "Eine neue Kollegin und ihr bisheriger Berufsweg werden vorgestellt.",
+      "explanation": "Richtig. Der Text beginnt mit 欢迎新同事陈静 und erzählt, was sie früher gemacht hat und was sie jetzt in der Firma macht."
+     },
+     {
+      "text": "Chen Jing berichtet von ihrer letzten Reise ins Ausland.",
+      "explanation": "Falsch. Dass sie Kunden ins Ausland begleitet hat (带客人去外国旅游), gehört zu ihrer früheren Arbeit; eine bestimmte Reise beschreibt der Text nicht."
+     },
+     {
+      "text": "Der Geschäftsführer erklärt, wie man im Büro E-Mails schreibt.",
+      "explanation": "Falsch. Der Geschäftsführer (经理) kommt nur vor, weil Chen Jing für ihn E-Mails schreibt (帮经理写邮件)."
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Wie lange hat Chen Jing bei dem Reiseunternehmen gearbeitet?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Ein halbes Jahr.",
+      "explanation": "Falsch. 一年里有半年不在家 heißt, dass sie jedes Jahr ein halbes Jahr nicht zu Hause war – nicht, wie lange sie dort gearbeitet hat."
+     },
+     {
+      "text": "Acht Jahre.",
+      "explanation": "Falsch. Die Acht steckt nur in ihrem Alter: 二十八岁 – 28 Jahre."
+     },
+     {
+      "text": "Zwei Jahre.",
+      "explanation": "Falsch. Im Text steht 工作了四年, also vier Jahre."
+     },
+     {
+      "text": "Vier Jahre.",
+      "explanation": "Richtig. 她在一家旅游公司工作了四年 – „Sie hat vier Jahre bei einem Reiseunternehmen gearbeitet.“"
+     }
+    ],
+    "answer": 3
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Warum hat Chen Jing wahrscheinlich die Arbeit gewechselt?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Die alte Arbeit war sehr anstrengend, und sie war oft lange nicht zu Hause.",
+      "explanation": "Richtig. Sie sagt, die Arbeit war 太累了 und 一年里有半年不在家; heute ist die Arbeit 没有以前那么累 und sie hat nach Feierabend Zeit zum Joggen."
+     },
+     {
+      "text": "Sie fand die alte Arbeit langweilig.",
+      "explanation": "Falsch. Sie sagt ausdrücklich: 那个工作很有意思 – „Diese Arbeit war sehr interessant.“"
+     },
+     {
+      "text": "Sie wollte noch öfter ins Ausland reisen.",
+      "explanation": "Falsch. Ins Ausland ist sie gerade bei der alten Arbeit oft gereist (常常带客人去外国旅游); jetzt arbeitet sie im Büro (在三楼的办公室工作)."
+     },
+     {
+      "text": "Sie hatte nach dem Studium noch nie gearbeitet.",
+      "explanation": "Falsch. Nach dem Abschluss hat sie schon vier Jahre bei einem Reiseunternehmen gearbeitet (大学毕业以后……工作了四年)."
+     }
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "reading-hsk2-10",
+  "level": "HSK2",
+  "skill": "reading",
+  "order": 10,
+  "task": {
+   "no": 17,
+   "title": "使用中文称谓语"
+  },
+  "topic": "文化与传统›姓氏文化›主要姓氏、正式称谓等",
+  "title": "Drei kurze Nachrichten",
+  "objective": "Du kannst in Notizen und Karten die chinesische Anrede am Anfang verstehen und daraus erkennen, an wen sich der Text richtet.",
+  "textType": "Kurze Mitteilungen",
+  "minutes": 6,
+  "introduction": "Hier stehen drei kurze handgeschriebene Texte. Achte darauf, wie sie jeweils beginnen und wie sie enden.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "",
+    "label": "Notiz",
+    "text": "刘老师：您好！我今天发烧了，不能去学校上课。作业我已经写完了，明天给您。学生王小雨，十月十日",
+    "pinyin": "Liú lǎoshī: Nín hǎo! Wǒ jīntiān fāshāo le, bù néng qù xuéxiào shàngkè. Zuòyè wǒ yǐjīng xiěwán le, míngtiān gěi nín. Xuéshēng Wáng Xiǎoyǔ, shí yuè shí rì"
+   },
+   {
+    "id": "p2",
+    "speaker": "",
+    "label": "Karte",
+    "text": "亲爱的奶奶：祝您生日快乐，身体健康！星期六我和爸爸妈妈去看您。爱您的小雨",
+    "pinyin": "Qīn'ài de nǎinai: Zhù nín shēngrì kuàilè, shēntǐ jiànkāng! Xīngqīliù wǒ hé bàba māma qù kàn nín. Ài nín de Xiǎoyǔ"
+   },
+   {
+    "id": "p3",
+    "speaker": "",
+    "label": "Zettel",
+    "text": "张阿姨：您好！谢谢您昨天送的饺子，太好吃了！盘子我放在您家门口了。楼上的小雨",
+    "pinyin": "Zhāng āyí: Nín hǎo! Xièxie nín zuótiān sòng de jiǎozi, tài hǎochī le! Pánzi wǒ fàng zài nín jiā ménkǒu le. Lóushàng de Xiǎoyǔ"
+   }
+  ],
+  "translation": "Notiz: Lehrer(in) Liu, guten Tag! Ich habe heute Fieber und kann nicht zum Unterricht in die Schule kommen. Die Hausaufgaben habe ich schon fertig, ich gebe sie Ihnen morgen. Schüler(in) Wang Xiaoyu, 10. Oktober. – Karte: Liebe Oma, ich wünsche dir alles Gute zum Geburtstag und gute Gesundheit! Am Samstag besuchen Mama, Papa und ich dich. In Liebe, Xiaoyu. – Zettel: Tante Zhang, guten Tag! Danke für die Jiaozi, die Sie gestern vorbeigebracht haben – sie waren sehr lecker! Den Teller habe ich vor Ihre Wohnungstür gestellt. Xiaoyu von oben.",
+  "glossary": [
+   {
+    "word": "发烧",
+    "pinyin": "fāshāo",
+    "meaning": "Fieber haben",
+    "vocabId": "w:发烧:fa1shao1"
+   },
+   {
+    "word": "作业",
+    "pinyin": "zuòyè",
+    "meaning": "Hausaufgaben",
+    "vocabId": "w:作业:zuo4ye4"
+   },
+   {
+    "word": "亲爱的",
+    "pinyin": "qīn'ài de",
+    "meaning": "liebe(r) … (Anrede in Briefen und Karten)"
+   },
+   {
+    "word": "祝",
+    "pinyin": "zhù",
+    "meaning": "wünschen (Glückwünsche)",
+    "vocabId": "w:祝:zhu4"
+   },
+   {
+    "word": "健康",
+    "pinyin": "jiànkāng",
+    "meaning": "gesund; Gesundheit",
+    "vocabId": "w:健康:jian4kang1"
+   },
+   {
+    "word": "阿姨",
+    "pinyin": "āyí",
+    "meaning": "Tante (höfliche Anrede für Frauen im Alter der Eltern)",
+    "vocabId": "w:阿姨:a1yi2"
+   },
+   {
+    "word": "送",
+    "pinyin": "sòng",
+    "meaning": "schenken; vorbeibringen",
+    "vocabId": "w:送:song4"
+   },
+   {
+    "word": "盘子",
+    "pinyin": "pánzi",
+    "meaning": "Teller",
+    "vocabId": "w:盘子:pan2zi5"
+   },
+   {
+    "word": "门口",
+    "pinyin": "ménkǒu",
+    "meaning": "an der Tür, vor dem Eingang",
+    "vocabId": "w:门口:men2kou3"
+   },
+   {
+    "word": "楼上",
+    "pinyin": "lóushàng",
+    "meaning": "oben im Haus, in einem oberen Stockwerk"
+   }
+  ],
+  "note": "Der Titel steht nach dem Familiennamen: 刘老师 „Lehrer(in) Liu“, 张阿姨 „Tante Zhang“. 阿姨 nennt man auch Frauen im Alter der Eltern, mit denen man nicht verwandt ist. Älteren gegenüber schreibt man höflich 您, und auch die Unterschrift passt zum Empfänger: 学生王小雨, 爱您的小雨, 楼上的小雨.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Was haben die drei Texte gemeinsam?",
+    "evidence": "p1",
+    "choices": [
+     {
+      "text": "Alle drei sind Glückwünsche zum Geburtstag.",
+      "explanation": "Falsch. Nur die Karte an die Großmutter enthält Geburtstagswünsche (祝您生日快乐); die Notiz ist eine Entschuldigung, der Zettel ein Dank."
+     },
+     {
+      "text": "Alle drei sind an Familienmitglieder gerichtet.",
+      "explanation": "Falsch. Nur 奶奶 gehört zur Familie; 刘老师 ist eine Lehrkraft und 张阿姨 eine Frau aus dem Haus."
+     },
+     {
+      "text": "Alle drei sind mit dem Namen Xiaoyu (小雨) unterschrieben und gehen jeweils an eine andere Person.",
+      "explanation": "Richtig. Am Ende steht jedes Mal der Name 小雨: 学生王小雨, 爱您的小雨 und 楼上的小雨; angesprochen werden drei verschiedene Personen: 刘老师, 亲爱的奶奶 und 张阿姨."
+     },
+     {
+      "text": "Alle drei sind an Lehrerinnen oder Lehrer gerichtet.",
+      "explanation": "Falsch. Nur die Notiz beginnt mit 刘老师; die anderen Texte gehen an 奶奶 und 张阿姨."
+     }
+    ],
+    "answer": 2
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Warum schreibt Xiaoyu an Lehrer(in) Liu?",
+    "evidence": "p1",
+    "choices": [
+     {
+      "text": "Xiaoyu hat Fieber und kann heute nicht zum Unterricht kommen.",
+      "explanation": "Richtig. 我今天发烧了，不能去学校上课 – „Ich habe heute Fieber und kann nicht zum Unterricht kommen.“"
+     },
+     {
+      "text": "Die Hausaufgaben sind noch nicht fertig.",
+      "explanation": "Falsch. In der Notiz steht 作业我已经写完了 – die Hausaufgaben sind schon fertig."
+     },
+     {
+      "text": "Xiaoyu möchte sich für die Jiaozi bedanken.",
+      "explanation": "Falsch. Der Dank für die Jiaozi (谢谢您昨天送的饺子) steht auf dem Zettel an 张阿姨, nicht in der Notiz an die Lehrkraft."
+     },
+     {
+      "text": "Xiaoyu besucht am Samstag die Großmutter.",
+      "explanation": "Falsch. Der Besuch am Samstag (星期六……去看您) steht auf der Karte an die Großmutter, nicht in der Notiz an die Lehrkraft."
+     }
+    ],
+    "answer": 0
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Wer ist 张阿姨 wahrscheinlich?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Xiaoyus Mutter.",
+      "explanation": "Falsch. Die eigene Mutter nennt man 妈妈 (wie auf der Karte: 我和爸爸妈妈), nicht mit Familienname und 阿姨."
+     },
+     {
+      "text": "Xiaoyus Lehrerin.",
+      "explanation": "Falsch. Eine Lehrkraft spricht man mit 老师 an (wie in der Notiz: 刘老师), nicht mit 阿姨."
+     },
+     {
+      "text": "Xiaoyus Großmutter.",
+      "explanation": "Falsch. Die Großmutter nennt man 奶奶 (wie auf der Karte: 亲爱的奶奶), nicht 阿姨."
+     },
+     {
+      "text": "Eine Nachbarin aus demselben Haus.",
+      "explanation": "Richtig. Unterschrieben ist mit 楼上的小雨 („Xiaoyu von oben“), und der Teller steht vor ihrer Tür (放在您家门口) – Zhang wohnt also im selben Haus, weiter unten."
+     }
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "listening-hsk2-01",
+  "level": "HSK2",
+  "skill": "listening",
+  "order": 1,
+  "task": {
+   "no": 2,
+   "title": "问答事件情况"
+  },
+  "topic": "基本信息›事件信息›事件、人物、时间、方式、地址、原因、变化、状态等",
+  "title": "Pläne für morgen",
+  "objective": "Du kannst in einem kurzen Gespräch Angaben zu einem Ereignis verstehen: Ort, Grund, Uhrzeit und Weg.",
+  "textType": "Gespräch",
+  "minutes": 5,
+  "introduction": "Zwei Personen sprechen über morgen. Achte auf den Ort, den Grund, die Uhrzeit und den Treffpunkt.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "A",
+    "text": "你知道吗？明天的篮球比赛不在学校打了。",
+    "pinyin": "Nǐ zhīdào ma? Míngtiān de lánqiú bǐsài bú zài xuéxiào dǎ le."
+   },
+   {
+    "id": "p2",
+    "speaker": "B",
+    "text": "为什么？",
+    "pinyin": "Wèishénme?"
+   },
+   {
+    "id": "p3",
+    "speaker": "A",
+    "text": "听说明天要下雨，所以换到体育馆了。",
+    "pinyin": "Tīngshuō míngtiān yào xià yǔ, suǒyǐ huàndào tǐyùguǎn le."
+   },
+   {
+    "id": "p4",
+    "speaker": "B",
+    "text": "比赛几点开始？",
+    "pinyin": "Bǐsài jǐ diǎn kāishǐ?"
+   },
+   {
+    "id": "p5",
+    "speaker": "A",
+    "text": "还是下午三点。我们一起坐公交车去吧。",
+    "pinyin": "Háishi xiàwǔ sān diǎn. Wǒmen yìqǐ zuò gōngjiāochē qù ba."
+   },
+   {
+    "id": "p6",
+    "speaker": "B",
+    "text": "好，两点半在学校门口见！",
+    "pinyin": "Hǎo, liǎng diǎn bàn zài xuéxiào ménkǒu jiàn!"
+   }
+  ],
+  "translation": "A: Weißt du schon? Das Basketballspiel morgen findet nicht in der Schule statt. – B: Warum? – A: Es soll morgen regnen, deshalb ist es in die Sporthalle verlegt worden. – B: Um wie viel Uhr fängt das Spiel an? – A: Weiterhin um drei Uhr nachmittags. Lass uns zusammen mit dem Bus hinfahren. – B: Gut, wir treffen uns um halb drei am Schultor!",
+  "glossary": [
+   {
+    "word": "比赛",
+    "pinyin": "bǐsài",
+    "meaning": "Spiel, Wettkampf",
+    "vocabId": "w:比赛:bi3sai4"
+   },
+   {
+    "word": "听说",
+    "pinyin": "tīngshuō",
+    "meaning": "gehört haben, dass …; es heißt, …",
+    "vocabId": "w:听说:ting1shuo1"
+   },
+   {
+    "word": "换",
+    "pinyin": "huàn",
+    "meaning": "wechseln; verlegen",
+    "vocabId": "w:换:huan4"
+   },
+   {
+    "word": "体育馆",
+    "pinyin": "tǐyùguǎn",
+    "meaning": "Sporthalle",
+    "vocabId": "w:体育馆:ti3yu4guan3"
+   },
+   {
+    "word": "还是",
+    "pinyin": "háishi",
+    "meaning": "immer noch, weiterhin (wie vorher)",
+    "vocabId": "w:还是:hai2shi5"
+   },
+   {
+    "word": "公交车",
+    "pinyin": "gōngjiāochē",
+    "meaning": "Bus, Linienbus",
+    "vocabId": "w:公交车:gong1jiao1che1"
+   },
+   {
+    "word": "门口",
+    "pinyin": "ménkǒu",
+    "meaning": "Eingang, Tor",
+    "vocabId": "w:门口:men2kou3"
+   }
+  ],
+  "note": "还是 bedeutet hier „wie bisher, weiterhin“: 还是下午三点 – die Uhrzeit bleibt gleich. In Fragen heißt 还是 dagegen „oder“ (今天还是明天？).",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worüber sprechen die beiden?",
+    "evidence": "p1",
+    "choices": [
+     {
+      "text": "Über eine Änderung beim Basketballspiel morgen.",
+      "explanation": "Richtig. A sagt: 明天的篮球比赛不在学校打了 – das Spiel wird an einen anderen Ort verlegt."
+     },
+     {
+      "text": "Über das Wetter am Wochenende.",
+      "explanation": "Falsch. Der Regen (明天要下雨) wird nur als Grund für die Änderung genannt, und es geht um morgen."
+     },
+     {
+      "text": "Über eine neue Buslinie zur Sporthalle.",
+      "explanation": "Falsch. Sie wollen nur mit dem Bus hinfahren (坐公交车去吧); von einer neuen Linie ist keine Rede."
+     },
+     {
+      "text": "Über ein Basketballspiel, das ausfällt.",
+      "explanation": "Falsch. Das Spiel fällt nicht aus, es findet in der Sporthalle statt (换到体育馆了)."
+     }
+    ],
+    "answer": 0
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Warum findet das Spiel nicht in der Schule statt?",
+    "evidence": "p3",
+    "choices": [
+     {
+      "text": "Weil die Schule morgen geschlossen ist.",
+      "explanation": "Falsch. Davon ist keine Rede; die beiden treffen sich sogar am Schultor (在学校门口见)."
+     },
+     {
+      "text": "Weil die Sporthalle näher ist.",
+      "explanation": "Falsch. Sie müssen mit dem Bus zur Sporthalle fahren (坐公交车去); als Grund nennt A den Regen."
+     },
+     {
+      "text": "Weil es morgen regnen soll.",
+      "explanation": "Richtig. 听说明天要下雨，所以换到体育馆了 – „Es soll regnen, deshalb wurde es in die Sporthalle verlegt.“"
+     },
+     {
+      "text": "Weil das Spiel später beginnt.",
+      "explanation": "Falsch. Die Zeit bleibt gleich: 还是下午三点."
+     }
+    ],
+    "answer": 2
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Warum treffen sich die beiden schon um halb drei?",
+    "evidence": "p5",
+    "choices": [
+     {
+      "text": "Weil das Spiel um halb drei beginnt.",
+      "explanation": "Falsch. Das Spiel beginnt um drei (还是下午三点); um halb drei treffen sie sich nur."
+     },
+     {
+      "text": "Damit sie vor Spielbeginn um drei mit dem Bus zur Sporthalle fahren können.",
+      "explanation": "Richtig. Das Spiel beginnt um drei, und sie wollen zusammen mit dem Bus fahren (一起坐公交车去吧) – deshalb treffen sie sich vorher am Schultor."
+     },
+     {
+      "text": "Weil sie zu Fuß zur Sporthalle gehen wollen.",
+      "explanation": "Falsch. A schlägt vor, mit dem Bus zu fahren (坐公交车去吧), und B ist einverstanden (好)."
+     },
+     {
+      "text": "Weil das Spiel doch in der Schule stattfindet.",
+      "explanation": "Falsch. Das Spiel ist in die Sporthalle verlegt (换到体育馆了); am Schultor treffen sie sich nur."
+     }
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "listening-hsk2-02",
+  "level": "HSK2",
+  "skill": "listening",
+  "order": 2,
+  "task": {
+   "no": 5,
+   "title": "介绍某个地方"
+  },
+  "topic": "基本信息›环境信息›环境特征",
+  "title": "Wie ist es dort?",
+  "objective": "Du kannst verstehen, wenn jemand kurz beschreibt, wo ein Ort liegt, wie weit es bis zu anderen Orten ist und was es in der Nähe gibt.",
+  "textType": "Gespräch",
+  "minutes": 5,
+  "introduction": "Zwei Personen unterhalten sich. Achte auf Ortsangaben und Entfernungen.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "A",
+    "text": "听说你搬家了？新家在哪儿？",
+    "pinyin": "Tīngshuō nǐ bānjiā le? Xīn jiā zài nǎr?"
+   },
+   {
+    "id": "p2",
+    "speaker": "B",
+    "text": "在学校东边，离学校很近，走路十分钟就到。",
+    "pinyin": "Zài xuéxiào dōngbian, lí xuéxiào hěn jìn, zǒu lù shí fēnzhōng jiù dào."
+   },
+   {
+    "id": "p3",
+    "speaker": "A",
+    "text": "那很方便啊！附近有超市吗？",
+    "pinyin": "Nà hěn fāngbiàn a! Fùjìn yǒu chāoshì ma?"
+   },
+   {
+    "id": "p4",
+    "speaker": "B",
+    "text": "有，楼下就有一个，旁边还有个小公园。",
+    "pinyin": "Yǒu, lóuxià jiù yǒu yí ge, pángbiān hái yǒu ge xiǎo gōngyuán."
+   },
+   {
+    "id": "p5",
+    "speaker": "A",
+    "text": "离地铁站远不远？",
+    "pinyin": "Lí dìtiězhàn yuǎn bu yuǎn?"
+   },
+   {
+    "id": "p6",
+    "speaker": "B",
+    "text": "有点儿远，要坐两站公交车。",
+    "pinyin": "Yǒudiǎnr yuǎn, yào zuò liǎng zhàn gōngjiāochē."
+   }
+  ],
+  "translation": "A: Ich habe gehört, du bist umgezogen? Wo ist deine neue Wohnung? – B: Östlich von der Schule, ganz nah an der Schule, zu Fuß ist man in zehn Minuten da. – A: Das ist ja praktisch! Gibt es in der Nähe einen Supermarkt? – B: Ja, direkt unten im Haus gibt es einen, und daneben ist noch ein kleiner Park. – A: Ist es weit bis zur U-Bahn-Station? – B: Ein bisschen weit, man muss zwei Stationen mit dem Bus fahren.",
+  "glossary": [
+   {
+    "word": "搬家",
+    "pinyin": "bānjiā",
+    "meaning": "umziehen",
+    "vocabId": "w:搬家:ban1jia1"
+   },
+   {
+    "word": "东边",
+    "pinyin": "dōngbian",
+    "meaning": "Osten, östlich (von)"
+   },
+   {
+    "word": "离",
+    "pinyin": "lí",
+    "meaning": "entfernt von (bei Entfernungsangaben)",
+    "vocabId": "w:离:li2"
+   },
+   {
+    "word": "方便",
+    "pinyin": "fāngbiàn",
+    "meaning": "praktisch, günstig gelegen",
+    "vocabId": "w:方便:fang1bian4"
+   },
+   {
+    "word": "附近",
+    "pinyin": "fùjìn",
+    "meaning": "in der Nähe; Umgebung",
+    "vocabId": "w:附近:fu4jin4"
+   },
+   {
+    "word": "楼下",
+    "pinyin": "lóuxià",
+    "meaning": "unten im Haus, im Erdgeschoss"
+   },
+   {
+    "word": "地铁站",
+    "pinyin": "dìtiězhàn",
+    "meaning": "U-Bahn-Station",
+    "vocabId": "w:地铁站:di4tie3zhan4"
+   },
+   {
+    "word": "站",
+    "pinyin": "zhàn",
+    "meaning": "Haltestelle, Station (auch Zählwort für Haltestellen)",
+    "vocabId": "w:站:zhan4"
+   }
+  ],
+  "note": "Entfernungen drückt man mit 离 aus: A 离 B 很近／很远 – „A ist nah an / weit weg von B“. 站 ist Haltestelle und zugleich Zählwort: 坐两站公交车 – „zwei Stationen mit dem Bus fahren“.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worüber sprechen die beiden?",
+    "evidence": "p1",
+    "choices": [
+     {
+      "text": "Über die neue Schule von B.",
+      "explanation": "Falsch. Die Schule dient nur als Orientierung (在学校东边); neu ist Bs Wohnung (新家)."
+     },
+     {
+      "text": "Über einen Ausflug in den Park.",
+      "explanation": "Falsch. Der Park wird nur als etwas in der Nähe genannt (旁边还有个小公园)."
+     },
+     {
+      "text": "Über eine Wohnung, die B kaufen möchte.",
+      "explanation": "Falsch. B ist schon umgezogen: A fragt 听说你搬家了？"
+     },
+     {
+      "text": "Über Bs neue Wohnung und was es in ihrer Nähe gibt.",
+      "explanation": "Richtig. A fragt nach dem neuen Zuhause (新家在哪儿), B beschreibt die Lage, den Supermarkt, den Park und den Weg zur U-Bahn."
+     }
+    ],
+    "answer": 3
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Wie weit ist es von Bs neuer Wohnung bis zur Schule?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Zwei Stationen mit dem Bus.",
+      "explanation": "Falsch. Zwei Busstationen (两站公交车) sind der Weg zur U-Bahn-Station, nicht zur Schule."
+     },
+     {
+      "text": "Zehn Minuten zu Fuß.",
+      "explanation": "Richtig. 离学校很近，走路十分钟就到 – „ganz nah an der Schule, zu Fuß in zehn Minuten“."
+     },
+     {
+      "text": "Zehn Minuten mit dem Bus.",
+      "explanation": "Falsch. 走路 heißt „zu Fuß gehen“; mit dem Bus fährt man nur zur U-Bahn."
+     },
+     {
+      "text": "Eine halbe Stunde zu Fuß.",
+      "explanation": "Falsch. B sagt 十分钟 – zehn Minuten."
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Was ist an der neuen Wohnung weniger praktisch?",
+    "evidence": "p6",
+    "choices": [
+     {
+      "text": "Der Weg zur Schule ist weit.",
+      "explanation": "Falsch. Die Schule ist ganz nah (离学校很近), und A findet das praktisch (那很方便啊)."
+     },
+     {
+      "text": "Es gibt keinen Supermarkt in der Nähe.",
+      "explanation": "Falsch. Ein Supermarkt ist direkt unten im Haus (楼下就有一个)."
+     },
+     {
+      "text": "Bis zur U-Bahn-Station ist es ziemlich weit.",
+      "explanation": "Richtig. Auf die Frage 离地铁站远不远？ antwortet B 有点儿远 und muss erst zwei Stationen Bus fahren."
+     },
+     {
+      "text": "Es gibt keinen Park in der Nähe.",
+      "explanation": "Falsch. Neben dem Haus gibt es einen kleinen Park (旁边还有个小公园)."
+     }
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "listening-hsk2-03",
+  "level": "HSK2",
+  "skill": "listening",
+  "order": 3,
+  "task": {
+   "no": 8,
+   "title": "问答出行情况"
+  },
+  "topic": "日常生活›交通出行›问路",
+  "title": "Eine Frage auf der Straße",
+  "objective": "Du verstehst eine einfache Wegbeschreibung mit Richtung, Dauer und Busverbindung.",
+  "textType": "Gespräch auf der Straße",
+  "minutes": 4,
+  "introduction": "Jemand spricht auf der Straße eine fremde Person an. Achte auf die Richtung, die Zeitangabe und das Verkehrsmittel.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "A",
+    "text": "请问，去火车站怎么走？",
+    "pinyin": "Qǐngwèn, qù huǒchēzhàn zěnme zǒu?"
+   },
+   {
+    "id": "p2",
+    "speaker": "B",
+    "text": "一直往前走，到第二个路口往右走。",
+    "pinyin": "Yìzhí wǎng qián zǒu, dào dì-èr ge lùkǒu wǎng yòu zǒu."
+   },
+   {
+    "id": "p3",
+    "speaker": "A",
+    "text": "远不远？走路要多长时间？",
+    "pinyin": "Yuǎn bu yuǎn? Zǒulù yào duō cháng shíjiān?"
+   },
+   {
+    "id": "p4",
+    "speaker": "B",
+    "text": "不太远，走路要二十分钟。",
+    "pinyin": "Bú tài yuǎn, zǒulù yào èrshí fēnzhōng."
+   },
+   {
+    "id": "p5",
+    "speaker": "A",
+    "text": "我的东西太多了，有公共汽车吗？",
+    "pinyin": "Wǒ de dōngxi tài duō le, yǒu gōnggòng qìchē ma?"
+   },
+   {
+    "id": "p6",
+    "speaker": "B",
+    "text": "有，坐十一路，三站就到。车站就在前面超市旁边。",
+    "pinyin": "Yǒu, zuò shíyī lù, sān zhàn jiù dào. Chēzhàn jiù zài qiánmiàn chāoshì pángbiān."
+   },
+   {
+    "id": "p7",
+    "speaker": "A",
+    "text": "好的，谢谢您！",
+    "pinyin": "Hǎo de, xièxie nín!"
+   },
+   {
+    "id": "p8",
+    "speaker": "B",
+    "text": "不客气。",
+    "pinyin": "Bú kèqi."
+   }
+  ],
+  "translation": "A: Entschuldigung, wie komme ich zum Bahnhof? – B: Immer geradeaus und an der zweiten Kreuzung rechts. – A: Ist es weit? Wie lange braucht man zu Fuß? – B: Nicht so weit, zu Fuß sind es zwanzig Minuten. – A: Ich habe zu viele Sachen dabei. Gibt es einen Bus? – B: Ja, nehmen Sie die Linie 11, nach drei Haltestellen sind Sie da. Die Haltestelle ist gleich da vorne neben dem Supermarkt. – A: Gut, vielen Dank! – B: Gern geschehen.",
+  "glossary": [
+   {
+    "word": "火车站",
+    "pinyin": "huǒchēzhàn",
+    "meaning": "Bahnhof",
+    "vocabId": "w:火车站:huo3che1zhan4"
+   },
+   {
+    "word": "一直",
+    "pinyin": "yīzhí",
+    "meaning": "geradeaus; die ganze Zeit",
+    "vocabId": "w:一直:yi1zhi2"
+   },
+   {
+    "word": "往",
+    "pinyin": "wǎng",
+    "meaning": "in Richtung; nach",
+    "vocabId": "w:往:wang3"
+   },
+   {
+    "word": "路口",
+    "pinyin": "lùkǒu",
+    "meaning": "Kreuzung; Straßenecke",
+    "vocabId": "w:路口:lu4kou3"
+   },
+   {
+    "word": "公共汽车",
+    "pinyin": "gōnggòng qìchē",
+    "meaning": "Bus",
+    "vocabId": "w:公共汽车:gong1gong4qi4che1"
+   },
+   {
+    "word": "路",
+    "pinyin": "lù",
+    "meaning": "(Bus-)Linie; Weg; Straße",
+    "vocabId": "w:路:lu4"
+   },
+   {
+    "word": "站",
+    "pinyin": "zhàn",
+    "meaning": "Haltestelle; Station",
+    "vocabId": "w:站:zhan4"
+   }
+  ],
+  "note": "Richtungen gibt man mit 往 + Richtung + 走 an: „往前走“ = geradeaus gehen, „往右走“ = nach rechts gehen. Buslinien zählt man mit 路: „十一路“ ist die Linie 11; „三站“ heißt „drei Haltestellen“.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worum geht es in dem Gespräch?",
+    "evidence": "p1",
+    "choices": [
+     {
+      "text": "A fragt, wo der nächste Supermarkt ist.",
+      "explanation": "Falsch: Der Supermarkt („超市“) wird nur als Orientierungspunkt für die Haltestelle genannt."
+     },
+     {
+      "text": "A fragt nach dem Weg zum Bahnhof.",
+      "explanation": "Richtig: „请问，去火车站怎么走？“ – A möchte wissen, wie man zum Bahnhof kommt."
+     },
+     {
+      "text": "A und B verabreden sich am Bahnhof.",
+      "explanation": "Falsch: Die beiden kennen sich nicht; B erklärt A nur den Weg („一直往前走……“)."
+     },
+     {
+      "text": "B sucht eine Bushaltestelle.",
+      "explanation": "Falsch: Nicht B, sondern A fragt („有公共汽车吗？“), und B erklärt, wo die Haltestelle ist."
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Wie lange braucht man zu Fuß zum Bahnhof?",
+    "evidence": "p4",
+    "choices": [
+     {
+      "text": "Drei Minuten",
+      "explanation": "Falsch: „三站“ sind drei Haltestellen mit dem Bus, keine drei Minuten."
+     },
+     {
+      "text": "Elf Minuten",
+      "explanation": "Falsch: „十一路“ ist die Buslinie 11, keine Zeitangabe."
+     },
+     {
+      "text": "Zwanzig Minuten",
+      "explanation": "Richtig: „走路要二十分钟“ – zu Fuß braucht man zwanzig Minuten."
+     },
+     {
+      "text": "Zwei Stunden",
+      "explanation": "Falsch: B sagt „不太远“ (nicht so weit) und „二十分钟“, also zwanzig Minuten."
+     }
+    ],
+    "answer": 2
+   },
+   {
+    "id": "q3",
+    "kind": "inference",
+    "prompt": "Wie wird A wahrscheinlich zum Bahnhof kommen?",
+    "evidence": "p6",
+    "choices": [
+     {
+      "text": "Mit dem Bus der Linie 11, der neben dem Supermarkt hält.",
+      "explanation": "Richtig: A hat zu viel dabei („我的东西太多了“) und fragt nach einem Bus; B empfiehlt „坐十一路“, die Haltestelle ist „超市旁边“."
+     },
+     {
+      "text": "Zu Fuß, weil es nicht weit ist.",
+      "explanation": "Falsch: Der Weg ist zwar „不太远“, aber A hat zu viele Sachen dabei („我的东西太多了“) und fragt deshalb nach einem Bus."
+     },
+     {
+      "text": "Mit dem Bus der Linie 3.",
+      "explanation": "Falsch: Die Linie heißt „十一路“; „三站“ bedeutet drei Haltestellen."
+     }
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "listening-hsk2-04",
+  "level": "HSK2",
+  "skill": "listening",
+  "order": 4,
+  "task": {
+   "no": 10,
+   "title": "问答生病、探病"
+  },
+  "topic": "日常生活›医疗健康›生病",
+  "title": "Warum fehlst du heute?",
+  "objective": "Du verstehst, wie jemand am Telefon über Beschwerden, den Arztbesuch und die Einnahme von Medikamenten spricht.",
+  "textType": "Telefongespräch",
+  "minutes": 4,
+  "introduction": "A ruft B an, weil B heute nicht im Unterricht war. Achte auf den Grund, die Ratschläge und darauf, was A vorhat.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "A",
+    "text": "喂，你今天怎么没来上课？",
+    "pinyin": "Wéi, nǐ jīntiān zěnme méi lái shàngkè?"
+   },
+   {
+    "id": "p2",
+    "speaker": "B",
+    "text": "我生病了。昨天晚上开始发烧，头也很疼。",
+    "pinyin": "Wǒ shēngbìng le. Zuótiān wǎnshang kāishǐ fāshāo, tóu yě hěn téng."
+   },
+   {
+    "id": "p3",
+    "speaker": "A",
+    "text": "去医院了吗？",
+    "pinyin": "Qù yīyuàn le ma?"
+   },
+   {
+    "id": "p4",
+    "speaker": "B",
+    "text": "去了。医生说是感冒，让我多喝水，多休息。",
+    "pinyin": "Qù le. Yīshēng shuō shì gǎnmào, ràng wǒ duō hē shuǐ, duō xiūxi."
+   },
+   {
+    "id": "p5",
+    "speaker": "A",
+    "text": "医生给你开药了吗？",
+    "pinyin": "Yīshēng gěi nǐ kāi yào le ma?"
+   },
+   {
+    "id": "p6",
+    "speaker": "B",
+    "text": "开了，一天吃三次，饭后吃。",
+    "pinyin": "Kāi le, yì tiān chī sān cì, fàn hòu chī."
+   },
+   {
+    "id": "p7",
+    "speaker": "A",
+    "text": "那你好好休息吧，明天下课以后我去看你。",
+    "pinyin": "Nà nǐ hǎohǎo xiūxi ba, míngtiān xiàkè yǐhòu wǒ qù kàn nǐ."
+   },
+   {
+    "id": "p8",
+    "speaker": "B",
+    "text": "太好了，谢谢你！",
+    "pinyin": "Tài hǎo le, xièxie nǐ!"
+   }
+  ],
+  "translation": "A: Hallo, warum warst du heute nicht im Unterricht? – B: Ich bin krank. Seit gestern Abend habe ich Fieber, und der Kopf tut mir auch sehr weh. – A: Warst du im Krankenhaus? – B: Ja. Der Arzt sagt, es ist eine Erkältung. Ich soll viel Wasser trinken und mich viel ausruhen. – A: Hat dir der Arzt Medikamente verschrieben? – B: Ja, dreimal am Tag, nach dem Essen. – A: Dann ruh dich gut aus. Morgen nach dem Unterricht komme ich dich besuchen. – B: Wie schön, danke!",
+  "glossary": [
+   {
+    "word": "生病",
+    "pinyin": "shēngbìng",
+    "meaning": "krank werden; krank sein",
+    "vocabId": "w:生病:sheng1bing4"
+   },
+   {
+    "word": "发烧",
+    "pinyin": "fāshāo",
+    "meaning": "Fieber haben",
+    "vocabId": "w:发烧:fa1shao1"
+   },
+   {
+    "word": "疼",
+    "pinyin": "téng",
+    "meaning": "weh tun; schmerzen",
+    "vocabId": "w:疼:teng2"
+   },
+   {
+    "word": "感冒",
+    "pinyin": "gǎnmào",
+    "meaning": "Erkältung; erkältet sein",
+    "vocabId": "w:感冒:gan3mao4"
+   },
+   {
+    "word": "开药",
+    "pinyin": "kāi yào",
+    "meaning": "Medikamente verschreiben"
+   },
+   {
+    "word": "次",
+    "pinyin": "cì",
+    "meaning": "Mal (Zählwort für Häufigkeit)",
+    "vocabId": "w:次:ci4"
+   },
+   {
+    "word": "好好",
+    "pinyin": "hǎohǎo",
+    "meaning": "ordentlich; gut; gründlich",
+    "vocabId": "w:好好:hao3hao3"
+   },
+   {
+    "word": "下课",
+    "pinyin": "xiàkè",
+    "meaning": "der Unterricht ist aus; Unterrichtsschluss",
+    "vocabId": "w:下课:xia4ke4"
+   }
+  ],
+  "note": "Mit 让 + Person + Verb gibt man Anweisungen wieder: „医生让我多喝水“ = „Der Arzt sagt, ich soll viel Wasser trinken.“ 多 vor einem Verb bedeutet „mehr / viel (davon)“: 多休息 = sich viel ausruhen.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worum geht es in dem Telefongespräch?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "A lädt B für morgen zum Essen ein.",
+      "explanation": "Falsch: A sagt nur „明天下课以后我去看你“ – A will B besuchen, von einem Essen ist keine Rede."
+     },
+     {
+      "text": "B fragt A nach den Hausaufgaben.",
+      "explanation": "Falsch: Über Hausaufgaben wird nicht gesprochen; A fragt, warum B nicht im Unterricht war."
+     },
+     {
+      "text": "A ist krank und fragt B um Rat.",
+      "explanation": "Falsch: Nicht A, sondern B ist krank: „我生病了“."
+     },
+     {
+      "text": "B ist krank und erzählt, was der Arzt gesagt hat.",
+      "explanation": "Richtig: „我生病了“ – B hat Fieber und Kopfschmerzen und berichtet vom Arztbesuch („医生说是感冒……“)."
+     }
+    ],
+    "answer": 3
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Wie soll B die Medikamente nehmen?",
+    "evidence": "p6",
+    "choices": [
+     {
+      "text": "Dreimal am Tag vor dem Essen",
+      "explanation": "Falsch: B sagt „饭后吃“ – nach dem Essen, nicht davor."
+     },
+     {
+      "text": "Dreimal am Tag nach dem Essen",
+      "explanation": "Richtig: „一天吃三次，饭后吃“ – dreimal täglich, nach dem Essen."
+     },
+     {
+      "text": "Einmal am Abend",
+      "explanation": "Falsch: „一天吃三次“ heißt dreimal am Tag."
+     },
+     {
+      "text": "Zweimal am Tag nach dem Essen",
+      "explanation": "Falsch: Es heißt „三次“, also dreimal, nicht zweimal."
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "id": "q3",
+    "kind": "attitude",
+    "prompt": "Wie reagiert A auf Bs Krankheit?",
+    "evidence": "p7",
+    "choices": [
+     {
+      "text": "A ärgert sich, weil B den Unterricht verpasst hat.",
+      "explanation": "Falsch: A fragt nur nach dem Grund und wünscht B dann gute Erholung („好好休息吧“)."
+     },
+     {
+      "text": "A glaubt nicht, dass B wirklich krank ist.",
+      "explanation": "Falsch: A fragt nach dem Arztbesuch und den Medikamenten und zweifelt nicht an Bs Krankheit."
+     },
+     {
+      "text": "A kümmert sich um B und will B morgen besuchen.",
+      "explanation": "Richtig: „那你好好休息吧，明天下课以后我去看你“ – A ist fürsorglich und will B besuchen."
+     },
+     {
+      "text": "A meint, B soll morgen wieder in den Unterricht kommen.",
+      "explanation": "Falsch: A sagt „好好休息吧“ und will B nach dem Unterricht besuchen – nicht, dass B in den Unterricht kommen soll."
+     }
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "listening-hsk2-05",
+  "level": "HSK2",
+  "skill": "listening",
+  "order": 5,
+  "task": {
+   "no": 13,
+   "title": "介绍学习情况、学习经历"
+  },
+  "topic": "教育情况›学习情况›学习经历",
+  "title": "Ein Kompliment",
+  "objective": "Du verstehst einfache Angaben dazu, wo und wie lange jemand lernt, wie der Unterricht abläuft und was dabei schwerfällt.",
+  "textType": "Gespräch unter Bekannten",
+  "minutes": 4,
+  "introduction": "A macht B ein Kompliment und stellt dann ein paar Fragen. Achte auf Zeitangaben und darauf, was B schwer findet.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "A",
+    "text": "你的汉语说得真好！学了多久了？",
+    "pinyin": "Nǐ de Hànyǔ shuō de zhēn hǎo! Xué le duō jiǔ le?"
+   },
+   {
+    "id": "p2",
+    "speaker": "B",
+    "text": "谢谢！我在北京上大学，学了两年了。",
+    "pinyin": "Xièxie! Wǒ zài Běijīng shàng dàxué, xué le liǎng nián le."
+   },
+   {
+    "id": "p3",
+    "speaker": "A",
+    "text": "你们每天都有汉语课吗？",
+    "pinyin": "Nǐmen měi tiān dōu yǒu Hànyǔ kè ma?"
+   },
+   {
+    "id": "p4",
+    "speaker": "B",
+    "text": "对，每天上午有四节课，下午常去图书馆。",
+    "pinyin": "Duì, měi tiān shàngwǔ yǒu sì jié kè, xiàwǔ cháng qù túshūguǎn."
+   },
+   {
+    "id": "p5",
+    "speaker": "A",
+    "text": "考试难不难？",
+    "pinyin": "Kǎoshì nán bu nán?"
+   },
+   {
+    "id": "p6",
+    "speaker": "B",
+    "text": "有点儿难，除了听和说，还要写汉字。",
+    "pinyin": "Yǒudiǎnr nán, chúle tīng hé shuō, hái yào xiě Hànzì."
+   },
+   {
+    "id": "p7",
+    "speaker": "A",
+    "text": "你觉得什么最难？",
+    "pinyin": "Nǐ juéde shénme zuì nán?"
+   },
+   {
+    "id": "p8",
+    "speaker": "B",
+    "text": "写汉字最难，我每天都练习。",
+    "pinyin": "Xiě Hànzì zuì nán, wǒ měi tiān dōu liànxí."
+   }
+  ],
+  "translation": "A: Du sprichst wirklich gut Chinesisch! Wie lange lernst du schon? – B: Danke! Ich studiere in Peking und lerne seit zwei Jahren. – A: Habt ihr jeden Tag Chinesischunterricht? – B: Ja, jeden Vormittag vier Stunden, nachmittags gehe ich oft in die Bibliothek. – A: Sind die Prüfungen schwer? – B: Ein bisschen. Außer Hören und Sprechen muss man auch Schriftzeichen schreiben. – A: Was findest du am schwersten? – B: Schriftzeichen schreiben ist am schwersten, ich übe jeden Tag.",
+  "glossary": [
+   {
+    "word": "上大学",
+    "pinyin": "shàng dàxué",
+    "meaning": "an der Universität studieren"
+   },
+   {
+    "word": "节",
+    "pinyin": "jié",
+    "meaning": "Zählwort für Unterrichtsstunden",
+    "vocabId": "w:节:jie2"
+   },
+   {
+    "word": "图书馆",
+    "pinyin": "túshūguǎn",
+    "meaning": "Bibliothek",
+    "vocabId": "w:图书馆:tu2shu1guan3"
+   },
+   {
+    "word": "考试",
+    "pinyin": "kǎoshì",
+    "meaning": "Prüfung; eine Prüfung ablegen",
+    "vocabId": "w:考试:kao3shi4"
+   },
+   {
+    "word": "有点儿",
+    "pinyin": "yǒudiǎnr",
+    "meaning": "ein bisschen; etwas (meist negativ)",
+    "vocabId": "w:有点儿:you3dian3r5"
+   },
+   {
+    "word": "除了",
+    "pinyin": "chúle",
+    "meaning": "außer; abgesehen von",
+    "vocabId": "w:除了:chu2le5"
+   },
+   {
+    "word": "练习",
+    "pinyin": "liànxí",
+    "meaning": "üben; Übung",
+    "vocabId": "w:练习:lian4xi2"
+   }
+  ],
+  "note": "„学了两年了“ mit zwei 了 bedeutet: Man lernt seit zwei Jahren und lernt immer noch. Mit „说得真好“ (Verb + 得 + Bewertung) sagt man, wie gut jemand etwas macht – ein typisches Kompliment.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worum geht es in dem Gespräch hauptsächlich?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "B erzählt, wo und wie B Chinesisch lernt.",
+      "explanation": "Richtig: B berichtet vom Studium in Peking („我在北京上大学“), vom Unterricht, von den Prüfungen und vom Üben."
+     },
+     {
+      "text": "A und B bereiten sich zusammen auf eine Prüfung vor.",
+      "explanation": "Falsch: A fragt nur „考试难不难？“; von gemeinsamem Lernen ist keine Rede."
+     },
+     {
+      "text": "B lädt A in die Bibliothek ein.",
+      "explanation": "Falsch: B sagt nur, dass B nachmittags oft in die Bibliothek geht („下午常去图书馆“)."
+     },
+     {
+      "text": "A erzählt vom eigenen Studium in Peking.",
+      "explanation": "Falsch: Nicht A, sondern B studiert in Peking: „我在北京上大学“."
+     }
+    ],
+    "answer": 0
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Wie lange lernt B schon Chinesisch?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Seit vier Jahren",
+      "explanation": "Falsch: „四节课“ sind die vier Unterrichtsstunden am Vormittag, keine vier Jahre."
+     },
+     {
+      "text": "Seit einem Jahr",
+      "explanation": "Falsch: B sagt „学了两年了“ – zwei Jahre."
+     },
+     {
+      "text": "Seit zwei Monaten",
+      "explanation": "Falsch: Es heißt „两年“ (zwei Jahre), nicht zwei Monate."
+     },
+     {
+      "text": "Seit zwei Jahren",
+      "explanation": "Richtig: „学了两年了“ – B lernt seit zwei Jahren Chinesisch."
+     }
+    ],
+    "answer": 3
+   },
+   {
+    "id": "q3",
+    "kind": "attitude",
+    "prompt": "Was findet B am schwierigsten?",
+    "evidence": "p8",
+    "choices": [
+     {
+      "text": "Hören",
+      "explanation": "Falsch: Hören („听“) wird nur als Teil der Prüfung genannt; am schwersten findet B etwas anderes."
+     },
+     {
+      "text": "Schriftzeichen schreiben",
+      "explanation": "Richtig: „写汉字最难“ – Schriftzeichen schreiben findet B am schwersten."
+     },
+     {
+      "text": "Sprechen",
+      "explanation": "Falsch: A lobt gerade Bs Sprechen („你的汉语说得真好“); B nennt als Schwierigstes das Schreiben von Zeichen."
+     },
+     {
+      "text": "Die vier Stunden Unterricht am Vormittag",
+      "explanation": "Falsch: B erwähnt „每天上午有四节课“ nur als Information, nicht als Schwierigkeit."
+     }
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "listening-hsk2-06",
+  "level": "HSK2",
+  "skill": "listening",
+  "order": 6,
+  "task": {
+   "no": 16,
+   "title": "介绍过年及传统饮食"
+  },
+  "topic": "文化与传统›传统习俗›节日",
+  "title": "Bald ist es so weit!",
+  "objective": "Du verstehst in einem Gespräch einfache Informationen über ein traditionelles Fest: wo man feiert, was man isst und was man sagt.",
+  "textType": "Gespräch im Freundeskreis",
+  "minutes": 4,
+  "introduction": "A und B unterhalten sich kurz vor einem wichtigen Feiertag. Achte darauf, wo B feiert, was gegessen wird und was man sich wünscht.",
+  "passages": [
+   {
+    "id": "p1",
+    "speaker": "A",
+    "text": "快过年了！你今年回家过年吗？",
+    "pinyin": "Kuài guònián le! Nǐ jīnnián huí jiā guònián ma?"
+   },
+   {
+    "id": "p2",
+    "speaker": "B",
+    "text": "回！我们都去爷爷奶奶家。",
+    "pinyin": "Huí! Wǒmen dōu qù yéye nǎinai jiā."
+   },
+   {
+    "id": "p3",
+    "speaker": "A",
+    "text": "你们过年吃什么？",
+    "pinyin": "Nǐmen guònián chī shénme?"
+   },
+   {
+    "id": "p4",
+    "speaker": "B",
+    "text": "我们北方人过年要吃饺子，大家一起包，很有意思。",
+    "pinyin": "Wǒmen běifāngrén guònián yào chī jiǎozi, dàjiā yìqǐ bāo, hěn yǒu yìsi."
+   },
+   {
+    "id": "p5",
+    "speaker": "A",
+    "text": "过年的时候说什么？",
+    "pinyin": "Guònián de shíhou shuō shénme?"
+   },
+   {
+    "id": "p6",
+    "speaker": "B",
+    "text": "见到人就说“新年好”或者“过年好”。",
+    "pinyin": "Jiàndào rén jiù shuō “Xīnnián hǎo” huòzhě “Guònián hǎo”."
+   },
+   {
+    "id": "p7",
+    "speaker": "A",
+    "text": "那我先祝你新年快乐！",
+    "pinyin": "Nà wǒ xiān zhù nǐ xīnnián kuàilè!"
+   },
+   {
+    "id": "p8",
+    "speaker": "B",
+    "text": "谢谢！也祝你新年快乐！",
+    "pinyin": "Xièxie! Yě zhù nǐ xīnnián kuàilè!"
+   }
+  ],
+  "translation": "A: Bald ist Neujahrsfest! Fährst du dieses Jahr zum Fest nach Hause? – B: Ja! Wir fahren alle zu Opa und Oma. – A: Was esst ihr zum Neujahrsfest? – B: Wir im Norden essen zum Neujahrsfest Jiaozi. Alle machen sie zusammen, das macht viel Spaß. – A: Und was sagt man zum Fest? – B: Wenn man jemanden trifft, sagt man „Frohes neues Jahr!“ oder „Frohes Fest!“. – A: Dann wünsche ich dir schon mal ein frohes neues Jahr! – B: Danke! Dir auch ein frohes neues Jahr!",
+  "glossary": [
+   {
+    "word": "过年",
+    "pinyin": "guònián",
+    "meaning": "das (chinesische) Neujahrsfest feiern",
+    "vocabId": "w:过年:guo4nian2"
+   },
+   {
+    "word": "爷爷",
+    "pinyin": "yéye",
+    "meaning": "Großvater (väterlicherseits); Opa",
+    "vocabId": "w:爷爷:ye2ye5"
+   },
+   {
+    "word": "奶奶",
+    "pinyin": "nǎinai",
+    "meaning": "Großmutter (väterlicherseits); Oma",
+    "vocabId": "w:奶奶:nai3nai5"
+   },
+   {
+    "word": "北方人",
+    "pinyin": "běifāngrén",
+    "meaning": "Nordchinese; Mensch aus dem Norden"
+   },
+   {
+    "word": "饺子",
+    "pinyin": "jiǎozi",
+    "meaning": "Teigtaschen, Jiaozi",
+    "vocabId": "w:饺子:jiao3zi5"
+   },
+   {
+    "word": "包",
+    "pinyin": "bāo",
+    "meaning": "einwickeln; (Jiaozi) falten und füllen",
+    "vocabId": "w:包:bao1"
+   },
+   {
+    "word": "新年",
+    "pinyin": "xīnnián",
+    "meaning": "Neujahr; neues Jahr",
+    "vocabId": "w:新年:xin1nian2"
+   },
+   {
+    "word": "祝",
+    "pinyin": "zhù",
+    "meaning": "wünschen",
+    "vocabId": "w:祝:zhu4"
+   }
+  ],
+  "note": "过年 meint das chinesische Neujahrs- oder Frühlingsfest (春节). Typische Grüße sind „新年好！“, „过年好！“ und „祝你新年快乐！“. Jiaozi selbst zu machen heißt 包饺子 – wörtlich „Teigtaschen einwickeln“; in Nordchina macht das die ganze Familie gemeinsam.",
+  "questions": [
+   {
+    "id": "q1",
+    "kind": "global",
+    "prompt": "Worum geht es in dem Gespräch?",
+    "evidence": "p1",
+    "choices": [
+     {
+      "text": "A lädt B zum Essen zu sich nach Hause ein.",
+      "explanation": "Falsch: A fragt, ob B nach Hause fährt („你今年回家过年吗？“); eine Einladung gibt es nicht."
+     },
+     {
+      "text": "B plant eine Geburtstagsfeier bei den Großeltern.",
+      "explanation": "Falsch: B fährt zu den Großeltern, aber zum Neujahrsfest („过年“), nicht zu einem Geburtstag."
+     },
+     {
+      "text": "B erzählt, wie Bs Familie das Neujahrsfest feiert.",
+      "explanation": "Richtig: „快过年了！“ – B erzählt, wo die Familie feiert, was sie isst und was man sagt."
+     },
+     {
+      "text": "B erklärt A, wie man Jiaozi kocht.",
+      "explanation": "Falsch: B sagt nur, dass man zum Fest Jiaozi isst und sie gemeinsam macht („大家一起包“); ein Rezept nennt B nicht."
+     }
+    ],
+    "answer": 2
+   },
+   {
+    "id": "q2",
+    "kind": "detail",
+    "prompt": "Wo feiert Bs Familie das Fest?",
+    "evidence": "p2",
+    "choices": [
+     {
+      "text": "Bei den Großeltern",
+      "explanation": "Richtig: „我们都去爷爷奶奶家“ – alle fahren zu Opa und Oma."
+     },
+     {
+      "text": "Bei A zu Hause",
+      "explanation": "Falsch: A wünscht B nur ein frohes neues Jahr; B fährt zu „爷爷奶奶家“."
+     },
+     {
+      "text": "In einem Restaurant",
+      "explanation": "Falsch: Von einem Restaurant ist keine Rede; die Familie ist bei „爷爷奶奶家“ und macht die Jiaozi selbst."
+     },
+     {
+      "text": "In der Stadt, in der B lernt",
+      "explanation": "Falsch: B antwortet auf die Frage „你今年回家过年吗？“ mit „回！“ – B fährt nach Hause zu den Großeltern."
+     }
+    ],
+    "answer": 0
+   },
+   {
+    "id": "q3",
+    "kind": "attitude",
+    "prompt": "Wie findet B es, die Jiaozi gemeinsam zu machen?",
+    "evidence": "p4",
+    "choices": [
+     {
+      "text": "Anstrengend",
+      "explanation": "Falsch: B sagt nichts über Anstrengung, sondern „很有意思“."
+     },
+     {
+      "text": "Langweilig",
+      "explanation": "Falsch: Das Gegenteil stimmt: „很有意思“ – es macht viel Spaß."
+     },
+     {
+      "text": "Zu schwierig",
+      "explanation": "Falsch: Von Schwierigkeiten ist keine Rede; B sagt „大家一起包，很有意思“."
+     },
+     {
+      "text": "Sehr unterhaltsam",
+      "explanation": "Richtig: „大家一起包，很有意思“ – das gemeinsame Jiaozi-Machen findet B sehr interessant und unterhaltsam."
+     }
+    ],
+    "answer": 3
+   }
+  ]
+ }
+]
