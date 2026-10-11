@@ -154,10 +154,18 @@ for (const [old, target] of Object.entries(removed)) {
   if (legacy.has(old)) fail('removed ' + old, 'also a legacy id of ' + legacy.get(old));
 }
 
+// Campaign ledger (scripts/onomatopoeia/ledger.json, written by scripts/onomatopoeia/apply.cjs): every reviewed/authored entry
+// matches its recorded content hash, drafts have no record. Drafts stay allowed while the campaign runs; set
+// CAMPAIGN_COMPLETE once all batches are applied, then no draft may remain.
+const CAMPAIGN_COMPLETE = false;
+const { checkLedger } = require('./enrich/section-campaign.cjs');
+const ledger = checkLedger(items, path.join(__dirname, 'onomatopoeia', 'ledger.json'), require('./onomatopoeia/section.cjs').HASH_FIELDS, { requireComplete: CAMPAIGN_COMPLETE });
+ledger.errors.forEach(e => errors.push(e));
+
 if (errors.length) {
   console.error(errors.length + ' Lautmalerei problems:\n' + errors.slice(0, 80).join('\n'));
   process.exit(1);
 }
 const count = key => items.reduce((m, x) => { m[x[key]] = (m[x[key]] || 0) + 1; return m; }, {});
 console.log('Lautmalerei audit passed: ' + items.length + ' entries (' + Object.entries(count('kind')).map(([k, n]) => k + ' ' + n).join(', ') + '; ' +
-  Object.entries(count('level')).map(([l, n]) => l + ' ' + n).join(', ') + '), ' + legacy.size + ' legacy ids, ' + Object.keys(removed).length + ' removed.');
+  Object.entries(count('level')).map(([l, n]) => l + ' ' + n).join(', ') + '), ' + legacy.size + ' legacy ids, ' + Object.keys(removed).length + ' removed; campaign: ' + ledger.counts.reviewed + ' reviewed, ' + ledger.counts.authored + ' authored, ' + ledger.counts.draft + ' draft.');

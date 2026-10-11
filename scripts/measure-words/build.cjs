@@ -398,6 +398,14 @@ entries.sort((a, b) => RANK[a.level] - RANK[b.level] || orderKey(a) - orderKey(b
 // Field order of the written entries.
 const FIELD_ORDER = ['id', 'classifier', 'pinyin', 'pinyinSpoken', 'pinyinAlt', 'traditional', 'level', 'levelSource', 'kind', 'kindAlso', 'form', 'borrowed',
   'category', 'meaning', 'usage', 'questionWord', 'countStyle', 'specialForms', 'examples', 'notes', 'nouns', 'nounCount', 'vocabId', 'syllabus', 'legacyIds', 'meaningStatus'];
+// Campaign content survives a rebuild: entries the Zählwörter campaign has written (scripts/measure-words/ledger.json)
+// keep their authored fields and meaningStatus from the current data file.
+{
+  const section = require('./section.cjs');
+  const current = fs.existsSync(path.join(ROOT, 'measure-words-data.js')) ? section.load() : [];
+  const kept = require('../enrich/section-campaign.cjs').carryOver(entries, current, path.join(__dirname, 'ledger.json'), section.HASH_FIELDS);
+  if (kept) console.log('campaign content kept for ' + kept + ' entries (ledger)');
+}
 const output = entries.map(e => Object.fromEntries(FIELD_ORDER.filter(f => e[f] !== undefined).map(f => [f, e[f]])));
 const removed = {};
 for (const d of oldDecisions.filter(d => d.decision === 'entfernen')) {

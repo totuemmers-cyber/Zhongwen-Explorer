@@ -80,6 +80,14 @@ for (const v of vocab) {
   }
 }
 
+// Campaign ledger (scripts/measure-words/ledger.json, written by scripts/measure-words/apply.cjs): every reviewed/authored entry
+// matches its recorded content hash, drafts have no record. Drafts stay allowed while the campaign runs; set
+// CAMPAIGN_COMPLETE once all batches are applied, then no draft may remain.
+const CAMPAIGN_COMPLETE = false;
+const { checkLedger } = require('./enrich/section-campaign.cjs');
+const ledger = checkLedger(items, path.join(__dirname, 'measure-words', 'ledger.json'), require('./measure-words/section.cjs').HASH_FIELDS, { requireComplete: CAMPAIGN_COMPLETE });
+ledger.errors.forEach(e => errors.push(e));
+
 if (errors.length) {
   console.error(errors.length + ' measure-word problems:\n' + errors.slice(0, 80).join('\n'));
   process.exit(1);
@@ -87,4 +95,4 @@ if (errors.length) {
 const count = {};
 items.forEach(m => { count[m.level] = (count[m.level] || 0) + 1; });
 console.log('Measure-word audit passed: ' + items.length + ' entries (' + Object.entries(count).map(([l, n]) => l + ' ' + n).join(', ') + '), ' +
-  items.reduce((s, m) => s + (m.nouns || []).length, 0) + ' noun links, ' + Object.keys(data.removed || {}).length + ' removed.');
+  items.reduce((s, m) => s + (m.nouns || []).length, 0) + ' noun links, ' + Object.keys(data.removed || {}).length + ' removed; campaign: ' + ledger.counts.reviewed + ' reviewed, ' + ledger.counts.authored + ' authored, ' + ledger.counts.draft + ' draft.');

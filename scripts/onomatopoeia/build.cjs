@@ -1097,6 +1097,12 @@ if (problems.length) { console.log(problems.length + ' problem(s):'); problems.f
 // ---------------------------------------------------------------------------------------------
 if (WRITE) {
   if (problems.length) { console.error('Refusing --write with open problems.'); process.exit(1); }
+  // Campaign content survives a rebuild: entries the Lautmalerei campaign has written (scripts/onomatopoeia/ledger.json)
+  // keep their authored fields and meaningStatus from the current data file.
+  const section = require('./section.cjs');
+  const current = fs.existsSync(path.join(ROOT, OUT_DATA)) ? section.load() : [];
+  const kept = require('../enrich/section-campaign.cjs').carryOver(entries, current, path.join(__dirname, 'ledger.json'), section.HASH_FIELDS);
+  if (kept) console.log('campaign content kept for ' + kept + ' entries (ledger)');
   const header = '// Zhongwen Explorer Lautmalerei: sound words (拟声词), interjections (叹词) and descriptive forms (ABB, AABB …).\n'
     + '// Built by scripts/onomatopoeia/build.cjs (report: scripts/onomatopoeia/build-report.md); texts are drafts for the\n'
     + '// text campaign. ONOMATOPOEIA_REMOVED: old entries that are vocabulary words, old word → vocab id (bookmarks move).\n';
