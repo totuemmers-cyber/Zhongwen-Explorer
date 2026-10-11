@@ -16,3 +16,17 @@ Author flags, reviewer fixes and proofreading fixes per batch, for follow-up dec
 - o:酸溜溜 (reviewer fix): 干巴巴 ist kein Nachbar von 酸溜溜 (weder Bedeutung noch Suffix); Link entfernt.
 - o:轻飘飘 (reviewer fix): 慢悠悠 („gemächlich“) ist kein echter Nachbar von 轻飘飘; Link entfernt.
 - o:懒洋洋 (reviewer fix): Pinyin von 暖洋洋 an den Eintrag angeglichen (nuǎnyángyáng); 洋洋 als eigenständige Silbenfolge yángyáng statt yāngyāng.
+
+## o003 (2026-10-11, author)
+- o:嘶 (proofreading fix): Zögern/Nachdenken-Gebrauch („hmm“, laut CC-CEDICT) in usage und explanation ergänzt
+- o:呵呵 (proofreading fix): Beispiel 1: „lächelte“ → „lachte gutmütig vor sich hin“ (呵呵地笑 ist hörbares Lachen)
+- o:咕噜 (proofreading fix): Beispiel 1: Übersetzung „ein ganzes Glas“ → „ein großes Glas“ (一大杯), glucksend ergänzt
+- o:吧啦吧啦 (proofreading fix): Notiz: CC-CEDICT nennt nur „loanword“, Herkunft aus dem Englischen als vgl. markiert
+- o:嘟嘟囔囔 (proofreading fix): 唠唠叨叨-Abgrenzung: „lautes“ Ermahnen zu „ausgiebiges, wiederholtes Reden und Ermahnen“ korrigiert
+- o:结结巴巴 (proofreading fix): Notiz: „Stotterer“ (generisches Maskulinum, absolutes „abwertend“) zu „jemand, der stottert … oft abwertend“
+- o:潺潺 (proofreading fix): „im Alltag sagt man eher 哗哗“ präzisiert: 哗哗 klingt kräftiger
+- o:哗啦啦 (proofreading fix): Beispiel 3: „krachten scheppernd“ (passt nicht zu Bauklötzen) zu „stürzten polternd zu Boden“
+- o:咕噜咕噜 (proofreading fix): Notiz: Variante 骨碌骨碌 (gūlu gūlu) für das Rollen ergänzt
+- o:咣 (proofreading fix): notes: doppeltes „vor allem“ geglättet
+- o:咔咔 (proofreading fix): Beispiele von der Variante 喀喀 auf das Stichwort 咔咔 umgestellt (Auslöser-Satz durch 咔咔地拍照 ersetzt), notes angepasst (喀喀 als Variante, Lesung kā/kǎ), Flag entfernt
+- o:噗噗 (proofreading fix): steife Übersetzung „blies pustend“ → „pustete ins Feuer: puh, puh“

@@ -299,5 +299,775 @@
   "status": "reviewed",
   "date": "2026-10-11",
   "hash": "848652d2090b454b"
+ },
+ "o:嘶": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "99c83de2c3dd5df5"
+ },
+ "o:嗡": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "a117021f8e410da2"
+ },
+ "o:嗷嗷": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "d55349c62ff97b61"
+ },
+ "o:嘎嘎": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "6b886c29601c3806"
+ },
+ "o:咯咯": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "64c0fd2101d72fbe"
+ },
+ "o:呱呱": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "9b4310b63aa65f25"
+ },
+ "o:咕咕": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "47f0e4dfeb32324b"
+ },
+ "o:唧唧": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "6c325bdcda84d531"
+ },
+ "o:啾啾": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "b0c7745d50306154"
+ },
+ "o:喵喵": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "3fb0b7d26d197932"
+ },
+ "o:咩咩": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "8923494523482e31"
+ },
+ "o:哞哞": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "84df394e3a3cda37"
+ },
+ "o:嘶嘶": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "24be1bdbfcd0391c"
+ },
+ "o:汪汪": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "ca2cca94180419f0"
+ },
+ "o:嗡嗡": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "a203952ac032860c"
+ },
+ "o:喔喔": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "cdc146ffc8855937"
+ },
+ "o:呦呦": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "62bb62d1e5d062b9"
+ },
+ "o:吱吱": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "48337fb5d6984eab"
+ },
+ "o:扑棱棱": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "495fb4a69c9fe6d6"
+ },
+ "o:叽叽喳喳": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "c2782cf224b10ca1"
+ },
+ "o:噗": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "d059ca47d0b17875"
+ },
+ "o:哧哧": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "af9fc14f1c71dae2"
+ },
+ "o:噔噔": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "84deec46fb56fa15"
+ },
+ "o:哈哈": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "505b5831dfc8944e"
+ },
+ "o:呵呵": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "f49db0821e131765"
+ },
+ "o:嘿嘿": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "f0c6a0eaf3d5cfa5"
+ },
+ "o:哼哼": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "6a6608df7ef9b904"
+ },
+ "o:吭吭": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "987faae781001a3a"
+ },
+ "o:喃喃": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "01a9ce69e7a9f09a"
+ },
+ "o:怦怦": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "368de681912ca722"
+ },
+ "o:哇哇": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "f9100bc57cb2d209"
+ },
+ "o:呜呜": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "74c14f24597150f5"
+ },
+ "o:嘻嘻": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "0caaa58a2a539e41"
+ },
+ "o:阿嚏": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "45c46e7c562b517f"
+ },
+ "o:吧唧": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "3036bc0d343b7d5b"
+ },
+ "o:咕噜": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "8d643ee828aa616a"
+ },
+ "o:呼哧": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "aa66847da3533aa2"
+ },
+ "o:呼噜": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "fa115e9a7204a39e"
+ },
+ "o:噗嗤": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "1a6b4d51a427abf7"
+ },
+ "o:嘁嘁喳喳": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "e151b4212b1ec101"
+ },
+ "o:踢踢踏踏": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "a5e76c491f88a734"
+ },
+ "o:嘻嘻哈哈": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "2b09f67fe95af73a"
+ },
+ "o:吧啦吧啦": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "85edb1a336cac318"
+ },
+ "o:咕咚咕咚": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "c56032e9a4632317"
+ },
+ "o:叽里呱啦": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "c4978c33912534fc"
+ },
+ "o:叽里咕噜": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "a373c588170f03d5"
+ },
+ "o:嘟嘟囔囔": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "d5f28ca42eb50430"
+ },
+ "o:结结巴巴": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "da3ad96929aa00bf"
+ },
+ "o:啰里啰嗦": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "525811c740e06094"
+ },
+ "o:呜": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "d2627a330abe3921"
+ },
+ "o:潺潺": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "97743a871deb246f"
+ },
+ "o:淙淙": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "6bb1ec63c6e044a9"
+ },
+ "o:汩汩": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "b5e904181ab323a4"
+ },
+ "o:哗哗": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "c1ac09b1fe1ed7f4"
+ },
+ "o:呼呼": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "7691321c47daa2a8"
+ },
+ "o:猎猎": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "cc9516900a20b17b"
+ },
+ "o:隆隆": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "e007d6bf96466cb8"
+ },
+ "o:飒飒": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "cd278fc39c8772c0"
+ },
+ "o:沙沙": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "09c0ffd8510c9366"
+ },
+ "o:刷刷": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "6d883cafcb1d5be4"
+ },
+ "o:簌簌": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "a4be1560d14ec818"
+ },
+ "o:萧萧": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "455e57e693be9ad4"
+ },
+ "o:滴答": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "1d2b4c41b48dbdb8"
+ },
+ "o:轰隆": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "01a61654eefbcb55"
+ },
+ "o:淅沥": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "ab83072b00d19334"
+ },
+ "o:窸窣": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "581c556c377ea2aa"
+ },
+ "o:轰隆隆": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "ab53280df5470505"
+ },
+ "o:哗啦啦": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "dbe611cf82ab2395"
+ },
+ "o:滴滴答答": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "f7c551841dd8a69c"
+ },
+ "o:轰轰隆隆": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "8ba862488a23ad38"
+ },
+ "o:淅淅沥沥": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "9b4a16563bb83360"
+ },
+ "o:窸窸窣窣": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "afe2a2ef14cdd99c"
+ },
+ "o:咕噜咕噜": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "557a4cd15e94a324"
+ },
+ "o:纷纷扬扬": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "98d39b4773bdbef5"
+ },
+ "o:嚓": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "c9d9b30bff05dea5"
+ },
+ "o:嗒": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "c7ee17b8d3f3c4ab"
+ },
+ "o:叮": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "1f0fbcd9db82e70e"
+ },
+ "o:咣": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "9090fbfd19299fc3"
+ },
+ "o:啪": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "204e734506b6f129"
+ },
+ "o:砰": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "7c3dd6c4649a194d"
+ },
+ "o:哔哔": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "06d5d34dbe51f451"
+ },
+ "o:嚓嚓": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "58e373655aab489a"
+ },
+ "o:嗒嗒": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "fbae5214be12d717"
+ },
+ "o:嘀嘀": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "d2d36837e3f1eb8d"
+ },
+ "o:叮叮": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "f55969e5dbaabf58"
+ },
+ "o:咚咚": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "4169a5bcba8d0147"
+ },
+ "o:嘟嘟": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "ac289085f4f0ba2a"
+ },
+ "o:咣咣": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "5981b05fa3eccf89"
+ },
+ "o:轰轰": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "ab871940cf21fd8c"
+ },
+ "o:咔咔": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "ae1865baffd2a344"
+ },
+ "o:哐哐": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "92145eff7c69d117"
+ },
+ "o:辘辘": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "8fb99b1c688bac06"
+ },
+ "o:啪啪": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "11c1849ca690e624"
+ },
+ "o:嘭嘭": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "558164cb2a4227b6"
+ },
+ "o:砰砰": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "c94ea7f799cf3ba1"
+ },
+ "o:噗噗": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "c24e9f708ae0544a"
+ },
+ "o:突突": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "2e3e3c8b687a2119"
+ },
+ "o:轧轧": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "5066445555667200"
+ },
+ "o:铮铮": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "c3e16c2825e53345"
+ },
+ "o:嗞嗞": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "3d1fc27a840ab604"
+ },
+ "o:吧嗒": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "189126b123ca5ec6"
+ },
+ "o:叮当": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "03a38e70452e61d4"
+ },
+ "o:叮咚": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "4a8d0ccc9636c1d4"
+ },
+ "o:叮铃": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "18cb184cee2bac63"
+ },
+ "o:嘎巴": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "bf95e64b73a4f4b8"
+ },
+ "o:嘎嘣": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "fd6553c8430c0806"
+ },
+ "o:嘎吱": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "8605545d3f43ff62"
+ },
+ "o:咯噔": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "976e05af51dd0fd9"
+ },
+ "o:咯吱": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "33863d3290630036"
+ },
+ "o:咣当": {
+  "batch": "o003",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "f902ac964a1ba176"
  }
 }

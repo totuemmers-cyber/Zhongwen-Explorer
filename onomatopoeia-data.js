@@ -12,24 +12,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Tiere",
     "pattern": "A",
-    "meaning": "wiehern (Pferd)",
-    "usage": "Gibt das Wiehern eines Pferdes wieder",
-    "explanation": "嘶 ahmt das Wiehern eines Pferdes nach. Wird oft in der Kombination 马嘶 oder als 嘶鸣 verwendet.",
+    "meaning": "Wiehern (Pferd); Zischen; scharfes Einatmen vor Schmerz",
+    "usage": "Gibt das Wiehern eines Pferdes oder ein zischendes Geräusch wieder; in Erzähltexten und Chats auch das scharfe Einziehen der Luft durch die Zähne bei Schmerz oder Kälte, ebenso beim Zögern oder Nachdenken („hmm“).",
+    "explanation": "嘶 steht vor allem für das Wiehern von Pferden, meist in festen, eher schriftsprachlichen Verbindungen: 马嘶 (mǎ sī) „Pferdewiehern“, 嘶鸣 (sīmíng) „wiehern“, 长嘶一声 (cháng sī yì shēng) „lang aufwiehern“. Daneben bezeichnet es ein Zischen und – oft mit Gedankenstrich geschrieben (嘶——) – das scharfe Einatmen durch die Zähne, wenn etwas weh tut; im Chat auch ein nachdenkliches oder skeptisches Zögern („hmm …“). Dasselbe Zeichen steckt in 嘶哑 (sīyǎ) „heiser“.",
     "examples": [
       {
-        "chinese": "马嘶了一声，扬蹄飞奔。",
-        "pinyin": "Mǎ sī le yī shēng, yáng tí fēibēn.",
-        "german": "Das Pferd wieherte und galoppierte mit erhobenen Hufen davon."
+        "chinese": "马长嘶一声，向前跑去。",
+        "pinyin": "Mǎ cháng sī yì shēng, xiàng qián pǎo qù.",
+        "german": "Das Pferd wieherte laut auf und galoppierte los."
+      },
+      {
+        "chinese": "远处传来几声马嘶。",
+        "pinyin": "Yuǎnchù chuánlái jǐ shēng mǎ sī.",
+        "german": "Aus der Ferne hörte man Pferde wiehern."
+      },
+      {
+        "chinese": "嘶，好疼！",
+        "pinyin": "Sī, hǎo téng!",
+        "german": "Ssss – das tut weh!"
       }
     ],
     "related": [
-      "o:哞哞"
+      "o:嘶嘶",
+      "o:嘶啦"
     ],
-    "notes": "嘶哑 (sīyǎ) = heiser – ebenfalls mit diesem Zeichen.",
+    "notes": "Als eigenständiger Laut eher schriftlich; für fortgesetztes Zischen ist 嘶嘶 (sīsī) üblicher. Feste Wendung: 声嘶力竭 (shēng sī lì jié) „sich heiser schreien“.",
     "legacyIds": [
       "嘶"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "嘶 嘶 [si1]"
     }
@@ -44,14 +55,24 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Tiere",
     "pattern": "A",
-    "meaning": "brummen (einzelnes Summen)",
-    "usage": "Gibt ein einzelnes tiefes Summen oder Brummen wieder",
-    "explanation": "嗡 ist die Einzelform von 嗡嗡. Beschreibt ein einzelnes Brumm-Geräusch oder den Klang einer Glocke, die nachschwingt.",
+    "meaning": "summ!; brumm! (einzelnes Summen, Dröhnen im Kopf)",
+    "usage": "Gibt ein einzelnes, kurzes Summen oder Brummen wieder – ein vorbeifliegendes Insekt, ein vibrierendes Handy; bildlich das Gefühl, dass einem bei einem Schreck der Kopf dröhnt.",
+    "explanation": "嗡 ist die Einzelform zu 嗡嗡 (wēngwēng). Typisch ist der Rahmen 嗡的一声 (wēng de yì shēng) „mit einem Summen“. Sehr häufig ist die bildliche Wendung 脑子里嗡的一声 (nǎozi lǐ wēng de yì shēng): Bei einer Schreckensnachricht „dröhnt einem der Kopf“, man ist wie benommen. Für anhaltendes Summen von Bienen oder Mücken verwendet man meist die Verdopplung 嗡嗡.",
     "examples": [
       {
-        "chinese": "一只大黄蜂嗡地飞过耳边。",
-        "pinyin": "Yī zhī dà huángfēng wēng de fēi guò ěr biān.",
-        "german": "Eine große Hummel summte am Ohr vorbei."
+        "chinese": "听到这个消息，我脑子里嗡的一声。",
+        "pinyin": "Tīngdào zhège xiāoxi, wǒ nǎozi lǐ wēng de yì shēng.",
+        "german": "Als ich die Nachricht hörte, war mein Kopf plötzlich wie leer."
+      },
+      {
+        "chinese": "一只蜜蜂嗡的一声从我耳边飞过。",
+        "pinyin": "Yì zhī mìfēng wēng de yì shēng cóng wǒ ěr biān fēi guò.",
+        "german": "Eine Biene sauste summend an meinem Ohr vorbei."
+      },
+      {
+        "chinese": "手机嗡的一声震动了一下。",
+        "pinyin": "Shǒujī wēng de yì shēng zhèndòng le yíxià.",
+        "german": "Das Handy vibrierte kurz mit einem Brummen."
       }
     ],
     "related": [
@@ -61,7 +82,7 @@ window.ONOMATOPOEIA_DATA = [
     "legacyIds": [
       "嗡"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "嗡 嗡 [weng1]"
     }
@@ -76,24 +97,34 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Tiere",
     "pattern": "AA",
-    "meaning": "heulen, jaulen (Wolf, Hund)",
-    "usage": "Gibt das Heulen von Wölfen oder Jaulen von Hunden wieder",
-    "explanation": "嗷嗷 ahmt das Heulen oder Jaulen nach. 嗷嗷待哺 (áoáo dài bǔ) = nach Nahrung schreiend (von Küken oder Babys).",
+    "meaning": "jaulen, heulen; laut aufschreien (Schmerz, Hunger, Begeisterung)",
+    "usage": "Gibt lautes Jaulen oder Schreien wieder – von Tieren wie Hunden, aber oft auch von Menschen, die vor Schmerz, Hunger oder Begeisterung aufschreien.",
+    "explanation": "嗷嗷 ahmt ein lautes, langgezogenes Schreien nach. Typische Rahmen sind 嗷嗷叫 (áo’áo jiào) „jaulen, brüllen“ und 疼得嗷嗷直叫 (téng de áo’áo zhí jiào) „vor Schmerz laut aufschreien“. Umgangssprachlich drückt 嗷嗷叫 auch große Begeisterung oder Ungeduld aus. Bekannt ist die feste Wendung 嗷嗷待哺 (áo’áo dài bǔ): hungrig nach Futter schreien wie Küken – übertragen auch „dringend auf Hilfe warten“.",
     "examples": [
       {
-        "chinese": "狼在山上嗷嗷地叫。",
-        "pinyin": "Láng zài shān shàng áoáo de jiào.",
-        "german": "Der Wolf heulte auf dem Berg."
+        "chinese": "他的脚被砸了，疼得嗷嗷直叫。",
+        "pinyin": "Tā de jiǎo bèi zá le, téng de áo’áo zhí jiào.",
+        "german": "Ihm ist etwas auf den Fuß gefallen, und er schreit vor Schmerz laut auf."
+      },
+      {
+        "chinese": "小狗饿得嗷嗷叫。",
+        "pinyin": "Xiǎo gǒu è de áo’áo jiào.",
+        "german": "Der kleine Hund jault vor Hunger."
+      },
+      {
+        "chinese": "球进了，观众嗷嗷地叫了起来。",
+        "pinyin": "Qiú jìn le, guānzhòng áo’áo de jiào le qǐlái.",
+        "german": "Tor! Das Publikum brüllte los."
       }
     ],
     "related": [
       "o:汪汪"
     ],
-    "notes": "嗷嗷待哺 ist ein häufiges Chengyu.",
+    "notes": "Für das Heulen eines Wolfs wird meist 嗷呜 (áowū) geschrieben.",
     "legacyIds": [
       "嗷嗷"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -108,25 +139,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Tiere",
     "pattern": "AA",
-    "meaning": "quak quak (Ente)",
-    "usage": "Gibt das Quaken einer Ente wieder",
-    "explanation": "嘎嘎 ist die typische Lautmalerei für Enten. Manchmal auch für krächzende oder kratzende Geräusche verwendet.",
+    "meaning": "quak, quak (Ente, Gans); umgangssprachlich „sehr, mega“",
+    "usage": "Gibt das Schnattern von Enten und Gänsen wieder, auch ein lautes, meckerndes Lachen; im Nordosten und im Internet verstärkt es Adjektive („mega“).",
+    "explanation": "嘎嘎 ist die übliche Lautmalerei für Enten und Gänse, meist mit 叫 (jiào): 鸭子嘎嘎叫 (yāzi gāgā jiào). Es beschreibt auch ein lautes, schallendes Lachen (嘎嘎地笑). In nordöstlichen Dialekten und von dort in der Internetsprache dient 嘎嘎 als Verstärker vor Adjektiven: 嘎嘎好 (gāgā hǎo) „super“, 嘎嘎香 (gāgā xiāng) „mega lecker“. Für Frösche ist 呱呱 (guāguā) üblicher.",
     "examples": [
       {
-        "chinese": "鸭子嘎嘎叫。",
-        "pinyin": "Yāzi gāgā jiào.",
-        "german": "Die Ente quakt."
+        "chinese": "河里的鸭子嘎嘎地叫着。",
+        "pinyin": "Hé lǐ de yāzi gāgā de jiàozhe.",
+        "german": "Auf dem Fluss schnattern die Enten."
+      },
+      {
+        "chinese": "他听完笑话，嘎嘎地笑个不停。",
+        "pinyin": "Tā tīng wán xiàohua, gāgā de xiào ge bù tíng.",
+        "german": "Nach dem Witz lachte er laut und konnte gar nicht mehr aufhören."
+      },
+      {
+        "chinese": "这家的烤鸭嘎嘎香！",
+        "pinyin": "Zhè jiā de kǎoyā gāgā xiāng!",
+        "german": "Die Pekingente hier ist mega lecker!"
       }
     ],
     "related": [
-      "o:呱呱"
+      "o:呱呱",
+      "o:咯咯",
+      "o:嘎吱"
     ],
-    "notes": "",
+    "notes": "Laut CC-CEDICT auch gāga oder gága gesprochen. Der Verstärker 嘎嘎 ist salopp (Nordosten, Internet).",
     "legacyIds": [
       "嘎嘎",
       "嘎嘎嘎"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "嘎嘎 嘎嘎 [ga1 ga1]"
     }
@@ -141,29 +184,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Tiere",
     "pattern": "AA",
-    "meaning": "gackern (Huhn), kichern",
-    "usage": "Gibt das Gackern eines Huhns oder prustehndes Kichern wieder",
-    "explanation": "咯咯 ahmt das Gackern von Hühnern nach. Wird auch für prustehndes Kichern von Kindern verwendet: 咯咯笑.",
+    "meaning": "gack, gack (Huhn); Glucksen, Kichern; Zähneklappern",
+    "usage": "Gibt das Gackern von Hühnern wieder, das glucksende Lachen besonders von Kindern und das Klappern der Zähne vor Kälte.",
+    "explanation": "咯咯 ahmt das Gackern einer Henne nach, oft mit 叫 (jiào); nach dem Eierlegen heißt es auch 咯咯哒 (gēgēdā). Sehr häufig ist 咯咯地笑 (gēgē de xiào) bzw. 咯咯直笑 (gēgē zhí xiào) für helles, glucksendes Lachen, vor allem von Kindern. Mit 响 (xiǎng) beschreibt es klappernde Zähne: 牙齿咯咯响 (yáchǐ gēgē xiǎng).",
     "examples": [
       {
-        "chinese": "母鸡下了蛋，咯咯地叫。",
-        "pinyin": "Mǔjī xià le dàn, gēgē de jiào.",
-        "german": "Die Henne legte ein Ei und gackerte."
+        "chinese": "母鸡下了蛋，咯咯地叫个不停。",
+        "pinyin": "Mǔjī xià le dàn, gēgē de jiào ge bù tíng.",
+        "german": "Die Henne hat ein Ei gelegt und gackert in einem fort."
       },
       {
-        "chinese": "她咯咯地笑个不停。",
-        "pinyin": "Tā gēgē de xiào gè bù tíng.",
-        "german": "Sie kicherte ununterbrochen."
+        "chinese": "宝宝被逗得咯咯直笑。",
+        "pinyin": "Bǎobao bèi dòu de gēgē zhí xiào.",
+        "german": "Man bringt das Baby zum Lachen, und es gluckst vor Vergnügen."
+      },
+      {
+        "chinese": "他冷得牙齿咯咯响。",
+        "pinyin": "Tā lěng de yáchǐ gēgē xiǎng.",
+        "german": "Ihm ist so kalt, dass seine Zähne klappern."
       }
     ],
     "related": [
-      "o:哈哈"
+      "o:哈哈",
+      "o:嘎嘎",
+      "o:咯吱"
     ],
-    "notes": "",
+    "notes": "Für das Lachen findet man auch die Schreibung 格格 (gēgē). 咯 hat weitere Lesungen, z. B. lo als Satzpartikel und kǎ in 咯血 (kǎxiě) „Blut husten“.",
     "legacyIds": [
       "咯咯"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "咯咯 咯咯 [ge1 ge1]"
     }
@@ -178,24 +228,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Tiere",
     "pattern": "AA",
-    "meaning": "quaken (Frosch)",
-    "usage": "Gibt das Quaken von Fröschen wieder",
-    "explanation": "呱呱 ahmt den Laut von Fröschen nach. 呱呱坠地 (guāguā zhuì dì) bedeutet 'mit einem Schrei zur Welt kommen'.",
+    "meaning": "quak, quak (Frosch); krächz (Krähe); umgangssprachlich „spitze“",
+    "usage": "Gibt das Quaken von Fröschen und das Krächzen von Krähen wieder; in 呱呱叫 (guāguā jiào) auch umgangssprachliches Lob: „erstklassig“.",
+    "explanation": "呱呱 (guāguā) ist die übliche Lautmalerei für Frösche, oft mit 叫 (jiào): 青蛙呱呱叫 (qīngwā guāguā jiào); auch Krähen und Enten können 呱呱 rufen. Umgangssprachlich bedeutet 呱呱叫 (guāguā jiào) bzw. 顶呱呱 (dǐngguāguā) „spitze, erstklassig“. In der festen Wendung 呱呱坠地 (gūgū zhuì dì) „mit einem Schrei zur Welt kommen“ liest man dagegen meist gūgū, nach dem Schreien eines Neugeborenen.",
     "examples": [
       {
-        "chinese": "青蛙呱呱叫。",
-        "pinyin": "Qīngwā guāguā jiào.",
-        "german": "Der Frosch quakt."
+        "chinese": "池塘里的青蛙呱呱地叫。",
+        "pinyin": "Chítáng lǐ de qīngwā guāguā de jiào.",
+        "german": "Im Teich quaken die Frösche."
+      },
+      {
+        "chinese": "树上的乌鸦呱呱叫了两声。",
+        "pinyin": "Shù shàng de wūyā guāguā jiào le liǎng shēng.",
+        "german": "Die Krähe im Baum krächzte zweimal."
+      },
+      {
+        "chinese": "他的中文说得呱呱叫。",
+        "pinyin": "Tā de Zhōngwén shuō de guāguā jiào.",
+        "german": "Sein Chinesisch ist erstklassig."
       }
     ],
     "related": [
-      "o:嘎嘎"
+      "o:嘎嘎",
+      "o:叽里呱啦"
     ],
-    "notes": "",
+    "notes": "Zwei Lesungen: guāguā für Frösche, Krähen und im Lob 呱呱叫 (guāguā jiào); gūgū für das Schreien eines Babys, etwa in 呱呱坠地 (gūgū zhuì dì).",
     "legacyIds": [
       "呱呱"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "呱呱 呱呱 [gua1 gua1]"
     }
@@ -210,29 +271,31 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Tiere",
     "pattern": "AA",
-    "meaning": "gurren (Taube), gluckern",
-    "usage": "Gibt das Gurren von Tauben oder Gluckergeräusche wieder",
-    "explanation": "咕咕 kann sowohl für Taubengurren als auch für Magenknurren (肚子咕咕叫) verwendet werden.",
+    "meaning": "gurr, gurr (Taube); Magenknurren",
+    "usage": "Gibt das Gurren von Tauben wieder und – sehr häufig im Alltag – das Knurren eines leeren Magens.",
+    "explanation": "咕咕 ahmt den tiefen, rollenden Ruf von Tauben nach, auch den Ruf des Kuckucks oder das Glucken von Hühnern. Im Alltag am häufigsten ist 肚子咕咕叫 (dùzi gūgū jiào) „der Magen knurrt“, oft mit 饿得 (è de) „so hungrig, dass …“. Typisch sind 咕咕叫 (gūgū jiào) und 咕咕地叫 (gūgū de jiào). Für Flüssigkeiten (Gluckern, Blubbern) verwendet man eher 咕噜 (gūlū) oder 咕嘟 (gūdū).",
     "examples": [
       {
-        "chinese": "鸽子咕咕地叫。",
-        "pinyin": "Gēzi gūgū de jiào.",
-        "german": "Die Taube gurrt."
+        "chinese": "鸽子在屋顶上咕咕地叫。",
+        "pinyin": "Gēzi zài wūdǐng shàng gūgū de jiào.",
+        "german": "Auf dem Dach gurren die Tauben."
       },
       {
-        "chinese": "我的肚子咕咕叫。",
-        "pinyin": "Wǒ de dùzi gūgū jiào.",
-        "german": "Mein Bauch knurrt."
+        "chinese": "我饿得肚子咕咕叫。",
+        "pinyin": "Wǒ è de dùzi gūgū jiào.",
+        "german": "Ich habe solchen Hunger, dass mir der Magen knurrt."
       }
     ],
     "related": [
-      "o:咕噜咕噜"
+      "o:咕噜",
+      "o:咕嘟",
+      "o:咯咯"
     ],
-    "notes": "",
+    "notes": "Internetsprache: In Anspielung auf 鸽子 (gēzi) „Taube“ und 放鸽子 (fàng gēzi) „jemanden versetzen“ steht 咕咕 scherzhaft für „etwas aufschieben, nicht liefern“.",
     "legacyIds": [
       "咕咕"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -247,24 +310,30 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Tiere",
     "pattern": "AA",
-    "meaning": "zirpen (Grillen, Insekten)",
-    "usage": "Gibt das Zirpen von Grillen oder kleinen Insekten wieder",
-    "explanation": "唧唧 ahmt das Zirpen von Insekten nach. Berühmt aus dem Gedicht Mulan: 唧唧复唧唧.",
+    "meaning": "zirp, zirp (Grillen, Insekten); Zwitschern",
+    "usage": "Gibt das Zirpen von Grillen und anderen Insekten wieder, seltener das Zwitschern kleiner Vögel.",
+    "explanation": "唧唧 ahmt ein feines, wiederholtes Zirpen nach, meist mit 叫 (jiào): 蟋蟀唧唧地叫 (xīshuài jījī de jiào) „die Grille zirpt“. Es gehört eher zur geschriebenen und erzählenden Sprache. Bekannt ist der Anfang des Mulan-Gedichts 木兰辞 (Mùlán cí): 唧唧复唧唧 (jījī fù jījī) – gedeutet als Seufzen oder als Klappern des Webstuhls.",
     "examples": [
       {
-        "chinese": "蟋蟀唧唧地叫着。",
-        "pinyin": "Xīshuài jījī de jiàozhe.",
-        "german": "Die Grille zirpt."
+        "chinese": "夜里，草丛中的虫子唧唧地叫着。",
+        "pinyin": "Yèlǐ, cǎocóng zhōng de chóngzi jījī de jiàozhe.",
+        "german": "Nachts zirpen die Insekten im Gras."
+      },
+      {
+        "chinese": "蟋蟀在墙角唧唧叫个不停。",
+        "pinyin": "Xīshuài zài qiángjiǎo jījī jiào ge bù tíng.",
+        "german": "In der Ecke zirpt unaufhörlich eine Grille."
       }
     ],
     "related": [
-      "o:叽叽喳喳"
+      "o:叽叽喳喳",
+      "o:啾啾"
     ],
-    "notes": "Berühmt aus dem Mulan-Gedicht (木兰辞).",
+    "notes": "Für Vögel und Küken wird häufiger 叽叽 (jījī) geschrieben; 唧唧喳喳 (jījī-zhāzhā) ist eine Nebenform von 叽叽喳喳 (jījī-zhāzhā).",
     "legacyIds": [
       "唧唧"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "唧唧 唧唧 [ji1 ji1]"
     }
@@ -279,24 +348,30 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Tiere",
     "pattern": "AA",
-    "meaning": "piepsen, fiepen (kleine Vögel)",
-    "usage": "Gibt das feine Piepsen kleiner Vögel oder Küken wieder",
-    "explanation": "啾啾 beschreibt das feine, hohe Piepsen von kleinen Vögeln oder Küken – zarter als 叽叽喳喳.",
+    "meaning": "piep, piep (kleine Vögel)",
+    "usage": "Gibt das feine, hohe Piepsen kleiner Vögel wieder, vor allem in beschreibenden und literarischen Texten.",
+    "explanation": "啾啾 beschreibt das zarte, hohe Piepsen kleiner Vögel oder Jungvögel, meist als 啾啾地叫 (jiūjiū de jiào) oder als Attribut: 啾啾的叫声 (jiūjiū de jiàoshēng). Es ist leiser und feiner als das lebhafte Gezwitscher 叽叽喳喳 (jījī-zhāzhā). In klassischer Dichtung steht 啾啾 auch für klagende Laute, z. B. bei Du Fu (声啾啾).",
     "examples": [
       {
-        "chinese": "小鸟在窝里啾啾地叫着。",
-        "pinyin": "Xiǎo niǎo zài wō lǐ jiūjiū de jiàozhe.",
-        "german": "Die kleinen Vögel piepsten im Nest."
+        "chinese": "窗外的小鸟啾啾地叫着。",
+        "pinyin": "Chuāngwài de xiǎo niǎo jiūjiū de jiàozhe.",
+        "german": "Draußen vor dem Fenster piepsen kleine Vögel."
+      },
+      {
+        "chinese": "鸟窝里传出啾啾的叫声。",
+        "pinyin": "Niǎowō lǐ chuánchū jiūjiū de jiàoshēng.",
+        "german": "Aus dem Nest dringt feines Piepsen."
       }
     ],
     "related": [
-      "o:叽叽喳喳"
+      "o:叽叽喳喳",
+      "o:唧唧"
     ],
-    "notes": "",
+    "notes": "Eher schriftsprachlich. Im Internet steht einfaches 啾 (jiū) auch für einen Kuss-Laut („mwah“).",
     "legacyIds": [
       "啾啾"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -311,24 +386,30 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Tiere",
     "pattern": "AA",
-    "meaning": "miau miau (Katzenmiauen)",
-    "usage": "Gibt das Miauen einer Katze wieder",
-    "explanation": "喵喵 ahmt den Laut einer Katze nach. Im Internetslang wird 喵 auch als niedliche Endpartikel verwendet.",
+    "meaning": "miau, miau (Katze)",
+    "usage": "Gibt das Miauen einer Katze wieder – im Alltag, in Kindersprache und im Internet.",
+    "explanation": "喵喵 ahmt das Miauen einer Katze nach, meist mit 叫 (jiào): 小猫喵喵叫 (xiǎo māo miāomiāo jiào). Man hört auch das einfache 喵 (miāo) und das verdreifachte 喵喵喵. Achtung: Das Tier heißt 猫 (māo), der Laut 喵 (miāo). In der Internetsprache hängen manche ein 喵 als niedliche Endung an Sätze.",
     "examples": [
       {
-        "chinese": "猫咪喵喵地叫着。",
-        "pinyin": "Māomī miāomiāo de jiàozhe.",
-        "german": "Das Kätzchen miaut miau miau."
+        "chinese": "小猫饿了，喵喵地叫。",
+        "pinyin": "Xiǎo māo è le, miāomiāo de jiào.",
+        "german": "Das Kätzchen hat Hunger und miaut."
+      },
+      {
+        "chinese": "我一开门，猫就喵喵叫着跑过来。",
+        "pinyin": "Wǒ yì kāi mén, māo jiù miāomiāo jiàozhe pǎo guòlái.",
+        "german": "Kaum mache ich die Tür auf, kommt die Katze miauend angelaufen."
       }
     ],
     "related": [
-      "o:汪汪"
+      "o:汪汪",
+      "o:咩咩"
     ],
-    "notes": "猫 und 喵 haben denselben Anlaut 'm', was die Merkbarkeit erleichtert.",
+    "notes": "Kindersprache: 喵喵 auch für die Katze selbst. Internet: Satzende-喵 wirkt verspielt und passt eher unter Bekannten.",
     "legacyIds": [
       "喵喵"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -343,24 +424,30 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Tiere",
     "pattern": "AA",
-    "meaning": "mäh (Schaf)",
-    "usage": "Gibt das Blöken eines Schafs wieder",
-    "explanation": "咩咩 ist die chinesische Entsprechung von 'mäh'. Wird besonders in Kinderbüchern verwendet.",
+    "meaning": "mäh, mäh (Schaf, Ziege)",
+    "usage": "Gibt das Blöken von Schafen und Ziegen wieder, besonders in Kindersprache und Erzählungen.",
+    "explanation": "咩咩 ist die chinesische Entsprechung zu „mäh“. Es steht meist mit 叫 (jiào): 小羊咩咩叫 (xiǎo yáng miēmiē jiào) „das Lämmchen blökt“. Da 羊 (yáng) sowohl Schafe als auch Ziegen umfasst, gilt der Laut für beide. Einfaches 咩 (miē) ist ebenfalls üblich.",
     "examples": [
       {
-        "chinese": "小羊咩咩叫。",
-        "pinyin": "Xiǎo yáng miēmiē jiào.",
-        "german": "Das Lämmchen blökt mäh."
+        "chinese": "山坡上的羊咩咩地叫着。",
+        "pinyin": "Shānpō shàng de yáng miēmiē de jiàozhe.",
+        "german": "Am Hang blöken die Schafe."
+      },
+      {
+        "chinese": "小羊咩咩叫，好像在找妈妈。",
+        "pinyin": "Xiǎo yáng miēmiē jiào, hǎoxiàng zài zhǎo māma.",
+        "german": "Das Lämmchen blökt, als suche es seine Mutter."
       }
     ],
     "related": [
-      "o:哞哞"
+      "o:哞哞",
+      "o:喵喵"
     ],
-    "notes": "",
+    "notes": "Im Internet wird 咩 (aus dem Kantonesischen) auch als Fragepartikel benutzt: 是咩？ „Ach ja?“",
     "legacyIds": [
       "咩咩"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -375,14 +462,19 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Tiere",
     "pattern": "AA",
-    "meaning": "muh (Kuh)",
-    "usage": "Gibt das Muhen einer Kuh wieder",
-    "explanation": "哞哞 ahmt das Muhen von Rindern nach.",
+    "meaning": "muh, muh (Kuh, Rind)",
+    "usage": "Gibt das Muhen von Kühen und Rindern wieder, besonders in Kindersprache und ländlichen Szenen.",
+    "explanation": "哞哞 ahmt das tiefe Muhen von Rindern nach, meist mit 叫 (jiào): 牛哞哞地叫 (niú mōumōu de jiào). Einzeln kommt auch 哞 (mōu) vor, etwa 哞的一声 (mōu de yì shēng) „mit einem Muhen“. In Kinderbüchern steht es neben 汪汪 (wāngwāng), 喵喵 (miāomiāo) und 咩咩 (miēmiē).",
     "examples": [
       {
-        "chinese": "牛哞哞地叫。",
-        "pinyin": "Niú mōumōu de jiào.",
-        "german": "Die Kuh muht."
+        "chinese": "牛在田边哞哞地叫。",
+        "pinyin": "Niú zài tián biān mōumōu de jiào.",
+        "german": "Am Feldrand muhen die Kühe."
+      },
+      {
+        "chinese": "老牛哞哞叫了两声，又低头吃草。",
+        "pinyin": "Lǎo niú mōumōu jiào le liǎng shēng, yòu dī tóu chī cǎo.",
+        "german": "Die alte Kuh muhte zweimal und fraß dann weiter Gras."
       }
     ],
     "related": [
@@ -392,7 +484,7 @@ window.ONOMATOPOEIA_DATA = [
     "legacyIds": [
       "哞哞"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -407,18 +499,31 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Tiere",
     "pattern": "AA",
-    "meaning": "zischen (Schlange, heiße Pfanne)",
-    "usage": "Gibt Zischgeräusche wieder",
-    "explanation": "嘶嘶 ahmt ein Zischen nach – eine Schlange, eine heiße Pfanne mit Öl oder entweichendes Gas.",
+    "meaning": "zisch, zisch (Schlange, heißes Öl, entweichende Luft)",
+    "usage": "Gibt anhaltendes Zischen wieder – eine Schlange, Fett in der heißen Pfanne, Luft oder Dampf, die entweichen.",
+    "explanation": "嘶嘶 ahmt ein scharfes, anhaltendes Zischen nach. Typisch ist 嘶嘶地 + Verb, etwa 嘶嘶地响 (sīsī de xiǎng) „zischen“ oder 嘶嘶地漏气 (sīsī de lòu qì) „zischend Luft verlieren“, und als Attribut 嘶嘶的声音 (sīsī de shēngyīn). Auch das Einziehen der Luft durch die Zähne vor Schmerz oder Kälte wird so wiedergegeben. Die Einzelform 嘶 (sī) bezeichnet eher das Wiehern von Pferden.",
     "examples": [
       {
         "chinese": "蛇嘶嘶地吐着信子。",
         "pinyin": "Shé sīsī de tǔzhe xìnzi.",
-        "german": "Die Schlange züngelt zischend."
+        "german": "Die Schlange zischt und lässt die Zunge vorschnellen."
+      },
+      {
+        "chinese": "肉一放进热油里，就嘶嘶地响。",
+        "pinyin": "Ròu yí fàngjìn rè yóu lǐ, jiù sīsī de xiǎng.",
+        "german": "Kaum kommt das Fleisch ins heiße Öl, zischt es."
+      },
+      {
+        "chinese": "轮胎嘶嘶地漏着气。",
+        "pinyin": "Lúntāi sīsī de lòuzhe qì.",
+        "german": "Aus dem Reifen entweicht zischend Luft."
       }
     ],
-    "related": [],
-    "notes": "",
+    "related": [
+      "o:嘶",
+      "o:嘶啦"
+    ],
+    "notes": "Auch 咝咝 (sīsī) geschrieben. Für brutzelndes Fett ist auch 滋滋 (zīzī) üblich.",
     "variants": [
       "咝咝"
     ],
@@ -426,7 +531,7 @@ window.ONOMATOPOEIA_DATA = [
       "嘶嘶",
       "咝咝"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -441,24 +546,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Tiere",
     "pattern": "AA",
-    "meaning": "wau wau (Hundebellen)",
-    "usage": "Gibt das Bellen eines Hundes wieder",
-    "explanation": "汪汪 ist die chinesische Entsprechung von 'wau wau'. Es wird häufig in Kinderbüchern und im Alltag verwendet.",
+    "meaning": "wau, wau (Hundebellen); tränennass (Augen)",
+    "usage": "Gibt das Bellen eines Hundes wieder; in 泪汪汪 (lèiwāngwāng) und 眼泪汪汪 (yǎnlèi wāngwāng) beschreibt es außerdem Augen voller Tränen.",
+    "explanation": "汪汪 ist die chinesische Entsprechung zu „wau, wau“ und steht meist mit 叫 (jiào): 狗汪汪地叫 (gǒu wāngwāng de jiào) „der Hund bellt“. Einfaches 汪 (wāng) kommt ebenfalls vor. Eine zweite, beschreibende Bedeutung hat 汪汪 bei Tränen und Wasser: 眼泪汪汪 (yǎnlèi wāngwāng) „mit Tränen in den Augen“, 水汪汪 (shuǐwāngwāng) „feucht glänzend“. Schriftsprachlich beschreibt es auch eine weite Wasserfläche.",
     "examples": [
       {
-        "chinese": "小狗汪汪叫。",
-        "pinyin": "Xiǎo gǒu wāngwāng jiào.",
-        "german": "Der kleine Hund bellt wau wau."
+        "chinese": "门外的狗汪汪地叫个不停。",
+        "pinyin": "Mén wài de gǒu wāngwāng de jiào ge bù tíng.",
+        "german": "Der Hund vor der Tür bellt ununterbrochen."
+      },
+      {
+        "chinese": "小狗看见我，汪汪叫了两声。",
+        "pinyin": "Xiǎo gǒu kànjiàn wǒ, wāngwāng jiào le liǎng shēng.",
+        "german": "Der kleine Hund sah mich und bellte: „Wau, wau!“"
+      },
+      {
+        "chinese": "她眼泪汪汪地看着我。",
+        "pinyin": "Tā yǎnlèi wāngwāng de kànzhe wǒ.",
+        "german": "Sie sah mich mit Tränen in den Augen an."
       }
     ],
     "related": [
-      "o:喵喵"
+      "o:喵喵",
+      "o:水汪汪",
+      "o:嗷嗷"
     ],
-    "notes": "Oft mit 叫 (rufen/bellen) kombiniert.",
+    "notes": "In Kindersprache auch für den Hund selbst. Im Internet steht 汪 scherzhaft für Hunde, etwa in 单身汪 (dānshēn wāng) „Single“.",
     "legacyIds": [
       "汪汪"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "汪汪 汪汪 [wang1 wang1]"
     }
@@ -473,24 +590,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Tiere",
     "pattern": "AA",
-    "meaning": "summen, brummen",
-    "usage": "Gibt das Summen von Insekten oder Brummen wieder",
-    "explanation": "嗡嗡 ahmt das Summen von Bienen, Fliegen oder anderen summenden Geräuschquellen nach.",
+    "meaning": "summ, summ; Brummen, Dröhnen (Insekten, Maschinen, Ohren)",
+    "usage": "Gibt anhaltendes Summen und Brummen wieder: Bienen, Fliegen, Mücken, Motoren und Maschinen, auch das Dröhnen in den Ohren.",
+    "explanation": "嗡嗡 ahmt ein gleichmäßiges, tiefes Summen oder Brummen nach. Insekten 嗡嗡地飞 (wēngwēng de fēi) oder 嗡嗡叫 (wēngwēng jiào); Maschinen und die Ohren 嗡嗡响 (wēngwēng xiǎng). Auch das undeutliche Stimmengewirr vieler Menschen kann so beschrieben werden. Die Einzelform 嗡 (wēng) steht für ein kurzes Summen, vor allem in 嗡的一声 (wēng de yì shēng).",
     "examples": [
       {
-        "chinese": "蜜蜂嗡嗡地飞来飞去。",
-        "pinyin": "Mìfēng wēngwēng de fēi lái fēi qù.",
-        "german": "Die Bienen summen hin und her."
+        "chinese": "蜜蜂在花丛中嗡嗡地飞来飞去。",
+        "pinyin": "Mìfēng zài huācóng zhōng wēngwēng de fēi lái fēi qù.",
+        "german": "Die Bienen summen zwischen den Blumen hin und her."
+      },
+      {
+        "chinese": "一只蚊子在耳边嗡嗡叫，我一夜没睡好。",
+        "pinyin": "Yì zhī wénzi zài ěr biān wēngwēng jiào, wǒ yí yè méi shuì hǎo.",
+        "german": "Eine Mücke sirrte mir ums Ohr, ich habe die ganze Nacht schlecht geschlafen."
+      },
+      {
+        "chinese": "音乐太响了，我的耳朵还在嗡嗡响。",
+        "pinyin": "Yīnyuè tài xiǎng le, wǒ de ěrduo hái zài wēngwēng xiǎng.",
+        "german": "Die Musik war so laut, dass mir immer noch die Ohren dröhnen."
       }
     ],
-    "related": [],
+    "related": [
+      "o:嗡"
+    ],
     "notes": "",
     "legacyIds": [
       "嗡嗡",
       "嗡嗡嗡",
       "嗡嗡响"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "嗡嗡 嗡嗡 [weng1 weng1]"
     }
@@ -506,12 +635,26 @@ window.ONOMATOPOEIA_DATA = [
     "category": "Tiere",
     "pattern": "AA",
     "meaning": "kikeriki (Hahn)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "usage": "Gibt das Krähen eines Hahns wieder, vor allem in Kindersprache und Erzählungen vom Morgen auf dem Land.",
+    "explanation": "喔喔 ist die übliche Lautmalerei für den krähenden Hahn, meist mit 叫 (jiào): 公鸡喔喔叫 (gōngjī wōwō jiào) „der Hahn kräht“. In Kinderliedern und Bilderbüchern wird es oft verdreifacht: 喔喔喔. Das Gackern der Henne gibt man dagegen mit 咯咯 (gēgē) wieder. Einzeln steht 喔 auch als Ausruf des Verstehens („oh, ach so“), dann meist ō oder ó gelesen.",
+    "examples": [
+      {
+        "chinese": "天刚亮，公鸡就喔喔地叫了起来。",
+        "pinyin": "Tiān gāng liàng, gōngjī jiù wōwō de jiào le qǐlái.",
+        "german": "Kaum dämmert es, fängt der Hahn an zu krähen."
+      },
+      {
+        "chinese": "大公鸡喔喔叫，叫醒了全村的人。",
+        "pinyin": "Dà gōngjī wōwō jiào, jiàoxǐng le quán cūn de rén.",
+        "german": "Der große Hahn kräht und weckt das ganze Dorf."
+      }
+    ],
+    "related": [
+      "o:咯咯",
+      "o:咕咕"
+    ],
+    "notes": "Vor allem in Kindersprache; auch 喔喔喔 geschrieben.",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": null
@@ -527,22 +670,27 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Tiere",
     "pattern": "AA",
-    "meaning": "Ruf des Rehs, leises Rufen",
-    "usage": "Gibt den Ruf eines Rehs oder Hirsches wieder",
-    "explanation": "呦呦 ist der Ruf eines Rehs. Berühmt aus dem Gedicht von Cao Cao: 呦呦鹿鸣, 食野之苹.",
+    "meaning": "Ruf des Hirsches (literarisch)",
+    "usage": "Gibt den Ruf von Hirschen und Rehen wieder; fast nur in literarischen Texten und im Zitat aus dem „Buch der Lieder“.",
+    "explanation": "呦呦 ist ein klassischer Laut für den Ruf des Hirsches. Bekannt ist er aus dem „Buch der Lieder“ 诗经 (Shījīng), Lied 鹿鸣 (Lù míng): 呦呦鹿鸣，食野之苹 – Cao Cao (Cáo Cāo) zitiert die Zeile in seinem Gedicht 短歌行 (Duǎngē xíng). Im modernen Chinesisch erscheint 呦呦 fast nur in gehobenen Beschreibungen. Auch der Name der Nobelpreisträgerin 屠呦呦 (Tú Yōuyōu) geht auf diese Zeile zurück.",
     "examples": [
       {
         "chinese": "呦呦鹿鸣，食野之苹。",
         "pinyin": "Yōuyōu lù míng, shí yě zhī píng.",
-        "german": "Der Hirsch ruft yoyo und äst das Weidegras. (Cao Cao)"
+        "german": "„Yōu, yōu“ rufen die Hirsche und fressen Beifuß auf der Flur. (Buch der Lieder)"
+      },
+      {
+        "chinese": "林子里传来呦呦的鹿叫声。",
+        "pinyin": "Línzi lǐ chuánlái yōuyōu de lù jiàoshēng.",
+        "german": "Aus dem Wald hört man Hirsche rufen."
       }
     ],
     "related": [],
-    "notes": "Aus dem klassischen Gedicht 短歌行 von Cao Cao (曹操).",
+    "notes": "Literarisch. Nicht verwechseln mit dem Ausruf 哎呦 (āiyōu) „autsch, oje“, in dem 呦 als Interjektion steht.",
     "legacyIds": [
       "呦呦"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "呦呦 呦呦 [you1 you1]"
     }
@@ -557,27 +705,31 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Tiere",
     "pattern": "AA",
-    "meaning": "quietschen, piepsen",
-    "usage": "Gibt Quietschen oder Piepsen wieder (Tür, Maus)",
-    "explanation": "吱吱 ahmt quietschende Geräusche nach – eine quietschende Tür, eine piepsende Maus oder kratzende Geräusche.",
+    "meaning": "piep (Maus); quietsch (Tür, Bremsen)",
+    "usage": "Gibt hohes Piepsen oder Quietschen wieder – Mäuse, kleine Vögel, eine quietschende Tür oder Bremse.",
+    "explanation": "吱吱 ahmt ein hohes, kurzes Geräusch nach. Bei Tieren steht es mit 叫 (jiào), vor allem für Mäuse: 老鼠吱吱叫 (lǎoshǔ zhīzhī jiào). Bei Dingen steht es mit 响 (xiǎng), etwa für eine alte Tür oder ein Holzbett. Für länger gezogenes Knarren sind 吱呀 (zhīyā) und 嘎吱 (gāzhī) üblich. Achtung: In 吱声 (zīshēng) „etwas sagen, sich melden“ liest man 吱 als zī.",
     "examples": [
       {
-        "chinese": "老鼠吱吱地叫。",
-        "pinyin": "Lǎoshǔ zhīzhī de jiào.",
-        "german": "Die Maus piepst."
+        "chinese": "老鼠在墙角吱吱地叫。",
+        "pinyin": "Lǎoshǔ zài qiángjiǎo zhīzhī de jiào.",
+        "german": "In der Ecke piepst eine Maus."
       },
       {
-        "chinese": "门吱吱地响。",
-        "pinyin": "Mén zhīzhī de xiǎng.",
-        "german": "Die Tür quietscht."
+        "chinese": "这扇旧门一开就吱吱地响。",
+        "pinyin": "Zhè shàn jiù mén yì kāi jiù zhīzhī de xiǎng.",
+        "german": "Diese alte Tür quietscht, sobald man sie öffnet."
       }
     ],
-    "related": [],
+    "related": [
+      "o:吱呀",
+      "o:嘎吱",
+      "o:吱吱嘎嘎"
+    ],
     "notes": "",
     "legacyIds": [
       "吱吱"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -592,24 +744,34 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Tiere",
     "pattern": "ABB",
-    "meaning": "flatternd (Vogelflügel)",
-    "usage": "Gibt das Flattern von Flügeln wieder",
-    "explanation": "扑棱棱 ahmt das schnelle Flattern von Vogelflügeln nach, wenn sie auffliegen oder landen.",
+    "meaning": "flatter, flatter (Flügelschlagen beim Auffliegen)",
+    "usage": "Gibt das Geräusch schnell schlagender Flügel wieder, wenn Vögel plötzlich auffliegen oder mit den Flügeln schlagen.",
+    "explanation": "扑棱棱 ahmt das hastige Flattern von Flügeln nach. Es beruht auf dem Verb 扑棱 (pūleng) „mit den Flügeln schlagen, flattern“; die ABB-Form macht das Geräusch anschaulich. Typisch ist der Rahmen 扑棱棱地飞起来 (pūlénglēng de fēi qǐlái) „flatternd auffliegen“, oft mit Tauben, Spatzen oder Hühnern. Es gehört vor allem zur erzählenden Sprache.",
     "examples": [
       {
         "chinese": "一群鸽子扑棱棱地飞了起来。",
-        "pinyin": "Yī qún gēzi pūlénglēng de fēi le qǐlái.",
+        "pinyin": "Yì qún gēzi pūlénglēng de fēi le qǐlái.",
         "german": "Ein Schwarm Tauben flatterte auf."
+      },
+      {
+        "chinese": "我一走近，树上的麻雀就扑棱棱飞走了。",
+        "pinyin": "Wǒ yì zǒujìn, shù shàng de máquè jiù pūlénglēng fēi zǒu le.",
+        "german": "Als ich näher kam, flatterten die Spatzen vom Baum davon."
+      },
+      {
+        "chinese": "那只鸡扑棱棱地扇着翅膀。",
+        "pinyin": "Nà zhī jī pūlénglēng de shānzhe chìbǎng.",
+        "german": "Das Huhn schlägt flatternd mit den Flügeln."
       }
     ],
     "related": [
       "o:扑腾"
     ],
-    "notes": "",
+    "notes": "Auch 扑楞楞 geschrieben.",
     "legacyIds": [
       "扑棱棱"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -624,29 +786,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Tiere",
     "pattern": "AABB",
-    "meaning": "zwitschern, Vogelgezwitscher",
-    "usage": "Gibt das Zwitschern vieler Vögel oder aufgeregtes Geplapper wieder",
-    "explanation": "叽叽喳喳 wird sowohl für Vogelgezwitscher als auch übertragen für aufgeregtes, durcheinander Reden von Menschen verwendet.",
+    "meaning": "zwitschernd; aufgeregt durcheinanderplappernd",
+    "usage": "Gibt das lebhafte Zwitschern vieler Vögel wieder; übertragen das laute, aufgeregte Durcheinanderreden von Menschen, besonders Kindern.",
+    "explanation": "叽叽喳喳 ist die AABB-Form aus den Vogellauten 叽 (jī) und 喳 (zhā). Es beschreibt das lebhafte, vielstimmige Zwitschern von Spatzen und anderen kleinen Vögeln, meist als 叽叽喳喳地叫 (jījī-zhāzhā de jiào). Sehr häufig ist der übertragene Gebrauch für Menschen, die laut und aufgeregt durcheinanderreden: 叽叽喳喳地说个不停 (jījī-zhāzhā de shuō ge bù tíng). Das kann neutral-lebhaft oder leicht genervt klingen.",
     "examples": [
       {
-        "chinese": "小鸟叽叽喳喳地叫个不停。",
-        "pinyin": "Xiǎo niǎo jījīzhāzhā de jiào gè bù tíng.",
-        "german": "Die Vögel zwitschern ununterbrochen."
+        "chinese": "树上的小鸟叽叽喳喳地叫个不停。",
+        "pinyin": "Shù shàng de xiǎo niǎo jījīzhāzhā de jiào ge bù tíng.",
+        "german": "Die kleinen Vögel im Baum zwitschern unaufhörlich."
       },
       {
-        "chinese": "孩子们叽叽喳喳地说个不停。",
-        "pinyin": "Háizimen jījīzhāzhā de shuō gè bù tíng.",
-        "german": "Die Kinder plappern aufgeregt durcheinander."
+        "chinese": "下课了，孩子们叽叽喳喳地说个不停。",
+        "pinyin": "Xià kè le, háizimen jījīzhāzhā de shuō ge bù tíng.",
+        "german": "Der Unterricht ist aus, und die Kinder plappern aufgeregt durcheinander."
+      },
+      {
+        "chinese": "别叽叽喳喳的，安静点儿！",
+        "pinyin": "Bié jījīzhāzhā de, ānjìng diǎnr!",
+        "german": "Hört auf zu schnattern und seid mal still!"
       }
     ],
     "related": [
-      "o:唧唧"
+      "o:唧唧",
+      "o:嘁嘁喳喳",
+      "o:叽里呱啦"
     ],
-    "notes": "Kann auch 唧唧喳喳 geschrieben werden.",
+    "notes": "Auch 唧唧喳喳 (jījī-zhāzhā) geschrieben. Leiser und heimlicher ist 嘁嘁喳喳 (qīqī-chāchā) „tuscheln“.",
     "legacyIds": [
       "叽叽喳喳"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "嘰嘰喳喳 叽叽喳喳 [ji1 ji1 zha1 zha1]"
     }
@@ -661,22 +830,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "A",
-    "meaning": "pff, prust (Luft, Lachen)",
-    "usage": "Gibt das Geräusch von entweichender Luft oder plötzlichem Losprusten wieder",
-    "explanation": "噗 ahmt das Geräusch nach, wenn Luft schnell entweicht oder jemand vor Lachen losprustet.",
+    "meaning": "pff, puh; prust (Lachen, Luftstoß)",
+    "usage": "Gibt einen kurzen Luftstoß wieder – beim Auspusten, beim Herausprusten von Wasser oder wenn jemand plötzlich loslacht.",
+    "explanation": "噗 ahmt ein kurzes, stoßartiges Geräusch von Luft oder Flüssigkeit nach. Typische Rahmen sind 噗的一声 (pū de yì shēng) und 噗地 + Verb: 噗的一声笑了出来 (pū de yì shēng xiào le chūlái) „losprusten“, 噗地吹灭 (pū de chuīmiè) „auspusten“, 噗地喷出来 (pū de pēn chūlái) „herausprusten“. Für das Losprusten vor Lachen ist 噗嗤 (pūchī) besonders üblich. Im Chat steht 噗 auch allein als Reaktion auf etwas Lustiges.",
     "examples": [
       {
-        "chinese": "她噗地笑了出来。",
-        "pinyin": "Tā pū de xiào le chūlái.",
-        "german": "Sie prustete vor Lachen los."
+        "chinese": "她噗的一声笑了出来。",
+        "pinyin": "Tā pū de yì shēng xiào le chūlái.",
+        "german": "Sie prustete los."
+      },
+      {
+        "chinese": "他噗地吹灭了蜡烛。",
+        "pinyin": "Tā pū de chuīmiè le làzhú.",
+        "german": "Mit einem kräftigen Pusten blies er die Kerze aus."
+      },
+      {
+        "chinese": "听了这话，他一口水噗地喷了出来。",
+        "pinyin": "Tīng le zhè huà, tā yì kǒu shuǐ pū de pēn le chūlái.",
+        "german": "Als er das hörte, prustete er sein Wasser heraus."
       }
     ],
-    "related": [],
-    "notes": "噗嗤 (pūchī) ist eine Variante für Losprusten.",
+    "related": [
+      "o:噗嗤",
+      "o:噗噗"
+    ],
+    "notes": "Verwandt: 噗嗤 (pūchī), auch 扑哧 (pūchī) geschrieben, „losprusten“.",
     "legacyIds": [
       "噗"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "噗 噗 [pu1]"
     }
@@ -691,20 +873,32 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "AA",
-    "meaning": "prusten, keuchen, zischen",
-    "usage": "Gibt das Geräusch von Prusten oder Keuchen wieder",
-    "explanation": "哧哧 beschreibt leichtes Prusten (beim unterdrückten Lachen) oder Keuchen (beim Laufen).",
+    "meaning": "kicher (unterdrückt); zisch (Luft, Zündschnur)",
+    "usage": "Gibt unterdrücktes Kichern hinter vorgehaltener Hand wieder, außerdem ein zischendes Geräusch, etwa von einer brennenden Zündschnur.",
+    "explanation": "哧哧 ahmt ein leises, zischendes Geräusch nach. Am häufigsten ist 哧哧地笑 (chīchī de xiào) für ein unterdrücktes, verstohlenes Kichern, bei dem die Luft durch Zähne oder Hände entweicht. Daneben beschreibt es Zischen, etwa einer Zündschnur oder entweichender Luft. Für das Keuchen nach Anstrengung ist 呼哧 (hūchī) bzw. 呼哧呼哧 (hūchīhūchī) üblicher. Gesprochen und erzählend.",
     "examples": [
       {
-        "chinese": "他跑得哧哧直喘气。",
-        "pinyin": "Tā pǎo de chīchī zhí chuǎnqì.",
-        "german": "Er keuchte vom Rennen."
+        "chinese": "她捂着嘴哧哧地笑。",
+        "pinyin": "Tā wǔzhe zuǐ chīchī de xiào.",
+        "german": "Sie hielt sich die Hand vor den Mund und kicherte."
+      },
+      {
+        "chinese": "几个同学在后面哧哧地笑个不停。",
+        "pinyin": "Jǐ gè tóngxué zài hòumiàn chīchī de xiào ge bù tíng.",
+        "german": "Ein paar aus der Klasse kichern hinten in einem fort."
+      },
+      {
+        "chinese": "导火线哧哧地冒着火花。",
+        "pinyin": "Dǎohuǒxiàn chīchī de màozhe huǒhuā.",
+        "german": "Die Zündschnur zischt und sprüht Funken."
       }
     ],
     "related": [
-      "o:噗嗤"
+      "o:噗嗤",
+      "o:嘻嘻",
+      "o:呼哧"
     ],
-    "notes": "",
+    "notes": "Auch 嗤嗤 (chīchī) geschrieben, besonders für spöttisches Lachen; vgl. 嗤之以鼻 (chī zhī yǐ bí) „verächtlich die Nase rümpfen“.",
     "variants": [
       "嗤嗤"
     ],
@@ -712,7 +906,7 @@ window.ONOMATOPOEIA_DATA = [
       "哧哧",
       "嗤嗤"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -727,13 +921,31 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "AA",
-    "meaning": "trapp, trapp (feste Schritte)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "meaning": "trapp, trapp; klack, klack (feste Schritte)",
+    "usage": "Gibt feste, hörbare Schritte wieder – jemand läuft schnell die Treppe hinauf oder geht mit harten Absätzen.",
+    "explanation": "噔噔 ahmt dumpfe, rasch aufeinanderfolgende Schritte oder Stöße nach. Typisch ist 噔噔地 + Bewegungsverb: 噔噔地跑上楼 (dēngdēng de pǎo shàng lóu) „die Treppe hinaufpoltern“, oder als Attribut 噔噔的脚步声 (dēngdēng de jiǎobùshēng) „stampfende Schritte“. In Erzählungen wird es oft verdreifacht: 噔噔噔. Die Einzelform steckt auch in 咯噔 (gēdēng) für ein plötzliches „Rums“ im Herzen.",
+    "examples": [
+      {
+        "chinese": "他噔噔地跑上楼去。",
+        "pinyin": "Tā dēngdēng de pǎo shàng lóu qù.",
+        "german": "Er polterte die Treppe hinauf."
+      },
+      {
+        "chinese": "楼上传来噔噔的脚步声。",
+        "pinyin": "Lóu shàng chuánlái dēngdēng de jiǎobùshēng.",
+        "german": "Von oben hört man stampfende Schritte."
+      },
+      {
+        "chinese": "她穿着高跟鞋，噔噔地走了进来。",
+        "pinyin": "Tā chuānzhe gāogēnxié, dēngdēng de zǒu le jìnlái.",
+        "german": "Sie kam mit klackenden Absätzen herein."
+      }
+    ],
+    "related": [
+      "o:咯噔"
+    ],
+    "notes": "Oft verdreifacht: 噔噔噔 (dēngdēngdēng).",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "噔噔 噔噔 [deng1 deng1]"
@@ -749,25 +961,39 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "AA",
-    "meaning": "haha (Lachen)",
-    "usage": "Drückt lautes Lachen aus",
-    "explanation": "哈哈 ist die häufigste Wiedergabe von Lachen im Chinesischen. Es kann sowohl echtes Lachen als auch sarkastisches Lachen darstellen.",
+    "meaning": "haha (lautes, herzhaftes Lachen)",
+    "usage": "Gibt lautes, offenes Lachen wieder; steht auch allein am Satzanfang und in Chats für „haha“.",
+    "explanation": "哈哈 ist die häufigste Wiedergabe von Lachen. Feste Verbindungen sind 哈哈大笑 (hāhā dà xiào) „schallend lachen“ und 哈哈地笑 (hāhā de xiào). Allein am Satzanfang drückt es Freude oder Triumph aus. In Chats ist die Länge ein Gradmesser: 哈哈 freundlich, 哈哈哈哈 „ich lach mich kaputt“. Leiser und verschmitzter sind 嘻嘻 (xīxī) und 嘿嘿 (hēihēi); 呵呵 (hēhē) kann online abweisend wirken.",
     "examples": [
       {
-        "chinese": "他哈哈大笑。",
-        "pinyin": "Tā hāhā dà xiào.",
-        "german": "Er lachte laut haha."
+        "chinese": "他听了哈哈大笑。",
+        "pinyin": "Tā tīng le hāhā dà xiào.",
+        "german": "Als er das hörte, lachte er schallend."
+      },
+      {
+        "chinese": "大家都哈哈地笑了起来。",
+        "pinyin": "Dàjiā dōu hāhā de xiào le qǐlái.",
+        "german": "Alle brachen in lautes Gelächter aus."
+      },
+      {
+        "chinese": "哈哈，我终于找到了！",
+        "pinyin": "Hāhā, wǒ zhōngyú zhǎodào le!",
+        "german": "Haha, endlich hab ich's gefunden!"
       }
     ],
     "related": [
+      "o:呵呵",
       "o:嘻嘻",
-      "o:呵呵"
+      "o:嘿嘿",
+      "o:嘻嘻哈哈",
+      "o:笑哈哈",
+      "o:哈"
     ],
-    "notes": "Im Internet auch als 哈哈哈哈哈 verlängert für besonders starkes Lachen.",
+    "notes": "Im Internet oft verlängert (哈哈哈哈哈); Abkürzung auch hhh.",
     "legacyIds": [
       "哈哈"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "哈哈 哈哈 [ha1 ha1]"
     }
@@ -782,25 +1008,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "AA",
-    "meaning": "hehe (Schmunzeln/sarkastisches Lachen)",
-    "usage": "Drückt mildes Lächeln oder online oft Sarkasmus aus",
-    "explanation": "呵呵 hat sich im Internet-Chinesisch stark gewandelt: Ursprünglich freundliches Schmunzeln, wird es online heute oft als sarkastisch oder desinteressiert verstanden.",
+    "meaning": "hehe (gutmütiges Lachen); im Chat oft abweisend",
+    "usage": "Gibt ein ruhiges, gutmütiges Lachen wieder; als Chat-Antwort wirkt es dagegen oft spöttisch, desinteressiert oder abweisend.",
+    "explanation": "呵呵 beschreibt ursprünglich ein ruhiges, freundliches Lachen, etwa 呵呵地笑 (hēhē de xiào) bei älteren Menschen. In der Internetsprache hat es sich stark gewandelt: Ein knappes 呵呵 als Antwort wird heute meist als ironisch, kühl oder „kein Interesse“ verstanden. Am Satzanfang kann es auch gesprochen spöttisch klingen. Wer im Chat freundlich lachen will, schreibt eher 哈哈 (hāhā).",
     "examples": [
       {
-        "chinese": "他只回了一个'呵呵'。",
-        "pinyin": "Tā zhǐ huí le yī gè 'hēhē'.",
-        "german": "Er antwortete nur mit einem 'hehe'."
+        "chinese": "爷爷呵呵地笑着，没说话。",
+        "pinyin": "Yéye hēhē de xiàozhe, méi shuō huà.",
+        "german": "Großvater lachte gutmütig vor sich hin und sagte nichts."
+      },
+      {
+        "chinese": "他只回了我两个字：“呵呵”。",
+        "pinyin": "Tā zhǐ huí le wǒ liǎng gè zì: “hēhē”.",
+        "german": "Er antwortete mir nur mit einem knappen „hehe“."
+      },
+      {
+        "chinese": "呵呵，你说得倒容易。",
+        "pinyin": "Hēhē, nǐ shuō de dào róngyì.",
+        "german": "Ha, du hast leicht reden."
       }
     ],
     "related": [
       "o:哈哈",
-      "o:嘻嘻"
+      "o:嘻嘻",
+      "o:嘿嘿",
+      "o:乐呵呵"
     ],
-    "notes": "Vorsicht im Chat: Kann als unhöflich oder gleichgültig aufgefasst werden!",
+    "notes": "Vorsicht im Chat: Ein alleinstehendes 呵呵 kann unhöflich oder gleichgültig wirken.",
     "legacyIds": [
       "呵呵"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "呵呵 呵呵 [he1 he1]"
     }
@@ -815,13 +1053,34 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "AA",
-    "meaning": "hehe (verschmitztes Lachen)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "meaning": "hehe (verschmitztes oder verlegenes Lachen)",
+    "usage": "Gibt ein leises, verschmitztes, verlegenes oder schadenfrohes Lachen wieder; auch allein am Satzanfang und in Chats.",
+    "explanation": "嘿嘿 beschreibt ein kurzes Lachen mit geschlossenem Mund – je nach Lage verlegen, verschmitzt oder leicht schadenfroh. Typisch sind 嘿嘿一笑 (hēihēi yí xiào) „kurz grinsen“, 嘿嘿地笑 (hēihēi de xiào) und 嘿嘿笑了两声 (hēihēi xiào le liǎng shēng). Am Satzanfang klingt es nach Stolz oder kleinem Triumph. Einfaches 嘿 (hēi) ist dagegen meist der Zuruf „hey“.",
+    "examples": [
+      {
+        "chinese": "他不好意思地嘿嘿笑了两声。",
+        "pinyin": "Tā bù hǎoyìsi de hēihēi xiào le liǎng shēng.",
+        "german": "Er lachte verlegen: „Hehe.“"
+      },
+      {
+        "chinese": "嘿嘿，这次我可赢了你！",
+        "pinyin": "Hēihēi, zhè cì wǒ kě yíng le nǐ!",
+        "german": "Hehe, diesmal habe ich dich geschlagen!"
+      },
+      {
+        "chinese": "他嘿嘿一笑，什么也没说。",
+        "pinyin": "Tā hēihēi yí xiào, shénme yě méi shuō.",
+        "german": "Er grinste nur und sagte nichts."
+      }
+    ],
+    "related": [
+      "o:嘿",
+      "o:哈哈",
+      "o:呵呵",
+      "o:嘻嘻"
+    ],
+    "notes": "Im Chat freundlicher als 呵呵 (hēhē).",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "嘿嘿 嘿嘿 [hei1 hei1]"
@@ -837,24 +1096,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "AA",
-    "meaning": "summen, brummen (vor sich hin)",
-    "usage": "Gibt leises Vor-sich-hin-Summen oder unzufriedenes Brummen wieder",
-    "explanation": "哼哼 beschreibt leises Summen einer Melodie oder ein genervtes Brummen.",
+    "meaning": "stöhnen, ächzen; grunzen (Schwein); vor sich hin summen",
+    "usage": "Gibt dumpfe Laute aus der Nase wieder: Stöhnen vor Schmerz, das Grunzen von Schweinen, leises Summen einer Melodie.",
+    "explanation": "哼哼 ahmt einen tiefen Nasenlaut nach und wird oft wie ein Verb gebraucht. Vor Schmerz oder Unbehagen heißt es 疼得直哼哼 (téng de zhí hēnghēng) „vor Schmerz stöhnen“; Schweine 哼哼地叫 (hēnghēng de jiào) „grunzen“. Auch das leise Summen eines Liedes kann man 哼哼 nennen, üblicher ist dafür einfaches 哼 (hēng), etwa 哼歌 (hēng gē). Abwertend klingt 哼哼唧唧 (hēnghengjījī) „herumjammern, quengeln“.",
     "examples": [
       {
-        "chinese": "他一边走一边哼哼着小曲儿。",
-        "pinyin": "Tā yībiān zǒu yībiān hēnghēng zhe xiǎoqǔr.",
-        "german": "Er summte beim Gehen ein Liedchen."
+        "chinese": "他疼得直哼哼。",
+        "pinyin": "Tā téng de zhí hēnghēng.",
+        "german": "Er stöhnt in einem fort vor Schmerzen."
+      },
+      {
+        "chinese": "猪在圈里哼哼地叫。",
+        "pinyin": "Zhū zài juàn lǐ hēnghēng de jiào.",
+        "german": "Die Schweine grunzen im Stall."
+      },
+      {
+        "chinese": "他一边走一边哼哼着歌。",
+        "pinyin": "Tā yìbiān zǒu yìbiān hēnghēngzhe gē.",
+        "german": "Er summte beim Gehen ein Lied vor sich hin."
       }
     ],
     "related": [
-      "o:嗡嗡"
+      "o:哼",
+      "o:嗡嗡",
+      "o:喃喃"
     ],
-    "notes": "哼 allein kann auch Unwillen ausdrücken: 哼! (Hm!)",
+    "notes": "Einfaches 哼 (hēng) als Ausruf drückt Unmut aus: „Pah!“. Gesprochen oft hēngheng.",
     "legacyIds": [
       "哼哼"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -869,22 +1140,30 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "AA",
-    "meaning": "rauspern, husten (leicht)",
-    "usage": "Gibt leichtes Rauspern oder Husten wieder",
-    "explanation": "吭吭 beschreibt ein leises Husten oder Rauspern, um Aufmerksamkeit zu erregen.",
+    "meaning": "hüstel; räusper (kurzes Husten, Ächzen)",
+    "usage": "Gibt kurzes Husten, Räuspern oder ein angestrengtes Ächzen wieder.",
+    "explanation": "吭吭 ahmt einen kurzen, dumpfen Kehllaut nach: Husten, Räuspern, ein Ächzen bei Anstrengung. Typisch ist 吭吭地 + Verb, etwa 吭吭地咳嗽 (kēngkēng de késou) „trocken husten“. Das Zeichen 吭 (kēng) bedeutet auch „einen Laut von sich geben“: 不吭声 (bù kēng shēng) „keinen Mucks sagen“. Für das Ächzen beim Schleppen ist 吭哧 (kēngchi) üblicher.",
     "examples": [
       {
-        "chinese": "他吭吭了两声，准备发言。",
-        "pinyin": "Tā kēngkēng le liǎng shēng, zhǔnbèi fāyán.",
-        "german": "Er räusperte sich zweimal und bereitete sich aufs Sprechen vor."
+        "chinese": "他吭吭地咳了两声。",
+        "pinyin": "Tā kēngkēng de ké le liǎng shēng.",
+        "german": "Er hüstelte zweimal kurz."
+      },
+      {
+        "chinese": "爷爷吭吭地清了清嗓子，开始讲故事。",
+        "pinyin": "Yéye kēngkēng de qīng le qīng sǎngzi, kāishǐ jiǎng gùshi.",
+        "german": "Großvater räusperte sich und fing an zu erzählen."
       }
     ],
-    "related": [],
-    "notes": "不吭声 (bù kēng shēng) = keinen Mucks von sich geben.",
+    "related": [
+      "o:哼哼",
+      "o:呼哧"
+    ],
+    "notes": "吭 hat eine zweite Lesung háng „Kehle“, etwa in 引吭高歌 (yǐn háng gāo gē) „aus voller Kehle singen“.",
     "legacyIds": [
       "吭吭"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "吭吭 吭吭 [keng1 keng1]"
     }
@@ -899,13 +1178,31 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "AA",
-    "meaning": "murmeln, vor sich hin flüstern",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "meaning": "murmelnd; vor sich hin murmeln",
+    "usage": "Beschreibt leises, undeutliches Sprechen, meist mit sich selbst – in Gedanken, im Schlaf oder beim Beten.",
+    "explanation": "喃喃 gibt leises, kaum verständliches Murmeln wieder und gehört eher zur geschriebenen, erzählenden Sprache. Am häufigsten ist die feste Wendung 喃喃自语 (nánnán zìyǔ) „vor sich hin murmeln, Selbstgespräche führen“. Daneben steht es adverbial vor Verben des Sagens: 喃喃地说 (nánnán de shuō) „murmeln“, 喃喃地念 (nánnán de niàn) „vor sich hin sprechen, beten“.",
+    "examples": [
+      {
+        "chinese": "她一个人坐在那儿喃喃自语。",
+        "pinyin": "Tā yí gè rén zuò zài nàr nánnán zìyǔ.",
+        "german": "Sie sitzt allein da und murmelt vor sich hin."
+      },
+      {
+        "chinese": "奶奶嘴里喃喃地念着什么。",
+        "pinyin": "Nǎinai zuǐ lǐ nánnán de niànzhe shénme.",
+        "german": "Großmutter murmelt etwas vor sich hin."
+      },
+      {
+        "chinese": "他喃喃地说：“怎么会这样？”",
+        "pinyin": "Tā nánnán de shuō: “Zěnme huì zhèyàng?”",
+        "german": "„Wie konnte das nur passieren?“, murmelte er."
+      }
+    ],
+    "related": [
+      "o:哼哼"
+    ],
+    "notes": "Eher schriftsprachlich; gesprochen sagt man oft 嘟囔 (dūnang) oder 小声嘀咕 (xiǎoshēng dígu).",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "喃喃 喃喃 [nan2 nan2]"
@@ -922,12 +1219,23 @@ window.ONOMATOPOEIA_DATA = [
     "category": "Menschen",
     "pattern": "AA",
     "meaning": "poch, poch (Herzklopfen)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
+    "usage": "Gibt das heftige Klopfen des Herzens wieder – bei Aufregung, Angst, Nervosität oder Verliebtheit.",
+    "explanation": "怦怦 ahmt das laute Schlagen des Herzens nach und steht meist mit 心 (xīn) „Herz“ und 跳 (tiào) „schlagen“: 心怦怦直跳 (xīn pēngpēng zhí tiào) „das Herz klopft wie wild“, 心怦怦地跳 (xīn pēngpēng de tiào). Häufig ist auch 怦怦乱跳 (pēngpēng luàn tiào). Verwandt ist die schriftsprachliche Wendung 怦然心动 (pēngrán xīndòng) „das Herz schlägt höher, sich spontan verlieben“.",
+    "examples": [
+      {
+        "chinese": "我紧张得心怦怦直跳。",
+        "pinyin": "Wǒ jǐnzhāng de xīn pēngpēng zhí tiào.",
+        "german": "Ich war so nervös, dass mir das Herz bis zum Hals schlug."
+      },
+      {
+        "chinese": "见到她的那一刻，他的心怦怦地跳。",
+        "pinyin": "Jiàndào tā de nà yí kè, tā de xīn pēngpēng de tiào.",
+        "german": "In dem Moment, als er sie sah, klopfte ihm das Herz."
+      }
+    ],
     "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "notes": "Nicht verwechseln mit 砰砰 (pēngpēng) für Knallen und Klopfen an Dingen – gleiche Aussprache, anderes Zeichen.",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "怦怦 怦怦 [peng1 peng1]"
@@ -943,24 +1251,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "AA",
-    "meaning": "waah waah (lautes Weinen/Schreien)",
-    "usage": "Drückt lautes Weinen oder Schreien (besonders von Babys) aus",
-    "explanation": "哇哇 ist lauter und intensiver als 呜呜 und wird besonders für das Geschrei von Babys oder kleinen Kindern verwendet.",
+    "meaning": "wäh, wäh (lautes Weinen, Schreien); krächz (Krähe)",
+    "usage": "Gibt lautes Weinen und Schreien wieder, besonders von Babys und kleinen Kindern, auch wütendes Brüllen und das Krächzen von Krähen.",
+    "explanation": "哇哇 ahmt lautes, offenes Schreien nach. Feste Verbindungen sind 哇哇大哭 (wāwā dà kū) „lauthals weinen“ und 哇哇大叫 (wāwā dà jiào) „laut brüllen“, etwa vor Schmerz oder Wut. Es ist lauter und heftiger als das schluchzende 呜呜 (wūwū). Für Krähen hört man 哇哇 ebenso wie 呱呱 (guāguā). Die Einzelform 哇 (wā) steht als Ausruf für Staunen („wow“) und in 哇的一声 (wā de yì shēng) für plötzliches Losheulen oder Erbrechen.",
     "examples": [
       {
-        "chinese": "婴儿哇哇大哭。",
-        "pinyin": "Yīng'ér wāwā dà kū.",
-        "german": "Das Baby schrie laut."
+        "chinese": "孩子摔了一跤，哇哇大哭。",
+        "pinyin": "Háizi shuāi le yì jiāo, wāwā dà kū.",
+        "german": "Das Kind ist hingefallen und weint lauthals."
+      },
+      {
+        "chinese": "婴儿饿了，哇哇地哭个不停。",
+        "pinyin": "Yīng'ér è le, wāwā de kū ge bù tíng.",
+        "german": "Das Baby hat Hunger und schreit ohne Pause."
+      },
+      {
+        "chinese": "他气得哇哇大叫。",
+        "pinyin": "Tā qì de wāwā dà jiào.",
+        "german": "Er brüllte vor Wut."
       }
     ],
     "related": [
-      "o:呜呜"
+      "o:呜呜",
+      "o:哇"
     ],
     "notes": "",
     "legacyIds": [
       "哇哇"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "哇哇 哇哇 [wa1 wa1]"
     }
@@ -975,25 +1294,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "AA",
-    "meaning": "wuwu (Weinen, Heulen)",
-    "usage": "Drückt Weinen oder Jammern aus",
-    "explanation": "呜呜 gibt das Geräusch von Weinen oder Schluchzen wieder. Kann auch für heulende Geräusche (Wind, Sirene) verwendet werden.",
+    "meaning": "schluchz, buhu (Weinen); heulen (Wind, Sirene)",
+    "usage": "Gibt Schluchzen und Weinen wieder; auch langgezogene, heulende Geräusche wie Wind, Sirenen oder ein Zughorn.",
+    "explanation": "呜呜 ahmt ein gedämpftes, langgezogenes Weinen nach: 呜呜地哭 (wūwū de kū) „schluchzen“. Es klingt leiser und kläglicher als das laute 哇哇 (wāwā). Mit 刮 (guā) oder 响 (xiǎng) beschreibt es heulenden Wind, Sirenen oder das Signal eines Zuges. In Chats steht 呜呜 oder 呜呜呜 für gespieltes Weinen, oft auch für Rührung („ich bin so gerührt“).",
     "examples": [
       {
         "chinese": "小孩呜呜地哭了起来。",
         "pinyin": "Xiǎohái wūwū de kū le qǐlái.",
-        "german": "Das Kind fing an zu weinen."
+        "german": "Das Kind fing an zu schluchzen."
+      },
+      {
+        "chinese": "外面的北风呜呜地刮着。",
+        "pinyin": "Wàimiàn de běifēng wūwū de guāzhe.",
+        "german": "Draußen heult der Nordwind."
+      },
+      {
+        "chinese": "火车呜呜地开过来了。",
+        "pinyin": "Huǒchē wūwū de kāi guòlái le.",
+        "german": "Tuut, tuut – der Zug kommt."
       }
     ],
     "related": [
-      "o:哇哇"
+      "o:哇哇",
+      "o:呜"
     ],
-    "notes": "",
+    "notes": "Im Chat oft verdreifacht: 呜呜呜.",
     "legacyIds": [
       "呜呜",
       "呜呜呜"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "嗚嗚 呜呜 [wu1 wu1]"
     }
@@ -1009,24 +1339,32 @@ window.ONOMATOPOEIA_DATA = [
     "category": "Menschen",
     "pattern": "AA",
     "meaning": "hihi (Kichern)",
-    "usage": "Drückt leises, verschmitztes Kichern aus",
-    "explanation": "嘻嘻 stellt ein leichtes, oft verschmitztes oder verlegenes Kichern dar – leiser und 'netter' als 哈哈.",
+    "usage": "Gibt leises, fröhliches oder verschmitztes Kichern wieder; in Chats ein freundliches „hihi“.",
+    "explanation": "嘻嘻 beschreibt ein helles, leises Kichern, oft fröhlich, verspielt oder ein wenig verlegen – leiser und „niedlicher“ als das laute 哈哈 (hāhā). Typisch sind 嘻嘻地笑 (xīxī de xiào) und 嘻嘻一笑 (xīxī yí xiào). Am Satzanfang und im Chat wirkt es freundlich und verspielt. Verwandt sind die ABB-Form 笑嘻嘻 (xiàoxīxī) „grinsend“ und 嘻嘻哈哈 (xīxī-hāhā) „albern und ausgelassen“.",
     "examples": [
       {
         "chinese": "小女孩嘻嘻地笑了。",
         "pinyin": "Xiǎo nǚhái xīxī de xiào le.",
         "german": "Das kleine Mädchen kicherte."
+      },
+      {
+        "chinese": "嘻嘻，我早就知道了！",
+        "pinyin": "Xīxī, wǒ zǎo jiù zhīdào le!",
+        "german": "Hihi, das wusste ich schon längst!"
       }
     ],
     "related": [
       "o:哈哈",
-      "o:呵呵"
+      "o:呵呵",
+      "o:嘿嘿",
+      "o:嘻嘻哈哈",
+      "o:笑嘻嘻"
     ],
     "notes": "",
     "legacyIds": [
       "嘻嘻"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "嘻嘻 嘻嘻 [xi1 xi1]"
     }
@@ -1042,15 +1380,26 @@ window.ONOMATOPOEIA_DATA = [
     "category": "Menschen",
     "pattern": "AB",
     "meaning": "hatschi! (Niesen)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
+    "usage": "Gibt das Geräusch des Niesens wieder, oft allein als Ausruf oder mit 一声 (yì shēng).",
+    "explanation": "阿嚏 ist die chinesische Entsprechung zu „hatschi“. Es steht oft allein mit Ausrufezeichen oder im Rahmen 阿嚏一声 (ātì yì shēng). Das Verb „niesen“ heißt 打喷嚏 (dǎ pēntì); 阿嚏 gibt nur den Laut wieder. Das 阿 wird hier ā gelesen.",
+    "examples": [
+      {
+        "chinese": "阿嚏！我好像感冒了。",
+        "pinyin": "Ātì! Wǒ hǎoxiàng gǎnmào le.",
+        "german": "Hatschi! Ich glaube, ich habe mich erkältet."
+      },
+      {
+        "chinese": "他阿嚏一声，打了个大喷嚏。",
+        "pinyin": "Tā ātì yì shēng, dǎ le ge dà pēntì.",
+        "german": "Hatschi! – Er nieste laut."
+      }
+    ],
     "related": [],
-    "notes": "",
+    "notes": "Auch 啊嚏 (ātì) geschrieben.",
     "legacyIds": [
       "嚏"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "阿嚏 阿嚏 [a1 ti4]"
@@ -1066,24 +1415,34 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "AB",
-    "meaning": "schmatzen, feucht kauend",
-    "usage": "Gibt schmatzende Essgeräusche wieder",
-    "explanation": "吧唧 beschreibt schmatzende Geräusche beim Essen, wenn jemand mit offenem Mund kaut.",
+    "meaning": "schmatz (beim Essen); patsch (nasses Geräusch)",
+    "usage": "Gibt das Schmatzen beim Essen wieder, ein feuchtes Klatschen (etwa in Matsch) oder einen schmatzenden Kuss.",
+    "explanation": "吧唧 ahmt ein feuchtes, klatschendes Geräusch nach. Am häufigsten ist 吧唧嘴 (bājī zuǐ) „mit den Lippen schmatzen“, oft verdoppelt: 吧唧吧唧地吃 (bājībājī de chī). Daneben beschreibt es das Geräusch beim Treten in Matsch oder einen schmatzenden Kuss: 吧唧亲了一口 (bājī qīn le yì kǒu). Gesprochen meist bāji.",
     "examples": [
+      {
+        "chinese": "吃饭的时候别吧唧嘴。",
+        "pinyin": "Chī fàn de shíhou bié bājī zuǐ.",
+        "german": "Schmatz beim Essen nicht!"
+      },
       {
         "chinese": "他吧唧吧唧地吃着面条。",
         "pinyin": "Tā bājībājī de chīzhe miàntiáo.",
         "german": "Er aß schmatzend seine Nudeln."
+      },
+      {
+        "chinese": "她在孩子脸上吧唧亲了一口。",
+        "pinyin": "Tā zài háizi liǎn shàng bājī qīn le yì kǒu.",
+        "german": "Sie gab dem Kind einen schmatzenden Kuss auf die Wange."
       }
     ],
     "related": [
       "o:吧嗒"
     ],
-    "notes": "In China ist Schmatzen weniger negativ als in Deutschland.",
+    "notes": "吧唧嘴 gilt auch in China meist als schlechte Tischmanier. In der Fan- und Anime-Szene ist 吧唧 außerdem ein Lehnwort für „Anstecker, Button“.",
     "legacyIds": [
       "吧唧"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "吧唧 吧唧 [ba1 ji1]"
     }
@@ -1098,24 +1457,38 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "AB",
-    "meaning": "gluckern, blubbern, rollen",
-    "usage": "Gibt Gluckergeräusche oder rollendes Geräusch wieder",
-    "explanation": "咕噜 beschreibt verschiedene Geräusche: Gluckern von Flüssigkeit, Blubbern, oder das Rollen eines runden Gegenstands.",
+    "meaning": "gluck (Schlucken); Magenknurren; kullern",
+    "usage": "Gibt gluckernde Geräusche wieder – lautes Trinken, ein knurrender Magen – und das Rollen eines runden Gegenstands.",
+    "explanation": "咕噜 ahmt ein dumpfes, rollendes oder gluckerndes Geräusch nach. Typisch sind 咕噜一声 (gūlū yì shēng) für einen einzelnen Laut, etwa ein knurrender Magen, und die Verdopplung 咕噜咕噜 (gūlūgūlū) für Anhaltendes: gierig trinken, kullern, blubbern. Auch Augen, die listig hin und her rollen, beschreibt man so: 眼珠咕噜一转 (yǎnzhū gūlū yì zhuàn). Gesprochen meist gūlu.",
     "examples": [
       {
-        "chinese": "他咕噜咕噜喝了一大杯水。",
-        "pinyin": "Tā gūlūgūlū hē le yī dà bēi shuǐ.",
-        "german": "Er trank gluckernd ein großes Glas Wasser."
+        "chinese": "他咕噜咕噜地喝了一大杯水。",
+        "pinyin": "Tā gūlūgūlū de hē le yí dà bēi shuǐ.",
+        "german": "Er trank glucksend ein großes Glas Wasser leer."
+      },
+      {
+        "chinese": "我的肚子咕噜叫了一声。",
+        "pinyin": "Wǒ de dùzi gūlū jiào le yì shēng.",
+        "german": "Mein Magen knurrte."
+      },
+      {
+        "chinese": "苹果咕噜咕噜地滚到了床底下。",
+        "pinyin": "Píngguǒ gūlūgūlū de gǔndào le chuáng dǐxia.",
+        "german": "Der Apfel kullerte unter das Bett."
       }
     ],
     "related": [
-      "o:咕噜咕噜"
+      "o:咕噜咕噜",
+      "o:咕咕",
+      "o:呼噜",
+      "o:咕咚咕咚",
+      "o:叽里咕噜"
     ],
-    "notes": "咕噜 hat eine Einzelform, 咕噜咕噜 ist die verdoppelte.",
+    "notes": "Auch 骨碌 (gūlu) geschrieben, besonders für Rollen und Kullern.",
     "legacyIds": [
       "咕噜"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "咕嚕 咕噜 [gu1 lu5]"
     }
@@ -1130,13 +1503,33 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "AB",
-    "meaning": "keuch, schnauf (Hecheln)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "meaning": "keuch, schnauf (schweres Atmen)",
+    "usage": "Gibt schweres, hörbares Atmen nach Anstrengung wieder – nach dem Rennen, Klettern oder Tragen; auch das Hecheln von Hunden.",
+    "explanation": "呼哧 ahmt kräftiges Ein- und Ausatmen nach und wird meist verdoppelt: 呼哧呼哧地喘气 (hūchīhūchī de chuǎn qì) „keuchen, schnaufen“. Häufig steht es als Ergebnis nach 得: 累得呼哧呼哧的 (lèi de hūchīhūchī de) „vor Erschöpfung schnaufen“. Umgangssprachlich ist auch 呼哧带喘 (hūchī dài chuǎn) „atemlos, keuchend“.",
+    "examples": [
+      {
+        "chinese": "他跑上楼来，呼哧呼哧地喘着气。",
+        "pinyin": "Tā pǎo shàng lóu lái, hūchīhūchī de chuǎnzhe qì.",
+        "german": "Er kam die Treppe heraufgerannt und schnaufte heftig."
+      },
+      {
+        "chinese": "小狗热得呼哧呼哧地吐着舌头。",
+        "pinyin": "Xiǎo gǒu rè de hūchīhūchī de tǔzhe shétou.",
+        "german": "Dem kleinen Hund ist so heiß, dass er mit heraushängender Zunge hechelt."
+      },
+      {
+        "chinese": "爬到山顶的时候，大家都累得呼哧呼哧的。",
+        "pinyin": "Pá dào shāndǐng de shíhou, dàjiā dōu lèi de hūchīhūchī de.",
+        "german": "Oben auf dem Gipfel schnauften alle vor Erschöpfung."
+      }
+    ],
+    "related": [
+      "o:哧哧",
+      "o:呼噜",
+      "o:气呼呼"
+    ],
+    "notes": "Gesprochen oft hūchi.",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "呼哧 呼哧 [hu1 chi1]"
@@ -1152,24 +1545,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "AB",
-    "meaning": "schnarchen",
-    "usage": "Gibt Schnarchgeräusche wieder",
-    "explanation": "呼噜 (oder 打呼噜 dǎ hūlu) ahmt das Schnarchen nach. Sehr umgangssprachlich und bildhaft.",
+    "meaning": "Schnarchen; Schnurren (Katze)",
+    "usage": "Gibt das Schnarchen eines schlafenden Menschen wieder, auch das Schnurren einer Katze oder rasselndes Atmen.",
+    "explanation": "呼噜 ahmt das tiefe, rasselnde Geräusch beim Schnarchen nach. Am häufigsten ist es Teil von 打呼噜 (dǎ hūlu) „schnarchen“; dasselbe sagt man auch vom Schnurren einer Katze. Als Lautwort wird es meist verdoppelt: 呼噜呼噜地睡 (hūlūhūlū de shuì) „schnarchend schlafen“. Im Wörterbuch hūlū, gesprochen meist hūlu.",
     "examples": [
       {
         "chinese": "他打呼噜打得很响。",
-        "pinyin": "Tā dǎ hūlu dǎ de hěn xiǎng.",
+        "pinyin": "Tā dǎ hūlū dǎ de hěn xiǎng.",
         "german": "Er schnarcht sehr laut."
+      },
+      {
+        "chinese": "他一躺下就呼噜呼噜地睡着了。",
+        "pinyin": "Tā yì tǎngxià jiù hūlūhūlū de shuìzháo le.",
+        "german": "Kaum hatte er sich hingelegt, war er schon schnarchend eingeschlafen."
+      },
+      {
+        "chinese": "小猫趴在我腿上打呼噜。",
+        "pinyin": "Xiǎo māo pā zài wǒ tuǐ shàng dǎ hūlū.",
+        "german": "Das Kätzchen liegt auf meinem Schoß und schnurrt."
       }
     ],
     "related": [
+      "o:咕噜",
+      "o:呼哧",
       "o:呼呼"
     ],
-    "notes": "打呼噜 ist die gängige Redewendung für 'schnarchen'.",
+    "notes": "打呼噜 (dǎ hūlu) ist der übliche Alltagsausdruck für „schnarchen“; schriftsprachlich auch 打鼾 (dǎ hān).",
     "legacyIds": [
       "呼噜"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "呼嚕 呼噜 [hu1 lu1]"
     }
@@ -1184,24 +1589,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "AB",
-    "meaning": "prusten, losprusten (Lachen)",
-    "usage": "Gibt das plötzliche Losprusten vor Lachen wieder",
-    "explanation": "噗嗤 beschreibt das Geräusch, wenn man plötzlich und unkontrolliert loslacht, oft durch die Nase.",
+    "meaning": "pff!; Losprusten (Lachen); Zischen (entweichende Luft)",
+    "usage": "Gibt das plötzliche, kurz herausplatzende Lachen wieder, das man nicht mehr zurückhalten kann; seltener das Zischen von Luft oder Wasser, das aus einer Öffnung entweicht.",
+    "explanation": "噗嗤 ahmt den Laut nach, wenn jemandem ein Lachen gegen den eigenen Willen herausplatzt – kurz, durch Nase oder Lippen. Typisch sind 噗嗤一声笑了 (pūchī yì shēng xiào le) „prustete los“ und die feste Wendung 噗嗤一笑 (pūchī yí xiào). Gemeint ist kein schallendes Gelächter wie bei 哈哈 (hāhā), sondern ein unterdrücktes, plötzliches Auflachen. Daneben beschreibt das Wort das Zischen entweichender Luft oder Flüssigkeit, etwa bei einem Reifen.",
     "examples": [
       {
-        "chinese": "大家噗嗤一声都笑了。",
-        "pinyin": "Dàjiā pūchī yī shēng dōu xiào le.",
-        "german": "Alle prusteten gleichzeitig los."
+        "chinese": "听了他的话，她噗嗤一声笑了出来。",
+        "pinyin": "Tīngle tā de huà, tā pūchī yì shēng xiàole chūlái.",
+        "german": "Als sie hörte, was er sagte, prustete sie los."
+      },
+      {
+        "chinese": "小明忍不住噗嗤一笑。",
+        "pinyin": "Xiǎo Míng rěn bu zhù pūchī yí xiào.",
+        "german": "Xiao Ming konnte sich nicht mehr halten und lachte prustend auf."
+      },
+      {
+        "chinese": "车胎噗嗤一声漏气了。",
+        "pinyin": "Chētāi pūchī yì shēng lòu qì le.",
+        "german": "Mit einem Zischen entwich die Luft aus dem Reifen."
       }
     ],
     "related": [
-      "o:哈哈"
+      "o:噗",
+      "o:哈哈",
+      "o:嘻嘻哈哈"
     ],
-    "notes": "",
+    "notes": "Im Wörterbuch meist 扑哧 (pūchī) geschrieben; 噗嗤 und 噗哧 sind verbreitete Schreibungen derselben Lautmalerei. Umgangssprachlich und in Erzählungen häufig.",
     "legacyIds": [
       "噗嗤"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -1216,25 +1633,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "AABB",
-    "meaning": "flüstern, heimlich tuscheln",
-    "usage": "Beschreibt leises, heimliches Tuscheln in einer Gruppe",
-    "explanation": "嘁嘁喳喳 beschreibt das Gefluster einer Gruppe, oft hinter dem Rücken anderer.",
+    "meaning": "tuschelnd; leises Stimmengewirr",
+    "usage": "Beschreibt das gedämpfte, durcheinandergehende Reden mehrerer Menschen – Flüstern und Tuscheln, bei dem man kaum ein Wort versteht.",
+    "explanation": "嘁嘁喳喳 ist eine AABB-Lautmalerei für leise, kleinteilige Sprechgeräusche: Man hört, dass gesprochen wird, versteht aber kaum etwas – Leute, die miteinander tuscheln, Getuschel im Publikum. Typisch sind 嘁嘁喳喳地说 (qīqichāchā de shuō) und 嘁嘁喳喳的说话声 (qīqichāchā de shuōhuà shēng). Oft schwingt mit, dass heimlich oder über jemanden geredet wird; nötig ist das aber nicht. Lauter und lebhafter ist 叽叽喳喳 (jījizhāzhā), das auch Vogelgezwitscher meint.",
     "examples": [
       {
-        "chinese": "同事们在背后嘁嘁喳喳地议论着。",
-        "pinyin": "Tóngshìmen zài bèihòu qīqī-zhāzhā de yìlùnzhe.",
-        "german": "Die Kollegen tuschelten hinter seinem Rücken."
+        "chinese": "几个女孩子在后面嘁嘁喳喳地说着什么。",
+        "pinyin": "Jǐ ge nǚháizi zài hòumian qīqichāchā de shuōzhe shénme.",
+        "german": "Ein paar Mädchen tuschelten hinten miteinander."
+      },
+      {
+        "chinese": "上课的时候，别嘁嘁喳喳的！",
+        "pinyin": "Shàngkè de shíhou, bié qīqichāchā de!",
+        "german": "Im Unterricht wird nicht getuschelt!"
+      },
+      {
+        "chinese": "门外传来一阵嘁嘁喳喳的说话声。",
+        "pinyin": "Mén wài chuánlái yí zhèn qīqichāchā de shuōhuà shēng.",
+        "german": "Vor der Tür war leises Getuschel zu hören."
       }
     ],
     "related": [
+      "o:叽叽喳喳",
       "o:嘀嘀咕咕",
-      "o:叽叽喳喳"
+      "o:嘻嘻哈哈"
     ],
-    "notes": "Oft mit negativer Konnotation (über andere reden).",
+    "notes": "Die zweite Silbe wird meist neutral gesprochen (qīqichāchā). 喳 wird hier chā gelesen, in 叽叽喳喳 (jījizhāzhā) dagegen zhā.",
     "legacyIds": [
       "嘁嘁喳喳"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "嘁嘁喳喳 嘁嘁喳喳 [qi1 qi5 cha1 cha1]"
     }
@@ -1249,25 +1677,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "AABB",
-    "meaning": "tappend, trampelnd (Schritte)",
-    "usage": "Gibt das Tappen und Trampeln vieler Schritte wieder",
-    "explanation": "踢踢踏踏 ahmt das Geräusch vieler Schritte nach – z.B. eine Gruppe, die eine Treppe hinaufgeht, oder Kinder, die herumrennen.",
+    "meaning": "trapp, trapp; schlurfende oder trappelnde Schritte",
+    "usage": "Gibt das Geräusch von Schritten wieder – Hausschuhe oder Sandalen, die über den Boden schlurfen, oder viele Füße auf Treppe und Flur.",
+    "explanation": "踢踢踏踏 ist die AABB-Form von 踢踏 (tītà), das man aus 踢踏舞 (tītàwǔ) „Stepptanz“ kennt. Die Lautmalerei beschreibt ungleichmäßige, klappernde oder schlurfende Schritte: Hausschuhe auf dem Fliesenboden, Kinder, die die Treppe hinunterrennen. Typisch sind 踢踢踏踏的脚步声 (tītītàtà de jiǎobù shēng) und 踢踢踏踏地走 (tītītàtà de zǒu). Gleichmäßiges Hufgetrappel oder klackende Absätze gibt man eher mit 嗒嗒 (dādā) wieder.",
     "examples": [
       {
-        "chinese": "楼道里踢踢踏踏的脚步声。",
-        "pinyin": "Lóudào lǐ tītītàtà de jiǎobù shēng.",
-        "german": "Im Flur hörte man tappende, trampelnde Schritte."
+        "chinese": "楼道里传来踢踢踏踏的脚步声。",
+        "pinyin": "Lóudào lǐ chuánlái tītītàtà de jiǎobù shēng.",
+        "german": "Aus dem Treppenhaus waren trappelnde Schritte zu hören."
+      },
+      {
+        "chinese": "他穿着拖鞋，踢踢踏踏地走进了厨房。",
+        "pinyin": "Tā chuānzhe tuōxié, tītītàtà de zǒujìnle chúfáng.",
+        "german": "In Hausschuhen schlurfte er in die Küche."
+      },
+      {
+        "chinese": "孩子们踢踢踏踏地跑下楼去了。",
+        "pinyin": "Háizimen tītītàtà de pǎo xià lóu qù le.",
+        "german": "Die Kinder trappelten die Treppe hinunter."
       }
     ],
     "related": [
       "o:嗒嗒",
       "o:咚咚"
     ],
-    "notes": "",
+    "notes": "Vor allem in erzählenden Texten gebräuchlich; kein fester Wörterbucheintrag, aber gut verständlich.",
     "legacyIds": [
       "踢踢踏踏"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -1282,25 +1720,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "AABB",
-    "meaning": "ausgelassen lachend, albern",
-    "usage": "Beschreibt ausgelassenes, unbekümmertes Lachen und Scherzen",
-    "explanation": "嘻嘻哈哈 kombiniert 嘻嘻 und 哈哈 und beschreibt eine ausgelassene, oft etwas alberne Stimmung.",
+    "meaning": "kichernd und lachend; albern, unernst",
+    "usage": "Beschreibt fröhliches, ausgelassenes Lachen und Scherzen, meist in einer Gruppe – und, oft tadelnd, eine Haltung, die etwas nicht ernst nimmt.",
+    "explanation": "嘻嘻哈哈 verbindet die Lachlaute 嘻嘻 (xīxī) „hihi“ und 哈哈 (hāhā) „haha“ zu einer AABB-Form. Sie malt das fröhliche Durcheinander von Kichern und Lachen, etwa bei spielenden Kindern. Daneben bedeutet sie „unernst, albern“: 别嘻嘻哈哈的 (bié xīxīhāhā de) „hör auf herumzualbern“, besonders wenn etwas Ernstes ansteht. Meist steht sie adverbial mit 地 vor dem Verb oder als Prädikat mit 的.",
     "examples": [
       {
-        "chinese": "孩子们嘻嘻哈哈地玩耍。",
-        "pinyin": "Háizimen xīxī-hāhā de wánshuǎ.",
-        "german": "Die Kinder spielen und lachen ausgelassen."
+        "chinese": "孩子们嘻嘻哈哈地跑进了教室。",
+        "pinyin": "Háizimen xīxīhāhā de pǎojìnle jiàoshì.",
+        "german": "Lachend und kichernd rannten die Kinder ins Klassenzimmer."
+      },
+      {
+        "chinese": "一群年轻人坐在一起，嘻嘻哈哈地聊着天。",
+        "pinyin": "Yì qún niánqīngrén zuò zài yìqǐ, xīxīhāhā de liáozhe tiān.",
+        "german": "Eine Gruppe junger Leute saß beisammen, plauderte und lachte ausgelassen."
+      },
+      {
+        "chinese": "这是正事，你别嘻嘻哈哈的。",
+        "pinyin": "Zhè shì zhèngshì, nǐ bié xīxīhāhā de.",
+        "german": "Das ist eine ernste Sache – hör auf herumzualbern."
       }
     ],
     "related": [
       "o:哈哈",
-      "o:嘻嘻"
+      "o:嘻嘻",
+      "o:笑哈哈",
+      "o:笑嘻嘻"
     ],
-    "notes": "",
+    "notes": "Umgangssprachlich; die zweite Silbe wird oft neutral gesprochen (xīxihāhā).",
     "legacyIds": [
       "嘻嘻哈哈"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -1315,24 +1765,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "ABAB",
-    "meaning": "plappern, endlos reden",
-    "usage": "Gibt endloses, inhaltsloses Geplapper wieder",
-    "explanation": "吧啦吧啦 beschreibt endloses Geplapper – jemand redet ohne Punkt und Komma, oft ohne wirklichen Inhalt.",
+    "meaning": "blablabla; endloses Geplapper",
+    "usage": "Gibt wortreiches, pausenloses Reden wieder, dessen Inhalt nicht interessiert oder nicht wiedergegeben wird – meist leicht spöttisch.",
+    "explanation": "吧啦吧啦 entspricht dem deutschen „blablabla“: Jemand redet und redet, und wer davon erzählt, gibt den Inhalt nicht wieder. Typisch steht es vor einem Verb des Sagens, etwa 吧啦吧啦说了半天 (bālā bālā shuōle bàntiān) „redete ewig drauflos“, oder adverbial mit 地. Am Ende einer Aufzählung ersetzt es „und so weiter“. Der Ton ist locker bis abschätzig; für nörgelndes, wiederholtes Ermahnen sagt man eher 唠唠叨叨 (láolaodāodāo).",
     "examples": [
       {
-        "chinese": "她吧啦吧啦说了一大堆。",
-        "pinyin": "Tā bālābālā shuō le yī dà duī.",
-        "german": "Sie plapperte endlos vor sich hin."
+        "chinese": "她吧啦吧啦说了半天，我一句也没听进去。",
+        "pinyin": "Tā bālā bālā shuōle bàntiān, wǒ yí jù yě méi tīng jìnqu.",
+        "german": "Sie hat ewig lang drauflosgeredet, aber ich habe kein Wort mitbekommen."
+      },
+      {
+        "chinese": "他在电话里吧啦吧啦地说个不停。",
+        "pinyin": "Tā zài diànhuà lǐ bālā bālā de shuō ge bù tíng.",
+        "german": "Am Telefon redete er ohne Punkt und Komma."
+      },
+      {
+        "chinese": "他说要带护照、钱、手机、充电器，吧啦吧啦一大堆。",
+        "pinyin": "Tā shuō yào dài hùzhào, qián, shǒujī, chōngdiànqì, bālā bālā yí dà duī.",
+        "german": "Er zählte auf, was man mitnehmen soll: Pass, Geld, Handy, Ladegerät, blablabla – eine endlose Liste."
       }
     ],
     "related": [
-      "o:唠唠叨叨"
+      "o:唠唠叨叨",
+      "o:叽里呱啦"
     ],
-    "notes": "Umgangssprachlich, leicht abwertend.",
+    "notes": "Umgangssprachlich und im Internet verbreitet; auch 巴拉巴拉 geschrieben. CC-CEDICT führt es als Lehnwort (vgl. engl. „blah blah“).",
     "legacyIds": [
       "吧啦吧啦"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "吧啦吧啦 吧啦吧啦 [ba1 la1 ba1 la1]"
     }
@@ -1347,24 +1808,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "ABAB",
-    "meaning": "großes Schlucken, gluckend trinken",
-    "usage": "Gibt das Geräusch von gierigem, großem Schlucken oder Plumpsen wieder",
-    "explanation": "咕咚咕咚 ahmt das Geräusch nach, wenn jemand gierig trinkt und man das Schlucken hört, oder wenn Gegenstände ins Wasser fallen.",
+    "meaning": "gluck, gluck; in großen Zügen trinken",
+    "usage": "Gibt das hörbare Schlucken wieder, wenn jemand durstig in großen Zügen trinkt; seltener mehrere dumpfe Plumps- oder Aufschlaggeräusche hintereinander.",
+    "explanation": "咕咚咕咚 ist die ABAB-Verdopplung von 咕咚 (gūdōng), das einen einzelnen dumpfen Plumps wiedergibt. Verdoppelt beschreibt es ein sich wiederholendes Geräusch, vor allem kräftiges, gieriges Schlucken: 咕咚咕咚地喝 (gūdōng gūdōng de hē), oft auch ohne 地 direkt vor dem Verb. Seltener steht es für mehrere dumpfe Aufschläge hintereinander. Ähnlich klingt 咕嘟咕嘟 (gūdū gūdū), das vor allem Blubbern beschreibt, aber ebenfalls beim Trinken vorkommt.",
     "examples": [
       {
-        "chinese": "他渴极了，咕咚咕咚喝了一大瓶水。",
-        "pinyin": "Tā kě jí le, gūdōnggūdōng hē le yī dà píng shuǐ.",
-        "german": "Er hatte großen Durst und trank gluckernd eine große Flasche Wasser."
+        "chinese": "他渴坏了，拿起水瓶咕咚咕咚地喝了起来。",
+        "pinyin": "Tā kěhuài le, náqǐ shuǐpíng gūdōng gūdōng de hēle qǐlái.",
+        "german": "Er war völlig ausgedörrt, griff zur Wasserflasche und trank in großen, glucksenden Zügen."
+      },
+      {
+        "chinese": "小明跑完步，咕咚咕咚喝了两瓶水。",
+        "pinyin": "Xiǎo Míng pǎowán bù, gūdōng gūdōng hēle liǎng píng shuǐ.",
+        "german": "Nach dem Laufen kippte Xiao Ming gluck, gluck zwei Flaschen Wasser hinunter."
+      },
+      {
+        "chinese": "她端起杯子，咕咚咕咚把冰水一口气喝完了。",
+        "pinyin": "Tā duānqǐ bēizi, gūdōng gūdōng bǎ bīngshuǐ yìkǒuqì hēwán le.",
+        "german": "Sie nahm das Glas und stürzte das Eiswasser in einem Zug hinunter."
       }
     ],
     "related": [
-      "o:咕咚"
+      "o:咕咚",
+      "o:咕嘟咕嘟",
+      "o:咕噜咕噜"
     ],
-    "notes": "Verdoppelte Form von 咕咚, verstärkt das anhaltende Geräusch.",
+    "notes": "Lebendig und umgangssprachlich, häufig in Erzählungen.",
     "legacyIds": [
       "咕咚咕咚"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -1379,25 +1852,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "A里BC",
-    "meaning": "aufgeregtes Durcheinanderreden, Geschnatter",
-    "usage": "Beschreibt aufgeregtes, lautes Durcheinanderreden",
-    "explanation": "叽里呱啦 beschreibt das laute, chaotische Durcheinanderreden vieler Menschen – lauter und chaotischer als 叽叽喳喳.",
+    "meaning": "lautes Durcheinanderreden; unverständliches Geschnatter",
+    "usage": "Beschreibt lautes, schnelles, durcheinandergehendes Reden – oft in einer Sprache, die man nicht versteht und nur als Geräusch wahrnimmt.",
+    "explanation": "叽里呱啦 ist eine A里BC-Lautmalerei: 叽 (jī) und 呱 (guā) ahmen helle und laute Stimmen nach, 里 (li) ist eine tonlose Füllsilbe. Gemeint ist lautes, wirres Reden – Kinder in der Pause, aufgeregte Leute, eine fremde Sprache. Typisch sind 叽里呱啦地说 (jīliguālā de shuō) und 叽里呱啦的吵闹声 (jīliguālā de chǎonào shēng). Leiser und murmelnder ist 叽里咕噜 (jīligūlū), heller und an Vögel erinnernd 叽叽喳喳 (jījizhāzhā).",
     "examples": [
       {
-        "chinese": "教室里叽里呱啦地吵成一片。",
-        "pinyin": "Jiàoshì lǐ jīli-guālā de chǎo chéng yī piàn.",
-        "german": "Im Klassenzimmer redeten alle laut und chaotisch durcheinander."
+        "chinese": "下课了，同学们叽里呱啦地说个不停。",
+        "pinyin": "Xiàkè le, tóngxuémen jīliguālā de shuō ge bù tíng.",
+        "german": "Kaum war der Unterricht vorbei, schnatterten alle laut durcheinander."
+      },
+      {
+        "chinese": "几个游客叽里呱啦地说着外语，我一句也听不懂。",
+        "pinyin": "Jǐ ge yóukè jīliguālā de shuōzhe wàiyǔ, wǒ yí jù yě tīng bu dǒng.",
+        "german": "Ein paar Reisende redeten lautstark in einer Fremdsprache – ich verstand kein Wort."
+      },
+      {
+        "chinese": "一进门，就听见孩子们叽里呱啦的吵闹声。",
+        "pinyin": "Yí jìn mén, jiù tīngjiàn háizimen jīliguālā de chǎonào shēng.",
+        "german": "Kaum war ich zur Tür herein, hörte ich das laute Geschnatter der Kinder."
       }
     ],
     "related": [
+      "o:叽里咕噜",
       "o:叽叽喳喳",
-      "o:叽里咕噜"
+      "o:吧啦吧啦"
     ],
-    "notes": "",
+    "notes": "Umgangssprachlich; auch 叽哩呱啦 geschrieben.",
     "legacyIds": [
       "叽里呱啦"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -1412,24 +1896,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Menschen",
     "pattern": "A里BC",
-    "meaning": "unverständliches Gemurmel, Kauderwelsch",
-    "usage": "Beschreibt unverständliches oder fremdsprachiges Gerede",
-    "explanation": "叽里咕噜 beschreibt Reden, das man nicht verstehen kann – sei es, weil es zu leise, zu schnell oder in einer Fremdsprache ist.",
+    "meaning": "Gemurmel, Kauderwelsch; kullernd (rollende Dinge)",
+    "usage": "Beschreibt Reden, das man nicht versteht – zu leise, zu schnell oder in einer fremden Sprache; außerdem das Geräusch von etwas, das rollt oder kullert.",
+    "explanation": "叽里咕噜 ist eine A里BC-Lautmalerei mit der tonlosen Füllsilbe 里 (li). Die Hauptbedeutung ist Reden, aus dem man keine Wörter heraushört: 叽里咕噜地说了一通 (jīligūlū de shuōle yí tòng) „redete unverständliches Zeug“. Anders als 叽里呱啦 (jīliguālā) ist es nicht unbedingt laut, eher murmelnd oder fremd. Die zweite Bedeutung knüpft an 咕噜 (gūlū) an: Dinge, die holpernd rollen, etwa ein Apfel unter den Tisch.",
     "examples": [
       {
         "chinese": "他叽里咕噜地说了一通，我一句也没听懂。",
-        "pinyin": "Tā jīli-gūlū de shuō le yī tòng, wǒ yī jù yě méi tīng dǒng.",
-        "german": "Er redete einen ganzen Schwall unverständliches Zeug, ich verstand kein Wort."
+        "pinyin": "Tā jīligūlū de shuōle yí tòng, wǒ yí jù yě méi tīngdǒng.",
+        "german": "Er redete eine Weile unverständliches Zeug – ich verstand kein Wort."
+      },
+      {
+        "chinese": "两个人在旁边叽里咕噜地说着日语。",
+        "pinyin": "Liǎng ge rén zài pángbiān jīligūlū de shuōzhe Rìyǔ.",
+        "german": "Daneben unterhielten sich zwei Leute murmelnd auf Japanisch."
+      },
+      {
+        "chinese": "苹果从桌子上掉下来，叽里咕噜地滚到了床底下。",
+        "pinyin": "Píngguǒ cóng zhuōzi shang diào xiàlai, jīligūlū de gǔndàole chuáng dǐxia.",
+        "german": "Der Apfel fiel vom Tisch und kullerte unters Bett."
       }
     ],
     "related": [
-      "o:嘟嘟囔囔"
+      "o:叽里呱啦",
+      "o:嘟嘟囔囔",
+      "o:咕噜",
+      "o:嘀嘀咕咕"
     ],
-    "notes": "",
+    "notes": "Auch 叽哩咕噜 (jīligūlū) geschrieben. Umgangssprachlich; kann abschätzig wirken, wenn eine fremde Sprache als bloßes Geräusch dargestellt wird.",
     "legacyIds": [
       "叽里咕噜"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "嘰里咕嚕 叽里咕噜 [ji1 li5 gu1 lu1]"
     }
@@ -1482,25 +1979,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Menschen",
     "pattern": "AABB",
-    "meaning": "murmeln, vor sich hin brummen",
-    "usage": "Beschreibt unzufriedenes Murmeln oder leises Gemurre",
-    "explanation": "嘟嘟囔囔 beschreibt leises, oft unzufriedenes Murmeln, das kaum verständlich ist.",
+    "meaning": "vor sich hin brummelnd; murrend",
+    "usage": "Beschreibt, wie jemand leise und undeutlich vor sich hin redet, meist unzufrieden oder murrend.",
+    "explanation": "嘟嘟囔囔 ist die AABB-Form von 嘟囔 (dūnang) „murmeln, brummeln“. Die Verdopplung macht daraus ein anhaltendes, kaum verständliches Vor-sich-hin-Reden, aus dem man oft Unmut heraushört. Meist steht es adverbial vor einem Verb des Sagens, etwa 嘟嘟囔囔地说 (dūdunāngnāng de shuō), oder als Prädikat mit 的; mit 很 wird es kaum verbunden. Nah verwandt ist 嘀嘀咕咕 (dídigūgū), das eher heimliches Tuscheln oder Zweifel betont; 唠唠叨叨 (láolaodāodāo) ist dagegen ausgiebiges, immer wiederholtes Reden und Ermahnen.",
     "examples": [
       {
-        "chinese": "他嘟嘟囔囔地说了几句。",
-        "pinyin": "Tā dūdu-nāngnāng de shuō le jǐ jù.",
-        "german": "Er murmelte ein paar Worte vor sich hin."
+        "chinese": "他嘟嘟囔囔地说了几句，谁也没听清。",
+        "pinyin": "Tā dūdunāngnāng de shuōle jǐ jù, shéi yě méi tīngqīng.",
+        "german": "Er brummelte ein paar Worte, aber niemand verstand sie."
+      },
+      {
+        "chinese": "别嘟嘟囔囔的，有意见就大声说出来！",
+        "pinyin": "Bié dūdunāngnāng de, yǒu yìjiàn jiù dàshēng shuō chūlái!",
+        "german": "Hör auf zu murren – wenn du etwas einzuwenden hast, sag es laut!"
+      },
+      {
+        "chinese": "爷爷一边找眼镜，一边嘟嘟囔囔的。",
+        "pinyin": "Yéye yìbiān zhǎo yǎnjìng, yìbiān dūdunāngnāng de.",
+        "german": "Opa brummelte vor sich hin, während er seine Brille suchte."
       }
     ],
     "related": [
-      "o:嘀嘀咕咕"
+      "o:嘀嘀咕咕",
+      "o:唠唠叨叨",
+      "o:叽里咕噜"
     ],
-    "notes": "",
+    "notes": "Umgangssprachlich; die zweite Silbe wird meist neutral gesprochen (dūdunāngnāng).",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "嘟嘟囔囔"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -1515,14 +2024,33 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Menschen",
     "pattern": "AABB",
-    "meaning": "stotternd, stockend",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
-    "notes": "",
+    "meaning": "stotternd, stammelnd; holprig (Rede)",
+    "usage": "Beschreibt stockendes Sprechen – aus Nervosität oder Verlegenheit, wegen einer Sprechstörung oder weil man eine Sprache noch nicht gut beherrscht.",
+    "explanation": "结结巴巴 ist die AABB-Form von 结巴 (jiēba) „stottern; stotternd“. Die Verdopplung malt das Stocken anschaulich aus: Die Worte kommen nur mit Unterbrechungen heraus. Typisch sind 结结巴巴地说 (jiējiēbāba de shuō) und 说得结结巴巴的 (shuō de jiējiēbāba de); 很 steht meist nicht davor. Es kann eine echte Sprechstörung meinen, häufiger aber vorübergehendes Stammeln vor Aufregung oder holpriges Sprechen in einer Fremdsprache. Verwandt ist 吞吞吐吐 (tūntūntǔtǔ), das eher ausweichendes Herumdrucksen beschreibt.",
+    "examples": [
+      {
+        "chinese": "他一紧张，说话就结结巴巴的。",
+        "pinyin": "Tā yì jǐnzhāng, shuōhuà jiù jiējiēbāba de.",
+        "german": "Sobald er nervös wird, fängt er an zu stottern."
+      },
+      {
+        "chinese": "她红着脸，结结巴巴地解释了半天。",
+        "pinyin": "Tā hóngzhe liǎn, jiējiēbāba de jiěshìle bàntiān.",
+        "german": "Mit rotem Gesicht stammelte sie lange herum, um es zu erklären."
+      },
+      {
+        "chinese": "第一次用中文打电话，我说得结结巴巴的。",
+        "pinyin": "Dì-yī cì yòng Zhōngwén dǎ diànhuà, wǒ shuō de jiējiēbāba de.",
+        "german": "Bei meinem ersten Telefonat auf Chinesisch habe ich ziemlich herumgestottert."
+      }
+    ],
+    "related": [
+      "o:吞吞吐吐",
+      "o:嘟嘟囔囔"
+    ],
+    "notes": "Als Bezeichnung für eine Person – 结巴 (jiēba) „jemand, der stottert“ – wirkt das Wort umgangssprachlich und oft abwertend; neutral für die Sprechstörung ist 口吃 (kǒuchī).",
     "grammarId": "g:AA、AABB",
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "結結巴巴 结结巴巴 [jie1 jie1 ba1 ba5]"
@@ -1615,13 +2143,33 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Menschen",
     "pattern": "A里AB",
-    "meaning": "weitschweifig, umständlich",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "meaning": "weitschweifig, langatmig; umständlich",
+    "usage": "Beschreibt Reden oder Texte, die zu viele Worte machen und nicht auf den Punkt kommen; auch umständliches, pedantisches Verhalten.",
+    "explanation": "啰里啰嗦 ist die A里AB-Form von 啰嗦 (luōsuo) „weitschweifig, geschwätzig“. Das eingeschobene 里 (li) und die Wiederholung von 啰 verstärken den abwertenden Ton: Etwas ist so wortreich, dass es nervt. Es steht als Prädikat mit 的, etwa 他说话啰里啰嗦的 (tā shuōhuà luōliluōsuo de), als Komplement nach 得 oder in Aufforderungen mit 别 (bié). Wie andere A里AB-Formen, etwa 糊里糊涂 (húlihútu) oder 慌里慌张 (huānglihuāngzhāng), ist es umgangssprachlich und negativ gefärbt.",
+    "examples": [
+      {
+        "chinese": "他说话啰里啰嗦的，半天说不到重点。",
+        "pinyin": "Tā shuōhuà luōliluōsuo de, bàntiān shuō bu dào zhòngdiǎn.",
+        "german": "Er redet so umständlich und kommt ewig nicht auf den Punkt."
+      },
+      {
+        "chinese": "别啰里啰嗦的了，快说吧！",
+        "pinyin": "Bié luōliluōsuo de le, kuài shuō ba!",
+        "german": "Hör auf herumzureden und sag's endlich!"
+      },
+      {
+        "chinese": "这篇文章写得啰里啰嗦的，可以删掉一半。",
+        "pinyin": "Zhè piān wénzhāng xiě de luōliluōsuo de, kěyǐ shāndiào yíbàn.",
+        "german": "Dieser Artikel ist so langatmig geschrieben, dass man die Hälfte streichen könnte."
+      }
+    ],
+    "related": [
+      "o:唠唠叨叨",
+      "o:糊里糊涂",
+      "o:慌里慌张"
+    ],
+    "notes": "Auch 啰里啰唆 oder 罗里罗嗦 geschrieben; in Wörterbüchern ist 啰唆 (luōsuo) die Standardschreibung des Grundworts.",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "囉里囉嗦 啰里啰嗦 [luo1 li5 luo1 suo5]"
@@ -1637,25 +2185,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "A",
-    "meaning": "heulen (Wind, Sirene)",
-    "usage": "Gibt das Heulen des Windes oder einer Sirene wieder",
-    "explanation": "呜 als Einzelzeichen ahmt ein tiefes, anhaltendes Heulen nach – Wind, Sirene oder Dampflok.",
+    "meaning": "tuut!; Heulen (Sirene, Wind); Aufschluchzen",
+    "usage": "Gibt einen lang gezogenen, tiefen Ton wieder – Zugpfeife, Schiffshorn, Sirene, heulender Wind – und das plötzliche Aufheulen beim Weinen.",
+    "explanation": "呜 ahmt einen dumpfen, gedehnten Heulton nach. Als Einzelsilbe steht es meist in 呜的一声 (wū de yì shēng) „mit einem Tuuut“: Ein Zug fährt ab, eine Sirene setzt ein, jemand bricht in Tränen aus. Für anhaltende Geräusche wird es verdoppelt oder verdreifacht: 呜呜 (wūwū), 呜呜呜 (wūwūwū) – heulender Wind, Weinen, Hupen. Aus der Schriftsprache kennt man außerdem 呜咽 (wūyè) „schluchzen“ und 呜呼 (wūhū) „ach!“.",
     "examples": [
       {
-        "chinese": "火车呜地一声开走了。",
-        "pinyin": "Huǒchē wū de yī shēng kāi zǒu le.",
-        "german": "Die Lokomotive fuhr heulend ab."
+        "chinese": "火车呜的一声开走了。",
+        "pinyin": "Huǒchē wū de yì shēng kāizǒu le.",
+        "german": "Tuuut – der Zug fuhr ab."
+      },
+      {
+        "chinese": "她呜的一声哭了出来。",
+        "pinyin": "Tā wū de yì shēng kūle chūlái.",
+        "german": "Sie brach schluchzend in Tränen aus."
+      },
+      {
+        "chinese": "救护车呜的一声从我们身边开了过去。",
+        "pinyin": "Jiùhùchē wū de yì shēng cóng wǒmen shēnbiān kāile guòqu.",
+        "german": "Mit heulender Sirene fuhr der Krankenwagen an uns vorbei."
       }
     ],
     "related": [
       "o:呜呜",
       "o:呼呼"
     ],
-    "notes": "呜咽 (wūyè) = schluchzen.",
+    "notes": "Im Internet steht 呜呜 (wūwū) oder 呜呜呜 (wūwūwū) oft für Weinen („buhuhu“), ernst oder scherzhaft.",
     "legacyIds": [
       "呜"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "嗚 呜 [wu1]"
     }
@@ -1670,24 +2228,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AA",
-    "meaning": "murmeln, plätschern (Bach)",
-    "usage": "Gibt das sanfte Plätschern eines Baches wieder",
-    "explanation": "潺潺 beschreibt das sanfte, gleichmäßige Fließen eines kleinen Gewässers. Sehr poetisch.",
+    "meaning": "murmelnd, plätschernd (Bach, Quelle)",
+    "usage": "Beschreibt das sanfte, gleichmäßige Plätschern eines Bachs oder einer Quelle; literarisch.",
+    "explanation": "潺潺 ist eine literarische Lautmalerei für leise fließendes Wasser – ein Bach über Steine, eine Quelle im Wald. Es klingt ruhig und angenehm, nicht nach reißender Strömung. Typisch sind 溪水潺潺 (xīshuǐ chánchán) „der Bach murmelt“, 潺潺地流 (chánchán de liú) und 潺潺的流水声 (chánchán de liúshuǐ shēng). In Landschaftsbeschreibungen und Aufsätzen ist es sehr beliebt; im Alltag beschreibt man fließendes Wasser eher mit 哗哗 (huāhuā), das allerdings kräftiger klingt. In klassischer Dichtung auch für Regen: 帘外雨潺潺 (lián wài yǔ chánchán).",
     "examples": [
       {
-        "chinese": "小溪潺潺地流过。",
-        "pinyin": "Xiǎo xī chánchán de liú guò.",
-        "german": "Der Bach murmelt sanft vorbei."
+        "chinese": "山下有一条小溪，溪水潺潺地流着。",
+        "pinyin": "Shān xià yǒu yì tiáo xiǎoxī, xīshuǐ chánchán de liúzhe.",
+        "german": "Am Fuß des Berges fließt ein Bach und murmelt leise vor sich hin."
+      },
+      {
+        "chinese": "我们坐在河边，听着潺潺的流水声。",
+        "pinyin": "Wǒmen zuò zài hé biān, tīngzhe chánchán de liúshuǐ shēng.",
+        "german": "Wir saßen am Ufer und lauschten dem Plätschern des Wassers."
+      },
+      {
+        "chinese": "林子里很安静，只听见溪水潺潺。",
+        "pinyin": "Línzi lǐ hěn ānjìng, zhǐ tīngjiàn xīshuǐ chánchán.",
+        "german": "Im Wald war es still, nur der Bach plätscherte leise."
       }
     ],
     "related": [
+      "o:淙淙",
+      "o:汩汩",
       "o:哗哗"
     ],
-    "notes": "Literarisch. Für einen ruhigen Bach, nicht für einen reißenden Fluss.",
+    "notes": "Schriftsprachlich; besonders häufig mit 小溪 (xiǎoxī) „Bach“ und 流水 (liúshuǐ) „fließendes Wasser“.",
     "legacyIds": [
       "潺潺"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "潺潺 潺潺 [chan2 chan2]"
     }
@@ -1702,25 +2272,31 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AA",
-    "meaning": "plätschern, murmeln (Quellwasser)",
-    "usage": "Gibt das klare Plätschern einer Quelle oder eines kleinen Baches wieder",
-    "explanation": "淙淙 beschreibt ein helles, klares Plätschern von Quellwasser. Leichter und klarer als 潺潺.",
+    "meaning": "plätschernd, rieselnd (Quellwasser)",
+    "usage": "Beschreibt das helle Plätschern von Quell- oder Bachwasser, das über Steine fließt; literarisch.",
+    "explanation": "淙淙 ist eine schriftsprachliche Lautmalerei für fließendes Wasser, besonders aus Quellen oder in Gebirgsbächen. Es steht neben 潺潺 (chánchán) und ist mit ihm weitgehend austauschbar; 淙淙 wird oft als etwas heller und lebhafter empfunden. Typisch sind 泉水淙淙 (quánshuǐ cóngcóng), 淙淙地流 (cóngcóng de liú) und 淙淙的流水声 (cóngcóng de liúshuǐ shēng). Im Gespräch kommt es kaum vor, wohl aber in Aufsätzen, Reiseberichten und Gedichten.",
     "examples": [
       {
-        "chinese": "泉水淙淙地流淌。",
-        "pinyin": "Quánshuǐ cóngcóng de liútǎng.",
-        "german": "Das Quellwasser plätscherte klar."
+        "chinese": "泉水淙淙地从石缝里流出来。",
+        "pinyin": "Quánshuǐ cóngcóng de cóng shífèng lǐ liú chūlái.",
+        "german": "Plätschernd rinnt das Quellwasser aus einer Felsspalte."
+      },
+      {
+        "chinese": "山谷里回响着淙淙的流水声。",
+        "pinyin": "Shāngǔ lǐ huíxiǎngzhe cóngcóng de liúshuǐ shēng.",
+        "german": "Im Tal hallt das Plätschern des Wassers wider."
       }
     ],
     "related": [
       "o:潺潺",
+      "o:汩汩",
       "o:哗哗"
     ],
-    "notes": "Sehr poetisch und literarisch.",
+    "notes": "Schriftsprachlich. Das Zeichen 淙 (cóng) kommt fast nur in dieser Lautmalerei vor.",
     "legacyIds": [
       "淙淙"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -1735,25 +2311,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AA",
-    "meaning": "sprudeln, gurgeln (Wasser)",
-    "usage": "Gibt das Sprudeln von Wasser aus einer Quelle wieder",
-    "explanation": "汩汩 beschreibt sprudelndes, hervorquellendes Wasser – aus einer Quelle, einem Rohr oder einer Wunde.",
+    "meaning": "gluckernd, sprudelnd (fließendes Wasser, Blut)",
+    "usage": "Beschreibt Wasser oder andere Flüssigkeiten, die gluckernd hervorquellen oder strömen – aus einer Quelle, einem Rohr, einer Wunde.",
+    "explanation": "汩汩 ahmt das Gluckern strömender Flüssigkeit nach und betont zugleich die Bewegung: Etwas quillt stetig hervor. Typisch sind 汩汩地流 (gǔgǔ de liú), 汩汩地冒出来 (gǔgǔ de mào chūlái) und 汩汩流淌 (gǔgǔ liútǎng). Übertragen kann es auch einen steten Strom von Gedanken oder Gefühlen beschreiben. Das Wort gehört zur Schriftsprache; mündlich sagt man eher 哗哗 (huāhuā) oder 咕嘟咕嘟 (gūdū gūdū).",
     "examples": [
       {
-        "chinese": "泉水汩汩地涌出来。",
-        "pinyin": "Quánshuǐ gǔgǔ de yǒng chūlái.",
-        "german": "Das Quellwasser sprudelte hervor."
+        "chinese": "泉水从地下汩汩地冒出来。",
+        "pinyin": "Quánshuǐ cóng dìxià gǔgǔ de mào chūlái.",
+        "german": "Gluckernd sprudelt das Quellwasser aus dem Boden."
+      },
+      {
+        "chinese": "水管破了，水汩汩地往外流。",
+        "pinyin": "Shuǐguǎn pò le, shuǐ gǔgǔ de wǎng wài liú.",
+        "german": "Das Rohr war geplatzt, und das Wasser strömte gluckernd heraus."
+      },
+      {
+        "chinese": "他的手被划破了，血汩汩地流了出来。",
+        "pinyin": "Tā de shǒu bèi huápò le, xiě gǔgǔ de liúle chūlái.",
+        "german": "Er hatte sich die Hand aufgeschnitten, und das Blut quoll heraus."
       }
     ],
     "related": [
+      "o:潺潺",
       "o:淙淙",
-      "o:潺潺"
+      "o:哗哗"
     ],
-    "notes": "",
+    "notes": "Nicht verwechseln: 汩 (gǔ, rechts 曰) und 汨 (mì, rechts 日) wie in 汨罗江 (Mìluó Jiāng).",
     "legacyIds": [
       "汩汩"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "汩汩 汩汩 [gu3 gu3]"
     }
@@ -1768,31 +2355,39 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AA",
-    "meaning": "plätschern, rauschen (Wasser)",
-    "usage": "Gibt das Geräusch von fließendem oder strömendem Wasser wieder",
-    "explanation": "哗哗 ahmt das Geräusch von fließendem Wasser nach – ob Regen, Fluss oder Wasserhahn.",
+    "meaning": "rausch, rausch; Rauschen und Strömen (Wasser, Regen)",
+    "usage": "Gibt das Geräusch von viel fließendem oder fallendem Wasser wieder – Regen, Fluss, Wasserhahn, umgangssprachlich auch strömende Tränen.",
+    "explanation": "哗哗 ist die gängige Alltagslautmalerei für kräftig fließendes oder fallendes Wasser. Typisch sind 哗哗地流 (huāhuā de liú), 雨哗哗地下 (yǔ huāhuā de xià) und 哗哗的水声 (huāhuā de shuǐ shēng). Umgangssprachlich auch übertragen: 眼泪哗哗地流 (yǎnlèi huāhuā de liú) „die Tränen strömen“. Für anhaltendes, noch kräftigeres Rauschen gibt es 哗啦啦 (huālālā), für einen einzelnen Schwall oder ein Klirren 哗啦 (huālā); leiser Regen ist 淅淅沥沥 (xīxīlìlì).",
     "examples": [
       {
-        "chinese": "雨哗哗地下着。",
-        "pinyin": "Yǔ huāhuā de xiàzhe.",
-        "german": "Der Regen prasselt herab."
+        "chinese": "外面的雨哗哗地下着。",
+        "pinyin": "Wàimiàn de yǔ huāhuā de xiàzhe.",
+        "german": "Draußen rauscht der Regen herunter."
       },
       {
-        "chinese": "河水哗哗地流。",
-        "pinyin": "Hé shuǐ huāhuā de liú.",
-        "german": "Das Flusswasser rauscht."
+        "chinese": "水龙头没关，水哗哗地流。",
+        "pinyin": "Shuǐlóngtóu méi guān, shuǐ huāhuā de liú.",
+        "german": "Der Wasserhahn ist nicht zugedreht, das Wasser läuft und läuft."
+      },
+      {
+        "chinese": "她一听这个消息，眼泪就哗哗地流了下来。",
+        "pinyin": "Tā yì tīng zhège xiāoxi, yǎnlèi jiù huāhuā de liúle xiàlai.",
+        "german": "Als sie die Nachricht hörte, liefen ihr die Tränen in Strömen herunter."
       }
     ],
     "related": [
-      "o:淅淅沥沥"
+      "o:哗啦啦",
+      "o:哗啦",
+      "o:淅淅沥沥",
+      "o:潺潺"
     ],
-    "notes": "",
+    "notes": "Als Lautmalerei wird 哗 huā gelesen; in 喧哗 (xuānhuá) „lärmen“ dagegen huá.",
     "legacyIds": [
       "哗哗",
       "哗哗哗",
       "哗哗流"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "嘩嘩 哗哗 [hua1 hua1]"
     }
@@ -1807,30 +2402,38 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AA",
-    "meaning": "heulen, pfeifen (starker Wind)",
-    "usage": "Gibt das Heulen von starkem Wind oder schnelles Atmen wieder",
-    "explanation": "呼呼 ahmt stärkeren Wind nach als 飒飒. Kann auch für Schnarchen oder schweres Atmen verwendet werden.",
+    "meaning": "huuu; Heulen (Wind); Surren; tiefes Atmen im Schlaf",
+    "usage": "Gibt das Heulen und Brausen von starkem Wind wieder, das Surren von Ventilatoren und das tiefe Atmen einer fest schlafenden Person.",
+    "explanation": "呼呼 ist die übliche, umgangssprachliche Lautmalerei für kräftigen Wind: 北风呼呼地刮 (běifēng hūhū de guā) „der Nordwind heult“. Ebenso steht es für Luftströme von Ventilator oder Flammen. Fest ist 呼呼大睡 (hūhū dà shuì) „tief und fest schlafen“ – man hört das gleichmäßige, schwere Atmen; ausgesprochenes Schnarchen heißt eher 呼噜 (hūlu). Im Vergleich zu 飒飒 (sàsà) ist 呼呼 lauter und alltäglicher. Als Silbe steckt es auch in ABB-Formen wie 气呼呼 (qìhūhū) „schnaubend vor Wut“.",
     "examples": [
       {
-        "chinese": "北风呼呼地刮。",
-        "pinyin": "Běifēng hūhū de guā.",
-        "german": "Der Nordwind heult."
+        "chinese": "外面北风呼呼地刮着。",
+        "pinyin": "Wàimiàn běifēng hūhū de guāzhe.",
+        "german": "Draußen heult der Nordwind."
       },
       {
-        "chinese": "他呼呼地睡着了。",
-        "pinyin": "Tā hūhū de shuìzháo le.",
-        "german": "Er schlief schnarchend ein."
+        "chinese": "他太累了，一躺下就呼呼大睡。",
+        "pinyin": "Tā tài lèi le, yì tǎngxià jiù hūhū dà shuì.",
+        "german": "Er war so müde, dass er sich hinlegte und sofort tief und fest schlief."
+      },
+      {
+        "chinese": "电风扇呼呼地转着。",
+        "pinyin": "Diànfēngshàn hūhū de zhuànzhe.",
+        "german": "Der Ventilator surrt vor sich hin."
       }
     ],
     "related": [
-      "o:飒飒"
+      "o:飒飒",
+      "o:呼噜",
+      "o:呼哧",
+      "o:气呼呼"
     ],
-    "notes": "",
+    "notes": "Auch verdreifacht (呼呼呼) für besonders heftigen Wind.",
     "legacyIds": [
       "呼呼",
       "呼呼刮"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "呼呼 呼呼 [hu1 hu1]"
     }
@@ -1845,24 +2448,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AA",
-    "meaning": "flatternd im Wind (Fahnen, Banner)",
-    "usage": "Beschreibt das Flattern von Fahnen oder Bannern im Wind",
-    "explanation": "猎猎 beschreibt das kräftige Flattern von Fahnen, Bannern oder losem Stoff im starken Wind – ein sehr bildlicher Ausdruck.",
+    "meaning": "knatternd, flatternd (Fahnen im Wind)",
+    "usage": "Beschreibt das Knattern und Flattern von Fahnen, Bannern oder Segeln im starken Wind; literarisch.",
+    "explanation": "猎猎 ist eine schriftsprachliche Lautmalerei für Stoff, der im Wind schlägt. Am häufigsten ist die feste Verbindung 猎猎作响 (lièliè zuò xiǎng) „knattert“, dazu kurze Bilder wie 红旗猎猎 (hóngqí lièliè) „die rote Fahne flattert“. Seltener bezeichnet es das Brausen des Windes selbst. Mit 打猎 (dǎliè) „jagen“ hat es nur das Zeichen gemeinsam. Der Ausdruck wirkt feierlich und kraftvoll und begegnet in Reportagen, Reden und Aufsätzen.",
     "examples": [
       {
-        "chinese": "红旗在风中猎猎飘扬。",
-        "pinyin": "Hóngqí zài fēng zhōng lièliè piāoyáng.",
-        "german": "Die rote Fahne flatterte im Wind."
+        "chinese": "山顶上，红旗在风中猎猎作响。",
+        "pinyin": "Shāndǐng shang, hóngqí zài fēng zhōng lièliè zuò xiǎng.",
+        "german": "Auf dem Gipfel knattert die rote Fahne im Wind."
+      },
+      {
+        "chinese": "海风吹得船帆猎猎作响。",
+        "pinyin": "Hǎifēng chuī de chuánfān lièliè zuò xiǎng.",
+        "german": "Der Seewind ließ die Segel knattern."
+      },
+      {
+        "chinese": "广场上彩旗猎猎，非常热闹。",
+        "pinyin": "Guǎngchǎng shang cǎiqí lièliè, fēicháng rènao.",
+        "german": "Auf dem Platz flattern bunte Fahnen im Wind, überall herrscht reges Treiben."
       }
     ],
     "related": [
-      "o:飒飒"
+      "o:飒飒",
+      "o:呼呼",
+      "o:呼啦"
     ],
-    "notes": "Literarischer, poetischer Ausdruck.",
+    "notes": "Schriftsprachlich; im Alltag beschreibt man flatternde Fahnen eher mit 呼啦啦 (hūlālā) oder 哗啦啦 (huālālā).",
     "legacyIds": [
       "猎猎"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -1877,24 +2492,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AA",
-    "meaning": "grollen, dumpfes Rumpeln",
-    "usage": "Gibt anhaltendes Grollen oder Rumpeln wieder (Donner, Maschinen)",
-    "explanation": "隆隆 beschreibt ein tiefes, anhaltendes Rumpeln – Donner in der Ferne, schwere Maschinen oder Panzer.",
+    "meaning": "grollend, dröhnend (Donner, Geschütze, Maschinen)",
+    "usage": "Gibt ein tiefes, anhaltendes Grollen oder Dröhnen wieder – Donner in der Ferne, Geschützfeuer, schwere Maschinen, ein vorbeifahrender Zug.",
+    "explanation": "隆隆 ahmt ein dumpfes, rollendes Dröhnen nach, das eine Weile anhält. Typisch sind 隆隆的雷声 (lónglóng de léishēng) „Donnergrollen“, 隆隆的炮声 (lónglóng de pàoshēng) „Kanonendonner“ und die feste Verbindung 隆隆作响 (lónglóng zuò xiǎng) „dröhnt“. Es klingt etwas gehobener als 轰隆 (hōnglōng), das eher einen einzelnen lauten Schlag wiedergibt; noch lebhafter und anhaltender malt 轰隆隆 (hōnglōnglōng) das Geräusch aus.",
     "examples": [
       {
         "chinese": "远处传来隆隆的雷声。",
         "pinyin": "Yuǎnchù chuánlái lónglóng de léishēng.",
         "german": "Aus der Ferne war dumpfes Donnergrollen zu hören."
+      },
+      {
+        "chinese": "火车隆隆地开过大桥。",
+        "pinyin": "Huǒchē lónglóng de kāiguò dà qiáo.",
+        "german": "Der Zug donnerte über die große Brücke."
+      },
+      {
+        "chinese": "工地上的机器隆隆作响。",
+        "pinyin": "Gōngdì shang de jīqì lónglóng zuò xiǎng.",
+        "german": "Auf der Baustelle dröhnen die Maschinen."
       }
     ],
     "related": [
-      "o:轰隆"
+      "o:轰隆",
+      "o:轰隆隆",
+      "o:轰轰隆隆"
     ],
-    "notes": "",
+    "notes": "Eher schriftsprachlich und in Berichten; im Gespräch hört man häufiger 轰隆隆 (hōnglōnglōng).",
     "legacyIds": [
       "隆隆"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "隆隆 隆隆 [long2 long2]"
     }
@@ -1909,26 +2536,38 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AA",
-    "meaning": "sausen, rauschen (Wind)",
-    "usage": "Gibt das Sausen des Windes wieder",
-    "explanation": "飒飒 beschreibt den Klang des Windes, der durch Bäume oder über offenes Gelände weht.",
+    "meaning": "rauschend, säuselnd (Wind in Bäumen)",
+    "usage": "Beschreibt das Rauschen des Windes in Bäumen, Bambus oder Gras; literarisch, oft mit herbstlicher Stimmung.",
+    "explanation": "飒飒 ist eine schriftsprachliche Lautmalerei für Wind, der durch Laub, Bambus oder Gras streicht – ein gleichmäßiges, eher kühles Rauschen. Typisch sind 秋风飒飒 (qiūfēng sàsà) „der Herbstwind rauscht“, 飒飒作响 (sàsà zuò xiǎng) und 飒飒的风声 (sàsà de fēngshēng). Es ist leiser und poetischer als das alltägliche 呼呼 (hūhū) für heulenden Sturm. Gelegentlich steht es auch für Regen. Nicht zu verwechseln mit 飒爽 (sàshuǎng) „schneidig“, wo das Zeichen keinen Laut bezeichnet.",
     "examples": [
       {
-        "chinese": "秋风飒飒地吹。",
-        "pinyin": "Qiūfēng sàsà de chuī.",
-        "german": "Der Herbstwind saust."
+        "chinese": "秋风飒飒，树叶一片片落了下来。",
+        "pinyin": "Qiūfēng sàsà, shùyè yí piànpiàn luòle xiàlai.",
+        "german": "Der Herbstwind rauscht, Blatt um Blatt fällt zu Boden."
+      },
+      {
+        "chinese": "风吹过竹林，发出飒飒的声音。",
+        "pinyin": "Fēng chuīguò zhúlín, fāchū sàsà de shēngyīn.",
+        "german": "Der Wind streicht rauschend durch den Bambushain."
+      },
+      {
+        "chinese": "夜里，窗外的树叶飒飒作响。",
+        "pinyin": "Yèlǐ, chuāng wài de shùyè sàsà zuò xiǎng.",
+        "german": "Nachts rauscht das Laub vor dem Fenster."
       }
     ],
     "related": [
       "o:呼呼",
-      "o:沙沙"
+      "o:沙沙",
+      "o:萧萧",
+      "o:刷刷"
     ],
-    "notes": "Eher literarisch.",
+    "notes": "Schriftsprachlich; besonders häufig in Herbst- und Landschaftsbeschreibungen.",
     "legacyIds": [
       "飒飒",
       "飒"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "颯颯 飒飒 [sa4 sa4]"
     }
@@ -1943,24 +2582,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AA",
-    "meaning": "rascheln, rauschen",
-    "usage": "Gibt das Rascheln von Blättern, Papier oder leichtem Wind wieder",
-    "explanation": "沙沙 ahmt das leise Rascheln nach – Blätter im Wind, Schritte auf Sand oder das Kratzen eines Stifts.",
+    "meaning": "raschelnd; Rascheln, Kratzen (Blätter, Stift)",
+    "usage": "Gibt ein leises, gleichmäßiges Rascheln wieder – Blätter im Wind, Schritte auf Laub oder Sand, ein Stift auf Papier, feiner Regen.",
+    "explanation": "沙沙 ist die gängige Lautmalerei für leises Rascheln und Reiben. Typisch sind 树叶沙沙地响 (shùyè shāshā de xiǎng) „die Blätter rascheln“, 沙沙作响 (shāshā zuò xiǎng) und 沙沙声 (shāshā shēng), etwa das Kratzen von Stiften in einer Prüfung. Auch leichter Regen kann 沙沙 klingen. Leiser und verstohlener ist 窸窸窣窣 (xīxīsūsū); gehobener und für Wind typisch ist 飒飒 (sàsà). 沙沙 ist neutral und kommt in Alltag, Kinderliedern und Literatur vor.",
     "examples": [
       {
-        "chinese": "树叶沙沙地响。",
-        "pinyin": "Shùyè shāshā de xiǎng.",
-        "german": "Die Blätter rascheln."
+        "chinese": "风一吹，树叶沙沙地响。",
+        "pinyin": "Fēng yì chuī, shùyè shāshā de xiǎng.",
+        "german": "Sobald der Wind weht, rascheln die Blätter."
+      },
+      {
+        "chinese": "考场里很安静，只听见写字的沙沙声。",
+        "pinyin": "Kǎochǎng lǐ hěn ānjìng, zhǐ tīngjiàn xiě zì de shāshā shēng.",
+        "german": "Im Prüfungsraum ist es still, man hört nur das Kratzen der Stifte."
+      },
+      {
+        "chinese": "我们走在落叶上，脚下沙沙作响。",
+        "pinyin": "Wǒmen zǒu zài luòyè shang, jiǎo xià shāshā zuò xiǎng.",
+        "german": "Wir gehen über das Laub, und es raschelt unter unseren Füßen."
       }
     ],
     "related": [
-      "o:飒飒"
+      "o:飒飒",
+      "o:刷刷",
+      "o:簌簌",
+      "o:窸窸窣窣"
     ],
-    "notes": "",
+    "notes": "Auch verdreifacht (沙沙沙), etwa in Kinderliedern über den Regen.",
     "legacyIds": [
       "沙沙"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "沙沙 沙沙 [sha1 sha1]"
     }
@@ -1975,25 +2627,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AA",
-    "meaning": "rauschend, sausend (Wind durch Blätter)",
-    "usage": "Gibt das Rauschen von Wind durch Blätter oder schnelles Wischen wieder",
-    "explanation": "刷刷 beschreibt ein schnelles, raschelnd-rauschende Geräusch, z.B. Wind in Blättern, ein Besen auf dem Boden oder schnelles Blättern.",
+    "meaning": "wusch, wusch; Rauschen, Scharren (Regen, Besen, schneller Stift)",
+    "usage": "Gibt ein schnelles, streifendes Geräusch wieder – kräftigen Regen, einen Besen auf dem Boden, schnell geschriebene Zeilen, Wind im Laub.",
+    "explanation": "刷刷 ahmt ein rasches, wischendes oder streifendes Geräusch nach und betont oft das Tempo. Typisch sind 刷刷地写 (shuāshuā de xiě) „schnell drauflosschreiben“, 刷刷地扫地 (shuāshuā de sǎo dì) „mit dem Besen fegen“ und 雨刷刷地下 (yǔ shuāshuā de xià) „es regnet rauschend“. Im Vergleich zu 沙沙 (shāshā) klingt 刷刷 kräftiger und schneller. Nicht verwechseln mit 齐刷刷 (qíshuāshuā) „wie auf Kommando, alle gleichzeitig“, wo 刷刷 keinen Laut wiedergibt.",
     "examples": [
       {
-        "chinese": "风吹得树叶刷刷响。",
-        "pinyin": "Fēng chuī de shùyè shuāshuā xiǎng.",
-        "german": "Der Wind ließ die Blätter rauschend rascheln."
+        "chinese": "大雨刷刷地下了起来。",
+        "pinyin": "Dàyǔ shuāshuā de xiàle qǐlái.",
+        "german": "Mit lautem Rauschen setzte ein heftiger Regen ein."
+      },
+      {
+        "chinese": "他拿起笔，刷刷地写了几行字。",
+        "pinyin": "Tā náqǐ bǐ, shuāshuā de xiěle jǐ háng zì.",
+        "german": "Er griff zum Stift und warf mit schnellen Strichen ein paar Zeilen hin."
+      },
+      {
+        "chinese": "一大早，清洁工就在街上刷刷地扫地。",
+        "pinyin": "Yí dà zǎo, qīngjiégōng jiù zài jiē shang shuāshuā de sǎo dì.",
+        "german": "Schon frühmorgens fegen die Reinigungskräfte mit scharrenden Besen die Straße."
       }
     ],
     "related": [
       "o:沙沙",
-      "o:飒飒"
+      "o:飒飒",
+      "o:齐刷刷"
     ],
-    "notes": "Stärker als 沙沙, weniger stark als 呼呼.",
+    "notes": "Häufig auch 唰唰 (shuāshuā) geschrieben; beide Schreibungen sind üblich.",
     "legacyIds": [
       "刷刷"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -2008,30 +2671,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AA",
-    "meaning": "rieseln, rascheln (Blätter, Tränen)",
-    "usage": "Gibt das leise Rieseln von fallenden Blättern oder Tränen wieder",
-    "explanation": "簌簌 beschreibt leises Rieseln – fallende Blätter, rollende Tränen oder rieselnder Sand.",
+    "meaning": "rieselnd, raschelnd; (Tränen) strömend; zitternd",
+    "usage": "Beschreibt leise rieselnde oder fallende Dinge – Blätter, Schnee, Tränen – und das Zittern des Körpers vor Kälte oder Angst.",
+    "explanation": "簌簌 ist eine schriftsprachliche Lautmalerei für leises Rieseln und Rascheln, etwa fallendes Laub: 树叶簌簌地落下来 (shùyè sùsù de luò xiàlai). Daraus abgeleitet beschreibt es Tränen, die unaufhaltsam herabrollen (眼泪簌簌地往下掉, yǎnlèi sùsù de wǎng xià diào), und, als feste Verbindung, heftiges Zittern: 簌簌发抖 (sùsù fādǒu) „am ganzen Leib zittern“. Bei den Tränen geht es weniger um ein hörbares Geräusch als um das Bild des stetigen Fallens. Im Alltag ist es seltener als 沙沙 (shāshā).",
     "examples": [
       {
-        "chinese": "眼泪簌簌地往下掉。",
-        "pinyin": "Yǎnlèi sùsù de wǎng xià diào.",
-        "german": "Die Tränen rollten leise herab."
+        "chinese": "秋风一吹，树叶簌簌地落了下来。",
+        "pinyin": "Qiūfēng yì chuī, shùyè sùsù de luòle xiàlai.",
+        "german": "Als der Herbstwind wehte, rieselten die Blätter herab."
       },
       {
-        "chinese": "落叶簌簌地飘下来。",
-        "pinyin": "Luòyè sùsù de piāo xiàlái.",
-        "german": "Die Herbstblätter rieselten leise herab."
+        "chinese": "听到这个消息，她的眼泪簌簌地往下掉。",
+        "pinyin": "Tīngdào zhège xiāoxi, tā de yǎnlèi sùsù de wǎng xià diào.",
+        "german": "Als sie die Nachricht hörte, rollten ihr unaufhörlich die Tränen herunter."
+      },
+      {
+        "chinese": "他冷得浑身簌簌发抖。",
+        "pinyin": "Tā lěng de húnshēn sùsù fādǒu.",
+        "german": "Er zitterte vor Kälte am ganzen Körper."
       }
     ],
     "related": [
       "o:沙沙",
-      "o:飒飒"
+      "o:飒飒",
+      "o:萧萧"
     ],
-    "notes": "",
+    "notes": "Schriftsprachlich; die Wendung 眼泪簌簌 (yǎnlèi sùsù) ist in Erzählungen besonders häufig.",
     "legacyIds": [
       "簌簌"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "簌簌 簌簌 [su4 su4]"
     }
@@ -2046,25 +2715,31 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AA",
-    "meaning": "sausen (Wind in Bäumen), desolat",
-    "usage": "Gibt das Sausen des Windes in Bäumen oder eine öde Atmosphäre wieder",
-    "explanation": "萧萧 beschreibt den Klang des Windes in entlaubten Bäumen. Hat eine melancholische, herbstliche Konnotation.",
+    "meaning": "seufzend, rauschend (Herbstwind); Wiehern; trist",
+    "usage": "Beschreibt das Rauschen des Windes, fallendes Laub oder das Wiehern von Pferden – meist mit trister, herbstlicher Stimmung; literarisch.",
+    "explanation": "萧萧 ist eine klassische Lautmalerei, die vor allem durch Dichtung lebt. Sie gibt das Rauschen des Windes wieder – 风萧萧 (fēng xiāoxiāo) –, das Fallen der Blätter und das Wiehern von Pferden – 马鸣萧萧 (mǎ míng xiāoxiāo). Mit dem Laut verbindet sich meist eine Stimmung von Abschied, Kälte und Vergänglichkeit, ähnlich wie in 萧条 (xiāotiáo) „öde, trostlos“. Im modernen Chinesisch steht es in gehobenen Beschreibungen, oft als Prädikat in vierteiligen Wendungen wie 秋风萧萧 (qiūfēng xiāoxiāo).",
     "examples": [
       {
-        "chinese": "风萧萧兮易水寒。",
-        "pinyin": "Fēng xiāoxiāo xī Yì shuǐ hán.",
-        "german": "Der Wind saust, kalt ist das Wasser des Yi-Flusses. (Jing Ke)"
+        "chinese": "秋风萧萧，落叶满地。",
+        "pinyin": "Qiūfēng xiāoxiāo, luòyè mǎn dì.",
+        "german": "Der Herbstwind seufzt, der Boden ist mit Laub bedeckt."
+      },
+      {
+        "chinese": "窗外风声萧萧，屋里却很暖和。",
+        "pinyin": "Chuāng wài fēngshēng xiāoxiāo, wū lǐ què hěn nuǎnhuo.",
+        "german": "Draußen rauscht trist der Wind, drinnen aber ist es schön warm."
       }
     ],
     "related": [
       "o:飒飒",
-      "o:沙沙"
+      "o:簌簌",
+      "o:呼呼"
     ],
-    "notes": "Berühmt aus dem Abschiedslied des Attentäters Jing Ke (荆轲).",
+    "notes": "Bekannte Zitate: 风萧萧兮易水寒 (fēng xiāoxiāo xī Yì shuǐ hán) aus dem Abschiedslied von Jing Ke, 荆轲 (Jīng Kē), und 无边落木萧萧下 (wúbiān luò mù xiāoxiāo xià) von Du Fu, 杜甫 (Dù Fǔ).",
     "legacyIds": [
       "萧萧"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -2079,25 +2754,32 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AB",
-    "meaning": "tick-tack, tropf tropf",
-    "usage": "Gibt das Tropfen von Wasser oder das Ticken einer Uhr wieder",
-    "explanation": "滴答 kann sowohl für tropfendes Wasser als auch für das Ticken einer Uhr verwendet werden.",
+    "meaning": "tropf, tropf; tick-tack (Tropfen, Uhr)",
+    "usage": "Gibt das Tropfen von Wasser und das Ticken einer Uhr wieder; meist verdoppelt als 滴答滴答.",
+    "explanation": "滴答 ahmt einen kurzen, sich regelmäßig wiederholenden Laut nach: Wasser, das aus dem Hahn oder vom Dach tropft, und den Sekundenschlag einer Uhr. Weil das Geräusch sich wiederholt, wird es meist verdoppelt: 滴答滴答地漏水 (dīdā dīdā de lòu shuǐ), 钟表滴答滴答地走 (zhōngbiǎo dīdā dīdā de zǒu); dazu kommt 滴答声 (dīdā shēng) „Ticken, Tropfgeräusch“. Als AABB-Form gibt es 滴滴答答 (dīdīdādā). Gesprochen auch dīda; in dieser Lesung ist es zugleich ein Verb „tröpfeln“.",
     "examples": [
       {
-        "chinese": "水龙头滴答滴答地漏水。",
-        "pinyin": "Shuǐlóngtóu dīdā dīdā de lòu shuǐ.",
-        "german": "Der Wasserhahn tropft tick-tack."
+        "chinese": "水龙头没关紧，一直滴答滴答地漏水。",
+        "pinyin": "Shuǐlóngtóu méi guānjǐn, yìzhí dīdā dīdā de lòu shuǐ.",
+        "german": "Der Wasserhahn ist nicht ganz zu und tropft ständig: tropf, tropf."
       },
       {
-        "chinese": "钟表滴答滴答地走。",
-        "pinyin": "Zhōngbiǎo dīdā dīdā de zǒu.",
-        "german": "Die Uhr tickt tick-tack."
+        "chinese": "夜里很安静，只能听见钟表滴答滴答的声音。",
+        "pinyin": "Yèlǐ hěn ānjìng, zhǐ néng tīngjiàn zhōngbiǎo dīdā dīdā de shēngyīn.",
+        "german": "Nachts ist es ganz still, man hört nur das Ticken der Uhr."
+      },
+      {
+        "chinese": "雨水顺着屋檐滴答滴答地往下落。",
+        "pinyin": "Yǔshuǐ shùnzhe wūyán dīdā dīdā de wǎng xià luò.",
+        "german": "Das Regenwasser tropft vom Dachrand herunter."
       }
     ],
     "related": [
+      "o:滴滴答答",
+      "o:淅沥",
       "o:淅淅沥沥"
     ],
-    "notes": "Oft verdoppelt als 滴答滴答.",
+    "notes": "Auch 嘀嗒 (dīdā) geschrieben, besonders für das Ticken einer Uhr.",
     "variants": [
       "嘀嗒"
     ],
@@ -2105,7 +2787,7 @@ window.ONOMATOPOEIA_DATA = [
       "滴答",
       "嘀嗒"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "滴答 滴答 [di1 da1]"
     }
@@ -2120,24 +2802,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AB",
-    "meaning": "Donner, Bumm (lautes Rumpeln)",
-    "usage": "Gibt Donner, Explosionen oder lautes Rumpeln wieder",
-    "explanation": "轰隆 ahmt laute, rollende Geräusche nach wie Donner oder Explosionen. Oft verdoppelt als 轰隆隆.",
+    "meaning": "rumms!; Donnerschlag, Krachen (Explosion, Einsturz)",
+    "usage": "Gibt einen lauten, dumpfen Knall oder ein rollendes Krachen wieder – Donner, Explosion, ein einstürzendes Gebäude, ein heranrollender Zug.",
+    "explanation": "轰隆 ahmt einen gewaltigen, tiefen Schlag nach, der nachrollt. Typisch ist 轰隆一声 (hōnglōng yì shēng) „mit einem Rumms“ am Satzanfang oder vor dem Verb; 只听轰隆一声 (zhǐ tīng hōnglōng yì shēng) leitet in Erzählungen gern ein plötzliches Ereignis ein. Für anhaltendes Grollen wird es verdoppelt (轰隆轰隆) oder zu 轰隆隆 (hōnglōnglōng) verlängert; ruhiger und gehobener ist 隆隆 (lónglóng). Gesprochen wird das zweite Zeichen leicht und meist im ersten Ton.",
     "examples": [
       {
-        "chinese": "轰隆一声，打了个雷。",
-        "pinyin": "Hōnglóng yī shēng, dǎ le gè léi.",
-        "german": "Es donnerte laut."
+        "chinese": "轰隆一声，天上打了个响雷。",
+        "pinyin": "Hōnglōng yì shēng, tiān shang dǎle ge xiǎngléi.",
+        "german": "Rumms – am Himmel krachte ein gewaltiger Donnerschlag."
+      },
+      {
+        "chinese": "只听轰隆一声，那座旧楼倒了下来。",
+        "pinyin": "Zhǐ tīng hōnglōng yì shēng, nà zuò jiù lóu dǎole xiàlai.",
+        "german": "Mit lautem Krachen stürzte das alte Gebäude ein."
+      },
+      {
+        "chinese": "火车轰隆轰隆地开了过来。",
+        "pinyin": "Huǒchē hōnglōng hōnglōng de kāile guòlai.",
+        "german": "Ratternd und dröhnend kam der Zug heran."
       }
     ],
     "related": [
-      "o:轰隆隆"
+      "o:轰隆隆",
+      "o:隆隆",
+      "o:轰轰隆隆",
+      "o:轰"
     ],
-    "notes": "轰隆隆 (hōnglónglóng) für anhaltendes Donnergrollen.",
+    "notes": "In Wörterbüchern hōnglōng; man hört auch hōnglóng, mit dem Ton von 隆 (lóng).",
     "legacyIds": [
       "轰隆"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "轟隆 轰隆 [hong1 long1]"
     }
@@ -2152,13 +2847,33 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AB",
-    "meaning": "plätschern, tröpfeln (Regen)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "meaning": "tröpfelnd, leise prasselnd (leichter Regen)",
+    "usage": "Gibt das leise Tröpfeln und Rieseln von leichtem Regen wieder, seltener von fallendem Laub; schriftsprachlich.",
+    "explanation": "淅沥 ist eine schriftsprachliche Lautmalerei für feinen, gleichmäßigen Regen. In der Grundform steht es vor allem in kurzen, gehobenen Wendungen: 淅沥的雨声 (xīlì de yǔshēng) „das Tröpfeln des Regens“, 小雨淅沥 (xiǎoyǔ xīlì) „es nieselt“. Viel häufiger, auch in der Alltagssprache, ist die AABB-Form 淅淅沥沥 (xīxīlìlì), die das Anhaltende betont. Kräftiger, rauschender Regen heißt dagegen 哗哗 (huāhuā).",
+    "examples": [
+      {
+        "chinese": "窗外淅沥的雨声让人很想睡觉。",
+        "pinyin": "Chuāng wài xīlì de yǔshēng ràng rén hěn xiǎng shuìjiào.",
+        "german": "Das leise Tröpfeln des Regens vor dem Fenster macht schläfrig."
+      },
+      {
+        "chinese": "小雨淅沥，街上的人很少。",
+        "pinyin": "Xiǎoyǔ xīlì, jiē shang de rén hěn shǎo.",
+        "german": "Es nieselt, und auf der Straße sind nur wenige Leute."
+      },
+      {
+        "chinese": "秋雨淅沥地下了一整夜。",
+        "pinyin": "Qiūyǔ xīlì de xiàle yì zhěng yè.",
+        "german": "Die ganze Nacht rieselte der Herbstregen."
+      }
+    ],
+    "related": [
+      "o:淅淅沥沥",
+      "o:滴答",
+      "o:哗哗"
+    ],
+    "notes": "Schriftsprachlich; im Gespräch ist 淅淅沥沥 (xīxīlìlì) üblicher.",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "淅瀝 淅沥 [xi1 li4]"
@@ -2174,24 +2889,30 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AB",
-    "meaning": "leises Rascheln, feines Knistern",
-    "usage": "Gibt sehr leises Rascheln oder Knistern wieder",
-    "explanation": "窸窣 beschreibt ein feines, kaum hörbares Rascheln – z.B. Mäuse in der Wand, Insekten im Laub oder Stoff, der leicht reibt.",
+    "meaning": "raschel; leises Rascheln, Knistern",
+    "usage": "Gibt ein kurzes, kaum hörbares Rascheln wieder – ein Tier im Gras, Stoff, der reibt, Papier im Dunkeln; schriftsprachlich.",
+    "explanation": "窸窣 ist eine schriftsprachliche Lautmalerei für ein feines, verhaltenes Rascheln, oft eines, dessen Ursache man nicht sieht. Die Grundform steht meist in festen Verbindungen: 窸窣的声音 (xīsū de shēngyīn), 窸窣声 (xīsū shēng) und 窸窣作响 (xīsū zuò xiǎng). Für anhaltendes Rascheln oder hörbares Herumkramen ist die AABB-Form 窸窸窣窣 (xīxīsūsū) deutlich häufiger. Offener und gleichmäßiger, etwa bei Laub im Wind, ist 沙沙 (shāshā).",
     "examples": [
       {
-        "chinese": "草丛中传来窸窣的声响。",
-        "pinyin": "Cǎocóng zhōng chuánlái xīsū de shēngxiǎng.",
-        "german": "Aus dem Gebüsch kam ein leises Rascheln."
+        "chinese": "草丛中传来窸窣的声音。",
+        "pinyin": "Cǎocóng zhōng chuánlái xīsū de shēngyīn.",
+        "german": "Aus dem Gras kam ein leises Rascheln."
+      },
+      {
+        "chinese": "黑暗中，有什么东西在窸窣作响。",
+        "pinyin": "Hēi'àn zhōng, yǒu shénme dōngxi zài xīsū zuò xiǎng.",
+        "german": "Im Dunkeln raschelte irgendetwas."
       }
     ],
     "related": [
-      "o:窸窸窣窣"
+      "o:窸窸窣窣",
+      "o:沙沙"
     ],
-    "notes": "Die Kurzform von 窸窸窣窣, für kürzere Geräusche.",
+    "notes": "Schriftsprachlich; die Zeichen 窸 (xī) und 窣 (sū) kommen fast nur in dieser Lautmalerei vor.",
     "legacyIds": [
       "窸窣"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "窸窣 窸窣 [xi1 su1]"
     }
@@ -2206,25 +2927,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "ABB",
-    "meaning": "anhaltendes Donnergrollen, Rumpeln",
-    "usage": "Gibt anhaltendes, intensives Grollen oder Rumpeln wieder",
-    "explanation": "轰隆隆 verlängert 轰隆 und beschreibt noch anhaltendes Grollen – Daueredonner oder schwere Artillerie.",
+    "meaning": "rumpel, rumpel; anhaltendes Donnern und Dröhnen",
+    "usage": "Gibt ein lautes, anhaltendes Grollen oder Dröhnen wieder – ein Gewitter, ein vorbeifahrender Zug, schwere Maschinen.",
+    "explanation": "轰隆隆 ist die ABB-Verlängerung von 轰隆 (hōnglōng). Während 轰隆一声 einen einzelnen Schlag meint, malt 轰隆隆 ein Geräusch aus, das weiterrollt und andauert. Typisch sind 轰隆隆地打雷 (hōnglōnglōng de dǎ léi) „es donnert anhaltend“ und 轰隆隆的声音 (hōnglōnglōng de shēngyīn). Es ist lebhafter und umgangssprachlicher als 隆隆 (lónglóng); noch breiter ausgemalt wirkt 轰轰隆隆 (hōnghōnglōnglōng).",
     "examples": [
       {
-        "chinese": "天空中轰隆隆地打着雷。",
-        "pinyin": "Tiānkōng zhōng hōnglónglóng de dǎzhe léi.",
-        "german": "Am Himmel grollte es unablässig."
+        "chinese": "天空中轰隆隆地打起了雷。",
+        "pinyin": "Tiānkōng zhōng hōnglōnglōng de dǎqǐle léi.",
+        "german": "Am Himmel begann es anhaltend zu donnern."
+      },
+      {
+        "chinese": "一列火车轰隆隆地从桥上开过。",
+        "pinyin": "Yí liè huǒchē hōnglōnglōng de cóng qiáo shang kāiguò.",
+        "german": "Ein Zug donnerte dröhnend über die Brücke."
+      },
+      {
+        "chinese": "工地上传来轰隆隆的机器声。",
+        "pinyin": "Gōngdì shang chuánlái hōnglōnglōng de jīqì shēng.",
+        "german": "Von der Baustelle dröhnte der Lärm der Maschinen herüber."
       }
     ],
     "related": [
       "o:轰隆",
-      "o:隆隆"
+      "o:隆隆",
+      "o:轰轰隆隆"
     ],
-    "notes": "",
+    "notes": "Auch hōnglónglóng gesprochen. Häufig in Kinderbüchern und Erzählungen.",
     "legacyIds": [
       "轰隆隆"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -2239,25 +2971,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "ABB",
-    "meaning": "starkes Rauschen, Prasseln",
-    "usage": "Gibt anhaltendes, starkes Rauschen von Wasser oder Regen wieder",
-    "explanation": "哗啦啦 ist die verlängerte Form von 哗啦 und beschreibt noch stärkeres, anhaltendes Rauschen oder Prasseln.",
+    "meaning": "rausch, rausch; anhaltendes Prasseln, Rauschen, Scheppern",
+    "usage": "Gibt anhaltendes, kräftiges Rauschen oder Prasseln wieder – Regen, strömendes Wasser, Laub im Wind – und das Scheppern vieler fallender Dinge.",
+    "explanation": "哗啦啦 ist die ABB-Verlängerung von 哗啦 (huālā) und beschreibt ein Geräusch, das nicht abreißt. Typisch sind 大雨哗啦啦地下 (dàyǔ huālālā de xià) „es schüttet“, 河水哗啦啦地流 (héshuǐ huālālā de liú) und Dinge, die krachend umfallen, etwa Bauklötze oder Geschirr. Auch flatternde Fahnen und raschelnde Blätter können 哗啦啦 klingen. Es wirkt lebhaft und anschaulich und ist in Alltag und Erzählungen verbreitet; kürzer und gleichförmiger ist 哗哗 (huāhuā).",
     "examples": [
       {
         "chinese": "大雨哗啦啦地下个不停。",
-        "pinyin": "Dàyǔ huālālā de xià gè bù tíng.",
-        "german": "Der starke Regen prasselte ununterbrochen."
+        "pinyin": "Dàyǔ huālālā de xià ge bù tíng.",
+        "german": "Der Regen prasselte unaufhörlich herab."
+      },
+      {
+        "chinese": "一阵风吹来，树叶哗啦啦地响。",
+        "pinyin": "Yí zhèn fēng chuīlai, shùyè huālālā de xiǎng.",
+        "german": "Ein Windstoß kam, und die Blätter rauschten."
+      },
+      {
+        "chinese": "积木哗啦啦地倒了一地。",
+        "pinyin": "Jīmù huālālā de dǎole yí dì.",
+        "german": "Die Bauklötze stürzten polternd zu Boden."
       }
     ],
     "related": [
       "o:哗啦",
-      "o:哗哗"
+      "o:哗哗",
+      "o:稀里哗啦"
     ],
-    "notes": "",
+    "notes": "Auch als 哗啦哗啦 (huālā huālā) verdoppelt.",
     "legacyIds": [
       "哗啦啦"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "嘩啦啦 哗啦啦 [hua1 la1 la1]"
     }
@@ -2272,25 +3015,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AABB",
-    "meaning": "Getröpfel, anhaltendes Tropfen",
-    "usage": "Gibt anhaltendes Tropfen von Wasser wieder",
-    "explanation": "滴滴答答 ist die AABB-Form und beschreibt längeres, rhythmisches Tropfen – stärker als 滴答.",
+    "meaning": "tropf, tropf; anhaltendes Tröpfeln oder Ticken",
+    "usage": "Gibt anhaltendes, gleichmäßiges Tropfen wieder – Regen, ein undichtes Dach, ein Wasserhahn – und das stetige Ticken einer Uhr.",
+    "explanation": "滴滴答答 ist die AABB-Form von 滴答 (dīdā). Die Verdopplung betont, dass das Tropfen oder Ticken nicht aufhört: 滴滴答答地下雨 (dīdīdādā de xià yǔ) „es tröpfelt und tröpfelt“. Oft schwingt mit, dass der Regen lästig lange anhält. Wie 滴答滴答 (dīdā dīdā) steht es adverbial mit 地 vor dem Verb oder als Attribut, etwa 滴滴答答的雨声 (dīdīdādā de yǔshēng). Leichter, feiner Regen ist eher 淅淅沥沥 (xīxīlìlì).",
     "examples": [
       {
-        "chinese": "雨滴滴答答地打在屋顶上。",
-        "pinyin": "Yǔ dīdī-dādā de dǎ zài wūdǐng shàng.",
-        "german": "Der Regen tropfte gleichmäßig auf das Dach."
+        "chinese": "雨滴滴答答地下了一整天。",
+        "pinyin": "Yǔ dīdīdādā de xiàle yì zhěng tiān.",
+        "german": "Den ganzen Tag tröpfelte der Regen vor sich hin."
+      },
+      {
+        "chinese": "屋顶漏雨，水滴滴答答地落在地上。",
+        "pinyin": "Wūdǐng lòu yǔ, shuǐ dīdīdādā de luò zài dì shang.",
+        "german": "Das Dach ist undicht, und das Wasser tropft unablässig auf den Boden."
+      },
+      {
+        "chinese": "墙上的钟滴滴答答地响着。",
+        "pinyin": "Qiáng shang de zhōng dīdīdādā de xiǎngzhe.",
+        "german": "Die Uhr an der Wand tickt unablässig."
       }
     ],
     "related": [
       "o:滴答",
       "o:淅淅沥沥"
     ],
-    "notes": "",
+    "notes": "Auch 嘀嘀嗒嗒 (dīdīdādā) geschrieben.",
     "legacyIds": [
       "滴滴答答"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -2305,25 +3058,32 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AABB",
-    "meaning": "lang anhaltendes Donnergrollen",
-    "usage": "Gibt anhaltendes, tiefes Donnergrollen oder Erdbeben wieder",
-    "explanation": "轰轰隆隆 kombiniert 轰轰 und 隆隆 zu einem besonders intensiven, lang anhaltenden Grollen – Gewitter, Erdbeben oder schwere Maschinen.",
+    "meaning": "dröhnend, donnernd (lang anhaltend)",
+    "usage": "Beschreibt ein lang anhaltendes, mächtiges Dröhnen – ein schweres Gewitter, rollende Lastwagen, große Maschinen.",
+    "explanation": "轰轰隆隆 ist die AABB-Form von 轰隆 (hōnglōng). Die Verdopplung beider Silben zieht das Geräusch in die Länge und macht es massiver: Es rollt, dröhnt und hört nicht auf. Typisch sind 轰轰隆隆的雷声 (hōnghōnglōnglōng de léishēng) und adverbial 轰轰隆隆地开过 (hōnghōnglōnglōng de kāiguò). Die Form ist seltener als 轰隆隆 (hōnglōnglōng) und wirkt etwas breiter, erzählerischer.",
     "examples": [
       {
         "chinese": "远处传来轰轰隆隆的雷声。",
-        "pinyin": "Yuǎnchù chuánlái hōnghōnglónglóng de léishēng.",
-        "german": "Aus der Ferne kam anhaltendes Donnergrollen."
+        "pinyin": "Yuǎnchù chuánlái hōnghōnglōnglōng de léishēng.",
+        "german": "Aus der Ferne rollte anhaltendes Donnergrollen heran."
+      },
+      {
+        "chinese": "大卡车轰轰隆隆地从门前开过。",
+        "pinyin": "Dà kǎchē hōnghōnglōnglōng de cóng mén qián kāiguò.",
+        "german": "Schwere Lastwagen donnern an der Haustür vorbei."
       }
     ],
     "related": [
       "o:轰隆",
-      "o:隆隆"
+      "o:轰隆隆",
+      "o:隆隆",
+      "o:轰轰"
     ],
-    "notes": "",
+    "notes": "Seltener als 轰隆隆 (hōnglōnglōng); man hört auch hōnghōnglónglóng.",
     "legacyIds": [
       "轰轰隆隆"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -2338,25 +3098,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AABB",
-    "meaning": "leises Tropfen/Rieseln (Regen)",
-    "usage": "Gibt das Geräusch von leichtem, feinem Regen wieder",
-    "explanation": "淅淅沥沥 beschreibt sanften, leichten Regen – im Gegensatz zum stärkeren 哗哗.",
+    "meaning": "tröpfelnd, nieselnd (anhaltender leichter Regen)",
+    "usage": "Beschreibt leichten, gleichmäßigen Regen, der lange anhält, und sein leises Geräusch; seltener anderes leises Tröpfeln.",
+    "explanation": "淅淅沥沥 ist die AABB-Form von 淅沥 (xīlì). Sie malt feinen Regen, der ohne Pause vor sich hin tröpfelt und rieselt, oft mit ruhiger oder etwas trüber Stimmung. Typisch sind 淅淅沥沥地下着小雨 (xīxīlìlì de xiàzhe xiǎoyǔ) und 淅淅沥沥的雨声 (xīxīlìlì de yǔshēng). Anders als das schriftsprachliche 淅沥 ist die AABB-Form auch im Gespräch gut zu hören. Kräftigen Regen beschreibt man dagegen mit 哗哗 (huāhuā) oder 哗啦啦 (huālālā).",
     "examples": [
       {
         "chinese": "外面淅淅沥沥地下着小雨。",
-        "pinyin": "Wàimiàn xīxī-lìlì de xiàzhe xiǎo yǔ.",
-        "german": "Draußen nieselt es leise."
+        "pinyin": "Wàimiàn xīxīlìlì de xiàzhe xiǎoyǔ.",
+        "german": "Draußen nieselt es leise vor sich hin."
+      },
+      {
+        "chinese": "雨淅淅沥沥地下了一个星期。",
+        "pinyin": "Yǔ xīxīlìlì de xiàle yí ge xīngqī.",
+        "german": "Eine ganze Woche lang hat es ununterbrochen genieselt."
+      },
+      {
+        "chinese": "听着淅淅沥沥的雨声，我很快就睡着了。",
+        "pinyin": "Tīngzhe xīxīlìlì de yǔshēng, wǒ hěn kuài jiù shuìzháo le.",
+        "german": "Beim leisen Tröpfeln des Regens schlief ich schnell ein."
       }
     ],
     "related": [
-      "o:哗哗",
-      "o:滴答"
+      "o:淅沥",
+      "o:滴滴答答",
+      "o:哗哗"
     ],
-    "notes": "Sehr poetisch und literarisch.",
+    "notes": "In Beschreibungen und Aufsätzen sehr beliebt, aber nicht auf die Schriftsprache beschränkt.",
     "legacyIds": [
       "淅淅沥沥"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -2371,24 +3142,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "AABB",
-    "meaning": "rascheln, wispern (leise)",
-    "usage": "Gibt leises Rascheln oder Wispern wieder",
-    "explanation": "窸窸窣窣 beschreibt sehr leise, kaum hörbare Raschelgeräusche – Papier, Kleidung oder kleine Tiere im Laub.",
+    "meaning": "raschelnd, knisternd (leise, anhaltend)",
+    "usage": "Gibt anhaltendes, leises Rascheln wieder – Kleidung, Papier, eine Tasche, in der jemand kramt, kleine Tiere im Gras.",
+    "explanation": "窸窸窣窣 ist die AABB-Form von 窸窣 (xīsū) und deutlich gebräuchlicher als die Grundform. Sie beschreibt leises, wiederholtes Rascheln, oft heimlich oder im Dunkeln: Jemand zieht sich leise an, eine Maus in der Küche, Herumkramen in einer Tasche. Typisch sind 窸窸窣窣的声音 (xīxīsūsū de shēngyīn) und 窸窸窣窣地翻 (xīxīsūsū de fān) „raschelnd herumkramen“. Offener und gleichmäßiger, etwa bei Laub im Wind, ist 沙沙 (shāshā).",
     "examples": [
       {
-        "chinese": "草丛里窸窸窣窣地响。",
-        "pinyin": "Cǎocóng lǐ xīxī-sūsū de xiǎng.",
-        "german": "Im Gebüsch raschelte es leise."
+        "chinese": "半夜，我听见厨房里有窸窸窣窣的声音，原来是一只老鼠。",
+        "pinyin": "Bànyè, wǒ tīngjiàn chúfáng lǐ yǒu xīxīsūsū de shēngyīn, yuánlái shì yì zhī lǎoshǔ.",
+        "german": "Mitten in der Nacht hörte ich ein Rascheln in der Küche – es war eine Maus."
+      },
+      {
+        "chinese": "她窸窸窣窣地翻着包，找了半天钥匙。",
+        "pinyin": "Tā xīxīsūsū de fānzhe bāo, zhǎole bàntiān yàoshi.",
+        "german": "Sie kramte raschelnd in ihrer Tasche und suchte lange nach dem Schlüssel."
+      },
+      {
+        "chinese": "草丛里有什么东西窸窸窣窣地响。",
+        "pinyin": "Cǎocóng lǐ yǒu shénme dōngxi xīxīsūsū de xiǎng.",
+        "german": "Im Gras raschelt irgendetwas."
       }
     ],
     "related": [
+      "o:窸窣",
       "o:沙沙"
     ],
-    "notes": "Sehr leise, fast unhörbar.",
+    "notes": "Umgangssprachlich und in Erzählungen häufig.",
     "legacyIds": [
       "窸窸窣窣"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -2403,24 +3185,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Natur",
     "pattern": "ABAB",
-    "meaning": "gluckern, gurgeln, blubbern",
-    "usage": "Gibt gluckernde oder blubbernde Geräusche wieder",
-    "explanation": "咕噜咕噜 ahmt Gluckergeräusche nach – kochendes Wasser, Magenknurren oder gurgelnde Flüssigkeit.",
+    "meaning": "gluck, gluck; Knurren (Magen), Blubbern, Kullern",
+    "usage": "Gibt wiederholte gluckernde oder rollende Geräusche wieder – einen knurrenden Magen, blubberndes Wasser, Gurgeln, etwas, das über den Boden kullert.",
+    "explanation": "咕噜咕噜 ist die ABAB-Verdopplung von 咕噜 (gūlū) und gibt ein Geräusch wieder, das sich wiederholt. Sehr häufig ist 肚子咕噜咕噜地叫 (dùzi gūlū gūlū de jiào) „der Magen knurrt“. Dazu kommen blubberndes oder gurgelndes Wasser und Dinge, die rollen oder kullern. Bildhaft: 眼珠咕噜咕噜地转 (yǎnzhū gūlū gūlū de zhuàn) „die Augen rollen hin und her“, oft weil jemand etwas ausheckt. Für kochendes Wasser ist auch 咕嘟咕嘟 (gūdū gūdū) üblich.",
     "examples": [
       {
-        "chinese": "水咕噜咕噜地烧开了。",
-        "pinyin": "Shuǐ gūlū-gūlū de shāo kāi le.",
-        "german": "Das Wasser blubbert und kocht."
+        "chinese": "我饿得肚子咕噜咕噜地叫。",
+        "pinyin": "Wǒ è de dùzi gūlū gūlū de jiào.",
+        "german": "Ich habe solchen Hunger, dass mir der Magen knurrt."
+      },
+      {
+        "chinese": "锅里的水咕噜咕噜地冒着泡。",
+        "pinyin": "Guō lǐ de shuǐ gūlū gūlū de màozhe pào.",
+        "german": "Im Topf blubbert das Wasser."
+      },
+      {
+        "chinese": "皮球咕噜咕噜地滚到了桌子底下。",
+        "pinyin": "Píqiú gūlū gūlū de gǔndàole zhuōzi dǐxia.",
+        "german": "Der Ball kullerte unter den Tisch."
       }
     ],
     "related": [
-      "o:咕咕"
+      "o:咕噜",
+      "o:咕嘟咕嘟",
+      "o:咕咚咕咚",
+      "o:叽里咕噜"
     ],
-    "notes": "",
+    "notes": "Umgangssprachlich und in Kinderbüchern sehr häufig; gesprochen oft gūlu gūlu. Für das Rollen und Kullern ist auch die Schreibung 骨碌骨碌 (gūlu gūlu) üblich.",
     "legacyIds": [
       "咕噜咕噜"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -2435,23 +3230,33 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Natur",
     "pattern": "AABB",
-    "meaning": "wirbelnd, in dichten Schwaden herabfallend",
-    "usage": "Beschreibt Schnee, Blätter oder Papier, die wirbelnd herabfallen",
-    "explanation": "纷纷扬扬 beschreibt den Anblick von vielen kleinen Dingen, die leicht und wirbellnd durch die Luft fallen.",
+    "meaning": "in dichten Flocken wirbelnd, herabschwebend",
+    "usage": "Beschreibt den Anblick vieler leichter Dinge, die dicht und wirbelnd durch die Luft fallen – vor allem Schnee, auch Blüten, Blätter oder Papierschnipsel.",
+    "explanation": "纷纷扬扬 verbindet 纷纷 (fēnfēn) „zahlreich, eins nach dem anderen“ mit 扬 (yáng) „aufwirbeln, fliegen“ zu einer AABB-Form. Sie malt ein Bild: dicht fallender Schnee, der in der Luft tanzt, oder Blütenblätter, die vom Baum schweben. Typisch ist sie adverbial vor Verben des Fallens (纷纷扬扬地飘落, fēnfēnyángyáng de piāoluò) oder als Attribut, etwa 纷纷扬扬的大雪 (fēnfēnyángyáng de dàxuě); ein Gradadverb wie 很 steht in der Regel nicht davor. Der Ausdruck gehört zur beschreibenden Schriftsprache.",
     "examples": [
       {
-        "chinese": "大雪纷纷扬扬地下着。",
-        "pinyin": "Dà xuě fēnfēn-yángyáng de xiàzhe.",
-        "german": "Dichter Schnee fiel wirbelnd vom Himmel."
+        "chinese": "大雪纷纷扬扬地下了一夜。",
+        "pinyin": "Dàxuě fēnfēnyángyáng de xiàle yí yè.",
+        "german": "Die ganze Nacht fiel der Schnee in dichten, wirbelnden Flocken."
+      },
+      {
+        "chinese": "春天，公园里的花瓣纷纷扬扬地飘落下来。",
+        "pinyin": "Chūntiān, gōngyuán lǐ de huābàn fēnfēnyángyáng de piāoluò xiàlai.",
+        "german": "Im Frühling schweben im Park die Blütenblätter in dichten Wirbeln herab."
+      },
+      {
+        "chinese": "窗外飘着纷纷扬扬的雪花。",
+        "pinyin": "Chuāng wài piāozhe fēnfēnyángyáng de xuěhuā.",
+        "german": "Vor dem Fenster wirbeln dichte Schneeflocken."
       }
     ],
     "related": [],
-    "notes": "Sehr bildhaft und poetisch.",
+    "notes": "Schriftsprachlich und bildhaft, beliebt in Aufsätzen und Schneebeschreibungen.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "纷纷扬扬"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "紛紛揚揚 纷纷扬扬 [fen1 fen1 yang2 yang2]"
     }
@@ -2466,24 +3271,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "A",
-    "meaning": "Reibegeräusch, Wischgeräusch",
-    "usage": "Gibt ein kurzes Reibe- oder Kratzgeräusch wieder",
-    "explanation": "嚓 ahmt ein kurzes Reibegeräusch nach, z.B. beim Anstreichen eines Streichholzes oder Wischen über eine Oberfläche.",
+    "meaning": "ratsch; kratz (kurzes Reibe- oder Reißgeräusch)",
+    "usage": "Gibt ein kurzes, scharfes Reibe- oder Reißgeräusch wieder – ein angestrichenes Streichholz, reißender Stoff, quietschende Bremsen.",
+    "explanation": "嚓 (cā) ahmt ein kurzes, scharfes Geräusch durch Reibung nach: ein Streichholz, das angerissen wird, Stoff, der reißt, Reifen, die beim Bremsen quietschen. Typisch ist 嚓的一声 „mit einem Ratsch“ am Satzanfang oder vor dem Verb (汽车嚓的一声停了下来). Für wiederholte Geräusche steht 嚓嚓 (cācā). Als zweite Silbe in 咔嚓 (kāchā) „knack“ wird das Zeichen chā gelesen. In Erzähltexten wird das Lautwort oft in Anführungszeichen gesetzt: “嚓”的一声.",
     "examples": [
       {
-        "chinese": "嚓地一声，火柴点着了。",
-        "pinyin": "Cā de yī shēng, huǒchái diǎnzháo le.",
-        "german": "Mit einem Kratzen entzündete sich das Streichholz."
+        "chinese": "嚓的一声，他划着了一根火柴。",
+        "pinyin": "Cā de yì shēng, tā huázháo le yì gēn huǒchái.",
+        "german": "Ratsch – er riss ein Streichholz an."
+      },
+      {
+        "chinese": "汽车嚓的一声停了下来。",
+        "pinyin": "Qìchē cā de yì shēng tíng le xiàlai.",
+        "german": "Mit quietschenden Reifen kam das Auto zum Stehen."
+      },
+      {
+        "chinese": "嚓的一声，裤子撕破了。",
+        "pinyin": "Cā de yì shēng, kùzi sīpò le.",
+        "german": "Ratsch – die Hose war gerissen."
       }
     ],
     "related": [
-      "o:嚓嚓"
+      "o:嚓嚓",
+      "o:咔嚓",
+      "o:啪"
     ],
-    "notes": "",
+    "notes": "Lesung: allein meist cā; in 咔嚓 (kāchā) und 啪嚓 (pāchā) chā (in Taiwan auch dort cā).",
     "legacyIds": [
       "嚓"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "嚓 嚓 [ca1]"
     }
@@ -2498,25 +3315,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "A",
-    "meaning": "Klick, Tack (einzelner kurzer Laut)",
-    "usage": "Gibt einen einzelnen kurzen Klick- oder Tacklaut wieder",
-    "explanation": "嗒 ist ein einzelner, kurzer, trockener Laut – ein Schalter, der klickt, oder ein Tropfen, der fällt.",
+    "meaning": "tack; klick (kurzer, trockener Laut)",
+    "usage": "Gibt einen einzelnen kurzen, trockenen Laut wieder – einen fallenden Tropfen, einen Schalter, einen Stift, der auf den Tisch gelegt wird.",
+    "explanation": "嗒 (dā) steht für einen kurzen, trockenen „Tack“-Laut. Allein erscheint es meist in 嗒的一声 „mit einem Tack“ oder in Lautfolgen wie 嗒、嗒、嗒. Viel häufiger ist es Teil von Lautwörtern: 嗒嗒 (dādā) für klappernde Absätze und Hufe, 滴答 (dīdā) für Ticken und Tropfen, 咔嗒 (kādā) für das Klicken eines Schalters, 吧嗒 (bādā) für Schmatzen und Klicken. In Verbindungen wie 吧嗒 klingt es oft neutral (bāda).",
     "examples": [
       {
-        "chinese": "嗒的一声，灯亮了。",
-        "pinyin": "Dā de yī shēng, dēng liàng le.",
-        "german": "Klick – das Licht ging an."
+        "chinese": "嗒的一声，他按下了开关。",
+        "pinyin": "Dā de yì shēng, tā ànxià le kāiguān.",
+        "german": "Klick – er drückte auf den Schalter."
+      },
+      {
+        "chinese": "一滴水嗒的一声落在桌子上。",
+        "pinyin": "Yì dī shuǐ dā de yì shēng luò zài zhuōzi shang.",
+        "german": "Ein Wassertropfen fiel mit einem leisen Tack auf den Tisch."
+      },
+      {
+        "chinese": "墙上的钟嗒、嗒、嗒地走着。",
+        "pinyin": "Qiáng shang de zhōng dā, dā, dā de zǒuzhe.",
+        "german": "Die Uhr an der Wand tickte: tack, tack, tack."
       }
     ],
     "related": [
       "o:嗒嗒",
-      "o:滴答"
+      "o:滴答",
+      "o:咔嗒",
+      "o:吧嗒"
     ],
-    "notes": "",
+    "notes": "Häufig auch 哒 (dā) geschrieben, vor allem im Internet. Die Lesung tà gehört zu anderen, schriftsprachlichen Wörtern wie 嗒然 (tàrán) „niedergeschlagen“.",
     "legacyIds": [
       "嗒"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "嗒 嗒 [da1]"
     }
@@ -2531,25 +3360,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "A",
-    "meaning": "Pling! Ding! (kurzer heller Ton)",
-    "usage": "Gibt einen einzelnen hellen Ton wieder – Nachricht, Mikrowelle, Glocke",
-    "explanation": "叮 als Einzelzeichen beschreibt einen kurzen, hellen Ton – den Signalton einer Nachricht, einer Mikrowelle oder eines Aufzugs.",
+    "meaning": "ding; pling (kurzer heller Ton)",
+    "usage": "Gibt einen einzelnen kurzen, hellen Ton wieder – den Signalton einer Nachricht, einer Mikrowelle, eines Aufzugs oder eines angestoßenen Glases.",
+    "explanation": "叮 (dīng) ahmt einen kurzen, hellen Ton nach, metallisch oder elektronisch. Typisch ist 叮的一声 „mit einem Pling“ am Satzanfang oder nach dem Subjekt (手机叮的一声). In Comics, Chats und Werbung steht es auch allein als Ausruf: 叮！. Für wiederholtes Klingeln stehen 叮叮 (dīngdīng) und 叮叮当当 (dīngdīngdāngdāng); verwandte Lautwörter sind 叮当 (dīngdāng), 叮咚 (dīngdōng) und 叮铃 (dīnglíng).",
     "examples": [
       {
-        "chinese": "叮！微波炉好了。",
-        "pinyin": "Dīng! Wēibōlú hǎo le.",
-        "german": "Pling! Die Mikrowelle ist fertig."
+        "chinese": "叮的一声，微波炉里的饭热好了。",
+        "pinyin": "Dīng de yì shēng, wēibōlú lǐ de fàn rè hǎo le.",
+        "german": "Pling – das Essen in der Mikrowelle ist warm."
+      },
+      {
+        "chinese": "手机叮的一声，来了一条新消息。",
+        "pinyin": "Shǒujī dīng de yì shēng, lái le yì tiáo xīn xiāoxi.",
+        "german": "Das Handy machte pling – eine neue Nachricht."
+      },
+      {
+        "chinese": "电梯叮的一声，门开了。",
+        "pinyin": "Diàntī dīng de yì shēng, mén kāi le.",
+        "german": "Ding – die Aufzugtür ging auf."
       }
     ],
     "related": [
       "o:叮叮",
-      "o:叮当"
+      "o:叮当",
+      "o:叮咚",
+      "o:叮铃"
     ],
-    "notes": "Im modernen Chinesisch sehr häufig für Benachrichtigungstöne.",
+    "notes": "叮 ist auch ein Verb: 蚊子叮人 „Mücken stechen“; vgl. 叮嘱 (dīngzhǔ) „eindringlich ermahnen“.",
     "legacyIds": [
       "叮"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "叮 叮 [ding1]"
     }
@@ -2564,25 +3405,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "A",
-    "meaning": "Wumm! Krach! (schwerer Aufprall)",
-    "usage": "Gibt einen lauten, dumpfen Aufprall oder Krach wieder",
-    "explanation": "咣 ahmt einen schweren, hallenden Aufprall nach – eine Metalltür, die zuknallt, oder ein schwerer Gegenstand.",
+    "meaning": "rums; krach (schwerer, hallender Schlag)",
+    "usage": "Gibt einen lauten, schweren und oft metallisch nachhallenden Schlag wieder – eine zuschlagende Eisentür, ein herunterfallender Topf, ein Gong.",
+    "explanation": "咣 (guāng) ahmt einen lauten, schweren Schlag nach, der oft nachhallt: eine Metalltür, die zufällt, ein Topf, der auf den Boden knallt, ein Gongschlag. Typisch ist 咣的一声 „mit einem Rums“; als Ausruf steht es auch allein: 咣！. Für wiederholtes Hämmern steht 咣咣, für Scheppern beim Fallen oder Anstoßen 咣当 (guāngdāng). Ähnlich klingen 哐 (kuāng) und 哐当 (kuāngdāng); 砰 (pēng) ist ein kürzerer, trockenerer Knall.",
     "examples": [
       {
         "chinese": "铁门咣的一声关上了。",
-        "pinyin": "Tiě mén guāng de yī shēng guān shàng le.",
-        "german": "Die Eisentür schlug mit einem Wumm zu."
+        "pinyin": "Tiěmén guāng de yì shēng guānshàng le.",
+        "german": "Das Eisentor fiel mit einem lauten Rums zu."
+      },
+      {
+        "chinese": "锅咣的一声掉在地上。",
+        "pinyin": "Guō guāng de yì shēng diào zài dì shang.",
+        "german": "Der Topf fiel scheppernd auf den Boden."
+      },
+      {
+        "chinese": "咣！锣声一响，比赛开始了。",
+        "pinyin": "Guāng! Luóshēng yì xiǎng, bǐsài kāishǐ le.",
+        "german": "Gong! Mit dem Gongschlag begann der Wettkampf."
       }
     ],
     "related": [
+      "o:咣咣",
+      "o:咣当",
       "o:哐当",
       "o:砰"
     ],
-    "notes": "",
+    "notes": "Vor allem umgangssprachlich und in Erzähltexten; besonders im Norden geläufig.",
     "legacyIds": [
       "咣"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "咣 咣 [guang1]"
     }
@@ -2636,21 +3489,33 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "A",
-    "meaning": "klatsch, patsch (Schlag)",
-    "usage": "Gibt das Geräusch eines Schlags oder Klatschens wieder",
-    "explanation": "啪 ahmt ein scharfes Schlaggeräusch nach – Klatschen, Ohrfeige oder etwas, das auf den Boden fällt.",
+    "meaning": "klatsch; peng (kurzer, scharfer Knall)",
+    "usage": "Gibt einen kurzen, scharfen Knall wieder – eine Ohrfeige, Klatschen, ein zerbrechendes Glas, einen Lichtschalter, einen Peitschenhieb oder Schuss.",
+    "explanation": "啪 (pā) ahmt einen kurzen, hellen und scharfen Knall nach: Schlag auf Haut, flaches Aufschlagen, Zerbrechen, Klicken eines Schalters, Peitschenknall oder Schuss. Typisch sind 啪的一声 „mit einem Klatsch“ und 啪地 + Verb (啪地打了一下). Wiederholt steht 啪啪; für Knistern und Prasseln gibt es 噼啪 (pīpā) und 噼里啪啦 (pīlipālā). Im Vergleich zu 砰 (pēng) ist 啪 heller und kürzer.",
     "examples": [
       {
-        "chinese": "啪的一声，杯子摔碎了。",
-        "pinyin": "Pā de yī shēng, bēizi shuāi suì le.",
-        "german": "Klatsch! Die Tasse zerbrach auf dem Boden."
+        "chinese": "啪的一声，杯子掉在地上摔碎了。",
+        "pinyin": "Pā de yì shēng, bēizi diào zài dì shang shuāisuì le.",
+        "german": "Peng – das Glas fiel zu Boden und zersprang."
+      },
+      {
+        "chinese": "他啪的一声关了灯。",
+        "pinyin": "Tā pā de yì shēng guān le dēng.",
+        "german": "Klick – er machte das Licht aus."
+      },
+      {
+        "chinese": "她啪地打了他一个耳光。",
+        "pinyin": "Tā pā de dǎ le tā yí ge ěrguāng.",
+        "german": "Klatsch – sie gab ihm eine Ohrfeige."
       }
     ],
     "related": [
+      "o:啪啪",
       "o:砰",
-      "o:啪啪"
+      "o:噼啪",
+      "o:噼里啪啦"
     ],
-    "notes": "",
+    "notes": "Ähnlich wird 叭 (bā) gebraucht, besonders in älteren Texten: 叭的一声.",
     "variants": [
       "叭"
     ],
@@ -2658,7 +3523,7 @@ window.ONOMATOPOEIA_DATA = [
       "啪",
       "叭"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "啪 啪 [pa1]"
     }
@@ -2673,21 +3538,33 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "A",
-    "meaning": "bumm, peng (Knall)",
-    "usage": "Gibt einen lauten Knall wieder (Tür zuschlagen, Schuss)",
-    "explanation": "砰 ahmt einen plötzlichen, lauten Knall nach – ähnlich wie das deutsche 'peng' oder 'bumm'.",
+    "meaning": "peng; bums (lauter, dumpfer Knall)",
+    "usage": "Gibt einen plötzlichen, lauten Knall oder dumpfen Aufprall wieder – eine zuschlagende Tür, einen platzenden Ballon, einen Schuss, einen schweren Sturz.",
+    "explanation": "砰 (pēng) ahmt einen plötzlichen, lauten Knall nach, ähnlich dem deutschen „peng“ oder „bums“: eine Tür, die zuknallt, ein Schuss, ein Ballon, der platzt, jemand, der schwer hinfällt. Das häufigste Muster ist 砰的一声 am Satzanfang oder vor dem Verb (门砰的一声关上了). Verdoppelt beschreibt 砰砰 (pēngpēng) wiederholte Schläge und vor allem das pochende Herz (心砰砰直跳). Gleichbedeutend wird oft 嘭 (pēng) geschrieben.",
     "examples": [
       {
         "chinese": "砰的一声，门关上了。",
-        "pinyin": "Pēng de yī shēng, mén guān shàng le.",
-        "german": "Peng! Die Tür schlug zu."
+        "pinyin": "Pēng de yì shēng, mén guānshàng le.",
+        "german": "Peng! Die Tür knallte zu."
+      },
+      {
+        "chinese": "气球砰的一声爆了。",
+        "pinyin": "Qìqiú pēng de yì shēng bào le.",
+        "german": "Peng – der Luftballon platzte."
+      },
+      {
+        "chinese": "他脚下一滑，砰的一声摔在地上。",
+        "pinyin": "Tā jiǎo xià yì huá, pēng de yì shēng shuāi zài dì shang.",
+        "german": "Er rutschte aus und schlug mit einem dumpfen Bums auf dem Boden auf."
       }
     ],
     "related": [
+      "o:砰砰",
       "o:啪",
-      "o:轰"
+      "o:轰",
+      "o:咣"
     ],
-    "notes": "Das Steinradikal 石 deutet auf ein hartes Aufprallgeräusch hin.",
+    "notes": "Daneben auch 嘭 (pēng) geschrieben; 嗙 (pēng) ist selten.",
     "variants": [
       "嗙"
     ],
@@ -2695,7 +3572,7 @@ window.ONOMATOPOEIA_DATA = [
       "砰",
       "嗙"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "砰 砰 [peng1]"
     }
@@ -2710,25 +3587,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "piepen (elektronisch)",
-    "usage": "Gibt elektronische Pieptöne wieder",
-    "explanation": "哔哔 ahmt elektronische Pieptöne nach, z.B. Kassensysteme, Scanner oder Alarme.",
+    "meaning": "piep, piep (elektronischer Piepton)",
+    "usage": "Gibt wiederholte elektronische Pieptöne wieder – Wecker, Fieberthermometer, Kartenleser, Scanner an der Kasse, Alarm.",
+    "explanation": "哔哔 (bìbì) ahmt kurze, hohe Pieptöne elektronischer Geräte nach: Wecker, Fieberthermometer, Kassenscanner, Kartenleser an der Tür. Es steht adverbial mit 地 vor 响 oder 叫 (哔哔地响), mit Zählung der Töne (哔哔响了两声) oder als Attribut (哔哔的声音). Ein einzelner Ton ist 哔的一声. Ähnlich ist 嘀嘀 (dīdī), das auch für Autohupen gebraucht wird.",
     "examples": [
       {
-        "chinese": "收银机哔哔地响了一声。",
-        "pinyin": "Shōuyínjī bìbì de xiǎng le yī shēng.",
-        "german": "Die Kasse piepte."
+        "chinese": "闹钟哔哔地响个不停。",
+        "pinyin": "Nàozhōng bìbì de xiǎng ge bù tíng.",
+        "german": "Der Wecker piepte ununterbrochen."
+      },
+      {
+        "chinese": "门口的机器哔哔响了两声，门开了。",
+        "pinyin": "Ménkǒu de jīqì bìbì xiǎng le liǎng shēng, mén kāi le.",
+        "german": "Das Gerät am Eingang piepte zweimal, und die Tür ging auf."
+      },
+      {
+        "chinese": "体温计哔哔地响了，可以拿出来了。",
+        "pinyin": "Tǐwēnjì bìbì de xiǎng le, kěyǐ ná chūlai le.",
+        "german": "Das Fieberthermometer piept – du kannst es herausnehmen."
       }
     ],
     "related": [
-      "o:嘀嘀"
+      "o:嘀嘀",
+      "o:嘟嘟"
     ],
-    "notes": "",
+    "notes": "Im Internet auch derb-umgangssprachlich für „labern“: 别哔哔 „laber nicht rum“, dabei oft bībī gesprochen.",
     "legacyIds": [
       "哔哔",
       "哔"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -2743,24 +3631,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "schaben, kratzen, schneiden",
-    "usage": "Gibt das Geräusch von Schneiden oder Schaben wieder",
-    "explanation": "嚓嚓 ahmt das Geräusch nach, wenn etwas geschnitten oder geschabt wird, z.B. eine Schere.",
+    "meaning": "ratsch, ratsch; schnipp, schnapp (wiederholtes Schneiden, Schaben)",
+    "usage": "Gibt wiederholte kurze Reibe-, Schneide- oder Reißgeräusche wieder – eine Schere, ein Messer am Wetzstein, reißender Stoff.",
+    "explanation": "嚓嚓 (cācā) ist die Verdopplung von 嚓 (cā) und beschreibt mehrere kurze Reibe- oder Schneidegeräusche hintereinander: eine Schere, die durch Papier oder Haare schneidet, ein Messer, das gewetzt wird, Stoff, der in Streifen gerissen wird. Typisch ist 嚓嚓地 + Verb (嚓嚓地剪) und 嚓嚓几下 „mit ein paar Ratsch“, das zugleich Schnelligkeit ausdrückt. Für Scheren und Kameras ist auch 咔嚓咔嚓 (kāchā kāchā) üblich; dreifach 嚓嚓嚓 kommt ebenfalls vor.",
     "examples": [
       {
         "chinese": "剪刀嚓嚓地剪着纸。",
         "pinyin": "Jiǎndāo cācā de jiǎnzhe zhǐ.",
-        "german": "Die Schere schnitt schnipp-schnapp durch das Papier."
+        "german": "Die Schere fuhr schnipp, schnapp durch das Papier."
+      },
+      {
+        "chinese": "他在院子里嚓嚓地磨着刀。",
+        "pinyin": "Tā zài yuànzi lǐ cācā de mózhe dāo.",
+        "german": "Im Hof wetzte er mit kratzenden Strichen das Messer."
+      },
+      {
+        "chinese": "她嚓嚓几下就把旧衣服撕成了布条。",
+        "pinyin": "Tā cācā jǐ xià jiù bǎ jiù yīfu sī chéng le bùtiáo.",
+        "german": "Ratsch, ratsch – mit ein paar Handgriffen hatte sie das alte Kleidungsstück in Streifen gerissen."
       }
     ],
     "related": [
+      "o:嚓",
       "o:咔嚓"
     ],
     "notes": "",
     "legacyIds": [
       "嚓嚓"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "嚓嚓 嚓嚓 [ca1 ca1]"
     }
@@ -2775,29 +3674,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "klappern, trappeln (Schritte, Hufe)",
-    "usage": "Gibt das Klappern von Absätzen oder Pferdehufen wieder",
-    "explanation": "嗒嗒 ahmt das rhythmische Klappern nach, typisch für Stöckelschuhe auf hartem Boden oder Pferdehufe.",
+    "meaning": "klapp, klapp; tack, tack (Absätze, Hufe, Ticken)",
+    "usage": "Gibt rhythmisch wiederholte, kurze und harte Laute wieder – klappernde Absätze, Hufschläge, eine tickende Uhr, Tippen auf der Tastatur.",
+    "explanation": "嗒嗒 (dādā) ist die Verdopplung von 嗒 (dā) und beschreibt kurze, trockene Laute in gleichmäßigem Takt: Absätze auf hartem Boden, Hufe auf der Straße, eine tickende Uhr, Finger auf der Tastatur. Typisch sind 嗒嗒地 + Verb (嗒嗒地走) und 嗒嗒的 + Nomen (嗒嗒的马蹄声). Für schnelle Folgen, etwa ein Maschinengewehr, steht auch dreifach 嗒嗒嗒. Für Ticken und Tropfen ist 滴答 (dīdā) geläufiger.",
     "examples": [
       {
-        "chinese": "高跟鞋嗒嗒地响。",
-        "pinyin": "Gāogēnxié dādā de xiǎng.",
-        "german": "Die Stöckelschuhe klapperten."
+        "chinese": "她穿着高跟鞋，嗒嗒地走进了办公室。",
+        "pinyin": "Tā chuānzhe gāogēnxié, dādā de zǒujìn le bàngōngshì.",
+        "german": "Mit klappernden Absätzen ging sie ins Büro."
       },
       {
-        "chinese": "马蹄嗒嗒地响。",
-        "pinyin": "Mǎtí dādā de xiǎng.",
-        "german": "Die Pferdehufe klapperten."
+        "chinese": "远处传来嗒嗒的马蹄声。",
+        "pinyin": "Yuǎnchù chuánlái dādā de mǎtí shēng.",
+        "german": "Aus der Ferne hörte man Hufgeklapper."
+      },
+      {
+        "chinese": "他在电脑前嗒嗒地打着字。",
+        "pinyin": "Tā zài diànnǎo qián dādā de dǎzhe zì.",
+        "german": "Er saß am Computer und tippte klappernd."
       }
     ],
     "related": [
+      "o:嗒",
+      "o:滴答",
+      "o:咔嗒",
       "o:咚咚"
     ],
-    "notes": "",
+    "notes": "Häufig auch 哒哒 (dādā) geschrieben, z. B. 哒哒的马蹄声. Für Hufgetrappel ist daneben 嘚嘚 (dēdē) gebräuchlich.",
     "legacyIds": [
       "嗒嗒"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -2812,25 +3719,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "piep piep, tut tut (Signalton)",
-    "usage": "Gibt elektronische Signaltöne oder Hupen wieder",
-    "explanation": "嘀嘀 ahmt elektronische Töne oder Hupen nach. 滴滴 (Dīdī) ist auch der Name der chinesischen Ride-Hailing-App.",
+    "meaning": "tüt, tüt; piep, piep (Hupe, Signalton)",
+    "usage": "Gibt kurze, hohe Signaltöne wieder – eine Autohupe oder elektronische Geräte wie Handy, Waschmaschine, Wecker.",
+    "explanation": "嘀嘀 (dīdī) ahmt kurze, helle Signaltöne nach: das Hupen eines Autos oder Mopeds und das Piepen elektronischer Geräte. Typisch sind 嘀嘀地 + Verb (嘀嘀地按喇叭 „tüt-tüt hupen“) und 嘀嘀响了两声 „hat zweimal gepiept“. Dreifach 嘀嘀嘀 kommt ebenfalls vor, ein einzelner Ton ist 嘀的一声. Daneben wird oft 滴滴 (dīdī) geschrieben – so heißt auch die Fahrdienst-App 滴滴出行 (Dīdī Chūxíng). Für rein elektronische Pieptöne ist auch 哔哔 (bìbì) üblich.",
     "examples": [
       {
-        "chinese": "手机嘀嘀地响了。",
-        "pinyin": "Shǒujī dīdī de xiǎng le.",
-        "german": "Das Handy piepte."
+        "chinese": "后面的车嘀嘀地按喇叭。",
+        "pinyin": "Hòumian de chē dīdī de àn lǎba.",
+        "german": "Das Auto hinter uns hupte: tüt, tüt."
+      },
+      {
+        "chinese": "手机嘀嘀响了两声，电快没了。",
+        "pinyin": "Shǒujī dīdī xiǎng le liǎng shēng, diàn kuài méi le.",
+        "german": "Das Handy piepte zweimal – der Akku ist fast leer."
+      },
+      {
+        "chinese": "洗衣机嘀嘀地叫，衣服洗好了。",
+        "pinyin": "Xǐyījī dīdī de jiào, yīfu xǐ hǎo le.",
+        "german": "Die Waschmaschine piept – die Wäsche ist fertig."
       }
     ],
     "related": [
+      "o:哔哔",
+      "o:嘟嘟",
       "o:滴答"
     ],
-    "notes": "",
+    "notes": "In 嘀咕 (dígu) „tuscheln, vor sich hin murmeln“ und 嘀嘀咕咕 wird 嘀 dí gelesen – ein anderes Wort.",
     "legacyIds": [
       "嘀嘀",
       "滴滴"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -2845,24 +3764,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "kling kling (helles Klingeln)",
-    "usage": "Gibt ein helles, wiederholtes Klingeln wieder",
-    "explanation": "叮叮 beschreibt ein helles, klares Klingeln – leichter und höhertönend als 叮当.",
+    "meaning": "kling, kling; pling, pling (helles, wiederholtes Klingen)",
+    "usage": "Gibt wiederholte helle Klingeltöne wieder – ein Windspiel, ein Löffel am Glas, Benachrichtigungstöne des Handys, eine Straßenbahnglocke.",
+    "explanation": "叮叮 (dīngdīng) ist die Verdopplung von 叮 (dīng) und beschreibt mehrere helle, kurze Töne hintereinander: Glöckchen und Windspiele, Metall oder Glas, das leicht angeschlagen wird, wiederholte Signaltöne. Typisch sind 叮叮地响 und 叮叮响个不停 „pausenlos pling, pling“. Auch dreifach 叮叮叮 ist üblich. Wechselnde helle Klänge beschreiben 叮当 (dīngdāng) und 叮叮当当 (dīngdīngdāngdāng).",
     "examples": [
       {
-        "chinese": "风铃叮叮地响。",
-        "pinyin": "Fēnglíng dīngdīng de xiǎng.",
-        "german": "Das Windspiel klingelt."
+        "chinese": "风一吹，风铃就叮叮地响。",
+        "pinyin": "Fēng yì chuī, fēnglíng jiù dīngdīng de xiǎng.",
+        "german": "Sobald der Wind weht, klingelt das Windspiel."
+      },
+      {
+        "chinese": "手机叮叮响个不停，都是工作群的消息。",
+        "pinyin": "Shǒujī dīngdīng xiǎng ge bù tíng, dōu shì gōngzuò qún de xiāoxi.",
+        "german": "Das Handy macht ständig pling, pling – alles Nachrichten aus der Arbeitsgruppe."
+      },
+      {
+        "chinese": "她用勺子叮叮地敲了敲杯子。",
+        "pinyin": "Tā yòng sháozi dīngdīng de qiāo le qiāo bēizi.",
+        "german": "Sie klopfte mit dem Löffel kling, kling an ihr Glas."
       }
     ],
     "related": [
-      "o:叮当"
+      "o:叮",
+      "o:叮当",
+      "o:叮铃",
+      "o:叮叮当当"
     ],
-    "notes": "",
+    "notes": "In Hongkong heißt die Straßenbahn wegen ihrer Glocke umgangssprachlich 叮叮.",
     "legacyIds": [
       "叮叮"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "叮叮 叮叮 [ding1 ding1]"
     }
@@ -2877,29 +3809,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "bumm bumm (Klopfen, Trommeln)",
-    "usage": "Gibt das Geräusch von Klopfen oder Trommeln wieder",
-    "explanation": "咚咚 ahmt dumpfes Klopfen nach – an einer Tür, auf einer Trommel oder ein klopfendes Herz.",
+    "meaning": "bum, bum; poch, poch (Klopfen, Trommeln, Herzschlag)",
+    "usage": "Gibt wiederholtes dumpfes Klopfen wieder – an einer Tür, auf einer Trommel oder das heftig pochende Herz.",
+    "explanation": "咚咚 (dōngdōng) ahmt wiederholte dumpfe Schläge nach: Klopfen an der Tür, Trommeln, schwere Schritte, ein Herz, das vor Aufregung pocht. Typisch sind 咚咚地 + Verb (咚咚地敲门), 咚咚直跳 für das Herz und 咚咚的 + Nomen (咚咚的鼓声). Beim Klopfen ist dreifach 咚咚咚 sehr üblich. Ein einzelner dumpfer Aufprall ist 咚的一声; ins Wasser fallen ist 咕咚 (gūdōng).",
     "examples": [
       {
         "chinese": "有人咚咚地敲门。",
         "pinyin": "Yǒu rén dōngdōng de qiāo mén.",
-        "german": "Jemand klopft bumm bumm an die Tür."
+        "german": "Jemand klopft laut an die Tür."
       },
       {
-        "chinese": "我的心咚咚地跳。",
-        "pinyin": "Wǒ de xīn dōngdōng de tiào.",
-        "german": "Mein Herz klopft heftig."
+        "chinese": "我紧张得心咚咚直跳。",
+        "pinyin": "Wǒ jǐnzhāng de xīn dōngdōng zhí tiào.",
+        "german": "Ich war so aufgeregt, dass mir das Herz bis zum Hals pochte."
+      },
+      {
+        "chinese": "咚咚的鼓声越来越近了。",
+        "pinyin": "Dōngdōng de gǔ shēng yuè lái yuè jìn le.",
+        "german": "Das Bum-bum der Trommeln kam immer näher."
       }
     ],
     "related": [
-      "o:砰砰"
+      "o:砰砰",
+      "o:叮咚",
+      "o:咕咚",
+      "o:咣咣"
     ],
-    "notes": "",
+    "notes": "Für das pochende Herz sind auch 怦怦 (pēngpēng) und 砰砰 (pēngpēng) üblich.",
     "legacyIds": [
       "咚咚"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "咚咚 咚咚 [dong1 dong1]"
     }
@@ -2914,24 +3854,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "tuten, hupen (Auto)",
-    "usage": "Gibt das Tuten einer Autohupe oder Schiffssirene wieder",
-    "explanation": "嘟嘟 ahmt das Tuten einer Hupe oder einer Trillerpfeife nach.",
+    "meaning": "tut, tut; tüt (Hupe, Tröte, Freizeichen)",
+    "usage": "Gibt gleichmäßige, tiefere Tuttöne wieder – eine Hupe, eine Kindertröte, das Freizeichen oder Besetztzeichen am Telefon.",
+    "explanation": "嘟嘟 (dūdū) ahmt gleichmäßige Tuttöne nach: Autohupen, Tröten und Pfeifen, das Tuten im Telefonhörer. Typisch sind 嘟嘟地 + Verb (嘟嘟地响), 嘟嘟的声音 und dreifach 嘟嘟嘟 für das Freizeichen. In Kinderbüchern und gegenüber Kindern ist 嘟嘟 auch das Geräusch von Autos und Zügen. Im Vergleich zu 嘀嘀 (dīdī) klingt 嘟嘟 tiefer und länger.",
     "examples": [
       {
-        "chinese": "汽车嘟嘟地按着喇叭。",
-        "pinyin": "Qìchē dūdū de ànzhe lǎba.",
-        "german": "Das Auto hupte wiederholt."
+        "chinese": "电话里只有嘟嘟的声音，没人接。",
+        "pinyin": "Diànhuà lǐ zhǐ yǒu dūdū de shēngyīn, méi rén jiē.",
+        "german": "Im Telefon tutete es nur, niemand nahm ab."
+      },
+      {
+        "chinese": "孩子吹着小喇叭，嘟嘟地响个不停。",
+        "pinyin": "Háizi chuīzhe xiǎo lǎba, dūdū de xiǎng ge bù tíng.",
+        "german": "Das Kind blies auf seiner kleinen Tröte – tröt, tröt, ohne Pause."
+      },
+      {
+        "chinese": "小汽车嘟嘟地开过来了。",
+        "pinyin": "Xiǎo qìchē dūdū de kāi guòlai le.",
+        "german": "Tut, tut – da kommt das Auto angefahren."
       }
     ],
     "related": [
-      "o:嘀嘀"
+      "o:嘀嘀",
+      "o:哔哔"
     ],
-    "notes": "",
+    "notes": "嘟嘟 ist auch ein beliebter Kosename. Das Zeichen steht außerdem in 嘟嘴 (dū zuǐ) „einen Schmollmund ziehen“ und 胖嘟嘟 (pàngdūdū) „pummelig“.",
     "legacyIds": [
       "嘟嘟"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -2946,25 +3897,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "dumpf hämmernd, schlagend",
-    "usage": "Gibt dumpfes, wiederholtes Hämmern oder Schlagen wieder",
-    "explanation": "咣咣 beschreibt wiederholtes dumpfes Hämmern – z.B. gegen eine Metalltür, einen Container oder bei Bauarbeiten.",
+    "meaning": "rums, rums; wuchtiges Hämmern (schwer, nachhallend)",
+    "usage": "Gibt wiederholte schwere, oft metallisch nachhallende Schläge wieder – Hämmern gegen eine Tür, Baulärm, Gongschläge.",
+    "explanation": "咣咣 (guāngguāng) ist die Verdopplung von 咣 (guāng) und beschreibt mehrere schwere, laute Schläge hintereinander: jemand hämmert gegen eine (Eisen-)Tür, auf einer Baustelle oder bei Renovierungen wird gehämmert, Gongs werden geschlagen. Typisch sind 咣咣地 + Verb (咣咣地砸门) und 咣咣的 + Nomen (咣咣的锣声). Es klingt schwerer und metallischer als 咚咚 (dōngdōng); fast gleichbedeutend ist 哐哐 (kuāngkuāng).",
     "examples": [
       {
-        "chinese": "他咣咣地敲着铁门。",
-        "pinyin": "Tā guāngguāng de qiāozhe tiěmén.",
-        "german": "Er hämmerte dumpf gegen die Eisentür."
+        "chinese": "有人在外面咣咣地砸门。",
+        "pinyin": "Yǒu rén zài wàimian guāngguāng de zá mén.",
+        "german": "Draußen hämmert jemand wuchtig gegen die Tür."
+      },
+      {
+        "chinese": "楼上在装修，咣咣地响了一整天。",
+        "pinyin": "Lóu shàng zài zhuāngxiū, guāngguāng de xiǎng le yì zhěng tiān.",
+        "german": "Oben wird renoviert – es hat den ganzen Tag gerumst."
+      },
+      {
+        "chinese": "咣咣的锣声一响，舞狮开始了。",
+        "pinyin": "Guāngguāng de luóshēng yì xiǎng, wǔshī kāishǐ le.",
+        "german": "Als die Gongs dröhnten, begann der Löwentanz."
       }
     ],
     "related": [
       "o:咣",
+      "o:咣当",
+      "o:哐哐",
       "o:咚咚"
     ],
-    "notes": "Dumpfer und schwerer als 咚咚.",
+    "notes": "Umgangssprachlich; in Nordchina besonders geläufig.",
     "legacyIds": [
       "咣咣"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -2979,25 +3942,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "dumpfes Dröhnen, Donnern",
-    "usage": "Gibt dumpfes, anhaltendes Dröhnen wieder (Maschinen, Explosionen)",
-    "explanation": "轰轰 beschreibt ein anhaltendes, tiefes Dröhnen, typisch für schwere Maschinen, entfernte Explosionen oder Donner.",
+    "meaning": "dröhnend; wumm, wumm (Maschinen, Motoren)",
+    "usage": "Gibt anhaltendes, tiefes Dröhnen wieder – schwere Maschinen, Motoren, Flugzeuge, entfernte Explosionen.",
+    "explanation": "轰轰 (hōnghōng) ist die Verdopplung von 轰 (hōng) „Bumm, Dröhnen“ und beschreibt ein tiefes, anhaltendes oder sich wiederholendes Dröhnen: Baumaschinen, Motorräder, Flugzeuge, Geschützdonner. Typisch sind 轰轰地 + Verb (轰轰地响, 轰轰地开过) und 轰轰的 + Nomen (轰轰的机器声). Für rollenden Donner ist 轰隆 (hōnglōng) bzw. 轰隆隆 geläufiger. Nicht verwechseln mit 轰轰烈烈 (hōnghōnglièliè) „gewaltig, mitreißend“, das kein Geräusch beschreibt.",
     "examples": [
       {
-        "chinese": "工地上轰轰地响着。",
-        "pinyin": "Gōngdì shàng hōnghōng de xiǎngzhe.",
-        "german": "Auf der Baustelle dröhnte es dumpf."
+        "chinese": "工地上的机器轰轰地响着。",
+        "pinyin": "Gōngdì shang de jīqì hōnghōng de xiǎngzhe.",
+        "german": "Die Maschinen auf der Baustelle dröhnten."
+      },
+      {
+        "chinese": "飞机轰轰地从头顶飞过。",
+        "pinyin": "Fēijī hōnghōng de cóng tóudǐng fēiguò.",
+        "german": "Das Flugzeug donnerte über unsere Köpfe hinweg."
+      },
+      {
+        "chinese": "摩托车轰轰地开走了。",
+        "pinyin": "Mótuōchē hōnghōng de kāizǒu le.",
+        "german": "Das Motorrad röhrte davon."
       }
     ],
     "related": [
       "o:轰",
-      "o:轰隆"
+      "o:轰隆",
+      "o:轰隆隆",
+      "o:轰轰隆隆"
     ],
     "notes": "",
     "legacyIds": [
       "轰轰"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "轟轟 轰轰 [hong1 hong1]"
     }
@@ -3012,20 +3987,31 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "knackend, krachend",
-    "usage": "Gibt wiederholtes Knacken oder Krachen wieder",
-    "explanation": "咔咔 ahmt wiederholtes hartes Knacken nach, z.B. beim Zerbrechen von Eis oder Ästen.",
+    "meaning": "knack, knack; klick, klick (wiederholtes Knacken)",
+    "usage": "Gibt wiederholtes hartes Knacken oder Klicken wieder – knackendes Eis oder Gelenke, Kamera- und Handyauslöser, Kauen von etwas Hartem.",
+    "explanation": "咔咔 (kākā) beschreibt mehrere kurze, harte Knack- oder Klicklaute hintereinander: Eis, das unter den Füßen knackt, Knochen und Gelenke, Kameraauslöser beim Fotografieren in Serie. Typisch sind 咔咔地 + Verb (咔咔地拍照) und 咔咔直响 „knackt und knackt“. Für einen einzelnen Knack oder das Klicken einer Kamera steht 咔嚓 (kāchā), für das Einrasten eines Schalters 咔嗒 (kādā).",
     "examples": [
       {
-        "chinese": "冰面咔咔地裂开了。",
-        "pinyin": "Bīngmiàn kākā de liè kāi le.",
-        "german": "Die Eisfläche brach knackend auf."
+        "chinese": "他活动了一下脖子，骨头咔咔直响。",
+        "pinyin": "Tā huódòng le yíxià bózi, gǔtou kākā zhí xiǎng.",
+        "german": "Er bewegte den Nacken, und die Knochen knackten."
+      },
+      {
+        "chinese": "脚下的冰咔咔地响，我们赶紧回到了岸上。",
+        "pinyin": "Jiǎo xià de bīng kākā de xiǎng, wǒmen gǎnjǐn huídào le àn shang.",
+        "german": "Das Eis unter unseren Füßen knackte, und wir gingen schnell zurück ans Ufer."
+      },
+      {
+        "chinese": "大家拿出手机，对着熊猫咔咔地拍照。",
+        "pinyin": "Dàjiā náchū shǒujī, duìzhe xióngmāo kākā de pāizhào.",
+        "german": "Alle zückten ihr Handy und knipsten den Panda – klick, klick."
       }
     ],
     "related": [
-      "o:咔嚓"
+      "o:咔嚓",
+      "o:咔嗒"
     ],
-    "notes": "Ähnlich wie 咔嚓, aber für wiederholte Geräusche.",
+    "notes": "Daneben auch 喀喀 (kākā) geschrieben; im heutigen Alltag ist 咔咔 die häufigere Schreibung, z. B. 咔咔地拍照 „drauflos knipsen“. 咔 wird im Lautwort kā gelesen, in Lehnwörtern wie 咔叽 (kǎjī) „Khaki“ kǎ.",
     "variants": [
       "喀喀"
     ],
@@ -3034,7 +4020,7 @@ window.ONOMATOPOEIA_DATA = [
       "喀喀",
       "咔咔咔"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -3049,25 +4035,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "metallisches Hämmern, Schlagen",
-    "usage": "Gibt lautes, wiederholtes metallisches Schlagen wieder",
-    "explanation": "哐哐 beschreibt lautes, dumpf-metallisches Schlagen – schwerer als 叮叮.",
+    "meaning": "klong, klong; scheppernd hämmern",
+    "usage": "Gibt laute, wiederholte und oft metallisch scheppernde Schläge wieder – Hämmern auf Metall, klappernde Fenster im Wind, Hacken auf einem Brett.",
+    "explanation": "哐哐 (kuāngkuāng) ahmt wiederholte laute Schläge mit scheppernd-metallischem Klang nach: Hämmern auf Blech oder Eisen, Fenster und Türen, die im Wind schlagen, das Hacken mit einem schweren Küchenbeil. Typisch sind 哐哐地 + Verb und 哐哐直响 „scheppert und scheppert“, oft als Komplement nach 得 (吹得哐哐直响). Ein einzelner Schlag ist 哐的一声, Scheppern beim Fallen 哐当 (kuāngdāng). Fast gleichbedeutend ist 咣咣 (guāngguāng).",
     "examples": [
       {
-        "chinese": "工人哐哐地砸着铁板。",
-        "pinyin": "Gōngrén kuāngkuāng de záz he tiěbǎn.",
-        "german": "Die Arbeiter hämmerten laut auf die Eisenplatte."
+        "chinese": "风把窗户吹得哐哐直响。",
+        "pinyin": "Fēng bǎ chuānghu chuī de kuāngkuāng zhí xiǎng.",
+        "german": "Der Wind ließ die Fenster laut klappern."
+      },
+      {
+        "chinese": "妈妈在厨房里哐哐地剁肉。",
+        "pinyin": "Māma zài chúfáng lǐ kuāngkuāng de duò ròu.",
+        "german": "Mama hackt in der Küche lautstark Fleisch."
+      },
+      {
+        "chinese": "隔壁有人哐哐地敲铁管。",
+        "pinyin": "Gébì yǒu rén kuāngkuāng de qiāo tiěguǎn.",
+        "german": "Nebenan hämmert jemand scheppernd auf ein Eisenrohr."
       }
     ],
     "related": [
       "o:哐当",
+      "o:哐啷",
+      "o:咣咣",
       "o:咚咚"
     ],
-    "notes": "",
+    "notes": "Umgangssprachlich und in Erzähltexten; auch dreifach 哐哐哐.",
     "legacyIds": [
       "哐哐"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -3082,13 +4080,29 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "rumpeln (Räder); knurren (Magen)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
+    "meaning": "rumpeln (Räder); knurren (leerer Magen)",
+    "usage": "Gibt das Rumpeln rollender Räder wieder, etwa eines Karrens oder einer Kutsche; vor allem aber in 饥肠辘辘 (jīcháng lùlù) für den vor Hunger knurrenden Magen.",
+    "explanation": "辘辘 (lùlù) ahmt ein tiefes, rollendes Rumpeln nach. Ursprünglich beschreibt es Wagenräder (vgl. 辘轳 (lùlu) „Ziehbrunnenwinde“): 车声辘辘 „Räder rumpeln“. Heute begegnet es am häufigsten in der festen Wendung 饥肠辘辘 (jīcháng lùlù) „vor Hunger knurrt der Magen“. Das Wort ist schriftsprachlich und gehoben; im Alltag sagt man für den knurrenden Magen eher 肚子咕咕叫 (dùzi gūgū jiào).",
+    "examples": [
+      {
+        "chinese": "我一天没吃饭，饥肠辘辘。",
+        "pinyin": "Wǒ yì tiān méi chī fàn, jīcháng lùlù.",
+        "german": "Ich habe den ganzen Tag nichts gegessen und mir knurrt der Magen."
+      },
+      {
+        "chinese": "马车辘辘地驶过石板路。",
+        "pinyin": "Mǎchē lùlù de shǐguò shíbǎnlù.",
+        "german": "Die Kutsche rumpelte über das Pflaster."
+      },
+      {
+        "chinese": "远处传来辘辘的车声。",
+        "pinyin": "Yuǎnchù chuánlái lùlù de chē shēng.",
+        "german": "Aus der Ferne hörte man Räder rumpeln."
+      }
+    ],
     "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "notes": "Schriftsprachlich; im Gespräch fast nur in 饥肠辘辘 (jīcháng lùlù).",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "轆轆 辘辘 [lu4 lu4]"
@@ -3104,25 +4118,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "klatschen, patschen (wiederholt)",
-    "usage": "Gibt wiederholtes Klatschen oder Schlagen wieder",
-    "explanation": "啪啪 ist die Verdoppelung von 啪. Beschreibt wiederholtes Klatschen, z.B. Applaus oder Regentropfen.",
+    "meaning": "klatsch, klatsch; patsch, patsch (wiederholte Schläge)",
+    "usage": "Gibt mehrere kurze, scharfe Klatsch- oder Schlaggeräusche wieder – Applaus, Händeklatschen, Regen gegen die Scheibe, Schläge mit der flachen Hand.",
+    "explanation": "啪啪 (pāpā) ist die Verdopplung von 啪 (pā) und beschreibt mehrere kurze, helle Schläge hintereinander: klatschende Hände, Regentropfen an einem Fenster, Schläge auf den Tisch, knallende Feuerwerkskörper. Typisch sind 啪啪地 + Verb (啪啪地鼓掌) und 啪啪 + Verb direkt (啪啪拍了两下). Auch dreifach 啪啪啪 (pāpāpā) ist üblich. Für Knistern und Prasseln stehen 噼啪 (pīpā) und 噼里啪啦 (pīlipālā).",
     "examples": [
       {
         "chinese": "雨点啪啪地打在窗户上。",
-        "pinyin": "Yǔdiǎn pāpā de dǎ zài chuānghù shàng.",
+        "pinyin": "Yǔdiǎn pāpā de dǎ zài chuānghu shang.",
         "german": "Die Regentropfen klatschten gegen das Fenster."
+      },
+      {
+        "chinese": "演出结束，观众啪啪地鼓起掌来。",
+        "pinyin": "Yǎnchū jiéshù, guānzhòng pāpā de gǔ qǐ zhǎng lái.",
+        "german": "Nach der Vorstellung begann das Publikum laut zu klatschen."
+      },
+      {
+        "chinese": "她啪啪拍了两下手，让大家安静。",
+        "pinyin": "Tā pāpā pāi le liǎng xià shǒu, ràng dàjiā ānjìng.",
+        "german": "Sie klatschte zweimal in die Hände, damit alle still wurden."
       }
     ],
     "related": [
       "o:啪",
+      "o:噼啪",
+      "o:噼噼啪啪",
       "o:噼里啪啦"
     ],
-    "notes": "",
+    "notes": "Internet-Slang: 啪啪打脸 (pāpā dǎliǎn) „sich blamieren, weil man widerlegt wird“. Vorsicht: 啪啪啪 (pāpāpā) ist im Internet auch eine anzügliche Umschreibung für Sex.",
     "legacyIds": [
       "啪啪"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -3137,25 +4163,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "bumm bumm (schweres Aufschlagen)",
-    "usage": "Gibt schwere, wuchtige Aufschlaggeräusche wieder",
-    "explanation": "嘭嘭 beschreibt schwere, wuchtige Schläge – stärker und dumpfer als 咚咚.",
+    "meaning": "bum, bum; wumm (wiederholte schwere Schläge)",
+    "usage": "Gibt wiederholte dumpfe, wuchtige Schläge oder Knalle wieder – eine Faust auf dem Tisch, ein aufprallender Ball, Feuerwerk.",
+    "explanation": "嘭嘭 (pēngpēng) ahmt mehrere dumpfe, kräftige Schläge oder Knalle nach: Fäuste auf einem Tisch oder an einer Tür, ein Ball, der auf den Boden prallt, knallendes Feuerwerk. Typisch sind 嘭嘭地 + Verb (嘭嘭地捶) und 嘭嘭的 + Nomen (嘭嘭的响声). 嘭 (pēng) wird weitgehend wie 砰 (pēng) gebraucht; 嘭嘭 und 砰砰 (pēngpēng) sind daher oft austauschbar. Im Vergleich zu 咚咚 (dōngdōng) klingt es härter und knalliger.",
     "examples": [
       {
-        "chinese": "他嘭嘭地捶桌子。",
-        "pinyin": "Tā pēngpēng de chuí zhuōzi.",
-        "german": "Er schlug wuchtig auf den Tisch."
+        "chinese": "他气得嘭嘭地捶着桌子。",
+        "pinyin": "Tā qì de pēngpēng de chuízhe zhuōzi.",
+        "german": "Er war so wütend, dass er mit der Faust auf den Tisch hämmerte."
+      },
+      {
+        "chinese": "篮球在地上嘭嘭地弹着。",
+        "pinyin": "Lánqiú zài dì shang pēngpēng de tánzhe.",
+        "german": "Der Basketball prallte bum, bum auf den Boden."
+      },
+      {
+        "chinese": "外面嘭嘭地放起了烟花。",
+        "pinyin": "Wàimian pēngpēng de fàng qǐ le yānhuā.",
+        "german": "Draußen knallte das Feuerwerk los."
       }
     ],
     "related": [
+      "o:砰砰",
       "o:咚咚",
-      "o:砰砰"
+      "o:咣咣"
     ],
-    "notes": "",
+    "notes": "Häufig gleichbedeutend 砰砰 (pēngpēng) geschrieben.",
     "legacyIds": [
       "嘭嘭"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -3170,25 +4207,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "klopfen, pochen (Herz, Tür)",
-    "usage": "Gibt wiederholtes Klopfen oder Pochen wieder",
-    "explanation": "砰砰 ist die Verdoppelung von 砰. Beschreibt wiederholtes Klopfen, besonders ein pochendes Herz.",
+    "meaning": "peng, peng; poch, poch (Schüsse, Klopfen, Herz)",
+    "usage": "Gibt wiederholte laute Knalle oder Schläge wieder – Schüsse, heftiges Klopfen an der Tür – und vor allem das vor Aufregung pochende Herz.",
+    "explanation": "砰砰 (pēngpēng) ist die Verdopplung von 砰 (pēng) und beschreibt mehrere laute Knalle oder Schläge hintereinander: Schüsse, Hämmern an der Tür, knallende Türen. Sehr häufig ist die Wendung 心砰砰直跳 „das Herz klopft wie wild“ – vor Aufregung, Angst oder Verliebtheit. Typisch sind außerdem 砰砰地 + Verb (砰砰地敲门) und 砰砰的 + Nomen (砰砰的枪声). Für das Herz gilt 怦怦 (pēngpēng) als Standardschreibung, 砰砰 ist aber sehr verbreitet.",
     "examples": [
       {
-        "chinese": "心砰砰直跳。",
-        "pinyin": "Xīn pēngpēng zhí tiào.",
-        "german": "Das Herz pochte heftig."
+        "chinese": "一想到明天的面试，我的心就砰砰直跳。",
+        "pinyin": "Yì xiǎngdào míngtiān de miànshì, wǒ de xīn jiù pēngpēng zhí tiào.",
+        "german": "Wenn ich an das Vorstellungsgespräch morgen denke, klopft mir das Herz bis zum Hals."
+      },
+      {
+        "chinese": "远处传来砰砰的枪声。",
+        "pinyin": "Yuǎnchù chuánlái pēngpēng de qiāngshēng.",
+        "german": "Aus der Ferne waren Schüsse zu hören: peng, peng."
+      },
+      {
+        "chinese": "他砰砰地敲着门喊：“快开门！”",
+        "pinyin": "Tā pēngpēng de qiāozhe mén hǎn: “Kuài kāi mén!”",
+        "german": "Er hämmerte gegen die Tür und rief: „Mach schnell auf!“"
       }
     ],
     "related": [
-      "o:咚咚",
-      "o:砰"
+      "o:砰",
+      "o:嘭嘭",
+      "o:咚咚"
     ],
-    "notes": "",
+    "notes": "Dreifach 砰砰砰 (pēngpēngpēng) für schnelle Schussfolgen oder heftiges Klopfen.",
     "legacyIds": [
       "砰砰"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "砰砰 砰砰 [peng1 peng1]"
     }
@@ -3203,24 +4251,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "dampfend kochen, Dampf entweicht",
-    "usage": "Gibt das Geräusch von entweichendem Dampf oder kochendem Wasser wieder",
-    "explanation": "噗噗 ahmt das wiederholte Entweichen von Dampf nach, z.B. aus einem Dampfkochtopf oder Wasserkessel.",
+    "meaning": "puff, puff; pff (Dampf, Rauch, Luftstöße)",
+    "usage": "Gibt wiederholte kurze, dumpfe Luftstöße wieder – entweichenden Dampf, einen alten Motor, Pusten ins Feuer.",
+    "explanation": "噗噗 (pūpū) ist die Verdopplung von 噗 (pū) „pff, puff“ und beschreibt mehrere kurze, gedämpfte Stöße von Luft, Dampf oder Rauch: ein Kessel, aus dem Dampf entweicht, ein knatternder Motor, der Rauch ausstößt, jemand, der ins Feuer pustet. Typisch sind 噗噗地 + Verb, vor allem mit 冒 „ausstoßen, aufsteigen“ (噗噗地冒着热气) und 吹 „pusten“. Ein einzelner Stoß ist 噗的一声; 噗嗤 (pūchī) ist das Losprusten beim Lachen.",
     "examples": [
       {
-        "chinese": "水壶噗噗地冒着蒸汽。",
-        "pinyin": "Shuǐhú pūpū de màozhe zhēngqì.",
-        "german": "Der Wasserkessel stoß dampfend Dampf aus."
+        "chinese": "水壶噗噗地冒着热气。",
+        "pinyin": "Shuǐhú pūpū de màozhe rèqì.",
+        "german": "Aus dem Wasserkessel steigt puffend Dampf auf."
+      },
+      {
+        "chinese": "那辆旧摩托车噗噗地冒着黑烟。",
+        "pinyin": "Nà liàng jiù mótuōchē pūpū de màozhe hēiyān.",
+        "german": "Das alte Motorrad stieß knatternd schwarzen Rauch aus."
+      },
+      {
+        "chinese": "他蹲在炉子前，噗噗地吹着火。",
+        "pinyin": "Tā dūn zài lúzi qián, pūpū de chuīzhe huǒ.",
+        "german": "Er hockte vor dem Ofen und pustete ins Feuer: puh, puh."
       }
     ],
     "related": [
-      "o:噗"
+      "o:噗",
+      "o:噗嗤",
+      "o:突突"
     ],
-    "notes": "",
+    "notes": "Auch dreifach 噗噗噗, etwa für einen stotternden Motor.",
     "legacyIds": [
       "噗噗"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -3235,24 +4295,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "tuckern, knattern (Motor)",
-    "usage": "Gibt das Tuckern eines Motors oder einer Maschine wieder",
-    "explanation": "突突 ahmt das rhythmische Tuckern eines kleinen Motors nach, z.B. ein Traktor oder ein Motorboot.",
+    "meaning": "tuck, tuck; poch, poch (Motor, Herzschlag)",
+    "usage": "Gibt das rhythmische Tuckern eines kleinen Motors wieder – Traktor, Boot, Moped – und übertragen das heftig pochende Herz.",
+    "explanation": "突突 (tūtū) ahmt ein gleichmäßiges, stoßweises Geräusch nach: das Tuckern kleiner Motoren wie bei Traktor, Motorboot oder Dreirad-Taxi, auch das Rattern eines Maschinengewehrs (突突突). Übertragen beschreibt es das heftig klopfende Herz, z. B. vor Schreck: 心突突直跳 oder 心突突地跳. Typisch sind 突突地 + Verb (突突地开过) und 突突的 + Nomen (突突的马达声).",
     "examples": [
       {
         "chinese": "拖拉机突突地开过田野。",
-        "pinyin": "Tuōlājī tūtū de kāi guò tiányě.",
+        "pinyin": "Tuōlājī tūtū de kāiguò tiányě.",
         "german": "Der Traktor tuckerte übers Feld."
+      },
+      {
+        "chinese": "我吓得心突突直跳。",
+        "pinyin": "Wǒ xià de xīn tūtū zhí tiào.",
+        "german": "Ich erschrak so, dass mir das Herz raste."
+      },
+      {
+        "chinese": "小船突突地开出了港口。",
+        "pinyin": "Xiǎo chuán tūtū de kāichū le gǎngkǒu.",
+        "german": "Das kleine Boot tuckerte aus dem Hafen."
       }
     ],
     "related": [
-      "o:隆隆"
+      "o:隆隆",
+      "o:嘟嘟",
+      "o:噗噗"
     ],
-    "notes": "",
+    "notes": "Die motorisierte Rikscha (Tuk-Tuk) heißt umgangssprachlich auch 突突车 (tūtūchē).",
     "legacyIds": [
       "突突"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "突突 突突 [tu1 tu1]"
     }
@@ -3267,22 +4339,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "knirschen, quietschen (Räder)",
-    "usage": "Gibt das Knirschen oder Quietschen von Rädern oder Maschinen wieder",
-    "explanation": "轧轧 beschreibt das Knirschen von Rädern auf der Straße oder das Quietschen einer alten Maschine.",
+    "meaning": "rattern, knarren (Maschinen, Webstuhl)",
+    "usage": "Gibt das gleichmäßige Rattern oder Knarren von Maschinen wieder – ein Webstuhl, ein Wasserrad, alte Maschinen; vor allem in geschriebenen Texten.",
+    "explanation": "轧轧 (yàyà) ahmt das wiederholte, gleichmäßige Rattern und Knarren mechanischer Teile nach, etwa eines Webstuhls, eines Wasserrads oder einer Maschine. Es ist schriftsprachlich und begegnet vor allem in Literatur und Beschreibungen; im Alltag greift man eher zu Lautwörtern wie 咔咔 (kākā) oder 哐哐 (kuāngkuāng). Typisch sind 轧轧地 + Verb (轧轧地响着, 轧轧地转着) und 轧轧的 + Nomen (轧轧的机器声). Das Zeichen hat weitere Lesungen: zhá in 轧钢 (zhágāng) „Stahl walzen“, gá im regionalen (Shanghai) 轧朋友 (gá péngyou) „Freundschaft schließen“.",
     "examples": [
       {
         "chinese": "织布机轧轧地响着。",
         "pinyin": "Zhībùjī yàyà de xiǎngzhe.",
         "german": "Der Webstuhl ratterte."
+      },
+      {
+        "chinese": "水车轧轧地转着。",
+        "pinyin": "Shuǐchē yàyà de zhuànzhe.",
+        "german": "Das Wasserrad drehte sich knarrend."
+      },
+      {
+        "chinese": "车间里传来轧轧的机器声。",
+        "pinyin": "Chējiān lǐ chuánlái yàyà de jīqì shēng.",
+        "german": "Aus der Werkhalle kam das Rattern der Maschinen."
       }
     ],
-    "related": [],
-    "notes": "Berühmt aus dem Mulan-Gedicht: 唧唧复唧唧，木兰当户织.",
+    "related": [
+      "o:辘辘",
+      "o:咔咔"
+    ],
+    "notes": "Schriftsprachlich. Lesung im Lautwort: yà (nicht zhá oder gá).",
     "legacyIds": [
       "轧轧"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "軋軋 轧轧 [ya4 ya4]"
     }
@@ -3297,24 +4382,34 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "klirrend, klingend (Metall)",
-    "usage": "Gibt helles metallisches Klingen wieder",
-    "explanation": "铮铮 beschreibt den klaren Klang von Metall. Wird auch in 铁骨铮铮 (eisernen Willen haben) übertragen verwendet.",
+    "meaning": "hell klirrend, klingend (Metall, Saiten); übertragen: unbeugsam",
+    "usage": "Beschreibt den hellen, harten Klang von Metall oder Saiten; übertragen einen festen, unbeugsamen Charakter oder klare, entschlossene Worte.",
+    "explanation": "铮铮 (zhēngzhēng) beschreibt den klaren, harten Klang von aufeinanderschlagendem Metall oder angeschlagenen Saiten: 琴声铮铮, 铮铮作响. Heute begegnet es aber am häufigsten übertragen: 铁骨铮铮 (tiěgǔ zhēngzhēng) bzw. 铮铮铁骨 (zhēngzhēng tiěgǔ) „eisernes Rückgrat“ beschreibt einen standhaften, unbeugsamen Menschen, 铮铮誓言 (zhēngzhēng shìyán) einen feierlichen, festen Schwur. Das Wort ist gehoben und schriftsprachlich und steht meist als Attribut oder in 铮铮作响 (zuò xiǎng).",
     "examples": [
       {
-        "chinese": "铮铮铁骨的汉子。",
-        "pinyin": "Zhēngzhēng tiěgǔ de hànzi.",
-        "german": "Ein Mann mit eisernem Willen."
+        "chinese": "他是一个铁骨铮铮的汉子。",
+        "pinyin": "Tā shì yí ge tiěgǔ zhēngzhēng de hànzi.",
+        "german": "Er ist ein Mann mit eisernem Rückgrat."
+      },
+      {
+        "chinese": "琴弦铮铮作响。",
+        "pinyin": "Qínxián zhēngzhēng zuò xiǎng.",
+        "german": "Die Saiten erklangen hell und klar."
+      },
+      {
+        "chinese": "两把剑碰在一起，发出铮铮的声音。",
+        "pinyin": "Liǎng bǎ jiàn pèng zài yìqǐ, fāchū zhēngzhēng de shēngyīn.",
+        "german": "Die beiden Schwerter prallten klirrend aufeinander."
       }
     ],
     "related": [
       "o:叮当"
     ],
-    "notes": "Oft in übertragener Bedeutung für Stärke und Entschlossenheit.",
+    "notes": "Gehoben; besonders in Reden, Nachrufen und Wuxia-Romanen.",
     "legacyIds": [
       "铮铮"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -3329,20 +4424,30 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AA",
-    "meaning": "brutzeln, zischen (Fett in der Pfanne)",
-    "usage": "Gibt das Brutzeln von Fett oder Öl in einer Pfanne wieder",
-    "explanation": "嗞嗞 ahmt das Geräusch von etwas nach, das in heißem Öl brutzelt – intensiver und lauter als 呲呲.",
+    "meaning": "zisch, zisch; brutzeln (heißes Fett, Funken)",
+    "usage": "Gibt anhaltendes Zischen und Brutzeln wieder – Fleisch in heißem Öl, Grillgut über Kohle, sprühende Funken eines Kabels.",
+    "explanation": "嗞嗞 (zīzī) ahmt ein feines, anhaltendes Zischen nach: Fett, das in der Pfanne brutzelt, Fleisch auf dem Grill, ein Kabel, das Funken sprüht, eine brennende Zündschnur. Typisch sind 嗞嗞地 + Verb (嗞嗞地响), 嗞嗞作响 (zuò xiǎng) „zischend klingen“ und 嗞嗞的 + Nomen (嗞嗞的声音). Für Schlangen und Luft, die aus einem Reifen entweicht, ist 嘶嘶 (sīsī) üblicher.",
     "examples": [
       {
-        "chinese": "油锅里嗞嗞地响着。",
-        "pinyin": "Yóu guō lǐ zīzī de xiǎngzhe.",
-        "german": "In der Pfanne brutzelte das Öl."
+        "chinese": "肉一下锅，就嗞嗞地响起来。",
+        "pinyin": "Ròu yí xià guō, jiù zīzī de xiǎng qǐlai.",
+        "german": "Kaum ist das Fleisch in der Pfanne, fängt es an zu brutzeln."
+      },
+      {
+        "chinese": "烤肉在炭火上嗞嗞作响。",
+        "pinyin": "Kǎoròu zài tànhuǒ shang zīzī zuò xiǎng.",
+        "german": "Das Grillfleisch brutzelte über der Holzkohle."
+      },
+      {
+        "chinese": "电线嗞嗞地冒着火花。",
+        "pinyin": "Diànxiàn zīzī de màozhe huǒhuā.",
+        "german": "Das Kabel sprühte zischend Funken."
       }
     ],
     "related": [
       "o:嘶嘶"
     ],
-    "notes": "",
+    "notes": "Andere Schreibungen: 呲呲 und vor allem 滋滋 (zīzī), z. B. 滋滋作响. Nicht verwechseln mit 吱吱 (zhīzhī) „quieken, piepsen“.",
     "variants": [
       "呲呲"
     ],
@@ -3350,7 +4455,7 @@ window.ONOMATOPOEIA_DATA = [
       "嗞嗞",
       "呲呲"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -3365,22 +4470,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "schmatzen, klicken",
-    "usage": "Gibt Schmatzen oder das Klicken eines Schalters wieder",
-    "explanation": "吧嗒 ahmt ein feuchtes Schmatzgeräusch oder ein klickendes Geräusch nach.",
+    "meaning": "klick; tropf; schmatzen, paffen (Lippen, Pfeife)",
+    "usage": "Gibt kurze, leicht feuchte oder klickende Laute wieder – ein einrastendes Schloss, fallende Tränen – und als Verb das Schmatzen mit den Lippen oder Paffen an einer Pfeife.",
+    "explanation": "吧嗒 (bādā, oft auch bāda) ist zunächst ein Lautwort für kurze, leise Klick- und Tropfgeräusche: 吧嗒一声 „klick“ beim Einrasten eines Schlosses, 吧嗒吧嗒 für fallende Tropfen und Tränen (眼泪吧嗒吧嗒地往下掉). Daneben ist es ein umgangssprachliches Verb: 吧嗒嘴 (bādā zuǐ) „mit den Lippen schmatzen“ und 吧嗒烟袋 „an der Pfeife paffen“. Die ABAB-Form 吧嗒吧嗒 ist sehr häufig.",
     "examples": [
       {
-        "chinese": "他吧嗒吧嗒地吃着。",
-        "pinyin": "Tā bādā bādā de chīzhe.",
-        "german": "Er isst schmatzend."
+        "chinese": "吧嗒一声，门锁上了。",
+        "pinyin": "Bādā yì shēng, mén suǒshàng le.",
+        "german": "Klick – die Tür war abgeschlossen."
+      },
+      {
+        "chinese": "孩子的眼泪吧嗒吧嗒地往下掉。",
+        "pinyin": "Háizi de yǎnlèi bādā bādā de wǎng xià diào.",
+        "german": "Dem Kind kullerten die Tränen herunter."
+      },
+      {
+        "chinese": "爷爷坐在门口，吧嗒吧嗒地抽着烟袋。",
+        "pinyin": "Yéye zuò zài ménkǒu, bādā bādā de chōuzhe yāndài.",
+        "german": "Opa saß vor der Tür und paffte an seiner Pfeife."
       }
     ],
-    "related": [],
-    "notes": "",
+    "related": [
+      "o:嗒",
+      "o:咔嗒",
+      "o:吧唧",
+      "o:嗒嗒"
+    ],
+    "notes": "Auch 吧哒 oder 叭嗒 geschrieben. Für lautes Schmatzen beim Essen ist 吧唧 (bājī) gebräuchlicher.",
     "legacyIds": [
       "吧嗒"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "吧嗒 吧嗒 [ba1 da5]"
     }
@@ -3395,24 +4515,38 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "kling-klang, ding-dong",
-    "usage": "Gibt helles Klingeln oder Klimpern wieder (Glocke, Metall)",
-    "explanation": "叮当 ahmt helles metallisches Klingen nach – Glocken, Schlüsselbund oder Münzen.",
+    "meaning": "kling-klang; klimper (Glöckchen, Metall, Geschirr)",
+    "usage": "Gibt helles, wechselndes Klingen und Klimpern wieder – Glöckchen, Schlüssel, Münzen, klapperndes Geschirr.",
+    "explanation": "叮当 (dīngdāng) ahmt helle, wechselnde Klänge von Metall, Glas oder Porzellan nach: Glöckchen, ein Schlüsselbund, Münzen, Töpfe und Geschirr in der Küche. Typisch sind 叮当作响 (zuò xiǎng) „klimpern, klirren“, 叮当响 (dīngdāng xiǎng) und 叮当一响. Bekannt sind 穷得叮当响 (qióng de dīngdāng xiǎng) „arm wie eine Kirchenmaus“ und der chinesische Titel von „Jingle Bells“, 铃儿响叮当. Die ausgedehnte Form 叮叮当当 (dīngdīngdāngdāng) beschreibt anhaltendes Geklimper.",
     "examples": [
       {
-        "chinese": "钥匙叮当作响。",
-        "pinyin": "Yàoshi dīngdāng zuò xiǎng.",
-        "german": "Die Schlüssel klimpern ding-dong."
+        "chinese": "门上的小铃铛叮当一响，有客人进来了。",
+        "pinyin": "Mén shang de xiǎo língdang dīngdāng yì xiǎng, yǒu kèrén jìnlai le.",
+        "german": "Das Glöckchen an der Tür klingelte – Kundschaft kam herein."
+      },
+      {
+        "chinese": "他口袋里的钥匙叮当作响。",
+        "pinyin": "Tā kǒudai lǐ de yàoshi dīngdāng zuò xiǎng.",
+        "german": "Die Schlüssel in seiner Tasche klimperten."
+      },
+      {
+        "chinese": "我刚工作的时候，穷得叮当响。",
+        "pinyin": "Wǒ gāng gōngzuò de shíhou, qióng de dīngdāng xiǎng.",
+        "german": "Als ich gerade zu arbeiten angefangen hatte, war ich arm wie eine Kirchenmaus."
       }
     ],
     "related": [
-      "o:叮叮"
+      "o:叮叮",
+      "o:叮咚",
+      "o:叮铃",
+      "o:叮叮当当",
+      "o:咣当"
     ],
-    "notes": "叮当猫 (Dīngdāng Māo) ist der chinesische Name für Doraemon.",
+    "notes": "Traditionell 叮噹 geschrieben. In Hongkong heißt die Figur Doraemon 叮当 (Dīngdāng); auf dem Festland ist heute ein anderer Name üblich.",
     "legacyIds": [
       "叮当"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "叮噹 叮当 [ding1 dang1]"
     }
@@ -3427,30 +4561,38 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "pling-plong (Tropfen auf Stein, Türklingel)",
-    "usage": "Gibt ein helles Tropf- oder Klingelgeräusch wieder",
-    "explanation": "叮咚 beschreibt den hellen Klang von Tropfen, die auf Stein fallen, oder einer Türklingel.",
+    "meaning": "ding-dong; plätschern (Türklingel, Quelle)",
+    "usage": "Gibt den zweitönigen Klang einer Türklingel oder eines Signaltons wieder und, eher literarisch, das helle Plätschern von Wasser über Steine.",
+    "explanation": "叮咚 (dīngdōng) ist der klassische zweitönige Klingelton: 叮咚！门铃响了 „Ding-dong! Es klingelt“. Auch Hinweistöne von Handys und Apps werden so wiedergegeben (手机叮咚一声). In literarischer Sprache beschreibt es das helle Plätschern einer Quelle oder Tropfen auf Stein: 泉水叮咚 (quánshuǐ dīngdōng) – auch als Liedtitel bekannt. Typisch sind 叮咚一声, 叮咚地响 und die Wiederholung 叮咚叮咚.",
     "examples": [
-      {
-        "chinese": "山泉叮咚地响。",
-        "pinyin": "Shānquán dīngdōng de xiǎng.",
-        "german": "Die Bergquelle klingt hell wie ein Glöckchen."
-      },
       {
         "chinese": "叮咚！门铃响了。",
         "pinyin": "Dīngdōng! Ménlíng xiǎng le.",
-        "german": "Ding-dong! Die Türklingel läutete."
+        "german": "Ding-dong! Es hat an der Tür geklingelt."
+      },
+      {
+        "chinese": "手机叮咚一声，外卖到了。",
+        "pinyin": "Shǒujī dīngdōng yì shēng, wàimài dào le.",
+        "german": "Das Handy machte ding-dong – das bestellte Essen ist da."
+      },
+      {
+        "chinese": "山里的泉水叮咚叮咚地流着。",
+        "pinyin": "Shān lǐ de quánshuǐ dīngdōng dīngdōng de liúzhe.",
+        "german": "Die Quelle in den Bergen plätschert hell dahin."
       }
     ],
     "related": [
       "o:叮当",
+      "o:叮铃",
+      "o:叮",
+      "o:咚咚",
       "o:滴答"
     ],
     "notes": "",
     "legacyIds": [
       "叮咚"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "叮咚 叮咚 [ding1 dong1]"
     }
@@ -3465,13 +4607,34 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "klingeling (Glocke, Fahrradklingel)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "meaning": "klingeling (Glocke, Fahrradklingel, Wecker)",
+    "usage": "Gibt das helle, schnelle Klingeln einer Glocke wieder – Fahrradklingel, Schulglocke, Wecker, altes Telefon.",
+    "explanation": "叮铃 (dīnglíng) ahmt das helle, schnell schwingende Klingeln einer Glocke nach, wie bei Fahrradklingeln, Schulglocken, mechanischen Weckern und alten Telefonen. Sehr häufig ist die erweiterte Form 叮铃铃 (dīnglínglíng), vor allem für Telefon und Schulglocke, außerdem die Wiederholung 叮铃叮铃 und 叮铃一声 / 叮铃一响 „mit einem Klingeling“. Im Unterschied zu 叮当 (dīngdāng, klimperndes Metall) und 叮咚 (dīngdōng, Türgong) betont 叮铃 das Schwirren einer Glocke.",
+    "examples": [
+      {
+        "chinese": "叮铃铃，上课了。",
+        "pinyin": "Dīnglínglíng, shàngkè le.",
+        "german": "Klingeling – der Unterricht beginnt."
+      },
+      {
+        "chinese": "一辆自行车叮铃叮铃地从我身边骑了过去。",
+        "pinyin": "Yí liàng zìxíngchē dīnglíng dīnglíng de cóng wǒ shēnbiān qí le guòqu.",
+        "german": "Klingelnd fuhr ein Fahrrad an mir vorbei."
+      },
+      {
+        "chinese": "闹钟叮铃一响，他就起床了。",
+        "pinyin": "Nàozhōng dīnglíng yì xiǎng, tā jiù qǐchuáng le.",
+        "german": "Kaum klingelte der Wecker, stand er auf."
+      }
+    ],
+    "related": [
+      "o:叮当",
+      "o:叮咚",
+      "o:叮",
+      "o:叮叮"
+    ],
+    "notes": "铃 allein heißt „Glocke, Klingel“: 门铃 (ménlíng) „Türklingel“, 铃声 (língshēng) „Klingelton“.",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "叮鈴 叮铃 [ding1 ling2]"
@@ -3487,24 +4650,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "knacken, knirschen",
-    "usage": "Gibt ein kurzes Knackgeräusch wieder",
-    "explanation": "嘎巴 ahmt ein kurzes, trockenes Knackgeräusch nach, z.B. beim Zerbrechen dünner Gegenstände.",
+    "meaning": "knack (trockenes Brechen, knackende Gelenke)",
+    "usage": "Gibt ein kurzes, trockenes Knacken wieder – ein brechender Stift oder Zweig, knackende Fingergelenke.",
+    "explanation": "嘎巴 (gābā) ahmt ein kurzes, hartes Knacken nach, wenn etwas Dünnes und Trockenes bricht: ein Bleistift, ein dürrer Zweig, ein Stück Eis; auch knackende Gelenke. Typisch sind 嘎巴一声 „mit einem Knacks“ und die ABAB-Form 嘎巴嘎巴 für mehrere Knacklaute (嘎巴嘎巴直响). Für das Knacken beim Zubeißen ist 嘎嘣 (gābēng) üblicher, für einen Bruch allgemein auch 咔嚓 (kāchā). Umgangssprachlich, besonders im Norden.",
     "examples": [
       {
         "chinese": "嘎巴一声，铅笔断了。",
-        "pinyin": "Gābā yī shēng, qiānbǐ duàn le.",
+        "pinyin": "Gābā yì shēng, qiānbǐ duàn le.",
         "german": "Knack! Der Bleistift brach durch."
+      },
+      {
+        "chinese": "他掰了掰手指，关节嘎巴嘎巴直响。",
+        "pinyin": "Tā bāi le bāi shǒuzhǐ, guānjié gābā gābā zhí xiǎng.",
+        "german": "Er ließ seine Fingergelenke knacken."
+      },
+      {
+        "chinese": "脚下的干树枝嘎巴嘎巴地响。",
+        "pinyin": "Jiǎo xià de gān shùzhī gābā gābā de xiǎng.",
+        "german": "Unter den Füßen knackten die trockenen Zweige."
       }
     ],
     "related": [
-      "o:咔嚓"
+      "o:嘎嘣",
+      "o:咔嚓",
+      "o:嘎吱"
     ],
-    "notes": "",
+    "notes": "Im Nordchinesischen ist 嘎巴 auch ein Verb „ankleben, verkrusten“ (z. B. Reis, der am Topfboden festklebt).",
     "legacyIds": [
       "嘎巴"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -3519,24 +4694,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "knusprig knacken (beim Beißen)",
-    "usage": "Gibt das Knacken beim Beißen in etwas Knuspriges wieder",
-    "explanation": "嘎嘣 ahmt das Geräusch nach, wenn man in etwas Hartes und Knuspriges beißt, z.B. Kekse, Nüsse oder knusprigen Speck.",
+    "meaning": "knack, krach (beim Zubeißen); übertragen: knackig, entschieden",
+    "usage": "Gibt das Knacken beim Beißen in etwas Hartes oder Knuspriges wieder; in 嘎嘣脆 auch übertragen für eine klare, entschiedene Art zu sprechen.",
+    "explanation": "嘎嘣 (gābēng) ahmt das harte Knacken nach, wenn man in etwas Knuspriges oder Hartes beißt: Kekse, Nüsse, rohe Möhren, Eiswürfel. Typisch sind 嘎嘣一声 und die feste Verbindung 嘎嘣脆 (gābēngcuì) „schön knusprig“, die umgangssprachlich auch übertragen gebraucht wird: 说话嘎嘣脆 „knapp und entschieden reden, ohne Herumdrucksen“. Es ist umgangssprachlich und besonders im Norden verbreitet.",
     "examples": [
       {
-        "chinese": "咬一口，嘎嘣脆。",
-        "pinyin": "Yǎo yī kǒu, gābēng cuì.",
-        "german": "Man beißt rein – knusprig knackend."
+        "chinese": "这种饼干咬一口嘎嘣脆。",
+        "pinyin": "Zhè zhǒng bǐnggān yǎo yì kǒu gābēng cuì.",
+        "german": "Diese Kekse sind herrlich knusprig."
+      },
+      {
+        "chinese": "他嘎嘣一声咬碎了一块冰。",
+        "pinyin": "Tā gābēng yì shēng yǎosuì le yí kuài bīng.",
+        "german": "Knack – er zerbiss ein Stück Eis."
+      },
+      {
+        "chinese": "她回答得嘎嘣脆：“没问题！”",
+        "pinyin": "Tā huídá de gābēng cuì: “Méi wèntí!”",
+        "german": "Sie antwortete knapp und entschieden: „Kein Problem!“"
       }
     ],
     "related": [
-      "o:嘎巴"
+      "o:嘎巴",
+      "o:嘎吱"
     ],
-    "notes": "嘎嘣脆 ist ein fester Ausdruck für \"schön knusprig\".",
+    "notes": "Gesprochen oft mit Erhua: 嘎嘣儿脆 (gābēngr cuì).",
     "legacyIds": [
       "嘎嘣"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -3551,24 +4737,38 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "knarren, quietschen",
-    "usage": "Gibt das Knarren von Holz oder Türen wieder",
-    "explanation": "嘎吱 ahmt das Knarren alter Holzböden, Türen oder Möbel nach.",
+    "meaning": "knarr; knirsch (Holz, Tür, Schnee)",
+    "usage": "Gibt das Knarren von Holz und Türen oder das Knirschen von Schnee unter den Füßen wieder.",
+    "explanation": "嘎吱 (gāzhī) ahmt ein knarrendes oder knirschendes Geräusch nach, das durch Druck oder Reibung entsteht: eine alte Tür, die sich öffnet, Holzdielen, auf die man tritt, Schnee unter den Schuhen, auch Kauen von etwas Knackigem. Typisch sind 嘎吱一声 für einen einzelnen Laut und die ABAB-Form 嘎吱嘎吱 für anhaltendes Knarren (嘎吱嘎吱地响). Sehr ähnlich gebraucht werden 咯吱 (gēzhī) und in umgekehrter Reihenfolge 吱嘎 (zhīgā).",
     "examples": [
       {
-        "chinese": "老旧的门嘎吱一声打开了。",
-        "pinyin": "Lǎojiù de mén gāzhī yī shēng dǎkāi le.",
-        "german": "Die alte Tür öffnete sich knarrend."
+        "chinese": "那扇旧门嘎吱一声开了。",
+        "pinyin": "Nà shàn jiù mén gāzhī yì shēng kāi le.",
+        "german": "Die alte Tür ging knarrend auf."
+      },
+      {
+        "chinese": "走在雪地上，脚下嘎吱嘎吱地响。",
+        "pinyin": "Zǒu zài xuědì shang, jiǎo xià gāzhī gāzhī de xiǎng.",
+        "german": "Beim Gehen im Schnee knirscht es unter den Füßen."
+      },
+      {
+        "chinese": "这木地板一踩就嘎吱嘎吱响。",
+        "pinyin": "Zhè mù dìbǎn yì cǎi jiù gāzhī gāzhī xiǎng.",
+        "german": "Dieser Holzboden knarrt bei jedem Schritt."
       }
     ],
     "related": [
-      "o:吱吱"
+      "o:嘎吱嘎吱",
+      "o:咯吱",
+      "o:吱嘎",
+      "o:吱呀",
+      "o:吱吱嘎嘎"
     ],
-    "notes": "",
+    "notes": "Auch mit gāzhi (zweite Silbe neutral) zu hören.",
     "legacyIds": [
       "嘎吱"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "嘎吱 嘎吱 [ga1 zhi1]"
     }
@@ -3584,12 +4784,31 @@ window.ONOMATOPOEIA_DATA = [
     "category": "Dinge",
     "pattern": "AB",
     "meaning": "rums; (Herz) setzt einen Schlag aus",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "usage": "Gibt einen kurzen, dumpfen Ruck oder Stoß wieder – harte Schritte, ein Wagen über einer Unebenheit – und übertragen den plötzlichen Schreck.",
+    "explanation": "咯噔 (gēdēng) ahmt einen kurzen, dumpfen Stoß nach: harte Absätze auf der Treppe (咯噔咯噔), ein Wagen, der über einen Stein holpert. Sehr häufig ist die übertragene Wendung 心里咯噔一下 (xīnli gēdēng yíxià) „mir blieb fast das Herz stehen; es gab mir einen Stich“ – der plötzliche Schreck, wenn man etwas Beunruhigendes hört oder bemerkt. Typisch sind 咯噔一下 und 咯噔咯噔的 + Nomen (咯噔咯噔的脚步声).",
+    "examples": [
+      {
+        "chinese": "听到这个消息，我心里咯噔一下。",
+        "pinyin": "Tīngdào zhège xiāoxi, wǒ xīnli gēdēng yíxià.",
+        "german": "Als ich die Nachricht hörte, gab es mir einen Stich."
+      },
+      {
+        "chinese": "汽车咯噔一下，压过了一块石头。",
+        "pinyin": "Qìchē gēdēng yíxià, yāguò le yí kuài shítou.",
+        "german": "Mit einem Ruck holperte das Auto über einen Stein."
+      },
+      {
+        "chinese": "楼梯上传来咯噔咯噔的脚步声。",
+        "pinyin": "Lóutī shang chuánlái gēdēng gēdēng de jiǎobù shēng.",
+        "german": "Von der Treppe her hörte man klappernde Schritte."
+      }
+    ],
+    "related": [
+      "o:噔噔",
+      "o:咯吱"
+    ],
+    "notes": "Auch 格登 (gēdēng) oder 咯登 (gēdēng) geschrieben. 咯 wird hier gē gelesen.",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "咯噔 咯噔 [ge1 deng1]"
@@ -3605,24 +4824,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "knirschen, knacken (unter Last)",
-    "usage": "Gibt das Knirschen unter Druck oder Belastung wieder",
-    "explanation": "咯吱 beschreibt das Knirschen, wenn etwas unter Last nachgibt – z.B. ein Stuhl, ein Ast oder ein Bett.",
+    "meaning": "knarr; ächz (unter Last)",
+    "usage": "Gibt das Knarren und Ächzen wieder, wenn etwas unter Last nachgibt – ein alter Stuhl, eine Tragestange, ein Bett; auch knackendes Kauen.",
+    "explanation": "咯吱 (gēzhī) ahmt ein knarrendes, ächzendes Geräusch nach, besonders wenn Holz oder Bambus unter Gewicht nachgibt: ein alter Stuhl, ein Bett, eine voll beladene Tragestange, 扁担 (biǎndan). Auch das Knirschen von Schnee und das Kauen von Hartem wird so wiedergegeben. Typisch sind die ABAB-Form 咯吱咯吱 und Komplemente mit 得 (压得咯吱咯吱响). 咯吱 und 嘎吱 (gāzhī) werden weitgehend gleich gebraucht.",
     "examples": [
       {
-        "chinese": "椅子咯吱一声响了。",
-        "pinyin": "Yǐzi gēzhī yī shēng xiǎng le.",
-        "german": "Der Stuhl knirschte einmal."
+        "chinese": "他一坐下，旧椅子就咯吱咯吱地响。",
+        "pinyin": "Tā yí zuòxia, jiù yǐzi jiù gēzhī gēzhī de xiǎng.",
+        "german": "Kaum setzte er sich, ächzte der alte Stuhl."
+      },
+      {
+        "chinese": "扁担被压得咯吱咯吱响。",
+        "pinyin": "Biǎndan bèi yā de gēzhī gēzhī xiǎng.",
+        "german": "Die Tragestange ächzte unter der Last."
+      },
+      {
+        "chinese": "小狗把骨头咬得咯吱咯吱响。",
+        "pinyin": "Xiǎo gǒu bǎ gǔtou yǎo de gēzhī gēzhī xiǎng.",
+        "german": "Der kleine Hund nagte knackend an dem Knochen."
       }
     ],
     "related": [
-      "o:嘎吱"
+      "o:嘎吱",
+      "o:吱呀",
+      "o:嘎吱嘎吱",
+      "o:咯噔"
     ],
-    "notes": "Ähnlich wie 嘎吱, aber eher für Druck als Reibung.",
+    "notes": "Nicht verwechseln mit 胳肢 (gézhi) „kitzeln“, das ähnlich klingt.",
     "legacyIds": [
       "咯吱"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "咯吱 咯吱 [ge1 zhi1]"
     }
@@ -3637,25 +4869,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "scheppern, krachen (schwer, metallisch)",
-    "usage": "Gibt ein schweres metallisches Scheppern wieder",
-    "explanation": "咣当 beschreibt ein lautes, schweres Scheppern oder Krachen – schwerer und dumpfer als 哐当.",
+    "meaning": "schepper, krach (schwerer Fall, zuschlagende Tür)",
+    "usage": "Gibt lautes, schweres Scheppern wieder – ein umfallendes Fahrrad, eine zuschlagende Tür, ratternde Eisenbahnwagen.",
+    "explanation": "咣当 (guāngdāng) ahmt ein lautes, schweres und nachhallendes Scheppern nach, wenn etwas Schweres, oft aus Metall, fällt oder anschlägt: ein Fahrrad, das umkippt, ein Eimer, eine zuschlagende Tür. Typisch ist 咣当一声; die ABAB-Form 咣当咣当 beschreibt anhaltendes Rattern, etwa eines Zuges oder eines Karrens. Praktisch gleichbedeutend ist 哐当 (kuāngdāng); 咣 (guāng) allein ist ein einzelner Schlag ohne das nachklingende „-dang“.",
     "examples": [
       {
         "chinese": "自行车咣当一声倒在了地上。",
-        "pinyin": "Zìxíngchē guāngdāng yī shēng dǎo zài le dì shàng.",
-        "german": "Das Fahrrad fiel scheppernd zu Boden."
+        "pinyin": "Zìxíngchē guāngdāng yì shēng dǎo zài le dì shang.",
+        "german": "Das Fahrrad fiel scheppernd um."
+      },
+      {
+        "chinese": "火车咣当咣当地往前开。",
+        "pinyin": "Huǒchē guāngdāng guāngdāng de wǎng qián kāi.",
+        "german": "Der Zug ratterte voran."
+      },
+      {
+        "chinese": "他把门咣当一声关上了。",
+        "pinyin": "Tā bǎ mén guāngdāng yì shēng guānshàng le.",
+        "german": "Er schlug die Tür krachend zu."
       }
     ],
     "related": [
       "o:哐当",
-      "o:咣"
+      "o:咣",
+      "o:咣咣",
+      "o:叮当"
     ],
-    "notes": "",
+    "notes": "Umgangssprachlich; die zweite Silbe klingt oft neutral (guāngdang).",
     "legacyIds": [
       "咣当"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "咣當 咣当 [guang1 dang1]"
     }
