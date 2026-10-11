@@ -1,0 +1,820 @@
+{
+ "_doc": "Proposed new lessons for scripts/lessons/link.cjs. group: HSK1–4 (Lücken) | HSK5 | HSK6 | HSK7-9. main (optional) decides the level; grammarIds are the points the lesson bundles. priority (gaps only): P1 = core pattern of a level without any lesson, P2 = useful. id/number: the lesson id and authored number (the engine sorts by level, then number; decimals place a lesson between existing ones).",
+ "intro": "Nihongo hat 157 Lektionen (N5 30, N4 37, N3 23, N2 31, N1 12 plus Übergangslektionen); Zhongwen hat 45, alle HSK 1–4 und nach dem Relevel eine auf HSK 7–9. Die Vorschläge bündeln HSK-2025-Punkte, die keine Lektion als Link führt, zu thematischen Lektionen. Level = Spanne der Hauptpunkte (Spalte Level), sonst aller Punkte.",
+ "groupNotes": {
+  "HSK1–4 (Lücken)": "Nur Lücken, bei denen ein Kernmuster eines Levels ohne Lektion ist. HSK 4 ist mit 16 % Abdeckung die größte Lücke (fast alle 复句 fehlen). Ohne neue Lektion, als Erweiterung bestehender Lektionen: lesson-4 um 把字句2 (HSK 4: 把+V+了, 把+状语+V, 把+V+动量), lesson-6 um 比较句2/3 (更/还, 多/少+V, 不如, 跟……相比), lesson-3 um 是……的句2, lesson-5 um 叫/让-Passiv, lesson-41 um V得了/V不了, lesson-29 um 数量补语3 (他走了三天了).",
+  "HSK5": "Offen bleiben Übersichten (Zählwörter, Grad-, Zeit-, Häufigkeitsadverbien), —头, 眼, 多项状语/尽量/亲自, 有着/V有, A+Adj+B+Menge, 同², 不是……还是 — Kandidaten für Nebenlinks.",
+  "HSK6": "Nihongo hat auf N2 31 Lektionen, ein Teil davon sind Gesprächsmuster wie hier 11 und 12.",
+  "HSK7-9": "Sinnvoll als kleiner Block (Nihongo N1: 12 Lektionen), vor allem für Lesen und Schreiben: Diskursmarker, schriftsprachliche Strukturen, Textaufbau. lesson-45 (与其/宁可) gehört nach dem Relevel bereits hierher."
+ },
+ "lessons": [
+  {
+   "id": "lesson-46",
+   "number": 8.5,
+   "group": "HSK1–4 (Lücken)",
+   "priority": "P1",
+   "titleDe": "Zahlen, Datum, Uhrzeit und Preise",
+   "titleZh": "数字、日期、时间和价钱",
+   "main": [
+    "g:数词@HSK1",
+    "g:时量词@HSK1",
+    "g:钱数表示法",
+    "g:时间表示法：年、月、日、星期表示法",
+    "g:钟点表示法"
+   ],
+   "grammarIds": [
+    "g:数词@HSK1",
+    "g:时量词@HSK1",
+    "g:钱数表示法",
+    "g:时间表示法：年、月、日、星期表示法",
+    "g:钟点表示法",
+    "g:序数表达法1：第+数词",
+    "g:第—",
+    "g:主谓句3：名词谓语句",
+    "g:数词@HSK2",
+    "g:序数表示法2：数词+量词",
+    "g:概数表达法1：（1）用“几”表示概数",
+    "g:数词+多+量词",
+    "g:数词+量词+多"
+   ],
+   "goal": "Zahlen bis 10 000, Datum, Wochentag, Uhrzeit, Preise und ungefähre Zahlen sicher bilden (Nomen als Prädikat: 今天星期一)."
+  },
+  {
+   "id": "lesson-47",
+   "number": 4.5,
+   "group": "HSK1–4 (Lücken)",
+   "priority": "P1",
+   "titleDe": "Sätze mit 是 — und wann 是 fehlt",
+   "titleZh": "“是”字句",
+   "main": [
+    "g:“是”字句1：表示等同或类属",
+    "g:处所+是+名词",
+    "g:“是”字句2：表示说明或特征"
+   ],
+   "grammarIds": [
+    "g:“是”字句1：表示等同或类属",
+    "g:处所+是+名词",
+    "g:“是”字句2：表示说明或特征",
+    "g:谓语：名词、代词、数词或数量短语作谓语",
+    "g:陈述句",
+    "g:单句：非主谓句"
+   ],
+   "goal": "A 是 B, 是 als Merkmal und am Ort; Abgrenzung zum Adjektivsatz ohne 是 und zum Nomenprädikat."
+  },
+  {
+   "id": "lesson-48",
+   "number": 5.5,
+   "group": "HSK1–4 (Lücken)",
+   "priority": "P1",
+   "titleDe": "Fragen ohne 吗, Bitten und Vorschläge",
+   "titleZh": "正反问句、祈使句和“吧”",
+   "main": [
+    "g:疑问句：正反问句",
+    "g:祈使句",
+    "g:吧¹",
+    "g:祈使句：用“别”的祈使句"
+   ],
+   "grammarIds": [
+    "g:疑问句：正反问句",
+    "g:祈使句",
+    "g:吧¹",
+    "g:怎么样",
+    "g:祈使句：用“别”的祈使句",
+    "g:别",
+    "g:语气助词@HSK2"
+   ],
+   "goal": "去不去？, 我们走吧, 怎么样？ und 别……: Ja/Nein-Fragen ohne 吗, Aufforderung, Vorschlag und Verbot."
+  },
+  {
+   "id": "lesson-49",
+   "number": 12.5,
+   "group": "HSK1–4 (Lücken)",
+   "priority": "P1",
+   "titleDe": "Verbketten, zwei Objekte, 请/让/叫",
+   "titleZh": "连动句、双宾语句和兼语句",
+   "main": [
+    "g:连动句1：前后动作先后发生，后一动作是前一动作的目的",
+    "g:连动句1：前一动作是后一动作的方式",
+    "g:主语+动词+宾语1+宾语2",
+    "g:表使令：主语+请/叫/让……+宾语1+动词+宾语2"
+   ],
+   "grammarIds": [
+    "g:连动句1：前后动作先后发生，后一动作是前一动作的目的",
+    "g:连动句1：前一动作是后一动作的方式",
+    "g:主语+动词+宾语1+宾语2",
+    "g:主语+动词+给+宾语1+宾语2",
+    "g:表使令：主语+请/叫/让……+宾语1+动词+宾语2",
+    "g:其他结构类型：连谓短语",
+    "g:其他结构类型：兼语短语"
+   ],
+   "goal": "去北京旅游, 坐飞机去, 给他一本书, 老师让我们读课文 — Sätze mit mehreren Verben richtig ordnen."
+  },
+  {
+   "id": "lesson-50",
+   "number": 12.6,
+   "group": "HSK1–4 (Lücken)",
+   "priority": "P1",
+   "titleDe": "Trennbare Verben",
+   "titleZh": "离合词",
+   "main": [
+    "g:离合词@HSK1",
+    "g:离合词@HSK2"
+   ],
+   "grammarIds": [
+    "g:离合词@HSK1",
+    "g:离合词@HSK2",
+    "g:离合词@HSK3",
+    "g:离合词@HSK3（离合词）",
+    "g:基本结构类型：动宾短语"
+   ],
+   "goal": "见面/睡觉/帮忙: wohin 了, 过, Dauer und Objekt treten (睡了八个小时的觉, 跟他见面, 帮我的忙)."
+  },
+  {
+   "id": "lesson-51",
+   "number": 20.5,
+   "group": "HSK1–4 (Lücken)",
+   "priority": "P1",
+   "titleDe": "Verdopplung: 看看, 试一试, 高高兴兴",
+   "titleZh": "动词和形容词重叠",
+   "main": [
+    "g:AA、A一A、A了A、ABAB",
+    "g:AA、AABB"
+   ],
+   "grammarIds": [
+    "g:AA、A一A、A了A、ABAB",
+    "g:AA、AABB",
+    "g:个个、张张",
+    "g:数量重叠：数词+量词+数词+量词"
+   ],
+   "goal": "Verben verdoppeln für „mal kurz“, Adjektive für Lebendigkeit; 个个 und 一个一个 als „jeder einzelne“."
+  },
+  {
+   "id": "lesson-52",
+   "number": 42.5,
+   "group": "HSK1–4 (Lücken)",
+   "priority": "P1",
+   "titleDe": "Wenn und falls: 如果, ……的话, 要是",
+   "titleZh": "假设复句",
+   "main": [
+    "g:如果……，就……",
+    "g:……的话，就……",
+    "g:要是……，就……"
+   ],
+   "grammarIds": [
+    "g:如果……，就……",
+    "g:……的话，就……",
+    "g:的话",
+    "g:要是……，就……",
+    "g:要是……，（就）……，否则……",
+    "g:……，否则……"
+   ],
+   "goal": "Bedingungen formulieren und eine Alternative mit 否则 anschließen; Stellung von 就 im Folgesatz."
+  },
+  {
+   "id": "lesson-53",
+   "number": 43.5,
+   "group": "HSK1–4 (Lücken)",
+   "priority": "P1",
+   "titleDe": "Rhetorische Fragen und doppelte Verneinung",
+   "titleZh": "反问句和双重否定句",
+   "main": [
+    "g:用反问句表示强调：不是……吗？",
+    "g:难道……吗？",
+    "g:双重否定句：用双重否定表示强调"
+   ],
+   "grammarIds": [
+    "g:用反问句表示强调：不是……吗？",
+    "g:难道……吗？",
+    "g:反问句2：由疑问代词构成的反问句",
+    "g:双重否定句：用双重否定表示强调",
+    "g:X什么（啊）"
+   ],
+   "goal": "不是说好了吗？, 难道你不知道？, 谁不想去？, 不得不 — Nachdruck durch Frage und doppelte Verneinung erkennen und bilden."
+  },
+  {
+   "id": "lesson-54",
+   "number": 44.5,
+   "group": "HSK1–4 (Lücken)",
+   "priority": "P1",
+   "titleDe": "Obwohl und selbst wenn: 尽管, 即使, 就是……也",
+   "titleZh": "让步复句",
+   "main": [
+    "g:尽管……，但是/可是……",
+    "g:即使……，也……",
+    "g:就是……，也……"
+   ],
+   "grammarIds": [
+    "g:尽管……，但是/可是……",
+    "g:即使……，也……",
+    "g:就是……，也……",
+    "g:……，然而……",
+    "g:……X是X，就是/不过……",
+    "g:不……也……"
+   ],
+   "goal": "Tatsache (尽管) und Annahme (即使) unterscheiden; schriftliches 然而 und gesprochenes X是X，就是……."
+  },
+  {
+   "id": "lesson-55",
+   "number": 44.6,
+   "group": "HSK1–4 (Lücken)",
+   "priority": "P2",
+   "titleDe": "Argumentieren: 不是……而是, 一方面……另一方面, 甚至",
+   "titleZh": "并列、递进和选择复句（四级）",
+   "main": [
+    "g:不是……，而是……",
+    "g:一方面……，另一方面……",
+    "g:……,甚至……",
+    "g:不是……，就是……"
+   ],
+   "grammarIds": [
+    "g:不是……，而是……",
+    "g:不是……，就是……",
+    "g:一方面……，另一方面……",
+    "g:……,甚至……",
+    "g:……，并且……",
+    "g:……，于是……",
+    "g:此外",
+    "g:另外"
+   ],
+   "goal": "Gedanken richtigstellen, abwägen, steigern und anreihen — die Satzverbindungen für HSK-4-Aufsätze."
+  },
+  {
+   "id": "lesson-56",
+   "number": 36.5,
+   "group": "HSK1–4 (Lücken)",
+   "priority": "P2",
+   "titleDe": "Zweck: 为了, 为了……而, ……，好……",
+   "titleZh": "目的复句",
+   "main": [
+    "g:为了",
+    "g:为了……，……"
+   ],
+   "grammarIds": [
+    "g:为了",
+    "g:为了……，……",
+    "g:为²",
+    "g:为了……而……",
+    "g:……，好……"
+   ],
+   "goal": "Zweck voran- oder nachstellen; Abgrenzung 为了 (Zweck) / 因为 (Grund)."
+  },
+  {
+   "id": "lesson-57",
+   "number": 43.7,
+   "group": "HSK1–4 (Lücken)",
+   "priority": "P2",
+   "titleDe": "Echte Gradkomplemente: 得很, 极了, 死了",
+   "titleZh": "程度补语",
+   "main": [
+    "g:形容词+得很",
+    "g:形容词/动词+极了/坏了",
+    "g:形容词/心理动词+死了/厉害"
+   ],
+   "grammarIds": [
+    "g:形容词+得很",
+    "g:形容词/动词+极了/坏了",
+    "g:形容词/心理动词+死了/厉害",
+    "g:多么",
+    "g:程度副词@HSK4"
+   ],
+   "goal": "Den hohen Grad nach dem Adjektiv ausdrücken (好极了, 累死了) — und so das Zustandskomplement aus lesson-8 sauber abgrenzen."
+  },
+  {
+   "id": "lesson-58",
+   "number": 44.7,
+   "group": "HSK1–4 (Lücken)",
+   "priority": "P2",
+   "titleDe": "让 und 使: jemanden veranlassen",
+   "titleZh": "兼语句（致使）",
+   "main": [
+    "g:表致使：主语+使/让+人称代词+动词短语",
+    "g:表爱憎义：主语+表扬/批评+宾语1+动词+宾语2",
+    "g:表称谓或认定义：主语+收/选+宾语1+做/当/为+宾语2"
+   ],
+   "grammarIds": [
+    "g:表致使：主语+使/让+人称代词+动词短语",
+    "g:表爱憎义：主语+表扬/批评+宾语1+动词+宾语2",
+    "g:表称谓或认定义：主语+收/选+宾语1+做/当/为+宾语2",
+    "g:引出施事、受事@HSK4"
+   ],
+   "goal": "这件事使我很感动, 老师表扬他学习认真, 大家选他当班长 — Ursache und Pivot-Sätze."
+  },
+  {
+   "id": "lesson-59",
+   "number": 44.8,
+   "group": "HSK1–4 (Lücken)",
+   "priority": "P2",
+   "titleDe": "Haltung im Satz: 到底, 竟然, 只好, 差点儿, 并",
+   "titleZh": "语气副词（四级）",
+   "main": [
+    "g:语气副词@HSK4",
+    "g:到底",
+    "g:竟然",
+    "g:只好",
+    "g:差（一）点儿",
+    "g:并¹"
+   ],
+   "grammarIds": [
+    "g:语气副词@HSK4",
+    "g:到底",
+    "g:究竟",
+    "g:竟然",
+    "g:只好",
+    "g:差（一）点儿",
+    "g:并¹",
+    "g:也许",
+    "g:恐怕"
+   ],
+   "goal": "Nachfragen, Überraschung, Notlösung, Beinahe und Zurückweisen mit den wichtigsten HSK-4-Modaladverbien."
+  },
+  {
+   "id": "lesson-60",
+   "number": 60,
+   "group": "HSK5",
+   "titleDe": "Falls, sobald, selbst wenn: 假如, 万一, 一旦, 哪怕",
+   "titleZh": "假设与让步（五级）",
+   "grammarIds": [
+    "g:假如……，（就）……",
+    "g:万一……，（就）……",
+    "g:一旦……，就……",
+    "g:一旦",
+    "g:哪怕……，也……",
+    "g:……，要不然/不然……"
+   ],
+   "goal": "Gedachte, befürchtete und einschneidende Bedingungen unterscheiden und den Extremfall mit 哪怕 einräumen."
+  },
+  {
+   "id": "lesson-61",
+   "number": 61,
+   "group": "HSK5",
+   "titleDe": "Knappe Sätze ohne Bindewort: 没有……就没有, 不……不……, 再……也",
+   "titleZh": "紧缩复句",
+   "grammarIds": [
+    "g:没有……就没有……",
+    "g:不……不……",
+    "g:再……也……",
+    "g:连动句3：前后两个动词性词语具有因果、转折、条件关系"
+   ],
+   "goal": "Kompakte Bedingungs- und Einräumungssätze wie 不见不散, 再忙也要吃饭 verstehen und bilden."
+  },
+  {
+   "id": "lesson-62",
+   "number": 62,
+   "group": "HSK5",
+   "titleDe": "Gegen die Erwartung: 反而, 居然, 果然",
+   "titleZh": "反而、居然、果然",
+   "grammarIds": [
+    "g:反而",
+    "g:不但不/不但没有……，反而……",
+    "g:居然",
+    "g:果然"
+   ],
+   "goal": "Ausdrücken, ob ein Ergebnis die Erwartung bestätigt (果然), überrascht (居然) oder umkehrt (反而)."
+  },
+  {
+   "id": "lesson-63",
+   "number": 63,
+   "group": "HSK5",
+   "titleDe": "Haltung und Anschein: 毕竟, 反正, 似乎, 仿佛",
+   "titleZh": "语气副词（五级）",
+   "grammarIds": [
+    "g:毕竟",
+    "g:反正",
+    "g:似乎",
+    "g:仿佛",
+    "g:似的",
+    "g:语气副词@HSK5",
+    "g:不管怎样说"
+   ],
+   "goal": "Begründen (毕竟), abwinken (反正), vorsichtig einschätzen (似乎) und bildhaft vergleichen (仿佛……似的)."
+  },
+  {
+   "id": "lesson-64",
+   "number": 64,
+   "group": "HSK5",
+   "titleDe": "Schriftlich verknüpfen: 因而, 从而, 可见, 总之, 以及",
+   "titleZh": "书面连接（五级）",
+   "grammarIds": [
+    "g:……，因而……",
+    "g:从而",
+    "g:……，可见……",
+    "g:……，为的是……",
+    "g:总之",
+    "g:以及",
+    "g:或是……，或是……",
+    "g:连接分句或句子@HSK5"
+   ],
+   "goal": "Folge, Schluss, Zweck und Fazit in Texten markieren; Aufzählen mit 以及 und 或是."
+  },
+  {
+   "id": "lesson-65",
+   "number": 65,
+   "group": "HSK5",
+   "titleDe": "Seit und dann: 自从, 以来, 便",
+   "titleZh": "自从、以来、便",
+   "grammarIds": [
+    "g:自从",
+    "g:（自）……以来",
+    "g:便",
+    "g:……，便……",
+    "g:时间副词@HSK5"
+   ],
+   "goal": "Zeitspannen seit einem Ereignis und schriftliches „dann“ (便 statt 就) in Erzählungen."
+  },
+  {
+   "id": "lesson-66",
+   "number": 66,
+   "group": "HSK5",
+   "titleDe": "Grundlage, Quelle, Richtung: 凭, 据, 依据, 朝, 沿着",
+   "titleZh": "介词（五级）",
+   "grammarIds": [
+    "g:凭",
+    "g:据",
+    "g:依据",
+    "g:从……来看",
+    "g:由……组成",
+    "g:朝",
+    "g:沿（着）",
+    "g:引出对象@HSK5"
+   ],
+   "goal": "Die HSK-5-Präpositionen für Grundlage, Informationsquelle, Blickwinkel und Bewegungsrichtung."
+  },
+  {
+   "id": "lesson-67",
+   "number": 67,
+   "group": "HSK5",
+   "titleDe": "得 + Satz: so …, dass …",
+   "titleZh": "状态补语（五级）",
+   "grammarIds": [
+    "g:动词/形容词+得+动词短语",
+    "g:动词/形容词+得+主谓短语",
+    "g:动词/形容词+得+固定短语",
+    "g:形容词/心理动词+得+不得了",
+    "g:不得了",
+    "g:动词+得/不得"
+   ],
+   "goal": "累得不想说话, 冷得我发抖, 高兴得不得了 — Folgen und Grade nach 得 mit eigenem Verb oder Subjekt; Fortsetzung von lesson-8."
+  },
+  {
+   "id": "lesson-68",
+   "number": 68,
+   "group": "HSK5",
+   "titleDe": "Richtungskomplemente als Zustand: 下来, 下去, 起来, 过来",
+   "titleZh": "趋向补语的状态意义",
+   "grammarIds": [
+    "g:趋向补语的引申用法：表示状态意义：动词/形容词+下来/下去/起来/过来/过去",
+    "g:表示动作行为的开始：动词+上/起来",
+    "g:表示动作行为的持续：动词+下去/下来"
+   ],
+   "main": [
+    "g:趋向补语的引申用法：表示状态意义：动词/形容词+下来/下去/起来/过来/过去"
+   ],
+   "goal": "安静下来, 冷下去, 热起来, 醒过来 — Zustandswechsel mit Richtungskomplementen; Fortsetzung von lesson-9."
+  },
+  {
+   "id": "lesson-69",
+   "number": 69,
+   "group": "HSK5",
+   "titleDe": "把 und 被 für Fortgeschrittene",
+   "titleZh": "“把”字句和被动句（五级）",
+   "grammarIds": [
+    "g:主语+把+宾语+一+动词",
+    "g:主语+把+宾语1+动词+宾语2",
+    "g:主语+被/叫/让+宾语+给+动词+其他成分",
+    "g:主语+把+宾语+动词（+一/了）+动词",
+    "g:主语+把+宾语+动词+动量补语/时量补语",
+    "g:主语+把+宾语+状语+动词"
+   ],
+   "main": [
+    "g:主语+把+宾语+一+动词",
+    "g:主语+把+宾语1+动词+宾语2",
+    "g:主语+被/叫/让+宾语+给+动词+其他成分"
+   ],
+   "goal": "他把门一关, 把A当作B, 被他给弄坏了 — die späten 把/被-Muster, mit Wiederholung der HSK-4-Formen."
+  },
+  {
+   "id": "lesson-70",
+   "number": 70,
+   "group": "HSK5",
+   "titleDe": "Vierwortmuster: A来A去, A着A着, 说A就A",
+   "titleZh": "四字格（五级）",
+   "grammarIds": [
+    "g:A来A去",
+    "g:A着A着",
+    "g:说A就A",
+    "g:没A没B",
+    "g:X来X去，都是/就是……"
+   ],
+   "goal": "Wiederholung, unerwartete Wendung und Plötzlichkeit mit festen Vierwortrahmen ausdrücken."
+  },
+  {
+   "id": "lesson-71",
+   "number": 71,
+   "group": "HSK5",
+   "titleDe": "Gesprochene Muster: abwinken, zögern, zugreifen",
+   "titleZh": "口语格式（五级）",
+   "grammarIds": [
+    "g:X什么X",
+    "g:什么X不X（的）",
+    "g:真有你/他/她的",
+    "g:X也不是，Y也不是",
+    "g:X也X不得，Y也Y不得",
+    "g:不X白不X",
+    "g:X着也是X着",
+    "g:用不着",
+    "g:动词+什么（就）是什么",
+    "g:A的A，B的B",
+    "g:X是它，Y也是它"
+   ],
+   "goal": "Typische Gesprächsrahmen der HSK-5-Hörtexte erkennen und ihren Ton (Ärger, Ratlosigkeit, Spott) deuten."
+  },
+  {
+   "id": "lesson-72",
+   "number": 72,
+   "group": "HSK6",
+   "titleDe": "Nur wenn und ausnahmslos: 除非, 凡是",
+   "titleZh": "除非、凡是",
+   "grammarIds": [
+    "g:除非……，才……",
+    "g:除非……，否则/不然……",
+    "g:凡是……，都……"
+   ],
+   "goal": "Die einzige Bedingung (除非) und Allaussagen (凡是……都) sicher bilden; Abgrenzung zu 只有……才."
+  },
+  {
+   "id": "lesson-73",
+   "number": 73,
+   "group": "HSK6",
+   "titleDe": "Entweder – oder, mal – mal: 要么, 一时……一时, 也好",
+   "titleZh": "选择与交替（六级）",
+   "grammarIds": [
+    "g:要么……，要么……",
+    "g:一时……一时……",
+    "g:也好"
+   ],
+   "goal": "Zwei Wege zur Wahl stellen, wechselnde Zustände beschreiben und mit 也好 Gleichgültigkeit ausdrücken."
+  },
+  {
+   "id": "lesson-74",
+   "number": 74,
+   "group": "HSK6",
+   "titleDe": "Knapp einräumen: 虽, 就算, 倒是",
+   "titleZh": "让步（六级）",
+   "grammarIds": [
+    "g:虽……，但/可/却/也……",
+    "g:就算……，也……",
+    "g:倒是"
+   ],
+   "goal": "Schriftliches 虽, gesprochenes 就算 und das einräumende 倒是 („zwar …, aber“)."
+  },
+  {
+   "id": "lesson-75",
+   "number": 75,
+   "group": "HSK6",
+   "titleDe": "Schriftsprache: 于, 因, 除, 所, 以便",
+   "titleZh": "书面语（六级）",
+   "grammarIds": [
+    "g:于",
+    "g:因",
+    "g:除",
+    "g:所",
+    "g:至于",
+    "g:……，以便……"
+   ],
+   "goal": "Die knappen Präpositionen und 所 der Schriftsprache lesen und in formellen Sätzen selbst benutzen."
+  },
+  {
+   "id": "lesson-76",
+   "number": 76,
+   "group": "HSK6",
+   "titleDe": "Kurzerhand, nicht unbedingt, unwillkürlich: 干脆, 未必, 不禁, 不料",
+   "titleZh": "语气与方式副词（六级）",
+   "grammarIds": [
+    "g:干脆",
+    "g:未必",
+    "g:不禁",
+    "g:不料",
+    "g:语气副词@HSK6",
+    "g:方式副词@HSK6"
+   ],
+   "goal": "Entschluss, vorsichtige Verneinung, unwillkürliche Reaktion und unerwartete Wendung ausdrücken."
+  },
+  {
+   "id": "lesson-77",
+   "number": 77,
+   "group": "HSK6",
+   "titleDe": "Immer wieder und bis jetzt: 一再, 再三, 到……为止",
+   "titleZh": "一再、再三、到……为止",
+   "grammarIds": [
+    "g:一再",
+    "g:再三",
+    "g:时间副词@HSK6",
+    "g:到……为止",
+    "g:番"
+   ],
+   "goal": "Wiederholung (一再/再三, 一番) und Endpunkte (到目前为止) präzise ausdrücken."
+  },
+  {
+   "id": "lesson-78",
+   "number": 78,
+   "group": "HSK6",
+   "titleDe": "Gesprochene Partikeln: 啦, 嘛, 人家",
+   "titleZh": "啦、嘛、人家",
+   "grammarIds": [
+    "g:啦",
+    "g:嘛",
+    "g:人家"
+   ],
+   "goal": "Ton und Haltung in Dialogen: lebhaftes 啦, selbstverständliches 嘛, schmollendes 人家."
+  },
+  {
+   "id": "lesson-79",
+   "number": 79,
+   "group": "HSK6",
+   "titleDe": "Reagieren: 算了, 得了, 那倒是, 好不容易",
+   "titleZh": "应答语（六级）",
+   "grammarIds": [
+    "g:算了",
+    "g:得了",
+    "g:那倒（也）是",
+    "g:好（不）容易"
+   ],
+   "goal": "Im Gespräch abwinken, beenden, einlenken und Mühe betonen (好不容易 = 好容易)."
+  },
+  {
+   "id": "lesson-80",
+   "number": 80,
+   "group": "HSK6",
+   "titleDe": "把 mit Ursache und Betroffenem",
+   "titleZh": "“把”字句（六级）",
+   "grammarIds": [
+    "g:主语（非生物体）+把+宾语+动词+其他成分",
+    "g:主语+把+宾语（施事）+动词+其他成分",
+    "g:看/瞧+把+宾语（施事）+X得"
+   ],
+   "goal": "这场雨把我淋透了, 这件事把他急坏了, 看把你高兴得 — 把 mit unbelebter Ursache und betroffener Person."
+  },
+  {
+   "id": "lesson-81",
+   "number": 81,
+   "group": "HSK6",
+   "titleDe": "Vierwortmuster: A这A那, 左A右B, 东一A西一A",
+   "titleZh": "四字格（六级）",
+   "grammarIds": [
+    "g:A这A那",
+    "g:左A右B",
+    "g:东一A，西一A",
+    "g:A一+量词，B一+量词"
+   ],
+   "goal": "Planloses, wiederholtes und abwechselndes Tun mit festen Rahmen beschreiben."
+  },
+  {
+   "id": "lesson-82",
+   "number": 82,
+   "group": "HSK6",
+   "titleDe": "Vorwurf, Ausruf, Abhaken",
+   "titleZh": "口语格式（六级）",
+   "grammarIds": [
+    "g:好你个X",
+    "g:看你X的/瞧他X的",
+    "g:放着X不Y",
+    "g:早（也）不X，晚（也）不X",
+    "g:X到Y头上来了",
+    "g:X了就X了，（没）有……",
+    "g:X归X，Y归Y",
+    "g:这/那也不X，那/这也不Y",
+    "g:不X不……，一X……"
+   ],
+   "goal": "Die Gesprächsmuster der HSK-6-Hörtexte: vorwerfen, staunen, trennen und abhaken."
+  },
+  {
+   "id": "lesson-83",
+   "number": 83,
+   "group": "HSK6",
+   "titleDe": "Wortbildung mit Halbaffixen: 超-, 多-, 反-, -化, -式",
+   "titleZh": "类前缀和类后缀",
+   "grammarIds": [
+    "g:类前缀@HSK6",
+    "g:类后缀@HSK6"
+   ],
+   "goal": "Neue Wörter aus Halbaffixen erschließen (超市, 多功能, 现代化, 中式) — wichtig für Lesetexte."
+  },
+  {
+   "group": "HSK7-9",
+   "titleDe": "Diskursmarker I: Meinung und Einschränkung",
+   "titleZh": "话语标记（一）",
+   "grammarIds": [
+    "g:老实说",
+    "g:说真的",
+    "g:不瞒你说",
+    "g:要（让）我说",
+    "g:话是这么说",
+    "g:话（又）说回来",
+    "g:退一步说",
+    "g:不是我说你"
+   ],
+   "goal": "Meinungen einleiten, abschwächen und einschränken wie in Diskussionen und Interviews."
+  },
+  {
+   "group": "HSK7-9",
+   "titleDe": "Diskursmarker II: Zusammenfassen und Umformulieren",
+   "titleZh": "话语标记（二）",
+   "grammarIds": [
+    "g:换句话说",
+    "g:总而言之",
+    "g:总的来说",
+    "g:综上所述",
+    "g:简（而）言之",
+    "g:概括来说",
+    "g:归根到底",
+    "g:这样一来",
+    "g:反过来（说）"
+   ],
+   "goal": "Texte gliedern, zusammenfassen und Schlüsse ziehen — für Aufsatz und mündliche Prüfung."
+  },
+  {
+   "group": "HSK7-9",
+   "titleDe": "Steigerung schriftlich: 尚且……何况, 别说……都, 更不用说",
+   "titleZh": "递进复句（七至九级）",
+   "grammarIds": [
+    "g:……尚且……，（更）何况……",
+    "g:别说……，都/也……",
+    "g:连……都……，更不用说……了",
+    "g:……，更不用说……了",
+    "g:……不说，还……"
+   ],
+   "goal": "Vom schwächeren zum stärkeren Fall argumentieren, schriftlich und gesprochen."
+  },
+  {
+   "group": "HSK7-9",
+   "titleDe": "Gehobene Bedingungen: 倘若, 纵然, 幸亏……否则, 非得……才",
+   "titleZh": "假设、让步和条件（七至九级）",
+   "grammarIds": [
+    "g:倘若",
+    "g:假若/假使……，……",
+    "g:纵然/纵使……，也……",
+    "g:幸亏/幸好……，不然/否则……",
+    "g:任……也……",
+    "g:非得……才……",
+    "g:无论……与否，都……"
+   ],
+   "goal": "Die schriftsprachlichen Bedingungs- und Einräumungsformen der höheren Stufen lesen und verwenden."
+  },
+  {
+   "group": "HSK7-9",
+   "titleDe": "Schriftsprachliche Bausteine: 乃, 予以, 有所, 并非, 所谓",
+   "titleZh": "书面语（七至九级）",
+   "grammarIds": [
+    "g:乃",
+    "g:予以",
+    "g:有所",
+    "g:并非",
+    "g:所谓",
+    "g:所谓……，就是……",
+    "g:皆",
+    "g:即",
+    "g:（因）……，故……",
+    "g:因……而……",
+    "g:鉴于¹",
+    "g:基于"
+   ],
+   "goal": "Behörden-, Presse- und Wissenschaftssprache entschlüsseln."
+  },
+  {
+   "group": "HSK7-9",
+   "titleDe": "Texte bauen: mehrfach zusammengesetzte Sätze, Reihenfolge, Auslassung",
+   "titleZh": "多重复句与语篇",
+   "grammarIds": [
+    "g:多重复句：多重并列复句",
+    "g:多重复句：多重转折复句",
+    "g:多重复句：多重假设复句",
+    "g:多重复句：多重因果复句",
+    "g:多重复句：多重递进复句",
+    "g:时间顺序",
+    "g:空间顺序",
+    "g:逻辑顺序",
+    "g:话题延伸",
+    "g:话题转换",
+    "g:承前省略",
+    "g:蒙后省略"
+   ],
+   "goal": "Lange Sätze zerlegen und eigene Absätze logisch ordnen; Subjektauslassung über Satzgrenzen."
+  },
+  {
+   "group": "HSK7-9",
+   "titleDe": "Vierwortmuster der Oberstufe: 爱A不A, 半A半B, 不A而B, 七A八B",
+   "titleZh": "四字格（七至九级）",
+   "grammarIds": [
+    "g:爱A不A",
+    "g:半A半B",
+    "g:不A而B",
+    "g:七A八B",
+    "g:自A自B",
+    "g:无A不B",
+    "g:忽A忽B",
+    "g:连A带B"
+   ],
+   "goal": "Produktive Vierwortrahmen erkennen und ihre Bedeutung aus dem Muster ableiten."
+  }
+ ]
+}

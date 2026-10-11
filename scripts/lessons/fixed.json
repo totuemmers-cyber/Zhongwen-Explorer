@@ -1,0 +1,460 @@
+{
+ "date": "2026-10-11",
+ "fixes": [
+  {
+   "lesson": "lesson-26",
+   "kind": "Übersetzung",
+   "what": "那 als „das … dort“ statt „dieses“ übersetzt (2 Beispiele)"
+  },
+  {
+   "lesson": "lesson-25",
+   "kind": "Sachaussage",
+   "what": "Tipp zu 不要: Antwort 不要 auf 你要咖啡吗？ ist die normale Ablehnung („will ich nicht“), Verbot nur bei 不要 + Verb (g:不要)"
+  },
+  {
+   "lesson": "lesson-25",
+   "kind": "Übersetzung",
+   "what": "我会去 nur „Ich werde (bestimmt) hingehen“ (kein erlerntes Können, g:会); 我能去 „Ich kann hingehen (Umstände)“"
+  },
+  {
+   "lesson": "lesson-32",
+   "kind": "Sachaussage",
+   "what": "又…又 verbindet meist Eigenschaften, mit Verben auch lebhafte Handlungen (又唱又跳) — jetzt im Einklang mit g:又……，又…… und lesson-43"
+  },
+  {
+   "lesson": "lesson-35",
+   "kind": "Sachaussage",
+   "what": "Abgrenzung 又…又 / 一边…一边 an g:一边……，一边…… angeglichen („vor allem Eigenschaften“ statt „ausschließlich“)"
+  },
+  {
+   "lesson": "lesson-35",
+   "kind": "Beispiel",
+   "what": "一面微笑一面说 ersetzt (Art und Weise → 笑着说, g:一边……，一边……): 他一面听音乐一面做饭"
+  },
+  {
+   "lesson": "lesson-35",
+   "kind": "Beispiel",
+   "what": "听播客 → 听歌, „einen Podcast“-Fehler entfällt"
+  },
+  {
+   "lesson": "lesson-15",
+   "kind": "Sachaussage",
+   "what": "„nicht beide weglassen“ korrigiert: Grund und Folge stehen oft ganz ohne Bindewort (g:不用关联词语的复句)"
+  },
+  {
+   "lesson": "lesson-15",
+   "kind": "Formulierung",
+   "what": "Tipp ohne irreführendes ❌ und ohne „nie“ neu formuliert"
+  },
+  {
+   "lesson": "lesson-31",
+   "kind": "Sachaussage",
+   "what": "或者 in Ja/Nein-Fragen mit 吗 möglich, 还是 nur in Wahlfragen (g:或者) — Einleitung, Tipp, Zusammenfassung"
+  },
+  {
+   "lesson": "lesson-31",
+   "kind": "Gendern",
+   "what": "„Gesprächspartner“ → „Gegenüber“"
+  },
+  {
+   "lesson": "lesson-8",
+   "kind": "Terminologie",
+   "what": "Titel, Einleitung und Texte: 状态补语/Zustandskomplement statt 程度补语/Gradkomplement (g:动词+得+形容词性短语, g:形容词+得很); echte Gradkomplemente als Abgrenzung genannt"
+  },
+  {
+   "lesson": "lesson-8",
+   "kind": "Level",
+   "what": "Abschnitt „Komplexe Beschreibungen“ als Ausblick auf HSK 5 gekennzeichnet"
+  },
+  {
+   "lesson": "lesson-17",
+   "kind": "Tipp",
+   "what": "❌ vor dem korrekten 不可以抽烟 entfernt; Verbot korrekt gezeigt"
+  },
+  {
+   "lesson": "lesson-4",
+   "kind": "Sachaussage",
+   "what": "Stellung im 把-Satz an g:主语+把+宾语+状语+动词 angeglichen: Verneinung, Modalverben, 已经 vor 把; beschreibende Adverbiale und objektbezogenes 都 nach dem Objekt"
+  },
+  {
+   "lesson": "lesson-4",
+   "kind": "Übersetzung",
+   "what": "那本书 → „das Buch (dort)“"
+  },
+  {
+   "lesson": "lesson-22",
+   "kind": "Deutsch",
+   "what": "„ein reiner Fragepartikel“ → „eine reine Fragepartikel“"
+  },
+  {
+   "lesson": "lesson-1",
+   "kind": "Deutsch",
+   "what": "„der berühmteste … Partikel“ und „diesen Partikel“ → feminin"
+  },
+  {
+   "lesson": "lesson-11",
+   "kind": "Deutsch",
+   "what": "„den Aspektpartikel 过. Er drückt aus“ → „die Aspektpartikel 过. Sie drückt aus“"
+  },
+  {
+   "lesson": "lesson-24",
+   "kind": "Querverweis",
+   "what": "„Lektion 19“ → [[lesson:lesson-19]]"
+  },
+  {
+   "lesson": "lesson-25",
+   "kind": "Querverweis",
+   "what": "„Lektion 17“ → [[lesson:lesson-17]]"
+  },
+  {
+   "lesson": "lesson-7",
+   "kind": "Querverweis",
+   "what": "„Lektion 9“ zeigte auf die Richtungskomplemente → [[lesson:lesson-41]] (可能补语)"
+  },
+  {
+   "lesson": "lesson-32",
+   "kind": "Querverweis",
+   "what": "„Lektion 35“ → [[lesson:lesson-35]] (im neuen Tipp)"
+  },
+  {
+   "lesson": "lesson-8",
+   "kind": "Querverweis",
+   "what": "„Lektion 2“ → [[lesson:lesson-2]] (in der neuen Einleitung)"
+  },
+  {
+   "lesson": "lesson-21",
+   "kind": "Tonsandhi",
+   "what": "不上班 bù → bú"
+  },
+  {
+   "lesson": "lesson-29",
+   "kind": "Tonsandhi",
+   "what": "不上班 bù → bú"
+  },
+  {
+   "lesson": "lesson-44",
+   "kind": "Tonsandhi",
+   "what": "不论 Bùlùn → Búlùn (3 Beispiele)"
+  },
+  {
+   "lesson": "lesson-45",
+   "kind": "Tonsandhi",
+   "what": "不迟到 bú → bù"
+  },
+  {
+   "lesson": "lesson-26",
+   "kind": "Sachaussage",
+   "what": "Zählwort „in der Regel“ statt „Pflicht“; 这些/那些 ohne Zählwort genannt (g:指示代词@HSK1)"
+  },
+  {
+   "lesson": "lesson-18",
+   "kind": "Sachaussage",
+   "what": "„immer ein Zählwort“ → „fast immer“, Ausnahmen 三天, 两年, 二十岁 (g:时量词@HSK1)"
+  },
+  {
+   "lesson": "lesson-18",
+   "kind": "Übersetzung",
+   "what": "这位老师姓王 → „Diese Lehrkraft heißt mit Nachnamen Wang“"
+  },
+  {
+   "lesson": "lesson-33",
+   "kind": "Sachaussage",
+   "what": "从…到 vor dem Verb, 到 + Ziel auch nach dem Verb (g:到 + Ort/Zeit)"
+  },
+  {
+   "lesson": "lesson-3",
+   "kind": "Sachaussage",
+   "what": "Stellung von 的 ohne unbelegte Stilwertung; 是 darf nur im bejahten Satz fehlen (g:“是……的”句1)"
+  },
+  {
+   "lesson": "lesson-34",
+   "kind": "Sachaussage",
+   "what": "„keine Präpositionen“ → Präpositionen (介词), die aus Verben entstanden sind (Koverben)"
+  },
+  {
+   "lesson": "lesson-12",
+   "kind": "Sachaussage",
+   "what": "„Deutsch ist eine SVO-Sprache“ entfernt (Widerspruch zu lesson-21)"
+  },
+  {
+   "lesson": "lesson-14",
+   "kind": "Sachaussage",
+   "what": "Paar 虽然…但是 „normal“ statt „notwendig“; 虽然 kann fehlen, 但是 eher nicht (g:虽然……，但是……)"
+  },
+  {
+   "lesson": "lesson-14",
+   "kind": "Formulierung",
+   "what": "Abschnitt „Häufige Fehler“ verständlich neu gefasst (但是 allein vs. 虽然…但是)"
+  },
+  {
+   "lesson": "lesson-14",
+   "kind": "Pinyin",
+   "what": "还是 háishì → háishi (wie in lesson-31 und den Grammatikpunkten)"
+  },
+  {
+   "lesson": "lesson-5",
+   "kind": "Beispiel",
+   "what": "这部电影被很多人喜欢 (unnatürlich, nacktes Zustandsverb) → 这个问题被解决了"
+  },
+  {
+   "lesson": "lesson-5",
+   "kind": "Gendern",
+   "what": "„Muttersprachler bevorzugen“ → „Im Alltag bevorzugt man“"
+  },
+  {
+   "lesson": "lesson-7",
+   "kind": "Beispiel",
+   "what": "请把音乐放大一点 → 请把声音开大一点 (放大 = vergrößern)"
+  },
+  {
+   "lesson": "lesson-7",
+   "kind": "Formulierung",
+   "what": "Resultativkomplement „ein Wort (meist ein Zeichen)“"
+  },
+  {
+   "lesson": "lesson-9",
+   "kind": "Beispiel",
+   "what": "Abschnitt „Einfache Richtungskomplemente“: 走过来/跑出去 (zusammengesetzt) → 带来/买来"
+  },
+  {
+   "lesson": "lesson-9",
+   "kind": "Gendern",
+   "what": "„zum/vom Sprecher“ → „zur sprechenden Person hin / von ihr weg“"
+  },
+  {
+   "lesson": "lesson-1",
+   "kind": "Beispiel",
+   "what": "Tipp: (也买了一本书) → (我买了一本书)"
+  },
+  {
+   "lesson": "lesson-45",
+   "kind": "Eselsbrücke",
+   "what": "„与 = mit/statt“ entfernt (与 heißt „mit, und“); 与其 ≈ „statt …“"
+  },
+  {
+   "lesson": "lesson-22",
+   "kind": "Gendern",
+   "what": "Wer ist dein Lehrer? (谁 = wer) → Wer ist deine Lehrkraft? (谁 = wer)"
+  },
+  {
+   "lesson": "lesson-22",
+   "kind": "Gendern",
+   "what": "Wie viele Schüler hat eure Klasse? → Wie viele Schülerinnen und Schüler hat eure Klasse?"
+  },
+  {
+   "lesson": "lesson-23",
+   "kind": "Gendern",
+   "what": "Im Klassenzimmer sind dreißig Schüler. → Im Klassenzimmer sind dreißig Schülerinnen und Schüler."
+  },
+  {
+   "lesson": "lesson-18",
+   "kind": "Gendern",
+   "what": "Wer ist dieser Student dort? → Wer ist der Student/die Studentin dort?"
+  },
+  {
+   "lesson": "lesson-20",
+   "kind": "Gendern",
+   "what": "Ich bin kein Student. (是 wird immer mit 不 verneint!) → Ich bin nicht Student/Studentin. (是 wird immer mit 不 verneint!)"
+  },
+  {
+   "lesson": "lesson-28",
+   "kind": "Gendern",
+   "what": "Sie sind alle Studenten. → Sie sind alle Studierende."
+  },
+  {
+   "lesson": "lesson-28",
+   "kind": "Gendern",
+   "what": "Sie sind nicht alle Chinesen. (Einige schon) → Sie kommen nicht alle aus China. (Einige schon)"
+  },
+  {
+   "lesson": "lesson-31",
+   "kind": "Gendern",
+   "what": "Bist du Chinese oder Japaner? → Kommst du aus China oder aus Japan?"
+  },
+  {
+   "lesson": "lesson-34",
+   "kind": "Gendern",
+   "what": "Du solltest den Lehrer um Rat fragen. → Du solltest die Lehrkraft um Rat fragen."
+  },
+  {
+   "lesson": "lesson-35",
+   "kind": "Gendern",
+   "what": "Die Schüler hören Musik und machen dabei Hausaufgaben. → Die Schülerinnen und Schüler hören Musik und machen dabei Hausaufgaben."
+  },
+  {
+   "lesson": "lesson-10",
+   "kind": "Gendern",
+   "what": "Im Klassenzimmer sitzen viele Schüler. → Im Klassenzimmer sitzen viele Schülerinnen und Schüler."
+  },
+  {
+   "lesson": "lesson-39",
+   "kind": "Gendern",
+   "what": "Nicht nur Chinesen essen Jiaozi, auch Ausländer lieben sie. → Nicht nur in China isst man Jiaozi, auch Menschen aus dem Ausland lieben sie."
+  },
+  {
+   "lesson": "lesson-42",
+   "kind": "Gendern",
+   "what": "Für Ausländer sind die Schriftzeichen am schwierigsten. → Für Menschen aus dem Ausland sind die Schriftzeichen am schwierigsten."
+  },
+  {
+   "lesson": "lesson-16",
+   "kind": "Gendern",
+   "what": "Je strenger der Lehrer, desto gewissenhafter die Schüler. → Je strenger die Lehrkraft, desto gewissenhafter die Lernenden."
+  },
+  {
+   "lesson": "lesson-30",
+   "kind": "Gendern",
+   "what": "„des Sprechers … der Sprecher … er“ → neutral"
+  },
+  {
+   "lesson": "lesson-23",
+   "kind": "Gendern",
+   "what": "„Anfängerfehler“ → „Fehler am Anfang“"
+  },
+  {
+   "lesson": "lesson-24",
+   "kind": "Übersetzung",
+   "what": "„(Nicht: Ich esse in Hause)“ gestrichen"
+  },
+  {
+   "lesson": "lesson-29",
+   "kind": "Deutsch",
+   "what": "„Hände waschen“ → „sich die Hände waschen“"
+  },
+  {
+   "lesson": "lesson-28",
+   "kind": "Eselsbrücke",
+   "what": "„alphabetisch: A(uch) vor A(lle)“ ersetzt"
+  },
+  {
+   "lesson": "lesson-20",
+   "kind": "Sachaussage",
+   "what": "没: „nicht geschehen“ statt „Vergangenheit“ (Aspekt, nicht Tempus; g:没（有）)"
+  },
+  {
+   "lesson": "lesson-31",
+   "kind": "Pinyin",
+   "what": "zhōngcān klein (kein Eigenname)"
+  },
+  {
+   "lesson": "lesson-13",
+   "kind": "Pinyin",
+   "what": "名字 míngzì → míngzi (2 Beispiele)"
+  },
+  {
+   "lesson": "lesson-34",
+   "kind": "Übersetzung",
+   "what": "这个跟那个不一样 → „Das hier ist anders als das da.“"
+  },
+  {
+   "lesson": "lesson-37",
+   "kind": "Übersetzung",
+   "what": "召开 → „findet … statt“"
+  },
+  {
+   "lesson": "lesson-41",
+   "kind": "Übersetzung",
+   "what": "这个字 → Einzahl"
+  },
+  {
+   "lesson": "lesson-42",
+   "kind": "Level",
+   "what": "至于 als Ausblick (HSK 6) gekennzeichnet"
+  },
+  {
+   "lesson": "lesson-43",
+   "kind": "Sachaussage",
+   "what": "unbelegte Regel „既…又 nicht mit 了“ ersetzt durch Stilhinweis"
+  },
+  {
+   "lesson": "lesson-21",
+   "kind": "Wortschatz",
+   "what": "Beispiele auf Lektionslevel + 1 gebracht: 她在图书馆学习 → 她在学校学习; 他每天在公园跑步 → 他每天在家里看书; 她常常去中国 → 她经常去中国"
+  },
+  {
+   "lesson": "lesson-23",
+   "kind": "Wortschatz",
+   "what": "Beispiele auf Lektionslevel + 1 gebracht: 附近有没有银行 → 这儿有没有商店; 冰箱里没有牛奶了 → 杯子里没有水了; 这个菜有点儿辣 → 这个菜有点儿贵"
+  },
+  {
+   "lesson": "lesson-24",
+   "kind": "Wortschatz",
+   "what": "Beispiele auf Lektionslevel + 1 gebracht: 厕所在哪儿 → 医院在哪儿; 银行在学校旁边 → 商店在学校旁边; 钥匙在包里面 → 手机在包里面; 她在图书馆看书 → 她在朋友家看书; 孩子们在公园玩 → 孩子们在外面玩; 我的猫在沙发上 → 我的猫在椅子上; 沙发上有一只猫 → 椅子上有一只猫"
+  },
+  {
+   "lesson": "lesson-25",
+   "kind": "Wortschatz",
+   "what": "Beispiele auf Lektionslevel + 1 gebracht: 你要努力学习 → 你要好好学习; 不要碰 → 不要走; 我不想吃辣的 → 我不想吃米饭; 你不要迟到 → 上课不要说话"
+  },
+  {
+   "lesson": "lesson-27",
+   "kind": "Wortschatz",
+   "what": "Beispiele auf Lektionslevel + 1 gebracht: 你真厉害 → 你的中文真好"
+  },
+  {
+   "lesson": "lesson-20",
+   "kind": "Wortschatz",
+   "what": "Beispiele auf Lektionslevel + 1 gebracht: 你不应该这样做 → 她不能来"
+  },
+  {
+   "lesson": "lesson-1",
+   "kind": "Wortschatz",
+   "what": "Beispiele auf Lektionslevel + 1 gebracht: 我已经做了作业了 → 我已经买了票了"
+  },
+  {
+   "lesson": "lesson-17",
+   "kind": "Wortschatz",
+   "what": "Beispiele auf Lektionslevel + 1 gebracht: 他受伤了，不能走路 → 他病了，不能来上课; 这里可以停车吗 → 这里可以坐吗; 他喝了酒，不能开车 → 他太累了，不能开车; 这里不可以停车 → 这里不可以开车"
+  },
+  {
+   "lesson": "lesson-19",
+   "kind": "Wortschatz",
+   "what": "Beispiele auf Lektionslevel + 1 gebracht: 他们正讨论这个问题 → 他们正看电视; 你在干什么呢 → 你在做什么呢; 她刚才没在听 → 她没在听我说话; 我打电话的时候，他正在洗澡 → 我打电话的时候，他正在睡觉; 昨天晚上八点我在写作业 → 昨天晚上八点我在看书"
+  },
+  {
+   "lesson": "lesson-12",
+   "kind": "Wortschatz",
+   "what": "Beispiele auf Lektionslevel + 1 gebracht: 这里不能停车 → 这里不能坐; 数学我学得好，物理我学不好 → 唱歌我唱得好，跳舞我跳不好"
+  },
+  {
+   "lesson": "lesson-11",
+   "kind": "Wortschatz",
+   "what": "Beispiele auf Lektionslevel + 1 gebracht: 我看过这部电影 → 我看过这个电影; 我以前学过法语 → 我以前学过汉语; 你曾经想过放弃吗 → 你曾经去过北京吗"
+  },
+  {
+   "lesson": "lesson-33",
+   "kind": "Wortschatz",
+   "what": "Beispiele auf Lektionslevel + 1 gebracht: 从明天开始我要减肥 → 从明天开始我要每天跑步; 从现在开始不许迟到 → 从现在开始我们说中文"
+  },
+  {
+   "lesson": "lesson-3",
+   "kind": "Wortschatz",
+   "what": "Beispiele auf Lektionslevel + 1 gebracht: 你是什么时候毕业的 → 你是什么时候来北京的"
+  },
+  {
+   "lesson": "lesson-15",
+   "kind": "Wortschatz",
+   "what": "Beispiele auf Lektionslevel + 1 gebracht: 你怎么没来？——因为堵车了 → 你怎么没来？——因为我生病了; 由于天气原因，航班取消了 → 由于大雨，飞机没有起飞; 他之所以成功，是因为他很努力 → 他之所以没来，是因为他病了"
+  },
+  {
+   "lesson": "lesson-37",
+   "kind": "Wortschatz",
+   "what": "Beispiele auf Lektionslevel + 1 gebracht: 快要毕业了 → 快要放假了; 会议将于下周一召开 → 比赛将在明天开始; 这座桥将在明年完工 → 这家商店将在下个月开门; 新政策将要开始实施 → 下个月学校将要放假"
+  },
+  {
+   "lesson": "lesson-13",
+   "kind": "Grammatikpunkt",
+   "what": "Beispiel mit 更 ergänzt, damit der Hauptpunkt 连……也/都……，……更…… (HSK 4) vollständig gezeigt wird"
+  },
+  {
+   "lesson": "lesson-45",
+   "kind": "Grammatikpunkt",
+   "what": "Tipp nennt die verlinkten Zusatzpunkte 倒不如 und 与其说……不如说…… mit Beispielen"
+  }
+ ],
+ "after": [
+  "`validate.cjs --all` nach dem Relevel: Beispielwörter mehr als ein Level über dem Lektionslevel (HSK 1–2) ersetzt (siehe „Wortschatz“ oben).",
+  "Begründete Ausnahmen in `scripts/lessons/allowlist.json`: lesson-12 大象/鼻子 (klassisches 主谓谓语句-Beispiel 大象鼻子长), lesson-11 北京烤鸭/臭豆腐/寿司 (Speisen als Erfahrungsbeispiele) und 曾经 (im Text gelehrte Kombination mit 过), lesson-18 筷子/信 (Nomen zu den gelehrten Zählwörtern 双/封).",
+  "Links ohne Lehrinhalt entfernt (overrides.json): lesson-19 时间副词@HSK2, lesson-36 时间副词@HSK3, lesson-34 引出对象@HSK3, lesson-33 从……起, lesson-15 （由于）……，因此…… — die Lektionen zeigen davon nur ein einzelnes Zeichen oder gar nichts."
+ ]
+}

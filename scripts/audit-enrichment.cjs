@@ -57,9 +57,19 @@ if (drifted.length) fail(drifted.length + ' grammar points quote a different syl
 const danglingRelated = points.flatMap(p => (p.related || []).filter(id => !pointById.has(id)).map(id => p.id + ' → ' + id));
 if (danglingRelated.length) fail(danglingRelated.length + ' related grammar links to unknown points', danglingRelated);
 
+// Grammar lessons (Phase 8): every lesson is in the lesson ledger (baseline or an authoring batch) and unchanged since.
+const lessonTools = require('./lessons/common.cjs');
+const lessonLedger = common.readJson(lessonTools.LEDGER, {});
+const lessons = lessonTools.loadLessons();
+const lessonIds = new Set(lessons.map(l => l.id));
+const lessonsChanged = lessons.filter(l => !lessonLedger[l.id] || lessonLedger[l.id].hash !== lessonTools.contentHash(l));
+if (lessonsChanged.length) fail(lessonsChanged.length + ' grammar lessons not in the ledger or changed since validation (node scripts/lessons/refresh-ledger.cjs <pass> after a checked edit)', lessonsChanged.map(l => l.id));
+const lessonOrphans = Object.keys(lessonLedger).filter(id => !lessonIds.has(id));
+if (lessonOrphans.length) fail(lessonOrphans.length + ' lesson ledger entries without a lesson', lessonOrphans);
+
 if (errors.length) {
   console.error(errors.join('\n\n'));
   process.exit(1);
 }
 console.log('Enrichment audit passed: ' + reviewed.length + ' of ' + items.length + ' entries, ' + hanziReviewed.length + ' of ' +
-  characters.length + ' hanzi and ' + grammarReviewed.length + ' of ' + points.length + ' grammar points enriched and unchanged since validation.');
+  characters.length + ' hanzi and ' + grammarReviewed.length + ' of ' + points.length + ' grammar points enriched and unchanged since validation; ' + lessons.length + ' grammar lessons unchanged since their ledger entry.');

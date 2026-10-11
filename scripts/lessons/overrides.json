@@ -1,0 +1,569 @@
+{
+  "_doc": "Manual link decisions for scripts/lessons/link.cjs. Per lesson id: main = the grammar points the lesson is about (their levels give the lesson level), add = further points to link, remove = automatic matches to drop, level = explicit level (engine format HSKa or HSKa/HSKb), note = shown in the report.",
+  "lesson-21": {
+    "main": [
+      "g:主谓句1：动词谓语句",
+      "g:状语：副词、形容词作状语；表示时间、处所的词语作状语"
+    ],
+    "add": [
+      "g:主语：名词、代词或名词性短语作主语",
+      "g:宾语：名词、代词或名词性短语作宾语",
+      "g:在（引出时间、处所）",
+      "g:已经",
+      "g:经常",
+      "g:还¹"
+    ],
+    "note": "Titel ohne chinesisches Muster: SVO und Stellung von Zeit, Ort und Adverb sind die Satzglied-Punkte von HSK 1."
+  },
+  "lesson-22": {
+    "main": [
+      "g:疑问句：是非问句",
+      "g:疑问句：特指问句",
+      "g:吗",
+      "g:疑问代词@HSK1"
+    ],
+    "add": [
+      "g:呢²",
+      "g:谁",
+      "g:哪儿",
+      "g:怎么",
+      "g:为什么"
+    ],
+    "note": "呢 im Untertitel ist die Rückfrage 呢²; der Verlaufs-呢 im Beispiel 他还在睡觉呢 gehört zu lesson-19."
+  },
+  "lesson-23": {
+    "main": [
+      "g:“有”字句1：表示领有",
+      "g:处所+有+数量短语+名词"
+    ],
+    "add": [
+      "g:否定副词@HSK1"
+    ],
+    "remove": [
+      "g:A有/没有B（+这么/那么）+形容词"
+    ],
+    "note": "Der Titel nennt nur 有; Besitz und Existenz sind die 有-Satzmuster von HSK 1."
+  },
+  "lesson-24": {
+    "main": [
+      "g:在（引出时间、处所）",
+      "g:方位名词@HSK1",
+      "g:其他结构类型：方位短语"
+    ],
+    "add": [
+      "g:—边",
+      "g:面",
+      "g:处所+有+数量短语+名词"
+    ],
+    "remove": [
+      "g:在",
+      "g:哪儿"
+    ],
+    "note": "g:在 ist der Verlaufs-在 (lesson-19). Das Vollverb 在 „sich befinden“ ist Wortschatz, kein eigener Grammatikpunkt."
+  },
+  "lesson-26": {
+    "main": [
+      "g:指示代词@HSK1",
+      "g:这",
+      "g:指示代词@HSK2"
+    ],
+    "remove": [
+      "g:A这A那",
+      "g:这/那也不X，那/这也不Y"
+    ],
+    "note": "Die Abschnitte zu 这样/那样 und 这么/那么 sind HSK-2-Stoff (指示代词@HSK2), daher HSK 1–2."
+  },
+  "lesson-25": {
+    "main": [
+      "g:想",
+      "g:要"
+    ]
+  },
+  "lesson-27": {
+    "main": [
+      "g:程度副词@HSK1",
+      "g:很",
+      "g:太",
+      "g:真",
+      "g:非常",
+      "g:主谓句2：形容词谓语句"
+    ],
+    "add": [
+      "g:程度副词@HSK3",
+      "g:形容词+数量补语",
+      "g:感叹句"
+    ],
+    "remove": [
+      "g:了¹",
+      "g:了²"
+    ],
+    "note": "比较 und 挺 aus der Gradskala sind HSK 3 (程度副词@HSK3); Adjektiv + 一点儿 ist g:形容词+数量补语 (HSK 2)."
+  },
+  "lesson-18": {
+    "main": [
+      "g:名量词@HSK1",
+      "g:其他结构类型：数量短语"
+    ],
+    "add": [
+      "g:杯",
+      "g:名量词@HSK2",
+      "g:名量词@HSK3"
+    ],
+    "remove": [
+      "g:这",
+      "g:A这A那",
+      "g:这/那也不X，那/这也不Y"
+    ],
+    "note": "张, 条, 位 sind HSK 2, 双, 辆, 封, 把 HSK 3 — verlinkt als Nebenpunkte. Bezug zum Zählwörter-Umbau (Schritt 2/3)."
+  },
+  "lesson-20": {
+    "main": [
+      "g:不",
+      "g:没（有）",
+      "g:否定副词@HSK1"
+    ]
+  },
+  "lesson-28": {
+    "main": [
+      "g:也",
+      "g:都¹"
+    ],
+    "add": [
+      "g:疑问代词的非疑问用法：（1）任指用法：①疑问代词+都……②疑问代词+疑问代词"
+    ],
+    "remove": [
+      "g:什么",
+      "g:X都不/没X"
+    ],
+    "note": "什么都好 / 什么都不想吃 ist der HSK-3-Punkt 任指用法 (Nebenpunkt)."
+  },
+  "lesson-1": {
+    "main": [
+      "g:了¹",
+      "g:了²",
+      "g:完成态：用动态助词“了¹”表示",
+      "g:变化态：用动态助词“了²”表示"
+    ],
+    "add": [
+      "g:没（有）"
+    ]
+  },
+  "lesson-2": {
+    "main": [
+      "g:的¹",
+      "g:地",
+      "g:得"
+    ],
+    "add": [
+      "g:定语：名词性词语、形容词性短语、数量短语作定语",
+      "g:定语：动词或动词性短语、主谓短语作定语",
+      "g:动词+得+形容词性短语"
+    ],
+    "remove": [
+      "g:得（能愿动词）"
+    ]
+  },
+  "lesson-17": {
+    "main": [
+      "g:会",
+      "g:能",
+      "g:可以"
+    ]
+  },
+  "lesson-19": {
+    "main": [
+      "g:在",
+      "g:正在",
+      "g:……在/正在+动词",
+      "g:……在/正在+动词……+呢",
+      "g:……呢"
+    ],
+    "add": [],
+    "remove": [
+      "g:在（引出时间、处所）",
+      "g:呢²"
+    ],
+    "note": "正 allein steht in 时间副词@HSK2 (Nebenpunkt); Kern ist HSK 1."
+  },
+  "lesson-12": {
+    "main": [
+      "g:主谓句4：主谓谓语句",
+      "g:受事主语"
+    ],
+    "note": "Kein chinesisches Muster im Titel: Thema-Kommentar entspricht 主谓谓语句 (大象鼻子长) und 受事主语 (这本书我看过了)."
+  },
+  "lesson-29": {
+    "main": [
+      "g:数量补语2：表示动作持续的时间",
+      "g:（在）……以前/以后/前/后"
+    ],
+    "add": [
+      "g:状语：副词、形容词作状语；表示时间、处所的词语作状语",
+      "g:...的时候",
+      "g:经常",
+      "g:时间副词@HSK2",
+      "g:时间副词@HSK4"
+    ],
+    "remove": [
+      "g:了¹",
+      "g:了²",
+      "g:完成态：用动态助词“了¹”表示",
+      "g:变化态：用动态助词“了²”表示"
+    ],
+    "note": "Dauer nach dem Verb ist HSK 2, 以前/以后 HSK 3; die Stellung des Zeitpunkts (HSK 1) ist Nebenpunkt."
+  },
+  "lesson-30": {
+    "main": [
+      "g:就¹",
+      "g:才¹"
+    ],
+    "add": [
+      "g:一……就……",
+      "g:如果……，就……",
+      "g:要是……，就……"
+    ],
+    "remove": [
+      "g:语气副词@HSK3",
+      "g:语气副词@HSK4",
+      "g:就⁶"
+    ],
+    "note": "Die Übersichten 语气副词@HSK3/4 enthalten andere Lesarten (才² „nur“, 才⁴/就⁵ betonend); 就⁶ ist die Präposition."
+  },
+  "lesson-31": {
+    "main": [
+      "g:疑问句：用“还是”连接的选择问句",
+      "g:或者",
+      "g:还是……吧"
+    ],
+    "add": [
+      "g:或"
+    ],
+    "remove": [
+      "g:可以"
+    ]
+  },
+  "lesson-32": {
+    "main": [
+      "g:又",
+      "g:又……，又……"
+    ],
+    "add": [
+      "g:再¹"
+    ],
+    "remove": [
+      "g:再²"
+    ],
+    "note": "又 ist erst HSK 3; der Kontrast 又/再 setzt 又 voraus, daher HSK 3 (再¹ HSK 1 als Nebenpunkt). 再² „erst …, dann“ gehört zu lesson-36."
+  },
+  "lesson-11": {
+    "main": [
+      "g:过",
+      "g:经历态：用动态助词“过”表示"
+    ],
+    "remove": [
+      "g:了²"
+    ]
+  },
+  "lesson-35": {
+    "main": [
+      "g:一边……，一边……",
+      "g:一边"
+    ],
+    "remove": [
+      "g:又"
+    ]
+  },
+  "lesson-36": {
+    "main": [
+      "g:先……，再/然后……"
+    ],
+    "add": [
+      "g:首先……，然后……"
+    ],
+    "remove": [
+      "g:再¹"
+    ],
+    "note": "首先……其次/然后 (Abschnitt 3) ist HSK 4 und bleibt Nebenpunkt."
+  },
+  "lesson-33": {
+    "main": [
+      "g:从¹"
+    ],
+    "add": [
+      "g:到 + Ort/Zeit"
+    ],
+    "remove": [
+      "g:从²"
+    ],
+    "note": "离 hat keinen eigenen Grammatikpunkt (Wortschatz HSK 2). 从² (Weg: durch, über) kommt in der Lektion nicht vor."
+  },
+  "lesson-3": {
+    "main": [
+      "g:“是……的”句1：强调时间、地点、方式、动作者"
+    ],
+    "remove": [
+      "g:的¹",
+      "g:“是……的”句2：强调说话人的看法或态度",
+      "g:什么",
+      "g:哪儿"
+    ],
+    "note": "Die Lektion behandelt nur 是……的句1 (vergangene Umstände); 句2 (Sprecherhaltung, HSK 3) fehlt."
+  },
+  "lesson-6": {
+    "main": [
+      "g:A比B+形容词",
+      "g:A比B+形容词+数量补语/程度补语",
+      "g:A有/没有B（+这么/那么）+形容词",
+      "g:A跟B一样+形容词"
+    ],
+    "remove": [
+      "g:没（有）",
+      "g:跟¹",
+      "g:跟²"
+    ]
+  },
+  "lesson-15": {
+    "main": [
+      "g:因为……，所以……"
+    ],
+    "add": [
+      "g:为什么",
+      "g:不用关联词语的复句",
+      "g:既然……，就……",
+      "g:之所以…是因为…",
+      "g:由于¹"
+    ],
+    "remove": [
+      "g:因为¹"
+    ],
+    "note": "因为¹ ist die Präposition „wegen“ — nicht Thema der Lektion."
+  },
+  "lesson-34": {
+    "main": [
+      "g:给",
+      "g:跟¹",
+      "g:向²"
+    ],
+    "add": [
+      "g:往"
+    ],
+    "note": "对 (HSK 1) ist Nebenpunkt; 向 kommt in beiden Lesarten vor (Richtung 向², Gegenüber 向¹ in 引出对象@HSK3)."
+  },
+  "lesson-7": {
+    "main": [
+      "g:动词+错/懂/好/会/完",
+      "g:动词+到/住/走/上"
+    ],
+    "add": [
+      "g:动补短语1"
+    ],
+    "note": "Titel ohne Muster; die Resultativkomplemente sind 结果补语1 (HSK 2) und 结果补语2 (HSK 3)."
+  },
+  "lesson-8": {
+    "main": [
+      "g:动词+得+形容词性短语",
+      "g:主语+动词+宾语+动词+补语"
+    ],
+    "add": [
+      "g:动词/形容词+得+动词短语",
+      "g:动词/形容词+得+主谓短语"
+    ],
+    "remove": [
+      "g:得（能愿动词）"
+    ],
+    "note": "Nach dem Syllabus ist V + 得 + Adjektiv ein 状态补语 (Zustandskomplement), kein 程度补语. Abschnitt 3 (累得不想说话, 冷得我发抖) ist HSK-5-Stoff."
+  },
+  "lesson-10": {
+    "main": [
+      "g:着",
+      "g:动词+着：（1）表示状态的持续",
+      "g:“着”表示动作的伴随：动词1+着+动词2",
+      "g:处所+动词+着(+数量短语)+名词"
+    ],
+    "add": [
+      "g:持续态：表示动作的持续"
+    ]
+  },
+  "lesson-37": {
+    "main": [
+      "g:要/快要/就要……了"
+    ],
+    "add": [
+      "g:时间副词@HSK2",
+      "g:时间副词@HSK4"
+    ],
+    "remove": [
+      "g:要",
+      "g:了¹",
+      "g:了²",
+      "g:X了Y，Y了X"
+    ],
+    "note": "将/将要 (Abschnitt 4) sind HSK 4 und Nebenpunkte."
+  },
+  "lesson-4": {
+    "main": [
+      "g:把",
+      "g:主语+把+宾语+动词+在/到+处所",
+      "g:主语+把+宾语+动词+结果补语/趋向补语/状态补语"
+    ],
+    "add": [
+      "g:主语+把+宾语1+动词（+给）+宾语2",
+      "g:主语+把+宾语+动词+了"
+    ]
+  },
+  "lesson-14": {
+    "main": [
+      "g:虽然……，但是……",
+      "g:虽然……，可是……"
+    ],
+    "add": [
+      "g:……，不过……"
+    ],
+    "remove": [
+      "g:疑问句：用“还是”连接的选择问句",
+      "g:（是）……，还是……"
+    ],
+    "note": "虽然……但是 ist im HSK 2025 bereits HSK 2, 可是 HSK 3."
+  },
+  "lesson-38": {
+    "main": [
+      "g:除了……（以外），……还/也/都……"
+    ],
+    "add": [
+      "g:除"
+    ],
+    "remove": [
+      "g:什么",
+      "g:都¹",
+      "g:还¹",
+      "g:也",
+      "g:还²"
+    ]
+  },
+  "lesson-39": {
+    "main": [
+      "g:不但……，而且……"
+    ],
+    "remove": [
+      "g:还¹",
+      "g:也",
+      "g:还²"
+    ]
+  },
+  "lesson-40": {
+    "main": [
+      "g:只要……，就……",
+      "g:只有……，才……"
+    ],
+    "remove": [
+      "g:就¹",
+      "g:才¹",
+      "g:语气副词@HSK3",
+      "g:语气副词@HSK4",
+      "g:就⁶"
+    ]
+  },
+  "lesson-41": {
+    "main": [
+      "g:动词+得/不+动词/形容词"
+    ],
+    "add": [
+      "g:动补短语2",
+      "g:来得及/来不及"
+    ],
+    "remove": [
+      "g:不",
+      "g:可能",
+      "g:得",
+      "g:得（能愿动词）"
+    ]
+  },
+  "lesson-42": {
+    "main": [
+      "g:对……来说",
+      "g:关于"
+    ],
+    "note": "至于 (Abschnitt 4) ist HSK 6 und Nebenpunkt."
+  },
+  "lesson-5": {
+    "main": [
+      "g:被",
+      "g:主语+被+宾语+动词+其他成分",
+      "g:主语+被+动词+其他成分"
+    ],
+    "add": [
+      "g:主语+叫/让+宾语+动词+其他成分",
+      "g:受事主语"
+    ]
+  },
+  "lesson-9": {
+    "main": [
+      "g:简单趋向补语的趋向意义用法：（1）动词+来/去",
+      "g:动词+上/下/进/出/过/回",
+      "g:复合趋向补语的趋向意义用法：动词+出来/出去/过来/过去/回来/回去/进来/进去/起来/上来/上去/下来/下去",
+      "g:表示动作行为的开始：动词+上/起来",
+      "g:表示动作行为的持续：动词+下去/下来",
+      "g:趋向补语的引申用法：（1）表示结果意义：动词+出/起/下"
+    ],
+    "note": "Titel ohne Muster. Wörtliche Richtungskomplemente sind HSK 2, die übertragenen (起来 „anfangen“, 下去 „weiter“, 出来 „erkennen“) HSK 3."
+  },
+  "lesson-16": {
+    "main": [
+      "g:越……越……",
+      "g:越来越"
+    ]
+  },
+  "lesson-13": {
+    "main": [
+      "g:连……也/都……，……更……"
+    ],
+    "add": [
+      "g:一……也/都+不/没……"
+    ],
+    "remove": [
+      "g:都¹",
+      "g:也"
+    ],
+    "note": "连……都/也 steht im Syllabus als HSK-4-Punkt 连……也/都……，……更……; 我一口也没吃 ist HSK 3 (一……也不)."
+  },
+  "lesson-43": {
+    "main": [
+      "g:既……，又/也……",
+      "g:又……，又……"
+    ],
+    "remove": [
+      "g:也",
+      "g:又"
+    ]
+  },
+  "lesson-44": {
+    "main": [
+      "g:不管……，都/也……",
+      "g:无论……，都/也……"
+    ],
+    "add": [
+      "g:疑问代词的非疑问用法：（1）任指用法：①疑问代词+都……②疑问代词+疑问代词"
+    ],
+    "remove": [
+      "g:都¹",
+      "g:什么",
+      "g:语气副词@HSK2",
+      "g:疑问句：用“还是”连接的选择问句",
+      "g:（是）……，还是……"
+    ]
+  },
+  "lesson-45": {
+    "main": [
+      "g:与其……，宁愿/宁可……",
+      "g:宁可/宁愿……，也不……"
+    ],
+    "add": [
+      "g:与其说…不如说…",
+      "g:倒不如"
+    ],
+    "remove": [
+      "g:也"
+    ],
+    "note": "与其……不如 ist kein eigener Syllabus-Punkt (与其 ist Wortschatz HSK 6); die verwandten Muster mit 宁可/宁愿 stehen auf HSK 7–9. Die Engine hat dafür noch keinen Filterknopf."
+  }
+}

@@ -1,0 +1,22 @@
+{
+ "_doc": "Accepted exceptions for scripts/lessons/validate.cjs. pinyin: example sentences whose CC-CEDICT warning is a false positive. vocabulary: per lesson, words above the vocabulary limit that are justified (see link-report.md, section Fixed).",
+ "pinyin": [
+  "我能看中文书。"
+ ],
+ "vocabulary": {
+  "lesson-12": [
+   "大象",
+   "鼻子"
+  ],
+  "lesson-11": [
+   "北京烤鸭",
+   "臭豆腐",
+   "寿司",
+   "曾经"
+  ],
+  "lesson-18": [
+   "筷子",
+   "信"
+  ]
+ }
+}

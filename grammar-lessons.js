@@ -10,6 +10,7 @@
       title: "Chinesische Satzstellung",
       subtitle: "SVO, Zeitangaben, Ortsangaben & Adverbien",
       level: 'HSK1',
+      grammarIds: ["g:状语：副词、形容词作状语；表示时间、处所的词语作状语","g:主谓句1：动词谓语句","g:还¹","g:在（引出时间、处所）","g:主语：名词、代词或名词性短语作主语","g:宾语：名词、代词或名词性短语作宾语","g:已经","g:经常"],
       intro: "Die chinesische Satzstellung ist in vielerlei Hinsicht <strong>einfacher</strong> als die deutsche — es gibt keine Verbzweitstellung, keine Satzklammer, kein Verb am Ende im Nebensatz. Aber sie folgt <strong>eigenen, strikten Regeln</strong>, die sich vom Deutschen unterscheiden. Besonders die Position von Zeit- und Ortsangaben überrascht deutschsprachige Lernende regelmäßig. Wenn du diese Grundordnung einmal verstanden hast, werden deine chinesischen Sätze sofort natürlicher klingen.",
       sections: [
         {
@@ -30,7 +31,7 @@
             { cn: "我明天去北京。", pinyin: "Wǒ míngtiān qù Běijīng.", de: "Ich fahre morgen nach Peking." },
             { cn: "她昨天买了一件衣服。", pinyin: "Tā zuótiān mǎi le yí jiàn yīfu.", de: "Sie hat gestern ein Kleidungsstück gekauft." },
             { cn: "我们下午三点开会。", pinyin: "Wǒmen xiàwǔ sān diǎn kāihuì.", de: "Wir haben um drei Uhr nachmittags ein Meeting." },
-            { cn: "明天我不上班。", pinyin: "Míngtiān wǒ bù shàngbān.", de: "Morgen arbeite ich nicht. (Zeit am Satzanfang)" }
+            { cn: "明天我不上班。", pinyin: "Míngtiān wǒ bú shàngbān.", de: "Morgen arbeite ich nicht. (Zeit am Satzanfang)" }
           ],
           tip: "Der häufigste Fehler: ❌ 我去明天北京 (nach deutschem Muster). Richtig: ✅ 我明天去北京. Zeitangabe <strong>immer vor</strong> dem Verb!"
         },
@@ -39,8 +40,8 @@
           text: "Auch Ortsangaben stehen <strong>vor dem Verb</strong>, nicht danach. Die typische Struktur ist: <strong>Subjekt + 在 + Ort + Verb + Objekt</strong>. Bei gleichzeitiger Zeit- und Ortsangabe gilt: <strong>Zeit vor Ort</strong>.",
           examples: [
             { cn: "我在家吃饭。", pinyin: "Wǒ zài jiā chīfàn.", de: "Ich esse zu Hause." },
-            { cn: "她在图书馆学习。", pinyin: "Tā zài túshūguǎn xuéxí.", de: "Sie lernt in der Bibliothek." },
-            { cn: "他每天在公园跑步。", pinyin: "Tā měitiān zài gōngyuán pǎobù.", de: "Er joggt jeden Tag im Park. (Zeit + Ort + Verb)" },
+            { cn: "她在学校学习。", pinyin: "Tā zài xuéxiào xuéxí.", de: "Sie lernt in der Schule." },
+            { cn: "他每天在家里看书。", pinyin: "Tā měitiān zài jiā lǐ kàn shū.", de: "Er liest jeden Tag zu Hause. (Zeit + Ort + Verb)" },
             { cn: "我们明天在学校见面。", pinyin: "Wǒmen míngtiān zài xuéxiào jiànmiàn.", de: "Wir treffen uns morgen in der Schule." }
           ],
           tip: "Merke dir die Reihenfolge wie ein Trichter — vom Großen zum Kleinen: <strong>Wann → Wo → Was tun</strong>. Also: Subjekt + Zeit + Ort + Verb + Objekt."
@@ -50,7 +51,7 @@
           text: "Adverbien wie 也 (auch), 常常/经常 (oft), 已经 (schon), 都 (alle) und 还 (noch) stehen im Chinesischen <strong>immer direkt vor dem Verb</strong>, nach dem Subjekt. Sie wandern nie ans Satzende.",
           examples: [
             { cn: "我也喜欢咖啡。", pinyin: "Wǒ yě xǐhuan kāfēi.", de: "Ich mag auch Kaffee." },
-            { cn: "她常常去中国。", pinyin: "Tā chángcháng qù Zhōngguó.", de: "Sie fährt oft nach China." },
+            { cn: "她经常去中国。", pinyin: "Tā jīngcháng qù Zhōngguó.", de: "Sie fährt oft nach China." },
             { cn: "他已经走了。", pinyin: "Tā yǐjīng zǒu le.", de: "Er ist schon gegangen." },
             { cn: "我们都很高兴。", pinyin: "Wǒmen dōu hěn gāoxìng.", de: "Wir sind alle froh." }
           ],
@@ -65,11 +66,12 @@
       title: "Fragen stellen",
       subtitle: "吗, 呢, Fragewörter und ihre Position",
       level: 'HSK1',
+      grammarIds: ["g:疑问代词@HSK1","g:吗","g:疑问句：是非问句","g:疑问句：特指问句","g:什么","g:几","g:谁","g:哪儿","g:怎么","g:语气助词@HSK1","g:呢²","g:为什么"],
       intro: "Fragen stellen ist im Chinesischen überraschend einfach — du musst weder die Wortstellung ändern noch Hilfsverben einfügen. Für Ja/Nein-Fragen hängst du einfach <strong>吗</strong> an einen Aussagesatz. Für offene Fragen (W-Fragen) setzt du das Fragewort <strong>genau an die Stelle, wo die Antwort stehen würde</strong> — nicht an den Satzanfang wie im Deutschen. Dieses Prinzip ist simpel, aber für deutschsprachige Lernende zunächst ungewohnt.",
       sections: [
         {
           heading: "吗 (ma) — Ja/Nein-Fragen",
-          text: "Die einfachste Art, eine Frage zu stellen: Nimm einen <strong>Aussagesatz</strong> und hänge <strong>吗</strong> ans Ende. Fertig! Die Wortstellung ändert sich nicht. 吗 ist ein reiner Fragepartikel ohne eigene Bedeutung.",
+          text: "Die einfachste Art, eine Frage zu stellen: Nimm einen <strong>Aussagesatz</strong> und hänge <strong>吗</strong> ans Ende. Fertig! Die Wortstellung ändert sich nicht. 吗 ist eine reine Fragepartikel ohne eigene Bedeutung.",
           examples: [
             { cn: "你是中国人吗？", pinyin: "Nǐ shì Zhōngguó rén ma?", de: "Bist du Chinese/Chinesin?" },
             { cn: "你喜欢咖啡吗？", pinyin: "Nǐ xǐhuan kāfēi ma?", de: "Magst du Kaffee?" },
@@ -94,7 +96,7 @@
           text: "Chinesisch hat eine Reihe von Fragewörtern, die du unbedingt kennen solltest. Das Besondere: Sie stehen <strong>an der Position der erwarteten Antwort</strong> im Satz — nicht am Anfang!",
           examples: [
             { cn: "你叫什么名字？", pinyin: "Nǐ jiào shénme míngzi?", de: "Wie heißt du? (什么 = was/welcher)" },
-            { cn: "谁是你的老师？", pinyin: "Shéi shì nǐ de lǎoshī?", de: "Wer ist dein Lehrer? (谁 = wer)" },
+            { cn: "谁是你的老师？", pinyin: "Shéi shì nǐ de lǎoshī?", de: "Wer ist deine Lehrkraft? (谁 = wer)" },
             { cn: "你在哪儿工作？", pinyin: "Nǐ zài nǎr gōngzuò?", de: "Wo arbeitest du? (哪儿 = wo)" },
             { cn: "你怎么去学校？", pinyin: "Nǐ zěnme qù xuéxiào?", de: "Wie kommst du zur Schule? (怎么 = wie)" },
             { cn: "你为什么学中文？", pinyin: "Nǐ wèi shénme xué Zhōngwén?", de: "Warum lernst du Chinesisch? (为什么 = warum)" }
@@ -107,7 +109,7 @@
           examples: [
             { cn: "你有几个孩子？", pinyin: "Nǐ yǒu jǐ gè háizi?", de: "Wie viele Kinder hast du? (Erwartet kleine Zahl)" },
             { cn: "这个多少钱？", pinyin: "Zhège duōshao qián?", de: "Wie viel kostet das?" },
-            { cn: "你们班有多少学生？", pinyin: "Nǐmen bān yǒu duōshao xuéshēng?", de: "Wie viele Schüler hat eure Klasse?" },
+            { cn: "你们班有多少学生？", pinyin: "Nǐmen bān yǒu duōshao xuéshēng?", de: "Wie viele Schülerinnen und Schüler hat eure Klasse?" },
             { cn: "今天几号？", pinyin: "Jīntiān jǐ hào?", de: "Der Wievielte ist heute?" }
           ],
           tip: "Im Deutschen gibt es diese Unterscheidung nicht — wir fragen immer „wie viele?\". Merke: 几 + Zählwort (kleine Zahl erwartet), 多少 ohne Zählwort (große/unbekannte Zahl)."
@@ -121,6 +123,7 @@
       title: "有 (yǒu)",
       subtitle: "Haben, Existenz und mehr",
       level: 'HSK1',
+      grammarIds: ["g:“有”字句1：表示领有","g:处所+有+数量短语+名词","g:有（一）点儿","g:否定副词@HSK1","g:没（有）"],
       intro: "有 gehört zu den <strong>allerersten Verben</strong>, die du im Chinesischen lernst — und es ist eines der vielseitigsten. Es bedeutet nicht nur „haben\" im Sinne von Besitz, sondern drückt auch <strong>Existenz</strong> aus: „es gibt\" oder „da ist\". Anders als fast alle anderen chinesischen Verben wird 有 <strong>niemals mit 不 verneint</strong>, sondern ausschließlich mit 没. Diese Ausnahme solltest du dir von Anfang an einprägen.",
       sections: [
         {
@@ -139,8 +142,8 @@
           text: "Wenn 有 ohne persönliches Subjekt steht oder der Ort das „Subjekt\" ist, drückt es <strong>Existenz</strong> aus: „Es gibt...\" oder „Dort ist...\". Die Struktur lautet: <strong>Ort + 有 + Ding</strong>.",
           examples: [
             { cn: "桌子上有一本书。", pinyin: "Zhuōzi shang yǒu yì běn shū.", de: "Auf dem Tisch liegt ein Buch." },
-            { cn: "教室里有三十个学生。", pinyin: "Jiàoshì lǐ yǒu sānshí gè xuéshēng.", de: "Im Klassenzimmer sind dreißig Schüler." },
-            { cn: "附近有没有银行？", pinyin: "Fùjìn yǒu méiyǒu yínháng?", de: "Gibt es in der Nähe eine Bank?" },
+            { cn: "教室里有三十个学生。", pinyin: "Jiàoshì lǐ yǒu sānshí gè xuéshēng.", de: "Im Klassenzimmer sind dreißig Schülerinnen und Schüler." },
+            { cn: "这儿有没有商店？", pinyin: "Zhèr yǒu méiyǒu shāngdiàn?", de: "Gibt es hier ein Geschäft?" },
             { cn: "这里有很多好吃的。", pinyin: "Zhèlǐ yǒu hěn duō hǎochī de.", de: "Hier gibt es viel Leckeres." }
           ],
           tip: "Im Deutschen sagen wir „Es gibt eine Bank in der Nähe\" — im Chinesischen steht der Ort zuerst: 附近有银行. Nicht: ❌ 有银行在附近."
@@ -150,18 +153,18 @@
           text: "有 ist das einzige häufige Verb, das <strong>ausschließlich mit 没</strong> verneint wird — niemals mit 不! 没有 kann zu 没 verkürzt werden, aber 不有 existiert nicht.",
           examples: [
             { cn: "我没有车。", pinyin: "Wǒ méiyǒu chē.", de: "Ich habe kein Auto." },
-            { cn: "冰箱里没有牛奶了。", pinyin: "Bīngxiāng lǐ méiyǒu niúnǎi le.", de: "Im Kühlschrank ist keine Milch mehr." },
+            { cn: "杯子里没有水了。", pinyin: "Bēizi lǐ méiyǒu shuǐ le.", de: "Im Glas ist kein Wasser mehr." },
             { cn: "今天没有课。", pinyin: "Jīntiān méiyǒu kè.", de: "Heute gibt es keinen Unterricht." },
             { cn: "他没什么钱。", pinyin: "Tā méi shénme qián.", de: "Er hat nicht viel Geld." }
           ],
-          tip: "Eiserne Regel: ❌ 不有 gibt es NICHT. Es heißt immer 没有. Das ist die häufigste Ausnahme bei der Verneinung und ein typischer Anfängerfehler."
+          tip: "Eiserne Regel: ❌ 不有 gibt es NICHT. Es heißt immer 没有. Das ist die häufigste Ausnahme bei der Verneinung und ein typischer Fehler am Anfang."
         },
         {
           heading: "有一点 vs. 一点",
           text: "<strong>有(一)点(儿)</strong> steht <em>vor</em> Adjektiven und hat eine leicht <strong>negative</strong> Konnotation: „etwas zu...\". <strong>一点(儿)</strong> steht <em>nach</em> Adjektiven und ist <strong>neutral</strong>: „ein bisschen (mehr)\".",
           examples: [
             { cn: "今天有点儿冷。", pinyin: "Jīntiān yǒudiǎnr lěng.", de: "Heute ist es etwas kalt. (Negativ: unangenehm)" },
-            { cn: "这个菜有点儿辣。", pinyin: "Zhège cài yǒudiǎnr là.", de: "Dieses Gericht ist etwas scharf. (Zu scharf für mich)" },
+            { cn: "这个菜有点儿贵。", pinyin: "Zhège cài yǒudiǎnr guì.", de: "Dieses Gericht ist etwas teuer. (Zu teuer für mich)" },
             { cn: "便宜一点儿吧！", pinyin: "Piányi yìdiǎnr ba!", de: "Ein bisschen billiger bitte! (Neutral: Vergleich)" },
             { cn: "请说慢一点儿。", pinyin: "Qǐng shuō màn yìdiǎnr.", de: "Bitte sprich etwas langsamer." }
           ],
@@ -176,7 +179,8 @@
       title: "在 (zài)",
       subtitle: "Ort, Position und Handlung an einem Ort",
       level: 'HSK1',
-      intro: "在 ist eines der <strong>häufigsten und vielseitigsten Wörter</strong> im Chinesischen. Es kann als Verb („sich befinden\"), als Präposition („an/in/auf\") und sogar als Progressivmarker (→ Lektion 19) fungieren. Für den Anfang sind vor allem zwei Funktionen wichtig: <strong>Wo ist etwas?</strong> und <strong>Wo passiert etwas?</strong> Wenn du 在 beherrschst, kannst du über Orte und Positionen fließend sprechen.",
+      grammarIds: ["g:方位名词@HSK1","g:在（引出时间、处所）","g:其他结构类型：方位短语","g:—边","g:处所+有+数量短语+名词","g:面"],
+      intro: "在 ist eines der <strong>häufigsten und vielseitigsten Wörter</strong> im Chinesischen. Es kann als Verb („sich befinden\"), als Präposition („an/in/auf\") und sogar als Progressivmarker (→ [[lesson:lesson-19]]) fungieren. Für den Anfang sind vor allem zwei Funktionen wichtig: <strong>Wo ist etwas?</strong> und <strong>Wo passiert etwas?</strong> Wenn du 在 beherrschst, kannst du über Orte und Positionen fließend sprechen.",
       sections: [
         {
           heading: "在 + Ort — Wo befindet sich etwas?",
@@ -185,7 +189,7 @@
             { cn: "我在北京。", pinyin: "Wǒ zài Běijīng.", de: "Ich bin in Peking." },
             { cn: "他在家。", pinyin: "Tā zài jiā.", de: "Er ist zu Hause." },
             { cn: "你的书在桌子上。", pinyin: "Nǐ de shū zài zhuōzi shang.", de: "Dein Buch ist auf dem Tisch." },
-            { cn: "厕所在哪儿？", pinyin: "Cèsuǒ zài nǎr?", de: "Wo ist die Toilette?" }
+            { cn: "医院在哪儿？", pinyin: "Yīyuàn zài nǎr?", de: "Wo ist das Krankenhaus?" }
           ],
           tip: "Im Deutschen benutzen wir „sein\" + Ort: „Ich bin in Peking.\" Im Chinesischen wird dafür 在 verwendet, nicht 是! ❌ 我是在北京 (als Existenzaussage) → ✅ 我在北京."
         },
@@ -194,9 +198,9 @@
           text: "Um Positionen genauer zu beschreiben, folgen nach dem Nomen sogenannte <strong>Richtungswörter</strong> (方位词). Sie funktionieren wie Nachsilben, die die genaue Lage angeben.",
           examples: [
             { cn: "猫在桌子下面。", pinyin: "Māo zài zhuōzi xiàmian.", de: "Die Katze ist unter dem Tisch. (下面 = unten)" },
-            { cn: "银行在学校旁边。", pinyin: "Yínháng zài xuéxiào pángbiān.", de: "Die Bank ist neben der Schule. (旁边 = nebenan)" },
+            { cn: "商店在学校旁边。", pinyin: "Shāngdiàn zài xuéxiào pángbiān.", de: "Das Geschäft ist neben der Schule. (旁边 = nebenan)" },
             { cn: "书包在椅子后面。", pinyin: "Shūbāo zài yǐzi hòumian.", de: "Der Rucksack ist hinter dem Stuhl. (后面 = hinten)" },
-            { cn: "钥匙在包里面。", pinyin: "Yàoshi zài bāo lǐmian.", de: "Der Schlüssel ist in der Tasche. (里面 = innen)" }
+            { cn: "手机在包里面。", pinyin: "Shǒujī zài bāo lǐmian.", de: "Das Handy ist in der Tasche. (里面 = innen)" }
           ],
           tip: "Die wichtigsten Richtungswörter: <strong>上</strong> (oben/auf), <strong>下</strong> (unten/unter), <strong>里</strong> (innen/in), <strong>外</strong> (außen/draußen), <strong>前</strong> (vorne/vor), <strong>后</strong> (hinten/hinter), <strong>旁边</strong> (neben), <strong>对面</strong> (gegenüber). Oft mit Suffix 面 oder 边 verwendet."
         },
@@ -204,9 +208,9 @@
           heading: "在 + Ort + Verb — Handlung an einem Ort",
           text: "Wenn du sagen willst, dass jemand etwas <strong>an einem bestimmten Ort tut</strong>, steht 在 + Ort <strong>vor dem Verb</strong> — nicht danach! Dies ist einer der häufigsten Unterschiede zum Deutschen.",
           examples: [
-            { cn: "我在家吃饭。", pinyin: "Wǒ zài jiā chīfàn.", de: "Ich esse zu Hause. (Nicht: Ich esse in Hause)" },
-            { cn: "她在图书馆看书。", pinyin: "Tā zài túshūguǎn kànshū.", de: "Sie liest in der Bibliothek." },
-            { cn: "孩子们在公园玩。", pinyin: "Háizimen zài gōngyuán wán.", de: "Die Kinder spielen im Park." },
+            { cn: "我在家吃饭。", pinyin: "Wǒ zài jiā chīfàn.", de: "Ich esse zu Hause." },
+            { cn: "她在朋友家看书。", pinyin: "Tā zài péngyou jiā kàn shū.", de: "Sie liest bei einer Freundin oder einem Freund zu Hause." },
+            { cn: "孩子们在外面玩。", pinyin: "Háizimen zài wàimian wán.", de: "Die Kinder spielen draußen." },
             { cn: "你在哪儿工作？", pinyin: "Nǐ zài nǎr gōngzuò?", de: "Wo arbeitest du?" }
           ],
           tip: "Deutsch: „Ich esse <em>zu Hause</em>\" — Ort nach dem Verb. Chinesisch: 我<em>在家</em>吃饭 — Ort <strong>vor</strong> dem Verb. Das ist eine der wichtigsten Regeln!"
@@ -217,8 +221,8 @@
           examples: [
             { cn: "书在桌子上。", pinyin: "Shū zài zhuōzi shang.", de: "Das Buch ist auf dem Tisch. (Du suchst das Buch)" },
             { cn: "桌子上有一本书。", pinyin: "Zhuōzi shang yǒu yì běn shū.", de: "Auf dem Tisch liegt ein Buch. (Du beschreibst den Tisch)" },
-            { cn: "我的猫在沙发上。", pinyin: "Wǒ de māo zài shāfā shang.", de: "Meine Katze ist auf dem Sofa. (Bekannte Katze)" },
-            { cn: "沙发上有一只猫。", pinyin: "Shāfā shang yǒu yì zhī māo.", de: "Auf dem Sofa ist eine Katze. (Unbekannte Katze)" }
+            { cn: "我的猫在椅子上。", pinyin: "Wǒ de māo zài yǐzi shang.", de: "Meine Katze ist auf dem Stuhl. (Bekannte Katze)" },
+            { cn: "椅子上有一只猫。", pinyin: "Yǐzi shang yǒu yì zhī māo.", de: "Auf dem Stuhl ist eine Katze. (Unbekannte Katze)" }
           ],
           tip: "Einfache Regel: <strong>在</strong>: X ist bei Y (Bekanntes lokalisieren). <strong>有</strong>: Bei Y gibt es X (Neues einführen). Vergleich: 在 → „Wo ist mein Buch?\" / 有 → „Was liegt auf dem Tisch?\""
         }
@@ -230,19 +234,20 @@
       number: 5,
       title: "这 (zhè) und 那 (nà)",
       subtitle: "Demonstrativpronomen: dies & jenes",
-      level: 'HSK1',
+      level: 'HSK1/HSK2',
+      grammarIds: ["g:指示代词@HSK1","g:这","g:指示代词@HSK2","g:那么"],
       intro: "这 (dies) und 那 (jenes) sind die chinesischen <strong>Demonstrativpronomen</strong> — sie zeigen auf Dinge, Orte und Weisen. Anders als im Deutschen, wo „dieser\" je nach Genus und Kasus dekliniert wird (dieser, diese, dieses, diesem...), bleiben 这 und 那 <strong>immer gleich</strong>. Dafür kombinieren sie sich mit Zählwörtern, Ortssuffixen und anderen Elementen zu einer ganzen Familie nützlicher Ausdrücke.",
       sections: [
         {
           heading: "这/那 + Zählwort + Nomen",
-          text: "Wenn du auf ein bestimmtes Ding zeigst, brauchst du: <strong>这/那 + Zählwort + Nomen</strong>. Das Zählwort darf nicht fehlen! Das universelle Zählwort 个 funktioniert im Zweifel immer.",
+          text: "Wenn du auf ein bestimmtes Ding zeigst, brauchst du: <strong>这/那 + Zählwort + Nomen</strong>. Das Zählwort gehört in der Regel dazu; das universelle 个 passt im Zweifel fast immer. Ohne Zählwort stehen nur 这些/那些 (Mehrzahl: 这些书) und umgangssprachliche Kurzformen wie 这人.",
           examples: [
             { cn: "这个人是谁？", pinyin: "Zhège rén shì shéi?", de: "Wer ist diese Person?" },
-            { cn: "那本书很好看。", pinyin: "Nà běn shū hěn hǎokàn.", de: "Dieses Buch ist sehr gut. (本 = ZW für Bücher)" },
+            { cn: "那本书很好看。", pinyin: "Nà běn shū hěn hǎokàn.", de: "Das Buch dort ist sehr gut. (本 = ZW für Bücher)" },
             { cn: "我要这杯咖啡。", pinyin: "Wǒ yào zhè bēi kāfēi.", de: "Ich möchte diesen Kaffee. (杯 = ZW für Tassen)" },
-            { cn: "那只猫是你的吗？", pinyin: "Nà zhī māo shì nǐ de ma?", de: "Ist diese Katze deine? (只 = ZW für Tiere)" }
+            { cn: "那只猫是你的吗？", pinyin: "Nà zhī māo shì nǐ de ma?", de: "Ist die Katze dort deine? (只 = ZW für Tiere)" }
           ],
-          tip: "Häufiger Fehler: ❌ 这书 ohne Zählwort. Richtig: ✅ 这本书. Im Deutschen brauchen wir kein Zählwort („dieses Buch\"), aber im Chinesischen ist es <strong>Pflicht</strong>."
+          tip: "Typischer Fehler: ❌ 我要这书 statt ✅ 我要这本书. Im Deutschen brauchen wir kein Zählwort („dieses Buch\"), im Chinesischen gehört es <strong>in der Regel</strong> dazu."
         },
         {
           heading: "这里/那里, 这儿/那儿 — hier & dort",
@@ -285,6 +290,7 @@
       title: "想 (xiǎng) und 要 (yào)",
       subtitle: "Wünsche, Absichten und Forderungen",
       level: 'HSK1',
+      grammarIds: ["g:想","g:要","g:会","g:能","g:可以","g:不要"],
       intro: "Im Deutschen haben wir „wollen\", „möchten\", „müssen\", „sollen\" — alles verschiedene Nuancen. Im Chinesischen übernehmen <strong>想</strong> und <strong>要</strong> einen großen Teil dieser Aufgaben. Beide können „wollen\" bedeuten, aber der <strong>Tonfall und die Stärke</strong> sind unterschiedlich: 想 ist ein sanfter Wunsch, 要 eine feste Absicht oder Forderung. Besonders die Verneinung unterscheidet sich dramatisch!",
       sections: [
         {
@@ -305,30 +311,30 @@
             { cn: "我要一杯水。", pinyin: "Wǒ yào yì bēi shuǐ.", de: "Ich möchte/will ein Glas Wasser. (Bestellung)" },
             { cn: "明天我要考试。", pinyin: "Míngtiān wǒ yào kǎoshì.", de: "Morgen habe ich eine Prüfung. / Morgen muss ich eine Prüfung ablegen." },
             { cn: "要下雨了。", pinyin: "Yào xiàyǔ le.", de: "Es wird gleich regnen. (Nahe Zukunft)" },
-            { cn: "你要努力学习。", pinyin: "Nǐ yào nǔlì xuéxí.", de: "Du musst fleißig lernen." }
+            { cn: "你要好好学习。", pinyin: "Nǐ yào hǎohāo xuéxí.", de: "Du musst fleißig lernen." }
           ],
           tip: "In Restaurants wird 要 zum Bestellen verwendet: 我要一个汉堡 (Ich hätte gerne einen Hamburger). Das klingt nicht unhöflich — es ist die normale Bestellform."
         },
         {
           heading: "不想 vs. 不要 — Verneinung",
-          text: "Hier wird es spannend: <strong>不想</strong> heißt einfach „nicht wollen / keine Lust haben\" — höflich und neutral. <strong>不要</strong> dagegen ist ein <strong>Verbot oder eine Aufforderung</strong>: „Tu das nicht!\" Der Unterschied ist riesig!",
+          text: "Hier wird es spannend: <strong>不想</strong> heißt einfach „nicht wollen / keine Lust haben\" — höflich und neutral. <strong>不要</strong> + Verb dagegen ist ein <strong>Verbot oder eine Aufforderung</strong>: „Tu das nicht!\" Der Unterschied ist riesig!",
           examples: [
             { cn: "我不想去。", pinyin: "Wǒ bù xiǎng qù.", de: "Ich möchte nicht gehen. (Höflich, sanft)" },
             { cn: "不要说话！", pinyin: "Bú yào shuōhuà!", de: "Sprich nicht! / Sei still! (Verbot)" },
-            { cn: "不要碰！", pinyin: "Bú yào pèng!", de: "Nicht anfassen! (Warnung)" },
-            { cn: "我不想吃辣的。", pinyin: "Wǒ bù xiǎng chī là de.", de: "Ich möchte nichts Scharfes essen. (Präferenz)" },
-            { cn: "你不要迟到。", pinyin: "Nǐ bú yào chídào.", de: "Komm nicht zu spät! (Ermahnung)" }
+            { cn: "不要走！", pinyin: "Bú yào zǒu!", de: "Geh nicht weg! (Bitte, Warnung)" },
+            { cn: "我不想吃米饭。", pinyin: "Wǒ bù xiǎng chī mǐfàn.", de: "Ich möchte keinen Reis essen. (Präferenz)" },
+            { cn: "上课不要说话。", pinyin: "Shàngkè bú yào shuōhuà.", de: "Im Unterricht nicht reden! (Ermahnung)" }
           ],
-          tip: "<strong>Vorsicht!</strong> Wenn jemand fragt „Willst du Kaffee?\" und du mit 不要 antwortest, klingt das wie „Bloß nicht!\" oder „Untersteh dich!\" Sag lieber 不想喝 oder 不用了，谢谢 (nicht nötig, danke)."
+          tip: "<strong>Achte auf die Form:</strong> Nur <strong>不要 + Verb</strong> ist ein Verbot (不要说话！). Auf die Frage 你要咖啡吗？ („Willst du Kaffee?\") heißt die Antwort 不要 einfach „Nein, möchte ich nicht\" — hier ist 要 das Verb „wollen\". Etwas weicher klingt 不用了，谢谢 (nicht nötig, danke)."
         },
         {
           heading: "Abgrenzung zu 会, 能, 可以",
-          text: "Neben 想 und 要 gibt es noch die modalen Hilfsverben <strong>会</strong> (können/werden), <strong>能</strong> (fähig sein/dürfen) und <strong>可以</strong> (dürfen/können). Sie alle stehen vor dem Verb und drücken verschiedene Nuancen aus — Details dazu findest du in Lektion 17.",
+          text: "Neben 想 und 要 gibt es noch die modalen Hilfsverben <strong>会</strong> (können/werden), <strong>能</strong> (fähig sein/dürfen) und <strong>可以</strong> (dürfen/können). Sie alle stehen vor dem Verb und drücken verschiedene Nuancen aus — Details dazu findest du in [[lesson:lesson-17]].",
           examples: [
             { cn: "我想去。", pinyin: "Wǒ xiǎng qù.", de: "Ich möchte gehen. (Wunsch)" },
             { cn: "我要去。", pinyin: "Wǒ yào qù.", de: "Ich will/muss gehen. (Feste Absicht)" },
-            { cn: "我会去。", pinyin: "Wǒ huì qù.", de: "Ich werde gehen. / Ich kann gehen. (Fähigkeit/Zukunft)" },
-            { cn: "我能去。", pinyin: "Wǒ néng qù.", de: "Ich kann gehen. (Fähigkeit/Erlaubnis)" },
+            { cn: "我会去。", pinyin: "Wǒ huì qù.", de: "Ich werde (bestimmt) hingehen. (Zusage, Vermutung über die Zukunft)" },
+            { cn: "我能去。", pinyin: "Wǒ néng qù.", de: "Ich kann hingehen. (Die Umstände erlauben es.)" },
             { cn: "我可以去。", pinyin: "Wǒ kěyǐ qù.", de: "Ich darf gehen. (Erlaubnis)" }
           ],
           tip: "Eselsbrücke: 想 = Herz (Wunsch), 要 = Faust (Wille/Forderung), 会 = Kopf (Können/Wissen), 能 = Muskel (Fähigkeit), 可以 = grünes Licht (Erlaubnis)."
@@ -342,6 +348,7 @@
       title: "很, 太, 真, 非常",
       subtitle: "Adjektive als Prädikate und Gradausdrücke",
       level: 'HSK1',
+      grammarIds: ["g:程度副词@HSK1","g:很","g:太","g:真","g:非常","g:主谓句2：形容词谓语句","g:有（一）点儿","g:感叹句","g:形容词+数量补语","g:程度副词@HSK3"],
       intro: "Einer der überraschendsten Unterschiede zwischen Deutsch und Chinesisch: Adjektive brauchen im Chinesischen <strong>kein „sein\"</strong> als Hilfsverb. Man sagt nicht „sie ist schön\" (❌ 她是漂亮), sondern einfach „sie sehr schön\" (✅ 她很漂亮). Das kleine Wörtchen 很 steht dabei fast immer vor dem Adjektiv — oft als reiner „Platzhalter\" ohne echte Bedeutung von „sehr\". Daneben gibt es eine ganze Skala von Gradwörtern, die du kennen solltest.",
       sections: [
         {
@@ -382,7 +389,7 @@
           heading: "真, 太...了, 挺 — Emotion und Betonung",
           text: "<strong>真</strong> (wirklich/echt) drückt genuine Überraschung oder Bewunderung aus. <strong>太...了</strong> bedeutet „zu...\" oder „so...\" (oft übertrieben). <strong>挺</strong> ist umgangssprachlich für „ziemlich/recht\".",
           examples: [
-            { cn: "你真厉害！", pinyin: "Nǐ zhēn lìhai!", de: "Du bist wirklich beeindruckend!" },
+            { cn: "你的中文真好！", pinyin: "Nǐ de Zhōngwén zhēn hǎo!", de: "Dein Chinesisch ist wirklich gut!" },
             { cn: "太好了！", pinyin: "Tài hǎo le!", de: "Super! / Großartig! (Ausruf)" },
             { cn: "这个电影太长了。", pinyin: "Zhège diànyǐng tài cháng le.", de: "Dieser Film ist zu lang." },
             { cn: "今天挺冷的。", pinyin: "Jīntiān tǐng lěng de.", de: "Heute ist es ziemlich kalt. (Umgangssprache)" }
@@ -398,7 +405,8 @@
       title: "Zählwörter (量词)",
       subtitle: "Wie man im Chinesischen Dinge zählt",
       level: 'HSK1',
-      intro: "Im Deutschen sagen wir „ein <em>Stück</em> Kuchen\", „drei <em>Glas</em> Wasser\", „zwei <em>Blatt</em> Papier\" — aber bei den meisten Dingen brauchen wir kein Zählwort: „ein Buch\", „zwei Katzen\". Im Chinesischen ist das <strong>immer</strong> nötig! Zwischen Zahl und Nomen muss <strong>immer ein Zählwort</strong> (量词, liàngcí) stehen. 个 ist der universelle „Joker\", aber es gibt Dutzende spezifischer Zählwörter. Sie zu lernen ist wie Vokabellernen — aber es lohnt sich, denn sie machen dein Chinesisch authentisch.",
+      grammarIds: ["g:名量词@HSK1","g:其他结构类型：数量短语","g:指示代词@HSK1","g:杯","g:名量词@HSK2","g:名量词@HSK3"],
+      intro: "Im Deutschen sagen wir „ein <em>Stück</em> Kuchen\", „drei <em>Glas</em> Wasser\", „zwei <em>Blatt</em> Papier\" — aber bei den meisten Dingen brauchen wir kein Zählwort: „ein Buch\", „zwei Katzen\". Im Chinesischen ist das <strong>fast immer</strong> nötig! Zwischen Zahl und Nomen steht ein <strong>Zählwort</strong> (量词, liàngcí) — Ausnahmen sind Wörter, die selbst als Zählwort dienen (三天, 两年, 二十岁). 个 ist der universelle „Joker\", aber es gibt Dutzende spezifischer Zählwörter. Sie zu lernen ist wie Vokabellernen — aber es lohnt sich, denn sie machen dein Chinesisch authentisch.",
       sections: [
         {
           heading: "Das Universalzählwort 个 (gè)",
@@ -426,7 +434,7 @@
           text: "Auch bei Demonstrativpronomen (这 = dies, 那 = jenes, 哪 = welches) braucht man ein Zählwort: <strong>这/那/哪 + Zählwort + Nomen</strong>.",
           examples: [
             { cn: "这本书很有意思。", pinyin: "Zhè běn shū hěn yǒu yìsi.", de: "Dieses Buch ist sehr interessant." },
-            { cn: "那个学生是谁？", pinyin: "Nàge xuéshēng shì shéi?", de: "Wer ist dieser Student dort?" },
+            { cn: "那个学生是谁？", pinyin: "Nàge xuéshēng shì shéi?", de: "Wer ist der Student/die Studentin dort?" },
             { cn: "你要哪杯咖啡？", pinyin: "Nǐ yào nǎ bēi kāfēi?", de: "Welche Tasse Kaffee möchtest du?" }
           ],
           tip: "Im gesprochenen Chinesisch wird 那个 oft als „nèige\" ausgesprochen und 这个 als „zhèige\" — das ist normaler Umgangssprachgebrauch."
@@ -435,7 +443,7 @@
           heading: "Weitere häufige Zählwörter",
           text: "Mit der Zeit wirst du immer mehr Zählwörter kennenlernen. Hier noch einige wichtige: <strong>位</strong> (höflich für Personen), <strong>双</strong> (Paare), <strong>把</strong> (Gegenstände mit Griff), <strong>辆</strong> (Fahrzeuge), <strong>封</strong> (Briefe/E-Mails).",
           examples: [
-            { cn: "这位老师姓王。", pinyin: "Zhè wèi lǎoshī xìng Wáng.", de: "Dieser Lehrer heißt Wang. (höflich)" },
+            { cn: "这位老师姓王。", pinyin: "Zhè wèi lǎoshī xìng Wáng.", de: "Diese Lehrkraft heißt mit Nachnamen Wang. (höflich)" },
             { cn: "一双筷子", pinyin: "yì shuāng kuàizi", de: "ein Paar Essstäbchen" },
             { cn: "两辆车", pinyin: "liǎng liàng chē", de: "zwei Autos" },
             { cn: "一封信", pinyin: "yì fēng xìn", de: "ein Brief" }
@@ -450,6 +458,7 @@
       title: "不 vs. 没",
       subtitle: "Die zwei Verneinungen des Chinesischen",
       level: 'HSK1',
+      grammarIds: ["g:否定副词@HSK1","g:不","g:没（有）"],
       intro: "Im Deutschen haben wir „nicht\" und „kein\" — im Chinesischen gibt es <strong>不</strong> (bù) und <strong>没</strong> (méi). Beide bedeuten „nicht\", aber sie werden in <strong>völlig verschiedenen Situationen</strong> verwendet. Die grundlegende Regel: 不 verneint <strong>Absichten, Gewohnheiten und Zustände</strong>; 没 verneint <strong>abgeschlossene Handlungen und Besitz</strong>. Diesen Unterschied zu meistern ist einer der ersten großen Durchbrüche beim Chinesischlernen.",
       sections: [
         {
@@ -459,13 +468,13 @@
             { cn: "我不喜欢咖啡。", pinyin: "Wǒ bù xǐhuan kāfēi.", de: "Ich mag keinen Kaffee. (Eigenschaft/Gewohnheit)" },
             { cn: "他不来。", pinyin: "Tā bù lái.", de: "Er kommt nicht. (Absicht/Zukunft)" },
             { cn: "今天不热。", pinyin: "Jīntiān bú rè.", de: "Heute ist es nicht heiß. (Zustand)" },
-            { cn: "我不是学生。", pinyin: "Wǒ bú shì xuéshēng.", de: "Ich bin kein Student. (是 wird immer mit 不 verneint!)" }
+            { cn: "我不是学生。", pinyin: "Wǒ bú shì xuéshēng.", de: "Ich bin nicht Student/Studentin. (是 wird immer mit 不 verneint!)" }
           ],
           tip: "不 vor dem 4. Ton wird zu bú: 不是 (bú shì), 不对 (bú duì), 不去 (bú qù). In allen anderen Fällen bleibt es bù."
         },
         {
-          heading: "没 (méi) — Vergangenheit & Besitz",
-          text: "没 wird verwendet für: <strong>vergangene Handlungen, die nicht stattfanden</strong> (ich habe nicht...) und <strong>Besitz</strong> (haben/nicht haben). 没 ist die Verneinung von 有 und die Verneinung für abgeschlossene Handlungen.",
+          heading: "没 (méi) — nicht geschehen & nicht haben",
+          text: "没 wird verwendet für: <strong>Handlungen, die (noch) nicht stattgefunden haben</strong> (ich habe nicht...) und <strong>Besitz</strong> (haben/nicht haben). 没 ist die Verneinung von 有 und die Verneinung für abgeschlossene Handlungen.",
           examples: [
             { cn: "我没有钱。", pinyin: "Wǒ méiyǒu qián.", de: "Ich habe kein Geld." },
             { cn: "他昨天没来。", pinyin: "Tā zuótiān méi lái.", de: "Er ist gestern nicht gekommen." },
@@ -489,7 +498,7 @@
           text: "Einige Verben und Ausdrücke haben feste Verneinungspartner: 是 → immer 不是. 有 → immer 没有. Modale Hilfsverben (会, 能, 可以, 应该) → meistens 不.",
           examples: [
             { cn: "他不会游泳。", pinyin: "Tā bú huì yóuyǒng.", de: "Er kann nicht schwimmen." },
-            { cn: "你不应该这样做。", pinyin: "Nǐ bù yīnggāi zhèyàng zuò.", de: "Du solltest das nicht so machen." },
+            { cn: "她不能来。", pinyin: "Tā bù néng lái.", de: "Sie kann nicht kommen." },
             { cn: "这里没有人。", pinyin: "Zhèlǐ méiyǒu rén.", de: "Hier ist niemand." },
             { cn: "我没准备好。", pinyin: "Wǒ méi zhǔnbèi hǎo.", de: "Ich bin noch nicht bereit." }
           ],
@@ -503,7 +512,8 @@
       number: 10,
       title: "也 (yě) und 都 (dōu)",
       subtitle: "Auch, alle, beide — Adverbien mit fester Position",
-      level: 'HSK1/HSK2',
+      level: 'HSK1',
+      grammarIds: ["g:都¹","g:也","g:疑问代词的非疑问用法：（1）任指用法：①疑问代词+都……②疑问代词+疑问代词"],
       intro: "也 (auch) und 都 (alle/beide) gehören zu den <strong>ersten und wichtigsten Adverbien</strong> im Chinesischen. Sie scheinen einfach, haben aber eine Eigenschaft, die deutschsprachige Lernende regelmäßig stolpern lässt: Sie stehen <strong>immer vor dem Verb</strong> und <strong>nie am Satzanfang oder -ende</strong>. Außerdem verändert sich bei 都 die Bedeutung komplett, je nachdem ob die Verneinung <em>vor</em> oder <em>nach</em> 都 steht.",
       sections: [
         {
@@ -522,7 +532,7 @@
           text: "都 bedeutet „alle\" oder „beide\" und fasst das Subjekt (oder ein vorangehendes Element) <strong>zusammen</strong>. Es steht ebenfalls <strong>vor dem Verb</strong>. Wichtig: 都 bezieht sich auf etwas <em>vor</em> ihm, nicht nach ihm.",
           examples: [
             { cn: "我们都去。", pinyin: "Wǒmen dōu qù.", de: "Wir gehen alle." },
-            { cn: "他们都是学生。", pinyin: "Tāmen dōu shì xuéshēng.", de: "Sie sind alle Studenten." },
+            { cn: "他们都是学生。", pinyin: "Tāmen dōu shì xuéshēng.", de: "Sie sind alle Studierende." },
             { cn: "这些书我都看过。", pinyin: "Zhèxiē shū wǒ dōu kàn guo.", de: "Diese Bücher habe ich alle gelesen." },
             { cn: "什么都好。", pinyin: "Shénme dōu hǎo.", de: "Alles ist gut. (什么都 = alles)" }
           ],
@@ -536,7 +546,7 @@
             { cn: "他们也都来了。", pinyin: "Tāmen yě dōu lái le.", de: "Sie sind auch alle gekommen." },
             { cn: "这些菜也都很好吃。", pinyin: "Zhèxiē cài yě dōu hěn hǎochī.", de: "Diese Gerichte sind auch alle lecker." }
           ],
-          tip: "Die Reihenfolge ist fest: <strong>也都</strong>, niemals ❌ 都也. Merke: 也 (auch) kommt zuerst, 都 (alle) kommt danach — alphabetisch: A(uch) vor A(lle)."
+          tip: "Die Reihenfolge ist fest: <strong>也都</strong>, niemals ❌ 都也. Merke: 也 (auch) kommt zuerst, 都 (alle) kommt danach — „auch alle\", genau wie im Deutschen."
         },
         {
           heading: "都不 vs. 不都 — keiner vs. nicht alle",
@@ -545,7 +555,7 @@
             { cn: "我们都不去。", pinyin: "Wǒmen dōu bú qù.", de: "Keiner von uns geht. (Alle nicht = keiner)" },
             { cn: "我们不都去。", pinyin: "Wǒmen bù dōu qù.", de: "Nicht alle von uns gehen. (Einige schon, andere nicht)" },
             { cn: "他们都没来。", pinyin: "Tāmen dōu méi lái.", de: "Keiner von ihnen ist gekommen." },
-            { cn: "他们不都是中国人。", pinyin: "Tāmen bù dōu shì Zhōngguó rén.", de: "Sie sind nicht alle Chinesen. (Einige schon)" },
+            { cn: "他们不都是中国人。", pinyin: "Tāmen bù dōu shì Zhōngguó rén.", de: "Sie kommen nicht alle aus China. (Einige schon)" },
             { cn: "我什么都不想吃。", pinyin: "Wǒ shénme dōu bù xiǎng chī.", de: "Ich will gar nichts essen." }
           ],
           tip: "Eselsbrücke: <strong>都不</strong> = „alle NICHT\" → keiner. <strong>不都</strong> = „NICHT alle\" → manche schon. Dieser Unterschied existiert genauso im Deutschen, wird aber in Prüfungen gerne getestet!"
@@ -558,8 +568,9 @@
       number: 11,
       title: "了 (le)",
       subtitle: "Aspektpartikel vs. Satzfinalpartikel",
-      level: 'HSK1/HSK2',
-      intro: "了 ist vermutlich der berühmteste — und berüchtigtste — Partikel der chinesischen Sprache. Viele Lernende denken zuerst: „Ah, das ist die Vergangenheitsform!\" Aber so einfach ist es leider nicht. 了 hat <em>zwei</em> grundverschiedene Funktionen, je nachdem, wo es im Satz steht. Direkt nach dem Verb zeigt es den <strong>Abschluss einer Handlung</strong> an (Aspektpartikel 了₁). Am Satzende signalisiert es eine <strong>veränderte Situation oder neue Gegebenheit</strong> (Satzfinalpartikel 了₂). Und ja — manchmal treten beide gleichzeitig auf. Wenn du diesen Partikel wirklich verstehst, hast du einen riesigen Schritt im Chinesischen gemacht.",
+      level: 'HSK1',
+      grammarIds: ["g:了¹","g:了²","g:完成态：用动态助词“了¹”表示","g:变化态：用动态助词“了²”表示","g:没（有）"],
+      intro: "了 ist vermutlich die berühmteste — und berüchtigtste — Partikel der chinesischen Sprache. Viele Lernende denken zuerst: „Ah, das ist die Vergangenheitsform!\" Aber so einfach ist es leider nicht. 了 hat <em>zwei</em> grundverschiedene Funktionen, je nachdem, wo es im Satz steht. Direkt nach dem Verb zeigt es den <strong>Abschluss einer Handlung</strong> an (Aspektpartikel 了₁). Am Satzende signalisiert es eine <strong>veränderte Situation oder neue Gegebenheit</strong> (Satzfinalpartikel 了₂). Und ja — manchmal treten beide gleichzeitig auf. Wenn du diese Partikel wirklich verstehst, hast du einen riesigen Schritt im Chinesischen gemacht.",
       sections: [
         {
           heading: "了₁ — Aspektpartikel (nach dem Verb)",
@@ -569,7 +580,7 @@
             { cn: "她喝了三杯咖啡。", pinyin: "Tā hē le sān bēi kāfēi.", de: "Sie hat drei Tassen Kaffee getrunken." },
             { cn: "你吃了药再走。", pinyin: "Nǐ chī le yào zài zǒu.", de: "Nimm erst die Medizin, dann geh. (Zukunft!)" }
           ],
-          tip: "了₁ steht <strong>immer direkt nach dem Verb</strong>. Wenn ein Objekt folgt, braucht es oft eine Mengenangabe oder ein Attribut (也买了一本书), sonst klingt der Satz unvollständig."
+          tip: "了₁ steht <strong>immer direkt nach dem Verb</strong>. Wenn ein Objekt folgt, braucht es oft eine Mengenangabe oder ein Attribut (我买了<strong>一本</strong>书), sonst klingt der Satz unvollständig."
         },
         {
           heading: "了₂ — Satzfinalpartikel (am Satzende)",
@@ -586,7 +597,7 @@
           text: "Manchmal treffen 了₁ und 了₂ aufeinander — das Verb hat einen Abschlussmarker <em>und</em> der Satz drückt eine neue Situation aus. Oft verschmelzen sie zu einem einzigen 了 am Satzende, wenn das Objekt keine Mengenangabe hat.",
           examples: [
             { cn: "我吃了饭了。", pinyin: "Wǒ chī le fàn le.", de: "Ich habe (jetzt) gegessen. (Beide 了 sichtbar.)" },
-            { cn: "我已经做了作业了。", pinyin: "Wǒ yǐjīng zuò le zuòyè le.", de: "Ich habe die Hausaufgaben bereits gemacht." }
+            { cn: "我已经买了票了。", pinyin: "Wǒ yǐjīng mǎi le piào le.", de: "Ich habe die Karten schon gekauft." }
           ],
           tip: "Wenn du unsicher bist, welches 了 gemeint ist: Frag dich — betont der Satz den <strong>Abschluss der Handlung</strong> (→ 了₁) oder die <strong>neue Situation</strong> (→ 了₂)?"
         },
@@ -609,6 +620,7 @@
       title: "的, 地, 得",
       subtitle: "Die drei „de\" — Struktur, Adverb, Komplement",
       level: 'HSK1/HSK2',
+      grammarIds: ["g:的¹","g:得","g:地","g:定语：名词性词语、形容词性短语、数量短语作定语","g:定语：动词或动词性短语、主谓短语作定语","g:动词+得+形容词性短语"],
       intro: "Im gesprochenen Chinesisch klingen sie fast gleich, aber schriftlich haben 的, 地 und 得 völlig verschiedene Aufgaben. Stell dir vor, sie wären drei Geschwister: <strong>的</strong> verbindet Attribute mit Nomen (wie „der große Hund\"), <strong>地</strong> verbindet Adverbien mit Verben (wie „schnell rennen\"), und <strong>得</strong> leitet Komplemente ein, die beschreiben, <em>wie gut oder schlecht</em> etwas getan wird. Wenn du diese drei auseinanderhalten kannst, wird dein Chinesisch sofort natürlicher klingen.",
       sections: [
         {
@@ -659,7 +671,8 @@
       number: 13,
       title: "会, 能, 可以",
       subtitle: "Modale Hilfsverben — Können ist nicht gleich Können",
-      level: 'HSK1/HSK2',
+      level: 'HSK1',
+      grammarIds: ["g:会","g:能","g:可以"],
       intro: "Im Deutschen haben wir ein einziges Wort für „können\" — im Chinesischen gibt es <strong>drei</strong>! 会 (huì), 能 (néng) und 可以 (kěyǐ) bedeuten alle „können\", aber in verschiedenen Nuancen. 会 = gelernte Fähigkeit, 能 = physische oder situationsbedingte Möglichkeit, 可以 = Erlaubnis oder Möglichkeit. Den Unterschied zu beherrschen ist einer der Schlüssel zu natürlichem Chinesisch.",
       sections: [
         {
@@ -678,7 +691,7 @@
           text: "能 drückt aus, dass man etwas <strong>physisch oder unter den gegebenen Umständen tun kann</strong>. Es geht um Möglichkeit, Kapazität oder körperliche Fähigkeit. Auch für Erlaubnis wird 能 manchmal verwendet.",
           examples: [
             { cn: "我今天不能来。", pinyin: "Wǒ jīntiān bù néng lái.", de: "Ich kann heute nicht kommen. (Umstände)" },
-            { cn: "他受伤了，不能走路。", pinyin: "Tā shòushāng le, bù néng zǒulù.", de: "Er hat sich verletzt, er kann nicht laufen. (Physisch)" },
+            { cn: "他病了，不能来上课。", pinyin: "Tā bìng le, bù néng lái shàngkè.", de: "Er ist krank, er kann nicht zum Unterricht kommen. (Umstände)" },
             { cn: "你能帮我一下吗？", pinyin: "Nǐ néng bāng wǒ yíxià ma?", de: "Kannst du mir kurz helfen? (Bitte)" }
           ]
         },
@@ -686,19 +699,19 @@
           heading: "可以 (kěyǐ) — Erlaubnis / Möglichkeit",
           text: "可以 drückt <strong>Erlaubnis</strong> aus oder eine allgemeine Möglichkeit. Es beantwortet die Frage: „Darf ich?\" oder „Ist es möglich?\".",
           examples: [
-            { cn: "这里可以停车吗？", pinyin: "Zhèlǐ kěyǐ tíngchē ma?", de: "Darf man hier parken?" },
+            { cn: "这里可以坐吗？", pinyin: "Zhèlǐ kěyǐ zuò ma?", de: "Darf man sich hier hinsetzen?" },
             { cn: "你可以走了。", pinyin: "Nǐ kěyǐ zǒu le.", de: "Du darfst gehen." },
             { cn: "这个可以吃吗？", pinyin: "Zhège kěyǐ chī ma?", de: "Kann man das essen? / Darf man das essen?" }
           ],
-          tip: "Die Verneinung von 可以 für Verbote ist <strong>不可以</strong> oder <strong>不能</strong>. ❌ 不可以抽烟 = Rauchen verboten!"
+          tip: "Verbote bildet man mit <strong>不可以</strong> oder <strong>不能</strong>: 这里不可以抽烟 / 这里不能抽烟 = Hier darf man nicht rauchen."
         },
         {
           heading: "Vergleich & Übersicht",
-          text: "Hier siehst du den Unterschied auf einen Blick anhand desselben Themas — Autofahren:",
+          text: "Hier siehst du den Unterschied auf einen Blick anhand ähnlicher Situationen:",
           examples: [
             { cn: "他会开车。", pinyin: "Tā huì kāi chē.", de: "Er kann Auto fahren. (Er hat den Führerschein / hat es gelernt)" },
-            { cn: "他喝了酒，不能开车。", pinyin: "Tā hē le jiǔ, bù néng kāi chē.", de: "Er hat Alkohol getrunken, er kann nicht fahren. (Umstände)" },
-            { cn: "这里不可以停车。", pinyin: "Zhèlǐ bù kěyǐ tíngchē.", de: "Hier darf man nicht parken. (Verbot/Erlaubnis)" }
+            { cn: "他太累了，不能开车。", pinyin: "Tā tài lèi le, bù néng kāichē.", de: "Er ist zu müde, er kann nicht fahren. (Umstände)" },
+            { cn: "这里不可以开车。", pinyin: "Zhèlǐ bù kěyǐ kāichē.", de: "Hier darf man nicht (Auto) fahren. (Verbot)" }
           ]
         }
       ]
@@ -709,7 +722,8 @@
       number: 14,
       title: "在, 正在, 正",
       subtitle: "Verlaufsform — „gerade dabei\"",
-      level: 'HSK1/HSK2',
+      level: 'HSK1',
+      grammarIds: ["g:在","g:正在","g:……在/正在+动词","g:……在/正在+动词……+呢","g:……呢"],
       intro: "Im Englischen gibt es die „-ing\"-Form: „I am eating.\" Im Deutschen sagen wir „Ich esse gerade.\" Auch Chinesisch hat Mittel, um auszudrücken, dass eine Handlung <strong>gerade jetzt stattfindet</strong>: <strong>在</strong>, <strong>正在</strong> und <strong>正</strong>. Dazu kommt die Partikel <strong>呢</strong> am Satzende, die den Verlauf zusätzlich betont. Diese Marker sind einfach zu lernen und machen dein Chinesisch sofort lebendiger.",
       sections: [
         {
@@ -718,7 +732,7 @@
           examples: [
             { cn: "我在吃饭。", pinyin: "Wǒ zài chīfàn.", de: "Ich esse gerade." },
             { cn: "她正在看书。", pinyin: "Tā zhèngzài kàn shū.", de: "Sie liest gerade." },
-            { cn: "他们正讨论这个问题。", pinyin: "Tāmen zhèng tǎolùn zhège wèntí.", de: "Sie diskutieren gerade dieses Problem." }
+            { cn: "他们正看电视。", pinyin: "Tāmen zhèng kàn diànshì.", de: "Sie sehen gerade fern." }
           ],
           tip: "在 vor einem Verb = Verlaufsform. 在 vor einem Ort = Ortsangabe. Kontext entscheidet! 我在家 (Ich bin zu Hause) vs. 我在吃 (Ich esse gerade)."
         },
@@ -726,7 +740,7 @@
           heading: "呢 am Satzende",
           text: "Die Partikel <strong>呢</strong> (ne) am Satzende verstärkt den Verlaufsaspekt. Sie kann allein oder zusammen mit 在/正在 verwendet werden.",
           examples: [
-            { cn: "你在干什么呢？", pinyin: "Nǐ zài gàn shénme ne?", de: "Was machst du gerade?" },
+            { cn: "你在做什么呢？", pinyin: "Nǐ zài zuò shénme ne?", de: "Was machst du gerade?" },
             { cn: "我看书呢。", pinyin: "Wǒ kàn shū ne.", de: "Ich lese gerade. (auch ohne 在 möglich)" },
             { cn: "外面下雪呢。", pinyin: "Wàimiàn xià xuě ne.", de: "Draußen schneit es gerade." }
           ]
@@ -737,7 +751,7 @@
           examples: [
             { cn: "他没在睡觉。", pinyin: "Tā méi zài shuìjiào.", de: "Er schläft gerade nicht." },
             { cn: "我没有在玩，我在学习。", pinyin: "Wǒ méiyǒu zài wán, wǒ zài xuéxí.", de: "Ich spiele nicht, ich lerne." },
-            { cn: "她刚才没在听。", pinyin: "Tā gāngcái méi zài tīng.", de: "Sie hat gerade eben nicht zugehört." }
+            { cn: "她没在听我说话。", pinyin: "Tā méi zài tīng wǒ shuōhuà.", de: "Sie hört mir gerade nicht zu." }
           ],
           tip: "不在 + Ort = nicht anwesend: 他不在家 (Er ist nicht zu Hause). 没在 + Verb = nicht gerade dabei: 他没在学习 (Er lernt gerade nicht)."
         },
@@ -745,8 +759,8 @@
           heading: "Verlaufsform in der Vergangenheit",
           text: "Auch vergangene Handlungen, die zu einem bestimmten Zeitpunkt im Gange waren, können mit 在/正在 beschrieben werden — ähnlich dem englischen „was doing\".",
           examples: [
-            { cn: "我打电话的时候，他正在洗澡。", pinyin: "Wǒ dǎ diànhuà de shíhou, tā zhèngzài xǐzǎo.", de: "Als ich anrief, duschte er gerade." },
-            { cn: "昨天晚上八点我在写作业。", pinyin: "Zuótiān wǎnshang bā diǎn wǒ zài xiě zuòyè.", de: "Gestern Abend um acht schrieb ich Hausaufgaben." }
+            { cn: "我打电话的时候，他正在睡觉。", pinyin: "Wǒ dǎ diànhuà de shíhou, tā zhèngzài shuìjiào.", de: "Als ich anrief, schlief er gerade." },
+            { cn: "昨天晚上八点我在看书。", pinyin: "Zuótiān wǎnshang bā diǎn wǒ zài kàn shū.", de: "Gestern Abend um acht las ich gerade." }
           ]
         }
       ]
@@ -757,8 +771,9 @@
       number: 15,
       title: "Thema-Kommentar-Struktur",
       subtitle: "Wie Chinesisch Sätze wirklich aufbaut",
-      level: 'HSK1/HSK2',
-      intro: "Deutsch ist eine <strong>Subjekt-Verb-Objekt</strong>-Sprache: „Ich esse Äpfel.\" Chinesisch wird oft genauso beschrieben, aber in Wirklichkeit ist es eine <strong>Thema-Kommentar</strong>-Sprache. Das bedeutet: Zuerst kommt das <strong>Thema</strong> (worüber sprechen wir?), dann der <strong>Kommentar</strong> (was gibt es darüber zu sagen?). Das Thema muss nicht das grammatische Subjekt sein! Wenn du dieses Prinzip verinnerlichst, werden viele chinesische Sätze plötzlich logisch, die vorher rätselhaft wirkten.",
+      level: 'HSK2',
+      grammarIds: ["g:受事主语","g:主谓句4：主谓谓语句"],
+      intro: "Im Deutschen denkt man meist vom Subjekt aus: „Ich esse Äpfel.\" Chinesisch wird oft als <strong>Subjekt-Verb-Objekt</strong>-Sprache beschrieben, ist aber ebenso eine <strong>Thema-Kommentar</strong>-Sprache. Das bedeutet: Zuerst kommt das <strong>Thema</strong> (worüber sprechen wir?), dann der <strong>Kommentar</strong> (was gibt es darüber zu sagen?). Das Thema muss nicht das grammatische Subjekt sein! Wenn du dieses Prinzip verinnerlichst, werden viele chinesische Sätze plötzlich logisch, die vorher rätselhaft wirkten.",
       sections: [
         {
           heading: "Thema ≠ Subjekt",
@@ -784,7 +799,7 @@
           text: "Zeitangaben und Ortsangaben stehen im Chinesischen gerne am <strong>Satzanfang</strong> als Thema — das ist die natürliche Position.",
           examples: [
             { cn: "明天我不去上班。", pinyin: "Míngtiān wǒ bú qù shàngbān.", de: "Morgen gehe ich nicht zur Arbeit." },
-            { cn: "这里不能停车。", pinyin: "Zhèlǐ bù néng tíngchē.", de: "Hier darf man nicht parken." },
+            { cn: "这里不能坐。", pinyin: "Zhèlǐ bù néng zuò.", de: "Hier darf man nicht sitzen." },
             { cn: "中国人口很多。", pinyin: "Zhōngguó rénkǒu hěn duō.", de: "China — die Bevölkerung ist groß." }
           ],
           tip: "Chinesische Sätze folgen oft dem Muster: <strong>Wann → Wo → Wer → Wie → Was tun</strong>. Das Große kommt vor dem Kleinen, das Bekannte vor dem Neuen."
@@ -795,7 +810,7 @@
           examples: [
             { cn: "咖啡我喜欢，茶我不喜欢。", pinyin: "Kāfēi wǒ xǐhuan, chá wǒ bù xǐhuan.", de: "Kaffee mag ich, Tee mag ich nicht." },
             { cn: "这件我要，那件不要。", pinyin: "Zhè jiàn wǒ yào, nà jiàn bú yào.", de: "Dieses Stück nehme ich, jenes nicht." },
-            { cn: "数学我学得好，物理我学不好。", pinyin: "Shùxué wǒ xué de hǎo, wùlǐ wǒ xué bù hǎo.", de: "Mathe kann ich gut, Physik nicht." }
+            { cn: "唱歌我唱得好，跳舞我跳不好。", pinyin: "Chànggē wǒ chàng de hǎo, tiàowǔ wǒ tiào bù hǎo.", de: "Singen kann ich gut, tanzen nicht." }
           ]
         }
       ]
@@ -806,7 +821,8 @@
       number: 16,
       title: "时间表达",
       subtitle: "Zeitausdrücke — wann, wie lange, wie oft",
-      level: 'HSK2',
+      level: 'HSK2/HSK3',
+      grammarIds: ["g:数量补语2：表示动作持续的时间","g:（在）……以前/以后/前/后","g:状语：副词、形容词作状语；表示时间、处所的词语作状语","g:时间副词@HSK2","g:经常","g:时间副词@HSK4","g:...的时候"],
       intro: "Im Deutschen stehen Zeitangaben ziemlich flexibel im Satz — „Ich gehe <em>morgen</em> ins Kino\" oder „<em>Morgen</em> gehe ich ins Kino\". Im Chinesischen gibt es dafür eine klare Regel: <strong>Zeitangaben stehen vor dem Verb</strong> (und meist nach dem Subjekt). Außerdem drückt Chinesisch Dauer, Zeiträume und Häufigkeit mit eigenen Strukturen aus. Dieses System zu verinnerlichen macht deine Sätze sofort natürlicher.",
       sections: [
         {
@@ -814,7 +830,7 @@
           text: "Im Chinesischen steht die Zeitangabe <strong>nach dem Subjekt und vor dem Verb</strong>. Sie kann auch ganz an den Satzanfang rücken, wenn sie betont werden soll. Niemals steht sie hinter dem Verb!",
           examples: [
             { cn: "我昨天去了北京。", pinyin: "Wǒ zuótiān qù le Běijīng.", de: "Ich bin gestern nach Peking gefahren." },
-            { cn: "她明天不上班。", pinyin: "Tā míngtiān bù shàngbān.", de: "Sie arbeitet morgen nicht." },
+            { cn: "她明天不上班。", pinyin: "Tā míngtiān bú shàngbān.", de: "Sie arbeitet morgen nicht." },
             { cn: "我们下午三点见面。", pinyin: "Wǒmen xiàwǔ sān diǎn jiànmiàn.", de: "Wir treffen uns um drei Uhr nachmittags." },
             { cn: "他每天早上跑步。", pinyin: "Tā měitiān zǎoshang pǎobù.", de: "Er joggt jeden Morgen." }
           ],
@@ -824,7 +840,7 @@
           heading: "以前 / 以后 / 的时候 — Zeitliche Bezüge",
           text: "<strong>以前</strong> (yǐqián) bedeutet „vorher/bevor\", <strong>以后</strong> (yǐhòu) bedeutet „nachher/nachdem\", und <strong>的时候</strong> (de shíhou) bedeutet „als/wenn\". Sie stehen nach dem Bezugspunkt: Verb/Zeitangabe + 以前/以后/的时候.",
           examples: [
-            { cn: "吃饭以前要洗手。", pinyin: "Chīfàn yǐqián yào xǐ shǒu.", de: "Vor dem Essen muss man Hände waschen." },
+            { cn: "吃饭以前要洗手。", pinyin: "Chīfàn yǐqián yào xǐ shǒu.", de: "Vor dem Essen muss man sich die Hände waschen." },
             { cn: "下课以后我们去吃饭。", pinyin: "Xiàkè yǐhòu wǒmen qù chīfàn.", de: "Nach dem Unterricht gehen wir essen." },
             { cn: "我小的时候住在上海。", pinyin: "Wǒ xiǎo de shíhou zhù zài Shànghǎi.", de: "Als ich klein war, wohnte ich in Shanghai." },
             { cn: "三年以前我开始学中文。", pinyin: "Sān nián yǐqián wǒ kāishǐ xué Zhōngwén.", de: "Vor drei Jahren habe ich angefangen, Chinesisch zu lernen." }
@@ -861,7 +877,8 @@
       number: 17,
       title: "就 und 才",
       subtitle: "Schneller oder langsamer als erwartet",
-      level: 'HSK2',
+      level: 'HSK2/HSK3',
+      grammarIds: ["g:就¹","g:才¹","g:一……就……","g:如果……，就……","g:要是……，就……"],
       intro: "就 (jiù) und 才 (cái) sind zwei der nützlichsten — und verwirrendsten — Adverbien im Chinesischen. Beide stehen vor dem Verb und drücken eine <strong>subjektive Bewertung</strong> des Zeitpunkts aus. 就 signalisiert: „Das war <strong>früher, schneller oder einfacher</strong> als erwartet.\" 才 sagt: „Das war <strong>später, langsamer oder schwieriger</strong> als erwartet.\" Sie sind wie zwei Seiten derselben Medaille — und oft genügt die Wahl des einen statt des anderen, um die gesamte Stimmung eines Satzes zu ändern.",
       sections: [
         {
@@ -873,7 +890,7 @@
             { cn: "她很小就会弹钢琴了。", pinyin: "Tā hěn xiǎo jiù huì tán gāngqín le.", de: "Sie konnte schon als kleines Kind Klavier spielen." },
             { cn: "这个问题很简单，我一看就懂了。", pinyin: "Zhège wèntí hěn jiǎndān, wǒ yí kàn jiù dǒng le.", de: "Die Frage ist einfach, ich habe es sofort verstanden." }
           ],
-          tip: "就 betont die <strong>subjektive Empfindung</strong> des Sprechers: „Das ging aber schnell!\" Objektiv kann acht Uhr spät sein — aber wenn der Sprecher erst um neun gerechnet hat, benutzt er 就."
+          tip: "就 betont die <strong>subjektive Empfindung</strong> der sprechenden Person: „Das ging aber schnell!\" Objektiv kann acht Uhr spät sein — wer aber erst mit neun Uhr gerechnet hat, sagt 就."
         },
         {
           heading: "才 — Später/schwieriger als erwartet",
@@ -915,16 +932,17 @@
       number: 18,
       title: "还是 und 或者",
       subtitle: "„Oder\" in Fragen und Aussagen",
-      level: 'HSK2',
-      intro: "Im Deutschen gibt es nur ein „oder\" — im Chinesischen sind es zwei: <strong>还是</strong> (háishi) und <strong>或者</strong> (huòzhě). Die Grundregel ist einfach: 还是 wird in <strong>Fragen</strong> verwendet, 或者 in <strong>Aussagen</strong>. Aber 还是 kann auch „doch lieber / trotzdem\" bedeuten — und genau da wird es interessant. Diese Lektion zeigt dir, wann du welches „oder\" brauchst.",
+      level: 'HSK2/HSK3',
+      grammarIds: ["g:还是……吧","g:疑问句：用“还是”连接的选择问句","g:或者","g:（是）……，还是……","g:或"],
+      intro: "Im Deutschen gibt es nur ein „oder\" — im Chinesischen sind es zwei: <strong>还是</strong> (háishi) und <strong>或者</strong> (huòzhě). Die Grundregel ist einfach: 还是 wird in <strong>Wahlfragen</strong> („A oder B?\") verwendet, 或者 in <strong>Aussagen</strong>. Aber 还是 kann auch „doch lieber / trotzdem\" bedeuten — und genau da wird es interessant. Diese Lektion zeigt dir, wann du welches „oder\" brauchst.",
       sections: [
         {
           heading: "还是 — „Oder\" in Fragen",
-          text: "还是 wird in <strong>Alternativfragen</strong> verwendet, wenn der Gesprächspartner zwischen zwei oder mehr Optionen wählen soll. Es ist die chinesische Entsprechung für „A oder B?\" und bildet sogenannte <strong>Wahlfragen</strong>.",
+          text: "还是 wird in <strong>Alternativfragen</strong> verwendet, wenn das Gegenüber zwischen zwei oder mehr Optionen wählen soll. Es ist die chinesische Entsprechung für „A oder B?\" und bildet sogenannte <strong>Wahlfragen</strong>.",
           examples: [
             { cn: "你喝茶还是咖啡？", pinyin: "Nǐ hē chá háishi kāfēi?", de: "Trinkst du Tee oder Kaffee?" },
             { cn: "我们坐地铁还是打车？", pinyin: "Wǒmen zuò dìtiě háishi dǎchē?", de: "Nehmen wir die U-Bahn oder ein Taxi?" },
-            { cn: "你是中国人还是日本人？", pinyin: "Nǐ shì Zhōngguó rén háishi Rìběn rén?", de: "Bist du Chinese oder Japaner?" },
+            { cn: "你是中国人还是日本人？", pinyin: "Nǐ shì Zhōngguó rén háishi Rìběn rén?", de: "Kommst du aus China oder aus Japan?" },
             { cn: "今天去还是明天去？", pinyin: "Jīntiān qù háishi míngtiān qù?", de: "Gehen wir heute oder morgen?" }
           ],
           tip: "Bei 还是-Fragen antwortet man mit einer der Optionen, nicht mit 是/不是. Frage: 你喝茶还是咖啡？ → Antwort: 我喝茶。"
@@ -938,7 +956,7 @@
             { cn: "明天或者后天我都可以。", pinyin: "Míngtiān huòzhě hòutiān wǒ dōu kěyǐ.", de: "Morgen oder übermorgen, beides geht bei mir." },
             { cn: "你可以坐公交车或者骑自行车。", pinyin: "Nǐ kěyǐ zuò gōngjiāochē huòzhě qí zìxíngchē.", de: "Du kannst den Bus nehmen oder Fahrrad fahren." }
           ],
-          tip: "Der häufigste Fehler deutscher Muttersprachler: ❌ 你喝茶<em>或者</em>咖啡？ In Fragen muss es 还是 heißen! 或者 ist nur für Aussagen."
+          tip: "Ein häufiger Fehler deutschsprachiger Lernender: ❌ 你喝茶<em>或者</em>咖啡？ In Wahlfragen („A oder B?\") muss es 还是 heißen. 或者 steht in Aussagen — und in Ja/Nein-Fragen mit 吗: 你明天或者后天有空吗？ („Hast du morgen oder übermorgen Zeit?\")."
         },
         {
           heading: "还是 für Entscheidungen — „doch lieber\"",
@@ -953,11 +971,11 @@
         },
         {
           heading: "Zusammenfassung & Verwechslungsfallen",
-          text: "Merke dir die Kernregel: <strong>还是 = Frage oder Entscheidung</strong>, <strong>或者 = Aussage mit Optionen</strong>. In der gesprochenen Sprache wird 还是 viel häufiger benutzt als 或者, weil es vielseitiger ist.",
+          text: "Merke dir die Kernregel: <strong>还是 = Wahlfrage oder Entscheidung</strong>, <strong>或者 = Aussage mit Optionen</strong>. In der gesprochenen Sprache wird 还是 viel häufiger benutzt als 或者, weil es vielseitiger ist.",
           examples: [
-            { cn: "你想吃中餐还是西餐？", pinyin: "Nǐ xiǎng chī Zhōngcān háishi xīcān?", de: "Willst du chinesisch oder westlich essen? (Frage → 还是)" },
+            { cn: "你想吃中餐还是西餐？", pinyin: "Nǐ xiǎng chī zhōngcān háishi xīcān?", de: "Willst du chinesisch oder westlich essen? (Frage → 还是)" },
             { cn: "中餐或者西餐都可以。", pinyin: "Zhōngcān huòzhě xīcān dōu kěyǐ.", de: "Chinesisch oder westlich, beides ist okay. (Aussage → 或者)" },
-            { cn: "我们还是吃中餐吧。", pinyin: "Wǒmen háishi chī Zhōngcān ba.", de: "Lass uns doch lieber chinesisch essen. (Entscheidung → 还是)" }
+            { cn: "我们还是吃中餐吧。", pinyin: "Wǒmen háishi chī zhōngcān ba.", de: "Lass uns doch lieber chinesisch essen. (Entscheidung → 还是)" }
           ],
           tip: "Im Schriftlichen gibt es auch <strong>或</strong> (huò) — eine kürzere, formellere Variante von 或者, die vor allem in offiziellen Texten vorkommt."
         }
@@ -969,7 +987,8 @@
       number: 19,
       title: "又 und 再",
       subtitle: "„Nochmal\" — vergangen oder zukünftig",
-      level: 'HSK2',
+      level: 'HSK3',
+      grammarIds: ["g:又","g:又……，又……","g:再¹"],
       intro: "Sowohl 又 (yòu) als auch 再 (zài) bedeuten „wieder\" oder „nochmal\" — aber sie beziehen sich auf <strong>verschiedene Zeiträume</strong>. 又 blickt zurück: etwas ist <em>schon wieder</em> passiert. 再 blickt nach vorne: etwas soll <em>nochmal</em> passieren. Dieser Unterschied existiert im Deutschen nicht so klar, weshalb er für Lernende besonders tückisch ist. Dazu kommt die nützliche Doppelstruktur 又...又...",
       sections: [
         {
@@ -996,14 +1015,14 @@
         },
         {
           heading: "又...又... — Sowohl ... als auch",
-          text: "Die Doppelstruktur 又...又... verbindet zwei <strong>Eigenschaften oder Zustände</strong>, die gleichzeitig zutreffen. Sie betont, dass beides zusammenkommt — oft mit positivem oder negativem Unterton.",
+          text: "Die Doppelstruktur 又...又... verbindet zwei <strong>Eigenschaften oder Zustände</strong> (seltener zwei Handlungen), die gleichzeitig zutreffen. Sie betont, dass beides zusammenkommt — oft mit positivem oder negativem Unterton.",
           examples: [
             { cn: "这个菜又便宜又好吃。", pinyin: "Zhège cài yòu piányi yòu hǎochī.", de: "Dieses Gericht ist sowohl günstig als auch lecker." },
             { cn: "她又聪明又漂亮。", pinyin: "Tā yòu cōngming yòu piàoliang.", de: "Sie ist sowohl klug als auch hübsch." },
             { cn: "今天又冷又下雨。", pinyin: "Jīntiān yòu lěng yòu xià yǔ.", de: "Heute ist es kalt und es regnet auch noch." },
             { cn: "他又累又饿。", pinyin: "Tā yòu lèi yòu è.", de: "Er ist sowohl müde als auch hungrig." }
           ],
-          tip: "又...又... beschreibt <strong>Eigenschaften und Zustände</strong>, nicht zwei verschiedene Handlungen! Für gleichzeitige Handlungen nutzt man 一边...一边 (→ Lektion 35)."
+          tip: "又...又... verbindet meist <strong>Eigenschaften und Zustände</strong>. Mit Verben beschreibt es lebhaft zwei Handlungen, die zusammen oder im Wechsel geschehen (孩子们又唱又跳). Für zwei bewusst gleichzeitig ausgeführte Tätigkeiten nimmt man 一边...一边 (→ [[lesson:lesson-35]])."
         },
         {
           heading: "Direkter Kontrast",
@@ -1025,7 +1044,8 @@
       title: "过 (guò)",
       subtitle: "Erfahrungsaspekt — „Schon mal gemacht?\"",
       level: 'HSK2',
-      intro: "Warst du schon mal in China? Hast du schon mal Stinketofu probiert? Hast du diesen Film schon gesehen? All diese Fragen drehen sich um <strong>Erfahrungen</strong> — und genau dafür gibt es den Aspektpartikel 过. Er drückt aus, dass jemand etwas <strong>irgendwann in der Vergangenheit mindestens einmal erlebt hat</strong>. Es geht nicht darum, wann genau — nur darum, <em>ob</em> die Erfahrung existiert.",
+      grammarIds: ["g:过","g:经历态：用动态助词“过”表示","g:没（有）","g:了¹"],
+      intro: "Warst du schon mal in China? Hast du schon mal Stinketofu probiert? Hast du diesen Film schon gesehen? All diese Fragen drehen sich um <strong>Erfahrungen</strong> — und genau dafür gibt es die Aspektpartikel 过. Sie drückt aus, dass jemand etwas <strong>irgendwann in der Vergangenheit mindestens einmal erlebt hat</strong>. Es geht nicht darum, wann genau — nur darum, <em>ob</em> die Erfahrung existiert.",
       sections: [
         {
           heading: "Grundstruktur",
@@ -1033,7 +1053,7 @@
           examples: [
             { cn: "我去过中国。", pinyin: "Wǒ qù guo Zhōngguó.", de: "Ich war schon mal in China." },
             { cn: "你吃过北京烤鸭吗？", pinyin: "Nǐ chī guo Běijīng kǎoyā ma?", de: "Hast du schon mal Pekingente gegessen?" },
-            { cn: "我看过这部电影。", pinyin: "Wǒ kàn guo zhè bù diànyǐng.", de: "Ich habe diesen Film schon gesehen." }
+            { cn: "我看过这个电影。", pinyin: "Wǒ kàn guo zhège diànyǐng.", de: "Ich habe diesen Film schon gesehen." }
           ],
           tip: "过 wird im Erfahrungssinne <strong>leicht und tonlos</strong> ausgesprochen (guo, nicht guò). In der Umschrift wird es daher manchmal ohne Tonzeichen geschrieben."
         },
@@ -1062,8 +1082,8 @@
           text: "过 wird oft mit Ausdrücken wie 从来 (noch nie), 以前 (früher), 曾经 (einst) kombiniert, um die Erfahrung zu betonen oder zu verstärken.",
           examples: [
             { cn: "我从来没见过这样的人。", pinyin: "Wǒ cónglái méi jiàn guo zhèyàng de rén.", de: "Ich habe noch nie so einen Menschen gesehen." },
-            { cn: "我以前学过法语。", pinyin: "Wǒ yǐqián xué guo Fǎyǔ.", de: "Ich habe früher mal Französisch gelernt." },
-            { cn: "你曾经想过放弃吗？", pinyin: "Nǐ céngjīng xiǎng guo fàngqì ma?", de: "Hast du jemals daran gedacht aufzugeben?" }
+            { cn: "我以前学过汉语。", pinyin: "Wǒ yǐqián xué guo Hànyǔ.", de: "Ich habe früher mal Chinesisch gelernt." },
+            { cn: "你曾经去过北京吗？", pinyin: "Nǐ céngjīng qù guo Běijīng ma?", de: "Warst du schon einmal in Peking?" }
           ]
         }
       ]
@@ -1074,8 +1094,9 @@
       number: 21,
       title: "一边...一边",
       subtitle: "Zwei Handlungen gleichzeitig",
-      level: 'HSK2',
-      intro: "Manchmal machen wir zwei Dinge gleichzeitig — essen und fernsehen, laufen und telefonieren. Im Chinesischen gibt es dafür die elegante Struktur <strong>一边...一边...</strong> (yìbiān...yìbiān...). Sie drückt aus, dass zwei Handlungen <strong>zur selben Zeit</strong> ablaufen. Anders als 又...又..., das Eigenschaften verbindet, verbindet 一边...一边... ausschließlich <strong>Handlungen</strong>.",
+      level: 'HSK3',
+      grammarIds: ["g:一边","g:一边……，一边……","g:又……，又……"],
+      intro: "Manchmal machen wir zwei Dinge gleichzeitig — essen und fernsehen, laufen und telefonieren. Im Chinesischen gibt es dafür die elegante Struktur <strong>一边...一边...</strong> (yìbiān...yìbiān...). Sie drückt aus, dass zwei Handlungen <strong>zur selben Zeit</strong> ablaufen. Anders als 又...又..., das vor allem Eigenschaften verbindet, steht 一边...一边... nur mit <strong>Handlungen</strong>.",
       sections: [
         {
           heading: "Grundstruktur: 一边 A 一边 B",
@@ -1084,18 +1105,18 @@
             { cn: "他一边吃饭一边看电视。", pinyin: "Tā yìbiān chīfàn yìbiān kàn diànshì.", de: "Er isst und schaut dabei fern." },
             { cn: "她一边走路一边打电话。", pinyin: "Tā yìbiān zǒulù yìbiān dǎ diànhuà.", de: "Sie geht und telefoniert dabei." },
             { cn: "我们一边喝茶一边聊天。", pinyin: "Wǒmen yìbiān hē chá yìbiān liáotiān.", de: "Wir trinken Tee und plaudern dabei." },
-            { cn: "学生们一边听音乐一边做作业。", pinyin: "Xuéshēngmen yìbiān tīng yīnyuè yìbiān zuò zuòyè.", de: "Die Schüler hören Musik und machen dabei Hausaufgaben." }
+            { cn: "学生们一边听音乐一边做作业。", pinyin: "Xuéshēngmen yìbiān tīng yīnyuè yìbiān zuò zuòyè.", de: "Die Schülerinnen und Schüler hören Musik und machen dabei Hausaufgaben." }
           ],
           tip: "Im gesprochenen Chinesisch wird 一边 manchmal zu 边 verkürzt: 边吃边看. Das ist informell, aber sehr gebräuchlich."
         },
         {
           heading: "Vergleich mit 又...又...",
-          text: "又...又... und 一边...一边... sind nicht austauschbar! <strong>又...又...</strong> verbindet <em>Eigenschaften oder Zustände</em>, <strong>一边...一边...</strong> verbindet <em>gleichzeitige Handlungen</em>.",
+          text: "又...又... und 一边...一边... sind meist nicht austauschbar! <strong>又...又...</strong> verbindet vor allem <em>Eigenschaften oder Zustände</em> (mit Verben ein lebhaftes Bild wie 又唱又跳), <strong>一边...一边...</strong> zwei <em>bewusst gleichzeitig ausgeführte Tätigkeiten</em>.",
           examples: [
             { cn: "这个地方又安静又漂亮。", pinyin: "Zhège dìfang yòu ānjìng yòu piàoliang.", de: "Dieser Ort ist sowohl ruhig als auch schön. (Eigenschaften → 又...又)" },
             { cn: "她一边唱歌一边跳舞。", pinyin: "Tā yìbiān chànggē yìbiān tiàowǔ.", de: "Sie singt und tanzt gleichzeitig. (Handlungen → 一边...一边)" },
             { cn: "他又高又帅。", pinyin: "Tā yòu gāo yòu shuài.", de: "Er ist sowohl groß als auch gutaussehend. (Eigenschaften → 又...又)" },
-            { cn: "他一边跑步一边听播客。", pinyin: "Tā yìbiān pǎobù yìbiān tīng bōkè.", de: "Er joggt und hört dabei Podcast. (Handlungen → 一边...一边)" }
+            { cn: "他一边跑步一边听歌。", pinyin: "Tā yìbiān pǎobù yìbiān tīng gē.", de: "Er joggt und hört dabei Lieder. (Handlungen → 一边...一边)" }
           ],
           tip: "Faustregel: Wenn du „gleichzeitig\" sagen könntest, nimm 一边...一边. Wenn du „sowohl ... als auch\" sagen könntest, nimm 又...又."
         },
@@ -1105,7 +1126,7 @@
           examples: [
             { cn: "他一面工作一面学习。", pinyin: "Tā yímiàn gōngzuò yímiàn xuéxí.", de: "Er arbeitet und studiert gleichzeitig." },
             { cn: "政府一面发展经济一面保护环境。", pinyin: "Zhèngfǔ yímiàn fāzhǎn jīngjì yímiàn bǎohù huánjìng.", de: "Die Regierung entwickelt die Wirtschaft und schützt zugleich die Umwelt." },
-            { cn: "她一面微笑一面说。", pinyin: "Tā yímiàn wēixiào yímiàn shuō.", de: "Sie sagte lächelnd. (wörtl.: Sie lächelte und sprach gleichzeitig)" }
+            { cn: "他一面听音乐一面做饭。", pinyin: "Tā yímiàn tīng yīnyuè yímiàn zuòfàn.", de: "Er hört Musik und kocht dabei." }
           ],
           tip: "In HSK-Prüfungen kommt 一面...一面 selten vor, aber es lohnt sich, es passiv zu kennen, wenn du chinesische Texte liest."
         },
@@ -1128,7 +1149,8 @@
       number: 22,
       title: "先...然后...最后",
       subtitle: "Reihenfolge — erst, dann, zuletzt",
-      level: 'HSK2',
+      level: 'HSK3',
+      grammarIds: ["g:先……，再/然后……","g:再²","g:首先……，其次……","g:首先……，然后……"],
       intro: "Im Alltag beschreiben wir ständig Abläufe: „Erst wasche ich mir die Hände, <em>dann</em> esse ich, <em>zum Schluss</em> räume ich ab.\" Chinesisch hat dafür ein klares System aus Sequenzwörtern. Die Grundstruktur <strong>先...然后...最后</strong> ist das Rückgrat jeder Ablaufbeschreibung. Daneben gibt es formellere Varianten und feine Unterschiede zwischen 然后, 接着 und 之后, die dein Chinesisch präziser machen.",
       sections: [
         {
@@ -1183,6 +1205,7 @@
       title: "从...到 und 离",
       subtitle: "Von–bis und Entfernung",
       level: 'HSK2',
+      grammarIds: ["g:从¹","g:到 + Ort/Zeit"],
       intro: "Räumliche und zeitliche Beziehungen sind im Alltag unverzichtbar: „Von Berlin <em>bis</em> München\", „von acht <em>bis</em> zehn Uhr\", „die Schule ist <em>nah</em>\". Chinesisch hat dafür zwei elegante Strukturen: <strong>从...到</strong> (cóng...dào) drückt eine Spanne „von A bis B\" aus, und <strong>离</strong> (lí) beschreibt die Entfernung zwischen zwei Punkten. Beide sind im HSK2 essentiell und kommen in fast jedem Gespräch vor.",
       sections: [
         {
@@ -1194,7 +1217,7 @@
             { cn: "你从哪儿到哪儿？", pinyin: "Nǐ cóng nǎr dào nǎr?", de: "Von wo bis wo (fährst du)?" },
             { cn: "从机场到酒店坐出租车要半个小时。", pinyin: "Cóng jīchǎng dào jiǔdiàn zuò chūzūchē yào bàn gè xiǎoshí.", de: "Vom Flughafen zum Hotel dauert es mit dem Taxi eine halbe Stunde." }
           ],
-          tip: "Die ganze Präpositionalphrase 从...到... steht <strong>vor</strong> dem Verb, nie dahinter. Das ist wie im Deutschen: „Von A nach B <em>fahren</em>\"."
+          tip: "Die Gruppe 从...到... steht normalerweise <strong>vor</strong> dem Verb: 从北京到上海要五个小时. Nur 到 + Ziel kann auch <em>nach</em> dem Verb stehen: 从北京走到上海, 从八点工作到十点."
         },
         {
           heading: "从A到B — Zeitlich (von ... bis)",
@@ -1221,10 +1244,10 @@
           heading: "从...开始 — Ab / Seit",
           text: "<strong>从...开始</strong> (cóng...kāishǐ) bedeutet „ab\" oder „seit\" und markiert den <strong>Startpunkt</strong> einer Handlung oder eines Zustands. Oft kann 开始 auch weggelassen werden, wenn der Kontext klar ist.",
           examples: [
-            { cn: "从明天开始我要减肥。", pinyin: "Cóng míngtiān kāishǐ wǒ yào jiǎnféi.", de: "Ab morgen werde ich abnehmen." },
+            { cn: "从明天开始我要每天跑步。", pinyin: "Cóng míngtiān kāishǐ wǒ yào měitiān pǎobù.", de: "Ab morgen will ich jeden Tag joggen." },
             { cn: "从去年开始他就住在这里。", pinyin: "Cóng qùnián kāishǐ tā jiù zhù zài zhèlǐ.", de: "Seit letztem Jahr wohnt er hier." },
             { cn: "我们从第一课开始学。", pinyin: "Wǒmen cóng dì-yī kè kāishǐ xué.", de: "Wir fangen ab der ersten Lektion an zu lernen." },
-            { cn: "从现在开始不许迟到。", pinyin: "Cóng xiànzài kāishǐ bù xǔ chídào.", de: "Ab jetzt ist Zuspätkommen nicht erlaubt." }
+            { cn: "从现在开始我们说中文。", pinyin: "Cóng xiànzài kāishǐ wǒmen shuō Zhōngwén.", de: "Ab jetzt sprechen wir Chinesisch." }
           ],
           tip: "Im Deutschen sagen wir „seit drei Jahren\" — Chinesisch unterscheidet: <strong>从三年前开始</strong> (ab vor drei Jahren, Startpunkt) vs. Dauer mit Verb + 了 + Zeitangabe."
         }
@@ -1236,12 +1259,13 @@
       number: 24,
       title: "是...的 Konstruktion",
       subtitle: "Betonung vergangener Umstände",
-      level: 'HSK2/HSK3',
+      level: 'HSK2',
+      grammarIds: ["g:“是……的”句1：强调时间、地点、方式、动作者"],
       intro: "Du weißt schon, dass etwas passiert ist — aber <em>wann</em> genau? <em>Wo</em>? <em>Wie</em>? <em>Mit wem</em>? Genau dafür gibt es die 是...的 Konstruktion. Sie ist perfekt, wenn die Handlung selbst nicht neu ist, du aber die <strong>Umstände</strong> betonen willst. Im Deutschen würden wir das durch Betonung ausdrücken: „Ich bin <em>gestern</em> gekommen\" vs. „Ich bin gestern <em>gekommen</em>.\" Im Chinesischen übernimmt 是...的 diese Aufgabe elegant.",
       sections: [
         {
           heading: "Grundstruktur",
-          text: "Die Grundformel lautet: <strong>Subjekt + 是 + betonte Information + Verb + 的</strong>. 是 markiert den Anfang dessen, was betont wird, 的 schließt die Konstruktion ab. 是 kann umgangssprachlich auch weggelassen werden.",
+          text: "Die Grundformel lautet: <strong>Subjekt + 是 + betonte Information + Verb + 的</strong>. 是 markiert den Anfang dessen, was betont wird, 的 schließt die Konstruktion ab. In bejahten Sätzen kann 是 umgangssprachlich wegfallen (我昨天来的), in verneinten nicht (我不是昨天来的).",
           examples: [
             { cn: "我是昨天来的。", pinyin: "Wǒ shì zuótiān lái de.", de: "Ich bin gestern gekommen. (Betonung: wann)" },
             { cn: "她是坐飞机去的。", pinyin: "Tā shì zuò fēijī qù de.", de: "Sie ist mit dem Flugzeug geflogen. (Betonung: wie)" },
@@ -1251,7 +1275,7 @@
         },
         {
           heading: "Position von 的 bei Objekten",
-          text: "Wenn das Verb ein Objekt hat, kann 的 <strong>vor oder nach</strong> dem Objekt stehen. Vor dem Objekt ist formeller, nach dem Objekt umgangssprachlicher.",
+          text: "Wenn das Verb ein Objekt hat, kann 的 <strong>vor oder nach</strong> dem Objekt stehen. Beide Stellungen sind korrekt; im Gespräch hört man sehr oft 的 vor dem Objekt (买的这本书).",
           examples: [
             { cn: "你是在哪儿买的这本书？", pinyin: "Nǐ shì zài nǎr mǎi de zhè běn shū?", de: "Wo hast du dieses Buch gekauft? (的 vor dem Objekt)" },
             { cn: "你是在哪儿买这本书的？", pinyin: "Nǐ shì zài nǎr mǎi zhè běn shū de?", de: "Wo hast du dieses Buch gekauft? (的 am Satzende)" },
@@ -1271,7 +1295,7 @@
           heading: "Wann benutzt man es?",
           text: "Die 是...的 Konstruktion ist ideal für <strong>Rückfragen</strong> und <strong>Klarstellungen</strong>. Typische Fragewörter: 什么时候 (wann), 在哪儿 (wo), 怎么 (wie), 跟谁 (mit wem), 为什么 (warum).",
           examples: [
-            { cn: "你是什么时候毕业的？", pinyin: "Nǐ shì shénme shíhou bìyè de?", de: "Wann hast du deinen Abschluss gemacht?" },
+            { cn: "你是什么时候来北京的？", pinyin: "Nǐ shì shénme shíhou lái Běijīng de?", de: "Wann bist du nach Peking gekommen?" },
             { cn: "你是为什么学中文的？", pinyin: "Nǐ shì wèi shénme xué Zhōngwén de?", de: "Warum lernst du Chinesisch?" }
           ]
         }
@@ -1284,6 +1308,7 @@
       title: "比 (bǐ) Vergleiche",
       subtitle: "Vergleichskonstruktionen",
       level: 'HSK2/HSK3',
+      grammarIds: ["g:A比B+形容词","g:A比B+形容词+数量补语/程度补语","g:A有/没有B（+这么/那么）+形容词","g:A跟B一样+形容词","g:比","g:A跟B一样","g:A不比B+形容词"],
       intro: "Vergleiche sind im Alltag unverzichtbar: „Wer ist größer?\", „Welches Essen ist leckerer?\", „Ist Shanghai teurer als Peking?\" Im Chinesischen gibt es dafür hauptsächlich die 比-Konstruktion. Sie funktioniert komplett anders als im Deutschen — kein „-er\" am Adjektiv, kein „als\" nach dem Adjektiv. Stattdessen steht 比 <strong>vor</strong> dem Adjektiv und leitet den Vergleichsstandard ein.",
       sections: [
         {
@@ -1332,7 +1357,8 @@
       number: 26,
       title: "因为...所以",
       subtitle: "Kausalkonstruktionen — „Weil... deshalb...\"",
-      level: 'HSK2/HSK3',
+      level: 'HSK2',
+      grammarIds: ["g:因为……，所以……","g:不用关联词语的复句","g:为什么","g:连接分句或者句子@HSK2","g:由于¹","g:既然……，就……","g:之所以…是因为…"],
       intro: "Ursache und Wirkung — eines der grundlegendsten logischen Konzepte, und im Chinesischen wunderbar klar ausgedrückt: <strong>因为</strong> (weil) leitet die Ursache ein, <strong>所以</strong> (deshalb) die Wirkung. Wie bei 虽然...但是 ist es eine <strong>Paar-Konjunktion</strong>: Im Chinesischen stehen idealerweise beide Teile im Satz, auch wenn man einen weglassen kann. Diese Struktur ist fundamental und kommt in praktisch jedem chinesischen Text vor.",
       sections: [
         {
@@ -1343,11 +1369,11 @@
             { cn: "因为他生病了，所以没来上课。", pinyin: "Yīnwèi tā shēngbìng le, suǒyǐ méi lái shàngkè.", de: "Weil er krank war, ist er nicht zum Unterricht gekommen." },
             { cn: "因为太贵了，所以我没买。", pinyin: "Yīnwèi tài guì le, suǒyǐ wǒ méi mǎi.", de: "Weil es zu teuer war, habe ich es nicht gekauft." }
           ],
-          tip: "❌ Im Chinesischen kann man <strong>nicht</strong> 因为 und 所以 mit „weil\" und „deshalb\" im Deutschen gleichsetzen: Im Deutschen benutzt man nie beides gleichzeitig!"
+          tip: "Im Chinesischen ist das Paar 因为...所以 ganz normal. Im Deutschen übersetzt man meist nur eines davon: „Weil es geregnet hat, bin ich nicht gegangen\" — nicht „Weil …, deshalb …\"."
         },
         {
           heading: "Einen Teil weglassen",
-          text: "Man kann entweder 因为 oder 所以 weglassen — aber nicht beide! In der Alltagssprache wird oft nur einer der beiden Konnektoren benutzt.",
+          text: "Man kann 因为 oder 所以 weglassen — in der Alltagssprache steht oft nur eines der beiden Wörter. Ist der Zusammenhang klar, fallen sogar beide weg: 今天下雨，我不去了 (Heute regnet es, da gehe ich nicht).",
           examples: [
             { cn: "因为太累了，我先回家了。", pinyin: "Yīnwèi tài lèi le, wǒ xiān huí jiā le.", de: "Weil ich zu müde war, bin ich zuerst nach Hause gegangen. (ohne 所以)" },
             { cn: "他身体不好，所以经常请假。", pinyin: "Tā shēntǐ bù hǎo, suǒyǐ jīngcháng qǐngjià.", de: "Seine Gesundheit ist nicht gut, deshalb nimmt er oft frei. (ohne 因为)" }
@@ -1359,16 +1385,16 @@
           examples: [
             { cn: "你为什么学中文？", pinyin: "Nǐ wèi shénme xué Zhōngwén?", de: "Warum lernst du Chinesisch?" },
             { cn: "因为我对中国文化很感兴趣。", pinyin: "Yīnwèi wǒ duì Zhōngguó wénhuà hěn gǎn xìngqù.", de: "Weil ich mich für chinesische Kultur interessiere." },
-            { cn: "你怎么没来？——因为堵车了。", pinyin: "Nǐ zěnme méi lái? —— Yīnwèi dǔchē le.", de: "Wieso bist du nicht gekommen? — Weil es Stau gab." }
+            { cn: "你怎么没来？——因为我生病了。", pinyin: "Nǐ zěnme méi lái? —— Yīnwèi wǒ shēngbìng le.", de: "Wieso bist du nicht gekommen? — Weil ich krank war." }
           ]
         },
         {
           heading: "Verwandte Strukturen",
           text: "Es gibt weitere Kausalausdrücke: <strong>由于</strong> (aufgrund von, formell), <strong>既然</strong> (da ja, wenn schon), <strong>之所以...是因为</strong> (der Grund ist, dass...).",
           examples: [
-            { cn: "由于天气原因，航班取消了。", pinyin: "Yóuyú tiānqì yuányīn, hángbān qǔxiāo le.", de: "Aufgrund des Wetters wurde der Flug gestrichen." },
+            { cn: "由于大雨，飞机没有起飞。", pinyin: "Yóuyú dàyǔ, fēijī méiyǒu qǐfēi.", de: "Wegen des starken Regens ist das Flugzeug nicht gestartet." },
             { cn: "既然你来了，就坐下吧。", pinyin: "Jìrán nǐ lái le, jiù zuòxia ba.", de: "Da du nun mal hier bist, setz dich doch." },
-            { cn: "他之所以成功，是因为他很努力。", pinyin: "Tā zhī suǒyǐ chénggōng, shì yīnwèi tā hěn nǔlì.", de: "Der Grund für seinen Erfolg ist, dass er sich sehr anstrengt." }
+            { cn: "他之所以没来，是因为他病了。", pinyin: "Tā zhī suǒyǐ méi lái, shì yīnwèi tā bìng le.", de: "Der Grund, warum er nicht gekommen ist: Er war krank." }
           ],
           tip: "既然 drückt aus: „Da die Situation nun mal so ist...\" — es akzeptiert eine Tatsache und zieht daraus eine Schlussfolgerung."
         }
@@ -1381,7 +1407,8 @@
       title: "给, 对, 跟, 向",
       subtitle: "Wichtige Präpositionen — für, zu, mit, Richtung",
       level: 'HSK2/HSK3',
-      intro: "Im Chinesischen gibt es keine Präpositionen im europäischen Sinne — stattdessen benutzt man sogenannte <strong>Coverben</strong> (介词, jièci), die vor dem Hauptverb stehen und eine Beziehung zwischen Subjekt und Objekt herstellen. Vier der wichtigsten sind 给 (geben/für), 对 (gegenüber/zu), 跟 (mit) und 向 (in Richtung). Sie richtig einzusetzen macht den Unterschied zwischen holprigem und flüssigem Chinesisch.",
+      grammarIds: ["g:给","g:跟¹","g:向²","g:对","g:往","g:跟²","g:应该"],
+      intro: "Chinesische Präpositionen (介词, jièci) sind aus Verben entstanden und werden deshalb auch <strong>Koverben</strong> genannt: Sie stehen mit ihrem Objekt vor dem Hauptverb und stellen eine Beziehung zwischen Subjekt und Objekt her. Vier der wichtigsten sind 给 (geben/für), 对 (gegenüber/zu), 跟 (mit) und 向 (in Richtung). Sie richtig einzusetzen macht den Unterschied zwischen holprigem und flüssigem Chinesisch.",
       sections: [
         {
           heading: "给 (gěi) — Für / An / Geben",
@@ -1412,7 +1439,7 @@
             { cn: "我跟你一起去。", pinyin: "Wǒ gēn nǐ yìqǐ qù.", de: "Ich gehe mit dir zusammen." },
             { cn: "她跟朋友聊天。", pinyin: "Tā gēn péngyou liáotiān.", de: "Sie unterhält sich mit Freunden." },
             { cn: "你跟谁学的中文？", pinyin: "Nǐ gēn shéi xué de Zhōngwén?", de: "Bei wem hast du Chinesisch gelernt?" },
-            { cn: "这个跟那个不一样。", pinyin: "Zhège gēn nàge bù yíyàng.", de: "Dieses ist nicht gleich wie jenes." }
+            { cn: "这个跟那个不一样。", pinyin: "Zhège gēn nàge bù yíyàng.", de: "Das hier ist anders als das da." }
           ],
           tip: "跟 ist umgangssprachlicher als 和 (hé) und 与 (yǔ). Im Alltag hört man meist 跟, in Texten eher 和 oder 与."
         },
@@ -1423,7 +1450,7 @@
             { cn: "向左转。", pinyin: "Xiàng zuǒ zhuǎn.", de: "Links abbiegen." },
             { cn: "他向我道歉了。", pinyin: "Tā xiàng wǒ dàoqiàn le.", de: "Er hat sich bei mir entschuldigt." },
             { cn: "我们向前走。", pinyin: "Wǒmen xiàng qián zǒu.", de: "Wir gehen nach vorne." },
-            { cn: "你应该向老师请教。", pinyin: "Nǐ yīnggāi xiàng lǎoshī qǐngjiào.", de: "Du solltest den Lehrer um Rat fragen." }
+            { cn: "你应该向老师请教。", pinyin: "Nǐ yīnggāi xiàng lǎoshī qǐngjiào.", de: "Du solltest die Lehrkraft um Rat fragen." }
           ],
           tip: "Für Wegbeschreibungen ist 向 unverzichtbar: 向左/右/前/后 (nach links/rechts/vorne/hinten). Im Alltag hört man oft auch 往: 往前走 = 向前走."
         }
@@ -1436,7 +1463,8 @@
       title: "结果补语 — Resultativkomplemente",
       subtitle: "Was am Ende einer Handlung herauskommt",
       level: 'HSK2/HSK3',
-      intro: "Im Deutschen sagen wir „aufessen\", „kaputtmachen\", „fertigschreiben\" — wir kleben das Ergebnis an das Verb. Im Chinesischen funktioniert das genauso, nur viel systematischer! Ein <strong>Resultativkomplement</strong> (结果补语) ist ein Zeichen, das direkt nach dem Verb steht und das <strong>Ergebnis</strong> der Handlung angibt. 看 (schauen) + 见 (wahrnehmen) = 看见 (sehen, erblicken). 听 (hören) + 懂 (verstehen) = 听懂 (verstehend hören). Diese Kombinationen sind enorm produktiv und machen dein Chinesisch sofort ausdrucksstärker.",
+      grammarIds: ["g:动词+错/懂/好/会/完","g:动词+到/住/走/上","g:没（有）","g:动补短语1"],
+      intro: "Im Deutschen sagen wir „aufessen\", „kaputtmachen\", „fertigschreiben\" — wir kleben das Ergebnis an das Verb. Im Chinesischen funktioniert das genauso, nur viel systematischer! Ein <strong>Resultativkomplement</strong> (结果补语) ist ein Wort (meist ein einzelnes Zeichen), das direkt nach dem Verb steht und das <strong>Ergebnis</strong> der Handlung angibt. 看 (schauen) + 见 (wahrnehmen) = 看见 (sehen, erblicken). 听 (hören) + 懂 (verstehen) = 听懂 (verstehend hören). Diese Kombinationen sind enorm produktiv und machen dein Chinesisch sofort ausdrucksstärker.",
       sections: [
         {
           heading: "Häufige Resultativkomplemente",
@@ -1453,7 +1481,7 @@
           text: "Adjektive können ebenfalls als Resultativkomplemente fungieren und beschreiben den <strong>Zustand</strong>, in den etwas durch die Handlung gebracht wird.",
           examples: [
             { cn: "他把衣服洗干净了。", pinyin: "Tā bǎ yīfu xǐ gānjìng le.", de: "Er hat die Kleidung sauber gewaschen." },
-            { cn: "请把音乐放大一点。", pinyin: "Qǐng bǎ yīnyuè fàngdà yìdiǎn.", de: "Bitte mach die Musik etwas lauter." },
+            { cn: "请把声音开大一点。", pinyin: "Qǐng bǎ shēngyīn kāi dà yìdiǎn.", de: "Bitte mach (den Ton) etwas lauter." },
             { cn: "孩子哭累了。", pinyin: "Háizi kūlèi le.", de: "Das Kind hat sich müde geweint." }
           ]
         },
@@ -1465,7 +1493,7 @@
             { cn: "她没看见你。", pinyin: "Tā méi kànjiàn nǐ.", de: "Sie hat dich nicht gesehen." },
             { cn: "我们没做完。", pinyin: "Wǒmen méi zuòwán.", de: "Wir haben es nicht fertig gemacht." }
           ],
-          tip: "Das Potentialkomplement (Lektion 9) nutzt 得/不 zwischen Verb und Komplement, um auszudrücken, ob man etwas schaffen <em>kann</em> oder nicht: 看得见 (kann sehen) vs. 看不见 (kann nicht sehen)."
+          tip: "Das Potentialkomplement ([[lesson:lesson-41]]) nutzt 得/不 zwischen Verb und Komplement, um auszudrücken, ob man etwas schaffen <em>kann</em> oder nicht: 看得见 (kann sehen) vs. 看不见 (kann nicht sehen)."
         },
         {
           heading: "Verb + 到 als Resultativkomplement",
@@ -1482,10 +1510,11 @@
     {
       id: 'lesson-8',
       number: 29,
-      title: "程度补语 — Gradkomplemente mit 得",
+      title: "状态补语 — Zustandskomplemente mit 得",
       subtitle: "Wie gut, wie schlecht, wie intensiv?",
       level: 'HSK2/HSK3',
-      intro: "Du möchtest sagen, dass jemand „gut singt\", „schnell rennt\" oder „so müde ist, dass er nicht mehr stehen kann\"? Dafür brauchst du <strong>Gradkomplemente</strong> (程度补语). Sie beschreiben den <strong>Grad</strong> oder die <strong>Art und Weise</strong>, wie eine Handlung ausgeführt wird — und sie werden mit dem Partikel <strong>得</strong> eingeleitet. Das ist dasselbe 得, das du aus Lektion 2 kennst, aber hier in seiner wichtigsten Funktion.",
+      grammarIds: ["g:动词+得+形容词性短语","g:主语+动词+宾语+动词+补语","g:得","g:动词/形容词+得+动词短语","g:动词/形容词+得+主谓短语"],
+      intro: "Du möchtest sagen, dass jemand „gut singt\", „schnell rennt\" oder „so müde ist, dass er nicht mehr stehen kann\"? Dafür brauchst du <strong>Zustandskomplemente</strong> (状态补语). Sie beschreiben, <strong>wie</strong> eine Handlung ausgeführt wird oder in welchen <strong>Zustand</strong> sie führt — und sie werden mit der Partikel <strong>得</strong> eingeleitet. Das ist dasselbe 得, das du aus [[lesson:lesson-2]] kennst, aber hier in seiner wichtigsten Funktion. Davon zu unterscheiden sind die echten <strong>Gradkomplemente</strong> (程度补语) wie 好极了 oder 忙得很, die nur einen hohen Grad ausdrücken.",
       sections: [
         {
           heading: "Grundstruktur",
@@ -1499,7 +1528,7 @@
         },
         {
           heading: "Verb + Objekt + Verb + 得",
-          text: "Bei Verben mit Objekt gibt es zwei Möglichkeiten, das Gradkomplement einzubauen. Beide sind korrekt.",
+          text: "Bei Verben mit Objekt gibt es zwei Möglichkeiten, das Zustandskomplement einzubauen. Beide sind korrekt.",
           examples: [
             { cn: "他说中文说得很流利。", pinyin: "Tā shuō Zhōngwén shuō de hěn liúlì.", de: "Er spricht Chinesisch sehr fließend. (Verb wiederholt)" },
             { cn: "中文他说得很流利。", pinyin: "Zhōngwén tā shuō de hěn liúlì.", de: "Chinesisch spricht er sehr fließend. (Objekt vorgezogen)" },
@@ -1508,16 +1537,16 @@
         },
         {
           heading: "Komplexe Beschreibungen",
-          text: "Nach 得 kann auch ein ganzer <strong>Satz</strong> stehen, der die Intensität beschreibt. Das entspricht dem deutschen „so ... dass ...\".",
+          text: "Ausblick (HSK 5): Nach 得 kann auch eine Verbgruppe oder ein ganzer <strong>Satz</strong> stehen, der die Folge oder Intensität beschreibt. Das entspricht dem deutschen „so ... dass ...\".",
           examples: [
             { cn: "他累得不想说话。", pinyin: "Tā lèi de bù xiǎng shuōhuà.", de: "Er ist so müde, dass er nicht reden will." },
             { cn: "她高兴得跳了起来。", pinyin: "Tā gāoxìng de tiào le qǐlái.", de: "Sie war so glücklich, dass sie hochgesprungen ist." },
             { cn: "冷得我发抖。", pinyin: "Lěng de wǒ fādǒu.", de: "So kalt, dass ich zittere." }
           ],
-          tip: "Gradkomplemente beschreiben eine <strong>konkrete Ausführung</strong>, daher können sie nicht mit 了₁ kombiniert werden (das markiert Abschluss). ❌ 她唱了得很好 → ✅ 她唱得很好."
+          tip: "Zustandskomplemente beschreiben eine <strong>konkrete Ausführung</strong>, daher können sie nicht mit 了₁ kombiniert werden (das markiert Abschluss). ❌ 她唱了得很好 → ✅ 她唱得很好."
         },
         {
-          heading: "Fragen mit Gradkomplementen",
+          heading: "Fragen mit Zustandskomplementen",
           text: "Um nach der Art und Weise zu fragen, benutzt man <strong>Verb + 得 + 怎么样</strong> oder setzt das Adjektiv in eine Frage.",
           examples: [
             { cn: "你考得怎么样？", pinyin: "Nǐ kǎo de zěnmeyàng?", de: "Wie war deine Prüfung?" },
@@ -1534,6 +1563,7 @@
       title: "着 (zhe)",
       subtitle: "Zustandsaspekt — andauernde Zustände",
       level: 'HSK2/HSK3',
+      grammarIds: ["g:着","g:处所+动词+着(+数量短语)+名词","g:动词+着：（1）表示状态的持续","g:“着”表示动作的伴随：动词1+着+动词2","g:持续态：表示动作的持续"],
       intro: "Während 了 den Abschluss markiert und 过 die Erfahrung, beschreibt <strong>着</strong> einen <strong>andauernden Zustand</strong>. Es friert eine Handlung sozusagen ein und zeigt das Ergebnis als Dauerzustand. „Die Tür ist geöffnet\" (开着), „Er trägt einen Hut\" (戴着帽子), „An der Wand hängt ein Bild\" (墙上挂着一幅画). 着 ist besonders wichtig für Beschreibungen von Szenen und Begleitumständen.",
       sections: [
         {
@@ -1561,7 +1591,7 @@
           examples: [
             { cn: "墙上挂着一幅画。", pinyin: "Qiáng shang guà zhe yì fú huà.", de: "An der Wand hängt ein Bild." },
             { cn: "地上躺着一只猫。", pinyin: "Dì shang tǎng zhe yì zhī māo.", de: "Auf dem Boden liegt eine Katze." },
-            { cn: "教室里坐着很多学生。", pinyin: "Jiàoshì lǐ zuò zhe hěn duō xuéshēng.", de: "Im Klassenzimmer sitzen viele Schüler." }
+            { cn: "教室里坐着很多学生。", pinyin: "Jiàoshì lǐ zuò zhe hěn duō xuéshēng.", de: "Im Klassenzimmer sitzen viele Schülerinnen und Schüler." }
           ],
           tip: "Diese Existenzsätze mit 着 sind perfekt für <strong>bildhafte Beschreibungen</strong>. Sie sind in Erzählungen und Aufsätzen sehr beliebt."
         },
@@ -1582,7 +1612,8 @@
       number: 31,
       title: "快要...了, 要...了",
       subtitle: "Gleich passiert es! — Unmittelbar bevorstehende Ereignisse",
-      level: 'HSK2/HSK3',
+      level: 'HSK2',
+      grammarIds: ["g:要/快要/就要……了","g:时间副词@HSK2","g:时间副词@HSK4","g:将"],
       intro: "Wie sagt man „es ist gleich so weit\" auf Chinesisch? Dafür gibt es eine elegante Familie von Strukturen: <strong>要...了</strong>, <strong>快要...了</strong> und <strong>就要...了</strong>. Sie alle drücken aus, dass etwas <strong>bald oder unmittelbar bevorsteht</strong>. Die Unterschiede sind subtil aber wichtig: Wie dringend ist es? Gibt es einen konkreten Zeitpunkt? Diese Lektion zeigt dir, wie du das „gleich\" im Chinesischen meisterst.",
       sections: [
         {
@@ -1600,7 +1631,7 @@
           heading: "快要...了 — Sehr bald!",
           text: "<strong>快要...了</strong> (kuài yào...le) verstärkt die Dringlichkeit: Etwas steht <strong>unmittelbar bevor</strong>. 快 (kuài, „schnell/bald\") intensiviert die Erwartung. Vor 快要 steht <strong>keine konkrete Zeitangabe</strong>.",
           examples: [
-            { cn: "快要毕业了。", pinyin: "Kuài yào bìyè le.", de: "Der Abschluss steht kurz bevor." },
+            { cn: "快要放假了。", pinyin: "Kuài yào fàngjià le.", de: "Bald sind Ferien." },
             { cn: "快要过年了！", pinyin: "Kuài yào guònián le!", de: "Das Neujahrsfest steht vor der Tür!" },
             { cn: "他们快要结婚了。", pinyin: "Tāmen kuài yào jiéhūn le.", de: "Sie werden bald heiraten." },
             { cn: "车快要到了。", pinyin: "Chē kuài yào dào le.", de: "Der Bus kommt gleich." }
@@ -1622,9 +1653,9 @@
           heading: "Vergleich mit 将 — Formelles „werden\"",
           text: "<strong>将</strong> (jiāng) oder <strong>将要</strong> (jiāngyào) ist die <strong>formelle, schriftsprachliche</strong> Variante für „wird bald\". Es wird in Nachrichten, offiziellen Texten und formellen Reden verwendet und klingt in der Alltagssprache unnatürlich.",
           examples: [
-            { cn: "会议将于下周一召开。", pinyin: "Huìyì jiāng yú xià zhōuyī zhàokāi.", de: "Die Konferenz wird am kommenden Montag einberufen. (Formell)" },
-            { cn: "这座桥将在明年完工。", pinyin: "Zhè zuò qiáo jiāng zài míngnián wángōng.", de: "Diese Brücke wird nächstes Jahr fertiggestellt. (Nachrichtenstil)" },
-            { cn: "新政策将要开始实施。", pinyin: "Xīn zhèngcè jiāngyào kāishǐ shíshī.", de: "Die neue Politik wird bald umgesetzt. (Formell)" }
+            { cn: "比赛将在明天开始。", pinyin: "Bǐsài jiāng zài míngtiān kāishǐ.", de: "Der Wettkampf beginnt morgen. (Formell)" },
+            { cn: "这家商店将在下个月开门。", pinyin: "Zhè jiā shāngdiàn jiāng zài xià gè yuè kāimén.", de: "Dieses Geschäft eröffnet nächsten Monat. (Nachrichtenstil)" },
+            { cn: "下个月学校将要放假。", pinyin: "Xià gè yuè xuéxiào jiāngyào fàngjià.", de: "Nächsten Monat beginnen die Schulferien. (Formell)" }
           ],
           tip: "In der Alltagssprache klingt 将 gestelzt. Benutze im Gespräch immer 快要...了, 就要...了 oder 要...了. 将 ist nur für <strong>Lesen und Schreiben formeller Texte</strong> relevant."
         }
@@ -1637,6 +1668,7 @@
       title: "把 (bǎ) Konstruktion",
       subtitle: "Objekt vor das Verb stellen",
       level: 'HSK3',
+      grammarIds: ["g:把","g:主语+把+宾语+动词+在/到+处所","g:主语+把+宾语+动词+结果补语/趋向补语/状态补语","g:主语+把+宾语1+动词（+给）+宾语2","g:主语+把+宾语+动词+了"],
       intro: "Die 把-Konstruktion ist einer der Momente, wo Chinesisch wirklich anders tickt als Deutsch. Normalerweise steht im Chinesischen das Objekt nach dem Verb (我吃苹果). Aber manchmal willst du betonen, dass du mit dem Objekt <strong>etwas Bestimmtes anstellst</strong> — du veränderst es, bewegst es, verarbeitest es. Dann ziehst du das Objekt mit 把 vor das Verb: 我把苹果吃了. Die 把-Konstruktion drückt aus, dass das Subjekt <strong>aktiv auf das Objekt einwirkt</strong> und es dabei verändert.",
       sections: [
         {
@@ -1660,7 +1692,7 @@
         },
         {
           heading: "Verneinung und Adverbien",
-          text: "Verneinungswörter (不, 没) und Adverbien (已经, 都, 也) stehen <strong>vor 把</strong>, nicht nach 把.",
+          text: "Verneinung (不, 没), Modalverben (要, 能) und Zeitadverbien wie 已经 stehen <strong>vor 把</strong>, nicht nach 把. Beschreibende Adverbiale und 都 mit Bezug auf das Objekt stehen dagegen nach dem Objekt: 他把门轻轻地关上了, 我把作业都做完了.",
           examples: [
             { cn: "我没把窗户关上。", pinyin: "Wǒ méi bǎ chuānghu guānshang.", de: "Ich habe das Fenster nicht zugemacht." },
             { cn: "你别把这件事告诉他。", pinyin: "Nǐ bié bǎ zhè jiàn shì gàosu tā.", de: "Erzähl ihm nicht davon." },
@@ -1673,7 +1705,7 @@
           text: "Nicht jedes Verb funktioniert mit 把! Zustandsverben (是, 像, 喜欢, 知道) und Verben ohne „Einwirkung\" können nicht mit 把 kombiniert werden. Das Objekt muss außerdem <strong>bestimmt</strong> sein (also bekannt oder spezifisch).",
           examples: [
             { cn: "❌ 我把一本书看了。", pinyin: "", de: "(Falsch — „ein Buch\" ist zu unbestimmt)" },
-            { cn: "✅ 我把那本书看了。", pinyin: "Wǒ bǎ nà běn shū kàn le.", de: "Ich habe dieses Buch gelesen." },
+            { cn: "✅ 我把那本书看了。", pinyin: "Wǒ bǎ nà běn shū kàn le.", de: "Ich habe das Buch (dort) gelesen." },
             { cn: "✅ 我把你的手机拿来了。", pinyin: "Wǒ bǎ nǐ de shǒujī nálái le.", de: "Ich habe dein Handy hergebracht." }
           ]
         }
@@ -1685,8 +1717,9 @@
       number: 33,
       title: "虽然...但是",
       subtitle: "Konzessivkonstruktionen — „Obwohl... trotzdem...\"",
-      level: 'HSK3',
-      intro: "Im Deutschen sagen wir „Obwohl es regnet, gehe ich spazieren\" — ein typischer Konzessivsatz. Im Chinesischen funktioniert das mit <strong>虽然...但是/可是/不过</strong>. Der spannende Unterschied: Im Chinesischen stehen <em>beide</em> Konnektoren im Satz! Im Deutschen reicht „obwohl\" allein, aber Chinesisch braucht das Paar: „Obwohl..., trotzdem...\". Das ist ein typisches Muster für chinesische <strong>Paar-Konjunktionen</strong> (关联词).",
+      level: 'HSK2/HSK3',
+      grammarIds: ["g:虽然……，但是……","g:虽然……，可是……","g:连接分句或者句子@HSK2","g:却","g:……，不过……"],
+      intro: "Im Deutschen sagen wir „Obwohl es regnet, gehe ich spazieren\" — ein typischer Konzessivsatz. Im Chinesischen funktioniert das mit <strong>虽然...但是/可是/不过</strong>. Der spannende Unterschied: Im Chinesischen stehen meist <em>beide</em> Konnektoren im Satz! Im Deutschen reicht „obwohl\" allein, im Chinesischen ist das Paar „Obwohl..., aber...\" ganz normal. 虽然 kann auch wegfallen, 但是 eher nicht. Das ist ein typisches Muster für chinesische <strong>Paar-Konjunktionen</strong> (关联词).",
       sections: [
         {
           heading: "Grundstruktur",
@@ -1694,7 +1727,7 @@
           examples: [
             { cn: "虽然很累，但是我很开心。", pinyin: "Suīrán hěn lèi, dànshì wǒ hěn kāixīn.", de: "Obwohl ich müde bin, bin ich glücklich." },
             { cn: "虽然他很聪明，可是不努力。", pinyin: "Suīrán tā hěn cōngming, kěshì bù nǔlì.", de: "Obwohl er klug ist, strengt er sich nicht an." },
-            { cn: "虽然下雨了，不过我们还是去了。", pinyin: "Suīrán xià yǔ le, búguò wǒmen háishì qù le.", de: "Obwohl es geregnet hat, sind wir trotzdem gegangen." }
+            { cn: "虽然下雨了，不过我们还是去了。", pinyin: "Suīrán xià yǔ le, búguò wǒmen háishi qù le.", de: "Obwohl es geregnet hat, sind wir trotzdem gegangen." }
           ],
           tip: "但是, 可是, 不过 sind austauschbar. 但是 ist am formellsten, 不过 am umgangssprachlichsten."
         },
@@ -1710,15 +1743,15 @@
           heading: "Verstärkung mit 还是, 仍然, 却",
           text: "Im zweiten Teilsatz kann man die Gegenüberstellung mit <strong>还是</strong> (trotzdem), <strong>仍然</strong> (immer noch) oder <strong>却</strong> (jedoch) verstärken.",
           examples: [
-            { cn: "虽然很难，我还是想试试。", pinyin: "Suīrán hěn nán, wǒ háishì xiǎng shìshi.", de: "Obwohl es schwer ist, möchte ich es trotzdem versuchen." },
+            { cn: "虽然很难，我还是想试试。", pinyin: "Suīrán hěn nán, wǒ háishi xiǎng shìshi.", de: "Obwohl es schwer ist, möchte ich es trotzdem versuchen." },
             { cn: "虽然他道歉了，她却不原谅他。", pinyin: "Suīrán tā dàoqiàn le, tā què bù yuánliàng tā.", de: "Obwohl er sich entschuldigt hat, verzeiht sie ihm nicht." },
             { cn: "虽然过了很多年，他仍然记得。", pinyin: "Suīrán guò le hěn duō nián, tā réngrán jìde.", de: "Obwohl viele Jahre vergangen sind, erinnert er sich immer noch." }
           ],
           tip: "却 steht direkt vor dem Verb und klingt literarischer. In der Alltagssprache ist 还是 natürlicher."
         },
         {
-          heading: "Häufige Fehler",
-          text: "Achtung! Im Chinesischen darf man 虽然 und 但是 <strong>nicht mit 可是 oder 但是 am Satzanfang</strong> verwechseln, wenn kein 虽然 vorangeht. 但是 allein am Satzanfang bedeutet einfach „aber\".",
+          heading: "但是 allein vs. 虽然...但是",
+          text: "但是 allein verbindet zwei Aussagen mit einem einfachen „aber\". Erst 虽然 im ersten Teilsatz macht daraus einen Konzessivsatz („obwohl …\"). Vergleiche:",
           examples: [
             { cn: "我想去，但是没有时间。", pinyin: "Wǒ xiǎng qù, dànshì méiyǒu shíjiān.", de: "Ich möchte gehen, aber ich habe keine Zeit. (Einfaches „aber\")" },
             { cn: "虽然我想去，但是没有时间。", pinyin: "Suīrán wǒ xiǎng qù, dànshì méiyǒu shíjiān.", de: "Obwohl ich gehen möchte, habe ich keine Zeit. (Konzessiv)" }
@@ -1733,6 +1766,7 @@
       title: "除了...以外",
       subtitle: "Ausnahme und Ergänzung — außer & neben",
       level: 'HSK3',
+      grammarIds: ["g:除了……（以外），……还/也/都……","g:除"],
       intro: "除了...以外 ist eine der vielseitigsten Strukturen im Chinesischen — und eine der tückischsten. Denn je nachdem, ob danach <strong>都</strong> oder <strong>还/也</strong> folgt, ändert sich die Bedeutung komplett: Entweder wird etwas <em>ausgeschlossen</em> („außer A, alle anderen...\") oder etwas <em>hinzugefügt</em> („neben A, auch noch B...\"). Im Deutschen entspricht das dem Unterschied zwischen „außer\" und „neben/zusätzlich zu\". Wer diesen Unterschied beherrscht, kann präzise Aussagen über Ausnahmen und Ergänzungen treffen.",
       sections: [
         {
@@ -1786,6 +1820,7 @@
       title: "不但...而且",
       subtitle: "Nicht nur... sondern auch",
       level: 'HSK3',
+      grammarIds: ["g:不但……，而且……","g:连接分句或句子@HSK3","g:不仅/不光……，还/而且……"],
       intro: "不但...而且 ist das chinesische Äquivalent zu „nicht nur... sondern auch\" und gehört zu den wichtigsten Satzverbindungen im Chinesischen. Diese Struktur drückt eine <strong>Steigerung</strong> aus: Der zweite Teil geht über den ersten hinaus. Besonders spannend: Im Chinesischen kann bei 不但 das Subjekt wechseln — eine Feinheit, die es im Deutschen so nicht gibt. Wer diese Struktur beherrscht, kann Argumente wirkungsvoll aufbauen und Aussagen überzeugend steigern.",
       sections: [
         {
@@ -1815,7 +1850,7 @@
           examples: [
             { cn: "不但他会做饭，而且他妹妹也会。", pinyin: "Búdàn tā huì zuòfàn, érqiě tā mèimei yě huì.", de: "Nicht nur er kann kochen, sondern auch seine Schwester." },
             { cn: "不但大人喜欢，孩子也喜欢。", pinyin: "Búdàn dàrén xǐhuan, háizi yě xǐhuan.", de: "Nicht nur Erwachsene mögen es, auch Kinder." },
-            { cn: "不但中国人吃饺子，外国人也爱吃。", pinyin: "Búdàn Zhōngguórén chī jiǎozi, wàiguórén yě ài chī.", de: "Nicht nur Chinesen essen Jiaozi, auch Ausländer lieben sie." }
+            { cn: "不但中国人吃饺子，外国人也爱吃。", pinyin: "Búdàn Zhōngguórén chī jiǎozi, wàiguórén yě ài chī.", de: "Nicht nur in China isst man Jiaozi, auch Menschen aus dem Ausland lieben sie." }
           ],
           tip: "Faustregel: Gleiches Subjekt → Subjekt <strong>vor</strong> 不但. Verschiedene Subjekte → erstes Subjekt <strong>nach</strong> 不但. Das ist ein typischer Prüfungsfehler!"
         },
@@ -1838,6 +1873,7 @@
       title: "只要...就 & 只有...才",
       subtitle: "Schwache vs. strenge Bedingung",
       level: 'HSK3',
+      grammarIds: ["g:只有……，才……","g:只要……，就……","g:连接分句或句子@HSK3"],
       intro: "只要...就 und 只有...才 drücken beide Bedingungen aus, aber auf grundverschiedene Weise. <strong>只要...就</strong> heißt „solange/wenn nur\" — eine <em>hinreichende</em> Bedingung, die relativ leicht zu erfüllen ist. <strong>只有...才</strong> heißt „nur wenn/nur dann\" — eine <em>notwendige</em> Bedingung, ohne die das Ergebnis unmöglich ist. Der Unterschied ist wie zwischen „Solange du übst, wirst du besser\" und „Nur wenn du übst, wirst du besser\". Beide klingen ähnlich, aber der Ton ist ein ganz anderer.",
       sections: [
         {
@@ -1892,6 +1928,7 @@
       title: "可能补语 V得/V不",
       subtitle: "Potential-Komplemente — können oder nicht können",
       level: 'HSK3',
+      grammarIds: ["g:动词+得/不+动词/形容词","g:能","g:可以","g:动补短语2","g:来得及/来不及"],
       intro: "Die Potential-Komplemente gehören zu den elegantesten Werkzeugen der chinesischen Sprache. Statt umständlich „Ich kann das sehen\" zu sagen, komprimiert das Chinesische es in ein einziges Wort: <strong>看得见</strong> (sehen können) oder <strong>看不见</strong> (nicht sehen können). Die Formel ist einfach: <strong>Verb + 得 + Komplement</strong> (= kann) oder <strong>Verb + 不 + Komplement</strong> (= kann nicht). Dieses System beschreibt, ob ein Ergebnis <em>erreichbar</em> ist — und geht damit weit über einfaches „können\" hinaus.",
       sections: [
         {
@@ -1912,7 +1949,7 @@
             { cn: "这个东西太贵了，我买不起。", pinyin: "Zhège dōngxi tài guì le, wǒ mǎi bu qǐ.", de: "Das ist zu teuer, ich kann es mir nicht leisten. (买得起/买不起)" },
             { cn: "作业太多了，今天做不完。", pinyin: "Zuòyè tài duō le, jīntiān zuò bu wán.", de: "Es gibt zu viele Hausaufgaben, heute werde ich nicht fertig. (做得完/做不完)" },
             { cn: "快点儿！来不及了！", pinyin: "Kuài diǎnr! Lái bu jí le!", de: "Beeil dich! Wir schaffen es nicht mehr rechtzeitig! (来得及/来不及)" },
-            { cn: "这个字太小了，看不清楚。", pinyin: "Zhège zì tài xiǎo le, kàn bu qīngchu.", de: "Diese Schriftzeichen sind zu klein, ich kann sie nicht deutlich sehen. (看得清楚/看不清楚)" }
+            { cn: "这个字太小了，看不清楚。", pinyin: "Zhège zì tài xiǎo le, kàn bu qīngchu.", de: "Dieses Schriftzeichen ist zu klein, ich kann es nicht deutlich sehen. (看得清楚/看不清楚)" }
           ],
           tip: "Die häufigsten Komplemente in dieser Struktur: 见 (wahrnehmen), 懂 (verstehen), 完 (fertig), 到 (erreichen), 起 (sich leisten), 清楚 (deutlich), 动 (bewegen). Lerne diese als feste Bausteine!"
         },
@@ -1947,6 +1984,7 @@
       title: "对...来说 & 关于",
       subtitle: "Perspektive, Bezug und Thema",
       level: 'HSK3',
+      grammarIds: ["g:关于","g:对……来说","g:对","g:至于"],
       intro: "Im Chinesischen gibt es mehrere Möglichkeiten, einen Bezugsrahmen oder eine Perspektive einzuführen. <strong>对...来说</strong> markiert, aus wessen <em>Sicht</em> etwas gilt. <strong>关于</strong> führt ein <em>Thema</em> ein, über das gesprochen wird. <strong>至于</strong> leitet einen <em>Themenwechsel</em> ein. Und <strong>对...有好处</strong> beschreibt, wofür etwas <em>gut oder hilfreich</em> ist. Diese Strukturen helfen dir, präzise auszudrücken, worüber und aus welcher Perspektive du sprichst.",
       sections: [
         {
@@ -1955,7 +1993,7 @@
           examples: [
             { cn: "对我来说，学中文很有意思。", pinyin: "Duì wǒ lái shuō, xué Zhōngwén hěn yǒu yìsi.", de: "Für mich ist Chinesischlernen sehr interessant." },
             { cn: "对孩子来说，这个游戏太难了。", pinyin: "Duì háizi lái shuō, zhège yóuxì tài nán le.", de: "Für Kinder ist dieses Spiel zu schwer." },
-            { cn: "对外国人来说，汉字最难。", pinyin: "Duì wàiguórén lái shuō, Hànzì zuì nán.", de: "Für Ausländer sind die Schriftzeichen am schwierigsten." },
+            { cn: "对外国人来说，汉字最难。", pinyin: "Duì wàiguórén lái shuō, Hànzì zuì nán.", de: "Für Menschen aus dem Ausland sind die Schriftzeichen am schwierigsten." },
             { cn: "对他来说，钱不是问题。", pinyin: "Duì tā lái shuō, qián bú shì wèntí.", de: "Für ihn ist Geld kein Problem." }
           ],
           tip: "对...来说 ist <strong>nicht</strong> dasselbe wie einfaches 对 (gegenüber/zu). 对我来说 = „aus meiner Sicht\", 对我 = „mir gegenüber/zu mir\". Der Zusatz 来说 macht den Perspektiv-Charakter deutlich."
@@ -1984,7 +2022,7 @@
         },
         {
           heading: "至于 — was ... betrifft (Themenwechsel)",
-          text: "<strong>至于</strong> leitet einen <em>Themenwechsel</em> ein und bedeutet „was ... betrifft\" oder „hinsichtlich\". Es wird verwendet, um von einem Thema auf ein anderes überzuleiten, oft mit dem Unterton „das ist eine andere Sache\".",
+          text: "Ausblick (HSK 6): <strong>至于</strong> leitet einen <em>Themenwechsel</em> ein und bedeutet „was ... betrifft\" oder „hinsichtlich\". Es wird verwendet, um von einem Thema auf ein anderes überzuleiten, oft mit dem Unterton „das ist eine andere Sache\".",
           examples: [
             { cn: "我同意去旅行，至于去哪儿，再说吧。", pinyin: "Wǒ tóngyì qù lǚxíng, zhìyú qù nǎr, zài shuō ba.", de: "Ich bin einverstanden zu reisen; was das Ziel betrifft, darüber reden wir später." },
             { cn: "工作我找到了，至于工资，还不太满意。", pinyin: "Gōngzuò wǒ zhǎodào le, zhìyú gōngzī, hái bú tài mǎnyì.", de: "Einen Job habe ich gefunden; was das Gehalt betrifft, bin ich noch nicht ganz zufrieden." },
@@ -2000,7 +2038,8 @@
       number: 39,
       title: "被 (bèi) Passiv",
       subtitle: "Passivkonstruktionen im Chinesischen",
-      level: 'HSK3/HSK4',
+      level: 'HSK3',
+      grammarIds: ["g:被","g:主语+被+宾语+动词+其他成分","g:主语+被+动词+其他成分","g:受事主语","g:主语+叫/让+宾语+动词+其他成分"],
       intro: "Im Deutschen benutzen wir das Passiv ständig: „Das Buch wurde gelesen\", „Das Fenster ist geöffnet worden.\" Im Chinesischen ist das Passiv viel seltener — und es hat einen besonderen Beigeschmack. Traditionell wird 被 vor allem für <strong>unangenehme oder unerwünschte</strong> Dinge verwendet: bestohlen werden, kritisiert werden, gefeuert werden. In der modernen Sprache wird es aber auch neutral eingesetzt, besonders in Nachrichten und formellen Texten.",
       sections: [
         {
@@ -2027,13 +2066,13 @@
           text: "In modernem Chinesisch, besonders in Nachrichten, wird 被 auch <strong>neutral</strong> verwendet. In sozialen Medien gibt es sogar die ironische „被\"-Konstruktion (被XX), die ausdrückt, dass jemandem etwas aufgezwungen wurde.",
           examples: [
             { cn: "他被选为班长。", pinyin: "Tā bèi xuǎn wéi bānzhǎng.", de: "Er wurde zum Klassensprecher gewählt." },
-            { cn: "这部电影被很多人喜欢。", pinyin: "Zhè bù diànyǐng bèi hěn duō rén xǐhuan.", de: "Dieser Film wird von vielen Leuten gemocht." }
+            { cn: "这个问题已经被解决了。", pinyin: "Zhège wèntí yǐjīng bèi jiějué le.", de: "Das Problem ist bereits gelöst worden." }
           ],
           tip: "Alternativen zu 被: In der gesprochenen Sprache hört man auch <strong>叫 (jiào)</strong> und <strong>让 (ràng)</strong> für passivische Konstruktionen, besonders in nordchinesischen Dialekten."
         },
         {
           heading: "被 vs. aktive Umformulierung",
-          text: "Im Chinesischen klingt es oft natürlicher, das Passiv zu <strong>vermeiden</strong> und aktiv umzuformulieren. Muttersprachler bevorzugen häufig die aktive Form oder die Thema-Kommentar-Struktur.",
+          text: "Im Chinesischen klingt es oft natürlicher, das Passiv zu <strong>vermeiden</strong> und aktiv umzuformulieren. Im Alltag bevorzugt man häufig die aktive Form oder die Thema-Kommentar-Struktur.",
           examples: [
             { cn: "被动：杯子被他打碎了。", pinyin: "Bēizi bèi tā dǎsuì le.", de: "Passiv: Die Tasse wurde von ihm zerbrochen." },
             { cn: "主动：他打碎了杯子。", pinyin: "Tā dǎsuì le bēizi.", de: "Aktiv: Er hat die Tasse zerbrochen." },
@@ -2048,18 +2087,19 @@
       number: 40,
       title: "趋向补语 — Richtungskomplemente",
       subtitle: "Bewegung in alle Richtungen",
-      level: 'HSK3/HSK4',
-      intro: "Im Chinesischen kannst du mit Richtungskomplementen (趋向补语) unglaublich präzise beschreiben, <em>wohin</em> sich etwas bewegt. 来 (her, zum Sprecher) und 去 (hin, weg vom Sprecher) bilden die Basis. Dazu kommen Verben wie 上 (rauf), 下 (runter), 进 (rein), 出 (raus), 回 (zurück), 过 (vorbei), 起 (auf). Kombiniere sie, und du bekommst Ausdrücke wie 走进来 (hereinkommen) oder 跑出去 (hinausrennen). Es ist wie ein Baukastensystem!",
+      level: 'HSK2/HSK3',
+      grammarIds: ["g:简单趋向补语的趋向意义用法：（1）动词+来/去","g:动词+上/下/进/出/过/回","g:复合趋向补语的趋向意义用法：动词+出来/出去/过来/过去/回来/回去/进来/进去/起来/上来/上去/下来/下去","g:趋向补语的引申用法：（1）表示结果意义：动词+出/起/下","g:表示动作行为的开始：动词+上/起来","g:表示动作行为的持续：动词+下去/下来"],
+      intro: "Im Chinesischen kannst du mit Richtungskomplementen (趋向补语) unglaublich präzise beschreiben, <em>wohin</em> sich etwas bewegt. 来 (her, zur sprechenden Person hin) und 去 (hin, von ihr weg) bilden die Basis. Dazu kommen Verben wie 上 (rauf), 下 (runter), 进 (rein), 出 (raus), 回 (zurück), 过 (vorbei), 起 (auf). Kombiniere sie, und du bekommst Ausdrücke wie 走进来 (hereinkommen) oder 跑出去 (hinausrennen). Es ist wie ein Baukastensystem!",
       sections: [
         {
           heading: "Einfache Richtungskomplemente",
           text: "Die einfachsten sind <strong>来</strong> (hierher) und <strong>去</strong> (dorthin), direkt nach dem Bewegungsverb.",
           examples: [
-            { cn: "他走过来了。", pinyin: "Tā zǒu guòlái le.", de: "Er ist herübergekommen." },
+            { cn: "他带来了一些水果。", pinyin: "Tā dàilái le yìxiē shuǐguǒ.", de: "Er hat etwas Obst mitgebracht." },
             { cn: "请进来！", pinyin: "Qǐng jìnlái!", de: "Komm bitte herein!" },
-            { cn: "她跑出去了。", pinyin: "Tā pǎo chūqù le.", de: "Sie ist hinausgerannt." }
+            { cn: "她买来了一个蛋糕。", pinyin: "Tā mǎilái le yí gè dàngāo.", de: "Sie hat einen Kuchen gekauft und mitgebracht." }
           ],
-          tip: "来 = Bewegung <strong>zum Sprecher</strong> hin. 去 = Bewegung <strong>vom Sprecher</strong> weg. Das ist der entscheidende Unterschied!"
+          tip: "来 = Bewegung <strong>zur sprechenden Person</strong> hin. 去 = Bewegung <strong>von ihr</strong> weg. Das ist der entscheidende Unterschied!"
         },
         {
           heading: "Zusammengesetzte Richtungskomplemente",
@@ -2098,7 +2138,8 @@
       number: 41,
       title: "越...越...",
       subtitle: "„Je... desto...\" — Progressive Veränderung",
-      level: 'HSK3/HSK4',
+      level: 'HSK3',
+      grammarIds: ["g:越来越","g:越……越……"],
       intro: "„Je mehr ich lerne, desto mehr verstehe ich.\" „Je kälter es wird, desto weniger will ich rausgehen.\" Diese progressiven Konstruktionen sind im Deutschen schon elegant — im Chinesischen sind sie es noch mehr. Mit <strong>越...越...</strong> drückst du aus, dass sich zwei Dinge <strong>parallel und proportional</strong> verändern. Die Struktur ist simpel, aber die Ausdruckskraft ist enorm.",
       sections: [
         {
@@ -2125,7 +2166,7 @@
           text: "Die beiden Teile können auch <strong>verschiedene Subjekte</strong> haben. Dann beschreibt die Konstruktion einen kausalen Zusammenhang.",
           examples: [
             { cn: "你越说，我越不明白。", pinyin: "Nǐ yuè shuō, wǒ yuè bù míngbai.", de: "Je mehr du erklärst, desto weniger verstehe ich." },
-            { cn: "老师越严格，学生越认真。", pinyin: "Lǎoshī yuè yángé, xuéshēng yuè rènzhēn.", de: "Je strenger der Lehrer, desto gewissenhafter die Schüler." },
+            { cn: "老师越严格，学生越认真。", pinyin: "Lǎoshī yuè yángé, xuéshēng yuè rènzhēn.", de: "Je strenger die Lehrkraft, desto gewissenhafter die Lernenden." },
             { cn: "风越大，浪越高。", pinyin: "Fēng yuè dà, làng yuè gāo.", de: "Je stärker der Wind, desto höher die Wellen." }
           ],
           tip: "Beachte die Eleganz: Im Chinesischen braucht man kein „je\" und „desto\" — 越...越... reicht völlig aus."
@@ -2148,15 +2189,17 @@
       title: "连...都/也",
       subtitle: "„Sogar\"-Konstruktionen",
       level: 'HSK4',
+      grammarIds: ["g:连……也/都……，……更……","g:一……也/都+不/没……"],
       intro: "Wenn du im Deutschen sagst „Sogar mein Hund versteht das!\", betonst du, dass etwas extrem überraschend oder unerwartet ist. Im Chinesischen gibt es dafür die elegante <strong>连...都/也</strong>-Konstruktion. 连 markiert das überraschende Element, 都 oder 也 verstärkt die Aussage. Diese Struktur ist in der gehobenen Alltagssprache extrem häufig und gibt deinem Chinesisch sofort mehr Ausdruckskraft.",
       sections: [
         {
           heading: "Grundstruktur",
           text: "Die Formel: <strong>连 + betontes Element + 都/也 + Verb</strong>. 连 hebt hervor, was überraschend ist, und 都 oder 也 betont das „sogar\".",
           examples: [
-            { cn: "他连自己的名字都不会写。", pinyin: "Tā lián zìjǐ de míngzì dōu bú huì xiě.", de: "Er kann nicht mal seinen eigenen Namen schreiben." },
+            { cn: "他连自己的名字都不会写。", pinyin: "Tā lián zìjǐ de míngzi dōu bú huì xiě.", de: "Er kann nicht mal seinen eigenen Namen schreiben." },
             { cn: "连小孩子都知道。", pinyin: "Lián xiǎo háizi dōu zhīdào.", de: "Sogar kleine Kinder wissen das." },
-            { cn: "我连一块钱也没有。", pinyin: "Wǒ lián yí kuài qián yě méiyǒu.", de: "Ich habe nicht mal einen Yuan." }
+            { cn: "我连一块钱也没有。", pinyin: "Wǒ lián yí kuài qián yě méiyǒu.", de: "Ich habe nicht mal einen Yuan." },
+            { cn: "连小孩子都知道，你更应该知道。", pinyin: "Lián xiǎo háizi dōu zhīdào, nǐ gèng yīnggāi zhīdào.", de: "Sogar kleine Kinder wissen das — du solltest es erst recht wissen. (连……都……，……更……)" }
           ],
           tip: "都 und 也 sind in dieser Konstruktion austauschbar, aber 都 ist häufiger. 也 klingt etwas weicher."
         },
@@ -2182,7 +2225,7 @@
           heading: "Ohne 连 — informelle Variante",
           text: "In der Umgangssprache wird 连 manchmal weggelassen. 都 oder 也 allein kann schon „sogar\" oder „nicht einmal\" ausdrücken.",
           examples: [
-            { cn: "他名字都不知道。", pinyin: "Tā míngzì dōu bù zhīdào.", de: "Er kennt nicht mal den Namen. (连 weggelassen)" },
+            { cn: "他名字都不知道。", pinyin: "Tā míngzi dōu bù zhīdào.", de: "Er kennt nicht mal den Namen. (连 weggelassen)" },
             { cn: "我一口也没吃。", pinyin: "Wǒ yì kǒu yě méi chī.", de: "Ich habe keinen einzigen Bissen gegessen." },
             { cn: "水都没喝一口。", pinyin: "Shuǐ dōu méi hē yì kǒu.", de: "Hat nicht mal einen Schluck Wasser getrunken." }
           ]
@@ -2195,7 +2238,8 @@
       number: 43,
       title: "既...又/也 & 又...又",
       subtitle: "Sowohl ... als auch — gleichzeitige Eigenschaften",
-      level: 'HSK4',
+      level: 'HSK3/HSK4',
+      grammarIds: ["g:又……，又……","g:既……，又/也……"],
       intro: "Wenn du im Deutschen „sowohl A als auch B\" sagen willst, gibt es im Chinesischen mehrere elegante Möglichkeiten. <strong>既...又</strong> betont, dass jemand oder etwas <em>gleichzeitig zwei Eigenschaften</em> besitzt. <strong>又...又</strong> beschreibt eher <em>gleichzeitig ablaufende Handlungen oder Zustände</em>. Und <strong>也...也</strong> drückt aus, dass beide Optionen gelten. Die Nuancen sind fein, aber wichtig — besonders auf HSK4-Niveau, wo diese Strukturen regelmäßig geprüft werden.",
       sections: [
         {
@@ -2238,7 +2282,7 @@
             { cn: "大家又吃又喝，非常开心。", pinyin: "Dàjiā yòu chī yòu hē, fēicháng kāixīn.", de: "Alle aßen und tranken, es war sehr fröhlich. (Lebhafte Szene)" },
             { cn: "周末也可以，工作日也可以。", pinyin: "Zhōumò yě kěyǐ, gōngzuòrì yě kěyǐ.", de: "Am Wochenende geht es auch, an Werktagen auch. (Beide Optionen)" }
           ],
-          tip: "Häufiger Fehler: 既...又 kann <strong>nicht</strong> für Handlungen in der Vergangenheit mit 了 verwendet werden. Für vergangene gleichzeitige Aktionen nimm 又...又: ❌ 她既唱了又跳了 → ✅ 她又唱又跳."
+          tip: "既...又 klingt sachlich und eher schriftlich; für eine lebhafte Szene mit Handlungen nimmt man 又...又: 她又唱又跳."
         }
       ]
     },
@@ -2249,6 +2293,7 @@
       title: "不管...都 & 无论...都",
       subtitle: "Egal was/wer/wie — Konzessivsätze",
       level: 'HSK4',
+      grammarIds: ["g:不管……，都/也……","g:无论……，都/也……","g:疑问代词的非疑问用法：（1）任指用法：①疑问代词+都……②疑问代词+疑问代词"],
       intro: "Manchmal will man ausdrücken, dass etwas <em>unter allen Umständen</em> gilt — egal, was passiert. Genau dafür gibt es <strong>不管...都</strong> und <strong>无论...都</strong>. Beide bedeuten „egal ob/was/wer/wie... trotzdem/immer...\". Der Unterschied: 不管 ist alltäglicher, 无论 formeller. Diese Struktur wird mit <strong>Fragewörtern</strong> oder <strong>Alternativen</strong> kombiniert und ist ein Muss für HSK4.",
       sections: [
         {
@@ -2287,9 +2332,9 @@
           heading: "不论 und weitere Varianten",
           text: "<strong>不论</strong> ist eine dritte Variante, die zwischen 不管 und 无论 steht — etwas formeller als 不管, aber nicht ganz so gehoben wie 无论. Alle drei werden mit 都 oder 也 im Hauptsatz kombiniert.",
           examples: [
-            { cn: "不论你做什么决定，我都支持你。", pinyin: "Bùlùn nǐ zuò shénme juédìng, wǒ dōu zhīchí nǐ.", de: "Welche Entscheidung du auch triffst, ich unterstütze dich." },
-            { cn: "不论成功还是失败，经验都很重要。", pinyin: "Bùlùn chénggōng háishi shībài, jīngyàn dōu hěn zhòngyào.", de: "Ob Erfolg oder Misserfolg, die Erfahrung ist immer wertvoll." },
-            { cn: "不论天气怎样，比赛都会进行。", pinyin: "Bùlùn tiānqì zěnyàng, bǐsài dōu huì jìnxíng.", de: "Egal wie das Wetter ist, der Wettkampf findet statt." }
+            { cn: "不论你做什么决定，我都支持你。", pinyin: "Búlùn nǐ zuò shénme juédìng, wǒ dōu zhīchí nǐ.", de: "Welche Entscheidung du auch triffst, ich unterstütze dich." },
+            { cn: "不论成功还是失败，经验都很重要。", pinyin: "Búlùn chénggōng háishi shībài, jīngyàn dōu hěn zhòngyào.", de: "Ob Erfolg oder Misserfolg, die Erfahrung ist immer wertvoll." },
+            { cn: "不论天气怎样，比赛都会进行。", pinyin: "Búlùn tiānqì zěnyàng, bǐsài dōu huì jìnxíng.", de: "Egal wie das Wetter ist, der Wettkampf findet statt." }
           ],
           tip: "Alle drei Formen (不管/无论/不论) verlangen <strong>都</strong> oder <strong>也</strong> im Hauptsatz. Vergiss 都 nicht! ❌ 不管你怎么说，我不同意 → ✅ 不管你怎么说，我<strong>都</strong>不同意."
         }
@@ -2301,7 +2346,8 @@
       number: 45,
       title: "与其...不如 & 宁可...也",
       subtitle: "Lieber A als B — Präferenzen ausdrücken",
-      level: 'HSK4',
+      level: 'HSK7-9',
+      grammarIds: ["g:宁可/宁愿……，也不……","g:与其……，宁愿/宁可……","g:A不如B（+形容词）","g:与其说…不如说…","g:倒不如"],
       intro: "与其...不如 und 宁可...也 drücken beide eine <strong>Präferenz</strong> aus — man bevorzugt eine Option gegenüber einer anderen. Aber Vorsicht: Die <em>Reihenfolge</em> ist tückisch! Bei <strong>与其A不如B</strong> wird B bevorzugt (= „statt A lieber B\"). Bei <strong>宁可A也不B</strong> wird A bevorzugt, auch wenn es einen Nachteil hat (= „lieber A, auch wenn... als B\"). Deutsche Lernende stolpern hier oft, weil die Struktur genau umgekehrt erscheint. Aber mit etwas Übung wird es schnell intuitiv.",
       sections: [
         {
@@ -2320,7 +2366,7 @@
           text: "<strong>宁可</strong> (oder 宁愿) leitet die <em>bevorzugte</em> Option ein, <strong>也不/也要</strong> verbindet sie mit der abgelehnten Option oder dem akzeptierten Nachteil. Diese Struktur drückt eine <em>entschlossene</em> Präferenz aus, oft trotz Widrigkeiten.",
           examples: [
             { cn: "我宁可走路，也不坐公交车。", pinyin: "Wǒ nìngkě zǒulù, yě bú zuò gōngjiāochē.", de: "Ich gehe lieber zu Fuß, als den Bus zu nehmen." },
-            { cn: "她宁可不吃饭，也不迟到。", pinyin: "Tā nìngkě bù chīfàn, yě bú chídào.", de: "Sie verzichtet lieber aufs Essen, als zu spät zu kommen." },
+            { cn: "她宁可不吃饭，也不迟到。", pinyin: "Tā nìngkě bù chīfàn, yě bù chídào.", de: "Sie verzichtet lieber aufs Essen, als zu spät zu kommen." },
             { cn: "他宁愿一个人住，也不跟别人合租。", pinyin: "Tā nìngyuàn yí ge rén zhù, yě bù gēn biérén hézū.", de: "Er wohnt lieber allein, als mit anderen zusammen zu wohnen." },
             { cn: "我宁可多花点钱，也要买好的。", pinyin: "Wǒ nìngkě duō huā diǎn qián, yě yào mǎi hǎo de.", de: "Ich gebe lieber etwas mehr Geld aus und kaufe dafür etwas Gutes." }
           ],
@@ -2335,7 +2381,7 @@
             { cn: "与其花时间抱怨，不如花时间学习。", pinyin: "Yǔqí huā shíjiān bàoyuàn, bùrú huā shíjiān xuéxí.", de: "Statt die Zeit mit Klagen zu verbringen, nutzt man sie lieber zum Lernen." },
             { cn: "宁可辛苦一点，也不要放弃。", pinyin: "Nìngkě xīnkǔ yìdiǎn, yě bú yào fàngqì.", de: "Lieber etwas mehr Mühe auf sich nehmen, als aufzugeben." }
           ],
-          tip: "Eselsbrücke: <strong>与其</strong> beginnt mit der Option, die man <em>verwirft</em> (与 = „mit/statt\" → „statt das zu tun...\"). <strong>宁可</strong> beginnt mit der Option, die man <em>wählt</em> (宁 = „lieber\" → „ich mache lieber...\")."
+          tip: "Eselsbrücke: <strong>与其</strong> beginnt mit der Option, die man <em>verwirft</em> (与其 ≈ „statt …\": „statt das zu tun...\"). <strong>宁可</strong> beginnt mit der Option, die man <em>wählt</em> (宁 = „lieber\" → „ich mache lieber...\")."
         },
         {
           heading: "Formell vs. umgangssprachlich",
@@ -2346,7 +2392,7 @@
             { cn: "与其花时间担心，不如做好准备。", pinyin: "Yǔqí huā shíjiān dānxīn, bùrú zuòhǎo zhǔnbèi.", de: "Statt sich Sorgen zu machen, bereitet man sich lieber gut vor." },
             { cn: "他宁可失去工作，也不愿意说谎。", pinyin: "Tā nìngkě shīqù gōngzuò, yě bú yuànyì shuōhuǎng.", de: "Er verliert lieber seinen Job, als zu lügen." }
           ],
-          tip: "不如 kann auch allein stehen und bedeutet dann „es ist besser zu...\" oder „nicht so gut wie\": 你不如自己去 (Du gehst besser selbst). 他不如我高 (Er ist nicht so groß wie ich). Das ist eine nützliche Alltagswendung!"
+          tip: "不如 kann auch allein stehen und bedeutet dann „es ist besser zu...\" oder „nicht so gut wie\": 你不如自己去 (Du gehst besser selbst). 他不如我高 (Er ist nicht so groß wie ich). Verwandt sind 倒不如 („da wäre es doch besser …“: 等他，倒不如自己去) und 与其说……不如说…… („weniger … als vielmehr …“: 与其说他聪明，不如说他努力)."
         }
       ]
     }

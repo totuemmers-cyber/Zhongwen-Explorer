@@ -26,7 +26,9 @@
     "build:comprehension": "node scripts/build-comprehension.cjs",
     "audit:comprehension": "node scripts/audit-comprehension.cjs",
     "audit:quiz": "node scripts/audit-quiz.cjs",
-    "test:comprehension": "node scripts/comprehension-test.js"
+    "test:comprehension": "node scripts/comprehension-test.js",
+    "audit:lessons": "node scripts/lessons/validate.cjs --all",
+    "lessons:status": "node scripts/lessons/status.cjs"
   },
   "devDependencies": {
     "jsdom": "^26.1.0",

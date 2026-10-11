@@ -1,0 +1,392 @@
+{
+ "_doc": "Manual content findings for scripts/lessons/link.cjs (read 2026-10-11 against the HSK 2025 grammar points). severity: Fehler (wrong or contradicts the grammar data), Warnung (overgeneralised, misleading, unnatural), Hinweis (style). pinyinIgnore: example sentences whose CEDICT warning is a false positive.",
+ "pinyinIgnore": [
+  "我能看中文书。"
+ ],
+ "findings": [
+  {
+   "lesson": "lesson-25",
+   "severity": "Fehler",
+   "kind": "Sachaussage",
+   "where": "Abschnitt 3 „不想 vs. 不要“ (Tipp)",
+   "grammarId": "g:不要",
+   "text": "Behauptet, 不要 als Antwort auf „Willst du Kaffee?“ klinge wie „Bloß nicht!“/„Untersteh dich!“. Als Antwort auf 你要咖啡吗？ ist 不要 die normale Ablehnung („nein, will ich nicht“); der Grammatikpunkt trennt ausdrücklich das Verbot 不要 + Verb vom Verb 要 „wollen“ (我不要这个 = „Das will ich nicht“).",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-25",
+   "severity": "Fehler",
+   "kind": "Übersetzung",
+   "where": "Abschnitt 4 „Abgrenzung zu 会, 能, 可以“, Beispiel 3",
+   "grammarId": "g:会",
+   "text": "我会去 → „Ich werde gehen. / Ich kann gehen. (Fähigkeit/Zukunft)“: Hingehen ist keine erlernte Fähigkeit; 我会去 heißt nur „Ich werde (bestimmt) hingehen“.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-17",
+   "severity": "Fehler",
+   "kind": "Tipp",
+   "where": "Abschnitt 3 „可以 (kěyǐ) — Erlaubnis / Möglichkeit“ (Tipp)",
+   "text": "„❌ 不可以抽烟 = Rauchen verboten!“ markiert einen korrekten Satz als falsch; gemeint ist offenbar ✅ (不可以/不能 für Verbote).",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-32",
+   "severity": "Fehler",
+   "kind": "Sachaussage",
+   "where": "Abschnitt 3 „又...又... — Sowohl ... als auch“ (Tipp)",
+   "grammarId": "g:又……，又……",
+   "text": "„又...又... beschreibt Eigenschaften und Zustände, nicht zwei verschiedene Handlungen!“ — der Grammatikpunkt nennt ausdrücklich auch Handlungen (又唱又跳), und lesson-43 lehrt 孩子们又唱又跳 / 她又哭又笑. Die Lektionen widersprechen sich.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-35",
+   "severity": "Warnung",
+   "kind": "Sachaussage",
+   "where": "Einleitung und Abschnitt 2 „Vergleich mit 又...又...“",
+   "grammarId": "g:一边……，一边……",
+   "text": "„又...又..., das Eigenschaften verbindet … 一边...一边... ausschließlich Handlungen“ ist zu absolut: 又……又…… verbindet vor allem, aber nicht nur Eigenschaften (又唱又跳, vgl. lesson-43). Formulierung an den Grammatikpunkt angleichen („eher Eigenschaften“).",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-35",
+   "severity": "Warnung",
+   "kind": "Beispiel",
+   "where": "Abschnitt 3 „一面...一面“, Beispiel 3",
+   "grammarId": "g:一边……，一边……",
+   "text": "她一面微笑一面说 → „Sie sagte lächelnd“: Beschreibt die erste Handlung nur die Art und Weise, nimmt man laut Grammatikpunkt Verb + 着 + Verb (她笑着说, so auch lesson-10). Beispiel austauschen.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-31",
+   "severity": "Fehler",
+   "kind": "Sachaussage",
+   "where": "Abschnitt 2 „或者 — „Oder“ in Aussagen“ (Tipp) und Abschnitt 4",
+   "grammarId": "g:或者",
+   "text": "„In Fragen muss es 还是 heißen! 或者 ist nur für Aussagen.“ — In Ja/Nein-Fragen mit 吗 ist 或者 möglich (你明天或者后天有空吗？); nur in Wahlfragen „A oder B?“ steht 还是.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-15",
+   "severity": "Fehler",
+   "kind": "Sachaussage",
+   "where": "Abschnitt 2 „Einen Teil weglassen“",
+   "grammarId": "g:不用关联词语的复句",
+   "text": "„Man kann entweder 因为 oder 所以 weglassen — aber nicht beide!“ — Grund und Folge stehen im gesprochenen Chinesisch oft ganz ohne Bindewort nebeneinander (今天下雨，我不去了; HSK-1-Punkt 不用关联词语的复句).",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-15",
+   "severity": "Hinweis",
+   "kind": "Formulierung",
+   "where": "Abschnitt 1 „Grundstruktur“ (Tipp)",
+   "text": "Der Tipp beginnt mit ❌, ohne einen falschen Satz zu zeigen, und „Im Deutschen benutzt man nie beides gleichzeitig“ ist zu absolut. Klarer: Im Chinesischen ist das Paar normal, im Deutschen übersetzt man nur eines.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-8",
+   "severity": "Fehler",
+   "kind": "Terminologie",
+   "where": "Titel und Einleitung",
+   "grammarId": "g:形容词+得很",
+   "text": "„程度补语 — Gradkomplemente mit 得“ für 唱得很好: Nach Syllabus und Grammatikpunkten ist Verb + 得 + Adjektiv ein 状态补语 (Zustandskomplement, g:动词+得+形容词性短语); 程度补语 sind 得很, 极了, 死了. Der Punkt g:形容词+得很 sagt das ausdrücklich.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-8",
+   "severity": "Hinweis",
+   "kind": "Level",
+   "where": "Abschnitt 3 „Komplexe Beschreibungen“",
+   "text": "累得不想说话, 高兴得跳了起来, 冷得我发抖 sind die HSK-5-Punkte 动词/形容词+得+动词短语/主谓短语 — in einer HSK-2–3-Lektion als Ausblick kennzeichnen.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-4",
+   "severity": "Warnung",
+   "kind": "Sachaussage",
+   "where": "Abschnitt 3 „Verneinung und Adverbien“",
+   "grammarId": "g:主语+把+宾语+状语+动词",
+   "text": "„Adverbien (已经, 都, 也) stehen vor 把, nicht nach 把“ — richtig für Verneinung, Modalverben und 已经; beschreibende Adverbiale stehen aber zwischen Objekt und Verb (他把门轻轻地关上了), und 都 mit Bezug auf das 把-Objekt folgt ihm (我把作业都做完了).",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-14",
+   "severity": "Warnung",
+   "kind": "Sachaussage",
+   "where": "Einleitung",
+   "grammarId": "g:虽然……，但是……",
+   "text": "„Chinesisch braucht das Paar“ — laut Grammatikpunkt kann 虽然 wegfallen (但是 eher nicht); das eigene Beispiel 虽然很难，我还是想试试 kommt ohne 但是 aus.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-14",
+   "severity": "Warnung",
+   "kind": "Formulierung",
+   "where": "Abschnitt 4 „Häufige Fehler“",
+   "text": "„darf man 虽然 und 但是 nicht mit 可是 oder 但是 am Satzanfang verwechseln, wenn kein 虽然 vorangeht“ ist unverständlich, und der Abschnitt zeigt keinen Fehler (beide Beispiele sind korrekt).",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-26",
+   "severity": "Fehler",
+   "kind": "Übersetzung",
+   "where": "Abschnitt 1 „这/那 + Zählwort + Nomen“, Beispiele 2 und 4",
+   "grammarId": "g:指示代词@HSK1",
+   "text": "那本书很好看 → „Dieses Buch …“, 那只猫是你的吗 → „Ist diese Katze deine?“: 那 ist „das/jenes (dort)“ — ausgerechnet in der Lektion über den Unterschied 这/那.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-26",
+   "severity": "Warnung",
+   "kind": "Sachaussage",
+   "where": "Abschnitt 1 „这/那 + Zählwort + Nomen“",
+   "grammarId": "g:指示代词@HSK1",
+   "text": "„Das Zählwort darf nicht fehlen! … Pflicht“ — der Grammatikpunkt sagt „meist“; 这些/那些 stehen ohne Zählwort, und umgangssprachlich kommt 这人, 那书 vor.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-18",
+   "severity": "Warnung",
+   "kind": "Sachaussage",
+   "where": "Einleitung",
+   "grammarId": "g:时量词@HSK1",
+   "text": "„Zwischen Zahl und Nomen muss immer ein Zählwort stehen“ — Zeitwörter wie 年, 天 und 岁 stehen direkt nach der Zahl (三天, 两年).",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-18",
+   "severity": "Warnung",
+   "kind": "Übersetzung",
+   "where": "Abschnitt 4 „Weitere häufige Zählwörter“, Beispiel 1",
+   "text": "这位老师姓王 → „Dieser Lehrer heißt Wang“: 姓 nennt den Familiennamen („… heißt mit Nachnamen Wang“); Geschlecht unbekannt („Diese Lehrkraft …“).",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-33",
+   "severity": "Warnung",
+   "kind": "Sachaussage",
+   "where": "Abschnitt 1 „从A到B — Räumlich“ (Tipp)",
+   "grammarId": "g:到 + Ort/Zeit",
+   "text": "„Die ganze Präpositionalphrase 从...到... steht vor dem Verb, nie dahinter“ — 到 + Ort/Zeit kann nach dem Verb stehen (从北京走到上海, 从八点工作到十点), wie der Punkt 到 + Ort/Zeit zeigt.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-3",
+   "severity": "Warnung",
+   "kind": "Sachaussage",
+   "where": "Abschnitt 2 „Position von 的 bei Objekten“",
+   "grammarId": "g:“是……的”句1：强调时间、地点、方式、动作者",
+   "text": "„Vor dem Objekt ist formeller, nach dem Objekt umgangssprachlicher“ ist nicht belegt (eher umgekehrt: 买的这本书 ist die typisch gesprochene Form); der Grammatikpunkt nennt beide Stellungen ohne Wertung. Außerdem fehlt: In verneinten Sätzen darf 是 nicht wegfallen.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-34",
+   "severity": "Warnung",
+   "kind": "Sachaussage",
+   "where": "Einleitung",
+   "text": "„Im Chinesischen gibt es keine Präpositionen im europäischen Sinne — stattdessen … Coverben (介词)“: 介词 heißt „Präposition“, und Syllabus wie Grammatikpunkte führen 给, 对, 跟, 向 als Präpositionen. Besser: Präpositionen, die aus Verben entstanden sind (Koverben).",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-12",
+   "severity": "Warnung",
+   "kind": "Sachaussage",
+   "where": "Einleitung",
+   "text": "„Deutsch ist eine Subjekt-Verb-Objekt-Sprache“ widerspricht lesson-21 (Verbzweitstellung, Verb am Ende im Nebensatz).",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-5",
+   "severity": "Warnung",
+   "kind": "Beispiel",
+   "where": "Abschnitt 3 „Neutrales / positives Passiv“, Beispiel 2",
+   "grammarId": "g:被",
+   "text": "这部电影被很多人喜欢 ist mit dem Zustandsverb 喜欢 und nacktem Verb unnatürlich und widerspricht dem eigenen Tipp („Verb darf nicht nackt stehen“). Natürlicher: 这部电影很受欢迎 / 受到很多人的喜欢.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-7",
+   "severity": "Fehler",
+   "kind": "Querverweis",
+   "where": "Abschnitt 3 „Verneinung mit 没“ (Tipp)",
+   "text": "„Das Potentialkomplement (Lektion 9)“ zeigt auch nach ID (lesson-9) auf die Richtungskomplemente; gemeint ist lesson-41 „可能补语 V得/V不“ → [[lesson:lesson-41]].",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-7",
+   "severity": "Warnung",
+   "kind": "Beispiel",
+   "where": "Abschnitt 2 „Adjektive als Resultativkomplemente“, Beispiel 2",
+   "text": "请把音乐放大一点 — 放大 heißt „vergrößern“; für „lauter machen“ sagt man 把声音开大一点 / 调大一点.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-7",
+   "severity": "Hinweis",
+   "kind": "Formulierung",
+   "where": "Einleitung",
+   "text": "„Ein Resultativkomplement ist ein Zeichen“ — es kann auch zweisilbig sein (洗干净, 看清楚).",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-9",
+   "severity": "Warnung",
+   "kind": "Beispiel",
+   "where": "Abschnitt 1 „Einfache Richtungskomplemente“",
+   "text": "Der Abschnitt erklärt nur 来/去, die Beispiele 走过来 und 跑出去 sind aber zusammengesetzte Richtungskomplemente (Abschnitt 2).",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-1",
+   "severity": "Fehler",
+   "kind": "Deutsch",
+   "where": "Einleitung",
+   "text": "„der berühmteste — und berüchtigtste — Partikel“ → „die berühmteste … Partikel“ (die Partikel).",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-1",
+   "severity": "Warnung",
+   "kind": "Beispiel",
+   "where": "Abschnitt 1 „了₁ — Aspektpartikel“ (Tipp)",
+   "text": "Im Tipp steht „(也买了一本书)“ — vermutlich 我买了一本书; 也 passt nicht.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-11",
+   "severity": "Fehler",
+   "kind": "Deutsch",
+   "where": "Einleitung",
+   "text": "Nach „den Aspektpartikel 过“ (siehe oben) bezieht sich auch „Er drückt aus …“ auf die Partikel → „Sie drückt aus …“.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-45",
+   "severity": "Warnung",
+   "kind": "Eselsbrücke",
+   "where": "Abschnitt 3 „Achtung: umgekehrte Reihenfolge!“ (Tipp)",
+   "text": "„与 = „mit/statt““ — 与 heißt „mit, und“, nicht „statt“; die Eselsbrücke lehrt eine falsche Bedeutung.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-45",
+   "severity": "Hinweis",
+   "kind": "Level",
+   "where": "ganze Lektion",
+   "text": "与其……不如 ist kein Syllabus-Punkt (nur Zusatz: 与其说…不如说…, 倒不如); 宁可/宁愿 sind HSK 7–9. Die Lektion rückt dadurch von HSK 4 nach HSK 7–9 — oder sie wird als Zusatz-Lektion geführt."
+  },
+  {
+   "lesson": "lesson-43",
+   "severity": "Hinweis",
+   "kind": "Sachaussage",
+   "where": "Abschnitt 4 „Unterschiede und Gebrauch“ (Tipp)",
+   "text": "„既...又 kann nicht für Handlungen in der Vergangenheit mit 了 verwendet werden“ ist durch den Grammatikpunkt 既……，又/也…… nicht gedeckt; belegen oder streichen.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-28",
+   "severity": "Hinweis",
+   "kind": "Eselsbrücke",
+   "where": "Abschnitt 3 „Kombination: 也都“ (Tipp)",
+   "text": "„alphabetisch: A(uch) vor A(lle)“ funktioniert nicht — beide beginnen mit A.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-20",
+   "severity": "Hinweis",
+   "kind": "Sachaussage",
+   "where": "Abschnitt 2 „没 (méi) — Vergangenheit & Besitz“",
+   "grammarId": "g:没（有）",
+   "text": "没 verneint, dass etwas stattgefunden hat oder eingetreten ist (Aspekt, nicht Tempus); „Vergangenheit“ als Überschrift vereinfacht stark.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-31",
+   "severity": "Hinweis",
+   "kind": "Pinyin",
+   "where": "Abschnitt 4, Beispiele 1–3",
+   "text": "Zhōngcān groß, xīcān klein geschrieben; 中餐 ist kein Eigenname (zhōngcān).",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-14",
+   "severity": "Hinweis",
+   "kind": "Pinyin",
+   "where": "Abschnitte 1 und 3",
+   "text": "还是 als háishì, sonst (lesson-31, Grammatikpunkte) háishi.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-13",
+   "severity": "Hinweis",
+   "kind": "Pinyin",
+   "where": "Abschnitt 1, Beispiel 1; Abschnitt 4, Beispiel 1",
+   "text": "名字 als míngzì, sonst (lesson-22) míngzi.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-24",
+   "severity": "Hinweis",
+   "kind": "Übersetzung",
+   "where": "Abschnitt 3, Beispiel 1",
+   "text": "„(Nicht: Ich esse in Hause)“ ist als Erklärung sinnlos; streichen.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-29",
+   "severity": "Hinweis",
+   "kind": "Deutsch",
+   "where": "Abschnitt 2, Beispiel 1",
+   "text": "„Vor dem Essen muss man Hände waschen“ → „… sich die Hände waschen“.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-34",
+   "severity": "Hinweis",
+   "kind": "Übersetzung",
+   "where": "Abschnitt 3, Beispiel 4",
+   "text": "这个跟那个不一样 → „Dieses ist nicht gleich wie jenes“ ist kein idiomatisches Deutsch („Das hier ist anders als das da“).",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-35",
+   "severity": "Hinweis",
+   "kind": "Deutsch",
+   "where": "Abschnitt 2, Beispiel 4",
+   "text": "„hört dabei Podcast“ → „hört dabei einen Podcast“.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-37",
+   "severity": "Hinweis",
+   "kind": "Übersetzung",
+   "where": "Abschnitt 4, Beispiel 1",
+   "text": "会议将于下周一召开 → „wird … einberufen“: 召开 heißt „abhalten, stattfinden“.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-41",
+   "severity": "Hinweis",
+   "kind": "Übersetzung",
+   "where": "Abschnitt 2, Beispiel 4",
+   "text": "这个字太小了 → „Diese Schriftzeichen sind zu klein“: Einzahl („Dieses Schriftzeichen ist zu klein“).",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-4",
+   "severity": "Hinweis",
+   "kind": "Übersetzung",
+   "where": "Abschnitt 4, Beispiel 2",
+   "text": "我把那本书看了 → „Ich habe dieses Buch gelesen“: 那 = „das (Buch dort)“.",
+   "resolved": true
+  },
+  {
+   "lesson": "lesson-42",
+   "severity": "Hinweis",
+   "kind": "Level",
+   "where": "Abschnitt 4 „至于“",
+   "text": "至于 ist HSK 6 (Wortschatz und Grammatikpunkt) — in einer HSK-3-Lektion als Ausblick kennzeichnen oder in eine HSK-6-Lektion verschieben.",
+   "resolved": true
+  }
+ ]
+}

@@ -23,7 +23,8 @@ const CHECKS = Object.freeze([
   'audit:hanzi-runtime',
   'audit:enrichment',
   'audit:comprehension',
-  'audit:quiz'
+  'audit:quiz',
+  'audit:lessons'
 ]);
 const FULL_CHECKS = Object.freeze([]);
 const defaultJobs = () => Math.min(3, os.availableParallelism(), os.freemem() < 4 * 1024 ** 3 ? 1 : 3);
