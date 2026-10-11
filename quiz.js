@@ -892,7 +892,7 @@
   // Classifiers that fit almost any noun (个, 种, containers, groups, verbal and time measures)
   // would often be a valid alternative, so they are never offered as wrong options.
   var BROAD_CLASSIFIERS = '个种些点类样批群堆帮伙窝串束捆摞打排对份层段片次遍趟回番下场阵杯瓶碗盘罐壶碟锅勺桶盆盒箱袋包管';
-  var NON_NOUN_CATEGORIES = { Zeit: true, Mengen: true, Handlungen: true, Medizin: true };
+  var NON_NOUN_CATEGORIES = { Zeit: true, Mengen: true, Handlungen: true, Medizin: true, Masseinheiten: true };
   var NUMBERS = ['一', '一', '两', '三'];
 
   function measureWordInfo() {
@@ -925,13 +925,15 @@
     var asked = pickRandom(askable);
     var info = measureWordInfo();
     var category = function (c) { return info[c] && info[c].category; };
+    // Units, time words, verbal and indefinite classifiers (kind ≠ Zählwort) are no plausible noun classifiers.
+    var nounKind = function (c) { return !info[c] || !info[c].kind || info[c].kind === 'Zählwort'; };
     // Person classifiers (位, 名, 口) are interchangeable for people.
     var forPeople = listed.some(function (c) { return category(c) === 'Menschen'; });
     var distractors = pickDistractors(Object.keys(levelClassifiers), 3, {
       text: function (c) { return c; },
       taken: listed,
       valid: function (c) {
-        return BROAD_CLASSIFIERS.indexOf(c) === -1 && !NON_NOUN_CATEGORIES[category(c)] && listed.indexOf(c) === -1 &&
+        return BROAD_CLASSIFIERS.indexOf(c) === -1 && !NON_NOUN_CATEGORIES[category(c)] && nounKind(c) && listed.indexOf(c) === -1 &&
           item.word.indexOf(c) === -1 && item.meaning.indexOf(c) === -1 && !(forPeople && category(c) === 'Menschen');
       },
       preferred: function (c) { return category(c) !== category(asked.word); }

@@ -60,6 +60,11 @@ const CORRECTIONS = {
   'w:百科全书:bai3ke1quan2shu1': [mw('部', 'bu4'), mw('套', 'tao4'), mw('本', 'ben3')]
 };
 
+// Run only as a script; fix-inline-classifiers.cjs imports the author corrections.
+if (require.main === module) main();
+module.exports = { CORRECTIONS, KEEP_TYPES };
+
+function main() {
 const sources = common.loadSources();
 const changes = [];
 const seen = new Set();
@@ -83,4 +88,5 @@ console.log(changes.length + ' entries corrected' + (DRY ? ' (dry run)' : '') + 
 if (!DRY && changes.length) {
   common.writeSources(sources);
   require('../build-vocab-runtime.cjs').writeVocabRuntime();
+}
 }

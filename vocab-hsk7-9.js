@@ -42540,7 +42540,13 @@ window.VOCAB_HSK7_9 = [
       "batch": "b027",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "条",
+        "pinyin": "tiao2"
+      }
+    ]
   },
   {
     "id": "w:厄运:e4yun4",
@@ -84037,6 +84043,10 @@ window.VOCAB_HSK7_9 = [
       {
         "word": "支",
         "pinyin": "zhi1"
+      },
+      {
+        "word": "只",
+        "pinyin": "zhi1"
       }
     ],
     "evidence": {
@@ -90520,6 +90530,10 @@ window.VOCAB_HSK7_9 = [
       {
         "word": "种",
         "pinyin": "zhong3"
+      },
+      {
+        "word": "个",
+        "pinyin": "ge4"
       }
     ],
     "evidence": {
@@ -96124,7 +96138,17 @@ window.VOCAB_HSK7_9 = [
       "batch": "b032",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "笔",
+        "pinyin": "bi3"
+      },
+      {
+        "word": "项",
+        "pinyin": "xiang4"
+      }
+    ]
   },
   {
     "id": "w:楷模:kai3mo2",
@@ -98836,7 +98860,17 @@ window.VOCAB_HSK7_9 = [
       "batch": "b032",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "头",
+        "pinyin": "tou2"
+      },
+      {
+        "word": "只",
+        "pinyin": "zhi1"
+      }
+    ]
   },
   {
     "id": "w:空白:kong4bai2",
@@ -101037,7 +101071,13 @@ window.VOCAB_HSK7_9 = [
       "batch": "b033",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "笔",
+        "pinyin": "bi3"
+      }
+    ]
   },
   {
     "id": "w:筐:kuang1",
@@ -125588,6 +125628,10 @@ window.VOCAB_HSK7_9 = [
       {
         "word": "门",
         "pinyin": "men2"
+      },
+      {
+        "word": "座",
+        "pinyin": "zuo4"
       }
     ],
     "evidence": {
@@ -139948,6 +139992,10 @@ window.VOCAB_HSK7_9 = [
       {
         "word": "番",
         "pinyin": "fan1"
+      },
+      {
+        "word": "席",
+        "pinyin": "xi2"
       }
     ],
     "evidence": {
@@ -154957,7 +155005,13 @@ window.VOCAB_HSK7_9 = [
       "batch": "b038",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "道",
+        "pinyin": "dao4"
+      }
+    ]
   },
   {
     "id": "w:首脑:shou3nao3",
@@ -174926,7 +174980,17 @@ window.VOCAB_HSK7_9 = [
       "batch": "b040",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "部",
+        "pinyin": "bu4"
+      },
+      {
+        "word": "副",
+        "pinyin": "fu4"
+      }
+    ]
   },
   {
     "id": "w:微:wei1",
@@ -188201,6 +188265,10 @@ window.VOCAB_HSK7_9 = [
       {
         "word": "个",
         "pinyin": "ge4"
+      },
+      {
+        "word": "项",
+        "pinyin": "xiang4"
       }
     ],
     "evidence": {
@@ -188546,6 +188614,10 @@ window.VOCAB_HSK7_9 = [
       {
         "word": "件",
         "pinyin": "jian4"
+      },
+      {
+        "word": "宗",
+        "pinyin": "zong1"
       }
     ],
     "evidence": {
@@ -218292,6 +218364,10 @@ window.VOCAB_HSK7_9 = [
       {
         "word": "张",
         "pinyin": "zhang1"
+      },
+      {
+        "word": "本",
+        "pinyin": "ben3"
       }
     ],
     "evidence": {
@@ -221105,7 +221181,17 @@ window.VOCAB_HSK7_9 = [
       "batch": "b044",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "架",
+        "pinyin": "jia4"
+      },
+      {
+        "word": "座",
+        "pinyin": "zuo4"
+      }
+    ]
   },
   {
     "id": "w:忠诚:zhong1cheng2",

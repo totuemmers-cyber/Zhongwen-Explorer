@@ -471,7 +471,17 @@ window.VOCAB_HSK2 = [
       "batch": "b003",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "支",
+        "pinyin": "zhi1"
+      },
+      {
+        "word": "枝",
+        "pinyin": "zhi1"
+      }
+    ]
   },
   {
     "id": "w:别:bie2",
@@ -954,7 +964,13 @@ window.VOCAB_HSK2 = [
       "batch": "b003",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "张",
+        "pinyin": "zhang1"
+      }
+    ]
   },
   {
     "id": "w:词:ci2",
@@ -998,7 +1014,17 @@ window.VOCAB_HSK2 = [
       "batch": "b003",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "个",
+        "pinyin": "ge4"
+      },
+      {
+        "word": "首",
+        "pinyin": "shou3"
+      }
+    ]
   },
   {
     "id": "w:次:ci4",
@@ -1611,7 +1637,8 @@ window.VOCAB_HSK2 = [
       {
         "level": "HSK4",
         "pos": [
-          "名"
+          "名",
+          "量"
         ]
       }
     ],
@@ -2034,7 +2061,8 @@ window.VOCAB_HSK2 = [
       {
         "level": "HSK5",
         "pos": [
-          "名"
+          "名",
+          "动"
         ]
       }
     ],
@@ -2592,7 +2620,33 @@ window.VOCAB_HSK2 = [
       "batch": "b003",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "朵",
+        "pinyin": "duo3"
+      },
+      {
+        "word": "支",
+        "pinyin": "zhi1"
+      },
+      {
+        "word": "束",
+        "pinyin": "shu4"
+      },
+      {
+        "word": "把",
+        "pinyin": "ba3"
+      },
+      {
+        "word": "盆",
+        "pinyin": "pen2"
+      },
+      {
+        "word": "簇",
+        "pinyin": "cu4"
+      }
+    ]
   },
   {
     "id": "w:花:hua1#2",
@@ -2716,7 +2770,17 @@ window.VOCAB_HSK2 = [
       "batch": "b003",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "幅",
+        "pinyin": "fu2"
+      },
+      {
+        "word": "张",
+        "pinyin": "zhang1"
+      }
+    ]
   },
   {
     "id": "w:坏:huai4",
@@ -4229,7 +4293,13 @@ window.VOCAB_HSK2 = [
       "batch": "b003",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "条",
+        "pinyin": "tiao2"
+      }
+    ]
   },
   {
     "id": "w:路上:lu4shang5",
@@ -4586,7 +4656,13 @@ window.VOCAB_HSK2 = [
       "batch": "b003",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "扇",
+        "pinyin": "shan4"
+      }
+    ]
   },
   {
     "id": "w:门口:men2kou3",
@@ -4710,7 +4786,9 @@ window.VOCAB_HSK2 = [
       {
         "level": "HSK5",
         "pos": [
-          "动"
+          "动",
+          "名",
+          "量"
         ]
       }
     ],
@@ -8375,7 +8453,17 @@ window.VOCAB_HSK2 = [
       "batch": "b003",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "条",
+        "pinyin": "tiao2"
+      },
+      {
+        "word": "尾",
+        "pinyin": "wei3"
+      }
+    ]
   },
   {
     "id": "w:远:yuan3",

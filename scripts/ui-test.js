@@ -194,6 +194,47 @@ async function run() {
   assert.equal(w.localStorage.getItem('bookmarks-measurewords'), null);
   await finish(f);
 
+  // Measure words: bookmarks saved as the bare classifier follow the new m: ids (legacyIds), classifiers that are
+  // vocabulary only (字) move to the vocab entry; old deep links still open; 数量 entries have no counting table.
+  f = await boot('#measurewords/' + encodeURIComponent('个'), { local: { 'zhongwen-bookmarks-measurewords': JSON.stringify(['个', '字', '卷']) } });
+  ({ w, d } = f);
+  const measure = w.app.sections.measurewords;
+  await until(() => measure.isOverlayOpen() && measure.selectedItem && measure.selectedItem.id === 'm:个', 'measure-word legacy deep link');
+  assert.deepEqual(JSON.parse(w.localStorage.getItem('zhongwen-bookmarks-measurewords')), ['m:个', 'm:卷:juan4']);
+  assert(JSON.parse(w.localStorage.getItem('zhongwen-bookmarks-vocab')).includes(w.MEASURE_WORDS_DATA.removed['字']), 'Removed classifier bookmark not moved to vocab');
+  assert(d.getElementById('mw-detail-table').textContent.includes('yí gè'), 'Generated counting table missing');
+  assert(!d.getElementById('mw-detail-nouns-section').classList.contains('hidden'), 'Typical nouns missing');
+  assert.equal(d.getElementById('mw-detail-level').textContent, 'HSK 1');
+  // No optional section is shown without content (条 has no special forms; new entries have no examples yet).
+  const mwSections = Array.from(measure.dom.overlay.querySelectorAll('.grammar-detail-section, dl'));
+  for (let i = 0; i < measure.filteredItems.length; i++) {
+    measure.openDetail(i);
+    for (const section of mwSections) {
+      if (section.classList.contains('hidden') || section.hidden) continue;
+      const content = Array.from(section.children).filter(child => child.tagName !== 'H3').map(child => child.textContent.trim()).join('');
+      assert(content, measure.filteredItems[i].id + ': empty section ' + (section.id || section.className));
+    }
+  }
+  measure.openDetail(measure.filteredItems.findIndex(item => item.id === 'm:条'));
+  assert(d.getElementById('mw-detail-special-section').classList.contains('hidden'), '条: empty „Besondere Formen“ shown');
+  assert(d.getElementById('mw-detail-nouns').textContent.includes('鱼'), '条: 鱼 missing from the typical nouns');
+  measure.openDetail(measure.filteredItems.findIndex(item => item.id === 'm:一些'));
+  assert(d.getElementById('mw-detail-table-section').classList.contains('hidden'), '数量 entry shows a counting table');
+  assert(d.getElementById('mw-detail-question-section').classList.contains('hidden'), '数量 entry shows a question word');
+  measure.openDetail(measure.filteredItems.findIndex(item => item.id === 'm:栋'));
+  assert.equal(d.getElementById('mw-detail-cat').textContent, 'Gebäude');
+  // Level row and category select filter; the noun chip opens the vocabulary entry.
+  measure.dom.controls.querySelector('.mw-level[data-mwlevel="HSK1"]').click();
+  assert(measure.filteredItems.length && measure.filteredItems.every(item => item.level === 'HSK1'), 'Level filter');
+  const catSelect = d.getElementById('mw-cat-select');
+  catSelect.value = 'Masseinheiten';
+  catSelect.dispatchEvent(new w.Event('change'));
+  assert.deepEqual(Array.from(measure.filteredItems, item => item.classifier), ['元']);
+  measure.openDetail(0);
+  d.querySelector('#mw-detail-facts .btn-link').click();
+  await until(() => w.app.activeTab === 'vocab' && w.app.sections.vocab.selectedItem && w.app.sections.vocab.selectedItem.id === 'w:元:yuan2', 'vocab entry of the classifier');
+  await finish(f);
+
   // Bookmarks on grammar points that were vocabulary words move to the vocabulary entry; old ids of kept
   // points follow their new point (legacyIds).
   f = await boot('#grammar', { local: { 'zhongwen-bookmarks-grammar': JSON.stringify(['g:显然', 'g:很 + Adjektiv']) } });

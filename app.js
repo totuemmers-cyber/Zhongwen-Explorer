@@ -147,16 +147,16 @@
     }
   }
 
-  // Grammar points that turned out to be vocabulary words were removed (grammar-removed.js: old id → vocab id);
-  // their bookmarks move to the vocabulary entry.
-  function migrateRemovedGrammarBookmarks(removed) {
-    var grammar = getBookmarks('grammar');
-    var moved = grammar.filter(function (id) { return removed[id]; });
+  // Entries removed from a section because they are vocabulary words (old id → vocab id: grammar-removed.js,
+  // MEASURE_WORDS_DATA.removed); their bookmarks move to the vocabulary entry.
+  function migrateRemovedBookmarks(sectionName, removed) {
+    var own = getBookmarks(sectionName);
+    var moved = own.filter(function (id) { return removed[id]; });
     if (!moved.length) return;
     var vocab = getBookmarks('vocab');
     moved.forEach(function (id) { if (vocab.indexOf(removed[id]) === -1) vocab.push(removed[id]); });
     store.local.setJSON(profile.storagePrefix + 'bookmarks-vocab', vocab);
-    store.local.setJSON(profile.storagePrefix + 'bookmarks-grammar', grammar.filter(function (id) { return !removed[id]; }));
+    store.local.setJSON(profile.storagePrefix + 'bookmarks-' + sectionName, own.filter(function (id) { return !removed[id]; }));
   }
 
   var DATA = profile.dataScripts;
@@ -183,7 +183,7 @@
       message: 'Lade Grammatik-Daten...',
       hydrate: function () {
         var items = window.GRAMMAR_DATA || [];
-        migrateRemovedGrammarBookmarks(window.GRAMMAR_REMOVED || {});
+        migrateRemovedBookmarks('grammar', window.GRAMMAR_REMOVED || {});
         migrateLegacyBookmarks('grammar', items);
         app.sections.grammar.setItems(items);
       }
@@ -217,8 +217,13 @@
       scripts: DATA.measurewords,
       message: 'Lade Zählwort-Daten...',
       hydrate: function () {
-        var data = window.MEASURE_WORDS_DATA;
-        app.sections.measurewords.setItems(data && data.measureWords ? data.measureWords : []);
+        // Built by scripts/measure-words/build.cjs: ids m:<classifier>; old bookmarks (bare classifier) follow
+        // legacyIds, classifiers that are vocabulary only (removed) move to the vocab entry.
+        var data = window.MEASURE_WORDS_DATA || {};
+        var items = data.measureWords || [];
+        migrateRemovedBookmarks('measurewords', data.removed || {});
+        migrateLegacyBookmarks('measurewords', items);
+        app.sections.measurewords.setItems(items);
       }
     },
     radicals: {

@@ -28,6 +28,6 @@ window.LANG_PROFILE = {
     vocab: ['vocab-hsk1.js', 'vocab-hsk2.js', 'vocab-hsk3.js', 'vocab-hsk4.js', 'vocab-hsk5.js', 'vocab-hsk6.js', 'vocab-hsk7-9.js', 'vocab-zusatz.js',
       'chengyu-data.js', 'redewendungen-data.js'],
     onomatopoeia: ['onomatopoeia-data.js', 'onomatopoeia-extra.js', 'onomatopoeia-extra2.js', 'onomatopoeia-extra3.js'],
-    measurewords: ['measure-words-data.js', 'measure-words-extra.js', 'measure-words-extra2.js']
+    measurewords: ['measure-words-data.js']
   }
 };

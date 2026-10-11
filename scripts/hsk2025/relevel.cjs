@@ -145,9 +145,10 @@ const LEVEL = level => 'HSK' + level;
 const POS_TYPES = { '名': 'Nomen', '动': 'Verb', '形': 'Adjektiv', '副': 'Adverb', '代': 'Pronomen', '数': 'Zahlwort', '量': 'Zählwort',
   '介': 'Präposition', '连': 'Konjunktion', '助': 'Partikel', '叹': 'Interjektion', '拟声': 'Lautmalerei', '前缀': 'Affix', '后缀': 'Affix', '数量': 'Zahlwort' };
 function splitPos(pos) {
-  // 数、（副） -> main [数], later [[副]] in the order of the later levels.
-  const parts = String(pos || '').split('、').filter(Boolean);
-  return { main: parts.filter(p => !/^（/.test(p)), later: parts.filter(p => /^（/.test(p)).map(p => p.replace(/[（）]/g, '').split(/[、，]/)) };
+  // 数、（副） -> main [数], later [[副]] in the order of the later levels. A bracket group can hold several parts
+  // (形、介、（动、量） -> later [[动, 量]]), so the groups are matched first and split on 、 afterwards.
+  const groups = String(pos || '').match(/（[^）]*）|[^、（）]+/g) || [];
+  return { main: groups.filter(g => !g.startsWith('（')), later: groups.filter(g => g.startsWith('（')).map(g => g.replace(/[（）]/g, '').split(/[、，]/)) };
 }
 function typeFor(row) {
   const main = splitPos(row.pos).main[0];

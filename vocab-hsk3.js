@@ -485,6 +485,10 @@ window.VOCAB_HSK3 = [
       {
         "word": "个",
         "pinyin": "ge4"
+      },
+      {
+        "word": "条",
+        "pinyin": "tiao2"
       }
     ],
     "evidence": {
@@ -985,7 +989,13 @@ window.VOCAB_HSK3 = [
       "batch": "b003",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "本",
+        "pinyin": "ben3"
+      }
+    ]
   },
   {
     "id": "w:比如:bi3ru2",
@@ -7635,7 +7645,17 @@ window.VOCAB_HSK3 = [
       "batch": "b004",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "条",
+        "pinyin": "tiao2"
+      },
+      {
+        "word": "道",
+        "pinyin": "dao4"
+      }
+    ]
   },
   {
     "id": "w:合适:he2shi4",
@@ -10302,7 +10322,13 @@ window.VOCAB_HSK3 = [
       "batch": "b004",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "项",
+        "pinyin": "xiang4"
+      }
+    ]
   },
   {
     "id": "w:卡:ka3",
@@ -14814,7 +14840,17 @@ window.VOCAB_HSK3 = [
       "batch": "b005",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "条",
+        "pinyin": "tiao2"
+      },
+      {
+        "word": "张",
+        "pinyin": "zhang1"
+      }
+    ]
   },
   {
     "id": "w:山:shan1",
@@ -14858,7 +14894,13 @@ window.VOCAB_HSK3 = [
       "batch": "b005",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "座",
+        "pinyin": "zuo4"
+      }
+    ]
   },
   {
     "id": "w:上衣:shang4yi1",
@@ -20401,7 +20443,13 @@ window.VOCAB_HSK3 = [
       "batch": "b005",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "场",
+        "pinyin": "chang3"
+      }
+    ]
   },
   {
     "id": "w:邮箱:you2xiang1",
@@ -21809,7 +21857,17 @@ window.VOCAB_HSK3 = [
       "batch": "b005",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "张",
+        "pinyin": "zhang1"
+      },
+      {
+        "word": "沓",
+        "pinyin": "da2"
+      }
+    ]
   },
   {
     "id": "w:只能:zhi3neng2",
@@ -22551,7 +22609,8 @@ window.VOCAB_HSK3 = [
       {
         "level": "HSK5",
         "pos": [
-          "动"
+          "动",
+          "形"
         ]
       }
     ],

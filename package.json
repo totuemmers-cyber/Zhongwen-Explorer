@@ -6,6 +6,7 @@
     "check:full": "node scripts/check.cjs --full",
     "lint": "node scripts/lint.js",
     "audit:data": "node scripts/audit-data.cjs",
+    "audit:measure-words": "node scripts/audit-measure-words.cjs",
     "test:pinyin": "node scripts/pinyin-test.cjs",
     "test:storage": "node scripts/storage-test.cjs",
     "test:smoke": "node scripts/smoke-test.js",

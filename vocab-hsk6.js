@@ -35305,7 +35305,13 @@ window.VOCAB_HSK6 = [
       "batch": "b019",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "只",
+        "pinyin": "zhi1"
+      }
+    ]
   },
   {
     "id": "w:老太太:lao3tai4tai5",
@@ -53758,7 +53764,13 @@ window.VOCAB_HSK6 = [
       "batch": "b021",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "座",
+        "pinyin": "zuo4"
+      }
+    ]
   },
   {
     "id": "w:台风:tai2feng1",
@@ -63855,7 +63867,13 @@ window.VOCAB_HSK6 = [
       "batch": "b022",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "门",
+        "pinyin": "men2"
+      }
+    ]
   },
   {
     "id": "w:学员:xue2yuan2",
@@ -69023,7 +69041,13 @@ window.VOCAB_HSK6 = [
       "batch": "b022",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "间",
+        "pinyin": "jian1"
+      }
+    ]
   },
   {
     "id": "w:欲望:yu4wang4",
@@ -71800,7 +71824,17 @@ window.VOCAB_HSK6 = [
       "batch": "b023",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "颗",
+        "pinyin": "ke1"
+      },
+      {
+        "word": "粒",
+        "pinyin": "li4"
+      }
+    ]
   },
   {
     "id": "w:枕头:zhen3tou5",

@@ -42,9 +42,8 @@
     if (!item) return null;
     if (sec.name === 'hanzi') return item.hanzi;
     if (sec.name === 'radicals') return String(item.number);
-    if (sec.name === 'measurewords') return item.classifier;
-    if (sec.name === 'onomatopoeia') return item.word;
-    return String(getItemId(item, item.word || item.pattern));
+    // Sections with built ids (m:…, g:…, w:…) use them; the bare headword is the fallback for entries without one.
+    return String(getItemId(item, item.word || item.pattern || item.classifier));
   }
   function labelOf(item) {
     return item.hanzi || item.radical || item.word || item.pattern || item.classifier;
@@ -256,7 +255,8 @@
     hanzi: { 'hanzi-writing-select': 'writing' },
     vocab: { 'vocab-type-select': 'type', 'vocab-tone-select': 'tone' },
     grammar: { 'grammar-cat-select': 'category' },
-    onomatopoeia: { 'ono-pattern-select': 'pattern' }
+    onomatopoeia: { 'ono-pattern-select': 'pattern' },
+    measurewords: { 'mw-cat-select': 'category', 'mw-kind-select': 'kind' }
   };
   function syncFilters(sec) {
     (sec.config.filterGroups || []).forEach(function (group) {
@@ -295,6 +295,8 @@
       if (key === 'bookmarks') return 'Nur Lesezeichen';
       if (key === 'tone') return 'Ton ' + sec.filters[key];
       if (key === 'writing') return 'Schreibzeichen';
+      // Sections with ASCII filter keys (Gebaeude) name them for display.
+      if (sec.config.filterLabel) return sec.config.filterLabel(key, sec.filters[key]);
       return String(sec.filters[key]).replace(/^HSK(?=\d)/, 'HSK ');
     });
     if (sec.dom.search.value) filters.unshift('„' + sec.dom.search.value + '“');
@@ -486,12 +488,13 @@
   app.workspace = { beforeSwitch: beforeSwitch, afterSwitch: afterSwitch, present: present, close: close, dismiss: dismiss, collectionChanged: collectionChanged, openRelated: openRelated, toggleHelp: toggleHelp, save: save, commit: commit, message: message, updateSpecialCount: updateSpecialCount, isReadingView: isReadingView, idOf: idOf, accessibleContent: accessibleContent };
 
   // The first level-filter row is the primary filter; its label depends on what it filters.
-  var PRIMARY_FILTER_LABELS = { radicals: 'Striche', measurewords: 'Kategorie', onomatopoeia: 'Kategorie' };
+  var PRIMARY_FILTER_LABELS = { radicals: 'Striche', onomatopoeia: 'Kategorie' };
   function selectLabel(select) {
     if (select.id.includes('sort')) return 'Sortierung';
     if (select.id.includes('type')) return 'Wortart';
     if (select.id.includes('tone')) return 'Ton';
     if (select.id.includes('pattern')) return 'Muster';
+    if (select.id.includes('kind')) return 'Art';
     return 'Kategorie';
   }
   Object.keys(sections).forEach(function (name) {

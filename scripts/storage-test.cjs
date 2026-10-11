@@ -49,6 +49,17 @@ assert.deepStrictEqual(json(shared, 'zhongwen-bookmarks-onomatopoeia'), ['哈哈
 assert.deepStrictEqual(json(shared, 'zhongwen-bookmarks-hanzi'), ['好', '我']);
 assert.deepStrictEqual(json(shared, 'bookmarks-hanzi'), []);
 assert.deepStrictEqual(json(shared, 'zhongwen-bookmarks-measurewords'), ['个']);
+// Measure-word bookmarks are still the bare classifier here; app.js moves them to the m: ids on load (legacyIds,
+// ui-test), so every such key must be a legacy id of an entry or a removed classifier.
+{
+  const mwContext = {};
+  mwContext.window = mwContext;
+  vm.runInNewContext(source('measure-words-data.js'), mwContext, { filename: 'measure-words-data.js' });
+  const mw = mwContext.MEASURE_WORDS_DATA;
+  const legacy = new Set(mw.measureWords.flatMap(m => m.legacyIds || []));
+  assert(legacy.has('个') && mw.measureWords.find(m => (m.legacyIds || []).includes('个')).id === 'm:个');
+  assert(legacy.size + Object.keys(mw.removed).length >= 141, 'Old classifier keys lost their bookmark target');
+}
 // Radicals use the same Kangxi numbers in both apps: copied, never removed.
 assert.deepStrictEqual(json(shared, 'bookmarks-radicals'), ['1', '85']);
 assert.deepStrictEqual(json(shared, 'zhongwen-bookmarks-radicals'), ['1', '85']);

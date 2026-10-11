@@ -18246,7 +18246,13 @@ window.VOCAB_HSK5 = [
       "batch": "b011",
       "policy": "author",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "套",
+        "pinyin": "tao4"
+      }
+    ]
   },
   {
     "id": "w:贡献:gong4xian4",
@@ -32637,7 +32643,13 @@ window.VOCAB_HSK5 = [
       "batch": "b012",
       "policy": "author",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "段",
+        "pinyin": "duan4"
+      }
+    ]
   },
   {
     "id": "w:旅行社:lv3xing2she4",
@@ -33185,7 +33197,17 @@ window.VOCAB_HSK5 = [
       "batch": "b013",
       "policy": "author",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "棵",
+        "pinyin": "ke1"
+      },
+      {
+        "word": "朵",
+        "pinyin": "duo3"
+      }
+    ]
   },
   {
     "id": "w:媒体:mei2ti3",
@@ -34540,7 +34562,17 @@ window.VOCAB_HSK5 = [
       "batch": "b013",
       "policy": "author",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "块",
+        "pinyin": "kuai4"
+      },
+      {
+        "word": "根",
+        "pinyin": "gen1"
+      }
+    ]
   },
   {
     "id": "w:哪怕:na3pa4",
@@ -35581,7 +35613,8 @@ window.VOCAB_HSK5 = [
       {
         "level": "HSK7-9",
         "pos": [
-          "名"
+          "名",
+          "量"
         ]
       }
     ],
@@ -37325,7 +37358,8 @@ window.VOCAB_HSK5 = [
       {
         "level": "HSK6",
         "pos": [
-          "动"
+          "动",
+          "副"
         ]
       }
     ],
@@ -38097,7 +38131,17 @@ window.VOCAB_HSK5 = [
       "batch": "b013",
       "policy": "author",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "面",
+        "pinyin": "mian4"
+      },
+      {
+        "word": "堵",
+        "pinyin": "du3"
+      }
+    ]
   },
   {
     "id": "w:强大:qiang2da4",
@@ -48142,7 +48186,13 @@ window.VOCAB_HSK5 = [
       "batch": "b014",
       "policy": "author",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "把",
+        "pinyin": "ba3"
+      }
+    ]
   },
   {
     "id": "w:他人:ta1ren2",
@@ -48839,7 +48889,13 @@ window.VOCAB_HSK5 = [
       "batch": "b014",
       "policy": "author",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "道",
+        "pinyin": "dao4"
+      }
+    ]
   },
   {
     "id": "w:提起:ti2qi3",
@@ -50525,7 +50581,13 @@ window.VOCAB_HSK5 = [
       "batch": "b014",
       "policy": "author",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "颗",
+        "pinyin": "ke1"
+      }
+    ]
   },
   {
     "id": "w:兔子:tu4zi5",
@@ -57913,7 +57975,13 @@ window.VOCAB_HSK5 = [
       "batch": "b015",
       "policy": "author",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "只",
+        "pinyin": "zhi1"
+      }
+    ]
   },
   {
     "id": "w:牙齿:ya2chi3",
@@ -58220,7 +58288,17 @@ window.VOCAB_HSK5 = [
       "batch": "b015",
       "policy": "author",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "只",
+        "pinyin": "zhi1"
+      },
+      {
+        "word": "双",
+        "pinyin": "shuang1"
+      }
+    ]
   },
   {
     "id": "w:演讲:yan3jiang3",
@@ -59864,7 +59942,13 @@ window.VOCAB_HSK5 = [
       "batch": "b015",
       "policy": "author",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "项",
+        "pinyin": "xiang4"
+      }
+    ]
   },
   {
     "id": "w:意义:yi4yi4",
@@ -69578,7 +69662,13 @@ window.VOCAB_HSK5 = [
       "batch": "b016",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "张",
+        "pinyin": "zhang1"
+      }
+    ]
   },
   {
     "id": "w:醉:zui4",

@@ -744,7 +744,25 @@ window.VOCAB_HSK1 = [
       "batch": "b001",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "棵",
+        "pinyin": "ke1"
+      },
+      {
+        "word": "样",
+        "pinyin": "yang4"
+      },
+      {
+        "word": "道",
+        "pinyin": "dao4"
+      },
+      {
+        "word": "盘",
+        "pinyin": "pan2"
+      }
+    ]
   },
   {
     "id": "w:茶:cha2",
@@ -1577,7 +1595,13 @@ window.VOCAB_HSK1 = [
       "batch": "b001",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "家",
+        "pinyin": "jia1"
+      }
+    ]
   },
   {
     "id": "w:电话:dian4hua4",
@@ -2057,7 +2081,8 @@ window.VOCAB_HSK1 = [
       {
         "level": "HSK4",
         "pos": [
-          "动"
+          "动",
+          "量"
         ]
       }
     ],
@@ -2154,7 +2179,8 @@ window.VOCAB_HSK1 = [
       {
         "level": "HSK2",
         "pos": [
-          "数"
+          "数",
+          "副"
         ]
       }
     ],
@@ -2578,7 +2604,8 @@ window.VOCAB_HSK1 = [
       {
         "level": "HSK3",
         "pos": [
-          "动"
+          "动",
+          "名"
         ]
       }
     ],
@@ -2728,7 +2755,17 @@ window.VOCAB_HSK1 = [
       "batch": "b001",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "首",
+        "pinyin": "shou3"
+      },
+      {
+        "word": "支",
+        "pinyin": "zhi1"
+      }
+    ]
   },
   {
     "id": "w:哥哥:ge1ge5",
@@ -5546,7 +5583,13 @@ window.VOCAB_HSK1 = [
       "batch": "b001",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "只",
+        "pinyin": "zhi1"
+      }
+    ]
   },
   {
     "id": "w:没关系:mei2guan1xi5",

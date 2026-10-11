@@ -661,6 +661,12 @@ kbd { font: 12px var(--font); background: var(--bg); border: 1px solid var(--bor
 .counter-category-badge.cc-objekte { background: var(--cc-objekte-bg); color: var(--cc-objekte); border: 1px solid var(--cc-objekte-border); }
 .counter-category-badge.cc-tiere { background: var(--cc-tiere-bg); color: var(--cc-tiere); border: 1px solid var(--cc-tiere-border); }
 .counter-category-badge.cc-zeit { background: var(--cc-zeit-bg); color: var(--cc-zeit); border: 1px solid var(--cc-zeit-border); }
+:root { --cc-masseinheiten: #0f5f8c; --cc-masseinheiten-bg: #eef6fb; --cc-masseinheiten-border: #a9d0e8; }
+.counter-category-badge.cc-masseinheiten { background: var(--cc-masseinheiten-bg); color: var(--cc-masseinheiten); border: 1px solid var(--cc-masseinheiten-border); }
+.counter-kind-badge { display: inline-block; padding: 4px 8px; border-radius: 5px; border: 1px solid var(--border); background: var(--bg-subtle); color: var(--text-secondary); font-size: 12px; line-height: 1.5; }
+.counter-card-badges { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.counter-noun-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.counter-noun-more { flex-basis: 100%; margin: 0; color: var(--text-secondary); font-size: 0.9rem; }
 .counter-card-preview-item { font-family: var(--font-jp); font-size: 0.72rem; padding: 2px 6px; background: var(--bg); border: 1px solid var(--border); border-radius: 4px; color: var(--text-secondary); }
 .counter-card-preview-item.has-shift { color: var(--cc-menschen); border-color: var(--cc-menschen-border); background: var(--cc-menschen-bg); font-weight: 600; }
 .counter-question-reading { font-family: var(--font-jp); font-size: 0.95rem; color: var(--text); }

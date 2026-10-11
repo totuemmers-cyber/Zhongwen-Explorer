@@ -37,11 +37,12 @@ function loadCedict() {
     entry.classifiers = [];
     entry.variantOf = [];
     for (const sense of entry.senses) {
-      const cl = sense.match(/^CL:(.*)$/);
-      if (cl) {
+      // Classifiers stand as a sense of their own ("CL:個|个[ge4],本[ben3]") or inline in a sense
+      // ("fish (CL:條|条[tiao2],尾[wei3])").
+      for (const cl of sense.matchAll(/(?:^|\()CL:([^)]*)/g)) {
         for (const part of cl[1].split(',')) {
-          const m = part.match(/^(?:([^|\[]+)\|)?([^\[]+)\[([^\]]+)\]$/);
-          if (m) entry.classifiers.push({ word: m[2], pinyin: numericKey(m[3]) });
+          const m = part.trim().match(/^(?:([^|\[]+)\|)?([^\[]+)\[([^\]]+)\]$/);
+          if (m && !entry.classifiers.some(c => c.word === m[2])) entry.classifiers.push({ word: m[2], pinyin: numericKey(m[3]) });
         }
       }
       const variant = sense.match(/^variant of (?:([^|\[]+)\|)?([^\[\s]+)\[/);

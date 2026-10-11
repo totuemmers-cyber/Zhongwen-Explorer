@@ -2916,7 +2916,13 @@ window.VOCAB_ZUSATZ = [
       "batch": "b046",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "只",
+        "pinyin": "zhi1"
+      }
+    ]
   },
   {
     "id": "w:蜘蛛:zhi1zhu1",
@@ -4427,7 +4433,13 @@ window.VOCAB_ZUSATZ = [
       "batch": "b046",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "棵",
+        "pinyin": "ke1"
+      }
+    ]
   },
   {
     "id": "w:生姜:sheng1jiang1",
@@ -4661,7 +4673,21 @@ window.VOCAB_ZUSATZ = [
       "batch": "b046",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "峰",
+        "pinyin": "feng1"
+      },
+      {
+        "word": "匹",
+        "pinyin": "pi3"
+      },
+      {
+        "word": "头",
+        "pinyin": "tou2"
+      }
+    ]
   },
   {
     "id": "w:斑马:ban1ma3",
@@ -49070,7 +49096,17 @@ window.VOCAB_ZUSATZ = [
       "batch": "b051",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "颗",
+        "pinyin": "ke1"
+      },
+      {
+        "word": "粒",
+        "pinyin": "li4"
+      }
+    ]
   },
   {
     "id": "w:管子:guan3zi5",

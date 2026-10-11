@@ -950,6 +950,15 @@ function renderVocabNotes(item) {
   sectionEl.classList.toggle('hidden', !text);
 }
 
+// The measure-word entry of a noun's classifier {word, pinyin: numeric}: the entry with that reading (卷 juǎn / juàn
+// are two entries; 场 cháng is pinyinAlt of 场 chǎng), else the only entry of the character.
+function findMeasureWord(items, mw) {
+  var same = items.filter(function (m) { return m.classifier === mw.word; });
+  var reads = function (p, m) { return Pinyin.toNumeric(p, m.classifier) === mw.pinyin; };
+  return same.find(function (m) { return reads(m.pinyin, m); }) ||
+    same.find(function (m) { return (m.pinyinAlt || []).some(function (p) { return reads(p, m); }); }) || same[0] || null;
+}
+
 // Traditional form, spoken tone sandhi, alternative reading, measure words, later HSK uses, variants.
 function renderVocabFacts(item) {
   var list = document.getElementById('vocab-detail-facts');
@@ -977,7 +986,7 @@ function renderVocabFacts(item) {
       if (i) words.appendChild(document.createTextNode(', '));
       var label = mw.word + ' (' + Pinyin.toMarked(mw.pinyin) + ')';
       var known = window.app && window.app.sections.measurewords && window.app.sections.measurewords.isLoaded
-        ? window.app.sections.measurewords.allItems.some(function (m) { return m.classifier === mw.word; }) : true;
+        ? !!findMeasureWord(window.app.sections.measurewords.allItems, mw) : true;
       if (!known || !window.app || !window.app.workspace) { words.appendChild(document.createTextNode(label)); return; }
       var link = document.createElement('button');
       link.type = 'button';
@@ -985,7 +994,7 @@ function renderVocabFacts(item) {
       link.lang = 'zh-CN';
       link.textContent = label;
       link.addEventListener('click', function () {
-        window.app.workspace.openRelated('measurewords', function (m) { return m.classifier === mw.word; });
+        window.app.workspace.openRelated('measurewords', function (m, i, all) { return m === findMeasureWord(all, mw); });
       });
       words.appendChild(link);
     });
@@ -1135,10 +1144,50 @@ SECTION_CONFIGS['onomatopoeia'] = {
 // ========================================
 // MEASURE WORDS (Zählwörter) SECTION
 // ========================================
+// Category keys stay ASCII (filter values, data); badges and the filter summary show the labels.
+var MW_CATEGORY_LABELS = { Gebaeude: 'Gebäude', Masseinheiten: 'Maßeinheiten' };
+var MW_KIND_LABELS = { 'Zählwort': 'Zählwort', 'Maßeinheit': 'Maßeinheit', Zeit: 'Zeitangabe', Verbal: 'Verbal', Unbestimmt: 'Unbestimmte Menge' };
+var MW_LEVEL_ORDER = { HSK1: 0, HSK2: 1, HSK3: 2, HSK4: 3, HSK5: 4, HSK6: 5, 'HSK7-9': 6, Zusatz: 7 };
+var MW_CATEGORY_ORDER = { Allgemein: 0, Menschen: 1, Tiere: 2, Objekte: 3, Essen: 4, Natur: 5, Transport: 6, Gebaeude: 7, Zeit: 8,
+  Masseinheiten: 9, Mengen: 10, Handlungen: 11, Literatur: 12, Medizin: 13, Abstrakt: 14 };
+function mwCategoryLabel(category) { return MW_CATEGORY_LABELS[category] || category || ''; }
+function mwCategoryClass(category) { return 'cc-' + String(category || '').toLowerCase(); }
+function mwRank(table, key) { return table[key] === undefined ? 99 : table[key]; }
+// Shows or hides an optional detail block (class and attribute, so no stylesheet can show an empty heading).
+function showBlock(id, visible) {
+  var el = document.getElementById(id);
+  if (!el) return;
+  el.classList.toggle('hidden', !visible);
+  el.hidden = !visible;
+}
+
+// Counting table 1–10, generated (same rule as countingTable in scripts/measure-words/build.cjs): 一 is yí before a
+// 4th or neutral tone and yì otherwise; 两 stands before classifiers. countStyle 'date' (号, 日 – dates are ordinal):
+// 一 keeps yī and 2 is 二; countStyle 'er' (the weight 两): 二两. 数量 words (一下, 一些) contain their number: none.
+var MW_NUMBERS = [[3, '三', 'sān'], [4, '四', 'sì'], [5, '五', 'wǔ'], [6, '六', 'liù'], [7, '七', 'qī'], [8, '八', 'bā'], [9, '九', 'jiǔ'], [10, '十', 'shí']];
+function countingRows(item) {
+  if (!item || item.form === '数量' || !item.classifier || !item.pinyin) return [];
+  var digit = /[1-5]/.exec(Pinyin.toNumeric(item.pinyin, item.classifier));
+  var tone = digit ? Number(digit[0]) : 5;
+  var date = item.countStyle === 'date';
+  var er = date || item.countStyle === 'er';
+  var rows = [[1, '一', date ? 'yī' : (tone === 4 || tone === 5 ? 'yí' : 'yì')], [2, er ? '二' : '两', er ? 'èr' : 'liǎng']].concat(MW_NUMBERS);
+  return rows.map(function (n) { return { number: n[0], chinese: n[1] + item.classifier, pinyin: n[2] + ' ' + item.pinyin }; });
+}
+
+// Vocabulary ids carry word and reading (w:书:shu1, w:点:dian3#2), so noun chips render without the vocabulary data.
+function vocabIdParts(id) {
+  var m = /^w:([^:]+):([^#]+)/.exec(id || '');
+  return m ? { word: m[1], pinyin: Pinyin.toMarked(m[2]) } : null;
+}
+function openVocabEntry(id) {
+  if (window.app && window.app.workspace) window.app.workspace.openRelated('vocab', function (v) { return v.id === id; });
+}
+
 SECTION_CONFIGS['measurewords'] = {
   name: 'measurewords',
   countLabel: ' Zählwörter',
-  defaultSort: 'category',
+  defaultSort: 'level',
   batchSize: 0,
   dom: {
     controls: 'measurewords-controls',
@@ -1152,119 +1201,184 @@ SECTION_CONFIGS['measurewords'] = {
     nextBtn: 'next-mw'
   },
   filterGroups: [
-    { stateKey: 'category', selector: '.filter-btn.mw-cat', dataAttr: 'data-mwcat', defaultValue: 'all' },
+    { stateKey: 'level', selector: '.filter-btn.mw-level', dataAttr: 'data-mwlevel', defaultValue: 'all' },
     { stateKey: 'bookmarks', selector: '.filter-btn.mw-bm', dataAttr: 'data-bm', defaultValue: 'all' }
   ],
+  filterLabel: function (key, value) {
+    if (key === 'category') return mwCategoryLabel(value);
+    if (key === 'kind') return MW_KIND_LABELS[value] || value;
+    return levelLabel(value) || String(value);
+  },
   onTabActivate: function (section) {
     if (window.app) window.app.renderBasicNumbers();
   },
   onAfterFilter: function (section) {
     var el = document.getElementById('mw-numbers-section');
     if (!el) return;
-    var cat = section.filters.category;
-    el.style.display = (cat === 'all' || cat === 'Allgemein') ? '' : 'none';
+    var f = section.filters;
+    var unfiltered = (f.level || 'all') === 'all' && (f.kind || 'all') === 'all' && ((f.category || 'all') === 'all' || f.category === 'Allgemein');
+    el.style.display = unfiltered ? '' : 'none';
   },
   filterFn: function (item, query, filters) {
-    if (filters.bookmarks === 'starred' && !isBookmarked('measurewords', item.classifier)) return false;
-    if (filters.category !== 'all' && item.category !== filters.category) return false;
+    if (filters.bookmarks === 'starred' && !isBookmarked('measurewords', item.id)) return false;
+    if (filters.level && filters.level !== 'all' && item.level !== filters.level) return false;
+    if (filters.category && filters.category !== 'all' && item.category !== filters.category) return false;
+    if (filters.kind && filters.kind !== 'all' && item.kind !== filters.kind && item.kindAlso !== filters.kind) return false;
     if (!query) return true;
     if (item.classifier && item.classifier.indexOf(query) !== -1) return true;
+    if (item.traditional && item.traditional.indexOf(query) !== -1) return true;
     if (Pinyin.matchesPinyin(item.pinyin, query)) return true;
+    if ((item.pinyinAlt || []).some(function (p) { return Pinyin.matchesPinyin(p, query); })) return true;
     if (Pinyin.matchesText(item.meaning, query)) return true;
     return false;
   },
+  // Level, then category, then the build order (syllabus order within a level).
   sortFn: function (items) {
-    var catOrder = { 'Allgemein': 0, 'Menschen': 1, 'Tiere': 2, 'Objekte': 3, 'Essen': 4, 'Natur': 5, 'Transport': 6, 'Zeit': 7,
-      'Gebaeude': 8, 'Mengen': 9, 'Handlungen': 10, 'Literatur': 11, 'Medizin': 12, 'Abstrakt': 13 };
+    var order = {};
+    items.forEach(function (item, i) { order[item.id] = i; });
     items.sort(function (a, b) {
-      var ca = catOrder[a.category] !== undefined ? catOrder[a.category] : 99;
-      var cb = catOrder[b.category] !== undefined ? catOrder[b.category] : 99;
-      return ca - cb;
+      return mwRank(MW_LEVEL_ORDER, a.level) - mwRank(MW_LEVEL_ORDER, b.level) ||
+        mwRank(MW_CATEGORY_ORDER, a.category) - mwRank(MW_CATEGORY_ORDER, b.category) || order[a.id] - order[b.id];
     });
   },
   createCard: function (item, index, section) {
-    var catClass = 'cc-' + (item.category || '').toLowerCase();
-    var previewHtml = '';
-    if (item.table && item.table.length > 0) {
-      var previews = item.table.slice(0, 5).map(function (row) {
-        return '<span class="counter-card-preview-item">' + row.chinese + '</span>';
-      });
-      previewHtml = '<div class="counter-card-preview">' + previews.join('') + '</div>';
-    }
-
+    var previews = countingRows(item).slice(0, 5).map(function (row) {
+      return '<span class="counter-card-preview-item">' + escapeHtml(row.chinese) + '</span>';
+    });
     return createBaseCard('counter-card',
-      '<div class="counter-card-top">' +
-        '<span class="counter-char">' + item.classifier + '</span>' +
-        '<span class="counter-category-badge ' + catClass + '">' + (item.category || '') + '</span>' +
+      '<div class="counter-card-header">' +
+        '<span class="counter-card-kanji" lang="zh-CN">' + escapeHtml(item.classifier) + '</span>' +
+        '<span class="counter-card-badges">' +
+          '<span class="card-level ' + escapeHtml(item.level || '') + '">' + escapeHtml(levelLabel(item.level)) + '</span> ' +
+          '<span class="counter-category-badge ' + mwCategoryClass(item.category) + '">' + escapeHtml(mwCategoryLabel(item.category)) + '</span>' +
+        '</span>' +
       '</div>' +
-      '<div class="counter-reading">' + (item.pinyin || '') + '</div>' +
-      '<div class="counter-meaning">' + (item.meaning || '') + '</div>' +
-      previewHtml,
-      index, section, item.classifier);
+      '<div class="counter-card-reading">' + escapeHtml(item.pinyin || '') + '</div>' +
+      '<div class="counter-card-meaning">' + draftMarker(item) + escapeHtml(item.meaning || '') + '</div>' +
+      (previews.length ? '<div class="counter-card-preview">' + previews.join('') + '</div>' : ''),
+      index, section, item.id);
   },
   openDetail: function (item, dom) {
-    createDetailBookmark('.counter-detail-header', 'measurewords', item.classifier);
+    createDetailBookmark('.counter-detail-header', 'measurewords', item.id);
     var charEl = document.getElementById('mw-detail-char');
     charEl.textContent = item.classifier;
     charEl.style.cursor = 'pointer';
     charEl.onclick = function () { speakText(item.classifier); };
 
-    // Add speaker button
     var mwHeader = charEl.parentElement;
     var oldSpeak = mwHeader.querySelector('.btn-speak');
     if (oldSpeak) oldSpeak.remove();
     mwHeader.insertBefore(createSpeakBtn(item.classifier, false), charEl.nextSibling);
 
-    var catClass = 'cc-' + (item.category || '').toLowerCase();
     var catBadge = document.getElementById('mw-detail-cat');
-    catBadge.textContent = item.category || '';
-    catBadge.className = 'counter-category-badge ' + catClass;
+    catBadge.textContent = mwCategoryLabel(item.category);
+    catBadge.className = 'counter-category-badge ' + mwCategoryClass(item.category);
+    var levelBadge = document.getElementById('mw-detail-level');
+    levelBadge.textContent = levelLabel(item.level);
+    levelBadge.className = 'detail-jlpt-badge ' + (item.level || '');
+    var kindBadge = document.getElementById('mw-detail-kind');
+    kindBadge.textContent = (MW_KIND_LABELS[item.kind] || item.kind || '') +
+      (item.kindAlso ? ' · auch ' + (MW_KIND_LABELS[item.kindAlso] || item.kindAlso) : '') + (item.borrowed ? ' · Lehnzählwort' : '');
+    showBlock('mw-detail-kind', !!item.kind);
 
     document.getElementById('mw-detail-pinyin').textContent = item.pinyin || '';
-    document.getElementById('mw-detail-meaning').textContent = item.meaning || '';
+    document.getElementById('mw-detail-meaning').innerHTML = draftMarker(item) + escapeHtml(item.meaning || '');
     document.getElementById('mw-detail-usage').textContent = item.usage || '';
+    showBlock('mw-detail-usage', !!item.usage);
+    renderMeasureWordFacts(item);
 
-    // Question word
-    var questionEl = document.getElementById('mw-detail-question');
-    questionEl.textContent = item.questionWord || '几' + item.classifier;
-
-    // Counting table
+    // 数量 words (一下, 一些) contain their number: no question word, no counting table.
+    var rows = countingRows(item);
+    document.getElementById('mw-detail-question').textContent = rows.length ? (item.questionWord || '几' + item.classifier) : '';
+    showBlock('mw-detail-question-section', rows.length > 0);
     var tableWrap = document.getElementById('mw-detail-table');
-    if (item.table && item.table.length > 0) {
+    if (rows.length) {
       var html = '<table class="counter-detail-table"><thead><tr><th>Zahl</th><th>Chinesisch</th><th>Pinyin</th></tr></thead><tbody>';
-      item.table.forEach(function (row) {
-        html += '<tr><td><strong>' + row.number + '</strong></td><td>' + row.chinese + '</td><td>' + (row.pinyin || '') + '</td></tr>';
+      rows.forEach(function (row) {
+        html += '<tr><td><strong>' + row.number + '</strong></td><td lang="zh-CN">' + escapeHtml(row.chinese) + '</td><td>' + escapeHtml(row.pinyin) + '</td></tr>';
       });
-      html += '</tbody></table>';
-      tableWrap.innerHTML = html;
+      tableWrap.innerHTML = html + '</tbody></table>';
     } else {
-      tableWrap.innerHTML = '<p class="no-data">Keine Zähltabelle verfügbar.</p>';
+      tableWrap.textContent = '';
     }
+    showBlock('mw-detail-table-section', rows.length > 0);
 
-    // Special forms
-    var specialSection = document.getElementById('mw-detail-special-section');
-    var specialEl = document.getElementById('mw-detail-special');
-    if (item.specialForms && item.specialForms.length > 0) {
-      specialEl.innerHTML = item.specialForms.map(function (s) {
-        return '<div class="special-form"><strong>' + s.form + '</strong> — ' + s.explanation + '</div>';
-      }).join('');
-      specialSection.classList.remove('hidden');
-    } else {
-      specialSection.classList.add('hidden');
-    }
+    var special = (item.specialForms || []).filter(function (s) { return s && s.form; });
+    document.getElementById('mw-detail-special').innerHTML = special.map(function (s) {
+      return '<div class="special-form"><strong lang="zh-CN">' + escapeHtml(s.form) + '</strong>' + (s.explanation ? ' — ' + escapeHtml(s.explanation) : '') + '</div>';
+    }).join('');
+    showBlock('mw-detail-special-section', special.length > 0);
 
-    renderExamplesOrEmpty('mw-detail-examples', item.examples);
+    // Optional sections without content stay hidden (no empty headings, no „Keine Beispiele“ placeholder).
+    var examples = (item.examples || []).filter(function (ex) { return ex && ex.chinese; });
+    if (examples.length) renderExamplesOrEmpty('mw-detail-examples', examples);
+    else document.getElementById('mw-detail-examples').textContent = '';
+    showBlock('mw-detail-examples-section', examples.length > 0);
+    renderMeasureWordNouns(item);
 
-    var notesSection = document.getElementById('mw-detail-notes-section');
-    var notesEl = document.getElementById('mw-detail-notes');
-    if (item.notes) {
-      notesEl.textContent = item.notes;
-      notesSection.classList.remove('hidden');
-    } else {
-      notesSection.classList.add('hidden');
-    }
+    document.getElementById('mw-detail-notes').textContent = item.notes || '';
+    showBlock('mw-detail-notes-section', !!item.notes);
   }
 };
+
+// Traditional form, other readings, syllabus source and the classifier's own vocabulary entry.
+function renderMeasureWordFacts(item) {
+  var list = document.getElementById('mw-detail-facts');
+  if (!list) return;
+  list.textContent = '';
+  function row(label, content) {
+    appendElement(list, 'dt', '', label);
+    var dd = appendElement(list, 'dd', '');
+    if (typeof content === 'string') dd.textContent = content;
+    else dd.appendChild(content);
+  }
+  if (item.traditional && item.traditional !== item.classifier) {
+    var trad = document.createElement('span');
+    trad.lang = 'zh-TW';
+    trad.textContent = item.traditional;
+    row('Traditionell', trad);
+  }
+  if (item.pinyinSpoken) row('Gesprochen', item.pinyinSpoken);
+  if (item.pinyinAlt && item.pinyinAlt.length) row('Auch gelesen', item.pinyinAlt.join(', '));
+  var source = [];
+  var syl = item.syllabus || {};
+  (syl.vocab || []).forEach(function (v) { source.push('Wortliste ' + levelLabel(v.measureLevel || v.level) + ' (' + v.pos + ')'); });
+  (syl.grammar || []).forEach(function (g) { source.push('Grammatikliste ' + levelLabel(g.level) + ': ' + g.item); });
+  if (item.levelSource === 'word') source.push('Niveau des Wortes im Lehrplan (dort nicht als Zählwort geführt)');
+  if (item.level === 'Zusatz') source.push('Nicht im HSK-Lehrplan 2025');
+  if (source.length) row('Lehrplan', source.join('; '));
+  if (item.vocabId) {
+    var parts = vocabIdParts(item.vocabId);
+    var link = document.createElement('button');
+    link.type = 'button';
+    link.className = 'btn-link';
+    link.lang = 'zh-CN';
+    link.textContent = parts ? parts.word + ' (' + parts.pinyin + ')' : item.classifier;
+    link.addEventListener('click', function () { openVocabEntry(item.vocabId); });
+    row('Vokabeleintrag', link);
+  }
+  showBlock('mw-detail-facts', list.children.length > 0);
+}
+
+// Nouns that take this classifier (reverse index of vocab.measureWords, built by scripts/measure-words/build.cjs).
+function renderMeasureWordNouns(item) {
+  var sectionEl = document.getElementById('mw-detail-nouns-section');
+  var el = document.getElementById('mw-detail-nouns');
+  if (!sectionEl || !el) return;
+  el.textContent = '';
+  (item.nouns || []).forEach(function (id) {
+    var parts = vocabIdParts(id);
+    if (!parts) return;
+    var chip = appendElement(el, 'button', 'component-tag clickable');
+    chip.type = 'button';
+    appendElement(chip, 'span', '', parts.word).lang = 'zh-CN';
+    appendElement(chip, 'small', '', ' ' + parts.pinyin);
+    chip.addEventListener('click', function () { openVocabEntry(id); });
+  });
+  var more = (item.nounCount || 0) - (item.nouns || []).length;
+  if (more > 0) appendElement(el, 'p', 'counter-noun-more', '… und ' + more + ' weitere');
+  showBlock('mw-detail-nouns-section', el.children.length > 0);
+}
 
 // ========================================
 // RADICALS SECTION
@@ -1378,6 +1492,10 @@ function initSelectFilters() {
   if (window.app && window.app.sections.onomatopoeia) {
     window.app.sections.onomatopoeia.filters.pattern = 'all';
   }
+  if (window.app && window.app.sections.measurewords) {
+    window.app.sections.measurewords.filters.category = 'all';
+    window.app.sections.measurewords.filters.kind = 'all';
+  }
 
   var hanziWriting = document.getElementById('hanzi-writing-select');
   if (hanziWriting) hanziWriting.addEventListener('change', function () {
@@ -1409,6 +1527,16 @@ function initSelectFilters() {
       window.app.sections.grammar.filters.category = this.value;
       window.app.sections.grammar.applyFilters();
     }
+  });
+
+  [['mw-cat-select', 'category'], ['mw-kind-select', 'kind']].forEach(function (pair) {
+    var select = document.getElementById(pair[0]);
+    if (select) select.addEventListener('change', function () {
+      if (window.app && window.app.sections.measurewords) {
+        window.app.sections.measurewords.filters[pair[1]] = this.value;
+        window.app.sections.measurewords.applyFilters();
+      }
+    });
   });
 
   var onoPattern = document.getElementById('ono-pattern-select');

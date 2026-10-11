@@ -66,16 +66,11 @@ const badGrammarIds = grammarIds.filter((id, i) => typeof id !== 'string' || !/^
 if (badGrammarIds.length) fail(badGrammarIds.length + ' missing or duplicate grammar ids', badGrammarIds.map(String));
 
 const measureWords = (context.MEASURE_WORDS_DATA && context.MEASURE_WORDS_DATA.measureWords) || [];
-const badRows = [];
-for (const word of measureWords) {
-  for (const row of word.table || []) if (typeof row.chinese !== 'string') badRows.push(word.classifier + ': ' + JSON.stringify(row));
-}
-if (badRows.length) fail(badRows.length + ' measure-word table rows without chinese', badRows);
-
-const buttons = new Set([...html.matchAll(/data-mwcat="([^"]+)"/g)].map(m => m[1]));
+// Details (ids, links, kinds) in audit-measure-words.cjs; here: every category is reachable in the filter select.
+const options = new Set([...(html.match(/<select id="mw-cat-select">([\s\S]*?)<\/select>/) || ['', ''])[1].matchAll(/<option value="([^"]+)"/g)].map(m => m[1]));
 const categories = [...new Set(measureWords.map(word => word.category))];
-const unreachable = categories.filter(category => !buttons.has(category));
-if (unreachable.length) fail('Measure-word categories without a filter button: ' + unreachable.join(', '));
+const unreachable = categories.filter(category => !options.has(category));
+if (unreachable.length) fail('Measure-word categories without a filter option: ' + unreachable.join(', '));
 
 if (errors.length) {
   console.error(errors.join('\n\n'));
