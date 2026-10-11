@@ -35,3 +35,25 @@ Author flags, reviewer fixes and proofreading fixes per batch, for follow-up dec
 - m:步 (author): Keine Syllabus-Fundstelle; 步 kommt in der Wortliste HSK4 nur als Nomen vor.
 - m:刀 (author): Auch nominales Mengenwort (一刀纸 = 100 Bogen): kindAlso fehlt; keine Syllabus-Fundstelle.
 - m:桶 (author): Keine Syllabus-Fundstelle als Zählwort; Kategorie „Essen“ passt nur teilweise (eher Behälter).
+
+## m004 (2026-10-11, author)
+- m:通 (author): 报告 in der Nomenliste wird kaum mit 通 gezählt (üblich 份/篇/个).
+- m:通 (proofreading fix): Hinweis zur Objektstellung korrigiert: bei 打了三通电话 ist 通 Nomenzählwort vor 电话, nicht Verbalzählwort mit nachgestelltem Nomen.
+- m:杆 (proofreading fix): Für Fahnen 一面红旗 als übliche Form ergänzt (Beispiel 一杆红旗 sonst unkommentiert).
+- m:股 (author): 影响 und 道 in der Nomenliste werden kaum mit 股 gezählt (eher 一股势力 / 一条道).
+- m:剂 (proofreading fix): Fragwürdige Einschränkung „一副中药 für abgepackte Portionen“ ersetzt: 一服药 / 一副药 beide gleichbedeutend.
+- m:驾 (proofreading fix): Generisches „Besucher“ im deutschen Beispiel neutral umformuliert (man als Gast).
+- m:截 (proofreading fix): Für das ganze Seil neben 根 auch 条 als akzeptierte Form genannt.
+- m:人次 (proofreading fix): Deutsche Übersetzung Beispiel 2 treu gemacht: 人次 = Beförderungen, nicht „30 Millionen Fahrgäste“.
+- m:宗 (author): 心事 nimmt in der Gegenwartssprache kaum 宗 (üblich: 一桩心事, 一件心事) – Eintrag in der Nomenliste fraglich.
+- m:处 (proofreading fix): Hinweis „bei Fehlern ist 处 das Übliche“ abgeschwächt (sehr gebräuchlich) und umgangssprachliches 两个错误 als Alternative genannt.
+- m:瓣 (proofreading fix): Übersetzung „Beim Pfannenrühren“ durch natürliches „Zum Anbraten“ ersetzt.
+- m:撮 (author): Lesung cuō fehlt (一撮盐 „eine Prise Salz“, 一小撮人); Eintrag hat nur zuǒ.
+- m:缸 (author): 啤酒 wird kaum mit 缸 gezählt (üblich: 杯, 瓶, 桶) – Eintrag in der Nomenliste fraglich.
+- m:簇 (author): Nomenliste enthält 花 doppelt, darunter das Verb 花 „ausgeben“ – das gehört nicht zu 簇.
+- m:簇 (proofreading fix): Genus korrigiert: „der Büschel“ → „das Büschel“.
+- m:扎 (author): Lesung zhā fehlt (一扎啤酒 „ein Krug Bier“); Eintrag hat nur zā.
+- m:纸 (proofreading fix): Beispiel 1: 一纸任命把他调到了北京 (eine Ernennung „versetzt“ nicht) → 一纸任命让他当上了公司的副总经理, Pinyin und Übersetzung angepasst.
+- m:峰 (proofreading fix): Holprige Übersetzung „kam ein Kamel herangezogen“ geglättet.
+- m:箱 (proofreading fix): Pinyin 十几 zusammengeschrieben (shíjǐ).
+- m:波 (proofreading fix): Beispiel 3: Übersetzung treuer (游客 = Besuchergruppe statt Reisegruppe, doppelte „Welle um Welle“ entfernt).

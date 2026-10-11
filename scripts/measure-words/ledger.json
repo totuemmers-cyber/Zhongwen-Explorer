@@ -684,5 +684,474 @@
   "status": "reviewed",
   "date": "2026-10-11",
   "hash": "1eda24021e746a37"
+ },
+ "m:通": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "994a1478e81d15b5"
+ },
+ "m:派": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "8a637eb815fefc44"
+ },
+ "m:磅": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "d31425f7eb078a3f"
+ },
+ "m:拨": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "e4dfd2c36f8386fc"
+ },
+ "m:丛": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "6c441a87afd78f60"
+ },
+ "m:担": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "28aff2d4d8debb31"
+ },
+ "m:杆": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "e83f3224ddc5d86e"
+ },
+ "m:公顷": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "8b43b3013aba2121"
+ },
+ "m:股": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "121ab8dece19552b"
+ },
+ "m:剂": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "ffe601ffe3beb77f"
+ },
+ "m:驾": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "35c14b8e5aca077e"
+ },
+ "m:截": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "1d8334dce46ec546"
+ },
+ "m:捆": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "83d6391eef766354"
+ },
+ "m:立方": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "42097c2b35fbd6ca"
+ },
+ "m:立方米": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "5ffda827620e1cb0"
+ },
+ "m:缕": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "1d3c677db10a09a3"
+ },
+ "m:码": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "1df398d60948019c"
+ },
+ "m:马力": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "52d57d30a1d91625"
+ },
+ "m:枚": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "f32fa4bf1ba4b863"
+ },
+ "m:抹": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "9fe3fe8ba7699216"
+ },
+ "m:亩": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "2af155f5b39b8b4c"
+ },
+ "m:幕": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "5fab432aebd3a9ab"
+ },
+ "m:人次": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "4f601f81a779fa95"
+ },
+ "m:胎": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "4d89368b6ef1350a"
+ },
+ "m:摊": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "790c0920fe006d81"
+ },
+ "m:堂": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "1093d25b741cefdb"
+ },
+ "m:丸": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "b264c0021a341809"
+ },
+ "m:窝": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "2c80e58d11b3e746"
+ },
+ "m:席": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "6a162045bdb1998e"
+ },
+ "m:旬": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "d45c465dfa831c2d"
+ },
+ "m:则": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "527449b6d86fafa0"
+ },
+ "m:盏": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "660f6471661fade1"
+ },
+ "m:桩": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "b3cc2280a3867928"
+ },
+ "m:幢": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "d31bf7e1168a9460"
+ },
+ "m:宗": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "caeb20d88ba4b625"
+ },
+ "m:重": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "d74df18dfcf15d90"
+ },
+ "m:拳": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "3e23e01632dbf1e3"
+ },
+ "m:巴掌": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "ee276ac74570d93b"
+ },
+ "m:碟": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "35a6d9002301abd7"
+ },
+ "m:处": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "33c5757e540acebc"
+ },
+ "m:餐": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "5fa9e79e7592d186"
+ },
+ "m:床": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "3a3620e7e55b8b18"
+ },
+ "m:瓣": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "b43e262c7be2153b"
+ },
+ "m:服": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "b4bfca6a8367d7e8"
+ },
+ "m:撮": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "889f8fea9c7a471b"
+ },
+ "m:丝": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "040c2d5378957c9e"
+ },
+ "m:缸": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "f64e3d8b4ce3374f"
+ },
+ "m:簇": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "378f3901c4beb40d"
+ },
+ "m:档": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "afadea7cd2df9d38"
+ },
+ "m:挂": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "687297c961f107b9"
+ },
+ "m:扎": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "12e31f2e1d6e3f76"
+ },
+ "m:记": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "a86bebb5efbcd819"
+ },
+ "m:具": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "c3ea2d84d136658d"
+ },
+ "m:泡": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "65dc26f9f36e57b3"
+ },
+ "m:纸": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "23e63c9592a1dbe7"
+ },
+ "m:发": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "61e95a9a12ff41a6"
+ },
+ "m:沓": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "3eaa816dc66ba0dd"
+ },
+ "m:峰": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "487ab8e685395ce0"
+ },
+ "m:瓶": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "4d81f0e463ee63d9"
+ },
+ "m:箱": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "9cf41dd6732643aa"
+ },
+ "m:尊": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "376af5db921c312e"
+ },
+ "m:勺": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "1d3d1a9b2930bf82"
+ },
+ "m:摞": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "35cfaac8d25506fa"
+ },
+ "m:波": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "b53fd56c5db5d5e4"
+ },
+ "m:湾": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "03dd578f7ff65fd7"
+ },
+ "m:炷": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "bd125366a4430a00"
+ },
+ "m:尾": {
+  "batch": "m004",
+  "policy": "author",
+  "status": "authored",
+  "date": "2026-10-11",
+  "hash": "73bed2a83f6c8c97"
  }
 }
