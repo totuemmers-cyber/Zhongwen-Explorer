@@ -56,3 +56,23 @@ Author flags, reviewer fixes and proofreading fixes per batch, for follow-up dec
 - o:气鼓鼓 (proofreading fix): example 3 German made faithful (Chinese has no cheeks: 'ihre beleidigte Miene' instead of 'die Backen aufblies')
 - o:扭扭捏捏 (proofreading fix): example 2 German made faithful (站在那儿 … 半天不说话: 'stand verlegen da und brachte lange kein Wort heraus')
 - o:战战兢兢 (proofreading fix): unclear note 'nicht verwechseln' clarified: 兢 is read jīng, not kè despite the two 克
+
+## o002 (2026-10-11, author)
+- o:黑漆漆 (proofreading fix): Absolute „ohne 很“ zu „meist ohne 很“ abgeschwächt.
+- o:黑黝黝 (proofreading fix): Umgangssprachliche Lesung hēiyōuyōu in den Notizen ergänzt.
+- o:闹哄哄 (proofreading fix): Absolute „ohne 很“ zu „meist ohne 很“ abgeschwächt.
+- o:齐刷刷 (proofreading fix): Absolute „ohne 很“ zu „meist ohne 很“ abgeschwächt.
+- o:傻乎乎 (proofreading fix): Steifes Beispiel 什么都相信别人 durch natürliches 别人说什么你都信 ersetzt.
+- o:圆鼓鼓 (proofreading fix): Beispiel 2 präzisiert (腮帮子 statt vagem 两边), Übersetzung Beispiel 1 „prall und rund“ statt „kugelrund“ (Abgrenzung zu 圆滚滚).
+- o:急急忙忙 (proofreading fix): Falsche Behauptung „急忙 ist ein Adverb“ korrigiert (fast nur adverbial gebraucht); unnatürliches Prädikatbeispiel durch 急急忙忙地出了门 ersetzt.
+- o:嘿 (proofreading fix): „steht am Satzanfang“ zu „meist am Satzanfang“ abgeschwächt.
+- o:马马虎虎 (proofreading fix): Holpriges 错了很多 durch 经常出错 ersetzt.
+- o:暖洋洋 (proofreading fix): Absolute Aussage „die häufigste ABB-Form“ zu „wohl die gängigste“ abgeschwächt.
+- o:胖乎乎 (proofreading fix): Variante 胖呼呼 in den Notes ergänzt.
+- o:糊里糊涂 (author): Kategorie „Aussehen“ passt nicht: beschreibt einen Geisteszustand bzw. ein Verhalten (eher Menschen oder Gefühle).
+- o:糊里糊涂 (proofreading fix): Umlaut im Flag korrigiert (Gefuehle → Gefühle); Flag bleibt.
+- o:糊里糊涂 (proofreader): Kategorie „Aussehen“ passt nicht – Geisteszustand/Verhalten.
+- o:麻酥酥 (proofreading fix): Holprige Übersetzung von Beispiel 3 geglättet (kribbelt die Zunge und wird ganz taub).
+- o:黏糊糊 (proofreading fix): Klargestellt, dass 糊糊 nur gleich klingt wie 乎乎 in 胖乎乎/热乎乎.
+- o:热腾腾 (proofreading fix): Übertragenen Gebrauch („druckfrisch“) als selten/scherzhaft gekennzeichnet.
+- o:摇摇摆摆 (proofreading fix): Unsichere Behauptung „großspuriges Einherstolzieren“ durch Verweis auf 大摇大摆 ersetzt.
