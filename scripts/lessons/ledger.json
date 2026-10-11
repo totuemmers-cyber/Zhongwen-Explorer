@@ -358,5 +358,149 @@
   "hash": "7a43055f84d630cc",
   "note": "pre-existing lesson; Phase 8 step 5: linked to grammar points, relevelled to HSK 2025, proofread (see link-report.md)",
   "pass": "step5-baseline"
+ },
+ "lesson-60": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "9fc12ae3e678198e"
+ },
+ "lesson-61": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "f9b5b4ab471abe1d"
+ },
+ "lesson-62": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "7e8fafd51dd9a151"
+ },
+ "lesson-63": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "85979400d93a11c7"
+ },
+ "lesson-64": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "ce83ff0fc4415fae"
+ },
+ "lesson-65": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "fd9a002f834443cf"
+ },
+ "lesson-66": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "de37417929b2d663"
+ },
+ "lesson-67": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "a75f13e6efb5026e"
+ },
+ "lesson-68": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "90831203fdad039e"
+ },
+ "lesson-69": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "9497955a100a1795"
+ },
+ "lesson-70": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "16ccb769cab7c699"
+ },
+ "lesson-71": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "1d821608ae96eef7"
+ },
+ "lesson-72": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "b11dd1f7f52b76f2"
+ },
+ "lesson-73": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "7e64a3d135264809"
+ },
+ "lesson-74": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "4aa18d8d9ab41291"
+ },
+ "lesson-75": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "15749f08185e6515"
+ },
+ "lesson-76": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "c9ac1ddc1f447734"
+ },
+ "lesson-77": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "757b66ddb2596c9a"
+ },
+ "lesson-78": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "7c5c2b4cdb98eae4"
+ },
+ "lesson-79": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "64d824ab3c1dbb50"
+ },
+ "lesson-80": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "fba9cba5adc4e31a"
+ },
+ "lesson-81": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "79ec5165fbd4f909"
+ },
+ "lesson-82": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "279436a2b1650406"
+ },
+ "lesson-83": {
+  "batch": "l002",
+  "policy": "author+proofread",
+  "date": "2026-10-11",
+  "hash": "8d9e37801ba9aac7"
  }
 }

@@ -164,8 +164,25 @@ function checkBeginnerVocabulary(chinese, headword, allowed, ctx, ownWords = [])
   const issues = [];
   const runs = chinese.split(/[^〇㐀-鿿豈-﫿]+/).filter(Boolean);
   const known = word => syllabus.has(word) || allowlist.has(word);
+  // The base of a reduplicated form (干干净净, 研究研究 → 干净, 研究), or null.
+  function reduplicationBase(token) {
+    const c = Array.from(token);
+    if (c.length !== 4) return null;
+    if (c[0] === c[1] && c[2] === c[3] && c[0] !== c[2]) return c[0] + c[2];
+    if (c[0] === c[2] && c[1] === c[3] && c[0] !== c[1]) return c[0] + c[1];
+    return null;
+  }
+  // A single character that completes an allowed two-character word split in this sentence
+  // (放了三天假 → 放假, 完不成 → 完成): the first character appears before it.
+  const splitWords = Array.from(syllabus.keys()).filter(w => Array.from(w).length === 2 && syllabus.get(w) <= allowed);
+  function completesSplitWord(token) {
+    const at = chinese.lastIndexOf(token);
+    return splitWords.some(w => w[1] === token && chinese.lastIndexOf(w[0], at - 2) >= 0);
+  }
   // Why a token is not acceptable at this level, or null when it is.
   function problem(token) {
+    const base = reduplicationBase(token);
+    if (base && (syllabus.has(base) || allowlist.has(base))) return problem(base);
     // The card's own word, also inside a compound (天 in 今天, 天气), is always allowed.
     if (token.includes(headword)) return null;
     // So are its parts when a separable verb is split (起不来床, 生什么病).
@@ -173,6 +190,7 @@ function checkBeginnerVocabulary(chinese, headword, allowed, ctx, ownWords = [])
     // And the card's own measure words (一支铅笔).
     if (ownWords.includes(token)) return null;
     if (allowlist.has(token) || Array.from(token).every(ch => NUMBER_CHARS.has(ch))) return null;
+    if (token.length === 1 && completesSplitWord(token)) return null;
     if (syllabus.has(token)) {
       return syllabus.get(token) <= allowed ? null : token + ' (HSK ' + (syllabus.get(token) === 7 ? '7–9' : syllabus.get(token)) + ')';
     }
@@ -191,7 +209,7 @@ function checkBeginnerVocabulary(chinese, headword, allowed, ctx, ownWords = [])
       for (let len = Math.min(longest, n - i); len >= 1; len--) {
         const token = chars.slice(i, i + len).join('');
         // Multi-character tokens are dictionary words or the headword itself (never arbitrary strings).
-        if (len > 1 && !known(token) && !cedict.has(token) && token !== headword) continue;
+        if (len > 1 && !known(token) && !cedict.has(token) && token !== headword && !reduplicationBase(token)) continue;
         // A character accepted only through the character list costs 6, so two of them never
         // undercut a real word above the level (复杂 must not pass as 复|杂).
         const charFallback = len === 1 && !syllabus.has(token) && !allowlist.has(token) && !token.includes(headword);

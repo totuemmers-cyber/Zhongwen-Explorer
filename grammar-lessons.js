@@ -2395,6 +2395,1629 @@
           tip: "不如 kann auch allein stehen und bedeutet dann „es ist besser zu...\" oder „nicht so gut wie\": 你不如自己去 (Du gehst besser selbst). 他不如我高 (Er ist nicht so groß wie ich). Verwandt sind 倒不如 („da wäre es doch besser …“: 等他，倒不如自己去) und 与其说……不如说…… („weniger … als vielmehr …“: 与其说他聪明，不如说他努力)."
         }
       ]
+    },
+    // ── 假如, 万一, 一旦, 哪怕 — falls, sobald, selbst wenn (lesson-60) ──────────
+    {
+      id: 'lesson-60',
+      number: 60,
+      title: "假如, 万一, 一旦, 哪怕 — falls, sobald, selbst wenn",
+      subtitle: "Gedachte, befürchtete und einschneidende Bedingungen",
+      level: 'HSK5',
+      grammarIds: ["g:假如……，（就）……","g:万一……，（就）……","g:一旦……，就……","g:一旦","g:哪怕……，也……","g:……，要不然/不然……"],
+      intro: "Mit 如果 und 要是 kannst du schon Bedingungen ausdrücken (siehe [[lesson:lesson-30]]). Auf dieser Stufe lernst du Bindewörter, die zusätzlich eine <strong>Haltung</strong> zur Bedingung zeigen: <strong>假如</strong> (jiǎrú) ist das gehobene „angenommen“, gut für gedachte Fälle; <strong>万一</strong> (wànyī) nennt ein unwahrscheinliches, aber unerwünschtes Risiko; <strong>一旦</strong> (yídàn) betont den Moment, in dem etwas eintritt, und die Tragweite der Folge; <strong>哪怕</strong> (nǎpà) räumt einen Extremfall ein – „selbst wenn“. Dazu kommt <strong>要不然/不然</strong> „sonst“, das die Folge nennt, wenn etwas <em>nicht</em> geschieht. Das Deutsche drückt solche Nuancen oft mit dem Konjunktiv oder mit Partikeln wie „doch“ und „erst einmal“ aus; im Chinesischen bleibt das Verb unverändert, die Nuance steckt im Bindewort.",
+      sections: [
+        {
+          heading: "假如……，（就）…… — angenommen, wenn",
+          text: "<strong>假如</strong> leitet eine Annahme ein, der zweite Teil nennt die Folge, oft mit <strong>就</strong>. 就 kann fehlen, besonders wenn der zweite Teil ein eigenes Subjekt oder ein Modalverb wie 会 hat. 假如 klingt gehobener als 如果 und 要是 und ist vor allem schriftlich. Es passt gut für rein gedachte oder irreale Fälle („wenn ich … wäre“), kann aber auch reale Bedingungen einleiten. Ob ein Fall real oder irreal ist, zeigt nur der Zusammenhang – im Deutschen wählst du dann Indikativ oder Konjunktiv.",
+          examples: [
+            { cn: "假如你有一百万，你会做什么？", pinyin: "Jiǎrú nǐ yǒu yìbǎi wàn, nǐ huì zuò shénme?", de: "Wenn du eine Million hättest, was würdest du tun? (gedachter Fall)" },
+            { cn: "假如时间能倒流，我会选择另一条路。", pinyin: "Jiǎrú shíjiān néng dàoliú, wǒ huì xuǎnzé lìng yì tiáo lù.", de: "Könnte man die Zeit zurückdrehen, würde ich einen anderen Weg wählen." },
+            { cn: "假如明天不下雨，我们就去爬山。", pinyin: "Jiǎrú míngtiān bú xià yǔ, wǒmen jiù qù páshān.", de: "Falls es morgen nicht regnet, gehen wir wandern. (reale Bedingung)" },
+            { cn: "假如没有手机，我们的生活会怎么样？", pinyin: "Jiǎrú méiyǒu shǒujī, wǒmen de shēnghuó huì zěnmeyàng?", de: "Wie sähe unser Leben aus, wenn es keine Handys gäbe?" }
+          ],
+          tip: "Im Gespräch klingt 假如 schnell etwas förmlich. Für alltägliche Bedingungen sind 如果 und 要是 natürlicher; 假如 lohnt sich bei Gedankenspielen, in Aufsätzen und Reden."
+        },
+        {
+          heading: "万一……，（就）…… — falls doch, für den Fall, dass",
+          text: "<strong>万一</strong> heißt wörtlich „eins zu zehntausend“: Der Fall ist unwahrscheinlich, aber unerwünscht. Der zweite Teil nennt die Folge, oft mit 就, oder fragt, was dann zu tun ist. Sehr häufig begründet der Satz eine <em>Vorsichtsmaßnahme</em>. Der Teil mit 万一 kann auch nachgestellt werden, gern mit 呢 am Ende. 万一 ist in gesprochener wie geschriebener Sprache üblich.",
+          examples: [
+            { cn: "万一飞机晚点，我们就坐高铁去。", pinyin: "Wànyī fēijī wǎndiǎn, wǒmen jiù zuò gāotiě qù.", de: "Sollte der Flug Verspätung haben, nehmen wir den Schnellzug." },
+            { cn: "万一找不到路，你就给我打电话。", pinyin: "Wànyī zhǎo bu dào lù, nǐ jiù gěi wǒ dǎ diànhuà.", de: "Falls du den Weg doch nicht findest, ruf mich an." },
+            { cn: "出门前检查一下护照，万一忘带就麻烦了。", pinyin: "Chūmén qián jiǎnchá yíxià hùzhào, wànyī wàng dài jiù máfan le.", de: "Kontrollier vor dem Losgehen deinen Pass – falls du ihn vergisst, wird es unangenehm." },
+            { cn: "把重要的文件备份一下吧，万一电脑坏了呢？", pinyin: "Bǎ zhòngyào de wénjiàn bèifèn yíxià ba, wànyī diànnǎo huài le ne?", de: "Mach lieber eine Sicherung der wichtigen Dateien – was, wenn der Computer kaputtgeht?" }
+          ],
+          tip: "Für erwünschte oder neutrale Annahmen passt 万一 meist nicht: ❌ 万一明天天气好，我们去公园吧。 → ✅ 要是明天天气好，我们去公园吧。 Als Nomen steckt es in 以防万一 „für alle Fälle“."
+        },
+        {
+          heading: "一旦……，就…… — sobald einmal, wenn erst einmal",
+          text: "<strong>一旦</strong> nennt ein Ereignis, das noch nicht eingetreten oder ungewiss ist; der zweite Teil mit <strong>就</strong> – schriftlich auch <strong>便</strong> – beschreibt die Folge, die dann eintritt. Oft geht es um Wichtiges oder Unerwünschtes, dessen Folgen sich schwer rückgängig machen lassen: Warnungen, Risiken, Entscheidungen. 一旦 kann vor oder nach dem Subjekt stehen. Anders als 万一 betont es nicht die geringe Wahrscheinlichkeit, sondern den Moment des Eintretens. Für ganz Unwirkliches („wenn ich ein Vogel wäre“) passt es nicht.",
+          examples: [
+            { cn: "一旦开始，就不能停下来。", pinyin: "Yídàn kāishǐ, jiù bù néng tíng xiàlai.", de: "Hat man einmal angefangen, kann man nicht mehr aufhören." },
+            { cn: "你一旦答应了别人，就要做到。", pinyin: "Nǐ yídàn dāying le biérén, jiù yào zuòdào.", de: "Hast du jemandem etwas versprochen, musst du es auch halten." },
+            { cn: "一旦发生火灾，就要马上离开大楼。", pinyin: "Yídàn fāshēng huǒzāi, jiù yào mǎshàng líkāi dàlóu.", de: "Bricht ein Feuer aus, muss man das Gebäude sofort verlassen." },
+            { cn: "密码一旦忘了，便很难找回来。", pinyin: "Mìmǎ yídàn wàng le, biàn hěn nán zhǎo huílai.", de: "Hat man das Passwort erst einmal vergessen, bekommt man es nur schwer zurück. (便 = schriftliches 就)" }
+          ],
+          tip: "Nicht verwechseln mit 一……就……: 我一到家就给你打电话 „sobald ich zu Hause bin, rufe ich dich an“ beschreibt eine unmittelbare Abfolge, auch bei Gewohnheiten. 一旦 spricht von einer möglichen Situation und ihren (oft ernsten) Folgen."
+        },
+        {
+          heading: "哪怕……，也…… — selbst wenn",
+          text: "<strong>哪怕</strong> nennt eine Annahme, oft einen extremen oder ungünstigen Fall; der zweite Teil mit <strong>也</strong> sagt, dass das Ergebnis trotzdem gilt. So zeigst du Entschlossenheit oder Nachdruck. Im ersten Teil stehen häufig 只 („nur“) oder 再 („noch so“). 哪怕 bedeutet dasselbe wie 即使 (jíshǐ), wirkt aber lebhafter und etwas umgangssprachlicher. Wichtig: 哪怕 ist kein „obwohl“ – es nennt in der Regel keine Tatsache, sondern eine Annahme.",
+          examples: [
+            { cn: "哪怕只剩下十分钟，我们也要试试。", pinyin: "Nǎpà zhǐ shèngxià shí fēnzhōng, wǒmen yě yào shìshi.", de: "Selbst wenn nur noch zehn Minuten bleiben, wollen wir es versuchen." },
+            { cn: "哪怕再累，她也坚持每天跑步。", pinyin: "Nǎpà zài lèi, tā yě jiānchí měitiān pǎobù.", de: "Wie müde sie auch ist, sie geht jeden Tag laufen." },
+            { cn: "哪怕下大雨，比赛也照常进行。", pinyin: "Nǎpà xià dà yǔ, bǐsài yě zhàocháng jìnxíng.", de: "Selbst bei starkem Regen findet das Spiel wie geplant statt." },
+            { cn: "❌ 哪怕他很聪明，但是他不努力。", pinyin: "", de: "Falsch: Hier wird eine Tatsache eingeräumt („obwohl“), und 但是 passt nicht zu 哪怕." },
+            { cn: "✅ 虽然他很聪明，但是他不努力。", pinyin: "Suīrán tā hěn cōngming, dànshì tā bù nǔlì.", de: "Er ist zwar klug, aber er strengt sich nicht an." }
+          ],
+          tip: "Merkhilfe: 哪怕 + 也 = „selbst wenn …, trotzdem …“ (Annahme); 虽然 + 但是 = „obwohl …, aber …“ (Tatsache)."
+        },
+        {
+          heading: "……，要不然/不然…… — sonst, andernfalls",
+          text: "<strong>要不然</strong> und das kürzere <strong>不然</strong> nennen, was passiert, wenn das zuvor Gesagte <em>nicht</em> geschieht. Der erste Teil ist oft eine Aufforderung, ein Rat oder eine Notwendigkeit (快点儿, 你最好……, 我得……); der zweite nennt die meist unangenehme Folge, häufig mit 就, 会 oder 可能. Beide Formen sind umgangssprachlich und bedeuten dasselbe wie das gehobene 否则 (fǒuzé). „Sonst“ steht am Anfang des zweiten Teils und bezieht sich auf den ersten. 要不然 kann außerdem eine Alternative vorschlagen: „oder (wie wär's) …“.",
+          examples: [
+            { cn: "你最好提前出发，要不然路上会堵车。", pinyin: "Nǐ zuìhǎo tíqián chūfā, yàobùrán lùshang huì dǔchē.", de: "Fahr lieber früher los, sonst gerätst du in den Stau." },
+            { cn: "记得带钥匙，不然又进不了门了。", pinyin: "Jìde dài yàoshi, bùrán yòu jìn bu liǎo mén le.", de: "Denk an den Schlüssel, sonst kommst du wieder nicht rein." },
+            { cn: "我得赶紧把报告写完，不然老板会生气的。", pinyin: "Wǒ děi gǎnjǐn bǎ bàogào xiěwán, bùrán lǎobǎn huì shēngqì de.", de: "Ich muss den Bericht schnell fertig schreiben, sonst wird die Chefin oder der Chef sauer." },
+            { cn: "公交车太慢了，要不然我们打车吧。", pinyin: "Gōngjiāochē tài màn le, yàobùrán wǒmen dǎchē ba.", de: "Der Bus ist zu langsam – wie wär's, wir nehmen ein Taxi? (Vorschlag einer Alternative)" }
+          ],
+          tip: "Im Überblick: 假如 = neutrale, gehobene Annahme; 万一 = unwahrscheinliches Risiko; 一旦 = sobald es eintritt, mit Tragweite; 哪怕 = selbst im Extremfall; 要不然/不然 = sonst."
+        }
+      ]
+    },
+    // ── 没有……就没有, 不……不……, 再……也 — knappe Sätze ohne Bindewort (lesson-61) ──────────
+    {
+      id: 'lesson-61',
+      number: 61,
+      title: "没有……就没有, 不……不……, 再……也 — knappe Sätze ohne Bindewort",
+      subtitle: "Zusammengezogene Satzgefüge (紧缩复句)",
+      level: 'HSK5',
+      grammarIds: ["g:没有……就没有……","g:不……不……","g:再……也……","g:连动句3：前后两个动词性词语具有因果、转折、条件关系"],
+      intro: "Chinesisch kann zwei Teilsätze so eng zusammenziehen, dass weder Bindewort noch Pause dazwischen bleibt. Solche <strong>zusammengezogenen Satzgefüge</strong> (紧缩复句, jǐnsuō fùjù) sind kurz, rhythmisch und begegnen dir in Sprichwörtern, Werbesprüchen und im Alltag: <strong>没有付出就没有收获</strong> „ohne Fleiß kein Preis“, <strong>不见不散</strong> „wir warten aufeinander, bis wir uns treffen“, <strong>再忙也要吃饭</strong> „so beschäftigt man auch ist, essen muss man“. In dieser Lektion lernst du drei feste Rahmen und dazu Serienverbsätze, in denen zwei Verbgruppen ganz ohne Bindewort Grund, Gegensatz oder Bedingung ausdrücken. Das Deutsche kennt solche Kurzformen vor allem aus Redensarten („ohne Fleiß kein Preis“); im Chinesischen sind sie ein lebendiges Muster, das du selbst bilden kannst.",
+      sections: [
+        {
+          heading: "没有 A 就没有 B — ohne A kein B",
+          text: "Beide Teile beginnen mit <strong>没有</strong> „es gibt nicht“; dahinter steht jeweils ein Nomen oder eine Nominalgruppe. A ist die unverzichtbare Voraussetzung für B. Das Muster klingt allgemeingültig und wird gern für Grundsätze, Lebensweisheiten und Dank verwendet, etwa in Reden. Bei längeren Teilen kann ein Komma stehen. <strong>就</strong> gehört fest dazu, und 不 kann 没有 hier nicht ersetzen, weil es um das Vorhandensein von etwas geht. Die positive Entsprechung ist 只有……才…… (siehe [[lesson:lesson-40]]).",
+          examples: [
+            { cn: "没有水就没有生命。", pinyin: "Méiyǒu shuǐ jiù méiyǒu shēngmìng.", de: "Ohne Wasser kein Leben." },
+            { cn: "没有交流就没有理解。", pinyin: "Méiyǒu jiāoliú jiù méiyǒu lǐjiě.", de: "Ohne Austausch kein Verständnis." },
+            { cn: "没有父母的支持就没有我的今天。", pinyin: "Méiyǒu fùmǔ de zhīchí jiù méiyǒu wǒ de jīntiān.", de: "Ohne die Unterstützung meiner Eltern wäre ich heute nicht da, wo ich bin." },
+            { cn: "没有大家的努力，就没有这次活动的成功。", pinyin: "Méiyǒu dàjiā de nǔlì, jiù méiyǒu zhè cì huódòng de chénggōng.", de: "Ohne den Einsatz aller wäre diese Veranstaltung kein Erfolg geworden. (längere Teile, mit Komma)" }
+          ],
+          tip: "Typisch für Dankesreden: 没有……就没有我的今天 „ohne … wäre ich nicht, wo ich heute bin“."
+        },
+        {
+          heading: "不 A 不 B — wenn nicht A, dann nicht B",
+          text: "Zwei verneinte Teile stehen ohne Bindewort und meist ohne Komma hintereinander: B geschieht nur, wenn A erfüllt ist. Bekannte feste Wendungen sind <strong>不见不散</strong> und 不打不相识 „erst der Streit hat uns zusammengebracht“. Mit <strong>不到</strong> + Zeitpunkt heißt das Muster „nicht vor …“. <strong>不……不行</strong> ist eine doppelte Verneinung: „ohne … geht es nicht“ = „man muss unbedingt …“. Achte auf den Ton: 不 wird vor einem vierten Ton zu bú.",
+          examples: [
+            { cn: "咱们明天八点在门口见，不见不散！", pinyin: "Zánmen míngtiān bā diǎn zài ménkǒu jiàn, bú jiàn bú sàn!", de: "Wir treffen uns morgen um acht am Eingang – wer zuerst da ist, wartet!" },
+            { cn: "我儿子不写完作业不睡觉。", pinyin: "Wǒ érzi bù xiěwán zuòyè bú shuìjiào.", de: "Mein Sohn geht erst ins Bett, wenn er seine Hausaufgaben fertig hat." },
+            { cn: "她不到最后一分钟不交卷。", pinyin: "Tā bú dào zuìhòu yì fēnzhōng bù jiāojuàn.", de: "Sie gibt ihre Prüfung nie vor der letzten Minute ab." },
+            { cn: "这个病不做手术不行。", pinyin: "Zhège bìng bú zuò shǒushù bùxíng.", de: "Bei dieser Krankheit führt an einer Operation kein Weg vorbei." }
+          ],
+          tip: "Nicht jedes 不……不…… ist eine Bedingung: 不冷不热 „weder kalt noch heiß“ oder 不多不少 „genau richtig“ beschreiben ein Mittelmaß. Und bei 不……也…… (不去也行 „man muss auch nicht hingehen“) tritt B trotzdem ein."
+        },
+        {
+          heading: "再……也…… — egal wie sehr, trotzdem",
+          text: "Hier bedeutet <strong>再</strong> nicht „wieder“, sondern „noch so (sehr)“ und treibt den Grad ins Extreme; <strong>也</strong> sagt, dass das Ergebnis trotzdem gilt. Nach 再 steht meist ein Adjektiv oder Verb; mit 怎么 wird daraus „wie sehr auch immer“. Das Subjekt kann vor 再 oder vor 也 stehen. Umgangssprachlich steht statt 也 oft 都. Der zweite Teil drückt häufig einen festen Entschluss, eine Pflicht oder eine Unmöglichkeit aus. Mit 哪怕 davor wird der Satz noch nachdrücklicher (siehe [[lesson:lesson-60]]).",
+          examples: [
+            { cn: "再忙也要注意身体。", pinyin: "Zài máng yě yào zhùyì shēntǐ.", de: "So beschäftigt man auch ist, man muss auf seine Gesundheit achten." },
+            { cn: "这道题再难，我也要做出来。", pinyin: "Zhè dào tí zài nán, wǒ yě yào zuò chūlai.", de: "Und wäre die Aufgabe noch so schwer, ich will sie lösen." },
+            { cn: "你再怎么劝，她也不会改变主意的。", pinyin: "Nǐ zài zěnme quàn, tā yě bú huì gǎibiàn zhǔyi de.", de: "Wie sehr du ihr auch zuredest, sie wird ihre Meinung nicht ändern." },
+            { cn: "这个包再贵我都要买。", pinyin: "Zhège bāo zài guì wǒ dōu yào mǎi.", de: "Und wäre die Tasche noch so teuer – ich kaufe sie. (都 statt 也, umgangssprachlich)" }
+          ],
+          tip: "Nicht verwechseln mit 再……就……: 再等下去就来不及了 „wenn wir noch länger warten, ist es zu spät“ – dort folgt eine Konsequenz, keine Einräumung. Allgemeines „egal was/wie“ mit Fragewort drückt 不管……都 aus (siehe [[lesson:lesson-44]])."
+        },
+        {
+          heading: "Serienverbsätze: Grund, Gegensatz, Bedingung ohne Bindewort",
+          text: "Im Serienverbsatz (连动句) teilen sich zwei Verbgruppen ein Subjekt. Bisher kennst du Zweck (去商店买东西) und Mittel (坐地铁去). Dazu kommen drei Beziehungen, die du nur aus dem Inhalt erschließt: <strong>Grund und Folge</strong> (她发烧请假了), <strong>Gegensatz</strong> (有话不说) und <strong>Bedingung</strong> (有困难找警察). Oft ist die erste Gruppe ein Ausdruck mit 有 oder ein Zustand, die zweite ist häufig verneint. Solche Sätze sind knapp und eher gesprochen; ausführlicher macht man die Beziehung mit 因为……所以, 却 oder 就 deutlich. Zu Verbpaaren mit 着 siehe [[lesson:lesson-10]].",
+          examples: [
+            { cn: "她发烧请假了。", pinyin: "Tā fāshāo qǐngjià le.", de: "Sie hatte Fieber und hat sich deshalb freigenommen. (Grund und Folge)" },
+            { cn: "孩子摔倒哭了。", pinyin: "Háizi shuāidǎo kū le.", de: "Das Kind ist hingefallen und weint. (Grund und Folge)" },
+            { cn: "你有话不说，大家怎么知道？", pinyin: "Nǐ yǒu huà bù shuō, dàjiā zěnme zhīdào?", de: "Du hast etwas auf dem Herzen und sagst es nicht – woher sollen die anderen das wissen? (Gegensatz)" },
+            { cn: "有困难找警察。", pinyin: "Yǒu kùnnan zhǎo jǐngchá.", de: "Bei Problemen wende dich an die Polizei. (Bedingung)" }
+          ],
+          tip: "Zum Verstehen hilft es, das fehlende Bindewort im Kopf zu ergänzen: 她（因为）发烧（所以）请假了 · 你有话（却）不说 · （如果）有困难（就）找警察."
+        }
+      ]
+    },
+    // ── 反而, 居然, 果然 — wider Erwarten und wie erwartet (lesson-62) ──────────
+    {
+      id: 'lesson-62',
+      number: 62,
+      title: "反而, 居然, 果然 — wider Erwarten und wie erwartet",
+      subtitle: "Erwartung umgekehrt, überrascht oder bestätigt",
+      level: 'HSK5',
+      grammarIds: ["g:反而","g:不但不/不但没有……，反而……","g:居然","g:果然"],
+      intro: "Drei Adverbien zeigen, wie ein Ergebnis zu deiner <strong>Erwartung</strong> steht. <strong>反而</strong> (fǎn'ér) sagt: Es kam nicht nur anders, sondern sogar das Gegenteil trat ein – „im Gegenteil, stattdessen“. <strong>居然</strong> (jūrán) drückt Überraschung über etwas Unerwartetes aus – „doch tatsächlich, wer hätte das gedacht“. <strong>果然</strong> (guǒrán) bestätigt eine Vorhersage – „wie erwartet, prompt“. Dazu lernst du den Rahmen <strong>不但不/不但没有……，反而……</strong> „nicht nur nicht …, sondern im Gegenteil …“. Im Deutschen übernehmen oft kleine Partikeln wie „sogar“, „doch“ oder „tatsächlich“ diese Aufgabe, und „tatsächlich“ kann je nach Betonung Überraschung oder Bestätigung bedeuten. Im Chinesischen musst du dich entscheiden: 居然 oder 果然 – das sind fast Gegensätze.",
+      sections: [
+        {
+          heading: "反而 — im Gegenteil, stattdessen",
+          text: "Der erste Teil nennt einen Umstand, der eigentlich ein bestimmtes Ergebnis erwarten ließ; der zweite Teil mit <strong>反而</strong> nennt das gegenteilige Ergebnis. 反而 steht nach dem Subjekt direkt vor dem Prädikat; oft folgt eine Steigerung mit 更. Wichtig: 反而 ist kein einfaches „aber“. Es braucht eine Erwartung, die umgekehrt wird. Für einen bloßen Gegensatz nimmst du 但是 oder 却 (siehe [[lesson:lesson-14]]).",
+          examples: [
+            { cn: "我想减肥，结果反而胖了两公斤。", pinyin: "Wǒ xiǎng jiǎnféi, jiéguǒ fǎn'ér pàng le liǎng gōngjīn.", de: "Ich wollte abnehmen und habe stattdessen zwei Kilo zugenommen." },
+            { cn: "休息了一天，他反而觉得更累了。", pinyin: "Xiūxi le yì tiān, tā fǎn'ér juéde gèng lèi le.", de: "Nach einem Ruhetag fühlte er sich sogar noch müder." },
+            { cn: "解释得太多，反而让人听不懂。", pinyin: "Jiěshì de tài duō, fǎn'ér ràng rén tīng bu dǒng.", de: "Wer zu viel erklärt, macht es für andere eher unverständlicher." },
+            { cn: "❌ 我喜欢喝茶，反而我妹妹喜欢喝咖啡。", pinyin: "", de: "Falsch: Hier wird keine Erwartung umgekehrt, es ist nur ein Gegensatz." },
+            { cn: "✅ 我喜欢喝茶，我妹妹却喜欢喝咖啡。", pinyin: "Wǒ xǐhuan hē chá, wǒ mèimei què xǐhuan hē kāfēi.", de: "Ich trinke gern Tee, meine Schwester dagegen Kaffee." }
+          ],
+          tip: "Test: Kannst du „…, und dabei hätte man genau das Gegenteil erwartet“ ergänzen? Dann passt 反而. Sonst nimm 却 oder 但是."
+        },
+        {
+          heading: "不但不/不但没有……，反而…… — nicht etwa …, sondern im Gegenteil",
+          text: "Der Rahmen macht das Umschlagen ausdrücklich: Der erste Teil verneint die Erwartung, der zweite nennt mit <strong>反而</strong> das Gegenteil. <strong>不但不</strong> steht bei Zuständen, Gewohnheiten und allgemeinen Aussagen, <strong>不但没有</strong> (kurz 不但没) bei Ereignissen, die ausgeblieben sind. Haben beide Teile dasselbe Subjekt, steht es vor 不但. Das Muster ist in Rede und Schrift üblich. Vorsicht: 不但……而且…… (siehe [[lesson:lesson-39]]) steigert in <em>dieselbe</em> Richtung – „nicht nur …, sondern auch“.",
+          examples: [
+            { cn: "我帮了他，他不但不感谢我，反而怪我多管闲事。", pinyin: "Wǒ bāng le tā, tā búdàn bù gǎnxiè wǒ, fǎn'ér guài wǒ duō guǎn xiánshì.", de: "Ich habe ihm geholfen, und statt mir zu danken, wirft er mir vor, mich einzumischen." },
+            { cn: "价格提高了，买的人不但没有减少，反而更多了。", pinyin: "Jiàgé tígāo le, mǎi de rén búdàn méiyǒu jiǎnshǎo, fǎn'ér gèng duō le.", de: "Der Preis ist gestiegen, und doch kaufen nicht etwa weniger, sondern sogar mehr Leute." },
+            { cn: "这个办法不但不能解决问题，反而会带来新的麻烦。", pinyin: "Zhège bànfǎ búdàn bù néng jiějué wèntí, fǎn'ér huì dàilái xīn de máfan.", de: "Diese Methode löst das Problem nicht, sondern schafft im Gegenteil neuen Ärger." },
+            { cn: "❌ 我道歉以后，她不但没原谅我，但是更生气了。", pinyin: "", de: "Falsch: 但是 bildet mit 不但 kein Paar." },
+            { cn: "✅ 我道歉以后，她不但没原谅我，反而更生气了。", pinyin: "Wǒ dàoqiàn yǐhòu, tā búdàn méi yuánliàng wǒ, fǎn'ér gèng shēngqì le.", de: "Nach meiner Entschuldigung hat sie mir nicht verziehen, sondern wurde im Gegenteil noch wütender." }
+          ],
+          tip: "Gehoben steht statt 不但 auch 非但: 非但不……，反而……."
+        },
+        {
+          heading: "居然 — doch tatsächlich, wider Erwarten",
+          text: "<strong>居然</strong> zeigt, dass etwas der Erwartung der sprechenden Person widerspricht und sie überrascht. Die Überraschung kann positiv oder negativ sein; oft schwingt Empörung mit. 居然 steht nach dem Subjekt vor dem Prädikat, seltener am Satzanfang; davor steht oft 没想到 „wer hätte gedacht“. Häufig folgt eine Gradangabe mit 这么 oder 那么. 居然 bezieht sich auf Tatsachen, nicht auf Pläne oder Bitten. Es ist fast gleichbedeutend mit 竟然 (jìngrán), klingt aber etwas umgangssprachlicher.",
+          examples: [
+            { cn: "他才学了半年中文，居然能看懂新闻了！", pinyin: "Tā cái xué le bàn nián Zhōngwén, jūrán néng kàndǒng xīnwén le!", de: "Er lernt erst seit einem halben Jahr Chinesisch und versteht doch tatsächlich schon die Nachrichten!" },
+            { cn: "这么简单的问题，你居然不知道？", pinyin: "Zhème jiǎndān de wèntí, nǐ jūrán bù zhīdào?", de: "So eine einfache Frage, und du weißt die Antwort nicht?" },
+            { cn: "没想到外面居然下雪了。", pinyin: "Méi xiǎngdào wàimiàn jūrán xià xuě le.", de: "Wer hätte gedacht, dass es draußen schneit." },
+            { cn: "这件衣服居然只要五十块。", pinyin: "Zhè jiàn yīfu jūrán zhǐ yào wǔshí kuài.", de: "Dieses Kleidungsstück kostet tatsächlich nur fünfzig Yuan." }
+          ],
+          tip: "居然 und 竟然 sind meist austauschbar; nur von 竟然 gibt es die schriftliche Kurzform 竟."
+        },
+        {
+          heading: "果然 — wie erwartet, prompt",
+          text: "<strong>果然</strong> bestätigt, dass etwas so eingetreten ist, wie man es vorhergesagt, vermutet oder gehört hat. Meist nennt der Satz zuerst die Erwartung, etwa mit 听说 „ich habe gehört“ oder 我猜 „ich vermute“, dann folgt 果然 mit dem Ergebnis. 果然 steht vor dem Prädikat, kann aber auch vor dem Subjekt stehen, oft mit Komma. Fast gleichbedeutend ist 果真 (guǒzhēn). Die feste Wendung 果然不出所料 heißt „genau wie vorhergesehen“.",
+          examples: [
+            { cn: "我猜他会喜欢这个礼物，他果然很喜欢。", pinyin: "Wǒ cāi tā huì xǐhuan zhège lǐwù, tā guǒrán hěn xǐhuan.", de: "Ich hatte vermutet, dass ihm das Geschenk gefällt – und es gefiel ihm tatsächlich." },
+            { cn: "听说这部电影很好看，我昨天去看了，果然没让我失望。", pinyin: "Tīngshuō zhè bù diànyǐng hěn hǎokàn, wǒ zuótiān qù kàn le, guǒrán méi ràng wǒ shīwàng.", de: "Der Film soll sehr gut sein; ich habe ihn gestern gesehen, und er hat mich wirklich nicht enttäuscht." },
+            { cn: "果然，他又忘了带钥匙。", pinyin: "Guǒrán, tā yòu wàng le dài yàoshi.", de: "Und prompt hat er wieder den Schlüssel vergessen." },
+            { cn: "大家都说这条路近，我走了一次，果然快多了。", pinyin: "Dàjiā dōu shuō zhè tiáo lù jìn, wǒ zǒu le yí cì, guǒrán kuài duō le.", de: "Alle sagen, dieser Weg sei kürzer – ich bin ihn einmal gegangen, und er ist tatsächlich viel schneller." }
+          ],
+          tip: "Die häufigste Verwechslung: 果然 = Erwartung <strong>bestätigt</strong>, 居然 = Erwartung <strong>durchkreuzt</strong> (Überraschung, positiv oder negativ). Beides übersetzt man oft mit „tatsächlich“."
+        },
+        {
+          heading: "Vergleich: 果然, 居然, 反而",
+          text: "Dieselbe Ausgangslage, drei Ausgänge: Mit <strong>果然</strong> tritt ein, was man erwartet hat; mit <strong>居然</strong> passiert etwas Unerwartetes, das überrascht; mit <strong>反而</strong> bewirkt etwas genau das Gegenteil dessen, was es bewirken sollte. 反而 braucht also einen Umstand, der in die andere Richtung hätte wirken müssen, während 居然 nur die Überraschung der sprechenden Person zeigt.",
+          examples: [
+            { cn: "我猜他会迟到，他果然迟到了。", pinyin: "Wǒ cāi tā huì chídào, tā guǒrán chídào le.", de: "Ich hatte vermutet, dass er zu spät kommt – und so war es auch. (bestätigt)" },
+            { cn: "他平时总是迟到，今天居然第一个到了。", pinyin: "Tā píngshí zǒngshì chídào, jīntiān jūrán dì yī ge dào le.", de: "Sonst kommt er immer zu spät, heute war er doch tatsächlich als Erster da. (Überraschung)" },
+            { cn: "大家催他快一点儿，他反而走得更慢了。", pinyin: "Dàjiā cuī tā kuài yìdiǎnr, tā fǎn'ér zǒu de gèng màn le.", de: "Alle drängten ihn, sich zu beeilen – stattdessen ging er noch langsamer. (Gegenteil)" }
+          ],
+          tip: "Eselsbrücke: 果 „Frucht, Ergebnis“ – das erwartete Ergebnis ist eingetreten (果然). 反 „umgekehrt“ – das Ergebnis dreht sich um (反而)."
+        }
+      ]
+    },
+    // ── 毕竟, 反正, 似乎, 仿佛 — Haltung und Anschein (lesson-63) ──────────
+    {
+      id: 'lesson-63',
+      number: 63,
+      title: "毕竟, 反正, 似乎, 仿佛 — Haltung und Anschein",
+      subtitle: "Begründen, abwinken, vorsichtig einschätzen, bildhaft vergleichen",
+      level: 'HSK5',
+      grammarIds: ["g:毕竟","g:反正","g:似乎","g:仿佛","g:似的","g:语气副词@HSK5","g:不管怎样说"],
+      intro: "In dieser Lektion geht es um kleine Wörter mit großer Wirkung: Mit ihnen zeigst du, wie du zu einer Aussage stehst. <strong>毕竟</strong> (bìjìng) erinnert an eine Tatsache, die man bedenken sollte („er ist <em>schließlich</em> neu hier“), <strong>反正</strong> (fǎnzhèng) winkt ab: Das Ergebnis bleibt ohnehin gleich. <strong>似乎</strong> (sìhū) formuliert eine vorsichtige Einschätzung („anscheinend“), und <strong>仿佛</strong> (fǎngfú) sowie die Partikel <strong>似的</strong> (shìde) malen bildhafte Vergleiche („als ob“). Im Deutschen erledigen das oft Abtönungswörter wie <em>ja</em>, <em>eben</em> oder <em>halt</em>, die recht frei im Satz stehen. Im Chinesischen sind es Adverbien mit festem Platz – meist nach dem Subjekt vor dem Prädikat – und mit deutlichen Unterschieden im Register: Manche klingen gesprochen, andere schriftlich oder literarisch.",
+      sections: [
+        {
+          heading: "毕竟 — schließlich, immerhin",
+          text: "<strong>毕竟</strong> (bìjìng) verweist auf eine grundlegende Tatsache, die man bei einer Beurteilung bedenken sollte: „schließlich, immerhin, letzten Endes“. Damit relativierst du eine Kritik, rechtfertigst ein Verhalten oder erklärst etwas; der andere Teilsatz zieht daraus die Schlussfolgerung. Oft folgt <strong>是</strong> oder <strong>还是</strong> (háishi). 毕竟 kann nach dem Subjekt oder am Satzanfang stehen.",
+          examples: [
+            { cn: "他毕竟是新来的，很多情况还不了解。", pinyin: "Tā bìjìng shì xīn lái de, hěn duō qíngkuàng hái bù liǎojiě.", de: "Er ist schließlich neu hier und kennt sich mit vielem noch nicht aus." },
+            { cn: "别太难过了，这毕竟只是一次小考试。", pinyin: "Bié tài nánguò le, zhè bìjìng zhǐ shì yí cì xiǎo kǎoshì.", de: "Sei nicht zu traurig – es ist schließlich nur ein kleiner Test." },
+            { cn: "虽然问题还很多，但这毕竟是一个好的开始。", pinyin: "Suīrán wèntí hái hěn duō, dàn zhè bìjìng shì yí ge hǎo de kāishǐ.", de: "Es gibt zwar noch viele Probleme, aber es ist immerhin ein guter Anfang." },
+            { cn: "毕竟是自己的孩子，父母怎么会不关心呢？", pinyin: "Bìjìng shì zìjǐ de háizi, fùmǔ zěnme huì bù guānxīn ne?", de: "Es ist schließlich ihr eigenes Kind – wie könnten Eltern sich da nicht kümmern?" }
+          ],
+          tip: "In Fragen nach dem Eigentlichen steht nicht 毕竟, sondern 到底 (dàodǐ) oder 究竟 (jiūjìng): ❌ 你毕竟想说什么？ → ✅ 你到底想说什么？ „Was willst du denn eigentlich sagen?“ In Aussagesätzen kann 到底 dagegen ebenfalls „schließlich“ bedeuten."
+        },
+        {
+          heading: "反正 — sowieso, jedenfalls · 不管怎样说",
+          text: "<strong>反正</strong> (fǎnzhèng) betont, dass die Umstände am Ergebnis nichts ändern. (1) Es nennt einen Umstand, der ohnehin gilt und eine Entscheidung begründet: „sowieso, ohnehin“. (2) Nach 不管 oder 无论 heißt es „jedenfalls, egal wie“ (vgl. [[lesson:lesson-44]]). 反正 ist typisch für die gesprochene Sprache und kann entschlossen oder gleichgültig klingen. Die feste Floskel <strong>不管怎样说</strong> (bùguǎn zěnyàng shuō) schließt dagegen eine Abwägung ab: „wie dem auch sei“. Danach folgt ein Fazit, ein Urteil oder ein Rat; anders als nach 不管……，都…… braucht der Hauptsatz kein 都/也. Gesprochen sagt man meist 不管怎么说.",
+          examples: [
+            { cn: "反正我明天没事，可以陪你去医院。", pinyin: "Fǎnzhèng wǒ míngtiān méi shì, kěyǐ péi nǐ qù yīyuàn.", de: "Ich habe morgen sowieso nichts vor, ich kann dich ins Krankenhaus begleiten." },
+            { cn: "别打车了，反正也不远，我们走过去吧。", pinyin: "Bié dǎchē le, fǎnzhèng yě bù yuǎn, wǒmen zǒu guòqu ba.", de: "Lass uns kein Taxi nehmen – es ist ja ohnehin nicht weit, gehen wir zu Fuß." },
+            { cn: "不管别人怎么说，反正我觉得这个主意不错。", pinyin: "Bùguǎn biérén zěnme shuō, fǎnzhèng wǒ juéde zhège zhǔyi búcuò.", de: "Egal, was andere sagen – ich finde die Idee jedenfalls gut." },
+            { cn: "价格是贵了一点儿，不过不管怎样说，质量没问题。", pinyin: "Jiàgé shì guì le yìdiǎnr, búguò bùguǎn zěnyàng shuō, zhìliàng méi wèntí.", de: "Der Preis ist zwar etwas hoch, aber wie dem auch sei: Die Qualität stimmt." },
+            { cn: "不管怎样说，这次经历对你很有帮助。", pinyin: "Bùguǎn zěnyàng shuō, zhè cì jīnglì duì nǐ hěn yǒu bāngzhù.", de: "Wie dem auch sei, diese Erfahrung hat dir viel gebracht." }
+          ],
+          tip: "毕竟 oder 反正? 毕竟 begründet mit einer Tatsache, die man bedenken soll („er ist <em>schließlich</em> neu“); 反正 sagt, dass es auf die Umstände nicht ankommt („ich gehe <em>sowieso</em>“). Nach 不管 kann statt 反正 auch 都 vor dem Verb stehen: 不管你去不去，我都去。"
+        },
+        {
+          heading: "似乎 — anscheinend, es scheint",
+          text: "<strong>似乎</strong> (sìhū) drückt eine unsichere Einschätzung aufgrund von Eindrücken aus: „anscheinend, offenbar, es scheint“. Die sprechende Person legt sich nicht fest. 似乎 steht meist nach dem Subjekt vor dem Prädikat, oft vor 是, 有, 要 oder 不太. Es ist etwas schriftlicher als das gleichbedeutende <strong>好像</strong> (hǎoxiàng). Anders als 好像 und 仿佛 ist 似乎 ein reines Adverb: Es kann nicht direkt vor einem Nomen stehen und „wie“ bedeuten.",
+          examples: [
+            { cn: "他今天似乎心情不太好。", pinyin: "Tā jīntiān sìhū xīnqíng bú tài hǎo.", de: "Er scheint heute nicht besonders gut gelaunt zu sein." },
+            { cn: "这家餐厅似乎刚开业不久。", pinyin: "Zhè jiā cāntīng sìhū gāng kāiyè bùjiǔ.", de: "Dieses Restaurant hat anscheinend erst vor Kurzem eröffnet." },
+            { cn: "大家似乎都已经知道这件事了。", pinyin: "Dàjiā sìhū dōu yǐjīng zhīdào zhè jiàn shì le.", de: "Alle scheinen schon davon zu wissen." },
+            { cn: "❌ 她笑起来似乎一个孩子。", pinyin: "", de: "Falsch: 似乎 kann nicht direkt vor einem Nomen „wie“ bedeuten." },
+            { cn: "✅ 她笑起来好像一个孩子。", pinyin: "Tā xiào qǐlai hǎoxiàng yí ge háizi.", de: "Wenn sie lacht, wirkt sie wie ein Kind. (好像 kann – anders als 似乎 – direkt vor einem Nomen stehen.)" }
+          ],
+          tip: "Im Gespräch klingt 好像 natürlicher (他好像不太高兴); 似乎 passt besser in Berichte, E-Mails und Erzählungen. Achtung Aussprache: In 似乎 wird 似 <strong>sì</strong> gesprochen, in 似的 dagegen <strong>shì</strong>."
+        },
+        {
+          heading: "仿佛 und 似的 — als ob, wie",
+          text: "<strong>仿佛</strong> (fǎngfú) vergleicht einen Sachverhalt bildhaft mit etwas anderem: „als ob, gleichsam“. Häufig rundet <strong>一样</strong> oder <strong>似的</strong> den Vergleich am Ende ab. Anders als 似乎 kann 仿佛 direkt vor einem Nomen stehen und „wie“ bedeuten. 仿佛 ist literarisch und typisch für Beschreibungen. Die Partikel <strong>似的</strong> (shìde) steht hinter einer Wortgruppe oder einem Satz, oft mit 像 oder 好像 davor; sie ist umgangssprachlich. Neutral in allen Registern ist <strong>像……一样</strong> (vgl. [[lesson:lesson-6]]).",
+          examples: [
+            { cn: "站在山顶上，我仿佛到了另一个世界。", pinyin: "Zhàn zài shāndǐng shang, wǒ fǎngfú dào le lìng yí ge shìjiè.", de: "Auf dem Gipfel kam ich mir vor wie in einer anderen Welt." },
+            { cn: "湖水平静得仿佛一面镜子。", pinyin: "Húshuǐ píngjìng de fǎngfú yí miàn jìngzi.", de: "Das Wasser des Sees ist still wie ein Spiegel." },
+            { cn: "那一刻，时间仿佛停止了一样。", pinyin: "Nà yí kè, shíjiān fǎngfú tíngzhǐ le yíyàng.", de: "In diesem Moment schien die Zeit stillzustehen." },
+            { cn: "他看起来很累，好像一夜没睡似的。", pinyin: "Tā kàn qǐlai hěn lèi, hǎoxiàng yí yè méi shuì shìde.", de: "Er sieht sehr müde aus, als hätte er die ganze Nacht nicht geschlafen." },
+            { cn: "这个孩子像个小大人似的，说话特别有礼貌。", pinyin: "Zhège háizi xiàng ge xiǎo dàren shìde, shuōhuà tèbié yǒu lǐmào.", de: "Das Kind wirkt wie eine kleine erwachsene Person und spricht ausgesprochen höflich." }
+          ],
+          tip: "Aussprache: 似的 heißt <strong>shìde</strong>, nicht sìde. Man findet auch die Schreibung 是的 – korrekt ist 似的. Merkhilfe fürs Register: 仿佛 im Roman, 似的 im Gespräch, 像……一样 überall."
+        },
+        {
+          heading: "Weitere Modaladverbien: 居然, 根本, 果然, 反而, 刚好",
+          text: "毕竟 und 反正 gehören zu einer Gruppe von Modaladverbien, mit denen du deine Haltung zeigst – Überraschung, Nachdruck oder Bestätigung. Sie stehen meist nach dem Subjekt vor dem Prädikat. Wichtig sind vor allem <strong>居然</strong> (jūrán) „wider Erwarten“, <strong>根本</strong> (gēnběn) „überhaupt (nicht)“, meist mit Verneinung, <strong>果然</strong> (guǒrán) „wie erwartet“, <strong>简直</strong> (jiǎnzhí) „geradezu“, <strong>反而</strong> (fǎn'ér) „im Gegenteil, stattdessen“ und <strong>刚好</strong> (gānghǎo) „gerade richtig, zufällig gerade“.",
+          examples: [
+            { cn: "这么难的题，他居然十分钟就做完了。", pinyin: "Zhème nán de tí, tā jūrán shí fēnzhōng jiù zuòwán le.", de: "So eine schwere Aufgabe – und er war doch tatsächlich in zehn Minuten fertig!" },
+            { cn: "我根本没听说过这个地方。", pinyin: "Wǒ gēnběn méi tīngshuō guo zhège dìfang.", de: "Von diesem Ort habe ich überhaupt noch nie gehört." },
+            { cn: "天气预报说今天有雨，下午果然下起来了。", pinyin: "Tiānqì yùbào shuō jīntiān yǒu yǔ, xiàwǔ guǒrán xià qǐlai le.", de: "Laut Wetterbericht sollte es heute regnen – und am Nachmittag fing es wie erwartet an." },
+            { cn: "吃了药以后，他的病反而更重了。", pinyin: "Chī le yào yǐhòu, tā de bìng fǎn'ér gèng zhòng le.", de: "Nach der Medizin wurde seine Krankheit nicht besser, sondern sogar noch schlimmer." },
+            { cn: "我们刚好赶上了最后一班车。", pinyin: "Wǒmen gānghǎo gǎnshàng le zuìhòu yì bān chē.", de: "Wir haben gerade noch den letzten Bus erwischt." }
+          ],
+          tip: "Typische Verwechslung: 居然 (Überraschung: „doch tatsächlich“) und 果然 (Bestätigung: „wie erwartet“) sind fast Gegenteile. ❌ 我早就猜到了，他居然来了。 → ✅ 我早就猜到了，他果然来了。"
+        }
+      ]
+    },
+    // ── 因而, 从而, 可见, 总之, 以及 — Schriftlich verknüpfen (lesson-64) ──────────
+    {
+      id: 'lesson-64',
+      number: 64,
+      title: "因而, 从而, 可见, 总之, 以及 — Schriftlich verknüpfen",
+      subtitle: "Folge, Ergebnis, Zweck, Schluss und Aufzählung in Texten",
+      level: 'HSK5',
+      grammarIds: ["g:……，因而……","g:从而","g:……，可见……","g:……，为的是……","g:总之","g:以及","g:或是……，或是……","g:连接分句或句子@HSK5"],
+      intro: "Wenn du Berichte, Aufsätze oder Nachrichten liest oder selbst schreibst, reichen 所以 und 和 bald nicht mehr aus. Diese Lektion stellt die Verbindungswörter vor, die geschriebene Texte gliedern: <strong>因而</strong> (yīn'ér) nennt eine Folge, <strong>从而</strong> (cóng'ér) das Ergebnis einer Maßnahme, <strong>为的是</strong> (wèi de shì) den nachgestellten Zweck, <strong>可见</strong> (kějiàn) einen Schluss aus einem Beleg und <strong>总之</strong> (zǒngzhī) das Fazit. Zum Aufzählen dienen <strong>以及</strong> (yǐjí) „sowie“ und <strong>或是……，或是……</strong> „entweder … oder“. Inhaltlich unterscheidest du ähnlich wie im Deutschen zwischen „deshalb“, „dadurch“, „also“ und „kurzum“. Der eigentliche Unterschied liegt im Register: Viele dieser Wörter wirken im Gespräch steif. Achte deshalb bei jedem Wort darauf, ob es schriftlich oder neutral ist.",
+      sections: [
+        {
+          heading: "……，因而…… — daher, folglich",
+          text: "<strong>因而</strong> (yīn'ér) leitet die Folge aus einem vorher genannten Grund ein: „daher, folglich, deshalb“. Es entspricht 所以 und 因此 (vgl. [[lesson:lesson-15]]), ist aber deutlich schriftsprachlich und typisch für Berichte und Aufsätze. 因而 steht am Anfang des zweiten Teilsatzes oder nach dessen Subjekt; im ersten Teil kann 由于 (yóuyú) den Grund markieren. 因而 verbindet meist Teilsätze innerhalb eines Satzes, während 因此 auch einen neuen Satz einleiten kann.",
+          examples: [
+            { cn: "由于连续下了几天大雨，河水因而涨得很快。", pinyin: "Yóuyú liánxù xià le jǐ tiān dà yǔ, héshuǐ yīn'ér zhǎng de hěn kuài.", de: "Weil es mehrere Tage hintereinander stark geregnet hatte, stieg der Fluss schnell an." },
+            { cn: "这本书语言简单，故事有趣，因而很受年轻人欢迎。", pinyin: "Zhè běn shū yǔyán jiǎndān, gùshi yǒuqù, yīn'ér hěn shòu niánqīngrén huānyíng.", de: "Das Buch ist einfach geschrieben und spannend, daher ist es bei jungen Leuten sehr beliebt." },
+            { cn: "她对客户非常耐心，因而得到了大家的信任。", pinyin: "Tā duì kèhù fēicháng nàixīn, yīn'ér dédào le dàjiā de xìnrèn.", de: "Sie ist sehr geduldig mit der Kundschaft und hat daher das Vertrauen aller gewonnen." },
+            { cn: "城市人口不断增加，交通压力因而越来越大。", pinyin: "Chéngshì rénkǒu búduàn zēngjiā, jiāotōng yālì yīn'ér yuè lái yuè dà.", de: "Die Stadtbevölkerung wächst ständig, folglich wird der Verkehr immer stärker belastet." }
+          ],
+          tip: "Im Gespräch wirkt 因而 steif – dort sagst du 所以: ❌ 我饿了，因而我们去吃饭吧。 → ✅ 我饿了，所以我们去吃饭吧。"
+        },
+        {
+          heading: "从而 — dadurch, somit",
+          text: "<strong>从而</strong> (cóng'ér) leitet das Ergebnis einer vorher genannten Handlung oder Maßnahme ein: „dadurch, somit, und so“. Beide Teile haben in der Regel dasselbe Subjekt, das nach 从而 nicht wiederholt wird. Das Ergebnis ist meist erwünscht (提高, 减少, 改善); für unerwünschte Folgen steht eher 以致 (yǐzhì). Anders als 因而 betont 从而 weniger den Grund als den Weg, über den man das Ergebnis erreicht. 从而 gehört zur Schriftsprache und zu formellen Reden.",
+          examples: [
+            { cn: "学校增加了体育课，从而提高了学生的身体素质。", pinyin: "Xuéxiào zēngjiā le tǐyùkè, cóng'ér tígāo le xuésheng de shēntǐ sùzhì.", de: "Die Schule hat mehr Sportunterricht eingeführt und so die Fitness der Schülerinnen und Schüler verbessert." },
+            { cn: "这座城市大力发展公共交通，从而减少了堵车。", pinyin: "Zhè zuò chéngshì dàlì fāzhǎn gōnggòng jiāotōng, cóng'ér jiǎnshǎo le dǔchē.", de: "Die Stadt hat den öffentlichen Nahverkehr stark ausgebaut und dadurch die Staus verringert." },
+            { cn: "她每天读中文新闻，从而扩大了自己的词汇量。", pinyin: "Tā měi tiān dú Zhōngwén xīnwén, cóng'ér kuòdà le zìjǐ de cíhuìliàng.", de: "Sie liest jeden Tag chinesische Nachrichten und hat so ihren Wortschatz erweitert." },
+            { cn: "工厂改用新设备，从而节约了大量能源。", pinyin: "Gōngchǎng gǎi yòng xīn shèbèi, cóng'ér jiéyuē le dàliàng néngyuán.", de: "Die Fabrik stellte auf neue Anlagen um und sparte dadurch viel Energie." }
+          ],
+          tip: "Probe für 从而: Passt im Deutschen „und erreichte dadurch …“, ist 从而 richtig. Nennt der erste Teil nur einen Grund ohne Handlung („Es regnete tagelang …“), passt eher 因而 oder 所以."
+        },
+        {
+          heading: "……，为的是…… — und zwar, um … zu",
+          text: "<strong>为的是</strong> (wèi de shì) nennt im zweiten Teilsatz den Zweck einer zuvor genannten Handlung, wörtlich etwa „wofür es geschieht, ist …“. Anders als 为了 (wèile), das meist vor der Handlung steht, wird der Zweck hier nachgestellt und dadurch hervorgehoben – oft als Erklärung für ein Verhalten, das sonst überraschen könnte. Gleichbedeutend ist 是为了. Danach folgt eine Verbgruppe oder ein ganzer Satz. Das Muster ist neutral bis schriftlich. Das letzte Beispiel zeigt zum Vergleich das erste mit vorangestelltem 为了.",
+          examples: [
+            { cn: "她每天晚上听中文广播，为的是练习听力。", pinyin: "Tā měi tiān wǎnshang tīng Zhōngwén guǎngbō, wèi de shì liànxí tīnglì.", de: "Sie hört jeden Abend chinesisches Radio, und zwar um ihr Hörverstehen zu trainieren." },
+            { cn: "我提前一个小时到了机场，为的是不错过航班。", pinyin: "Wǒ tíqián yí ge xiǎoshí dào le jīchǎng, wèi de shì bú cuòguò hángbān.", de: "Ich war eine Stunde früher am Flughafen, um den Flug nicht zu verpassen." },
+            { cn: "他把房间打扫得干干净净，为的是让父母放心。", pinyin: "Tā bǎ fángjiān dǎsǎo de gāngānjìngjìng, wèi de shì ràng fùmǔ fàngxīn.", de: "Er putzte das Zimmer blitzblank, damit sich seine Eltern keine Sorgen machten." },
+            { cn: "公司推迟了会议，为的是让大家有更多时间准备。", pinyin: "Gōngsī tuīchí le huìyì, wèi de shì ràng dàjiā yǒu gèng duō shíjiān zhǔnbèi.", de: "Die Firma hat die Sitzung verschoben, damit alle mehr Zeit zur Vorbereitung haben." },
+            { cn: "为了练习听力，她每天晚上听中文广播。", pinyin: "Wèile liànxí tīnglì, tā měi tiān wǎnshang tīng Zhōngwén guǎngbō.", de: "Um ihr Hörverstehen zu trainieren, hört sie jeden Abend chinesisches Radio. (Zum Vergleich mit 为了: Der Zweck steht vorn und ist Ausgangspunkt, nicht Pointe.)" }
+          ],
+          tip: "为 wird hier im vierten Ton gesprochen: <strong>wèi</strong> de shì, nicht wéi. Im Gespräch kannst du den Zweck auch mit 是为了 nachstellen: 我这么做，是为了你好。"
+        },
+        {
+          heading: "可见 und 总之 — Schluss und Fazit",
+          text: "<strong>可见</strong> (kějiàn) zieht aus einer Tatsache einen Schluss: „daran sieht man, also offenbar“. Die Richtung ist anders als bei 因而: Der erste Teil ist nicht die Ursache, sondern der Beleg; der zweite ist das Erschlossene. Häufig ist 由此可见 „daraus ergibt sich“. <strong>总之</strong> (zǒngzhī) leitet ein Fazit ein: „kurzum, alles in allem“ – oder nach etwas Unklarem „jedenfalls“; es ist in Rede und Schrift üblich. Beide gehören zu den satzverbindenden Konjunktionen, ebenso wie 从而 und <strong>假如</strong> (jiǎrú) „falls“, ein etwas gehobeneres 如果.",
+          examples: [
+            { cn: "他的中文说得这么流利，可见下了不少功夫。", pinyin: "Tā de Zhōngwén shuō de zhème liúlì, kějiàn xià le bù shǎo gōngfu.", de: "Er spricht so fließend Chinesisch – daran sieht man, wie viel Mühe er investiert hat." },
+            { cn: "这家店门口总是排着长队，可见这里的菜很受欢迎。", pinyin: "Zhè jiā diàn ménkǒu zǒngshì pái zhe cháng duì, kějiàn zhèlǐ de cài hěn shòu huānyíng.", de: "Vor diesem Lokal steht immer eine lange Schlange – das Essen hier ist offenbar sehr beliebt." },
+            { cn: "房子不大，离公司也远，总之我不太满意。", pinyin: "Fángzi bú dà, lí gōngsī yě yuǎn, zǒngzhī wǒ bú tài mǎnyì.", de: "Die Wohnung ist nicht groß und auch weit vom Büro entfernt – kurzum, ich bin nicht sehr zufrieden." },
+            { cn: "我也说不清楚为什么，总之我不想去。", pinyin: "Wǒ yě shuō bu qīngchu wèishénme, zǒngzhī wǒ bù xiǎng qù.", de: "Ich kann auch nicht genau sagen, warum – jedenfalls will ich nicht hingehen." },
+            { cn: "假如明天下雨，比赛就改到下周。", pinyin: "Jiǎrú míngtiān xià yǔ, bǐsài jiù gǎi dào xià zhōu.", de: "Falls es morgen regnet, wird das Spiel auf nächste Woche verlegt." }
+          ],
+          tip: "因而 oder 可见? Ursache → Wirkung: 他很努力，因而成绩很好。 Beleg → Schluss: 他成绩很好，可见很努力。 Bei 可见 steht das Erschlossene – oft gerade die Ursache – im zweiten Teil."
+        },
+        {
+          heading: "以及 und 或是……，或是…… — aufzählen",
+          text: "<strong>以及</strong> (yǐjí) „sowie, und (auch)“ steht meist vor dem letzten Glied einer Aufzählung, deren übrige Glieder durch 、 getrennt sind. Es verbindet Nomen und Wortgruppen, auch Verbgruppen oder indirekte Fragen, aber keine zwei vollständigen Hauptsätze – dafür dienen 而且 oder 并且. 以及 klingt gehoben; im Alltag reicht 和. <strong>或是</strong> (huòshì) bedeutet dasselbe wie 或者 (vgl. [[lesson:lesson-31]]), klingt aber etwas schriftlicher: „entweder … oder“, bei Gewohnheiten „mal …, mal …“.",
+          examples: [
+            { cn: "报名时请提供姓名、电话以及电子邮箱。", pinyin: "Bàomíng shí qǐng tígōng xìngmíng, diànhuà yǐjí diànzǐ yóuxiāng.", de: "Bitte geben Sie bei der Anmeldung Namen, Telefonnummer sowie E-Mail-Adresse an." },
+            { cn: "请告诉我们会议的时间、地点以及参加人数。", pinyin: "Qǐng gàosu wǒmen huìyì de shíjiān, dìdiǎn yǐjí cānjiā rénshù.", de: "Bitte teilen Sie uns Zeit und Ort der Sitzung sowie die Zahl der Teilnehmenden mit." },
+            { cn: "我们还没决定住在哪儿以及住几天。", pinyin: "Wǒmen hái méi juédìng zhù zài nǎr yǐjí zhù jǐ tiān.", de: "Wir haben noch nicht entschieden, wo wir übernachten und wie viele Tage wir bleiben." },
+            { cn: "下班以后，她或是去健身房，或是在家做饭。", pinyin: "Xiàbān yǐhòu, tā huòshì qù jiànshēnfáng, huòshì zài jiā zuò fàn.", de: "Nach der Arbeit geht sie mal ins Fitnessstudio, mal kocht sie zu Hause." },
+            { cn: "你或是今天交，或是明天交，都可以。", pinyin: "Nǐ huòshì jīntiān jiāo, huòshì míngtiān jiāo, dōu kěyǐ.", de: "Ob du es heute oder morgen abgibst – beides geht." }
+          ],
+          tip: "Wie 或者 steht 或是 nicht in Entscheidungsfragen: ❌ 你喝茶或是喝咖啡？ → ✅ 你喝茶还是喝咖啡？ Ein strenges „entweder – oder“ (genau eins von beiden) heißt 要么……，要么……."
+        }
+      ]
+    },
+    // ── 自从, 以来, 便 — Seit und dann (lesson-65) ──────────
+    {
+      id: 'lesson-65',
+      number: 65,
+      title: "自从, 以来, 便 — Seit und dann",
+      subtitle: "Zeitspannen seit einem Ereignis und gehobenes „dann“ in Erzählungen",
+      level: 'HSK5',
+      grammarIds: ["g:自从","g:（自）……以来","g:便","g:……，便……","g:时间副词@HSK5"],
+      intro: "Wie sagst du „seit ich in China bin“ oder „kaum war sie angekommen, da …“? Für das Erste nennt <strong>自从</strong> (zìcóng) den Ausgangspunkt in der Vergangenheit, oft ergänzt durch <strong>以后</strong> oder <strong>以来</strong> (yǐlái); der Rahmen <strong>（自）……以来</strong> betont, dass die Zeitspanne bis heute reicht. Anders als im Deutschen, wo „seit“ einfach vor dem Nebensatz steht, wird der Zeitpunkt im Chinesischen oft von beiden Seiten eingerahmt: 自从……以后, 自……以来. Für das Zweite lernst du <strong>便</strong> (biàn), das schriftsprachliche Gegenstück zu 就: Es knüpft in Erzählungen und Berichten eine Folge an eine Bedingung oder eine erste Handlung. Zum Schluss siehst du Zeitadverbien wie 曾经, 连忙 und 早已, die Erzähltexten ihren Rhythmus geben. Wichtig: 自从 und 以来 beziehen sich nur auf Vergangenes – für „ab nächstem Monat“ brauchst du 从.",
+      sections: [
+        {
+          heading: "自从 — seit (einem vergangenen Ereignis)",
+          text: "<strong>自从</strong> (zìcóng) nennt einen Zeitpunkt oder ein Ereignis in der Vergangenheit, von dem an etwas gilt – bis heute oder bis zu einem späteren Zeitpunkt. Häufig folgt <strong>以后</strong> oder <strong>以来</strong>. Die Gruppe mit 自从 steht meist am Satzanfang vor dem Subjekt. Der Hauptsatz beschreibt oft eine Veränderung (mit 了) oder einen Dauerzustand (mit 一直 oder 再也没).",
+          examples: [
+            { cn: "自从有了孩子，他们很少出去旅行了。", pinyin: "Zìcóng yǒu le háizi, tāmen hěn shǎo chūqu lǚxíng le.", de: "Seit sie ein Kind haben, verreisen sie nur noch selten." },
+            { cn: "自从那次吵架以后，他们再也没说过话。", pinyin: "Zìcóng nà cì chǎojià yǐhòu, tāmen zài yě méi shuō guo huà.", de: "Seit jenem Streit haben sie nie wieder miteinander gesprochen." },
+            { cn: "自从换了工作，她每天都很开心。", pinyin: "Zìcóng huàn le gōngzuò, tā měi tiān dōu hěn kāixīn.", de: "Seit sie die Stelle gewechselt hat, ist sie jeden Tag gut gelaunt." },
+            { cn: "自从学了中文以后，我对中国文化越来越感兴趣。", pinyin: "Zìcóng xué le Zhōngwén yǐhòu, wǒ duì Zhōngguó wénhuà yuè lái yuè gǎn xìngqù.", de: "Seit ich Chinesisch gelernt habe, interessiere ich mich immer mehr für die chinesische Kultur." }
+          ],
+          tip: "自从 gilt nur für Vergangenes und nur für Zeit: ❌ 自从下个月开始，我要早起。 → ✅ 从下个月开始，我要早起。 Auch für Orte („von … aus“) steht 从 (vgl. [[lesson:lesson-33]])."
+        },
+        {
+          heading: "（自）……以来 — seit … bis heute",
+          text: "<strong>以来</strong> (yǐlái) markiert einen Ausgangspunkt in der Vergangenheit und umfasst die ganze Zeit bis zur Gegenwart oder zum Bezugszeitpunkt. Davor steht ein Zeitpunkt (去年以来), ein Ereignis (毕业以来) oder ein Zeitraum (三年以来). <strong>自</strong> (zì) oder 从 am Anfang verstärken den Ausgangspunkt; 自……以来 klingt schriftlich und formell, ohne 自 ist es neutral. Der Hauptsatz beschreibt einen Zustand oder eine Entwicklung, die andauert – oft mit 一直, 已经, 都 oder 了.",
+          examples: [
+            { cn: "自今年年初以来，这里的房价一直在上涨。", pinyin: "Zì jīnnián niánchū yǐlái, zhèlǐ de fángjià yìzhí zài shàngzhǎng.", de: "Seit Anfang dieses Jahres steigen hier die Wohnungspreise ständig." },
+            { cn: "毕业以来，我们每年都会聚一次。", pinyin: "Bìyè yǐlái, wǒmen měi nián dōu huì jù yí cì.", de: "Seit dem Abschluss treffen wir uns jedes Jahr einmal." },
+            { cn: "三年以来，她从来没请过一天假。", pinyin: "Sān nián yǐlái, tā cónglái méi qǐng guo yì tiān jià.", de: "In diesen drei Jahren hat sie sich keinen einzigen Tag freigenommen." },
+            { cn: "自古以来，这里就是重要的贸易中心。", pinyin: "Zìgǔ yǐlái, zhèlǐ jiù shì zhòngyào de màoyì zhōngxīn.", de: "Seit jeher ist dieser Ort ein wichtiges Handelszentrum." },
+            { cn: "❌ 明天以来我要好好学习。", pinyin: "", de: "Falsch: 以来 reicht bis zur Gegenwart und steht nicht für Zukünftiges." },
+            { cn: "✅ 从明天开始，我要好好学习。", pinyin: "Cóng míngtiān kāishǐ, wǒ yào hǎohǎo xuéxí.", de: "Ab morgen lerne ich richtig fleißig." }
+          ],
+          tip: "以后 oder 以来? 以后 heißt „nach, später“ und kann auch Zukünftiges meinen; 以来 reicht bis jetzt. Für einen einmaligen, abgeschlossenen Vorgang steht 以后: 毕业以后，他去了上海。 Gesprochen sagt man statt 自……以来 oft 从……以后 oder 从……开始."
+        },
+        {
+          heading: "便 — gehobenes „dann, gleich“",
+          text: "<strong>便</strong> (biàn) ist das schriftsprachliche Gegenstück zu <strong>就</strong> in seiner verbindenden Funktion (vgl. [[lesson:lesson-30]]). Es steht nach dem Subjekt direkt vor dem Verb und knüpft eine Folge an eine Bedingung, einen Zeitpunkt oder eine erste Handlung. Typisch sind <strong>一……便……</strong> „sobald …, gleich …“, <strong>只要……便……</strong> „wenn nur …, dann …“ und Zeitangaben wie 不久便 „bald darauf“. 便 kann auch betonen, dass etwas früh eintritt. Es erscheint in Erzählungen, Berichten und Anleitungen; im Gespräch sagt man 就.",
+          examples: [
+            { cn: "她一看到那封信便明白了一切。", pinyin: "Tā yí kàndào nà fēng xìn biàn míngbai le yíqiè.", de: "Sobald sie den Brief sah, verstand sie alles." },
+            { cn: "只要按一下这个按钮，机器便会自动停止。", pinyin: "Zhǐyào àn yíxià zhège ànniǔ, jīqì biàn huì zìdòng tíngzhǐ.", de: "Ein Druck auf diesen Knopf genügt, und die Maschine hält automatisch an." },
+            { cn: "他搬来不久便认识了所有的邻居。", pinyin: "Tā bān lái bùjiǔ biàn rènshi le suǒyǒu de línjū.", de: "Kurz nachdem er hergezogen war, kannte er schon die ganze Nachbarschaft." },
+            { cn: "她五岁便开始学钢琴了。", pinyin: "Tā wǔ suì biàn kāishǐ xué gāngqín le.", de: "Schon mit fünf Jahren fing sie an, Klavier zu lernen." }
+          ],
+          tip: "Nicht jedes 就 lässt sich durch 便 ersetzen: „nur“ (就他一个人) und „genau, eben“ (就是他) gehen nur mit 就. Und 便 in 方便 oder 随便 ist ein ganz anderes Wort – in 便宜 wird es sogar pián gesprochen."
+        },
+        {
+          heading: "……，便…… — und dann, daraufhin",
+          text: "Im Satzgefüge der Abfolge verbindet <strong>便</strong> zwei Handlungen, die direkt aufeinander folgen: Ist das Erste geschehen, tritt gleich darauf das Zweite ein – „dann, daraufhin, sogleich“. Im ersten Teil markieren oft 了, 后, 完 oder 过 den Abschluss der ersten Handlung. 便 ist ein Adverb: Es steht nach dem Subjekt, nicht davor. Der Rahmen klingt erzählend und ist typisch für geschriebene Texte; im Gespräch sagst du 就.",
+          examples: [
+            { cn: "他放下电话，便匆匆出了门。", pinyin: "Tā fàngxià diànhuà, biàn cōngcōng chū le mén.", de: "Er legte auf und eilte gleich darauf aus dem Haus." },
+            { cn: "吃完晚饭，爷爷便去公园散步了。", pinyin: "Chīwán wǎnfàn, yéye biàn qù gōngyuán sànbù le.", de: "Nach dem Abendessen ging Großvater gleich in den Park spazieren." },
+            { cn: "她在北京工作了两年后，便回国开了一家公司。", pinyin: "Tā zài Běijīng gōngzuò le liǎng nián hòu, biàn huíguó kāi le yì jiā gōngsī.", de: "Nach zwei Jahren Arbeit in Peking kehrte sie in ihr Land zurück und gründete eine Firma." },
+            { cn: "❌ 听到这个好消息，便她笑了。", pinyin: "", de: "Falsch: 便 steht nach dem Subjekt, nicht davor." },
+            { cn: "✅ 听到这个好消息，她便笑了。", pinyin: "Tīngdào zhège hǎo xiāoxi, tā biàn xiào le.", de: "Als sie die gute Nachricht hörte, musste sie gleich lächeln." }
+          ],
+          tip: "Merkhilfe: Wo du im Gespräch 就 sagst, schreibst du in einer Erzählung 便 – Stellung und Satzbau bleiben gleich: 他一到家就睡了 → 他一到家便睡了。"
+        },
+        {
+          heading: "Zeitadverbien in Erzählungen: 曾经, 早已, 连忙, 始终, 渐渐",
+          text: "Zu 便 passen Zeitadverbien, die Erzähltexte gliedern. Sie stehen nach dem Subjekt vor dem Verb: <strong>曾经</strong> (céngjīng) „einst, schon einmal“, oft mit 过; <strong>早已</strong> (zǎoyǐ) „längst“; <strong>连忙</strong> (liánmáng) und <strong>急忙</strong> (jímáng) „eilig“ als Reaktion auf etwas; <strong>始终</strong> (shǐzhōng) „die ganze Zeit“; <strong>渐渐</strong> (jiànjiàn) „allmählich“; <strong>立刻</strong> (lìkè) „sofort“ und <strong>即将</strong> (jíjiāng) „in Kürze“. 早已 und 即将 klingen schriftlich.",
+          examples: [
+            { cn: "他年轻时曾经在国外留过学。", pinyin: "Tā niánqīng shí céngjīng zài guówài liú guo xué.", de: "In jungen Jahren hat er einmal im Ausland studiert." },
+            { cn: "等我赶到车站，火车早已开走了。", pinyin: "Děng wǒ gǎndào chēzhàn, huǒchē zǎoyǐ kāizǒu le.", de: "Als ich am Bahnhof ankam, war der Zug längst abgefahren." },
+            { cn: "看到老人上车，她连忙站起来让座。", pinyin: "Kàndào lǎorén shàng chē, tā liánmáng zhàn qǐlai ràngzuò.", de: "Als sie eine ältere Person einsteigen sah, stand sie sofort auf und bot ihren Platz an." },
+            { cn: "开会的时候，他始终一句话也没说。", pinyin: "Kāihuì de shíhou, tā shǐzhōng yí jù huà yě méi shuō.", de: "Während der ganzen Sitzung sagte er kein einziges Wort." },
+            { cn: "雨渐渐停了，街上的人多了起来。", pinyin: "Yǔ jiànjiàn tíng le, jiē shang de rén duō le qǐlai.", de: "Der Regen hörte allmählich auf, und auf der Straße wurde es wieder voller." }
+          ],
+          tip: "连忙 und 急忙 erzählen nur, was geschehen ist – in Aufforderungen stehen sie nicht: ❌ 你连忙来！ → ✅ 你快来！ 曾经 verneinst du mit 没（有）……过。"
+        }
+      ]
+    },
+    // ── 凭, 据, 朝, 沿着 & Co. — Grundlage, Quelle, Richtung (lesson-66) ──────────
+    {
+      id: 'lesson-66',
+      number: 66,
+      title: "凭, 据, 朝, 沿着 & Co. — Grundlage, Quelle, Richtung",
+      subtitle: "Präpositionen für Mittel, Informationsquelle, Blickwinkel und Weg",
+      level: 'HSK5',
+      grammarIds: ["g:凭","g:据","g:依据","g:从……来看","g:由……组成","g:朝","g:沿（着）","g:引出对象@HSK5"],
+      intro: "In dieser Lektion lernst du eine Gruppe von Präpositionen, die dir vor allem in Nachrichten, Berichten und gehobener Sprache begegnen, einige aber auch im Alltag. Sie beantworten Fragen, die das Deutsche mit „laut“, „aufgrund“ oder „entlang“ löst: <strong>Womit</strong> schafft man etwas (凭)? <strong>Woher</strong> stammt eine Information (据)? <strong>Wonach</strong> wird entschieden (依据)? Von welchem <strong>Blickwinkel</strong> aus urteilt man (从……来看)? <strong>Wohin</strong> und <strong>woran entlang</strong> bewegt man sich (朝, 沿着)? Dazu kommen der Rahmen 由……组成 „bestehen aus“ und die Präpositionen 替, 同 und 较 für Bezugspersonen und Vergleiche. Wie andere chinesische Präpositionen stehen sie mit ihrem Nomen <em>vor</em> dem Verb oder am Satzanfang – auch dort, wo das Deutsche die Angabe nachstellt: „Wir gehen den Fluss <em>entlang</em>“ → 我们<strong>沿着</strong>河走.",
+      sections: [
+        {
+          heading: "凭 — gestützt auf, mit",
+          text: "<strong>凭</strong> (píng) nennt, worauf sich jemand stützt, um etwas zu erreichen oder zu tun: eine Fähigkeit, Erfahrung, ein Gefühl, einen Beleg oder ein Dokument – „aufgrund von, kraft, mit“. Die Gruppe steht vor dem Verb oder, durch Komma abgetrennt, am Satzanfang. Typisch sind 凭自己的努力 „aus eigener Kraft“, 凭经验 „aus Erfahrung“ und auf Schildern 凭票入场 „Einlass nur mit Eintrittskarte“. Die Frage <strong>凭什么</strong> heißt „mit welchem Recht?“ und klingt schroff, fast vorwurfsvoll.",
+          examples: [
+            { cn: "凭这张学生证，可以免费参观博物馆。", pinyin: "Píng zhè zhāng xuéshēngzhèng, kěyǐ miǎnfèi cānguān bówùguǎn.", de: "Mit diesem Studierendenausweis kann man das Museum kostenlos besichtigen." },
+            { cn: "他没上过大学，完全凭自己的能力当上了经理。", pinyin: "Tā méi shàngguo dàxué, wánquán píng zìjǐ de nénglì dāngshang le jīnglǐ.", de: "Er hat nie studiert und ist ganz aus eigener Kraft Manager geworden." },
+            { cn: "她凭一张旧照片找到了小时候的朋友。", pinyin: "Tā píng yì zhāng jiù zhàopiàn zhǎodào le xiǎo shíhou de péngyou.", de: "Anhand eines alten Fotos hat sie eine Freundin oder einen Freund aus Kindertagen wiedergefunden." },
+            { cn: "凭感觉，我觉得他没说实话。", pinyin: "Píng gǎnjué, wǒ juéde tā méi shuō shíhuà.", de: "Mein Gefühl sagt mir, dass er nicht die Wahrheit gesagt hat." },
+            { cn: "你凭什么不让我进去？", pinyin: "Nǐ píng shénme bú ràng wǒ jìnqu?", de: "Mit welchem Recht lässt du mich nicht hinein? (schroff)" }
+          ],
+          tip: "Im Gespräch kannst du oft 靠 (kào) „sich verlassen auf“ sagen: 靠自己的努力. 凭 betont das persönliche Mittel oder den Nachweis; für Berichte, Daten oder Vorschriften als Grundlage nimmt man eher 根据, 据 oder 依据."
+        },
+        {
+          heading: "据 und 依据 — Quelle und Grundlage",
+          text: "<strong>据</strong> (jù) nennt die Quelle einer Information: „laut, zufolge“. Es steht fast immer am Satzanfang mit Komma und verbindet sich gern mit Verben des Mitteilens oder Erfahrens: 据报道 „Berichten zufolge“, 据调查, 据统计, 据了解 „wie zu erfahren ist“. Bleibt die Quelle offen, sagt man <strong>据说</strong> „angeblich, es heißt“. Vor einem bloßen Nomen ohne Verb steht meist 根据 (根据天气预报). <strong>依据</strong> (yījù) nennt dagegen die Grundlage, nach der gehandelt oder entschieden wird – Gesetze, Verträge, Daten. Es ist deutlich formeller als 根据 und gehört in Amts-, Rechts- und Fachsprache.",
+          examples: [
+            { cn: "据新闻报道，这条高速公路下个月通车。", pinyin: "Jù xīnwén bàodào, zhè tiáo gāosù gōnglù xià ge yuè tōngchē.", de: "Laut Nachrichten wird diese Autobahn nächsten Monat für den Verkehr freigegeben." },
+            { cn: "据统计，去年来这里旅游的人超过了一百万。", pinyin: "Jù tǒngjì, qùnián lái zhèlǐ lǚyóu de rén chāoguò le yìbǎi wàn.", de: "Laut Statistik kamen letztes Jahr über eine Million Menschen als Reisende hierher." },
+            { cn: "据说他们俩下个月要结婚了。", pinyin: "Jùshuō tāmen liǎ xià ge yuè yào jiéhūn le.", de: "Angeblich heiraten die beiden nächsten Monat." },
+            { cn: "依据合同，对方必须在月底以前付款。", pinyin: "Yījù hétong, duìfāng bìxū zài yuèdǐ yǐqián fùkuǎn.", de: "Laut Vertrag muss die Gegenseite bis Monatsende zahlen." },
+            { cn: "学校依据考试成绩分班。", pinyin: "Xuéxiào yījù kǎoshì chéngjì fēn bān.", de: "Die Schule teilt die Klassen nach den Prüfungsergebnissen ein." }
+          ],
+          tip: "Faustregel: 凭 – <em>womit</em> schafft man es? 据 – <em>woher</em> weiß man es? 依据 – <em>wonach</em> wird entschieden? Im Alltag sagt man statt 依据 meist das neutrale 根据 (gēnjù)."
+        },
+        {
+          heading: "Zwei feste Rahmen: 从……来看 und 由……组成",
+          text: "<strong>从……来看</strong> nennt den Blickwinkel oder Anhaltspunkt für ein Urteil: „von … aus betrachtet, nach … zu urteilen“. Dazwischen steht ein Nomen wie 角度 „Blickwinkel“, 情况 „Lage“ oder ein konkretes Indiz; danach folgt mit Komma das Urteil, oft eine Vermutung mit 可能, 好像 oder 应该. Kürzer geht es mit 从……看 oder 从……看来; das Muster ist in Gespräch und Schrift üblich. <strong>由……组成</strong> sagt dagegen, woraus etwas besteht: Das Ganze ist Subjekt, 由 (yóu) führt die Teile ein, 组成 (zǔchéng) schließt ab – gern mit 是……的 zur Betonung. Dieser Rahmen ist neutral bis schriftlich und typisch für Beschreibungen und Sachtexte.",
+          examples: [
+            { cn: "从他说话的口音来看，他应该是南方人。", pinyin: "Cóng tā shuōhuà de kǒuyīn lái kàn, tā yīnggāi shì nánfāngrén.", de: "Seinem Akzent nach zu urteilen, kommt er wohl aus dem Süden." },
+            { cn: "从长远来看，学好外语对找工作很有帮助。", pinyin: "Cóng chángyuǎn lái kàn, xuéhǎo wàiyǔ duì zhǎo gōngzuò hěn yǒu bāngzhù.", de: "Langfristig gesehen hilft eine gut beherrschte Fremdsprache sehr bei der Jobsuche." },
+            { cn: "这个委员会由七名专家组成。", pinyin: "Zhège wěiyuánhuì yóu qī míng zhuānjiā zǔchéng.", de: "Dieser Ausschuss besteht aus sieben Fachleuten." },
+            { cn: "我们的研究小组是由三个国家的学者组成的。", pinyin: "Wǒmen de yánjiū xiǎozǔ shì yóu sān ge guójiā de xuézhě zǔchéng de.", de: "Unsere Forschungsgruppe setzt sich aus Forschenden aus drei Ländern zusammen." }
+          ],
+          tip: "Nicht verwechseln: 在我看来 „meiner Meinung nach“ nennt eine Person und ihre Meinung, 从……来看 einen Gesichtspunkt oder Hinweis; 对……来说 ([[lesson:lesson-42]]) nennt, für wen etwas gilt. Und bei 组成 steht 由, nicht 从: ❌ 这个队从五个人组成 → ✅ 这个队由五个人组成."
+        },
+        {
+          heading: "朝 und 沿着 — Richtung und Weg",
+          text: "<strong>朝</strong> (cháo) nennt die Richtung einer Bewegung oder die Ausrichtung von Körper und Blick: „nach, in Richtung, zu … hin“. Anders als 往 passt es auch zu Gesten ohne Ortswechsel: 朝我笑 „mir zulächeln“, 朝他点头 „ihm zunicken“. Die Gruppe steht vor dem Verb; oft folgt 着 (朝着), das etwas nachdrücklicher klingt. <strong>沿着</strong> (yánzhe) beschreibt dagegen den ganzen Weg, die Linie, der eine Bewegung folgt: „entlang“. Das bloße <strong>沿</strong> klingt knapper und schriftlicher und steht gern vor einsilbigen Nomen (沿河, 沿街).",
+          examples: [
+            { cn: "他朝窗外看了一眼，外面正在下雪。", pinyin: "Tā cháo chuāngwài kàn le yì yǎn, wàimiàn zhèngzài xià xuě.", de: "Er warf einen Blick aus dem Fenster – draußen schneite es." },
+            { cn: "她在站台上朝我挥了挥手。", pinyin: "Tā zài zhàntái shang cháo wǒ huī le huī shǒu.", de: "Sie winkte mir vom Bahnsteig aus zu." },
+            { cn: "沿着这条小路往上走，半个小时就能到山顶。", pinyin: "Yánzhe zhè tiáo xiǎolù wǎng shàng zǒu, bàn ge xiǎoshí jiù néng dào shāndǐng.", de: "Wenn du diesem Pfad nach oben folgst, bist du in einer halben Stunde auf dem Gipfel." },
+            { cn: "每天早上，她都沿着湖边跑步。", pinyin: "Měi tiān zǎoshang, tā dōu yánzhe húbiān pǎobù.", de: "Jeden Morgen joggt sie am See entlang." },
+            { cn: "沿河种着很多柳树。", pinyin: "Yán hé zhòng zhe hěn duō liǔshù.", de: "Am Fluss entlang stehen viele Weiden. (knapp, eher schriftlich)" }
+          ],
+          tip: "Hinter dem Verb steht 朝 normalerweise nicht: ❌ 他走朝门口 → ✅ 他朝门口走 oder 他走向门口. Abstrakte Adressaten wie in 向老师学习 übernimmt 向 – mehr zu 往 und 向 in [[lesson:lesson-34]]."
+        },
+        {
+          heading: "替, 同, 较 — für, mit, gegenüber",
+          text: "Drei weitere Präpositionen führen die Bezugsperson oder die Vergleichsgröße ein; die Gruppe steht vor dem Verb. <strong>替</strong> (tì) heißt „für, anstelle von“: Man tut etwas stellvertretend oder zugunsten von jemandem (替我问好 „grüß von mir“). <strong>同</strong> (tóng) nennt wie 跟 und 和 den Partner einer Handlung – „mit“ –, klingt aber etwas gehobener bzw. südlich-regional. <strong>较</strong> (jiào) „im Vergleich zu, gegenüber“ ist das schriftsprachliche Gegenstück zu 比 ([[lesson:lesson-6]]) und typisch für Berichte und Statistiken.",
+          examples: [
+            { cn: "我明天有事，你能替我去开会吗？", pinyin: "Wǒ míngtiān yǒu shì, nǐ néng tì wǒ qù kāihuì ma?", de: "Ich habe morgen etwas vor – kannst du für mich zur Besprechung gehen?" },
+            { cn: "听说你找到了新工作，大家都替你高兴。", pinyin: "Tīngshuō nǐ zhǎodào le xīn gōngzuò, dàjiā dōu tì nǐ gāoxìng.", de: "Alle freuen sich für dich, dass du eine neue Stelle gefunden hast." },
+            { cn: "这个问题我想同大家讨论一下。", pinyin: "Zhège wèntí wǒ xiǎng tóng dàjiā tǎolùn yíxià.", de: "Diese Frage möchte ich gern mit euch allen besprechen." },
+            { cn: "今年的产量较去年有所提高。", pinyin: "Jīnnián de chǎnliàng jiào qùnián yǒusuǒ tígāo.", de: "Die Produktion ist gegenüber dem Vorjahr etwas gestiegen. (Berichtsstil)" }
+          ],
+          tip: "替 ist auch Verb „vertreten, übernehmen“ (我替你！ „Ich übernehme für dich!“), 较 auch Adverb „relativ“ (较好). Im Gespräch sagst du statt 较去年 einfach 比去年."
+        }
+      ]
+    },
+    // ── 得 + Folge: so …, dass … — und 不得了 (lesson-67) ──────────
+    {
+      id: 'lesson-67',
+      number: 67,
+      title: "得 + Folge: so …, dass … — und 不得了",
+      subtitle: "Zustandskomplemente mit Verbalphrase, eigenem Subjekt oder fester Wendung; V不得",
+      level: 'HSK5',
+      grammarIds: ["g:动词/形容词+得+动词短语","g:动词/形容词+得+主谓短语","g:动词/形容词+得+固定短语","g:形容词/心理动词+得+不得了","g:不得了","g:动词+得/不得"],
+      intro: "In [[lesson:lesson-8]] hast du gelernt, wie man mit 得 bewertet, wie jemand etwas tut: 她唱得很好听. Jetzt geht es einen Schritt weiter: Nach 得 steht keine Bewertung mehr, sondern eine <strong>Folge</strong> – eine Verbalphrase (累得走不动了), ein kleiner Satz mit eigenem Subjekt (冷得我发抖) oder eine bildhafte feste Wendung (忙得团团转). Auf Deutsch entspricht das meist „so …, dass …“ oder „vor …“: „vor Freude in die Luft springen“. Außerdem lernst du <strong>不得了</strong> als Gradkomplement („wahnsinnig, unglaublich“) und als Ausruf. Zum Schluss kommt ein ganz anderes 得: In 吃不得 wird es dé gesprochen und heißt „dürfen“ – „das darf man nicht essen“.",
+      sections: [
+        {
+          heading: "得 + Verbalphrase — was man vor lauter … tut",
+          text: "Steht nach 得 eine Verbalphrase, zeigt sie das Ausmaß eines Zustands an dem, was jemand deshalb tut oder nicht mehr kann. Vor 得 stehen meist Adjektive oder Verben der Gefühle und Zustände wie 高兴, 累, 急, 气, 笑 oder 哭. Die Verbalphrase enthält oft 了, ein Richtungskomplement wie 起来 oder ein verneintes Potentialkomplement (走不动, 说不出). Im Unterschied zu 跑得很快 wird hier nichts bewertet, sondern eine Folge geschildert.",
+          examples: [
+            { cn: "我困得睁不开眼睛了。", pinyin: "Wǒ kùn de zhēng bu kāi yǎnjing le.", de: "Ich bin so müde, dass ich die Augen nicht mehr aufhalten kann." },
+            { cn: "听完他的话，她感动得流下了眼泪。", pinyin: "Tīngwán tā de huà, tā gǎndòng de liúxià le yǎnlèi.", de: "Nach seinen Worten war sie so gerührt, dass ihr die Tränen kamen." },
+            { cn: "弟弟气得一句话也不说。", pinyin: "Dìdi qì de yí jù huà yě bù shuō.", de: "Mein kleiner Bruder war so wütend, dass er kein einziges Wort sagte." },
+            { cn: "这个电影太好笑了，大家笑得停不下来。", pinyin: "Zhège diànyǐng tài hǎoxiào le, dàjiā xiào de tíng bu xiàlai.", de: "Der Film war so lustig, dass niemand mehr aufhören konnte zu lachen." }
+          ],
+          tip: "Schriftlich nicht mit 的 oder 地 verwechseln: ❌ 累的走不动了 → ✅ 累得走不动了. Beim Übersetzen hilft „so …, dass …“ oder „vor …“: 气得一句话也不说 „vor Wut kein Wort sagen“."
+        },
+        {
+          heading: "得 + Subjekt + Prädikat — Folgen für andere",
+          text: "Hier ist das Komplement ein ganzer kleiner Satz mit <strong>eigenem Subjekt</strong>: Er zeigt, welche Folge die Handlung oder der Zustand für jemand anderen oder für einen Körperteil hat – 冻得手都红了, 吵得我睡不着. Im Komplement stehen oft 都, 直 oder ein verneintes Potentialkomplement. Hat das Hauptverb ein Objekt, wird das Verb wiederholt (讲课讲得……). Beginnt der Satz mit einer Ursache (这件事, 这道菜), ist das Subjekt nach 得 die betroffene Person: 这件事气得爸爸…… „die Sache hat Papa so geärgert, dass …“.",
+          examples: [
+            { cn: "这道菜辣得我直流眼泪。", pinyin: "Zhè dào cài là de wǒ zhí liú yǎnlèi.", de: "Das Gericht ist so scharf, dass mir die Tränen laufen." },
+            { cn: "面试的时候，她紧张得手心都出汗了。", pinyin: "Miànshì de shíhou, tā jǐnzhāng de shǒuxīn dōu chū hàn le.", de: "Beim Vorstellungsgespräch war sie so nervös, dass ihre Handflächen ganz feucht wurden." },
+            { cn: "这件事气得爸爸一晚上没吃饭。", pinyin: "Zhè jiàn shì qì de bàba yì wǎnshang méi chī fàn.", de: "Die Sache hat Papa so geärgert, dass er den ganzen Abend nichts gegessen hat." },
+            { cn: "她讲课讲得学生们都不想下课。", pinyin: "Tā jiǎngkè jiǎng de xuéshengmen dōu bù xiǎng xiàkè.", de: "Sie unterrichtet so spannend, dass die Klasse gar nicht in die Pause will." }
+          ],
+          tip: "Oft lässt sich dasselbe auf beide Arten sagen: 我累得走不动了 (ohne neues Subjekt) – 这次旅行累得我走不动了 (die Reise als Ursache vorn, 我 als Subjekt nach 得). Das Muster ist typisch für lebhafte Schilderungen in Erzählung und Gespräch."
+        },
+        {
+          heading: "得 + feste Wendung — bildhafte Chengyu",
+          text: "Nach 得 kann auch eine feste Wendung stehen, meist ein vierteiliger Chengyu oder eine bildhafte Redensart: 忙得团团转 „rotieren vor Arbeit“, 吃得津津有味 „mit großem Genuss essen“, 跑得上气不接下气 „bis man völlig außer Atem ist“, 说得头头是道 „schlüssig und überzeugend reden“. Jede Wendung passt nur zu bestimmten Verben oder Adjektiven – lerne sie deshalb als Ganzes mit dem Verb. Vor der Wendung steht kein 很, und verneint wird sie nicht. Gesprochen wie geschrieben häufig, besonders in lebhaften Erzählungen.",
+          examples: [
+            { cn: "周末店里客人特别多，服务员们忙得团团转。", pinyin: "Zhōumò diàn li kèrén tèbié duō, fúwùyuánmen máng de tuántuánzhuàn.", de: "Am Wochenende ist der Laden voll, und das Personal rotiert." },
+            { cn: "爷爷吃饺子吃得津津有味。", pinyin: "Yéye chī jiǎozi chī de jīnjīn yǒuwèi.", de: "Opa isst seine Jiaozi mit großem Genuss." },
+            { cn: "孩子们在操场上跑得上气不接下气。", pinyin: "Háizimen zài cāochǎng shang pǎo de shàngqì bù jiē xiàqì.", de: "Die Kinder rennen auf dem Sportplatz herum, bis sie völlig außer Atem sind." },
+            { cn: "他把这个问题说得头头是道。", pinyin: "Tā bǎ zhège wèntí shuō de tóutóu shìdào.", de: "Er hat die Frage schlüssig und überzeugend erklärt." }
+          ],
+          tip: "Die Wendung trägt den hohen Grad schon in sich: ❌ 大家忙得很团团转 → ✅ 大家忙得团团转. Ein kleiner Vorrat solcher Wendungen macht deine Erzählungen sofort lebendiger."
+        },
+        {
+          heading: "不得了 — wahnsinnig, schlimm, unglaublich",
+          text: "Als Komplement nach 得 drückt <strong>不得了</strong> (bùdéliǎo) einen sehr hohen Grad aus: 高兴得不得了 „überglücklich“, 担心得不得了 „sich schreckliche Sorgen machen“. Davor stehen Adjektive oder Verben des Fühlens wie 喜欢, 担心, 后悔; ein zusätzliches 很 oder 非常 fällt weg. Ein Objekt des Gefühlsverbs wird vorangestellt oder mit 对 eingeführt. Allein bewertet 不得了 eine Lage als außergewöhnlich: als Ausruf 不得了了！ „Um Himmels willen!“, als Urteil „schlimm“ (那可不得了) oder anerkennend „unglaublich“; 没什么不得了的 heißt „nicht so schlimm“. Beides gehört vor allem in die gesprochene Sprache.",
+          examples: [
+            { cn: "收到你的礼物，孩子们开心得不得了。", pinyin: "Shōudào nǐ de lǐwù, háizimen kāixīn de bùdéliǎo.", de: "Die Kinder haben sich wahnsinnig über dein Geschenk gefreut." },
+            { cn: "奶奶对这个小孙子喜欢得不得了。", pinyin: "Nǎinai duì zhège xiǎo sūnzi xǐhuan de bùdéliǎo.", de: "Oma ist ganz vernarrt in ihren kleinen Enkel." },
+            { cn: "不得了了，孩子发高烧了！", pinyin: "Bùdéliǎo le, háizi fā gāoshāo le!", de: "Oh nein, das Kind hat hohes Fieber!" },
+            { cn: "这只是一次小考试，没什么不得了的。", pinyin: "Zhè zhǐ shì yí cì xiǎo kǎoshì, méi shénme bùdéliǎo de.", de: "Das ist nur ein kleiner Test, nichts Schlimmes." }
+          ],
+          tip: "Aussprache: In 不得了 wird 了 liǎo gesprochen; ein angehängtes Satzende-了 heißt le: 不得了了 (bùdéliǎo le). Wortstellung: ❌ 我喜欢得不得了这本书 → ✅ 这本书我喜欢得不得了. Ähnlich: 得要命 (ebenso stark), 得很 (etwas schwächer), 极了 und 死了 ohne 得."
+        },
+        {
+          heading: "Verb + 得 / 不得 (dé) — dürfen und nicht dürfen",
+          text: "Ein ganz anderes 得: In <strong>Verb + 不得</strong> (bu dé) ist 得 selbst das Potentialkomplement und behält seinen Ton. Gebräuchlich ist vor allem die verneinte Form: Verbot oder Gefahr (这种蘑菇吃不得), nicht ratsam (急不得 „nichts überstürzen“, 马虎不得) oder körperlich unmöglich (动不得 „sich nicht rühren können“). Die bejahte Form <strong>Verb + 得</strong> steht fast nur in Gegenüberstellungen oder Fragen. Meist sind es einsilbige Verben oder Adjektive. Der Ausdruck ist nachdrücklich und leicht idiomatisch; neutral sagt man 不能 + Verb. Anders als bei 看不见 ([[lesson:lesson-41]]) folgt kein weiteres Komplement.",
+          examples: [
+            { cn: "他说话不太可靠，他的话信不得。", pinyin: "Tā shuōhuà bú tài kěkào, tā de huà xìn bu dé.", de: "Auf ihn ist kein Verlass – seinen Worten darf man nicht trauen." },
+            { cn: "开车的时候，一点儿也大意不得。", pinyin: "Kāichē de shíhou, yìdiǎnr yě dàyi bu dé.", de: "Beim Autofahren darf man keinen Moment unaufmerksam sein." },
+            { cn: "他腰受伤了，现在动不得。", pinyin: "Tā yāo shòushāng le, xiànzài dòng bu dé.", de: "Er hat sich am Rücken verletzt und kann sich gerade nicht rühren." },
+            { cn: "看病的事拖不得，你明天就去医院吧。", pinyin: "Kànbìng de shì tuō bu dé, nǐ míngtiān jiù qù yīyuàn ba.", de: "Einen Arztbesuch darf man nicht aufschieben – geh gleich morgen ins Krankenhaus." },
+            { cn: "这种野菜吃得，那种可吃不得。", pinyin: "Zhè zhǒng yěcài chī de, nà zhǒng kě chī bu dé.", de: "Dieses Wildkraut kann man essen, das andere auf keinen Fall. (bejahte Form in der Gegenüberstellung)" }
+          ],
+          tip: "Nicht verwechseln: 吃不得 „darf man nicht essen“ – 吃不了 „kann man nicht aufessen“. Vor dem Verb ist 不得 (bùdé) ein schriftliches Verbot: 不得吸烟 „Rauchen verboten“. 舍不得, 怪不得 und 不得了 sind eigene, feste Wörter."
+        }
+      ]
+    },
+    // ── Richtungskomplemente als Zustand: 起来, 下来, 下去, 过来, 过去 (lesson-68) ──────────
+    {
+      id: 'lesson-68',
+      number: 68,
+      title: "Richtungskomplemente als Zustand: 起来, 下来, 下去, 过来, 过去",
+      subtitle: "Ruhig werden, wärmer werden, zu sich kommen",
+      level: 'HSK5',
+      grammarIds: ["g:趋向补语的引申用法：表示状态意义：动词/形容词+下来/下去/起来/过来/过去","g:表示动作行为的开始：动词+上/起来","g:表示动作行为的持续：动词+下去/下来"],
+      intro: "Aus [[lesson:lesson-9]] kennst du Richtungskomplemente wie 站起来 „aufstehen“ oder 走下去 „hinuntergehen“ – und schon erste übertragene Bedeutungen: 笑起来 „anfangen zu lachen“, 说下去 „weitererzählen“. In dieser Lektion beschreiben dieselben Komplemente <strong>Zustandswechsel</strong>, meist nach Adjektiven: Etwas wird lauter oder leiser, wärmer oder kälter, jemand verliert das Bewusstsein oder kommt wieder zu sich. Das Bild der Richtung bleibt dabei erhalten: <strong>起来</strong> geht nach oben – ein Zustand setzt ein und nimmt zu; <strong>下来</strong> geht nach unten – etwas kommt zur Ruhe; <strong>下去</strong> führt weiter weg – ein Zustand hält an; <strong>过来</strong> kommt zurück – in den Normalzustand; <strong>过去</strong> entfernt sich – aus dem Normalzustand heraus. Auch das Deutsche kennt solche Bilder: „zur Ruhe kommen“, „abkühlen“, „wieder zu sich kommen“.",
+      sections: [
+        {
+          heading: "起来 und 上 — etwas setzt ein",
+          text: "Nach einem Adjektiv zeigt <strong>起来</strong>, dass ein Zustand einsetzt und zunimmt, meist von schwach zu stark: 热起来, 忙起来, 好起来, 热闹起来. Nach einem Verb heißt es „anfangen zu …“ (哭起来); ein Objekt tritt zwischen 起 und 来: 下起雨来. Auch <strong>上</strong> (shang) nach einem Verb zeigt einen Beginn – ein neuer Zustand tritt ein und hält an, oft ein gewünschter oder überraschender: 爱上, 喜欢上. 了 steht nach dem Komplement (好起来了) oder zwischen Verb und 起来 (哭了起来).",
+          examples: [
+            { cn: "一到周末，这条街就热闹起来了。", pinyin: "Yí dào zhōumò, zhè tiáo jiē jiù rènao qǐlai le.", de: "Sobald das Wochenende kommt, wird es in dieser Straße lebhaft." },
+            { cn: "吃了药以后，他的病慢慢好起来了。", pinyin: "Chīle yào yǐhòu, tā de bìng mànmàn hǎo qǐlai le.", de: "Nachdem er die Medizin genommen hatte, ging es ihm allmählich besser." },
+            { cn: "说着说着，她突然哭了起来。", pinyin: "Shuōzhe shuōzhe, tā tūrán kū le qǐlai.", de: "Mitten im Erzählen fing sie plötzlich an zu weinen." },
+            { cn: "我们刚出门，天就下起雨来了。", pinyin: "Wǒmen gāng chūmén, tiān jiù xià qǐ yǔ lai le.", de: "Kaum waren wir aus dem Haus, fing es an zu regnen." },
+            { cn: "来中国以后，他爱上了中国菜。", pinyin: "Lái Zhōngguó yǐhòu, tā àishang le Zhōngguó cài.", de: "Seit er in China ist, liebt er die chinesische Küche." }
+          ],
+          tip: "Beide Formen beschreiben einen tatsächlichen Wechsel, kein Vorhaben. Für „anfangen wollen“ nimmt man 开始: 我打算明年开始学日语 „Ich habe vor, nächstes Jahr mit Japanisch anzufangen.“"
+        },
+        {
+          heading: "下来 — zur Ruhe kommen",
+          text: "Nach Adjektiven bezeichnet <strong>下来</strong> den Übergang von Bewegung in Ruhe, von stark zu schwach: 安静下来 „still werden“, 冷静下来 „sich beruhigen“, 慢下来, 暗下来, 停下来. Oft stehen 慢慢, 渐渐 oder 马上 davor. Nach Verben blickt 下来 zurück: Eine Handlung hat bis jetzt angedauert und ist durchgestanden – 坚持下来 „durchgehalten haben“.",
+          examples: [
+            { cn: "❌ 请大家安静起来。", pinyin: "", de: "Falsch: Es wird leiser, also schwächer – dafür steht 下来, nicht 起来." },
+            { cn: "✅ 请大家安静下来。", pinyin: "Qǐng dàjiā ānjìng xiàlai.", de: "Bitte werdet alle still." },
+            { cn: "听了妈妈的话，孩子慢慢冷静下来了。", pinyin: "Tīngle māma de huà, háizi mànmàn lěngjìng xiàlai le.", de: "Nach Mamas Worten beruhigte sich das Kind allmählich." },
+            { cn: "太阳下山以后，天色渐渐暗了下来。", pinyin: "Tàiyáng xià shān yǐhòu, tiānsè jiànjiàn àn le xiàlai.", de: "Nach Sonnenuntergang wurde es allmählich dunkel." },
+            { cn: "十公里虽然很长，但是我还是跑下来了。", pinyin: "Shí gōnglǐ suīrán hěn cháng, dànshì wǒ háishi pǎo xiàlai le.", de: "Zehn Kilometer sind zwar lang, aber ich bin sie bis zum Ende durchgelaufen." }
+          ],
+          tip: "热闹 „lebhaft“ passt dagegen zu 起来: 安静下来 ↔ 热闹起来. Faustregel mit Ausnahmen: Wird etwas stärker, lauter, schneller, steht meist 起来; wird es schwächer, leiser, langsamer, meist 下来. Bei 冷 sind beide üblich – 天冷起来了 (die Kälte nimmt zu) und 天冷下来了 (die Temperatur sinkt)."
+        },
+        {
+          heading: "下去 — und so geht es weiter",
+          text: "<strong>下去</strong> bedeutet, dass etwas von jetzt an weitergeht. Nach Adjektiven heißt das: Ein Zustand hält an und entwickelt sich weiter, oft in eine unerwünschte Richtung – 瘦下去, 冷下去, vor allem in Warnungen mit 再这样 oder 这样下去 „wenn es so weitergeht“. Nach Verben wird eine Handlung fortgesetzt: 说下去, 学下去, 讲下去. Verneint als Potentialform heißt es „nicht weitermachen können“: 看不下去, 听不下去. Faustregel: 下去 schaut nach vorn, 下来 zurück.",
+          examples: [
+            { cn: "天气再这样热下去，河里的水都要干了。", pinyin: "Tiānqì zài zhèyàng rè xiàqu, hé li de shuǐ dōu yào gān le.", de: "Wenn die Hitze so weitergeht, trocknet der Fluss noch aus." },
+            { cn: "这样下去可不行，我们得想个办法。", pinyin: "Zhèyàng xiàqu kě bù xíng, wǒmen děi xiǎng ge bànfǎ.", de: "So kann es nicht weitergehen, wir müssen uns etwas einfallen lassen." },
+            { cn: "这个故事太精彩了，你快讲下去！", pinyin: "Zhège gùshi tài jīngcǎi le, nǐ kuài jiǎng xiàqu!", de: "Die Geschichte ist so spannend – erzähl schnell weiter!" },
+            { cn: "这本书太无聊了，我实在看不下去了。", pinyin: "Zhè běn shū tài wúliáo le, wǒ shízài kàn bu xiàqu le.", de: "Das Buch ist so langweilig, ich kann es wirklich nicht weiterlesen." }
+          ],
+          tip: "看不下去 kann auch heißen, dass man etwas nicht länger mit ansehen kann: 他这样欺负人，我实在看不下去了 „Wie er andere schikaniert – das kann ich mir nicht länger ansehen.“"
+        },
+        {
+          heading: "过来 und 过去 — zurück zum Normalen oder weg davon",
+          text: "<strong>过来</strong> zeigt die Rückkehr in den normalen, richtigen Zustand: 醒过来 „wieder zu sich kommen“, 明白过来 „begreifen“, 改过来 „korrigieren, ablegen“. <strong>过去</strong> bezeichnet das Gegenteil, den Verlust des normalen Zustands, vor allem des Bewusstseins: 晕过去, 昏过去 „ohnmächtig werden“. 了 steht nach dem Komplement (醒过来了) oder, besonders bei 过去, zwischen Verb und Komplement (晕了过去).",
+          examples: [
+            { cn: "他昏迷了三天，今天早上终于醒过来了。", pinyin: "Tā hūnmí le sān tiān, jīntiān zǎoshang zhōngyú xǐng guòlai le.", de: "Er war drei Tage bewusstlos und ist heute Morgen endlich wieder zu sich gekommen." },
+            { cn: "天气太热，一位老人在路上晕了过去。", pinyin: "Tiānqì tài rè, yí wèi lǎorén zài lù shang yūn le guòqu.", de: "Wegen der Hitze ist ein älterer Mensch auf der Straße ohnmächtig geworden." },
+            { cn: "我想了半天才明白过来，原来他在开玩笑。", pinyin: "Wǒ xiǎng le bàntiān cái míngbai guòlai, yuánlái tā zài kāi wánxiào.", de: "Ich brauchte eine ganze Weile, bis ich begriff, dass er nur scherzte." },
+            { cn: "这个坏习惯，你一定要改过来。", pinyin: "Zhège huài xíguàn, nǐ yídìng yào gǎi guòlai.", de: "Diese schlechte Angewohnheit musst du unbedingt ablegen." }
+          ],
+          tip: "Merkhilfe wie in [[lesson:lesson-9]]: 来 kommt zur sprechenden Person hin – zurück ins Normale, ins Bewusstsein; 去 entfernt sich – weg vom Normalen. ❌ 他晕过来了 → ✅ 他晕过去了 bzw. 他醒过来了. Die Merkhilfe gilt für die Zustandsbedeutung; Ausdrücke wie 忙不过来 „mit der Arbeit nicht nachkommen“ folgen anderen Bedeutungen."
+        }
+      ]
+    },
+    // ── 把 und 被 für Fortgeschrittene: 把门一关, 把A当作B, 被他给…… (lesson-69) ──────────
+    {
+      id: 'lesson-69',
+      number: 69,
+      title: "把 und 被 für Fortgeschrittene: 把门一关, 把A当作B, 被他给……",
+      subtitle: "Gesten, Verwandlungen und das gesprochene Passiv mit 给",
+      level: 'HSK5',
+      grammarIds: ["g:主语+把+宾语+一+动词","g:主语+把+宾语1+动词+宾语2","g:主语+被/叫/让+宾语+给+动词+其他成分","g:主语+把+宾语+动词（+一/了）+动词","g:主语+把+宾语+动词+动量补语/时量补语","g:主语+把+宾语+状语+动词"],
+      intro: "Die Grundformen von 把 und 被 kennst du aus [[lesson:lesson-4]] und [[lesson:lesson-5]]. Hier kommen die Muster dazu, die dir vor allem in Erzählungen und lebhaften Gesprächen begegnen: <strong>他把门一关</strong> – eine schnelle Geste, auf die sofort etwas folgt; <strong>把 A 当作 B</strong> – etwas zu etwas anderem machen oder als etwas ansehen; und <strong>被他给弄坏了</strong> – ein Passiv mit zusätzlichem 给, das betont, dass einem etwas widerfahren ist. Dazu wiederholst du, was im 把-Satz sonst noch beim Verb stehen kann: Verdopplung, Häufigkeit und Dauer, Adverbiale. Der rote Faden: Im 把-Satz steht das Verb nicht nackt – es braucht eine Ergänzung oder, beim 一-Muster, einen Folgesatz. Im Deutschen trägt oft ein kleines Wort wie „kurz“, „mal eben“ oder „einfach“ diese Bedeutung; im Chinesischen steckt sie in der Satzstruktur.",
+      sections: [
+        {
+          heading: "把 + Objekt + 一 + Verb — eine schnelle Geste mit Folge",
+          text: "Steht vor dem einsilbigen Verb nur <strong>一</strong>, beschreibt der 把-Satz eine kurze, plötzliche Handlung – oft eine Geste oder Körperbewegung: 把门一关 „die Tür zuziehen“, 把手一挥 „kurz winken“, 把头一低 „den Kopf senken“. Das Verb steht ohne 了 und ohne Komplement; der Satz ist damit noch nicht fertig. Es folgt ein zweiter Teilsatz mit der Wirkung oder der nächsten Handlung, oft mit 就. 一 wird nach den Tonregeln gesprochen: yí vor einem vierten Ton, sonst yì. Das Muster ist erzählend und sehr anschaulich.",
+          examples: [
+            { cn: "他把书一合，站起来就走了。", pinyin: "Tā bǎ shū yì hé, zhàn qǐlai jiù zǒu le.", de: "Er klappte das Buch zu, stand auf und ging." },
+            { cn: "老师把手一挥，大家马上安静了下来。", pinyin: "Lǎoshī bǎ shǒu yì huī, dàjiā mǎshàng ānjìng le xiàlai.", de: "Die Lehrkraft machte eine kurze Handbewegung, und sofort wurde es still." },
+            { cn: "她把眼睛一闭，什么也不想听。", pinyin: "Tā bǎ yǎnjing yí bì, shénme yě bù xiǎng tīng.", de: "Sie machte einfach die Augen zu und wollte nichts mehr hören." },
+            { cn: "我把门一推，一只猫就跑了出来。", pinyin: "Wǒ bǎ mén yì tuī, yì zhī māo jiù pǎo le chūlai.", de: "Kaum hatte ich die Tür aufgestoßen, lief eine Katze heraus." }
+          ],
+          tip: "❌ 他把门一关。 (der Folgesatz fehlt) und ❌ 他把门一关了。 (kein 了 hinter dem Verb) → ✅ 他把门一关，就去睡觉了。 Ohne 把 sagst du Ähnliches mit 一……就……: 他一推门就进来了 (siehe [[lesson:lesson-30]])."
+        },
+        {
+          heading: "Zum Vergleich: 擦一擦, 看了看 — mal eben, beiläufig",
+          text: "Verwechsle das 一-Muster nicht mit der Verdopplung des Verbs im 把-Satz: <strong>把 + Objekt + Verb (+ 一/了) + Verb</strong>. Sie macht eine Handlung „kurz, mal eben“ und klingt in Bitten weich und freundlich: 你把桌子擦一擦. 一 steht zwischen einsilbigen Verben (说一说); 了 zeigt, dass die kurze Handlung schon stattgefunden hat (看了看); zweisilbige Verben werden ohne 一 verdoppelt (收拾收拾). Gleichbedeutend ist Verb + 一下. Der Unterschied: Bei 把门一关 ist die Handlung plötzlich und hat eine Folge, bei 擦一擦 ist sie nur beiläufig.",
+          examples: [
+            { cn: "你把这些菜洗一洗，我来做饭。", pinyin: "Nǐ bǎ zhèxiē cài xǐ yi xǐ, wǒ lái zuòfàn.", de: "Wasch du mal kurz das Gemüse, ich koche." },
+            { cn: "他把信看了看，又放回了信封里。", pinyin: "Tā bǎ xìn kàn le kàn, yòu fàng huí le xìnfēng lǐ.", de: "Er warf einen kurzen Blick auf den Brief und steckte ihn wieder in den Umschlag." },
+            { cn: "周末我们把房间收拾收拾吧。", pinyin: "Zhōumò wǒmen bǎ fángjiān shōushi shōushi ba.", de: "Lass uns am Wochenende mal das Zimmer aufräumen." },
+            { cn: "他把信一看，脸就红了。", pinyin: "Tā bǎ xìn yí kàn, liǎn jiù hóng le.", de: "Kaum hatte er den Brief gelesen, wurde er rot. (plötzlich, mit Folge)" }
+          ],
+          tip: "❌ 你把桌子擦。 — das bloße Verb reicht nicht. ✅ 你把桌子擦一擦。 oder ✅ 你把桌子擦一下。"
+        },
+        {
+          heading: "Wie oft, wie lange, wie: 三遍, 十分钟, 一件一件地",
+          text: "Hinter dem Verb kann im 把-Satz auch stehen, <strong>wie oft oder wie lange</strong> mit dem Objekt etwas geschieht: 把课文读了三遍, 把汤煮了一个小时. Bei vergangenen Handlungen steht 了 zwischen Verb und Mengenangabe. Die Dauer muss das Objekt betreffen; eine bloße Aufenthaltsdauer geht nicht (*我把北京住了两年). <strong>Wie</strong> etwas geschieht, sagt ein Adverbial zwischen Objekt und Verb: 轻轻地, 一个一个地, 往左. Das Verb braucht trotzdem eine Ergänzung. Negation und Modalverben stehen dagegen vor 把.",
+          examples: [
+            { cn: "她把这首歌听了好几遍。", pinyin: "Tā bǎ zhè shǒu gē tīng le hǎo jǐ biàn.", de: "Sie hat sich das Lied mehrmals hintereinander angehört." },
+            { cn: "妈妈把衣服在水里泡了十分钟。", pinyin: "Māma bǎ yīfu zài shuǐ lǐ pào le shí fēnzhōng.", de: "Mama hat die Wäsche zehn Minuten im Wasser eingeweicht." },
+            { cn: "他把行李一件一件地搬上了车。", pinyin: "Tā bǎ xíngli yí jiàn yí jiàn de bān shàng le chē.", de: "Er trug das Gepäck Stück für Stück ins Auto." },
+            { cn: "❌ 我把作业没写完。", pinyin: "", de: "(Falsch — 没 steht vor 把, nicht vor dem Verb)" },
+            { cn: "✅ 我没把作业写完。", pinyin: "Wǒ méi bǎ zuòyè xiěwán.", de: "Ich habe die Hausaufgaben nicht fertig geschrieben." }
+          ],
+          tip: "遍 (biàn) heißt „einmal ganz durch“, 次 einfach „Mal“. Vor dem Verb schreibt man 地, nicht 的: 把门轻轻地关上."
+        },
+        {
+          heading: "把 A 当作 B — etwas zu etwas machen oder als etwas ansehen",
+          text: "Hier hat das Verb im 把-Satz <strong>zwei Objekte</strong>: Objekt 1 ist das, womit etwas geschieht; Objekt 2 ist das, wozu es wird oder als was es gilt. Typisch sind Verben mit 成 oder 作: 当作/当成 „betrachten als, behandeln wie“, 看作 „ansehen als“, 叫做 „nennen“, 翻译成 „übersetzen in“, 改成 „ändern in“. Mit 写成 oder 听成 beschreibt das Muster oft ein Versehen: „fälschlich als … schreiben/hören“. Beide Objekte hinter das Verb zu stellen, geht nicht. In der Schriftsprache steht oft 为 (wéi) statt 成: 翻译为德文.",
+          examples: [
+            { cn: "她一直把我当成亲妹妹。", pinyin: "Tā yìzhí bǎ wǒ dàngchéng qīn mèimei.", de: "Sie behandelt mich schon immer wie ihre eigene jüngere Schwester." },
+            { cn: "我们把这个小房间改成了书房。", pinyin: "Wǒmen bǎ zhège xiǎo fángjiān gǎichéng le shūfáng.", de: "Wir haben das kleine Zimmer in ein Arbeitszimmer umgewandelt." },
+            { cn: "服务员把“四号”听成了“十号”。", pinyin: "Fúwùyuán bǎ “sì hào” tīngchéng le “shí hào”.", de: "Die Bedienung hat „Nummer vier“ als „Nummer zehn“ verstanden." },
+            { cn: "❌ 你能翻译成中文这句话吗？", pinyin: "", de: "(Falsch — beide Objekte hinter dem Verb)" },
+            { cn: "✅ 你能把这句话翻译成中文吗？", pinyin: "Nǐ néng bǎ zhè jù huà fānyì chéng Zhōngwén ma?", de: "Kannst du diesen Satz ins Chinesische übersetzen?" }
+          ],
+          tip: "Umgangssprachlich genügt oft 当: 别把我当小孩子. Nicht verwechseln mit 把书还给他 – dort nennt Objekt 2, wer etwas bekommt (siehe [[lesson:lesson-4]])."
+        },
+        {
+          heading: "被/叫/让 + … + 给 + Verb — es ist einem etwas passiert",
+          text: "In der gesprochenen Sprache steht im Passivsatz oft zusätzlich <strong>给 (gěi)</strong> direkt vor dem Verb: 我的钱包让小偷给偷走了. 给 ändert die Grundbedeutung nicht, unterstreicht aber, dass dem Subjekt etwas widerfahren ist – meist etwas Unangenehmes. Das Verb braucht wie in jedem Passivsatz eine Ergänzung. Mit 叫 und 让 muss genannt werden, wer handelt; soll das offenbleiben, sagt man umgangssprachlich einfach 衣服给淋湿了 – dann ist 给 selbst das Passivzeichen. Auch im 把-Satz kann 给 vor dem Verb stehen. In formellen Texten steht 被 ohne 给.",
+          examples: [
+            { cn: "我的钱包让小偷给偷走了。", pinyin: "Wǒ de qiánbāo ràng xiǎotōu gěi tōuzǒu le.", de: "Mir ist das Portemonnaie geklaut worden." },
+            { cn: "花瓶叫猫给打碎了。", pinyin: "Huāpíng jiào māo gěi dǎsuì le.", de: "Die Vase ist von der Katze zerbrochen worden." },
+            { cn: "我们都被他给骗了。", pinyin: "Wǒmen dōu bèi tā gěi piàn le.", de: "Wir sind alle auf ihn hereingefallen." },
+            { cn: "没带伞，衣服全给淋湿了。", pinyin: "Méi dài sǎn, yīfu quán gěi línshī le.", de: "Ich hatte keinen Schirm dabei, meine Kleidung ist völlig durchnässt." },
+            { cn: "弟弟把我的电脑给弄坏了。", pinyin: "Dìdi bǎ wǒ de diànnǎo gěi nònghuài le.", de: "Mein kleiner Bruder hat meinen Computer kaputtgemacht." }
+          ],
+          tip: "Dieses 给 heißt weder „geben“ noch „für“ – danach folgt direkt das Verb. ❌ 我的钱包让给偷了。 (bei 让 fehlt, wer handelt) → ✅ 我的钱包让人给偷了。"
+        }
+      ]
+    },
+    // ── Vierwortmuster: A来A去, A着A着, 说A就A (lesson-70) ──────────
+    {
+      id: 'lesson-70',
+      number: 70,
+      title: "Vierwortmuster: A来A去, A着A着, 说A就A",
+      subtitle: "Wiederholung, unerwartete Wendung und Plötzlichkeit",
+      level: 'HSK5',
+      grammarIds: ["g:A来A去","g:A着A着","g:说A就A","g:没A没B","g:X来X去，都是/就是……"],
+      intro: "Chinesisch liebt feste Vierwortrahmen: Ein Verb wird wiederholt und in einen festen Rahmen gesetzt – und der Rahmen trägt die Bedeutung. <strong>走来走去</strong> heißt „auf und ab gehen“, <strong>说着说着</strong> „mitten im Erzählen“, <strong>说走就走</strong> „einfach losgehen“. Dazu kommen feste Ausdrücke nach dem Muster <strong>没A没B</strong> wie 没完没了 „endlos“. Im Deutschen brauchst du dafür Adverbien wie „hin und her“, „plötzlich“ oder „ständig“; im Chinesischen reicht der Rahmen. Du begegnest diesen Mustern in Erzählungen und Alltagsgesprächen sehr oft. Achte bei jedem Muster darauf, was danach kommt: Ein Ergebnis, eine Wendung oder ein Fazit macht den Satz oft erst vollständig.",
+      sections: [
+        {
+          heading: "A来A去 — hin und her, immer wieder",
+          text: "In <strong>A来A去</strong> steht zweimal dasselbe, meist einsilbige Verb, verbunden durch 来 und 去; die Reihenfolge ist fest. Bei Bewegungsverben heißt es „hin und her“: 跑来跑去, 飞来飞去. Bei anderen Verben heißt es „immer wieder, lange“: 想来想去 „hin und her überlegen“, 找来找去 „überall suchen“. Oft folgt ein Teilsatz mit dem Ergebnis, das nach langem Hin und Her eintritt (还是……) oder ausbleibt (也没……). Das Muster ist umgangssprachlich und anschaulich.",
+          examples: [
+            { cn: "孩子们在院子里跑来跑去。", pinyin: "Háizimen zài yuànzi lǐ pǎo lái pǎo qù.", de: "Die Kinder rennen im Hof hin und her." },
+            { cn: "几只小鸟在树上飞来飞去。", pinyin: "Jǐ zhī xiǎoniǎo zài shù shang fēi lái fēi qù.", de: "Ein paar Vögel flattern in den Bäumen hin und her." },
+            { cn: "她挑来挑去，最后还是买了第一件。", pinyin: "Tā tiāo lái tiāo qù, zuìhòu háishi mǎi le dì-yī jiàn.", de: "Sie suchte lange hin und her und kaufte am Ende doch das erste Teil." },
+            { cn: "我们在车站等来等去，也没等到车。", pinyin: "Wǒmen zài chēzhàn děng lái děng qù, yě méi děngdào chē.", de: "Wir haben an der Haltestelle ewig gewartet, aber kein Bus kam." }
+          ],
+          tip: "Die Reihenfolge ist fest: ✅ 走来走去, nicht ❌ 走去走来. Nach 想来想去 kündigt 还是 die Entscheidung an; nach 找来找去 zeigt 也没……, dass die Mühe vergeblich war."
+        },
+        {
+          heading: "X来X去，都是/就是…… — am Ende läuft es auf dasselbe hinaus",
+          text: "Mit einem Fazit im zweiten Teil wird aus A来A去 ein eigenes Muster: Trotz allem Hin und Her kommt immer dasselbe heraus. <strong>就是</strong> betont „im Grunde, eben nur“ (说来说去，就是不想去); <strong>都是</strong> betont „alles, ausnahmslos“ (看来看去，都是广告). Für X steht dasselbe, meist einsilbige Verb. Mit 还是 folgt dagegen eine Entscheidung (想来想去，还是不去了). Der Ausdruck ist gesprochen und klingt oft leicht enttäuscht oder ungeduldig.",
+          examples: [
+            { cn: "他说来说去，就是想跟我借钱。", pinyin: "Tā shuō lái shuō qù, jiù shì xiǎng gēn wǒ jiè qián.", de: "Er redet und redet – im Grunde will er sich nur Geld von mir leihen." },
+            { cn: "这几个台我换来换去，都是广告。", pinyin: "Zhè jǐ ge tái wǒ huàn lái huàn qù, dōu shì guǎnggào.", de: "Ich zappe zwischen diesen Sendern hin und her – überall nur Werbung." },
+            { cn: "我算来算去，就是少了一百块钱。", pinyin: "Wǒ suàn lái suàn qù, jiù shì shǎo le yìbǎi kuài qián.", de: "Ich habe immer wieder nachgerechnet – es fehlen einfach hundert Yuan." },
+            { cn: "这几家饭馆我们吃来吃去，都是一个味道。", pinyin: "Zhè jǐ jiā fànguǎn wǒmen chī lái chī qù, dōu shì yí ge wèidao.", de: "Wir haben in diesen Restaurants immer wieder gegessen – es schmeckt überall gleich." }
+          ],
+          tip: "就是 = „es ist eben nur …“ (der Kern der Sache), 都是 = „alles ist …“ (keine Ausnahme), 还是 = „ich habe mich doch entschieden …“."
+        },
+        {
+          heading: "A着A着 — und mittendrin passiert etwas",
+          text: "In <strong>A着A着</strong> wird dasselbe, meist einsilbige Verb mit 着 verdoppelt: Die Handlung läuft noch, und während sie läuft, tritt unerwartet etwas Neues ein. Dieses Neue folgt im nächsten Teil, oft mit 就 oder 突然. Ohne die Folge ist der Satz unvollständig. Das Ergebnis ist meist unbeabsichtigt: einschlafen, weinen, sich verlaufen, etwas bemerken. Anders als 笑着说 (eine Begleithandlung, siehe [[lesson:lesson-10]]) kündigt A着A着 eine Wende an.",
+          examples: [
+            { cn: "孩子看着看着就睡着了。", pinyin: "Háizi kànzhe kànzhe jiù shuìzháo le.", de: "Mitten beim Zuschauen ist das Kind eingeschlafen." },
+            { cn: "他写着写着，突然停了下来。", pinyin: "Tā xiězhe xiězhe, tūrán tíng le xiàlai.", de: "Er schrieb und schrieb – und hielt plötzlich inne." },
+            { cn: "我们聊着聊着，天就黑了。", pinyin: "Wǒmen liáozhe liáozhe, tiān jiù hēi le.", de: "Wir plauderten und plauderten, und darüber wurde es dunkel." },
+            { cn: "她听着听着，眼睛就红了。", pinyin: "Tā tīngzhe tīngzhe, yǎnjing jiù hóng le.", de: "Beim Zuhören bekam sie auf einmal Tränen in die Augen." }
+          ],
+          tip: "❌ 他说着说着。 — die Wendung fehlt. ✅ 他说着说着就笑了起来。"
+        },
+        {
+          heading: "说A就A — kaum gesagt, schon passiert",
+          text: "In <strong>说A就A</strong> steht zweimal dasselbe Verb: Kaum ist von etwas die Rede, geschieht es auch schon. 说 heißt hier nicht wirklich „sagen“, sondern „sobald davon die Rede ist“. Bei Menschen zeigt das Muster Spontaneität und Entschlossenheit (说走就走 „einfach losgehen“, 说做就做 „sofort anpacken“), bei Dingen und beim Wetter bedeutet es „ganz plötzlich, ohne Vorwarnung“ (说变就变, 说来就来). Es steht als Prädikat oder mit 的 als Attribut: 说走就走的旅行 „eine spontane Reise“.",
+          examples: [
+            { cn: "她说做就做，第二天就开始学开车了。", pinyin: "Tā shuō zuò jiù zuò, dì-èr tiān jiù kāishǐ xué kāichē le.", de: "Gesagt, getan: Schon am nächsten Tag fing sie mit dem Fahrunterricht an." },
+            { cn: "这孩子的脾气说来就来，谁也没办法。", pinyin: "Zhè háizi de píqi shuō lái jiù lái, shéi yě méi bànfǎ.", de: "Die Wutanfälle des Kindes kommen ganz plötzlich – da kann niemand etwas machen." },
+            { cn: "夏天的雨说停就停，太阳马上又出来了。", pinyin: "Xiàtiān de yǔ shuō tíng jiù tíng, tàiyáng mǎshàng yòu chūlai le.", de: "Im Sommer hört der Regen ganz plötzlich auf, und schon kommt die Sonne wieder heraus." },
+            { cn: "年轻的时候，我们也有过说走就走的旅行。", pinyin: "Niánqīng de shíhou, wǒmen yě yǒuguo shuō zǒu jiù zǒu de lǚxíng.", de: "Als wir jung waren, sind wir auch mal ganz spontan verreist." }
+          ],
+          tip: "Vergleiche 一……就…… ([[lesson:lesson-30]]): 他一到家就睡了 verbindet zwei verschiedene Handlungen. In 说睡就睡 ist es dieselbe Handlung, die ohne Verzögerung eintritt."
+        },
+        {
+          heading: "没A没B — feste Ausdrücke: 没完没了, 没日没夜",
+          text: "<strong>没A没B</strong> verneint zwei zusammengehörende Begriffe und betont so ein völliges Fehlen. A und B sind einsilbige Wörter mit gegensätzlicher oder ähnlicher Bedeutung. Das Muster bildet überwiegend feste Ausdrücke, die oft tadelnd gemeint sind: 没大没小 „respektlos gegenüber Älteren“, 没完没了 „endlos“, 没日没夜 „Tag und Nacht“, 没头没脑 „zusammenhanglos, unvermittelt“. Sie stehen als Prädikat (oft mit 的) oder mit 地 vor dem Verb. Freie Neubildungen sind selten – lerne die Ausdrücke am besten als Einheiten.",
+          examples: [
+            { cn: "他们俩一打电话就没完没了。", pinyin: "Tāmen liǎ yì dǎ diànhuà jiù méi wán méi liǎo.", de: "Wenn die beiden telefonieren, hört das gar nicht mehr auf." },
+            { cn: "考试前那几天，她没日没夜地复习。", pinyin: "Kǎoshì qián nà jǐ tiān, tā méi rì méi yè de fùxí.", de: "In den Tagen vor der Prüfung hat sie Tag und Nacht gelernt." },
+            { cn: "你怎么跟爷爷说话没大没小的？", pinyin: "Nǐ zěnme gēn yéye shuōhuà méi dà méi xiǎo de?", de: "Wie redest du denn mit Opa – so respektlos!" },
+            { cn: "他没头没脑地问了一句，谁也没听懂。", pinyin: "Tā méi tóu méi nǎo de wèn le yí jù, shéi yě méi tīngdǒng.", de: "Er stellte ganz unvermittelt eine Frage, die niemand verstand." }
+          ],
+          tip: "Nicht verwechseln: 不大不小 heißt „genau die richtige Größe“ (weder zu … noch zu …), 没大没小 dagegen „respektlos“. Das schriftsprachliche Gegenstück zu 没A没B ist 无A无B (无忧无虑 „sorglos“)."
+        }
+      ]
+    },
+    // ── Gesprochene Muster: abwinken, zögern, zugreifen (lesson-71) ──────────
+    {
+      id: 'lesson-71',
+      number: 71,
+      title: "Gesprochene Muster: abwinken, zögern, zugreifen",
+      subtitle: "Ton und Haltung in Alltagsgesprächen erkennen",
+      level: 'HSK5',
+      grammarIds: ["g:X什么X","g:什么X不X（的）","g:真有你/他/她的","g:X也不是，Y也不是","g:X也X不得，Y也Y不得","g:不X白不X","g:X着也是X着","g:用不着","g:动词+什么（就）是什么","g:A的A，B的B","g:X是它，Y也是它"],
+      intro: "In Alltagsgesprächen und Hörtexten tauchen immer wieder kurze, feste Rahmen auf, die weniger Information als <strong>Haltung</strong> transportieren: Ärger (哭什么哭), Großzügigkeit (什么谢不谢的), Ratlosigkeit (进也不是，走也不是), Pragmatismus (不吃白不吃) oder Staunen (真有你的). Wörtlich übersetzt ergeben sie oft wenig Sinn – 哭什么哭 ist keine Frage, und 真有你的 lässt sich nicht Wort für Wort übertragen. Entscheidend ist, den <em>Ton</em> zu erkennen. Diese Lektion sortiert die Muster danach, was die sprechende Person damit tut: abwinken, in der Klemme stecken, zugreifen oder hinnehmen, kommentieren. Fast alle sind gesprochen und informell, manche wirken barsch. Verwende sie im vertrauten Kreis und sei bei Fremden vorsichtig.",
+      sections: [
+        {
+          heading: "Abwinken: 哭什么哭, 什么谢不谢的, 用不着",
+          text: "<strong>X什么X</strong> ist keine Frage, sondern ein Vorwurf: Die sprechende Person findet eine Handlung oder Gefühlsregung unnötig und will, dass sie aufhört (哭什么哭 „Hör auf zu weinen!“). X ist meist ein einsilbiges Verb oder Adjektiv ohne Objekt; der Ton ist barsch bis unhöflich. <strong>什么X不X（的）</strong> wischt dagegen einen Gesichtspunkt beiseite, den das Gegenüber angesprochen hat (什么谢不谢的 „ach was, keine Ursache“); X kann auch ein Nomen sein, danach folgt, worauf es eigentlich ankommt. <strong>用不着</strong> (yòngbuzháo) heißt „nicht nötig, nicht brauchen“; es ist umgangssprachlich, klingt nachdrücklicher als 不用 und kann anders als 不用 auch ein Nomen als Objekt haben. Formeller ist 不必.",
+          examples: [
+            { cn: "笑什么笑？我说的是真的！", pinyin: "Xiào shénme xiào? Wǒ shuō de shì zhēn de!", de: "Was gibt's da zu lachen? Ich meine das ernst!" },
+            { cn: "跑什么跑！地上很滑。", pinyin: "Pǎo shénme pǎo! Dì shang hěn huá.", de: "Hör auf zu rennen! Der Boden ist rutschig." },
+            { cn: "什么面子不面子的，身体最重要。", pinyin: "Shénme miànzi bu miànzi de, shēntǐ zuì zhòngyào.", de: "Ach was, Gesichtswahrung hin oder her – die Gesundheit ist das Wichtigste." },
+            { cn: "你用不着跟我解释，我都明白。", pinyin: "Nǐ yòngbuzháo gēn wǒ jiěshì, wǒ dōu míngbai.", de: "Du musst mir nichts erklären, ich verstehe das schon." },
+            { cn: "这把伞你拿去吧，我用不着。", pinyin: "Zhè bǎ sǎn nǐ ná qù ba, wǒ yòngbuzháo.", de: "Nimm den Schirm ruhig mit, ich brauche ihn nicht." }
+          ],
+          tip: "什么贵不贵的 ist kein „egal ob“-Satz: Mit 不管 entsteht ein Konditionalsatz, der 都/也 braucht (不管贵不贵，我都买, siehe [[lesson:lesson-44]]). Die bejahte Form 用得着 steht vor allem in rhetorischen Fragen: 用得着这么着急吗？"
+        },
+        {
+          heading: "In der Klemme: 进也不是，走也不是 und 打也打不得",
+          text: "Mit <strong>X也不是，Y也不是</strong> beschreibst du eine verlegene Lage: Was man auch tut, es ist falsch. 不是 heißt hier „nicht richtig, nicht angebracht“; X und Y sind meist gegensätzliche Handlungen (哭 – 笑, 说 – 不说). Ähnlich, aber noch stärker ist <strong>X也X不得，Y也Y不得</strong>: Beide Möglichkeiten sind ausgeschlossen, weil sie verboten, unmöglich oder unklug sind. Jedes Verb wird wiederholt; 不得 (bù dé) heißt „nicht dürfen, nicht können“. Beide Muster sind gesprochen, beide Teile parallel gebaut; oft folgt eine Wertung wie 真为难 oder 真没办法.",
+          examples: [
+            { cn: "大家都让我唱歌，我唱也不是，不唱也不是。", pinyin: "Dàjiā dōu ràng wǒ chànggē, wǒ chàng yě bú shì, bú chàng yě bú shì.", de: "Alle wollten, dass ich singe – ich wusste nicht, ob ich singen oder ablehnen sollte." },
+            { cn: "礼物太贵重了，我收也不是，不收也不是。", pinyin: "Lǐwù tài guìzhòng le, wǒ shōu yě bú shì, bù shōu yě bú shì.", de: "Das Geschenk ist viel zu wertvoll – annehmen kann ich es eigentlich nicht, ablehnen aber auch nicht." },
+            { cn: "伤口还没好，碰也碰不得，洗也洗不得。", pinyin: "Shāngkǒu hái méi hǎo, pèng yě pèng bu dé, xǐ yě xǐ bu dé.", de: "Die Wunde ist noch nicht verheilt – man darf sie weder berühren noch waschen." },
+            { cn: "朋友的东西放在我这儿，扔也扔不得，用也用不得。", pinyin: "Péngyou de dōngxi fàng zài wǒ zhèr, rēng yě rēng bu dé, yòng yě yòng bu dé.", de: "Die Sachen von Freunden stehen bei mir – wegwerfen darf ich sie nicht, benutzen aber auch nicht." }
+          ],
+          tip: "Dieselbe Idee steckt im festen Ausdruck 哭笑不得 „nicht wissen, ob man lachen oder weinen soll“. 不得了 „schrecklich, äußerst“ hat mit diesem 不得 nur die Form gemeinsam."
+        },
+        {
+          heading: "Zugreifen und hinnehmen: 不吃白不吃, 闲着也是闲着, 说什么就是什么",
+          text: "<strong>不X白不X</strong> sagt: Die Gelegenheit kostet nichts – wer sie auslässt, hat sie umsonst verschenkt. 白 (bái) heißt hier „umsonst“; X ist meist ein einsilbiges Verb, der Ton locker, manchmal leicht frech. <strong>X着也是X着</strong> sagt: Der jetzige Zustand (闲着, 空着, 坐着) bringt sowieso nichts, also kann man die Zeit oder Sache auch sinnvoll nutzen; danach folgt ein Vorschlag, oft mit 不如 oder 就……吧. <strong>Verb + 什么（就）是什么</strong> heißt „was auch immer jemand X-t, das gilt“ – als Autorität (奶奶说什么就是什么) oder als Hinnehmen ohne Wahl (分到什么就是什么); 就 ist häufig, kann aber fehlen. Alle drei Muster sind gesprochen und locker.",
+          examples: [
+            { cn: "免费的咖啡，不喝白不喝。", pinyin: "Miǎnfèi de kāfēi, bù hē bái bù hē.", de: "Der Kaffee ist gratis – da wäre man ja dumm, keinen zu trinken." },
+            { cn: "公园今天不要门票，不去白不去。", pinyin: "Gōngyuán jīntiān bú yào ménpiào, bú qù bái bú qù.", de: "Der Park kostet heute keinen Eintritt – da wäre es schade, nicht hinzugehen." },
+            { cn: "坐着也是坐着，我来帮你洗碗吧。", pinyin: "Zuòzhe yě shì zuòzhe, wǒ lái bāng nǐ xǐ wǎn ba.", de: "Ich sitze sowieso nur herum – lass mich dir beim Abwaschen helfen." },
+            { cn: "那辆车放着也是放着，借给你开吧。", pinyin: "Nà liàng chē fàngzhe yě shì fàngzhe, jiè gěi nǐ kāi ba.", de: "Das Auto steht sowieso nur herum – ich leihe es dir." },
+            { cn: "晚饭吃什么，你说什么就是什么。", pinyin: "Wǎnfàn chī shénme, nǐ shuō shénme jiù shì shénme.", de: "Was es zum Abendessen gibt, bestimmst du – was du sagst, gilt." }
+          ],
+          tip: "Nicht verwechseln: 想吃什么就吃什么 „iss, was du willst“ ist freie Wahl; bei 说什么就是什么 wird ein Ergebnis als gültig hingenommen. Und 白 + Verb allein heißt „vergeblich“: 我白跑了一趟 „Ich bin umsonst hingegangen.“"
+        },
+        {
+          heading: "Kommentieren: 真有你的, 唱的唱，跳的跳, 成也是它，败也是它",
+          text: "<strong>真有你/他/她的</strong> ist ein Ausruf im vertrauten Gespräch nach einer überraschenden Tat – anerkennend („Respekt!“) oder ironisch („Typisch du!“); was gemeint ist, zeigen nur Zusammenhang und Tonfall. <strong>A的A，B的B</strong> beschreibt eine Gruppe, deren Mitglieder Verschiedenes tun: „die einen …, die anderen …“; die Gruppe steht davor, oft folgt eine Gesamtbewertung. Das Muster wirkt lebendig und ist typisch für Erzählungen. <strong>X是它，Y也是它</strong> sagt, dass ein und dieselbe Sache zwei, meist gegensätzliche Wirkungen hat; 它 verweist auf das Thema am Satzanfang, bei Personen steht 他/她. Es klingt nachdenklich und steht in gesprochener wie geschriebener Sprache.",
+          examples: [
+            { cn: "你一个晚上就把这本书看完了？真有你的！", pinyin: "Nǐ yí ge wǎnshang jiù bǎ zhè běn shū kànwán le? Zhēn yǒu nǐ de!", de: "Du hast das Buch an einem Abend durchgelesen? Respekt!" },
+            { cn: "他又迟到了，还说路上堵车，真有他的。", pinyin: "Tā yòu chídào le, hái shuō lùshang dǔchē, zhēn yǒu tā de.", de: "Er kommt schon wieder zu spät und schiebt es auf den Stau – typisch er." },
+            { cn: "下课以后，同学们打球的打球，看书的看书。", pinyin: "Xiàkè yǐhòu, tóngxuémen dǎqiú de dǎqiú, kànshū de kànshū.", de: "Nach dem Unterricht spielen die einen Ball, die anderen lesen." },
+            { cn: "一到周末，孩子们跑的跑，跳的跳，公园里热闹极了。", pinyin: "Yí dào zhōumò, háizimen pǎo de pǎo, tiào de tiào, gōngyuán lǐ rènao jí le.", de: "Am Wochenende rennen und springen die Kinder herum – im Park ist richtig was los." },
+            { cn: "他的脾气，让他成功的是它，让他失败的也是它。", pinyin: "Tā de píqi, ràng tā chénggōng de shì tā, ràng tā shībài de yě shì tā.", de: "Sein Temperament hat ihm zum Erfolg verholfen – und es hat ihn auch scheitern lassen." }
+          ],
+          tip: "A的A schreibt man mit 的, nicht mit 得. Bei 真有你的 hilft oft der Satz davor: Wird eine Leistung geschildert, ist es Lob; ein wiederholtes Missgeschick (又……) macht es zum Tadel."
+        }
+      ]
+    },
+    // ── 除非 & 凡是 — einzige Bedingung und ausnahmslos (lesson-72) ──────────
+    {
+      id: 'lesson-72',
+      number: 72,
+      title: "除非 & 凡是 — einzige Bedingung und ausnahmslos",
+      subtitle: "Nur wenn, es sei denn, alle die …",
+      level: 'HSK6',
+      grammarIds: ["g:除非……，才……","g:除非……，否则/不然……","g:凡是……，都……"],
+      intro: "In dieser Lektion geht es um zwei Arten, Bedingungen und Aussagen zuzuspitzen. Mit <strong>除非</strong> (chúfēi) nennst du die <em>einzige</em> Bedingung, unter der etwas geschieht – entweder mit 才 im zweiten Teil („nur wenn …, erst dann …“) oder mit 否则/不然 („es sei denn …, sonst …“). Mit <strong>凡是……都</strong> (fánshì … dōu) triffst du eine Aussage über <em>alle</em> Fälle einer Gruppe: „alle, die …“, „alles, was …“. Die einfachere Form kennst du schon: 只有……才 aus [[lesson:lesson-40]] ist die neutrale Schwester von 除非……才. Die größte Hürde für Deutschsprachige: Das deutsche „es sei denn“ steht meist hinten, 除非 meist vorne – und 除非……否则 bedeutet „wenn nicht …, dann …“, obwohl in der Bedingung selbst kein Verneinungswort steht.",
+      sections: [
+        {
+          heading: "除非……，才…… — nur wenn, erst dann",
+          text: "<strong>除非</strong> (chúfēi) nennt die <em>einzige</em> Bedingung, unter der das Ergebnis eintritt. Im zweiten Teil steht <strong>才</strong> (cái) vor dem Verb – und zwar nach dem Subjekt, nicht am Satzanfang. Inhaltlich ist das dasselbe wie 只有……才, klingt aber nachdrücklicher: Die Bedingung wird als einzige Ausnahme hervorgehoben, alles andere ist ausgeschlossen. Nach 才 folgt häufig ein Modalverb wie 会, 能 oder 可以.",
+          examples: [
+            { cn: "除非你答应我的条件，我才会签这份合同。", pinyin: "Chúfēi nǐ dāying wǒ de tiáojiàn, wǒ cái huì qiān zhè fèn hétong.", de: "Nur wenn du auf meine Bedingungen eingehst, unterschreibe ich diesen Vertrag." },
+            { cn: "除非经理亲自出面，这件事才有可能解决。", pinyin: "Chúfēi jīnglǐ qīnzì chūmiàn, zhè jiàn shì cái yǒu kěnéng jiějué.", de: "Nur wenn sich die Geschäftsleitung persönlich einschaltet, lässt sich die Sache vielleicht lösen." },
+            { cn: "除非天天练习，你的口语才会有明显的进步。", pinyin: "Chúfēi tiāntiān liànxí, nǐ de kǒuyǔ cái huì yǒu míngxiǎn de jìnbù.", de: "Nur wenn du jeden Tag übst, wird dein Sprechen spürbar besser." },
+            { cn: "除非价格降到一半，顾客才会考虑购买。", pinyin: "Chúfēi jiàgé jiàng dào yíbàn, gùkè cái huì kǎolǜ gòumǎi.", de: "Erst wenn der Preis auf die Hälfte fällt, wird die Kundschaft einen Kauf in Betracht ziehen." }
+          ],
+          tip: "Merkhilfe: 除 heißt „ausnehmen, außer“, 非 „nicht sein“ – 除非 entspricht also dem deutschen „es sei denn“. Denk beim 才-Satz an „<em>erst dann</em>“: Nur wenn die Bedingung erfüllt ist, erst dann tritt die Folge ein."
+        },
+        {
+          heading: "除非……，否则/不然…… — es sei denn, sonst",
+          text: "Statt mit 才 kannst du den zweiten Teil mit <strong>否则</strong> (fǒuzé) oder <strong>不然</strong> (bùrán) einleiten. Dann sagst du, was geschieht, <em>wenn die Bedingung nicht erfüllt ist</em>: „除非 A，否则 B“ = „wenn nicht A, dann B“. Die Bedingung ist meist positiv formuliert, die Folge oft negativ oder eine Warnung. 否则 und 不然 stehen am Anfang des zweiten Teils, vor dem Subjekt; 否则 klingt etwas formeller als 不然. Im Deutschen passen „außer wenn“, „ohne“ oder „wenn nicht“.",
+          examples: [
+            { cn: "除非你提前预订，否则周末很难订到房间。", pinyin: "Chúfēi nǐ tíqián yùdìng, fǒuzé zhōumò hěn nán dìng dào fángjiān.", de: "Wenn du nicht im Voraus buchst, bekommst du am Wochenende kaum ein Zimmer." },
+            { cn: "除非有医生的证明，否则不能请病假。", pinyin: "Chúfēi yǒu yīshēng de zhèngmíng, fǒuzé bù néng qǐng bìngjià.", de: "Ohne ärztliches Attest kann man sich nicht krankmelden." },
+            { cn: "除非你亲口道歉，不然她不会原谅你的。", pinyin: "Chúfēi nǐ qīnkǒu dàoqiàn, bùrán tā bú huì yuánliàng nǐ de.", de: "Wenn du dich nicht persönlich entschuldigst, wird sie dir nicht verzeihen." },
+            { cn: "除非情况特别紧急，否则请先发邮件预约。", pinyin: "Chúfēi qíngkuàng tèbié jǐnjí, fǒuzé qǐng xiān fā yóujiàn yùyuē.", de: "Außer in dringenden Fällen bitte zuerst per E-Mail einen Termin vereinbaren." }
+          ],
+          tip: "Vorsicht beim Übersetzen: Das „wenn … nicht“ steckt schon in 除非. Für „Wenn du nicht im Voraus buchst, …“ sagst du ✅ 除非你提前预订，否则……. Ein zusätzliches 不 (❌ 除非你不提前预订，否则……) dreht die Bedingung logisch um („es sei denn, du buchst <em>nicht</em> …“) – für die gemeinte Aussage passt das nicht und ist zumindest missverständlich. 除非 + 不 steht dann, wenn die Ausnahme selbst verneint ist: 除非你不想去，不然我们明天就一起去吧。"
+        },
+        {
+          heading: "除非 oder 只有? — Ton und nachgestelltes 除非",
+          text: "除非……才 und 只有……才 drücken dieselbe notwendige Bedingung aus (zu 只有……才 siehe [[lesson:lesson-40]]); 除非 klingt nur schärfer, fast wie eine letzte Bedingung. 除非 kann außerdem <em>nachgestellt</em> werden: Zuerst steht das gewünschte Ziel, oft mit 要想, dann nennt 除非 den einzigen Weg dorthin – „wenn …, dann nur, wenn …“. In dieser Stellung folgt meist kein weiterer Teilsatz; oft wird nur 才行 angehängt (……，除非你亲自去请他才行).",
+          examples: [
+            { cn: "只有你亲自去说，他才会同意。", pinyin: "Zhǐyǒu nǐ qīnzì qù shuō, tā cái huì tóngyì.", de: "Nur wenn du selbst mit ihm redest, wird er zustimmen. (neutral)" },
+            { cn: "除非你亲自去说，他才会同意。", pinyin: "Chúfēi nǐ qīnzì qù shuō, tā cái huì tóngyì.", de: "Er stimmt nur zu, wenn du selbst mit ihm redest – anders geht es nicht. (nachdrücklich)" },
+            { cn: "要想让她改变主意，除非你拿出证据。", pinyin: "Yào xiǎng ràng tā gǎibiàn zhǔyi, chúfēi nǐ náchū zhèngjù.", de: "Wenn sie ihre Meinung ändern soll, musst du schon Beweise vorlegen." },
+            { cn: "要想在这儿停车，除非你是公司的员工。", pinyin: "Yào xiǎng zài zhèr tíngchē, chúfēi nǐ shì gōngsī de yuángōng.", de: "Hier parken darfst du nur, wenn du zur Belegschaft der Firma gehörst." }
+          ],
+          tip: "Nachgestelltes 除非 kann auch spöttisch andeuten, dass etwas nie passieren wird: 他会道歉？除非太阳从西边出来！ – sinngemäß „Eher geht die Sonne im Westen auf.“"
+        },
+        {
+          heading: "凡是……，都…… — alle, die …; alles, was …",
+          text: "<strong>凡是</strong> (fánshì) steht am Satzanfang vor einer Nominalgruppe, meist mit Attributsatz auf 的 (……的人、……的东西、……的事), und fasst <em>alle Fälle dieser Art</em> zusammen. Im zweiten Teil bestätigt <strong>都</strong> (dōu), dass die Aussage ausnahmslos gilt; 都 steht vor dem Verb, nach einem eventuellen Subjekt. Ohne 都 (oder ein gleichwertiges Wort wie 一律) klingt der Satz unvollständig. Das Muster ist sachlich und steht oft in Regeln und Bekanntmachungen, ist aber auch im Gespräch üblich, wenn du verallgemeinerst.",
+          examples: [
+            { cn: "凡是买了票的观众，都可以免费领一瓶水。", pinyin: "Fánshì mǎi le piào de guānzhòng, dōu kěyǐ miǎnfèi lǐng yì píng shuǐ.", de: "Wer eine Eintrittskarte gekauft hat, bekommt kostenlos eine Flasche Wasser." },
+            { cn: "凡是和健康有关的书，她都喜欢看。", pinyin: "Fánshì hé jiànkāng yǒuguān de shū, tā dōu xǐhuan kàn.", de: "Sie liest gern alles, was mit Gesundheit zu tun hat. (都 nach dem Subjekt 她)" },
+            { cn: "凡是迟到超过十五分钟的学生，都不能参加考试。", pinyin: "Fánshì chídào chāoguò shíwǔ fēnzhōng de xuésheng, dōu bù néng cānjiā kǎoshì.", de: "Wer mehr als fünfzehn Minuten zu spät kommt, darf nicht an der Prüfung teilnehmen." },
+            { cn: "凡是答应过别人的事，他都会认真去做。", pinyin: "Fánshì dāying guo biérén de shì, tā dōu huì rènzhēn qù zuò.", de: "Alles, was er anderen versprochen hat, erledigt er gewissenhaft." }
+          ],
+          tip: "Ausblick: In sehr schriftlichen Texten wie Vorschriften findest du die knappere Form 凡……者，均……."
+        },
+        {
+          heading: "Typische Fehler mit 凡是 und 除非",
+          text: "凡是 bezieht sich auf eine <em>Gruppe</em> von Personen oder Dingen, nicht auf einen ganzen Satz mit eigenem Subjekt – für eine hinreichende Bedingung nimmst du 只要……就. Bei 除非……才 rutscht 才 leicht an die falsche Stelle: Es gehört hinter das Subjekt des zweiten Teils. Und vergiss bei 凡是 das 都 nicht.",
+          examples: [
+            { cn: "❌ 凡是你努力，都会成功。", pinyin: "", de: "Falsch: 凡是 steht hier vor einem ganzen Satz mit Subjekt (你努力)." },
+            { cn: "✅ 只要你努力，就会成功。", pinyin: "Zhǐyào nǐ nǔlì, jiù huì chénggōng.", de: "Solange du dich anstrengst, wirst du Erfolg haben." },
+            { cn: "❌ 除非你去请他，才他会来。", pinyin: "", de: "Falsch: 才 steht vor dem Subjekt 他." },
+            { cn: "✅ 除非你去请他，他才会来。", pinyin: "Chúfēi nǐ qù qǐng tā, tā cái huì lái.", de: "Nur wenn du ihn einlädst, kommt er." },
+            { cn: "✅ 凡是来参加的人，都可以拿一份资料。", pinyin: "Fánshì lái cānjiā de rén, dōu kěyǐ ná yí fèn zīliào.", de: "Alle, die teilnehmen, können sich Unterlagen mitnehmen. (mit 都)" }
+          ],
+          tip: "凡是 oder 不管/无论? 凡是 fasst eine Gruppe zusammen („alle, die …“), 不管/无论……都 geht verschiedene Möglichkeiten durch („egal ob …, egal wer …“) – siehe [[lesson:lesson-44]]."
+        }
+      ]
+    },
+    // ── 要么, 一时……一时 & 也好 — entweder, mal, egal (lesson-73) ──────────
+    {
+      id: 'lesson-73',
+      number: 73,
+      title: "要么, 一时……一时 & 也好 — entweder, mal, egal",
+      subtitle: "Wählen, wechseln, gelten lassen",
+      level: 'HSK6',
+      grammarIds: ["g:要么……，要么……","g:一时……一时……","g:也好"],
+      intro: "In dieser Lektion lernst du drei Muster, die mit Alternativen spielen. <strong>要么……要么</strong> (yàome … yàome) stellt dich vor eine Wahl: „entweder … oder …“ – und meist gibt es keinen dritten Weg. <strong>一时……一时</strong> (yìshí … yìshí) beschreibt, wie zwei Zustände rasch wechseln: „mal …, mal …“. Mit <strong>也好</strong> (yěhǎo) sagst du entweder, dass es egal ist, welche Möglichkeit eintritt („ob A oder B …“), oder dass du eine Lage hinnimmst („auch gut“). Im Deutschen erledigen „oder“ und „egal“ vieles davon; im Chinesischen wählst du genauer: Ist es eine Entscheidung (要么), eine neutrale Aufzählung (或者), eine Frage (还是) oder ein „egal“ (也好)?",
+      sections: [
+        {
+          heading: "要么……，要么…… — entweder … oder",
+          text: "<strong>要么</strong> (yàome) steht am Anfang jedes Teils und stellt zwei (selten mehr) Möglichkeiten nebeneinander, von denen eine gewählt werden <em>muss</em>. Typisch sind Vorschläge, Aufforderungen und Entscheidungen; oft schwingt mit, dass es keine dritte Möglichkeit gibt. Bei gleichem Subjekt steht 要么 vor dem Verb, bei verschiedenen Subjekten vor dem ganzen Teilsatz. Das Muster ist gesprochen wie geschrieben üblich.",
+          examples: [
+            { cn: "你要么接受这份工作，要么继续找，别再犹豫了。", pinyin: "Nǐ yàome jiēshòu zhè fèn gōngzuò, yàome jìxù zhǎo, bié zài yóuyù le.", de: "Entweder du nimmst die Stelle an oder du suchst weiter – hör auf zu zögern." },
+            { cn: "要么你去，要么我去，总得有人去开会。", pinyin: "Yàome nǐ qù, yàome wǒ qù, zǒngděi yǒu rén qù kāihuì.", de: "Entweder gehst du oder ich – irgendwer muss zu der Besprechung." },
+            { cn: "这件事要么今天解决，要么就别再提了。", pinyin: "Zhè jiàn shì yàome jīntiān jiějué, yàome jiù bié zài tí le.", de: "Entweder klären wir das heute, oder wir reden nicht mehr davon." },
+            { cn: "我们要么坐高铁，要么开车，飞机票太贵了。", pinyin: "Wǒmen yàome zuò gāotiě, yàome kāichē, fēijīpiào tài guì le.", de: "Wir nehmen entweder den Schnellzug oder das Auto – Flugtickets sind zu teuer." }
+          ],
+          tip: "Umgangssprachlich hörst du auch 要不……要不……, gleichbedeutend mit 要么……要么……."
+        },
+        {
+          heading: "要么, 或者, 不是……就是, 还是 — der Vergleich",
+          text: "要么 klingt bestimmter als <strong>或者……或者</strong>, das Möglichkeiten nur neutral aufzählt. <strong>不是……就是</strong> stellt keine Wahl, sondern stellt fest oder vermutet, dass eins von beiden zutrifft. <strong>还是</strong> steht in Fragen (mehr zu 还是 und 或者 in [[lesson:lesson-31]]). Vergleiche:",
+          examples: [
+            { cn: "周末我或者看书，或者去游泳。", pinyin: "Zhōumò wǒ huòzhě kàn shū, huòzhě qù yóuyǒng.", de: "Am Wochenende lese ich oder gehe schwimmen. (neutrale Aufzählung)" },
+            { cn: "他每天晚上不是加班，就是去健身房。", pinyin: "Tā měitiān wǎnshang bú shì jiābān, jiù shì qù jiànshēnfáng.", de: "Abends macht er entweder Überstunden oder geht ins Fitnessstudio. (Feststellung)" },
+            { cn: "你喝茶还是喝咖啡？", pinyin: "Nǐ hē chá háishi hē kāfēi?", de: "Trinkst du Tee oder Kaffee? (Frage)" },
+            { cn: "要么你道歉，要么我们就别做朋友了。", pinyin: "Yàome nǐ dàoqiàn, yàome wǒmen jiù bié zuò péngyou le.", de: "Entweder du entschuldigst dich, oder mit unserer Freundschaft ist es vorbei. (Wahl, fast ein Ultimatum)" }
+          ],
+          tip: "Test: Kannst du „du musst dich entscheiden“ dazudenken? Dann passt 要么. Beschreibst du nur, was meistens der Fall ist? Dann 不是……就是."
+        },
+        {
+          heading: "一时……一时…… — mal …, mal …",
+          text: "<strong>一时</strong> (yìshí) heißt allein „eine Zeit lang, im Moment“. Paarweise gebraucht beschreibt es, dass zwei Zustände oder Handlungen kurz nacheinander wechseln – oft Stimmungen, Meinungen oder das Wetter, und häufig mit einem Unterton von Unbeständigkeit oder Unentschlossenheit. A und B sind meist Gegensätze; vor dem zweiten Teil steht gern 又. Das Muster ist etwas gehobener und schriftlicher als das alltägliche 一会儿……一会儿……, bedeutet aber fast dasselbe.",
+          examples: [
+            { cn: "春天的天气一时冷，一时热，很容易感冒。", pinyin: "Chūntiān de tiānqì yìshí lěng, yìshí rè, hěn róngyì gǎnmào.", de: "Im Frühling ist es mal kalt, mal warm – da erkältet man sich leicht." },
+            { cn: "听到这个消息，她一时哭，一时笑，心情十分复杂。", pinyin: "Tīngdào zhège xiāoxi, tā yìshí kū, yìshí xiào, xīnqíng shífēn fùzá.", de: "Nach der Nachricht weinte sie im einen Moment und lachte im nächsten – ihre Gefühle waren völlig durcheinander." },
+            { cn: "这孩子一时想学钢琴，一时又想学画画。", pinyin: "Zhè háizi yìshí xiǎng xué gāngqín, yìshí yòu xiǎng xué huàhuà.", de: "Mal will das Kind Klavier lernen, dann wieder malen." },
+            { cn: "他一时说支持，一时又说反对，大家都不知道他是怎么想的。", pinyin: "Tā yìshí shuō zhīchí, yìshí yòu shuō fǎnduì, dàjiā dōu bù zhīdào tā shì zěnme xiǎng de.", de: "Mal sagt er, er sei dafür, mal wieder, er sei dagegen – niemand weiß, was er eigentlich denkt." },
+            { cn: "我一时想不起来那本书的名字。", pinyin: "Wǒ yìshí xiǎng bu qǐlai nà běn shū de míngzi.", de: "Mir fällt der Titel des Buchs gerade nicht ein. (einzelnes 一时 = „im Moment“)" }
+          ],
+          tip: "Noch schriftlicher als 一时……一时 ist 时而……时而……. Im Alltag sagst du meist 一会儿……一会儿……: 孩子们一会儿唱歌，一会儿跳舞。"
+        },
+        {
+          heading: "A 也好，B 也好 — ob A oder B",
+          text: "Die Partikel <strong>也好</strong> (yěhǎo) wird paarweise oder mehrfach hinter Möglichkeiten gesetzt, die <em>alle</em> am Ergebnis nichts ändern: „ob A oder B, …“. Im Folgeteil steht dann meist 都 oder 也. A und B können Nomen, Verben, Adjektive oder Gegensatzpaare (同意也好，反对也好) sein. Dasselbe „egal ob“ drückst du mit 不管/无论……都 aus, dort aber mit einer Konjunktion am Anfang (siehe [[lesson:lesson-44]]).",
+          examples: [
+            { cn: "白天也好，晚上也好，你随时都可以给我打电话。", pinyin: "Báitiān yěhǎo, wǎnshang yěhǎo, nǐ suíshí dōu kěyǐ gěi wǒ dǎ diànhuà.", de: "Ob tagsüber oder abends – du kannst mich jederzeit anrufen." },
+            { cn: "大城市也好，小城市也好，房价都在上涨。", pinyin: "Dà chéngshì yěhǎo, xiǎo chéngshì yěhǎo, fángjià dōu zài shàngzhǎng.", de: "Ob in großen oder kleinen Städten – die Wohnungspreise steigen überall." },
+            { cn: "同意也好，反对也好，大家都可以发表意见。", pinyin: "Tóngyì yěhǎo, fǎnduì yěhǎo, dàjiā dōu kěyǐ fābiǎo yìjiàn.", de: "Ob dafür oder dagegen – alle dürfen ihre Meinung sagen." },
+            { cn: "老人也好，孩子也好，都很喜欢这部电影。", pinyin: "Lǎorén yěhǎo, háizi yěhǎo, dōu hěn xǐhuan zhè bù diànyǐng.", de: "Ob Alt oder Jung – alle mögen diesen Film." },
+            { cn: "不管是老人还是孩子，都很喜欢这部电影。", pinyin: "Bùguǎn shì lǎorén háishi háizi, dōu hěn xǐhuan zhè bù diànyǐng.", de: "Egal ob Alt oder Jung – alle mögen diesen Film. (gleiche Aussage mit 不管)" }
+          ],
+          tip: "Ausblick: Gehobener klingt die Paarung mit 也罢 im zweiten Glied: X 也好，Y 也罢."
+        },
+        {
+          heading: "Satz + 也好 — auch gut, na dann eben",
+          text: "Einzeln am Ende eines Satzes drückt 也好 aus, dass du eine Lage hinnimmst oder ihr sogar etwas Gutes abgewinnst: „auch gut“, „na, dann eben“. Oft ist die Lage eigentlich nicht ideal – mit 也好 zeigst du, dass du dich damit abfindest oder einen Vorteil darin siehst. Nebenbei: Im Gespräch steht 也好 auch allein als knappe Antwort auf einen Vorschlag, ähnlich wie „Na gut“, oft gefolgt von einem weiteren Satz.",
+          examples: [
+            { cn: "航班取消了也好，我们可以在这儿多玩一天。", pinyin: "Hángbān qǔxiāo le yěhǎo, wǒmen kěyǐ zài zhèr duō wán yì tiān.", de: "Dass der Flug gestrichen wurde, ist auch gut – so können wir einen Tag länger hierbleiben." },
+            { cn: "你先回去也好，路上小心点儿。", pinyin: "Nǐ xiān huíqu yěhǎo, lùshang xiǎoxīn diǎnr.", de: "Geh ruhig schon vor, das ist auch in Ordnung – pass auf dem Weg auf." },
+            { cn: "让他自己去试试也好，失败了也是一种经验。", pinyin: "Ràng tā zìjǐ qù shìshi yěhǎo, shībài le yě shì yì zhǒng jīngyàn.", de: "Es ist ganz gut, wenn er es selbst versucht – auch ein Misserfolg ist eine Erfahrung." },
+            { cn: "也好，那我们明天再谈吧。", pinyin: "Yěhǎo, nà wǒmen míngtiān zài tán ba.", de: "Na gut, dann reden wir morgen weiter. (Antwort auf einen Vorschlag)" }
+          ],
+          tip: "Unterschied zu 好吧: 好吧 ist meist ein schlichtes „okay“, oft mit einem Hauch Widerwillen; 也好 klingt eher so, als würdest du der Sache auch etwas Gutes abgewinnen."
+        }
+      ]
+    },
+    // ── 虽, 就算 & 倒是 — knapp einräumen (lesson-74) ──────────
+    {
+      id: 'lesson-74',
+      number: 74,
+      title: "虽, 就算 & 倒是 — knapp einräumen",
+      subtitle: "zwar …, selbst wenn …, eigentlich schon …",
+      level: 'HSK6',
+      grammarIds: ["g:虽……，但/可/却/也……","g:就算……，也……","g:倒是"],
+      intro: "Einräumen heißt: Du gibst etwas zu und setzt dann einen Gegensatz. Das Grundmuster 虽然……但是 kennst du aus [[lesson:lesson-14]]. Hier kommen drei Mittel dazu, die sich vor allem im Register unterscheiden: <strong>虽</strong> (suī) ist die knappe, eher schriftliche Kurzform von 虽然; <strong>就算……也</strong> (jiùsuàn … yě) ist gesprochen und räumt meist eine <em>Annahme</em> ein („selbst wenn …“); <strong>倒是</strong> (dàoshi) ist ein umgangssprachliches Modaladverb, mit dem du einen positiven Punkt zugibst, bevor die Einschränkung kommt. Der wichtigste Unterschied zum Deutschen: „zwar“ und „auch“ sind im Satz recht beweglich, 虽 und 倒是 stehen dagegen in der Regel nach dem Subjekt, und 也 gehört im zweiten Teil hinter das Subjekt, direkt vor das Prädikat.",
+      sections: [
+        {
+          heading: "虽……，但/可/却/也…… — zwar …, aber (knapp)",
+          text: "<strong>虽</strong> (suī) räumt im ersten Teil eine Tatsache ein, der zweite Teil nennt den Gegensatz mit 但, 可, 却 oder 也. 虽 steht in der Regel nach dem Subjekt, direkt vor einem kurzen Prädikat – oft einem einsilbigen Adjektiv (虽小、虽好、虽远). Die Form wirkt knapp und gehoben; du findest sie vor allem in Texten, Reden und Kommentaren.",
+          examples: [
+            { cn: "这台电脑虽旧，但用起来还很顺手。", pinyin: "Zhè tái diànnǎo suī jiù, dàn yòng qǐlai hái hěn shùnshǒu.", de: "Der Computer ist zwar alt, lässt sich aber noch gut bedienen." },
+            { cn: "她虽身材瘦小，力气却很大。", pinyin: "Tā suī shēncái shòuxiǎo, lìqi què hěn dà.", de: "Sie ist zwar zierlich, aber sehr kräftig." },
+            { cn: "这次比赛虽输了，可大家都学到了很多。", pinyin: "Zhè cì bǐsài suī shū le, kě dàjiā dōu xuédào le hěn duō.", de: "Das Spiel haben wir zwar verloren, aber alle haben viel gelernt." },
+            { cn: "路途虽远，我们也一定会准时赶到。", pinyin: "Lùtú suī yuǎn, wǒmen yě yídìng huì zhǔnshí gǎndào.", de: "Der Weg ist zwar weit, aber wir kommen auf jeden Fall pünktlich an." }
+          ],
+          tip: "Im Alltag sagt man eher 虽然……但是/可是……. 虽 klingt am natürlichsten vor einem kurzen Prädikat."
+        },
+        {
+          heading: "但/可 oder 却/也? — die Stellung im zweiten Teil",
+          text: "Die vier Gegensatzwörter stehen an verschiedenen Stellen: <strong>但</strong> und <strong>可</strong> stehen <em>vor</em> dem Subjekt des zweiten Teils, <strong>却</strong> und <strong>也</strong> sind Adverbien und stehen <em>danach</em>, direkt vor dem Prädikat. Aus dem klassischen Chinesisch stammen feste Wendungen mit 虽, etwa 虽败犹荣 („zwar besiegt, aber ehrenvoll“).",
+          examples: [
+            { cn: "虽然这家店很小，但是东西很全。", pinyin: "Suīrán zhè jiā diàn hěn xiǎo, dànshì dōngxi hěn quán.", de: "Der Laden ist zwar klein, aber es gibt alles. (alltäglich)" },
+            { cn: "这家店虽小，东西却很全。", pinyin: "Zhè jiā diàn suī xiǎo, dōngxi què hěn quán.", de: "Der Laden ist zwar klein, hat aber alles. (knapp; 却 nach dem Subjekt 东西)" },
+            { cn: "这个计划虽好，但我们现在没有足够的钱。", pinyin: "Zhège jìhuà suī hǎo, dàn wǒmen xiànzài méiyǒu zúgòu de qián.", de: "Der Plan ist zwar gut, aber uns fehlt im Moment das Geld. (但 vor dem Subjekt 我们)" },
+            { cn: "他虽是新手，可大家都很信任他。", pinyin: "Tā suī shì xīnshǒu, kě dàjiā dōu hěn xìnrèn tā.", de: "Er ist zwar neu, aber alle vertrauen ihm. (可 vor dem Subjekt 大家)" },
+            { cn: "麻雀虽小，五脏俱全。", pinyin: "Máquè suī xiǎo, wǔzàng jùquán.", de: "Der Spatz ist zwar klein, hat aber alle Organe – klein, aber alles Nötige ist da. (Redensart)" }
+          ],
+          tip: "❌ 这家店虽小，却东西很全。 → ✅ 这家店虽小，东西却很全。 却 gehört hinter das Subjekt."
+        },
+        {
+          heading: "就算……，也…… — selbst wenn (gesprochen)",
+          text: "<strong>就算</strong> (jiùsuàn) leitet meist eine <em>Annahme</em> ein, oft eine hypothetische oder extreme Bedingung; <strong>也</strong> im zweiten Teil zeigt, dass das Ergebnis trotzdem gilt. Darin liegt der Unterschied zu 虽: 虽 räumt eine Tatsache ein, 就算 meist etwas Angenommenes – es kann aber auch ein Zugeständnis an eine Tatsache sein („mag sein, dass …“). 就算 ist die gesprochene Entsprechung von 即使……也 und kann vor oder nach dem Subjekt stehen. Häufig steigert 再 die Bedingung (就算再忙); vor Nomen steht 就算是.",
+          examples: [
+            { cn: "就算明天下大雪，比赛也会照常进行。", pinyin: "Jiùsuàn míngtiān xià dà xuě, bǐsài yě huì zhàocháng jìnxíng.", de: "Selbst wenn es morgen stark schneit, findet das Spiel wie geplant statt." },
+            { cn: "就算再忙，你也要按时吃饭。", pinyin: "Jiùsuàn zài máng, nǐ yě yào ànshí chīfàn.", de: "Egal wie viel du zu tun hast, du musst regelmäßig essen." },
+            { cn: "我就算不睡觉，也要把报告写完。", pinyin: "Wǒ jiùsuàn bú shuìjiào, yě yào bǎ bàogào xiěwán.", de: "Und wenn ich nicht schlafe – den Bericht schreibe ich fertig. (就算 nach dem Subjekt)" },
+            { cn: "就算是专家，也会有看错的时候。", pinyin: "Jiùsuàn shì zhuānjiā, yě huì yǒu kàncuò de shíhou.", de: "Selbst Fachleute liegen manchmal falsch. (就算是 vor einem Nomen)" },
+            { cn: "就算你说得有道理，也该先听听别人的意见。", pinyin: "Jiùsuàn nǐ shuō de yǒu dàoli, yě gāi xiān tīngting biérén de yìjiàn.", de: "Mag sein, dass du recht hast – trotzdem solltest du erst die anderen anhören." }
+          ],
+          tip: "❌ 就算你不同意，也我要去。 → ✅ 就算你不同意，我也要去。 也 steht hinter dem Subjekt. Verwandt: 即使……也 (neutral bis schriftlich), 就是……也 (gesprochen, nachdrücklich), 哪怕……也 (emotional, betont das Extreme)."
+        },
+        {
+          heading: "倒是 — zwar …, nur …: einräumen",
+          text: "Das Modaladverb <strong>倒是</strong> (dàoshi) steht nach dem Subjekt vor dem Prädikat und ist umgangssprachlich. Am häufigsten gibst du damit einen positiven Punkt zu, bevor eine Einschränkung mit 就是, 可是 oder 不过 folgt – wie im Deutschen „… ist ja schon …, nur …“. Ohne Einschränkung drückt 倒是 Zustimmung mit leichter Überraschung aus: „das ist ja eigentlich …“.",
+          examples: [
+            { cn: "这套房子倒是挺大的，就是离地铁站太远了。", pinyin: "Zhè tào fángzi dàoshi tǐng dà de, jiùshì lí dìtiězhàn tài yuǎn le.", de: "Die Wohnung ist zwar ziemlich groß, nur liegt sie zu weit von der U-Bahn." },
+            { cn: "他中文倒是说得很流利，不过汉字写得不太好。", pinyin: "Tā Zhōngwén dàoshi shuō de hěn liúlì, búguò Hànzì xiě de bú tài hǎo.", de: "Chinesisch spricht er ja fließend, aber mit den Schriftzeichen hapert es." },
+            { cn: "这家店的服务倒是挺热情，可是价格太高了。", pinyin: "Zhè jiā diàn de fúwù dàoshi tǐng rèqíng, kěshì jiàgé tài gāo le.", de: "Der Service in dem Laden ist zwar sehr freundlich, aber die Preise sind zu hoch." },
+            { cn: "这个办法倒是挺新鲜的，可以试试。", pinyin: "Zhège bànfǎ dàoshi tǐng xīnxiān de, kěyǐ shìshi.", de: "Die Methode ist ja eigentlich ganz originell – probieren wir sie aus. (Zustimmung)" },
+            { cn: "你说的倒是有道理。", pinyin: "Nǐ shuō de dàoshi yǒu dàoli.", de: "Da hast du eigentlich recht." }
+          ],
+          tip: "Die Kurzform 倒 (dào) wird ähnlich gebraucht: 菜倒不贵. Als feste Antwort hörst du oft 那倒（也）是 – „da hast du eigentlich recht“."
+        },
+        {
+          heading: "倒是 gegen die Erwartung und zum Drängen",
+          text: "Zwei weitere Gebrauchsweisen: 倒是 markiert einen <em>Gegensatz zur Erwartung</em> oder zum Normalfall („dagegen, ausgerechnet“), und mit 呀/啊 am Satzende drängt es ungeduldig: „Nun … doch endlich!“. Abgrenzung zu <strong>反而</strong> (fǎn'ér): 反而 sagt, dass das Gegenteil des Erwarteten eintritt – eine Ursache bewirkt das Gegenteil; 倒是 ist weicher und dient oft nur dem Einräumen oder Gegenüberstellen.",
+          examples: [
+            { cn: "哥哥平时很少运动，这次爬山倒是走得最快。", pinyin: "Gēge píngshí hěn shǎo yùndòng, zhè cì pá shān dàoshi zǒu de zuì kuài.", de: "Mein Bruder treibt sonst kaum Sport, aber ausgerechnet diesmal beim Wandern war er der Schnellste." },
+            { cn: "大家都很紧张，她倒是一点儿也不着急。", pinyin: "Dàjiā dōu hěn jǐnzhāng, tā dàoshi yìdiǎnr yě bù zháojí.", de: "Alle sind nervös – sie dagegen ist völlig gelassen." },
+            { cn: "你倒是快点儿啊，电影马上就开始了！", pinyin: "Nǐ dàoshi kuài diǎnr a, diànyǐng mǎshàng jiù kāishǐ le!", de: "Nun beeil dich doch, der Film fängt gleich an!" },
+            { cn: "你倒是拿个主意呀！", pinyin: "Nǐ dàoshi ná ge zhǔyi ya!", de: "Nun entscheide dich doch endlich!" },
+            { cn: "吃了药，病不但没好，反而更重了。", pinyin: "Chī le yào, bìng búdàn méi hǎo, fǎn'ér gèng zhòng le.", de: "Nach der Medizin ging es nicht besser, sondern sogar schlechter. (反而: Ursache bewirkt das Gegenteil)" }
+          ],
+          tip: "Das drängende 倒是 klingt ungeduldig, fast vorwurfsvoll – gegenüber Vorgesetzten oder Fremden ist es eher unpassend."
+        }
+      ]
+    },
+    // ── Schriftsprache: 于, 因, 除, 所 & 以便 (lesson-75) ──────────
+    {
+      id: 'lesson-75',
+      number: 75,
+      title: "Schriftsprache: 于, 因, 除, 所 & 以便",
+      subtitle: "Knappe Präpositionen und 所 für formelle Texte",
+      level: 'HSK6',
+      grammarIds: ["g:于","g:因","g:除","g:所","g:至于","g:……，以便……"],
+      intro: "In Nachrichten, Aushängen, Lebensläufen und Berichten begegnen dir einsilbige Wörter, die du aus der Alltagssprache in längerer Form kennst: <strong>于</strong> statt 在, <strong>因</strong> statt 因为, <strong>除……外</strong> statt 除了……以外. Dazu kommen die Partikel <strong>所</strong>, die vor einem Verb ein „das, was …“ bildet, und <strong>以便</strong> „damit“, das den Zweck im zweiten Satzteil nachreicht. In dieser Lektion lernst du, diese Wörter zu lesen und in formellen Sätzen selbst einzusetzen – und wo sie im Gespräch steif klingen. Außerdem übst du <strong>至于</strong>, mit dem du zu einem weiteren Thema überleitest; es ist neutral und auch mündlich üblich. Anders als deutsche Amtswörter wie „aufgrund“ oder „gemäß“ verlangen die chinesischen Kurzformen oft feste Partner: 除 braucht 外, 于 hängt an bestimmten Verben, 所 steht meist mit 的.",
+      sections: [
+        {
+          heading: "于 — Zeit und Ort in formellen Texten",
+          text: "<strong>于</strong> (yú) führt wie 在 einen Zeitpunkt oder Ort ein, klingt aber schriftsprachlich. Es steht an zwei Stellen: <em>nach</em> einem meist einsilbigen Verb, mit dem es fest verbunden ist (生于 „geboren in/am“, 位于 „liegt in“, 毕业于 „Abschluss an“, 成立于 „gegründet im Jahr“), oder <em>vor</em> dem Verb, wo sonst 在 stünde – typisch in Ankündigungen mit 将: 将于……举行. Im Alltag sagst du dafür einfach 在 (siehe [[lesson:lesson-24]]).",
+          examples: [
+            { cn: "本次展览将于五月一日开幕。", pinyin: "Běn cì zhǎnlǎn jiāng yú wǔ yuè yī rì kāimù.", de: "Die Ausstellung wird am 1. Mai eröffnet." },
+            { cn: "该公司成立于二零零八年。", pinyin: "Gāi gōngsī chénglì yú èr líng líng bā nián.", de: "Das Unternehmen wurde 2008 gegründet." },
+            { cn: "她二零一五年毕业于复旦大学。", pinyin: "Tā èr líng yī wǔ nián bìyè yú Fùdàn Dàxué.", de: "Sie hat 2015 ihren Abschluss an der Fudan-Universität gemacht." },
+            { cn: "黄山位于安徽省南部。", pinyin: "Huángshān wèiyú Ānhuī Shěng nánbù.", de: "Der Huangshan liegt im Süden der Provinz Anhui." }
+          ],
+          tip: "❌ 我明天于家休息。 → ✅ 我明天在家休息。 Im Gespräch wirkt 于 gestelzt, und nach beliebigen Verben steht es nicht – es hängt an festen Partnern wie 生于, 位于, 毕业于. Andere Verwendungen sind eigene Punkte: 大于 „größer als“, 对于, 由于 und das Wort 于是 „daraufhin“. Zu den Jahreszahlen: Neben 二零零八年 ist die genormte Schreibung mit 〇 verbreitet (二〇〇八年); gelesen wird beides gleich."
+        },
+        {
+          heading: "因 — wegen (knapp und formell)",
+          text: "<strong>因</strong> (yīn) ist die knappe Form von 因为 und nennt eine Ursache: „wegen, aufgrund von“. Es steht meist nach dem Subjekt vor dem Verb; dahinter folgt ein kurzes Nomen oder eine knappe Wortgruppe. Daraus sind feste Verbindungen entstanden: 因病 „krankheitsbedingt“, 因故 „aus bestimmten Gründen“, 因事 „wegen einer Angelegenheit“. Du findest 因 vor allem in Nachrichten, Mitteilungen und auf Aushängen; im Gespräch sagst du 因为 (siehe [[lesson:lesson-15]]).",
+          examples: [
+            { cn: "航班因天气原因取消。", pinyin: "Hángbān yīn tiānqì yuányīn qǔxiāo.", de: "Der Flug wurde wetterbedingt gestrichen." },
+            { cn: "小王因事请假一天。", pinyin: "Xiǎo Wáng yīn shì qǐngjià yì tiān.", de: "Xiao Wang hat sich wegen einer Angelegenheit einen Tag freigenommen." },
+            { cn: "今晚的音乐会因故取消。", pinyin: "Jīnwǎn de yīnyuèhuì yīn gù qǔxiāo.", de: "Das Konzert heute Abend wurde aus bestimmten Gründen abgesagt." },
+            { cn: "这家工厂因污染问题被关闭了。", pinyin: "Zhè jiā gōngchǎng yīn wūrǎn wèntí bèi guānbì le.", de: "Die Fabrik wurde wegen Umweltverschmutzung geschlossen." }
+          ],
+          tip: "❌ 因他昨天晚上没睡好，今天很累。 → ✅ 因为他昨天晚上没睡好，所以今天很累。 Vor einem ganzen Nebensatz stehen 因为 oder 由于; 因 trägt nur eine kurze Ursache. Nicht verwechseln: 因此 „deshalb“ leitet die Folge ein, nicht die Ursache."
+        },
+        {
+          heading: "除……外 — außer, neben (formell)",
+          text: "<strong>除</strong> (chú) ist die schriftsprachliche Kurzform von 除了, die du aus [[lesson:lesson-38]] kennst. Anders als bei 除了 ist der Rahmen hier nahezu fest: 除……外, 除……以外 oder 除……之外. Die Logik bleibt dieselbe: Mit 都 wird das Genannte ausgeschlossen („alle außer X“), mit 还 oder 也 kommt etwas hinzu („neben X auch …“). Typisch ist 除 in Regeln, Öffnungszeiten, Stellenanzeigen und Mitteilungen.",
+          examples: [
+            { cn: "除节假日外，图书馆每天都开放。", pinyin: "Chú jiéjiàrì wài, túshūguǎn měi tiān dōu kāifàng.", de: "Außer an Feiertagen ist die Bibliothek täglich geöffnet." },
+            { cn: "除本人以外，任何人不得使用此卡。", pinyin: "Chú běnrén yǐwài, rènhé rén bùdé shǐyòng cǐ kǎ.", de: "Außer der Karteninhaberin oder dem Karteninhaber darf niemand diese Karte benutzen." },
+            { cn: "除一名学生之外，全班都通过了考试。", pinyin: "Chú yì míng xuésheng zhīwài, quán bān dōu tōngguò le kǎoshì.", de: "Bis auf eine Person hat die ganze Klasse die Prüfung bestanden." },
+            { cn: "除中文以外，这份工作还要求会说英语。", pinyin: "Chú Zhōngwén yǐwài, zhè fèn gōngzuò hái yāoqiú huì shuō Yīngyǔ.", de: "Neben Chinesisch werden für diese Stelle auch Englischkenntnisse verlangt." }
+          ],
+          tip: "❌ 除星期一，博物馆每天都开放。 → ✅ 除星期一外，博物馆每天都开放。 Bei 除 fehlt der Abschluss 外/以外/之外 so gut wie nie; nur bei 除了 darf er entfallen. Und 除非 „es sei denn“ leitet eine Bedingung ein – ein ganz anderes Wort."
+        },
+        {
+          heading: "所 + Verb + 的 — das, was …",
+          text: "Die Strukturpartikel <strong>所</strong> (suǒ) steht direkt vor einem transitiven Verb und macht daraus eine Nominalgruppe für das <em>Objekt</em> der Handlung: 我们所做的 „das, was wir tun“. Meist folgt 的 und oft ein Nomen; die handelnde Person steht davor. Ohne 所 bleibt der Satz korrekt (我们做的), klingt aber neutraler – mit 所 wirkt er gehobener und betonter, typisch für Reden, Berichte und Sachtexte. Zur Partikel 的 selbst siehe [[lesson:lesson-2]].",
+          examples: [
+            { cn: "我们所做的一切都是为了孩子。", pinyin: "Wǒmen suǒ zuò de yíqiè dōu shì wèile háizi.", de: "Alles, was wir tun, tun wir für die Kinder." },
+            { cn: "这不是我所希望的结果。", pinyin: "Zhè bú shì wǒ suǒ xīwàng de jiéguǒ.", de: "Das ist nicht das Ergebnis, das ich mir erhofft habe." },
+            { cn: "你所提到的问题，我们会认真研究。", pinyin: "Nǐ suǒ tídào de wèntí, wǒmen huì rènzhēn yánjiū.", de: "Den Punkt, den du angesprochen hast, werden wir sorgfältig prüfen." },
+            { cn: "正如大家所看到的，今年的销售额增长很快。", pinyin: "Zhèngrú dàjiā suǒ kàndào de, jīnnián de xiāoshòu'é zēngzhǎng hěn kuài.", de: "Wie alle sehen können, ist der Umsatz in diesem Jahr stark gestiegen." }
+          ],
+          tip: "❌ 他所休息的时间不多。 所 steht nur vor Verben, die ein Objekt haben können, und nicht vor Adjektiven – hier also einfach 他休息的时间不多。 Nicht verwechseln: 所有 „alle“ und 所以 „deshalb“ sind eigene Wörter, und als Zählwort zählt 所 Gebäude (一所学校)."
+        },
+        {
+          heading: "以便 und 至于 — Zweck nachreichen, Thema wechseln",
+          text: "<strong>以便</strong> (yǐbiàn) leitet den zweiten Satzteil ein und nennt den Zweck der zuvor genannten Handlung: „damit, um … zu“. Oft folgen 能, 可以 oder 更好地; das Subjekt des zweiten Teils kann wechseln. 以便 ist formell; im Gespräch sagt man eher 好. <strong>至于</strong> (zhìyú) ist dagegen neutral und auch mündlich üblich: Nach einer Aussage über A leitet es zu einem angrenzenden Punkt B über, der oft offen oder nebensächlich ist („was … betrifft“). Die Grundlagen kennst du aus [[lesson:lesson-42]].",
+          examples: [
+            { cn: "请在表格上写清楚电话号码，以便我们及时联系您。", pinyin: "Qǐng zài biǎogé shang xiě qīngchu diànhuà hàomǎ, yǐbiàn wǒmen jíshí liánxì nín.", de: "Bitte tragen Sie Ihre Telefonnummer deutlich ins Formular ein, damit wir Sie rechtzeitig erreichen können." },
+            { cn: "会议资料已提前发给大家，以便各位做好准备。", pinyin: "Huìyì zīliào yǐ tíqián fā gěi dàjiā, yǐbiàn gèwèi zuòhǎo zhǔnbèi.", de: "Die Sitzungsunterlagen wurden vorab verschickt, damit sich alle gut vorbereiten können." },
+            { cn: "他把每天的花费都记下来，以便月底算账。", pinyin: "Tā bǎ měi tiān de huāfèi dōu jì xiàlái, yǐbiàn yuèdǐ suànzhàng.", de: "Er schreibt alle täglichen Ausgaben auf, damit er am Monatsende abrechnen kann." },
+            { cn: "房子我们已经看好了，至于什么时候搬家，还要再商量。", pinyin: "Fángzi wǒmen yǐjīng kànhǎo le, zhìyú shénme shíhou bānjiā, hái yào zài shāngliang.", de: "Die Wohnung haben wir schon ausgesucht; wann wir umziehen, müssen wir noch besprechen." },
+            { cn: "这个方案大家都同意了，至于具体的预算，下次会议再讨论。", pinyin: "Zhège fāng'àn dàjiā dōu tóngyì le, zhìyú jùtǐ de yùsuàn, xià cì huìyì zài tǎolùn.", de: "Dem Konzept haben alle zugestimmt; über das genaue Budget sprechen wir in der nächsten Sitzung." }
+          ],
+          tip: "以便 steht am Anfang des <em>zweiten</em> Teils: ❌ 以便大家准备，资料已提前发出。 Für einen Zweck im ersten Teil nimmt man 为了; soll etwas verhindert werden, heißt es 以免 „damit nicht“. 至于 braucht ein zuvor genanntes Thema – einen Text eröffnen kann nur 关于."
+        }
+      ]
+    },
+    // ── 干脆, 未必, 不禁, 不料 — Haltung und Wendung (lesson-76) ──────────
+    {
+      id: 'lesson-76',
+      number: 76,
+      title: "干脆, 未必, 不禁, 不料 — Haltung und Wendung",
+      subtitle: "Kurzerhand, nicht unbedingt, unwillkürlich, wider Erwarten",
+      level: 'HSK6',
+      grammarIds: ["g:干脆","g:未必","g:不禁","g:不料","g:语气副词@HSK6","g:方式副词@HSK6"],
+      intro: "Mit den Adverbien <strong>干脆</strong>, <strong>未必</strong> und <strong>不禁</strong> und der Konjunktion <strong>不料</strong> zeigst du, wie du zu einem Geschehen stehst: Du entscheidest dich kurzerhand für eine klare Lösung (干脆), stellst eine naheliegende Annahme vorsichtig in Frage (未必), beschreibst eine Reaktion, die man nicht zurückhalten kann (不禁), oder erzählst von einer Wendung, die niemand erwartet hat (不料). Im Deutschen erledigen das kleine Wörter wie „eben“, „doch“ oder „nun mal“, oft auch ganze Nebensätze; im Chinesischen sitzen diese Wörter an festen Stellen – die Adverbien direkt vor dem Verb, 不料 am Anfang des zweiten Satzteils. Neben 不禁 lernst du weitere Adverbien der Art und Weise (特意/特地, 赶忙, 偷偷) und zum Schluss weitere Adverbien der Haltung (明明, 总算, 恰好, 倒是) kennen.",
+      sections: [
+        {
+          heading: "干脆 — kurzerhand, dann eben gleich",
+          text: "<strong>干脆</strong> (gāncuì) drückt aus, dass du angesichts einer unbefriedigenden Lage einen klaren, oft radikalen Schritt wählst, statt weiter herumzuprobieren. Meist nennt der erste Satzteil das Problem, dann folgt 干脆 + Handlung. In Vorschlägen steht oft 吧 am Ende, im Bericht über Vergangenes oft 了. 干脆 kann vor oder nach dem Subjekt stehen und ist umgangssprachlich sehr häufig.",
+          examples: [
+            { cn: "外卖等了一个小时还没到，我们干脆自己做饭吧。", pinyin: "Wàimài děng le yí ge xiǎoshí hái méi dào, wǒmen gāncuì zìjǐ zuòfàn ba.", de: "Wir warten seit einer Stunde auf das bestellte Essen – kochen wir doch einfach selbst." },
+            { cn: "这条裤子改了两次还是不合适，干脆别穿了。", pinyin: "Zhè tiáo kùzi gǎi le liǎng cì háishi bù héshì, gāncuì bié chuān le.", de: "Die Hose wurde zweimal geändert und passt immer noch nicht – dann zieh sie eben gar nicht mehr an." },
+            { cn: "雨越下越大，干脆我们在这儿住一晚吧。", pinyin: "Yǔ yuè xià yuè dà, gāncuì wǒmen zài zhèr zhù yì wǎn ba.", de: "Der Regen wird immer stärker – bleiben wir doch gleich über Nacht hier." },
+            { cn: "她跟老板谈了几次都没有结果，最后干脆换了工作。", pinyin: "Tā gēn lǎobǎn tán le jǐ cì dōu méiyǒu jiéguǒ, zuìhòu gāncuì huàn le gōngzuò.", de: "Sie hat mehrmals erfolglos mit der Chefin oder dem Chef gesprochen und schließlich kurzerhand die Stelle gewechselt." }
+          ],
+          tip: "干脆 ist kein Gradadverb: Anders als 很 steht es nicht vor einem Adjektiv. Als Adjektiv heißt es „geradeheraus, unkompliziert“: 她做事很干脆 „Sie erledigt Dinge ohne Umschweife.“ Vergleiche 只好 „notgedrungen“: Bei 只好 bleibt keine andere Wahl, bei 干脆 entscheidet man sich selbst für den sauberen Schnitt."
+        },
+        {
+          heading: "未必 — nicht unbedingt",
+          text: "<strong>未必</strong> (wèibì) verneint vorsichtig: Etwas ist „nicht unbedingt, nicht zwangsläufig“ so. Damit stellst du eine verbreitete oder naheliegende Annahme in Frage, ohne das Gegenteil zu behaupten. 未必 steht vor dem Prädikat, oft vor 是, 能, 会 oder einem Adjektiv, und kann als Antwort auch allein stehen: „未必。“ – „Nicht unbedingt.“ Der Stil ist neutral bis schriftlich; im Gespräch sagt man meist 不一定.",
+          examples: [
+            { cn: "名牌大学毕业的人未必能找到好工作。", pinyin: "Míngpái dàxué bìyè de rén wèibì néng zhǎodào hǎo gōngzuò.", de: "Wer an einer Eliteuniversität studiert hat, findet nicht unbedingt eine gute Stelle." },
+            { cn: "网上的消息未必可靠。", pinyin: "Wǎngshang de xiāoxi wèibì kěkào.", de: "Nachrichten aus dem Internet sind nicht unbedingt zuverlässig." },
+            { cn: "你觉得容易的事，别人未必也觉得容易。", pinyin: "Nǐ juéde róngyì de shì, biérén wèibì yě juéde róngyì.", de: "Was dir leicht vorkommt, finden andere nicht unbedingt auch leicht." },
+            { cn: "人多未必就是好事。", pinyin: "Rén duō wèibì jiù shì hǎoshì.", de: "Dass viele Leute da sind, ist nicht unbedingt etwas Gutes." }
+          ],
+          tip: "Stärke der Verneinung: 他并不聪明 „er ist keineswegs klug“ – 他未必聪明 „er ist nicht unbedingt klug“. Nicht verwechseln mit 不必 „nicht nötig“: ❌ 你未必来 (gemeint: du musst nicht kommen) → ✅ 你不必来。"
+        },
+        {
+          heading: "不禁 und andere Art-Adverbien — unwillkürlich, extra, eilig, heimlich",
+          text: "<strong>不禁</strong> (bùjīn; 禁 hier im ersten Ton) sagt, dass jemand eine Gefühls- oder Körperreaktion nicht zurückhalten kann. Meist nennt ein erster Satzteil den Auslöser (听到…, 看到…). Danach steht eine Verbphrase, oft mit 了 oder einer Ergänzung (笑了起来, 想起了…), kein bloßes einsilbiges Verb. 不禁 beschreibt Tatsachen: Es wird weder verneint noch in Aufforderungen gebraucht. Es klingt eher schriftlich; mündlich sagt man 忍不住. Ähnliche Adverbien der Art und Weise: <strong>特意</strong>/<strong>特地</strong> „extra, eigens“ (特地赶来 „extra hergekommen“), <strong>赶忙</strong> „eilig“ und <strong>偷偷</strong> „heimlich“, oft mit 地.",
+          examples: [
+            { cn: "读到信的最后一句，他不禁哭了起来。", pinyin: "Dúdào xìn de zuìhòu yí jù, tā bùjīn kū le qǐlái.", de: "Als er den letzten Satz des Briefes las, kamen ihm unwillkürlich die Tränen." },
+            { cn: "看着窗外的大雪，我不禁想起了家乡的冬天。", pinyin: "Kànzhe chuāngwài de dà xuě, wǒ bùjīn xiǎngqǐ le jiāxiāng de dōngtiān.", de: "Beim Blick auf den dichten Schnee draußen musste ich an die Winter in meiner Heimat denken." },
+            { cn: "她特意早起给男朋友做了一个蛋糕。", pinyin: "Tā tèyì zǎoqǐ gěi nánpéngyou zuò le yí ge dàngāo.", de: "Sie ist extra früh aufgestanden, um ihrem Freund einen Kuchen zu backen." },
+            { cn: "电话一响，他赶忙跑过去接。", pinyin: "Diànhuà yì xiǎng, tā gǎnmáng pǎo guòqù jiē.", de: "Als das Telefon klingelte, lief er schnell hin, um abzunehmen." },
+            { cn: "她怕别人看见，偷偷地擦了擦眼泪。", pinyin: "Tā pà biérén kànjiàn, tōutōu de cā le cā yǎnlèi.", de: "Damit es niemand sah, wischte sie sich heimlich die Tränen ab." }
+          ],
+          tip: "❌ 听到这个笑话，我不禁笑。 → ✅ 我不禁笑了起来。 Nach 不禁 braucht das Verb eine Ergänzung. 不得不 „gezwungen sein“ ist etwas anderes: Bei 不禁 überwältigt dich das Gefühl, bei 不得不 die Lage. 赶忙 steht nur im Bericht, nicht in Aufforderungen – dafür nimmt man 赶快."
+        },
+        {
+          heading: "不料 — doch wider Erwarten",
+          text: "Die Konjunktion <strong>不料</strong> (búliào) leitet den zweiten Satzteil ein und zeigt, dass es anders kam als gedacht. Der erste Teil nennt eine Absicht, Erwartung oder Ausgangslage, gern mit 本来 „eigentlich“ oder 以为 „dachte (fälschlich)“; der zweite die überraschende Wendung – meist etwas Unangenehmes, manchmal auch Erfreuliches. 不料 steht vor dem Subjekt und klingt erzählend-schriftlich; im Gespräch sagst du 没想到, gleichbedeutend ist auch 谁知.",
+          examples: [
+            { cn: "我们本来想周末去爬山，不料她突然病了。", pinyin: "Wǒmen běnlái xiǎng zhōumò qù páshān, búliào tā tūrán bìng le.", de: "Eigentlich wollten wir am Wochenende wandern gehen, doch dann wurde sie plötzlich krank." },
+            { cn: "我以为他早就忘了这件事，不料他还记得很清楚。", pinyin: "Wǒ yǐwéi tā zǎo jiù wàng le zhè jiàn shì, búliào tā hái jì de hěn qīngchu.", de: "Ich dachte, er hätte das längst vergessen, doch wider Erwarten wusste er es noch genau." },
+            { cn: "她只是随便买了一张彩票，不料中了大奖。", pinyin: "Tā zhǐshì suíbiàn mǎi le yì zhāng cǎipiào, búliào zhòng le dàjiǎng.", de: "Sie hatte nur so nebenbei ein Los gekauft – und gewann wider Erwarten den Hauptpreis." },
+            { cn: "店里只准备了五十份早餐，不料来了两百多位客人。", pinyin: "Diàn li zhǐ zhǔnbèi le wǔshí fèn zǎocān, búliào lái le liǎngbǎi duō wèi kèrén.", de: "Das Lokal hatte nur fünfzig Frühstücke vorbereitet, doch unerwartet kamen über zweihundert Gäste." }
+          ],
+          tip: "Stellung: 不料 steht <em>vor</em> dem Subjekt des zweiten Teils (不料她……), 竟然 und 居然 sind Adverbien und stehen <em>nach</em> dem Subjekt direkt vor dem Verb (她竟然……). 果然 bedeutet das Gegenteil: „wie erwartet“."
+        },
+        {
+          heading: "Weitere Modaladverbien: 明明, 总算, 恰好, 倒是",
+          text: "Zur Gruppe von 干脆 gehören weitere Adverbien, die die Haltung der sprechenden Person zeigen. <strong>明明</strong> „doch offensichtlich“ steht meist im ersten Satzteil; der zweite drückt einen Widerspruch oder Vorwurf aus (mit 却, 为什么 oder 怎么). <strong>总算</strong> „endlich“ betont die Erleichterung nach Mühe oder Warten. <strong>恰好</strong> „zufällig gerade“ beschreibt ein Zusammentreffen. <strong>倒是</strong> „zwar, ja eigentlich“ räumt etwas ein, meist gefolgt von 就是 oder 可是 „aber“.",
+          examples: [
+            { cn: "你明明答应过我，怎么又忘了？", pinyin: "Nǐ míngmíng dāying guo wǒ, zěnme yòu wàng le?", de: "Du hast es mir doch versprochen – wie kannst du es schon wieder vergessen?" },
+            { cn: "修了三天，电脑总算能用了。", pinyin: "Xiū le sān tiān, diànnǎo zǒngsuàn néng yòng le.", de: "Nach drei Tagen Reparatur funktioniert der Computer endlich wieder." },
+            { cn: "我正要给你打电话，你恰好来了。", pinyin: "Wǒ zhèng yào gěi nǐ dǎ diànhuà, nǐ qiàhǎo lái le.", de: "Ich wollte dich gerade anrufen, und genau da kommst du." },
+            { cn: "这个地方安静倒是安静，就是交通不太方便。", pinyin: "Zhège dìfang ānjìng dàoshi ānjìng, jiùshì jiāotōng bú tài fāngbiàn.", de: "Ruhig ist es hier zwar, aber die Verkehrsanbindung ist nicht besonders gut." }
+          ],
+          tip: "总算 vs. 终于: Beide heißen „endlich“; 总算 betont stärker die Erleichterung und kann auch „immerhin, einigermaßen“ bedeuten: 考得不太好，总算及格了 „Nicht toll, aber immerhin bestanden.“"
+        }
+      ]
+    },
+    // ── 一再, 再三 & 到……为止 — immer wieder und bis jetzt (lesson-77) ──────────
+    {
+      id: 'lesson-77',
+      number: 77,
+      title: "一再, 再三 & 到……为止 — immer wieder und bis jetzt",
+      subtitle: "Wiederholung, Gründlichkeit und Endpunkte",
+      level: 'HSK6',
+      grammarIds: ["g:一再","g:再三","g:时间副词@HSK6","g:到……为止","g:番"],
+      intro: "Wie sagst du, dass jemand etwas <em>immer wieder</em> tut – und wie, dass etwas <em>bis zu einem bestimmten Punkt</em> gilt? Diese Lektion stellt dir zwei Adverbien der Wiederholung vor: <strong>一再</strong> (wiederholt, oft mit Nachdruck oder bei unerwünschten Vorgängen) und <strong>再三</strong> (bewusst, wieder und wieder). Dazu kommen das Zählwort <strong>番</strong>, das eine aufwendige, gründliche Handlung zählt (研究了一番), und der Rahmen <strong>到……为止</strong>, der einen Endpunkt setzt (到目前为止 „bis jetzt“). Zum Schluss lernst du einige gehobene Zeitadverbien wie 一向, 不时 und 仍旧. Im Deutschen stehen „immer wieder“ oder „bis jetzt“ recht frei im Satz; im Chinesischen haben diese Wörter feste Plätze – 一再 nur vor dem Verb, 再三 auch danach, 为止 am Ende des Rahmens. Den Unterschied zwischen 又 und 再 kennst du aus [[lesson:lesson-32]].",
+      sections: [
+        {
+          heading: "一再 — wiederholt, immer wieder",
+          text: "<strong>一再</strong> (yízài) sagt, dass eine Handlung in derselben Sache mehrmals hintereinander geschieht. Es steht vor dem Verb, meist vor zweisilbigen Verben des Sagens und Forderns wie 强调, 提醒, 要求 oder 表示 – oder vor Vorgängen, die sich unerwünscht wiederholen, wie 推迟 „verschieben“ oder 发生 „vorkommen“. Meist geht es um Vergangenes oder Andauerndes; eine künftige Wiederholung drückst du mit 再 aus. Der Stil ist eher schriftlich bzw. neutral-gehoben.",
+          examples: [
+            { cn: "老师一再强调，考试的时候不能用手机。", pinyin: "Lǎoshī yízài qiángdiào, kǎoshì de shíhou bù néng yòng shǒujī.", de: "Die Lehrkraft betonte immer wieder, dass in der Prüfung keine Handys benutzt werden dürfen." },
+            { cn: "这个项目的开始时间一再推迟。", pinyin: "Zhège xiàngmù de kāishǐ shíjiān yízài tuīchí.", de: "Der Starttermin des Projekts wurde immer wieder verschoben." },
+            { cn: "公司一再表示，不会让员工失业。", pinyin: "Gōngsī yízài biǎoshì, bú huì ràng yuángōng shīyè.", de: "Die Firma hat wiederholt erklärt, dass keine Beschäftigten ihre Stelle verlieren werden." },
+            { cn: "同样的错误一再发生，说明管理有问题。", pinyin: "Tóngyàng de cuòwù yízài fāshēng, shuōmíng guǎnlǐ yǒu wèntí.", de: "Dass derselbe Fehler immer wieder passiert, zeigt, dass mit der Organisation etwas nicht stimmt." }
+          ],
+          tip: "一再 blickt zurück: ❌ 明天我一再给你打电话。 → ✅ 明天我再给你打电话。 Für „noch einmal (künftig)“ nimmt man 再, für „schon wieder (einmal)“ 又."
+        },
+        {
+          heading: "再三 — wieder und wieder, ganz bewusst",
+          text: "<strong>再三</strong> (zàisān) betont, dass jemand etwas bewusst und mit Nachdruck wiederholt – beim Bitten, Ermahnen, Danken oder Abwägen. Vor dem Verb ist es oft mit 一再 austauschbar. Nur 再三 kann aber auch <em>nach</em> einigen Verben stehen, vor allem bei 考虑 und 犹豫 (考虑再三 „nach reiflicher Überlegung“), und mit 的 als Attribut vor einem Nomen: 在……的再三要求下 „auf wiederholtes Drängen von …“. Der Stil ist eher schriftlich bzw. gehoben.",
+          examples: [
+            { cn: "她再三感谢我们的帮助。", pinyin: "Tā zàisān gǎnxiè wǒmen de bāngzhù.", de: "Sie bedankte sich vielmals für unsere Hilfe." },
+            { cn: "我犹豫再三，还是没有把真相告诉他。", pinyin: "Wǒ yóuyù zàisān, háishi méiyǒu bǎ zhēnxiàng gàosu tā.", de: "Nach langem Zögern habe ich ihm die Wahrheit dann doch nicht gesagt." },
+            { cn: "经理再三检查了合同，才签了字。", pinyin: "Jīnglǐ zàisān jiǎnchá le hétong, cái qiān le zì.", de: "Die Geschäftsleitung prüfte den Vertrag mehrmals, bevor sie unterschrieb." },
+            { cn: "在家人的再三劝说下，他终于去看了医生。", pinyin: "Zài jiārén de zàisān quànshuō xià, tā zhōngyú qù kàn le yīshēng.", de: "Auf das wiederholte Zureden seiner Familie hin ließ er sich schließlich ärztlich untersuchen." }
+          ],
+          tip: "Faustregel: Vor dem Verb gehen meist beide. Nach dem Verb und als Attribut nur 再三: ❌ 考虑一再 → ✅ 考虑再三. Bei unerwünschten Vorgängen, die sich wiederholen, ist dagegen 一再 üblicher: 航班一再延误 „Der Abflug verzögerte sich immer wieder.“"
+        },
+        {
+          heading: "Verb + 一番 — gründlich, mit Mühe",
+          text: "Das Zählwort <strong>番</strong> (fān) zählt Handlungen, die Zeit und Mühe kosten oder gründlich ausgeführt werden. Es steht fast immer mit 一 und folgt meist einem zweisilbigen Verb, oft mit 了: 研究了一番 „gründlich untersucht“. Häufig ist auch 经过一番 + Nomen: 经过一番讨论 „nach eingehender Diskussion“. Außerdem zählt 番 Worte: 一番话 „eine eindringliche Rede“. Der Stil ist eher gehoben. 一下 („kurz“) und 一遍 („einmal von vorn bis hinten“) sind alltäglicher, betonen aber nicht die Gründlichkeit.",
+          examples: [
+            { cn: "搬家以前，我们把房间好好打扫了一番。", pinyin: "Bānjiā yǐqián, wǒmen bǎ fángjiān hǎohǎo dǎsǎo le yì fān.", de: "Vor dem Umzug haben wir die Wohnung gründlich geputzt." },
+            { cn: "他把新买的相机仔细研究了一番。", pinyin: "Tā bǎ xīn mǎi de xiàngjī zǐxì yánjiū le yì fān.", de: "Er hat die neue Kamera eingehend unter die Lupe genommen." },
+            { cn: "经过一番讨论，大家终于达成了一致。", pinyin: "Jīngguò yì fān tǎolùn, dàjiā zhōngyú dáchéng le yízhì.", de: "Nach eingehender Diskussion waren sich endlich alle einig." },
+            { cn: "校长对新同学说了一番鼓励的话。", pinyin: "Xiàozhǎng duì xīn tóngxué shuō le yì fān gǔlì de huà.", de: "Die Schulleitung richtete ermutigende Worte an die neuen Schülerinnen und Schüler." }
+          ],
+          tip: "Vergleiche: 看一下 „kurz anschauen“ – 仔细观察了一番 „eingehend betrachtet“. Achtung: 翻了一番 (fān le yì fān) heißt „hat sich verdoppelt“, und 三番五次 „immer wieder“ ist eine feste Wendung."
+        },
+        {
+          heading: "到……为止 — bis (zu einem Endpunkt)",
+          text: "Der Rahmen <strong>到</strong> …… <strong>为止</strong> (wéizhǐ) setzt einen Endpunkt: „bis …“. Dazwischen steht ein Zeitpunkt (到目前为止 „bis jetzt“), ein Punkt in einem Ablauf (到这里为止 „bis hierher“) oder ein ganzer Satz, der das Ende eines Vorgangs nennt. Der Rahmen steht am Satzanfang als Zeitangabe oder nach dem Verb; 为止 betont, dass genau dort Schluss ist. Er ist gesprochen wie geschrieben üblich, in Berichten und Mitteilungen besonders häufig. Fest ist 到此为止 „bis hierher und nicht weiter“.",
+          examples: [
+            { cn: "到目前为止，我们还没收到任何回复。", pinyin: "Dào mùqián wéizhǐ, wǒmen hái méi shōudào rènhé huífù.", de: "Bis jetzt haben wir noch keine Antwort bekommen." },
+            { cn: "报名到本月三十日为止。", pinyin: "Bàomíng dào běn yuè sānshí rì wéizhǐ.", de: "Anmeldungen sind bis zum Dreißigsten dieses Monats möglich." },
+            { cn: "他每天跑步，一直跑到出汗为止。", pinyin: "Tā měi tiān pǎobù, yìzhí pǎo dào chūhàn wéizhǐ.", de: "Er läuft jeden Tag so lange, bis er ins Schwitzen kommt." },
+            { cn: "今天的讨论就到此为止吧。", pinyin: "Jīntiān de tǎolùn jiù dào cǐ wéizhǐ ba.", de: "Machen wir mit der Diskussion für heute hier Schluss." }
+          ],
+          tip: "Den Anfangspunkt markierst du anders: 从……开始 „ab“ oder (自)……以来 „seit“. Schriftsprachlich heißt „bis heute“ auch 迄今为止."
+        },
+        {
+          heading: "Weitere Zeitadverbien: 一向, 不时, 仍旧, 依旧, 一时",
+          text: "Zum Thema Wiederholung und Dauer passen einige eher schriftliche Zeitadverbien: <strong>不时</strong> „immer wieder, ab und zu“ für kurze Handlungen, die in Abständen vorkommen – meist ohne den Nachdruck, den 一再 oft hat. <strong>一向</strong> „schon immer, stets“ beschreibt Gewohnheiten und Eigenschaften. <strong>仍旧</strong> „nach wie vor“ entspricht 仍然; <strong>依旧</strong> „unverändert, wie eh und je“ ist literarischer. <strong>一时</strong> „im Augenblick, vorübergehend“ steht oft mit Verneinung oder Potenzialform.",
+          examples: [
+            { cn: "她一向很节约，从来不乱花钱。", pinyin: "Tā yíxiàng hěn jiéyuē, cónglái bú luàn huā qián.", de: "Sie ist schon immer sparsam und gibt nie unnötig Geld aus." },
+            { cn: "上课的时候，窗外不时传来汽车的声音。", pinyin: "Shàngkè de shíhou, chuāngwài bùshí chuánlái qìchē de shēngyīn.", de: "Während des Unterrichts drang immer wieder Autolärm von draußen herein." },
+            { cn: "十年没见，他仍旧那么爱开玩笑。", pinyin: "Shí nián méi jiàn, tā réngjiù nàme ài kāi wánxiào.", de: "Zehn Jahre haben wir uns nicht gesehen, und er macht immer noch so gern Witze." },
+            { cn: "老街依旧，只是人已经不一样了。", pinyin: "Lǎo jiē yījiù, zhǐshì rén yǐjīng bù yíyàng le.", de: "Die alte Straße ist wie eh und je, nur die Menschen sind andere geworden." },
+            { cn: "这个问题太突然了，我一时不知道怎么回答。", pinyin: "Zhège wèntí tài tūrán le, wǒ yìshí bù zhīdào zěnme huídá.", de: "Die Frage kam so plötzlich, dass ich im ersten Moment nicht wusste, was ich antworten sollte." }
+          ],
+          tip: "一向 vs. 一直: 一向 beschreibt eine dauerhafte Gewohnheit oder Eigenschaft, 一直 auch eine einzelne, ununterbrochen andauernde Handlung: ✅ 我一直在等你 – ❌ 我一向在等你."
+        }
+      ]
+    },
+    // ── 啦, 嘛 & 人家 — Ton und Haltung im Gespräch (lesson-78) ──────────
+    {
+      id: 'lesson-78',
+      number: 78,
+      title: "啦, 嘛 & 人家 — Ton und Haltung im Gespräch",
+      subtitle: "Lebhaft, selbstverständlich, schmollend",
+      level: 'HSK6',
+      grammarIds: ["g:啦","g:嘛","g:人家"],
+      intro: "In echten Gesprächen tragen kleine Wörter am Satzende einen großen Teil der Stimmung. Diese Lektion zeigt dir drei typisch gesprochene Mittel: <strong>啦 (la)</strong> ist eine Verschmelzung aus 了 und 啊 – es meldet eine neue Situation und färbt sie lebhaft, erleichtert oder ungeduldig. <strong>嘛 (ma)</strong> stellt etwas als selbstverständlich hin („ist doch klar“) oder macht eine Bitte drängend-weich. Das Pronomen <strong>人家 (rénjia)</strong> kann „die anderen“, eine bestimmte dritte Person oder – schmollend – sogar „ich“ bedeuten. Im Deutschen leisten das vor allem Abtönungspartikeln wie „doch“, „ja“, „halt“ und die Satzmelodie. Du brauchst diese Wörter vor allem, um Dialoge, Serien und Chats zu verstehen; in Aufsätzen und formellen Texten haben sie nichts verloren.",
+      sections: [
+        {
+          heading: "啦 — 了 + 啊: lebhafte Feststellung und Ausruf",
+          text: "<strong>啦</strong> ist aus 了 (le) und 啊 (a) zusammengezogen. Es behält die Bedeutung von 了 – Veränderung, neue Situation, Abschluss – und fügt die Gefühlsfärbung von 啊 hinzu: Freude, Erleichterung, Überraschung oder Nachdruck. Grob gilt: Wo am Satzende ein 了 stehen kann, kann man es im lebhaften Gespräch zu 啦 machen. Zum neutralen 了 am Satzende siehe [[lesson:lesson-1]].",
+          examples: [
+            { cn: "春天来啦！", pinyin: "Chūntiān lái la!", de: "Der Frühling ist da!" },
+            { cn: "我考过啦！", pinyin: "Wǒ kǎoguò la!", de: "Ich hab die Prüfung bestanden!" },
+            { cn: "饭做好啦，快来吃吧！", pinyin: "Fàn zuòhǎo la, kuài lái chī ba!", de: "Das Essen ist fertig, kommt schnell essen!" },
+            { cn: "好啦好啦，我知道啦。", pinyin: "Hǎo la hǎo la, wǒ zhīdào la.", de: "Schon gut, schon gut, ich hab’s ja verstanden." }
+          ],
+          tip: "啦 gehört in die gesprochene Sprache und in lockere Chats. In neutraler Rede und in sachlichen Texten steht 了. Wer 啦 an jeden Satz hängt, klingt schnell verspielt oder kindlich."
+        },
+        {
+          heading: "啦 beim Drängen und in Aufzählungen",
+          text: "Mit <strong>别 … 啦</strong> drängst du jemanden, mit etwas aufzuhören: Das 了-Element meint „jetzt ist Schluss damit“, das 啊-Element bringt Ungeduld oder Zuneigung hinein. Eine zweite Verwendung ist die <strong>Aufzählung</strong>: 啦 steht dann nach jedem Glied (X啦、Y啦、Z啦) und klingt wie „… und so weiter, alles Mögliche“. Danach folgt meist eine Zusammenfassung wie 什么都有 oder 忙得不得了.",
+          examples: [
+            { cn: "别哭啦，没事的。", pinyin: "Bié kū la, méi shì de.", de: "Hör doch auf zu weinen, es ist nichts Schlimmes." },
+            { cn: "别看啦，快去写作业吧！", pinyin: "Bié kàn la, kuài qù xiě zuòyè ba!", de: "Hör auf zu gucken und mach endlich deine Hausaufgaben!" },
+            { cn: "周末他跑步啦、游泳啦、打篮球啦，忙得不得了。", pinyin: "Zhōumò tā pǎobù la, yóuyǒng la, dǎ lánqiú la, máng de bùdéliǎo.", de: "Am Wochenende geht er joggen, schwimmen, Basketball spielen – er ist ständig beschäftigt." },
+            { cn: "衣服啦、书啦、鞋啦，扔得满地都是。", pinyin: "Yīfu la, shū la, xié la, rēng de mǎn dì dōu shì.", de: "Kleidung, Bücher, Schuhe – alles liegt auf dem Boden verstreut." }
+          ],
+          tip: "In der Aufzählung hat 啦 nichts mit „Veränderung“ zu tun; es markiert nur die Glieder einer lockeren, unvollständigen Liste."
+        },
+        {
+          heading: "嘛 — „ist doch klar“, „… doch“",
+          text: "<strong>嘛</strong> stellt eine Aussage als selbstverständlich hin, oft als Begründung im ersten Satzteil: „er ist doch …, deshalb …“. Zweitens macht es Bitten und Aufforderungen zugleich weicher und drängender – mit vertraulichem, manchmal quengelndem Ton („komm doch!“). Drittens kann 嘛 nach einem Thema eine kurze Pause markieren: 这个问题嘛，… „Was diese Frage angeht, …“. 嘛 gehört in die gesprochene Sprache; in formellen Texten kommt es kaum vor.",
+          examples: [
+            { cn: "他是北京人嘛，当然知道哪儿的烤鸭好吃。", pinyin: "Tā shì Běijīng rén ma, dāngrán zhīdào nǎr de kǎoyā hǎochī.", de: "Er ist doch aus Peking, natürlich weiß er, wo es gute Pekingente gibt." },
+            { cn: "孩子嘛，都喜欢玩。", pinyin: "Háizi ma, dōu xǐhuan wán.", de: "Kinder sind eben so – sie spielen nun mal gern." },
+            { cn: "你就尝一口嘛！", pinyin: "Nǐ jiù cháng yì kǒu ma!", de: "Probier doch wenigstens einen Bissen!" },
+            { cn: "别着急嘛，慢慢来。", pinyin: "Bié zháojí ma, mànmàn lái.", de: "Nur keine Eile, immer mit der Ruhe." },
+            { cn: "这个问题嘛，我们明天再讨论。", pinyin: "Zhège wèntí ma, wǒmen míngtiān zài tǎolùn.", de: "Was diese Frage angeht – die besprechen wir morgen." }
+          ],
+          tip: "Fester Ausdruck: 可不是嘛 (kě bú shì ma) „genau, sag ich doch“ – kräftige Zustimmung."
+        },
+        {
+          heading: "人家 (rénjia) — andere, er/sie, ich",
+          text: "<strong>人家</strong> (zweite Silbe tonlos) ist ein umgangssprachliches Pronomen mit drei Lesarten: 1. „die anderen“ wie 别人, oft als Vorbild oder Vergleich; 2. eine bestimmte dritte Person, die schon erwähnt wurde oder klar ist – oft respektvoll oder distanziert; 3. „ich“: Die sprechende Person meint sich selbst, schmollend, verspielt oder kokett, typisch in vertrauten Gesprächen. Welche Lesart gilt, zeigt nur der Zusammenhang.",
+          examples: [
+            { cn: "人家都在努力，你怎么还在玩游戏？", pinyin: "Rénjia dōu zài nǔlì, nǐ zěnme hái zài wán yóuxì?", de: "Alle anderen strengen sich an – und du spielst immer noch?" },
+            { cn: "你看人家小李，每天六点就起床了。", pinyin: "Nǐ kàn rénjia Xiǎo Lǐ, měi tiān liù diǎn jiù qǐchuáng le.", de: "Schau dir mal Xiao Li an – steht jeden Tag schon um sechs auf." },
+            { cn: "人家好心帮你，你怎么连声谢谢都不说？", pinyin: "Rénjia hǎoxīn bāng nǐ, nǐ zěnme lián shēng xièxie dōu bù shuō?", de: "Da hilft man dir aus reiner Freundlichkeit, und du sagst nicht mal Danke?" },
+            { cn: "人家不想去嘛！", pinyin: "Rénjia bù xiǎng qù ma!", de: "Ich will aber nicht hin! (schmollend)" },
+            { cn: "你又忘了人家的生日！", pinyin: "Nǐ yòu wàng le rénjia de shēngrì!", de: "Du hast schon wieder meinen Geburtstag vergessen! (vorwurfsvoll-verspielt)" }
+          ],
+          tip: "Mit vollem Ton gesprochen, ist 人家 (rénjiā) ein Nomen: „Haushalt, Familie“. 别人 (biéren) bedeutet nur „andere“, nie „ich“. In formellen Texten nimmt man 别人 oder 他人 (tārén)."
+        },
+        {
+          heading: "Nicht verwechseln: 啦 – 了, 嘛 – 吗 – 吧",
+          text: "啦 ist kein neues 了, sondern 了 plus Gefühl: 他走了 ist eine neutrale Feststellung, 他走啦 klingt erleichtert oder überrascht. Größer ist die Gefahr bei <strong>嘛</strong> und <strong>吗</strong>, die beide „ma“ ausgesprochen werden: 吗 macht eine Ja/Nein-Frage ([[lesson:lesson-22]]), 嘛 stellt nie eine Frage. 吧 dagegen schlägt vor oder vermutet, während 嘛 drängt oder Selbstverständliches betont.",
+          examples: [
+            { cn: "他终于走啦！", pinyin: "Tā zhōngyú zǒu la!", de: "Endlich ist er weg! (erleichtert; neutral: 他走了。)" },
+            { cn: "❌ 你明天来嘛？", pinyin: "", de: "(Falsch als Frage – 嘛 fragt nicht.)" },
+            { cn: "✅ 你明天来吗？", pinyin: "Nǐ míngtiān lái ma?", de: "Kommst du morgen?" },
+            { cn: "你明天来吧。", pinyin: "Nǐ míngtiān lái ba.", de: "Komm doch morgen. (Vorschlag)" },
+            { cn: "你明天来嘛！", pinyin: "Nǐ míngtiān lái ma!", de: "Jetzt komm doch morgen! (drängend, vertraulich)" }
+          ],
+          tip: "Beim Lesen hilft das Satzzeichen: Nach 吗 steht ein Fragezeichen, nach 嘛 ein Punkt, Komma oder Ausrufezeichen."
+        }
+      ]
+    },
+    // ── Reagieren: 算了, 得了, 那倒是, 好不容易 (lesson-79) ──────────
+    {
+      id: 'lesson-79',
+      number: 79,
+      title: "Reagieren: 算了, 得了, 那倒是, 好不容易",
+      subtitle: "Abwinken, beenden, einlenken, Mühe betonen",
+      level: 'HSK6',
+      grammarIds: ["g:算了","g:得了","g:那倒（也）是","g:好（不）容易"],
+      intro: "Gespräche bestehen nicht nur aus Informationen, sondern auch aus Reaktionen: Man winkt ab, beendet eine Diskussion, gibt dem Gegenüber recht oder erzählt, wie mühsam etwas war. Diese Lektion bündelt vier feste Ausdrücke dafür. Mit <strong>算了 (suàn le)</strong> verzichtest du: „lass gut sein“, „dann eben nicht“. <strong>得了 (dé le)</strong> heißt „genug jetzt“ oder, am Satzende, „… und gut ist“. Mit <strong>那倒（也）是 (nà dào (yě) shì)</strong> lenkst du ein: „da hast du allerdings recht“. Und <strong>好不容易 / 好容易</strong> vor dem Verb betont, dass etwas nur mit großer Mühe gelang. Alle vier sind umgangssprachlich. Für Deutschsprachige ist vor allem 好容易 eine Falle: Vor dem Verb heißt es dasselbe wie 好不容易 – „mit Mühe“, nicht „sehr leicht“.",
+      sections: [
+        {
+          heading: "算了 — lass gut sein, dann eben nicht",
+          text: "<strong>算了</strong> (oft 算了吧) steht allein oder am Satzanfang, wenn du auf etwas verzichtest oder eine Sache fallen lässt: „vergiss es“, „schon gut“. Nach einer Bedingung oder Feststellung steht <strong>…… 就算了</strong>: „dann eben nicht“, „dann lassen wir es dabei“. Je nach Ton klingt es gelassen, resigniert oder verärgert. Als Nachsicht heißt 这次就算了 „diesmal lassen wir es durchgehen“. Wörtlich etwa „gilt als erledigt“: 算 (suàn) „rechnen, gelten“ + 了.",
+          examples: [
+            { cn: "算了，不说这个了。", pinyin: "Suàn le, bù shuō zhège le.", de: "Ach, vergiss es, reden wir nicht mehr davon." },
+            { cn: "太贵了，算了吧，我们去别家看看。", pinyin: "Tài guì le, suàn le ba, wǒmen qù bié jiā kànkan.", de: "Zu teuer – lass gut sein, wir schauen woanders." },
+            { cn: "你不愿意帮忙就算了，我找别人。", pinyin: "Nǐ bú yuànyì bāngmáng jiù suàn le, wǒ zhǎo biéren.", de: "Wenn du nicht helfen willst, dann eben nicht – ich frag jemand anderen." },
+            { cn: "买不到票就算了，我们在家看比赛。", pinyin: "Mǎi bu dào piào jiù suàn le, wǒmen zài jiā kàn bǐsài.", de: "Wenn wir keine Karten bekommen, dann eben nicht – wir schauen das Spiel zu Hause." },
+            { cn: "看你是第一次，这次就算了。", pinyin: "Kàn nǐ shì dì yī cì, zhè cì jiù suàn le.", de: "Weil es dein erstes Mal ist, lasse ich es diesmal durchgehen." }
+          ],
+          tip: "Ton beachten: Ein knappes, scharfes „算了！“ kann beleidigt klingen („dann eben nicht!“). Mit 吧 und ruhiger Stimme wirkt es gelassen."
+        },
+        {
+          heading: "得了 (dé le) — genug jetzt, … und gut ist",
+          text: "<strong>得了</strong> hat zwei Hauptverwendungen. Am Satzanfang beendet es eine Diskussion oder weist etwas zurück: „genug!“, „schon gut, hör auf“. <strong>得了吧</strong> klingt dabei oft spöttisch oder ungläubig: „ach komm, wer’s glaubt“. Am Satzende sagt <strong>…… 就得了</strong>, dass eine einfache Lösung genügt: „… und gut ist“, „das reicht“. Bedeutungsnah sind 行了 und 好了, die etwas weniger salopp klingen.",
+          examples: [
+            { cn: "得了，别吵了，大家都少说两句。", pinyin: "Dé le, bié chǎo le, dàjiā dōu shǎo shuō liǎng jù.", de: "Genug jetzt, hört auf zu streiten, haltet euch alle mal zurück." },
+            { cn: "得了吧，你哪儿会做饭啊？", pinyin: "Dé le ba, nǐ nǎr huì zuò fàn a?", de: "Ach komm, seit wann kannst du denn kochen?" },
+            { cn: "不用那么麻烦，随便吃点儿就得了。", pinyin: "Búyòng nàme máfan, suíbiàn chī diǎnr jiù dé le.", de: "Mach dir nicht so viel Mühe, wir essen einfach irgendwas, das reicht." },
+            { cn: "你直接告诉他就得了，何必写信？", pinyin: "Nǐ zhíjiē gàosu tā jiù dé le, hébì xiě xìn?", de: "Sag es ihm einfach direkt, und gut ist – wozu einen Brief schreiben?" }
+          ],
+          tip: "Aussprache: dé le. Nicht verwechseln mit dem Potentialkomplement V + 得了 (de liǎo) „können“: 去得了 „hingehen können“. Und: 算了 betont den Verzicht („dann eben nicht“), 得了 eher „genug“ und „das reicht“."
+        },
+        {
+          heading: "那倒（也）是 — da hast du allerdings recht",
+          text: "Mit <strong>那倒是</strong> oder <strong>那倒也是</strong> gibst du dem Gegenüber in einem Punkt recht, den du vorher nicht bedacht oder anders gesehen hast. 那 verweist auf das eben Gesagte, 倒 (dào) gibt den Ton des Einräumens, 也 macht die Zustimmung weicher. Die Formel steht als ganze Antwort oder am Anfang einer Erwiderung; oft folgt ein Vorbehalt mit 不过, 就是 oder 可是 oder eine neue Schlussfolgerung (那我们还是 …). Sie ist rein umgangssprachlich.",
+          examples: [
+            { cn: "那倒是，现在打车确实比坐地铁方便。", pinyin: "Nà dào shì, xiànzài dǎchē quèshí bǐ zuò dìtiě fāngbiàn.", de: "Das stimmt allerdings, mit dem Taxi ist es inzwischen wirklich bequemer als mit der U-Bahn." },
+            { cn: "那倒也是，孩子还小，慢慢教吧。", pinyin: "Nà dào yě shì, háizi hái xiǎo, mànmàn jiāo ba.", de: "Da hast du auch wieder recht – das Kind ist noch klein, bringen wir es ihm nach und nach bei." },
+            { cn: "那倒是，就是时间有点儿紧。", pinyin: "Nà dào shì, jiùshì shíjiān yǒudiǎnr jǐn.", de: "Das stimmt schon, nur ist die Zeit etwas knapp." },
+            { cn: "那倒也是，那我们还是早点儿出发吧。", pinyin: "Nà dào yě shì, nà wǒmen háishi zǎo diǎnr chūfā ba.", de: "Stimmt eigentlich – dann fahren wir lieber etwas früher los." }
+          ],
+          tip: "那倒是 räumt ein, oft mit Vorbehalt. Für kräftige, vorbehaltlose Zustimmung sagt man 可不是嘛 „genau, sag ich doch“."
+        },
+        {
+          heading: "好不容易 / 好容易 + Verb — mit großer Mühe",
+          text: "<strong>好不容易</strong> und <strong>好容易</strong> stehen vor dem Verb und bedeuten dasselbe: „mit großer Mühe“, „nur mühsam“, „endlich, nach langem Bemühen“. Das 好 ist ein verstärkendes „sehr“, das 不 ändert hier nichts; 好不容易 ist die häufigere Form. Oft folgt 才 (cái) vor dem Verb. Nicht selten schließt sich eine enttäuschende Wendung mit 结果 oder 却 an. Der Ausdruck ist vor allem gesprochen und erzählend.",
+          examples: [
+            { cn: "我好不容易才把车停好。", pinyin: "Wǒ hǎo bù róngyì cái bǎ chē tínghǎo.", de: "Ich habe das Auto nur mit Mühe eingeparkt." },
+            { cn: "她好容易才睡着，别吵醒她。", pinyin: "Tā hǎo róngyì cái shuìzháo, bié chǎoxǐng tā.", de: "Sie ist endlich eingeschlafen – weck sie nicht auf." },
+            { cn: "好不容易找到了工作，他又不想干了。", pinyin: "Hǎo bù róngyì zhǎodào le gōngzuò, tā yòu bù xiǎng gàn le.", de: "Nach langer Suche hat er endlich eine Stelle gefunden – und jetzt will er schon nicht mehr." },
+            { cn: "我们好不容易爬到山顶，却什么也看不见。", pinyin: "Wǒmen hǎo bù róngyì pádào shāndǐng, què shénme yě kàn bu jiàn.", de: "Mühsam sind wir bis zum Gipfel geklettert – und dann sah man gar nichts." }
+          ],
+          tip: "Merkhilfe: Vor dem Verb ist die Mühe gemeint, egal ob mit oder ohne 不."
+        },
+        {
+          heading: "Vorsicht: 好容易 als Prädikat und 终于",
+          text: "Steht der Ausdruck nicht vor einem Verb, sondern als <strong>Prädikat</strong>, gilt die normale Bedeutung: 这道题好容易 „diese Aufgabe ist sehr leicht“, 学好中文好不容易 „gut Chinesisch zu lernen ist gar nicht leicht“. Hier sind die beiden Formen also Gegensätze. Vom Adverb <strong>终于</strong> „endlich“ unterscheidet sich 好不容易 dadurch, dass 终于 nur das Ende des Wartens betont, 好不容易 dagegen die Mühe.",
+          examples: [
+            { cn: "这道题好容易，一看就会。", pinyin: "Zhè dào tí hǎo róngyì, yí kàn jiù huì.", de: "Die Aufgabe ist total leicht, die kann man auf den ersten Blick." },
+            { cn: "学好中文好不容易啊！", pinyin: "Xuéhǎo Zhōngwén hǎo bù róngyì a!", de: "Gut Chinesisch zu lernen ist gar nicht leicht!" },
+            { cn: "车终于来了。", pinyin: "Chē zhōngyú lái le.", de: "Endlich kommt der Bus. (nur: das Warten ist vorbei)" },
+            { cn: "我好不容易才等到车。", pinyin: "Wǒ hǎo bù róngyì cái děngdào chē.", de: "Ich habe ewig auf den Bus gewartet, bis er endlich kam. (betont die Mühe)" }
+          ],
+          tip: "❌ 这道题好不容易 im Sinn von „ganz leicht“ → ✅ 这道题好容易 bzw. 这道题很容易. Als Prädikat bedeutet 好不容易 „gar nicht leicht“."
+        }
+      ]
+    },
+    // ── 把 mit Ursache und Betroffenem (lesson-80) ──────────
+    {
+      id: 'lesson-80',
+      number: 80,
+      title: "把 mit Ursache und Betroffenem",
+      subtitle: "这场雨把我淋透了 · 这件事把他急坏了 · 看把你高兴得",
+      level: 'HSK6',
+      grammarIds: ["g:主语（非生物体）+把+宾语+动词+其他成分","g:主语+把+宾语（施事）+动词+其他成分","g:看/瞧+把+宾语（施事）+X得"],
+      intro: "Den gewöhnlichen 把-Satz kennst du aus [[lesson:lesson-4]]: Eine Person tut etwas mit einem bestimmten Objekt und verändert es. Diese Lektion zeigt drei fortgeschrittene Varianten. Erstens kann das Subjekt etwas <strong>Unbelebtes</strong> sein – ein Unwetter, eine Nachricht, ein Lied –, das als Ursache auf jemanden einwirkt: 这场雨把我淋透了. Zweitens kann das Nomen nach 把 die Person sein, die etwas <strong>erlebt oder selbst tut</strong>: In 这件事把他急坏了 ist „er“ derjenige, der in Sorge gerät. Drittens gibt es den Ausruf <strong>看/瞧把 + Person + X得</strong>: „Schau nur, wie … du bist!“. Im Deutschen entsprechen dem oft Sätze mit „machen“, „bringen“, „versetzen“ oder einfach ein Satz mit der betroffenen Person als Subjekt. Die Grundregel bleibt: Nach dem Verb braucht der 把-Satz ein weiteres Element.",
+      sections: [
+        {
+          heading: "Unbelebte Ursache + 把 + Objekt + Verb + Ergebnis",
+          text: "Im typischen 把-Satz handelt eine Person bewusst. Hier steht als Subjekt dagegen eine <strong>Sache oder ein Ereignis</strong>, oft ein Naturereignis, das als Ursache auf das Objekt einwirkt. Sonst gilt alles wie gewohnt: Das Objekt ist bestimmt, und nach dem Verb folgt ein „anderes Element“ (其他成分) – ein Ergebnis- oder Richtungskomplement, 了 oder eine Mengenangabe. Das Muster betont, was die Ursache bewirkt hat.",
+          examples: [
+            { cn: "这场雨把我淋透了。", pinyin: "Zhè cháng yǔ bǎ wǒ líntòu le.", de: "Der Regen hat mich bis auf die Haut durchnässt." },
+            { cn: "一场大雪把整个城市变成了白色。", pinyin: "Yì cháng dà xuě bǎ zhěnggè chéngshì biànchéng le báisè.", de: "Ein heftiger Schneefall hat die ganze Stadt weiß gefärbt." },
+            { cn: "孩子的哭声把全家人都吵醒了。", pinyin: "Háizi de kūshēng bǎ quán jiā rén dōu chǎoxǐng le.", de: "Das Weinen des Kindes hat die ganze Familie geweckt." },
+            { cn: "地震把这座老房子震塌了。", pinyin: "Dìzhèn bǎ zhè zuò lǎo fángzi zhèntā le.", de: "Das Erdbeben hat das alte Haus zum Einsturz gebracht." }
+          ],
+          tip: "Gleichwertig, aber aus anderer Perspektive ist das 被-Passiv ([[lesson:lesson-5]]): 我被雨淋透了 – dann ist die betroffene Person das Thema des Satzes."
+        },
+        {
+          heading: "Abstrakte Ursachen: Worte, Nachrichten, Erfahrungen",
+          text: "Die Ursache muss nichts Greifbares sein. Auch ein Satz, ein Anruf, ein Film oder eine Erfahrung kann im 把-Satz Subjekt sein – in gesprochener wie in geschriebener Sprache. Nach dem Verb steht dann häufig ein Ergebniskomplement (逗笑, 打乱) oder ein Zustandskomplement mit 得, das die Folge beschreibt. Im Deutschen passt oft „jemanden zu etwas bringen“ oder „bei jemandem etwas auslösen“.",
+          examples: [
+            { cn: "他的一句话把大家都逗笑了。", pinyin: "Tā de yí jù huà bǎ dàjiā dōu dòuxiào le.", de: "Mit einem einzigen Satz brachte er alle zum Lachen." },
+            { cn: "一个电话把我的计划全打乱了。", pinyin: "Yí ge diànhuà bǎ wǒ de jìhuà quán dǎluàn le.", de: "Ein einziger Anruf hat meine ganzen Pläne durcheinandergebracht." },
+            { cn: "这个消息把他气得说不出话来。", pinyin: "Zhège xiāoxi bǎ tā qì de shuō bu chū huà lái.", de: "Die Nachricht hat ihn so wütend gemacht, dass er kein Wort herausbrachte." },
+            { cn: "这次经历把她变成了一个更坚强的人。", pinyin: "Zhè cì jīnglì bǎ tā biànchéng le yí ge gèng jiānqiáng de rén.", de: "Diese Erfahrung hat sie zu einem stärkeren Menschen gemacht." }
+          ]
+        },
+        {
+          heading: "把 + Person, die etwas erlebt oder tut (施事)",
+          text: "Normalerweise ist das Nomen nach 把 das, womit etwas gemacht wird. Hier ist es dagegen der <strong>Handelnde oder Erlebende</strong> (施事 shīshì): In 这件事把他急坏了 ist „er“ derjenige, der in Sorge gerät; in 把狗跑了 läuft der Hund selbst weg. Das Verb ist meist intransitiv oder ein Zustand (累、急、忙、饿、跑、病). Die Ursache steht als Subjekt oder in einem vorangehenden Satzteil, oft schwingt „leider, ungewollt“ mit. 可 vor 把 verstärkt: 可把妈妈急坏了.",
+          examples: [
+            { cn: "这件事把他急坏了。", pinyin: "Zhè jiàn shì bǎ tā jíhuài le.", de: "Die Sache hat ihn ganz verrückt vor Sorge gemacht." },
+            { cn: "等了三个小时，把大家都饿坏了。", pinyin: "Děng le sān ge xiǎoshí, bǎ dàjiā dōu èhuài le.", de: "Nach drei Stunden Warten waren alle völlig ausgehungert." },
+            { cn: "儿子一夜没回家，可把妈妈急坏了。", pinyin: "Érzi yí yè méi huí jiā, kě bǎ māma jíhuài le.", de: "Der Sohn kam die ganze Nacht nicht nach Hause – die Mutter war außer sich vor Sorge." },
+            { cn: "终于考完了，把他高兴得一晚上没睡着。", pinyin: "Zhōngyú kǎowán le, bǎ tā gāoxìng de yì wǎnshang méi shuìzháo.", de: "Endlich waren die Prüfungen vorbei – er war so glücklich, dass er die ganze Nacht nicht schlafen konnte." },
+            { cn: "我只顾着打电话，把狗跑了。", pinyin: "Wǒ zhǐ gùzhe dǎ diànhuà, bǎ gǒu pǎo le.", de: "Ich war nur mit Telefonieren beschäftigt, und schon war mir der Hund entwischt. (Sondertyp wie 把小偷跑了; im Alltag sagt man eher 让狗跑了 oder 把狗放跑了)" }
+          ],
+          tip: "Oft geht es auch mit 让 oder 叫: 这件事让他急坏了. Der 把-Satz betont stärker die (meist ungewollte) Wirkung. Der Typ 把 + Person/Tier + 跑了 ist allerdings ein Sonderfall, den man vor allem aus Lehrbüchern und Erzählungen kennt; im Alltag klingt 让狗跑了 oder 把狗放跑了 natürlicher."
+        },
+        {
+          heading: "看/瞧 + 把 + Person + X得 — „Schau nur, wie …!“",
+          text: "Dieser gesprochene <strong>Ausruf</strong> lenkt die Aufmerksamkeit auf einen auffälligen Zustand, in den jemand geraten ist. Das Nomen nach 把 ist wieder die Person, die den Zustand erlebt. X ist meist ein Adjektiv oder psychisches Verb (急、高兴、累、吓、气). Nach 得 kann der Satz offen enden – der hohe Grad wird mitverstanden – oder eine konkrete Folge nennen. Oft schwingen Mitgefühl, Spott oder Tadel mit. 看 und 瞧 (qiáo) sind austauschbar, 瞧 klingt etwas umgangssprachlicher; am Ende schreibt man statt 得 oft 的.",
+          examples: [
+            { cn: "看把你累得，快坐下休息一会儿。", pinyin: "Kàn bǎ nǐ lèi de, kuài zuòxia xiūxi yíhuìr.", de: "Schau nur, wie erschöpft du bist – setz dich und ruh dich kurz aus." },
+            { cn: "瞧把他得意得，不就是考了个第一吗？", pinyin: "Qiáo bǎ tā déyì de, bú jiù shì kǎo le ge dì yī ma?", de: "Sieh nur, wie selbstzufrieden er ist – er hat in der Prüfung doch bloß als Bester abgeschnitten! (spöttisch)" },
+            { cn: "看把孩子冻得，脸都红了。", pinyin: "Kàn bǎ háizi dòng de, liǎn dōu hóng le.", de: "Schau nur, wie das Kind friert – sein Gesicht ist ganz rot." },
+            { cn: "瞧把你吓得，不就是一只小虫子吗？", pinyin: "Qiáo bǎ nǐ xià de, bú jiù shì yì zhī xiǎo chóngzi ma?", de: "Sieh nur, wie du dich erschreckt hast – ist doch bloß ein kleiner Käfer!" },
+            { cn: "看把你高兴的！", pinyin: "Kàn bǎ nǐ gāoxìng de!", de: "Na, du freust dich ja wie ein Schneekönig!" }
+          ],
+          tip: "Kürzer geht es ohne 把: 看你高兴的. In nordchinesischer Umgangssprache hört man statt 把 auch 给: 瞧给你高兴的."
+        },
+        {
+          heading: "Überblick und typischer Fehler",
+          text: "Das Nomen nach 把 kann also verschiedene Rollen haben: Im gewöhnlichen 把-Satz wird es von einer handelnden Person behandelt; bei unbelebter Ursache wird es von einer Sache oder einem Ereignis verändert; bei Verben wie 急、累、跑 erlebt oder tut es selbst etwas. In allen Fällen gilt: Das Verb darf nicht allein am Ende stehen – ein Komplement, 了 oder 得 ist nötig. Nach 得 folgt meist die Folge; nur im Ausruf 看/瞧把… darf der Satz nach 得 offen enden.",
+          examples: [
+            { cn: "他把门关上了。", pinyin: "Tā bǎ mén guānshang le.", de: "Er hat die Tür zugemacht. (Person handelt, Tür wird behandelt)" },
+            { cn: "大风把门吹开了。", pinyin: "Dà fēng bǎ mén chuīkāi le.", de: "Der starke Wind hat die Tür aufgeweht. (unbelebte Ursache)" },
+            { cn: "❌ 这件事把他急。", pinyin: "", de: "(Falsch – nach dem Verb fehlt ein weiteres Element.)" },
+            { cn: "✅ 这件事把他急得睡不着觉。", pinyin: "Zhè jiàn shì bǎ tā jí de shuì bu zháo jiào.", de: "Die Sache macht ihm solche Sorgen, dass er nicht schlafen kann. (er erlebt den Zustand)" },
+            { cn: "看把他急得！", pinyin: "Kàn bǎ tā jí de!", de: "Schau nur, wie aufgeregt er ist! (Ausruf)" }
+          ],
+          tip: "Ein Test für die 施事-Lesart: Frag, wer das Verb selbst tut oder erlebt. In 把他急坏了 sorgt er sich selbst (他很急), in 把狗跑了 läuft der Hund selbst (狗跑). In 他把门关上了 schließt die Tür nicht von selbst – jemand schließt sie (关门). Vorsicht: Eine bloße Umformung mit der Person oder Sache als Subjekt ist kein Test, denn auch 门关上了 oder 我淋透了 sind korrekte Sätze."
+        }
+      ]
+    },
+    // ── Vierwortmuster: A这A那, 左A右B, 东一A西一A (lesson-81) ──────────
+    {
+      id: 'lesson-81',
+      number: 81,
+      title: "Vierwortmuster: A这A那, 左A右B, 东一A西一A",
+      subtitle: "Planlos, wiederholt, verstreut, abwechselnd",
+      level: 'HSK6',
+      grammarIds: ["g:A这A那","g:左A右B","g:东一A，西一A","g:A一+量词，B一+量词"],
+      intro: "Chinesisch liebt feste Vierwortmuster (四字格): Zwei Rahmenwörter bleiben stehen, die beiden Lücken füllst du mit Verben oder Zählwörtern. In dieser Lektion lernst du vier solche Rahmen, die beschreiben, <em>wie</em> jemand etwas tut: <strong>A这A那</strong> (alles Mögliche), <strong>左A右B</strong> (immer wieder, mit viel Mühe), <strong>东一A，西一A</strong> (verstreut, planlos) und <strong>你一A，我一A</strong> (abwechselnd, einer nach dem anderen). Wörtlich genommen sind sie rätselhaft: 左 und 右 sind hier keine Richtungen, 东 und 西 keine Himmelsrichtungen, und 你 und 我 meinen nicht unbedingt „du“ und „ich“. Im Deutschen brauchst du dafür ganze Wendungen wie „hin und her“, „kreuz und quer“ oder „einer nach dem anderen“ – im Chinesischen reichen vier Silben. Du begegnest den Mustern vor allem in Erzählungen und in lebendiger Alltagssprache, oft mit einem leicht kritischen Unterton.",
+      sections: [
+        {
+          heading: "A这A那 — alles Mögliche tun",
+          text: "In <strong>A这A那</strong> steht zweimal dasselbe einsilbige Verb, einmal vor 这, einmal vor 那: 问这问那 „nach allem Möglichen fragen“, 想这想那 „sich über alles Mögliche Gedanken machen“, 买这买那 „alles Mögliche kaufen“, 管这管那 „sich in alles einmischen“. 这 und 那 zeigen auf keine bestimmten Dinge, sondern meinen „dies und jenes“ – also vieles. Das Muster steht als Prädikat und klingt oft leicht genervt oder kritisch: Es ist zu viel des Guten. Die Reihenfolge ist fest: erst 这, dann 那.",
+          examples: [
+            { cn: "奶奶第一次用智能手机，问这问那，问了一个晚上。", pinyin: "Nǎinai dìyī cì yòng zhìnéng shǒujī, wèn zhè wèn nà, wèn le yí ge wǎnshang.", de: "Oma benutzte zum ersten Mal ein Smartphone und fragte einen ganzen Abend lang nach allem Möglichen." },
+            { cn: "每次出门旅行前，他都想这想那，晚上睡不着觉。", pinyin: "Měi cì chūmén lǚxíng qián, tā dōu xiǎng zhè xiǎng nà, wǎnshang shuì bu zháo jiào.", de: "Vor jeder Reise macht er sich über alles Mögliche Gedanken und kann nachts nicht schlafen." },
+            { cn: "一到商场她就买这买那，钱很快就花光了。", pinyin: "Yí dào shāngchǎng tā jiù mǎi zhè mǎi nà, qián hěn kuài jiù huāguāng le.", de: "Kaum ist sie im Einkaufszentrum, kauft sie alles Mögliche, und das Geld ist schnell weg." },
+            { cn: "你都三十岁了，父母还管这管那，你不觉得烦吗？", pinyin: "Nǐ dōu sānshí suì le, fùmǔ hái guǎn zhè guǎn nà, nǐ bù juéde fán ma?", de: "Du bist schon dreißig, und deine Eltern mischen sich immer noch in alles ein – nervt dich das nicht?" }
+          ],
+          tip: "Präge dir die übliche Form ein: ✅ 问这问那, 想这想那 – erst 这, dann 那. Die umgekehrte Folge (问那问这) hört man nur selten. Oft folgt ein Satzteil, der die Wirkung nennt (……，睡不着觉 / ……，钱很快就花光了). Verwandt ist 想来想去 „hin und her überlegen“: Dort wird die Handlung selbst wiederholt, ohne die vielen verschiedenen Dinge."
+        },
+        {
+          heading: "左A右B — immer wieder, mit viel Mühe",
+          text: "In <strong>左A右B</strong> bedeuten 左 „links“ und 右 „rechts“ hier „wieder und wieder, von allen Seiten“. A und B sind dasselbe Verb (左等右等 „warten und warten“, 左看右看 „immer wieder hinsehen“) oder zwei bedeutungsähnliche Verben (左思右想 „hin und her überlegen“, 左挑右选 „lange herumsuchen“). Das Muster betont, dass sich jemand wiederholt und gründlich bemüht. Danach folgt meist ein Ergebnis: oft ein enttäuschendes (还是没……, 就是不……) oder eine schließliche Lösung mit 最后 oder 终于. Es ist gesprochen wie geschrieben üblich; die Reihenfolge 左 vor 右 ist fest.",
+          examples: [
+            { cn: "我左等右等，快递还是没送到。", pinyin: "Wǒ zuǒ děng yòu děng, kuàidì háishi méi sòngdào.", de: "Ich habe gewartet und gewartet, aber das Paket ist immer noch nicht gekommen." },
+            { cn: "大家左劝右劝，他就是不听。", pinyin: "Dàjiā zuǒ quàn yòu quàn, tā jiùshì bù tīng.", de: "Alle haben immer wieder auf ihn eingeredet, aber er hört einfach nicht." },
+            { cn: "她左思右想，最后还是决定去国外留学。", pinyin: "Tā zuǒ sī yòu xiǎng, zuìhòu háishi juédìng qù guówài liúxué.", de: "Nach langem Hin und Her entschied sie sich schließlich doch für ein Studium im Ausland." },
+            { cn: "我们左找右找，终于在沙发下面找到了钥匙。", pinyin: "Wǒmen zuǒ zhǎo yòu zhǎo, zhōngyú zài shāfā xiàmian zhǎodào le yàoshi.", de: "Wir haben überall gesucht und den Schlüssel endlich unter dem Sofa gefunden." }
+          ],
+          tip: "❌ 左等又等 → ✅ 左等右等. 右 „rechts“ und 又 „wieder“ klingen beide yòu – und 又 passt sogar inhaltlich, deshalb ist die Verwechslung so häufig. Merke: 左 und 右 gehören als Paar zusammen."
+        },
+        {
+          heading: "东一A，西一A — hier ein …, da ein …",
+          text: "In <strong>东一A，西一A</strong> stehen 东 „Osten“ und 西 „Westen“ für „hier“ und „da“. A ist ein Zählwort (oft mit Nomen) oder ein Verbalzählwort wie 下: 东一个，西一个 „hier einer, da einer“, 东一句，西一句 „mal dies, mal das sagen“, 东一下，西一下 „mal hier, mal da etwas tun“. Das Muster beschreibt Dinge, die ungeordnet verstreut sind, oder ein sprunghaftes, planloses Handeln und Reden – meist mit kritischem Unterton. Es ist gesprochen und in Erzählungen üblich. 一 folgt den Tonregeln: yí jiàn, aber yì zhāng.",
+          examples: [
+            { cn: "他的衣服东一件，西一件，扔得满屋都是。", pinyin: "Tā de yīfu dōng yí jiàn, xī yí jiàn, rēng de mǎn wū dōu shì.", de: "Seine Kleidung liegt kreuz und quer im ganzen Zimmer verstreut." },
+            { cn: "墙上的画东一张，西一张，挂得乱七八糟。", pinyin: "Qiáng shang de huà dōng yì zhāng, xī yì zhāng, guà de luànqībāzāo.", de: "Die Bilder hängen wild durcheinander mal hier, mal da an der Wand." },
+            { cn: "这篇文章东一句，西一句，看不出作者想说什么。", pinyin: "Zhè piān wénzhāng dōng yí jù, xī yí jù, kàn bu chū zuòzhě xiǎng shuō shénme.", de: "Der Text springt von einem Gedanken zum nächsten – man erkennt nicht, worauf er hinauswill." },
+            { cn: "她做事东一下，西一下，一件也没做完。", pinyin: "Tā zuò shì dōng yí xià, xī yí xià, yí jiàn yě méi zuòwán.", de: "Sie fängt mal hier, mal da etwas an und bringt nichts zu Ende." }
+          ],
+          tip: "Das Wortpaar ist fest: ❌ 南一个，北一个 → ✅ 东一个，西一个. Im Deutschen passen je nach Satz „kreuz und quer“, „hier und da“ oder „zusammenhanglos“."
+        },
+        {
+          heading: "你一A，我一A — abwechselnd, einer nach dem anderen",
+          text: "Das Format <strong>A一+Zählwort，B一+Zählwort</strong> beschreibt, wie mehrere Beteiligte abwechselnd und lebhaft handeln. A und B sind meist 你 und 我 – gemeint ist aber nicht „du und ich“, sondern „der eine …, der andere …“. Hinter 一 steht ein Zählwort oder ein zählwortartiges Nomen, das die einzelne Handlung misst: 你一句，我一句 „einer nach dem anderen sagt etwas“, 你一口，我一口 „abwechselnd Bissen um Bissen“, 你一拳，我一脚 „mit Fäusten und Füßen aufeinander los“. Danach folgt oft, was dabei herauskommt. Besonders in Erzählungen wirkt das Muster anschaulich.",
+          examples: [
+            { cn: "开会的时候大家你一句，我一句，很快就把问题说清楚了。", pinyin: "Kāihuì de shíhou dàjiā nǐ yí jù, wǒ yí jù, hěn kuài jiù bǎ wèntí shuō qīngchu le.", de: "In der Besprechung meldete sich einer nach dem anderen zu Wort, und das Problem war schnell geklärt." },
+            { cn: "姐妹俩你一口，我一口，把一碗面吃完了。", pinyin: "Jiěmèi liǎ nǐ yì kǒu, wǒ yì kǒu, bǎ yì wǎn miàn chīwán le.", de: "Die beiden Schwestern aßen abwechselnd Bissen um Bissen eine ganze Schüssel Nudeln leer." },
+            { cn: "两个人你一拳，我一脚，打了起来。", pinyin: "Liǎng ge rén nǐ yì quán, wǒ yì jiǎo, dǎ le qǐlai.", de: "Die beiden gingen mit Fäusten und Füßen aufeinander los." },
+            { cn: "几个老同学你一杯，我一杯，一直喝到半夜。", pinyin: "Jǐ ge lǎo tóngxué nǐ yì bēi, wǒ yì bēi, yìzhí hē dào bànyè.", de: "Die alten Klassenkameradinnen und -kameraden stießen reihum an und tranken bis Mitternacht." }
+          ],
+          tip: "你一言，我一语 (nǐ yì yán, wǒ yì yǔ) ist fast schon ein Chengyu: Viele reden durcheinander und tragen etwas bei. Achte auf die Töne: yí jù, aber yì kǒu, yì yán."
+        },
+        {
+          heading: "Vergleich: 东一句，西一句 oder 你一句，我一句?",
+          text: "Alle vier Muster beschreiben ein Hin und Her, aber jedes betont etwas anderes: <strong>A这A那</strong> – eine Handlung richtet sich auf viele verschiedene Dinge; <strong>左A右B</strong> – jemand bemüht sich immer wieder um dasselbe; <strong>东一A，西一A</strong> – etwas ist verstreut oder planlos; <strong>你一A，我一A</strong> – mehrere Personen wechseln sich ab. Den Unterschied zwischen den letzten beiden siehst du am besten an 一句: Eine einzelne Person redet 东一句，西一句 (zusammenhanglos), eine Gruppe redet 你一句，我一句 (reihum).",
+          examples: [
+            { cn: "他东一句，西一句，大家都不知道他想说什么。", pinyin: "Tā dōng yí jù, xī yí jù, dàjiā dōu bù zhīdào tā xiǎng shuō shénme.", de: "Er redet zusammenhanglos, und niemand versteht, worauf er hinauswill. (eine Person, planlos)" },
+            { cn: "大家你一句，我一句，一会儿就把计划定下来了。", pinyin: "Dàjiā nǐ yí jù, wǒ yí jù, yíhuìr jiù bǎ jìhuà dìng xiàlai le.", de: "Alle redeten reihum mit, und im Nu stand der Plan. (mehrere Personen, abwechselnd)" },
+            { cn: "她左看右看，还是觉得这件衣服太贵了。", pinyin: "Tā zuǒ kàn yòu kàn, háishi juéde zhè jiàn yīfu tài guì le.", de: "Sie betrachtete das Kleidungsstück immer wieder, fand es aber trotzdem zu teuer. (wiederholte Mühe)" },
+            { cn: "孩子第一次来动物园，看这看那，什么都觉得新鲜。", pinyin: "Háizi dìyī cì lái dòngwùyuán, kàn zhè kàn nà, shénme dōu juéde xīnxiān.", de: "Das Kind ist zum ersten Mal im Zoo, schaut sich alles Mögliche an und findet alles spannend. (viele Dinge)" }
+          ],
+          tip: "Verwandt, aber ohne die vielen Gegenstände: 想来想去 „hin und her überlegen“ wiederholt nur die Handlung und klingt alltäglicher als 左思右想."
+        }
+      ]
+    },
+    // ── 好你个…, 看你…的 & Co. — Vorwurf, Ausruf, Abhaken (lesson-82) ──────────
+    {
+      id: 'lesson-82',
+      number: 82,
+      title: "好你个…, 看你…的 & Co. — Vorwurf, Ausruf, Abhaken",
+      subtitle: "Feste Gesprächsmuster der gesprochenen Sprache",
+      level: 'HSK6',
+      grammarIds: ["g:好你个X","g:看你X的/瞧他X的","g:放着X不Y","g:早（也）不X，晚（也）不X","g:X到Y头上来了","g:X了就X了，（没）有……","g:X归X，Y归Y","g:这/那也不X，那/这也不Y","g:不X不……，一X……"],
+      intro: "Wenn Leute auf Chinesisch streiten, necken, sich beschweren oder etwas abhaken, greifen sie gern zu festen Gesprächsmustern. Wörtlich übersetzt ergeben sie oft wenig Sinn: <strong>好你个……</strong> hat nichts mit „gut“ zu tun, <strong>放着……不……</strong> nichts mit „hinlegen“, und in <strong>……到我头上来了</strong> geht es um keinen Kopf. In dieser Lektion lernst du neun solche Rahmen in fünf Gruppen: jemanden direkt ansprechen (好你个X, 看你X的), Unvernünftiges kritisieren (放着X不Y, 这也不X，那也不Y), sich über Pech und Frechheit beklagen (早不X，晚不X, X到Y头上来了), Dinge trennen oder abhaken (X归X，Y归Y, X了就X了) und eine überraschende Erkenntnis pointiert ausdrücken (不X不知道，一X……). Fast alle gehören zur gesprochenen Sprache und tragen eine deutliche Emotion – genau darauf solltest du beim Hören achten. Im Deutschen entsprechen ihnen eher Ausrufe und Redensarten („Na warte!“, „Weg ist weg“) als Grammatik.",
+      sections: [
+        {
+          heading: "好你个X & 看你X的 — jemanden direkt ansprechen",
+          text: "Mit <strong>好你个</strong> + Name oder Bezeichnung spricht man jemanden emotional an: „Na warte, …!“, „Du bist mir ja einer!“. 好 heißt hier nicht „gut“, sondern leitet den Ausruf ein; 个 steht ohne 一. Meist folgt, was die Person angestellt hat. Je nach Lage ist das echter Ärger oder – unter Vertrauten – gespielte Empörung voller Zuneigung. <strong>看你X的</strong> bzw. <strong>瞧他X的</strong> weist auf einen auffälligen Zustand hin, mitfühlend, neckend oder tadelnd: 看你高兴的 „Sieh dich nur an, wie du dich freust!“. X ist meist ein Adjektiv oder Verb; den hohen Grad versteht man mit. Oft folgt ein Rat. 瞧 (qiáo) klingt umgangssprachlicher als 看.",
+          examples: [
+            { cn: "好你个小王，借了我的车也不说一声！", pinyin: "Hǎo nǐ ge Xiǎo Wáng, jiè le wǒ de chē yě bù shuō yì shēng!", de: "Na warte, Xiao Wang – leihst dir mein Auto und sagst kein Wort!" },
+            { cn: "好你个老张，升职了也不请客！", pinyin: "Hǎo nǐ ge Lǎo Zhāng, shēngzhí le yě bù qǐngkè!", de: "Du bist mir ja einer, Lao Zhang – befördert und keine Runde ausgeben! (gespielte Empörung)" },
+            { cn: "看你累的，快坐下休息一会儿吧。", pinyin: "Kàn nǐ lèi de, kuài zuòxia xiūxi yíhuìr ba.", de: "Du bist ja völlig erschöpft – setz dich schnell hin und ruh dich ein bisschen aus." },
+            { cn: "瞧他急的，满头都是汗。", pinyin: "Qiáo tā jí de, mǎn tóu dōu shì hàn.", de: "Schau nur, wie gestresst er ist – ihm steht der Schweiß auf der Stirn." },
+            { cn: "看你说的，这点小事哪用得着谢！", pinyin: "Kàn nǐ shuō de, zhè diǎn xiǎo shì nǎ yòng de zháo xiè!", de: "Was redest du da – für so eine Kleinigkeit musst du dich doch nicht bedanken!" }
+          ],
+          tip: "看你说的 ist eine feste Wendung: „Was redest du da!“ – als bescheidene Abwehr von Lob oder als milder Widerspruch. Nicht verwechseln mit 好一个 + Nomen (好一个美丽的地方！ „Was für ein schöner Ort!“): Das lobt meist etwas und richtet sich nicht vorwurfsvoll an jemanden."
+        },
+        {
+          heading: "放着X不Y & 这也不X，那也不Y — Kritik an Unvernunft",
+          text: "<strong>放着X不Y</strong> kritisiert, dass jemand eine vorhandene, offensichtlich gute Möglichkeit X nicht nutzt. 放着 heißt hier „obwohl … da ist“; Y ist das Verb, das zu X passt (电梯 – 坐, 饭 – 吃). Meist folgt, was die Person stattdessen Unvernünftiges tut – oft mit 偏, 非要 oder 却 – oder eine vorwurfsvolle Frage mit 为什么 oder 怎么. <strong>这也不X，那也不Y</strong> beschreibt, dass jemand alles ablehnt oder mit nichts zufrieden ist: 这 und 那 meinen „dies und das“, also praktisch alles. Meist steht zweimal dasselbe Verb, es können aber auch zwei verschiedene sein. Beide Muster klingen kritisch bis genervt und gehören zur gesprochenen Sprache.",
+          examples: [
+            { cn: "你放着电梯不坐，非要爬二十层楼？", pinyin: "Nǐ fàngzhe diàntī bú zuò, fēi yào pá èrshí céng lóu?", de: "Da ist ein Aufzug, und du willst unbedingt zwanzig Stockwerke zu Fuß gehen?" },
+            { cn: "放着家里的饭不吃，他天天去外面吃快餐。", pinyin: "Fàngzhe jiā lǐ de fàn bù chī, tā tiāntiān qù wàimian chī kuàicān.", de: "Zu Hause steht Essen auf dem Tisch, aber er geht jeden Tag Fast Food essen." },
+            { cn: "她放着名牌大学不上，偏要去当演员。", pinyin: "Tā fàngzhe míngpái dàxué bú shàng, piān yào qù dāng yǎnyuán.", de: "Sie lässt einen Platz an einer Spitzenuni sausen und will ausgerechnet Schauspielerin werden." },
+            { cn: "我女儿这也不穿，那也不穿，早上总是迟到。", pinyin: "Wǒ nǚ'ér zhè yě bù chuān, nà yě bù chuān, zǎoshang zǒngshì chídào.", de: "Meine Tochter will weder dies noch das anziehen und kommt morgens ständig zu spät." },
+            { cn: "你这也不愿意，那也不愿意，到底想怎么样？", pinyin: "Nǐ zhè yě bú yuànyì, nà yě bú yuànyì, dàodǐ xiǎng zěnmeyàng?", de: "Du willst weder das eine noch das andere – was willst du denn eigentlich?" }
+          ],
+          tip: "Ohne Vorwurf klingt 放着X不Y falsch – für eine neutrale Aussage reicht 不 + Verb. Das wörtliche 放着 „liegt da“ gibt es weiterhin: 桌子上放着一本书. Neutraler als 这也不……，那也不…… ist 什么都不……: 他什么都不吃."
+        },
+        {
+          heading: "早不X，晚不X & X到Y头上来了 — Pech und Frechheit",
+          text: "Mit <strong>早（也）不X，晚（也）不X</strong> beklagt man, dass etwas zum ungünstigsten Zeitpunkt passiert: „nicht früher und nicht später, sondern ausgerechnet jetzt“. X ist zweimal dasselbe Verb; fast immer folgt ein dritter Teil mit 偏偏 oder 偏, der den unpassenden Moment nennt. Mit 也 klingt es nachdrücklicher; das Subjekt kann auch eine Sache sein. <strong>X到Y头上来了</strong> – wörtlich „X ist bis auf Ys Kopf gekommen“ – ist ein empörter Vorwurf: Jemand richtet etwas Unangenehmes (骗, 欺负, 管) nun sogar gegen Y, oft gegen die sprechende Person selbst oder jemand Ranghöheres. 竟然 oder 居然 verstärken die Überraschung.",
+          examples: [
+            { cn: "公交车早不来，晚不来，偏偏我刚走开就来了。", pinyin: "Gōngjiāochē zǎo bù lái, wǎn bù lái, piānpiān wǒ gāng zǒukāi jiù lái le.", de: "Der Bus kommt weder früher noch später, sondern ausgerechnet, als ich gerade weggehe." },
+            { cn: "他早也不病，晚也不病，偏偏在比赛前一天病了。", pinyin: "Tā zǎo yě bú bìng, wǎn yě bú bìng, piānpiān zài bǐsài qián yì tiān bìng le.", de: "Ausgerechnet am Tag vor dem Wettkampf musste er krank werden." },
+            { cn: "早不停电，晚不停电，偏偏客人来的时候停了。", pinyin: "Zǎo bù tíngdiàn, wǎn bù tíngdiàn, piānpiān kèrén lái de shíhou tíng le.", de: "Der Strom fiel ausgerechnet in dem Moment aus, als die Gäste kamen." },
+            { cn: "骗子竟然骗到警察头上来了。", pinyin: "Piànzi jìngrán piàn dào jǐngchá tóu shang lái le.", de: "Da wollte doch tatsächlich jemand ausgerechnet die Polizei betrügen." },
+            { cn: "你一个新人，竟然管到我头上来了？", pinyin: "Nǐ yí ge xīnrén, jìngrán guǎn dào wǒ tóu shang lái le?", de: "Du bist gerade erst neu hier und willst mir schon Vorschriften machen?" }
+          ],
+          tip: "Beide Muster beziehen sich auf etwas, das tatsächlich passiert ist oder gerade passiert – nicht auf bloße Möglichkeiten. Verwandt ist die Redewendung 骑到……头上 „jemandem auf der Nase herumtanzen“."
+        },
+        {
+          heading: "X归X，Y归Y & X了就X了 — trennen und abhaken",
+          text: "<strong>X归X，Y归Y</strong> trennt zwei Bereiche, die man nicht vermischen soll: „Freundschaft ist Freundschaft, Geschäft ist Geschäft“. 归 heißt eigentlich „gehören zu“; oft folgt eine Folgerung. Der Ton ist sachlich-bestimmt. Steht nur ein Teil, wirkt das Muster einräumend: 批评归批评，…… „Kritik hin oder her, …“. <strong>X了就X了</strong> nimmt etwas Unerfreuliches, schon Geschehenes hin: 输了就输了 „verloren ist verloren“. Danach spielt eine rhetorische Frage mit 有什么 (……大不了的, 好……的) oder eine Aussage mit 没（有） das Ereignis herunter. Der Ton ist gelassen, tröstend oder trotzig.",
+          examples: [
+            { cn: "玩归玩，学习归学习，作业还是要先写完。", pinyin: "Wán guī wán, xuéxí guī xuéxí, zuòyè háishi yào xiān xiěwán.", de: "Spielen ist das eine, Lernen das andere – zuerst werden die Hausaufgaben gemacht." },
+            { cn: "感情归感情，规定归规定，我不能为你破例。", pinyin: "Gǎnqíng guī gǎnqíng, guīdìng guī guīdìng, wǒ bù néng wèi nǐ pòlì.", de: "Gefühle hin oder her, Regeln sind Regeln – für dich kann ich keine Ausnahme machen." },
+            { cn: "批评归批评，他心里还是很关心你的。", pinyin: "Pīpíng guī pīpíng, tā xīnli háishi hěn guānxīn nǐ de.", de: "Kritik hin oder her – im Grunde liegt ihm viel an dir." },
+            { cn: "比赛输了就输了，有什么好难过的？", pinyin: "Bǐsài shū le jiù shū le, yǒu shénme hǎo nánguò de?", de: "Das Spiel ist verloren, dann ist es eben verloren – was gibt es da zu trauern?" },
+            { cn: "杯子打破了就打破了，没关系，人没事就好。", pinyin: "Bēizi dǎpò le jiù dǎpò le, méi guānxi, rén méi shì jiù hǎo.", de: "Das Glas ist kaputt, na und – Hauptsache, dir ist nichts passiert." }
+          ],
+          tip: "X了就X了 gilt für Abgeschlossenes. Für eine Absicht steht es ohne 了: 不去就不去 „dann gehe ich eben nicht“. Mit 吧 klingt es noch nachgiebiger: 丢了就丢了吧."
+        },
+        {
+          heading: "不X不知道，一X…… — die überraschende Erkenntnis",
+          text: "Dieses Format hat zwei Teile mit demselben Verb. Der erste, meist <strong>不X不知道</strong>, sagt: „Solange man X nicht tut, weiß man es nicht.“ Der zweite mit <strong>一X</strong> baut auf 一……就…… auf ([[lesson:lesson-30]]): „Sobald man X tut, zeigt sich …“ – oft etwas Überraschendes oder Erschreckendes. Die bekannteste Form ist 不看不知道，一看吓一跳 „wenn man genau hinschaut, erschrickt man“. Statt 吓一跳 stehen auch 才发现 oder 才知道; 就 fällt meist weg oder wird durch 才 ersetzt. Das Format ist umgangssprachlich, pointiert und in Werbung und Schlagzeilen beliebt.",
+          examples: [
+            { cn: "不去不知道，一去才发现那里的风景这么美。", pinyin: "Bú qù bù zhīdào, yí qù cái fāxiàn nàli de fēngjǐng zhème měi.", de: "Erst als ich hingefahren bin, habe ich gemerkt, wie schön die Landschaft dort ist." },
+            { cn: "不称不知道，一称吓一跳，我胖了五公斤。", pinyin: "Bù chēng bù zhīdào, yì chēng xià yí tiào, wǒ pàng le wǔ gōngjīn.", de: "Als ich mich auf die Waage stellte, bekam ich einen Schreck: fünf Kilo mehr." },
+            { cn: "不问不知道，一问才知道他已经在这儿住了二十年。", pinyin: "Bú wèn bù zhīdào, yí wèn cái zhīdào tā yǐjīng zài zhèr zhù le èrshí nián.", de: "Erst als ich nachfragte, erfuhr ich, dass er schon seit zwanzig Jahren hier wohnt." },
+            { cn: "不算不知道，一算吓一跳，一年光是咖啡就花了五千块。", pinyin: "Bú suàn bù zhīdào, yí suàn xià yí tiào, yì nián guāngshì kāfēi jiù huā le wǔqiān kuài.", de: "Als ich es nachrechnete, war ich schockiert: Allein für Kaffee gehen im Jahr fünftausend Yuan drauf." }
+          ],
+          tip: "Achte auf die Tonregeln: bú kàn bù zhīdào, yí kàn xià yí tiào – aber bù chēng, yì chēng, weil 称 im ersten Ton steht."
+        }
+      ]
+    },
+    // ── Halbaffixe: 超-, 多-, 反-, -化, -式 & Co. (lesson-83) ──────────
+    {
+      id: 'lesson-83',
+      number: 83,
+      title: "Halbaffixe: 超-, 多-, 反-, -化, -式 & Co.",
+      subtitle: "Neue Wörter aus Vor- und Nachsilben erschließen",
+      level: 'HSK6',
+      grammarIds: ["g:类前缀@HSK6","g:类后缀@HSK6"],
+      intro: "Viele chinesische Wörter, besonders in Zeitungen, Sachtexten und Werbung, entstehen nach festen Bauplänen: Eine Silbe mit eigener Bedeutung tritt vor oder hinter ein Nomen oder Adjektiv und bildet in Reihe neue Wörter. Die Grammatik nennt sie <strong>类前缀</strong> („präfixartige Morpheme“: 超, 多, 反, 无, 亚, 准) und <strong>类后缀</strong> („suffixartige Morpheme“: 化, 式, 型, 性). „Halb“-Affixe heißen sie, weil sie ihre eigene Bedeutung noch nicht verloren haben – anders als echte Affixe wie 子 in 桌子. Für dich heißt das: Kennst du die Bausteine, kannst du beim Lesen unbekannte Wörter wie 超低价, 无条件, 准妈妈 oder 可行性 oft sofort erschließen. Das Deutsche funktioniert ganz ähnlich – mit super-, multi-, anti-, -los, -isierung oder -heit –, und viele chinesische Bildungen lassen sich fast eins zu eins übersetzen.",
+      sections: [
+        {
+          heading: "超— und 多— — super- und multi-",
+          text: "<strong>超</strong> (chāo) heißt „über-, super-“ und bezeichnet etwas, das eine Grenze übertrifft: 超音速 „Überschall“, 超大型 „extragroß“, 超低价 „Tiefstpreis“. Ein Sonderfall ist 超市 „Supermarkt“: Es ist die Kurzform von 超级市场, das 超 darin steht also für 超级 „super-“. <strong>多</strong> (duō) heißt „multi-, viel-“: 多功能 „multifunktional“, 多媒体 „Multimedia“, 多民族 „multiethnisch, Vielvölker-“. Solche Wörter stehen oft direkt vor einem Nomen oder als Prädikat mit 是……的.",
+          examples: [
+            { cn: "这架超大型飞机能坐五百多人。", pinyin: "Zhè jià chāo dàxíng fēijī néng zuò wǔbǎi duō rén.", de: "Dieses extragroße Flugzeug bietet Platz für über fünfhundert Menschen." },
+            { cn: "商场这个周末在搞超低价活动。", pinyin: "Shāngchǎng zhège zhōumò zài gǎo chāo dījià huódòng.", de: "Das Einkaufszentrum hat dieses Wochenende eine Aktion mit Tiefstpreisen." },
+            { cn: "这间多功能教室可以上课，也可以开会。", pinyin: "Zhè jiān duō gōngnéng jiàoshì kěyǐ shàngkè, yě kěyǐ kāihuì.", de: "Dieser Mehrzweckraum ist für Unterricht und für Besprechungen geeignet." },
+            { cn: "中国是一个多民族国家。", pinyin: "Zhōngguó shì yí ge duō mínzú guójiā.", de: "China ist ein Vielvölkerstaat." }
+          ],
+          tip: "Umgangssprachlich steht 超 auch als Gradadverb: 超好吃 „super lecker“, 超累 „total müde“. Das ist kein Wortbildungspräfix, sondern lockerer Stil – in Sachtexten passt es nicht."
+        },
+        {
+          heading: "反— und 无— — anti- und -los",
+          text: "<strong>反</strong> (fǎn) bedeutet „anti-, gegen“: 反科学 „wissenschaftsfeindlich“, 反战 „Antikriegs-“, 反作用 „Gegenwirkung“. <strong>无</strong> (wú) entspricht „-los, ohne“: 无线 „drahtlos“, 无糖 „zuckerfrei“, 无条件 „bedingungslos“, 无理由退货 „Rückgabe ohne Angabe von Gründen“. 无 bedeutet „nicht haben, ohne“ wie 没有, klingt aber knapper und eher schriftsprachlich; die Verneinung steckt also schon im Wort selbst. Du findest solche Bildungen besonders auf Verpackungen, Schildern und in Werbung.",
+          examples: [
+            { cn: "这是一部很有名的反战电影。", pinyin: "Zhè shì yí bù hěn yǒumíng de fǎnzhàn diànyǐng.", de: "Das ist ein sehr bekannter Antikriegsfilm." },
+            { cn: "压力太大，反而会起反作用。", pinyin: "Yālì tài dà, fǎn'ér huì qǐ fǎnzuòyòng.", de: "Zu viel Druck kann genau das Gegenteil bewirken." },
+            { cn: "现在很多耳机都是无线的。", pinyin: "Xiànzài hěn duō ěrjī dōu shì wúxiàn de.", de: "Heute sind viele Kopfhörer kabellos." },
+            { cn: "在这家网店买的东西七天内可以无理由退货。", pinyin: "Zài zhè jiā wǎngdiàn mǎi de dōngxi qī tiān nèi kěyǐ wú lǐyóu tuìhuò.", de: "Was du in diesem Onlineshop kaufst, kannst du innerhalb von sieben Tagen ohne Angabe von Gründen zurückgeben." },
+            { cn: "我只喝无糖的饮料。", pinyin: "Wǒ zhǐ hē wú táng de yǐnliào.", de: "Ich trinke nur zuckerfreie Getränke." }
+          ],
+          tip: "Als freies Verb im Satz sagt man im Alltag meist 没有: 这种饮料没有糖。 Feste 无-Bildungen wie 无糖, 无线网络 (WLAN) oder 无人驾驶 „fahrerlos“ stehen dagegen auf Etiketten und in Sachtexten – und werden längst auch im Gespräch verwendet."
+        },
+        {
+          heading: "亚— und 准— — knapp darunter und beinahe",
+          text: "<strong>亚</strong> (yà) bedeutet „sub-, fast, zweitrangig“ und bezeichnet etwas, das knapp unter einer Stufe liegt: 亚热带 „Subtropen“, 亚健康 „nicht krank, aber auch nicht richtig gesund“, 亚军 „zweiter Platz“. <strong>准</strong> (zhǔn) heißt „angehend, beinahe“: Die Person oder Sache ist es fast schon. 准妈妈 und 准爸爸 sind „werdende Mutter“ und „werdender Vater“, 准大学生 sind angehende Studierende, die schon zugelassen sind, aber noch nicht angefangen haben.",
+          examples: [
+            { cn: "广州属于亚热带气候。", pinyin: "Guǎngzhōu shǔyú yàrèdài qìhòu.", de: "Guangzhou hat subtropisches Klima." },
+            { cn: "经常熬夜容易让人进入亚健康状态。", pinyin: "Jīngcháng áoyè róngyì ràng rén jìnrù yàjiànkāng zhuàngtài.", de: "Wer oft die Nacht durchmacht, ist schnell nicht mehr richtig fit." },
+            { cn: "她在这次比赛中获得了亚军。", pinyin: "Tā zài zhè cì bǐsài zhōng huòdé le yàjūn.", de: "Sie belegte bei diesem Wettbewerb den zweiten Platz." },
+            { cn: "这位准爸爸每天都在看育儿书。", pinyin: "Zhè wèi zhǔn bàba měitiān dōu zài kàn yù'ér shū.", de: "Der werdende Vater liest jeden Tag Ratgeber zur Kindererziehung." },
+            { cn: "这些准大学生九月就要去学校报到了。", pinyin: "Zhèxiē zhǔn dàxuéshēng jiǔ yuè jiù yào qù xuéxiào bàodào le.", de: "Diese angehenden Studierenden müssen sich im September an der Uni melden." }
+          ],
+          tip: "Vorsicht: 亚 ist auch die Abkürzung für 亚洲 „Asien“ – 亚运会 sind die Asienspiele, keine „Unter-Spiele“. Erst der Zusammenhang zeigt, welches 亚 gemeint ist."
+        },
+        {
+          heading: "—化 und —性 — -isierung und -heit",
+          text: "<strong>化</strong> (huà) heißt „zu etwas werden, -isieren“. Es macht aus Nomen und Adjektiven Verben bzw. Vorgangsnomen: 现代化 „Modernisierung, modern werden“, 全球化 „Globalisierung“, 简单化 „vereinfachen“, 绿化 „begrünen“. Solche Wörter können wie Verben 了 nehmen oder mit 把 stehen. <strong>性</strong> (xìng) entspricht „-heit, -keit, -ität“ und bildet abstrakte Nomen aus Adjektiven und Verben: 重要性 „Wichtigkeit“, 可能性 „Möglichkeit“, 积极性 „Eifer“, 可行性 „Machbarkeit“. Sie stehen oft als Objekt hinter ……的.",
+          examples: [
+            { cn: "随着经济全球化，各国的联系越来越紧密。", pinyin: "Suízhe jīngjì quánqiúhuà, gè guó de liánxì yuè lái yuè jǐnmì.", de: "Mit der wirtschaftlichen Globalisierung werden die Verbindungen zwischen den Ländern immer enger." },
+            { cn: "我们应该把复杂的问题简单化。", pinyin: "Wǒmen yīnggāi bǎ fùzá de wèntí jiǎndānhuà.", de: "Wir sollten komplizierte Probleme vereinfachen." },
+            { cn: "这个计划的可行性还需要研究。", pinyin: "Zhège jìhuà de kěxíngxìng hái xūyào yánjiū.", de: "Ob dieser Plan machbar ist, muss noch geprüft werden." },
+            { cn: "老师的表扬提高了学生的积极性。", pinyin: "Lǎoshī de biǎoyáng tígāo le xuésheng de jījíxìng.", de: "Das Lob der Lehrkraft hat den Eifer der Schülerinnen und Schüler gesteigert." }
+          ],
+          tip: "Deutsche Wörter auf -heit, -keit und -ität entsprechen oft einem chinesischen Wort auf 性 – aber nicht immer: „Freiheit“ heißt einfach 自由, „Gesundheit“ einfach 健康. Prüfe neue Bildungen im Wörterbuch, bevor du sie selbst verwendest."
+        },
+        {
+          heading: "—式 und —型 — Art und Typ",
+          text: "<strong>式</strong> (shì) bedeutet „-Art, -Stil, nach Art von“: 中式 „chinesischer Art“, 西式 „westlich“, 自助式 „mit Selbstbedienung“, 开放式 „offen“. <strong>型</strong> (xíng) bedeutet „-Typ, -Format, Modell“: 大型 „Groß-“, 小型 „Klein-“, 新型 „neuartig“, 血型 „Blutgruppe“. Wörter mit 式 und 型 stehen meist als Attribut direkt vor einem Nomen, oft ohne 的 (中式婚礼, 大型超市); als Prädikat stehen sie mit 是……的.",
+          examples: [
+            { cn: "他们的婚礼是中式的，新娘穿了一身红衣服。", pinyin: "Tāmen de hūnlǐ shì Zhōngshì de, xīnniáng chuān le yì shēn hóng yīfu.", de: "Ihre Hochzeit war im chinesischen Stil, die Braut trug Rot." },
+            { cn: "这家酒店提供自助式早餐。", pinyin: "Zhè jiā jiǔdiàn tígōng zìzhùshì zǎocān.", de: "Dieses Hotel bietet Frühstück als Büfett an." },
+            { cn: "周末这里要举行一场大型音乐会。", pinyin: "Zhōumò zhèlǐ yào jǔxíng yì chǎng dàxíng yīnyuèhuì.", de: "Am Wochenende findet hier ein großes Konzert statt." },
+            { cn: "这是一款新型手机，充电只要十分钟。", pinyin: "Zhè shì yì kuǎn xīnxíng shǒujī, chōngdiàn zhǐ yào shí fēnzhōng.", de: "Das ist ein neuartiges Handy, das in nur zehn Minuten aufgeladen ist." },
+            { cn: "你是什么血型？", pinyin: "Nǐ shì shénme xuèxíng?", de: "Welche Blutgruppe hast du?" }
+          ],
+          tip: "Faustregel: 式 beantwortet „auf welche Art?“ (中式婚礼 – Hochzeit im chinesischen Stil), 型 beantwortet „welcher Typ, welche Größe?“ (大型婚礼 – große Hochzeit)."
+        }
+      ]
     }
   ];
 
