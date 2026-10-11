@@ -30,3 +30,29 @@ Author flags, reviewer fixes and proofreading fixes per batch, for follow-up dec
 - o:咣 (proofreading fix): notes: doppeltes „vor allem“ geglättet
 - o:咔咔 (proofreading fix): Beispiele von der Variante 喀喀 auf das Stichwort 咔咔 umgestellt (Auslöser-Satz durch 咔咔地拍照 ersetzt), notes angepasst (喀喀 als Variante, Lesung kā/kǎ), Flag entfernt
 - o:噗噗 (proofreading fix): steife Übersetzung „blies pustend“ → „pustete ins Feuer: puh, puh“
+
+## o004 (2026-10-11, author)
+- o:乒乓 (proofreading fix): Notiz „praktisch nur in diesem Lautwort“ → „fast nur“ + 乒 allein als Knall-Laut (乒的一声) ergänzt
+- o:噢 (proofreading fix): unbelegte Wörterbuch-Lesung „òu“ gestrichen; stattdessen ō mit stimmungsabhängiger Tonhöhe
+- o:水灵灵 (proofreading fix): „steht ohne 很“ → „meist ohne 很“
+- o:水汪汪 (proofreading fix): „steht ohne 很“ → „meist ohne 很“
+- o:雾蒙蒙 (proofreading fix): Beispiel 3 (外面是雾蒙蒙的天) durch natürlicheres 这几天都是雾蒙蒙的天气 ersetzt
+- o:响当当 (proofreading fix): „steht ohne 很“ → „meist ohne 很“
+- o:皱巴巴 (proofreading fix): „Ein 很 steht davor nicht“ → „meist nicht“
+- o:醉醺醺 (proofreading fix): generisches „eines Betrunkenen“ neutral umformuliert; „ohne 很“ → „meist ohne 很“
+- o:规规矩矩 (proofreading fix): „steht ohne 很“ → „meist ohne 很“
+- o:坑坑洼洼 (proofreading fix): „Ein 很 steht davor nicht“ → „meist nicht“
+- o:松松散散 (proofreading fix): „Ein 很 steht davor nicht“ → „meist nicht“
+- o:土里土气 (proofreading fix): „Ein 很 steht davor nicht“ → „meist nicht“; Bsp. 1 „bieder“ → „bäurisch“ (treuer zu 土里土气)
+- o:稀里糊涂 (proofreading fix): Grammatikfehler „sie verstärkt und macht“ → „verstärken und machen“
+- o:潮乎乎 (proofreading fix): „ein 很 steht davor nicht“ → „meist nicht“
+- o:汗津津 (proofreading fix): „ohne 很“ → „meist ohne 很“
+- o:毛茸茸 (proofreading fix): „ohne 很“ → „in der Regel ohne 很“
+- o:黏黏糊糊 (proofreading fix): Bsp. 3 „keiner kann ohne den anderen“ → genderneutral „können nicht ohneeinander“
+- o:颤悠悠 (proofreading fix): „Ein 很 steht davor nicht“ → „meist nicht“
+- o:蹦蹦跳跳 (proofreading fix): „Ein 很 steht davor nicht“ → „meist nicht“
+- o:颤颤巍巍 (proofreading fix): Bsp. 3 subjektloses 走上去很害怕 → 走在上面真让人害怕 (Pinyin/Deutsch angepasst)
+- o:乐颠颠 (proofreading fix): usage rephrased without generic 'jemanden … dass er' (gender-neutral)
+- o:气鼓鼓 (proofreading fix): example 3 German made faithful (Chinese has no cheeks: 'ihre beleidigte Miene' instead of 'die Backen aufblies')
+- o:扭扭捏捏 (proofreading fix): example 2 German made faithful (站在那儿 … 半天不说话: 'stand verlegen da und brachte lange kein Wort heraus')
+- o:战战兢兢 (proofreading fix): unclear note 'nicht verwechseln' clarified: 兢 is read jīng, not kè despite the two 克

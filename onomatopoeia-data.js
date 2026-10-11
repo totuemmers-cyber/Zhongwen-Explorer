@@ -4914,29 +4914,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "plumps, platsch (ins Wasser fallen)",
-    "usage": "Gibt das Geräusch wieder, wenn etwas ins Wasser fällt",
-    "explanation": "咕咚 ahmt das Geräusch nach, wenn ein Gegenstand ins Wasser fällt. Auch für das Geräusch beim Herunterschlucken verwendet.",
+    "meaning": "plumps; rums (dumpfer Aufprall)",
+    "usage": "Gibt den dumpfen Laut wieder, wenn etwas Schweres ins Wasser oder auf den Boden fällt oder jemand hinfällt.",
+    "explanation": "咕咚 ahmt einen dumpfen, schweren Aufprall nach: Ein Stein fällt ins Wasser, eine Kiste auf den Boden, jemand stürzt. Typisch ist 咕咚一声 + Verb (咕咚一声掉进水里 „plumpste ins Wasser“) oder 传来咕咚的一声 „man hörte einen dumpfen Rums“. Verdoppelt als 咕咚咕咚 (gūdōng gūdōng) steht es vor allem für hastiges, lautes Trinken (咕咚咕咚地喝水). Für Sprünge und Stürze ins Wasser ist auch 扑通 (pūtōng) sehr üblich.",
     "examples": [
       {
-        "chinese": "石头咕咚一声掉进了水里。",
-        "pinyin": "Shítou gūdōng yī shēng diào jìn le shuǐ lǐ.",
-        "german": "Der Stein fiel mit einem Plumps ins Wasser."
+        "chinese": "石头咕咚一声掉进了河里。",
+        "pinyin": "Shítou gūdōng yì shēng diào jìn le hé lǐ.",
+        "german": "Der Stein plumpste in den Fluss."
       },
       {
-        "chinese": "他咕咚咕咚地喝了一大杯水。",
-        "pinyin": "Tā gūdōng gūdōng de hē le yī dà bēi shuǐ.",
-        "german": "Er trank gluckernd ein großes Glas Wasser."
+        "chinese": "一个箱子从车上掉下来，咕咚一声砸在地上。",
+        "pinyin": "Yí ge xiāngzi cóng chē shang diào xiàlái, gūdōng yì shēng zá zài dì shang.",
+        "german": "Eine Kiste fiel vom Wagen und schlug mit einem Rums auf dem Boden auf."
+      },
+      {
+        "chinese": "半夜，楼上传来咕咚的一声。",
+        "pinyin": "Bànyè, lóushàng chuánlái gūdōng de yì shēng.",
+        "german": "Mitten in der Nacht hörte man von oben einen dumpfen Rums."
       }
     ],
     "related": [
-      "o:咕噜咕噜"
+      "o:咕咚咕咚",
+      "o:扑通",
+      "o:咚咚"
     ],
-    "notes": "",
+    "notes": "Bekannt aus der Kinderfabel 《咕咚》 (auch 《咕咚来了》): Eine reife Frucht fällt mit „gudong“ ins Wasser, und die Tiere halten das Geräusch für ein Ungeheuer.",
     "legacyIds": [
       "咕咚"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "咕咚 咕咚 [gu1 dong1]"
     }
@@ -4951,24 +4958,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "blubbern, gurgeln (kochendes Wasser)",
-    "usage": "Gibt das Blubbern von kochendem Wasser oder Blasen wieder",
-    "explanation": "咕嘟 ahmt das Geräusch von aufsteigenden Blasen in kochendem Wasser oder einer dicken Suppe nach.",
+    "meaning": "blubb; brodeln, sprudeln (kochende oder quellende Flüssigkeit)",
+    "usage": "Gibt das Blubbern kochender oder hervorsprudelnder Flüssigkeit wieder, auch das Geräusch beim Trinken in großen Schlucken.",
+    "explanation": "咕嘟 ahmt das Blubbern von Blasen nach: Wasser oder Suppe kocht, eine Quelle sprudelt, jemand trinkt in großen Zügen. Meist steht es verdoppelt als 咕嘟咕嘟 (gūdū gūdū), oft mit 地 vor dem Verb: 锅里的汤咕嘟咕嘟地冒着泡 „die Suppe im Topf blubbert“. Einfach steht es eher mit 一声 (yì shēng). Umgangssprachlich, vor allem im Norden, ist 咕嘟 (gūdu) auch ein Verb: „lange köcheln lassen“ (咕嘟一锅汤) oder „den Mund schmollend vorschieben“ (咕嘟着嘴).",
     "examples": [
       {
         "chinese": "锅里的汤咕嘟咕嘟地冒着泡。",
         "pinyin": "Guō lǐ de tāng gūdū gūdū de màozhe pào.",
-        "german": "Die Suppe im Topf blubberte und warf Blasen."
+        "german": "Die Suppe im Topf blubbert vor sich hin."
+      },
+      {
+        "chinese": "他拿起瓶子，咕嘟咕嘟喝了半瓶水。",
+        "pinyin": "Tā náqǐ píngzi, gūdū gūdū hē le bàn píng shuǐ.",
+        "german": "Er griff zur Flasche und trank in großen, gluckernden Schlucken eine halbe Flasche Wasser."
+      },
+      {
+        "chinese": "泉水从石头缝里咕嘟咕嘟地往外冒。",
+        "pinyin": "Quánshuǐ cóng shítou fèng lǐ gūdū gūdū de wǎng wài mào.",
+        "german": "Das Quellwasser sprudelt blubbernd aus einer Felsspalte."
       }
     ],
     "related": [
-      "o:咕噜咕噜"
+      "o:咕嘟咕嘟",
+      "o:咕噜咕噜",
+      "o:咕噜",
+      "o:咕咚咕咚"
     ],
-    "notes": "",
+    "notes": "Als Lautwort gūdū, als umgangssprachliches Verb meist gūdu mit neutralem zweitem Ton.",
     "legacyIds": [
       "咕嘟"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -4983,25 +5003,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "klirrend, rasselnd, scheppernd",
-    "usage": "Gibt das Geräusch von herabfallenden oder zusammenstürzenden Gegenständen wieder",
-    "explanation": "哗啦 beschreibt ein lautes Geräusch, wenn etwas zusammenstürzt oder zerbricht – z.B. eine Wand, ein Stapel oder Geschirr.",
+    "meaning": "klirr, krach; rausch (Einsturz, Scherben, Wasserschwall)",
+    "usage": "Gibt ein lautes, prasselndes oder krachendes Geräusch wieder: Geschirr zerbricht, etwas stürzt ein, Wasser oder Regen schüttet herab.",
+    "explanation": "哗啦 ahmt ein lautes, kurz anhaltendes Krachen oder Prasseln nach – Teller zerbrechen, ein Stapel stürzt um, ein Schwall Wasser oder heftiger Regen setzt ein. Üblich ist 哗啦一声 (huālā yì shēng) + Verb; für anhaltendes Rauschen, etwa von Regen, stehen 哗啦哗啦 (huālā huālā) und 哗啦啦 (huālālā). Umgangssprachlich wird 哗啦 (huála) auch als Verb „zusammenbrechen, kaputtgehen“ gebraucht (墙哗啦了 „die Mauer ist eingestürzt“).",
     "examples": [
       {
         "chinese": "哗啦一声，盘子碎了一地。",
-        "pinyin": "Huālā yī shēng, pánzi suì le yī dì.",
-        "german": "Mit einem Scheppern zerbrachen die Teller auf dem Boden."
+        "pinyin": "Huālā yì shēng, pánzi suì le yí dì.",
+        "german": "Klirr! Die Teller lagen in Scherben auf dem Boden."
+      },
+      {
+        "chinese": "大雨哗啦哗啦地下了一夜。",
+        "pinyin": "Dàyǔ huālā huālā de xià le yí yè.",
+        "german": "Der Regen prasselte die ganze Nacht."
+      },
+      {
+        "chinese": "他哗啦一声拉开了窗帘。",
+        "pinyin": "Tā huālā yì shēng lākāi le chuānglián.",
+        "german": "Mit einem Ratsch zog er den Vorhang auf."
       }
     ],
     "related": [
+      "o:哗啦啦",
       "o:哗哗",
+      "o:稀里哗啦",
       "o:哐当"
     ],
-    "notes": "Oft als 哗啦啦 verlängert für anhaltendes Geräusch.",
+    "notes": "",
     "legacyIds": [
       "哗啦"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "嘩啦 哗啦 [hua1 la1]"
     }
@@ -5016,24 +5048,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "flattern, rauschen (Fahne, Vorhang)",
-    "usage": "Gibt das Flattern von Stoff im Wind wieder",
-    "explanation": "呼啦 beschreibt das Geräusch, wenn etwas Leichtes im Wind flattert – eine Fahne, ein Vorhang oder ein Zelt.",
+    "meaning": "flatter, wusch (Fahne im Wind; plötzliche Bewegung)",
+    "usage": "Gibt das Flattern von Fahnen und Stoff im Wind wieder, auch das Rauschen einer plötzlichen, schnellen Bewegung, etwa einer Menschenmenge oder auffliegender Vögel.",
+    "explanation": "呼啦 ahmt ein rauschendes, flatterndes Geräusch nach: Eine Fahne flattert im Wind, ein Vorhang schlägt, Vögel fliegen auf. Für anhaltendes Flattern stehen meist 呼啦啦 (hūlālā) oder 呼啦呼啦 mit 地 vor dem Verb (红旗呼啦啦地飘). 呼啦一下 bzw. 呼啦一声 beschreibt auch eine plötzliche Bewegung vieler auf einmal: 大家呼啦一下围了上来 „alle drängten auf einmal heran“.",
     "examples": [
       {
-        "chinese": "旗帜呼啦呼啦地飘。",
-        "pinyin": "Qízhì hūlā hūlā de piāo.",
-        "german": "Die Fahne flatterte im Wind."
+        "chinese": "旗子在风中呼啦呼啦地响。",
+        "pinyin": "Qízi zài fēng zhōng hūlā hūlā de xiǎng.",
+        "german": "Die Fahne knattert im Wind."
+      },
+      {
+        "chinese": "下课铃一响，孩子们呼啦一下全跑了出去。",
+        "pinyin": "Xiàkè líng yì xiǎng, háizimen hūlā yíxià quán pǎo le chūqù.",
+        "german": "Kaum klingelte es zur Pause, stürmten die Kinder alle auf einmal hinaus."
+      },
+      {
+        "chinese": "一群鸽子呼啦一声飞了起来。",
+        "pinyin": "Yì qún gēzi hūlā yì shēng fēi le qǐlái.",
+        "german": "Mit lautem Flügelrauschen flog ein Schwarm Tauben auf."
       }
     ],
     "related": [
-      "o:呼呼"
+      "o:呼呼",
+      "o:哗啦",
+      "o:扑棱棱"
     ],
-    "notes": "",
+    "notes": "Das Lautwort steckt auch in 呼啦圈 (hūlāquān) „Hula-Hoop-Reifen“.",
     "legacyIds": [
       "呼啦"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -5048,29 +5092,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "knack, klick (Brechen, Kamera)",
-    "usage": "Gibt das Geräusch von Brechen, Knacken oder einem Kameraausloser wieder",
-    "explanation": "咔嚓 ahmt ein scharfes Knackgeräusch nach. Heutzutage auch häufig für das Auslösegeräusch einer Kamera verwendet.",
+    "meaning": "knacks; klick; schnipp (Brechen, Kamera, Schere)",
+    "usage": "Gibt ein kurzes, scharfes Knacken wieder: ein Ast bricht, eine Schere schneidet, ein Kameraverschluss klickt.",
+    "explanation": "咔嚓 ahmt einen kurzen, trockenen Knack- oder Schnittlaut nach: Ein Ast bricht, Eis knackt, eine Schere schneidet, ein Fotoapparat löst aus. Typisch ist 咔嚓一声 + Verb (咔嚓一声断了 „knackte und brach“); für wiederholte Laute 咔嚓咔嚓 (kāchā kāchā), etwa beim Schneiden oder Fotografieren. Andere Schreibung: 喀嚓 (kāchā). Umgangssprachlich und scherzhaft steht es auch für „abschneiden, streichen, rauswerfen“ (被咔嚓了 „wurde gestrichen“).",
     "examples": [
       {
         "chinese": "咔嚓一声，树枝断了。",
-        "pinyin": "Kāchā yī shēng, shùzhī duàn le.",
-        "german": "Knack! Der Ast brach ab."
+        "pinyin": "Kāchā yì shēng, shùzhī duàn le.",
+        "german": "Knacks – der Ast brach ab."
       },
       {
-        "chinese": "咔嚓一声，拍了张照片。",
-        "pinyin": "Kāchā yī shēng, pāi le zhāng zhàopiàn.",
-        "german": "Klick! Ein Foto wurde geschossen."
+        "chinese": "他拿起相机，咔嚓咔嚓拍了好几张。",
+        "pinyin": "Tā náqǐ xiàngjī, kāchā kāchā pāi le hǎo jǐ zhāng.",
+        "german": "Er griff zur Kamera und machte – klick, klick – gleich mehrere Fotos."
+      },
+      {
+        "chinese": "妈妈用剪刀咔嚓一下把线剪断了。",
+        "pinyin": "Māma yòng jiǎndāo kāchā yíxià bǎ xiàn jiǎnduàn le.",
+        "german": "Mit einem Schnipp schnitt Mama den Faden mit der Schere durch."
       }
     ],
     "related": [
+      "o:咔嗒",
+      "o:咔咔",
+      "o:嚓",
       "o:嘎巴"
     ],
     "notes": "",
     "legacyIds": [
       "咔嚓"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "咔嚓 咔嚓 [ka1 cha1]"
     }
@@ -5085,24 +5137,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "klicken (Schalter, Maus)",
-    "usage": "Gibt das Klicken eines Schalters oder einer Maustaste wieder",
-    "explanation": "咔嗒 ahmt das kurze, präzise Klicken nach, wenn ein Schalter umgelegt oder eine Maustaste gedrückt wird.",
+    "meaning": "klick; klack (Schalter, Schloss, Taste)",
+    "usage": "Gibt ein kurzes, helles Klicken wieder, wenn etwas einrastet oder umgelegt wird: ein Schalter, ein Schloss, eine Taste, ein Verschluss.",
+    "explanation": "咔嗒 ahmt ein leises, kurzes Klicken nach, wenn etwas einrastet oder umgelegt wird: Lichtschalter, Türschloss, Sicherheitsgurt, Maustaste. Typisch: 咔嗒一声 + Verb (门咔嗒一声锁上了). Wiederholtes Klicken oder Klackern, etwa einer Uhr oder Tastatur, heißt 咔嗒咔嗒 (kādā kādā). Im Vergleich zu 咔嚓 (kāchā), das eher Brechen oder Schneiden wiedergibt, klingt 咔嗒 leiser und mechanischer. Auch 咔哒 (kādā) geschrieben.",
     "examples": [
       {
-        "chinese": "她咔嗒按下了开关。",
-        "pinyin": "Tā kādā àn xià le kāiguān.",
-        "german": "Sie drückte klickend den Schalter."
+        "chinese": "门咔嗒一声锁上了。",
+        "pinyin": "Mén kādā yì shēng suǒ shàng le.",
+        "german": "Mit einem Klicken schnappte das Türschloss zu."
+      },
+      {
+        "chinese": "她咔嗒一声关掉了台灯。",
+        "pinyin": "Tā kādā yì shēng guāndiào le táidēng.",
+        "german": "Klick – sie schaltete die Schreibtischlampe aus."
+      },
+      {
+        "chinese": "安静的办公室里，只听见键盘咔嗒咔嗒地响。",
+        "pinyin": "Ānjìng de bàngōngshì lǐ, zhǐ tīngjiàn jiànpán kādā kādā de xiǎng.",
+        "german": "Im stillen Büro hörte man nur das Klackern der Tastaturen."
       }
     ],
     "related": [
-      "o:咔嚓"
+      "o:咔嚓",
+      "o:嗒",
+      "o:嗒嗒",
+      "o:吧嗒"
     ],
-    "notes": "Leichter, kürzerer Klang als 咔嚓.",
+    "notes": "",
     "legacyIds": [
       "咔嗒"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "咔嗒 咔嗒 [ka1 da1]"
     }
@@ -5117,24 +5182,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "scheppern, krachen (Metall)",
-    "usage": "Gibt lautes metallisches Scheppern oder Krachen wieder",
-    "explanation": "哐当 ahmt lautes metallisches Geräusch nach – ein Topf, der herunterfallt, oder eine Metalltür, die zukracht.",
+    "meaning": "schepper; rums (Metall, zuschlagende Tür)",
+    "usage": "Gibt einen lauten, harten Schlag mit Nachklang wieder, etwa wenn ein Topf herunterfällt, eine Tür zuschlägt oder ein Zug über die Schienen rattert.",
+    "explanation": "哐当 ahmt einen lauten, harten Schlag mit Nachklang nach: Ein Eimer oder Topf fällt um, eine Eisentür schlägt zu, ein Zug rattert über die Schienen. Typisch: 哐当一声 + Verb (门哐当一声关上了). Für rhythmisches Rattern, etwa eines Zuges, steht 哐当哐当 (kuāngdāng kuāngdāng) mit 地 vor dem Verb. Sehr ähnlich und oft austauschbar ist 咣当 (guāngdāng).",
     "examples": [
       {
         "chinese": "哐当一声，锅掉在地上了。",
-        "pinyin": "Kuāngdāng yī shēng, guō diào zài dì shàng le.",
-        "german": "Scheppernd fiel der Topf auf den Boden."
+        "pinyin": "Kuāngdāng yì shēng, guō diào zài dì shang le.",
+        "german": "Schepper! Der Topf fiel auf den Boden."
+      },
+      {
+        "chinese": "风很大，门哐当一声关上了。",
+        "pinyin": "Fēng hěn dà, mén kuāngdāng yì shēng guān shàng le.",
+        "german": "Es war sehr windig, und die Tür knallte zu."
+      },
+      {
+        "chinese": "火车哐当哐当地开过了大桥。",
+        "pinyin": "Huǒchē kuāngdāng kuāngdāng de kāi guò le dà qiáo.",
+        "german": "Der Zug ratterte über die große Brücke."
       }
     ],
     "related": [
-      "o:乒乓"
+      "o:咣当",
+      "o:哐啷",
+      "o:哐哐",
+      "o:叮当"
     ],
     "notes": "",
     "legacyIds": [
       "哐当"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -5149,13 +5227,33 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "klirr, schepper (Metall)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
+    "meaning": "klirr, schepper (Metall, Ketten, Besteck)",
+    "usage": "Gibt ein klirrendes, scheppernd nachklingendes Metallgeräusch wieder, etwa von herunterfallendem Besteck, Werkzeug oder Ketten.",
+    "explanation": "哐啷 ahmt einen metallischen Krach mit hellem, klirrendem Nachklang nach: Ein Messer fällt auf den Fliesenboden, ein Schlüsselbund, eine Kette, ein Blecheimer. Typisch: 哐啷一声 + Verb (哐啷一声掉在地上); anhaltend 哐啷哐啷 (kuānglāng kuānglāng) oder 哐啷啷. Gegenüber 哐当 (kuāngdāng), das eher den harten Schlag betont, klingt 哐啷 heller und klirrender; die Grenze ist aber fließend.",
+    "examples": [
+      {
+        "chinese": "刀子哐啷一声掉在了地上。",
+        "pinyin": "Dāozi kuānglāng yì shēng diào zài le dì shang.",
+        "german": "Das Messer fiel klirrend zu Boden."
+      },
+      {
+        "chinese": "他推开铁门，哐啷一声，链子掉了下来。",
+        "pinyin": "Tā tuīkāi tiě mén, kuānglāng yì shēng, liànzi diào le xiàlái.",
+        "german": "Er stieß das Eisentor auf, und die Kette fiel klirrend herunter."
+      },
+      {
+        "chinese": "小车里装满了空罐子，一路哐啷哐啷地响。",
+        "pinyin": "Xiǎochē lǐ zhuāngmǎn le kōng guànzi, yílù kuānglāng kuānglāng de xiǎng.",
+        "german": "Der Wagen war voller leerer Dosen und schepperte den ganzen Weg."
+      }
+    ],
+    "related": [
+      "o:哐当",
+      "o:哐哐",
+      "o:咣当"
+    ],
     "notes": "",
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "哐啷 哐啷 [kuang1 lang1]"
@@ -5171,24 +5269,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "ping-pong, Klappern",
-    "usage": "Gibt das Geräusch von aufeinander prallenden Gegenständen wieder",
-    "explanation": "乒乓 ahmt das Aufprallgeräusch nach. Auch der chinesische Name für Tischtennis: 乒乓球 (pīngpāngqiú).",
+    "meaning": "peng, klack; Geklapper (auch: Tischtennis)",
+    "usage": "Gibt kurze, harte Schläge und Knalle wieder, meist mehrere hintereinander: klappernde Gegenstände, knallende Böller, eine zugeschlagene Tür.",
+    "explanation": "乒乓 ahmt kurze, harte Schläge oder Knalle nach, meist mehrere hintereinander: Töpfe klappern, Böller knallen, eine Tür wird zugeknallt. Es steht vor 响 oder mit 几声 (乒乓几声), anhaltend in der AABB-Form 乒乒乓乓 (pīngpīngpāngpāng) „Geklapper, Gepolter“. Bekannt ist das Wort vor allem durch 乒乓球 (pīngpāngqiú) „Tischtennis“ – der Name ahmt das Hin und Her des Balls nach; 乒乓 allein kann auch kurz für Tischtennis stehen.",
     "examples": [
       {
-        "chinese": "乒乓一阵响。",
-        "pinyin": "Pīngpāng yī zhèn xiǎng.",
-        "german": "Es gab ein lautes Geklapper."
+        "chinese": "外面乒乓几声，有人在放鞭炮。",
+        "pinyin": "Wàimiàn pīngpāng jǐ shēng, yǒu rén zài fàng biānpào.",
+        "german": "Draußen knallte es ein paarmal – jemand zündete Böller."
+      },
+      {
+        "chinese": "他生气地把门摔得乒乓响。",
+        "pinyin": "Tā shēngqì de bǎ mén shuāi de pīngpāng xiǎng.",
+        "german": "Wütend knallte er die Tür zu."
+      },
+      {
+        "chinese": "我们下午去打乒乓球吧。",
+        "pinyin": "Wǒmen xiàwǔ qù dǎ pīngpāngqiú ba.",
+        "german": "Lass uns heute Nachmittag Tischtennis spielen."
       }
     ],
     "related": [
-      "o:砰"
+      "o:砰",
+      "o:啪啪",
+      "o:噼噼啪啪"
     ],
-    "notes": "乒乓球 (Tischtennis) ist Chinas Nationalsport.",
+    "notes": "Die Zeichen 乒 und 乓 kommen fast nur in diesem Lautwort und seinen Ableitungen vor; 乒 steht gelegentlich auch allein für einen Knall (乒的一声).",
     "legacyIds": [
       "乒乓"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "乒乓 乒乓 [ping1 pang1]"
     }
@@ -5203,24 +5313,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "knistern, knacken (Feuer, Holz)",
-    "usage": "Gibt das Knistern und Knacken von brennendem Holz wieder",
-    "explanation": "噼啪 beschreibt das Knistern und Knacken eines Lagerfeuers oder brennenden Holzes.",
+    "meaning": "knack, knister; peng (Feuer, Peitsche, Regen)",
+    "usage": "Gibt kurze, knackende oder knallende Laute wieder: brennendes Holz, Knallkörper, Peitschenhiebe, Regentropfen am Fenster.",
+    "explanation": "噼啪 ahmt kurze, scharfe Knack- und Knalllaute nach: Holz knistert im Feuer, Knallkörper explodieren, eine Peitsche knallt, Regen trommelt ans Fenster. Meist steht es mit 地 vor dem Verb (噼啪地响) oder mit 一响 (yì xiǎng) bzw. 一声 (yì shēng). Für eine ganze Folge solcher Laute stehen die verlängerten Formen 噼噼啪啪 (pīpīpāpā) und 噼里啪啦 (pīlipālā). Andere Schreibung: 劈啪 (pīpā).",
     "examples": [
       {
-        "chinese": "柴火噼啪地燃烧着。",
-        "pinyin": "Cháihuǒ pīpā de ránshāozhe.",
-        "german": "Das Feuerholz brannte knisternd."
+        "chinese": "柴火在炉子里噼啪地响着。",
+        "pinyin": "Cháihuo zài lúzi lǐ pīpā de xiǎngzhe.",
+        "german": "Das Brennholz knistert im Ofen."
+      },
+      {
+        "chinese": "鞭子在空中噼啪一响，马跑了起来。",
+        "pinyin": "Biānzi zài kōng zhōng pīpā yì xiǎng, mǎ pǎo le qǐlái.",
+        "german": "Die Peitsche knallte in der Luft, und das Pferd lief los."
+      },
+      {
+        "chinese": "雨点噼啪地打在窗户上。",
+        "pinyin": "Yǔdiǎn pīpā de dǎ zài chuānghu shang.",
+        "german": "Regentropfen prasseln gegen das Fenster."
       }
     ],
     "related": [
-      "o:噼里啪啦"
+      "o:噼里啪啦",
+      "o:噼噼啪啪",
+      "o:啪",
+      "o:啪啪"
     ],
     "notes": "",
     "legacyIds": [
       "噼啪"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "噼啪 噼啪 [pi1 pa1]"
     }
@@ -5235,18 +5358,30 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "platsch, plumps (schwerer Fall ins Wasser)",
-    "usage": "Gibt das Geräusch wieder, wenn etwas Schweres ins Wasser fällt oder jemand hinfällt",
-    "explanation": "扑通 beschreibt den Aufprall von etwas Schwerem, besonders ins Wasser. Lauter und schwerer als 咕咚.",
+    "meaning": "platsch, plumps (Sprung, Sturz); poch, poch (Herz)",
+    "usage": "Gibt den Laut wieder, wenn jemand oder etwas Schweres ins Wasser springt oder fällt oder hart auf den Boden stürzt; verdoppelt auch für Herzklopfen.",
+    "explanation": "扑通 ahmt einen schweren, dumpfen Aufprall nach, besonders ins Wasser: Jemand springt in den Fluss, ein Stein fällt in den Teich. Auch für Stürze und Hinknien wird es gebraucht: 扑通一声跪下 „fiel auf die Knie“. Typisch ist 扑通一声 + Verb. Verdoppelt beschreibt 扑通扑通 (pūtōng pūtōng) ein heftig pochendes Herz (心扑通扑通地跳). Andere Schreibung: 噗通 (pūtōng), vor allem im Internet verbreitet.",
     "examples": [
       {
-        "chinese": "他扑通一声跳进了水里。",
-        "pinyin": "Tā pūtōng yī shēng tiào jìn le shuǐ lǐ.",
-        "german": "Er sprang mit einem Platsch ins Wasser."
+        "chinese": "他扑通一声跳进了河里。",
+        "pinyin": "Tā pūtōng yì shēng tiào jìn le hé lǐ.",
+        "german": "Platsch – er sprang in den Fluss."
+      },
+      {
+        "chinese": "我紧张得心扑通扑通直跳。",
+        "pinyin": "Wǒ jǐnzhāng de xīn pūtōng pūtōng zhí tiào.",
+        "german": "Ich war so nervös, dass mir das Herz bis zum Hals schlug."
+      },
+      {
+        "chinese": "孩子没站稳，扑通一下坐在了地上。",
+        "pinyin": "Háizi méi zhànwěn, pūtōng yíxià zuò zài le dì shang.",
+        "german": "Das Kind verlor das Gleichgewicht und plumpste auf den Boden."
       }
     ],
     "related": [
-      "o:咕咚"
+      "o:咕咚",
+      "o:扑腾",
+      "o:咚咚"
     ],
     "notes": "",
     "variants": [
@@ -5256,7 +5391,7 @@ window.ONOMATOPOEIA_DATA = [
       "扑通",
       "噗通"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "撲通 扑通 [pu1 tong1]"
     }
@@ -5271,25 +5406,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "reißend, Stoff zerreißen",
-    "usage": "Gibt das Geräusch von zerreißendem Stoff oder Papier wieder",
-    "explanation": "嘶啦 beschreibt das scharfe Geräusch, wenn Stoff, Papier oder ähnliches Material zerrissen wird.",
+    "meaning": "ratsch (Reißen von Stoff, Papier, Klebeband)",
+    "usage": "Gibt das scharfe Reißgeräusch wieder, wenn Stoff, Papier oder Klebeband zerrissen oder abgezogen wird.",
+    "explanation": "嘶啦 ahmt ein kurzes, scharfes Reißgeräusch nach: Stoff zerreißt, ein Umschlag wird aufgerissen, Klebeband wird abgezogen. Typisch ist 嘶啦一声 + Verb, oft zusammen mit dem Verb 撕 (sī) „reißen“ (嘶啦一声撕开). Gelegentlich steht es auch für das Zischen, wenn etwas in heißes Öl kommt; dafür ist 滋啦 (zīlā) üblicher. Wiederholtes Reißen: 嘶啦嘶啦 (sīlā sīlā). Ähnlich gebraucht wird 刺啦 (cīlā).",
     "examples": [
       {
         "chinese": "她嘶啦一声撕开了信封。",
-        "pinyin": "Tā sīlā yī shēng sī kāi le xìnfēng.",
-        "german": "Sie riss den Briefumschlag mit einem Reißgeräusch auf."
+        "pinyin": "Tā sīlā yì shēng sīkāi le xìnfēng.",
+        "german": "Ratsch – sie riss den Umschlag auf."
+      },
+      {
+        "chinese": "裤子挂在钉子上，嘶啦一声破了个口子。",
+        "pinyin": "Kùzi guà zài dīngzi shang, sīlā yì shēng pò le ge kǒuzi.",
+        "german": "Die Hose blieb an einem Nagel hängen und riss mit einem Ratsch ein."
+      },
+      {
+        "chinese": "他把胶带嘶啦嘶啦地撕了下来。",
+        "pinyin": "Tā bǎ jiāodài sīlā sīlā de sī le xiàlái.",
+        "german": "Ratschend zog er das Klebeband ab."
       }
     ],
     "related": [
-      "o:嘶嘶"
+      "o:滋啦",
+      "o:嘶嘶",
+      "o:哗啦"
     ],
     "notes": "",
     "legacyIds": [
       "嘶啦",
       "嘶嘶啦啦"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -5304,26 +5451,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "knarren, quietschen (langes Öffnen)",
-    "usage": "Gibt das langgezogene Quietschen einer alten Tür wieder",
-    "explanation": "吱嘎 beschreibt ein hohes, langgezogenes Quietschen – eine rostige Tür, ein alter Stuhl oder eine morsche Treppe.",
+    "meaning": "quietsch, knarr (rostige Tür, alter Stuhl, Bremsen)",
+    "usage": "Gibt ein hohes, kratzendes Quietschen oder Knarren wieder: rostige Scharniere, ein alter Stuhl, Holzdielen, scharf bremsende Räder.",
+    "explanation": "吱嘎 ahmt ein Quietschen nach, das in ein Knarren übergeht – so klingen rostige Scharniere, alte Holzstühle und Dielen oder scharf bremsende Räder. Typisch: 吱嘎一声 + Verb (门吱嘎一声开了). Für anhaltende Geräusche stehen 吱嘎吱嘎 und die AABB-Form 吱吱嘎嘎 (zhīzhīgāgā). Sehr ähnlich ist die umgekehrte Form 嘎吱 (gāzhī); 吱呀 (zhīyā) ist besonders für langsam aufgehende Türen üblich.",
     "examples": [
       {
         "chinese": "椅子吱嘎一声响了。",
-        "pinyin": "Yǐzi zhīgā yī shēng xiǎng le.",
-        "german": "Der Stuhl quietschte."
+        "pinyin": "Yǐzi zhīgā yì shēng xiǎng le.",
+        "german": "Der Stuhl knarrte."
+      },
+      {
+        "chinese": "汽车吱嘎一声停在了门口。",
+        "pinyin": "Qìchē zhīgā yì shēng tíng zài le ménkǒu.",
+        "german": "Mit quietschenden Bremsen hielt das Auto vor der Tür."
+      },
+      {
+        "chinese": "老木楼梯一踩就吱嘎吱嘎地响。",
+        "pinyin": "Lǎo mù lóutī yì cǎi jiù zhīgā zhīgā de xiǎng.",
+        "german": "Die alte Holztreppe knarrt bei jedem Schritt."
       }
     ],
     "related": [
       "o:嘎吱",
-      "o:吱吱",
-      "o:吱呀"
+      "o:吱呀",
+      "o:吱吱嘎嘎",
+      "o:嘎吱嘎吱"
     ],
     "notes": "",
     "legacyIds": [
       "吱嘎"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "吱嘎 吱嘎 [zhi1 ga1]"
     }
@@ -5338,25 +5496,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "knarren, quietschen (Tür, Holz)",
-    "usage": "Gibt das Knarren einer Tür oder eines Holzbodens wieder",
-    "explanation": "吱呀 beschreibt das längere Knarren oder Quietschen, wenn eine alte Tür langsam geöffnet wird.",
+    "meaning": "knarr (langsam aufgehende Tür, Fenster, Ruder)",
+    "usage": "Gibt das gedehnte Knarren einer Tür, eines Fensters oder eines Holzteils wieder, das langsam bewegt wird.",
+    "explanation": "吱呀 ahmt ein langgezogenes, eher weiches Knarren nach – vor allem einer Holztür oder eines Fensterladens, der langsam aufgeht, aber auch von Rudern oder einer Schaukel. Meist heißt es 吱呀一声 + Verb: 门吱呀一声开了 „die Tür ging knarrend auf“ – in Erzählungen ein beliebter Einstieg in eine Szene. Anhaltend: 吱呀吱呀 oder 吱吱呀呀 (zhīzhīyāyā). Ähnlich, aber härter klingen 吱嘎 (zhīgā) und 嘎吱 (gāzhī).",
     "examples": [
       {
         "chinese": "门吱呀一声开了。",
-        "pinyin": "Mén zhīyā yī shēng kāi le.",
-        "german": "Die Tür öffnete sich knarrend."
+        "pinyin": "Mén zhīyā yì shēng kāi le.",
+        "german": "Die Tür ging knarrend auf."
+      },
+      {
+        "chinese": "他轻轻推开窗户，窗户吱呀响了一下。",
+        "pinyin": "Tā qīngqīng tuīkāi chuānghu, chuānghu zhīyā xiǎng le yíxià.",
+        "german": "Leise drückte er das Fenster auf; es knarrte kurz."
+      },
+      {
+        "chinese": "小船吱呀吱呀地向前划去。",
+        "pinyin": "Xiǎo chuán zhīyā zhīyā de xiàng qián huá qù.",
+        "german": "Mit knarrenden Rudern glitt das kleine Boot voran."
       }
     ],
     "related": [
+      "o:吱嘎",
       "o:嘎吱",
-      "o:吱吱"
+      "o:吱吱嘎嘎",
+      "o:咯吱"
     ],
     "notes": "",
     "legacyIds": [
       "吱呀"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "吱呀 吱呀 [zhi1 ya1]"
     }
@@ -5371,20 +5541,32 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AB",
-    "meaning": "brutzeln, zischend braten",
-    "usage": "Gibt das Zischen und Brutzeln beim Braten in heißem Öl wieder",
-    "explanation": "滋啦 beschreibt das Geräusch, wenn Essen in heißes Öl gegeben wird und zu brutzeln beginnt.",
+    "meaning": "zisch, brutzel (Essen in heißem Öl)",
+    "usage": "Gibt das kurze, laute Zischen wieder, wenn Essen oder Wasser in heißes Öl kommt, auch das Zischen eines angerissenen Streichholzes.",
+    "explanation": "滋啦 ahmt ein scharfes Zischen nach, vor allem in der Küche: Gemüse oder Fleisch kommt in heißes Öl, Wasser spritzt in die Pfanne. Typisch: 滋啦一声 (一下锅就滋啦一声) oder 发出滋啦的声音. Für anhaltendes Brutzeln stehen 嗞嗞 (zīzī) und 滋啦滋啦 (zīlā zīlā). Andere Schreibung: 呲啦 (cīlā).",
     "examples": [
       {
-        "chinese": "肉片下锅，滋啦一声响。",
-        "pinyin": "Ròupiàn xià guō, zīlā yī shēng xiǎng.",
-        "german": "Die Fleischstücke kamen in die Pfanne und brutzelten laut."
+        "chinese": "肉片一下锅，就滋啦一声。",
+        "pinyin": "Ròupiàn yí xià guō, jiù zīlā yì shēng.",
+        "german": "Kaum kommen die Fleischscheiben in die Pfanne, zischt es laut."
+      },
+      {
+        "chinese": "热油浇在葱花上，发出滋啦的声音。",
+        "pinyin": "Rè yóu jiāo zài cōnghuā shang, fāchū zīlā de shēngyīn.",
+        "german": "Das heiße Öl zischt, als es über die Frühlingszwiebeln gegossen wird."
+      },
+      {
+        "chinese": "他划了一根火柴，滋啦一下，火着了。",
+        "pinyin": "Tā huá le yì gēn huǒchái, zīlā yíxià, huǒ zháo le.",
+        "german": "Er riss ein Streichholz an – zisch, und es brannte."
       }
     ],
     "related": [
-      "o:嗞嗞"
+      "o:嗞嗞",
+      "o:嘶啦",
+      "o:哗啦"
     ],
-    "notes": "Sehr gebräuchlich in der chinesischen Küchenbeschreibung.",
+    "notes": "In Kochvideos und Rezepten beliebt, um frisch angebratenes Essen anschaulich zu machen.",
     "variants": [
       "呲啦"
     ],
@@ -5392,7 +5574,7 @@ window.ONOMATOPOEIA_DATA = [
       "滋啦",
       "呲啦"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -5407,24 +5589,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AABB",
-    "meaning": "Geklimper, Geklirr (Metall)",
-    "usage": "Gibt anhaltendes metallisches Klimpern und Klirren wieder",
-    "explanation": "叮叮当当 ist die AABB-Form von 叮当. Beschreibt längeres, rhythmisches metallisches Klingen.",
+    "meaning": "klingeling; Geklimper, Geklapper (Metall, Glöckchen)",
+    "usage": "Gibt anhaltendes, helles Klingen und Klappern von Metall, Glöckchen oder Geschirr wieder.",
+    "explanation": "叮叮当当 ist die AABB-Form von 叮当 (dīngdāng) „kling, klang“. Die Verdopplung macht aus dem einzelnen Klang eine ganze Folge: Glöckchen bimmeln, in der Schmiede wird gehämmert, Geschirr und Werkzeug klappern. Typisch steht es mit 地 vor dem Verb (叮叮当当地响) oder mit 的 als Prädikat (厨房里叮叮当当的).",
     "examples": [
       {
-        "chinese": "铁匠叮叮当当地打铁。",
-        "pinyin": "Tiějiàng dīngdīng-dāngdāng de dǎ tiě.",
-        "german": "Der Schmied hämmerte klingend auf das Eisen."
+        "chinese": "铁匠铺里传来叮叮当当的打铁声。",
+        "pinyin": "Tiějiàngpù lǐ chuánlái dīngdīngdāngdāng de dǎtiě shēng.",
+        "german": "Aus der Schmiede dringt das helle Klingen der Hämmer."
+      },
+      {
+        "chinese": "风一吹，门口的风铃叮叮当当地响。",
+        "pinyin": "Fēng yì chuī, ménkǒu de fēnglíng dīngdīngdāngdāng de xiǎng.",
+        "german": "Sobald der Wind weht, klingelt das Windspiel am Eingang."
+      },
+      {
+        "chinese": "厨房里叮叮当当的，妈妈正在洗碗。",
+        "pinyin": "Chúfáng lǐ dīngdīngdāngdāng de, māma zhèngzài xǐ wǎn.",
+        "german": "In der Küche klappert es – Mama spült gerade."
       }
     ],
     "related": [
-      "o:叮当"
+      "o:叮当",
+      "o:叮叮",
+      "o:叮铃",
+      "o:哐当"
     ],
-    "notes": "",
+    "notes": "Im chinesischen Text von „Jingle Bells“ heißt es 叮叮当，叮叮当，铃儿响叮当 – dort mit der kürzeren Form 叮当 (dīngdāng).",
     "legacyIds": [
       "叮叮当当"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "叮叮噹噹 叮叮当当 [ding1 ding1 dang1 dang1]"
     }
@@ -5439,24 +5634,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AABB",
-    "meaning": "knatternd, krachend prasseln",
-    "usage": "Gibt das Knattern von Feuerwerk, Feuer oder starkem Regen auf Blech wieder",
-    "explanation": "噼噼啪啪 beschreibt ein lautes, wiederholt knallendes und krachendes Geräusch – Feuerwerk, brennendes Holz oder Regen auf Blech.",
+    "meaning": "knatter, prassel (Böller, Feuer, Applaus, Tippen)",
+    "usage": "Gibt eine Folge knallender oder knackender Laute wieder: Böller, knisterndes Feuer, prasselnder Regen, Applaus, schnelles Tippen.",
+    "explanation": "噼噼啪啪 ist die AABB-Form von 噼啪 (pīpā) „knack, peng“. Die Verdopplung beschreibt viele schnell aufeinanderfolgende Knall- oder Knacklaute: Böller zum Neujahrsfest, brennendes Holz, Regen auf einem Blechdach, Klatschen oder schnelles Tippen. Meist steht es mit 地 vor dem Verb (噼噼啪啪地响) oder als Prädikat mit 的. Sehr ähnlich ist 噼里啪啦 (pīlipālā). Auch 劈劈啪啪 geschrieben.",
     "examples": [
       {
         "chinese": "柴火噼噼啪啪地烧着。",
-        "pinyin": "Cháihuǒ pīpīpāpā de shāozhe.",
-        "german": "Das Feuerholz brannte knatternd und knackend."
+        "pinyin": "Cháihuo pīpīpāpā de shāozhe.",
+        "german": "Das Feuerholz brennt knisternd und knackend."
+      },
+      {
+        "chinese": "过年了，外面的鞭炮噼噼啪啪地响个不停。",
+        "pinyin": "Guònián le, wàimiàn de biānpào pīpīpāpā de xiǎng ge bù tíng.",
+        "german": "Es ist Neujahr, draußen knallen pausenlos die Böller."
+      },
+      {
+        "chinese": "她在电脑上噼噼啪啪地打着字。",
+        "pinyin": "Tā zài diànnǎo shang pīpīpāpā de dǎzhe zì.",
+        "german": "Sie tippt klappernd am Computer."
       }
     ],
     "related": [
-      "o:噼里啪啦"
+      "o:噼啪",
+      "o:噼里啪啦",
+      "o:啪啪",
+      "o:叮叮当当"
     ],
     "notes": "",
     "legacyIds": [
       "噼噼啪啪"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -5471,25 +5679,38 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "AABB",
-    "meaning": "quietschend und knarrend",
-    "usage": "Gibt eine Mischung aus Quietschen und Knarren wieder",
-    "explanation": "吱吱嘎嘎 kombiniert Quietschen (吱吱) und Knarren (嘎嘎), typisch für alte Maschinen, rostige Scharniere oder einen alten Karren.",
+    "meaning": "quietsch und knarr (anhaltend)",
+    "usage": "Gibt ein anhaltendes Gemisch aus Quietschen und Knarren wieder, etwa von alten Türen, Möbeln, Fahrrädern oder Karren.",
+    "explanation": "吱吱嘎嘎 ist die AABB-Form von 吱嘎 (zhīgā): Das hohe 吱 und das raue 嘎 wechseln sich ab und ergeben ein lang anhaltendes Quietschen und Knarren – typisch für alte Türen, wackelige Möbel, rostige Fahrräder oder einen Karren auf unebenem Weg. Es steht meist mit 地 vor dem Verb (吱吱嘎嘎地响) oder als Prädikat mit 的. Nahe verwandt ist die ABAB-Form 嘎吱嘎吱 (gāzhī gāzhī).",
     "examples": [
       {
         "chinese": "那扇旧门吱吱嘎嘎地打开了。",
         "pinyin": "Nà shàn jiù mén zhīzhīgāgā de dǎkāi le.",
-        "german": "Die alte Tür öffnete sich quietschend und knarrend."
+        "german": "Die alte Tür ging quietschend und knarrend auf."
+      },
+      {
+        "chinese": "这辆自行车太旧了，一骑就吱吱嘎嘎的。",
+        "pinyin": "Zhè liàng zìxíngchē tài jiù le, yì qí jiù zhīzhīgāgā de.",
+        "german": "Das Fahrrad ist so alt, dass es beim Fahren ständig quietscht und knarrt."
+      },
+      {
+        "chinese": "牛车在山路上吱吱嘎嘎地走着。",
+        "pinyin": "Niúchē zài shānlù shang zhīzhīgāgā de zǒuzhe.",
+        "german": "Der Ochsenkarren rumpelt quietschend den Bergweg entlang."
       }
     ],
     "related": [
-      "o:吱吱",
-      "o:嘎吱"
+      "o:吱嘎",
+      "o:嘎吱嘎吱",
+      "o:吱呀",
+      "o:嘎吱",
+      "o:吱吱"
     ],
-    "notes": "",
+    "notes": "Die Lesung von 吱 schwankt hier: Neben zhīzhī-gāgā ist auch zīzī-gāgā verbreitet.",
     "legacyIds": [
       "吱吱嘎嘎"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "吱吱嘎嘎 吱吱嘎嘎 [zi1 zi1 ga1 ga1]"
     }
@@ -5504,24 +5725,38 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "ABAB",
-    "meaning": "knarrend, wiederholt quietschend",
-    "usage": "Gibt anhaltendes Knarren von Maschinen oder altem Holz wieder",
-    "explanation": "嘎吱嘎吱 ist die verdoppelte Form von 嘎吱 und beschreibt anhaltendes, rhythmisches Knarren, z.B. einer Mühle oder eines alten Rades.",
+    "meaning": "knarr, knarr; knirsch, knirsch (wiederholt)",
+    "usage": "Gibt wiederholtes Knarren oder Knirschen wieder: alte Dielen, ein Bett, Schritte im Schnee, Kauen von etwas Knackigem.",
+    "explanation": "嘎吱嘎吱 ist die ABAB-Verdopplung von 嘎吱 (gāzhī) „knarr, knirsch“. Sie beschreibt ein wiederholtes, rhythmisches Geräusch: Dielen und Betten knarren, ein Karren oder Wasserrad dreht sich, Schnee knirscht unter den Füßen, jemand kaut etwas Knackiges. Typisch steht es mit 地 vor dem Verb (嘎吱嘎吱地响) oder direkt vor 响. Mit dem Wechsel von Quietschen und Knarren ähnelt es 吱吱嘎嘎 (zhīzhīgāgā).",
     "examples": [
       {
-        "chinese": "老水车嘎吱嘎吱地转着。",
-        "pinyin": "Lǎo shuǐchē gāzhīgāzhī de zhuǎnzhe.",
-        "german": "Das alte Wasserrad drehte sich knarrend."
+        "chinese": "走在雪地上，脚下嘎吱嘎吱地响。",
+        "pinyin": "Zǒu zài xuědì shang, jiǎo xià gāzhī gāzhī de xiǎng.",
+        "german": "Beim Gehen knirscht der Schnee unter den Füßen."
+      },
+      {
+        "chinese": "这张旧床一翻身就嘎吱嘎吱响。",
+        "pinyin": "Zhè zhāng jiù chuáng yì fānshēn jiù gāzhī gāzhī xiǎng.",
+        "german": "Das alte Bett knarrt bei jedem Umdrehen."
+      },
+      {
+        "chinese": "他嘎吱嘎吱地嚼着黄瓜。",
+        "pinyin": "Tā gāzhī gāzhī de jiáozhe huángguā.",
+        "german": "Er kaut knackend eine Gurke."
       }
     ],
     "related": [
-      "o:嘎吱"
+      "o:嘎吱",
+      "o:吱吱嘎嘎",
+      "o:吱嘎",
+      "o:嘎嘣",
+      "o:咯吱"
     ],
-    "notes": "ABAB-Verdopplung verstärkt das anhaltende Geräusch.",
+    "notes": "",
     "legacyIds": [
       "嘎吱嘎吱"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -5536,24 +5771,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "ABAB",
-    "meaning": "blubbernd kochen, brodeln",
-    "usage": "Gibt das Blubbern von kochender Flüssigkeit wieder",
-    "explanation": "咕嘟咕嘟 ahmt das Blubbern nach, wenn Wasser oder Suppe kocht und Blasen aufsteigen.",
+    "meaning": "blubb, blubb (anhaltendes Brodeln); gluck, gluck (Trinken)",
+    "usage": "Gibt anhaltendes Blubbern wieder – kochende Suppe, sprudelndes Wasser, aufsteigende Blasen – und das Glucksen beim Trinken in großen Zügen.",
+    "explanation": "咕嘟咕嘟 ist die ABAB-Verdopplung von 咕嘟 (gūdū) „blubb“ und beschreibt ein anhaltendes, gleichmäßiges Blubbern: Suppe oder Brei köchelt im Topf, Wasser sprudelt aus einer Quelle, Blasen steigen im Aquarium auf. Ebenso steht es für lautes Trinken in großen Schlucken (咕嘟咕嘟地喝). Typisch ist es mit 地 oder direkt vor dem Verb: 咕嘟咕嘟冒泡 „blubbernd Blasen werfen“. Für das Trinken ist auch 咕咚咕咚 (gūdōng gūdōng) üblich.",
     "examples": [
       {
-        "chinese": "锅里咕嘟咕嘟冒着泡。",
-        "pinyin": "Guō lǐ gūdūgūdū màozhe pào.",
-        "german": "Im Topf blubberte und brodelte es."
+        "chinese": "火锅咕嘟咕嘟地开了，大家快吃吧！",
+        "pinyin": "Huǒguō gūdū gūdū de kāi le, dàjiā kuài chī ba!",
+        "german": "Der Feuertopf brodelt schon – greift zu!"
+      },
+      {
+        "chinese": "他渴坏了，端起碗咕嘟咕嘟地喝了下去。",
+        "pinyin": "Tā kě huài le, duānqǐ wǎn gūdū gūdū de hē le xiàqù.",
+        "german": "Er war halb verdurstet, nahm die Schüssel und trank sie in großen Zügen aus."
+      },
+      {
+        "chinese": "鱼缸里的气泡咕嘟咕嘟地往上冒。",
+        "pinyin": "Yúgāng lǐ de qìpào gūdū gūdū de wǎng shàng mào.",
+        "german": "Im Aquarium steigen blubbernd Luftblasen auf."
       }
     ],
     "related": [
-      "o:咕嘟"
+      "o:咕嘟",
+      "o:咕噜咕噜",
+      "o:咕咚咕咚"
     ],
-    "notes": "Verdoppelte Form von 咕嘟 für längeres Kochen.",
+    "notes": "",
     "legacyIds": [
       "咕嘟咕嘟"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -5568,24 +5815,38 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "A里BC",
-    "meaning": "prasseln, knistern, knattern",
-    "usage": "Gibt das Prasseln von Regen, Feuerwerk oder Knallerbsen wieder",
-    "explanation": "噼里啪啦 beschreibt eine Folge schneller Knall- oder Prasselgeräusche – typisch für Feuerwerk, starken Regen oder knisterndes Feuer.",
+    "meaning": "knatter, prassel (Böller, Applaus); übertr. Schlag auf Schlag",
+    "usage": "Gibt eine dichte Folge knallender oder prasselnder Laute wieder – Böller, Platzregen, Applaus – und beschreibt übertragen schnelles, pausenloses Reden oder Handeln.",
+    "explanation": "噼里啪啦 ist eine A里BC-Form: 噼啪 (pīpā) „knack, peng“ wird mit eingeschobenem 里 (li, neutraler Ton) zu einer lebhaften Lautfolge gedehnt. Es beschreibt viele schnell aufeinanderfolgende Knalle oder Prasselgeräusche: Böller zum Neujahrsfest, Platzregen, Applaus. Meist steht es mit 地 vor dem Verb (噼里啪啦地响) oder als Attribut mit 的. Übertragen beschreibt es schnelles, pausenloses Reden oder Tippen: 噼里啪啦说了一大堆 „redete wie ein Wasserfall“. Auch 劈里啪啦 (pīlipālā) geschrieben.",
     "examples": [
       {
-        "chinese": "鞭炮噼里啪啦地响。",
-        "pinyin": "Biānpào pīli-pālā de xiǎng.",
-        "german": "Die Feuerwerkskörper knallen und prasseln."
+        "chinese": "零点一到，鞭炮声噼里啪啦地响了起来。",
+        "pinyin": "Língdiǎn yí dào, biānpào shēng pīlipālā de xiǎng le qǐlái.",
+        "german": "Punkt Mitternacht ging das Knallen der Böller los."
+      },
+      {
+        "chinese": "演出结束，台下响起了噼里啪啦的掌声。",
+        "pinyin": "Yǎnchū jiéshù, tái xià xiǎngqǐ le pīlipālā de zhǎngshēng.",
+        "german": "Nach der Vorstellung brach im Publikum prasselnder Applaus los."
+      },
+      {
+        "chinese": "她一进门就噼里啪啦地说了一大堆。",
+        "pinyin": "Tā yí jìn mén jiù pīlipālā de shuō le yí dà duī.",
+        "german": "Kaum war sie zur Tür herein, redete sie wie ein Wasserfall."
       }
     ],
     "related": [
-      "o:啪啪"
+      "o:噼啪",
+      "o:噼噼啪啪",
+      "o:稀里哗啦",
+      "o:啪啪",
+      "o:叽里呱啦"
     ],
-    "notes": "Typisch für das chinesische Neujahr!",
+    "notes": "Besonders mit dem chinesischen Neujahrsfest verbunden, an dem traditionell Böller gezündet werden; in vielen Städten ist das Böllern heute eingeschränkt.",
     "legacyIds": [
       "噼里啪啦"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "噼里啪啦 噼里啪啦 [pi1 li5 pa1 la1]"
     }
@@ -5600,24 +5861,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Dinge",
     "pattern": "A里BC",
-    "meaning": "klirrend, prasselnd (Gegenstände fallen)",
-    "usage": "Gibt das Geräusch von vielen herabfallenden Gegenständen oder starkem Regen wieder",
-    "explanation": "稀里哗啦 beschreibt ein chaotisches, lautes Geräusch – wie herabfallende Dinge, prasselnder Regen oder auch übertragen für Tränen.",
+    "meaning": "klirr, prassel (Durcheinander); übertr. völlig kaputt, hemmungslos",
+    "usage": "Gibt chaotische, durcheinanderprasselnde Geräusche wieder – Regen, umstürzende Dinge – und beschreibt übertragen völlige Niederlage oder hemmungsloses Weinen.",
+    "explanation": "稀里哗啦 ist eine A里BC-Form zu 哗啦 (huālā) „krach, klirr“: Das vorgeschaltete 稀里 (xīli) macht das Geräusch ungeordneter und anhaltender. Wörtlich beschreibt es prasselnden Regen, umstürzende Stapel, klirrendes Geschirr. Sehr häufig steht es übertragen als Komplement nach 得: 哭得稀里哗啦 „Rotz und Wasser heulen“, 输得稀里哗啦 „haushoch verlieren“. Es gehört der lockeren Umgangssprache an.",
     "examples": [
       {
-        "chinese": "她哭得稀里哗啦的。",
-        "pinyin": "Tā kū de xīli-huālā de.",
-        "german": "Sie weinte hemmungslos."
+        "chinese": "看到最后，她哭得稀里哗啦的。",
+        "pinyin": "Kàndào zuìhòu, tā kū de xīlihuālā de.",
+        "german": "Am Schluss heulte sie Rotz und Wasser."
+      },
+      {
+        "chinese": "书架倒了，书稀里哗啦地掉了一地。",
+        "pinyin": "Shūjià dǎo le, shū xīlihuālā de diào le yí dì.",
+        "german": "Das Bücherregal kippte um, und die Bücher prasselten auf den Boden."
+      },
+      {
+        "chinese": "这场比赛我们输得稀里哗啦。",
+        "pinyin": "Zhè chǎng bǐsài wǒmen shū de xīlihuālā.",
+        "german": "Dieses Spiel haben wir haushoch verloren."
       }
     ],
     "related": [
-      "o:哗啦"
+      "o:哗啦",
+      "o:噼里啪啦",
+      "o:哗啦啦",
+      "o:哗哗"
     ],
-    "notes": "Kann wörtlich (Geräusch) oder übertragen (heftig weinen) verwendet werden.",
+    "notes": "Das 里 wird neutral (li) gesprochen; in der Bedeutung „hemmungslos weinen“ ist das Wort besonders häufig.",
     "legacyIds": [
       "稀里哗啦"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "稀里嘩啦 稀里哗啦 [xi1 li5 hua1 la1]"
     }
@@ -5741,22 +6015,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Ausruf",
     "category": "Ausrufe",
     "pattern": "A",
-    "meaning": "äh, Hickser (Schluckauf)",
-    "usage": "Gibt einen Hickser oder ein zögerndes \"äh\" wieder",
-    "explanation": "呃 ist der Laut eines Schluckaufs oder ein zögerlicher Fuelllaut beim Sprechen.",
+    "meaning": "äh, ähm (Zögern); hicks (Aufstoßen)",
+    "usage": "Füllwort beim Zögern oder Nachdenken, auch Ausdruck leichter Verlegenheit; daneben der Laut beim Aufstoßen oder Schluckauf.",
+    "explanation": "呃 steht als zögerndes „äh, ähm“ am Satzanfang oder mitten im Satz, wenn die sprechende Person nachdenkt, nach Worten sucht oder verlegen ist; meist folgt ein Komma oder eine Auslassung (呃……). Gesprochen klingt es oft gedehnt und ohne deutlichen Ton; im Pinyin steht meist è. Geschrieben signalisiert 呃 im Internet auch Sprachlosigkeit oder leichte Peinlichkeit („äh … okay?“). Außerdem gibt es den Laut beim Aufstoßen oder Schluckauf wieder; der Fachausdruck für Schluckauf ist 呃逆 (ènì).",
     "examples": [
       {
-        "chinese": "他紧张地说：\"呃……我不知道。\"",
-        "pinyin": "Tā jǐnzhāng de shuō: \"È... wǒ bù zhīdào.\"",
-        "german": "Er sagte nervös: \"Äh... ich weiß nicht.\""
+        "chinese": "呃，这个问题我得想一想。",
+        "pinyin": "È, zhège wèntí wǒ děi xiǎng yi xiǎng.",
+        "german": "Äh, über diese Frage muss ich erst nachdenken."
+      },
+      {
+        "chinese": "呃……你说的是哪一个？",
+        "pinyin": "È…… nǐ shuō de shì nǎ yí ge?",
+        "german": "Ähm … welchen meinst du?"
+      },
+      {
+        "chinese": "呃，不好意思，我走错房间了。",
+        "pinyin": "È, bù hǎoyìsi, wǒ zǒucuò fángjiān le.",
+        "german": "Äh, Entschuldigung, ich bin im falschen Zimmer."
       }
     ],
-    "related": [],
-    "notes": "打呃 (dǎ è) = Schluckauf haben.",
+    "related": [
+      "o:嗯",
+      "o:啊",
+      "o:哦"
+    ],
+    "notes": "Im Internet wird das zögernde „äh“ auch mit 额 (é) geschrieben.",
     "legacyIds": [
       "呃"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "呃 呃 [e4]"
     }
@@ -5827,13 +6115,33 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Ausruf",
     "category": "Ausrufe",
     "pattern": "A",
-    "meaning": "hm!, pah! (Unmut, Zweifel)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
+    "meaning": "hmpf!, pah! (Unmut, Verachtung, Trotz)",
+    "usage": "Drückt Unzufriedenheit, Verachtung, Trotz oder Zweifel aus – ein kurzes, verächtliches Schnauben durch die Nase.",
+    "explanation": "哼 als Ausruf ist ein Nasallaut, ein kurzes Schnauben durch die Nase: „hmpf!, pah!“. Es zeigt Ärger, Verachtung, Trotz oder Misstrauen und steht am Satzanfang oder allein (哼！). Im Pinyin wird es hng geschrieben und mit geschlossenem Mund gesprochen. Beliebt ist es auch für gespielten, kindlichen Trotz: 哼，不理你了！ „Hmpf, ich red nicht mehr mit dir!“ Als Verb heißt 哼 (hēng) „stöhnen; summen“ (哼歌 (hēng gē) „vor sich hin summen“).",
+    "examples": [
+      {
+        "chinese": "哼，我才不信呢！",
+        "pinyin": "Hng, wǒ cái bú xìn ne!",
+        "german": "Pah, das glaube ich dir nicht!"
+      },
+      {
+        "chinese": "哼，你说话不算数，我不跟你玩了。",
+        "pinyin": "Hng, nǐ shuōhuà bú suànshù, wǒ bù gēn nǐ wán le.",
+        "german": "Hmpf, du hältst dein Wort nicht – ich spiele nicht mehr mit dir."
+      },
+      {
+        "chinese": "哼，有什么了不起的！",
+        "pinyin": "Hng, yǒu shénme liǎobuqǐ de!",
+        "german": "Pah, als ob das was Besonderes wäre!"
+      }
+    ],
+    "related": [
+      "o:哼哼",
+      "o:呸",
+      "o:嗯"
+    ],
     "notes": "",
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "哼 哼 [hng5]"
@@ -5926,13 +6234,34 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Ausruf",
     "category": "Ausrufe",
     "pattern": "A",
-    "meaning": "oh!, ach so! (Erkenntnis)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
+    "meaning": "oh!, ach so!; ach ja! (Verstehen, Erinnern)",
+    "usage": "Zeigt an, dass die sprechende Person etwas plötzlich verstanden hat oder sich erinnert, oft mit leichter Überraschung.",
+    "explanation": "噢 ist ein kurzes „oh!, ach so!“ am Satzanfang, wenn einem etwas klar wird oder wieder einfällt: 噢，原来是你！ „Ach, du bist das!“ Es wird ō gesprochen, die Tonhöhe schwankt im Gespräch aber je nach Stimmung. In der Bedeutung überschneidet es sich stark mit 哦 (ò), das heute häufiger geschrieben wird. Gedehnt kann 噢 auch freudige Überraschung ausdrücken: „oh, super!“.",
+    "examples": [
+      {
+        "chinese": "噢，原来是这样！",
+        "pinyin": "Ō, yuánlái shì zhèyàng!",
+        "german": "Ach so, so ist das also!"
+      },
+      {
+        "chinese": "噢，我想起来了，你是小李的朋友。",
+        "pinyin": "Ō, wǒ xiǎng qǐlái le, nǐ shì Xiǎo Lǐ de péngyou.",
+        "german": "Ach ja, jetzt fällt es mir ein – du bist doch mit Xiao Li befreundet."
+      },
+      {
+        "chinese": "噢，明天不上课？太好了！",
+        "pinyin": "Ō, míngtiān bú shàngkè? Tài hǎo le!",
+        "german": "Oh, morgen ist kein Unterricht? Super!"
+      }
+    ],
+    "related": [
+      "o:哦",
+      "o:啊",
+      "o:哎",
+      "o:咦"
+    ],
     "notes": "",
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "噢 噢 [o1]"
@@ -5948,13 +6277,31 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Ausruf",
     "category": "Ausrufe",
     "pattern": "A",
-    "meaning": "pfui!, pah! (Verachtung)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "meaning": "pfui!, pah! (Verachtung, Ekel)",
+    "usage": "Drückt Verachtung, Ekel oder heftige Ablehnung aus; ursprünglich das Geräusch beim verächtlichen Ausspucken.",
+    "explanation": "呸 ahmt das Ausspucken nach und ist ein derber Ausruf der Verachtung oder des Ekels: „pfui!, pah!“. Es steht am Satzanfang oder allein und klingt scharf und abweisend. Wer etwas Unheilvolles gesagt hat, sagt oft 呸呸呸 (pēi pēi pēi), um die Worte symbolisch „auszuspucken“ – ähnlich wie man im Deutschen auf Holz klopft. Als Verb heißt es „verächtlich ausspucken“ (呸了一口).",
+    "examples": [
+      {
+        "chinese": "呸，你这个骗子！",
+        "pinyin": "Pēi, nǐ zhège piànzi!",
+        "german": "Pfui, du Betrüger!"
+      },
+      {
+        "chinese": "呸呸呸，别说这种不吉利的话！",
+        "pinyin": "Pēi pēi pēi, bié shuō zhè zhǒng bù jílì de huà!",
+        "german": "Klopf auf Holz! Sag doch nicht so etwas Unheilvolles!"
+      },
+      {
+        "chinese": "呸，这么难吃的东西还卖这么贵！",
+        "pinyin": "Pēi, zhème nánchī de dōngxi hái mài zhème guì!",
+        "german": "Pah, so ein scheußliches Essen und dann noch so teuer!"
+      }
+    ],
+    "related": [
+      "o:哼"
+    ],
+    "notes": "Derb und abwertend – gegenüber Unbekannten sehr unhöflich; im vertrauten Kreis auch scherzhaft gebraucht.",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "呸 呸 [pei1]"
@@ -6046,13 +6393,29 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Ausruf",
     "category": "Ausrufe",
     "pattern": "A",
-    "meaning": "pst!, sch! (zum Schweigen auffordern)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
+    "meaning": "pst!, sch! (Aufforderung zur Ruhe)",
+    "usage": "Fordert jemanden auf, still zu sein oder leiser zu sprechen; oft mit dem Zeigefinger vor den Lippen.",
+    "explanation": "嘘 ist das chinesische „pst!“: Man fordert damit zum Schweigen oder Leisesein auf, oft mit dem Zeigefinger an den Lippen. Es steht am Satzanfang oder allein, gern gedehnt. Der Ausruf wird meist xū gesprochen; manche Wörterbücher führen dafür auch die Lesung shī. Als Verb bedeutet 嘘 (xū) „langsam ausatmen; auspfeifen“: 嘘声 (xūshēng) sind die Buhrufe und Pfiffe eines Publikums.",
+    "examples": [
+      {
+        "chinese": "嘘，小声点儿，孩子睡着了。",
+        "pinyin": "Xū, xiǎo shēng diǎnr, háizi shuìzháo le.",
+        "german": "Pst, sei leiser, das Kind schläft."
+      },
+      {
+        "chinese": "嘘！别说话，电影开始了。",
+        "pinyin": "Xū! Bié shuōhuà, diànyǐng kāishǐ le.",
+        "german": "Pst! Nicht reden, der Film fängt an."
+      },
+      {
+        "chinese": "嘘，这件事千万别告诉别人。",
+        "pinyin": "Xū, zhè jiàn shì qiānwàn bié gàosu biérén.",
+        "german": "Pst – erzähl das bloß niemandem!"
+      }
+    ],
     "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "notes": "Ein scharfes 嘘 kann gegenüber Unbekannten unhöflich wirken; höflicher ist 请安静 (qǐng ānjìng) „bitte Ruhe“.",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "噓 嘘 [xu1]"
@@ -6096,13 +6459,34 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Ausruf",
     "category": "Ausrufe",
     "pattern": "A",
-    "meaning": "nanu?, hä? (Verwunderung)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
+    "meaning": "nanu?, hä? (Verwunderung, Stutzen)",
+    "usage": "Drückt Verwunderung oder Stutzen aus, wenn etwas unerwartet oder rätselhaft ist.",
+    "explanation": "咦 steht am Satzanfang, wenn die sprechende Person stutzt, weil etwas anders ist als erwartet: „nanu?, hä?, komisch!“. Es wird mit steigendem Ton yí gesprochen, oft gedehnt, und leitet meist eine Frage oder eine verwunderte Feststellung ein: 咦，我的钥匙呢？ „Nanu, wo ist denn mein Schlüssel?“ Im Unterschied zu 啊 (á) oder 哎 (āi) klingt 咦 eher nachdenklich-verwundert als erschrocken.",
+    "examples": [
+      {
+        "chinese": "咦，我的手机去哪儿了？",
+        "pinyin": "Yí, wǒ de shǒujī qù nǎr le?",
+        "german": "Nanu, wo ist denn mein Handy hin?"
+      },
+      {
+        "chinese": "咦，你怎么还没走？",
+        "pinyin": "Yí, nǐ zěnme hái méi zǒu?",
+        "german": "Nanu, du bist ja noch da?"
+      },
+      {
+        "chinese": "咦，这道菜的味道有点儿奇怪。",
+        "pinyin": "Yí, zhè dào cài de wèidao yǒudiǎnr qíguài.",
+        "german": "Hm, dieses Gericht schmeckt irgendwie komisch."
+      }
+    ],
+    "related": [
+      "o:哎",
+      "o:啊",
+      "o:哟",
+      "o:噢"
+    ],
     "notes": "",
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "咦 咦 [yi2]"
@@ -6118,13 +6502,34 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Ausruf",
     "category": "Ausrufe",
     "pattern": "A",
-    "meaning": "oh!, nanu! (leichte Überraschung)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
+    "meaning": "oh!, oho!, nanu! (leichte Überraschung, Necken)",
+    "usage": "Drückt leichte Überraschung aus, wenn man etwas oder jemanden bemerkt, oft auch neckend oder spöttisch.",
+    "explanation": "哟 (yō) steht am Satzanfang, wenn man etwas Unerwartetes bemerkt: „oh!, ach!, nanu!“. Häufig klingt ein neckender oder ironischer Unterton mit: 哟，这不是小王吗？ „Na sieh mal an, wenn das nicht Xiao Wang ist!“ Daneben steht 哟 (yo, neutraler Ton) als Satzendpartikel für freundliche Aufforderung oder in Liedern als Füllsilbe (加油哟). Erweitert zu 哎哟 (āiyō) drückt es Schmerz oder Schreck aus. Im Internet auch 呦 geschrieben.",
+    "examples": [
+      {
+        "chinese": "哟，你怎么来了？",
+        "pinyin": "Yō, nǐ zěnme lái le?",
+        "german": "Oh, was machst du denn hier?"
+      },
+      {
+        "chinese": "哟，都十点了，我得走了。",
+        "pinyin": "Yō, dōu shí diǎn le, wǒ děi zǒu le.",
+        "german": "Oh, schon zehn Uhr – ich muss los."
+      },
+      {
+        "chinese": "哟，今天穿得这么漂亮，要去约会吗？",
+        "pinyin": "Yō, jīntiān chuān de zhème piàoliang, yào qù yuēhuì ma?",
+        "german": "Oho, heute so schick angezogen – hast du ein Date?"
+      }
+    ],
+    "related": [
+      "o:哎哟",
+      "o:哎",
+      "o:咦",
+      "o:噢"
+    ],
     "notes": "",
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "喲 哟 [yo1]"
@@ -6141,12 +6546,28 @@ window.ONOMATOPOEIA_DATA = [
     "category": "Ausrufe",
     "pattern": "AA",
     "meaning": "ts, ts (Zungenschnalzen: Bewunderung oder Missbilligung)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
+    "usage": "Gibt das Schnalzen mit der Zunge wieder – meist als Ausdruck von Bewunderung und Staunen, umgangssprachlich auch von Missbilligung.",
+    "explanation": "啧啧 ahmt das wiederholte Schnalzen mit der Zunge nach. In der Schriftsprache drückt es vor allem Bewunderung oder Staunen aus, besonders in festen Wendungen wie 啧啧称赞 (zézé chēngzàn) „voller Bewunderung loben“ und 啧啧称奇 (zézé chēngqí) „aus dem Staunen nicht herauskommen“. Als Ausruf am Satzanfang kann es Anerkennung („alle Achtung!“) wie Missbilligung („ts, ts!“) zeigen; was gemeint ist, ergibt sich aus dem Zusammenhang. Im Internet auch verdreifacht: 啧啧啧.",
+    "examples": [
+      {
+        "chinese": "啧啧，这幅画画得真好！",
+        "pinyin": "Zézé, zhè fú huà huà de zhēn hǎo!",
+        "german": "Alle Achtung, das Bild ist wirklich gut gemalt!"
+      },
+      {
+        "chinese": "啧啧，又是外卖，你就不能自己做顿饭吗？",
+        "pinyin": "Zézé, yòu shì wàimài, nǐ jiù bù néng zìjǐ zuò dùn fàn ma?",
+        "german": "Ts, ts, schon wieder Lieferessen – kannst du nicht mal selbst kochen?"
+      },
+      {
+        "chinese": "看了他的表演，观众都啧啧称赞。",
+        "pinyin": "Kàn le tā de biǎoyǎn, guānzhòng dōu zézé chēngzàn.",
+        "german": "Nach seiner Vorführung war das Publikum voll des Lobes."
+      }
+    ],
     "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "notes": "Die festen Wendungen klingen eher schriftsprachlich; im Gespräch hört man oft nur das Schnalzen selbst.",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "嘖嘖 啧啧 [ze2 ze2]"
@@ -6190,13 +6611,33 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Ausruf",
     "category": "Ausrufe",
     "pattern": "AB",
-    "meaning": "au!, autsch!; oje! (Schmerz, Überraschung)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
+    "meaning": "au!, autsch!; oje! (Schmerz, Schreck, Überraschung)",
+    "usage": "Spontaner Ausruf bei plötzlichem Schmerz, Schreck oder Überraschung, auch bei Ärger oder gespieltem Jammern.",
+    "explanation": "哎哟 ist der typische Ausruf bei plötzlichem Schmerz („au!, autsch!“), aber auch bei Schreck, Überraschung oder Ärger („oje!, ach herrje!“). Es steht am Satzanfang oder allein und wird oft gedehnt. Gegenüber 哎呀 (āiyā), das vor allem Ärger, Bedauern oder Ungeduld ausdrückt, ist 哎哟 der übliche Schmerzlaut. Im Internet häufig 哎呦 (āiyōu) geschrieben; verstärkt 哎哟喂 (āiyō wèi) für übertriebenes Jammern oder Staunen.",
+    "examples": [
+      {
+        "chinese": "哎哟，好疼！",
+        "pinyin": "Āiyō, hǎo téng!",
+        "german": "Au, das tut weh!"
+      },
+      {
+        "chinese": "哎哟，都十二点了，快睡觉吧。",
+        "pinyin": "Āiyō, dōu shí'èr diǎn le, kuài shuìjiào ba.",
+        "german": "Oje, schon zwölf Uhr – schnell ins Bett."
+      },
+      {
+        "chinese": "哎哟，你吓死我了！",
+        "pinyin": "Āiyō, nǐ xià sǐ wǒ le!",
+        "german": "Oje, hast du mich erschreckt!"
+      }
+    ],
+    "related": [
+      "o:哎呀",
+      "o:哟",
+      "o:哎"
+    ],
     "notes": "",
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "哎喲 哎哟 [ai1 yo1]"
@@ -6286,24 +6727,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "ABB",
-    "meaning": "glatt und kahl, nackt",
-    "usage": "Beschreibt eine kahle, glatte Oberfläche oder Nacktheit",
-    "explanation": "光溜溜 beschreibt eine vollkommen kahle, glatte Oberfläche – ein kahler Kopf, nackte Haut oder ein kahler Baum im Winter.",
+    "meaning": "spiegelglatt; splitternackt",
+    "usage": "Beschreibt eine ganz glatte Oberfläche oder etwas völlig Unbedecktes: nackte Haut, glatt geschliffene Steine, eine blanke Eisfläche.",
+    "explanation": "光溜溜 baut auf 光 (guāng) „glatt; bloß“ bzw. 光溜 (guāngliu) „glatt“ auf; die Doppelsilbe 溜溜 macht die Beschreibung anschaulich: „ganz glatt, völlig blank“. Es beschreibt glatte Oberflächen (Eis, Steine, ein rasierter Kopf) und völlige Nacktheit, besonders von Kindern: 脱得光溜溜的 „splitternackt ausgezogen“. Wie andere ABB-Formen steht es mit 的 als Prädikat, als Attribut oder nach 得 und meist ohne 很. 光秃秃 (guāngtūtū) betont dagegen das Fehlen von Haaren, Blättern oder Pflanzen.",
     "examples": [
       {
-        "chinese": "冬天的树光溜溜的，没有一片叶子。",
-        "pinyin": "Dōngtiān de shù guāngliūliū de, méiyǒu yī piàn yèzi.",
-        "german": "Die Bäume im Winter waren kahl und nackt, ohne ein einziges Blatt."
+        "chinese": "孩子们脱得光溜溜的，在河里游泳。",
+        "pinyin": "Háizimen tuō de guāngliūliū de, zài hé lǐ yóuyǒng.",
+        "german": "Die Kinder zogen sich splitternackt aus und schwammen im Fluss."
+      },
+      {
+        "chinese": "冰面光溜溜的，走路要小心。",
+        "pinyin": "Bīngmiàn guāngliūliū de, zǒulù yào xiǎoxīn.",
+        "german": "Das Eis ist spiegelglatt – pass beim Gehen auf."
+      },
+      {
+        "chinese": "河边的石头被水冲得光溜溜的。",
+        "pinyin": "Hébiān de shítou bèi shuǐ chōng de guāngliūliū de.",
+        "german": "Die Steine am Fluss sind vom Wasser ganz glatt geschliffen."
       }
     ],
     "related": [
-      "o:光秃秃"
+      "o:光秃秃",
+      "o:滑溜溜"
     ],
-    "notes": "光溜溜 betont die Glätte, 光秃秃 die Kahlheit.",
+    "notes": "",
     "legacyIds": [
       "光溜溜"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -6318,22 +6770,34 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "ABB",
-    "meaning": "kahl, nackt, leer",
-    "usage": "Beschreibt etwas völlig Kahles oder Leeres",
-    "explanation": "光秃秃 beschreibt etwas, das völlig kahl oder leer ist – ein kahler Baum, ein rasierter Kopf oder eine leere Landschaft.",
+    "meaning": "ganz kahl (ohne Haare, Laub oder Bewuchs)",
+    "usage": "Beschreibt etwas, dem die natürliche Bedeckung fehlt: einen Kopf ohne Haare, Bäume ohne Laub, Berge ohne Bewuchs.",
+    "explanation": "光秃秃 verbindet 光 (guāng) „bloß“ mit 秃 (tū) „kahl“ und verdoppelt die zweite Silbe: „völlig kahl“. Gemeint ist, dass etwas fehlt, das normalerweise da ist – Haare auf dem Kopf, Laub an den Bäumen, Gras und Bäume auf einem Berg; auch eine schmucklose Wand oder ein leerer Raum. Es steht mit 的 als Prädikat (树光秃秃的), als Attribut (光秃秃的山) oder nach 得, meist ohne 很. 光溜溜 (guāngliūliū) betont dagegen die Glätte oder die Nacktheit.",
     "examples": [
       {
-        "chinese": "冬天的树光秃秃的。",
-        "pinyin": "Dōngtiān de shù guāngtūtū de.",
-        "german": "Die Bäume im Winter sind völlig kahl."
+        "chinese": "到了冬天，树都光秃秃的。",
+        "pinyin": "Dào le dōngtiān, shù dōu guāngtūtū de.",
+        "german": "Im Winter sind die Bäume ganz kahl."
+      },
+      {
+        "chinese": "爷爷的头顶光秃秃的，一根头发也没有。",
+        "pinyin": "Yéye de tóudǐng guāngtūtū de, yì gēn tóufa yě méiyǒu.",
+        "german": "Opas Kopf ist völlig kahl, kein einziges Haar mehr."
+      },
+      {
+        "chinese": "远处是一座光秃秃的山。",
+        "pinyin": "Yuǎnchù shì yí zuò guāngtūtū de shān.",
+        "german": "In der Ferne liegt ein kahler Berg ohne jeden Bewuchs."
       }
     ],
-    "related": [],
+    "related": [
+      "o:光溜溜"
+    ],
     "notes": "",
     "legacyIds": [
       "光秃秃"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "光禿禿 光秃秃 [guang1 tu1 tu1]"
     }
@@ -6621,22 +7085,34 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "ABB",
-    "meaning": "grau und diesig, trüb",
-    "usage": "Beschreibt einen grauen, trüben Himmel oder eine diesige Sicht",
-    "explanation": "灰蒙蒙 beschreibt einen grauen, trüben Himmel oder eine Landschaft im Nebel.",
+    "meaning": "grau und trüb, diesig (Himmel, Luft)",
+    "usage": "Beschreibt einen grauen, trüben Himmel, diesige oder smogige Luft und eine Umgebung, die in grauem Dunst verschwimmt.",
+    "explanation": "灰蒙蒙 verbindet 灰 (huī) „grau“ mit der Doppelsilbe 蒙蒙 (mēngmēng) „verschleiert, dunstig“: „grau und trüb, wie von einem Schleier bedeckt“. Es beschreibt bedeckten Himmel, Dunst, Nebel oder Smog, auch verschmutztes, trübes Glas; übertragen kann es eine gedrückte Stimmung andeuten. Es steht mit 的 als Prädikat (天灰蒙蒙的), als Attribut (灰蒙蒙的天空) oder nach 得, meist ohne 很. Ähnlich ist 雾蒙蒙 (wùmēngmēng) „neblig“.",
     "examples": [
       {
-        "chinese": "天灰蒙蒙的，好像要下雨。",
-        "pinyin": "Tiān huīmēngmēng de, hǎoxiàng yào xià yǔ.",
-        "german": "Der Himmel war grau und trüb, als ob es regnen wollte."
+        "chinese": "天灰蒙蒙的，好像要下雨了。",
+        "pinyin": "Tiān huīmēngmēng de, hǎoxiàng yào xià yǔ le.",
+        "german": "Der Himmel ist grau und trüb, es sieht nach Regen aus."
+      },
+      {
+        "chinese": "这几天空气不好，城市上空灰蒙蒙的。",
+        "pinyin": "Zhè jǐ tiān kōngqì bù hǎo, chéngshì shàngkōng huīmēngmēng de.",
+        "german": "In den letzten Tagen ist die Luft schlecht; über der Stadt hängt grauer Dunst."
+      },
+      {
+        "chinese": "窗户好久没擦了，玻璃灰蒙蒙的。",
+        "pinyin": "Chuānghu hǎojiǔ méi cā le, bōli huīmēngmēng de.",
+        "german": "Die Fenster sind lange nicht geputzt worden, die Scheiben sind ganz trüb."
       }
     ],
-    "related": [],
-    "notes": "",
+    "related": [
+      "o:雾蒙蒙"
+    ],
+    "notes": "Neben huīmēngmēng hört man häufig auch huīméngméng.",
     "legacyIds": [
       "灰蒙蒙"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "灰蒙蒙 灰蒙蒙 [hui1 meng1 meng1]"
     }
@@ -6688,24 +7164,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "ABB",
-    "meaning": "golden glitzernd, goldgelb",
-    "usage": "Beschreibt ein golden schimmerndes Leuchten",
-    "explanation": "金灿灿 beschreibt den Glanz von Gold oder etwas Goldenem – reife Weizenfelder, Sonnenlicht oder Schmuck.",
+    "meaning": "goldglänzend, golden schimmernd",
+    "usage": "Beschreibt etwas, das golden leuchtet oder glänzt: reifes Getreide, Sonnenlicht, Gold, goldbraun Gebratenes.",
+    "explanation": "金灿灿 verbindet 金 (jīn) „Gold, golden“ mit 灿灿 „strahlend, leuchtend“ (vgl. 灿烂 (cànlàn) „glänzend, prächtig“): „golden strahlend“. Es beschreibt reife Weizen- und Reisfelder, Sonnenlicht, Gold und Medaillen, aber auch goldbraun frittiertes Essen. Es klingt positiv und anschaulich und ist in Beschreibungen und Aufsätzen beliebt. Typisch steht es als Attribut (金灿灿的麦田) oder mit 的 als Prädikat bzw. nach 得, meist ohne 很.",
     "examples": [
       {
-        "chinese": "金灿灿的麦田一望无际。",
-        "pinyin": "Jīncàncàn de màitián yī wàng wú jì.",
-        "german": "Die goldgelben Weizenfelder erstreckten sich endlos."
+        "chinese": "秋天到了，田里的稻子金灿灿的。",
+        "pinyin": "Qiūtiān dào le, tián lǐ de dàozi jīncàncàn de.",
+        "german": "Es ist Herbst, und der Reis auf den Feldern leuchtet golden."
+      },
+      {
+        "chinese": "他拿着一块金灿灿的奖牌回来了。",
+        "pinyin": "Tā názhe yí kuài jīncàncàn de jiǎngpái huílái le.",
+        "german": "Er kam mit einer golden glänzenden Medaille zurück."
+      },
+      {
+        "chinese": "鸡腿炸得金灿灿的，看起来特别好吃。",
+        "pinyin": "Jītuǐ zhá de jīncàncàn de, kàn qǐlái tèbié hǎochī.",
+        "german": "Die Hähnchenschenkel sind goldbraun frittiert und sehen besonders lecker aus."
       }
     ],
     "related": [
-      "o:亮晶晶"
+      "o:亮晶晶",
+      "o:黄澄澄",
+      "o:明晃晃"
     ],
     "notes": "",
     "legacyIds": [
       "金灿灿"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "金燦燦 金灿灿 [jin1 can4 can4]"
     }
@@ -7079,24 +7567,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "ABB",
-    "meaning": "saftig grün, leuchtend grün",
-    "usage": "Beschreibt ein saftiges, leuchtendes Grün",
-    "explanation": "绿油油 beschreibt das satte, leuchtende Grün von gesunden Pflanzen, Gras oder Feldern.",
+    "meaning": "saftig grün, sattgrün (Felder, Pflanzen)",
+    "usage": "Beschreibt das satte, glänzende Grün wachsender Pflanzen: Felder, Wiesen, junge Saat, Gemüse.",
+    "explanation": "绿油油 verbindet 绿 (lǜ) „grün“ mit 油油 (yóuyóu) „glänzend, wie mit Öl überzogen“: ein sattes, frisches, glänzendes Grün, das nach Gesundheit und Wachstum aussieht. Typisch für Reis- und Weizenfelder im Frühling, Wiesen, Gemüse und Blätter. Es steht mit 的 als Prädikat (麦苗绿油油的), als Attribut (绿油油的草地), nach 得 oder in 绿油油的一片 „ein einziges Grün“, meist ohne 很.",
     "examples": [
       {
-        "chinese": "田野里绿油油的一片。",
-        "pinyin": "Tiányě lǐ lǜyóuyóu de yī piàn.",
-        "german": "Die Felder erstreckten sich in saftigem Grün."
+        "chinese": "春天来了，田里的麦苗绿油油的。",
+        "pinyin": "Chūntiān lái le, tián lǐ de màimiáo lǜyóuyóu de.",
+        "german": "Der Frühling ist da, und die junge Weizensaat auf den Feldern ist sattgrün."
+      },
+      {
+        "chinese": "山坡上是一片绿油油的茶园。",
+        "pinyin": "Shānpō shang shì yí piàn lǜyóuyóu de cháyuán.",
+        "german": "Am Hang erstreckt sich ein sattgrüner Teegarten."
+      },
+      {
+        "chinese": "下过雨以后，院子里的菜长得绿油油的。",
+        "pinyin": "Xià guo yǔ yǐhòu, yuànzi lǐ de cài zhǎng de lǜyóuyóu de.",
+        "german": "Nach dem Regen steht das Gemüse im Hof saftig grün da."
       }
     ],
     "related": [
-      "o:花花绿绿"
+      "o:花花绿绿",
+      "o:金灿灿"
     ],
     "notes": "",
     "legacyIds": [
       "绿油油"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "綠油油 绿油油 [lu:4 you2 you2]"
     }
@@ -7111,25 +7610,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "ABB",
-    "meaning": "gleißend hell, blendend",
-    "usage": "Beschreibt blendend helles Licht oder Reflexion",
-    "explanation": "明晃晃 beschreibt ein gleißendes, blendendes Licht – die Sonne auf einer spiegelnden Fläche oder eine blanke Klinge.",
+    "meaning": "gleißend hell; blank blitzend (Licht, Klinge)",
+    "usage": "Beschreibt grelles, blendendes Licht und blank blitzende Dinge wie Messerklingen oder spiegelnde Flächen.",
+    "explanation": "明晃晃 verbindet 明 (míng) „hell“ mit 晃晃 „blendend, gleißend“ (vgl. 晃眼 (huǎngyǎn) „blenden“): „so grell glänzend, dass es blendet“. Es beschreibt starkes Sonnen- oder Lampenlicht und blank polierte, Licht spiegelnde Dinge – besonders oft blitzende Messer und Schwerter (明晃晃的刀). Es steht als Attribut oder mit 的 als Prädikat, meist ohne 很. Gegenüber 亮晶晶 (liàngjīngjīng) „funkelnd“ klingt es greller und härter.",
     "examples": [
       {
         "chinese": "明晃晃的阳光照得人睁不开眼。",
-        "pinyin": "Mínghuǎnghuǎng de yángguāng zhào de rén zhēng bù kāi yǎn.",
-        "german": "Das gleißende Sonnenlicht blendete so, dass man die Augen nicht öffnen konnte."
+        "pinyin": "Mínghuǎnghuǎng de yángguāng zhào de rén zhēng bu kāi yǎn.",
+        "german": "Das gleißende Sonnenlicht blendete so, dass man die Augen kaum öffnen konnte."
+      },
+      {
+        "chinese": "他手里拿着一把明晃晃的刀。",
+        "pinyin": "Tā shǒu lǐ názhe yì bǎ mínghuǎnghuǎng de dāo.",
+        "german": "Er hielt ein blitzendes Messer in der Hand."
+      },
+      {
+        "chinese": "舞台上的灯明晃晃的，下面什么也看不清。",
+        "pinyin": "Wǔtái shang de dēng mínghuǎnghuǎng de, xiàmiàn shénme yě kàn bu qīng.",
+        "german": "Die Bühnenscheinwerfer waren so grell, dass man vom Saal nichts erkennen konnte."
       }
     ],
     "related": [
       "o:亮晶晶",
-      "o:亮堂堂"
+      "o:亮堂堂",
+      "o:金灿灿",
+      "o:白花花"
     ],
-    "notes": "Oft für blitzende Messer, Schwerter oder Metallflächen.",
+    "notes": "",
     "legacyIds": [
       "明晃晃"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "明晃晃 明晃晃 [ming2 huang3 huang3]"
     }
@@ -7331,24 +7842,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "ABB",
-    "meaning": "frisch und saftig, hübsch und lebendig",
-    "usage": "Beschreibt frisches Obst/Gemüse oder ein frisches, hübsches Aussehen",
-    "explanation": "水灵灵 beschreibt etwas saftig Frisches – Obst, Gemüse oder übertragen ein frisches, lebendiges Aussehen.",
+    "meaning": "saftig frisch; hübsch und lebendig (Gesicht, Augen)",
+    "usage": "Beschreibt frisches, saftiges Obst und Gemüse oder ein frisches, hübsches Aussehen, besonders bei jungen Menschen und großen, lebhaften Augen.",
+    "explanation": "水灵灵 ist die ABB-Form von 水灵 (shuǐling) „saftig, frisch; hübsch und lebhaft“. Die Verdopplung macht die Beschreibung anschaulich: „so frisch, dass es fast vor Saft glänzt“. Typisch sind Obst, Gemüse und Blumen (水灵灵的苹果) sowie Gesicht und Augen, vor allem bei Mädchen und Kindern. Wie andere ABB-Formen steht es meist ohne 很, als Prädikat mit 的 (青菜水灵灵的), als Attribut mit 的 oder als Komplement nach 长得 (zhǎng de).",
     "examples": [
       {
         "chinese": "水灵灵的大苹果，看着就想吃。",
         "pinyin": "Shuǐlínglíng de dà píngguǒ, kànzhe jiù xiǎng chī.",
-        "german": "Die saftig frischen großen Äpfel – beim Anblick bekommt man Appetit."
+        "german": "Bei so großen, saftig frischen Äpfeln bekommt man schon beim Hinsehen Appetit."
+      },
+      {
+        "chinese": "刚摘的青菜水灵灵的。",
+        "pinyin": "Gāng zhāi de qīngcài shuǐlínglíng de.",
+        "german": "Das frisch geerntete Gemüse ist knackig und saftig."
+      },
+      {
+        "chinese": "这个小姑娘长得水灵灵的，眼睛特别有神。",
+        "pinyin": "Zhège xiǎo gūniang zhǎng de shuǐlínglíng de, yǎnjing tèbié yǒushén.",
+        "german": "Das kleine Mädchen sieht frisch und hübsch aus und hat ganz lebhafte Augen."
       }
     ],
     "related": [
+      "o:水汪汪",
       "o:绿油油"
     ],
-    "notes": "Für Menschen: ein frisches, attraktives Äußeres.",
+    "notes": "Im Gespräch hört man die Verdopplung oft auch im ersten Ton (shuǐlīnglīng). Für Menschen ein Kompliment, meist für junge Frauen und Kinder.",
     "legacyIds": [
       "水灵灵"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "水靈靈 水灵灵 [shui3 ling2 ling2]"
     }
@@ -7363,24 +7885,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "ABB",
-    "meaning": "wässrig glänzend, tränennass (Augen)",
-    "usage": "Beschreibt große, glänzende Augen oder nasse Oberflächen",
-    "explanation": "水汪汪 beschreibt vor allem große, glänzende Augen, die feucht schimmern. Auch für mit Wasser bedeckte Flächen.",
+    "meaning": "feucht glänzend (Augen); voll Wasser, überschwemmt (Boden)",
+    "usage": "Beschreibt große, feucht schimmernde Augen – lebhaft, rührend oder tränennah – und Flächen, auf denen überall Wasser steht.",
+    "explanation": "水汪汪 verbindet 水 (shuǐ) „Wasser“ mit 汪汪 (wāngwāng), das hier „voll Wasser, schimmernd“ bedeutet. Am häufigsten ist die feste Wendung 水汪汪的大眼睛 „große, glänzende Augen“: Sie wirken lebendig und klar, oft auch rührend oder als stünden Tränen darin. Wörtlich beschreibt es Boden oder Felder, auf denen Wasser steht (地上水汪汪的). Wie andere ABB-Formen steht es meist ohne 很 und mit 的 als Attribut oder Prädikat.",
     "examples": [
       {
         "chinese": "小姑娘有一双水汪汪的大眼睛。",
-        "pinyin": "Xiǎo gūniáng yǒu yī shuāng shuǐwāngwāng de dà yǎnjīng.",
-        "german": "Das kleine Mädchen hatte ein Paar große, glänzende Augen."
+        "pinyin": "Xiǎo gūniang yǒu yì shuāng shuǐwāngwāng de dà yǎnjing.",
+        "german": "Das kleine Mädchen hat große, feucht glänzende Augen."
+      },
+      {
+        "chinese": "下了一夜雨，地上水汪汪的。",
+        "pinyin": "Xià le yí yè yǔ, dìshang shuǐwāngwāng de.",
+        "german": "Es hat die ganze Nacht geregnet, überall steht Wasser auf dem Boden."
+      },
+      {
+        "chinese": "小狗用水汪汪的眼睛看着我，我只好把肉给了它。",
+        "pinyin": "Xiǎo gǒu yòng shuǐwāngwāng de yǎnjing kànzhe wǒ, wǒ zhǐhǎo bǎ ròu gěi le tā.",
+        "german": "Der kleine Hund sah mich mit großen, feuchten Augen an – da musste ich ihm das Fleisch einfach geben."
       }
     ],
     "related": [
-      "o:水灵灵"
+      "o:水灵灵",
+      "o:汪汪"
     ],
-    "notes": "水汪汪的眼睛 ist ein sehr häufiger Ausdruck.",
+    "notes": "Nicht verwechseln mit dem Laut 汪汪 (wāngwāng) „wau, wau“ (Hundebellen): gleiches Zeichen, ganz andere Bedeutung.",
     "legacyIds": [
       "水汪汪"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "水汪汪 水汪汪 [shui3 wang1 wang1]"
     }
@@ -7395,24 +7928,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "ABB",
-    "meaning": "neblig, nebelverhangen",
-    "usage": "Beschreibt neblige, diesige Sichtverhältnisse",
-    "explanation": "雾蒙蒙 beschreibt eine Szene, die von Nebel eingehuellt ist – Sicht ist eingeschränkt, alles wirkt verschwommen.",
+    "meaning": "neblig, diesig; verschleiert",
+    "usage": "Beschreibt Nebel oder Dunst, der die Sicht verschleiert – Morgen, Landschaft, Himmel; übertragen auch tränenverschleierte Augen.",
+    "explanation": "雾蒙蒙 verbindet 雾 (wù) „Nebel“ mit 蒙蒙 (méngméng) „verschleiert, dicht und fein“, wie in 蒙蒙细雨 „feiner Nieselregen“. Die ABB-Form malt eine Szene, in der alles im Dunst verschwimmt. Es steht meist als Prädikat mit 的 (早上雾蒙蒙的) oder als Attribut (雾蒙蒙的天). Übertragen beschreibt es verschwommenen Blick durch Tränen (眼睛雾蒙蒙的). Verwandt ist 灰蒙蒙 (huīméngméng) „grau und trüb“, das eher die Farbe betont.",
     "examples": [
       {
-        "chinese": "早晨雾蒙蒙的，什么都看不清。",
-        "pinyin": "Zǎochén wùméngméng de, shénme dōu kàn bù qīng.",
-        "german": "Am Morgen war es neblig und man konnte nichts klar sehen."
+        "chinese": "早上雾蒙蒙的，什么都看不清。",
+        "pinyin": "Zǎoshang wùméngméng de, shénme dōu kàn bu qīng.",
+        "german": "Am Morgen war es so neblig, dass man nichts richtig erkennen konnte."
+      },
+      {
+        "chinese": "远处的山雾蒙蒙的，像一幅画。",
+        "pinyin": "Yuǎnchù de shān wùméngméng de, xiàng yì fú huà.",
+        "german": "Die Berge in der Ferne liegen im Dunst wie auf einem Gemälde."
+      },
+      {
+        "chinese": "这几天都是雾蒙蒙的天气，飞机经常晚点。",
+        "pinyin": "Zhè jǐ tiān dōu shì wùméngméng de tiānqì, fēijī jīngcháng wǎndiǎn.",
+        "german": "In den letzten Tagen ist es ständig neblig, die Flüge haben oft Verspätung."
       }
     ],
     "related": [
-      "o:灰蒙蒙"
+      "o:灰蒙蒙",
+      "o:白茫茫"
     ],
-    "notes": "",
+    "notes": "Traditionell 霧濛濛 geschrieben. Eher beschreibend und etwas literarisch, im Alltag aber gut verständlich.",
     "legacyIds": [
       "雾蒙蒙"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "霧濛濛 雾蒙蒙 [wu4 meng2 meng2]"
     }
@@ -7427,24 +7971,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "ABB",
-    "meaning": "berühmt, klangvoll (Name, Ruf)",
-    "usage": "Beschreibt einen bekannten, klangvollen Namen oder Ruf",
-    "explanation": "响当当 beschreibt jemanden oder etwas mit einem klingenden, bekannten Namen – laut und eindrucksvoll.",
+    "meaning": "klangvoll, renommiert (Name, Ruf); laut tönend",
+    "usage": "Beschreibt meist übertragen einen Namen, eine Marke oder eine Person, die überall bekannt und angesehen ist; wörtlich etwas, das laut und hell tönt.",
+    "explanation": "响当当 verbindet 响 (xiǎng) „laut, tönen“ mit 当当 (dāngdāng), dem Klang eines Gongs oder von Metall. Wörtlich heißt es „hell und laut klingend“, im heutigen Gebrauch meist übertragen: Ein Name „hat einen Klang“, jemand ist eine bekannte Größe mit Rang und Namen (响当当的人物, 响当当的名字, 响当当的品牌). Es steht meist ohne 很, als Attribut oder Prädikat mit 的.",
     "examples": [
       {
         "chinese": "他在行业里是个响当当的人物。",
-        "pinyin": "Tā zài hángyè lǐ shì gè xiǎngdāngdāng de rénwù.",
-        "german": "Er ist eine bekannte Größe in der Branche."
+        "pinyin": "Tā zài hángyè li shì ge xiǎngdāngdāng de rénwù.",
+        "german": "In der Branche ist er eine echte Größe."
+      },
+      {
+        "chinese": "这个牌子在国内响当当的，谁都知道。",
+        "pinyin": "Zhège páizi zài guónèi xiǎngdāngdāng de, shéi dōu zhīdào.",
+        "german": "Die Marke hat im Inland einen klangvollen Namen, jeder kennt sie."
+      },
+      {
+        "chinese": "提起她的名字，在我们这里可是响当当的。",
+        "pinyin": "Tíqǐ tā de míngzi, zài wǒmen zhèli kě shì xiǎngdāngdāng de.",
+        "german": "Ihr Name hat bei uns hier wirklich einen guten Klang."
       }
     ],
     "related": [
-      "o:铮铮"
+      "o:铮铮",
+      "o:叮当"
     ],
-    "notes": "",
+    "notes": "Die wörtliche Bedeutung „laut tönend“ ist selten; für Klänge sagt man eher 当当响 oder 叮当 (dīngdāng).",
     "legacyIds": [
       "响当当"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "響噹噹 响当当 [xiang3 dang1 dang1]"
     }
@@ -7621,24 +8176,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "ABB",
-    "meaning": "aufgebläht, prall gefuellt",
-    "usage": "Beschreibt ein aufgeblähtes, prall gefuelltes Gefühl",
-    "explanation": "胀鼓鼓 beschreibt ein prall gefuelltes, aufgeblähtes Gefühl – ein voller Bauch, pralle Taschen oder geschwollene Stellen.",
+    "meaning": "prall, aufgebläht (Bauch, Taschen, Ballon)",
+    "usage": "Beschreibt etwas, das prall gefüllt oder aufgebläht ist und sich nach außen wölbt – ein voller Bauch, eine vollgestopfte Tasche, ein aufgeblasener Ballon.",
+    "explanation": "胀鼓鼓 verbindet 胀 (zhàng) „anschwellen, sich blähen; Völlegefühl“ mit 鼓鼓 (gǔgǔ) „prall gewölbt“. Die ABB-Form betont, dass etwas bis zum Äußersten gefüllt ist. Beim Bauch klingt oft das unangenehme Völlegefühl mit. Es steht meist als Prädikat mit 的 (肚子胀鼓鼓的) oder als Komplement nach 得 (塞得胀鼓鼓的). Häufiger sind 鼓鼓的 (gǔgǔ de), 圆鼓鼓 (yuángǔgǔ) und 鼓鼓囊囊 (gǔgunāngnāng).",
     "examples": [
       {
         "chinese": "吃得太多了，肚子胀鼓鼓的。",
         "pinyin": "Chī de tài duō le, dùzi zhànggǔgǔ de.",
-        "german": "Ich habe zu viel gegessen, mein Bauch ist aufgebläht."
+        "german": "Ich habe zu viel gegessen, mein Bauch ist ganz aufgebläht."
+      },
+      {
+        "chinese": "他的书包塞得胀鼓鼓的。",
+        "pinyin": "Tā de shūbāo sāi de zhànggǔgǔ de.",
+        "german": "Seine Schultasche ist prall vollgestopft."
+      },
+      {
+        "chinese": "气球吹得胀鼓鼓的，好像马上就要破了。",
+        "pinyin": "Qìqiú chuī de zhànggǔgǔ de, hǎoxiàng mǎshàng jiù yào pò le.",
+        "german": "Der Luftballon ist so prall aufgeblasen, als würde er gleich platzen."
       }
     ],
     "related": [
-      "o:胖乎乎"
+      "o:圆鼓鼓",
+      "o:气鼓鼓"
     ],
-    "notes": "",
+    "notes": "Eher selten und umgangssprachlich; in Wörterbüchern kaum verzeichnet. Für „kugelrund, prall“ ohne Völlegefühl ist 圆鼓鼓 (yuángǔgǔ) üblicher.",
     "legacyIds": [
       "胀鼓鼓"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -7680,22 +8246,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "ABB",
-    "meaning": "zerknittert, zerfurcht, faltig",
-    "usage": "Beschreibt etwas Zerknittertes oder Faltiges",
-    "explanation": "皱巴巴 beschreibt etwas, das voller Falten und Knicke ist – ein Hemd, ein Geldschein oder ein altes Gesicht.",
+    "meaning": "zerknittert; runzlig, faltig",
+    "usage": "Beschreibt Papier, Kleidung oder Geldscheine voller Knitterfalten und übertragen ein runzliges Gesicht oder faltige Haut.",
+    "explanation": "皱巴巴 verbindet 皱 (zhòu) „Falte; knittern“ mit dem Suffix 巴巴 (bābā), das wie in 干巴巴 (gānbābā) und 紧巴巴 (jǐnbābā) einen eher unschönen Zustand ausmalt. Es beschreibt Dinge, die zerknittert und unordentlich wirken: ein Hemd, ein Zettel, ein Geldschein, aber auch ein runzliges Gesicht. Typisch sind Attribut mit 的 (皱巴巴的纸), Prädikat mit 的 und Komplement nach 得 (揉得皱巴巴的). Ein 很 steht davor meist nicht.",
     "examples": [
       {
         "chinese": "他从口袋里掏出一张皱巴巴的纸。",
-        "pinyin": "Tā cóng kǒudài lǐ tāo chū yī zhāng zhòubābā de zhǐ.",
-        "german": "Er zog ein zerknittertes Blatt Papier aus der Tasche."
+        "pinyin": "Tā cóng kǒudai li tāochū yì zhāng zhòubābā de zhǐ.",
+        "german": "Er zog einen zerknitterten Zettel aus der Tasche."
+      },
+      {
+        "chinese": "衬衫在箱子里放了几天，变得皱巴巴的。",
+        "pinyin": "Chènshān zài xiāngzi li fàng le jǐ tiān, biàn de zhòubābā de.",
+        "german": "Das Hemd lag ein paar Tage im Koffer und ist jetzt völlig zerknittert."
+      },
+      {
+        "chinese": "奶奶的脸皱巴巴的，可是笑起来特别慈祥。",
+        "pinyin": "Nǎinai de liǎn zhòubābā de, kěshì xiào qǐlai tèbié cíxiáng.",
+        "german": "Omas Gesicht ist voller Runzeln, aber wenn sie lächelt, sieht sie besonders gütig aus."
       }
     ],
-    "related": [],
-    "notes": "",
+    "related": [
+      "o:干巴巴",
+      "o:紧巴巴"
+    ],
+    "notes": "Klingt leicht abwertend oder mitleidig; bei Gesichtern wirkt es eher liebevoll als beleidigend.",
     "legacyIds": [
       "皱巴巴"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "皺巴巴 皱巴巴 [zhou4 ba1 ba1]"
     }
@@ -7710,13 +8289,29 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "ABB",
-    "meaning": "betrunken, angeheitert",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
+    "meaning": "betrunken, angetrunken; nach Alkohol riechend",
+    "usage": "Beschreibt jemanden, der deutlich betrunken ist – schwankender Gang, gerötetes Gesicht, Alkoholgeruch.",
+    "explanation": "醉醺醺 verbindet 醉 (zuì) „betrunken“ mit 醺醺 (xūnxūn) „angeheitert, benebelt“; 醺 hängt mit dem Dunst und Geruch von Alkohol zusammen. Die ABB-Form malt anschaulich aus, wie jemand vom Alkohol benebelt ist. Typisch sind das Komplement nach 喝得 (喝得醉醺醺的), das Adverbial mit 地 (醉醺醺地回家) und das Attribut (醉醺醺的人). Es steht meist ohne 很 und klingt oft missbilligend.",
+    "examples": [
+      {
+        "chinese": "他喝得醉醺醺的，连路都走不稳了。",
+        "pinyin": "Tā hē de zuìxūnxūn de, lián lù dōu zǒu bu wěn le.",
+        "german": "Er war so betrunken, dass er nicht mehr gerade gehen konnte."
+      },
+      {
+        "chinese": "半夜，邻居醉醺醺地回到家，还大声唱歌。",
+        "pinyin": "Bànyè, línjū zuìxūnxūn de huídào jiā, hái dàshēng chàng gē.",
+        "german": "Mitten in der Nacht kam jemand von nebenan betrunken nach Hause und sang auch noch laut."
+      },
+      {
+        "chinese": "一个醉醺醺的男人坐在路边。",
+        "pinyin": "Yí ge zuìxūnxūn de nánrén zuò zài lù biān.",
+        "german": "Ein betrunkener Mann saß am Straßenrand."
+      }
+    ],
     "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "notes": "Stärker und bildhafter als 喝醉了 (hē zuì le); für „leicht beschwipst“ sagt man eher 有点儿醉 oder 微醺 (wēixūn).",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "醉醺醺 醉醺醺 [zui4 xun1 xun1]"
@@ -7904,25 +8499,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "AABB",
-    "meaning": "ordnungsgemäß, vorschriftsmäßig, brav",
-    "usage": "Beschreibt regelkonformes, braves Verhalten",
-    "explanation": "规规矩矩 verstärkt 规矩 (Regel, ordentlich). Beschreibt jemanden, der sich an alle Regeln hält und sich korrekt verhält.",
+    "meaning": "brav und anständig; ordentlich, vorschriftsmäßig",
+    "usage": "Beschreibt Verhalten, das sich genau an Regeln und Anstand hält – brav sitzen, korrekt arbeiten, ordentlich schreiben.",
+    "explanation": "规规矩矩 ist die AABB-Verdopplung von 规矩 (guīju) „Regel; anständig, ordentlich“. Die Verdopplung verstärkt: „ganz brav, genau nach Vorschrift“. Typisch ist das Adverbial mit 地 (规规矩矩地坐着), das Prädikat mit 的 (他做事规规矩矩的) und das Komplement nach 得 (写得规规矩矩的). Meist ist es lobend gemeint; je nach Zusammenhang kann es auch „bieder, ohne eigene Initiative“ andeuten. Wie andere AABB-Formen steht es meist ohne 很.",
     "examples": [
       {
-        "chinese": "他规规矩矩地坐在那里。",
-        "pinyin": "Tā guīguī-jǔjǔ de zuò zài nàlǐ.",
-        "german": "Er saß brav und ordentlich dort."
+        "chinese": "孩子们规规矩矩地坐在那里听课。",
+        "pinyin": "Háizimen guīguī-jǔjǔ de zuò zài nàli tīng kè.",
+        "german": "Die Kinder saßen brav da und folgten dem Unterricht."
+      },
+      {
+        "chinese": "他做事规规矩矩的，从来不走后门。",
+        "pinyin": "Tā zuò shì guīguī-jǔjǔ de, cónglái bù zǒu hòumén.",
+        "german": "Er macht alles korrekt nach Vorschrift und nutzt nie Beziehungen."
+      },
+      {
+        "chinese": "字要写得规规矩矩的。",
+        "pinyin": "Zì yào xiě de guīguī-jǔjǔ de.",
+        "german": "Die Schriftzeichen sollen sauber und ordentlich geschrieben werden."
       }
     ],
     "related": [
-      "o:老老实实"
+      "o:老老实实",
+      "o:安安静静",
+      "o:歪歪扭扭"
     ],
-    "notes": "",
+    "notes": "Gesprochen klingt die zweite Silbe oft neutral (guīgui-jǔjǔ). Häufig zusammen mit 老老实实: 老老实实、规规矩矩地做人 „ehrlich und anständig leben“.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "规规矩矩"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -7975,25 +8582,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "AABB",
-    "meaning": "bunt, farbenfroh, schillernd",
-    "usage": "Beschreibt etwas sehr Buntes und Farbenprächtiges",
-    "explanation": "花花绿绿 beschreibt eine bunte, farbenfrohe Vielfalt – bunte Kleidung, Dekorationen oder ein blumiger Garten.",
+    "meaning": "kunterbunt, farbenfroh; grell bunt",
+    "usage": "Beschreibt etwas mit vielen bunten Farben – Kleidung, Waren, Verpackungen, Werbung; je nach Zusammenhang fröhlich oder grell.",
+    "explanation": "花花绿绿 ist eine AABB-Form aus 花 (huā) „bunt, gemustert“ und 绿 (lǜ) „grün“. Gemeint ist nicht die Farbe Grün, sondern ein buntes Durcheinander vieler Farben. Es kann fröhlich-lebendig klingen (花花绿绿的糖果) oder leicht abwertend „knallbunt, kitschig“ (花花绿绿的广告). Typisch sind das Attribut mit 的, das Prädikat mit 的 und das Komplement nach 穿得 (穿得花花绿绿的). Ein 很 steht davor meist nicht.",
     "examples": [
       {
         "chinese": "商店里摆满了花花绿绿的商品。",
-        "pinyin": "Shāngdiàn lǐ bǎi mǎn le huāhuā-lǜlǜ de shāngpǐn.",
-        "german": "Das Geschäft war voll mit bunten Waren."
+        "pinyin": "Shāngdiàn li bǎimǎn le huāhuā-lǜlǜ de shāngpǐn.",
+        "german": "Im Laden stapeln sich kunterbunte Waren."
+      },
+      {
+        "chinese": "孩子们穿得花花绿绿的，在公园里玩。",
+        "pinyin": "Háizimen chuān de huāhuā-lǜlǜ de, zài gōngyuán li wán.",
+        "german": "Die Kinder spielen kunterbunt angezogen im Park."
+      },
+      {
+        "chinese": "桌子上放着一堆花花绿绿的糖果。",
+        "pinyin": "Zhuōzi shang fàngzhe yì duī huāhuā-lǜlǜ de tángguǒ.",
+        "german": "Auf dem Tisch liegt ein Haufen bunter Bonbons."
       }
     ],
     "related": [
-      "o:漂漂亮亮"
+      "o:绿油油"
     ],
-    "notes": "",
+    "notes": "Nicht mit 绿油油 (lǜyóuyóu) „saftig grün“ verwechseln: 花花绿绿 meint ein Gemisch vieler Farben, nicht speziell Grün.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "花花绿绿"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "花花綠綠 花花绿绿 [hua1 hua1 lu:4 lu:4]"
     }
@@ -8054,14 +8671,30 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "AABB",
-    "meaning": "holprig, voller Schlaglöcher",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
+    "meaning": "holprig, uneben; voller Löcher und Mulden",
+    "usage": "Beschreibt Straßen, Wege und Oberflächen voller Schlaglöcher und Vertiefungen; übertragen auch einen schwierigen, holprigen Weg.",
+    "explanation": "坑坑洼洼 ist die AABB-Verdopplung von 坑洼 (kēngwā) „Mulde, Schlagloch“, aus 坑 (kēng) „Grube“ und 洼 (wā) „Senke“. Die Verdopplung beschreibt eine Fläche, die überall Löcher und Vertiefungen hat: eine schlechte Straße, ein Acker, die Mondoberfläche, auch eine narbige Haut. Typisch sind das Prädikat mit 的 (这条路坑坑洼洼的) und das Attribut mit 的. Ein 很 steht davor meist nicht.",
+    "examples": [
+      {
+        "chinese": "这条路坑坑洼洼的，开车要小心。",
+        "pinyin": "Zhè tiáo lù kēngkeng-wāwā de, kāi chē yào xiǎoxīn.",
+        "german": "Die Straße ist voller Schlaglöcher, beim Fahren muss man aufpassen."
+      },
+      {
+        "chinese": "下过雨以后，坑坑洼洼的地上全是水。",
+        "pinyin": "Xià guo yǔ yǐhòu, kēngkeng-wāwā de dìshang quán shì shuǐ.",
+        "german": "Nach dem Regen steht in jeder Mulde des holprigen Bodens Wasser."
+      },
+      {
+        "chinese": "月亮的表面坑坑洼洼的。",
+        "pinyin": "Yuèliang de biǎomiàn kēngkeng-wāwā de.",
+        "german": "Die Mondoberfläche ist mit Kratern übersät."
+      }
+    ],
     "related": [],
-    "notes": "",
+    "notes": "Die zweite Silbe ist meist neutral (kēngkeng-wāwā), man hört aber auch kēngkēng-wāwā. Übertragen: 人生的路坑坑洼洼 „das Leben ist ein holpriger Weg“.",
     "grammarId": "g:AA、AABB",
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "坑坑窪窪 坑坑洼洼 [keng1 keng5 wa1 wa1]"
@@ -8113,25 +8746,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "AABB",
-    "meaning": "kalt und verlassen, öde",
-    "usage": "Beschreibt eine kalte, einsame und verlassene Atmosphäre",
-    "explanation": "冷冷清清 beschreibt eine Atmosphäre der Einsamkeit und Leere. Sehr bekannt aus dem beruhmten Gedicht von Li Qingzhao (李清照): '寻寻觅觅，冷冷清清'.",
+    "meaning": "menschenleer und still; trostlos, verlassen",
+    "usage": "Beschreibt Orte oder Situationen, in denen kaum jemand ist und keine Stimmung herrscht – leere Straßen, ein stilles Zuhause, ein Laden ohne Kundschaft.",
+    "explanation": "冷冷清清 ist die AABB-Verdopplung von 冷清 (lěngqing) „einsam, verlassen, ohne Betrieb“. Die Verdopplung verstärkt das Gefühl von Leere und Kälte: „wie ausgestorben“. Gegenteil ist 热热闹闹 (rèrè-nàonào) „lebhaft, voller Trubel“. Typisch ist das Prädikat mit 的 (街上冷冷清清的). Berühmt ist die Form aus dem Gedicht 声声慢 der Song-Dichterin 李清照 (Lǐ Qīngzhào): 寻寻觅觅，冷冷清清，凄凄惨惨戚戚. Im Alltag ist es aber ganz geläufig.",
     "examples": [
       {
         "chinese": "节日过后，街上冷冷清清的。",
-        "pinyin": "Jiérì guò hòu, jiē shàng lěnglěng-qīngqīng de.",
-        "german": "Nach dem Fest waren die Straßen kalt und verlassen."
+        "pinyin": "Jiérì guòhòu, jiē shang lěnglěng-qīngqīng de.",
+        "german": "Nach den Feiertagen sind die Straßen wie ausgestorben."
+      },
+      {
+        "chinese": "孩子们都去外地上大学了，家里一下子冷冷清清的。",
+        "pinyin": "Háizimen dōu qù wàidì shàng dàxué le, jiā li yíxiàzi lěnglěng-qīngqīng de.",
+        "german": "Seit die Kinder auswärts studieren, ist es zu Hause auf einmal still und leer."
+      },
+      {
+        "chinese": "这家饭馆生意冷冷清清的，一个客人也没有。",
+        "pinyin": "Zhè jiā fànguǎn shēngyi lěnglěng-qīngqīng de, yí ge kèrén yě méiyǒu.",
+        "german": "In diesem Restaurant läuft gar nichts, kein einziger Gast ist da."
       }
     ],
     "related": [
-      "o:凄凄惨惨"
+      "o:凄凄惨惨",
+      "o:冷冰冰",
+      "o:安安静静"
     ],
-    "notes": "Sehr poetisch. Stammt aus der Song-Dynastie-Dichtung.",
+    "notes": "Anders als 安安静静 „angenehm ruhig“ klingt 冷冷清清 meist traurig oder bedauernd: Es fehlen Menschen und Leben.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "冷冷清清"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "冷冷清清 冷冷清清 [leng3 leng3 qing1 qing1]"
     }
@@ -8182,25 +8827,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "AABB",
-    "meaning": "benommen, verwirrt, halbwach",
-    "usage": "Beschreibt einen benommenen, verwirrten oder verschlafenen Zustand",
-    "explanation": "迷迷糊糊 verstärkt 迷糊 (verwirrt, benommen). Beschreibt den Zustand zwischen Schlaf und Wachsein oder allgemeine Verwirrung.",
+    "meaning": "benommen, schlaftrunken; im Halbschlaf",
+    "usage": "Beschreibt einen Zustand zwischen Schlafen und Wachen oder einen benebelten Kopf, etwa durch Müdigkeit, Fieber oder Alkohol.",
+    "explanation": "迷迷糊糊 ist die AABB-Verdopplung von 迷糊 (míhu) „benommen, schlaftrunken; unklar“. Die Verdopplung malt den Zustand anschaulich aus: halb wach, halb schlafend, nichts klar wahrnehmend. Typisch ist das Adverbial mit 地 (迷迷糊糊地睡着了, 迷迷糊糊地醒过来) und das Prädikat mit 的 (脑子迷迷糊糊的). Anders als 糊里糊涂 (húli-hútu) „gedankenlos, konfus“ geht es weniger um mangelndes Denken als um einen benommenen Körperzustand.",
     "examples": [
       {
         "chinese": "他迷迷糊糊地醒了过来。",
-        "pinyin": "Tā mímí-hūhū de xǐng le guòlái.",
-        "german": "Er wachte benommen auf."
+        "pinyin": "Tā mímí-hūhū de xǐng le guòlai.",
+        "german": "Er wachte ganz benommen auf."
+      },
+      {
+        "chinese": "我昨晚迷迷糊糊地睡着了，连灯都没关。",
+        "pinyin": "Wǒ zuówǎn mímí-hūhū de shuìzháo le, lián dēng dōu méi guān.",
+        "german": "Gestern Abend bin ich im Halbschlaf weggedämmert und habe nicht einmal das Licht ausgemacht."
+      },
+      {
+        "chinese": "发烧的时候，脑子迷迷糊糊的。",
+        "pinyin": "Fāshāo de shíhou, nǎozi mímí-hūhū de.",
+        "german": "Wenn man Fieber hat, ist der Kopf ganz benebelt."
       }
     ],
     "related": [
-      "o:马马虎虎"
+      "o:模模糊糊",
+      "o:糊里糊涂",
+      "o:稀里糊涂"
     ],
-    "notes": "",
+    "notes": "Gesprochen ist die zweite Silbe oft neutral (mími-hūhū). Nicht verwechseln mit 模模糊糊 „verschwommen, undeutlich“ (Bild, Erinnerung).",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "迷迷糊糊"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "迷迷糊糊 迷迷糊糊 [mi2 mi2 hu1 hu1]"
     }
@@ -8215,23 +8872,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "AABB",
-    "meaning": "dicht gedrängt, wimmelig",
-    "usage": "Beschreibt etwas, das sehr dicht und eng beieinander ist",
-    "explanation": "密密麻麻 beschreibt eine sehr dichte Anordnung – dicht beschriebene Seiten, Menschenmassen oder dichten Wald.",
+    "meaning": "dicht an dicht, übersät; eng beschrieben",
+    "usage": "Beschreibt viele kleine Dinge, die dicht gedrängt beieinanderstehen – Schriftzeichen auf Papier, Menschen auf einem Platz, Termine im Kalender.",
+    "explanation": "密密麻麻 ist eine AABB-Form aus 密 (mì) „dicht“ und 麻 (má), das hier an Sesamkörner und kleine Punkte erinnert. Zusammen: „übersät mit unzähligen kleinen Dingen“. Es steht oft mit 满 „voll“, etwa 写满 (xiěmǎn), 站满 (zhànmǎn) oder 排满 (páimǎn): 写满了密密麻麻的字. Typisch sind das Attribut mit 的, das Adverbial mit 地 und das Komplement nach 得 (排得密密麻麻的). Je nach Zusammenhang klingt es neutral oder beklemmend (zu viel, zu eng).",
     "examples": [
       {
         "chinese": "纸上写满了密密麻麻的字。",
-        "pinyin": "Zhǐ shàng xiě mǎn le mìmì-mámá de zì.",
-        "german": "Das Papier war voll dicht gedrängt geschriebener Zeichen."
+        "pinyin": "Zhǐ shang xiěmǎn le mìmi-mámá de zì.",
+        "german": "Das Blatt ist eng mit Schriftzeichen vollgeschrieben."
+      },
+      {
+        "chinese": "广场上密密麻麻地站满了人。",
+        "pinyin": "Guǎngchǎng shang mìmi-mámá de zhànmǎn le rén.",
+        "german": "Auf dem Platz standen die Menschen dicht an dicht."
+      },
+      {
+        "chinese": "他这个星期的日程排得密密麻麻的。",
+        "pinyin": "Tā zhège xīngqī de rìchéng pái de mìmi-mámá de.",
+        "german": "Sein Terminplan für diese Woche ist bis auf die letzte Lücke vollgepackt."
       }
     ],
-    "related": [],
-    "notes": "",
+    "related": [
+      "o:稀稀拉拉"
+    ],
+    "notes": "Die zweite Silbe ist meist neutral (mìmi-mámá), man hört aber auch mìmì-mámá. Gegenteil: 稀稀拉拉 (xīxī-lālā) „spärlich, vereinzelt“.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "密密麻麻"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "密密麻麻 密密麻麻 [mi4 mi5 ma2 ma2]"
     }
@@ -8706,23 +9375,33 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "AABB",
-    "meaning": "locker, schlampig, unstrukturiert",
-    "usage": "Beschreibt etwas Lockeres, Loses oder schlecht Organisiertes",
-    "explanation": "松松散散 verstärkt 松散 (locker, lose). Kann physisch (lockere Kleidung) oder übertragen (schlampige Organisation) sein.",
+    "meaning": "locker, lose; unorganisiert, ohne Zusammenhalt",
+    "usage": "Beschreibt etwas, das locker und lose ist – Haare, Erde, eine Gruppe – oder einen Text und eine Arbeitsweise ohne Struktur und Disziplin.",
+    "explanation": "松松散散 ist die AABB-Verdopplung von 松散 (sōngsǎn) „locker, lose; unkonzentriert“. Die Verdopplung verstärkt: „ganz locker, ohne Halt“. Wörtlich beschreibt es lose fallendes Haar oder lockere Erde, übertragen eine Gruppe ohne Zusammenhalt oder einen Text ohne roten Faden; dann klingt es kritisch. Typisch sind das Adverbial mit 地 (松松散散地披着), das Prädikat mit 的 und das Komplement nach 得. Ein 很 steht davor meist nicht.",
     "examples": [
       {
-        "chinese": "头发松松散散地垂下来。",
-        "pinyin": "Tóufa sōngsōng-sǎnsǎn de chuí xiàlái.",
-        "german": "Die Haare fielen locker herab."
+        "chinese": "她的头发松松散散地披在肩上。",
+        "pinyin": "Tā de tóufa sōngsōng-sǎnsǎn de pī zài jiān shang.",
+        "german": "Ihr Haar fiel ihr locker über die Schultern."
+      },
+      {
+        "chinese": "这个团队松松散散的，谁也不管谁。",
+        "pinyin": "Zhège tuánduì sōngsōng-sǎnsǎn de, shéi yě bù guǎn shéi.",
+        "german": "Das Team ist ein loser Haufen, niemand kümmert sich um die anderen."
+      },
+      {
+        "chinese": "这篇文章写得松松散散的，没有重点。",
+        "pinyin": "Zhè piān wénzhāng xiě de sōngsōng-sǎnsǎn de, méiyǒu zhòngdiǎn.",
+        "german": "Der Text ist unstrukturiert geschrieben und hat keinen Schwerpunkt."
       }
     ],
     "related": [],
-    "notes": "",
+    "notes": "Seltener als die Grundform 松散 (sōngsǎn). Für schlaffe Kleidung oder eine nachlässige Haltung sagt man häufiger 松松垮垮 (sōngsōng-kuǎkuǎ).",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "松松散散"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -8737,25 +9416,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "AABB",
-    "meaning": "krumm und schief, verzogen",
-    "usage": "Beschreibt etwas Schiefes, Krummes oder Verzogenes",
-    "explanation": "歪歪扭扭 beschreibt etwas, das völlig schief oder krumm ist – Schrift, ein Zaun oder eine Reihe.",
+    "meaning": "krumm und schief; krakelig (Schrift)",
+    "usage": "Beschreibt etwas, das nicht gerade, sondern schief und verdreht ist – vor allem ungelenke Schrift, aber auch Linien, Reihen oder Bäume.",
+    "explanation": "歪歪扭扭 ist eine AABB-Form aus 歪 (wāi) „schief“ und 扭 (niǔ) „verdreht“. Zusammen: „krumm und schief, ganz ungleichmäßig“. Am häufigsten beschreibt es Schrift, etwa von Kindern (字写得歪歪扭扭的), daneben Linien, Reihen, Bäume oder einen wackligen Gang. Typisch sind das Prädikat mit 的, das Komplement nach 得 und das Adverbial mit 地. Gegenteil ist 整整齐齐 (zhěngzhěng-qíqí) „ganz ordentlich“. Ähnlich ist 歪歪斜斜 (wāiwāi-xiéxié) „schief“.",
     "examples": [
       {
         "chinese": "他写的字歪歪扭扭的。",
         "pinyin": "Tā xiě de zì wāiwāi-niǔniǔ de.",
-        "german": "Seine Schrift war ganz krumm und schief."
+        "german": "Seine Schrift ist ganz krakelig."
+      },
+      {
+        "chinese": "小孩子歪歪扭扭地在纸上写下了自己的名字。",
+        "pinyin": "Xiǎo háizi wāiwāi-niǔniǔ de zài zhǐ shang xiěxià le zìjǐ de míngzi.",
+        "german": "Das kleine Kind kritzelte krakelig seinen Namen aufs Papier."
+      },
+      {
+        "chinese": "路边有一排歪歪扭扭的小树。",
+        "pinyin": "Lù biān yǒu yì pái wāiwāi-niǔniǔ de xiǎo shù.",
+        "german": "Am Straßenrand steht eine Reihe krummer, schiefer Bäumchen."
       }
     ],
     "related": [
-      "o:整整齐齐"
+      "o:整整齐齐",
+      "o:规规矩矩"
     ],
-    "notes": "Gegenteil von 整整齐齐.",
+    "notes": "Nicht verwechseln mit 扭扭捏捏 (niǔniǔ-niēniē) „verlegen, geziert“: gleiches Zeichen 扭, aber es geht um Verhalten, nicht um Form.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "歪歪扭扭"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "歪歪扭扭 歪歪扭扭 [wai1 wai1 niu3 niu3]"
     }
@@ -8845,24 +9535,34 @@ window.ONOMATOPOEIA_DATA = [
     "category": "Aussehen",
     "pattern": "AABB",
     "meaning": "spärlich, vereinzelt, dünn gesät",
-    "usage": "Beschreibt etwas Spärliches, Vereinzeltes oder wenig Frequentiertes",
-    "explanation": "稀稀拉拉 beschreibt etwas, das dünn gesät ist – wenige Zuschauer, spärlicher Regen oder vereinzelte Bäume.",
+    "usage": "Beschreibt etwas, das nur vereinzelt und mit großen Lücken vorhanden ist – ein fast leerer Saal, spärlicher Applaus, vereinzelte Regentropfen, dünnes Haar.",
+    "explanation": "稀稀拉拉 ist die AABB-Verdopplung von 稀拉 (xīla) „spärlich; nachlässig“, aus 稀 (xī) „dünn, spärlich“. Die Verdopplung betont die Lücken: „hier eins, da eins“. Typisch sind Publikum, Applaus (掌声稀稀拉拉的), Regen (稀稀拉拉地下着雨), Bäume oder Haare. Es steht als Prädikat mit 的, als Adverbial mit 地 oder als Attribut mit 的 und klingt oft enttäuscht. Gegenteil ist 密密麻麻 (mìmi-mámá) „dicht an dicht“.",
     "examples": [
       {
         "chinese": "观众稀稀拉拉的，没几个人。",
-        "pinyin": "Guānzhòng xīxī-lālā de, méi jǐ gè rén.",
-        "german": "Es waren nur spärlich Zuschauer da, kaum jemand."
+        "pinyin": "Guānzhòng xīxī-lālā de, méi jǐ ge rén.",
+        "german": "Das Publikum war spärlich, es waren kaum Leute da."
+      },
+      {
+        "chinese": "雨稀稀拉拉地下了一整天。",
+        "pinyin": "Yǔ xīxī-lālā de xià le yì zhěng tiān.",
+        "german": "Es hat den ganzen Tag vereinzelt getröpfelt."
+      },
+      {
+        "chinese": "他头上只剩下稀稀拉拉的几根头发。",
+        "pinyin": "Tā tóu shang zhǐ shèngxià xīxī-lālā de jǐ gēn tóufa.",
+        "german": "Auf seinem Kopf sind nur noch ein paar vereinzelte Haare übrig."
       }
     ],
     "related": [
       "o:密密麻麻"
     ],
-    "notes": "Gegenteil von 密密麻麻.",
+    "notes": "Ähnlich ist 稀稀落落 (xīxī-luòluò). Gesprochen hört man auch xīxi-lālā mit neutraler zweiter Silbe.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "稀稀拉拉"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "稀稀拉拉 稀稀拉拉 [xi1 xi1 la1 la1]"
     }
@@ -8971,13 +9671,33 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "ABAB",
-    "meaning": "schneeweiß",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "meaning": "strahlend weiß; blütenweiß",
+    "usage": "Beschreibt etwas, das so weiß ist wie frischer Schnee – Zähne, Wäsche, Haut, eine verschneite Landschaft.",
+    "explanation": "雪白雪白 ist die ABAB-Verdopplung von 雪白 (xuěbái) „schneeweiß“. 雪白 enthält schon einen Vergleich („weiß wie Schnee“); solche Zustandsadjektive werden als Ganzes verdoppelt (ABAB), nicht als AABB. Die Verdopplung verstärkt noch einmal: „richtig strahlend weiß“. Es ist vor allem gesprochen und steht ohne 很 als Prädikat mit 的 (牙齿雪白雪白的) oder als Komplement nach 得 (洗得雪白雪白的).",
+    "examples": [
+      {
+        "chinese": "她的牙齿雪白雪白的。",
+        "pinyin": "Tā de yáchǐ xuěbái xuěbái de.",
+        "german": "Ihre Zähne sind strahlend weiß."
+      },
+      {
+        "chinese": "床单洗得雪白雪白的。",
+        "pinyin": "Chuángdān xǐ de xuěbái xuěbái de.",
+        "german": "Die Bettlaken sind blütenweiß gewaschen."
+      },
+      {
+        "chinese": "下了一夜雪，外面雪白雪白的一片。",
+        "pinyin": "Xià le yí yè xuě, wàimiàn xuěbái xuěbái de yí piàn.",
+        "german": "Nach einer Nacht Schneefall ist draußen alles strahlend weiß."
+      }
+    ],
+    "related": [
+      "o:白花花",
+      "o:白茫茫",
+      "o:通红通红"
+    ],
+    "notes": "Die AABB-Form *雪雪白白 ist nicht üblich. Nach demselben Muster: 通红通红 „knallrot“, 冰凉冰凉 „eiskalt“.",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": null
@@ -9058,13 +9778,34 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "A里AB",
-    "meaning": "dümmlich, albern",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "meaning": "einfältig, dümmlich; tollpatschig-albern",
+    "usage": "Beschreibt jemanden, der einfältig oder etwas dümmlich wirkt oder sich so verhält; je nach Ton abfällig oder liebevoll neckend.",
+    "explanation": "傻里傻气 ist eine A里AB-Form zu 傻气 (shǎqì) „Einfalt; einfältig“. Das eingeschobene 里 hat keine eigene Bedeutung, das Muster verstärkt und klingt meist abwertend wie in 土里土气 (tǔli-tǔqì) oder 糊里糊涂 (húli-hútu). Es beschreibt Aussehen, Lachen oder Reden (傻里傻气的话). Typisch sind das Adverbial mit 地 (傻里傻气地笑), das Attribut mit 的 und das Komplement nach 长得 (zhǎng de). Unter Vertrauten oder bei Kindern und Tieren kann es auch liebevoll klingen.",
+    "examples": [
+      {
+        "chinese": "他傻里傻气地笑了笑。",
+        "pinyin": "Tā shǎli-shǎqì de xiào le xiào.",
+        "german": "Er grinste etwas einfältig."
+      },
+      {
+        "chinese": "别说这种傻里傻气的话。",
+        "pinyin": "Bié shuō zhè zhǒng shǎli-shǎqì de huà.",
+        "german": "Red nicht so dummes Zeug."
+      },
+      {
+        "chinese": "这只小狗长得傻里傻气的，特别可爱。",
+        "pinyin": "Zhè zhī xiǎo gǒu zhǎng de shǎli-shǎqì de, tèbié kě'ài.",
+        "german": "Der kleine Hund sieht ein bisschen tollpatschig aus und ist total süß."
+      }
+    ],
+    "related": [
+      "o:傻乎乎",
+      "o:土里土气",
+      "o:糊里糊涂",
+      "o:古里古怪"
+    ],
+    "notes": "Umgangssprachlich. Etwas schärfer als 傻乎乎 (shǎhūhū) „naiv, tapsig“, das häufiger liebevoll gebraucht wird.",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "傻裡傻氣 傻里傻气 [sha3 li5 sha3 qi4]"
@@ -9080,13 +9821,33 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "A里AB",
-    "meaning": "bäurisch, altmodisch",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "meaning": "bäurisch, provinziell; altbacken, unmodisch",
+    "usage": "Beschreibt Kleidung, Aussehen oder Auftreten, das als unmodern, ländlich oder unbeholfen empfunden wird; klingt abwertend.",
+    "explanation": "土里土气 ist eine A里AB-Form zu 土气 (tǔqì) „bäurisch, provinziell, altmodisch“. Das eingeschobene 里 hat keine eigene Bedeutung; das Muster verstärkt und färbt abwertend, wie in 傻里傻气 (shǎli-shǎqì). Es beschreibt vor allem Kleidung, Frisur, Farben und Auftreten. Typisch sind das Komplement nach 穿得 (穿得土里土气的), das Prädikat mit 的 und das Attribut mit 的. Ein 很 steht davor meist nicht.",
+    "examples": [
+      {
+        "chinese": "他穿得土里土气的，一看就是刚从农村来的。",
+        "pinyin": "Tā chuān de tǔlǐ-tǔqì de, yí kàn jiù shì gāng cóng nóngcūn lái de.",
+        "german": "Er ist so bäurisch angezogen, dass man sofort sieht: Er kommt gerade vom Land."
+      },
+      {
+        "chinese": "这件衣服的颜色土里土气的，我不喜欢。",
+        "pinyin": "Zhè jiàn yīfu de yánsè tǔlǐ-tǔqì de, wǒ bù xǐhuan.",
+        "german": "Die Farbe dieses Kleidungsstücks wirkt altbacken, die mag ich nicht."
+      },
+      {
+        "chinese": "别看她土里土气的，其实很有本事。",
+        "pinyin": "Bié kàn tā tǔlǐ-tǔqì de, qíshí hěn yǒu běnshi.",
+        "german": "Auch wenn sie provinziell wirkt – in Wahrheit kann sie eine ganze Menge."
+      }
+    ],
+    "related": [
+      "o:傻里傻气",
+      "o:古里古怪",
+      "o:糊里糊涂"
+    ],
+    "notes": "Gesprochen ist das 里 meist neutral (tǔli-tǔqì). Kann verletzend wirken. Umgangssprachlich und im Internet heißt schon 土 (tǔ) allein „uncool, altbacken“.",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "土裡土氣 土里土气 [tu3 li3 tu3 qi4]"
@@ -9102,24 +9863,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "A里BC",
-    "meaning": "völlig verwirrt, ohne Plan",
-    "usage": "Beschreibt einen Zustand völliger Verwirrung oder Ahnungslosigkeit",
-    "explanation": "稀里糊涂 bedeutet, dass man völlig den Durchblick verloren hat. Kann auch bedeuten, dass etwas unüberlegt getan wurde.",
+    "meaning": "konfus, gedankenlos; ohne recht zu wissen, wie",
+    "usage": "Beschreibt, dass jemand verwirrt ist oder etwas tut, ohne zu überlegen oder zu verstehen, was geschieht – zusagen, Geld ausgeben, eine Prüfung schreiben.",
+    "explanation": "稀里糊涂 ist eine A里BC-Form zu 糊涂 (hútu) „verwirrt, unklar im Kopf“. Die vorangestellten Silben 稀里 (xīli) haben hier keine eigene Bedeutung, sie verstärken und machen den Ausdruck lebhaft. Gemeint ist zweierlei: ein konfuser Zustand (我稀里糊涂的) und ein Handeln ohne Überlegung, bei dem man hinterher nicht weiß, wie es geschah (稀里糊涂地答应了). Typisch sind das Adverbial mit 地 und das Prädikat mit 的. Sehr ähnlich ist 糊里糊涂 (húli-hútu).",
     "examples": [
       {
         "chinese": "他稀里糊涂地答应了。",
-        "pinyin": "Tā xīli-hútú de dāyìng le.",
-        "german": "Er stimmte zu, ohne richtig nachzudenken."
+        "pinyin": "Tā xīli-hútu de dāying le.",
+        "german": "Er hat einfach zugesagt, ohne richtig nachzudenken."
+      },
+      {
+        "chinese": "考试的时候我稀里糊涂的，好几道题都看错了。",
+        "pinyin": "Kǎoshì de shíhou wǒ xīli-hútu de, hǎo jǐ dào tí dōu kàncuò le.",
+        "german": "In der Prüfung war ich völlig durcheinander und habe mehrere Aufgaben falsch gelesen."
+      },
+      {
+        "chinese": "钱就这么稀里糊涂地花完了。",
+        "pinyin": "Qián jiù zhème xīli-hútu de huāwán le.",
+        "german": "Das Geld ist einfach so draufgegangen, ohne dass man weiß, wofür."
       }
     ],
     "related": [
-      "o:迷迷糊糊"
+      "o:糊里糊涂",
+      "o:迷迷糊糊",
+      "o:稀里哗啦"
     ],
-    "notes": "",
+    "notes": "Umgangssprachlich. Nicht verwechseln mit dem Laut 稀里哗啦 (xīli-huālā) „krachend, prasselnd“: gleicher Anfang, ganz andere Bedeutung.",
     "legacyIds": [
       "稀里糊涂"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "稀裏糊塗 稀里糊涂 [xi1 li5 hu2 tu5]"
     }
@@ -9134,13 +9907,33 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Aussehen",
     "pattern": "A不BC",
-    "meaning": "schwärzlich, dunkel (abwertend)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "meaning": "schwärzlich, unansehnlich dunkel",
+    "usage": "Beschreibt etwas, das dunkel, schwärzlich und wenig ansehnlich ist – sonnengebräunte Haut, rußige Töpfe, schmutzige Gegenstände; umgangssprachlich und leicht abwertend.",
+    "explanation": "黑不溜秋 ist eine A不BC-Form zu 黑 (hēi) „schwarz, dunkel“. Das 不 verneint hier nichts, und 溜秋 (liūqiū) hat keine eigene Bedeutung: Das Muster malt die Farbe abschätzig aus, etwa „schwärzlich, schmuddelig dunkel“. Nach demselben Muster gibt es 灰不溜秋 (huībuliūqiū) „gräulich, trist“. Es steht als Prädikat oder Komplement mit 的 (晒得黑不溜秋的) oder als Attribut mit 的. Bei Kindern klingt es oft eher neckend als böse.",
+    "examples": [
+      {
+        "chinese": "这孩子晒了一个暑假，晒得黑不溜秋的。",
+        "pinyin": "Zhè háizi shài le yí ge shǔjià, shài de hēibù-liūqiū de.",
+        "german": "Nach den ganzen Sommerferien in der Sonne ist das Kind ganz schön braungebrannt."
+      },
+      {
+        "chinese": "锅底黑不溜秋的，好久没刷了。",
+        "pinyin": "Guō dǐ hēibù-liūqiū de, hǎojiǔ méi shuā le.",
+        "german": "Der Topfboden ist schwarz verkrustet, er wurde lange nicht geschrubbt."
+      },
+      {
+        "chinese": "他从角落里拿出一个黑不溜秋的小盒子。",
+        "pinyin": "Tā cóng jiǎoluò li náchū yí ge hēibù-liūqiū de xiǎo hézi.",
+        "german": "Er holte aus der Ecke ein schmuddelig-schwarzes Kästchen hervor."
+      }
+    ],
+    "related": [
+      "o:黑乎乎",
+      "o:黑黝黝",
+      "o:黑咕隆咚"
+    ],
+    "notes": "Gesprochen ist das 不 meist neutral (hēibuliūqiū). Mündlich und eher nordchinesisch geprägt. Neutraler für gesunde Bräune ist 黑黝黝 (hēiyǒuyǒu).",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "黑不溜秋 黑不溜秋 [hei1 bu4 liu1 qiu1]"
@@ -9157,21 +9950,35 @@ window.ONOMATOPOEIA_DATA = [
     "category": "Aussehen",
     "pattern": "Andere",
     "meaning": "stockfinster, pechschwarz",
-    "usage": "Beschreibt völlige Dunkelheit",
-    "explanation": "黑咕隆咚 beschreibt einen Ort, an dem es so dunkel ist, dass man die Hand vor Augen nicht sehen kann.",
+    "usage": "Beschreibt völlige Dunkelheit an einem Ort – ein Zimmer ohne Licht, ein dunkles Treppenhaus, eine Nacht ohne Mond.",
+    "explanation": "黑咕隆咚 erweitert 黑 (hēi) „dunkel“ um die lautmalende Silbenfolge 咕隆咚 (gulōngdōng), die keine eigene Bedeutung hat und das Wort lebhaft und eindringlich macht. Gemeint ist eine Dunkelheit, in der man nichts mehr sieht. Es beschreibt vor allem Räume und die Nacht, kaum die Farbe von Gegenständen. Typisch ist das Prädikat mit 的 (屋子里黑咕隆咚的), oft gefolgt von „man sieht nichts“ (什么也看不见).",
     "examples": [
       {
         "chinese": "屋子里黑咕隆咚的，什么也看不见。",
-        "pinyin": "Wūzi lǐ hēigu-lōngdōng de, shénme yě kàn bù jiàn.",
-        "german": "Im Raum war es stockfinster, man konnte nichts sehen."
+        "pinyin": "Wūzi li hēigu-lōngdōng de, shénme yě kàn bu jiàn.",
+        "german": "Im Zimmer war es stockfinster, man konnte überhaupt nichts sehen."
+      },
+      {
+        "chinese": "楼道里黑咕隆咚的，我摸着墙往上走。",
+        "pinyin": "Lóudào li hēigu-lōngdōng de, wǒ mōzhe qiáng wǎng shàng zǒu.",
+        "german": "Im Treppenhaus war es stockdunkel, ich tastete mich an der Wand nach oben."
+      },
+      {
+        "chinese": "外面黑咕隆咚的，你一个人别出去了。",
+        "pinyin": "Wàimiàn hēigu-lōngdōng de, nǐ yí ge rén bié chūqu le.",
+        "german": "Draußen ist es stockfinster, geh lieber nicht allein raus."
       }
     ],
-    "related": [],
-    "notes": "Umgangssprachlich und sehr bildhaft.",
+    "related": [
+      "o:黑漆漆",
+      "o:黑乎乎",
+      "o:黑不溜秋"
+    ],
+    "notes": "Umgangssprachlich und bildhaft, vor allem im Norden. Ähnlich, aber neutraler ist 黑漆漆 (hēiqīqī); die Redewendung 黑灯瞎火 (hēidēng-xiāhuǒ) meint ebenfalls „stockdunkel“.",
     "legacyIds": [
       "黑咕隆咚"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "黑咕隆咚 黑咕隆咚 [hei1 gu5 long1 dong1]"
     }
@@ -9187,23 +9994,35 @@ window.ONOMATOPOEIA_DATA = [
     "category": "Sinne",
     "pattern": "ABB",
     "meaning": "feucht, klamm",
-    "usage": "Beschreibt eine feuchte, klamme Oberfläche oder Luft",
-    "explanation": "潮乎乎 beschreibt eine unangenehme Feuchtigkeit – klamme Kleidung, feuchte Wände oder schwüle Luft.",
+    "usage": "Beschreibt eine leicht feuchte, unangenehm klamme Oberfläche oder Luft – Wände, Bettzeug, Kleidung, Haare.",
+    "explanation": "潮乎乎 verbindet 潮 (cháo) „feucht“ mit dem Suffix 乎乎 (hūhū), das wie in 热乎乎 (rèhūhū) oder 黑乎乎 (hēihūhū) einen spürbaren Zustand ausmalt. Gemeint ist eine leichte, oft unangenehme Feuchtigkeit: Etwas ist nicht nass, aber klamm. Für tropfende Nässe sagt man eher 湿漉漉 (shīlūlū). Typisch ist das Prädikat mit 的 (被子潮乎乎的); ein 很 steht davor meist nicht.",
     "examples": [
       {
-        "chinese": "地下室的墙壁潮乎乎的。",
-        "pinyin": "Dìxiàshì de qiángbì cháohūhū de.",
-        "german": "Die Kellerwände waren feucht und klamm."
+        "chinese": "地下室的墙潮乎乎的。",
+        "pinyin": "Dìxiàshì de qiáng cháohūhū de.",
+        "german": "Die Kellerwände sind feucht und klamm."
+      },
+      {
+        "chinese": "下了一个星期的雨，被子都潮乎乎的。",
+        "pinyin": "Xià le yí ge xīngqī de yǔ, bèizi dōu cháohūhū de.",
+        "german": "Nach einer Woche Regen ist sogar das Bettzeug klamm."
+      },
+      {
+        "chinese": "刚洗完澡，头发还潮乎乎的。",
+        "pinyin": "Gāng xǐwán zǎo, tóufa hái cháohūhū de.",
+        "german": "Gleich nach dem Duschen sind die Haare noch feucht."
       }
     ],
     "related": [
-      "o:湿漉漉"
+      "o:湿漉漉",
+      "o:汗津津",
+      "o:热乎乎"
     ],
-    "notes": "",
+    "notes": "Auch 潮呼呼 geschrieben. Umgangssprachlich; typisch für das feuchte Klima Südchinas im Frühjahr.",
     "legacyIds": [
       "潮乎乎"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -9335,13 +10154,32 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Sinne",
     "pattern": "ABB",
-    "meaning": "verschwitzt, schweißnass",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
-    "notes": "",
-    "meaningStatus": "draft",
+    "meaning": "verschwitzt, schweißfeucht",
+    "usage": "Beschreibt Haut, Hände oder Kleidung, die feucht von Schweiß sind – nach Sport, bei Hitze oder vor Aufregung.",
+    "explanation": "汗津津 verbindet 汗 (hàn) „Schweiß“ mit 津津 (jīnjīn) „feucht, voller Flüssigkeit“. Die ABB-Form beschreibt eine Haut, auf der der Schweiß steht, ohne dass er schon herunterläuft. Typisch sind Körperteile wie 额头 (étóu) „Stirn“, 手心 (shǒuxīn) „Handfläche“ oder der ganze Körper (全身汗津津的). Es steht als Prädikat mit 的 oder als Attribut mit 的, meist ohne 很.",
+    "examples": [
+      {
+        "chinese": "跑完步，他全身汗津津的。",
+        "pinyin": "Pǎowán bù, tā quánshēn hànjīnjīn de.",
+        "german": "Nach dem Laufen ist er am ganzen Körper verschwitzt."
+      },
+      {
+        "chinese": "我一紧张，手心就汗津津的。",
+        "pinyin": "Wǒ yì jǐnzhāng, shǒuxīn jiù hànjīnjīn de.",
+        "german": "Sobald ich nervös werde, bekomme ich schweißnasse Hände."
+      },
+      {
+        "chinese": "她擦了擦汗津津的额头。",
+        "pinyin": "Tā cā le cā hànjīnjīn de étóu.",
+        "german": "Sie wischte sich über die schweißnasse Stirn."
+      }
+    ],
+    "related": [
+      "o:潮乎乎",
+      "o:黏糊糊"
+    ],
+    "notes": "Stärker ist 汗淋淋 (hànlínlín) „schweißtriefend“. Eher beschreibend, aber auch im Gespräch gut verständlich.",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "汗津津 汗津津 [han4 jin1 jin1]"
@@ -9577,24 +10415,34 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Sinne",
     "pattern": "ABB",
-    "meaning": "flauschig, pelzig, plüschig",
-    "usage": "Beschreibt etwas Flauschiges, Pelziges oder Haariges",
-    "explanation": "毛茸茸 beschreibt das Gefühl von etwas Weichem, Haarigem – ein Kätzchen, ein Plüschtier oder eine Raupe.",
+    "meaning": "flauschig, pelzig, flaumig",
+    "usage": "Beschreibt etwas mit weichem, dichtem Fell oder Flaum – Jungtiere, Plüschtiere, Pullover, Pfirsichhaut.",
+    "explanation": "毛茸茸 verbindet 毛 (máo) „Haar, Fell“ mit 茸茸 (róngróng) „fein, weich und dicht“ (茸 ist der Flaum junger Pflanzen und Tiere). Die ABB-Form malt aus, wie weich und kuschelig sich etwas ansieht und anfühlt. Typisch sind Kätzchen, Küken, Plüschtiere, warme Kleidung oder pelzige Früchte. Es steht meist als Attribut mit 的 (毛茸茸的小猫) oder als Prädikat mit 的, in der Regel ohne 很, und klingt freundlich bis niedlich.",
     "examples": [
       {
         "chinese": "毛茸茸的小猫真可爱。",
-        "pinyin": "Máorōngrōng de xiǎo māo zhēn kěài.",
+        "pinyin": "Máoróngróng de xiǎo māo zhēn kě'ài.",
         "german": "Das flauschige Kätzchen ist wirklich süß."
+      },
+      {
+        "chinese": "桃子的皮毛茸茸的。",
+        "pinyin": "Táozi de pí máoróngróng de.",
+        "german": "Die Haut des Pfirsichs ist pelzig."
+      },
+      {
+        "chinese": "冬天我最喜欢穿这件毛茸茸的外套。",
+        "pinyin": "Dōngtiān wǒ zuì xǐhuan chuān zhè jiàn máoróngróng de wàitào.",
+        "german": "Im Winter trage ich am liebsten diese flauschige Jacke."
       }
     ],
     "related": [
       "o:软绵绵"
     ],
-    "notes": "",
+    "notes": "Gesprochen hört man oft máorōngrōng mit erstem Ton. Man liest auch die Schreibung 毛绒绒 (máoróngróng), angelehnt an 毛绒玩具 (máoróng wánjù) „Plüschtier“.",
     "legacyIds": [
       "毛茸茸"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "毛茸茸 毛茸茸 [mao2 rong2 rong2]"
     }
@@ -10183,23 +11031,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Sinne",
     "pattern": "AABB",
-    "meaning": "staubtrocken, dürre, langweilig",
-    "usage": "Beschreibt etwas völlig Ausgetrocknetes oder inhaltlich Langweiliges",
-    "explanation": "干干巴巴 beschreibt etwas, das extrem trocken ist – physisch (trockene Lippen) oder übertragen (langweilige Rede).",
+    "meaning": "ausgedörrt, spröde; trocken und fad (Rede, Text)",
+    "usage": "Beschreibt etwas, das ganz ausgetrocknet ist – Brot, Lippen, Boden – und übertragen eine Rede oder einen Text ohne Leben und Farbe.",
+    "explanation": "干干巴巴 ist die AABB-Verdopplung von 干巴 (gānba) „ausgetrocknet, dürr; fad“. Die Verdopplung verstärkt: „ganz und gar trocken“. Wörtlich geht es um Speisen, Lippen, Haut oder Erde, übertragen um eine Rede oder einen Text, die langweilig und ohne Ausdruck sind. Typisch sind das Prädikat mit 的 und das Komplement nach 得 (变得干干巴巴的). Gleichbedeutend und deutlich häufiger ist die ABB-Form 干巴巴 (gānbābā).",
     "examples": [
       {
-        "chinese": "他的演讲干干巴巴的，没意思。",
-        "pinyin": "Tā de yǎnjiǎng gāngān-bābā de, méi yìsi.",
-        "german": "Seine Rede war staubtrocken und langweilig."
+        "chinese": "他的演讲干干巴巴的，没什么意思。",
+        "pinyin": "Tā de yǎnjiǎng gāngān-bābā de, méi shénme yìsi.",
+        "german": "Seine Rede war staubtrocken und ziemlich langweilig."
+      },
+      {
+        "chinese": "馒头放了两天，变得干干巴巴的。",
+        "pinyin": "Mántou fàng le liǎng tiān, biàn de gāngān-bābā de.",
+        "german": "Die gedämpften Brötchen lagen zwei Tage herum und sind ganz trocken geworden."
+      },
+      {
+        "chinese": "天气太干，嘴唇干干巴巴的。",
+        "pinyin": "Tiānqì tài gān, zuǐchún gāngān-bābā de.",
+        "german": "Die Luft ist so trocken, dass die Lippen ganz spröde sind."
       }
     ],
-    "related": [],
-    "notes": "",
+    "related": [
+      "o:干巴巴",
+      "o:皱巴巴"
+    ],
+    "notes": "Umgangssprachlich und seltener als 干巴巴 (gānbābā). Gesprochen oft gānganbābā mit neutraler zweiter Silbe.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "干干巴巴"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -10214,25 +11075,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Sinne",
     "pattern": "AABB",
-    "meaning": "klebrig-zäh, unangenehm pappig",
-    "usage": "Beschreibt eine klebrig-zähe, pappige Textur oder Atmosphäre",
-    "explanation": "黏黏糊糊 beschreibt etwas unangenehm Klebriges und Zähes – verschütteter Sirup, klebriger Teig oder übertragen eine zähe, umständliche Art.",
+    "meaning": "klebrig, pappig; anhänglich; zögerlich",
+    "usage": "Beschreibt etwas unangenehm Klebriges – Hände, Tisch, Haut bei Schwüle – und übertragen ein Paar, das ständig aneinanderklebt, oder eine zögerliche Art.",
+    "explanation": "黏黏糊糊 ist die AABB-Verdopplung von 黏糊 (niánhu) „klebrig, zäh; anhänglich; schwerfällig“. Die Verdopplung verstärkt und klingt meist unangenehm. Wörtlich beschreibt es klebrige Oberflächen und Speisen, übertragen zweierlei: Menschen, die ständig aneinanderhängen, und eine zögerliche, unentschlossene Art (做事黏黏糊糊的). Typisch ist das Prädikat mit 的. Gleichbedeutend ist die ABB-Form 黏糊糊 (niánhūhū).",
     "examples": [
       {
         "chinese": "桌子上黏黏糊糊的，赶紧擦一下。",
-        "pinyin": "Zhuōzi shàng niánniánhūhū de, gǎnjǐn cā yīxià.",
+        "pinyin": "Zhuōzi shang niánnián-hūhū de, gǎnjǐn cā yíxià.",
         "german": "Der Tisch ist ganz klebrig, wisch ihn schnell ab."
+      },
+      {
+        "chinese": "出了一身汗，身上黏黏糊糊的，真难受。",
+        "pinyin": "Chū le yì shēn hàn, shēnshang niánnián-hūhū de, zhēn nánshòu.",
+        "german": "Man ist völlig verschwitzt und alles klebt – wirklich unangenehm."
+      },
+      {
+        "chinese": "他们俩整天黏黏糊糊的，谁也离不开谁。",
+        "pinyin": "Tāmen liǎ zhěngtiān niánnián-hūhū de, shéi yě lí bu kāi shéi.",
+        "german": "Die beiden kleben den ganzen Tag aneinander und können nicht ohneeinander."
       }
     ],
     "related": [
-      "o:黏糊糊"
+      "o:黏糊糊",
+      "o:汗津津"
     ],
-    "notes": "Verstärkte Form von 黏糊糊.",
+    "notes": "Auch 粘粘糊糊 geschrieben, da 粘 (nián) als Variante von 黏 gilt. Gesprochen oft niánnian-hūhū mit neutraler zweiter Silbe.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "黏黏糊糊"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -10248,23 +11120,35 @@ window.ONOMATOPOEIA_DATA = [
     "category": "Sinne",
     "pattern": "ABAB",
     "meaning": "eiskalt (zum Anfassen)",
-    "usage": "Beschreibt etwas, das sich eiskalt anfühlt",
-    "explanation": "冰凉冰凉 ist die ABAB-Verdopplung von 冰凉 und verstärkt die Bedeutung \"eiskalt\" – z.B. Hände, Metalloberflächen im Winter.",
+    "usage": "Beschreibt, dass sich etwas beim Berühren eiskalt anfühlt – Hände und Füße, Getränke, Metall im Winter.",
+    "explanation": "冰凉冰凉 ist die ABAB-Verdopplung von 冰凉 (bīngliáng) „eiskalt, kalt wie Eis“. 冰凉 enthält bereits einen Vergleich („kalt wie Eis“); solche Zustandsadjektive werden als Ganzes verdoppelt (ABAB). Die Verdopplung verstärkt und klingt sehr mündlich. Gemeint ist vor allem die gefühlte Kälte beim Anfassen, weniger das Wetter. Typisch ist das Prädikat mit 的 (手冰凉冰凉的), oft nach 摸上去 (mō shàngqu) „fühlt sich an“. Ein 很 steht davor nicht.",
     "examples": [
       {
         "chinese": "她的手冰凉冰凉的。",
         "pinyin": "Tā de shǒu bīngliáng bīngliáng de.",
-        "german": "Ihre Hände waren eiskalt."
+        "german": "Ihre Hände sind eiskalt."
+      },
+      {
+        "chinese": "这瓶啤酒刚从冰箱里拿出来，冰凉冰凉的。",
+        "pinyin": "Zhè píng píjiǔ gāng cóng bīngxiāng li ná chūlai, bīngliáng bīngliáng de.",
+        "german": "Das Bier kommt gerade aus dem Kühlschrank und ist eiskalt."
+      },
+      {
+        "chinese": "冬天的铁栏杆摸上去冰凉冰凉的。",
+        "pinyin": "Dōngtiān de tiě lángān mō shàngqu bīngliáng bīngliáng de.",
+        "german": "Im Winter fühlt sich das Eisengeländer eiskalt an."
       }
     ],
     "related": [
-      "o:冷冰冰"
+      "o:冷冰冰",
+      "o:凉飕飕",
+      "o:雪白雪白"
     ],
-    "notes": "ABAB-Verdopplung bei zweisilbigen Adjektiven ist typisch für gesprochenes Chinesisch.",
+    "notes": "Umgangssprachlich hört man auch die AABB-Form 冰冰凉凉 (bīngbīng-liángliáng). Anders als 冷冰冰 (lěngbīngbīng) wird 冰凉冰凉 kaum übertragen für eine kühle, abweisende Art gebraucht.",
     "legacyIds": [
       "冰凉冰凉"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -10279,24 +11163,34 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Bewegung",
     "pattern": "A",
-    "meaning": "Zisch! Pfiff! (schnell vorbei)",
-    "usage": "Gibt das Geräusch von etwas wieder, das blitzschnell vorbeizieht",
-    "explanation": "嗖 als Einzelzeichen beschreibt die Geschwindigkeit eines vorbeifliegenden Objekts.",
+    "meaning": "zisch!; wusch! (etwas saust schnell vorbei)",
+    "usage": "Gibt das kurze Zischen oder Sausen wieder, wenn etwas blitzschnell vorbeifliegt oder davonschießt – ein Pfeil, ein Auto, ein Tier, das plötzlich springt.",
+    "explanation": "嗖 (sōu) ahmt das kurze Sausen der Luft nach, wenn sich etwas sehr schnell bewegt. Es betont vor allem die Plötzlichkeit: Im nächsten Moment ist das Ding schon weg. Typische Rahmen sind 嗖的一声 „mit einem Wusch“ (auch 嗖地一声 geschrieben), 嗖地一下 „zack, im Nu“ und 嗖地 + Verb der Bewegung (飞, 跑, 跳, 窜). Für ein anhaltendes Sausen verdoppelt man: 嗖嗖 (sōusōu), lebhaft auch dreifach 嗖嗖嗖.",
     "examples": [
       {
-        "chinese": "一辆赛车嗖地飞过。",
-        "pinyin": "Yī liàng sàichē sōu de fēi guò.",
-        "german": "Ein Rennwagen raste im Nu vorbei."
+        "chinese": "一辆跑车嗖的一声从我身边开了过去。",
+        "pinyin": "Yí liàng pǎochē sōu de yì shēng cóng wǒ shēnbiān kāi le guòqu.",
+        "german": "Ein Sportwagen schoss mit einem Wusch an mir vorbei."
+      },
+      {
+        "chinese": "小猫嗖地一下跳上了桌子。",
+        "pinyin": "Xiǎo māo sōu de yíxià tiàoshàng le zhuōzi.",
+        "german": "Zack – schon war die kleine Katze auf den Tisch gesprungen."
+      },
+      {
+        "chinese": "箭嗖地飞了出去。",
+        "pinyin": "Jiàn sōu de fēi le chūqu.",
+        "german": "Der Pfeil zischte davon."
       }
     ],
     "related": [
       "o:嗖嗖"
     ],
-    "notes": "",
+    "notes": "Vor 一声 (yì shēng) und 一下 (yíxià) schwankt die Schreibung zwischen 的 und 地; beides ist üblich.",
     "legacyIds": [
       "嗖"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "嗖 嗖 [sou1]"
     }
@@ -10311,24 +11205,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Bewegung",
     "pattern": "AA",
-    "meaning": "sausen, pfeifen (schnelles Vorbeiziehen)",
-    "usage": "Gibt das Geräusch von etwas wieder, das schnell vorbeizieht",
-    "explanation": "嗖嗖 ahmt das Pfeifen nach, wenn etwas schnell durch die Luft fliegt – ein Pfeil, eine Kugel oder der Wind.",
+    "meaning": "sausend, pfeifend (Wind, Geschosse); rasant",
+    "usage": "Gibt anhaltendes Sausen und Pfeifen wieder – Geschosse, kalter Wind, schnell vorbeiziehende Dinge; umgangssprachlich auch für etwas, das rasant steigt.",
+    "explanation": "嗖嗖 ist die Verdopplung von 嗖 (sōu) und beschreibt kein einzelnes Zischen, sondern ein anhaltendes oder wiederholtes Sausen. Typisch ist 嗖嗖地 + Verb: 飞 (Kugeln, Pfeile), 刮 (Wind), 往上涨 (Preise). Beim Wind klingt oft schneidende Kälte mit (冷风嗖嗖). Umgangssprachlich steht es auch für Tempo ohne Geräusch: 房价嗖嗖地往上涨 „die Preise schießen in die Höhe“. Lebhaft auch dreifach: 嗖嗖嗖.",
     "examples": [
       {
-        "chinese": "子弹嗖嗖地飞过头顶。",
-        "pinyin": "Zǐdàn sōusōu de fēi guò tóudǐng.",
+        "chinese": "子弹嗖嗖地从头顶飞过。",
+        "pinyin": "Zǐdàn sōusōu de cóng tóudǐng fēiguò.",
         "german": "Die Kugeln pfiffen über die Köpfe hinweg."
+      },
+      {
+        "chinese": "外面的北风嗖嗖地刮着。",
+        "pinyin": "Wàimiàn de běifēng sōusōu de guāzhe.",
+        "german": "Draußen pfeift der Nordwind."
+      },
+      {
+        "chinese": "这两年房价嗖嗖地往上涨。",
+        "pinyin": "Zhè liǎng nián fángjià sōusōu de wǎng shàng zhǎng.",
+        "german": "In den letzten zwei Jahren sind die Immobilienpreise nur so in die Höhe geschossen."
       }
     ],
     "related": [
+      "o:嗖",
       "o:呼呼"
     ],
-    "notes": "",
+    "notes": "Für das Heulen eines starken Windes ist 呼呼 (hūhū) üblicher; 嗖嗖 betont eher das scharfe, schnelle Pfeifen.",
     "legacyIds": [
       "嗖嗖"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "嗖嗖 嗖嗖 [sou1 sou1]"
     }
@@ -10343,24 +11248,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Bewegung",
     "pattern": "AB",
-    "meaning": "planschen, strampeln (im Wasser)",
-    "usage": "Gibt das Geräusch von Planschen oder Strampeln im Wasser wieder",
-    "explanation": "扑腾 beschreibt das Geräusch und die Bewegung, wenn jemand oder ein Tier im Wasser strampelt oder planscht.",
+    "meaning": "Geflatter, Gezappel; plumps (dumpfer Aufprall)",
+    "usage": "Gibt das Flattern, Zappeln und Strampeln wieder – Vögel mit den Flügeln, Fische an Land, jemand im Wasser – und das Klopfen eines aufgeregten Herzens.",
+    "explanation": "扑腾 ist Laut und Verb zugleich: „flattern, zappeln, strampeln“ samt dem Geräusch dazu. Typisch sind Vögel und Enten, die mit den Flügeln schlagen, Fische, die an Land zappeln, und Menschen, die im Wasser strampeln. Verdoppelt beschreibt 扑腾扑腾 das heftige Klopfen des Herzens (心里扑腾扑腾的). Als einzelner dumpfer Aufprall (扑腾一声) ist es seltener als 扑通 (pūtōng). Umgangssprachlich auch übertragen: „sich abstrampeln, herumwursteln“.",
     "examples": [
       {
-        "chinese": "鸭子在水里扑腾着。",
-        "pinyin": "Yāzi zài shuǐ lǐ pūtēng zhe.",
-        "german": "Die Ente planschte im Wasser."
+        "chinese": "鸭子在水里扑腾着翅膀。",
+        "pinyin": "Yāzi zài shuǐ li pūtēngzhe chìbǎng.",
+        "german": "Die Ente schlägt im Wasser mit den Flügeln."
+      },
+      {
+        "chinese": "一条鱼在岸上扑腾了几下就不动了。",
+        "pinyin": "Yì tiáo yú zài àn shang pūtēng le jǐ xià jiù bú dòng le.",
+        "german": "Ein Fisch zappelte am Ufer noch ein paar Mal und lag dann still."
+      },
+      {
+        "chinese": "要上台了，我心里扑腾扑腾的。",
+        "pinyin": "Yào shàng tái le, wǒ xīn li pūtēng pūtēng de.",
+        "german": "Gleich muss ich auf die Bühne, mein Herz klopft wie wild."
       }
     ],
     "related": [
-      "o:扑通"
+      "o:扑通",
+      "o:扑棱棱"
     ],
-    "notes": "",
+    "notes": "Gesprochen ist die zweite Silbe meist neutral (pūteng). Für das Platschen beim Sturz ins Wasser ist 扑通 (pūtōng) üblicher.",
     "legacyIds": [
       "扑腾"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "撲騰 扑腾 [pu1 teng5]"
     }
@@ -10375,24 +11291,34 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Laut",
     "category": "Bewegung",
     "pattern": "ABB",
-    "meaning": "rollen, kullern (Augen, Kugel)",
-    "usage": "Beschreibt schnelles Rollen oder Kullern",
-    "explanation": "骨碌碌 beschreibt eine schnelle Rollbewegung – rollende Augen beim Nachdenken oder eine kullernde Kugel.",
+    "meaning": "kullernd, rollend (Kugeln, Augen)",
+    "usage": "Beschreibt das schnelle Rollen und Kullern runder Dinge – Bälle, Früchte, Steine – und Augen, die flink hin und her rollen.",
+    "explanation": "骨碌碌 ist die ABB-Form zu 骨碌 (gūlu) „rollen, kullern“ und gibt Bewegung und Geräusch eines rollenden Gegenstands wieder. Typisch ist 骨碌碌地 + 滚 (gǔn) „rollen“ oder 转 (zhuàn) „sich drehen“. Bei Augen deutet es an, dass jemand flink überlegt oder etwas ausheckt (眼睛骨碌碌地转). Es steht vor allem adverbial mit 地, seltener als Attribut mit 的.",
     "examples": [
       {
-        "chinese": "他的眼睛骨碌碌地转着。",
-        "pinyin": "Tā de yǎnjīng gūlùlù de zhuǎnzhe.",
-        "german": "Seine Augen rollten schnell hin und her (er überlegte)."
+        "chinese": "他的眼睛骨碌碌地转着，好像在打什么主意。",
+        "pinyin": "Tā de yǎnjing gūlùlù de zhuànzhe, hǎoxiàng zài dǎ shénme zhǔyi.",
+        "german": "Seine Augen rollten hin und her, als würde er etwas aushecken."
+      },
+      {
+        "chinese": "苹果从桌子上掉下来，骨碌碌地滚到了床底下。",
+        "pinyin": "Píngguǒ cóng zhuōzi shang diào xiàlai, gūlùlù de gǔndào le chuáng dǐxia.",
+        "german": "Der Apfel fiel vom Tisch und kullerte unters Bett."
+      },
+      {
+        "chinese": "球骨碌碌地滚下了山坡。",
+        "pinyin": "Qiú gūlùlù de gǔnxià le shānpō.",
+        "german": "Der Ball kullerte den Hang hinunter."
       }
     ],
     "related": [
       "o:滴溜溜"
     ],
-    "notes": "",
+    "notes": "Man hört auch gūlūlū; in Taiwan gúlùlu. Nicht verwechseln mit 咕噜 (gūlū), dem Laut für Gluckern und Magenknurren.",
     "legacyIds": [
       "骨碌碌"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "骨碌碌 骨碌碌 [gu1 lu4 lu4]"
     }
@@ -10407,24 +11333,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Bewegung",
     "pattern": "ABB",
-    "meaning": "zitternd schwankend, wackelnd",
-    "usage": "Beschreibt zitternde, schwankende Bewegung",
-    "explanation": "颤悠悠 beschreibt eine zitternde, schwankende Bewegung – z.B. ein dünner Ast im Wind oder ein altersschwacher Mensch.",
+    "meaning": "wippend, schwankend; zittrig",
+    "usage": "Beschreibt eine federnde, leicht zitternde Auf-und-ab-Bewegung – ein dünner Ast, eine Tragestange, der unsichere Gang eines alten Menschen.",
+    "explanation": "颤悠悠 ist die ABB-Form zu 颤悠 (chànyou) „wippen, schwanken, federn“, aus 颤 (chàn) „zittern“. Die Form malt eine leichte, wiederholte Auf-und-ab-Bewegung aus: Ein Ast wippt unter einem Vogel, eine Tragestange federt bei jedem Schritt, ein alter Mensch geht unsicher. Typisch ist das Adverbial mit 地 (颤悠悠地走过来) und das Prädikat mit 的. Ein 很 steht davor meist nicht.",
     "examples": [
       {
-        "chinese": "老奶奶颤悠悠地走过来。",
-        "pinyin": "Lǎo nǎinai chànyōuyōu de zǒu guòlái.",
-        "german": "Die alte Großmutter kam zitternd und schwankend herübergelaufen."
+        "chinese": "老奶奶颤悠悠地走了过来。",
+        "pinyin": "Lǎo nǎinai chànyōuyōu de zǒu le guòlai.",
+        "german": "Die alte Frau kam mit wackligen Schritten herüber."
+      },
+      {
+        "chinese": "一只小鸟落在树枝上，树枝颤悠悠的。",
+        "pinyin": "Yì zhī xiǎo niǎo luò zài shùzhī shang, shùzhī chànyōuyōu de.",
+        "german": "Ein kleiner Vogel landet auf dem Zweig, und der Zweig wippt leicht auf und ab."
+      },
+      {
+        "chinese": "他挑着两桶水，扁担颤悠悠的。",
+        "pinyin": "Tā tiāozhe liǎng tǒng shuǐ, biǎndan chànyōuyōu de.",
+        "german": "Er trägt zwei Eimer Wasser, und die Tragestange federt bei jedem Schritt."
       }
     ],
     "related": [
-      "o:颤颤巍巍"
+      "o:颤颤巍巍",
+      "o:晃晃悠悠",
+      "o:慢悠悠"
     ],
-    "notes": "",
+    "notes": "颤 wird hier chàn gelesen, nicht zhàn wie in 颤栗 (zhànlì) „schaudern“. Ähnlich, aber stärker auf Gebrechlichkeit bezogen ist 颤颤巍巍 (chànchàn-wēiwēi).",
     "legacyIds": [
       "颤悠悠"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -10439,22 +11377,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Bewegung",
     "pattern": "ABB",
-    "meaning": "sich schnell drehend, wirbelnd (Augen, Kreisel)",
-    "usage": "Beschreibt schnelles Drehen oder rollende Augen",
-    "explanation": "滴溜溜 beschreibt eine schnelle Drehbewegung, typisch für rollende Augen (wenn jemand nachdenkt) oder einen Kreisel.",
+    "meaning": "flink kreisend, wirbelnd (Augen, Kreisel, Münze)",
+    "usage": "Beschreibt eine schnelle, leichte Drehbewegung – ein Kreisel, eine kreiselnde Münze, Augen, die flink hin und her wandern.",
+    "explanation": "滴溜溜 malt eine schnelle, gleichmäßige Kreisbewegung aus. Die Silben tragen hier keine wörtliche Bedeutung; die Form wirkt lautmalerisch und lebhaft. Typisch ist 滴溜溜地 + 转 (zhuàn) „sich drehen“ oder 打转 (dǎzhuàn) „kreiseln“. Bei Augen deutet es auf einen wachen, schlauen oder neugierigen Blick (眼珠滴溜溜地转). Dazu gehört 滴溜圆 (dīliūyuán) „kugelrund“. Es steht vor allem adverbial mit 地.",
     "examples": [
       {
-        "chinese": "她的眼珠滴溜溜地转。",
-        "pinyin": "Tā de yǎnzhū dīliūliū de zhuǎn.",
-        "german": "Ihre Augen rollten schnell hin und her (sie überlegte)."
+        "chinese": "她的眼珠滴溜溜地转，不知道在想什么。",
+        "pinyin": "Tā de yǎnzhū dīliūliū de zhuàn, bù zhīdào zài xiǎng shénme.",
+        "german": "Ihre Augen huschten flink hin und her – wer weiß, was sie gerade dachte."
+      },
+      {
+        "chinese": "陀螺在地上滴溜溜地转个不停。",
+        "pinyin": "Tuóluó zài dìshang dīliūliū de zhuàn ge bù tíng.",
+        "german": "Der Kreisel dreht und dreht sich auf dem Boden."
+      },
+      {
+        "chinese": "硬币在桌子上滴溜溜地打转。",
+        "pinyin": "Yìngbì zài zhuōzi shang dīliūliū de dǎzhuàn.",
+        "german": "Die Münze kreiselt auf dem Tisch."
       }
     ],
-    "related": [],
-    "notes": "ABB-Muster: seltener als AA oder AABB.",
+    "related": [
+      "o:骨碌碌",
+      "o:颤悠悠"
+    ],
+    "notes": "Ähnlich ist 骨碌碌 (gūlùlù); es betont eher das Rollen von der Stelle, 滴溜溜 das Drehen auf der Stelle.",
     "legacyIds": [
       "滴溜溜"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "滴溜溜 滴溜溜 [di1 liu1 liu1]"
     }
@@ -10717,26 +11668,34 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Bewegung",
     "pattern": "AABB",
-    "meaning": "hüpfend und springend, herumtollend",
-    "usage": "Beschreibt fröhliches Herumhüpfen und -springen",
-    "explanation": "蹦蹦跳跳 beschreibt lebhaftes Springen und Hüpfen – typisch für Kinder oder Tiere, die vor Freude herumtollen.",
+    "meaning": "hüpfend und springend, munter herumtollend",
+    "usage": "Beschreibt fröhliches, lebhaftes Hüpfen und Springen, vor allem von Kindern und kleinen Tieren, oft als Zeichen guter Laune.",
+    "explanation": "蹦蹦跳跳 ist die AABB-Verdopplung von 蹦跳 (bèngtiào) „hüpfen, springen“, aus 蹦 (bèng) „hüpfen“ und 跳 (tiào) „springen“. Die Verdopplung malt anhaltende, lebhafte Bewegung aus und klingt fröhlich: Kinder, die ausgelassen herumhüpfen, ein Hase auf der Wiese. Typisch ist das Adverbial mit 地 vor einem Bewegungsverb (蹦蹦跳跳地跑过来, 蹦蹦跳跳地回家) und das Prädikat mit 的. Ein 很 steht davor meist nicht.",
     "examples": [
       {
-        "chinese": "小朋友蹦蹦跳跳地跑了过来。",
-        "pinyin": "Xiǎopéngyǒu bèngbèng-tiàotiào de pǎo le guòlái.",
-        "german": "Die Kinder kamen hüpfend und springend angelaufen."
+        "chinese": "小朋友们蹦蹦跳跳地跑了过来。",
+        "pinyin": "Xiǎopéngyǒumen bèngbèng-tiàotiào de pǎo le guòlai.",
+        "german": "Die Kinder kamen fröhlich angehüpft."
+      },
+      {
+        "chinese": "放学了，她一路蹦蹦跳跳地回了家。",
+        "pinyin": "Fàngxué le, tā yí lù bèngbèng-tiàotiào de huí le jiā.",
+        "german": "Nach der Schule hüpfte sie den ganzen Weg nach Hause."
+      },
+      {
+        "chinese": "小兔子在草地上蹦蹦跳跳的。",
+        "pinyin": "Xiǎo tùzi zài cǎodì shang bèngbèng-tiàotiào de.",
+        "german": "Das Häschen hoppelt munter über die Wiese."
       }
     ],
-    "related": [
-      "o:摇摇晃晃"
-    ],
-    "notes": "",
+    "related": [],
+    "notes": "Umgangssprachlich und kindlich-fröhlich; häufig in Kinderliedern und Geschichten. Vor allem für Kinder und kleine Tiere.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "蹦蹦跳跳",
       "蹦蹦"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "蹦蹦跳跳 蹦蹦跳跳 [beng4 beng4 tiao4 tiao4]"
     }
@@ -10751,25 +11710,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Bewegung",
     "pattern": "AABB",
-    "meaning": "zittrig, wackelig (alt, gebrechlich)",
-    "usage": "Beschreibt zittriges, unsicheres Gehen alter oder schwacher Menschen",
-    "explanation": "颤颤巍巍 beschreibt die zittrigen, unsicheren Bewegungen eines alten oder körperlich schwachen Menschen.",
+    "meaning": "zittrig, wacklig (alt, gebrechlich)",
+    "usage": "Beschreibt unsichere, zitternde Bewegungen, besonders alter oder schwacher Menschen; auch etwas, das bedenklich wackelt.",
+    "explanation": "颤颤巍巍 ist die AABB-Form zu 颤巍巍 (chànwēiwēi) „zittrig, wacklig“, aus 颤 (chàn) „zittern“ und 巍 (wēi), das hier das Schwanken ausmalt. Die Form beschreibt vor allem alte Menschen, die zittrig aufstehen, gehen oder etwas reichen; daneben Dinge, die bedenklich wackeln, etwa eine alte Brücke. Typisch ist das Adverbial mit 地 (颤颤巍巍地站起来) und das Prädikat mit 的. Oft klingt Mitgefühl mit.",
     "examples": [
       {
         "chinese": "老奶奶颤颤巍巍地站了起来。",
-        "pinyin": "Lǎo nǎinai chànchàn-wēiwēi de zhàn le qǐlái.",
+        "pinyin": "Lǎo nǎinai chànchàn-wēiwēi de zhàn le qǐlai.",
         "german": "Die alte Frau stand zittrig auf."
+      },
+      {
+        "chinese": "爷爷颤颤巍巍地把一个红包递给我。",
+        "pinyin": "Yéye chànchàn-wēiwēi de bǎ yí ge hóngbāo dì gěi wǒ.",
+        "german": "Opa reichte mir mit zitternden Händen einen roten Umschlag."
+      },
+      {
+        "chinese": "那座旧木桥颤颤巍巍的，走在上面真让人害怕。",
+        "pinyin": "Nà zuò jiù mù qiáo chànchàn-wēiwēi de, zǒu zài shàngmiàn zhēn ràng rén hàipà.",
+        "german": "Die alte Holzbrücke wackelt bedenklich – darüberzugehen macht einem richtig Angst."
       }
     ],
     "related": [
-      "o:摇摇晃晃"
+      "o:颤悠悠",
+      "o:摇摇晃晃",
+      "o:哆哆嗦嗦"
     ],
-    "notes": "",
+    "notes": "Die ABB-Form 颤巍巍 (chànwēiwēi) ist gleichbedeutend und in Wörterbüchern üblicher. 颤 wird hier chàn gelesen.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "颤颤巍巍"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -10822,25 +11793,38 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Bewegung",
     "pattern": "AABB",
-    "meaning": "stolpernd und taumelnd",
-    "usage": "Beschreibt stolperndes, ungeschicktes Vorwärtskommen",
-    "explanation": "跌跌撞撞 beschreibt jemanden, der ständig stolpert und aneckt. Kann auch übertragen für einen schwierigen Lebensweg stehen.",
+    "meaning": "stolpernd, taumelnd; (übertragen) mühsam, mit vielen Rückschlägen",
+    "usage": "Beschreibt einen unsicheren, stolpernden Gang – bei Betrunkenen, kleinen Kindern, im Dunkeln; übertragen auch einen mühsamen Lebens- oder Berufsweg.",
+    "explanation": "跌跌撞撞 ist die AABB-Form aus 跌 „hinfallen, stürzen“ und 撞 „anstoßen, prallen“: Man stolpert, fängt sich, eckt irgendwo an. Die Form steht meist adverbial vor Bewegungsverben (跌跌撞撞地跑过来, 跌跌撞撞地走回家), auch als Prädikat mit 的. Übertragen beschreibt sie einen Weg voller Fehlschläge, auf dem man trotzdem vorankommt (这些年跌跌撞撞地走过来). Gesprochen klingt die zweite Silbe oft neutral (diēdie).",
     "examples": [
       {
-        "chinese": "他跌跌撞撞地跑过来。",
-        "pinyin": "Tā diēdie-zhuàngzhuàng de pǎo guòlái.",
-        "german": "Er kam stolpernd angelaufen."
+        "chinese": "他喝醉了，跌跌撞撞地走回了家。",
+        "pinyin": "Tā hēzuì le, diēdiezhuàngzhuàng de zǒu huí le jiā.",
+        "german": "Er war betrunken und torkelte nach Hause."
+      },
+      {
+        "chinese": "孩子刚学走路，总是跌跌撞撞的。",
+        "pinyin": "Háizi gāng xué zǒulù, zǒngshì diēdiezhuàngzhuàng de.",
+        "german": "Das Kind lernt gerade laufen und stolpert noch ständig."
+      },
+      {
+        "chinese": "这些年他跌跌撞撞地走过来，终于有了自己的公司。",
+        "pinyin": "Zhèxiē nián tā diēdiezhuàngzhuàng de zǒu guòlái, zhōngyú yǒu le zìjǐ de gōngsī.",
+        "german": "Nach Jahren voller Rückschläge hat er endlich eine eigene Firma."
       }
     ],
     "related": [
-      "o:摇摇晃晃"
+      "o:踉踉跄跄",
+      "o:摇摇晃晃",
+      "o:磕磕绊绊",
+      "o:磕磕碰碰"
     ],
-    "notes": "",
+    "notes": "Ähnlich 踉踉跄跄 (liàngliàng-qiàngqiàng), das eher schriftsprachlich ist und stärker das Taumeln betont.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "跌跌撞撞"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "跌跌撞撞 跌跌撞撞 [die1 die5 zhuang4 zhuang4]"
     }
@@ -10893,25 +11877,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Bewegung",
     "pattern": "AABB",
-    "meaning": "stürmisch, voller Tatendrang",
-    "usage": "Beschreibt energisches, stürmisches Handeln",
-    "explanation": "风风火火 (wörtlich: Wind Wind Feuer Feuer) beschreibt jemanden, der energisch und mit großem Elan handelt, oft etwas überstürzt.",
+    "meaning": "stürmisch; eilig und voller Tatendrang",
+    "usage": "Beschreibt Menschen, die mit großer Eile und Energie auftreten oder handeln – hereinstürmen, Dinge im Eiltempo erledigen.",
+    "explanation": "风风火火 ist die AABB-Form aus 风 „Wind“ und 火 „Feuer“: Jemand ist schnell wie der Wind und hitzig wie das Feuer. Die Form beschreibt eilige, tatkräftige, manchmal auch ungestüme Menschen. Sie steht adverbial vor Bewegungsverben (风风火火地跑进来, 风风火火地赶过来), als Prädikat mit 的 (做事风风火火的) und als Attribut (一个风风火火的人). Meist anerkennend oder neutral; je nach Zusammenhang klingt auch „überstürzt“ mit.",
     "examples": [
       {
-        "chinese": "她风风火火地赶了过来。",
-        "pinyin": "Tā fēngfēng-huǒhuǒ de gǎn le guòlái.",
-        "german": "Sie stürmte energisch herbei."
+        "chinese": "她风风火火地跑进来，说：“快走，车要开了！”",
+        "pinyin": "Tā fēngfēnghuǒhuǒ de pǎo jìnlái, shuō: “Kuài zǒu, chē yào kāi le!”",
+        "german": "Sie stürmte herein und rief: „Schnell, der Bus fährt gleich!“"
+      },
+      {
+        "chinese": "他做事总是风风火火的，一刻也闲不住。",
+        "pinyin": "Tā zuò shì zǒngshì fēngfēnghuǒhuǒ de, yí kè yě xián bú zhù.",
+        "german": "Er erledigt alles im Eiltempo und kann keinen Moment stillsitzen."
+      },
+      {
+        "chinese": "公司来了一个风风火火的年轻人。",
+        "pinyin": "Gōngsī lái le yí ge fēngfēnghuǒhuǒ de niánqīngrén.",
+        "german": "In der Firma hat ein junger Mensch voller Tatendrang angefangen."
       }
     ],
     "related": [
-      "o:匆匆忙忙"
+      "o:匆匆忙忙",
+      "o:急急忙忙",
+      "o:红红火火"
     ],
-    "notes": "",
+    "notes": "Nicht verwechseln mit 红红火火 (hónghóng-huǒhuǒ) „florierend, blühend“ (Geschäft, Leben).",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "风风火火"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "風風火火 风风火火 [feng1 feng1 huo3 huo3]"
     }
@@ -10926,25 +11922,38 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Bewegung",
     "pattern": "AABB",
-    "meaning": "schaukelnd, pendelnd, gemütlich schlendern",
-    "usage": "Beschreibt langsames Schwanken oder gemütliches Schlendern",
-    "explanation": "晃晃悠悠 beschreibt eine langsame, schaukelnde Bewegung – ein Boot auf dem Wasser oder jemand, der gemütlich umherschlendert.",
+    "meaning": "schwankend, schaukelnd; wackelig",
+    "usage": "Beschreibt eine langsame Pendel- oder Schwankbewegung – ein Boot, etwas Hängendes, einen unsicheren oder gemächlichen Gang.",
+    "explanation": "晃晃悠悠 ist die AABB-Form von 晃悠 (huàngyou) „schaukeln, hin und her schwanken“. Die Verdopplung malt die Bewegung anschaulich aus: etwas schwankt gleichmäßig hin und her. Die Form steht adverbial (晃晃悠悠地站起来), als Prädikat mit 的 (小船晃晃悠悠的) und als Attribut. Bei Menschen beschreibt sie einen schwankenden Gang (müde, betrunken, alt) oder ein gemächliches Dahinschlendern. Gesprochen klingt die zweite Silbe meist neutral (huànghuang).",
     "examples": [
       {
-        "chinese": "小船晃晃悠悠地在湖面上飘。",
-        "pinyin": "Xiǎo chuán huànghuàng-yōuyōu de zài húmiàn shàng piāo.",
-        "german": "Das kleine Boot schaukelte gemütlich auf dem See."
+        "chinese": "小船在水上晃晃悠悠的。",
+        "pinyin": "Xiǎo chuán zài shuǐ shàng huànghuangyōuyōu de.",
+        "german": "Das kleine Boot schaukelt auf dem Wasser."
+      },
+      {
+        "chinese": "他喝多了，晃晃悠悠地站了起来。",
+        "pinyin": "Tā hē duō le, huànghuangyōuyōu de zhàn le qǐlái.",
+        "german": "Er hatte zu viel getrunken und stand schwankend auf."
+      },
+      {
+        "chinese": "树上挂着一个晃晃悠悠的灯笼。",
+        "pinyin": "Shù shàng guàzhe yí ge huànghuangyōuyōu de dēnglong.",
+        "german": "Am Baum hängt eine Laterne, die hin und her schaukelt."
       }
     ],
     "related": [
-      "o:摇摇晃晃"
+      "o:摇摇晃晃",
+      "o:颤悠悠",
+      "o:慢悠悠",
+      "o:跌跌撞撞"
     ],
-    "notes": "Ruhiger und gemütlicher als 摇摇晃晃.",
+    "notes": "Umgangssprachlich. Ruhiger als 摇摇晃晃 (yáoyáo-huànghuàng), das stärker das Wanken und die Unsicherheit betont.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "晃晃悠悠"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "晃晃悠悠 晃晃悠悠 [huang4 huang5 you1 you1]"
     }
@@ -10997,17 +12006,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Bewegung",
     "pattern": "AABB",
-    "meaning": "stolpernd; holprig (auch übertragen)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
-    "notes": "",
+    "meaning": "holprig, stolpernd; (übertragen) mit Schwierigkeiten, stockend",
+    "usage": "Beschreibt einen holprigen Weg und einen stolpernden Gang, übertragen auch stockendes Sprechen oder einen Verlauf mit vielen Hindernissen.",
+    "explanation": "磕磕绊绊 ist die AABB-Form aus 磕 „anstoßen“ und 绊 „stolpern, hängen bleiben“. Wörtlich beschreibt sie einen Weg, auf dem man ständig stolpert (山路磕磕绊绊的), oder einen mühsamen, unsicheren Gang. Übertragen steht sie für stockendes Sprechen oder Lesen (说得磕磕绊绊的) und für eine Entwicklung mit vielen Hindernissen. Die Form erscheint als Prädikat mit 的, adverbial mit 地 und als Komplement nach 得. Gesprochen klingt die zweite Silbe meist neutral (kēke).",
+    "examples": [
+      {
+        "chinese": "山路磕磕绊绊的，很不好走。",
+        "pinyin": "Shānlù kēkebànbàn de, hěn bù hǎo zǒu.",
+        "german": "Der Bergpfad ist holprig und schwer zu gehen."
+      },
+      {
+        "chinese": "老人拄着拐杖，磕磕绊绊地往前走。",
+        "pinyin": "Lǎorén zhǔzhe guǎizhàng, kēkebànbàn de wǎng qián zǒu.",
+        "german": "Auf einen Stock gestützt, stolpert die alte Person mühsam voran."
+      },
+      {
+        "chinese": "他的中文说得磕磕绊绊的，不过大家都听懂了。",
+        "pinyin": "Tā de Zhōngwén shuō de kēkebànbàn de, búguò dàjiā dōu tīngdǒng le.",
+        "german": "Sein Chinesisch war noch holprig, aber alle haben ihn verstanden."
+      }
+    ],
+    "related": [
+      "o:磕磕碰碰",
+      "o:跌跌撞撞",
+      "o:踉踉跄跄"
+    ],
+    "notes": "Ähnlich 磕磕碰碰 (kēkē-pèngpèng); dieses betont eher das Anstoßen und, übertragen, Reibereien zwischen Menschen.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "跌跌绊绊"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "磕磕絆絆 磕磕绊绊 [ke1 ke5 ban4 ban4]"
@@ -11023,25 +12052,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Bewegung",
     "pattern": "AABB",
-    "meaning": "sich stoßen und anecken, Reibereien haben",
-    "usage": "Beschreibt kleinere Konflikte oder Zusammenstöße im Alltag",
-    "explanation": "磕磕碰碰 kann physisch (sich anstoßen) oder übertragen (Meinungsverschiedenheiten, Reibereien) verwendet werden.",
+    "meaning": "sich ständig stoßen; (übertragen) kleine Reibereien",
+    "usage": "Beschreibt wiederholtes Anstoßen und kleine Unfälle im Alltag – bei Kindern, beim Umzug; übertragen kleine Konflikte in Familie und Partnerschaft.",
+    "explanation": "磕磕碰碰 ist die AABB-Form aus 磕 „anstoßen“ und 碰 (pèng) „stoßen, zusammenstoßen“. Wörtlich bedeutet es, dass man sich oder etwas immer wieder irgendwo anstößt; übertragen steht es für die kleinen Konflikte des Zusammenlebens. Die Form wird oft wie ein Substantiv oder Prädikat gebraucht: 难免磕磕碰碰 „es lässt sich nicht vermeiden, dass es mal kracht“, 哪有不磕磕碰碰的 „wo gibt es keine Reibereien“. Umgangssprachlich und gebräuchlich.",
     "examples": [
       {
-        "chinese": "生活中难免磕磕碰碰。",
-        "pinyin": "Shēnghuó zhōng nánmiǎn kēkē-pèngpèng.",
-        "german": "Im Leben sind Reibereien unvermeidlich."
+        "chinese": "搬家的时候，家具难免磕磕碰碰。",
+        "pinyin": "Bānjiā de shíhou, jiājù nánmiǎn kēkēpèngpèng.",
+        "german": "Beim Umzug bekommen die Möbel zwangsläufig ein paar Stöße ab."
+      },
+      {
+        "chinese": "孩子小时候磕磕碰碰是常事。",
+        "pinyin": "Háizi xiǎo shíhou kēkēpèngpèng shì chángshì.",
+        "german": "Wenn Kinder klein sind, stoßen sie sich ständig irgendwo – das ist ganz normal."
+      },
+      {
+        "chinese": "两口子过日子，哪有不磕磕碰碰的？",
+        "pinyin": "Liǎngkǒuzi guò rìzi, nǎ yǒu bù kēkēpèngpèng de?",
+        "german": "Welches Paar hat im Alltag schon keine Reibereien?"
       }
     ],
     "related": [
+      "o:磕磕绊绊",
       "o:跌跌撞撞"
     ],
-    "notes": "",
+    "notes": "Auch gesprochen kēke-pèngpèng mit neutraler zweiter Silbe.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "磕磕碰碰"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -11093,25 +12133,37 @@ window.ONOMATOPOEIA_DATA = [
     "category": "Bewegung",
     "pattern": "AABB",
     "meaning": "taumelnd, torkelnd",
-    "usage": "Beschreibt unsicheres, torkelndes Gehen",
-    "explanation": "踉踉跄跄 beschreibt jemanden, der beim Gehen immer wieder ins Stolpern gerät – wie ein Betrunkener oder ein verletzter Mensch.",
+    "usage": "Beschreibt einen unsicheren, taumelnden Gang – nach einem Stoß, bei Betrunkenen, Verletzten oder Erschöpften.",
+    "explanation": "踉踉跄跄 ist die AABB-Form von 踉跄 (liàngqiàng) „taumeln, torkeln“. Die Verdopplung macht das Bild lebendig: Jemand verliert immer wieder fast das Gleichgewicht. Die Form steht meist adverbial vor einem Bewegungsverb (踉踉跄跄地走, 踉踉跄跄地退了几步). Sie klingt eher schriftsprachlich und erzählend; im Alltag sagt man häufiger 跌跌撞撞 (diēdie-zhuàngzhuàng) oder 摇摇晃晃 (yáoyáo-huànghuàng). Die Schriftzeichen sind selten – gut auf die Lesung qiàng achten.",
     "examples": [
       {
-        "chinese": "他踉踉跄跄地走了几步就倒下了。",
-        "pinyin": "Tā liàngliàng-qiàngqiàng de zǒu le jǐ bù jiù dǎo xià le.",
-        "german": "Er torkelte ein paar Schritte und brach zusammen."
+        "chinese": "他被人推了一下，踉踉跄跄地退了几步。",
+        "pinyin": "Tā bèi rén tuī le yí xià, liàngliàngqiàngqiàng de tuì le jǐ bù.",
+        "german": "Jemand stieß ihn an, und er taumelte ein paar Schritte zurück."
+      },
+      {
+        "chinese": "那个醉汉踉踉跄跄地走出了酒吧。",
+        "pinyin": "Nàge zuìhàn liàngliàngqiàngqiàng de zǒu chū le jiǔbā.",
+        "german": "Der Betrunkene torkelte aus der Bar."
+      },
+      {
+        "chinese": "她踉踉跄跄地跑到门口，差点摔倒。",
+        "pinyin": "Tā liàngliàngqiàngqiàng de pǎo dào ménkǒu, chàdiǎn shuāidǎo.",
+        "german": "Sie taumelte zur Tür und wäre beinahe gestürzt."
       }
     ],
     "related": [
       "o:跌跌撞撞",
-      "o:摇摇晃晃"
+      "o:摇摇晃晃",
+      "o:磕磕绊绊",
+      "o:晃晃悠悠"
     ],
-    "notes": "Literarischer als 跌跌撞撞.",
+    "notes": "Eher literarisch als 跌跌撞撞 (diēdie-zhuàngzhuàng); in Erzählungen und Romanen häufig.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "踉踉跄跄"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -11126,25 +12178,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Bewegung",
     "pattern": "AABB",
-    "meaning": "trödeln, bummeln, sich Zeit lassen",
-    "usage": "Beschreibt übermäßiges Trödeln und Langsamkeit",
-    "explanation": "磨磨蹭蹭 beschreibt jemanden, der sich bei allem übertrieben viel Zeit lässt und nicht in die Gänge kommt.",
+    "meaning": "trödelnd, bummelnd; herumtrödeln",
+    "usage": "Beschreibt, dass jemand quälend langsam ist und nicht in die Gänge kommt – beim Anziehen, Aufstehen, Arbeiten; meist ungeduldig oder tadelnd.",
+    "explanation": "磨磨蹭蹭 ist die AABB-Form von 磨蹭 (móceng) „trödeln, herumbummeln“. Die Verdopplung verstärkt den Vorwurf: Jemand lässt sich unerträglich viel Zeit. Typisch sind Aufforderungen mit 别 (别磨磨蹭蹭的了), außerdem Prädikat mit 的 und adverbialer Gebrauch mit 地. Die Form ist umgangssprachlich und klingt ungeduldig, oft von Eltern zu Kindern.",
     "examples": [
       {
-        "chinese": "你别磨磨蹭蹭的，快走吧！",
-        "pinyin": "Nǐ bié mómó-cèngcèng de, kuài zǒu ba!",
-        "german": "Hör auf zu trödeln, los jetzt!"
+        "chinese": "你别磨磨蹭蹭的了，快走吧！",
+        "pinyin": "Nǐ bié mómócèngcèng de le, kuài zǒu ba!",
+        "german": "Trödel nicht so herum, jetzt komm schon!"
+      },
+      {
+        "chinese": "他早上起床总是磨磨蹭蹭的，经常迟到。",
+        "pinyin": "Tā zǎoshang qǐchuáng zǒngshì mómócèngcèng de, jīngcháng chídào.",
+        "german": "Er trödelt morgens beim Aufstehen und kommt oft zu spät."
+      },
+      {
+        "chinese": "孩子磨磨蹭蹭地写了一晚上作业。",
+        "pinyin": "Háizi mómócèngcèng de xiě le yì wǎnshang zuòyè.",
+        "german": "Das Kind hat den ganzen Abend an den Hausaufgaben herumgetrödelt."
       }
     ],
     "related": [
-      "o:拖拖拉拉"
+      "o:拖拖拉拉",
+      "o:急急忙忙",
+      "o:匆匆忙忙"
     ],
-    "notes": "",
+    "notes": "Ähnlich 拖拖拉拉 (tuōtuō-lālā); dieses betont eher das Aufschieben von Aufgaben, 磨磨蹭蹭 das langsame Tun im Moment. Gesprochen auch mómo-cèngceng mit neutralen Silben.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "磨磨蹭蹭"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "磨磨蹭蹭 磨磨蹭蹭 [mo2 mo2 ceng4 ceng4]"
     }
@@ -11159,23 +12223,33 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Bewegung",
     "pattern": "AABB",
-    "meaning": "heimlich, verstohlen, hinterhältig",
-    "usage": "Beschreibt heimliches, verstohlenes Handeln",
-    "explanation": "偷偷摸摸 beschreibt jemanden, der etwas heimlich und verstohlen tut – oft mit negativer Konnotation.",
+    "meaning": "heimlich, verstohlen; hintenherum (abwertend)",
+    "usage": "Beschreibt heimliches Tun, das andere nicht bemerken sollen – oft mit dem Beiklang, dass etwas nicht ganz in Ordnung ist.",
+    "explanation": "偷偷摸摸 erweitert 偷偷 (tōutōu) „heimlich“ um 摸 „tasten“ zur AABB-Form: Jemand schleicht und tastet sich verstohlen voran. Während 偷偷 neutral ist (偷偷地笑 „heimlich lachen“), klingt 偷偷摸摸 meist abwertend: Geheimniskrämerei, Hintergedanken, etwas Unerlaubtes. Die Form steht adverbial mit 地 (偷偷摸摸地看) oder als Prädikat mit 的, oft in der Aufforderung 别偷偷摸摸的.",
     "examples": [
       {
-        "chinese": "他偷偷摸摸地看了一眼。",
-        "pinyin": "Tā tōutōu-mōmō de kàn le yī yǎn.",
-        "german": "Er warf einen verstohlenen Blick."
+        "chinese": "他偷偷摸摸地看了一眼她的手机。",
+        "pinyin": "Tā tōutōumōmō de kàn le yì yǎn tā de shǒujī.",
+        "german": "Er warf verstohlen einen Blick auf ihr Handy."
+      },
+      {
+        "chinese": "有话就直说，别偷偷摸摸的。",
+        "pinyin": "Yǒu huà jiù zhí shuō, bié tōutōumōmō de.",
+        "german": "Wenn du etwas zu sagen hast, sag es offen – nicht so hintenherum."
+      },
+      {
+        "chinese": "两个人偷偷摸摸地谈了三年恋爱。",
+        "pinyin": "Liǎng ge rén tōutōumōmō de tán le sān nián liàn'ài.",
+        "german": "Die beiden hatten drei Jahre lang heimlich eine Beziehung."
       }
     ],
     "related": [],
-    "notes": "",
+    "notes": "Für neutrales oder liebevolles „heimlich“ genügt 偷偷 (tōutōu).",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "偷偷摸摸"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "偷偷摸摸 偷偷摸摸 [tou1 tou1 mo1 mo1]"
     }
@@ -11191,13 +12265,23 @@ window.ONOMATOPOEIA_DATA = [
     "category": "Bewegung",
     "pattern": "AABB",
     "meaning": "sich gegenseitig schubsen und drängeln",
-    "usage": "Beschreibt gegenseitiges Schubsen in einer Menge",
-    "explanation": "推推搡搡 beschreibt das Drängeln und Schubsen, typisch für überfüllte Orte oder eine aufgebrachte Menge.",
+    "usage": "Beschreibt Schubsen und Drängeln – in einer Menschenmenge, beim Einsteigen oder bei einem Streit, der handgreiflich zu werden droht.",
+    "explanation": "推推搡搡 ist die AABB-Form von 推搡 (tuīsǎng) „stoßen, schubsen“, aus 推 „schieben“ und 搡 „stoßen“. Die Verdopplung beschreibt wiederholtes, ungeordnetes Hin- und Herschubsen mehrerer Beteiligter. Die Form steht als Prädikat (allein oder mit 的), adverbial mit 地 und in Aufforderungen mit 别. Typische Situationen: Gedränge beim Einsteigen, Rangeleien zwischen Streitenden.",
     "examples": [
       {
-        "chinese": "人群推推搡搡地往前挤。",
-        "pinyin": "Rénqún tuītuī-sǎngsǎng de wǎng qián jǐ.",
-        "german": "Die Menge drängelte und schubste sich vorwärts."
+        "chinese": "上车的时候，大家推推搡搡的，很乱。",
+        "pinyin": "Shàng chē de shíhou, dàjiā tuītuīsǎngsǎng de, hěn luàn.",
+        "german": "Beim Einsteigen schubsten alle durcheinander – das reinste Chaos."
+      },
+      {
+        "chinese": "两个人推推搡搡，差点打起来。",
+        "pinyin": "Liǎng ge rén tuītuīsǎngsǎng, chàdiǎn dǎ qǐlái.",
+        "german": "Die beiden schubsten sich hin und her und hätten sich fast geprügelt."
+      },
+      {
+        "chinese": "别推推搡搡的，一个一个来！",
+        "pinyin": "Bié tuītuīsǎngsǎng de, yí ge yí ge lái!",
+        "german": "Nicht drängeln, schön der Reihe nach!"
       }
     ],
     "related": [],
@@ -11206,7 +12290,7 @@ window.ONOMATOPOEIA_DATA = [
     "legacyIds": [
       "推推搡搡"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "推推搡搡 推推搡搡 [tui1 tui1 sang3 sang3]"
     }
@@ -11221,23 +12305,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Bewegung",
     "pattern": "AABB",
-    "meaning": "trödeln, schleppend, saumselig",
-    "usage": "Beschreibt langsames, hinterherhinkendes Verhalten",
-    "explanation": "拖拖拉拉 verstärkt 拖拉 (trödeln, hinauszögern). Beschreibt jemanden, der alles unnötig in die Länge zieht.",
+    "meaning": "schleppend; aufschiebend, verschleppend",
+    "usage": "Beschreibt, dass jemand Aufgaben vor sich herschiebt oder schleppend erledigt, oder dass sich eine Sache unnötig in die Länge zieht.",
+    "explanation": "拖拖拉拉 ist die AABB-Form von 拖拉 (tuōlā) „schleppend, nachlässig; verschleppen“, aus 拖 „ziehen, hinauszögern“ und 拉 „ziehen“. Die Verdopplung verstärkt den Vorwurf mangelnder Effizienz. Typisch: 做事拖拖拉拉的 „alles verschleppen“, Aufforderungen mit 别, adverbial 拖拖拉拉地办了半年. Bezieht sich eher auf Arbeitsweise und Termine als auf langsame Bewegung.",
     "examples": [
       {
-        "chinese": "别拖拖拉拉的，快点！",
-        "pinyin": "Bié tuōtuō-lālā de, kuài diǎn!",
-        "german": "Hör auf zu trödeln, beeil dich!"
+        "chinese": "他做事总是拖拖拉拉的。",
+        "pinyin": "Tā zuò shì zǒngshì tuōtuōlālā de.",
+        "german": "Er schiebt alles auf die lange Bank."
+      },
+      {
+        "chinese": "别拖拖拉拉了，今天就把报告写完。",
+        "pinyin": "Bié tuōtuōlālā le, jīntiān jiù bǎ bàogào xiě wán.",
+        "german": "Schieb es nicht länger auf – schreib den Bericht heute fertig."
+      },
+      {
+        "chinese": "这件事拖拖拉拉地办了半年。",
+        "pinyin": "Zhè jiàn shì tuōtuōlālā de bàn le bàn nián.",
+        "german": "Die Sache hat sich ein halbes Jahr lang hingezogen."
       }
     ],
-    "related": [],
-    "notes": "",
+    "related": [
+      "o:磨磨蹭蹭"
+    ],
+    "notes": "Ähnlich 磨磨蹭蹭 (mómó-cèngcèng), das eher langsames Tun im Moment beschreibt. Nicht verwandt mit 稀稀拉拉 (xīxī-lālā) „spärlich“.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "拖拖拉拉"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "拖拖拉拉 拖拖拉拉 [tuo1 tuo1 la1 la1]"
     }
@@ -11438,22 +12534,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "ABB",
-    "meaning": "beschämt, mit eingezogenem Schwanz",
-    "usage": "Beschreibt beschämtes Davonschleichen nach einer Niederlage",
-    "explanation": "灰溜溜 beschreibt die beschämte Haltung nach einer Blamage oder Niederlage – das Gegenteil von stolz.",
+    "meaning": "kleinlaut, beschämt; (selten) trübgrau",
+    "usage": "Beschreibt die gedrückte, beschämte Haltung nach einer Niederlage, Blamage oder Zurechtweisung – typisch beim kleinlauten Abziehen.",
+    "explanation": "灰溜溜 ist eine ABB-Form aus 灰 „grau; entmutigt“ und dem Suffix 溜溜 (liūliū). Ursprünglich beschreibt sie eine trübe graue Farbe, heute meist die Stimmung: Jemand ist nach einer Niederlage oder Blamage niedergeschlagen und will sich unauffällig davonmachen („mit eingezogenem Schwanz“). Typisch adverbial vor Verben des Weggehens (灰溜溜地走了, 灰溜溜地回家), auch als Prädikat mit 的. Leicht spöttisch.",
     "examples": [
       {
-        "chinese": "他灰溜溜地走了。",
-        "pinyin": "Tā huīliūliū de zǒu le.",
-        "german": "Er schlich beschämt davon."
+        "chinese": "比赛输了，他们灰溜溜地回了家。",
+        "pinyin": "Bǐsài shū le, tāmen huīliūliū de huí le jiā.",
+        "german": "Nach der Niederlage zogen sie kleinlaut nach Hause ab."
+      },
+      {
+        "chinese": "被老师批评了一顿，他灰溜溜的，一句话也不说。",
+        "pinyin": "Bèi lǎoshī pīpíng le yí dùn, tā huīliūliū de, yí jù huà yě bù shuō.",
+        "german": "Nach der Standpauke der Lehrkraft war er ganz kleinlaut und sagte kein Wort."
+      },
+      {
+        "chinese": "谎话被拆穿以后，他只好灰溜溜地走了。",
+        "pinyin": "Huǎnghuà bèi chāichuān yǐhòu, tā zhǐhǎo huīliūliū de zǒu le.",
+        "german": "Als seine Lüge aufflog, blieb ihm nur, mit eingezogenem Schwanz abzuziehen."
       }
     ],
-    "related": [],
-    "notes": "Gegenteil von 大摇大摆.",
+    "related": [
+      "o:灰蒙蒙",
+      "o:酸溜溜",
+      "o:光溜溜"
+    ],
+    "notes": "Gegenstück: 大摇大摆 (dàyáo-dàbǎi) „großspurig, stolzierend“. Für graues, trübes Wetter ist 灰蒙蒙 (huīméngméng) üblicher.",
     "legacyIds": [
       "灰溜溜"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "灰溜溜 灰溜溜 [hui1 liu1 liu1]"
     }
@@ -11468,24 +12578,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "ABB",
-    "meaning": "benommen, schläfrig, dumpf im Kopf",
-    "usage": "Beschreibt Benommenheit, Schläfrigkeit, dumpfes Kopfgefühl",
-    "explanation": "昏沉沉 beschreibt einen benommenen, schläfrigen Zustand – z.B. bei Fieber, nach zu wenig Schlaf oder bei großer Hitze.",
+    "meaning": "benommen, dösig; (Himmel) trüb und düster",
+    "usage": "Beschreibt einen schweren, benommenen Kopf – bei Fieber, Müdigkeit, nach Medikamenten; seltener einen trüben, dämmrigen Himmel.",
+    "explanation": "昏沉沉 ist die ABB-Form von 昏沉 (hūnchén) „benommen; düster“. Die Verdopplung malt das Gefühl aus: Der Kopf ist schwer, man kann nicht klar denken. Typisch als Prädikat mit 的 (头昏沉沉的, 一整天都昏沉沉的), adverbial (昏沉沉地睡着了) oder als Attribut. Auf Licht und Wetter bezogen bedeutet es „dämmrig-trüb“ (天色昏沉沉的). Sehr gebräuchlich ist auch die AABB-Form 昏昏沉沉 (hūnhūn-chénchén).",
     "examples": [
       {
-        "chinese": "发烧后，他整天昏沉沉的。",
-        "pinyin": "Fāshāo hòu, tā zhěng tiān hūnchénchén de.",
-        "german": "Nach dem Fieber war er den ganzen Tag benommen."
+        "chinese": "我感冒了，头昏沉沉的。",
+        "pinyin": "Wǒ gǎnmào le, tóu hūnchénchén de.",
+        "german": "Ich bin erkältet, mein Kopf ist ganz benommen."
+      },
+      {
+        "chinese": "昨晚没睡好，今天一整天都昏沉沉的。",
+        "pinyin": "Zuówǎn méi shuì hǎo, jīntiān yì zhěng tiān dōu hūnchénchén de.",
+        "german": "Ich habe letzte Nacht schlecht geschlafen und bin heute den ganzen Tag wie benebelt."
+      },
+      {
+        "chinese": "吃了药以后，他昏沉沉地睡着了。",
+        "pinyin": "Chī le yào yǐhòu, tā hūnchénchén de shuìzháo le.",
+        "german": "Nachdem er die Medizin genommen hatte, schlief er benommen ein."
       }
     ],
     "related": [
-      "o:迷迷糊糊"
+      "o:迷迷糊糊",
+      "o:阴沉沉"
     ],
-    "notes": "",
+    "notes": "Auch 昏昏沉沉 (hūnhūn-chénchén) mit gleicher Bedeutung.",
     "legacyIds": [
       "昏沉沉"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -11598,24 +12719,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "ABB",
-    "meaning": "überglücklich, vor Freude hüpfend",
-    "usage": "Beschreibt ausgelassene, hüpfende Freude",
-    "explanation": "乐颠颠 beschreibt jemanden, der vor Freude so glücklich ist, dass er fast hüpft und torkelt.",
+    "meaning": "freudig erregt; vor Freude eilfertig",
+    "usage": "Beschreibt Freude, die sich in eifrigem Loslaufen oder Herbeieilen zeigt – beim Erhalt eines Geschenks, auf einen Ruf hin.",
+    "explanation": "乐颠颠 ist eine ABB-Form aus 乐 „froh“ und 颠颠 (diāndiān), das ein eiliges, hüpfendes Trippeln malt. Sie beschreibt sichtbare, etwas naive Freude, die sich in Bewegung zeigt. Typisch adverbial vor Bewegungsverben (乐颠颠地跑过来, 乐颠颠地去了). Je nach Zusammenhang klingt leichter Spott mit: jemand eilt allzu beflissen herbei. Umgangssprachlich, besonders im Norden.",
     "examples": [
       {
-        "chinese": "孩子拿到礼物，乐颠颠地跑走了。",
-        "pinyin": "Háizi nádào lǐwù, lèdiāndiān de pǎo zǒu le.",
-        "german": "Das Kind nahm das Geschenk und rannte freudestrahlend davon."
+        "chinese": "孩子拿到礼物，乐颠颠地跑回了房间。",
+        "pinyin": "Háizi nádào lǐwù, lèdiāndiān de pǎo huí le fángjiān.",
+        "german": "Das Kind bekam sein Geschenk und hüpfte vor Freude in sein Zimmer."
+      },
+      {
+        "chinese": "一听说放假，他乐颠颠地收拾行李去了。",
+        "pinyin": "Yì tīngshuō fàngjià, tā lèdiāndiān de shōushi xíngli qù le.",
+        "german": "Kaum hörte er von den Ferien, packte er freudestrahlend seine Sachen."
+      },
+      {
+        "chinese": "老板一叫，他就乐颠颠地跑过去了。",
+        "pinyin": "Lǎobǎn yí jiào, tā jiù lèdiāndiān de pǎo guòqù le.",
+        "german": "Ein Ruf von oben – und schon lief er beflissen hin."
       }
     ],
     "related": [
-      "o:喜滋滋"
+      "o:乐呵呵",
+      "o:乐滋滋",
+      "o:喜滋滋",
+      "o:美滋滋"
     ],
-    "notes": "",
+    "notes": "Umgangssprachlich; bezieht sich anders als 乐滋滋 (lèzīzī) auf sichtbare Freude in Bewegung.",
     "legacyIds": [
       "乐颠颠"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -11630,17 +12764,30 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "ABB",
-    "meaning": "fröhlich lachend, gut gelaunt",
-    "usage": "Beschreibt eine fröhliche, gut gelaunte Ausstrahlung",
-    "explanation": "乐呵呵 beschreibt jemanden, der ständig gut gelaunt ist und gerne lacht.",
+    "meaning": "vergnügt, gut gelaunt, schmunzelnd",
+    "usage": "Beschreibt eine heitere, gut gelaunte Art, oft mit Lächeln oder leisem Lachen – als Charakterzug oder in einer Situation.",
+    "explanation": "乐呵呵 ist eine ABB-Form aus 乐 „froh“ und dem Lachlaut 呵呵 (hēhē). Sie beschreibt eine freundliche, heitere Stimmung, die man am Gesicht und an der Stimme sieht. Häufig von gutmütigen, gelassenen Menschen, besonders von älteren. Typisch als Prädikat mit 的 (每天都乐呵呵的), adverbial vor Verben des Sprechens (乐呵呵地说) und als Attribut. Umgangssprachlich, sehr gebräuchlich.",
     "examples": [
       {
-        "chinese": "爷爷总是乐呵呵的。",
-        "pinyin": "Yéye zǒngshì lèhēhē de.",
-        "german": "Opa ist immer fröhlich und gut gelaunt."
+        "chinese": "爷爷每天都乐呵呵的。",
+        "pinyin": "Yéye měi tiān dōu lèhēhē de.",
+        "german": "Opa ist jeden Tag guter Dinge."
+      },
+      {
+        "chinese": "她乐呵呵地说：“没关系，下次再来！”",
+        "pinyin": "Tā lèhēhē de shuō: “Méi guānxi, xià cì zài lái!”",
+        "german": "Sie sagte gut gelaunt: „Macht nichts, nächstes Mal wieder!“"
+      },
+      {
+        "chinese": "门口坐着一个乐呵呵的老人。",
+        "pinyin": "Ménkǒu zuòzhe yí ge lèhēhē de lǎorén.",
+        "german": "Vor der Tür sitzt ein vergnügter alter Mensch."
       }
     ],
     "related": [
+      "o:呵呵",
+      "o:乐滋滋",
+      "o:乐颠颠",
       "o:喜滋滋",
       "o:高高兴兴"
     ],
@@ -11648,7 +12795,7 @@ window.ONOMATOPOEIA_DATA = [
     "legacyIds": [
       "乐呵呵"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "樂呵呵 乐呵呵 [le4 he1 he1]"
     }
@@ -11663,25 +12810,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "ABB",
-    "meaning": "still vergnügt, innerlich fröhlich",
-    "usage": "Beschreibt stille, innere Zufriedenheit und Vergnügtheit",
-    "explanation": "乐滋滋 beschreibt ein inneres Vergnügen, das man kaum verbergen kann – ähnlich wie 喜滋滋.",
+    "meaning": "still vergnügt, rundum zufrieden",
+    "usage": "Beschreibt eine stille, innere Freude und Zufriedenheit, die man kaum verbergen kann – über Lob, Geld, gutes Essen.",
+    "explanation": "乐滋滋 ist eine ABB-Form aus 乐 „froh“ und 滋滋 (zīzī), das ein angenehmes, süßes Gefühl malt. Sie beschreibt Freude, die eher nach innen geht: Man genießt still. Typisch sind 心里乐滋滋的 „sich insgeheim freuen“, adverbial 乐滋滋地数钱 und Prädikat mit 的. Nahe Synonyme sind 喜滋滋 (xǐzīzī) und 美滋滋 (měizīzī); dieses klingt oft auch selbstzufrieden. Umgangssprachlich.",
     "examples": [
       {
-        "chinese": "他乐滋滋地数着自己的压岁钱。",
-        "pinyin": "Tā lèzīzī de shǔzhe zìjǐ de yāsuìqián.",
+        "chinese": "他乐滋滋地数着压岁钱。",
+        "pinyin": "Tā lèzīzī de shǔzhe yāsuìqián.",
         "german": "Er zählte vergnügt sein Neujahrsgeld."
+      },
+      {
+        "chinese": "听到别人夸她的孩子，她心里乐滋滋的。",
+        "pinyin": "Tīngdào biérén kuā tā de háizi, tā xīnlǐ lèzīzī de.",
+        "german": "Als andere ihr Kind lobten, freute sie sich insgeheim."
+      },
+      {
+        "chinese": "他吃着妈妈做的饺子，乐滋滋的。",
+        "pinyin": "Tā chīzhe māma zuò de jiǎozi, lèzīzī de.",
+        "german": "Er isst die Jiaozi, die Mama gemacht hat, und ist rundum zufrieden."
       }
     ],
     "related": [
       "o:喜滋滋",
-      "o:乐呵呵"
+      "o:美滋滋",
+      "o:乐呵呵",
+      "o:乐颠颠"
     ],
-    "notes": "压岁钱 = Geldgeschenk zum Neujahr.",
+    "notes": "压岁钱 (yāsuìqián): Geldgeschenk an Kinder zum chinesischen Neujahr.",
     "legacyIds": [
       "乐滋滋"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "樂滋滋 乐滋滋 [le4 zi1 zi1]"
     }
@@ -11740,13 +12899,33 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "ABB",
-    "meaning": "wutentbrannt",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
+    "meaning": "wutentbrannt, zornig",
+    "usage": "Beschreibt jemanden, der voller Wut ist und das auch zeigt – meist beim wütenden Hereinstürmen, Weggehen oder Reden.",
+    "explanation": "气冲冲 ist eine ABB-Form aus 气 „Ärger, Wut“ und 冲冲 (chōngchōng), das ein heftiges Aufwallen und Losstürmen malt. Die Wut ist offen sichtbar und treibt jemanden zu raschen Bewegungen. Typisch adverbial vor Bewegungs- und Sprechverben (气冲冲地走进来, 气冲冲地说), auch als Attribut (气冲冲的样子). Vergleich: 气呼呼 (qìhūhū) betont das Schnauben, 气鼓鼓 (qìgǔgǔ) das beleidigte Schmollen; 兴冲冲 (xìngchōngchōng) ist die freudige Entsprechung.",
+    "examples": [
+      {
+        "chinese": "他气冲冲地走进办公室，把门一关。",
+        "pinyin": "Tā qìchōngchōng de zǒu jìn bàngōngshì, bǎ mén yì guān.",
+        "german": "Er stürmte wutentbrannt ins Büro und knallte die Tür zu."
+      },
+      {
+        "chinese": "她挂了电话，气冲冲地出去了。",
+        "pinyin": "Tā guà le diànhuà, qìchōngchōng de chūqù le.",
+        "german": "Sie legte auf und rauschte wütend hinaus."
+      },
+      {
+        "chinese": "看他气冲冲的样子，大家都不敢说话。",
+        "pinyin": "Kàn tā qìchōngchōng de yàngzi, dàjiā dōu bù gǎn shuōhuà.",
+        "german": "Er sah so zornig aus, dass sich niemand etwas zu sagen traute."
+      }
+    ],
+    "related": [
+      "o:气呼呼",
+      "o:气鼓鼓",
+      "o:兴冲冲"
+    ],
     "notes": "",
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "氣沖沖 气冲冲 [qi4 chong1 chong1]"
@@ -11763,23 +12942,34 @@ window.ONOMATOPOEIA_DATA = [
     "category": "Gefuehle",
     "pattern": "ABB",
     "meaning": "schüchtern, zaghaft",
-    "usage": "Beschreibt schüchterne, zaghafte Art – besonders bei Kindern",
-    "explanation": "怯生生 beschreibt ein schuchternes, zaghaftes Verhalten, besonders wenn jemand etwas Neues tut oder fremde Menschen trifft.",
+    "usage": "Beschreibt zaghaftes, scheues Verhalten, besonders gegenüber fremden Menschen oder in ungewohnter Umgebung – häufig bei Kindern.",
+    "explanation": "怯生生 ist die ABB-Form zu 怯生 (qièshēng) „scheu vor fremden Menschen sein, fremdeln“, aus 怯 „ängstlich“ und 生 „fremd“. Sie beschreibt eine zaghafte, unsichere Art: leise sprechen, zögernd fragen, sich nicht recht hineintrauen. Typisch adverbial vor Sprech- und Bewegungsverben (怯生生地问, 怯生生地站在门口), auch als Prädikat mit 的 und als Attribut (怯生生的眼神). Eher Erzähl- und Schriftsprache, aber auch gesprochen verständlich.",
     "examples": [
       {
-        "chinese": "小女孩怯生生地叫了声\"叔叔好\"。",
-        "pinyin": "Xiǎo nǚhái qièshēngshēng de jiào le shēng \"shūshu hǎo\".",
-        "german": "Das kleine Mädchen sagte schüchtern \"Hallo, Onkel\"."
+        "chinese": "小女孩怯生生地叫了一声“阿姨好”。",
+        "pinyin": "Xiǎo nǚhái qièshēngshēng de jiào le yì shēng “āyí hǎo”.",
+        "german": "Das kleine Mädchen sagte schüchtern: „Hallo, Tante.“"
+      },
+      {
+        "chinese": "新来的同学怯生生地站在门口。",
+        "pinyin": "Xīn lái de tóngxué qièshēngshēng de zhàn zài ménkǒu.",
+        "german": "Der Neuzugang in der Klasse stand zaghaft an der Tür."
+      },
+      {
+        "chinese": "她怯生生地问：“我可以进来吗？”",
+        "pinyin": "Tā qièshēngshēng de wèn: “Wǒ kěyǐ jìnlái ma?”",
+        "german": "Sie fragte zaghaft: „Darf ich reinkommen?“"
       }
     ],
     "related": [
-      "o:羞答答"
+      "o:羞答答",
+      "o:扭扭捏捏"
     ],
-    "notes": "",
+    "notes": "阿姨 (āyí) ist die übliche Anrede von Kindern für erwachsene Frauen.",
     "legacyIds": [
       "怯生生"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "怯生生 怯生生 [qie4 sheng1 sheng1]"
     }
@@ -11794,22 +12984,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "ABB",
-    "meaning": "aufgeblasen vor Wut, beleidigt schmollend",
-    "usage": "Beschreibt jemanden, der sichtbar wütend oder beleidigt ist",
-    "explanation": "气鼓鼓 beschreibt jemanden, der vor Wut oder Beleidigung die Backen aufbläst – oft bei Kindern.",
+    "meaning": "eingeschnappt, schmollend; vor Ärger aufgeplustert",
+    "usage": "Beschreibt sichtbaren, beleidigten Ärger – aufgeblasene Backen, Schmollen, Schweigen; häufig bei Kindern, aber auch bei Erwachsenen.",
+    "explanation": "气鼓鼓 ist eine ABB-Form aus 气 „Ärger“ und 鼓鼓 (gǔgǔ) „prall, aufgebläht“ (vgl. 圆鼓鼓 (yuángǔgǔ) „kugelrund“): Man ist so voller Ärger, dass man fast platzt und die Backen aufbläst. Gegenüber 气冲冲 (qìchōngchōng) ist der Ärger weniger stürmisch, eher beleidigt und trotzig. Typisch als Prädikat mit 的, adverbial (气鼓鼓地转过身去) und als Attribut (气鼓鼓的样子). Umgangssprachlich, oft mit einem Schmunzeln erzählt.",
     "examples": [
       {
         "chinese": "小女孩气鼓鼓地转过身去。",
         "pinyin": "Xiǎo nǚhái qìgǔgǔ de zhuǎn guò shēn qù.",
         "german": "Das kleine Mädchen drehte sich schmollend um."
+      },
+      {
+        "chinese": "他气鼓鼓的，一晚上没跟我说话。",
+        "pinyin": "Tā qìgǔgǔ de, yì wǎnshang méi gēn wǒ shuōhuà.",
+        "german": "Er war eingeschnappt und hat den ganzen Abend nicht mit mir geredet."
+      },
+      {
+        "chinese": "看她气鼓鼓的样子，我忍不住笑了。",
+        "pinyin": "Kàn tā qìgǔgǔ de yàngzi, wǒ rěn bú zhù xiào le.",
+        "german": "Als ich ihre beleidigte Miene sah, musste ich lachen."
       }
     ],
-    "related": [],
+    "related": [
+      "o:气冲冲",
+      "o:气呼呼",
+      "o:圆鼓鼓"
+    ],
     "notes": "",
     "legacyIds": [
       "气鼓鼓"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "氣鼓鼓 气鼓鼓 [qi4 gu3 gu3]"
     }
@@ -11824,24 +13028,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "ABB",
-    "meaning": "wütend schnaubend, erbost",
-    "usage": "Beschreibt jemanden, der wütend schnaubt",
-    "explanation": "气呼呼 beschreibt jemanden, der sichtbar wütend ist und vor Ärger schnaubt oder pustet.",
+    "meaning": "schnaubend vor Wut, verärgert",
+    "usage": "Beschreibt sichtbare Wut, bei der man heftig schnauft – beim wütenden Weggehen, Reden oder Schweigen.",
+    "explanation": "气呼呼 ist eine ABB-Form aus 气 „Ärger, Wut“ und 呼呼 (hūhū), das lautes Atmen und Schnauben nachahmt. Man hört und sieht den Ärger förmlich. Typisch adverbial vor Verben des Gehens und Sprechens (气呼呼地走了, 气呼呼地说) und als Prädikat mit 的 (他气呼呼的). Vergleich: 气冲冲 (qìchōngchōng) betont das wütende Losstürmen, 气鼓鼓 (qìgǔgǔ) das beleidigte Schmollen. Umgangssprachlich und sehr gebräuchlich.",
     "examples": [
       {
         "chinese": "他气呼呼地摔门走了。",
         "pinyin": "Tā qìhūhū de shuāi mén zǒu le.",
         "german": "Er knallte wütend die Tür zu und ging."
+      },
+      {
+        "chinese": "妹妹气呼呼地说：“我再也不跟你玩了！”",
+        "pinyin": "Mèimei qìhūhū de shuō: “Wǒ zài yě bù gēn nǐ wán le!”",
+        "german": "Die kleine Schwester schnaubte: „Ich spiel nie wieder mit dir!“"
+      },
+      {
+        "chinese": "他气呼呼的，半天说不出话来。",
+        "pinyin": "Tā qìhūhū de, bàntiān shuō bù chū huà lái.",
+        "german": "Er schnaubte vor Wut und brachte lange kein Wort heraus."
       }
     ],
     "related": [
-      "o:气鼓鼓"
+      "o:气冲冲",
+      "o:气鼓鼓",
+      "o:呼呼",
+      "o:呼哧"
     ],
     "notes": "",
     "legacyIds": [
       "气呼呼"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "氣呼呼 气呼呼 [qi4 hu1 hu1]"
     }
@@ -11902,13 +13119,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "ABB",
-    "meaning": "lachend, mit schallendem Lachen",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
+    "meaning": "laut lachend, mit herzhaftem Lachen",
+    "usage": "Beschreibt offenes, lautes und fröhliches Lachen – über einen Witz, bei guter Laune, auf Bildern lachender Figuren.",
+    "explanation": "笑哈哈 ist eine ABB-Form aus 笑 „lachen“ und dem Lachlaut 哈哈 (hāhā). Sie beschreibt hörbares, herzhaftes Lachen mit offenem Mund – lauter als 笑眯眯 (xiàomīmī, freundliches Lächeln mit schmalen Augen) und 笑嘻嘻 (xiàoxīxī, Grinsen). Typisch adverbial (笑哈哈地走进来), als Prädikat mit 的 (大家都笑哈哈的) und als Attribut (笑哈哈的胖娃娃). Umgangssprachlich; auch in Kinderliedern und Geschichten häufig.",
+    "examples": [
+      {
+        "chinese": "大家听了他的笑话，都笑哈哈的。",
+        "pinyin": "Dàjiā tīng le tā de xiàohua, dōu xiàohāhā de.",
+        "german": "Alle lachten herzhaft über seinen Witz."
+      },
+      {
+        "chinese": "他笑哈哈地走了进来。",
+        "pinyin": "Tā xiàohāhā de zǒu le jìnlái.",
+        "german": "Er kam laut lachend herein."
+      },
+      {
+        "chinese": "墙上贴着一张笑哈哈的胖娃娃年画。",
+        "pinyin": "Qiáng shàng tiēzhe yì zhāng xiàohāhā de pàng wáwa niánhuà.",
+        "german": "An der Wand klebt ein Neujahrsbild mit einem pausbäckigen, lachenden Baby."
+      }
+    ],
+    "related": [
+      "o:哈哈",
+      "o:笑嘻嘻",
+      "o:笑眯眯",
+      "o:笑盈盈",
+      "o:嘻嘻哈哈"
+    ],
     "notes": "",
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "笑哈哈 笑哈哈 [xiao4 ha1 ha1]"
@@ -11924,24 +13163,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "ABB",
-    "meaning": "mit einem freundlichen Lächeln",
-    "usage": "Beschreibt ein freundliches, sanftes Lächeln",
-    "explanation": "笑眯眯 beschreibt jemanden, der mit einem freundlichen, leicht verkniffenen Lächeln schaut – die Augen zu schmalen Schlitzen.",
+    "meaning": "freundlich lächelnd (mit schmalen Augen)",
+    "usage": "Beschreibt ein freundliches, warmes Lächeln, bei dem sich die Augen zu Schlitzen verengen – oft bei gutmütigen, älteren Menschen.",
+    "explanation": "笑眯眯 ist eine ABB-Form aus 笑 „lachen, lächeln“ und 眯眯 (mīmī) von 眯 „die Augen zusammenkneifen“. Sie beschreibt ein stilles, freundliches Lächeln, bei dem die Augen schmal werden – wohlwollend, zufrieden, manchmal auch verschmitzt. Typisch adverbial vor 看着, 说, 点头 (笑眯眯地看着), als Prädikat mit 的 und als Attribut (笑眯眯的样子). Sehr gebräuchlich, gesprochen wie geschrieben.",
     "examples": [
       {
-        "chinese": "老板笑眯眯地看着大家。",
-        "pinyin": "Lǎobǎn xiàomīmī de kànzhe dàjiā.",
-        "german": "Der Chef blickte alle mit einem freundlichen Lächeln an."
+        "chinese": "奶奶笑眯眯地看着孙子吃饭。",
+        "pinyin": "Nǎinai xiàomīmī de kànzhe sūnzi chī fàn.",
+        "german": "Oma sieht ihrem Enkel lächelnd beim Essen zu."
+      },
+      {
+        "chinese": "他总是笑眯眯的，从来不发脾气。",
+        "pinyin": "Tā zǒngshì xiàomīmī de, cónglái bù fā píqi.",
+        "german": "Er lächelt stets freundlich und wird nie ärgerlich."
+      },
+      {
+        "chinese": "一位笑眯眯的服务员给我们端来了茶。",
+        "pinyin": "Yí wèi xiàomīmī de fúwùyuán gěi wǒmen duān lái le chá.",
+        "german": "Eine freundlich lächelnde Bedienung brachte uns Tee."
       }
     ],
     "related": [
-      "o:嘻嘻"
+      "o:笑嘻嘻",
+      "o:笑盈盈",
+      "o:笑哈哈"
     ],
     "notes": "",
     "legacyIds": [
       "笑眯眯"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "笑眯眯 笑眯眯 [xiao4 mi1 mi1]"
     }
@@ -11956,25 +13207,38 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "ABB",
-    "meaning": "grinsend, lächelnd",
-    "usage": "Beschreibt ein dauerhaftes, breites Lächeln oder Grinsen",
-    "explanation": "笑嘻嘻 beschreibt jemanden, der ständig lächelt oder grinst – freundlich, aber manchmal auch etwas spitzbübisch.",
+    "meaning": "grinsend, verschmitzt lächelnd",
+    "usage": "Beschreibt ein breites, fröhliches Grinsen – freundlich, oft auch unbekümmert oder spitzbübisch, etwa wenn jemand sich nichts aus Kritik macht.",
+    "explanation": "笑嘻嘻 ist eine ABB-Form aus 笑 „lachen“ und dem Kicherlaut 嘻嘻 (xīxī). Sie beschreibt ein vergnügtes Grinsen mit sichtbaren Zähnen, lebhafter als 笑眯眯 (xiàomīmī) und leiser als 笑哈哈 (xiàohāhā). Je nach Zusammenhang wirkt es freundlich oder etwas frech-unbekümmert (被批评了还笑嘻嘻的). Typisch adverbial (笑嘻嘻地说, 笑嘻嘻地走过来) und als Prädikat mit 的. Umgangssprachlich.",
     "examples": [
       {
         "chinese": "他笑嘻嘻地走过来打招呼。",
         "pinyin": "Tā xiàoxīxī de zǒu guòlái dǎ zhāohu.",
-        "german": "Er kam grinsend herüber und begrüßte uns."
+        "german": "Er kam grinsend herüber und sagte Hallo."
+      },
+      {
+        "chinese": "被批评了，他还是笑嘻嘻的。",
+        "pinyin": "Bèi pīpíng le, tā háishi xiàoxīxī de.",
+        "german": "Obwohl er getadelt wurde, grinste er weiter."
+      },
+      {
+        "chinese": "孩子笑嘻嘻地说：“妈妈，我错了。”",
+        "pinyin": "Háizi xiàoxīxī de shuō: “Māma, wǒ cuò le.”",
+        "german": "Das Kind sagte grinsend: „Mama, tut mir leid.“"
       }
     ],
     "related": [
+      "o:嘻嘻",
       "o:笑眯眯",
-      "o:嘻嘻"
+      "o:笑哈哈",
+      "o:嘻嘻哈哈",
+      "o:笑盈盈"
     ],
     "notes": "",
     "legacyIds": [
       "笑嘻嘻"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "笑嘻嘻 笑嘻嘻 [xiao4 xi1 xi1]"
     }
@@ -11989,25 +13253,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "ABB",
-    "meaning": "sanft lächelnd, mit strahlendem Lächeln",
-    "usage": "Beschreibt ein sanftes, herzliches Lächeln",
-    "explanation": "笑盈盈 beschreibt ein warmes, strahlendes Lächeln, das das ganze Gesicht erhellt – einladend und herzlich.",
+    "meaning": "strahlend lächelnd, herzlich lächelnd",
+    "usage": "Beschreibt ein warmes, strahlendes Lächeln, das das ganze Gesicht erfüllt – beim Begrüßen, bei Festen, in freundlicher Zuwendung.",
+    "explanation": "笑盈盈 ist eine ABB-Form aus 笑 „lächeln“ und 盈盈 (yíngyíng) „voll, erfüllt; anmutig“. Das Gesicht ist gleichsam „voll von Lächeln“: herzlich, einladend, anmutig. Die Form klingt etwas gehobener und erzählender als 笑眯眯 (xiàomīmī) oder 笑嘻嘻 (xiàoxīxī) und ist in Geschichten, Berichten und Beschreibungen häufig. Typisch adverbial (笑盈盈地走过来, 笑盈盈地看着) und als Attribut (笑盈盈的脸).",
     "examples": [
       {
         "chinese": "她笑盈盈地走过来打招呼。",
         "pinyin": "Tā xiàoyíngyíng de zǒu guòlái dǎ zhāohu.",
-        "german": "Sie kam lächelnd herüber und begrüßte ihn."
+        "german": "Sie kam strahlend lächelnd herüber und grüßte."
+      },
+      {
+        "chinese": "新娘笑盈盈地向客人敬酒。",
+        "pinyin": "Xīnniáng xiàoyíngyíng de xiàng kèrén jìngjiǔ.",
+        "german": "Die Braut prostete den Gästen strahlend lächelnd zu."
+      },
+      {
+        "chinese": "妈妈笑盈盈地看着我，什么也没说。",
+        "pinyin": "Māma xiàoyíngyíng de kànzhe wǒ, shénme yě méi shuō.",
+        "german": "Mama sah mich herzlich lächelnd an und sagte nichts."
       }
     ],
     "related": [
       "o:笑眯眯",
-      "o:笑嘻嘻"
+      "o:笑嘻嘻",
+      "o:笑哈哈"
     ],
-    "notes": "盈盈 = voll, überfließend – das Lächeln ist voller Wärme.",
+    "notes": "Eher schriftsprachlich und erzählend; im Alltag sagt man häufiger 笑眯眯 (xiàomīmī).",
     "legacyIds": [
       "笑盈盈"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "笑盈盈 笑盈盈 [xiao4 ying2 ying2]"
     }
@@ -12022,24 +13297,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "ABB",
-    "meaning": "voller Begeisterung, eifrig",
-    "usage": "Beschreibt begeisterte Vorfreude und Tatendrang",
-    "explanation": "兴冲冲 beschreibt jemanden, der voller Begeisterung und Tatendrang ist – aufgeregt und motiviert.",
+    "meaning": "freudig erregt, voller Eifer",
+    "usage": "Beschreibt jemanden, der voller Freude und Erwartung irgendwohin eilt oder etwas angeht – oft in Erzählungen, auf die dann eine Enttäuschung folgt.",
+    "explanation": "兴冲冲 ist eine ABB-Form aus 兴 (xìng) „Freude, Lust“ und 冲冲 (chōngchōng), das ein Aufwallen und Losstürmen malt. Die Freude treibt jemanden voller Erwartung an. Typisch adverbial vor Bewegungsverben (兴冲冲地跑去, 兴冲冲地回家). In Erzählungen folgt oft eine Wendung mit 结果 (jiéguǒ) oder 却: Man kommt voller Vorfreude an – und wird enttäuscht. Das Gegenstück im Ärger ist 气冲冲 (qìchōngchōng).",
     "examples": [
       {
         "chinese": "他兴冲冲地跑去告诉大家好消息。",
-        "pinyin": "Tā xìngchōngchōng de pǎo qù gàosù dàjiā hǎo xiāoxī.",
-        "german": "Er rannte begeistert los, um allen die gute Nachricht zu erzählen."
+        "pinyin": "Tā xìngchōngchōng de pǎo qù gàosu dàjiā hǎo xiāoxi.",
+        "german": "Er rannte voller Freude los, um allen die gute Nachricht zu erzählen."
+      },
+      {
+        "chinese": "我们兴冲冲地去了那家饭馆，结果发现今天不开门。",
+        "pinyin": "Wǒmen xìngchōngchōng de qù le nà jiā fànguǎn, jiéguǒ fāxiàn jīntiān bù kāimén.",
+        "german": "Wir sind voller Vorfreude zu dem Restaurant gegangen – und dann hatte es heute geschlossen."
+      },
+      {
+        "chinese": "孩子兴冲冲地拿着奖状回了家。",
+        "pinyin": "Háizi xìngchōngchōng de názhe jiǎngzhuàng huí le jiā.",
+        "german": "Das Kind kam freudestrahlend mit der Urkunde nach Hause."
       }
     ],
     "related": [
-      "o:高高兴兴"
+      "o:气冲冲",
+      "o:高高兴兴",
+      "o:乐颠颠"
     ],
-    "notes": "",
+    "notes": "Lesung xìng (Freude, Lust) wie in 高兴 (gāoxìng), nicht xīng.",
     "legacyIds": [
       "兴冲冲"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "興沖沖 兴冲冲 [xing4 chong1 chong1]"
     }
@@ -12054,16 +13341,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "ABB",
-    "meaning": "nervös, unruhiges Herzklopfen",
-    "usage": "Beschreibt ein nervöses, unruhiges Gefühl in der Brust",
-    "explanation": "心慌慌 beschreibt ein unruhiges, nervöses Gefühl im Herzen – z.B. vor einer Prüfung oder wenn man etwas Wichtiges erwartet.",
-    "examples": [],
-    "related": [],
-    "notes": "",
+    "meaning": "nervös, unruhig; mulmig zumute",
+    "usage": "Beschreibt ein unruhiges, beklommenes Gefühl – vor einer Prüfung, beim Warten auf eine Nachricht, allein in der Dunkelheit.",
+    "explanation": "心慌慌 ist eine ABB-Form von 心慌 (xīnhuāng) „nervös, beunruhigt; Herzklopfen haben“, aus 心 „Herz“ und 慌 „aufgeregt, in Panik“. Die Verdopplung malt das flatternde, beklommene Gefühl aus. Die Form steht meist als Prädikat mit 的 (我心慌慌的) und ist umgangssprachlich, auch in Liedtexten beliebt. Sie ist in vielen Wörterbüchern nicht verzeichnet; im Standard üblicher sind 心慌 und 慌慌张张 (huānghuāng-zhāngzhāng).",
+    "examples": [
+      {
+        "chinese": "明天就要考试了，我心慌慌的。",
+        "pinyin": "Míngtiān jiù yào kǎoshì le, wǒ xīnhuānghuāng de.",
+        "german": "Morgen ist die Prüfung – ich bin ganz unruhig."
+      },
+      {
+        "chinese": "一个人走夜路，总觉得心慌慌的。",
+        "pinyin": "Yí ge rén zǒu yèlù, zǒng juéde xīnhuānghuāng de.",
+        "german": "Wenn ich nachts allein unterwegs bin, ist mir mulmig zumute."
+      },
+      {
+        "chinese": "他一直没回消息，我心慌慌的，不知道出了什么事。",
+        "pinyin": "Tā yìzhí méi huí xiāoxi, wǒ xīnhuānghuāng de, bù zhīdào chū le shénme shì.",
+        "german": "Er antwortet einfach nicht – ich bin ganz unruhig und weiß nicht, was los ist."
+      }
+    ],
+    "related": [
+      "o:慌慌张张",
+      "o:慌里慌张",
+      "o:安安心心"
+    ],
+    "notes": "Umgangssprachlich; 心慌 (xīnhuāng) kann auch körperliches Herzrasen bezeichnen.",
     "legacyIds": [
       "心慌慌"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -12078,24 +13385,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "ABB",
-    "meaning": "schüchtern, verschämt",
-    "usage": "Beschreibt schüchternes, verschämtes Verhalten",
-    "explanation": "羞答答 beschreibt eine schüchterne, verschämte Haltung – oft bei jungen Mädchen, die vor Verlegenheit erröten.",
+    "meaning": "verschämt, schüchtern-verlegen",
+    "usage": "Beschreibt verschämte Verlegenheit – den Blick senken, erröten, verlegen lächeln, etwa wenn es um Liebe oder Lob geht.",
+    "explanation": "羞答答 ist eine ABB-Form aus 羞 (xiū) „sich schämen, verlegen sein“ und dem Suffix 答答 (dādā). Sie beschreibt eine sanfte, verschämte Verlegenheit: Man senkt den Kopf, wird rot, lächelt verlegen. In Literatur und Liedern wird sie traditionell oft jungen Frauen zugeschrieben, heute auch – gern scherzhaft – allen anderen. Typisch adverbial (羞答答地低下了头), als Prädikat mit 的 und als Attribut (羞答答的样子). Auch als AABB-Form 羞羞答答 (xiūxiū-dādā).",
     "examples": [
       {
         "chinese": "她羞答答地低下了头。",
         "pinyin": "Tā xiūdādā de dī xià le tóu.",
         "german": "Sie senkte verschämt den Kopf."
+      },
+      {
+        "chinese": "新娘羞答答地笑了笑。",
+        "pinyin": "Xīnniáng xiūdādā de xiào le xiào.",
+        "german": "Die Braut lächelte verschämt."
+      },
+      {
+        "chinese": "说到喜欢的人，他羞答答的，脸都红了。",
+        "pinyin": "Shuō dào xǐhuan de rén, tā xiūdādā de, liǎn dōu hóng le.",
+        "german": "Als die Rede auf seinen Schwarm kam, wurde er ganz verlegen und rot."
       }
     ],
     "related": [
-      "o:扭扭捏捏"
+      "o:扭扭捏捏",
+      "o:怯生生"
     ],
-    "notes": "",
+    "notes": "Variante: 羞羞答答. Nicht verwandt mit dem Laut 滴答 (dīdā).",
     "legacyIds": [
       "羞答答"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "羞答答 羞答答 [xiu1 da1 da1]"
     }
@@ -12138,25 +13456,38 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "ABB",
-    "meaning": "freudig, innerlich glücklich",
-    "usage": "Beschreibt stille, innere Freude und Zufriedenheit",
-    "explanation": "喜滋滋 beschreibt ein inneres Glücksgefühl, das man kaum verbergen kann – ein stilles, zufriedenes Lächeln.",
+    "meaning": "hocherfreut, freudig zufrieden",
+    "usage": "Beschreibt eine innere, kaum verborgene Freude über etwas Gutes – ein Geschenk, einen Erfolg, eine gute Nachricht.",
+    "explanation": "喜滋滋 ist eine ABB-Form aus 喜 „Freude, sich freuen“ und 滋滋 (zīzī), das ein angenehm süßes Gefühl malt. Die Freude kommt von innen und zeigt sich in einem zufriedenen Gesicht. Typisch sind 心里喜滋滋的 „sich insgeheim freuen“, adverbialer Gebrauch (喜滋滋地看着, 喜滋滋地说) und Prädikat mit 的. Fast gleichbedeutend ist 乐滋滋 (lèzīzī); 美滋滋 (měizīzī) klingt oft auch selbstzufrieden. Umgangssprachlich und gebräuchlich.",
     "examples": [
       {
         "chinese": "她喜滋滋地看着新买的裙子。",
         "pinyin": "Tā xǐzīzī de kànzhe xīn mǎi de qúnzi.",
-        "german": "Sie betrachtete freudig ihr neu gekauftes Kleid."
+        "german": "Sie betrachtete voller Freude ihr neues Kleid."
+      },
+      {
+        "chinese": "听说自己考上了大学，他心里喜滋滋的。",
+        "pinyin": "Tīngshuō zìjǐ kǎoshàng le dàxué, tā xīnlǐ xǐzīzī de.",
+        "german": "Als er hörte, dass er einen Studienplatz bekommen hatte, war er insgeheim überglücklich."
+      },
+      {
+        "chinese": "妈妈喜滋滋地把好消息告诉了邻居。",
+        "pinyin": "Māma xǐzīzī de bǎ hǎo xiāoxi gàosu le línjū.",
+        "german": "Mama erzählte der Nachbarschaft freudestrahlend die gute Nachricht."
       }
     ],
     "related": [
-      "o:开开心心",
-      "o:乐呵呵"
+      "o:乐滋滋",
+      "o:美滋滋",
+      "o:乐呵呵",
+      "o:喜洋洋",
+      "o:开开心心"
     ],
     "notes": "",
     "legacyIds": [
       "喜滋滋"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "喜滋滋 喜滋滋 [xi3 zi1 zi1]"
     }
@@ -12171,22 +13502,35 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "ABB",
-    "meaning": "sehnsuchtig blickend, hilflos zuschauen",
-    "usage": "Beschreibt einen sehnsuchtsvollen oder hilflosen Blick",
-    "explanation": "眼巴巴 beschreibt, wie man sehnsuchtig oder hilflos zusehen muss, ohne etwas tun zu können.",
+    "meaning": "sehnsüchtig, voller Verlangen (blickend); hilflos zusehend",
+    "usage": "Beschreibt einen sehnsüchtigen, erwartungsvollen Blick oder ein ungeduldiges Warten auf etwas, das man sich wünscht – oft mit dem Gefühl, nichts tun zu können.",
+    "explanation": "眼巴巴 ist eine ABB-Form aus 眼 „Auge“ und 巴巴 (bābā) „begierig, inständig“. Sie beschreibt, wie jemand sehnsüchtig auf etwas schaut oder wartet: das Kind auf den Kuchen, die Familie auf die Rückkehr. Oft klingt Hilflosigkeit mit, weil man das Gewünschte nicht bekommt. Typisch adverbial vor 看着, 等着, 望着 (眼巴巴地等着). Vergleich: 眼睁睁 (yǎnzhēngzhēng) betont, dass man tatenlos zusehen muss, wie etwas Schlimmes passiert.",
     "examples": [
       {
         "chinese": "她眼巴巴地看着别人吃蛋糕。",
         "pinyin": "Tā yǎnbābā de kànzhe biérén chī dàngāo.",
-        "german": "Sie schaute sehnsuchtig zu, wie die anderen Kuchen aßen."
+        "german": "Sie sah sehnsüchtig zu, wie die anderen Kuchen aßen."
+      },
+      {
+        "chinese": "孩子们眼巴巴地等着妈妈回来。",
+        "pinyin": "Háizimen yǎnbābā de děngzhe māma huílái.",
+        "german": "Die Kinder warteten sehnsüchtig darauf, dass Mama zurückkommt."
+      },
+      {
+        "chinese": "小狗眼巴巴地看着我手里的肉。",
+        "pinyin": "Xiǎo gǒu yǎnbābā de kànzhe wǒ shǒu lǐ de ròu.",
+        "german": "Der kleine Hund starrte voller Verlangen auf das Fleisch in meiner Hand."
       }
     ],
-    "related": [],
+    "related": [
+      "o:眼睁睁",
+      "o:可怜巴巴"
+    ],
     "notes": "",
     "legacyIds": [
       "眼巴巴"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "眼巴巴 眼巴巴 [yan3 ba1 ba1]"
     }
@@ -12201,13 +13545,31 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "ABB",
-    "meaning": "mit offenen Augen (hilflos zusehen)",
-    "usage": "",
-    "explanation": "",
-    "examples": [],
-    "related": [],
+    "meaning": "mit offenen Augen (tatenlos, hilflos zusehen müssen)",
+    "usage": "Beschreibt, dass man etwas Unerwünschtes mit ansehen muss, ohne es verhindern zu können – oder es tatenlos geschehen lässt.",
+    "explanation": "眼睁睁 ist eine ABB-Form aus 眼 „Auge“ und 睁睁 (zhēngzhēng) von 睁 „die Augen öffnen“: Man sieht mit offenen Augen zu. Gemeint ist meist, dass man etwas Schlimmes oder Bedauerliches nicht verhindern kann oder nicht eingreift. Die Form steht meist adverbial, besonders vor 看着 (眼睁睁地看着), oft mit 只能 (zhǐ néng), 却 oder in der Verneinung 不能眼睁睁地看着 „nicht tatenlos zusehen können“. Vergleich: 眼巴巴 (yǎnbābā) betont Sehnsucht und Verlangen.",
+    "examples": [
+      {
+        "chinese": "他眼睁睁地看着房子被大火烧掉，却什么也做不了。",
+        "pinyin": "Tā yǎnzhēngzhēng de kànzhe fángzi bèi dàhuǒ shāodiào, què shénme yě zuò bù liǎo.",
+        "german": "Er musste mit ansehen, wie das Haus niederbrannte, und konnte nichts tun."
+      },
+      {
+        "chinese": "我们不能眼睁睁地看着他犯错。",
+        "pinyin": "Wǒmen bù néng yǎnzhēngzhēng de kànzhe tā fàn cuò.",
+        "german": "Wir können nicht tatenlos zusehen, wie er einen Fehler macht."
+      },
+      {
+        "chinese": "我眼睁睁地看着公交车开走了。",
+        "pinyin": "Wǒ yǎnzhēngzhēng de kànzhe gōngjiāochē kāizǒu le.",
+        "german": "Ich konnte nur zusehen, wie mir der Bus vor der Nase wegfuhr."
+      }
+    ],
+    "related": [
+      "o:眼巴巴"
+    ],
     "notes": "",
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "candidate": true,
     "evidence": {
       "cedict": "眼睜睜 眼睁睁 [yan3 zheng1 zheng1]"
@@ -12340,25 +13702,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "AABB",
-    "meaning": "verschwommen, wie im Traum, geistesabwesend",
-    "usage": "Beschreibt einen traumartigen, geistesabwesenden Zustand",
-    "explanation": "恍恍惚惚 verstärkt 恍惚 (geistesabwesend, benommen). Beschreibt den Zustand zwischen Traum und Realität.",
+    "meaning": "geistesabwesend, wie in Trance; verschwommen, undeutlich",
+    "usage": "Beschreibt einen benommenen, traumartigen Zustand, in dem man nicht ganz bei sich ist, oder eine nur verschwommene Wahrnehmung und Erinnerung.",
+    "explanation": "恍恍惚惚 ist die AABB-Form von 恍惚 (huǎnghū) „geistesabwesend, benommen; undeutlich“. Die Verdopplung verstärkt das Bild: Man ist wie in einem Traum, nimmt die Umgebung kaum wahr. Die Form steht als Prädikat mit 的 (他一直恍恍惚惚的), adverbial vor Verben (恍恍惚惚地走在街上) und vor 记得 (jìde), 看见 (kànjiàn), 听见 (tīngjiàn) für undeutliche Erinnerung oder Wahrnehmung (恍恍惚惚记得 „dunkel erinnern“). Eher erzählend und schriftsprachlich.",
     "examples": [
       {
         "chinese": "她恍恍惚惚地走在街上。",
-        "pinyin": "Tā huǎnghuǎng-hūhū de zǒu zài jiē shàng.",
-        "german": "Sie ging wie in Trance durch die Straße."
+        "pinyin": "Tā huǎnghuǎnghūhū de zǒu zài jiē shàng.",
+        "german": "Sie ging wie in Trance die Straße entlang."
+      },
+      {
+        "chinese": "我恍恍惚惚记得小时候来过这里。",
+        "pinyin": "Wǒ huǎnghuǎnghūhū jìde xiǎo shíhou lái guo zhèlǐ.",
+        "german": "Ich erinnere mich dunkel, als Kind schon einmal hier gewesen zu sein."
+      },
+      {
+        "chinese": "那几天他一直恍恍惚惚的，什么都记不住。",
+        "pinyin": "Nà jǐ tiān tā yìzhí huǎnghuǎnghūhū de, shénme dōu jì bú zhù.",
+        "german": "In diesen Tagen war er völlig neben sich und konnte sich nichts merken."
       }
     ],
     "related": [
-      "o:迷迷糊糊"
+      "o:迷迷糊糊",
+      "o:浑浑噩噩",
+      "o:昏沉沉"
     ],
     "notes": "",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "恍恍惚惚"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -12412,25 +13786,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "AABB",
-    "meaning": "dahinvegetierend, stumpfsinnig, ohne Lebensziel",
-    "usage": "Beschreibt ein zielloses, gedankenloses Dahinleben",
-    "explanation": "浑浑噩噩 beschreibt einen Zustand geistiger Trägheit und Ziellosigkeit, in dem man ohne Sinn und Verstand durch den Tag geht.",
+    "meaning": "stumpf und ziellos (dahinleben)",
+    "usage": "Beschreibt ein gedankenloses, zielloses Dahinleben ohne Plan und Antrieb – meist kritisch über die eigene oder fremde Lebensweise.",
+    "explanation": "浑浑噩噩 ist eine feste AABB-Wendung mit Chengyu-Charakter; die Silben 浑 „trüb“ und 噩 „dumpf“ treten in dieser Bedeutung kaum einzeln auf. Ursprünglich hatte sie eine positive Bedeutung („schlicht und ernsthaft“), heute ist sie meist abwertend: Jemand lebt stumpf und ohne Ziel vor sich hin. Typisch adverbial vor 过日子 (guò rìzi), 混日子 (hùn rìzi), 活着 (huózhe) und als Komplement nach 得 (过得浑浑噩噩的). Schriftsprachlich, aber auch im Gespräch verbreitet.",
     "examples": [
       {
         "chinese": "他不能再这样浑浑噩噩地过下去了。",
-        "pinyin": "Tā bù néng zài zhèyàng húnhún-èè de guò xiàqù le.",
-        "german": "Er kann nicht weiter so ziellos dahinvegetieren."
+        "pinyin": "Tā bù néng zài zhèyàng húnhún'è'è de guò xiàqù le.",
+        "german": "So ziellos kann er nicht weiter in den Tag hinein leben."
+      },
+      {
+        "chinese": "毕业以后那一年，我过得浑浑噩噩的。",
+        "pinyin": "Bìyè yǐhòu nà yì nián, wǒ guò de húnhún'è'è de.",
+        "german": "Das Jahr nach dem Abschluss habe ich einfach stumpf vor mich hin gelebt."
+      },
+      {
+        "chinese": "别浑浑噩噩地混日子了，找点事做吧。",
+        "pinyin": "Bié húnhún'è'è de hùn rìzi le, zhǎo diǎn shì zuò ba.",
+        "german": "Hör auf, nur in den Tag hineinzuleben – such dir etwas zu tun."
       }
     ],
     "related": [
+      "o:恍恍惚惚",
       "o:迷迷糊糊"
     ],
-    "notes": "",
+    "notes": "Der Apostroph trennt die Silben: húnhún-è’è.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "浑浑噩噩"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "渾渾噩噩 浑浑噩噩 [hun2 hun2 e4 e4]"
     }
@@ -12545,14 +13930,24 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "AABB",
-    "meaning": "schluchtend und weinend, weinerlich",
-    "usage": "Beschreibt anhaltendes Weinen und Schluchzen",
-    "explanation": "哭哭啼啼 beschreibt jemanden, der ständig weint oder sehr weinerlich ist. Hat oft eine leicht negative Konnotation.",
+    "meaning": "weinerlich, unaufhörlich weinend und schluchzend",
+    "usage": "Beschreibt anhaltendes Weinen und Jammern – bei Kindern, bei Kummer; oft ungeduldig oder abwertend über jemanden, der nicht aufhört zu weinen.",
+    "explanation": "哭哭啼啼 ist die AABB-Form aus 哭 „weinen“ und 啼 (tí) „weinen, schluchzen; (Vögel) rufen“. Sie beschreibt nicht ein einzelnes Weinen, sondern dauerndes Schluchzen und Jammern. Oft schwingt Ungeduld mit, besonders in Aufforderungen mit 别 (别哭哭啼啼的了). Die Form steht als Prädikat (mit 的 oder 了 + Zeitangabe) und adverbial vor Bewegungs- oder Sprechverben (哭哭啼啼地说). Gesprochen klingt die zweite Silbe meist neutral (kūku).",
     "examples": [
       {
-        "chinese": "别哭哭啼啼的了。",
-        "pinyin": "Bié kūkū-títí de le.",
-        "german": "Hör auf, ständig zu weinen."
+        "chinese": "别哭哭啼啼的了，有什么事慢慢说。",
+        "pinyin": "Bié kūkutítí de le, yǒu shénme shì mànmàn shuō.",
+        "german": "Hör auf zu heulen und erzähl in Ruhe, was los ist."
+      },
+      {
+        "chinese": "她哭哭啼啼地跑回了家。",
+        "pinyin": "Tā kūkutítí de pǎo huí le jiā.",
+        "german": "Sie lief schluchzend nach Hause."
+      },
+      {
+        "chinese": "那孩子哭哭啼啼了一个上午。",
+        "pinyin": "Nà háizi kūkutítí le yí ge shàngwǔ.",
+        "german": "Das Kind hat den ganzen Vormittag geweint und gequengelt."
       }
     ],
     "related": [
@@ -12563,7 +13958,7 @@ window.ONOMATOPOEIA_DATA = [
     "legacyIds": [
       "哭哭啼啼"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "哭哭啼啼 哭哭啼啼 [ku1 ku5 ti2 ti2]"
     }
@@ -12578,24 +13973,37 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "AABB",
-    "meaning": "verlegen, geziert, sich zierend",
-    "usage": "Beschreibt verlegenes, geziertes oder schüchternes Verhalten",
-    "explanation": "扭扭捏捏 beschreibt jemanden, der sich ziert, verlegen ist oder nicht direkt sagt, was er will.",
+    "meaning": "sich zierend, verlegen herumdrucksend; geziert",
+    "usage": "Beschreibt verlegenes, gekünsteltes Verhalten – sich zieren, herumdrucksen, nicht geradeheraus sagen, was man will; auch einen gezierten Gang.",
+    "explanation": "扭扭捏捏 ist die AABB-Form von 扭捏 (niǔnie) „sich zieren, verlegen tun“, aus 扭 „drehen, sich winden“ und 捏 „kneifen“. Sie beschreibt, wie jemand sich windet, statt direkt zu handeln oder zu sprechen – aus Verlegenheit oder Koketterie. Oft in Aufforderungen mit 别 (别扭扭捏捏的, 有话直说), als Prädikat mit 的 und adverbial. Auf den Gang bezogen: gezierte, wiegende Schritte. Meist leicht kritisch oder neckend.",
     "examples": [
       {
         "chinese": "别扭扭捏捏的，有话直说。",
-        "pinyin": "Bié niǔniǔ-niēniē de, yǒu huà zhí shuō.",
-        "german": "Zier dich nicht, sag direkt, was du sagen willst."
+        "pinyin": "Bié niǔniǔniēniē de, yǒu huà zhí shuō.",
+        "german": "Zier dich nicht so – wenn du etwas sagen willst, sag es direkt."
+      },
+      {
+        "chinese": "他扭扭捏捏地站在那儿，半天不说话。",
+        "pinyin": "Tā niǔniǔniēniē de zhàn zài nàr, bàntiān bù shuōhuà.",
+        "german": "Er stand verlegen da und brachte lange kein Wort heraus."
+      },
+      {
+        "chinese": "她走起路来扭扭捏捏的。",
+        "pinyin": "Tā zǒu qǐ lù lái niǔniǔniēniē de.",
+        "german": "Sie geht mit gezierten, wiegenden Schritten."
       }
     ],
-    "related": [],
-    "notes": "",
+    "related": [
+      "o:羞答答",
+      "o:怯生生"
+    ],
+    "notes": "In 别扭扭捏捏 gehört 别 zum Verbot „nicht …“; nicht mit dem Wort 别扭 (bièniu) „unbequem, verquer“ verwechseln.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "扭扭捏捏",
       "扭扭捏"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "扭扭捏捏 扭扭捏捏 [niu3 niu3 nie1 nie1]"
     }
@@ -12610,25 +14018,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "AABB",
-    "meaning": "erbärmlich, kläglich traurig",
-    "usage": "Beschreibt eine äußerst traurige und elende Lage",
-    "explanation": "凄凄惨惨 beschreibt äußerst traurige, elende Umstände. Berühmt aus Li Qingzhaos Gedicht zusammen mit 冷冷清清.",
+    "meaning": "trostlos und elend, jammervoll",
+    "usage": "Beschreibt eine traurige, elende Lage oder Stimmung – literarisch nach Li Qingzhao, heute auch umgangssprachlich, oft halb im Scherz.",
+    "explanation": "凄凄惨惨 ist die AABB-Form von 凄惨 (qīcǎn) „elend, jämmerlich“. Berühmt ist sie aus dem Ci-Gedicht 声声慢 (Shēng shēng màn) der Song-Dichterin 李清照 (Lǐ Qīngzhào), das mit einer Kette von Verdopplungen beginnt: 寻寻觅觅 (xúnxún-mìmì), 冷冷清清 (lěnglěng-qīngqīng), 凄凄惨惨戚戚 (qīqī-cǎncǎn-qīqī). Heute beschreibt die Form trostlose Umstände und Stimmungen, als Prädikat mit 的 oder als Komplement nach 得 (过得凄凄惨惨的). Im Alltag wird sie gern übertreibend oder halb im Scherz gebraucht.",
     "examples": [
       {
-        "chinese": "凄凄惨惨戚戚。",
-        "pinyin": "Qīqī-cǎncǎn qīqī.",
-        "german": "Traurig, erbärmlich, schmerzlich. (Li Qingzhao)"
+        "chinese": "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。",
+        "pinyin": "Xúnxúnmìmì, lěnglěngqīngqīng, qīqīcǎncǎn qīqī.",
+        "german": "Ich suche und suche, alles ist kalt und still, so trostlos, so elend, so traurig. (Li Qingzhao)"
+      },
+      {
+        "chinese": "他一个人过年，过得凄凄惨惨的。",
+        "pinyin": "Tā yí ge rén guònián, guò de qīqīcǎncǎn de.",
+        "german": "Er hat das Neujahrsfest allein verbracht – trostlos und elend."
+      },
+      {
+        "chinese": "这部电影的结局凄凄惨惨的，看得我直哭。",
+        "pinyin": "Zhè bù diànyǐng de jiéjú qīqīcǎncǎn de, kàn de wǒ zhí kū.",
+        "german": "Das Ende des Films ist so traurig, dass ich die ganze Zeit weinen musste."
       }
     ],
     "related": [
-      "o:冷冷清清"
+      "o:冷冷清清",
+      "o:惨兮兮"
     ],
-    "notes": "Aus dem berühmten Ci-Gedicht von Li Qingzhao (宋朝).",
+    "notes": "Literarischer Ursprung (Song-Dynastie); im Alltag oft übertreibend gebraucht.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "凄凄惨惨"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -12679,23 +14098,33 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "AABB",
-    "meaning": "ärmlich, unfähig, jämmerlich",
-    "usage": "Beschreibt ein klägliches, unfähiges Auftreten oder Ärgernisse, die man runterschluckt",
-    "explanation": "窝窝囊囊 beschreibt jemanden, der sich nicht durchsetzen kann oder ein jämmerliches Bild abgibt.",
+    "meaning": "kläglich, duckmäuserisch; frustrierend (ohne sich wehren zu können)",
+    "usage": "Beschreibt ein klägliches, unterwürfiges Verhalten, bei dem man sich alles gefallen lässt, oder eine frustrierende Lage, in der man Ärger herunterschlucken muss.",
+    "explanation": "窝窝囊囊 ist die AABB-Form von 窝囊 (wōnang) „frustriert, gedemütigt; unfähig, feige“. Sie beschreibt zwei Seiten: Jemand ist zu schwach oder ängstlich, um sich zu wehren, und lebt deshalb kläglich; oder man erlebt etwas Demütigendes und muss den Ärger herunterschlucken. Typisch als Prädikat mit 的, als Komplement nach 得 (活得窝窝囊囊的, 输得窝窝囊囊的) und adverbial (窝窝囊囊地活着). Umgangssprachlich und abwertend.",
     "examples": [
       {
-        "chinese": "别活得窝窝囊囊的。",
-        "pinyin": "Bié huó de wōwō-nāngnāng de.",
-        "german": "Lebe nicht so jämmerlich."
+        "chinese": "我不想再这样窝窝囊囊地活下去了。",
+        "pinyin": "Wǒ bù xiǎng zài zhèyàng wōwōnāngnāng de huó xiàqù le.",
+        "german": "Ich will nicht länger so kläglich alles hinnehmen."
+      },
+      {
+        "chinese": "他被人欺负了也不敢说，真是窝窝囊囊的。",
+        "pinyin": "Tā bèi rén qīfu le yě bù gǎn shuō, zhēn shì wōwōnāngnāng de.",
+        "german": "Er wird schikaniert und traut sich nichts zu sagen – wirklich jämmerlich."
+      },
+      {
+        "chinese": "这场球输得窝窝囊囊的。",
+        "pinyin": "Zhè chǎng qiú shū de wōwōnāngnāng de.",
+        "german": "Dieses Spiel ging kläglich verloren – einfach ärgerlich."
       }
     ],
     "related": [],
-    "notes": "Umgangssprachlich.",
+    "notes": "Umgangssprachlich. Vgl. das Schimpfwort 窝囊废 (wōnangfèi) „Waschlappen, Versager“. Gesprochen auch wōwo-nāngnang mit neutralen Silben.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "窝窝囊囊"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": null
     }
@@ -12746,23 +14175,36 @@ window.ONOMATOPOEIA_DATA = [
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "AABB",
-    "meaning": "zitternd vor Angst, voller Furcht",
-    "usage": "Beschreibt großen Respekt oder Angst mit Zittern",
-    "explanation": "战战兢兢 beschreibt das Zittern vor Angst oder großer Nervosität. Auch für äußerste Vorsicht und Ehrfurcht.",
+    "meaning": "zitternd vor Angst; mit äußerster Vorsicht",
+    "usage": "Beschreibt große Furcht und Beklommenheit, oft verbunden mit übergroßer Vorsicht – vor einer Autorität, bei einer riskanten Aufgabe, aus Angst vor Fehlern.",
+    "explanation": "战战兢兢 ist eine feste AABB-Wendung mit Chengyu-Charakter aus 战 (hier „zittern“, vgl. 颤) und 兢 „vorsichtig, besorgt“. Sie stammt aus dem 诗经 (Shījīng): 战战兢兢，如临深渊 (rú lín shēnyuān)，如履薄冰 (rú lǚ bóbīng) „zitternd und bebend, wie am Rand eines Abgrunds, wie auf dünnem Eis“. Heute beschreibt sie Angst und übergroße Vorsicht; typisch adverbial (战战兢兢地走进去), als Prädikat mit 的 und als Komplement nach 得. Schriftsprachlich, im Gespräch aber gut verständlich und verbreitet.",
     "examples": [
       {
         "chinese": "他战战兢兢地走进了老板的办公室。",
-        "pinyin": "Tā zhànzhàn-jīngjīng de zǒu jìn le lǎobǎn de bàngōngshì.",
-        "german": "Er betrat zitternd das Büro des Chefs."
+        "pinyin": "Tā zhànzhànjīngjīng de zǒu jìn le lǎobǎn de bàngōngshì.",
+        "german": "Mit zitternden Knien betrat er das Chefbüro."
+      },
+      {
+        "chinese": "第一次开车上路，我战战兢兢的，手心全是汗。",
+        "pinyin": "Dì yī cì kāichē shàng lù, wǒ zhànzhànjīngjīng de, shǒuxīn quán shì hàn.",
+        "german": "Bei meiner ersten Fahrt im Straßenverkehr hatte ich furchtbare Angst, meine Hände waren schweißnass."
+      },
+      {
+        "chinese": "这个工作他做得战战兢兢，生怕出一点儿错。",
+        "pinyin": "Zhège gōngzuò tā zuò de zhànzhànjīngjīng, shēngpà chū yìdiǎnr cuò.",
+        "german": "Er macht diese Arbeit mit äußerster Vorsicht, aus Angst vor dem kleinsten Fehler."
       }
     ],
-    "related": [],
-    "notes": "Stammt aus dem klassischen Chinesisch.",
+    "related": [
+      "o:哆哆嗦嗦",
+      "o:慌慌张张"
+    ],
+    "notes": "Aus dem Shijing. 兢 wird jīng gelesen – nicht kè, auch wenn das Zeichen zweimal 克 enthält.",
     "grammarId": "g:AA、AABB",
     "legacyIds": [
       "战战兢兢"
     ],
-    "meaningStatus": "draft",
+    "meaningStatus": "authored",
     "evidence": {
       "cedict": "戰戰兢兢 战战兢兢 [zhan4 zhan4 jing1 jing1]"
     }
