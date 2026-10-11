@@ -26,6 +26,7 @@
     hanziDetailsLoaded: false,
     renderBasicNumbers: renderBasicNumbers,
     speakCN: speakCN,
+    hasChineseVoice: hasChineseVoice,
     cancelSpeech: cancelSpeech
   };
 
@@ -882,6 +883,15 @@
       if (!genericMatch && (lang.indexOf('zh') === 0 || lang.indexOf('cmn') === 0)) genericMatch = voice;
     }
     return exactMatch || genericMatch || null;
+  }
+
+  // False only when the browser lists its voices and none is Mandarin; an empty list (voices not loaded yet) counts as available.
+  function hasChineseVoice() {
+    if (!('speechSynthesis' in window)) return false;
+    var synth = window.speechSynthesis;
+    ensureSpeechInitialized();
+    var voices = typeof synth.getVoices === 'function' ? synth.getVoices() : [];
+    return !voices || !voices.length || !!pickVoice(voices);
   }
 
   function cacheVoice() {

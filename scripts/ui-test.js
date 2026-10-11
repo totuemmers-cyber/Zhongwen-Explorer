@@ -287,6 +287,13 @@ async function run() {
   delete w.speechSynthesis;
   selectType('listening');
   assert(d.querySelector('.quiz-no-data').textContent.includes('Sprachausgabe'), 'Missing speech synthesis not explained');
+  // Voices listed but none Mandarin: a German voice must not read the Chinese.
+  w.speechSynthesis = Object.assign({}, synth, { getVoices: () => [{ lang: 'de-DE', name: 'Hedda' }] });
+  selectType('listening');
+  assert(d.querySelector('.quiz-no-data'), 'Listening offered without a Chinese voice');
+  w.speechSynthesis = Object.assign({}, synth, { getVoices: () => [{ lang: 'de-DE', name: 'Hedda' }, { lang: 'zh-CN', name: 'Huihui' }] });
+  selectType('listening');
+  assert(!d.querySelector('.quiz-no-data'), 'Listening missing with a Chinese voice');
   w.speechSynthesis = synth;
 
   // Pinyin eingeben: tone marks and tone numbers, Enter submits (not during IME composition), coloured answer.

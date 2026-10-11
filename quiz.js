@@ -64,7 +64,8 @@
   function levelClass(level) { return String(level).toLowerCase(); }
 
   function speechAvailable() {
-    return !!(window.speechSynthesis && typeof window.SpeechSynthesisUtterance === 'function' && window.app && typeof window.app.speakCN === 'function');
+    return !!(window.speechSynthesis && typeof window.SpeechSynthesisUtterance === 'function' && window.app && typeof window.app.speakCN === 'function' &&
+      (typeof window.app.hasChineseVoice !== 'function' || window.app.hasChineseVoice()));
   }
   function typeAvailable(typeId) { var t = typeInfo(typeId); return !!t && (!t.speech || speechAvailable()); }
 
@@ -1685,7 +1686,7 @@
       groups[grp].forEach(function (t) {
         var opt = document.createElement('option');
         opt.value = t.id;
-        opt.textContent = t.icon + ' ' + t.label + (typeAvailable(t.id) ? '' : ' (ohne Sprachausgabe nicht verfügbar)');
+        opt.textContent = t.icon + ' ' + t.label + (typeAvailable(t.id) ? '' : ' (ohne chinesische Sprachausgabe nicht verfügbar)');
         if (t.id === browseState.currentType) opt.selected = true;
         optgroup.appendChild(opt);
       });
@@ -1766,7 +1767,7 @@
       area.innerHTML = '';
       area.appendChild(el('div', 'quiz-no-data', typeAvailable(browseState.currentType)
         ? 'Nicht genügend Daten für diesen Fragetyp und dieses Level verfügbar.'
-        : 'Dieser Fragetyp braucht die Sprachausgabe des Browsers, die hier nicht verfügbar ist. Im Probetest wird er übersprungen.'));
+        : 'Dieser Fragetyp braucht eine chinesische Stimme in der Sprachausgabe des Browsers, die hier nicht verfügbar ist. Im Probetest wird er übersprungen.'));
       if (revealBtn) revealBtn.classList.add('hidden');
       if (nextBtn) nextBtn.classList.add('hidden');
       return;
@@ -1934,7 +1935,7 @@
       'Zählwörtern und Grammatik. Jeden Hörtext kannst du höchstens zweimal anhören. Jede Sektion hat ein eigenes Zeitlimit; ' +
       'am Ende siehst du eine Gesamtpunktzahl. Probetest – keine Bestehensprognose.'));
     if (!speechAvailable()) {
-      var notice = el('p', 'quiz-notice', SKIPPED_NOTICE + '. Dein Browser bietet keine Sprachausgabe an, deshalb enthält der Probetest nur die übrigen Sektionen.');
+      var notice = el('p', 'quiz-notice', SKIPPED_NOTICE + '. Dein Browser bietet keine chinesische Stimme an, deshalb enthält der Probetest nur die übrigen Sektionen.');
       notice.setAttribute('role', 'note');
       setup.appendChild(notice);
     }

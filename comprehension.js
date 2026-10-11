@@ -152,8 +152,8 @@
   }
   function browserVoice(article, u, markHint) {
     article.appendChild(el('p', 'Vorläufige Browser-Stimme · Die Aufnahme folgt. Die Aussprache hängt von deinem Browser ab.', 'comprehension-meta comprehension-voice'));
-    if (!('speechSynthesis' in window) || !window.app.speakCN) {
-      article.appendChild(el('p', 'Dein Browser bietet keine Sprachausgabe an. Nutze das Transkript.', 'route-message'));
+    if (!('speechSynthesis' in window) || !window.app.speakCN || (window.app.hasChineseVoice && !window.app.hasChineseVoice())) {
+      article.appendChild(el('p', 'Dein Browser bietet keine chinesische Stimme an. Nutze das Transkript.', 'route-message'));
       return;
     }
     var controls = el('div', null, 'comprehension-supports'), rate = 1;
