@@ -247,6 +247,90 @@ async function run() {
   w.app.switchTab('quiz');
   await delay(30);
   assert.equal(d.querySelector('.quiz-prompt-main'), shownPrompt, 'Practice was reset by a tab switch');
+  const selectType = id => {
+    type.value = id; type.dispatchEvent(new w.Event('change', { bubbles: true }));
+    return w.QuizModule.audit.currentQuestion();
+  };
+  const reveal = () => { d.activeElement.blur(); assert(key(w, d.body, 'Enter').defaultPrevented, 'Enter did not reveal'); return d.querySelector('.quiz-feedback').textContent; };
+  const nextQuestion = () => { activate(w, d.getElementById('quiz-next-btn')); return w.QuizModule.audit.currentQuestion(); };
+  d.querySelector('.quiz-level-pill[data-level="HSK1"]').click();
+
+  // Welcher Ton?: four spellings that differ only in tones, the vocabulary pinyin is right.
+  let q = selectType('toneRecognition');
+  const toneOptions = Array.from(d.querySelectorAll('.quiz-choice-text'), t => t.textContent);
+  assert.equal(toneOptions.length, 4);
+  assert.equal(new Set(toneOptions.map(o => w.Pinyin.fold(o))).size, 1, 'Tone options differ in more than tones');
+  assert(w.app.sections.vocab.allItems.some(v => v.word === q.promptMain && v.pinyin === q.choices[q.correctIndex]), 'Tone answer is not the vocabulary pinyin');
+  assert.equal(d.querySelector('.quiz-prompt-main').getAttribute('lang'), 'zh-CN');
+  activate(w, d.querySelectorAll('.quiz-choice-btn')[q.correctIndex]);
+  assert(reveal().startsWith('Richtig.'));
+
+  // Was hörst du?: plays the word once when shown, Anhören repeats it, the word itself is not shown.
+  const spoken = [];
+  w.speechSynthesis.speak = utterance => spoken.push(utterance.text);
+  q = selectType('listening');
+  await delay(150);
+  assert.deepEqual(spoken, [q.audio], 'Listening question did not play its word once');
+  const listen = d.querySelector('.quiz-listen-btn');
+  assert.equal(listen.textContent, 'Anhören');
+  listen.click();
+  await delay(150);
+  assert.deepEqual(spoken, [q.audio, q.audio], 'Anhören did not repeat the word');
+  assert(!d.querySelector('.quiz-prompt-main'), 'Listening question shows the word');
+  assert.equal(d.querySelectorAll('.quiz-choice-btn').length, 4);
+  assert.equal(q.choices[q.correctIndex], q.audio);
+  activate(w, d.querySelectorAll('.quiz-choice-btn')[(q.correctIndex + 1) % 4]);
+  assert(reveal().startsWith('Nicht richtig.'));
+  assert(d.querySelector('.quiz-explanation').textContent.includes(q.meta.pinyin), 'Listening explanation without pinyin');
+  // Without speech synthesis the type says so instead of asking.
+  const synth = w.speechSynthesis;
+  delete w.speechSynthesis;
+  selectType('listening');
+  assert(d.querySelector('.quiz-no-data').textContent.includes('Sprachausgabe'), 'Missing speech synthesis not explained');
+  w.speechSynthesis = synth;
+
+  // Pinyin eingeben: tone marks and tone numbers, Enter submits (not during IME composition), coloured answer.
+  q = selectType('pinyinTyping');
+  await delay(10);
+  let input = d.getElementById('quiz-pinyin-input');
+  assert.equal(d.activeElement, input, 'Pinyin field not focused');
+  assert.equal(input.getAttribute('lang'), 'en');
+  assert.equal(input.getAttribute('autocapitalize'), 'off');
+  assert.equal(d.querySelector('label[for="quiz-pinyin-input"]').textContent.includes('Tonzahlen'), true);
+  input.value = q.answer;
+  assert(!key(w, input, 'Enter', { isComposing: true }).defaultPrevented, 'Enter during composition submitted');
+  assert(!input.disabled);
+  assert(key(w, input, 'Enter').defaultPrevented);
+  let feedback2 = d.querySelector('.quiz-feedback');
+  assert(feedback2.textContent.startsWith('Richtig.'), 'Tone-mark answer rejected: ' + q.answer);
+  assert(feedback2.querySelector('.quiz-pinyin-answer [class^="tone-"]'), 'Answer pinyin not coloured by tone');
+  assert(input.disabled);
+  assert.equal(d.activeElement.id, 'quiz-next-btn');
+  q = nextQuestion();
+  input = d.getElementById('quiz-pinyin-input');
+  input.value = w.Pinyin.toNumeric(q.answer, q.meta.word);
+  d.querySelector('.quiz-btn-check').click();
+  assert(d.querySelector('.quiz-feedback').textContent.startsWith('Richtig.'), 'Tone-number answer rejected: ' + input.value);
+  do { q = nextQuestion(); } while (!/[1-4]/.test(w.Pinyin.toNumeric(q.answer, q.meta.word)));
+  input = d.getElementById('quiz-pinyin-input');
+  const toneless = w.Pinyin.toNumeric(q.answer, q.meta.word).replace(/\d/g, '');
+  input.value = toneless;
+  key(w, input, 'Enter');
+  feedback2 = d.querySelector('.quiz-feedback').textContent;
+  assert(feedback2.startsWith('Nicht richtig.') && feedback2.includes('Deine Eingabe: ' + toneless), 'Toneless answer accepted');
+  nextQuestion();
+  assert.equal(reveal().startsWith('Aufgelöst.'), true, 'Empty field was not just revealed');
+
+  // Zählwort einsetzen: number + blank + noun, a listed classifier is right, 个 is never offered.
+  q = selectType('measureWord');
+  assert(/^[一两三] ＿＿＿ \S+$/.test(d.querySelector('.quiz-prompt-main').textContent), 'Measure-word prompt format');
+  const noun = w.app.sections.vocab.allItems.find(v => v.word === q.meta.word && v.measureWords);
+  assert(noun.measureWords.some(m => m.word === q.choices[q.correctIndex]), 'Asked classifier not listed for the noun');
+  assert(!q.choices.includes('个'));
+  activate(w, d.querySelectorAll('.quiz-choice-btn')[q.correctIndex]);
+  assert(reveal().startsWith('Richtig.'));
+  assert(d.querySelector('.quiz-explanation').textContent.includes('Passende Zählwörter'));
+
   // HSK 7–9 and Zusatz practice work for every question type.
   for (const level of ['HSK7-9', 'Zusatz']) {
     const pill = d.querySelector('.quiz-level-pill[data-level="' + level + '"]');
@@ -254,7 +338,8 @@ async function run() {
     assert.equal(pill.getAttribute('aria-pressed'), 'true');
     for (const option of type.options) {
       type.value = option.value; type.dispatchEvent(new w.Event('change', { bubbles: true }));
-      assert.equal(d.querySelectorAll('.quiz-choice-btn').length, 4, level + ' ' + option.value);
+      if (option.value === 'pinyinTyping') assert(d.getElementById('quiz-pinyin-input'), level + ' pinyinTyping');
+      else assert.equal(d.querySelectorAll('.quiz-choice-btn').length, 4, level + ' ' + option.value);
       assert.equal(d.querySelector('.quiz-level-badge').textContent, level === 'HSK7-9' ? 'HSK 7–9' : 'Zusatz');
     }
   }
@@ -320,7 +405,7 @@ async function run() {
   assert(d.querySelectorAll('#pinyin-content .kana-section').length >= 6, 'Pinyin reference incomplete');
   await finish(f);
 
-  console.log('UI regressions passed: deep links (incl. legacy ids), invalid routes, modal focus, history, related entries, lessons, session restore, bookmark sync, quiz practice (keyboard guards, focus, kept state, HSK 7–9/Zusatz), mock exam (level → start, manual advance, late answers, exit guard), keyboard tabs.');
+  console.log('UI regressions passed: deep links (incl. legacy ids), invalid routes, modal focus, history, related entries, lessons, session restore, bookmark sync, quiz practice (keyboard guards, focus, kept state, tones, listening with and without speech, typed pinyin, measure words, HSK 7–9/Zusatz), mock exam (level → start, manual advance, late answers, exit guard), keyboard tabs.');
 }
 
 run().catch(error => { console.error(error); process.exitCode = 1; });

@@ -235,16 +235,25 @@ async function run() {
     d.getElementById('quiz-start-test').click();
     let answered = 0, correct = 0;
     const asked = new Set();
+    let typed = 0;
     while (!d.querySelector('.quiz-results')) {
       const choice = d.querySelector('.quiz-choice-btn:not([disabled])');
-      if (choice) {
-        choice.click();
+      const input = d.querySelector('.quiz-pinyin-input:not([disabled])');
+      if (choice || input) {
+        // Typed questions get the right pinyin (as tone numbers) every other time.
+        if (input) {
+          const word = d.querySelector('.quiz-prompt-main').textContent, meaning = d.querySelector('.quiz-prompt-sub').textContent;
+          const entry = vocab.allItems.find(v => v.word === word && v.meaning === meaning);
+          input.value = typed++ % 2 ? 'xx' : w.Pinyin.toNumeric(entry.pinyin, word);
+        }
+        (choice || d.querySelector('.quiz-btn-check')).click();
+        if (input && typed % 2) assert(d.querySelector('.quiz-feedback').textContent.startsWith('Richtig.'), 'Typed exam answer not accepted: ' + input.value);
         const key = ['.quiz-type-badge', '.quiz-prompt-main', '.quiz-prompt-sub', '.quiz-choice-btn.correct .quiz-choice-text']
           .map(selector => (d.querySelector(selector) || {}).textContent || '').join('|');
         assert(!asked.has(key), 'Mock exam repeated a question: ' + key);
         asked.add(key);
         answered++;
-        if (choice.classList.contains('correct')) correct++;
+        if (choice ? choice.classList.contains('correct') : d.querySelector('.quiz-feedback').textContent.startsWith('Richtig.')) correct++;
         d.getElementById('quiz-test-next-btn').click();
       } else {
         assert(d.querySelector('.quiz-interstitial'), 'Neither a question nor a section summary is shown');
@@ -253,6 +262,7 @@ async function run() {
       assert(answered <= 60, 'Mock exam did not finish');
     }
     assert.strictEqual(answered, 60, 'HSK 1 mock exam must ask 60 questions');
+    assert(typed > 0, 'HSK 1 mock exam without typed pinyin questions');
     const result = d.querySelector('.quiz-results');
     assert.strictEqual(result.querySelector('.overall-score').textContent, correct + ' / 60 (' + Math.round(correct / 60 * 100) + ' %)');
     assert.strictEqual(result.querySelector('.overall-note').textContent, 'Probetest – keine Bestehensprognose');
@@ -266,7 +276,7 @@ async function run() {
     assert(!w.QuizModule.isTestActive());
 
     assert.strictEqual(fail(), '');
-    console.log('Smoke test passed: all tabs, every section detail, related entries, examples, measure-word tables, pinyin search, tone colouring, HSK 1 mock exam.');
+    console.log('Smoke test passed: all tabs, every section detail, related entries, examples, measure-word tables, pinyin search, tone colouring, HSK 1 mock exam (incl. typed pinyin).');
   } finally {
     // Let in-flight section loads settle so their callbacks do not run against a closed window.
     await Promise.all(Object.values(w.app ? w.app.sections : {}).map(s => s._loadPromise).filter(Boolean)).catch(() => {});

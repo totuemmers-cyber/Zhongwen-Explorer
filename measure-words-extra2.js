@@ -9,7 +9,7 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "pinyin": "juàn",
     "meaning": "Band, Rolle (Schriftrolle)",
     "category": "Literatur",
-    "usage": "Fuer Baende eines Werkes, Schriftrollen oder aufgerollte Materialien",
+    "usage": "Für Bände eines Werkes, Schriftrollen oder aufgerollte Materialien",
     "questionWord": "几卷",
     "table": [
       { "number": "一", "pinyin": "yī juàn", "chinese": "一卷" },
@@ -25,17 +25,17 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "这套书一共有五卷。", "pinyin": "zhè tào shū yīgòng yǒu wǔ juàn.", "german": "Dieses Buchset hat insgesamt fuenf Baende." },
+      { "chinese": "这套书一共有五卷。", "pinyin": "zhè tào shū yīgòng yǒu wǔ juàn.", "german": "Dieses Buchset hat insgesamt fünf Bände." },
       { "chinese": "一卷卫生纸", "pinyin": "yī juàn wèishēngzhǐ", "german": "eine Rolle Toilettenpapier" }
     ],
-    "notes": "Wird sowohl fuer Baende literarischer Werke als auch fuer aufgerollte Materialien (Papier, Stoff) verwendet."
+    "notes": "Wird sowohl für Bände literarischer Werke als auch für aufgerollte Materialien (Papier, Stoff) verwendet."
   },
   {
     "classifier": "册",
     "pinyin": "cè",
     "meaning": "Band, Heft, Exemplar",
     "category": "Literatur",
-    "usage": "Fuer gebundene Buecher, Hefte und Exemplare in formellen Kontexten",
+    "usage": "Für gebundene Bücher, Hefte und Exemplare in formellen Kontexten",
     "questionWord": "几册",
     "table": [
       { "number": "一", "pinyin": "yī cè", "chinese": "一册" },
@@ -51,17 +51,17 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "请买三册练习本。", "pinyin": "qǐng mǎi sān cè liànxíběn.", "german": "Bitte kaufe drei Uebungshefte." },
-      { "chinese": "这本词典分上下两册。", "pinyin": "zhè běn cídiǎn fēn shàng xià liǎng cè.", "german": "Dieses Woerterbuch ist in zwei Baende aufgeteilt." }
+      { "chinese": "请买三册练习本。", "pinyin": "qǐng mǎi sān cè liànxíběn.", "german": "Bitte kaufe drei Übungshefte." },
+      { "chinese": "这本词典分上下两册。", "pinyin": "zhè běn cídiǎn fēn shàng xià liǎng cè.", "german": "Dieses Wörterbuch ist in zwei Bände aufgeteilt." }
     ],
-    "notes": "Formeller als 本. Haeufig in Bibliotheken und beim Katalogisieren. Auch fuer Hefte und Broschueren."
+    "notes": "Formeller als 本. Häufig in Bibliotheken und beim Katalogisieren. Auch für Hefte und Broschüren."
   },
   {
     "classifier": "尊",
     "pinyin": "zūn",
-    "meaning": "Stueck (Statue, Kanone, verehrtes Objekt)",
+    "meaning": "Stück (Statue, Kanone, verehrtes Objekt)",
     "category": "Objekte",
-    "usage": "Fuer Statuen, Buddhabildnisse und andere ehrwuerdige Objekte",
+    "usage": "Für Statuen, Buddhabildnisse und andere ehrwürdige Objekte",
     "questionWord": "几尊",
     "table": [
       { "number": "一", "pinyin": "yī zūn", "chinese": "一尊" },
@@ -80,14 +80,14 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "chinese": "一尊佛像", "pinyin": "yī zūn fóxiàng", "german": "eine Buddhastatue" },
       { "chinese": "三尊大炮", "pinyin": "sān zūn dàpào", "german": "drei Kanonen" }
     ],
-    "notes": "尊 traegt die Bedeutung von 'Ehrwuerde' und wird fuer verehrte oder imposante Objekte verwendet."
+    "notes": "尊 trägt die Bedeutung von 'Ehrwürde' und wird für verehrte oder imposante Objekte verwendet."
   },
   {
     "classifier": "出",
     "pinyin": "chū",
-    "meaning": "Stueck (Theaterstueck, Drama)",
+    "meaning": "Stück (Theaterstück, Drama)",
     "category": "Literatur",
-    "usage": "Fuer Theaterstuecke, Opern und dramatische Auffuehrungen",
+    "usage": "Für Theaterstücke, Opern und dramatische Aufführungen",
     "questionWord": "几出",
     "table": [
       { "number": "一", "pinyin": "yī chū", "chinese": "一出" },
@@ -103,17 +103,17 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "一出好戏", "pinyin": "yī chū hǎo xì", "german": "ein gutes Stueck / ein gutes Drama" },
-      { "chinese": "今晚演两出京剧。", "pinyin": "jīnwǎn yǎn liǎng chū jīngjù.", "german": "Heute Abend werden zwei Pekingopern aufgefuehrt." }
+      { "chinese": "一出好戏", "pinyin": "yī chū hǎo xì", "german": "ein gutes Stück / ein gutes Drama" },
+      { "chinese": "今晚演两出京剧。", "pinyin": "jīnwǎn yǎn liǎng chū jīngjù.", "german": "Heute Abend werden zwei Pekingopern aufgeführt." }
     ],
-    "notes": "Speziell fuer Theaterstuecke und Opern. 一出好戏 kann auch uebertragen 'ein Spektakel' bedeuten."
+    "notes": "Speziell für Theaterstücke und Opern. 一出好戏 kann auch übertragen 'ein Spektakel' bedeuten."
   },
   {
     "classifier": "幕",
     "pinyin": "mù",
     "meaning": "Akt, Szene (Theater)",
     "category": "Literatur",
-    "usage": "Fuer Akte in Theaterstuecken und Szenen",
+    "usage": "Für Akte in Theaterstücken und Szenen",
     "questionWord": "几幕",
     "table": [
       { "number": "一", "pinyin": "yī mù", "chinese": "一幕" },
@@ -130,16 +130,16 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "specialForms": [],
     "examples": [
       { "chinese": "第三幕", "pinyin": "dì sān mù", "german": "der dritte Akt" },
-      { "chinese": "这是感人的一幕。", "pinyin": "zhè shì gǎnrén de yī mù.", "german": "Das ist eine ruehrende Szene." }
+      { "chinese": "这是感人的一幕。", "pinyin": "zhè shì gǎnrén de yī mù.", "german": "Das ist eine rührende Szene." }
     ],
-    "notes": "幕 bedeutet woertlich 'Vorhang'. Wird fuer Theaterakte und uebertragen fuer denkwuerdige Szenen im Leben verwendet."
+    "notes": "幕 bedeutet wörtlich 'Vorhang'. Wird für Theaterakte und übertragen für denkwürdige Szenen im Leben verwendet."
   },
   {
     "classifier": "行",
     "pinyin": "háng",
     "meaning": "Zeile, Reihe",
     "category": "Literatur",
-    "usage": "Fuer Textzeilen und Reihen von Personen oder Objekten",
+    "usage": "Für Textzeilen und Reihen von Personen oder Objekten",
     "questionWord": "几行",
     "table": [
       { "number": "一", "pinyin": "yī háng", "chinese": "一行" },
@@ -156,16 +156,16 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "specialForms": [],
     "examples": [
       { "chinese": "请读第三行。", "pinyin": "qǐng dú dì sān háng.", "german": "Bitte lies die dritte Zeile." },
-      { "chinese": "两行眼泪", "pinyin": "liǎng háng yǎnlèi", "german": "zwei Bahnen von Traenen" }
+      { "chinese": "两行眼泪", "pinyin": "liǎng háng yǎnlèi", "german": "zwei Bahnen von Tränen" }
     ],
-    "notes": "Als Zaehlwort wird 行 'háng' ausgesprochen (nicht xíng). Fuer Textzeilen, Baumreihen und Personenreihen."
+    "notes": "Als Zählwort wird 行 'háng' ausgesprochen (nicht xíng). Für Textzeilen, Baumreihen und Personenreihen."
   },
   {
     "classifier": "字",
     "pinyin": "zì",
     "meaning": "Schriftzeichen, Wort",
     "category": "Literatur",
-    "usage": "Fuer einzelne Schriftzeichen und Woerter",
+    "usage": "Für einzelne Schriftzeichen und Wörter",
     "questionWord": "几个字",
     "table": [
       { "number": "一", "pinyin": "yī zì", "chinese": "一字" },
@@ -184,7 +184,7 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "chinese": "这个字怎么写？", "pinyin": "zhège zì zěnme xiě?", "german": "Wie schreibt man dieses Zeichen?" },
       { "chinese": "一字不差", "pinyin": "yī zì bù chā", "german": "kein einziges Zeichen falsch (wortgetreu)" }
     ],
-    "notes": "字 ist gleichzeitig Nomen ('Schriftzeichen') und Zaehlwort. Haeufig mit 个 kombiniert: 一个字."
+    "notes": "字 ist gleichzeitig Nomen ('Schriftzeichen') und Zählwort. Häufig mit 个 kombiniert: 一个字."
   },
 
   // =============================================
@@ -195,7 +195,7 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "pinyin": "quán",
     "meaning": "Faustschlag",
     "category": "Handlungen",
-    "usage": "Fuer Faustschlaege und Boxhiebe",
+    "usage": "Für Faustschläge und Boxhiebe",
     "questionWord": "几拳",
     "table": [
       { "number": "一", "pinyin": "yī quán", "chinese": "一拳" },
@@ -212,16 +212,16 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "specialForms": [],
     "examples": [
       { "chinese": "打了他一拳", "pinyin": "dǎ le tā yī quán", "german": "ihm einen Faustschlag verpasst" },
-      { "chinese": "挨了三拳", "pinyin": "ái le sān quán", "german": "drei Faustschlaege abbekommen" }
+      { "chinese": "挨了三拳", "pinyin": "ái le sān quán", "german": "drei Faustschläge abbekommen" }
     ],
-    "notes": "Aktionszaehlwort: zaehlt Faustschlaege. Aehnlich wie 脚 (Fusstritte) zaehlt."
+    "notes": "Aktionszählwort: zählt Faustschläge. Ähnlich wie 脚 (Fußtritte) zählt."
   },
   {
     "classifier": "脚",
     "pinyin": "jiǎo",
-    "meaning": "Fusstritt, Tritt",
+    "meaning": "Fußtritt, Tritt",
     "category": "Handlungen",
-    "usage": "Fuer Fusstritte und Schuesse (Fussball)",
+    "usage": "Für Fußtritte und Schüsse (Fußball)",
     "questionWord": "几脚",
     "table": [
       { "number": "一", "pinyin": "yī jiǎo", "chinese": "一脚" },
@@ -238,16 +238,16 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "specialForms": [],
     "examples": [
       { "chinese": "踢了一脚", "pinyin": "tī le yī jiǎo", "german": "einen Tritt gegeben" },
-      { "chinese": "射了两脚球", "pinyin": "shè le liǎng jiǎo qiú", "german": "zwei Schuesse aufs Tor abgegeben" }
+      { "chinese": "射了两脚球", "pinyin": "shè le liǎng jiǎo qiú", "german": "zwei Schüsse aufs Tor abgegeben" }
     ],
-    "notes": "Aktionszaehlwort: zaehlt Fusstritte. Im Fussball: 踢了一脚好球 (einen guten Schuss gemacht)."
+    "notes": "Aktionszählwort: zählt Fußtritte. Im Fußball: 踢了一脚好球 (einen guten Schuss gemacht)."
   },
   {
     "classifier": "刀",
     "pinyin": "dāo",
     "meaning": "Schnitt, Hieb",
     "category": "Handlungen",
-    "usage": "Fuer Messer- oder Schwerthiebe und Schnitte",
+    "usage": "Für Messer- oder Schwerthiebe und Schnitte",
     "questionWord": "几刀",
     "table": [
       { "number": "一", "pinyin": "yī dāo", "chinese": "一刀" },
@@ -266,14 +266,14 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "chinese": "切了两刀", "pinyin": "qiē le liǎng dāo", "german": "zwei Schnitte gemacht" },
       { "chinese": "被捅了一刀", "pinyin": "bèi tǒng le yī dāo", "german": "eine Messerstichverletzung erlitten" }
     ],
-    "notes": "Aktionszaehlwort: zaehlt Schnitte oder Hiebe mit einem Messer, Schwert oder aehnlichem."
+    "notes": "Aktionszählwort: zählt Schnitte oder Hiebe mit einem Messer, Schwert oder ähnlichem."
   },
   {
     "classifier": "巴掌",
     "pinyin": "bāzhang",
     "meaning": "Ohrfeige, Klaps",
     "category": "Handlungen",
-    "usage": "Fuer Ohrfeigen und Klapser mit der flachen Hand",
+    "usage": "Für Ohrfeigen und Klapser mit der flachen Hand",
     "questionWord": "几巴掌",
     "table": [
       { "number": "一", "pinyin": "yī bāzhang", "chinese": "一巴掌" },
@@ -292,14 +292,14 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "chinese": "打了他一巴掌", "pinyin": "dǎ le tā yī bāzhang", "german": "ihm eine Ohrfeige gegeben" },
       { "chinese": "挨了两巴掌", "pinyin": "ái le liǎng bāzhang", "german": "zwei Ohrfeigen bekommen" }
     ],
-    "notes": "Ein zweisilbiges Aktionszaehlwort. 巴掌 bedeutet woertlich 'Handflaeche' und zaehlt Schlaege mit der offenen Hand."
+    "notes": "Ein zweisilbiges Aktionszählwort. 巴掌 bedeutet wörtlich 'Handfläche' und zählt Schläge mit der offenen Hand."
   },
   {
     "classifier": "眼",
     "pinyin": "yǎn",
     "meaning": "Blick",
     "category": "Handlungen",
-    "usage": "Fuer fluechtige Blicke",
+    "usage": "Für flüchtige Blicke",
     "questionWord": "几眼",
     "table": [
       { "number": "一", "pinyin": "yī yǎn", "chinese": "一眼" },
@@ -318,14 +318,14 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "chinese": "看了一眼", "pinyin": "kàn le yī yǎn", "german": "einen Blick darauf geworfen" },
       { "chinese": "多看了两眼", "pinyin": "duō kàn le liǎng yǎn", "german": "noch zwei Blicke mehr darauf geworfen" }
     ],
-    "notes": "Aktionszaehlwort fuer Blicke. Meistens mit 看 ('sehen') verwendet: 看一眼 (einen Blick werfen)."
+    "notes": "Aktionszählwort für Blicke. Meistens mit 看 ('sehen') verwendet: 看一眼 (einen Blick werfen)."
   },
   {
     "classifier": "声",
     "pinyin": "shēng",
     "meaning": "Laut, Ruf",
     "category": "Handlungen",
-    "usage": "Fuer einzelne Laute, Rufe und Toene",
+    "usage": "Für einzelne Laute, Rufe und Töne",
     "questionWord": "几声",
     "table": [
       { "number": "一", "pinyin": "yī shēng", "chinese": "一声" },
@@ -342,16 +342,16 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "specialForms": [],
     "examples": [
       { "chinese": "大喊了一声", "pinyin": "dà hǎn le yī shēng", "german": "einmal laut gerufen" },
-      { "chinese": "敲了三声门", "pinyin": "qiāo le sān shēng mén", "german": "dreimal an die Tuer geklopft" }
+      { "chinese": "敲了三声门", "pinyin": "qiāo le sān shēng mén", "german": "dreimal an die Tür geklopft" }
     ],
-    "notes": "Zaehlt einzelne Laute und Rufe. Aehnlich wie 下 in der Funktion als Aktionszaehlwort fuer kurze Handlungen."
+    "notes": "Zählt einzelne Laute und Rufe. Ähnlich wie 下 in der Funktion als Aktionszählwort für kurze Handlungen."
   },
   {
     "classifier": "下",
     "pinyin": "xià",
     "meaning": "Mal (kurze Handlung)",
     "category": "Handlungen",
-    "usage": "Zaehlt kurze, schnelle Handlungen und Bewegungen",
+    "usage": "Zählt kurze, schnelle Handlungen und Bewegungen",
     "questionWord": "几下",
     "table": [
       { "number": "一", "pinyin": "yī xià", "chinese": "一下" },
@@ -366,13 +366,13 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "number": "十", "pinyin": "shí xià", "chinese": "十下" }
     ],
     "specialForms": [
-      { "form": "一下", "explanation": "Haeufig als Abschwaecher nach Verben: 看一下 (mal schauen)" }
+      { "form": "一下", "explanation": "Häufig als Abschwächer nach Verben: 看一下 (mal schauen)" }
     ],
     "examples": [
       { "chinese": "敲了两下", "pinyin": "qiāo le liǎng xià", "german": "zweimal geklopft" },
       { "chinese": "请等一下。", "pinyin": "qǐng děng yī xià.", "german": "Bitte warten Sie einen Moment." }
     ],
-    "notes": "Extrem haeufig! 一下 nach einem Verb macht die Handlung beilaeufiger: 看一下 (mal kurz schauen), 想一下 (mal kurz ueberlegen)."
+    "notes": "Extrem häufig! 一下 nach einem Verb macht die Handlung beiläufiger: 看一下 (mal kurz schauen), 想一下 (mal kurz überlegen)."
   },
 
   // =============================================
@@ -381,9 +381,9 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
   {
     "classifier": "堵",
     "pinyin": "dǔ",
-    "meaning": "Stueck (Mauer, Wand)",
+    "meaning": "Stück (Mauer, Wand)",
     "category": "Gebaeude",
-    "usage": "Fuer Mauern und Waende",
+    "usage": "Für Mauern und Wände",
     "questionWord": "几堵",
     "table": [
       { "number": "一", "pinyin": "yī dǔ", "chinese": "一堵" },
@@ -402,14 +402,14 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "chinese": "一堵墙", "pinyin": "yī dǔ qiáng", "german": "eine Mauer" },
       { "chinese": "拆了两堵墙", "pinyin": "chāi le liǎng dǔ qiáng", "german": "zwei Mauern abgerissen" }
     ],
-    "notes": "Speziell fuer Waende und Mauern. Alltagssprachlich sehr gebreauchlich: 一堵墙."
+    "notes": "Speziell für Wände und Mauern. Alltagssprachlich sehr gebreauchlich: 一堵墙."
   },
   {
     "classifier": "株",
     "pinyin": "zhū",
-    "meaning": "Stueck (Pflanze, Baum)",
+    "meaning": "Stück (Pflanze, Baum)",
     "category": "Natur",
-    "usage": "Fuer einzelne Pflanzen und Baeume (formeller als 棵)",
+    "usage": "Für einzelne Pflanzen und Bäume (formeller als 棵)",
     "questionWord": "几株",
     "table": [
       { "number": "一", "pinyin": "yī zhū", "chinese": "一株" },
@@ -426,16 +426,16 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "specialForms": [],
     "examples": [
       { "chinese": "一株玫瑰", "pinyin": "yī zhū méiguī", "german": "ein Rosenstock" },
-      { "chinese": "种了三株树", "pinyin": "zhòng le sān zhū shù", "german": "drei Baeume gepflanzt" }
+      { "chinese": "种了三株树", "pinyin": "zhòng le sān zhū shù", "german": "drei Bäume gepflanzt" }
     ],
     "notes": "Formellere Alternative zu 棵. Wird besonders in der Schriftsprache und Gartenbau verwendet."
   },
   {
     "classifier": "丛",
     "pinyin": "cóng",
-    "meaning": "Bueschel, Gestrueppp",
+    "meaning": "Büschel, Gestrüpp",
     "category": "Natur",
-    "usage": "Fuer Buesche, Gestruepp und Bueschel von Pflanzen",
+    "usage": "Für Büsche, Gestrüpp und Büschel von Pflanzen",
     "questionWord": "几丛",
     "table": [
       { "number": "一", "pinyin": "yī cóng", "chinese": "一丛" },
@@ -452,16 +452,16 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "specialForms": [],
     "examples": [
       { "chinese": "一丛灌木", "pinyin": "yī cóng guànmù", "german": "ein Busch / eine Hecke" },
-      { "chinese": "两丛野花", "pinyin": "liǎng cóng yěhuā", "german": "zwei Bueschel Wildblumen" }
+      { "chinese": "两丛野花", "pinyin": "liǎng cóng yěhuā", "german": "zwei Büschel Wildblumen" }
     ],
-    "notes": "Fuer zusammenwachsende Pflanzengruppen: Buesche, Grasbuesche, Blumenbueschel."
+    "notes": "Für zusammenwachsende Pflanzengruppen: Büsche, Grasbüsche, Blumenbüschel."
   },
   {
     "classifier": "窝",
     "pinyin": "wō",
     "meaning": "Wurf, Nest(voll)",
     "category": "Tiere",
-    "usage": "Fuer einen Wurf Jungtiere oder ein Nest voller Tiere",
+    "usage": "Für einen Wurf Jungtiere oder ein Nest voller Tiere",
     "questionWord": "几窝",
     "table": [
       { "number": "一", "pinyin": "yī wō", "chinese": "一窝" },
@@ -477,10 +477,10 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "一窝小猫", "pinyin": "yī wō xiǎo māo", "german": "ein Wurf Kaetzchen" },
-      { "chinese": "两窝蜜蜂", "pinyin": "liǎng wō mìfēng", "german": "zwei Bienenstoecke (voll Bienen)" }
+      { "chinese": "一窝小猫", "pinyin": "yī wō xiǎo māo", "german": "ein Wurf Kätzchen" },
+      { "chinese": "两窝蜜蜂", "pinyin": "liǎng wō mìfēng", "german": "zwei Bienenstöcke (voll Bienen)" }
     ],
-    "notes": "窝 bedeutet 'Nest'. Als Zaehlwort zaehlt es Wuerfe von Jungtieren oder Nester voller Tiere/Eier."
+    "notes": "窝 bedeutet 'Nest'. Als Zählwort zählt es Würfe von Jungtieren oder Nester voller Tiere/Eier."
   },
 
   // =============================================
@@ -491,7 +491,7 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "pinyin": "dié",
     "meaning": "Schalchen, Tellerchen",
     "category": "Essen",
-    "usage": "Fuer kleine Schaelchen und Unterteller mit Essen",
+    "usage": "Für kleine Schälchen und Unterteller mit Essen",
     "questionWord": "几碟",
     "table": [
       { "number": "一", "pinyin": "yī dié", "chinese": "一碟" },
@@ -507,17 +507,17 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "一碟花生米", "pinyin": "yī dié huāshēngmǐ", "german": "ein Schaelchen Erdnuesse" },
-      { "chinese": "两碟小菜", "pinyin": "liǎng dié xiǎocài", "german": "zwei Schaelchen Beilagen" }
+      { "chinese": "一碟花生米", "pinyin": "yī dié huāshēngmǐ", "german": "ein Schälchen Erdnüsse" },
+      { "chinese": "两碟小菜", "pinyin": "liǎng dié xiǎocài", "german": "zwei Schälchen Beilagen" }
     ],
-    "notes": "Kleiner als 盘. Fuer kleine Portionen, Vorspeisen, Dips und Sojasosse."
+    "notes": "Kleiner als 盘. Für kleine Portionen, Vorspeisen, Dips und Sojasosse."
   },
   {
     "classifier": "锅",
     "pinyin": "guō",
     "meaning": "Topf(voll)",
     "category": "Essen",
-    "usage": "Fuer den Inhalt eines Topfes oder einer Pfanne",
+    "usage": "Für den Inhalt eines Topfes oder einer Pfanne",
     "questionWord": "几锅",
     "table": [
       { "number": "一", "pinyin": "yī guō", "chinese": "一锅" },
@@ -536,14 +536,14 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "chinese": "煮了一锅饭", "pinyin": "zhǔ le yī guō fàn", "german": "einen Topf Reis gekocht" },
       { "chinese": "一锅汤", "pinyin": "yī guō tāng", "german": "einen Topf Suppe" }
     ],
-    "notes": "Zaehlt den Inhalt eines Topfes. 一锅粥 kann uebertragen 'ein einziges Chaos' bedeuten."
+    "notes": "Zählt den Inhalt eines Topfes. 一锅粥 kann übertragen 'ein einziges Chaos' bedeuten."
   },
   {
     "classifier": "勺",
     "pinyin": "sháo",
-    "meaning": "Loeffel(voll)",
+    "meaning": "Löffel(voll)",
     "category": "Essen",
-    "usage": "Fuer Loeffelvoll einer Zutat oder Speise",
+    "usage": "Für Löffelvoll einer Zutat oder Speise",
     "questionWord": "几勺",
     "table": [
       { "number": "一", "pinyin": "yī sháo", "chinese": "一勺" },
@@ -559,17 +559,17 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "加一勺糖", "pinyin": "jiā yī sháo táng", "german": "einen Loeffel Zucker hinzufuegen" },
-      { "chinese": "两勺盐", "pinyin": "liǎng sháo yán", "german": "zwei Loeffel Salz" }
+      { "chinese": "加一勺糖", "pinyin": "jiā yī sháo táng", "german": "einen Löffel Zucker hinzufügen" },
+      { "chinese": "两勺盐", "pinyin": "liǎng sháo yán", "german": "zwei Löffel Salz" }
     ],
-    "notes": "Fuer Kochrezepte und Portionierung. Aehnlich wie im Deutschen 'ein Loeffel'."
+    "notes": "Für Kochrezepte und Portionierung. Ähnlich wie im Deutschen 'ein Löffel'."
   },
   {
     "classifier": "桶",
     "pinyin": "tǒng",
     "meaning": "Eimer(voll), Fass",
     "category": "Essen",
-    "usage": "Fuer den Inhalt eines Eimers, Fasses oder einer Tonne",
+    "usage": "Für den Inhalt eines Eimers, Fasses oder einer Tonne",
     "questionWord": "几桶",
     "table": [
       { "number": "一", "pinyin": "yī tǒng", "chinese": "一桶" },
@@ -586,16 +586,16 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "specialForms": [],
     "examples": [
       { "chinese": "一桶水", "pinyin": "yī tǒng shuǐ", "german": "ein Eimer Wasser" },
-      { "chinese": "两桶啤酒", "pinyin": "liǎng tǒng píjiǔ", "german": "zwei Faesser Bier" }
+      { "chinese": "两桶啤酒", "pinyin": "liǎng tǒng píjiǔ", "german": "zwei Fässer Bier" }
     ],
-    "notes": "Fuer grosse Behaelter: Eimer, Faesser, Tonnen. Auch: 一桶泡面 (eine Bechersuppe/Instantnudeln im Becher)."
+    "notes": "Für große Behälter: Eimer, Fässer, Tonnen. Auch: 一桶泡面 (eine Bechersuppe/Instantnudeln im Becher)."
   },
   {
     "classifier": "打",
     "pinyin": "dá",
     "meaning": "Dutzend",
     "category": "Mengen",
-    "usage": "Fuer ein Dutzend (12 Stueck) von Gegenstaenden",
+    "usage": "Für ein Dutzend (12 Stück) von Gegenständen",
     "questionWord": "几打",
     "table": [
       { "number": "一", "pinyin": "yī dá", "chinese": "一打" },
@@ -614,7 +614,7 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "chinese": "一打鸡蛋", "pinyin": "yī dá jīdàn", "german": "ein Dutzend Eier" },
       { "chinese": "买了两打啤酒", "pinyin": "mǎi le liǎng dá píjiǔ", "german": "zwei Dutzend Bier gekauft" }
     ],
-    "notes": "Lehnwort aus dem Englischen 'dozen'. Achtung: als Zaehlwort 'dá' ausgesprochen (nicht dǎ wie bei 打 = schlagen)."
+    "notes": "Lehnwort aus dem Englischen 'dozen'. Achtung: als Zählwort 'dá' ausgesprochen (nicht dǎ wie bei 打 = schlagen)."
   },
 
   // =============================================
@@ -625,7 +625,7 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "pinyin": "zōng",
     "meaning": "Fall, Angelegenheit",
     "category": "Abstrakt",
-    "usage": "Fuer Faelle, Geschaefte, Angelegenheiten (formell)",
+    "usage": "Für Fälle, Geschäfte, Angelegenheiten (formell)",
     "questionWord": "几宗",
     "table": [
       { "number": "一", "pinyin": "yī zōng", "chinese": "一宗" },
@@ -642,16 +642,16 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "specialForms": [],
     "examples": [
       { "chinese": "一宗谋杀案", "pinyin": "yī zōng móushā àn", "german": "ein Mordfall" },
-      { "chinese": "两宗大买卖", "pinyin": "liǎng zōng dà mǎimai", "german": "zwei grosse Geschaefte" }
+      { "chinese": "两宗大买卖", "pinyin": "liǎng zōng dà mǎimai", "german": "zwei große Geschäfte" }
     ],
-    "notes": "Formell und schriftsprachlich. Haeufig in Nachrichten und juristischen Texten: 宗 klingt gewichtiger als 件."
+    "notes": "Formell und schriftsprachlich. Häufig in Nachrichten und juristischen Texten: 宗 klingt gewichtiger als 件."
   },
   {
     "classifier": "起",
     "pinyin": "qǐ",
     "meaning": "Fall, Vorfall",
     "category": "Abstrakt",
-    "usage": "Fuer Vorfaelle, Unfaelle, Verbrechen und Ereignisse",
+    "usage": "Für Vorfälle, Unfälle, Verbrechen und Ereignisse",
     "questionWord": "几起",
     "table": [
       { "number": "一", "pinyin": "yī qǐ", "chinese": "一起" },
@@ -669,17 +669,17 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "form": "一起", "explanation": "Nicht verwechseln mit 一起 (yīqǐ) = 'zusammen'" }
     ],
     "examples": [
-      { "chinese": "发生了三起事故。", "pinyin": "fāshēng le sān qǐ shìgù.", "german": "Es ereigneten sich drei Unfaelle." },
+      { "chinese": "发生了三起事故。", "pinyin": "fāshēng le sān qǐ shìgù.", "german": "Es ereigneten sich drei Unfälle." },
       { "chinese": "一起盗窃案", "pinyin": "yī qǐ dàoqiè àn", "german": "ein Diebstahlfall" }
     ],
-    "notes": "Nachrichtendeutsch. Haeufig fuer Unfaelle, Verbrechen und Vorfaelle. Nicht verwechseln mit dem Adverb 一起 (yīqǐ, zusammen)."
+    "notes": "Nachrichtendeutsch. Häufig für Unfälle, Verbrechen und Vorfälle. Nicht verwechseln mit dem Adverb 一起 (yīqǐ, zusammen)."
   },
   {
     "classifier": "批",
     "pinyin": "pī",
     "meaning": "Charge, Partie, Gruppe",
     "category": "Mengen",
-    "usage": "Fuer eine Charge, Lieferung oder Gruppe von gleichartigen Dingen oder Personen",
+    "usage": "Für eine Charge, Lieferung oder Gruppe von gleichartigen Dingen oder Personen",
     "questionWord": "几批",
     "table": [
       { "number": "一", "pinyin": "yī pī", "chinese": "一批" },
@@ -696,16 +696,16 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "specialForms": [],
     "examples": [
       { "chinese": "第一批货到了。", "pinyin": "dì yī pī huò dào le.", "german": "Die erste Lieferung Ware ist angekommen." },
-      { "chinese": "来了一批新学生。", "pinyin": "lái le yī pī xīn xuéshēng.", "german": "Eine Gruppe neuer Schueler ist gekommen." }
+      { "chinese": "来了一批新学生。", "pinyin": "lái le yī pī xīn xuéshēng.", "german": "Eine Gruppe neuer Schüler ist gekommen." }
     ],
-    "notes": "Fuer Chargen, Lieferungen, Gruppen. 一大批 = 'eine grosse Menge'. Im Geschaeftsleben sehr haeufig."
+    "notes": "Für Chargen, Lieferungen, Gruppen. 一大批 = 'eine große Menge'. Im Geschäftsleben sehr häufig."
   },
   {
     "classifier": "摞",
     "pinyin": "luò",
     "meaning": "Stapel",
     "category": "Mengen",
-    "usage": "Fuer aufgestapelte flache Gegenstaende",
+    "usage": "Für aufgestapelte flache Gegenstände",
     "questionWord": "几摞",
     "table": [
       { "number": "一", "pinyin": "yī luò", "chinese": "一摞" },
@@ -721,17 +721,17 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "一摞书", "pinyin": "yī luò shū", "german": "ein Stapel Buecher" },
+      { "chinese": "一摞书", "pinyin": "yī luò shū", "german": "ein Stapel Bücher" },
       { "chinese": "桌子上放着两摞碗。", "pinyin": "zhuōzi shàng fàng zhe liǎng luò wǎn.", "german": "Auf dem Tisch stehen zwei Stapel Schalen." }
     ],
-    "notes": "Fuer uebereinander gestapelte flache Dinge: Buecher, Teller, Papier, Zeitungen."
+    "notes": "Für übereinander gestapelte flache Dinge: Bücher, Teller, Papier, Zeitungen."
   },
   {
     "classifier": "束",
     "pinyin": "shù",
-    "meaning": "Buendel, Strauss",
+    "meaning": "Bündel, Strauß",
     "category": "Mengen",
-    "usage": "Fuer Blumenstraeusse und zusammengebundene Dinge",
+    "usage": "Für Blumensträusse und zusammengebundene Dinge",
     "questionWord": "几束",
     "table": [
       { "number": "一", "pinyin": "yī shù", "chinese": "一束" },
@@ -747,17 +747,17 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "一束花", "pinyin": "yī shù huā", "german": "ein Strauss Blumen" },
-      { "chinese": "一束光", "pinyin": "yī shù guāng", "german": "ein Lichtstrahl / ein Buendel Licht" }
+      { "chinese": "一束花", "pinyin": "yī shù huā", "german": "ein Strauß Blumen" },
+      { "chinese": "一束光", "pinyin": "yī shù guāng", "german": "ein Lichtstrahl / ein Bündel Licht" }
     ],
-    "notes": "Fuer zusammengebundene Dinge und Straeusse. Auch fuer Lichtstrahlen: 一束阳光 (ein Sonnenstrahl)."
+    "notes": "Für zusammengebundene Dinge und Sträusse. Auch für Lichtstrahlen: 一束阳光 (ein Sonnenstrahl)."
   },
   {
     "classifier": "捆",
     "pinyin": "kǔn",
-    "meaning": "Buendel (zusammengebunden)",
+    "meaning": "Bündel (zusammengebunden)",
     "category": "Mengen",
-    "usage": "Fuer zusammengeschnuerte Buendel",
+    "usage": "Für zusammengeschnürte Bündel",
     "questionWord": "几捆",
     "table": [
       { "number": "一", "pinyin": "yī kǔn", "chinese": "一捆" },
@@ -773,17 +773,17 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "一捆柴", "pinyin": "yī kǔn chái", "german": "ein Buendel Feuerholz" },
-      { "chinese": "三捆报纸", "pinyin": "sān kǔn bàozhǐ", "german": "drei Buendel Zeitungen" }
+      { "chinese": "一捆柴", "pinyin": "yī kǔn chái", "german": "ein Bündel Feuerholz" },
+      { "chinese": "三捆报纸", "pinyin": "sān kǔn bàozhǐ", "german": "drei Bündel Zeitungen" }
     ],
-    "notes": "Fuer zusammengeschnuerte oder zusammengebundene Dinge: Holz, Zeitungen, Stroh, Geldscheine."
+    "notes": "Für zusammengeschnürte oder zusammengebundene Dinge: Holz, Zeitungen, Stroh, Geldscheine."
   },
   {
     "classifier": "帮",
     "pinyin": "bāng",
     "meaning": "Bande, Gruppe (abwertend)",
     "category": "Menschen",
-    "usage": "Fuer Gruppen von Personen, oft mit negativer Konnotation",
+    "usage": "Für Gruppen von Personen, oft mit negativer Konnotation",
     "questionWord": "几帮",
     "table": [
       { "number": "一", "pinyin": "yī bāng", "chinese": "一帮" },
@@ -809,7 +809,7 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "pinyin": "huǒ",
     "meaning": "Gruppe, Bande",
     "category": "Menschen",
-    "usage": "Fuer Gruppen von Personen, umgangssprachlich",
+    "usage": "Für Gruppen von Personen, umgangssprachlich",
     "questionWord": "几伙",
     "table": [
       { "number": "一", "pinyin": "yī huǒ", "chinese": "一伙" },
@@ -825,17 +825,17 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "一伙强盗", "pinyin": "yī huǒ qiángdào", "german": "eine Bande Raeuber" },
+      { "chinese": "一伙强盗", "pinyin": "yī huǒ qiángdào", "german": "eine Bande Räuber" },
       { "chinese": "那伙人", "pinyin": "nà huǒ rén", "german": "diese Gruppe Leute (dort)" }
     ],
-    "notes": "Aehnlich wie 帮, aber tendenziell noch staerker abwertend. Wird oft fuer Kriminelle verwendet."
+    "notes": "Ähnlich wie 帮, aber tendenziell noch stärker abwertend. Wird oft für Kriminelle verwendet."
   },
   {
     "classifier": "波",
     "pinyin": "bō",
     "meaning": "Welle, Schub",
     "category": "Abstrakt",
-    "usage": "Fuer Wellen, Schuebe und aufeinanderfolgende Gruppen",
+    "usage": "Für Wellen, Schübe und aufeinanderfolgende Gruppen",
     "questionWord": "几波",
     "table": [
       { "number": "一", "pinyin": "yī bō", "chinese": "一波" },
@@ -854,14 +854,14 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "chinese": "第三波疫情", "pinyin": "dì sān bō yìqíng", "german": "die dritte Welle der Pandemie" },
       { "chinese": "一波又一波", "pinyin": "yī bō yòu yī bō", "german": "Welle um Welle" }
     ],
-    "notes": "Fuer wellenfoermige Ablaeufe: Epidemie-Wellen, Angriffswellen, Kuendigugnswellen. Modernes Zaehlwort, haeufig in Nachrichten."
+    "notes": "Für wellenförmige Abläufe: Epidemie-Wellen, Angriffswellen, Kündigungswellen. Modernes Zählwort, häufig in Nachrichten."
   },
   {
     "classifier": "轮",
     "pinyin": "lún",
     "meaning": "Runde, Durchgang",
     "category": "Abstrakt",
-    "usage": "Fuer Runden in Wettbewerben, Verhandlungen und Gespraechen",
+    "usage": "Für Runden in Wettbewerben, Verhandlungen und Gesprächen",
     "questionWord": "几轮",
     "table": [
       { "number": "一", "pinyin": "yī lún", "chinese": "一轮" },
@@ -877,17 +877,17 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "第二轮面试", "pinyin": "dì èr lún miànshì", "german": "die zweite Runde des Vorstellungsgespraechs" },
+      { "chinese": "第二轮面试", "pinyin": "dì èr lún miànshì", "german": "die zweite Runde des Vorstellungsgesprächs" },
       { "chinese": "三轮谈判", "pinyin": "sān lún tánpàn", "german": "drei Runden Verhandlungen" }
     ],
-    "notes": "Fuer Runden in Wettkaempfen, Interviews und Verhandlungen. 一轮明月 = 'ein voller Mond' (poetisch)."
+    "notes": "Für Runden in Wettkämpfen, Interviews und Verhandlungen. 一轮明月 = 'ein voller Mond' (poetisch)."
   },
   {
     "classifier": "期",
     "pinyin": "qī",
     "meaning": "Ausgabe, Nummer (Zeitschrift)",
     "category": "Literatur",
-    "usage": "Fuer Ausgaben von Zeitschriften, Trainingskursen und periodischen Veroeffentlichungen",
+    "usage": "Für Ausgaben von Zeitschriften, Trainingskursen und periodischen Veröffentlichungen",
     "questionWord": "几期",
     "table": [
       { "number": "一", "pinyin": "yī qī", "chinese": "一期" },
@@ -906,14 +906,14 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "chinese": "最新一期杂志", "pinyin": "zuìxīn yī qī zázhì", "german": "die neueste Ausgabe der Zeitschrift" },
       { "chinese": "第三期培训班", "pinyin": "dì sān qī péixùn bān", "german": "der dritte Durchgang des Trainingskurses" }
     ],
-    "notes": "Fuer periodische Publikationen und Kursangebote. 期 bedeutet auch 'Zeitraum, Periode'."
+    "notes": "Für periodische Publikationen und Kursangebote. 期 bedeutet auch 'Zeitraum, Periode'."
   },
   {
     "classifier": "版",
     "pinyin": "bǎn",
     "meaning": "Auflage, Edition",
     "category": "Literatur",
-    "usage": "Fuer Auflagen und Editionen von Buechern und Medien",
+    "usage": "Für Auflagen und Editionen von Büchern und Medien",
     "questionWord": "几版",
     "table": [
       { "number": "一", "pinyin": "yī bǎn", "chinese": "一版" },
@@ -930,16 +930,16 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "specialForms": [],
     "examples": [
       { "chinese": "第三版", "pinyin": "dì sān bǎn", "german": "die dritte Auflage" },
-      { "chinese": "这本书已经出了五版了。", "pinyin": "zhè běn shū yǐjīng chū le wǔ bǎn le.", "german": "Dieses Buch hat bereits fuenf Auflagen hinter sich." }
+      { "chinese": "这本书已经出了五版了。", "pinyin": "zhè běn shū yǐjīng chū le wǔ bǎn le.", "german": "Dieses Buch hat bereits fünf Auflagen hinter sich." }
     ],
-    "notes": "Fuer Buch- und Softwareversionen. Auch: Seite einer Zeitung (第一版 = Titelseite)."
+    "notes": "Für Buch- und Softwareversionen. Auch: Seite einer Zeitung (第一版 = Titelseite)."
   },
   {
     "classifier": "剂",
     "pinyin": "jì",
     "meaning": "Dosis, Portion (Medizin)",
     "category": "Medizin",
-    "usage": "Fuer Dosen von Medikamenten und Impfungen",
+    "usage": "Für Dosen von Medikamenten und Impfungen",
     "questionWord": "几剂",
     "table": [
       { "number": "一", "pinyin": "yī jì", "chinese": "一剂" },
@@ -958,14 +958,14 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "chinese": "第三剂疫苗", "pinyin": "dì sān jì yìmiáo", "german": "die dritte Impfdosis" },
       { "chinese": "一剂中药", "pinyin": "yī jì zhōngyào", "german": "eine Dosis chinesische Medizin" }
     ],
-    "notes": "Medizinisches Zaehlwort. Besonders haeufig seit der Pandemie: 第一剂, 第二剂 (erste, zweite Impfdosis)."
+    "notes": "Medizinisches Zählwort. Besonders häufig seit der Pandemie: 第一剂, 第二剂 (erste, zweite Impfdosis)."
   },
   {
     "classifier": "味",
     "pinyin": "wèi",
     "meaning": "Zutat (Medizin/Rezept)",
     "category": "Medizin",
-    "usage": "Fuer einzelne Zutaten in Rezepturen der chinesischen Medizin",
+    "usage": "Für einzelne Zutaten in Rezepturen der chinesischen Medizin",
     "questionWord": "几味",
     "table": [
       { "number": "一", "pinyin": "yī wèi", "chinese": "一味" },
@@ -981,17 +981,17 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "这个药方有八味药。", "pinyin": "zhège yàofāng yǒu bā wèi yào.", "german": "Dieses Rezept enthaelt acht Heilkraeuter." },
-      { "chinese": "六味地黄丸", "pinyin": "liù wèi dìhuáng wán", "german": "Sechs-Zutaten-Rehmannia-Pille (bekanntes TCM-Praeparat)" }
+      { "chinese": "这个药方有八味药。", "pinyin": "zhège yàofāng yǒu bā wèi yào.", "german": "Dieses Rezept enthält acht Heilkräuter." },
+      { "chinese": "六味地黄丸", "pinyin": "liù wèi dìhuáng wán", "german": "Sechs-Zutaten-Rehmannia-Pille (bekanntes TCM-Präparat)" }
     ],
-    "notes": "Spezielles Zaehlwort der Traditionellen Chinesischen Medizin (TCM). Zaehlt einzelne Kraeuterzutaten in einer Rezeptur."
+    "notes": "Spezielles Zählwort der Traditionellen Chinesischen Medizin (TCM). Zählt einzelne Kräuterzutaten in einer Rezeptur."
   },
   {
     "classifier": "针",
     "pinyin": "zhēn",
     "meaning": "Spritze, Injektion",
     "category": "Medizin",
-    "usage": "Fuer Injektionen, Spritzen und Akupunkturnadeln",
+    "usage": "Für Injektionen, Spritzen und Akupunkturnadeln",
     "questionWord": "几针",
     "table": [
       { "number": "一", "pinyin": "yī zhēn", "chinese": "一针" },
@@ -1008,9 +1008,9 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "specialForms": [],
     "examples": [
       { "chinese": "打了一针", "pinyin": "dǎ le yī zhēn", "german": "eine Spritze bekommen" },
-      { "chinese": "缝了五针", "pinyin": "féng le wǔ zhēn", "german": "fuenf Stiche genaehr bekommen" }
+      { "chinese": "缝了五针", "pinyin": "féng le wǔ zhēn", "german": "fünf Stiche genäht bekommen" }
     ],
-    "notes": "Fuer Spritzen, Impfungen und Naehstiche. 打针 = eine Spritze geben/bekommen."
+    "notes": "Für Spritzen, Impfungen und Nähstiche. 打针 = eine Spritze geben/bekommen."
   },
 
   // =============================================
@@ -1019,9 +1019,9 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
   {
     "classifier": "湾",
     "pinyin": "wān",
-    "meaning": "Biegung (Fluss/Strasse)",
+    "meaning": "Biegung (Fluss/Straße)",
     "category": "Natur",
-    "usage": "Fuer Flussbiegungen und Strassenkurven",
+    "usage": "Für Flussbiegungen und Straßenkurven",
     "questionWord": "几湾",
     "table": [
       { "number": "一", "pinyin": "yī wān", "chinese": "一湾" },
@@ -1040,14 +1040,14 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "chinese": "一湾清水", "pinyin": "yī wān qīngshuǐ", "german": "eine Biegung klaren Wassers" },
       { "chinese": "那条河有九湾。", "pinyin": "nà tiáo hé yǒu jiǔ wān.", "german": "Dieser Fluss hat neun Biegungen." }
     ],
-    "notes": "Poetisches Zaehlwort. Haeufig in Liedern und Gedichten: 一湾浅浅的海峡 (eine schmale Meerenge)."
+    "notes": "Poetisches Zählwort. Häufig in Liedern und Gedichten: 一湾浅浅的海峡 (eine schmale Meerenge)."
   },
   {
     "classifier": "缕",
     "pinyin": "lǚ",
-    "meaning": "Faedchen, Straehne",
+    "meaning": "Fädchen, Strähne",
     "category": "Natur",
-    "usage": "Fuer duenne Straehnen, Faeden und Rauchschwaden",
+    "usage": "Für dünne Strähnen, Fäden und Rauchschwaden",
     "questionWord": "几缕",
     "table": [
       { "number": "一", "pinyin": "yī lǚ", "chinese": "一缕" },
@@ -1063,10 +1063,10 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "一缕青烟", "pinyin": "yī lǚ qīngyān", "german": "ein duenner Rauchfaden" },
+      { "chinese": "一缕青烟", "pinyin": "yī lǚ qīngyān", "german": "ein dünner Rauchfaden" },
       { "chinese": "一缕阳光", "pinyin": "yī lǚ yángguāng", "german": "ein feiner Sonnenstrahl" }
     ],
-    "notes": "Poetisch und literarisch. Fuer Rauch, Licht, Haare, Duft: 一缕头发 (eine Haarstraehne), 一缕清香 (ein Hauch von Duft)."
+    "notes": "Poetisch und literarisch. Für Rauch, Licht, Haare, Duft: 一缕头发 (eine Haarsträhne), 一缕清香 (ein Hauch von Duft)."
   },
 
   // =============================================
@@ -1075,9 +1075,9 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
   {
     "classifier": "枚",
     "pinyin": "méi",
-    "meaning": "Stueck (klein, einzeln)",
+    "meaning": "Stück (klein, einzeln)",
     "category": "Objekte",
-    "usage": "Fuer kleine, einzelne Objekte wie Muenzen, Medaillen, Briefmarken und Raketen",
+    "usage": "Für kleine, einzelne Objekte wie Münzen, Medaillen, Briefmarken und Raketen",
     "questionWord": "几枚",
     "table": [
       { "number": "一", "pinyin": "yī méi", "chinese": "一枚" },
@@ -1096,14 +1096,14 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "chinese": "一枚金牌", "pinyin": "yī méi jīnpái", "german": "eine Goldmedaille" },
       { "chinese": "两枚邮票", "pinyin": "liǎng méi yóupiào", "german": "zwei Briefmarken" }
     ],
-    "notes": "Fuer kleine, einzelne Gegenstaende: Muenzen, Medaillen, Briefmarken, Ringe, Nadeln. Auch fuer Raketen und Bomben: 一枚导弹."
+    "notes": "Für kleine, einzelne Gegenstände: Münzen, Medaillen, Briefmarken, Ringe, Nadeln. Auch für Raketen und Bomben: 一枚导弹."
   },
   {
     "classifier": "盏",
     "pinyin": "zhǎn",
-    "meaning": "Stueck (Lampe, Schale)",
+    "meaning": "Stück (Lampe, Schale)",
     "category": "Objekte",
-    "usage": "Fuer Lampen, Laternen und kleine Trinkschalen",
+    "usage": "Für Lampen, Laternen und kleine Trinkschalen",
     "questionWord": "几盏",
     "table": [
       { "number": "一", "pinyin": "yī zhǎn", "chinese": "一盏" },
@@ -1122,14 +1122,14 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "chinese": "一盏灯", "pinyin": "yī zhǎn dēng", "german": "eine Lampe / Laterne" },
       { "chinese": "一盏茶", "pinyin": "yī zhǎn chá", "german": "eine Schale Tee (literarisch)" }
     ],
-    "notes": "Hauptsaechlich fuer Lampen und Laternen. In der klassischen Sprache auch fuer Teeschalen: 一盏清茶."
+    "notes": "Hauptsächlich für Lampen und Laternen. In der klassischen Sprache auch für Teeschalen: 一盏清茶."
   },
   {
     "classifier": "管",
     "pinyin": "guǎn",
-    "meaning": "Tube, Roehre",
+    "meaning": "Tube, Röhre",
     "category": "Objekte",
-    "usage": "Fuer roehrenfoermige Behaelter und Tuben",
+    "usage": "Für röhrenförmige Behälter und Tuben",
     "questionWord": "几管",
     "table": [
       { "number": "一", "pinyin": "yī guǎn", "chinese": "一管" },
@@ -1146,16 +1146,16 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "specialForms": [],
     "examples": [
       { "chinese": "一管牙膏", "pinyin": "yī guǎn yágāo", "german": "eine Tube Zahnpasta" },
-      { "chinese": "两管血", "pinyin": "liǎng guǎn xuè", "german": "zwei Roehrchen Blut" }
+      { "chinese": "两管血", "pinyin": "liǎng guǎn xuè", "german": "zwei Röhrchen Blut" }
     ],
-    "notes": "Fuer Tuben (Zahnpasta, Farbe) und Roehrchen (Blutproben). Auch fuer Floeten: 一管笛."
+    "notes": "Für Tuben (Zahnpasta, Farbe) und Röhrchen (Blutproben). Auch für Flöten: 一管笛."
   },
   {
     "classifier": "方",
     "pinyin": "fāng",
     "meaning": "Kubikmeter, Block",
     "category": "Mengen",
-    "usage": "Fuer Kubikmeter (Masseinheit) und rechteckige Bloecke",
+    "usage": "Für Kubikmeter (Maßeinheit) und rechteckige Blöcke",
     "questionWord": "几方",
     "table": [
       { "number": "一", "pinyin": "yī fāng", "chinese": "一方" },
@@ -1171,17 +1171,17 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "五方沙子", "pinyin": "wǔ fāng shāzi", "german": "fuenf Kubikmeter Sand" },
+      { "chinese": "五方沙子", "pinyin": "wǔ fāng shāzi", "german": "fünf Kubikmeter Sand" },
       { "chinese": "一方印章", "pinyin": "yī fāng yìnzhāng", "german": "ein Siegel / Stempel" }
     ],
-    "notes": "Kurzform fuer 立方米 (Kubikmeter): 一方水 = ein Kubikmeter Wasser. Auch fuer viereckige Objekte: Siegelsteine, Taschentuecher."
+    "notes": "Kurzform für 立方米 (Kubikmeter): 一方水 = ein Kubikmeter Wasser. Auch für viereckige Objekte: Siegelsteine, Taschentücher."
   },
   {
     "classifier": "截",
     "pinyin": "jié",
-    "meaning": "Stueck, Abschnitt (abgeschnitten)",
+    "meaning": "Stück, Abschnitt (abgeschnitten)",
     "category": "Objekte",
-    "usage": "Fuer abgeschnittene Stuecke von laenglichen Gegenstaenden",
+    "usage": "Für abgeschnittene Stücke von länglichen Gegenständen",
     "questionWord": "几截",
     "table": [
       { "number": "一", "pinyin": "yī jié", "chinese": "一截" },
@@ -1197,10 +1197,10 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "一截木头", "pinyin": "yī jié mùtou", "german": "ein Stueck Holz" },
-      { "chinese": "断成两截", "pinyin": "duàn chéng liǎng jié", "german": "in zwei Stuecke zerbrochen" }
+      { "chinese": "一截木头", "pinyin": "yī jié mùtou", "german": "ein Stück Holz" },
+      { "chinese": "断成两截", "pinyin": "duàn chéng liǎng jié", "german": "in zwei Stücke zerbrochen" }
     ],
-    "notes": "Betont das Abschneiden oder Abbrechen. Unterschied zu 段: 截 impliziert ein abgetrenntes Stueck, 段 einen Abschnitt."
+    "notes": "Betont das Abschneiden oder Abbrechen. Unterschied zu 段: 截 impliziert ein abgetrenntes Stück, 段 einen Abschnitt."
   },
 
   // =============================================
@@ -1211,7 +1211,7 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "pinyin": "miǎo",
     "meaning": "Sekunde",
     "category": "Zeit",
-    "usage": "Fuer Sekunden",
+    "usage": "Für Sekunden",
     "questionWord": "几秒",
     "table": [
       { "number": "一", "pinyin": "yī miǎo", "chinese": "一秒" },
@@ -1227,17 +1227,17 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "等了三十秒", "pinyin": "děng le sānshí miǎo", "german": "dreissig Sekunden gewartet" },
+      { "chinese": "等了三十秒", "pinyin": "děng le sānshí miǎo", "german": "dreißig Sekunden gewartet" },
       { "chinese": "十秒倒计时", "pinyin": "shí miǎo dào jìshí", "german": "Zehn-Sekunden-Countdown" }
     ],
-    "notes": "Grundlegendes Zeitzaehlwort. Vollform: 秒钟 (miǎozhōng). Im Alltag reicht 秒."
+    "notes": "Grundlegendes Zeitzählwort. Vollform: 秒钟 (miǎozhōng). Im Alltag reicht 秒."
   },
   {
     "classifier": "分钟",
     "pinyin": "fēnzhōng",
     "meaning": "Minute",
     "category": "Zeit",
-    "usage": "Fuer Minuten",
+    "usage": "Für Minuten",
     "questionWord": "几分钟",
     "table": [
       { "number": "一", "pinyin": "yī fēnzhōng", "chinese": "一分钟" },
@@ -1253,17 +1253,17 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "还要等五分钟。", "pinyin": "hái yào děng wǔ fēnzhōng.", "german": "Man muss noch fuenf Minuten warten." },
-      { "chinese": "走路十分钟", "pinyin": "zǒulù shí fēnzhōng", "german": "zehn Minuten zu Fuss" }
+      { "chinese": "还要等五分钟。", "pinyin": "hái yào děng wǔ fēnzhōng.", "german": "Man muss noch fünf Minuten warten." },
+      { "chinese": "走路十分钟", "pinyin": "zǒulù shí fēnzhōng", "german": "zehn Minuten zu Fuß" }
     ],
-    "notes": "Vollform fuer Minuten. Kurzform 分 (fēn) wird bei Uhrzeiten verwendet: 三点十分 (3:10)."
+    "notes": "Vollform für Minuten. Kurzform 分 (fēn) wird bei Uhrzeiten verwendet: 三点十分 (3:10)."
   },
   {
     "classifier": "小时",
     "pinyin": "xiǎoshí",
     "meaning": "Stunde",
     "category": "Zeit",
-    "usage": "Fuer Stunden (Dauer)",
+    "usage": "Für Stunden (Dauer)",
     "questionWord": "几小时",
     "table": [
       { "number": "一", "pinyin": "yī xiǎoshí", "chinese": "一小时" },
@@ -1282,16 +1282,16 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "examples": [
       { "chinese": "飞行八小时", "pinyin": "fēixíng bā xiǎoshí", "german": "acht Stunden Flugzeit" },
-      { "chinese": "每天工作八小时", "pinyin": "měi tiān gōngzuò bā xiǎoshí", "german": "taeglich acht Stunden arbeiten" }
+      { "chinese": "每天工作八小时", "pinyin": "měi tiān gōngzuò bā xiǎoshí", "german": "täglich acht Stunden arbeiten" }
     ],
-    "notes": "Fuer Zeitdauern. Alternative: 钟头 (zhōngtóu, umgangssprachlich). Fuer Uhrzeiten: 点 (diǎn), z.B. 三点 = 3 Uhr."
+    "notes": "Für Zeitdauern. Alternative: 钟头 (zhōngtóu, umgangssprachlich). Für Uhrzeiten: 点 (diǎn), z.B. 三点 = 3 Uhr."
   },
   {
     "classifier": "周",
     "pinyin": "zhōu",
     "meaning": "Woche",
     "category": "Zeit",
-    "usage": "Fuer Wochen",
+    "usage": "Für Wochen",
     "questionWord": "几周",
     "table": [
       { "number": "一", "pinyin": "yī zhōu", "chinese": "一周" },
@@ -1317,7 +1317,7 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "pinyin": "yuè",
     "meaning": "Monat",
     "category": "Zeit",
-    "usage": "Fuer Monate",
+    "usage": "Für Monate",
     "questionWord": "几月/几个月",
     "table": [
       { "number": "一", "pinyin": "yī yuè", "chinese": "一月" },
@@ -1332,20 +1332,20 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "number": "十", "pinyin": "shí yuè", "chinese": "十月" }
     ],
     "specialForms": [
-      { "form": "个月", "explanation": "Fuer Dauer: 三个月 (sān gè yuè) = drei Monate. Ohne 个: Monatsnamen (三月 = Maerz)" }
+      { "form": "个月", "explanation": "Für Dauer: 三个月 (sān gè yuè) = drei Monate. Ohne 个: Monatsnamen (三月 = März)" }
     ],
     "examples": [
       { "chinese": "等了三个月", "pinyin": "děng le sān gè yuè", "german": "drei Monate gewartet" },
       { "chinese": "五月一号", "pinyin": "wǔ yuè yī hào", "german": "der 1. Mai" }
     ],
-    "notes": "Achtung: 三月 = Maerz (Monatsname), aber 三个月 = drei Monate (Dauer). Das 个 macht den Unterschied."
+    "notes": "Achtung: 三月 = März (Monatsname), aber 三个月 = drei Monate (Dauer). Das 个 macht den Unterschied."
   },
   {
     "classifier": "代",
     "pinyin": "dài",
     "meaning": "Generation",
     "category": "Zeit",
-    "usage": "Fuer Generationen von Menschen und Produkten",
+    "usage": "Für Generationen von Menschen und Produkten",
     "questionWord": "几代",
     "table": [
       { "number": "一", "pinyin": "yī dài", "chinese": "一代" },
@@ -1364,7 +1364,7 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "chinese": "三代人", "pinyin": "sān dài rén", "german": "drei Generationen" },
       { "chinese": "新一代手机", "pinyin": "xīn yī dài shǒujī", "german": "die neue Generation Smartphones" }
     ],
-    "notes": "Fuer Familiengenerationen und Produktgenerationen. 一代人 (eine Generation Menschen), 第五代 (die fuenfte Generation)."
+    "notes": "Für Familiengenerationen und Produktgenerationen. 一代人 (eine Generation Menschen), 第五代 (die fünfte Generation)."
   },
 
   // =============================================
@@ -1375,7 +1375,7 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "pinyin": "xí",
     "meaning": "Festmahl, Tischgesellschaft",
     "category": "Essen",
-    "usage": "Fuer Festmahle und gedeckte Tische (Bankette)",
+    "usage": "Für Festmahle und gedeckte Tische (Bankette)",
     "questionWord": "几席",
     "table": [
       { "number": "一", "pinyin": "yī xí", "chinese": "一席" },
@@ -1391,17 +1391,17 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "摆了十席", "pinyin": "bǎi le shí xí", "german": "zehn Tische (fuer ein Bankett) aufgestellt" },
+      { "chinese": "摆了十席", "pinyin": "bǎi le shí xí", "german": "zehn Tische (für ein Bankett) aufgestellt" },
       { "chinese": "一席话", "pinyin": "yī xí huà", "german": "eine Reihe von Worten / eine Ansprache" }
     ],
-    "notes": "Fuer Banketttische und Festmahle. Uebertragen: 一席话 = eine bedeutungsvolle Ansprache."
+    "notes": "Für Banketttische und Festmahle. Übertragen: 一席话 = eine bedeutungsvolle Ansprache."
   },
   {
     "classifier": "手",
     "pinyin": "shǒu",
     "meaning": "Hand(voll), Fertigkeit",
     "category": "Handlungen",
-    "usage": "Fuer Fertigkeiten, Karten (Kartenspiel) und Handvoll",
+    "usage": "Für Fertigkeiten, Karten (Kartenspiel) und Handvoll",
     "questionWord": "几手",
     "table": [
       { "number": "一", "pinyin": "yī shǒu", "chinese": "一手" },
@@ -1417,17 +1417,17 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "他有一手好字。", "pinyin": "tā yǒu yī shǒu hǎo zì.", "german": "Er schreibt eine schoene Handschrift." },
-      { "chinese": "露了一手", "pinyin": "lòu le yī shǒu", "german": "sein Koennen gezeigt" }
+      { "chinese": "他有一手好字。", "pinyin": "tā yǒu yī shǒu hǎo zì.", "german": "Er schreibt eine schöne Handschrift." },
+      { "chinese": "露了一手", "pinyin": "lòu le yī shǒu", "german": "sein Können gezeigt" }
     ],
-    "notes": "一手 + Faehigkeit: eine besondere Fertigkeit. 一手好菜 (gut kochen koennen). Auch: 二手 = Second-Hand."
+    "notes": "一手 + Fähigkeit: eine besondere Fertigkeit. 一手好菜 (gut kochen können). Auch: 二手 = Second-Hand."
   },
   {
     "classifier": "局",
     "pinyin": "jú",
     "meaning": "Partie, Runde (Spiel)",
     "category": "Abstrakt",
-    "usage": "Fuer Partien von Brett- und Kartenspielen",
+    "usage": "Für Partien von Brett- und Kartenspielen",
     "questionWord": "几局",
     "table": [
       { "number": "一", "pinyin": "yī jú", "chinese": "一局" },
@@ -1446,14 +1446,14 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "chinese": "下了三局棋", "pinyin": "xià le sān jú qí", "german": "drei Partien Schach gespielt" },
       { "chinese": "赢了两局", "pinyin": "yíng le liǎng jú", "german": "zwei Runden gewonnen" }
     ],
-    "notes": "Fuer Spielrunden: Schach, Karten, Tischtennis, Videospiele. 三局两胜 = 'Best of Three'."
+    "notes": "Für Spielrunden: Schach, Karten, Tischtennis, Videospiele. 三局两胜 = 'Best of Three'."
   },
   {
     "classifier": "盆",
     "pinyin": "pén",
     "meaning": "Becken(voll), Topf (Blumentopf)",
     "category": "Objekte",
-    "usage": "Fuer den Inhalt eines Beckens oder Blumentopfes",
+    "usage": "Für den Inhalt eines Beckens oder Blumentopfes",
     "questionWord": "几盆",
     "table": [
       { "number": "一", "pinyin": "yī pén", "chinese": "一盆" },
@@ -1472,14 +1472,14 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
       { "chinese": "一盆花", "pinyin": "yī pén huā", "german": "eine Topfpflanze / ein Blumentopf" },
       { "chinese": "一盆冷水", "pinyin": "yī pén lěngshuǐ", "german": "ein Becken kaltes Wasser" }
     ],
-    "notes": "Fuer Topfpflanzen und Beckeninhalte. Redewendung: 泼一盆冷水 (einen Eimer kaltes Wasser giessen = jemandes Enthusiasmus daempfen)."
+    "notes": "Für Topfpflanzen und Beckeninhalte. Redewendung: 泼一盆冷水 (einen Eimer kaltes Wasser gießen = jemandes Enthusiasmus dämpfen)."
   },
   {
     "classifier": "炷",
     "pinyin": "zhù",
-    "meaning": "Stueck (Raeucherstaebchen)",
+    "meaning": "Stück (Räucherstäbchen)",
     "category": "Objekte",
-    "usage": "Fuer Raeucherstaebchen und Weihrauch",
+    "usage": "Für Räucherstäbchen und Weihrauch",
     "questionWord": "几炷",
     "table": [
       { "number": "一", "pinyin": "yī zhù", "chinese": "一炷" },
@@ -1495,17 +1495,17 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     ],
     "specialForms": [],
     "examples": [
-      { "chinese": "烧三炷香", "pinyin": "shāo sān zhù xiāng", "german": "drei Raeucherstaebchen anzuenden" },
-      { "chinese": "一炷香的时间", "pinyin": "yī zhù xiāng de shíjiān", "german": "die Dauer, bis ein Raeucherstaebchen abgebrannt ist (ca. 30 Min.)" }
+      { "chinese": "烧三炷香", "pinyin": "shāo sān zhù xiāng", "german": "drei Räucherstäbchen anzünden" },
+      { "chinese": "一炷香的时间", "pinyin": "yī zhù xiāng de shíjiān", "german": "die Dauer, bis ein Räucherstäbchen abgebrannt ist (ca. 30 Min.)" }
     ],
-    "notes": "Kulturbezogen: Im Tempel werden traditionell drei Raeucherstaebchen angezuendet. 一炷香 war eine alte Zeiteinheit (ca. 30 Minuten)."
+    "notes": "Kulturbezogen: Im Tempel werden traditionell drei Räucherstäbchen angezündet. 一炷香 war eine alte Zeiteinheit (ca. 30 Minuten)."
   },
   {
     "classifier": "尾",
     "pinyin": "wěi",
-    "meaning": "Stueck (Fisch)",
+    "meaning": "Stück (Fisch)",
     "category": "Tiere",
-    "usage": "Fuer Fische (regional, besonders in Suedchina)",
+    "usage": "Für Fische (regional, besonders in Südchina)",
     "questionWord": "几尾",
     "table": [
       { "number": "一", "pinyin": "yī wěi", "chinese": "一尾" },
@@ -1522,8 +1522,8 @@ window.MEASURE_WORDS_DATA.measureWords = window.MEASURE_WORDS_DATA.measureWords.
     "specialForms": [],
     "examples": [
       { "chinese": "一尾鲤鱼", "pinyin": "yī wěi lǐyú", "german": "ein Karpfen" },
-      { "chinese": "养了五尾金鱼", "pinyin": "yǎng le wǔ wěi jīnyú", "german": "fuenf Goldfische gehalten" }
+      { "chinese": "养了五尾金鱼", "pinyin": "yǎng le wǔ wěi jīnyú", "german": "fünf Goldfische gehalten" }
     ],
-    "notes": "Regionales Zaehlwort fuer Fische, besonders in Suedchina und Taiwan. Standardsprachlich wird 条 fuer Fische verwendet."
+    "notes": "Regionales Zählwort für Fische, besonders in Südchina und Taiwan. Standardsprachlich wird 条 für Fische verwendet."
   }
 ]);

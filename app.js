@@ -401,8 +401,9 @@
     if (quizDataPromise) return quizDataPromise;
 
     setLoadingVisible('quiz', true, 'Lade Quiz-Daten...');
+    // Hanzi components only refine radical distractors; the quiz also works without them.
     quizDataPromise = Promise.all([
-      ensureSectionLoaded('hanzi'),
+      ensureHanziDetailsLoaded().catch(function () { return ensureSectionLoaded('hanzi'); }),
       ensureSectionLoaded('grammar'),
       ensureSectionLoaded('vocab').then(ensureVocabDetailsLoaded),
       ensureSectionLoaded('measurewords')
