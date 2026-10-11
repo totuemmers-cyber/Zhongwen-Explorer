@@ -502,5 +502,89 @@
   "policy": "author+proofread",
   "date": "2026-10-11",
   "hash": "8d9e37801ba9aac7"
+ },
+ "lesson-46": {
+  "batch": "l001",
+  "policy": "author+review",
+  "date": "2026-10-11",
+  "hash": "266a32b976c7bf7c"
+ },
+ "lesson-47": {
+  "batch": "l001",
+  "policy": "author+review",
+  "date": "2026-10-11",
+  "hash": "e05ac7c40afebaae"
+ },
+ "lesson-48": {
+  "batch": "l001",
+  "policy": "author+review",
+  "date": "2026-10-11",
+  "hash": "77bbabece5199f13"
+ },
+ "lesson-49": {
+  "batch": "l001",
+  "policy": "author+review",
+  "date": "2026-10-11",
+  "hash": "fef1b993f2737678"
+ },
+ "lesson-50": {
+  "batch": "l001",
+  "policy": "author+review",
+  "date": "2026-10-11",
+  "hash": "6681344d565857cd"
+ },
+ "lesson-51": {
+  "batch": "l001",
+  "policy": "author+review",
+  "date": "2026-10-11",
+  "hash": "c400e731aeccb72b"
+ },
+ "lesson-52": {
+  "batch": "l001",
+  "policy": "author+review",
+  "date": "2026-10-11",
+  "hash": "8f81f55fb9da88b5"
+ },
+ "lesson-53": {
+  "batch": "l001",
+  "policy": "author+review",
+  "date": "2026-10-11",
+  "hash": "9c205d6dbb265f55"
+ },
+ "lesson-54": {
+  "batch": "l001",
+  "policy": "author+review",
+  "date": "2026-10-11",
+  "hash": "05aa84dfca4b8c4c"
+ },
+ "lesson-55": {
+  "batch": "l001",
+  "policy": "author+review",
+  "date": "2026-10-11",
+  "hash": "7ffa24f6dcfdc035"
+ },
+ "lesson-56": {
+  "batch": "l001",
+  "policy": "author+review",
+  "date": "2026-10-11",
+  "hash": "e9455810a378b3e4"
+ },
+ "lesson-57": {
+  "batch": "l001",
+  "policy": "author+review",
+  "date": "2026-10-11",
+  "hash": "eb31eadb10d7651f"
+ },
+ "lesson-58": {
+  "batch": "l001",
+  "policy": "author+review",
+  "date": "2026-10-11",
+  "hash": "117ab6e5bd4cc4fc"
+ },
+ "lesson-59": {
+  "batch": "l001",
+  "policy": "author+review",
+  "date": "2026-10-11",
+  "hash": "7b4ccb6fba9c5d98"
  }
 }
