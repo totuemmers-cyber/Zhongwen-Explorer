@@ -9,11 +9,11 @@
    "title": "问答个人基本信息"
   },
   "topic": "基本信息›个人信息›身份、家庭成员、朋友、技能等",
-  "title": "Wang Yue stellt sich vor",
-  "objective": "Du kannst in einer kurzen Selbstvorstellung Name, Alter, Herkunft, Familie und Hobbys einer Person erkennen.",
-  "textType": "Selbstvorstellung",
+  "title": "Ein Beitrag in einer Gruppe",
+  "objective": "Du kannst in einem kurzen persönlichen Text die wichtigsten Informationen über eine Person verstehen.",
+  "textType": "Beitrag",
   "minutes": 5,
-  "introduction": "Eine chinesische Studentin stellt sich in einer Gruppe für Sprachpartner vor. Achte auf ihr Alter, ihren Studienort und ihre Familie.",
+  "introduction": "In einer Online-Gruppe für Sprachpartner liest du diesen Beitrag von Wang Yue.",
   "passages": [
    {
     "id": "p1",
@@ -28,7 +28,7 @@
     "pinyin": "Wǒ jiā yǒu sì kǒu rén: bàba, māma, gēge hé wǒ. Wǒ gēge shì yīshēng. Wǒ xǐhuan chàng gē, yě xǐhuan dǎ lánqiú. Hěn gāoxìng rènshi dàjiā!"
    }
   ],
-  "translation": "Hallo zusammen! Ich heiße Wang Yue, bin dieses Jahr neunzehn Jahre alt und studiere an der Peking-Universität. Ich bin Chinesin, meine Familie wohnt in Shanghai. Meine Familie hat vier Personen: Papa, Mama, meinen älteren Bruder und mich. Mein älterer Bruder ist Arzt. Ich singe gern und spiele auch gern Basketball. Ich freue mich, euch alle kennenzulernen!",
+  "translation": "Hallo zusammen! Ich heiße Wang Yue, bin dieses Jahr neunzehn Jahre alt und studiere an der Peking-Universität. Ich komme aus China, meine Familie wohnt in Shanghai. Meine Familie hat vier Personen: Papa, Mama, meinen älteren Bruder und mich. Mein älterer Bruder ist Arzt. Ich singe gern und spiele auch gern Basketball. Ich freue mich, euch alle kennenzulernen!",
   "glossary": [
    {
     "word": "北京大学",
@@ -91,20 +91,20 @@
     "evidence": "p1",
     "choices": [
      {
-      "text": "Wang Yue stellt ihren Bruder als neuen Arzt vor.",
+      "text": "Wang Yue stellt den älteren Bruder als neuen Arzt vor.",
       "explanation": "Falsch. Über den Bruder steht nur ein Satz (我哥哥是医生); Wang Yue spricht vor allem über sich selbst."
      },
      {
       "text": "Wang Yue beschreibt die Peking-Universität.",
-      "explanation": "Falsch. Sie sagt nur, dass sie dort studiert (是北京大学的学生), beschreibt die Universität aber nicht."
+      "explanation": "Falsch. Wang Yue sagt nur, dort zu studieren (是北京大学的学生), beschreibt die Universität aber nicht."
      },
      {
-      "text": "Wang Yue stellt sich und ihre Familie vor.",
-      "explanation": "Richtig. Sie nennt Name, Alter, Studienort und Herkunft (我叫王月……) und erzählt von ihrer Familie und ihren Hobbys."
+      "text": "Wang Yue stellt sich selbst und die eigene Familie vor.",
+      "explanation": "Richtig. Wang Yue nennt Name, Alter, Studienort und Herkunft (我叫王月……) und erzählt von der Familie und den eigenen Hobbys."
      },
      {
       "text": "Wang Yue lädt alle zum Basketballspielen ein.",
-      "explanation": "Falsch. Sie sagt nur, dass sie gern Basketball spielt (也喜欢打篮球); eine Einladung gibt es nicht."
+      "explanation": "Falsch. Wang Yue sagt nur, gern Basketball zu spielen (也喜欢打篮球); eine Einladung gibt es nicht."
      }
     ],
     "answer": 2
@@ -112,23 +112,23 @@
    {
     "id": "q2",
     "kind": "detail",
-    "prompt": "Wie alt ist Wang Yue und wo studiert sie?",
+    "prompt": "Wie alt ist Wang Yue, und wo liegt der Studienort?",
     "evidence": "p1",
     "choices": [
      {
-      "text": "Sie ist 19 und studiert in Peking.",
-      "explanation": "Richtig. 今年十九岁 heißt „dieses Jahr 19 Jahre alt“, und sie ist Studentin der Peking-Universität (北京大学)."
+      "text": "19 Jahre, Studium in Peking",
+      "explanation": "Richtig. 今年十九岁 heißt „dieses Jahr 19 Jahre alt“, und Wang Yue studiert an der Peking-Universität (北京大学)."
      },
      {
-      "text": "Sie ist 19 und studiert in Shanghai.",
-      "explanation": "Falsch. In Shanghai wohnt ihre Familie (我家在上海), sie studiert aber in Peking."
+      "text": "19 Jahre, Studium in Shanghai",
+      "explanation": "Falsch. In Shanghai wohnt die Familie (我家在上海), studiert wird aber in Peking."
      },
      {
-      "text": "Sie ist 9 und studiert in Peking.",
+      "text": "9 Jahre, Studium in Peking",
       "explanation": "Falsch. 十九 ist zehn plus neun, also 19; „neun“ wäre nur 九."
      },
      {
-      "text": "Sie ist 29 und studiert in Shanghai.",
+      "text": "29 Jahre, Studium in Shanghai",
       "explanation": "Falsch. 29 hieße 二十九; im Text steht 十九. Studienort ist Peking, nicht Shanghai."
      }
     ],
@@ -141,20 +141,20 @@
     "evidence": "p2",
     "choices": [
      {
-      "text": "Sie hat noch eine jüngere Schwester.",
+      "text": "Wang Yue hat noch eine jüngere Schwester.",
       "explanation": "Falsch. Die Familie hat vier Personen: Papa, Mama, der ältere Bruder und Wang Yue (爸爸、妈妈、哥哥和我) – für eine Schwester ist kein Platz."
      },
      {
-      "text": "Ihre Eltern wohnen in Peking.",
-      "explanation": "Falsch. Ihre Familie wohnt in Shanghai (我家在上海); in Peking studiert nur Wang Yue."
+      "text": "Wang Yues Eltern wohnen in Peking.",
+      "explanation": "Falsch. Die Familie wohnt in Shanghai (我家在上海); in Peking studiert nur Wang Yue."
      },
      {
-      "text": "Ihr Bruder studiert auch an der Peking-Universität.",
-      "explanation": "Falsch. Ihr Bruder ist Arzt (我哥哥是医生), kein Student."
+      "text": "Wang Yues Bruder studiert auch an der Peking-Universität.",
+      "explanation": "Falsch. Der Bruder ist Arzt (我哥哥是医生), kein Student."
      },
      {
-      "text": "Sie ist das jüngere von zwei Kindern.",
-      "explanation": "Richtig. Außer ihr gibt es nur ein Kind, ihren Bruder, und 哥哥 bedeutet „älterer Bruder“ – also ist Wang Yue jünger."
+      "text": "Wang Yue ist das jüngere von zwei Kindern.",
+      "explanation": "Richtig. Außer Wang Yue gibt es nur ein Kind, den Bruder, und 哥哥 bedeutet „älterer Bruder“ – also ist Wang Yue jünger."
      }
     ],
     "answer": 3
@@ -171,11 +171,11 @@
    "title": "问答物品信息"
   },
   "topic": "基本信息›物品信息›物品特征",
-  "title": "Wer hat meinen Schulranzen gesehen?",
-  "objective": "Du kannst auf einem Suchzettel verstehen, welcher Gegenstand gesucht wird, wie er aussieht und was darin ist.",
-  "textType": "Suchzettel",
+  "title": "Ein Zettel am schwarzen Brett",
+  "objective": "Du kannst in einem kurzen Aushang die wichtigsten Informationen verstehen.",
+  "textType": "Zettel",
   "minutes": 5,
-  "introduction": "Am schwarzen Brett einer Schule hängt dieser Zettel. Achte auf Farbe und Größe des Ranzens und darauf, was darin ist.",
+  "introduction": "Am schwarzen Brett einer Schule hängt dieser Zettel.",
   "passages": [
    {
     "id": "p1",
@@ -250,20 +250,20 @@
     "evidence": "p2",
     "choices": [
      {
-      "text": "Zhang Ming verkauft seinen roten Schulranzen.",
+      "text": "Zhang Ming verkauft einen roten Schulranzen.",
       "explanation": "Falsch. Von Verkaufen ist keine Rede; der Ranzen ist verschwunden (我的书包不见了)."
      },
      {
-      "text": "Zhang Ming hat seinen Schulranzen verloren und sucht ihn.",
-      "explanation": "Richtig. Die Überschrift lautet 找书包 („Schulranzen gesucht“), und er schreibt 我的书包不见了."
+      "text": "Zhang Ming hat den eigenen Schulranzen verloren und sucht ihn.",
+      "explanation": "Richtig. Die Überschrift lautet 找书包 („Schulranzen gesucht“), und darunter steht 我的书包不见了."
      },
      {
-      "text": "Zhang Ming hat einen Schulranzen gefunden und sucht den Besitzer.",
-      "explanation": "Falsch. Es ist sein eigener Ranzen (我的书包), und sein Name steht darauf."
+      "text": "Zhang Ming hat einen fremden Schulranzen gefunden und sucht, wem er gehört.",
+      "explanation": "Falsch. Es ist Zhang Mings eigener Ranzen (我的书包), und der Name steht darauf."
      },
      {
       "text": "Zhang Ming möchte einen neuen Schulranzen kaufen.",
-      "explanation": "Falsch. Er will keinen neuen kaufen, sondern bittet um einen Anruf, wenn jemand seinen Ranzen gesehen hat."
+      "explanation": "Falsch. Von Kaufen ist keine Rede; Zhang Ming bittet alle, die den Ranzen gesehen haben, um einen Anruf (看见了，请给我打电话)."
      }
     ],
     "answer": 1
@@ -296,24 +296,24 @@
    {
     "id": "q3",
     "kind": "inference",
-    "prompt": "Eine Mitschülerin findet einen großen schwarzen Schulranzen ohne Namen. Was stimmt?",
+    "prompt": "Jemand findet in der Schule einen großen schwarzen Schulranzen ohne Namen. Was stimmt?",
     "evidence": "p2",
     "choices": [
      {
-      "text": "Das ist wohl nicht Zhang Mings Ranzen, denn seiner ist rot, nicht groß und trägt seinen Namen.",
-      "explanation": "Richtig. Zhang Mings Ranzen ist 红色的, 不大, und auf ihm steht sein Name (书包上写着我的名字)."
+      "text": "Das ist wohl nicht Zhang Mings Ranzen, denn der gesuchte ist rot, nicht groß und trägt einen Namen.",
+      "explanation": "Richtig. Der gesuchte Ranzen ist 红色的, 不大, und auf ihm steht Zhang Mings Name (书包上写着我的名字)."
      },
      {
-      "text": "Das ist sicher Zhang Mings Ranzen, denn seiner ist schwarz.",
+      "text": "Das ist sicher Zhang Mings Ranzen, denn der gesuchte ist schwarz.",
       "explanation": "Falsch. Schwarz ist nur der Becher (黑色的杯子); der Ranzen ist rot (书包是红色的)."
      },
      {
-      "text": "Das ist sicher Zhang Mings Ranzen, denn seiner ist groß.",
-      "explanation": "Falsch. Im Text steht 不大 – sein Ranzen ist nicht groß."
+      "text": "Das ist sicher Zhang Mings Ranzen, denn der gesuchte ist groß.",
+      "explanation": "Falsch. Im Text steht 不大 – der gesuchte Ranzen ist nicht groß."
      },
      {
-      "text": "Das kann Zhang Mings Ranzen sein, denn auf seinem steht kein Name.",
-      "explanation": "Falsch. Auf seinem Ranzen steht sein Name: 书包上写着我的名字：张明."
+      "text": "Das kann Zhang Mings Ranzen sein, denn auf dem gesuchten steht kein Name.",
+      "explanation": "Falsch. Auf dem gesuchten Ranzen steht ein Name: 书包上写着我的名字：张明."
      }
     ],
     "answer": 0
@@ -330,30 +330,30 @@
    "title": "问答天气"
   },
   "topic": "基本信息›环境信息›天气",
-  "title": "Das Wetter in den nächsten Tagen",
-  "objective": "Du kannst einem kurzen Wetterbericht entnehmen, an welchem Tag es warm, kalt, regnerisch oder verschneit ist.",
-  "textType": "Wetterbericht",
+  "title": "Ein Aushang in der Schule",
+  "objective": "Du kannst in einem kurzen Aushang die wichtigsten Informationen verstehen.",
+  "textType": "Aushang",
   "minutes": 5,
-  "introduction": "Eine Schule informiert ihre Schülerinnen und Schüler über das Wetter der nächsten drei Tage. Achte darauf, an welchem Tag es regnet und wann es kalt wird.",
+  "introduction": "Am schwarzen Brett einer Schule hängt dieser Aushang.",
   "passages": [
    {
     "id": "p1",
     "speaker": "",
-    "label": "Heute",
+    "label": "Teil 1",
     "text": "今天天气很好，是晴天，不冷也不热。下午大家可以出去运动。",
     "pinyin": "Jīntiān tiānqì hěn hǎo, shì qíngtiān, bù lěng yě bú rè. Xiàwǔ dàjiā kěyǐ chūqu yùndòng."
    },
    {
     "id": "p2",
     "speaker": "",
-    "label": "Morgen",
+    "label": "Teil 2",
     "text": "明天是阴天，有点儿冷。下午开始下雨，晚上雨很大。",
     "pinyin": "Míngtiān shì yīntiān, yǒudiǎnr lěng. Xiàwǔ kāishǐ xià yǔ, wǎnshang yǔ hěn dà."
    },
    {
     "id": "p3",
     "speaker": "",
-    "label": "Übermorgen",
+    "label": "Teil 3",
     "text": "后天非常冷，可能会下雪。出门的时候，请多穿一点儿衣服。",
     "pinyin": "Hòutiān fēicháng lěng, kěnéng huì xià xuě. Chūmén de shíhou, qǐng duō chuān yìdiǎnr yīfu."
    }
@@ -456,7 +456,7 @@
      },
      {
       "text": "Übermorgen",
-      "explanation": "Falsch. Übermorgen ist es sehr kalt, und es kann schneien (可能会下雪) – von Regen steht dort nichts."
+      "explanation": "Falsch. Der Regen beginnt schon morgen Nachmittag (明天……下午开始下雨); für übermorgen heißt es 可能会下雪 – es kann schneien."
      }
     ],
     "answer": 1
@@ -498,30 +498,30 @@
    "title": "问答环境信息"
   },
   "topic": "基本信息›事件信息›日期、时间、地点、方位、参加者、号码等",
-  "title": "Wo finde ich was?",
-  "objective": "Du kannst auf einem Hinweisschild erkennen, welche Geschäfte es gibt und auf welcher Etage und Seite sie liegen.",
-  "textType": "Hinweisschild",
+  "title": "Ein Schild am Eingang",
+  "objective": "Du kannst auf einem Schild die wichtigsten Informationen finden.",
+  "textType": "Schild",
   "minutes": 4,
-  "introduction": "Am Eingang eines großen Gebäudes hängt dieses Schild. Achte darauf, was sich auf welcher Ebene befindet und auf welcher Seite.",
+  "introduction": "Am Eingang eines großen Gebäudes hängt dieses Schild.",
   "passages": [
    {
     "id": "p1",
     "speaker": "",
-    "label": "Ebene 1 (Erdgeschoss)",
+    "label": "Teil 1",
     "text": "一楼：超市在左边，药店在右边。",
     "pinyin": "Yī lóu: chāoshì zài zuǒbian, yàodiàn zài yòubian."
    },
    {
     "id": "p2",
     "speaker": "",
-    "label": "Ebene 2 (1. Stock)",
+    "label": "Teil 2",
     "text": "二楼：衣服、手表、书店。",
     "pinyin": "Èr lóu: yīfu, shǒubiǎo, shūdiàn."
    },
    {
     "id": "p3",
     "speaker": "",
-    "label": "Ebene 3 (2. Stock)",
+    "label": "Teil 3",
     "text": "三楼：饭馆、电影院。",
     "pinyin": "Sān lóu: fànguǎn, diànyǐngyuàn."
    },
@@ -672,23 +672,23 @@
    "title": "问答饮食喜好"
   },
   "topic": "日常生活›饮食›食物饮品",
-  "title": "Eine kleine Speisekarte",
-  "objective": "Gängige Speisen und Getränke auf einer chinesischen Speisekarte erkennen und Preise sowie Verkaufszeiten verstehen.",
-  "textType": "Speisekarte",
+  "title": "Ein Aushang an einer Tür",
+  "objective": "Du kannst in einem kurzen Aushang die wichtigsten Informationen verstehen.",
+  "textType": "Aushang",
   "minutes": 5,
-  "introduction": "Du stehst vor einem kleinen Lokal und liest die Speisekarte. Achte auf die Namen der Speisen und Getränke, auf die Preise und auf den Hinweis unten.",
+  "introduction": "An der Tür eines Hauses in der Stadt hängt dieser Aushang.",
   "passages": [
    {
     "id": "p1",
     "speaker": "",
-    "label": "Speisen",
+    "label": "Teil 1",
     "text": "包子 2元　饺子 15元　面条儿 12元　米饭 2元　鸡蛋 3元",
     "pinyin": "bāozi 2 yuán  jiǎozi 15 yuán  miàntiáor 12 yuán  mǐfàn 2 yuán  jīdàn 3 yuán"
    },
    {
     "id": "p2",
     "speaker": "",
-    "label": "Getränke",
+    "label": "Teil 2",
     "text": "水 2元　牛奶 5元　红茶 6元　绿茶 6元　奶茶 8元",
     "pinyin": "shuǐ 2 yuán  niúnǎi 5 yuán  hóngchá 6 yuán  lǜchá 6 yuán  nǎichá 8 yuán"
    },
@@ -846,11 +846,11 @@
    "title": "问答出行信息"
   },
   "topic": "日常生活›交通出行›出行方式",
-  "title": "Mit dem Zug nach Hause",
-  "objective": "In einer Kurznachricht Verkehrsmittel, Reisedauer, Preise und Uhrzeiten einer Reise verstehen.",
+  "title": "Eine Nachricht an die Mutter",
+  "objective": "Du kannst in einer kurzen Nachricht die wichtigsten Informationen verstehen.",
   "textType": "Kurznachricht",
   "minutes": 5,
-  "introduction": "Ein Student, der in Peking studiert, schreibt seiner Mutter eine Kurznachricht. Achte darauf, wie er reist, warum, und wann er ankommt.",
+  "introduction": "Eine Mutter liest eine Kurznachricht ihres Kindes.",
   "passages": [
    {
     "id": "p1",
@@ -925,20 +925,20 @@
     "evidence": "p1",
     "choices": [
      {
-      "text": "Die Mutter soll ihm ein Flugticket kaufen.",
-      "explanation": "Falsch: Darum bittet er nicht; er findet das Flugticket zu teuer (机票太贵了) und fährt mit dem Zug."
+      "text": "Die Mutter soll ein Flugticket kaufen.",
+      "explanation": "Falsch: Darum wird nicht gebeten; das Flugticket ist zu teuer (机票太贵了), deshalb geht es mit dem Zug (我坐火车)."
      },
      {
-      "text": "Er lädt seine Eltern nach Peking ein.",
-      "explanation": "Falsch: Er fährt selbst von Peking nach Hause (从北京开 … 回家); eine Einladung gibt es nicht."
+      "text": "Die Eltern werden nach Peking eingeladen.",
+      "explanation": "Falsch: Die schreibende Person fährt selbst von Peking nach Hause (从北京开 … 回家); eine Einladung gibt es nicht."
      },
      {
-      "text": "Er bittet die Eltern, ihn vom Bahnhof abzuholen.",
+      "text": "Die Eltern sollen zum Abholen an den Bahnhof kommen.",
       "explanation": "Falsch: Im Gegenteil – 你和爸爸别来车站了: Sie sollen nicht zum Bahnhof kommen."
      },
      {
-      "text": "Er teilt mit, wann und wie er nach Hause kommt.",
-      "explanation": "Richtig: Er nennt den Tag (下星期五), das Verkehrsmittel (火车) und die Uhrzeiten von Abfahrt und Ankunft."
+      "text": "Die schreibende Person teilt mit, wann und wie sie nach Hause kommt.",
+      "explanation": "Richtig: Genannt werden der Tag (下星期五), das Verkehrsmittel (火车) und die Uhrzeiten von Abfahrt und Ankunft."
      }
     ],
     "answer": 3
@@ -971,7 +971,7 @@
    {
     "id": "q3",
     "kind": "inference",
-    "prompt": "Warum fährt er mit dem Zug und nicht mit dem Flugzeug?",
+    "prompt": "Warum fährt die schreibende Person mit dem Zug und nicht mit dem Flugzeug?",
     "evidence": "p1",
     "choices": [
      {
@@ -983,12 +983,12 @@
       "explanation": "Richtig: 机票太贵了，一千多块 – die Zugfahrkarte kostet dagegen nur 三百块."
      },
      {
-      "text": "Weil die Eltern ihn am Bahnhof abholen wollen",
-      "explanation": "Falsch: Die Eltern sollen gar nicht zum Bahnhof kommen (别来车站了); er nimmt ein Taxi."
+      "text": "Weil die Eltern zum Abholen an den Bahnhof kommen wollen",
+      "explanation": "Falsch: Die Eltern sollen gar nicht zum Bahnhof kommen (别来车站了); vom Bahnhof geht es mit dem Taxi nach Hause (我打车回家)."
      },
      {
-      "text": "Weil er gern lange Zug fährt",
-      "explanation": "Falsch: Davon schreibt er nichts; zum Flug sagt er 但是机票太贵了 – der Grund ist der Preis."
+      "text": "Weil es keinen Flug gibt",
+      "explanation": "Falsch: Einen Flug gibt es (坐飞机要两个小时); nur das Ticket ist zu teuer (机票太贵了)."
      }
     ],
     "answer": 1
@@ -1005,30 +1005,30 @@
    "title": "交流休闲活动"
   },
   "topic": "日常生活›休闲›休闲活动",
-  "title": "Was machen wir am Wochenende?",
-  "objective": "Einem Aushang Freizeitaktivitäten mit Zeit und Ort entnehmen.",
+  "title": "Ein Zettel an der Klassentür",
+  "objective": "Du kannst in einem kurzen Aushang die wichtigsten Informationen verstehen.",
   "textType": "Aushang",
   "minutes": 5,
-  "introduction": "An der Tür eures Klassenzimmers hängt ein Zettel für das Wochenende. Achte darauf, was wann und wo stattfindet und was man tun muss, wenn man mitmachen will.",
+  "introduction": "An der Tür eures Klassenzimmers hängt dieser Zettel.",
   "passages": [
    {
     "id": "p1",
     "speaker": "",
-    "label": "Samstag",
+    "label": "Teil 1",
     "text": "同学们：这个星期六上午九点，我们在学校后面踢足球。下雨就不踢了。",
     "pinyin": "Tóngxuémen: zhège xīngqīliù shàngwǔ jiǔ diǎn, wǒmen zài xuéxiào hòumiàn tī zúqiú. Xià yǔ jiù bù tī le."
    },
    {
     "id": "p2",
     "speaker": "",
-    "label": "Sonntag",
+    "label": "Teil 2",
     "text": "星期天下午三点，大家在教室里唱歌、跳舞。",
     "pinyin": "Xīngqītiān xiàwǔ sān diǎn, dàjiā zài jiàoshì li chàng gē, tiàowǔ."
    },
    {
     "id": "p3",
     "speaker": "",
-    "label": "Anmeldung",
+    "label": "Teil 3",
     "text": "想来的同学，请星期五下课后告诉老师。",
     "pinyin": "Xiǎng lái de tóngxué, qǐng xīngqīwǔ xiàkè hòu gàosu lǎoshī."
    }
@@ -1123,7 +1123,7 @@
      },
      {
       "text": "Im Kino",
-      "explanation": "Falsch: Ein Kino kommt im Aushang nicht vor; als Ort steht da 在教室里."
+      "explanation": "Falsch: Als Ort steht da 在教室里 – im Klassenzimmer, nicht im Kino."
      },
      {
       "text": "Im Lehrerzimmer",
@@ -1173,30 +1173,30 @@
    "title": "介绍学习情况"
   },
   "topic": "教育情况›学习情况›课程信息",
-  "title": "Ein Stundenplan",
-  "objective": "Einem chinesischen Stundenplan Fächer, Wochentage und Uhrzeiten entnehmen.",
-  "textType": "Stundenplan (Auszug)",
+  "title": "Ein Zettel an der Pinnwand",
+  "objective": "Du kannst in einem kurzen Aushang die wichtigsten Informationen verstehen.",
+  "textType": "Aushang",
   "minutes": 5,
-  "introduction": "Hier siehst du einen Teil des Stundenplans einer Klasse. Achte auf die Fächer, die Wochentage und die Uhrzeiten – und auf den Hinweis am Ende.",
+  "introduction": "An einer Pinnwand hängt dieser Zettel.",
   "passages": [
    {
     "id": "p1",
     "speaker": "",
-    "label": "Montag",
+    "label": "Teil 1",
     "text": "星期一：上午八点汉语课，十点数学课；下午两点英语课。",
     "pinyin": "Xīngqīyī: shàngwǔ bā diǎn Hànyǔ kè, shí diǎn shùxué kè; xiàwǔ liǎng diǎn Yīngyǔ kè."
    },
    {
     "id": "p2",
     "speaker": "",
-    "label": "Mittwoch",
+    "label": "Teil 2",
     "text": "星期三：上午八点数学课，十点体育课；下午没有课。",
     "pinyin": "Xīngqīsān: shàngwǔ bā diǎn shùxué kè, shí diǎn tǐyù kè; xiàwǔ méiyǒu kè."
    },
    {
     "id": "p3",
     "speaker": "",
-    "label": "Freitag",
+    "label": "Teil 3",
     "text": "星期五：上午九点英语课；下午两点半音乐课。",
     "pinyin": "Xīngqīwǔ: shàngwǔ jiǔ diǎn Yīngyǔ kè; xiàwǔ liǎng diǎn bàn yīnyuè kè."
    },
@@ -1283,7 +1283,7 @@
    {
     "id": "q2",
     "kind": "detail",
-    "prompt": "Wann hat die Klasse Sport?",
+    "prompt": "Wann ist Sport?",
     "evidence": "p2",
     "choices": [
      {
@@ -1308,7 +1308,7 @@
    {
     "id": "q3",
     "kind": "inference",
-    "prompt": "Welcher Unterricht fällt am nächsten Montag aus?",
+    "prompt": "Was fällt am nächsten Montag aus?",
     "evidence": "p4",
     "choices": [
      {
@@ -1342,11 +1342,11 @@
    "title": "交流学校情况、课后活动"
   },
   "topic": "教育情况›校园生活›课后活动",
-  "title": "Nachmittags-AGs der Klasse 1",
-  "objective": "Du kannst einem einfachen Wochenplan entnehmen, welche Aktivität an welchem Tag, um wie viel Uhr und bei welcher Lehrkraft stattfindet.",
-  "textType": "Aushang: Plan der Nachmittagsaktivitäten",
+  "title": "Ein Aushang am schwarzen Brett",
+  "objective": "Du kannst in einem kurzen Aushang die wichtigsten Informationen verstehen.",
+  "textType": "Aushang",
   "minutes": 4,
-  "introduction": "Am schwarzen Brett hängt der Wochenplan der Aktivitäten nach dem Unterricht. Achte auf die Wochentage, die Uhrzeiten und die Namen der Lehrkräfte.",
+  "introduction": "Am schwarzen Brett einer Schule hängt dieser Aushang.",
   "passages": [
    {
     "id": "p1",
@@ -1358,33 +1358,33 @@
    {
     "id": "p2",
     "speaker": "",
-    "label": "Montag und Mittwoch",
+    "label": "Teil 1",
     "text": "星期一、星期三：下午四点半，篮球，王老师。",
-    "pinyin": "Xīngqīyī、 Xīngqīsān: xiàwǔ sì diǎn bàn, lánqiú, Wáng lǎoshī."
+    "pinyin": "Xīngqīyī、 xīngqīsān: xiàwǔ sì diǎn bàn, lánqiú, Wáng lǎoshī."
    },
    {
     "id": "p3",
     "speaker": "",
-    "label": "Dienstag",
+    "label": "Teil 2",
     "text": "星期二：下午四点，唱歌，张老师。",
     "pinyin": "Xīngqī'èr: xiàwǔ sì diǎn, chàng gē, Zhāng lǎoshī."
    },
    {
     "id": "p4",
     "speaker": "",
-    "label": "Donnerstag",
+    "label": "Teil 3",
     "text": "星期四：下午五点，游泳，李老师。",
     "pinyin": "Xīngqīsì: xiàwǔ wǔ diǎn, yóuyǒng, Lǐ lǎoshī."
    },
    {
     "id": "p5",
     "speaker": "",
-    "label": "Freitag",
+    "label": "Teil 4",
     "text": "星期五：没有活动。",
     "pinyin": "Xīngqīwǔ: méiyǒu huódòng."
    }
   ],
-  "translation": "Aktivitäten nach dem Unterricht – Klasse 1. Montag und Mittwoch: 16:30 Uhr, Basketball, Lehrer Wang. Dienstag: 16 Uhr, Singen, Lehrer Zhang. Donnerstag: 17 Uhr, Schwimmen, Lehrer Li. Freitag: keine Aktivität.",
+  "translation": "Aktivitäten nach dem Unterricht – Klasse 1. Montag und Mittwoch: 16:30 Uhr, Basketball, Lehrkraft Wang. Dienstag: 16 Uhr, Singen, Lehrkraft Zhang. Donnerstag: 17 Uhr, Schwimmen, Lehrkraft Li. Freitag: keine Aktivität.",
   "glossary": [
    {
     "word": "课后",
@@ -1440,7 +1440,7 @@
      },
      {
       "text": "Die Sprechzeiten der Lehrkräfte für die Eltern",
-      "explanation": "Falsch: Die Lehrkräfte werden nur als Leitung von Basketball, Singen und Schwimmen genannt; von Eltern ist keine Rede."
+      "explanation": "Falsch: Die Überschrift lautet „一班课后活动“; die Lehrkräfte leiten Basketball, Singen und Schwimmen – Sprechzeiten für Eltern sind das nicht."
      },
      {
       "text": "Die Öffnungszeiten des Schwimmbads",
@@ -1511,37 +1511,37 @@
    "title": "问答中国传统饮食"
   },
   "topic": "日常生活›饮食›就餐",
-  "title": "Die Speisekarte im Restaurant Wang",
-  "objective": "Du kannst auf einer einfachen chinesischen Speisekarte Gerichte, Getränke, Preise und Essenszeiten finden.",
-  "textType": "Speisekarte",
+  "title": "Ein Schild an einem Haus",
+  "objective": "Du kannst auf einem Schild die wichtigsten Informationen finden.",
+  "textType": "Schild",
   "minutes": 4,
-  "introduction": "Du sitzt in einem kleinen Restaurant und liest die Speisekarte. Achte darauf, was es zu welcher Mahlzeit gibt und was es kostet.",
+  "introduction": "An einem Haus in deiner Straße hängt dieses Schild.",
   "passages": [
    {
     "id": "p1",
     "speaker": "",
-    "label": "Name des Restaurants",
+    "label": "Überschrift",
     "text": "王家饭馆",
     "pinyin": "Wáng jiā fànguǎn"
    },
    {
     "id": "p2",
     "speaker": "",
-    "label": "Frühstück",
+    "label": "Teil 1",
     "text": "早饭（早上六点到十点）：肉包子2元一个，鸡蛋1元一个，牛奶4元。",
     "pinyin": "Zǎofàn (zǎoshang liù diǎn dào shí diǎn): ròu bāozi 2 yuán yí ge, jīdàn 1 yuán yí ge, niúnǎi 4 yuán."
    },
    {
     "id": "p3",
     "speaker": "",
-    "label": "Mittag- und Abendessen",
+    "label": "Teil 2",
     "text": "午饭、晚饭（中午十一点到晚上九点）：肉饺子18元，鸡蛋面条儿12元，米饭1元。",
     "pinyin": "Wǔfàn、 wǎnfàn (zhōngwǔ shíyī diǎn dào wǎnshang jiǔ diǎn): ròu jiǎozi 18 yuán, jīdàn miàntiáor 12 yuán, mǐfàn 1 yuán."
    },
    {
     "id": "p4",
     "speaker": "",
-    "label": "Tee",
+    "label": "Teil 3",
     "text": "茶：绿茶5元，红茶6元，奶茶8元。",
     "pinyin": "Chá: lǜchá 5 yuán, hóngchá 6 yuán, nǎichá 8 yuán."
    }
@@ -1646,7 +1646,7 @@
    {
     "id": "q3",
     "kind": "inference",
-    "prompt": "Herr Li kommt um 19 Uhr in das Restaurant. Was kann er laut Speisekarte NICHT bestellen?",
+    "prompt": "Du kommst um 19 Uhr dorthin. Was bekommst du laut Text NICHT?",
     "evidence": "p2",
     "choices": [
      {
@@ -1680,11 +1680,11 @@
    "title": "问答事件信息"
   },
   "topic": "基本信息›事件信息›日期、时间、地点、方位、参加者、号码等",
-  "title": "Einladung zum Geburtstag",
-  "objective": "Du verstehst in einem kurzen Gespräch, wann, wo und mit wem ein Treffen stattfindet.",
-  "textType": "Gespräch unter Freunden",
+  "title": "Ein kurzes Gespräch",
+  "objective": "Du kannst in einem kurzen Gespräch die wichtigsten Informationen verstehen.",
+  "textType": "Gespräch",
   "minutes": 3,
-  "introduction": "Zwei Freunde verabreden sich. Achte auf den Anlass, die Uhrzeit, den Ort und darauf, wer noch kommt.",
+  "introduction": "Zwei Bekannte, A und B, unterhalten sich.",
   "passages": [
    {
     "id": "p1",
@@ -1833,11 +1833,11 @@
    "title": "问答天气"
   },
   "topic": "基本信息›环境信息›天气",
-  "title": "Wie ist das Wetter bei dir?",
-  "objective": "Du verstehst am Telefon einfache Fragen und Antworten zum Wetter: Regen, kalt, warm.",
+  "title": "Ein Telefongespräch",
+  "objective": "Du kannst in einem kurzen Telefongespräch die wichtigsten Informationen verstehen.",
   "textType": "Telefongespräch",
   "minutes": 3,
-  "introduction": "Zwei Freunde, die an verschiedenen Orten wohnen, telefonieren. Achte darauf, wie das Wetter bei jedem von ihnen ist.",
+  "introduction": "Zwei Bekannte, A und B, telefonieren miteinander.",
   "passages": [
    {
     "id": "p1",
@@ -1974,11 +1974,11 @@
    "title": "问答饮食喜好"
   },
   "topic": "日常生活›饮食›就餐",
-  "title": "Was isst du gern?",
-  "objective": "Ein kurzes Gespräch über Lieblingsessen und eine Verabredung zum Mittagessen verstehen.",
-  "textType": "Gespräch unter Freunden",
+  "title": "Zwei Personen unterhalten sich",
+  "objective": "Du kannst in einem kurzen Gespräch die wichtigsten Informationen verstehen.",
+  "textType": "Gespräch",
   "minutes": 4,
-  "introduction": "Zwei Freunde sprechen über Essen und verabreden sich. Achte darauf, was B gern und nicht gern isst und wann und wo sie sich treffen.",
+  "introduction": "Zwei Bekannte, A und B, unterhalten sich.",
   "passages": [
    {
     "id": "p1",
@@ -2084,8 +2084,8 @@
       "explanation": "Falsch: Reis isst B gern: 我喜欢吃米饭."
      },
      {
-      "text": "Nudeln",
-      "explanation": "Falsch: Nudeln werden im Gespräch nicht erwähnt."
+      "text": "Nichts – B isst alles gern.",
+      "explanation": "Falsch: B sagt 不喜欢吃面包 – es gibt also etwas, das B nicht gern isst."
      },
      {
       "text": "Brot",
@@ -2127,11 +2127,11 @@
    "title": "问答商品信息"
   },
   "topic": "日常生活›购物›商品价格",
-  "title": "Wie viel kostet die Tasse?",
-  "objective": "Im Geschäft Preisangaben und die Frage nach dem Kaufwunsch verstehen.",
-  "textType": "Verkaufsgespräch",
+  "title": "In einem Geschäft",
+  "objective": "Du kannst in einem kurzen Gespräch die wichtigsten Informationen verstehen.",
+  "textType": "Gespräch",
   "minutes": 4,
-  "introduction": "Eine Kundin (A) fragt im Geschäft nach dem Preis einer Tasse, die Verkäuferin (B) antwortet. Achte auf die beiden Preise und darauf, welche Tasse die Kundin nimmt.",
+  "introduction": "A und B sprechen in einem Geschäft miteinander; B arbeitet dort.",
   "passages": [
    {
     "id": "p1",
@@ -2210,16 +2210,16 @@
     "evidence": "p1",
     "choices": [
      {
-      "text": "Eine Kundin fragt nach dem Preis einer Tasse und kauft eine.",
+      "text": "A fragt nach dem Preis einer Tasse und kauft eine.",
       "explanation": "Richtig: A fragt 这个杯子多少钱？ und sagt am Ende 我要小的."
      },
      {
-      "text": "Eine Kundin bringt eine kaputte Tasse zurück.",
+      "text": "A bringt eine kaputte Tasse zurück.",
       "explanation": "Falsch: Von einer kaputten Tasse ist keine Rede; A fragt nach dem Preis (多少钱)."
      },
      {
-      "text": "Zwei Freunde trinken zusammen Tee.",
-      "explanation": "Falsch: Es ist ein Verkaufsgespräch; B fragt höflich 您要哪个？"
+      "text": "A findet die Tassen zu teuer und kauft keine.",
+      "explanation": "Falsch: Die erste Tasse findet A 有点儿贵, nimmt am Ende aber die kleine (我要小的)."
      }
     ],
     "answer": 0
@@ -2236,7 +2236,7 @@
      },
      {
       "text": "12 Kuai",
-      "explanation": "Falsch: 十二 kommt im Gespräch nicht vor."
+      "explanation": "Falsch: B nennt für diese Tasse 二十块 (20); 十二 (12) hätte dieselben Zeichen in umgekehrter Reihenfolge."
      },
      {
       "text": "20 Kuai",
@@ -2278,11 +2278,11 @@
    "title": "介绍学习情况"
   },
   "topic": "教育情况›学习情况›课程信息",
-  "title": "Chinesisch an der Uni",
-  "objective": "Einfache Fragen und Antworten zu Studium, Fach und Unterrichtszeiten verstehen.",
+  "title": "Zwei Bekannte unterhalten sich",
+  "objective": "Du kannst in einem kurzen Gespräch die wichtigsten Informationen verstehen.",
   "textType": "Gespräch unter Bekannten",
   "minutes": 4,
-  "introduction": "A fragt B nach dem Studium. Achte darauf, was B lernt, wann der Unterricht beginnt und endet und wie B ihn findet.",
+  "introduction": "A trifft B und stellt ein paar Fragen.",
   "passages": [
    {
     "id": "p1",
@@ -2321,7 +2321,7 @@
     "pinyin": "Hěn yǒu yìsi, wǒ hěn xǐhuan."
    }
   ],
-  "translation": "A: Bist du Student? – B: Ja, ich studiere Chinesisch an der Universität. – A: Um wie viel Uhr habt ihr Unterricht? – B: Um acht fängt der Unterricht an, um zwölf ist er aus. – A: Wie ist der Chinesischunterricht? – B: Sehr interessant, er gefällt mir sehr.",
+  "translation": "A: Studierst du? – B: Ja, ich studiere Chinesisch an der Universität. – A: Um wie viel Uhr habt ihr Unterricht? – B: Um acht fängt der Unterricht an, um zwölf ist er aus. – A: Wie ist der Chinesischunterricht? – B: Sehr interessant, er gefällt mir sehr.",
   "glossary": [
    {
     "word": "大学生",
@@ -2383,8 +2383,8 @@
       "explanation": "Richtig: A fragt 你是大学生吗？, B lernt 汉语 an der Uni, dann geht es um 上课 und 汉语课."
      },
      {
-      "text": "Über eine Reise nach China.",
-      "explanation": "Falsch: Eine Reise wird nicht erwähnt."
+      "text": "Über den Englischunterricht von B.",
+      "explanation": "Falsch: B lernt 汉语 – Chinesisch, nicht Englisch (英语)."
      }
     ],
     "answer": 1
@@ -2421,8 +2421,8 @@
       "explanation": "Richtig: B sagt 很有意思，我很喜欢."
      },
      {
-      "text": "Zu schwer.",
-      "explanation": "Falsch: Von „schwer“ ist keine Rede; B findet ihn 很有意思."
+      "text": "Er gefällt B nicht.",
+      "explanation": "Falsch: B sagt 我很喜欢 – B mag ihn sehr."
      },
      {
       "text": "Langweilig.",
@@ -2443,11 +2443,11 @@
    "title": "交流工作信息"
   },
   "topic": "职场生活›工作情况›工作信息",
-  "title": "Was arbeitest du?",
-  "objective": "Einfache Fragen und Antworten zu Beruf, Arbeitsort, Arbeitszeit und Zufriedenheit verstehen.",
+  "title": "Ein Gespräch unter Bekannten",
+  "objective": "Du kannst in einem kurzen Gespräch die wichtigsten Informationen verstehen.",
   "textType": "Gespräch unter Bekannten",
   "minutes": 4,
-  "introduction": "A fragt B nach der Arbeit. Achte auf den Beruf, den Arbeitsort, die Uhrzeit und darauf, wie B die Arbeit findet.",
+  "introduction": "A und B kennen sich und unterhalten sich kurz.",
   "passages": [
    {
     "id": "p1",
@@ -2474,7 +2474,7 @@
     "pinyin": "Zǎoshang qī diǎn. Gōngzuò hěn máng, dànshì wǒ hěn xǐhuan."
    }
   ],
-  "translation": "A: Was arbeitest du? – B: Ich bin Arzt und arbeite im Krankenhaus. – A: Um wie viel Uhr fängst du an zu arbeiten? – B: Um sieben Uhr morgens. Ich habe sehr viel zu tun, aber die Arbeit gefällt mir sehr.",
+  "translation": "A: Was arbeitest du? – B: Ich bin Arzt/Ärztin und arbeite im Krankenhaus. – A: Um wie viel Uhr fängst du an zu arbeiten? – B: Um sieben Uhr morgens. Ich habe sehr viel zu tun, aber die Arbeit gefällt mir sehr.",
   "glossary": [
    {
     "word": "工作",
@@ -2558,7 +2558,7 @@
      },
      {
       "text": "In einem Restaurant.",
-      "explanation": "Falsch: Ein Restaurant (饭馆) wird nicht erwähnt."
+      "explanation": "Falsch: B sagt 在医院工作 – im Krankenhaus, nicht im Restaurant (饭馆)."
      }
     ],
     "answer": 0
@@ -2574,8 +2574,8 @@
       "explanation": "Falsch: Die Arbeit ist 很忙, und B sagt 我很喜欢."
      },
      {
-      "text": "B möchte die Arbeit wechseln.",
-      "explanation": "Falsch: Davon ist keine Rede; B mag die Arbeit (我很喜欢)."
+      "text": "B hat viel zu tun und mag die Arbeit deshalb nicht.",
+      "explanation": "Falsch: B hat zwar viel zu tun (很忙), sagt aber 但是我很喜欢."
      },
      {
       "text": "B hat viel zu tun, mag die Arbeit aber sehr.",

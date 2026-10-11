@@ -3,97 +3,161 @@
   "batch": "c001",
   "policy": "author+review",
   "date": "2026-10-10",
-  "hash": "adaf707d73280108"
+  "hash": "cc134f63db235cc9",
+  "revised": {
+   "pass": "proofread-hsk1",
+   "date": "2026-10-11"
+  }
  },
  "reading-hsk1-02": {
   "batch": "c001",
   "policy": "author+review",
   "date": "2026-10-10",
-  "hash": "f6af420f3d0174df"
+  "hash": "f0c5aeb6bb064743",
+  "revised": {
+   "pass": "proofread-hsk1",
+   "date": "2026-10-11"
+  }
  },
  "reading-hsk1-03": {
   "batch": "c001",
   "policy": "author+review",
   "date": "2026-10-10",
-  "hash": "d49bd3d1e6d7adfe"
+  "hash": "1357e0e677d8b948",
+  "revised": {
+   "pass": "proofread-hsk1",
+   "date": "2026-10-11"
+  }
  },
  "reading-hsk1-04": {
   "batch": "c001",
   "policy": "author+review",
   "date": "2026-10-10",
-  "hash": "9159d3e6e0981182"
+  "hash": "93c76c9839f642c1",
+  "revised": {
+   "pass": "proofread-hsk1",
+   "date": "2026-10-11"
+  }
  },
  "reading-hsk1-05": {
   "batch": "c001",
   "policy": "author+review",
   "date": "2026-10-10",
-  "hash": "a89a5f4217ada34a"
+  "hash": "4542e53d9b26a01d",
+  "revised": {
+   "pass": "proofread-hsk1",
+   "date": "2026-10-11"
+  }
  },
  "reading-hsk1-06": {
   "batch": "c001",
   "policy": "author+review",
   "date": "2026-10-10",
-  "hash": "a520783a4e26a3a5"
+  "hash": "05d3ef25827eba61",
+  "revised": {
+   "pass": "proofread-hsk1",
+   "date": "2026-10-11"
+  }
  },
  "reading-hsk1-07": {
   "batch": "c001",
   "policy": "author+review",
   "date": "2026-10-10",
-  "hash": "025c4fe95a546f53"
+  "hash": "326d15fc746280e8",
+  "revised": {
+   "pass": "proofread-hsk1",
+   "date": "2026-10-11"
+  }
  },
  "reading-hsk1-08": {
   "batch": "c001",
   "policy": "author+review",
   "date": "2026-10-10",
-  "hash": "5c1adea033c1ddd7"
+  "hash": "6bb5e7a8e5ded642",
+  "revised": {
+   "pass": "proofread-hsk1",
+   "date": "2026-10-11"
+  }
  },
  "reading-hsk1-09": {
   "batch": "c001",
   "policy": "author+review",
   "date": "2026-10-10",
-  "hash": "ac6635bbc50c36b6"
+  "hash": "bd9c1cd57365b34e",
+  "revised": {
+   "pass": "proofread-hsk1",
+   "date": "2026-10-11"
+  }
  },
  "reading-hsk1-10": {
   "batch": "c001",
   "policy": "author+review",
   "date": "2026-10-10",
-  "hash": "bbafbe9d222f7da3"
+  "hash": "157f084ee33ed0a8",
+  "revised": {
+   "pass": "proofread-hsk1",
+   "date": "2026-10-11"
+  }
  },
  "listening-hsk1-01": {
   "batch": "c001",
   "policy": "author+review",
   "date": "2026-10-10",
-  "hash": "926f31ccfabd157b"
+  "hash": "acf3d7c735596db4",
+  "revised": {
+   "pass": "proofread-hsk1",
+   "date": "2026-10-11"
+  }
  },
  "listening-hsk1-02": {
   "batch": "c001",
   "policy": "author+review",
   "date": "2026-10-10",
-  "hash": "31009758399897b2"
+  "hash": "cd5fc0690ae27cf9",
+  "revised": {
+   "pass": "proofread-hsk1",
+   "date": "2026-10-11"
+  }
  },
  "listening-hsk1-03": {
   "batch": "c001",
   "policy": "author+review",
   "date": "2026-10-10",
-  "hash": "0bb1367a6c4ce63f"
+  "hash": "d56a67458756e1a6",
+  "revised": {
+   "pass": "proofread-hsk1",
+   "date": "2026-10-11"
+  }
  },
  "listening-hsk1-04": {
   "batch": "c001",
   "policy": "author+review",
   "date": "2026-10-10",
-  "hash": "f37e5045ba3a1749"
+  "hash": "3eebe92d7d1ec158",
+  "revised": {
+   "pass": "proofread-hsk1",
+   "date": "2026-10-11"
+  }
  },
  "listening-hsk1-05": {
   "batch": "c001",
   "policy": "author+review",
   "date": "2026-10-10",
-  "hash": "442558a8e28806e1"
+  "hash": "4629042f50d4b169",
+  "revised": {
+   "pass": "proofread-hsk1",
+   "date": "2026-10-11"
+  }
  },
  "listening-hsk1-06": {
   "batch": "c001",
   "policy": "author+review",
   "date": "2026-10-10",
-  "hash": "ff0557a976c13e08"
+  "hash": "c4a267f6a3fdef76",
+  "revised": {
+   "pass": "proofread-hsk1",
+   "date": "2026-10-11"
+  }
  },
  "reading-hsk2-01": {
   "batch": "c002",
