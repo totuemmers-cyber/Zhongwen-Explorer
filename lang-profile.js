@@ -5,6 +5,8 @@ window.LANG_PROFILE = {
   appTitle: 'Zhongwen Explorer',
   // localStorage/sessionStorage keys; the origin is shared with Nihongo Explorer.
   storagePrefix: 'zhongwen-',
+  // Appended as ?v=… to scripts and styles so browsers load changed files (npm run bump-version).
+  assetVersion: '202610111617',
   sessionKey: 'zhongwen-workspace',
   // Web Speech voice language; mainland Mandarin (not zh-HK/zh-TW, not Cantonese).
   speechLang: 'zh-CN',

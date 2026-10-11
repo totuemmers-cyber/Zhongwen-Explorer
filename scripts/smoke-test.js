@@ -170,11 +170,11 @@ async function run() {
     assert(hanziSection.filteredItems.length > 20 && hanziSection.filteredItems.every(h => h.primaryRadical === '水' || (h.components || []).some(c => c.part === '水')), 'Radical filter');
     app.clearRadicalFilter();
     for (const src of ['hanzi-hsk1.js', 'hanzi-hsk7-9.js', 'hanzi-zusatz.js']) {
-      assert(!d.querySelector('script[src="' + src + '"]'), 'Hanzi tab loaded source file ' + src);
+      assert(!d.querySelector('script[src^="' + src + '"]'), 'Hanzi tab loaded source file ' + src);
     }
     // The browser loads the generated runtime, never the per-level sources; examples follow.
     for (const src of ['vocab-hsk1.js', 'vocab-zusatz.js', 'chengyu-data.js']) {
-      assert(!d.querySelector('script[src="' + src + '"]'), 'Vocabulary tab loaded source file ' + src);
+      assert(!d.querySelector('script[src^="' + src + '"]'), 'Vocabulary tab loaded source file ' + src);
     }
     await app.ensureVocabDetailsLoaded();
     const withExample = vocab.allItems.find(item => item.word === '你好');

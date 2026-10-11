@@ -28,7 +28,8 @@
     "audit:quiz": "node scripts/audit-quiz.cjs",
     "test:comprehension": "node scripts/comprehension-test.js",
     "audit:lessons": "node scripts/lessons/validate.cjs --all",
-    "lessons:status": "node scripts/lessons/status.cjs"
+    "lessons:status": "node scripts/lessons/status.cjs",
+    "bump-version": "node scripts/bump-asset-version.cjs"
   },
   "devDependencies": {
     "jsdom": "^26.1.0",

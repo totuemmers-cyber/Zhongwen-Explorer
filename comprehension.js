@@ -71,7 +71,7 @@
     if (pending) return pending;
     pending = new Promise(function (resolve, reject) {
       if (accept()) { resolve(units); return; }
-      var script = document.createElement('script'); script.src = config.data;
+      var script = document.createElement('script'); var version = window.LANG_PROFILE && window.LANG_PROFILE.assetVersion; script.src = config.data + (version ? '?v=' + version : '');
       script.onload = function () { if (accept()) resolve(units); else { pending = null; script.remove(); reject(new Error('Missing units')); } };
       script.onerror = function () { pending = null; script.remove(); reject(new Error('Content load failed')); };
       document.head.appendChild(script);

@@ -339,7 +339,7 @@
 
     scriptState.pending[src] = new Promise(function (resolve, reject) {
       var script = document.createElement('script');
-      script.src = src;
+      script.src = versioned(src);
       script.async = false;
       script.onload = function () {
         scriptState.loaded[src] = true;
@@ -812,6 +812,11 @@
       }
     }
   });
+
+  // Cache-busting query for lazily loaded data scripts.
+  function versioned(src) {
+    return profile.assetVersion ? src + (src.indexOf('?') < 0 ? '?' : '&') + 'v=' + profile.assetVersion : src;
+  }
 
   // === TEXT-TO-SPEECH (mainland Mandarin voice) ===
   // text may be a list (the sentences of a listening text), spoken one after another; options.rate overrides 0.8.

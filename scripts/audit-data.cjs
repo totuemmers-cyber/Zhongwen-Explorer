@@ -18,7 +18,8 @@ vm.runInNewContext(fs.readFileSync(path.join(ROOT, 'lang-profile.js'), 'utf8'), 
 const manifest = context.LANG_PROFILE.dataScripts;
 // Startup data is listed in index.html; everything else comes from the section manifest.
 const STARTUP_DATA = ['pinyin-data.js'];
-for (const src of STARTUP_DATA) if (!html.includes('<script src="' + src + '"></script>')) fail('index.html does not load ' + src);
+// A ?v=… cache-busting query (npm run bump-version) is allowed after the file name.
+for (const src of STARTUP_DATA) if (!new RegExp('<script src="' + src.replace(/[.]/g, '\\.') + '(\\?v=[\\w.-]+)?"></script>').test(html)) fail('index.html does not load ' + src);
 const scripts = [...STARTUP_DATA, ...new Set(Object.keys(manifest).flatMap(name => manifest[name]))];
 for (const src of scripts) {
   if (!fs.existsSync(path.join(ROOT, src))) { fail('Manifest lists a missing file: ' + src); continue; }
