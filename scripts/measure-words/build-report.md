@@ -4,27 +4,27 @@ Built by `node scripts/measure-words/build.cjs` --write. Old content read from g
 
 ## Summary
 
-- **Entries: 239** — HSK1 23, HSK2 10, HSK3 27, HSK4 38, HSK5 39, HSK6 35, HSK7-9 39, Zusatz 28
+- **Entries: 239** — HSK1 23, HSK2 8, HSK3 26, HSK4 36, HSK5 37, HSK6 33, HSK7-9 37, Zusatz 39
 - Kinds: Zählwort 165, Maßeinheit 35, Zeit 15, Verbal 19, Unbestimmt 5
 - Syllabus: 191 vocabulary rows with 量 (14 of them 数量); 96 items in the grammar-syllabus measure-word lists (20 rows).
-- From: vocab 量 rows 181, grammar lists only 10, Zusatz 28 (old classifiers 9, classifiers only vocab.measureWords uses 19).
+- From: vocab 量 rows 181, grammar lists only 10, Zusatz 39 (old classifiers 20, classifiers only vocab.measureWords uses 19).
 - Old classifiers: 141 → 110 matched to a syllabus entry, 20 at the level of their syllabus word, 9 Zusatz, 2 removed (bookmarks → vocab).
 - Content: 139 with old content (author draft), 67 with a meaning drafted from the vocab entry, 11 from HanDeDict, 18 without meaning. All meaningStatus „draft“.
-- Nouns: 131 entries have nouns (1424 links), 108 have none.
-- Categories: Objekte 33, Zeit 21, Allgemein 7, Menschen 8, Handlungen 16, Mengen 22, Masseinheiten 31, Tiere 9, Essen 18, Gebaeude 8, Abstrakt 31, Literatur 11, Transport 7, Natur 12, Medizin 5
+- Nouns: 131 entries have nouns (1419 links), 108 have none.
+- Categories: Objekte 33, Zeit 21, Allgemein 7, Menschen 8, Handlungen 16, Mengen 22, Masseinheiten 31, Tiere 9, Essen 18, Gebaeude 8, Abstrakt 31, Transport 7, Literatur 11, Natur 12, Medizin 5
 
 ### Level × kind
 
 | Level | Zählwort | Maßeinheit | Zeit | Verbal | Unbestimmt | Σ |
 |---|---:|---:|---:|---:|---:|---:|
 | HSK1 | 8 | 1 | 9 | 2 | 3 | 23 |
-| HSK2 | 8 | 0 | 0 | 1 | 1 | 10 |
-| HSK3 | 16 | 5 | 1 | 4 | 1 | 27 |
-| HSK4 | 24 | 7 | 2 | 5 | 0 | 38 |
-| HSK5 | 33 | 4 | 1 | 1 | 0 | 39 |
-| HSK6 | 23 | 9 | 1 | 2 | 0 | 35 |
-| HSK7-9 | 26 | 9 | 1 | 3 | 0 | 39 |
-| Zusatz | 27 | 0 | 0 | 1 | 0 | 28 |
+| HSK2 | 6 | 0 | 0 | 1 | 1 | 8 |
+| HSK3 | 16 | 5 | 1 | 3 | 1 | 26 |
+| HSK4 | 24 | 7 | 2 | 3 | 0 | 36 |
+| HSK5 | 32 | 3 | 1 | 1 | 0 | 37 |
+| HSK6 | 22 | 9 | 1 | 1 | 0 | 33 |
+| HSK7-9 | 25 | 10 | 1 | 1 | 0 | 37 |
+| Zusatz | 32 | 0 | 0 | 7 | 0 | 39 |
 
 ## Model
 
@@ -32,9 +32,9 @@ Entry fields: `id` (`m:<classifier>`, `m:<classifier>:<numeric pinyin>` when one
 
 Level = the lowest of (a) the level of the 量 use in the vocabulary syllabus (a 量 inside a bracket group counts at its later level: 回 动、（量） 1(3) → HSK3, 班 名、（量） 2(5) → HSK5) and (b) the level of the grammar-syllabus list that names it (班 is 专用名量词 HSK3 → HSK3).
 
-levelSource: 'vocab' (量 row), 'grammar' (grammar list earlier or only there), 'word' (old classifier that is a syllabus word in another part of speech: that word's level); Zusatz entries have none.
+levelSource: 'vocab' (量 row), 'grammar' (grammar list earlier or only there), 'word' (old time word that is a syllabus word in another part of speech: that word's level), 'word+nouns' (old classifier that is a syllabus word in another part of speech: the word's level, raised to the lowest level of its nouns; without nouns Zusatz); Zusatz entries have none.
 
-Tables: not stored; the app generates 1–10 (section-configs.js countingRows: 一 sandhi yí/yì, 两; countStyle 'date' for 号/日 → 一号 yī, 二号; countStyle 'er' for the tael → 二两). 数量 entries (form '数量') have neither table nor question word. borrowed: grammar-list 借用名量词.
+Tables: not stored; the app generates 1–10 (section-configs.js countingRows: 一 sandhi yí/yì, 两; countStyle 'date' for 号/日 → 一号 yī, 二号; countStyle 'er' for the tael → 二两). 数量 entries (form '数量') and one-only borrowed classifiers (countStyle 'one': 脸 屋子 桌子) have neither table nor question word. borrowed: grammar-list 借用名量词 (+ 锅).
 
 ### Filter buttons / select needed
 
@@ -211,11 +211,11 @@ Not a 量 row and not in a grammar list. Settled: a classifier that is a syllabu
 | 小时 xiǎoshí | Lehrplanwort-Level | HSK1 名 | – | 0 | 0 | Zeit | Zeit |
 | 月 yuè | entfernen: 月 nach Zahlen bildet Monatsnamen (三月 = März); „drei Monate“ ist 三个月 – 月 ist hier Nomen mit 个. → w:月:yue4 | HSK1 名 | – | 0 | 0 |  |  |
 | 代 dài | Lehrplanwort-Level | HSK5 动、名 | – | 0 | 0 | Zählwort | Zeit |
-| 盆 pén | Lehrplanwort-Level | HSK5 名 | – | 1 | 2 | Zählwort | Objekte |
+| 盆 pén | Lehrplanwort-Level | HSK5 名 | – | 1 | 1 | Zählwort | Objekte |
 | 炷 zhù | Zusatz | – | classifier for lit incense sticks | 0 | 0 | Zählwort | Objekte |
 | 尾 wěi | Zusatz | – | classifier for fish | 1 | 1 | Zählwort | Tiere |
 
-At the level of their syllabus word (20): 罐→HSK6, 壶→HSK6, 栏→HSK6, 门→HSK2, 步→HSK4, 出→HSK2, 拳→HSK7-9, 脚→HSK3, 刀→HSK4, 巴掌→HSK7-9, 碟→HSK7-9, 锅→HSK5, 桶→HSK4, 帮→HSK2, 味→HSK4, 针→HSK6, 方→HSK5, 小时→HSK1, 代→HSK5, 盆→HSK5.
+At the level of their syllabus word (20): 罐→HSK6, 壶→HSK6, 栏→Zusatz, 门→HSK2, 步→Zusatz, 出→HSK5, 拳→Zusatz, 脚→Zusatz, 刀→Zusatz, 巴掌→Zusatz, 碟→Zusatz, 锅→Zusatz, 桶→HSK4, 帮→Zusatz, 味→HSK4, 针→Zusatz, 方→HSK7-9, 小时→HSK1, 代→Zusatz, 盆→HSK5.
 
 ## Classifiers only in vocab.measureWords (20)
 
@@ -230,8 +230,8 @@ Nouns in the vocabulary list these classifiers, but neither the syllabus nor the
 | 服 fù | ja → m:服 (Zählwort, Medizin) | classifier for medicine: dose | 0 | HSK6 fú 动 | 2 |
 | 撮 zuǒ | ja → m:撮 (Zählwort, Mengen) | classifier for hair or grass: tuft | 0 | – | 2 |
 | 丝 sī | ja → m:丝 (Zählwort, Abstrakt) | classifier: a trace (of smoke etc), a tiny bit etc | 0 | HSK7-9 sī 名 | 2 |
-| 缸 gāng | ja → m:缸 (Zählwort, Essen) | classifier for loads of laundry | 0 | HSK7-9 gāng 名 | 2 |
-| 簇 cù | ja → m:簇 (Zählwort, Natur) | classifier for bunches, clusters, piles etc | 0 | – | 2 |
+| 缸 gāng | ja → m:缸 (Zählwort, Essen) | classifier for loads of laundry | 0 | HSK7-9 gāng 名 | 1 |
+| 簇 cù | ja → m:簇 (Zählwort, Natur) | classifier for bunches, clusters, piles etc | 0 | – | 1 |
 | 档 dàng | ja → m:档 (Zählwort, Abstrakt) | classifier for shows / classifier for events, affairs etc | 2 | – | 1 |
 | 曲 qǔ | nein | – | 0 | HSK6 qǔ 名 |  |
 | 挂 guà | ja → m:挂 (Zählwort, Objekte) | classifier for sets or clusters of objects | 1 | HSK4 guà 动 | 1 |
@@ -248,106 +248,106 @@ Nouns in the vocabulary list these classifiers, but neither the syllabus nor the
 
 | id | Level | Kind | Category | Draft meaning (source) | vocabId |
 |---|---|---|---|---|---|
-| m:点 diǎn | HSK1 | Zeit | Zeit | Uhr (bei Uhrzeiten); Punkt (vocab) | w:点:dian3 |
-| m:分 fēn | HSK1 | Zeit | Zeit | Minute (Uhrzeit); Fen (1/100 Yuan); Punkt (Note); teilen (vocab) | w:分:fen1 |
-| m:号 hào | HSK1 | Zeit | Zeit | Zählwort für Tag, Datum; Zählwort für Personen (HanDeDict) | w:号:hao4 |
-| m:日 rì | HSK1 | Zeit | Zeit | Tag (im Datum, schriftlich) (vocab) | w:日:ri4 |
-| m:岁 suì | HSK1 | Zeit | Zeit | Jahre alt (vocab) | w:岁:sui4 |
-| m:些 xiē | HSK1 | Unbestimmt | Mengen | einige, manche (vocab) | w:些:xie1 |
-| m:一下 yīxià | HSK1 | Verbal | Handlungen | einmal; kurz; mal (nach Verben); auf einmal; plötzlich (vocab) | w:一下:yi1xia4 |
-| m:一点儿 yīdiǎnr | HSK1 | Unbestimmt | Mengen | ein bisschen; ein wenig; etwas (vocab) | w:一点儿:yi1dian3r5 |
-| m:一些 yīxiē | HSK1 | Unbestimmt | Mengen | einige; ein paar; etwas (vocab) | w:一些:yi1xie1 |
-| m:元 yuán | HSK1 | Maßeinheit | Masseinheiten | Yuan (chinesische Währungseinheit) (vocab) | w:元:yuan2 |
-| m:一会儿 yīhuìr | HSK2 | Unbestimmt | Zeit | einen Moment; eine Weile; gleich (vocab) | w:一会儿:yi2hui4r5 |
-| m:半天 bàntiān | HSK3 | Unbestimmt | Zeit | halber Tag; lange Zeit; eine ganze Weile (vocab) | w:半天:ban4tian1 |
+| m:点 diǎn | HSK1 | Zeit | Zeit | Uhr (volle Stunde der Uhrzeit); Punkt (bei Vorschlägen, Meinungen) (vocab) | w:点:dian3 |
+| m:分 fēn | HSK1 | Zeit | Zeit | Minute (in Uhrzeiten); Fen (1/100 Yuan); Punkt (Note, Spielstand) (vocab) | w:分:fen1 |
+| m:号 hào | HSK1 | Zeit | Zeit | Tag im Datum (mündlich); Nummer; Größe (HanDeDict) | w:号:hao4 |
+| m:日 rì | HSK1 | Zeit | Zeit | Tag im Datum (schriftlich, förmlich) (vocab) | w:日:ri4 |
+| m:岁 suì | HSK1 | Zeit | Zeit | Jahre alt (Lebensalter) (vocab) | w:岁:sui4 |
+| m:些 xiē | HSK1 | Unbestimmt | Mengen | einige, ein paar (unbestimmte Menge) (vocab) | w:些:xie1 |
+| m:一下 yīxià | HSK1 | Verbal | Handlungen | mal kurz, ein bisschen (nach Verben); auf einmal, plötzlich (vocab) | w:一下:yi1xia4 |
+| m:一点儿 yīdiǎnr | HSK1 | Unbestimmt | Mengen | ein bisschen, ein wenig, etwas (vocab) | w:一点儿:yi1dian3r5 |
+| m:一些 yīxiē | HSK1 | Unbestimmt | Mengen | einige, ein paar; etwas (vocab) | w:一些:yi1xie1 |
+| m:元 yuán | HSK1 | Maßeinheit | Masseinheiten | Yuan (chinesische Währungseinheit, eher schriftlich) (vocab) | w:元:yuan2 |
+| m:一会儿 yīhuìr | HSK2 | Unbestimmt | Zeit | eine Weile, einen Moment; gleich (vocab) | w:一会儿:yi2hui4r5 |
+| m:半天 bàntiān | HSK3 | Unbestimmt | Zeit | eine ganze Weile, ewig lange; halber Tag (vocab) | w:半天:ban4tian1 |
 | m:公斤 gōngjīn | HSK3 | Maßeinheit | Masseinheiten | Kilogramm (vocab) | w:公斤:gong1jin1 |
-| m:角 jiǎo | HSK3 | Maßeinheit | Masseinheiten | Jiao (Geldeinheit: ein Zehntel Yuan) (vocab) | w:角:jiao3 |
+| m:角 jiǎo | HSK3 | Maßeinheit | Masseinheiten | Jiao (Geldeinheit: 0,10 Yuan), schriftliche Form (vocab) | w:角:jiao3 |
 | m:斤 jīn | HSK3 | Maßeinheit | Masseinheiten | Jin (chinesisches Pfund, 500 g) (vocab) | w:斤:jin1 |
-| m:刻 kè | HSK3 | Zeit | Zeit | Viertelstunde (vocab) | w:刻:ke4 |
-| m:毛 máo | HSK3 | Maßeinheit | Masseinheiten | Mao (Geldeinheit, 0,10 Yuan) (vocab) | w:毛:mao2 |
-| m:米 mǐ | HSK3 | Maßeinheit | Masseinheiten | Meter; Reis (vocab) | w:米:mi3 |
-| m:页 yè | HSK3 | Zählwort | Literatur | Seite (Zählwort für Buch- und Heftseiten) (vocab) | w:页:ye4 |
-| m:倍 bèi | HSK4 | Maßeinheit | Mengen | mal; -fach (Vielfaches) (vocab) | w:倍:bei4 |
+| m:刻 kè | HSK3 | Zeit | Zeit | Viertelstunde (Uhrzeit: Viertel nach, Viertel vor) (vocab) | w:刻:ke4 |
+| m:毛 máo | HSK3 | Maßeinheit | Masseinheiten | Mao (0,10 Yuan), gesprochene Form von Jiao (vocab) | w:毛:mao2 |
+| m:米 mǐ | HSK3 | Maßeinheit | Masseinheiten | Meter (vocab) | w:米:mi3 |
+| m:页 yè | HSK3 | Zählwort | Literatur | Seite (in Büchern, Heften, Dokumenten) (vocab) | w:页:ye4 |
+| m:倍 bèi | HSK4 | Maßeinheit | Mengen | -fach, mal (Vielfaches) (vocab) | w:倍:bei4 |
 | m:公里 gōnglǐ | HSK4 | Maßeinheit | Masseinheiten | Kilometer (vocab) | w:公里:gong1li3 |
 | m:克 kè | HSK4 | Maßeinheit | Masseinheiten | Gramm (vocab) | w:克:ke4 |
-| m:两 liǎng | HSK4 | Maßeinheit | Masseinheiten | Liang (chinesische Gewichtseinheit, 50 Gramm) (vocab) | w:两:liang3#2 |
-| m:千克 qiānkè | HSK4 | Maßeinheit | Masseinheiten | Kilogramm (vocab) | w:千克:qian1ke4 |
+| m:两 liǎng | HSK4 | Maßeinheit | Masseinheiten | Liang (traditionelle Gewichtseinheit, 50 Gramm) (vocab) | w:两:liang3#2 |
+| m:千克 qiānkè | HSK4 | Maßeinheit | Masseinheiten | Kilogramm (amtlich, schriftlich) (vocab) | w:千克:qian1ke4 |
 | m:摄氏度 shèshìdù | HSK4 | Maßeinheit | Masseinheiten | Grad Celsius (vocab) | w:摄氏度:she4shi4du4 |
-| m:夜 yè | HSK4 | Zeit | Zeit | (Zählwort für Nächte) (vocab) | w:夜:ye4 |
-| m:脸 liǎn | HSK4 | Zählwort | Mengen | ein ganzes Gesicht voll (一脸汗, 一脸笑容) (Autor) | w:脸:lian3 |
-| m:屋子 wūzi | HSK4 | Zählwort | Mengen | ein ganzes Zimmer voll (一屋子人) (Autor) | w:屋子:wu1zi5 |
-| m:桌子 zhuōzi | HSK4 | Zählwort | Mengen | ein ganzer Tisch voll (一桌子菜) (Autor) | w:桌子:zhuo1zi5 |
-| m:等 děng | HSK5 | Zählwort | Abstrakt | Zählwort für Grad; Klasse; Rang (HanDeDict) | w:等:deng3#2 |
-| m:队 duì | HSK5 | Zählwort | Menschen | **—** | w:队:dui4 |
-| m:组 zǔ | HSK5 | Zählwort | Mengen | Satz (Zählwort) (vocab) | w:组:zu3 |
-| m:单 dān | HSK5 | Zählwort | Abstrakt | **—** | w:单:dan1 |
-| m:度 dù | HSK5 | Maßeinheit | Masseinheiten | Grad (Temperatur, Winkel, Alkohol); Kilowattstunde; Maß; verbringen (Zeit) (vocab) | w:度:du4 |
-| m:吨 dūn | HSK5 | Maßeinheit | Masseinheiten | Tonne (vocab) | w:吨:dun1 |
-| m:级 jí | HSK5 | Zählwort | Abstrakt | Zählwort für Stufen (vocab) | w:级:ji2 |
-| m:集 jí | HSK5 | Zählwort | Literatur | **—** | w:集:ji2 |
-| m:届 jiè | HSK5 | Zählwort | Abstrakt | Zählwort für regelmäßig stattfindende Veranstaltungen, Amtsperioden und Abschlussjahrgänge (vocab) | w:届:jie4 |
-| m:类 lèi | HSK5 | Zählwort | Abstrakt | Zählwort für Objekte der gleichen Art, Kategorien; Zählwort für Angelegenheiten, Umstände (HanDeDict) | w:类:lei4 |
+| m:夜 yè | HSK4 | Zeit | Zeit | Nacht (Übernachtungen) (vocab) | w:夜:ye4 |
+| m:脸 liǎn | HSK4 | Zählwort | Mengen | ein ganzes Gesicht voll (Schweiß, Lächeln, Ärger) (Autor) | w:脸:lian3 |
+| m:屋子 wūzi | HSK4 | Zählwort | Mengen | ein ganzes Zimmer voll (Menschen, Dinge) (Autor) | w:屋子:wu1zi5 |
+| m:桌子 zhuōzi | HSK4 | Zählwort | Mengen | ein ganzer Tisch voll (Speisen, Sachen) (Autor) | w:桌子:zhuo1zi5 |
+| m:等 děng | HSK5 | Zählwort | Abstrakt | Rang, Klasse, Güteklasse (meist als Ordnungszahl) (HanDeDict) | w:等:deng3#2 |
+| m:队 duì | HSK5 | Zählwort | Menschen | für Menschen in Reihe oder Formation: Trupp, Kolonne (keine) | w:队:dui4 |
+| m:组 zǔ | HSK5 | Zählwort | Mengen | Gruppe, Satz, Serie (vocab) | w:组:zu3 |
+| m:单 dān | HSK5 | Zählwort | Abstrakt | Auftrag, Bestellung (umgangssprachlich, im Handel) (keine) | w:单:dan1 |
+| m:度 dù | HSK5 | Maßeinheit | Masseinheiten | Grad (Temperatur, Winkel, Alkohol); Kilowattstunde (vocab) | w:度:du4 |
+| m:吨 dūn | HSK5 | Maßeinheit | Masseinheiten | Tonne (1000 kg) (vocab) | w:吨:dun1 |
+| m:级 jí | HSK5 | Zählwort | Abstrakt | Stufe, Level (Skala, Prüfung, Treppenstufe) (vocab) | w:级:ji2 |
+| m:集 jí | HSK5 | Zählwort | Literatur | Folge (einer Serie); Teil, Band (eines Sammelwerks) (keine) | w:集:ji2 |
+| m:届 jiè | HSK5 | Zählwort | Abstrakt | für wiederkehrende Veranstaltungen, Amtszeiten, Jahrgänge (vocab) | w:届:jie4 |
+| m:类 lèi | HSK5 | Zählwort | Abstrakt | Art, Kategorie (HanDeDict) | w:类:lei4 |
 | m:厘米 límǐ | HSK5 | Maßeinheit | Masseinheiten | Zentimeter (vocab) | w:厘米:li2mi3 |
-| m:团 tuán | HSK5 | Zählwort | Mengen | Zählwort für Klumpen und Knäuel; Gruppe; Klumpen; zu einer Kugel formen (vocab) | w:团:tuan2 |
-| m:时 shí | HSK6 | Zeit | Zeit | **—** | w:时:shi2 |
+| m:团 tuán | HSK5 | Zählwort | Mengen | Knäuel, Klumpen, Ballen (weiche, formlose Masse) (vocab) | w:团:tuan2 |
+| m:时 shí | HSK6 | Zeit | Zeit | Uhr (Uhrzeit, formell und schriftlich) (keine) | w:时:shi2 |
 | m:成 chéng | HSK6 | Maßeinheit | Mengen | Zehntel; zehn Prozent (vocab) | w:成:cheng2 |
-| m:尺 chǐ | HSK6 | Maßeinheit | Masseinheiten | Chi (chinesischer Fuß, ⅓ Meter); Lineal (vocab) | w:尺:chi3 |
-| m:寸 cùn | HSK6 | Maßeinheit | Masseinheiten | Cun (chinesisches Längenmaß, ca. 3,3 cm); Zoll (bei Bildschirmen, Fotos) (vocab) | w:寸:cun4 |
+| m:尺 chǐ | HSK6 | Maßeinheit | Masseinheiten | Chi (chinesischer Fuß, ⅓ Meter) (vocab) | w:尺:chi3 |
+| m:寸 cùn | HSK6 | Maßeinheit | Masseinheiten | Cun (ca. 3,3 cm); Zoll (bei Bildschirmen, Koffern, Fotos) (vocab) | w:寸:cun4 |
 | m:毫米 háomǐ | HSK6 | Maßeinheit | Masseinheiten | Millimeter (mm) (vocab) | w:毫米:hao2mi3 |
 | m:毫升 háoshēng | HSK6 | Maßeinheit | Masseinheiten | Milliliter (ml) (vocab) | w:毫升:hao2sheng1 |
-| m:户 hù | HSK6 | Zählwort | Menschen | Zählwort für Haushalte und Familien; Haushalt; Familie (vocab) | w:户:hu4 |
-| m:环 huán | HSK6 | Maßeinheit | Masseinheiten | Zählwort für Ringe (Schießsport) (vocab) | w:环:huan2 |
-| m:卷:juan3 juǎn | HSK6 | Zählwort | Objekte | Zählwort für Gerolltes (Papier, Klebeband) (vocab) | w:卷:juan3 |
-| m:款 kuǎn | HSK6 | Zählwort | Objekte | Modell (Zählwort für Produkte) (vocab) | w:款:kuan3 |
-| m:捧 pěng | HSK6 | Zählwort | Mengen | Zählwort: eine Handvoll (mit beiden Händen) (vocab) | w:捧:peng3 |
-| m:平方 píngfāng | HSK6 | Maßeinheit | Masseinheiten | **—** | w:平方:ping2fang1 |
+| m:户 hù | HSK6 | Zählwort | Menschen | für Haushalte und Familien (Wohnparteien) (vocab) | w:户:hu4 |
+| m:环 huán | HSK6 | Maßeinheit | Masseinheiten | Ring (Trefferwertung beim Schießen und Bogenschießen) (vocab) | w:环:huan2 |
+| m:卷:juan3 juǎn | HSK6 | Zählwort | Objekte | Rolle (für Aufgerolltes: Papier, Klebeband, Film) (vocab) | w:卷:juan3 |
+| m:款 kuǎn | HSK6 | Zählwort | Objekte | Modell, Ausführung (von Produkten); Absatz (in Gesetzen) (vocab) | w:款:kuan3 |
+| m:捧 pěng | HSK6 | Zählwort | Mengen | eine Handvoll (mit beiden hohlen Händen) (vocab) | w:捧:peng3 |
+| m:平方 píngfāng | HSK6 | Maßeinheit | Masseinheiten | Quadratmeter (umgangssprachlich); Quadrat- (vor Einheiten) (keine) | w:平方:ping2fang1 |
 | m:平方米 píngfāngmǐ | HSK6 | Maßeinheit | Masseinheiten | Quadratmeter (m²) (vocab) | w:平方米:ping2fang1mi3 |
 | m:升 shēng | HSK6 | Maßeinheit | Masseinheiten | Liter (vocab) | w:升:sheng1#2 |
-| m:线 xiàn | HSK6 | Zählwort | Abstrakt | (Zählwort) ein Hauch, ein Schimmer (vocab) | w:线:xian4 |
-| m:样 yàng | HSK6 | Zählwort | Abstrakt | Art; Sorte (Zählwort für Sorten und Arten) (vocab) | w:样:yang4 |
-| m:章 zhāng | HSK6 | Zählwort | Literatur | Kapitel (Zählwort); Stempel; Abzeichen (vocab) | w:章:zhang1 |
-| m:枝 zhī | HSK6 | Zählwort | Natur | Zählwort für Blumen und Zweige (vocab) | w:枝:zhi1 |
-| m:通 tōng | HSK7-9 | Verbal | Handlungen | (Zählwort) für Anrufe und Briefe (vocab) | w:通:tong1 |
-| m:派 pài | HSK7-9 | Zählwort | Abstrakt | **—** | w:派:pai4 |
-| m:磅 bàng | HSK7-9 | Maßeinheit | Masseinheiten | Pfund (ca. 454 g); Waage; (Typografie) Punkt (vocab) | w:磅:bang4 |
-| m:拨 bō | HSK7-9 | Zählwort | Menschen | Zählwort für Gruppen (vocab) | w:拨:bo1 |
-| m:担 dàn | HSK7-9 | Maßeinheit | Masseinheiten | Tragelast (Zählwort) (vocab) | w:担:dan4 |
-| m:杆 gǎn | HSK7-9 | Zählwort | Objekte | Zählwort für Gewehre, Waagen u. Ä. (vocab) | w:杆:gan3 |
+| m:线 xiàn | HSK6 | Zählwort | Abstrakt | ein Hauch, ein Schimmer (von Hoffnung, Licht); Rang (bei Städten) (vocab) | w:线:xian4 |
+| m:样 yàng | HSK6 | Zählwort | Abstrakt | Art, Sorte (verschiedene Dinge, Gerichte) (vocab) | w:样:yang4 |
+| m:章 zhāng | HSK6 | Zählwort | Literatur | Kapitel; Satz (eines Musikstücks) (vocab) | w:章:zhang1 |
+| m:枝 zhī | HSK6 | Zählwort | Natur | für Zweige und Blumen am Stiel; auch für Stifte (vocab) | w:枝:zhi1 |
+| m:通 tōng | HSK7-9 | Verbal | Handlungen | für Anrufe und Schreiben; für einen Schwall (schimpfen, trommeln) (vocab) | w:通:tong1 |
+| m:派 pài | HSK7-9 | Zählwort | Abstrakt | für Lager, Fraktionen, Schulen; gehoben: Gesamtbild einer Szene (keine) | w:派:pai4 |
+| m:磅 bàng | HSK7-9 | Maßeinheit | Masseinheiten | Pfund (britisch, ca. 454 g); Punkt (Schriftgrad) (vocab) | w:磅:bang4 |
+| m:拨 bō | HSK7-9 | Zählwort | Menschen | Gruppe, Schub (von Personen, die nacheinander kommen) (vocab) | w:拨:bo1 |
+| m:担 dàn | HSK7-9 | Maßeinheit | Masseinheiten | Traglast (an der Schulterstange); altes Gewichtsmaß (50 kg) (vocab) | w:担:dan4 |
+| m:杆 gǎn | HSK7-9 | Zählwort | Objekte | für Gegenstände mit langem Schaft (Gewehre, Laufgewichtswaagen) (vocab) | w:杆:gan3 |
 | m:公顷 gōngqǐng | HSK7-9 | Maßeinheit | Masseinheiten | Hektar (vocab) | w:公顷:gong1qing3 |
-| m:驾 jià | HSK7-9 | Zählwort | Transport | Zählwort für Pferdewagen (vocab) | w:驾:jia4 |
-| m:立方 lìfāng | HSK7-9 | Maßeinheit | Masseinheiten | **—** | w:立方:li4fang1 |
+| m:驾 jià | HSK7-9 | Zählwort | Transport | für (Pferde-)Wagen und Kutschen (vocab) | w:驾:jia4 |
+| m:立方 lìfāng | HSK7-9 | Maßeinheit | Masseinheiten | Kubikmeter (umgangssprachlich); Kubik, dritte Potenz (keine) | w:立方:li4fang1 |
 | m:立方米 lìfāngmǐ | HSK7-9 | Maßeinheit | Masseinheiten | Kubikmeter (m³) (vocab) | w:立方米:li4fang1mi3 |
-| m:码 mǎ | HSK7-9 | Maßeinheit | Masseinheiten | Yard (Längenmaß); (Kleider-)Größe; Sache, Angelegenheit (in festen Wendungen) (vocab) | w:码:ma3 |
-| m:马力 mǎlì | HSK7-9 | Maßeinheit | Masseinheiten | Pferdestärke; PS (vocab) | w:马力:ma3li4 |
-| m:抹 mǒ | HSK7-9 | Zählwort | Natur | Zählwort für Streifen (Licht, Wolken) (vocab) | w:抹:mo3 |
-| m:亩 mǔ | HSK7-9 | Maßeinheit | Masseinheiten | Mu (Flächenmaß, ca. 667 m²) (vocab) | w:亩:mu3 |
-| m:人次 réncì | HSK7-9 | Maßeinheit | Masseinheiten | Personen (mehrfach gezählt); Besuche; Fahrgäste (Statistik) (vocab) | w:人次:ren2ci4 |
-| m:胎 tāi | HSK7-9 | Zählwort | Tiere | Fötus; Schwangerschaft; (Zählwort für Geburten, Würfe); Reifen (vocab) | w:胎:tai1 |
-| m:摊 tān | HSK7-9 | Zählwort | Mengen | (Zählwort für Lachen, Pfützen) (vocab) | w:摊:tan1 |
-| m:堂 táng | HSK7-9 | Zählwort | Zeit | (Zählwort für Unterrichtsstunden) (vocab) | w:堂:tang2 |
-| m:丸 wán | HSK7-9 | Zählwort | Medizin | Zählwort für Pillen (vocab) | w:丸:wan2 |
-| m:旬 xún | HSK7-9 | Zeit | Zeit | Dekade (zehn Tage); Monatsdrittel; Lebensjahrzehnt (vocab) | w:旬:xun2 |
-| m:幢 zhuàng | HSK7-9 | Zählwort | Gebaeude | Zählwort für Gebäude und Häuser (vocab) | w:幢:zhuang4 |
-| m:重 chóng | HSK7-9 | Zählwort | Abstrakt | **—** | w:重:chong2 |
-| m:处 chù | Zusatz | Zählwort | Gebaeude | **—** | w:处:chu4 |
-| m:餐 cān | Zusatz | Zählwort | Essen | Zählwort für Mahlzeiten, Essen (Sprachw) (HanDeDict) | **kein Vokabeleintrag** |
-| m:床 chuáng | Zusatz | Zählwort | Objekte | Zählwort für Bettdecken und Leintücher (HanDeDict) | w:床:chuang2 |
-| m:瓣 bàn | Zusatz | Zählwort | Essen | Zählwort für Segment, Zehe, Stück (z. B. Knoblauchzehe, Apfelstück) (HanDeDict) | **kein Vokabeleintrag** |
-| m:服 fù | Zusatz | Zählwort | Medizin | **—** | **kein Vokabeleintrag** |
-| m:撮 zuǒ | Zusatz | Zählwort | Mengen | **—** | **kein Vokabeleintrag** |
-| m:丝 sī | Zusatz | Zählwort | Abstrakt | **—** | w:丝:si1 |
-| m:缸 gāng | Zusatz | Zählwort | Essen | **—** | w:缸:gang1 |
-| m:簇 cù | Zusatz | Zählwort | Natur | **—** | **kein Vokabeleintrag** |
-| m:档 dàng | Zusatz | Zählwort | Abstrakt | Zählwort für Kreuzstücke, Quertraverse; Zählwort für Ereignisse, Angelegenheiten etc (HanDeDict) | **kein Vokabeleintrag** |
-| m:挂 guà | Zusatz | Zählwort | Objekte | Zählwort für Mengen, Gruppen, Objekte (HanDeDict) | w:挂:gua4 |
-| m:扎 zā | Zusatz | Zählwort | Mengen | **—** | **kein Vokabeleintrag** |
-| m:记 jì | Zusatz | Verbal | Handlungen | **—** | w:记:ji4 |
-| m:具 jù | Zusatz | Zählwort | Objekte | **—** | **kein Vokabeleintrag** |
-| m:泡 pāo | Zusatz | Zählwort | Mengen | Zählwort für Urin und Fäkalien (HanDeDict) | **kein Vokabeleintrag** |
-| m:纸 zhǐ | Zusatz | Zählwort | Literatur | **—** | w:纸:zhi3 |
-| m:发 fā | Zusatz | Zählwort | Objekte | Zählwort für Geschosse, Kugeln, Raketen (HanDeDict) | w:发:fa1 |
-| m:沓 dá | Zusatz | Zählwort | Mengen | Stapel, Packen (Papier, Geldscheine: 一沓纸) (Autor) | **kein Vokabeleintrag** |
-| m:峰 fēng | Zusatz | Zählwort | Tiere | Zählwort für Kamele (HanDeDict) | **kein Vokabeleintrag** |
+| m:码 mǎ | HSK7-9 | Maßeinheit | Masseinheiten | Yard; Kleider- und Schuhgröße; Sache (in festen Wendungen) (vocab) | w:码:ma3 |
+| m:马力 mǎlì | HSK7-9 | Maßeinheit | Masseinheiten | Pferdestärke, PS (vocab) | w:马力:ma3li4 |
+| m:抹 mǒ | HSK7-9 | Zählwort | Natur | Streifen, Hauch (Licht, Wolken, Farbe, Lächeln) (vocab) | w:抹:mo3 |
+| m:亩 mǔ | HSK7-9 | Maßeinheit | Masseinheiten | Mu (chinesisches Feldmaß, ca. 667 m²) (vocab) | w:亩:mu3 |
+| m:人次 réncì | HSK7-9 | Maßeinheit | Masseinheiten | Personen pro Mal (Besuche, Fahrten, Teilnahmen) (vocab) | w:人次:ren2ci4 |
+| m:胎 tāi | HSK7-9 | Zählwort | Tiere | Wurf (Jungtiere); Schwangerschaft, Geburt (vocab) | w:胎:tai1 |
+| m:摊 tān | HSK7-9 | Zählwort | Mengen | Lache, Pfütze (ausgebreitete Flüssigkeit); Haufen (Kram) (vocab) | w:摊:tan1 |
+| m:堂 táng | HSK7-9 | Zählwort | Zeit | Unterrichtsstunde, Lektion (vocab) | w:堂:tang2 |
+| m:丸 wán | HSK7-9 | Zählwort | Medizin | Pille, Kügelchen (besonders chinesische Arznei) (vocab) | w:丸:wan2 |
+| m:旬 xún | HSK7-9 | Zeit | Zeit | Dekade (zehn Tage, Monatsdrittel); Lebensjahrzehnt (im Alter) (vocab) | w:旬:xun2 |
+| m:幢 zhuàng | HSK7-9 | Zählwort | Gebaeude | für ganze Gebäude und Häuser (vocab) | w:幢:zhuang4 |
+| m:重 chóng | HSK7-9 | Zählwort | Abstrakt | Schicht, Lage (für Hintereinander- oder Übereinanderliegendes) (keine) | w:重:chong2 |
+| m:处 chù | Zusatz | Zählwort | Gebaeude | für Orte, Stellen und Anlagen (keine) | w:处:chu4 |
+| m:餐 cān | Zusatz | Zählwort | Essen | Mahlzeit (gehoben) (HanDeDict) | **kein Vokabeleintrag** |
+| m:床 chuáng | Zusatz | Zählwort | Objekte | für Bettdecken, Laken und Wolldecken (HanDeDict) | w:床:chuang2 |
+| m:瓣 bàn | Zusatz | Zählwort | Essen | Zehe, Spalte, Segment; Blütenblatt (HanDeDict) | **kein Vokabeleintrag** |
+| m:服 fù | Zusatz | Zählwort | Medizin | Dosis (Abkochung) chinesischer Arznei (keine) | **kein Vokabeleintrag** |
+| m:撮 zuǒ | Zusatz | Zählwort | Mengen | Büschel (Haare, Bart, Gras) (keine) | **kein Vokabeleintrag** |
+| m:丝 sī | Zusatz | Zählwort | Abstrakt | ein Hauch, eine Spur (von Wind, Lächeln, Hoffnung) (keine) | w:丝:si1 |
+| m:缸 gāng | Zusatz | Zählwort | Essen | Bottich, Krug voll (Wasser, Wein, Goldfische) (keine) | w:缸:gang1 |
+| m:簇 cù | Zusatz | Zählwort | Natur | Büschel, Gruppe (dicht Beieinanderwachsendes) (keine) | **kein Vokabeleintrag** |
+| m:档 dàng | Zusatz | Zählwort | Abstrakt | für Sendungen und Programmformate; (ugs.) Angelegenheit (HanDeDict) | **kein Vokabeleintrag** |
+| m:挂 guà | Zusatz | Zählwort | Objekte | Kette, Schnur (Zusammenhängendes, Herabhängendes) (HanDeDict) | w:挂:gua4 |
+| m:扎 zā | Zusatz | Zählwort | Mengen | Bündel (zusammengebunden: Geldscheine, Blumen) (keine) | **kein Vokabeleintrag** |
+| m:记 jì | Zusatz | Verbal | Handlungen | Schlag, Hieb, Schuss (gehoben, Sport und Presse) (keine) | w:记:ji4 |
+| m:具 jù | Zusatz | Zählwort | Objekte | für Leichen und Särge; (gehoben) für Geräte (keine) | **kein Vokabeleintrag** |
+| m:泡 pāo | Zusatz | Zählwort | Mengen | für Urin und Kot (eine Ladung; umgangssprachlich) (HanDeDict) | **kein Vokabeleintrag** |
+| m:纸 zhǐ | Zusatz | Zählwort | Literatur | für Schriftstücke: Urkunde, Erlass, Vertrag (gehoben) (keine) | w:纸:zhi3 |
+| m:发 fā | Zusatz | Zählwort | Objekte | Schuss, Patrone (Munition) (HanDeDict) | w:发:fa1 |
+| m:沓 dá | Zusatz | Zählwort | Mengen | Stapel, Packen (Papier, Geldscheine) (Autor) | **kein Vokabeleintrag** |
+| m:峰 fēng | Zusatz | Zählwort | Tiere | für Kamele (gehoben) (HanDeDict) | **kein Vokabeleintrag** |
 
 ## Ambiguous / noteworthy rows
 
@@ -357,28 +357,54 @@ Nouns in the vocabulary list these classifiers, but neither the syllabus nor the
 - **Several 量 rows merged** (same reading): 点 rows 33 量、（名） + 336 动、（名、量）.
 - **Two classifier readings → two entries**: m:卷:juan3 juǎn HSK6 / m:卷:juan4 juàn HSK6.
 - **Character with a non-classifier reading in the syllabus** (no entry for that reading): 只 zhī (auch zhǐ 副); 头 tóu (auch tou 后缀); 种 zhǒng (auch zhòng 动); 打 dá (auch dǎ 动, dǎ 介); 行 háng (auch xíng 动、形); 扇 shàn (auch shān 动); 担 dàn (auch dān 动); 重 chóng (auch zhòng 名、形); 处 chù (auch chǔ 动); 服 fù (auch fú 动); 扎 zā (auch zhā 动); 泡 pāo (auch pào 名、动).
-- **Second classifier reading used by vocab nouns** (CC-CEDICT confirms; written as `pinyinAlt`, no own entry): 场 chǎng / cháng; 通 tōng / tòng.
+- **Second classifier reading used by vocab nouns** (CC-CEDICT confirms; written as `pinyinAlt`, no own entry): 场 chǎng / cháng; 通 tōng / tòng; 撮 zuǒ / cuō; 扎 zā / zhā.
 - **Marginal classifier uses** (in the syllabus as 量, but rare or special — check the meaning drafts): 等 děng HSK5; 时 shí HSK6; 单 dān HSK5; 线 xiàn HSK6; 派 pài HSK7-9; 管 guǎn HSK5; 码 mǎ HSK7-9; 环 huán HSK6; 重 chóng HSK7-9; 胎 tāi HSK7-9; 面 miàn HSK5; 担 dàn HSK7-9.
 - **Grammar list 量词重叠** (个个、张张, HSK3) and 数量重叠 are patterns, not entries → specialForms of 个/张 (campaign).
 - **vocab levelUses bug** (side finding, not fixed here): scripts/hsk2025/relevel.cjs `splitPos` splits on 、 inside brackets, so rows like 对 形、介、（动、量）, 点² 动、（名、量）, 等², 管, 组, 面 lose the second part of the bracket in `levelUses` (the 量/名 use is missing).
 
+## Levels from another part of speech (19)
+
+Old classifiers with the level of their syllabus word (levelSource word): max(word level, lowest noun level), without nouns Zusatz; time words keep the word level.
+
+| Entry | Word level | Lowest noun | → Level | levelSource |
+|---|---|---|---|---|
+| m:罐 guàn (Zählwort) | HSK6 | HSK3 | HSK6 | word+nouns |
+| m:壶 hú (Zählwort) | HSK6 | HSK1 | HSK6 | word+nouns |
+| m:栏 lán (Zählwort) | HSK6 | – | Zusatz | – |
+| m:门 mén (Zählwort) | HSK2 | HSK1 | HSK2 | word+nouns |
+| m:步 bù (Verbal) | HSK4 | – | Zusatz | – |
+| m:出 chū (Zählwort) | HSK2 | HSK5 | HSK5 | word+nouns |
+| m:拳 quán (Verbal) | HSK7-9 | – | Zusatz | – |
+| m:脚 jiǎo (Verbal) | HSK3 | – | Zusatz | – |
+| m:刀 dāo (Verbal) | HSK4 | – | Zusatz | – |
+| m:巴掌 bāzhang (Verbal) | HSK7-9 | – | Zusatz | – |
+| m:碟 dié (Zählwort) | HSK7-9 | – | Zusatz | – |
+| m:锅 guō (Zählwort) | HSK5 | – | Zusatz | – |
+| m:桶 tǒng (Zählwort) | HSK4 | HSK3 | HSK4 | word+nouns |
+| m:帮 bāng (Zählwort) | HSK2 | – | Zusatz | – |
+| m:味 wèi (Zählwort) | HSK4 | HSK2 | HSK4 | word+nouns |
+| m:针 zhēn (Verbal) | HSK6 | – | Zusatz | – |
+| m:方 fāng (Maßeinheit) | HSK5 | HSK7-9 | HSK7-9 | word+nouns |
+| m:代 dài (Zählwort) | HSK5 | – | Zusatz | – |
+| m:盆 pén (Zählwort) | HSK5 | HSK2 | HSK5 | word+nouns |
+
 ## Reverse index (nouns per classifier)
 
-- Top: 个 324, 条 63, 只 50, 次 45, 张 43, 把 38, 位 34, 座 32, 场 30, 份 28, 根 28, 家 27, 项 26, 块 25, 种 25, 件 24, 片 24, 部 23, 台 23, 颗 23, 道 22, 间 21, 本 19, 支 19, 笔 16.
+- Top: 个 326, 条 61, 只 50, 次 45, 张 43, 把 37, 位 34, 座 32, 场 30, 份 28, 根 28, 家 27, 项 26, 块 25, 种 25, 件 24, 片 24, 部 23, 台 23, 道 22, 间 21, 颗 20, 本 19, 支 19, 笔 16.
 - Capped at 30: 个 条 只 次 张 把 位 座.
 - Order: level, then nouns that list the classifier first, then a frequency proxy (number of vocab words containing the noun — there is no word-frequency list in the sources), then syllabus order.
-- Examples: 个: 人、家、字、边、月、朋友、星期、鸡蛋 | 本: 书、本子、笔记、笔记本、词典、护照、课本、字典 | 条: 狗、路、鱼、裤子、带、船、牛、街 | 张: 桌子、椅子、票、床、机票、画、纸、卡 | 把: 椅子、花、花、伞、勺子、牙刷、筷子、香蕉
+- Examples: 个: 人、家、字、边、月、朋友、星期、鸡蛋 | 本: 书、本子、笔记、笔记本、词典、护照、课本、字典 | 条: 狗、路、鱼、裤子、船、牛、街、河 | 张: 桌子、椅子、票、床、机票、画、纸、卡 | 把: 椅子、花、伞、勺子、牙刷、筷子、香蕉、刀
 - Without nouns, HSK1 (14): 分·Z 分钟·Z 号·Z 年·Z 日·Z 岁·Z 天·Z 下·V 些·U 一下·V 一点儿·U 一些·U 元·M 小时·Z
-- Without nouns, HSK2 (2): 一会儿·U 帮
-- Without nouns, HSK3 (10): 半天·U 遍·V 公斤·M 角·M 斤·M 刻·Z 毛·M 米·M 声·V 脚·V
-- Without nouns, HSK4 (15): 倍·M 公里·M 克·M 两·M 秒·Z 排 千克·M 摄氏度·M 夜·Z 脸 手 屋子 桌子 步·V 刀·V
-- Without nouns, HSK5 (16): 周·Z 等 队 单 度·M 吨·M 行 伙 级 集 类 厘米·M 团 眼·V 锅 代
-- Without nouns, HSK6 (19): 时·Z 版 成·M 尺·M 寸·M 毫米·M 毫升·M 环·M 卷 卷 款 捧 平方·M 平方米·M 升·M 线 章 栏 针·V
-- Without nouns, HSK7-9 (27): 派 磅·M 拨 丛 担·M 公顷·M 剂 驾 截 捆 立方·M 立方米·M 码·M 马力·M 抹 亩·M 幕 人次·M 胎 摊 丸 窝 旬·Z 重 拳·V 巴掌·V 碟
-- Without nouns, Zusatz (5): 箱 勺 摞 湾 炷
+- Without nouns, HSK2 (1): 一会儿·U
+- Without nouns, HSK3 (9): 半天·U 遍·V 公斤·M 角·M 斤·M 刻·Z 毛·M 米·M 声·V
+- Without nouns, HSK4 (13): 倍·M 公里·M 克·M 两·M 秒·Z 排 千克·M 摄氏度·M 夜·Z 脸 手 屋子 桌子
+- Without nouns, HSK5 (14): 周·Z 等 队 单 度·M 吨·M 行 伙 级 集 类 厘米·M 团 眼·V
+- Without nouns, HSK6 (17): 时·Z 版 成·M 尺·M 寸·M 毫米·M 毫升·M 环·M 卷 卷 款 捧 平方·M 平方米·M 升·M 线 章
+- Without nouns, HSK7-9 (24): 派 磅·M 拨 丛 担·M 公顷·M 剂 驾 截 捆 立方·M 立方米·M 码·M 马力·M 抹 亩·M 幕 人次·M 胎 摊 丸 窝 旬·Z 重
+- Without nouns, Zusatz (16): 箱 栏 步·V 拳·V 脚·V 刀·V 巴掌·V 碟 锅 勺 摞 帮 针·V 湾 代 炷
   (·M Maßeinheit, ·Z Zeit, ·V Verbal, ·U Unbestimmt — these need no noun list; plain Zählwörter without nouns need noun links in the campaign or measureWords on vocab nouns.)
 - vocab.measureWords classifiers without an entry (1): 曲 qǔ ×1 (音乐).
-- Linked although the reading differs (2): 场 cháng → m:场 (chǎng) ×15 (病、雪、雨、感冒、梦); 通 tòng → m:通 (tōng) ×3 (报告、鼓、骂).
+- Linked although the reading differs (2): 场 cháng → m:场 (chǎng) ×15 (病、雪、雨、感冒、梦); 通 tòng → m:通 (tōng) ×2 (鼓、骂).
 
 ## Pinyin: old data vs syllabus / CC-CEDICT
 
@@ -419,4 +445,5 @@ Done: ids are `m:…`; every entry that took over an old classifier carries `leg
 - Borrowed classifiers 脸 屋子 桌子 手 are entries (Zählwort, borrowed, note: 借用名量词 of the HSK4 grammar list).
 - Counting tables are generated by the app, not stored.
 - relevel.cjs splitPos fixed; levelUses of the affected vocab entries corrected (scripts/hsk2025/fix-level-uses.cjs).
+- Campaign flags (cleanup): levels from another part of speech → word+nouns / Zusatz; one-only borrowed classifiers 脸 屋子 桌子 without table and question word (countStyle one); 撮 + cuō, 扎 + zhā (pinyinAlt); 刀 + Maßeinheit, 方 + Zählwort (kindAlso); 锅 borrowed; noun lists via scripts/hsk2025/fix-measure-words.cjs (homograph rule, corrections).
 

@@ -6990,6 +6990,10 @@ window.VOCAB_HSK1 = [
       {
         "word": "杯",
         "pinyin": "bei1"
+      },
+      {
+        "word": "袋",
+        "pinyin": "dai4"
       }
     ],
     "evidence": {
@@ -7363,10 +7367,6 @@ window.VOCAB_HSK1 = [
       {
         "word": "个",
         "pinyin": "ge4"
-      },
-      {
-        "word": "颗",
-        "pinyin": "ke1"
       }
     ],
     "evidence": {
@@ -7870,8 +7870,8 @@ window.VOCAB_HSK1 = [
         "pinyin": "wei4"
       },
       {
-        "word": "名",
-        "pinyin": "ming2"
+        "word": "口",
+        "pinyin": "kou3"
       }
     ],
     "evidence": {
@@ -10159,6 +10159,10 @@ window.VOCAB_HSK1 = [
       {
         "word": "个",
         "pinyin": "ge4"
+      },
+      {
+        "word": "堆",
+        "pinyin": "dui1"
       }
     ],
     "evidence": {
@@ -11738,6 +11742,10 @@ window.VOCAB_HSK1 = [
       {
         "word": "套",
         "pinyin": "tao4"
+      },
+      {
+        "word": "堆",
+        "pinyin": "dui1"
       }
     ],
     "evidence": {
@@ -13563,10 +13571,6 @@ window.VOCAB_HSK1 = [
       {
         "word": "张",
         "pinyin": "zhang1"
-      },
-      {
-        "word": "套",
-        "pinyin": "tao4"
       }
     ],
     "evidence": {

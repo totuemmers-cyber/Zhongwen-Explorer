@@ -75,3 +75,11 @@ Author flags, reviewer fixes and proofreading fixes per batch, for follow-up dec
 - m:卷:juan4 (proofreading fix): Beispiel 3 (一卷…山水画, Lesung juàn/juǎn umstritten) ersetzt durch eindeutiges 《史记》一共有一百三十卷
 - m:轮 (proofreading fix): „im Alltag sagt man 一个月亮“ ergänzt: meist 月亮 ohne Zählwort
 - m:枝 (author): nouns: die Liste enthält nur 支-Nomen (笔, 铅笔, 毛笔, 枪), für die 枝 eine Variantenschreibung ist; typische 枝-Nomen wie 花 oder 树枝 fehlen.
+
+## Resolved (Phase 8 cleanup, 2026-10-11 — campaign locked, CAMPAIGN_COMPLETE)
+- Homograph classifiers: verbs sharing word + reading with a noun entry get no CC-CEDICT classifiers (花 huā „ausgeben“, 制服 „überwältigen“); 带 (条) and 影响 (股) cleared. Rule in scripts/hsk2025/fix-measure-words.cjs (verbWithNounHomograph), also applied by fix-inline-classifiers.cjs and relevel.cjs.
+- Noun lists (fix-measure-words.cjs CORRECTIONS): 名−人 (+人员), 宗−心事, 缸−啤酒, 面−毯子, 通−报告, 股−影响/道, 套−桌子, 口−猪 (+人), 颗−苹果/西瓜/土豆, 条−沙发/带; 枝: 笔/铅笔/毛笔/枪 → 支, 枝 + 花/玫瑰/梅花; 句 + 句子 (no vocab entry 话); 堆 + 垃圾/衣服/沙子/问题; 袋 + 大米/面粉/牛奶/垃圾/薯片. Kept: 昆虫 堆 (CC-CEDICT, colloquial 一堆虫子), 手表 只, 手套 只.
+- Levels from another part of speech: levelSource word → word+nouns (门 桶 味 盆 罐 壶 HSK unchanged, 出 HSK5, 方 HSK7-9) or Zusatz without nouns (帮 脚 步 刀 锅 代 栏 针 拳 巴掌 碟); 小时 (time word) keeps word.
+- 脸 屋子 桌子: countStyle 'one' (no table, no question word; ledger hashes refreshed, pass phase8-cleanup).
+- 撮 + pinyinAlt cuō (main stays zuǒ: entry, examples and nouns are the tuft use), 扎 + zhā, 刀 kindAlso Maßeinheit, 方 kindAlso Zählwort, 锅 borrowed.
+- Not changed: 桶 category Essen (like 杯/瓶/碗).

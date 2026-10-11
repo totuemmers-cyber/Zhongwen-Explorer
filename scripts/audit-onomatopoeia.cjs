@@ -157,7 +157,7 @@ for (const [old, target] of Object.entries(removed)) {
 // Campaign ledger (scripts/onomatopoeia/ledger.json, written by scripts/onomatopoeia/apply.cjs): every reviewed/authored entry
 // matches its recorded content hash, drafts have no record. Drafts stay allowed while the campaign runs; set
 // CAMPAIGN_COMPLETE once all batches are applied, then no draft may remain.
-const CAMPAIGN_COMPLETE = false;
+const CAMPAIGN_COMPLETE = true; // all 339 entries reviewed/authored (o001–o004, locked 2026-10-11)
 const { checkLedger } = require('./enrich/section-campaign.cjs');
 const ledger = checkLedger(items, path.join(__dirname, 'onomatopoeia', 'ledger.json'), require('./onomatopoeia/section.cjs').HASH_FIELDS, { requireComplete: CAMPAIGN_COMPLETE });
 ledger.errors.forEach(e => errors.push(e));

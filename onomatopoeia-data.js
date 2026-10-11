@@ -10417,56 +10417,6 @@ window.ONOMATOPOEIA_DATA = [
     }
   },
   {
-    "id": "o:糊里糊涂",
-    "word": "糊里糊涂",
-    "pinyin": "húli-hútú",
-    "traditional": "糊裡糊塗",
-    "level": "HSK7-9",
-    "levelSource": "base",
-    "kind": "Beschreibung",
-    "category": "Aussehen",
-    "pattern": "A里AB",
-    "meaning": "verwirrt, benebelt; gedankenlos, ohne recht zu wissen wie",
-    "usage": "Beschreibt einen verwirrten, unklaren Geisteszustand oder ein Handeln, bei dem man nicht recht weiß, was man tut oder wie es geschah.",
-    "explanation": "糊里糊涂 ist die A里AB-Form von 糊涂 (hútu) „verwirrt, töricht“. Die Form verstärkt und klingt umgangssprachlich: „völlig durcheinander, ganz benebelt“. Als Prädikat mit 的 beschreibt es einen Zustand (今天我糊里糊涂的); adverbial mit 地 heißt es „gedankenlos, ohne es recht zu merken“ (糊里糊涂地上错了车). Bedeutungsnah sind 稀里糊涂 (xīlihútú), das eher „planlos, irgendwie“ betont, und 迷迷糊糊 (mímíhūhū) „schläfrig-benommen“.",
-    "examples": [
-      {
-        "chinese": "昨天晚上没睡好，今天一整天都糊里糊涂的。",
-        "pinyin": "Zuótiān wǎnshang méi shuì hǎo, jīntiān yì zhěng tiān dōu húlihútú de.",
-        "german": "Ich habe letzte Nacht schlecht geschlafen und bin heute den ganzen Tag wie benebelt."
-      },
-      {
-        "chinese": "他糊里糊涂地上错了车。",
-        "pinyin": "Tā húlihútú de shàng cuò le chē.",
-        "german": "Gedankenlos ist er in den falschen Bus gestiegen."
-      },
-      {
-        "chinese": "合同要看清楚再签，别糊里糊涂地就签了。",
-        "pinyin": "Hétong yào kàn qīngchu zài qiān, bié húlihútú de jiù qiān le.",
-        "german": "Lies den Vertrag genau, bevor du unterschreibst – unterschreib nicht einfach blind."
-      }
-    ],
-    "related": [
-      "o:稀里糊涂",
-      "o:迷迷糊糊",
-      "o:模模糊糊",
-      "o:古里古怪"
-    ],
-    "notes": "里 wird meist neutral gesprochen (húlihútú); in 糊涂 (hútu) allein ist die letzte Silbe ebenfalls meist neutral.",
-    "base": {
-      "word": "糊涂",
-      "vocabId": "w:糊涂:hu2tu5",
-      "level": "HSK7-9"
-    },
-    "legacyIds": [
-      "糊里糊涂"
-    ],
-    "meaningStatus": "authored",
-    "evidence": {
-      "cedict": "糊裡糊塗 糊里糊涂 [hu2 li5 hu2 tu2]"
-    }
-  },
-  {
     "id": "o:傻里傻气",
     "word": "傻里傻气",
     "pinyin": "shǎli-shǎqì",
@@ -13587,8 +13537,8 @@ window.ONOMATOPOEIA_DATA = [
     "word": "急吼吼",
     "pinyin": "jíhǒuhǒu",
     "traditional": "急吼吼",
-    "level": "HSK3",
-    "levelSource": "base",
+    "level": "Zusatz",
+    "levelSource": "zusatz",
     "kind": "Beschreibung",
     "category": "Gefuehle",
     "pattern": "ABB",
@@ -15326,6 +15276,56 @@ window.ONOMATOPOEIA_DATA = [
     "candidate": true,
     "evidence": {
       "cedict": "慌裡慌張 慌里慌张 [huang1 li5 huang1 zhang1]"
+    }
+  },
+  {
+    "id": "o:糊里糊涂",
+    "word": "糊里糊涂",
+    "pinyin": "húli-hútú",
+    "traditional": "糊裡糊塗",
+    "level": "HSK7-9",
+    "levelSource": "base",
+    "kind": "Beschreibung",
+    "category": "Gefuehle",
+    "pattern": "A里AB",
+    "meaning": "verwirrt, benebelt; gedankenlos, ohne recht zu wissen wie",
+    "usage": "Beschreibt einen verwirrten, unklaren Geisteszustand oder ein Handeln, bei dem man nicht recht weiß, was man tut oder wie es geschah.",
+    "explanation": "糊里糊涂 ist die A里AB-Form von 糊涂 (hútu) „verwirrt, töricht“. Die Form verstärkt und klingt umgangssprachlich: „völlig durcheinander, ganz benebelt“. Als Prädikat mit 的 beschreibt es einen Zustand (今天我糊里糊涂的); adverbial mit 地 heißt es „gedankenlos, ohne es recht zu merken“ (糊里糊涂地上错了车). Bedeutungsnah sind 稀里糊涂 (xīlihútú), das eher „planlos, irgendwie“ betont, und 迷迷糊糊 (mímíhūhū) „schläfrig-benommen“.",
+    "examples": [
+      {
+        "chinese": "昨天晚上没睡好，今天一整天都糊里糊涂的。",
+        "pinyin": "Zuótiān wǎnshang méi shuì hǎo, jīntiān yì zhěng tiān dōu húlihútú de.",
+        "german": "Ich habe letzte Nacht schlecht geschlafen und bin heute den ganzen Tag wie benebelt."
+      },
+      {
+        "chinese": "他糊里糊涂地上错了车。",
+        "pinyin": "Tā húlihútú de shàng cuò le chē.",
+        "german": "Gedankenlos ist er in den falschen Bus gestiegen."
+      },
+      {
+        "chinese": "合同要看清楚再签，别糊里糊涂地就签了。",
+        "pinyin": "Hétong yào kàn qīngchu zài qiān, bié húlihútú de jiù qiān le.",
+        "german": "Lies den Vertrag genau, bevor du unterschreibst – unterschreib nicht einfach blind."
+      }
+    ],
+    "related": [
+      "o:稀里糊涂",
+      "o:迷迷糊糊",
+      "o:模模糊糊",
+      "o:古里古怪"
+    ],
+    "notes": "里 wird meist neutral gesprochen (húlihútú); in 糊涂 (hútu) allein ist die letzte Silbe ebenfalls meist neutral.",
+    "base": {
+      "word": "糊涂",
+      "vocabId": "w:糊涂:hu2tu5",
+      "level": "HSK7-9"
+    },
+    "legacyIds": [
+      "糊里糊涂"
+    ],
+    "meaningStatus": "authored",
+    "evidence": {
+      "cedict": "糊裡糊塗 糊里糊涂 [hu2 li5 hu2 tu2]"
     }
   },
   {

@@ -76,3 +76,7 @@ Author flags, reviewer fixes and proofreading fixes per batch, for follow-up dec
 - o:黏糊糊 (proofreading fix): Klargestellt, dass 糊糊 nur gleich klingt wie 乎乎 in 胖乎乎/热乎乎.
 - o:热腾腾 (proofreading fix): Übertragenen Gebrauch („druckfrisch“) als selten/scherzhaft gekennzeichnet.
 - o:摇摇摆摆 (proofreading fix): Unsichere Behauptung „großspuriges Einherstolzieren“ durch Verweis auf 大摇大摆 ersetzt.
+
+## Resolved (Phase 8 cleanup, 2026-10-11 — campaign locked, CAMPAIGN_COMPLETE)
+- o:急吼吼 → Zusatz (build.cjs LEVEL_ZUSATZ; base word 急 still recorded).
+- o:糊里糊涂 category Aussehen → Gefuehle (build.cjs DECISIONS).

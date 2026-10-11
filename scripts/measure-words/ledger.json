@@ -627,7 +627,12 @@
   "policy": "author+review",
   "status": "reviewed",
   "date": "2026-10-11",
-  "hash": "e6f1ad25ea631497"
+  "hash": "6f847fd07403c5db",
+  "revised": {
+   "pass": "phase8-cleanup",
+   "date": "2026-10-11",
+   "note": "forced question word removed (one-only classifier, countStyle one)"
+  }
  },
  "m:手": {
   "batch": "m002",
@@ -648,14 +653,24 @@
   "policy": "author+review",
   "status": "reviewed",
   "date": "2026-10-11",
-  "hash": "d5987369ad8672e9"
+  "hash": "ec7768100298b824",
+  "revised": {
+   "pass": "phase8-cleanup",
+   "date": "2026-10-11",
+   "note": "forced question word removed (one-only classifier, countStyle one)"
+  }
  },
  "m:桌子": {
   "batch": "m002",
   "policy": "author+review",
   "status": "reviewed",
   "date": "2026-10-11",
-  "hash": "084e1ce4723ed7e2"
+  "hash": "0e1d5be80cbe81c6",
+  "revised": {
+   "pass": "phase8-cleanup",
+   "date": "2026-10-11",
+   "note": "forced question word removed (one-only classifier, countStyle one)"
+  }
  },
  "m:步": {
   "batch": "m002",

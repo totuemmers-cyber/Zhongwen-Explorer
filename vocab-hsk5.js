@@ -1396,10 +1396,6 @@ window.VOCAB_HSK5 = [
       {
         "word": "个",
         "pinyin": "ge4"
-      },
-      {
-        "word": "通",
-        "pinyin": "tong4"
       }
     ],
     "evidence": {
@@ -9782,7 +9778,13 @@ window.VOCAB_HSK5 = [
       "batch": "b010",
       "policy": "author",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "袋",
+        "pinyin": "dai4"
+      }
+    ]
   },
   {
     "id": "w:大脑:da4nao3",
@@ -32998,7 +33000,7 @@ window.VOCAB_HSK5 = [
     "traditional": "毛筆",
     "measureWords": [
       {
-        "word": "枝",
+        "word": "支",
         "pinyin": "zhi1"
       },
       {
@@ -33200,12 +33202,16 @@ window.VOCAB_HSK5 = [
     },
     "measureWords": [
       {
-        "word": "棵",
-        "pinyin": "ke1"
-      },
-      {
         "word": "朵",
         "pinyin": "duo3"
+      },
+      {
+        "word": "枝",
+        "pinyin": "zhi1"
+      },
+      {
+        "word": "棵",
+        "pinyin": "ke1"
       }
     ]
   },
@@ -41407,6 +41413,10 @@ window.VOCAB_HSK5 = [
       {
         "word": "把",
         "pinyin": "ba3"
+      },
+      {
+        "word": "堆",
+        "pinyin": "dui1"
       }
     ],
     "evidence": {
@@ -50584,8 +50594,8 @@ window.VOCAB_HSK5 = [
     },
     "measureWords": [
       {
-        "word": "颗",
-        "pinyin": "ke1"
+        "word": "个",
+        "pinyin": "ge4"
       }
     ]
   },
@@ -67136,10 +67146,6 @@ window.VOCAB_HSK5 = [
     },
     "traditional": "豬",
     "measureWords": [
-      {
-        "word": "口",
-        "pinyin": "kou3"
-      },
       {
         "word": "头",
         "pinyin": "tou2"

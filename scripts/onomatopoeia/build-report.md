@@ -38,10 +38,10 @@ Moves: 38 (25 with a vocabulary/chengyu entry, 13 to a grammar point). Drops: 49
 | Natur | Natur & Wetter | 24 | 0 | 1 | 25 |
 | Dinge | Dinge & Maschinen | 59 | 0 | 0 | 59 |
 | Ausrufe | Ausrufe | 0 | 20 | 0 | 20 |
-| Aussehen | Zustand & Aussehen | 0 | 0 | 82 | 82 |
+| Aussehen | Zustand & Aussehen | 0 | 0 | 81 | 81 |
 | Sinne | Sinne & Textur | 0 | 0 | 28 | 28 |
 | Bewegung | Bewegung | 4 | 0 | 25 | 29 |
-| Gefuehle | Gefühle | 0 | 0 | 44 | 44 |
+| Gefuehle | Gefühle | 0 | 0 | 45 | 45 |
 
 ### By pattern
 
@@ -65,12 +65,12 @@ Moves: 38 (25 with a vocabulary/chengyu entry, 13 to a grammar point). Drops: 49
 |---|---|---|---|---|---|---|
 | HSK1 | 1 |  | 4 |  |  | 5 |
 | HSK2 |  |  | 6 | 2 |  | 8 |
-| HSK3 |  |  | 13 |  |  | 13 |
+| HSK3 |  |  | 12 |  |  | 12 |
 | HSK4 | 2 |  | 15 |  |  | 17 |
 | HSK5 | 6 |  | 26 |  |  | 32 |
 | HSK6 | 2 |  | 10 |  |  | 12 |
 | HSK7-9 | 15 |  | 18 |  |  | 33 |
-| Zusatz |  |  |  |  | 219 | 219 |
+| Zusatz |  |  |  |  | 220 | 220 |
 
 `base`: the base word's lowest HSK level (ABB: adjective A; AABB/ABAB/A里AB/ABCC: adjective or verb). `grammar`: raised to the level of the grammar point of the pattern (AABB → g:AA、AABB, HSK2); the syllabus has no grammar point for ABB, ABAB of adjectives or A里AB.
 
@@ -358,7 +358,7 @@ Candidates for vocab-zusatz/chengyu if they are wanted later:
 | 91 | 窸窸窣窣 | xīxī-sūsū | Geraeusche | keep-sound | Laut · Natur · AABB · Zusatz (zusatz) | AABB of 窸窣 (attested), productive | not in CEDICT |
 | 92 | 哔哔 | bìbì | Geraeusche | keep-sound | Laut · Dinge · AA · Zusatz (zusatz) | beep; CEDICT 哔 (phonetic), 哔哔啪啪 (onom.) | not in CEDICT |
 | 93 | 轰 | hōng | Geraeusche | keep-sound | Laut · Dinge · A · HSK7-9 (syllabus) | sound word, CEDICT: explosion | CEDICT [hong1] explosion; bang · Syllabus HSK7-9 拟声、动 · Vokabel w:轰:hong1 (HSK7-9, Lautmalerei) |
-| 94 | 糊里糊涂 | húli-hútú | Zustaende | keep-descriptive | Beschreibung · Aussehen · A里AB · HSK7-9 (base) | vivid A里AB form, CEDICT: confused | CEDICT [hu2 li5 hu2 tu2] confused; vague |
+| 94 | 糊里糊涂 | húli-hútú | Zustaende | keep-descriptive | Beschreibung · Gefuehle · A里AB · HSK7-9 (base) | state of mind / behaviour, not appearance (campaign flag o002, settled 2026-10-11) | CEDICT [hu2 li5 hu2 tu2] confused; vague |
 | 95 | 安安静静 | ānān-jìngjìng | Zustaende | keep-descriptive | Beschreibung · Aussehen · AABB · HSK3 (base) | productive AABB of 安静 | not in CEDICT |
 | 96 | 舒舒服服 | shūshū-fúfú | Zustaende | keep-descriptive | Beschreibung · Aussehen · AABB · HSK2 (base) | vivid AABB form, CEDICT: comfortable | CEDICT [shu1 shu5 fu5 fu5] comfortable; with ease |
 | 97 | 大大方方 | dàdà-fāngfāng | Zustaende | keep-descriptive | Beschreibung · Aussehen · AABB · HSK6 (base) | vivid AABB form, CEDICT: confident | CEDICT [da4 da4 fang1 fang1] confident; calm |
@@ -525,7 +525,7 @@ Candidates for vocab-zusatz/chengyu if they are wanted later:
 | 258 | 嗤嗤 | chīchī | Geraeusche | merge | o:哧哧 | variant spelling of the giggling/hissing sound 哧哧 | not in CEDICT |
 | 259 | 嗒 | dā | Geraeusche | keep-sound | Laut · Dinge · A · Zusatz (zusatz) | sound word, CEDICT (onom.) | CEDICT [da1] (onom.) used in words that describe machine gunfire, the ticking of a clock or the clatter |
 | 260 | 嗞嗞 | zīzī | Geraeusche | keep-sound | Laut · Dinge · AA · Zusatz (zusatz) | sizzling (嗞嗞作响, also written 滋滋); CEDICT 嗞 (onom.) | not in CEDICT |
-| 261 | 急吼吼 | jíhǒuhǒu | Gefuehle | keep-descriptive | Beschreibung · Gefuehle · ABB · HSK3 (base) | vivid ABB form, CEDICT: impatient | CEDICT [ji2 hou3 hou3] impatient |
+| 261 | 急吼吼 | jíhǒuhǒu | Gefuehle | keep-descriptive | Beschreibung · Gefuehle · ABB · Zusatz (zusatz) | vivid ABB form, CEDICT: impatient | CEDICT [ji2 hou3 hou3] impatient |
 | 262 | 懒洋洋 | lǎnyángyáng | Gefuehle | keep-descriptive | Beschreibung · Gefuehle · ABB · HSK4 (base) | vivid ABB form, CEDICT: lazily | CEDICT [lan3 yang1 yang1] lazily |
 | 263 | 恶狠狠 | èhěnhěn | Gefuehle | keep-descriptive | Beschreibung · Gefuehle · ABB · HSK7-9 (base) | vivid ABB form, CEDICT: very fierce | CEDICT [e4 hen3 hen3] very fierce |
 | 264 | 孤零零 | gūlínglíng | Gefuehle | keep-descriptive | Beschreibung · Gefuehle · ABB · HSK7-9 (syllabus) | vivid ABB form, CEDICT: lone | CEDICT [gu1 ling2 ling2] lone; isolated and without help · Syllabus HSK7-9 形 · Vokabel w:孤零零:gu1ling2ling2 (HSK7-9, Adjektiv) |
@@ -661,9 +661,9 @@ Candidates for vocab-zusatz/chengyu if they are wanted later:
 - **Natur & Wetter** (25): 呜 潺潺 淙淙 汩汩 哗哗 呼呼 猎猎 隆隆 飒飒 沙沙 刷刷 簌簌 萧萧 滴答 轰隆 淅沥⁺ 窸窣 轰隆隆 哗啦啦 滴滴答答 轰轰隆隆 淅淅沥沥 窸窸窣窣 咕噜咕噜 纷纷扬扬
 - **Dinge & Maschinen** (59): 嚓 嗒 叮 咣 轰 啪 砰 哔哔 嚓嚓 嗒嗒 嘀嘀 叮叮 咚咚 嘟嘟 咣咣 轰轰 咔咔 哐哐 辘辘⁺ 啪啪 嘭嘭 砰砰 噗噗 突突 轧轧 铮铮 嗞嗞 吧嗒 叮当 叮咚 叮铃⁺ 嘎巴 嘎嘣 嘎吱 咯噔⁺ 咯吱 咣当 咕咚 咕嘟 哗啦 呼啦 咔嚓 咔嗒 哐当 哐啷⁺ 乒乓 噼啪 扑通 嘶啦 吱嘎 吱呀 滋啦 叮叮当当 噼噼啪啪 吱吱嘎嘎 嘎吱嘎吱 咕嘟咕嘟 噼里啪啦 稀里哗啦
 - **Ausrufe** (20): 啊⁺ 哎⁺ 唉⁺ 呃 哈⁺ 嘿⁺ 哼⁺ 嗯⁺ 哦⁺ 噢⁺ 呸⁺ 哇⁺ 喂⁺ 嘘⁺ 呀⁺ 咦⁺ 哟⁺ 啧啧⁺ 哎呀⁺ 哎哟⁺
-- **Zustand & Aussehen** (82): 白花花 白茫茫 光溜溜 光秃秃 黑乎乎⁺ 黑漆漆 黑压压⁺ 黑黝黝 红扑扑⁺ 红彤彤 厚墩墩 黄澄澄⁺ 灰蒙蒙 紧巴巴 金灿灿 静悄悄⁺ 空荡荡 亮晶晶 亮闪闪⁺ 亮堂堂 乱哄哄 乱蓬蓬 乱糟糟 绿油油 明晃晃 闹哄哄⁺ 胖嘟嘟⁺ 胖乎乎 齐刷刷 傻乎乎 水灵灵 水汪汪 雾蒙蒙 响当当 阴沉沉 圆鼓鼓⁺ 圆滚滚 脏兮兮 胀鼓鼓 直勾勾⁺ 皱巴巴 醉醺醺⁺ 安安静静 大大方方 断断续续 干干净净 规规矩矩 红红火火 花花绿绿 简简单单 坑坑洼洼⁺ 老老实实 冷冷清清 马马虎虎 迷迷糊糊 密密麻麻 明明白白 模模糊糊 漂漂亮亮 平平安安 平平淡淡 普普通通 清清楚楚 认认真真 热热闹闹 舒舒服服 松松散散 歪歪扭扭 弯弯曲曲 完完整整 稀稀拉拉 熙熙攘攘⁺ 整整齐齐 通红通红⁺ 雪白雪白⁺ 古里古怪⁺ 糊里糊涂 傻里傻气⁺ 土里土气⁺ 稀里糊涂 黑不溜秋⁺ 黑咕隆咚
+- **Zustand & Aussehen** (81): 白花花 白茫茫 光溜溜 光秃秃 黑乎乎⁺ 黑漆漆 黑压压⁺ 黑黝黝 红扑扑⁺ 红彤彤 厚墩墩 黄澄澄⁺ 灰蒙蒙 紧巴巴 金灿灿 静悄悄⁺ 空荡荡 亮晶晶 亮闪闪⁺ 亮堂堂 乱哄哄 乱蓬蓬 乱糟糟 绿油油 明晃晃 闹哄哄⁺ 胖嘟嘟⁺ 胖乎乎 齐刷刷 傻乎乎 水灵灵 水汪汪 雾蒙蒙 响当当 阴沉沉 圆鼓鼓⁺ 圆滚滚 脏兮兮 胀鼓鼓 直勾勾⁺ 皱巴巴 醉醺醺⁺ 安安静静 大大方方 断断续续 干干净净 规规矩矩 红红火火 花花绿绿 简简单单 坑坑洼洼⁺ 老老实实 冷冷清清 马马虎虎 迷迷糊糊 密密麻麻 明明白白 模模糊糊 漂漂亮亮 平平安安 平平淡淡 普普通通 清清楚楚 认认真真 热热闹闹 舒舒服服 松松散散 歪歪扭扭 弯弯曲曲 完完整整 稀稀拉拉 熙熙攘攘⁺ 整整齐齐 通红通红⁺ 雪白雪白⁺ 古里古怪⁺ 傻里傻气⁺ 土里土气⁺ 稀里糊涂 黑不溜秋⁺ 黑咕隆咚
 - **Sinne & Textur** (28): 潮乎乎 沉甸甸 臭烘烘⁺ 干巴巴 汗津津⁺ 滑溜溜 火辣辣 冷冰冰 冷飕飕 凉飕飕 毛茸茸 麻酥酥 黏糊糊 暖烘烘⁺ 暖融融 暖洋洋 热乎乎 热辣辣 热腾腾 软绵绵 湿漉漉 酸溜溜 甜丝丝 香喷喷⁺ 硬邦邦 干干巴巴 黏黏糊糊 冰凉冰凉
 - **Bewegung** (29): 嗖 嗖嗖 扑腾 骨碌碌 颤悠悠 滴溜溜 急匆匆 慢腾腾 慢吞吞 慢悠悠 轻飘飘 蹦蹦跳跳 颤颤巍巍 匆匆忙忙 跌跌撞撞 哆哆嗦嗦 风风火火 晃晃悠悠 急急忙忙 磕磕绊绊⁺ 磕磕碰碰 来来往往 踉踉跄跄 磨磨蹭蹭 偷偷摸摸 推推搡搡 拖拖拉拉 摇摇摆摆 摇摇晃晃
-- **Gefühle** (44): 惨兮兮 恶狠狠 孤零零 灰溜溜 昏沉沉 急吼吼 懒洋洋 乐颠颠 乐呵呵 乐滋滋 美滋滋 气冲冲⁺ 怯生生 气鼓鼓 气呼呼 甜蜜蜜⁺ 笑哈哈⁺ 笑眯眯 笑嘻嘻 笑盈盈 兴冲冲 心慌慌 羞答答 喜洋洋⁺ 喜滋滋 眼巴巴 眼睁睁⁺ 安安心心 大大咧咧⁺ 高高兴兴 恍恍惚惚 慌慌张张 浑浑噩噩 开开心心 快快乐乐 哭哭啼啼 扭扭捏捏 凄凄惨惨 甜甜蜜蜜 窝窝囊囊 犹犹豫豫 战战兢兢 慌里慌张⁺ 可怜巴巴
+- **Gefühle** (45): 惨兮兮 恶狠狠 孤零零 灰溜溜 昏沉沉 急吼吼 懒洋洋 乐颠颠 乐呵呵 乐滋滋 美滋滋 气冲冲⁺ 怯生生 气鼓鼓 气呼呼 甜蜜蜜⁺ 笑哈哈⁺ 笑眯眯 笑嘻嘻 笑盈盈 兴冲冲 心慌慌 羞答答 喜洋洋⁺ 喜滋滋 眼巴巴 眼睁睁⁺ 安安心心 大大咧咧⁺ 高高兴兴 恍恍惚惚 慌慌张张 浑浑噩噩 开开心心 快快乐乐 哭哭啼啼 扭扭捏捏 凄凄惨惨 甜甜蜜蜜 窝窝囊囊 犹犹豫豫 战战兢兢 慌里慌张⁺ 糊里糊涂 可怜巴巴
 
 ⁺ = new candidate.

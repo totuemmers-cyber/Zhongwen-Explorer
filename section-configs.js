@@ -1246,10 +1246,11 @@ function showBlock(id, visible) {
 
 // Counting table 1–10, generated (same rule as countingTable in scripts/measure-words/build.cjs): 一 is yí before a
 // 4th or neutral tone and yì otherwise; 两 stands before classifiers. countStyle 'date' (号, 日 – dates are ordinal):
-// 一 keeps yī and 2 is 二; countStyle 'er' (the weight 两): 二两. 数量 words (一下, 一些) contain their number: none.
+// 一 keeps yī and 2 is 二; countStyle 'er' (the weight 两): 二两. 数量 words (一下, 一些) contain their number and
+// countStyle 'one' (borrowed 一脸汗, 一屋子人, 一桌子菜) stands only with 一: none.
 var MW_NUMBERS = [[3, '三', 'sān'], [4, '四', 'sì'], [5, '五', 'wǔ'], [6, '六', 'liù'], [7, '七', 'qī'], [8, '八', 'bā'], [9, '九', 'jiǔ'], [10, '十', 'shí']];
 function countingRows(item) {
-  if (!item || item.form === '数量' || !item.classifier || !item.pinyin) return [];
+  if (!item || item.form === '数量' || item.countStyle === 'one' || !item.classifier || !item.pinyin) return [];
   var digit = /[1-5]/.exec(Pinyin.toNumeric(item.pinyin, item.classifier));
   var tone = digit ? Number(digit[0]) : 5;
   var date = item.countStyle === 'date';
@@ -1370,7 +1371,7 @@ SECTION_CONFIGS['measurewords'] = {
     showBlock('mw-detail-usage', !!item.usage);
     renderMeasureWordFacts(item);
 
-    // 数量 words (一下, 一些) contain their number: no question word, no counting table.
+    // 数量 words (一下, 一些) contain their number, one-only classifiers (一脸汗) take no other: no question word, no table.
     var rows = countingRows(item);
     document.getElementById('mw-detail-question').textContent = rows.length ? (item.questionWord || '几' + item.classifier) : '';
     showBlock('mw-detail-question-section', rows.length > 0);
@@ -1428,8 +1429,10 @@ function renderMeasureWordFacts(item) {
   (syl.vocab || []).forEach(function (v) { source.push('Wortliste ' + levelLabel(v.measureLevel || v.level) + ' (' + v.pos + ')'); });
   (syl.grammar || []).forEach(function (g) { source.push('Grammatikliste ' + levelLabel(g.level) + ': ' + g.item); });
   if (item.levelSource === 'word') source.push('Niveau des Wortes im Lehrplan (dort nicht als Zählwort geführt)');
+  if (item.levelSource === 'word+nouns') source.push('Niveau des Wortes im Lehrplan (dort nicht als Zählwort geführt), nicht früher als seine typischen Nomen');
   if (item.level === 'Zusatz') source.push('Nicht im HSK-Lehrplan 2025');
   if (source.length) row('Lehrplan', source.join('; '));
+  if (item.countStyle === 'one') row('Zahl', 'nur mit 一 („ein ganzer … voll“)');
   if (item.vocabId) {
     var parts = vocabIdParts(item.vocabId);
     var link = document.createElement('button');

@@ -476,10 +476,6 @@ window.VOCAB_HSK2 = [
       {
         "word": "支",
         "pinyin": "zhi1"
-      },
-      {
-        "word": "枝",
-        "pinyin": "zhi1"
       }
     ]
   },
@@ -2620,33 +2616,7 @@ window.VOCAB_HSK2 = [
       "batch": "b003",
       "policy": "author+review",
       "date": "2026-10-09"
-    },
-    "measureWords": [
-      {
-        "word": "朵",
-        "pinyin": "duo3"
-      },
-      {
-        "word": "支",
-        "pinyin": "zhi1"
-      },
-      {
-        "word": "束",
-        "pinyin": "shu4"
-      },
-      {
-        "word": "把",
-        "pinyin": "ba3"
-      },
-      {
-        "word": "盆",
-        "pinyin": "pen2"
-      },
-      {
-        "word": "簇",
-        "pinyin": "cu4"
-      }
-    ]
+    }
   },
   {
     "id": "w:花:hua1#2",
@@ -2694,6 +2664,10 @@ window.VOCAB_HSK2 = [
       },
       {
         "word": "支",
+        "pinyin": "zhi1"
+      },
+      {
+        "word": "枝",
         "pinyin": "zhi1"
       },
       {

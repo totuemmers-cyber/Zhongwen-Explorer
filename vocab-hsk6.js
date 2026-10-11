@@ -38407,7 +38407,17 @@ window.VOCAB_HSK6 = [
       "batch": "b019",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "枝",
+        "pinyin": "zhi1"
+      },
+      {
+        "word": "朵",
+        "pinyin": "duo3"
+      }
+    ]
   },
   {
     "id": "w:眉毛:mei2mao5",
@@ -39062,7 +39072,13 @@ window.VOCAB_HSK6 = [
       "batch": "b020",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "袋",
+        "pinyin": "dai4"
+      }
+    ]
   },
   {
     "id": "w:面子:mian4zi5",
@@ -44594,10 +44610,6 @@ window.VOCAB_HSK6 = [
       {
         "word": "条",
         "pinyin": "tiao2"
-      },
-      {
-        "word": "枝",
-        "pinyin": "zhi1"
       }
     ],
     "evidence": {
@@ -52441,7 +52453,17 @@ window.VOCAB_HSK6 = [
       "batch": "b021",
       "policy": "author",
       "date": "2026-10-10"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "袋",
+        "pinyin": "dai4"
+      },
+      {
+        "word": "包",
+        "pinyin": "bao1"
+      }
+    ]
   },
   {
     "id": "w:竖:shu4",

@@ -6262,10 +6262,6 @@ window.VOCAB_HSK4 = [
       {
         "word": "条",
         "pinyin": "tiao2"
-      },
-      {
-        "word": "股",
-        "pinyin": "gu3"
       }
     ]
   },
@@ -20143,7 +20139,17 @@ window.VOCAB_HSK4 = [
       "batch": "b007",
       "policy": "author+review",
       "date": "2026-10-09"
-    }
+    },
+    "measureWords": [
+      {
+        "word": "堆",
+        "pinyin": "dui1"
+      },
+      {
+        "word": "袋",
+        "pinyin": "dai4"
+      }
+    ]
   },
   {
     "id": "w:辣:la4",
@@ -27394,6 +27400,10 @@ window.VOCAB_HSK4 = [
     ],
     "traditional": "人員",
     "measureWords": [
+      {
+        "word": "名",
+        "pinyin": "ming2"
+      },
       {
         "word": "个",
         "pinyin": "ge4"

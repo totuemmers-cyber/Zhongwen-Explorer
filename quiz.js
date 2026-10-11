@@ -940,7 +940,8 @@
     });
     var c = buildChoices(asked.word, distractors);
     if (!c) return null;
-    var number = pickRandom(NUMBERS);
+    // One-only classifiers (countStyle 'one': 一脸汗, 一屋子人) stand only with 一.
+    var number = info[asked.word] && info[asked.word].countStyle === 'one' ? '一' : pickRandom(NUMBERS);
     var fitting = listed.map(function (w) {
       var own = item.measureWords.find(function (m) { return m.word === w; });
       var p = classifierPinyin(w, info, own);

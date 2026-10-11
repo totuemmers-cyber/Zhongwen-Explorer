@@ -13,7 +13,8 @@
 //
 // Levels: syllabus level, else the vocabulary entry's HSK level; a descriptive form without either takes the level of
 // its base word (干干净净 → 干净; ABB: an adjective A, 绿油油 → 绿), never below the grammar point that teaches its
-// pattern (AABB: g:AA、AABB); everything else is Zusatz. levelSource records which rule applied.
+// pattern (AABB: g:AA、AABB); everything else is Zusatz (and the exceptions in LEVEL_ZUSATZ). levelSource records
+// which rule applied.
 // Texts: the old texts stay as author drafts (meaningStatus 'draft', ASCII umlauts and ss spellings converted, examples
 // without the word dropped); new candidates get a short German gloss (candidate: true). The text campaign rewrites both.
 'use strict';
@@ -160,7 +161,7 @@ const DECISIONS = `
 窸窸窣窣|S:Natur|
 哔哔|S:Dinge|beep; CEDICT 哔 (phonetic), 哔哔啪啪 (onom.)
 轰|S:Dinge|
-糊里糊涂|D:Aussehen|
+糊里糊涂|D:Gefuehle|state of mind / behaviour, not appearance (campaign flag o002, settled 2026-10-11)
 安安静静|D:Aussehen|
 舒舒服服|D:Aussehen||shūshufúfú
 大大方方|D:Aussehen|
@@ -615,6 +616,11 @@ function patternOf(word) {
   return 'Andere';
 }
 
+// Level exceptions (campaign flags, settled 2026-10-11): forms the base-word rule would level although they are rare
+// or regional; they stay Zusatz.
+const LEVEL_ZUSATZ = {
+  '急吼吼': 'regional (Wu) and rare; the HSK3 level of the base word 急 says nothing about the vivid form (flag o001)'
+};
 // The word the vivid form is built on (干干净净 → 干净, 绿油油 → 绿, 糊里糊涂 → 糊涂, 冰凉冰凉 → 冰凉).
 function baseOf(word, pattern) {
   const c = Array.from(word);
@@ -816,7 +822,8 @@ function makeEntry(source, opts) {
   const base = opts.kind === 'Beschreibung' ? baseEntry(word, pattern) : null;
   const patternGrammar = opts.kind === 'Beschreibung' && PATTERN_GRAMMAR[pattern] ? grammarById.get(PATTERN_GRAMMAR[pattern]) : null;
   let lvl = profile.extraLevel; let levelSource = 'zusatz';
-  if (ev.sy) { lvl = level(ev.sy.level); levelSource = 'syllabus'; }
+  if (LEVEL_ZUSATZ[word]) { /* settled exception: stays Zusatz (the base word is still recorded) */ }
+  else if (ev.sy) { lvl = level(ev.sy.level); levelSource = 'syllabus'; }
   else if (ev.ve && profile.levels.includes(ev.ve.level)) { lvl = ev.ve.level; levelSource = 'vocab'; }
   else if (base) {
     lvl = base.level; levelSource = 'base';

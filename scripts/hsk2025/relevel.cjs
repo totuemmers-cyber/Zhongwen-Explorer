@@ -364,6 +364,13 @@ for (const list of output.values()) for (const item of list) if (!item.tradition
 
 // --- Invariants ---------------------------------------------------------------------------------
 const all = Array.from(output.values()).flat();
+// Homograph rule (fix-measure-words.cjs): CC-CEDICT classifiers of a reading go to the noun entry only, not to a verb
+// of the same word and reading (花 huā „ausgeben“ / „Blume“).
+{
+  const { nounReadings, verbWithNounHomograph } = require('./fix-measure-words.cjs');
+  const nouns = nounReadings(all);
+  for (const item of all) if (item.measureWords && verbWithNounHomograph(item, nouns)) delete item.measureWords;
+}
 assert.strictEqual(new Set(all.map(i => i.id)).size, all.length, 'Duplicate ids');
 const covered = new Set(all.filter(i => i.syllabus).map(i => i.syllabus.no));
 assert.strictEqual(covered.size, syllabus.length, 'Syllabus rows without an entry: ' + (syllabus.length - covered.size));

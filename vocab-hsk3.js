@@ -3571,12 +3571,6 @@ window.VOCAB_HSK3 = [
       "page": 94
     },
     "traditional": "帶",
-    "measureWords": [
-      {
-        "word": "条",
-        "pinyin": "tiao2"
-      }
-    ],
     "evidence": {
       "cedict": "帶 带 [dai4]"
     },
@@ -10268,6 +10262,10 @@ window.VOCAB_HSK3 = [
       {
         "word": "个",
         "pinyin": "ge4"
+      },
+      {
+        "word": "句",
+        "pinyin": "ju4"
       }
     ],
     "evidence": {
@@ -13545,10 +13543,6 @@ window.VOCAB_HSK3 = [
       {
         "word": "桶",
         "pinyin": "tong3"
-      },
-      {
-        "word": "缸",
-        "pinyin": "gang1"
       }
     ],
     "evidence": {
@@ -14008,10 +14002,6 @@ window.VOCAB_HSK3 = [
     "measureWords": [
       {
         "word": "支",
-        "pinyin": "zhi1"
-      },
-      {
-        "word": "枝",
         "pinyin": "zhi1"
       },
       {
@@ -14843,12 +14833,12 @@ window.VOCAB_HSK3 = [
     },
     "measureWords": [
       {
-        "word": "条",
-        "pinyin": "tiao2"
-      },
-      {
         "word": "张",
         "pinyin": "zhang1"
+      },
+      {
+        "word": "个",
+        "pinyin": "ge4"
       }
     ]
   },
@@ -17602,10 +17592,6 @@ window.VOCAB_HSK3 = [
       {
         "word": "个",
         "pinyin": "ge4"
-      },
-      {
-        "word": "颗",
-        "pinyin": "ke1"
       }
     ],
     "evidence": {
@@ -20253,12 +20239,6 @@ window.VOCAB_HSK3 = [
       "page": 103
     },
     "traditional": "影響",
-    "measureWords": [
-      {
-        "word": "股",
-        "pinyin": "gu3"
-      }
-    ],
     "evidence": {
       "cedict": "影響 影响 [ying3 xiang3]"
     },

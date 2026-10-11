@@ -178,9 +178,10 @@ function check(c, a, api) {
     api.checkTextPinyin('usage', a.usage, errors, warnings, [c.classifier]);
   }
   if (api.germanField(a.notes, 'notes', { min: 80, max: 900 }, errors, warnings)) api.checkTextPinyin('notes', a.notes, errors, warnings, [c.classifier]);
-  // Question word (几本, 多少公斤, 哪些); 数量 words (一下, 一些) have none.
-  if (c.form === '数量') {
-    if (a.questionWord !== undefined && a.questionWord !== null) errors.push('questionWord: none for 数量 words (' + c.classifier + ' contains its number)');
+  // Question word (几本, 多少公斤, 哪些); 数量 words (一下, 一些) and one-only borrowed classifiers (countStyle 'one': 一脸汗,
+  // 一屋子人 – 几脸 is not said) have none.
+  if (c.form === '数量' || c.countStyle === 'one') {
+    if (a.questionWord !== undefined && a.questionWord !== null) errors.push('questionWord: none for ' + (c.form === '数量' ? '数量 words (' + c.classifier + ' contains its number)' : 'one-only classifiers (only 一' + c.classifier + ')'));
   } else if (typeof a.questionWord !== 'string' || !/^(几|多少|哪)/.test(a.questionWord) || !a.questionWord.includes(c.classifier) || /[^\p{Script=Han}]/u.test(a.questionWord)) {
     errors.push('questionWord: Chinese question form with ' + c.classifier + ' required: 几' + c.classifier + ', 多少' + c.classifier + ' (or 哪' + c.classifier + ')');
   }

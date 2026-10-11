@@ -163854,10 +163854,6 @@ window.VOCAB_HSK7_9 = [
       {
         "word": "床",
         "pinyin": "chuang2"
-      },
-      {
-        "word": "面",
-        "pinyin": "mian4"
       }
     ],
     "evidence": {
@@ -188614,10 +188610,6 @@ window.VOCAB_HSK7_9 = [
       {
         "word": "件",
         "pinyin": "jian4"
-      },
-      {
-        "word": "宗",
-        "pinyin": "zong1"
       }
     ],
     "evidence": {
@@ -220369,12 +220361,6 @@ window.VOCAB_HSK7_9 = [
       }
     ],
     "traditional": "制服",
-    "measureWords": [
-      {
-        "word": "套",
-        "pinyin": "tao4"
-      }
-    ],
     "evidence": {
       "cedict": "制服 制服 [zhi4 fu2]"
     },

@@ -4,6 +4,8 @@
 //   - CEDICT entries with the vocab entry's reading only (exact numeric key, else neutral-tone tolerant), no proper names;
 //   - entries with author corrections (fix-measure-words.cjs CORRECTIONS) are left as the authors set them;
 //   - nouns and phrases take all classifiers, verbs only specific ones (never 个), other parts of speech none;
+//   - a verb with a noun homograph of the same reading (花 huā „ausgeben“ / „Blume“) takes none: the classifiers belong
+//     to the noun (fix-measure-words.cjs verbWithNounHomograph);
 //   - 个 is never added as an entry's only classifier: CEDICT marks the generic classifier on abstract nouns and
 //     verb-like words (打算, 精神, 年), where it is noise; with other classifiers (or after existing ones) it stays;
 //   - merged after the existing measure words, without duplicates.
@@ -11,7 +13,7 @@
 // Usage: node scripts/hsk2025/fix-inline-classifiers.cjs [--dry-run]
 const common = require('../enrich/common.cjs');
 const dict = require('./dictionaries.cjs');
-const { CORRECTIONS, KEEP_TYPES } = require('./fix-measure-words.cjs');
+const { CORRECTIONS, KEEP_TYPES, nounReadings, verbWithNounHomograph } = require('./fix-measure-words.cjs');
 
 const DRY = process.argv.includes('--dry-run');
 // Inline lists that belong to another sense of the word (reviewed 2026-10-11): 钟 o'clock/time (点 分 秒), 一堆号码,
@@ -41,9 +43,10 @@ const sources = common.loadSources();
 const changes = [];
 const byLevel = {};
 const skippedLone = [];
+const nouns = nounReadings(sources.flatMap(s => s.items));
 for (const source of sources) {
   for (const item of source.items) {
-    if (CORRECTIONS[item.id] || !(KEEP_TYPES.has(item.type) || item.type === 'Verb')) continue;
+    if (CORRECTIONS[item.id] || !(KEEP_TYPES.has(item.type) || item.type === 'Verb') || verbWithNounHomograph(item, nouns)) continue;
     const key = item.id.split(':')[2].replace(/#\d+$/, '');
     // Excluded classifiers also go when an earlier run added them.
     const excluded = EXCLUDE[item.id] || [];
